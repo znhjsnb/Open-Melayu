@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "stor",
+    "syllables": "stor",
+    "ipa": "/stor/",
+    "jawi": "ستور",
+    "frequency_rank": 7557,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "stor",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + stor → stor",
+    "pattern_note": "整词作为独立词素记忆；派生为 menstorkan 时保留词首 st 辅音群，不按简单 s 起首词删去 s。",
+    "word_family": [
+      {
+        "word": "menstorkan",
+        "affix": "meN-…-kan",
+        "gloss": "把物品存入仓库"
+      },
+      {
+        "word": "storan",
+        "affix": "-an",
+        "gloss": "储存；存储设备"
+      },
+      {
+        "word": "penstoran",
+        "affix": "peN-…-an",
+        "gloss": "储存行为或过程"
+      }
+    ],
+    "root_jawi": "ستور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "储藏室、库房或仓库；存放物品的房间、空间或建筑物。",
+      "en_definition": "A room, space, or building used for storing goods.",
+      "ms_definition": "Bangunan, bilik atau ruang tempat menyimpan barang.",
+      "nuances": "这是马来西亚日常及行政语境的常见义。英语 store 若指零售商店，通常译为 kedai。输入包只摘录了另一个动词同形词。两者均见 [DBP PRPM：stor](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=stor)。",
+      "collocations": [
+        {
+          "ms": "bilik stor",
+          "zh": "储藏室",
+          "en": "storeroom"
+        },
+        {
+          "ms": "pengurusan stor",
+          "zh": "仓储管理",
+          "en": "stores management"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "计算机中用于保存数据或指令的存储空间或存储部件。",
+      "en_definition": "Computer storage or a component that holds data or instructions.",
+      "ms_definition": "Ruang atau komponen komputer untuk menyimpan data atau arahan.",
+      "nuances": "用于计算机术语；一般说明设备容量时也常用 storan。见 [DBP PRPM：store 的计算机术语](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=store)。",
+      "collocations": [
+        {
+          "ms": "stor utama",
+          "zh": "主存储器",
+          "en": "main store"
+        },
+        {
+          "ms": "stor setempat",
+          "zh": "本地存储",
+          "en": "local store"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "存入、缴交或支付钱款等。",
+      "en_definition": "To deposit, hand over, or pay money or other items.",
+      "ms_definition": "Memasukkan, menyerahkan atau membayarkan wang dan sebagainya.",
+      "nuances": "《Kamus Dewan》另收此动词同形词并标注 IB，不能与常见的库房名词混为一义。以下是说明性组合，不代表马来西亚当代高频搭配；实际银行业务通常说 memasukkan wang 或 mendepositkan wang。",
+      "collocations": [
+        {
+          "ms": "stor wang",
+          "zh": "存入钱款",
+          "en": "deposit money"
+        },
+        {
+          "ms": "menstorkan wang",
+          "zh": "缴存钱款",
+          "en": "pay in money"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 库房管理通知",
+      "ms": "Semua peralatan hendaklah disimpan di dalam stor selepas digunakan.",
+      "zh": "所有设备使用后均须存放于库房内。",
+      "en": "All equipment must be kept in the storeroom after use."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事寻找物品",
+      "ms_spoken": "Kerusi lebih tu ada kat stor, ambil je.",
+      "ms_standard": "Kerusi tambahan itu ada di dalam stor; ambillah.",
+      "zh": "多出来的椅子在储藏室，直接拿就行。",
+      "en": "The spare chairs are in the storeroom. Just take them.",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "kat 表示位置，相当于 di 或 di dalam。",
+        "je 相当于 sahaja，此处表示直接去拿即可。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku nak ambil kerusi lebih. Ada kat stor ke?",
+          "ms_standard": "Saya hendak mengambil kerusi tambahan. Adakah kerusi itu di dalam stor?",
+          "zh": "我想拿几把备用椅子，是在储藏室吗？",
+          "en": "I need some spare chairs. Are they in the storeroom?"
+        },
+        {
+          "speaker": "Mei Ling (同事)",
+          "ms_spoken": "Ya, aku dah letak kat stor tadi. Ambil je.",
+          "ms_standard": "Ya, saya sudah meletakkannya di dalam stor tadi. Ambillah.",
+          "zh": "对，我刚才已经放进储藏室了，直接拿吧。",
+          "en": "Yes, I put them in the storeroom earlier. Go ahead and take them."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The storage noun is associated with English store, but its everyday Malaysian meaning centres on a place for keeping things. School equipment rooms and office supply rooms make that meaning familiar. DBP also records a separate payment verb under the same spelling. Their shared written form therefore conceals a distinction that learners should preserve.",
+    "cognitive_memory_aid": "stor 联想英语 storage：看见学校门上的 STOR，就想到“里面存东西的库房”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性，适用于日常、职场和政府文件。向负责人取物时可说 Boleh saya mengambil barang dari stor?",
+    "usage_etiquette": "办公室或学校的 stor 可能由专人管理，拿取物资应按规定登记。对上级或不熟悉的人，把 ambil je 改为 sila ambil 或礼貌询问。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性，适用于日常、职场和政府文件。向负责人取物时可说 Boleh saya mengambil barang dari stor?",
+    "usage_etiquette": "办公室或学校的 stor 可能由专人管理，拿取物资应按规定登记。对上级或不熟悉的人，把 ambil je 改为 sila ambil 或礼貌询问。"
+  }
+}

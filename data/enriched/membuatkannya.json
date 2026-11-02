@@ -1,0 +1,140 @@
+{
+  "headword": {
+    "word": "membuatkannya",
+    "syllables": null,
+    "ipa": "/məm.bu.at.kan.ɲa/",
+    "jawi": "ممبواتکن",
+    "frequency_rank": 7429,
+    "status": "official",
+    "data_note": "保留输入音节空值和爪夷文；完整形式可分作 mem.bu.at.kan.nya。输入爪夷文对应 membuatkan，未写出 -nya。",
+    "full_form_jawi": "ممبواتکنڽ"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "membuatkan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "meN- + buat + -kan → membuatkan；membuatkan + -nya → membuatkannya",
+    "pattern_note": "root_word 按输入保留直接基式 membuatkan；最终词根为 buat。meN- 在 b 前变为 mem-，b 保留。-nya 是附着代词，读 /ɲa/，不是新的使役后缀。",
+    "word_family": [
+      {
+        "word": "buat",
+        "affix": null,
+        "gloss": "做；制作"
+      },
+      {
+        "word": "membuat",
+        "affix": "meN-",
+        "gloss": "制作；进行"
+      },
+      {
+        "word": "membuatkan",
+        "affix": "meN-...-kan",
+        "gloss": "为某人制作；使某人或某物处于某状态"
+      },
+      {
+        "word": "dibuatkan",
+        "affix": "di-...-kan",
+        "gloss": "被为之制作；获制作"
+      },
+      {
+        "word": "pembuatan",
+        "affix": "peN-...-an",
+        "gloss": "制作；制造过程"
+      }
+    ],
+    "root_jawi": "ممبواتکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "为他或她制作、准备某物；-nya 指已经提及的受益者。",
+      "en_definition": "To make or prepare something for him or her.",
+      "ms_definition": "Membuat atau menyediakan sesuatu untuk orang yang dirujuk oleh -nya.",
+      "nuances": "这是输入所据 membuatkan 的受益用法。membuatkannya secawan teh 可理解为“为他或她泡一杯茶”；为避免指代不清，也可说 membuatkan dia secawan teh。[DBP：membuatkan](https://prpm.dbp.gov.my/cari1?keyword=membuatkan)",
+      "collocations": [
+        {
+          "ms": "membuatkannya secawan teh",
+          "zh": "为他或她泡一杯茶",
+          "en": "make him or her a cup of tea"
+        },
+        {
+          "ms": "membuatkannya sehelai baju",
+          "zh": "为他或她做一件衣服",
+          "en": "make him or her a garment"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "使他、她或它产生某种感受、状态或变化。",
+      "en_definition": "To cause him, her, or it to experience a state or become a certain way.",
+      "ms_definition": "Menyebabkan orang atau perkara yang dirujuk oleh -nya mengalami sesuatu keadaan.",
+      "nuances": "常见于 membuatkannya gembira、membuatkannya lebih mudah 等结构。-nya 不表示性别，也不必指人；具体所指由前文确定。此处概括实际使役用法，并非逐字引用输入中的受益义释文。",
+      "collocations": [
+        {
+          "ms": "membuatkannya berasa lega",
+          "zh": "使他或她感到宽慰",
+          "en": "make him or her feel relieved"
+        },
+        {
+          "ms": "membuatkannya lebih mudah",
+          "zh": "使它变得更容易",
+          "en": "make it easier"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Aina menerima bimbingan daripada penyelianya, dan sokongan itu membuatkannya lebih yakin untuk membentangkan hasil kajian.",
+      "zh": "艾娜得到了主管的指导，这份支持让她更有信心汇报研究成果。",
+      "en": "Aina received guidance from her supervisor, and that support made her more confident about presenting the research findings."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Amir dah bangun. Bunyi pintu tadi membuatkannya terkejut lah.",
+      "ms_standard": "Amir sudah bangun. Bunyi pintu tadi membuatkannya terkejut.",
+      "zh": "阿米尔已经醒了，刚才的门响把他吓了一跳。",
+      "en": "Amir's awake now. The noise from the door startled him.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "lah 在此加强解释语气；具体语气取决于语调",
+        "membuatkannya 常见于书面表达；随意口语也常改说 buat dia"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Amir masih tidur kat bilik ke?",
+          "ms_standard": "Adakah Amir masih tidur di dalam bilik?",
+          "zh": "阿米尔还在房里睡觉吗？",
+          "en": "Is Amir still asleep in his room?"
+        },
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Tak, dia dah bangun. Bunyi pintu tadi membuatkannya terkejut lah.",
+          "ms_standard": "Tidak, dia sudah bangun. Bunyi pintu tadi membuatkannya terkejut.",
+          "zh": "没，他已经醒了。刚才的门响把他吓了一跳。",
+          "en": "No, he's awake now. The noise from the door startled him."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates how Malay builds meaning around buat, the everyday verb for doing or making. The prefix meN- forms membuat, while -kan supports constructions involving a beneficiary or a resulting state. Adding the attached pronoun -nya points back to someone or something already mentioned. It is productive grammar rather than a separate borrowed word.",
+    "cognitive_memory_aid": "分两步记：membuatkan＝为某人做／使……；再接 -nya＝把前面提到的他、她或它接回来。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身没有不敬意味，但对尊长或正式受访者，明确使用 beliau 或姓名往往更显尊重，也更容易避免指代歧义。",
+    "usage_etiquette": "公文中应让 -nya 的指代对象清楚。对朋友说 buat dia 更口语化；正式写作宜根据句法保留完整词形。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身没有不敬意味，但对尊长或正式受访者，明确使用 beliau 或姓名往往更显尊重，也更容易避免指代歧义。",
+    "usage_etiquette": "公文中应让 -nya 的指代对象清楚。对朋友说 buat dia 更口语化；正式写作宜根据句法保留完整词形。"
+  }
+}

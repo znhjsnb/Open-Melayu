@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "lola",
+    "syllables": null,
+    "ipa": "/lo.la/",
+    "jawi": null,
+    "frequency_rank": 7486,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "lola",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + lola → lola",
+    "pattern_note": "整词记忆，不作词缀拆分。此处分别列出吉兰丹方言形容词和马来西亚海洋语境中的名词，不据拼写相同推定二者同源。未核实稳定派生词，word_family 留空；不能据此拆解 kelola。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "〔吉兰丹方言〕做事不小心的；冒失、毛躁的。",
+      "en_definition": "In Kelantan Malay, careless or rash.",
+      "ms_definition": "Dalam dialek Kelantan, tidak berhati-hati atau gopoh.",
+      "nuances": "这是地区方言义，不宜直接当作全国通用的正式形容词。标准马来语可用 cuai、gopoh 或 tidak berhati-hati。DBP 方言记录的发音约为 [lɔ.lɑ̃]；headword.ipa 给出海螺名词按拼写读出的宽式音值。参见 [DBP《吉兰丹方言词汇表》中的 lola](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=la+ni)。",
+      "collocations": [
+        {
+          "ms": "jangan lola",
+          "zh": "别毛毛躁躁的〔方言〕",
+          "en": "don't be careless"
+        },
+        {
+          "ms": "lola sangat",
+          "zh": "太冒失了〔方言〕",
+          "en": "very careless"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "〔区域海洋用语，常见于 siput lola〕一种具圆锥形贝壳的海螺，其贝壳可用于制作纽扣；相关资料常以 Trochus niloticus 为学名。",
+      "en_definition": "A commercially valuable topshell, commonly called siput lola, whose shell is used to make buttons.",
+      "ms_definition": "Sejenis siput laut bercangkerang kon yang dikenali sebagai siput lola, dengan cangkerang yang digunakan untuk membuat butang.",
+      "nuances": "马来西亚沙巴及海洋研究语境有实际用例；面向一般读者时写 siput lola 更清楚。此义有学术机构用例支持，不应据此声称它已获《Kamus Dewan》独立收词。参见 [马来西亚沙巴大学关于 siput lola 的说明](https://www.ums.edu.my/v6/index.php/ms/artikel-pilihan/dokumentasikan-tradisi-nelayan-bajau-sebagai-bukti-spratly-milik-malaysia)。",
+      "collocations": [
+        {
+          "ms": "siput lola",
+          "zh": "用于制作贝壳纽扣的海螺",
+          "en": "commercial topshell"
+        },
+        {
+          "ms": "cangkerang lola",
+          "zh": "这种海螺的贝壳",
+          "en": "topshell shell"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelidik merekodkan taburan siput lola di kawasan terumbu tersebut.",
+      "zh": "研究团队记录了该珊瑚礁区域内这种海螺的分布。",
+      "en": "The research team recorded the distribution of commercial topshells in the reef area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉吉兰丹方言的朋友交流",
+      "ms_spoken": "Jangan lola sangat, nanti jatuh pula gelas tu.",
+      "ms_standard": "Jangan terlalu gopoh, nanti gelas itu terjatuh.",
+      "zh": "别这么毛躁，小心把那杯子碰掉了。",
+      "en": "Don't rush like that—you'll knock the glass over.",
+      "spoken_features": [
+        "lola 使用吉兰丹方言义，嵌入较通行的口语句式",
+        "tu 对应 itu",
+        "nak 对应 hendak",
+        "dah 对应 sudah"
+      ],
+      "messages": [
+        {
+          "speaker": "Hana (熟悉吉兰丹方言的朋友)",
+          "ms_spoken": "Jangan lola sangat, nanti jatuh pula gelas tu.",
+          "ms_standard": "Jangan terlalu gopoh, nanti gelas itu terjatuh.",
+          "zh": "别这么毛躁，小心把那杯子碰掉了。",
+          "en": "Slow down—you'll knock the glass over."
+        },
+        {
+          "speaker": "Fikri (熟悉吉兰丹方言的朋友)",
+          "ms_spoken": "Yalah, aku nak cepat tadi. Dah letak kat tengah meja.",
+          "ms_standard": "Baiklah, saya hendak cepat tadi. Saya sudah meletakkan gelas itu di tengah meja.",
+          "zh": "知道啦，我刚才赶时间。我已经把杯子放到桌子中间了。",
+          "en": "Okay, I was rushing. I've moved it to the middle of the table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Lola connects two distinct Malaysian settings without establishing a shared origin. DBP records it in Kelantan speech for carelessness. In Sabah's maritime history, siput lola appears in accounts of Bajau fishing voyages and shells collected for button making. These documented settings provide cultural anchors; neither establishes the word's ultimate etymology.",
+    "cognitive_memory_aid": "分两幅画记：朋友提醒“别 lola”，就是别毛躁；海边说 siput lola，就想圆锥海螺和贝壳纽扣。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "方言义用于提醒熟人时可能带亲近感，也可能显得责备。对不熟悉方言的人或在正式工作交流中，宜用 berhati-hati 或 jangan tergesa-gesa。",
+    "usage_etiquette": "形容词义须标明吉兰丹方言；海螺义宜用完整名称 siput lola。字段 status 的 official 为本任务指定值，不代表所有义项都是全国通用标准语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "方言义用于提醒熟人时可能带亲近感，也可能显得责备。对不熟悉方言的人或在正式工作交流中，宜用 berhati-hati 或 jangan tergesa-gesa。",
+    "usage_etiquette": "形容词义须标明吉兰丹方言；海螺义宜用完整名称 siput lola。字段 status 的 official 为本任务指定值，不代表所有义项都是全国通用标准语。"
+  }
+}

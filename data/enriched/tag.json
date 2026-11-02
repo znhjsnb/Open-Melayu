@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "tag",
+    "syllables": "tag",
+    "ipa": "/taɡ/",
+    "jawi": null,
+    "frequency_rank": 7474,
+    "status": "official",
+    "status_note": "DBP 确认 tag 的马来语用法及读音 [tag]；输入未提供 Jawi，故保留 null。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tag",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tag → tag",
+    "pattern_note": "单音节借词。派生形式 mengetag、pengetag 使用 menge-、penge-，保留词首 t。[DBP 术语实例](https://prpm.dbp.gov.my/Cari1.aspx?d=371752&keyword=hmm)",
+    "word_family": [
+      {
+        "word": "mengetag",
+        "affix": "menge-",
+        "gloss": "加标签；标注"
+      },
+      {
+        "word": "pengetag",
+        "affix": "penge-",
+        "gloss": "标注器；执行标注者"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "附在物品上或佩戴在身上，用来显示姓名、价格、身份等信息的标签或标牌。",
+      "en_definition": "A label or marker attached to someone or something to provide identifying or other information.",
+      "ms_definition": "Sesuatu yang disematkan atau dilekatkan pada seseorang atau sesuatu untuk memberikan maklumat seperti nama atau harga.",
+      "nuances": "此义获 DBP 确认，马来语读音为 [tag]，不必照英语读作 /tæɡ/。涉及 name tag 时，也可采用 tanda nama。[DBP 释义与读音说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tag)",
+      "collocations": [
+        {
+          "ms": "tag harga",
+          "zh": "价签",
+          "en": "price tag"
+        },
+        {
+          "ms": "tag nama",
+          "zh": "姓名牌",
+          "en": "name tag"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于标识、分类或检索数字内容的标签；特定技术环境中也指文档标记。",
+      "en_definition": "A digital label or markup element used to identify, classify, retrieve, or structure content.",
+      "ms_definition": "Label atau penanda dalam sistem digital yang digunakan untuk mengenal pasti, mengelaskan, mencari atau menstrukturkan kandungan.",
+      "nuances": "须区分内容分类标签、HTML 标记和社交账号标记。hashtag 通常对应 tanda pagar，不应把所有 tag 都译为“话题标签”。此处为数字领域的解释性归纳。[DBP 数字标签用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=halaman)",
+      "collocations": [
+        {
+          "ms": "tag HTML",
+          "zh": "HTML 标签",
+          "en": "HTML tag"
+        },
+        {
+          "ms": "tag pada foto",
+          "zh": "照片上的标记",
+          "en": "a tag on a photo"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "在社交媒体内容中标记某人或某个账号。",
+      "en_definition": "To identify or mention a person or account in social media content.",
+      "ms_definition": "Dalam percakapan tidak formal, menandai seseorang atau akaunnya pada kandungan media sosial.",
+      "nuances": "tag saya、jangan tag 属于常见非正式表达。正式主动陈述可按语境使用 mengetag 或 menandai；这一口语动词义不等同于声称 DBP 已单独收录相同义项。[英语数字用法参照](https://www.merriam-webster.com/dictionary/tag)",
+      "collocations": [
+        {
+          "ms": "tag kawan dalam gambar",
+          "zh": "在照片中标记朋友",
+          "en": "tag a friend in a photo"
+        },
+        {
+          "ms": "tag akaun rasmi",
+          "zh": "标记官方账号",
+          "en": "tag the official account"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua peserta diminta memakai tag nama sepanjang persidangan berlangsung.",
+      "zh": "请所有与会者在会议期间全程佩戴姓名牌。",
+      "en": "All participants are requested to wear their name tags throughout the conference."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kalau nak muat naik gambar tu, tag aku sekali ya.",
+      "ms_standard": "Jika kamu mahu memuat naik gambar itu, tandai saya juga.",
+      "zh": "你要发那张照片的话，也标记一下我哦。",
+      "en": "If you're posting that photo, tag me too, okay?",
+      "spoken_features": [
+        "nak 对应 mahu；tu 对应 itu。",
+        "tag 直接充当非正式动词。",
+        "sekali 在此表示“也”；句末 ya 缓和请求。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak muat naik gambar semalam. Boleh tag kau sekali?",
+          "ms_standard": "Saya mahu memuat naik gambar semalam. Bolehkah saya menandai kamu juga?",
+          "zh": "我想发昨天的照片，可以顺便标记你吗？",
+          "en": "I'm going to post yesterday's photo. Can I tag you too?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh je, tapi jangan letak lokasi rumah aku ya.",
+          "ms_standard": "Boleh, tetapi jangan sertakan lokasi rumah saya.",
+          "zh": "可以呀，不过别放我家的位置哦。",
+          "en": "Sure, just leave out my home location, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay tag is a borrowing associated with English tag. The English label word has a history reaching Middle English tagge, once referring to a hanging piece of material. Its modern identification function connects physical labels with digital markers. DBP explicitly recognizes the Malay label sense and specifies the pronunciation [tag]. [Merriam-Webster](https://www.merriam-webster.com/dictionary/tag), [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tag)",
+    "cognitive_memory_aid": "想象把一张 tag“贴上去”：贴在衣服上是价签，挂在胸前是姓名牌，附在数字内容上就是标签。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请求标记别人时可说 Boleh saya tag awak?；涉及公开照片或账号时，先征得本人同意更得体。",
+    "usage_etiquette": "实体标签义适合正式场合；社交媒体中直接用 tag 作动词偏口语。标签、账号提及和实时位置是不同信息，应避免未经同意公开他人的住址或位置。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请求标记别人时可说 Boleh saya tag awak?；涉及公开照片或账号时，先征得本人同意更得体。",
+    "usage_etiquette": "实体标签义适合正式场合；社交媒体中直接用 tag 作动词偏口语。标签、账号提及和实时位置是不同信息，应避免未经同意公开他人的住址或位置。"
+  }
+}

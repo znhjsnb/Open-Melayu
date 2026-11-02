@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "membelikan",
+    "syllables": "mem.be.li.kan",
+    "ipa": "/məm.bə.li.kan/",
+    "jawi": "ممبليکن",
+    "frequency_rank": 7472,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "membeli",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "membeli + -kan → membelikan；完整构词：meN- + beli + -kan → membelikan",
+    "pattern_note": "依输入保留直接派生基础 membeli；最底层词根为 beli。meN- 在 b 前变为 mem-，保留 b；添加 -kan 时词干不变。完整结构也可分析为 meN-...-kan。",
+    "word_family": [
+      {
+        "word": "membeli",
+        "affix": "meN-",
+        "gloss": "购买"
+      },
+      {
+        "word": "pembeli",
+        "affix": "peN-",
+        "gloss": "买家；购买者"
+      },
+      {
+        "word": "pembelian",
+        "affix": "peN-...-an",
+        "gloss": "购买行为；采购"
+      },
+      {
+        "word": "dibelikan",
+        "affix": "di-...-kan",
+        "gloss": "被别人买给；被用于购买"
+      }
+    ],
+    "root_jawi": "ممبلي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "为某人购买某物；买给某人。",
+      "en_definition": "To buy something for someone.",
+      "ms_definition": "Membeli sesuatu untuk seseorang.",
+      "nuances": "及物动词，突出受益者。规范的双宾语结构为 membelikan + 受益者 + 所购物品，如 membelikan ibu ubat。另一种清楚的表达是 membeli ubat untuk ibu。[DBP 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membelikan)",
+      "collocations": [
+        {
+          "ms": "membelikan anak buku",
+          "zh": "给孩子买书",
+          "en": "buy books for one's child"
+        },
+        {
+          "ms": "membelikan ibu hadiah",
+          "zh": "给母亲买礼物",
+          "en": "buy a gift for one's mother"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把某笔钱用于购买某物。",
+      "en_definition": "To use a sum of money to purchase something.",
+      "ms_definition": "Menggunakan wang untuk membeli sesuatu.",
+      "nuances": "《Kamus Dewan》另列的资金用途义，常见于以 dibelikan 构成的被动结构。现代说明文通常改用 digunakan untuk membeli，以避免与“买给某人”混淆。以下为释义型搭配，不应视为已获语料频率验证的高频搭配。[DBP 词条](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=membelikan)",
+      "collocations": [
+        {
+          "ms": "wang yang dibelikan rumah",
+          "zh": "用于买房的钱",
+          "en": "money used to buy a house"
+        },
+        {
+          "ms": "wang simpanan yang dibelikan tanah",
+          "zh": "用于买地的积蓄",
+          "en": "savings used to buy land"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Persatuan itu membelikan murid daripada keluarga berpendapatan rendah kelengkapan sekolah.",
+      "zh": "该协会为低收入家庭的学生购买了上学用品。",
+      "en": "The association bought school supplies for pupils from low-income families."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah belikan mak ubat kat farmasi tadi.",
+      "ms_standard": "Saya sudah membelikan ibu ubat di farmasi tadi.",
+      "zh": "我刚才已经在药房给妈妈买药了。",
+      "en": "I already bought Mum her medicine at the pharmacy earlier.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "belikan 是口语中省略主动前缀的形式，此句对应 membelikan。",
+        "mak 对应 ibu；kat 对应 di。",
+        "aku 适用于熟人之间，正式交流可用 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Kau dah belikan mak ubat ke?",
+          "ms_standard": "Adakah kamu sudah membelikan ibu ubat?",
+          "zh": "你给妈妈买药了吗？",
+          "en": "Have you bought Mum her medicine yet?"
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Dah, aku beli kat farmasi tadi. Nanti aku bagi mak.",
+          "ms_standard": "Sudah, saya membelinya di farmasi tadi. Nanti saya akan memberikannya kepada ibu.",
+          "zh": "买了，刚才在药房买的。等会儿拿给妈妈。",
+          "en": "Yes, I got it at the pharmacy earlier. I'll give it to Mum in a bit."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Membelikan belongs to the Malay beli family. Its structure makes the beneficiary prominent: someone purchases an item for another person. Kamus Dewan also records a money-use sense, illustrated through funds used to purchase a house. These documented meanings explain the word more securely than an invented story about its first appearance. [DBP](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=membelikan)",
+    "cognitive_memory_aid": "记 beli＝买，再把 -kan 想成把购买的好处“递给别人”：membelikan ibu buku＝买书给妈妈。这是记忆提示，不是 -kan 的全部语法功能。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请求别人代买东西时，可说 Boleh tolong belikan saya ...?，并补充 terima kasih；与长辈或不熟悉的人交谈时，使用 saya 和合适称谓。",
+    "usage_etiquette": "适用于礼物、代购和日常照顾。词本身不表示赠送，也不说明最终由谁承担费用；涉及代购时应另行说明付款安排。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请求别人代买东西时，可说 Boleh tolong belikan saya ...?，并补充 terima kasih；与长辈或不熟悉的人交谈时，使用 saya 和合适称谓。",
+    "usage_etiquette": "适用于礼物、代购和日常照顾。词本身不表示赠送，也不说明最终由谁承担费用；涉及代购时应另行说明付款安排。"
+  }
+}

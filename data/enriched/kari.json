@@ -1,0 +1,119 @@
+{
+  "headword": {
+    "word": "kari",
+    "syllables": "ka.ri",
+    "ipa": "/kari/",
+    "jawi": "کاري",
+    "frequency_rank": 7507,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kari → kari",
+    "pattern_note": "kari 是作为整体使用的借词，不应分析为 kar + -i。本字段 root_word 按要求保留输入解析值 kar，但该值不是此义的有效语言学词根；实际词根为 kari，因此 is_root 按语言事实标为 true。词族列出复合表达。",
+    "word_family": [
+      {
+        "word": "kari ayam",
+        "affix": "∅；复合表达",
+        "gloss": "咖喱鸡"
+      },
+      {
+        "word": "serbuk kari",
+        "affix": "∅；复合表达",
+        "gloss": "咖喱粉"
+      },
+      {
+        "word": "daun kari",
+        "affix": "∅；复合表达",
+        "gloss": "咖喱叶"
+      }
+    ],
+    "root_jawi": "کاري"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "以混合香料烹煮肉、鱼、蔬菜等制成的咖喱菜肴，也可依语境指其酱汁。",
+      "en_definition": "A dish of meat, fish, vegetables, or other ingredients cooked with a mixture of spices; also its sauce.",
+      "ms_definition": "Masakan berempah yang menggunakan daging, ikan, sayur atau bahan lain, lazimnya dengan kuah.",
+      "nuances": "本条对应输入的饮食义 kari I；咖喱不一定含椰浆，也不一定非常辣。serbuk kari 指咖喱粉，daun kari 指咖喱叶，不能与菜肴本身混同。DBP 另收 kari II，标为爪哇语来源的古旧词，意为“余下物、残余”，与这里的咖喱义分属同形词。参见 [DBP：kari](https://prpm.dbp.gov.my/cari1?keyword=kari)。",
+      "collocations": [
+        {
+          "ms": "kari ayam",
+          "zh": "咖喱鸡",
+          "en": "chicken curry"
+        },
+        {
+          "ms": "kari ikan",
+          "zh": "咖喱鱼",
+          "en": "fish curry"
+        },
+        {
+          "ms": "kuah kari",
+          "zh": "咖喱汁",
+          "en": "curry sauce"
+        },
+        {
+          "ms": "serbuk kari",
+          "zh": "咖喱粉",
+          "en": "curry powder"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak penganjur menyediakan kari ayam sebagai salah satu hidangan utama untuk para peserta.",
+      "zh": "主办方为参与者准备了咖喱鸡，作为其中一道主菜。",
+      "en": "The organisers provided chicken curry as one of the main dishes for participants."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak roti canai dua keping, kuah kari lebih sikit, ya.",
+      "ms_standard": "Saya hendak dua keping roti canai dengan kuah kari yang lebih sedikit, ya.",
+      "zh": "我要两片印度煎饼，咖喱汁多给一点啊。",
+      "en": "I'd like two pieces of roti canai with a little extra curry sauce, please.",
+      "spoken_features": [
+        "nak 对应 hendak",
+        "数量短语放在 roti canai 后面，符合日常点餐表达",
+        "sikit 对应 sedikit",
+        "句末 ya 用于温和确认请求"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak roti canai dua keping, kuah kari lebih sikit, ya.",
+          "ms_standard": "Saya hendak dua keping roti canai dengan kuah kari yang lebih sedikit, ya.",
+          "zh": "我要两片印度煎饼，咖喱汁多给一点啊。",
+          "en": "I'd like two pieces of roti canai with a little extra curry sauce, please."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Baik, aku tolong pesan. Kari ikan kat sini sedaplah!",
+          "ms_standard": "Baiklah, saya akan membantu membuat pesanan. Kari ikan di sini memang sedap!",
+          "zh": "好，我帮你点。这里的咖喱鱼很好吃！",
+          "en": "Sure, I'll order for you. The fish curry here is really good!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kari is ultimately associated with Tamil kaṟi, a culinary word with meanings involving prepared food, meat, and vegetables. Research on South Indian influence in maritime Southeast Asia connects Malay kari with this source, while allowing direct borrowing or English mediation. Its history reflects the movement and local adaptation of food vocabulary across communities. [Historical linguistic study](https://journals.openedition.org/archipel/pdf/490)。",
+    "cognitive_memory_aid": "ka-ri 两拍，对应“咖喱”；再接食材：kari ayam＝咖喱鸡，kari ikan＝咖喱鱼。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "kari 是中性日常词。点餐时用 Saya hendak… 或 Boleh tambah kuah kari sedikit?，比直接命令店员更客气。",
+    "usage_etiquette": "适用于家庭、餐馆及正式菜单。招待客人时应确认肉类、素食及其他饮食要求；单凭 kari 这个名称无法判断配料或是否符合客人的饮食习惯。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "kari 是中性日常词。点餐时用 Saya hendak… 或 Boleh tambah kuah kari sedikit?，比直接命令店员更客气。",
+    "usage_etiquette": "适用于家庭、餐馆及正式菜单。招待客人时应确认肉类、素食及其他饮食要求；单凭 kari 这个名称无法判断配料或是否符合客人的饮食习惯。"
+  }
+}

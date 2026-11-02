@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "pemukul",
+    "syllables": "pe.mu.kul",
+    "ipa": "/pə.mu.kul/",
+    "jawi": "ڤموکول",
+    "frequency_rank": 7485,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pemukul",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + pukul → pemukul",
+    "pattern_note": "peN- 与 p 起首的 pukul 结合时，p 脱落，鼻音实现为 m，形成 pemukul。root_word 按要求保留数据包值 pemukul；实际构词词根是 pukul，因此 is_root 修正为 false。root_jawi 同样保留原包值，实际 pukul 的 Jawi 为 ڤوکول。",
+    "word_family": [
+      {
+        "word": "memukul",
+        "affix": "meN-",
+        "gloss": "击打；敲打"
+      },
+      {
+        "word": "pukulan",
+        "affix": "-an",
+        "gloss": "击打；一击"
+      }
+    ],
+    "root_jawi": "ڤموکول"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "实施击打或敲打的人；也指鼓手、击球手等以击打为动作的人。",
+      "en_definition": "A person who strikes or beats something, including a drummer or batter.",
+      "ms_definition": "Orang yang memukul.",
+      "nuances": "是否涉及暴力取决于宾语和场景；pemukul rebana 指手鼓演奏者，体育中的 pemukul 可指击球手。不能一律译为“打人者”。参见 [DBP：pemukul](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=pemukul)。",
+      "collocations": [
+        {
+          "ms": "pemukul rebana",
+          "zh": "马来手鼓演奏者",
+          "en": "rebana drummer"
+        },
+        {
+          "ms": "pemukul bola",
+          "zh": "击球手",
+          "en": "batter"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于击打、敲打或搅打的工具，如球棒、槌或打蛋器。",
+      "en_definition": "An implement used for striking, beating, or whisking.",
+      "ms_definition": "Alat untuk memukul.",
+      "nuances": "中心义是工具，具体译法由后接名词决定。pemukul telur 是打蛋器；pemukul besbol 是棒球棒。参见 [DBP：pemukul](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=pemukul)。",
+      "collocations": [
+        {
+          "ms": "pemukul telur",
+          "zh": "打蛋器",
+          "en": "egg whisk"
+        },
+        {
+          "ms": "pemukul besbol",
+          "zh": "棒球棒",
+          "en": "baseball bat"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak sekolah menyediakan sarung tangan dan pemukul besbol untuk sesi latihan pasukan.",
+      "zh": "校方为球队训练提供手套和棒球棒。",
+      "en": "The school provides gloves and baseball bats for the team's training sessions."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pemukul telur tu ada kat laci atas je.",
+      "ms_standard": "Pemukul telur itu ada di dalam laci atas sahaja.",
+      "zh": "打蛋器就在上面的抽屉里。",
+      "en": "The whisk is just in the top drawer.",
+      "spoken_features": [
+        "tu 对应 itu",
+        "kat 在地点表达中对应 di 或 di dalam",
+        "je 对应 sahaja",
+        "nak 对应 hendak"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (室友)",
+          "ms_spoken": "Pemukul telur kat mana? Aku nak buat kek ni.",
+          "ms_standard": "Di manakah pemukul telur? Saya hendak membuat kek.",
+          "zh": "打蛋器在哪儿？我想做蛋糕。",
+          "en": "Where's the whisk? I want to bake a cake."
+        },
+        {
+          "speaker": "Mei (室友)",
+          "ms_spoken": "Ada kat laci atas je. Dah guna nanti, basuhlah ya.",
+          "ms_standard": "Alat itu ada di dalam laci atas sahaja. Selepas menggunakannya nanti, tolong basuh.",
+          "zh": "就在上面的抽屉里。用完记得洗一下哦。",
+          "en": "It's just in the top drawer. Wash it when you're done, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pemukul shows a productive Malay naming pattern: peN- can identify either the person performing an action or the tool used for it. Starting from pukul, meaning to strike, Malay obtains a word equally at home beside a rebana drum, on a sports field, or in a kitchen. The surrounding noun resolves the intended meaning.",
+    "cognitive_memory_aid": "pukul 是“打”，peN- 把动作变成“做这动作的人或工具”：看见 pemukul，先想“谁打／拿什么打”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在音乐、体育和厨房语境中是中性词。单独把某人称作 pemukul 可能被理解为指责其打人，应说明具体活动。",
+    "usage_etiquette": "正式报道中可明确写 pemukul rebana、pemukul bola 或 alat pemukul。若讨论袭击事件，应准确区分涉嫌者与已确认实施者。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在音乐、体育和厨房语境中是中性词。单独把某人称作 pemukul 可能被理解为指责其打人，应说明具体活动。",
+    "usage_etiquette": "正式报道中可明确写 pemukul rebana、pemukul bola 或 alat pemukul。若讨论袭击事件，应准确区分涉嫌者与已确认实施者。"
+  }
+}
