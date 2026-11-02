@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "kehadirannya",
+    "syllables": "ke.ha.di.ran.nya",
+    "ipa": "/kə.ha.di.ran.ɲa/",
+    "jawi": "کحاضيرن",
+    "frequency_rank": 13151,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kehadiran",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "kehadiran + -nya → kehadirannya; ke- + hadir + -an → kehadiran",
+    "pattern_note": "按输入保留直接构词基础 kehadiran；其更底层词根是 hadir。-nya 在此为第三人称或回指附着成分，读 /ɲa/，不标性别。输入 Jawi کحاضيرن 对应 kehadiran，尚未包含 -nya。",
+    "word_family": [
+      {
+        "word": "kehadiran",
+        "affix": "ke-...-an",
+        "gloss": "出席；在场；存在"
+      },
+      {
+        "word": "menghadiri",
+        "affix": "meN-...-i",
+        "gloss": "出席；参加某项活动"
+      },
+      {
+        "word": "menghadirkan",
+        "affix": "meN-...-kan",
+        "gloss": "使到场；安排出席"
+      }
+    ],
+    "root_jawi": "کحاضيرن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他或她的出席、到场或在场；具体所指由上文确定。",
+      "en_definition": "His or her attendance, arrival, or presence at a place or event.",
+      "ms_definition": "Perihal seseorang yang telah disebut hadir atau berada di sesuatu tempat atau majlis.",
+      "nuances": "整个词是名词，不是“他出席”的动词句。-nya 不区分男性与女性；如需译出性别，须依据语境。在自然口语中，kehadiran dia 或 dia datang 往往更直接。基础词义依据：[DBP：hadir 与 kehadiran](https://prpm.dbp.gov.my/Cari1?d=382696&keyword=hadir)。",
+      "collocations": [
+        {
+          "ms": "mengesahkan kehadirannya",
+          "zh": "确认他或她将出席",
+          "en": "confirm his or her attendance"
+        },
+        {
+          "ms": "kehadirannya dalam mesyuarat",
+          "zh": "他或她出席会议",
+          "en": "his or her attendance at the meeting"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "前文所述事物、组织、力量或现象的存在、出现或进驻。",
+      "en_definition": "The presence, appearance, or existence of a previously mentioned entity or phenomenon.",
+      "ms_definition": "Adanya atau munculnya sesuatu yang telah disebut dalam sesuatu tempat, keadaan atau lingkungan.",
+      "nuances": "-nya 也可回指非人的对象，因此不能一律译为“他的出席”。例如先提到某家公司，随后说 kehadirannya，可能指该公司的进驻。此义延续 kehadiran 的“存在、出现”用法。参见：[DBP：kehadiran](https://prpm.dbp.gov.my/Cari1?d=382696&keyword=hadir)。",
+      "collocations": [
+        {
+          "ms": "mengesan kehadirannya",
+          "zh": "检测到它的存在",
+          "en": "detect its presence"
+        },
+        {
+          "ms": "kehadirannya di pasaran",
+          "zh": "它在市场上的存在或进驻",
+          "en": "its presence in the market"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pengarah telah mengesahkan kehadirannya dalam mesyuarat pada hari Isnin.",
+      "zh": "主任已确认将出席星期一的会议。",
+      "en": "The director has confirmed attendance at Monday's meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Farah dah sahkan kehadirannya ke? Aku nak kira makanan ni.",
+      "ms_standard": "Adakah Farah sudah mengesahkan kehadirannya? Saya hendak menentukan jumlah makanan yang perlu disediakan.",
+      "zh": "Farah 确认会来了吗？我得算一下要准备多少吃的。",
+      "en": "Has Farah confirmed she's coming? I need to work out how much food to prepare.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "sahkan 是此口语主动句中省略 meN- 的形式，对应 mengesahkan",
+        "句末 ke 表示是非疑问",
+        "nak 对应 hendak",
+        "kehadirannya 在活动协调聊天中自然，但比 dia datang 更偏书面"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (活动筹备同事)",
+          "ms_spoken": "Farah dah sahkan kehadirannya ke? Aku nak kira makanan ni.",
+          "ms_standard": "Adakah Farah sudah mengesahkan kehadirannya? Saya hendak menentukan jumlah makanan yang perlu disediakan.",
+          "zh": "Farah 确认会来了吗？我得算一下要准备多少吃的。",
+          "en": "Has Farah confirmed she's coming? I need to work out how much food to prepare."
+        },
+        {
+          "speaker": "Hakim (活动筹备同事)",
+          "ms_spoken": "Dah, dia datang sorang je. Tambah satu set untuk dia.",
+          "ms_standard": "Sudah, dia akan datang seorang sahaja. Tambahkan satu set makanan untuknya.",
+          "zh": "确认了，她就一个人来。给她加一份吧。",
+          "en": "Yes, she's coming on her own. Add one meal for her."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The underlying word hadir comes from Arabic ḥāḍir, meaning present. Malay integrates that borrowed base into its own productive grammar: ke-...-an forms the noun kehadiran, and -nya connects that presence to someone or something already mentioned. A single written word therefore combines an Arabic lexical inheritance with Malay word formation and reference, expressing anything from a guest's attendance to an institution's presence. [Arabic–Malay borrowing study](https://publisher.unimas.my/ojs/index.php/ILS/article/download/1624/808/3582).",
+    "cognitive_memory_aid": "hadir＝到场；ke-...-an 把它变成“出席这件事”；再加 -nya＝“他／她／它的出席或存在”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈及贵宾时，先明确姓名或尊称，再用 kehadirannya 回指，会更清楚得体。直接感谢受邀者时，应按对象使用 kehadiran tuan、puan 或 anda。",
+    "usage_etiquette": "适合会议、学校点名、邀请回复和活动报道。它本身不带敬意；尊敬程度来自称谓和整句措辞。涉及多人时，kehadiran mereka 通常比含糊的 -nya 更明确。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈及贵宾时，先明确姓名或尊称，再用 kehadirannya 回指，会更清楚得体。直接感谢受邀者时，应按对象使用 kehadiran tuan、puan 或 anda。",
+    "usage_etiquette": "适合会议、学校点名、邀请回复和活动报道。它本身不带敬意；尊敬程度来自称谓和整句措辞。涉及多人时，kehadiran mereka 通常比含糊的 -nya 更明确。"
+  }
+}

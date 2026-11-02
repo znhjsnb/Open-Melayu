@@ -1,0 +1,127 @@
+{
+  "headword": {
+    "word": "masalahkah",
+    "syllables": null,
+    "ipa": "/ma.sa.lah.kah/",
+    "jawi": "مسئله",
+    "frequency_rank": 13175,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "masalah",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "masalah + -kah → masalahkah",
+    "pattern_note": "-kah是后附疑问小品词，此处按字段归入suffix；它不改变masalah的词干或名词词性，书写时须连写。数据包Jawi为masalah的形式，未包含-kah；音节字段未提供，保留null。",
+    "word_family": [
+      {
+        "word": "bermasalah",
+        "affix": "ber-",
+        "gloss": "有问题；存在困难"
+      },
+      {
+        "word": "mempermasalahkan",
+        "affix": "memper-…-kan",
+        "gloss": "把某事视为问题；提出质疑"
+      },
+      {
+        "word": "permasalahan",
+        "affix": "per-…-an",
+        "gloss": "问题；一系列待解决事项"
+      }
+    ],
+    "root_jawi": "مسئله"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "问题吗；算是困难或麻烦吗。以疑问形式询问某事是否构成需要解决的困难。",
+      "en_definition": "A problem?; interrogative form asking whether something constitutes a difficulty requiring resolution.",
+      "ms_definition": "Bentuk tanya bagi masalah, iaitu perkara atau keadaan yang menimbulkan kesukaran dan memerlukan penyelesaian.",
+      "nuances": "名词masalah附加-kah后形成疑问焦点，并未变成独立的疑问代词。语气可为中性询问，也可因重音而带反问或挑战意味。下列为词干masalah的常见搭配；使用-kah时应按整句焦点安排位置。释义综合自[DBP：masalah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=masalah)；小品词功能参见[DBP：kah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kah)。",
+      "collocations": [
+        {
+          "ms": "masalah kewangan",
+          "zh": "财务问题",
+          "en": "financial problems"
+        },
+        {
+          "ms": "masalah teknikal",
+          "zh": "技术问题",
+          "en": "technical problems"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "数学问题吗；数学题吗。询问某个题目或陈述是否属于需要求解的数学问题。",
+      "en_definition": "A mathematical problem?; asking whether something is a mathematical question requiring a solution.",
+      "ms_definition": "Bentuk tanya bagi masalah dalam matematik, iaitu soalan atau pernyataan yang perlu diselesaikan melalui pengiraan atau penaakulan.",
+      "nuances": "这是词干masalah的数学专门义在疑问结构中的用法。并非所有普通的soalan都强调求解过程。下列列出词干搭配。数学义依据[DBP：masalah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=masalah)。",
+      "collocations": [
+        {
+          "ms": "masalah matematik",
+          "zh": "数学问题",
+          "en": "a mathematical problem"
+        },
+        {
+          "ms": "penyelesaian masalah",
+          "zh": "问题求解；解决问题",
+          "en": "problem solving"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Masalahkah perkara ini bagi pihak tuan, atau masih boleh diselesaikan melalui rundingan?",
+      "zh": "这件事对贵方而言构成困难吗，还是仍可通过协商解决？",
+      "en": "Does this present a problem for your organisation, or can it still be resolved through negotiation?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Masalahkah kalau aku nak tukar masa? Aku tanya je.",
+      "ms_standard": "Adakah menjadi masalah jika saya mahu menukar waktu? Saya sekadar bertanya.",
+      "zh": "我想换个时间，会有问题吗？我就问问。",
+      "en": "Would it be a problem if I changed the time? I'm just asking.",
+      "spoken_features": [
+        "保留masalahkah带有较书面、刻意强调的语感；一般口语更常说有停顿的“Masalah ke?”。",
+        "aku是熟人之间的自称，nak对应mahu，je对应sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Masalahkah kalau aku nak datang pukul lapan? Kerja aku belum siap lagi.",
+          "ms_standard": "Adakah menjadi masalah jika saya datang pada pukul lapan? Kerja saya masih belum selesai.",
+          "zh": "我想八点才来，会有问题吗？我的工作还没做完。",
+          "en": "Would it be a problem if I came at eight? I haven't finished my work yet."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tak ada masalah pun. Aku tunggu kat kedai je.",
+          "ms_standard": "Tidak ada masalah. Saya akan menunggu di kedai sahaja.",
+          "zh": "没问题啊。我就在店里等你。",
+          "en": "No problem at all. I'll just wait at the shop."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Masalah comes from Arabic masʾala, a question or matter for consideration. In Malay, the noun belongs naturally in everyday discussions of money, work and practical difficulties. Adding the Malay interrogative particle -kah demonstrates how a borrowed noun participates in local grammar without losing its identity as a noun. [Source: Loan-Words in Indonesian and Malay](https://sealang.net/indonesia/lwim.old/htm/m.htm).",
+    "cognitive_memory_aid": "masalah联想“麻烦事”，末尾-kah像加上一个问号：masalahkah＝“这是麻烦事吗？”此为助记，不是音译词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独、重读地说Masalahkah?可能像在质问“有问题吗？”。对上司、客户或长辈，宜使用完整问句，并交代所询问的事项。",
+    "usage_etiquette": "适用于澄清某事是否构成困难。普通书面询问常用Adakah perkara ini menjadi masalah?；切勿把masalahkah机械地当作所有语境中的“有什么问题”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独、重读地说Masalahkah?可能像在质问“有问题吗？”。对上司、客户或长辈，宜使用完整问句，并交代所询问的事项。",
+    "usage_etiquette": "适用于澄清某事是否构成困难。普通书面询问常用Adakah perkara ini menjadi masalah?；切勿把masalahkah机械地当作所有语境中的“有什么问题”。"
+  }
+}

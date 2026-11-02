@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "penyejuk",
+    "syllables": "pe.nye.juk",
+    "ipa": "/pə.ɲə.dʒuʔ/",
+    "jawi": "ڤڽجوق",
+    "frequency_rank": 13185,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sejuk",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + sejuk → peny- + ejuk → penyejuk",
+    "pattern_note": "peN- 接以 s 开头的 sejuk 时，产生鼻音替换：原首音 s 脱落，由 ny /ɲ/ 承接，形成 penyejuk。词尾 k 在常见马来西亚读音中实现为 [ʔ]。输入包将派生词误作词根，现纠正为 sejuk；分音依据构词及读音补拟。",
+    "word_family": [
+      {
+        "word": "sejuk",
+        "affix": "∅",
+        "gloss": "凉的；冷的"
+      },
+      {
+        "word": "menyejukkan",
+        "affix": "meN-...-kan",
+        "gloss": "使冷却；使平静"
+      },
+      {
+        "word": "penyejukan",
+        "affix": "peN-...-an",
+        "gloss": "冷却过程；制冷"
+      },
+      {
+        "word": "kesejukan",
+        "affix": "ke-...-an",
+        "gloss": "寒冷状态；感到冷"
+      }
+    ],
+    "root_jawi": "سجوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "使物体、空气等变凉或产生凉感的装置、物质或其他事物；冷却器、冷却剂等。",
+      "en_definition": "A device, substance, or other thing that cools something or makes it feel cooler.",
+      "ms_definition": "Sesuatu yang menjadikan sejuk, seperti kipas, alat pendingin atau bahan yang digunakan untuk menyejukkan sesuatu.",
+      "nuances": "核心为输入包的 DBP 义“使之变凉的事物”。具体译法随搭配而变：alat penyejuk 是冷却设备，cecair penyejuk 是冷却液。penyejuk 表示起冷却作用的事物，penyejukan 表示冷却过程。它不必然指冰箱，也不保证发生实际降温，例如风扇可使人感觉凉快。参见 [DBP sejuk 及其派生词](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sejuk)。",
+      "collocations": [
+        {
+          "ms": "alat penyejuk",
+          "zh": "冷却设备",
+          "en": "cooling device"
+        },
+        {
+          "ms": "cecair penyejuk",
+          "zh": "冷却液",
+          "en": "coolant"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在比喻搭配中，指使人心情平静、舒畅或得到慰藉的人或事物。",
+      "en_definition": "Figuratively, someone or something that soothes, comforts, or brings peace of mind.",
+      "ms_definition": "Secara kiasan, orang atau sesuatu yang menenangkan perasaan dan memberikan ketenteraman.",
+      "nuances": "这是 penyejuk hati 等表达中的比喻延伸，不另冒充输入包已列出的 DBP 独立义项。以 sejuk 的“心情平静”义为基础，强调情感安抚，不是身体温度下降。",
+      "collocations": [
+        {
+          "ms": "penyejuk hati",
+          "zh": "使人宽慰的人或事物",
+          "en": "a source of comfort"
+        },
+        {
+          "ms": "kata-kata penyejuk hati",
+          "zh": "宽慰人心的话",
+          "en": "comforting words"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 设备维护报告",
+      "ms": "Juruteknik telah menggantikan cecair penyejuk bagi memastikan enjin beroperasi pada suhu yang sesuai.",
+      "zh": "技术人员已更换冷却液，以确保发动机在适当温度下运转。",
+      "en": "The technician has replaced the coolant to ensure that the engine operates at a suitable temperature."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人讨论车辆维护",
+      "ms_spoken": "Cecair penyejuk kereta dah kurang. Nak singgah bengkel kejap?",
+      "ms_standard": "Paras cecair penyejuk kereta sudah menurun. Mahukah kita singgah sebentar di bengkel?",
+      "zh": "车子的冷却液液位低了。要不要去修车厂看一下？",
+      "en": "The car's coolant is running low. Shall we stop by a workshop?",
+      "spoken_features": [
+        "dah、nak、kejap 分别对应 sudah、hendak、sebentar。",
+        "口语省略 paras，但上下文表示冷却液液位降低。",
+        "疑问句省略主语及正式疑问结构 mahukah kita。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (家人)",
+          "ms_spoken": "Cecair penyejuk kereta dah kurang. Nak singgah bengkel kejap?",
+          "ms_standard": "Paras cecair penyejuk kereta sudah menurun. Mahukah kita singgah sebentar di bengkel?",
+          "zh": "车子的冷却液液位低了。要不要去修车厂看一下？",
+          "en": "The car's coolant is running low. Shall we stop by a workshop?"
+        },
+        {
+          "speaker": "Farah (家人)",
+          "ms_spoken": "Boleh, bengkel tu dekat je. Minta mekanik periksa sekali.",
+          "ms_standard": "Boleh, bengkel itu berdekatan sahaja. Minta mekanik memeriksa kereta juga.",
+          "zh": "可以，那家修车厂很近。顺便请修车师傅检查一下车子。",
+          "en": "Sure, the workshop's nearby. Let's have the mechanic check the car too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penyejuk is transparently formed from sejuk, meaning cool or cold, with the productive Malay prefix peN-. The initial s undergoes nasal substitution, producing ny. The resulting noun names something that cools, from a simple fan to a technical coolant. Expressions such as penyejuk hati extend the same cooling image to emotional relief and reassurance.",
+    "cognitive_memory_aid": "sejuk“凉”加上表示作用者或工具的 peN-：s 换成 ny，penyejuk 就是“让东西变凉的东西”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "设备和材料义是中性用语，可用于日常或专业交流。Penyejuk hati 带温暖、抒情语气，适合安慰、赞美和亲情表达。",
+    "usage_etiquette": "购买或维修时说清 alat penyejuk、cecair penyejuk 或具体设备名称。描述令人安心的人时，penyejuk hati 是比喻性称赞，正式技术说明则应保持具体。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "设备和材料义是中性用语，可用于日常或专业交流。Penyejuk hati 带温暖、抒情语气，适合安慰、赞美和亲情表达。",
+    "usage_etiquette": "购买或维修时说清 alat penyejuk、cecair penyejuk 或具体设备名称。描述令人安心的人时，penyejuk hati 是比喻性称赞，正式技术说明则应保持具体。"
+  }
+}

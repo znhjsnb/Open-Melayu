@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "diharamkan",
+    "syllables": "di.ha.ram.kan",
+    "ipa": "/di.ha.ram.kan/",
+    "jawi": "دحرامکن",
+    "frequency_rank": 13178,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "haram",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + haram + -kan → diharamkan",
+    "pattern_note": "di- 标示被动，-kan 构成表示认定或使成某种状态的动词；词根 haram 保持原形，无鼻音同化。此处 circumfix 表示前后缀组合，两者功能可分别分析。输入包将整个派生词误判为词根，已修正；音节、IPA 和派生词 Jawi 按标准形式补全。",
+    "word_family": [
+      {
+        "word": "haram",
+        "affix": "∅",
+        "gloss": "宗教上禁戒的；违法的"
+      },
+      {
+        "word": "mengharamkan",
+        "affix": "meN-...-kan",
+        "gloss": "宣布禁止；认定为禁戒"
+      },
+      {
+        "word": "pengharaman",
+        "affix": "peN-...-an",
+        "gloss": "禁令；禁止行为"
+      }
+    ],
+    "root_jawi": "حرام"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被认定为伊斯兰教义所禁止；被列为禁戒事项。",
+      "en_definition": "To be declared or regarded as forbidden under Islamic teaching.",
+      "ms_definition": "Ditetapkan atau dianggap haram menurut hukum Islam; ditegah daripada dilakukan atau digunakan.",
+      "nuances": "属于宗教规范用语，力度强于一般的“不建议”。判断依据应指向相关宗教规范或权威，不能仅凭个人不喜欢某事便称其 diharamkan。马来文释义依据 DBP 的 mengharamkan 义项改写为被动式：[DBP：haram](https://prpm.dbp.gov.my/Cari1?d=169476&keyword=Haram)。",
+      "collocations": [
+        {
+          "ms": "diharamkan dalam Islam",
+          "zh": "在伊斯兰教中被禁止",
+          "en": "forbidden in Islam"
+        },
+        {
+          "ms": "diharamkan oleh syarak",
+          "zh": "被伊斯兰教法禁止",
+          "en": "prohibited under Islamic law"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被政府、机构或其他有权主体明令禁止、取缔或禁止使用及传播。",
+      "en_definition": "To be officially banned or prohibited by an authority.",
+      "ms_definition": "Dilarang atau tidak dibenarkan oleh pihak berkuasa, termasuk melalui ketetapan undang-undang atau peraturan.",
+      "nuances": "常用于出版物、组织、活动及产品。强调明确禁令，不表示仅仅尚未获批、暂缓执行或不受欢迎；di- 本身也不表示过去时。",
+      "collocations": [
+        {
+          "ms": "penerbitan yang diharamkan",
+          "zh": "被查禁的出版物",
+          "en": "a banned publication"
+        },
+        {
+          "ms": "penggunaan bahan yang diharamkan",
+          "zh": "使用违禁物质",
+          "en": "the use of prohibited substances"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Menurut pekeliling dalaman itu, penggunaan bahan tersebut diharamkan di semua premis syarikat.",
+      "zh": "根据该内部通告，公司所有场所均禁止使用这种物质。",
+      "en": "According to the internal circular, the substance is banned from use on all company premises."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bahan ni dah diharamkan kat tempat kerja kita, kan?",
+      "ms_standard": "Bahan ini sudah diharamkan di tempat kerja kita, bukan?",
+      "zh": "这种东西已经不准在咱们工作场所用了，对吧？",
+      "en": "This stuff has been banned at our workplace, right?",
+      "spoken_features": [
+        "ni 是 ini 的口语形式。",
+        "dah 对应 sudah；kat 在此对应地点介词 di。",
+        "句末 kan 请求对方确认。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Bahan ni dah diharamkan kat tempat kerja kita, kan?",
+          "ms_standard": "Bahan ini sudah diharamkan di tempat kerja kita, bukan?",
+          "zh": "这种东西已经不准在咱们工作场所用了，对吧？",
+          "en": "This stuff has been banned at our workplace, right?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, guna bahan lain je. Senarainya ada kat papan kenyataan.",
+          "ms_standard": "Ya, gunakan bahan lain sahaja. Senarainya ada di papan kenyataan.",
+          "zh": "对，用别的就行。名单在布告栏上。",
+          "en": "Yeah, just use something else. The list is on the noticeboard."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The root haram is an Arabic borrowing associated with religious prohibition. Malay also uses it for things forbidden by law, giving the word a broader institutional role. Adding -kan produces a verb of declaring or making something forbidden, while di- presents the affected thing as the subject. The religious and administrative meanings coexist. [DBP: haram](https://prpm.dbp.gov.my/Cari1?d=169476&keyword=Haram)",
+    "cognitive_memory_aid": "把 haram 想成一道“禁行线”：haram 是禁戒，diharamkan 就是某事被划入禁区。di- 提醒你看“什么被禁”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "涉及宗教时宜明确依据，避免把个人意见说成宗教裁定。职场普通限制通常用 dilarang 或 tidak dibenarkan 更平实；确有明确禁令时可用 diharamkan。",
+    "usage_etiquette": "适用于宗教说明、政策通知及禁令报道。避免用来贬低他人的族群、饮食文化或个人身份；应说明被禁止的具体行为、物品及适用范围。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "涉及宗教时宜明确依据，避免把个人意见说成宗教裁定。职场普通限制通常用 dilarang 或 tidak dibenarkan 更平实；确有明确禁令时可用 diharamkan。",
+    "usage_etiquette": "适用于宗教说明、政策通知及禁令报道。避免用来贬低他人的族群、饮食文化或个人身份；应说明被禁止的具体行为、物品及适用范围。"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "tujahan",
+    "syllables": "tu.ja.han",
+    "ipa": "/tu.dʒa.han/",
+    "jawi": "توجهن",
+    "frequency_rank": 13211,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tujah",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "tujah + -an → tujahan",
+    "pattern_note": "后缀 -an 构成表示动作结果或相关概念的名词；词干末尾 h 保留。输入包把 tujahan 标为词根，与 DBP 的 tujah 派生词记录不符，此处据词典更正。",
+    "word_family": [
+      {
+        "word": "menujah",
+        "affix": "meN-",
+        "gloss": "用尖物刺、戳；基本义常指由上往下刺"
+      },
+      {
+        "word": "menujahkan",
+        "affix": "meN-…-kan",
+        "gloss": "把矛等尖物刺入"
+      },
+      {
+        "word": "tertujah",
+        "affix": "ter-",
+        "gloss": "被刺中；不慎被扎"
+      }
+    ],
+    "root_jawi": "توجه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用矛、枪等尖锐物刺戳所形成的刺击或刺入结果。",
+      "en_definition": "A thrust or puncture made with a pointed implement or weapon.",
+      "ms_definition": "Hasil menujah; tusukan dengan benda tajam seperti lembing atau tombak.",
+      "nuances": "表示刺戳这一动作或其结果，不专指留下的伤口。词根 menujah 的基本释义包含由上往下刺的动作方向。参见 [DBP：tujah](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=tujah)与 [tujahan](https://prpm.dbp.gov.my/cari1?d=175768&keyword=tujahan)。",
+      "collocations": [
+        {
+          "ms": "tujahan lembing",
+          "zh": "长矛的刺击",
+          "en": "a spear thrust"
+        },
+        {
+          "ms": "tujahan tombak",
+          "zh": "矛的刺戳",
+          "en": "a thrust with a spear"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "推动物体运动的推力，尤指发动机或推进系统产生的力。",
+      "en_definition": "Thrust produced by an engine or propulsion system.",
+      "ms_definition": "Daya yang dihasilkan oleh enjin atau sistem pendorongan untuk menggerakkan sesuatu objek.",
+      "nuances": "属于工程、航空航天语境，不能将所有一般性的推动都机械译作 tujahan。DBP 的航空航天术语释文使用此词表示推进系统产生的推力。参见 [DBP 航空航天术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=dorong)。",
+      "collocations": [
+        {
+          "ms": "tujahan enjin",
+          "zh": "发动机推力",
+          "en": "engine thrust"
+        },
+        {
+          "ms": "tujahan roket",
+          "zh": "火箭推力",
+          "en": "rocket thrust"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "机构或研究工作的主要专长、重点发展领域；常见于 bidang tujahan。",
+      "en_definition": "A principal area of specialization or institutional focus, especially in bidang tujahan.",
+      "ms_definition": "Bidang kepakaran utama atau bidang pengkhususan sesebuah institusi atau kegiatan.",
+      "nuances": "这是机构与学术语境中的引申用法，尤其见于 bidang tujahan；不表示物理推力。DBP 对该搭配的解释为主要专长或专门领域。参见 [DBP 用语咨询](https://prpm.dbp.gov.my/cari1?d=175768&keyword=tujahan)。",
+      "collocations": [
+        {
+          "ms": "bidang tujahan",
+          "zh": "重点专长领域",
+          "en": "principal area of specialization"
+        },
+        {
+          "ms": "bidang tujahan penyelidikan",
+          "zh": "重点研究领域",
+          "en": "research focus area"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 大学研究规划",
+      "ms": "Universiti itu telah menetapkan tenaga boleh baharu sebagai salah satu bidang tujahan penyelidikannya.",
+      "zh": "该大学已将可再生能源列为其重点研究领域之一。",
+      "en": "The university has designated renewable energy as one of its research focus areas."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论火箭展品",
+      "ms_spoken": "Tujahan roket ni kuat juga, kan?",
+      "ms_standard": "Daya tujahan roket ini agak kuat, bukan?",
+      "zh": "这枚火箭的推力还挺强的，对吧？",
+      "en": "This rocket produces quite a lot of thrust, doesn’t it?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "kan 用于寻求对方认同",
+        "je 对应 sahaja",
+        "口语中仍保留技术名词 tujahan"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Tujahan roket ni kuat juga, kan?",
+          "ms_standard": "Daya tujahan roket ini agak kuat, bukan?",
+          "zh": "这枚火箭的推力还挺强的，对吧？",
+          "en": "This rocket produces quite a lot of thrust, doesn’t it?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Ya, tapi yang ni model je. Roket sebenar lagi besar.",
+          "ms_standard": "Ya, tetapi yang ini hanyalah model. Roket sebenar lebih besar.",
+          "zh": "是啊，不过这个只是模型。真正的火箭更大。",
+          "en": "Yes, but this is only a model. The real rocket is bigger."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tujahan makes an abstract noun from tujah, a verb associated with piercing using a pointed object. Its semantic range offers a useful cultural journey: a concrete thrust becomes an engineering force, while bidang tujahan identifies an institution’s specialist focus. These are documented uses; they do not establish a separate ancient borrowing history. Sources: [DBP morphology](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=tujah), [DBP usage](https://prpm.dbp.gov.my/cari1?d=175768&keyword=tujahan).",
+    "cognitive_memory_aid": "tujah 是“刺、推进”，加 -an 得 tujahan：先想矛尖向前刺，再联想到发动机推力和研究发力点。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于技术说明和机构规划时语气中性、正式。向非专业听众说明 bidang tujahan 时，可补充 bidang kepakaran utama，让意思更清楚。",
+    "usage_etiquette": "谈武器时表示刺击，谈发动机时表示推力，谈大学或机构时可表示重点领域。涉及真实伤害时宜客观描述，避免用刺击意象威胁他人。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于技术说明和机构规划时语气中性、正式。向非专业听众说明 bidang tujahan 时，可补充 bidang kepakaran utama，让意思更清楚。",
+    "usage_etiquette": "谈武器时表示刺击，谈发动机时表示推力，谈大学或机构时可表示重点领域。涉及真实伤害时宜客观描述，避免用刺击意象威胁他人。"
+  }
+}

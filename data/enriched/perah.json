@@ -1,0 +1,155 @@
+{
+  "headword": {
+    "word": "perah",
+    "syllables": "pe.rah",
+    "ipa": "/pəˈrah/",
+    "jawi": "ڤره",
+    "frequency_rank": 13152,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "perah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + perah → perah; meN- + perah → memerah",
+    "pattern_note": "perah 是完整词根，不能拆成 pe- + rah；输入中的 rah 分析需纠正。派生 memerah 时，meN- 在 /p/ 前变为 mem-，词根起首 p 脱落。树名 perah 是同形名词，不能据此认定与挤压义同源。",
+    "word_family": [
+      {
+        "word": "memerah",
+        "affix": "meN-",
+        "gloss": "挤；榨；拧出液体"
+      },
+      {
+        "word": "perahan",
+        "affix": "-an",
+        "gloss": "挤出物；榨取所得；供挤奶的"
+      },
+      {
+        "word": "pemerah",
+        "affix": "peN-",
+        "gloss": "榨汁器；挤奶者"
+      },
+      {
+        "word": "pemerahan",
+        "affix": "peN-...-an",
+        "gloss": "挤榨或挤奶的过程"
+      }
+    ],
+    "root_jawi": "ڤره"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "通过挤、捏、揉压或拧绞，使水、汁、奶等液体流出。",
+      "en_definition": "To extract liquid by squeezing, pressing, or wringing.",
+      "ms_definition": "Mengeluarkan cecair daripada sesuatu dengan memicit, meramas, menekan atau memulasnya.",
+      "nuances": "perah 自然用于命令句、口语和特定被动结构；正式主动陈述通常用 memerah。perah kelapa 指从椰肉中挤取椰浆，perah kain 指拧出布中的水。义项与派生词依据：[DBP：perah](https://prpm.dbp.gov.my/Cari1?d=382696&keyword=perah)。",
+      "collocations": [
+        {
+          "ms": "perah limau",
+          "zh": "挤青柠汁",
+          "en": "squeeze a lime"
+        },
+        {
+          "ms": "perah kain",
+          "zh": "拧干布",
+          "en": "wring out a cloth"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "比喻竭力运用脑力或体力；绞尽脑汁或辛勤劳动。",
+      "en_definition": "To exert oneself intensely in thought or physical work.",
+      "ms_definition": "Menggunakan daya fikiran atau tenaga dengan bersungguh-sungguh, khususnya dalam ungkapan tentang otak dan keringat.",
+      "nuances": "主要见于固定搭配。perah otak 表示认真苦思，perah keringat 表示辛勤出力；正式主动句通常写 memerah otak、memerah keringat。不能脱离搭配就把 perah 当成一般的“努力”。参见：[DBP：perah](https://prpm.dbp.gov.my/Cari1?d=382696&keyword=perah)。",
+      "collocations": [
+        {
+          "ms": "perah otak",
+          "zh": "绞尽脑汁",
+          "en": "rack one's brains"
+        },
+        {
+          "ms": "perah keringat",
+          "zh": "辛勤劳动；挥汗苦干",
+          "en": "work hard; toil"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "一种热带树木，学名 Elateriospermum tapos，俗称 perah。",
+      "en_definition": "A tropical tree, Elateriospermum tapos, known locally as perah.",
+      "ms_definition": "Sejenis pokok tropika daripada spesies Elateriospermum tapos.",
+      "nuances": "这是植物名称义，与挤压动作义分开理解。buah perah 和 biji perah 分别指其果实与种子。植物身份依据：[马来西亚森林研究院：PERAH](https://herbaxpress.frim.gov.my/kenaliHerbaDetail_bi.cfm?namaHerba=PERAH)。",
+      "collocations": [
+        {
+          "ms": "pokok perah",
+          "zh": "perah 树",
+          "en": "a perah tree"
+        },
+        {
+          "ms": "biji perah",
+          "zh": "perah 树的种子",
+          "en": "perah seeds"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Prosedur penyediaan menetapkan arahan berikut: perah kelapa parut untuk mendapatkan santan, kemudian tapis santan tersebut.",
+      "zh": "制作规程规定如下操作：挤压椰丝取得椰浆，然后过滤椰浆。",
+      "en": "The preparation procedure specifies the following steps: squeeze the grated coconut to extract the coconut milk, then strain it."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Perah limau sikit dalam sup tu, baru sedap.",
+      "ms_standard": "Perahkan sedikit jus limau ke dalam sup itu supaya rasanya lebih sedap.",
+      "zh": "往那碗汤里挤点青柠汁，才够好喝。",
+      "en": "Squeeze a little lime into that soup. It'll taste better.",
+      "spoken_features": [
+        "命令句直接使用词根 perah",
+        "sikit 对应 sedikit",
+        "tu 对应 itu",
+        "dalam 在口语中可代替表示方向的 ke dalam",
+        "baru sedap 自然表达“这样才好吃”"
+      ],
+      "messages": [
+        {
+          "speaker": "Kak Lina (姐姐)",
+          "ms_spoken": "Perah limau sikit dalam sup tu, baru sedap.",
+          "ms_standard": "Perahkan sedikit jus limau ke dalam sup itu supaya rasanya lebih sedap.",
+          "zh": "往那碗汤里挤点青柠汁，才够好喝。",
+          "en": "Squeeze a little lime into that soup. It'll taste better."
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Dah, aku letak sikit je. Tak nak masam sangat.",
+          "ms_standard": "Sudah, saya telah menambahkan sedikit sahaja. Saya tidak mahu sup itu terlalu masam.",
+          "zh": "挤了，我只加了一点，不想太酸。",
+          "en": "Done. I only added a little—I don't want it too sour."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries distinguish the squeezing verb perah from a tree bearing the same name. The verb connects familiar household actions, such as wringing cloth and extracting coconut milk, with figurative effort: squeezing the brain means thinking intensely. The tree name belongs to a separate botanical entry. Their identical spelling is therefore a useful lesson in separating homonyms rather than inventing a shared origin. [Dictionary reference](https://prpm.dbp.gov.my/Cari1?d=382696&keyword=perah).",
+    "cognitive_memory_aid": "把 perah 记成“挤到流出来”：挤青柠出汁、拧布出水；挤 otak，就成了“绞尽脑汁”。树名另记。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Perah limau! 是直接指令；请别人帮忙时，用 Tolong perah limau ini 或 Boleh tolong perahkan limau? 更柔和。",
+    "usage_etiquette": "厨房、洗衣和农业语境都适用。memerah keringat 可赞扬辛劳，但不要用来轻描淡写他人的劳累。植物义属于另一同形词，需凭 pokok、buah 或 biji 等语境识别。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Perah limau! 是直接指令；请别人帮忙时，用 Tolong perah limau ini 或 Boleh tolong perahkan limau? 更柔和。",
+    "usage_etiquette": "厨房、洗衣和农业语境都适用。memerah keringat 可赞扬辛劳，但不要用来轻描淡写他人的劳累。植物义属于另一同形词，需凭 pokok、buah 或 biji 等语境识别。"
+  }
+}

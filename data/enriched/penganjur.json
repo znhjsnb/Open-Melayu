@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "penganjur",
+    "syllables": "pe.ngan.jur",
+    "ipa": "/pə.ŋan.dʒur/",
+    "jawi": "ڤڠنجور",
+    "frequency_rank": 13183,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "anjur",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + anjur → peng- + anjur → penganjur",
+    "pattern_note": "peN- 在元音 a 前采用 peng- /pəŋ/，词根 anjur 保留；前缀末尾 /ŋ/ 在读音中接入下一音节，故分音为 pe.ngan.jur。词根爪夷文未在输入包中提供，保留 null。",
+    "word_family": [
+      {
+        "word": "menganjurkan",
+        "affix": "meN-...-kan",
+        "gloss": "举办；提出建议"
+      },
+      {
+        "word": "penganjuran",
+        "affix": "peN-...-an",
+        "gloss": "举办活动的工作或过程"
+      },
+      {
+        "word": "anjuran",
+        "affix": "-an",
+        "gloss": "建议；某方主办的活动"
+      },
+      {
+        "word": "menganjuri",
+        "affix": "meN-...-i",
+        "gloss": "带头；领导某项事业"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "走在前面、率先前进的人；领头者。",
+      "en_definition": "A person who goes ahead of others or leads the way.",
+      "ms_definition": "Orang yang berada atau berjalan di hadapan orang lain sebagai pendahulu.",
+      "nuances": "对应输入包《Kamus Dewan》的第一义，偏叙事或较旧的表达。此处强调实际位置上的领头；现代日常活动通知通常使用第三义。以下搭配用于说明此较少见义项。",
+      "collocations": [
+        {
+          "ms": "penganjur rombongan",
+          "zh": "队伍的领头者",
+          "en": "the person leading the group"
+        },
+        {
+          "ms": "berjalan sebagai penganjur",
+          "zh": "走在前面领路",
+          "en": "to walk ahead as the leader"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "带头发起或推动某项事业、运动的人；倡导者、领导者。",
+      "en_definition": "An initiator, leader, or promoter of a cause or undertaking.",
+      "ms_definition": "Orang yang memulakan, memimpin atau menggerakkan sesuatu usaha atau perjuangan.",
+      "nuances": "对应输入包第二义，强调倡导和带领，而非单次活动的行政安排。不能因英文提示出现 developer 就直接理解为房地产开发商；后者通常是 pemaju。",
+      "collocations": [
+        {
+          "ms": "penganjur gerakan",
+          "zh": "运动的发起者",
+          "en": "the initiator of a movement"
+        },
+        {
+          "ms": "penganjur perjuangan",
+          "zh": "某项斗争或事业的倡导者",
+          "en": "a leader of a struggle or cause"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "负责筹办、举办活动的个人或机构；主办方。",
+      "en_definition": "A person or organization responsible for organizing an event.",
+      "ms_definition": "Individu atau pihak yang mengurus dan mengadakan sesuatu majlis, pertandingan atau kegiatan.",
+      "nuances": "对应输入包第三义，是现代马来西亚活动公告、新闻及职场语境中的常用义。penganjur 是主办方；penaja 是赞助方；peserta 是参与者，三者职责不同。",
+      "collocations": [
+        {
+          "ms": "pihak penganjur",
+          "zh": "主办方",
+          "en": "the organizers"
+        },
+        {
+          "ms": "penganjur pertandingan",
+          "zh": "比赛主办方",
+          "en": "the competition organizer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 活动公告",
+      "ms": "Pihak penganjur memaklumkan bahawa pendaftaran peserta akan ditutup pada hari Jumaat.",
+      "zh": "主办方通知，参与者报名将于星期五截止。",
+      "en": "The organizers have announced that participant registration will close on Friday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论活动",
+      "ms_spoken": "Penganjur dah tukar tempat ke? Aku nak pergi petang ni.",
+      "ms_standard": "Adakah pihak penganjur sudah menukar lokasi acara? Saya hendak pergi pada petang ini.",
+      "zh": "主办方换地点了吗？我今天下午想去。",
+      "en": "Have the organizers changed the venue? I'm planning to go this afternoon.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式，nak 对应 hendak。",
+        "句末 ke 构成口语疑问。",
+        "petang ni 对应 petang ini；地点所指的活动由上下文补足。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Penganjur dah tukar tempat ke? Aku nak pergi petang ni.",
+          "ms_standard": "Adakah pihak penganjur sudah menukar lokasi acara? Saya hendak pergi pada petang ini.",
+          "zh": "主办方换地点了吗？我今天下午想去。",
+          "en": "Have the organizers changed the venue? I'm planning to go this afternoon."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah. Sekarang kat dewan komuniti. Tengok mesej penganjur tadi, ada lokasi baharu.",
+          "ms_standard": "Ya, lokasi acara sudah ditukar ke dewan komuniti. Sila lihat mesej pihak penganjur tadi yang menyertakan lokasi baharu.",
+          "zh": "换了，现在在社区礼堂。看看主办方刚才的消息，里面有新地点。",
+          "en": "Yes, it's at the community hall now. Check the organizers' earlier message for the new location."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary connects anjur with forward movement and prominence. With the person-forming prefix peN-, penganjur names someone who goes ahead, leads an undertaking, or organizes an event. These meanings offer a useful spatial image: the organizer stands at the front of collective activity. This explains the semantic connection without assuming a documented chronology for each sense.",
+    "cognitive_memory_aid": "anjur 联想“向前带头”，peN- 标出做事者：penganjur 就是带头把活动办起来的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Pihak penganjur 是公告、投诉和正式询问中的中性尊重表达。直接联系工作人员时，可先用 Salam sejahtera，再清楚说明活动名称和问题。",
+    "usage_etiquette": "在海报、致谢和报道中区分 penganjur、penganjur bersama 与 penaja，分别表示主办方、联合主办方和赞助方，避免误列机构职责。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Pihak penganjur 是公告、投诉和正式询问中的中性尊重表达。直接联系工作人员时，可先用 Salam sejahtera，再清楚说明活动名称和问题。",
+    "usage_etiquette": "在海报、致谢和报道中区分 penganjur、penganjur bersama 与 penaja，分别表示主办方、联合主办方和赞助方，避免误列机构职责。"
+  }
+}

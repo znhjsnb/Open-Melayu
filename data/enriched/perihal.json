@@ -1,0 +1,146 @@
+{
+  "headword": {
+    "word": "perihal",
+    "syllables": "pe.ri.hal",
+    "ipa": "/pə.ri.hal/",
+    "jawi": "ڤريحال",
+    "frequency_rank": 13129,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "perihal",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + perihal → perihal",
+    "pattern_note": "按包内分析作为完整词基处理，不误拆为前缀 per-。派生 memerihalkan 时，meN- 在 /p/ 前变为 mem-，词基首音 /p/ 脱落。",
+    "word_family": [
+      {
+        "word": "memerihalkan",
+        "affix": "meN-…-kan",
+        "gloss": "叙述；描述；说明"
+      },
+      {
+        "word": "pemerihalan",
+        "affix": "peN-…-an",
+        "gloss": "描述；叙述过程"
+      }
+    ],
+    "root_jawi": "ڤريحال"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "某人或某事物的情况、情形或状况。",
+      "en_definition": "The circumstances, condition, or state of someone or something.",
+      "ms_definition": "Hal dan keadaan sesuatu.",
+      "nuances": "强调所谈对象的情况，常见于书面介绍、叙述和说明；如 perihal diri 指个人情况。口语中常用 hal 或 keadaan。[DBP](https://prpm.dbp.gov.my/Cari1?d=279992&keyword=perihal)。",
+      "collocations": [
+        {
+          "ms": "perihal diri",
+          "zh": "个人情况",
+          "en": "personal circumstances"
+        },
+        {
+          "ms": "perihal kehidupan masyarakat",
+          "zh": "社会群体的生活状况",
+          "en": "the circumstances of community life"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "发生的事情；事件；事变。",
+      "en_definition": "Something that happens; an event or incident.",
+      "ms_definition": "Sesuatu yang berlaku; peristiwa; kejadian.",
+      "nuances": "这一事件义较具文学色彩，尤其见于传统叙事。现代新闻中，具体事故通常用 kejadian，历史或社会事件常用 peristiwa；不能假定所有此类名词均可自由替换。[DBP](https://prpm.dbp.gov.my/Cari1?d=279992&keyword=perihal)。",
+      "collocations": [
+        {
+          "ms": "melihat perihal itu",
+          "zh": "看见那一幕事情",
+          "en": "to witness that incident"
+        },
+        {
+          "ms": "segala perihal yang berlaku",
+          "zh": "所发生的一切事情",
+          "en": "everything that happened"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "preposition",
+      "zh_definition": "关于；有关；就某一事项而言。",
+      "en_definition": "About; concerning; with regard to.",
+      "ms_definition": "Tentang atau berkenaan dengan sesuatu perkara.",
+      "nuances": "用作引出话题的介词性表达，语气偏书面。可见于标题、说明和汇报；日常交谈中 tentang 或口语 pasal 更常见。DBP同义词资料将此用法与 mengenai、tentang 等联系起来。[DBP 同义词资料](https://prpm.dbp.gov.my/Cari1?d=279992&keyword=perihal)。",
+      "collocations": [
+        {
+          "ms": "berbincang perihal pendidikan",
+          "zh": "讨论教育问题",
+          "en": "to discuss education"
+        },
+        {
+          "ms": "bertanya perihal keluarga",
+          "zh": "询问家庭情况",
+          "en": "to ask about someone's family"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan akan memberikan penjelasan perihal perubahan jadual kerja kepada semua kakitangan.",
+      "zh": "管理层将向全体员工说明工作时间安排的变动。",
+      "en": "Management will explain the changes to the work schedule to all staff."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak tanya perihal cuti tu, dah lulus ke?",
+      "ms_standard": "Saya hendak bertanya tentang permohonan cuti itu. Adakah permohonan tersebut sudah diluluskan?",
+      "zh": "我想问一下那次请假的事，批了吗？",
+      "en": "I wanted to ask about that leave request. Has it been approved?",
+      "spoken_features": [
+        "aku 用于熟人之间",
+        "nak 对应 hendak",
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "句末 ke 构成口语疑问",
+        "省略 permohonan 和被动标记，形成简短的职场聊天表达"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Aku nak tanya perihal cuti tu, dah lulus ke?",
+          "ms_standard": "Saya hendak bertanya tentang permohonan cuti itu. Adakah permohonan tersebut sudah diluluskan?",
+          "zh": "我想问一下那次请假的事，批了吗？",
+          "en": "I wanted to ask about that leave request. Has it been approved?"
+        },
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Dah, semak e-mel je. Surat kelulusan ada kat situ.",
+          "ms_standard": "Sudah diluluskan. Semak e-mel sahaja; surat kelulusan ada di situ.",
+          "zh": "批了，查一下邮件就行，批准信在里面。",
+          "en": "Yes, it has. Just check your email—the approval letter is there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Perihal preserves a storytelling flavour alongside its practical modern uses. DBP illustrates it through accounts of a Malay country and an incident witnessed by a ruler, reflecting its suitability for describing circumstances and events. The related verb memerihalkan means to describe or explain. This lexical connection helps explain why the word also works naturally when introducing the subject of an account. [DBP](https://prpm.dbp.gov.my/Cari1?d=279992&keyword=perihal).",
+    "cognitive_memory_aid": "把 pe-ri-hal 最后的 hal 记成“事情”：perihal 可指“事情的情况”，放在话题前又可表示“关于这件事”。这是记忆联想，不是词源拆分。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "perihal 本身偏书面，但不会自动让问题变礼貌。询问家庭或个人情况时，可用 Jika tidak keberatan, boleh saya bertanya… 来表达尊重。",
+    "usage_etiquette": "适合正式说明、文章标题、人物介绍和文学叙事。朋友聊天中使用会略显郑重；在涉及隐私的话题中，应给对方不作回答的空间。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "perihal 本身偏书面，但不会自动让问题变礼貌。询问家庭或个人情况时，可用 Jika tidak keberatan, boleh saya bertanya… 来表达尊重。",
+    "usage_etiquette": "适合正式说明、文章标题、人物介绍和文学叙事。朋友聊天中使用会略显郑重；在涉及隐私的话题中，应给对方不作回答的空间。"
+  }
+}

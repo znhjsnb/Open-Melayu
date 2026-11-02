@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "menyiasatnya",
+    "syllables": null,
+    "ipa": "/məɲiasatɲa/",
+    "jawi": "مڽياست",
+    "frequency_rank": 13154,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyiasat",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "menyiasat + -nya → menyiasatnya；完整构词：meN- + siasat + -nya → menyiasatnya",
+    "pattern_note": "保留数据包的直接基础形式 menyiasat；其词根为 siasat。meN- 遇词首 s 时变为 meny-，原 s 脱落。-nya 是附着代词，此处通常充当宾语，并非派生后缀；suffix 为当前字段的近似分类。数据包的 Jawi 未包含 -nya，完整形式为 مڽياستڽ。",
+    "word_family": [
+      {
+        "word": "siasatan",
+        "affix": "-an",
+        "gloss": "调查；调查结果"
+      },
+      {
+        "word": "penyiasat",
+        "affix": "peN-",
+        "gloss": "调查员"
+      }
+    ],
+    "root_jawi": "مڽياست"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "调查它或调查此事，查明有关事实与情况。",
+      "en_definition": "To investigate it or look into the matter.",
+      "ms_definition": "Menyelidik perkara yang dirujuk untuk mendapatkan keterangan dan mengetahui keadaan sebenar.",
+      "nuances": "现代常用义。-nya 的具体所指必须从上下文确定，不能一律译为“他”。数据包所给的“惩罚、虐待、折磨”属于另一古典义，不能取代现代调查义。这里的马来文释义依据词根条目，结合附着代词改写。[DBP：siasat](https://prpm.dbp.gov.my/cari1?keyword=siasat)",
+      "collocations": [
+        {
+          "ms": "menyiasatnya dengan teliti",
+          "zh": "仔细调查此事",
+          "en": "investigate it thoroughly"
+        },
+        {
+          "ms": "menyiasatnya lebih lanjut",
+          "zh": "进一步调查此事",
+          "en": "investigate it further"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "深入研究或查验它，以辨明其性质、原因或真实性。",
+      "en_definition": "To examine or study it to establish its nature, cause, or truth.",
+      "ms_definition": "Meneliti perkara yang dirujuk untuk mengenal pasti sifat, sebab atau kebenarannya.",
+      "nuances": "用于论断、现象、病因等对象，语义不限于警方办案；日常语境也可译为“查个究竟”。",
+      "collocations": [
+        {
+          "ms": "menyiasatnya secara saintifik",
+          "zh": "以科学方法研究它",
+          "en": "examine it scientifically"
+        },
+        {
+          "ms": "menyiasatnya secara mendalam",
+          "zh": "深入研究它",
+          "en": "examine it in depth"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "向他或她问话，以获取相关资料或查明事实。",
+      "en_definition": "To question him or her to obtain information or establish facts.",
+      "ms_definition": "Menyoal orang yang dirujuk untuk memperoleh maklumat atau mengetahui perkara sebenar.",
+      "nuances": "当 -nya 指人时成立。可表示调查性问话；是否带有强制或审讯色彩，须看机构、程序和上下文，不能仅凭此词认定。",
+      "collocations": [
+        {
+          "ms": "polis menyiasatnya",
+          "zh": "警方对他或她进行调查问话",
+          "en": "the police question him or her"
+        },
+        {
+          "ms": "menyiasatnya berhubung dengan kes itu",
+          "zh": "就该案件向他或她问话",
+          "en": "question him or her about the case"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "【古典文学用语】惩罚、虐待或折磨他或她。",
+      "en_definition": "In classical literary usage, to punish, ill-treat, or torture him or her.",
+      "ms_definition": "Dalam penggunaan sastera lama, menghukum, menganiaya atau menyeksa orang yang dirujuk.",
+      "nuances": "DBP 将对应词根列为 siasat II，并标注 sl，即 sastera lama。以下为帮助理解古义的组合示例，不代表现代高频搭配；现代新闻中的 menyiasatnya 通常应按调查义理解。",
+      "collocations": [
+        {
+          "ms": "menyiasatnya dengan kejam",
+          "zh": "残酷地折磨他或她",
+          "en": "torture him or her cruelly"
+        },
+        {
+          "ms": "menyiasatnya hingga menderita",
+          "zh": "虐待他或她，使其受苦",
+          "en": "ill-treat him or her, causing suffering"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan telah menerima aduan tersebut dan akan menyiasatnya dengan teliti sebelum mengambil tindakan.",
+      "zh": "管理层已收到该投诉，并将在采取行动前仔细调查此事。",
+      "en": "Management has received the complaint and will investigate it thoroughly before taking action."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kes tu polis dah mula menyiasatnya, kan?",
+      "ms_standard": "Polis sudah mula menyiasat kes itu, bukan?",
+      "zh": "那件案子警方已经开始查了，对吧？",
+      "en": "The police have started investigating that case, right?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "dah 是 sudah 的口语形式。",
+        "kan 在句末请求确认。",
+        "完整形式 menyiasatnya 在口语中偏正式，谈论警方调查时仍可自然使用。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kes tu polis dah mula menyiasatnya, kan?",
+          "ms_standard": "Polis sudah mula menyiasat kes itu, bukan?",
+          "zh": "那件案子警方已经开始查了，对吧？",
+          "en": "The police have started investigating that case, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, dah. Kita tunggu je hasil siasatan, jangan sebar cerita dulu.",
+          "ms_standard": "Ya, sudah. Kita tunggu sahaja hasil siasatan dan jangan menyebarkan cerita terlebih dahulu.",
+          "zh": "对，已经开始了。我们就等调查结果吧，先别乱传。",
+          "en": "Yes, they have. Let's wait for the findings and avoid spreading stories."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP preserves two dictionary senses of siasat that modern readers should distinguish. One concerns investigation, examination, and questioning; another, marked as classical literary usage, concerns punishment and suffering. Menyiasatnya adds an attached third-person pronoun to the verb. This makes context especially important when interpreting older texts alongside present-day reporting.",
+    "cognitive_memory_aid": "把 siasat 联想到“细查事实”：menyiasat 是进行细查，末尾 -nya 把调查对象接上，形成“查它／查他／查她”。此联想用于记忆，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于人物时，menyiasat 带有调查意味；向同事或长辈询问普通事情，bertanya 或 mendapatkan penjelasan 往往更温和。",
+    "usage_etiquette": "新闻、投诉处理和内部调查中适用。使用 -nya 前应先交代所指对象；调查某人不等于认定其有错或有罪。古典惩罚义仅在相应历史文本中采用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于人物时，menyiasat 带有调查意味；向同事或长辈询问普通事情，bertanya 或 mendapatkan penjelasan 往往更温和。",
+    "usage_etiquette": "新闻、投诉处理和内部调查中适用。使用 -nya 前应先交代所指对象；调查某人不等于认定其有错或有罪。古典惩罚义仅在相应历史文本中采用。"
+  }
+}

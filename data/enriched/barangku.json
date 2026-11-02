@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "barangku",
+    "syllables": null,
+    "ipa": "/baraŋku/",
+    "jawi": "بارڠ",
+    "frequency_rank": 13156,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "barang",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "barang + -ku → barangku",
+    "pattern_note": "-ku 是 aku 的附着形式，在此表示第一人称单数领属，须与 barang 连写；它不是派生后缀，suffix 为当前字段的近似分类。词根末尾 /ŋ/ 保留。数据包的 Jawi 只写出 barang，完整形式为 بارڠکو。",
+    "word_family": [
+      {
+        "word": "barangan",
+        "affix": "-an",
+        "gloss": "商品；货品"
+      },
+      {
+        "word": "barangmu",
+        "affix": "-mu（附着代词）",
+        "gloss": "你的物品"
+      }
+    ],
+    "root_jawi": "بارڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "我的物品、东西或个人所有物；具体数量由上下文确定。",
+      "en_definition": "My thing, things, or belongings, with number determined by context.",
+      "ms_definition": "Benda, perkakas atau harta benda kepunyaan aku.",
+      "nuances": "由 barang 的实体物品义加领属 -ku 构成，不自动表示复数。barang 的“约、大概”及“任何”用法不能直接移植到 barangku。马来文释义为依据基础词义组合而成。[DBP：barang](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=barang)；附着代词连写依据 [DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "mengemas barangku",
+          "zh": "收拾我的东西",
+          "en": "pack or tidy up my belongings"
+        },
+        {
+          "ms": "mengambil barangku",
+          "zh": "拿取我的东西",
+          "en": "take or collect my belongings"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam kenyataan bertulisnya, pengadu menjelaskan, \"Semua barangku telah dipulangkan dalam keadaan baik.\"",
+      "zh": "投诉人在书面陈述中说明：“我的所有物品均已完好归还。”",
+      "en": "In a written statement, the complainant explained, \"All my belongings have been returned in good condition.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Barangku masih kat rumah kau, kan?",
+      "ms_standard": "Barangku masih berada di rumah kamu, bukan?",
+      "zh": "我的东西还在你家，对吧？",
+      "en": "My stuff is still at your place, right?",
+      "spoken_features": [
+        "kat 在此对应 di。",
+        "kau 是熟人之间的第二人称代词。",
+        "kan 在句末请求确认。",
+        "barangku 合乎语法；不少马来西亚日常对话更常说 barang aku。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Barangku masih kat rumah kau, kan? Aku nak ambil petang ni.",
+          "ms_standard": "Barangku masih berada di rumah kamu, bukan? Saya hendak mengambilnya petang ini.",
+          "zh": "我的东西还在你家，对吧？我想今天傍晚去拿。",
+          "en": "My stuff is still at your place, right? I'd like to pick it up this evening."
+        },
+        {
+          "speaker": "Mira (朋友)",
+          "ms_spoken": "Ya, aku dah letak dalam beg. Datang je lepas pukul enam.",
+          "ms_standard": "Ya, saya sudah meletakkannya di dalam beg. Datanglah selepas pukul enam.",
+          "zh": "对，我已经装进袋子里了。六点过后来就行。",
+          "en": "Yes, I've put it in a bag. Just come over after six."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Barangku illustrates a compact possessive construction also familiar from Malay writing and song. Rather than adding a separate word for 'my', the speaker attaches -ku to barang. The same pattern appears in rumahku and bukuku. Its expressive compactness suits personal writing, while barang saya often fits neutral institutional communication.",
+    "cognitive_memory_aid": "barang 是“东西”，-ku 是“我的”：给东西贴上 ku 这张归属标签，就是 barangku。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 有关，常见于熟人交流、私人文字和文学表达。面对客户、上司或不熟悉的人，barang saya 通常更稳妥；barangku 本身并非粗话。",
+    "usage_etiquette": "适合表达个人领属。正式清单宜写清具体物品名称；询问他人物品时，先确认归属，避免把 barangku 用成带责备意味的所有权宣告。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 有关，常见于熟人交流、私人文字和文学表达。面对客户、上司或不熟悉的人，barang saya 通常更稳妥；barangku 本身并非粗话。",
+    "usage_etiquette": "适合表达个人领属。正式清单宜写清具体物品名称；询问他人物品时，先确认归属，避免把 barangku 用成带责备意味的所有权宣告。"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "headword": {
+    "word": "kucakap",
+    "syllables": "ku.ca.kap",
+    "ipa": "/ku.tʃa.kap/",
+    "jawi": null,
+    "frequency_rank": 13182,
+    "status": "compositional"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "cakap",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku- + cakap → kucakap",
+    "pattern_note": "ku- 是 aku 的前附着代词，表示第一人称，须与后面的动词连写；这里借用 prefix 字段记录，实际并非派生词缀。词根首音 c /tʃ/ 保留。输入包将整个形式标作词根，现按构词纠正；分音为补拟，未提供的爪夷文保留 null。",
+    "word_family": [
+      {
+        "word": "bercakap",
+        "affix": "ber-",
+        "gloss": "说话；交谈"
+      },
+      {
+        "word": "percakapan",
+        "affix": "per-...-an",
+        "gloss": "谈话；交谈内容"
+      },
+      {
+        "word": "mempercakapkan",
+        "affix": "memper-...-kan",
+        "gloss": "谈论；议论"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "我说；我所说的。由第一人称附着代词 ku- 与 cakap 组成，具体时态由上下文决定。",
+      "en_definition": "I say or said; said by me, especially within a clause referring to something spoken.",
+      "ms_definition": "Bentuk gabungan ku- dengan cakap yang membawa maksud aku cakap atau, mengikut binaan ayat, sesuatu yang aku katakan.",
+      "nuances": "这是可分析的语法组合，不能仅凭输入包认定为独立的官方词典词目；马来文释义为构式说明。常见于带个人语气的文字、文学表达或模拟口语；日常交谈通常更自然地说 aku cakap，正式公文可依句式改用 saya katakan。ku- 不自带过去时意义。连写原则参见 [DBP 附着代词说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau+pasif)。",
+      "collocations": [
+        {
+          "ms": "apa yang kucakap",
+          "zh": "我所说的话",
+          "en": "what I say"
+        },
+        {
+          "ms": "seperti yang kucakap tadi",
+          "zh": "正如我刚才所说",
+          "en": "as I said earlier"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "访谈后的个人书面声明；带文学语气",
+      "ms": "Segala yang kucakap dalam wawancara itu mencerminkan pendirian peribadiku.",
+      "zh": "我在那次访谈中所说的一切，都体现了我个人的立场。",
+      "en": "Everything I said in that interview reflects my personal position."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人间带个人笔调的文字交流",
+      "ms_spoken": "Kan dah kucakap, kita jumpa kat lobi je.",
+      "ms_standard": "Bukankah sudah aku katakan bahawa kita berjumpa di lobi sahaja?",
+      "zh": "我不是说过了吗，我们就在大厅见。",
+      "en": "I already told you we'd meet in the lobby, remember?",
+      "spoken_features": [
+        "kan 表示提醒对方已有的共识。",
+        "dah、kat、je 分别对应 sudah、di、sahaja。",
+        "kucakap 在这里保留个人化的连写笔调；一般口语更常说 aku cakap。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kan dah kucakap, kita jumpa kat lobi je.",
+          "ms_standard": "Bukankah sudah aku katakan bahawa kita berjumpa di lobi sahaja?",
+          "zh": "我不是说过了吗，我们就在大厅见。",
+          "en": "I already told you we'd meet in the lobby, remember?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Oh ya, aku dah sampai. Kau kat mana?",
+          "ms_standard": "Oh, ya. Aku sudah sampai. Engkau berada di mana?",
+          "zh": "哦，对，我已经到了。你在哪儿？",
+          "en": "Oh, right. I'm here already. Where are you?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates Malay's compact way of attaching personal pronouns to surrounding words. Ku- is the shortened form of aku, while cakap supplies the meaning of speaking. Their combination can give writing a personal, literary voice. It should therefore be understood through its living grammatical parts, rather than presented as an independently inherited root.",
+    "cognitive_memory_aid": "把 ku- 认成缩短的 aku“我”：ku + cakap“说” →“我说”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 承接 aku 的人称语气，适合亲近关系、自述和文学表达。面对上司、客户或不熟悉的长者，一般采用 saya 更稳妥。",
+    "usage_etiquette": "Kan dah kucakap 容易带出“我早就说过了”的责备感。提醒别人时可改成 Seperti yang saya maklumkan tadi，以保持平和、尊重的语气。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 承接 aku 的人称语气，适合亲近关系、自述和文学表达。面对上司、客户或不熟悉的长者，一般采用 saya 更稳妥。",
+    "usage_etiquette": "Kan dah kucakap 容易带出“我早就说过了”的责备感。提醒别人时可改成 Seperti yang saya maklumkan tadi，以保持平和、尊重的语气。"
+  }
+}

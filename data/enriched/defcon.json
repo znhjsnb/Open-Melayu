@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "defcon",
+    "syllables": null,
+    "ipa": "/ˈdɛf.kɒn/",
+    "jawi": null,
+    "frequency_rank": 13135,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "defcon",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + defcon → defcon",
+    "pattern_note": "整词作为英语缩略语或专名记忆，不作马来语词缀拆分。军事名称写 DEFCON，会议名称写 DEF CON；音标采用英语读法。输入包未提供音节和 Jawi，保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "美国军队的防御战备状态或等级体系，分为五级，数字越小，战备程度越高。",
+      "en_definition": "A United States military defense readiness condition, graded from 5, the lowest readiness level, to 1, the highest.",
+      "ms_definition": "Sistem atau tahap kesiagaan pertahanan angkatan tentera Amerika Syarikat, daripada tahap 5 yang terendah hingga tahap 1 yang tertinggi.",
+      "nuances": "正式写作 DEFCON，源自 defense readiness condition。此处马来语释义为编辑撰写，输入包没有 DBP 定义；status 字段按要求保留，不表示 DBP 已收录。不可把等级数字增大理解为战备升级。[美国参谋长联席会议历史文件说明](https://nsarchive.gwu.edu/document/21090-doc-17-1961-1-3-sm-833-59-remove-blue-mark-p-1)。",
+      "collocations": [
+        {
+          "ms": "tahap DEFCON",
+          "zh": "DEFCON 战备等级",
+          "en": "DEFCON level"
+        },
+        {
+          "ms": "perubahan tahap DEFCON",
+          "zh": "DEFCON 战备等级的变化",
+          "en": "a change in DEFCON level"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "DEF CON 黑客大会：在美国拉斯维加斯举行、围绕黑客技术与计算机安全的年度大会。",
+      "en_definition": "DEF CON, an annual hacker and computer security convention held in Las Vegas.",
+      "ms_definition": "Nama khas persidangan tahunan penggodam dan keselamatan komputer yang diadakan di Las Vegas, Amerika Syarikat.",
+      "nuances": "这是另一个指称对象，正式名称分写为 DEF CON；会议语境中的 defcon 不应译成战备等级。本义为专名，马来语释义为编辑撰写。[NIST 报告](https://www.nist.gov/system/files/documents/2018/05/08/environmentalscan_finalforweb.pdf)。",
+      "collocations": [
+        {
+          "ms": "persidangan DEF CON",
+          "zh": "DEF CON 黑客大会",
+          "en": "the DEF CON conference"
+        },
+        {
+          "ms": "peserta DEF CON",
+          "zh": "DEF CON 与会者",
+          "en": "DEF CON attendees"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan itu menjelaskan bahawa nombor tahap DEFCON yang lebih kecil menunjukkan tahap kesiagaan tentera yang lebih tinggi.",
+      "zh": "该报告解释，DEFCON 等级数字越小，军队的战备程度越高。",
+      "en": "The report explains that a lower DEFCON number indicates a higher level of military readiness."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau dah tengok rakaman ceramah DEF CON tu?",
+      "ms_standard": "Adakah kamu sudah menonton rakaman ceramah DEF CON itu?",
+      "zh": "你看过那个 DEF CON 演讲的录像了吗？",
+      "en": "Have you watched that DEF CON talk yet?",
+      "spoken_features": [
+        "kau 用于熟人之间",
+        "dah 是 sudah 的口语形式",
+        "tu 是 itu 的口语形式",
+        "tengok 在此口语中表示观看"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah tengok ceramah DEF CON yang aku hantar tu?",
+          "ms_standard": "Adakah kamu sudah menonton ceramah DEF CON yang saya hantarkan itu?",
+          "zh": "我发给你的那个 DEF CON 演讲，你看了吗？",
+          "en": "Have you watched the DEF CON talk I sent you?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum, aku nak tengok malam ni. Simpan pautan tu dulu, ya.",
+          "ms_standard": "Belum, saya hendak menontonnya malam ini. Simpan pautan itu dahulu, ya.",
+          "zh": "还没，我打算今晚看。先留着那个链接啊。",
+          "en": "Not yet. I'll watch it tonight. Keep that link handy, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DEFCON abbreviates the English expression defense readiness condition. A 1959 Joint Chiefs of Staff memorandum established a shared system for communicating military readiness across commands. Its numbering runs toward greater readiness as the number falls, making DEFCON 1 the highest condition rather than the first step on an ascending scale. [Historical memorandum](https://nsarchive.gwu.edu/document/21090-doc-17-1961-1-3-sm-833-59-remove-blue-mark-p-1).",
+    "cognitive_memory_aid": "DEF 对应 DEFense，CON 对应 CONdition；记住“数字倒数，战备加紧”：5 较低，1 最高。遇到会议语境则认分写的 DEF CON。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是军事术语或会议专名，本身没有敬语功能。向非专业读者介绍军事义时，首次出现宜解释为 tahap kesiagaan pertahanan。",
+    "usage_etiquette": "军事讨论用 DEFCON，技术大会用 DEF CON。朋友之间可借军事义夸张表示紧张，但正式报告应明确所指，避免把玩笑说成真实战备消息。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是军事术语或会议专名，本身没有敬语功能。向非专业读者介绍军事义时，首次出现宜解释为 tahap kesiagaan pertahanan。",
+    "usage_etiquette": "军事讨论用 DEFCON，技术大会用 DEF CON。朋友之间可借军事义夸张表示紧张，但正式报告应明确所指，避免把玩笑说成真实战备消息。"
+  }
+}

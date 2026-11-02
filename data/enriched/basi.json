@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "basi",
+    "syllables": "ba.si",
+    "ipa": "/basi/",
+    "jawi": "باسي",
+    "frequency_rank": 13132,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bas",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + basi → basi",
+    "pattern_note": "按要求保留输入的 root_word=bas、root_jawi=بس 与 is_root=false，但这组三项属于词根解析错误：本义的 basi 是不可拆分的基本词，并非 bas + -i；公式与派生词按实际构词说明。",
+    "word_family": [
+      {
+        "word": "membasikan",
+        "affix": "meN-…-kan",
+        "gloss": "使食物变质；任由食物变质"
+      },
+      {
+        "word": "dibasikan",
+        "affix": "di-…-kan",
+        "gloss": "被任由变质"
+      }
+    ],
+    "root_jawi": "بس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "食物因存放过久等原因而腐坏、发馊，已不宜食用。",
+      "en_definition": "Spoiled or sour from being kept too long, and no longer fit to eat.",
+      "ms_definition": "Sudah busuk dan tidak boleh dimakan lagi, berkenaan makanan yang disimpan terlalu lama.",
+      "nuances": "多用于米饭、熟菜和其他变质食物；比单纯的“不新鲜”更强，不等同于表示过了标示期限的 tamat tempoh。此处对应输入指定的 basi I；同形的缝份、钱款等名词属于其他词条。参见 [DBP PRPM](https://prpmv1.dbp.gov.my/Search.aspx?k=basi%3B)。",
+      "collocations": [
+        {
+          "ms": "nasi basi",
+          "zh": "馊饭",
+          "en": "spoiled cooked rice"
+        },
+        {
+          "ms": "makanan basi",
+          "zh": "变质食物",
+          "en": "spoiled food"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "消息、说法、笑话等已陈旧、早已为人所知，或因反复使用而失去新意。",
+      "en_definition": "Stale, old, or hackneyed, especially of news, stories, jokes, or expressions.",
+      "ms_definition": "Tidak baru atau sudah lama, berkenaan khabar, cerita dan sebagainya.",
+      "nuances": "由食物失去新鲜度引申到信息失去新意；通常带不耐烦或轻视语气。既可表示新闻过时，也可表示笑话、借口陈词滥调。参见 [DBP PRPM](https://prpmv1.dbp.gov.my/Search.aspx?k=basi%3B)。",
+      "collocations": [
+        {
+          "ms": "berita basi",
+          "zh": "旧闻；过时消息",
+          "en": "stale news"
+        },
+        {
+          "ms": "jenaka basi",
+          "zh": "老掉牙的笑话",
+          "en": "a stale joke"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "咒语等被认为不再灵验或失去效力；属较旧的传统表达。",
+      "en_definition": "Ineffective or no longer potent, especially of a charm or incantation in traditional usage.",
+      "ms_definition": "Tidak manjur atau tidak mustajab, berkenaan mantera dan sebagainya.",
+      "nuances": "较少见，多出现在旧文学、民俗叙事或转述传统观念时；描述的是叙事中的效力观念。此义见 [DBP PRPM](https://prpmv1.dbp.gov.my/Search.aspx?k=basi%3B)。",
+      "collocations": [
+        {
+          "ms": "mantera basi",
+          "zh": "失灵的咒语",
+          "en": "an ineffective incantation"
+        },
+        {
+          "ms": "jampi yang sudah basi",
+          "zh": "已不灵验的符咒",
+          "en": "a charm that has lost its supposed power"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan kantin menerima aduan bahawa makanan yang dijual pada petang itu sudah basi.",
+      "zh": "食堂管理方接获投诉，指当天下午售卖的食物已经变质。",
+      "en": "The canteen management received a complaint that the food sold that afternoon had spoiled."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nasi kat dapur tu dah basi ke?",
+      "ms_standard": "Adakah nasi di dapur itu sudah basi?",
+      "zh": "厨房那锅饭是不是馊了？",
+      "en": "Has the rice in the kitchen gone bad?",
+      "spoken_features": [
+        "kat 对应 di",
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "句末 ke 构成口语疑问，对应标准语的 adakah"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (室友)",
+          "ms_spoken": "Nasi kat dapur tu dah basi ke?",
+          "ms_standard": "Adakah nasi di dapur itu sudah basi?",
+          "zh": "厨房那锅饭是不是馊了？",
+          "en": "Has the rice in the kitchen gone bad?"
+        },
+        {
+          "speaker": "Mei Ling (室友)",
+          "ms_spoken": "Ya, dah bau masam. Aku nak buang sekarang.",
+          "ms_standard": "Ya, nasi itu sudah berbau masam. Saya hendak membuangnya sekarang.",
+          "zh": "对，都有酸味了。我现在就扔掉。",
+          "en": "Yes, it smells sour. I'm throwing it out now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The supplied evidence does not establish a remote etymology for basi. Its documented meanings nevertheless offer a memorable cultural connection: food can lose freshness, news can lose novelty, and a traditional charm can lose its supposed force. Read these as related meanings, not a proven historical sequence. [Malay meanings](https://prpmv1.dbp.gov.my/Search.aspx?k=basi%3B).",
+    "cognitive_memory_aid": "记住 nasi basi：饭馊了。再把“不新鲜”搬到消息上，berita basi 就是早已听过的旧闻。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "指出别人准备的食物变质时，可说 Maaf, makanan ini nampaknya sudah basi（不好意思，这份食物好像变质了），语气明确而不指责。",
+    "usage_etiquette": "说食物 basi 是实际品质判断；说对方的笑话或观点 basi 则可能显得刻薄。宗教场合避免轻率评价他人的祈祷 basi，因为容易被理解为嘲讽信仰。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "指出别人准备的食物变质时，可说 Maaf, makanan ini nampaknya sudah basi（不好意思，这份食物好像变质了），语气明确而不指责。",
+    "usage_etiquette": "说食物 basi 是实际品质判断；说对方的笑话或观点 basi 则可能显得刻薄。宗教场合避免轻率评价他人的祈祷 basi，因为容易被理解为嘲讽信仰。"
+  }
+}

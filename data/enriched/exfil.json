@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "exfil",
+    "syllables": "ex.fil",
+    "ipa": "/ˈɛks.fɪl/",
+    "jawi": null,
+    "frequency_rank": 13184,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "exfil",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + exfil → exfil；英语 exfiltration / exfiltrate → 截短形式 exfil",
+    "pattern_note": "在马来语语境中按未作本土词缀分析的英语整词处理；is_root 仅表示这一同步分析，不表示它是马来语固有词根。IPA 采用英语读音，分音为补拟；/ks/ 由字母 x 表示。输入包没有足以确认官方马来语词目或爪夷拼写的证据。",
+    "word_family": [
+      {
+        "word": "exfiltration",
+        "affix": "英语关联词；非马来语派生",
+        "gloss": "撤离；数据外传"
+      },
+      {
+        "word": "exfiltrate",
+        "affix": "英语关联词；非马来语派生",
+        "gloss": "撤出人员；将数据外传"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英语军事或游戏术语：从任务区撤出人员的行动；游戏中也可指撤离机会或撤离点。",
+      "en_definition": "An extraction from an operational area; in games, also an extraction opportunity or location.",
+      "ms_definition": "Istilah Inggeris bagi pengeluaran anggota dari kawasan operasi; dalam permainan, turut merujuk peluang atau lokasi untuk keluar dari kawasan misi.",
+      "nuances": "以下记录英语术语在混合语码中的可能用法，不冒称 DBP 官方马来语释义；输入缺少原始语境，不能确定其实际所指。游戏中的具体含义须依机制判断。官方游戏指南将 Exfils 用于撤离区域，参见 [Call of Duty 撤离区域说明](https://www.callofduty.com/guides/mobile/serpent-island)。",
+      "collocations": [
+        {
+          "ms": "lokasi exfil",
+          "zh": "撤离地点",
+          "en": "exfil location"
+        },
+        {
+          "ms": "helikopter exfil",
+          "zh": "撤离直升机",
+          "en": "exfil helicopter"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "英语游戏或行动用语：撤出任务区；通过撤离机制离开。",
+      "en_definition": "To extract or leave an operational area, especially through a game's extraction mechanism.",
+      "ms_definition": "Keluar dari kawasan operasi atau misi melalui proses pengunduran atau pengeluaran yang ditetapkan.",
+      "nuances": "在游戏聊天中可直接嵌入马来语动词位置，如 nak exfil；这属于英语语码混用。正式表达应根据行动性质使用 keluar dari kawasan misi、berundur 或其他准确说明。英语动词用法可参见 [Call of Duty 游戏指南](https://www.callofduty.com/guides/mobile/dmz-recon-101-how-to-play)。",
+      "collocations": [
+        {
+          "ms": "nak exfil",
+          "zh": "想撤离；准备撤离",
+          "en": "to want to exfil"
+        },
+        {
+          "ms": "berjaya exfil",
+          "zh": "成功撤离",
+          "en": "to exfil successfully"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "英语网络安全行话：将数据从系统向外传送的行为，通常指未经授权的数据外传。",
+      "en_definition": "Data exfiltration: the transfer of data out of a system, usually without authorization.",
+      "ms_definition": "Istilah ringkas bahasa Inggeris bagi pemindahan data keluar daripada sesuatu sistem, lazimnya tanpa kebenaran.",
+      "nuances": "在网络安全语境中与人员撤离不同；也可用于经授权的模拟测试，因此不能只凭 exfil 就断言发生真实盗窃。此处马来文为说明性释义。MITRE 的工具资料使用 Exfil Operation 指数据外传相关操作，参见 [MITRE Stockpile](https://github.com/mitre/stockpile/blob/master/data/sources/2ccb822c-088a-4664-8976-91be8879bc1d.yml)。",
+      "collocations": [
+        {
+          "ms": "aktiviti exfil",
+          "zh": "数据外传活动",
+          "en": "exfiltration activity"
+        },
+        {
+          "ms": "pengesanan exfil",
+          "zh": "数据外传检测",
+          "en": "exfiltration detection"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "英语网络安全行话：将数据从系统传出，通常带有秘密或未经授权的含义。",
+      "en_definition": "To transfer data out of a system, typically covertly or without authorization.",
+      "ms_definition": "Memindahkan data keluar daripada sistem, biasanya secara tersembunyi atau tanpa kebenaran.",
+      "nuances": "这是英语动词嵌入马来语句子的用法，不是已确认的标准马来语派生动词。面向普通读者时，宜写 memindahkan data keluar tanpa kebenaran。英语技术用法参见 [MITRE APT3 分析](https://attack.mitre.org/docs/APT3_Adversary_Emulation_Plan.pdf)。",
+      "collocations": [
+        {
+          "ms": "exfil data",
+          "zh": "将数据外传",
+          "en": "to exfiltrate data"
+        },
+        {
+          "ms": "exfil fail sulit",
+          "zh": "将机密文件外传",
+          "en": "to exfiltrate confidential files"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场技术汇报 / 首次出现时解释英语术语",
+      "ms": "Laporan keselamatan itu menggunakan istilah Inggeris exfil untuk merujuk pemindahan data keluar daripada sistem tanpa kebenaran.",
+      "zh": "该安全报告使用英语术语 exfil，指未经授权将数据传出系统的行为。",
+      "en": "The security report uses the English term exfil to refer to the unauthorized transfer of data out of the system."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人讨论撤离类游戏",
+      "ms_spoken": "Jom exfil sekarang, beg aku dah penuh.",
+      "ms_standard": "Mari kita keluar dari kawasan misi sekarang kerana beg saya sudah penuh.",
+      "zh": "走，现在撤吧，我的背包已经满了。",
+      "en": "Let's exfil now. My backpack's full.",
+      "spoken_features": [
+        "exfil 是游戏社群使用的英语术语，嵌入马来语句子。",
+        "jom 表示邀约，dah 对应 sudah。",
+        "两句并列，省略正式表达中的因果连接词 kerana。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (游戏队友)",
+          "ms_spoken": "Jom exfil sekarang, beg aku dah penuh.",
+          "ms_standard": "Mari kita keluar dari kawasan misi sekarang kerana beg saya sudah penuh.",
+          "zh": "走，现在撤吧，我的背包已经满了。",
+          "en": "Let's exfil now. My backpack's full."
+        },
+        {
+          "speaker": "Farah (游戏队友)",
+          "ms_spoken": "Kejap, aku kat bangunan sebelah je. Tunggu aku dulu.",
+          "ms_standard": "Sebentar, saya berada di bangunan bersebelahan sahaja. Tunggu saya dahulu.",
+          "zh": "等一下，我就在隔壁那栋楼。先等我。",
+          "en": "Hang on, I'm just in the next building. Wait for me."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Exfil is an English clipping associated with exfiltration and exfiltrate. Military language uses the underlying idea for getting personnel out of an operational area; games adapt it into an extraction objective. Cybersecurity uses the same outward movement for data leaving a system. These English uses do not by themselves establish an official Malay borrowing.",
+    "cognitive_memory_aid": "把 ex 联想到 exit“出口”：游戏里是人撤出去，网络安全里是数据传出去；这是记忆联想，不是马来语词根拆解。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这个词的主要限制是专业程度。游戏队友之间可直接使用；面对客户、管理层或公众，首次出现时应解释实际含义。",
+    "usage_etiquette": "须说明是游戏撤离、人员撤离，还是数据外传。正式安全报告应区分真实事件与授权测试，避免把模拟 exfil 描述成已经证实的数据失窃。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这个词的主要限制是专业程度。游戏队友之间可直接使用；面对客户、管理层或公众，首次出现时应解释实际含义。",
+    "usage_etiquette": "须说明是游戏撤离、人员撤离，还是数据外传。正式安全报告应区分真实事件与授权测试，避免把模拟 exfil 描述成已经证实的数据失窃。"
+  }
+}
