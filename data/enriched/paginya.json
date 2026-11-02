@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "paginya",
+    "syllables": null,
+    "ipa": "/pa.ɡi.ɲa/",
+    "jawi": "ڤاݢي",
+    "frequency_rank": 12451,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pagi",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "pagi + -nya → paginya",
+    "pattern_note": "-nya 是附着成分，此处按给定结构归入后缀；词根不变，ny 表示 /ɲ/。headword.jawi 按输入保留，但 ڤاݢي 实际只拼写 pagi；完整 paginya 应为 ڤاݢيڽ。输入未提供完整词形的音节划分。",
+    "word_family": [
+      {
+        "word": "pagi",
+        "affix": null,
+        "gloss": "早晨"
+      },
+      {
+        "word": "sepagi",
+        "affix": "se-",
+        "gloss": "整个早晨"
+      },
+      {
+        "word": "pagi-pagi",
+        "affix": "重叠",
+        "gloss": "一大早"
+      }
+    ],
+    "root_jawi": "ڤاݢي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "所指那一天的早晨；常在时间短语中表示“当天早晨”或“翌日早晨”，具体日期由上下文确定。",
+      "en_definition": "The morning of the day referred to; used in temporal phrases for that morning or the following morning, depending on context.",
+      "ms_definition": "Waktu pagi pada hari yang dirujuk, dengan rujukan harinya ditentukan oleh konteks.",
+      "nuances": "-nya 可回指语境中的日期，不必译为“他的”。paginya 本身不固定表示“明早”；翌日之义在 keesokan paginya 中才明确。词性为名词，整个时间短语可以作状语。输入的 DBP 释义对应词根 pagi，以上完整词形释义为编辑归纳。[DBP：pagi](https://prpm.dbp.gov.my/Cari1?keyword=pagi)。",
+      "collocations": [
+        {
+          "ms": "pada paginya",
+          "zh": "在所指那天的早晨",
+          "en": "on the morning of that day"
+        },
+        {
+          "ms": "keesokan paginya",
+          "zh": "第二天早晨",
+          "en": "the following morning"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "他、她或它的早晨时段；指某人如何度过的早晨，或某事物对应的早晨部分。",
+      "en_definition": "His, her, or its morning, with -nya referring to a previously identified person or thing.",
+      "ms_definition": "Waktu pagi yang dikaitkan dengan orang atau perkara yang telah disebut.",
+      "nuances": "此时 -nya 表示所属或关联。中文、英文是否使用物主形式取决于上下文；不能把所有 paginya 都机械译成“他的早晨”。",
+      "collocations": [
+        {
+          "ms": "menghabiskan paginya",
+          "zh": "度过他／她的早晨",
+          "en": "spend his or her morning"
+        },
+        {
+          "ms": "paginya yang sibuk",
+          "zh": "他／她忙碌的早晨",
+          "en": "his or her busy morning"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 工作进程汇报",
+      "ms": "Pasukan itu tiba pada malam Isnin dan memulakan pemeriksaan pada keesokan paginya.",
+      "zh": "该团队于星期一晚抵达，并在第二天早晨开始检查。",
+      "en": "The team arrived on Monday night and began the inspection the following morning."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 商量行程",
+      "ms_spoken": "Kita sampai malam Jumaat, paginya baru jalan-jalan, ya?",
+      "ms_standard": "Kita akan tiba pada malam Jumaat dan hanya akan bersiar-siar pada keesokan paginya, ya?",
+      "zh": "我们星期五晚上到，第二天早上再出去逛，好吗？",
+      "en": "We'll arrive Friday night and go sightseeing the next morning, okay?",
+      "spoken_features": [
+        "省略可由语境补出的 akan 和 keesokan。",
+        "baru 表示到那个时候才进行下一项活动。",
+        "ya 用于征求认同，语气较柔和。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kita sampai malam Jumaat, paginya baru jalan-jalan, ya?",
+          "ms_standard": "Kita akan tiba pada malam Jumaat dan hanya akan bersiar-siar pada keesokan paginya, ya?",
+          "zh": "我们星期五晚上到，第二天早上再出去逛，好吗？",
+          "en": "We'll arrive Friday night and go sightseeing the next morning, okay?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, malam tu rehat je. Esok nak keluar awal.",
+          "ms_standard": "Boleh, kita berehat sahaja pada malam itu kerana kita mahu keluar awal pada keesokan harinya.",
+          "zh": "行，那晚就休息吧，第二天还想早点出门。",
+          "en": "Sure, let's just rest that night. We want to head out early the next day."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Paginya is formed within Malay from pagi and the attached element -nya. Its meaning follows the surrounding story: a morning can belong to someone’s routine or to a day already mentioned. In keesokan paginya, that reference helps carry a narrative from one day into the next. No separate borrowing history is needed to explain this form.",
+    "cognitive_memory_aid": "pagi 是“早晨”，-nya 像一根回指线：先找它指向哪一天或哪个人，再理解 paginya。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "该词本身语气中性。正式通知应写清日期和时间，避免让收件人猜测 paginya 指哪一天。",
+    "usage_etiquette": "适用于叙事、行程安排和个人日程。独立约时间时通常用 esok pagi（明早）或明确日期，比没有前文的 paginya 更清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "该词本身语气中性。正式通知应写清日期和时间，避免让收件人猜测 paginya 指哪一天。",
+    "usage_etiquette": "适用于叙事、行程安排和个人日程。独立约时间时通常用 esok pagi（明早）或明确日期，比没有前文的 paginya 更清楚。"
+  }
+}

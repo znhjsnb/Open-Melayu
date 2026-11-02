@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "memaksaku",
+    "syllables": null,
+    "ipa": "/mə.mak.sa.ku/",
+    "jawi": "ممقسا",
+    "frequency_rank": 12420,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "memaksa",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "memaksa + -ku → memaksaku；更深层：meN- + paksa → memaksa",
+    "pattern_note": "保留输入的直接基词 memaksa；其词汇根为 paksa。meN- 接 paksa 时成为 mem-，并使词首 p 脱落。-ku 在此是宾语 aku 的附着形式，不表示领属。/k/ 在 /s/ 前可实现为 [ʔ]，与输入的 me.maʔ.sa 一致。输入 Jawi 仅表示 memaksa。",
+    "word_family": [
+      {
+        "word": "terpaksa",
+        "affix": "ter-",
+        "gloss": "被迫；不得不"
+      },
+      {
+        "word": "paksaan",
+        "affix": "-an",
+        "gloss": "强迫；强制"
+      }
+    ],
+    "root_jawi": "ممقسا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "强迫我；以压力、命令或其他强制手段使我做某事。",
+      "en_definition": "To force or compel me to do something.",
+      "ms_definition": "Menyuruh atau mendesak aku melakukan sesuatu dengan paksa.",
+      "nuances": "-ku 是被强迫的对象，整词不说明施事者是谁，也不独立标示时态。语义强于普通邀请或劝说；可涉及心理压力，并不必然包含身体暴力。释义基于 [DBP：memaksa](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=memaksa) 综合表述。",
+      "collocations": [
+        {
+          "ms": "memaksaku mengaku",
+          "zh": "逼我承认",
+          "en": "force me to admit it"
+        },
+        {
+          "ms": "memaksaku menandatangani dokumen",
+          "zh": "强迫我签署文件",
+          "en": "force me to sign a document"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "迫使我；指情势、困难或客观需要使我不得不采取某种行动。",
+      "en_definition": "To leave me no practical choice but to act, through circumstances or necessity.",
+      "ms_definition": "Menyebabkan aku terpaksa melakukan sesuatu kerana keadaan atau keperluan yang mendesak.",
+      "nuances": "这是强迫义用于非人施事者时的常见延伸，不表示情势具有人的意图。主语可为 keadaan、kesempitan hidup 等。[DBP 的 constrain 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memaksa) 也示例说明情况可以成为 memaksa 的施事者。",
+      "collocations": [
+        {
+          "ms": "keadaan memaksaku",
+          "zh": "情势迫使我",
+          "en": "circumstances force me"
+        },
+        {
+          "ms": "kesempitan hidup memaksaku",
+          "zh": "生活困境迫使我",
+          "en": "financial hardship forces me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 引述当事人陈述",
+      "ms": "Dalam kenyataannya, saksi itu berkata, \"Mereka memaksaku menandatangani dokumen tersebut tanpa memberikan penjelasan.\"",
+      "zh": "该证人在陈述中说：“他们没有作出解释，就强迫我签署那份文件。”",
+      "en": "In a statement, the witness said, \"They forced me to sign the document without providing an explanation.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 向朋友诉说压力",
+      "ms_spoken": "Dia asyik paksa aku ikut dia lah, padahal aku dah cakap tak nak.",
+      "ms_standard": "Dia terus memaksaku mengikutnya, walaupun aku sudah menyatakan bahawa aku tidak mahu.",
+      "zh": "他一直逼我跟他去，我明明已经说不想去了。",
+      "en": "He keeps pushing me to go with him, even though I've already said I don't want to.",
+      "spoken_features": [
+        "paksa aku 是口语中对应 memaksaku 的常见分写表达",
+        "dah 对应 sudah",
+        "tak nak 对应 tidak mahu",
+        "lah 在此加强抱怨或无奈语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Dia asyik paksa aku ikut dia lah, padahal aku dah cakap tak nak.",
+          "ms_standard": "Dia terus memaksaku mengikutnya, walaupun aku sudah menyatakan bahawa aku tidak mahu.",
+          "zh": "他一直逼我跟他去，我明明已经说不想去了。",
+          "en": "He keeps pushing me to go with him, even though I've already said I don't want to."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kalau kau tak nak, cakap je dengan jelas. Aku boleh teman kau.",
+          "ms_standard": "Jika kamu tidak mahu, nyatakan pendirianmu dengan jelas. Aku boleh menemanimu.",
+          "zh": "你不想去就直接说清楚，我可以陪着你。",
+          "en": "If you don't want to go, make that clear. I can stay with you."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Memaksaku shows how Malay builds a compact personal experience from several grammatical pieces. Paksa supplies coercion; the active prefix produces memaksa, with the initial p disappearing; attached -ku identifies the person affected as 'me'. The result suits an intimate narrator's voice, while an institutional account often uses memaksa saya. The sound change is illustrated in this [university language note](https://ppuu.upm.edu.my/upload/dokumen/20170517093256Imbuhan_dan_kekeliruan.pdf).",
+    "cognitive_memory_aid": "记住 paksa＝强迫、-ku＝我：memaksa 后面贴上 -ku，就是“强迫我”；这里的 ku 是宾语，不是“我的”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "aku／-ku 常用于亲近关系、文学叙述和个人情绪表达。向上级或不熟悉的人陈述情况时，memaksa saya 通常更稳妥。",
+    "usage_etiquette": "memaksa 明确带有非自愿和压力意味。描述单纯建议时应选 mencadangkan 或 menasihati；表达真实受到强迫的经历时，则可直接使用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "aku／-ku 常用于亲近关系、文学叙述和个人情绪表达。向上级或不熟悉的人陈述情况时，memaksa saya 通常更稳妥。",
+    "usage_etiquette": "memaksa 明确带有非自愿和压力意味。描述单纯建议时应选 mencadangkan 或 menasihati；表达真实受到强迫的经历时，则可直接使用。"
+  }
+}

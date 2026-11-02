@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "melindungiku",
+    "syllables": null,
+    "ipa": "/mə.lin.du.ŋi.ku/",
+    "jawi": "مليندوڠي",
+    "frequency_rank": 12384,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "melindungi",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "melindungi + -ku → melindungiku；meN- + lindung + -i → melindungi",
+    "pattern_note": "-ku 是第一人称单数宾语附着形式，表示“我”，须连写；此处 suffix 表示词尾附着位置。底层词根为 lindung，meN- 在 l 前取 me-，l 保留。数据包未提供音节，故 syllables 保留 null；完整形式可分为 me.lin.du.ngi.ku。所给 Jawi 对应 melindungi，未含 -ku；完整形式为 مليندوڠيکو。",
+    "word_family": [
+      {
+        "word": "melindungi",
+        "affix": "meN-…-i",
+        "gloss": "保护；遮护"
+      },
+      {
+        "word": "berlindung",
+        "affix": "ber-",
+        "gloss": "躲避；寻求庇护"
+      },
+      {
+        "word": "perlindungan",
+        "affix": "peR-…-an",
+        "gloss": "保护；庇护"
+      },
+      {
+        "word": "pelindung",
+        "affix": "peN-",
+        "gloss": "保护者；防护物"
+      }
+    ],
+    "root_jawi": "مليندوڠي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "遮住我，使我不被看见，或使雨、阳光等不直接作用于我。",
+      "en_definition": "To conceal me from view or shield me from exposure to something.",
+      "ms_definition": "Menudung atau menutupi aku supaya tidak kelihatan atau tidak terkena sesuatu.",
+      "nuances": "-ku 是动作的对象“我”，不是执行动作的“我”，也不是物主“我的”。此义突出实体遮挡；与危险有关时可与保护义重叠。",
+      "collocations": [
+        {
+          "ms": "melindungiku daripada hujan",
+          "zh": "替我遮雨",
+          "en": "shelter me from the rain"
+        },
+        {
+          "ms": "melindungiku daripada terik matahari",
+          "zh": "替我遮挡烈日",
+          "en": "shield me from the blazing sun"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "保护我、帮助我或为我提供庇护，使我免受危险、伤害或不公对待。",
+      "en_definition": "To protect, defend or provide shelter and support for me.",
+      "ms_definition": "Memberi pertolongan, membela atau memberi naungan kepada aku supaya terhindar daripada bahaya atau ancaman.",
+      "nuances": "可用于人提供保护，也可用于制度或设备发挥防护作用。常见结构为 melindungiku daripada + 威胁。基本词 melindungi 还能以真相、意图等为宾语表示掩饰；本词的宾语已由 -ku 固定为“我”。[DBP：lindung](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lindung)",
+      "collocations": [
+        {
+          "ms": "melindungiku daripada bahaya",
+          "zh": "保护我免受危险",
+          "en": "protect me from danger"
+        },
+        {
+          "ms": "sentiasa melindungiku",
+          "zh": "始终保护我",
+          "en": "always protect me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam kenyataannya, saksi itu berkata, \"Pegawai keselamatan tersebut melindungiku daripada ancaman sepanjang kejadian itu.\"",
+      "zh": "该证人在陈述中说：“事件发生期间，那名保安人员保护我免受威胁。”",
+      "en": "In the statement, the witness said, \"The security officer protected me from threats throughout the incident.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Terima kasih sebab melindungiku tadi. Aku dah selamat kat rumah.",
+      "ms_standard": "Terima kasih kerana melindungi saya tadi. Saya sudah selamat tiba di rumah.",
+      "zh": "谢谢你刚才保护我。我已经平安到家了。",
+      "en": "Thanks for protecting me earlier. I'm home safe now.",
+      "spoken_features": [
+        "sebab 在口语中可代替表示原因的 kerana。",
+        "dah 相当于 sudah，kat 在这里相当于 di。",
+        "melindungiku 带有抒情或郑重色彩；普通聊天更常说 melindungi aku 或 lindungi aku。",
+        "标准释句把 -ku 展开为 saya，以体现礼貌、明确的日常表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (好友)",
+          "ms_spoken": "Terima kasih sebab melindungiku tadi. Aku dah sampai rumah.",
+          "ms_standard": "Terima kasih kerana melindungi saya tadi. Saya sudah tiba di rumah.",
+          "zh": "谢谢你刚才保护我。我到家了。",
+          "en": "Thanks for protecting me earlier. I've made it home."
+        },
+        {
+          "speaker": "Amir (好友)",
+          "ms_spoken": "Aku lega kau dah selamat. Rehat dulu je, nanti kita borak.",
+          "ms_standard": "Saya berasa lega kerana awak sudah selamat. Berehatlah dahulu; kita berbual nanti.",
+          "zh": "你平安了我就放心了。先休息吧，晚点再聊。",
+          "en": "I'm glad you're safe. Get some rest; we'll talk later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Melindungiku brings together the lindung family of sheltering and protection with the attached pronoun -ku, meaning ‘me’ here. The resulting word packages an action and its recipient into one written unit. Its compact personal reference suits intimate or literary expression, while everyday conversation can express the same relationship with melindungi aku or melindungi saya.",
+    "cognitive_memory_aid": "先记 melindungi＝保护，再把尾巴 -ku 读成“我”：melindungiku＝保护我；执行保护的人还要看前面的主语。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 同属第一人称体系，常见于亲密表达、歌词、文学和祈愿。向上司、陌生人或正式机构陈述时，melindungi saya 通常更稳妥。",
+    "usage_etiquette": "适合表达个人受保护的经历或感激。正式场景保留 melindungiku 时，以直接引语或个人叙述最自然；日常求助宜用 Tolong lindungi saya。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 同属第一人称体系，常见于亲密表达、歌词、文学和祈愿。向上司、陌生人或正式机构陈述时，melindungi saya 通常更稳妥。",
+    "usage_etiquette": "适合表达个人受保护的经历或感激。正式场景保留 melindungiku 时，以直接引语或个人叙述最自然；日常求助宜用 Tolong lindungi saya。"
+  }
+}

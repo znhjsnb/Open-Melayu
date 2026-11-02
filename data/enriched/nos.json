@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "nos",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 12467,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "nos",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + nos → nos",
+    "pattern_note": "按工程文件中的计数缩写处理，不作马来语派生词分析。保留资料包的词根标记；末尾 s 属英语缩写形式，不是马来语后缀。书面缩写没有可据此确定的独立马来语标准读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "工程、采购或数量表中的计数缩写，表示按单件计算的数量，相当于“个、件、单位”。",
+      "en_definition": "A written counting abbreviation used in quantities and bills of quantities to indicate individual items or units.",
+      "ms_definition": "Singkatan bertulis yang digunakan dalam jadual kuantiti untuk menunjukkan bilangan unit atau item yang dihitung satu per satu.",
+      "nuances": "本条将无上下文的 nos 解读为数量表用法，属于有官方文件实例支持的编辑判断；并非据此确认它是 DBP 收录的独立马来语词。马来西亚审计报告明确使用 unit nombor (nos)。英语 nos. 也可表示复数编号，但不能将所有大写 NOS 缩写并入此义。马来语释义为编辑释义。[官方数量表实例](https://www.parlimen.gov.my/ipms/eps/2023-10-10/CMD.49.2023%20-%20CMD49.2023.pdf)；[英语缩写释义](https://dictionary.cambridge.org/us/dictionary/english/nos)。",
+      "collocations": [
+        {
+          "ms": "unit nombor (nos)",
+          "zh": "按件计数的单位",
+          "en": "a numerical counting unit"
+        },
+        {
+          "ms": "kuantiti: 15 nos",
+          "zh": "数量：十五个",
+          "en": "quantity: 15 units"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam senarai kuantiti tersebut, bilangan pintu dicatat sebagai 15 nos, iaitu 15 unit pintu.",
+      "zh": "该数量清单将门的数量记作“15 nos”，即十五扇门。",
+      "en": "In the bill of quantities, the doors are listed as 15 nos, meaning 15 individual doors."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat borang ni tulis 15 nos. Maksudnya 15 unit je, kan?",
+      "ms_standard": "Pada borang ini tertulis 15 nos. Maksudnya 15 unit sahaja, bukan?",
+      "zh": "这张表写着“15 nos”，意思就是十五个，对吧？",
+      "en": "This form says 15 nos. That just means 15 units, right?",
+      "spoken_features": [
+        "kat 对应 pada，表示表格上的位置",
+        "ni 对应 ini",
+        "je 对应 sahaja",
+        "kan 用于请求对方确认",
+        "nos 在此是被引用的书面缩写，实际交谈可改说 unit"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kat senarai ni ada 15 nos pintu. Nak tulis 15 unit dalam laporan ke?",
+          "ms_standard": "Dalam senarai ini terdapat catatan 15 nos pintu. Adakah kita hendak menulis 15 unit pintu dalam laporan?",
+          "zh": "清单上写着“15 nos”门，报告里要写十五扇门吗？",
+          "en": "The list says 15 nos for the doors. Should we write 15 doors in the report?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Haah, tulis 15 unit pintu je supaya jelas.",
+          "ms_standard": "Ya, tulis 15 unit pintu supaya maksudnya jelas.",
+          "zh": "对，直接写十五扇门，比较清楚。",
+          "en": "Yes, just write 15 doors so it's clear."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English nos. is the plural written abbreviation of number. In Malaysian administrative practice, the form also appears as a counting unit in bills of quantities. An official audit report contrasts nos with metres, illustrating why this small abbreviation matters: counting individual doors and measuring their length are different operations with different payment consequences. [English abbreviation](https://dictionary.cambridge.org/us/dictionary/english/nos); [Malaysian audit example](https://www.parlimen.gov.my/ipms/eps/2023-10-10/CMD.49.2023%20-%20CMD49.2023.pdf).",
+    "cognitive_memory_aid": "看见数量栏的“15 nos”，脑中换成“15 units”：数有几个，不是量有几米。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合沿用既有工程表格的单位格式。向非专业读者解释时，用 unit、buah 或具体物件名称更清楚。",
+    "usage_etiquette": "此缩写依赖文件语境。报价、审核或付款时须核对单位说明；一般马来语行文不要把 nos 当作通用量词，也不要自行扩展成其他 NOS 缩写的含义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合沿用既有工程表格的单位格式。向非专业读者解释时，用 unit、buah 或具体物件名称更清楚。",
+    "usage_etiquette": "此缩写依赖文件语境。报价、审核或付款时须核对单位说明；一般马来语行文不要把 nos 当作通用量词，也不要自行扩展成其他 NOS 缩写的含义。"
+  }
+}

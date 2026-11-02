@@ -1,0 +1,194 @@
+{
+  "headword": {
+    "word": "menjalar",
+    "syllables": "men.ja.lar",
+    "ipa": "/mən.dʒa.lar/",
+    "jawi": "منجالر",
+    "frequency_rank": 12383,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menjalar",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + jalar → menjalar",
+    "pattern_note": "root_word 与 root_jawi 保留数据包的解析结果；实际构词词根是 jalar（جالر），因此 is_root 为 false。meN- 在 j 前变为 men-，j 保留，e 读 /ə/。[DBP：jalar](https://prpm.dbp.gov.my/cari1?keyword=jalar)",
+    "word_family": [
+      {
+        "word": "jalar",
+        "affix": "∅",
+        "gloss": "爬行、蔓延的构词词根"
+      },
+      {
+        "word": "menjalari",
+        "affix": "meN-…-i",
+        "gloss": "爬满；蔓延到；感染"
+      },
+      {
+        "word": "menjalarkan",
+        "affix": "meN-…-kan",
+        "gloss": "使爬行；使扩散"
+      },
+      {
+        "word": "penjalaran",
+        "affix": "peN-…-an",
+        "gloss": "蔓延；传播过程"
+      }
+    ],
+    "root_jawi": "منجالر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "缓慢地贴着地面或物体表面爬行、蠕动。",
+      "en_definition": "To crawl or creep slowly along a surface.",
+      "ms_definition": "Bergerak perlahan-lahan; merayap.",
+      "nuances": "常用于毛虫、蠕虫、蛇等的移动，突出贴着表面行进的姿态；并不要求动作绝对缓慢。",
+      "collocations": [
+        {
+          "ms": "ulat menjalar",
+          "zh": "毛虫爬行",
+          "en": "a caterpillar crawling"
+        },
+        {
+          "ms": "menjalar di atas tanah",
+          "zh": "在地面上爬行",
+          "en": "crawl along the ground"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "植物的茎蔓沿地面或支撑物延伸生长。",
+      "en_definition": "Of a plant, to trail or spread along the ground or a supporting surface.",
+      "ms_definition": "Tumbuh melata, seperti pokok labu dan kacang panjang.",
+      "nuances": "用于匍匐或蔓生植物；是否攀上支撑物由具体植物及上下文决定，不等同于所有形式的向上攀爬。",
+      "collocations": [
+        {
+          "ms": "tumbuhan menjalar",
+          "zh": "蔓生植物",
+          "en": "creeping plants"
+        },
+        {
+          "ms": "pokok labu menjalar",
+          "zh": "南瓜藤蔓生长",
+          "en": "pumpkin vines trailing"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "火势等从一处向相邻区域延伸、蔓延。",
+      "en_definition": "Of fire or a similar physical phenomenon, to spread into adjoining areas.",
+      "ms_definition": "Merebak, terutama tentang api.",
+      "nuances": "突出火势逐渐延伸的路径；不能仅凭这个词推断蔓延速度慢或火势轻微。",
+      "collocations": [
+        {
+          "ms": "api menjalar",
+          "zh": "火势蔓延",
+          "en": "fire spreading"
+        },
+        {
+          "ms": "menjalar ke bangunan bersebelahan",
+          "zh": "蔓延至相邻建筑",
+          "en": "spread to the adjacent building"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "疾病、疫情等传播到更多人群或其他地区。",
+      "en_definition": "Of a disease or epidemic, to spread to further people or areas.",
+      "ms_definition": "Merebak atau menular, seperti penyakit dan wabak.",
+      "nuances": "与 menular、merebak 意义接近，强调传播范围的扩大；本身不说明传播途径。",
+      "collocations": [
+        {
+          "ms": "wabak menjalar",
+          "zh": "疫情蔓延",
+          "en": "an epidemic spreading"
+        },
+        {
+          "ms": "menjalar ke daerah lain",
+          "zh": "传播至其他地区",
+          "en": "spread to other districts"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "verb",
+      "zh_definition": "影响、运动或其他抽象现象逐渐扩展、波及更大范围。",
+      "en_definition": "Of an influence, movement or other abstract phenomenon, to extend progressively over a wider area.",
+      "ms_definition": "Meluas atau berkembang ke kawasan atau lingkungan lain.",
+      "nuances": "由实体蔓延引申为抽象扩散，可用于正面或负面现象；不应一概理解为有害传播。",
+      "collocations": [
+        {
+          "ms": "pengaruh yang menjalar",
+          "zh": "逐渐扩散的影响",
+          "en": "an influence that spreads"
+        },
+        {
+          "ms": "menjalar ke seluruh negara",
+          "zh": "扩展至全国",
+          "en": "spread throughout the country"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan bomba berjaya mengawal kebakaran sebelum api menjalar ke bangunan bersebelahan.",
+      "zh": "消防队在火势蔓延至相邻建筑之前成功控制了火灾。",
+      "en": "Firefighters brought the blaze under control before it spread to the adjacent building."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pokok labu tu dah menjalar sampai kat pagar jiran lah.",
+      "ms_standard": "Pokok labu itu sudah menjalar hingga ke pagar jiran.",
+      "zh": "那棵南瓜的藤都长到邻居家的篱笆那儿了。",
+      "en": "That pumpkin vine has spread all the way to the neighbour's fence.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "dah 相当于 sudah。",
+        "sampai kat 在这里相当于 hingga ke。",
+        "lah 用于加强提醒或感叹的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Pokok labu kau dah menjalar kat pagar aku lah.",
+          "ms_standard": "Pokok labu awak sudah menjalar pada pagar saya.",
+          "zh": "你家的南瓜藤都长到我家篱笆上了。",
+          "en": "Your pumpkin vine has spread onto my fence."
+        },
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Oh, baru perasan. Aku nak pangkas petang ni.",
+          "ms_standard": "Oh, saya baru menyedarinya. Saya akan memangkasnya petang ini.",
+          "zh": "哦，我刚发现。今天傍晚我来修剪。",
+          "en": "Oh, I've only just noticed. I'll trim it this evening."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menjalar is built from jalar with the Malay verbal prefix meN-. Its dictionary senses connect crawling creatures, trailing plants, spreading fire, disease and wider social developments. These uses share an image of movement extending across a surface or territory. That shared image explains the semantic connections, without claiming a documented chronological order for their development.",
+    "cognitive_memory_aid": "抓住 jalar 的画面：一条藤往外爬；虫在爬、藤在长、火在扩散，都能用 menjalar。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于动物、植物或事态发展时通常中性。用于人或群体的活动时，爬行、扩散的意象可能带有贬意，应结合语境判断。",
+    "usage_etiquette": "新闻和报告可用它描述火势或疫情扩散；谈论患者时，应把传播行为归于疾病或疫情，避免把人描写成令人厌恶的蔓延物。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于动物、植物或事态发展时通常中性。用于人或群体的活动时，爬行、扩散的意象可能带有贬意，应结合语境判断。",
+    "usage_etiquette": "新闻和报告可用它描述火势或疫情扩散；谈论患者时，应把传播行为归于疾病或疫情，避免把人描写成令人厌恶的蔓延物。"
+  }
+}
