@@ -1,0 +1,99 @@
+{
+  "headword": {
+    "word": "sai",
+    "syllables": null,
+    "ipa": "/sa.i/",
+    "jawi": "سعي",
+    "frequency_rank": 14757,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sai",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sai → sai",
+    "pattern_note": "阿拉伯语整词借入，在马来语中作为独立词根。a 与 i 分属两个音节，不读成单音节双元音；ber- + sai → bersai，无词首音替换。输入包音节字段为空，保留 null。",
+    "word_family": [
+      {
+        "word": "bersai",
+        "affix": "ber-",
+        "gloss": "履行奔走礼"
+      }
+    ],
+    "root_jawi": "سعي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "奔走礼：正朝或副朝中的一项基本仪式，依规定在萨法与麦尔沃之间完成七趟单程行进。",
+      "en_definition": "Sa'i: an essential rite of hajj or umrah consisting of seven prescribed one-way journeys between Safa and Marwah.",
+      "ms_definition": "Rukun haji atau umrah yang dilakukan dengan menempuh laluan antara Safa dengan Marwah sebanyak tujuh perjalanan mengikut ketetapan ibadat.",
+      "nuances": "从萨法到麦尔沃算一趟，返回算另一趟；共七趟，始于萨法、终于麦尔沃，并非七个来回。用于特定宗教仪式，不泛指普通步行或跑步。常见宗教材料另写作 saie 或 sai’e。[DBP 词条](https://prpm.dbp.gov.my/cari1?keyword=sai)；[JAWHAR 仪式说明](https://www.jawhar.gov.my/haji-dan-umrah/panduan-haji-dan-umrah/)",
+      "collocations": [
+        {
+          "ms": "mengerjakan sai",
+          "zh": "履行奔走礼",
+          "en": "to perform sa'i"
+        },
+        {
+          "ms": "menyempurnakan sai",
+          "zh": "完成奔走礼",
+          "en": "to complete sa'i"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Taklimat itu menerangkan bahawa sai bermula di Safa dan berakhir di Marwah selepas tujuh perjalanan.",
+      "zh": "说明会介绍，奔走礼从萨法开始，完成七趟行进后在麦尔沃结束。",
+      "en": "The briefing explained that sa'i begins at Safa and ends at Marwah after seven journeys."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Mak dah selesai sai ke?",
+      "ms_standard": "Mak sudah selesai mengerjakan sai?",
+      "zh": "妈，您做完奔走礼了吗？",
+      "en": "Mum, have you finished sa'i?",
+      "spoken_features": [
+        "dah 对应标准语 sudah",
+        "句末 ke 标记是非疑问，正式语可用疑问语调或是否结构表达",
+        "口语省略 mengerjakan，标准对应句补出",
+        "lah 用于柔和确认语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Aisyah (女儿)",
+          "ms_spoken": "Mak dah selesai sai ke?",
+          "ms_standard": "Mak sudah selesai mengerjakan sai?",
+          "zh": "妈，您做完奔走礼了吗？",
+          "en": "Mum, have you finished sa'i?"
+        },
+        {
+          "speaker": "Salmah (母亲)",
+          "ms_spoken": "Dah, alhamdulillah. Mak nak rehat sekejap dulu lah.",
+          "ms_standard": "Sudah, alhamdulillah. Mak mahu berehat sebentar dahulu.",
+          "zh": "做完了，感谢真主。妈想先歇一会儿。",
+          "en": "Yes, praise be to Allah. I'd like to rest for a little while."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sai is borrowed from Arabic saʿy, a word associated with striving or purposeful movement. In pilgrimage tradition, the rite recalls Hajar's search for water for her son Ismail between Safa and Marwah. Malay preserves the Arabic spelling in Jawi سعي, while everyday pronunciation can omit the Arabic pharyngeal consonant represented by the middle letter. [DBP](https://prpm.dbp.gov.my/cari1?keyword=sai); [Pilgrimage background](https://bpkh.go.id/publikasi/siaran-pers/tata-cara-sai)",
+    "cognitive_memory_aid": "sa-i 分两拍：sa 联想 Safa，i 联想 ibadat；记住萨法起步、七趟单程、麦尔沃结束。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是庄重的伊斯兰宗教术语。向长辈询问完成情况时，可使用 Mak、Ayah、Tuan 或 Puan 等合适称谓，语气关切而不催促。",
+    "usage_etiquette": "用于朝觐、副朝及相关教学和行程交流。不要与绕行克尔白的 tawaf 混淆，也不要把七趟误说成七个来回。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是庄重的伊斯兰宗教术语。向长辈询问完成情况时，可使用 Mak、Ayah、Tuan 或 Puan 等合适称谓，语气关切而不催促。",
+    "usage_etiquette": "用于朝觐、副朝及相关教学和行程交流。不要与绕行克尔白的 tawaf 混淆，也不要把七趟误说成七个来回。"
+  }
+}
