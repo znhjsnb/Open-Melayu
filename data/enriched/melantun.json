@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "melantun",
+    "syllables": "me.lan.tun",
+    "ipa": "/mə.lan.tun/",
+    "jawi": "ملنتون",
+    "frequency_rank": 11657,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "melantun",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + lantun → melantun",
+    "pattern_note": "root_word 与 root_jawi 保留数据包索引值；实际词根为 lantun（لنتون）。meN- 在 l 前采用 me- 形式，l 保留，不发生词根首辅音脱落。",
+    "word_family": [
+      {
+        "word": "lantun",
+        "affix": null,
+        "gloss": "反弹动作的词根"
+      },
+      {
+        "word": "melantunkan",
+        "affix": "meN-...-kan",
+        "gloss": "使反弹；使弹起"
+      },
+      {
+        "word": "lantunan",
+        "affix": "-an",
+        "gloss": "弹跳；反弹动作"
+      }
+    ],
+    "root_jawi": "ملنتون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "反弹；物体碰到地面或其他表面后弹起、弹回。",
+      "en_definition": "To bounce or rebound after striking a surface.",
+      "ms_definition": "Bergerak semula menjauhi sesuatu permukaan selepas mengenainya; memantul atau menganjal.",
+      "nuances": "通常是不及物动词：bola melantun。若主语使另一个物体反弹，可用 melantunkan bola。不要混同印尼语中 melantunkan lagu 的演唱用法；本条采用马来西亚 DBP 所列反弹义。参见[DBP：lantun](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=lantun)。",
+      "collocations": [
+        {
+          "ms": "bola melantun",
+          "zh": "球弹起",
+          "en": "a ball bouncing"
+        },
+        {
+          "ms": "melantun semula",
+          "zh": "再次弹起；弹回",
+          "en": "to bounce back"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "反过来落到某人身上；问题、指责等转而指向原先提出它的人。",
+      "en_definition": "To rebound figuratively upon someone, especially the person who raised a question or accusation.",
+      "ms_definition": "Secara kiasan, berbalik mengenai seseorang, khususnya pihak yang mengemukakan persoalan atau tuduhan.",
+      "nuances": "常与 balik、semula 或 kepada 连用，通过弹回的空间意象表达言论反过来指向提出者；并非所有失败都适合称为 melantun。此比喻义见[DBP：lantun](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=lantun)。",
+      "collocations": [
+        {
+          "ms": "soalan itu melantun balik",
+          "zh": "那个问题反过来被问回去",
+          "en": "the question rebounds on its asker"
+        },
+        {
+          "ms": "tuduhan melantun semula kepada penuduh",
+          "zh": "指责反过来落到指责者身上",
+          "en": "an accusation rebounds on the accuser"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 体育报道",
+      "ms": "Bola itu melantun dua kali sebelum ditangkap oleh penjaga gol.",
+      "zh": "球弹了两次后被守门员接住。",
+      "en": "The ball bounced twice before the goalkeeper caught it."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聊打球经过",
+      "ms_spoken": "Bola tu melantun kuat sangat, terus masuk longkang!",
+      "ms_standard": "Bola itu melantun terlalu kuat lalu terus masuk ke dalam longkang.",
+      "zh": "那球弹得太猛，直接掉进沟里了！",
+      "en": "The ball bounced so hard it went straight into the drain!",
+      "spoken_features": [
+        "tu 对应 itu。",
+        "省略进入地点前的 ke dalam。",
+        "terus 直接衔接后续结果，形成紧凑的口语叙述。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bola tu melantun masuk longkang tadi. Kau dah ambil?",
+          "ms_standard": "Bola itu melantun lalu masuk ke dalam longkang tadi. Awak sudah mengambilnya?",
+          "zh": "刚才那球弹进沟里了，你拿回来了吗？",
+          "en": "The ball bounced into the drain just now. Have you got it back?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Nasib baik air kat situ cetek je.",
+          "ms_standard": "Sudah. Nasib baik air di situ cetek sahaja.",
+          "zh": "拿了。幸好那儿的水很浅。",
+          "en": "Yes. Luckily, the water there was only shallow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Melantun is transparently formed from lantun with the Malay verbal prefix meN-, appearing here as me-. DBP records both a physical rebound and a figurative return upon someone. The second meaning turns an ordinary bouncing movement into a social image: a question sent outward can come back to confront its original asker. [Source](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=lantun)",
+    "cognitive_memory_aid": "把 lan-tun 读成球落地后的两拍：落下、弹回；问题也能这样 melantun，绕回来问到自己。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "物理义中性，适合日常和正式叙述。比喻义可能带反驳或讽刺意味；对同事或上级说 soalan itu melantun balik kepada anda，容易显得当面挑战。",
+    "usage_etiquette": "适用于球类、弹性物体及言论反向作用的语境。正式讨论可用更中性的 soalan yang sama juga perlu dijawab oleh pihak tersebut，表达对方也需要回答同一问题。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "物理义中性，适合日常和正式叙述。比喻义可能带反驳或讽刺意味；对同事或上级说 soalan itu melantun balik kepada anda，容易显得当面挑战。",
+    "usage_etiquette": "适用于球类、弹性物体及言论反向作用的语境。正式讨论可用更中性的 soalan yang sama juga perlu dijawab oleh pihak tersebut，表达对方也需要回答同一问题。"
+  }
+}

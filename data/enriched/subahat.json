@@ -1,0 +1,157 @@
+{
+  "headword": {
+    "word": "subahat",
+    "syllables": null,
+    "ipa": "/su.ba.hat/",
+    "jawi": null,
+    "frequency_rank": 11726,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "subahat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + subahat → subahat",
+    "pattern_note": "现代马来语中按完整词根处理，不拆成 su- 与 bahat；添加 ber- 或 per-…-an 时，词根首音 s 保留。",
+    "word_family": [
+      {
+        "word": "bersubahat",
+        "affix": "ber-",
+        "gloss": "共谋；另有怀疑、疑虑义"
+      },
+      {
+        "word": "persubahatan",
+        "affix": "per-…-an",
+        "gloss": "共谋行为"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "怀疑；疑虑；不能确信的心理状态。",
+      "en_definition": "Doubt, suspicion, or uncertainty.",
+      "ms_definition": "Syak, ragu-ragu, keragu-raguan.",
+      "nuances": "这是词典收录义；现代日常表达通常选 syak 或 keraguan。不要把此义与“同谋者”义混为一谈。",
+      "collocations": [
+        {
+          "ms": "subahat hati",
+          "zh": "心中的疑虑",
+          "en": "doubt in one's heart"
+        },
+        {
+          "ms": "syak dan subahat",
+          "zh": "怀疑与疑虑",
+          "en": "suspicion and doubt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "参与恶事或与敌方合作的人；同谋者；通敌者。",
+      "en_definition": "An accomplice in wrongdoing or a collaborator with an enemy.",
+      "ms_definition": "Orang yang bekerjasama dengan musuh dan sebagainya; kolaborator.",
+      "nuances": "带明确贬义，不能用于普通合作伙伴；中性合作可说 rakan kerjasama。表示“参与共谋”的动作，正式语体通常用 bersubahat。",
+      "collocations": [
+        {
+          "ms": "rakan subahat",
+          "zh": "同谋；共犯伙伴",
+          "en": "an accomplice"
+        },
+        {
+          "ms": "menjadi subahat",
+          "zh": "成为同谋",
+          "en": "to become an accomplice"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "参与、协助或促成不法行为的共谋行为；具体法律含义须依相关条文判断。",
+      "en_definition": "Complicity or abetment in wrongdoing, especially in legal usage.",
+      "ms_definition": "Perbuatan membantu atau turut terlibat dalam pelakuan sesuatu kesalahan.",
+      "nuances": "这是法律及公共事务文本中的用法概括，并非所给词包中的独立编号释义。新闻标题也可能用 subahat 简缩表达 bersubahat。",
+      "collocations": [
+        {
+          "ms": "cubaan dan subahat",
+          "zh": "未遂与教唆或协助犯罪",
+          "en": "attempt and abetment"
+        },
+        {
+          "ms": "kesalahan subahat",
+          "zh": "教唆或协助犯罪的罪行",
+          "en": "an offence of abetment"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan itu menyatakan bahawa suspek dipercayai menjadi subahat dalam kegiatan penipuan tersebut.",
+      "zh": "报告指出，该嫌疑人被认为是这项诈骗活动的同谋。",
+      "en": "The report states that the suspect is believed to have been an accomplice in the fraud."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku tak nak jadi subahat, jadi jangan guna akaun aku.",
+      "ms_standard": "Saya tidak mahu menjadi subahat, jadi jangan gunakan akaun saya.",
+      "zh": "我可不想当同谋，所以别用我的账户。",
+      "en": "I don't want to be an accomplice, so don't use my account.",
+      "spoken_features": [
+        "tak 对应 tidak",
+        "nak 对应 mahu",
+        "aku 适合熟人之间的交流"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dia nak pinjam akaun bank aku untuk terima duit orang. Aku tak nak jadi subahat.",
+          "ms_standard": "Dia mahu meminjam akaun bank saya untuk menerima wang orang lain. Saya tidak mahu menjadi subahat.",
+          "zh": "他想借我的银行账户收别人的钱。我可不想当同谋。",
+          "en": "He wants to use my bank account to receive money from other people. I don't want to be an accomplice."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jangan bagi, lah. Suruh dia guna akaun sendiri je.",
+          "ms_standard": "Jangan benarkan dia menggunakannya. Minta dia menggunakan akaunnya sendiri sahaja.",
+          "zh": "别借啦，叫他用自己的账户就好。",
+          "en": "Don't let him. Tell him to use his own account."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "A Jawi teaching resource hosted by UiTM places subahat beside Arabic shubha, meaning doubt or suspicion. That connection helps explain the dictionary's uncertainty sense. Modern Malay also uses subahat for an accomplice, while legal texts use it for abetment. These meanings should be learned separately; the sources consulted do not establish the precise historical transition between them.",
+    "cognitive_memory_aid": "记住 rakan subahat＝同谋伙伴，bersubahat＝参与共谋；另把 subahat hati 单独记成“心存疑虑”。这是搭配记忆，不是词源拆分。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称某人为 subahat 是严肃的负面指控。正式汇报应明确这是怀疑、指称还是已确认事实。",
+    "usage_etiquette": "适用于犯罪、欺骗、通敌或共同做坏事的语境。朋友间可以戏称，但对上司、客户或不熟悉的人容易构成冒犯。"
+  },
+  "sources": [
+    {
+      "citation": "[DBP PRPM：subahat](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=subahat)",
+      "supports": "词典义及派生词"
+    },
+    {
+      "citation": "[UiTM 托管的 Jawi 教学资料](https://masjiduitm.uitm.edu.my/images/UPB/jawi3.pdf)",
+      "supports": "阿拉伯语词源联系"
+    },
+    {
+      "citation": "[马来西亚能源委员会：《1990年电力供应法令》](https://www.st.gov.my/contents/2020/AKTA/Electric/Akta%20447%20-%20Akta%20Bekalan%20Elektrik%201990.pdf)",
+      "supports": "法律文本中的 cubaan dan subahat 用法"
+    }
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "称某人为 subahat 是严肃的负面指控。正式汇报应明确这是怀疑、指称还是已确认事实。",
+    "usage_etiquette": "适用于犯罪、欺骗、通敌或共同做坏事的语境。朋友间可以戏称，但对上司、客户或不熟悉的人容易构成冒犯。"
+  }
+}

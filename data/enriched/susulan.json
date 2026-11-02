@@ -1,0 +1,159 @@
+{
+  "headword": {
+    "word": "susulan",
+    "syllables": "su.su.lan",
+    "ipa": "/su.su.lan/",
+    "jawi": "سوسولن",
+    "frequency_rank": 11660,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "susulan",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "susul + -an → susulan（随后出现的事物；后续事项）",
+    "pattern_note": "root_word 字段依要求保留数据包词目 susulan；实际构词词根是 susul（سوسول），因此 is_root 按构词分析记为 false。-an 构成表示事物或结果的名词；末尾 l 在音节划分中进入下一音节，形成 su.su.lan，词根没有辅音替换。参见 [DBP susul 词族](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=susul)。",
+    "word_family": [
+      {
+        "word": "susul",
+        "affix": "∅",
+        "gloss": "跟随、接续的构词词根"
+      },
+      {
+        "word": "menyusul",
+        "affix": "meN-",
+        "gloss": "随后到来；跟上；追赶"
+      },
+      {
+        "word": "menyusuli",
+        "affix": "meN-…-i",
+        "gloss": "跟随；接续；随后发生于"
+      },
+      {
+        "word": "menyusulkan",
+        "affix": "meN-…-kan",
+        "gloss": "随后送交；补送；附加"
+      },
+      {
+        "word": "penyusulan",
+        "affix": "peN-…-an",
+        "gloss": "跟进或接续的行为"
+      }
+    ],
+    "root_jawi": "سوسولن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "在先前事件、行动或安排之后出现的事物；后续事项、跟进活动。",
+      "en_definition": "Something that follows an earlier event or action; a follow-up.",
+      "ms_definition": "Sesuatu yang menyusul atau datang kemudian.",
+      "nuances": "现代常用于行政、医疗和新闻语境。在 tindakan susulan、rawatan susulan 等结构中，susulan 作名词性修饰语，表示“后续的、跟进的”，无需另判为形容词。句首 Susulan kejadian itu 常表达“该事件发生后、继该事件之后”，具体因果关系仍需看上下文。基本义见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=234664&keyword=susulan)。",
+      "collocations": [
+        {
+          "ms": "tindakan susulan",
+          "zh": "后续行动；跟进措施",
+          "en": "follow-up action"
+        },
+        {
+          "ms": "rawatan susulan",
+          "zh": "后续治疗；复诊治疗",
+          "en": "follow-up treatment"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在原有文件、说明或内容之后补交的材料；补充件、附加内容。",
+      "en_definition": "An addition, supplement, or attachment supplied after earlier material.",
+      "ms_definition": "Sesuatu yang disusulkan, seperti lampiran atau tambahan.",
+      "nuances": "强调补充先前内容，而非单纯表示时间在后。若只是泛指文件附件，lampiran 更明确；只有作为后补材料或与先前文件接续时，susulan 的意义才突出。",
+      "collocations": [
+        {
+          "ms": "maklumat susulan",
+          "zh": "后补信息；后续补充资料",
+          "en": "additional information supplied later"
+        },
+        {
+          "ms": "keterangan susulan",
+          "zh": "补充说明",
+          "en": "supplementary explanation"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "古语，主要见于 angin susulan：与船只前进方向相反、阻碍航行的逆风。",
+      "en_definition": "Archaic, chiefly in angin susulan: a headwind opposing a boat's direction of travel.",
+      "ms_definition": "Arkaik: angin yang berlawanan dengan arah perjalanan perahu dan sebagainya; angin sakal.",
+      "nuances": "DBP 标为古语。此义必须与现代“后续、跟进”义分开，不能望文生义理解为顺风。现代通常使用 angin sakal 或 angin dari hadapan。以下属于古义固定组合及其说明性扩展，不是现代高频搭配。",
+      "collocations": [
+        {
+          "ms": "angin susulan",
+          "zh": "逆风（古语）",
+          "en": "headwind (archaic)"
+        },
+        {
+          "ms": "tiupan angin susulan",
+          "zh": "迎面逆风的吹袭（古义说明性组合）",
+          "en": "the blowing of a headwind (illustrative archaic usage)"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jabatan berkenaan akan mengambil tindakan susulan berdasarkan dapatan audit tersebut.",
+      "zh": "有关部门将根据该次审计的发现采取后续措施。",
+      "en": "The department concerned will take follow-up action based on the audit findings."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku ada janji temu susulan kat klinik esok, jadi tak boleh ikut korang lah.",
+      "ms_standard": "Aku mempunyai janji temu susulan di klinik esok, jadi aku tidak dapat menyertai kamu semua.",
+      "zh": "我明天要去诊所复诊，所以没法跟你们一起去了。",
+      "en": "I've got a follow-up appointment at the clinic tomorrow, so I can't come with you.",
+      "spoken_features": [
+        "kat 在此对应地点介词 di。",
+        "tak 是 tidak 的口语形式，korang 对应 kamu semua。",
+        "ada 在口语中表示“有某项安排”，对应较正式的 mempunyai。",
+        "句末 lah 让无法同行的解释更具日常交流语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku ada janji temu susulan kat klinik esok, jadi tak boleh ikut korang lah.",
+          "ms_standard": "Aku mempunyai janji temu susulan di klinik esok, jadi aku tidak dapat menyertai kamu semua.",
+          "zh": "我明天要去诊所复诊，所以没法跟你们一起去了。",
+          "en": "I've got a follow-up appointment at the clinic tomorrow, so I can't come with you."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tak apa, nanti kita jumpa hujung minggu je.",
+          "ms_standard": "Tidak mengapa, kita berjumpa pada hujung minggu sahaja.",
+          "zh": "没事，那就周末再见吧。",
+          "en": "No worries. Let's just meet up this weekend."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Susulan is built from susul, the base associated with following, and the noun-forming suffix an. Its modern administrative meaning makes that sequence concrete: an earlier event is followed by another action, appointment, or document. Kamus Dewan also preserves an archaic nautical expression, angin susulan, meaning a headwind, a reminder that established expressions cannot always be interpreted from modern meanings. Source: [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=susul).",
+    "cognitive_memory_aid": "把 susul 想成“跟上前一个”，加 -an 就把动作变成“跟在后面的事项”：tindakan susulan＝上一件事之后的跟进行动。别与 susunan“排列、安排”混淆。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是行政和职场中的中性常用词。礼貌催办可说 Mohon maklum balas tentang tindakan susulan，意为“请反馈后续处理情况”；表达清楚所指事项和期限，比只写 Susulan? 更得体。",
+    "usage_etiquette": "医疗语境中，janji temu susulan 指后续预约或复诊安排，不自动表示病情严重。工作中应说明跟进什么、由谁负责及何时完成，避免把 susulan 当作含糊的催促语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是行政和职场中的中性常用词。礼貌催办可说 Mohon maklum balas tentang tindakan susulan，意为“请反馈后续处理情况”；表达清楚所指事项和期限，比只写 Susulan? 更得体。",
+    "usage_etiquette": "医疗语境中，janji temu susulan 指后续预约或复诊安排，不自动表示病情严重。工作中应说明跟进什么、由谁负责及何时完成，避免把 susulan 当作含糊的催促语。"
+  }
+}

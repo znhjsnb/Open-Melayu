@@ -1,0 +1,194 @@
+{
+  "headword": {
+    "word": "matriks",
+    "syllables": "ma.triks",
+    "ipa": "/ma.triks/",
+    "jawi": "ماتريک س",
+    "frequency_rank": 11661,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "matriks",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + matriks → matriks（作为完整借词记忆）",
+    "pattern_note": "现代马来语中作为完整词根使用，不拆成 ma-、trik 或复数 -s；结尾 /ks/ 属于词干。音节为 ma.triks，tr 和 ks 均保留辅音群。Jawi 字段依数据包保留原有空格。",
+    "word_family": [
+      {
+        "word": "algebra matriks",
+        "affix": "∅（术语组合）",
+        "gloss": "矩阵代数"
+      },
+      {
+        "word": "matriks songsang",
+        "affix": "∅（术语组合）",
+        "gloss": "逆矩阵"
+      },
+      {
+        "word": "matriks risiko",
+        "affix": "∅（术语组合）",
+        "gloss": "风险矩阵"
+      },
+      {
+        "word": "matriks polimer",
+        "affix": "∅（术语组合）",
+        "gloss": "聚合物基体"
+      }
+    ],
+    "root_jawi": "ماتريک س"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "某种社会、思想、生命体或其他事物得以产生和发展的环境、背景或孕育框架。",
+      "en_definition": "An environment or context within which something originates or develops.",
+      "ms_definition": "Persekitaran atau konteks tempat sesuatu, seperti masyarakat, organisma atau fahaman, berkembang.",
+      "nuances": "这是数据包所引《Kamus Dewan》的抽象义，常见于学术分析。在一般交流中，konteks、persekitaran 或 kerangka 往往更容易理解。此义与数学上的数字排列应区分。词典同时收录抽象义和数学义，见 [DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=matriks)。",
+      "collocations": [
+        {
+          "ms": "matriks budaya",
+          "zh": "文化环境；文化孕育框架",
+          "en": "cultural matrix"
+        },
+        {
+          "ms": "matriks falsafah",
+          "zh": "哲学背景框架",
+          "en": "philosophical matrix"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "数学中的矩阵：按行和列排列成矩形结构的数或其他数学元素。",
+      "en_definition": "A rectangular array of numbers or other mathematical elements arranged in rows and columns.",
+      "ms_definition": "Susunan nombor atau unsur matematik yang teratur dalam baris dan lajur.",
+      "nuances": "这是《Kamus Pelajar》及数学术语中的常用义；定义在词典“有序数字排列”的基础上展开。矩阵本身是数学对象，penentu 指行列式，两者不能互换。单复数由上下文或数词体现，如 satu matriks、dua matriks。",
+      "collocations": [
+        {
+          "ms": "pendaraban matriks",
+          "zh": "矩阵乘法",
+          "en": "matrix multiplication"
+        },
+        {
+          "ms": "matriks songsang",
+          "zh": "逆矩阵",
+          "en": "inverse matrix"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "按两个或多个维度组织、比较或对应信息的矩阵表，常用于风险评估、任务分工和决策。",
+      "en_definition": "A structured table that relates or compares information across dimensions, especially for assessment or planning.",
+      "ms_definition": "Jadual berstruktur yang memadankan atau membandingkan maklumat mengikut beberapa dimensi untuk penilaian atau perancangan.",
+      "nuances": "这是矩阵结构在管理和信息组织中的应用，不一定涉及矩阵代数。例如风险矩阵将发生可能性与影响程度交叉对应。马来西亚官方用例见 [公共工程局风险管理指南](https://jpak.jkr.gov.my/documents/garispanduan/GARIS%20PANDUAN%20PELAN%20PENGURUSAN%20RISIKO%20ASET%20TAK%20ALIH%20%28GP%20PPRATA%29.pdf)。",
+      "collocations": [
+        {
+          "ms": "matriks risiko",
+          "zh": "风险矩阵",
+          "en": "risk matrix"
+        },
+        {
+          "ms": "matriks penilaian",
+          "zh": "评估矩阵",
+          "en": "evaluation matrix"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "材料科学中的基体：包围、结合并支撑增强材料或其他分散成分的连续材料相。",
+      "en_definition": "The continuous material phase that surrounds, binds, and supports reinforcement or other dispersed components.",
+      "ms_definition": "Fasa bahan berterusan yang mengelilingi, mengikat dan menyokong bahan pengukuh atau komponen terdispersi dalam sesuatu bahan.",
+      "nuances": "这是材料科学专门义，中文通常译为“基体”，不译为数学意义的“矩阵”。例如聚合物基复合材料中的树脂可充当 matriks。术语使用见 [DBP《Pembuatan Produk Komposit Berasaskan Matriks Polimer》](https://jendeladbp.my/ujana/pembuatan-produk-komposit-berasaskan-matriks-polimer/)。",
+      "collocations": [
+        {
+          "ms": "matriks polimer",
+          "zh": "聚合物基体",
+          "en": "polymer matrix"
+        },
+        {
+          "ms": "komposit matriks logam",
+          "zh": "金属基复合材料",
+          "en": "metal matrix composite"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "noun",
+      "zh_definition": "生物学中的基质：为细胞或组织提供结构支持和相互作用环境的物质，尤其见于细胞外基质。",
+      "en_definition": "A biological material that provides structural support and an environment for cells or tissues, especially an extracellular matrix.",
+      "ms_definition": "Bahan asas yang memberikan sokongan struktur serta persekitaran interaksi kepada sel atau tisu, khususnya matriks ekstrasel.",
+      "nuances": "这是生物学专门义，中文通常译为“基质”。matriks ekstrasel 指细胞外的支持性物质体系，并非数字表格。马来西亚研究用语见 [《Sains Malaysiana》相关论文](https://www.ukm.edu.my/jsm/pdf_files/SM-PDF-52-6-2023/13.pdf)。",
+      "collocations": [
+        {
+          "ms": "matriks ekstrasel",
+          "zh": "细胞外基质",
+          "en": "extracellular matrix"
+        },
+        {
+          "ms": "organisasi matriks ekstrasel",
+          "zh": "细胞外基质的组织构建",
+          "en": "extracellular matrix organization"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan projek menggunakan matriks risiko untuk menentukan keutamaan langkah kawalan.",
+      "zh": "项目团队使用风险矩阵，确定各项管控措施的优先顺序。",
+      "en": "The project team uses a risk matrix to prioritize control measures."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah cuba darab dua matriks ni, tapi jawapan aku lain lah.",
+      "ms_standard": "Aku sudah cuba mendarabkan kedua-dua matriks ini, tetapi jawapanku berbeza.",
+      "zh": "我已经试着把这两个矩阵相乘了，可算出来的答案不一样啊。",
+      "en": "I've tried multiplying these two matrices, but I'm getting a different answer.",
+      "spoken_features": [
+        "dah 对应 sudah，ni 对应 ini。",
+        "darab 在口语中作为简化动词使用，标准表达为 mendarabkan。",
+        "lain 在此表示 berbeza，即“不同”。",
+        "句末 lah 表达疑惑或轻微无奈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Aku dah cuba darab dua matriks ni, tapi jawapan aku lain lah.",
+          "ms_standard": "Aku sudah cuba mendarabkan kedua-dua matriks ini, tetapi jawapanku berbeza.",
+          "zh": "我已经试着把这两个矩阵相乘了，可算出来的答案不一样啊。",
+          "en": "I've tried multiplying these two matrices, but I'm getting a different answer."
+        },
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Cuba semak urutan matriks tu dulu. Darab AB dengan BA tak semestinya sama, kan?",
+          "ms_standard": "Cuba semak urutan matriks itu dahulu. Hasil darab AB dan BA tidak semestinya sama, bukan?",
+          "zh": "先检查一下矩阵的顺序。AB 和 BA 的乘积不一定一样，对吧？",
+          "en": "Check the order of the matrices first. AB and BA don't necessarily give the same result, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Matriks belongs to an international word family ultimately connected with Latin matrix, meaning womb. In 1850, James Joseph Sylvester used matrix for a mathematical array from which determinants could be generated. The image of a nurturing container helps connect the modern meanings: a context supports development, a material matrix holds components, and an array organizes mathematical elements. Source: [IMPA on mathematical terminology](https://impa.br/notices/in-folha-de-s-paulo-the-origins-of-mathematical-terms/?lang=en).",
+    "cognitive_memory_aid": "读 ma-triks，联想英语 matrix：把数字放进格子是“矩阵”，把成分包在材料里是“基体”，让思想生长的背景是“孕育环境”。结尾读 /ks/，不是 /kis/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的学术和专业用词，没有特殊敬语限制。面对非专业听众，首次使用时可补上说明，如 matriks risiko, iaitu jadual yang memadankan kemungkinan dengan impak。",
+    "usage_etiquette": "教育、工程、研究和管理语境均可使用，但应明确所属领域。向学生解释时可先展示行列结构；向公众汇报时应说明矩阵怎样影响判断，避免只用术语而不解释实际意义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的学术和专业用词，没有特殊敬语限制。面对非专业听众，首次使用时可补上说明，如 matriks risiko, iaitu jadual yang memadankan kemungkinan dengan impak。",
+    "usage_etiquette": "教育、工程、研究和管理语境均可使用，但应明确所属领域。向学生解释时可先展示行列结构；向公众汇报时应说明矩阵怎样影响判断，避免只用术语而不解释实际意义。"
+  }
+}

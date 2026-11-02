@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "menyita",
+    "syllables": "me.nyi.ta",
+    "ipa": "/mə.ɲi.ta/",
+    "jawi": "مڽيتا",
+    "frequency_rank": 11706,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sita",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + sita → menyita",
+    "pattern_note": "词根首音 /s/ 在 meN- 派生中脱落，前缀实现为 meny- /məɲ/。输入包将 menyita 标为词根有误；DBP 将它列为 sita 的派生词。",
+    "word_family": [
+      {
+        "word": "sitaan",
+        "affix": "-an",
+        "gloss": "被查扣的物品"
+      },
+      {
+        "word": "penyita",
+        "affix": "peN-",
+        "gloss": "执行查扣的人或机构"
+      },
+      {
+        "word": "penyitaan",
+        "affix": "peN-...-an",
+        "gloss": "查封；扣押行为"
+      },
+      {
+        "word": "disita",
+        "affix": "di-",
+        "gloss": "被查封；被扣押"
+      }
+    ],
+    "root_jawi": "سيتا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "由警方或其他有权机关依法查扣、扣押物品或查封财产。",
+      "en_definition": "To seize, impound, or attach property under official or judicial authority.",
+      "ms_definition": "Merampas, mengambil atau menahan barang dan sebagainya dengan perintah mahkamah atau oleh polis.",
+      "nuances": "及物动词，常见于执法报道和行政文书。中文须按宾语选择“扣押车辆”“查扣物品”或“查封财产”。查扣本身不必然表示永久没收。词根和基本释义依据 [DBP：sita](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=sita)；车辆查扣用法见 [JPJ：Prosedur Menuntut Kenderaan Disita](https://www.jpj.gov.my/prosedur-menuntut-kenderaan-disita-jpj/)。",
+      "collocations": [
+        {
+          "ms": "menyita kenderaan",
+          "zh": "扣押车辆",
+          "en": "impound a vehicle"
+        },
+        {
+          "ms": "menyita harta",
+          "zh": "查封或扣押财产",
+          "en": "seize property"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pegawai penguat kuasa menyita beberapa buah kenderaan dalam operasi tersebut.",
+      "zh": "执法人员在该次行动中扣押了数辆车辆。",
+      "en": "Enforcement officers impounded several vehicles during the operation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "JPJ dah sita lori tu ke?",
+      "ms_standard": "Adakah JPJ sudah menyita lori itu?",
+      "zh": "陆路交通局已经把那辆罗里扣下了吗？",
+      "en": "Has the Road Transport Department impounded that lorry?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "主动句口语常用 sita，标准书面语使用 menyita。",
+        "tu 对应 itu；句末 ke 构成口语疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "JPJ dah sita lori tu ke?",
+          "ms_standard": "Adakah JPJ sudah menyita lori itu?",
+          "zh": "陆路交通局已经把那辆罗里扣下了吗？",
+          "en": "Has the Road Transport Department impounded that lorry?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah. Bos nak pergi pejabat JPJ petang ni.",
+          "ms_standard": "Ya, lori itu sudah disita. Majikan kita hendak pergi ke pejabat JPJ petang ini.",
+          "zh": "扣了。老板今天下午要去陆路交通局办事处。",
+          "en": "Yes. The boss is going to the Road Transport Department office this afternoon."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records menyita under sita, alongside words for seized goods and the person carrying out a seizure. This family connects an official action with its objects and agents. It illustrates how Malay builds administrative vocabulary through affixation. The consulted entry establishes this morphological relationship but does not establish the root’s ultimate historical origin. Source: [DBP](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=sita).",
+    "cognitive_memory_aid": "记住 sita“查扣”：前面加 meN-，s 被 ny 替换，便得到 menyita“执行查扣”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性而正式；谈及查扣事件时宜说明执行机关和已确认事实，避免直接把物主称为罪犯。",
+    "usage_etiquette": "适合执法、财产和行政语境。家长或教师暂时收走手机，日常更自然地说 ambil 或 simpan dahulu；使用 sita 可能带戏谑或强调权威的语气。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性而正式；谈及查扣事件时宜说明执行机关和已确认事实，避免直接把物主称为罪犯。",
+    "usage_etiquette": "适合执法、财产和行政语境。家长或教师暂时收走手机，日常更自然地说 ambil 或 simpan dahulu；使用 sita 可能带戏谑或强调权威的语气。"
+  }
+}

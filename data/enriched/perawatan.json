@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "perawatan",
+    "syllables": "pe.ra.wa.tan",
+    "ipa": "/pə.ra.wa.tan/",
+    "jawi": "ڤراوتن",
+    "frequency_rank": 11667,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "perawat",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "perawat + -an → perawatan；基础词分析：peN- + rawat + -an → perawatan",
+    "pattern_note": "root_word 按输入保留 perawat；更底层的基础词是 rawat。peN- 在 r 前表现为 pe-，保留词首 r；追加 -an 不触发辅音脱落。",
+    "word_family": [
+      {
+        "word": "merawat",
+        "affix": "meN-",
+        "gloss": "护理；照料；维护"
+      },
+      {
+        "word": "rawatan",
+        "affix": "-an",
+        "gloss": "治疗；护理；保养"
+      },
+      {
+        "word": "perawat",
+        "affix": "peN-",
+        "gloss": "照护者；护理人员"
+      }
+    ],
+    "root_jawi": "ڤراوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对病人、伤者或需要照护者进行护理、照料或治疗的过程与工作。",
+      "en_definition": "The provision or process of care, nursing, or treatment.",
+      "ms_definition": "Urusan menjaga dan merawat seseorang, termasuk penjagaan ketika sakit atau pemulihan.",
+      "nuances": "强调照护活动与过程，常见于医疗服务名称；不是“护理人员”，也不等同于护理专业 kejururawatan。[DBP：perawatan](https://prpm.dbp.gov.my/cari1?keyword=perawatan)；[马来西亚卫生部属下服务说明](https://jknjohor.moh.gov.my/pkdsegamat/perkhidmatan-perawatan-domisiliari-ppd/)",
+      "collocations": [
+        {
+          "ms": "perawatan pesakit",
+          "zh": "病人护理",
+          "en": "patient care"
+        },
+        {
+          "ms": "perawatan domisiliari",
+          "zh": "居家护理",
+          "en": "domiciliary care"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为维持身体部位的健康、清洁或美观而进行的护理与保养。",
+      "en_definition": "Care or treatment intended to maintain bodily health, condition, or appearance.",
+      "ms_definition": "Penjagaan bahagian tubuh untuk mengekalkan kesihatan, kebersihan atau kecantikannya.",
+      "nuances": "可用于美容护理；是否属于医疗行为取决于具体服务。马来西亚商业用语中 rawatan muka 也很常见。[DBP：perawatan](https://prpm.dbp.gov.my/cari1?keyword=perawatan)",
+      "collocations": [
+        {
+          "ms": "perawatan muka",
+          "zh": "面部护理",
+          "en": "facial care or treatment"
+        },
+        {
+          "ms": "perawatan kulit",
+          "zh": "皮肤护理",
+          "en": "skin care"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "为使物品、设施等保持良好状态而进行的养护、维护或保全。",
+      "en_definition": "Maintenance or preservation undertaken to keep something in good condition.",
+      "ms_definition": "Usaha memelihara atau menyelenggara sesuatu supaya keadaannya terus baik.",
+      "nuances": "属于较宽泛的照管义；马来西亚技术文件谈机器维护通常用 penyelenggaraan 更明确。下列为适切搭配，不表示已测得其语料频率。[DBP：perawatan](https://prpm.dbp.gov.my/cari1?keyword=perawatan)",
+      "collocations": [
+        {
+          "ms": "perawatan berkala",
+          "zh": "定期养护",
+          "en": "periodic maintenance"
+        },
+        {
+          "ms": "perawatan bahan",
+          "zh": "材料养护或处理",
+          "en": "material care or treatment"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共卫生 / 服务汇报",
+      "ms": "Pasukan kesihatan menyediakan perawatan di rumah bagi pesakit yang memerlukan penjagaan berterusan selepas keluar dari hospital.",
+      "zh": "医疗团队为出院后仍需持续照护的病人提供居家护理。",
+      "en": "The healthcare team provides home care for patients who need continuing support after leaving hospital."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人协调居家护理",
+      "ms_spoken": "Esok jururawat nak datang untuk perawatan ayah kat rumah.",
+      "ms_standard": "Esok jururawat akan datang untuk memberikan perawatan kepada ayah di rumah.",
+      "zh": "明天护士会来家里给爸爸做护理。",
+      "en": "The nurse is coming tomorrow to care for Dad at home.",
+      "spoken_features": [
+        "nak 在此表示将要进行的安排",
+        "kat 对应 di",
+        "口语省略 memberikan 等可由语境补足的成分"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Esok jururawat nak datang untuk perawatan ayah kat rumah. Kau ada?",
+          "ms_standard": "Esok jururawat akan datang untuk memberikan perawatan kepada ayah di rumah. Adakah kamu berada di rumah?",
+          "zh": "明天护士要来家里给爸爸做护理。你在家吗？",
+          "en": "The nurse is coming tomorrow to care for Dad. Will you be home?"
+        },
+        {
+          "speaker": "Hakim (弟弟)",
+          "ms_spoken": "Ada. Aku dah minta cuti, jadi aku tunggu kat rumah je.",
+          "ms_standard": "Ya, saya akan berada di rumah. Saya sudah memohon cuti, jadi saya akan menunggu di rumah.",
+          "zh": "在。我已经请假了，就在家等。",
+          "en": "Yes. I've taken the day off, so I'll be home waiting."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Perawatan belongs to the rawat family, which connects looking after people with keeping things in good condition. Malaysian public healthcare uses the word in service names such as perawatan domisiliari, care delivered at home. That institutional setting makes its meaning concrete: care continues after discharge, extending into the patient's household. [Official service description](https://jknjohor.moh.gov.my/pkdsegamat/perkhidmatan-perawatan-domisiliari-ppd/)",
+    "cognitive_memory_aid": "连着记：rawat 是“照护”，perawat 是“照护者”，perawatan 是“照护这件事”；别把人和护理过程混淆。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈病人时使用中性、尊重的表达；称呼护士宜用 jururawat，不宜因看到 perawatan 就将所有护理人员一概称作 perawat。",
+    "usage_etiquette": "适用于医疗、照护及美容服务。正式说明应写清对象和服务范围，例如 perawatan pesakit 或 perawatan muka，避免把美容保养和疾病治疗含糊混用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈病人时使用中性、尊重的表达；称呼护士宜用 jururawat，不宜因看到 perawatan 就将所有护理人员一概称作 perawat。",
+    "usage_etiquette": "适用于医疗、照护及美容服务。正式说明应写清对象和服务范围，例如 perawatan pesakit 或 perawatan muka，避免把美容保养和疾病治疗含糊混用。"
+  }
+}

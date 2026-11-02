@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "koin",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11708,
+    "status": "regional"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "koin",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + koin → koin",
+    "pattern_note": "形式本身无可确认的马来语词缀。须区分印尼语“硬币”与彭亨方言第一人称两个用法，不能据同形推定同源。输入包未提供可靠音节、读音和爪夷文，均保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "硬币；印尼语用词，在马来西亚规范马来语中通常对应 duit syiling 或 wang syiling。",
+      "en_definition": "A coin; an Indonesian term corresponding to standard Malaysian Malay duit syiling or wang syiling.",
+      "ms_definition": "Dalam bahasa Indonesia, wang logam; padanan lazim dalam bahasa Melayu Malaysia ialah duit syiling atau wang syiling.",
+      "nuances": "此释义标明跨地区用法，不将其认定为马来西亚通用规范词。DBP 的 MABBIM 对照表将印尼术语中的 koin 与马来西亚术语中的 syiling 对应，见 [DBP：keping，MABBIM 对照表](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keping)。下列搭配属于印尼语用法；释义是编辑性说明。",
+      "collocations": [
+        {
+          "ms": "koin emas",
+          "zh": "金币",
+          "en": "gold coin"
+        },
+        {
+          "ms": "koin perak",
+          "zh": "银币",
+          "en": "silver coin"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "我；彭亨方言中记录的第一人称代词形式之一。",
+      "en_definition": "I or me; an attested first-person pronoun in Pahang Malay.",
+      "ms_definition": "Dalam dialek Pahang, kata ganti nama diri pertama yang bermaksud saya.",
+      "nuances": "实际词类是代词，按所给 schema 暂归 noun；不可据此当作普通名词。PLANMalaysia 的 dialekPedia 将 kon、kun、koin、koing 并列释为 saya，但未说明各形式的具体地域、读音和社会分布。下列短语为释义演示，不宣称是经语料确认的高频方言搭配。依据 [PLANMalaysia：dialekPedia](https://app.planmalaysia.gov.my/planet/theme/dist/dialekPedia/kamus.cfm?page=37)。",
+      "collocations": [
+        {
+          "ms": "koin nak",
+          "zh": "我想要；我要",
+          "en": "I want to"
+        },
+        {
+          "ms": "koin dah",
+          "zh": "我已经",
+          "en": "I have already"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；钱币义使用马来西亚规范对应词",
+      "ms": "Pameran itu menampilkan koleksi duit syiling emas dan perak.",
+      "zh": "该展览展出了金币和银币收藏。",
+      "en": "The exhibition features a collection of gold and silver coins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；讨论跨地区词汇",
+      "ms_spoken": "Dalam video Indonesia tu, koin maksudnya duit syiling kan?",
+      "ms_standard": "Dalam video dari Indonesia itu, adakah perkataan koin bermaksud duit syiling?",
+      "zh": "那个印尼视频里的 koin，就是硬币的意思，对吧？",
+      "en": "In that Indonesian video, koin means coins, right?",
+      "spoken_features": [
+        "tu 对应 itu。",
+        "句末 kan 请求对方确认。",
+        "保留印尼词作为讨论对象，避免把它包装成马来西亚规范用词。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dalam video Indonesia tu, koin maksudnya duit syiling kan?",
+          "ms_standard": "Dalam video dari Indonesia itu, adakah perkataan koin bermaksud duit syiling?",
+          "zh": "那个印尼视频里的 koin，就是硬币的意思，对吧？",
+          "en": "In that Indonesian video, koin means coins, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya. Kalau nak tulis untuk pembaca Malaysia, guna duit syiling je.",
+          "ms_standard": "Ya. Jika hendak menulis untuk pembaca Malaysia, gunakan istilah duit syiling sahaja.",
+          "zh": "对。如果是写给马来西亚读者看的，用 duit syiling 就行。",
+          "en": "Yes. If you're writing for Malaysian readers, just use duit syiling."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Koin illustrates why a shared spelling does not guarantee a shared meaning. DBP’s regional terminology comparison uses koin in an Indonesian expression where Malaysia uses syiling. Separately, PLANMalaysia records koin among Pahang forms meaning saya. These attestations establish distinct uses, but they do not establish a common origin or a borrowing route. Sources: [DBP](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=keping), [PLANMalaysia](https://app.planmalaysia.gov.my/planet/theme/dist/dialekPedia/kamus.cfm?page=37).",
+    "cognitive_memory_aid": "先看语境：印尼钱币语境，koin＝硬币；彭亨方言记录，koin＝我。马来西亚通用表达记 duit syiling 和 saya。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "方言第一人称的礼貌程度须结合当地习惯判断；面对长辈、客户或陌生人，saya 更稳妥。",
+    "usage_etiquette": "讨论印尼内容时可以保留 koin 并解释。面向马来西亚公众的钱币说明宜用 duit syiling；引用彭亨方言时应保留地域标签。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "方言第一人称的礼貌程度须结合当地习惯判断；面对长辈、客户或陌生人，saya 更稳妥。",
+    "usage_etiquette": "讨论印尼内容时可以保留 koin 并解释。面向马来西亚公众的钱币说明宜用 duit syiling；引用彭亨方言时应保留地域标签。"
+  }
+}
