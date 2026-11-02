@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "failnya",
+    "syllables": null,
+    "ipa": "/fa.il.ɲa/",
+    "jawi": "فاءيل",
+    "frequency_rank": 11895,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "fail",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "fail + -nya → failnya",
+    "pattern_note": "-nya 在此是附着于名词后的代词性附着成分，可表示“他／她／它的”，也可回指上下文中已知的文件。词根不发生音变，ny 表示 /ɲ/。按字段枚举归入 suffix；输入包所给 Jawi 是词根 fail 的写法，未包含 -nya。",
+    "word_family": [
+      {
+        "word": "memfailkan",
+        "affix": "meN-...-kan",
+        "gloss": "归档；提交备案"
+      },
+      {
+        "word": "pemfailan",
+        "affix": "peN-...-an",
+        "gloss": "归档；备案手续"
+      }
+    ],
+    "root_jawi": "فاءيل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他、她或它的文件夹、档案夹；也可指上下文中已知的那个文件夹。",
+      "en_definition": "His, her, or its folder or physical file; also the contextually identified folder.",
+      "ms_definition": "Bekas penyimpanan surat atau dokumen secara tersusun yang menjadi milik seseorang atau yang telah diketahui dalam konteks.",
+      "nuances": "-nya 不区分性别，也不固定表示“他的”。此义强调盛放纸质材料的实体容器；若强调其中的记录内容，则用下一义。",
+      "collocations": [
+        {
+          "ms": "membuka failnya",
+          "zh": "打开他／她的文件夹",
+          "en": "open his or her folder"
+        },
+        {
+          "ms": "menyimpan surat dalam failnya",
+          "zh": "把信件存进相应文件夹",
+          "en": "put letters in the relevant folder"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "有关某人或某事的档案、卷宗或成套记录；具体所指由上下文确定。",
+      "en_definition": "The dossier or collection of records concerning a particular person or matter.",
+      "ms_definition": "Kumpulan maklumat atau dokumen tentang seseorang atau sesuatu perkara yang dirujuk dalam konteks.",
+      "nuances": "failnya boleh merujuk kepada fail tentang seseorang，而不一定是其私人拥有的文件。例如医院里的 failnya 常指该人的病历档案。",
+      "collocations": [
+        {
+          "ms": "menyemak failnya",
+          "zh": "查阅其档案",
+          "en": "review his or her records"
+        },
+        {
+          "ms": "mengemas kini failnya",
+          "zh": "更新其档案",
+          "en": "update his or her file"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "他、她或它的计算机文件；也可指前文提到的那个电子文件。",
+      "en_definition": "His, her, or its computer file, or the electronic file already identified in context.",
+      "ms_definition": "Sekumpulan data atau maklumat berkaitan yang disimpan dengan suatu nama dalam sistem komputer dan dirujuk melalui -nya.",
+      "nuances": "在 Failnya terlalu besar 中，-nya 常回指已知文件，整句可译为“那个文件太大了”，不必译出所有者。此处 fail 是“文件”，不是英语 fail“失败”。",
+      "collocations": [
+        {
+          "ms": "memuat turun failnya",
+          "zh": "下载那个文件",
+          "en": "download the file"
+        },
+        {
+          "ms": "saiz failnya",
+          "zh": "该文件的大小",
+          "en": "the size of the file"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pegawai itu telah mengemas kini failnya sebelum menyerahkan dokumen sokongan kepada penyelia.",
+      "zh": "该职员在向主管提交佐证文件之前，已更新自己的档案。",
+      "en": "The officer updated their file before submitting the supporting documents to the supervisor."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah cuba hantar, tapi failnya besar sangat lah.",
+      "ms_standard": "Saya sudah cuba menghantarnya, tetapi saiz fail itu terlalu besar.",
+      "zh": "我已经试着发了，可那个文件实在太大啦。",
+      "en": "I tried sending it, but the file is way too big.",
+      "spoken_features": [
+        "aku 用于熟人之间自称",
+        "dah 是 sudah 的口语缩略",
+        "besar sangat 对应标准表达 terlalu besar",
+        "lah 加强解释语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku dah cuba hantar laporan tu, tapi failnya besar sangat lah.",
+          "ms_standard": "Saya sudah cuba menghantar laporan itu, tetapi saiz failnya terlalu besar.",
+          "zh": "我已经试着发那份报告了，可文件太大啦。",
+          "en": "I tried sending the report, but the file is way too big."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Muat naik kat folder kongsi je, lepas tu hantar pautan.",
+          "ms_standard": "Muat naik fail itu ke folder kongsi sahaja, kemudian hantarkan pautannya.",
+          "zh": "直接上传到共享文件夹，再把链接发来就行。",
+          "en": "Just upload it to the shared folder and send me the link."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Fail is the Malay borrowing corresponding to English file. Its meanings connect the office folder, the records kept together inside it, and the named electronic unit stored on a computer. Adding the Malay clitic -nya integrates the noun into Malay grammar. The resulting form can identify an owner or simply point back to a file already mentioned.",
+    "cognitive_memory_aid": "fail 像英语 file，-nya 像贴上的“其”字标签：failnya＝其文件；具体是“谁的”或“那个”，看上下文。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接向对方索取文件时，用 Boleh hantarkan fail itu? 较自然；需要明确表达“您的文件”时，可用 fail tuan 或 fail puan，避免用 -nya 直接称呼对方。",
+    "usage_etiquette": "工作交流中应说明文件名称或所属事项，避免 failnya 指代不清。涉及个人档案时，索取和转发应符合当事人同意及机构的保密要求。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接向对方索取文件时，用 Boleh hantarkan fail itu? 较自然；需要明确表达“您的文件”时，可用 fail tuan 或 fail puan，避免用 -nya 直接称呼对方。",
+    "usage_etiquette": "工作交流中应说明文件名称或所属事项，避免 failnya 指代不清。涉及个人档案时，索取和转发应符合当事人同意及机构的保密要求。"
+  }
+}

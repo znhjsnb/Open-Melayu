@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "memperdayakan",
+    "syllables": null,
+    "ipa": "/məm.pər.da.ja.kan/",
+    "jawi": null,
+    "frequency_rank": 11920,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "daya",
+    "affix": "memper-...-kan",
+    "affix_type": "circumfix",
+    "formula": "memper- + daya + -kan → memperdayakan",
+    "pattern_note": "daya 在这里取“计谋、手段”义。memper- 中的 /p/ 保留，不套用简单 meN- 加 p 起首词根时的脱落规则；词根 daya 本身不变。",
+    "word_family": [
+      {
+        "word": "memperdaya",
+        "affix": "memper-",
+        "gloss": "欺骗；施计蒙骗"
+      },
+      {
+        "word": "diperdayakan",
+        "affix": "diper-...-kan",
+        "gloss": "被蒙骗"
+      },
+      {
+        "word": "terperdaya",
+        "affix": "terper-",
+        "gloss": "受骗；中了圈套"
+      },
+      {
+        "word": "perdayaan",
+        "affix": "per-...-an",
+        "gloss": "骗局；欺骗手段"
+      }
+    ],
+    "root_jawi": "داي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "利用计谋、假象或虚假说辞蒙骗某人，使其相信不实情况或作出受骗的行动。",
+      "en_definition": "To deceive or trick someone through a ruse, false appearance, or misleading claim.",
+      "ms_definition": "Menjalankan tipu daya atau muslihat; menipu.",
+      "nuances": "及物动词，通常带受骗者作宾语，也可用于欺骗或绕过系统。DBP 在 memperdaya 词条下列有 memperdayakan。它带有欺骗的负面含义，不能译作“赋能”；“赋能”通常用 memperkasa 或 memperkasakan。",
+      "collocations": [
+        {
+          "ms": "memperdayakan mangsa",
+          "zh": "蒙骗受害者",
+          "en": "deceive a victim"
+        },
+        {
+          "ms": "memperdayakan orang ramai",
+          "zh": "蒙骗公众",
+          "en": "deceive the public"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 诈骗案件报道",
+      "ms": "Sindiket itu dipercayai menggunakan tawaran pekerjaan palsu untuk memperdayakan mangsa.",
+      "zh": "该团伙据信利用虚假的工作机会蒙骗受害者。",
+      "en": "The syndicate is believed to have used fake job offers to deceive victims."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论可疑信息",
+      "ms_spoken": "Dia nak memperdayakan kau je dengan janji untung besar tu.",
+      "ms_standard": "Dia hanya hendak memperdayakan awak dengan janji keuntungan besar itu.",
+      "zh": "他就是想拿赚大钱的承诺来骗你。",
+      "en": "He's just trying to trick you with that promise of huge profits.",
+      "spoken_features": [
+        "nak 对应 hendak，je 对应 sahaja，tu 对应 itu",
+        "kau 用于熟人之间",
+        "memperdayakan 保留完整形式；口语中也常改用较简短的 tipu"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dia kata bayar sikit je dulu, lepas tu boleh untung besar.",
+          "ms_standard": "Dia mengatakan bahawa saya hanya perlu membayar sedikit dahulu, kemudian boleh mendapat keuntungan besar.",
+          "zh": "他说先付一点钱，之后就能赚很多。",
+          "en": "He says I only need to pay a little upfront, then I'll make a lot."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jangan bayar dulu. Dia mungkin nak memperdayakan kau je.",
+          "ms_standard": "Jangan membuat bayaran dahulu. Dia mungkin hanya hendak memperdayakan awak.",
+          "zh": "先别付钱。他可能就是想骗你。",
+          "en": "Don't pay yet. He may just be trying to trick you."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The key to this word is daya in its sense of a stratagem, not merely strength or ability. DBP illustrates the related memperdaya through Sang Kancil, the clever mouse-deer who tricks other forest animals. That familiar storytelling context makes the modern meaning memorable: ingenuity becomes deception when it is used to mislead someone.",
+    "cognitive_memory_aid": "先记 tipu daya＝诡计，再把 memperdayakan 理解成“对人施展诡计”。看见 daya，别一律联想到能力或赋能。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说某人 memperdayakan 别人属于明确指控。尚未确定事实时，可用 disyaki 或 didakwa 表明怀疑或指控的性质。",
+    "usage_etiquette": "适合诈骗警示、案件报道、文学叙述和识别误导行为；普通劝说若没有欺骗成分，不宜使用这个词。"
+  },
+  "sources": [
+    "[DBP PRPM：memperdaya，列有 memperdayakan，并说明 daya 的派生关系](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memperdaya)",
+    "[DBP PRPM：perdayaan，含技术领域中的 memperdayakan 用例](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=perdayaan)"
+  ],
+  "data_quality": {
+    "packet_corrections": [
+      "原包的 perdayakan 不是最终词根；已更正为 daya。",
+      "root_jawi 按更正后的词根补为 داي。"
+    ],
+    "missing_data": "syllables 和 headword.jawi 保留原包的 null；IPA 为依据标准马来语构拟的宽式音标。",
+    "editorial_note": "official 表示该词形有 DBP 辞书依据，不表示本条全部教学说明和例句获得官方审定。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说某人 memperdayakan 别人属于明确指控。尚未确定事实时，可用 disyaki 或 didakwa 表明怀疑或指控的性质。",
+    "usage_etiquette": "适合诈骗警示、案件报道、文学叙述和识别误导行为；普通劝说若没有欺骗成分，不宜使用这个词。"
+  }
+}

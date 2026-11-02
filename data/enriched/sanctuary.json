@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "sanctuary",
+    "syllables": null,
+    "ipa": "/ˈsæŋktʃuəri/",
+    "jawi": null,
+    "frequency_rank": 11956,
+    "status": "foreign",
+    "status_note": "这是英语词；马来语可按语境用 santuari、tempat perlindungan、kawasan perlindungan 或 tempat suci。",
+    "data_note": "输入中的 various translations 是翻译说明，不是音节信息，故音节字段置为 null。音标采用英式英语读音。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sanctuary",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sanctuary → sanctuary",
+    "pattern_note": "作为英语整词识别，不分析为马来语词缀组合；词中的 c 不单独读作 /k/。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "圣所；用于宗教敬拜的神圣场所，或宗教建筑中被视为特别神圣的区域。",
+      "en_definition": "A sacred place, especially a place of worship or a sacred part of a religious building.",
+      "ms_definition": "Tempat suci atau bahagian tertentu dalam bangunan ibadat yang dianggap suci.",
+      "nuances": "属于英语宗教用语；马来语释义依据英马词典综合编写。具体指整座圣所还是内部区域，须依宗教传统判断。以下为英语搭配。[DBP 英马词典：sanctuary](https://prpm.dbp.gov.my/cari1?keyword=sanctuary)",
+      "collocations": [
+        {
+          "ms": "church sanctuary",
+          "zh": "教堂圣所",
+          "en": "the sacred worship space of a church"
+        },
+        {
+          "ms": "inner sanctuary",
+          "zh": "内殿；内部圣所",
+          "en": "an innermost sacred area"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "庇护；免受危险或迫害的保护，也指提供这种保护的地方；比喻使人获得安宁的去处。",
+      "en_definition": "Protection from danger or persecution, or a place providing safety or peace.",
+      "ms_definition": "Perlindungan daripada bahaya atau penganiayaan, atau tempat yang memberikan keselamatan atau ketenangan.",
+      "nuances": "依语境译为 perlindungan、tempat perlindungan、suaka 或 tempat yang menenangkan。它本身不保证任何特定法律身份。以下为英语搭配。[DBP 英马词典：sanctuary](https://prpm.dbp.gov.my/cari1?keyword=sanctuary)",
+      "collocations": [
+        {
+          "ms": "seek sanctuary",
+          "zh": "寻求庇护",
+          "en": "seek protection or refuge"
+        },
+        {
+          "ms": "a sanctuary from stress",
+          "zh": "远离压力的宁静去处",
+          "en": "a place offering relief from stress"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "野生动物保护区；为保护动物及其栖息环境而设立的区域。",
+      "en_definition": "An area maintained to protect wildlife and its habitat.",
+      "ms_definition": "Kawasan yang disediakan untuk melindungi hidupan liar dan habitatnya.",
+      "nuances": "英语拼写 sanctuary 与马来语用词 santuari 应区分。马来西亚官方机构使用 santuari hidupan liar 等名称；实际名称须照录。以下为英语搭配。[DBP 英马词典](https://prpm.dbp.gov.my/cari1?keyword=sanctuary)、[PERHILITAN 保护区资料](https://www.wildlife.gov.my/kawasan-perlindungan/)",
+      "collocations": [
+        {
+          "ms": "wildlife sanctuary",
+          "zh": "野生动物保护区",
+          "en": "a protected area for wildlife"
+        },
+        {
+          "ms": "bird sanctuary",
+          "zh": "鸟类保护区",
+          "en": "a protected area for birds"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam risalah dwibahasa itu, istilah “wildlife sanctuary” diterjemahkan sebagai “santuari hidupan liar”.",
+      "zh": "该双语手册将“wildlife sanctuary”译为“santuari hidupan liar”，即野生动物保护区。",
+      "en": "In the bilingual brochure, “wildlife sanctuary” is translated as “santuari hidupan liar.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak pergi bird sanctuary tu hujung minggu ni.",
+      "ms_standard": "Saya hendak pergi ke santuari burung itu pada hujung minggu ini.",
+      "zh": "我这个周末想去那个鸟类保护区。",
+      "en": "I want to visit that bird sanctuary this weekend.",
+      "spoken_features": [
+        "bird sanctuary 是夹用的英语名词短语",
+        "aku 为熟人之间的第一人称",
+        "nak 对应 hendak",
+        "tu 和 ni 分别对应 itu 和 ini",
+        "口语省略了标准句中的介词 ke"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau nak ikut aku pergi bird sanctuary tu Sabtu ni?",
+          "ms_standard": "Adakah awak hendak mengikut saya ke santuari burung itu pada hari Sabtu ini?",
+          "zh": "这周六你要不要跟我去那个鸟类保护区？",
+          "en": "Want to come to that bird sanctuary with me this Saturday?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nak! Kita tengok burung dari jauh je, jangan kacau.",
+          "ms_standard": "Ya, saya hendak ikut. Kita hanya melihat burung dari jauh dan tidak mengganggunya.",
+          "zh": "要！我们远远看鸟就好，别打扰它们。",
+          "en": "Yes! Let's just watch the birds from a distance and leave them undisturbed."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sanctuary entered English through French from Latin sanctuarium, a word connected with sanctus, meaning holy. Its religious background helps connect its modern meanings: a sacred place, somewhere offering refuge, and a protected area for wildlife. The common thread is a space set apart where its occupants should be safe from disturbance. [Oxford Learner's Dictionaries: sanctuary](https://www.oxfordlearnersdictionaries.com/definition/english/sanctuary)",
+    "cognitive_memory_aid": "用三个画面串记 sanctuary：圣所保护神圣空间，庇护所保护人，动物保护区保护野生动物。共同核心是“受保护的地方”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论宗教圣所时，尊重该宗教对进入、着装、摄影和安静程度的要求，并采用场所认可的名称。",
+    "usage_etiquette": "旅游聊天可出现英语语码转换；正式马来语应按含义选择 santuari、tempat suci 或 tempat perlindungan，避免把所有“宁静好去处”一概译成 santuari。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论宗教圣所时，尊重该宗教对进入、着装、摄影和安静程度的要求，并采用场所认可的名称。",
+    "usage_etiquette": "旅游聊天可出现英语语码转换；正式马来语应按含义选择 santuari、tempat suci 或 tempat perlindungan，避免把所有“宁静好去处”一概译成 santuari。"
+  }
+}

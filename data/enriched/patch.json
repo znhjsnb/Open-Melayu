@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "patch",
+    "syllables": "sst",
+    "ipa": "/pætʃ/",
+    "jawi": null,
+    "frequency_rank": 11873,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "patch",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + patch → patch",
+    "pattern_note": "英语整词，在马来语中常见于技术语境或语码混用，不按马来语词缀拆分。输入 syllables 的 sst 不是有效分音，此处按要求原样保留；实际为单音节 patch。/pætʃ/ 是英语读音，不代表已经确立唯一的马来语规范读音。下列词族形式属于英语。",
+    "word_family": [
+      {
+        "word": "patching",
+        "affix": "-ing（英语）",
+        "gloss": "修补；安装补丁的过程"
+      },
+      {
+        "word": "patched",
+        "affix": "-ed（英语）",
+        "gloss": "已修补的；已安装补丁的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "软件补丁；用于修复错误、消除安全漏洞或调整现有软件的更新内容。",
+      "en_definition": "A software change or update intended to fix faults, address vulnerabilities, or modify an existing program.",
+      "ms_definition": "Tampalan perisian yang digunakan untuk membaiki ralat, menangani kelemahan keselamatan atau mengubah fungsi perisian sedia ada.",
+      "nuances": "常见于马来西亚资讯科技交流，规范马来语可用 tampalan perisian 或 tampalan keselamatan。并非所有 kemas kini 都是小型补丁，patch 也不必然只是临时修复。马来语释义为综合释写；官方文件中的对应表达见[马来西亚国会文件：tampalan (patch)](https://www.parlimen.gov.my/pac/review/docs-123-147.pdf)。",
+      "collocations": [
+        {
+          "ms": "patch keselamatan",
+          "zh": "安全补丁",
+          "en": "security patch"
+        },
+        {
+          "ms": "memasang patch",
+          "zh": "安装补丁",
+          "en": "install a patch"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "给软件或系统安装补丁；修补程序问题，属于英语动词嵌入马来语的混用。",
+      "en_definition": "To apply a software patch or repair a software fault; used as an English verb in mixed Malay speech.",
+      "ms_definition": "Dalam pertuturan bercampur bahasa Inggeris, memasang tampalan pada perisian atau sistem untuk membaiki masalahnya.",
+      "nuances": "例如 dah patch 表示‘已经安装补丁’。这是语码混用，不应据此认定 patch 已成为规范马来语动词。正式文本宜写 memasang tampalan 或 membaiki ralat。英语技术动词义见[The Jargon File：patch](https://www.catb.org/jargon/html/P/patch.html)。",
+      "collocations": [
+        {
+          "ms": "patch sistem",
+          "zh": "给系统打补丁",
+          "en": "patch the system"
+        },
+        {
+          "ms": "patch pelayan",
+          "zh": "给服务器打补丁",
+          "en": "patch the server"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "贴片或补片；贴、缝或覆盖在物体表面的小片材料，可用于修补、装饰或药物输送。",
+      "en_definition": "A small piece of material attached to a surface for repair, decoration, covering, or drug delivery.",
+      "ms_definition": "Kepingan kecil bahan yang dilekatkan atau dijahit pada permukaan untuk menampal, menghias, menutup atau menyampaikan ubat melalui kulit.",
+      "nuances": "具体马来语对应词随用途而变，可用 tampalan、tampal 或 lencana。药物贴片与软件补丁应分别解释，不可仅凭英语形式混为一义。实物对应词见[DBP：tampal](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=tampal)。",
+      "collocations": [
+        {
+          "ms": "patch nikotin",
+          "zh": "尼古丁贴片",
+          "en": "nicotine patch"
+        },
+        {
+          "ms": "patch pada jaket",
+          "zh": "夹克上的布贴或补片",
+          "en": "a patch on a jacket"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Unit teknologi maklumat telah memasang tampalan keselamatan (patch) pada semua pelayan jabatan.",
+      "zh": "资讯科技部门已为该部门的所有服务器安装安全补丁。",
+      "en": "The information technology unit has installed security patches on all departmental servers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah pasang patch tu, tapi aplikasi ni masih sangkut lah.",
+      "ms_standard": "Saya telah memasang tampalan itu, tetapi aplikasi ini masih tergendala.",
+      "zh": "我已经装了那个补丁，可这个应用还是会卡啊。",
+      "en": "I've installed that patch, but the app still freezes.",
+      "spoken_features": [
+        "dah 对应 sudah 或 telah",
+        "tu 和 ni 分别对应 itu 和 ini",
+        "sangkut 在此口语化地表示应用卡住",
+        "lah 表达说话者的语气",
+        "patch 是英语技术词嵌入马来语句子"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah pasang patch terbaru tu ke?",
+          "ms_standard": "Adakah kamu sudah memasang tampalan terbaharu itu?",
+          "zh": "你装了最新那个补丁了吗？",
+          "en": "Have you installed the latest patch?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, tapi aplikasi ni masih sangkut lah.",
+          "ms_standard": "Saya sudah memasangnya, tetapi aplikasi ini masih tergendala.",
+          "zh": "装了，可这个应用还是会卡啊。",
+          "en": "Yeah, but the app still freezes."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English patch is recorded from late Middle English, with a possible connection to a French word meaning piece. Its familiar image is a small piece used to cover or repair something. Computing extends that repair metaphor to software, while Malaysian technical conversation often retains the English word alongside Malay tampalan. The deeper origin remains uncertain. See [Oxford](https://www.oxfordlearnersdictionaries.com/us/definition/english/patch_1).",
+    "cognitive_memory_aid": "patch /pætʃ/，联想‘啪，贴上’：衣服贴补片，软件装补丁。只是声音联想，不是词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "patch 本身没有礼貌等级。在技术团队聊天中很自然；面向公众或正式汇报时，首次可写 tampalan perisian (patch)，方便不同背景的读者理解。",
+    "usage_etiquette": "先说明谈的是软件补丁、衣物布贴还是药物贴片。正式马来语避免直接照搬英语动词结构；使用 memasang tampalan 通常更清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "patch 本身没有礼貌等级。在技术团队聊天中很自然；面向公众或正式汇报时，首次可写 tampalan perisian (patch)，方便不同背景的读者理解。",
+    "usage_etiquette": "先说明谈的是软件补丁、衣物布贴还是药物贴片。正式马来语避免直接照搬英语动词结构；使用 memasang tampalan 通常更清楚。"
+  }
+}

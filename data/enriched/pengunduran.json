@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "pengunduran",
+    "syllables": "pe.ngun.du.ran",
+    "ipa": "/pə.ŋun.du.ran/",
+    "jawi": "ڤڠوندورن",
+    "frequency_rank": 11897,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "undur",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + undur + -an → pengunduran",
+    "pattern_note": "peN- 在元音 u 前取 peng- 形式；词根 undur 保留，不删除首音。词尾 r 与 -an 的元音在语流中衔接，音节划分为 pe.ngun.du.ran。",
+    "word_family": [
+      {
+        "word": "berundur",
+        "affix": "ber-",
+        "gloss": "后退；撤退"
+      },
+      {
+        "word": "mengundurkan",
+        "affix": "meN-...-kan",
+        "gloss": "使后退；撤回；推迟"
+      }
+    ],
+    "root_jawi": "اوندور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "后退、撤退或撤离的行为或过程；可指人员、部队或车辆向后移动或离开原位置。",
+      "en_definition": "The act or process of moving back, retreating, or withdrawing from a position.",
+      "ms_definition": "Perihal mengundur atau mengundurkan sesuatu, termasuk pergerakan ke belakang dan penarikan pasukan dari sesuatu kedudukan.",
+      "nuances": "输入包的 DBP 核心释义为 perihal mengundur(kan)。军事撤退不必然表示战败，也可属于有计划的行动；车辆语境则指倒退移动。[DBP undur 及派生词释义](https://prpm.dbp.gov.my/Cari1?d=241100&keyword=undur)。",
+      "collocations": [
+        {
+          "ms": "pengunduran tentera",
+          "zh": "军队撤退；撤军",
+          "en": "military withdrawal"
+        },
+        {
+          "ms": "pengunduran secara berperingkat",
+          "zh": "分阶段撤退；分阶段撤离",
+          "en": "a phased withdrawal"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "退出某项活动、竞赛、组织或职务；涉及职务时可表示辞任。",
+      "en_definition": "Withdrawal from participation, membership, or office; resignation when an office or position is involved.",
+      "ms_definition": "Tindakan menarik diri daripada sesuatu kegiatan, pertandingan atau jawatan; peletakan jawatan apabila melibatkan tugas atau kedudukan rasmi.",
+      "nuances": "pengunduran diri 常明确表示主动退出。pengunduran 不自动等于“被解雇”；正式说“辞职”时，peletakan jawatan 更直接明确。退出比赛通常搭配 daripada pertandingan，辞任则可搭配 daripada jawatan。",
+      "collocations": [
+        {
+          "ms": "pengunduran diri",
+          "zh": "主动退出；辞任",
+          "en": "withdrawal; resignation"
+        },
+        {
+          "ms": "pengunduran daripada pertandingan",
+          "zh": "退出比赛",
+          "en": "withdrawal from a competition"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jawatankuasa telah menerima surat pengunduran beliau daripada jawatan pengerusi.",
+      "zh": "委员会已收到他辞去主席职务的信函。",
+      "en": "The committee has received his letter of resignation as chair."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah hantar surat pengunduran tadi, tapi aku tolong sampai hujung bulan je.",
+      "ms_standard": "Saya sudah menghantar surat pengunduran tadi, tetapi saya akan membantu sehingga akhir bulan sahaja.",
+      "zh": "我刚把退出的信交了，不过我只会帮忙到月底。",
+      "en": "I sent my withdrawal letter earlier, but I'll only be helping until the end of the month.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略",
+        "口语中省略表示将来的 akan",
+        "hujung bulan 对应 akhir bulan",
+        "je 对应 sahaja",
+        "pengunduran 保留正式名词，用于谈论实际提交的信函"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (社团伙伴)",
+          "ms_spoken": "Aku dah hantar surat pengunduran daripada jawatankuasa tadi.",
+          "ms_standard": "Saya sudah menghantar surat pengunduran daripada jawatankuasa tadi.",
+          "zh": "我刚提交退出委员会的信了。",
+          "en": "I sent in my letter stepping down from the committee earlier."
+        },
+        {
+          "speaker": "Farah (社团伙伴)",
+          "ms_spoken": "Oh, kau nak berhenti hujung bulan ni? Sempat serah tugas dulu, kan?",
+          "ms_standard": "Adakah awak hendak berhenti pada akhir bulan ini? Awak sempat menyerahkan tugas terlebih dahulu, bukan?",
+          "zh": "哦，你打算这个月底退出？来得及先交接吧？",
+          "en": "Oh, are you stepping down at the end of this month? You'll have time to hand things over first, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pengunduran is formed within Malay from undur, meaning to move back, using the noun-forming pattern peN-...-an. The dictionary's military example makes the physical meaning especially clear: troops withdraw from a position. The same backward movement provides a useful conceptual bridge to leaving a competition or stepping down from office. This explains the relationship between its senses without requiring a speculative foreign origin.",
+    "cognitive_memory_aid": "undur＝往后退；peng-...-an 把动作装进“这件事”的框里：pengunduran＝后退、撤退或退出这件事。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈及受尊重者辞任时，可用 pengunduran beliau，并客观说明职务或原因。除非事实明确，不宜改说 kena buang（被赶走、被开除）。",
+    "usage_etiquette": "新闻和正式通知适合用 pengunduran；日常直接表达“我要退出”时，saya mahu menarik diri 更自然。军事撤退、比赛退出和辞任须靠搭配明确区分。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈及受尊重者辞任时，可用 pengunduran beliau，并客观说明职务或原因。除非事实明确，不宜改说 kena buang（被赶走、被开除）。",
+    "usage_etiquette": "新闻和正式通知适合用 pengunduran；日常直接表达“我要退出”时，saya mahu menarik diri 更自然。军事撤退、比赛退出和辞任须靠搭配明确区分。"
+  }
+}

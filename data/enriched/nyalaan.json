@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "nyalaan",
+    "syllables": null,
+    "ipa": "/ɲa.la.an/",
+    "jawi": "ڽالا",
+    "frequency_rank": 11911,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "nyala",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "nyala + -an → nyalaan",
+    "pattern_note": "ny 表示单一辅音 /ɲ/；词根末尾 a 与后缀 -an 的 a 相邻，通常分属两个音节，部分读法之间有喉塞音。资料包未提供分音，故保留 null；按构词可分为 nya.la.an。资料包的 ڽالا 是词根 nyala 的爪夷文，头词字段依要求原样保留。",
+    "word_family": [
+      {
+        "word": "menyala",
+        "affix": "meN-",
+        "gloss": "燃烧；亮着"
+      },
+      {
+        "word": "menyalakan",
+        "affix": "meN-…-kan",
+        "gloss": "点燃；打开灯火"
+      },
+      {
+        "word": "penyalaan",
+        "affix": "peN-…-an",
+        "gloss": "点火；引燃过程"
+      }
+    ],
+    "root_jawi": "ڽالا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "燃烧时产生的火焰或火舌。",
+      "en_definition": "A flame or visible tongue of fire produced by combustion.",
+      "ms_definition": "Nyala atau lidah api yang terhasil daripada pembakaran.",
+      "nuances": "强调可见的火焰，不等于整个火灾 kebakaran，也不等于点火过程 penyalaan。资料包所引 DBP 释文属于词根 nyala；这里依据该词族及 DBP 术语中 nyalaan 的用例综合释义，并非另引一条独立的官方释文。参见 [DBP：nyala](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=nyala)。",
+      "collocations": [
+        {
+          "ms": "nyalaan api",
+          "zh": "火焰",
+          "en": "a flame"
+        },
+        {
+          "ms": "nyalaan lilin",
+          "zh": "烛焰",
+          "en": "a candle flame"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Juruteknik memeriksa kestabilan nyalaan pada penunu sebelum eksperimen dimulakan.",
+      "zh": "实验开始前，技术员检查了燃烧器火焰的稳定性。",
+      "en": "The technician checked the stability of the burner flame before the experiment began."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nyalaan dapur ni besar sangatlah, kecilkan sikit.",
+      "ms_standard": "Nyalaan dapur ini terlalu besar; sila kecilkannya sedikit.",
+      "zh": "这炉子的火也太大了，调小一点。",
+      "en": "The flame on this stove is too high. Turn it down a little.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式。",
+        "sangatlah 中的 -lah 加强说话者的语气。",
+        "sikit 是 sedikit 的口语形式。",
+        "口语可以省略已知的宾语；普通厨房交谈也常直接说 api。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (室友)",
+          "ms_spoken": "Nyalaan dapur ni besar sangatlah, kecilkan sikit.",
+          "ms_standard": "Nyalaan dapur ini terlalu besar; sila kecilkannya sedikit.",
+          "zh": "这炉子的火也太大了，调小一点。",
+          "en": "The flame on this stove is too high. Turn it down a little."
+        },
+        {
+          "speaker": "Aina (室友)",
+          "ms_spoken": "Okey, dah kecilkan. Macam ni boleh?",
+          "ms_standard": "Baiklah, saya sudah mengecilkan nyalaannya. Adakah saiz ini sesuai?",
+          "zh": "好，调小了。这样可以吗？",
+          "en": "Okay, I've turned it down. Is this all right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Nyalaan has a transparent Malay formation: nyala plus the noun-forming suffix -an. Its word family connects the visible flame with menyala, being alight, and menyalakan, causing something to burn or light up. This account concerns observable word formation; the supplied evidence does not establish a deeper historical origin for nyala. See [DBP: nyala](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=nyala).",
+    "cognitive_memory_aid": "nyala 是“火在燃”，加 -an 后把眼前那团火焰当作一个事物来记：nyala + an → nyalaan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性，适合科学说明和安全讨论。请别人调小火焰时，加 tolong 或 boleh 更客气，例如 Boleh tolong kecilkan nyalaan itu?",
+    "usage_etiquette": "用于描述炉火、烛火或燃烧器火焰。日常厨房交流说 api 通常更自然；实验室或技术说明中 nyalaan 更能明确指向火焰本身。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性，适合科学说明和安全讨论。请别人调小火焰时，加 tolong 或 boleh 更客气，例如 Boleh tolong kecilkan nyalaan itu?",
+    "usage_etiquette": "用于描述炉火、烛火或燃烧器火焰。日常厨房交流说 api 通常更自然；实验室或技术说明中 nyalaan 更能明确指向火焰本身。"
+  }
+}

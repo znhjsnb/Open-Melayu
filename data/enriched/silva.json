@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "silva",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11959,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "silva",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + silva → silva",
+    "pattern_note": "保留数据包的未分析词形。缺少上下文，无法确认其为马来语普通词；若指人名 Silva，则不按马来语词缀拆分。未确认的音节、读音和爪夷文均保留为 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "待核实词形；可对应专名 Silva，音译为“席尔瓦”等，具体所指须由上下文确定。",
+      "en_definition": "An unresolved token that may represent the proper name Silva; no standard Malay common-noun meaning has been established here.",
+      "ms_definition": "Bentuk yang belum disahkan; mungkin merujuk kepada nama khas Silva, bergantung pada konteks.",
+      "nuances": "这是编辑性说明，并非官方词义。DBP 百科材料可见姓名中的 Silva，例如 [Ayrton Senna da Silva](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=da)，但不能据此断定本数据项的身份。专名通常写作 Silva。下列搭配和例句仅示范姓名用法，不代表已核实的高频搭配；不得将本项标为已获官方词典认证。",
+      "collocations": [
+        {
+          "ms": "Encik Silva",
+          "zh": "席尔瓦先生",
+          "en": "Mr Silva"
+        },
+        {
+          "ms": "Puan Silva",
+          "zh": "席尔瓦女士",
+          "en": "Ms Silva"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；假设 Silva 为与会者姓名",
+      "ms": "Encik Silva akan menghadiri mesyuarat tersebut sebagai wakil syarikat.",
+      "zh": "席尔瓦先生将作为公司代表出席该会议。",
+      "en": "Mr Silva will attend the meeting as the company's representative."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；假设 Silva 为熟人姓名",
+      "ms_spoken": "Silva dah sampai ke? Aku nak jumpa dia kejap.",
+      "ms_standard": "Adakah Silva sudah tiba? Saya hendak berjumpa dengannya sebentar.",
+      "zh": "Silva 到了吗？我想找他聊一下。",
+      "en": "Has Silva arrived yet? I want to see him for a moment.",
+      "spoken_features": [
+        "姓名保留大写 Silva",
+        "dah 是 sudah 的口语缩略形式",
+        "nak 表示 hendak",
+        "kejap 表示 sekejap 或 sebentar",
+        "句末 ke 表示疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Silva dah sampai ke? Aku nak jumpa dia kejap.",
+          "ms_standard": "Adakah Silva sudah tiba? Saya hendak berjumpa dengannya sebentar.",
+          "zh": "Silva 到了吗？我想找他聊一下。",
+          "en": "Has Silva arrived yet? I want to see him for a moment."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, dia kat lobi. Pergilah jumpa dia.",
+          "ms_standard": "Sudah, dia berada di lobi. Pergilah berjumpa dengannya.",
+          "zh": "到了，他在大厅。你去找他吧。",
+          "en": "Yes, he's in the lobby. Go and see him."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "If this token represents the Portuguese surname Silva, an onomastic explanation becomes relevant: the name is associated with a plant name and, in some cases, a place name derived from it. This conditional account does not identify the packet's token or establish a Malay borrowing. See [Ciberdúvidas: Silva](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/silva/508).",
+    "cognitive_memory_aid": "暂把 Silva 记成名牌上的姓名：先认人，再查语境；不要直接记成马来语的“森林”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "若确为姓名，正式场合可按本人身份和偏好使用 Encik、Puan 或适当职衔；不要仅凭姓名推断其国籍、族群或宗教。",
+    "usage_etiquette": "姓名应保留本人采用的拼写及大小写。当前资料不足以支持普通名词教学、派生词扩展或官方词条认证。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "若确为姓名，正式场合可按本人身份和偏好使用 Encik、Puan 或适当职衔；不要仅凭姓名推断其国籍、族群或宗教。",
+    "usage_etiquette": "姓名应保留本人采用的拼写及大小写。当前资料不足以支持普通名词教学、派生词扩展或官方词条认证。"
+  }
+}

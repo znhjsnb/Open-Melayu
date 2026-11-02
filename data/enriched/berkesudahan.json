@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "berkesudahan",
+    "syllables": null,
+    "ipa": "/bər.kə.su.da.han/",
+    "jawi": "برکسودهن",
+    "frequency_rank": 11938,
+    "status": "official",
+    "data_note": "音节字段保留数据包的 null。数据包提供的 سوده 对应词根 sudah；此处按完整构词补写爪夷文。IPA 为标准读音的宽式转写。频率排名沿用输入，未独立验证。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sudah",
+    "affix": "ber- + ke-…-an",
+    "affix_type": "prefix",
+    "formula": "ke- + sudah + -an → kesudahan；ber- + kesudahan → berkesudahan",
+    "pattern_note": "分两层构词：ke-…-an 先构成名词 kesudahan，再加前缀 ber-。affix_type 标示最外层前缀；两个前缀中的 e 均读 /ə/，词根辅音不脱落。",
+    "word_family": [
+      {
+        "word": "kesudahan",
+        "affix": "ke-…-an",
+        "gloss": "结局；结果"
+      },
+      {
+        "word": "menyudahkan",
+        "affix": "meN-…-kan",
+        "gloss": "完成；结束某事"
+      },
+      {
+        "word": "penyudah",
+        "affix": "peN-",
+        "gloss": "收尾；最后一击"
+      }
+    ],
+    "root_jawi": "سوده"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "结束；有一个终点或明确的结局。",
+      "en_definition": "To come to an end or reach a conclusion.",
+      "ms_definition": "Berakhir atau sampai kepada penyelesaian.",
+      "nuances": "是不及物动词，不能直接表示“完成某项工作”；后者通常用 menyudahkan。常见于 tidak berkesudahan，表示“没完没了”，其中否定意义来自 tidak。[DBP：kesudahan 及派生词](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=kesudahan)",
+      "collocations": [
+        {
+          "ms": "pertengkaran yang tidak berkesudahan",
+          "zh": "没完没了的争吵",
+          "en": "an endless argument"
+        },
+        {
+          "ms": "penantian yang tidak berkesudahan",
+          "zh": "无休止的等待",
+          "en": "a seemingly endless wait"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "最终以某种结果告终；产生某种后果。",
+      "en_definition": "To end in a particular outcome or consequence.",
+      "ms_definition": "Berakhir dengan sesuatu hasil atau akibat.",
+      "nuances": "通常接 dengan 引出结果；结果可好可坏，不必然表示悲剧。[DBP：berakhir](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berakhir)",
+      "collocations": [
+        {
+          "ms": "berkesudahan dengan tragedi",
+          "zh": "以悲剧告终",
+          "en": "end in tragedy"
+        },
+        {
+          "ms": "berkesudahan dengan perpisahan",
+          "zh": "以分离告终",
+          "en": "end in separation"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 社会报道",
+      "ms": "Pertikaian yang berlarutan itu akhirnya berkesudahan dengan penyelesaian secara damai.",
+      "zh": "那场持续已久的争端最终以和平解决告终。",
+      "en": "The prolonged dispute eventually ended in a peaceful settlement."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论群聊争执",
+      "ms_spoken": "Dah, jangan sambung lagi. Nanti tak berkesudahan pula.",
+      "ms_standard": "Sudahlah, jangan teruskan lagi. Jika diteruskan, perkara ini mungkin tidak berkesudahan.",
+      "zh": "行了，别继续了，等下又没完没了。",
+      "en": "Enough, let's leave it there. Otherwise, this could go on forever.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略，此处表示劝人停止",
+        "tak 对应标准语 tidak",
+        "句末 pula 带有担心事情进一步发展的语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Diorang masih gaduh kat grup tu ke?",
+          "ms_standard": "Adakah mereka masih bergaduh dalam kumpulan sembang itu?",
+          "zh": "他们还在那个群里吵啊？",
+          "en": "Are they still arguing in that group chat?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, tak berkesudahan. Aku nak senyapkan notifikasi je.",
+          "ms_standard": "Ya, pertengkaran itu tidak berkesudahan. Aku hanya mahu menyenyapkan pemberitahuan.",
+          "zh": "对啊，没完没了。我就想把通知静音。",
+          "en": "Yeah, it never ends. I'm just going to mute the notifications."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay builds this word transparently from sudah, associated with completion. The circumfix ke-…-an produces kesudahan, an ending or outcome; adding ber- expresses having or reaching that outcome. The familiar negative phrase tidak berkesudahan reverses the expectation of closure, making the word especially expressive in descriptions of prolonged arguments, longing, or waiting. [DBP](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=kesudahan)",
+    "cognitive_memory_aid": "抓住 sudah“已经完成”：kesudahan 是“结局”，berkesudahan 是“走到结局”；加 tak 就“没完没了”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性，适合书面语与正式表达；对人说 tak berkesudahan 可能显得不耐烦。",
+    "usage_etiquette": "用于描述争端、等待或故事结局很自然。职场中批评讨论拖延时，可说 perbincangan ini perlu dimuktamadkan，较能引导解决问题。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性，适合书面语与正式表达；对人说 tak berkesudahan 可能显得不耐烦。",
+    "usage_etiquette": "用于描述争端、等待或故事结局很自然。职场中批评讨论拖延时，可说 perbincangan ini perlu dimuktamadkan，较能引导解决问题。"
+  }
+}

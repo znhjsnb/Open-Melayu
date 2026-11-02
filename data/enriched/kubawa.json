@@ -1,0 +1,155 @@
+{
+  "headword": {
+    "word": "kubawa",
+    "syllables": null,
+    "ipa": "/ku.ba.wa/",
+    "jawi": null,
+    "frequency_rank": 11939,
+    "status": "official",
+    "data_note": "音节与完整词形的爪夷文保留输入 null。kubawa 是规范的附着形式，不是独立词根；数据包的词根分析已更正。频率排名沿用输入。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bawa",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku- + bawa → kubawa",
+    "pattern_note": "ku- 是 aku 的人称前附着语素，须与后面的动词连写；它不是普通派生前缀。在标准第一人称被动结构中用动词基本形式，如 barang yang kubawa，不加 meN-。[DBP：ku](https://prpm.dbp.gov.my/Cari1?d=169476&keyword=ku)",
+    "word_family": [
+      {
+        "word": "membawa",
+        "affix": "meN-",
+        "gloss": "携带；带领；带来"
+      },
+      {
+        "word": "dibawa",
+        "affix": "di-",
+        "gloss": "被携带；被带往"
+      },
+      {
+        "word": "pembawa",
+        "affix": "peN-",
+        "gloss": "携带者；传播者"
+      },
+      {
+        "word": "terbawa",
+        "affix": "ter-",
+        "gloss": "无意中带走；受影响"
+      }
+    ],
+    "root_jawi": "باوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "由我携带、带来或带走；文学叙述中也可表示“我带着”。",
+      "en_definition": "Carried, brought, or taken by me; also “I carry” in literary narration.",
+      "ms_definition": "Dibawa oleh aku; dalam gaya sastera, aku membawa sesuatu.",
+      "nuances": "ku- 标示第一人称施事，不是时态。正式语法的典型形式是 Buku itu kubawa，意为“那本书由我带着”。日常主动句 Aku bawa buku itu 更自然。实际译为带来还是带走取决于移动方向。[DBP：bawa](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=bawa)",
+      "collocations": [
+        {
+          "ms": "barang yang kubawa",
+          "zh": "我带着的物品",
+          "en": "the things I am carrying"
+        },
+        {
+          "ms": "kubawa pulang",
+          "zh": "由我带回家",
+          "en": "taken home by me"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "由我带领或陪同某人前往某处。",
+      "en_definition": "Taken or accompanied somewhere by me.",
+      "ms_definition": "Dipimpin atau diiringi oleh aku ke sesuatu tempat.",
+      "nuances": "宾语为人时通常表示带去、陪同或引领，不一定是抱着或背着。kubawa 不说明性别或人数。[DBP：bawa](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=bawa)",
+      "collocations": [
+        {
+          "ms": "kubawa ke sekolah",
+          "zh": "由我带去学校",
+          "en": "taken to school by me"
+        },
+        {
+          "ms": "kubawa berjumpa doktor",
+          "zh": "由我带去看医生",
+          "en": "taken to see a doctor by me"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "由我带来、引起或传递某种抽象事物。",
+      "en_definition": "Brought about, conveyed, or borne by me.",
+      "ms_definition": "Didatangkan, disampaikan atau ditanggung oleh aku, bergantung pada konteks.",
+      "nuances": "常见于书信、诗歌和歌词。情感、希望、消息等抽象宾语各有不同搭配，不能机械地全部译为“搬运”。[DBP：bawa](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=bawa)",
+      "collocations": [
+        {
+          "ms": "harapan yang kubawa",
+          "zh": "我怀抱或带来的希望",
+          "en": "the hope I carry"
+        },
+        {
+          "ms": "pesan yang kubawa",
+          "zh": "我带来的口信",
+          "en": "the message I bring"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "出版编辑 / 回忆录引文",
+      "ms": "Dalam memoir itu, penulis menyatakan, “Dokumen asal ini kubawa sendiri ke pejabat daerah.”",
+      "zh": "作者在回忆录中写道：“这份原始文件是我亲自带到县署的。”",
+      "en": "In the memoir, the author writes, “I personally took this original document to the district office.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉的朋友确认文件",
+      "ms_spoken": "Fail yang kubawa tadi dah ada kat meja kau.",
+      "ms_standard": "Fail yang kubawa tadi sudah berada di atas mejamu.",
+      "zh": "我刚才带来的文件已经放你桌上了。",
+      "en": "The file I brought earlier is already on your desk.",
+      "spoken_features": [
+        "kubawa 在口语中带压缩、稍有书面感的语气，普通聊天也常说 aku bawa",
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "kau 用于关系熟悉的同辈"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah bawa fail tu ke?",
+          "ms_standard": "Adakah kamu sudah membawa fail itu?",
+          "zh": "你把那份文件带来了吗？",
+          "en": "Did you bring that file?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah. Fail yang kubawa tu kat meja kau. Ambil je.",
+          "ms_standard": "Sudah. Fail yang kubawa itu berada di atas mejamu. Ambillah.",
+          "zh": "带了。我带来的那份就在你桌上，直接拿吧。",
+          "en": "Yes. The file I brought is on your desk. Go ahead and take it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kubawa combines the shortened first-person pronoun ku with bawa. Malay spelling attaches this pronoun to its following verb, preserving a compact expression of personal agency. Such forms remain familiar in literature and songs, while everyday conversation often uses aku bawa. The expression is a grammatical combination, rather than a separate root with an independent origin. [DBP：ku](https://prpm.dbp.gov.my/Cari1?d=169476&keyword=ku)",
+    "cognitive_memory_aid": "ku 是 aku“我”的缩短，bawa 是“带”：ku + bawa，就是“我带／由我带”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 与 aku 相连，适合亲密关系、自述、文学和祈祷等语境。与客户、上司或初次见面的人交谈时，通常采用 saya membawa 或 saya bawa。",
+    "usage_etiquette": "不要在所有场合把 ku- 当作 saya 的随意替换。正式公务自述可用 Dokumen itu saya bawa sendiri；文学引文中保留 kubawa 很自然。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 与 aku 相连，适合亲密关系、自述、文学和祈祷等语境。与客户、上司或初次见面的人交谈时，通常采用 saya membawa 或 saya bawa。",
+    "usage_etiquette": "不要在所有场合把 ku- 当作 saya 的随意替换。正式公务自述可用 Dokumen itu saya bawa sendiri；文学引文中保留 kubawa 很自然。"
+  }
+}

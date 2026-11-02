@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "diproses",
+    "syllables": null,
+    "ipa": "/di.pro.ses/",
+    "jawi": null,
+    "frequency_rank": 11906,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "proses",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + proses → diproses",
+    "pattern_note": "被动前缀 di- 直接接在 proses 前，词根不变音；这里的 di- 必须连写。输入包将 diproses 标为词根，应更正为派生词。",
+    "word_family": [
+      {
+        "word": "memproses",
+        "affix": "meN-",
+        "gloss": "处理；加工"
+      },
+      {
+        "word": "pemprosesan",
+        "affix": "peN-...-an",
+        "gloss": "处理或加工的过程"
+      },
+      {
+        "word": "pemproses",
+        "affix": "peN-",
+        "gloss": "处理器；加工设备"
+      }
+    ],
+    "root_jawi": "ڤروسيس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被依照规定程序办理、审核或处理。",
+      "en_definition": "To be dealt with according to an established procedure.",
+      "ms_definition": "Dikenakan tindakan mengikut tatacara yang ditetapkan, misalnya bagi mengurus permohonan atau dokumen.",
+      "nuances": "常见于申请、订单及行政通知。sedang diproses 表示正在办理，不表示已经批准；telah diproses 表示已处理，也不必然表示申请成功。词义依据 [DBP：proses](https://prpm.dbp.gov.my/Cari1?d=243492&keyword=proses)。",
+      "collocations": [
+        {
+          "ms": "permohonan sedang diproses",
+          "zh": "申请正在办理中",
+          "en": "the application is being processed"
+        },
+        {
+          "ms": "pesanan telah diproses",
+          "zh": "订单已处理",
+          "en": "the order has been processed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "原料、食品等被加工或处理，以改变其性质、制成产品或提高耐用性。",
+      "en_definition": "To undergo treatment or manufacture that changes a material or product.",
+      "ms_definition": "Diolah melalui langkah tertentu untuk menghasilkan barangan atau mengubah sifat sesuatu bahan.",
+      "nuances": "指实际加工过程。食品领域的 diproses 本身不表示不健康，也不等于高度加工；具体程度须由上下文说明。",
+      "collocations": [
+        {
+          "ms": "makanan yang diproses",
+          "zh": "经过加工的食品",
+          "en": "processed food"
+        },
+        {
+          "ms": "bahan mentah diproses",
+          "zh": "原料被加工",
+          "en": "raw materials are processed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "数据、图像或其他信息被系统运算、转换或整理。",
+      "en_definition": "To be manipulated or transformed by a computational or information-processing system.",
+      "ms_definition": "Dijalankan operasi terhadapnya oleh sistem untuk mendapatkan hasil atau maklumat tertentu.",
+      "nuances": "这是一般“处理”义在信息技术中的应用；不必然涉及人工智能。",
+      "collocations": [
+        {
+          "ms": "data diproses secara automatik",
+          "zh": "数据被自动处理",
+          "en": "data is processed automatically"
+        },
+        {
+          "ms": "imej diproses oleh komputer",
+          "zh": "图像由计算机处理",
+          "en": "images are processed by a computer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Permohonan yang lengkap akan diproses dalam tempoh lima hari bekerja.",
+      "zh": "资料齐全的申请将在五个工作日内办理。",
+      "en": "Complete applications will be processed within five working days."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pesanan aku dah diproses, tapi belum dihantar lagi.",
+      "ms_standard": "Pesanan saya sudah diproses, tetapi masih belum dihantar.",
+      "zh": "我的订单已经处理了，不过还没发货。",
+      "en": "My order's been processed, but it hasn't shipped yet.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "aku 常用于熟人之间；对客户或不熟悉的人通常用 saya。",
+        "口语中常用 tapi 代替 tetapi。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Pesanan kau dah diproses ke?",
+          "ms_standard": "Adakah pesanan kamu sudah diproses?",
+          "zh": "你的订单处理了吗？",
+          "en": "Has your order been processed yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, kat aplikasi tulis dah diproses, tapi belum dihantar lagi.",
+          "ms_standard": "Sudah. Aplikasi itu menyatakan bahawa pesanan saya sudah diproses, tetapi masih belum dihantar.",
+          "zh": "处理了，应用上写着已处理，不过还没发货。",
+          "en": "Yes, the app says it's been processed, but it hasn't shipped yet."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay proses is identified by DBP as an English borrowing. Its use connects factory production, administrative procedures and computer operations through the idea of ordered steps. Malay then supplies its own grammar: memproses presents the action, while diproses presents what undergoes it. The borrowed vocabulary therefore participates in a productive Malay word family.",
+    "cognitive_memory_aid": "把 di- 想成“被”：proses 是处理，diproses 就是“被处理”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合客服和行政沟通。回复公众时可用 Permohonan tuan/puan sedang diproses，并在已知时补充处理时限。",
+    "usage_etiquette": "准确区分“处理中”“已批准”和“已完成”。仅知道正在处理时，不宜把 diproses 翻译成“已通过”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合客服和行政沟通。回复公众时可用 Permohonan tuan/puan sedang diproses，并在已知时补充处理时限。",
+    "usage_etiquette": "准确区分“处理中”“已批准”和“已完成”。仅知道正在处理时，不宜把 diproses 翻译成“已通过”。"
+  }
+}
