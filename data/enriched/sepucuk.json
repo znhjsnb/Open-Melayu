@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "sepucuk",
+    "syllables": "se.pu.cuk",
+    "ipa": "[səˈpu.t͡ʃoʔ]",
+    "jawi": "سڤوچوق",
+    "frequency_rank": 14624,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pucuk",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + pucuk → sepucuk",
+    "pattern_note": "se- 在这里表示 satu（一），接量词 pucuk；词首 p 保留，不发生鼻音同化。所列读音体现马来西亚常见的末音节 /u/ 低化及词尾 k 声门化。输入包的 ڤوچوق 是词根 pucuk 的拼写；完整 sepucuk 加上 س，写作 سڤوچوق。",
+    "word_family": [
+      {
+        "word": "pucuk",
+        "affix": null,
+        "gloss": "嫩芽；尖端；信件、枪械等的量词"
+      },
+      {
+        "word": "berpucuk",
+        "affix": "ber-",
+        "gloss": "长出嫩芽；有嫩芽"
+      }
+    ],
+    "root_jawi": "ڤوچوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一封；一把。由表示“一”的 se- 与量词 pucuk 组成，用于计算信件、手枪等对象。",
+      "en_definition": "One item counted with the classifier pucuk, especially a letter or a pistol.",
+      "ms_definition": "Satu pucuk, digunakan untuk membilang surat, pistol dan benda lain yang menerima penjodoh bilangan pucuk.",
+      "nuances": "整体是数词与量词组成的结构，通常后接所计算的名词；此处 noun 标签对应名词性量词 pucuk。不是英语意义上的名词单数变化，也不能套用于所有物品。马来语释义依据 [DBP 的 pucuk 词条](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=pucuk) 整理。练习题中通常用 sepucuk pistol、selaras senapang，参见 [DBP 用法答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pucuk)。",
+      "collocations": [
+        {
+          "ms": "sepucuk surat",
+          "zh": "一封信",
+          "en": "a letter"
+        },
+        {
+          "ms": "sepucuk pistol",
+          "zh": "一把手枪",
+          "en": "a pistol"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "一个嫩芽或嫩梢；指 pucuk 本身所表示的一个植物新生部分。",
+      "en_definition": "A single young shoot or growing tip of a plant.",
+      "ms_definition": "Satu pucuk tumbuhan, iaitu satu bahagian muda yang baru tumbuh.",
+      "nuances": "这是 se- 表示“一”与 pucuk 的植物义直接组合所得的字面用法。不要把 sepucuk surat 理解为“信的嫩芽”，也不要把所有叶片都用 pucuk 计算；普通叶片通常用 helai。",
+      "collocations": [
+        {
+          "ms": "sepucuk tunas",
+          "zh": "一个嫩芽",
+          "en": "a single new shoot"
+        },
+        {
+          "ms": "sepucuk daun muda",
+          "zh": "一梢嫩叶",
+          "en": "a young leafy shoot"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak sekolah telah menerima sepucuk surat penghargaan daripada persatuan penduduk.",
+      "zh": "校方已收到居民协会寄来的一封感谢信。",
+      "en": "The school has received a letter of appreciation from the residents' association."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ada sepucuk surat untuk kau kat atas meja tu.",
+      "ms_standard": "Ada sepucuk surat untuk kamu di atas meja itu.",
+      "zh": "那张桌上有一封给你的信。",
+      "en": "There's a letter for you on that table.",
+      "spoken_features": [
+        "kat 对应表示地点的 di；tu 对应 itu。",
+        "kau 用于关系熟悉者之间；正式场合应按关系改用姓名、称谓或合适的代词。",
+        "dah、je 分别对应 sudah、sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Ada sepucuk surat untuk kau kat atas meja tu. Dah nampak?",
+          "ms_standard": "Ada sepucuk surat untuk kamu di atas meja itu. Adakah kamu sudah melihatnya?",
+          "zh": "那张桌上有一封给你的信，你看到了吗？",
+          "en": "There's a letter for you on that table. Have you seen it?"
+        },
+        {
+          "speaker": "Hafiz (室友)",
+          "ms_spoken": "Belum lagi. Letak situ je, nanti aku baca.",
+          "ms_standard": "Belum lagi. Letakkannya di situ sahaja; saya akan membacanya nanti.",
+          "zh": "还没。就放那儿吧，我等下看。",
+          "en": "Not yet. Just leave it there; I'll read it later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sepucuk combines the productive prefix se-, meaning one here, with pucuk. The root names a young shoot or pointed tip and also functions as a classifier for letters and firearms. These meanings coexist in Malay. They offer a useful memory connection, but the dictionary evidence does not explain the historical steps by which the classifier developed.",
+    "cognitive_memory_aid": "先记 se-＝一，再记固定搭配：sepucuk surat＝一封信，sepucuk pistol＝一把手枪；量词随物品选择。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词本身语气中性，适用于正式文字和日常交流。写正式信函时，sepucuk surat 是自然的完整表达。",
+    "usage_etiquette": "通常用于实体信件；电子邮件一般用 satu e-mel 或一封邮件的相应表达，不宜机械套用所有传统信件量词。涉及他人信件时，应尊重私人通信。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词本身语气中性，适用于正式文字和日常交流。写正式信函时，sepucuk surat 是自然的完整表达。",
+    "usage_etiquette": "通常用于实体信件；电子邮件一般用 satu e-mel 或一封邮件的相应表达，不宜机械套用所有传统信件量词。涉及他人信件时，应尊重私人通信。"
+  }
+}

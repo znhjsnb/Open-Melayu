@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "kuranglah",
+    "syllables": null,
+    "ipa": "/ku.raŋ.lah/",
+    "jawi": "کورڠ",
+    "frequency_rank": 14572,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kurang",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "kurang + -lah → kuranglah",
+    "pattern_note": "-lah 是附着于前词的强调小品词，不是改变词义类别的派生后缀；此处 suffix 表示其后接位置。接合时 /ŋ/ 保留，不发生鼻音替换。输入包的 کورڠ 只对应 kurang，未包含 -lah；音节字段保留空值。",
+    "word_family": [
+      {
+        "word": "berkurang",
+        "affix": "ber-",
+        "gloss": "减少；减轻"
+      },
+      {
+        "word": "mengurangkan",
+        "affix": "meN-…-kan",
+        "gloss": "使减少；降低"
+      },
+      {
+        "word": "kekurangan",
+        "affix": "ke-…-an",
+        "gloss": "不足；缺点"
+      }
+    ],
+    "root_jawi": "کورڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "数量、程度或条件不足；未达到所需标准，并带有强调或语气调节。",
+      "en_definition": "Insufficient or below the required amount or standard, with added emphasis or conversational shading.",
+      "ms_definition": "Tidak atau belum cukup jumlah, ukuran atau takatnya, dengan penegasan melalui partikel -lah.",
+      "nuances": "词义来自 kurang；-lah 的具体效果取决于语调，可表示强调、缓和或无奈，并不固定等于“请”。搭配列出常用词基短语，实际加 -lah 时须配合句子结构。[DBP：kurang](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kurang)；[DBP：-lah](https://prpm.dbp.gov.my/cari1?d=175768&keyword=perlu+lah)",
+      "collocations": [
+        {
+          "ms": "kurang wang",
+          "zh": "钱不够",
+          "en": "short of money"
+        },
+        {
+          "ms": "kurang tenaga kerja",
+          "zh": "人手不足",
+          "en": "short of workers"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "比原先或比较对象更少、更低或更轻，并强调这一较低程度。",
+      "en_definition": "Less, lower or reduced relative to an earlier state or another reference point, with added emphasis.",
+      "ms_definition": "Lebih sedikit atau lebih rendah berbanding dengan keadaan sebelumnya atau sesuatu yang lain, dengan penegasan -lah.",
+      "nuances": "常见于结果说明，如 kuranglah beban mereka，表示“他们的负担便轻了”。kuranglah 本身不等于使役命令“请减少”；明确要求减少某物时通常用 kurangkanlah。",
+      "collocations": [
+        {
+          "ms": "kurang daripada sebelumnya",
+          "zh": "比先前少",
+          "en": "less than before"
+        },
+        {
+          "ms": "semakin kurang",
+          "zh": "越来越少",
+          "en": "progressively less"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "不太；不怎么，用于降低后接性质或心理状态的程度，并带强调或保留语气。",
+      "en_definition": "Not very or not particularly, qualifying a following quality or mental state, with added emphasis or reservation.",
+      "ms_definition": "Tidak begitu atau tidak berapa, apabila menerangkan sifat atau keadaan yang mengikutinya, dengan penegasan -lah.",
+      "nuances": "例如 saya kuranglah pasti 表示“我不太确定”，常带保留语气。正式说明通常直接写 saya kurang pasti 或 saya tidak begitu pasti；不要把 kuranglah 当作独立表示同意的小品词。",
+      "collocations": [
+        {
+          "ms": "kurang pasti",
+          "zh": "不太确定",
+          "en": "not quite sure"
+        },
+        {
+          "ms": "kurang sesuai",
+          "zh": "不太合适",
+          "en": "not particularly suitable"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dengan pelaksanaan sistem baharu ini, kuranglah beban pentadbiran yang ditanggung oleh kakitangan.",
+      "zh": "随着这一新系统的实施，工作人员承担的行政负担便减轻了。",
+      "en": "With the implementation of this new system, the administrative burden on staff is reduced."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kalau kau tolong sikit, kuranglah beban aku.",
+      "ms_standard": "Jika kamu membantu sedikit, kuranglah beban saya.",
+      "zh": "你要是帮一点忙，我就能轻松些了。",
+      "en": "If you help out a bit, that'll take some of the pressure off me.",
+      "spoken_features": [
+        "kau 和 aku 用于熟人之间。",
+        "tolong sikit 对应 membantu sedikit。",
+        "-lah 与 kurang 连写，在此强调帮助带来的减负结果。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah siap separuh je. Kalau kau tolong sikit, kuranglah beban aku.",
+          "ms_standard": "Saya baru menyiapkan separuh sahaja. Jika kamu membantu sedikit, kuranglah beban saya.",
+          "zh": "我才弄好一半。你要是帮一点忙，我就能轻松些了。",
+          "en": "I've only finished half. If you help out a bit, that'll take some of the pressure off me."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, aku tolong semak bahagian akhir je dulu, ya.",
+          "ms_standard": "Boleh, saya akan membantu menyemak bahagian akhir sahaja dahulu.",
+          "zh": "行，我先帮你检查最后一部分，好吗？",
+          "en": "Sure, I'll start by checking the last section, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kuranglah is best understood as a productive Malay combination, rather than a separate historical root. Kurang supplies the idea of insufficiency or a lower degree; attached -lah highlights part of the message. The same small particle can make an observation sound firmer, gentler or resigned, depending on the speaker's intonation and the surrounding conversation. [DBP on -lah](https://prpm.dbp.gov.my/cari1?d=175768&keyword=perlu+lah)",
+    "cognitive_memory_aid": "kurang 是“少、不够”，后面的 lah 像语气上的轻轻一点：意思仍是“少”，说话态度更鲜明。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 并不自动让话变礼貌；温和语调可缓和表达，生硬或拖长的语调也可能传达不耐烦。",
+    "usage_etiquette": "说明自己的不足或负担时很自然；评价别人时宜说清具体事项。对长辈、客户或上司提出减少某物的请求，可用 Boleh kurangkan sedikit? 等完整问句。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 并不自动让话变礼貌；温和语调可缓和表达，生硬或拖长的语调也可能传达不耐烦。",
+    "usage_etiquette": "说明自己的不足或负担时很自然；评价别人时宜说清具体事项。对长辈、客户或上司提出减少某物的请求，可用 Boleh kurangkan sedikit? 等完整问句。"
+  }
+}

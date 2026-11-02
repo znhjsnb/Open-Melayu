@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "berselisih",
+    "syllables": "ber.se.li.sih",
+    "ipa": "/bər.sə.li.sih/",
+    "jawi": "برسليسيه",
+    "frequency_rank": 14648,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "berselisih",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + selisih → berselisih",
+    "pattern_note": "ber- 接 selisih 时不改变词干；前两个音节的 e 均读 /ə/。root_word 与 root_jawi 按要求保留数据包的索引值；实际基本词是 selisih，Jawi 为 سليسيه，因此 is_root 校正为 false。[DBP：selisih 及其派生词](https://prpm.dbp.gov.my/Search?k=selisih)",
+    "word_family": [
+      {
+        "word": "selisih",
+        "affix": null,
+        "gloss": "差别；差额"
+      },
+      {
+        "word": "perselisihan",
+        "affix": "peR-...-an",
+        "gloss": "意见分歧；争执"
+      },
+      {
+        "word": "memperselisihkan",
+        "affix": "memper-...-kan",
+        "gloss": "争议；就某事争辩"
+      }
+    ],
+    "root_jawi": "برسليسيه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "在数量、数值或其他可比较的方面不相同；相差。",
+      "en_definition": "To differ in amount, value, or another comparable respect.",
+      "ms_definition": "Tidak sama jumlah atau nilainya; berbeza.",
+      "nuances": "表示客观差异，不必涉及争执。说明差额时可接 sebanyak，再接具体数值。",
+      "collocations": [
+        {
+          "ms": "berselisih sebanyak RM10",
+          "zh": "相差十令吉",
+          "en": "differ by ten ringgit"
+        },
+        {
+          "ms": "berselisih dari segi jumlah",
+          "zh": "在总数上有差异",
+          "en": "differ in total"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "意见不合；发生争执或关系失和。",
+      "en_definition": "To disagree, quarrel, or be at odds.",
+      "ms_definition": "Berlainan pendapat atau fikiran sehingga tidak bermuafakat, berbantah atau bermusuh.",
+      "nuances": "berselisih pendapat 可只表示观点不同；berselisih faham 常表示不和或争执，有时也涉及误解。不能一律译为“误会”，须根据关系和事件判断。",
+      "collocations": [
+        {
+          "ms": "berselisih pendapat",
+          "zh": "意见不一致",
+          "en": "differ in opinion"
+        },
+        {
+          "ms": "berselisih faham",
+          "zh": "发生不和或争执",
+          "en": "have a disagreement"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "沿不同方向行进时相遇并交错而过；迎面擦身而过。",
+      "en_definition": "To meet and pass each other while travelling in opposite directions.",
+      "ms_definition": "Bertemu sambil bergerak dalam arah yang berlawanan lalu berpapasan.",
+      "nuances": "适用于行人、车辆等，通常强调相遇后交错通过。这里不表示发生碰撞，也不一定包含交谈。",
+      "collocations": [
+        {
+          "ms": "berselisih di jalan",
+          "zh": "在路上交错而过",
+          "en": "pass each other on the road"
+        },
+        {
+          "ms": "berselisih dengan sebuah kereta",
+          "zh": "与一辆汽车迎面交错而过",
+          "en": "pass an oncoming car"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Wakil kedua-dua jabatan berselisih pendapat tentang kaedah pelaksanaan projek tersebut.",
+      "zh": "两个部门的代表对该项目的实施方法存在意见分歧。",
+      "en": "Representatives of the two departments differed over how the project should be implemented."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tadi aku berselisih dengan kau kat lobi, tapi kau tak nampak aku.",
+      "ms_standard": "Tadi saya berselisih dengan kamu di lobi, tetapi kamu tidak melihat saya.",
+      "zh": "刚才我在大厅跟你擦身而过，可你没看到我。",
+      "en": "I passed you in the lobby earlier, but you didn't see me.",
+      "spoken_features": [
+        "aku 和 kau 用于关系熟悉的同辈之间。",
+        "kat 对应标准语的 di。",
+        "tak 是 tidak 的口语形式。",
+        "此处 berselisih 表示擦身而过，与意见不合无关。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事兼朋友)",
+          "ms_spoken": "Tadi aku berselisih dengan kau kat lobi, tapi kau tak nampak aku.",
+          "ms_standard": "Tadi saya berselisih dengan kamu di lobi, tetapi kamu tidak melihat saya.",
+          "zh": "刚才我在大厅跟你擦身而过，可你没看到我。",
+          "en": "I passed you in the lobby earlier, but you didn't see me."
+        },
+        {
+          "speaker": "Amir (同事兼朋友)",
+          "ms_spoken": "Oh, aku tengah tengok telefon tadi. Lain kali tegur je!",
+          "ms_standard": "Oh, saya sedang melihat telefon ketika itu. Tegurlah saya jika kita bertemu lagi!",
+          "zh": "哦，我那时正看手机呢。下次直接叫我就好！",
+          "en": "Oh, I was looking at my phone. Just say hi next time!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP groups this word under selisih, alongside terms for difference and disagreement. Its recorded meanings offer a memorable contrast: figures can diverge, opinions can clash, and travellers can pass in opposite directions. These are established senses, but the dictionary does not establish which arose first, so their connection should serve as a learning image rather than an invented historical sequence.",
+    "cognitive_memory_aid": "想象两条线“各走各的”：数字拉开就是相差，观点分开就是不合，人迎面交错就是擦身而过。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "职场讨论中，berselisih pendapat 通常比 bergaduh“吵架”更克制。可说 Kita berselisih pendapat tentang perkara ini，明确分歧针对具体事项。",
+    "usage_etiquette": "新闻中的 berselisih faham 可能概括真实争执，不能因此认定只是小误会。描述路上偶遇时，补充 di jalan 或 di lobi 可避免被理解为双方不和。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "职场讨论中，berselisih pendapat 通常比 bergaduh“吵架”更克制。可说 Kita berselisih pendapat tentang perkara ini，明确分歧针对具体事项。",
+    "usage_etiquette": "新闻中的 berselisih faham 可能概括真实争执，不能因此认定只是小误会。描述路上偶遇时，补充 di jalan 或 di lobi 可避免被理解为双方不和。"
+  }
+}

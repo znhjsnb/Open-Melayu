@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "ehm",
+    "syllables": null,
+    "ipa": "[əm]",
+    "jawi": null,
+    "frequency_rank": 14603,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ehm",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ehm → ehm",
+    "pattern_note": "声音的文字转写，不作词缀拆分。[əm] 仅为迟疑用法的示意读音；清嗓用法没有固定音值。输入包未提供音节和 Jawi，保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "呃；嗯。表示正在思考、迟疑或暂时不知道如何接话的填充声音。",
+      "en_definition": "A hesitation sound used while thinking or preparing to speak; um.",
+      "ms_definition": "Bunyi pengisi jeda ketika penutur berfikir, teragak-agak atau mencari kata yang sesuai.",
+      "nuances": "实际功能接近感叹词或话语填充音；依所给词类选项归入 particle。未核实为 DBP 规范词条，马来文释义为描述性编写；status 按指定模板保留，不表示 DBP 已认证。以下为会话组合示例，并非经语料统计确认的高频搭配。",
+      "collocations": [
+        {
+          "ms": "ehm, saya rasa",
+          "zh": "呃，我觉得",
+          "en": "um, I think"
+        },
+        {
+          "ms": "ehm, sekejap",
+          "zh": "呃，等一下",
+          "en": "um, just a moment"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "咳；咳咳。模拟清嗓子的声音，用来引起注意、提示或委婉打断。",
+      "en_definition": "A written representation of throat-clearing used to attract attention or signal a hint; ahem.",
+      "ms_definition": "Tiruan bunyi berdehem untuk menarik perhatian, memberikan isyarat atau menyela percakapan.",
+      "nuances": "常见于对话转写；重复 ehm, ehm 可带提醒或打趣意味，具体态度由上下文决定。清嗓用法有文字实例，但不能据此认定为马来西亚标准词条。[清嗓用法实例](https://disdikpora.bulelengkab.go.id/informasi/download/insersi-ppkn-22.pdf)",
+      "collocations": [
+        {
+          "ms": "ehm, ehm",
+          "zh": "咳咳",
+          "en": "ahem, ahem"
+        },
+        {
+          "ms": "ehm, maaf",
+          "zh": "咳，打扰一下",
+          "en": "ahem, excuse me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场会议 / 发言转写",
+      "ms": "“Ehm, izinkan saya menyemak angka itu dahulu,” kata pembentang dalam mesyuarat tersebut.",
+      "zh": "“呃，请容我先核对一下那个数字，”汇报人在会议上说道。",
+      "en": "“Um, allow me to check that figure first,” the presenter said during the meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量安排",
+      "ms_spoken": "Ehm, aku nak fikir dulu, boleh?",
+      "ms_standard": "Saya ingin berfikir dahulu, boleh?",
+      "zh": "呃，让我先想想，可以吗？",
+      "en": "Um, can I think about it first?",
+      "spoken_features": [
+        "ehm 表示迟疑，标准改写中省略",
+        "aku 用于熟人之间",
+        "nak 对应 ingin",
+        "dulu 对应 dahulu"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Ehm, aku nak fikir dulu. Esok aku jawab, boleh?",
+          "ms_standard": "Saya ingin berfikir dahulu. Bolehkah saya memberikan jawapan esok?",
+          "zh": "呃，我想先考虑一下，明天答复你行吗？",
+          "en": "Um, I'd like to think it over. Can I get back to you tomorrow?"
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Boleh je. Esok mesej aku, ya.",
+          "ms_standard": "Boleh. Hantarkan mesej kepada saya esok, ya.",
+          "zh": "可以啊，明天给我发消息就好。",
+          "en": "Sure. Just message me tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ehm represents a vocal gesture rather than a transparently inherited Malay root. Writers can use such spellings to make hesitation or throat-clearing visible in dialogue. Its interpretation depends on the surrounding turn and the speaker's delivery. No dated Malay origin or established borrowing route is verified here, so a specific historical derivation would be speculative.",
+    "cognitive_memory_aid": "想词时的 ehm 是“呃……”，提醒别人时的 ehm, ehm 是“咳咳”；靠情境区分，不必逐字母拼读。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "轻微迟疑很自然，但连续清嗓或重复 ehm 可能显得催促、讽刺或不耐烦。面对长辈、客户或上司，明确说 maaf 或 boleh saya mencelah 更清楚。",
+    "usage_etiquette": "适合聊天、对白和口语转写。正式报告正文通常省去填充音；正式场景例句保留它，是为了再现实际发言。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "轻微迟疑很自然，但连续清嗓或重复 ehm 可能显得催促、讽刺或不耐烦。面对长辈、客户或上司，明确说 maaf 或 boleh saya mencelah 更清楚。",
+    "usage_etiquette": "适合聊天、对白和口语转写。正式报告正文通常省去填充音；正式场景例句保留它，是为了再现实际发言。"
+  }
+}

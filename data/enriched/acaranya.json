@@ -1,0 +1,156 @@
+{
+  "headword": {
+    "word": "acaranya",
+    "syllables": null,
+    "ipa": "/atʃaraɲa/",
+    "jawi": "اچارا",
+    "frequency_rank": 14665,
+    "status": "official",
+    "data_note": "此为标准词 acara 加附着代词 -nya 的语法形式，不意味着独立词头已获单独核定。保留输入爪夷文；该拼写对应 acara，未包含 -nya。音节字段按输入保留为 null。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "acara",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "acara + -nya → acaranya",
+    "pattern_note": "-nya 在此是附着代词，按现有字段归入 suffix，并非派生后缀；ny 表示单一辅音 /ɲ/。它可表示所属或回指已知对象，不能一律译为“他的”。",
+    "word_family": [
+      {
+        "word": "beracara",
+        "affix": "ber-",
+        "gloss": "有议程；有节目安排"
+      },
+      {
+        "word": "mengacarai",
+        "affix": "meN-…-i",
+        "gloss": "主持活动或典礼"
+      },
+      {
+        "word": "mengacarakan",
+        "affix": "meN-…-kan",
+        "gloss": "列入议程或节目"
+      },
+      {
+        "word": "pengacara",
+        "affix": "peN-",
+        "gloss": "主持人；司仪"
+      }
+    ],
+    "root_jawi": "اچارا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "其议程；某个已提及会议所安排的讨论事项。",
+      "en_definition": "Its agenda; the scheduled business of a previously identified meeting.",
+      "ms_definition": "Susunan perkara untuk dibincangkan dalam mesyuarat yang dirujuk, dengan -nya menandakan hubungan atau rujukan kepada mesyuarat tersebut.",
+      "nuances": "适用于明确的会议语境；通常用 agendanya 也很自然。不能把所有 acaranya 都译成“议程”。本义依据 DBP 的 acara 议程义，-nya 的具体所指由上下文决定。[DBP acara](https://prpm.dbp.gov.my/Cari1?d=399108&keyword=acara)。马来文释义为加上 -nya 后的综合释义。",
+      "collocations": [
+        {
+          "ms": "menetapkan acaranya",
+          "zh": "确定其议程",
+          "en": "set its agenda"
+        },
+        {
+          "ms": "membincangkan acaranya",
+          "zh": "讨论其议程",
+          "en": "discuss its agenda"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "其节目安排或活动流程；某场演出、庆典等的整体安排。",
+      "en_definition": "Its programme or schedule of activities.",
+      "ms_definition": "Rancangan atau susunan kegiatan bagi pertunjukan, majlis atau program yang dirujuk.",
+      "nuances": "侧重整套安排；如问 Acaranya bagaimana?，可能是在问活动如何安排，而非单个节目是什么。依据 DBP 的节目安排义。[DBP acara](https://prpm.dbp.gov.my/Cari1?d=399108&keyword=acara)。",
+      "collocations": [
+        {
+          "ms": "menyusun acaranya",
+          "zh": "编排其活动流程",
+          "en": "arrange its programme"
+        },
+        {
+          "ms": "acaranya padat",
+          "zh": "节目安排紧凑",
+          "en": "its programme is packed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "所指的活动、节目或比赛项目；也可表示某人或某组织举办的活动。",
+      "en_definition": "The event or programme item in question, or an event associated with someone or an organization.",
+      "ms_definition": "Kegiatan, persembahan atau pertandingan yang dirujuk atau dikaitkan dengan seseorang atau sesuatu pihak.",
+      "nuances": "-nya 可以回指已经谈到的活动，并不必然表示个人拥有。马来西亚日常语境中的 pengacara 通常是主持人；DBP 对 acara 的司法义另标 Id，不宜作为本条的常用马来西亚义项教授。[DBP acara](https://prpm.dbp.gov.my/Cari1?d=399108&keyword=acara)。",
+      "collocations": [
+        {
+          "ms": "acaranya bermula",
+          "zh": "该活动开始",
+          "en": "the event begins"
+        },
+        {
+          "ms": "acaranya berlangsung",
+          "zh": "该活动举行",
+          "en": "the event takes place"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 活动筹备汇报",
+      "ms": "Majlis pelancaran itu akan diadakan pada hari Jumaat, dan acaranya bermula pada pukul sembilan pagi.",
+      "zh": "启动仪式将于星期五举行，活动于上午九点开始。",
+      "en": "The launch ceremony will be held on Friday, with the programme beginning at nine in the morning."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认活动时间",
+      "ms_spoken": "Acaranya dah mula ke? Aku baru sampai kat lobi.",
+      "ms_standard": "Adakah acara itu sudah bermula? Saya baru tiba di lobi.",
+      "zh": "活动开始了吗？我刚到大厅。",
+      "en": "Has the event started? I've just arrived in the lobby.",
+      "spoken_features": [
+        "dah 对应标准语 sudah",
+        "mula 在此对应标准表达 bermula",
+        "kat 对应标准语 di",
+        "句末 ke 表示疑问",
+        "-nya 回指双方已知的活动"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Acaranya dah mula ke? Aku baru sampai kat lobi.",
+          "ms_standard": "Adakah acara itu sudah bermula? Saya baru tiba di lobi.",
+          "zh": "活动开始了吗？我刚到大厅。",
+          "en": "Has the event started? I've just arrived in the lobby."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum lagi. Naik je ke tingkat dua, aku tunggu kat pintu dewan.",
+          "ms_standard": "Acara itu belum bermula. Naiklah ke tingkat dua; saya menunggu di pintu dewan.",
+          "zh": "还没。直接上二楼吧，我在礼堂门口等你。",
+          "en": "Not yet. Come straight up to the second floor; I'll wait by the hall entrance."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Acara is traced to Sanskrit ācāra, associated with conduct and customary practice. Its modern Malay meanings concern agendas, programmes, and organized activities. Acaranya adds the Malay clitic -nya, linking that activity or programme to an understood referent. The Sanskrit borrowing is the base word; -nya belongs to productive Malay grammar. [Etymological reference](https://ms.wiktionary.org/wiki/acara); [DBP meanings](https://prpm.dbp.gov.my/Cari1?d=399108&keyword=acara)",
+    "cognitive_memory_aid": "acara＝活动或议程；-nya＝把它连回前文的人或事：acaranya bermula，那个活动开始了。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性、可用于正式场合的形式。首次通知读者时，应先说明是哪场会议或活动，让 -nya 有清楚的所指。",
+    "usage_etiquette": "询问流程可说 Bagaimanakah susunan acaranya?；询问开始时间可说 Pukul berapakah acaranya bermula?。在马来西亚语境中，pengacara majlis 通常指司仪，不应直接理解为律师。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性、可用于正式场合的形式。首次通知读者时，应先说明是哪场会议或活动，让 -nya 有清楚的所指。",
+    "usage_etiquette": "询问流程可说 Bagaimanakah susunan acaranya?；询问开始时间可说 Pukul berapakah acaranya bermula?。在马来西亚语境中，pengacara majlis 通常指司仪，不应直接理解为律师。"
+  }
+}
