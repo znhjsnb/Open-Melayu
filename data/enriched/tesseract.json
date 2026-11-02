@@ -1,0 +1,122 @@
+{
+  "headword": {
+    "word": "tesseract",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11483,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tesseract",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tesseract → tesseract（英语术语整体引用；未确认马来语规范借词身份）",
+    "pattern_note": "不作马来语词缀拆分；词根标记沿用输入，不表示该词在历史上不可分析。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "正八胞体；立方体在四维欧几里得空间中的对应体，其边界由八个立方体胞构成。",
+      "en_definition": "The four-dimensional analogue of a cube, bounded by eight cubical cells.",
+      "ms_definition": "Objek geometri dalam ruang Euclid empat dimensi yang merupakan analog bagi kubus dan dibatasi oleh lapan sel berbentuk kubus.",
+      "nuances": "此处为英语几何术语的解释，马来语释义由本条编写，并非 DBP 官方释义。屏幕上的图像通常是投影或示意图。以下为自然的专业短语，未验证其语料频率。",
+      "collocations": [
+        {
+          "ms": "unjuran tesseract",
+          "zh": "正八胞体的投影",
+          "en": "a projection of a tesseract"
+        },
+        {
+          "ms": "model tesseract",
+          "zh": "正八胞体模型",
+          "en": "a model of a tesseract"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "Tesseract：用于从图像中识别文字的开源光学字符识别引擎的名称。",
+      "en_definition": "Tesseract: the proper name of an open-source optical character recognition engine.",
+      "ms_definition": "Tesseract ialah nama khas bagi enjin pengecaman aksara optik sumber terbuka yang mengenal pasti teks dalam imej.",
+      "nuances": "软件名称使用大写首字母 Tesseract，应与小写的几何名词区分。此为专名用法，不据此认定其属于马来语普通词汇。以下为技术短语，未验证其语料频率。",
+      "collocations": [
+        {
+          "ms": "enjin OCR Tesseract",
+          "zh": "Tesseract 光学字符识别引擎",
+          "en": "the Tesseract OCR engine"
+        },
+        {
+          "ms": "dokumentasi Tesseract",
+          "zh": "Tesseract 文档",
+          "en": "Tesseract documentation"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "数学教学 / 学术汇报",
+      "ms": "Rajah ini menunjukkan unjuran tesseract, iaitu analog empat dimensi bagi kubus.",
+      "zh": "此图展示了正八胞体的投影；正八胞体是立方体的四维对应体。",
+      "en": "This diagram shows a projection of a tesseract, the four-dimensional analogue of a cube."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 讨论几何图示",
+      "ms_spoken": "Gambar tesseract tu nampak macam kubus dalam kubus je.",
+      "ms_standard": "Gambar tesseract itu kelihatan seperti sebuah kubus di dalam kubus yang lain.",
+      "zh": "那张正八胞体的图看着就像一个立方体套着另一个。",
+      "en": "That picture of a tesseract just looks like a cube inside another cube.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式",
+        "macam 在此表示 seperti",
+        "je 是 sahaja 的口语形式，突出直观印象"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku dah tengok gambar tesseract tu. Kenapa macam ada kubus kat dalam?",
+          "ms_standard": "Saya sudah melihat gambar tesseract itu. Mengapakah kelihatan seolah-olah terdapat sebuah kubus di dalamnya?",
+          "zh": "我看过那张正八胞体的图了，怎么像里面还有个立方体？",
+          "en": "I've looked at that picture of a tesseract. Why does it look like there's a cube inside?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Itu unjuran je. Bentuk asal dia dalam empat dimensi.",
+          "ms_standard": "Itu hanyalah unjuran. Bentuk asalnya berada dalam ruang empat dimensi.",
+          "zh": "那只是投影，原来的形体是在四维空间里的。",
+          "en": "That's just a projection. The actual shape exists in four-dimensional space."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Charles Howard Hinton used tesseract in his writings about four-dimensional geometry. His explanation extends a familiar construction: moving a square in a new perpendicular direction generates a cube; moving a cube in a fourth perpendicular direction generates its four-dimensional counterpart. This geometric history is distinct from the modern software name Tesseract.",
+    "cognitive_memory_aid": "依次想象：线段扩展成正方形，正方形扩展成立方体，再增加一个垂直方向，得到 tesseract。",
+    "sources": [
+      "[Hinton: The Recognition of the Fourth Dimension](https://www.ibiblio.org/eldritch/chh/h8.html)",
+      "[Tesseract 官方文档](https://tesseract-ocr.github.io/tessdoc/)"
+    ]
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向非专业听众首次介绍时，宜补充“analog empat dimensi bagi kubus”，帮助理解。",
+    "usage_etiquette": "适用于数学、科普或软件讨论；使用软件专名时写作 Tesseract。"
+  },
+  "verification": {
+    "decision": "retain_as_foreign_term_pending_malay_verification",
+    "note": "几何意义与软件专名有来源支持，但本次未取得可核验的 DBP 对应词条，不能标为马来语 official。音节、马来语 IPA 与 Jawi 保留为 null。",
+    "rank_note": "频率排名仅照录输入，未独立验证。",
+    "example_note": "例句与马来语释义为原创编写，不作为官方释义或语料频率证据。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向非专业听众首次介绍时，宜补充“analog empat dimensi bagi kubus”，帮助理解。",
+    "usage_etiquette": "适用于数学、科普或软件讨论；使用软件专名时写作 Tesseract。"
+  }
+}

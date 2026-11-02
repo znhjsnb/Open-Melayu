@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "tahunya",
+    "syllables": null,
+    "ipa": "/ta.hu.ɲa/",
+    "jawi": "تاهو",
+    "frequency_rank": 11424,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tahu",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "tahu + -nya → tahunya",
+    "pattern_note": "-nya 附着于词根后，词根不发生音变；ny 表示单个腭鼻音 /ɲ/。按所给字段归入 suffix，但语法上须区分代词附着成分与名词化等功能。完整形式分为 ta.hu.nya；输入 syllables 为 null，原样保留。输入 Jawi تاهو 对应词根 tahu，完整 tahunya 按构词写作 تاهوڽ。",
+    "word_family": [
+      {
+        "word": "mengetahui",
+        "affix": "meN-…-i",
+        "gloss": "知道；了解"
+      },
+      {
+        "word": "pengetahuan",
+        "affix": "peN-…-an",
+        "gloss": "知识；学识"
+      },
+      {
+        "word": "setahu",
+        "affix": "se-",
+        "gloss": "据……所知"
+      }
+    ],
+    "root_jawi": "تاهو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "知道、懂得或会做某事；在“某行为 + sahaja tahunya”结构中，表示某人只会或只顾做该事。",
+      "en_definition": "To know or know how; in the construction X sahaja tahunya, to do or care about nothing but X.",
+      "ms_definition": "Tahu atau pandai melakukan sesuatu; dalam binaan tertentu, hanya tahu atau asyik melakukan perkara yang disebut.",
+      "nuances": "意思由 tahu 与具体句法共同决定，不能把 tahunya 固定译成“他知道”。makan sahaja tahunya 等说法通常带埋怨或批评。此类结构中的 -nya 可与被谈论的人相关，也带有突出评价的作用，不能机械套用单一解释。参见 [DBP 的 tahu 词义](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=tahu)及其收录的 [makan sahaja tahunya 用例](https://prpm.dbp.gov.my/Cari1?d=169476&keyword=sahaja)。",
+      "collocations": [
+        {
+          "ms": "makan sahaja tahunya",
+          "zh": "只知道吃",
+          "en": "all they do is eat"
+        },
+        {
+          "ms": "bermain sahaja tahunya",
+          "zh": "只顾着玩",
+          "en": "all they do is play"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "其所知、其学识或本领，常见于传统或文学表达；在 rasa ingin tahunya 等结构中，-nya 所联系的是整个“求知欲”短语。",
+      "en_definition": "A person's knowledge or skill, especially in literary usage; also a component of possessive phrases such as rasa ingin tahunya, their curiosity.",
+      "ms_definition": "Pengetahuan atau kepandaian seseorang, terutama dalam penggunaan sastera; dalam frasa rasa ingin tahunya, merujuk kepada keinginan seseorang untuk mengetahui sesuatu.",
+      "nuances": "banyak tahunya 属传统表达，现代日常语通常说 banyak pengetahuannya；rasa ingin tahunya 则是自然的现代书面表达，其中不能把 tahunya 单独释为“好奇心”。也不要与 setahunya（据其所知）或 tahu-tahu（不知不觉间、突然）混同。参见 [DBP 对 banyak tahunya 的说明](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=tahu)及 [DBP 对 -nya 名词化功能的说明](https://prpm.dbp.gov.my/cari1?d=175768&keyword=salah+nya)。",
+      "collocations": [
+        {
+          "ms": "rasa ingin tahunya",
+          "zh": "他或她的好奇心；其求知欲",
+          "en": "their curiosity"
+        },
+        {
+          "ms": "banyak tahunya",
+          "zh": "他或她见识广博〔传统表达〕",
+          "en": "they have extensive knowledge"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 员工学习表现评价",
+      "ms": "Rasa ingin tahunya yang tinggi mendorong beliau meneliti setiap cadangan sebelum membuat keputusan.",
+      "zh": "强烈的求知欲促使他在作出决定前仔细研究每一项建议。",
+      "en": "His strong curiosity prompts him to examine every proposal carefully before making a decision."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友抱怨弟弟只顾玩游戏",
+      "ms_spoken": "Adik aku ni, main game je tahunya. Kerja sekolah tak siap lagi.",
+      "ms_standard": "Adik saya hanya tahu bermain permainan video. Kerja sekolahnya masih belum siap.",
+      "zh": "我弟啊，就知道打游戏，作业还没做完。",
+      "en": "My little brother does nothing but play video games. His homework still isn't done.",
+      "spoken_features": [
+        "aku 用于熟人之间，标准对应形式可用 saya。",
+        "ni 是 ini 的口语形式，在此突出谈论对象。",
+        "main game 是口语中的英语夹用，标准表达为 bermain permainan video。",
+        "je 对应 sahaja；je tahunya 在此带抱怨语气。",
+        "tak 对应 tidak；dah 对应 sudah；nak 对应 hendak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Adik aku ni, main game je tahunya. Aku dah suruh dia buat kerja sekolah.",
+          "ms_standard": "Adik saya hanya tahu bermain permainan video. Saya sudah menyuruhnya menyiapkan kerja sekolah.",
+          "zh": "我弟啊，就知道打游戏。我已经叫他去做作业了。",
+          "en": "My little brother does nothing but play video games. I've already told him to do his homework."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Cakap elok-elok dulu lah. Kalau dia nak main, suruh siapkan kerja sekolah dulu.",
+          "ms_standard": "Bercakaplah dengannya secara baik terlebih dahulu. Jika dia hendak bermain, minta dia menyiapkan kerja sekolah dahulu.",
+          "zh": "先好好跟他说嘛。他要玩的话，就让他先把作业做完。",
+          "en": "Try talking to him calmly first. If he wants to play, tell him to finish his homework first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tahunya is built from tahu and the attached form -nya, rather than being an unrelated dictionary root. Malay tahu covers knowing, understanding and practical skill. Traditional expressions such as banyak tahunya preserve the connection between knowledge and experience. Modern rasa ingin tahunya illustrates how the attached ending can relate to an entire phrase. See [DBP](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=tahu).",
+    "cognitive_memory_aid": "先抓住 tahu＝知道，再看整句：makan sahaja tahunya＝只知道吃；rasa ingin tahunya＝他的求知欲。记结构，别把 -nya 一律翻成“他的”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "“某行为 + je tahunya”容易带责备、挖苦或不耐烦。评价长辈、上司或不熟悉的人时，宜改成具体、平和的描述，例如 Beliau masih belum menyiapkan tugasan tersebut。",
+    "usage_etiquette": "朋友或家人之间可以用来轻微抱怨，但“只知道吃、玩、要钱”等说法可能伤人。正式评价宜使用具体事实；rasa ingin tahunya 则适合教育、研究和工作表现等正面语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "“某行为 + je tahunya”容易带责备、挖苦或不耐烦。评价长辈、上司或不熟悉的人时，宜改成具体、平和的描述，例如 Beliau masih belum menyiapkan tugasan tersebut。",
+    "usage_etiquette": "朋友或家人之间可以用来轻微抱怨，但“只知道吃、玩、要钱”等说法可能伤人。正式评价宜使用具体事实；rasa ingin tahunya 则适合教育、研究和工作表现等正面语境。"
+  }
+}

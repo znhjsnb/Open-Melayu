@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "sacks",
+    "syllables": "sacks",
+    "ipa": "/sæks/",
+    "jawi": null,
+    "frequency_rank": 11476,
+    "status": "official",
+    "status_note": "保留请求指定的记录状态 official；sacks 是英语形式，此处不将它认证为规范马来语词。音标采用英语读音。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sacks",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "马来语收录层面：∅ + sacks → sacks；英语名词分析：sack + -s → sacks",
+    "pattern_note": "is_root 与 root_word 保留输入的整词处理方式；不表示 sacks 在英语中没有词缀。英语复数词尾 -s 在清辅音 /k/ 后读 /s/；该形式只有一个音节。",
+    "word_family": [
+      {
+        "word": "sack",
+        "affix": null,
+        "gloss": "英语单数：大袋；马来语按材质和用途可用 guni 或 karung"
+      },
+      {
+        "word": "sackful",
+        "affix": "-ful（英语）",
+        "gloss": "一大袋的量"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英语 sack 的复数：用于装运或储存物品的大袋，如粮袋、麻袋或其他结实的大袋。",
+      "en_definition": "Plural of sack: large bags used for storing or carrying goods.",
+      "ms_definition": "Bentuk jamak bahasa Inggeris bagi sack, iaitu beg besar untuk menyimpan atau membawa barang; padanannya termasuk guni atau karung mengikut konteks.",
+      "nuances": "输入没有原始语境，此处列出英语“大袋”的常用读法，不据此认定它是马来语借词。以下 ms 搭配提供规范马来语对应表达。英语 sacks 也可能是动词第三人称单数，或美式橄榄球术语，遇到这些语境须另行判义。[Cambridge：sack](https://dictionary.cambridge.org/dictionary/english/sack?q=SACK)",
+      "collocations": [
+        {
+          "ms": "guni beras",
+          "zh": "装米的大袋",
+          "en": "sacks of rice"
+        },
+        {
+          "ms": "guni kosong",
+          "zh": "空的大袋",
+          "en": "empty sacks"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 仓库文件翻译",
+      "ms": "Dalam senarai inventori bahasa Melayu, istilah Inggeris sacks diterjemahkan sebagai guni.",
+      "zh": "在这份马来语库存清单中，英语 sacks 译为 guni。",
+      "en": "In the Malay inventory list, the English term sacks is translated as guni."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认送货单用词",
+      "ms_spoken": "Kat senarai tu tertulis sacks. Maksudnya guni ke?",
+      "ms_standard": "Dalam senarai itu tertulis perkataan sacks. Adakah maksudnya guni?",
+      "zh": "清单上写着 sacks，是指大袋吗？",
+      "en": "The list says sacks. Does that mean large bags?",
+      "spoken_features": [
+        "sacks 是引用送货单上的英语原词",
+        "kat 对应 dalam，tu 对应 itu",
+        "ke 是口语疑问标记"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kat senarai tu tertulis sacks. Maksudnya guni ke?",
+          "ms_standard": "Dalam senarai itu tertulis perkataan sacks. Adakah maksudnya guni?",
+          "zh": "清单上写着 sacks，是指大袋吗？",
+          "en": "The list says sacks. Does that mean large bags?"
+        },
+        {
+          "speaker": "Siti (同事)",
+          "ms_spoken": "Ya, guni beras. Kita nak lima guni je.",
+          "ms_standard": "Ya, yang dimaksudkan ialah guni beras. Kita memerlukan lima guni sahaja.",
+          "zh": "对，就是装米的大袋。我们只要五袋。",
+          "en": "Yes, sacks of rice. We only need five."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sacks is an English inflected form rather than a Malay formation. In its ordinary container sense, it consists of sack plus the plural ending -s. On a supplier's label, that ending counts several bags. When translating the label into Malay, the number can be expressed with a numeral, as in lima guni, without importing the English plural ending.",
+    "cognitive_memory_aid": "按英语读作 /sæks/：sack 是一个大袋，末尾 -s 表示多个；马来语可说 lima guni，不给 guni 加英语复数 -s。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与熟悉英语的同事交流时可以引用原词；面向公众或需要明确交货数量时，宜用对方熟悉的马来语名称。",
+    "usage_etiquette": "适合出现在英语标签引用或双语解释中。正式马来语文件应按实际袋型选用 guni、karung 或其他准确名称，并明确数量与每袋重量。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与熟悉英语的同事交流时可以引用原词；面向公众或需要明确交货数量时，宜用对方熟悉的马来语名称。",
+    "usage_etiquette": "适合出现在英语标签引用或双语解释中。正式马来语文件应按实际袋型选用 guni、karung 或其他准确名称，并明确数量与每袋重量。"
+  }
+}

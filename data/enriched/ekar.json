@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "ekar",
+    "syllables": "e.kar",
+    "ipa": "/e.kar/",
+    "jawi": "ايکر",
+    "frequency_rank": 11475,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ekar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ekar → ekar",
+    "pattern_note": "完整借词；首字母 e 读 é，即 /e/，不是 /ə/。加 se- 表示一单位：se- + ekar → seekar，两个 e 均保留。",
+    "word_family": [
+      {
+        "word": "seekar",
+        "affix": "se-",
+        "gloss": "一英亩"
+      },
+      {
+        "word": "berekar-ekar",
+        "affix": "ber- + 重叠",
+        "gloss": "好几英亩；大片以英亩计的"
+      }
+    ],
+    "root_jawi": "ايکر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英亩；土地面积单位，一英亩等于 4,840 平方码，约合 4,046.86 平方米或 0.404686 公顷。",
+      "en_definition": "An acre: a unit of area equal to 4,840 square yards, approximately 4,046.86 square metres.",
+      "ms_definition": "Ukuran luas yang bersamaan dengan 4840 ela persegi atau 4046.86 meter persegi.",
+      "nuances": "用于土地、农场、种植园等面积；不是长度单位。不要与 hektar（公顷）混淆。4046.86 平方米是词典采用的四舍五入值。数词后通常直接接 ekar，如 lima ekar tanah。[DBP：ekar](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ekar)",
+      "collocations": [
+        {
+          "ms": "lima ekar tanah",
+          "zh": "五英亩土地",
+          "en": "five acres of land"
+        },
+        {
+          "ms": "berkeluasan sepuluh ekar",
+          "zh": "面积为十英亩",
+          "en": "covering an area of ten acres"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "项目公文 / 土地面积说明",
+      "ms": "Tapak projek itu berkeluasan dua puluh ekar dan terletak berhampiran jalan utama.",
+      "zh": "该项目用地面积为二十英亩，位于主要道路附近。",
+      "en": "The project site covers twenty acres and is located near the main road."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聊家里的果园",
+      "ms_spoken": "Kebun ayah kau kat kampung tu dua ekar je ke?",
+      "ms_standard": "Adakah kebun ayah kamu di kampung itu seluas dua ekar sahaja?",
+      "zh": "你爸爸乡下那个果园只有两英亩吗？",
+      "en": "Is your dad's orchard back in the village only two acres?",
+      "spoken_features": [
+        "kau 是熟人间使用的第二人称",
+        "kat 对应 di，tu 对应 itu",
+        "je 对应 sahaja；ke 是口语疑问标记"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Kebun ayah kau kat kampung tu dua ekar je ke?",
+          "ms_standard": "Adakah kebun ayah kamu di kampung itu seluas dua ekar sahaja?",
+          "zh": "你爸爸乡下那个果园只有两英亩吗？",
+          "en": "Is your dad's orchard back in the village only two acres?"
+        },
+        {
+          "speaker": "Farid (朋友)",
+          "ms_spoken": "Dulu dua ekar. Sekarang dah jadi tiga ekar sebab ayah beli tanah sebelah.",
+          "ms_standard": "Dahulu luasnya dua ekar. Sekarang luasnya sudah menjadi tiga ekar kerana ayah membeli tanah di sebelahnya.",
+          "zh": "以前是两英亩。现在三英亩了，爸爸买下了旁边那块地。",
+          "en": "It used to be two acres. It's three now because Dad bought the neighbouring plot."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ekar is the Malay adaptation of English acre. Behind the English word lies Old English æcer, meaning a field or cultivated land. Historical explanations connect the measure with the land a team of oxen could plough in a day. Its modern numerical definition turns that agricultural image into a fixed area. [Historical dictionary: æcer](https://bosworthtoller.com/347)",
+    "cognitive_memory_aid": "ekar 对应英语 acre：想到一块田，就想到“英亩”；记住 1 ekar 约等于 0.405 公顷。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性计量词，没有特殊敬语限制。询问他人土地面积时，可先交代谈话目的，避免显得在打探家产。",
+    "usage_etiquette": "谈土地或农业面积时使用；引用文件时保留原有单位，换算时明确标注，避免把英亩和公顷当成同一单位。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性计量词，没有特殊敬语限制。询问他人土地面积时，可先交代谈话目的，避免显得在打探家产。",
+    "usage_etiquette": "谈土地或农业面积时使用；引用文件时保留原有单位，换算时明确标注，避免把英亩和公顷当成同一单位。"
+  }
+}

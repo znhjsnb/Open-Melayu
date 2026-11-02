@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "kutemui",
+    "syllables": null,
+    "ipa": "/ku.tə.mu.i/",
+    "jawi": null,
+    "frequency_rank": 11536,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "temu",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "temu + -i → temui；ku- + temui → kutemui",
+    "pattern_note": "词根应为 temu，需修正输入中的 kutemui。ku- 是 aku 的前附着代词，-i 是动词后缀，两者不是一个环缀；词根 t 保留，u 与 i 可分读。规范被动结构如 orang yang kutemui＝我见到的人。参见 [DBP 关于 ku- 连写的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=serangkai)。",
+    "word_family": [
+      {
+        "word": "menemui",
+        "affix": "meN-…-i",
+        "gloss": "遇见；拜访；发现"
+      },
+      {
+        "word": "pertemuan",
+        "affix": "per-…-an",
+        "gloss": "会面；相遇"
+      }
+    ],
+    "root_jawi": "تمو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "由我遇见、会见或拜访；表示相关人物是我见面的对象。",
+      "en_definition": "Met or visited by me; whom I meet or visit.",
+      "ms_definition": "Ditemui atau dikunjungi oleh aku.",
+      "nuances": "常见于 orang yang kutemui 等第一人称被动结构；ku- 标示动作执行者“我”，本身不表示过去时。英语时态由上下文决定。以下义项依据 [DBP menemui 释义](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=menemui) 整理，非逐字引文。",
+      "collocations": [
+        {
+          "ms": "orang yang kutemui",
+          "zh": "我遇见的人",
+          "en": "the person I meet"
+        },
+        {
+          "ms": "sahabat yang kutemui",
+          "zh": "我见到的朋友",
+          "en": "the friend I meet"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "由我找到、发现或察觉；用于寻获事物或识别原先未注意到的内容。",
+      "en_definition": "Found, discovered or noticed by me.",
+      "ms_definition": "Dijumpai, didapati atau diketahui adanya oleh aku.",
+      "nuances": "可用于实体事物，也可用于资料中的线索、共同点或差异；不必包含刻意搜寻。",
+      "collocations": [
+        {
+          "ms": "bukti yang kutemui",
+          "zh": "我找到的证据",
+          "en": "the evidence I find"
+        },
+        {
+          "ms": "persamaan yang kutemui",
+          "zh": "我发现的共同点",
+          "en": "the similarities I discover"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "由我经历或遭遇；用于困难、障碍等处境。",
+      "en_definition": "Encountered or experienced by me, especially a difficulty or obstacle.",
+      "ms_definition": "Dialami atau dihadapi oleh aku, khususnya kesulitan atau halangan.",
+      "nuances": "多见于叙事、回忆和反思性文字。日常交流常改说 masalah yang aku hadapi。",
+      "collocations": [
+        {
+          "ms": "kesulitan yang kutemui",
+          "zh": "我遇到的困难",
+          "en": "the difficulties I encounter"
+        },
+        {
+          "ms": "halangan yang kutemui",
+          "zh": "我遇到的障碍",
+          "en": "the obstacles I encounter"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "规范书面叙事 / 工作见闻记录",
+      "ms": "Pegawai yang kutemui pagi tadi menjelaskan prosedur permohonan itu dengan terperinci.",
+      "zh": "今天上午我见到的那位官员详细说明了申请程序。",
+      "en": "The officer I met this morning explained the application procedure in detail."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友分享见闻",
+      "ms_spoken": "Orang yang kutemui kat bengkel tadi tu rupanya jiran kau!",
+      "ms_standard": "Orang yang kutemui di bengkel tadi itu rupa-rupanya jiran kamu!",
+      "zh": "原来我刚才在修车厂碰到的那个人是你邻居！",
+      "en": "Turns out the person I met at the garage earlier is your neighbour!",
+      "spoken_features": [
+        "kat 对应 di；tu 对应 itu。",
+        "kau 是熟人之间的第二人称称呼。",
+        "kutemui 带书面色彩；此处是朋友聊天中的叙事表达，更随意的说法是 yang aku jumpa。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Orang yang kutemui kat bengkel tadi tu rupanya jiran kau!",
+          "ms_standard": "Orang yang kutemui di bengkel tadi itu rupa-rupanya jiran kamu!",
+          "zh": "原来我刚才在修车厂碰到的那个人是你邻居！",
+          "en": "Turns out the person I met at the garage earlier is your neighbour!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Oh, Pak Din ke? Dia memang selalu pergi situ.",
+          "ms_standard": "Adakah kamu maksudkan Pak Din? Dia memang sering pergi ke situ.",
+          "zh": "哦，你说的是 Din 叔吗？他确实常去那儿。",
+          "en": "Oh, Pak Din? He goes there all the time."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kutemui tells a grammatical story rather than the story of a separate root. Temu supplies the idea of meeting, the suffix -i forms the transitive verb, and ku- identifies aku as the participant performing the action. Malay writes this bound pronoun together with its verb, giving compact narrative expressions such as orang yang kutemui. See [DBP language advice](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=serangkai).",
+    "cognitive_memory_aid": "ku＝我，temu＝相遇，-i 连接对象：orang yang kutemui，就是“我遇见的人”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 来自 aku，适合文学叙事、私人记录和亲密交流；正式公务或对上级汇报通常改用 saya，如 pegawai yang saya temui。",
+    "usage_etiquette": "连写为 kutemui。规范被动句可说 Beliau sudah kutemui，或用主动句 Saya sudah menemui beliau；不要机械写成 saya kutemui，也不要把 ku- 理解成“我的”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 来自 aku，适合文学叙事、私人记录和亲密交流；正式公务或对上级汇报通常改用 saya，如 pegawai yang saya temui。",
+    "usage_etiquette": "连写为 kutemui。规范被动句可说 Beliau sudah kutemui，或用主动句 Saya sudah menemui beliau；不要机械写成 saya kutemui，也不要把 ku- 理解成“我的”。"
+  }
+}

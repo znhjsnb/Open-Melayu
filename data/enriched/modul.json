@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "modul",
+    "syllables": "mo.dul",
+    "ipa": "/mo.dul/",
+    "jawi": "مودول",
+    "frequency_rank": 11535,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "modul",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + modul → modul",
+    "pattern_note": "整词借入并作为词根使用；mo- 不是前缀，-ul 不是后缀。",
+    "word_family": [
+      {
+        "word": "modul-modul",
+        "affix": "penggandaan penuh",
+        "gloss": "多个模块；多个学习单元"
+      },
+      {
+        "word": "modular",
+        "affix": null,
+        "gloss": "模块化的；相关借词，并非马来语后缀派生"
+      }
+    ],
+    "root_jawi": "مودول"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "模块；具有完整组成部分、承担特定功能，并可与其他单元组合成更大系统的独立单元。",
+      "en_definition": "A self-contained functional unit that can be combined with others to form a larger system.",
+      "ms_definition": "Unit lengkap yang menjalankan fungsi tertentu dan boleh digabungkan dengan unit lain untuk membentuk sistem yang lebih besar.",
+      "nuances": "用于设备、电子系统、软件等领域。重点是功能上的独立性和组合性，并非任何零件都适合称为 modul。马来语释义依据输入的 DBP 释义整理。",
+      "collocations": [
+        {
+          "ms": "modul elektronik",
+          "zh": "电子模块",
+          "en": "electronic module"
+        },
+        {
+          "ms": "modul perisian",
+          "zh": "软件模块",
+          "en": "software module"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "课程模块；可独立实施、具有特定学习目标的教学或培训单元。",
+      "en_definition": "A self-contained unit of teaching or training within a course or programme.",
+      "ms_definition": "Unit pengajaran, pembelajaran atau latihan yang mempunyai tujuan tertentu dan boleh dilaksanakan secara tersendiri dalam sesuatu program.",
+      "nuances": "教育语境中也常用来指承载该单元内容的教材或练习资料；不一定等于整门课程或整本课本。参见 [MQA 课程标准中的术语表](https://www2.mqa.gov.my/qad/PS/PS%20CMM%20%28BM%29.pdf)。",
+      "collocations": [
+        {
+          "ms": "modul latihan",
+          "zh": "培训模块",
+          "en": "training module"
+        },
+        {
+          "ms": "modul pembelajaran",
+          "zh": "学习模块",
+          "en": "learning module"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 培训通知 / 职场汇报",
+      "ms": "Semua peserta dikehendaki melengkapkan modul latihan keselamatan sebelum memulakan tugas.",
+      "zh": "所有参与者必须完成安全培训模块后才能开始工作。",
+      "en": "All participants must complete the safety training module before starting work."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学交流",
+      "ms_spoken": "Kau dah siap modul ni ke?",
+      "ms_standard": "Adakah kamu sudah menyiapkan tugasan dalam modul ini?",
+      "zh": "你做完这个模块的作业了吗？",
+      "en": "Have you finished the work in this module?",
+      "spoken_features": [
+        "dah 对应 sudah；ni 对应 ini。",
+        "siap modul 在同学交流中可省略 tugasan dalam，指完成模块内的作业。",
+        "句末 ke 表示口语疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Kau dah siap modul ni ke?",
+          "ms_standard": "Adakah kamu sudah menyiapkan tugasan dalam modul ini?",
+          "zh": "你做完这个模块的作业了吗？",
+          "en": "Have you finished the work in this module?"
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Belum lagi. Tinggal dua soalan je, malam ni aku nak habiskan.",
+          "ms_standard": "Belum. Hanya dua soalan yang masih belum dijawab; saya hendak menyiapkannya malam ini.",
+          "zh": "还没，就剩两题了，我打算今晚做完。",
+          "en": "Not yet. I've only got two questions left, so I'll finish them tonight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Modul belongs to an international vocabulary represented by English module, whose ancestry leads to Latin modulus, a small measure. The useful connecting idea is a bounded unit within a larger arrangement. In modern Malay, that idea serves both technical systems and education: a machine can contain modules, and a training programme can contain learning modules. See [Merriam-Webster](https://www.merriam-webster.com/dictionary/module).",
+    "cognitive_memory_aid": "modul 联想英语 module，再连到中文“模块”：系统的一块、课程的一单元。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性专业词，适合学校、政府培训和企业场合。请求资料可说 Boleh saya mendapatkan modul latihan tersebut?",
+    "usage_etiquette": "交代任务时应明确是阅读模块、完成其中的练习，还是提交作业，避免只说 siapkan modul 而让参与者误解要求。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性专业词，适合学校、政府培训和企业场合。请求资料可说 Boleh saya mendapatkan modul latihan tersebut?",
+    "usage_etiquette": "交代任务时应明确是阅读模块、完成其中的练习，还是提交作业，避免只说 siapkan modul 而让参与者误解要求。"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "dsp",
+    "syllables": null,
+    "ipa": "/di.es.pi/",
+    "jawi": null,
+    "frequency_rank": 11509,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dsp",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "Deputi Superintenden Polis → DSP; digital signal processing → DSP",
+    "pattern_note": "字母缩写，按 D、S、P 分别读出，不作普通单词拼读。is_root 表示本条没有词缀派生关系；规范书写为大写 DSP，word 保留输入形式。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "警阶缩写：Deputi Superintenden Polis，副警监；马来西亚皇家警察的高级警官职级。",
+      "en_definition": "Deputy Superintendent of Police, a senior police rank in Malaysia.",
+      "ms_definition": "Singkatan bagi Deputi Superintenden Polis, suatu pangkat dalam kumpulan Pegawai Kanan Polis.",
+      "nuances": "官方形式为 DSP，位于 Superintenden Polis 之下、Asisten Superintenden Polis 之上。可置于姓名前。释义依据官方警阶表编写；输入缺少上下文，不能确定原始出现处一定采用此义。[PDRM：警阶表](https://www.rmp.gov.my/infor-korporate/polis-diraja-malaysia/pangkat)",
+      "collocations": [
+        {
+          "ms": "berpangkat DSP",
+          "zh": "具有副警监警阶",
+          "en": "hold the rank of Deputy Superintendent of Police"
+        },
+        {
+          "ms": "dinaikkan pangkat ke DSP",
+          "zh": "晋升为副警监",
+          "en": "be promoted to Deputy Superintendent of Police"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "数字信号处理：使用计算机或电子设备处理数字形式的信号。",
+      "en_definition": "Digital signal processing: the processing of digitally represented signals using computers or electronic devices.",
+      "ms_definition": "Pengolahan isyarat elektronik digital dengan menggunakan komputer atau peranti elektronik.",
+      "nuances": "DBP《计算机词典》收录 DSP 为 digital signal processing 的缩写，马来语全称为 pemprosesan isyarat digital。技术语境中须与警阶义区分。[DBP：pemprosesan isyarat](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pemprosesan+isyarat)",
+      "collocations": [
+        {
+          "ms": "teknik DSP",
+          "zh": "数字信号处理技术",
+          "en": "DSP techniques"
+        },
+        {
+          "ms": "algoritma DSP",
+          "zh": "数字信号处理算法",
+          "en": "DSP algorithms"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pegawai berpangkat DSP itu akan menyampaikan taklimat keselamatan kepada penduduk.",
+      "zh": "那名副警监将向居民进行安全简报。",
+      "en": "The officer holding the rank of Deputy Superintendent of Police will give residents a safety briefing."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pegawai yang datang tadi tu DSP ke?",
+      "ms_standard": "Adakah pegawai yang datang tadi berpangkat DSP?",
+      "zh": "刚才来的那位警官是副警监吗？",
+      "en": "Was the officer who came earlier a Deputy Superintendent?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "句末 ke 构成口语疑问。",
+        "上下文清楚时可省略 berpangkat；标准句补出。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Pegawai yang datang tadi tu DSP ke? Aku nampak dia kat dewan.",
+          "ms_standard": "Adakah pegawai yang datang tadi berpangkat DSP? Saya melihat beliau di dewan.",
+          "zh": "刚才来的那位警官是副警监吗？我在礼堂看到他了。",
+          "en": "Was the officer who came earlier a Deputy Superintendent? I saw him at the hall."
+        },
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Ya, dia nak bagi taklimat kejap lagi.",
+          "ms_standard": "Ya, beliau akan memberikan taklimat sebentar lagi.",
+          "zh": "对，他一会儿要做简报。",
+          "en": "Yes, he's giving a briefing shortly."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DSP illustrates how institutional abbreviations can cross languages. Malaysian policing uses these letters for Deputi Superintenden Polis, corresponding to English Deputy Superintendent of Police. Computing uses the same letters for digital signal processing. Consequently, the surrounding subject determines whether a reader should picture a police officer or the processing of electronic signals. [PDRM](https://www.rmp.gov.my/infor-korporate/polis-diraja-malaysia/pangkat), [DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pemprosesan+isyarat)",
+    "cognitive_memory_aid": "见到警官姓名，DSP 是副警监；见到音频、算法和信号，DSP 是数字信号处理。逐字母读 D—S—P。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈及警官时可使用 DSP 加姓名；直接交流时可按场合称 tuan 或 puan，标准例句中用 beliau 表示尊重。",
+    "usage_etiquette": "正式材料使用大写 DSP。首次出现时写出所属领域的全称，避免警阶与技术缩写混淆；本条 official 指经核实的大写缩写形式。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈及警官时可使用 DSP 加姓名；直接交流时可按场合称 tuan 或 puan，标准例句中用 beliau 表示尊重。",
+    "usage_etiquette": "正式材料使用大写 DSP。首次出现时写出所属领域的全称，避免警阶与技术缩写混淆；本条 official 指经核实的大写缩写形式。"
+  }
+}

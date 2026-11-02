@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "disengat",
+    "syllables": null,
+    "ipa": "/di.sə.ŋat/",
+    "jawi": null,
+    "frequency_rank": 11472,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sengat",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + sengat → disengat",
+    "pattern_note": "输入包将整词标为词根，此处纠正为被动式。di- 与 sengat 连写，词首 s 保留；主动式 meN- + sengat → menyengat 中则发生 s 脱落及鼻音交替。di- 不是表示地点的介词 di。[DBP：sengat](https://prpm.dbp.gov.my/Cari1?d=259120&keyword=sengat)；[DBP 拼写答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kaya+raya)",
+    "word_family": [
+      {
+        "word": "menyengat",
+        "affix": "meN-",
+        "gloss": "蜇；产生刺痛或尖刻感"
+      },
+      {
+        "word": "sengatan",
+        "affix": "-an",
+        "gloss": "蜇刺；蜇伤或蜇刺造成的感觉"
+      }
+    ],
+    "root_jawi": "سڠت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被蜜蜂、黄蜂、蝎子等有毒刺的动物蜇刺。",
+      "en_definition": "To be stung by an animal with a sting or venomous spine.",
+      "ms_definition": "Dikenai atau ditusuk dengan sengat oleh haiwan seperti lebah, tebuan atau kala jengking.",
+      "nuances": "被动结构突出受害者或受伤部位，不自行表示过去时。施事可用 oleh 引出，也常直接接在动词后，如 disengat lebah。蚊虫普通叮咬通常用 digigit，不能把所有“被虫咬”都译作 disengat。[DBP：sengat](https://prpm.dbp.gov.my/Cari1?d=259120&keyword=sengat)",
+      "collocations": [
+        {
+          "ms": "disengat lebah",
+          "zh": "被蜜蜂蜇",
+          "en": "be stung by a bee"
+        },
+        {
+          "ms": "disengat tebuan",
+          "zh": "被黄蜂蜇",
+          "en": "be stung by a hornet"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "比喻受到灼热、尖刻言辞或讽刺的刺激，产生仿佛被蜇般的痛感。",
+      "en_definition": "To be stung figuratively by intense heat, cutting words, or sarcasm.",
+      "ms_definition": "Berasa pedih, sakit atau tersinggung seolah-olah terkena sengat akibat panas atau kata-kata yang tajam.",
+      "nuances": "这是具体蜇刺义的比喻延伸；搭配 panas matahari 时侧重灼痛，搭配 sindiran 时侧重感情受伤。此类被动表达较有描写色彩。",
+      "collocations": [
+        {
+          "ms": "disengat panas matahari",
+          "zh": "被烈日晒得灼痛",
+          "en": "be scorched by the sun"
+        },
+        {
+          "ms": "disengat sindiran",
+          "zh": "被讽刺刺痛",
+          "en": "be stung by sarcasm"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 事故简报",
+      "ms": "Seorang pekerja dibawa ke hospital selepas disengat tebuan ketika membersihkan kawasan kebun.",
+      "zh": "一名工人在清理果园时被黄蜂蜇伤，随后被送往医院。",
+      "en": "A worker was taken to hospital after being stung by hornets while clearing an orchard."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问手部肿胀",
+      "ms_spoken": "Tangan aku bengkak sebab disengat lebah kat kebun tadi.",
+      "ms_standard": "Tangan saya bengkak kerana disengat lebah di kebun tadi.",
+      "zh": "我刚才在园子里被蜜蜂蜇了，手肿起来了。",
+      "en": "My hand's swollen because I got stung by a bee in the garden earlier.",
+      "spoken_features": [
+        "aku 用于熟人之间。",
+        "sebab 在口语中对应表示原因的 kerana。",
+        "kat 对应 di；dah 对应 sudah。",
+        "口语也常说 kena sengat，与 disengat 在该情境下意义相近。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tangan aku bengkak sebab disengat lebah kat kebun tadi.",
+          "ms_standard": "Tangan saya bengkak kerana disengat lebah di kebun tadi.",
+          "zh": "我刚才在园子里被蜜蜂蜇了，手肿起来了。",
+          "en": "My hand's swollen because I got stung by a bee in the garden earlier."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aduh, dah pergi klinik ke?",
+          "ms_standard": "Aduh, adakah kamu sudah pergi ke klinik?",
+          "zh": "哎呀，你去诊所看过了吗？",
+          "en": "Ouch! Have you been to a clinic yet?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The family begins with sengat, the sharp, venomous apparatus of a stinging animal. Malay then shifts perspective through morphology: menyengat presents the animal's action, while disengat presents the experience of its victim. The same physical image extends to cutting remarks, making emotional hurt understandable through the familiar sensation of a sting.",
+    "cognitive_memory_aid": "sengat＝蜇刺，前面加 di-＝承受动作：lebah menyengat，aku disengat。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "disengat 本身语体中性，适用于日常叙述、新闻和正式报告。与长辈或医务人员交流时，用 saya 比 aku 合适。",
+    "usage_etiquette": "描述伤情时可交代施事、部位和时间。比喻别人被讽刺刺痛时应顾及感受；当面对受伤者使用戏谑语气，容易显得缺乏同情。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "disengat 本身语体中性，适用于日常叙述、新闻和正式报告。与长辈或医务人员交流时，用 saya 比 aku 合适。",
+    "usage_etiquette": "描述伤情时可交代施事、部位和时间。比喻别人被讽刺刺痛时应顾及感受；当面对受伤者使用戏谑语气，容易显得缺乏同情。"
+  }
+}
