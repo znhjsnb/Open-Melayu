@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "tercemar",
+    "syllables": "ter.ce.mar",
+    "ipa": "/tər.tʃə.mar/",
+    "jawi": "ترچمر",
+    "frequency_rank": 8300,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "cemar",
+    "affix": "ter-",
+    "affix_type": "prefix",
+    "formula": "ter- + cemar → tercemar",
+    "pattern_note": "ter- 接于 cemar 前，词根首音 /tʃ/ 保留，无鼻音同化；此处主要表示受到污染后的状态，不必然表示意外。",
+    "word_family": [
+      {
+        "word": "mencemari",
+        "affix": "meN-...-i",
+        "gloss": "污染；玷污"
+      },
+      {
+        "word": "mencemarkan",
+        "affix": "meN-...-kan",
+        "gloss": "使受污染；损害名誉"
+      },
+      {
+        "word": "pencemaran",
+        "affix": "peN-...-an",
+        "gloss": "污染；污染现象"
+      },
+      {
+        "word": "pencemar",
+        "affix": "peN-",
+        "gloss": "污染者；污染物"
+      }
+    ],
+    "root_jawi": "چمر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "受到污染；因有害物质、污物等进入而变得不洁。",
+      "en_definition": "To be polluted or contaminated.",
+      "ms_definition": "Dicemar; menjadi kotor atau tidak bersih akibat bahan pencemar.",
+      "nuances": "常作状态谓语，适用于水、空气、食物和环境。词义核心见 [DBP：cemar](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cemar)；此处马来语释义在原释 dicemar 基础上作教学性展开。",
+      "collocations": [
+        {
+          "ms": "air tercemar",
+          "zh": "受污染的水",
+          "en": "contaminated water"
+        },
+        {
+          "ms": "makanan tercemar",
+          "zh": "受污染的食物",
+          "en": "contaminated food"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "名誉、尊严或良好形象受到玷污、损害。",
+      "en_definition": "To have one's reputation, dignity, or good name tarnished.",
+      "ms_definition": "Menjadi buruk atau terjejas, khususnya tentang nama baik dan maruah.",
+      "nuances": "比喻义，重在社会评价受损；不意味着相关指控已经证实。与物理污染义同属 cemar 的语义系统。",
+      "collocations": [
+        {
+          "ms": "nama baik tercemar",
+          "zh": "良好名誉受损",
+          "en": "a good name tarnished"
+        },
+        {
+          "ms": "maruah tercemar",
+          "zh": "尊严受到玷污",
+          "en": "dignity tarnished"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Hasil ujian menunjukkan bahawa air sungai itu telah tercemar oleh sisa industri.",
+      "zh": "检测结果显示，该河流的河水已受到工业废料污染。",
+      "en": "Test results show that the river water has been contaminated by industrial waste."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Air kat situ dah tercemar, jangan guna dulu lah.",
+      "ms_standard": "Air di situ sudah tercemar. Jangan gunakannya buat sementara waktu.",
+      "zh": "那里的水已经受污染了，先别用啦。",
+      "en": "The water there is contaminated. Don't use it for now.",
+      "spoken_features": [
+        "kat 对应标准语 di",
+        "dah 对应 sudah",
+        "lah 用于加强劝告，语气取决于语调"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Air kat situ dah tercemar ke?",
+          "ms_standard": "Adakah air di situ sudah tercemar?",
+          "zh": "那里的水已经受污染了吗？",
+          "en": "Is the water there contaminated?"
+        },
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Ya, pihak pengurusan dah sahkan. Guna air botol dulu lah.",
+          "ms_standard": "Ya, pihak pengurusan sudah mengesahkannya. Gunakan air botol buat sementara waktu.",
+          "zh": "对，管理处已经确认了。先用瓶装水吧。",
+          "en": "Yes, management has confirmed it. Use bottled water for now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay cemar connects physical dirtiness with damage to a person's good name. Its derivatives preserve that connection: pencemaran names pollution, while tercemar describes an affected condition. Environmental reporting and discussions of reputation therefore draw on the same lexical family. This is an account of the documented semantic relationship, rather than a claim about an established ancient borrowing. See [DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cemar).",
+    "cognitive_memory_aid": "cemar 是“脏、受玷污”；加上 ter-，想成“已经落入受污染的状态”：水会 tercemar，名声也会 tercemar。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈环境污染时语体中性；谈某人的 maruah tercemar 时分量较重，容易涉及羞辱或名誉指控。",
+    "usage_etiquette": "用于正式报告和日常提醒均自然。涉及个人名誉时应交代事实或消息来源，避免将受害者描述为本身不洁。"
+  },
+  "editorial_note": "输入包将 tercemar 判为词根有误，已按 ter- + cemar 修正。频次排名沿用输入包，未独立验证；例句与释义展开为编辑编写，并非 DBP 原文。",
+  "sociolinguistic_register": {
+    "politeness_note": "谈环境污染时语体中性；谈某人的 maruah tercemar 时分量较重，容易涉及羞辱或名誉指控。",
+    "usage_etiquette": "用于正式报告和日常提醒均自然。涉及个人名誉时应交代事实或消息来源，避免将受害者描述为本身不洁。"
+  }
+}

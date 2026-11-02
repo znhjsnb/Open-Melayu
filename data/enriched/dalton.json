@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "dalton",
+    "syllables": null,
+    "ipa": "/dal.ton/",
+    "jawi": null,
+    "frequency_rank": 8309,
+    "status": "official",
+    "status_note": "dalton 是有国际定义的科学单位名称；本条未核实 DBP 马来语词条及其官方读音。音标为按马来语拼写给出的宽式参考读音。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dalton",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dalton → dalton",
+    "pattern_note": "作为单位名称整词记忆，不把 dal- 或 -ton 当作马来语词缀。kilo-、mega- 是表示数量级的科学前缀。",
+    "word_family": [
+      {
+        "word": "kilodalton",
+        "affix": "kilo-",
+        "gloss": "千道尔顿，符号 kDa"
+      },
+      {
+        "word": "megadalton",
+        "affix": "mega-",
+        "gloss": "百万道尔顿，符号 MDa"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "道尔顿，符号 Da；原子和分子的质量单位，等于一个自由、静止且处于基态的碳-12原子质量的十二分之一，与统一原子质量单位 u 相同。",
+      "en_definition": "A non-SI unit of mass, symbol Da, equal to one twelfth of the mass of a free carbon-12 atom at rest in its ground state; the unified atomic mass unit.",
+      "ms_definition": "Unit jisim bukan SI, bersimbol Da, yang bersamaan dengan satu perdua belas jisim satu atom karbon-12 bebas yang pegun dan berada dalam keadaan asas.",
+      "nuances": "常用于原子、分子和蛋白质质量。单位名称写 dalton，符号写 Da；它是质量单位，不能直接当作 g/mol，也不是无量纲的相对分子质量。此马来语定义为编写释义。[BIPM 单位说明](https://www.bipm.org/documents/20126/41489679/SI-App2-mole.pdf)",
+      "collocations": [
+        {
+          "ms": "jisim molekul dalam dalton",
+          "zh": "以道尔顿表示的分子质量",
+          "en": "molecular mass in daltons"
+        },
+        {
+          "ms": "unit dalton",
+          "zh": "道尔顿单位",
+          "en": "the dalton unit"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "道尔顿，英语姓氏；在化学教学中常指约翰·道尔顿。",
+      "en_definition": "An English surname, referring in chemistry contexts especially to John Dalton.",
+      "ms_definition": "Nama keluarga Inggeris yang, dalam konteks kimia, sering merujuk kepada John Dalton.",
+      "nuances": "这是专名义，实际书写必须大写为 Dalton。不要把 teori atom Dalton 中的人名误读为质量单位；缺少上下文时也不能认定所有 Dalton 都指同一人。",
+      "collocations": [
+        {
+          "ms": "teori atom Dalton",
+          "zh": "道尔顿原子理论",
+          "en": "Dalton's atomic theory"
+        },
+        {
+          "ms": "model atom Dalton",
+          "zh": "道尔顿原子模型",
+          "en": "Dalton's atomic model"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "实验室报告／科研汇报",
+      "ms": "Jisim molekul protein ini dianggarkan sebanyak 50 000 dalton, bersamaan dengan 50 kDa.",
+      "zh": "该蛋白质的分子质量估计为50,000道尔顿，即50 kDa。",
+      "en": "The molecular mass of this protein is estimated at 50,000 daltons, equivalent to 50 kDa."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp／同学讨论实验报告",
+      "ms_spoken": "Jisim protein ni dalam dalton ke?",
+      "ms_standard": "Adakah jisim protein ini dinyatakan dalam unit dalton?",
+      "zh": "这个蛋白质的质量是用道尔顿表示的吗？",
+      "en": "Is this protein's mass given in daltons?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "句末 ke 构成口语疑问",
+        "dah 对应 sudah，je 对应 sahaja",
+        "科学单位名称保持不变"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同学)",
+          "ms_spoken": "Jisim protein ni dalam dalton ke?",
+          "ms_standard": "Adakah jisim protein ini dinyatakan dalam unit dalton?",
+          "zh": "这个蛋白质的质量是用道尔顿表示的吗？",
+          "en": "Is this protein's mass given in daltons?"
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Ya, 50 000 dalton. Aku dah tulis 50 kDa je dalam jadual.",
+          "ms_standard": "Ya, 50 000 dalton. Saya sudah menuliskannya sebagai 50 kDa sahaja dalam jadual.",
+          "zh": "对，50,000道尔顿。我在表格里直接写成50 kDa了。",
+          "en": "Yes, 50,000 daltons. I've just put 50 kDa in the table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The unit commemorates John Dalton, whose name is closely associated with atomic theory. It gives scientists a convenient scale for discussing masses far smaller than everyday objects. Biochemists commonly use its larger forms, kilodalton and megadalton, for molecules. Despite its personal-name origin, the unit name is lowercase, while its symbol is Da. [IUPAC unit terminology](https://goldbook.iupac.org/terms/view/D01514)",
+    "cognitive_memory_aid": "dalton 联想到“道尔顿研究原子”：看到 Da，就想到原子与分子的微小质量；Dalton 大写则先考虑人名。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性的科学术语，没有特殊敬语要求。向非专业听众说明时，可先解释为衡量原子或分子质量的单位。",
+    "usage_etiquette": "报告中区分 dalton、Dalton 和 Da；数值与符号之间留空格，例如 50 kDa。马来语中不添加英语复数词尾，不写成 50 daltons。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性的科学术语，没有特殊敬语要求。向非专业听众说明时，可先解释为衡量原子或分子质量的单位。",
+    "usage_etiquette": "报告中区分 dalton、Dalton 和 Da；数值与符号之间留空格，例如 50 kDa。马来语中不添加英语复数词尾，不写成 50 daltons。"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "bolehkan",
+    "syllables": null,
+    "ipa": "/bo.leh.kan/",
+    "jawi": null,
+    "frequency_rank": 8364,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bolehkan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bolehkan → bolehkan（保留输入整词索引）；实际结构须按语境区分 boleh + -kan 与 boleh + kan",
+    "pattern_note": "is_root 与 root_word 沿用输入的索引标记，不代表语言学上不可再分。表示允许时可分析为 boleh + -kan；聊天中也可能是 boleh, kan? 的连写。两者发音相近，语法不同。输入未提供音节与爪夷文，保留 null；按读音可分 bo.leh.kan。",
+    "word_family": [
+      {
+        "word": "membolehkan",
+        "affix": "meN-...-kan",
+        "gloss": "使能够；允许"
+      },
+      {
+        "word": "kebolehan",
+        "affix": "ke-...-an",
+        "gloss": "能力；本领"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "允许；使某事能够进行。须有句法语境支持，通常理解为 membolehkan 去掉主动前缀后的形式。",
+      "en_definition": "To allow or make possible; a prefixless form associated with membolehkan, requiring an appropriate grammatical context.",
+      "ms_definition": "Memberi izin atau menjadikan sesuatu dapat dilakukan; bentuk tanpa awalan yang berkaitan dengan membolehkan.",
+      "nuances": "不能把独立出现的 bolehkan 一律当作规范陈述句中的主动谓语。正式主动句通常用 membolehkan 或 membenarkan。输入没有提供此拼写的独立 DBP 释义；本项是构词解释，不能据此认定其已获独立词目认证。[DBP：boleh 及其派生词](https://prpm.dbp.gov.my/Cari1?keyword=boleh)。",
+      "collocations": [
+        {
+          "ms": "membolehkan pengguna mengakses",
+          "zh": "使用户能够访问",
+          "en": "enable users to access"
+        },
+        {
+          "ms": "tidak dibolehkan masuk",
+          "zh": "不获准进入",
+          "en": "not permitted to enter"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "聊天连写形式，相当于 boleh, kan?，用来征求对方确认：可以，对吧？",
+      "en_definition": "An informal fused spelling of boleh, kan?, used to seek confirmation that something is acceptable or possible.",
+      "ms_definition": "Ejaan percakapan bagi ungkapan boleh, kan? yang digunakan untuk meminta pengesahan atau persetujuan.",
+      "nuances": "此处 particle 指整个表达的确认功能；boleh 本身是情态助动词。标准书写应分开为 boleh, kan?。句首 bolehkan saya… 也可能误写了 bole hkah 中的疑问形式，正确拼写是 bolehkah saya…。仅凭孤立词形无法判定原意。",
+      "collocations": [
+        {
+          "ms": "boleh, kan?",
+          "zh": "可以，对吧？",
+          "en": "That's okay, right?"
+        },
+        {
+          "ms": "masih boleh, kan?",
+          "zh": "还是可以的，对吧？",
+          "en": "It's still possible, right?"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan rasmi, ejaan “bolehkan” perlu diperiksa mengikut konteks: gunakan “bolehkah” untuk pertanyaan dan “membolehkan” untuk maksud memberikan izin atau menjadikan sesuatu dapat dilakukan.",
+      "zh": "正式报告中的“bolehkan”须按语境核查：提问用“bolehkah”，表示允许或使某事成为可能则用“membolehkan”。",
+      "en": "In formal reports, check “bolehkan” against its context: use “bolehkah” for questions and “membolehkan” for allowing or enabling something."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak datang pukul sembilan je, bolehkan?",
+      "ms_standard": "Saya hendak datang pada pukul sembilan sahaja. Boleh, bukan?",
+      "zh": "我想九点才过去，可以吧？",
+      "en": "I'm planning to come at nine. That's okay, right?",
+      "spoken_features": [
+        "nak 是 hendak 的口语形式",
+        "je 对应 sahaja",
+        "bolehkan 在此是 boleh, kan? 的非正式连写，kan 用来征求确认",
+        "aku 适用于关系亲近的同辈"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak datang pukul sembilan je, bolehkan?",
+          "ms_standard": "Saya hendak datang pada pukul sembilan sahaja. Boleh, bukan?",
+          "zh": "我想九点才过去，可以吧？",
+          "en": "I'm planning to come at nine. That's okay, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh je. Aku dah ada kat rumah masa tu.",
+          "ms_standard": "Boleh sahaja. Saya sudah berada di rumah pada waktu itu.",
+          "zh": "可以啊。那时候我已经在家了。",
+          "en": "Sure. I'll already be home by then."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This spelling brings together two different Malay patterns rather than one securely established lexical history. The base boleh expresses possibility or permission; adding causative -kan underlies membolehkan. In informal messaging, however, the confirmation particle kan may also be attached directly to boleh. Context therefore determines whether the writer means allowing something or asking, “That is acceptable, right?”",
+    "cognitive_memory_aid": "先认 boleh＝可以，再看 kan 的任务：词尾 -kan 帮助表达“使可以”；句尾 kan? 则像中文“对吧？”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向上司、老师或陌生人请求许可时，用 Bolehkah saya…? 或 Boleh saya…? 较稳妥。句尾 boleh, kan? 容易带出预期对方同意的语气。",
+    "usage_etiquette": "聊天可见连写，但正式文件应按实际意思改为规范形式。headword.status 是本次输出的记录状态，不构成此拼写获 DBP 独立词目认证的声明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向上司、老师或陌生人请求许可时，用 Bolehkah saya…? 或 Boleh saya…? 较稳妥。句尾 boleh, kan? 容易带出预期对方同意的语气。",
+    "usage_etiquette": "聊天可见连写，但正式文件应按实际意思改为规范形式。headword.status 是本次输出的记录状态，不构成此拼写获 DBP 独立词目认证的声明。"
+  }
+}

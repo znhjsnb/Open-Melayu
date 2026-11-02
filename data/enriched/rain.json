@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "rain",
+    "syllables": "rain",
+    "ipa": "/reɪn/",
+    "jawi": null,
+    "frequency_rank": 8345,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rain",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rain → rain（英语词根）",
+    "pattern_note": "按英语读作一个音节，ai 表示双元音 /eɪ/。输入包没有马来语释义或爪夷文，不能据此认证为正式马来语词；以下记录英语本义及马来语对应表达。",
+    "word_family": [
+      {
+        "word": "rainy",
+        "affix": "-y",
+        "gloss": "下雨的；多雨的；英语派生词"
+      },
+      {
+        "word": "rainfall",
+        "affix": "∅（rain + fall）",
+        "gloss": "降雨；降雨量；英语复合词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "雨；从云中落下的液态水滴。此处为英语词，标准马来语对应 hujan。",
+      "en_definition": "Water that falls from clouds in drops.",
+      "ms_definition": "Kata bahasa Inggeris yang bermaksud hujan, iaitu air yang turun dari awan dalam bentuk titisan.",
+      "nuances": "未核实 rain 是正式马来语词，因此 status 保留为 unverified。此处马来文释义是英语词义的说明，不冒充 DBP 的马来语词条释义。英语读音及本义见 [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/rain?q=rain)；官方马英天气对照使用 Hujan / Rain，见 [马来西亚政府天气接口文档](https://developer.data.gov.my/realtime-api/weather)。以下 ms 搭配提供标准马来语对应形式。",
+      "collocations": [
+        {
+          "ms": "hujan lebat",
+          "zh": "大雨",
+          "en": "heavy rain"
+        },
+        {
+          "ms": "hujan renyai-renyai",
+          "zh": "毛毛雨",
+          "en": "light rain; drizzle"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "下雨；英语天气动词，通常以 it 作形式主语。",
+      "en_definition": "Of water: to fall from clouds in drops.",
+      "ms_definition": "Kata kerja bahasa Inggeris yang menyatakan bahawa hujan sedang atau akan turun.",
+      "nuances": "英语说 it may rain；标准马来语可说 hujan mungkin turun 或 mungkin hujan，不必照搬形式主语 it。此义属于英语，见 [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/rain?q=rain)。",
+      "collocations": [
+        {
+          "ms": "mula hujan",
+          "zh": "开始下雨",
+          "en": "start to rain"
+        },
+        {
+          "ms": "hujan sepanjang hari",
+          "zh": "整天下雨",
+          "en": "rain all day"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "翻译说明 / 天气报告编辑",
+      "ms": "Perkataan bahasa Inggeris rain diterjemahkan sebagai hujan dalam laporan cuaca ini.",
+      "zh": "这份天气报告将英语 rain 译为马来语 hujan。",
+      "en": "The English word rain is translated as hujan in this weather report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友查看英语天气预报",
+      "ms_spoken": "Kat aplikasi ni tertulis heavy rain petang nanti. Kita nak keluar juga ke?",
+      "ms_standard": "Dalam aplikasi ini, ramalan menyatakan bahawa hujan lebat akan turun petang nanti. Adakah kita masih mahu keluar?",
+      "zh": "这个应用说下午有大雨。我们还要出去吗？",
+      "en": "The app says heavy rain this afternoon. Are we still going out?",
+      "spoken_features": [
+        "heavy rain 是引用应用文字的英语语码转换",
+        "kat 和 ni 对应 dalam 和 ini",
+        "nak 对应 mahu，句末 ke 标示疑问",
+        "标准语改用 hujan lebat"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kat aplikasi ni tertulis heavy rain petang nanti. Kita nak keluar juga ke?",
+          "ms_standard": "Dalam aplikasi ini, ramalan menyatakan bahawa hujan lebat akan turun petang nanti. Adakah kita masih mahu keluar?",
+          "zh": "这个应用说下午有大雨。我们还要出去吗？",
+          "en": "The app says heavy rain this afternoon. Are we still going out?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tunggu hujan reda dulu lah. Aku dah bawa payung.",
+          "ms_standard": "Marilah kita menunggu sehingga hujan reda dahulu. Saya sudah membawa payung.",
+          "zh": "先等雨小一点吧。我已经带伞了。",
+          "en": "Let’s wait for the rain to ease. I’ve brought an umbrella."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English rain continues Middle English rein and Old English regn, with relatives such as Dutch regen and German Regen. Its appearance inside a Malaysian message can reflect English quotation or language mixing. That contemporary setting does not by itself establish a Malay borrowing: the standard Malay weather word remains hujan. [English word history](https://www.etymonline.com/word/rain); [Malaysian weather terminology](https://developer.data.gov.my/realtime-api/weather).",
+    "cognitive_memory_aid": "rain /reɪn/ 与 train 押韵：想象火车窗外的雨；切回标准马来语时记住 hujan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "英语词出现在马来西亚熟人聊天中可以理解，但正式马来语天气说明宜使用 hujan。",
+    "usage_etiquette": "可用于英语教学、引用天气应用或双语交流。不要把英语语码转换示例标作纯标准马来语，也不要凭空补写正式爪夷文。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "英语词出现在马来西亚熟人聊天中可以理解，但正式马来语天气说明宜使用 hujan。",
+    "usage_etiquette": "可用于英语教学、引用天气应用或双语交流。不要把英语语码转换示例标作纯标准马来语，也不要凭空补写正式爪夷文。"
+  }
+}

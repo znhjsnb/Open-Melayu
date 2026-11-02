@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "timeline",
+    "syllables": null,
+    "ipa": "/ˈtaɪm.laɪn/",
+    "jawi": null,
+    "frequency_rank": 8322,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "timeline",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + timeline → timeline",
+    "pattern_note": "作为英语整词夹用于马来语；英语内部是 time + line 的复合词，并非马来语词缀结构。读两个音节，重音在第一音节。未列出未经核实的马来语派生词。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "时间线；按照发生时间排列事件的图示或记录。",
+      "en_definition": "A diagram or record showing events in chronological order.",
+      "ms_definition": "Garis atau paparan yang menunjukkan susunan peristiwa mengikut urutan masa; garis masa.",
+      "nuances": "适用于历史事件、案件经过或发展过程，重点在时间顺序。规范马来语通常用 garis masa。输入保留英语拼写；status 不表示 timeline 本身已被核定为规范马来语词。马来文释义为编辑说明。[DBP 术语建议](https://prpm.dbp.gov.my/cari1?d=175768&keyword=timeline)",
+      "collocations": [
+        {
+          "ms": "timeline peristiwa",
+          "zh": "事件时间线",
+          "en": "timeline of events"
+        },
+        {
+          "ms": "menyusun timeline",
+          "zh": "整理时间线",
+          "en": "put together a timeline"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "项目时间表；列出任务、阶段及预定完成时间的安排。",
+      "en_definition": "A schedule showing the planned stages and completion dates of a project or activity.",
+      "ms_definition": "Jadual yang menunjukkan peringkat kerja serta masa pelaksanaan atau penyiapan sesuatu projek atau kegiatan.",
+      "nuances": "职场夹语中常指整项工作的时间安排，不能一律缩窄为截止日期。正式文件可使用 garis masa projek 或按内容使用 jadual pelaksanaan。[DBP 关于 project timeline 的答复](https://prpm.dbp.gov.my/cari1?d=175768&keyword=timeline)",
+      "collocations": [
+        {
+          "ms": "timeline projek",
+          "zh": "项目时间表",
+          "en": "project timeline"
+        },
+        {
+          "ms": "mengemas kini timeline",
+          "zh": "更新进度时间表",
+          "en": "update the timeline"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "社交媒体动态流；平台中连续显示帖文或更新内容的页面区域。",
+      "en_definition": "A social media feed displaying a stream of posts or updates.",
+      "ms_definition": "Paparan aliran hantaran atau kemas kini pada platform media sosial.",
+      "nuances": "这是社交媒体界面用语，不表示项目进度。动态可能按推荐算法排列，不一定严格依时间排序；具体含义须参照平台功能。[X 官方术语表](https://help.x.com/en/resources/glossary)",
+      "collocations": [
+        {
+          "ms": "muncul di timeline",
+          "zh": "出现在动态流中",
+          "en": "appear on the timeline"
+        },
+        {
+          "ms": "hantaran di timeline",
+          "zh": "动态流中的帖文",
+          "en": "posts on the timeline"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan meminta garis masa projek, atau timeline, dikemas kini sebelum mesyuarat pada hari Jumaat.",
+      "zh": "管理层要求在星期五开会前更新项目时间表。",
+      "en": "Management requested an updated project timeline before Friday's meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Timeline projek ni dah siap ke?",
+      "ms_standard": "Adakah garis masa projek ini sudah siap?",
+      "zh": "这个项目的时间表做好了吗？",
+      "en": "Is the timeline for this project ready yet?",
+      "spoken_features": [
+        "timeline 是职场中夹用的英语名词",
+        "ni 是 ini 的口语形式",
+        "dah 是 sudah 的口语形式",
+        "句末 ke 构成口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Timeline projek ni dah siap ke?",
+          "ms_standard": "Adakah garis masa projek ini sudah siap?",
+          "zh": "这个项目的时间表做好了吗？",
+          "en": "Is the timeline for this project ready yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, tinggal nak semak tarikh je. Nanti saya hantar kat awak.",
+          "ms_standard": "Sudah. Saya hanya perlu menyemak tarikhnya. Saya akan menghantarnya kepada awak nanti.",
+          "zh": "好了，就差核对日期。待会儿发给你。",
+          "en": "Yes, I just need to check the dates. I'll send it to you later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Timeline combines the English words time and line, making time visible as an ordered sequence. The same organizing image connects event histories with project schedules. Digital platforms also use timeline for a stream of posts; this interface sense is documented by X, although the displayed order need not always be chronological. [Interface usage](https://help.x.com/en/resources/glossary)",
+    "cognitive_memory_aid": "time 是时间，line 是线：历史在线上排事件，项目在线上排任务，社交平台在线上排动态。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "同事间使用 timeline 通常容易理解；面向公众、长辈或跨部门读者时，使用 garis masa 或首次附上解释更清楚。",
+    "usage_etiquette": "讨论工作安排时应明确任务、日期及负责人。询问 Boleh kita semak garis masa ini? 可用于共同检查进度；社交媒体语境则须避免把 timeline 误解为工期。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "同事间使用 timeline 通常容易理解；面向公众、长辈或跨部门读者时，使用 garis masa 或首次附上解释更清楚。",
+    "usage_etiquette": "讨论工作安排时应明确任务、日期及负责人。询问 Boleh kita semak garis masa ini? 可用于共同检查进度；社交媒体语境则须避免把 timeline 误解为工期。"
+  }
+}

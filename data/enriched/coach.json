@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "coach",
+    "syllables": null,
+    "ipa": "/kəʊtʃ/",
+    "jawi": null,
+    "frequency_rank": 8320,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "coach",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + coach → coach",
+    "pattern_note": "英语整词，在马来语夹用英语时通常不作马来语词缀分析。音标采用标准英式英语；词尾 ch 为 /tʃ/。规范马来语须按语境选用 jurulatih、melatih、koc 等。",
+    "word_family": [
+      {
+        "word": "coaching",
+        "affix": "-ing（英语）",
+        "gloss": "教练指导；英语同族形式"
+      },
+      {
+        "word": "coached",
+        "affix": "-ed（英语）",
+        "gloss": "训练过；接受过指导；英语同族形式"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "教练；通过训练、反馈或个别指导帮助他人提高技能的人。",
+      "en_definition": "A person who trains or guides individuals or teams to improve their skills or performance.",
+      "ms_definition": "Orang yang melatih atau membimbing seseorang atau sesuatu pasukan untuk meningkatkan kemahiran dan prestasi; jurulatih.",
+      "nuances": "体育语境通常对应 jurulatih；职业或个人发展语境可依职责译为 pembimbing 或 jurulatih。coach 是此处保留的英语拼写，不能仅凭 status 字段认定为规范马来语拼写。马来文释义为依据词义编写的说明。[DBP 英马词典释义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coach)",
+      "collocations": [
+        {
+          "ms": "coach bola sepak",
+          "zh": "足球教练",
+          "en": "football coach"
+        },
+        {
+          "ms": "sesi bersama coach",
+          "zh": "与教练进行的指导课",
+          "en": "a session with a coach"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "训练；针对某项技能、比赛或考试给予专门指导。",
+      "en_definition": "To train someone or provide specialized instruction for a skill, competition, or examination.",
+      "ms_definition": "Melatih seseorang atau memberikan bimbingan khusus untuk meningkatkan kemahiran atau membuat persediaan bagi pertandingan atau peperiksaan.",
+      "nuances": "这是英语动词在混合口语中的用法。正式马来语根据语义使用 melatih 或 membimbing；不要把英语原形 coach 当作已具有 meN- 前缀的马来语动词。[DBP 英马词典释义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coach)",
+      "collocations": [
+        {
+          "ms": "coach pasukan sekolah",
+          "zh": "训练校队",
+          "en": "coach the school team"
+        },
+        {
+          "ms": "coach saya untuk temu duga",
+          "zh": "指导我准备面试",
+          "en": "coach me for an interview"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "客运车辆：依语境指长途或旅游客车、铁路客车车厢，或历史上的载人马车。",
+      "en_definition": "A passenger vehicle, especially a long-distance bus, a railway carriage, or a horse-drawn carriage.",
+      "ms_definition": "Kenderaan untuk membawa penumpang, seperti bas persiaran, gerabak kereta api atau kereta kuda, mengikut konteks.",
+      "nuances": "这是英语 coach 的交通义。规范马来语须具体选用 bas persiaran、koc、gerabak 或 kereta kuda，不能套用体育义 jurulatih。[DBP 英马词典释义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=coach)",
+      "collocations": [
+        {
+          "ms": "menaiki coach",
+          "zh": "乘坐客车",
+          "en": "travel by coach"
+        },
+        {
+          "ms": "menyewa coach",
+          "zh": "租用旅游客车",
+          "en": "hire a coach"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Persatuan itu melantik seorang jurulatih, atau coach, untuk membimbing pasukan kebangsaan menjelang kejohanan tersebut.",
+      "zh": "该协会聘请了一名教练，指导国家队备战该项锦标赛。",
+      "en": "The association appointed a coach to prepare the national team for the championship."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Coach dah sampai kat padang ke?",
+      "ms_standard": "Adakah jurulatih sudah tiba di padang?",
+      "zh": "教练到球场了吗？",
+      "en": "Has the coach arrived at the field yet?",
+      "spoken_features": [
+        "coach 夹用于马来语，表示 jurulatih",
+        "dah 是 sudah 的口语形式",
+        "kat 表示地点，相当于 di",
+        "句末 ke 构成口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (队友)",
+          "ms_spoken": "Coach dah sampai kat padang ke?",
+          "ms_standard": "Adakah jurulatih sudah tiba di padang?",
+          "zh": "教练到球场了吗？",
+          "en": "Has the coach arrived at the field yet?"
+        },
+        {
+          "speaker": "Amir (队友)",
+          "ms_spoken": "Dah. Dia nak kita mula latihan sekarang, jom!",
+          "ms_standard": "Sudah. Beliau mahu kita memulakan latihan sekarang. Marilah!",
+          "zh": "到了。他要我们现在开始训练，走吧！",
+          "en": "Yes. He wants us to start training now. Come on!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English coach ultimately comes from the Hungarian place name Kocs, associated with carriage making. The word travelled through European languages before entering English as a vehicle name. Its later teaching sense is traditionally explained through the image of a tutor carrying a student through an examination, much as a carriage carries passengers. [Etymological account](https://www.etymonline.com/word/coach)",
+    "cognitive_memory_aid": "把 coach 想成把你载向目标的车：客车载人到目的地，教练带人练到目标。词尾 ch 读 /tʃ/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "队员可按团队习惯用 Coach 加姓名称呼教练；首次正式介绍宜使用 jurulatih 及姓名。不能仅凭这个称呼推定对方具有某项专业资格。",
+    "usage_etiquette": "体育队伍及熟悉英语的工作环境中容易理解。正式马来文宜使用准确的马来语对应词；交通语境须明确具体车辆类型。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "队员可按团队习惯用 Coach 加姓名称呼教练；首次正式介绍宜使用 jurulatih 及姓名。不能仅凭这个称呼推定对方具有某项专业资格。",
+    "usage_etiquette": "体育队伍及熟悉英语的工作环境中容易理解。正式马来文宜使用准确的马来语对应词；交通语境须明确具体车辆类型。"
+  }
+}

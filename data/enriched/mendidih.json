@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "mendidih",
+    "syllables": "men.di.dih",
+    "ipa": "/mənˈdi.dih/",
+    "jawi": "منديديه",
+    "frequency_rank": 8319,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mendidih",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + didih → mendidih",
+    "pattern_note": "root_word 与 root_jawi 按要求保留输入字段，但实际形态词根是 didih（ديديه），因此 is_root 校正为 false。meN- 在 d 前实现为 men-，保留 d。参见 [DBP：didih](https://prpm.dbp.gov.my/Cari1?d=107916&keyword=didih)。",
+    "word_family": [
+      {
+        "word": "didih",
+        "affix": null,
+        "gloss": "沸腾（词根）"
+      },
+      {
+        "word": "mendidihkan",
+        "affix": "meN-...-kan",
+        "gloss": "使沸腾；煮沸"
+      },
+      {
+        "word": "pendidihan",
+        "affix": "peN-...-an",
+        "gloss": "沸腾或煮沸过程"
+      }
+    ],
+    "root_jawi": "منديديه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "液体受热达到沸腾状态，内部产生气泡并翻滚。",
+      "en_definition": "To boil, forming bubbles throughout a heated liquid.",
+      "ms_definition": "Menggelegak akibat dipanaskan sehingga mencapai takat didih.",
+      "nuances": "不及物：Air mendidih 表示水沸腾；“把水煮开”用 mendidihkan air。不同液体及压力条件下沸点不同。词义与及物区别参见 [DBP：mendidih](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mendidih)。",
+      "collocations": [
+        {
+          "ms": "air mendidih",
+          "zh": "沸水；水沸腾",
+          "en": "boiling water; water boils"
+        },
+        {
+          "ms": "mendidih dengan kuat",
+          "zh": "剧烈沸腾",
+          "en": "boil vigorously"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "形容内心极度愤怒，仿佛血液或心头正在沸腾。",
+      "en_definition": "To seethe with intense anger.",
+      "ms_definition": "Menjadi sangat marah, khususnya apabila dikatakan tentang hati, darah atau perasaan.",
+      "nuances": "比喻义，常与 darah 或 hati 连用，不能理解为真实体温变化。参见 [DBP：didih](https://prpm.dbp.gov.my/Cari1?d=107916&keyword=didih)。",
+      "collocations": [
+        {
+          "ms": "darah mendidih",
+          "zh": "怒火上涌",
+          "en": "one’s blood boils"
+        },
+        {
+          "ms": "hati mendidih",
+          "zh": "心中怒火翻腾",
+          "en": "seethe inwardly"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "形容精神、斗志或热情强烈激荡，达到高昂状态。",
+      "en_definition": "To surge with intense enthusiasm or fighting spirit.",
+      "ms_definition": "Berkobar-kobar atau meluap-luap, terutama tentang semangat.",
+      "nuances": "比喻义，偏向文学、演说和体育报道；不一定含有愤怒。参见 [DBP：didih](https://prpm.dbp.gov.my/Cari1?d=107916&keyword=didih)。",
+      "collocations": [
+        {
+          "ms": "semangat mendidih",
+          "zh": "热情高涨",
+          "en": "enthusiasm runs high"
+        },
+        {
+          "ms": "semangat juang mendidih",
+          "zh": "斗志沸腾",
+          "en": "fighting spirit surges"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pemerhatian menunjukkan bahawa cecair itu mula mendidih apabila mencapai suhu 80 darjah Celsius.",
+      "zh": "观察显示，该液体达到摄氏80度时开始沸腾。",
+      "en": "Observations show that the liquid began to boil when it reached 80 degrees Celsius."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Air dah mendidih ke? Aku nak buat teh ni.",
+      "ms_standard": "Adakah air sudah mendidih? Saya hendak membuat teh sekarang.",
+      "zh": "水开了吗？我想泡茶了。",
+      "en": "Has the water boiled yet? I want to make some tea.",
+      "spoken_features": [
+        "dah 对应 sudah，nak 对应 hendak",
+        "句末 ke 构成口语疑问",
+        "ni 在这里强调眼下要做的事",
+        "je 对应 sahaja，lah 调节语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (家人)",
+          "ms_spoken": "Air dah mendidih ke? Aku nak buat teh ni.",
+          "ms_standard": "Adakah air sudah mendidih? Saya hendak membuat teh sekarang.",
+          "zh": "水开了吗？我想泡茶了。",
+          "en": "Has the water boiled yet? I want to make some tea."
+        },
+        {
+          "speaker": "Amir (家人)",
+          "ms_spoken": "Belum lagi. Tunggu sekejap je lah.",
+          "ms_standard": "Belum. Tunggu sebentar sahaja.",
+          "zh": "还没呢，再等一小会儿吧。",
+          "en": "Not yet. Just give it another moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mendidih is formed from didih with the Malay verbal prefix meN-. Its everyday image is liquid bubbling under heat. Dictionary-recorded figurative uses carry that image into emotional life: blood can 'boil' with anger, while enthusiasm can surge like heated water. These extensions share a physical image without requiring separate borrowed origins. See [DBP](https://prpm.dbp.gov.my/Cari1?d=107916&keyword=didih).",
+    "cognitive_memory_aid": "把 di-dih 想成锅里连续冒起的两串气泡：水在翻滚，mendidih 就是沸腾；血也“沸腾”，就是怒火上涌。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述烧水或实验时语气中性。说 darah saya mendidih 会明显表达强烈愤怒，在正式沟通中宜按实际情绪和沟通目的使用。",
+    "usage_etiquette": "厨房提醒可直接说 Air sudah mendidih。正式投诉若需保持克制，可用 Saya amat kecewa 等更平稳的表达；semangat mendidih 则适合鼓舞士气的语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述烧水或实验时语气中性。说 darah saya mendidih 会明显表达强烈愤怒，在正式沟通中宜按实际情绪和沟通目的使用。",
+    "usage_etiquette": "厨房提醒可直接说 Air sudah mendidih。正式投诉若需保持克制，可用 Saya amat kecewa 等更平稳的表达；semangat mendidih 则适合鼓舞士气的语境。"
+  }
+}

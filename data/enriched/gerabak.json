@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "gerabak",
+    "syllables": null,
+    "ipa": "[ɡə.ra.baʔ]",
+    "jawi": "ݢرابق",
+    "frequency_rank": 8380,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "gerabak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + gerabak → gerabak",
+    "pattern_note": "本词不作词缀拆分；词末书写的 k 在常见马来西亚发音中实现为喉塞音 [ʔ]。数据包未提供音节字段，保留 null。",
+    "word_family": [
+      {
+        "word": "gerabak-gerabak",
+        "affix": null,
+        "gloss": "各节车厢；整词重叠形式"
+      },
+      {
+        "word": "gerabak penumpang",
+        "affix": null,
+        "gloss": "客运车厢；复合词"
+      }
+    ],
+    "root_jawi": "ݢرابق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "列车中连接编组、供载客或运货使用的车厢，通常由机车牵引，本身不提供牵引动力。",
+      "en_definition": "A railway carriage or wagon coupled into a train to carry passengers or goods.",
+      "ms_definition": "Kereta atau pedati yang disambung-sambung pada kereta api; gerbong.",
+      "nuances": "指列车的一节车厢，不指机车，也通常不指整列火车。客运语境中也常见 koc；货运语境宜明确货物类型。本条处理数据包所指的铁路义。参见 [DBP PRPM：gerabak](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gerabak)。",
+      "collocations": [
+        {
+          "ms": "gerabak penumpang",
+          "zh": "客运车厢",
+          "en": "passenger carriage"
+        },
+        {
+          "ms": "gerabak barang",
+          "zh": "货运车厢",
+          "en": "freight wagon"
+        },
+        {
+          "ms": "gerabak tangki",
+          "zh": "罐车",
+          "en": "tank wagon"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pengendali kereta api akan menambah dua gerabak penumpang bagi menampung peningkatan jumlah penumpang pada musim perayaan.",
+      "zh": "铁路运营方将在节日期间增挂两节客运车厢，以应对乘客人数增加。",
+      "en": "The railway operator will add two passenger carriages to accommodate increased passenger numbers during the festive season."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah naik, duduk kat gerabak depan je.",
+      "ms_standard": "Saya sudah menaiki kereta api dan duduk di gerabak hadapan sahaja.",
+      "zh": "我上车了，就坐在前面的车厢。",
+      "en": "I'm on the train, just sitting in one of the front carriages.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "kat 在这里对应表示位置的 di。",
+        "je 对应 sahaja，表示限定。",
+        "aku 适用于熟人之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah naik, duduk kat gerabak depan je.",
+          "ms_standard": "Saya sudah menaiki kereta api dan duduk di gerabak hadapan sahaja.",
+          "zh": "我上车了，就坐在前面的车厢。",
+          "en": "I'm on the train, in one of the front carriages."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okey, aku nak naik gerabak yang sama. Tunggu kejap ya.",
+          "ms_standard": "Baiklah, saya hendak menaiki gerabak yang sama. Tunggu sebentar, ya.",
+          "zh": "好，我也上同一节车厢。等我一下啊。",
+          "en": "Okay, I'll get into the same carriage. Give me a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary definition preserves an older transport image: a pedati, or cart, joined to a train. This provides a useful cultural bridge between road haulage and railway transport. Modern compounds distinguish passenger carriages, freight wagons and tank wagons. The available evidence supports this semantic connection, but does not establish a particular borrowing route or date.",
+    "cognitive_memory_aid": "把 ge-ra-bak 的三拍想成三节相连车厢；末尾 [ʔ] 像车厢接合时突然收住的一拍。此为记忆联想，并非词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性交通用语，可用于新闻、工作汇报及日常交流；称呼工作人员时可加 encik 或 puan。",
+    "usage_etiquette": "找车厢时最好同时说明编号或位置，例如 gerabak nombor tiga。gerabak hadapan 表示前部车厢，不一定专指第一节。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性交通用语，可用于新闻、工作汇报及日常交流；称呼工作人员时可加 encik 或 puan。",
+    "usage_etiquette": "找车厢时最好同时说明编号或位置，例如 gerabak nombor tiga。gerabak hadapan 表示前部车厢，不一定专指第一节。"
+  }
+}

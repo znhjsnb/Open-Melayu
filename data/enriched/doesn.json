@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "doesn",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 8358,
+    "status": "unverified",
+    "status_note": "输入形式身份未明；可能是英语 doesn't 被截断或分词后的片段，但缺少原文，不能确认。不能赋予其官方马来语词条身份。排名仅沿用输入。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "doesn",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "doesn → 未解析片段；若原文证实为 doesn't，则 does + n't → doesn't",
+    "pattern_note": "is_root 仅沿用输入标记，不表示 doesn 是有效马来语词根。不得把末尾 n 当作马来语词缀，也不得未经原文核对就自动补成 doesn't。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "待核实的字符串“doesn”；可能是英语 doesn't 的不完整片段，本身未获得可确认的马来语词义。",
+      "en_definition": "An unresolved text token, possibly a fragment of English doesn't; no independent Malay meaning is established.",
+      "ms_definition": "Rentetan teks “doesn” yang belum dikenal pasti dan mungkin merupakan cebisan bentuk bahasa Inggeris doesn't.",
+      "nuances": "noun 仅标示下列例句中对字符串的名词性提及，不是为该片段确立词性。英语 doesn't 是 does not 的缩写，但其词义和读音不能直接移给 doesn。以下为文本核对场景的示例，不是固定搭配；马来语释义不是 DBP 原文。",
+      "collocations": [
+        {
+          "ms": "rentetan “doesn”",
+          "zh": "字符串“doesn”",
+          "en": "the string “doesn”"
+        },
+        {
+          "ms": "kemunculan “doesn” dalam teks",
+          "zh": "“doesn”在文本中的出现",
+          "en": "an occurrence of “doesn” in the text"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "编辑报告 / 文本核对",
+      "ms": "Rentetan “doesn” perlu disemak berdasarkan teks asal sebelum sebarang pembetulan dibuat.",
+      "zh": "作出任何修改前，须依据原文核对字符串“doesn”。",
+      "en": "The string “doesn” must be checked against the original text before any correction is made."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对文字",
+      "ms_spoken": "Kat sini tertulis “doesn” je. Nak semak teks asal dulu?",
+      "ms_standard": "Di sini hanya tertulis “doesn”. Mahukah kita menyemak teks asal terlebih dahulu?",
+      "zh": "这里就写着“doesn”。要先查一下原文吗？",
+      "en": "It just says “doesn” here. Shall we check the original first?",
+      "spoken_features": [
+        "kat sini 对应 di sini",
+        "je 对应 sahaja；标准译文按语序使用 hanya",
+        "nak 在此表达提议"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kat sini tertulis “doesn” je. Nak semak teks asal dulu?",
+          "ms_standard": "Di sini hanya tertulis “doesn”. Mahukah kita menyemak teks asal terlebih dahulu?",
+          "zh": "这里就写着“doesn”。要先查一下原文吗？",
+          "en": "It just says “doesn” here. Shall we check the original first?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, semak dulu. Jangan tambah huruf lagi.",
+          "ms_standard": "Ya, semak teks asal terlebih dahulu. Jangan tambah sebarang huruf buat masa ini.",
+          "zh": "对，先查原文。暂时别加字母。",
+          "en": "Yes, check it first. Don’t add any letters yet."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English doesn't contracts does not, combining an auxiliary verb with negation. The supplied sequence doesn lacks the ending of that established spelling. Truncation or token splitting could explain it, but that remains an inference. Without the original passage, the fragment has no recoverable history that can responsibly be presented as Malay etymology. [Source for doesn't: Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/doesn-t?topic=yes-no-and-not).",
+    "cognitive_memory_aid": "doesn 看起来像“还没写完”：先核对原文，再决定是否还原为 doesn't；不要把片段背成马来语单词。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论他人文本时，可用 perlu disemak（需要核对），避免在未看原文前直接断言作者拼错。",
+    "usage_etiquette": "仅在引用原始字符串或讨论文字问题时保留 doesn。日常马来语表达否定时，应依据句法和含义选择 tidak、bukan 等形式，不能机械替换。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论他人文本时，可用 perlu disemak（需要核对），避免在未看原文前直接断言作者拼错。",
+    "usage_etiquette": "仅在引用原始字符串或讨论文字问题时保留 doesn。日常马来语表达否定时，应依据句法和含义选择 tidak、bukan 等形式，不能机械替换。"
+  }
+}

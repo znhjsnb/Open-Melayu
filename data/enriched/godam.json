@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "godam",
+    "syllables": "go.dam",
+    "ipa": "/ˈɡodam/",
+    "jawi": "ݢودم",
+    "frequency_rank": 8388,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "godam",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + godam → godam",
+    "pattern_note": "词根本身无词缀；添加 meN- 或 peN- 时，前缀分别实现为 meng-、peng-，词根首音 g 保留：menggodam、penggodam。",
+    "word_family": [
+      {
+        "word": "menggodam",
+        "affix": "meN-",
+        "gloss": "用大锤重击；侵入电脑系统"
+      },
+      {
+        "word": "penggodam",
+        "affix": "peN-",
+        "gloss": "大锤；电脑黑客"
+      },
+      {
+        "word": "penggodaman",
+        "affix": "peN-...-an",
+        "gloss": "电脑系统入侵行为"
+      }
+    ],
+    "root_jawi": "ݢودم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用于重击、敲碎或拆除的大锤。",
+      "en_definition": "A large, heavy hammer used for forceful striking or breaking.",
+      "ms_definition": "Palu, tukul atau martil yang besar.",
+      "nuances": "指需要较大冲击力的重型工具，不能泛指所有小锤；palu godam 是明确指称大锤的常见组合。",
+      "collocations": [
+        {
+          "ms": "palu godam",
+          "zh": "大锤",
+          "en": "sledgehammer"
+        },
+        {
+          "ms": "menggunakan godam",
+          "zh": "使用大锤",
+          "en": "use a sledgehammer"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用大锤等工具猛击或砸击；godam 可见于命令句及口语，正式主动陈述通常用 menggodam。",
+      "en_definition": "To strike heavily with a sledgehammer or similar implement; a bare verb form used in commands and informal speech.",
+      "ms_definition": "Menghentam atau memukul dengan godam atau alat seumpamanya; bentuk berimbuhnya ialah menggodam.",
+      "nuances": "与工具名词义相连，强调重击。godam batu 这样的无前缀形式需结合命令句或口语语境理解，不宜直接套入所有正式主动句。",
+      "collocations": [
+        {
+          "ms": "godam batu",
+          "zh": "用大锤砸石头",
+          "en": "smash a rock with a sledgehammer"
+        },
+        {
+          "ms": "godam dinding",
+          "zh": "用大锤砸墙",
+          "en": "break a wall with a sledgehammer"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "侵入电脑系统或网络账户，通常指未经许可取得访问权限。",
+      "en_definition": "To hack into a computer system or online account, typically without authorization.",
+      "ms_definition": "Menceroboh masuk ke dalam sistem komputer pihak lain untuk mendapatkan akses kepada data atau maklumat; bentuk berimbuhnya ialah menggodam.",
+      "nuances": "口语常说 kena godam，正式文字通常用 digodam 或 menggodam。不能把所有登录故障都称为遭入侵；penggodam 也不能脱离语境一概译成网络罪犯。[DBP：penggodam](https://prpm.dbp.gov.my/Search?k=penggodam)。",
+      "collocations": [
+        {
+          "ms": "godam akaun",
+          "zh": "入侵账户",
+          "en": "hack an account"
+        },
+        {
+          "ms": "kena godam",
+          "zh": "遭黑客入侵",
+          "en": "get hacked"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kontraktor menggunakan godam untuk memecahkan konkrit semasa kerja pembaikan dijalankan.",
+      "zh": "承包商在维修施工期间使用大锤敲碎混凝土。",
+      "en": "The contractor used a sledgehammer to break up concrete during the repair work."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Akaun aku kena godam lah, sekarang dah tak boleh masuk.",
+      "ms_standard": "Akaun saya telah digodam dan sekarang saya tidak dapat mengaksesnya.",
+      "zh": "我账号被黑了，现在已经登不进去了。",
+      "en": "My account got hacked, and now I can't log in.",
+      "spoken_features": [
+        "kena godam 是口语被动表达，正式对应 digodam。",
+        "dah 对应 sudah，tak 对应 tidak。",
+        "lah 加强说话者的情绪；aku 适用于熟人之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Akaun aku kena godam lah. Kau ada terima mesej pelik tak?",
+          "ms_standard": "Akaun saya telah digodam. Adakah awak menerima mesej yang pelik?",
+          "zh": "我账号被黑了。你有收到什么奇怪的消息吗？",
+          "en": "My account got hacked. Have you received any strange messages?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ada, tapi aku tak tekan pautan tu. Aku dah laporkan mesej tu.",
+          "ms_standard": "Ada, tetapi saya tidak mengklik pautan itu. Saya sudah melaporkan mesej tersebut.",
+          "zh": "有，不过我没点那个链接。我已经举报那条消息了。",
+          "en": "Yes, but I didn't click the link. I've already reported the message."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Godam names a heavy hammer, while menggodam also denotes breaking into computer systems. These meanings offer a memorable bridge between physical force and digital intrusion: a barrier is overcome in each case. This is a comparison of the recorded senses, not a verified account of the word's ultimate origin or the date its computing meaning arose.",
+    "cognitive_memory_aid": "读 go.dam 时想象大锤落下的“咚”声：砸开实体障碍是重击，突破数字屏障则联想到 menggodam。此为记忆联想，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "工具义语体中性；谈网络事故时，正式汇报用 akaun telah digodam，比口语的 akaun kena godam 更合适。",
+    "usage_etiquette": "指称某人为 penggodam 时应说明实际语境；获授权的安全测试可明确称为 penggodaman beretika，避免把职业技能与恶意入侵混为一谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "工具义语体中性；谈网络事故时，正式汇报用 akaun telah digodam，比口语的 akaun kena godam 更合适。",
+    "usage_etiquette": "指称某人为 penggodam 时应说明实际语境；获授权的安全测试可明确称为 penggodaman beretika，避免把职业技能与恶意入侵混为一谈。"
+  }
+}
