@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "lelongan",
+    "syllables": null,
+    "ipa": "/le.lo.ŋan/",
+    "jawi": "ليلوڠن",
+    "frequency_rank": 8085,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lelong",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "lelong + -an → lelongan",
+    "pattern_note": "数据包将 lelongan 标为词根；此处依据 DBP 的 lelong 词条校正为派生词。后缀 -an 不改变词根辅音，ng 表示 /ŋ/；首音节为 é /e/。",
+    "word_family": [
+      {
+        "word": "melelong",
+        "affix": "meN-",
+        "gloss": "拍卖；以竞价方式出售"
+      },
+      {
+        "word": "pelelong",
+        "affix": "peN-",
+        "gloss": "拍卖人；拍卖机构"
+      },
+      {
+        "word": "pelelongan",
+        "affix": "peN-...-an",
+        "gloss": "拍卖行为或过程"
+      }
+    ],
+    "root_jawi": "ليلوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "被拍卖或供拍卖的物品等。",
+      "en_definition": "Goods or other property offered or sold at auction.",
+      "ms_definition": "Barang dan sebagainya yang dilelong.",
+      "nuances": "这是数据包所引《Kamus Dewan》第四版的核心义，指拍卖对象。barang lelongan 中的 lelongan 限定物品的出售方式。依据：[DBP：lelong 及其派生词](https://prpm.dbp.gov.my/Cari1?d=75076&keyword=lelong)。",
+      "collocations": [
+        {
+          "ms": "barang lelongan",
+          "zh": "拍卖物品",
+          "en": "auction goods"
+        },
+        {
+          "ms": "rumah lelongan",
+          "zh": "供拍卖的房屋",
+          "en": "a house offered at auction"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "拍卖；由竞买者出价购买物品或财产的售卖活动。",
+      "en_definition": "An auction: a sale in which prospective buyers compete by bidding.",
+      "ms_definition": "Acara penjualan barang atau harta melalui tawaran harga oleh pembida.",
+      "nuances": "这是马来西亚公告和商业文本中明确可见的活动义，属于实际用法扩展；不应冒充数据包所引 DBP 原释义。pelelongan 也用于表示拍卖行为。实例：[怡保市政厅拍卖公告](https://mbi.gov.my/en/sumber/utc-perak?catid=38%3Alatest-info&id=3185%3Anotis-lelongan-awam-semak-info-lanjut-2&view=article)。",
+      "collocations": [
+        {
+          "ms": "lelongan awam",
+          "zh": "公开拍卖",
+          "en": "public auction"
+        },
+        {
+          "ms": "notis lelongan",
+          "zh": "拍卖通知",
+          "en": "auction notice"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "政府公告 / 资产处置通知",
+      "ms": "Majlis akan mengadakan lelongan awam bagi kenderaan terpakai pada minggu hadapan.",
+      "zh": "市政厅将于下周公开拍卖二手车辆。",
+      "en": "The council will hold a public auction of used vehicles next week."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论购买二手物品",
+      "ms_spoken": "Aku nak tengok barang lelongan tu dulu lah.",
+      "ms_standard": "Saya mahu melihat barang lelongan itu terlebih dahulu.",
+      "zh": "我想先看看那些拍卖品啦。",
+      "en": "I'd like to look at the auction items first.",
+      "spoken_features": [
+        "aku 为熟人之间使用的第一人称",
+        "nak 对应 mahu",
+        "tu 对应 itu",
+        "lah 在此缓和并强调个人意愿"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah tengok senarai barang lelongan tu?",
+          "ms_standard": "Adakah kamu sudah melihat senarai barang lelongan itu?",
+          "zh": "你看过那份拍卖品清单了吗？",
+          "en": "Have you looked at the list of auction items?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Aku nak tengok keadaan barang kat sana dulu, baru bida.",
+          "ms_standard": "Sudah. Saya mahu memeriksa keadaan barang di sana terlebih dahulu sebelum membuat bidaan.",
+          "zh": "看过了。我想先去现场看看东西的状况，再出价。",
+          "en": "Yes. I want to check the items there before I bid."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Lelongan illustrates a productive Malay pattern: lelong takes the suffix -an to name what is auctioned. The dictionary distinguishes this from pelelongan, the act of auctioning. Malaysian public notices also use lelongan for the event itself, showing how an object-related noun can acquire a broader institutional use. [Sources: DBP](https://prpm.dbp.gov.my/Cari1?d=75076&keyword=lelong), [Ipoh City Council](https://mbi.gov.my/en/sumber/utc-perak?catid=38%3Alatest-info&id=3185%3Anotis-lelongan-awam-semak-info-lanjut-2&view=article).",
+    "cognitive_memory_aid": "lelong 是“拍卖”，加 -an 就联想到“拿来拍卖的东西”；看到 lelongan awam，则整体理解为“公开拍卖活动”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性商业和行政词汇。讨论他人房屋或财物被拍卖时，避免以嘲笑或炫耀口吻提及其经济处境。",
+    "usage_etiquette": "适合资产处置、房产、车辆及典当品交易语境。它说明出售方式，并不自动表示物品便宜、残旧或质量差。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性商业和行政词汇。讨论他人房屋或财物被拍卖时，避免以嘲笑或炫耀口吻提及其经济处境。",
+    "usage_etiquette": "适合资产处置、房产、车辆及典当品交易语境。它说明出售方式，并不自动表示物品便宜、残旧或质量差。"
+  }
+}

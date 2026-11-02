@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "membinanya",
+    "syllables": null,
+    "ipa": "/məm.bi.na.ɲa/",
+    "jawi": "ممبينا",
+    "frequency_rank": 7981,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "membina",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "membina + -nya → membinanya; meN- + bina → membina",
+    "pattern_note": "保留输入 root_word=membina，表示直接基底；更底层词根为 bina。meN- 在 b 前成为 mem-，b 保留；-nya 在此为附着代词，按给定枚举归入 suffix，并非构成新动词的派生后缀。输入 Jawi ممبينا 对应 membina，未包含 -nya，故该字段不是完整词形的已核定拼写。",
+    "word_family": [
+      {
+        "word": "bina",
+        "affix": null,
+        "gloss": "建造；底层词根"
+      },
+      {
+        "word": "membina",
+        "affix": "meN-",
+        "gloss": "建造；培养；发展"
+      },
+      {
+        "word": "pembinaan",
+        "affix": "peN-...-an",
+        "gloss": "建设；建造过程"
+      },
+      {
+        "word": "dibina",
+        "affix": "di-",
+        "gloss": "被建造；被建立"
+      }
+    ],
+    "root_jawi": "ممبينا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "建造它；把前文所指的房屋、道路、桥梁等实体建起来。",
+      "en_definition": "To build or construct the previously mentioned structure.",
+      "ms_definition": "Membuat atau mendirikan sesuatu yang telah disebut, seperti rumah, bangunan atau jalan.",
+      "nuances": "释义依据输入中的 membina 释义展开，非独立词条的逐字引文。-nya 在这里承接前文对象，不表示动作已经完成，也不表示“他建造”。正式技术文书中，若指代可能不清，可重复具体对象名称。附着形式连写规则见 [DBP《Pedoman Umum Ejaan Bahasa Melayu》](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "kos membinanya",
+          "zh": "建造它的费用",
+          "en": "the cost of building it"
+        },
+        {
+          "ms": "membinanya semula",
+          "zh": "重建它",
+          "en": "rebuild it"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "培养、建立或发展前文所指的能力、信任、关系等非实体事物。",
+      "en_definition": "To develop, establish, or strengthen the previously mentioned quality, relationship, or undertaking.",
+      "ms_definition": "Mengembangkan, memupuk atau mengukuhkan sesuatu yang telah disebut, seperti kemahiran, kepercayaan atau hubungan.",
+      "nuances": "由实体建造引申为逐步发展或培养。必须根据上下文确定 -nya 指什么，不应把所有用例一律译成“建造它”。此处为编辑性释义。",
+      "collocations": [
+        {
+          "ms": "membinanya secara beransur-ansur",
+          "zh": "逐步建立或培养它",
+          "en": "develop it gradually"
+        },
+        {
+          "ms": "usaha membinanya",
+          "zh": "建立或培养它的努力",
+          "en": "efforts to develop it"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "工程进度 / 职场汇报",
+      "ms": "Jambatan baharu itu akan menghubungkan dua buah kampung, dan kos membinanya dianggarkan sebanyak RM2 juta.",
+      "zh": "这座新桥将连接两个村庄，预计建造费用为二百万令吉。",
+      "en": "The new bridge will connect two villages, and its construction is estimated to cost RM2 million."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论自建凉亭",
+      "ms_spoken": "Kalau nak membinanya sendiri, kena beli kayu dulu lah.",
+      "ms_standard": "Jika kita hendak membina pondok itu sendiri, kita perlu membeli kayu terlebih dahulu.",
+      "zh": "要自己搭那个凉亭，就得先买木料啦。",
+      "en": "If we're going to build it ourselves, we'll need to buy the timber first.",
+      "spoken_features": [
+        "nak 对应 hendak",
+        "kena 在此表示 perlu，即“得、必须”",
+        "dulu 对应 terlebih dahulu",
+        "membinanya 在口语中可以使用，但熟人聊天也常直接说 bina pondok tu"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Pasal pondok tu, kalau nak membinanya sendiri, kena beli kayu dulu lah.",
+          "ms_standard": "Tentang pondok itu, jika kita hendak membinanya sendiri, kita perlu membeli kayu terlebih dahulu.",
+          "zh": "说到那个凉亭，要自己搭，就得先买木料啦。",
+          "en": "About that gazebo—if we're building it ourselves, we'll need to buy the timber first."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah tanya kedai kat hujung jalan. Esok kita pergi je.",
+          "ms_standard": "Saya sudah bertanya kepada pihak kedai di hujung jalan. Kita boleh pergi ke sana esok.",
+          "zh": "我问过路尽头那家店了，咱们明天直接过去吧。",
+          "en": "I've already checked with the shop down the road. Let's go tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form combines membina with the attached pronoun -nya. Its structure shows how Malay can package an action and a previously mentioned object into one written word. The supplied dictionary evidence connects physical construction with growth and development. That semantic connection supports figurative uses involving trust, relationships, and skills without requiring a separate invented origin story.",
+    "cognitive_memory_aid": "分两层记：bina“建”→ membina“建造”；再接 -nya“它”，就是 membinanya“建造它”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "该词语体中性，可用于工程汇报或日常交流。需要请对方动手时，加 boleh 或 tolong 可使请求更自然。",
+    "usage_etiquette": "使用前先交代所指对象。-nya 本身不带冒犯意味，但在合同、预算及安全说明中，重复具体名称通常更清楚。不要将该形式误解为名词“他的建筑”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "该词语体中性，可用于工程汇报或日常交流。需要请对方动手时，加 boleh 或 tolong 可使请求更自然。",
+    "usage_etiquette": "使用前先交代所指对象。-nya 本身不带冒犯意味，但在合同、预算及安全说明中，重复具体名称通常更清楚。不要将该形式误解为名词“他的建筑”。"
+  }
+}

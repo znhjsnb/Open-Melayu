@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "terpadam",
+    "syllables": null,
+    "ipa": "/tər.pa.dam/",
+    "jawi": "ڤادم",
+    "frequency_rank": 8019,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "padam",
+    "affix": "ter-",
+    "affix_type": "prefix",
+    "formula": "ter- + padam → terpadam",
+    "pattern_note": "ter- 与 padam 直接接合，词首 p 保留。此处 ter- 可表示进入熄灭或消失的状态、非故意发生的结果，或能够被消除；具体解释依语境决定，不表示最高级。资料包未提供音节，故保留 null；所给 Jawi ڤادم 对应 padam，未包含 ter-。",
+    "word_family": [
+      {
+        "word": "memadamkan",
+        "affix": "meN-…-kan",
+        "gloss": "熄灭；关闭；擦除"
+      },
+      {
+        "word": "pemadam",
+        "affix": "peN-",
+        "gloss": "擦除工具；灭火器具"
+      },
+      {
+        "word": "pemadaman",
+        "affix": "peN-…-an",
+        "gloss": "熄灭、关闭或删除的行为"
+      }
+    ],
+    "root_jawi": "ڤادم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "火焰、灯光等熄灭或停止发光；可暗示意外发生。",
+      "en_definition": "To go out or become extinguished, sometimes unexpectedly.",
+      "ms_definition": "Menjadi tidak bernyala atau tidak bercahaya lagi, kadangkala tanpa disengajakan.",
+      "nuances": "主语通常是 api、lampu 等；不等同于主动“把某物关掉”的 memadamkan。ter- 不保证一定是误操作，也可突出已经发生的结果。释义依据 padam 的基础义及 ter- 的构词功能编写。参见 [DBP：padam](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=padam)。",
+      "collocations": [
+        {
+          "ms": "lampu terpadam",
+          "zh": "灯熄灭了",
+          "en": "the light goes out"
+        },
+        {
+          "ms": "api terpadam",
+          "zh": "火熄灭了",
+          "en": "the fire goes out"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "文字、图像或电子资料被擦除、删去或意外清除。",
+      "en_definition": "To be erased or deleted, especially unintentionally.",
+      "ms_definition": "Menjadi hilang atau terhapus, khususnya tulisan, imej atau data, sama ada secara tidak sengaja atau akibat sesuatu tindakan.",
+      "nuances": "适用于实体书写和电子资料。fail terpadam 常暗示文件意外被删；若要中性说明有人删除文件，fail dipadam 更明确。不要把所有文件遗失、损坏或无法打开的情况都称为 terpadam。",
+      "collocations": [
+        {
+          "ms": "fail terpadam",
+          "zh": "文件被误删",
+          "en": "a file is accidentally deleted"
+        },
+        {
+          "ms": "mesej terpadam",
+          "zh": "消息被删掉",
+          "en": "a message is deleted"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "记忆、感情或希望等消失、被抹去；在否定结构中也表示无法被消除。",
+      "en_definition": "To fade or be effaced figuratively; in negative constructions, to be capable of being erased.",
+      "ms_definition": "Hilang atau lenyap secara kiasan, seperti kenangan atau harapan; dalam binaan tertentu, dapat dihilangkan atau dilenyapkan.",
+      "nuances": "常见于 tidak terpadam 或 tidak akan terpadam，表达难以或永不磨灭。此时 ter- 可有可能性解释，并不表示“不小心忘记”。比喻用法承接 padam 的“消失、消退”义。参见 [DBP：padam 的引申义](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=padam)。",
+      "collocations": [
+        {
+          "ms": "kenangan yang tidak terpadam",
+          "zh": "无法磨灭的记忆",
+          "en": "indelible memories"
+        },
+        {
+          "ms": "harapan yang tidak pernah terpadam",
+          "zh": "从未熄灭的希望",
+          "en": "hope that never dies"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 数据恢复情况汇报",
+      "ms": "Pasukan teknologi maklumat berjaya memulihkan fail yang terpadam secara tidak sengaja semasa penyelenggaraan sistem.",
+      "zh": "信息技术团队成功恢复了系统维护期间意外删除的文件。",
+      "en": "The IT team successfully recovered the files accidentally deleted during system maintenance."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事发现文件误删",
+      "ms_spoken": "Alamak, fail tadi dah terpadam lah!",
+      "ms_standard": "Aduh, fail tadi sudah terpadam!",
+      "zh": "糟了，刚才那个文件被删掉了！",
+      "en": "Oh no, that file's been deleted!",
+      "spoken_features": [
+        "alamak 表示惊讶、懊恼或着急。",
+        "dah 对应 sudah；lah 加强说话人的情绪。",
+        "回复中的 kat 对应 di，je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Alamak, fail tadi dah terpadam lah! Aku tersalah tekan.",
+          "ms_standard": "Aduh, fail tadi sudah terpadam! Aku tersalah menekan butang.",
+          "zh": "糟了，刚才那个文件被删掉了！我按错了。",
+          "en": "Oh no, that file's been deleted! I pressed the wrong button."
+        },
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Cuba tengok kat tong kitar semula dulu. Mungkin boleh pulihkan je.",
+          "ms_standard": "Cuba periksa tong kitar semula dahulu. Mungkin fail itu masih boleh dipulihkan dengan mudah.",
+          "zh": "先看看回收站吧，说不定恢复一下就行。",
+          "en": "Check the recycle bin first. You might be able to restore it easily."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The meanings of padam connect extinguished light with disappearance more generally. Terpadam applies that vocabulary to a resulting state, including erased writing and deleted files. Figurative memories can likewise resist being extinguished. These connections explain the word's range without requiring a separate origin for its digital use. See [DBP: padam](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=padam).",
+    "cognitive_memory_aid": "想象灯突然“啪”地灭了：padam 是熄灭，terpadam 是已经灭掉或意外被清掉；换成屏幕上的文件，就是被删掉。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "terpadam 常把焦点放在结果，适合先说明事故。但若需要承担责任，应补充原因，例如 Fail itu terpadam kerana saya tersalah menekan butang，避免让人觉得在回避责任。",
+    "usage_etiquette": "适用于灯火熄灭、资料删除和记忆消退等语境。正式事故说明应交代对象、原因及恢复情况；在表达纪念或哀思时，kenangan yang tidak terpadam 带有庄重、抒情的色彩。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "terpadam 常把焦点放在结果，适合先说明事故。但若需要承担责任，应补充原因，例如 Fail itu terpadam kerana saya tersalah menekan butang，避免让人觉得在回避责任。",
+    "usage_etiquette": "适用于灯火熄灭、资料删除和记忆消退等语境。正式事故说明应交代对象、原因及恢复情况；在表达纪念或哀思时，kenangan yang tidak terpadam 带有庄重、抒情的色彩。"
+  }
+}

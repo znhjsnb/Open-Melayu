@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "kodnya",
+    "syllables": null,
+    "ipa": "/kod.ɲa/",
+    "jawi": "کود",
+    "frequency_rank": 8093,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kod",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "kod + -nya → kodnya",
+    "pattern_note": "-nya 在这里是后附代词或回指成分；suffix 为本结构中的位置分类，不表示派生后缀。ny 表示 /ɲ/，词根不发生字母替换。数据包的 کود 仅为 kod 的爪夷文；完整 kodnya 可写作 کودڽ。",
+    "word_family": [
+      {
+        "word": "berkod",
+        "affix": "ber-",
+        "gloss": "带有编码的"
+      },
+      {
+        "word": "mengekodkan",
+        "affix": "meN-...-kan",
+        "gloss": "将资料编码"
+      },
+      {
+        "word": "pengekodan",
+        "affix": "peN-...-an",
+        "gloss": "编码过程"
+      }
+    ],
+    "root_jawi": "کود"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他、她或所指对象的代码、编号；用于识别对象、地点或取得访问权限的一组字符。",
+      "en_definition": "His, her, or its identifying or access code; the code associated with the referent.",
+      "ms_definition": "Rangkaian huruf, angka atau tanda pengenalan yang dikaitkan dengan orang atau perkara yang dirujuk.",
+      "nuances": "kodnya 是 kod 加 -nya 的语法形式，不是独立词根。具体译为“他的代码”“她的编号”还是“该代码”，取决于上下文。official 表示其标准构形，不表示 DBP 单独收录了该完整词形。以下马来文释义为释义改写。[DBP：kod](https://prpm.dbp.gov.my/Cari1?d=384984&keyword=kod)",
+      "collocations": [
+        {
+          "ms": "masukkan kodnya",
+          "zh": "输入对应代码",
+          "en": "enter the corresponding code"
+        },
+        {
+          "ms": "semak kodnya",
+          "zh": "核对对应编号",
+          "en": "check the corresponding code"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "所指信息采用的编码或密码；通过约定符号表达特定意义的方式。",
+      "en_definition": "The code or cipher used to represent a particular message.",
+      "ms_definition": "Sistem tanda yang digunakan untuk menyampaikan makna tertentu atau menyembunyikan kandungan sesuatu pesanan.",
+      "nuances": "这里的 kod 可以是秘密通信编码，也可以是公开约定的符号系统；不能一律译为登录用的“密码”。",
+      "collocations": [
+        {
+          "ms": "mentafsir kodnya",
+          "zh": "解读其编码",
+          "en": "interpret its code"
+        },
+        {
+          "ms": "memecahkan kodnya",
+          "zh": "破解其密码",
+          "en": "crack its code"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "所指程序的代码；用计算机语言写出的指令。",
+      "en_definition": "The programming instructions belonging to or associated with the referent.",
+      "ms_definition": "Arahan dalam bahasa pengaturcaraan yang membentuk program yang dirujuk.",
+      "nuances": "技术语境中的常见用法，通常译为“它的代码”或“该程序代码”，不等于识别号码。",
+      "collocations": [
+        {
+          "ms": "menulis kodnya",
+          "zh": "编写其程序代码",
+          "en": "write its code"
+        },
+        {
+          "ms": "menguji kodnya",
+          "zh": "测试其程序代码",
+          "en": "test its code"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Setiap permohonan diberikan kod rujukan; pemohon hendaklah menyatakan kodnya dalam semua urusan susulan.",
+      "zh": "每份申请均获分配一个参考编号；申请人在后续联系时须注明该编号。",
+      "en": "Each application is assigned a reference code; applicants must quote that code in all subsequent correspondence."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah jumpa baucar tu, tapi kodnya kat mana?",
+      "ms_standard": "Saya sudah menemukan baucar itu, tetapi di manakah kodnya?",
+      "zh": "我找到那张优惠券了，可是优惠码在哪儿？",
+      "en": "I found the voucher, but where's the code?",
+      "spoken_features": [
+        "aku 是熟人间的第一人称。",
+        "dah 对应 sudah，tu 对应 itu。",
+        "kat mana 对应 di mana。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak guna baucar tu, tapi kodnya kat mana?",
+          "ms_standard": "Saya hendak menggunakan baucar itu, tetapi di manakah kodnya?",
+          "zh": "我想用那张优惠券，可是优惠码在哪儿？",
+          "en": "I want to use that voucher, but where's the code?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kat bawah gambar tu je. Aku dah bulatkan.",
+          "ms_standard": "Kod itu terletak di bawah gambar tersebut. Saya sudah membulatkannya.",
+          "zh": "就在那张图下面，我已经圈出来了。",
+          "en": "It's just below the picture. I've circled it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kodnya illustrates how Malay attaches a short referring element to an established noun. DBP records kod for meaningful signs, communication systems, and identifying letters or numbers. Adding -nya connects that code to someone or something already mentioned. The result carries its meaning through context, rather than naming a new kind of code. [DBP：kod](https://prpm.dbp.gov.my/Cari1?d=384984&keyword=kod)",
+    "cognitive_memory_aid": "kod＝代码，-nya＝他／她／所指对象的；合起来就是“对应的那个代码”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "kodnya 本身语体中性。正式沟通中应先交代代码属于哪个申请、账户或人员，避免回指不明。",
+    "usage_etiquette": "询问一般参考编号时可直接使用；若指一次性验证码或私人访问码，应先确认分享对象和用途。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "kodnya 本身语体中性。正式沟通中应先交代代码属于哪个申请、账户或人员，避免回指不明。",
+    "usage_etiquette": "询问一般参考编号时可直接使用；若指一次性验证码或私人访问码，应先确认分享对象和用途。"
+  }
+}
