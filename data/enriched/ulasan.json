@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "ulasan",
+    "syllables": "u.la.san",
+    "ipa": "/u.la.san/",
+    "jawi": "اولسن",
+    "frequency_rank": 8152,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ulas",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "ulas + -an → ulasan",
+    "pattern_note": "词尾加 -an，词根末尾的 s 保留，并成为下一音节的起始辅音。输入包将 ulasan 标为独立词根，但 DBP 将其列为 ulas 的派生词，此处据此校正。不同义项分别对应 ulas 的不同同形词。",
+    "word_family": [
+      {
+        "word": "mengulas",
+        "affix": "meN-",
+        "gloss": "评论；阐释"
+      },
+      {
+        "word": "pengulas",
+        "affix": "peN-",
+        "gloss": "评论者；解说员"
+      },
+      {
+        "word": "pengulasan",
+        "affix": "peN-...-an",
+        "gloss": "评论或阐释的过程"
+      }
+    ],
+    "root_jawi": "اولس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对作品、事件或某一事项所作的说明、分析、解释或评价；评论。",
+      "en_definition": "An explanation, interpretation, or critical assessment of a work, event, or subject.",
+      "ms_definition": "Huraian tentang sesuatu, kupasan, tafsiran.",
+      "nuances": "现代最常用义，可褒可贬，不等于负面批评，也不必只是内容摘要。书评、影评和商品评价均可使用。词义依据：[DBP：ulasan](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=ulasan)。",
+      "collocations": [
+        {
+          "ms": "ulasan buku",
+          "zh": "书评",
+          "en": "book review"
+        },
+        {
+          "ms": "ulasan pelanggan",
+          "zh": "顾客评价",
+          "en": "customer reviews"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "对正在进行的比赛、典礼或其他事件所作的解说。",
+      "en_definition": "Commentary describing or interpreting an event, especially as it happens.",
+      "ms_definition": "Penerangan tentang perjalanan sesuatu acara atau kejadian, khususnya ketika acara atau kejadian itu sedang berlangsung.",
+      "nuances": "属于评论、阐释义在广播和赛事语境中的常见用法。ulasan selari 强调解说与事件同步进行，不表示两份评论相互平行。",
+      "collocations": [
+        {
+          "ms": "ulasan selari",
+          "zh": "现场同步解说",
+          "en": "running commentary"
+        },
+        {
+          "ms": "ulasan perlawanan",
+          "zh": "比赛解说或赛评",
+          "en": "match commentary or analysis"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "接上的部分；延长部分或连接物。",
+      "en_definition": "An extension, continuation, or piece joined onto something.",
+      "ms_definition": "Sesuatu yang diulas; lanjutan atau sambungan.",
+      "nuances": "对应带有米南加保语标记的 ulas 同形词，现代一般交流中少见。输入包所引释义属于此义，不能据此遗漏更常见的评论义。以下为释义性组合，不标作高频搭配。",
+      "collocations": [
+        {
+          "ms": "ulasan tali",
+          "zh": "绳子的接长部分",
+          "en": "an extension joined onto a rope"
+        },
+        {
+          "ms": "ulasan lidah",
+          "zh": "传话人；代言人",
+          "en": "an intermediary or spokesperson"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "套在枕头等物品外面的布套或外罩。",
+      "en_definition": "A cover or casing, especially for a pillow.",
+      "ms_definition": "Sarung bagi bantal dan sebagainya; sampul.",
+      "nuances": "词典收录的另一同形词义，现代日常用语通常说 sarung。以下组合用于说明旧义，不应作为现代高频搭配教授。",
+      "collocations": [
+        {
+          "ms": "ulasan bantal",
+          "zh": "枕套",
+          "en": "pillowcase"
+        },
+        {
+          "ms": "ulasan tilam",
+          "zh": "床垫套",
+          "en": "mattress cover"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak jabatan diminta mengemukakan ulasan bertulis tentang cadangan tersebut sebelum mesyuarat diadakan.",
+      "zh": "请有关部门在会议召开前，就该建议提交书面意见。",
+      "en": "The department is requested to submit written comments on the proposal before the meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah baca ulasan kedai tu, ramai kata makanan dia sedap.",
+      "ms_standard": "Saya sudah membaca ulasan tentang kedai itu; ramai pelanggan mengatakan bahawa makanan di situ sedap.",
+      "zh": "我看过那家店的评价了，好多人都说东西好吃。",
+      "en": "I've read the reviews of that place. Lots of people say the food is good.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式",
+        "tu 是 itu 的口语形式",
+        "makanan dia 在此口语中指那家店的食物",
+        "aku 适用于关系熟悉的同辈"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah baca ulasan kedai tu kat internet?",
+          "ms_standard": "Awak sudah membaca ulasan tentang kedai itu di internet?",
+          "zh": "你看过网上对那家店的评价了吗？",
+          "en": "Have you read the reviews of that place online?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, ulasan dia banyak yang bagus. Jom cuba malam ni.",
+          "ms_standard": "Sudah, banyak ulasan tentang kedai itu memberikan penilaian yang baik. Mari kita mencubanya malam ini.",
+          "zh": "看了，好评挺多的。今晚去试试吧。",
+          "en": "Yeah, lots of good reviews. Let's try it tonight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ulasan illustrates how Malay builds nouns with the productive suffix -an. Its familiar review sense belongs with mengulas, meaning to explain or comment. Dictionaries also record homonymous senses involving coverings and extensions. These should not be turned into an invented historical story in which one meaning necessarily developed into another. [DBP: ulasan](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=ulasan).",
+    "cognitive_memory_aid": "把 ulas 记成“展开讲”，加 -an 就得到“展开讲出来的评论或说明”；这是构词记忆，不是词源故事。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "提出不同意见时，可说 Pada pandangan saya… 或 Ulasan ini bertujuan untuk penambahbaikan，明确是在讨论内容、帮助改进。",
+    "usage_etiquette": "适合书评、会议意见、媒体评论和商品评价。评价他人的作品或工作时，给出具体依据，避免将内容评价变成人身判断。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "提出不同意见时，可说 Pada pandangan saya… 或 Ulasan ini bertujuan untuk penambahbaikan，明确是在讨论内容、帮助改进。",
+    "usage_etiquette": "适合书评、会议意见、媒体评论和商品评价。评价他人的作品或工作时，给出具体依据，避免将内容评价变成人身判断。"
+  }
+}

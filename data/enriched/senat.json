@@ -1,0 +1,138 @@
+{
+  "headword": {
+    "word": "senat",
+    "syllables": null,
+    "ipa": "/se.nat/",
+    "jawi": "نت",
+    "frequency_rank": 8109,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "senat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + senat → senat",
+    "pattern_note": "senat 是整词借词，se- 不是此词中的马来语前缀，不能分析为 se- + nat。输入中的词根分析有误，故更正为 senat。首音节为 é 音 /e/。jawi 字段按要求保留输入的 نت，但该字符串不完整，不能作为 senat 的规范爪夷拼写使用。",
+    "word_family": [
+      {
+        "word": "senator",
+        "affix": "整词借入；非马来语词缀派生",
+        "gloss": "参议员；上议院议员"
+      }
+    ],
+    "root_jawi": "نت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "参议院；两院制议会中的上议院，在马来西亚语境下可指国会上议院。",
+      "en_definition": "A senate, especially the upper chamber of a bicameral legislature.",
+      "ms_definition": "Dewan perwakilan rakyat yang tertinggi; dewan negara.",
+      "nuances": "马来西亚国会上议院的正式名称是 Dewan Negara。senat 指机构，senator 指其成员；不能把词典所列的成员产生方式概括为所有国家参议院的共同规则。",
+      "collocations": [
+        {
+          "ms": "ahli senat",
+          "zh": "参议院议员",
+          "en": "a member of the senate"
+        },
+        {
+          "ms": "sidang senat",
+          "zh": "参议院会议",
+          "en": "a senate sitting"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "大学评议会；某些大学负责学术事务的最高议事机构。",
+      "en_definition": "The senior academic governing body of certain universities.",
+      "ms_definition": "Majlis atau badan pentadbir yang utama dan tertinggi di sesetengah universiti.",
+      "nuances": "大学语境中通常涉及课程、考试和学位等学术事务，不能简单等同于校董会或学生会。特定机构名称常写作 Senat Universiti。参见 [UKM Unit Senat](https://www.ukm.my/akademik/unit-senat/)。",
+      "collocations": [
+        {
+          "ms": "mesyuarat senat",
+          "zh": "大学评议会会议",
+          "en": "a university senate meeting"
+        },
+        {
+          "ms": "kelulusan senat",
+          "zh": "大学评议会批准",
+          "en": "university senate approval"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "学生议会；学生代表组织，属印度尼西亚用法。",
+      "en_definition": "A student representative council, in Indonesian usage.",
+      "ms_definition": "Majlis mahasiswa; penggunaan bahasa Indonesia.",
+      "nuances": "输入中的 Kamus Dewan 以 Id 标记此义。它不是马来西亚大学中 senat 的默认含义；谈论本地学生代表组织时应使用该校实际名称。",
+      "collocations": [
+        {
+          "ms": "senat mahasiswa",
+          "zh": "学生议会",
+          "en": "a student senate"
+        },
+        {
+          "ms": "anggota senat mahasiswa",
+          "zh": "学生议会成员",
+          "en": "a member of a student senate"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Cadangan pindaan kurikulum itu akan dibentangkan dalam mesyuarat senat universiti untuk pertimbangan.",
+      "zh": "该课程修订建议将提交大学评议会会议审议。",
+      "en": "The proposed curriculum changes will be presented at the university senate meeting for consideration."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Senat dah luluskan keputusan kita ke?",
+      "ms_standard": "Adakah senat sudah meluluskan keputusan peperiksaan kita?",
+      "zh": "评议会批准我们的考试成绩了吗？",
+      "en": "Has the senate approved our exam results yet?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略。",
+        "句末 ke 构成口语疑问。",
+        "已有共同语境时，keputusan 可省略 peperiksaan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Senat dah luluskan keputusan kita ke?",
+          "ms_standard": "Adakah senat sudah meluluskan keputusan peperiksaan kita?",
+          "zh": "评议会批准我们的考试成绩了吗？",
+          "en": "Has the senate approved our exam results yet?"
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Belum lagi. Kita tunggu pengumuman rasmi je dulu.",
+          "ms_standard": "Belum lagi. Kita tunggu pengumuman rasmi dahulu.",
+          "zh": "还没有，先等正式通知吧。",
+          "en": "Not yet. Let's wait for the official announcement."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Senat belongs to an international family of institutional names ultimately connected with Latin senatus, an assembly of elders, from senex, meaning an older man. The historical image is collective deliberation. Malay uses the whole borrowed word for parliamentary and university bodies; its opening se- is not a productive Malay prefix. [Treccani: senato](https://www.treccani.it/vocabolario/senato/)",
+    "cognitive_memory_aid": "把 senat 与英语 senate 成对记：一群成员围桌审议。记整词，不拆成 se- + nat。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式交流中写明是 Dewan Negara 还是大学 Senat，避免机构混淆；称呼成员时使用其适用的正式称谓。",
+    "usage_etiquette": "适用于议会新闻、大学行政和学术通知。不要把大学评议会的决定说成学生会决定；印度尼西亚的学生议会义须明确地域语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式交流中写明是 Dewan Negara 还是大学 Senat，避免机构混淆；称呼成员时使用其适用的正式称谓。",
+    "usage_etiquette": "适用于议会新闻、大学行政和学术通知。不要把大学评议会的决定说成学生会决定；印度尼西亚的学生议会义须明确地域语境。"
+  }
+}

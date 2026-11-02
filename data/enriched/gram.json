@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "gram",
+    "syllables": "gram",
+    "ipa": "/ɡram/",
+    "jawi": "ݢرم",
+    "frequency_rank": 8133,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "gram",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + gram → gram",
+    "pattern_note": "国际计量借词，作为完整词根处理，保留词首辅音组合 gr。kilo-、mili- 是国际计量前缀，不触发 meN- 类鼻音交替。",
+    "word_family": [
+      {
+        "word": "kilogram",
+        "affix": "kilo-",
+        "gloss": "千克；一千克"
+      },
+      {
+        "word": "miligram",
+        "affix": "mili-",
+        "gloss": "毫克；千分之一克"
+      }
+    ],
+    "root_jawi": "ݢرم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "克：质量单位，等于千分之一千克，符号为 g。",
+      "en_definition": "A unit of mass equal to one thousandth of a kilogram; symbol g.",
+      "ms_definition": "Sukatan berat yang bersamaan dengan satu per seribu kilogram.",
+      "nuances": "马来释义按所给《Kamus Dewan》资料展开缩写。日常语常说 berat，科学表述则区分质量 jisim 与重量 berat。数字后不加英语复数词尾：200 gram；符号写作 200 g。勿与 garam（盐）混淆。",
+      "collocations": [
+        {
+          "ms": "200 gram tepung",
+          "zh": "200克面粉",
+          "en": "200 grams of flour"
+        },
+        {
+          "ms": "lima gram gula",
+          "zh": "五克糖",
+          "en": "five grams of sugar"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Setiap sampel mempunyai jisim 50 gram dan disimpan dalam bekas berlabel.",
+      "zh": "每份样品的质量为50克，并存放在贴有标签的容器中。",
+      "en": "Each sample has a mass of 50 grams and is stored in a labelled container."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nak buat kek ni, kena guna 200 gram tepung je.",
+      "ms_standard": "Untuk membuat kek ini, kita hanya perlu menggunakan 200 gram tepung.",
+      "zh": "做这个蛋糕只要用200克面粉就行。",
+      "en": "We only need 200 grams of flour for this cake.",
+      "spoken_features": [
+        "nak 对应 hendak；kena 在这里表示需要。",
+        "ni 对应 ini；je 对应 sahaja。",
+        "gram 在数词后保持原形。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (室友)",
+          "ms_spoken": "Resipi ni guna berapa gram gula? Aku dah timbang tepung.",
+          "ms_standard": "Resipi ini menggunakan berapa gram gula? Saya sudah menimbang tepung.",
+          "zh": "这个食谱要用多少克糖？面粉我已经称好了。",
+          "en": "How many grams of sugar does this recipe need? I've already weighed the flour."
+        },
+        {
+          "speaker": "Aina (室友)",
+          "ms_spoken": "Seratus gram je. Gula ada kat rak atas.",
+          "ms_standard": "Hanya seratus gram. Gula ada di rak atas.",
+          "zh": "一百克就好。糖在上面的架子上。",
+          "en": "Just a hundred grams. The sugar's on the top shelf."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Gram belongs to the international vocabulary of metric measurement. Its history runs through French gramme and Late Latin gramma to Greek gramma, which could denote a small weight as well as a written character. Malay uses this international term in practical settings such as recipes, food labels and weighing goods. Source: [Dictionnaire de l’Académie française](https://www.dictionnaire-academie.fr/article/A9G1195).",
+    "cognitive_memory_aid": "把 gram 直接连到秤上的 g：1000 gram = 1 kilogram。看到中间多了一个 a 的 garam，才是“盐”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的计量词。购物时可以说 Tolong timbang 200 gram，使用 tolong 能使请求更礼貌。",
+    "usage_etiquette": "适用于购物、烹饪、产品标签及科学记录。需要准确数量时写清数值和单位；马来语正文用 gram，单位符号用小写 g。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的计量词。购物时可以说 Tolong timbang 200 gram，使用 tolong 能使请求更礼貌。",
+    "usage_etiquette": "适用于购物、烹饪、产品标签及科学记录。需要准确数量时写清数值和单位；马来语正文用 gram，单位符号用小写 g。"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "panggilnya",
+    "syllables": "pang.gil.nya",
+    "ipa": "/paŋ.ɡil.ɲa/",
+    "jawi": "ڤڠݢيلڽ",
+    "frequency_rank": 8099,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "panggil",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "panggil + -nya → panggilnya",
+    "pattern_note": "-nya 是附着代词，按本字段的类别归入 suffix，并非派生出新词义的普通后缀；词干不变，ny 读 /ɲ/。输入爪夷文 ڤڠݢيل 仅对应 panggil，完整词形补为 ڤڠݢيلڽ。",
+    "word_family": [
+      {
+        "word": "memanggil",
+        "affix": "meN-",
+        "gloss": "呼唤；邀请；称呼"
+      },
+      {
+        "word": "panggilan",
+        "affix": "-an",
+        "gloss": "呼唤；电话；称呼"
+      },
+      {
+        "word": "pemanggil",
+        "affix": "peN-",
+        "gloss": "呼叫者；来电者"
+      }
+    ],
+    "root_jawi": "ڤڠݢيل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "呼唤或叫他／她过来；在叙事中的引语后也可表示“他／她喊道”。",
+      "en_definition": "To call or summon him or her; in narrative attribution, he or she called.",
+      "ms_definition": "Memanggil orang yang dirujuk supaya datang; dalam pengiring dialog, menyatakan bahawa dia yang memanggil.",
+      "nuances": "这是 panggil 与 -nya 的组合，不是独立于 panggil 的新词根。-nya 的句法作用须看整句：Panggilnya masuk 可理解为叫他／她进来；“Ibu!” panggilnya 中则指发出呼唤的人。词汇核心义依据 [DBP：memanggil](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=memanggil)，这里另作组合形式的句法说明。",
+      "collocations": [
+        {
+          "ms": "panggilnya masuk",
+          "zh": "叫他／她进来",
+          "en": "call him or her in"
+        },
+        {
+          "ms": "“Ibu!” panggilnya",
+          "zh": "“妈妈！”他／她喊道",
+          "en": "“Mum!” he or she called"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "邀请他／她参加活动、赴宴或一同用餐。",
+      "en_definition": "To invite him or her to an occasion or to join an activity.",
+      "ms_definition": "Menjemput atau mengundang orang yang dirujuk oleh -nya untuk menghadiri sesuatu majlis atau menyertai kegiatan.",
+      "nuances": "邀请义来自 panggil 的既有义项，具体由活动语境决定。正式邀请通常用 menjemput 或 mengundang 更明确；不能把所有 panggilnya 都理解为邀请。",
+      "collocations": [
+        {
+          "ms": "panggilnya ke kenduri",
+          "zh": "邀请他／她赴宴",
+          "en": "invite him or her to the feast"
+        },
+        {
+          "ms": "panggilnya makan bersama",
+          "zh": "叫他／她一同吃饭",
+          "en": "invite him or her to eat together"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "以某个名字、称号或亲属称谓称呼他／她。",
+      "en_definition": "To address or refer to him or her by a particular name or title.",
+      "ms_definition": "Menyebut atau menggelar orang yang dirujuk oleh -nya dengan nama, gelaran atau panggilan tertentu.",
+      "nuances": "通常后接具体称谓，如 abang 或 Cikgu。须区分 panggilnya“称呼他／她”和 panggilannya“他／她的称呼、来电或呼唤”。",
+      "collocations": [
+        {
+          "ms": "panggilnya abang",
+          "zh": "称呼他为哥哥",
+          "en": "address him as abang"
+        },
+        {
+          "ms": "panggilnya dengan nama penuh",
+          "zh": "用全名称呼他／她",
+          "en": "address him or her by their full name"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila panggilnya masuk untuk memberikan keterangan kepada jawatankuasa.",
+      "zh": "请叫他／她进来，向委员会提供陈述。",
+      "en": "Please call them in to give their account to the committee."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nama dia Amir, tapi kami panggilnya Mir je.",
+      "ms_standard": "Namanya Amir, tetapi kami memanggilnya Mir sahaja.",
+      "zh": "他叫 Amir，不过我们都叫他 Mir。",
+      "en": "His name's Amir, but we just call him Mir.",
+      "spoken_features": [
+        "Nama dia 是口语表达，标准对应形式可用 namanya。",
+        "tapi 是 tetapi 的口语形式。",
+        "kami panggilnya 在口语中省略主动前缀 meN-，标准对应形式为 kami memanggilnya。",
+        "je 是 sahaja 的口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (新同事)",
+          "ms_spoken": "Amir tu nak dipanggil apa? Mir ke?",
+          "ms_standard": "Apakah panggilan yang disukai oleh Amir? Adakah Mir?",
+          "zh": "Amir 喜欢别人怎么叫他？叫 Mir 吗？",
+          "en": "What does Amir like to be called? Mir?"
+        },
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Haah, kami panggilnya Mir je. Dia dah biasa.",
+          "ms_standard": "Ya, kami memanggilnya Mir sahaja. Dia sudah biasa dengan panggilan itu.",
+          "zh": "对，我们都叫他 Mir。他已经习惯了。",
+          "en": "Yes, we just call him Mir. He's used to it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Panggilnya combines panggil, meaning to call, with the attached third-person pronoun -nya. The same written ending can identify the person called or, in narrative dialogue tags, the person doing the calling. Malay also uses the root for invitations and forms of address, linking the practical act of getting attention with the social act of recognizing someone's name or status.",
+    "cognitive_memory_aid": "panggil＝叫，-nya＝与他／她有关：先看“叫谁”，再看是否是引语后的“他／她喊道”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称呼别人时，应采用对方认可的名字或称谓；对长辈、客户或上级，可按场合使用 Encik、Puan、Cikgu 等称呼。",
+    "usage_etiquette": "裸词干形式适用于命令及熟人口语；向上级请求时，宜加 sila、tolong 或改用完整的礼貌问句。谈到在场人士时，直接使用其名字或合适称谓通常更清楚，也可避免 -nya 指代不明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称呼别人时，应采用对方认可的名字或称谓；对长辈、客户或上级，可按场合使用 Encik、Puan、Cikgu 等称呼。",
+    "usage_etiquette": "裸词干形式适用于命令及熟人口语；向上级请求时，宜加 sila、tolong 或改用完整的礼貌问句。谈到在场人士时，直接使用其名字或合适称谓通常更清楚，也可避免 -nya 指代不明。"
+  }
+}

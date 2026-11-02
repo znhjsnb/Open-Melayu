@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "kitorang",
+    "syllables": "ki.to.rang",
+    "ipa": "/kiˈtoraŋ/",
+    "jawi": null,
+    "frequency_rank": 8183,
+    "status": "colloquial"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kitorang",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "kita + orang → kita orang → kitorang",
+    "pattern_note": "这是 kita orang 的口语缩合，不涉及生产性词缀。同步分析可将其视为整体代词，因此沿用输入包的 is_root=true；这不表示它在历史上没有内部来源。",
+    "word_family": [
+      {
+        "word": "korang",
+        "affix": null,
+        "gloss": "你们；同类口语代词，非派生词"
+      },
+      {
+        "word": "diorang",
+        "affix": null,
+        "gloss": "他们；同类口语代词，非派生词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "我们；马来西亚口语中的第一人称复数代词，通常指说话者及其同伴，不包括听话者。",
+      "en_definition": "We or us, usually excluding the person being addressed; colloquial Malaysian Malay.",
+      "ms_definition": "Kata ganti nama diri pertama jamak dalam bahasa percakapan yang lazimnya merujuk kepada penutur bersama kumpulannya tanpa menyertakan pendengar; padanan bakunya ialah kami.",
+      "nuances": "实际词类为人称代词；因给定 pos 枚举没有 pronoun，暂归 noun。通常对应 kami，不要仅凭来源中的 kita 就理解为包括听话者。置于名词后可表示“我们的”，如 rumah kitorang。并非独立的“我们的”形容词。其口语属性决定 status 标为 colloquial；马来文释义为描述性释义。[UKM：Slanga dalam Novel Kelabu](https://ejournal.ukm.my/jmelayu/article/download/60140/13675)",
+      "collocations": [
+        {
+          "ms": "kitorang semua",
+          "zh": "我们所有人，通常不包括听话者",
+          "en": "all of us, usually excluding you"
+        },
+        {
+          "ms": "rumah kitorang",
+          "zh": "我们家",
+          "en": "our house"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；在正式说明中引用口语形式",
+      "ms": "Dalam laporan rasmi, kata ganti nama diri tidak formal seperti \"kitorang\" hendaklah digantikan dengan \"kami\" apabila pendengar tidak termasuk dalam kumpulan yang dimaksudkan.",
+      "zh": "在正式报告中，若所指群体不包括听话者，应把 kitorang 这类非正式人称代词改为 kami。",
+      "en": "In formal reports, informal pronouns such as kitorang should be replaced with kami when the intended group excludes the addressee."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kitorang dah sampai kat kedai. Kau nak kirim apa-apa tak?",
+      "ms_standard": "Kami sudah tiba di kedai. Adakah awak mahu kami membelikan apa-apa?",
+      "zh": "我们到店里了，你要我们顺便帮你买点什么吗？",
+      "en": "We're at the shop. Want us to pick anything up for you?",
+      "spoken_features": [
+        "kitorang 通常对应不包括听话者的 kami。",
+        "dah、kat、nak 分别对应 sudah、di、mahu。",
+        "句末 tak 构成口语疑问；kau 适用于关系亲近的对象。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kitorang dah sampai kat kedai. Kau nak kirim apa-apa tak?",
+          "ms_standard": "Kami sudah tiba di kedai. Adakah awak mahu kami membelikan apa-apa?",
+          "zh": "我们到店里了，你要我们顺便帮你买点什么吗？",
+          "en": "We're at the shop. Want us to pick anything up for you?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Roti satu je. Nanti aku bayar bila korang balik.",
+          "ms_standard": "Tolong belikan saya sebuku roti sahaja. Saya akan membayarnya apabila kamu semua pulang nanti.",
+          "zh": "帮我买一条面包就行。你们回来后我给钱。",
+          "en": "Just a loaf of bread, please. I'll pay you when you get back."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kitorang compresses kita orang into a conversational pronoun. Although standard kita normally includes the listener, this colloquial combination commonly functions like kami, excluding the listener. Research on slang in Nadia Khan's novel Kelabu records that relationship. The form shows how a familiar expression can acquire a grammatical meaning different from a literal reading of its parts. [UKM study](https://ejournal.ukm.my/jmelayu/article/download/60140/13675)",
+    "cognitive_memory_aid": "kita + orang 快说成 kitorang：记作“我们这帮人”，通常不把正在听的人算进去。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合朋友、熟悉同事和轻松群聊。正式邮件、考试作文、对外报告或初次接触客户时，通常改用 kami；它本身不是粗话。",
+    "usage_etiquette": "邀请对方共同参与时，要留意包容关系：kita 通常包含听话者，kitorang 通常不包含。若担心产生距离感，可以直接说明参与者，或用 kita 一起提出行动。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合朋友、熟悉同事和轻松群聊。正式邮件、考试作文、对外报告或初次接触客户时，通常改用 kami；它本身不是粗话。",
+    "usage_etiquette": "邀请对方共同参与时，要留意包容关系：kita 通常包含听话者，kitorang 通常不包含。若担心产生距离感，可以直接说明参与者，或用 kita 一起提出行动。"
+  }
+}

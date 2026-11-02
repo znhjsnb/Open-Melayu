@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "pemotong",
+    "syllables": "pe.mo.tong",
+    "ipa": "/pəˈmotoŋ/",
+    "jawi": "ڤموتوڠ",
+    "frequency_rank": 8042,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pemotong",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + potong → pemotong",
+    "pattern_note": "实际词根为 potong（ڤوتوڠ）；peN- 遇首音 p 时变为 pem-，p 脱落，形成表示施事者或工具的名词。ng 表示单一鼻音 /ŋ/。root_word 和 root_jawi 保留输入包记录。",
+    "word_family": [
+      {
+        "word": "potong",
+        "affix": "∅",
+        "gloss": "切；割"
+      },
+      {
+        "word": "memotong",
+        "affix": "meN-",
+        "gloss": "切割；削减"
+      },
+      {
+        "word": "potongan",
+        "affix": "-an",
+        "gloss": "切下的部分；扣减额"
+      },
+      {
+        "word": "pemotongan",
+        "affix": "peN-...-an",
+        "gloss": "切割或削减的过程"
+      }
+    ],
+    "root_jawi": "ڤموتوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "从事切、割、砍等工作的人；切割工。",
+      "en_definition": "A person who cuts, especially as an occupation.",
+      "ms_definition": "Orang yang memotong.",
+      "nuances": "后接材料或工作对象时，可表示特定工种；须结合语境区分工人与工具。pemotong getah 在传统用法中指割胶工，常见的明确称呼是 penoreh getah。参见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=pemotong)。",
+      "collocations": [
+        {
+          "ms": "pemotong kayu",
+          "zh": "伐木工；切木工",
+          "en": "woodcutter"
+        },
+        {
+          "ms": "pemotong getah",
+          "zh": "割胶工",
+          "en": "rubber tapper"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于切、割、剪或截断物体的工具或机器。",
+      "en_definition": "A tool or machine used for cutting.",
+      "ms_definition": "Alat untuk memotong.",
+      "nuances": "常与被切对象组合成工具名称，如 pemotong kertas。mesin pemotong 强调机器，alat pemotong 泛指切割工具；不可把 pemotong 与表示切割过程的 pemotongan 混用。",
+      "collocations": [
+        {
+          "ms": "pemotong kertas",
+          "zh": "裁纸器",
+          "en": "paper cutter"
+        },
+        {
+          "ms": "pemotong rumput",
+          "zh": "割草机；割草工具",
+          "en": "grass cutter"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Unit pentadbiran akan menggantikan pemotong kertas yang rosak bagi melancarkan urusan penyediaan dokumen.",
+      "zh": "行政部门将更换损坏的裁纸器，以确保文件准备工作顺利进行。",
+      "en": "The administration unit will replace the broken paper cutter to keep document preparation running smoothly."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pemotong kertas tu ada kat mana? Aku nak guna kejap.",
+      "ms_standard": "Pemotong kertas itu ada di mana? Saya mahu menggunakannya sebentar.",
+      "zh": "那个裁纸器放哪儿了？我想用一下。",
+      "en": "Where's the paper cutter? I need it for a minute.",
+      "spoken_features": [
+        "kat 对应 di。",
+        "nak 对应 mahu。",
+        "kejap 对应 sekejap 或 sebentar。",
+        "tu 对应 itu；熟人对话中常省略可由语境补出的成分。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pemotong kertas tu ada kat mana? Aku nak guna kejap.",
+          "ms_standard": "Pemotong kertas itu ada di mana? Saya mahu menggunakannya sebentar.",
+          "zh": "那个裁纸器放哪儿了？我想用一下。",
+          "en": "Where's the paper cutter? I need it for a minute."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ada kat sebelah pencetak je. Aku dah letak situ tadi.",
+          "ms_standard": "Pemotong kertas itu ada di sebelah pencetak. Saya sudah meletakkannya di situ tadi.",
+          "zh": "就在打印机旁边。我刚才放那儿了。",
+          "en": "It's right next to the printer. I put it there earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pemotong illustrates a productive Malay naming pattern rather than a separate imported title. From potong, meaning cut, peN- forms a noun for either the person doing the work or the implement performing it. The dictionary preserves both meanings, including the traditional rubber tapper, so a single form connects human skill with the tools that extend it. See [DBP's word family](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=potong).",
+    "cognitive_memory_aid": "potong＝切；peN- 标记“做这件事的人或工具”：pemotong 就是“切的人”或“切的工具”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "职业称谓本身中性；当面称呼工作人员宜用姓名、Encik 或 Puan，避免直接把工种当作呼喊称呼。",
+    "usage_etiquette": "采购、维修和借用工具时，补出用途最清楚，如 pemotong kertas。谈职业时应尊重劳动者；割胶工通常称 penoreh getah。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "职业称谓本身中性；当面称呼工作人员宜用姓名、Encik 或 Puan，避免直接把工种当作呼喊称呼。",
+    "usage_etiquette": "采购、维修和借用工具时，补出用途最清楚，如 pemotong kertas。谈职业时应尊重劳动者；割胶工通常称 penoreh getah。"
+  }
+}

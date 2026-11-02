@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "thank",
+    "syllables": null,
+    "ipa": "/θæŋk/",
+    "jawi": null,
+    "frequency_rank": 8121,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "thank",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + thank → thank",
+    "pattern_note": "这是英语词根，不适用马来语词缀规则。英语标准读音以 /θ/ 起首；不能由马来语拼写规则推导其读音。",
+    "word_family": [
+      {
+        "word": "thankful",
+        "affix": "-ful",
+        "gloss": "感激的；英语派生词"
+      },
+      {
+        "word": "thankless",
+        "affix": "-less",
+        "gloss": "费力不讨好的；英语派生词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "英语及语码转换用语：向某人表示感谢；标准马来语对应 berterima kasih kepada 或 mengucapkan terima kasih kepada。",
+      "en_definition": "English: to express gratitude to someone.",
+      "ms_definition": "Kata kerja bahasa Inggeris yang bermaksud berterima kasih kepada seseorang atau mengucapkan terima kasih kepadanya; bukan takrif bagi kata Melayu baku.",
+      "nuances": "输入包没有提供马来语官方词条依据，因此不能标为 official。保留该输入项并标为 foreign；IPA 为英语读音，缺失的分音和 Jawi 保留 null。以下搭配中的 ms 字段承载英语原式，供辨识语码转换使用。英语释义依据：[Merriam-Webster：thank](https://www.merriam-webster.com/dictionary/thank)。",
+      "collocations": [
+        {
+          "ms": "thank you",
+          "zh": "谢谢你；英语表达",
+          "en": "thank you"
+        },
+        {
+          "ms": "thank someone for their help",
+          "zh": "感谢某人的帮助；英语表达",
+          "en": "express gratitude to someone for their help"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "英语固定结构中的引申义：把某种结果归因于某人，常含责怪或反讽意味。",
+      "en_definition": "English, in restricted constructions: to hold someone responsible for an outcome, often ironically.",
+      "ms_definition": "Dalam ungkapan tertentu bahasa Inggeris, menganggap seseorang sebagai pihak yang menyebabkan sesuatu hasil, sering dengan maksud menyalahkan atau menyindir.",
+      "nuances": "此义限于英语结构，如 have only yourself to thank；不能据此在标准马来语中直接使用 thank。可按语境译为 menyalahkan diri sendiri 或 berpunca daripada perbuatan sendiri。",
+      "collocations": [
+        {
+          "ms": "have only yourself to thank",
+          "zh": "只能怪你自己；英语惯用语",
+          "en": "have nobody but yourself to blame"
+        },
+        {
+          "ms": "have someone to thank for something",
+          "zh": "某事得归因于某人；可含反讽",
+          "en": "owe an outcome to someone, sometimes ironically"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam surat rasmi bahasa Melayu, ungkapan bahasa Inggeris \"thank you\" hendaklah digantikan dengan \"terima kasih\".",
+      "zh": "在马来语正式信函中，英语表达“thank you”应改为“terima kasih”。",
+      "en": "In a formal Malay letter, the English expression \"thank you\" should be replaced with \"terima kasih\"."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Thank you sebab dah tolong aku tadi!",
+      "ms_standard": "Terima kasih kerana membantu saya tadi.",
+      "zh": "谢谢你刚才帮我啦！",
+      "en": "Thanks for helping me earlier!",
+      "spoken_features": [
+        "thank you 是英语插入语，整句属于语码转换",
+        "dah 是 sudah 的口语形式",
+        "sebab 在此口语句中对应标准表达 kerana",
+        "aku 适用于关系亲近且接受这种称呼的同辈"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Thank you sebab dah tolong aku tadi! Kalau tak, memang lambat aku siap.",
+          "ms_standard": "Terima kasih kerana membantu saya tadi. Jika tidak, saya tentu mengambil masa yang lama untuk menyiapkannya.",
+          "zh": "谢谢你刚才帮我！不然我肯定还要忙很久。",
+          "en": "Thanks for helping me earlier! It would've taken me ages otherwise."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Sama-sama! Aku tolong sikit je. Esok kalau nak bantuan lagi, bagitahu.",
+          "ms_standard": "Sama-sama. Saya hanya membantu sedikit. Jika kamu memerlukan bantuan lagi esok, beritahu saya.",
+          "zh": "不客气！我就帮了一点点。明天还需要帮忙的话，跟我说。",
+          "en": "You're welcome! I only helped a little. Let me know if you need a hand again tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English thank comes through Middle English from Old English thancian, associated with thanc, meaning gratitude. It therefore has an English history rather than a Malay derivational history. In a Malay conversation, thank you can function as an English insertion; its presence does not establish thank as a standard Malay headword. [Source: Merriam-Webster](https://www.merriam-webster.com/dictionary/thank).",
+    "cognitive_memory_aid": "把 thank you 和 terima kasih 配对记忆：意思相近，语言身份不同；thank 后通常接感谢的对象。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "英语 thank you 可用于双方熟悉英语的交流；正式马来语表达使用 terima kasih。面对长辈或上司时，可加适当称谓，如 Terima kasih, puan。",
+    "usage_etiquette": "本项用于识别英语及混合语言材料，不作为官方马来语词条。不可把单独的 thank 当作标准马来语的“谢谢”，也不可把 thank、thanks 和 thank you 的英语语法用法完全混同。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "英语 thank you 可用于双方熟悉英语的交流；正式马来语表达使用 terima kasih。面对长辈或上司时，可加适当称谓，如 Terima kasih, puan。",
+    "usage_etiquette": "本项用于识别英语及混合语言材料，不作为官方马来语词条。不可把单独的 thank 当作标准马来语的“谢谢”，也不可把 thank、thanks 和 thank you 的英语语法用法完全混同。"
+  }
+}
