@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "difahami",
+    "syllables": "di.fa.ham.i",
+    "ipa": "/di.fa.ham.i/",
+    "jawi": null,
+    "frequency_rank": 3995,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "faham",
+    "affix": "di-...-i",
+    "affix_type": "circumfix",
+    "formula": "di- + faham + -i → difahami；主动对应形式：memahami",
+    "pattern_note": "di- 是被动前缀，与词干连写；-i 保留为末尾音节。此处把 di- 与 -i 合记为 circumfix，以对应给定结构；di- 本身标示被动。词根为 faham，不能把 difahami 标为根词。被动形式保留词首 f。",
+    "word_family": [
+      {
+        "word": "memahami",
+        "affix": "meN-...-i",
+        "gloss": "理解；体谅"
+      },
+      {
+        "word": "pemahaman",
+        "affix": "peN-...-an",
+        "gloss": "理解过程；理解所得"
+      },
+      {
+        "word": "kefahaman",
+        "affix": "ke-...-an",
+        "gloss": "理解能力；理解程度"
+      },
+      {
+        "word": "difahamkan",
+        "affix": "di-...-kan",
+        "gloss": "被告知；据悉"
+      }
+    ],
+    "root_jawi": "فهم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被理解；内容、意思或原理为某人所领会。",
+      "en_definition": "To be understood or comprehended.",
+      "ms_definition": "Diketahui dan dimengerti dengan jelas oleh seseorang; bentuk pasif bagi memahami.",
+      "nuances": "句子主语通常是被理解的内容。difahami 不表示过去时；是否已经理解由 sudah、telah 等或上下文表达。mudah difahami 意为“容易理解”，不表示已经有人理解。这里的马来语释义是依据词根义项编写的被动释义，并非 DBP 独立词条原文。[DBP：faham 与 memahami](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=faham)",
+      "collocations": [
+        {
+          "ms": "mudah difahami",
+          "zh": "容易理解",
+          "en": "easy to understand"
+        },
+        {
+          "ms": "sukar difahami",
+          "zh": "难以理解",
+          "en": "difficult to understand"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被体谅；某人的感受、处境或需要得到他人的理解。",
+      "en_definition": "To be understood sympathetically, especially with regard to feelings or circumstances.",
+      "ms_definition": "Diselami dan dimengerti perasaan atau keadaannya oleh orang lain.",
+      "nuances": "强调对人的内心或处境的理解；得到体谅并不等于行为获准或观点获赞同。对应 DBP memahami 的“体察他人感受”义。[DBP：memahami](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=faham)",
+      "collocations": [
+        {
+          "ms": "perasaan yang difahami",
+          "zh": "得到理解的感受",
+          "en": "feelings that are understood"
+        },
+        {
+          "ms": "ingin difahami",
+          "zh": "希望被理解",
+          "en": "want to be understood"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被理解为；被看作具有某种含义或性质。",
+      "en_definition": "To be interpreted or regarded as something.",
+      "ms_definition": "Ditafsirkan atau dianggap sebagai sesuatu berdasarkan pengertian seseorang.",
+      "nuances": "常用 difahami sebagai 引出解释结果。该结构表示一种解读，不保证它是唯一正确的解释；对应 memahami 的 memandang、menganggap 义。[DBP：memahami](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=faham)",
+      "collocations": [
+        {
+          "ms": "difahami sebagai persetujuan",
+          "zh": "被理解为同意",
+          "en": "be interpreted as agreement"
+        },
+        {
+          "ms": "difahami dalam konteks",
+          "zh": "结合语境理解",
+          "en": "be understood in context"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Panduan ini disediakan dalam bahasa yang mudah difahami oleh semua kakitangan.",
+      "zh": "本指南采用全体员工都容易理解的语言编写。",
+      "en": "This guide is written in language that all staff can easily understand."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论说明文件",
+      "ms_spoken": "Versi baru ni lebih senang difahami, kan?",
+      "ms_standard": "Versi baharu ini lebih mudah difahami, bukan?",
+      "zh": "这个新版比较好懂了，对吧？",
+      "en": "This new version is easier to understand, right?",
+      "spoken_features": [
+        "ni 是 ini 的口语形式",
+        "senang 在此口语语境中对应 mudah",
+        "kan 用于寻求对方认同",
+        "difahami 保留完整形式，适合讨论文件内容的口语场景"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku dah baca panduan tu. Bahagian ni susah difahami lah.",
+          "ms_standard": "Saya sudah membaca panduan itu. Bahagian ini sukar difahami.",
+          "zh": "我看过那份指南了，这部分真有点难懂。",
+          "en": "I've read the guide. This part is hard to follow."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku tambah contoh kat situ nanti, senang sikit nak faham.",
+          "ms_standard": "Saya akan menambahkan contoh pada bahagian itu supaya lebih mudah difahami.",
+          "zh": "我等下在那里加个例子，就比较容易懂了。",
+          "en": "I'll add an example there to make it easier to follow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Difahami illustrates how Malay builds a grammatical family around faham. The active memahami places the understander in focus, while difahami presents the content or person being understood. DBP also records pemahaman and kefahaman, showing how this family distinguishes understanding as an activity, its resulting interpretation, and a person's capacity to comprehend. [DBP：faham](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=faham)",
+    "cognitive_memory_aid": "faham 是“懂”；看见前面的 di-，就把镜头转向“被懂的内容”：difahami＝被理解。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向同事或长辈询问说明是否清楚时，可说 Adakah penjelasan ini mudah difahami?，把焦点放在说明的清晰度上。",
+    "usage_etiquette": "适用于教学、工作说明及表达希望获得理解。注意区分 difahami“被理解”和 difahamkan“被告知；据悉”，两者不能随意互换。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向同事或长辈询问说明是否清楚时，可说 Adakah penjelasan ini mudah difahami?，把焦点放在说明的清晰度上。",
+    "usage_etiquette": "适用于教学、工作说明及表达希望获得理解。注意区分 difahami“被理解”和 difahamkan“被告知；据悉”，两者不能随意互换。"
+  }
+}

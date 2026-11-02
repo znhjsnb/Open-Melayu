@@ -1,0 +1,139 @@
+{
+  "headword": {
+    "word": "dibatalkan",
+    "syllables": null,
+    "ipa": "/di.ba.tal.kan/",
+    "jawi": null,
+    "frequency_rank": 4006,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "batal",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + batal + -kan → dibatalkan",
+    "pattern_note": "修正输入包的词根误判：词根为 batal。di- 表示被动，-kan 构成及物动词；词根首音 b 保留，不发生鼻音交替。di- 与词干连写；该词本身不标记过去时。",
+    "word_family": [
+      {
+        "word": "batal",
+        "affix": "∅",
+        "gloss": "无效；取消；未能实行"
+      },
+      {
+        "word": "membatalkan",
+        "affix": "meN-...-kan",
+        "gloss": "取消；使无效"
+      },
+      {
+        "word": "pembatalan",
+        "affix": "peN-...-an",
+        "gloss": "取消；撤销这一行为"
+      },
+      {
+        "word": "terbatal",
+        "affix": "ter-",
+        "gloss": "失效；处于已取消状态"
+      },
+      {
+        "word": "pembatal",
+        "affix": "peN-",
+        "gloss": "使某事无效的人或因素"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被取消；原定进行的活动、安排或计划被决定不再实行。",
+      "en_definition": "To be cancelled or called off.",
+      "ms_definition": "Ditiadakan atau diputuskan supaya sesuatu rancangan atau kegiatan tidak diteruskan.",
+      "nuances": "强调安排被取消，不等于 ditangguhkan（被推迟）。是否已经取消，须由 telah、sudah 或上下文确定。[DBP：batal](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=batal)",
+      "collocations": [
+        {
+          "ms": "penerbangan dibatalkan",
+          "zh": "航班被取消",
+          "en": "a flight is cancelled"
+        },
+        {
+          "ms": "mesyuarat dibatalkan",
+          "zh": "会议被取消",
+          "en": "a meeting is called off"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被撤销或宣告无效；协议、许可或文件等的效力被取消。",
+      "en_definition": "To be revoked, annulled, or declared invalid.",
+      "ms_definition": "Dinyatakan tidak sah atau ditarik balik keberlakuannya.",
+      "nuances": "具体英语译法依对象而定：许可可用 revoked，协议可用 annulled。单凭 dibatalkan 不能判断撤销是否具有追溯效力。[DBP：batal](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=batal)",
+      "collocations": [
+        {
+          "ms": "lesen dibatalkan",
+          "zh": "执照被撤销",
+          "en": "a licence is revoked"
+        },
+        {
+          "ms": "perjanjian dibatalkan",
+          "zh": "协议被撤销",
+          "en": "an agreement is annulled"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 工作通知",
+      "ms": "Dimaklumkan bahawa mesyuarat yang dijadualkan pada petang ini telah dibatalkan atas sebab yang tidak dapat dielakkan.",
+      "zh": "兹通知，原定于今天下午举行的会议因不可避免的原因已取消。",
+      "en": "Please be informed that the meeting scheduled for this afternoon has been cancelled due to unavoidable circumstances."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认安排",
+      "ms_spoken": "Mesyuarat petang ni dah dibatalkan, jadi tak payah datang pejabat.",
+      "ms_standard": "Mesyuarat petang ini sudah dibatalkan, jadi awak tidak perlu datang ke pejabat.",
+      "zh": "今天下午的会已经取消了，你不用来办公室了。",
+      "en": "This afternoon's meeting has been cancelled, so you don't need to come into the office.",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略形式",
+        "dah 对应 sudah",
+        "tak payah 表示 tidak perlu",
+        "口语中可省略已明确的主语和方向介词"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Mesyuarat petang ni dah dibatalkan ke?",
+          "ms_standard": "Adakah mesyuarat petang ini sudah dibatalkan?",
+          "zh": "今天下午的会已经取消了吗？",
+          "en": "Has this afternoon's meeting been cancelled?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, dah dibatalkan. Bos kata bincang dalam grup je.",
+          "ms_standard": "Ya, sudah dibatalkan. Ketua mengatakan bahawa kita akan berbincang dalam kumpulan sembang sahaja.",
+          "zh": "对，已经取消了。老板说在群里讨论就行。",
+          "en": "Yes, it has. The boss said we'll just discuss it in the group chat."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "An early Malay-English vocabulary already identifies batal as Arabic in origin and associates it with ineffectiveness. Modern Malay uses the word for invalidity and cancelled plans. Its integration into Malay grammar is visible in membatalkan and dibatalkan: a borrowed base combines with productive Malay affixes to express active and passive actions. [Historical vocabulary](https://id.wikisource.org/wiki/Halaman%3AMalay-English_vocabulary.djvu/28)",
+    "cognitive_memory_aid": "先记 batal＝不算数、取消；di- 把视角转向承受者：mesyuarat dibatalkan＝会议被取消。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式取消活动时，宜说明对象、日期与原因，并在影响他人安排时致歉，例如 Mohon maaf atas kesulitan yang timbul。",
+    "usage_etiquette": "适用于通知、行政处理及日常安排。取消与改期须分清；涉及许可或协议时，应明确由谁决定、何时生效。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式取消活动时，宜说明对象、日期与原因，并在影响他人安排时致歉，例如 Mohon maaf atas kesulitan yang timbul。",
+    "usage_etiquette": "适用于通知、行政处理及日常安排。取消与改期须分清；涉及许可或协议时，应明确由谁决定、何时生效。"
+  }
+}

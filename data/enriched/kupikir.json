@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "kupikir",
+    "syllables": null,
+    "ipa": "/ku.pi.kir/",
+    "jawi": null,
+    "frequency_rank": 3529,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pikir",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku-（aku 的附着形式） + pikir → kupikir",
+    "pattern_note": "这是印度尼西亚语形式：ku- 是第一人称代词前附着语，并非普通派生前缀；连接时保留 pikir 的 p。输入包将整个形式标为词根并不符合其实际构造。马来西亚标准马来语通常写 saya fikir 或 saya sangka。",
+    "word_family": [
+      {
+        "word": "berpikir",
+        "affix": "ber-",
+        "gloss": "思考；印度尼西亚语，马来西亚对应形式为 berfikir"
+      },
+      {
+        "word": "memikirkan",
+        "affix": "meN-...-kan",
+        "gloss": "考虑；思量"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "我认为；我想。印度尼西亚语中表示说话者的判断或看法，包含第一人称主语意义。",
+      "en_definition": "Indonesian: I think; I consider or believe that something is the case.",
+      "ms_definition": "Bentuk bahasa Indonesia yang bermaksud saya fikir atau saya berpendapat.",
+      "nuances": "不应标为马来西亚标准马来语官方词目。这里的马来语释义是说明性释义，并非 DBP 对 kupikir 的官方释文。以下搭配保留印度尼西亚语原文，ms 字段不表示它们属于标准马来语。IPA 为宽式分段标音，未指定重音。[KBBI：pikir](https://kbbi.kemendikdasmen.go.id/entri/pikir)、[印度尼西亚官方拼写规则：ku-](https://ejaan.kemendikdasmen.go.id/eyd/penulisan-kata/kata-ganti/)、[DBP：fikir](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=fikir)。",
+      "collocations": [
+        {
+          "ms": "kupikir begitu",
+          "zh": "我也这么认为",
+          "en": "I think so"
+        },
+        {
+          "ms": "kupikir lebih baik",
+          "zh": "我认为最好……",
+          "en": "I think it would be better"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "我原以为；我本来以为。用于回顾先前的判断，常暗示后来发现事实有所不同。",
+      "en_definition": "Indonesian: I thought or had assumed, often introducing an expectation later contradicted.",
+      "ms_definition": "Bentuk bahasa Indonesia yang, mengikut konteks, bermaksud saya sangka atau pada mulanya saya menyangka.",
+      "nuances": "词形本身没有过去时标记；“原以为”的解释来自上下文，不能把 kupikir 一律译为过去时。马来西亚日常口语可根据情境说 saya ingat 或 aku ingat。",
+      "collocations": [
+        {
+          "ms": "kupikir sudah selesai",
+          "zh": "我原以为已经结束了",
+          "en": "I thought it was already over"
+        },
+        {
+          "ms": "kupikir kamu tahu",
+          "zh": "我原以为你知道",
+          "en": "I thought you knew"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "翻译说明 / 编辑工作；引用印度尼西亚语形式",
+      "ms": "Dalam terjemahan untuk pembaca Malaysia, ungkapan bahasa Indonesia “kupikir” boleh dipadankan dengan “saya fikir” atau “saya sangka” mengikut konteks.",
+      "zh": "在面向马来西亚读者的译文中，印度尼西亚语表达 kupikir 可以根据上下文译为 saya fikir 或 saya sangka。",
+      "en": "In translations for Malaysian readers, the Indonesian expression kupikir can be rendered as saya fikir or saya sangka, depending on the context."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论收到的信息",
+      "ms_spoken": "Dia tulis “kupikir” kat mesej tu. Maksudnya “saya fikir”, kan?",
+      "ms_standard": "Dia menulis “kupikir” dalam mesej itu. Maksudnya “saya fikir”, bukan?",
+      "zh": "他在那条信息里写了 kupikir，就是“我觉得”的意思，对吧？",
+      "en": "They wrote kupikir in that message. It means “I think,” right?",
+      "spoken_features": [
+        "kat 是口语位置介词，此处标准语用 dalam",
+        "tu 对应标准语 itu",
+        "句末 kan 用于寻求确认",
+        "目标形式作为印度尼西亚语引文出现"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dia tulis “kupikir” kat mesej tu. Maksudnya “saya fikir”, kan?",
+          "ms_standard": "Dia menulis “kupikir” dalam mesej itu. Maksudnya “saya fikir”, bukan?",
+          "zh": "他在那条信息里写了 kupikir，就是“我觉得”的意思，对吧？",
+          "en": "They wrote kupikir in that message. It means “I think,” right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah. Tapi kalau dia dah tahu sangkaan dia salah, maksudnya “saya sangka”.",
+          "ms_standard": "Ya. Namun, jika dia sudah mengetahui bahawa sangkaannya salah, maksudnya ialah “saya sangka”.",
+          "zh": "对。不过，要是他已经知道自己想错了，那就是“我原以为”的意思。",
+          "en": "Yeah. But if they already know their assumption was wrong, it means “I thought.”"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kupikir illustrates how closely related national languages can package familiar material differently. Indonesian joins the bound first-person form ku- to the following word, producing kupikir. Its base is spelled pikir in Indonesian, while Malaysian Malay normally uses fikir. Recognizing that difference helps readers understand Indonesian dialogue without treating every familiar-looking expression as standard Malaysian usage.",
+    "cognitive_memory_aid": "把 ku 联想到 aku（我），把 pikir 对照马来语 fikir（想）：ku + pikir 就是“我想”。记住：马来西亚日常表达优先用 saya fikir。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 与 aku 有关，带有个人、亲近或文学表达色彩；不能机械地视为正式场合 saya 的替代形式。向客户、长辈或上级表达意见时，马来西亚语境通常用 saya berpendapat 或 pada pendapat saya。",
+    "usage_etiquette": "适合阅读印度尼西亚语对话、歌词和文学作品，或明确引用原文。马来西亚公文、考试作文和正式汇报宜使用符合当地标准的表达。不要把印度尼西亚语的规范拼写误称为该语言本身的错误拼写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 与 aku 有关，带有个人、亲近或文学表达色彩；不能机械地视为正式场合 saya 的替代形式。向客户、长辈或上级表达意见时，马来西亚语境通常用 saya berpendapat 或 pada pendapat saya。",
+    "usage_etiquette": "适合阅读印度尼西亚语对话、歌词和文学作品，或明确引用原文。马来西亚公文、考试作文和正式汇报宜使用符合当地标准的表达。不要把印度尼西亚语的规范拼写误称为该语言本身的错误拼写。"
+  }
+}

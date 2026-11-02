@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "ditugaskan",
+    "syllables": null,
+    "ipa": "/di.tu.ɡas.kan/",
+    "jawi": null,
+    "frequency_rank": 4045,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tugas",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + tugas + -kan → ditugaskan",
+    "pattern_note": "di- 表示被动，-kan 参与构成“分派任务”的动词；词根 tugas 不变。此处 circumfix 为前后缀组合的模式标签。",
+    "word_family": [
+      {
+        "word": "bertugas",
+        "affix": "ber-",
+        "gloss": "执行职务；值勤"
+      },
+      {
+        "word": "menugaskan",
+        "affix": "meN-...-kan",
+        "gloss": "指派；分派任务"
+      },
+      {
+        "word": "tugasan",
+        "affix": "-an",
+        "gloss": "指定任务；作业"
+      },
+      {
+        "word": "penugasan",
+        "affix": "peN-...-an",
+        "gloss": "任务分派；派任"
+      }
+    ],
+    "root_jawi": "توݢس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被指派执行某项任务；被安排承担某种职责或到某处工作。",
+      "en_definition": "To be assigned a duty or appointed to carry out particular work.",
+      "ms_definition": "Diberi tanggungjawab atau diarahkan untuk melaksanakan sesuatu pekerjaan atau menjalankan tugas tertentu.",
+      "nuances": "常见结构为 seseorang ditugaskan untuk melakukan sesuatu、ditugaskan sebagai... 或 ditugaskan ke sesuatu tempat。强调任务来自安排或指派，本身不表示升职，也不限定过去时。释义依 menugaskan 的词典义综合编写。[DBP：tugas](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tugas)",
+      "collocations": [
+        {
+          "ms": "ditugaskan untuk menyiasat",
+          "zh": "被指派进行调查",
+          "en": "assigned to investigate"
+        },
+        {
+          "ms": "ditugaskan sebagai penyelaras",
+          "zh": "被指派担任协调员",
+          "en": "assigned to serve as coordinator"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "某项工作或责任被分派给某人承担。",
+      "en_definition": "Of work or responsibility, to be allocated to someone as a duty.",
+      "ms_definition": "Diserahkan kepada seseorang sebagai pekerjaan atau tanggungjawab yang perlu dilaksanakan.",
+      "nuances": "这是同一分派关系的另一种句法表达，主语为工作：Tugas itu ditugaskan kepada mereka。不要把 tugas yang ditugaskan 翻成“被派任的人员”。",
+      "collocations": [
+        {
+          "ms": "kerja yang ditugaskan",
+          "zh": "被分派的工作",
+          "en": "assigned work"
+        },
+        {
+          "ms": "ditugaskan kepada pasukan khas",
+          "zh": "被交由专门小组负责",
+          "en": "assigned to a special team"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Tiga orang pegawai ditugaskan untuk menyiasat punca gangguan bekalan air di kawasan tersebut.",
+      "zh": "三名官员受命调查该地区供水中断的原因。",
+      "en": "Three officers have been assigned to investigate the cause of the water supply disruption in the area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku ditugaskan jaga kaunter esok. Kau dah dapat jadual?",
+      "ms_standard": "Saya ditugaskan untuk menjaga kaunter esok. Adakah kamu sudah menerima jadual?",
+      "zh": "我明天被安排顾柜台。你收到值班表了吗？",
+      "en": "I've been assigned to cover the counter tomorrow. Have you got the schedule yet?",
+      "spoken_features": [
+        "口语省略 untuk，并以 jaga 对应 menjaga。",
+        "aku、kau 适用于关系熟悉的同事。",
+        "dah 对应 sudah；dapat 在此对应 menerima。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Aku ditugaskan jaga kaunter esok. Kau dah dapat jadual?",
+          "ms_standard": "Saya ditugaskan untuk menjaga kaunter esok. Adakah kamu sudah menerima jadual?",
+          "zh": "我明天被安排顾柜台。你收到值班表了吗？",
+          "en": "I've been assigned to cover the counter tomorrow. Have you got the schedule yet?"
+        },
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Dah. Aku kat kaunter sebelah je. Kalau nak bantuan, panggil aku.",
+          "ms_standard": "Sudah. Saya akan berada di kaunter bersebelahan sahaja. Jika kamu memerlukan bantuan, panggillah saya.",
+          "zh": "收到了。我就在旁边那个柜台。要帮忙就叫我。",
+          "en": "Yes. I'll be at the next counter. Just call me if you need a hand."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The modern word family turns an abstract duty into a network of roles: tugas is the duty, bertugas means carrying it out, and petugas names the person doing it. Ditugaskan shifts attention to the assignment received. Its structure suits notices, duty rosters, and workplace reports, where readers need to know who is responsible and what must be done.",
+    "cognitive_memory_aid": "抓住中间的 tugas“任务”：di-…-kan 把任务交到某人手上，因此是“被指派”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是行政和职场中的中性正式用语。向上级说明职责可说 Saya telah ditugaskan untuk...；向他人分派工作时，明确任务、期限和支持条件更得体。",
+    "usage_etiquette": "适合会议记录、学校分工、值班通知及新闻报道。朋友间临时请人帮忙，boleh tolong...? 通常比直接使用任务分派口吻自然。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是行政和职场中的中性正式用语。向上级说明职责可说 Saya telah ditugaskan untuk...；向他人分派工作时，明确任务、期限和支持条件更得体。",
+    "usage_etiquette": "适合会议记录、学校分工、值班通知及新闻报道。朋友间临时请人帮忙，boleh tolong...? 通常比直接使用任务分派口吻自然。"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "kuharap",
+    "syllables": "ku.ha.rap",
+    "ipa": "/ku.ha.rap/",
+    "jawi": null,
+    "frequency_rank": 4164,
+    "status": "official",
+    "status_note": "符合 ku- 连写规则的形式，并非独立词根；官方性指规范构形，不表示已核实为独立词典词目。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "harap",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku-（aku 的前附着形式）+ harap → kuharap",
+    "pattern_note": "ku- 是第一人称代词前附着成分，须与后词连写；并非普通派生前缀。连接 harap 时不发生音变。输入将整词标为词根，此处予以更正。[DBP 连写说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=fikir)。",
+    "word_family": [
+      {
+        "word": "berharap",
+        "affix": "ber-",
+        "gloss": "希望；期盼"
+      },
+      {
+        "word": "harapan",
+        "affix": "-an",
+        "gloss": "希望；期望"
+      },
+      {
+        "word": "mengharapkan",
+        "affix": "meN-...-kan",
+        "gloss": "期望；指望"
+      }
+    ],
+    "root_jawi": "هارڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "我希望；我期盼。由第一人称附着代词 ku- 与 harap 组成，用来表达说话者希望某事发生。",
+      "en_definition": "I hope; I wish for something to happen.",
+      "ms_definition": "Aku berharap atau menginginkan supaya sesuatu berlaku.",
+      "nuances": "整项实际上包含主语与谓语，pos 按谓语核心标为 verb。常带文学、抒情或亲近语气；正式事务沟通通常用 saya berharap。以下释义依据 harap 整理，并非 kuharap 的官方逐字释义。[DBP：harap](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=harap)。",
+      "collocations": [
+        {
+          "ms": "kuharap kau faham",
+          "zh": "我希望你明白",
+          "en": "I hope you understand"
+        },
+        {
+          "ms": "kuharap semuanya berjalan lancar",
+          "zh": "我希望一切顺利",
+          "en": "I hope everything goes smoothly"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 致辞引语",
+      "ms": "Dalam ucapan penutupnya, pengerusi berkata, \"Kuharap kerjasama ini dapat diteruskan demi kepentingan masyarakat.\"",
+      "zh": "主席在闭幕致辞中说：“我希望这项合作能够继续下去，造福社会。”",
+      "en": "In his closing address, the chair said, \"I hope this cooperation will continue for the benefit of the community.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间略带抒情的提醒",
+      "ms_spoken": "Kuharap kau tak lupa janji kita esok, ya.",
+      "ms_standard": "Aku berharap engkau tidak lupa akan janji temu kita esok.",
+      "zh": "希望你没忘了咱们明天的约定呀。",
+      "en": "I hope you haven't forgotten we're meeting tomorrow.",
+      "spoken_features": [
+        "kuharap 在聊天中带一点书面或抒情感；日常也常说 aku harap。",
+        "tak 对应 tidak；kau 对应 engkau。",
+        "句末 ya 使提醒更柔和。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kuharap kau tak lupa janji kita esok, ya.",
+          "ms_standard": "Aku berharap engkau tidak lupa akan janji temu kita esok.",
+          "zh": "希望你没忘了咱们明天的约定呀。",
+          "en": "I hope you haven't forgotten we're meeting tomorrow."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tak lupa lah, aku dah simpan dalam kalendar.",
+          "ms_standard": "Aku tidak lupa; aku sudah mencatatkannya dalam kalendar.",
+          "zh": "没忘啦，我已经记在日历里了。",
+          "en": "Of course I haven't. I've already put it in my calendar."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kuharap illustrates a Malay grammatical tradition rather than a separate lexical invention: ku-, the shortened form of aku, attaches to harap. DBP's pantun collections also preserve the form in verse. For learners, its compact shape connects a personal voice with an expression of hope, while modern formal correspondence generally favors saya berharap. [Attested verse: DBP](https://prpm.dbp.gov.my/Cari1?d=244840&keyword=bubu).",
+    "cognitive_memory_aid": "ku = aku（我），harap = 希望：ku + harap，一眼读出“我希望”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 继承 aku 的亲近或文学语域。对长辈、客户及不熟悉的上级，通常用 saya berharap 更稳妥。",
+    "usage_etiquette": "适合诗歌、歌词、独白及亲近关系中的表达。kuharap kau faham 也可能带不满或施压意味，须结合语气判断。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 继承 aku 的亲近或文学语域。对长辈、客户及不熟悉的上级，通常用 saya berharap 更稳妥。",
+    "usage_etiquette": "适合诗歌、歌词、独白及亲近关系中的表达。kuharap kau faham 也可能带不满或施压意味，须结合语气判断。"
+  }
+}
