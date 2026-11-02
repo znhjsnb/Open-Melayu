@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "sendirian",
+    "syllables": "sen.di.rian",
+    "ipa": "/sən.di.ri.an/",
+    "jawi": "سنديرين",
+    "frequency_rank": 811,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sendiri",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "sendiri + -an → sendirian",
+    "pattern_note": "由 sendiri 加 -an 构成，词尾 i 保留；不把 se-、n 和 diri 临时拆作一套规则。音节字段严格沿用给定 PRPM 的 sen.di.rian；IPA 为标准读音的教学转写。所给 Jawi 已损坏为问号，原样保留，不能当作有效爪夷文；CEFR 为教学估计。",
+    "word_family": [
+      {
+        "word": "sendiri",
+        "affix": "∅",
+        "gloss": "自己；独自"
+      },
+      {
+        "word": "bersendirian",
+        "affix": "ber-…-an",
+        "gloss": "独处；独立进行"
+      },
+      {
+        "word": "menyendiri",
+        "affix": "meN-",
+        "gloss": "独处；避开人群"
+      },
+      {
+        "word": "kesendirian",
+        "affix": "ke-…-an",
+        "gloss": "独处或孤身的状态"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "独自；一个人，没有同伴。",
+      "ms_definition": "seorang diri, tidak berteman",
+      "nuances": "说明没有人陪伴，不必然表示心情孤独；感到寂寞可用 kesepian。sendiri 还可表示“自己的”，如 rumah sendiri；这一所有关系不能直接换成 sendirian。",
+      "collocations": [
+        {
+          "ms": "tinggal sendirian",
+          "zh": "独居",
+          "en": "live alone"
+        },
+        {
+          "ms": "berjalan sendirian",
+          "zh": "独自行走",
+          "en": "walk alone"
+        }
+      ],
+      "en_definition": "Alone; without company."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "独力；没有他人协助；自行发生。",
+      "ms_definition": "tidak dgn bantuan (pertolongan dll) orang lain",
+      "nuances": "强调没有外力帮助，而不只是身旁无人。用于物体时可表示自行发生，如 roboh sendirian；日常表达自动发生也常用 dengan sendirinya。",
+      "collocations": [
+        {
+          "ms": "berjuang sendirian",
+          "zh": "独力奋斗",
+          "en": "struggle on one's own"
+        },
+        {
+          "ms": "mengurus semuanya sendirian",
+          "zh": "独力打理一切",
+          "en": "manage everything single-handedly"
+        }
+      ],
+      "en_definition": "Without help or support from others."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区新闻 / 独居长者关怀",
+      "ms": "Sukarelawan persatuan itu mengunjungi warga emas yang tinggal sendirian untuk bertanya khabar dan menyampaikan bantuan makanan.",
+      "zh": "该协会的志愿者探访独居长者，问候他们并送上食品援助。",
+      "en": "The association's volunteers visited older people living alone to check on them and deliver food aid."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友临时约饭",
+      "ms_spoken": "Kau kat mana? Dah makan ke?",
+      "ms_standard": "Kamu berada di mana? Adakah kamu sudah makan?",
+      "zh": "你在哪儿？吃饭了吗？",
+      "spoken_features": [
+        "kau、aku 适用于彼此习惯这样称呼的熟人；标准改写使用 kamu、saya。",
+        "kat、depan、ni 分别对应 di、di hadapan、ini；此处 ni 用于指示眼前所在的店。",
+        "Nak join tak 是口语邀请，标准改写为是否愿意一起吃饭；jap 对应 sebentar，gi 对应 pergi。",
+        "sendirian 表示独自一人；这里保留该词，随意聊天中也常说 sorang。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Kau kat mana? Dah makan ke?",
+          "ms_standard": "Kamu berada di mana? Adakah kamu sudah makan?",
+          "zh": "你在哪儿？吃饭了吗？",
+          "en": "Where are you? Have you eaten yet?"
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Aku makan sendirian kat kedai mamak depan rumah ni. Nak join tak?",
+          "ms_standard": "Saya sedang makan sendirian di kedai mamak di hadapan rumah. Adakah kamu mahu makan bersama saya?",
+          "zh": "我正一个人在家门前的嘛嘛档吃饭。要过来一起吃吗？",
+          "en": "I'm eating on my own at the mamak place in front of my house. Want to join me?"
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Nak! Tunggu jap, aku jalan kaki gi sana.",
+          "ms_standard": "Ya, saya mahu. Tunggu sebentar, saya akan berjalan kaki ke sana.",
+          "zh": "要！等一下，我走路过去。",
+          "en": "Yeah! Hang on a sec, I'll walk over."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "可中性描述独居或独自行动。谈及长者或单身者时，避免把 sendirian 直接等同于可怜、失落或缺少家人。",
+    "usage_etiquette": "对不熟悉的人可用 saya、anda 或适当称谓；关心对方时先问是否需要陪伴，不把独处当作必须解释的私人问题。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay（马来语内部派生）",
+    "root_origin": "直接构词为 sendiri + -an；PRPM 将 sendirian 列于 sendiri 的派生词族中：https://prpm.dbp.gov.my/Cari1?d=274052&keyword=sendiri 。origin 标示马来语内部构词层，不裁定 sendiri 更早的历史来源。",
+    "historical_story": "sendirian 的形成从表示“自己、独自”的 sendiri 出发，加上 -an，把“一个人”的状态表达得更鲜明。把它放进沿海聚落的生活画面，可以是一人走路，也可以是一人独力做工；这只是帮助理解的场景，并非词语起源事件的记录。现代马来语仍用它区分“没有同伴”和“没有人帮忙”，具体首次出现的年代未由本包资料确定。",
+    "cognitive_memory_aid": "想象一张只有自己坐着的餐桌：sendiri（自己）＋ -an → sendirian（独自）；独自吃饭不一定觉得孤单。"
+  }
+}

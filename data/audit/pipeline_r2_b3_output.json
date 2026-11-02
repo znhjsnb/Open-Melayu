@@ -1,0 +1,292 @@
+{
+  "air": {
+    "context": "WhatsApp / 托朋友顺路买水",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Kau kat kedai lagi ke? Tolong belikan air kosong satu botol. Aku dah haus sangat ni.",
+        "ms_standard": "Adakah kamu masih di kedai? Tolong belikan saya sebotol air kosong. Saya sudah sangat haus.",
+        "zh": "你还在店里吗？帮我买一瓶白水。我现在渴得不行了。"
+      },
+      {
+        "speaker": "Farhan (朋友)",
+        "ms_spoken": "Haah, aku kat kedai lagi. Nak yang sejuk ke biasa?",
+        "ms_standard": "Ya, saya masih di kedai. Adakah kamu mahu air sejuk atau air pada suhu bilik?",
+        "zh": "对，我还在店里。要冰的还是常温的？"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Yang sejuk, botol besar sikit ya. Nanti aku transfer duit.",
+        "ms_standard": "Tolong belikan air sejuk dalam botol yang agak besar. Saya akan memindahkan wang kepada kamu nanti.",
+        "zh": "要冰的，买大一点的瓶装水哈。等下我转钱给你。"
+      }
+    ],
+    "spoken_features": [
+      "kat、dah、ni 分别对应 di、sudah、ini；句末 ke 构成口语疑问。",
+      "air kosong 指白水；买瓶装水时，sejuk ke biasa 通常是在问冰的还是常温的。",
+      "haah 是口语中的肯定回应；transfer duit 是聊天中常见的英语夹用。",
+      "aku、kau 适合熟悉的朋友；air kosong satu botol 在标准版本中整理为 sebotol air kosong。"
+    ]
+  },
+  "senjata": {
+    "context": "WhatsApp / 和朋友聊游戏里的武器",
+    "messages": [
+      {
+        "speaker": "Amir (游戏好友)",
+        "ms_spoken": "Senjata yang kau pakai tadi tu memang kuat lah. Mana kau dapat?",
+        "ms_standard": "Senjata yang kamu gunakan tadi memang sangat berkesan. Di manakah kamu mendapatkannya?",
+        "zh": "你刚才用的那把武器真厉害啊。哪儿弄到的？"
+      },
+      {
+        "speaker": "Hafiz (游戏好友)",
+        "ms_spoken": "Aku dapat lepas habis misi semalam. Kau nak cuba ke?",
+        "ms_standard": "Saya mendapatkannya selepas menyelesaikan misi semalam. Adakah kamu mahu mencubanya?",
+        "zh": "我昨天做完任务拿到的。你想试试吗？"
+      },
+      {
+        "speaker": "Amir (游戏好友)",
+        "ms_spoken": "Nak! Nanti kita main lagi, kau tunjuk aku cara guna senjata tu.",
+        "ms_standard": "Ya, saya mahu mencubanya. Apabila kita bermain lagi nanti, tunjukkan kepada saya cara menggunakan senjata itu.",
+        "zh": "想！等下再玩的时候，你教我怎么用那把武器。"
+      }
+    ],
+    "spoken_features": [
+      "tu、nak 分别对应 itu、mahu；句末 ke 表示询问。",
+      "kuat 在游戏装备语境中表示威力大、效果强；lah 在这里加强赞叹。",
+      "lepas habis misi 省略了可由语境补出的主语，标准版本整理为 selepas menyelesaikan misi。",
+      "tunjuk aku cara guna 是熟人间简洁的说法，标准版本补出 tunjukkan kepada saya 和 menggunakan。"
+    ]
+  },
+  "pintu": {
+    "context": "WhatsApp / 到朋友家门口后发消息",
+    "messages": [
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Aku dah sampai kat depan pintu rumah kau. Bukakan jap, boleh?",
+        "ms_standard": "Saya sudah tiba di hadapan pintu rumah kamu. Bolehkah kamu membukakan pintu sebentar?",
+        "zh": "我到你家门口啦。帮我开一下门，行吗？"
+      },
+      {
+        "speaker": "Aina (朋友兼屋主)",
+        "ms_spoken": "Eh, cepatnya! Tunggu jap, aku turun sekarang.",
+        "ms_standard": "Oh, cepat sungguh kamu sampai! Tunggu sebentar, saya akan turun sekarang.",
+        "zh": "咦，这么快就到了！等一下，我现在下楼。"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Okey, aku tunggu sini je.",
+        "ms_standard": "Baiklah, saya akan menunggu di sini sahaja.",
+        "zh": "好，我就在这儿等。"
+      }
+    ],
+    "spoken_features": [
+      "dah、kat、jap、je 分别对应 sudah、di、sebentar、sahaja。",
+      "Bukakan 省略了双方已知的宾语 pintu；句末 boleh? 使请求更委婉。",
+      "cepatnya! 用 -nya 构成感叹，表达对朋友很快到达的惊讶。",
+      "pintu rumah 在第一轮明确指朋友家的门，后续省略仍能清楚理解。"
+    ]
+  },
+  "selama": {
+    "context": "WhatsApp / 在车站等迟到的朋友",
+    "messages": [
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Aku dah tunggu kat stesen ni selama sejam. Kau kat mana?",
+        "ms_standard": "Saya sudah menunggu di stesen ini selama sejam. Kamu berada di mana?",
+        "zh": "我在这个车站都等一个小时了。你在哪儿？"
+      },
+      {
+        "speaker": "Rizal (朋友)",
+        "ms_spoken": "Maaf weh, bas aku rosak tadi. Aku dah naik bas lain, lagi sepuluh minit sampai.",
+        "ms_standard": "Maaf, bas yang saya naiki mengalami kerosakan tadi. Saya sudah menaiki bas lain dan akan tiba dalam masa sepuluh minit lagi.",
+        "zh": "对不住啊，我刚才坐的巴士坏了。我已经换了一辆，再过十分钟就到。"
+      },
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Okey, aku tunggu kat kedai kopi sebelah stesen je. Sampai nanti mesej aku.",
+        "ms_standard": "Baiklah, saya akan menunggu di kedai kopi di sebelah stesen. Hantarkan mesej kepada saya apabila kamu tiba nanti.",
+        "zh": "好，我就在车站旁边的咖啡店等。到了给我发消息。"
+      }
+    ],
+    "spoken_features": [
+      "selama sejam 表示持续一个小时，明确说明等待的时长。",
+      "dah tunggu 对应 sudah menunggu；kat stesen ni 对应 di stesen ini。",
+      "weh 是熟人间的口语呼语，此处让道歉带有朋友之间的语气。",
+      "lagi sepuluh minit sampai 是口语中的简略表达，表示再过十分钟到达。"
+    ]
+  },
+  "pulang": {
+    "context": "WhatsApp / 下班后告知母亲准备回家",
+    "messages": [
+      {
+        "speaker": "Aisyah (女儿)",
+        "ms_spoken": "Mak, saya nak pulang dah. Ada apa-apa nak kirim tak?",
+        "ms_standard": "Mak, saya hendak pulang sekarang. Adakah mak mahu saya membelikan apa-apa?",
+        "zh": "妈，我现在准备回家了。有什么要我顺便买的吗？"
+      },
+      {
+        "speaker": "Mak (母亲)",
+        "ms_spoken": "Belikan telur sepapan ya. Kat rumah dah tinggal dua biji je.",
+        "ms_standard": "Tolong belikan sepapan telur. Di rumah hanya tinggal dua biji telur.",
+        "zh": "帮忙买一托鸡蛋哈。家里只剩两颗了。"
+      },
+      {
+        "speaker": "Aisyah (女儿)",
+        "ms_spoken": "Baik, saya singgah kedai dulu. Kalau jalan tak sesak, pukul tujuh sampai.",
+        "ms_standard": "Baiklah, saya akan singgah di kedai terlebih dahulu. Jika lalu lintas tidak sesak, saya akan tiba pada pukul tujuh.",
+        "zh": "好，我先去趟店里。如果不堵车，七点到家。"
+      }
+    ],
+    "spoken_features": [
+      "nak pulang dah 表示现在准备动身回家，句末 dah 不表示已经到家。",
+      "nak kirim 在顺路购物的语境中表示托对方代买；tak 放在句末构成口语疑问。",
+      "kat、dah、je 分别对应 di、sudah、sahaja；dua biji 省略了前文已知的 telur。",
+      "pulang 比 balik 更偏标准用语，但可以自然出现在家庭聊天中；saya 配合 Mak 保留亲近而有礼的语气。"
+    ]
+  },
+  "beliau": {
+    "context": "WhatsApp / 同事之间确认受尊敬的老师是否到校",
+    "messages": [
+      {
+        "speaker": "Siti (同事，教师)",
+        "ms_spoken": "Cikgu Salmah dah sampai ke? Saya nak jumpa beliau kejap.",
+        "ms_standard": "Adakah Cikgu Salmah sudah sampai? Saya hendak berjumpa dengan beliau sebentar.",
+        "zh": "Salmah 老师到了吗？我想见她一下。"
+      },
+      {
+        "speaker": "Nurul (同事，教师)",
+        "ms_spoken": "Dah, beliau kat bilik guru. Tapi tengah telefon sekarang.",
+        "ms_standard": "Ya, beliau sudah sampai dan berada di bilik guru. Namun, beliau sedang bercakap melalui telefon sekarang.",
+        "zh": "到了，她在教师办公室。不过现在正在打电话。"
+      },
+      {
+        "speaker": "Siti (同事，教师)",
+        "ms_spoken": "Okey, saya tunggu dulu. Nanti beliau dah habis telefon, bagitahu saya ya.",
+        "ms_standard": "Baiklah, saya akan menunggu dahulu. Tolong maklumkan kepada saya apabila beliau selesai bercakap melalui telefon nanti.",
+        "zh": "好，那我先等着。等她打完电话，告诉我一声哈。"
+      }
+    ],
+    "spoken_features": [
+      "beliau 始终指前文提到的 Cikgu Salmah，表示对这位老师的敬意，不用于直接称呼对方。",
+      "dah、nak、kejap 分别对应 sudah、hendak、sebentar；句末 ke 构成口语疑问。",
+      "tengah telefon 是日常简略说法，这里指 sedang bercakap melalui telefon。",
+      "bagitahu 是口语表达，标准版本使用 maklumkan；聊天中的缩略形式可以与尊称 beliau 并用。"
+    ]
+  },
+  "beri": {
+    "context": "WhatsApp / 同事催交文件时请求多等五分钟",
+    "messages": [
+      {
+        "speaker": "Farah (同事)",
+        "ms_spoken": "Fail tu dah siap ke? Saya nak hantar kat bos sebelum pukul tiga.",
+        "ms_standard": "Adakah fail itu sudah siap? Saya hendak menghantarnya kepada ketua sebelum pukul tiga.",
+        "zh": "那个文件好了吗？我想在三点前交给上司。"
+      },
+      {
+        "speaker": "Daniel (同事)",
+        "ms_spoken": "Beri saya lima minit lagi ya. Saya nak semak angka dalam fail ni dulu.",
+        "ms_standard": "Tolong beri saya lima minit lagi. Saya hendak menyemak angka dalam fail ini terlebih dahulu.",
+        "zh": "再给我五分钟哈。我想先核对一下文件里的数字。"
+      },
+      {
+        "speaker": "Farah (同事)",
+        "ms_spoken": "Boleh, semak dulu. Dah siap nanti terus hantar kat saya ya.",
+        "ms_standard": "Baiklah, semaklah terlebih dahulu. Apabila sudah siap nanti, sila terus hantarkan fail itu kepada saya.",
+        "zh": "可以，你先核对。弄好后直接发给我哈。"
+      }
+    ],
+    "spoken_features": [
+      "beri saya lima minit 指给予更多处理时间，属于 beri 的给予义。",
+      "ya 在这里缓和请求语气；nak、ni、tu 分别对应 hendak、ini、itu。",
+      "kat bos、kat saya 中的 kat 表示接收对象，标准版本用 kepada。",
+      "Beri 在请求或祈使句中本来就可以使用原形；Saya nak semak 中的 semak 在标准版本中恢复为 menyemak。"
+    ]
+  },
+  "bandar": {
+    "context": "WhatsApp / 朋友约好傍晚去市区吃东西",
+    "messages": [
+      {
+        "speaker": "Iman (朋友)",
+        "ms_spoken": "Jom jumpa kat bandar petang ni. Senang sikit nak cari tempat makan.",
+        "ms_standard": "Mari kita berjumpa di bandar petang ini. Lebih mudah untuk mencari tempat makan di sana.",
+        "zh": "今天傍晚去市区碰面吧。那边找吃饭的地方方便些。"
+      },
+      {
+        "speaker": "Syafiq (朋友)",
+        "ms_spoken": "Boleh, tapi aku habis kerja pukul enam. Kita jumpa kat mana?",
+        "ms_standard": "Boleh, tetapi saya selesai bekerja pada pukul enam. Di manakah kita akan berjumpa?",
+        "zh": "可以，不过我六点才下班。我们在哪儿碰面？"
+      },
+      {
+        "speaker": "Iman (朋友)",
+        "ms_spoken": "Depan kedai buku sebelah pasar tu. Pukul enam setengah, sempat kan?",
+        "ms_standard": "Kita berjumpa di hadapan kedai buku di sebelah pasar itu pada pukul enam setengah. Kamu sempat tiba pada waktu itu, bukan?",
+        "zh": "市场旁边那家书店门口。六点半，来得及吧？"
+      }
+    ],
+    "spoken_features": [
+      "jom 是日常邀约词，标准版本用 mari kita。",
+      "kat、ni、tu 分别对应 di、ini、itu；senang sikit 表示容易些、方便些。",
+      "bandar 在这里指双方熟悉的市镇中心，中文依相约吃饭的语境译作市区。",
+      "sempat kan? 用 kan 寻求对方确认，带有来得及吧的语气。"
+    ]
+  },
+  "dapatkan": {
+    "context": "WhatsApp / 请同事顺路到柜台代取表格",
+    "messages": [
+      {
+        "speaker": "Mei Ling (同事)",
+        "ms_spoken": "Awak nak gi kaunter bawah ke? Boleh tolong dapatkan borang tuntutan tu sekali?",
+        "ms_standard": "Adakah awak hendak pergi ke kaunter di tingkat bawah? Bolehkah awak membantu saya mendapatkan borang tuntutan itu juga?",
+        "zh": "你要去楼下的柜台吗？能顺便帮我拿一下那张报销表吗？"
+      },
+      {
+        "speaker": "Azlan (同事)",
+        "ms_spoken": "Boleh. Nak satu salinan je ke?",
+        "ms_standard": "Boleh. Adakah awak hanya memerlukan satu salinan?",
+        "zh": "可以。只要一份吗？"
+      },
+      {
+        "speaker": "Mei Ling (同事)",
+        "ms_spoken": "Dua ya, satu untuk saya, satu lagi untuk Lina. Terima kasih!",
+        "ms_standard": "Tolong dapatkan dua salinan, satu untuk saya dan satu lagi untuk Lina. Terima kasih.",
+        "zh": "两份哈，一份给我，另一份给 Lina。谢谢！"
+      }
+    ],
+    "spoken_features": [
+      "gi 是 pergi 的口语缩略；kaunter bawah 依语境指楼下的柜台。",
+      "dapatkan 在这里表示替对方取得表格，符合代取物品的请求语境。",
+      "tu、je 分别对应 itu、sahaja；句末 ke 构成口语疑问。",
+      "tolong dapatkan 是自然的请求结构；标准版本改用 membantu saya mendapatkan，属于句式调整，不表示原句的 dapatkan 错误。"
+    ]
+  },
+  "semula": {
+    "context": "WhatsApp / 文件打不开，请同学重新发送",
+    "messages": [
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Boleh hantar semula fail nota tu? Saya dah cuba buka, tapi tak boleh.",
+        "ms_standard": "Bolehkah awak menghantar semula fail nota itu? Saya sudah cuba membukanya, tetapi fail itu tidak dapat dibuka.",
+        "zh": "能把那个笔记文件再发一次吗？我试着打开了，可是打不开。"
+      },
+      {
+        "speaker": "Jason (同学)",
+        "ms_spoken": "Sekejap ya, saya hantar yang PDF pula. Cuba buka yang ni.",
+        "ms_standard": "Tunggu sebentar, saya akan menghantar versi PDF pula. Cuba buka fail ini.",
+        "zh": "等一下哈，我换成 PDF 版发给你。试试打开这个。"
+      },
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Ha, yang ni boleh buka dah. Terima kasih!",
+        "ms_standard": "Ya, fail ini sudah dapat dibuka. Terima kasih.",
+        "zh": "啊，这个现在能打开了。谢谢！"
+      }
+    ],
+    "spoken_features": [
+      "hantar semula 表示重新发送；semula 本身保持完整，不需要改成缩略形式。",
+      "tu、dah、tak、ni 分别对应 itu、sudah、tidak、ini。",
+      "yang PDF、yang ni 都省略了可由上下文补出的 fail 或 versi。",
+      "Ha 在这里表示确认问题已经解决；boleh buka dah 中句末 dah 表示状态发生变化，现在已经能打开了。"
+    ]
+  }
+}

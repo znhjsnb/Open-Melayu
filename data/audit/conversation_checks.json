@@ -1,0 +1,118 @@
+{
+  "source": "C:\\Users\\d\\Documents\\dict",
+  "isolation": "Byte-identical copy of static app and unmodified tests in current workspace; test output writes only to mirror",
+  "node": {
+    "args": [
+      "node",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "v24.19.0\n",
+    "stderr": ""
+  },
+  "git_status": {
+    "args": [
+      "git",
+      "--no-optional-locks",
+      "status",
+      "--short",
+      "--branch"
+    ],
+    "exit_code": 0,
+    "stdout": "## main...origin/main\n",
+    "stderr": ""
+  },
+  "git_head": {
+    "args": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "23308a0e995d56926c81583b72ebab8739a41b59\n",
+    "stderr": ""
+  },
+  "git_origin_main_tracking": {
+    "args": [
+      "git",
+      "rev-parse",
+      "origin/main"
+    ],
+    "exit_code": 0,
+    "stdout": "23308a0e995d56926c81583b72ebab8739a41b59\n",
+    "stderr": ""
+  },
+  "asset_counts": {
+    "index_entries": 25006,
+    "shards": 27,
+    "headwords": 25006,
+    "distinct_headwords": 25006,
+    "senses": 58574
+  },
+  "source_sha256": {
+    "app/static/app.js": "6815f050c4159c892e44fc427c0738722ed6d4652f6898530de8596114941b7d",
+    "app/static/data.js": "f0e3cbf625db93ad3f51469295f34829604404d8c728c9b344f843c03033ac23",
+    "app/static/db.js": "3fc50108723a5c10f58bbb19cecf5d43185db8f23d579b309d14cba4119f0fcb",
+    "app/static/index.html": "079af0f79d75b2abd52395cdc99e00fa2d039fa3426022552e47f4b3e9088711",
+    "app/static/mvp.html": "d50563f5d7b75a8893ae64d47586dde7c127b76c171a707f3e31c39ba67540dd",
+    "app/static/sample_words.js": "7214a001a257d4b88d082c87992218a4dabe8d798af6dbe8581db86926026b64",
+    "app/static/styles.css": "01e6ab697d8d1b3a908b3d937a0c9d5668eeab8ab39479d0c6289e39e01fbdb4",
+    "app/static/sw.js": "c4a03ea9c4bd96310cb1cf632d5b0bb6120de35671f323b6a0e78e344f357173",
+    "app/static/worker.js": "545b58474c4ccc1e690f35cba87c6decbca04d3ddd5f0083f8588ad02cccda47",
+    "app/static/data/search_index.json": "9665cd364f57686bdb0333c1e1e1d9f5a676b9fb9c656f3dc7546892e5d6e05d",
+    "app/static/data/shards/a.json": "b6fc7d723d223a6319856b64e196da2ee7e9adbd70b3a4cdc9bfeed6208e490e",
+    "app/static/data/shards/b.json": "ca5ee72718676810dc52b7395d7c1884efceb62d88ff8ee693dcc27ff41fcf39",
+    "app/static/data/shards/c.json": "b69ad7db7af5754f64d5f4bc0a59ee173cf8e19992d6ae80db42bc16b553578c",
+    "app/static/data/shards/d.json": "e02a9c94dd6bfee3f7a4acb0f7c0c16238efbd7d83709c6341e68bb51b519f43",
+    "app/static/data/shards/e.json": "b53cd5fcc2606750e7b8d281b0164884f4f08299ee53ae0578179eb3cd484537",
+    "app/static/data/shards/f.json": "bd7a4d43d5f744cb39f94d13cf12c4093ba1039bf0fa54d3152bfc42b5e8d1c2",
+    "app/static/data/shards/g.json": "571cbe3e8924299fc7d80402d1e09fd2a1f62959ac4e09735fc9d44b24e41b35",
+    "app/static/data/shards/h.json": "63cd681dc1a6029eb159fefff42a9dcc8e94c657343da03e218773e5d05b2678",
+    "app/static/data/shards/i.json": "74bf05396c0869448ebb5fd91c2be3c92c1ba512a42528aecd372791977765e1",
+    "app/static/data/shards/j.json": "cec564a3a529c6938dc95520118301dae50aef8dc211e26b11eae3e420e5fa31",
+    "app/static/data/shards/k.json": "7c81d2e003c2a8465441b9b4a15bf90db45dd5194c8ee90c6d718df877032c63",
+    "app/static/data/shards/l.json": "6bd21ce3284a043bd0c60aa76126f89d70f849fad38f1fa5e7393e7c3a5254bc",
+    "app/static/data/shards/m.json": "6bba0b8c726efdbaeb85a0561762b22be635b42fa06493fc448efa23984243dd",
+    "app/static/data/shards/n.json": "f3c47e6e2c70c342f3ebc3dadbb3df01be1dde5117a36c8bdd566d4dd1c962ef",
+    "app/static/data/shards/o.json": "634374c53fc125415e2126b61aaf222e014a1fc908ad32e736035b617fc64505",
+    "app/static/data/shards/other.json": "127836946906ba24e11320964765bc927f5378b64ab3221d26840511eaf437fc",
+    "app/static/data/shards/p.json": "70daf98ce44c07e239db65d6ee69bdf75194f3bfa09578c8ec5d77369d5461c9",
+    "app/static/data/shards/q.json": "9cf890254acb9bb689227dfaf4265b028bf95f841ac19e5fcd87cabed7dd131f",
+    "app/static/data/shards/r.json": "cd3d619ec6447cfd951c84212c32fa3fd5725b81d42efabad00289dfe95d701b",
+    "app/static/data/shards/s.json": "fc4cea2476a4478ba81e660a9bed9a74795de62f7209e6de5ebed10a1490b80f",
+    "app/static/data/shards/t.json": "e941f7eaecc69264cf54b9a6f354f9c83ff96029abe9d58db4204451dadb8be3",
+    "app/static/data/shards/u.json": "bfea260d36477bfb1de5fb556b29ee093e6c86221d0c00c8e84a64562b526d94",
+    "app/static/data/shards/v.json": "a30f476776451d4563ada43023dcedeb6b2c6c3749e610c32cb54a4613886c3b",
+    "app/static/data/shards/w.json": "3fe39e49f73520d09f2dc6402871df37d60bc0541ff228d89116bf4304ffef60",
+    "app/static/data/shards/x.json": "802870c667d90f0e10d4a2533163d71403acab9a96605f4ca30e8f420df68c01",
+    "app/static/data/shards/y.json": "234e125ee7270af4dcbe33e7266446a26506a88b45f116806360ba5a715f6685",
+    "app/static/data/shards/z.json": "73522d644f5c82872756d6359bed422bbba5d7ec0f4f98f04db60023ad45d56c",
+    "tests/frontend.test.mjs": "29a55336603d8181fad5e5e893f7feea43395c75c869f6f5e71d1a0da3db9ba6",
+    "tests/frontend.interactions.test.mjs": "4214224db4e88ef49976ff70ddf7b9a1c371f1b08ef9c14398c7f89367445bc8"
+  },
+  "node_test_runs": [
+    {
+      "args": [
+        "node",
+        "--test",
+        "tests/frontend.test.mjs",
+        "tests/frontend.interactions.test.mjs"
+      ],
+      "exit_code": 1,
+      "stdout": "✖ tests\\frontend.interactions.test.mjs (3.5346ms)\n✖ tests\\frontend.test.mjs (1.9974ms)\nℹ tests 2\nℹ suites 0\nℹ pass 0\nℹ fail 2\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 10.9181\n\n✖ failing tests:\n\ntest at tests\\frontend.interactions.test.mjs:1:1\n✖ tests\\frontend.interactions.test.mjs (3.5346ms)\n  Error: spawn EPERM\n      at ChildProcess.spawn (node:internal/child_process:458:11)\n      at spawn (node:child_process:813:9)\n      at TestContext.<anonymous> (node:internal/test_runner/runner:517:19)\n      at FileTest.runInAsyncScope (node:async_hooks:227:14)\n      at FileTest.run (node:internal/test_runner/test:1382:25)\n      at FileTest.start (node:internal/test_runner/test:1242:17)\n      at runTestFile (node:internal/test_runner/runner:599:32)\n      at node:internal/test_runner/runner:1013:25\n      at node:internal/per_context/primordials:599:37\n      at new Promise (<anonymous>) {\n    errno: -4048,\n    code: 'EPERM',\n    syscall: 'spawn'\n  }\n\ntest at tests\\frontend.test.mjs:1:1\n✖ tests\\frontend.test.mjs (1.9974ms)\n  Error: spawn EPERM\n      at ChildProcess.spawn (node:internal/child_process:458:11)\n      at spawn (node:child_process:813:9)\n      at TestContext.<anonymous> (node:internal/test_runner/runner:517:19)\n      at FileTest.runInAsyncScope (node:async_hooks:227:14)\n      at FileTest.run (node:internal/test_runner/test:1382:25)\n      at FileTest.start (node:internal/test_runner/test:1242:17)\n      at runTestFile (node:internal/test_runner/runner:599:32)\n      at node:internal/test_runner/runner:1013:25\n      at node:internal/per_context/primordials:599:37\n      at new Promise (<anonymous>) {\n    errno: -4048,\n    code: 'EPERM',\n    syscall: 'spawn'\n  }\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "node",
+        "--test",
+        "--experimental-test-isolation=none",
+        "tests/frontend.test.mjs",
+        "tests/frontend.interactions.test.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "✔ spring retargeting preserves presentation and velocity; critical damping settles without overshoot (22.0435ms)\n✔ drawer exits right, stays modal while closing, reverses without jumping, then restores focus (9.102ms)\n✔ grabber tracks 1:1, resists the left boundary, and hands rightward flick velocity to dismissal (1.9442ms)\n✔ leftward release reopens a mostly dismissed drawer; vertical or canceled gestures do not dismiss (1.6475ms)\n✔ Escape uses the same dismissal path; post-close actions run after trigger focus restoration (1.6947ms)\n✔ reduced motion cross-fades the drawer and updates accessible card faces without spring frames (1.3575ms)\n✔ a live reduced-motion preference change cancels displacement immediately (1.2556ms)\n✔ speech, bookmark, flip and check-in issue only 8ms haptics; unsupported vibration is harmless (2.3348ms)\n✔ entry renderer keeps short sense navigation and every complete definition and learning unit flat (3.3943ms)\n✔ sidebar pointer resizing clamps, ignores other pointers, persists once and cleans up cancellation (1.6486ms)\n✔ sidebar keyboard controls and restored preferences remain bounded with corrupt or denied storage (6.1359ms)\n✔ language buttons restore, persist, expose selection and vibrate without replacing the current entry (8.3202ms)\n✔ sense quick chips move focus to their own learning unit and renderer escapes source text (1.6278ms)\n✔ two-letter jumps reset pagination, retain other filters and discard stale replies; changing letters clears the prefix (8.7199ms)\n✔ infinite scrolling appends once, preserves rows, scroll position and an in-flight detail, and stops at the end (3.4263ms)\n✔ a new alphabet filter rejects an old append response and resets the continuous list (2.1878ms)\n✔ keyboard navigation continues into a new batch and can return to previously loaded words (2.6277ms)\n✔ switching words resets reading before and after loading and ignores an older detail (1.5043ms)\n✔ the pinned identity appears past the word header, offers both accents and hides on return to top (1.7397ms)\n✔ initial fragments and hash changes locate words without filtering or filling the search box (2.296ms)\n✔ page input supports Enter and go, clamps bounds, rejects stale replies and uses absolute offsets when appending (3.3192ms)\n✔ visible pages follow scrolling in both directions and filters recalculate totals including empty results (3.2958ms)\n✔ sort changes compose with filters and reset pagination without rewriting the query (2.4013ms)\n✔ scrolling up from a deep page prepends context without moving existing rows or invalidating detail; keyboard selects the adjacent word (3.5085ms)\n✔ shipped typography entry has readable Chinese labels and one accessible native dialog (5.0301ms)\n✔ typography defaults initialize all controls without storage writes or haptics (1.5163ms)\n✔ A− and A+ visit all five exact scales, announce labels and stop at both boundaries (1.4322ms)\n✔ all font families select accessibly and persist independently of scale (1.4657ms)\n✔ density controls drive exact leading and padding, with one 8ms feedback per change (1.561ms)\n✔ all paper palettes retain the independent shell theme and language preference (1.5064ms)\n✔ a fresh page session restores every setting and reset persists all defaults without touching other preferences (3.7906ms)\n✔ malformed or hostile typography storage falls back per field and cannot inject CSS (7.6329ms)\n✔ blocked storage and vibration retain live typography controls and show the existing storage notice (1.5706ms)\n✔ typography popover springs open, reverses dismissal from its live position and restores trigger focus (2.1032ms)\n✔ typography Esc and double-click handle dismiss, while clicks inside or drags outside do not (2.3834ms)\n✔ open typography suppresses dictionary shortcuts and preserves the active result page (2.5962ms)\n✔ reduced motion typography cross-fades only and a live preference change cancels displacement (2.7505ms)\n✔ normalizes malformed export tags without changing the source; handles other shard (0.3499ms)\n✔ loads all 25,006 entries asynchronously and runs only the latest queued search (132.2171ms)\n✔ exact, prefix, contains and Chinese meaning search are ranked and capped at 50 (21.8951ms)\n✔ fuzzy search tolerates deletion and adjacent transposition, with exact matches first (45.3197ms)\n✔ exam, POS and real bookmark sets compose correctly, including an empty saved set (41.394ms)\n✔ all 501 pages are reachable, bounded, and cannot run beyond the last page (5.3293ms)\n✔ all browse sorts use the real index, deterministic ties and page before slicing; default stays rank compatible (585.2699ms)\n✔ deep-link anchors locate a full unfiltered page in every sort and respect active filters (216.21ms)\n✔ alphabet prefix filtering reaches every letter and composes with search, exams, POS and bookmarks (39.5284ms)\n✔ complete two-letter catalogue is derived from all words and every prefix strictly filters and paginates (136.1521ms)\n✔ daily study is deterministic, filtered and capped, with valid empty decks (2.8767ms)\n✔ cached index works with the network unavailable (77.3863ms)\n✔ a damaged cached index is discarded so retry can fetch a fresh copy (89.6009ms)\n✔ concurrent lookups coalesce into one request and persist every word in the letter (64.2641ms)\n✔ a new module session reads the stored shard without any network request (9.5232ms)\n✔ failed shard requests are retryable; uncached offline words give an error (28.6306ms)\n✔ quota failure and a missing IDB API degrade to working memory caches (102.058ms)\n✔ full offline preparation can pause and resume and persists all 27 shards (541.3406ms)\n✔ all 25,006 index entries align with all 58,574 source senses across 27 shards (266.6173ms)\n✔ representative search sample records actual module timings without browser claims (136.2692ms)\nℹ tests 57\nℹ suites 0\nℹ pass 57\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 2781.9061\n",
+      "stderr": ""
+    }
+  ]
+}

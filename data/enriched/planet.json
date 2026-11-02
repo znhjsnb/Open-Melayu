@@ -1,0 +1,96 @@
+{
+  "headword": {
+    "word": "planet",
+    "syllables": null,
+    "ipa": "/pla.net/",
+    "jawi": "ڤلانيت",
+    "frequency_rank": 929,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "planet",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + planet → planet",
+    "pattern_note": "国际科学借词，整词作为独立词素记忆，不拆成马来语词缀。IPA 按词典头的 planét 作宽式转写，é 表示 /e/；缓存 syllables 字段为空，保留 null。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "行星，如地球、火星等环绕恒星运行的天体。",
+      "ms_definition": "sebarang jasad, kecuali komet, meteor atau satelit, yg beredar mengelilingi matahari dlm sistem suria, mis Bumi, Marikh, Utarid, Zuhrah, Jupiter, dll.",
+      "nuances": "马来释义照录《Kamus Dewan》第四版，描述太阳系语境；现代一般用法也可用于其他恒星周围的行星。行星是 planet，恒星是 bintang，天然卫星是 satelit semula jadi；词典这段概括不是完整的现代天文学分类标准。",
+      "collocations": [
+        {
+          "ms": "planet Bumi",
+          "zh": "地球这颗行星",
+          "en": "planet Earth"
+        },
+        {
+          "ms": "planet lain",
+          "zh": "其他行星",
+          "en": "other planets"
+        }
+      ],
+      "en_definition": "A large, nearly spherical celestial body that orbits a star, such as Earth or Mars."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 天文科普活动报道",
+      "ms": "Program pendidikan itu memperkenalkan ciri setiap planet dalam sistem suria kepada para pelajar.",
+      "zh": "该教育活动向学生介绍太阳系中各颗行星的特征。",
+      "en": "The educational programme introduces students to the characteristics of each planet in the solar system."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友看完科幻电影，聊起其他行星上会不会有生命",
+      "ms_spoken": "Lepas tengok filem tu, aku terfikir pulak. Ada hidupan kat planet lain tak?",
+      "ms_standard": "Selepas menonton filem itu, saya pula terfikir tentang satu perkara. Adakah terdapat hidupan di planet lain?",
+      "zh": "看完那部电影，我又琢磨起来了。其他行星上会有生命吗？",
+      "spoken_features": [
+        "planet lain 表示其他行星；对话询问是否存在生命，并未断言存在。",
+        "lepas 在这里对应 selepas；tengok filem 在正式语体中可还原为 menonton filem。",
+        "tu、pulak、kat 分别对应 itu、pula、di；句末 tak 构成是非问句。",
+        "mungkin…kot 叠加表达不确定的猜测，标准语可用 mungkin 保留主要语意。",
+        "kalau ada pun 表示“就算有”；macam 在这里对应 seperti 或 menyerupai。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Lepas tengok filem tu, aku terfikir pulak. Ada hidupan kat planet lain tak?",
+          "ms_standard": "Selepas menonton filem itu, saya pula terfikir tentang satu perkara. Adakah terdapat hidupan di planet lain?",
+          "zh": "看完那部电影，我又琢磨起来了。其他行星上会有生命吗？",
+          "en": "That film got me thinking. Is there life on other planets?"
+        },
+        {
+          "speaker": "Danial (朋友)",
+          "ms_spoken": "Entah, mungkin ada kot. Kalau ada pun, belum tentu macam makhluk dalam filem tu.",
+          "ms_standard": "Saya tidak tahu, tetapi mungkin ada. Kalaupun ada, hidupan itu tidak semestinya menyerupai makhluk dalam filem itu.",
+          "zh": "不知道，也许有吧。就算有，也未必像电影里的那些生物。",
+          "en": "Who knows? Maybe. Even if there is, it might not be anything like the creatures in that film."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "科普、课堂和日常聊天均可使用，无特殊敬语要求。planet 通常小写，专名 Bumi、Marikh 等按专名大写。",
+    "usage_etiquette": "讨论天文学、科幻或地球环境时语体中性。问别人 Dari planet mana? 可能是在挖苦对方脱离现实，与不熟悉的人交谈时避免用这种方式嘲讽。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语 planet 的国际科学词系；马来语的直接中介语言未在资料包中注明",
+    "root_origin": "英语 planet 可上溯拉丁语 planeta、古希腊语 planētēs（游走者）；origin 按英语同形科学词系归类，不把这一分类当作已证实的马来语直接借入路线。词系来源：[巴黎天文台天文词源词典](https://dictionary.obspm.fr/terms/planet-1/)。",
+    "historical_story": "古代观星者看到某些亮点相对背景星群移动，便用希腊语“游走者”为它们命名，这个称呼经拉丁语进入欧洲语言的天文学词汇。马来语 planet 沿用这一国际科学词形，今天在课堂、天文馆和媒体中与 Bumi、Marikh 等名称并用；本包没有证据确定它首次进入马来语的年代或具体中介。",
+    "cognitive_memory_aid": "把 planet 想成夜空里沿轨道“走动”的亮点；它与英语同形，马来语 e 读 /e/。"
+  }
+}

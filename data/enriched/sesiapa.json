@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "sesiapa",
+    "syllables": "se.sia.pa",
+    "ipa": "[səˈsja.pə]",
+    "jawi": "سسياڤا",
+    "frequency_rank": 294,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "siapa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "siapa → siapa-siapa ≈ sesiapa（部分重叠：任何人）",
+    "pattern_note": "sesiapa 与谁人的不定重叠式 siapa-siapa 对应，前部 se- 在此表示部分重叠的形式，不按数量前缀 se-‘一’分析。Schema 没有 reduplication 类别，故 affix_type 为 none；这不表示它是未经构词的词根。",
+    "word_family": [
+      {
+        "word": "siapa",
+        "affix": "∅",
+        "gloss": "谁"
+      },
+      {
+        "word": "siapa-siapa",
+        "affix": "完全重叠",
+        "gloss": "任何人；某个人"
+      },
+      {
+        "word": "siapakah",
+        "affix": "-kah",
+        "gloss": "谁（正式问句）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "任何人；无论谁；凡是……的人。",
+      "ms_definition": "siapa-siapa: ~ sahaja boleh menyertai peraduan ini. (Kamus Dewan Edisi Keempat)",
+      "nuances": "用于不限定身份的泛指；sesiapa sahaja 强调谁都可以，sesiapa yang… 引出满足某条件的人。它并非普通的问人词‘谁’，直接询问身份通常用 siapa 或 siapakah。",
+      "collocations": [
+        {
+          "ms": "sesiapa sahaja",
+          "zh": "任何人；谁都可以",
+          "en": "anyone at all"
+        },
+        {
+          "ms": "sesiapa yang berminat",
+          "zh": "任何有兴趣的人",
+          "en": "anyone who is interested"
+        }
+      ],
+      "en_definition": "Anyone; whoever; any person at all."
+    },
+    {
+      "id": 2,
+      "pos": "pronoun",
+      "zh_definition": "有谁；某个人；在否定句中表示任何一个人都没有。",
+      "ms_definition": "siapa-siapa. (Kamus Dewan Edisi Keempat)",
+      "nuances": "这是同一不定代词在疑问和否定环境中的解释：Ada sesiapa…? 是‘有没有人……’，tiada sesiapa 是‘没有人’。不能把 sesiapa 单独记成否定词，否定意义来自 tiada 或其他否定结构；与表示某个未指名个体的 seseorang 也不完全相同。",
+      "collocations": [
+        {
+          "ms": "ada sesiapa",
+          "zh": "有没有人；有谁",
+          "en": "is there anyone?"
+        },
+        {
+          "ms": "tiada sesiapa",
+          "zh": "没有任何人",
+          "en": "no one"
+        }
+      ],
+      "en_definition": "Anyone or someone, especially in questions; with a negative, no one."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "警方通告 / 征求公众提供线索",
+      "ms": "Sesiapa yang mempunyai maklumat mengenai kejadian itu diminta menghubungi balai polis berhampiran.",
+      "zh": "凡掌握该事件相关资料者，请联系附近的警察局。",
+      "en": "Anyone with information about the incident is asked to contact the nearest police station."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 姐弟确认家里是否有人开门",
+      "ms_spoken": "Ada sesiapa kat rumah tak? Aku dah sampai depan pagar ni.",
+      "ms_standard": "Adakah sesiapa berada di rumah? Saya sudah tiba di hadapan pagar rumah.",
+      "zh": "家里有人吗？我已经到院门口了。",
+      "spoken_features": [
+        "sesiapa 在 Ada sesiapa…tak? 中表示有谁、是否有人，并不预设家里有人。",
+        "kat 对应地点介词 di，dah 对应 sudah；句末 ni 突出说话人眼下已经到达的状态。",
+        "akak 是 kakak 的口语形式，姐姐可以用它对弟妹自称；jap 对应 sebentar，bukakan 表示为对方打开。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Ada sesiapa kat rumah tak? Aku dah sampai depan pagar ni.",
+          "ms_standard": "Adakah sesiapa berada di rumah? Saya sudah tiba di hadapan pagar rumah.",
+          "zh": "家里有人吗？我已经到院门口了。",
+          "en": "Anyone home? I'm at the gate."
+        },
+        {
+          "speaker": "Kak Lina (姐姐)",
+          "ms_spoken": "Ada, akak kat dapur. Tunggu jap, akak bukakan pagar.",
+          "ms_standard": "Ya, kakak berada di dapur. Tunggu sebentar, kakak akan membuka pagar untuk kamu.",
+          "zh": "有，姐姐在厨房。等一下，我来给你开院门。",
+          "en": "Yes, I'm in the kitchen. Hang on a sec, I'll open the gate for you."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "sesiapa 不限定姓名、身份或族群，适合公开邀请和通知。群聊请人帮忙时，Ada sesiapa yang boleh bantu? 比点名命令更柔和，重要事务仍宜说明所需帮助与时间。",
+    "usage_etiquette": "sesiapa sahaja 表示开放对象，但真实活动若有年龄、资格或名额限制，应在同一句通知中写清。Tiada sesiapa 指‘没有人’，不表示某个人不重要；正式场合不要省略否定成分而让原意反转。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语及其马来语支传承",
+    "root_origin": "以本族问人词 siapa 为基础；比较研究重建原始马来语支形式 *si-apa，sesiapa 与不定代词 siapa-siapa 对应。",
+    "historical_story": "马来语支保留了以 siapa 问‘谁’的老词，重叠又使这个问题扩展为不限定对象的‘无论谁’。sesiapa 与 siapa-siapa 并存，展示的是本族词汇的构词能力，不能只因群岛长期有海上语言接触就把它说成外来借词。今天它从公开招募中的 sesiapa yang berminat，一直用到家庭群聊的 Ada sesiapa…?，让‘谁’既能指向所有合条件者，也能询问是否有人在场。",
+    "cognitive_memory_aid": "siapa 是聚光灯问‘谁？’，sesiapa 则把灯光铺开成‘不论谁’；加上 tiada，灯下一个人也没有。"
+  }
+}

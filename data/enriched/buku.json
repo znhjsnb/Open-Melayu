@@ -1,0 +1,189 @@
+{
+  "headword": {
+    "word": "buku",
+    "syllables": "bu.ku",
+    "ipa": "[ˈbu.ku]",
+    "jawi": "بوکو",
+    "frequency_rank": 465,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "buku",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + buku → buku（书籍／节与块：不同词源的同形词）",
+    "pattern_note": "bu- 不是前缀；书籍义与节、块义都以整词记忆。membukukan 属书籍义词族；berbuku、membuku、terbuku 属块、结义词族，不用一条派生链解释全部词义。",
+    "word_family": [
+      {
+        "word": "membukukan",
+        "affix": "meN-...-kan",
+        "gloss": "编成书；登记入册（书籍义）"
+      },
+      {
+        "word": "pembukuan",
+        "affix": "peN-...-an",
+        "gloss": "记账；簿记（书籍义）"
+      },
+      {
+        "word": "berbuku",
+        "affix": "ber-",
+        "gloss": "有节；结成小块（节块义）"
+      },
+      {
+        "word": "membuku",
+        "affix": "meN-",
+        "gloss": "凝成块（节块义）"
+      },
+      {
+        "word": "terbuku",
+        "affix": "ter-",
+        "gloss": "郁结、积压在心中（节块义的比喻）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "书；书籍；装订成册、供阅读或书写的本子。",
+      "ms_definition": "berhelai-helai kertas berjilid yg berisi tulisan utk dibaca atau berisi ruangan-ruangan kosong utk ditulisi; kitab (Kamus Pelajar Edisi Kedua).",
+      "nuances": "这是日常最核心的义项，也包括练习本等空白册子；一本书通常说 sebuah buku。包中此义保存在 raw_definitions 的第二项，不应因摘要字段只显示‘节、块’就漏掉书籍义。这里引用 Kamus Pelajar，不冒称 Kamus Dewan 原文。",
+      "collocations": [
+        {
+          "ms": "buku teks",
+          "zh": "课本",
+          "en": "textbook"
+        },
+        {
+          "ms": "buku latihan",
+          "zh": "练习本；练习册",
+          "en": "exercise book"
+        }
+      ],
+      "en_definition": "A set of paper sheets bound together, containing text to read or blank pages to write in; a book or notebook."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "竹、甘蔗等茎上的节；骨端或关节处凸起的部位。",
+      "ms_definition": "bahagian yg keras pd tempat pertemuan dua ruas buluh, tebu dsb; bahagian hujung dan pangkal ruas tulang yg berbonggol (Kamus Pelajar Edisi Kedua).",
+      "nuances": "ruas 指节间的一段，buku 指相接处的节或凸起。buku jari 是指关节，buku lali 是踝部凸出的骨节；都与书籍义同形而词源不同。",
+      "collocations": [
+        {
+          "ms": "buku jari",
+          "zh": "手指关节",
+          "en": "knuckle"
+        },
+        {
+          "ms": "buku lali",
+          "zh": "脚踝；踝骨凸起处",
+          "en": "ankle"
+        }
+      ],
+      "en_definition": "A hard joint between sections of a bamboo or sugar cane stem; a rounded prominence at the end of a bone or at a joint."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "小块；结块，指盐、泥土等聚成的小团块。",
+      "ms_definition": "ketul atau butir yg kecil-kecil, spt garam (Kamus Pelajar Edisi Kedua).",
+      "nuances": "重点是团块形态，不是册页；buku-buku tanah 指一块块土。相关的 membuku 表示结块，terbuku di hati 则比喻感情像块状物一样郁结于心。",
+      "collocations": [
+        {
+          "ms": "buku garam",
+          "zh": "盐块",
+          "en": "a lump of salt"
+        },
+        {
+          "ms": "buku-buku tanah",
+          "zh": "一块块泥土",
+          "en": "clods of earth"
+        }
+      ],
+      "en_definition": "A small lump or clump of a substance, such as salt or earth."
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "块；个，用于块状、团状物品的量词。",
+      "ms_definition": "penjodoh bilangan utk benda yg berbutir atau berketul (Kamus Pelajar Edisi Kedua).",
+      "nuances": "本 schema 将 penjodoh bilangan 归 noun。sebuku sabun 是一块肥皂；sebuku 不是‘一本书’，一本书应说 sebuah buku。量词的选择依物品形态和固定习惯。",
+      "collocations": [
+        {
+          "ms": "sebuku sabun",
+          "zh": "一块肥皂",
+          "en": "a bar of soap"
+        },
+        {
+          "ms": "sebuku garam",
+          "zh": "一块盐",
+          "en": "a block of salt"
+        }
+      ],
+      "en_definition": "A classifier used when counting objects in lumps, blocks or bars."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 公共图书馆公告",
+      "ms": "Perpustakaan awam itu menyediakan pelbagai buku rujukan untuk kegunaan pelajar dan orang ramai.",
+      "zh": "该公共图书馆提供多种参考书，供学生与公众使用。",
+      "en": "The public library provides a range of reference books for students and members of the public."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认借书去向并约定归还",
+      "ms_spoken": "Buku saya masih kat awak kan? Esok boleh bawa sekali tak?",
+      "ms_standard": "Buku saya masih ada pada awak, bukan? Bolehkah awak membawa buku itu bersama esok?",
+      "zh": "我的书还在你那儿吧？明天能顺便带来吗？",
+      "spoken_features": [
+        "kat awak 在此表示书由对方保管，标准句用 ada pada awak。",
+        "kan 用于寻求确认；boleh…tak? 是日常请求句式。",
+        "bawa sekali 表示见面时也把书带来，不是带一次。",
+        "Tinggal dua muka surat je 省略已知的话题，表示只剩两页；je 对应 sahaja。",
+        "habiskan 在此省略阅读的对象，按语境指把这本书读完。"
+      ],
+      "messages": [
+        {
+          "speaker": "Jia Wen (朋友，书主)",
+          "ms_spoken": "Buku saya masih kat awak kan? Esok boleh bawa sekali tak?",
+          "ms_standard": "Buku saya masih ada pada awak, bukan? Bolehkah awak membawa buku itu bersama esok?",
+          "zh": "我的书还在你那儿吧？明天能顺便带来吗？",
+          "en": "You've still got my book, right? Can you bring it along tomorrow?"
+        },
+        {
+          "speaker": "Aina (朋友，借书者)",
+          "ms_spoken": "Ya, ada lagi. Tinggal dua muka surat je belum baca. Malam ni saya habiskan.",
+          "ms_standard": "Ya, buku itu masih ada pada saya. Hanya dua halaman yang belum saya baca. Saya akan menghabiskan bacaan saya malam ini.",
+          "zh": "对，还在我这儿。就剩两页没看了，我今晚看完。",
+          "en": "Yep, I've still got it. Just two pages left to read. I'll finish it tonight."
+        },
+        {
+          "speaker": "Jia Wen (朋友，书主)",
+          "ms_spoken": "Okey, jumpa esok. Jangan lupa bawa ya!",
+          "ms_standard": "Baiklah, kita berjumpa esok. Jangan lupa membawa buku itu.",
+          "zh": "好，明天见。记得带来哦！",
+          "en": "Okay, see you tomorrow. Don't forget to bring it!"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "借书用 Boleh saya pinjam buku ini? 很自然，向馆员、同学或同事都合适。buku 是通用词，不专属于宗教书籍。",
+    "usage_etiquette": "借来的书应按约定归还，先征求同意再写字或折页。跨族群交流时，不因书名或文字就推定持有者的宗教；谈宗教典籍时依具体书名和对方习惯称呼。"
+  },
+  "etymology": {
+    "origin": "Dutch / Portuguese / Austronesian",
+    "source_language": "书籍义：荷兰语，经马来葡萄牙克里奥尔语的来源说；节块义：南岛语继承词",
+    "root_origin": "本包将书籍义追溯为 Dutch boek → 马来葡萄牙克里奥尔语 buku → 马来语 buku，并以末尾 -u 支持中介来源；节块义则来自原始马来语 *buku，进一步追溯至原始马来波利尼西亚语 *bukuh。",
+    "historical_story": "这个词像把两段历史装进了同一个声音：竹节、骨节和团块义属于南岛语继承词，书籍义则在所给资料中连到荷兰语 boek，并提出马来葡萄牙克里奥尔语的中介途径。在海峡港口多语接触的背景下，带末尾元音的 buku 成为可读可写的册子之名；现代马来语让‘一本书’与‘一块肥皂’并存，却不能因此编出‘竹节演变成书’的故事。",
+    "cognitive_memory_aid": "分成两幅图：sebuah buku 是一本书，sebuku sabun 是一块肥皂；声音相同，量词和画面帮你分清两条词义线。"
+  }
+}

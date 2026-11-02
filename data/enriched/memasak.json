@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "memasak",
+    "syllables": null,
+    "ipa": "/məˈmasak/",
+    "jawi": "مماسق",
+    "frequency_rank": 2005,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "masak",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + masak → memasak",
+    "pattern_note": "词根以 m 开头时，meN- 表现为 me-，词根 m 保留；并非把 masak 的 m 删去。词尾 /k/ 在常见马来西亚口音中可实现为 [ʔ]。输入未提供已核实的音节字段，暂保留 null。",
+    "word_family": [
+      {
+        "word": "masakan",
+        "affix": "-an",
+        "gloss": "烹制的食物；菜肴"
+      },
+      {
+        "word": "pemasak",
+        "affix": "peN-",
+        "gloss": "烹饪者；烹饪器具"
+      }
+    ],
+    "root_jawi": "ماسق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "通过加热等方式烹调食物，使其熟透或成为可食用的菜肴。",
+      "en_definition": "To prepare food by heating it until cooked.",
+      "ms_definition": "membuat atau mengolah makanan (lauk-pauk, nasi dll) supaya masak",
+      "nuances": "可带食物宾语，也可不带宾语而泛指做饭。此处采用 masak 词族的烹饪义；输入所附“安装木桩”属于 pasak 派生的同形词，不适用于本义。词义依据：[DBP《Kamus Pelajar》masak 词条](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=masak)。",
+      "collocations": [
+        {
+          "ms": "memasak nasi",
+          "zh": "煮饭",
+          "en": "cook rice"
+        },
+        {
+          "ms": "memasak rendang",
+          "zh": "烹制仁当",
+          "en": "cook rendang"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区活动报道 / 工作汇报",
+      "ms": "Para sukarelawan memasak makanan untuk mangsa banjir di pusat pemindahan sementara.",
+      "zh": "志愿者在临时疏散中心为洪灾灾民做饭。",
+      "en": "Volunteers cooked meals for flood victims at the temporary evacuation centre."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人协调晚餐",
+      "ms_spoken": "Aku tengah memasak ni. Kau nak makan sekali ke?",
+      "ms_standard": "Saya sedang memasak sekarang. Adakah kamu mahu makan bersama saya?",
+      "zh": "我正在做饭呢。你要一起吃吗？",
+      "en": "I'm cooking right now. Want to join me for dinner?",
+      "spoken_features": [
+        "tengah 在此对应 sedang，表示动作正在进行。",
+        "ni 在此强调眼下的情境。",
+        "nak 对应 mahu；句末 ke 表示疑问。",
+        "日常口语也常直接说 tengah masak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (姐姐)",
+          "ms_spoken": "Aku tengah memasak ni. Kau nak makan sekali ke?",
+          "ms_standard": "Saya sedang memasak sekarang. Adakah kamu mahu makan bersama saya?",
+          "zh": "我正在做饭呢。你要一起吃吗？",
+          "en": "I'm cooking right now. Want to join me for dinner?"
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Nak! Aku dah dekat rumah. Simpan sikit untuk aku, ya.",
+          "ms_standard": "Ya, saya mahu. Saya sudah berada berhampiran rumah. Tolong simpan sedikit makanan untuk saya.",
+          "zh": "要！我快到家了，给我留一点啊。",
+          "en": "Yes, please! I'm nearly home. Save me some, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "讨论做饭时语气中性，不预设做饭者的性别。向主人表达感谢可说 Terima kasih kerana memasak untuk kami。",
+    "usage_etiquette": "为他人做饭前，询问饮食禁忌、过敏和清真要求。正式叙述一般用 memasak；熟人聊天中常用 masak。"
+  },
+  "etymology": {
+    "historical_story": "词根 masak 同时描写果实成熟和食物熟透，把两者联系在“达到成熟或可食状态”的概念上。加上主动动词前缀 meN- 后，memasak 表示人通过烹调让食物达到熟的状态。这个状态到动作的联系可以直接从现代词族理解，无须假设未经证实的借词来源。",
+    "cognitive_memory_aid": "想象锅里的生米变成米饭：米饭已经 masak，而你正在 memasak。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "讨论做饭时语气中性，不预设做饭者的性别。向主人表达感谢可说 Terima kasih kerana memasak untuk kami。",
+    "usage_etiquette": "为他人做饭前，询问饮食禁忌、过敏和清真要求。正式叙述一般用 memasak；熟人聊天中常用 masak。"
+  }
+}

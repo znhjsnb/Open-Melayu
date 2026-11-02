@@ -1,0 +1,166 @@
+{
+  "headword": {
+    "word": "belajar",
+    "syllables": "be.la.jar",
+    "ipa": "/bəˈlad͡ʒar/",
+    "jawi": "بلاجر",
+    "frequency_rank": 424,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ajar",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + ajar → belajar（学习）",
+    "pattern_note": "ajar 与 ber- 结合产生特殊形式 belajar，不写作 berajar，也不能把这个变化推广到所有元音开头词根。DBP 语法答复确认词根为 ajar、前缀为 ber-：https://prpm.dbp.gov.my/Cari1?d=175768&keyword=belajar。IPA 从本地未损坏的 Kaikki 原始记录恢复；Jawi 按本批原包保留损坏占位符 ?????。",
+    "word_family": [
+      {
+        "word": "ajar",
+        "affix": "none",
+        "gloss": "教导（词根）"
+      },
+      {
+        "word": "mengajar",
+        "affix": "meN-",
+        "gloss": "教；授课"
+      },
+      {
+        "word": "pelajar",
+        "affix": "peR-（特殊形式 pel-）",
+        "gloss": "学生"
+      },
+      {
+        "word": "pelajaran",
+        "affix": "peR-…-an（特殊形式 pel-…-an）",
+        "gloss": "课程；功课；教训"
+      },
+      {
+        "word": "pembelajaran",
+        "affix": "peN-…-an，以 belajar 为基础",
+        "gloss": "学习过程"
+      },
+      {
+        "word": "mempelajari",
+        "affix": "mempeR-…-i（特殊形式 mempel-…-i）",
+        "gloss": "学习；研习某项内容"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "学习；求学，通过努力获取知识。",
+      "ms_definition": "berusaha utk memperoleh ilmu pengetahuan (sesuatu kepandaian dll), menuntut ilmu pengetahuan dll",
+      "nuances": "belajar bahasa Melayu 是学马来语；belajar di universiti 是在大学求学。belajar 着重学习活动，mengajar 是教别人，不能互换；正在学习不等于已经学会。正式表达用 bersungguh-sungguh 说明用功，比照译英语 study hard 为 belajar keras 更稳妥。",
+      "collocations": [
+        {
+          "ms": "belajar bahasa Melayu",
+          "zh": "学习马来语",
+          "en": "learn Malay"
+        },
+        {
+          "ms": "belajar bersungguh-sungguh",
+          "zh": "认真用功地学习",
+          "en": "study hard"
+        }
+      ],
+      "en_definition": "To acquire knowledge or understanding through study."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "学着做；通过训练或实践学习某项技能。",
+      "ms_definition": "menjalani latihan, dsb",
+      "nuances": "后面可接动作，如 belajar berenang、belajar memandu；也可用 belajar daripada kesilapan 表示从错误中学习。不是只有学校里的读书才叫 belajar，成人练技能也适用。",
+      "collocations": [
+        {
+          "ms": "belajar berenang",
+          "zh": "学游泳",
+          "en": "learn to swim"
+        },
+        {
+          "ms": "belajar memandu",
+          "zh": "学开车",
+          "en": "learn to drive"
+        }
+      ],
+      "en_definition": "To acquire a skill through training or practice."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育报道／社区语言课程",
+      "ms": "Program komuniti itu memberi peluang kepada penduduk untuk belajar bahasa Melayu melalui aktiviti harian.",
+      "zh": "该社区项目让居民有机会通过日常活动学习马来语。",
+      "en": "The community programme gives residents the opportunity to learn Malay through everyday activities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学约晚上一起复习数学",
+      "ms_spoken": "Malam ni nak belajar sama-sama tak? Aku masih tak faham bab pecahan.",
+      "ms_standard": "Adakah kamu mahu belajar bersama-sama malam ini? Saya masih tidak memahami bab pecahan.",
+      "zh": "今晚要不要一起学习？分数那一章我还是没弄懂。",
+      "spoken_features": [
+        "belajar 在这里指学习、复习课业。",
+        "malam ni 对应 malam ini；nak…tak 构成口语邀约问句。",
+        "sama-sama 在这里表示共同做某事，标准版本用 bersama-sama。",
+        "tak faham 对应 tidak memahami；bab pecahan 指分数这一章。",
+        "buat soalan 在学习场景中指做题，标准版本用 menyelesaikan soalan。",
+        "kat 对应 di；sikit 对应 sedikit。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir（同学）",
+          "ms_spoken": "Malam ni nak belajar sama-sama tak? Aku masih tak faham bab pecahan.",
+          "ms_standard": "Adakah kamu mahu belajar bersama-sama malam ini? Saya masih tidak memahami bab pecahan.",
+          "zh": "今晚要不要一起学习？分数那一章我还是没弄懂。",
+          "en": "Want to study together tonight? I still don't understand the chapter on fractions."
+        },
+        {
+          "speaker": "Siti（同学）",
+          "ms_spoken": "Boleh. Bawa soalan yang kau tak faham tu, kita cuba buat sama-sama.",
+          "ms_standard": "Boleh. Bawalah soalan yang tidak kamu fahami itu. Kita boleh mencuba untuk menyelesaikannya bersama-sama.",
+          "zh": "可以。把你不懂的那道题带来，我们一起试着做。",
+          "en": "Sure. Bring along the question you're stuck on, and we'll try to work through it together."
+        },
+        {
+          "speaker": "Amir（同学）",
+          "ms_spoken": "Pukul lapan kat perpustakaan, boleh? Aku sampai awal sikit.",
+          "ms_standard": "Bolehkah kita berjumpa di perpustakaan pada pukul lapan? Saya akan tiba sedikit lebih awal.",
+          "zh": "八点在图书馆见，可以吗？我会早一点到。",
+          "en": "Eight at the library, okay? I'll get there a bit early."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "bljr",
+      "full_form": "belajar",
+      "note": "省略元音的短信、聊天写法；正式作业与考试不用。"
+    },
+    {
+      "abbr": "blajar",
+      "full_form": "belajar",
+      "note": "非正式省字拼写；标准拼写保留第一个 e。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "说明自己还在学习，可以说 Saya masih belajar，便于礼貌请求别人放慢或解释。向老师、长辈或不熟的人请教，用 Boleh terangkan sekali lagi? 比直接说 Tak faham! 更完整。",
+    "usage_etiquette": "不要仅凭族群或国籍推断对方会不会某种语言。belajar mengaji 常用于学习诵读《古兰经》，并不等于所有形式的学习；邀请别人参加宗教学习前，应尊重其意愿。原包的 study 是英语词，不列作马来语缩写。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "马来语内部构词；词根 ajar 可能经古爪哇语上溯梵语",
+    "root_origin": "直接构词是 ber- + ajar，特殊形式为 belajar，获 DBP 确认。补核 WOLD 的印度尼西亚语同形词条：它将 ajar 的梵语来源标为 probably，并列古爪哇语 ājar 与梵语 ācārya（教师、导师）；这是同源词比较线索，不把整个 belajar 说成梵语整词借入。来源：https://wold.clld.org/word/71261839139919717。",
+    "historical_story": "belajar 的直接来历是马来语自己的 ber- 与 ajar 结合，词形固定为今天熟悉的特殊形式。WOLD 为同形的印度尼西亚语词提供一条可能线索：ajar 可经古爪哇语连接到梵语中‘教师、导师’的称呼，仿佛看见师生传授知识时词汇也在跨语言流动。回到现代马来西亚，belajar 既能用于课堂求学，也能用于驾车、游泳等生活训练。",
+    "cognitive_memory_aid": "同一间教室里：老师 mengajar（教），学生 pelajar 在 belajar（学）；先抓住共同词根 ajar，再记 ber- + ajar 的特殊词形。"
+  }
+}

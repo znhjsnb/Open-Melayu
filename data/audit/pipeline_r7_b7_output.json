@@ -1,0 +1,292 @@
+{
+  "sendirian": {
+    "context": "WhatsApp / 朋友临时约饭",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Kau kat mana? Dah makan ke?",
+        "ms_standard": "Kamu berada di mana? Adakah kamu sudah makan?",
+        "zh": "你在哪儿？吃饭了吗？"
+      },
+      {
+        "speaker": "Farhan (朋友)",
+        "ms_spoken": "Aku makan sendirian kat kedai mamak depan rumah ni. Nak join tak?",
+        "ms_standard": "Saya sedang makan sendirian di kedai mamak di hadapan rumah. Adakah kamu mahu makan bersama saya?",
+        "zh": "我正一个人在家门前的嘛嘛档吃饭。要过来一起吃吗？"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Nak! Tunggu jap, aku jalan kaki gi sana.",
+        "ms_standard": "Ya, saya mahu. Tunggu sebentar, saya akan berjalan kaki ke sana.",
+        "zh": "要！等一下，我走路过去。"
+      }
+    ],
+    "spoken_features": [
+      "kau、aku 适用于彼此习惯这样称呼的熟人；标准改写使用 kamu、saya。",
+      "kat、depan、ni 分别对应 di、di hadapan、ini；此处 ni 用于指示眼前所在的店。",
+      "Nak join tak 是口语邀请，标准改写为是否愿意一起吃饭；jap 对应 sebentar，gi 对应 pergi。",
+      "sendirian 表示独自一人；这里保留该词，随意聊天中也常说 sorang。"
+    ]
+  },
+  "india": {
+    "context": "WhatsApp / 朋友介绍将一起吃午饭的新同事",
+    "messages": [
+      {
+        "speaker": "Siti (朋友)",
+        "ms_spoken": "Esok kawan sekerja aku nak join kita makan. Nama dia Arjun.",
+        "ms_standard": "Esok rakan sekerja saya mahu makan bersama kita. Namanya Arjun.",
+        "zh": "明天我同事想跟我们一起吃饭。他叫阿俊。"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Oh, yang kau cerita baru pindah dari Ipoh tu ke?",
+        "ms_standard": "Oh, adakah dia orang yang kamu ceritakan baru berpindah dari Ipoh itu?",
+        "zh": "哦，就是你说刚从怡保搬来的那位吗？"
+      },
+      {
+        "speaker": "Siti (朋友)",
+        "ms_spoken": "Haah, dia orang India, asal Ipoh. Nanti aku kenalkan kat kau.",
+        "ms_standard": "Ya, dia berketurunan India dan berasal dari Ipoh. Nanti saya akan memperkenalkannya kepada kamu.",
+        "zh": "对，他是印裔，来自怡保。到时我介绍你们认识。"
+      }
+    ],
+    "spoken_features": [
+      "India 作为族群名称须大写；此处 orang India 指印裔，不能据此判断国籍。",
+      "nak join kita makan 对应 mahu makan bersama kita；kita 包括收信人。",
+      "tu ke 构成口语确认问句；haah 表示肯定，对应 ya。",
+      "asal Ipoh 省略了 berasal dari；kenalkan kat kau 对应 memperkenalkannya kepada kamu。"
+    ]
+  },
+  "buang": {
+    "context": "WhatsApp / 家人收拾厨房时确认盒子是否保留",
+    "messages": [
+      {
+        "speaker": "Aina (女儿)",
+        "ms_spoken": "Mak, bekas atas meja ni dah tak pakai ke? Nak buang?",
+        "ms_standard": "Ibu, adakah bekas di atas meja ini sudah tidak digunakan lagi? Perlukah saya membuangnya?",
+        "zh": "妈，桌上这个盒子已经不用了吗？要扔掉吗？"
+      },
+      {
+        "speaker": "Mak (母亲)",
+        "ms_spoken": "Jangan buang dulu, mak nak guna buat simpan biskut.",
+        "ms_standard": "Jangan buang bekas itu dahulu. Ibu mahu menggunakannya untuk menyimpan biskut.",
+        "zh": "先别扔，妈妈要拿来装饼干。"
+      },
+      {
+        "speaker": "Aina (女儿)",
+        "ms_spoken": "Oh, okay. Nanti Aina basuh, letak kat rak ya.",
+        "ms_standard": "Baiklah. Nanti saya akan mencucinya dan meletakkannya di rak.",
+        "zh": "哦，好。那我待会儿洗干净，放到架子上。"
+      }
+    ],
+    "spoken_features": [
+      "ni、dah、tak、nak 分别对应 ini、sudah、tidak、mahu 或 hendak，具体按句意恢复。",
+      "Nak buang 省略主语和宾语，在这里是在询问是否需要扔掉盒子。",
+      "guna buat simpan 是口语表达，标准改写为 menggunakannya untuk menyimpan。",
+      "母亲用 mak 自称，女儿用自己的名字 Aina 自称，符合家庭交流习惯；kat 对应 di。"
+    ]
+  },
+  "hingga": {
+    "context": "WhatsApp / 朋友迟到，另一人说明等候时间",
+    "messages": [
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Sorry, bas lambat. Kau boleh tunggu lagi tak?",
+        "ms_standard": "Maaf, bas lewat. Adakah kamu masih boleh menunggu?",
+        "zh": "不好意思，巴士晚点了。你还能再等一下吗？"
+      },
+      {
+        "speaker": "Farah (朋友)",
+        "ms_spoken": "Aku boleh tunggu hingga pukul enam je. Lepas tu kena balik ambil adik.",
+        "ms_standard": "Saya hanya boleh menunggu hingga pukul enam. Selepas itu, saya perlu pulang untuk menjemput adik.",
+        "zh": "我只能等到六点。之后得回去接弟弟／妹妹。"
+      },
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Okay, kalau aku tak sempat sampai, kau balik dulu ya.",
+        "ms_standard": "Baiklah. Jika saya tidak sempat tiba sebelum waktu itu, pulanglah dahulu.",
+        "zh": "好，要是我来不及在那之前到，你就先回去吧。"
+      }
+    ],
+    "spoken_features": [
+      "hingga 标明等候的时间界限；该词可用于文字聊天，随意口语中也常用 sampai。",
+      "je 对应 sahaja，此处标准改写用 hanya 表达“只能等到六点”。",
+      "lepas tu 对应 selepas itu；kena 在这里表示必须，对应 perlu。",
+      "ambil adik 在接送语境中表示接弟弟或妹妹，标准改写用 menjemput adik；adik 本身不区分性别。"
+    ]
+  },
+  "berbahaya": {
+    "context": "WhatsApp / 朋友提醒避开积水路段",
+    "messages": [
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Aku nak gi rumah kau. Jalan bawah jambatan tu boleh lalu lagi ke?",
+        "ms_standard": "Saya mahu pergi ke rumah kamu. Adakah jalan di bawah jambatan itu masih boleh dilalui?",
+        "zh": "我想去你家。桥底下那条路还能通行吗？"
+      },
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Jangan lalu situ, berbahaya. Air dah naik, arus pun kuat.",
+        "ms_standard": "Jangan melalui kawasan itu kerana berbahaya. Paras air sudah meningkat dan arusnya juga deras.",
+        "zh": "别走那边，很危险。水已经涨上来了，水流也很急。"
+      },
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Okay, aku ikut jalan besar je. Lambat sikit tak apa.",
+        "ms_standard": "Baiklah, saya akan menggunakan jalan utama sahaja. Tidak mengapa jika saya tiba sedikit lewat.",
+        "zh": "好，那我就走大路。晚一点到没关系。"
+      }
+    ],
+    "spoken_features": [
+      "nak gi 对应 mahu pergi；tu、dah、je、sikit 分别对应 itu、sudah、sahaja、sedikit。",
+      "boleh lalu lagi ke 是口语问法，标准改写为 masih boleh dilalui。",
+      "lalu situ 省略地点标记，标准改写为 melalui kawasan itu。",
+      "air dah naik 指水位上升；arus kuat 在此指水流湍急，标准改写用 arus deras。"
+    ]
+  },
+  "asing": {
+    "context": "WhatsApp / 朋友关心刚搬到新地方的好友",
+    "messages": [
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Dah seminggu pindah, macam mana tempat baru? Okay tak?",
+        "ms_standard": "Sudah seminggu sejak kamu berpindah. Bagaimanakah keadaan di tempat baharu? Adakah semuanya baik?",
+        "zh": "搬过去一周了，新地方怎么样？还好吗？"
+      },
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Mula-mula aku rasa asing kat sini. Nak keluar makan pun tak tahu nak gi mana.",
+        "ms_standard": "Pada mulanya saya berasa asing di sini. Saya juga tidak tahu hendak pergi ke mana untuk makan di luar.",
+        "zh": "刚来时我觉得这里很陌生。连出去吃饭都不知道该去哪儿。"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Biasalah tu, baru lagi kan. Nanti aku datang, kita cari kedai makan sama-sama.",
+        "ms_standard": "Hal itu biasa kerana kamu masih baharu di situ. Nanti saya akan datang dan kita boleh mencari kedai makan bersama-sama.",
+        "zh": "正常啦，毕竟才刚搬来嘛。改天我过去，我们一起找吃饭的店。"
+      }
+    ],
+    "spoken_features": [
+      "rasa asing 在这里表示对新环境感到陌生、不熟悉，与国籍无关；标准改写用 berasa asing。",
+      "mula-mula 对应 pada mulanya；kat、tak、gi 分别对应 di、tidak、pergi。",
+      "nak 在不同位置表达打算或意愿，标准改写按句意使用 hendak 或目的结构。",
+      "baru lagi kan 省略了“刚搬来”的背景，kan 用来寻求认同或表示安慰，标准句将背景补明。"
+    ]
+  },
+  "memandu": {
+    "context": "WhatsApp / 朋友出发接人前暂停聊天",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Kau dah gerak ke? Aku tunggu kat lobi.",
+        "ms_standard": "Adakah kamu sudah bertolak? Saya sedang menunggu di lobi.",
+        "zh": "你出发了吗？我在大堂等。"
+      },
+      {
+        "speaker": "Farhan (朋友)",
+        "ms_spoken": "Baru masuk kereta. Aku nak mula memandu ni, nanti dah sampai aku mesej.",
+        "ms_standard": "Saya baru masuk ke dalam kereta dan akan mula memandu sekarang. Saya akan menghantar mesej apabila sudah tiba nanti.",
+        "zh": "刚上车。我现在准备开车，到了再发消息给你。"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Okay, tak payah balas dulu. Aku tunggu je.",
+        "ms_standard": "Baiklah, kamu tidak perlu membalas buat masa ini. Saya akan terus menunggu.",
+        "zh": "好，你先不用回。我等着就行。"
+      }
+    ],
+    "spoken_features": [
+      "gerak 在这里指动身、出发，标准改写用 bertolak。",
+      "nak mula memandu 表示即将开始驾驶；ni 在此突出当前时刻，标准改写用 sekarang。",
+      "nanti dah sampai 省略时间连接词，标准改写补出 apabila。",
+      "mesej 在口语中可直接作动词，标准改写为 menghantar mesej；tak payah 对应 tidak perlu。"
+    ]
+  },
+  "berundur": {
+    "context": "WhatsApp / 朋友群提醒在瀑布旁拍照的同伴",
+    "messages": [
+      {
+        "speaker": "Haziq (同行朋友)",
+        "ms_spoken": "Aku dah sampai kat air terjun. Nak ambil gambar atas batu besar ni.",
+        "ms_standard": "Saya sudah tiba di air terjun. Saya mahu mengambil gambar di atas batu besar ini.",
+        "zh": "我已经到瀑布了。想在这块大石头上拍照。"
+      },
+      {
+        "speaker": "Farhan (同行朋友)",
+        "ms_spoken": "Jangan berundur sampai ke hujung batu tu. Belakang tu licin, aku hampir tergelincir tadi.",
+        "ms_standard": "Jangan berundur hingga ke hujung batu itu. Bahagian belakang batu itu licin dan saya hampir tergelincir di situ tadi.",
+        "zh": "别往后退到石头边缘。后面很滑，我刚才差点在那儿滑倒。"
+      },
+      {
+        "speaker": "Haziq (同行朋友)",
+        "ms_spoken": "Oh, okay. Aku ambil gambar kat bawah je lah.",
+        "ms_standard": "Baiklah. Saya akan mengambil gambar di kawasan bawah sahaja.",
+        "zh": "哦，好。那我就在下面拍吧。"
+      }
+    ],
+    "spoken_features": [
+      "berundur 在这里表示身体向后移动；sampai ke hujung batu 指退到石头边缘。",
+      "dah、kat、ni、tu、je 分别对应 sudah、di、ini、itu、sahaja。",
+      "belakang tu 依靠聊天中已知的石头定位，标准改写补明为 bahagian belakang batu itu。",
+      "je lah 表示接受提醒后作出的随意决定，标准改写通过 sahaja 和完整陈述表达。"
+    ]
+  },
+  "susah": {
+    "context": "WhatsApp / 同学讨论难懂的作业题",
+    "messages": [
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Susah betul nak faham soalan nombor lima ni. Kau dah siap ke?",
+        "ms_standard": "Soalan nombor lima ini benar-benar susah untuk difahami. Adakah kamu sudah selesai menjawabnya?",
+        "zh": "第五题真的好难懂。你做完了吗？"
+      },
+      {
+        "speaker": "Aina (同学)",
+        "ms_spoken": "Belum. Aku pun baca tiga kali dah, masih tak faham dia nak apa.",
+        "ms_standard": "Belum. Saya juga sudah membacanya tiga kali, tetapi masih tidak memahami kehendak soalan itu.",
+        "zh": "还没。我也读了三遍，还是不明白题目要问什么。"
+      },
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Jom tanya cikgu dalam grup. Kot ada orang lain yang keliru jugak.",
+        "ms_standard": "Marilah kita bertanya kepada guru dalam kumpulan sembang. Mungkin ada orang lain yang turut keliru.",
+        "zh": "我们在群里问老师吧。说不定也有其他人没弄明白。"
+      }
+    ],
+    "spoken_features": [
+      "susah betul 加强“很难”的语气；nak faham 在此对应 untuk difahami。",
+      "ni、dah、tak、jugak 分别对应 ini、sudah、tidak、juga；句末 ke 表示疑问。",
+      "dia nak apa 中的 dia 在口语中指题目，标准改写明确为 kehendak soalan itu。",
+      "jom 用于提议共同采取行动；kot 在这里表示推测，对应 mungkin；grup 指聊天群。"
+    ]
+  },
+  "kepadanya": {
+    "context": "WhatsApp / 同事确认是否已把文件发给负责人",
+    "messages": [
+      {
+        "speaker": "Nadia (同事)",
+        "ms_spoken": "Fail untuk mesyuarat esok tu dah hantar pada Puan Lina ke?",
+        "ms_standard": "Adakah fail untuk mesyuarat esok itu sudah dihantar kepada Puan Lina?",
+        "zh": "明天开会用的那份文件已经发给莉娜女士了吗？"
+      },
+      {
+        "speaker": "Farah (同事)",
+        "ms_spoken": "Dah, saya dah hantar kepadanya pagi tadi. Tapi dia belum balas lagi.",
+        "ms_standard": "Ya, saya sudah menghantar fail itu kepadanya pagi tadi. Namun, dia masih belum membalas mesej saya.",
+        "zh": "发了，我今天早上已经把文件发给她了。不过她还没回复我的消息。"
+      },
+      {
+        "speaker": "Nadia (同事)",
+        "ms_spoken": "Okay, tunggu dulu je. Dia ada mesyuarat sampai tengah hari.",
+        "ms_standard": "Baiklah, kita tunggu dahulu. Dia sedang menghadiri mesyuarat hingga tengah hari.",
+        "zh": "好，那就先等等。她开会要开到中午。"
+      }
+    ],
+    "spoken_features": [
+      "kepadanya 中的 -nya 回指前文的 Puan Lina，表示文件的接收对象；该形式本身不区分性别，此处中文按人物身份译为“给她”。",
+      "kepadanya 带有较规范的书面语色彩，可用于同事间的文字聊天；更随意时也常说 kat dia。",
+      "dah hantar 省略主动前缀，标准改写为 sudah menghantar；tu、tapi、je 分别对应 itu、tetapi、sahaja。",
+      "首句省略发送者，以句末 ke 提问；标准改写用被动结构，保留发送者未明确的含义。"
+    ]
+  }
+}

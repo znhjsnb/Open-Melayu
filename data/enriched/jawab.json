@@ -1,0 +1,159 @@
+{
+  "headword": {
+    "word": "jawab",
+    "syllables": "ja.wab",
+    "ipa": "/ˈd͡ʒawab/",
+    "jawi": "جواب",
+    "frequency_rank": 728,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "jawab",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + jawab → jawab",
+    "pattern_note": "阿拉伯语整词借入后成为马来语词根；meN- 接 j 形成 menjawab，保留 j。jawab 可作名词或无前缀动词；所给语音另记词末 b 可实现为不除阻的 [p̚]。Jawi 取本地 PRPM 原件，CEFR 为教学估计。",
+    "word_family": [
+      {
+        "word": "menjawab",
+        "affix": "meN-",
+        "gloss": "回答；回复"
+      },
+      {
+        "word": "jawapan",
+        "affix": "-an",
+        "gloss": "答案；答复（含词干末音变化）"
+      },
+      {
+        "word": "terjawab",
+        "affix": "ter-",
+        "gloss": "得到解答；能够答出"
+      },
+      {
+        "word": "berjawab",
+        "affix": "ber-",
+        "gloss": "有回应；得到回答"
+      },
+      {
+        "word": "penjawab",
+        "affix": "peN-",
+        "gloss": "回答者"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "答话；回答；受到呼唤、提问后作出的回应。",
+      "ms_definition": "balasan yg diucapkan apabila dipanggil (disoal dsb), sahut.",
+      "nuances": "正式书面语说具体‘答案’时通常用 jawapan；jawab 作为名词常见于固定组合 soal jawab。不能因为英语 answer 兼有名词、动词，就忽略这两种马来语词形的使用差别。",
+      "collocations": [
+        {
+          "ms": "soal jawab",
+          "zh": "问答",
+          "en": "questions and answers"
+        },
+        {
+          "ms": "sesi soal jawab",
+          "zh": "问答环节",
+          "en": "a question-and-answer session"
+        }
+      ],
+      "en_definition": "A spoken reply to a call or question."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "回答问题；回应呼唤；回复消息等。",
+      "ms_definition": "membalas (surat, pertanyaan, dll), menyahuti. [Takrif menjawab dalam entri jawab; bentuk dasar digunakan mengikut struktur ayat.]",
+      "nuances": "祈使句可说 Sila jawab…；普通正式主动陈述用 menjawab，第二人称被动结构可用 perlu anda jawab。聊天里常省去 meN-，直接说 jawab soalan、jawab mesej。",
+      "collocations": [
+        {
+          "ms": "jawab soalan",
+          "zh": "回答问题",
+          "en": "answer a question"
+        },
+        {
+          "ms": "jawab panggilan",
+          "zh": "接听来电；回应呼唤",
+          "en": "answer a phone call; respond to a call"
+        }
+      ],
+      "en_definition": "To answer a question, respond to a call, or reply to a letter or message."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "考试／正式作答说明（自拟）",
+      "ms": "Sila jawab semua soalan dalam bahagian ini dengan menggunakan ayat yang lengkap.",
+      "zh": "请用完整句子回答本部分的所有问题。",
+      "en": "Please answer all the questions in this section using complete sentences."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友追问消息，另一人停车后解释刚才在开车",
+      "ms_spoken": "Kau dah tengok mesej aku pasal makan malam tadi? Belum jawab lagi.",
+      "ms_standard": "Adakah kamu sudah membaca mesej yang saya hantar tadi tentang makan malam? Kamu masih belum membalasnya.",
+      "zh": "你看了我刚才发的关于晚餐的消息吗？你还没回呢。",
+      "spoken_features": [
+        "jawab 在这里指回复消息，宾语可由上下文补足；标准对应句使用 membalas mesej。",
+        "tengah 对应 sedang；ni 在第二轮指‘现在’，标准对应句根据语境恢复为 sekarang。",
+        "dah 对应 sudah；sempat 表示有时间或有机会做某事。",
+        "kedai biasa 是熟人间依靠共同背景理解的省略说法，此处指双方常去的餐馆。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mira (朋友)",
+          "ms_spoken": "Kau dah tengok mesej aku pasal makan malam tadi? Belum jawab lagi.",
+          "ms_standard": "Adakah kamu sudah membaca mesej yang saya hantar tadi tentang makan malam? Kamu masih belum membalasnya.",
+          "zh": "你看了我刚才发的关于晚餐的消息吗？你还没回呢。",
+          "en": "Did you see my message earlier about dinner? You haven't replied yet."
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Tadi aku tengah memandu. Ni dah parkir, baru sempat jawab. Pukul lapan boleh?",
+          "ms_standard": "Saya sedang memandu tadi. Sekarang saya sudah meletakkan kereta dan baru berkesempatan membalas mesej kamu. Bolehkah kita berjumpa pada pukul lapan?",
+          "zh": "刚才我在开车。现在停好车了，才有空回复。八点见可以吗？",
+          "en": "I was driving earlier. I've parked now, so I've finally got a chance to reply. Does eight work for you?"
+        },
+        {
+          "speaker": "Mira (朋友)",
+          "ms_spoken": "Boleh je. Jumpa kat kedai biasa ya.",
+          "ms_standard": "Boleh. Kita berjumpa di kedai makan yang biasa kita kunjungi.",
+          "zh": "可以呀。那就老地方那家餐馆见。",
+          "en": "Sure. See you at our usual place, yeah?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "jwab",
+      "full_form": "jawab",
+      "note": "原包记录的聊天省元音写法，不用于正式作答。"
+    },
+    {
+      "abbr": "jwb",
+      "full_form": "jawab",
+      "note": "原包记录的短信辅音缩写，依上下文识别。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "只说 Jawab! 会像命令；对顾客或不熟悉的人，可用 Sila jawab… 或 Boleh jawab…?，具体礼貌程度还取决于语调。",
+    "usage_etiquette": "把回答问题与顶嘴区分开：menjawab 本身是中性动作，语境才可能使它带上反驳长辈的意味。例句中的 kau 不适合自动套用于长者或职场陌生人。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语，经古典马来语传承",
+    "root_origin": "阿拉伯语 جَوَاب jawāb，意为回答、答复；整词进入马来语。",
+    "historical_story": "阿拉伯语 jawāb 作为‘答复’进入古典马来语，随后以 jawab 的形式传到现代。它不只留在书面问答中，也接上马来语词缀形成 menjawab、jawapan，如今从课堂作答到回复手机消息都用得上；本包没有确定首次借入的港口或年代。",
+    "cognitive_memory_aid": "把 soalan‘问题’与 jawab‘回答’配成一对，再记 jawapan 是交上去的那份‘答案’。"
+  }
+}

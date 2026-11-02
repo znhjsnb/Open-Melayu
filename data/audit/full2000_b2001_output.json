@@ -1,0 +1,216 @@
+{
+  "topi": {
+    "headword": {
+      "word": "topi",
+      "syllables": "to.pi",
+      "ipa": "/topi/",
+      "jawi": "توڤي",
+      "frequency_rank": 1237,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "top",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + topi → topi",
+      "pattern_note": "按要求保留词包的 top、توڤ 和 is_root=false；但现代构词应以完整借词 topi 为词基，不能把它分析为 top + 后缀 -i。",
+      "word_family": [
+        {
+          "word": "bertopi",
+          "affix": "ber-",
+          "gloss": "戴帽子"
+        },
+        {
+          "word": "topi-topi",
+          "affix": "∅（整词重叠）",
+          "gloss": "多顶帽子"
+        }
+      ],
+      "root_jawi": "توڤ"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "帽子；戴在头上的覆盖物，可用于遮阳、防护或配合服饰。",
+        "en_definition": "A hat or other head covering worn for protection or as part of an outfit.",
+        "ms_definition": "Tutup kepala (model Eropah).",
+        "nuances": "泛指帽子，具体种类常由后面的词说明。topi keledar 是头盔，topi keselamatan 是安全帽；songkok 和 kopiah 则是有各自名称的特定头饰。量词通常用顶所对应的 biji，即 sebiji topi。",
+        "collocations": [
+          {
+            "ms": "memakai topi",
+            "zh": "戴帽子"
+          },
+          {
+            "ms": "topi keledar",
+            "zh": "头盔"
+          },
+          {
+            "ms": "topi keselamatan",
+            "zh": "安全帽"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场安全通知",
+        "ms": "Semua pelawat diwajibkan memakai topi keselamatan sebelum memasuki tapak pembinaan.",
+        "zh": "所有访客进入建筑工地前都必须戴安全帽。",
+        "en": "All visitors must wear a safety helmet before entering the construction site."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友相约外出",
+        "ms_spoken": "Bawa topi sekali, panas kat sana nanti.",
+        "ms_standard": "Bawa juga topi kerana cuaca di sana nanti panas.",
+        "zh": "帽子也带上，那边到时会很晒。",
+        "en": "Bring a hat too; it will be hot there later.",
+        "spoken_features": [
+          "kat 是 di 的口语对应形式，表示地点。",
+          "sekali 在这里表示“也、一起”，不是次数“一次”。",
+          "省略 kerana，直接接出提醒的原因。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Bawa topi sekali, panas kat sana nanti.",
+            "ms_standard": "Bawa juga topi kerana cuaca di sana nanti panas.",
+            "zh": "帽子也带上，那边到时会很晒。"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Dah letak dalam beg. Nak bawa yang biru je.",
+            "ms_standard": "Saya sudah meletakkan topi di dalam beg. Saya hendak membawa yang berwarna biru sahaja.",
+            "zh": "已经放进包里了。我就带那顶蓝色的。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "本词本身中性，没有特殊敬语限制。提醒别人戴帽子时可说 Jangan lupa pakai topi；面对访客或客户，可用 Sila pakai topi keselamatan。",
+      "usage_etiquette": "根据实际头饰选择名称。谈论马来传统服饰时，使用 songkok 等具体名称更准确；进入住宅或礼拜场所时，按现场习惯处理帽子和其他头饰。"
+    },
+    "etymology": {
+      "origin": "Tamil",
+      "source_language": "泰米尔语；相关词形见印地语／印度斯坦语",
+      "root_origin": "泰米尔语 தொப்பி（toppi，帽子），通常追溯至印地语 टोपी（ṭopī）。",
+      "cognitive_memory_aid": "把 topi 想成头顶的一顶帽子：英语 top 可以帮助联想“头顶”，但只是记忆钩子，不能据此把马来语 topi 拆成 top + i。",
+      "historical_story": "这个词通常解释为经泰米尔语 toppi 借入，与印地语 ṭopī 相联系，保留了“帽子”的具体形象。[词源参考](https://ms.wiktionary.org/wiki/topi)。十九世纪的马来语教材已经记录 topi，并将它与欧洲式帽子联系起来；现代马来语则用 topi keledar、topi keselamatan 等组合命名不同用途的头部装备。[历史记录](https://www.gutenberg.org/cache/epub/25604/pg25604-images.html)。"
+    }
+  },
+  "berbicara": {
+    "headword": {
+      "word": "berbicara",
+      "syllables": "ber.bi.ca.ra",
+      "ipa": "/bər.bi.tʃa.ra/",
+      "jawi": "بربيچارا",
+      "frequency_rank": 1238,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "bicara",
+      "affix": "ber-",
+      "affix_type": "prefix",
+      "formula": "ber- + bicara → berbicara",
+      "pattern_note": "ber- 直接接在 bicara 前，词根首音 b 保留，没有鼻音替换；ber- 中的 e 读 /ə/。",
+      "word_family": [
+        {
+          "word": "membicarakan",
+          "affix": "meN-…-kan",
+          "gloss": "讨论、谈论某事"
+        },
+        {
+          "word": "pembicara",
+          "affix": "peN-",
+          "gloss": "发言者、讲话者"
+        },
+        {
+          "word": "perbicaraan",
+          "affix": "per-…-an",
+          "gloss": "谈论；庭审"
+        }
+      ],
+      "root_jawi": "بيچارا"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "说话、交谈；用言语向别人表达想法或意见。",
+        "en_definition": "To speak or converse, expressing thoughts or opinions in words.",
+        "ms_definition": "Bercakap.",
+        "nuances": "在马来西亚语境中，比 bercakap 更显正式或有文学色彩，适合访谈、演说和较郑重的交流。常用 dengan 引出交谈对象，用 tentang 引出话题；后接直接宾语时通常改用 membicarakan，如 membicarakan masalah itu。",
+        "collocations": [
+          {
+            "ms": "berbicara dengan seseorang",
+            "zh": "与某人交谈"
+          },
+          {
+            "ms": "berbicara tentang masa depan",
+            "zh": "谈论未来"
+          },
+          {
+            "ms": "berbicara secara terbuka",
+            "zh": "公开坦诚地表达意见"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻 / 专题论坛",
+        "ms": "Dalam forum itu, beliau berbicara tentang kepentingan pendidikan bahasa ibunda.",
+        "zh": "在该论坛上，他谈到了母语教育的重要性。",
+        "en": "At the forum, he spoke about the importance of mother-tongue education."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 老朋友久别后谈心",
+        "ms_spoken": "Dah lama kita tak berbicara macam ni, kan?",
+        "ms_standard": "Sudah lama kita tidak berbicara seperti ini, bukan?",
+        "zh": "我们好久没像这样聊聊了，对吧？",
+        "en": "It has been a long time since we talked like this, hasn't it?",
+        "spoken_features": [
+          "dah、tak、ni 分别对应 sudah、tidak、ini。",
+          "macam ni 对应标准表达 seperti ini。",
+          "句末 kan 寻求对方认同，营造亲近感。",
+          "berbicara 在这里带一点抒情意味；普通闲聊更常用 bercakap、berbual 或 borak。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (老朋友)",
+            "ms_spoken": "Dah lama kita tak berbicara macam ni, kan?",
+            "ms_standard": "Sudah lama kita tidak berbicara seperti ini, bukan?",
+            "zh": "我们好久没像这样聊聊了，对吧？"
+          },
+          {
+            "speaker": "Amir (老朋友)",
+            "ms_spoken": "Haah, asyik sibuk je. Malam ni kita borak lama sikit.",
+            "ms_standard": "Ya, kita sentiasa sibuk. Malam ini, marilah kita berbual lebih lama sedikit.",
+            "zh": "是啊，一直忙个不停。今晚咱们多聊一会儿。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "formal",
+      "politeness_note": "礼貌程度取决于请求方式和称呼，单用 berbicara 并不会自动显得客气。向上级提出交谈请求，可说 Bolehkah saya berbicara sebentar dengan puan?",
+      "usage_etiquette": "适用于郑重表达或带文学色彩的交流。日常马来西亚口语通常更自然地使用 bercakap 或 berbual；berbicara 本身不表示争吵，也不必然表示法庭审理。"
+    },
+    "etymology": {
+      "origin": "Sanskrit",
+      "source_language": "梵语（词根 bicara 的来源）；ber- 是马来语前缀",
+      "root_origin": "विचार（vicāra）：思考、审察、商议。",
+      "cognitive_memory_aid": "把 bicara 记成“心里思考、共同商议”，再加表示进行活动的 ber-：ber- + bicara → 把想法说出来，与人交谈。",
+      "historical_story": "bicara 的历史源头是梵语 vicāra，原有讨论、思量和审察的含义；研究马来语借词的文献将两者直接联系起来。[词源研究](https://list.indology.info/pipermail/indology/attachments/20211118/aa0c12c5/attachment.pdf)。进入马来语后，这个词基参与本地构词，形成 berbicara 等词，使“思量、商议”的概念与现代的说话、表达意见相连接。"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "headword": {
+    "word": "baiklah",
+    "syllables": null,
+    "ipa": "/baiklah/",
+    "jawi": null,
+    "frequency_rank": 89,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: باءيق (baik)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "baik",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "baik + -lah → baiklah",
+    "pattern_note": "-lah 是附着语气词，规范拼写与 baik 连写；本表借用 suffix 字段表示附着形式，并非派生词缀。IPA 是依据 baik 与 -lah 合成的编辑宽式读音；原始包的官方音节和 Jawi 均缺失，保留 null。 核心词根（Kata Dasar）「baik」官方爪夷文为「باءيق」，派生附加 -lah。",
+    "word_family": [
+      {
+        "word": "baik",
+        "affix": "none",
+        "gloss": "好；好的"
+      },
+      {
+        "word": "kebaikan",
+        "affix": "ke-…-an",
+        "gloss": "好处；善行"
+      },
+      {
+        "word": "berbaik",
+        "affix": "ber-",
+        "gloss": "友好相处；和好"
+      },
+      {
+        "word": "membaiki",
+        "affix": "mem-…-i",
+        "gloss": "修理；改善"
+      }
+    ],
+    "root_jawi": "باءيق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "好的；好吧，表示同意、接受安排或准备转入下一步。",
+      "ms_definition": "Huraian editorial berdasarkan gloss Kaikki 'all right' dan penggunaan DBP: ungkapan untuk menyatakan persetujuan atau penerimaan sesuatu cadangan atau arahan.",
+      "nuances": "相当于对提议回应‘好，那就这样’；语调可表示爽快、无奈或结束讨论。原资料将其列作感叹词，本表因枚举限制映射为 particle；没有独立的 Kamus Dewan 词头释义可供逐字引用。",
+      "collocations": [
+        {
+          "ms": "baiklah, saya setuju",
+          "zh": "好的，我同意",
+          "en": "all right, I agree"
+        },
+        {
+          "ms": "baiklah, kita mulakan",
+          "zh": "好，我们开始吧",
+          "en": "all right, let's get started"
+        }
+      ],
+      "en_definition": "An expression of agreement, acceptance, or readiness to proceed; all right; okay."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式会议 / 主持人发言",
+      "ms": "Baiklah, kita beralih kepada agenda seterusnya, iaitu cadangan penambahbaikan perkhidmatan awam.",
+      "zh": "好，我们转入下一项议程，即改善公共服务的建议。",
+      "en": "All right, let us move on to the next agenda item: proposals to improve public services."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友接受见面安排",
+      "ms_spoken": "Kita jumpa kat pintu utama pukul tujuh ya? Senang sikit nak cari.",
+      "ms_standard": "Bolehkah kita berjumpa di pintu utama pada pukul tujuh? Lebih mudah untuk kita mencari satu sama lain di situ.",
+      "zh": "我们七点在正门见，好吗？在那里比较容易找到对方。",
+      "spoken_features": [
+        "baiklah 在这里接受对方提出的时间和地点，不必译出勉强或不情愿的语气。",
+        "kat、nak 分别对应 di、hendak；gerak 在这里口语表示出发。",
+        "nak gerak dah 整体表示现在就要出发，不能逐词理解成“已经想动”。",
+        "baiklah 中的 -lah 与词根连写；回复省略了语境已经明确的 kita。"
+      ],
+      "messages": [
+        {
+          "speaker": "Daniel (朋友)",
+          "ms_spoken": "Kita jumpa kat pintu utama pukul tujuh ya? Senang sikit nak cari.",
+          "ms_standard": "Bolehkah kita berjumpa di pintu utama pada pukul tujuh? Lebih mudah untuk kita mencari satu sama lain di situ.",
+          "zh": "我们七点在正门见，好吗？在那里比较容易找到对方。",
+          "en": "Let's meet at the main entrance at seven, okay? It'll be easier to find each other there."
+        },
+        {
+          "speaker": "Imran (朋友)",
+          "ms_spoken": "Baiklah, jumpa kat situ nanti. Saya nak gerak dah.",
+          "ms_standard": "Baiklah, kita berjumpa di situ nanti. Saya hendak bertolak sekarang.",
+          "zh": "好，那待会儿就在那儿见。我这就出门了。",
+          "en": "All right, see you there later. I'm heading out now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "可对同事、老师或服务人员表示接受安排；-lah 在这里不天然失礼，也不限于某个族群使用。",
+    "usage_etiquette": "群聊中只回 Baiklah 有时会被读成勉强或结束话题；想表达友好同意，可补一句 terima kasih 或说明下一步。向长辈或客户说话时仍须使用合适称呼。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay; deeper origin of baik uncertain",
+    "root_origin": "可确认的现代构词是 baik‘好’ + 语气附着词 -lah；baik 的更早词源未定，本地资料提出与原始马来语 *bait 有关的可能，不能当成定论。",
+    "historical_story": "baiklah 的构形把评价事物的‘好’转为回应他人的‘好，那就这样’，关键是 baik 与语气附着词 -lah 的结合。今天从课堂应答到会议主持，它都能标记接受安排或进入下一步，让一句简短回应带上说话者的态度。",
+    "cognitive_memory_aid": "baik = 好，-lah 给回应加语气：baiklah = ‘好吧／好的’；表情和语调决定是爽快还是勉强。"
+  }
+}

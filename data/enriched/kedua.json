@@ -1,0 +1,156 @@
+{
+  "headword": {
+    "word": "kedua",
+    "syllables": null,
+    "ipa": "/kəˈdua/",
+    "jawi": null,
+    "frequency_rank": 489,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: دوا (dua)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dua",
+    "affix": "ke-",
+    "affix_type": "prefix",
+    "formula": "ke- + dua → kedua（第二）",
+    "pattern_note": "ke- 构成序数，dua 词根不变；不能因原包 root 字段写 kedua 就把派生词当词根。接阿拉伯数字时写 ke-2，字母形式写 kedua。官方音节和 Jawi 未提供，均保留 null，不从 dua 的拼写自行补造。 核心词根（Kata Dasar）「dua」官方爪夷文为「دوا」，派生附加 ke-。",
+    "word_family": [
+      {
+        "word": "dua",
+        "affix": "none",
+        "gloss": "二；两个"
+      },
+      {
+        "word": "berdua",
+        "affix": "ber-",
+        "gloss": "两个人一起"
+      },
+      {
+        "word": "kedua-dua",
+        "affix": "ke- + 重叠",
+        "gloss": "两者；两个全都"
+      },
+      {
+        "word": "kedua-duanya",
+        "affix": "ke- + 重叠 + -nya",
+        "gloss": "它们两个；他们俩全都"
+      },
+      {
+        "word": "pendua",
+        "affix": "peN-",
+        "gloss": "副本；备用物"
+      }
+    ],
+    "root_jawi": "دوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "第二；顺序或等级上在第一之后、第三之前的。",
+      "ms_definition": "(bilangan, peringkat dll) yg nombor dua",
+      "nuances": "定义直接摘自本地 PRPM 的 dua 条下第二义形 kedua，来源为 Kamus Pelajar Edisi Kedua，并非缺失的独立 Kamus Dewan 条目。马来语词类为 kata bilangan tingkat；本 Schema 没有 numeral，故用 adjective 表示修饰功能。通常置于名词后，如 tempat kedua。",
+      "collocations": [
+        {
+          "ms": "tempat kedua",
+          "zh": "第二名",
+          "en": "second place"
+        },
+        {
+          "ms": "bahasa kedua",
+          "zh": "第二语言",
+          "en": "a second language"
+        }
+      ],
+      "en_definition": "Second; coming after the first and before the third in order or rank."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "两个都；两者的，常用明确形式 kedua-dua。",
+      "ms_definition": "kedua-dua",
+      "nuances": "这是 DBP Khidmat Nasihat 对 kedua 的数量用法所作说明，ms_definition 为该说明中的对应形式，不冒称 Kamus Dewan 原文。数量用法放在名词前，序数常在名词后：kedua-dua pihak 是双方，pihak kedua 是第二方。书写时用完整 kedua-dua 更清楚。来源：https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kedua-dua 。",
+      "collocations": [
+        {
+          "ms": "kedua-dua pihak",
+          "zh": "双方",
+          "en": "both parties"
+        },
+        {
+          "ms": "kedua-dua ibu bapa",
+          "zh": "父母双方",
+          "en": "both parents"
+        }
+      ],
+      "en_definition": "Both; referring to two people or things together, usually in the form kedua-dua."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 体育赛事报道",
+      "ms": "Pasukan sekolah itu meraih tempat kedua dalam kejohanan bola sepak peringkat daerah yang berlangsung semalam.",
+      "zh": "该校球队在昨天举行的县级足球锦标赛中获得第二名。",
+      "en": "The school team secured second place in the district football championship held yesterday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友在体育场不同入口相互定位",
+      "ms_spoken": "Aku dah sampai kat pintu kedua. Kau kat mana?",
+      "ms_standard": "Saya sudah tiba di pintu kedua. Awak berada di mana?",
+      "zh": "我已经到第二道门了。你在哪儿？",
+      "spoken_features": [
+        "kedua 位于 pintu 后，表示顺序上的“第二”，此处不表示“两者都”。",
+        "dah 对应 sudah；kat 对应 di，kau kat mana 在口语中省略 berada。",
+        "lagi 在 aku kat pintu utama lagi 中表示“仍然”，标准语用 masih。",
+        "tunggu situ、tunggu sebelah… 省略地点介词 di；senang kau nampak 依上下文补全为 supaya awak mudah melihat saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Azlan (朋友)",
+          "ms_spoken": "Aku dah sampai kat pintu kedua. Kau kat mana?",
+          "ms_standard": "Saya sudah tiba di pintu kedua. Awak berada di mana?",
+          "zh": "我已经到第二道门了。你在哪儿？",
+          "en": "I'm at the second gate already. Where are you?"
+        },
+        {
+          "speaker": "Rizal (朋友)",
+          "ms_spoken": "Aku kat pintu utama lagi. Tunggu situ, aku jalan ke sana sekarang.",
+          "ms_standard": "Saya masih berada di pintu utama. Tunggu di situ. Saya akan berjalan ke sana sekarang.",
+          "zh": "我还在正门。你在那里等，我现在走过去。",
+          "en": "I'm still at the main entrance. Wait there, I'm walking over now."
+        },
+        {
+          "speaker": "Azlan (朋友)",
+          "ms_spoken": "Okey, aku tunggu sebelah pondok pengawal je. Senang kau nampak.",
+          "ms_standard": "Baiklah, saya akan menunggu di sebelah pondok pengawal supaya awak mudah melihat saya.",
+          "zh": "好，我就在警卫亭旁边等，方便你看到我。",
+          "en": "Okay, I'll wait right next to the guardhouse so you can spot me easily."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "kdua",
+      "full_form": "kedua",
+      "note": "原材料收录的聊天省写；正式文本用 kedua，数字式写 ke-2。second 是英语换码表达，不是马来语缩写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "序数本身中性；办事或指路时把名词一起说出，如 pintu kedua、tingkat kedua，以免对方误判你在数门、楼层还是排队位置。",
+    "usage_etiquette": "序数 kedua 不等于数量 dua；合同或会议文字中的 pihak kedua 是第二方，kedua-dua pihak 才是双方。不要把 bahasa kedua 理解为第二等语言；它描述语言学习或使用关系，不表示文化高低。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；dua 属南岛语族传承数词",
+    "root_origin": "现代构词为 ke- + dua；原包没有提供更早祖形，不补写未经核实的重建形式。",
+    "historical_story": "kedua 不需要寻找一条外来借词路线：它由马来语的数词 dua 加上序数前缀 ke- 构成。把眼前的两件货物排成先后，dua 回答‘有几个’，kedua 回答‘排第几’，这幅计数画面也适用于今天的名次、路口和第二语言。",
+    "cognitive_memory_aid": "dua 数数量，ke- 排顺序：dua buku 两本书，buku kedua 第二本书，kedua-dua buku 两本全都。"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "hai",
+    "syllables": "hai",
+    "ipa": "/hai̯/",
+    "jawi": "هاي",
+    "frequency_rank": 317,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hai",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hai → hai",
+    "pattern_note": "现代独立感叹词，不拆出词缀。ai 构成双元音，依 PRPM 保留单节 hai；历史上与 wahai／duhai 的联系不等于现代能产构词。Jawi 取本地同批任务包的完整 UTF-8 原文。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "嗨；喂；用于打招呼、呼唤或引起注意。",
+      "ms_definition": "kata utk menarik perhatian",
+      "nuances": "马来语词类为 kata seru；本 Schema 没有 interjection，归入 particle。定义取所给 Kamus Dewan 第一义；现代问候用法另有 Kamus Pelajar 与 Kaikki 支持。轻快的 hai 可友好地招呼，拔高音量则容易像在叫喊。",
+      "collocations": [
+        {
+          "ms": "hai semua",
+          "zh": "大家好",
+          "en": "Hi, everyone!"
+        },
+        {
+          "ms": "hai, apa khabar?",
+          "zh": "嗨，最近好吗？",
+          "en": "Hi, how are you?"
+        }
+      ],
+      "en_definition": "Used to greet someone, call out to them, or attract their attention."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "唉；哎；表达叹息、哀怨或恳求。",
+      "ms_definition": "kata utk melahirkan keluhan (rintihan, rayuan)",
+      "nuances": "取所给 Kamus Dewan 第二义；依语境和语调表达感情，不能一律翻成英语 hi。此义在抒情或戏剧对白中尤其容易辨认。",
+      "collocations": [
+        {
+          "ms": "hai, malangnya nasib",
+          "zh": "唉，命运真不幸",
+          "en": "Oh, what terrible luck!"
+        },
+        {
+          "ms": "hai, nasib badan",
+          "zh": "唉，自己这命啊",
+          "en": "Oh, this wretched lot of mine!"
+        }
+      ],
+      "en_definition": "Used to express a sigh, lament, or plea."
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "咦；哎；表示惊讶、不大相信或疑惑。",
+      "ms_definition": "kata utk menyatakan hairan (kurang percaya, sangsi, dll)",
+      "nuances": "取所给 Kamus Dewan 第三义。往往接疑问句；带着责怪的语调时可能显得不耐烦。",
+      "collocations": [
+        {
+          "ms": "hai, sudah habis?",
+          "zh": "咦，已经没了？",
+          "en": "What, it's all gone already?"
+        },
+        {
+          "ms": "hai, dia pun ikut?",
+          "zh": "咦，他也参加？",
+          "en": "Oh, he's joining in too?"
+        }
+      ],
+      "en_definition": "Used to express surprise, disbelief, or doubt."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区活动报道／现场引语",
+      "ms": "“Hai, semua! Selamat datang ke program membaca bersama keluarga,” kata pengacara ketika membuka majlis itu.",
+      "zh": "主持人在活动开场时说：“大家好！欢迎参加家庭共读活动。”",
+      "en": "“Hi, everyone! Welcome to the family reading programme,” the host said as the event opened."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事午休时邀约吃饭",
+      "ms_spoken": "Hai, dah makan ke? Jom makan kat kedai depan tu.",
+      "ms_standard": "Hai, adakah awak sudah makan? Mari kita makan di kedai di hadapan itu.",
+      "zh": "嗨，吃了吗？一起去前面那家店吃吧。",
+      "spoken_features": [
+        "hai 在这里用于友好问候，不表达叹息或惊讶。",
+        "句末 ke 构成口语是非问句；dah 对应 sudah。",
+        "jom 用于邀请一起行动，kat 对应 di，tu、ni 分别对应 itu、ini。",
+        "jap 是 sekejap 的口语短式，标准对照用 sebentar；nak 对应 hendak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (同事)",
+          "ms_spoken": "Hai, dah makan ke? Jom makan kat kedai depan tu.",
+          "ms_standard": "Hai, adakah awak sudah makan? Mari kita makan di kedai di hadapan itu.",
+          "zh": "嗨，吃了吗？一起去前面那家店吃吧。",
+          "en": "Hi, have you eaten yet? Let's grab something at that place up ahead."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Belum lagi. Tunggu jap, nak hantar fail ni dulu.",
+          "ms_standard": "Saya belum makan lagi. Tunggu sebentar, saya hendak menghantar fail ini dahulu.",
+          "zh": "还没呢。等一下，我想先把这个文件发出去。",
+          "en": "Not yet. Give me a sec, I need to send this file first."
+        },
+        {
+          "speaker": "Siti (同事)",
+          "ms_spoken": "Okey, aku tunggu kat lif ya.",
+          "ms_standard": "Baiklah, saya akan menunggu di lif, ya.",
+          "zh": "好，我在电梯那儿等你啊。",
+          "en": "Okay, I'll wait by the lift, then."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "hay",
+      "full_form": "hai",
+      "note": "原包提供的非规范聊天变体；正式书写用 hai。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "hai 是标准词，但问候语气较随和。庄重仪式、正式函件或面对长辈时，可按场合改用 selamat pagi 或 selamat sejahtera。",
+    "usage_etiquette": "轻声招呼并加姓名通常更自然；不要从远处反复大喊 hai 来催促陌生人或服务人员。原包的 heeee 只是一种表情性拼写，不能稳定还原为 hai，故不列作固定缩写。"
+  },
+  "etymology": {
+    "origin": "Malay（词源分析未定）",
+    "source_language": "马来语；英语 hi（现代问候用法的影响）",
+    "root_origin": "所给词源资料把 hai 解释为 wahai 或 duhai 的截短形式，并提到现代问候受英语 hi 影响；这些解释不等于已经证实唯一来源或确切起始年代。",
+    "historical_story": "马来语的 hai 不只用来见面招呼，也能在呼唤、叹息和惊疑时响起，这些功能都保留在所给词典义项中。所给词源资料把它与 wahai、duhai 联系起来，并认为英语 hi 影响了现代问候用法。于是，同一个短促的声音既能在对白中承载感情，也能在聊天窗口轻轻开启一段交谈。",
+    "cognitive_memory_aid": "想象三个语调：轻快“嗨，你好”，低落“唉，真倒霉”，上扬“咦，怎么没了”。"
+  }
+}

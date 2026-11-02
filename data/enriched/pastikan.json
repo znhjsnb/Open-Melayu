@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "pastikan",
+    "syllables": "",
+    "ipa": "/pastikan/",
+    "jawi": "",
+    "frequency_rank": 511,
+    "tags": [
+      "CEFR-A2",
+      "公文标准"
+    ],
+    "jawi_note": "词根爪夷文: ڤستي (pasti)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pasti",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "pasti + -kan → pastikan",
+    "pattern_note": "pasti 表示确定；加 -kan 构成动词，pastikan 常见于祈使句。主动陈述式为 memastikan：meN- + pasti + -kan，词首 p 脱落；祈使式恢复 p。任务包未提供 pastikan 的官方音节和爪夷文，两栏留空，不把词根 pasti 的字段移植过来；IPA 为编辑提供的宽式读音。CEFR 为教学估计。 核心词根（Kata Dasar）「pasti」官方爪夷文为「ڤستي」，派生附加 -kan。",
+    "word_family": [
+      {
+        "word": "pasti",
+        "affix": "∅",
+        "gloss": "确定的；一定"
+      },
+      {
+        "word": "memastikan",
+        "affix": "meN-…-kan",
+        "gloss": "确认；确保"
+      },
+      {
+        "word": "dipastikan",
+        "affix": "di-…-kan",
+        "gloss": "被确认；被确保"
+      },
+      {
+        "word": "kepastian",
+        "affix": "ke-…-an",
+        "gloss": "确定性；确切答复"
+      },
+      {
+        "word": "pemastian",
+        "affix": "peN-…-an",
+        "gloss": "确认的过程"
+      }
+    ],
+    "root_jawi": "ڤستي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "确认；确保：查明某事属实，或采取行动保证所要求的情况成立。",
+      "ms_definition": "menyatakan dgn pasti, menentukan (menetapkan) dgn pasti",
+      "nuances": "马来文释义取本地 PRPM 的 pasti 词条中动词 memastikan 的 Kamus Dewan 原义，应用于其无 meN- 形式 pastikan，并非独立 pastikan 词条原文。Pastikan fakta itu betul 侧重核实；pastikan pintu dikunci 侧重保证行动完成。直接陈述主体行为通常说 Saya memastikan…；Saya pastikan… 常见于口语。正式提醒可用 Sila pastikan…。",
+      "collocations": [
+        {
+          "ms": "pastikan maklumat tepat",
+          "zh": "确保资料准确",
+          "en": "ensure the information is accurate"
+        },
+        {
+          "ms": "pastikan pintu dikunci",
+          "zh": "确保门已锁好",
+          "en": "make sure the door is locked"
+        }
+      ],
+      "en_definition": "To check that something is true or take action to ensure that a requirement is met."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务通知 / 网上申请须知",
+      "ms": "Sila pastikan semua maklumat yang diberikan adalah tepat sebelum menghantar borang permohonan.",
+      "zh": "提交申请表格前，请确保所填写的全部资料准确无误。",
+      "en": "Please ensure that all information provided is accurate before submitting the application form."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp 家人聊天 / 出门前确认门窗",
+      "ms_spoken": "Aina, sebelum keluar tu, pastikan pintu belakang dah kunci, ya.",
+      "ms_standard": "Aina, sebelum keluar, pastikan pintu belakang sudah dikunci, ya.",
+      "zh": "艾娜，出门前记得确认后门锁好了啊。",
+      "spoken_features": [
+        "pastikan 在此是提醒对方检查并确保某个状态成立，后面的回复明确确认任务已完成。",
+        "pintu belakang dah kunci 和 tingkap dapur dah tutup 是口语中的状态表达，规范语分别恢复为 sudah dikunci 和 sudah ditutup。",
+        "dah、nak、je 分别对应 sudah、hendak、sahaja；haah 表示肯定，句末 ke 构成是非问句。",
+        "sebelum keluar tu 中的 tu 起话语提示作用，规范表达可省略；mak 既用于称呼母亲，也用于母亲对孩子自称。"
+      ],
+      "messages": [
+        {
+          "speaker": "Salmah (母亲)",
+          "ms_spoken": "Aina, sebelum keluar tu, pastikan pintu belakang dah kunci, ya.",
+          "ms_standard": "Aina, sebelum keluar, pastikan pintu belakang sudah dikunci, ya.",
+          "zh": "艾娜，出门前记得确认后门锁好了啊。",
+          "en": "Aina, make sure the back door's locked before you go out, okay?"
+        },
+        {
+          "speaker": "Aina (女儿)",
+          "ms_spoken": "Dah, mak. Tingkap dapur pun dah tutup. Lampu luar nak biar pasang ke?",
+          "ms_standard": "Sudah, ibu. Tingkap dapur juga sudah ditutup. Adakah lampu di luar hendak dibiarkan menyala?",
+          "zh": "锁好了，妈。厨房窗户也关了。外面的灯要留着开吗？",
+          "en": "It's locked, Mum. I've closed the kitchen window too. Should I leave the outside light on?"
+        },
+        {
+          "speaker": "Salmah (母亲)",
+          "ms_spoken": "Haah, biar je. Nanti mak balik lambat sikit.",
+          "ms_standard": "Ya, biarkan sahaja lampu itu menyala. Ibu akan pulang agak lewat nanti.",
+          "zh": "对，留着开吧。妈等下会晚一点回来。",
+          "en": "Yeah, leave it on. I'll be home a bit late."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用于不同族群的公共通知和日常提醒都很自然。直接说 Pastikan… 带指令意味，面对顾客、长辈或不熟悉的人，加 sila 或 tolong 较柔和。",
+    "usage_etiquette": "先说清需要确认的事项，避免连续命令听起来像责备；顾客通知可用 Sila pastikan…，不必加 kau。pastikan 是要求核实或保证，并不表示说话者已经查证完成。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；词根据本地 Kaikki 来自 Javanese，经 Old Javanese",
+    "root_origin": "现代构词为 pasti + -kan。本地 Kaikki 的 pasti 词条记载来自 Javanese pasthi，承接 Old Javanese paṣṭi，并与 mesti 有历史关系；此处 Austronesian 对应直接来源爪哇语所属语系，不推定更远的祖语词形。",
+    "historical_story": "在马来语与爪哇语长期接触的群岛世界里，表示确定的词也会跨语言流通，本地词源资料把 pasti 联系到爪哇语 pasthi 和古爪哇语 paṣṭi。进入马来语构词系统后，pasti 加上 -kan，便可把一种确定状态转成要求对方确认或确保的动作。今天，从柜台表格到家人出门前的提醒，一句 pastikan 都是在把事情落实。",
+    "cognitive_memory_aid": "pasti 是“确定”，-kan 把它变成动作：pastikan＝让事情确定下来。想象出门前确认门锁，再说 pastikan pintu dikunci。"
+  }
+}

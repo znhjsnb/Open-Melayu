@@ -1,0 +1,99 @@
+{
+  "headword": {
+    "word": "o",
+    "syllables": null,
+    "ipa": "[o]",
+    "jawi": null,
+    "frequency_rank": 1228,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "o",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + O → O（氧的元素符号）",
+    "pattern_note": "本条按输入的 DBP 核心释义处理为化学符号，实际书写必须大写 O；headword.word 保留输入索引 o。元素符号不参与马来语词缀派生，也不转写为 Jawi。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "氧元素的化学符号，规范写作大写 O；在化学式中标示氧元素。",
+      "en_definition": "The chemical symbol for the element oxygen, conventionally written as uppercase O.",
+      "ms_definition": "Simbol kimia bagi unsur oksigen, yang ditulis dengan huruf besar O.",
+      "nuances": "输入把小写索引 o 与大写 O 的化学释义放在一起；本条依核心释义采用后者。O 表示氧元素，O₂ 表示氧分子，不可把两者当作同一个符号；小写 o 及数字 0 也不能替代 O。参见 [Royal Society of Chemistry：Oxygen](https://periodic-table.rsc.org/element/8/oxygen)。",
+      "collocations": [
+        {
+          "ms": "simbol O",
+          "zh": "符号 O",
+          "en": "the symbol O"
+        },
+        {
+          "ms": "atom O",
+          "zh": "氧原子",
+          "en": "an oxygen atom"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "科学报告 / 教学说明",
+      "ms": "Dalam formula kimia H₂O, simbol O mewakili unsur oksigen.",
+      "zh": "在化学式 H₂O 中，符号 O 表示氧元素。",
+      "en": "In the chemical formula H₂O, the symbol O represents the element oxygen."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论化学作业",
+      "ms_spoken": "Kat formula H₂O ni, O tu simbol oksigen, kan?",
+      "ms_standard": "Dalam formula H₂O ini, O ialah simbol bagi oksigen, bukan?",
+      "zh": "这个 H₂O 化学式里的 O 是氧的符号，对吧？",
+      "en": "In this formula H₂O, O is the symbol for oxygen, right?",
+      "spoken_features": [
+        "kat：口语处所介词，此处标准表达使用 dalam。",
+        "ni 和 tu 分别是 ini、itu 的口语缩略。",
+        "句末 kan 用于请求确认。",
+        "口语中可省略判断词 ialah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Kat formula H₂O ni, O tu simbol oksigen, kan?",
+          "ms_standard": "Dalam formula H₂O ini, O ialah simbol bagi oksigen, bukan?",
+          "zh": "这个 H₂O 化学式里的 O 是氧的符号，对吧？",
+          "en": "In this formula, H₂O, the O is the symbol for oxygen, right?"
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Ya, cikgu dah terangkan tadi. Tulis O besar, ya.",
+          "ms_standard": "Ya, guru sudah menerangkannya tadi. Tulislah huruf O besar.",
+          "zh": "对，老师刚才已经讲过了。记得写大写 O 啊。",
+          "en": "Yes, the teacher explained that earlier. Remember to use a capital O."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "课堂讨论中，纠正同学的符号大小写时，可用 Ingat, tulis O besar, ya，语气较温和。",
+    "usage_etiquette": "科学作业和报告必须保留大写 O 及正确下标；H₂O 中的 O 不能写成数字零。朗读时可念字母名称，解释其含义时说 oksigen。"
+  },
+  "etymology": {
+    "origin": "International scientific notation",
+    "source_language": "国际化学符号体系",
+    "root_origin": "O（氧元素名称 oxygen／oxygenium 的首字母）",
+    "cognitive_memory_aid": "把 O 与 oksigen 的首字母联系起来：O 是氧元素，右下角加 ₂ 成为 O₂，表示由两个氧原子组成的氧分子。",
+    "historical_story": "1813 年，贝采里乌斯提出以字母表示元素的化学符号体系，O 用来表示氧，逐渐取代早期较繁复的图形符号。这套国际记号也用于现代马来语科学教学，因此 O 在马来语化学文本中仍保持相同形式；参见 [Royal Society of Chemistry：化学符号史](https://www.rsc.org/images/InfochemMarch08_tcm18-113919.pdf)。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "课堂讨论中，纠正同学的符号大小写时，可用 Ingat, tulis O besar, ya，语气较温和。",
+    "usage_etiquette": "科学作业和报告必须保留大写 O 及正确下标；H₂O 中的 O 不能写成数字零。朗读时可念字母名称，解释其含义时说 oksigen。"
+  }
+}

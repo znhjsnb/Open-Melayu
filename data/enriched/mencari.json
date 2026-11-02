@@ -1,0 +1,152 @@
+{
+  "headword": {
+    "word": "mencari",
+    "syllables": "men.ca.ri",
+    "ipa": "/mən.t͡ʃa.ri/",
+    "jawi": "منچاري",
+    "frequency_rank": 206,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "cari",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + cari → men- + cari → mencari",
+    "pattern_note": "主动动词前缀 meN- 遇到词首 c 时写作 men-，保留 c，不删去词根首字母；不是把整个 mencari 当作词根。",
+    "word_family": [
+      {
+        "word": "cari",
+        "affix": "none",
+        "gloss": "找；词根及口语、祈使形式"
+      },
+      {
+        "word": "mencarikan",
+        "affix": "meN-...-kan",
+        "gloss": "替某人寻找"
+      },
+      {
+        "word": "pencari",
+        "affix": "peN-",
+        "gloss": "寻找者；谋生者"
+      },
+      {
+        "word": "pencarian",
+        "affix": "peN-...-an",
+        "gloss": "寻找过程；生计或收入"
+      },
+      {
+        "word": "carian",
+        "affix": "-an",
+        "gloss": "所寻找的事物；检索"
+      },
+      {
+        "word": "tercari-cari",
+        "affix": "ter- + reduplication",
+        "gloss": "四处认真寻找"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "寻找；设法找到或获得某人、某物、工作或办法。",
+      "ms_definition": "berusaha utk mendapat (memperoleh) sesuatu, melihat ke sana sini dan berusaha supaya menjumpai atau mendapat kembali sesuatu yg hilang atau tidak diketahui mana perginya",
+      "nuances": "强调寻找的行动，并不保证已经找到；‘找到了’通常用 sudah menjumpai 或 sudah menemui。既能找具体东西，也能 mencari kerja、mencari jalan；陈述句中 mencari 是规范主动形式，聊天常简化为 cari。",
+      "collocations": [
+        {
+          "ms": "mencari pekerjaan",
+          "zh": "找工作",
+          "en": "look for a job"
+        },
+        {
+          "ms": "mencari jalan penyelesaian",
+          "zh": "寻找解决办法",
+          "en": "look for a solution"
+        }
+      ],
+      "en_definition": "To try to find or obtain someone or something."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "故意挑起；刻意找出或编造事端、借口。",
+      "ms_definition": "mengada-adakan sesuatu, sengaja menimbulkan (mengadakan)",
+      "nuances": "带负面评价；mencari gaduh 是挑衅滋事，mencari helah 是找借口。不能把这些固定表达都按中性的‘寻找’理解。",
+      "collocations": [
+        {
+          "ms": "mencari gaduh",
+          "zh": "找碴；挑起争吵",
+          "en": "pick a fight"
+        },
+        {
+          "ms": "mencari helah",
+          "zh": "找借口；编托词",
+          "en": "make up excuses"
+        }
+      ],
+      "en_definition": "To deliberately provoke trouble or devise excuses or pretexts."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 搜寻行动",
+      "ms": "Pasukan penyelamat meneruskan operasi mencari mangsa yang dilaporkan hilang sejak semalam.",
+      "zh": "救援队继续展开搜寻行动，寻找自昨天起被报失踪的人员。",
+      "en": "The rescue team is continuing its operation to search for the person reported missing since yesterday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 向朋友打听工作机会",
+      "ms_spoken": "Saya masih mencari kerja ni. Ada jawatan kosong kat tempat awak tak?",
+      "ms_standard": "Saya masih mencari pekerjaan. Adakah terdapat jawatan kosong di tempat kerja awak?",
+      "zh": "我还在找工作呢。你们公司有空缺吗？",
+      "spoken_features": [
+        "masih mencari kerja 表示求职仍在持续；完整形式 mencari 也可以自然出现在日常聊天中。",
+        "ni 放在句末突出眼下的处境；kat 对应 di，tempat awak 在这里指对方的工作单位。",
+        "Ada ... tak? 是口语是非问句；kot 表示推测，说明对方尚未确认是否有空缺。",
+        "admin、CV 和 HR 是职场聊天中常见的简称或外来表达，标准改写分别展开为 pentadbiran、riwayat hidup 和 bahagian sumber manusia。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Saya masih mencari kerja ni. Ada jawatan kosong kat tempat awak tak?",
+          "ms_standard": "Saya masih mencari pekerjaan. Adakah terdapat jawatan kosong di tempat kerja awak?",
+          "zh": "我还在找工作呢。你们公司有空缺吗？",
+          "en": "I'm still looking for a job. Are there any openings where you work?"
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Ada kot, bahagian admin. Hantar CV awak dulu, nanti saya tanya HR.",
+          "ms_standard": "Mungkin ada kekosongan dalam bahagian pentadbiran. Hantarkan riwayat hidup awak terlebih dahulu; selepas itu saya akan bertanya kepada bahagian sumber manusia.",
+          "zh": "行政那边可能有。你先把简历发来，之后我帮你问问人事部。",
+          "en": "I think there might be one in admin. Send me your CV first, and I'll check with HR."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "nyari",
+      "full_form": "mencari",
+      "note": "口语变体，也常见于印尼语及受其影响的聊天；不是马来西亚正式拼写，本地日常交流用 cari 更稳妥。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向不同族群的陌生人求助，可用 Maaf, saya sedang mencari...，先致意再说明要找什么；对方称呼按关系选择，不随意使用 kau。",
+    "usage_etiquette": "mencari kerja 是中性说法；说别人 mencari gaduh、mencari muka 则带指责或贬意。公共服务或职场交流应先描述具体行为，避免直接给人贴标签。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "Malay；词根 cari 可能与 Sanskrit 有关",
+    "root_origin": "现代构词为 meN- + cari。梵语 cārin 意为‘四处走动的’；[WOLD 的 mencari 记录](https://wold.clld.org/word/71261839908385526)将这一词源列为 perhaps borrowed，属于可能来源，并非定论。",
+    "historical_story": "印度贸易与文化交流为马来语留下了许多词汇接触的痕迹，cari 也被研究者联系到梵语 cārin‘四处走动的’，但这一联系尚不确定。进入马来语构词系统后，cari 可加主动前缀形成 mencari，今天既能说寻找失物，也能说寻找工作和出路。",
+    "cognitive_memory_aid": "先记 cari‘找’，再套上主动前缀：meN- + cari → mencari；正在找，不等于已经找到。"
+  }
+}

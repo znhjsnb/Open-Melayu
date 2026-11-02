@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "satu",
+    "syllables": "sa.tu",
+    "ipa": "/satu/",
+    "jawi": "ساتو",
+    "frequency_rank": 51,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "satu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + satu → satu",
+    "pattern_note": "现代马来语把 satu 作为完整词根；menyatu、menyatukan 中，meN- 遇词首 s，s 脱落并形成 ny。历史词源分析不等于现代构词拆分。",
+    "word_family": [
+      {
+        "word": "bersatu",
+        "affix": "ber-",
+        "gloss": "团结；合而为一"
+      },
+      {
+        "word": "menyatu",
+        "affix": "meN-",
+        "gloss": "融为一体"
+      },
+      {
+        "word": "menyatukan",
+        "affix": "meN-…-kan",
+        "gloss": "使合一；联合"
+      },
+      {
+        "word": "satuan",
+        "affix": "-an",
+        "gloss": "单位；个位"
+      },
+      {
+        "word": "kesatuan",
+        "affix": "ke-…-an",
+        "gloss": "统一；工会等联合组织"
+      },
+      {
+        "word": "persatuan",
+        "affix": "per-…-an",
+        "gloss": "协会；团结"
+      },
+      {
+        "word": "penyatuan",
+        "affix": "peN-…-an",
+        "gloss": "整合；统一的过程"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一；数字 1；表示一个的数量。",
+      "ms_definition": "angka pertama ketika membilang; 1; bilangan 1. (Kamus Pelajar Edisi Kedua)",
+      "nuances": "本义的实际词类是 kata bilangan（数词）；此 Schema 没有 numeral，故以 noun 承载数字名。普通名词计数常用 se- 加量词，如 seorang、sebuah；satu orang 等形式在强调数量或口语中也可见。salah satu 表示其中之一，satu sama lain 表示彼此。当前原档此义来源为 Kamus Pelajar，不能冒称 Kamus Dewan。",
+      "collocations": [
+        {
+          "ms": "satu per satu",
+          "zh": "逐一；一个接一个",
+          "en": "one by one"
+        },
+        {
+          "ms": "salah satu sebab",
+          "zh": "其中一个原因",
+          "en": "one of the reasons"
+        }
+      ],
+      "en_definition": "The number 1; a single item or unit."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "唯一的；同一的；合为一个整体的。",
+      "ms_definition": "tidak ada yg lain lagi; tunggal. (Kamus Pelajar Edisi Kedua)",
+      "nuances": "形容事物只有一个或各方心意一致；只有 satu 这个词并不总能表达“唯一”，常用 satu-satunya 明确排除其他选择。satu hati 是心意一致，不是字面只有一颗心。",
+      "collocations": [
+        {
+          "ms": "satu hati",
+          "zh": "同心；心意一致",
+          "en": "of one mind"
+        },
+        {
+          "ms": "satu suara",
+          "zh": "一致的声音；异口同声",
+          "en": "with one voice"
+        }
+      ],
+      "en_definition": "Single or sole; the same; united as a whole."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／社区发展",
+      "ms": "Peningkatan kemudahan awam merupakan salah satu keutamaan majlis perbandaran tahun ini.",
+      "zh": "改善公共设施是市议会今年的重点工作之一。",
+      "en": "Improving public amenities is one of the municipal council's priorities this year."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 向熟悉的嘛嘛档店员预订外带餐点",
+      "ms_spoken": "Abang, nak satu roti canai bungkus. Kuah asing ya.",
+      "ms_standard": "Saya mahu memesan satu roti canai untuk dibungkus. Tolong asingkan kuahnya.",
+      "zh": "大哥，我要一份印度煎饼打包，咖喱汁另外装哦。",
+      "spoken_features": [
+        "satu 直接限定 roti canai 的数量，点餐时自然表示“一份印度煎饼”。",
+        "nak 口语中对应 hendak 或 mahu；首句省略可由语境理解的主语 saya。",
+        "bungkus 在点餐语境中表示打包外带；kuah asing 是要求酱汁分装的简略说法。",
+        "je 对应 sahaja；句尾 ke 标记是非或选择疑问；bang 是 abang 的口语短形式，可用于熟悉店员间的称呼。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (顾客)",
+          "ms_spoken": "Abang, nak satu roti canai bungkus. Kuah asing ya.",
+          "ms_standard": "Saya mahu memesan satu roti canai untuk dibungkus. Tolong asingkan kuahnya.",
+          "zh": "大哥，我要一份印度煎饼打包，咖喱汁另外装哦。",
+          "en": "Bro, can I get one roti canai to go? Pack the sauce separately, please."
+        },
+        {
+          "speaker": "Ravi (嘛嘛档店员)",
+          "ms_spoken": "Boleh. Nak kuah kari je ke, nak dal sekali?",
+          "ms_standard": "Baik. Adakah anda mahu kuah kari sahaja atau kuah dal juga?",
+          "zh": "可以。只要咖喱汁，还是也要扁豆酱？",
+          "en": "Sure. Just curry sauce, or would you like dhal too?"
+        },
+        {
+          "speaker": "Farhan (顾客)",
+          "ms_spoken": "Kari je, bang. Lagi sepuluh minit saya sampai.",
+          "ms_standard": "Kuah kari sahaja. Saya akan tiba dalam masa sepuluh minit lagi.",
+          "zh": "咖喱汁就好，大哥。我再过十分钟到。",
+          "en": "Just curry sauce, bro. I'll be there in ten minutes."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "stu",
+      "full_form": "satu",
+      "note": "私人聊天中省略元音的写法，须靠上下文识别；正式文字写 satu。one 是英语译词，不能当作马来语缩写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "点餐时 satu 加食物名称很自然；向不熟悉的店员可用 saya 和 tolong，避免把简短点单说成命令。",
+    "usage_etiquette": "satu bangsa 等集体表述带有社会和身份语境，宜结合原文理解。涉及 Tuhan hanya satu 等宗教表述时，应尊重不同信仰，不把词典例句当作对所有人的宗教主张。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic（原始马来语支）",
+    "root_origin": "所附词源资料分析为 *sA-（一）与 *batu（石）的组合；这是历史词源分析，现代词根仍为 satu。",
+    "historical_story": "所附词源资料把 satu 的来路联系到表示“一”的 *sA- 和表示“石”的 *batu，让一个抽象数字有了可握在手里的形象。可以想象把一颗石子放到一旁表示“一份”，但这只是帮助理解的画面，并非已经证实的古代海港计数习俗。进入现代马来语后，satu 既用于日常计数，也通过 bersatu、persatuan 等词表达个人汇聚成整体。",
+    "cognitive_memory_aid": "桌上放一颗石子记 satu；许多颗聚成一个整体，联想 bersatu（团结）。石子场景只是记忆比喻。"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "headword": {
+    "word": "orang",
+    "syllables": "o.rang",
+    "ipa": "[ˈʔo.raŋ]",
+    "jawi": "اورڠ",
+    "frequency_rank": 33,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "orang",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + orang → orang；se- + orang → seorang",
+    "pattern_note": "完整词根，词尾 ng 表示单个鼻音 ŋ。缓存缺项；o.rang 与 اورڠ 据 DBP orang-orangan 的首个完整 orang 成分核对：https://prpm.dbp.gov.my/Cari1?d=175768&keyword=orang-orangan 。",
+    "word_family": [
+      {
+        "word": "seorang",
+        "affix": "se-",
+        "gloss": "一个人；一名"
+      },
+      {
+        "word": "seseorang",
+        "affix": "se- + seorang",
+        "gloss": "某个人；任何一个人"
+      },
+      {
+        "word": "keseorangan",
+        "affix": "ke- + seorang + -an",
+        "gloss": "孤身一人；孤单"
+      },
+      {
+        "word": "perseorangan",
+        "affix": "per- + seorang + -an",
+        "gloss": "个人的；单打"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "人；人们，可按上下文表示一个人或多人。",
+      "ms_definition": "manusia (sbg peribadi).",
+      "nuances": "补核 Kamus Dewan 原义：https://prpm.dbp.gov.my/Cari1?d=73980&keyword=orang+berada 。人数由 ramai、semua、数词或上下文表达，orang 本身不固定为复数。",
+      "collocations": [
+        {
+          "ms": "semua orang",
+          "zh": "所有人；大家",
+          "en": "everyone"
+        },
+        {
+          "ms": "ramai orang",
+          "zh": "很多人",
+          "en": "a lot of people"
+        }
+      ],
+      "en_definition": "A person; people."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "名；位，用于计算人数的量词。",
+      "ms_definition": "penjodoh bilangan bagi manusia.",
+      "nuances": "马来语词类为 penjodoh bilangan，本 Schema 归入 noun。常见结构为数词 + orang + 人物名词；一名通常写 seorang。",
+      "collocations": [
+        {
+          "ms": "dua orang pelajar",
+          "zh": "两名学生",
+          "en": "two students"
+        },
+        {
+          "ms": "tiga orang anak",
+          "zh": "三个孩子",
+          "en": "three children"
+        }
+      ],
+      "en_definition": "A classifier used when counting people."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "某地的人；某国国民。",
+      "ms_definition": "manusia yg berasal dr sesuatu daerah tertentu, rakyat sesebuah negara.",
+      "nuances": "orang 后的地名说明地域来源；orang Malaysia 指马来西亚人，并不等于 orang Melayu（马来人），后者涉及族群身份。",
+      "collocations": [
+        {
+          "ms": "orang Malaysia",
+          "zh": "马来西亚人",
+          "en": "a Malaysian"
+        },
+        {
+          "ms": "orang Perak",
+          "zh": "霹雳州人",
+          "en": "a person from Perak"
+        }
+      ],
+      "en_definition": "A person from a particular place or a citizen of a particular country."
+    },
+    {
+      "id": 4,
+      "pos": "pronoun",
+      "zh_definition": "别人；人家，指自己以外的人。",
+      "ms_definition": "lain drpd diri sendiri.",
+      "nuances": "buku orang 可以是“别人的书”，不一定是前文某人的书；orang lain 则更明确地表示别人。",
+      "collocations": [
+        {
+          "ms": "barang orang",
+          "zh": "别人的东西",
+          "en": "someone else's belongings"
+        },
+        {
+          "ms": "rumah orang",
+          "zh": "别人家",
+          "en": "someone else's home"
+        }
+      ],
+      "en_definition": "Someone else; other people."
+    },
+    {
+      "id": 5,
+      "pos": "pronoun",
+      "zh_definition": "人家；我，熟人间带亲昵或委屈语气的自称。",
+      "ms_definition": "bp diri sendiri.",
+      "nuances": "限特定亲密口语，身份须靠语境判断，如 Orang tak tahu lah 可表示“人家不知道嘛”。不要把所有 orang 都译成我，也不要将它当作正式自称。",
+      "collocations": [
+        {
+          "ms": "orang tak tahu",
+          "zh": "人家不知道嘛",
+          "en": "But I don't know."
+        },
+        {
+          "ms": "orang dah cakap",
+          "zh": "人家都说过了",
+          "en": "I've already told you."
+        }
+      ],
+      "en_definition": "A colloquial way of referring to oneself as 'I' or 'me', often with an affectionate or plaintive tone."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务新闻 / 开放通告",
+      "ms": "Perpustakaan baharu itu akan dibuka kepada orang ramai mulai Isnin depan.",
+      "zh": "这座新图书馆将于下周一开始向公众开放。",
+      "en": "The new library will open to the public next Monday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友到餐馆后商量换地方",
+      "ms_spoken": "Aku dah sampai. Ramai orang kat sini, meja semua penuh.",
+      "ms_standard": "Saya sudah sampai. Terdapat ramai orang di sini dan semua meja sudah penuh.",
+      "zh": "我到了。这里人好多，桌子都坐满了。",
+      "spoken_features": [
+        "ramai orang 表示人多，orang 本身无须添加复数标记",
+        "dah = sudah；kat 在这里对应地点介词 di",
+        "macam tu 对应 begitu；je = sahaja",
+        "句末 nak? 用来征询对方是否愿意接受共同用餐的提议",
+        "depan kedai 在口语中省略介词，正式还原为 di hadapan kedai"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku dah sampai. Ramai orang kat sini, meja semua penuh.",
+          "ms_standard": "Saya sudah sampai. Terdapat ramai orang di sini dan semua meja sudah penuh.",
+          "zh": "我到了。这里人好多，桌子都坐满了。",
+          "en": "I'm here. It's packed, and all the tables are taken."
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Kalau macam tu, kita makan kat kedai sebelah je nak?",
+          "ms_standard": "Jika begitu, mahukah awak makan bersama saya di kedai sebelah sahaja?",
+          "zh": "这样的话，咱们就在隔壁那家吃，好不好？",
+          "en": "In that case, shall we just eat at the place next door?"
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Jom. Aku tunggu kau depan kedai sebelah.",
+          "ms_standard": "Marilah. Saya akan menunggu awak di hadapan kedai sebelah.",
+          "zh": "走吧。我在隔壁那家店门口等你。",
+          "en": "Let's do that. I'll wait for you outside the place next door."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "org",
+      "full_form": "orang",
+      "note": "常见省元音写法，如 ramai org；须结合语境区分其他缩写。"
+    },
+    {
+      "abbr": "orng",
+      "full_form": "orang",
+      "note": "另一种省去元音 a 的聊天写法，不用于正式文件。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "作为“人”和人数量词很中性；面对面指某位长辈或客户时，姓名、职衔或 beliau 通常比指着对方说 orang itu 更周到。",
+    "usage_etiquette": "区分国籍、族群与原住民群体名称，不凭外貌替别人指定身份。亲昵自称 orang 依关系而定；正式场合自称 saya 更稳妥。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语，经原始马来语；代词义另有接触语言解释",
+    "root_origin": "所给资料追溯至原始马来语 *uraŋ（人），并提出更早的 *uʀaŋ；亲昵代词义与闽南语 lâng（儂）的联系是一种解释，不是整词借自闽南语。",
+    "historical_story": "orang 属于马来语继承的“人”这一基本词汇层，较早的相关形式为 urang；不能因为后来有华人社群接触，就把整个词说成闽南语借词。在多语港市的生活画面中，它既能指来往的人，也能跟在数字后计算人数。现代亲昵口语又可用 orang 自称“人家”，资料将这一代词用法与闽南语接触联系起来，但具体传播过程仍不宜写成定论。",
+    "cognitive_memory_aid": "看见 orang 就先想一个人形：ramai orang 是很多人，dua orang 是两位，orang Malaysia 是马来西亚人。"
+  }
+}

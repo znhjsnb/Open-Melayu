@@ -1,0 +1,139 @@
+{
+  "headword": {
+    "word": "puan",
+    "syllables": "puan",
+    "ipa": "[pu.wan]",
+    "jawi": "ڤوان",
+    "frequency_rank": 364,
+    "tags": [
+      "CEFR-A1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "puan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + puan → puan",
+    "pattern_note": "现代构词中作为独立词根使用，不再把历史缩略当作词缀拆分。puan-puan 是重叠形式；称谓义与金银槟榔盒义是同形义项，不据字形认定同一词源。分节严格保留 PRPM 的 puan，IPA 中 [w] 不用于改写官方分节。CEFR 标签针对常用称谓义，为教学估计。",
+    "word_family": [
+      {
+        "word": "puan-puan",
+        "affix": "全词重叠",
+        "gloss": "女士们"
+      },
+      {
+        "word": "berpuankan",
+        "affix": "ber-…-kan",
+        "gloss": "以某位女性为雇主"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "女士；夫人；对成年女性的尊称，可单独称呼或置于姓名前。",
+      "ms_definition": "= cik puan panggilan kpd perempuan yg sudah bersuami, nyonya (lwn tuan); puan-puan sapaan kpd sekalian orang perempuan yg hadir dlm sesuatu majlis",
+      "nuances": "摘自 raw_definitions 中 Kamus Dewan 的称谓条，不能仅凭首条槟榔盒释义判断常用义。词典传统释义提到已婚女性；DBP 用法答复说明，正式事务中 puan 也适用于未婚女性，非正式场合可依收信人偏好使用 puan 或 cik。英文单独称呼常译 Madam 或 ma'am，姓名前不必一律译成 Mrs。参见 https://prpm.dbp.gov.my/Cari1?d=175768&keyword=puan。",
+      "collocations": [
+        {
+          "ms": "Puan Lina",
+          "zh": "丽娜女士",
+          "en": "Ms Lina"
+        },
+        {
+          "ms": "tuan-tuan dan puan-puan",
+          "zh": "各位先生、女士",
+          "en": "ladies and gentlemen"
+        }
+      ],
+      "en_definition": "A respectful title or form of address for an adult woman, traditionally a married woman."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用金或银制成的槟榔盒，见于王室或传统婚礼器物。",
+      "ms_definition": "sj tempat sirih yg diperbuat drpd emas atau perak (biasanya dipakai oleh permaisuri, pengantin perempuan atau sbg tanda kekuasaan raja)",
+      "nuances": "Kamus Dewan 中另一个同形词条，属于文化器物用语，远少于称谓义；下列搭配用于说明材质。不能把对人的 Puan 理解为器皿，也不把称谓义的缩略词源直接套到此义。",
+      "collocations": [
+        {
+          "ms": "puan emas",
+          "zh": "金制槟榔盒",
+          "en": "gold betel box"
+        },
+        {
+          "ms": "puan perak",
+          "zh": "银制槟榔盒",
+          "en": "silver betel box"
+        }
+      ],
+      "en_definition": "A gold or silver container for betel-chewing ingredients, used in royal or traditional wedding ceremonies."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议致辞 / 欢迎来宾",
+      "ms": "Pihak penganjur mengalu-alukan kehadiran Puan Lina untuk merasmikan program literasi komuniti pada pagi ini.",
+      "zh": "主办方欢迎丽娜女士出席，为今天上午的社区读写推广活动主持开幕。",
+      "en": "The organisers welcome Ms Lina, who is here to officiate at this morning's community literacy programme."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 蛋糕店通知顾客订单已备妥并确认取货安排",
+      "ms_spoken": "Puan, kek dah siap ya. Nak ambil pukul berapa nanti?",
+      "ms_standard": "Puan, kek tempahan puan sudah siap. Pada pukul berapakah puan hendak mengambilnya nanti?",
+      "zh": "女士，您订的蛋糕已经做好了。您待会儿想几点来拿？",
+      "spoken_features": [
+        "puan 在这里是对女性顾客的礼貌称呼，不需要先询问对方的婚姻状况。",
+        "dah、nak、je 分别对应 sudah、hendak、sahaja；ya 使通知语气较亲切。",
+        "lima setengah 在已明确谈论取货时间的语境中指五点半，标准语补出 pukul。",
+        "bagi nama 是口语表达，对应 berikan nama；nanti sampai 省略了主语和 apabila。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (蛋糕店店员)",
+          "ms_spoken": "Puan, kek dah siap ya. Nak ambil pukul berapa nanti?",
+          "ms_standard": "Puan, kek tempahan puan sudah siap. Pada pukul berapakah puan hendak mengambilnya nanti?",
+          "zh": "女士，您订的蛋糕已经做好了。您待会儿想几点来拿？",
+          "en": "Your cake's ready, ma'am. What time would you like to pick it up?"
+        },
+        {
+          "speaker": "Salmah (顾客)",
+          "ms_spoken": "Saya habis kerja pukul lima. Kalau sampai dalam lima setengah, sempat lagi tak?",
+          "ms_standard": "Saya selesai bekerja pada pukul lima. Jika saya tiba sekitar pukul lima setengah, adakah saya masih sempat mengambil kek itu?",
+          "zh": "我五点下班。如果大概五点半到，还来得及拿吗？",
+          "en": "I finish work at five. If I get there around half past five, will I still be in time to pick it up?"
+        },
+        {
+          "speaker": "Aina (蛋糕店店员)",
+          "ms_spoken": "Sempat, puan. Kami tutup pukul enam. Nanti sampai, bagi nama je.",
+          "ms_standard": "Puan masih sempat mengambilnya kerana kedai kami ditutup pada pukul enam. Apabila puan tiba nanti, berikan nama puan sahaja.",
+          "zh": "来得及，女士。我们六点关门。到时过来报一下您的名字就行。",
+          "en": "Yes, ma'am. We close at six. Just give us your name when you get here."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "Pn.",
+      "full_form": "Puan",
+      "note": "姓名前常见的书面称谓缩写，表格、邮件中也会使用；当面仍读 Puan。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "正式联系成年女性时，Puan 是适用于不同族群的礼貌称谓，不必先询问是否已婚。非正式交流可尊重本人偏好，使用 Cik、Puan 或姓名。",
+    "usage_etiquette": "Puan Lina 后通常接她本人的名字，不按英语 Mrs 的模式自动换成丈夫姓名。若已有 Datin、Dr. 等适用称号，应采用对方正式使用的称谓；Toh Puan 等固定荣衔须整体识别。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay",
+    "root_origin": "称谓义：Kamus Dewan 记作 kep empuan (perempuan)，本地 Kaikki 概括为 perempuan 的缩略；现代独立词根为 puan。这里的来源说明不涵盖同形的槟榔盒义，也不把完整称谓武断重建成某个原始南岛语词。",
+    "historical_story": "puan 的称谓史与马来语 empuan、perempuan 这一组女性称呼相连，词典仍在 Toh Puan 等固定称号中保留了它的礼仪色彩。从礼仪称谓到今天的公函、学校和服务柜台，Puan 都能向女性表达尊重。现代正式用法已不限于已婚女性，因此学习时更适合把它记成礼貌的“女士”，而不是查验婚姻状况的标签。",
+    "cognitive_memory_aid": "在正式信件开头看见 Puan，就先想到“女士您好”；puan-puan 则把这份礼貌扩展到在场的女士们。"
+  }
+}

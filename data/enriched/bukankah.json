@@ -1,0 +1,120 @@
+{
+  "headword": {
+    "word": "bukankah",
+    "syllables": null,
+    "ipa": "[bu.kan.kah]",
+    "jawi": null,
+    "frequency_rank": 490,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: بوکن (bukan)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bukan",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "bukan + -kah → bukankah（难道不是……吗；不是……吗）",
+    "pattern_note": "-kah 是附着在词后的疑问语气小品词，不是改变词义类别的普通派生后缀；此 Schema 以 suffix 记录位置。原包无官方音节、Jawi 和 IPA：前两项保留 null，IPA 为按拼写给出的宽式读音提示，不标作 DBP 或 Kaikki 实录。 核心词根（Kata Dasar）「bukan」官方爪夷文为「بوکن」，派生附加 -kah。",
+    "word_family": [
+      {
+        "word": "bukan",
+        "affix": "none",
+        "gloss": "不是（否定词）"
+      },
+      {
+        "word": "bukannya",
+        "affix": "-nya",
+        "gloss": "并不是；而不是"
+      },
+      {
+        "word": "bukan-bukan",
+        "affix": "重叠",
+        "gloss": "不合理的；胡乱的"
+      }
+    ],
+    "root_jawi": "بوکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "不是……吗？；难道不是……吗？用于求证、提醒共同认知或反问。",
+      "ms_definition": "apakah bukan",
+      "nuances": "摘自 Kamus Dewan。说话者通常倾向于相信后面的命题成立，而非完全开放地求取信息；语调可温和求证，也可带质问。它可以引入完整命题，如 Bukankah dia sudah pulang?，不能机械套用普通 bukan 只否定名词的规则。",
+      "collocations": [
+        {
+          "ms": "bukankah begitu",
+          "zh": "不是这样吗",
+          "en": "isn't that so?"
+        },
+        {
+          "ms": "bukankah kita",
+          "zh": "我们不是……吗",
+          "en": "aren't we ...?; didn't we ...?"
+        }
+      ],
+      "en_definition": "Introduces a negative question seeking confirmation, reminding someone of a shared understanding or making a rhetorical point: 'isn't ...?' or 'didn't ...?'"
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议致辞 / 社区团结倡议",
+      "ms": "Bukankah keselamatan kawasan ini merupakan tanggungjawab bersama yang memerlukan kerjasama semua penduduk?",
+      "zh": "本区安全难道不是需要全体居民合作承担的共同责任吗？",
+      "en": "Is the safety of this neighbourhood not a shared responsibility that requires the cooperation of all residents?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友弄错见面时间后确认原先约定",
+      "ms_spoken": "Eh, bukankah kita dah janji nak jumpa pukul tiga? Aku dah sampai ni.",
+      "ms_standard": "Bukankah kita sudah berjanji untuk berjumpa pada pukul tiga? Saya sudah tiba di sini.",
+      "zh": "诶，我们不是说好三点见吗？我都到这里了。",
+      "spoken_features": [
+        "bukankah 提醒双方已有的约定，带求证和轻微责问的意味；在随意聊天中比句末 kan 更郑重。",
+        "dah janji nak jumpa 在此还原为 sudah berjanji untuk berjumpa；nak 与 janji 连用，表达约定要做的事。",
+        "句末 ni 强调说话人此刻已经到场；jap 是 sekejap 的口语短形，对应 sebentar。",
+        "alamak 表达突然发现弄错时间的懊恼；bagitahu 在这里的祈使句中对应 beritahu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Eh, bukankah kita dah janji nak jumpa pukul tiga? Aku dah sampai ni.",
+          "ms_standard": "Bukankah kita sudah berjanji untuk berjumpa pada pukul tiga? Saya sudah tiba di sini.",
+          "zh": "诶，我们不是说好三点见吗？我都到这里了。",
+          "en": "Hey, didn't we agree to meet at three? I'm already here."
+        },
+        {
+          "speaker": "Yana (朋友)",
+          "ms_spoken": "Alamak, aku ingat tiga setengah! Tunggu jap, aku sampai dalam sepuluh minit.",
+          "ms_standard": "Aduh, saya menyangka kita akan berjumpa pada pukul tiga setengah! Tunggu sebentar. Saya akan tiba dalam masa sepuluh minit.",
+          "zh": "哎呀，我以为是三点半！等一下，我十分钟内就到。",
+          "en": "Oh no, I thought we said three thirty! Hang on, I'll be there within ten minutes."
+        },
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Okey, aku masuk kafe dulu lah. Sampai nanti bagitahu aku.",
+          "ms_standard": "Baiklah, saya akan masuk ke kafe terlebih dahulu. Beritahu saya apabila awak sudah tiba.",
+          "zh": "好，那我先进去咖啡馆。到了跟我说一声。",
+          "en": "Okay, I'll head into the café first. Let me know when you get here."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "可礼貌求证，也可能听来像反驳；与老师、上司或初识者核对时，用温和语调，或改说 Kalau saya tidak silap… 并直接说明待确认的事实。",
+    "usage_etiquette": "反问常预设对方应当同意，公开场合反复追问 Bukankah…? 可能令对方难堪。回应否定式问句时把事实说完整，如 Ya, kita berjumpa pada pukul tiga，避免只回 ya 或 tidak 而引起中马语理解差异。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay（现代马来语内部构词；更早来源未定）",
+    "root_origin": "bukan + 疑问小品词 -kah；本包未提供 bukan 或 -kah 的更早词源，Austronesian 在此仅标明形成该词的语言归属。",
+    "historical_story": "bukankah 可以直接从马来语内部读懂：把疑问小品词 -kah 接在否定词 bukan 后，‘不是’便有了‘不是吗’的提问功能。它今天既出现在正式演说的反问中，也出现在朋友核对约定的消息里，像把一句双方以为已经说定的话重新举到面前；现有材料不足以为这种构词指定年代或海外传播路线。",
+    "cognitive_memory_aid": "bukan＝不是，-kah＝问一问：bukankah＝不是……吗？先想到‘求证已知’，再判断是否带反问。"
+  }
+}

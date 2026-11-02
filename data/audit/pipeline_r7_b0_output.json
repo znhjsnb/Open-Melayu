@@ -1,0 +1,258 @@
+{
+  "kosong": {
+    "context": "WhatsApp / 朋友在咖啡店碰面找座位",
+    "messages": [
+      {
+        "speaker": "Farah (朋友)",
+        "ms_spoken": "Kau dah masuk kedai ke? Ada meja kosong tak? Aku baru sampai.",
+        "ms_standard": "Adakah kamu sudah masuk ke dalam kedai? Adakah terdapat meja kosong? Saya baru sampai.",
+        "zh": "你进店了吗？有空桌吗？我刚到。"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Ada satu kat belakang. Aku duduk sini dulu, kau masuk je.",
+        "ms_standard": "Ada sebuah meja kosong di bahagian belakang. Saya akan duduk di sini dahulu. Kamu masuk sahaja.",
+        "zh": "后面有一张空桌。我先坐这儿，你直接进来就行。"
+      }
+    ],
+    "spoken_features": [
+      "kosong 在 meja kosong 中表示没有人使用的、空着的。",
+      "kau、aku 是熟人之间的非正式人称代词，标准语还原为 kamu、saya。",
+      "句尾 ke 和 tak 分别用于构成口语是非问句。",
+      "dah 对应 sudah；kat 对应 di；je 对应 sahaja。"
+    ]
+  },
+  "kedai": {
+    "context": "WhatsApp / 室友出门购物时询问是否需要代买",
+    "messages": [
+      {
+        "speaker": "Amir (室友)",
+        "ms_spoken": "Aku nak gi kedai kejap. Kau nak kirim apa-apa tak?",
+        "ms_standard": "Saya hendak pergi ke kedai sebentar. Adakah kamu mahu saya membelikan apa-apa?",
+        "zh": "我去趟店里。你有什么要我顺便买的吗？"
+      },
+      {
+        "speaker": "Hakim (室友)",
+        "ms_spoken": "Tolong belikan roti satu buku, boleh? Nanti aku transfer duit kat kau.",
+        "ms_standard": "Bolehkah kamu membelikan saya sebuku roti? Saya akan memindahkan wang kepada kamu nanti.",
+        "zh": "帮我买一条面包，可以吗？等下我转钱给你。"
+      }
+    ],
+    "spoken_features": [
+      "nak 对应 hendak；gi 是 pergi 的口语短式；gi kedai 省略了方向介词 ke。",
+      "kejap 是 sekejap 的口语短式，标准语可用 sebentar。",
+      "nak kirim apa-apa tak 在购物语境中询问对方是否需要托自己代买东西。",
+      "transfer 是英语动词的夹用；kat kau 在此表示收款对象，标准语用 kepada kamu。",
+      "roti satu buku 是口语语序，标准语通常说 sebuku roti。"
+    ]
+  },
+  "bukti": {
+    "context": "WhatsApp / 顾客与卖家核对付款",
+    "messages": [
+      {
+        "speaker": "Aina (顾客)",
+        "ms_spoken": "Saya dah bayar tadi. Nak saya hantar bukti pembayaran kat sini?",
+        "ms_standard": "Saya sudah membuat pembayaran tadi. Adakah anda mahu saya menghantar bukti pembayaran di sini?",
+        "zh": "我刚才已经付款了。需要我在这里发付款凭证吗？"
+      },
+      {
+        "speaker": "Kak Lin (卖家)",
+        "ms_spoken": "Boleh, hantar sini ya. Saya semak dulu, nanti saya sahkan pesanan.",
+        "ms_standard": "Boleh, sila hantar bukti pembayaran di sini. Saya akan menyemaknya dahulu, kemudian mengesahkan pesanan anda.",
+        "zh": "可以，发这里吧。我先核对一下，然后确认你的订单。"
+      },
+      {
+        "speaker": "Aina (顾客)",
+        "ms_spoken": "Dah hantar, kak. Kalau tak nampak, bagitahu saya ya.",
+        "ms_standard": "Saya sudah menghantarnya, puan. Jika bukti pembayaran itu tidak kelihatan, sila beritahu saya.",
+        "zh": "已经发了，姐。要是看不到，跟我说一声啊。"
+      }
+    ],
+    "spoken_features": [
+      "bukti pembayaran 指用于核对付款的凭证。",
+      "dah 对应 sudah；kat sini 对应 di sini。",
+      "Nak saya…? 省略了问句框架，表示询问对方是否需要自己做某事。",
+      "bagitahu 是 beritahu 的口语形式；tak 对应 tidak。",
+      "kak 是对女性的亲切称呼，不一定表示亲姐姐；在此正式服务语境中可换用 puan。"
+    ]
+  },
+  "charlie": {
+    "context": "WhatsApp / 朋友在店门口等 Charlie",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Charlie, kau dah sampai ke? Aku tunggu kat depan kedai ni.",
+        "ms_standard": "Charlie, adakah kamu sudah sampai? Saya sedang menunggu di hadapan kedai ini.",
+        "zh": "查理，你到了吗？我在这家店门口等着。"
+      },
+      {
+        "speaker": "Charlie (朋友)",
+        "ms_spoken": "Dah, tapi aku kat pintu belakang rupanya. Tunggu kejap, aku jalan ke depan.",
+        "ms_standard": "Saya sudah sampai, tetapi rupa-rupanya saya berada di pintu belakang. Tunggu sebentar, saya akan berjalan ke hadapan.",
+        "zh": "到了，不过原来我在后门。等一下，我走到前面来。"
+      }
+    ],
+    "spoken_features": [
+      "Charlie 在此是人名，保留专有名词的大写形式。",
+      "dah 对应 sudah；句尾 ke 构成口语是非问句。",
+      "kat depan 对应 di hadapan；ni 对应 ini；kejap 对应 sebentar。",
+      "第二轮开头单说 Dah，承接上一轮的问题，省略了已经明确的主语和动作。"
+    ]
+  },
+  "whoa": {
+    "context": "WhatsApp / 朋友分享瀑布照片",
+    "messages": [
+      {
+        "speaker": "Mei (朋友)",
+        "ms_spoken": "Whoa, cantiknya tempat ni! Kat mana? Aku nak pergi jugak!",
+        "ms_standard": "Wah, cantiknya tempat ini! Di manakah tempat ini? Saya juga hendak pergi ke sana!",
+        "zh": "哇，这地方好漂亮！在哪儿啊？我也想去！"
+      },
+      {
+        "speaker": "Aisyah (朋友)",
+        "ms_spoken": "Air terjun dekat kampung aku je. Kalau kau free hujung minggu ni, jom pergi sama-sama.",
+        "ms_standard": "Ini air terjun yang terletak berhampiran kampung saya. Jika kamu lapang pada hujung minggu ini, marilah kita pergi bersama-sama.",
+        "zh": "就是我老家附近的瀑布。你这周末要是有空，我们一起去吧。"
+      }
+    ],
+    "spoken_features": [
+      "whoa 是夹用的英语感叹词，在此表示惊叹，标准马来语可用 wah。",
+      "cantiknya 中的 -nya 用于感叹，表达好漂亮的语气。",
+      "ni 对应 ini；kat mana 对应 di mana；nak 对应 hendak；jugak 是 juga 的非正式写法。",
+      "je 在此带轻描淡写的语气，中文可译为就是。",
+      "free 是英语夹用，表示有空；jom 是常见的口语邀约词。"
+    ]
+  },
+  "hospital": {
+    "context": "WhatsApp / 儿子陪父亲到医院后向母亲报平安",
+    "messages": [
+      {
+        "speaker": "Amir (儿子)",
+        "ms_spoken": "Mak, dah sampai kat hospital. Ayah tengah tunggu giliran.",
+        "ms_standard": "Ibu, saya sudah sampai di hospital. Ayah sedang menunggu giliran.",
+        "zh": "妈，已经到医院了。爸正在等叫号。"
+      },
+      {
+        "speaker": "Mak (母亲)",
+        "ms_spoken": "Okey. Bila ayah dah jumpa doktor, bagitahu mak ya.",
+        "ms_standard": "Baiklah. Apabila ayah sudah berjumpa dengan doktor, beritahulah ibu.",
+        "zh": "好。爸看完医生后，跟妈说一声啊。"
+      },
+      {
+        "speaker": "Amir (儿子)",
+        "ms_spoken": "Baik, mak. Nanti saya mesej lagi.",
+        "ms_standard": "Baiklah, ibu. Saya akan menghantar mesej lagi nanti.",
+        "zh": "好，妈。等下我再发消息。"
+      }
+    ],
+    "spoken_features": [
+      "Mak 是日常家庭称呼，较正式的对应形式是 ibu。",
+      "第一轮的 dah sampai 省略了可以从聊天中判断的主语 saya。",
+      "dah 对应 sudah；kat 对应 di；tengah 在此对应 sedang。",
+      "bagitahu 对应 beritahu；mesej 在口语中直接作动词，标准语可展开为 menghantar mesej。",
+      "句末 ya 让叮嘱的语气更柔和。"
+    ]
+  },
+  "and": {
+    "context": "WhatsApp / 朋友用马英混合表达分工准备聚餐",
+    "messages": [
+      {
+        "speaker": "Daniel (朋友)",
+        "ms_spoken": "Aku beli makanan and minuman sekali lah, senang sikit. Kau boleh tolong ambil ais tak?",
+        "ms_standard": "Saya akan membeli makanan dan minuman sekali supaya lebih mudah. Bolehkah kamu membantu mengambil ais?",
+        "zh": "吃的喝的我一起买吧，这样方便点。你能帮忙拿冰块吗？"
+      },
+      {
+        "speaker": "Farhan (朋友)",
+        "ms_spoken": "Boleh, ais aku urus. Kau nak aku belikan cawan sekali tak?",
+        "ms_standard": "Boleh, saya akan menguruskan ais. Adakah kamu mahu saya turut membeli cawan?",
+        "zh": "可以，冰块我来负责。要我顺便买杯子吗？"
+      }
+    ],
+    "spoken_features": [
+      "and 是夹入马来语句子的英语连接词，连接 makanan 和 minuman，标准马来语用 dan。",
+      "lah 在此使分工提议带有轻松商量的语气。",
+      "sikit 是 sedikit 的口语短式；senang sikit 在此表示方便一些。",
+      "句尾 tak 用于是非问句；nak 在第二轮对应 mahu。",
+      "ais aku urus 把谈论的对象 ais 放在前面，突出冰块由自己负责。"
+    ]
+  },
+  "berjanji": {
+    "context": "WhatsApp / 朋友在活动开始前确认赴约",
+    "messages": [
+      {
+        "speaker": "Siti (朋友)",
+        "ms_spoken": "Kau dah berjanji nak datang, kan? Aku tunggu kat pintu masuk pukul lapan nanti.",
+        "ms_standard": "Kamu sudah berjanji untuk datang, bukan? Saya akan menunggu di pintu masuk pada pukul lapan nanti.",
+        "zh": "你已经答应要来了，对吧？我八点在入口等你。"
+      },
+      {
+        "speaker": "Imran (朋友)",
+        "ms_spoken": "Ya, aku ingat. Aku gerak pukul tujuh setengah. Sampai nanti aku mesej kau.",
+        "ms_standard": "Ya, saya ingat. Saya akan bertolak pada pukul tujuh setengah. Apabila saya sampai nanti, saya akan menghantar mesej kepada kamu.",
+        "zh": "嗯，我记得。我七点半出发，到了就给你发消息。"
+      }
+    ],
+    "spoken_features": [
+      "berjanji 保留完整形式，表示已经作出赴约的承诺。",
+      "dah 对应 sudah；berjanji nak datang 在标准语中可还原为 berjanji untuk datang。",
+      "kan 用来请求对方确认双方已经知道的约定。",
+      "kat 对应 di；gerak 在出行语境中表示出发，标准语可用 bertolak。",
+      "Sampai nanti 省略连接词和主语，标准语可展开为 Apabila saya sampai nanti。"
+    ]
+  },
+  "mengetahui": {
+    "context": "WhatsApp / 同学讨论报名网站上的正式通知",
+    "messages": [
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Kat portal tu tertulis, 'Untuk mengetahui keputusan permohonan, sila log masuk.' Kau dah semak ke?",
+        "ms_standard": "Di portal itu tertulis, 'Untuk mengetahui keputusan permohonan, sila log masuk.' Adakah kamu sudah menyemak keputusan permohonan kamu?",
+        "zh": "网站上写着：“如需查询申请结果，请登录。”你查过了吗？"
+      },
+      {
+        "speaker": "Aina (同学)",
+        "ms_spoken": "Dah, aku dapat tempat! Kau cuba log masuk sekarang. Kalau tak boleh, bagitahu aku.",
+        "ms_standard": "Saya sudah menyemaknya dan berjaya mendapat tempat! Cuba log masuk sekarang. Jika kamu tidak dapat log masuk, beritahu saya.",
+        "zh": "查了，我拿到名额了！你现在试着登录。要是登不进去，就跟我说。"
+      }
+    ],
+    "spoken_features": [
+      "mengetahui 自然出现在同学转述的正式通知中，表示获知申请结果；熟人随口聊天时通常更常用 tahu。",
+      "引文保留正式措辞，外层聊天使用 kat、tu、kau、dah 等口语形式，体现语体切换。",
+      "kat 对应 di；tu 对应 itu；句尾 ke 用于提问。",
+      "第二轮单说 Dah 承接是否查过的问题；dapat tempat 在此表示获得录取或参加名额。",
+      "tak boleh 根据前文省略了 log masuk；bagitahu 对应 beritahu。"
+    ]
+  },
+  "hak": {
+    "context": "WhatsApp / 朋友支持对方自行决定是否参加旅行",
+    "messages": [
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Aku sebenarnya tak nak ikut trip tu, tapi segan nak cakap kat diorang.",
+        "ms_standard": "Sebenarnya, saya tidak mahu menyertai perjalanan itu, tetapi saya berasa segan untuk memberitahu mereka.",
+        "zh": "其实我不想参加那次旅行，但不好意思跟他们说。"
+      },
+      {
+        "speaker": "Farah (朋友)",
+        "ms_spoken": "Itu hak kau lah. Kalau tak nak ikut, cakap je elok-elok. Tak payah paksa diri.",
+        "ms_standard": "Itu hak kamu. Jika kamu tidak mahu menyertainya, beritahulah mereka dengan baik. Kamu tidak perlu memaksa diri.",
+        "zh": "你有权自己决定。不想去，就好好跟他们说，不用勉强自己。"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Betul jugak. Nanti aku bagitahu diorang aku tak ikut.",
+        "ms_standard": "Betul juga. Saya akan memberitahu mereka nanti bahawa saya tidak akan menyertainya.",
+        "zh": "也是。等下我就跟他们说我不去了。"
+      }
+    ],
+    "spoken_features": [
+      "hak 在此指自主决定是否参加活动的权利。",
+      "tak nak 对应 tidak mahu；tu 对应 itu；diorang 是非正式的第三人称复数形式，标准语用 mereka。",
+      "lah 在此配合上下文表达支持和宽慰。",
+      "je 对应 sahaja；cakap elok-elok 表示好好地、客气地说明。",
+      "tak payah 对应 tidak perlu；jugak 对应 juga；bagitahu 对应 beritahu。"
+    ]
+  }
+}

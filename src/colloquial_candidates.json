@@ -1,0 +1,32 @@
+{
+  "version": "editorial-seed-v1",
+  "scope": "Closed, manually proposed recognition candidates, not an exhaustive or context-validated slang annotation. Expansions are possible readings, not unconditional replacements.",
+  "evidence": "Task examples plus editorial candidates; see report for independent Wiktionary register-tag measurement and DBP evidence for tak/nak.",
+  "groups": {
+    "spoken_reduction": {
+      "tak": ["tidak"], "nak": ["hendak"], "dah": ["sudah"],
+      "je": ["sahaja"], "jer": ["sahaja"], "aje": ["sahaja"],
+      "saje": ["sahaja"], "cam": ["macam"], "kat": ["di", "dekat"],
+      "ni": ["ini"], "tu": ["itu"], "amik": ["ambil"], "ambik": ["ambil"],
+      "mintak": ["minta"], "gi": ["pergi"], "pegi": ["pergi"],
+      "pastu": ["lepas itu"], "camne": ["bagaimana"], "cemana": ["bagaimana"],
+      "apasal": ["mengapa"], "takde": ["tidak ada"], "takda": ["tidak ada"],
+      "takleh": ["tidak boleh"]
+    },
+    "informal_pronoun": {
+      "diorang": ["mereka"], "dorang": ["mereka"], "korang": ["kamu semua"],
+      "kitorang": ["kami"], "kite": ["kita"]
+    },
+    "chat_abbreviation": {
+      "xde": ["tidak ada"], "xda": ["tidak ada"], "dkt": ["dekat"],
+      "sbb": ["sebab"], "mcm": ["macam"], "yg": ["yang"], "dgn": ["dengan"],
+      "dlm": ["dalam"], "utk": ["untuk"], "dr": ["dari", "doktor"],
+      "drpd": ["daripada"], "kpd": ["kepada"], "sbg": ["sebagai"],
+      "blh": ["boleh"], "tgh": ["tengah"], "skrg": ["sekarang"],
+      "nnti": ["nanti"], "nnt": ["nanti"], "dpt": ["dapat"],
+      "jgn": ["jangan"], "org": ["orang"], "org2": ["orang-orang"],
+      "korg": ["kamu semua"]
+    }
+  },
+  "ambiguous_without_context": ["cam", "kat", "ni", "tu", "gi", "kite", "dr", "org", "dpt", "sbg"]
+}

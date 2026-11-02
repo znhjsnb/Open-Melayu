@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "dia",
+    "syllables": "dia",
+    "ipa": "/ˈdijə/",
+    "jawi": "دي",
+    "frequency_rank": 4,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dia",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dia → dia",
+    "pattern_note": "现代语法中为独立代词，不能按被动前缀 di- + ia 进行能产拆分。音节字段保留 DBP Daftar Rumi-Jawi 的原样标注 [dia]，不把 IPA 中的过渡音 /j/ 当作新增字母。",
+    "word_family": [
+      {
+        "word": "mendiakan",
+        "affix": "meN-...-kan",
+        "gloss": "以 dia 称呼某人，带贬低意味 / refer to someone as dia with a belittling intent"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "他；她；不区分性别的第三人称单数人称代词，也可作宾语或后置领属语。",
+      "en_definition": "He or she; him or her; his or her after a noun. A gender-neutral third-person singular personal pronoun.",
+      "ms_definition": "kata ganti diri ketiga (utk menegaskan atau merendahkan), ia",
+      "nuances": "DBP《Kamus Dewan》第四版释义，已通过 PRPM 交叉检索补核。现代中性对话中非常常见，不应把括注理解为每次使用都有贬义。Saya kenal dia（我认识他／她）、rumah dia（他／她的家）。口语可将物品拟人化称为 dia，但学习者不可机械地把英语所有 it 都译成 dia；正式说明可重提名词或按语境选 ia。音标采用半岛南部 /ˈdijə/；所给资料另有 /ˈdija/。",
+      "collocations": [
+        {
+          "ms": "dia kawan saya",
+          "zh": "他/她是我的朋友",
+          "en": "He/She is my friend."
+        },
+        {
+          "ms": "kereta dia",
+          "zh": "他/她的车",
+          "en": "his/her car"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "用于固定说法 itu dia，指认或表示发现：就是那个人／那个东西；原来如此；找到了。",
+      "en_definition": "In itu dia: there he or she is; there it is; that is the person, thing, or situation meant.",
+      "ms_definition": "itu dia: itu orangnya; itulah bendanya (perkaranya), itulah keadaan yg sebenarnya",
+      "nuances": "DBP《Kamus Dewan》第四版的固定表达义，按 Schema 归 particle；并非声称 dia 在其他位置均为语气词。例如找回钥匙时可说 Itu dia!，应按具体场景译为“找到了！”。",
+      "collocations": [
+        {
+          "ms": "ha itu dia",
+          "zh": "哈，就是那个人/那个东西！",
+          "en": "Ah, there he/she/it is!"
+        },
+        {
+          "ms": "itu dia datang",
+          "zh": "看，他来了！",
+          "en": "Look, here he comes!"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 对一般参赛者的报道",
+      "ms": "Selepas menamatkan perlumbaan, dia mengucapkan terima kasih kepada para sukarelawan.",
+      "zh": "完成比赛后，他／她向志愿者们表示感谢。",
+      "en": "After finishing the race, the participant thanked the volunteers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 告知朋友某人已到达",
+      "ms_spoken": "Dia dah sampai, tengah tunggu kat luar tu.",
+      "ms_standard": "Dia sudah sampai dan sedang menunggu di luar.",
+      "zh": "他／她到了，正在外面等呢。",
+      "en": "They're here already, waiting outside.",
+      "spoken_features": [
+        "dah = sudah；tengah 在这里表示动作正在进行，对应 sedang。",
+        "kat = di；tu 在此带现场指示语气。",
+        "口语省略第二分句的主语；英语 singular they 保留原句未说明的性别。"
+      ],
+      "messages": [
+        {
+          "speaker": "Lina (同学)",
+          "ms_spoken": "Mana Sarah? Tak nampak pun dia hari ni.",
+          "ms_standard": "Di manakah Sarah? Tidak nampak pun dia pada hari ini.",
+          "zh": "莎拉在哪儿？今天都没看到她。",
+          "en": "Where's Sarah? Haven't seen her at all today."
+        },
+        {
+          "speaker": "Maya (同学)",
+          "ms_spoken": "Dia demam kot, semalam dia kata kepala pening.",
+          "ms_standard": "Dia demam mungkin, semalam dia berkata kepala pening.",
+          "zh": "可能发烧了吧，昨天她说头晕。",
+          "en": "Maybe she's got a fever. She said she felt dizzy yesterday."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "dy",
+      "full_form": "dia",
+      "note": "非正式聊天省写，不代表英语 him 或 his。"
+    },
+    {
+      "abbr": "dya",
+      "full_form": "dia",
+      "note": "非标准聊天变体。"
+    },
+    {
+      "abbr": "diorang",
+      "full_form": "mereka",
+      "note": "源于 dia orang 的口语复数形式；指“他们／她们”，不能当成单数 dia 的等义拼写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "dia 通常中性；正式提及受尊敬的人士时可用 beliau，王室语境按礼仪使用 baginda。在当事人面前指着对方反复说 dia，尤其语气生硬时，容易显得失礼。",
+    "usage_etiquette": "首次提及时先给姓名或身份，使后续 dia 指向明确。马来语原句没有性别信息，翻译成中文或英文时不要凭空决定男女；dia 也不随主宾格变化。"
+  },
+  "etymology": {
+    "origin": "Austronesian (Inherited)",
+    "source_language": "Malay, related to inherited ia",
+    "root_origin": "所给 Kaikki 提出历史上的 di + ia 融合分析；此处仅作为来源分析转述，不将 di- 认作现代被动词缀。ia 一系的代词形式可追溯至南岛语。原材料中关于英语 they 的旁注缺乏可用论证，未采纳。",
+    "cognitive_memory_aid": "记 Saya kenal dia（我认识他／她）：dia 不分“他”和“她”，也不变成另一种宾格形式。",
+    "historical_story": "dia 在语言发生学上由方位介词词根 di 与古马来语第三人称单数代词 ia 复合凝固而成（di + ia → dia），最初兼具方位指示与人称回指功能。随着语法化演进，现代马来语中 dia 成为不分男女的通用第三人称单数代词，而原始形式 ia 则主要保留在书面语主语位置或无生命代指；固定搭配 itu dia 则完整保留了该词早期的指示指认遗风。"
+  }
+}

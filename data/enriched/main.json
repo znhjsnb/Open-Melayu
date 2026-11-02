@@ -1,0 +1,204 @@
+{
+  "headword": {
+    "word": "main",
+    "syllables": "main",
+    "ipa": "[ˈma.in]",
+    "jawi": "ماءين",
+    "frequency_rank": 725,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "main",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + main → main（玩）；ber- + main → bermain",
+    "pattern_note": "main 是完整词根，不是英语 main（主要的）。保留 PRPM 的音节字段 main；资料包 IPA [ˈma.in] 则显示元音可分读，两种标记用途不同。peN- 接 m 开头的 main 形成 pemain，不需再加一个 m。",
+    "word_family": [
+      {
+        "word": "bermain",
+        "affix": "ber-",
+        "gloss": "玩；进行游戏或运动"
+      },
+      {
+        "word": "bermain-main",
+        "affix": "ber-；重叠",
+        "gloss": "玩耍；开玩笑；不当真"
+      },
+      {
+        "word": "memainkan",
+        "affix": "meN-…-kan",
+        "gloss": "演奏；播放；扮演"
+      },
+      {
+        "word": "mempermainkan",
+        "affix": "memper-…-kan",
+        "gloss": "戏弄；玩弄"
+      },
+      {
+        "word": "mainan",
+        "affix": "-an",
+        "gloss": "玩具"
+      },
+      {
+        "word": "permainan",
+        "affix": "per-…-an",
+        "gloss": "游戏；比赛；玩法"
+      },
+      {
+        "word": "pemain",
+        "affix": "peN-",
+        "gloss": "球员；玩家；演奏者"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "玩；玩耍；参加游戏或体育活动。",
+      "ms_definition": "= bermain berbuat sesuatu utk menyukakan atau menyenangkan hati (dgn menggunakan alat-alat tertentu atau tidak)",
+      "nuances": "日常说 main bola、main catur；正式行文通常用 bermain bola、bermain catur。‘演奏乐器、播放音乐、扮演角色’在词族中常用 memainkan，不应把所有英语 play 都机械译成裸词 main。",
+      "collocations": [
+        {
+          "ms": "main bola",
+          "zh": "踢足球（口语）",
+          "en": "play football"
+        },
+        {
+          "ms": "main catur",
+          "zh": "下国际象棋",
+          "en": "play chess"
+        }
+      ],
+      "en_definition": "To play or take part in a game or sport."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为取乐而做的活动；游戏或玩耍。",
+      "ms_definition": "sesuatu yg dilakukan utk bersenang-senang atau bersuka-suka (dgn menggunakan alat-alat tertentu atau tidak)",
+      "nuances": "对应 Kamus Dewan 第一义的活动名词理解。现代要明确表达‘某个游戏’常用 permainan，‘玩具’用 mainan；main gasing 等固定活动说法也可在句中作谓语，不能仅凭搭配给每次出现都贴名词标签。",
+      "collocations": [
+        {
+          "ms": "main gasing",
+          "zh": "打陀螺这一活动",
+          "en": "top-spinning"
+        },
+        {
+          "ms": "main guli",
+          "zh": "玩弹珠这一活动",
+          "en": "a game of marbles"
+        }
+      ],
+      "en_definition": "An activity or game played for enjoyment."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "随意乱来；不认真地做；擅自做某事（口语）。",
+      "ms_definition": "bp melakukan sesuatu dgn sesuka hati (tidak bersungguh-sungguh, sewenang-wenang)",
+      "nuances": "main tuduh 表示‘乱指控’，不含娱乐意味；main-main 常指不当真。bukan main 又是表示程度强的固定表达，如 Bukan main gembiranya!（开心得不得了！），不能逐字理解成‘没有玩’。",
+      "collocations": [
+        {
+          "ms": "main tuduh",
+          "zh": "胡乱指控",
+          "en": "make wild accusations"
+        },
+        {
+          "ms": "jangan main-main",
+          "zh": "别闹；别当儿戏",
+          "en": "don't fool around"
+        }
+      ],
+      "en_definition": "To do something carelessly, without taking it seriously, or as one pleases."
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "赌博；参与赌钱活动。",
+      "ms_definition": "berjudi",
+      "nuances": "这是带赌博宾语的词典义，不表示所有 main 都涉及赌博。main judi 直接说明赌钱；main kad 本身只说明打牌，是否赌博需看有无押注。",
+      "collocations": [
+        {
+          "ms": "main judi",
+          "zh": "赌博",
+          "en": "gamble"
+        },
+        {
+          "ms": "main tikam ekor",
+          "zh": "赌字票",
+          "en": "bet on lottery numbers"
+        }
+      ],
+      "en_definition": "To gamble."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／校园安全提醒",
+      "ms": "Pihak sekolah mengingatkan murid supaya mengelakkan perbuatan main kasar ketika menyertai aktiviti sukan.",
+      "zh": "校方提醒学生，参加体育活动时应避免粗野动作。",
+      "en": "The school reminds pupils to avoid rough play when taking part in sports activities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友下班后相约打羽毛球",
+      "ms_spoken": "Dah siap kerja? Jom main badminton kat dewan malam ni.",
+      "ms_standard": "Adakah kamu sudah menyiapkan kerja? Marilah kita bermain badminton di dewan malam ini.",
+      "zh": "工作做完了吗？今晚一起去礼堂打羽毛球吧。",
+      "spoken_features": [
+        "main badminton 表示打羽毛球，标准对应句使用 bermain badminton。",
+        "dah、kat、ni 分别对应 sudah、di、ini；jom 是口语邀约语，对应 marilah。",
+        "Kalau pukul lapan 依靠上下文省略‘八点打球’，标准对应句补出完整条件。",
+        "raket lebih 在这里指多出来可借用的球拍；句末 tak 构成是非问句。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah siap kerja? Jom main badminton kat dewan malam ni.",
+          "ms_standard": "Adakah kamu sudah menyiapkan kerja? Marilah kita bermain badminton di dewan malam ini.",
+          "zh": "工作做完了吗？今晚一起去礼堂打羽毛球吧。",
+          "en": "Finished your work? Let's play badminton at the hall tonight."
+        },
+        {
+          "speaker": "Liyana (朋友)",
+          "ms_spoken": "Belum lagi. Kalau pukul lapan, aku boleh. Kau ada raket lebih tak?",
+          "ms_standard": "Saya masih belum menyiapkan kerja. Jika kita bermain pada pukul lapan, saya boleh turut serta. Adakah kamu mempunyai raket tambahan?",
+          "zh": "还没。要是八点打，我就能去。你有多一支球拍吗？",
+          "en": "Not yet. I can make it if we're playing at eight. Do you have a spare racket?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ada, aku bawak satu untuk kau. Jumpa kat sana nanti.",
+          "ms_standard": "Ada. Saya akan membawa sebatang raket untuk kamu. Kita berjumpa di sana nanti.",
+          "zh": "有，我带一支给你。到时在那里见。",
+          "en": "Yeah, I'll bring one for you. See you there."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "maen",
+      "full_form": "main",
+      "note": "非正式聊天中模拟发音的拼写变体，不是正式拼写；不宜写进公文或考试作文。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "词根本身中性，但 Jangan main-main! 可构成较强警告，面对同事或客户宜用 Sila ambil perkara ini dengan serius。与不熟悉的人相约活动，可用姓名或适当称谓，避免直接叫 kau。",
+    "usage_etiquette": "main 的部分固定搭配有敏感意思：main perempuan 涉及性关系，main kayu tiga 指感情不忠，main tangan 可指动手打人；不宜误当普通游戏邀请。赌博话题可能涉及个人宗教与生活原则，约人参加活动时应明确项目并尊重拒绝。资料包另有 main angin 的鸟名同形条，不能混作‘玩耍’的普通义。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic",
+    "root_origin": "继承自重构原始马来语 *main；资料包提出更早可能联系 *qumaim／*qumayam 及 *qayam（驯养动物、玩物），亦记录 Buku Katan 的另一解释，深层路径未定。",
+    "historical_story": "main 是马来语本族词，资料包把它追溯到原始马来语 *main，而不是英语中‘主要的’那个 main。更深层的‘玩物、驯养动物’联系只是词源假说，不能讲成已有记录的起源故事。从 main gasing 的陀螺到 main bola 的球场，同一个词根如今也长出了 mainan（玩具）、permainan（游戏）与 pemain（玩家、球员）这一整组生活词汇。",
+    "cognitive_memory_aid": "以 main 为中心：bermain 是去玩，mainan 是拿来玩的东西，permainan 是游戏，pemain 是玩或比赛的人。"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "laluan",
+    "syllables": "la.luan",
+    "ipa": "/laˈlu.an/",
+    "jawi": "لالوان",
+    "frequency_rank": 853,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lalu",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "lalu + -an → laluan",
+    "pattern_note": "-an 把 lalu（经过）名词化，形成供人车通过的路线或通道。官方音节字段原样保留 la.luan，不因宽式 IPA 分节不同而改写；CEFR 为教学估级。",
+    "word_family": [
+      {
+        "word": "lalu",
+        "affix": "none",
+        "gloss": "经过；通过"
+      },
+      {
+        "word": "melalui",
+        "affix": "meN-…-i",
+        "gloss": "经过；通过；经历"
+      },
+      {
+        "word": "berlalu",
+        "affix": "ber-",
+        "gloss": "离去；流逝"
+      },
+      {
+        "word": "terlalu",
+        "affix": "ter-",
+        "gloss": "太；过于"
+      },
+      {
+        "word": "keterlaluan",
+        "affix": "ke-…-an + terlalu",
+        "gloss": "过分；过度"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "路线；通道；供人或交通工具通行的路径",
+      "ms_definition": "jalan yg dilalui, jalan yg menjadi landasan atau tempat pergerakan pergi balikorang atau pengangkutan",
+      "nuances": "侧重通行所循的线或通道，可指步道、巴士线路、铁路路线等，不一定是一条公路。jalan 常指路本身，laluan 更突出怎么经过；缓存原文的 balikorang 连写予以保留。",
+      "collocations": [
+        {
+          "ms": "laluan pejalan kaki",
+          "zh": "行人通道",
+          "en": "pedestrian walkway"
+        },
+        {
+          "ms": "laluan alternatif",
+          "zh": "替代路线",
+          "en": "alternative route"
+        }
+      ],
+      "en_definition": "A route or passage used by people or vehicles."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "通向下一阶段的途径；晋级或取得进展的道路",
+      "ms_definition": "pergerakan (peralihan dsb) maju ke tahap lain",
+      "nuances": "比喻前进的途径，不必有实际道路；赛事报道中的 laluan mudah 指晋级形势较有利。memberi laluan 还可表达让路或让出机会，须依语境理解。",
+      "collocations": [
+        {
+          "ms": "laluan ke final",
+          "zh": "通往决赛的晋级之路",
+          "en": "path to the final"
+        },
+        {
+          "ms": "laluan kerjaya",
+          "zh": "职业发展路径",
+          "en": "career path"
+        }
+      ],
+      "en_definition": "A path to a further stage or a higher level of achievement."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "交通公告 / 临时改道通知",
+      "ms": "Pengguna jalan raya dinasihatkan menggunakan laluan alternatif sepanjang kerja penyelenggaraan jambatan dijalankan.",
+      "zh": "当局建议道路使用者在桥梁维修期间改用其他路线。",
+      "en": "Road users are advised to use an alternative route while bridge maintenance work is being carried out."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友提醒赴约路线临时封闭",
+      "ms_spoken": "Awak dah dekat ke? Laluan depan kedai tu kena tutup sebab ada kerja jalan.",
+      "ms_standard": "Adakah awak sudah hampir tiba? Laluan di hadapan kedai itu ditutup kerana terdapat kerja pembaikan jalan.",
+      "zh": "你快到了吗？店前面的通道因为修路封了。",
+      "spoken_features": [
+        "dah dekat ke 省略具体目的地，用来询问对方是否快到。",
+        "kena tutup 是口语中的被动表达，此处标准语可用 ditutup。",
+        "Patutlah 表示得知原因后的恍然大悟，相当于‘难怪’。",
+        "ikut 在路线语境中表示沿某条路走；lah 缓和指路建议的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (先到餐馆的朋友)",
+          "ms_spoken": "Awak dah dekat ke? Laluan depan kedai tu kena tutup sebab ada kerja jalan.",
+          "ms_standard": "Adakah awak sudah hampir tiba? Laluan di hadapan kedai itu ditutup kerana terdapat kerja pembaikan jalan.",
+          "zh": "你快到了吗？店前面的通道因为修路封了。",
+          "en": "Are you nearly here? The road in front of the restaurant's closed for roadworks."
+        },
+        {
+          "speaker": "Lina (正在赶来的朋友)",
+          "ms_spoken": "Patutlah tak gerak langsung. Nak ikut mana ni?",
+          "ms_standard": "Patutlah kenderaan langsung tidak bergerak. Laluan manakah yang patut saya gunakan sekarang?",
+          "zh": "难怪车子完全不动。现在该走哪条路啊？",
+          "en": "No wonder traffic isn't moving at all. Which way should I go now?"
+        },
+        {
+          "speaker": "Nadia (先到餐馆的朋友)",
+          "ms_spoken": "Ikut jalan belakang lah. Masuk simpang sebelah bank tu, nanti nampak kedai.",
+          "ms_standard": "Gunakan jalan di belakang. Belok masuk ke jalan di sebelah bank itu; selepas itu, awak akan melihat kedai tersebut.",
+          "zh": "走后面的路吧。拐进银行旁边那条路，接着就能看到店了。",
+          "en": "Take the back road. Turn into the road next to the bank, and you'll see the restaurant."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "提醒别人让路可说 Maaf, boleh beri laluan?；比直接命令别人离开更柔和。",
+    "usage_etiquette": "医院、商场和交通场所的 laluan kecemasan 指紧急通道，应保持畅通。对陌生人说明路线时用地点和方向作指引，不必套用带亲疏判断的人称。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语（南岛语系）",
+    "root_origin": "本地派生 lalu（经过）+ -an；Kaikki 原文明确给出 lalu + -an。此处不额外设定祖语词形或传入年代。",
+    "historical_story": "lalu 说的是人或车经过，添上 -an，动作便落成了可供通行的 laluan。把它放在水乡河道、街巷小路或现代轨道线路的画面里，都能抓住那条让人通过的线；如今这个意象也通向赛场晋级和职业发展的道路。",
+    "cognitive_memory_aid": "lalu 是经过，laluan 是经过的那条路；先想动作，再想路径。"
+  }
+}

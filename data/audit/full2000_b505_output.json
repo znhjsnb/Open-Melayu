@@ -1,0 +1,423 @@
+{
+  "katil": {
+    "headword": {
+      "word": "katil",
+      "syllables": "ka.til",
+      "ipa": "/katil/",
+      "jawi": "کاتيل",
+      "frequency_rank": 1600,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "katil",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + katil → katil",
+      "pattern_note": "整词借入，现代马来语中不再拆分；口语中末音节的 /i/ 可实现为较低的 [e]。",
+      "word_family": [
+        {
+          "word": "bersekatil",
+          "affix": "ber- + se-",
+          "gloss": "同在一张床上"
+        },
+        {
+          "word": "katil-katil",
+          "affix": "∅（整词重叠）",
+          "gloss": "多张床"
+        }
+      ],
+      "root_jawi": "کاتيل"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "床；供人睡觉或躺卧的家具。",
+        "en_definition": "A bed: a piece of furniture on which a person sleeps or lies down.",
+        "ms_definition": "Sejenis perabot yang digunakan sebagai tempat seseorang tidur atau berbaring; ranjang.",
+        "nuances": "指床这件家具；床垫是 tilam，不能直接互换。可用于住宅、酒店和医院等场景。",
+        "collocations": [
+          {
+            "ms": "katil bujang",
+            "zh": "单人床"
+          },
+          {
+            "ms": "katil kelamin",
+            "zh": "双人床"
+          },
+          {
+            "ms": "katil hospital",
+            "zh": "医院病床"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Pihak hospital menyediakan dua puluh katil tambahan untuk menampung peningkatan jumlah pesakit.",
+        "zh": "院方增设二十张病床，以应对病人数目的增加。",
+        "en": "The hospital has provided twenty additional beds to accommodate the increase in patient numbers."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Beg kau aku dah letak atas katil, ya.",
+        "ms_standard": "Saya sudah meletakkan beg kamu di atas katil.",
+        "zh": "你的包我已经放床上了啊。",
+        "en": "I've put your bag on the bed, okay?",
+        "spoken_features": [
+          "dah 是 sudah 的口语形式。",
+          "atas katil 在口语中省略介词 di。",
+          "kau 和 aku 适用于熟人之间，句末 ya 用于温和告知。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Beg kau aku dah letak atas katil, ya.",
+            "ms_standard": "Saya sudah meletakkan beg kamu di atas katil.",
+            "zh": "你的包我已经放床上了啊。"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Okey, terima kasih! Aku nak ambil jaket dalam beg tu je.",
+            "ms_standard": "Baiklah, terima kasih! Saya hanya hendak mengambil jaket di dalam beg itu.",
+            "zh": "好，谢谢！我就拿一下包里的外套。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "词本身中性，可用于正式及日常交流。bersekatil 涉及共用一张床，谈论他人时可能引起亲密关系方面的联想。",
+      "usage_etiquette": "预订住宿时可明确说 katil bujang 或 katil kelamin；购买家具时注意区分 katil（床）与 tilam（床垫）。"
+    },
+    "etymology": {
+      "origin": "Tamil",
+      "source_language": "泰米尔语",
+      "root_origin": "கட்டில்（kaṭṭil，床、床架）",
+      "cognitive_memory_aid": "想象一张铺着 tilam（床垫）的 katil（床）：katil 是下面的床架，tilam 是上面的床垫。",
+      "historical_story": "katil 借自泰米尔语 kaṭṭil，原词指床或床架，是南印度语言进入马来语日常器物词汇的一个例子。[词源研究](https://brill.com/display/book/9789004529458/9789004529458_webready_content_text.pdf)。今天，从家里的单人床到医院里的病床，都可以用这个词来称呼。"
+    }
+  },
+  "pesakit": {
+    "headword": {
+      "word": "pesakit",
+      "syllables": "pe.sa.kit",
+      "ipa": "/pəsakit/",
+      "jawi": "ڤساکيت",
+      "frequency_rank": 1601,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "sakit",
+      "affix": "pe-",
+      "affix_type": "prefix",
+      "formula": "pe- + sakit → pesakit",
+      "pattern_note": "pe- 表示处于词根所指状态的人，sakit 的 s 保留；区别于 peN- + sakit → penyakit（疾病）。[DBP 构词说明](https://jendeladbp.my/app/uploads/woocommerce_uploads/2025/04/eDigital_Morfologi-qnsczr.pdf)",
+      "word_family": [
+        {
+          "word": "penyakit",
+          "affix": "peN-",
+          "gloss": "疾病"
+        },
+        {
+          "word": "kesakitan",
+          "affix": "ke-…-an",
+          "gloss": "疼痛；痛苦"
+        }
+      ],
+      "root_jawi": "ساکيت"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "病人；患病的人，尤指接受医疗诊治的人。",
+        "en_definition": "A patient: a person who is ill, especially someone receiving medical care.",
+        "ms_definition": "Orang yang sakit, khususnya orang yang menerima pemeriksaan atau rawatan perubatan.",
+        "nuances": "属于中性医疗用语；不意味着病情严重，也不意味着一定住院。日常表达 orang sakit 更直接，pesakit 更常见于医疗服务和正式说明。",
+        "collocations": [
+          {
+            "ms": "pesakit dalam",
+            "zh": "住院病人"
+          },
+          {
+            "ms": "pesakit luar",
+            "zh": "门诊病人"
+          },
+          {
+            "ms": "merawat pesakit",
+            "zh": "诊治病人"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Semua pesakit luar diminta mendaftar di kaunter sebelum menerima rawatan.",
+        "zh": "所有门诊病人须先到柜台登记，再接受诊治。",
+        "en": "All outpatients are requested to register at the counter before receiving treatment."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Ramai pesakit kat klinik ni, jadi aku kena tunggu lama sikit.",
+        "ms_standard": "Terdapat ramai pesakit di klinik ini, jadi saya perlu menunggu agak lama.",
+        "zh": "这家诊所病人挺多，我得多等一会儿。",
+        "en": "There are lots of patients at this clinic, so I'll have to wait a little longer.",
+        "spoken_features": [
+          "kat 表示地点，相当于 di。",
+          "ni 是 ini 的口语形式。",
+          "kena 在此表示必须，sikit 使等待时间的描述更口语化。"
+        ],
+        "messages": [
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Ramai pesakit kat klinik ni. Aku belum jumpa doktor lagi.",
+            "ms_standard": "Terdapat ramai pesakit di klinik ini. Saya masih belum berjumpa dengan doktor.",
+            "zh": "这家诊所病人好多，我还没看上医生。"
+          },
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Tak apa, tunggu je dulu. Aku dah sampai kat kedai sebelah.",
+            "ms_standard": "Tidak mengapa, tunggulah dahulu. Saya sudah sampai di kedai bersebelahan.",
+            "zh": "没事，你先等着。我已经到旁边的店了。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "pesakit 是尊重且中性的称呼。直接与病人交谈时，一般使用姓名或合适的称谓，如 encik、puan，而不是把 pesakit 当作面对面的称呼。",
+      "usage_etiquette": "医疗场合按需要区分 pesakit dalam 与 pesakit luar；谈及他人的病情时，应尊重其隐私，避免在群聊中随意披露。"
+    },
+    "etymology": {
+      "origin": "Austronesian",
+      "source_language": "马来语，词根继承自南岛语系",
+      "root_origin": "原始马来－波利尼西亚语 *sakit（患病、疼痛）→ 马来语 sakit → pe- + sakit",
+      "cognitive_memory_aid": "sakit 是生病，pe- 给这个状态配上一个人：pesakit 就是病人；把人和疾病 penyakit 分开记。",
+      "historical_story": "sakit 属于南岛语系传承词，在多个亲属语言中都能找到表示疾病或疼痛的同源形式。[南岛语比较词典](https://ling.lll.hawaii.edu/dicts/ACD/acd-s_s1.htm)。马来语在这个旧词根前加上 pe-，把生病的状态转为指人的 pesakit；今天它用于诊所登记、医院告示和医疗交流。"
+    }
+  },
+  "mengingatkan": {
+    "headword": {
+      "word": "mengingatkan",
+      "syllables": "me.ngi.ngat.kan",
+      "ipa": "/məŋiŋatkan/",
+      "jawi": "مڠيڠتکن",
+      "frequency_rank": 1602,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "mengingat",
+      "affix": "-kan",
+      "affix_type": "suffix",
+      "formula": "mengingat + -kan → mengingatkan",
+      "pattern_note": "以数据包指定的直接基词 mengingat 分析，本层添加后缀 -kan；进一步分析为 meN- + ingat + -kan，元音 i 前 meN- 实现为 meng-，ingat 的首元音保留。",
+      "word_family": [
+        {
+          "word": "ingatan",
+          "affix": "-an",
+          "gloss": "记忆；记忆力"
+        },
+        {
+          "word": "teringat",
+          "affix": "ter-",
+          "gloss": "忽然想起"
+        },
+        {
+          "word": "mengingati",
+          "affix": "meN-…-i",
+          "gloss": "记得；怀念"
+        }
+      ],
+      "root_jawi": "مڠيڠت"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "提醒；使某人记住或注意应做的事情、责任或有关情况。",
+        "en_definition": "To remind someone of something or prompt them to remember a duty, action, or relevant fact.",
+        "ms_definition": "Memberi ingat atau nasihat kepada seseorang supaya tidak lupa dan sedar akan sesuatu perkara, tugas atau tanggungjawab.",
+        "nuances": "常用结构为 mengingatkan seseorang tentang sesuatu、mengingatkan seseorang supaya… 或 mengingatkan bahawa…。语气可温和，也可带告诫意味，取决于上下文。",
+        "collocations": [
+          {
+            "ms": "mengingatkan peserta tentang tarikh tutup",
+            "zh": "提醒参与者注意截止日期"
+          },
+          {
+            "ms": "mengingatkan pemandu supaya berhati-hati",
+            "zh": "提醒驾驶者小心"
+          },
+          {
+            "ms": "mengingatkan pekerja tentang tanggungjawab mereka",
+            "zh": "提醒员工履行自身职责"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Pihak pengurusan mengingatkan semua kakitangan supaya menghantar laporan sebelum hari Jumaat.",
+        "zh": "管理层提醒全体员工在星期五之前提交报告。",
+        "en": "Management reminds all staff to submit their reports before Friday."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Terima kasih sebab mengingatkan saya, ya. Saya dah hampir terlupa nak hantar borang tu.",
+        "ms_standard": "Terima kasih kerana mengingatkan saya. Saya hampir terlupa hendak menghantar borang itu.",
+        "zh": "谢谢你提醒我啊，我差点忘了交那张表格。",
+        "en": "Thanks for reminding me. I almost forgot to submit that form.",
+        "spoken_features": [
+          "sebab 在口语中可引出原因，对应较正式的 kerana。",
+          "dah、nak、tu 分别对应 sudah、hendak、itu。",
+          "句末 ya 使感谢语气亲切；日常口语也常将 mengingatkan 简化为 ingatkan。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (同事)",
+            "ms_spoken": "Borang tu kena hantar hari ni, ya. Awak dah hantar ke?",
+            "ms_standard": "Borang itu perlu dihantar pada hari ini. Adakah awak sudah menghantarnya?",
+            "zh": "那张表格今天得交啊，你交了吗？"
+          },
+          {
+            "speaker": "Amir (同事)",
+            "ms_spoken": "Belum lagi. Terima kasih sebab mengingatkan saya! Saya nak hantar sekarang.",
+            "ms_standard": "Saya belum menghantarnya. Terima kasih kerana mengingatkan saya! Saya hendak menghantarnya sekarang.",
+            "zh": "还没呢。谢谢你提醒我！我现在就交。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "提醒上司或不熟悉的人时，可用 Sekadar mengingatkan…（谨作提醒……）柔化语气；反复强调 Saya sudah mengingatkan awak 可能带有责备意味。",
+      "usage_etiquette": "正式文本保留 mengingatkan；马来西亚日常口语常说 ingatkan。数据包中的 ngingetin 和 ingetin 属于印尼口语形式，不宜当作标准马来西亚马来语短信缩写。"
+    },
+    "etymology": {
+      "origin": "Austronesian",
+      "source_language": "马来语，词根继承自南岛语系",
+      "root_origin": "南岛语系重建形式 *iŋat（注意、记住）→ ingat → mengingat → mengingatkan",
+      "cognitive_memory_aid": "ingat 是记住；把记忆的提醒传给别人，就用 mengingatkan：我记得，也让你别忘。",
+      "historical_story": "ingat 的历史可追溯到表示记住、注意和谨慎的南岛语系词形 *iŋat，记忆与留心原本就紧密相连。[南岛语比较词典](https://acd.clld.org/cognatesets/26590)。马来语通过加缀形成 mengingatkan，把自己心里的记忆转成对别人的提醒，现代用法包括提醒职责、期限和注意事项。[DBP 词条](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=ingat)"
+    }
+  },
+  "maut": {
+    "headword": {
+      "word": "maut",
+      "syllables": "maut",
+      "ipa": "/ˈmaut/",
+      "jawi": "موت",
+      "frequency_rank": 1604,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "maut",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + maut → maut",
+      "pattern_note": "作为完整借词记忆，不作现代马来语词缀拆分。词族栏列含 maut 的常见固定词组，并非加缀派生词。",
+      "word_family": [
+        {
+          "word": "hukuman maut",
+          "affix": "∅（固定词组）",
+          "gloss": "死刑"
+        },
+        {
+          "word": "malaikat maut",
+          "affix": "∅（固定词组）",
+          "gloss": "死亡天使"
+        }
+      ],
+      "root_jawi": "موت"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "死亡；生命的终结，尤用于人的死亡。",
+        "en_definition": "Death, especially the death of a human being.",
+        "ms_definition": "Kematian atau berakhirnya nyawa, terutama bagi manusia.",
+        "nuances": "常见于新闻、警示和宗教表达，语气较庄重。menemui maut 常指在事故等事件中丧生；membawa maut 表示导致死亡。",
+        "collocations": [
+          {
+            "ms": "menemui maut",
+            "zh": "丧生"
+          },
+          {
+            "ms": "membawa maut",
+            "zh": "导致死亡；致命"
+          },
+          {
+            "ms": "bergelut dengan maut",
+            "zh": "与死亡搏斗；挣扎在生死边缘"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Seorang penunggang motosikal menemui maut dalam kemalangan itu, menurut kenyataan polis.",
+        "zh": "警方声明指出，一名摩托车骑士在该起事故中丧生。",
+        "en": "A motorcyclist died in the accident, according to a police statement."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Jangan laju sangat, ya. Kemalangan macam ni boleh membawa maut.",
+        "ms_standard": "Jangan memandu terlalu laju. Kemalangan seperti ini boleh membawa maut.",
+        "zh": "别开太快啊，这种事故会要命的。",
+        "en": "Don't drive too fast, okay? Accidents like this can be fatal.",
+        "spoken_features": [
+          "Jangan laju sangat 在驾车语境中省略 memandu。",
+          "macam ni 对应标准语的 seperti ini。",
+          "ya 使劝告语气较温和；maut 本身保留完整形式。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Aku dah baca berita pasal kemalangan tu. Jangan laju sangat, ya; boleh membawa maut.",
+            "ms_standard": "Saya sudah membaca berita tentang kemalangan itu. Jangan memandu terlalu laju kerana hal itu boleh membawa maut.",
+            "zh": "我已经看了那起事故的新闻。别开太快啊，会要命的。"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Ya, aku faham. Aku nak pandu perlahan je malam ni.",
+            "ms_standard": "Ya, saya faham. Saya hendak memandu perlahan sahaja pada malam ini.",
+            "zh": "嗯，我明白。今晚我会慢慢开。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "formal",
+      "politeness_note": "向家属表达慰问时，meninggal dunia 通常比 menemui maut 更温和。避免用 mencari maut（找死）斥责悲伤或脆弱的人。",
+      "usage_etiquette": "报道事故可用 menemui maut，说明危险后果可用 membawa maut。口语中的 maut 有时带夸张意味，但涉及真实伤亡时应保持庄重。"
+    },
+    "etymology": {
+      "origin": "Arabic",
+      "source_language": "阿拉伯语",
+      "root_origin": "مَوْت（mawt，死亡）",
+      "cognitive_memory_aid": "把 membawa maut 连成画面：membawa 是带来，maut 是死亡，合起来就是带来死亡、致命。",
+      "historical_story": "maut 借自阿拉伯语 mawt，借入马来语后保留了死亡这一核心意义，Jawi 写法 موت 也保留了原词的字母骨架。[阿拉伯语借词研究](https://ejournal.um.edu.my/index.php/JIS/article/download/22518/11208/48729)。今天，它常出现在 menemui maut 和 membawa maut 等表达中，让抽象的死亡成为新闻报道和危险警示中的明确后果。[DBP 词条](https://prpm.dbp.gov.my/cari1?keyword=maut)"
+    }
+  }
+}

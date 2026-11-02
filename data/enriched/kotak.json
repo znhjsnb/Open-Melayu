@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "kotak",
+    "syllables": null,
+    "ipa": "[ko.taʔ]",
+    "jawi": "کوتق",
+    "frequency_rank": 883,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kotak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kotak → kotak（盒子；方格）",
+    "pattern_note": "独立词根。meN- 接原生 k 开头词根时 k 通常脱落：meN- + kotak + -kan → mengotakkan。本地 PRPM 的 syllables 字段为 null，保留缺值；原始定义中的 [ko.taʔ] 用于音标，末尾 k 常实现为喉塞音 [ʔ]。Jawi 从本地未乱码的同名原始文件恢复。",
+    "word_family": [
+      {
+        "word": "berkotak",
+        "affix": "ber-",
+        "gloss": "分成方格或有隔间的"
+      },
+      {
+        "word": "berkotak-kotak",
+        "affix": "ber- + 重叠",
+        "gloss": "一格一格的；有格子图案的"
+      },
+      {
+        "word": "mengotakkan",
+        "affix": "meN-…-kan",
+        "gloss": "分隔；把事物划入不同类别"
+      },
+      {
+        "word": "sekotak",
+        "affix": "se-",
+        "gloss": "一盒；一箱"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "盒子；箱子，通常呈长方体或立方体，用纸板、木板或金属等制成。",
+      "ms_definition": "sj bekas berbentuk segi empat tepat atau segi empat sama, mempunyai tudung, dan biasanya dibuat drpd kadbod, papan, atau logam",
+      "nuances": "指实体容器，也可作包装单位，如 dua kotak susu。kotak kadbod 是纸板箱；kotak hitam 指飞行记录器这一固定名称，不表示设备外壳必定是黑色。",
+      "collocations": [
+        {
+          "ms": "kotak kadbod",
+          "zh": "纸板箱",
+          "en": "a cardboard box"
+        },
+        {
+          "ms": "kotak hadiah",
+          "zh": "礼品盒",
+          "en": "a gift box"
+        }
+      ],
+      "en_definition": "A box; a container with a lid, usually rectangular or square and made of cardboard, wood, or metal."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "格；方格；被隔开的方形空间，如屋内隔间或田间地块。",
+      "ms_definition": "bahagian (dlm rumah, sawah, dll) yg bersekat-sekat atau berbentuk empat persegi, petak, ruang empat persegi",
+      "nuances": "由容器的方形轮廓联系到被划开的空间，现代也常指表格或界面中的方框。说到稻田地块或房间，petak 通常更直观；kotak tidak semestinya bekas，即这里的 kotak 不一定是可搬动的盒子。",
+      "collocations": [
+        {
+          "ms": "kotak jawapan",
+          "zh": "答题方框",
+          "en": "an answer box"
+        },
+        {
+          "ms": "kotak semak",
+          "zh": "复选框",
+          "en": "a checkbox"
+        }
+      ],
+      "en_definition": "A square or rectangular space, compartment, or section marked off from its surroundings."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／社区回收活动",
+      "ms": "Penduduk diminta melipat kotak kadbod sebelum meletakkannya di pusat pengumpulan bahan kitar semula.",
+      "zh": "居民受促先将纸板箱折叠，再放到回收物收集中心。",
+      "en": "Residents are asked to flatten cardboard boxes before placing them at the recycling collection centre."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 兄妹搬家时商量怎样搬一箱书",
+      "ms_spoken": "Abang, kotak buku ni berat sangat. Tak larat nak angkat sorang.",
+      "ms_standard": "Abang, kotak buku ini sangat berat. Saya tidak berdaya untuk mengangkatnya seorang diri.",
+      "zh": "哥，这箱书太重了。我一个人抬不动。",
+      "spoken_features": [
+        "ni、tu、kat 分别对应 ini、itu、di；jap 对应 sebentar。",
+        "Tak larat nak angkat sorang 省略主语，表示“没有力气独自抬起来”；sorang 对应 seorang diri。",
+        "sama-sama 在这里表示一起搬，标准对应句用 bersama-sama。",
+        "哥哥用 abang 自称，妹妹用自己的名字 Nadia 自称，符合部分马来家庭成员间的日常说话习惯。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (妹妹)",
+          "ms_spoken": "Abang, kotak buku ni berat sangat. Tak larat nak angkat sorang.",
+          "ms_standard": "Abang, kotak buku ini sangat berat. Saya tidak berdaya untuk mengangkatnya seorang diri.",
+          "zh": "哥，这箱书太重了。我一个人抬不动。",
+          "en": "Hey, big brother, this box of books is so heavy. I can't lift it on my own."
+        },
+        {
+          "speaker": "Amir (哥哥)",
+          "ms_spoken": "Tunggu jap, abang datang. Jangan angkat dulu, nanti kita angkat sama-sama.",
+          "ms_standard": "Tunggu sebentar, saya akan datang. Jangan angkat dahulu, nanti kita mengangkatnya bersama-sama.",
+          "zh": "等一下，哥这就来。先别抬，待会儿我们一起抬。",
+          "en": "Hang on, I'm coming. Don't lift it yet—we'll lift it together."
+        },
+        {
+          "speaker": "Nadia (妹妹)",
+          "ms_spoken": "Okey, kotak tu kat tepi pintu. Nadia tunggu sini.",
+          "ms_standard": "Baiklah, kotak itu berada di tepi pintu. Saya akan menunggu di sini.",
+          "zh": "好，箱子在门边。我在这里等。",
+          "en": "Okay, the box is by the door. I'll wait here."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "中性日常名词，购物、寄件和工作交流均适用；请求帮助搬箱子时加 tolong 或 boleh bantu，避免只下命令。",
+    "usage_etiquette": "购买饮品时，satu kotak 可能是一小盒，也可能指整箱包装；可补充数量和容量。kotak 的词尾有 k，口语语气词 kot 是另一个词，不应当作它的缩写。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语；资料包列爪哇语 kothak 为同源对照",
+    "root_origin": "kotak 是完整词根；与爪哇语 kothak 的对应关系不等于已证实从爪哇语直接借入，具体传播路径未定。",
+    "historical_story": "kotak 的意义把可装东西的方盒与划分出来的方格联系起来，Kamus Dewan 同时保存了容器、房屋隔间和田地分格的用法。今天从礼盒到表格中的答题框，这个词仍让人先看见一个清楚的边界，再看见边界里面的内容。",
+    "cognitive_memory_aid": "画一个方框：立起来装东西就是 kotak，铺在纸上分空间也可以叫 kotak。"
+  }
+}

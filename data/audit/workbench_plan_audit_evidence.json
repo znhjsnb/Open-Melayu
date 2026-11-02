@@ -1,0 +1,106 @@
+{
+  "captured_at_utc": "2026-11-01T13:39:30.273814+00:00",
+  "python": "3.13.15",
+  "scope": "Input snapshot and extracted-method fixture probes only; no server/browser/SQLite execution",
+  "candidates": {
+    "count": 15000,
+    "unique_normalized": 15000,
+    "sha256": "4184167a2ace0d5c02853a29ec9237ce716000a59397043e4492fb3f8c7d5541",
+    "reserved_name_hits": [
+      "con"
+    ],
+    "shard_distribution": {
+      "a": 617,
+      "b": 1447,
+      "c": 515,
+      "d": 995,
+      "e": 223,
+      "f": 234,
+      "g": 436,
+      "h": 468,
+      "i": 228,
+      "j": 367,
+      "k": 1193,
+      "l": 540,
+      "m": 2231,
+      "n": 243,
+      "o": 132,
+      "other": 4,
+      "p": 1586,
+      "q": 17,
+      "r": 474,
+      "s": 1396,
+      "t": 1058,
+      "u": 144,
+      "v": 103,
+      "w": 207,
+      "x": 11,
+      "y": 83,
+      "z": 48
+    },
+    "root_nonnull": 1044,
+    "colloquial_expansion_nonnull": 285
+  },
+  "local_prpm": {
+    "files": 318,
+    "counts": {
+      "found_flag_true": 235,
+      "dictionary_field_nonempty": 233,
+      "error": 56
+    },
+    "candidate_dictionary_words_without_error": 233,
+    "of_those_with_jawi": 224,
+    "examples": {
+      "no_dictionary": "ada.json",
+      "with_dictionary": "adakah.json"
+    },
+    "remaining_without_dictionary_field": 14767,
+    "note": "Nonempty fields are NOT independent evidence of correct query/headword/sense alignment."
+  },
+  "enriched": {
+    "unique_words": 20,
+    "batch_files": 2,
+    "batch_items": 20,
+    "batch_items_equal_singles": true,
+    "compact_bytes": {
+      "min": 3700,
+      "mean": 4988.3,
+      "max": 7117
+    },
+    "projected_15000_bytes_at_sample_mean": 74824500,
+    "projection_warning": "20 high-frequency entries are not representative of future 15000 entries"
+  },
+  "implementation_present": {
+    "app/server.py": false,
+    "app/static/worker.js": false,
+    "app/static/db.js": false,
+    "app/static/sw.js": false,
+    "src/export_web_shards.py": false,
+    "RULES.md": false,
+    "AGENTS.md": false
+  },
+  "legacy_server_sha256": "c40cfb649a31705b4a1ec808435e2881a53611884acb88494f1d86b61cb33c82",
+  "legacy_no_console_probe": "AttributeError: 'NoneType' object has no attribute 'reconfigure'",
+  "legacy_handle_static_probes": {
+    "/missing.json": {
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "body": "<h1>shell</h1>"
+    },
+    "/probe.mjs": {
+      "status": 200,
+      "type": "application/octet-stream",
+      "body": "export const ok = true;"
+    },
+    "/../static_backup/fixture.txt": {
+      "status": 200,
+      "type": "application/octet-stream",
+      "body": "ISOLATED_FIXTURE"
+    },
+    "/%2e%2e/static_backup/fixture.txt": {
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "body": "<h1>shell</h1>"
+    }
+  }
+}

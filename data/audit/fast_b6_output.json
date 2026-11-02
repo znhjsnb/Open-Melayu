@@ -1,0 +1,406 @@
+{
+  "eh": {
+    "headword": {
+      "word": "eh",
+      "syllables": null,
+      "ipa": "/eh/",
+      "jawi": "إيه",
+      "frequency_rank": 1029,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "eh",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + eh → eh",
+      "pattern_note": "单音节感叹词，e 读 é /e/，不是弱元音 /ə/；语调和拖长可改变惊讶的强度，无常规词缀派生。",
+      "word_family": [],
+      "root_jawi": "إيه"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "particle",
+        "zh_definition": "咦；哎：表示突然发现意外情况时的惊讶、诧异或吃惊。",
+        "en_definition": "An interjection expressing surprise or astonishment at something unexpected.",
+        "ms_definition": "Kata seru untuk menyatakan kehairanan, terkejut atau terperanjat.",
+        "nuances": "马来语实际词类为 kata seru（感叹词），此处按字段可选值归入 particle。语气轻时像中文“咦”，语气急重时可能显得质问或不耐烦；本条只收表示惊讶的核心用法。",
+        "collocations": [
+          {
+            "ms": "eh, tak sangka",
+            "zh": "咦，没想到"
+          },
+          {
+            "ms": "eh, rupa-rupanya",
+            "zh": "咦，原来如此"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场核对报告时的直接引语",
+        "ms": "Ketika menyemak laporan itu, pegawai tersebut berkata, \"Eh, jumlah ini berbeza daripada rekod semalam!\"",
+        "zh": "核查那份报告时，该职员说：“咦，这个总数与昨天的记录不一样！”",
+        "en": "While checking the report, the officer said, \"Oh, this total differs from yesterday's record!\""
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友意外发现彼此在同一地点",
+        "ms_spoken": "Eh, kau dah sampai kat sini rupanya!",
+        "ms_standard": "Eh, rupa-rupanya awak sudah sampai di sini!",
+        "zh": "咦，原来你已经到这儿了！",
+        "en": "Oh, you're already here!",
+        "spoken_features": [
+          "dah 是 sudah 的口语缩略形式。",
+          "kat 在此相当于 di，表示所在地点。",
+          "kau 用于熟人之间；eh 配合升调表达意外发现。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Eh, kau dah sampai kat sini rupanya!",
+            "ms_standard": "Eh, rupa-rupanya awak sudah sampai di sini!",
+            "zh": "咦，原来你已经到这儿了！"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Haah, aku baru sampai je. Kau kat mana?",
+            "ms_standard": "Ya, saya baru sahaja sampai. Awak berada di mana?",
+            "zh": "对啊，我也刚到。你在哪儿？"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [
+      {
+        "abbr": "eey",
+        "full_form": "eh",
+        "note": "词包提供的非标准聊天变体，可用于表现拖长或加强语气；不是通行的规范缩写，正式书写采用 eh。"
+      }
+    ],
+    "cultural_pragmatics": {
+      "register": "colloquial",
+      "politeness_note": "熟人之间表达惊讶通常自然；对长辈、客户或上司突然高声说 eh，可能显得冒失，宜降低音量并补充完整说明。",
+      "usage_etiquette": "正式报告正文一般不用；记录真实对话或新闻直接引语时可以保留。书写时用逗号或感叹号标明感叹词与后续话语的界限。"
+    },
+    "etymology": {
+      "origin": "未详",
+      "source_language": "Bahasa Melayu；更早来源未确证",
+      "root_origin": "eh（独立感叹词；无已确证的更早词形）",
+      "cognitive_memory_aid": "想象推开门突然发现朋友也在里面，脱口而出“咦！”：eh 就是这一瞬间的惊讶。",
+      "historical_story": "人们在交谈中突然认出某人或发现情况不对时，可以用短促的 eh 表达惊讶；[DBP 词典及用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=eh)记录了这一功能。它更早的来源和形成时间尚未确证，不能仅凭声音相近便认定借自英语或其他语言。"
+    }
+  },
+  "bernama": {
+    "headword": {
+      "word": "bernama",
+      "syllables": "ber.na.ma",
+      "ipa": "/bər.na.ma/",
+      "jawi": "برنام",
+      "frequency_rank": 1030,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "nama",
+      "affix": "ber-",
+      "affix_type": "prefix",
+      "formula": "ber- + nama → bernama",
+      "pattern_note": "ber- 在此表示“具有”；接 nama 时保留完整词根，不发生鼻音同化或首辅音脱落，ber- 中的 e 读 /ə/。",
+      "word_family": [
+        {
+          "word": "menamakan",
+          "affix": "meN-...-kan",
+          "gloss": "命名；给……取名"
+        },
+        {
+          "word": "ternama",
+          "affix": "ter-",
+          "gloss": "著名的；有名望的"
+        }
+      ],
+      "root_jawi": "نام"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "名叫；名为；具有某个名称。",
+        "en_definition": "To have a particular name; to be called or named.",
+        "ms_definition": "Memakai nama atau mempunyai nama.",
+        "nuances": "通常采用“人或事物 + bernama + 名称”的结构，也常见于 seorang lelaki bernama Ali。它陈述名称，不表示主动替别人取名；后者用 menamakan 或 menamai。",
+        "collocations": [
+          {
+            "ms": "seorang lelaki bernama Ali",
+            "zh": "一名叫阿里的男子"
+          },
+          {
+            "ms": "sebuah kampung bernama Seri Damai",
+            "zh": "一个名为斯里达迈的村庄"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻 / 社区项目报道",
+        "ms": "Program tersebut diasaskan oleh seorang guru bernama Puan Salmah untuk membantu murid yang memerlukan bimbingan tambahan.",
+        "zh": "该项目由一位名叫萨尔玛女士的教师创办，旨在帮助需要额外辅导的学生。",
+        "en": "The programme was founded by a teacher named Madam Salmah to help pupils who need additional guidance."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 同事询问新员工姓名",
+        "ms_spoken": "Budak baru kat pejabat tu bernama Danish, kan?",
+        "ms_standard": "Pekerja baharu di pejabat itu bernama Danish, bukan?",
+        "zh": "办公室新来的那个同事叫 Danish，对吧？",
+        "en": "The new person at the office is called Danish, right?",
+        "spoken_features": [
+          "kat 在此对应标准语 di。",
+          "tu 是 itu 的口语形式。",
+          "budak baru 在熟人聊天中可指新来的年轻同事；正式场合用 pekerja baharu。",
+          "句末 kan 用于寻求确认。"
+        ],
+        "messages": [
+          {
+            "speaker": "Aina (同事)",
+            "ms_spoken": "Budak baru kat pejabat tu bernama Danish, kan?",
+            "ms_standard": "Pekerja baharu di pejabat itu bernama Danish, bukan?",
+            "zh": "办公室新来的那个同事叫 Danish，对吧？"
+          },
+          {
+            "speaker": "Hafiz (同事)",
+            "ms_spoken": "Haah, Danish. Dia dah masuk kumpulan WhatsApp kita.",
+            "ms_standard": "Ya, Danish. Dia sudah menyertai kumpulan WhatsApp kita.",
+            "zh": "对，Danish。他已经进我们的 WhatsApp 群了。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "介绍他人时可按关系和场合保留 Encik、Puan 等称谓，并确认姓名读音。向本人询问姓名时，Boleh saya tahu nama encik? 比直接追问更礼貌。",
+      "usage_etiquette": "适合新闻、叙述和正式介绍；日常自我介绍通常说 Nama saya Aina。全大写的 BERNAMA 是机构名称，阅读时应结合上下文辨认。"
+    },
+    "etymology": {
+      "origin": "Sanskrit",
+      "source_language": "Sanskrit（词根 nama）；Bahasa Melayu（前缀 ber-）",
+      "root_origin": "नामन् nāman，词形 nāma，意为“名字”",
+      "cognitive_memory_aid": "nama 是“名字”，ber- 在这里表示“有”：bernama 就是“有这个名字”，即“名叫”。",
+      "historical_story": "nama 来自梵语 nāman 的词形 nāma，借入后仍表示“名字”，可参见[梵语借词列表](https://en.wikipedia.org/wiki/List_of_Indic_loanwords_in_Indonesian)。马来语在这个词根前加上本族前缀 ber-，形成 bernama，便能用来介绍一个人或一处地方叫什么。整个 bernama 是马来语派生词，并非从梵语整词借入。"
+    }
+  },
+  "papa": {
+    "headword": {
+      "word": "papa",
+      "syllables": "pa.pa",
+      "ipa": "/ˈpapa/",
+      "jawi": "ڤاڤ",
+      "frequency_rank": 1032,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "papa",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + papa → papa",
+      "pattern_note": "papa 是完整词根，相同的 pa 音节不表示现代马来语重叠构词。派生为 memapakan 时，meN- 在 /p/ 前实现为 mem-，词根首音 /p/ 脱落。",
+      "word_family": [
+        {
+          "word": "kepapaan",
+          "affix": "ke-...-an",
+          "gloss": "赤贫；极度贫困的处境"
+        },
+        {
+          "word": "memapakan",
+          "affix": "meN-...-kan",
+          "gloss": "使陷入赤贫"
+        }
+      ],
+      "root_jawi": "ڤاڤ"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "adjective",
+        "zh_definition": "赤贫的；极度贫困、生活无以为继的。",
+        "en_definition": "Extremely poor or destitute.",
+        "ms_definition": "Sangat miskin.",
+        "nuances": "比一般的 miskin 程度更重，常见于 papa kedana，带有强烈的困苦意味。依照本词包的 DBP 义项，本条不采用同形的家庭称呼“爸爸”。",
+        "collocations": [
+          {
+            "ms": "papa kedana",
+            "zh": "一贫如洗；赤贫"
+          },
+          {
+            "ms": "menjadi papa",
+            "zh": "沦为赤贫"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻 / 社会援助报道",
+        "ms": "Pertubuhan itu menyalurkan bantuan makanan kepada keluarga yang papa kedana akibat kehilangan sumber pendapatan.",
+        "zh": "该组织向因失去收入来源而陷入赤贫的家庭提供食品援助。",
+        "en": "The organisation provided food aid to families left destitute after losing their source of income."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友讨论诈骗受害家庭",
+        "ms_spoken": "Keluarga tu dah papa kedana lepas kena tipu.",
+        "ms_standard": "Keluarga itu sudah menjadi papa kedana selepas ditipu.",
+        "zh": "那家人被骗之后，已经穷得什么都没了。",
+        "en": "That family has been left destitute after being scammed.",
+        "spoken_features": [
+          "tu 是 itu 的口语形式。",
+          "dah 是 sudah 的口语缩略形式。",
+          "lepas 在此对应 selepas。",
+          "kena tipu 是口语中的被动表达，标准语可用 ditipu。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Keluarga tu dah papa kedana lepas kena tipu.",
+            "ms_standard": "Keluarga itu sudah menjadi papa kedana selepas ditipu.",
+            "zh": "那家人被骗之后，已经穷得什么都没了。"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Kesian mereka. Jom kita bantu beli barang dapur dulu.",
+            "ms_standard": "Kasihan mereka. Marilah kita membantu membeli barang keperluan dapur terlebih dahulu.",
+            "zh": "他们太可怜了。我们先帮忙买点日常食材吧。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "直接称某个人 papa 或 papa kedana，容易伤及尊严。与当事人交谈或提供援助时，可用 keluarga yang memerlukan bantuan 等更体贴的表达。",
+      "usage_etiquette": "适合描述严重贫困，常见于报道、文学和强调处境的谈话；不要仅因对方收入较低就使用。此词本身不意味着贫困者有道德过错。"
+    },
+    "etymology": {
+      "origin": "Sanskrit",
+      "source_language": "Sanskrit",
+      "root_origin": "पाप pāpa，意为“坏的、恶的、卑下的”",
+      "cognitive_memory_aid": "把 papa kedana 记成一个整体，联想空米缸和空钱包，锁定“赤贫”的意思，避免与家庭称呼 papa 混淆。",
+      "historical_story": "这个表示贫困的 papa 被追溯至梵语 pāpa，原词具有“坏、恶、卑下”等意义，见[词源说明](https://en.wiktionary.org/wiki/papa#Malay)。借入马来语后，它用于描述极度困苦的生活处境；现代 [DBP 词典](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=papa)以“非常贫穷”为核心释义，并收录加强程度的 papa kedana。"
+    }
+  },
+  "tujuh": {
+    "headword": {
+      "word": "tujuh",
+      "syllables": "tu.juh",
+      "ipa": "/ˈtud͡ʒuh/",
+      "jawi": "توجوه",
+      "frequency_rank": 1033,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "tujuh",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + tujuh → tujuh",
+      "pattern_note": "双音节独立数词，j 读塞擦音 /d͡ʒ/，不是英语字母 y 的 /j/；现代构词不再细分。",
+      "word_family": [
+        {
+          "word": "ketujuh",
+          "affix": "ke-",
+          "gloss": "第七"
+        },
+        {
+          "word": "bertujuh",
+          "affix": "ber-",
+          "gloss": "共七人；七个一起"
+        }
+      ],
+      "root_jawi": "توجوه"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "七；六加一所得的数，写作 7。",
+        "en_definition": "Seven; the number equal to six plus one, written as 7.",
+        "ms_definition": "Bilangan enam ditambah satu (7); angka 7.",
+        "nuances": "马来语实际词类为 kata bilangan tentu（确定数词）；本字段未提供 numeral，故以 noun 承载数值义。计数时置于名词或量词前，如 tujuh orang；表示“第七”用 ketujuh。pukul tujuh 表示七点，是否早晚须由上下文说明。",
+        "collocations": [
+          {
+            "ms": "tujuh hari",
+            "zh": "七天"
+          },
+          {
+            "ms": "pukul tujuh",
+            "zh": "七点"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 工作进度通知",
+        "ms": "Laporan lengkap hendaklah dikemukakan dalam tempoh tujuh hari bekerja dari tarikh surat ini.",
+        "zh": "完整报告须在本函日期起七个工作日内提交。",
+        "en": "The complete report must be submitted within seven working days from the date of this letter."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友约定晚间见面时间",
+        "ms_spoken": "Kita jumpa kat kedai makan pukul tujuh malam nanti, ya?",
+        "ms_standard": "Kita berjumpa di kedai makan pada pukul tujuh malam nanti, ya?",
+        "zh": "我们今晚七点在餐馆见，好吗？",
+        "en": "Let's meet at the restaurant at seven tonight, okay?",
+        "spoken_features": [
+          "kat 在此对应标准语 di。",
+          "口语中可省略时间介词 pada。",
+          "jumpa 对应此处较完整的标准语 berjumpa。",
+          "句末 ya 用来温和地征求确认。"
+        ],
+        "messages": [
+          {
+            "speaker": "Aina (朋友)",
+            "ms_spoken": "Kita jumpa kat kedai makan pukul tujuh malam nanti, ya?",
+            "ms_standard": "Kita berjumpa di kedai makan pada pukul tujuh malam nanti, ya?",
+            "zh": "我们今晚七点在餐馆见，好吗？"
+          },
+          {
+            "speaker": "Danish (朋友)",
+            "ms_spoken": "Boleh, aku nak gerak awal sikit. Kalau dah sampai, mesej je.",
+            "ms_standard": "Boleh, saya hendak bertolak lebih awal sedikit. Jika awak sudah sampai, hantarkan sahaja mesej.",
+            "zh": "行，我打算早点出门。你到了就发个消息。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [
+      {
+        "abbr": "7",
+        "full_form": "tujuh",
+        "note": "聊天中可用阿拉伯数字代替数词，如 7 orang；这是数字写法，不是读音缩略。约时间时应补充 pagi 或 malam，避免早晚不清。"
+      }
+    ],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "数词本身没有特殊礼貌限制；约定时间时，可加 ya 或 boleh? 使协商语气更柔和。",
+      "usage_etiquette": "人数通常说 tujuh orang，天数说 tujuh hari，时刻说 pukul tujuh。公文中的“七天”和“七个工作日”分别是 tujuh hari 与 tujuh hari bekerja，应按实际期限准确表达。"
+    },
+    "etymology": {
+      "origin": "Austronesian",
+      "source_language": "Proto-Malayic",
+      "root_origin": "*tujuh，意为“七”；星号表示比较语言学重建形式",
+      "cognitive_memory_aid": "在日历上逐格数 tu-juh：七个格子正好一周，把 tujuh hari 和“一周七天”一起记。",
+      "historical_story": "在现代马来语形成以前，其祖语阶段已有表示“七”的词形 *tujuh，这是语言学家根据亲属语言比较重建的形式，见[南岛语基本词汇数据库](https://abvd.eva.mpg.de/austronesian/language.php?id=740)。这个古老数词延续到今天，从数七个人到约七点见面，仍承担日常计数的基本功能。"
+    }
+  }
+}

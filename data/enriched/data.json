@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "data",
+    "syllables": "da.ta",
+    "ipa": "/ˈdata/",
+    "jawi": "داتا",
+    "frequency_rank": 1274,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "data",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + data → data",
+    "pattern_note": "整词借入，无马来语词缀；按 da.ta 分为两音节。下列词族为复合表达，data 本身不变形。",
+    "word_family": [
+      {
+        "word": "pangkalan data",
+        "affix": "∅",
+        "gloss": "数据库"
+      },
+      {
+        "word": "set data",
+        "affix": "∅",
+        "gloss": "数据集"
+      }
+    ],
+    "root_jawi": "داتا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "已知或收集所得、可作为研究、分析或推断依据的事实与资料；数据。",
+      "en_definition": "Known or collected facts and information used as a basis for research, analysis, or conclusions.",
+      "ms_definition": "Butir atau maklumat yang diketahui atau dikumpulkan tentang sesuatu untuk dijadikan asas kajian, analisis atau kesimpulan.",
+      "nuances": "常指有系统记录、可供分析的资料，不限于数字，也包括文字、访谈记录和图像。通常直接说 data 或 data tersebut，无须机械重复为 data-data。",
+      "collocations": [
+        {
+          "ms": "mengumpulkan data",
+          "zh": "收集数据",
+          "en": "collect data"
+        },
+        {
+          "ms": "menganalisis data",
+          "zh": "分析数据",
+          "en": "analyse data"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelidik sedang menganalisis data yang dikumpulkan melalui soal selidik tersebut.",
+      "zh": "研究团队正在分析通过该问卷收集的数据。",
+      "en": "The research team is analysing the data collected through the questionnaire."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Data kajian tu dah siap ke? Saya nak semak kejap.",
+      "ms_standard": "Adakah data kajian itu sudah disediakan? Saya hendak menyemaknya sebentar.",
+      "zh": "调查数据准备好了吗？我想看一下。",
+      "en": "Is the survey data ready? I want to take a quick look.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "dah 对应 sudah，nak 对应 hendak。",
+        "句末 ke 标记口语疑问；kejap 对应 sebentar。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Data kajian tu dah siap ke? Saya nak semak kejap.",
+          "ms_standard": "Adakah data kajian itu sudah disediakan? Saya hendak menyemaknya sebentar.",
+          "zh": "调查数据准备好了吗？我想看一下。",
+          "en": "Is the study data ready yet? I'd like to take a quick look."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, saya dah letak data tu kat folder bersama. Semak dulu, ya.",
+          "ms_standard": "Sudah, saya sudah menyimpan data itu di dalam folder bersama. Sila semaknya dahulu.",
+          "zh": "好了，我已经把数据放进共享文件夹了。你先看看吧。",
+          "en": "Yes, I've put it in the shared folder. Have a look first, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向同事索取数据时，可用 Boleh kongsikan data tersebut?；正式邮件中可用 Mohon pihak tuan/puan mengemukakan data tersebut。",
+    "usage_etiquette": "说明所需数据的范围和时间，例如 data jualan bulan Oktober，能让请求更清楚；正式报告中宜同时交代数据来源。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "English",
+    "root_origin": "English data ← Latin data, plural of datum",
+    "cognitive_memory_aid": "把 data 想成分析桌上一张张已经收集好的事实卡片：先收集 data，再从中找出结论；拼写与英语 data 相同。",
+    "historical_story": "data 的远源是拉丁语 datum 的复数形式，后来在英语中成为表示研究与推理所依据资料的常用词。[Merriam-Webster 词源说明](https://www.merriam-webster.com/dictionary/data)。现代马来语借用同形的 data，从调查表上的记录到电脑中的数据集，都可以用它来命名。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "向同事索取数据时，可用 Boleh kongsikan data tersebut?；正式邮件中可用 Mohon pihak tuan/puan mengemukakan data tersebut。",
+    "usage_etiquette": "说明所需数据的范围和时间，例如 data jualan bulan Oktober，能让请求更清楚；正式报告中宜同时交代数据来源。"
+  }
+}

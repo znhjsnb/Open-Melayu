@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "baiki",
+    "syllables": "ba.i.ki",
+    "ipa": "[ba.i.ki]",
+    "jawi": "باءيق",
+    "frequency_rank": 2882,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "baik",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "baik + -i → baiki",
+    "pattern_note": "后缀 -i 使 baik（好的）成为作用于对象的动词；词根末尾 k 在后接元音时读作 [k]。headword.jawi 按输入包保留；该写法与词根 baik 相同，带后缀 -i 的完整形式为 باءيقي。",
+    "word_family": [
+      {
+        "word": "membaiki",
+        "affix": "meN-...-i",
+        "gloss": "修理；修复"
+      },
+      {
+        "word": "dibaiki",
+        "affix": "di-...-i",
+        "gloss": "被修理；得到修复"
+      }
+    ],
+    "root_jawi": "باءيق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "修理损坏或出现故障的东西，使其恢复良好状态或正常功能。",
+      "en_definition": "To repair something damaged or faulty so that it works properly again.",
+      "ms_definition": "Menjadikan sesuatu yang rosak baik atau dapat berfungsi semula.",
+      "nuances": "baiki 是带后缀 -i、没有主动前缀 meN- 的形式，可用于标准祈使句，如 Sila baiki kipas ini，以及第一、第二人称被动结构，如 Kipas ini saya baiki。正式主动陈述通常用 membaiki；日常口语常说 saya baiki。此处马来语释义依据 membaiki 的修理义编写，并非独立 baiki 词条的逐字引文。参考：[DBP：修路语境中的 membaiki 用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membaikkan)。",
+      "collocations": [
+        {
+          "ms": "baiki kereta",
+          "zh": "修车",
+          "en": "repair a car"
+        },
+        {
+          "ms": "baiki paip bocor",
+          "zh": "修理漏水的水管",
+          "en": "fix a leaking pipe"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 设施维修指示",
+      "ms": "Sila baiki paip yang bocor di tandas kakitangan sebelum pejabat dibuka esok.",
+      "zh": "请在明天办公室开放前修好员工厕所内漏水的水管。",
+      "en": "Please repair the leaking pipe in the staff restroom before the office opens tomorrow."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 向家人求助",
+      "ms_spoken": "Boleh tolong baiki kipas ni tak? Dah tak berpusing.",
+      "ms_standard": "Bolehkah awak membantu saya membaiki kipas ini? Kipas ini sudah tidak berputar.",
+      "zh": "能帮我修一下这台风扇吗？已经不转了。",
+      "en": "Could you help me fix this fan? It's stopped spinning.",
+      "spoken_features": [
+        "Boleh ... tak? 是口语常见的请求句式。",
+        "ni 对应 ini，dah 对应 sudah，tak 对应 tidak。",
+        "第二句省略已知主语 kipas ini。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (妹妹)",
+          "ms_spoken": "Boleh tolong baiki kipas ni tak? Dah tak berpusing.",
+          "ms_standard": "Bolehkah abang membantu saya membaiki kipas ini? Kipas ini sudah tidak berputar.",
+          "zh": "哥，能帮我修一下这台风扇吗？已经不转了。",
+          "en": "Could you help me fix this fan? It's stopped spinning."
+        },
+        {
+          "speaker": "Hakim (哥哥)",
+          "ms_spoken": "Boleh, nanti abang tengok dulu. Letak kat tepi meja je.",
+          "ms_standard": "Boleh, nanti abang akan memeriksanya dahulu. Letakkan kipas itu di tepi meja sahaja.",
+          "zh": "行，等会儿哥先看看。放在桌子旁边就好。",
+          "en": "Sure, I'll take a look in a bit. Just leave it beside the table."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "直接说 Baiki ini! 容易像在发号施令；请人帮忙时用 Boleh tolong baiki ...? 更自然、客气，正式指示可用 Sila baiki ...。",
+    "usage_etiquette": "向维修人员说明具体物件和故障，例如 kipas tidak berpusing（风扇不转）；请求修理后，可询问所需时间和费用。"
+  },
+  "etymology": {
+    "historical_story": "baiki 的构词起点是 baik，意思是“好、处于良好状态”；加上 -i，便形成让对象恢复良好状态的动作词。修风扇、修水管都体现这幅“把坏的变回好的”图像，而完整主动形式 membaiki 又在前面加上了 meN-。",
+    "cognitive_memory_aid": "记住 baik 是“好的”：坏掉的东西经过 baiki，就重新变得 baik。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "直接说 Baiki ini! 容易像在发号施令；请人帮忙时用 Boleh tolong baiki ...? 更自然、客气，正式指示可用 Sila baiki ...。",
+    "usage_etiquette": "向维修人员说明具体物件和故障，例如 kipas tidak berpusing（风扇不转）；请求修理后，可询问所需时间和费用。"
+  }
+}

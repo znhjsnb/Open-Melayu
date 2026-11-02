@@ -1,0 +1,205 @@
+{
+  "headword": {
+    "word": "menemui",
+    "syllables": "me.ne.mui",
+    "ipa": "/mə.nə.mu.i/",
+    "jawi": "منموءي",
+    "frequency_rank": 826,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "temu",
+    "affix": "meN-…-i",
+    "affix_type": "circumfix",
+    "formula": "meN- + temu + -i → menemui",
+    "pattern_note": "temu 加 meN- 时，词首 t 脱落，鼻音实现为 n，再接后缀 -i。原包 root 字段误把派生词本身当作词根，此处按构词恢复 temu；音节栏逐字保留 PRPM 主字段 me.ne.mui，IPA 用教学宽式展开末尾 /u.i/，PRPM 原定义也列有 me.ne.mu.i。Jawi 直接取本地 PRPM 原始文件的完整值；CEFR 是本卡教学分级。",
+    "word_family": [
+      {
+        "word": "temu",
+        "affix": "none",
+        "gloss": "相遇；相会的基本词"
+      },
+      {
+        "word": "bertemu",
+        "affix": "ber-",
+        "gloss": "相遇；会面"
+      },
+      {
+        "word": "menemukan",
+        "affix": "meN-…-kan",
+        "gloss": "找到；使相会"
+      },
+      {
+        "word": "ditemui",
+        "affix": "di-…-i",
+        "gloss": "被遇见；被找到"
+      },
+      {
+        "word": "pertemuan",
+        "affix": "per-…-an",
+        "gloss": "会面；聚会"
+      },
+      {
+        "word": "penemuan",
+        "affix": "peN-…-an",
+        "gloss": "发现；发现的成果"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "遇见；碰到某人。",
+      "ms_definition": "bertemu dgn, berjumpa dgn (Kamus Dewan Edisi Keempat)",
+      "nuances": "及物动词，人物直接作宾语，如 menemui seorang rakan；bertemu 则常配 dengan。是否偶遇由上下文决定，不能仅凭 menemui 就译成‘偶然碰见’。",
+      "collocations": [
+        {
+          "ms": "menemui rakan lama",
+          "zh": "遇见老朋友",
+          "en": "meet an old friend"
+        },
+        {
+          "ms": "menemui seseorang",
+          "zh": "遇见某人",
+          "en": "meet someone"
+        }
+      ],
+      "en_definition": "To meet or encounter someone."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "前去会见；拜访；探望。",
+      "ms_definition": "pergi bertemu dgn, mengunjungi, menziarahi, melawat (Kamus Dewan Edisi Keempat; dibuang tanda sempang lembut dalam salinan digital)",
+      "nuances": "强调主动去见对方，可用于办事、看医生或探访家人。正式写作中 menemui 比聊天常说的 jumpa 更完整；menziarahi 更突出探望、慰问。",
+      "collocations": [
+        {
+          "ms": "menemui doktor",
+          "zh": "去看医生",
+          "en": "see a doctor"
+        },
+        {
+          "ms": "menemui ahli keluarga",
+          "zh": "探望家人",
+          "en": "visit family members"
+        }
+      ],
+      "en_definition": "To go to see or visit someone."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "找到；发现所寻找的事物。",
+      "ms_definition": "= menemukan berjumpa dgn apa yg dicari dll, mendapat, mendapati (Kamus Dewan Edisi Keempat)",
+      "nuances": "材料中的《Kamus Dewan》明确收录以事物作宾语的用法，不能把 menemui 绝对限定为‘见人’。新闻中的 ditemui 是常见被动形式；menemukan 也可用于找到、发现。",
+      "collocations": [
+        {
+          "ms": "menemui bukti baharu",
+          "zh": "找到新证据",
+          "en": "find new evidence"
+        },
+        {
+          "ms": "menemui jalan penyelesaian",
+          "zh": "找到解决办法",
+          "en": "find a solution"
+        }
+      ],
+      "en_definition": "To find or discover something, especially something being sought."
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "遭遇；经历困难等处境。",
+      "ms_definition": "= menemukan mengalami (kesulitan dll), menderita, merasai (Kamus Dewan Edisi Keempat)",
+      "nuances": "抽象遭遇义，不能总译成‘找到’。固定表达 menemui ajal 指死亡，报道中语气较庄重；普通慰问通常采用 meninggal dunia 或已故者家属认可的措辞。",
+      "collocations": [
+        {
+          "ms": "menemui kesulitan",
+          "zh": "遭遇困难",
+          "en": "encounter difficulties"
+        },
+        {
+          "ms": "menemui ajal",
+          "zh": "身亡；死亡",
+          "en": "meet one's death"
+        }
+      ],
+      "en_definition": "To encounter or experience something, especially difficulty or suffering."
+    },
+    {
+      "id": 5,
+      "pos": "verb",
+      "zh_definition": "察觉；发现原本未注意到的事实或关联。",
+      "ms_definition": "mengetahui bahawa ada (apa yg tersembunyi dll), mengetahui ada, mendapati (Kamus Dewan Edisi Keempat)",
+      "nuances": "强调经观察、比较而认识到某事存在，与找到一件遗失物品不同。语境可涉及研究、阅读和分析。",
+      "collocations": [
+        {
+          "ms": "menemui persamaan",
+          "zh": "发现相同之处",
+          "en": "discover similarities"
+        },
+        {
+          "ms": "menemui kelemahan",
+          "zh": "发现薄弱之处",
+          "en": "identify weaknesses"
+        }
+      ],
+      "en_definition": "To discover or become aware of something previously hidden or unnoticed."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "地方新闻／灾后探访",
+      "ms": "Wakil kerajaan negeri menemui penduduk yang terjejas akibat banjir untuk mendapatkan maklumat tentang keperluan mereka.",
+      "zh": "州政府代表会见受水灾影响的居民，了解他们的需求。",
+      "en": "State government representatives met residents affected by the floods to learn about their needs."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 员工因次日到医院看专科医生而向主管申请晚到",
+      "ms_spoken": "Encik Azman, esok saya kena menemui doktor pakar kat hospital. Boleh saya masuk kerja lambat sikit?",
+      "ms_standard": "Encik Azman, esok saya perlu menemui doktor pakar di hospital. Bolehkah saya datang bekerja lewat sedikit?",
+      "zh": "Azman 先生，我明天得去医院看专科医生。我可以晚一点到公司吗？",
+      "spoken_features": [
+        "kena 在这里表示‘得、需要’，对应 perlu；kat 对应地点介词 di，sikit 对应 sedikit。",
+        "masuk kerja 是日常的到岗表达；bila dah selesai 对应 apabila urusan itu sudah selesai。",
+        "menemui 在此表示前去会见医生，适合保留一定礼貌和郑重程度的工作消息；更随意时通常说 jumpa doktor，jumpa 是替换词，并非缩写。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (员工，与主管沟通)",
+          "ms_spoken": "Encik Azman, esok saya kena menemui doktor pakar kat hospital. Boleh saya masuk kerja lambat sikit?",
+          "ms_standard": "Encik Azman, esok saya perlu menemui doktor pakar di hospital. Bolehkah saya datang bekerja lewat sedikit?",
+          "zh": "Azman 先生，我明天得去医院看专科医生。我可以晚一点到公司吗？",
+          "en": "Mr Azman, I need to see a specialist at the hospital tomorrow. Could I come in to work a little late?"
+        },
+        {
+          "speaker": "Encik Azman (主管)",
+          "ms_spoken": "Boleh, Farah. Nanti maklumkan saya bila dah selesai ya.",
+          "ms_standard": "Boleh, Farah. Sila maklumkan kepada saya apabila urusan itu sudah selesai.",
+          "zh": "可以，Farah。看完后告诉我一声。",
+          "en": "Of course, Farah. Just let me know when you're done, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "会见老师、医生或办事人员时可说 Saya ingin menemui…，并采用对方合适的职衔或称谓。动词本身不决定礼貌程度，saya 与称谓通常比直接套用 aku、kau 稳妥。",
+    "usage_etiquette": "正式预约说明来意并尊重对方时间。menemui ajal 带死亡报道色彩，不用来对病人开玩笑；跨族群慰问可使用中性的 meninggal dunia，不预设对方宗教。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语 temu 词族；更早来源本卡不作定论",
+    "root_origin": "可核实的现代构词为 temu + meN-…-i；原包未提供可直接采用的上古词源证据。参见 [DBP temu 词条](https://prpm.dbp.gov.my/Cari1?keyword=temu)。",
+    "historical_story": "把场景放在河岸集市：来客找到熟人、登门拜访，都是 temu 词族可以描述的‘相会’，这里用场景帮助理解，不指定词的诞生地点。加上 meN-…-i 后，menemui 把相会的对象放到动词后面，而现代词典也记录了‘找到证据、遭遇困难、发现共同点’等抽象用法。日常相见和新闻里的发现因此连在同一张意义网中，但不能据此断言每个义项出现的先后年代。",
+    "cognitive_memory_aid": "想象走过去‘见到’一个人，再把镜头换成证据或困难：menemui 可接人，也可接找到或遭遇的事物。"
+  }
+}

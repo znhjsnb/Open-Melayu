@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "arahan",
+    "syllables": "a.ra.han",
+    "ipa": "/arahan/",
+    "jawi": "ارهن",
+    "frequency_rank": 673,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "arah",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "arah + -an → arahan",
+    "pattern_note": "词根 arah 表示方向，后缀 -an 构成名词；末尾 h 保留，构词边界不等于音节边界。音节逐字沿用 PRPM；Jawi 四个问号为资料包乱码，原样保留而不视为有效拼写；IPA 为编辑宽式读音。",
+    "word_family": [
+      {
+        "word": "arah",
+        "affix": "∅",
+        "gloss": "方向；目标"
+      },
+      {
+        "word": "mengarahkan",
+        "affix": "meN-…-kan",
+        "gloss": "指示；命令；使朝向"
+      },
+      {
+        "word": "pengarah",
+        "affix": "peN-",
+        "gloss": "导演；主管"
+      },
+      {
+        "word": "pengarahan",
+        "affix": "peN-…-an",
+        "gloss": "指挥；指导的行为"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "指示；命令；操作或作答说明。",
+      "ms_definition": "petunjuk, perintah",
+      "nuances": "Kamus Dewan Edisi Keempat 原义节录；修复 perintah 的断字乱码，教学排序置于首位。依语境可指有权威的命令，也可指试卷或设备的说明；不是每条 arahan 都是严厉命令。",
+      "collocations": [
+        {
+          "ms": "mematuhi arahan",
+          "zh": "遵守指示",
+          "en": "follow instructions"
+        },
+        {
+          "ms": "arahan bertulis",
+          "zh": "书面指示",
+          "en": "written instructions"
+        }
+      ],
+      "en_definition": "An instruction or order; directions for performing a task or answering a question."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "指导；领导；监督；（影视或舞台作品的）执导。",
+      "ms_definition": "pimpinan, pengawasan",
+      "nuances": "Kamus Dewan Edisi Keempat 原义节录。filem arahan 某人指由某人执导的电影；arahan 是执导这件事，pengarah 才是导演本人。",
+      "collocations": [
+        {
+          "ms": "filem arahan P. Ramlee",
+          "zh": "比南利执导的电影",
+          "en": "a film directed by P. Ramlee"
+        },
+        {
+          "ms": "di bawah arahan pengarah",
+          "zh": "在导演的指导下",
+          "en": "under the director's guidance"
+        }
+      ],
+      "en_definition": "Guidance, leadership, or supervision; the direction of a film or stage production."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共安全 / 官方通告",
+      "ms": "Orang ramai diminta mematuhi arahan pihak berkuasa sepanjang operasi pemindahan dijalankan.",
+      "zh": "疏散行动进行期间，公众受促遵守当局指示。",
+      "en": "Members of the public are asked to comply with the authorities' instructions throughout the evacuation operation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学确认作业要求",
+      "ms_spoken": "Soalan dua ni kena jawab semua ke? Banyak gila.",
+      "ms_standard": "Adakah kita perlu menjawab semua bahagian soalan kedua ini? Soalan ini mempunyai sangat banyak bahagian.",
+      "zh": "第二题的所有小题都得答吗？也太多了。",
+      "spoken_features": [
+        "arahan 在这里指作业的作答说明。",
+        "kena 在这里表示必须或需要；疑问词 ke 在聊天中用于构成是非问句。",
+        "kat atas tu 对应 di bahagian atas itu；dua je 对应 hanya dua。",
+        "banyak gila 是熟人聊天中的夸张表达，表示非常多；saya ingat 在这里表示我原以为。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Soalan dua ni kena jawab semua ke? Banyak gila.",
+          "ms_standard": "Adakah kita perlu menjawab semua bahagian soalan kedua ini? Soalan ini mempunyai sangat banyak bahagian.",
+          "zh": "第二题的所有小题都得答吗？也太多了。",
+          "en": "Do we have to answer every part of question two? There's so much!"
+        },
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Baca arahan kat atas tu dulu. Kena pilih dua je.",
+          "ms_standard": "Baca arahan di bahagian atas itu terlebih dahulu. Kita hanya perlu memilih dua bahagian.",
+          "zh": "先看上面的说明。只需要选两小题。",
+          "en": "Read the instructions at the top first. You only have to choose two parts."
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Oh, dua je rupanya. Nasib baik awak cakap, saya ingat kena buat semua.",
+          "ms_standard": "Oh, rupa-rupanya hanya dua bahagian. Mujurlah awak memberitahu saya; saya menyangka bahawa kita perlu menjawab semuanya.",
+          "zh": "哦，原来只要两小题。还好你告诉我，我以为全都要做。",
+          "en": "Oh, so it's just two. Good thing you told me. I thought we had to do them all."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "arahan 可显出发话者的权限；平级合作时可用请对方帮忙的表达，避免随意强调这是命令。",
+    "usage_etiquette": "读不懂说明可说 Boleh jelaskan arahan ini?；在多语言工作场合，以具体步骤确认理解，避免用命令口气评价对方语言能力。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语内部构词",
+    "root_origin": "arah + -an，表示指导、指令；现有资料没有给出 arah 的更早借入来源或原始语重建，origin 仅标示马来语构词的语言家族。",
+    "historical_story": "arah 表示方向，加上 -an 后，arahan 可以表示引导别人行动的指示，也可以表示统筹和监督。想象导演给演员指明走位，便能同时记住 arahan 的指令义与执导义；这是语义联想，不是对起源场景的断言。如今它既出现在电影署名中，也出现在学校说明和公共通告中，现有材料未确定这些用法的出现先后。",
+    "cognitive_memory_aid": "arah 是方向，arahan 是给行动定方向的指示；pengarah 是负责指方向的导演或主管。"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "headword": {
+    "word": "penutup",
+    "syllables": "pe.nu.tup",
+    "ipa": "[pəˈnu.tup]",
+    "jawi": "ڤنوتوڤ",
+    "frequency_rank": 2764,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penutup",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + tutup → penutup",
+    "pattern_note": "peN- 接 tutup 时，词首 t 脱落，前缀取 pen- 形式。实际构词词基是 tutup；root_word 和 root_jawi 字段依要求保留数据包原值。",
+    "word_family": [
+      {
+        "word": "tutup",
+        "affix": "∅",
+        "gloss": "关上；盖上"
+      },
+      {
+        "word": "menutup",
+        "affix": "meN-",
+        "gloss": "关闭；盖住"
+      },
+      {
+        "word": "tertutup",
+        "affix": "ter-",
+        "gloss": "关闭着的；封闭的"
+      },
+      {
+        "word": "penutupan",
+        "affix": "peN-...-an",
+        "gloss": "关闭；结束的过程"
+      }
+    ],
+    "root_jawi": "ڤنوتوڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "盖子；用于盖住容器开口或遮住某物的器具。",
+      "en_definition": "A lid, cap, or cover used to close an opening or cover something.",
+      "ms_definition": "Alat yang digunakan untuk menutup sesuatu; penudung.",
+      "nuances": "此处选取具体器具义。具体译法随物品而变：瓶子的 penutup 通常译为“瓶盖”，容器的 penutup 通常译为“盖子”。它指物件，menutup 则表示盖上或关闭的动作。",
+      "collocations": [
+        {
+          "ms": "penutup botol",
+          "zh": "瓶盖",
+          "en": "bottle cap"
+        },
+        {
+          "ms": "penutup bekas",
+          "zh": "容器盖",
+          "en": "container lid"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 食品包装检查报告",
+      "ms": "Pemeriksaan mendapati bahawa penutup beberapa bekas makanan tidak dipasang dengan betul.",
+      "zh": "检查发现，几个食品容器的盖子没有装好。",
+      "en": "The inspection found that the lids on several food containers had not been fitted properly."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 室友寻找厨房用品",
+      "ms_spoken": "Penutup bekas ni kat mana? Aku nak simpan lauk.",
+      "ms_standard": "Di manakah penutup bekas ini? Saya hendak menyimpan lauk.",
+      "zh": "这个盒子的盖子在哪儿？我想把菜收起来。",
+      "en": "Where’s the lid for this container? I want to put the food away.",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略形式。",
+        "kat mana 相当于标准语的 di mana。",
+        "nak 是 hendak 的口语缩略形式。",
+        "dah 是 sudah 的口语缩略形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Penutup bekas ni kat mana? Aku nak simpan lauk.",
+          "ms_standard": "Di manakah penutup bekas ini? Saya hendak menyimpan lauk.",
+          "zh": "这个盒子的盖子在哪儿？我想把菜收起来。",
+          "en": "Where’s the lid for this container? I want to put the food away."
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Kat rak sebelah sinki. Aku dah basuh tadi.",
+          "ms_standard": "Penutup itu ada di rak di sebelah sinki. Saya sudah membasuhnya tadi.",
+          "zh": "在水槽旁边的架子上，我刚才洗过了。",
+          "en": "It’s on the rack next to the sink. I washed it earlier."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "家庭成员或熟悉的室友之间可直接询问盖子在哪里；对不熟悉的人请求协助时，可加 boleh tolong（能否帮忙）使语气更客气。",
+    "usage_etiquette": "后接容器名称可明确所指，例如 penutup botol 或 penutup bekas。请求别人递盖子时可说 Boleh tolong ambilkan penutup itu?"
+  },
+  "etymology": {
+    "historical_story": "penutup 是马来语以 tutup（关闭、盖上）为词基，加上 peN- 构成的名词；构词时词首 t 被鼻音替代，形成 penutup。这个构词把“盖上”的动作转为“用来盖住东西的器具”，因此能用于瓶盖、容器盖等不同物件。",
+    "cognitive_memory_aid": "想象给盒子盖盖子的动作：menutup 是“盖上”，手里的 penutup 是“盖子”；把动作和工具配成一幅图。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "家庭成员或熟悉的室友之间可直接询问盖子在哪里；对不熟悉的人请求协助时，可加 boleh tolong（能否帮忙）使语气更客气。",
+    "usage_etiquette": "后接容器名称可明确所指，例如 penutup botol 或 penutup bekas。请求别人递盖子时可说 Boleh tolong ambilkan penutup itu?"
+  }
+}

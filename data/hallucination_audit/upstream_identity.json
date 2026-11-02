@@ -1,0 +1,89 @@
+{
+  "dbp_bytes": {
+    "url": "https://huggingface.co/datasets/malaysia-ai/DBP/resolve/3a4d87670803d0f69e51e97b5c43f8347b70dd88/malay-words-v2.json",
+    "bytes": 2467611,
+    "sha256": "6ba3e497f411c0b5186eb0d4f0de7578edd0ce0299b6c08c03448ef52cb6a6a6"
+  },
+  "entries_tree": {
+    "url": "https://huggingface.co/api/datasets/miserableface/kaikki-melayu-entries/tree/c8a4ca496502e76c5de947fdf8eb18e2966844c3",
+    "tree": [
+      {
+        "type": "file",
+        "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+        "size": 2504,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "5b1e4de47b9e92f270305be34df4e5dfa65a0454",
+        "size": 2072,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "c15f26c731455d9afe8dda51308309191d4e2df0",
+        "size": 3814061,
+        "lfs": {
+          "oid": "dcca5ea9ecd8d84e983ffa10457c7da2e8a1e9f7f21c9193f2dfd69c20b15974",
+          "size": 3814061,
+          "pointerSize": 132
+        },
+        "xetHash": "9cd2545bc25d4311c1effb86de15a6a7f01669f2a1b3d0d109e316f86c3743a1",
+        "path": "entries-id.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "0d39e189fef7b5d7a67d21fbf0036a9891ab1884",
+        "size": 1448922,
+        "lfs": {
+          "oid": "91689e67e60c55792b4dc41f64bad4405451c57aae1a51110c0c98de55f02a8d",
+          "size": 1448922,
+          "pointerSize": 132
+        },
+        "xetHash": "955cfbabcd20c5c08cc055dc63b37d4a8c7f6365ab194cfd364f7497795db575",
+        "path": "entries-ms.parquet"
+      }
+    ]
+  },
+  "wordnet_tree": {
+    "url": "https://huggingface.co/api/datasets/miserableface/melayu-wordnet/tree/060b8b1b04493fc0191b62c3d2e95b8d1aaf7c49",
+    "tree": [
+      {
+        "type": "file",
+        "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+        "size": 2504,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "3ae95c932299ba1e5a061f61ded062d08a306c5b",
+        "size": 1204,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "2966202d7aa2708370c9dd09b1ae137c3bc79143",
+        "size": 1436583,
+        "lfs": {
+          "oid": "5390c7f9379e0760444a7dc961623abc6f8512d7c6c69636c972a950d2078829",
+          "size": 1436583,
+          "pointerSize": 132
+        },
+        "xetHash": "9722d6eb1289bdcac6243d8d65ad744a44febe9809c713c9042e400876768a87",
+        "path": "wordnet-id.parquet"
+      },
+      {
+        "type": "file",
+        "oid": "5d7f1e032decc181d31863ff6a6b8e32d05537cc",
+        "size": 1066523,
+        "lfs": {
+          "oid": "9d91ea829c802678350e4e533dbadc23a5a3e152841c4a6cdfa326206ea6d0c2",
+          "size": 1066523,
+          "pointerSize": 132
+        },
+        "xetHash": "411f359d7b66f72d8fffbd4219fe24dfd04b91058d635bf21e097e97143d6331",
+        "path": "wordnet-ms.parquet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "headword": {
+    "word": "biarkan",
+    "syllables": null,
+    "ipa": "/bi.ar.kan/",
+    "jawi": null,
+    "frequency_rank": 255,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: بيار (biar)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "biar",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "biar + -kan → biarkan",
+    "pattern_note": "biar 加后缀 -kan，保留 r。biarkan 常见于祈使句，完整主动形式为 membiarkan，被动形式为 dibiarkan；不是把 -kan 解释成礼貌助词。资料包未提供本词官方音节与 Jawi，均保留 null；IPA 为按常见标准读法整理的宽式转写，并非 DBP 原标。 核心词根（Kata Dasar）「biar」官方爪夷文为「بيار」，派生附加 -kan。",
+    "word_family": [
+      {
+        "word": "biar",
+        "affix": "∅",
+        "gloss": "让；任由；以便"
+      },
+      {
+        "word": "membiarkan",
+        "affix": "meN-…-kan",
+        "gloss": "允许；置之不理"
+      },
+      {
+        "word": "dibiarkan",
+        "affix": "di-…-kan",
+        "gloss": "被任由；被放任"
+      },
+      {
+        "word": "terbiar",
+        "affix": "ter-",
+        "gloss": "被遗弃；无人照料"
+      },
+      {
+        "word": "biarkanlah",
+        "affix": "-kan + -lah",
+        "gloss": "就让……吧"
+      }
+    ],
+    "root_jawi": "بيار"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "让；允许；不阻止某人做某事或某种情况持续。",
+      "ms_definition": "merelakan, mengizinkan, tidak melarang",
+      "nuances": "释义据 DBP Kamus Dewan 第四版 biar 条下 membiarkan 的第 2 义，适用于其祈使形式 biarkan。后接人和动作，如 Biarkan dia berehat；叙述‘他让我休息’通常用 Dia membiarkan saya berehat。",
+      "collocations": [
+        {
+          "ms": "biarkan saya cuba",
+          "zh": "让我试试",
+          "en": "let me try"
+        },
+        {
+          "ms": "biarkan dia berehat",
+          "zh": "让他／她休息",
+          "en": "let them rest"
+        }
+      ],
+      "en_definition": "Let or allow someone to do something or a situation to continue without interference."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "别管；任其如此；置之不理。",
+      "ms_definition": "mengabaikan, tidak mempedulikan",
+      "nuances": "释义据 DBP Kamus Dewan 第四版 biar 条下 membiarkan 的第 1 义。Biarkan sahaja 可表示‘别理它了’，带放手或不再介入的意味；涉及应履行的责任时，则可能表示放任、忽视。jangan biarkan 是‘别任由……’，不是‘不要允许任何事’。",
+      "collocations": [
+        {
+          "ms": "biarkan sahaja",
+          "zh": "就别管了；任其如此",
+          "en": "just leave it alone"
+        },
+        {
+          "ms": "jangan biarkan masalah berlarutan",
+          "zh": "别任由问题继续拖延",
+          "en": "don't let the problem drag on"
+        }
+      ],
+      "en_definition": "Leave alone or unattended; take no action about something."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 设施维护提醒",
+      "ms": "Jangan biarkan kerosakan kecil berlarutan sehingga menjejaskan keselamatan pengguna.",
+      "zh": "切勿任由小故障持续恶化，以致危及使用者安全。",
+      "en": "Do not allow minor faults to persist until they compromise users' safety."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 姐弟商量是否叫刚下班的父亲起来吃饭",
+      "ms_spoken": "Kak, ayah tidur lagi. Nak kejut dia makan tak?",
+      "ms_standard": "Kakak, ayah masih tidur. Perlukah saya mengejutkannya untuk makan?",
+      "zh": "姐，爸爸还在睡。要叫他起来吃饭吗？",
+      "spoken_features": [
+        "biarkan dia rehat 表示让他继续休息、暂不打扰，并非对他置之不理。",
+        "rehat 在这里对应 berehat；kejut 对应 mengejutkan；dulu 对应 dahulu。",
+        "balik kerja 是下班回来的常见口语说法；penat tu 带有根据眼前情况作解释的语气。",
+        "Kak 是对姐姐的常见简称；弟弟对熟悉的姐姐使用 aku，体现这个家庭较随意的说话方式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Kak, ayah tidur lagi. Nak kejut dia makan tak?",
+          "ms_standard": "Kakak, ayah masih tidur. Perlukah saya mengejutkannya untuk makan?",
+          "zh": "姐，爸爸还在睡。要叫他起来吃饭吗？",
+          "en": "Sis, Dad's still asleep. Should we wake him up to eat?"
+        },
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Biarkan dia rehat dulu lah. Dia baru balik kerja, penat tu.",
+          "ms_standard": "Biarkan ayah berehat dahulu. Dia baru pulang dari tempat kerja dan berasa penat.",
+          "zh": "先让他歇会儿吧。他刚下班回来，累着呢。",
+          "en": "Let him rest a bit first. He's only just got back from work. He must be tired."
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Okey, aku asingkan lauk untuk dia dulu.",
+          "ms_standard": "Baiklah, saya akan mengasingkan lauk untuk ayah terlebih dahulu.",
+          "zh": "好，那我先给他留一份菜。",
+          "en": "Okay, I'll set aside some food for him."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "biarin",
+      "full_form": "biarkan",
+      "note": "资料包中的形式属于印尼口语／受印尼语影响的写法，可能在跨境聊天或影视评论中出现；不是马来西亚标准拼写，也不作为大马日常聊天的默认替代，宜用 biarkan 或依语境用 biar。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Biarkan saya… 可以请求对方让自己做某事，但语气强时也像要求对方别干涉。较客气可说 Boleh saya cuba dahulu?；面对长辈或客户，配合称谓和柔和语调。",
+    "usage_etiquette": "朋友烦恼时直接说 Biarkan sahaja 可能被听成敷衍，宜先确认对方是想求助还是想有人倾听。让孩子休息与放任孩子处于危险中都能用这个动词，具体态度必须由对象和语境判断；不要把所有 biarkan 都译成带贬义的‘纵容’。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语；词根 biar 属南岛语继承词",
+    "root_origin": "现代构词为 biar + -kan；本地 Kaikki 词根记录将 biar 追溯至原始马来—波利尼西亚语 *bihaʀ，不据此编造本派生词的首见年代。",
+    "historical_story": "biarkan 以马来语词根 biar 加 -kan 构成，把‘让、任由’落实到一个人或一件事上。用南洋家庭的日常作记忆画面：有人忙着收拾，另一个人说‘先让他休息’，这一画面说明用法，并不是本词产生年代的史料。到了现代交流中，它既能给人空间，也能在 biarkan sahaja 中表达不再理会，是否体贴取决于语境。",
+    "cognitive_memory_aid": "想象松开拦住别人的手：biarkan dia 是‘让他去做’，biarkan sahaja 是‘放手，别管了’。"
+  }
+}

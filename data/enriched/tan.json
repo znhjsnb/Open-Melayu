@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "tan",
+    "syllables": "tan",
+    "ipa": "/tan/",
+    "jawi": "تن",
+    "frequency_rank": 2096,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tan → tan",
+    "pattern_note": "单音节单位名，整体记忆，无词缀变化；数词之后仍用 tan，不加英语复数词尾。",
+    "word_family": [
+      {
+        "word": "tan metrik",
+        "affix": "none",
+        "gloss": "公吨，等于1000千克；此项为复合单位名"
+      },
+      {
+        "word": "tan panjang",
+        "affix": "none",
+        "gloss": "长吨，等于2240磅；此项为复合单位名"
+      }
+    ],
+    "root_jawi": "تن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "吨；大宗物品的质量单位，具体数值须按公吨、英制长吨或美制短吨区分。",
+      "en_definition": "A unit of mass: a metric tonne, a British long ton, or a US short ton, depending on the system specified.",
+      "ms_definition": "Ukuran berat yang bersamaan dengan 2240 lb (1016.05 kg) di Britain dan 2000 lb (907.19 kg) di Amerika Syarikat.",
+      "nuances": "所给《Kamus Dewan》释义列出英制长吨和美制短吨；公吨另称 tan metrik，1 tan metrik = 1000 kg。数值换算、报价或运输文件应明确单位体系；以下例句均明确采用公吨。[DBP 公吨释义](https://prpm.dbp.gov.my/Cari1?d=313048&keyword=tan+metrik)",
+      "collocations": [
+        {
+          "ms": "satu tan metrik beras",
+          "zh": "一公吨大米",
+          "en": "one metric tonne of rice"
+        },
+        {
+          "ms": "muatan lima tan metrik",
+          "zh": "五公吨的载荷",
+          "en": "a load of five metric tonnes"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "物流报告 / 货物交付",
+      "ms": "Syarikat itu telah menghantar sebanyak dua puluh tan metrik beras ke pusat pengedaran.",
+      "zh": "该公司已向配送中心运送二十公吨大米。",
+      "en": "The company has delivered twenty metric tonnes of rice to the distribution centre."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认运输安排",
+      "ms_spoken": "Pasir ni beratnya dua tan metrik je.",
+      "ms_standard": "Pasir ini beratnya hanya dua tan metrik.",
+      "zh": "这些沙子就重两公吨。",
+      "en": "This sand only weighs two metric tonnes.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式",
+        "je 对应 sahaja，此处用来表示数量不大",
+        "口语中单位名 tan 保持完整，不需要另造缩写"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Pasir ni beratnya dua tan metrik je. Nak guna lori yang mana?",
+          "ms_standard": "Pasir ini beratnya hanya dua tan metrik. Lori yang manakah hendak digunakan?",
+          "zh": "这些沙子就重两公吨，要用哪辆罗里？",
+          "en": "This sand only weighs two metric tonnes. Which lorry should we use?"
+        },
+        {
+          "speaker": "Kumar (同事)",
+          "ms_spoken": "Guna lori kat gudang tu. Muatan maksimumnya tiga tan metrik.",
+          "ms_standard": "Gunakan lori yang berada di gudang itu. Muatan maksimumnya ialah tiga tan metrik.",
+          "zh": "用仓库那辆吧，它的最大载重是三公吨。",
+          "en": "Use the lorry at the warehouse. Its maximum load is three metric tonnes."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "属于中性的计量词。与客户或同事确认货量时，直接说明数值和单位即可。",
+    "usage_etiquette": "正式文件可写 dua tan metrik 或 2 t；t 是公吨的单位符号，并非短信缩写。此处的 tan 与尊称 Tan Sri、数学中的 tan 分属不同用法。"
+  },
+  "etymology": {
+    "historical_story": "tan 是马来语中对应英语 ton 的计量词，传统词典保留了英国和美国两种吨制的说明。公制用法则以 tan metrik 明确表示1000千克，学习时可把它想成同一单位名称下需要核对的不同标尺。[DBP 吨制释义与英语对应](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tan)",
+    "cognitive_memory_aid": "想象一张写着 tan metrik 的货物标签，下面堆着1000个一千克的米袋：一公吨就是1000千克；若标签改成长吨或短吨，就要换算。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "属于中性的计量词。与客户或同事确认货量时，直接说明数值和单位即可。",
+    "usage_etiquette": "正式文件可写 dua tan metrik 或 2 t；t 是公吨的单位符号，并非短信缩写。此处的 tan 与尊称 Tan Sri、数学中的 tan 分属不同用法。"
+  }
+}

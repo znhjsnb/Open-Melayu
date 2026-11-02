@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "berundur",
+    "syllables": "be.run.dur",
+    "ipa": "/bərundur/",
+    "jawi": "براوندور",
+    "frequency_rank": 818,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "undur",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + undur → berundur",
+    "pattern_note": "词首元音 u 保留，ber- 的 r 也保留；音节边界不等于词素边界。headword 沿用 PRPM syllables 字段 be.run.dur，原释义还列 ber.un.dur；Jawi 从本地同批 UTF-8 原件恢复。IPA 为按构词与标准拼读推导的宽式，非 DBP 官方审音。",
+    "word_family": [
+      {
+        "word": "undur",
+        "affix": "无",
+        "gloss": "退后；后退"
+      },
+      {
+        "word": "mengundur",
+        "affix": "meN-",
+        "gloss": "向后移动；退让"
+      },
+      {
+        "word": "mengundurkan",
+        "affix": "meN-…-kan",
+        "gloss": "使后退；推迟"
+      },
+      {
+        "word": "pengunduran",
+        "affix": "peN-…-an",
+        "gloss": "撤退；退出"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "退后；向后移动。",
+      "ms_definition": "berjalan ke belakang, surut ke belakang, lwn maju. (Kamus Dewan Edisi Keempat)",
+      "nuances": "不及物，后面可接距离或方向；让车向后移动可说 mengundurkan kereta。与向前 maju 相对。",
+      "collocations": [
+        {
+          "ms": "berundur selangkah",
+          "zh": "退后一步",
+          "en": "take a step back"
+        },
+        {
+          "ms": "berundur perlahan-lahan",
+          "zh": "缓缓后退",
+          "en": "move backwards slowly"
+        }
+      ],
+      "en_definition": "To move backwards or step back."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "离开；退开；退出某个场合或职位。",
+      "ms_definition": "pergi menjauhkan diri (dr), menghindar (dr), pergi (dr). (Kamus Dewan Edisi Keempat)",
+      "nuances": "berundur dahulu 可委婉表示先告辞；berundur daripada jawatan 指卸任或辞职，不是身体倒着走。此类离开、退出用法不一定意味着失败。",
+      "collocations": [
+        {
+          "ms": "berundur diri",
+          "zh": "告辞；退出",
+          "en": "take one's leave; withdraw"
+        },
+        {
+          "ms": "berundur daripada jawatan",
+          "zh": "辞去职位；卸任",
+          "en": "step down from a position"
+        }
+      ],
+      "en_definition": "To leave or withdraw from a situation, or step down from a position."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "撤退；在战斗中后撤。",
+      "ms_definition": "surut (kerana tidak dapat melawan lagi dlm peperangan), mundur. (Kamus Dewan Edisi Keempat)",
+      "nuances": "原词典此义突出难以继续抵抗而退却；实际报道也会说明战略后撤。不能仅凭这个动词推断已经投降。",
+      "collocations": [
+        {
+          "ms": "terpaksa berundur",
+          "zh": "被迫撤退",
+          "en": "be forced to retreat"
+        },
+        {
+          "ms": "berundur dari medan perang",
+          "zh": "从战场撤离",
+          "en": "retreat from the battlefield"
+        }
+      ],
+      "en_definition": "To retreat in battle when unable to continue resisting the enemy."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "现场报道 / 人群安全管理",
+      "ms": "Polis meminta orang ramai berundur beberapa langkah bagi memberi laluan kepada pasukan penyelamat.",
+      "zh": "警方要求民众后退几步，为救援队让路。",
+      "en": "Police asked the crowd to take a few steps back to make way for the rescue team."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友群提醒在瀑布旁拍照的同伴",
+      "ms_spoken": "Aku dah sampai kat air terjun. Nak ambil gambar atas batu besar ni.",
+      "ms_standard": "Saya sudah tiba di air terjun. Saya mahu mengambil gambar di atas batu besar ini.",
+      "zh": "我已经到瀑布了。想在这块大石头上拍照。",
+      "spoken_features": [
+        "berundur 在这里表示身体向后移动；sampai ke hujung batu 指退到石头边缘。",
+        "dah、kat、ni、tu、je 分别对应 sudah、di、ini、itu、sahaja。",
+        "belakang tu 依靠聊天中已知的石头定位，标准改写补明为 bahagian belakang batu itu。",
+        "je lah 表示接受提醒后作出的随意决定，标准改写通过 sahaja 和完整陈述表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (同行朋友)",
+          "ms_spoken": "Aku dah sampai kat air terjun. Nak ambil gambar atas batu besar ni.",
+          "ms_standard": "Saya sudah tiba di air terjun. Saya mahu mengambil gambar di atas batu besar ini.",
+          "zh": "我已经到瀑布了。想在这块大石头上拍照。",
+          "en": "I'm at the waterfall now. Going to take some photos on this big rock."
+        },
+        {
+          "speaker": "Farhan (同行朋友)",
+          "ms_spoken": "Jangan berundur sampai ke hujung batu tu. Belakang tu licin, aku hampir tergelincir tadi.",
+          "ms_standard": "Jangan berundur hingga ke hujung batu itu. Bahagian belakang batu itu licin dan saya hampir tergelincir di situ tadi.",
+          "zh": "别往后退到石头边缘。后面很滑，我刚才差点在那儿滑倒。",
+          "en": "Don't back up all the way to the edge of that rock. It's slippery back there. I nearly slipped there earlier."
+        },
+        {
+          "speaker": "Haziq (同行朋友)",
+          "ms_spoken": "Oh, okay. Aku ambil gambar kat bawah je lah.",
+          "ms_standard": "Baiklah. Saya akan mengambil gambar di kawasan bawah sahaja.",
+          "zh": "哦，好。那我就在下面拍吧。",
+          "en": "Oh, okay. I'll just take photos down below, then."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "请人后退时加 Sila berundur sedikit 更礼貌；告辞可说 Saya mohon berundur dahulu。",
+    "usage_etiquette": "谈辞职用 berundur daripada jawatan，谈离开地点用 berundur dari sesuatu tempat。对正在退让或退出的人，不宜未经了解便用 pengecut 等词评判其动机。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；比较材料指向 Malayo-Polynesian",
+    "root_origin": "ber- + undur。本地 Kaikki 的 undur 条目提出祖语重建 *unduD、*undur，义为退后；这是比较语言学重建线索，星号表示非直接见于文献的形式，本批未独立核实其重建细节。",
+    "historical_story": "词根 undur 的核心画面是身体往后退，ber- 把这个动作组成 berundur；本地比较材料把词根联系到更早的南岛语词形。PRPM 收录的旧式战事例句与现代告辞、卸任表达，让同一个退离画面跨越战场和日常交往。它不一定表示怯懦，也可以是留出通道或结束某项职责；这里不据词典例句推断本词的最早年代。",
+    "cognitive_memory_aid": "把 ber- + undur 看成向后的一步：身体退后、部队后撤、从职位退出，都从退离这个画面展开。"
+  }
+}

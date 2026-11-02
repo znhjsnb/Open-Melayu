@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "sembilan",
+    "syllables": "sem.bi.lan",
+    "ipa": "/səmˈbilan/",
+    "jawi": "سمبيلن",
+    "frequency_rank": 1772,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sembilan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sembilan → sembilan",
+    "pattern_note": "现代马来语中作为完整数词记忆，不按生产性词缀拆成 se- 加词干；首音节 e 读 /ə/。",
+    "word_family": [
+      {
+        "word": "kesembilan",
+        "affix": "ke-",
+        "gloss": "第九"
+      },
+      {
+        "word": "bersembilan",
+        "affix": "ber-",
+        "gloss": "九人一起；共九个"
+      }
+    ],
+    "root_jawi": "سمبيلن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "九；表示比八多一、比十少一的数量，写作 9。",
+      "en_definition": "Nine; the number equal to ten minus one.",
+      "ms_definition": "Bilangan sepuluh kurang satu (9).",
+      "nuances": "实际词类是 kata bilangan tentu，即确定数词；此处因字段未提供 numeral，归入 noun。用于计数时通常置于名词或量词之前，如 sembilan orang；pukul sembilan 表示九点，需按语境说明上午或晚上。",
+      "collocations": [
+        {
+          "ms": "sembilan orang peserta",
+          "zh": "九名参与者",
+          "en": "nine participants"
+        },
+        {
+          "ms": "pukul sembilan pagi",
+          "zh": "上午九点",
+          "en": "nine o'clock in the morning"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 会议通知",
+      "ms": "Mesyuarat itu akan bermula pada pukul sembilan pagi dan dihadiri oleh sembilan orang wakil jabatan.",
+      "zh": "会议将于上午九点开始，由九名部门代表出席。",
+      "en": "The meeting will begin at nine in the morning and will be attended by nine departmental representatives."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约见面",
+      "ms_spoken": "Kita jumpa kat kafe pukul sembilan pagi esok, ya?",
+      "ms_standard": "Kita berjumpa di kafe pada pukul sembilan pagi esok, ya?",
+      "zh": "我们明天早上九点在咖啡馆见，好吗？",
+      "en": "Let's meet at the café at nine tomorrow morning, okay?",
+      "spoken_features": [
+        "kat 对应标准语的 di。",
+        "口语常省略时间前的 pada。",
+        "句末 ya 用于温和确认安排。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kita jumpa kat kafe pukul sembilan pagi esok, ya?",
+          "ms_standard": "Kita berjumpa di kafe pada pukul sembilan pagi esok, ya?",
+          "zh": "我们明天早上九点在咖啡馆见，好吗？",
+          "en": "Let's meet at the café at nine tomorrow morning, okay?"
+        },
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Boleh, aku dah simpan lokasi kafe tu.",
+          "ms_standard": "Boleh, saya sudah menyimpan lokasi kafe itu.",
+          "zh": "行，我已经把那家咖啡馆的位置存好了。",
+          "en": "Sure, I've already saved the café's location."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "数词本身没有特殊礼貌限制；约时间时可用 ya 或 boleh? 征求对方确认。",
+    "usage_etiquette": "安排活动时写明 pagi 或 malam，避免把九点理解成不同时间。sembilan 表示九，kesembilan 表示第九；两者不能随意替换。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "原始马来语支语言",
+    "root_origin": "通常重建为 *əsa(ʔ) ambil-an，与“从十中取走一个”的减法计数概念有关",
+    "cognitive_memory_aid": "伸出十根手指，再收起一根：十减一就是 sembilan；这是历史概念的记忆提示，不是现代构词拆分。",
+    "historical_story": "sembilan 的历史词形通常被解释为与“从十中取走一个”有关，呈现出用减法表达九的计数思路。早期相关形式逐渐凝固为今天的完整数词，现代使用者无需把它拆开理解；这一历史解释见 [Graham Thurgood 的马来语与占语比较研究](https://www.sabrizain.org/malaya/library/champamalay.pdf)。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "数词本身没有特殊礼貌限制；约时间时可用 ya 或 boleh? 征求对方确认。",
+    "usage_etiquette": "安排活动时写明 pagi 或 malam，避免把九点理解成不同时间。sembilan 表示九，kesembilan 表示第九；两者不能随意替换。"
+  }
+}

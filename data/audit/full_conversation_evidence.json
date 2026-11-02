@@ -1,0 +1,1149 @@
+{
+  "observed_at_utc": "2026-11-01T11:28:11.424547+00:00",
+  "input_sha256": {
+    "docs/FULL_CONVERSATION_FOR_AUDIT.md": "9b074f9f810f1038fdff0d178b731370759c1165ede2545542c5f87b74ba7701",
+    "src/prpm_continuous_crawler.py": "81efba1e3633af5ce4b12314ecf7c3b6ac27a03e5981fe4ec271cde6b9d46a1c",
+    "src/prpm_client.py": "a45424d1534e02572248e8652be306ce9fee0e680a4bc1b7d21f1729cfb6bce6",
+    "src/batch_synthesizer.py": "1930dd764058d05e0810876b3d56d61a51841d85961d1de6e4655dc3030a5e21",
+    "src/status_dashboard.py": "639c252008783fbfb23eda3f87eda6d3290b54c7a6c9e929f239950c46b1d51f",
+    "src/build_candidate_pool.py": "3e3ef4657744fd504cadf048205b7d80a52d32f9a807defc4503f51a361b98b4",
+    "docs/PLAN_DISTRIBUTED_CRAWLER_AND_CODEX.md": "1f8e7f6c1e3aab0a843fc7e0174528d1621e3c742099030a7704e389abea0b9c",
+    "raw/dbp_malay_words_v2.json": "6ba3e497f411c0b5186eb0d4f0de7578edd0ce0299b6c08c03448ef52cb6a6a6",
+    "raw/kaikki_malay.jsonl": "d4b211c01a2206ae4136a6b35ca0cd1412e053cf95bcb639837a4f4559d3c592",
+    "raw/opensubtitles_frequency_ms_full.txt": "35e1840ab6d69bc7e1674261cf4250d6e30bed720b77a4fe9b957b4fa27554d0",
+    "data/candidate_pool_15k.json": "4184167a2ace0d5c02853a29ec9237ce716000a59397043e4492fb3f8c7d5541",
+    "data/crawler_progress.json": "c1186fef99113c18a92e746dec198f77b60d1afba9942ad20ffb9a5dc7e20cb0"
+  },
+  "transcript_export": {
+    "declared_steps": 988,
+    "heading_count": 488,
+    "unique_step_ids": 487,
+    "min": 0,
+    "max": 985,
+    "duplicate_step_ids": {
+      "816": 2
+    },
+    "explicit_truncation_markers": [
+      "<truncated 1295 bytes>",
+      "<truncated 1044 bytes>",
+      "<truncated 169 bytes>",
+      "<truncated 675 bytes>"
+    ],
+    "tool_placeholder_count": 443,
+    "narrative_index": [
+      {
+        "step": 0,
+        "role": "USER",
+        "time": "2026-11-01T07:26:14Z",
+        "line": 5
+      },
+      {
+        "step": 10,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T07:26:38Z",
+        "line": 50
+      },
+      {
+        "step": 11,
+        "role": "USER",
+        "time": "2026-11-01T07:28:28Z",
+        "line": 86
+      },
+      {
+        "step": 159,
+        "role": "USER",
+        "time": "2026-11-01T08:01:45Z",
+        "line": 669
+      },
+      {
+        "step": 183,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T08:03:21Z",
+        "line": 760
+      },
+      {
+        "step": 184,
+        "role": "USER",
+        "time": "2026-11-01T08:05:11Z",
+        "line": 798
+      },
+      {
+        "step": 226,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T08:07:11Z",
+        "line": 969
+      },
+      {
+        "step": 227,
+        "role": "USER",
+        "time": "2026-11-01T08:09:14Z",
+        "line": 1004
+      },
+      {
+        "step": 236,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T08:09:40Z",
+        "line": 1047
+      },
+      {
+        "step": 280,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T08:22:33Z",
+        "line": 1226
+      },
+      {
+        "step": 286,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T08:25:34Z",
+        "line": 1296
+      },
+      {
+        "step": 287,
+        "role": "USER",
+        "time": "2026-11-01T08:41:59Z",
+        "line": 1351
+      },
+      {
+        "step": 288,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T08:41:59Z",
+        "line": 1362
+      },
+      {
+        "step": 289,
+        "role": "USER",
+        "time": "2026-11-01T09:07:49Z",
+        "line": 1421
+      },
+      {
+        "step": 290,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T09:07:49Z",
+        "line": 1432
+      },
+      {
+        "step": 291,
+        "role": "USER",
+        "time": "2026-11-01T09:25:24Z",
+        "line": 1485
+      },
+      {
+        "step": 347,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T09:28:45Z",
+        "line": 1704
+      },
+      {
+        "step": 348,
+        "role": "USER",
+        "time": "2026-11-01T09:41:26Z",
+        "line": 1739
+      },
+      {
+        "step": 365,
+        "role": "USER",
+        "time": "2026-11-01T09:42:16Z",
+        "line": 1806
+      },
+      {
+        "step": 393,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T09:43:51Z",
+        "line": 1921
+      },
+      {
+        "step": 413,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T09:53:30Z",
+        "line": 2028
+      },
+      {
+        "step": 414,
+        "role": "USER",
+        "time": "2026-11-01T10:06:41Z",
+        "line": 2068
+      },
+      {
+        "step": 422,
+        "role": "USER",
+        "time": "2026-11-01T10:07:11Z",
+        "line": 2103
+      },
+      {
+        "step": 704,
+        "role": "USER",
+        "time": "2026-11-01T10:20:26Z",
+        "line": 3170
+      },
+      {
+        "step": 719,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T10:21:14Z",
+        "line": 3237
+      },
+      {
+        "step": 720,
+        "role": "USER",
+        "time": "2026-11-01T10:22:04Z",
+        "line": 3276
+      },
+      {
+        "step": 733,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T10:22:40Z",
+        "line": 3335
+      },
+      {
+        "step": 734,
+        "role": "USER",
+        "time": "2026-11-01T10:31:24Z",
+        "line": 3389
+      },
+      {
+        "step": 750,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T10:32:00Z",
+        "line": 3456
+      },
+      {
+        "step": 751,
+        "role": "USER",
+        "time": "2026-11-01T10:32:04Z",
+        "line": 3539
+      },
+      {
+        "step": 760,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T10:32:52Z",
+        "line": 3582
+      },
+      {
+        "step": 761,
+        "role": "USER",
+        "time": "2026-11-01T10:34:04Z",
+        "line": 3626
+      },
+      {
+        "step": 772,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T10:34:37Z",
+        "line": 3677
+      },
+      {
+        "step": 773,
+        "role": "USER",
+        "time": "2026-11-01T10:45:13Z",
+        "line": 3726
+      },
+      {
+        "step": 798,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T10:46:25Z",
+        "line": 3833
+      },
+      {
+        "step": 806,
+        "role": "USER",
+        "time": "2026-11-01T10:47:27Z",
+        "line": 3924
+      },
+      {
+        "step": 813,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T10:48:06Z",
+        "line": 3959
+      },
+      {
+        "step": 814,
+        "role": "USER",
+        "time": "2026-11-01T10:49:03Z",
+        "line": 4016
+      },
+      {
+        "step": 816,
+        "role": "USER",
+        "time": "2026-11-01T10:51:06Z",
+        "line": 4027
+      },
+      {
+        "step": 816,
+        "role": "USER",
+        "time": "2026-11-01T10:54:27Z",
+        "line": 4050
+      },
+      {
+        "step": 946,
+        "role": "USER",
+        "time": "2026-11-01T11:15:39Z",
+        "line": 4557
+      },
+      {
+        "step": 967,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T11:17:42Z",
+        "line": 4640
+      },
+      {
+        "step": 968,
+        "role": "USER",
+        "time": "2026-11-01T11:20:08Z",
+        "line": 4672
+      },
+      {
+        "step": 975,
+        "role": "ANTIGRAVITY RESPONSE",
+        "time": "2026-11-01T11:20:22Z",
+        "line": 4707
+      },
+      {
+        "step": 976,
+        "role": "USER",
+        "time": "2026-11-01T11:21:55Z",
+        "line": 4741
+      }
+    ]
+  },
+  "sources": {
+    "dbp_raw_strings": 187385,
+    "dbp_normalized": 187384,
+    "kaikki_records": 17812,
+    "kaikki_normalized": 15515,
+    "kaikki_senses": 22460,
+    "frequency_rows": 106821,
+    "intersection": 7167,
+    "dbp_only": 180217,
+    "kaikki_only": 8348,
+    "union": 195732,
+    "coverage": {
+      "1000": {
+        "dbp": {
+          "n": 871,
+          "d": 1000,
+          "pct": 87.1
+        },
+        "kaikki": {
+          "n": 781,
+          "d": 1000,
+          "pct": 78.1
+        },
+        "both": {
+          "n": 702,
+          "d": 1000,
+          "pct": 70.2
+        },
+        "union": {
+          "n": 950,
+          "d": 1000,
+          "pct": 95.0
+        },
+        "neither": {
+          "n": 50,
+          "d": 1000,
+          "pct": 5.0
+        },
+        "subtitle_frequency_mass_share": {
+          "n": 8664109,
+          "d": 11054078,
+          "pct": 78.3793
+        }
+      },
+      "3000": {
+        "dbp": {
+          "n": 2462,
+          "d": 3000,
+          "pct": 82.066667
+        },
+        "kaikki": {
+          "n": 1675,
+          "d": 3000,
+          "pct": 55.833333
+        },
+        "both": {
+          "n": 1519,
+          "d": 3000,
+          "pct": 50.633333
+        },
+        "union": {
+          "n": 2618,
+          "d": 3000,
+          "pct": 87.266667
+        },
+        "neither": {
+          "n": 382,
+          "d": 3000,
+          "pct": 12.733333
+        },
+        "subtitle_frequency_mass_share": {
+          "n": 9718480,
+          "d": 11054078,
+          "pct": 87.917599
+        }
+      },
+      "5000": {
+        "dbp": {
+          "n": 3903,
+          "d": 5000,
+          "pct": 78.06
+        },
+        "kaikki": {
+          "n": 2286,
+          "d": 5000,
+          "pct": 45.72
+        },
+        "both": {
+          "n": 2068,
+          "d": 5000,
+          "pct": 41.36
+        },
+        "union": {
+          "n": 4121,
+          "d": 5000,
+          "pct": 82.42
+        },
+        "neither": {
+          "n": 879,
+          "d": 5000,
+          "pct": 17.58
+        },
+        "subtitle_frequency_mass_share": {
+          "n": 10110605,
+          "d": 11054078,
+          "pct": 91.464933
+        }
+      },
+      "15000": {
+        "dbp": {
+          "n": 9365,
+          "d": 15000,
+          "pct": 62.433333
+        },
+        "kaikki": {
+          "n": 3875,
+          "d": 15000,
+          "pct": 25.833333
+        },
+        "both": {
+          "n": 3480,
+          "d": 15000,
+          "pct": 23.2
+        },
+        "union": {
+          "n": 9760,
+          "d": 15000,
+          "pct": 65.066667
+        },
+        "neither": {
+          "n": 5240,
+          "d": 15000,
+          "pct": 34.933333
+        },
+        "subtitle_frequency_mass_share": {
+          "n": 10696784,
+          "d": 11054078,
+          "pct": 96.767763
+        }
+      }
+    }
+  },
+  "candidate_pool": {
+    "type": "list",
+    "count": 15000,
+    "unique_words": 15000,
+    "fields": {
+      "rank": 15000,
+      "word": 15000,
+      "frequency_count": 15000,
+      "in_dbp": 15000,
+      "in_kaikki": 15000,
+      "pos_kaikki": 15000,
+      "ipa": 15000,
+      "root_word": 15000,
+      "colloquial_expansion": 15000,
+      "has_tatoeba": 15000,
+      "tags": 15000
+    },
+    "ranks_contiguous_1_to_15000": true,
+    "matches_frequency_prefix": true,
+    "flags": {
+      "in_dbp": 9365,
+      "in_kaikki": 3875,
+      "has_tatoeba": 3711,
+      "ipa": 3044,
+      "root_word": 1044,
+      "colloquial_expansion": 285
+    },
+    "first_20_words": [
+      "saya",
+      "yang",
+      "aku",
+      "dia",
+      "awak",
+      "kau",
+      "ini",
+      "di",
+      "tak",
+      "dan",
+      "akan",
+      "tidak",
+      "kita",
+      "apa",
+      "kamu",
+      "itu",
+      "untuk",
+      "ada",
+      "boleh",
+      "mereka"
+    ],
+    "windows_reserved": [
+      "con"
+    ]
+  },
+  "cache": {
+    "json_files": 318,
+    "directory_entries": 318,
+    "counts": {
+      "parsed": 318,
+      "not_found_flag": 27,
+      "found_flag": 235,
+      "syllables": 194,
+      "jawi": 224,
+      "kamus_dewan": 196,
+      "raw_definitions": 235,
+      "any_dictionary_field": 233,
+      "syllables_jawi_any_dictionary": 194,
+      "error": 56,
+      "kamus_pelajar": 219
+    },
+    "examples": {
+      "not_found_flag": [
+        "ada.json",
+        "air.json",
+        "akan.json",
+        "apakah.json",
+        "atau.json",
+        "baiklah.json",
+        "biarkan.json",
+        "dan.json",
+        "dapatkan.json",
+        "di.json",
+        "dia.json",
+        "diorang.json"
+      ],
+      "found_flag": [
+        "adakah.json",
+        "ajar.json",
+        "aku.json",
+        "ambil.json",
+        "anak.json",
+        "anda.json",
+        "apa.json",
+        "apabila.json",
+        "awak.json",
+        "ayah.json",
+        "ayuh.json",
+        "bagaimana.json"
+      ],
+      "error": [
+        "adalah.json",
+        "atas.json",
+        "baru.json",
+        "beberapa.json",
+        "belum.json",
+        "bukan.json",
+        "dalam.json",
+        "dapat.json",
+        "dari.json",
+        "datang.json",
+        "diri.json",
+        "dua.json"
+      ]
+    },
+    "field_rates_over_all_json": {
+      "found_flag": {
+        "n": 235,
+        "d": 318,
+        "pct": 73.899371
+      },
+      "syllables": {
+        "n": 194,
+        "d": 318,
+        "pct": 61.006289
+      },
+      "jawi": {
+        "n": 224,
+        "d": 318,
+        "pct": 70.440252
+      },
+      "kamus_dewan": {
+        "n": 196,
+        "d": 318,
+        "pct": 61.63522
+      },
+      "kamus_pelajar": {
+        "n": 219,
+        "d": 318,
+        "pct": 68.867925
+      },
+      "any_dictionary_field": {
+        "n": 233,
+        "d": 318,
+        "pct": 73.27044
+      },
+      "syllables_jawi_any_dictionary": {
+        "n": 194,
+        "d": 318,
+        "pct": 61.006289
+      }
+    },
+    "snapshot_stable_during_read": true,
+    "file_sha256": {
+      "ada.json": "d42a0537bfbf62c5c7e5e136424559e0c2f164e4af76025ebd6f8b1c705d86ad",
+      "adakah.json": "f7156d77e44f06767407792d94d0fc6c07d6ade4c35b8342dfcf57dc94192acd",
+      "adalah.json": "6665926876895b86adaed23e1896429d12f81c537c1645ce0a23daccfec9fa0b",
+      "air.json": "5c58967c2c09091df1ebb503e96558fafbd4d687c49be9e5990a15aa201d7df4",
+      "ajar.json": "3516f0df50110c19df587af8f7a98448bf4718ac8f0452059c9381857f280f72",
+      "akan.json": "642f6270fb27aa0db2975ad49ecca919b6675a068869675592aaf38014df916d",
+      "aku.json": "acfa9184cc5776b0056c1f5aa278c6527ba70595ab861afdb13eba786b76cf45",
+      "ambil.json": "79565b3228280a0461a0d47169b30ce0a2485e16524a6188ba22b691ff981d48",
+      "anak.json": "3102d5e2c53a0b2dcb36f25122521ebbfd15a678f8e624c39497180f516f338c",
+      "anda.json": "da43857859e930355b5478fef9d69f9b37a51681d8c96b98d45e19971d96a4b9",
+      "apa.json": "90d2d23ad003332be57b6dfd4e99bb49319176e6a3f82828ccf47899bc101582",
+      "apabila.json": "72c2d4f588dc0d6bc38a4c727a2afc73a5ce6c52da5f1f25adb59b6bcd865fa1",
+      "apakah.json": "4f8a70f8377c6ea9aef9c48aee5394b9afef097d7125996af13c174bff41556c",
+      "atas.json": "86f2f5a0e488101ee2152f8e68ea01f51f6dbedefd2ab26732021ccaf1867cc6",
+      "atau.json": "e2332d89b496ec6a9ff7d990d4e933c2cf9605476c9e6a3785afb5586099e120",
+      "awak.json": "3ae65dbe0cd1c633eccddd76d8a3a866884635745d93dca023f415d59bff347c",
+      "ayah.json": "acd86b14afeed6b23ea85590c172332d3db51944dd0963c660370144a8be541d",
+      "ayuh.json": "0b1311b7fb7afa7396c39544ff1eefb7883ce0b2c2e4179047bdb7da8411f5a3",
+      "bagaimana.json": "f97821208d41cc3483c47fabc334228f85cbc50a333be837d2635a28d6f128b2",
+      "bagi.json": "9d0012f407f488aa124bb413f6f857601948c5620fc3bf7d64803c948a4862f8",
+      "bagus.json": "812134a854b95efa59c8fe70c037c8ded3b8d2bca93edc206afd280aaf1230d8",
+      "bahawa.json": "a5b708377d1f5958e481ebe6aa59632d5cc18e2ee6abf3cbaee007d227ce3dec",
+      "baik.json": "eb359e2686099632d37814a8e61e0cb8024b0840834ea4e5dda676ecd09d14d7",
+      "baiklah.json": "fff0d705be0485efd9b41c40cf865741ea6b19591145f274744ec633df100652",
+      "balik.json": "e5ef30c70d543f3a67960acd52963c6183e36ab8ba62a23e482fdda8d67b96a8",
+      "bandar.json": "96b71e79be8e0d4171c5b767e2987d1f3956542b80c3979674375384e01c6cb3",
+      "banyak.json": "7c0dfe5c913ee40bcd0ca90d2af1d17ff42f6e10331cb45dac102244fece2ce0",
+      "baru.json": "6025cf559559cf782f7c94668ea21284dcded890dacd117a482356b592164795",
+      "bawa.json": "af987a8de3f020a867fb8a2576f5d2bfa150177010ff24b13da3bb71a5994b83",
+      "bawah.json": "1faba5fc79decb4a6a1dfaec26c736848f9657dba983335c97269c606c1899f3",
+      "beberapa.json": "bb3daa7660e170991e88d1b83eb5ccc632dd7783e99464cb50539fde29fb295a",
+      "begitu.json": "290b04fb7e0d976aebd49e311259ce835ad39f38501fe0035808884087dec4e1",
+      "bekerja.json": "cf164bcda064afd34e949012a5a129b254c9f7cfb01a5866f656869788795664",
+      "belajar.json": "31a926d64b6a2f0ab7e6a1768bac0534262db39062ff95d7a80059747f1a57f3",
+      "beliau.json": "dd6f1f5fcc0c28b0af663f680d1d8da5b1f9a436a266e991e2512b15e56b63f6",
+      "belum.json": "0c158a2da07257f00b0dfc25f957b0f21f7e088785b8284798b9dd578bfb3512",
+      "benar.json": "ced46ee4ca28bf3bf3196d086b34032413f40542ee3b63b679e0ed2f1eaa6cf9",
+      "benda.json": "d9c57fa58df6d75f2e32b18e8b505b7fb225a6939720bd4f293cca69cdd061a6",
+      "berada.json": "6769b025b57cb6394d153ff5db9f9ec967ae8ae21a33ca717749151a7656ca2f",
+      "berapa.json": "42b34b371949abd7c3e7eaff85465614b46905fc8ec365f567a4a648649d2e4d",
+      "bercakap.json": "98030bf53edfdc2ef234adc08f3a66c2f1ea49e17f869126c546421f98d7b0f4",
+      "berdua.json": "e847ec1f061f920c31d3412ac3e1a0d6196d2ac933bed2af6589559886cca77e",
+      "bergerak.json": "d67997d7bb94842f8a91ed64d3b33bb53bb6f8b0ec2b183bb1915fc58575b9bb",
+      "berhenti.json": "3ad0d6d9326c8eb449e78e31f5eb734bc607474fd937285f3421ab8c5fa49249",
+      "beri.json": "f17457cfddd42dc08c99b017ba4f93e5f536acbb6873794c8b194de66f3e0e7c",
+      "berikan.json": "4875b80e67ca4d8c2f1384c25a388871d76ce0abc4fde50302114c0039375090",
+      "beritahu.json": "a8afa060964b748be426b3e66c322f24d201798f233a92dc45e3b7afb1435cf4",
+      "berjalan.json": "7b67e916b3f9bd8a382746dd692854ed231ccb87af72ff7fbba375e609db6e2d",
+      "berjaya.json": "71ecb97c188d7b1c1b4571b3b6e8981b95b35af137b9c52d1c84d28a540dd238",
+      "berlaku.json": "48bb49ed456cde9ed4b67438dbc3757d9b2897b6ed076c135791e1e8607d1d27",
+      "bersama.json": "2584d307953d2b9e4a4969c48ed977559fcddec87ddfff69187da76d9d04a8d1",
+      "besar.json": "194c3d02d6e3a3de3f523470983ba2eef57818596a0e775be68c9b2a0ad7af10",
+      "betul.json": "7e333d9aa7d509dd364da4f81c43e47d7c29fffc38f85657c0919c564f995251",
+      "biar.json": "27484f13d166ef9329c4ce7f8e623c37f1a5183042856c22fe850db454f86e04",
+      "biarkan.json": "659ee5f57d19e4e5143c660eafd1855c7bbfcc4edce105826a921455432d8be9",
+      "biasa.json": "2bda1d2657f07d43287828468b06e65ac293d62f0ad3220670931c8c77a5084e",
+      "bila.json": "260ac107eb7f652c8295a593ed6fa346ea4de28701bf1a55594556614c328d60",
+      "bilik.json": "13fadac8c56d4b95b4095fb80354287b248190811d7c9bfeeb668a53a6d2803b",
+      "bisa.json": "ddb0ff0ca6007a2588951130dffe317f834c42b7ba38c06e9cad2829e18fc0a7",
+      "bodoh.json": "6e86bee7ba25aa98b59472d349d034b7a4ed6655f741900dd1cecc165c12c1d4",
+      "boleh.json": "ee86f46dbb7facb629c67456b7e7daa6654f04ee3cd56752b523ab3bb61089f2",
+      "buat.json": "02b8c41f266af780b6bfde0582d22f81757d851b204462cb358795ec9ee0cd6d",
+      "budak.json": "f9a7a75a9c1a6e5bc7434b33147089f581cae27c029db7ce4e70e17dcd8730e8",
+      "bukan.json": "ca0578e1fd490f8de18ecf51364150b4306b1ddeebc5f90c2f13ba2bf3ddcb04",
+      "buku.json": "d3e3d8761f6d6156286ce3930deb3db052898509186df56485ebe4120430c737",
+      "bunuh.json": "3455e59470b51c2ceecaa1f6091f60c65f2260ba404a214e81411f6e9d7aa004",
+      "cakap.json": "b0e4de04b72670aa7ba175861639fb2b742d04a2ee576c8a39c6854f7eb0edcd",
+      "cantik.json": "0d344428dfba855334164870652161c7f0e438516914ac0c1169478247644041",
+      "cara.json": "c9cd07d460c5d87e11dd99325ebe681fd73320fa4a4fce237077730fe4da5ebe",
+      "cari.json": "7ee175c12537b3d1faaadb83c2ea74c71116ac938196a91013dd4862b44c322c",
+      "cepat.json": "b1ab827fb25f999ae10efe0425687473cde534ca3b6ff2d82c4a1ec81176d239",
+      "cinta.json": "7b1d7bf30bb61404537836e7823750605ef7f6f32875686c9e41d4365410954f",
+      "cuba.json": "b69c6ca1eb2213a659a64cddc9ece1bea897c5956a58b5bc1cb7953dfe141ea9",
+      "cukup.json": "5df02233e2b2cba932a7cca1a0c73602b64613c8b247911a271717d313e4bbd3",
+      "cuma.json": "4e828cd3bdd7acd349badebeb27b0eb13f4dbff071bfa73a0fdd13ff3bb26a1a",
+      "dah.json": "f88c5fbd97f38644ca93687ecd7011ae09d6a55643e2cab11672bdb0a72dfc14",
+      "dalam.json": "4fe09f292066dd1c1d43b174bcd190c8948a393000282aee3e7ad886020cb9b7",
+      "dan.json": "08decdc92e3c6470388df2882af275c4324c48183b365ded6a1f99f566fc0f19",
+      "dapat.json": "625aebac88db3f1b5a56f64b8e8a665db3bdeabeafa81a0c9bad5d6300e1c3dd",
+      "dapatkan.json": "205d878fe1fafafdd255246ad38bd7eba932650ac1f77f7e4f5cd012a8d312da",
+      "dari.json": "4d373681d0168b145b91ee6570db4fce88726123c29f086c1d0881732bfca7b4",
+      "daripada.json": "87fb508ad3b6c0486ec7c6b6211fdf5eabc11bc0a9c447395e06a54a78a1a3f9",
+      "datang.json": "2e970d1bf517618e13a25ea4cc105516d831f8639f9c50554d65f30532a6197a",
+      "dengan.json": "4a176b960b6f6f5229ab0a925b5a650875bd68815e2377c9a53630a1868d4b19",
+      "dengar.json": "550cf22e70ff3bfd99d8cdb3c35608c38e822a7dd4ea4126e27302e5c9db6626",
+      "di.json": "e1f592e5cd9edf87e8b8a596f87102a600e25878d93758233082d395c71dbdb5",
+      "dia.json": "0ef2ad48e405edb765b8c437d7050446e6561b23f4dab37d57767bb31efc60f0",
+      "diorang.json": "a1c46be56db4cca2546fffd6e54fc924bc82827c0241fb5a3f7287867e7c4f59",
+      "diri.json": "bd09d7b6b373374a7d496669d9a83ff731e57315c8fceb26bb1e1f80caf7cdb5",
+      "disini.json": "47518e092640b3465e42aed3509252328e5ded0c4fd87c57d5a7d4287b51dab9",
+      "dua.json": "731013734f06ac444744f79118db0c521c6f869a5a814c340b61a1fa553eb902",
+      "duduk.json": "046f5b32570a3fe889f00430a7ce485853c9776b0b2e329faf5489a6c6ceadde",
+      "dulu.json": "97a34612ea16f0b0ee917cc29b3620c787bd4852408d3e8b6add0af58e3e9334",
+      "dunia.json": "36290287481e108b5fbb3a73d00acd590ccd275e392c3fc54a55605a6f0c676f",
+      "faham.json": "ac4afb5041433565f5ae735ba991cb23efd879ec8582d84d578360df06832e5b",
+      "fikir.json": "d5462ac5250ad96e7b0e9b4f675cefe81178be1f4a1832910c507820c129f7e8",
+      "gadis.json": "e1854748aba2bac00cce11034679c5fc1ab411233e863f5b6b23431efa38944c",
+      "gembira.json": "d52bf5d89db5c4350227f84d8cf1e80cdbce92b03154d1f5127ce61ec91c07d0",
+      "gila.json": "5fd6eb7ff28f1dacbc350a31cd64d1732ad729d9c79b0440819c67bcd38cc38d",
+      "guna.json": "6732b3e2b2e8558080f35fda7e216ae61401ee4863d4a8bb18485f5e33a62b83",
+      "hal.json": "870ff29e31df5df224be6358993d59a40a658f15e9a7c73fcf485e36cff809e9",
+      "hanya.json": "975e3ef1153d3c2ba4f439292529e2448aa49c8e67e58252f0e100f5a1e330e1",
+      "hari.json": "33415c69d731ec8a400cdc8502c7dc195125b95bb356f12c328f50be150b7220",
+      "harus.json": "9c40412177c24f0f770620f6016d807664ca42e540139e9005229ed396080be8",
+      "hati.json": "efc9af900daf29f81f497bf195c1d6fb2213a161a4e710f2dd5d754781bf614e",
+      "hebat.json": "0b9de3dabc5165435e2ee8b5e54746800a70601c52e26c944815192ecb06f331",
+      "hei.json": "60ebc3e7cc3ce1721a58a4de47605446c5d210259c7d247a9b397f2fe360be5d",
+      "hey.json": "dac5908cf39f52a512b8aa0f24ad7f958b3593c653dcf77fa642a1d9f131603d",
+      "hidup.json": "05ab54e8c76aff81f2084bbf124993107d1e9914069dd2677738990bff1f7278",
+      "hilang.json": "3d81ddd8441e52e3732129ac0d302603470149ee94e73292125f08491135c200",
+      "ia.json": "3089d0da54ded1204ee5d3e87876b44bdb1f0bceccf5e1179d543ad9ddc81e92",
+      "ialah.json": "08f8460d29f612389b87496476ce63b37c793c429ae36be59ed023f2e96a52eb",
+      "ianya.json": "b00bbcb29fe8f7f4ada8f11be779f0a7d8e8335206e2c8d65427b6bff2749516",
+      "ibu.json": "5e05aa57ead93f53e41a2bd027a1b7cb963abfc96cd23a11d67439b1e3f96dba",
+      "ikut.json": "e34be81578e59105a48fdf7f890d5eba867d88fbfe94408afebad484ac13f523",
+      "ingat.json": "d291453a1bad3dff975032ff5bbc295688fb9817b5ec4c70352ff148560b08da",
+      "ingin.json": "40c7295120da878dcb462c22e0663dd3eb424bb95643637131bab5c0c6887354",
+      "ini.json": "7abaa7dd96619885a8aea3f37ec6c9935ce10753c5278f76e1b966a383bf19df",
+      "itu.json": "2c2df8c82324de1e4beac9303c2d6373c83b343bb27ee9b8ddb18efac75371f8",
+      "itulah.json": "cfc174cf3c20d4552f7f44b9847d95c99dab6a4e7a2d4c5c40f30d52b03dd0cf",
+      "jadi.json": "3cc85fff613ab0be106faca9573508a2556577021d579caebfec7f5b3842f06c",
+      "jalan.json": "e3becb83433c8f4450648139976913230d2b87fbf76bedc5c31162e7e5281706",
+      "jam.json": "be759658bad194a29c0371a68eaac4426002a7bfcf47867384c1322941d9530a",
+      "jangan.json": "6b6a0283ecb95c29443773992237a9a4f178ddb097ef1b8b52ce3c9ef3fe21d1",
+      "jika.json": "236bb0b7a034c24ebf770a31184935360d7d0a34884fc121509e92cfe3ae9ba4",
+      "juga.json": "7466582acac5a90a4c5bf433495b4cd810bcd3e65d5c91c71bc6259cba216ef5",
+      "jumpa.json": "af691671894636880b0963ce883aa180f09d4f306d7a9d09ccdc0a0cf01a1e1a",
+      "kalau.json": "a9199499ba0a15a2dab4d8d7393d38b56f7d361fbb9a1caf178cfe06a7baed86",
+      "kali.json": "0607fb6eaf5de6dc63811c49c8b0c3604fd297c81fac6803aefcbc734c81b2b1",
+      "kalian.json": "5fb5ced2035b39c1f54c17582992d3b285f1a85ceccd2dd901238cf24dbebec6",
+      "kami.json": "bba6f7b9d38c646c887304bcc2416bb9a6a6ad8ba68506c1f0e483c4689fa158",
+      "kamu.json": "a07e4d6d1647ea223aba082dedce595a5b9ba465f6c3d918aab6a3d6ae4022ad",
+      "kan.json": "1506e08d03bff61a2dea4e1a4b263f14913d44e3558173f667a426250a4b72ac",
+      "kasih.json": "a1761d494a211af21f2ac8693d94e67ecdb8d6396aa2e207798ae4cd41fcf968",
+      "kat.json": "7484cf3a457e42bec87ec51bf1135fb26a455e5352a71f67cfca995c81fe9f08",
+      "kata.json": "cc26f4a46256198f213b95cc436ab5306a0e8dbb3a3aa90f8daf88f01a99ba7f",
+      "katakan.json": "522f2075903cfabd8124a66a4d2c16ade431e6bc521dee19f1c9eaaab30580be",
+      "kau.json": "f268f5032eba49321ffc51d0bd38ebe6663ba6f03e39904440585e46dfc62db0",
+      "kawan.json": "a29fc2e291d11803364da1d1589f6f0a69be427b3f1dda06b034d7334d7edb69",
+      "ke.json": "57484de6d5fb46b76262748eba5b6111e503f9ca2a55c5d71e0c1423f1727e3c",
+      "kecil.json": "9cf5f71950fe519bfd26eddb69355e665377606279e3103ee76a0dbad3959b0c",
+      "keluar.json": "088d827513038fb3a5b41de9055fabf0dd03ec42bee62247d35029f871e7a132",
+      "keluarga.json": "eb5be941920c88413475df0115499fd92818057bc24935fbab2f75dee292ec4f",
+      "kembali.json": "7ea88a9dfe02d071c41dbe14004e4546737791f715fb06ccff0577ce51524f5e",
+      "kemudian.json": "a5e84b4115c6539099be612aee7340ec8561a4928356ea8fb67fda147ca16f70",
+      "kena.json": "25c2d45c1672e10ca53577b3a59a64952c2258ab1ad7920f368f896373734e0c",
+      "kenapa.json": "e60480a89427c5d67188c579062a3e30d8c0c96cc55f320ac9d1e4381f622eee",
+      "kepada.json": "7f0941b8cff1685e41f80582a4e8600718f2fc370bd57ebeb73736d06ff699ad",
+      "kerana.json": "cac629201342dfbde36d8a9db8ff0c167bded6c5fa4f74371788fe02dce9f196",
+      "kereta.json": "4b1c9d27f144e6f8d3773b1b836fab2a4af1bd9a455edcb79d918790818fcf4e",
+      "kerja.json": "ae8ec067395dde183d94b883899a42b3570eebc1954eb18275d48a863441d499",
+      "ketika.json": "a5b8eb878659cbd16e1fedfe36f830777790f6bab2773c0431877e7f5e37ff78",
+      "kita.json": "b1b7ed4f7a89fdd1d5dc6f2a5a2fecd727c6dfbb5f4791d080522afd6b350bf5",
+      "lagi.json": "0d5abd79a8c79e4bf332994f3bc34769dd7211a8f37f9ba22a552470671cffff",
+      "lain.json": "9758c12dccecd588027ff410e9cd6eebd019cb160e69812a4e30cd0fc31c8325",
+      "lakukan.json": "0c5fc161b95193754135c068579d30d4744da82a92f05986b4f8ad34ad60e4b2",
+      "lalu.json": "bf292bdca42fc46a44e3468950dce229c188364b590b51a41961fe13b5f74b9f",
+      "lama.json": "e7573816a3157bee881791b4a0c122eda08366d80256e0e7cdbd2a11a99ba9f6",
+      "lebih.json": "ef647c515145556dc8144e0fc5ba7ec793a63385246277c3f29a49d3213cbc2a",
+      "lelaki.json": "7d5ca68f3de3069ee74577f13e638a9c69f5a0f2ec1ba94faad5a21711494d5f",
+      "lihat.json": "17326931e78ac6b424a971e7987468fbc11a36e280950ae7808180e33e3f0d2f",
+      "luar.json": "465284d4d06d51b57127ef0fedd9b5bdd937a6b48fb3186e354b3285f6ee1e01",
+      "maaf.json": "c100b11dd4eee58ec122c2bdee17ff06700dbc5431dcc881e24a69774a45da6b",
+      "maafkan.json": "d2467f6a7e47d00be8251a4844dfa65d76b46b19d05ccae49f600ec83864e202",
+      "macam.json": "3cf4a8deed7b0b7768671e64873849ccd0d842d2a7c4c7992f283ed7ecf3e350",
+      "mahu.json": "a39a984a983ab50cbece9be40412beaea9ad1a879f4fd89d811b2c8456f8cf70",
+      "mak.json": "4b9de1bbc866bd6a039b061bb80cab0020abcb9872888a2eb4631ff327b266aa",
+      "makan.json": "519eb9e3221a6947b1c2b3e958ca4a67f6c49465d2ee328bd7eb6b3292b26d07",
+      "makanan.json": "d3c8e1ff0b13ba9a8a8be975ecc4f21bcd468731033d1a17515e3606cba38acd",
+      "maksud.json": "2ed0d86319b241d0513b74ec3be28e42d893111cf6b0e5a78a09d7f4d5109ec9",
+      "malam.json": "f7646377729fc37adf45f3e2efe05b644119f91bf1bab7a4caf7728c946e7530",
+      "mana.json": "fbfde1c61d7dfe949ddb26c66589bb9dcc51f20502c6f279b983b45ce9c25d59",
+      "manusia.json": "3392e899e41525e99fc0313056384d3a04ce6d4944ff0629ad676db303cde536",
+      "mari.json": "ba94c341f31ac44634ede27862b53ccc13b488ddf6ac163ec0a23508fe83ea93",
+      "masa.json": "615b0d6a0cd1218b18970c83a8b9fabcd7e809bb49b40ff419916c58ada36c70",
+      "masalah.json": "1fc77c76df3300aa1f103a53ac9e49e09d9fadb013da49f8e3566823de4a251c",
+      "masih.json": "2c9f3a6a415dd8064fe35233456d4c908b762f8f60a1f12374ac99d4b1076966",
+      "masuk.json": "6f3e1d3a9165fe3dfcb38adecb17aa5ff543c83e81539527c45c1848e4029557",
+      "mata.json": "bdc0bb804f83d0dd75cdec5d7bb4829cc21d6c4beb4609a7378e09a69ada7d90",
+      "mati.json": "ed76ab4f2b09c7191d1bde94572b8d3e2e0dc58bb25af488033c153fffca6c24",
+      "melakukan.json": "bbc1a38cde9f06545ca9ae2b089491256c0a31da935730bf700c865d15c37a6f",
+      "melakukannya.json": "b693f645879fc109436d7eac515daf1d590810aded1f8e01869e312cae0965ca",
+      "melihat.json": "bcf3c261bf71cd8f2f360c6e4be620c1027e3a9a142aa29fd35a408c82bf4605",
+      "memang.json": "f4ff90da16149397cb4924cf3c24aa5b32470a38e7edef245c60436d3d0d232c",
+      "membantu.json": "efaed91ef8febe2975114659444a2a92d6cd92f719a035f50a18ef34912dfdb5",
+      "membawa.json": "10fc1cfa0e757682abcfcc24debf2a4d18e86eac014563be291687ba252fde7f",
+      "membuat.json": "d66092849784e658e51c057b4c9dee631343f9e63ba62726dd9b25dcdf2d2320",
+      "membunuh.json": "7e443a4f7510cf1d3a2fc5e12c8bc6907dd424ef75c921d3f134abe316bd3b2b",
+      "mempunyai.json": "a072d4271acadb0a52e7537d7d7c3f67d17d89e5b83bd947519d979d25b596f1",
+      "mencari.json": "7ac2515751978475cb6c626f438d9e1e9c0c7204e127061b71cede16170e2074",
+      "mendapat.json": "8541304d1404b3f0e6328d104d4159c9170cbe913503b7e5ef647e2e4b5eed1d",
+      "mendapatkan.json": "736042f83274d3f796de035ade81ca30f94099d9db6c561bbcd2066c12e488ee",
+      "mengajar.json": "732d8dde3bbe908f6fca59f68e6c83140ad772627dd69c611e7d8925582dc40a",
+      "mengambil.json": "62f9f251d0556a98d1b40931f41d4cb01ff1d470653d28dcdb65c7dba04cf39b",
+      "mengapa.json": "6b83d8ddc487623bd4eaf67801380f450d9ecddfd0cfd6462aacf6b8e5f9a10d",
+      "mengatakan.json": "ac5bcbcd1ea405c3bbe90990e65bea4b24c7b41a9f1719f467bd41f5d148b7e7",
+      "menjadi.json": "e94823a3b52d765f45deccf7de53510daff33eb41dea2d2b76dfccc825338c35",
+      "mereka.json": "ee06304bb1935bde0561d8d25e1ae75a461ed414a2ed8f4d142352246cf4e407",
+      "mesti.json": "2f8d948149fde11da4e3c258262d0dd7ae6451d61b813eb2e3014f37866fc08d",
+      "minta.json": "45f99414551febb36f86c0fb3b067ca458d9807b77c41c351f3dd2c63717424f",
+      "minum.json": "59d4879877d169530e4b3d0a3a5cbf269271833b1ee47bc546bfcca831539ea9",
+      "minuman.json": "140507345410a74747819d017c063b0bba09909b9e1d4bdb9c6bdda4b37ce5b4",
+      "mungkin.json": "07967d98569c94c400a679e8d366f8abeb2c20d58de77d2479a33a0378d468c3",
+      "nak.json": "c1297999d551036ca99874fa44eb8368e2f7759ce0d55fd0f19d3d680fcc7c96",
+      "nama.json": "ce193150eb7e868ae4b019742ed769f6b6ea5fc8d7dc98d18117e18f39d3c737",
+      "nampak.json": "53bbfd0ce9b1aeb16b53b01321f3301a5d7b95fb89c6f29f05252c6c905b4c11",
+      "nanti.json": "8f1178cfab3c87afbbaa6d263df3fef61c072b7bb9302b7d45b95e8f10a0294c",
+      "ni.json": "755b5ae05957b9170cdbd0b18a46f2df33ee82657e6abae2df47e6539efdff03",
+      "oh.json": "4d6eaf2f89e88d8605d025c7ac7936bbfba9c526cdfbd849c2d74f402dce6b72",
+      "ok.json": "f9c992ee8735911a40766900727ccdb8082ceafa03880779cf9bf406fa455d8e",
+      "okay.json": "b507a74e80d65ca85a27497f655fae408c011d6fb8a0a6df72c1d1dd840c8527",
+      "okey.json": "77078d062adebc75cf3942af67b73c9d094d8706149d6e4761327d0f8e90e0dc",
+      "oleh.json": "239fbe5fd96627954d1bc7cca4bde84d8cc4a937b4d7c46f91b75068f9f23553",
+      "orang.json": "71f1bf063fbee66972639298dc30a92682778c91c726e8ca56bf583637aa58c5",
+      "pada.json": "2d7cbcba48c0fd6feccf47b8135237e19d9aea3c287f51667d015f5171f8a763",
+      "pagi.json": "eaa9bb2f43303517c39df526c63ff84b19dd44cc3ffefb4dbd8a3808660c3289",
+      "paling.json": "344591e880b33c9b9678ef0994305fd2ba023eed5e0203a0a81b7277f0c9d9c3",
+      "pasti.json": "1b06f83b9c3e6addb05a4dc152c3ef43857dfcd1fb3b9014bd80ba22c0697a39",
+      "pasukan.json": "4d5e35e5d474c3f3547d40054e5812ff3864fd0d82ab18af89a333990ef1b638",
+      "patut.json": "f093029a98f1f674f926a750fc2b4b5ed39ad6ff0555814630eb1a398471476d",
+      "pekerja.json": "c30cd3264c61c38aba568ef39ba02e861653b5aa637727d8f9f10562523ff9eb",
+      "pekerjaan.json": "b3fba2ab93e51b2a406fd67846323c737f612f56dca6c368c4076a40fefe74b3",
+      "pelajar.json": "7e408d042e5af802d3843b0b8fe336e2f4d67b72b31af359f8717cb333797397",
+      "pelajaran.json": "c804ab84162349add783c134d6994848273cd5073302f8e4d798081155f8e445",
+      "penting.json": "362b6bebd961667f6e3b8d5d8e9b08f4e75d4551eb2694a752a84bb7f0f1b6ac",
+      "percaya.json": "0718905a15f3360ae0e8ad7c56c63c39cafad863dc9a6ca710aed8480907ccbc",
+      "perempuan.json": "0763e5054b31eba2c376abfaaddd6699693a155441631035cad01c8e07cdf47c",
+      "pergi.json": "db479f5a8e64e3a263c6ba1834740affa5cd710b97ecc9ecfd7f359170806956",
+      "perjalanan.json": "60fca489cdd199ff953b27eb3d8b65a3ea2b8a3b8186179241fa2013d76d7eb6",
+      "perkara.json": "8eb65f78eeebc23e70ade9afc2dff5ac855a1830770e1037d03fc87440ca0697",
+      "perlu.json": "4bdf2dffa383910632c0a2046fe16fcfb2cc2210237d097b8dbc199dedd77184",
+      "perlukan.json": "ae49a69b008aaca344de80db636f776a6017faabd8f849c40b8a383ff698d4e7",
+      "pernah.json": "eb5b8ac5856d7ed2aa2901f793cc410d00b8c336656f58693369c05e700631fa",
+      "pertama.json": "077b4681e91f546bbb39aa7a1c49d7597a222e9a2d6af0f0116fa41ff98896b6",
+      "pintu.json": "81878369ecc96912405c07642dacef62535a2703a827b0e3e30c3366e00e77ab",
+      "polis.json": "5b5ecc0119189546ba1c74219fea1ba66b1b2eae87434a895894cd26206078e3",
+      "pulang.json": "c395ff0ca11ae6021ee1858830b266cd3b8a043047ad7d955185803c9790f54c",
+      "pun.json": "8e7e072ca58dbacbf88e7f0a3967f37e53461d6565d5cba51a4fbfd56c87bf3f",
+      "punya.json": "84dcf2b6b5b6cc4f1fb14883172ae30b29e583c15c2c3fc1fea9abb047ed54de",
+      "rasa.json": "af08e49c31e61aac37705aa2913cb9bbf414bd4db37d8b18d07927db90b11155",
+      "rumah.json": "1135ac8331dd76794e46dfec6cc0952c67a7686fa4a52fc31ab555ee457628c6",
+      "saat.json": "e1c84cce76508ae42b4fe1688a5c42617357efb11a7ea9dc977926c9208ab488",
+      "sahaja.json": "7d6a0eea841276a78d023bf7a550abb222f6edf4c412d3cdda5dce6260b35865",
+      "saja.json": "268326cb8e3ec9244370447156d4712f13385f818bbb87f66726b6d8c168b61b",
+      "salah.json": "3c082e3bf08808e569cf46265a1b449a5fc30f599aecce7d4b536478091181d7",
+      "sama.json": "b3c501616c6276ed6f38e97e67a89d2b4efada2761888357464767150297972d",
+      "sampai.json": "c28dbc36009289b26cd592d6e80399ab67829b6f11f414042ac64d2965009ff0",
+      "sana.json": "0c0c91666b7bea3d56c39b1f2e1d682fe6bc5ce1efdc71e4ba8287f9b81cca22",
+      "sangat.json": "f0dab12eb97777177af32c05afb4b68d9a80bbb31916a6dee34e717c45f2b944",
+      "satu.json": "f1da970b6851e3b2a5fe32ff7197e16f1e302d4a441e6d824f7e4c988767b304",
+      "saya.json": "78f22d59511c30e83836f786742e08ea97ca833e978cd9386fdcb2dd0bccaf5e",
+      "sayang.json": "db1e99fd90a9e08e2f39d4ab3256a0576c793130a9e82c7a5ff24bc43e49d93b",
+      "sebab.json": "0c3f7ebde785b2c44f7c5300fe5d8ecd4bdc91b82b39b129ea06a115e1d5b128",
+      "sebagai.json": "5b19b1a703c0059998a6f4ad9b00deb0d9fd8180c03b693d12f441dcc7341a1d",
+      "sebelum.json": "e3636feee8a5a427117102f7ce52c08991af8a7f6feedf0df9157a5af98a031f",
+      "sebenarnya.json": "a24d048f67dbe8a032227be8df404d61589eb4841cde705fc39a8b4e72edb10c",
+      "sebuah.json": "9dddd656a1b8797b8b52743cc36ca618fbd521157a7a8097003a1247674abb1a",
+      "sedang.json": "08dfdf6bedff4680c20dfae09e8ab81303a2831cd5485db3db91dae4b75d86ef",
+      "sedikit.json": "5a98d7904912415a51e913bf576d044cffb69f4df4e5f347da5ef68e2e0fbb30",
+      "sekali.json": "7b90ef670666b85ce5aa1c2b9a89ca88af527a103586991259c43fd7ab28449d",
+      "sekarang.json": "c312d0e6ad67c043c9c1fdcd46bf3d52aed6c506d3b0fe6fce930dce40843f94",
+      "selalu.json": "619ab812545deee6a5ee2d9f3f9d7f126daa5a854e8a578257cbe10c0174e7a5",
+      "selama.json": "e4866e68ef84ee9fb1a1183f2271861b5022bebd13a0d96f706c5e1447ed9388",
+      "selamat.json": "940722670c36f55d6d41ead9a12402eed25cf3ebe840c88baf45d2a8cb40804c",
+      "selepas.json": "f801088bee097cef86de223d2f96564d5db1b44b564a017c30b21bc4bb0420e5",
+      "semua.json": "7a895f7dc3c6c04514e84af9a7e11d2d0bd0cbcc43bdcde80ff104172a6ee998",
+      "semuanya.json": "bfcb4bcde72c5df508b74ccc5ba641b661ccb3ce8ab8274142ecd18115449d99",
+      "semula.json": "277df9711c231bc36ab4d2e1ca0034bcb4934a4cf8a534666adb32b95f2d82c1",
+      "sendiri.json": "10668f28303adb5a9139237acef0bb2fb459f3eb966b48e4accbcdcaf83d7fd9",
+      "senjata.json": "7096367afcf5766738abfca4bf7dc11f6f1444b02392bdb5242ad5cad0ccca0a",
+      "seorang.json": "846c6181c870d302eb15e5144238849726d9b9a617a98417239fd05c806aefcb",
+      "seperti.json": "216fab3f02b048158f6eb8a596626818fb632b6970645a3ea240a1012852fa08",
+      "seseorang.json": "d126ea429da5dea87b2729ed792d6f9c551dee06d99ad510e86ab93b5045b018",
+      "sesiapa.json": "34013748983a22b4d95ef741c643d1ef776f007acb5d5166e7da24990984b859",
+      "sesuatu.json": "281ce769c60c9e848d8e6075663eba051667d38bdd118a75631ccb0ca4df7801",
+      "setiap.json": "d5d6adbfad1978142ec6807df22cacc84b77bc61efb1b11dc459ac3845980e74",
+      "siapa.json": "d22b8ff577fae9f08296f15094edc20cf1ddbb9c250bbf5c4e8c9c728c87d398",
+      "sini.json": "d82129c3794458a655dc50dc4a68dc3d063dfd8bda820b50be74cb6c69aac82e",
+      "sudah.json": "e38c5951a3ef8c355fc258ae08c58fa3d8ac124a998af13d617b336e097a4daa",
+      "suka.json": "204a50018b7269211a749389638d40c1c0cf649b884e6f85bb9b256bb089e0d5",
+      "tadi.json": "a00d0cef7a3a33d334399c95bd102ab4b45ae156bbe5e378c93f661a8a3362b2",
+      "tahu.json": "b4c1633ff8923059a95a7048a696960f3a9ab1c85069039b297fce3fd4783c89",
+      "tahun.json": "705fb117cb9e2e674720cafb7294c37e33b26ffd535d219fc4e35500fc07d52b",
+      "tak.json": "659a2a25ea696c49ed74ea9edf5fc102a5208f274731d3c92e43a4e19433319e",
+      "takkan.json": "1cdd693d3f852158b6ae95f4b673f1c81b134a80f675f4663578d06349a57682",
+      "takut.json": "138f1bf25cb6aa8a556d5c3730522ece7539ee9b893f754d54b346f98f1b3d41",
+      "tangan.json": "b43172d96eb9a56588c03632323884fa0cfc69f30a7eaa7395962c8cf27bd783",
+      "tanpa.json": "94c8f0af86dc8040c21775b6f3fb469d9236e2b367e23b3a1c967e93690df311",
+      "tapi.json": "4310ac8ef674c02355120cd94beea113e1e62bce0ef0edffc32d891b243ef2b1",
+      "telah.json": "1f8fe01935f0cf0deebc8b4d8068d0a584665ba691a121418fb953a80575c22c",
+      "telefon.json": "70b2e943f7154331a834d714f6e7231baf8f60a2dbf0a06d12d4a90ef872e376",
+      "tempat.json": "a695676d09fe4ae780d7bfb75ad9f8727917390af074193b97deac3b3a5a3bfb",
+      "tengok.json": "87cc7b52095802310f530e8d5b25313c5574fcc48d0a4ddace8e39e47b24dc19",
+      "tentang.json": "b005907aa1a8d473562b43c12d2752fa2b9adc75d4c714a226b65a14babd849b",
+      "tentu.json": "76a7f43c2d5e5ede6d003b3512ea24783c01a231bf4b66ddf8727c30e9245b2f",
+      "terakhir.json": "7db6ce37ca2aa07b9332ada8a83c220975957d2846ebf2655965960b61a75d2d",
+      "terima.json": "baa9b43827329060c19ccf39e925d91073b03015597a80cdd5c2c36708342931",
+      "terjadi.json": "37a9415562559c5f5c3bdffc3bc397c3fee9bdeab88f8724c4a68cd5a890bbcf",
+      "terlalu.json": "b3e94d2b477fbaffb680623d21aa8022c6741f807eb7b9901cf0f32cc20f4934",
+      "terus.json": "c75aaa49c5ce1852e43094187715f73b13f0e33e561c3d7766f72d5d4e1e78b8",
+      "tetapi.json": "0be1e860a5bf7a21372bc115462be4b8d992a0db184ec8c4c2cdc5eb1d809e75",
+      "the.json": "4e022d2423ddc67991acc7ac3cbbc27bc0baa958b4fc7646d7939523d7ca0f97",
+      "tiada.json": "4a7ff1bcde85152f0831814e54a73294f0dad3939122e6ad6f51f48df3499fa4",
+      "tidak.json": "20acd696c0d23965563d718a8d8a4aca0025288579c94170e51121cd9a2c77c4",
+      "tidur.json": "2bf34694743c9728eb9c7f9336a60e6366a814184257a6d7feddc37d91c8b684",
+      "tiga.json": "c82600ee1d33561960b4cf206f025db086c6e683d819cbe27ffc19a11ac4de3b",
+      "tinggal.json": "81eb6cdfed6ceb952ea0617eef46bf8d7c1aaa901e0aae39ea1a937ba74d94ed",
+      "tolong.json": "e6785cb8f381932b842565610c1884200b17ca5b796281521964b79fa5d645bc",
+      "tu.json": "9cb6ed3ddf1c53f990443d805c078139ed1263a91f9821c3c203df4db42595c9",
+      "tuan.json": "714fbf5798156b60d4ddae99299f0306a5c8daa04036bc853e12a655a97edd73",
+      "tuhan.json": "a08bf514285353897f9965cc3398c1ea1c8f721c5b1d8eae0acbac9e9bc2bd7a",
+      "tunggu.json": "f46c250c86a1ad18dd876c54c0071124a0ba7011d8fb5f94febcf03a87801ed9",
+      "untuk.json": "53de899f6f22ad1800a3c97882e52eea604219e9bea1daeb6dbb413329989d4e",
+      "waktu.json": "ad0220d7a6d9ef4377e814c8794facd2f0293c41cac03924cdaa2a0258f2efd7",
+      "wanita.json": "9f6120ba80a1371a193b5aedd8cb12f1e3902004f6cdb4ac54885db4cbaa4bf7",
+      "ya.json": "5a9942670b3f1a12ebb56f443813f3ec1f02fb1fe15bbb0f6d23bca45608c416",
+      "yang.json": "1503584d99816842061e83512bdcc43bfa4fa4db4dbbdb6cf24d895af7ddcd70",
+      "yeah.json": "7f4c086e1626b946e82872dbf221f74f56ea3aed32af2715fe1832265cb5460d"
+    }
+  },
+  "pilot_cache": {
+    "n": 50,
+    "found_in_prpm": 41,
+    "syllables": 30,
+    "jawi": 40,
+    "kamus_dewan": 29,
+    "kamus_pelajar": 39,
+    "no_dictionary_words": [
+      "dia",
+      "di",
+      "dan",
+      "akan",
+      "itu",
+      "ada",
+      "orang",
+      "pelajar",
+      "diorang"
+    ]
+  },
+  "progress": {
+    "stored": {
+      "total_candidates": 15000,
+      "current_index": 300,
+      "crawled_this_session": 260,
+      "found_this_session": 189,
+      "cached_total": 316,
+      "elapsed_seconds": 3807.5,
+      "last_word": "cinta",
+      "last_found": true,
+      "updated_at": "2026-11-01 19:22:05"
+    },
+    "attempted_words_per_hour": 245.8305975049245,
+    "found_flags_per_hour": 178.69993434011818
+  },
+  "batch_assets": {
+    "1": {
+      "entries": 10,
+      "senses": 28,
+      "scenarios": 20,
+      "individual_files_identical": true
+    },
+    "2": {
+      "entries": 10,
+      "senses": 42,
+      "scenarios": 20,
+      "individual_files_identical": true
+    }
+  },
+  "concurrent_scheduler_exists": false,
+  "calculations": {
+    "single_request_11_3s_plus_jitter_1_05s": 291.49797570850205,
+    "hypothetical_7s_plus_11_3s_plus_1_05s": 186.04651162790697,
+    "hypothetical_7s_plus_11_3s_without_jitter": 196.72131147540983,
+    "ideal_25_workers_11_3s_plus_0_55s": 7594.93670886076,
+    "batch1_10_words_693s": 51.94805194805195,
+    "batch1_linear_20_workers_unmeasured": 1038.9610389610389,
+    "hours_15k_at_3600": 4.166666666666667
+  },
+  "history": {
+    "path": "C:\\Users\\d\\.gemini\\antigravity\\brain\\a15a97c6-dccc-4f20-bae5-6b32e0337038\\.system_generated\\logs\\transcript.jsonl",
+    "sha256_at_read": "7a0414d0b988769f45e1df6ce2b032fcd8f7e23d11c8cad99552f0377334c755",
+    "scope_max_step": 987,
+    "rows_in_scope": 990,
+    "unique_step_ids": 988,
+    "type_counts": {
+      "USER_INPUT": 25,
+      "PLANNER_RESPONSE": 463,
+      "GENERIC": 447,
+      "SYSTEM_MESSAGE": 53,
+      "CHECKPOINT": 2
+    },
+    "selected_evidence": {
+      "747": [
+        {
+          "type": "SYSTEM_MESSAGE",
+          "created_at": "2026-11-01T10:31:56Z",
+          "content": "The following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.\n\n<SYSTEM_MESSAGE>\n[Message] timestamp=2026-11-01T10:31:50Z sender=a15a97c6-dccc-4f20-bae5-6b32e0337038/task-701 priority=MESSAGE_PRIORITY_HIGH content=Task id \"a15a97c6-dccc-4f20-bae5-6b32e0337038/task-701\" finished with result:\nCommand exited with code 0.\n\nCommand output:\n[*] Loading offline resources for synthesis...\r\n[+] Resources loaded in 0.63s (Colloquial: 3374, Roots: 4310, Kaikki: 15515, Sentences: 7791)\r\n\r\n[*] Preparing Batch 1 (10 words): ['saya', 'yang', 'aku', 'dia', 'awak', 'kau', 'ini', 'di', 'tak', 'dan']\r\n[*] Dispatching Batch 1 to Codex CLI (gpt-6.1-sol / high)...\r\n[+] Batch 1 completed successfully in 693.6s!\r\n已写入 [batch_1.json](C:/Users/d/Documents/open-melayu/data/enriched/batch_1.json) 及 [10 个独立词条文件](C:/Users/d/Documents/open-melayu/data/enriched)。\r\n\r\n覆盖全部指定词汇，共 **28 个义项、20 个正式／口语场景**，包含三语释义、构词、缩写与代词礼貌指导。结构、Unicode、词频及文件一致性检查通过。\r\n\r\n`dan` 的词源与《Kamus Dewan》原文缺口已明确标注，详见[来源说明](C:/Users/d/Documents/open-melayu/docs/BATCH_1_NOTES.md)。\r\n\r\n\nLog: file:///C:/Users/d/.gemini/antigravity/brain/a15a97c6-dccc-4f20-bae5-6b32e0337038/.system_generated/tasks/task-701.log\n</SYSTEM_MESSAGE>"
+        }
+      ],
+      "797": [
+        {
+          "type": "GENERIC",
+          "created_at": "2026-11-01T10:46:24Z",
+          "content": "Created At: 2026-11-01T18:46:24+08:00\nCompleted At: 2026-11-01T18:46:25+08:00\nCommand exited with code 0.\n\nCommand output:\n{\r\n  \"total_candidates\": 15000,\r\n  \"current_index\": 118,\r\n  \"crawled_this_session\": 85,\r\n  \"found_this_session\": 45,\r\n  \"cached_total\": 141,\r\n  \"elapsed_seconds\": 1561.5,\r\n  \"last_word\": \"cepat\",\r\n  \"last_found\": true,\r\n  \"updated_at\": \"2026-11-01 18:44:39\"\r\n}\r\n145\r\n"
+        }
+      ],
+      "812": [
+        {
+          "type": "GENERIC",
+          "created_at": "2026-11-01T10:48:05Z",
+          "content": "Created At: 2026-11-01T18:48:05+08:00\nCompleted At: 2026-11-01T18:48:06+08:00\nCommand exited with code 0.\n\nCommand output:\n============================================================\r\n        OPEN-MELAYU 双轨实时运行看板 (Dashboard)\r\n============================================================\r\n[Track 1: DBP 官方爬虫] (持续后台常驻)\r\n  • 官方 PRPM 缓存总量 : 151 词\r\n  • 当前排查候选进度   : 129 / 15000\r\n  • 最近爬取词汇       : 'suka' (官方命中: True)\r\n  • 最近心跳时间       : 2026-11-01 18:47:57\r\n------------------------------------------------------------\r\n[Track 2: Codex 7维生产] (已完成 Batch 1 & 2)\r\n  • 独立完成词条数     : 20 词\r\n  • Pilot 50 词先导进度: 20/50\r\n  • 已交付批次集合     : 2 个主批次\r\n  • 最近交付词条       : ['itu.json', 'kamu.json', 'kau.json', 'kita.json', 'mereka.json']...\r\n============================================================\r\n"
+        }
+      ],
+      "832": [
+        {
+          "type": "GENERIC",
+          "created_at": "2026-11-01T10:55:16Z",
+          "content": "Created At: 2026-11-01T18:55:16+08:00\nCompleted At: 2026-11-01T18:55:22+08:00\nCommand exited with code 1.\n\nCommand output:\nTraceback (most recent call last):\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 1318, in do_open\r\n    h.request(req.get_method(), req.selector, req.data, headers,\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n              encode_chunked=req.has_header('Transfer-encoding'))\r\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1386, in request\r\n    self._send_request(method, url, body, headers, encode_chunked)\r\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1432, in _send_request\r\n    self.endheaders(body, encode_chunked=encode_chunked)\r\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1381, in endheaders\r\n    self._send_output(message_body, encode_chunked=encode_chunked)\r\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1141, in _send_output\r\n    self.send(msg)\r\n    ~~~~~~~~~^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1085, in send\r\n    self.connect()\r\n    ~~~~~~~~~~~~^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1527, in connect\r\n    self.sock = self._context.wrap_socket(self.sock,\r\n                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\r\n                                          server_hostname=server_hostname)\r\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py\", line 455, in wrap_socket\r\n    return self.sslsocket_class._create(\r\n           ~~~~~~~~~\n<truncated 317 bytes>\na\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py\", line 1372, in do_handshake\r\n    self._sslobj.do_handshake()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\r\nTimeoutError: _ssl.c:1015: The handshake operation timed out\r\n\r\nDuring handling of the above exception, another exception occurred:\r\n\r\nTraceback (most recent call last):\r\n  File \"<string>\", line 1, in <module>\r\n    import urllib.request, json; print('Direct IP:', json.loads(urllib.request.urlopen('https://api.ipify.org?format=json', timeout=5).read())); req = urllib.request.Request('https://api.ipify.org?format=json'); req.set_proxy('127.0.0.1:7897', 'https'); print('Proxy IP:', json.loads(urllib.request.urlopen(req, timeout=5).read()))\r\n                                                                ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 189, in urlopen\r\n    return opener.open(url, data, timeout)\r\n           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 489, in open\r\n    response = self._open(req, data)\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 506, in _open\r\n    result = self._call_chain(self.handle_open, protocol, protocol +\r\n                              '_open', req)\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 466, in _call_chain\r\n    result = func(*args)\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 1366, in https_open\r\n    return self.do_open(http.client.HTTPSConnection, req,\r\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n                        context=self._context)\r\n                        ^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 1321, in do_open\r\n    raise URLError(err)\r\nurllib.error.URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>\r\n"
+        }
+      ],
+      "834": [
+        {
+          "type": "GENERIC",
+          "created_at": "2026-11-01T10:55:26Z",
+          "content": "Created At: 2026-11-01T18:55:26+08:00\nCompleted At: 2026-11-01T18:55:32+08:00\nCommand exited with code 1.\n\nCommand output:\nTraceback (most recent call last):\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 1318, in do_open\r\n    h.request(req.get_method(), req.selector, req.data, headers,\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n              encode_chunked=req.has_header('Transfer-encoding'))\r\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1386, in request\r\n    self._send_request(method, url, body, headers, encode_chunked)\r\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1432, in _send_request\r\n    self.endheaders(body, encode_chunked=encode_chunked)\r\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1381, in endheaders\r\n    self._send_output(message_body, encode_chunked=encode_chunked)\r\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1141, in _send_output\r\n    self.send(msg)\r\n    ~~~~~~~~~^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1085, in send\r\n    self.connect()\r\n    ~~~~~~~~~~~~^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py\", line 1527, in connect\r\n    self.sock = self._context.wrap_socket(self.sock,\r\n                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\r\n                                          server_hostname=server_hostname)\r\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py\", line 455, in wrap_socket\r\n    return self.sslsocket_class._create(\r\n           ~~~~~~~~~\n<truncated 363 bytes>\n line 1372, in do_handshake\r\n    self._sslobj.do_handshake()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\r\nTimeoutError: _ssl.c:1015: The handshake operation timed out\r\n\r\nDuring handling of the above exception, another exception occurred:\r\n\r\nTraceback (most recent call last):\r\n  File \"<string>\", line 1, in <module>\r\n    import urllib.request, json; req = urllib.request.Request('https://api.ipify.org?format=json'); req.set_proxy('127.0.0.1:7897', 'http'); req.set_proxy('127.0.0.1:7897', 'https'); print('Proxy IP:', json.loads(urllib.request.urlopen(req, timeout=5).read()))\r\n                                                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 189, in urlopen\r\n    return opener.open(url, data, timeout)\r\n           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 489, in open\r\n    response = self._open(req, data)\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 506, in _open\r\n    result = self._call_chain(self.handle_open, protocol, protocol +\r\n                              '_open', req)\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 466, in _call_chain\r\n    result = func(*args)\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 1366, in https_open\r\n    return self.do_open(http.client.HTTPSConnection, req,\r\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n                        context=self._context)\r\n                        ^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\d\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 1321, in do_open\r\n    raise URLError(err)\r\nurllib.error.URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>\r\n"
+        }
+      ],
+      "838": [
+        {
+          "type": "GENERIC",
+          "created_at": "2026-11-01T10:55:44Z",
+          "content": "Created At: 2026-11-01T18:55:44+08:00\nCompleted At: 2026-11-01T18:55:44+08:00\nTask: a15a97c6-dccc-4f20-bae5-6b32e0337038/task-836\nStatus: DONE\nLog: file:///C:/Users/d/.gemini/antigravity/brain/a15a97c6-dccc-4f20-bae5-6b32e0337038/.system_generated/tasks/task-836.log\nLog output:\n45.32.36.128\nLast progress: 2s ago\n"
+        }
+      ],
+      "839": [
+        {
+          "type": "SYSTEM_MESSAGE",
+          "created_at": "2026-11-01T10:55:44Z",
+          "content": "The following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.\n\n<SYSTEM_MESSAGE>\n[Message] timestamp=2026-11-01T10:55:42Z sender=a15a97c6-dccc-4f20-bae5-6b32e0337038/task-836 priority=MESSAGE_PRIORITY_HIGH content=Task id \"a15a97c6-dccc-4f20-bae5-6b32e0337038/task-836\" finished with result:\nCommand exited with code 0.\n\nCommand output:\n45.32.36.128\nLog: file:///C:/Users/d/.gemini/antigravity/brain/a15a97c6-dccc-4f20-bae5-6b32e0337038/.system_generated/tasks/task-836.log\n</SYSTEM_MESSAGE>"
+        }
+      ],
+      "846": [
+        {
+          "type": "SYSTEM_MESSAGE",
+          "created_at": "2026-11-01T10:56:14Z",
+          "content": "The following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.\n\n<SYSTEM_MESSAGE>\n[Message] timestamp=2026-11-01T10:56:11Z sender=a15a97c6-dccc-4f20-bae5-6b32e0337038/task-843 priority=MESSAGE_PRIORITY_HIGH content=Task id \"a15a97c6-dccc-4f20-bae5-6b32e0337038/task-843\" finished with result:\nCommand exited with code 0.\n\nCommand output:\nFetched via proxy in 10.521733045578003 status: 200\r\n\nLog: file:///C:/Users/d/.gemini/antigravity/brain/a15a97c6-dccc-4f20-bae5-6b32e0337038/.system_generated/tasks/task-843.log\n</SYSTEM_MESSAGE>"
+        }
+      ],
+      "848": [
+        {
+          "type": "GENERIC",
+          "created_at": "2026-11-01T10:56:19Z",
+          "content": "Created At: 2026-11-01T18:56:19+08:00\nTool is running as a background task with task id: a15a97c6-dccc-4f20-bae5-6b32e0337038/task-848\nTask Description: curl.exe -s -o NUL -w \"HTTP: %{http_code} | Connect: %{time_connect}s | StartTransfer: %{time_starttransfer}s | Total: %{time_total}s\\n\" https://prpm.dbp.gov.my/Cari1?keyword=makan\nTask logs are available at: file:///C:/Users/d/.gemini/antigravity/brain/a15a97c6-dccc-4f20-bae5-6b32e0337038/.system_generated/tasks/task-848.log\nYOU MUST TAKE ONE OF THE FOLLOWING TWO ACTIONS: A) either proceed to other relevant work (if any) or, B) simply update the user with a short message (that you have launched the command and will wait for it to finish) and end the turn.\n DO NOTHING ELSE."
+        }
+      ],
+      "853": [
+        {
+          "type": "SYSTEM_MESSAGE",
+          "created_at": "2026-11-01T10:56:34Z",
+          "content": "The following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.\n\n<SYSTEM_MESSAGE>\n[Message] timestamp=2026-11-01T10:56:31Z sender=a15a97c6-dccc-4f20-bae5-6b32e0337038/task-848 priority=MESSAGE_PRIORITY_HIGH content=Task id \"a15a97c6-dccc-4f20-bae5-6b32e0337038/task-848\" finished with result:\nCommand exited with code 0.\n\nCommand output:\nHTTP: 200 | Connect: 0.014796s | StartTransfer: 11.300128s | Total: 11.302426s\r\n\nLog: file:///C:/Users/d/.gemini/antigravity/brain/a15a97c6-dccc-4f20-bae5-6b32e0337038/.system_generated/tasks/task-848.log\n</SYSTEM_MESSAGE>"
+        }
+      ],
+      "883": [
+        {
+          "type": "GENERIC",
+          "created_at": "2026-11-01T10:59:16Z",
+          "content": "Created At: 2026-11-01T18:59:16+08:00\nCompleted At: 2026-11-01T19:02:22+08:00\nA1: vultr好像都是绕路机房，你搜一下，a的方案可以改一下"
+        }
+      ],
+      "984": [
+        {
+          "type": "GENERIC",
+          "created_at": "2026-11-01T11:22:22Z",
+          "content": "Created At: 2026-11-01T19:22:22+08:00\nCompleted At: 2026-11-01T19:22:22+08:00\nTask \"a15a97c6-dccc-4f20-bae5-6b32e0337038/task-679\" cancelled."
+        }
+      ],
+      "986": [
+        {
+          "type": "GENERIC",
+          "created_at": "2026-11-01T11:22:29Z",
+          "content": "Created At: 2026-11-01T19:22:29+08:00\nCompleted At: 2026-11-01T19:22:30+08:00\nCommand exited with code 0.\n\nCommand output:\nExported 988 steps to c:\\Users\\d\\Documents\\open-melayu\\docs\\FULL_CONVERSATION_FOR_AUDIT.md File size: 121166\r\n"
+        }
+      ],
+      "987": [
+        {
+          "type": "SYSTEM_MESSAGE",
+          "created_at": "2026-11-01T11:22:30Z",
+          "content": "The following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.\n\n<SYSTEM_MESSAGE>\n[Message] timestamp=2026-11-01T11:22:22Z sender=a15a97c6-dccc-4f20-bae5-6b32e0337038/task-679 priority=MESSAGE_PRIORITY_LOW content=Task id \"a15a97c6-dccc-4f20-bae5-6b32e0337038/task-679\" was canceled with result:\nTool execution was canceled\nLog: file:///C:/Users/d/.gemini/antigravity/brain/a15a97c6-dccc-4f20-bae5-6b32e0337038/.system_generated/tasks/task-679.log\n</SYSTEM_MESSAGE>"
+        }
+      ]
+    },
+    "step_797_checkpoint": {
+      "stored": {
+        "total_candidates": 15000,
+        "current_index": 118,
+        "crawled_this_session": 85,
+        "found_this_session": 45,
+        "cached_total": 141,
+        "elapsed_seconds": 1561.5,
+        "last_word": "cepat",
+        "last_found": true,
+        "updated_at": "2026-11-01 18:44:39"
+      },
+      "attempted_words_per_hour": 195.96541786743515,
+      "found_flags_per_hour": 103.74639769452449
+    }
+  },
+  "offline_parser_reproductions": {
+    "unrelated_tab": {
+      "word": "awak",
+      "found_in_prpm": true,
+      "syllables": null,
+      "jawi": null,
+      "kamus_dewan": null,
+      "kamus_pelajar": null,
+      "raw_definitions": [
+        "Tiada maklumat dijumpai"
+      ]
+    },
+    "unicode_phonetic_and_span_jawi": {
+      "word": "awak",
+      "found_in_prpm": true,
+      "syllables": null,
+      "jawi": null,
+      "kamus_dewan": "[a.waʔ] اوق Definisi : X (Kamus Dewan)",
+      "kamus_pelajar": null,
+      "raw_definitions": [
+        "[a.waʔ] اوق Definisi : X (Kamus Dewan)"
+      ]
+    },
+    "two_dictionaries_one_pane": {
+      "word": "awak",
+      "found_in_prpm": true,
+      "syllables": null,
+      "jawi": null,
+      "kamus_dewan": "Definisi : X (Kamus Dewan) Definisi : Y (Kamus Pelajar)",
+      "kamus_pelajar": null,
+      "raw_definitions": [
+        "Definisi : X (Kamus Dewan) Definisi : Y (Kamus Pelajar)"
+      ]
+    }
+  },
+  "current_ip_probe": {
+    "command": "curl.exe --connect-timeout 5 --max-time 15 --silent --show-error https://api.ipify.org",
+    "exit_code": 7,
+    "stdout": "",
+    "stderr": "curl: (7) Failed to connect to api.ipify.org:443 over proxy 127.0.0.1 after 2031 ms: Could not connect to server\n",
+    "meaning": "Current sandbox only; does not determine historical PRPM egress"
+  }
+}

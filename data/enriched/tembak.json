@@ -1,0 +1,178 @@
+{
+  "headword": {
+    "word": "tembak",
+    "syllables": "tém.baʔ",
+    "ipa": "/tembaʔ/",
+    "jawi": "تيمبق",
+    "frequency_rank": 350,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tembak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tembak → tembak；meN- + tembak → menembak",
+    "pattern_note": "meN- 遇词首 t 时成为 men- 并使 t 脱落：menembak；peN- 同样构成 penembak。PRPM 独立 syllables 字段为空，但原始词典标题明确给出 [tém.baʔ]，据此保留该标注；é 对应 /e/，不是 /ə/。",
+    "word_family": [
+      {
+        "word": "menembak",
+        "affix": "meN-",
+        "gloss": "开枪；射击"
+      },
+      {
+        "word": "menembakkan",
+        "affix": "meN-…-kan",
+        "gloss": "发射子弹、火箭等"
+      },
+      {
+        "word": "ditembak",
+        "affix": "di-",
+        "gloss": "被枪击；被射击"
+      },
+      {
+        "word": "tertembak",
+        "affix": "ter-",
+        "gloss": "中枪；被射中"
+      },
+      {
+        "word": "tembakan",
+        "affix": "-an",
+        "gloss": "射击；枪声；射出的弹火"
+      },
+      {
+        "word": "penembak",
+        "affix": "peN-",
+        "gloss": "射手；射击工具"
+      },
+      {
+        "word": "penembakan",
+        "affix": "peN-…-an",
+        "gloss": "射击行为；枪击事件"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "开枪；射击；用枪械向某人或某物发射。",
+      "ms_definition": "menembak: melepaskan bedilan dgn senjata api (senapang, pistol, dll), melepaskan bedilan ke arah (seseorang atau sesuatu), membedil (Kamus Dewan Edisi Keempat).",
+      "nuances": "tembak 是基本形式，常见于口语、命令及 kena tembak 等结构；正式主动叙述一般用 menembak。射击不自动表示击中或死亡，menembak mati 才明确表示射杀；tertembak 也不能一律理解为误射，原包包含“中枪”的结果义。",
+      "collocations": [
+        {
+          "ms": "kena tembak",
+          "zh": "中枪；遭枪击",
+          "en": "get shot"
+        },
+        {
+          "ms": "tembak mati",
+          "zh": "开枪打死；射杀",
+          "en": "shoot dead"
+        }
+      ],
+      "en_definition": "To fire a gun; to shoot at someone or something."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "足球中射门；把球踢向球门（原词典标为印度尼西亚用法）。",
+      "ms_definition": "menembak: Id menyepak bola ke arah gol (dlm permainan bola sepak) (Kamus Dewan Edisi Keempat).",
+      "nuances": "该义在所给 Kamus Dewan 中标 Id，不据此宣称是马来西亚足球报道的首选表达。下列 menembak 搭配展示这一射门义；马来西亚报道也常用 merembat、menjaringkan gol，后者明确表示进球。",
+      "collocations": [
+        {
+          "ms": "menembak bola",
+          "zh": "踢球射门",
+          "en": "shoot the ball"
+        },
+        {
+          "ms": "menembak ke arah gol",
+          "zh": "向球门射门",
+          "en": "shoot at goal"
+        }
+      ],
+      "en_definition": "In football, to kick the ball towards the goal (Indonesian usage)."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "比喻：胡诌；撒谎；欺骗人。",
+      "ms_definition": "menembak: ki berbuat bohong, membohongi (Kamus Dewan Edisi Keempat).",
+      "nuances": "必须靠非枪械语境理解，jangan tembak 可是在说“别瞎编”。聊天或考试语境的 tembak jawapan 还可指蒙答案，但猜测不必然是说谎，不能将这两种意图混为一谈；这里的官方释义只明确支持撒谎义。",
+      "collocations": [
+        {
+          "ms": "jangan tembak",
+          "zh": "别瞎编（比喻语境）",
+          "en": "don't make things up"
+        },
+        {
+          "ms": "tembak cerita",
+          "zh": "胡编故事（口语）",
+          "en": "make up stories"
+        }
+      ],
+      "en_definition": "To make things up, tell lies, or deceive someone (figurative)."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／警方事件通报",
+      "ms": "Pihak polis mengesahkan bahawa mangsa yang kena tembak itu kini berada dalam keadaan stabil di hospital.",
+      "zh": "警方证实，该名遭枪击的伤者目前在医院，情况稳定。",
+      "en": "The police confirmed that the shooting victim is now in a stable condition in hospital."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两名朋友打射击游戏时，通过聊天提醒对方前方的人是队友",
+      "ms_spoken": "Ada orang kat depan tu. Aku nak tembak, boleh?",
+      "ms_standard": "Ada seseorang di hadapan sana. Bolehkah saya menembaknya?",
+      "zh": "前面有个人。我可以开枪打他吗？",
+      "spoken_features": [
+        "tembak 在这里指游戏中的开枪射击；aku nak tembak 的标准形式可恢复为 saya hendak menembak。",
+        "jangan tembak 是自然的禁止表达；标准马来语中 jangan 后使用词根 tembak 也可以成立。",
+        "kat = di；tu = itu；x = tidak；bagitau 对应 memberitahu。",
+        "kawan kita 在此指我方队友；lah 加强身份纠正，nasib kau bagitau 表示“幸好你告诉我”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (游戏队友)",
+          "ms_spoken": "Ada orang kat depan tu. Aku nak tembak, boleh?",
+          "ms_standard": "Ada seseorang di hadapan sana. Bolehkah saya menembaknya?",
+          "zh": "前面有个人。我可以开枪打他吗？",
+          "en": "There's someone up ahead. Can I shoot him?"
+        },
+        {
+          "speaker": "Farhan (游戏队友)",
+          "ms_spoken": "Eh, jangan tembak dulu! Tu kawan kita lah. Tengok nama atas kepala dia.",
+          "ms_standard": "Eh, jangan menembak dahulu! Orang itu rakan sepasukan kita. Lihat nama di atas kepalanya.",
+          "zh": "诶，先别开枪！那是咱们队友啦。看他头顶的名字。",
+          "en": "Hey, don't shoot yet! He's on our team! Look at the name above his head."
+        },
+        {
+          "speaker": "Haziq (游戏队友)",
+          "ms_spoken": "Oh, patutlah. Aku x nampak nama dia tadi. Nasib kau bagitau.",
+          "ms_standard": "Oh, patutlah. Saya tidak melihat namanya tadi. Mujurlah awak memberitahu saya.",
+          "zh": "哦，难怪。我刚才没看到他的名字。幸好你提醒我。",
+          "en": "Oh, that explains it. I didn't see his name just now. Good thing you told me."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "枪击义本身是中性事件用语，但直接对人说 aku tembak kau 会被理解为威胁，不能把它当作陌生人之间的普通玩笑。比喻用法也须有清楚语境。",
+    "usage_etiquette": "新闻中应区分被射击、中枪和死亡，不因出现 tembak 就自行添加死亡信息。游戏聊天的命令表达不宜直接套到现实交往；考试聊天中的“蒙答案”须与蓄意撒谎区分。原包另有 Minangkabau 的方向、目的义，不与现代枪击义混作同一词源故事。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic，经 Malay timbak 形式",
+    "root_origin": "所给词源链为 Malay timbak ← Proto-Malayic *timbak ← (Western) Proto-Malayo-Polynesian *ti(m)bak。",
+    "historical_story": "所给词源材料把 tembak 接到较早的 timbak，再上溯至马来祖语 *timbak；这条线索不支持把它说成欧洲枪械名称的借词。Kamus Dewan 引用的古典叙事把战斗中的互射与雷鸣般的炮声并置，让人看见它在旧式战争描写中的位置。到了现代，词族既出现在体育射击和新闻报道里，也延伸到“胡诌”之类口语比喻。",
+    "cognitive_memory_aid": "记住 t 被鼻音前缀接走：tembak → menembak；人是 penembak，响起或射出的则是 tembakan。"
+  }
+}

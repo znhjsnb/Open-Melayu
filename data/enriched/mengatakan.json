@@ -1,0 +1,155 @@
+{
+  "headword": {
+    "word": "mengatakan",
+    "syllables": "me.nga.ta.kan",
+    "ipa": "[mə.ŋa.ta.kan]",
+    "jawi": "مڠاتاکن",
+    "frequency_rank": 297,
+    "tags": [
+      "CEFR-A2",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kata",
+    "affix": "meN-…-kan",
+    "affix_type": "circumfix",
+    "formula": "meN- + kata + -kan → meng- + ata + -kan → mengatakan",
+    "pattern_note": "meN- 遇词根 kata 的 k 时，鼻音变为 ng [ŋ]，词首 k 脱落；-kan 接在词尾。本词表示说出或告知某内容，不能把 -kan 一律硬译为使、让。这里采用词尾 a 保留为 [a] 的文读；半岛南部口语亦可听到 [mə.ŋa.tə.kan]。",
+    "word_family": [
+      {
+        "word": "kata",
+        "affix": "none",
+        "gloss": "话；词；说"
+      },
+      {
+        "word": "berkata",
+        "affix": "ber-",
+        "gloss": "说话；说道"
+      },
+      {
+        "word": "dikatakan",
+        "affix": "di-…-kan",
+        "gloss": "被说成；据说"
+      },
+      {
+        "word": "perkataan",
+        "affix": "per-…-an",
+        "gloss": "词语；话语"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "说；告知、讲述某项消息或情况。",
+      "ms_definition": "memberitahukan; menceritakan",
+      "nuances": "本条马来语原释义据资料包中的 DBP《Kamus Pelajar Edisi Kedua》；该词的独立 Kamus Dewan 字段为空。新闻转述常用 mengatakan bahawa + 完整分句；mengatakan 引出所说内容，memberitahu seseorang 则能直接突出被告知的人。",
+      "collocations": [
+        {
+          "ms": "mengatakan bahawa",
+          "zh": "表示……；说……",
+          "en": "say that"
+        },
+        {
+          "ms": "mengatakan perkara sebenar",
+          "zh": "说出实情",
+          "en": "tell the truth"
+        }
+      ],
+      "en_definition": "To state or report information about something."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "说出、讲出某些话；把话表达出来。",
+      "ms_definition": "mengeluarkan kata-kata; mengucapkan; menuturkan",
+      "nuances": "原释义据 DBP《Kamus Pelajar Edisi Kedua》。这里关注说出口的内容，与上一义的消息传递侧重点不同；mengatakan sesuatu 表示说点什么，并不说明内容是真是假。",
+      "collocations": [
+        {
+          "ms": "mengatakan sesuatu",
+          "zh": "说点什么",
+          "en": "say something"
+        },
+        {
+          "ms": "tidak mengatakan apa-apa",
+          "zh": "什么也没说",
+          "en": "say nothing"
+        }
+      ],
+      "en_definition": "To say or utter words; to express something in words."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "把……说成、形容为；以言语给某人或事物作评价。",
+      "ms_definition": "menyifatkan; memisalkan",
+      "nuances": "原释义据 DBP《Kamus Pelajar Edisi Kedua》。例如把某事说成不可能，强调说话者作出的评价；不是凡表示心里猜想的 menganggap、menyangka 都能换成 mengatakan。较正式的定性表达也常用 menyifatkan。",
+      "collocations": [
+        {
+          "ms": "mengatakan dirinya pakar",
+          "zh": "自称是专家",
+          "en": "claim to be an expert"
+        },
+        {
+          "ms": "mengatakan perkara itu mustahil",
+          "zh": "把那件事说成不可能",
+          "en": "describe something as impossible"
+        }
+      ],
+      "en_definition": "To describe or characterize someone or something as having a particular quality or status."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 政府发言人声明",
+      "ms": "Jurucakap kementerian mengatakan bahawa permohonan yang lengkap akan diproses dalam tempoh tujuh hari bekerja.",
+      "zh": "该部发言人表示，资料齐全的申请将在七个工作日内处理。",
+      "en": "The ministry spokesperson said that complete applications would be processed within seven working days."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对会议改期消息",
+      "ms_spoken": "Tadi bos kata mesyuarat tukar ke pagi esok, kan? Aku takut salah dengar.",
+      "ms_standard": "Tadi bos mengatakan bahawa mesyuarat dijadualkan semula pada pagi esok, bukan? Saya bimbang saya tersalah dengar.",
+      "zh": "刚才老板说会议改到明早了，对吧？我怕自己听错了。",
+      "spoken_features": [
+        "口语常用 kata 表达标准语 mengatakan 的转述功能；这里引出老板说的消息，并非 mengatakan 的拼写缩写。",
+        "mesyuarat tukar ke… 是依赖语境的口语表达；标准句用 dijadualkan semula pada… 明确表示会议改期。",
+        "kan 用来确认消息，Haah 表示肯定；dah 对应 sudah，jugak 是 juga 的非正式写法，grup 在这里指聊天群。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Tadi bos kata mesyuarat tukar ke pagi esok, kan? Aku takut salah dengar.",
+          "ms_standard": "Tadi bos mengatakan bahawa mesyuarat dijadualkan semula pada pagi esok, bukan? Saya bimbang saya tersalah dengar.",
+          "zh": "刚才老板说会议改到明早了，对吧？我怕自己听错了。",
+          "en": "The boss said the meeting's been moved to tomorrow morning, right? I'm worried I misheard."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Haah, pukul sembilan pagi esok. Dia dah tulis dalam grup jugak.",
+          "ms_standard": "Ya, mesyuarat itu akan diadakan pada pukul sembilan pagi esok. Dia juga sudah menulis maklumat itu dalam kumpulan sembang.",
+          "zh": "对，明早九点。他也已经在群里写了。",
+          "en": "Yeah, nine tomorrow morning. He's already posted it in the group chat too."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "新闻中用 mengatakan 中性地归属言论，通常不带指控意味。对当事人说 awak mengatakan… 时仍须注意语气，以免听成追责。",
+    "usage_etiquette": "正式转述应交代说话人，并区分原话与自己的概括；一句 mengatakan bahawa 不等于所转述内容已经证实。熟人聊天常用 dia kata；对长辈或不熟悉的人，自称 saya，并采用合适姓名、职称或敬称。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "Sanskrit；本地 Kaikki 另列经 Pali 的传入链；Malay 派生",
+    "root_origin": "kata 可追溯至梵语 कथा（kathā，交谈、话语、故事）；本地词源资料列 Pali kathā 为中介形式。mengatakan 本身由马来语 meN- 与 -kan 构成。",
+    "historical_story": "南亚与马来群岛的海上文化往来，为 kathā 这类与讲述有关的词提供了传播背景；具体中介路径不能只凭词形相似来确定。进入马来语的 kata 既能指一个词，也能指说出的话，再接上本地的 meN- 与 -kan，便成为 mengatakan。于是，故事与交谈的旧词根，如今也承担了新闻报道里“某人表示”的日常工作。",
+    "cognitive_memory_aid": "先记 kata＝话，再把“把话说出来”装进 meN-…-kan 的框：k 被 ng 接替，得到 mengatakan。"
+  }
+}

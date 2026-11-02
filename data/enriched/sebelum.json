@@ -1,0 +1,147 @@
+{
+  "headword": {
+    "word": "sebelum",
+    "syllables": "se.be.lum",
+    "ipa": "/səbəˈlum/",
+    "jawi": "سبلوم",
+    "frequency_rank": 160,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "belum",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + belum → sebelum",
+    "pattern_note": "belum 是“尚未”，加 se- 构成时间关系词“在……之前”；原包把完整词列为 root，此处据本地 DBP belum 词条所列派生关系校正。两个 e 均按标准弱元音 [ə] 转写；IPA 为编辑依据标准读音转写，非原包已有注音。",
+    "word_family": [
+      {
+        "word": "belum",
+        "affix": "none",
+        "gloss": "尚未；还没有"
+      },
+      {
+        "word": "belum-belum",
+        "affix": "重叠",
+        "gloss": "事情尚未开始时；还早着的时候"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "在……发生之前；趁尚未……时。",
+      "ms_definition": "sewaktu belum, pd waktu belum",
+      "nuances": "接动作或分句，为另一事件设定时间界限；sebelum terlambat 是“趁还来得及”，不是断言事情后来一定发生。表示“尚未完成”本身用 belum。",
+      "collocations": [
+        {
+          "ms": "sebelum tidur",
+          "zh": "睡觉前",
+          "en": "before going to bed"
+        },
+        {
+          "ms": "sebelum terlambat",
+          "zh": "趁还来得及",
+          "en": "before it's too late"
+        }
+      ],
+      "en_definition": "Before an action or event occurs; while something has not yet happened."
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "早于某个时间点；在某个事件之前。",
+      "ms_definition": "sewaktu belum, pd waktu belum",
+      "nuances": "同一官方时间义在“sebelum + 时间或事件名词”中作介词；两个词性按句法环境区分，并非声称 Kamus Dewan 列有两个独立编号。表示空间上的“在前面”通常用 di hadapan。",
+      "collocations": [
+        {
+          "ms": "sebelum pukul lima",
+          "zh": "五点之前",
+          "en": "before five o'clock"
+        },
+        {
+          "ms": "sebelum mesyuarat",
+          "zh": "会议之前",
+          "en": "before the meeting"
+        }
+      ],
+      "en_definition": "Earlier than a specified time or event."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "机构通知 / 申请截止时间",
+      "ms": "Semua permohonan hendaklah dikemukakan sebelum pukul lima petang pada hari Jumaat.",
+      "zh": "所有申请须于星期五下午五点之前提交。",
+      "en": "All applications must be submitted before five o’clock on Friday afternoon."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友来访前约定提前发消息，方便下楼接人",
+      "ms_spoken": "Mesej aku sebelum kau sampai, ya. Nanti aku turun tunggu kat bawah.",
+      "ms_standard": "Hantar mesej kepada saya sebelum awak tiba, ya. Saya akan turun untuk menunggu di bawah.",
+      "zh": "你到之前给我发个消息啊。我到时下楼等你。",
+      "spoken_features": [
+        "sebelum kau sampai 表示发消息发生在到达之前；第二轮用快到时发消息回应这一要求。",
+        "mesej aku 是口语中直接用 mesej 作动词并接对象的表达，标准改写为 hantar mesej kepada saya。",
+        "kat 对应 di；dah dekat 在这里表示已接近目的地。",
+        "lagi sepuluh minit aku sampai 是口语时间表达，标准改写用 akan tiba dalam masa sepuluh minit lagi 明确将来时间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (朋友兼主人)",
+          "ms_spoken": "Mesej aku sebelum kau sampai, ya. Nanti aku turun tunggu kat bawah.",
+          "ms_standard": "Hantar mesej kepada saya sebelum awak tiba, ya. Saya akan turun untuk menunggu di bawah.",
+          "zh": "你到之前给我发个消息啊。我到时下楼等你。",
+          "en": "Text me before you get here, okay? I'll come downstairs and wait for you."
+        },
+        {
+          "speaker": "Aina (来访朋友)",
+          "ms_spoken": "Okey, lagi sepuluh minit aku sampai. Bila dah dekat nanti aku mesej.",
+          "ms_standard": "Baiklah, saya akan tiba dalam masa sepuluh minit lagi. Apabila saya sudah hampir tiba, saya akan menghantar mesej kepada awak.",
+          "zh": "好，我还有十分钟就到。快到的时候我就给你发消息。",
+          "en": "Okay, I'll be there in ten minutes. I'll text you when I'm close."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "sblm",
+      "full_form": "sebelum",
+      "note": "短信和聊天中的省元音形式；正式通知写全词。"
+    },
+    {
+      "abbr": "sblum",
+      "full_form": "sebelum",
+      "note": "非正式省略拼写，按上下文还原。"
+    },
+    {
+      "abbr": "sbum",
+      "full_form": "sebelum",
+      "note": "给定候选中的较不透明省写，容易误读；学习和正式表达宜用全词。"
+    },
+    {
+      "abbr": "sbelum",
+      "full_form": "sebelum",
+      "note": "省去首个 e 的聊天写法，不是规范拼写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用于提醒与安排时语气本身中性；对客户或长辈可配合 sila、mohon 或合适称谓，避免把提醒说成命令。",
+    "usage_etiquette": "约时间时可写清日期、上午或下午；sebelum 表示早于所列界限。需要说明截止点是否包含该时刻时，应写清具体规则，不让对方仅凭口语猜测。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；Proto-Malayic（马来语；原始马来语）",
+    "root_origin": "马来语 se- + belum；本地 DBP 的 belum 词条列有 sebelum。本地 Kaikki 将 belum 上溯至原始马来语重建形式 *bəlum；未提供 sebelum 的最早书证或年代。",
+    "historical_story": "belum 表达事情“还没发生”，sebelum 则把这个尚未发生的节点变成安排另一件事的时间界限。由“睡前刷牙”到现代通知中的“下午五点前提交”，这个马来语自身的构词把日常经验写成了清楚的先后顺序；现有资料不足以给它补上具体的诞生年代或航海传播故事。",
+    "cognitive_memory_aid": "belum＝还没；sebelum＝趁那件事还没发生：sebelum tidur 就是“睡前”。"
+  }
+}

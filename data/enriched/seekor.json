@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "seekor",
+    "syllables": null,
+    "ipa": "/səˈekor/",
+    "jawi": null,
+    "frequency_rank": 928,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: ايکور (ekor)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ekor",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + ekor → seekor",
+    "pattern_note": "se- 在这里表示一，接动物量词 ekor；拼写保留相邻两个 e，第一个读 /ə/，第二个读 /e/。资料包没有 seekor 的官方音节或爪夷文，两个字段保留 null，不用推导形式冒充 DBP 原文。 核心词根（Kata Dasar）「ekor」官方爪夷文为「ايکور」，派生附加 se-。",
+    "word_family": [
+      {
+        "word": "ekor",
+        "affix": "none",
+        "gloss": "尾巴；动物量词"
+      },
+      {
+        "word": "berekor",
+        "affix": "ber-",
+        "gloss": "有尾巴的"
+      },
+      {
+        "word": "mengekori",
+        "affix": "meN-...-i",
+        "gloss": "跟在后面；跟踪"
+      },
+      {
+        "word": "ekoran",
+        "affix": "-an",
+        "gloss": "后果；某事造成的结果"
+      }
+    ],
+    "root_jawi": "ايکور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一只；一头；一条（用于数一只动物）。",
+      "ms_definition": "penjodoh bilangan utk binatang",
+      "nuances": "实际类别为带数值“一”的量词结构，本 schema 无 classifier，暂归 noun。此处马来释义是 DBP《Kamus Dewan》第四版 ekor 的量词义，并非未命中的 seekor 独立词条；se- 加入“一”的意思。来源：[DBP ekor](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=ekor)。用于各种动物，不要求有可见的尾巴；人的中性量词用 seorang。",
+      "collocations": [
+        {
+          "ms": "seekor kucing",
+          "zh": "一只猫",
+          "en": "a cat"
+        },
+        {
+          "ms": "seekor ikan",
+          "zh": "一条鱼",
+          "en": "a fish"
+        }
+      ],
+      "en_definition": "A or one; used when referring to a single animal."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 动物救援报道",
+      "ms": "Anggota bomba berjaya menyelamatkan seekor kucing yang terperangkap di dalam longkang.",
+      "zh": "消防人员成功救出一只困在沟渠内的猫。",
+      "en": "Firefighters successfully rescued a cat trapped in a drain."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 邻居发现一只猫，核对是不是对方走失的宠物",
+      "ms_spoken": "Kak, ada seekor kucing oren kat luar rumah saya. Kucing akak ke?",
+      "ms_standard": "Kakak, ada seekor kucing berwarna jingga di luar rumah saya. Adakah itu kucing kakak?",
+      "zh": "姐，我家外面有一只橘猫。是你家的猫吗？",
+      "spoken_features": [
+        "seekor 由 se- 与动物量词 ekor 构成，seekor kucing 表示一只猫。",
+        "Kak、akak 可用于称呼熟悉且年长的女性邻居，不一定表示亲姐姐。",
+        "kat 对应 di；句末 ke 和 tak 都可用于构成口语是非问句。",
+        "haah 表示肯定回应，相当于 ya；je 对应 sahaja。",
+        "dia 在熟悉宠物的聊天中指猫；正式版本用 kucing itu 明确指代。Dari tadi cari dia 省略主语 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (邻居)",
+          "ms_spoken": "Kak, ada seekor kucing oren kat luar rumah saya. Kucing akak ke?",
+          "ms_standard": "Kakak, ada seekor kucing berwarna jingga di luar rumah saya. Adakah itu kucing kakak?",
+          "zh": "姐，我家外面有一只橘猫。是你家的猫吗？",
+          "en": "Hi, there's an orange cat outside my house. Is it yours?"
+        },
+        {
+          "speaker": "Kak Liza (年长的邻居)",
+          "ms_spoken": "Dia pakai kolar biru tak? Kalau ya, itu Oyen saya. Dari tadi cari dia.",
+          "ms_standard": "Adakah kucing itu memakai kolar biru? Jika ya, itulah kucing saya yang bernama Oyen. Saya mencarinya sejak tadi.",
+          "zh": "它戴着蓝色项圈吗？要是有，那就是我家的 Oyen。我找它好一阵了。",
+          "en": "Is it wearing a blue collar? If so, that's my Oyen. I've been looking for him for a while now."
+        },
+        {
+          "speaker": "Siti (邻居)",
+          "ms_spoken": "Haah, kolar biru. Saya tunggu sini dengan dia, akak datang je.",
+          "ms_standard": "Ya, kucing itu memakai kolar biru. Saya akan menunggu di sini bersama kucing itu. Kakak datang sahaja.",
+          "zh": "对，蓝色项圈。我在这里陪着它等，你过来就行。",
+          "en": "Yep, a blue collar. I'll stay here with him until you get here. Just come on over."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "sekor",
+      "full_form": "seekor",
+      "note": "非正式聊天可见的口语缩合写法；正式作文保留 seekor。参见 Wiktionary seekor 的 Malay 用法条。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "seekor 用来数动物很普通；用来称呼某个人会将对方动物化，通常是明显的贬辱。",
+    "usage_etiquette": "不要拿 seekor 加上族群、宗教身份或人的称呼开玩笑。猫、狗、鱼等均可用 ekor 计数；讨论宠物时尊重对方与动物相处的边界，不推定所有人愿意触摸或照料同一种动物。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Bahasa Melayu；本土数词与量词构词",
+    "root_origin": "se-（一）+ ekor（尾巴；动物量词）；这里说明可核实的现代构词，不据此虚构更早的音形、年代或借入路线。",
+    "historical_story": "ekor 把动物身体上的尾巴和计数动物的量词联系在同一个词里，接上表示“一”的 se- 就成为 seekor。今天不论是家里的猫、池里的鱼，还是救援新闻中的野生动物，都可沿用这一计数结构；词源记忆中的尾巴并不限制实际适用的动物。",
+    "cognitive_memory_aid": "se-＝一，ekor＝动物的计数单位：seekor kucing 就是一只猫，不是一条猫尾巴。"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "headword": {
+    "word": "setengah",
+    "syllables": "se.te.ngah",
+    "ipa": "/sətəŋah/",
+    "jawi": "ستڠه",
+    "frequency_rank": 971,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tengah",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + tengah → setengah",
+    "pattern_note": "按资料包词源 se- + tengah 修正自动根词候选 setengah；tengah 的 t 保留，ng 表示一个 /ŋ/ 音。音节与 Jawi 逐字采用本地 UTF-8 原任务包，IPA 采用资料包完整音位式；CEFR 为教学估级。",
+    "word_family": [
+      {
+        "word": "tengah",
+        "affix": "∅",
+        "gloss": "中间；中央"
+      },
+      {
+        "word": "setengah-setengah",
+        "affix": "se-；整词重叠",
+        "gloss": "一些；不彻底；犹豫不决，依语境而定"
+      },
+      {
+        "word": "sesetengah",
+        "affix": "se-；部分重叠构词",
+        "gloss": "某些；一部分"
+      },
+      {
+        "word": "pertengahan",
+        "affix": "per-…-an",
+        "gloss": "中期；中间部分"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一半；二分之一。",
+      "ms_definition": "separuh, seperdua",
+      "nuances": "Kamus Dewan 第一义节录。语法上是分数数词（kata bilangan pecahan），本 Schema 无 numeral，暂归 noun；setengah jam 是半小时，pukul tiga setengah 是三点半。不能把英语 half past three 的词序直接照搬。",
+      "collocations": [
+        {
+          "ms": "setengah jam",
+          "zh": "半小时",
+          "en": "half an hour"
+        },
+        {
+          "ms": "setengah hari",
+          "zh": "半天",
+          "en": "half a day"
+        }
+      ],
+      "en_definition": "Half; one of two equal parts of a whole."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "不完全的；尚未充分达到某种状态的。",
+      "ms_definition": "tidak sempurna, tidak sepenuh-penuhnya, tidak ... betul",
+      "nuances": "Kamus Dewan 第二义节录。常与状态词连用：setengah masak 可指食物未熟透，也可比喻思考或准备不成熟；后者用于评价人或方案时带批评语气。这里未必表示可精确计算的百分之五十。",
+      "collocations": [
+        {
+          "ms": "setengah masak",
+          "zh": "半熟；考虑不成熟",
+          "en": "half-cooked; half-baked (of an idea or plan)"
+        },
+        {
+          "ms": "setengah sedar",
+          "zh": "半清醒；意识模糊",
+          "en": "half-conscious; only partly aware"
+        }
+      ],
+      "en_definition": "Partly; incompletely or without fully reaching a particular state."
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "〔口语，贬义〕被说成神志不清或有些疯癫的。",
+      "ms_definition": "bp kurang waras fikirannya (otaknya, akalnya), agak gila",
+      "nuances": "Kamus Dewan 第三义原文，bp 表示口语。这是带污名的日常标签，不是精神健康诊断；setengah tiang 的本义也可能是半旗，须结合是否谈论人来判断。",
+      "collocations": [
+        {
+          "ms": "orang setengah",
+          "zh": "被贬称为有点疯癫的人",
+          "en": "someone who's not quite right in the head"
+        },
+        {
+          "ms": "setengah tiang",
+          "zh": "〔喻，贬〕神志不太清楚",
+          "en": "not quite right in the head"
+        }
+      ],
+      "en_definition": "(Colloquial, derogatory) Considered mentally unsound or somewhat mad."
+    },
+    {
+      "id": 4,
+      "pos": "pronoun",
+      "zh_definition": "一些；其中一部分人或事物。",
+      "ms_definition": "setengah-setengah",
+      "nuances": "Kamus Dewan 第四义以 setengah-setengah 互释；此处按不定数量指称归入 pronoun，置于名词前时具限定作用。setengah orang 在某些语境指有些人，并非半个人；正式文字宜用 sesetengah orang 以免与半数混淆。",
+      "collocations": [
+        {
+          "ms": "setengah orang",
+          "zh": "有些人",
+          "en": "some people"
+        },
+        {
+          "ms": "setengah pihak",
+          "zh": "某些方面；部分人士",
+          "en": "certain groups; some parties"
+        }
+      ],
+      "en_definition": "Some; a proportion of the people or things in a group."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 公共交通",
+      "ms": "Perkhidmatan tren tergendala selama setengah jam akibat gangguan teknikal.",
+      "zh": "列车服务因技术故障中断了半小时。",
+      "en": "Train services were disrupted for half an hour due to a technical fault."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约见，一方通知会迟到",
+      "ms_spoken": "Aku baru keluar rumah ni. Boleh tunggu setengah jam lagi tak?",
+      "ms_standard": "Saya baru sahaja keluar dari rumah. Bolehkah kamu menunggu setengah jam lagi?",
+      "zh": "我刚出门。你能再等半小时吗？",
+      "spoken_features": [
+        "setengah jam 表示半小时；setengah 在口语中保留完整。",
+        "ni 在首句末尾突出眼下的情况；Boleh…tak? 是常见的是非问句格式。",
+        "je 对应 sahaja，在 Boleh je 中表示爽快答应；lepak 表示闲坐、消磨时间。",
+        "kat 对应 di；depan 对应 hadapan；bagitahu 对应 beritahu。aku 用于熟悉的朋友之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Aku baru keluar rumah ni. Boleh tunggu setengah jam lagi tak?",
+          "ms_standard": "Saya baru sahaja keluar dari rumah. Bolehkah kamu menunggu setengah jam lagi?",
+          "zh": "我刚出门。你能再等半小时吗？",
+          "en": "I've just left home. Can you wait another half an hour?"
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Boleh je. Aku lepak kat kedai kopi depan stesen dulu. Dah sampai nanti bagitahu aku.",
+          "ms_standard": "Boleh. Saya akan bersantai di kedai kopi di hadapan stesen dahulu. Beritahu saya apabila kamu sudah tiba nanti.",
+          "zh": "可以啊。我先在车站前面的咖啡店坐坐。到了告诉我。",
+          "en": "Sure. I'll hang out at the coffee shop in front of the station for now. Let me know when you get here."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "数量义语气中性，点餐或安排时间都适用；评价人的 setengah、setengah masak 则可能冒犯。与不熟悉的人说话可用 saya，并以 tolong 或 boleh 缓和请求。",
+    "usage_etiquette": "约时间时说清 pukul tiga setengah（三点半）与 setengah jam（半小时）的差别。不要用 orang setengah 或 setengah tiang 嘲讽有精神健康困难的人；正式表达有些人用 sesetengah orang。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语",
+    "root_origin": "资料包给出 se- + tengah；这是马来语内部构词，不把整词当作外来借词。",
+    "historical_story": "tengah 表示中间，se- 与它组合成了表示半份的 setengah：可以把一份物品从中间分开的画面当作记忆入口。这个构词关系延伸到半天、半小时，也能描写食物或意识尚未完全达到某种状态；现代用法还保留有些、部分的意义。",
+    "cognitive_memory_aid": "tengah＝中间；从中间分一份就是 setengah。setengah jam＝半小时，sesetengah orang＝有些人。"
+  }
+}

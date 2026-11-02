@@ -1,0 +1,111 @@
+{
+  "headword": {
+    "word": "menolong",
+    "syllables": "me.no.long",
+    "ipa": "/mə.no.loŋ/",
+    "jawi": "منولوڠ",
+    "frequency_rank": 1307,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tolong",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + tolong → menolong",
+    "pattern_note": "meN- 遇到词根开头的 t 时实现为 men-，t 脱落：men- + olong → menolong；e 读 /ə/。因此词根应为 tolong，数据包将 menolong 标为词根的记录需校正。[DBP 词根与派生词](https://prpm.dbp.gov.my/Cari1?keyword=menolong)",
+    "word_family": [
+      {
+        "word": "penolong",
+        "affix": "peN-",
+        "gloss": "助手；协助者"
+      },
+      {
+        "word": "pertolongan",
+        "affix": "per-…-an",
+        "gloss": "帮助；援助"
+      }
+    ],
+    "root_jawi": "تولوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "通过体力、金钱、想法或实际行动帮助他人完成事情或减轻困难。",
+      "en_definition": "To help someone accomplish a task or ease a difficulty through practical effort, money, or advice.",
+      "ms_definition": "Membantu seseorang dengan tenaga, wang, fikiran atau usaha lain untuk memudahkan urusan atau meringankan kesusahannya.",
+      "nuances": "通常以受帮助的人作宾语，例如 menolong ibu，后面可接具体活动。口语常省去 meN-，用 tolong 表达相同动作；表示礼貌请求的 Tolong buka pintu 中，tolong 则相当于“请”。",
+      "collocations": [
+        {
+          "ms": "menolong ibu di dapur",
+          "zh": "在厨房帮妈妈",
+          "en": "help Mum in the kitchen"
+        },
+        {
+          "ms": "menolong orang yang susah",
+          "zh": "帮助生活困难的人",
+          "en": "help people in need"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Para sukarelawan menolong penduduk membersihkan rumah selepas banjir.",
+      "zh": "志愿者们帮助居民清理洪水过后的房屋。",
+      "en": "The volunteers helped residents clean their homes after the flood."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku tengah menolong mak kat dapur. Nanti aku balas, ya.",
+      "ms_standard": "Saya sedang menolong ibu di dapur. Saya akan membalas mesej kamu nanti, ya.",
+      "zh": "我正在厨房帮我妈，等下回你啊。",
+      "en": "I'm helping my mum in the kitchen. I'll reply later, okay?",
+      "spoken_features": [
+        "tengah 在此表示正在进行，相当于 sedang",
+        "mak 是对母亲的日常称呼",
+        "kat 对应 di",
+        "balas 在聊天语境中省略了 mesej 这一宾语",
+        "自然口语可以保留完整形式 menolong"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku tengah menolong mak kat dapur. Nanti aku balas, ya.",
+          "ms_standard": "Saya sedang menolong ibu di dapur. Saya akan membalas mesej kamu nanti, ya.",
+          "zh": "我正在厨房帮我妈，等下回你啊。",
+          "en": "I'm helping Mum in the kitchen right now. I'll get back to you later, okay?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Okey, tolong mak dulu je. Aku nak tanya pasal esok, tak mendesak pun.",
+          "ms_standard": "Baiklah, bantu ibu kamu dahulu. Saya hendak bertanya tentang hari esok; perkara itu tidak mendesak.",
+          "zh": "好，你先帮你妈吧。我只是想问问明天的事，不急。",
+          "en": "Okay, go ahead and help your mum. I just wanted to ask about tomorrow. It's nothing urgent."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "主动帮忙可先问 Boleh saya tolong?，让对方有接受或婉拒的空间。请求别人帮忙时，可用 Boleh tolong saya…?。",
+    "usage_etiquette": "正式陈述使用 menolong，熟人对话中常说 tolong。nolongin 属于印度尼西亚口语形式，不宜作为马来西亚标准马来语或本词的短信缩写。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "原始马来—波利尼西亚语，经马来语传承",
+    "root_origin": "*tuluŋ，意为“帮助、协助”；现代构词为 meN- + tolong",
+    "cognitive_memory_aid": "先记 tolong“帮忙”，再想象 meN- 接过词首 t 的位置：t 退场、n 留下，形成 menolong“帮助别人”。",
+    "historical_story": "tolong 的“帮助”义可追溯至原始马来—波利尼西亚语 *tuluŋ，与他加禄语 tulong 等形式同源。现代马来语给这个古老词根加上主动前缀 meN-，经鼻音替换形成 menolong，继续用来描述实际的帮助行为。[tolong 词源](https://en.wiktionary.org/wiki/tolong#Malay)"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "主动帮忙可先问 Boleh saya tolong?，让对方有接受或婉拒的空间。请求别人帮忙时，可用 Boleh tolong saya…?。",
+    "usage_etiquette": "正式陈述使用 menolong，熟人对话中常说 tolong。nolongin 属于印度尼西亚口语形式，不宜作为马来西亚标准马来语或本词的短信缩写。"
+  }
+}

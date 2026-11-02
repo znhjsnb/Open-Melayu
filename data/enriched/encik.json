@@ -1,0 +1,119 @@
+{
+  "headword": {
+    "word": "encik",
+    "syllables": "",
+    "ipa": "[ʔəɲˈt͡ʃiʔ]",
+    "jawi": "انچيق",
+    "frequency_rank": 361,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "encik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + encik → encik",
+    "pattern_note": "整词记忆，不拆成 en- 与 cik。PRPM 独立音节字段为 null，因此 syllables 留空；原词典另有读音标注 [en.ciʔ]，不冒充独立音节数据。IPA 采用本地完整数据包的读音，词尾 k 实现为喉塞音 [ʔ]。CEFR 标签为教学分级估计。",
+    "word_family": [
+      {
+        "word": "berencik",
+        "affix": "ber-",
+        "gloss": "交谈时使用 encik 称呼"
+      },
+      {
+        "word": "memperencik",
+        "affix": "memper-",
+        "gloss": "称某人为 encik"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "先生：对成年男子的礼貌称呼，也可放在人名前。",
+      "ms_definition": "panggilan kpd orang lelaki yg sederhana kedudukannya atau yg tidak dikenali; gelaran yg digunakan sebelum nama orang lelaki (yg tidak mempunyai sebarang gelaran spt Datuk, Tengku, dsb)",
+      "nuances": "合并 Kamus Dewan 第 1、3 义，保留官方措辞。可直接称呼 Encik，也可说 Encik Ramli；作具体称谓时首字母大写。词典另载某些群体称母亲及标为 Jk 的华人男子称呼，均不作为现代马来西亚通用称呼教授；今天 Encik 可用于不同族群的男子。",
+      "collocations": [
+        {
+          "ms": "Encik Ramli",
+          "zh": "拉姆里先生",
+          "en": "Mr Ramli"
+        },
+        {
+          "ms": "terima kasih, encik",
+          "zh": "谢谢您，先生",
+          "en": "thank you, sir"
+        }
+      ],
+      "en_definition": "A polite form of address for an adult man, equivalent to ‘sir’, or a title used before a man's name, equivalent to ‘Mr’."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区会议 / 主持人致辞",
+      "ms": "Pihak penganjur merakamkan penghargaan kepada Encik Ramli atas sumbangan beliau kepada masyarakat setempat.",
+      "zh": "主办方向拉姆里先生为当地社区作出的贡献致以谢意。",
+      "en": "The organisers express their appreciation to Mr Ramli for his contributions to the local community."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 顾客向打印店店员查询文件并约定取件时间",
+      "ms_spoken": "Encik, dokumen saya dah siap ke? Saya nak ambil petang ni.",
+      "ms_standard": "Encik, adakah dokumen saya sudah siap? Saya hendak mengambilnya pada petang ini.",
+      "zh": "先生，我的文件弄好了吗？我想今天下午来拿。",
+      "spoken_features": [
+        "encik 用于顾客与店员之间的礼貌称呼；即使使用口语缩略，也能保留尊重。",
+        "dah、nak、ni 分别对应 sudah、hendak、ini。",
+        "句尾 ke 标记口语疑问，标准语可改用句首 adakah。",
+        "dalam pukul lima 在这里表示大约五点，对应标准语 sekitar pukul lima。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (顾客)",
+          "ms_spoken": "Encik, dokumen saya dah siap ke? Saya nak ambil petang ni.",
+          "ms_standard": "Encik, adakah dokumen saya sudah siap? Saya hendak mengambilnya pada petang ini.",
+          "zh": "先生，我的文件弄好了吗？我想今天下午来拿。",
+          "en": "Excuse me, sir, are my documents ready yet? I'd like to pick them up this afternoon."
+        },
+        {
+          "speaker": "Hafiz (打印店店员)",
+          "ms_spoken": "Dah siap, encik. Datang sebelum pukul enam ya, kedai tutup pukul enam.",
+          "ms_standard": "Dokumen encik sudah siap. Sila datang sebelum pukul enam kerana kedai kami ditutup pada pukul enam.",
+          "zh": "已经好了，先生。请六点前过来，我们店六点关门。",
+          "en": "They're ready, sir. Please come before six, okay? We close at six."
+        },
+        {
+          "speaker": "Amir (顾客)",
+          "ms_spoken": "Baik, saya sampai dalam pukul lima nanti. Terima kasih, encik.",
+          "ms_standard": "Baik, saya akan tiba sekitar pukul lima nanti. Terima kasih, encik.",
+          "zh": "好的，我待会儿大概五点到。谢谢您，先生。",
+          "en": "Okay, I'll be there around five. Thank you, sir."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "En.",
+      "full_form": "Encik",
+      "note": "称谓的书面缩写，常用于姓名之前，并非专属聊天缩写；当面仍读完整 Encik。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向不熟悉的成年男子、顾客或办事人员说话时，Encik 比随意使用 kau 更得体；适用于马来人、华人、印度人等不同族群，不表示婚姻状况。",
+    "usage_etiquette": "知道对方有 Datuk、Dr. 等称号时，依其正式称谓称呼，不随意叠加 Encik Datuk。名字未知时也能直接说 Maaf, encik；关系熟悉后可依对方偏好改称名字。"
+  },
+  "etymology": {
+    "origin": "Hokkien",
+    "source_language": "Hokkien（可能，尚非定论）",
+    "root_origin": "本地词源包提出可能来自 Hokkien 引叔 ín-chek（叔叔）；这是待考的借词说，不把 encik 解释为现代马来语内部的前缀派生。",
+    "historical_story": "马来世界与闽南语社群的长期交往，为称呼语的相互影响提供了背景，encik 也有可能与闽南语的亲属称呼有关。现有材料尚不能确定它具体在何时何地借入，因此不能把港口商人的某次交谈写成词源事实。现代马来西亚的 Encik 已是跨族群使用的普通男性敬称，出现在柜台、办公室和正式姓名之前。",
+    "cognitive_memory_aid": "想象柜台前先说 Maaf, encik：不知道对方名字，也能礼貌地叫一声“先生”；可能的“叔叔”词源只作辅助联想。"
+  }
+}

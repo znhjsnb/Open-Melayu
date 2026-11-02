@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "rasmi",
+    "syllables": "ras.mi",
+    "ipa": "/rasmi/",
+    "jawi": "راسمي",
+    "frequency_rank": 1800,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rasmi",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rasmi → rasmi",
+    "pattern_note": "阿拉伯语整词借入，在现代马来语中作为独立词根使用；不能拆成 ras- 与 -mi。",
+    "word_family": [
+      {
+        "word": "merasmikan",
+        "affix": "meN-…-kan",
+        "gloss": "正式宣布启用；为活动主持开幕"
+      },
+      {
+        "word": "perasmian",
+        "affix": "peN-…-an",
+        "gloss": "正式启用；开幕仪式"
+      }
+    ],
+    "root_jawi": "راسمي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "官方的；经政府、机构或有权者正式宣布、认可或确定的。",
+      "en_definition": "Official: authorized, recognized, or formally declared by a government, institution, or other competent authority.",
+      "ms_definition": "Disahkan, diisytiharkan atau ditentukan oleh kerajaan, jabatan atau pihak yang berkuasa.",
+      "nuances": "核心是获得正式认可或具有机构身份，不只是气氛庄重。常用于声明、文件、语言地位及公务活动；不要与表示品性或特征的 resam 混淆。释义依据：[DBP：rasmi](https://prpm.dbp.gov.my/cari1?keyword=rasmi)。",
+      "collocations": [
+        {
+          "ms": "kenyataan rasmi",
+          "zh": "官方声明",
+          "en": "an official statement"
+        },
+        {
+          "ms": "bahasa rasmi",
+          "zh": "官方语言",
+          "en": "an official language"
+        },
+        {
+          "ms": "surat rasmi",
+          "zh": "正式公函",
+          "en": "an official letter"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kementerian akan mengeluarkan kenyataan rasmi mengenai keputusan tersebut petang ini.",
+      "zh": "该部将于今天下午就这项决定发表官方声明。",
+      "en": "The ministry will issue an official statement on the decision this afternoon."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Jadual rasmi dah keluar ke?",
+      "ms_standard": "Adakah jadual rasmi sudah dikeluarkan?",
+      "zh": "正式时间表出来了吗？",
+      "en": "Has the official schedule been released yet?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "句末 ke 表示询问，标准书面语可用 adakah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Jadual rasmi dah keluar ke?",
+          "ms_standard": "Adakah jadual rasmi sudah dikeluarkan?",
+          "zh": "正式时间表出来了吗？",
+          "en": "Is the official schedule out yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, saya baru hantar kat kumpulan tadi.",
+          "ms_standard": "Sudah, saya baru menghantarnya dalam kumpulan tadi.",
+          "zh": "出来了，我刚发到群里。",
+          "en": "Yes, I just sent it to the group chat."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用于政府部门、学校或公司沟通时语气中性、得体；称某消息为 rasmi，通常意味着消息已经获得相关机构确认。",
+    "usage_etiquette": "转发尚未核实的通知时，不宜称其为 pengumuman rasmi。需要向机构查询时，可说 Boleh saya mendapatkan pengesahan rasmi?，即“我可以取得正式确认吗？”"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "Arabic",
+    "root_origin": "رَسْمِيّ (rasmiyy)，意为官方的、正式的",
+    "cognitive_memory_aid": "想象一份盖着机构公章的声明：盖章确认后，它就是 kenyataan rasmi。rasmi 整词记忆，不把它拆成虚构的马来语词缀。",
+    "historical_story": "rasmi 借自阿拉伯语 rasmiyy，是进入马来语的阿拉伯语借词之一。[阿拉伯语与马来语词汇研究](https://oarep.usim.edu.my/server/api/core/bitstreams/559de856-f8c5-4f4f-93fb-3f5ea7b86ce1/content)列出了这组对应关系。今天，从政府发布的声明到学校寄出的公函，这个词都用来标明正式身份或认可。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "用于政府部门、学校或公司沟通时语气中性、得体；称某消息为 rasmi，通常意味着消息已经获得相关机构确认。",
+    "usage_etiquette": "转发尚未核实的通知时，不宜称其为 pengumuman rasmi。需要向机构查询时，可说 Boleh saya mendapatkan pengesahan rasmi?，即“我可以取得正式确认吗？”"
+  }
+}

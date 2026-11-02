@@ -1,0 +1,116 @@
+{
+  "headword": {
+    "word": "balas",
+    "syllables": "ba.las",
+    "ipa": "/ˈba.las/",
+    "jawi": "بالس",
+    "frequency_rank": 1002,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "balas",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + balas → balas",
+    "pattern_note": "本词是独立词根；加 meN- 时，前缀在 b 前变为 mem-，保留 b：membalas。",
+    "word_family": [
+      {
+        "word": "membalas",
+        "affix": "meN-",
+        "gloss": "回复；作出回应"
+      },
+      {
+        "word": "berbalas",
+        "affix": "ber-",
+        "gloss": "相互回应；有来有往"
+      }
+    ],
+    "root_jawi": "بالس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "回复；针对收到的话语、信息或来信作出回应。",
+      "en_definition": "To reply or respond to a message, letter, or utterance.",
+      "ms_definition": "Menjawab atau menyahut sesuatu yang disampaikan.",
+      "nuances": "日常交流中常直接使用 balas；正式主动句通常使用 membalas。balas 也自然用于祈使句及 E-mel itu sudah saya balas 这类被动结构。",
+      "collocations": [
+        {
+          "ms": "balas mesej",
+          "zh": "回复信息",
+          "en": "reply to a message"
+        },
+        {
+          "ms": "balas e-mel",
+          "zh": "回复电子邮件",
+          "en": "reply to an email"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 客户服务要求",
+      "ms": "Setiap pertanyaan pelanggan hendaklah kita balas dalam tempoh dua hari bekerja.",
+      "zh": "我们必须在两个工作日内回复每一项客户询问。",
+      "en": "We must respond to every customer enquiry within two working days."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友等待回复",
+      "ms_spoken": "Nanti aku balas mesej kau, ya. Aku tengah makan ni.",
+      "ms_standard": "Saya akan membalas mesej kamu sebentar lagi. Saya sedang makan sekarang.",
+      "zh": "我等会儿回你信息啊，我这会儿正在吃饭。",
+      "en": "I’ll reply to your message in a bit. I’m eating right now.",
+      "spoken_features": [
+        "aku/kau 用于关系熟悉的朋友之间。",
+        "tengah 对应 sedang，表示动作正在进行。",
+        "ni 是 ini 的口语形式，在这里强调眼前的情况。",
+        "ya 用来缓和告知的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah baca mesej aku ke?",
+          "ms_standard": "Adakah kamu sudah membaca mesej saya?",
+          "zh": "你看过我发的信息了吗？",
+          "en": "Have you read my message yet?"
+        },
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Dah. Nanti aku balas, ya. Aku tengah makan ni.",
+          "ms_standard": "Sudah. Saya akan membalasnya sebentar lagi. Saya sedang makan sekarang.",
+          "zh": "看了。等会儿回你啊，我这会儿正在吃饭。",
+          "en": "Yeah. I'll reply later, okay? I'm eating right now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "bls",
+      "full_form": "balas",
+      "note": "非正式短信中省略元音的写法，须结合上下文辨认；正式文字写 balas。输入中的 bales 属于变体拼写，不是缩写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "直接说 Balas sekarang! 带有命令语气；请求回复时，可用 Boleh balas apabila ada masa? 来缓和表达。",
+    "usage_etiquette": "与客户或上级沟通时使用完整拼写，并说明希望收到回复的时间；朋友聊天中可直接说 nanti saya balas。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "南岛语系祖语",
+    "root_origin": "*bales₁（亦写作 *baləs），表示回应、回报或回敬",
+    "cognitive_memory_aid": "想象聊天框里的一来一回：别人发来一句，你把回应送回去，这个“回过去”的动作就是 balas。",
+    "historical_story": "balas 延续了南岛语中“把回应送回去”的古老概念，相关形式也见于巴塔克语、巽他语等语言。其回应义从书信交流自然延续到今天的短信和电子邮件；比较词形见 [Austronesian Comparative Dictionary](https://acd.clld.org/cognatesets/25053)。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "直接说 Balas sekarang! 带有命令语气；请求回复时，可用 Boleh balas apabila ada masa? 来缓和表达。",
+    "usage_etiquette": "与客户或上级沟通时使用完整拼写，并说明希望收到回复的时间；朋友聊天中可直接说 nanti saya balas。"
+  }
+}

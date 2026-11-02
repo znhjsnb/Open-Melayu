@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "yg",
+    "syllables": null,
+    "ipa": "/jaŋ/（展开为 yang 读）",
+    "jawi": null,
+    "frequency_rank": 319,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: يڠ (yang)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "yang",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "yang → yg（书写缩略，无词缀）",
+    "pattern_note": "yg 是 yang 的书写缩略，并非带词缀的派生词；原包把 root 机械列作 yg，此处按缩略关系归回 yang。一般展开读作 yang，不把 y、g 当作两个口语音节；官方分节和 Jawi 未提供，不从 yang 迁移填入。 核心词根（Kata Dasar）「yang」官方爪夷文为「يڠ」，派生附加 派生词缀。",
+    "word_family": [
+      {
+        "word": "yang",
+        "affix": "∅（完整形式）",
+        "gloss": "引出修饰成分；……的"
+      }
+    ],
+    "root_jawi": "يڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "yang 的书写缩略；引出修饰前面人或事物的成分，相当于“……的”。",
+      "ms_definition": "Takrif editorial berdasarkan glos Kaikki: singkatan bagi yang, kata penghubung yang memperkenalkan keterangan bagi kata nama sebelumnya.",
+      "nuances": "原包没有 yg 的 PRPM 原文定义，不能把编辑释义冒充官方引文。yg 既可见于聊天，也用于有明确缩略惯例的简注；正式正文通常展开为 yang。英语常译 who、which 或 that，不能机械译成指示词“那个”。",
+      "collocations": [
+        {
+          "ms": "orang yg saya kenal",
+          "zh": "我认识的人",
+          "en": "someone I know"
+        },
+        {
+          "ms": "baju yg baru dibeli",
+          "zh": "刚买的衣服",
+          "en": "a newly bought shirt"
+        }
+      ],
+      "en_definition": "A written abbreviation of yang, introducing a phrase or clause that modifies a preceding noun."
+    },
+    {
+      "id": 2,
+      "pos": "pronoun",
+      "zh_definition": "在 yang lain、yang ini 等结构中代指“……的那个／那些”。",
+      "ms_definition": "Takrif editorial: bentuk ringkas yang dalam frasa yang merujuk kepada orang atau benda tanpa mengulang kata namanya, seperti yang lain dan yang ini.",
+      "nuances": "这里按整个结构的代指作用归为 pronoun；不是断言所有 yang 都是代词。所指对象由上下文补出；数量和性别不能单靠 yg 判断。",
+      "collocations": [
+        {
+          "ms": "yg lain",
+          "zh": "其他的那个／那些",
+          "en": "the other one; the others"
+        },
+        {
+          "ms": "yg ini",
+          "zh": "这一个／这一些",
+          "en": "this one; these ones"
+        }
+      ],
+      "en_definition": "A written abbreviation of yang used to refer to a person or thing without repeating the noun, equivalent to “the one” or “the ones.”"
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "编辑规范／正式正文用字",
+      "ms": "Dalam penulisan rasmi, singkatan “yg” hendaklah ditulis penuh sebagai “yang”.",
+      "zh": "在正式书写中，缩略形式 yg 应写成完整的 yang。",
+      "en": "In formal writing, the abbreviation “yg” should be written out in full as “yang”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友发来衣服照片，请对方帮忙挑选",
+      "ms_spoken": "Baju yg aku hantar gambar tadi tu okey tak?",
+      "ms_standard": "Adakah baju yang gambarnya saya hantar tadi itu sesuai?",
+      "zh": "我刚才发照片给你看的那件衣服怎么样？",
+      "spoken_features": [
+        "yg 是 yang 的书写缩略，朗读时读作 yang；句首 Yg 只是首字母大写。",
+        "第一轮的 yg 引出修饰 baju 的成分；后面的 yg biru、yg ni 分别指‘蓝色那件’、‘这件’。",
+        "tu、ni 分别对应 itu、ini；macam 在这里表示‘看起来好像’。",
+        "macam…je 使判断带有试探语气；Kan? 请求认同，最后的 lah 表示顺势作出决定。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Baju yg aku hantar gambar tadi tu okey tak?",
+          "ms_standard": "Adakah baju yang gambarnya saya hantar tadi itu sesuai?",
+          "zh": "我刚才发照片给你看的那件衣服怎么样？",
+          "en": "What do you think of the shirt I sent you a photo of earlier?"
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Yg biru tu cantik. Yg ni macam besar sangat je.",
+          "ms_standard": "Yang berwarna biru itu cantik. Yang ini nampaknya terlalu besar.",
+          "zh": "蓝色那件好看。这件看起来好像太大了。",
+          "en": "The blue one's nice. This one looks a bit too big."
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Kan? Aku ambil yg biru lah.",
+          "ms_standard": "Betul, bukan? Saya akan mengambil yang berwarna biru itu.",
+          "zh": "对吧？那我就拿蓝色那件啦。",
+          "en": "Right? I'll get the blue one, then."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "yg",
+      "full_form": "yang",
+      "note": "目标词本身就是常见书写缩略；聊天可用，正式正文写完整形式。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "yg 本身不带冒犯意味，但缩略过多可能显得仓促；给教师、客户或机构写正文时，用完整的 yang 更清楚。",
+    "usage_etiquette": "不要因为词典释义中常出现 yg，就推断作文和公函也宜照用。给学习者或不熟悉聊天缩略的人发消息时，优先写全词。"
+  },
+  "etymology": {
+    "origin": "Malay（书写缩略）",
+    "source_language": "马来语",
+    "root_origin": "直接来自 yang 的书写缩略；原包没有提供 yang 更早的词源，不追溯为未经核实的祖语形式。DBP 的[短信缩略指南](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf)可见 yg。",
+    "historical_story": "yg 把 yang 压缩成两个字母，词义和读音仍依附于完整形式。DBP 的短信指南也收录了这种写法，因此它与节省篇幅的书写习惯有关。今天在手机上读到 baju yg biru，把 yg 展开为 yang，就能接回“蓝色的衣服”这一结构。",
+    "cognitive_memory_aid": "看到 yg，就在脑中自动补回 yang：orang yg saya kenal＝我认识的人。"
+  }
+}

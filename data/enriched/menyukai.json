@@ -1,0 +1,116 @@
+{
+  "headword": {
+    "word": "menyukai",
+    "syllables": "me.nyu.kai",
+    "ipa": "/məɲukai/",
+    "jawi": "مڽوکاءي",
+    "frequency_rank": 1344,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyukai",
+    "affix": "meN-…-i",
+    "affix_type": "circumfix",
+    "formula": "meN- + suka + -i → menyukai",
+    "pattern_note": "meN- 与 suka 结合时，词首 s 被鼻音 ny /ɲ/ 替代，再接 -i。按要求保留词包的 root_word 和 root_jawi 字段；但其中 menyukai 实为派生词，实际 kata dasar 是 suka（سوک），词包的 is_root: true 有误。",
+    "word_family": [
+      {
+        "word": "disukai",
+        "affix": "di-…-i",
+        "gloss": "受到喜爱"
+      },
+      {
+        "word": "kesukaan",
+        "affix": "ke-…-an",
+        "gloss": "爱好；喜爱的事物"
+      },
+      {
+        "word": "menyukakan",
+        "affix": "meN-…-kan",
+        "gloss": "使高兴；使愉快"
+      }
+    ],
+    "root_jawi": "مڽوکاءي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "喜欢；对某人、事物或活动抱有好感或兴趣。",
+      "en_definition": "To like someone or something, or to take an interest in something.",
+      "ms_definition": "menaruh minat (terhadap), suka akan, meminati",
+      "nuances": "及物动词，后面直接接对象，如 menyukai muzik，不必再加 akan 或 terhadap。本条采用一般的“喜欢、感兴趣”义；日常交谈通常用 suka，menyukai 较常见于完整书面表达。释义依据 [DBP《Kamus Dewan》suka 词条](https://prpm.dbp.gov.my/Cari1?d=246792&keyword=suka)。",
+      "collocations": [
+        {
+          "ms": "menyukai muzik tradisional",
+          "zh": "喜欢传统音乐",
+          "en": "like traditional music"
+        },
+        {
+          "ms": "menyukai aktiviti luar",
+          "zh": "喜欢户外活动",
+          "en": "enjoy outdoor activities"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "调查报告 / 职场汇报",
+      "ms": "Hasil tinjauan menunjukkan bahawa kebanyakan peserta menyukai aktiviti pembelajaran secara berkumpulan.",
+      "zh": "调查结果显示，大多数参与者喜欢小组学习活动。",
+      "en": "The survey results show that most participants like group learning activities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友分享音乐",
+      "ms_spoken": "Aku dah mula menyukai lagu ni. Kau pun suka ke?",
+      "ms_standard": "Aku sudah mula menyukai lagu ini. Adakah engkau juga menyukainya?",
+      "zh": "我开始喜欢这首歌了。你也喜欢吗？",
+      "en": "I'm starting to like this song. Do you like it too?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略",
+        "ni 是 ini 的口语形式",
+        "kau 是熟人间常用的第二人称形式",
+        "句末 ke 表示口语疑问",
+        "menyukai 保留完整动词形式；更随意时通常直接说 suka"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah mula menyukai lagu ni. Kau pun suka ke?",
+          "ms_standard": "Aku sudah mula menyukai lagu ini. Adakah engkau juga menyukainya?",
+          "zh": "我开始喜欢这首歌了。你也喜欢吗？",
+          "en": "I'm starting to like this song. Do you like it too?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Suka! Aku asyik ulang lagu ni je sejak semalam.",
+          "ms_standard": "Ya, aku suka! Aku berulang kali mendengar lagu ini sahaja sejak semalam.",
+          "zh": "喜欢啊！我从昨天起就一直单曲循环。",
+          "en": "Yeah! I've had it on repeat since yesterday."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "词本身没有失礼色彩，礼貌程度主要取决于人称和语境。职场或初次交谈宜用 saya；aku 和 kau 更适合彼此习惯如此称呼的朋友。",
+    "usage_etiquette": "表达对音乐、活动或作品的喜爱可直接使用 menyukai。对象为具体的人时，可能被理解为带有恋爱好感；若只想称赞工作表现，可明确说 Saya menghargai hasil kerja beliau。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "梵语，经马来语 suka 派生",
+    "root_origin": "सुख sukha，意为舒适、愉悦、幸福",
+    "cognitive_memory_aid": "先记 suka＝喜欢，再看 meN- 把开头 s 换成 ny，最后接 i：suka → menyukai。把它想成“把喜欢的感觉投向一个对象”；这是构词记忆提示。",
+    "historical_story": "梵语 sukha 表示舒适、快乐，进入马来语后形成 suka，送气音 kh 在借入形式中对应 k；这一词源对应见于 [Maxwell 的马来语手册](https://upload.wikimedia.org/wikipedia/commons/6/6c/A_manual_of_the_Malay_language._With_an_introductory_sketch_of_the_Sanskrit_element_in_Malay_%28IA_manualofmalaylan00maxwrich%29.pdf)。借入的 suka 后来参与马来语自身的构词系统，加上 meN- 和 -i，形成今天表示“喜欢某个对象”的 menyukai。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "词本身没有失礼色彩，礼貌程度主要取决于人称和语境。职场或初次交谈宜用 saya；aku 和 kau 更适合彼此习惯如此称呼的朋友。",
+    "usage_etiquette": "表达对音乐、活动或作品的喜爱可直接使用 menyukai。对象为具体的人时，可能被理解为带有恋爱好感；若只想称赞工作表现，可明确说 Saya menghargai hasil kerja beliau。"
+  }
+}

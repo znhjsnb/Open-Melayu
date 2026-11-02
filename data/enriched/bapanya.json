@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "bapanya",
+    "syllables": null,
+    "ipa": "/ba.pa.ɲa/",
+    "jawi": "باڤ",
+    "frequency_rank": 2835,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bapa",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "bapa + -nya → bapanya",
+    "pattern_note": "-nya 在此是表示第三人称领属关系的附着代词，不改变 bapa 的词干；ny 表示 /ɲ/。数据包未提供音节划分，故保留 null；所给爪夷文 باڤ 对应 bapa，完整 bapanya 写作 باڤڽ。",
+    "word_family": [
+      {
+        "word": "berbapa",
+        "affix": "ber-",
+        "gloss": "有父亲"
+      },
+      {
+        "word": "kebapaan",
+        "affix": "ke-...-an",
+        "gloss": "父亲般的特质"
+      }
+    ],
+    "root_jawi": "باڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他或她的父亲；具体指谁的父亲，由上下文确定。",
+      "en_definition": "His or her father, with the possessor identified from context.",
+      "ms_definition": "Bapa kepada seseorang yang dirujuk oleh kata ganti nama diri ketiga -nya.",
+      "nuances": "-nya 不区分性别，因此 bapanya 本身不能判断是“他的父亲”还是“她的父亲”。这是表示领属关系的名词形式，不是对父亲的直接称呼。bapa 的核心义及相关派生词参见 [DBP](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=bapa)。",
+      "collocations": [
+        {
+          "ms": "bersama bapanya",
+          "zh": "与他或她的父亲一起",
+          "en": "with his or her father"
+        },
+        {
+          "ms": "menjaga bapanya",
+          "zh": "照顾他或她的父亲",
+          "en": "to care for his or her father"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Nurul memohon cuti selama dua hari untuk menjaga bapanya yang sedang dirawat di hospital.",
+      "zh": "努鲁申请休假两天，以照顾正在住院治疗的父亲。",
+      "en": "Nurul requested two days of leave to care for her father, who is receiving treatment in hospital."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bapanya dah sampai kat depan sekolah tu.",
+      "ms_standard": "Bapanya sudah tiba di hadapan sekolah itu.",
+      "zh": "他爸爸已经到那所学校门口了。",
+      "en": "His dad is already outside that school.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "kat 在此相当于表示地点的 di。",
+        "tu 是 itu 的口语形式；bapanya 在此承接双方已经提到的人。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Amir masih tunggu lagi ke? Bapanya dah sampai kat depan sekolah tu.",
+          "ms_standard": "Adakah Amir masih menunggu? Bapanya sudah tiba di hadapan sekolah itu.",
+          "zh": "阿米尔还在等吗？他爸爸已经到那所学校门口了。",
+          "en": "Is Amir still waiting? His dad is already outside that school."
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Ya, dia kat kantin lagi. Aku nak panggil dia sekarang.",
+          "ms_standard": "Ya, dia masih berada di kantin. Saya hendak memanggilnya sekarang.",
+          "zh": "对，他还在食堂。我现在去叫他。",
+          "en": "Yeah, he’s still in the canteen. I’ll go get him now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "谈及他人的父亲时，bapanya 是中性、得体的表达；当面称呼对方父亲时，应采用对方习惯的称谓，例如 pak cik，或其姓名与适当头衔。",
+    "usage_etiquette": "先明确 -nya 所指的人，避免多人同场时产生歧义。正式文字可直接写 bapa Nurul；日常交谈中也常说 ayah dia。"
+  },
+  "etymology": {
+    "historical_story": "bapanya 由马来语亲属称谓 bapa 与表示第三人称的 -nya 结合而成。它保留了“父亲”这一家庭关系，只把指向进一步限定为前文某个人的父亲，并非另一个独立借词。",
+    "cognitive_memory_aid": "把 bapa 想成照片中的爸爸，再给照片贴上 -nya 这张“他／她的”标签：bapa + -nya = 他／她的爸爸。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "谈及他人的父亲时，bapanya 是中性、得体的表达；当面称呼对方父亲时，应采用对方习惯的称谓，例如 pak cik，或其姓名与适当头衔。",
+    "usage_etiquette": "先明确 -nya 所指的人，避免多人同场时产生歧义。正式文字可直接写 bapa Nurul；日常交谈中也常说 ayah dia。"
+  }
+}

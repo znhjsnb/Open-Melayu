@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "kecuali",
+    "syllables": "ke.cua.li",
+    "ipa": "/kət͡ʃuali/",
+    "jawi": "کچوالي",
+    "frequency_rank": 609,
+    "tags": [
+      "CEFR-A2",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kecuali",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kecuali → kecuali（除外）",
+    "pattern_note": "现代按完整词根 kecuali 处理，不因开头有 ke 就拆成未经证实的 ke- + cuali。音节与 Jawi 恢复自本地同批原始任务，IPA 沿用其材料。",
+    "word_family": [
+      {
+        "word": "mengecualikan",
+        "affix": "meN-…-kan",
+        "gloss": "豁免；把……排除在外"
+      },
+      {
+        "word": "pengecualian",
+        "affix": "peN-…-an",
+        "gloss": "豁免；例外处理"
+      },
+      {
+        "word": "terkecuali",
+        "affix": "ter-",
+        "gloss": "获豁免；除外"
+      },
+      {
+        "word": "berkecuali",
+        "affix": "ber-",
+        "gloss": "保持中立；有例外"
+      },
+      {
+        "word": "kekecualian",
+        "affix": "ke-…-an",
+        "gloss": "例外情况"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "除……之外；不包括……；连接条件时可表示除非。",
+      "ms_definition": "melainkan, selain, lain drpd. (Kamus Dewan Edisi Keempat, makna 1)",
+      "nuances": "把对象或情况从前述范围中排除：semua hadir kecuali Ali。kecuali jika 表示除非，kecuali apabila 表示除了在……的时候；不要拿它代替表示普通转折的 tetapi。这里按本 Schema 将排除性功能归入 conjunction。",
+      "collocations": [
+        {
+          "ms": "kecuali pada hari Ahad",
+          "zh": "星期日除外",
+          "en": "except on Sundays"
+        },
+        {
+          "ms": "kecuali jika",
+          "zh": "除非；除非在……情况下",
+          "en": "unless"
+        }
+      ],
+      "en_definition": "Except; excluding a specified person or thing; unless, when introducing a condition."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "例外；不受一般规则约束的人、事或情况。",
+      "ms_definition": "yg menyimpang drpd kebiasaan, yg tidak dikenakan sesuatu peraturan, kekecualian. (Kamus Dewan Edisi Keempat, makna 2; soft hyphen removed)",
+      "nuances": "常见于 tanpa kecuali 或 tidak ada kecualinya 一类表达。作为独立名词谈例外时，pengecualian 通常更明确；berkecuali 还有保持中立义，不能直接等同于 kecuali。",
+      "collocations": [
+        {
+          "ms": "tanpa kecuali",
+          "zh": "无一例外",
+          "en": "without exception"
+        },
+        {
+          "ms": "tidak ada kecualinya",
+          "zh": "没有任何例外",
+          "en": "there are no exceptions"
+        }
+      ],
+      "en_definition": "An exception; a person, thing, or situation to which a general rule does not apply."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务通告／开放时间",
+      "ms": "Kaunter perkhidmatan dibuka setiap hari kecuali pada hari Ahad dan cuti umum.",
+      "zh": "服务柜台每天开放，星期日及公共假期除外。",
+      "en": "The service counter is open every day except Sundays and public holidays."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认聚餐并说明可能加班",
+      "ms_spoken": "Esok makan kat rumah aku pukul lapan. Kau boleh datang tak?",
+      "ms_standard": "Esok kita akan makan di rumah saya pada pukul lapan. Bolehkah awak datang?",
+      "zh": "明天八点在我家吃饭。你能来吗？",
+      "spoken_features": [
+        "kecuali kalau 引出会使前述安排无法成立的条件，此处对应中文除非。",
+        "kalau 对应 jika；suruh 在这里表示老板要求或指示做事，标准还原用 mengarahkan。",
+        "confirm 是英语夹用，此处指给出确切答复。",
+        "bagitau 对应 beritahu；senang aku nak… 表示这样便于我做某事。"
+      ],
+      "messages": [
+        {
+          "speaker": "Faiz (朋友)",
+          "ms_spoken": "Esok makan kat rumah aku pukul lapan. Kau boleh datang tak?",
+          "ms_standard": "Esok kita akan makan di rumah saya pada pukul lapan. Bolehkah awak datang?",
+          "zh": "明天八点在我家吃饭。你能来吗？",
+          "en": "Dinner at my place tomorrow at eight. Can you make it?"
+        },
+        {
+          "speaker": "Amin (朋友)",
+          "ms_spoken": "Boleh, kecuali kalau bos suruh aku kerja lebih masa. Petang esok aku confirm dengan kau.",
+          "ms_standard": "Saya boleh datang, kecuali jika bos mengarahkan saya bekerja lebih masa. Saya akan memberikan kepastian kepada awak petang esok.",
+          "zh": "能来，除非老板叫我加班。我明天下午再跟你确认。",
+          "en": "Yeah, unless my boss asks me to work overtime. I'll confirm with you tomorrow afternoon."
+        },
+        {
+          "speaker": "Faiz (朋友)",
+          "ms_spoken": "Okey, bagitau sebelum pukul lima ya, senang aku nak agak berapa banyak nak masak.",
+          "ms_standard": "Baiklah, beritahu saya sebelum pukul lima supaya saya mudah menganggarkan jumlah makanan yang perlu dimasak.",
+          "zh": "好，五点前告诉我啊，我好估算要做多少吃的。",
+          "en": "Okay, let me know before five, yeah? That way I can work out how much food to cook."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "说明例外时，明确对象、条件和范围；不必为了客气而把必要的例外说得含糊。向客户或陌生人说明规则，可搭配 sila ambil perhatian。",
+    "usage_etiquette": "通知中尤其要看清 kecuali 后面的内容，以免误解日期或资格范围。讨论豁免应以具体规则为依据，避免按族群或宗教擅自推定某人获得例外。"
+  },
+  "etymology": {
+    "origin": "Unknown",
+    "source_language": "未确定；现代马来语完整词根",
+    "root_origin": "本批词源材料明确为 Unknown；未据词形推定其借入语言或历史拆分。",
+    "historical_story": "现有材料没有交代 kecuali 最初来自哪一种语言或何时进入马来语，因此不能编出一段确定的借词旅程。DBP 所保存的词族把“规则之外”展开为 mengecualikan“豁免”，也记录 berkecuali“保持中立”，呈现这个词族在日常规则与外交语言中的不同用途。",
+    "cognitive_memory_aid": "脑中画一个大圈，再把一个点留在圈外：那个被排除的点就是 kecuali 后面的对象。"
+  }
+}

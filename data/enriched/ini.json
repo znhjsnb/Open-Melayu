@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "ini",
+    "syllables": "i.ni",
+    "ipa": "/ˈini/",
+    "jawi": "اين",
+    "frequency_rank": 7,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ini",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ini → ini",
+    "pattern_note": "独立指示词，不生造 i- 前缀。ini + -lah → inilah 中 -lah 为强调附着词，非派生后缀；口语 ini → ni 为起首元音省略。",
+    "word_family": [
+      {
+        "word": "inilah",
+        "affix": "-lah (particle)",
+        "gloss": "就是这个；正是这里所指 / this is precisely; this very one"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "这、这个、这些；指靠近说话者、当前正在指示或讨论的人、物或事项，也可后置限定名词。",
+      "en_definition": "This or these; a proximal demonstrative used independently or after a noun to identify something near the speaker or current in the discourse.",
+      "ms_definition": "kata yg digunakan utk menunjuk waktu, tempat atau benda yg dekat",
+      "nuances": "采用所给 DBP《Kamus Pelajar》第二版定义。Ini buku saya（这是我的书）与 buku ini（这本书）展示独立指示和名词后置限定；Schema 无 determiner，均归 pronoun。ini 不标单复数，不能机械译为单数 this；本次讨论的 isu ini 不必是空间上靠近的物体。",
+      "collocations": [
+        {
+          "ms": "buku ini",
+          "zh": "这本书",
+          "en": "this book"
+        },
+        {
+          "ms": "masalah ini",
+          "zh": "这个问题",
+          "en": "this problem"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "pronoun",
+      "zh_definition": "用于时间表达，表示当前所属或即将到来的这一时段，如今天、今晚、这一周。",
+      "en_definition": "This in time expressions, referring to the present or contextually upcoming period.",
+      "ms_definition": "sekarang ini: pd masa sekarang; petang ini: petang nanti",
+      "nuances": "DBP《Kamus Pelajar》第二版所列搭配义。hari ini（今天）、malam ini（今晚）、minggu ini（这一周）；petang ini 指今天下午，是否尚未到来需看说话时间。",
+      "collocations": [
+        {
+          "ms": "hari ini",
+          "zh": "今天",
+          "en": "today"
+        },
+        {
+          "ms": "malam ini",
+          "zh": "今晚",
+          "en": "tonight"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "用于固定表达 ini pula，引出更突出的情况：更何况这个、尤其是这个。",
+      "en_definition": "In the idiomatic expression ini pula: all the more so in this case; especially this.",
+      "ms_definition": "ini pula: istimewa pula; lebih-lebih lagi",
+      "nuances": "来自所给 DBP《Kamus Pelajar》第二版。仅说明该固定表达的词典义；普通上下文中的 ini pula 也可能只是“而这个呢”，必须结合句意判断。",
+      "collocations": [
+        {
+          "ms": "apa hal ini",
+          "zh": "这究竟是怎么回事",
+          "en": "what's going on here?"
+        },
+        {
+          "ms": "bukan ini sahaja",
+          "zh": "不仅如此；不单是这个",
+          "en": "not just this; not only that"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 申请说明",
+      "ms": "Borang ini hendaklah dikemukakan sebelum tarikh tutup permohonan.",
+      "zh": "此表格须在申请截止日期之前提交。",
+      "en": "This form must be submitted before the application deadline."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "日常购物 / 与熟人讨论商品",
+      "ms_spoken": "Yang ni cantik lah. Kau nak yang mana?",
+      "ms_standard": "Yang ini cantik. Engkau hendak yang mana?",
+      "zh": "这个好看耶。你想要哪个？",
+      "en": "This one's nice. Which one do you want?",
+      "spoken_features": [
+        "ni = ini，口语缩短在本句中替代完整词形。",
+        "nak = hendak；kau = engkau，此处假设对话者是熟朋友。",
+        "lah 在这里表达说话者的赞赏或认同，并非词义的一部分。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (顾客)",
+          "ms_spoken": "Berapa harga beg ini ya?",
+          "ms_standard": "Berapakah harga beg ini ya?",
+          "zh": "请问这个包多少钱呀？",
+          "en": "How much is this bag, please?"
+        },
+        {
+          "speaker": "Peniaga (店主)",
+          "ms_spoken": "Yang ini RM30 je kak, murah hari ni.",
+          "ms_standard": "Yang ini RM30 sahaja kak, murah hari ini.",
+          "zh": "这个只要三十令吉，今天特惠。",
+          "en": "This one's only RM30, sis. It's on special today."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "ni",
+      "full_form": "ini",
+      "note": "日常口语及聊天常见；正式书写用 ini。"
+    },
+    {
+      "abbr": "nie",
+      "full_form": "ini",
+      "note": "非标准聊天拼写，可反映拉长或随意语气。"
+    },
+    {
+      "abbr": "nii",
+      "full_form": "ini",
+      "note": "重复元音的聊天形式，用于语气延长，不是新的标准词形。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "ini 本身不分尊卑；礼貌取决于指示方式和所指对象。介绍客人时说 Ini Encik Lim 很自然，但只指着人说 yang ini，可能显得把人当物品挑选。",
+    "usage_etiquette": "先记名词后置结构 buku ini；正式文件、学校作文和公告用完整 ini。ni 很日常，却不适合作为正式正字法；使用 ini 时也要注意是否已说明所指对象。"
+  },
+  "etymology": {
+    "origin": "Austronesian (Inherited)",
+    "source_language": "Proto-Austronesian, through Proto-Malayic",
+    "root_origin": "所给 Kaikki 追溯至原始马来语 *(i)ni(ʔ) 及更早的 *ini 指示词。保留其继承关系，不以现代 i + ni 编造构词法。",
+    "cognitive_memory_aid": "指着近处的书说 buku ini，再指远处说 buku itu：ini 近、itu 远；真实用法也能指当前话题。",
+    "historical_story": "ini 继承自南岛祖语的近指指示词根 *i-ni（这里、这），广泛见于整个马来语支语言中。在马来语的空间认知哲学中，ini 严格指代空间距离或心理感知上靠近说话者的客体，并随语言发展延伸到时间维度（如 hari ini‘今天’）以及语篇维度（指代刚刚提及的话题），与远指词 itu 构成了马来语空间指示系统的两大基石支柱。"
+  }
+}

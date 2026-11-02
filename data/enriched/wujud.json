@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "wujud",
+    "syllables": "wu.jud",
+    "ipa": "/wudʒud/",
+    "jawi": "وجود",
+    "frequency_rank": 984,
+    "tags": [
+      "CEFR-B1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "wujud",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + wujud → wujud（存在）",
+    "pattern_note": "阿拉伯语整词借入，现代马来语中作基本词，不拆成 wu- 与 jud。mewujudkan 中 w 保留；kewujudan 是状态名词，pewujudan 是使之存在或实现的过程名词。IPA 为编辑宽式转写，j 对应 /dʒ/；CEFR 为教学估级。",
+    "word_family": [
+      {
+        "word": "berwujud",
+        "affix": "ber-",
+        "gloss": "有形的；具体存在的"
+      },
+      {
+        "word": "mewujudkan",
+        "affix": "meN-…-kan",
+        "gloss": "建立；使存在；实现"
+      },
+      {
+        "word": "terwujud",
+        "affix": "ter-",
+        "gloss": "已形成；已实现"
+      },
+      {
+        "word": "kewujudan",
+        "affix": "ke-…-an",
+        "gloss": "存在；存在的状态"
+      },
+      {
+        "word": "pewujudan",
+        "affix": "peN-…-an",
+        "gloss": "创设、实现的过程"
+      },
+      {
+        "word": "perwujudan",
+        "affix": "per-…-an",
+        "gloss": "具体形态；体现；实现"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "存在；已有，指某事物、情况或现象确实有。",
+      "ms_definition": "ada (sesuatu), sedia ada",
+      "nuances": "可用于有形事物，也可用于问题、差距、机会等抽象事物，不意味着一定看得见、摸得着。与更日常的 ada 相比，wujud 常用于说明事物是否存在；‘使之存在、建立’则用 mewujudkan。",
+      "collocations": [
+        {
+          "ms": "masih wujud",
+          "zh": "仍然存在",
+          "en": "still exist"
+        },
+        {
+          "ms": "tidak wujud",
+          "zh": "不存在",
+          "en": "not exist"
+        }
+      ],
+      "en_definition": "To exist or be present."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "可感知的实体、形态或样貌；具体有形之物。",
+      "ms_definition": "sesuatu yg ada bentuknya (dapat dilihat, dipegang, dll); benda yg nyata (bukan roh dll), rupa dll yg dapat dilihat",
+      "nuances": "此处合并原包第 2、3 项相近的实体义，强调具体形态，较常见于哲学或描述性文字。日常谈‘形状’常用 bentuk，谈‘样貌’常用 rupa；不能把本义的有形限制套在所有 wujud 用法上。",
+      "collocations": [
+        {
+          "ms": "wujud fizikal",
+          "zh": "实体形态",
+          "en": "physical form"
+        },
+        {
+          "ms": "wujud nyata",
+          "zh": "具体可感的形态",
+          "en": "tangible form"
+        }
+      ],
+      "en_definition": "A tangible entity or perceptible form; something that can be seen or touched."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／数字设施报道",
+      "ms": "Jurang capaian internet masih wujud antara kawasan bandar dengan kawasan luar bandar.",
+      "zh": "城市与乡区之间仍然存在互联网接入差距。",
+      "en": "A gap in internet access still exists between urban and rural areas."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 好友分享旧照片，确认照片里的面店是否还在",
+      "ms_spoken": "Kedai mi dalam gambar ni masih wujud lagi ke? Aku dulu selalu makan situ.",
+      "ms_standard": "Adakah kedai mi dalam gambar ini masih wujud? Dahulu saya selalu makan di situ.",
+      "zh": "照片里这家面店还在吗？我以前常在那里吃。",
+      "spoken_features": [
+        "wujud 在这里表示店铺仍然存在；对方用 masih ada 自然接话。",
+        "masih…lagi 强调到现在仍然如此；句末 ke 是口语疑问标记。",
+        "ni = ini；je = sahaja；dah = sudah；makan situ 省略介词 di。",
+        "Jom 表示共同邀约；Lama dah aku tak… 将时间表达提前，强调已经很久没做某事。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Kedai mi dalam gambar ni masih wujud lagi ke? Aku dulu selalu makan situ.",
+          "ms_standard": "Adakah kedai mi dalam gambar ini masih wujud? Dahulu saya selalu makan di situ.",
+          "zh": "照片里这家面店还在吗？我以前常在那里吃。",
+          "en": "Is this noodle shop in the photo still around? I used to eat there all the time."
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Masih ada! Aku baru pergi semalam. Papan tanda je dah tukar, kedai sama.",
+          "ms_standard": "Kedai itu masih ada! Saya baru pergi ke sana semalam. Hanya papan tandanya yang sudah ditukar; kedainya masih sama.",
+          "zh": "还在！我昨天才去过。只是招牌换了，还是原来那家店。",
+          "en": "It is! I was just there yesterday. Only the sign's changed—it's the same shop."
+        },
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Serius? Jom pergi sama-sama minggu ni. Lama dah aku tak makan situ.",
+          "ms_standard": "Benarkah? Marilah kita pergi bersama-sama pada minggu ini. Saya sudah lama tidak makan di situ.",
+          "zh": "真的？这周一起去吧。我好久没在那里吃了。",
+          "en": "Really? Let's go together this week. I haven't eaten there in ages."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "讨论社会问题是否存在时用 wujud 很自然，不局限于宗教哲学。跨信仰交流中宜把个人信念表述为自己的观点，避免借词汇例句替别人断言宗教立场。",
+    "usage_etiquette": "说明问题可说 Masalah ini masih wujud；提出解决方法另起一句，语气更有建设性。对陌生人询问店铺是否仍营业，masih dibuka 或 masih beroperasi 比仅问 wujud 更精确。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语",
+    "root_origin": "来自阿拉伯语 وُجُود（wujūd），意为‘存在’，与阿拉伯语 w-j-d 词根有关；参见 [IIS 的 wujūd 释义](https://www.iis.ac.uk/glossary/wujud/)。现代马来语以 wujud 为整体基本词。",
+    "historical_story": "阿拉伯语 wujūd 是讨论‘存在’的词，在伊斯兰哲学与苏菲思想中具有重要位置。把马来语借词放在马来世界与伊斯兰学术文化交流的背景中理解，便能联想到从抽象论述走到日常说明的语言空间；具体传入年代与路线并未由本包确定。今天新闻里说差距 masih wujud，朋友也会问老店是否还 wujud。",
+    "cognitive_memory_aid": "把 wujud 记成回答‘到底有没有’：wujud＝存在，tidak wujud＝不存在，mewujudkan＝让它出现或实现。"
+  }
+}

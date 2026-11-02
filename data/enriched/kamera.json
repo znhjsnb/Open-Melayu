@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "kamera",
+    "syllables": "ka.mé.ra",
+    "ipa": "/ka.me.ra/",
+    "jawi": "کاميرا",
+    "frequency_rank": 757,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kamera",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kamera → kamera（照相机；摄影机）",
+    "pattern_note": "英语借词整体作为独立词素记忆；ka- 不是这里的前缀。syllables 字段虽为空，但同一 PRPM 原文明确标作 [ka.mé.ra]，据此提取；é 表示 e taling /e/。Jawi 据本地未乱码原始任务。",
+    "word_family": [
+      {
+        "word": "jurukamera",
+        "affix": "juru-",
+        "gloss": "摄影师；摄像师"
+      },
+      {
+        "word": "berkamera",
+        "affix": "ber-",
+        "gloss": "配有摄像头；带有照相机"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "照相机；摄影机；摄像头。",
+      "ms_definition": "alat utk mengambil gambar foto. (Kamus Dewan Edisi Keempat)",
+      "nuances": "基本义为拍照设备；按用途可说 kamera digital、kamera video、kamera web。拍摄照片常说 mengambil gambar，录像常说 merakam video；一台相机可说 sebuah kamera。",
+      "collocations": [
+        {
+          "ms": "kamera digital",
+          "zh": "数码相机",
+          "en": "digital camera"
+        },
+        {
+          "ms": "kamera keselamatan",
+          "zh": "监控摄像头",
+          "en": "security camera"
+        }
+      ],
+      "en_definition": "A device for taking photographs or recording video."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／公共设施安全报道",
+      "ms": "Pihak berkuasa tempatan memasang kamera keselamatan di kawasan pasar bagi meningkatkan keselamatan pengunjung.",
+      "zh": "地方政府在市场范围内安装监控摄像头，以提高访客的安全保障。",
+      "en": "The local authority is installing security cameras in the market area to improve visitor safety."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友出游前确认摄影用品",
+      "ms_spoken": "Esok bawa kamera awak sekali ya. Bateri dah cas ke?",
+      "ms_standard": "Bawalah kamera awak juga esok. Adakah baterinya sudah dicas?",
+      "zh": "明天也把你的相机带上呀。电池充好了吗？",
+      "spoken_features": [
+        "bawa ... sekali 在这里表示也一起带上；ya 使提醒显得亲切。",
+        "bateri dah cas ke 是省略被动标记和疑问结构的聊天表达，对应 Adakah baterinya sudah dicas?",
+        "nasib awak ingatkan 中的 nasib 表示幸好，ingatkan 后省略宾语 saya。",
+        "saya cas 使用裸词根 cas，对应 saya mengecas；pulak 是 pula 的口语写法。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Esok bawa kamera awak sekali ya. Bateri dah cas ke?",
+          "ms_standard": "Bawalah kamera awak juga esok. Adakah baterinya sudah dicas?",
+          "zh": "明天也把你的相机带上呀。电池充好了吗？",
+          "en": "Bring your camera along tomorrow, okay? Have you charged the battery?"
+        },
+        {
+          "speaker": "Aisyah (朋友)",
+          "ms_spoken": "Belum, nasib awak ingatkan. Saya cas sekarang, nanti lupa pulak.",
+          "ms_standard": "Belum. Mujurlah awak mengingatkan saya. Saya akan mengecasnya sekarang supaya saya tidak terlupa kemudian.",
+          "zh": "还没，幸好你提醒我。我现在就充，免得等会儿又忘了。",
+          "en": "Not yet—good thing you reminded me. I'll charge it now before I forget again."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "请别人拍照可说 Boleh tolong ambilkan gambar kami?；称呼不熟悉的人时使用适合场合的 encik／puan。",
+    "usage_etiquette": "拍人像前先征求同意，尤其在宗教活动、私人聚会和儿童场景中。材料里的 camera 是英语拼写或语码转换，不是 kamera 的马来语短信缩写。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "English ← Latin",
+    "root_origin": "英语 camera，较早源自拉丁语 camera（房间）；更早与希腊语 kamára 的拱顶空间义相连。",
+    "historical_story": "camera 的词源原本指房间，摄影史上的 camera obscura 则是让外界影像投到暗室内的装置，房间的名称由此与成像技术相连。马来语借入英语 camera 并写作 kamera，随后用 kamera digital、kamera video 和 kamera web 为不同成像设备命名。",
+    "cognitive_memory_aid": "camera 换成马来语拼写就是 kamera；把相机想成把光收进去的小暗房。"
+  }
+}

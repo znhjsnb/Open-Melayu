@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "kawalan",
+    "syllables": "ka.wa.lan",
+    "ipa": "[kaˈwa.lan]",
+    "jawi": "کاولن",
+    "frequency_rank": 774,
+    "tags": [
+      "CEFR-B1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kawal",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "kawal + -an → kawalan（管制；看守；受管对象）",
+    "pattern_note": "后缀 -an 构成名词，词根 kawal 的拼写保持不变；音节按 PRPM 为 ka.wa.lan。Jawi 和 IPA 取自完整原始任务包。handling 是英文语义提示，不是 kawalan 的聊天缩写；CEFR 为教学估级。",
+    "word_family": [
+      {
+        "word": "kawal",
+        "affix": "∅",
+        "gloss": "看守；控制"
+      },
+      {
+        "word": "mengawal",
+        "affix": "meN-",
+        "gloss": "控制；守卫"
+      },
+      {
+        "word": "pengawal",
+        "affix": "peN-",
+        "gloss": "守卫；保安人员"
+      },
+      {
+        "word": "terkawal",
+        "affix": "ter-",
+        "gloss": "受控制的；处于掌控之中"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "控制、管制、看守或监督的行动及其形成的状态。",
+      "ms_definition": "usaha atau tindakan mengawal (menjaga, mengawasi)",
+      "nuances": "Kamus Dewan 第四版第二义。涵盖安全看守、价格管制和品质监督等；di luar kawalan 指超出掌控范围，不能一概译成‘保护’。",
+      "collocations": [
+        {
+          "ms": "kawalan keselamatan",
+          "zh": "安全管控；警戒措施",
+          "en": "security measures"
+        },
+        {
+          "ms": "kawalan mutu",
+          "zh": "品质管制；质量控制",
+          "en": "quality control"
+        }
+      ],
+      "en_definition": "The act or state of controlling, regulating, guarding, or supervising."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "受看管或受控制的人、事物；由上下文确定的受管对象。",
+      "ms_definition": "yg dikawal",
+      "nuances": "Kamus Dewan 第四版第一义。此义侧重受管对象，与‘实施控制’有别；实际表达常通过 dalam kawalan、di bawah kawalan 等结构说明对象受谁管控。下列搭配展示这种常见表达，不能把 kawalan 单独机械替换成人或区域。",
+      "collocations": [
+        {
+          "ms": "orang dalam kawalan polis",
+          "zh": "由警方看管的人",
+          "en": "a person in police custody"
+        },
+        {
+          "ms": "kawasan di bawah kawalan tentera",
+          "zh": "军方控制下的区域",
+          "en": "an area under military control"
+        }
+      ],
+      "en_definition": "A person or thing under guard, supervision, or control."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 公共安全",
+      "ms": "Kawalan keselamatan di pintu masuk bangunan itu akan diperketat bagi memastikan keselamatan pengunjung.",
+      "zh": "为保障访客安全，该建筑入口的安保管控将加强。",
+      "en": "Security controls at the building's entrance will be tightened to ensure visitors' safety."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 活动工作人员在群里协调入口排队情况",
+      "ms_spoken": "Ramai betul orang kat pintu masuk ni. Masih boleh urus ke? Nak aku datang tolong?",
+      "ms_standard": "Ramai sungguh orang di pintu masuk ini. Adakah keadaan masih dapat diurus? Adakah awak mahu saya datang membantu?",
+      "zh": "入口这里人真多。还应付得来吗？要我过去帮忙吗？",
+      "spoken_features": [
+        "dalam kawalan 表示情况处于掌控之中，适合回应同事对现场秩序的担心。",
+        "kat、ni、dah、dulu 分别对应 di、ini、sudah、dahulu。",
+        "Masih boleh urus ke 依靠上下文省略受事和施事，标准语还原为 keadaan masih dapat diurus 的疑问句。",
+        "nak 在 Nak aku datang tolong 中用于提出帮助，意为是否需要我过去帮忙。"
+      ],
+      "messages": [
+        {
+          "speaker": "Faiz (同事)",
+          "ms_spoken": "Ramai betul orang kat pintu masuk ni. Masih boleh urus ke? Nak aku datang tolong?",
+          "ms_standard": "Ramai sungguh orang di pintu masuk ini. Adakah keadaan masih dapat diurus? Adakah awak mahu saya datang membantu?",
+          "zh": "入口这里人真多。还应付得来吗？要我过去帮忙吗？",
+          "en": "It's really crowded here at the entrance. Can you still manage? Want me to come over and help?"
+        },
+        {
+          "speaker": "Lina (同事)",
+          "ms_spoken": "Boleh, keadaan masih dalam kawalan. Kau jaga kaunter dulu, aku dah panggil dua orang lagi datang bantu.",
+          "ms_standard": "Ya, keadaan masih dalam kawalan. Awak jaga kaunter dahulu; saya sudah memanggil dua orang lagi untuk datang membantu.",
+          "zh": "应付得来，情况还在掌控中。你先顾好柜台，我已经叫另外两个人过来帮忙了。",
+          "en": "I'm managing. Things are still under control. You look after the counter for now. I've already asked two more people to come and help."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "行政、安全及技术场景中的中性标准词。向访客解释管控措施时可用 Untuk keselamatan semua… 说明目的，配合 sila 等礼貌表达。",
+    "usage_etiquette": "对人说 awak di bawah kawalan saya 容易显得强势，日常协调工作宜具体说明职责和安排。Perintah Kawalan Pergerakan 是特定名称，应与泛指的行动控制区分；不用英文 handling 充当本词缩写。"
+  },
+  "etymology": {
+    "origin": "Tamil",
+    "source_language": "Tamil（词根 kawal）；Malay（后缀 -an）",
+    "root_origin": "kawalan 由 kawal + -an 构成；kawal 通常联系泰米尔语 காவல்（kāval，看守、守卫）。参见 Hoogervorst 的 [Traces of Contact in the Lexicon，表 2.15](https://brill.com/display/book/9789004529458/9789004529458_webready_content_text.pdf)。",
+    "historical_story": "南印度与马来世界的海上交往留下了一批日常词汇，kawal 所联系的泰米尔语 kāval 就带着‘守卫、看守’的意义。进入马来语的词根接上本地后缀 -an，形成 kawalan；今天它既可用于守住建筑入口，也能用于监督产品品质，把‘守住界限’延伸到制度和管理。",
+    "cognitive_memory_aid": "把 kawal 想成守门，-an 把动作变成‘管控’：kawalan keselamatan 守安全，kawalan mutu 守品质。"
+  }
+}

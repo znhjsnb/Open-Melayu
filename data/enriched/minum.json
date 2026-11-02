@@ -1,0 +1,147 @@
+{
+  "headword": {
+    "word": "minum",
+    "syllables": "mi.num",
+    "ipa": "[ˈmi.num]",
+    "jawi": "مينوم",
+    "frequency_rank": 336,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "minum",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + minum → minum（喝）",
+    "pattern_note": "现代词根为 minum；meminum = meN- + minum，词首 m 保留，前缀实现为 me-，不是删除词根的 m。音节与 Jawi 直接取自本地 PRPM 原始缓存；IPA 取自本地 Kaikki 的书面标准读音。CEFR 标签为教学分级建议，并非 DBP 评级。",
+    "word_family": [
+      {
+        "word": "meminum",
+        "affix": "meN-",
+        "gloss": "喝；饮用（及物形式）"
+      },
+      {
+        "word": "minuman",
+        "affix": "-an",
+        "gloss": "饮料"
+      },
+      {
+        "word": "meminumkan",
+        "affix": "meN-…-kan",
+        "gloss": "给别人喝；喂饮"
+      },
+      {
+        "word": "terminum",
+        "affix": "ter-",
+        "gloss": "误喝；已经喝下；能够喝"
+      },
+      {
+        "word": "peminum",
+        "affix": "peN-",
+        "gloss": "嗜饮者，词典中特指嗜酒者"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "喝；饮用，把水、牛奶等液体吞入口中。",
+      "ms_definition": "meneguk atau menelan sesuatu yg cair (air, susu, dll)",
+      "nuances": "日常可直接说 minum air；正式及物表达也可用 meminum air。单说 minum 不自动表示喝酒，是否含酒精须看宾语和语境；minuman 才是名词‘饮料’。马来释义摘自 Kamus Dewan Edisi Keempat，仅清除了原文中的断词软连字符。",
+      "collocations": [
+        {
+          "ms": "minum air",
+          "zh": "喝水",
+          "en": "drink water"
+        },
+        {
+          "ms": "minum teh",
+          "zh": "喝茶",
+          "en": "drink tea"
+        }
+      ],
+      "en_definition": "To drink; to take a liquid, such as water or milk, into the mouth and swallow it."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "吸食烟或鸦片等；词典标注的印尼语用法。",
+      "ms_definition": "Id menghisap (rokok, candu, dll)",
+      "nuances": "这是 Kamus Dewan 标为 Id 的义项，不作为现代马来西亚日常说法教授。以下为词典释义支持的受限搭配；一般大马语境说 merokok 或 menghisap rokok，不用这个义项替代‘喝’。",
+      "collocations": [
+        {
+          "ms": "minum madat",
+          "zh": "吸食鸦片（词典所载印尼语用法）",
+          "en": "smoke opium (Indonesian usage)"
+        },
+        {
+          "ms": "minum candu",
+          "zh": "吸食鸦片（词典所载印尼语用法）",
+          "en": "smoke opium (Indonesian usage)"
+        }
+      ],
+      "en_definition": "In Indonesian usage, to smoke tobacco, opium, or a similar substance."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "报章 / 公共饮水设施报道",
+      "ms": "Orang ramai boleh minum air secara percuma di stesen air minuman yang disediakan di dewan itu.",
+      "zh": "民众可在该礼堂设置的饮水站免费喝水。",
+      "en": "Members of the public can drink water free of charge at the drinking water stations provided in the hall."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两位朋友约在茶餐店喝茶，已经到店的一方确认饮品",
+      "ms_spoken": "Jom minum kat kedai biasa. Saya dah sampai.",
+      "ms_standard": "Mari kita minum di kedai yang biasa kita kunjungi. Saya sudah sampai.",
+      "zh": "来老地方喝点东西吧。我已经到了。",
+      "spoken_features": [
+        "jom minum 是随和的喝饮料邀约，并不默认指喝酒；此处由 teh tarik 明确为喝茶。",
+        "kedai biasa 在熟人聊天中指双方常去的店；saya sampai lagi lima minit 是省略将来标记的口语说法。",
+        "kurang manis 是点饮品时要求少甜的常用表达；makan sekali 在此表示也吃点东西；ke 和 je 分别承担疑问及“只”的作用。"
+      ],
+      "messages": [
+        {
+          "speaker": "Ravi (朋友)",
+          "ms_spoken": "Jom minum kat kedai biasa. Saya dah sampai.",
+          "ms_standard": "Mari kita minum di kedai yang biasa kita kunjungi. Saya sudah sampai.",
+          "zh": "来老地方喝点东西吧。我已经到了。",
+          "en": "Come have a drink at our usual place. I'm already here."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Saya sampai lagi lima minit. Tolong pesan teh tarik kurang manis satu, ya.",
+          "ms_standard": "Saya akan sampai dalam masa lima minit lagi. Tolong pesankan satu gelas teh tarik yang kurang manis.",
+          "zh": "我还有五分钟就到。帮我点一杯少甜的拉茶啊。",
+          "en": "I'll be there in five minutes. Could you order me a teh tarik with less sugar, please?"
+        },
+        {
+          "speaker": "Ravi (朋友)",
+          "ms_spoken": "Okey. Nak makan sekali ke, atau minum je?",
+          "ms_standard": "Baiklah. Adakah awak hendak makan juga atau minum sahaja?",
+          "zh": "好。要顺便吃点东西，还是只喝饮料？",
+          "en": "Okay. Want something to eat too, or just a drink?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "招待客人可说 Sila minum，态度自然有礼；与长辈或初识者交谈可用 saya、encik、puan 等合适称呼，熟人邀约才用 jom。",
+    "usage_etiquette": "在多族群聚会中，邀请喝茶或咖啡可直接注明饮品；需要确认饮食限制时中性询问，不根据族群替对方作决定。不要把所有 minum 都译成饮酒，也不要以 peminum 随意称呼普通喝水的人。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "原始马来语；更早为原始马来－波利尼西亚语",
+    "root_origin": "本地 Kaikki 记载继承自 Proto-Malayic *inum，进一步追溯至 Proto-Malayo-Polynesian *inum；这是历史来源，不把现代 minum 拆成前缀 m-。",
+    "historical_story": "这个词的历史比现代茶室更早，本地 Kaikki 记载公元 684 年的 Talang Tuo 古马来语碑铭已有相关屈折形式 niminuṃña。把这条古老书面线索与今天码头边一声 minum teh 联系起来，便能感受‘喝’这个日常动作如何贯穿古今；码头画面是帮助理解的联想，不是该词诞生地的考证。现代马来语以 minum 表示喝，以 minuman 表示饮料。",
+    "cognitive_memory_aid": "把 minum 想成动作‘喝’，再加 -an 端出一杯实物 minuman‘饮料’；古代 *inum 只作词源线索，不作现代构词拆解。"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "headword": {
+    "word": "sibuk",
+    "syllables": null,
+    "ipa": "/si.buʔ/",
+    "jawi": "سيبوق",
+    "frequency_rank": 800,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sibuk",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sibuk → sibuk",
+    "pattern_note": "独立形容词词根，不能拆作 si- + buk。PRPM 独立分节字段为空，故保留 null；原文 [si.buʔ] 为读音记录，词尾 k 在此读喉塞音 /ʔ/。派生 penyibuk 通常专指爱管闲事者，不等于工作繁忙的人。",
+    "word_family": [
+      {
+        "word": "bersibuk",
+        "affix": "ber-",
+        "gloss": "正忙着做某事"
+      },
+      {
+        "word": "menyibukkan",
+        "affix": "meN-…-kan",
+        "gloss": "使忙碌；忙着过问"
+      },
+      {
+        "word": "kesibukan",
+        "affix": "ke-…-an",
+        "gloss": "忙碌；繁忙、喧闹的状态"
+      },
+      {
+        "word": "penyibuk",
+        "affix": "peN-",
+        "gloss": "爱管闲事的人"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "忙碌的；正专心做事或有很多事务要处理的。",
+      "ms_definition": "banyak yg dilakukan atau diurus, asyik mengerjakan sesuatu, giat dan rajin (mengerjakan sesuatu), hibuk. (Kamus Dewan Edisi Keempat)",
+      "nuances": "可用 sibuk dengan + 名词说明忙于什么，也可用 sibuk + 动词表示忙着做某事。忙碌本身不表示效率高；Saya sibuk 是状态说明，礼貌拒绝时宜补充可联系的时间。",
+      "collocations": [
+        {
+          "ms": "sibuk dengan kerja",
+          "zh": "忙于工作",
+          "en": "busy with work"
+        },
+        {
+          "ms": "sibuk memasak",
+          "zh": "忙着做饭",
+          "en": "busy cooking"
+        }
+      ],
+      "en_definition": "Having a lot to do or being occupied with an activity."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "交通繁忙的；道路车流多，或港口、机场往来频繁的。",
+      "ms_definition": "banyak kenderaan lalu-lalang (bkn jalan raya), banyak kapal (kapal terbang) keluar masuk (mendarat dan berlepas) (bkn pelabuhan, lapangan terbang). (Kamus Dewan Edisi Keempat)",
+      "nuances": "用于道路和交通设施，强调活动频繁、流量大；不必然已经塞车。若要明确表示交通堵塞，常用 sesak 或 kesesakan lalu lintas。",
+      "collocations": [
+        {
+          "ms": "jalan raya yang sibuk",
+          "zh": "交通繁忙的道路",
+          "en": "a busy road"
+        },
+        {
+          "ms": "lapangan terbang yang sibuk",
+          "zh": "起降繁忙的机场",
+          "en": "a busy airport"
+        }
+      ],
+      "en_definition": "Having a high volume of traffic or frequent arrivals and departures."
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "爱多管闲事的；忙着打听、插手或干扰别人的私事。",
+      "ms_definition": "suka mengambil tahu (mencampuri, mengganggu) hal (urusan) orang lain. (Kamus Dewan Edisi Keempat)",
+      "nuances": "带贬义，与中性的工作忙碌明显不同。Jangan sibuk! 在这种语境中是别多管闲事，不能机械译为别忙；也不要与词典另标 Mn 的窥探义派生词混为一谈。",
+      "collocations": [
+        {
+          "ms": "sibuk hal orang lain",
+          "zh": "爱管别人的事",
+          "en": "be nosy about other people's business"
+        },
+        {
+          "ms": "sibuk mencampuri urusan orang",
+          "zh": "忙着插手别人的事务",
+          "en": "meddle in other people's affairs"
+        }
+      ],
+      "en_definition": "Inclined to pry into or meddle in other people's affairs."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区活动报道／节庆准备",
+      "ms": "Para sukarelawan sibuk menyediakan juadah untuk tetamu yang menghadiri rumah terbuka itu.",
+      "zh": "志愿者们正忙着为参加开放门户活动的来宾准备佳肴。",
+      "en": "The volunteers are busy preparing food for guests attending the open house."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认对方是否方便通话并约定稍后回电",
+      "ms_spoken": "Amir, boleh cakap jap? Aku nak tanya pasal laporan semalam.",
+      "ms_standard": "Amir, bolehkah kita bercakap sebentar? Saya hendak bertanya tentang laporan semalam.",
+      "zh": "Amir，方便聊一下吗？我想问问昨天那份报告。",
+      "spoken_features": [
+        "sibuk 在这里指正忙于处理工作；tengah 对应 sedang，sikit ni 缓和地描述眼下的忙碌。",
+        "call balik 是夹用英语的日常表达，对应 menelefon semula；lagi sepuluh minit 表示再过十分钟。",
+        "tak urgent pun 表示事情并不紧急，其中 pun 加强安抚语气；dulu 对应 terlebih dahulu，je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Amir, boleh cakap jap? Aku nak tanya pasal laporan semalam.",
+          "ms_standard": "Amir, bolehkah kita bercakap sebentar? Saya hendak bertanya tentang laporan semalam.",
+          "zh": "Amir，方便聊一下吗？我想问问昨天那份报告。",
+          "en": "Amir, got a minute? I wanted to ask you about yesterday's report."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku tengah sibuk sikit ni, nak siapkan slaid. Lagi sepuluh minit aku call balik, boleh?",
+          "ms_standard": "Saya sedang agak sibuk kerana hendak menyiapkan slaid. Bolehkah saya menelefon awak semula dalam masa sepuluh minit?",
+          "zh": "我现在有点忙，要把幻灯片做完。十分钟后我给你回电话，可以吗？",
+          "en": "I'm a bit busy right now, trying to finish these slides. Can I call you back in ten minutes?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Boleh, tak urgent pun. Kau siapkan dulu, nanti call aku je.",
+          "ms_standard": "Boleh, perkara ini tidak mendesak. Siapkan slaid itu terlebih dahulu, kemudian telefon sahaja saya.",
+          "zh": "可以，不着急。你先做完，之后打给我就行。",
+          "en": "Sure, it's not urgent. Finish what you're doing, then just give me a call."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "bz",
+      "full_form": "sibuk",
+      "note": "英语 busy 的聊天缩写，在马来语混合聊天中可表达忙碌；不是由 sibuk 字母缩成的规范缩写，也不用于交通繁忙或爱管闲事义。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "说明暂时没空可用 Maaf, saya sedang sibuk，再给出稍后回复的安排。直接说 Jangan sibuk! 或称别人 penyibuk 容易冒犯，除非双方很熟且明确是在开玩笑。",
+    "usage_etiquette": "问对方方便与否可说 Ada masa sebentar?。别把礼貌关心一概叫作多管闲事；若要设立隐私边界，可说 Saya lebih selesa tidak membincangkan hal itu，比给对方贴标签更稳妥。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语（南岛语系；更早词源未确定）",
+    "root_origin": "现代马来语以 sibuk 为独立词根；现有材料没有可核实的外来语来源或祖语重建。Austronesian 在此仅标明马来语的语系归属。",
+    "historical_story": "在马来语的生活词汇里，sibuk 把厨房里忙着备餐的人、车流不断的街道和忙着打听别人消息的人连进同一幅热闹图景。《Kamus Dewan》保留了这三种用法，现代聊天又借英语 busy 的缩写 bz 表达没空；这个聊天缩写是后来的表达替代，并不是 sibuk 的词源。",
+    "cognitive_memory_aid": "看是谁在忙：人忙是 sibuk dengan kerja，路忙是 jalan sibuk，忙着管别人的事就可能被叫作 penyibuk。"
+  }
+}

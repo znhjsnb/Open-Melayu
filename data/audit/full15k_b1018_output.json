@@ -1,0 +1,382 @@
+{
+  "jumaat": {
+    "headword": {
+      "word": "jumaat",
+      "syllables": null,
+      "ipa": "[d͡ʒu.ma.ʕat]",
+      "jawi": "جمعة",
+      "frequency_rank": 3092,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "jumaat",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + Jumaat → Jumaat",
+      "pattern_note": "阿拉伯语整词借入，不按马来语词缀拆分；双写 aa 表示相邻音节的元音，常见读音不保留阿拉伯语的咽音 [ʕ]。规范书写中，星期名称首字母大写。",
+      "word_family": [
+        {
+          "word": "berjumaat",
+          "affix": "ber-",
+          "gloss": "参加星期五聚礼"
+        }
+      ],
+      "root_jawi": "جمعة"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "星期五；星期四之后、星期六之前的一天。",
+        "en_definition": "Friday, the day after Thursday and before Saturday.",
+        "ms_definition": "Hari dalam seminggu yang datang selepas hari Khamis dan sebelum hari Sabtu.",
+        "nuances": "属于星期名称，正文中应写作 Jumaat。solat Jumaat 特指星期五的伊斯兰聚礼，不等于任何在星期五进行的祈祷。传统宗教语境中的 malam Jumaat 通常指星期四日落后开始的夜晚。词义及 berjumaat 用法参见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jumaat)。",
+        "collocations": [
+          {
+            "ms": "pada hari Jumaat",
+            "zh": "在星期五",
+            "en": "on Friday"
+          },
+          {
+            "ms": "solat Jumaat",
+            "zh": "星期五聚礼",
+            "en": "Friday congregational prayer"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场会议通知",
+        "ms": "Mesyuarat penyelarasan projek akan diadakan pada hari Jumaat, pukul sembilan pagi.",
+        "zh": "项目协调会议将于星期五上午九点举行。",
+        "en": "The project coordination meeting will be held on Friday at nine in the morning."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友约午餐",
+        "ms_spoken": "Jumaat ni kita makan kat kedai biasa je, nak?",
+        "ms_standard": "Pada hari Jumaat ini, mahukah kamu makan bersama saya di kedai yang biasa kita kunjungi?",
+        "zh": "这星期五我们就去老地方吃，怎么样？",
+        "en": "Want to eat at our usual place this Friday?",
+        "spoken_features": [
+          "ni 是 ini 的口语形式。",
+          "kat 在此相当于 di。",
+          "je 是 sahaja 的口语形式。",
+          "句末 nak? 以省略结构询问对方是否愿意。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Jumaat ni kau nak makan kat kedai biasa tak?",
+            "ms_standard": "Adakah kamu mahu makan di kedai yang biasa kita kunjungi pada hari Jumaat ini?",
+            "zh": "这星期五你要不要去老地方吃？",
+            "en": "Want to eat at our usual place this Friday?"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Boleh, lepas solat Jumaat je. Aku mesej bila dah sampai.",
+            "ms_standard": "Boleh, selepas solat Jumaat. Saya akan menghantar mesej apabila sudah sampai.",
+            "zh": "可以，等星期五聚礼结束吧。我到了就发消息。",
+            "en": "Sure, after Friday prayers. I'll text you when I get there."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "安排涉及穆斯林同事的星期五午间活动时，宜考虑聚礼所需时间，并事先协调。",
+      "usage_etiquette": "正式日期和通知中使用 Jumaat。约见时写明具体时间；单说 selepas solat Jumaat 可能不足以确定双方共同理解的到达时间。"
+    },
+    "etymology": {
+      "historical_story": "Jumaat 借自阿拉伯语 jumʿa，与聚集、会众的概念相关，可以联想人们在这一天汇聚参加聚礼的场景。进入马来语后，它也成为日常日历、学校课表和工作安排中的星期名称；DBP 将其标为阿拉伯语借词。参见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=jumaat)。",
+      "cognitive_memory_aid": "想象日历翻到星期五，大家聚到同一处：Jumaat＝星期五；solat Jumaat＝星期五聚礼。"
+    }
+  },
+  "habislah": {
+    "headword": {
+      "word": "habislah",
+      "syllables": null,
+      "ipa": "[ha.bis.lah]",
+      "jawi": "هابيس",
+      "frequency_rank": 3093,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "habis",
+      "affix": "-lah",
+      "affix_type": "suffix",
+      "formula": "habis + -lah → habislah",
+      "pattern_note": "-lah 是附着于前词的强调小品词，并非派生词缀；本结构以 suffix 表示其后附位置。连接时词根不变，通常读作 ha.bis.lah。数据包的 Jawi هابيس 对应词根 habis，未包含 -lah。",
+      "word_family": [
+        {
+          "word": "menghabiskan",
+          "affix": "meN-…-kan",
+          "gloss": "用完；完成"
+        },
+        {
+          "word": "kehabisan",
+          "affix": "ke-…-an",
+          "gloss": "耗尽；因用完而短缺"
+        }
+      ],
+      "root_jawi": "هابيس"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "用完了；耗尽了；强调某物已无剩余，或即将全部耗尽。",
+        "en_definition": "To be completely used up or exhausted, with added emphasis.",
+        "ms_definition": "Tidak ada lagi yang tinggal kerana semuanya telah digunakan, dimakan atau dibelanjakan, dengan penegasan oleh partikel -lah.",
+        "nuances": "并非独立于 habis 的新词义，-lah 主要增强语气，具体表达感叹、担忧还是确认取决于上下文。habislah aku! 可借喻为“我完蛋了！”，不能机械译成“我被用完了”。-lah 的强调功能参见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penegas)。",
+        "collocations": [
+          {
+            "ms": "habislah duit",
+            "zh": "钱全用完了",
+            "en": "the money is all gone"
+          },
+          {
+            "ms": "habislah bekalan makanan",
+            "zh": "食物储备全耗尽了",
+            "en": "the food supplies are completely exhausted"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场预算风险汇报",
+        "ms": "Jika perbelanjaan terus meningkat, habislah peruntukan projek sebelum kerja dapat disiapkan.",
+        "zh": "如果开支继续增加，工程尚未完成，项目拨款就会全部耗尽。",
+        "en": "If spending continues to rise, the project allocation will be exhausted before the work can be completed."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友讨论购物开支",
+        "ms_spoken": "Kalau beli yang ni, habislah duit aku!",
+        "ms_standard": "Jika saya membeli barang ini, habislah wang saya!",
+        "zh": "要是买这个，我的钱就花光啦！",
+        "en": "If I buy this, I'll use up all my money!",
+        "spoken_features": [
+          "ni 是 ini 的口语形式。",
+          "yang ni 省略了可由语境理解的名词 barang。",
+          "aku 是熟人间使用的第一人称代词。",
+          "-lah 在这里加强对钱将被花光的担忧。"
+        ],
+        "messages": [
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Kalau aku beli kasut ni, habislah duit aku. Nak beli ke tak?",
+            "ms_standard": "Jika saya membeli kasut ini, habislah wang saya. Patutkah saya membelinya?",
+            "zh": "我要是买这双鞋，钱就花光了。到底要不要买啊？",
+            "en": "If I buy these shoes, I'll use up all my money. Should I get them?"
+          },
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Tak payah beli dulu lah. Kasut lama kau elok lagi, pakai je.",
+            "ms_standard": "Tidak perlu membelinya dahulu. Kasut lama kamu masih elok, jadi gunakan sahaja.",
+            "zh": "先别买啦。你的旧鞋还好好的，就继续穿呗。",
+            "en": "Hold off for now. Your old shoes are still fine, so just wear those."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "habislah 本身并不失礼，但对他人说 habislah kamu! 容易显得像威胁或幸灾乐祸，应注意关系和语调。",
+      "usage_etiquette": "日常感叹中很自然。正式分析也可用来突出后果，但中性报告通常采用 peruntukan akan habis 等直接陈述。"
+    },
+    "etymology": {
+      "historical_story": "habislah 由表示“用尽、结束”的 habis 加上强调小品词 -lah 组成，历史来源应分别看待，不能把整个形式当作独立借词。把“没有剩余”的画面转用于个人处境，便容易理解口语中 habislah aku! 所表达的“这下我完了”；这是语境中的比喻延伸。",
+      "cognitive_memory_aid": "想象钱包里最后一枚硬币也花掉了：habis＝用完，-lah＝把这件事重重说出来，habislah＝“全花光啦！”"
+    }
+  },
+  "syabas": {
+    "headword": {
+      "word": "syabas",
+      "syllables": "sya.bas",
+      "ipa": "[ˈʃa.bas]",
+      "jawi": "شباس",
+      "frequency_rank": 3094,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "syabas",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + syabas → syabas",
+      "pattern_note": "整词记忆，没有可分析的现代马来语词缀；sy 表示单个辅音 [ʃ]，不是先读 s 再读 y。",
+      "word_family": [],
+      "root_jawi": "شباس"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "particle",
+        "zh_definition": "好样的！做得好！用于赞赏他人的表现、努力或成就。",
+        "en_definition": "Well done! An exclamation expressing praise for someone's effort, performance or achievement.",
+        "ms_definition": "Kata seru untuk menyatakan bahawa sesuatu perbuatan atau pencapaian itu bagus atau baik.",
+        "nuances": "马来语词类为 kata seru，本结构归入 particle。重点是对表现的肯定，常与表示祝贺的 tahniah 连用；并不要求对方一定获奖。词义及实际搭配参见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=syabas)。",
+        "collocations": [
+          {
+            "ms": "mengucapkan syabas",
+            "zh": "表示赞赏",
+            "en": "to say well done"
+          },
+          {
+            "ms": "syabas dan tahniah",
+            "zh": "赞赏并祝贺",
+            "en": "well done and congratulations"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场表彰 / 项目总结",
+        "ms": "Syabas kepada seluruh pasukan atas kejayaan menyiapkan projek ini lebih awal daripada jadual.",
+        "zh": "全体团队成员提前完成了这个项目，值得表扬。",
+        "en": "Well done to the entire team for completing this project ahead of schedule."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友庆祝考试通过",
+        "ms_spoken": "Syabas! Kau dah lulus ujian memandu!",
+        "ms_standard": "Syabas! Kamu sudah lulus ujian memandu!",
+        "zh": "好样的！你驾照考试过啦！",
+        "en": "Well done! You passed your driving test!",
+        "spoken_features": [
+          "dah 是 sudah 的口语形式。",
+          "kau 是熟人间常用的第二人称代词。",
+          "syabas 可独立成句，直接表达赞赏。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Syabas! Kau dah lulus ujian memandu! Nak raikan kat mana?",
+            "ms_standard": "Syabas! Kamu sudah lulus ujian memandu! Di manakah kamu mahu meraikannya?",
+            "zh": "好样的！你驾照考试过啦！想去哪儿庆祝？",
+            "en": "Well done! You passed your driving test! Where do you want to celebrate?"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Terima kasih! Makan kat kedai dekat rumah je lah. Aku belanja.",
+            "ms_standard": "Terima kasih! Mari kita makan di kedai berhampiran rumah sahaja. Saya akan membelanja kamu.",
+            "zh": "谢谢！就在我家附近那家店吃吧。我请客。",
+            "en": "Thanks! Let's eat at the place near my house. My treat."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "适用于师生、同事、朋友及公开表彰。对长辈或资深人士表示赞赏时，说明具体贡献，有助于避免像居高临下地打分。",
+      "usage_etiquette": "可用 Syabas kepada… 点明受赞赏的人，再用 atas… 说明原因。真诚、明确的表扬最自然；夸张语调可能让它变成反讽。"
+    },
+    "etymology": {
+      "historical_story": "syabas 属于与波斯语 šābāš 相联系的赞赏用语，相关形式也见于南亚语言；具体进入马来语的中介路线不宜仅凭词形断定。它在马来语中保留了“做得好”的赞许功能，可以想象一句喝彩随着语言接触来到新的听众面前。波斯语借词研究参见 [Soriente 的相关论文](https://unora.unior.it/retrieve/dfd1bedd-6164-d55a-e053-3705fe0af723/prestiti%20persiani%20fs-avr-soriente3.pdf)。",
+      "cognitive_memory_aid": "想象朋友成功完成挑战，你一边鼓掌一边喊“Syabas!”：掌声就是这个词的意思。"
+    }
+  },
+  "heh": {
+    "headword": {
+      "word": "heh",
+      "syllables": null,
+      "ipa": "[heh]",
+      "jawi": "هيه",
+      "frequency_rank": 3095,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "heh",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + heh → heh",
+      "pattern_note": "单音节感叹词，无词缀。e 读作 é 对应的 [e]，不是中央元音 [ə]；语调和音量会改变惊讶或喝止的力度。",
+      "word_family": [],
+      "root_jawi": "هيه"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "particle",
+        "zh_definition": "嘿！咦！用于突然出声喝问、喝止，或表达惊讶。",
+        "en_definition": "Hey! An exclamation used to challenge someone abruptly or express surprise.",
+        "ms_definition": "Kata seru untuk menyergah atau menyatakan kehairanan dan keterkejutan.",
+        "nuances": "马来语词类为 kata seru，本结构归入 particle。强声短促时容易成为喝问，较轻的疑问语调可表示惊讶；不是普通的礼貌招呼，也不能默认理解为英文聊天中的轻笑 heh。所列搭配是常见话语组合，并非固定习语。词义参见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=heh)。",
+        "collocations": [
+          {
+            "ms": "heh, kenapa?",
+            "zh": "咦，怎么回事？",
+            "en": "Hey, what's wrong?"
+          },
+          {
+            "ms": "heh, jangan!",
+            "zh": "嘿，别这样！",
+            "en": "Hey, don't!"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻报道 / 引述现场警告",
+        "ms": "Menurut saksi, pengawal itu menjerit, “Heh, jangan masuk!” apabila seorang lelaki menghampiri kawasan larangan.",
+        "zh": "据目击者说，一名男子靠近禁区时，保安大声喝道：“嘿，不许进去！”",
+        "en": "According to a witness, the guard shouted, “Hey, don't go in!” as a man approached the restricted area."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友询问照片",
+        "ms_spoken": "Heh, kenapa gambar aku ada kat situ?",
+        "ms_standard": "Heh, mengapakah gambar saya ada di situ?",
+        "zh": "咦，我的照片怎么会在那儿？",
+        "en": "Hey, what's my photo doing there?",
+        "spoken_features": [
+          "kat 在这里相当于 di。",
+          "kenapa 是日常口语常用的疑问形式，正式表达可用 mengapa。",
+          "aku 是熟人间使用的第一人称代词。",
+          "heh 在此表达突然发现后的惊讶，也可能被读成质问。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Heh, kenapa gambar aku ada kat poster tu? Kau dah hantar ke?",
+            "ms_standard": "Heh, mengapakah gambar saya ada pada poster itu? Adakah kamu sudah menghantarnya?",
+            "zh": "咦，我的照片怎么在那张海报上？你已经发出去了吗？",
+            "en": "Hey, why is my photo on that poster? Have you sent it out already?"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Belum, ni draf je. Aku nak tanya kau dulu.",
+            "ms_standard": "Belum, ini draf sahaja. Saya mahu meminta persetujuan kamu terlebih dahulu.",
+            "zh": "还没，这只是草稿。我正想先问问你呢。",
+            "en": "Not yet, it's just a draft. I wanted to check with you first."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "colloquial",
+      "politeness_note": "直接用 heh 喝问长辈、上司或陌生人容易显得粗鲁。需要礼貌引起注意时，可用 maaf 或 permisi；紧急喝止则取决于现场需要。",
+      "usage_etiquette": "适合呈现惊讶或突然警告的对话。正式报告中通常只在直接引语里保留；文字聊天缺少语调线索，单独发 Heh? 容易被理解为不满。"
+    },
+    "etymology": {
+      "historical_story": "heh 在马来语词典中作为表示喝问或惊讶的感叹词收录，现有依据不足以确定其更早的借入来源或出现年代。它的表达效果主要来自短促发声和语调；不能因拼写与其他语言相似，就认定具有相同词源或笑声含义。参见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=heh)。",
+      "cognitive_memory_aid": "想象你突然发现照片出现在陌生海报上，脱口而出一声“Heh?”：记住突然抬头、惊讶发问的动作。"
+    }
+  }
+}

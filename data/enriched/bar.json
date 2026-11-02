@@ -1,0 +1,110 @@
+{
+  "headword": {
+    "word": "bar",
+    "syllables": "bar",
+    "ipa": "/bar/",
+    "jawi": "بر",
+    "frequency_rank": 1324,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bar → bar",
+    "pattern_note": "单音节借词，无词缀或音变；以下词族成员为复合术语，不是派生词。",
+    "word_family": [
+      {
+        "word": "bar pengagih",
+        "affix": "∅（复合词）",
+        "gloss": "配电母排"
+      },
+      {
+        "word": "bar perangkai plumbum",
+        "affix": "∅（复合词）",
+        "gloss": "蓄电池铅连接条"
+      }
+    ],
+    "root_jawi": "بر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "铁或其他金属制成的长条形材料或构件。",
+      "en_definition": "A long, solid piece of iron or another metal.",
+      "ms_definition": "Batang besi atau logam lain.",
+      "nuances": "本条采用输入包指定的金属条义。常见于建筑、制造和电气语境；具体材料或用途通常由后接成分说明。马来西亚官方经济报告亦使用 bar dan batang besi dan keluli。[马来西亚财政部用例](https://belanjawan.mof.gov.my/pdf/belanjawan2025/ekonomi/Jadual-Perangkaan.pdf)",
+      "collocations": [
+        {
+          "ms": "bar keluli",
+          "zh": "钢条；钢棒",
+          "en": "a steel bar"
+        },
+        {
+          "ms": "bar pengagih",
+          "zh": "配电母排",
+          "en": "a busbar"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 建筑材料验收",
+      "ms": "Semua bar keluli yang dibekalkan hendaklah diperiksa sebelum digunakan dalam pembinaan.",
+      "zh": "所有供应的钢条在用于施工前均须接受检查。",
+      "en": "All supplied steel bars must be inspected before use in construction."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对材料",
+      "ms_spoken": "Bar keluli tu dah sampai kat tapak ke?",
+      "ms_standard": "Adakah bar keluli itu sudah sampai di tapak pembinaan?",
+      "zh": "那些钢条送到工地了吗？",
+      "en": "Have those steel bars arrived at the construction site?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "dah 对应 sudah",
+        "kat 对应地点介词 di",
+        "句末 ke 构成口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Bar keluli tu dah sampai kat tapak ke?",
+          "ms_standard": "Adakah bar keluli itu sudah sampai di tapak pembinaan?",
+          "zh": "那些钢条送到工地了吗？",
+          "en": "Have those steel bars arrived at the site yet?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah, semua ada kat stor. Nak saya kira dulu?",
+          "ms_standard": "Sudah, semuanya berada di stor. Adakah awak mahu saya mengiranya dahulu?",
+          "zh": "到了，都在仓库。要我先点一下吗？",
+          "en": "Yes, they're all in the storeroom. Shall I count them first?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "词语本身中性；向供应商或同事提出要求时，可使用 sila 或 boleh 带出礼貌语气。",
+    "usage_etiquette": "采购和施工沟通宜注明材料、直径及长度，例如 bar keluli berdiameter 12 mm，避免只写 bar 而规格不明。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语",
+    "root_origin": "bar（金属条、棒）",
+    "cognitive_memory_aid": "把英语 bar 的长条形状直接搬进脑海：一根笔直的钢条，就是 bar keluli。",
+    "historical_story": "本义对应英语 bar 所指的金属条或棒，进入马来语后保留了简短的原有拼写。现代马来语把它与材料名、用途名组合，形成 bar keluli、bar pengagih 等术语；确切借入年代尚未核实。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "词语本身中性；向供应商或同事提出要求时，可使用 sila 或 boleh 带出礼貌语气。",
+    "usage_etiquette": "采购和施工沟通宜注明材料、直径及长度，例如 bar keluli berdiameter 12 mm，避免只写 bar 而规格不明。"
+  }
+}

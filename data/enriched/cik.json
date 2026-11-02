@@ -1,0 +1,131 @@
+{
+  "headword": {
+    "word": "cik",
+    "syllables": null,
+    "ipa": "/ˈt͡ʃik/",
+    "jawi": null,
+    "frequency_rank": 348,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "cik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + cik → cik；历史缩略：encik → cik；亲属称呼中 kecik → cik",
+    "pattern_note": "现代把 cik 当作独立称呼成分，不把 c- 当词缀。两路缩略来源须区分；PRPM 的音节和 Jawi 字段均为空，保留 null。称呼义另有本地 IPA /ˈt͡ʃek/，词尾 k 可实现为 [ʔ]。",
+    "word_family": [
+      {
+        "word": "encik",
+        "affix": "无；称呼义的完整形式",
+        "gloss": "先生；礼貌称呼"
+      },
+      {
+        "word": "pak cik",
+        "affix": "无；复合称呼",
+        "gloss": "叔叔；对父辈男性的称呼"
+      },
+      {
+        "word": "mak cik",
+        "affix": "无；复合称呼",
+        "gloss": "阿姨；对母辈女性的称呼"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "小姐；放在人名前的礼貌称谓，也可用来称呼不太熟悉的人。",
+      "ms_definition": "singkatan bagi encik (biasanya digunakan sebelum nama perempuan yg belum berkahwin atau sewaktu bercakap dgn perempuan atau lelaki yg tidak begitu dikenali) (Kamus Dewan Edisi Keempat; tanda pemenggalan baris dibuang).",
+      "nuances": "现代常见 Cik + 女性姓名，传统释义与未婚女性相联系，但实际称呼优先尊重本人选择。词典也记录用于不熟悉男女的较广用法；现代男性正式称谓通常用 Encik。Schema 将称谓映射为 noun；不是代替所有第二人称的代词。",
+      "collocations": [
+        {
+          "ms": "Cik Aminah",
+          "zh": "阿米娜小姐",
+          "en": "Miss Aminah"
+        },
+        {
+          "ms": "Cik Munah",
+          "zh": "穆娜小姐",
+          "en": "Miss Munah"
+        }
+      ],
+      "en_definition": "A shortened form of encik, usually used as a title for an unmarried woman (Miss), or as a polite form of address to someone unfamiliar."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "小；幼，主要保留在 pak cik 等亲属称呼中。",
+      "ms_definition": "singkatan bagi kecik (kecil) (Kamus Dewan Edisi Keempat).",
+      "nuances": "这里的 adjective 对应完整形式 kecil 的性质义，cik 主要是固定称呼中的缩略成分；不能随意把 rumah kecil 改成 rumah cik 来表达“小房子”。pak cik 可指最小的叔舅辈，也泛称父辈男性；并不等于称呼对象身材小。",
+      "collocations": [
+        {
+          "ms": "pak cik",
+          "zh": "叔叔；父辈男性",
+          "en": "uncle"
+        },
+        {
+          "ms": "mak cik",
+          "zh": "阿姨；母辈女性",
+          "en": "auntie"
+        }
+      ],
+      "en_definition": "Small or young; a shortened form of kecik (kecil), chiefly retained in kinship terms."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／社区活动开幕",
+      "ms": "Penyelaras program, Cik Aminah Abdullah, berkata bahawa bengkel itu terbuka kepada semua penduduk setempat.",
+      "zh": "项目协调员阿米娜·阿卜杜拉小姐表示，该工作坊向所有当地居民开放。",
+      "en": "The programme coordinator, Miss Aminah Abdullah, said that the workshop was open to all local residents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 顾客向女店员查询预订商品是否已经到店",
+      "ms_spoken": "Cik, barang saya dah sampai kat kedai ke? Kalau dah, saya nak ambil petang ni.",
+      "ms_standard": "Cik, adakah barang saya sudah sampai di kedai? Jika barang itu sudah sampai, saya hendak mengambilnya pada petang ini.",
+      "zh": "小姐，我订的东西已经到店了吗？到了的话，我想今天下午去拿。",
+      "spoken_features": [
+        "Cik 是顾客对女店员使用的礼貌称呼，后接逗号；店员用 encik 回称男顾客。",
+        "dah = sudah；kat = di；nak = hendak；ni = ini；je = sahaja。",
+        "句末 ke 构成是非问句；Kalau dah 省略前文已经提过的 barang saya sampai。",
+        "lepas pukul dua 对应 selepas pukul dua；ya 使取货时间的说明更亲切。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (顾客)",
+          "ms_spoken": "Cik, barang saya dah sampai kat kedai ke? Kalau dah, saya nak ambil petang ni.",
+          "ms_standard": "Cik, adakah barang saya sudah sampai di kedai? Jika barang itu sudah sampai, saya hendak mengambilnya pada petang ini.",
+          "zh": "小姐，我订的东西已经到店了吗？到了的话，我想今天下午去拿。",
+          "en": "Miss, has my order arrived at the shop yet? If it has, I'd like to pick it up this afternoon."
+        },
+        {
+          "speaker": "Nina (店员)",
+          "ms_spoken": "Dah sampai, encik. Boleh ambil lepas pukul dua ya. Tunjuk nombor pesanan je nanti.",
+          "ms_standard": "Barang itu sudah sampai, encik. Encik boleh mengambilnya selepas pukul dua petang. Sila tunjukkan nombor pesanan sahaja semasa mengambilnya nanti.",
+          "zh": "已经到了，先生。下午两点以后可以来拿哦，到时出示订单号就可以了。",
+          "en": "Yes, it's here, sir. You can pick it up any time after two. Just show us your order number when you come."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "称呼女性时可参考对方自称、名牌或署名；不确定时用姓名、适当职衔或礼貌询问，避免为了决定 Cik 或 Puan 而追问婚姻状态。称呼男性时 Encik 更稳妥。",
+    "usage_etiquette": "Cik 用在人名前通常首字母大写；pak cik、mak cik 可表达亲切，但对年龄相近或不熟悉的客户可能显得擅自把人叫老。原包另列 Minangkabau 的同形方言词“粪便”，与这里的礼貌称呼无关，不混用。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay",
+    "root_origin": "称谓义由 encik 缩短；亲属称呼中的 cik 由 kecik（kecil 的口语形式）缩短；不为 encik 另编未经提供的远源。",
+    "historical_story": "cik 有两条容易交会的本地缩略路径：礼貌称呼 encik 缩成 cik，亲属称呼中的 kecik 也缩成 cik。放进家庭称呼时，它留在 pak cik 之中；放到女性名字前，则成为 Cik Aminah 这样的称谓。两种用法从家庭走到商店柜台，都体现了马来语用称呼处理人际距离的习惯，而不是一个已证实的外来借词过程。",
+    "cognitive_memory_aid": "看位置记意思：Cik + 姓名是称谓；pak + cik 是叔叔，不是“小先生”。"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "headword": {
+    "word": "denganmu",
+    "syllables": null,
+    "ipa": "/dəŋanmu/",
+    "jawi": null,
+    "frequency_rank": 875,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: دڠن (dengan)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dengan",
+    "affix": "-mu（人称附着形式）",
+    "affix_type": "suffix",
+    "formula": "dengan + -mu（kamu）→ denganmu（与你；跟你）",
+    "pattern_note": "-mu 是 kamu 的后附人称形式，在这里作介词的宾语，不是‘所有物’标记，也不是派生新词类的普通后缀。按本 Schema 的位置分类记作 suffix，实际为附着代词；与 dengan 连写，展开则为 dengan kamu。资料包 root=denganmu 是未分析的回退值，此处据构词归回 dengan。没有整个目标形式的官方音节和爪夷文，均保留 null；IPA 为依据组成形式推导的宽式标音。 核心词根（Kata Dasar）「dengan」官方爪夷文为「دڠن」，派生附加 -mu（人称附着形式）。",
+    "word_family": [
+      {
+        "word": "dengan",
+        "affix": "none",
+        "gloss": "与；跟；用"
+      },
+      {
+        "word": "denganku",
+        "affix": "-ku（人称附着形式）",
+        "gloss": "与我；跟我"
+      },
+      {
+        "word": "dengannya",
+        "affix": "-nya（人称附着形式）",
+        "gloss": "与他／她／它"
+      },
+      {
+        "word": "dengan kamu",
+        "affix": "none；展开形式",
+        "gloss": "与你；跟你"
+      }
+    ],
+    "root_jawi": "دڠن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "与你一起；由你陪伴。",
+      "ms_definition": "(ber)serta, bersama, disertai (oleh), ditemani (oleh)",
+      "nuances": "定义摘自 Kamus Dewan 的 dengan 第一义；同库 mu 的代词条释为 singkatan bagi kamu。denganmu 整体相当于介词短语 dengan kamu，本任务以 preposition 标示其中心词类别，并非声称整个组合只有一个介词词素。此处的 -mu 指‘你’，不是‘你的’。",
+      "collocations": [
+        {
+          "ms": "hidup denganmu",
+          "zh": "与你一起生活",
+          "en": "live with you"
+        },
+        {
+          "ms": "pergi denganmu",
+          "zh": "跟你一起去",
+          "en": "go with you"
+        }
+      ],
+      "en_definition": "With you; in your company."
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "与你；向你，表示交谈、商量等行为所涉及的对象。",
+      "ms_definition": "kata yg menunjukkan tumpuan sesuatu perbuatan (sikap, pernyataan, dll)",
+      "nuances": "定义摘自 Kamus Dewan 的 dengan 第八义，-mu 将对象限定为受话人。berbincang denganmu 是与你商量，不是‘使用你’；此时不能套用 dengan 表工具的含义。",
+      "collocations": [
+        {
+          "ms": "berbincang denganmu",
+          "zh": "与你商量",
+          "en": "discuss something with you"
+        },
+        {
+          "ms": "bercakap denganmu",
+          "zh": "跟你说话",
+          "en": "talk to you"
+        }
+      ],
+      "en_definition": "With you or to you, identifying you as the person addressed or consulted."
+    },
+    {
+      "id": 3,
+      "pos": "preposition",
+      "zh_definition": "与你相合、相同或一致，用来引出意见等的比较对象。",
+      "ms_definition": "kata utk menyatakan hubungan kesesuaian (kecocokan, keselarasan, dsb)",
+      "nuances": "定义摘自 Kamus Dewan 的 dengan 第六义。须结合前面的谓语理解：sependapat denganmu 是与你意见相同，不能只凭 denganmu 就判断两个人共同做了一件事。",
+      "collocations": [
+        {
+          "ms": "sependapat denganmu",
+          "zh": "与你意见一致",
+          "en": "share your opinion"
+        },
+        {
+          "ms": "bersetuju denganmu",
+          "zh": "同意你的看法",
+          "en": "agree with you"
+        }
+      ],
+      "en_definition": "With you, indicating agreement or a shared opinion."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／获奖致辞引语",
+      "ms": "Dalam ucapan penghargaannya, penerima anugerah itu berkata kepada isterinya, ‘Saya ingin berkongsi kejayaan ini denganmu.’",
+      "zh": "获奖者在致谢词中对妻子说：“我愿与你分享这份成功。”",
+      "en": "In his acceptance speech, the award recipient told his wife, ‘I want to share this success with you.’"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 伴侣约时间谈心，一方带着温柔、略抒情的语气开口",
+      "ms_spoken": "Aku nak berbincang denganmu malam ni. Lepas makan nanti kau lapang tak?",
+      "ms_standard": "Saya mahu berbincang dengan kamu pada malam ini. Adakah kamu mempunyai masa lapang selepas makan nanti?",
+      "zh": "我今晚想和你谈谈。待会儿吃完饭你有空吗？",
+      "spoken_features": [
+        "denganmu 由 dengan 与附着代词 -mu 构成，须连写；此处表示交谈对象‘与你’。",
+        "denganmu 在日常聊天中带有较明显的亲昵或抒情色彩，对方以‘今天说话格外甜’自然回应这种语体。",
+        "nak 对应 mahu 或表示计划的 untuk；ni 对应 ini；tu 对应 itu；je 对应 sahaja。",
+        "lapang tak 是口语疑问结构；manis semacam 在这里形容说话比平时格外甜。"
+      ],
+      "messages": [
+        {
+          "speaker": "Adam (伴侣)",
+          "ms_spoken": "Aku nak berbincang denganmu malam ni. Lepas makan nanti kau lapang tak?",
+          "ms_standard": "Saya mahu berbincang dengan kamu pada malam ini. Adakah kamu mempunyai masa lapang selepas makan nanti?",
+          "zh": "我今晚想和你谈谈。待会儿吃完饭你有空吗？",
+          "en": "I'd like to talk something over with you tonight. Are you free after dinner?"
+        },
+        {
+          "speaker": "Sara (伴侣)",
+          "ms_spoken": "Boleh, lepas pukul sembilan ya. Ayat kau manis semacam hari ni 😂 Nak bincang apa?",
+          "ms_standard": "Boleh, selepas pukul sembilan, ya. Kata-kata kamu kedengaran luar biasa manis pada hari ini. Apakah yang mahu kamu bincangkan?",
+          "zh": "可以，九点过后吧。你今天说话怎么格外甜啊😂 想谈什么？",
+          "en": "Sure, after nine, okay? You're sounding unusually sweet today 😂 What do you want to talk about?"
+        },
+        {
+          "speaker": "Adam (伴侣)",
+          "ms_spoken": "Pasal rancangan kita nak pindah tu je. Aku nak dengar pendapat kau dulu.",
+          "ms_standard": "Tentang rancangan kita untuk berpindah itu sahaja. Saya mahu mendengar pendapat kamu terlebih dahulu.",
+          "zh": "就聊聊我们打算搬家的事。我想先听听你的意见。",
+          "en": "Just our plans to move. I want to hear what you think first."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "intimate",
+    "politeness_note": "-mu 常出现在亲密对话、歌词和诗文中；正式面向陌生人、长辈或客户时，通常改用 dengan tuan／puan、对方姓名或合适称谓。它不是通用的礼貌‘您’。",
+    "usage_etiquette": "写给伴侣时可自然使用，但不要因为别人用中文‘你’就自动用 -mu 称呼对方。正式新闻可以忠实引用亲密发言，报道正文对公众的称呼仍应保持相应距离；普通聊天也无需为了显得地道而刻意加用 -mu。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；dengan 与 kamu／-mu 属南岛语继承成分",
+    "root_origin": "现代组合 dengan + -mu。补查本地词根资料：dengan 承接古马来语 daṅan，并上溯 *dəŋan；DBP 的 mu 代词条明确说明它是 kamu 的缩略。",
+    "historical_story": "古马来语已有 dengan 的前身 daṅan，用来把人或事物联系在一起，现代的‘跟、与’延续了这条本族词汇线。把指向受话人的 -mu 接在后面，就把宽泛的‘与’收束成‘与你’，无须从外语另借一个完整词。今天歌词、诗句和亲密讯息常借这个紧凑形式把两个人连在一起，但这并不表示整个 denganmu 已在古代材料中得到独立见证。",
+    "cognitive_memory_aid": "把 dengan 当作连接线，-mu 是‘你’：dengan + mu → 与你相连；与我则把末尾换成 -ku。"
+  }
+}

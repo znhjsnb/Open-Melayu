@@ -1,0 +1,166 @@
+{
+  "headword": {
+    "word": "siapa",
+    "syllables": "sia.pa",
+    "ipa": "/ˈsiapə/",
+    "jawi": "سياڤا",
+    "frequency_rank": 62,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "siapa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + siapa → siapa",
+    "pattern_note": "现代按完整疑问词作基本形式；历史上的 si + apa 不当作现今能自由替换的词缀公式。DBP 分作 sia.pa；这里采用半岛常见词尾 /ə/，规范逐字发音也可保留 /a/。",
+    "word_family": [
+      {
+        "word": "siapakah",
+        "affix": "-kah（疑问附着词）",
+        "gloss": "谁；较正式的问法"
+      },
+      {
+        "word": "siapa-siapa",
+        "affix": "整词重叠",
+        "gloss": "任何人；某个人，依语境而定"
+      },
+      {
+        "word": "sesiapa",
+        "affix": "部分重叠（重叠音节弱化为 se-）",
+        "gloss": "任何人；谁都"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "谁；哪一个人；在所属结构中也表示“谁的”。",
+      "ms_definition": "kata utk menanyakan orang, orang mana",
+      "nuances": "用于询问人；siapa yang… 问谁做某事。放在名词后可问归属，如 beg siapa 是“谁的包”，不需要另一个专门表示 whose 的词。",
+      "collocations": [
+        {
+          "ms": "siapa yang bertanggungjawab",
+          "zh": "谁负责",
+          "en": "who is responsible"
+        },
+        {
+          "ms": "milik siapa",
+          "zh": "属于谁的",
+          "en": "who it belongs to"
+        }
+      ],
+      "en_definition": "Who; used to ask which person, or whose in possessive constructions."
+    },
+    {
+      "id": 2,
+      "pos": "pronoun",
+      "zh_definition": "叫什么名字；用于询问人的姓名。",
+      "ms_definition": "kata utk menanyakan nama orang",
+      "nuances": "马来语自然问 Siapa nama…?；中文译为“叫什么名字”，英语则译为 What is…name?，不逐字套成“名字是谁”。",
+      "collocations": [
+        {
+          "ms": "siapa nama anda",
+          "zh": "您叫什么名字",
+          "en": "what is your name"
+        },
+        {
+          "ms": "siapa nama pengarang",
+          "zh": "作者叫什么名字",
+          "en": "what is the author's name"
+        }
+      ],
+      "en_definition": "Used to ask a person's name."
+    },
+    {
+      "id": 3,
+      "pos": "pronoun",
+      "zh_definition": "无论谁；任何人；泛指未确定的人。",
+      "ms_definition": "kata utk menyatakan orang secara umum, orang yg tidak tentu",
+      "nuances": "常见于 siapa pun、siapa sahaja 及泛指条件句。正式表达“任何人”也常用 sesiapa；siapa pun 中的 pun 分开写。",
+      "collocations": [
+        {
+          "ms": "siapa pun",
+          "zh": "无论谁",
+          "en": "whoever; no matter who"
+        },
+        {
+          "ms": "siapa sahaja",
+          "zh": "任何人",
+          "en": "anyone"
+        }
+      ],
+      "en_definition": "Whoever or anyone; used to refer to an unspecified person."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 公共问责报道",
+      "ms": "Pihak berkuasa sedang menyiasat siapa yang bertanggungjawab terhadap pencemaran sungai itu.",
+      "zh": "有关当局正在调查谁应对该河流的污染负责。",
+      "en": "The authorities are investigating who is responsible for the pollution of the river."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友群聊确认第二天聚餐的人数",
+      "ms_spoken": "Esok siapa nak ikut makan kat kedai tu? Aku nak tempah meja ni.",
+      "ms_standard": "Siapakah yang hendak turut serta makan di kedai itu esok? Saya hendak menempah meja.",
+      "zh": "明天谁要一起去那家店吃饭？我准备订桌了。",
+      "spoken_features": [
+        "siapa 直接询问参加的人，口语中可以不加疑问词尾 -kah，也可以省略后面的 yang。",
+        "nak、kat、tu 分别对应 hendak、di、itu；tempah 在这里对应标准主动形式 menempah。",
+        "ikut 在约活动的语境中表示一起参加；kira kami dua sekali 是请对方把两人也算进去的口语表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友兼聚餐组织者)",
+          "ms_spoken": "Esok siapa nak ikut makan kat kedai tu? Aku nak tempah meja ni.",
+          "ms_standard": "Siapakah yang hendak turut serta makan di kedai itu esok? Saya hendak menempah meja.",
+          "zh": "明天谁要一起去那家店吃饭？我准备订桌了。",
+          "en": "Who's coming along to eat at that place tomorrow? I'm about to book a table."
+        },
+        {
+          "speaker": "Syafiq (朋友)",
+          "ms_spoken": "Aku ikut! Mira pun nak ikut. Kira kami dua sekali ya.",
+          "ms_standard": "Saya akan turut serta! Mira juga hendak turut serta. Sila masukkan kami berdua dalam jumlah orang yang akan hadir.",
+          "zh": "我去！Mira 也要去。记得把我们俩都算上哦。",
+          "en": "I'm in! Mira wants to come too. Count us both in, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "sapa",
+      "full_form": "siapa",
+      "note": "大马日常口语及聊天中的缩合形式；另有标准词 sapa（招呼），须结合上下文辨认。"
+    },
+    {
+      "abbr": "syp",
+      "full_form": "siapa",
+      "note": "网络聊天省写形式，跨地区可见；正式书写恢复 siapa。"
+    },
+    {
+      "abbr": "sapo",
+      "full_form": "siapa",
+      "note": "带地区口音色彩的口语写法，不作为全马通用标准读法。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "siapa 本身中性，直接追问身份的语气和称呼决定礼貌程度。对初次见面者可说 Boleh saya tahu nama tuan atau puan?。",
+    "usage_etiquette": "单独问 Awak siapa? 容易像盘问；电话、前台或跨族群初次接触时宜先自我介绍，再温和询问姓名。Siapa lagi? 可以只是“还有谁”，不必自动理解为责怪。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic（原始马来语）",
+    "root_origin": "承接重建形式 *si-apa；表层结构可联系指人的 si 与表示“什么”的 apa。现代词条以 siapa 为完整基本形式。",
+    "historical_story": "siapa 承接原始马来语的 *si-apa，把指人的成分与询问“什么”的成分连在一起，让问题的焦点落到“哪一个人”。这个古老的问人结构延续到现代，既能在正式采访中询问身份，也能在群聊里用一句 siapa nak ikut 把朋友召集起来。",
+    "cognitive_memory_aid": "apa 问“什么”，siapa 问“谁”：把 si 想成一个小人站在 apa 前面，只作词源助记。"
+  }
+}

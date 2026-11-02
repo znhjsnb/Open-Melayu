@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "berikan",
+    "syllables": "ber.i.kan",
+    "ipa": "[bə.ri.kan]",
+    "jawi": "برايکن",
+    "frequency_rank": 238,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "beri",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "beri + -kan → berikan（给予）；ber- + ikan → berikan（有鱼／捕鱼，同形异源）",
+    "pattern_note": "常用‘给予’义来自 beri + -kan，不能拆成 ber- + ikan。本词头严格保留 PRPM 的 ber.i.kan 与 برايکن，但这两个官方字段属于鱼义；给予义的本地 Kaikki 分别记录 Jawi 为 بريکن，不能把它误称为本批 PRPM 字段。",
+    "word_family": [
+      {
+        "word": "beri",
+        "affix": "∅",
+        "gloss": "给"
+      },
+      {
+        "word": "memberikan",
+        "affix": "meN-…-kan",
+        "gloss": "给予；提供"
+      },
+      {
+        "word": "diberikan",
+        "affix": "di-…-kan",
+        "gloss": "被给予"
+      },
+      {
+        "word": "pemberian",
+        "affix": "peN-…-an",
+        "gloss": "赠与；赠品"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "给；交给；提供。常用于指令或请求。",
+      "ms_definition": "menyerahkan sesuatu kpd. (Kamus Dewan Edisi Keempat, entri beri, subentri memberikan)",
+      "nuances": "这是高频的 beri + -kan，而非 PRPM 独立词头的鱼义。规范祈使句常用 Berikan + 所给之物 + kepada + 接收者；普通主动陈述句通常写 memberikan，不能把省略 meN- 的口语形式随意套进正式报道。",
+      "collocations": [
+        {
+          "ms": "berikan perhatian",
+          "zh": "给予关注",
+          "en": "give attention"
+        },
+        {
+          "ms": "berikan contoh",
+          "zh": "举出例子",
+          "en": "give an example"
+        }
+      ],
+      "en_definition": "To give, hand over, or provide something, often in a command or request."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "有鱼；含有鱼。与‘给予’同形的较少见词义。",
+      "ms_definition": "mempunyai ikan. (Kamus Dewan Edisi Keempat)",
+      "nuances": "来自 ber- + ikan，才对应词头所保留的 PRPM 分节和 Jawi。以下是用于辨义的组合例，不声称是现代高频固定搭配；日常多用 ada ikan 或 mempunyai ikan。",
+      "collocations": [
+        {
+          "ms": "kolam berikan",
+          "zh": "有鱼的池塘",
+          "en": "a pond with fish in it"
+        },
+        {
+          "ms": "sungai berikan",
+          "zh": "有鱼的河流",
+          "en": "a river with fish in it"
+        }
+      ],
+      "en_definition": "To have or contain fish."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "捕鱼；找鱼。与‘给予’同形的较少见词义。",
+      "ms_definition": "mencari atau menangkap ikan. (Kamus Dewan Edisi Keempat)",
+      "nuances": "同样来自 ber- + ikan；现代日常表达捕鱼更常用 menangkap ikan，钓鱼常用 memancing。以下为说明活动和地点的辨义组合，不冒充高频词组。",
+      "collocations": [
+        {
+          "ms": "pergi berikan",
+          "zh": "去捕鱼",
+          "en": "go fishing"
+        },
+        {
+          "ms": "berikan di sungai",
+          "zh": "在河里捕鱼",
+          "en": "fish in a river"
+        }
+      ],
+      "en_definition": "To fish; to look for or catch fish."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议致辞／主席呼吁关注安全",
+      "ms": "Berikan perhatian khusus kepada aspek keselamatan sepanjang pelaksanaan projek ini.",
+      "zh": "在本项目实施期间，请特别关注安全问题。",
+      "en": "Pay particular attention to safety throughout the implementation of this project."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两个朋友在候车室发消息，商量给母亲留座",
+      "ms_spoken": "Kau dah dapat tempat duduk kat ruang menunggu?",
+      "ms_standard": "Adakah kamu sudah mendapat tempat duduk di ruang menunggu?",
+      "zh": "你在候车室找到座位了吗？",
+      "spoken_features": [
+        "berikan 在这里表示把座位给某人使用；与题目中较少见的鱼类相关同形义无关。",
+        "berikan 保留完整的请求形式，语气较郑重；ya 使请求更柔和。",
+        "tu、mak、dah、je 分别对应 itu、ibu、sudah、sahaja；kat mak aku 中的 kat 标示接收者，对应 kepada。",
+        "ada satu lagi kosong 省略了重复的 tempat duduk；dia 在口语中指母亲，标准语使用尊称 beliau。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Kau dah dapat tempat duduk kat ruang menunggu?",
+          "ms_standard": "Adakah kamu sudah mendapat tempat duduk di ruang menunggu?",
+          "zh": "你在候车室找到座位了吗？",
+          "en": "Have you found a seat in the waiting area?"
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Dah, ada satu lagi kosong sebelah aku. Kau nak duduk sini?",
+          "ms_standard": "Ya, saya sudah mendapat tempat duduk. Masih ada satu tempat duduk kosong di sebelah saya. Adakah kamu mahu duduk di sini?",
+          "zh": "找到了，我旁边还空着一个位子。你要坐这里吗？",
+          "en": "Yeah, there's another empty seat next to me. Want to sit here?"
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Berikan tempat tu kat mak aku dulu ya, dia dah penat berdiri. Aku berdiri je.",
+          "ms_standard": "Berikan tempat duduk itu kepada ibu saya dahulu kerana beliau sudah penat berdiri. Saya akan berdiri sahaja.",
+          "zh": "先把那个位子给我妈坐吧，她站累了。我站着就行。",
+          "en": "Let my mum have that seat first, okay? She's tired from standing. I'll just stand."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "单独 Berikan ... 带有指令感；向服务人员或不熟悉的人请求时加 Tolong，或改说 Boleh berikan ...?。",
+    "usage_etiquette": "正式写作区分 memberi seseorang sesuatu 与 memberikan sesuatu kepada seseorang。不要因为拼写相同，就把礼貌请求里的 berikan 解释成捕鱼。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay; Proto-Malayic",
+    "root_origin": "给予义为 beri + -kan；本地 Kaikki 将 beri 追溯至原始马来语 *bəriʔ、原始马来－波利尼西亚语 *bəʀay 及原始南岛语 *bəʀay。鱼义另由 ber- + ikan 构成。",
+    "historical_story": "在马来群岛的生活图景中，递出物品与下水捕鱼都是直观场景，但这里代表两条不同构词路径，并不是‘捕鱼’演变成‘给予’。给予义延续本土 beri 并接上 -kan，鱼义则来自 ber- 加 ikan；两者在罗马字里恰好同形，现代学习时须靠句意和词根分开。",
+    "cognitive_memory_aid": "看到 berikan contoh 就抓住 beri‘给’，理解为‘给例子’；只有鱼义才拆 ber- + ikan，别让字母里的 ikan 把所有句子都变成捕鱼。"
+  }
+}

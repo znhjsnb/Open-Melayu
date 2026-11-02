@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "alami",
+    "syllables": "a.la.mi",
+    "ipa": "/a.la.mi/",
+    "jawi": "عالم",
+    "frequency_rank": 2313,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "alam",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "alam + -i → alami; meN- + alam + -i → mengalami",
+    "pattern_note": "加 -i 时词根不发生音变。alami 可用于 saya alami 等被动结构；普通主动陈述通常用 mengalami。输入的 Jawi عالم 是词根字形，此处按原包保留。",
+    "word_family": [
+      {
+        "word": "mengalami",
+        "affix": "meN-...-i",
+        "gloss": "经历；遭遇"
+      },
+      {
+        "word": "pengalaman",
+        "affix": "peN-...-an",
+        "gloss": "经历；经验"
+      }
+    ],
+    "root_jawi": "عالم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "亲身经历、感受或承受某种事件、处境或变化。",
+      "en_definition": "To experience, undergo, or personally encounter an event, condition, or change.",
+      "ms_definition": "Merasai atau menempuh sesuatu peristiwa, keadaan, kesukaran atau perubahan.",
+      "nuances": "本条按马来西亚马来语中 mengalami 的无 meN- 形式处理，常见于 masalah yang saya alami。正式主动句应写 saya mengalami masalah；这里不取印尼语形容词“天然的”之义。[DBP：mengalami](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mengalami)",
+      "collocations": [
+        {
+          "ms": "masalah yang saya alami",
+          "zh": "我遇到的问题",
+          "en": "the problems I experience"
+        },
+        {
+          "ms": "kesukaran yang kami alami",
+          "zh": "我们经历的困难",
+          "en": "the difficulties we experience"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场汇报",
+      "ms": "Laporan ini menghuraikan masalah yang kami alami semasa pelaksanaan projek.",
+      "zh": "本报告详述我们在项目实施期间遇到的问题。",
+      "en": "This report details the problems we encountered during the implementation of the project."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事交流",
+      "ms_spoken": "Masalah yang aku alami semalam dah selesai.",
+      "ms_standard": "Masalah yang saya alami semalam sudah selesai.",
+      "zh": "我昨天碰到的问题已经解决了。",
+      "en": "The problem I had yesterday is sorted now.",
+      "spoken_features": [
+        "aku 是熟人之间使用的第一人称代词，正式交流通常用 saya。",
+        "dah 是 sudah 的口语缩略形式。",
+        "yang aku alami 保留了标准语也接受的被动结构。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Masalah yang aku alami semalam dah selesai.",
+          "ms_standard": "Masalah yang saya alami semalam sudah selesai.",
+          "zh": "我昨天碰到的问题已经解决了。",
+          "en": "The problem I had yesterday is sorted now."
+        },
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Baguslah! Aku nak sambung kerja tu petang ni.",
+          "ms_standard": "Baguslah! Saya hendak menyambung kerja itu pada petang ini.",
+          "zh": "那就好！我今天下午想接着做那项工作。",
+          "en": "Great! I want to get back to that work this afternoon."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向客户或长辈了解其经历时，可说 masalah yang tuan atau puan alami，以保持礼貌。",
+    "usage_etiquette": "汇报自己的情况用 saya mengalami；以问题为话题时用 masalah yang saya alami。谈论别人遭遇的困难时，避免带有责备意味的语气。"
+  },
+  "etymology": {
+    "historical_story": "DBP 将“经历”这一词族的 alam 单列为 alam II，相关形式包括 mengalami 和 pengalaman。现代马来语用 mengalami 叙述亲身遭遇，用 pengalaman 把这些遭遇概括为经历或经验；在 masalah yang saya alami 中，动作则以不带 meN- 的形式出现。[DBP：alam](https://prpm.dbp.gov.my/Cari1?d=168608&keyword=alam)",
+    "cognitive_memory_aid": "把经历想成自己走过的一段路：saya mengalami 是“我走过”，pengalaman 是“走过后留下的经验”，yang saya alami 是“我所经历的”。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "向客户或长辈了解其经历时，可说 masalah yang tuan atau puan alami，以保持礼貌。",
+    "usage_etiquette": "汇报自己的情况用 saya mengalami；以问题为话题时用 masalah yang saya alami。谈论别人遭遇的困难时，避免带有责备意味的语气。"
+  }
+}

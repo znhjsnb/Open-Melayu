@@ -1,0 +1,139 @@
+{
+  "headword": {
+    "word": "otak",
+    "syllables": null,
+    "ipa": "[ˈʔo.t̪aʔ]",
+    "jawi": "اوتق",
+    "frequency_rank": 921,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "otak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + otak → otak（脑；头脑）",
+    "pattern_note": "独立词根；马来西亚常见读音把词尾 k 实现为喉塞音 [ʔ]。PRPM 音节字段缺失，保留 null；Jawi 从本地同批原始包恢复。CEFR 为教学估级。",
+    "word_family": [
+      {
+        "word": "berotak",
+        "affix": "ber-",
+        "gloss": "有头脑；有思考能力"
+      },
+      {
+        "word": "otaknya",
+        "affix": "-nya",
+        "gloss": "他／她的脑；其头脑"
+      },
+      {
+        "word": "otak-otak",
+        "affix": "penggandaan",
+        "gloss": "乌达：以鱼肉、香料等制成的叶包食品"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "脑；位于头颅内、控制思考及身体活动的器官。",
+      "ms_definition": "organ di bahagian atas kepala, yg mengawal pemikiran (perasaan), benak",
+      "nuances": "Kamus Dewan 第一义，已去除原文软连字符。此处指身体器官；otak-otak 是已经词汇化的食品名，不表示多个脑。",
+      "collocations": [
+        {
+          "ms": "kecederaan otak",
+          "zh": "脑损伤",
+          "en": "brain injury"
+        },
+        {
+          "ms": "fungsi otak",
+          "zh": "脑功能",
+          "en": "brain function"
+        }
+      ],
+      "en_definition": "The organ inside the skull that controls thought, feelings, and bodily activity; the brain."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "头脑；思维、智力或想事情的能力。",
+      "ms_definition": "alat berfikir, fikiran",
+      "nuances": "由脑的器官义转指思考能力。kerja otak 强调脑力劳动；otak udang 是骂人愚笨，不能理解为中性的智力评价。otak cair 指学东西快，见所附 Kamus Pelajar。",
+      "collocations": [
+        {
+          "ms": "kerja otak",
+          "zh": "脑力劳动",
+          "en": "mental work"
+        },
+        {
+          "ms": "otak cair",
+          "zh": "脑筋灵活；领悟快",
+          "en": "quick-witted"
+        }
+      ],
+      "en_definition": "The mind or the ability to think, understand, and reason."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "健康新闻 / 道路安全报道",
+      "ms": "Penggunaan topi keledar yang menepati piawaian dapat mengurangkan risiko kecederaan otak akibat kemalangan jalan raya.",
+      "zh": "使用符合标准的头盔可降低交通事故造成脑损伤的风险。",
+      "en": "Wearing a helmet that meets safety standards can reduce the risk of brain injury in road accidents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学做题做到深夜，商量明天继续",
+      "ms_spoken": "Ada dua soalan lagi. Nak habiskan malam ni?",
+      "ms_standard": "Masih ada dua soalan lagi. Adakah awak mahu menyelesaikannya malam ini?",
+      "zh": "还剩两道题。要今晚做完吗？",
+      "spoken_features": [
+        "otak 在这里指思考所用的头脑；otak dah penat 表示用脑过度后的疲惫。",
+        "ni、dah 分别对应 ini、sudah；nak 对应 mahu 或 hendak。",
+        "aku、kau 用于关系熟悉的同学之间；标准语版本使用 saya、awak。",
+        "boleh tak 是口语是非问句格式；boleh je 表示轻松答应，je 对应 sahaja，但标准语可按语意直接还原为 Boleh。",
+        "lah 让疲惫的说明带上亲近的抱怨语气；sambung 的主语和宾语由做题语境补足。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Ada dua soalan lagi. Nak habiskan malam ni?",
+          "ms_standard": "Masih ada dua soalan lagi. Adakah awak mahu menyelesaikannya malam ini?",
+          "zh": "还剩两道题。要今晚做完吗？",
+          "en": "We've got two questions left. Want to finish them tonight?"
+        },
+        {
+          "speaker": "Farhan (同学)",
+          "ms_spoken": "Otak aku dah penat lah. Sambung esok boleh tak?",
+          "ms_standard": "Otak saya sudah penat. Bolehkah kita meneruskan latihan ini esok?",
+          "zh": "我脑子已经累了啦。明天再继续行不行？",
+          "en": "My brain's worn out. Can we pick this up tomorrow?"
+        },
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Boleh je. Esok pagi aku mesej kau.",
+          "ms_standard": "Boleh. Saya akan menghantar mesej kepada awak esok pagi.",
+          "zh": "可以呀。明早我发消息给你。",
+          "en": "Sure. I'll text you tomorrow morning."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "器官义中性，医疗、课堂和日常场合都能使用；对他人说 guna otak（动动脑子）往往带责备意味。",
+    "usage_etiquette": "otak udang、tak ada otak 等会冒犯对方，不宜对陌生人、同事或长辈使用。原始候选 otek 未有充分依据可认定为通用聊天缩写，故不列入缩写栏。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic / Proto-Malayo-Polynesian",
+    "root_origin": "资料追溯至较早形式 utak、原始马来语 *u(n)tək，并列出更早的 *hutək、*qutək、*qutak 等重建形式；星号表示重建词形。",
+    "historical_story": "otak 属于南岛语言中古老的身体词汇，资料把它与较早的 utak 相连，菲律宾他加禄语今天也用 utak 表示脑。这个跨海域的亲缘对应显示它并非近代医学才引入的名称；在马来语中，装在头颅里的脑又成为思维的代称，于是有了 kerja otak 这样的表达。",
+    "cognitive_memory_aid": "先想头颅里的 otak，再把它连到脑力工作 kerja otak；otak-otak 则整词记成食品乌达。"
+  }
+}

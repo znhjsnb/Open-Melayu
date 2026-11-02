@@ -1,0 +1,174 @@
+{
+  "headword": {
+    "word": "awak",
+    "syllables": "a.wak",
+    "ipa": "[ˈʔa.waʔ]",
+    "jawi": "اوق",
+    "frequency_rank": 5,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "awak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + awak → awak",
+    "pattern_note": "独立词根；末尾 k 在常见马来西亚读法中实现为喉塞音 [ʔ]，Rumi 拼写仍为 k。a.wak 是据读音和拼写提供的分节；缓存只有 DBP 发音标注 [a.waʔ]，并无可直接照抄的 syllables 值。",
+    "word_family": [
+      {
+        "word": "berawak",
+        "affix": "ber-",
+        "gloss": "用 awak 称呼对方；配备船员 / address someone as awak; have a crew"
+      },
+      {
+        "word": "perawakan",
+        "affix": "per-...-an",
+        "gloss": "体格；体态 / physique; bodily build"
+      },
+      {
+        "word": "berperawakan",
+        "affix": "ber- + per-...-an",
+        "gloss": "具有某种体态 / have a particular physique or appearance"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "你；常用于同辈或已有适当熟悉程度的人之间的第二人称单数代词。",
+      "en_definition": "You; your after a noun. A second-person singular pronoun commonly used between peers or people on familiar terms.",
+      "ms_definition": "kata ganti diri kedua, engkau, kamu",
+      "nuances": "DBP《Kamus Dewan》第四版义项。比 kau 通常柔和，但不是无条件适用的敬称；可用于恋人或配偶之间，也不因此自动含浪漫意思。buku awak 是“你的书”。",
+      "collocations": [
+        {
+          "ms": "awak apa khabar",
+          "zh": "你好吗？",
+          "en": "how are you?"
+        },
+        {
+          "ms": "terima kasih awak",
+          "zh": "谢谢你",
+          "en": "thank you"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "身体、身躯；这一较旧用法仍保留在搭配和词族中。awak kapal 也可指船体。",
+      "en_definition": "Body or bodily frame; an older sense also found in compounds. Awak kapal may refer to a ship's hull.",
+      "ms_definition": "badan, tubuh; awak kapal: badan kapal",
+      "nuances": "DBP《Kamus Dewan》第四版义项。现代日常说身体通常用 badan 或 tubuh；不要把所有 awak 都译成“你”。perawakan（体态）与这个身体义相关。",
+      "collocations": [
+        {
+          "ms": "badan awak",
+          "zh": "身体躯干",
+          "en": "the body"
+        },
+        {
+          "ms": "saiz awak",
+          "zh": "体格大小",
+          "en": "body size"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "船员、船上工作人员；常见于 awak kapal、awak perahu。",
+      "en_definition": "Crew or a crew member, especially in awak kapal or awak perahu.",
+      "ms_definition": "awak kapal: anak buah kapal (perahu dll); awak perahu: anak buah perahu",
+      "nuances": "DBP《Kamus Dewan》第四版搭配义。新闻中的 tiga orang awak kapal 指三名船员，不是“三个你的船”；单复数由数词及语境决定。",
+      "collocations": [
+        {
+          "ms": "awak kapal",
+          "zh": "船员；水手",
+          "en": "a ship's crew"
+        },
+        {
+          "ms": "awak pesawat",
+          "zh": "机组人员；空勤人员",
+          "en": "an aircraft's crew"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "pronoun",
+      "zh_definition": "自己、自身；在 awak sama awak 等表达中指自己人之间。",
+      "en_definition": "Self; oneself, or one's own group in expressions such as awak sama awak.",
+      "ms_definition": "diri (sendiri); awak sama awak: sesama sendiri, antara kita sendiri (tidak melibatkan orang luar)",
+      "nuances": "DBP《Kamus Dewan》第四版第 3 义。orang awak 的“自己人”义在原材料标为 Mn（米南加保语用法），不是全国通用的第一人称替代词；普通“我自己”用 diri saya。",
+      "collocations": [
+        {
+          "ms": "awak sama awak",
+          "zh": "自己人之间",
+          "en": "among ourselves"
+        },
+        {
+          "ms": "jaga diri awak",
+          "zh": "照顾好你自己",
+          "en": "take care of yourself"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 海上救援报道（船员义）",
+      "ms": "Semua awak kapal berjaya diselamatkan oleh pasukan penyelamat maritim.",
+      "zh": "所有船员均已由海上救援队成功救出。",
+      "en": "All crew members were successfully rescued by the maritime rescue team."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉的同事之间",
+      "ms_spoken": "Awak dah makan? Kalau belum, jom makan kat bawah.",
+      "ms_standard": "Awak sudah makan? Jika belum, mari kita makan di tingkat bawah.",
+      "zh": "你吃了吗？还没的话，一起去楼下吃。",
+      "en": "Have you eaten? If not, let's grab something downstairs.",
+      "spoken_features": [
+        "dah = sudah；jom 对应 mari kita；kat 在此对应 di。",
+        "此场景中的 bawah 指楼下，标准等义句补明 tingkat。",
+        "称呼 awak 体现同事之间已有适当熟悉程度。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nurul (朋友)",
+          "ms_spoken": "Awak dah siap ke kerja tu?",
+          "ms_standard": "Awak sudah siapkan kerja itu?",
+          "zh": "那份工作你做好了吗？",
+          "en": "Have you finished that work yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Sikit lagi nak settle, satgi saya send.",
+          "ms_standard": "Sedikit lagi mahu selesai, sebentar lagi saya hantar.",
+          "zh": "还差一点就完成了，待会儿我发给你。",
+          "en": "Almost done. I'll send it over in a bit."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "awk",
+      "full_form": "awak",
+      "note": "非正式聊天中常见的省元音写法；正式书写恢复 awak。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "对同辈和熟人通常自然，对长辈、老师、上司或初次接触的客户则可能显得过于随便；比 kau 柔和并不等于敬称。恋人间 saya/awak 很常见，但同事使用这组代词也不自动表示亲密关系。",
+    "usage_etiquette": "需要礼貌时用对方姓名、职衔或合适的 encik、puan、cik；勿按族群决定对方是否接受 awak。正式例句采用完全不同的船员义，不能据此推断第二人称 awak 适合所有正式场合。"
+  },
+  "etymology": {
+    "origin": "Austronesian (Inherited)",
+    "source_language": "Proto-Malayic, ultimately Proto-Austronesian",
+    "root_origin": "所给 Kaikki 追溯至原始马来语 *awak、原始马来-波利尼西亚语 *hawak 和原始南岛语 *Sawak（腰）。现代词典同时记录身体、自身及第二人称用法；不将语义联系虚构为现代词缀拆分。",
+    "cognitive_memory_aid": "成组记 Saya …, awak …（我……，你……）；再用 awak kapal（船员）提醒自己，同一拼写还可能是名词。",
+    "historical_story": "awak 的本义是‘身体、躯干’（如爪哇语 awak 同义），早期马来水上航海社会中，一条船上的全部人员被称作 awak kapal（即整条船的‘身躯支柱’，引申为全体船员）。在廖内-柔佛马来语的演进过程中，人们出于礼貌避免直呼对方名字或直呼尖锐代词，通过提喻法将‘躯体、阁下之身’转指为第二人称‘你’，形成了现代西马最为温和、普及的同辈社交第二人称称谓。"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "headword": {
+    "word": "en",
+    "syllables": null,
+    "ipa": "[en]",
+    "jawi": "ªين",
+    "frequency_rank": 344,
+    "tags": [
+      "CEFR-B2",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "en",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + en → en",
+    "pattern_note": "排印专业借词，作为完整单位名称记忆，不作词缀分析。原始 PRPM syllables 为 null，故保留缺值；[en] 是依据定义头 én 转写的单音节读音，不冒称资料包已有 IPA。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "排印中的相对长度单位，等于当前字号的一半，即半个 em。",
+      "ms_definition": "ukuran yg sama dgn setengah saiz poin taip yg digunakan ataupun setengah em.",
+      "nuances": "只处理资料明确收录的排印义，不并入 Encik 的缩写 En.。例如十二点字号下，1 en 为六点；不是固定毫米数，也不保证等于某个字体中字母 n 的实际宽度。以下搭配属于专业排印语境。原始 UTF-8 缓存 Jawi 为 ªين，其中 ª 是异常字符；本条保留原始值，不能视作已核实的规范 Jawi 拼写。",
+      "collocations": [
+        {
+          "ms": "ruang en",
+          "zh": "半 em 宽的空格",
+          "en": "an en space"
+        },
+        {
+          "ms": "ukuran en",
+          "zh": "以 en 表示的排印尺寸",
+          "en": "a measurement in ens"
+        }
+      ],
+      "en_definition": "A typographic unit of width equal to half an em, or half the point size of the type in use."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "出版编辑说明／版面尺寸",
+      "ms": "Pada saiz taip dua belas poin, satu en bersamaan dengan enam poin.",
+      "zh": "在十二点字号下，一个 en 等于六点。",
+      "en": "At a type size of twelve points, one en equals six points."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 排版同事通过版面截图讨论标题与编号之间的空隙",
+      "ms_spoken": "Jarak antara nombor dengan tajuk ni luas sangat lah. Boleh kecilkan jadi satu en je?",
+      "ms_standard": "Jarak antara nombor dengan tajuk ini terlalu luas. Bolehkah jarak itu dikecilkan kepada satu en sahaja?",
+      "zh": "这个编号和标题之间的空隙太宽啦。能缩小到一个 en 就好吗？",
+      "spoken_features": [
+        "en 保留排印长度单位的意义；satu en 在这里说明空隙的宽度。",
+        "ni = ini；je = sahaja；pastu 对应 selepas itu／kemudian。",
+        "kecilkan 在这里是口语请求中的动词形式；完整标准表达为 jarak itu dikecilkan。",
+        "hantar ... kat kau 中的 kat 表示接收对象，对应 kepada awak；lah 加强对间距过宽的评价。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (排版同事)",
+          "ms_spoken": "Jarak antara nombor dengan tajuk ni luas sangat lah. Boleh kecilkan jadi satu en je?",
+          "ms_standard": "Jarak antara nombor dengan tajuk ini terlalu luas. Bolehkah jarak itu dikecilkan kepada satu en sahaja?",
+          "zh": "这个编号和标题之间的空隙太宽啦。能缩小到一个 en 就好吗？",
+          "en": "The gap between this number and the heading is way too wide. Can you shrink it to just one en?"
+        },
+        {
+          "speaker": "Faiz (排版同事)",
+          "ms_spoken": "Boleh. Aku ubah sekarang, pastu hantar tangkap layar baru kat kau.",
+          "ms_standard": "Boleh. Saya akan mengubahnya sekarang, kemudian menghantar tangkap layar yang baharu kepada awak.",
+          "zh": "可以。我现在改，之后把新的截图发给你。",
+          "en": "Sure. I'll change it now, then send you an updated screenshot."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "属于出版与排印专业语域，面向一般读者时宜先解释‘半个 em’。CEFR-B2 在这里是编辑安排的学习标签，不代表官方词汇评级；公文标准标签指规范技术写作语境。",
+    "usage_etiquette": "给同事下排版要求时写明字号和单位，避免只说‘缩小一点’。称谓 En. 应按 Encik 理解并配合姓名；不能因为拼写相似而把这里的小写排印单位当成人称敬语。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语排印术语（据同形同义关系判断）；资料包未提供具体借入年代",
+    "root_origin": "英语 en，表示半个 em 的排印量；字体行业传统将名称与字母 n 联系起来，不应据此断言所有字体的 n 都恰好半个 em 宽。术语与名称解释参见 [Fonts.com／MyFonts 专业术语表](https://www.myfonts.com/pages/fontscom-learning-fontology-glossary-e)。",
+    "historical_story": "在金属活字排版中，排字工人用不着墨的小空铅块控制字间空隙，en 对应半个 em 的尺度；字体行业传统把这个名称与字母 n 联系起来。到了数码排版时代，这个相对单位仍被保留，马来语 Kamus Dewan 也收录了同名的排印义；现有资料没有给出它进入马来语的具体年代。",
+    "cognitive_memory_aid": "记住 en = em ÷ 2：十二点字里是六点，换成二十点字就变成十点，单位随字号一起变化。"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "headword": {
+    "word": "disebabkan",
+    "syllables": "",
+    "ipa": "/di.sə.bab.kan/",
+    "jawi": "",
+    "frequency_rank": 989,
+    "tags": [
+      "CEFR-B1",
+      "SPM重点"
+    ],
+    "jawi_note": "词根爪夷文: سبب (sebab)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sebab",
+    "affix": "di-…-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + sebab（原因）+ -kan → disebabkan（由……引起）",
+    "pattern_note": "di- 标示被动，-kan 参与构成及物动词；主动对应式为 menyebabkan。这里按 Schema 归入 circumfix，指前后缀组合，不表示两个词缀不可分别分析。所给 root 字段误把整词当词根，依构词及本地 PRPM sebab 条目修正。目标词缺少官方音节及 Jawi，故以空字符串保留；IPA 是编辑给出的宽式读音，CEFR 为教学估级。 核心词根（Kata Dasar）「sebab」官方爪夷文为「سبب」，派生附加 di-…-kan。",
+    "word_family": [
+      {
+        "word": "sebab",
+        "affix": "∅",
+        "gloss": "原因；因为"
+      },
+      {
+        "word": "menyebabkan",
+        "affix": "meN-…-kan",
+        "gloss": "导致；引起"
+      },
+      {
+        "word": "penyebab",
+        "affix": "peN-",
+        "gloss": "起因；致因者"
+      },
+      {
+        "word": "bersebab",
+        "affix": "ber-",
+        "gloss": "有原因的；有缘故的"
+      }
+    ],
+    "root_jawi": "سبب"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "由……导致；因……而发生；被……引起。",
+      "ms_definition": "Diakibatkan oleh sesuatu; berlaku kerana sesuatu. (Huraian editorial berdasarkan kata dasar sebab dan bentuk pasif menyebabkan; bukan petikan definisi entri disebabkan dalam Kamus Dewan.)",
+      "nuances": "DBP 将 disebabkan 归为被动动词，可构成 disebabkan oleh，并非只要中文译为‘因为’就归为连词。正式表达可用 Kejadian itu disebabkan oleh…；整句要说明‘因为……所以……’时，也可用 kerana 或 oleh sebab。聊天中常省略 oleh；不要把前缀 di- 写成分开的 di sebabkan。参见 [DBP 用法答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=disebabkan)。",
+      "collocations": [
+        {
+          "ms": "disebabkan oleh hujan lebat",
+          "zh": "由大雨造成",
+          "en": "caused by heavy rain"
+        },
+        {
+          "ms": "disebabkan oleh kerosakan teknikal",
+          "zh": "由技术故障引起",
+          "en": "caused by a technical fault"
+        }
+      ],
+      "en_definition": "Caused by; occurring as a result of something."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "交通新闻 / 服务通告",
+      "ms": "Kelewatan perkhidmatan tren pagi ini disebabkan oleh kerosakan teknikal.",
+      "zh": "今早列车服务延误是由技术故障造成的。",
+      "en": "This morning's train service delay was caused by a technical fault."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友在咖啡馆等人，迟到的一方解释巴士延误并报告位置",
+      "ms_spoken": "Awak kat mana dah? Saya dah sampai kafe.",
+      "ms_standard": "Awak sudah berada di mana sekarang? Saya sudah tiba di kafe.",
+      "zh": "你到哪儿了？我已经到咖啡馆了。",
+      "spoken_features": [
+        "disebabkan 在这里引出巴士晚点的原因；这个词较完整，仍可自然出现在解释情况的聊天消息中。",
+        "口语在 disebabkan 后省去 oleh；标准语还原为 disebabkan oleh hujan lebat。",
+        "dah = sudah；tengah 在这里对应 sedang；kejap 对应 sebentar。",
+        "kat mana dah? 询问目前已经到哪里；tengah jalan ke… 在这里表示正在步行前往某处。",
+        "Jalan elok-elok 是熟人间提醒走路小心的口语表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Awak kat mana dah? Saya dah sampai kafe.",
+          "ms_standard": "Awak sudah berada di mana sekarang? Saya sudah tiba di kafe.",
+          "zh": "你到哪儿了？我已经到咖啡馆了。",
+          "en": "Where are you now? I'm already at the café."
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Maaf, bas lambat tadi disebabkan hujan lebat. Saya dah turun bas, tengah jalan ke kafe ni. Tunggu kejap ya.",
+          "ms_standard": "Maaf, bas lewat tadi disebabkan oleh hujan lebat. Saya sudah turun dari bas dan sedang berjalan ke kafe sekarang. Tunggu sebentar, ya.",
+          "zh": "抱歉，刚才巴士因为大雨晚点了。我已经下车，正在走去咖啡馆。等我一下啊。",
+          "en": "Sorry, the bus was delayed because of the heavy rain. I've got off the bus and I'm walking to the café now. Give me a minute, okay?"
+        },
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Okey, saya tunggu kat dalam. Jalan elok-elok, lantai depan kafe licin.",
+          "ms_standard": "Baiklah, saya menunggu di dalam kafe. Berjalanlah dengan berhati-hati kerana lantai di hadapan kafe licin.",
+          "zh": "好，我在里面等你。走路小心点，咖啡馆门口地面很滑。",
+          "en": "Okay, I'll wait inside. Watch your step—the ground outside the café is slippery."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "这是常见的原因说明用语，公函、新闻和日常解释均可使用。涉及他人责任时，明确已经确认的原因，比直接说 semuanya disebabkan awak 更有分寸。",
+    "usage_etiquette": "解释延误可先说明客观情况，再说明安排；指人致错时避免未经核实的归责。与同事或陌生人沟通可用 saya 及称谓，只有关系足够熟悉时才采用 aku、kau。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语词根借入马来语，再用马来语词缀构词",
+    "root_origin": "sebab 来自阿拉伯语 سَبَب sabab‘原因；缘由’，这一借源见本地 Kaikki sebab 条目；disebabkan 整词则由马来语 di- + sebab + -kan 构成，不是完整借入的阿拉伯语词。",
+    "historical_story": "阿拉伯语 sabab 进入马来语词汇后，以 sebab 的形式成为说明事情缘由的常用词；现有材料没有确定它首次借入的年份或港口。马来语自己的词缀随后提供了 menyebabkan‘导致’和 disebabkan‘由……引起’这对视角，让外来词根融入本土语法。可以把原因与结果想成一条相连的绳子：这是记忆画面，阿拉伯语 sabab 确有‘绳索’与‘原因’义，但画面本身不是传播史；参见 [开罗阿拉伯语学院词典](https://www.arabicacademy.gov.eg/ar/محرك-البحث/سَبَّبَ?exact_search=true)。",
+    "cognitive_memory_aid": "先画 sebab‘原因’→结果，再把结果放到句首：结果 + disebabkan oleh + 原因。看到 di-，提醒自己从被影响的一方来叙述。"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "perjanjian",
+    "syllables": "per.jan.jian",
+    "ipa": "/pərˈd͡ʒand͡ʒian/",
+    "jawi": "ڤرجنجين",
+    "frequency_rank": 854,
+    "tags": [
+      "CEFR-B1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "janji",
+    "affix": "per-…-an",
+    "affix_type": "circumfix",
+    "formula": "per- + janji + -an → perjanjian",
+    "pattern_note": "per-…-an 围绕 janji（承诺、约定）构成协议名词，不发生词首辅音脱落。j 对应 /d͡ʒ/；读音采用素材库的文学标准宽式 IPA。CEFR 为教学估级。",
+    "word_family": [
+      {
+        "word": "janji",
+        "affix": "none",
+        "gloss": "承诺；约定"
+      },
+      {
+        "word": "berjanji",
+        "affix": "ber-",
+        "gloss": "答应；作出承诺"
+      },
+      {
+        "word": "menjanjikan",
+        "affix": "meN-…-kan",
+        "gloss": "承诺给予；带来希望"
+      },
+      {
+        "word": "dijanjikan",
+        "affix": "di-…-kan",
+        "gloss": "被承诺给予的"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "协议；契约；双方或多方达成的约定，也可指国家间的条约",
+      "ms_definition": "persetujuan yg dibuat antara dua pihak atau lebih, permuafakatan",
+      "nuances": "比个人许下的 janji 更突出双方或多方共同同意。可涵盖口头约定和书面文件，不应仅凭这个词就认定必有签字；kontrak 则更明确指合同。",
+      "collocations": [
+        {
+          "ms": "perjanjian jual beli",
+          "zh": "买卖协议",
+          "en": "sale and purchase agreement"
+        },
+        {
+          "ms": "menandatangani perjanjian",
+          "zh": "签署协议",
+          "en": "sign an agreement"
+        }
+      ],
+      "en_definition": "An agreement between two or more parties, including a contract or a treaty between countries."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "约；基督教经典名称中“旧约”“新约”的组成部分",
+      "ms_definition": "Id wasiat (kitab suci); Kitab P~ Lama Kitab Taurat; Kitab P~ Baru Kitab Injil",
+      "nuances": "Kamus Dewan 对这一义项标 Id，限于特定宗教名称识别，不是普通协议义的替代。现代基督教马来文也可见 Perjanjian Lama、Perjanjian Baru；词典用 Taurat、Injil 作简略对照，不表示这些经典的书卷范围完全相同。",
+      "collocations": [
+        {
+          "ms": "Perjanjian Lama",
+          "zh": "《旧约》",
+          "en": "the Old Testament"
+        },
+        {
+          "ms": "Perjanjian Baru",
+          "zh": "《新约》",
+          "en": "the New Testament"
+        }
+      ],
+      "en_definition": "Testament, as used in the names of the two main divisions of the Christian Bible."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "机构新闻稿 / 双边合作",
+      "ms": "Kedua-dua pihak telah menandatangani perjanjian kerjasama bagi memperkukuh penyelidikan dalam bidang tenaga boleh baharu.",
+      "zh": "双方已签署合作协议，以加强可再生能源领域的研究。",
+      "en": "Both parties have signed a cooperation agreement to strengthen research in renewable energy."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 姐姐提醒弟弟查看租约的押金条款",
+      "ms_spoken": "Perjanjian sewa tu dah baca belum? Jangan terus tandatangan je.",
+      "ms_standard": "Adakah kamu sudah membaca perjanjian sewa itu? Jangan terus menandatanganinya begitu sahaja.",
+      "zh": "那份租约看过了没？别就这样直接签了。",
+      "spoken_features": [
+        "dah…belum 用于询问某事是否已经完成；Belum habis lagi 承接上文，省略‘读租约’。",
+        "tak berapa faham 表示‘不太明白’，标准语可用 kurang memahami。",
+        "kak 是 kakak 的简称，既可用于称呼姐姐，也可由姐姐用来指自己。",
+        "kat kak 中的 kat 对应 kepada；baru 在这里表示完成前一步后才进行下一步。"
+      ],
+      "messages": [
+        {
+          "speaker": "Kak Mira (姐姐)",
+          "ms_spoken": "Perjanjian sewa tu dah baca belum? Jangan terus tandatangan je.",
+          "ms_standard": "Adakah kamu sudah membaca perjanjian sewa itu? Jangan terus menandatanganinya begitu sahaja.",
+          "zh": "那份租约看过了没？别就这样直接签了。",
+          "en": "Have you read that tenancy agreement yet? Don't just sign it without reading it."
+        },
+        {
+          "speaker": "Hakim (弟弟)",
+          "ms_spoken": "Belum habis lagi, kak. Bahagian deposit ni saya tak berapa faham.",
+          "ms_standard": "Saya masih belum selesai membacanya, kakak. Saya kurang memahami bahagian tentang deposit ini.",
+          "zh": "还没看完，姐。押金这部分我不太明白。",
+          "en": "I haven't finished yet, sis. I don't quite understand this bit about the deposit."
+        },
+        {
+          "speaker": "Kak Mira (姐姐)",
+          "ms_spoken": "Hantar gambar bahagian tu kat kak. Kita baca sama-sama dulu, baru tanya tuan rumah.",
+          "ms_standard": "Hantarkan gambar bahagian itu kepada kakak. Kita baca bersama-sama terlebih dahulu, kemudian kita bertanya kepada tuan rumah.",
+          "zh": "把那部分拍给姐看。我们先一起读，再问房东。",
+          "en": "Send me a photo of that bit. Let's read through it together first, then ask the landlord."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "正式协商中可说 Boleh kita semak syarat perjanjian ini bersama-sama?，以共同核对的语气提出疑问。",
+    "usage_etiquette": "确认双方对期限、付款及责任的理解再回应同意，口头 janji 与书面 perjanjian 应依实际语境区分。谈宗教经典时使用对方采用的书名，避免把特定宗教称谓推广到所有族群。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语（本地构词层；janji 的更早来源未在材料中确定）",
+    "root_origin": "可核实的直接来源为 per-…-an + janji；Austronesian 在这里标示马来语构词背景，不宣称 janji 已有确定的祖语重建或梵语借源。",
+    "historical_story": "janji 是把将来要做的事说定，per-…-an 则把这种共同约定组织成 perjanjian。乡邻之间说定的事项与现代贸易文件，在这个词里都保留着双方认可的核心；从日常租约到国家条约，变化的是约定的规模和形式。",
+    "cognitive_memory_aid": "janji 是一个承诺，per-…-an 像把各方承诺放进同一份协议。"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "headword": {
+    "word": "agak",
+    "syllables": null,
+    "ipa": "[ˈʔa.ɡaʔ]",
+    "jawi": "اݢق",
+    "frequency_rank": 380,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "agak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + agak → agak",
+    "pattern_note": "独立词根。meN- + agak → mengagak，元音前用 meng-；重叠可成 agak-agak。PRPM 的 syllables 字段缺失，保留 null，不把释义前的 [a.gaʔ] 擅自改成官方分节。词尾 k 在常见马来西亚读音中实现为 [ʔ]。",
+    "word_family": [
+      {
+        "word": "mengagak",
+        "affix": "meN-",
+        "gloss": "估计；猜测"
+      },
+      {
+        "word": "mengagakkan",
+        "affix": "meN-…-kan",
+        "gloss": "推测；审慎估定"
+      },
+      {
+        "word": "agakan",
+        "affix": "-an",
+        "gloss": "估计；猜想"
+      },
+      {
+        "word": "agaknya",
+        "affix": "-nya（附着成分）",
+        "gloss": "大概；想必；究竟（依语境）"
+      },
+      {
+        "word": "agak-agak",
+        "affix": "重叠（非词缀）",
+        "gloss": "大概；估摸；小心些（依语境）"
+      },
+      {
+        "word": "teragak-agak",
+        "affix": "ter- + 重叠",
+        "gloss": "犹豫不决；迟疑"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "猜想；估计；认为大概如此。",
+      "ms_definition": "kira, sangka, rasa (Kamus Dewan Edisi Keempat)",
+      "nuances": "表示依据有限信息作判断，不保证准确。Agak saya... 意为‘依我看／据我猜’；Saya agak... 在口语中自然，正式表达可用 Saya mengagak...。不要把程度副词 agak sukar 译成‘猜测困难’。",
+      "collocations": [
+        {
+          "ms": "agak saya",
+          "zh": "据我估计；依我看",
+          "en": "I reckon"
+        },
+        {
+          "ms": "cuba agak",
+          "zh": "试着猜一猜",
+          "en": "try to guess"
+        }
+      ],
+      "en_definition": "To guess, estimate, or suppose."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "有点；比较；颇为；在数量表达前也可表示大约。",
+      "ms_definition": "boleh dikatakan, dapat dianggap (ditafsirkan) (Kamus Dewan Edisi Keempat)",
+      "nuances": "常放在形容词前，如 agak sukar、agak mahal，程度随语境从‘有点’到‘颇为’，没有固定百分比。Kamus Pelajar 另列 lebih kurang; kira-kira，支持 agak dua hari 这样的约数用法。teragak-agak 表示犹豫，不是‘非常有点’；固定植物名 pokok agak paya 也不能按程度义逐字解释。",
+      "collocations": [
+        {
+          "ms": "agak sukar",
+          "zh": "比较困难",
+          "en": "rather difficult"
+        },
+        {
+          "ms": "agak mahal",
+          "zh": "有点贵；颇贵",
+          "en": "a bit expensive"
+        }
+      ],
+      "en_definition": "Somewhat; rather; fairly; approximately when used before a quantity."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／公共设施维修",
+      "ms": "Kerja pembaikan dijangka mengambil masa yang agak lama berikutan kerosakan serius pada struktur bangunan.",
+      "zh": "由于建筑结构严重受损，维修工作预计需要较长时间。",
+      "en": "Repair work is expected to take quite some time because of serious damage to the building's structure."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友查看菜单后重新商量晚餐地点",
+      "ms_spoken": "Aku dah tengok menu kedai tu. Agak mahal lah, satu hidangan pun dekat tiga puluh ringgit.",
+      "ms_standard": "Saya sudah melihat menu kedai itu. Harganya agak mahal; satu hidangan sahaja pun berharga hampir tiga puluh ringgit.",
+      "zh": "我看过那家店的菜单了。有点贵，光一份餐就要将近三十令吉。",
+      "spoken_features": [
+        "agak mahal 中的 agak 表示程度，相当于有点贵或比较贵，不是猜测动作。",
+        "lah 为评价添加随意的表达语气；价格在双方预算下显得偏高，但 lah 本身不改变 agak 的程度义。",
+        "dekat 在价格数量前表示接近，对应 hampir；kat kedai 中的 kat 则表示地点，对应 di。",
+        "kedai biasa 在这里指双方平常光顾的店；gaji masuk 是工资到账的日常说法。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amira (朋友)",
+          "ms_spoken": "Aku dah tengok menu kedai tu. Agak mahal lah, satu hidangan pun dekat tiga puluh ringgit.",
+          "ms_standard": "Saya sudah melihat menu kedai itu. Harganya agak mahal; satu hidangan sahaja pun berharga hampir tiga puluh ringgit.",
+          "zh": "我看过那家店的菜单了。有点贵，光一份餐就要将近三十令吉。",
+          "en": "I've seen that place's menu. It's a bit pricey—a single dish costs nearly thirty ringgit."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kalau macam tu, kita makan kat kedai biasa je? Aku pun nak jimat bulan ni.",
+          "ms_standard": "Jika begitu, bagaimana jika kita makan di kedai yang biasa kita kunjungi sahaja? Saya juga mahu berjimat pada bulan ini.",
+          "zh": "这样的话，我们就去平常那家吃，好吗？我这个月也想省点钱。",
+          "en": "In that case, shall we just eat at our usual place? I'm trying to save money this month too."
+        },
+        {
+          "speaker": "Amira (朋友)",
+          "ms_spoken": "Boleh. Nanti gaji masuk kita cuba kedai tu.",
+          "ms_standard": "Boleh. Kita boleh mencuba makanan di kedai itu setelah menerima gaji nanti.",
+          "zh": "行。等发工资了，我们再去那家尝尝。",
+          "en": "Sure. We'll try that place once we get paid."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "agk",
+      "full_form": "agak",
+      "note": "所给口语规则收录的省元音聊天写法；适用于熟人短信，正式文字保留 agak。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "agak 可让负面评价较缓和，如 agak mahal；对各族群都适用。缓和词不自动使人身评价礼貌，对别人的外貌、收入或能力仍需看关系与场合。",
+    "usage_etiquette": "Agak-agaklah! 在争执中可能相当于‘你也该有个分寸’，带责备语气，不宜只当温和的‘大概’。做正式报告时应把估计与已核实数字区分开。"
+  },
+  "etymology": {
+    "origin": "未确定",
+    "source_language": "所给材料未提供可核实的来源语言",
+    "root_origin": "现代马来语基本词 agak；没有足够证据指定某个古语词形、借入语言或借入年代。",
+    "historical_story": "agak 的词汇家族把几种熟悉的心智活动连在一起：先估量，再猜想，有时还会犹豫。词典同时记录‘我猜’与‘颇为’两类用途，今天它既能走进正式报道的程度判断，也能出现在朋友商量价格的聊天中。现有材料不足以说明这些意义的历史先后，也没有可以据实讲述的海上借词路线。",
+    "cognitive_memory_aid": "脑中放一把没有刻度的尺：agak mahal＝量着有点贵；agak saya＝我估摸着；teragak-agak＝尺子晃来晃去，拿不定主意。"
+  }
+}

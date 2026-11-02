@@ -1,0 +1,116 @@
+{
+  "headword": {
+    "word": "mewakili",
+    "syllables": "me.wa.ki.li",
+    "ipa": "/mə.wa.ki.li/",
+    "jawi": "مواکيلي",
+    "frequency_rank": 2894,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mewakili",
+    "affix": "meN-...-i",
+    "affix_type": "circumfix",
+    "formula": "meN- + wakil + -i → mewakili",
+    "pattern_note": "root_word 与 root_jawi 按要求保留数据包索引；实际语言学词根为 wakil（واکيل），mewakili 是派生词，因此 is_root 为 false。meN- 在 w 前实现为 me-，w 保留，后接 -i；此处 circumfix 表示前后缀组合。",
+    "word_family": [
+      {
+        "word": "wakil",
+        "affix": "∅",
+        "gloss": "代表；代理人"
+      },
+      {
+        "word": "diwakili",
+        "affix": "di-...-i",
+        "gloss": "由……代表"
+      },
+      {
+        "word": "mewakilkan",
+        "affix": "meN-...-kan",
+        "gloss": "委派他人代表；委托办理"
+      },
+      {
+        "word": "perwakilan",
+        "affix": "per-...-an",
+        "gloss": "代表团；代表事务"
+      }
+    ],
+    "root_jawi": "مواکيلي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "代表某个人、团体或机构行事、出席或参赛。",
+      "en_definition": "To act or participate on behalf of a person, group or organization.",
+      "ms_definition": "Menjadi wakil atau bertindak bagi pihak seseorang, kumpulan atau organisasi.",
+      "nuances": "及物动词，后面直接接所代表的对象，如 mewakili syarikat，通常不加 kepada。区分 mewakili（自己代表某方）与 mewakilkan（委派他人代表或委托办理）。构词和词义参见：[DBP：wakil 及其派生词](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=dilantik)。",
+      "collocations": [
+        {
+          "ms": "mewakili negara",
+          "zh": "代表国家",
+          "en": "represent the country"
+        },
+        {
+          "ms": "mewakili syarikat",
+          "zh": "代表公司",
+          "en": "represent the company"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 会议出席安排",
+      "ms": "Puan Farah akan mewakili syarikat dalam mesyuarat bersama pihak penganjur esok.",
+      "zh": "法拉女士明天将代表公司出席与主办方的会议。",
+      "en": "Ms Farah will represent the company at tomorrow's meeting with the organizers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认会议代表",
+      "ms_spoken": "Esok aku mewakili pasukan kita kat mesyuarat tu.",
+      "ms_standard": "Esok saya akan mewakili pasukan kita dalam mesyuarat itu.",
+      "zh": "明天我代表咱们团队参加那个会议。",
+      "en": "I'm representing our team at that meeting tomorrow.",
+      "spoken_features": [
+        "aku 是熟人之间使用的非正式第一人称。",
+        "kat 在此对应标准语的 dalam。",
+        "tu 对应 itu；esok 已标明未来时间，口语可省略 akan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Esok aku mewakili pasukan kita kat mesyuarat tu. Kau nak aku bangkitkan isu apa?",
+          "ms_standard": "Esok saya akan mewakili pasukan kita dalam mesyuarat itu. Apakah isu yang kamu mahu saya bangkitkan?",
+          "zh": "明天我代表咱们团队去开会。你想让我提什么问题？",
+          "en": "I'm representing our team at the meeting tomorrow. What would you like me to bring up?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Tanya pasal jadual baharu tu je. Aku dah hantar butiran kat kau.",
+          "ms_standard": "Tanyakan tentang jadual baharu itu sahaja. Saya sudah menghantar butirannya kepada kamu.",
+          "zh": "就问一下那个新时间表。我已经把详情发给你了。",
+          "en": "Just ask about the new schedule. I've already sent you the details."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "正式发言时常用 Saya mewakili… 说明代表身份；代表团队表达意见时，应准确区分个人看法与共同立场。",
+    "usage_etiquette": "在会议、比赛和机构事务中直接说明所代表的单位。仅代为转告个人消息时，不必使用可能暗示正式代表身份的表达。"
+  },
+  "etymology": {
+    "historical_story": "词根 wakil 借自阿拉伯语 wakīl，表示受托代理或代表他人的人。马来语再用自身的 meN- 和 -i 把这个身份名词构成动词 mewakili，表达代某方出面行事；它并不是从阿拉伯语整词借入的动词。词根来源参见：[Wikikamus：wakil](https://ms.wiktionary.org/wiki/wakil)。",
+    "cognitive_memory_aid": "想象你戴着写有团队名称的代表证走进会议室：wakil 是代表这个人，mewakili 是代表某方这个动作。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "正式发言时常用 Saya mewakili… 说明代表身份；代表团队表达意见时，应准确区分个人看法与共同立场。",
+    "usage_etiquette": "在会议、比赛和机构事务中直接说明所代表的单位。仅代为转告个人消息时，不必使用可能暗示正式代表身份的表达。"
+  }
+}

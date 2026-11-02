@@ -1,0 +1,404 @@
+{
+  "ana": {
+    "headword": {
+      "word": "ana",
+      "syllables": "a.na",
+      "ipa": "/ˈana/",
+      "jawi": "انا",
+      "frequency_rank": 2943,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "ana",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + ana → ana",
+      "pattern_note": "阿拉伯语整词借入，不拆分为马来语词缀；元音起首时可出现声门塞音，读作 [ˈʔa.na]。",
+      "word_family": [],
+      "root_jawi": "انا"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "我；说话者用来指称自己的人称代词，多见于带有阿拉伯语影响的马来语交流。",
+        "en_definition": "I or me; a first-person singular pronoun borrowed from Arabic.",
+        "ms_definition": "Saya; aku.",
+        "nuances": "实际词类为 kata ganti nama diri pertama（第一人称代词）；此处因给定词类列表没有 pronoun，归入 noun。不是人名 Ana，也不是所有场合都能自然替换 saya。[DBP 释义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ana)",
+        "collocations": [
+          {
+            "ms": "ana rasa",
+            "zh": "我觉得",
+            "en": "I think"
+          },
+          {
+            "ms": "bagi ana",
+            "zh": "在我看来",
+            "en": "in my view"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻报道中保留受访者的自称",
+        "ms": "“Pada pandangan ana, program ini perlu diteruskan,” kata wakil pelajar itu.",
+        "zh": "“在我看来，这项活动应继续举办，”那名学生代表说。",
+        "en": "“In my view, this programme should continue,” the student representative said."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 熟悉 ana 这一自称的朋友交流",
+        "ms_spoken": "Ana dah sampai kat surau ni.",
+        "ms_standard": "Saya sudah sampai di surau ini.",
+        "zh": "我已经到这间祈祷室了。",
+        "en": "I'm at the prayer room now.",
+        "spoken_features": [
+          "dah 是 sudah 的口语缩略形式",
+          "kat 在此相当于表示地点的 di",
+          "ni 是 ini 的口语形式",
+          "标准对照句以通用自称 saya 对应 ana"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Ana dah sampai kat surau ni. Nak tunggu kat mana?",
+            "ms_standard": "Saya sudah sampai di surau ini. Saya perlu menunggu di mana?",
+            "zh": "我到祈祷室了，要在哪里等？",
+            "en": "I'm at the prayer room. Where should I wait?"
+          },
+          {
+            "speaker": "Aisyah (朋友)",
+            "ms_spoken": "Tunggu kat pintu depan je. Ana sampai kejap lagi.",
+            "ms_standard": "Tunggu sahaja di pintu hadapan. Saya akan sampai sebentar lagi.",
+            "zh": "就在前门等吧，我一会儿就到。",
+            "en": "Just wait at the front entrance. I'll be there in a minute."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "colloquial",
+      "politeness_note": "部分宗教教育背景或习惯使用阿拉伯语称呼的社交圈会以 ana 自称，可体现共同语言习惯；它本身不表示比 saya 更尊敬或更虔诚。",
+      "usage_etiquette": "与不熟悉这种用法的人、客户或公务人员交流时，通常使用 saya 更自然。正式报道可在直接引语中保留说话者原有的 ana。"
+    },
+    "etymology": {
+      "historical_story": "ana 借自阿拉伯语 أَنَا，原义就是“我”，进入马来语后保留了自称功能。它像一枚随语言接触带来的身份标记，在部分交流圈中与本土常用的 saya、aku 并存。",
+      "cognitive_memory_aid": "想象说话者指着自己说“ana”：它指的是“我”，不是对方，也不是名叫 Ana 的人。"
+    }
+  },
+  "pengesan": {
+    "headword": {
+      "word": "pengesan",
+      "syllables": "pe.nge.san",
+      "ipa": "/pə.ŋə.san/",
+      "jawi": "ڤڠسن",
+      "frequency_rank": 2944,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "kesan",
+      "affix": "peN-",
+      "affix_type": "prefix",
+      "formula": "peN- + kesan → pengesan",
+      "pattern_note": "peN- 接以 k 起首的 kesan 时，前缀实现为 peng-，词根起首 k 脱落。输入包将 pengesan 标为独立词根，此处依实际派生关系校正为 kesan。[DBP 词族](https://prpm.dbp.gov.my/Cari1?d=259120&keyword=kesan)",
+      "word_family": [
+        {
+          "word": "mengesan",
+          "affix": "meN-",
+          "gloss": "探测；追踪"
+        },
+        {
+          "word": "pengesanan",
+          "affix": "peN-...-an",
+          "gloss": "探测；检测过程"
+        }
+      ],
+      "root_jawi": "کسن"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "探测器；用于发现、识别或追踪某种物质、信号、活动或位置的装置。",
+        "en_definition": "A device used to detect the presence, movement or location of something.",
+        "ms_definition": "Sesuatu, seperti alat, yang digunakan untuk mengesan.",
+        "nuances": "本义项聚焦装置。pengesan 强调发现或感知的功能，不一定具备报警功能；例如 pengesan asap 是烟雾探测器，是否发出警报取决于具体设备。",
+        "collocations": [
+          {
+            "ms": "pengesan asap",
+            "zh": "烟雾探测器",
+            "en": "smoke detector"
+          },
+          {
+            "ms": "pengesan logam",
+            "zh": "金属探测器",
+            "en": "metal detector"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场 / 大楼设施检查报告",
+        "ms": "Pihak pengurusan akan menguji semua pengesan asap di bangunan ini pada hari Jumaat.",
+        "zh": "管理方将于星期五测试这栋大楼内的所有烟雾探测器。",
+        "en": "Management will test all smoke detectors in this building on Friday."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 室友讨论家中设备",
+        "ms_spoken": "Pengesan asap kat dapur tu dah berbunyi lagi lah.",
+        "ms_standard": "Pengesan asap di dapur itu sudah berbunyi lagi.",
+        "zh": "厨房那个烟雾探测器又响了。",
+        "en": "The smoke detector in the kitchen has gone off again.",
+        "spoken_features": [
+          "kat 在此相当于 di",
+          "tu 是 itu 的口语形式",
+          "dah 对应 sudah",
+          "lah 在此表达说话者的情绪和语气"
+        ],
+        "messages": [
+          {
+            "speaker": "Amir (室友)",
+            "ms_spoken": "Pengesan asap kat dapur tu dah berbunyi lagi lah. Kau tengah masak ke?",
+            "ms_standard": "Pengesan asap di dapur itu sudah berbunyi lagi. Adakah kamu sedang memasak?",
+            "zh": "厨房那个烟雾探测器又响了，你在煮东西吗？",
+            "en": "The kitchen smoke detector has gone off again. Are you cooking?"
+          },
+          {
+            "speaker": "Hafiz (室友)",
+            "ms_spoken": "Ya, roti hangus sikit. Aku dah tutup pembakar roti.",
+            "ms_standard": "Ya, roti sedikit hangus. Saya sudah mematikan pembakar roti.",
+            "zh": "对，面包烤焦了一点。我已经关掉烤面包机了。",
+            "en": "Yeah, the toast got a bit burnt. I've switched the toaster off."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "这是中性的设备名称，可用于日常交流、技术说明及公务文件，没有特别的称谓或礼貌限制。",
+      "usage_etiquette": "说明设备时宜补上检测对象，例如 pengesan asap、pengesan logam，方便对方准确理解其功能。"
+    },
+    "etymology": {
+      "historical_story": "pengesan 由 kesan 与构成工具名称的 peN- 派生。kesan 的“痕迹”与 mengesan 的“循迹寻找、探测”构成清晰的语义联系：探测器就像寻找线索的眼睛，把不易察觉的迹象转化为可识别的信息。",
+      "cognitive_memory_aid": "kesan 是“痕迹”，pengesan 是“找出痕迹的工具”：看到烟雾探测器，就想到它在寻找烟雾的迹象。"
+    }
+  },
+  "ribuan": {
+    "headword": {
+      "word": "ribuan",
+      "syllables": "ri.buan",
+      "ipa": "/ri.bu.an/",
+      "jawi": "ريبوان",
+      "frequency_rank": 2945,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "ribu",
+      "affix": "-an",
+      "affix_type": "suffix",
+      "formula": "ribu + -an → ribuan",
+      "pattern_note": "后缀 -an 加在数词 ribu 后，表示以千计的数量；词根不变。syllables 保留输入包的 ri.buan，IPA 按清晰读音标出 u 与 a 的元音相接。",
+      "word_family": [
+        {
+          "word": "seribu",
+          "affix": "se-",
+          "gloss": "一千"
+        },
+        {
+          "word": "beribu-ribu",
+          "affix": "ber- + penggandaan",
+          "gloss": "数以千计"
+        }
+      ],
+      "root_jawi": "ريبو"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "数以千计；数量达到若干千而未说明确切数目。",
+        "en_definition": "Thousands; an unspecified quantity numbering in the thousands.",
+        "ms_definition": "Beberapa banyak ribu; beribu-ribu.",
+        "nuances": "实际语法功能为 kata bilangan himpunan（集合数词）；给定词类列表没有 numeral，此处以 noun 对应英语名词性译法 thousands。ribuan 不等于确切的一千；ribuan terima kasih 则是加强谢意的惯用表达。[DBP 用法说明](https://dewanbahasa.jendeladbp.my/2024/11/27/16510/)",
+        "collocations": [
+          {
+            "ms": "ribuan pengunjung",
+            "zh": "数以千计的访客",
+            "en": "thousands of visitors"
+          },
+          {
+            "ms": "ribuan terima kasih",
+            "zh": "万分感谢",
+            "en": "many thanks"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻 / 活动报道",
+        "ms": "Festival kebudayaan itu menarik ribuan pengunjung sepanjang hujung minggu.",
+        "zh": "那场文化节在整个周末吸引了数以千计的访客。",
+        "en": "The cultural festival attracted thousands of visitors over the weekend."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友讨论活动人潮",
+        "ms_spoken": "Dah ada ribuan orang kat sana, kita pergi awal sikit lah.",
+        "ms_standard": "Sudah ada ribuan orang di sana. Marilah kita pergi lebih awal.",
+        "zh": "那边已经有几千人了，我们早点过去吧。",
+        "en": "There are already thousands of people there. Let's head over a bit earlier.",
+        "spoken_features": [
+          "dah 对应 sudah",
+          "kat sana 对应 di sana",
+          "awal sikit 是 lebih awal 的口语表达",
+          "lah 在此使建议更有共同商量的语气"
+        ],
+        "messages": [
+          {
+            "speaker": "Mei Ling (朋友)",
+            "ms_spoken": "Dah ada ribuan orang kat festival tu. Nak pergi sekarang ke?",
+            "ms_standard": "Sudah ada ribuan orang di festival itu. Adakah kita hendak pergi sekarang?",
+            "zh": "那个文化节已经有几千人了，我们现在过去吗？",
+            "en": "There are already thousands of people at the festival. Shall we go now?"
+          },
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Jom, kita naik tren je. Senang sikit.",
+            "ms_standard": "Marilah kita menaiki tren sahaja supaya perjalanan lebih mudah.",
+            "zh": "走吧，我们搭火车去就好，方便一点。",
+            "en": "Let's go. We'll just take the train—it'll be easier."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "ribuan terima kasih 是表达强烈谢意的自然说法，可用于致谢信、致辞或日常感谢；不表示实际计算感谢次数。",
+      "usage_etiquette": "报道概数时可用 ribuan；涉及票数、款项或统计结果且确数已知时，宜直接写明数字。不要把 ribuan 自动理解为恰好一千。"
+    },
+    "etymology": {
+      "historical_story": "ribuan 的构词来源是表示“一千”的 ribu 加上后缀 -an，把一个明确的计数单位转为“以千计”的数量表达。在 ribuan terima kasih 中，数量之多又成为谢意之深的比喻。",
+      "cognitive_memory_aid": "把 ribu 想成一个装有一千颗珠子的袋子；ribuan 是眼前出现好几袋，强调数量很多而不逐一清点。"
+    }
+  },
+  "bincangkan": {
+    "headword": {
+      "word": "bincangkan",
+      "syllables": "bin.cang.kan",
+      "ipa": "/binˈt͡ʃaŋkan/",
+      "jawi": "بينچڠکن",
+      "frequency_rank": 2947,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "bincang",
+      "affix": "-kan",
+      "affix_type": "suffix",
+      "formula": "bincang + -kan → bincangkan",
+      "pattern_note": "加 -kan 时保留词根末尾 ng /ŋ/，形成 /ŋ.k/，不可读成单一 /ŋ/。输入包的 بينچڠ 只对应词根 bincang，此处补全后缀为 بينچڠکن；缺失的音节划分补为 bin.cang.kan。",
+      "word_family": [
+        {
+          "word": "berbincang",
+          "affix": "ber-",
+          "gloss": "相互讨论；商议"
+        },
+        {
+          "word": "membincangkan",
+          "affix": "meN-...-kan",
+          "gloss": "讨论某事"
+        },
+        {
+          "word": "perbincangan",
+          "affix": "per-...-an",
+          "gloss": "讨论；商议过程"
+        }
+      ],
+      "root_jawi": "بينچڠ"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "讨论；就某个问题、建议或事项交换意见、加以商议。",
+        "en_definition": "Discuss or deliberate on a matter.",
+        "ms_definition": "Memperkatakan atau membicarakan sesuatu perkara.",
+        "nuances": "这是 membincangkan 去掉 meN- 的形式，常用于祈使句及第一、第二人称被动结构，如 perkara yang akan kita bincangkan；普通标准主动陈述通常用 membincangkan。讨论对象直接作宾语，无须加 tentang。马来语没有与英语完全对应的不定式系统，不宜把它简单标成“不定式”。[DBP 释义与例句](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bincang)",
+        "collocations": [
+          {
+            "ms": "bincangkan masalah ini",
+            "zh": "讨论这个问题",
+            "en": "discuss this problem"
+          },
+          {
+            "ms": "bincangkan cadangan tersebut",
+            "zh": "讨论该建议",
+            "en": "discuss that proposal"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场 / 会议议程说明",
+        "ms": "Cadangan tersebut akan kita bincangkan dalam mesyuarat esok.",
+        "zh": "我们将在明天的会议上讨论该建议。",
+        "en": "We will discuss that proposal at tomorrow's meeting."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 同事商量工作安排",
+        "ms_spoken": "Hal tu kita bincangkan esok je, ya?",
+        "ms_standard": "Hal itu kita bincangkan esok sahaja, ya?",
+        "zh": "那件事我们就明天再谈，好吗？",
+        "en": "Let's discuss that tomorrow, okay?",
+        "spoken_features": [
+          "tu 是 itu 的口语形式",
+          "je 对应 sahaja",
+          "ya 用于征求对方认同，使建议更柔和",
+          "保留 bincangkan；更随意的会话中也常用 bincang"
+        ],
+        "messages": [
+          {
+            "speaker": "Amir (同事)",
+            "ms_spoken": "Hal jadual tu kita bincangkan esok je, ya? Aku nak semak dulu.",
+            "ms_standard": "Hal jadual itu kita bincangkan esok sahaja, ya? Saya hendak menyemaknya dahulu.",
+            "zh": "时间表的事我们明天再谈，好吗？我想先检查一下。",
+            "en": "Let's discuss the schedule tomorrow, okay? I want to check it first."
+          },
+          {
+            "speaker": "Farah (同事)",
+            "ms_spoken": "Boleh. Aku dah hantar versi baharu kat kau tadi.",
+            "ms_standard": "Boleh. Saya sudah menghantar versi baharu kepada kamu tadi.",
+            "zh": "可以。我刚才已经把新版发给你了。",
+            "en": "Sure. I sent you the updated version earlier."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "直接说 Bincangkan masalah ini 可像题目指令或上级命令。请人共同商议时，可用 Mari kita bincangkan masalah ini；提出礼貌请求时可加 sila 或 tolong。",
+      "usage_etiquette": "正式主动句用 Kami akan membincangkan cadangan itu；以事项为主题时可用 Cadangan itu akan kami bincangkan。与长辈、客户或不熟悉的同事交流时，以 kita 配合邀请式表达通常更柔和。"
+    },
+    "etymology": {
+      "historical_story": "bincangkan 的直接构词来源是 bincang 加后缀 -kan，与 berbincang、membincangkan 和 perbincangan 共享词根。可把这组词理解为同一张讨论桌的不同视角：berbincang 突出大家交谈，bincangkan 则把某个具体议题摆到桌面上。",
+      "cognitive_memory_aid": "想象把写着 masalah ini 的议题卡放到桌上：bincang + -kan → bincangkan masalah ini，记住后面直接接讨论对象。"
+    }
+  }
+}

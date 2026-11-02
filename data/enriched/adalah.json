@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "adalah",
+    "syllables": "a.da.lah",
+    "ipa": "[a.da.lah]",
+    "jawi": "اداله",
+    "frequency_rank": 34,
+    "tags": [
+      "CEFR-A2",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ada",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "ada + -lah → adalah",
+    "pattern_note": "由 ada 与后附语气成分 -lah 结合并词汇化；suffix 是本 Schema 对后附成分的归类，不表示 -lah 是普通派生后缀。整个词作 kata pemeri 时不等于每次都在强调“存在”。",
+    "word_family": [
+      {
+        "word": "ada",
+        "affix": "none",
+        "gloss": "有；存在；在"
+      },
+      {
+        "word": "adanya",
+        "affix": "-nya",
+        "gloss": "其存在；存在这一事实，依语境而定"
+      },
+      {
+        "word": "keadaan",
+        "affix": "ke-…-an",
+        "gloss": "情况；状态"
+      },
+      {
+        "word": "mengadakan",
+        "affix": "meN-…-kan",
+        "gloss": "举办；安排；设立"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "是；用于连接主语与对其性质、用途等的说明。",
+      "ms_definition": "ialah (utk menghubungkan sesuatu yg diperkatakan dgn huraian, penjelasan dsb yg mengenainya).",
+      "nuances": "属于 kata pemeri，本 Schema 归入 particle。规范教学中用于形容词短语、介词短语之前；名词身份判断一般用 ialah，普通动词谓语前通常不用。参见 DBP：https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ialah+dan+adalah 。",
+      "collocations": [
+        {
+          "ms": "adalah penting",
+          "zh": "是重要的",
+          "en": "is important"
+        },
+        {
+          "ms": "adalah untuk kegunaan awam",
+          "zh": "是供公众使用的",
+          "en": "is for public use"
+        }
+      ],
+      "en_definition": "A linking word connecting a subject with a description or explanation of its nature, purpose, or other characteristics: is; are."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "确实；实乃，古典语中用于句首引出陈述。",
+      "ms_definition": "sl sesungguhnya (digunakan pd permulaan ayat, kenyataan, dsb).",
+      "nuances": "sl 指古典文学语。此义应在古文、旧式声明等语境中识别，不可据此把现代每个句首都加上 adalah。以下搭配为古典句式片段。",
+      "collocations": [
+        {
+          "ms": "adalah makam ini",
+          "zh": "此墓实乃……（古典陈述开头）",
+          "en": "indeed, this tomb is…"
+        },
+        {
+          "ms": "adalah seorang pemuda",
+          "zh": "有一位青年……（古典叙事开头）",
+          "en": "there was once a young man…"
+        }
+      ],
+      "en_definition": "(Classical) Used at the beginning of a sentence to introduce or affirm a statement: indeed; truly."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共设施通告 / 服务说明",
+      "ms": "Kemudahan ini adalah untuk kegunaan orang ramai sepanjang tempoh pameran.",
+      "zh": "这项设施在展览期间供公众使用。",
+      "en": "This facility is for public use throughout the exhibition."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对活动通知中的收费说明",
+      "ms_spoken": "Dalam notis tu tulis, 'Bayaran adalah untuk makanan sahaja.' Maknanya pengangkutan tak termasuk, kan?",
+      "ms_standard": "Dalam notis itu tertulis, 'Bayaran adalah untuk makanan sahaja.' Maksudnya, kos pengangkutan tidak termasuk dalam bayaran itu, bukan?",
+      "zh": "通知上写着：“费用仅用于餐食。”意思是交通费不包含在内，对吧？",
+      "spoken_features": [
+        "adalah 保留在通知原文中，后接介词短语 untuk makanan sahaja，符合此处的规范用法",
+        "这段聊天通过引用通知自然呈现书面语 adalah；日常随意交谈通常不会刻意添加它",
+        "tu = itu；tak = tidak；kan 用于请求确认",
+        "haah 表示肯定回应，正式还原为 ya",
+        "kena bayar asing 表示需要另付，正式还原为 perlu dibayar secara berasingan"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dalam notis tu tulis, 'Bayaran adalah untuk makanan sahaja.' Maknanya pengangkutan tak termasuk, kan?",
+          "ms_standard": "Dalam notis itu tertulis, 'Bayaran adalah untuk makanan sahaja.' Maksudnya, kos pengangkutan tidak termasuk dalam bayaran itu, bukan?",
+          "zh": "通知上写着：“费用仅用于餐食。”意思是交通费不包含在内，对吧？",
+          "en": "The notice says, 'The fee covers food only.' So transport isn't included, right?"
+        },
+        {
+          "speaker": "Hakim (同事)",
+          "ms_spoken": "Haah, betul. Kalau nak naik bas, kena bayar asing.",
+          "ms_standard": "Ya, betul. Jika awak hendak menaiki bas, tambangnya perlu dibayar secara berasingan.",
+          "zh": "对，没错。要坐巴士的话，车费得另外付。",
+          "en": "Yeah, that's right. If you want to take the bus, you'll have to pay separately."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "adlh",
+      "full_form": "adalah",
+      "note": "聊天或速记的省元音写法；正式邮件和公文使用完整形式。"
+    },
+    {
+      "abbr": "adl",
+      "full_form": "adalah",
+      "note": "更短的速记形式，辨识依赖上下文，不宜用于对外通知。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "常见于正式说明；它增加的是书面陈述感，并非像称谓那样直接提高礼貌等级。",
+    "usage_etiquette": "不要为模仿英语 be 而处处插入 adalah。自然聊天中可以省略 kata pemeri；公文则按后面的短语类型选择 adalah、ialah 或不加连接词。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语",
+    "root_origin": "马来语 ada + 后附成分 -lah；本词属于马来语内部构词，资料未给出 ada 的更早祖语词形。",
+    "historical_story": "adalah 是马来语内部把 ada 与 -lah 结合起来的词，不需要另找一个外来语“是”来解释。古典文本中它可以在句首郑重引出事实，现代则常在通告和说明里连接主语与性质或用途。把旧式叙事的开场和今天公共设施的告示并排看，就能记住它从陈述语气到说明功能的两种面貌。",
+    "cognitive_memory_aid": "把 adalah 放在“说明牌”上：adalah penting 说明性质，adalah untuk… 说明用途；身份名词通常用 ialah。"
+  }
+}

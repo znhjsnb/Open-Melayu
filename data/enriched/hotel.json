@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "hotel",
+    "syllables": "ho.tél",
+    "ipa": "/hotel/",
+    "jawi": "هوتيل",
+    "frequency_rank": 897,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hotel",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hotel → hotel",
+    "pattern_note": "英语借词，在现代马来语中作为完整词根使用，不拆成 ho- 与 -tel。ho.tél 直接取自本地 PRPM 原始释义开头的方括号标注，虽然独立 syllables 字段为 null；Jawi 同样由未损坏的本地缓存恢复。IPA 是依据该读音所作的编辑宽式转写，é 表示 /e/，不是 /ə/。",
+    "word_family": [
+      {
+        "word": "perhotelan",
+        "affix": "per-…-an",
+        "gloss": "酒店业；有关酒店的事务"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "酒店；旅馆。为到访旅客提供收费住宿及相关服务的场所。",
+      "ms_definition": "bangunan tempat penginapan yg menyediakan makanan dan perkhidmatan-perkhidmatan lain utk orang luar yg datang mengunjungi sesuatu tempat. (Kamus Dewan Edisi Keempat)",
+      "nuances": "与英语同形，但使用马来语读音。酒店名称本身不保证每项餐饮都包含在房价内；bilik hotel 是酒店客房，tempahan hotel 是酒店预订。不要把酒店行业词 perhotelan 当作一间酒店的名称。",
+      "collocations": [
+        {
+          "ms": "bilik hotel",
+          "zh": "酒店客房",
+          "en": "hotel room"
+        },
+        {
+          "ms": "tempahan hotel",
+          "zh": "酒店预订",
+          "en": "hotel reservation"
+        }
+      ],
+      "en_definition": "An establishment providing accommodation, meals, and other services to travellers for a fee."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "旅游新闻／住宿安排",
+      "ms": "Pihak penganjur menyediakan penginapan di sebuah hotel berhampiran pusat persidangan untuk para peserta.",
+      "zh": "主办方为与会者安排入住会议中心附近的一家酒店。",
+      "en": "The organisers are providing accommodation for participants at a hotel near the convention centre."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 结伴旅行的朋友确认酒店和碰面地点",
+      "ms_spoken": "Aku dah tempah bilik kat hotel dekat stesen tu. Kau sampai pukul berapa?",
+      "ms_standard": "Saya sudah menempah bilik di hotel yang berhampiran dengan stesen itu. Pukul berapakah awak akan tiba?",
+      "zh": "我已经订了车站附近那家酒店的房间。你几点到？",
+      "spoken_features": [
+        "hotel 指提供住宿的酒店；tempah bilik 明确表示预订房间。",
+        "dah 对应 sudah；tempah 在标准主动句中恢复为 menempah。",
+        "dekat stesen 表示靠近车站；kat lobi 表示在大厅。",
+        "Dalam pukul tiga kot 表达不完全确定的预计时间；kot 在这里对应 mungkin。",
+        "je 对应 sahaja；Senang kau nak cari 省略宾语，承接上文的酒店。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aisyah (朋友／负责订房)",
+          "ms_spoken": "Aku dah tempah bilik kat hotel dekat stesen tu. Kau sampai pukul berapa?",
+          "ms_standard": "Saya sudah menempah bilik di hotel yang berhampiran dengan stesen itu. Pukul berapakah awak akan tiba?",
+          "zh": "我已经订了车站附近那家酒店的房间。你几点到？",
+          "en": "I've booked a room at that hotel near the station. What time are you getting in?"
+        },
+        {
+          "speaker": "Sara (朋友／同行旅伴)",
+          "ms_spoken": "Dalam pukul tiga kot. Kau tunggu kat lobi je, nanti aku mesej bila dah sampai.",
+          "ms_standard": "Saya mungkin akan tiba sekitar pukul tiga. Awak tunggu sahaja di lobi. Saya akan menghantar mesej kepada awak apabila saya sudah tiba.",
+          "zh": "大概三点吧。你就在大厅等，到了我发消息给你。",
+          "en": "Around three, I reckon. Just wait in the lobby. I'll text you when I get there."
+        },
+        {
+          "speaker": "Aisyah (朋友／负责订房)",
+          "ms_spoken": "Okay, nanti aku hantar lokasi hotel. Senang kau nak cari.",
+          "ms_standard": "Baiklah, saya akan menghantar lokasi hotel nanti supaya awak mudah mencarinya.",
+          "zh": "好，我等下把酒店定位发给你，方便你找。",
+          "en": "Okay, I'll send you the hotel's location in a bit so you can find it easily."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向酒店员工询问时用 saya 自称，并以 encik、cik、tuan 或 puan 等合适称呼开口；boleh saya… 是自然礼貌的句式。",
+    "usage_etiquette": "预订时分别问清人数、床型、总价和是否含餐。需要清真餐饮或其他饮食安排时直接询问服务内容，不从酒店名称或员工族群推断。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语",
+    "root_origin": "英语 hotel；所给 Kaikki 词源及本地记录均列 From English hotel。本条不据此延伸到未核实的具体传入地点或年代。",
+    "historical_story": "hotel 作为英语住宿名称进入马来语后，保留了醒目的整词拼写，读音则融入马来语的音系。把现代旅客从码头或车站走到酒店前台的场景当作记忆画面，就能串起这个词的旅行语境；perhotelan 又把同一词根扩展到整个酒店行业，而这个画面不表示已证实的传播路线。",
+    "cognitive_memory_aid": "hotel 的拼写与英语相同；把预订 tempahan、客房 bilik、大厅 lobi 围在 hotel 身边一起记。"
+  }
+}

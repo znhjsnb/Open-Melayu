@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "anggota",
+    "syllables": "ang.go.ta",
+    "ipa": "/aŋɡota/",
+    "jawi": "اڠݢوتا",
+    "frequency_rank": 833,
+    "tags": [
+      "CEFR-B1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "anggota",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + anggota → anggota",
+    "pattern_note": "借词整体作为现代基本词记忆，ang- 不是本词的马来语前缀。ngg 表示 /ŋɡ/，保留鼻音后面的 /ɡ/；menganggotai 中 meN- 在元音前表现为 meng-，不删除词根首元音。IPA 为编辑宽式转写；半岛部分口音词尾 a 可读 [ə]。CEFR 标签为教学估级。",
+    "word_family": [
+      {
+        "word": "beranggota",
+        "affix": "ber-",
+        "gloss": "具有肢体或成员"
+      },
+      {
+        "word": "beranggotakan",
+        "affix": "ber-…-kan",
+        "gloss": "以……为成员；由……组成"
+      },
+      {
+        "word": "menganggotai",
+        "affix": "meN-…-i",
+        "gloss": "成为……的成员"
+      },
+      {
+        "word": "keanggotaan",
+        "affix": "ke-…-an",
+        "gloss": "成员资格；会员身份"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "身体的部分，尤指手、脚等肢体。",
+      "ms_definition": "bahagian tubuh, terutama tangan dan kaki. (Kamus Dewan Edisi Keempat, makna 1)",
+      "nuances": "anggota badan／anggota tubuh 通常明确身体义；不能把所有人体内部器官都机械译成 anggota，器官常用 organ。肢体运动可说 pergerakan anggota badan。",
+      "collocations": [
+        {
+          "ms": "anggota badan",
+          "zh": "身体各部分；肢体",
+          "en": "body parts; limbs"
+        },
+        {
+          "ms": "anggota tubuh",
+          "zh": "身体部位；肢体",
+          "en": "parts of the body; limbs"
+        }
+      ],
+      "en_definition": "A part of the body, especially a limb."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "队伍、组织或团体的成员；警员、军人等队伍中的人员。",
+      "ms_definition": "ahli (sesuatu pasukan, pertubuhan, golongan, dll). (Kamus Dewan Edisi Keempat, makna 2)",
+      "nuances": "新闻里 anggota polis 是警员，anggota tentera 是军人，不能逐字理解为警方或军队的‘肢体’。俱乐部会员也常称 ahli；谈国家加入组织可用 negara anggota。本条保留 DBP 两个主义，不把 Kaikki 的一般‘组成部分’另冒充 DBP 独立义项。",
+      "collocations": [
+        {
+          "ms": "anggota polis",
+          "zh": "警员",
+          "en": "police officer"
+        },
+        {
+          "ms": "anggota tentera",
+          "zh": "军人；军队人员",
+          "en": "member of the armed forces"
+        }
+      ],
+      "en_definition": "A member of a team, organisation or group, especially the police or armed forces."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／救援行动",
+      "ms": "Seramai dua puluh anggota bomba dikerahkan ke lokasi bagi membantu operasi mencari dan menyelamat.",
+      "zh": "共有二十名消防员被派往现场，协助搜救行动。",
+      "en": "Twenty firefighters were deployed to the scene to assist with the search and rescue operation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问对方哥哥是否在附近警局工作",
+      "ms_spoken": "Abang kau anggota polis kan? Dia kerja kat balai dekat rumah kita ke?",
+      "ms_standard": "Abang kamu ialah anggota polis, bukan? Adakah dia bekerja di balai polis berhampiran rumah kita?",
+      "zh": "你哥是警察，对吧？他在我们家附近的警局工作吗？",
+      "spoken_features": [
+        "anggota polis 指警务人员；本对话使用‘队伍中的人员’这一义项。",
+        "Abang kau 表示‘你哥哥’，口语名词谓语通常省略 ialah。",
+        "kan 用于寻求确认；句末 ke 用于提问。",
+        "haah 表示口语中的‘对、是啊’；tapi 对应 tetapi；kat 在这里对应地点介词 di。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Abang kau anggota polis kan? Dia kerja kat balai dekat rumah kita ke?",
+          "ms_standard": "Abang kamu ialah anggota polis, bukan? Adakah dia bekerja di balai polis berhampiran rumah kita?",
+          "zh": "你哥是警察，对吧？他在我们家附近的警局工作吗？",
+          "en": "Your older brother's a police officer, right? Does he work at the station near our place?"
+        },
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Haah, tapi dia bertugas kat Shah Alam. Bukan kat sini.",
+          "ms_standard": "Ya, tetapi dia bertugas di Shah Alam, bukan di sini.",
+          "zh": "对，不过他在莎阿南任职，不是在这里。",
+          "en": "Yeah, but he's stationed in Shah Alam. Not here."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "anggota 是中性的身份词，媒体、机构和日常说明均可使用。对警员本人讲话时，依身份使用适当称谓，例如 tuan 或 puan；anggota 本身并不是直接称呼对方的敬称。",
+    "usage_etiquette": "说明某人是 anggota polis 不代表知道其警衔。谈肢体差异或残障时，描述实际需要即可，避免嘲笑、凝视或以身体状况概括个人价值。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "梵语词源背景；所附资料提出俗语中介",
+    "root_origin": "所附 Kaikki 追溯至旧形 anggauta，并联系梵语 अङ्ग（aṅga，肢体、成员）及 भूत（bhūta）；其中俗语中间形式带重构标记且有缺项，因此不把整条路径当成已证实的音变链。",
+    "historical_story": "印度与马来群岛长期交流，为梵语词汇进入当地语言提供了历史背景；anggota 的词源材料把它与 aṅga 的‘肢体、成员’意义联系起来。把组织想成一个身体，个人就像其中一只手或一条腿，这幅图像能串起今天的身体义与团体成员义，但不等于证明了两义发展的确切先后。现代新闻中的 anggota bomba、anggota polis 仍然保留这种‘整体中的一员’的联系。",
+    "cognitive_memory_aid": "一个整体，两类成员：身体里的手脚是 anggota，队伍里的人员也是 anggota。"
+  }
+}

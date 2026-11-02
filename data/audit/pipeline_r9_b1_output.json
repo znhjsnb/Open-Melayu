@@ -1,0 +1,282 @@
+{
+  "meja": {
+    "context": "WhatsApp / 朋友约在餐馆吃饭，寻找座位",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Kau dah sampai ke? Aku kat depan kedai ni.",
+        "ms_standard": "Adakah awak sudah sampai? Saya berada di hadapan kedai ini.",
+        "zh": "你到了吗？我在店门口了。"
+      },
+      {
+        "speaker": "Farhan (朋友)",
+        "ms_spoken": "Dah. Aku duduk kat meja tepi tingkap. Masuk je, nanti kau nampak aku.",
+        "ms_standard": "Saya sudah sampai. Saya duduk di meja di tepi tingkap. Masuk sahaja, nanti awak akan nampak saya.",
+        "zh": "到了。我坐在窗边那张桌子。直接进来就能看到我。"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Oh, nampak dah! Aku gi situ sekarang.",
+        "ms_standard": "Oh, saya sudah nampak awak! Saya akan ke situ sekarang.",
+        "zh": "哦，看见你了！我现在过去。"
+      }
+    ],
+    "spoken_features": [
+      "kau、aku 用于亲近朋友之间；标准语分别改为 awak、saya。",
+      "dah、ni、je、gi 分别对应 sudah、ini、sahaja、pergi；句末 ke 构成口语疑问。",
+      "kat meja 表示在桌边就座，标准语用 di meja；nampak dah 是聊天中自然的后置表达。"
+    ]
+  },
+  "askar": {
+    "context": "WhatsApp / 朋友聊起哥哥的职业和休假",
+    "messages": [
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Lama tak nampak abang kau. Dia kerja apa sekarang?",
+        "ms_standard": "Sudah lama saya tidak berjumpa dengan abang awak. Apakah pekerjaannya sekarang?",
+        "zh": "好久没见到你哥了。他现在做什么工作？"
+      },
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Abang aku askar. Dia baru balik cuti semalam.",
+        "ms_standard": "Abang saya seorang askar. Dia baru pulang untuk bercuti semalam.",
+        "zh": "我哥是军人。他昨天刚回来休假。"
+      },
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Oh, patutlah jarang nampak dia. Kalau dia free, ajak minum sekali lah.",
+        "ms_standard": "Oh, patutlah saya jarang berjumpa dengannya. Jika dia ada masa lapang, ajaklah dia minum bersama-sama kita.",
+        "zh": "哦，难怪很少见到他。他要是有空，就叫他一起出来喝点东西吧。"
+      }
+    ],
+    "spoken_features": [
+      "abang aku 是熟人聊天中的“我哥哥”；名词谓语 abang aku askar 在标准版本中补出 seorang。",
+      "balik cuti 是“回来休假”的口语说法，标准版本展开为 pulang untuk bercuti。",
+      "free 是聊天中的英语夹用，表示有空；ajak minum 常指邀人一起喝饮料、坐坐聊天，lah 使提议更随和。"
+    ]
+  },
+  "alam": {
+    "context": "WhatsApp / 郊游结束，朋友提醒彼此带走垃圾",
+    "messages": [
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Kat sini takde tong sampah ke? Plastik makanan ni nak buang mana?",
+        "ms_standard": "Adakah tiada tong sampah di sini? Di manakah saya patut membuang plastik pembungkus makanan ini?",
+        "zh": "这里没有垃圾桶吗？这个食品包装袋该扔哪儿？"
+      },
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Bawa balik je. Kita datang nak nikmati alam sekitar, jangan tinggal sampah pulak.",
+        "ms_standard": "Bawa pulang sahaja. Kita datang untuk menikmati alam sekitar, maka jangan pula meninggalkan sampah.",
+        "zh": "直接带回去吧。我们是来享受自然环境的，可别留下垃圾。"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Betul jugak. Aku ada beg lebih, masukkan semua dalam ni lah.",
+        "ms_standard": "Betul juga. Saya ada beg tambahan. Masukkanlah semuanya ke dalam beg ini.",
+        "zh": "也是。我有个多余的袋子，都装进这里吧。"
+      }
+    ],
+    "spoken_features": [
+      "takde 是 tidak ada 的口语合并形式；je、ni、jugak、pulak 分别对应 sahaja、ini、juga、pula。",
+      "nak 在 nak buang mana 中表达打算或该如何处理，在 nak nikmati 中表达目的；标准版本依语境恢复。",
+      "alam 在这里用于固定搭配 alam sekitar，指周围的自然环境；tinggal sampah 在标准版本中恢复为 meninggalkan sampah。"
+    ]
+  },
+  "lokasi": {
+    "context": "WhatsApp / 朋友找不到约好的咖啡店，请对方发定位",
+    "messages": [
+      {
+        "speaker": "Danial (朋友)",
+        "ms_spoken": "Aku dah pusing dua kali, tak jumpa kedai tu. Hantar lokasi kat aku jap.",
+        "ms_standard": "Saya sudah berpusing dua kali tetapi masih tidak dapat menemukan kedai itu. Tolong hantarkan lokasi kepada saya sebentar.",
+        "zh": "我已经绕了两圈，还是找不到那家店。帮我发一下定位。"
+      },
+      {
+        "speaker": "Faris (朋友)",
+        "ms_spoken": "Dah hantar. Kedai tu belakang bank je, bukan tepi jalan besar.",
+        "ms_standard": "Saya sudah menghantarnya. Kedai itu terletak di belakang bank sahaja, bukan di tepi jalan utama.",
+        "zh": "发了。那家店就在银行后面，不在大路边。"
+      },
+      {
+        "speaker": "Danial (朋友)",
+        "ms_spoken": "Oh, patutlah! Aku ikut lokasi ni sekarang.",
+        "ms_standard": "Oh, patutlah saya tidak dapat menemukannya! Saya akan mengikut panduan ke lokasi ini sekarang.",
+        "zh": "哦，难怪找不到！我现在跟着这个定位走。"
+      }
+    ],
+    "spoken_features": [
+      "hantar lokasi 在 WhatsApp 中通常指发送地图定位；ikut lokasi 指按定位的指引前往。",
+      "kat aku 表示接收对象，标准语用 kepada saya；这里的 kat 不能还原成表示地点的 di。",
+      "jap 来自 sekejap，在请求中使语气较随意；dah、tak、tu、je、ni 分别对应 sudah、tidak、itu、sahaja、ini。"
+    ]
+  },
+  "rakyat": {
+    "context": "WhatsApp / 朋友买菜后聊物价，商量自己做饭",
+    "messages": [
+      {
+        "speaker": "Lina (朋友)",
+        "ms_spoken": "Aku beli barang sikit je tadi, dah dekat seratus ringgit.",
+        "ms_standard": "Saya hanya membeli sedikit barang tadi, tetapi jumlahnya sudah hampir seratus ringgit.",
+        "zh": "我刚才只买了一点东西，就已经快一百令吉了。"
+      },
+      {
+        "speaker": "Mira (朋友)",
+        "ms_spoken": "Tu lah, harga makin naik. Rakyat biasa macam kita ni memang kena berjimat.",
+        "ms_standard": "Itulah, harga semakin meningkat. Rakyat biasa seperti kita ini memang perlu berjimat.",
+        "zh": "就是啊，物价越来越高。像我们这样的普通老百姓，确实得省着点花。"
+      },
+      {
+        "speaker": "Lina (朋友)",
+        "ms_spoken": "Minggu ni kita masak sendiri je lah. Kurang sikit belanja makan.",
+        "ms_standard": "Minggu ini, marilah kita memasak sendiri sahaja. Dengan cara itu, perbelanjaan makan dapat dikurangkan sedikit.",
+        "zh": "这周我们就自己做饭吧。伙食费能省一点。"
+      }
+    ],
+    "spoken_features": [
+      "sikit je、dah dekat 分别表示“只有一点”和“已经接近”；dekat 在此表示数额接近，并非空间位置。",
+      "macam kita ni 对应 seperti kita ini；kena 在这里表示“得、需要”，标准版本用 perlu。",
+      "rakyat biasa 指普通民众；tu lah 表示对共同感受的附和，je lah 使自己做饭的提议更随和。"
+    ]
+  },
+  "jawapan": {
+    "context": "WhatsApp / 同学做练习时讨论一道数学题",
+    "messages": [
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Kau dah dapat jawapan untuk soalan lima ke? Aku kira dua kali, lain pulak hasilnya.",
+        "ms_standard": "Adakah awak sudah mendapat jawapan untuk soalan kelima? Saya sudah mengira dua kali, tetapi hasilnya berbeza pula.",
+        "zh": "你算出第五题的答案了吗？我算了两遍，结果却不一样。"
+      },
+      {
+        "speaker": "Aisyah (同学)",
+        "ms_spoken": "Aku dapat dua belas. Kau dah kira yang dalam kurungan dulu tak?",
+        "ms_standard": "Saya mendapat dua belas. Adakah awak sudah mengira bahagian di dalam kurungan terlebih dahulu?",
+        "zh": "我算出来是十二。你有先算括号里面的吗？"
+      },
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Oh, aku tertinggal langkah tu. Jap, aku cuba kira balik.",
+        "ms_standard": "Oh, saya tertinggal langkah itu. Sebentar, saya akan cuba mengira semula.",
+        "zh": "哦，我漏了那一步。等一下，我再算算。"
+      }
+    ],
+    "spoken_features": [
+      "句末 ke 和 tak 都能构成口语的是非问句；标准版本使用 adakah，并恢复完整句式。",
+      "soalan lima 是聊天中按编号称呼题目的说法，标准版本用 soalan kelima。",
+      "pulak、jap、tu 分别对应 pula、sekejap、itu；kira balik 表示重新计算，标准版本用 mengira semula。"
+    ]
+  },
+  "sialan": {
+    "context": "WhatsApp / 朋友私聊，倾诉被人辱骂后的不满",
+    "messages": [
+      {
+        "speaker": "Faiz (朋友)",
+        "ms_spoken": "Dia panggil aku sialan tadi, sebab aku tegur dia potong barisan je.",
+        "ms_standard": "Dia memanggil saya sialan tadi hanya kerana saya menegurnya kerana memotong barisan.",
+        "zh": "他刚才骂我混账，就因为我说了他插队。"
+      },
+      {
+        "speaker": "Hafiz (朋友)",
+        "ms_spoken": "Biar betul? Dia yang salah, kau pulak kena maki.",
+        "ms_standard": "Benarkah begitu? Dia yang bersalah, tetapi awak pula yang dimaki.",
+        "zh": "真的假的？明明是他不对，挨骂的反倒是你。"
+      },
+      {
+        "speaker": "Faiz (朋友)",
+        "ms_spoken": "Tu lah. Aku malas nak gaduh, aku jalan je.",
+        "ms_standard": "Itulah. Saya tidak mahu bergaduh, jadi saya terus beredar.",
+        "zh": "就是啊。我懒得吵，就直接走了。"
+      }
+    ],
+    "spoken_features": [
+      "sialan 在这里是转述对方使用的粗俗辱骂，含义接近“混账”，不能当作普通称呼。",
+      "panggil、tegur、potong barisan 在口语中使用无前缀形式，标准版本分别恢复为 memanggil、menegur、memotong barisan。",
+      "Biar betul? 表达惊讶或难以置信；kena maki 表示挨骂，malas nak gaduh 表示不想费劲争吵。"
+    ]
+  },
+  "perintah": {
+    "context": "WhatsApp / 家人提醒道路因山体滑坡被下令封闭",
+    "messages": [
+      {
+        "speaker": "Ibu (母亲)",
+        "ms_spoken": "Jangan ikut jalan bukit tu. Polis dah keluarkan perintah tutup jalan sebab tanah runtuh.",
+        "ms_standard": "Jangan melalui jalan bukit itu. Polis sudah mengeluarkan perintah untuk menutup jalan tersebut kerana berlaku tanah runtuh.",
+        "zh": "别走山上那条路。因为发生山体滑坡，警方已经下令封路了。"
+      },
+      {
+        "speaker": "Aiman (儿子)",
+        "ms_spoken": "Oh, patutlah banyak kereta patah balik. Kalau macam tu, saya ikut jalan besar je lah.",
+        "ms_standard": "Oh, patutlah banyak kereta berpatah balik. Jika begitu, saya akan melalui jalan utama sahaja.",
+        "zh": "哦，难怪那么多车掉头。那我就走大路吧。"
+      },
+      {
+        "speaker": "Ibu (母亲)",
+        "ms_spoken": "Ha, ikut situ. Lambat sikit takpe, janji selamat.",
+        "ms_standard": "Ya, ikutlah jalan itu. Tidak mengapa jika lewat sedikit, asalkan selamat.",
+        "zh": "对，走那边。晚一点没关系，安全就好。"
+      }
+    ],
+    "spoken_features": [
+      "perintah 在这里指警方发出的封路命令；perintah tutup jalan 在标准版本中展开为 perintah untuk menutup jalan。",
+      "dah、tu、je、takpe 分别对应 sudah、itu、sahaja、tidak mengapa；macam tu 对应 begitu。",
+      "janji 在这里表示“只要”，标准语用 asalkan；儿子对母亲使用 saya，符合这一家庭对话的礼貌关系。"
+    ]
+  },
+  "dinding": {
+    "context": "WhatsApp / 室友商量客厅照片的悬挂位置",
+    "messages": [
+      {
+        "speaker": "Sara (室友)",
+        "ms_spoken": "Nak gantung gambar ni kat dinding sebelah pintu ke?",
+        "ms_standard": "Adakah awak mahu menggantung gambar ini pada dinding di sebelah pintu?",
+        "zh": "你想把这张照片挂在门旁边的墙上吗？"
+      },
+      {
+        "speaker": "Wani (室友)",
+        "ms_spoken": "Kat situ sempit sangat kot. Atas sofa tu ada ruang lagi.",
+        "ms_standard": "Saya rasa ruang di situ terlalu sempit. Masih ada ruang di atas sofa itu.",
+        "zh": "那里可能太挤了吧。沙发上方还有位置。"
+      },
+      {
+        "speaker": "Sara (室友)",
+        "ms_spoken": "Betul jugak. Aku pegang kat situ dulu, kau tengok sesuai tak.",
+        "ms_standard": "Betul juga. Saya akan memegang gambar ini di situ dahulu supaya awak dapat melihat sama ada kedudukannya sesuai.",
+        "zh": "也是。我先把照片举到那边，你看看位置合不合适。"
+      }
+    ],
+    "spoken_features": [
+      "nak、ni、tu、jugak 分别对应 mahu、ini、itu、juga；gantung 在标准版本中恢复为 menggantung。",
+      "kat dinding 表示照片附着的表面，标准语用 pada dinding；kat situ 表示位置，标准语用 di situ。",
+      "kot 表示不完全确定的判断，标准版本用 saya rasa；sesuai tak 是询问是否合适的口语结构。"
+    ]
+  },
+  "menyebabkan": {
+    "context": "WhatsApp / 朋友途中遇到积水，讨论迟到原因和替代路线",
+    "messages": [
+      {
+        "speaker": "Imran (朋友)",
+        "ms_spoken": "Hujan ni yang menyebabkan kita lambat sampai, kan? Jalan depan pun dah naik air.",
+        "ms_standard": "Hujan inilah yang menyebabkan kita lewat tiba, bukan? Jalan di hadapan juga sudah dinaiki air.",
+        "zh": "就是这场雨导致我们迟到的，对吧？前面的路也已经积水了。"
+      },
+      {
+        "speaker": "Azlan (朋友)",
+        "ms_spoken": "Ha, kereta semua gerak perlahan je. Kita ikut jalan lain nak?",
+        "ms_standard": "Ya, semua kereta bergerak perlahan sahaja. Mahukah kita melalui jalan lain?",
+        "zh": "是啊，车都开得很慢。我们要不要换条路？"
+      },
+      {
+        "speaker": "Imran (朋友)",
+        "ms_spoken": "Boleh jugak. Kau tengok peta jap, cari jalan yang tak banjir.",
+        "ms_standard": "Boleh juga. Tolong lihat peta sebentar dan cari jalan yang tidak dilanda banjir.",
+        "zh": "也行。你看一下地图，找条没被淹的路。"
+      }
+    ],
+    "spoken_features": [
+      "menyebabkan 在这里保留完整形式，表示造成某个结果；完整派生动词也可以自然地出现在口语句子中。",
+      "Hujan ni yang… 突出致因，标准版本用 Hujan inilah yang…；句末 kan 征求认同。",
+      "naik air 是道路等处涨水、积水的口语表达；句末 nak? 用于提出共同采取行动的建议，jap 对应 sekejap。"
+    ]
+  }
+}

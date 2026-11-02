@@ -1,0 +1,141 @@
+{
+  "headword": {
+    "word": "seorang",
+    "syllables": "se.o.rang",
+    "ipa": "/səˈoraŋ/",
+    "jawi": "سأورڠ",
+    "frequency_rank": 65,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "orang",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se-（一）+ orang（人）→ seorang（一人）",
+    "pattern_note": "se- 的 e 读 /ə/；规范分音节保留 se.o.rang 的元音相接。口语 sorang 省去前面的弱元音，正式拼写恢复 seorang。",
+    "word_family": [
+      {
+        "word": "orang",
+        "affix": "∅",
+        "gloss": "人；计人的量词"
+      },
+      {
+        "word": "berseorangan",
+        "affix": "ber-…-an（加于 seorang）",
+        "gloss": "独自一人"
+      },
+      {
+        "word": "keseorangan",
+        "affix": "ke-…-an（加于 seorang）",
+        "gloss": "孤身一人；无人相伴"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一人；一个人；一位，用于计算人数或引出一个人的身份。",
+      "ms_definition": "satu orang",
+      "nuances": "用于数人的结构，由表示一的 se- 与人的量词 orang 组成。seorang guru 是“一位教师”，不是“独自的教师”；介绍身份时，如 dia seorang guru，可自然译为“他是一名教师”。",
+      "collocations": [
+        {
+          "ms": "seorang guru",
+          "zh": "一位教师",
+          "en": "a teacher"
+        },
+        {
+          "ms": "salah seorang",
+          "zh": "其中一人",
+          "en": "one of them"
+        }
+      ],
+      "en_definition": "One person; a or an, used when identifying a person or their role."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "独自；一个人，没有其他人陪伴。",
+      "ms_definition": "sendiri",
+      "nuances": "常作动作的状语，或用 seorang diri 强调独自。tinggal seorang 可指独居，并不自动表示感到孤独；不要和 seorang lelaki 的计人数用法混淆。",
+      "collocations": [
+        {
+          "ms": "seorang diri",
+          "zh": "独自一人",
+          "en": "all alone"
+        },
+        {
+          "ms": "tinggal seorang",
+          "zh": "一个人住；独居",
+          "en": "live alone"
+        }
+      ],
+      "en_definition": "Alone; without anyone else present."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 地方人物报道",
+      "ms": "Seorang guru menerima penghargaan atas sumbangannya dalam meningkatkan penguasaan bahasa Melayu dalam kalangan murid.",
+      "zh": "一位教师因在提升学生马来语能力方面作出贡献而获得表彰。",
+      "en": "A teacher received recognition for contributing to the improvement of pupils' proficiency in Malay."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 一位朋友已经到餐店，另一位还在找停车位",
+      "ms_spoken": "Aku tunggu kat kedai seorang je ni. Kau dah sampai ke?",
+      "ms_standard": "Saya sedang menunggu seorang diri di kedai. Adakah awak sudah sampai?",
+      "zh": "我一个人在店里等着呢。你到了吗？",
+      "spoken_features": [
+        "seorang je 在这里表示只有自己一个人，标准句明确还原为 seorang diri。",
+        "句尾 ni 突出当前状态；ke 标记疑问，标准句可改用 adakah。",
+        "tengah 对应 sedang；parking 是英语夹用，标准表达为 tempat letak kereta；kejap lagi 表示再过一小会儿。"
+      ],
+      "messages": [
+        {
+          "speaker": "Fatin (先到的朋友)",
+          "ms_spoken": "Aku tunggu kat kedai seorang je ni. Kau dah sampai ke?",
+          "ms_standard": "Saya sedang menunggu seorang diri di kedai. Adakah awak sudah sampai?",
+          "zh": "我一个人在店里等着呢。你到了吗？",
+          "en": "I'm waiting at the shop by myself. Are you here yet?"
+        },
+        {
+          "speaker": "Wani (正在停车的朋友)",
+          "ms_spoken": "Dah, tengah cari parking. Kau duduk dulu, aku masuk kejap lagi.",
+          "ms_standard": "Saya sudah sampai dan sedang mencari tempat letak kereta. Awak duduk dahulu; saya akan masuk sebentar lagi.",
+          "zh": "到了，正在找停车位。你先坐，我一会儿就进去。",
+          "en": "Yeah, I'm looking for parking. Take a seat first. I'll be in shortly."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "seorg",
+      "full_form": "seorang",
+      "note": "短信和聊天中把 orang 缩写为 org；正式文字恢复完整形式。"
+    },
+    {
+      "abbr": "sorang",
+      "full_form": "seorang",
+      "note": "弱元音省略后的自然口语拼写；既可指一人，也可指独自，须看句子。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "seorang 是中性的人的计量形式，不因族群、性别或地位改变。对人的职业或身份作介绍时，如 seorang doktor，使用自然得体。",
+    "usage_etiquette": "不要把看到某人 seorang diri 等同于对方寂寞、单身或需要帮助。要表达对方没有同伴，可以客观描述；询问婚姻、家庭情况须尊重关系与场合。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay（马来语）",
+    "root_origin": "se-（一）+ orang（人）；透明的马来语加前缀结构，不是不可分析的独立词根。",
+    "historical_story": "马来语把表示“一”的 se- 接到 orang“人”前，让“一个人”成为可以直接放进句子的 seorang。这个计人的结构既能在叙述里引出一位人物，也能配合 diri 把画面收束到独自一人。今天从新闻中的 seorang guru 到等朋友时说的 seorang diri，两种用法仍共享同一个“一人”核心。",
+    "cognitive_memory_aid": "se- 像数字 1，orang 是人：seorang guru＝一位老师；seorang diri＝只有自己一个人。"
+  }
+}

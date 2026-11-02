@@ -1,0 +1,406 @@
+{
+  "goreng": {
+    "headword": {
+      "word": "goreng",
+      "syllables": null,
+      "ipa": "/ɡo.reŋ/",
+      "jawi": "ݢوريڠ",
+      "frequency_rank": 3032,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "goreng",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + goreng → goreng",
+      "pattern_note": "词根无需拆分；e 读 /e/，不是 /ə/。添加 meN- 时成为 menggoreng，保留词根首字母 g。",
+      "word_family": [
+        {
+          "word": "menggoreng",
+          "affix": "meN-",
+          "gloss": "煎、炸或炒"
+        },
+        {
+          "word": "gorengan",
+          "affix": "-an",
+          "gloss": "煎炸食品"
+        }
+      ],
+      "root_jawi": "ݢوريڠ"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "把食物放入热锅中煎、炸或炒，通常使用食用油；某些谷物、坚果也可不加油干炒。",
+        "en_definition": "To cook food in a hot pan, usually with oil; also to dry-roast grains or nuts.",
+        "ms_definition": "Memasak makanan di dalam kuali dengan menggunakan minyak, atau tanpa minyak bagi bahan tertentu seperti beras dan kacang.",
+        "nuances": "具体译为“煎”“炸”还是“炒”取决于油量和做法。口语及祈使句可直接用 goreng；正式主动陈述句通常用 menggoreng。goreng pisang 指炸香蕉这一动作，pisang goreng 指炸好的香蕉。参见 [DBP 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=goreng)。",
+        "collocations": [
+          {
+            "ms": "goreng ikan",
+            "zh": "煎鱼或炸鱼",
+            "en": "fry fish"
+          },
+          {
+            "ms": "goreng telur",
+            "zh": "煎蛋",
+            "en": "fry an egg"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场 / 餐饮操作指引",
+        "ms": "Sila goreng ikan sehingga masak sepenuhnya sebelum dihidangkan kepada pelanggan.",
+        "zh": "请把鱼煎炸至全熟后再端给顾客。",
+        "en": "Please fry the fish until fully cooked before serving it to customers."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 商量晚餐",
+        "ms_spoken": "Kita goreng telur je malam ni, boleh tak?",
+        "ms_standard": "Bolehkah kita menggoreng telur sahaja untuk makan malam ini?",
+        "zh": "今晚我们就煎个蛋吃，可以吗？",
+        "en": "Can we just fry some eggs for dinner tonight?",
+        "spoken_features": [
+          "je 是 sahaja 的口语形式，表示“就、而已”。",
+          "ni 对应 ini；boleh tak 是常见的口语询问方式。",
+          "口语中用 goreng 代替完整主动形式 menggoreng。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (室友)",
+            "ms_spoken": "Kita goreng telur je malam ni, boleh tak?",
+            "ms_standard": "Bolehkah kita menggoreng telur sahaja untuk makan malam ini?",
+            "zh": "今晚我们就煎个蛋吃，可以吗？",
+            "en": "Can we just fry some eggs for dinner tonight?"
+          },
+          {
+            "speaker": "Aina (室友)",
+            "ms_spoken": "Boleh, nasi dah ada. Aku goreng telur sekarang.",
+            "ms_standard": "Boleh, nasi sudah tersedia. Saya akan menggoreng telur sekarang.",
+            "zh": "可以，饭已经有了。我现在煎蛋。",
+            "en": "Sure, the rice is ready. I'll fry the eggs now."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "请别人下厨时，可加 tolong 或 boleh，语气更客气，例如 Boleh tolong goreng telur?",
+      "usage_etiquette": "点餐时通常先说食物名称，再说 goreng，如 nasi goreng、mi goreng；说明烹调动作时则可说 goreng nasi、goreng mi。"
+    },
+    "etymology": {
+      "historical_story": "goreng 是马来语中表示锅中加热烹调的基本词；这里不将其更早来源归于未经核实的某种语言。词典同时记录用油烹调和不加油干炒的用法，因此它呈现的画面比中文单独一个“炸”字更宽。",
+      "cognitive_memory_aid": "想象同一口热锅：少油煎蛋、多油炸鱼、不放油炒坚果，都可联系到 goreng，再由具体食材判断中文译法。"
+    }
+  },
+  "membelinya": {
+    "headword": {
+      "word": "membelinya",
+      "syllables": null,
+      "ipa": "/məm.bə.li.ɲa/",
+      "jawi": "ممبلي",
+      "frequency_rank": 3033,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "membeli",
+      "affix": "-nya",
+      "affix_type": "suffix",
+      "formula": "membeli + -nya → membelinya；meN- + beli → membeli",
+      "pattern_note": "依输入包保留直接基底 membeli；更底层词根为 beli。meN- 在 b 前变为 mem-，b 保留；-nya 是后附代词，此处借用 suffix 类别表示位置，并非派生后缀。输入 Jawi ممبلي 对应 membeli；完整 membelinya 写作 ممبليڽ。",
+      "word_family": [
+        {
+          "word": "pembeli",
+          "affix": "peN-",
+          "gloss": "买家"
+        },
+        {
+          "word": "pembelian",
+          "affix": "peN-…-an",
+          "gloss": "购买；采购"
+        }
+      ],
+      "root_jawi": "ممبلي"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "付钱买下前文已提及的东西；把它买下来。",
+        "en_definition": "To buy or purchase the previously mentioned item.",
+        "ms_definition": "Memperoleh barang yang telah disebut dengan membayar harganya.",
+        "nuances": "-nya 在本义中回指已知的购买对象，不表示“替他买”；“替他买某物”通常用 membelikan sesuatu untuknya。该词本身不标明过去时，完成与否由 sudah、telah 等词或上下文表达。购买义参见 [DBP：beli](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=beli)。",
+        "collocations": [
+          {
+            "ms": "membelinya secara dalam talian",
+            "zh": "在网上购买它",
+            "en": "buy it online"
+          },
+          {
+            "ms": "membelinya dengan harga yang berpatutan",
+            "zh": "以合理的价格买下它",
+            "en": "buy it at a reasonable price"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场 / 采购汇报",
+        "ms": "Selepas menilai mesin tersebut, pihak syarikat bersetuju untuk membelinya daripada pembekal tempatan.",
+        "zh": "评估该机器后，公司同意向本地供应商购买。",
+        "en": "After evaluating the machine, the company agreed to purchase it from a local supplier."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 讨论购书",
+        "ms_spoken": "Buku yang awak cari tu, saya dah membelinya kat kedai depan stesen.",
+        "ms_standard": "Saya sudah membelinya di kedai di hadapan stesen, iaitu buku yang awak cari itu.",
+        "zh": "你在找的那本书，我已经在车站前面的店买到了。",
+        "en": "That book you're looking for—I bought it at the shop in front of the station.",
+        "spoken_features": [
+          "dah 对应 sudah，表示已经完成。",
+          "kat 对应 di；tu 对应 itu。",
+          "保留完整形式 membelinya，语气较工整；熟人聊天也常改说 beli buku tu。"
+        ],
+        "messages": [
+          {
+            "speaker": "Mei Ling (朋友)",
+            "ms_spoken": "Buku yang awak cari tu, saya dah membelinya kat kedai depan stesen.",
+            "ms_standard": "Saya sudah membelinya di kedai di hadapan stesen, iaitu buku yang awak cari itu.",
+            "zh": "你在找的那本书，我已经在车站前面的店买到了。",
+            "en": "That book you're looking for—I bought it at the shop in front of the station."
+          },
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Oh, saya nak beli juga. Kat sana masih ada stok tak?",
+            "ms_standard": "Saya juga mahu membeli buku itu. Adakah stok masih ada di kedai tersebut?",
+            "zh": "哦，我也想买。那家店还有货吗？",
+            "en": "Oh, I'd like a copy too. Do they still have any in stock?"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "membelinya 本身语气中性；与商家交流时，可用 Saya ingin membelinya 表达购买意愿。",
+      "usage_etiquette": "先交代商品，再用 -nya 回指，读者才知道买的是什么。-nya 必须与 membeli 连写。"
+    },
+    "etymology": {
+      "historical_story": "membelinya 是在 membeli 后接上 -nya 形成的透明组合，无需为整个形式另设外来语来源。构词关系从 beli 的“买”，发展为主动动词 membeli，再通过 -nya 把购买动作接回前文已经出现的商品。",
+      "cognitive_memory_aid": "把 membeli 想成伸手付款，把 -nya 想成指向刚才那件商品的小箭头：membelinya 就是“买下它”。"
+    }
+  },
+  "seribu": {
+    "headword": {
+      "word": "seribu",
+      "syllables": "se.ri.bu",
+      "ipa": "/səribu/",
+      "jawi": "سريبو",
+      "frequency_rank": 3034,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "ribu",
+      "affix": "se-",
+      "affix_type": "prefix",
+      "formula": "se- + ribu → seribu",
+      "pattern_note": "se- 在此表示 satu，即“一”；与 ribu 连写，词根首音 r 保留，se- 中的 e 读 /ə/。",
+      "word_family": [
+        {
+          "word": "ribuan",
+          "affix": "-an",
+          "gloss": "数以千计的"
+        },
+        {
+          "word": "beribu-ribu",
+          "affix": "ber- + 重叠",
+          "gloss": "成千上万的"
+        }
+      ],
+      "root_jawi": "ريبو"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "一千；十个一百，即数字 1,000。",
+        "en_definition": "One thousand; the number 1,000.",
+        "ms_definition": "Bilangan yang bersamaan dengan sepuluh ratus, iaitu 1,000.",
+        "nuances": "语法上属于确定数词 kata bilangan tentu；因本格式没有 numeral 选项，暂归入 noun。接可数名词时，可按需要加量词，如 seribu orang peserta。构词与数值参见 [马来西亚彭亨大学数词教材](https://ocw.ump.edu.my/pluginfile.php/3855/mod_resource/content/3/NOMBOR.pdf)。",
+        "collocations": [
+          {
+            "ms": "seribu ringgit",
+            "zh": "一千令吉",
+            "en": "one thousand ringgit"
+          },
+          {
+            "ms": "seribu orang peserta",
+            "zh": "一千名参与者",
+            "en": "one thousand participants"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻 / 活动报道",
+        "ms": "Seramai seribu orang peserta telah mendaftar untuk menyertai program latihan tersebut.",
+        "zh": "共有一千名参与者报名参加该培训计划。",
+        "en": "A total of one thousand participants have registered for the training programme."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 讨论租金",
+        "ms_spoken": "Sewa bilik tu seribu ringgit sebulan ke?",
+        "ms_standard": "Adakah sewa bilik itu seribu ringgit sebulan?",
+        "zh": "那个房间的租金一个月要一千令吉啊？",
+        "en": "Is the rent for that room a thousand ringgit a month?",
+        "spoken_features": [
+          "tu 对应 itu。",
+          "句末 ke 用于口语确认疑问，标准表达可用 adakah。",
+          "je 对应 sahaja，表示“只、而已”。"
+        ],
+        "messages": [
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Sewa bilik tu seribu ringgit sebulan ke?",
+            "ms_standard": "Adakah sewa bilik itu seribu ringgit sebulan?",
+            "zh": "那个房间的租金一个月要一千令吉啊？",
+            "en": "Is the rent for that room a thousand ringgit a month?"
+          },
+          {
+            "speaker": "Hafiz (朋友)",
+            "ms_spoken": "Ya, tapi kalau kongsi dua orang, seorang bayar lima ratus je.",
+            "ms_standard": "Ya, tetapi jika dua orang berkongsi bilik itu, setiap orang hanya membayar lima ratus ringgit.",
+            "zh": "对，不过两个人合租的话，每人只付五百令吉。",
+            "en": "Yes, but if two people share it, it's only five hundred ringgit each."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "数词本身没有礼貌等级差异。询问他人的租金或消费金额时，可加 Kalau boleh saya tahu，让问题更委婉。",
+      "usage_etiquette": "谈钱时注明 ringgit 或使用 RM1,000，避免币种不明。正式金额应保持文字与数字一致。"
+    },
+    "etymology": {
+      "historical_story": "seribu 的构词沿用马来语以 se- 表示“一”的数词模式，与 sepuluh、seratus 相呼应。ribu 提供“千”这个计数单位，se- 将它限定为一个千；这种组合至今仍直接用于价格、人数和数量表达。",
+      "cognitive_memory_aid": "把 se- 看成一张写着“1”的标签，贴到 ribu“千”上：1 × 1,000 = seribu。"
+    }
+  },
+  "tumbukan": {
+    "headword": {
+      "word": "tumbukan",
+      "syllables": "tum.bu.kan",
+      "ipa": "/tum.bu.kan/",
+      "jawi": "تومبوقن",
+      "frequency_rank": 3037,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "tumbuk",
+      "affix": "-an",
+      "affix_type": "suffix",
+      "formula": "tumbuk + -an → tumbukan",
+      "pattern_note": "名词后缀是 -an，k 属于词根 tumbuk，并非后缀 -kan 的一部分。按所给音节划分，词根末尾 k 接到后一音节，成为 tum.bu.kan。",
+      "word_family": [
+        {
+          "word": "menumbuk",
+          "affix": "meN-",
+          "gloss": "用拳击打；捣碎"
+        },
+        {
+          "word": "penumbuk",
+          "affix": "peN-",
+          "gloss": "拳头；捣具"
+        }
+      ],
+      "root_jawi": "تومبوق"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "用握紧的拳头打出的一击；拳击。",
+        "en_definition": "A punch; a blow delivered with a clenched fist.",
+        "ms_definition": "Pukulan yang dilakukan dengan buku tangan atau penumbuk.",
+        "nuances": "本条选取拳头击打这一核心义，常用于拳击、武术和事件报道。它不同于用张开的手掌打出的 tamparan；词典另载被捣之物等义，此处不展开。参见 [DBP：tumbuk 词族](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=tumbuk)。",
+        "collocations": [
+          {
+            "ms": "melepaskan tumbukan",
+            "zh": "挥出一拳",
+            "en": "throw a punch"
+          },
+          {
+            "ms": "menangkis tumbukan",
+            "zh": "挡开拳击",
+            "en": "block a punch"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻 / 体育报道",
+        "ms": "Petinju negara berjaya menangkis tumbukan lawannya sebelum melancarkan serangan balas.",
+        "zh": "国家拳击选手成功挡开对手的一拳，随后展开反击。",
+        "en": "The national boxer successfully blocked his opponent's punch before launching a counterattack."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 拳击训练交流",
+        "ms_spoken": "Tumbukan kau tadi kuat juga, tapi aku sempat elak.",
+        "ms_standard": "Tumbukan awak tadi agak kuat, tetapi saya sempat mengelak.",
+        "zh": "你刚才那一拳还挺有力，不过我及时躲开了。",
+        "en": "That was a pretty strong punch, but I managed to dodge it.",
+        "spoken_features": [
+          "kau 和 aku 是熟人之间的非正式人称代词。",
+          "口语中可用 elak 代替完整动词 mengelak。",
+          "nak 对应 hendak 或 mahu，je 对应 sahaja，dulu 对应 dahulu。"
+        ],
+        "messages": [
+          {
+            "speaker": "Amir (训练搭档)",
+            "ms_spoken": "Tumbukan kau tadi kuat juga, tapi aku sempat elak.",
+            "ms_standard": "Tumbukan awak tadi agak kuat, tetapi saya sempat mengelak.",
+            "zh": "你刚才那一拳还挺有力，不过我及时躲开了。",
+            "en": "That was a pretty strong punch, but I managed to dodge it."
+          },
+          {
+            "speaker": "Hafiz (训练搭档)",
+            "ms_spoken": "Aku nak cuba perlahan je dulu. Jurulatih suruh jaga teknik.",
+            "ms_standard": "Saya mahu mencuba dengan perlahan dahulu. Jurulatih meminta saya menumpukan perhatian pada teknik.",
+            "zh": "我想先慢慢练。教练让我注意动作。",
+            "en": "I want to take it slowly first. The coach told me to focus on my technique."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "用于体育训练和客观描述时语气中性；直接对别人说要给其一拳，通常会被理解为威胁，即使说话者自认为是在开玩笑。",
+      "usage_etiquette": "描述拳击动作可用 tumbukan；若只是泛指击打而不确定是否用拳头，pukulan 更宽泛。aku、kau 适合关系熟悉且接受这种称呼的双方。"
+    },
+    "etymology": {
+      "historical_story": "tumbukan 来自 tumbuk 加名词后缀 -an。tumbuk 的词义网络同时包含用杵捣击和用拳头击打，呈现共同的撞击动作；这些现存义项并不能单独证明哪一种历史上先出现。",
+      "cognitive_memory_aid": "先看见握紧的拳头 tumbuk，再给动作拍一张定格照片：加上 -an，就把“一拳这一击”记成名词 tumbukan。"
+    }
+  }
+}

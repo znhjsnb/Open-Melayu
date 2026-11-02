@@ -1,0 +1,171 @@
+{
+  "headword": {
+    "word": "la",
+    "syllables": null,
+    "ipa": "/la/",
+    "jawi": null,
+    "frequency_rank": 495,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "la",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + la → la；语气词 la 对应 lah 的口语写法",
+    "pattern_note": "la 是独立列出的口语形式，不把它拆成词缀；在 lah 的语气词用法中可省写 h。方言时间副词与感叹用法另列，化学符号 La 必须大写 L；PRPM 未提供音节和爪夷文，故保留 null。",
+    "word_family": [
+      {
+        "word": "lah",
+        "affix": "口语形式对应，非派生",
+        "gloss": "语气助词"
+      },
+      {
+        "word": "la ni",
+        "affix": "方言词组，非词缀",
+        "gloss": "现在；此刻"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "啦；lah 的口语写法，用于强调、劝说、回应或调节句子语气。",
+      "ms_definition": "bp lah: dia belum sampai lagi la. (Kamus Dewan Edisi Keempat)",
+      "nuances": "具体语气依上下文和语调而变，并非永远表示友好。WhatsApp 中常分写 la；规范马来语对应的强调助词 -lah 通常与前词连写，如 baiklah、marilah。",
+      "collocations": [
+        {
+          "ms": "boleh la",
+          "zh": "可以啦；还行吧",
+          "en": "sure; it's okay"
+        },
+        {
+          "ms": "tak apa la",
+          "zh": "没关系啦；算了吧",
+          "en": "it's all right; never mind"
+        }
+      ],
+      "en_definition": "A colloquial spelling of lah, a particle used for emphasis, persuasion, reassurance, or to convey the speaker's tone."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "现在；此刻，见于吉打、吉兰丹等地方言或口语。",
+      "ms_definition": "Kd, Kl, bp sekarang; la ni sekarang ini. (Kamus Dewan Edisi Keempat)",
+      "nuances": "PRPM 标 Kd、Kl、bp；不能把这一义推广为所有大马场景的标准现在。la ni 在这里是时间表达，不能一律拆成语气词啦加这个。",
+      "collocations": [
+        {
+          "ms": "la ni",
+          "zh": "现在",
+          "en": "now"
+        },
+        {
+          "ms": "la ni juga",
+          "zh": "就是现在；立刻",
+          "en": "right now; immediately"
+        }
+      ],
+      "en_definition": "Now; at present, in regional dialects such as those of Kedah and Kelantan."
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "咦；哎呀，表示惊讶或不解的口语感叹。",
+      "ms_definition": "bp kata utk menyatakan kehairanan. (Kamus Dewan Edisi Keempat)",
+      "nuances": "常放在句首，语用上属于感叹词；因给定 Schema 没有 interjection，映射为 particle。句首 La 是正常大写，不代表该句在谈化学元素。",
+      "collocations": [
+        {
+          "ms": "la, mengapa",
+          "zh": "咦，为什么……",
+          "en": "oh, why…"
+        },
+        {
+          "ms": "la, kenapa",
+          "zh": "哎，怎么……",
+          "en": "huh, how come…"
+        }
+      ],
+      "en_definition": "A colloquial exclamation expressing surprise or puzzlement."
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "La：化学元素镧的符号。",
+      "ms_definition": "simbol kimia bagi lantanum. (Kamus Dewan Edisi Keempat)",
+      "nuances": "这是大小写敏感的符号 La，与小写 la 的聊天词义无关。Schema 无 symbol，故映射为 noun；本词头 /la/ 对应口语 la，不要求把元素符号也按同一读音朗读。以下是符号的技术组合，不属于日常口语搭配。",
+      "collocations": [
+        {
+          "ms": "unsur La",
+          "zh": "镧元素",
+          "en": "the element lanthanum"
+        },
+        {
+          "ms": "ion La³⁺",
+          "zh": "三价镧离子",
+          "en": "the lanthanum(III) ion"
+        }
+      ],
+      "en_definition": "The chemical symbol for lanthanum."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "语言说明／规范文字与聊天写法",
+      "ms": "Bentuk \"la\" lazim digunakan dalam perbualan tidak formal, manakala partikel \"-lah\" dalam penulisan baku dieja serangkai dengan perkataan sebelumnya.",
+      "zh": "“la”常用于非正式交谈；在规范书写中，助词“-lah”则与前面的词连写。",
+      "en": "The form \"la\" is commonly used in informal conversation, while the particle \"-lah\" is written attached to the preceding word in standard writing."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友出发前说明会迟到，对方安抚并提醒慢慢开车",
+      "ms_spoken": "Aku baru nak gerak ni, lambat sikit sampai. Sorry eh.",
+      "ms_standard": "Saya baru hendak bertolak dan akan tiba sedikit lewat. Maafkan saya.",
+      "zh": "我这才准备出发，会晚一点到。不好意思啊。",
+      "spoken_features": [
+        "la 在这里是语气词 lah 的非正式聊天写法，不表示现在，也不是元素符号 La。",
+        "tak apa la 用于安抚；jangan la 在劝告中带有叮嘱语气，规范写法可还原为 janganlah。",
+        "baru nak gerak 表示正准备出发；kat sini 对应 di sini，laju sangat 表示太快。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Aku baru nak gerak ni, lambat sikit sampai. Sorry eh.",
+          "ms_standard": "Saya baru hendak bertolak dan akan tiba sedikit lewat. Maafkan saya.",
+          "zh": "我这才准备出发，会晚一点到。不好意思啊。",
+          "en": "I'm just about to head out, so I'll be a bit late. Sorry!"
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Tak apa la, aku tunggu kat sini. Pandu elok-elok, jangan la laju sangat.",
+          "ms_standard": "Tidak mengapa, saya akan menunggu di sini. Pandulah dengan berhati-hati dan janganlah memandu terlalu laju.",
+          "zh": "没关系啦，我在这里等你。好好开车，别开太快啊。",
+          "en": "No worries, I'll wait here. Drive carefully, okay? Don't go too fast."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "la",
+      "full_form": "lah",
+      "note": "适用于语气词义的口语或聊天省写，不适用于方言现在义或元素符号 La；正式书写还应按 -lah 的附着规则连写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "在大马多族群的非正式交谈中可遇到 la／lah，但语调和关系决定它是亲切、催促还是不耐烦。不要假定添加 la 就能使命令变得礼貌。",
+    "usage_etiquette": "熟人聊天可自然使用，正式电邮、公文和考试作文宜采用规范表达。辨认 la ni 的地方时间义，并尊重对方口音；化学符号务必保留 La 的大小写。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语；所列来源只适用于口语词位",
+    "root_origin": "语气词 la 是 lah 的读音式拼写；资料将时间义解释为 la ni < kala ini 的缩略，此链属于该资料的分析，不与所有同形词合并。感叹义的更早来源未核定；化学符号 La 另来自元素名 lantanum，不属于南岛语词源。",
+    "historical_story": "在熟人的短句里，lah 可以弱化词尾 h，并在聊天文字中写成 la，保留说话时强调、安抚或劝告的声音。另一条地方口语线索是 la ni 的现在义，资料将它联系到 kala ini 的缩略；它与语气词同形，不能据此编成同一个来源故事。现代检索还会遇到化学符号 La，那是另一个命名系统中的同形项。",
+    "cognitive_memory_aid": "看位置和大小写：句尾 la 多调语气，la ni 看时间，La 在化学式里看元素。"
+  }
+}

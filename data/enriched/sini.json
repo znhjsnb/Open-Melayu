@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "sini",
+    "syllables": "si.ni",
+    "ipa": "/sini/",
+    "jawi": "سيني",
+    "frequency_rank": 29,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sini",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sini → sini",
+    "pattern_note": "现代基本方位词，不拆成称名前缀 si- 与 ni。di sini、ke sini、dari sini 都是介词短语，分开写；dikesinikan 为少见派生形式。",
+    "word_family": [
+      {
+        "word": "dikesinikan",
+        "affix": "di-...-kan",
+        "gloss": "被带到这里来（少见） / be brought here (uncommon)"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "这里、这儿；靠近说话者或说话者所指的地点。",
+      "en_definition": "Here; at or referring to a place near the speaker.",
+      "ms_definition": "= di sini di tempat ini. (Kamus Dewan Edisi Keempat)",
+      "nuances": "按 Schema 用 adverb 承载；马来语语法常视 sini 为方位词。di sini 表位置，ke sini 表朝这里，dari sini 表从这里。英语 here 自带的方向关系在马来语中常由介词明确；对比 situ、sana。",
+      "collocations": [
+        {
+          "ms": "di sini",
+          "zh": "在这里",
+          "en": "here"
+        },
+        {
+          "ms": "ke sini",
+          "zh": "到这里来",
+          "en": "over here"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "【口语呼唤】过来、到这里来！",
+      "en_definition": "Colloquial call: come here!",
+      "ms_definition": "Huraian editorial berdasarkan Kaikki: seruan untuk menyuruh seseorang datang ke tempat penutur.",
+      "nuances": "Sini! 是省略式呼唤，Schema 无 interjection 故用 particle。对孩子或熟友可自然；叫陌生成人过来可用 Sila datang ke sini 或 Boleh datang sebentar?。",
+      "collocations": [
+        {
+          "ms": "mari sini",
+          "zh": "过来这里",
+          "en": "come here"
+        },
+        {
+          "ms": "sini kejap",
+          "zh": "来这儿一下！",
+          "en": "come here a sec!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "pronoun",
+      "zh_definition": "【少见口语／旧式表达】我、我这边；以这里指称说话者自己。",
+      "en_definition": "Uncommon colloquial or older usage: I, me, or my side.",
+      "ms_definition": "bp saya, aku. (Kamus Dewan Edisi Keempat)",
+      "nuances": "如 sini tidak setuju 表示我这边不同意。DBP 标 bp，Kaikki 标 obsolete，语域判断有差别；不将此义推荐为现代通用自称，普通我用 saya。",
+      "collocations": [
+        {
+          "ms": "sini yang rindu",
+          "zh": "是我在想念（娇昵语气）",
+          "en": "I'm the one missing you"
+        },
+        {
+          "ms": "bagi kat sini",
+          "zh": "交给我这边吧",
+          "en": "give it to me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共设施／访客指引",
+      "ms": "Para pengunjung diminta berkumpul di sini sebelum lawatan bermula.",
+      "zh": "请访客在参观开始前到这里集合。",
+      "en": "Visitors are asked to gather here before the tour begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "朋友碰面／电话聊天",
+      "ms_spoken": "Aku dah kat sini. Kau kat mana? Jom jumpa depan kedai.",
+      "ms_standard": "Saya sudah berada di sini. Awak berada di mana? Mari kita berjumpa di hadapan kedai.",
+      "zh": "我到这儿了，你在哪？来店前碰头吧。",
+      "en": "I'm here. Where are you? Let's meet in front of the shop.",
+      "spoken_features": [
+        "dah = sudah；kat sini = di sini，口语省去 berada。",
+        "jom 用于邀请一起行动；depan = hadapan。",
+        "aku／kau 限此处熟友关系；不能照搬到学生称呼老师的场合。"
+      ],
+      "messages": [
+        {
+          "speaker": "Zaki (朋友)",
+          "ms_spoken": "Bro, kau kat mana? Aku dah sampai ni.",
+          "ms_standard": "Kawan, awak di mana? Saya sudah sampai ini.",
+          "zh": "兄弟你在哪儿呢？我已经到了。",
+          "en": "Bro, where are you? I'm here already."
+        },
+        {
+          "speaker": "Taufiq (朋友)",
+          "ms_spoken": "Kat sini ha, meja hujung sebelah tingkap.",
+          "ms_standard": "Di sini, meja hujung sebelah tingkap.",
+          "zh": "在这儿呢，靠窗最尽头那张桌子。",
+          "en": "Over here, at the table at the far end by the window."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "cini",
+      "full_form": "sini",
+      "note": "卖萌或模仿儿童语气的聊天变体，不是普通语音规则或正式拼写；多数情境直接写 sini。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "光喊 Sini! 或只勾手指可能像使唤人；对顾客、长者或陌生人用 Sila ke sini, tuan／puan，并以开放手掌示意更周到。熟友之间简短呼唤则依语气与关系判断。",
+    "usage_etiquette": "规范书写为 di sini、ke sini，避免 disini／kesini。线上分享地图时 sini 可指自己选中的地点，不一定是收信人所在位置；需要消除歧义时附地点名。"
+  },
+  "etymology": {
+    "origin": "Austronesian (Inherited)",
+    "source_language": "Proto-Malayo-Polynesian",
+    "root_origin": "依 Kaikki 继承自原始马来—波利尼西亚语 *sini；不把其历史指示成分分析直接当成现代 si- 前缀。未独立核实材料中的最早碑文年代。",
+    "cognitive_memory_aid": "把自己站的位置标成 sini：di sini 在这儿，ke sini 来这儿，dari sini 从这儿出发。与 ini 共同联想近处，但不声称两者可按现代词缀相互派生。",
+    "historical_story": "sini 是古马来语中指示方位标记 si 与近指词素 ni（与 ini 同源）融合构成的空间处所副词，专指紧邻说话者的物理与视觉场域（‘这里’），与远指处所 sana（那里）、中指处所 situ（那儿）共同构建起马来语经典的三元空间指示认知坐标。其衍生出的口语近身呼唤（sini kejap）与撒娇式单数自称，体现了空间认知向人际情感距离的自然转喻。"
+  }
+}

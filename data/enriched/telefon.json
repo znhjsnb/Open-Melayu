@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "telefon",
+    "syllables": null,
+    "ipa": "/te.le.fon/",
+    "jawi": "تيليفون",
+    "frequency_rank": 254,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "telefon",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + telefon → telefon",
+    "pattern_note": "现代马来语把 telefon 当作完整借词词根，不按本地前后缀拆分。menelefon 中 meN- 成为 men-，词首 t 脱落。资料包 syllables 为 null，保留空值；原始 PRPM 标注 [té.lé.fon]，é 表示 e taling。",
+    "word_family": [
+      {
+        "word": "menelefon",
+        "affix": "meN-",
+        "gloss": "打电话"
+      },
+      {
+        "word": "bertelefon",
+        "affix": "ber-",
+        "gloss": "通电话；有电话设备"
+      },
+      {
+        "word": "ditelefon",
+        "affix": "di-",
+        "gloss": "被打电话联系"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "电话；用于远距离通话的设备。",
+      "ms_definition": "alat utk ber­cakap dgn orang yg jauh (dgn menggunakan tenaga elektrik dan kawat atau hubungan satelit)",
+      "nuances": "可泛指固定电话或手机；telefon bimbit、telefon mudah alih 指手机，telefon pintar 指智能手机。词典原释以通话功能为中心，不限制现代设备只能用有线或卫星连接。",
+      "collocations": [
+        {
+          "ms": "telefon bimbit",
+          "zh": "手机；移动电话",
+          "en": "mobile phone"
+        },
+        {
+          "ms": "telefon pintar",
+          "zh": "智能手机",
+          "en": "smartphone"
+        }
+      ],
+      "en_definition": "A device used to speak to someone at a distance by transmitting and receiving sound."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "电话通话；一通电话。",
+      "ms_definition": "percakapan (panggilan) yg menggunakan alat tersebut",
+      "nuances": "指通话事件，而非设备本身。为免歧义，标准书面语常明确说 panggilan telefon；menerima telefon 可依上下文理解为接到来电或收到电话设备。",
+      "collocations": [
+        {
+          "ms": "menerima panggilan telefon",
+          "zh": "接到来电",
+          "en": "receive a phone call"
+        },
+        {
+          "ms": "membuat panggilan telefon",
+          "zh": "拨打电话",
+          "en": "make a phone call"
+        }
+      ],
+      "en_definition": "A call or conversation conducted by telephone."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "打电话给；用电话联系（口语）。",
+      "ms_definition": "bercakap (memanggil) melalui telefon",
+      "nuances": "此释摘自 PRPM 在 telefon 下所列 menelefon 的释义；裸词 telefon 作动词为口语用法，并非把该原文冒充独立的标准动词义。朋友聊天可说 Saya telefon awak nanti；正式写作用 Saya akan menelefon tuan nanti。",
+      "collocations": [
+        {
+          "ms": "telefon saya",
+          "zh": "给我打电话（口语）",
+          "en": "call me"
+        },
+        {
+          "ms": "telefon balik",
+          "zh": "回电话（口语）",
+          "en": "call back"
+        }
+      ],
+      "en_definition": "To call someone on the phone (colloquial)."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 客户服务通知",
+      "ms": "Orang ramai boleh menghubungi pusat khidmat pelanggan melalui telefon pada waktu pejabat.",
+      "zh": "公众可在办公时间通过电话联系客户服务中心。",
+      "en": "Members of the public may contact the customer service centre by telephone during office hours."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事漏接电话后约定回电",
+      "ms_spoken": "Aku telefon kau tadi, tak angkat pun. Tengah sibuk ke?",
+      "ms_standard": "Saya menelefon kamu tadi, tetapi kamu tidak menjawab panggilan itu. Adakah kamu sedang sibuk?",
+      "zh": "我刚才打给你，你没接。在忙吗？",
+      "spoken_features": [
+        "telefon 在这里直接作口语动词；陈述句中的标准形式为 menelefon，祈使句可用 telefonlah。",
+        "telefon balik 表示回电，balik 在这里对应 semula。",
+        "tak angkat 在电话语境中表示没有接听，省略了 panggilan。",
+        "tengah = sedang；nak = mahu；pasal = tentang；je = sahaja；urgent 是聊天中夹用的英语。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (同事)",
+          "ms_spoken": "Aku telefon kau tadi, tak angkat pun. Tengah sibuk ke?",
+          "ms_standard": "Saya menelefon kamu tadi, tetapi kamu tidak menjawab panggilan itu. Adakah kamu sedang sibuk?",
+          "zh": "我刚才打给你，你没接。在忙吗？",
+          "en": "I called you earlier, but you didn't pick up. Are you busy?"
+        },
+        {
+          "speaker": "Siti (熟悉的同事)",
+          "ms_spoken": "Aku tengah mesyuarat ni. Nanti aku telefon kau balik ya. Ada benda urgent ke?",
+          "ms_standard": "Saya sedang menghadiri mesyuarat. Saya akan menelefon kamu semula nanti. Adakah ada perkara yang mendesak?",
+          "zh": "我正在开会。等下我回电给你哦。有急事吗？",
+          "en": "I'm in a meeting right now. I'll call you back in a bit, okay? Is it urgent?"
+        },
+        {
+          "speaker": "Farhan (同事)",
+          "ms_spoken": "Tak, nak tanya pasal jadual esok je. Habis mesyuarat nanti baru telefon.",
+          "ms_standard": "Tidak, saya hanya mahu bertanya tentang jadual esok. Telefonlah saya selepas mesyuarat selesai nanti.",
+          "zh": "没有，就想问一下明天的安排。等开完会再打给我吧。",
+          "en": "No, I just wanted to ask about tomorrow's schedule. Give me a call when your meeting's over."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "tpon",
+      "full_form": "telefon",
+      "note": "资料包提供的非正式聊天省写；只在双方熟悉的语境使用，工作通知与电话号码栏写 telefon。henpon 通常对应英语 handphone，指手机，不是 telefon 所有义项的逐字缩写；tlvn 不作为本条推荐形式。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "正式联系使用 menelefon、menghubungi 或 melalui telefon；通话开头先问候并说明身份。对陌生客户用 tuan、puan 或对方职衔，避免直接称 kau。",
+    "usage_etiquette": "给不熟悉的人打电话前，可先发消息确认是否方便；跨族群沟通时可先询问对方习惯的语言。未获同意不要把他人的私人号码转发给群组，会议或安静场所接听时应离席或降低音量。"
+  },
+  "etymology": {
+    "origin": "English / Dutch",
+    "source_language": "英语或荷兰语；资料包未确定唯一直接来源",
+    "root_origin": "资料包列英语 telephone 或荷兰语 telefoon 为来源候选；现代马来语统一写作 telefon。tele- 与 -fon 是国际词形分析，不是本词的马来语屈折词缀。",
+    "historical_story": "telefon 属于随着近代通信技术进入马来语的国际借词，资料包把英语 telephone 和荷兰语 telefoon 都列为可能来源。可以把它放进一幅海港通信的画面：人不必隔海当面说话，也能用设备传递声音；这幅画面不指定未经核实的传入港口或年份。现代马来语保留 telefon 这一词形，又用 telefon bimbit 和 telefon pintar 为移动设备与智能设备命名。",
+    "cognitive_memory_aid": "听到 telefon，就联想熟悉的 telephone；‘远处的声音’帮你记住设备义，menelefon 则把它变成打电话的动作。"
+  }
+}

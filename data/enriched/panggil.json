@@ -1,0 +1,178 @@
+{
+  "headword": {
+    "word": "panggil",
+    "syllables": "pang.gil",
+    "ipa": "[paŋ.ɡel]",
+    "jawi": "ڤڠݢيل",
+    "frequency_rank": 391,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "panggil",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + panggil → panggil",
+    "pattern_note": "独立词根。meN- + panggil → memanggil：词首 p 脱落，前缀实现为 mem-；ng 表示 /ŋ/，后面的 g 仍发音。IPA 采用本地 Kaikki 记录的 [paŋ.ɡel]，不是 DBP 官方音标。原始包的 Jawi 已损坏为 ?????，本字段逐字保留占位符，不代表有效 Jawi 拼写；本批 CEFR 标签均为教学估级。",
+    "word_family": [
+      {
+        "word": "memanggil",
+        "affix": "meN-",
+        "gloss": "叫来；邀请；称呼"
+      },
+      {
+        "word": "memanggil-manggil",
+        "affix": "meN- + 词根重叠",
+        "gloss": "反复呼喊"
+      },
+      {
+        "word": "memanggilkan",
+        "affix": "meN-...-kan",
+        "gloss": "替某人叫来；以某称谓称呼"
+      },
+      {
+        "word": "dipanggil",
+        "affix": "di-",
+        "gloss": "被叫来；被称为"
+      },
+      {
+        "word": "terpanggil",
+        "affix": "ter-",
+        "gloss": "受到感召；觉得有责任去做"
+      },
+      {
+        "word": "panggilan",
+        "affix": "-an",
+        "gloss": "呼声；来电；称谓；召唤"
+      },
+      {
+        "word": "pemanggil",
+        "affix": "peN-",
+        "gloss": "呼叫者；来电者"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "叫来；呼唤，让对方过来或回来。",
+      "ms_definition": "menyuruh datang (balik) dgn menyebut nama dll",
+      "nuances": "此处摘取 Kamus Dewan 的 memanggil 第一义。panggil 常用于祈使句和口语；规范主动陈述通常用 memanggil。panggil doktor 是请医生过来，并不指定用电话联系；明确表达打电话通常用 menelefon 或 menghubungi。",
+      "collocations": [
+        {
+          "ms": "panggil doktor",
+          "zh": "叫医生来",
+          "en": "call a doctor"
+        },
+        {
+          "ms": "panggil nama",
+          "zh": "叫名字；点名",
+          "en": "call out someone's name"
+        }
+      ],
+      "en_definition": "To call someone to come or return, for example by saying their name."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "邀请；请人出席某项活动或聚会。",
+      "ms_definition": "menjemput, mengundang (ke majlis kenduri dll)",
+      "nuances": "此处对应 Kamus Dewan 的 memanggil 第二义。邀请参加喜宴等场合时，menjemput、mengundang 比单说 panggil 更明确客气；被动 dipanggil 也可能让人理解为被召见，应结合活动语境。",
+      "collocations": [
+        {
+          "ms": "memanggil tetamu",
+          "zh": "邀请宾客",
+          "en": "invite guests"
+        },
+        {
+          "ms": "memanggil saudara-mara",
+          "zh": "请亲戚前来",
+          "en": "invite relatives over"
+        }
+      ],
+      "en_definition": "To invite someone to an event or gathering."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "称呼；把某人或某物叫作某个名字、称号。",
+      "ms_definition": "menamakan, menggelar, menyebut",
+      "nuances": "摘自 Kamus Dewan 的 memanggil 第三义，修复原包断字。Panggil saya Ismail 表示叫我 Ismail；Benda ini dipanggil apa? 表示这个东西叫什么。称谓 abang、kak 等取决于年龄、关系和对方意愿。",
+      "collocations": [
+        {
+          "ms": "panggil saya",
+          "zh": "称呼我为……",
+          "en": "call me ..."
+        },
+        {
+          "ms": "dipanggil abang",
+          "zh": "被称作哥哥／大哥",
+          "en": "be called 'big brother'"
+        }
+      ],
+      "en_definition": "To refer to or address someone or something by a particular name or title."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／调查程序",
+      "ms": "Polis akan memanggil beberapa saksi untuk membantu siasatan berhubung kejadian itu.",
+      "zh": "警方将传召数名证人，协助调查该事件。",
+      "en": "Police will call several witnesses to assist in the investigation into the incident."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟朋友相约去夜市",
+      "ms_spoken": "Aku nak gi pasar malam kejap lagi. Kau nak ikut tak?",
+      "ms_standard": "Saya hendak pergi ke pasar malam sebentar lagi. Adakah kamu mahu ikut?",
+      "zh": "我等会儿要去夜市。你要一起去吗？",
+      "spoken_features": [
+        "panggil aku sekali 在这里表示出发时也叫上我；sekali 不是“一次”。",
+        "gi 是 pergi 的口语缩短；nak 表示想要或打算。",
+        "kejap lagi 表示过一会儿；gerak 在这里指动身。",
+        "kat 对应 di，je 对应 sahaja；aku、kau 用于彼此接受这类称呼的熟朋友。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Aku nak gi pasar malam kejap lagi. Kau nak ikut tak?",
+          "ms_standard": "Saya hendak pergi ke pasar malam sebentar lagi. Adakah kamu mahu ikut?",
+          "zh": "我等会儿要去夜市。你要一起去吗？",
+          "en": "I'm heading to the night market in a bit. Wanna come?"
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Nak! Nanti dah nak gerak, panggil aku sekali. Aku kat rumah je.",
+          "ms_standard": "Ya, saya mahu ikut! Apabila kamu hendak bertolak nanti, panggil saya juga. Saya berada di rumah sahaja.",
+          "zh": "要！待会儿准备出发时，也叫上我。我就在家。",
+          "en": "Yeah! Give me a shout when you're about to head off. I'll be at home."
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Okey, nanti aku singgah depan rumah kau.",
+          "ms_standard": "Baiklah, nanti saya akan singgah di hadapan rumah kamu.",
+          "zh": "好，我待会儿到你家门口接上你。",
+          "en": "Okay, I'll stop by your place on the way."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "对陌生人或长辈提出请求时可说 Boleh tolong panggil beliau?；直接用 Panggil dia! 容易显得命令式。规范报道用 memanggil，不因口语省略前缀而把原形判为不礼貌。",
+    "usage_etiquette": "初次见面可先问 Boleh saya panggil encik/cik apa?，并按对方认可的姓名或称谓称呼；不要根据族群擅自套用宗教称谓或带贬义的绰号。aku 只用于关系许可的熟人语境。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "原始马来语支；更早为原始马来—占语",
+    "root_origin": "所给词源追溯至 Proto-Malayic *paŋgil，以及更早的 Proto-Malayo-Chamic *paŋgil；星号表示重建形式，Unicode 形式已据本地未损坏记录恢复。",
+    "historical_story": "panggil 属于马来语继承的呼唤词汇：可以想象家门外有人叫名字，屋里的人应声而出，这一画面正好抓住它的核心。现代马来语里，它既可把人叫来，也可请人赴约或给人一个称呼；这是理解现有义项的文化场景，并非某次航海事件造词的史实。",
+    "cognitive_memory_aid": "记住 Panggil saya…：既能接请叫我某某的名字，也能联想到有人喊一声，把你叫过去。"
+  }
+}

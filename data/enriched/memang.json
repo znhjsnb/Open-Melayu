@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "memang",
+    "syllables": "mé.mang",
+    "ipa": "/ˈmemaŋ/",
+    "jawi": "ميمڠ",
+    "frequency_rank": 162,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "memang",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + memang → memang（确实；本来就）",
+    "pattern_note": "memang 是完整词根，不能把开头 mem- 当作动词前缀。mé.mang 直接取自本地 PRPM 原文方括号，é 表示 e taling /e/，不是 /ə/。",
+    "word_family": [
+      {
+        "word": "sememangnya",
+        "affix": "se-…-nya",
+        "gloss": "确实；本来就；理所当然地"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "确实；的确；本来就，用于确认事实或加强判断。",
+      "ms_definition": "sesungguhnya, sebenarnya (Kamus Dewan Edisi Keempat).",
+      "nuances": "可强调事实、长期习惯或原有状态，并不必然表示惊讶。memang…tetapi… 常先承认事实再提出限制；与 sangat 的程度强化不同，memang sedap 强调‘确实好吃’。",
+      "collocations": [
+        {
+          "ms": "memang benar",
+          "zh": "确实如此",
+          "en": "indeed true"
+        },
+        {
+          "ms": "memang sedap",
+          "zh": "确实好吃",
+          "en": "really delicious"
+        }
+      ],
+      "en_definition": "Indeed; really; used to confirm a fact or emphasise a judgement."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "本就应当；理所当然，强调某种情况合乎情理。",
+      "ms_definition": "sewajarnya, sudah sepatutnya begitu (Kamus Dewan Edisi Keempat).",
+      "nuances": "这一层意思由 berhak、patut 等周围词语和语境体现；不能把所有 memang 都译成‘应该’。memang patut 对人下判断时语气较强。",
+      "collocations": [
+        {
+          "ms": "memang patut",
+          "zh": "本来就应该",
+          "en": "only right"
+        },
+        {
+          "ms": "memang berhak",
+          "zh": "本就有权",
+          "en": "fully entitled"
+        }
+      ],
+      "en_definition": "Naturally; as is right or to be expected."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 教育项目说明",
+      "ms": "Portal ini memang dibangunkan khusus untuk membantu pelajar mengakses bahan pembelajaran.",
+      "zh": "这个门户网站确实是专为帮助学生获取学习资料而开发的。",
+      "en": "This portal was indeed developed specifically to help students access learning materials."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友分享餐馆体验",
+      "ms_spoken": "Dah cuba nasi lemak kat kedai yang aku cakap tu?",
+      "ms_standard": "Adakah awak sudah mencuba nasi lemak di kedai yang saya sebutkan itu?",
+      "zh": "你吃过我说的那家店的椰浆饭了吗？",
+      "spoken_features": [
+        "memang 在这里确认朋友的推荐，强调实际吃过后觉得确实好吃。",
+        "dah、kat、nak 分别对应 sudah、di、hendak；tu 对应 itu。",
+        "sambal dia 中的 dia 指店里的椰浆饭所配的参巴酱，并非指某个人；标准版用 sambalnya。",
+        "best 是口语中的英语夹用，此处表示味道好；lah 加强想再去的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Dah cuba nasi lemak kat kedai yang aku cakap tu?",
+          "ms_standard": "Adakah awak sudah mencuba nasi lemak di kedai yang saya sebutkan itu?",
+          "zh": "你吃过我说的那家店的椰浆饭了吗？",
+          "en": "Have you tried the nasi lemak at that place I told you about?"
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Dah! Memang sedap, sambal dia pun best. Esok aku nak pergi lagi lah.",
+          "ms_standard": "Sudah! Nasi lemaknya memang sedap, dan sambalnya juga enak. Saya hendak pergi lagi esok.",
+          "zh": "吃过了！确实好吃，连参巴酱都很赞。我明天还想再去啦。",
+          "en": "I have! It's really good, and the sambal's great too. I reckon I'll go again tomorrow."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "mmg",
+      "full_form": "memang",
+      "note": "常见的马来语聊天缩写，正式文章应写全。"
+    },
+    {
+      "abbr": "mg",
+      "full_form": "memang",
+      "note": "资料包收录的较短写法，歧义较大，辨识度不如 mmg。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "词本身不失礼，但 Memang awak salah 会加强责备；讨论问题时可具体说明情况，避免直接给对方贴标签。",
+    "usage_etiquette": "赞食物或确认事实时很自然。不要把对某个人的观察扩大为对整个族群的‘本来就如此’；emank、emang 较有印尼语口语色彩，不作为马来西亚标准缩写教授。"
+  },
+  "etymology": {
+    "origin": "尚未确定",
+    "source_language": "Malay；更早来源未核实",
+    "root_origin": "资料包未提供可核实词源；现代马来语以 memang 为完整词根，不能仅凭外形追认 meN- 前缀。",
+    "historical_story": "确实可见的线索是，马来语词典同时记录了 memang 的‘确实如此’与‘本来应当如此’两层用法。今天，它既能出现在正式说明中，也能在朋友谈论一盘椰浆饭时加强认同。现有材料无法给出更早的借入语言或年代，因此不把它编排进某条海上贸易传播路线。",
+    "cognitive_memory_aid": "把 memang 想成给整句话盖一个‘确实如此’的章；sememangnya 则把这个确认说得更完整。"
+  }
+}

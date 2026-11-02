@@ -1,0 +1,121 @@
+{
+  "headword": {
+    "word": "bahwa",
+    "syllables": null,
+    "ipa": "/ˈbahwa/",
+    "jawi": null,
+    "frequency_rank": 714,
+    "tags": [
+      "CEFR-B1",
+      "阅读识别"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bahwa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bahwa → bahwa",
+    "pattern_note": "整词识别，不拆为词缀；bahwa 是印尼语常用拼写，马来西亚标准马来语写 bahawa。所给 PRPM 记录未收录 bahwa，官方音节和 Jawi 保留 null；音标表示 bahwa 的印尼语读法。",
+    "word_family": [
+      {
+        "word": "bahawa",
+        "affix": "none",
+        "gloss": "马来西亚标准对应拼写；属拼写对应而非加缀派生"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "引出所说、所知、所信等内容的从句，相当于英语 that；中文通常不单独译出",
+      "ms_definition": "kata hubung yg menjelaskan isi atau huraian kalimat pokok (yg sebelumnya atau sesudahnya)",
+      "nuances": "此官方释义引自本地 PRPM 的 bahawa 条目，不冒充 bahwa 独立释义；参见 https://prpmv1.dbp.gov.my/Search.aspx?k=bahawa 。以下搭配用于识别印尼语文字；马来西亚正式写作应分别写 menyatakan bahawa、percaya bahawa。",
+      "collocations": [
+        {
+          "ms": "menyatakan bahwa",
+          "zh": "表示……（印尼语拼写）",
+          "en": "state that (Indonesian spelling)"
+        },
+        {
+          "ms": "percaya bahwa",
+          "zh": "相信……（印尼语拼写）",
+          "en": "believe that (Indonesian spelling)"
+        }
+      ],
+      "en_definition": "That; a conjunction introducing the content of a statement, thought, or belief."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "语言编辑说明 / 标准拼写指导",
+      "ms": "Dalam penulisan bahasa Melayu standard di Malaysia, ejaan \"bahwa\" hendaklah digantikan dengan \"bahawa\".",
+      "zh": "在马来西亚标准马来语写作中，应将拼写“bahwa”改为“bahawa”。",
+      "en": "In standard Malay writing in Malaysia, the spelling \"bahwa\" should be replaced with \"bahawa\"."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学帮忙检查马来文作文中的拼写",
+      "ms_spoken": "Aku tulis \"Saya percaya bahwa usaha ini akan berjaya.\" Ayat ni okay tak?",
+      "ms_standard": "Saya menulis ayat \"Saya percaya bahwa usaha ini akan berjaya.\" Adakah ayat ini betul?",
+      "zh": "我写的是“Saya percaya bahwa usaha ini akan berjaya.”，意思是“我相信这项努力会成功”。这句话可以吗？",
+      "spoken_features": [
+        "bahwa 只出现在待检查的引文或被讨论的拼写中，不作为标准马来语连接词示范。",
+        "第一轮 ms_standard 保留被检查的原始引文，便于理解后续纠正；目标拼写在第二轮明确改为 bahawa。",
+        "ni、tu 分别对应 ini、itu；okay tak 对应询问是否正确或合适的标准问句。",
+        "tukar jadi 是口语表达，标准语恢复为 tukarkan kepada。",
+        "BM 是 Bahasa Melayu 的常见简称；kena 在这里表示需要、必须。",
+        "patutlah 表示得知原因后的恍然大悟。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Aku tulis \"Saya percaya bahwa usaha ini akan berjaya.\" Ayat ni okay tak?",
+          "ms_standard": "Saya menulis ayat \"Saya percaya bahwa usaha ini akan berjaya.\" Adakah ayat ini betul?",
+          "zh": "我写的是“Saya percaya bahwa usaha ini akan berjaya.”，意思是“我相信这项努力会成功”。这句话可以吗？",
+          "en": "I wrote “Saya percaya bahwa usaha ini akan berjaya”—“I believe this effort will succeed.” Is that sentence okay?"
+        },
+        {
+          "speaker": "Aisyah (同学)",
+          "ms_spoken": "Yang \"bahwa\" tu tukar jadi \"bahawa\". Ni karangan BM, kena ikut ejaan BM.",
+          "ms_standard": "Tukarkan ejaan \"bahwa\" itu kepada \"bahawa\". Karangan ini dalam bahasa Melayu, jadi ejaannya perlu mengikut ejaan bahasa Melayu.",
+          "zh": "把那个“bahwa”改成“bahawa”。这是马来文作文，得用马来文的拼写。",
+          "en": "Change “bahwa” to “bahawa”. This is a Malay essay, so you need to use the Malay spelling."
+        },
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Oh, patutlah cikgu tanda. Aku betulkan sekarang, terima kasih!",
+          "ms_standard": "Oh, itulah sebabnya guru menandakan kesalahan itu. Saya akan membetulkannya sekarang. Terima kasih!",
+          "zh": "哦，难怪老师标出来了。我现在改，谢谢！",
+          "en": "Oh, no wonder the teacher marked it. I'll fix it now. Thanks!"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "bhwa",
+      "full_form": "bahwa",
+      "note": "资料包给出的缩写；仅在上下文明确采用印尼语拼写时对应 bahwa，马来语聊天中也可能意指 bahawa。"
+    },
+    {
+      "abbr": "bhw",
+      "full_form": "bahwa",
+      "note": "资料包给出的更短写法；可能与 bahawa 的缩写混淆，不能据缩写判断标准拼写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "与印尼朋友交流时，应把 bahwa 视为其标准语言的正常拼写；讨论马来西亚文稿时，可温和建议采用本地规范 bahawa。",
+    "usage_etiquette": "本条 register 描述该内容连接词常见的书面功能，不表示 bahwa 是马来西亚规范拼写。SPM 作文及本地公文使用 bahawa；日常口语往往省去这个连接词，不宜强行在 WhatsApp 句子中加入。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "Sanskrit → Malay → Indonesian",
+    "root_origin": "常被联系到梵语 bhāva（存在、状态）；这是词源解释而非现代构词分析。相关讨论见 J. G. de Casparis 的研究，https://sealang.net/archives/nusa/pdf/nusa-v41.pdf 。",
+    "historical_story": "bahwa 与马来语 bahawa 的关系，让人看到共同的语言历史在现代不同国家规范中留下的两种拼写。其更早来源常被联系到梵语 bhāva‘存在、状态’，这一解释把它放在南亚语言与马来世界长期接触的背景中。今天阅读印尼文章会遇到 bahwa，翻到马来西亚的公文和作文，则应认准 bahawa。",
+    "cognitive_memory_aid": "阅读印尼语认 bahwa，写马来西亚马来文记 ba-ha-wa：bahawa 中间多一个 a。"
+  }
+}

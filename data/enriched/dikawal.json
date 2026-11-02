@@ -1,0 +1,111 @@
+{
+  "headword": {
+    "word": "dikawal",
+    "syllables": null,
+    "ipa": "/di.ka.wal/",
+    "jawi": "کاول",
+    "frequency_rank": 2893,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kawal",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + kawal → dikawal",
+    "pattern_note": "被动前缀 di- 与词根连写，k 保留，不发生鼻音同化。headword.jawi 按数据包保留；该字形实际对应 kawal，完整被动形式应写作 ديکاول。数据包未提供音节切分，故保留 null；通常切分为 di.ka.wal。",
+    "word_family": [
+      {
+        "word": "mengawal",
+        "affix": "meN-",
+        "gloss": "守卫；控制"
+      },
+      {
+        "word": "pengawal",
+        "affix": "peN-",
+        "gloss": "守卫人员；保安"
+      },
+      {
+        "word": "kawalan",
+        "affix": "-an",
+        "gloss": "管控；监管"
+      }
+    ],
+    "root_jawi": "کاول"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "受到守卫或看管，以保障安全、限制出入或防止逃离。",
+      "en_definition": "To be guarded or kept under watch for security or to restrict movement.",
+      "ms_definition": "Dijaga atau diawasi untuk menjamin keselamatan, mengawal keluar masuk atau mencegah seseorang daripada melarikan diri.",
+      "nuances": "这是 mengawal 的被动形式，句子主语是受到看守的人或地点；看守者可用 oleh 引出。di- 表示被动，不表示过去时。本条选取安全看守义。用法参见：[DBP 英马词典：guard](https://prpmv1.dbp.gov.my/Search.aspx?k=waspada)。",
+      "collocations": [
+        {
+          "ms": "dikawal ketat",
+          "zh": "受到严密看守",
+          "en": "be heavily guarded"
+        },
+        {
+          "ms": "dikawal oleh pengawal keselamatan",
+          "zh": "由保安看守",
+          "en": "be guarded by security personnel"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 活动安保通报",
+      "ms": "Pintu masuk utama dikawal oleh pengawal keselamatan sepanjang majlis berlangsung.",
+      "zh": "活动进行期间，主要入口全程由保安看守。",
+      "en": "The main entrance is guarded by security personnel throughout the event."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约定活动入场地点",
+      "ms_spoken": "Pintu depan dikawal ketat, jadi kita masuk ikut pintu belakang je lah.",
+      "ms_standard": "Pintu hadapan dikawal ketat, jadi kita masuk melalui pintu belakang sahaja.",
+      "zh": "前门看得很严，我们就从后门进去吧。",
+      "en": "The front entrance is heavily guarded, so let's just use the back entrance.",
+      "spoken_features": [
+        "depan 对应标准语的 hadapan。",
+        "ikut 在此口语中表示通过某条路线，标准表达可用 melalui。",
+        "je 对应 sahaja；lah 缓和提议语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Pintu depan dikawal ketat. Kau dah sampai ke?",
+          "ms_standard": "Pintu hadapan dikawal ketat. Adakah kamu sudah sampai?",
+          "zh": "前门看得很严。你到了吗？",
+          "en": "The front entrance is heavily guarded. Are you here yet?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah, aku kat pintu belakang. Petugas suruh masuk sini je.",
+          "ms_standard": "Saya sudah sampai dan berada di pintu belakang. Petugas meminta saya masuk melalui pintu ini sahaja.",
+          "zh": "到了，我在后门。工作人员让我从这里进去。",
+          "en": "Yes, I'm at the back entrance. The staff told me to come in this way."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "描述场所安保时语气中性；若用于个人，可能带有被监视或限制行动的意味，应结合情境说明。",
+    "usage_etiquette": "正式通报中可说明谁负责看守以及看守时间。注意把前缀 di- 连写为 dikawal，地点介词 di 则分写，如 di pintu。"
+  },
+  "etymology": {
+    "historical_story": "dikawal 由马来语被动前缀 di- 和 kawal 构成；kawal 的词源通常追溯至泰米尔语 kāval，含守卫、保护之意。可以把它的语义起点想成一名守门人：主动式 mengawal 描写守卫者的行动，被动式 dikawal 则把镜头转向受到看守的一方。词源参见：[Wiktionary：kawal](https://en.wiktionary.org/wiki/kawal#Malay)。",
+    "cognitive_memory_aid": "把 di- 想成把镜头转向承受动作的一方：pengawal mengawal pintu（保安守门）→ pintu dikawal（门由人看守）。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "描述场所安保时语气中性；若用于个人，可能带有被监视或限制行动的意味，应结合情境说明。",
+    "usage_etiquette": "正式通报中可说明谁负责看守以及看守时间。注意把前缀 di- 连写为 dikawal，地点介词 di 则分写，如 di pintu。"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "headword": {
+    "word": "mengesan",
+    "syllables": "me.nge.san",
+    "ipa": "/məŋəsan/",
+    "jawi": "مڠسن",
+    "frequency_rank": 1427,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mengesan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mengesan → mengesan",
+    "pattern_note": "词根字段按输入保留，表示整词列项；实际语言学构词为 meN- + kesan → mengesan：前缀鼻音实现为 /ŋ/，词根首音 k 脱落。不能据此将 mengesan 教作不可分析的原生词根。",
+    "word_family": [
+      {
+        "word": "pengesan",
+        "affix": "peN-",
+        "gloss": "探测器；检测装置"
+      },
+      {
+        "word": "pengesanan",
+        "affix": "peN-…-an",
+        "gloss": "检测；追踪"
+      }
+    ],
+    "root_jawi": "مڠسن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "通过迹象、线索或检测手段发现、查出或追踪某人或某物。",
+      "en_definition": "To detect or trace someone or something by examining signs, evidence, or signals.",
+      "ms_definition": "Menemukan atau menjejaki seseorang atau sesuatu dengan berpandukan tanda, jejak, maklumat atau isyarat.",
+      "nuances": "强调凭依据发现或追踪，常用于安保、技术检测及调查；比一般的 jumpa 更突出查找过程。释义依据：[DBP：kesan／mengesan](https://prpm.dbp.gov.my/Cari1?d=259120&keyword=kesan)。",
+      "collocations": [
+        {
+          "ms": "mengesan kebocoran",
+          "zh": "检测泄漏",
+          "en": "detect a leak"
+        },
+        {
+          "ms": "mengesan lokasi",
+          "zh": "追踪位置",
+          "en": "track a location"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场技术汇报",
+      "ms": "Pasukan penyelenggaraan berjaya mengesan kebocoran pada paip utama sebelum bekalan air terjejas.",
+      "zh": "维修团队在供水受影响之前，成功检测出主管道的泄漏。",
+      "en": "The maintenance team successfully detected a leak in the main pipe before the water supply was affected."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事处理设备问题",
+      "ms_spoken": "Sistem ni dah mengesan kebocoran kat dapur, jadi jangan buka paip tu dulu, ya.",
+      "ms_standard": "Sistem ini sudah mengesan kebocoran di dapur, jadi jangan buka paip itu dahulu.",
+      "zh": "系统已经检测到厨房漏水了，先别开那个水龙头啊。",
+      "en": "The system has detected a leak in the kitchen, so please leave that tap off for now.",
+      "spoken_features": [
+        "ni、tu 分别对应 ini、itu",
+        "dah 对应 sudah",
+        "kat 在此对应地点介词 di",
+        "句末 ya 缓和提醒语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Sistem ni dah mengesan kebocoran kat dapur. Nak panggil juruteknik sekarang?",
+          "ms_standard": "Sistem ini sudah mengesan kebocoran di dapur. Adakah kita hendak memanggil juruteknik sekarang?",
+          "zh": "系统已经检测到厨房漏水了。现在叫技术员来吗？",
+          "en": "The system's detected a water leak in the kitchen. Shall we call a technician now?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, panggil je. Aku tutup injap utama dulu.",
+          "ms_standard": "Ya, panggil sahaja. Saya akan menutup injap utama dahulu.",
+          "zh": "嗯，叫吧。我先关总阀。",
+          "en": "Yeah, go ahead. I'll shut off the main valve first."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用于设备或问题检测时语气中性；涉及追踪个人位置时，宜说明目的，避免让人感觉受到监视。",
+    "usage_etiquette": "正式报告中说明检测对象及依据，例如 mengesan kebocoran melalui bacaan sensor。日常聊天保留完整 mengesan 也自然。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Bahasa Melayu",
+    "root_origin": "meN- + kesan；kesan 更早的词源未在本条中确定",
+    "cognitive_memory_aid": "把 kesan 想成地上的脚印；加上动作前缀 meN-，就是循着脚印去发现、追踪。",
+    "historical_story": "这个词通过马来语自身的 meN- 构词方式形成，基础词 kesan 具有痕迹、印记等意义。沿着痕迹寻找的语义，也适用于现代设备检测泄漏和系统追踪位置；这是语义联系的解释，并非对具体出现年代的断言。词义依据：[DBP：kesan](https://prpm.dbp.gov.my/Cari1?d=259120&keyword=kesan)。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "用于设备或问题检测时语气中性；涉及追踪个人位置时，宜说明目的，避免让人感觉受到监视。",
+    "usage_etiquette": "正式报告中说明检测对象及依据，例如 mengesan kebocoran melalui bacaan sensor。日常聊天保留完整 mengesan 也自然。"
+  }
+}

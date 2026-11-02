@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "terpaksa",
+    "syllables": "ter.paʔ.sa",
+    "ipa": "[tər.paʔ.sa]",
+    "jawi": "ترڤقسا",
+    "frequency_rank": 619,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "paksa",
+    "affix": "ter-",
+    "affix_type": "prefix",
+    "formula": "ter- + paksa → terpaksa",
+    "pattern_note": "词根 paksa 的 p 保留。这里 ter- 表示处于受迫、不得不的状态，不是最高级；音节字符串直接提取自 PRPM 原始定义中的 [ter.paʔ.sa]，ʔ 是原标注，不改为推测的 ter.pak.sa。IPA 依该读音作宽式转写；Jawi 从 UTF-8 缓存恢复。",
+    "word_family": [
+      {
+        "word": "paksa",
+        "affix": "none",
+        "gloss": "强迫；强制；压力"
+      },
+      {
+        "word": "memaksa",
+        "affix": "meN-",
+        "gloss": "强迫别人做事"
+      },
+      {
+        "word": "dipaksa",
+        "affix": "di-",
+        "gloss": "被强迫"
+      },
+      {
+        "word": "paksaan",
+        "affix": "-an",
+        "gloss": "强制；逼迫"
+      },
+      {
+        "word": "keterpaksaan",
+        "affix": "ke-…-an（加于 terpaksa）",
+        "gloss": "被迫的处境；不得已"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被迫；不得不；因别无选择而必须做某事。",
+      "ms_definition": "dipaksa, mesti, tidak boleh tidak (Kamus Dewan Edisi Keempat).",
+      "nuances": "通常在动词前表示非自愿的必要性；施压者可以是人，也可以是天气、经济等客观处境。不同于中性的 perlu 或 mesti，terpaksa 暗示无奈；Saya terpaksa pergi 不是‘我想去’，也不表示‘我强迫别人去’。",
+      "collocations": [
+        {
+          "ms": "terpaksa berpindah",
+          "zh": "不得不搬迁",
+          "en": "have no choice but to move"
+        },
+        {
+          "ms": "terpaksa menanggung kerugian",
+          "zh": "被迫承担损失",
+          "en": "be forced to bear the losses"
+        }
+      ],
+      "en_definition": "Forced or obliged to do something because there is no other choice."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "水灾新闻报道",
+      "ms": "Penduduk terpaksa berpindah ke pusat pemindahan sementara selepas rumah mereka dinaiki air.",
+      "zh": "居民的房屋进水后，他们不得不转移到临时疏散中心。",
+      "en": "Residents were forced to move to a temporary evacuation centre after their homes were flooded."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉的同事说明因孩子发烧而提前离开办公室",
+      "ms_spoken": "Aku terpaksa balik awal hari ni. Anak demam kat rumah, isteri aku pulak kena masuk kerja.",
+      "ms_standard": "Saya terpaksa pulang awal hari ini kerana anak saya demam di rumah, manakala isteri saya pula perlu pergi bekerja.",
+      "zh": "我今天不得不早点回去。孩子在家发烧，偏偏我太太又得去上班。",
+      "spoken_features": [
+        "terpaksa 表示受现实情况所迫、不得不做某事；孩子生病且配偶要上班构成具体原因。",
+        "aku、kau 适用于接受这种称呼的熟悉同事；ni 对应 ini。",
+        "kat rumah 中的 kat 对应 di；hantar ... kat kau 中的 kat 对应 kepada。",
+        "pulak 是 pula 的口语写法；kena 在这里表示必须。",
+        "dah 对应 sudah；bagitahu 对应 beritahu；dia kata boleh 在此按语境还原为主管已经准许。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (同事)",
+          "ms_spoken": "Aku terpaksa balik awal hari ni. Anak demam kat rumah, isteri aku pulak kena masuk kerja.",
+          "ms_standard": "Saya terpaksa pulang awal hari ini kerana anak saya demam di rumah, manakala isteri saya pula perlu pergi bekerja.",
+          "zh": "我今天不得不早点回去。孩子在家发烧，偏偏我太太又得去上班。",
+          "en": "I've got to head home early today. My kid's at home with a fever, and my wife has to go in to work."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kau dah bagitahu bos? Kalau dah, balik dulu. Biar aku uruskan fail yang tinggal.",
+          "ms_standard": "Adakah kamu sudah memberitahu ketua? Jika sudah, pulanglah dahulu. Biar saya menguruskan fail yang masih belum selesai.",
+          "zh": "你已经告诉主管了吗？说了的话就先回去吧，剩下的文件让我来处理。",
+          "en": "Have you told the boss? If you have, go ahead and head home. I'll take care of the remaining files."
+        },
+        {
+          "speaker": "Farhan (同事)",
+          "ms_spoken": "Dah, dia kata boleh. Terima kasih, nanti aku hantar nota kerja kat kau.",
+          "ms_standard": "Sudah, beliau telah memberikan kebenaran. Terima kasih, saya akan menghantar nota kerja kepada kamu nanti.",
+          "zh": "说了，他已经同意了。谢谢，我待会儿把工作备注发给你。",
+          "en": "Yeah, he said it was fine. Thanks, I'll send you my work notes later."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "说明拒绝、取消或提早离开时，terpaksa 能传达无奈；加上具体原因及 Maaf 可更体谅对方。它本身不是道歉，也不会自动使直白命令变得客气。",
+    "usage_etiquette": "向客户或上级说明决定时，应交代原因和后续安排，避免只说 terpaksa 而显得推卸责任。你是受迫者时用 terpaksa；你在迫使他人时用 memaksa，别倒置双方角色。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "Sanskrit；进入 Malay 后加本地前缀 ter-",
+    "root_origin": "paksa 通常联系梵语 पक्ष pakṣa，原义包括侧、阵营、立场；本地 Kaikki 也标为梵语借词。现代‘强迫’义的具体演变环节及传入年代未在本批确证，不编造单一路线。",
+    "historical_story": "paksa 属于马来语中通常追溯至梵语的旧借词，现代含义已经集中到强制与压力，不能把梵语各义逐字套用。群岛语言长期吸收外来词，又用本地词缀造出新词，ter- + paksa 就体现了这种结合。今天新闻中的受灾居民和聊天中赶回家的家长都可用 terpaksa，表达‘眼前已没有别的选择’。",
+    "cognitive_memory_aid": "memaksa＝把压力推给别人；terpaksa＝自己落在压力之下，只好去做。"
+  }
+}

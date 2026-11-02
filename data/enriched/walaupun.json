@@ -1,0 +1,127 @@
+{
+  "headword": {
+    "word": "walaupun",
+    "syllables": "wa.lau.pun",
+    "ipa": "/wä.läu.pʊn/",
+    "jawi": "والاوڤون",
+    "frequency_rank": 352,
+    "tags": [
+      "CEFR-B1",
+      "SPM重点"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "walau",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "walau + pun → walaupun",
+    "pattern_note": "这是 walau 与语气词 pun 的词汇化组合，不是前后缀派生；affix_type=none 不表示它是不可分析的单纯词。walaupun 按规范连写，不能照搬一般 pun 分写的规则。Jawi 与分音均从本地未损坏的 PRPM 同词缓存恢复。",
+    "word_family": [
+      {
+        "word": "walau",
+        "affix": "∅",
+        "gloss": "即使；虽然"
+      },
+      {
+        "word": "walau bagaimanapun",
+        "affix": "固定词组，非词缀",
+        "gloss": "无论如何；然而"
+      },
+      {
+        "word": "walau apa pun",
+        "affix": "短语组合，非词缀",
+        "gloss": "无论什么；不管怎样"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "虽然；尽管；即使。引出让步条件，主句结果仍然成立。",
+      "ms_definition": "biar(pun), kendati(pun), meski(pun). (Kamus Dewan Edisi Keempat)",
+      "nuances": "可引出已发生的事实，也可引出假设条件，中文据上下文选‘虽然’或‘即使’。常见结构 Walaupun X, Y tetap…；规范单句通常不再叠用 tetapi 来连接同一组让步主从句。与表示原因的 kerana、表示条件的 jika 分清。",
+      "collocations": [
+        {
+          "ms": "walaupun begitu",
+          "zh": "尽管如此",
+          "en": "even so"
+        },
+        {
+          "ms": "walaupun hujan lebat",
+          "zh": "尽管下着大雨；即使大雨倾盆",
+          "en": "even if it's raining heavily"
+        }
+      ],
+      "en_definition": "Although; even though; even if. Introduces a circumstance that does not alter the outcome stated in the main clause."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／公共交通通报",
+      "ms": "Perkhidmatan bas tetap diteruskan walaupun beberapa laluan terjejas akibat hujan lebat.",
+      "zh": "尽管数条路线受大雨影响，巴士服务仍继续运行。",
+      "en": "Bus services continued even though several routes were affected by heavy rain."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友下班后商量是否照常赴约",
+      "ms_spoken": "Kau baru habis kerja kan? Kalau penat, kita jumpa esok je.",
+      "ms_standard": "Kamu baru sahaja selesai bekerja, bukan? Jika kamu penat, kita boleh berjumpa esok sahaja.",
+      "zh": "你刚下班，对吧？要是累了，我们明天再见就好。",
+      "spoken_features": [
+        "walaupun…datang juga 表示虽然疲累，仍然打算赴约；juga 在此呼应让步关系。",
+        "dah 对应 sudah；nak 在这里表示 mahu；je 对应 sahaja。",
+        "jap 是 sekejap 的口语缩短；gerak 在赴约语境中表示动身、出发。",
+        "Dah janji dengan kau 省略主语 aku；句末 kan 用于确认双方已知的情况。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友，正在等对方吃饭)",
+          "ms_spoken": "Kau baru habis kerja kan? Kalau penat, kita jumpa esok je.",
+          "ms_standard": "Kamu baru sahaja selesai bekerja, bukan? Jika kamu penat, kita boleh berjumpa esok sahaja.",
+          "zh": "你刚下班，对吧？要是累了，我们明天再见就好。",
+          "en": "You've just finished work, right? If you're tired, we can just meet tomorrow."
+        },
+        {
+          "speaker": "Farah (朋友，刚下班)",
+          "ms_spoken": "Walaupun dah penat, aku nak datang juga. Dah janji dengan kau. Tunggu jap, aku gerak sekarang.",
+          "ms_standard": "Walaupun saya sudah penat, saya tetap mahu datang. Saya sudah berjanji dengan kamu. Tunggu sebentar, saya akan bertolak sekarang.",
+          "zh": "虽然已经很累，我还是想来。我都跟你约好了。等一下，我现在就出发。",
+          "en": "Even though I'm tired, I still want to come. I promised I'd meet you. Hang on, I'm heading out now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "wlwpun",
+      "full_form": "walaupun",
+      "note": "包内聊天候选；省去若干元音，正式写作恢复完整拼写。"
+    },
+    {
+      "abbr": "wlaupun",
+      "full_form": "walaupun",
+      "note": "包内省字母形式，仅适合可辨认的私人聊天。"
+    },
+    {
+      "abbr": "wlawpun",
+      "full_form": "walaupun",
+      "note": "包内非规范拼写，不用于考试、公函或正式报道。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "walaupun 本身没有不礼貌含义，但‘虽然你……’可能让后面的赞扬带上贬低。提出不同意见时，可先承认对方的具体理由。",
+    "usage_etiquette": "避免把族群、口音、宗教或家庭背景写成能力上的意外条件，例如让赞扬暗含‘按你的身份本不该做得到’。向上级陈述让步关系时，保持事实具体，称谓与代词依实际关系选择。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "Arabic → Classical Malay → Malay（walau 的来源；pun 在马来语中组合）",
+    "root_origin": "包内记载 walau + pun；本地 Kaikki 的 walau 条目将其追溯到阿拉伯语 ولو（wa-law，‘即使／虽然’）。这是词根 walau 的来源，不表示整个 walaupun 原样借自阿拉伯语。",
+    "historical_story": "walau 带着阿拉伯语让步表达的背景进入古典马来语，再与马来语中的 pun 组合，把‘即便如此’的语气加重。海上马来世界与阿拉伯语文化的长期接触提供了这类借词的背景，但材料没有确定本词入借的港口或年代；今天的 walaupun 已能自然连接新闻事实和朋友聊天中的小小坚持。",
+    "cognitive_memory_aid": "把 walaupun 看成让步的门：先让‘下雨、累了’进来，后面 tetap 把计划稳住——Walaupun hujan, saya tetap datang。"
+  }
+}

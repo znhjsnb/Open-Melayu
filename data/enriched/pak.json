@@ -1,0 +1,181 @@
+{
+  "headword": {
+    "word": "pak",
+    "syllables": null,
+    "ipa": "[paʔ]",
+    "jawi": "ڤق",
+    "frequency_rank": 545,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bapak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "bapak → pak（词形缩短；非加缀）",
+    "pattern_note": "亲属称呼义是 bapak 的缩短式，不是词缀派生；后列包装和承包义为同形词，不能由父亲义推导。PRPM 的 syllables 字段为空，保留 null；IPA 和 Jawi 从其未损坏的 [paʔ] | ڤق 恢复，末尾 k 实现为喉塞音。",
+    "word_family": [
+      {
+        "word": "bapak",
+        "affix": "none",
+        "gloss": "父亲；pak 的完整来源形式"
+      },
+      {
+        "word": "pak cik",
+        "affix": "复合称谓",
+        "gloss": "叔伯舅辈；对年长男性的称呼"
+      },
+      {
+        "word": "pak long",
+        "affix": "复合称谓",
+        "gloss": "家族中排行最大的叔伯舅辈"
+      },
+      {
+        "word": "mengepak",
+        "affix": "meN-",
+        "gloss": "包装义：打包；承包义：承包、批购"
+      },
+      {
+        "word": "mengepakkan",
+        "affix": "meN-...-kan",
+        "gloss": "承包义：以承包方式交出"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "爸爸的简称；用于叔伯舅辈称谓或对较年长男性的熟悉、尊重称呼。",
+      "ms_definition": "singkatan bagi bapak",
+      "nuances": "马来西亚常见 Pak Long、Pak Ngah、Pak Su 和 pak cik；具体排行称呼依家庭传统。Pak + 姓名可作熟悉称谓，在印尼也常作一般先生；马来西亚正式场合对陌生男性通常优先用 Encik 或已有头衔。",
+      "collocations": [
+        {
+          "ms": "Pak Long",
+          "zh": "家族中排行最大的叔伯舅辈称谓",
+          "en": "eldest uncle"
+        },
+        {
+          "ms": "Pak Su",
+          "zh": "家族中排行最小的叔伯舅辈称谓",
+          "en": "youngest uncle"
+        }
+      ],
+      "en_definition": "Short for bapak (father); also used in terms for uncles or as a familiar, respectful form of address for an older man."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "木箱；装货、存物的箱子。",
+      "ms_definition": "peti atau kotak (dibuat drpd kayu) tempat barang",
+      "nuances": "独立的包装同形词，不是父亲称谓的引申。现代日常多说 peti、kotak；下列是词典包装义下的可理解搭配，属于较少见的传统用法。pak kuasa 是另有专门定义的技术搭配。",
+      "collocations": [
+        {
+          "ms": "pak kayu",
+          "zh": "木制货箱",
+          "en": "wooden crate"
+        },
+        {
+          "ms": "pak barang",
+          "zh": "装物品的箱子；货箱",
+          "en": "packing crate"
+        }
+      ],
+      "en_definition": "A wooden box or crate for storing or transporting goods."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "包；包装单位，词典以烟草、香烟等为例。",
+      "ms_definition": "IB bungkus (tembakau, rokok, dll)",
+      "nuances": "IB 是词典的荷兰语来源标签。马来西亚日常说一包香烟通常用 sebungkus rokok；pak 在包装或商业语境中才较易遇到，不建议代替所有 bungkus。",
+      "collocations": [
+        {
+          "ms": "pak rokok",
+          "zh": "香烟包；一包香烟",
+          "en": "a pack of cigarettes"
+        },
+        {
+          "ms": "pak tembakau",
+          "zh": "烟草包",
+          "en": "a packet of tobacco"
+        }
+      ],
+      "en_definition": "A pack or packet, especially of tobacco or cigarettes."
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "承包；包租或租税承包，旧时用语。",
+      "ms_definition": "IB pajak",
+      "nuances": "另一个同形词，IB 标示荷兰语来源；pak temurun 又标为 Id，指世代延续的土地承包。现代马来西亚通常按事项用 pajakan 或 kontrak，不能把这个义项套到亲属称呼或包装上。",
+      "collocations": [
+        {
+          "ms": "pak temurun",
+          "zh": "世代延续的土地承包",
+          "en": "hereditary land lease"
+        },
+        {
+          "ms": "cara pak",
+          "zh": "承包方式，旧时表达",
+          "en": "by lease or contract"
+        }
+      ],
+      "en_definition": "An old term for a lease or contract, especially for land or the right to collect taxes."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区新闻／保留受访者惯用称谓",
+      "ms": "Pak Ali, yang sudah menetap di kampung itu selama 40 tahun, berharap kemudahan pengangkutan awam dapat ditambah baik.",
+      "zh": "在该村居住了四十年的阿里伯伯希望公共交通设施能够获得改善。",
+      "en": "Pak Ali, who has lived in the village for 40 years, hopes that public transport facilities can be improved."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 女儿向母亲打听母亲最小的弟弟是否在家",
+      "ms_spoken": "Mak, Pak Su dah balik kerja ke? Alya nak singgah rumah dia kejap.",
+      "ms_standard": "Mak, adakah Pak Su sudah pulang dari tempat kerja? Alya hendak singgah sebentar di rumahnya.",
+      "zh": "妈，小舅下班回家了吗？我想去他家坐一下。",
+      "spoken_features": [
+        "Pak Su 是常见的家族排行称谓；本情境明确指母亲最小的弟弟，因此译为“小舅”。",
+        "Alya 用自己的名字自称，母亲用 Mak 自称，符合部分马来家庭的日常交流习惯。",
+        "dah、nak、gi、kejap 分别对应 sudah、hendak、pergi、sebentar。",
+        "balik kerja 表示下班回来；bagitahu 对应 beritahu，句尾 ya 使提醒更柔和。"
+      ],
+      "messages": [
+        {
+          "speaker": "Alya (女儿)",
+          "ms_spoken": "Mak, Pak Su dah balik kerja ke? Alya nak singgah rumah dia kejap.",
+          "ms_standard": "Mak, adakah Pak Su sudah pulang dari tempat kerja? Alya hendak singgah sebentar di rumahnya.",
+          "zh": "妈，小舅下班回家了吗？我想去他家坐一下。",
+          "en": "Mum, is Uncle Su home from work yet? I want to pop round to his place for a bit."
+        },
+        {
+          "speaker": "Mak (母亲)",
+          "ms_spoken": "Dah, dia baru mesej Mak tadi. Kalau nak gi, bagitahu dia dulu ya.",
+          "ms_standard": "Sudah, dia baru menghantar mesej kepada Mak tadi. Jika Alya hendak pergi, beritahulah dia terlebih dahulu, ya.",
+          "zh": "回来了，他刚才才给我发了消息。你要过去的话，先跟他说一声啊。",
+          "en": "Yes, he just messaged me. If you're going over, let him know first, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "亲属称谓和社区熟悉称谓有亲近、尊重意味，但也暗含年龄判断。对不熟悉的男性用 Encik + 姓名较稳妥；正式报道可保留本人惯用的 Pak 称谓。",
+    "usage_etiquette": "不要未经确认就把所有男性称 Pak 或 pak cik；按对方偏好与家庭称谓使用。Pak Pandir、Pak Kaduk 和 pak turut 带人物典故或贬义，不宜拿来称呼陌生人；词典中旧有涉及族群的绰号不作为现代礼貌称呼推广。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；包装及承包同形词另有 Dutch 来源标签",
+    "root_origin": "亲属称呼义据 PRPM 为 bapak 的缩短式，origin 仅标示直接形成语言的语系，不裁定 bapak 的更远来源。包装和承包义分别见原始 raw_definitions，均不能用 bapak 解释；其 IB 标签指荷兰语，具体荷兰语原形未据现有材料强定。",
+    "historical_story": "在马来家庭里，bapak 缩成 pak 后，可以接上 Long、Ngah、Su，让一个短称谓带出亲属排行和亲近感。与此同时，词典又在包装与承包领域记录了荷兰语来源的同形 pak：看见熟悉的字母，还要判断是在叫人、谈货物，还是谈旧式承包。",
+    "cognitive_memory_aid": "Pak Su 旁边站着人，pak rokok 旁边放着货；同写 pak，先看场景再选意思。"
+  }
+}

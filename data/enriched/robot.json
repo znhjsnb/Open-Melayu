@@ -1,0 +1,110 @@
+{
+  "headword": {
+    "word": "robot",
+    "syllables": "ro.bot",
+    "ipa": "/ro.bot/",
+    "jawi": "روبوت",
+    "frequency_rank": 1263,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "robot",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + robot → robot",
+    "pattern_note": "国际借词，整词记忆；加 meN- 或 peN- 时，在 r 前分别用 me-、pe-，保留词首 r。",
+    "word_family": [
+      {
+        "word": "merobotkan",
+        "affix": "meN-...-kan",
+        "gloss": "使机器人化；改用机器人操作"
+      },
+      {
+        "word": "perobotan",
+        "affix": "peN-...-an",
+        "gloss": "机器人化的过程"
+      }
+    ],
+    "root_jawi": "روبوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "能按照程序自动执行某些原本由人完成的工作的机器，即机器人。",
+      "en_definition": "A programmable machine that automatically performs tasks otherwise carried out by people.",
+      "ms_definition": "Mesin yang diprogramkan untuk melakukan tugas tertentu secara automatik bagi menggantikan atau membantu kerja manusia.",
+      "nuances": "机器人不一定具有人形。资料包中的 Jk 标注对应雅加达方言的另一同形词；本条采用标准马来语中表示机器人的义项。参见 [DBP：robot](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=robot)。",
+      "collocations": [
+        {
+          "ms": "robot industri",
+          "zh": "工业机器人",
+          "en": "industrial robot"
+        },
+        {
+          "ms": "robot pembersih",
+          "zh": "清洁机器人",
+          "en": "cleaning robot"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 职场汇报：工厂自动化",
+      "ms": "Kilang itu menggunakan robot industri untuk memasang komponen dengan lebih tepat.",
+      "zh": "该工厂使用工业机器人，更精确地装配零件。",
+      "en": "The factory uses industrial robots to assemble components more precisely."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：朋友谈论家用清洁机器人",
+      "ms_spoken": "Aku dah pasang robot pembersih tu kat ruang tamu.",
+      "ms_standard": "Saya sudah menghidupkan robot pembersih itu di ruang tamu.",
+      "zh": "我已经在客厅把那个清洁机器人打开了。",
+      "en": "I've already switched on the cleaning robot in the living room.",
+      "spoken_features": [
+        "aku 是熟人之间使用的非正式第一人称。",
+        "dah 对应 sudah，表示已经。",
+        "tu 对应 itu，kat 在这里对应 di。",
+        "pasang 在此口语语境中表示打开设备，标准句用 menghidupkan 明确表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Robot pembersih kau dah siap bersihkan ruang tamu ke?",
+          "ms_standard": "Adakah robot pembersih kamu sudah selesai membersihkan ruang tamu?",
+          "zh": "你的清洁机器人已经把客厅打扫完了吗？",
+          "en": "Has your cleaning robot finished cleaning the living room yet?"
+        },
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Dah, sekarang dia kat dapur pula. Aku nak rehat je.",
+          "ms_standard": "Sudah, sekarang robot itu berada di dapur pula. Saya hanya hendak berehat.",
+          "zh": "打扫完了，现在它去厨房了。我就想歇一会儿。",
+          "en": "Yeah, it's moved on to the kitchen now. I just want to relax."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用于机器时中性。把人称为 robot 容易让对方觉得被批评为没有感情或只会机械执行，应结合关系和语气判断。",
+    "usage_etiquette": "一般说明用途即可，例如 robot industri。聊天中用 dia 指代家用机器人很自然，正式说明中宜用 robot itu。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语；最终源自捷克语",
+    "root_origin": "英语 robot；最终源自捷克语 robota（劳役、苦工）",
+    "cognitive_memory_aid": "想象一个替人干重复工作的 robot；它的远源 robota 与劳役有关，把“干活的机器”与词义连起来。",
+    "historical_story": "robot 因捷克作家卡雷尔·恰佩克的戏剧《R.U.R.》而传播，其命名与捷克语 robota 所表示的劳役有关，参见 [robot 词源](https://www.etymonline.com/word/robot)。这个名称后来成为国际科技词汇；现代马来语用 robot 指自动执行任务的机器，参见 [DBP：robot](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=robot)。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "用于机器时中性。把人称为 robot 容易让对方觉得被批评为没有感情或只会机械执行，应结合关系和语气判断。",
+    "usage_etiquette": "一般说明用途即可，例如 robot industri。聊天中用 dia 指代家用机器人很自然，正式说明中宜用 robot itu。"
+  }
+}

@@ -1,0 +1,227 @@
+You are the authoritative Malay cognitive dictionary linguist.
+Task: Upgrade the colloquial dual scenario for 10 high-frequency Malay words from single-sentence examples into authentic multi-turn WhatsApp dialogues (at least 2 turns with speaker names and roles).
+
+Input Words and Context:
+[
+  {
+    "word": "tapi",
+    "senses": [
+      "但是；不过，用来引出转折或限制。"
+    ],
+    "existing_colloquial": {
+      "context": "WhatsApp / 朋友商量见面",
+      "ms_spoken": "Nak ikut, tapi kerja belum siap lagi lah.",
+      "ms_standard": "Saya hendak ikut, tetapi kerja saya masih belum siap.",
+      "zh": "想一起去啊，可是我的活儿还没做完。",
+      "spoken_features": [
+        "nak 是 hendak 的缩略，句首省略 saya",
+        "tapi 对应正式形式 tetapi",
+        "句末 lah 带出解释、无奈的语气"
+      ]
+    }
+  },
+  {
+    "word": "pergi",
+    "senses": [
+      "去；前往某个地方。",
+      "离开；从某处走开或退去。",
+      "出发；启程。",
+      "先走一步，委婉指去世，常见于 pergi dahulu。"
+    ],
+    "existing_colloquial": {
+      "context": "WhatsApp / 告知朋友去向",
+      "ms_spoken": "Saya nak pergi kedai jap, awak nak apa-apa tak?",
+      "ms_standard": "Saya hendak pergi ke kedai sebentar. Adakah awak mahu apa-apa?",
+      "zh": "我去趟店里，你要带点什么吗？",
+      "spoken_features": [
+        "nak 对应 hendak 或 mahu",
+        "pergi kedai 省略了地点介词 ke",
+        "jap 是 sekejap 的缩略，这里标准化为 sebentar",
+        "句末 tak 构成口语是非问句"
+      ]
+    }
+  },
+  {
+    "word": "orang",
+    "senses": [
+      "人；人们，可按上下文表示一个人或多人。",
+      "名；位，用于计算人数的量词。",
+      "某地的人；某国国民。",
+      "别人；人家，指自己以外的人。",
+      "人家；我，熟人间带亲昵或委屈语气的自称。"
+    ],
+    "existing_colloquial": {
+      "context": "WhatsApp / 到餐馆后通知朋友",
+      "ms_spoken": "Ramai orang kat sini lah, kita makan tempat lain nak?",
+      "ms_standard": "Terdapat ramai orang di sini. Mahukah kita makan di tempat lain?",
+      "zh": "这里人好多啊，咱们换个地方吃好不好？",
+      "spoken_features": [
+        "kat 对应地点介词 di",
+        "lah 强调眼前人多的情况",
+        "makan tempat lain 省略介词 di",
+        "句末 nak? 用来征询一起换地方的意愿"
+      ]
+    }
+  },
+  {
+    "word": "adalah",
+    "senses": [
+      "是；用于连接主语与对其性质、用途等的说明。",
+      "确实；实乃，古典语中用于句首引出陈述。"
+    ],
+    "existing_colloquial": {
+      "context": "WhatsApp / 转述报名通知",
+      "ms_spoken": "Dalam notis tu, bayaran adalah untuk makan je kan?",
+      "ms_standard": "Menurut notis itu, bayaran adalah untuk makanan sahaja, bukan?",
+      "zh": "通知里说，这笔钱就只是餐费，对吧？",
+      "spoken_features": [
+        "转述通知时保留较书面的 adalah，日常口语也常省略它",
+        "tu 是 itu 的缩略",
+        "makan 在这里口语化地指餐食",
+        "je 对应 sahaja，kan 用于请求确认"
+      ]
+    }
+  },
+  {
+    "word": "nak",
+    "senses": [
+      "想要；打算；将要，hendak 的口语缩略。",
+      "孩子；孩子呀，长辈对孩子或明显较年轻者的称呼。"
+    ],
+    "existing_colloquial": {
+      "context": "WhatsApp / 朋友相约喝茶",
+      "ms_spoken": "Awak nak teh ke kopi? Saya dah sampai kat kedai.",
+      "ms_standard": "Awak mahu teh atau kopi? Saya sudah sampai di kedai.",
+      "zh": "你要茶还是咖啡？我已经到店里了。",
+      "spoken_features": [
+        "nak 对应 mahu 或 hendak",
+        "ke 在二选一问句中对应 atau，不是表示方向的 ke",
+        "dah 是 sudah 的缩略",
+        "kat 对应地点介词 di"
+      ]
+    }
+  },
+  {
+    "word": "ia",
+    "senses": [
+      "他；她；不区分性别的第三人称代词，常用于书面叙述。",
+      "是；对；表示承认或赞同的较少见形式。"
+    ],
+    "existing_colloquial": {
+      "context": "朋友在 WhatsApp 商量接人",
+      "ms_spoken": "Dia dah sampai, kan? Kita tunggu kat lobi.",
+      "ms_standard": "Ia sudah sampai, bukan? Kita tunggu di lobi.",
+      "zh": "他到了，对吧？我们在大厅等。",
+      "spoken_features": [
+        "朋友聊天通常用 dia 代替书面语 ia；这是用词差异，不是拼写缩略",
+        "dah = sudah；kat = di",
+        "kan 在这里用于寻求确认，对应 bukan？"
+      ]
+    }
+  },
+  {
+    "word": "jadi",
+    "senses": [
+      "变成；成为；转为另一种状态或身份。",
+      "实际成行；按计划做成或发生。",
+      "成功；做成；达到预期效果。",
+      "已做好的；现成的；制作完成的。",
+      "所以；因此；于是，引出结果或推论。",
+      "同意；说定了；决定照办。",
+      "出生；诞生，主要保留于固定组合。",
+      "可能；也许，限于 boleh jadi 这一固定表达。"
+    ],
+    "existing_colloquial": {
+      "context": "朋友在 WhatsApp 确认聚餐",
+      "ms_spoken": "Makan sama-sama malam ni jadi tak? Kalau jadi, saya tempah meja lah.",
+      "ms_standard": "Adakah rancangan kita untuk makan bersama-sama malam ini akan diteruskan? Jika jadi, saya akan menempah meja.",
+      "zh": "今晚还约着一起吃饭吗？确定的话，我就订位啦。",
+      "spoken_features": [
+        "jadi tak 是口语的是非问法；这里询问计划是否落实",
+        "ni = ini；sama-sama 在此对应正式表达 bersama-sama",
+        "lah 使订位的提议带上自然的商量语气；并非任何语境都表示礼貌"
+      ]
+    }
+  },
+  {
+    "word": "sekarang",
+    "senses": [
+      "现在；此刻；目前，时间范围可随语境从眼前一刻延伸到当前阶段。"
+    ],
+    "existing_colloquial": {
+      "context": "朋友在 WhatsApp 相约出门",
+      "ms_spoken": "Saya nak keluar sekarang. Awak dah siap ke?",
+      "ms_standard": "Saya hendak keluar sekarang. Adakah awak sudah bersedia?",
+      "zh": "我现在要出门了。你准备好了没？",
+      "spoken_features": [
+        "nak = hendak；dah = sudah",
+        "句末 ke 是口语疑问词，对应标准问句的 adakah",
+        "sekarang 本身保持全写，不必每个词都缩写"
+      ]
+    }
+  },
+  {
+    "word": "lagi",
+    "senses": [
+      "再；再次；重新，表示动作重现。",
+      "再多；另外；还要，表示数量或时间的追加。",
+      "还；仍然，表示状态持续；与否定词搭配可表示尚未或不再。",
+      "更；更加，表示程度提升或比较。",
+      "而且；又，连接并列的性质。",
+      "尚且；甚至还，用来加强语气，常见于反问或递进结构。"
+    ],
+    "existing_colloquial": {
+      "context": "朋友在 WhatsApp 讨论外卖",
+      "ms_spoken": "Nak tambah satu lagi? Saya lapar lagi lah.",
+      "ms_standard": "Adakah awak hendak menambah satu lagi? Saya masih lapar.",
+      "zh": "要不要再加一份？我还饿着呢。",
+      "spoken_features": [
+        "nak = hendak；第一句省略听者主语",
+        "satu lagi 表示追加一个，lapar lagi 表示仍然饿，同词在一句中承担不同功能",
+        "lah 在这里加强仍然饿的语气"
+      ]
+    }
+  },
+  {
+    "word": "pada",
+    "senses": [
+      "在……时，用于时刻、日期或某个时期。",
+      "在……上；在……处，用于依附或局限于某一部位的位置。",
+      "在某人手里；由某人持有。",
+      "依照；按照；在某人看来，标示观点或判断。",
+      "对；对于；对……而言，指向对象或立场。",
+      "足够；适量；感到满足，属与介词不同的同形义。",
+      "都；一起，置于多人或多物的动作之前，带印尼口语色彩。"
+    ],
+    "existing_colloquial": {
+      "context": "朋友在 WhatsApp 寻找钥匙",
+      "ms_spoken": "Kunci tu ada pada saya lagi. Nak saya hantar kat awak ke?",
+      "ms_standard": "Kunci itu masih ada pada saya. Adakah awak mahu saya menghantarnya kepada awak?",
+      "zh": "那把钥匙还在我这里。要我给你送过去吗？",
+      "spoken_features": [
+        "tu = itu；nak = hendak",
+        "kat awak 在这里对应 kepada awak，不是所有 kat 都对应地点介词 di",
+        "句末 ke 用于询问；ada pada saya 保留规范的持有关系表达",
+        "lagi 在第一句表示仍然，对应 masih"
+      ]
+    }
+  }
+]
+
+Requirements for each word's `messages`:
+1. Exactly 2 or 3 turns in `messages`.
+2. Each turn object must have:
+   - "speaker": Name and social relationship, e.g. "Farhan (同事)", "Haziq (朋友)", "Ibu (母亲)"
+   - "ms_spoken": Authentic street/WhatsApp Malay with natural contractions/slang (e.g. nak, gi, xde, je, kot, kan)
+   - "ms_standard": Formal Standard Malay restoration of the spoken sentence
+   - "zh": Accurate Chinese translation
+3. Maintain the word's target usage naturally in the dialogue.
+4. Output MUST be ONLY valid JSON in the following format (no markdown, no extra commentary):
+{
+  "tapi": {
+    "context": "WhatsApp / ...",
+    "messages": [ ... ],
+    "spoken_features": [ ... ]
+  },
+  ...
+}

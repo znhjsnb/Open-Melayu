@@ -1,0 +1,410 @@
+{
+  "kamar": {
+    "headword": {
+      "word": "kamar",
+      "syllables": "ka.mar",
+      "ipa": "[ka.ma(r)]",
+      "jawi": "کامر",
+      "frequency_rank": 2580,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "kamar",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + kamar → kamar",
+      "pattern_note": "整词作为独立词素记忆，无词缀变化；本条采用“房间”义的读音，不采用另一同形词“月亮”的读音。",
+      "word_family": [
+        {
+          "word": "kamar tidur",
+          "affix": null,
+          "gloss": "卧室；由 kamar 与 tidur 组成的词组"
+        },
+        {
+          "word": "kamar baca",
+          "affix": null,
+          "gloss": "阅览室；由 kamar 与 baca 组成的词组"
+        }
+      ],
+      "root_jawi": "کامر"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "房间；建筑物内划分出来、供特定用途使用的室内空间。",
+        "en_definition": "A room or chamber within a building, often used for a particular purpose.",
+        "ms_definition": "Bilik atau ruang.",
+        "nuances": "在马来西亚，日常谈论房间通常用 bilik；kamar 较常带有文学、雅致或特定机构用语的色彩。kamar tidur 可以理解为“卧室”，但日常说 bilik tidur 更自然。",
+        "collocations": [
+          {
+            "ms": "kamar tidur",
+            "zh": "卧室",
+            "en": "bedroom"
+          },
+          {
+            "ms": "kamar baca",
+            "zh": "阅览室",
+            "en": "reading room"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Kamar tidur utama di rumah warisan itu telah dipulihkan untuk mengekalkan ciri asalnya.",
+        "zh": "那座历史住宅的主卧室已完成修复，以保留其原有特色。",
+        "en": "The main bedroom in the heritage house has been restored to preserve its original features."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Kamar tidur dalam gambar tu cantiklah, macam bilik hotel.",
+        "ms_standard": "Kamar tidur dalam gambar itu cantik, seperti bilik hotel.",
+        "zh": "照片里那间卧室真漂亮，像酒店房间一样。",
+        "en": "That bedroom in the photo looks lovely, like a hotel room.",
+        "spoken_features": [
+          "tu 是 itu 的口语形式。",
+          "-lah 在此表达赞叹。",
+          "macam 在此相当于标准语的 seperti。",
+          "kamar 保留房间介绍的雅致语感；日常接话通常改用 bilik。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Aku dah tengok gambar rumah tu. Kamar tidur dia cantiklah!",
+            "ms_standard": "Saya sudah melihat gambar rumah itu. Kamar tidurnya cantik!",
+            "zh": "我看过那房子的照片了，卧室真漂亮！",
+            "en": "I've seen the photos of that house. The bedroom is lovely!"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Kan? Aku pun nak bilik macam tu.",
+            "ms_standard": "Betul, bukan? Saya juga mahu bilik seperti itu.",
+            "zh": "对吧？我也想要那样的房间。",
+            "en": "Right? I'd love a room like that too."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "词本身没有冒犯意味；谈及他人的卧室时，应尊重隐私，进入前先征求同意。",
+      "usage_etiquette": "在马来西亚问酒店房间、租房或指路时，优先使用 bilik；在文学描写、历史建筑介绍或既定名称中，可按语境使用 kamar。"
+    },
+    "etymology": {
+      "historical_story": "表示“房间”的 kamar 借自荷兰语 kamer，其词源可追溯至拉丁语 camera 和古希腊语表示拱顶空间的 kamara。这个词进入马来语后保留了“室内空间”的核心意义，可把它想象成一扇通往旧式房间的门。[词源与拼写参考](https://ms.wiktionary.org/wiki/kamar)",
+      "cognitive_memory_aid": "想象一扇门后是一间 kamar：加上 tidur“睡觉”，就是卧室；加上 baca“阅读”，就是阅览室。"
+    }
+  },
+  "membahayakan": {
+    "headword": {
+      "word": "membahayakan",
+      "syllables": "mem.ba.ha.ya.kan",
+      "ipa": "[məm.ba.ha.ja.kan]",
+      "jawi": "ممبهاياکن",
+      "frequency_rank": 2582,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "bahayakan",
+      "affix": "meN-",
+      "affix_type": "prefix",
+      "formula": "meN- + bahayakan → membahayakan; keseluruhan: meN- + bahaya + -kan → membahayakan",
+      "pattern_note": "按数据包保留直接基底 bahayakan；进一步分析的词根为 bahaya“危险”。meN- 在 b 前变为 mem-，b 保留；整体 meN-…-kan 构成表示“使……面临危险”的及物动词。",
+      "word_family": [
+        {
+          "word": "bahaya",
+          "affix": null,
+          "gloss": "危险"
+        },
+        {
+          "word": "berbahaya",
+          "affix": "ber-",
+          "gloss": "危险的；具有危险性"
+        }
+      ],
+      "root_jawi": "بهاياکن"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "危及；使人、健康、安全或其他事物面临危险或受到伤害的风险。",
+        "en_definition": "To endanger someone or something; to expose them to a risk of harm.",
+        "ms_definition": "Mendatangkan bahaya.",
+        "nuances": "通常直接接受影响的对象，如 membahayakan kesihatan“危害健康”。强调造成危险或风险，不一定表示伤害已经发生；berbahaya 则用于描述某事物具有危险性。",
+        "collocations": [
+          {
+            "ms": "membahayakan kesihatan",
+            "zh": "危害健康",
+            "en": "endanger health"
+          },
+          {
+            "ms": "membahayakan nyawa",
+            "zh": "危及生命",
+            "en": "endanger lives"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Kerosakan pada sistem brek boleh membahayakan nyawa pemandu dan penumpang.",
+        "zh": "制动系统故障可能危及驾驶员和乘客的生命。",
+        "en": "A fault in the braking system can endanger the lives of the driver and passengers."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Jangan main telefon masa memandu, nanti membahayakan orang lain lah.",
+        "ms_standard": "Jangan menggunakan telefon semasa memandu kerana perbuatan itu boleh membahayakan orang lain.",
+        "zh": "开车时别玩手机啦，会危及别人的。",
+        "en": "Don't use your phone while driving—you could put other people in danger.",
+        "spoken_features": [
+          "main telefon 是口语中“玩手机、使用手机”的说法。",
+          "masa 在此相当于 semasa。",
+          "nanti 在此引出可能出现的不良后果。",
+          "句末 lah 加强劝阻语气；membahayakan 本身保留完整形式。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Aku nak balas mesej ni kejap je.",
+            "ms_standard": "Saya mahu membalas mesej ini sebentar sahaja.",
+            "zh": "我就回一下这条消息。",
+            "en": "I just want to reply to this message quickly."
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Janganlah, kau tengah memandu. Itu boleh membahayakan orang lain. Nanti dah berhenti baru balas.",
+            "ms_standard": "Jangan berbuat demikian kerana awak sedang memandu. Perbuatan itu boleh membahayakan orang lain. Balaslah selepas berhenti.",
+            "zh": "别啦，你正在开车呢。这样会危及别人，停车后再回吧。",
+            "en": "Don't—you're driving. You could put other people in danger. Reply once you've stopped."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "用于安全提醒时语气较郑重。面对同事或陌生人，可用 Perbuatan ini boleh membahayakan… 描述行为的风险，避免直接责备对方。",
+      "usage_etiquette": "正式警示应明确写出受影响的对象。紧急情况下可直接劝阻；一般提醒可加入 tolong 或请对方停止相关行为的具体说明。"
+    },
+    "etymology": {
+      "historical_story": "基础词 bahaya 借自梵语 bhaya，含有危险、恐惧的意义，进入马来语后成为表达“危险”的常用名词。[词源参考](https://en.wiktionary.org/wiki/bahaya#Malay) 马来语再通过 meN-…-kan 构成 membahayakan，把“危险”转化为“给某人或某物带来危险”的动作。[DBP释义](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bahaya)",
+      "cognitive_memory_aid": "把 bahaya 想成红色危险标志；加上 meN-…-kan，就像把这个标志推到别人面前：使对方陷入危险，即“危及”。"
+    }
+  },
+  "lorong": {
+    "headword": {
+      "word": "lorong",
+      "syllables": "lo.rong",
+      "ipa": "[lo.roŋ]",
+      "jawi": "لوروڠ",
+      "frequency_rank": 2584,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "lorong",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + lorong → lorong",
+      "pattern_note": "独立词根，无词缀变化；词尾 ng 表示单一鼻音 [ŋ]，不另读一个 [g]。",
+      "word_family": [
+        {
+          "word": "berlorong",
+          "affix": "ber-",
+          "gloss": "有巷道的"
+        },
+        {
+          "word": "melorongkan",
+          "affix": "meN-…-kan",
+          "gloss": "引导；指引方向"
+        }
+      ],
+      "root_jawi": "لوروڠ"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "巷；小路，通常指两旁有房屋或建筑物的狭小道路。",
+        "en_definition": "A lane or alley, typically a narrow road with buildings along its sides.",
+        "ms_definition": "Jalan kecil, biasanya dengan rumah di kiri dan kanannya.",
+        "nuances": "指路时常指主路旁的小巷，也常出现在正式街名中，如 Lorong Melati。翻译完整地址时应保留官方街名及编号，避免把 Lorong 任意改成 Jalan。",
+        "collocations": [
+          {
+            "ms": "lorong belakang",
+            "zh": "后巷",
+            "en": "back alley"
+          },
+          {
+            "ms": "lorong sempit",
+            "zh": "狭窄的小巷",
+            "en": "narrow lane"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Majlis perbandaran akan memasang lampu tambahan di lorong belakang deretan kedai itu.",
+        "zh": "市议会将在那排店铺的后巷增设照明灯。",
+        "en": "The municipal council will install additional lighting in the alley behind that row of shops."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Aku dah sampai kat lorong belakang kedai tu.",
+        "ms_standard": "Saya sudah sampai di lorong belakang kedai itu.",
+        "zh": "我已经到那家店的后巷了。",
+        "en": "I'm in the alley behind that shop now.",
+        "spoken_features": [
+          "aku 用于熟人之间的非正式交流。",
+          "dah 是 sudah 的口语形式。",
+          "kat 在此相当于 di。",
+          "tu 是 itu 的口语形式。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Aku dah sampai kat lorong belakang kedai tu. Kau kat mana?",
+            "ms_standard": "Saya sudah sampai di lorong belakang kedai itu. Awak di mana?",
+            "zh": "我到那家店的后巷了，你在哪儿？",
+            "en": "I'm in the alley behind that shop. Where are you?"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Aku tunggu kat hujung lorong je, dekat pintu biru.",
+            "ms_standard": "Saya menunggu di hujung lorong, berhampiran pintu biru.",
+            "zh": "我就在巷子尽头等你，靠近那扇蓝色的门。",
+            "en": "I'm just waiting at the end of the alley, by the blue door."
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "向陌生人问路时，可先说 Maaf, boleh saya tanya…；lorong 本身是中性用语。",
+      "usage_etiquette": "约见或送货时，最好同时提供巷名、编号和地标。lorong belakang 只表示后巷，不能单凭这个词判断环境是否安全。"
+    },
+    "etymology": {
+      "historical_story": "lorong 并非新近出现的道路用语：1852年的马来语词典已经记录它表示道路、小径和巷道。[历史词典记录](https://wallace-online.org/converted/pdf/1852_Crawfurd_WS5.2.pdf) 它也进入了区域地名，华语中的“罗弄”便是对马来语 lorong 的音译。[新加坡华语资料库](https://www.languagecouncils.sg/mandarin/ch/learning-resources/singaporean-mandarin-database/terms/alley)",
+      "cognitive_memory_aid": "想象两排房子之间的一条长巷，尽头挂着 Lorong 路牌；把这个画面与华语地名里的“罗弄”联系起来。"
+    }
+  },
+  "tradisi": {
+    "headword": {
+      "word": "tradisi",
+      "syllables": "tra.di.si",
+      "ipa": "[tra.di.si]",
+      "jawi": "تراديسي",
+      "frequency_rank": 2585,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "tradisi",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + tradisi → tradisi",
+      "pattern_note": "作为完整借词记忆；词首 tr 属于借词中的辅音组合，按 tra.di.si 分为三个音节，不把 tra- 或 -si 当作马来语词缀。",
+      "word_family": [
+        {
+          "word": "bertradisi",
+          "affix": "ber-",
+          "gloss": "具有传统的"
+        },
+        {
+          "word": "mentradisikan",
+          "affix": "meN-…-kan",
+          "gloss": "使成为传统"
+        }
+      ],
+      "root_jawi": "تراديسي"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "传统；在群体中长期延续、代代相传的习俗、信念或惯常做法。",
+        "en_definition": "A custom, belief, or established practice passed down through generations or maintained within a community.",
+        "ms_definition": "Sesuatu kebiasaan, kepercayaan dan sebagainya yang kekal turun-temurun.",
+        "nuances": "可用于家庭、社群、机构或文化中的传承，不限于宗教仪式。个人偶尔重复的行为通常称 kebiasaan；强调群体传承或长期沿用时才适合用 tradisi。",
+        "collocations": [
+          {
+            "ms": "tradisi turun-temurun",
+            "zh": "世代相传的传统",
+            "en": "a tradition passed down through generations"
+          },
+          {
+            "ms": "mengekalkan tradisi",
+            "zh": "保留传统",
+            "en": "preserve a tradition"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Program ini bertujuan mengekalkan tradisi anyaman dalam kalangan generasi muda.",
+        "zh": "这项计划旨在让年轻一代延续编织传统。",
+        "en": "This programme aims to preserve the weaving tradition among the younger generation."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Tiap-tiap tahun kami buat kuih sama-sama. Dah jadi tradisi keluarga dah.",
+        "ms_standard": "Setiap tahun kami membuat kuih bersama-sama. Amalan itu sudah menjadi tradisi keluarga.",
+        "zh": "我们每年都会一起做糕点，已经成了家里的传统。",
+        "en": "We make kuih together every year. It's become a family tradition.",
+        "spoken_features": [
+          "tiap-tiap tahun 相当于 setiap tahun。",
+          "buat 是日常口语中常用的制作动词，此处对应 membuat。",
+          "sama-sama 在此相当于 bersama-sama。",
+          "dah…dah 是口语中的重复强调，表示某种状态已经形成。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (表姐)",
+            "ms_spoken": "Sabtu ni nak buat kuih kat rumah nenek macam biasa?",
+            "ms_standard": "Adakah kita mahu membuat kuih di rumah nenek pada hari Sabtu ini seperti biasa?",
+            "zh": "这个星期六要像往常一样去奶奶家做糕点吗？",
+            "en": "Shall we make kuih at Grandma's this Saturday, as usual?"
+          },
+          {
+            "speaker": "Amir (表弟)",
+            "ms_spoken": "Jomlah! Dah jadi tradisi keluarga kita. Aku bawa bahan-bahan je, ya?",
+            "ms_standard": "Marilah! Amalan itu sudah menjadi tradisi keluarga kita. Saya membawa bahan-bahan sahaja, boleh?",
+            "zh": "去啊！这都成了咱家的传统了。我就负责带材料，可以吧？",
+            "en": "Let's do it! It's become our family tradition. I'll just bring the ingredients, okay?"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "讨论不同族群或家庭的传统时，应尊重参与者自己的解释，避免把某一家庭的做法说成整个族群都必须遵守的规范。",
+      "usage_etiquette": "可用 tradisi keluarga kami“我们家的传统”明确范围。参加节庆或仪式前，礼貌询问流程、服饰及饮食安排；不要仅凭 tradisi 一词推定某做法属于宗教义务。"
+    },
+    "etymology": {
+      "historical_story": "DBP词库将 tradisi 标为英语来源，对应 tradition，可把它理解为一个随着语言接触进入马来语的文化词。它在马来语中承载的是长期延续的习俗、信念与群体实践，像把一项熟悉的做法从长辈手中交给下一代。[DBP词源标注与释义](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=tradisi)",
+      "cognitive_memory_aid": "把 tradisi 与英语 tradition 联系起来，再想象祖母把做糕点的方法教给孙辈：传下去的不只是糕点，还有传统。"
+    }
+  }
+}

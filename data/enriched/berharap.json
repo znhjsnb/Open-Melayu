@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "berharap",
+    "syllables": "ber.ha.rap",
+    "ipa": "/bərharap/",
+    "jawi": "رهارڤ",
+    "frequency_rank": 612,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "harap",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + harap → berharap（怀着希望）",
+    "pattern_note": "ber- 接 harap，不发生鼻音同化；词根 h 保留。IPA 是按标准马来语读音给出的编辑宽式转写，并非词包提供的音标。Jawi 原样采用本地 data/prpm_raw/berharap.json 的 رهارڤ；缓存疑似缺少前缀字母，尚未独立核实，不据构词规则擅自补写。",
+    "word_family": [
+      {
+        "word": "harap",
+        "affix": "none",
+        "gloss": "希望；请"
+      },
+      {
+        "word": "harapan",
+        "affix": "-an",
+        "gloss": "希望；期望"
+      },
+      {
+        "word": "mengharap",
+        "affix": "meN-",
+        "gloss": "盼望；期待"
+      },
+      {
+        "word": "mengharapkan",
+        "affix": "meN-...-kan",
+        "gloss": "期望得到；指望"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "希望；盼望得到某物，或期待某件事发生。",
+      "ms_definition": "berhasrat (dan sedia menunggu) utk mendapat sesuatu atau agar terjadi (terbit dsb) sesuatu, meminta (dgn sedikit sebanyak jangkaan) supaya terjadi sesuatu (Kamus Dewan Edisi Keempat).",
+      "nuances": "常接 agar、supaya 或一个表达预期的分句，例如 berharap agar keadaan pulih。希望带有愿望与期待，不等于确信事情必然发生。berharap pada seseorang 强调把希望寄托在某人身上；mengharapkan bantuan 则可直接带所期待的对象。",
+      "collocations": [
+        {
+          "ms": "berharap agar berjaya",
+          "zh": "希望取得成功",
+          "en": "hope to succeed"
+        },
+        {
+          "ms": "berharap dapat membantu",
+          "zh": "希望能够帮忙",
+          "en": "hope to be able to help"
+        }
+      ],
+      "en_definition": "To want something and look forward to receiving it or having it happen."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 社区援助计划",
+      "ms": "Pihak penganjur berharap agar program bantuan itu dapat meringankan beban keluarga yang memerlukan.",
+      "zh": "主办方希望这项援助计划能减轻有需要家庭的负担。",
+      "en": "The organisers hope that the assistance programme will ease the burden on families in need."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问面试结果",
+      "ms_spoken": "Tempat kau pergi temu duga tu dah bagi jawapan ke?",
+      "ms_standard": "Adakah pihak tempat kamu menghadiri temu duga itu sudah memberikan jawapan?",
+      "zh": "你去面试的那家公司已经给答复了吗？",
+      "spoken_features": [
+        "aku、kau 用于彼此接受这种称呼的熟悉朋友；标准句使用 saya、kamu。",
+        "dah 对应 sudah；tu 对应 itu；句尾 ke 表示疑问。",
+        "berharap dapat kerja tu 中省略了可理解的 memperoleh；cari kerja 对应 mencari pekerjaan。",
+        "moga 对应 semoga；bagitahu 对应 beritahu；句末 tau 带提醒、叮嘱语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Tempat kau pergi temu duga tu dah bagi jawapan ke?",
+          "ms_standard": "Adakah pihak tempat kamu menghadiri temu duga itu sudah memberikan jawapan?",
+          "zh": "你去面试的那家公司已经给答复了吗？",
+          "en": "Has the place you interviewed at got back to you yet?"
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Belum lagi. Aku memang berharap dapat kerja tu. Dah penat cari kerja.",
+          "ms_standard": "Masih belum. Saya memang berharap dapat memperoleh pekerjaan itu. Saya sudah penat mencari pekerjaan.",
+          "zh": "还没有。我真的很希望拿到那份工作，找工作都找累了。",
+          "en": "Not yet. I really hope I get that job. I'm tired of job hunting."
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Moga ada berita baik nanti. Kalau dapat, bagitahu aku tau!",
+          "ms_standard": "Semoga ada berita baik nanti. Jika kamu mendapat pekerjaan itu, beritahulah saya.",
+          "zh": "希望之后会有好消息。要是拿到了，记得告诉我啊！",
+          "en": "Hopefully you'll get some good news soon. If you get it, make sure you tell me!"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Saya berharap... 可礼貌表达愿望，也常见于正式声明。对上级或陌生人提出明确请求时，可配合 mohon 或 bolehkah，让对方容易判断需要采取什么行动。",
+    "usage_etiquette": "表达祝愿可用 Saya berharap semuanya berjalan lancar，不必预设对方宗教。对方尚未答应时，不要把自己的 berharap 说成对方已经作出承诺。与不熟悉的人交流，用 saya 和适当称呼较稳妥。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语构词；词根另有古爪哇语来源分析",
+    "root_origin": "ber- + harap；本地 Kaikki 把 harap 联系到古爪哇语 harĕp（愿望、想要），属于南岛语言之间的联系。",
+    "historical_story": "马来语把表达愿望的 harap 接上 ber-，让‘希望’成为一个人所怀有的心态。词根资料把它与古爪哇语 harĕp 联系起来，可放在马来群岛长期语言交流的背景下理解，但不能据此指定一次跨海传入事件；今天，从家人盼平安到新闻中期待政策奏效，都能听到 berharap。",
+    "cognitive_memory_aid": "把 ber- 想成‘身上带着一种状态’：带着 harap（希望）等待，就是 berharap。"
+  }
+}

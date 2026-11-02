@@ -1,0 +1,141 @@
+{
+  "headword": {
+    "word": "hebat",
+    "syllables": "hé.bat",
+    "ipa": "/he.bat/",
+    "jawi": "هيبت",
+    "frequency_rank": 208,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hebat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hebat → hebat",
+    "pattern_note": "现代马来语中作为完整词根记忆，不拆作 he- + bat。PRPM 独立 syllables 字段为空，但 Kamus Dewan 原文明确标作 [hé.bat]；é 指 e taling /e/，不是 /ə/。",
+    "word_family": [
+      {
+        "word": "menghebat",
+        "affix": "meN-",
+        "gloss": "变得更强烈；加剧"
+      },
+      {
+        "word": "menghebatkan",
+        "affix": "meN-...-kan",
+        "gloss": "使更强烈；加强"
+      },
+      {
+        "word": "memperhebat",
+        "affix": "memper-",
+        "gloss": "进一步加强"
+      },
+      {
+        "word": "kehebatan",
+        "affix": "ke-...-an",
+        "gloss": "卓越；强大或猛烈的程度"
+      },
+      {
+        "word": "sehebat",
+        "affix": "se-",
+        "gloss": "与……一样厉害"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "出色的；厉害的；令人赞叹的。用于能力、表现等超出寻常的情况。",
+      "ms_definition": "teramat sangat atau luar biasa (gagah, dahsyat, kuat, elok, bagus, ramai, dll)",
+      "nuances": "这里取 Kamus Dewan 第一义中 bagus、elok、gagah 的正面用法。称赞人说 Awak hebat! 很自然，但在失败后拖长或强调语气，也可能听起来像讽刺。",
+      "collocations": [
+        {
+          "ms": "pemain hebat",
+          "zh": "出色的球员",
+          "en": "an outstanding player"
+        },
+        {
+          "ms": "persembahan hebat",
+          "zh": "精彩的表演",
+          "en": "a spectacular performance"
+        }
+      ],
+      "en_definition": "Outstanding or impressive in ability, quality, or performance."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "猛烈的；强烈的；激烈的。形容声响、冲突或压力等程度很高。",
+      "ms_definition": "teramat sangat atau luar biasa (gagah, dahsyat, kuat, elok, bagus, ramai, dll)",
+      "nuances": "这里取同一官方第一义中 dahsyat、kuat 的强度用法，并不表示‘很好’；letupan hebat 是猛烈爆炸。Kamus Dewan 另有 sl（古典文学）义 takut, segan，现代日常称赞不按‘害怕、敬畏’理解。",
+      "collocations": [
+        {
+          "ms": "letupan hebat",
+          "zh": "猛烈的爆炸",
+          "en": "a powerful explosion"
+        },
+        {
+          "ms": "tentangan hebat",
+          "zh": "强烈的反对",
+          "en": "fierce opposition"
+        }
+      ],
+      "en_definition": "Very intense, powerful, or fierce."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "体育新闻 / 赛后报道",
+      "ms": "Pasukan negara mempamerkan persembahan hebat untuk mara ke perlawanan akhir kejohanan itu.",
+      "zh": "国家队凭借出色表现，晋级该项赛事的决赛。",
+      "en": "The national team delivered an outstanding performance to reach the final of the tournament."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事称赞对方提前完成报告",
+      "ms_spoken": "Laporan semua dah siap. Esok tinggal semak je sebelum hantar.",
+      "ms_standard": "Semua laporan sudah siap. Esok saya hanya perlu menyemaknya sebelum menghantarnya.",
+      "zh": "报告都做好了。明天交之前再检查一下就行。",
+      "spoken_features": [
+        "hebat 在这里称赞同事处理大量工作的能力和表现。",
+        "Hebat lah awak 把评价放在前面，突出赞叹；聊天中 lah 常分开书写，规范附着形式为 hebatlah。",
+        "dah 对应 sudah，je 对应 sahaja；tinggal semak 表示只剩检查这一项工作。",
+        "Banyak tu 依赖前文省略了 laporan；macam mana 对应 bagaimanakah，cepat sangat 在这里表示非常快。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nisa (同事)",
+          "ms_spoken": "Laporan semua dah siap. Esok tinggal semak je sebelum hantar.",
+          "ms_standard": "Semua laporan sudah siap. Esok saya hanya perlu menyemaknya sebelum menghantarnya.",
+          "zh": "报告都做好了。明天交之前再检查一下就行。",
+          "en": "All the reports are done. Just need to check them tomorrow before sending them in."
+        },
+        {
+          "speaker": "Aina (同事)",
+          "ms_spoken": "Hebat lah awak! Banyak tu, macam mana boleh siap cepat sangat?",
+          "ms_standard": "Awak sungguh hebat! Laporan itu banyak; bagaimanakah awak dapat menyiapkannya dengan begitu cepat?",
+          "zh": "你也太厉害了！那么多报告，怎么能这么快就做完？",
+          "en": "You're amazing! That's a lot of reports. How did you get them all done so quickly?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "在不同族群间称赞表现都可用 hebat，最好说明具体做得好的事情。对不熟悉的人避免夸张语气或在对方失误后说 Hebat betul，以免被理解为挖苦。",
+    "usage_etiquette": "评价灾难、冲突或爆炸时，hebat 指强度，不是赞美。称赞长辈或上司时用姓名、职衔或合适敬称，避免随意称 kau。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "Arabic",
+    "root_origin": "来自阿拉伯语 هَيْبَة（hayba，威严、令人敬畏的气势）；本地 Kaikki 记录给出该来源。[Crawfurd 的历史马来语词典](https://deriv.nls.uk/dcn23/7945/79454630.23.pdf)已将 hebat 标为阿拉伯来源，并记有恐惧、可畏的含义。",
+    "historical_story": "阿拉伯语 hayba 所表达的威严与敬畏，在马来语 hebat 的旧义‘害怕、敬畏’里仍能看见痕迹。旧词典还记录其‘可怕、令人畏惧’的意思，而现代马来语已广泛用它形容超乎寻常的程度：既能说爆炸猛烈，也能由衷赞叹一个人‘真厉害’。",
+    "cognitive_memory_aid": "把 hebat 记成‘强到让人惊叹’：表演强，是精彩；爆炸强，是猛烈。"
+  }
+}

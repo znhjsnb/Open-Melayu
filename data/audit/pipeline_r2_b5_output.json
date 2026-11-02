@@ -1,0 +1,222 @@
+{
+  "tadi": {
+    "context": "WhatsApp / 同事确认刚才发送的文件",
+    "messages": [
+      {
+        "speaker": "Amir (同事)",
+        "ms_spoken": "Tadi aku dah hantar fail tu kat kau. Dah dapat belum?",
+        "ms_standard": "Saya sudah menghantar fail itu kepada awak tadi. Adakah awak sudah menerimanya?",
+        "zh": "刚才我已经把那个文件发给你了。收到了吗？"
+      },
+      {
+        "speaker": "Farah (同事)",
+        "ms_spoken": "Dah, baru nampak. Thanks! Aku semak jap lagi.",
+        "ms_standard": "Ya, saya sudah menerimanya dan baru sahaja melihatnya. Terima kasih! Saya akan menyemaknya sebentar lagi.",
+        "zh": "收到了，刚看到。谢谢！我待会儿看一下。"
+      }
+    ],
+    "spoken_features": [
+      "tadi 表示刚才已经过去的时间，放在句首突出发送文件的时间。",
+      "aku、kau 用于关系熟悉的同事之间；dah 对应 sudah，tu 对应 itu，kat 在这里引出接收方，对应 kepada。",
+      "Dah dapat belum? 是询问是否已经收到的口语格式；jap lagi 对应 sebentar lagi，Thanks 是聊天中常见的英语夹用。"
+    ]
+  },
+  "ialah": {
+    "context": "WhatsApp / 同学确认小组负责人",
+    "messages": [
+      {
+        "speaker": "Haziq (同组同学)",
+        "ms_spoken": "Ketua kumpulan kita ialah Farah, kan? Aku nak tanya dia pasal pembentangan.",
+        "ms_standard": "Ketua kumpulan kita ialah Farah, bukan? Saya mahu bertanya kepadanya tentang pembentangan.",
+        "zh": "我们组长是 Farah，对吧？我想问她关于汇报的事。"
+      },
+      {
+        "speaker": "Siti (同组同学)",
+        "ms_spoken": "Haah, Farah. Kau nak nombor dia tak?",
+        "ms_standard": "Ya, ketua kumpulan kita ialah Farah. Adakah awak mahu nombor telefonnya?",
+        "zh": "对，是 Farah。你要她的电话号码吗？"
+      }
+    ],
+    "spoken_features": [
+      "ialah 在这里连接主语 Ketua kumpulan kita 与表示身份的名词 Farah；聊天明确核对身份时可以保留，但随意交谈中也常省略。",
+      "句末 kan 用来确认信息；nak 对应 mahu，pasal 在这里对应 tentang。",
+      "Haah 是表示肯定的口语应答；Kau nak…tak? 是口语的是非问句格式，nombor dia 根据语境指她的电话号码。"
+    ]
+  },
+  "mendapatkan": {
+    "context": "WhatsApp / 朋友询问援助申请手续",
+    "messages": [
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Kalau nak mendapatkan bantuan tu, kena gi pejabat dulu ke?",
+        "ms_standard": "Adakah saya perlu pergi ke pejabat terlebih dahulu untuk mendapatkan bantuan itu?",
+        "zh": "想获得那项援助的话，要先去办公室吗？"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Tak payah gi dulu. Isi borang online je, nanti pihak pejabat hubungi kau.",
+        "ms_standard": "Awak tidak perlu pergi ke pejabat terlebih dahulu. Isi sahaja borang dalam talian, kemudian pihak pejabat akan menghubungi awak.",
+        "zh": "不用先过去。在线填表就行，之后办公室的人会联系你。"
+      }
+    ],
+    "spoken_features": [
+      "mendapatkan 在这里表示获取援助；讨论申请手续时，聊天中可以自然保留这个较正式的完整词形。",
+      "nak 对应 mahu；kena 在这里表示需要，gi 是 pergi 的口语短式，句末 ke 标示疑问。",
+      "tak payah 表示不必，je 对应 sahaja；online 是常见的英语夹用，标准表达为 dalam talian。"
+    ]
+  },
+  "sesiapa": {
+    "context": "WhatsApp / 姐弟确认家里是否有人开门",
+    "messages": [
+      {
+        "speaker": "Amir (弟弟)",
+        "ms_spoken": "Ada sesiapa kat rumah tak? Aku dah sampai depan pagar ni.",
+        "ms_standard": "Adakah sesiapa berada di rumah? Saya sudah tiba di hadapan pagar rumah.",
+        "zh": "家里有人吗？我已经到院门口了。"
+      },
+      {
+        "speaker": "Kak Lina (姐姐)",
+        "ms_spoken": "Ada, akak kat dapur. Tunggu jap, akak bukakan pagar.",
+        "ms_standard": "Ya, kakak berada di dapur. Tunggu sebentar, kakak akan membuka pagar untuk kamu.",
+        "zh": "有，姐姐在厨房。等一下，我来给你开院门。"
+      }
+    ],
+    "spoken_features": [
+      "sesiapa 在 Ada sesiapa…tak? 中表示有谁、是否有人，并不预设家里有人。",
+      "kat 对应地点介词 di，dah 对应 sudah；句末 ni 突出说话人眼下已经到达的状态。",
+      "akak 是 kakak 的口语形式，姐姐可以用它对弟妹自称；jap 对应 sebentar，bukakan 表示为对方打开。"
+    ]
+  },
+  "sahaja": {
+    "context": "WhatsApp / 朋友帮忙买咖喱角，确认数量",
+    "messages": [
+      {
+        "speaker": "Mira (朋友)",
+        "ms_spoken": "Aku kat gerai karipap ni. Kau nak berapa biji?",
+        "ms_standard": "Saya berada di gerai karipap sekarang. Berapa biji karipap yang awak mahu?",
+        "zh": "我现在在卖咖喱角的摊位。你要几个？"
+      },
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Satu je. Aku dah makan tadi. Thanks sebab belikan!",
+        "ms_standard": "Saya mahu satu sahaja. Saya sudah makan tadi. Terima kasih kerana membelikannya untuk saya!",
+        "zh": "一个就好。我刚才吃过了。谢谢你帮我买！"
+      }
+    ],
+    "spoken_features": [
+      "je 是 sahaja 在马来西亚常见的口语形式，这里限定数量为一个。",
+      "Satu je 省略了双方已知的主语、动词和物品名称；标准句补出 Saya mahu，体现完整结构。",
+      "kat 对应 di，nak 对应 mahu，dah 对应 sudah；belikan 在这里表示替对方购买，受益对象由对话补足。"
+    ]
+  },
+  "terakhir": {
+    "context": "WhatsApp / 朋友在车站催同伴赶末班车",
+    "messages": [
+      {
+        "speaker": "Hafiz (朋友)",
+        "ms_spoken": "Kau kat mana? Cepat sikit, bas terakhir dah nak gerak ni!",
+        "ms_standard": "Awak berada di mana? Cepat sedikit, bas terakhir sudah hampir bertolak!",
+        "zh": "你在哪儿？快一点，末班车就要开了！"
+      },
+      {
+        "speaker": "Danial (朋友)",
+        "ms_spoken": "Aku dah kat tangga! Tolong cakap kat pemandu, aku sampai kejap lagi.",
+        "ms_standard": "Saya sudah berada di tangga! Tolong beritahu pemandu bahawa saya akan tiba sebentar lagi.",
+        "zh": "我已经到楼梯这儿了！帮我跟司机说一声，我马上就到。"
+      }
+    ],
+    "spoken_features": [
+      "bas terakhir 指当天或该班次安排中的最后一班车，terakhir 并不是泛指最新的一辆车。",
+      "sikit 对应 sedikit；dah nak 在这里表示快要，标准句用 sudah hampir，gerak 根据车辆语境还原为 bertolak。",
+      "kat mana、kat tangga 中的 kat 表示地点；cakap kat pemandu 中的 kat 引出说话对象，kejap lagi 表示再过一小会儿。"
+    ]
+  },
+  "mengatakan": {
+    "context": "WhatsApp / 同事核对会议改期消息",
+    "messages": [
+      {
+        "speaker": "Farah (同事)",
+        "ms_spoken": "Tadi bos kata mesyuarat tukar ke pagi esok, kan? Aku takut salah dengar.",
+        "ms_standard": "Tadi bos mengatakan bahawa mesyuarat dijadualkan semula pada pagi esok, bukan? Saya bimbang saya tersalah dengar.",
+        "zh": "刚才老板说会议改到明早了，对吧？我怕自己听错了。"
+      },
+      {
+        "speaker": "Amir (同事)",
+        "ms_spoken": "Haah, pukul sembilan pagi esok. Dia dah tulis dalam grup jugak.",
+        "ms_standard": "Ya, mesyuarat itu akan diadakan pada pukul sembilan pagi esok. Dia juga sudah menulis maklumat itu dalam kumpulan sembang.",
+        "zh": "对，明早九点。他也已经在群里写了。"
+      }
+    ],
+    "spoken_features": [
+      "口语常用 kata 表达标准语 mengatakan 的转述功能；这里引出老板说的消息，并非 mengatakan 的拼写缩写。",
+      "mesyuarat tukar ke… 是依赖语境的口语表达；标准句用 dijadualkan semula pada… 明确表示会议改期。",
+      "kan 用来确认消息，Haah 表示肯定；dah 对应 sudah，jugak 是 juga 的非正式写法，grup 在这里指聊天群。"
+    ]
+  },
+  "pagi": {
+    "context": "WhatsApp / 朋友约明早一起吃早餐",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Esok pagi nak sarapan kat kedai biasa tak? Pukul lapan macam biasa?",
+        "ms_standard": "Adakah awak mahu bersarapan di kedai yang biasa kita kunjungi pada pagi esok? Adakah kita hendak berjumpa pada pukul lapan pagi seperti biasa?",
+        "zh": "明早要不要去老地方吃早餐？照常八点见？"
+      },
+      {
+        "speaker": "Imran (朋友)",
+        "ms_spoken": "Boleh. Kalau aku lambat sikit, kau order dulu je.",
+        "ms_standard": "Boleh. Jika saya tiba sedikit lewat, awak boleh memesan makanan dahulu.",
+        "zh": "可以。如果我晚到一会儿，你就先点餐吧。"
+      }
+    ],
+    "spoken_features": [
+      "esok pagi 表示明天早上；第二句只说 pukul lapan，早上的时段由前文补足。",
+      "nak…tak? 是询问对方意愿的口语格式；sarapan 在这里作动词，标准表达用 bersarapan，kat 对应 di。",
+      "kedai biasa 依赖双方对常去店铺的共同认识；order 是英语夹用，dulu je 在这里表示让对方先点餐即可。"
+    ]
+  },
+  "penting": {
+    "context": "WhatsApp / 同学提醒参加面试时带齐重要文件",
+    "messages": [
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Fail ni penting tau. Jangan tinggal kat rumah masa gi temu duga esok.",
+        "ms_standard": "Fail ini penting. Jangan tinggalkannya di rumah apabila awak pergi menghadiri temu duga esok.",
+        "zh": "这份文件很重要哦。明天去面试的时候，别把它落在家里。"
+      },
+      {
+        "speaker": "Aina (同学)",
+        "ms_spoken": "Dah masuk beg dah. Aku letak sekali dengan kad pengenalan.",
+        "ms_standard": "Saya sudah memasukkan fail itu ke dalam beg. Saya meletakkannya bersama-sama dengan kad pengenalan.",
+        "zh": "已经放进包里了。我把它和身份证放在一起。"
+      }
+    ],
+    "spoken_features": [
+      "penting 在这里作谓语，说明文件很重要；马来语形容词谓语前不需要加 ialah。",
+      "ni 对应 ini，kat 对应 di，gi 对应 pergi；tau 源于 tahu，在这里起提醒、叮嘱作用。",
+      "Dah masuk beg dah 依靠前文省略文件及放入动作的完整表达，首尾的 dah 加强已经办妥的语气；sekali 在这里表示一起。"
+    ]
+  },
+  "cinta": {
+    "context": "WhatsApp / 亲密朋友聊自己是否爱上某个人",
+    "messages": [
+      {
+        "speaker": "Aina (好友)",
+        "ms_spoken": "Aku rasa aku dah jatuh cinta kat dia lah. Sehari tak mesej pun aku dah rindu.",
+        "ms_standard": "Saya rasa saya sudah jatuh cinta kepadanya. Walaupun hanya sehari kami tidak berbalas mesej, saya sudah merinduinya.",
+        "zh": "我觉得我已经爱上那个人了。哪怕只有一天没互发消息，我就开始想念了。"
+      },
+      {
+        "speaker": "Mira (好友)",
+        "ms_spoken": "Eh, serius? Dia tahu tak kau rasa macam ni?",
+        "ms_standard": "Benarkah? Adakah dia tahu bahawa awak mempunyai perasaan sedemikian terhadapnya?",
+        "zh": "啊，真的？那个人知道你有这种心意吗？"
+      }
+    ],
+    "spoken_features": [
+      "jatuh cinta 是表示爱上某人的常用搭配；kat 在这里引出感情对象，标准表达为 kepada。",
+      "aku、kau 适用于亲密朋友之间；dah 对应 sudah，lah 使倾诉语气更自然，dia 本身不标明性别。",
+      "Sehari tak mesej pun… 表示即使只有一天没有互发消息也会如此；tahu tak 构成口语问句，macam ni 对应 seperti ini 或 sedemikian。"
+    ]
+  }
+}

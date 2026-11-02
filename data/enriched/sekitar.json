@@ -1,0 +1,137 @@
+{
+  "headword": {
+    "word": "sekitar",
+    "syllables": "se.ki.tar",
+    "ipa": "[sə.ki.tar]",
+    "jawi": "سکيتر",
+    "frequency_rank": 655,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kitar",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + kitar → sekitar",
+    "pattern_note": "按现代构词分析为 se- + kitar，接合时不删字母；se- 在此不按数词‘一’硬译。原包 root 字段以整词 sekitar 作检索入口，此处区分入口与构词词根。IPA 为依马来语拼写给出的宽式读音，原包未提供 IPA。",
+    "word_family": [
+      {
+        "word": "kitar",
+        "affix": "∅",
+        "gloss": "转动；循环的基本词"
+      },
+      {
+        "word": "sekitarnya",
+        "affix": "se- + -nya（附着代词）",
+        "gloss": "其周围"
+      },
+      {
+        "word": "persekitaran",
+        "affix": "per-…-an（以 sekitar 为基底）",
+        "gloss": "周围环境"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "某处的周围；周边地区。",
+      "ms_definition": "sekeliling",
+      "nuances": "常作 di sekitar… 或 kawasan sekitar 中的方位成分；此处按名词性位置词处理。di sekitar sekolah 是在学校周边；alam sekitar 则是固定搭配‘环境’。",
+      "collocations": [
+        {
+          "ms": "di sekitar kawasan itu",
+          "zh": "在该地区周围",
+          "en": "around that area"
+        },
+        {
+          "ms": "alam sekitar",
+          "zh": "环境；自然环境",
+          "en": "the natural environment"
+        }
+      ],
+      "en_definition": "The area surrounding a place; the vicinity."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "大约；左右；差不多。",
+      "ms_definition": "bp lebih kurang, kira-kira",
+      "nuances": "置于数量或时间之前，相当于 kira-kira；Kamus Dewan 把此义标为口语。严谨公文表达估计值时可优先用 kira-kira 或 lebih kurang，不能将估计数说成精确数。",
+      "collocations": [
+        {
+          "ms": "sekitar dua jam",
+          "zh": "大约两小时",
+          "en": "about two hours"
+        },
+        {
+          "ms": "sekitar seratus orang",
+          "zh": "大约一百人",
+          "en": "around a hundred people"
+        }
+      ],
+      "en_definition": "Approximately; about."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／环境卫生",
+      "ms": "Penduduk diminta menjaga kebersihan kawasan sekitar bagi mencegah pembiakan nyamuk.",
+      "zh": "居民受促保持周边地区清洁，以防蚊虫滋生。",
+      "en": "Residents are urged to keep the surrounding area clean to prevent mosquito breeding."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友肚子饿，决定在附近找店吃饭",
+      "ms_spoken": "Kau nak makan kat mana? Aku dah lapar ni.",
+      "ms_standard": "Di manakah awak hendak makan? Saya sudah lapar.",
+      "zh": "你想去哪里吃？我已经饿了。",
+      "spoken_features": [
+        "nak 对应 hendak；kat 对应 di；dah 对应 sudah。",
+        "sekitar sini 表示这附近，口语中可省略前面的地点介词 di。",
+        "je lah 把建议说得随和，带有就这样吧的语气。",
+        "tak payah 对应 tidak perlu；gi 是 pergi 的口语缩略。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Kau nak makan kat mana? Aku dah lapar ni.",
+          "ms_standard": "Di manakah awak hendak makan? Saya sudah lapar.",
+          "zh": "你想去哪里吃？我已经饿了。",
+          "en": "Where do you want to eat? I'm getting hungry."
+        },
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Kita cari kedai makan sekitar sini je lah. Tak payah gi jauh.",
+          "ms_standard": "Marilah kita mencari kedai makan di sekitar sini sahaja. Kita tidak perlu pergi jauh.",
+          "zh": "咱们就在这附近找家店吃吧。不用跑远。",
+          "en": "Let's just find somewhere to eat around here. No need to go far."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "skitar",
+      "full_form": "sekitar",
+      "note": "原包记录的非正式聊天省略拼写，省去第一个 e；正式写作保留 sekitar，不视为规范缩写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "空间义在新闻、公共告示及日常谈话中都自然。数量近似义属口语标记，正式文书可用 kira-kira。",
+    "usage_etiquette": "指路时 sekitar sini 只给大致范围，约见时最好补店名或地标。问附近设施可说 Ada… di sekitar sini?，再按关系使用合适称谓；不熟悉的人之间避免随意用 kau。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay（马来语内部构词）",
+    "root_origin": "现代构词 se- + kitar；原包未提供更早词源，不据拼写虚构外语来源或古代借入事件。Austronesian 表示该马来语构词的语系归属。",
+    "historical_story": "以现代构词看，sekitar 把 kitar 的环绕图像固定成‘周围’：在村屋、街区或港口旁画一圈，就能理解它所指的邻近范围，这只是帮助理解的场景，并非已考定的起源地点。今天它既可出现在保护 alam sekitar 的公共倡议中，也可把一个数值圈出模糊范围来表示‘大约’；词典确认这两个用法，未给出它们形成的具体年代。",
+    "cognitive_memory_aid": "以地点为圆心画一圈：di sekitar sini＝这周围；以数值为圆心画一圈：sekitar seratus＝一百左右。"
+  }
+}

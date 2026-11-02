@@ -1,0 +1,142 @@
+{
+  "headword": {
+    "word": "maklumat",
+    "syllables": null,
+    "ipa": "/maʔ.lu.mat/",
+    "jawi": "معلومت",
+    "frequency_rank": 546,
+    "tags": [
+      "CEFR-A2",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "maklumat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + maklumat → maklumat",
+    "pattern_note": "现代马来语中作为完整借词记忆，不把词尾 -at 当作马来语后缀。PRPM 独立音节字段缺失，保留 null；IPA 采用资料包所列读音。",
+    "word_family": [
+      {
+        "word": "memaklumatkan",
+        "affix": "meN-…-kan",
+        "gloss": "告知；通知"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "信息；资料；关于某事的具体情况。",
+      "ms_definition": "keterangan, butir-butir",
+      "nuances": "指可提供、查询或核实的内容，不限于电脑数据。maklumat peribadi 是个人资料；一般用作集合概念，不必为了表达多条信息而重复词形。",
+      "collocations": [
+        {
+          "ms": "maklumat peribadi",
+          "zh": "个人资料",
+          "en": "personal information"
+        },
+        {
+          "ms": "maklumat lanjut",
+          "zh": "进一步资料；详情",
+          "en": "further information"
+        }
+      ],
+      "en_definition": "Information or details about something."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "通知；告知的消息。",
+      "ms_definition": "makluman, pemberitahuan, pengumuman",
+      "nuances": "这是词典所收的告知义；现代通知标题常用 makluman。maklumat 更常突出通知中提供的内容。",
+      "collocations": [
+        {
+          "ms": "memberikan maklumat",
+          "zh": "提供消息；告知情况",
+          "en": "provide information"
+        },
+        {
+          "ms": "menyampaikan maklumat",
+          "zh": "传达消息",
+          "en": "pass on information"
+        }
+      ],
+      "en_definition": "Information conveyed as a notice or announcement."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "知悉；所知道的情况。",
+      "ms_definition": "pengetahuan",
+      "nuances": "常见于 Untuk maklumat tuan/puan，意思是“谨供您知悉”。这里不是把 maklumat 当成“知识学问”的所有用法；后者通常用 ilmu 或 pengetahuan。",
+      "collocations": [
+        {
+          "ms": "untuk maklumat tuan",
+          "zh": "谨供先生知悉",
+          "en": "for your information"
+        },
+        {
+          "ms": "untuk maklumat semua",
+          "zh": "供大家知悉",
+          "en": "for everyone's information"
+        }
+      ],
+      "en_definition": "Knowledge or awareness of something."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "政府网站／公共服务公告",
+      "ms": "Orang ramai boleh mendapatkan maklumat lanjut tentang permohonan bantuan melalui laman sesawang rasmi jabatan itu.",
+      "zh": "公众可通过该部门的官方网站查询援助申请的详情。",
+      "en": "Members of the public can obtain further information about applications for assistance through the department's official website."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学在群聊里确认报名资料的位置",
+      "ms_spoken": "Maklumat pasal yuran dengan tarikh tutup tu kat mana eh? Aku cari dalam grup ni tak jumpa.",
+      "ms_standard": "Di manakah maklumat tentang yuran dan tarikh tutup itu? Saya sudah mencarinya dalam kumpulan ini tetapi tidak menemuinya.",
+      "zh": "费用和截止日期的资料在哪里来着？我在这个群里找了，没找到。",
+      "spoken_features": [
+        "maklumat 在这里指报名所需的具体信息，包括费用和截止日期。",
+        "pasal 对应 tentang；dengan 在这里连接两个项目，标准语恢复为 dan。",
+        "kat mana 是口语地点问法；eh 在这里带有询问、回想的语气，不必逐字译出。",
+        "grup 对应 kumpulan；tak jumpa 在这里表示“没找到”，标准语可恢复为 tidak menemuinya。",
+        "ada situ 省略地点介词 di，标准语写作 ada di situ 或 terdapat di situ。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Maklumat pasal yuran dengan tarikh tutup tu kat mana eh? Aku cari dalam grup ni tak jumpa.",
+          "ms_standard": "Di manakah maklumat tentang yuran dan tarikh tutup itu? Saya sudah mencarinya dalam kumpulan ini tetapi tidak menemuinya.",
+          "zh": "费用和截止日期的资料在哪里来着？我在这个群里找了，没找到。",
+          "en": "Where's the info about the fees and the deadline again? I've looked in this group chat but can't find it."
+        },
+        {
+          "speaker": "Nurin (同学，也是群管理员)",
+          "ms_spoken": "Ada kat laman web sekolah. Buka bahagian pendaftaran, semua maklumat ada situ.",
+          "ms_standard": "Maklumat itu ada di laman sesawang sekolah. Buka bahagian pendaftaran; semua maklumat terdapat di situ.",
+          "zh": "学校网站上有。打开报名栏目，所有资料都在那里。",
+          "en": "It's on the school website. Go to the registration section. All the info's there."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "适用于跨族群的工作、学校和公共服务沟通；询问可用 Boleh saya mendapatkan maklumat lanjut?，礼貌且自然。",
+    "usage_etiquette": "索取个人资料时先说明用途。正式往来可用 tuan/puan；不要把群聊中的身份证号码、住址等直接转发给其他人。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语",
+    "root_origin": "مَعْلُومَات maʕlūmāt，مَعْلُوم maʕlūm（已知的）的复数；更早联系 عَلِمَ ʕalima（知道）。",
+    "historical_story": "这个词在阿拉伯语里原本把若干“已知之事”汇在一起，借入马来语后成为信息与资料的名称。今天，从公共部门的通知到手机上的个人资料，maklumat 都在把“知道的事情”转成可以传递的内容；阿拉伯语的复数形式在马来语里已作为完整词使用。",
+    "cognitive_memory_aid": "把它记成“已知事项的资料包”：查详情找 maklumat lanjut，填个人资料写 maklumat peribadi。"
+  }
+}

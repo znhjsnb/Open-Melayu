@@ -1,0 +1,142 @@
+{
+  "headword": {
+    "word": "sedar",
+    "syllables": "se.dar",
+    "ipa": "/səˈdar/",
+    "jawi": "سدر",
+    "frequency_rank": 548,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sedar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sedar → sedar",
+    "pattern_note": "se- 是词根本身的组成部分，不是这里可剥离的前缀；首音节 e 为 /ə/。meN- 接 sedar 时 s 脱落：meN- + sedar + -i → menyedari。",
+    "word_family": [
+      {
+        "word": "menyedari",
+        "affix": "meN-…-i",
+        "gloss": "意识到；认识到"
+      },
+      {
+        "word": "menyedarkan",
+        "affix": "meN-…-kan",
+        "gloss": "使清醒；使醒悟"
+      },
+      {
+        "word": "tersedar",
+        "affix": "ter-",
+        "gloss": "突然醒来；猛然意识到"
+      },
+      {
+        "word": "kesedaran",
+        "affix": "ke-…-an",
+        "gloss": "意识；觉悟"
+      },
+      {
+        "word": "penyedaran",
+        "affix": "peN-…-an",
+        "gloss": "使人醒悟的过程"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "明白实际情况的；意识到的；醒悟的。",
+      "ms_definition": "tahu dan ingat (akan keadaan yg sebenarnya), insaf, mengerti",
+      "nuances": "常接 akan 加名词，或 bahawa 引导的从句。强调对处境、影响或责任的认识，较单纯的 tahu 更有“意识到”的意味；同形树名 sédar（雪松）读音和词源另属一词，不混入本词族。",
+      "collocations": [
+        {
+          "ms": "sedar akan tanggungjawab",
+          "zh": "意识到自身责任",
+          "en": "aware of one's responsibilities"
+        },
+        {
+          "ms": "sedar bahawa",
+          "zh": "意识到……；明白……",
+          "en": "realize that"
+        }
+      ],
+      "en_definition": "Aware of or coming to understand the true situation; to realize."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "清醒的；从睡眠或昏迷中醒来的。",
+      "ms_definition": "ingat kembali, bangun atau jaga (drpd tidur), siuman semula",
+      "nuances": "描述意识状态或恢复清醒。tidak sedarkan diri 通常指失去意识；斥责别人 tak sedar diri 又可能是在说对方不自量力，语境决定意思。",
+      "collocations": [
+        {
+          "ms": "sedar semula",
+          "zh": "恢复意识；重新清醒",
+          "en": "regain consciousness"
+        },
+        {
+          "ms": "sedar daripada pengsan",
+          "zh": "从昏迷中醒来",
+          "en": "come round after fainting"
+        }
+      ],
+      "en_definition": "Awake or conscious; to wake up or regain consciousness."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共宣传／环境保护报道",
+      "ms": "Masyarakat perlu sedar akan kepentingan menjaga kebersihan sungai demi kesejahteraan bersama.",
+      "zh": "社会大众应认识到保持河流清洁对共同福祉的重要性。",
+      "en": "The public needs to be aware of the importance of keeping rivers clean for everyone's well-being."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友帮忙找钥匙，当事人发现钥匙一直在自己口袋里",
+      "ms_spoken": "Dah jumpa kunci kau? Aku cari kat bawah sofa pun takde.",
+      "ms_standard": "Adakah kamu sudah menemukan kunci kamu? Saya sudah mencarinya di bawah sofa, tetapi kunci itu juga tiada di situ.",
+      "zh": "找到你的钥匙了吗？我连沙发底下都找了，也没有。",
+      "spoken_features": [
+        "sedar 在这里表示“意识到、发现实际情况”，不是“从睡眠中醒来”。",
+        "Baru aku sedar 把 baru 放在句首，突出“这才意识到”。",
+        "内容从句省略 bahawa 和已知主语 kunci itu，标准语将其补出。",
+        "takde 是 tak ada 的口语连写；kat 对应 di。",
+        "句尾 rupanya 表示刚刚发现的事实，中文在这里自然译为“原来”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (帮忙找钥匙的朋友)",
+          "ms_spoken": "Dah jumpa kunci kau? Aku cari kat bawah sofa pun takde.",
+          "ms_standard": "Adakah kamu sudah menemukan kunci kamu? Saya sudah mencarinya di bawah sofa, tetapi kunci itu juga tiada di situ.",
+          "zh": "找到你的钥匙了吗？我连沙发底下都找了，也没有。",
+          "en": "Found your keys yet? I even looked under the sofa, but they're not there."
+        },
+        {
+          "speaker": "Haziq (丢三落四的朋友)",
+          "ms_spoken": "Dah jumpa. Baru aku sedar, dari tadi ada dalam poket jaket aku rupanya!",
+          "ms_standard": "Saya sudah menemukannya. Saya baru sedar bahawa kunci itu sebenarnya sudah berada di dalam poket jaket saya sejak tadi!",
+          "zh": "找到了。我这才发现，原来钥匙从刚才起就一直在我的夹克口袋里！",
+          "en": "Found them. I only just realized they've been in my jacket pocket this whole time!"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Saya baru sedar… 可自然地承认刚发现问题。提醒别人时可说 Mungkin perkara ini terlepas pandang，而直接说 Awak tak sedar diri! 带有强烈斥责意味。",
+    "usage_etiquette": "不要把 tak sedar diri 当成一般的“你没注意到”。它在争执中可能指责别人不知分寸；报告有人失去意识时应补足具体情境，避免歧义。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "原始马来语支；更早为原始马来—波利尼西亚语",
+    "root_origin": "资料包追溯至重建形式 *sadar；与 sadar 为同源异形词。星号表示语言学重建形式。",
+    "historical_story": "Sedar 属于马来语继承的南岛语言词汇，资料包把它向前追溯至重建形式 *sadar。今天它一头连接“从睡梦中醒来”，一头连接“终于看清自己的处境”，把身体的清醒和思想的觉悟放在同一个词里。",
+    "cognitive_memory_aid": "用“醒”串起两个意思：人醒了是 sedar，心里想明白了也是 sedar。"
+  }
+}

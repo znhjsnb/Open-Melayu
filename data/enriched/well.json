@@ -1,0 +1,95 @@
+{
+  "headword": {
+    "word": "well",
+    "syllables": null,
+    "ipa": "/wel/",
+    "jawi": null,
+    "frequency_rank": 752,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "well",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + well → well",
+    "pattern_note": "英语整词夹用，本条处理会话衔接功能；不拆成马来语词缀，也不生成未经依据的马来语派生词。官方音节与 Jawi 在原始包中均缺失，保留 null；IPA 为英语读音。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "嗯；那么；好吧——英语话语标记，用来开始回答、整理思路或引出保留意见。",
+      "ms_definition": "Huraian editorial, bukan petikan Kamus Dewan: kata bahasa Inggeris yang digunakan untuk memulakan jawapan atau menyambung percakapan; padanannya bergantung pada konteks, misalnya baiklah atau jadi.",
+      "nuances": "这是英语夹用，不能仅凭词频判定已成为标准马来语词。particle 是本 Schema 对话语功能的归类，英语词典常标作 exclamation；英语的“好地／健康的／井”等同形义不自动成为马来语义项。话语功能及 /wel/ 参见 Cambridge Dictionary：https://dictionary.cambridge.org/dictionary/english/well 。",
+      "collocations": [
+        {
+          "ms": "well, saya rasa",
+          "zh": "嗯，我觉得（英语夹用）",
+          "en": "well, I think"
+        },
+        {
+          "ms": "well, kalau macam tu",
+          "zh": "那么，要是这样的话（英语夹用）",
+          "en": "well, in that case"
+        }
+      ],
+      "en_definition": "An English discourse marker used to introduce a response, gather one's thoughts, or express hesitation or reservation."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 访谈报道",
+      "ms": "Beliau memulakan jawapannya dengan kata bahasa Inggeris 'well' sebelum meneruskan penjelasan dalam bahasa Melayu.",
+      "zh": "他先用了英语的“well”开头，随后用马来语继续解释。",
+      "en": "He began his answer with the English word 'well' before continuing his explanation in Malay."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友临时更改聚餐地点",
+      "ms_spoken": "Kedai yang kita nak pergi tu tutup pulak. Makan kat kedai sebelah je?",
+      "ms_standard": "Kedai yang hendak kita kunjungi itu pula tutup. Mahukah kita makan di kedai sebelah sahaja?",
+      "zh": "我们想去的那家店偏偏关门了。就在隔壁那家吃？",
+      "spoken_features": [
+        "Well 是英语话语标记，这里引出考虑后接受建议的回应，与马来语形成语码转换。",
+        "nak 对应 hendak；kat 对应 di；tu 对应 itu；je 对应 sahaja。",
+        "pulak、jugak 分别是 pula、juga 的口语写法；pulak 在这里带有出乎意料的意味。",
+        "dah lapar ni 突出此刻已经饿了；malas nak 表示懒得或不愿费劲做某事。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kedai yang kita nak pergi tu tutup pulak. Makan kat kedai sebelah je?",
+          "ms_standard": "Kedai yang hendak kita kunjungi itu pula tutup. Mahukah kita makan di kedai sebelah sahaja?",
+          "zh": "我们想去的那家店偏偏关门了。就在隔壁那家吃？",
+          "en": "Turns out the place we wanted to go to is closed. Shall we just eat next door?"
+        },
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Well, boleh jugak. Saya dah lapar ni, malas nak cari tempat lain.",
+          "ms_standard": "Baiklah, boleh juga. Saya sudah lapar sekarang dan tidak mahu bersusah payah mencari tempat lain.",
+          "zh": "嗯，也行。我都饿了，懒得再找别的地方了。",
+          "en": "Well, that works too. I'm hungry already, and I can't be bothered to look for somewhere else."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "在双方都习惯夹用英语的聊天中可自然出现；正式马来语发言宜按语境用 baiklah、jadi 等表达，或直接开始回答。",
+    "usage_etiquette": "不要把多语夹用与任何族群或语言能力画等号。Well 后若接反驳，语调和措辞会影响是否显得不耐烦；对陌生人或长辈可先用礼貌称呼，再清楚表达意见。正式场景例句是在报道英语词的使用。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语",
+    "root_origin": "此话语标记来自英语 well；Oxford 将其追溯至古英语 wel(l)，属日耳曼语源：https://www.oxfordlearnersdictionaries.com/us/definition/english/well_3 。",
+    "historical_story": "英语 well 可追溯至古英语 wel(l)，后来也承担了开启回答和衔接话题的会话功能。把它放进马来语聊天时，说话者可以先用英语的 well 作铺垫，再转入马来语句子，这呈现了多语交流中的语码转换。现有材料没有提供它进入马来西亚口语的确切年代，不能据此编造某次传播事件。",
+    "cognitive_memory_aid": "把 well 想成回答前的一小格停顿：Well, saya rasa…＝嗯，我觉得……，正式表达时按意思换成马来语。"
+  }
+}

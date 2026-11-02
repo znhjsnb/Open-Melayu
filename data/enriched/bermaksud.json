@@ -1,0 +1,150 @@
+{
+  "headword": {
+    "word": "bermaksud",
+    "syllables": "ber.maʔ.sud",
+    "ipa": "/bər.maksud/",
+    "jawi": "برمقصود",
+    "frequency_rank": 920,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "maksud",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + maksud → bermaksud",
+    "pattern_note": "ber- 接名词 maksud，词根拼写不变。原始 syllables 字段为空，此处逐字采用 DBP 方括号中的 ber.maʔ.sud 注音；ʔ 表示喉塞音，不是拼写字母。IPA 按构词标示音位形式。",
+    "word_family": [
+      {
+        "word": "maksud",
+        "affix": "none",
+        "gloss": "意思；意图；目的"
+      },
+      {
+        "word": "memaksudkan",
+        "affix": "meN-…-kan",
+        "gloss": "意指；想表达；以某事为意图"
+      },
+      {
+        "word": "dimaksudkan",
+        "affix": "di-…-kan",
+        "gloss": "被意指；所指的"
+      },
+      {
+        "word": "termaksud",
+        "affix": "ter-",
+        "gloss": "所指的；所意欲的"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "打算；有意；怀有某种目的。",
+      "ms_definition": "bertujuan, berhajat, berkehendak, berniat (hendak)",
+      "nuances": "主语通常是有意图的人或机构，后接 hendak 或 untuk 引出行动。Saya tidak bermaksud… 常用于说明自己并无冒犯或打扰之意。",
+      "collocations": [
+        {
+          "ms": "bermaksud hendak membantu",
+          "zh": "有意提供帮助",
+          "en": "intend to help"
+        },
+        {
+          "ms": "tidak bermaksud untuk menyinggung perasaan",
+          "zh": "并无意冒犯",
+          "en": "not mean to cause offence"
+        }
+      ],
+      "en_definition": "To intend or have a particular purpose in mind."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "意思是；意味着；含有某种意义。",
+      "ms_definition": "mengandungi erti",
+      "nuances": "主语常是词语、句子、符号或一件事；Ini bermaksud bahawa… 用来解释含义或推论，不表示某个人打算做什么。",
+      "collocations": [
+        {
+          "ms": "bermaksud bahawa",
+          "zh": "意味着……；意思是……",
+          "en": "mean that"
+        },
+        {
+          "ms": "tidak semestinya bermaksud",
+          "zh": "并不一定意味着",
+          "en": "does not necessarily mean"
+        }
+      ],
+      "en_definition": "To mean or signify something."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻说明 / 公共服务公告",
+      "ms": "Penangguhan itu tidak bermaksud bahawa program tersebut telah dibatalkan.",
+      "zh": "此次延期并不意味着该活动已被取消。",
+      "en": "The postponement does not mean that the programme has been cancelled."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友因回复语气产生误会后澄清",
+      "ms_spoken": "Kau marah aku ke? Balas pendek je tadi.",
+      "ms_standard": "Adakah kamu marah kepada saya? Balasan kamu tadi sangat ringkas.",
+      "zh": "你在生我的气吗？你刚才回得好简短。",
+      "spoken_features": [
+        "bermaksud 在这里表示意图；tak bermaksud nak… 可还原为 tidak berniat untuk…。",
+        "句末 ke 构成口语是非问句；je 对应 sahaja；taklah 用于柔和地否认。",
+        "buat kau terasa 在这里指让对方心里不舒服或感到受伤。",
+        "tengah 对应 sedang；kat 对应 di；第二轮末句省略了主语 aku。",
+        "patutlah 表示得知原因后的恍然大悟；ingat 在这里表示原先以为；borak 对应 berbual。"
+      ],
+      "messages": [
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Kau marah aku ke? Balas pendek je tadi.",
+          "ms_standard": "Adakah kamu marah kepada saya? Balasan kamu tadi sangat ringkas.",
+          "zh": "你在生我的气吗？你刚才回得好简短。",
+          "en": "Are you mad at me? Your reply was really short earlier."
+        },
+        {
+          "speaker": "Mira (朋友)",
+          "ms_spoken": "Eh, taklah. Aku tak bermaksud nak buat kau terasa. Tadi tengah sibuk kat kaunter.",
+          "ms_standard": "Tidak. Saya tidak berniat untuk menyinggung perasaan kamu. Saya sedang sibuk di kaunter tadi.",
+          "zh": "诶，没有啦。我不是有意让你难受的，刚才正在柜台忙。",
+          "en": "Oh, no, I'm not. I didn't mean to hurt your feelings. I was busy at the counter earlier."
+        },
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Oh, patutlah. Aku ingat kau kecil hati pasal semalam. Nanti dah lapang kita borak ya.",
+          "ms_standard": "Oh, rupa-rupanya begitu. Saya menyangka kamu tersinggung kerana perkara yang berlaku semalam. Apabila kamu sudah lapang nanti, kita berbual.",
+          "zh": "哦，怪不得。我还以为你因为昨天的事不高兴。等你有空了我们再聊啊。",
+          "en": "Oh, that explains it. I thought you were upset about yesterday. Let's chat when you're free, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "bermaksut",
+      "full_form": "bermaksud",
+      "note": "聊天中偶见的非标准拼写，可能受词尾清化发音影响；不是规范缩写，正式书写用 bermaksud。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "tidak bermaksud 可用于温和澄清意图；若已经伤及对方，可以同时明确道歉，避免只解释自己的出发点。",
+    "usage_etiquette": "向不熟悉的人解释时可用 Maaf, saya tidak bermaksud…；称呼依关系选择姓名、职称或适当敬称。解释词义时用 Perkataan ini bermaksud…，比直接质问对方的意图更中性。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语词根借入马来语后，加马来语前缀 ber-",
+    "root_origin": "maksud 源自阿拉伯语 مَقْصُود (maqṣūd，所意欲的、所指的)，与 قَصَدَ (qaṣada，意图、趋向) 有关；bermaksud 在马来语内部构成。",
+    "historical_story": "maksud 来自阿拉伯语 maqṣūd，带着所意欲、所指向的意义，属于阿拉伯语影响马来语的词汇层。把它放在印度洋交流的文化背景下看，外来词进入马来语后，也会像本土词一样参与构词；这里便接上了 ber-。现代 bermaksud 因而既能说明一个人的意图，也能解释一句话所表达的意思。",
+    "cognitive_memory_aid": "maksud 是意思或意图，bermaksud 就是有这个意思或意图：人作主语常是打算，句子作主语常是意味着。"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "headword": {
+    "word": "menulis",
+    "syllables": "me.nu.lis",
+    "ipa": "/mə.nulis/",
+    "jawi": "منوليس",
+    "frequency_rank": 911,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tulis",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + tulis → menulis（写）",
+    "pattern_note": "meN- 接 tulis 时，词首 t 脱落，鼻音实现为 n。音节和 Jawi 恢复自本地同批任务文件中的 PRPM 原始字段；IPA 为编辑宽式转写。CEFR 为教学估级，非 DBP 官方分级。",
+    "word_family": [
+      {
+        "word": "tulis",
+        "affix": "无",
+        "gloss": "写；词根"
+      },
+      {
+        "word": "tulisan",
+        "affix": "-an",
+        "gloss": "文字；字迹；文章"
+      },
+      {
+        "word": "penulis",
+        "affix": "peN-",
+        "gloss": "作者；写作者"
+      },
+      {
+        "word": "penulisan",
+        "affix": "peN-…-an",
+        "gloss": "写作"
+      },
+      {
+        "word": "bertulis",
+        "affix": "ber-",
+        "gloss": "书面的；写有文字的"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "写字；用文字记录。",
+      "ms_definition": "mencatat kata-kata dgn huruf dan memakai pena (kalam, kapur, pensel, dll), menyurat",
+      "nuances": "侧重写出文字或记录内容；现代也可用于电脑、手机上的文字输入。与 membaca（阅读）区分。",
+      "collocations": [
+        {
+          "ms": "menulis nama",
+          "zh": "写下姓名",
+          "en": "write down a name"
+        },
+        {
+          "ms": "menulis nota",
+          "zh": "记笔记",
+          "en": "take notes"
+        }
+      ],
+      "en_definition": "To form letters or words in writing; to record something in writing."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "写作；以文字表达思想或感情；写信。",
+      "ms_definition": "melahirkan perasaan (fikiran dll) dgn catatan yg memakai huruf, membuat surat, mengarang",
+      "nuances": "侧重创作或表达内容。menulis kepada seseorang 是给某人写信；menulis tentang sesuatu 是写某个主题。",
+      "collocations": [
+        {
+          "ms": "menulis novel",
+          "zh": "写小说",
+          "en": "write a novel"
+        },
+        {
+          "ms": "menulis surat",
+          "zh": "写信",
+          "en": "write a letter"
+        }
+      ],
+      "en_definition": "To express thoughts or feelings in writing; to compose a text or write a letter."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "【古典马来语】画；绘图。",
+      "ms_definition": "sl membuat gambar, menggambar, melukis",
+      "nuances": "Kamus Dewan 标注 sl，属古典语义；现代通常说 melukis 或 menggambar。下列组合是帮助理解古义的释义型搭配，不是现代高频表达。",
+      "collocations": [
+        {
+          "ms": "menulis gambar",
+          "zh": "绘制图画（古义）",
+          "en": "draw a picture (classical usage)"
+        },
+        {
+          "ms": "gambar yang ditulis",
+          "zh": "画出来的图像（古义）",
+          "en": "a drawn picture (classical usage)"
+        }
+      ],
+      "en_definition": "(Classical Malay) To draw or paint a picture."
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "手绘蜡染图案；以手工制作蜡染布。",
+      "ms_definition": "membuat kain batik (dgn tangan), membatik",
+      "nuances": "限蜡染工艺语境，通常指用手工绘制而非盖印的制作方式。DBP 的 batik 词条也区分 batik tulis 与 batik cap：[PRPM](https://prpm.dbp.gov.my/Cari1?d=8064&keyword=batik)。",
+      "collocations": [
+        {
+          "ms": "menulis batik",
+          "zh": "手绘蜡染",
+          "en": "make hand-drawn batik"
+        },
+        {
+          "ms": "menulis corak batik",
+          "zh": "绘制蜡染图案",
+          "en": "draw batik patterns by hand"
+        }
+      ],
+      "en_definition": "To make batik by applying wax designs to cloth by hand."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育报道 / 校园阅读活动",
+      "ms": "Program itu menggalakkan murid menulis ulasan buku bagi meningkatkan kemahiran berbahasa.",
+      "zh": "该计划鼓励学生撰写书评，以提高语言能力。",
+      "en": "The programme encourages pupils to write book reviews to improve their language skills."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学分工写课程报告，确认进度",
+      "ms_spoken": "Kau dah mula menulis laporan kita ke? Aku baru siap bahagian pengenalan je.",
+      "ms_standard": "Adakah kamu sudah mula menulis laporan kita? Saya baru sahaja menyiapkan bahagian pengenalan.",
+      "zh": "你开始写我们的报告了吗？我才刚写好引言部分。",
+      "spoken_features": [
+        "aku、kau 用于关系熟悉的同学之间；标准语版本改用 saya、kamu。",
+        "dah 对应 sudah；je 对应 sahaja；句末 ke 构成口语是非问句。",
+        "sangkut kat 在这里形容写作进度卡住，标准语还原为 menghadapi kesukaran pada。",
+        "kejap 表示稍等；grup 指聊天群；senang semua nak rujuk 表示方便大家查阅。",
+        "menulis 用于写报告的具体任务，在口语对话中可以保留完整词形。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Kau dah mula menulis laporan kita ke? Aku baru siap bahagian pengenalan je.",
+          "ms_standard": "Adakah kamu sudah mula menulis laporan kita? Saya baru sahaja menyiapkan bahagian pengenalan.",
+          "zh": "你开始写我们的报告了吗？我才刚写好引言部分。",
+          "en": "Have you started writing our report yet? I've only just finished the introduction."
+        },
+        {
+          "speaker": "Farhan (同学)",
+          "ms_spoken": "Dah, tapi aku sangkut kat bahagian dapatan. Boleh hantar data semalam tak?",
+          "ms_standard": "Sudah, tetapi saya menghadapi kesukaran pada bahagian dapatan. Bolehkah kamu menghantar data semalam?",
+          "zh": "开始了，不过我卡在研究结果那部分了。能把昨天的数据发过来吗？",
+          "en": "Yeah, but I'm stuck on the findings section. Can you send me yesterday's data?"
+        },
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Boleh, kejap ya. Aku hantar dalam grup sekali, senang semua nak rujuk.",
+          "ms_standard": "Boleh, tunggu sebentar. Saya akan menghantarnya dalam kumpulan juga supaya semua orang mudah merujuknya.",
+          "zh": "可以，等一下啊。我也发到群里，方便大家查阅。",
+          "en": "Sure, give me a sec. I'll send it to the group too so everyone can refer to it easily."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "nulis",
+      "full_form": "menulis",
+      "note": "所给语料候选；更常见于印尼口语及受其影响的网络表达，不宜当作通行的马来西亚标准缩写。正式写 menulis，马来西亚随意聊天也常直接用 tulis。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "本词中性。向老师、客户或不熟悉的人提出书写要求时，可说 Sila tulis… 或 Boleh bantu tulis…?。",
+    "usage_etiquette": "写给他人时按关系选择称呼；姓名、头衔和族群相关称谓应尊重本人用法。写公开文章前核实事实，转述他人文字时注明出处。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语",
+    "root_origin": "现代可分析为 meN- + tulis；此处标注马来语所属语族，不据此断言 tulis 的远古来源或首见年代。",
+    "historical_story": "翻开马来古典文字，menulis 不只可以指写字，词典还保存了它表示绘画的用法。走进蜡染作坊，这个动词又能指手工绘制布面图案；今天的课堂和手机屏幕则让人首先想到用文字记录与表达。这些用法呈现了书写与绘制之间的联系，现有资料不足以排出各义的确切先后。",
+    "cognitive_memory_aid": "把 tulis 想成笔尖：加 meN- 时 t 让位给 n，menulis 就是让笔尖开始写。"
+  }
+}

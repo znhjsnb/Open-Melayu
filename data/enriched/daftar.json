@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "daftar",
+    "syllables": "daf.tar",
+    "ipa": "[ˈdaf.tar]",
+    "jawi": "دفتر",
+    "frequency_rank": 2742,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "daftar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + daftar → daftar",
+    "pattern_note": "daftar 是整词借入的词根，不作内部词缀拆分。派生 mendaftar 时，meN- 在 d 前变为 men-，原有 d 保留。",
+    "word_family": [
+      {
+        "word": "mendaftar",
+        "affix": "meN-",
+        "gloss": "登记；注册"
+      },
+      {
+        "word": "pendaftaran",
+        "affix": "peN-...-an",
+        "gloss": "登记手续；注册"
+      }
+    ],
+    "root_jawi": "دفتر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "按数字、字母或其他既定顺序编排的人名、物品等的清单或名册。",
+      "en_definition": "An ordered list or register of names, items, or other particulars.",
+      "ms_definition": "Susunan nama, barang dan sebagainya yang ditulis menurut urutan angka atau abjad; senarai.",
+      "nuances": "本条核心义是名词“清单、名册”。口语中的 dah daftar 和界面上的 Daftar 常表示“已经注册”和“注册”，相应完整动词是 mendaftar，不应把所有 daftar 都译成“注册”。[DBP：daftar](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=daftar)",
+      "collocations": [
+        {
+          "ms": "daftar pemilih",
+          "zh": "选民名册",
+          "en": "electoral register"
+        },
+        {
+          "ms": "daftar kedatangan",
+          "zh": "出勤登记册",
+          "en": "attendance register"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "行政公文 / 活动管理",
+      "ms": "Urus setia hendaklah menyemak daftar peserta sebelum mengeluarkan sijil penyertaan.",
+      "zh": "秘书处须在发出参与证书前核对参加者名册。",
+      "en": "The secretariat must check the participant register before issuing certificates of participation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对出勤",
+      "ms_spoken": "Nama aku dah ada dalam daftar kedatangan tu ke?",
+      "ms_standard": "Adakah nama saya sudah tercatat dalam daftar kedatangan itu?",
+      "zh": "出勤登记册里已经有我的名字了吗？",
+      "en": "Is my name already on that attendance register?",
+      "spoken_features": [
+        "dah 代替 sudah，tu 代替 itu。",
+        "句末 ke 表示疑问。",
+        "aku 适用于熟悉同事之间；je 代替 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (同事)",
+          "ms_spoken": "Nama aku dah ada dalam daftar kedatangan tu ke?",
+          "ms_standard": "Adakah nama saya sudah tercatat dalam daftar kedatangan itu?",
+          "zh": "出勤登记册里已经有我的名字了吗？",
+          "en": "Is my name already on that attendance register?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah ada. Kau tandatangan je sebelah nama kau.",
+          "ms_standard": "Nama kamu sudah tercatat. Kamu hanya perlu menandatangani ruang di sebelah nama kamu.",
+          "zh": "有了。你在名字旁边签个名就行。",
+          "en": "Yes, it is. Just sign next to your name."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "核对名册时可说 Sila semak nama anda，语气清楚而礼貌。向工作人员提出请求时，可用 Boleh tolong semak nama saya?",
+    "usage_etiquette": "用 daftar peserta 指参加者名册，用 pendaftaran peserta 指参加者登记手续；在完整正式句中表达登记动作时用 mendaftar 或 mendaftarkan。"
+  },
+  "etymology": {
+    "historical_story": "daftar 借自阿拉伯语 daftar，意为“登记册、名册”。可以把它想成一本逐行记下姓名的账册：马来语保留了“有序记录”的含义，又通过 mendaftar 和 pendaftaran 形成“登记”和“登记手续”等词。[Wiktionary：daftar 词源](https://en.wiktionary.org/wiki/daftar)",
+    "cognitive_memory_aid": "在脑中画一本左边编号、右边写名字的册子：那本册子是 daftar，把名字写进去是 mendaftar。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "核对名册时可说 Sila semak nama anda，语气清楚而礼貌。向工作人员提出请求时，可用 Boleh tolong semak nama saya?",
+    "usage_etiquette": "用 daftar peserta 指参加者名册，用 pendaftaran peserta 指参加者登记手续；在完整正式句中表达登记动作时用 mendaftar 或 mendaftarkan。"
+  }
+}

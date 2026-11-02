@@ -1,0 +1,119 @@
+{
+  "headword": {
+    "word": "yah",
+    "syllables": null,
+    "ipa": "/jah/",
+    "jawi": null,
+    "frequency_rank": 645,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: ايه (ayah)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ayah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "ayah → yah（亲昵称呼中的截短）",
+    "pattern_note": "按 ayah 的家庭呼语短式理解，不是添加词缀而成；is_root=false 表示截短来源，不表示有派生词缀。PRPM 数据未提供 yah 的音节或 Jawi，两字段保留 null；不拿 ayah 的官方拼写冒充 yah 的拼写。 核心词根（Kata Dasar）「ayah」官方爪夷文为「ايه」，派生附加 派生词缀。",
+    "word_family": [
+      {
+        "word": "ayah",
+        "affix": "∅（完整形式）",
+        "gloss": "父亲；爸爸"
+      },
+      {
+        "word": "berayah",
+        "affix": "ber-（加于 ayah）",
+        "gloss": "有父亲"
+      },
+      {
+        "word": "keayahan",
+        "affix": "ke-...-an（加于 ayah）",
+        "gloss": "父亲的特质；父性"
+      }
+    ],
+    "root_jawi": "ايه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "爸；爸爸，亲近家庭成员使用的父亲称呼短式。",
+      "ms_definition": "Huraian editorial berdasarkan glos Kaikki: bapa; panggilan ringkas bagi ayah dalam lingkungan keluarga. Tiada definisi Kamus Dewan bagi yah dalam paket PRPM yang dibekalkan.",
+      "nuances": "本条按资料包的父亲义处理，通常作为呼语，不把它自动解释为表示同意的 ya。常见组合主要是向父亲说话的短语，不是正式词汇搭配；具体称呼依家庭习惯而定。CEFR 与日常标签均为教学编辑分类，词频来自给定语料，不表示官方评级。",
+      "collocations": [
+        {
+          "ms": "terima kasih, yah",
+          "zh": "谢谢爸",
+          "en": "thanks, Dad"
+        },
+        {
+          "ms": "selamat malam, yah",
+          "zh": "爸，晚安",
+          "en": "good night, Dad"
+        }
+      ],
+      "en_definition": "Dad; a familiar form of address for one's father, shortened from ayah."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "人物报道／保留亲子对话引语",
+      "ms": "Dalam wawancara itu, beliau mengenang kata-katanya kepada bapanya: \"Terima kasih, yah, kerana sentiasa menyokong saya.\"",
+      "zh": "在专访中，他回忆自己曾对父亲说：“谢谢爸，一直支持我。”",
+      "en": "In the interview, he recalled saying to his father, \"Thank you, Dad, for always supporting me.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 女儿请父亲留门",
+      "ms_spoken": "Yah, dah sampai rumah ke? Saya tak bawak kunci ni.",
+      "ms_standard": "Ayah, adakah ayah sudah sampai di rumah? Saya tidak membawa kunci.",
+      "zh": "爸，你到家了吗？我没带钥匙。",
+      "spoken_features": [
+        "Yah 是这个家庭使用的 Ayah 亲昵称呼短式；位于消息开头时可大写。",
+        "bawak 是 bawa 的口语变体，此处标准语用 membawa；kat 对应 di。",
+        "父亲用 ayah 自称，女儿用 saya 自称，符合这组家庭关系。",
+        "bagi salam 指说出伊斯兰问候语；kuat sikit 在这里指声音稍微大一些。"
+      ],
+      "messages": [
+        {
+          "speaker": "Alya (女儿)",
+          "ms_spoken": "Yah, dah sampai rumah ke? Saya tak bawak kunci ni.",
+          "ms_standard": "Ayah, adakah ayah sudah sampai di rumah? Saya tidak membawa kunci.",
+          "zh": "爸，你到家了吗？我没带钥匙。",
+          "en": "Dad, are you home yet? I haven't got my keys with me."
+        },
+        {
+          "speaker": "Ayah (父亲)",
+          "ms_spoken": "Dah. Balik je, ayah ada kat rumah. Nanti sampai, bagi salam kuat sikit.",
+          "ms_standard": "Ayah sudah sampai. Pulanglah, ayah berada di rumah. Apabila sampai nanti, ucapkan salam dengan suara yang sedikit lebih kuat.",
+          "zh": "到了。直接回来吧，爸爸在家。到了以后，大声一点喊色兰问候。",
+          "en": "Yes, I'm home. Just come back. When you get here, say 'assalamu alaikum' nice and loud."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "yah",
+      "full_form": "ayah",
+      "note": "家庭称呼的口语截短，也可写进聊天；不是所有家庭都会使用，不用作正式表格中的父亲称谓。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "intimate",
+    "politeness_note": "适用于已习惯这一称呼的家庭成员。与不熟悉的长辈交谈时不要仅凭年龄就喊 yah；正式叙述父亲用 ayah 或 bapa。",
+    "usage_etiquette": "不同家庭可能用 ayah、abah、papa 等，沿用对方实际称呼即可。正式场景通过直接引语保留 yah 的亲密语气，报道者本身仍使用 bapanya。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语 ayah 的家庭称呼短式；更早亲属词属南岛语系",
+    "root_origin": "yah 与 ayah（父亲）相关；短式的具体形成年代未明，不等同于英语 yah 或宗教专名 Yah。",
+    "historical_story": "家庭里反复呼唤父亲的 ayah，可以缩成更短的 yah；这类亲昵称呼靠家人之间的口语习惯延续，不需要经过正式公文。进入字幕或手机聊天后，短式也能直接写出来，但本资料没有说明它最早出现在哪一地区或哪个年代。",
+    "cognitive_memory_aid": "把 a-yah 前面的 a 轻轻收掉，留下呼唤爸爸的 yah；想到爸爸，不要和表示是的 ya 混淆。"
+  }
+}

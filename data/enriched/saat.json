@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "saat",
+    "syllables": null,
+    "ipa": "[ˈsa.(ʔ)at̪̚]",
+    "jawi": "ساعت",
+    "frequency_rank": 258,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "saat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + saat → saat",
+    "pattern_note": "阿拉伯语整词借入，现代马来语中作为独立词根；不是 sa- + at。PRPM 音节字段为空，保留 null；词条中的发音标注不冒充正字法分节。IPA 中可有喉塞音 [ʔ]。",
+    "word_family": [
+      {
+        "word": "sesaat",
+        "affix": "se-",
+        "gloss": "一秒；片刻"
+      },
+      {
+        "word": "saatnya",
+        "affix": "-nya（附着形式）",
+        "gloss": "其时刻；该到的时候"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "秒；一分钟的六十分之一。",
+      "ms_definition": "masa yg lamanya 1/60 minit; detik",
+      "nuances": "定义摘自包内《Kamus Pelajar Edisi Kedua》。所给《Kamus Dewan》第 2 义文本缺少分数内容，因此不照抄其残缺句。马来西亚正式计时常用 saat；一分钟是 60 saat，一小时是 60 minit。",
+      "collocations": [
+        {
+          "ms": "beberapa saat",
+          "zh": "几秒钟",
+          "en": "a few seconds"
+        },
+        {
+          "ms": "sesaat",
+          "zh": "一秒；每秒（随句法而定）",
+          "en": "one second; per second, depending on context"
+        }
+      ],
+      "en_definition": "A second; one sixtieth of a minute."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "片刻；瞬间；某个时刻或关头。",
+      "ms_definition": "masa yg sangat pendek; ketika, waktu",
+      "nuances": "合并摘录《Kamus Dewan》第 1、3 义。此处不一定精确计秒，saat akhir 指最后关头。pada saat… 引出时间；正式马来西亚叙述“当……时”通常可用 ketika 或 apabila，不必照搬所有印尼式 saat 从句。",
+      "collocations": [
+        {
+          "ms": "saat akhir",
+          "zh": "最后关头",
+          "en": "the last moment"
+        },
+        {
+          "ms": "saat genting",
+          "zh": "危急时刻",
+          "en": "a critical moment"
+        }
+      ],
+      "en_definition": "A moment; a very short time or a particular point in time."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "体育新闻 / 比赛成绩报道",
+      "ms": "Pelari negara itu menamatkan perlumbaan 100 meter dalam masa 10.5 saat.",
+      "zh": "该国家选手以 10.5 秒完成百米赛跑。",
+      "en": "The national sprinter completed the 100-metre race in 10.5 seconds."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学等待上传作业文件的链接",
+      "ms_spoken": "Mana pautan fail tu? Aku nak hantar kat pensyarah dah ni.",
+      "ms_standard": "Di manakah pautan fail itu? Saya sudah hendak menghantarnya kepada pensyarah.",
+      "zh": "那个文件的链接呢？我这就要交给讲师了。",
+      "spoken_features": [
+        "beberapa saat 表示几秒钟，saat 在这里是时间单位。",
+        "je = sahaja；dah = sudah；ni = ini；tu = itu。",
+        "kat 在 hantar kat pensyarah 中表示接收对象，标准语对应 kepada。",
+        "dah 98 peratus 省略了可从语境理解的上传进度；Siap nanti 表示上传完成之后。",
+        "sekali 在最后一轮表示也、顺便，不是在计算一次。"
+      ],
+      "messages": [
+        {
+          "speaker": "Daniel (同学)",
+          "ms_spoken": "Mana pautan fail tu? Aku nak hantar kat pensyarah dah ni.",
+          "ms_standard": "Di manakah pautan fail itu? Saya sudah hendak menghantarnya kepada pensyarah.",
+          "zh": "那个文件的链接呢？我这就要交给讲师了。",
+          "en": "Where's the link to that file? I need to send it to the lecturer now."
+        },
+        {
+          "speaker": "Haziq (同学)",
+          "ms_spoken": "Tunggu beberapa saat je, dah 98 peratus ni. Siap nanti aku bagi pautan terus.",
+          "ms_standard": "Tunggu beberapa saat sahaja. Proses muat naik kini sudah mencapai 98 peratus. Sebaik sahaja proses itu selesai, saya akan terus memberikan pautannya.",
+          "zh": "再等几秒就好，已经上传到98%了。一传完我就把链接发给你。",
+          "en": "Just give it a few more seconds—it's at 98% now. I'll send you the link as soon as it's done."
+        },
+        {
+          "speaker": "Daniel (同学)",
+          "ms_spoken": "Okey, aku tunggu. Pastikan aku boleh buka fail tu sekali ya.",
+          "ms_standard": "Baiklah, saya akan menunggu. Pastikan juga saya dapat membuka fail itu.",
+          "zh": "好，我等你。也确认一下我能打开那个文件哦。",
+          "en": "Okay, I'll wait. Make sure I can open the file too, yeah?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用稍等几秒缓和催促时，可说 sila tunggu beberapa saat。朋友间的 tunggu… je 较随意；对客户宜用完整、礼貌的句式。",
+    "usage_etiquette": "计时、成绩与说明书中写清数值和单位。saat-saat akhir 常暗示临近期限，提醒别人时避免用责备口吻；词本身没有族群或宗教使用限制。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语",
+    "root_origin": "阿拉伯语 سَاعَة（sāʕa），有时刻、小时等时间义；不能把阿拉伯语的小时与现代马来语的秒等同。",
+    "historical_story": "阿拉伯语时间词进入了马来语词汇，而印度洋贸易与伊斯兰书写传统构成了阿拉伯语、马来语长期接触的文化背景，不能据此指定本词的首次传入路线。来到现代马来语，saat 既能定格人生中的某一刻，也能成为秒表上一分钟的六十分之一，小时则通常称 jam。",
+    "cognitive_memory_aid": "看着秒表跳一下：一格是 satu saat；把镜头停在人生的重要关头，也是一个 saat。"
+  }
+}

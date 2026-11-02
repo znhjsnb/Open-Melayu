@@ -1,0 +1,95 @@
+{
+  "headword": {
+    "word": "detektif",
+    "syllables": "dé.ték.tif",
+    "ipa": "/de.tek.tif/",
+    "jawi": "ديتيکتيف",
+    "frequency_rank": 964,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "detektif",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + detektif → detektif",
+    "pattern_note": "英语整词借入，现代马来语不拆成 de-、tekt 和 -if。原始 PRPM 的 syllables 字段虽空，定义开头明确列出 [dé.ték.tif]，据此提取；两个 é 为 e taling。IPA 据此转写，给定 /diˈtektif/ 是另一读法，不用它覆盖 DBP 提示；CEFR 为教学估计。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "侦探；负责调查刑事案件的警务人员。",
+      "ms_definition": "pegawai polis yg menyiasat kejadian jenayah, mata-mata gelap",
+      "nuances": "DBP 的核心义是调查犯罪的警员；现代 detektif swasta 指私人侦探。cerita detektif 指侦探题材故事，是名词用于说明故事类型，不必另判为形容词。",
+      "collocations": [
+        {
+          "ms": "detektif swasta",
+          "zh": "私人侦探",
+          "en": "private detective"
+        },
+        {
+          "ms": "cerita detektif",
+          "zh": "侦探故事",
+          "en": "detective story"
+        }
+      ],
+      "en_definition": "A police officer who investigates crimes."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 刑事调查报道",
+      "ms": "Seorang detektif ditugaskan untuk menyiasat kes kecurian itu dan meneliti rakaman kamera keselamatan.",
+      "zh": "一名侦探受命调查该宗盗窃案，并查看监控录像。",
+      "en": "A detective was assigned to investigate the theft and examine the security camera footage."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友推荐侦探剧并约定不剧透",
+      "ms_spoken": "Cerita detektif yang awak cadang tu best gila. Saya baru episod dua, jangan bagitahu siapa pembunuh tu tau!",
+      "ms_standard": "Cerita detektif yang awak cadangkan itu sangat menarik. Saya baru menonton sehingga episod kedua. Ingat, jangan beritahu saya siapa pembunuh itu!",
+      "zh": "你推荐的那部侦探剧太好看了。我才看到第二集，记住别告诉我凶手是谁啊！",
+      "spoken_features": [
+        "cerita detektif 在这里指侦探题材的剧集。",
+        "best 是常见英语换码；best gila 是熟人间夸张的赞美，表示非常精彩。",
+        "tu 对应 itu，bagitahu 对应 beritahu，je 对应 sahaja；句末 tau 提醒对方务必记住。",
+        "sembang pasal 对应 berbual tentang；ending 是英语换码，标准句用 pengakhiran。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友，正在追剧)",
+          "ms_spoken": "Cerita detektif yang awak cadang tu best gila. Saya baru episod dua, jangan bagitahu siapa pembunuh tu tau!",
+          "ms_standard": "Cerita detektif yang awak cadangkan itu sangat menarik. Saya baru menonton sehingga episod kedua. Ingat, jangan beritahu saya siapa pembunuh itu!",
+          "zh": "你推荐的那部侦探剧太好看了。我才看到第二集，记住别告诉我凶手是谁啊！",
+          "en": "That detective show you recommended is so good. I'm only on episode two, so don't tell me who the killer is, okay!"
+        },
+        {
+          "speaker": "Siti (朋友，已经看完)",
+          "ms_spoken": "Haha, okey, saya diam je 🤐 Dah habis tengok nanti, baru kita sembang pasal ending dia.",
+          "ms_standard": "Haha, baiklah, saya tidak akan mendedahkan apa-apa. Selepas awak selesai menontonnya nanti, barulah kita berbual tentang pengakhiran cerita itu.",
+          "zh": "哈哈，好，我什么都不说🤐 等你看完了，我们再聊结局。",
+          "en": "Haha, okay, my lips are sealed 🤐 We can talk about the ending once you've finished watching."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用来说明职业或故事类型时语气中性。称呼实际警员时，按其姓名、职衔或适当敬称交流，不把 detektif 当作随意给人的绰号。",
+    "usage_etiquette": "说别人像 detektif，熟人间可表示观察细致，也可能暗示多管闲事或盘问过度，应看关系与语气。detektif swasta 与警察身份不同，不能仅凭这个称呼认定对方具有警方权限。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "English",
+    "root_origin": "借自英语 detective；拼写和词尾读音适应马来语后形成 detektif。",
+    "historical_story": "英语 detective 随现代侦查职业和侦探叙事进入马来语词汇，词形适应为 detektif。今天它既可出现在刑案报道中，也活在小说和影视作品的线索、嫌疑人与破案情节里。",
+    "cognitive_memory_aid": "把 detective 的英语词尾换成马来语容易读写的 -tif：detektif 就是循着线索查案的人。"
+  }
+}

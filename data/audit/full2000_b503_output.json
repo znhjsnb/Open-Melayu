@@ -1,0 +1,400 @@
+{
+  "bir": {
+    "headword": {
+      "word": "bir",
+      "syllables": "bir",
+      "ipa": "[ˈbir]",
+      "jawi": "بير",
+      "frequency_rank": 1589,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "bir",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + bir → bir",
+      "pattern_note": "整词借入，无可拆分的马来语词缀；以下词族成员为复合词。",
+      "word_family": [
+        {
+          "word": "bir hitam",
+          "affix": "∅",
+          "gloss": "黑啤酒"
+        },
+        {
+          "word": "bir halia",
+          "affix": "∅",
+          "gloss": "姜汁啤饮，可不含酒精或仅含少量酒精"
+        }
+      ],
+      "root_jawi": "بير"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "啤酒；通常指以谷物为原料酿制的含酒精饮料。",
+        "en_definition": "Beer, an alcoholic drink generally brewed from grain.",
+        "ms_definition": "Sejenis minuman keras.",
+        "nuances": "单独使用通常指含酒精的啤酒。bir halia 是固定饮料名称，不能仅凭名称判断其酒精含量；arak 的范围比 bir 更广。",
+        "collocations": [
+          {
+            "ms": "setin bir",
+            "zh": "一罐啤酒"
+          },
+          {
+            "ms": "kilang bir",
+            "zh": "啤酒厂"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻 / 企业汇报",
+        "ms": "Syarikat itu melaporkan peningkatan eksport bir pada suku kedua.",
+        "zh": "该公司报告第二季度啤酒出口量有所增加。",
+        "en": "The company reported an increase in beer exports in the second quarter."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友点饮料",
+        "ms_spoken": "Aku tak nak bir, air limau je.",
+        "ms_standard": "Saya tidak mahu bir; saya mahu air limau sahaja.",
+        "zh": "我不要啤酒，青柠水就好。",
+        "en": "I don't want beer, just lime juice.",
+        "spoken_features": [
+          "aku 是熟人之间的第一人称代词。",
+          "tak 对应 tidak；nak 对应 mahu；je 对应 sahaja。"
+        ],
+        "messages": [
+          {
+            "speaker": "Jason (朋友)",
+            "ms_spoken": "Kau nak bir ke air limau?",
+            "ms_standard": "Kamu mahu bir atau air limau?",
+            "zh": "你要啤酒还是青柠水？"
+          },
+          {
+            "speaker": "Mei (朋友)",
+            "ms_spoken": "Air limau je, aku tak nak bir malam ni.",
+            "ms_standard": "Air limau sahaja; saya tidak mahu bir malam ini.",
+            "zh": "青柠水就好，我今晚不喝啤酒。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "在马来西亚的多元社交场合，应尊重对方的宗教信仰和饮食选择，不默认对方饮酒，也不劝酒。",
+      "usage_etiquette": "点餐或安排聚会时，可直接询问饮料偏好，并提供不含酒精的选择。bir 本身是中性饮料名称。"
+    },
+    "etymology": {
+      "origin": "Dutch",
+      "source_language": "荷兰语",
+      "root_origin": "bier（啤酒）",
+      "cognitive_memory_aid": "把荷兰语 bier、英语 beer 与马来语 bir 连起来记：拼写不同，都指啤酒；bir 作为整词记忆。",
+      "historical_story": "bir 是荷兰语 bier 在马来语中的借词，体现了区域语言接触留下的饮料词汇。借入后的形式简短，现代马来语也用它组成 bir hitam 等名称。[词源研究](https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/f663304d-f64e-4093-a2d3-7baa3e258033/content)"
+    }
+  },
+  "puluh": {
+    "headword": {
+      "word": "puluh",
+      "syllables": "pu.luh",
+      "ipa": "/ˈpuluh/",
+      "jawi": "ڤولوه",
+      "frequency_rank": 1590,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "puluh",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + puluh → puluh",
+      "pattern_note": "词根保持不变；se- + puluh → sepuluh 表示十，其他整十数通常分写，如 dua puluh。",
+      "word_family": [
+        {
+          "word": "sepuluh",
+          "affix": "se-",
+          "gloss": "十"
+        },
+        {
+          "word": "berpuluh-puluh",
+          "affix": "ber- + 重叠",
+          "gloss": "几十；数十"
+        }
+      ],
+      "root_jawi": "ڤولوه"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "十；构成整十数的计数单位，如 dua puluh 表示二十。",
+        "en_definition": "Ten as a counting unit, used to form multiples of ten, as in dua puluh, twenty.",
+        "ms_definition": "Sembilan dicampur dengan satu, iaitu sepuluh; digunakan dalam pembentukan bilangan seperti dua puluh dan tiga puluh.",
+        "nuances": "实际语法类别为数词（kata bilangan）；本结构未提供 numeral 标签，故以 noun 承载计数单位义。独立说数字10通常用 sepuluh；20写作 dua puluh，不连写。",
+        "collocations": [
+          {
+            "ms": "dua puluh orang",
+            "zh": "二十人"
+          },
+          {
+            "ms": "tiga puluh minit",
+            "zh": "三十分钟"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "职场汇报 / 活动记录",
+        "ms": "Seramai dua puluh orang peserta menghadiri bengkel tersebut.",
+        "zh": "共有二十名参与者出席了该工作坊。",
+        "en": "Twenty participants attended the workshop."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 朋友商量出发时间",
+        "ms_spoken": "Tunggu dua puluh minit je, lepas tu kita gerak.",
+        "ms_standard": "Tunggu dua puluh minit sahaja; selepas itu kita bertolak.",
+        "zh": "就等二十分钟，之后我们就出发。",
+        "en": "Just wait twenty minutes, then we'll leave.",
+        "spoken_features": [
+          "je 对应 sahaja；tu 对应 itu。",
+          "gerak 在日常口语中可表示动身或出发。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (朋友)",
+            "ms_spoken": "Nak tunggu berapa lama lagi?",
+            "ms_standard": "Kita mahu menunggu berapa lama lagi?",
+            "zh": "还要等多久？"
+          },
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Dua puluh minit je. Lepas tu kita gerak.",
+            "ms_standard": "Dua puluh minit sahaja. Selepas itu kita bertolak.",
+            "zh": "就二十分钟。之后我们就出发。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "说明人数、价钱或等待时间时属于中性表达；礼貌程度主要取决于称呼和整句语气。",
+      "usage_etiquette": "安排时间时应区分 dua puluh minit（二十分钟）和 pukul dua（二点）。正式书写保留 puluh 的完整拼写。"
+    },
+    "etymology": {
+      "origin": "Austronesian",
+      "source_language": "原始南岛语，经原始马来语传承",
+      "root_origin": "*puluq₁（十；一组十个）",
+      "cognitive_memory_aid": "把 puluh 想成一个装十颗珠子的计数包：dua puluh 就是两包，共二十颗。",
+      "historical_story": "puluh 延续了南岛语系古老的十进计数词，其重建形式为 *puluq₁。比较词表中分布于多个南岛语言的相关形式，就像一串仍能辨认的计数珠；现代马来语继续用它组成 dua puluh 等整十数。[南岛语比较词典](https://ling.lll.hawaii.edu/dicts/ACD/acd-w_p.htm)"
+    }
+  },
+  "tarian": {
+    "headword": {
+      "word": "tarian",
+      "syllables": "ta.rian",
+      "ipa": "/ta.ri.an/",
+      "jawi": "تارين",
+      "frequency_rank": 1591,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "tari",
+      "affix": "-an",
+      "affix_type": "suffix",
+      "formula": "tari + -an → tarian",
+      "pattern_note": "加名词后缀 -an，词根拼写不变；i 与后接 a 在清晰读音中分别成音节。",
+      "word_family": [
+        {
+          "word": "menari",
+          "affix": "meN-",
+          "gloss": "跳舞"
+        },
+        {
+          "word": "penari",
+          "affix": "peN-",
+          "gloss": "舞者"
+        }
+      ],
+      "root_jawi": "تاري"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "舞蹈；身体、手和脚随着音乐节奏作出的有韵律的动作。",
+        "en_definition": "A dance, consisting of rhythmic movements of the body, hands and feet to music.",
+        "ms_definition": "Gerakan badan serta tangan dan kaki berirama mengikut rentak muzik.",
+        "nuances": "可指一种舞蹈或具体舞蹈表演；表示跳舞这一动作通常用 menari，表示舞者用 penari。",
+        "collocations": [
+          {
+            "ms": "tarian tradisional",
+            "zh": "传统舞蹈"
+          },
+          {
+            "ms": "persembahan tarian",
+            "zh": "舞蹈表演"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "新闻 / 文化活动报道",
+        "ms": "Majlis itu dimulakan dengan persembahan tarian tradisional oleh pelajar sekolah.",
+        "zh": "活动以学生们表演的传统舞蹈开场。",
+        "en": "The event opened with a traditional dance performance by school students."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 同学交流演出视频",
+        "ms_spoken": "Tarian tadi cantik lah, aku nak tengok lagi!",
+        "ms_standard": "Tarian tadi sangat indah; saya mahu menontonnya sekali lagi.",
+        "zh": "刚才那个舞跳得真好看，我还想再看一遍！",
+        "en": "That dance was lovely. I want to watch it again!",
+        "spoken_features": [
+          "lah 加强赞叹语气。",
+          "aku 用于熟人之间；nak 对应 mahu。",
+          "口语 tengok 在此对应标准表达 menonton。"
+        ],
+        "messages": [
+          {
+            "speaker": "Mei (同学)",
+            "ms_spoken": "Kau dah tengok video tarian tadi?",
+            "ms_standard": "Kamu sudah menonton video tarian tadi?",
+            "zh": "你看过刚才那个舞蹈的视频了吗？"
+          },
+          {
+            "speaker": "Farah (同学)",
+            "ms_spoken": "Dah, cantik lah! Aku nak tengok lagi.",
+            "ms_standard": "Sudah, tarian itu sangat indah! Saya mahu menontonnya sekali lagi.",
+            "zh": "看了，真好看！我还想再看一遍。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "谈论不同族群的传统舞蹈时，宜使用准确名称，并尊重表演者对服饰、动作和表演场合的说明。",
+      "usage_etiquette": "tarian tradisional 泛指传统舞蹈；知道具体舞种时可说 tarian zapin 等。上台参与或拍摄近距离视频前，先征询主办方或表演者。"
+    },
+    "etymology": {
+      "origin": "Austronesian",
+      "source_language": "马来语；词根 tari 的更早来源未在所核资料中确证",
+      "root_origin": "tari（舞；舞蹈）+ -an（名词后缀）",
+      "cognitive_memory_aid": "同一舞台记三词：menari 是跳舞，penari 是舞者，tarian 是呈现出来的舞蹈。",
+      "historical_story": "tarian 的可确认构词起点是马来语 tari 加上名词后缀 -an，不能仅因传统舞蹈受外来文化影响就断定它来自某种外语。词典同时记录舞扇、舞伞等 tari 组合，现代 tarian 继续作为各类舞蹈的通称。[DBP词条](https://prpm.dbp.gov.my/Cari1?d=113780&keyword=tari)"
+    }
+  },
+  "berdasarkan": {
+    "headword": {
+      "word": "berdasarkan",
+      "syllables": "ber.da.sar.kan",
+      "ipa": "[bərdaˈsarkan]",
+      "jawi": "برداسرکن",
+      "frequency_rank": 1593,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "dasar",
+      "affix": "ber-...-kan",
+      "affix_type": "circumfix",
+      "formula": "ber- + dasar + -kan → berdasarkan",
+      "pattern_note": "词根 dasar 的拼写保持不变；ber- 中的 e 通常读 /ə/。输入包将整词标为词根，此处按实际构词校正为 dasar；DBP亦将 berdasarkan 列于 dasar 词条下。[DBP词条](https://ekamus.dbp.gov.my/Search.aspx?cari=dasar&type=1)",
+      "word_family": [
+        {
+          "word": "berdasar",
+          "affix": "ber-",
+          "gloss": "有根据；有基础"
+        },
+        {
+          "word": "mendasarkan",
+          "affix": "meN-...-kan",
+          "gloss": "把某事建立在某基础上"
+        }
+      ],
+      "root_jawi": "داسر"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "以……为依据或基础；根据……。",
+        "en_definition": "To be based on or grounded in something.",
+        "ms_definition": "Berasaskan, bersandarkan atau berlandaskan sesuatu.",
+        "nuances": "常用于说明判断、决定或作品的依据。后面直接接名词短语，如 berdasarkan bukti；其动词构词形式在句中常表达相当于中文“根据”的关系。",
+        "collocations": [
+          {
+            "ms": "berdasarkan bukti",
+            "zh": "根据证据"
+          },
+          {
+            "ms": "berdasarkan maklumat",
+            "zh": "根据资料"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 职场汇报",
+        "ms": "Keputusan itu dibuat berdasarkan maklumat yang telah disahkan.",
+        "zh": "该决定是根据已经核实的资料作出的。",
+        "en": "The decision was made based on verified information."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 同事讨论排班",
+        "ms_spoken": "Berdasarkan jadual ni, kau kerja pagi esok, kan?",
+        "ms_standard": "Berdasarkan jadual ini, kamu bertugas pada waktu pagi esok, bukan?",
+        "zh": "按这张班表，你明天上早班，对吧？",
+        "en": "According to this schedule, you're on the morning shift tomorrow, right?",
+        "spoken_features": [
+          "ni 对应 ini。",
+          "kau 用于关系熟悉的同事之间。",
+          "句末 kan 用于向对方确认；目标词 berdasarkan 保持完整形式。"
+        ],
+        "messages": [
+          {
+            "speaker": "Amir (熟悉的同事)",
+            "ms_spoken": "Berdasarkan jadual ni, kau kerja pagi esok, kan?",
+            "ms_standard": "Berdasarkan jadual ini, kamu bertugas pada waktu pagi esok, bukan?",
+            "zh": "按这张班表，你明天上早班，对吧？"
+          },
+          {
+            "speaker": "Farah (熟悉的同事)",
+            "ms_spoken": "Ya, aku dah semak. Esok masuk pukul tujuh.",
+            "ms_standard": "Ya, saya sudah menyemaknya. Esok saya mula bertugas pada pukul tujuh.",
+            "zh": "对，我已经查过了，明天七点上班。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "在职场中说明判断依据，有助于让表达显得清楚、客观；仍应配合适当称呼与平和语气。",
+      "usage_etiquette": "后接具体依据最清楚，如 berdasarkan laporan tersebut。依据尚未核实时，可说 berdasarkan maklumat awal，避免把初步资料说成确定事实。"
+    },
+    "etymology": {
+      "origin": "Austronesian",
+      "source_language": "马来语；词根 dasar 的更早来源未在所核资料中确证",
+      "root_origin": "dasar（底部；基础）+ ber-...-kan",
+      "cognitive_memory_aid": "把 dasar 想成承托判断的地基：berdasarkan bukti，就是把结论建立在证据这块地基上。",
+      "historical_story": "dasar 在马来语中既表示海底、容器底部等具体的底，也表示原则或依据等抽象基础。由它构成的 berdasarkan 将这种基础关系表达出来，现代公文和日常说明都用它交代判断所依托的资料。[DBP词条](https://ekamus.dbp.gov.my/Search.aspx?cari=dasar&type=1)"
+    }
+  }
+}

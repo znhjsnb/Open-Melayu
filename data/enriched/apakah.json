@@ -1,0 +1,166 @@
+{
+  "headword": {
+    "word": "apakah",
+    "syllables": null,
+    "ipa": "[a.pa.kah]",
+    "jawi": null,
+    "frequency_rank": 213,
+    "tags": [
+      "CEFR-A1",
+      "公文标准"
+    ],
+    "jawi_note": "词根爪夷文: اڤ (apa)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "apa",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "apa + -kah（疑问语气词）→ apakah",
+    "pattern_note": "-kah 是后附的疑问强调语气词，schema 中以 suffix 记录位置，不把它当成改变词义类别的普通派生后缀。PRPM 原始包未收录本词的音节和 Jawi，两个字段保留 null；不将 apa 的数据直接冒充本词官方数据。IPA 采用本地 Kaikki 的规范朗读形式。 核心词根（Kata Dasar）「apa」官方爪夷文为「اڤ」，派生附加 -kah。",
+    "word_family": [
+      {
+        "word": "apa",
+        "affix": "无",
+        "gloss": "什么"
+      },
+      {
+        "word": "apa-apa",
+        "affix": "整词重叠",
+        "gloss": "任何东西；什么东西"
+      },
+      {
+        "word": "mengapa",
+        "affix": "meng-（已固定的疑问形式）",
+        "gloss": "为什么"
+      },
+      {
+        "word": "mengapakah",
+        "affix": "meng- + -kah（语气词）",
+        "gloss": "为什么（较正式）"
+      }
+    ],
+    "root_jawi": "اڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "什么；是什么，用于询问事物、内容、原因或性质。",
+      "ms_definition": "Kata tanya untuk menanyakan benda, perkara atau keterangan tentang sesuatu, dengan partikel penegas -kah. (Huraian editorial; entri apakah tidak memberikan petikan Kamus Dewan dalam paket PRPM. Entri apa dalam Kamus Pelajar mentakrifkannya sebagai kata yg digunakan untuk menanyakan sesuatu.)",
+      "nuances": "正式语常置于句首，如 Apakah tujuan program ini?；回答应提供内容或说明。DBP 用法答复将这种询问与要求“是／否”回答的 adakah 区分：https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bekal 。这里是编辑归纳，不是独立的 Kamus Dewan 原文。",
+      "collocations": [
+        {
+          "ms": "apakah maksud",
+          "zh": "……是什么意思",
+          "en": "what does … mean?"
+        },
+        {
+          "ms": "apakah tujuan",
+          "zh": "……的目的是什么",
+          "en": "what is the purpose of …?"
+        }
+      ],
+      "en_definition": "What; used to ask about something's identity, meaning, purpose, cause, or nature."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "是否；难道，用于询问某个说法是否成立。",
+      "ms_definition": "Menandai pertanyaan tentang benar atau tidaknya sesuatu pernyataan. (Huraian editorial berdasarkan penggunaan yang direkodkan dalam Kaikki, bukan petikan Kamus Dewan.)",
+      "nuances": "所给资料记录此义，在印尼语和部分修辞表达中也可见。学习马来西亚正式语时，普通是非问句优先用 adakah，如 Adakah perkara itu benar?，不要把所有英语 do/is 问句都译成 apakah。下列搭配用于识别这种用法，不作为大马正式写作首选。",
+      "collocations": [
+        {
+          "ms": "apakah benar",
+          "zh": "是否属实；难道是真的",
+          "en": "is it true?"
+        },
+        {
+          "ms": "apakah mungkin",
+          "zh": "是否可能；难道可能",
+          "en": "is it possible?"
+        }
+      ],
+      "en_definition": "Used to ask whether something is true or possible, sometimes expressing doubt."
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "什么？；竟然……？表示惊讶或难以置信。",
+      "ms_definition": "Menyatakan rasa terkejut atau tidak percaya dalam bentuk pertanyaan. (Huraian editorial berdasarkan Kaikki; bukan petikan Kamus Dewan.)",
+      "nuances": "这是疑问形式在具体语境中的感叹作用；本 schema 没有 interjection，故记作 particle。大马随意聊天直接说 Apa?、Eh, betul ke? 往往更自然；不要把单独的 Apakah! 当成万能口头感叹词。",
+      "collocations": [
+        {
+          "ms": "apakah ini",
+          "zh": "这是什么？（可带惊讶）",
+          "en": "what is this?"
+        },
+        {
+          "ms": "apakah semua ini",
+          "zh": "这一切到底是什么？",
+          "en": "what on earth is all this?"
+        }
+      ],
+      "en_definition": "What?; used in questions expressing surprise or disbelief."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻访谈 / 询问公共交通政策",
+      "ms": "Apakah langkah yang akan diambil untuk meningkatkan mutu perkhidmatan pengangkutan awam di kawasan luar bandar?",
+      "zh": "将采取什么措施，提高乡区公共交通服务的质量？",
+      "en": "What measures will be taken to improve the quality of public transport services in rural areas?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两位同学讨论作业题目",
+      "ms_spoken": "Soalan ni tanya, 'Apakah tujuan kempen ini?' Nak jawab apa, ya?",
+      "ms_standard": "Soalan ini berbunyi, 'Apakah tujuan kempen ini?' Apakah jawapan yang sesuai?",
+      "zh": "这题问“这项宣传活动的目的是什么？”该怎么答呀？",
+      "spoken_features": [
+        "apakah 保留在引用的书面题目中，表示“是什么”；聊天者自己的提问使用 apa。",
+        "ni、tu 分别对应 ini、itu；je 对应 sahaja。",
+        "Nak jawab apa? 省略了语境中可知的主语；ya 软化求助语气。",
+        "dia 在此口语化地回指 kempen，标准对照明确写出所指。",
+        "kena 在此表示“需要、必须”；sekali 表示“也一起”，不是次数“一次”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Soalan ni tanya, 'Apakah tujuan kempen ini?' Nak jawab apa, ya?",
+          "ms_standard": "Soalan ini berbunyi, 'Apakah tujuan kempen ini?' Apakah jawapan yang sesuai?",
+          "zh": "这题问“这项宣传活动的目的是什么？”该怎么答呀？",
+          "en": "This question asks, 'What is the purpose of this campaign?' What should I put?"
+        },
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Kempen kitar semula tu kan? Tulis je 'untuk menggalakkan orang ramai mengitar semula'.",
+          "ms_standard": "Soalan itu merujuk kepada kempen kitar semula, bukan? Tulis sahaja 'untuk menggalakkan orang ramai mengitar semula'.",
+          "zh": "是那个回收宣传活动，对吧？就写“鼓励公众进行回收”吧。",
+          "en": "The recycling campaign, right? Just write 'to encourage the public to recycle'."
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Oh, tujuan dia je. Aku ingat kena cerita semua aktiviti sekali.",
+          "ms_standard": "Oh, hanya tujuan kempen itu yang perlu dinyatakan. Saya menyangka bahawa semua aktivitinya juga perlu diterangkan.",
+          "zh": "哦，只要写它的目的啊。我还以为得把所有活动也一起写出来。",
+          "en": "Oh, just its purpose. I thought I had to describe all the activities too."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "apakah 是整齐的正式问法，但礼貌程度仍取决于整句话。向陌生人询问信息，可先用 Maaf 或 Boleh saya tahu…；单独追问 Apa? 可能显得不耐烦。",
+    "usage_etiquette": "学校作文、访谈和公文依问题内容选择 apakah 或 adakah。与不同族群朋友聊天时不用为了显得正式而句句加 -kah；反问式 apakah benar 若配合责问语气，容易被理解为质疑对方。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；词根追溯至 Proto-Malayic / Proto-Malayo-Polynesian",
+    "root_origin": "apa + 疑问语气词 -kah；本地 Kaikki 将 apa 追溯至 Proto-Malayic *apa、Proto-Malayo-Polynesian *apa。星号表示重建形式，并非古文献实录。",
+    "historical_story": "在印度语和阿拉伯语借词大量进入以前，apa 所属的南岛语疑问词家族已有悠久根基。马来语将 apa 与本地疑问强调语气词 -kah 结合，形成今天的 apakah；现有材料没有给出这一组合首次出现的年代。从现代课堂题目到新闻采访，它把日常的“什么”组织成句首清晰的正式提问。",
+    "cognitive_memory_aid": "apa 是“什么”，后接 -kah 像把问号写在词尾：apakah maksud… 就是“……是什么意思？”"
+  }
+}

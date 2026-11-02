@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "it",
+    "syllables": null,
+    "ipa": "[aj.ti]",
+    "jawi": null,
+    "frequency_rank": 625,
+    "tags": [
+      "CEFR-B1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "it",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "Information Technology → IT（英语首字母缩略；马来语 teknologi maklumat）",
+    "pattern_note": "保留候选词头 it，实际科技用法通常写 IT 并按字母名读，不读作英语代词 it 的 /ɪt/。这是整项借入的首字母缩略，无马来语词缀；is_root 表示本词不由马来语加缀产生。PRPM 包没有官方音节和 Jawi，两项保留 null，不把字母名分读冒称 DBP 音节。CEFR 为教学估级。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "信息技术；资讯科技，英语 Information Technology 的首字母缩略。",
+      "ms_definition": "kep Information Technology (Teknologi Maklumat).",
+      "nuances": "资料包将小写 it 对应到科技缩略 IT，不按英语代词处理。补核 [DBP PRPM 的 teknologi maklumat 检索结果](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teknologi+maklumat) 可见此 IT 释义，原文如上；该结果未提供本包缺失的官方音节或 Jawi。正式马来文可先写 teknologi maklumat (IT)，也常使用本土缩略 TM。",
+      "collocations": [
+        {
+          "ms": "bidang IT",
+          "zh": "信息技术领域",
+          "en": "the IT field"
+        },
+        {
+          "ms": "jabatan IT",
+          "zh": "资讯科技部门；IT 部门",
+          "en": "the IT department"
+        }
+      ],
+      "en_definition": "Abbreviation for information technology."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "机构公告 / 数码培训",
+      "ms": "Program latihan dalam bidang teknologi maklumat (IT) akan diperluas bagi meningkatkan kemahiran digital pekerja.",
+      "zh": "资讯科技领域的培训计划将扩大，以提升员工的数码技能。",
+      "en": "Training programmes in information technology (IT) will be expanded to improve workers' digital skills."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事协助联系 IT 人员处理笔电故障",
+      "ms_spoken": "Laptop aku tak boleh hidup lah. Ada nombor orang IT tak?",
+      "ms_standard": "Komputer riba saya tidak dapat dihidupkan. Adakah kamu mempunyai nombor telefon kakitangan teknologi maklumat (IT)?",
+      "zh": "我的笔电开不了机。你有 IT 人员的电话号码吗？",
+      "spoken_features": [
+        "词条键保留 it，表示信息技术的缩写在对话中按惯例写作 IT。",
+        "laptop 是办公室聊天中常见的英语夹用；标准马来语用 komputer riba。",
+        "orang IT 指 IT 工作人员；Ada nombor ... tak? 是口语中常见的询问联系方式的句式。",
+        "bagi 在这里表示给；mesej 用作动词表示发消息；tengok 在此指检查电脑。",
+        "kejap 在 Aku mesej dia kejap 中表示稍后就发消息，标准句按语境恢复为 sebentar lagi。"
+      ],
+      "messages": [
+        {
+          "speaker": "Lina (同事)",
+          "ms_spoken": "Laptop aku tak boleh hidup lah. Ada nombor orang IT tak?",
+          "ms_standard": "Komputer riba saya tidak dapat dihidupkan. Adakah kamu mempunyai nombor telefon kakitangan teknologi maklumat (IT)?",
+          "zh": "我的笔电开不了机。你有 IT 人员的电话号码吗？",
+          "en": "My laptop won't turn on. Have you got a number for someone in IT?"
+        },
+        {
+          "speaker": "Farhan (同事)",
+          "ms_spoken": "Ada, aku bagi nombor Hafiz. Dia uruskan masalah laptop kat pejabat kita.",
+          "ms_standard": "Ada, saya akan memberikan nombor telefon Hafiz kepada kamu. Dia menguruskan masalah komputer riba di pejabat kita.",
+          "zh": "有，我把Hafiz的号码给你。他负责处理我们办公室的笔电问题。",
+          "en": "Yeah, I'll give you Hafiz's number. He handles laptop problems at our office."
+        },
+        {
+          "speaker": "Lina (同事)",
+          "ms_spoken": "Terima kasih! Aku mesej dia kejap, nak tanya bila dia boleh tengok.",
+          "ms_standard": "Terima kasih! Saya akan menghantar mesej kepadanya sebentar lagi untuk bertanya bila dia boleh memeriksa komputer riba ini.",
+          "zh": "谢谢！我一会儿给他发消息，问问他什么时候能帮忙看看。",
+          "en": "Thanks! I'll drop him a quick message to ask when he can take a look."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "IT",
+      "full_form": "Information Technology",
+      "note": "英语首字母缩略，对应马来语 teknologi maklumat；也是正式科技用语，不是另造的短信省字。小写 it 只是本批候选词头的保存形式。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "职场夹用 IT 很自然。向技术同事求助可说 Boleh tolong periksa…?，把问题和需要说清楚。",
+    "usage_etiquette": "面向不熟悉英语缩略语的公众时，首次出现宜展开为 teknologi maklumat。IT 不等于所有人的职称，也不自动包含通信领域；ICT 的完整含义还包括通信。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "English",
+    "root_origin": "直接保留英语 Information Technology 的首字母 IT；马来语语义对应 teknologi maklumat。",
+    "historical_story": "IT 随现代计算机与信息技术语汇进入马来语，保留了英语全称的两个首字母。在办公室里，人们既说 jabatan IT，也在马来文公告里写 teknologi maklumat，把国际缩略语和本土术语放在一起使用。它属于现代技术词汇的借入，现有资料没有把它的首用确定到某个公司或年份。",
+    "cognitive_memory_aid": "看见大写 IT，想到电脑与信息系统：I = Information，T = Technology；马来语展开是 teknologi maklumat。"
+  }
+}

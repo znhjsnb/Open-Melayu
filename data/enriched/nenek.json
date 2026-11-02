@@ -1,0 +1,140 @@
+{
+  "headword": {
+    "word": "nenek",
+    "syllables": null,
+    "ipa": "/nenek/",
+    "jawi": "نينيق",
+    "frequency_rank": 719,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "nenek",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + nenek → nenek；nenek + moyang → nenek moyang",
+    "pattern_note": "独立亲属称谓；两个 e 按 Kaikki 文读均为 /e/，不是 /ə/；词尾 k 常实现为 [ʔ]。PRPM syllables 为 null，不将编辑分节冒充官方字段；Jawi 由本地 UTF-8 PRPM 缓存恢复。",
+    "word_family": [
+      {
+        "word": "nenek-nenek",
+        "affix": "重叠（无词缀）",
+        "gloss": "老妇人；依语境也可指多位祖母"
+      },
+      {
+        "word": "nenek moyang",
+        "affix": "复合（无词缀）",
+        "gloss": "祖先；先辈"
+      },
+      {
+        "word": "datuk nenek",
+        "affix": "复合（无词缀）",
+        "gloss": "祖辈；祖先"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "祖母；外祖母。较广义或旧式用法也可指父母的父母，不限性别。",
+      "ms_definition": "orang tua kpd emak atau ayah (umumnya emak kpd ibu atau bapa). (Kamus Dewan Edisi Keempat)",
+      "nuances": "现代日常语境通常指女性祖辈；马来语不靠 nenek 本身区分奶奶与外婆，可加 sebelah bapa／sebelah ibu。nenek moyang、datuk nenek 指祖先或祖辈，不能只理解为一位祖母。",
+      "collocations": [
+        {
+          "ms": "nenek sebelah ibu",
+          "zh": "外祖母；妈妈那一方的祖母",
+          "en": "maternal grandmother"
+        },
+        {
+          "ms": "nenek sebelah bapa",
+          "zh": "祖母；爸爸那一方的祖母",
+          "en": "paternal grandmother"
+        }
+      ],
+      "en_definition": "A grandmother; in broader or older usage, a grandparent of either sex."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "年长女性的泛称或称呼；老太太、老婆婆。",
+      "ms_definition": "= nenek-nenek panggilan umum kpd perempuan yg sudah tua. (Kamus Dewan Edisi Keempat)",
+      "nuances": "不一定有亲属关系。Nenek Kebayan 是传统故事中的老妇人角色称谓；直接这样称现实中的女性可能像在评论年龄，应先尊重对方惯用称呼。",
+      "collocations": [
+        {
+          "ms": "seorang nenek",
+          "zh": "一位老婆婆",
+          "en": "an elderly woman"
+        },
+        {
+          "ms": "nenek kebayan",
+          "zh": "民间故事中的老妇人角色",
+          "en": "the old woman of Malay folktales"
+        }
+      ],
+      "en_definition": "An elderly woman; a term used to address or refer to one."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区人物报道／家庭照护",
+      "ms": "Seorang nenek yang menjaga dua orang cucunya menerima bantuan daripada penduduk setempat.",
+      "zh": "一位照顾两个孙辈的祖母获得当地居民的援助。",
+      "en": "A grandmother caring for her two grandchildren received assistance from local residents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 母子安排探望外婆，确认出发时间和要带的食物",
+      "ms_spoken": "Ibu, kita nak gi rumah nenek pukul berapa? Adam dah siap ni.",
+      "ms_standard": "Ibu, pukul berapakah kita akan pergi ke rumah nenek? Saya sudah bersiap.",
+      "zh": "妈，我们几点去外婆家？我已经准备好了。",
+      "spoken_features": [
+        "本段设定 nenek 是母亲的母亲，因此中文译为外婆；nenek 本身不区分祖母与外祖母。",
+        "孩子用自己的名字 Adam 自称，母亲用 ibu 自称，符合家庭对话习惯。",
+        "nak gi 对应 hendak pergi 或按语境恢复为将要前往；dah 对应 sudah。",
+        "lepas、bawak 分别是 selepas、bawa 的口语形式。",
+        "sup sikit 的名词与数量表达顺序常见于口语，标准语恢复为 sedikit sup。",
+        "tu、kat、je 分别对应 itu、di、sahaja；rumah nenek 前省略方向介词 ke。"
+      ],
+      "messages": [
+        {
+          "speaker": "Adam (儿子)",
+          "ms_spoken": "Ibu, kita nak gi rumah nenek pukul berapa? Adam dah siap ni.",
+          "ms_standard": "Ibu, pukul berapakah kita akan pergi ke rumah nenek? Saya sudah bersiap.",
+          "zh": "妈，我们几点去外婆家？我已经准备好了。",
+          "en": "Mum, what time are we going to Grandma's? I'm ready!"
+        },
+        {
+          "speaker": "Ibu (母亲)",
+          "ms_spoken": "Lepas ibu siap masak. Nenek pesan bawak sup sikit, dia teringin.",
+          "ms_standard": "Kita akan pergi selepas ibu selesai memasak. Nenek meminta kita membawa sedikit sup kerana dia teringin memakannya.",
+          "zh": "等妈妈做完饭就去。外婆说想喝汤，叫我们带一点过去。",
+          "en": "Once I've finished cooking. Grandma asked us to bring some soup. She's been craving it."
+        },
+        {
+          "speaker": "Adam (儿子)",
+          "ms_spoken": "Okay, nanti Adam tolong bawak. Bekas tu letak kat meja je.",
+          "ms_standard": "Baiklah, saya akan membantu membawanya nanti. Letakkan bekas itu di atas meja sahaja.",
+          "zh": "好，等下我帮忙拿。那个盒子放桌上就行。",
+          "en": "Okay, I'll help carry it. Just leave the container on the table."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "家中用 Nenek 直接称呼祖母可显亲切；与不熟悉的年长女性交谈，先用 puan 或她愿意接受的称呼更稳妥。",
+    "usage_etiquette": "大马不同家庭与族群有各自亲属称谓，不要预设所有祖母都自称 nenek。nanny 是英语保姆称谓，不是 nenek 的马来语聊天缩写，因此不收录。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "原始马来语（Proto-Malayic）",
+    "root_origin": "本地 Kaikki 追溯到重建形式 *niniʔ；星号表示语言学重建，不能当作现存文献中的原拼写。",
+    "historical_story": "nenek 是继承的亲属称谓，资料将它追溯到原始马来语 *niniʔ，而不是近代外来借词。今天家庭里可以亲切地呼唤 Nenek，谈到更远的世代则说 nenek moyang，一个熟悉的家人称呼由此连接到祖先的记忆；具体音变年代并未由本包确定。",
+    "cognitive_memory_aid": "画家谱：父母上一层的女性是 nenek；往更早世代延伸，就是 nenek moyang。"
+  }
+}

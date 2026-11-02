@@ -1,0 +1,126 @@
+{
+  "headword": {
+    "word": "perlukan",
+    "syllables": null,
+    "ipa": "/pərlukan/",
+    "jawi": null,
+    "frequency_rank": 198,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: ڤرلو (perlu)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "perlu",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "perlu + -kan → perlukan；主动完整形式：meN- + perlu + -kan → memerlukan",
+    "pattern_note": "表面形式加 -kan，口语主动句常省去 meN-；正式主动句通常用 memerlukan，第一、第二人称被动句可用 saya/anda perlukan。memerlukan 的 meN- 遇词根 p 变 mem- 并使 p 脱落；不是 memperlukan。音节和 Jawi 原包缺失，保留 null；IPA 是按词形提供的宽式读音，非原包或 DBP 官方音标。 核心词根（Kata Dasar）「perlu」官方爪夷文为「ڤرلو」，派生附加 -kan。",
+    "word_family": [
+      {
+        "word": "perlu",
+        "affix": "∅",
+        "gloss": "需要；必要"
+      },
+      {
+        "word": "memerlukan",
+        "affix": "meN-…-kan",
+        "gloss": "需要；使成为必要"
+      },
+      {
+        "word": "diperlukan",
+        "affix": "di-…-kan",
+        "gloss": "被需要；所需的"
+      },
+      {
+        "word": "keperluan",
+        "affix": "ke-…-an",
+        "gloss": "需要；必需品"
+      }
+    ],
+    "root_jawi": "ڤرلو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "需要；需用；以人、物或帮助等为所需对象。",
+      "ms_definition": "Huraian editorial bagi perlukan berdasarkan memerlukan: menghendaki (menghajatkan) sangat-sangat, mahu benar-benar. (Kamus Dewan Edisi Keempat, entri perlu; bukan petikan entri tersendiri perlukan.)",
+      "nuances": "Saya perlukan bantuan 是自然的口语主动句，正式主动句可写 Saya memerlukan bantuan。Bantuan yang saya perlukan 中 perlukan 属第一人称被动结构，在正式文体中也可使用，不能一律判为口语错误。perlu + 动词常表示需要做某事，memerlukan/perlukan + 名词表示需要某物；释义补据 [DBP perlu](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=perlu)。",
+      "collocations": [
+        {
+          "ms": "perlukan bantuan",
+          "zh": "需要帮助",
+          "en": "need help"
+        },
+        {
+          "ms": "perlukan masa",
+          "zh": "需要时间",
+          "en": "need time"
+        }
+      ],
+      "en_definition": "To need or require someone or something."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务公告；规范第二人称被动结构",
+      "ms": "Semua maklumat yang anda perlukan untuk mengemukakan permohonan boleh didapati melalui portal rasmi jabatan.",
+      "zh": "提交申请所需的全部信息，均可在该部门的官方网站查阅。",
+      "en": "All the information you need to submit an application is available on the department's official portal."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事正在整理月报，请对方提供上个月的数据",
+      "ms_spoken": "Saya perlukan data jualan bulan lepas untuk laporan ni. Awak ada salinannya tak?",
+      "ms_standard": "Saya memerlukan data jualan bulan lalu untuk laporan ini. Adakah awak mempunyai salinannya?",
+      "zh": "我需要上个月的销售数据来做这份报告。你有副本吗？",
+      "spoken_features": [
+        "Saya perlukan ... 中的 perlukan 是省去 meN- 前缀的口语主动形式，标准语对应 memerlukan。",
+        "口语缩略也可与 saya／awak 搭配，适合这里友好而有礼的同事交流。",
+        "ni = ini；kejap lagi = sebentar lagi；je = sahaja。",
+        "Nak fail Excel je ke? 省略了听者主语；句末 ke 表示询问。",
+        "PDF sekali 中的 sekali 表示“PDF 也一起要”，这里不是“一次”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Saya perlukan data jualan bulan lepas untuk laporan ni. Awak ada salinannya tak?",
+          "ms_standard": "Saya memerlukan data jualan bulan lalu untuk laporan ini. Adakah awak mempunyai salinannya?",
+          "zh": "我需要上个月的销售数据来做这份报告。你有副本吗？",
+          "en": "I need last month's sales data for this report. Do you have a copy?"
+        },
+        {
+          "speaker": "Farid (同事)",
+          "ms_spoken": "Ada, saya hantar kejap lagi. Nak fail Excel je ke, atau PDF sekali?",
+          "ms_standard": "Ada, saya akan menghantarnya sebentar lagi. Adakah awak mahu fail Excel sahaja atau fail PDF juga?",
+          "zh": "有，我一会儿发给你。只要 Excel 文件，还是 PDF 也要？",
+          "en": "Yes, I'll send it over in a bit. Do you just want the Excel file, or a PDF too?"
+        },
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Excel je cukup, senang saya nak kira nanti. Terima kasih!",
+          "ms_standard": "Fail Excel sahaja sudah memadai supaya saya mudah membuat pengiraan nanti. Terima kasih!",
+          "zh": "Excel 就够了，待会儿方便我计算。谢谢！",
+          "en": "Just the Excel file is fine. It'll make the calculations easier later. Thanks!"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "Saya perlukan ... 直接陈述需要，对同事或服务人员可接 Boleh bantu saya? 或谢谢。请求时说明事项和时间，比单靠 lah 更清楚；lah 也不自动让强硬要求变礼貌。",
+    "usage_etiquette": "正式主动句优先用 memerlukan；yang saya perlukan、yang anda perlukan 等被动结构可自然用于正式文本。和陌生人沟通用 saya，并按场合选择职衔或称呼，不默认用 kau。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "Arabic；现代形式在 Malay 内部由 perlu 派生",
+    "root_origin": "perlu 的远源为阿拉伯语 فَرْض farḍ（义务）；参见 Kazuhito Uni, 2015, Utilising Arabic-origin Loanwords in Teaching Malay as a Foreign Language，第 673、679 页：[研究原文](https://oarep.usim.edu.my/server/api/core/bitstreams/b38963e9-99b5-417c-af79-7f0f570e28db/content)。本条不指定未核实的中介语言与传播路线。",
+    "historical_story": "perlu 的远源与阿拉伯语 farḍ“义务”有关，从必须履行的事情延展到日常的“必要、需要”。这类阿拉伯语词汇进入马来语的历史，与海上贸易及伊斯兰文化交流的大背景相连，但这里不把某个港口指定为该词的入口。后来马来语用自己的 -kan 等词缀构成相关动词，日常主动句的 perlukan 与完整形式 memerlukan 因而可以说需要帮助、时间或用品。",
+    "cognitive_memory_aid": "perlu 是“有需要”，perlukan 后面接所需对象：perlukan bantuan；正式主动句补上 memerlukan。"
+  }
+}

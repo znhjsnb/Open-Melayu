@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "kau",
+    "syllables": "kau",
+    "ipa": "[kau̯]",
+    "jawi": "کاو",
+    "frequency_rank": 6,
+    "status": "colloquial"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "engkau",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + engkau → kau (pemendekan)",
+    "pattern_note": "engkau → kau 是缩短，不是加缀，也不是 kamu 的严格缩写。独立口语 kau 与被动结构中的代词前附着式 kau- 要区分；kau- 与后面的动词连写，如 kaubaca，不是被动前缀 di-。",
+    "word_family": [
+      {
+        "word": "engkau",
+        "affix": "none",
+        "gloss": "你；kau 的完整形式 / you; full form underlying kau"
+      },
+      {
+        "word": "dikau",
+        "affix": "none",
+        "gloss": "诗歌或古雅语体的“你”；非能产 di- 被动派生 / poetic or literary you; not productive passive di- derivation"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "你；engkau 的缩短形式，常见于亲近者之间的随意对话，也可表达生硬或敌对态度。",
+      "en_definition": "You; your after a noun in familiar speech. A shortened form of engkau, ranging from intimate to confrontational depending on context.",
+      "ms_definition": "singkatan bagi engkau",
+      "nuances": "DBP《Kamus Dewan》第四版释义。kau orang 的口语复数义是“你们”；独立 kau 在口语中自由使用，但正式写作宜按标准结构处理或使用完整 engkau。status 标 colloquial 指本词头主要口语用途，不表示 DBP 未收录。",
+      "collocations": [
+        {
+          "ms": "kau pergi mana",
+          "zh": "你去哪儿了？",
+          "en": "Where did you go?"
+        },
+        {
+          "ms": "cakap kat kau",
+          "zh": "跟你说（实话）",
+          "en": "tell you"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "pronoun",
+      "zh_definition": "第二人称代词的前附着形式，用在以受事为话题的被动结构中，表示动作由“你”执行。",
+      "en_definition": "The bound second-person pronominal form attached before a passive verb, identifying you as the agent.",
+      "ms_definition": "kep engkau (digunakan sbg awalan yg terikat dgn kata kerja pasif)",
+      "nuances": "此义来自 DBP《Kamus Pelajar》第二版，且 DBP 用法答复确认其连写规则。Buku itu kaubaca（那本书由你读）中的 kau- 与 baca 连写；不可机械写成 kau dibaca 来表达同一结构。它是代词附着成分，不是一般派生前缀。",
+      "collocations": [
+        {
+          "ms": "buku yang kauambil",
+          "zh": "被你拿走的书",
+          "en": "the book you took"
+        },
+        {
+          "ms": "surat yang kautulis",
+          "zh": "你写的那封信",
+          "en": "the letter you wrote"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "规范书面指示 / 对熟悉对象使用 kau- 被动结构",
+      "ms": "Dokumen itu hendaklah kauserahkan kepada setiausaha sebelum mesyuarat bermula.",
+      "zh": "那份文件须由你在会议开始前交给秘书。",
+      "en": "You must submit that document to the secretary before the meeting begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 已习惯 aku/kau 的好朋友",
+      "ms_spoken": "Kau dah sampai ke? Aku tunggu kat luar ni.",
+      "ms_standard": "Adakah engkau sudah sampai? Aku sedang menunggu di luar.",
+      "zh": "你到了没？我在外面等着呢。",
+      "en": "Are you here yet? I'm waiting outside.",
+      "spoken_features": [
+        "kau 是 engkau 的缩短；dah = sudah；kat = di。",
+        "句末 ke 是口语疑问标记，此处不是表示方向的介词 ke；标准句改用 adakah。",
+        "ni 在此增加近处、当前情境的指示语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Zul (死党)",
+          "ms_spoken": "Kau buat apa kat sini bro?",
+          "ms_standard": "Awak buat apa di sini, kawan?",
+          "zh": "兄弟，你在这儿干嘛呢？",
+          "en": "What are you doing here, bro?"
+        },
+        {
+          "speaker": "Hakim (死党)",
+          "ms_spoken": "Tengah tunggu kawan aku ni, lambat pulak.",
+          "ms_standard": "Sedang menunggu kawan saya ini, lambat pula.",
+          "zh": "正等我朋友呢，居然迟到了。",
+          "en": "Just waiting for my friend. They're running late."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "kau",
+      "full_form": "engkau",
+      "note": "口语独立形式，也有标准书面的前附着用法 kau-；不要错标为 kamu 的缩写。"
+    },
+    {
+      "abbr": "korang",
+      "full_form": "kamu semua",
+      "note": "由 kau orang 缩成的口语复数，意为“你们”；不能替换单数 kau 而不改变人数。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "intimate",
+    "politeness_note": "仅在双方已接受 aku/kau 的亲密或同辈交往中稳妥。向陌生人、长辈、老师、上司或客户直接称 kau，常被听成无礼；提高音量或用手指人时尤其可能带挑衅。对方对你用 kau，也不一定表示你可以对称地回用。",
+    "usage_etiquette": "先沿用对方姓名或合适称谓，不以同龄、男性朋友或任何族群身份自动推定许可。正式例句展示的是标准连写的 kau-，不是向上司发指令的称呼建议；诗歌、歌词及祈祷另有语域约定。"
+  },
+  "etymology": {
+    "origin": "Austronesian (Inherited)",
+    "source_language": "Malay engkau; inherited Austronesian pronoun family",
+    "root_origin": "现代 kau 是 engkau 的缩短。所给 Kaikki 同时列原始马来语 *kau 及更早的南岛语第二人称重建形式；历史上的 *kau 与现代 engkau → kau 缩短描述属于不同分析层面。",
+    "cognitive_memory_aid": "记 engkau 缩成 kau，再成对记 aku/kau；短得亲近，也可能短得生硬，先看关系。",
+    "historical_story": "kau 是古典马来语完整第二人称代词 engkau 的音系弱化与快速口语缩短形，其远祖可追溯至马来-波利尼西亚祖语 *ikaw。作为独立代词时，kau 带着非常亲近随和的情感，但在非熟人对话中若无故使用会被视作傲慢失礼；而在标准马来语文法中，kau- 连写在动词词根前构成第一/第二人称被动语态（如 kaurasa、kaubaca），是传统马来语法体系中极为严整的规范附着形态素。"
+  }
+}

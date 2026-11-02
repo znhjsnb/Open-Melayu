@@ -1,0 +1,244 @@
+{
+  "gelap": {
+    "context": "WhatsApp / 室友请对方开走廊灯",
+    "messages": [
+      {
+        "speaker": "Amir (室友)",
+        "ms_spoken": "Aku baru balik ni. Gelap sangat kat tangga, boleh tolong buka lampu luar tak?",
+        "ms_standard": "Saya baru pulang. Kawasan tangga sangat gelap. Bolehkah awak membantu menyalakan lampu di luar?",
+        "zh": "我刚回来。楼梯这儿太暗了，能帮我开一下外面的灯吗？"
+      },
+      {
+        "speaker": "Faiz (室友)",
+        "ms_spoken": "Jap, aku bukakan. Hati-hati naik, ada kasut kat anak tangga tu.",
+        "ms_standard": "Tunggu sebentar, saya akan menyalakannya. Berhati-hatilah ketika menaiki tangga kerana ada kasut di anak tangga itu.",
+        "zh": "等一下，我帮你开。上楼小心，那级台阶上有鞋子。"
+      }
+    ],
+    "spoken_features": [
+      "gelap 在这里表示楼梯区域光线不足。",
+      "aku 适合熟悉的室友；ni、tu 分别是 ini、itu 的口语缩略。",
+      "kat 对应 di；boleh…tak 是口语请求句式。",
+      "buka lampu 是日常口语的开灯；bukakan 在这里承接上文，表示替对方开灯。",
+      "jap 是 sekejap 的缩略，用来请对方稍等。"
+    ]
+  },
+  "urusan": {
+    "context": "WhatsApp / 同事邀约午餐，对方因银行事务婉拒",
+    "messages": [
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Jom makan sekali tengah hari ni. Kau nak ikut tak?",
+        "ms_standard": "Marilah kita makan bersama-sama pada tengah hari ini. Adakah awak mahu ikut?",
+        "zh": "今天中午一起吃饭吧。你要一起去吗？"
+      },
+      {
+        "speaker": "Nadia (熟悉的同事)",
+        "ms_spoken": "Tak dapatlah hari ni, aku ada urusan kat bank. Esok kita makan sama-sama, boleh?",
+        "ms_standard": "Saya tidak dapat ikut hari ini kerana ada urusan di bank. Bolehkah kita makan bersama-sama esok?",
+        "zh": "今天去不了啦，我要去银行办点事。我们明天一起吃，可以吗？"
+      }
+    ],
+    "spoken_features": [
+      "ada urusan kat bank 表示有银行事务要处理，没有具体说明办理什么。",
+      "jom 用于发出一起做某事的邀请；nak 对应 mahu。",
+      "kau、aku 适用于关系熟悉的同事，正式表达可用 awak、saya。",
+      "tak dapatlah 省略了双方已知的 ikut；-lah 在这里缓和婉拒语气。",
+      "ni 对应 ini，kat bank 对应 di bank。"
+    ]
+  },
+  "perkahwinan": {
+    "context": "WhatsApp / 朋友邀请对方参加姐姐的婚礼",
+    "messages": [
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Majlis perkahwinan kakak aku Ahad ni. Kau nak datang tak? Boleh ajak adik sekali.",
+        "ms_standard": "Majlis perkahwinan kakak saya akan diadakan pada hari Ahad ini. Adakah awak mahu datang? Awak boleh mengajak adik awak bersama-sama.",
+        "zh": "我姐姐这星期天办婚礼。你要来吗？也可以带你弟弟或妹妹一起来。"
+      },
+      {
+        "speaker": "Mira (朋友)",
+        "ms_spoken": "Nak! Aku datang dengan adik aku nanti. Kau hantar lokasi ya, aku tak pernah gi dewan tu.",
+        "ms_standard": "Ya, saya mahu datang. Saya akan datang bersama adik saya. Tolong hantarkan lokasi kerana saya belum pernah pergi ke dewan itu.",
+        "zh": "要！到时我和我家弟弟或妹妹一起去。你把位置发给我哦，我没去过那个礼堂。"
+      }
+    ],
+    "spoken_features": [
+      "majlis perkahwinan 明确指婚礼；perkahwinan 单独使用时也可指婚姻。",
+      "首句省略 akan diadakan pada hari，直接将活动与时间并列。",
+      "nak 在问句中对应 mahu，单独回答 Nak! 表示愿意参加。",
+      "gi 是 pergi 的口语缩略；ni、tu 分别对应 ini、itu。",
+      "adik 不区分性别，中文译文保留这种未明确性别的关系。"
+    ]
+  },
+  "joe": {
+    "context": "WhatsApp / 朋友在商场碰面前确认位置",
+    "messages": [
+      {
+        "speaker": "Haziq (Joe的朋友)",
+        "ms_spoken": "Joe, kau dah sampai ke? Aku tunggu kat pintu utama ni.",
+        "ms_standard": "Joe, adakah awak sudah sampai? Saya sedang menunggu di pintu utama.",
+        "zh": "乔，你到了吗？我在正门这儿等你。"
+      },
+      {
+        "speaker": "Joe (Haziq的朋友)",
+        "ms_spoken": "Dah, tapi aku kat pintu belakang. Jap, aku jalan gi sana.",
+        "ms_standard": "Saya sudah sampai, tetapi saya berada di pintu belakang. Tunggu sebentar, saya akan berjalan ke sana.",
+        "zh": "到了，不过我在后门。等一下，我走过去。"
+      }
+    ],
+    "spoken_features": [
+      "Joe 是人名，在称呼语及说话人姓名中保留首字母大写。",
+      "dah 对应 sudah；第二轮的 Dah 承接上文，省略了已经到达的完整表述。",
+      "句末 ke 是口语疑问标记，kat 对应 di。",
+      "jap 对应 sekejap；jalan gi sana 是口语的走到那边去。"
+    ]
+  },
+  "me": {
+    "context": "WhatsApp / 熟悉的同事用马英混合语安排楼下接人",
+    "messages": [
+      {
+        "speaker": "Lisa (熟悉的同事)",
+        "ms_spoken": "Nanti call me lah bila dah sampai kat lobi. Aku turun ambil kau.",
+        "ms_standard": "Tolong telefon saya apabila awak sudah tiba di lobi nanti. Saya akan turun untuk menjemput awak.",
+        "zh": "到了大堂给我打个电话啦。我下去接你。"
+      },
+      {
+        "speaker": "Adam (熟悉的同事)",
+        "ms_spoken": "Okay, aku call nanti. Kau tak payah turun dulu, aku baru naik tren.",
+        "ms_standard": "Baiklah, saya akan menelefon awak nanti. Awak tidak perlu turun dahulu kerana saya baru menaiki tren.",
+        "zh": "好，我到时打给你。你先不用下来，我才刚上火车。"
+      }
+    ],
+    "spoken_features": [
+      "call me 是嵌入马来语句子的英语短语，me 在其中是英语宾格代词，对应 saya。",
+      "lah 在这里缓和请求语气；这种分写形式常见于马英混合聊天。",
+      "bila 在这里表示当……时，标准等义句使用 apabila。",
+      "dah 对应 sudah，kat 对应 di，tak payah 对应 tidak perlu。",
+      "turun ambil kau 在此表示下楼接人，标准表达可用 turun untuk menjemput awak。"
+    ]
+  },
+  "tembakan": {
+    "context": "WhatsApp / 室友提醒正在看动作片的对方调低音量",
+    "messages": [
+      {
+        "speaker": "Hakim (室友)",
+        "ms_spoken": "Kau tengok filem apa tu? Bunyi tembakan kuat sangat, sampai bilik aku boleh dengar.",
+        "ms_standard": "Filem apakah yang sedang awak tonton? Bunyi tembakan terlalu kuat sehingga saya dapat mendengarnya dari bilik saya.",
+        "zh": "你在看什么电影？枪声太大了，我在房间里都听得到。"
+      },
+      {
+        "speaker": "Rizal (室友)",
+        "ms_spoken": "Filem aksi je. Sorry, aku kecilkan bunyi TV sekarang. Tak sangka kuat sampai macam tu.",
+        "ms_standard": "Saya hanya menonton sebuah filem aksi. Maaf, saya akan mengurangkan kelantangan bunyi televisyen sekarang. Saya tidak menyangka bunyinya sekuat itu.",
+        "zh": "就是一部动作片。不好意思，我现在把电视音量调小。没想到会那么响。"
+      }
+    ],
+    "spoken_features": [
+      "bunyi tembakan 在这里指电影里的枪声，语境明确是电视播放的声音。",
+      "tengok 是日常口语的看，在看电影的语境中标准表达可用 menonton。",
+      "sampai…boleh dengar 表示声音大到某处也听得见，省略了部分连接和地点成分。",
+      "je 对应 sahaja，sorry 是聊天中常见的英语借用。",
+      "kecilkan bunyi TV 指调低电视音量；macam tu 对应 seperti itu。"
+    ]
+  },
+  "bahan": {
+    "context": "WhatsApp / 家人确认做糕点还缺什么材料",
+    "messages": [
+      {
+        "speaker": "Lina (女儿)",
+        "ms_spoken": "Mak, bahan nak buat kuih dah cukup ke? Saya kat kedai ni, boleh belikan apa yang kurang.",
+        "ms_standard": "Ibu, adakah bahan untuk membuat kuih sudah mencukupi? Saya berada di kedai sekarang dan boleh membeli bahan yang masih diperlukan untuk ibu.",
+        "zh": "妈，做糕点的材料够了吗？我现在在店里，可以帮你买还缺的材料。"
+      },
+      {
+        "speaker": "Mak (母亲)",
+        "ms_spoken": "Tepung dengan telur dah ada. Santan je belum beli. Tolong ambil satu kotak kecil ya.",
+        "ms_standard": "Tepung dan telur sudah ada. Hanya santan yang belum dibeli. Tolong belikan satu kotak kecil santan.",
+        "zh": "面粉和鸡蛋已经有了。只有椰浆还没买。帮我买一小盒哦。"
+      }
+    ],
+    "spoken_features": [
+      "bahan 在这里指制作糕点所需的食材，下一轮用面粉、鸡蛋和椰浆具体承接。",
+      "bahan nak buat kuih 是口语结构，标准表达可用 bahan untuk membuat kuih。",
+      "Mak 是对母亲的日常称呼；女儿用 saya，体现亲近而有礼的语气。",
+      "dah 对应 sudah，句末 ke 构成疑问，kat 对应 di。",
+      "dengan 在列举食材时相当于 dan；santan je 表示只有椰浆。",
+      "ambil 在购物语境中可表示拿取并购买，标准等义句按语境还原为 belikan。"
+    ]
+  },
+  "je": {
+    "context": "WhatsApp / 朋友代买饮料时确认选择",
+    "messages": [
+      {
+        "speaker": "Syafiq (朋友)",
+        "ms_spoken": "Aku nak beli air. Kau nak teh ais ke kopi ais?",
+        "ms_standard": "Saya hendak membeli minuman. Adakah awak mahu teh ais atau kopi ais?",
+        "zh": "我要去买饮料。你要冰奶茶还是冰咖啡？"
+      },
+      {
+        "speaker": "Danial (朋友)",
+        "ms_spoken": "Air kosong je untuk aku. Tak payah beli yang manis, aku baru minum teh tadi.",
+        "ms_standard": "Saya hanya mahu air kosong. Tidak perlu membeli minuman manis untuk saya kerana saya baru minum teh tadi.",
+        "zh": "给我白水就好。不用买甜的，我刚才才喝过茶。"
+      }
+    ],
+    "spoken_features": [
+      "je 放在 air kosong 后面，限定饮料选择，意思是只要白水就好。",
+      "air 在买饮料的语境中泛指饮品；air kosong 指不加糖等配料的白水。",
+      "ke 在 teh ais ke kopi ais 中连接两个选项，对应标准语的 atau。",
+      "tak payah 对应 tidak perlu；yang manis 省略了双方已知的 minuman。",
+      "在大马常见餐饮用语中，未特别注明 kosong 或其他做法的 teh ais、kopi ais 通常指加奶加糖的冰茶、冰咖啡。"
+    ]
+  },
+  "sukakan": {
+    "context": "WhatsApp / 朋友分享歌曲后聊起单曲循环",
+    "messages": [
+      {
+        "speaker": "Sara (朋友)",
+        "ms_spoken": "Aku memang sukakan lagu ni. Dari pagi asyik ulang je, tak bosan-bosan.",
+        "ms_standard": "Saya memang menyukai lagu ini. Sejak pagi, saya terus mendengarnya berulang kali tanpa berasa bosan.",
+        "zh": "我真的很喜欢这首歌。从早上起就一直循环播放，怎么听都不腻。"
+      },
+      {
+        "speaker": "Yana (朋友)",
+        "ms_spoken": "Kan? Aku pun suka suara dia. Kau dah dengar lagu baru dia yang satu lagi tu?",
+        "ms_standard": "Betul, bukan? Saya juga menyukai suaranya. Adakah awak sudah mendengar sebuah lagi lagu baharunya itu?",
+        "zh": "对吧？我也喜欢这个歌手的声音。你听过这个歌手另外那首新歌了吗？"
+      }
+    ],
+    "spoken_features": [
+      "sukakan 在这里带出喜欢的对象 lagu ni，正式等义表达采用 menyukai lagu ini。",
+      "ni、tu 分别对应 ini、itu，dah 对应 sudah。",
+      "asyik ulang je 表示一直反复播放，省略了听歌或播放歌曲的完整表述。",
+      "tak bosan-bosan 用重复形式强调始终听不腻。",
+      "Kan? 在这里表示赞同并寻求共鸣；aku pun 中的 pun 表示也。",
+      "dia 在马来语中不区分性别，中文用这个歌手避免补入性别信息。"
+    ]
+  },
+  "kemalangan": {
+    "context": "WhatsApp / 乘客向正在餐厅等候的朋友说明迟到原因",
+    "messages": [
+      {
+        "speaker": "Amir (正在乘车赴约的朋友)",
+        "ms_spoken": "Aku lambat sikit ya. Ada kemalangan kat depan, kereta semua dah tak bergerak.",
+        "ms_standard": "Saya akan lewat sedikit kerana berlaku kemalangan di hadapan. Semua kereta sudah tidak bergerak.",
+        "zh": "我会晚一点到哦。前面出了事故，车都已经堵得不动了。"
+      },
+      {
+        "speaker": "Haziq (在餐厅等候的朋友)",
+        "ms_spoken": "Tak apa, aku tunggu kat kedai makan je. Kau mesej bila dah dekat nanti.",
+        "ms_standard": "Tidak mengapa, saya akan menunggu di kedai makan. Hantarkan mesej kepada saya apabila awak hampir sampai nanti.",
+        "zh": "没事，我就在餐厅等。你快到的时候发消息给我。"
+      }
+    ],
+    "spoken_features": [
+      "ada kemalangan kat depan 表示前方发生交通事故，不表示说话者本人遭遇事故。",
+      "lambat sikit 对应 lewat sedikit；赴约语境使这句话表示将会迟到。",
+      "kereta semua 是口语中的名词加总括成分，标准语序可还原为 semua kereta。",
+      "kat 对应 di，dah 对应 sudah，tak apa 对应 tidak mengapa。",
+      "kat kedai makan je 表示就在餐厅等候；dah dekat 根据赴约语境还原为 hampir sampai。",
+      "说话者的角色设定为乘客，使途中发送消息的情境明确。"
+    ]
+  }
+}

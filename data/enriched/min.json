@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "min",
+    "syllables": "min",
+    "ipa": "[min]",
+    "jawi": "مين",
+    "frequency_rank": 2059,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "min",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + min → min",
+    "pattern_note": "单音节独立借词，整词记忆；以下相关词为复合统计术语，不是加缀派生词。",
+    "word_family": [
+      {
+        "word": "min aritmetik",
+        "affix": "∅",
+        "gloss": "算术平均数"
+      },
+      {
+        "word": "min berwajaran",
+        "affix": "∅",
+        "gloss": "加权平均数"
+      }
+    ],
+    "root_jawi": "مين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一组数值的算术平均数，即所有数值的总和除以数值的个数。",
+      "en_definition": "The arithmetic average of a set of numbers, calculated by dividing their sum by the number of values.",
+      "ms_definition": "Nilai yang diperoleh dengan membahagikan jumlah semua nilai dalam sesuatu set dengan bilangan nilai tersebut; purata aritmetik.",
+      "nuances": "常见于数学、统计与研究报告；不同于 median（中位数）和 mod（众数）。聊天中称呼管理员的 min 属于 admin 的口语截短，与这里的统计术语不同。[DBP 词义参考](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=min)。",
+      "collocations": [
+        {
+          "ms": "mengira min",
+          "zh": "计算平均数",
+          "en": "calculate the mean"
+        },
+        {
+          "ms": "min suhu bulanan",
+          "zh": "月平均气温",
+          "en": "mean monthly temperature"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "研究报告 / 教育统计",
+      "ms": "Analisis menunjukkan bahawa min markah bagi 30 orang peserta ialah 72.",
+      "zh": "分析显示，30名参与者的平均分为72分。",
+      "en": "The analysis shows that the mean score for the 30 participants is 72."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学核对数学作业",
+      "ms_spoken": "Aku dah kira min untuk 6, 8 dengan 10. Dapat 8, kan?",
+      "ms_standard": "Saya sudah mengira min bagi 6, 8 dan 10. Nilainya 8, bukan?",
+      "zh": "我算了6、8和10的平均数，是8，对吧？",
+      "en": "I've worked out the mean of 6, 8 and 10. It's 8, right?",
+      "spoken_features": [
+        "aku 适用于熟人之间；正式表达可用 saya。",
+        "dah 是 sudah 的口语形式。",
+        "dengan 在口语列举中可代替 dan；kan 用于请求确认。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Aku dah kira min untuk 6, 8 dengan 10. Dapat 8, kan?",
+          "ms_standard": "Saya sudah mengira min bagi 6, 8 dan 10. Nilainya 8, bukan?",
+          "zh": "我算了6、8和10的平均数，是8，对吧？",
+          "en": "I've worked out the mean of 6, 8 and 10. It's 8, right?"
+        },
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Haah, betul. Jumlahnya 24, bahagi tiga je untuk dapatkan min.",
+          "ms_standard": "Ya, betul. Jumlahnya ialah 24; bahagikan jumlah itu dengan tiga untuk mendapatkan min.",
+          "zh": "对，没错。总和是24，除以3就是平均数。",
+          "en": "Yep, that's right. The total is 24, so just divide by three to get the mean."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "属于中性的学术词汇，没有特殊敬语要求。向不熟悉统计术语的人解释时，可同时使用较易懂的 purata。",
+    "usage_etiquette": "报告 min 时说明所计算的对象、样本数量与单位；讨论成绩时说 min markah，讨论气温时说 min suhu，避免只报一个缺乏背景的数字。"
+  },
+  "etymology": {
+    "historical_story": "统计术语 min 借自英语 mean，[DBP 将其来源标为英语](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=min)。这个借词按马来语拼写习惯写成 min，保留平均值的概念，成为数学课堂、气象资料与研究报告中的常用术语。",
+    "cognitive_memory_aid": "把三堆分别有6、8、10颗珠子的画面平均分配，每堆都会变成8颗；这个平均分配后的数量就是 min。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "属于中性的学术词汇，没有特殊敬语要求。向不熟悉统计术语的人解释时，可同时使用较易懂的 purata。",
+    "usage_etiquette": "报告 min 时说明所计算的对象、样本数量与单位；讨论成绩时说 min markah，讨论气温时说 min suhu，避免只报一个缺乏背景的数字。"
+  }
+}

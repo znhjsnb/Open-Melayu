@@ -1,0 +1,290 @@
+{
+  "tapi": {
+    "context": "WhatsApp / 朋友商量晚上见面",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Jom makan malam ni. Kau boleh datang pukul lapan?",
+        "ms_standard": "Mari kita makan bersama-sama malam ini. Bolehkah awak datang pada pukul lapan?",
+        "zh": "今晚一起吃饭吧。你八点能来吗？"
+      },
+      {
+        "speaker": "Farhan (朋友)",
+        "ms_spoken": "Nak ikut, tapi kerja aku belum siap lagi lah. Pukul sembilan boleh?",
+        "ms_standard": "Saya hendak turut serta, tetapi kerja saya masih belum siap. Bolehkah kita berjumpa pada pukul sembilan?",
+        "zh": "想去啊，可是我的活儿还没做完。九点行吗？"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Boleh je. Nanti dah siap, mesej aku.",
+        "ms_standard": "Boleh. Apabila kerja awak sudah siap nanti, hantarkan mesej kepada saya.",
+        "zh": "可以啊。待会儿忙完了给我发消息。"
+      }
+    ],
+    "spoken_features": [
+      "tapi 自然引出想参加却尚未完成工作的限制，标准语对应 tetapi",
+      "nak 是 hendak 的口语缩略；Nak ikut 省略了主语 aku",
+      "aku、kau 用于熟悉的朋友之间；正式还原采用 saya、awak",
+      "ni = ini；dah = sudah；je = sahaja，但 Boleh je 在这里整体还原为 Boleh 更自然",
+      "belum siap lagi 表示仍未完成；lah 在此带出解释和些许无奈"
+    ]
+  },
+  "pergi": {
+    "context": "WhatsApp / 室友出门买东西",
+    "messages": [
+      {
+        "speaker": "Amir (室友)",
+        "ms_spoken": "Aku nak pergi kedai jap. Kau nak apa-apa tak?",
+        "ms_standard": "Saya hendak pergi ke kedai sebentar. Adakah awak mahu apa-apa?",
+        "zh": "我去趟店里。你要带点什么吗？"
+      },
+      {
+        "speaker": "Danish (室友)",
+        "ms_spoken": "Tolong belikan roti satu buku. Duit nanti aku transfer.",
+        "ms_standard": "Tolong belikan saya sebuku roti. Saya akan memindahkan wang kepada awak nanti.",
+        "zh": "帮我买一条面包。钱我待会儿转给你。"
+      },
+      {
+        "speaker": "Amir (室友)",
+        "ms_spoken": "Okey. Aku pergi sekarang, kejap lagi balik.",
+        "ms_standard": "Baiklah. Saya akan pergi sekarang dan pulang sebentar lagi.",
+        "zh": "好。我现在就去，一会儿回来。"
+      }
+    ],
+    "spoken_features": [
+      "pergi 在这里表示前往商店；pergi kedai 在口语中省略地点介词 ke",
+      "jap、kejap 都是 sekejap 的口语缩略，此处正式还原为 sebentar",
+      "nak = hendak 或 mahu，具体取决于表示行动意图还是需求",
+      "句末 tak 构成口语是非问句",
+      "roti satu buku 采用口语语序，规范数量表达为 sebuku roti；transfer 是聊天中常见的英语夹用"
+    ]
+  },
+  "orang": {
+    "context": "WhatsApp / 朋友到餐馆后商量换地方",
+    "messages": [
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Aku dah sampai. Ramai orang kat sini, meja semua penuh.",
+        "ms_standard": "Saya sudah sampai. Terdapat ramai orang di sini dan semua meja sudah penuh.",
+        "zh": "我到了。这里人好多，桌子都坐满了。"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Kalau macam tu, kita makan kat kedai sebelah je nak?",
+        "ms_standard": "Jika begitu, mahukah awak makan bersama saya di kedai sebelah sahaja?",
+        "zh": "这样的话，咱们就在隔壁那家吃，好不好？"
+      },
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Jom. Aku tunggu kau depan kedai sebelah.",
+        "ms_standard": "Marilah. Saya akan menunggu awak di hadapan kedai sebelah.",
+        "zh": "走吧。我在隔壁那家店门口等你。"
+      }
+    ],
+    "spoken_features": [
+      "ramai orang 表示人多，orang 本身无须添加复数标记",
+      "dah = sudah；kat 在这里对应地点介词 di",
+      "macam tu 对应 begitu；je = sahaja",
+      "句末 nak? 用来征询对方是否愿意接受共同用餐的提议",
+      "depan kedai 在口语中省略介词，正式还原为 di hadapan kedai"
+    ]
+  },
+  "adalah": {
+    "context": "WhatsApp / 同事核对活动通知中的收费说明",
+    "messages": [
+      {
+        "speaker": "Farah (同事)",
+        "ms_spoken": "Dalam notis tu tulis, 'Bayaran adalah untuk makanan sahaja.' Maknanya pengangkutan tak termasuk, kan?",
+        "ms_standard": "Dalam notis itu tertulis, 'Bayaran adalah untuk makanan sahaja.' Maksudnya, kos pengangkutan tidak termasuk dalam bayaran itu, bukan?",
+        "zh": "通知上写着：“费用仅用于餐食。”意思是交通费不包含在内，对吧？"
+      },
+      {
+        "speaker": "Hakim (同事)",
+        "ms_spoken": "Haah, betul. Kalau nak naik bas, kena bayar asing.",
+        "ms_standard": "Ya, betul. Jika awak hendak menaiki bas, tambangnya perlu dibayar secara berasingan.",
+        "zh": "对，没错。要坐巴士的话，车费得另外付。"
+      }
+    ],
+    "spoken_features": [
+      "adalah 保留在通知原文中，后接介词短语 untuk makanan sahaja，符合此处的规范用法",
+      "这段聊天通过引用通知自然呈现书面语 adalah；日常随意交谈通常不会刻意添加它",
+      "tu = itu；tak = tidak；kan 用于请求确认",
+      "haah 表示肯定回应，正式还原为 ya",
+      "kena bayar asing 表示需要另付，正式还原为 perlu dibayar secara berasingan"
+    ]
+  },
+  "nak": {
+    "context": "WhatsApp / 朋友先到店里帮忙点饮料",
+    "messages": [
+      {
+        "speaker": "Syafiq (朋友)",
+        "ms_spoken": "Aku dah sampai kat kedai. Kau nak teh ke kopi?",
+        "ms_standard": "Saya sudah sampai di kedai. Awak mahu teh atau kopi?",
+        "zh": "我已经到店里了。你要茶还是咖啡？"
+      },
+      {
+        "speaker": "Iman (朋友)",
+        "ms_spoken": "Nak teh ais, kurang manis. Tolong order dulu, aku sampai kejap lagi.",
+        "ms_standard": "Saya mahu teh ais yang kurang manis. Tolong pesan dahulu. Saya akan sampai sebentar lagi.",
+        "zh": "要冰奶茶，少甜。帮我先点，我一会儿就到。"
+      },
+      {
+        "speaker": "Syafiq (朋友)",
+        "ms_spoken": "Okey, aku order sekarang.",
+        "ms_standard": "Baiklah, saya akan membuat pesanan sekarang.",
+        "zh": "好，我现在点。"
+      }
+    ],
+    "spoken_features": [
+      "nak 在这里表示想要某种饮料，正式还原为 mahu；回复中的 Nak teh ais 省略主语",
+      "ke 在二选一问句中对应 atau，不是方向介词",
+      "dah = sudah；kat = di；kejap lagi 对应 sebentar lagi",
+      "order 是马来西亚聊天中常见的英语夹用，正式还原为 pesan 或 membuat pesanan",
+      "马来西亚茶餐饮语境中的 teh ais 通常指加奶的冰茶；kurang manis 是常用的少甜点单表达"
+    ]
+  },
+  "ia": {
+    "context": "WhatsApp / 同学讨论短篇小说中的人物指代",
+    "messages": [
+      {
+        "speaker": "Mei Ling (同学)",
+        "ms_spoken": "Dalam cerpen tu ada ayat 'Ia terus pulang.' Yang 'ia' tu Amir ke ayah dia?",
+        "ms_standard": "Dalam cerpen itu terdapat ayat 'Ia terus pulang.' Adakah kata ganti nama 'ia' itu merujuk kepada Amir atau bapanya?",
+        "zh": "那篇短篇小说里有一句“他随即回家了”。这个“他”指的是阿米尔，还是他爸爸？"
+      },
+      {
+        "speaker": "Aisyah (同学)",
+        "ms_spoken": "Amir. Ayah dia masih kat kedai masa tu.",
+        "ms_standard": "Kata ganti nama itu merujuk kepada Amir. Bapanya masih berada di kedai pada waktu itu.",
+        "zh": "阿米尔。他爸爸当时还在店里。"
+      }
+    ],
+    "spoken_features": [
+      "ia 通过小说原句和指代讨论自然出现，在这里指人，属于书面叙述中的第三人称代词",
+      "同学自己的随意聊天使用 dia；dia 与 ia 是语体用词差异，并非拼写缩略关系",
+      "tu = itu；kat = di；masa tu 对应 pada waktu itu",
+      "Amir ke ayah dia 中的 ke 表示二选一，正式还原为 atau",
+      "第二轮用单独的 Amir 回答选择问句，正式还原时补全指代关系"
+    ]
+  },
+  "jadi": {
+    "context": "WhatsApp / 朋友确认晚上的聚餐是否成行",
+    "messages": [
+      {
+        "speaker": "Faris (朋友)",
+        "ms_spoken": "Makan sama-sama malam ni jadi tak? Kalau jadi, aku tempah meja.",
+        "ms_standard": "Adakah rancangan kita untuk makan bersama-sama malam ini akan diteruskan? Jika diteruskan, saya akan menempah meja.",
+        "zh": "今晚一起吃饭还去吗？去的话，我就订位。"
+      },
+      {
+        "speaker": "Hana (朋友)",
+        "ms_spoken": "Jadi! Semua dah confirm. Tempah untuk empat orang ya.",
+        "ms_standard": "Ya, rancangan itu akan diteruskan. Semua orang sudah mengesahkan kehadiran. Tolong tempah meja untuk empat orang.",
+        "zh": "去！大家都确认了。订四个人的位子哦。"
+      },
+      {
+        "speaker": "Faris (朋友)",
+        "ms_spoken": "Okey, pukul lapan kat tempat biasa.",
+        "ms_standard": "Baiklah, kita akan berjumpa pada pukul lapan di tempat biasa.",
+        "zh": "好，八点老地方见。"
+      }
+    ],
+    "spoken_features": [
+      "jadi tak 询问原定计划是否成行；这里的 jadi 不表示变成或所以",
+      "回复中的 Jadi! 承接前文，确认聚餐照常进行",
+      "ni = ini；dah = sudah；kat = di",
+      "sama-sama 在这里指共同用餐，正式还原为 bersama-sama",
+      "confirm 是常见英语夹用，此处指确认出席；ya 使请求带有提醒和协商语气"
+    ]
+  },
+  "sekarang": {
+    "context": "WhatsApp / 朋友协调出门和接人的时间",
+    "messages": [
+      {
+        "speaker": "Nabil (朋友)",
+        "ms_spoken": "Aku nak keluar sekarang. Kau dah siap ke?",
+        "ms_standard": "Saya hendak keluar sekarang. Adakah awak sudah bersedia?",
+        "zh": "我现在要出门了。你准备好了没？"
+      },
+      {
+        "speaker": "Sara (朋友)",
+        "ms_spoken": "Belum, bagi aku lima minit lagi. Nanti tunggu kat bawah je.",
+        "ms_standard": "Saya belum bersedia. Beri saya lima minit lagi. Nanti, tunggu sahaja di bawah.",
+        "zh": "还没，再给我五分钟。待会儿你就在楼下等就好。"
+      },
+      {
+        "speaker": "Nabil (朋友)",
+        "ms_spoken": "Okey, dah sampai nanti aku mesej.",
+        "ms_standard": "Baiklah, saya akan menghantar mesej kepada awak apabila saya sampai nanti.",
+        "zh": "好，我到了给你发消息。"
+      }
+    ],
+    "spoken_features": [
+      "sekarang 表示发消息时的当下，保持完整拼写",
+      "nak = hendak；dah = sudah",
+      "句末 ke 构成口语是非问句，正式还原时使用 adakah",
+      "kat bawah 对应 di bawah；结合接人情境，中文译为楼下",
+      "je = sahaja；lima minit lagi 中的 lagi 表示追加五分钟"
+    ]
+  },
+  "lagi": {
+    "context": "WhatsApp / 朋友在美食广场吃饭时商量追加食物",
+    "messages": [
+      {
+        "speaker": "Lina (朋友)",
+        "ms_spoken": "Nasi tadi macam tak cukup lah. Aku lapar lagi ni.",
+        "ms_standard": "Nasi yang saya makan tadi nampaknya tidak mencukupi. Saya masih lapar.",
+        "zh": "刚才那份饭好像不太够啊。我现在还饿着呢。"
+      },
+      {
+        "speaker": "Wani (朋友)",
+        "ms_spoken": "Aku pun. Nak tambah satu lagi untuk kongsi?",
+        "ms_standard": "Saya juga masih lapar. Mahukah awak memesan satu hidangan lagi untuk kita kongsi?",
+        "zh": "我也是。要不要再点一份，咱们分着吃？"
+      },
+      {
+        "speaker": "Lina (朋友)",
+        "ms_spoken": "Boleh, tambah satu je. Nanti tak habis pulak.",
+        "ms_standard": "Boleh, pesan satu hidangan tambahan sahaja. Saya bimbang kita tidak dapat menghabiskannya nanti.",
+        "zh": "行，就再加一份吧。免得待会儿又吃不完。"
+      }
+    ],
+    "spoken_features": [
+      "lapar lagi 中的 lagi 表示状态持续，正式还原为 masih lapar",
+      "satu lagi 中的 lagi 表示数量追加；satu 根据点餐语境指一份食物",
+      "Aku pun 是承接上文的省略回答，意思是我也还饿",
+      "nak 引出共同追加食物的提议；je = sahaja",
+      "ni 在这里加强眼下仍然饿的语气；pulak 是 pula 的口语变体，此处表达对随后反而吃不完的顾虑"
+    ]
+  },
+  "pada": {
+    "context": "WhatsApp / 朋友确认备用钥匙在谁手里",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Kunci spare rumah aku masih ada pada kau ke?",
+        "ms_standard": "Adakah kunci pendua rumah saya masih ada pada awak?",
+        "zh": "我家的备用钥匙还在你那儿吗？"
+      },
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Haah, ada pada aku lagi. Nak aku hantar kat kau petang ni?",
+        "ms_standard": "Ya, kunci itu masih ada pada saya. Adakah awak mahu saya menghantarnya kepada awak petang ini?",
+        "zh": "对，还在我这儿。要我今天傍晚给你送过去吗？"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Tak payah, nanti aku singgah ambil. Simpan dulu ya.",
+        "ms_standard": "Tidak perlu. Saya akan singgah untuk mengambilnya nanti. Tolong simpan dahulu.",
+        "zh": "不用，我待会儿顺路过去拿。先帮我收着哦。"
+      }
+    ],
+    "spoken_features": [
+      "ada pada kau、ada pada aku 中的 pada 标示持有关系，表示钥匙在某人手里",
+      "ada pada aku lagi 表示仍由我持有，正式还原为 masih ada pada saya",
+      "kat kau 在递送语境中对应 kepada awak；kat 并非总是对应地点介词 di",
+      "spare 是英语夹用，此处 kunci spare 对应 kunci pendua",
+      "haah = ya；ni = ini；句末 ke 用于提问；tak payah 是口语中表示不必的常见说法"
+    ]
+  }
+}

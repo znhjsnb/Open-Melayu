@@ -1,0 +1,137 @@
+{
+  "headword": {
+    "word": "sialan",
+    "syllables": "sia.lan",
+    "ipa": "/si.a.lan/",
+    "jawi": "سيالن",
+    "frequency_rank": 957,
+    "tags": [
+      "CEFR-B2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sial",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "sial + -an → sialan（招晦气的人；骂人用语）",
+    "pattern_note": "以 sial 为构词基础，-an 形成指人及咒骂表达。PRPM 的书写音节为 sia.lan；IPA 用宽式 /si.a.lan/ 显示元音序列，不用来替换官方音节字段。Jawi 来自本地 PRPM 原始 JSON；CEFR 为教学建议分级，频率标签不表示适合主动使用。",
+    "word_family": [
+      {
+        "word": "sial",
+        "affix": "∅",
+        "gloss": "倒霉；晦气"
+      },
+      {
+        "word": "kesialan",
+        "affix": "ke-...-an",
+        "gloss": "厄运；倒霉的遭遇"
+      },
+      {
+        "word": "pembawa sial",
+        "affix": "短语",
+        "gloss": "带来厄运的人或事物"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "被认为带来晦气的人；倒霉鬼。",
+      "ms_definition": "orang yg (mendatangkan) sial.",
+      "nuances": "是把人同厄运联系起来的贬称，不是中性的身份描述。下列为自然的指人组合；原始包没有语料频次，不能据此认定为高频固定搭配。",
+      "collocations": [
+        {
+          "ms": "si sialan",
+          "zh": "那个倒霉鬼／晦气的家伙",
+          "en": "that jinx"
+        },
+        {
+          "ms": "orang sialan",
+          "zh": "被骂作晦气的人",
+          "en": "someone regarded as a jinx"
+        }
+      ],
+      "en_definition": "A person thought to bring bad luck; a jinx."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "该死！混账！用于咒骂或强烈泄愤。",
+      "ms_definition": "Id jahanam, celaka (kata makian).",
+      "nuances": "Kamus Dewan 标注 Id，表示这一骂法带有印度尼西亚用法标记；马来西亚读者也可能在影视或聊天中遇到。实际功能是感叹词，因指定词类枚举没有 interjection 而归入 particle；不是普通语气助词。",
+      "collocations": [
+        {
+          "ms": "Sialan kau!",
+          "zh": "你这混账！",
+          "en": "You bastard!"
+        },
+        {
+          "ms": "Dasar sialan!",
+          "zh": "真是个混账！（印尼色彩明显）",
+          "en": "What a bastard!"
+        }
+      ],
+      "en_definition": "In Indonesian usage, a curse or insult expressing strong anger or contempt."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 校园文明用语报道",
+      "ms": "Pihak sekolah menasihati murid supaya tidak menggunakan kata makian seperti “sialan” terhadap rakan.",
+      "zh": "校方劝告学生不要对同学使用“混账”等辱骂用语。",
+      "en": "The school advised pupils not to use insults such as “sialan” against their peers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友私聊，倾诉被人辱骂后的不满",
+      "ms_spoken": "Dia panggil aku sialan tadi, sebab aku tegur dia potong barisan je.",
+      "ms_standard": "Dia memanggil saya sialan tadi hanya kerana saya menegurnya kerana memotong barisan.",
+      "zh": "他刚才骂我混账，就因为我说了他插队。",
+      "spoken_features": [
+        "sialan 在这里是转述对方使用的粗俗辱骂，含义接近“混账”，不能当作普通称呼。",
+        "panggil、tegur、potong barisan 在口语中使用无前缀形式，标准版本分别恢复为 memanggil、menegur、memotong barisan。",
+        "Biar betul? 表达惊讶或难以置信；kena maki 表示挨骂，malas nak gaduh 表示不想费劲争吵。"
+      ],
+      "messages": [
+        {
+          "speaker": "Faiz (朋友)",
+          "ms_spoken": "Dia panggil aku sialan tadi, sebab aku tegur dia potong barisan je.",
+          "ms_standard": "Dia memanggil saya sialan tadi hanya kerana saya menegurnya kerana memotong barisan.",
+          "zh": "他刚才骂我混账，就因为我说了他插队。",
+          "en": "He called me a bastard earlier, just because I told him off for jumping the queue."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Biar betul? Dia yang salah, kau pulak kena maki.",
+          "ms_standard": "Benarkah begitu? Dia yang bersalah, tetapi awak pula yang dimaki.",
+          "zh": "真的假的？明明是他不对，挨骂的反倒是你。",
+          "en": "Seriously? He's the one in the wrong, and you're the one getting sworn at."
+        },
+        {
+          "speaker": "Faiz (朋友)",
+          "ms_spoken": "Tu lah. Aku malas nak gaduh, aku jalan je.",
+          "ms_standard": "Itulah. Saya tidak mahu bergaduh, jadi saya terus beredar.",
+          "zh": "就是啊。我懒得吵，就直接走了。",
+          "en": "Exactly. I couldn't be bothered to argue, so I just walked away."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "属于粗鲁、可能伤人的表达；对同事、长辈、陌生人或任何族群成员都不宜当面使用。熟人之间也不能默认对方接受这种玩笑。",
+    "usage_etiquette": "理解影视对白或转述冲突时可以识别这个词。表达自己不顺时可改说 malangnya 或 nasib tak baik；不要把某个人称为晦气来源。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语／印度尼西亚语（更早来源未确证）",
+    "root_origin": "可分析为 sial + -an；Austronesian 在此指马来语词族背景，不表示已证明 sial 的原始南岛语词源。",
+    "historical_story": "sial 的“晦气”概念在 sialan 中被用来贬称人，词典又记录了它作为咒骂语的用法。Kamus Dewan 给咒骂义标注 Id，提醒我们这个表达也带着马来语与印度尼西亚语接触的地域背景；更早的源头、年代和具体传播路线尚不能据现有材料确定。",
+    "cognitive_memory_aid": "从 sial“晦气”联想到 sialan“把晦气骂到人身上”，记住它伤人的语气。"
+  }
+}

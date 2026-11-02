@@ -1,0 +1,88 @@
+{
+  "batch": 1,
+  "checked_at_utc": "2026-11-01T10:30:59.766906+00:00",
+  "result": "passed",
+  "entry_count": 10,
+  "sense_count": 28,
+  "scenario_count": 20,
+  "individual_file_count": 10,
+  "top_level_key_count": 7,
+  "checks": [
+    "strict UTF-8 JSON, without duplicate keys or replacement characters",
+    "exact required nested fields and allowed enums",
+    "scalar and collection types",
+    "word order and unique headwords",
+    "continuous sense ids",
+    "formal and colloquial scenario structure",
+    "Chinese definitions and spoken-feature annotations",
+    "frequency ranks against raw corpus and pilot list",
+    "available PRPM cached Jawi and syllables preserved",
+    "root and contraction distinctions",
+    "individual objects equal corresponding batch entries"
+  ],
+  "prpm_cached_jawi_exact_matches": 7,
+  "prpm_cached_syllables_exact_matches": 5,
+  "linguistic_review": "Editorial review completed; no independent expert certification claimed.",
+  "evidence_limits": [
+    "dan etymology unknown",
+    "dan independent Kamus Dewan headword not retrieved; verified DBP advice used with explicit attribution",
+    "Kaikki-only homonym senses explicitly labelled editorial"
+  ],
+  "files": [
+    {
+      "path": "data/enriched/batch_1.json",
+      "bytes": 51712,
+      "sha256": "fecd9a149d31865795698b92eb601e655e2b98177b0106201b55cfa600761083"
+    },
+    {
+      "path": "data/enriched/saya.json",
+      "bytes": 4342,
+      "sha256": "f76a317e638a38678861e855c3522b23bc9e52d4a2f2963acd4a106db3eadb4d"
+    },
+    {
+      "path": "data/enriched/yang.json",
+      "bytes": 6977,
+      "sha256": "7fcf7a9e06598e691d28e6c834dde564bcd2a7268bf9ee07ea6b3f9e769b948e"
+    },
+    {
+      "path": "data/enriched/aku.json",
+      "bytes": 4741,
+      "sha256": "099b89ffa74b019fa3577a002b9bcfcb1ae198fd8071154efdcf8e87dffe3425"
+    },
+    {
+      "path": "data/enriched/dia.json",
+      "bytes": 4869,
+      "sha256": "1a853a92b6d0df200b587ed3ea018afbcb2d3ef8d1da003bf4ceaec3675e94b6"
+    },
+    {
+      "path": "data/enriched/awak.json",
+      "bytes": 5789,
+      "sha256": "29c62c88c07a3f2d0a79fbda0007006caa7bd316a26d2ceca84e40de30f37e93"
+    },
+    {
+      "path": "data/enriched/kau.json",
+      "bytes": 5023,
+      "sha256": "ed544dafb0793a7428bf3057175f774cda1987328b32e1703f4be2036e89622a"
+    },
+    {
+      "path": "data/enriched/ini.json",
+      "bytes": 5044,
+      "sha256": "410f13387efe8a3a16af619ef41cc63f64d4a597719ec959b85315b2a4f7358f"
+    },
+    {
+      "path": "data/enriched/di.json",
+      "bytes": 5183,
+      "sha256": "204ce3723fa787fb9b7bd367d8623f6fbb80ee8ba1f6376e19f9e2d5f5f8dd4c"
+    },
+    {
+      "path": "data/enriched/tak.json",
+      "bytes": 5582,
+      "sha256": "f16660c8c304e084e78224d63c20edff6f2d4a5403bddc8bc7c301ee4caf2f89"
+    },
+    {
+      "path": "data/enriched/dan.json",
+      "bytes": 4535,
+      "sha256": "ce98b45d1e1d338cd6fb467f275de654af96e5c01d5ce3d1555b4c1eca4fafef"
+    }
+  ]
+}

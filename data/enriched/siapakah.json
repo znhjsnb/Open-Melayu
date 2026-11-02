@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "siapakah",
+    "syllables": null,
+    "ipa": "/si.a.pa.kah/",
+    "jawi": "سياڤا",
+    "frequency_rank": 1038,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "siapa",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "siapa + -kah → siapakah",
+    "pattern_note": "-kah 实际是后附疑问小品词，按本结构归入 suffix；与 siapa 连写，不改变词根拼写。",
+    "word_family": [
+      {
+        "word": "siapa",
+        "affix": "∅",
+        "gloss": "谁"
+      },
+      {
+        "word": "siapa-siapa",
+        "affix": "penggandaan",
+        "gloss": "任何人；某个人"
+      }
+    ],
+    "root_jawi": "سياڤا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "谁；用于询问某人的身份、姓名或某一角色由何人担任。",
+      "en_definition": "Who; used to ask for a person's identity or to identify the person occupying a particular role.",
+      "ms_definition": "Kata ganti nama tanya yang digunakan untuk menanyakan identiti seseorang, dengan partikel -kah sebagai penegas pertanyaan.",
+      "nuances": "准确词类为 kata ganti nama tanya，即疑问代词；因给定枚举没有 pronoun，本条归入 noun，不表示普通名词。-kah 突出疑问成分，常见于正式提问；日常口语多用 siapa。通常用于询问人，不能直接替代询问事物的 apakah。",
+      "collocations": [
+        {
+          "ms": "siapakah yang bertanggungjawab",
+          "zh": "由谁负责",
+          "en": "who is responsible"
+        },
+        {
+          "ms": "siapakah pemiliknya",
+          "zh": "它的所有者是谁",
+          "en": "who owns it"
+        },
+        {
+          "ms": "siapakah nama anda",
+          "zh": "您叫什么名字",
+          "en": "what is your name"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场会议 / 确认项目负责人",
+      "ms": "Siapakah yang bertanggungjawab menyelaras pelaksanaan projek ini?",
+      "zh": "谁负责协调这个项目的实施？",
+      "en": "Who is responsible for coordinating the implementation of this project?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认照片中的人物",
+      "ms_spoken": "Siapa yang kat sebelah kau dalam gambar tu?",
+      "ms_standard": "Siapakah yang berada di sebelah kamu dalam gambar itu?",
+      "zh": "照片里站你旁边的是谁呀？",
+      "en": "Who is next to you in that photo?",
+      "spoken_features": [
+        "日常提问通常省略 -kah，使用 siapa。",
+        "kat 对应 di，并可省略标准表达中的 berada。",
+        "kau 是熟人之间使用的第二人称形式。",
+        "tu 对应 itu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Siapa yang kat sebelah kau dalam gambar tu?",
+          "ms_standard": "Siapakah yang berada di sebelah kamu dalam gambar itu?",
+          "zh": "照片里你旁边那个人是谁？",
+          "en": "Who's that next to you in the photo?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Oh, tu sepupu aku. Dia baru je balik dari Johor.",
+          "ms_standard": "Oh, itu sepupu saya. Dia baru sahaja pulang dari Johor.",
+          "zh": "哦，那是我表亲，刚从柔佛回来。",
+          "en": "Oh, that's my cousin. They've just got back from Johor."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向陌生人询问身份时，可先说 Maaf。直接说 Siapakah anda? 可能像盘问；询问姓名时，Maaf, boleh saya tahu nama tuan? 更委婉。",
+    "usage_etiquette": "正式提问可使用 siapakah，朋友聊天通常使用 siapa。输入包未提供音节，故 syllables 保留 null；headword.jawi 按输入保留的是词根 siapa 的爪夷文，未包含 -kah。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay",
+    "root_origin": "siapa + -kah；直接来源为马来语疑问代词与疑问小品词",
+    "cognitive_memory_aid": "把 siapa 想成指向一个人的“谁”，再把 -kah 想成附在词尾的问号；这个问号突出提问，不增加新的身份含义。",
+    "historical_story": "Siapakah 由询问人的 siapa 与疑问小品词 -kah 组合而成，保留了词根的身份询问功能。现代正式提问常保留这个词尾，而熟人聊天往往只说 siapa，仿佛同一个“谁”在会议室与聊天窗口中换了表达方式。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "向陌生人询问身份时，可先说 Maaf。直接说 Siapakah anda? 可能像盘问；询问姓名时，Maaf, boleh saya tahu nama tuan? 更委婉。",
+    "usage_etiquette": "正式提问可使用 siapakah，朋友聊天通常使用 siapa。输入包未提供音节，故 syllables 保留 null；headword.jawi 按输入保留的是词根 siapa 的爪夷文，未包含 -kah。"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "headword": {
+    "word": "rakyat",
+    "syllables": null,
+    "ipa": "[raʔ.jat]",
+    "jawi": "رعيت",
+    "frequency_rank": 955,
+    "tags": [
+      "CEFR-B1",
+      "SPM必考"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rakyat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rakyat → rakyat（人民；国民）",
+    "pattern_note": "阿拉伯语整词借入，不作现代马来语词缀拆分。原包 syllables 为空，保留 null；IPA 取包内 [raʔ.jat]，其中 k 实现为喉塞音。merakyat、merakyatkan 的 meN- 在 r 前实现为 me-，r 保留。",
+    "word_family": [
+      {
+        "word": "merakyat",
+        "affix": "meN- → me-",
+        "gloss": "普及到民众中"
+      },
+      {
+        "word": "merakyatkan",
+        "affix": "meN-…-kan",
+        "gloss": "向民众普及；使大众化"
+      },
+      {
+        "word": "kerakyatan",
+        "affix": "ke-…-an",
+        "gloss": "人民事务；民主；国籍身份（依语境）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "人民；一个国家的国民整体；在具体语境中也可指其中一名国民。",
+      "ms_definition": "seluruh penduduk sesebuah negara (sbg syarat mendirikan sesuatu pemerintahan)",
+      "nuances": "rakyat Malaysia 泛指马来西亚人民；dia rakyat Malaysia 可指他／她是马来西亚国民。需要精确表达公民身份时用 warganegara，泛指居住人口用 penduduk；不能仅凭居住地点推定国籍。",
+      "collocations": [
+        {
+          "ms": "rakyat Malaysia",
+          "zh": "马来西亚人民；马来西亚国民",
+          "en": "the people of Malaysia"
+        },
+        {
+          "ms": "kesejahteraan rakyat",
+          "zh": "人民福祉",
+          "en": "the well-being of the people"
+        }
+      ],
+      "en_definition": "The people of a country collectively; in some contexts, an individual citizen."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "属民；臣民；某位首领管辖下的人。",
+      "ms_definition": "anak buah, orang-orang sebawahan",
+      "nuances": "多见于传统治理、王室或历史叙述；rakyat baginda 指君主的臣民。现代工作场合说下属通常用 kakitangan 或 orang bawahan，不把同事直接称作自己的 rakyat。",
+      "collocations": [
+        {
+          "ms": "rakyat baginda",
+          "zh": "陛下的臣民",
+          "en": "His Majesty's subjects"
+        },
+        {
+          "ms": "raja dan rakyat",
+          "zh": "君主与臣民",
+          "en": "the monarch and the subjects"
+        }
+      ],
+      "en_definition": "The subjects or followers under the authority of a ruler or chief."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "平民；普通大众；相对于王族或贵族的民众。",
+      "ms_definition": "orang kebanyakan, orang ramai, orang biasa",
+      "nuances": "rakyat jelata 强调普通民众；cerita rakyat 指民间流传的故事。原包另列 Ph、bp 的 Orang Asli 地方口语义，不宜拿来泛称原住民族；现代跨族群交流使用 Orang Asli 或具体族群名称。",
+      "collocations": [
+        {
+          "ms": "rakyat jelata",
+          "zh": "平民百姓",
+          "en": "the common people"
+        },
+        {
+          "ms": "cerita rakyat",
+          "zh": "民间故事",
+          "en": "folktale"
+        }
+      ],
+      "en_definition": "Ordinary people, as distinct from royalty or the nobility."
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "军队；兵众，见于传统叙事中的用法。",
+      "ms_definition": "pasukan perang, bala tentera",
+      "nuances": "读古典故事时，rakyat 若与君主出征、武器等同现，可能指兵众；现代新闻里的 rakyat 通常仍是人民。以下组合须结合军事语境理解，不把任何‘全体人民’都译成军队。",
+      "collocations": [
+        {
+          "ms": "rakyat lengkap dengan senjatanya",
+          "zh": "武器齐备的兵众（传统叙事）",
+          "en": "fully armed troops"
+        },
+        {
+          "ms": "diiringi oleh seluruh rakyat",
+          "zh": "由全体兵众随行（军事语境）",
+          "en": "accompanied by the entire army"
+        }
+      ],
+      "en_definition": "An army or body of troops, especially in traditional narratives."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／公共服务政策报道",
+      "ms": "Kerajaan menegaskan bahawa kesejahteraan rakyat terus menjadi keutamaan dalam usaha meningkatkan mutu perkhidmatan awam.",
+      "zh": "政府强调，在提升公共服务质量的工作中，人民福祉仍是首要考量。",
+      "en": "The government stressed that the people's well-being remains a priority in efforts to improve public services."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友买菜后聊物价，商量自己做饭",
+      "ms_spoken": "Aku beli barang sikit je tadi, dah dekat seratus ringgit.",
+      "ms_standard": "Saya hanya membeli sedikit barang tadi, tetapi jumlahnya sudah hampir seratus ringgit.",
+      "zh": "我刚才只买了一点东西，就已经快一百令吉了。",
+      "spoken_features": [
+        "sikit je、dah dekat 分别表示“只有一点”和“已经接近”；dekat 在此表示数额接近，并非空间位置。",
+        "macam kita ni 对应 seperti kita ini；kena 在这里表示“得、需要”，标准版本用 perlu。",
+        "rakyat biasa 指普通民众；tu lah 表示对共同感受的附和，je lah 使自己做饭的提议更随和。"
+      ],
+      "messages": [
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Aku beli barang sikit je tadi, dah dekat seratus ringgit.",
+          "ms_standard": "Saya hanya membeli sedikit barang tadi, tetapi jumlahnya sudah hampir seratus ringgit.",
+          "zh": "我刚才只买了一点东西，就已经快一百令吉了。",
+          "en": "I only bought a few things earlier, and it already came to nearly a hundred ringgit."
+        },
+        {
+          "speaker": "Mira (朋友)",
+          "ms_spoken": "Tu lah, harga makin naik. Rakyat biasa macam kita ni memang kena berjimat.",
+          "ms_standard": "Itulah, harga semakin meningkat. Rakyat biasa seperti kita ini memang perlu berjimat.",
+          "zh": "就是啊，物价越来越高。像我们这样的普通老百姓，确实得省着点花。",
+          "en": "Exactly, prices just keep going up. Ordinary people like us really have to watch our spending."
+        },
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Minggu ni kita masak sendiri je lah. Kurang sikit belanja makan.",
+          "ms_standard": "Minggu ini, marilah kita memasak sendiri sahaja. Dengan cara itu, perbelanjaan makan dapat dikurangkan sedikit.",
+          "zh": "这周我们就自己做饭吧。伙食费能省一点。",
+          "en": "Let's just cook at home this week. That'll save us a bit on food."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "公共事务中常见，涵盖各族群，不等于 orang Melayu。谈国家人民时避免把族群、宗教与国民身份混为一谈。",
+    "usage_etiquette": "与王室有关的叙述须注意 baginda、beta 等专门称谓的使用范围，普通人不自称 beta。Dewan Rakyat 是国会下议院的专名，不能把每个出现 rakyat 的组织名称都理解为全体国民。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语",
+    "root_origin": "Arabic رَعِيَّة（raʿiyya，臣民；受治理的民众）。",
+    "historical_story": "rakyat 借自阿拉伯语 raʿiyya，早期臣民这一意义仍可在马来语君主与属民的叙述中看见。现代马来语又用它表达国家人民与普通大众，于是同一个词既能出现在 raja dan rakyat，也能出现在讨论人民福祉的新闻里。",
+    "cognitive_memory_aid": "把 rakyat 想成一张合照里的全体民众：不是只看一位领袖，而是看大家；rakyat jelata 再把焦点放在普通百姓身上。"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "observed_at_utc": "2026-11-01T11:22:09.078397+00:00",
+  "scope": "Offline mocks, local inputs, Git Bash; not an Ubuntu or live VPS benchmark",
+  "script_sha256": "094390566ba5c3f076f3f893a439296515d2fa7d3755b082571aca9c076c0224",
+  "input_sha256": {
+    "docs\\PLAN_DISTRIBUTED_CRAWLER_AND_CODEX.md": "1f8e7f6c1e3aab0a843fc7e0174528d1621e3c742099030a7704e389abea0b9c",
+    "src\\batch_synthesizer.py": "1930dd764058d05e0810876b3d56d61a51841d85961d1de6e4655dc3030a5e21",
+    "src\\prpm_continuous_crawler.py": "81efba1e3633af5ce4b12314ecf7c3b6ac27a03e5981fe4ec271cde6b9d46a1c",
+    "data\\candidate_pool_15k.json": "4184167a2ace0d5c02853a29ec9237ce716000a59397043e4492fb3f8c7d5541"
+  },
+  "script_crlf_count": 0,
+  "worker_compiles": true,
+  "http_200_maintenance": {
+    "requests": 1,
+    "completed": 1,
+    "found_count_variable": 1,
+    "sleep_calls": [
+      0.4539621720982794
+    ],
+    "status": "STATUS: COMPLETED\nShard: 1/5\nTotal Words: 1\nElapsed: 0.0 min\n",
+    "files": {
+      "sample.json": "{\n  \"word\": \"sample\",\n  \"found_in_prpm\": false,\n  \"syllables\": null,\n  \"jawi\": null,\n  \"kamus_dewan\": null,\n  \"kamus_pelajar\": null,\n  \"raw_definitions\": []\n}"
+    }
+  },
+  "http_503": {
+    "requests": 3,
+    "completed": 1,
+    "found_count_variable": 0,
+    "sleep_calls": [
+      1.0,
+      2.0
+    ],
+    "status": "STATUS: COMPLETED\nShard: 1/5\nTotal Words: 1\nElapsed: 0.0 min\n",
+    "files": {
+      "sample.json": "{\n  \"word\": \"sample\",\n  \"found_in_prpm\": false,\n  \"syllables\": null,\n  \"jawi\": null,\n  \"kamus_dewan\": null,\n  \"kamus_pelajar\": null,\n  \"raw_definitions\": [],\n  \"error\": \"HTTP Error 503: Unavailable\"\n}"
+    }
+  },
+  "restart_error_cache": {
+    "requests": 0,
+    "completed": 1,
+    "found_count_variable": 0,
+    "sleep_calls": [],
+    "status": "STATUS: COMPLETED\nShard: 1/5\nTotal Words: 1\nElapsed: 0.0 min\n",
+    "files": {
+      "sample.json": "{\n  \"word\": \"sample\",\n  \"found_in_prpm\": false,\n  \"syllables\": null,\n  \"jawi\": null,\n  \"kamus_dewan\": null,\n  \"kamus_pelajar\": null,\n  \"raw_definitions\": [],\n  \"error\": \"HTTP Error 503: Unavailable\"\n}"
+    }
+  },
+  "restart_corrupt_cache": {
+    "requests": 0,
+    "completed": 1,
+    "found_count_variable": 0,
+    "sleep_calls": [],
+    "status": "STATUS: COMPLETED\nShard: 1/5\nTotal Words: 1\nElapsed: 0.0 min\n",
+    "files": {
+      "sample.json": "{"
+    }
+  },
+  "unrelated_pane": {
+    "requests": 1,
+    "completed": 1,
+    "found_count_variable": 1,
+    "sleep_calls": [
+      0.7678980852261195
+    ],
+    "status": "STATUS: COMPLETED\nShard: 1/5\nTotal Words: 1\nElapsed: 0.0 min\n",
+    "files": {
+      "sample.json": "{\n  \"word\": \"sample\",\n  \"found_in_prpm\": true,\n  \"syllables\": null,\n  \"jawi\": null,\n  \"kamus_dewan\": null,\n  \"kamus_pelajar\": null,\n  \"raw_definitions\": [\n    \"Tiada maklumat dijumpai\"\n  ]\n}"
+    }
+  },
+  "phonetic_and_jawi_markup": {
+    "requests": 1,
+    "completed": 1,
+    "found_count_variable": 1,
+    "sleep_calls": [
+      0.6833795725873189
+    ],
+    "status": "STATUS: COMPLETED\nShard: 1/5\nTotal Words: 1\nElapsed: 0.0 min\n",
+    "files": {
+      "awak.json": "{\n  \"word\": \"awak\",\n  \"found_in_prpm\": true,\n  \"syllables\": null,\n  \"jawi\": null,\n  \"kamus_dewan\": \"[a.waʔ] اوق Definisi : ... (Kamus Dewan Edisi Keempat)\",\n  \"kamus_pelajar\": null,\n  \"raw_definitions\": [\n    \"[a.waʔ] اوق Definisi : ... (Kamus Dewan Edisi Keempat)\"\n  ]\n}"
+    }
+  },
+  "combined_dictionary_pane": {
+    "requests": 1,
+    "completed": 1,
+    "found_count_variable": 1,
+    "sleep_calls": [
+      0.7330820825835841
+    ],
+    "status": "STATUS: COMPLETED\nShard: 1/5\nTotal Words: 1\nElapsed: 0.0 min\n",
+    "files": {
+      "sample.json": "{\n  \"word\": \"sample\",\n  \"found_in_prpm\": true,\n  \"syllables\": null,\n  \"jawi\": null,\n  \"kamus_dewan\": \"Definisi : A (Kamus Dewan) Definisi : B (Kamus Pelajar)\",\n  \"kamus_pelajar\": null,\n  \"raw_definitions\": [\n    \"Definisi : A (Kamus Dewan) Definisi : B (Kamus Pelajar)\"\n  ]\n}"
+    }
+  },
+  "saved_dia_html": {
+    "requests": 1,
+    "completed": 1,
+    "found_count_variable": 1,
+    "sleep_calls": [
+      0.35792890239645425
+    ],
+    "status": "STATUS: COMPLETED\nShard: 1/5\nTotal Words: 1\nElapsed: 0.0 min\n",
+    "files": {
+      "dia.json": "{\n  \"word\": \"dia\",\n  \"found_in_prpm\": false,\n  \"syllables\": null,\n  \"jawi\": null,\n  \"kamus_dewan\": null,\n  \"kamus_pelajar\": null,\n  \"raw_definitions\": []\n}"
+    },
+    "fixture_sha256": "d317b67507cc78d76645c218c4c8a73ead7377f1aa8c1ac830970b0675a973ab"
+  },
+  "bash_syntax": {
+    "exit_code": 3221225794,
+    "stderr": "      0 [main] bash (9448) C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe: *** fatal error - couldn't create signal pipe, Win32 error 5\n"
+  },
+  "bash_runtime_tests": "NOT RUN: Bash unavailable or sandbox blocked its startup; shell conclusions require static reasoning and Ubuntu verification",
+  "candidate_pool": {
+    "count": 15000,
+    "unique": 15000,
+    "non_lowercase_count": 0,
+    "nfc_casefold_collisions": [],
+    "windows_reserved": [
+      "con"
+    ],
+    "leading_dash": [],
+    "leading_dot": []
+  },
+  "local_gist_upload_payload": {
+    "remote_revision_verified": false,
+    "bytes_utf8": 117743,
+    "sha256_utf8": "f31242e1dc4d37aa0574f8d8ef4b3aeac0babaec2b1b4b380e9d5771a0ab50a2",
+    "lines": 15000,
+    "matches_local_candidate_word_order": true
+  },
+  "local_cache_snapshot": {
+    "counts": {
+      "not_found_flag": 26,
+      "found_flag": 234,
+      "error": 56
+    },
+    "examples": {
+      "not_found_flag": [
+        "ada.json",
+        "air.json",
+        "akan.json",
+        "apakah.json",
+        "atau.json"
+      ],
+      "found_flag": [
+        "adakah.json",
+        "ajar.json",
+        "aku.json",
+        "ambil.json",
+        "anak.json"
+      ],
+      "error": [
+        "adalah.json",
+        "atas.json",
+        "baru.json",
+        "beberapa.json",
+        "belum.json"
+      ]
+    },
+    "possibly_concurrently_written": true
+  },
+  "scheduler_exists": false
+}

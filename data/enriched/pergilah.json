@@ -1,0 +1,146 @@
+{
+  "headword": {
+    "word": "pergilah",
+    "syllables": null,
+    "ipa": "/pər.ɡi.lah/",
+    "jawi": null,
+    "frequency_rank": 507,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: ڤرݢي (pergi)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pergi",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "pergi + -lah → pergilah",
+    "pattern_note": "-lah 是后附强调语气助词，并非改变词义类别的派生后缀；此处按 schema 的 suffix 表示附着位置。词根不变，不拆成 per- + gi。该形式无独立 PRPM 音节或 Jawi，故两字段保留 null；IPA 由本地 pergi 读音与 lah 合成。CEFR 为教学建议。 核心词根（Kata Dasar）「pergi」官方爪夷文为「ڤرݢي」，派生附加 -lah。",
+    "word_family": [
+      {
+        "word": "pergi",
+        "affix": "∅",
+        "gloss": "去；离开"
+      },
+      {
+        "word": "pemergian",
+        "affix": "peN-...-an",
+        "gloss": "离去；出行"
+      },
+      {
+        "word": "kepergian",
+        "affix": "ke-...-an",
+        "gloss": "离去；出发"
+      },
+      {
+        "word": "berpergian",
+        "affix": "ber-...-an",
+        "gloss": "远行"
+      }
+    ],
+    "root_jawi": "ڤرݢي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "去吧；请去；用于劝说、许可或敦促对方前往某处或做某事。",
+      "ms_definition": "berjalan dll menuju ke sesuatu tempat (mendapatkan seseorang dll)",
+      "nuances": "释义原文取自本地 PRPM 的 pergi 第一义，非独立 pergilah 词条；-lah 的语气作用由本包 lah 释义补充。可以温和劝说，也可坚定催促，实际态度依语调和上下文判断。",
+      "collocations": [
+        {
+          "ms": "pergilah berehat",
+          "zh": "去休息吧",
+          "en": "go and get some rest"
+        },
+        {
+          "ms": "pergilah berjumpa doktor",
+          "zh": "去看医生吧",
+          "en": "go and see a doctor"
+        }
+      ],
+      "en_definition": "Go; used to encourage, permit or urge someone to go somewhere or do something."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "走吧；离开吧；根据语气也可表示让人走开。",
+      "ms_definition": "meninggalkan sesuatu tempat, berundur (dr)",
+      "nuances": "释义原文取自本地 PRPM 的 pergi 第二义。pergilah dahulu 可表示体谅地让对方先走；单独冷冷地说 Pergilah! 则可能是驱赶，-lah 不保证句子礼貌。",
+      "collocations": [
+        {
+          "ms": "pergilah dahulu",
+          "zh": "先走吧",
+          "en": "go on ahead"
+        },
+        {
+          "ms": "pergilah dari sini",
+          "zh": "离开这里吧",
+          "en": "leave this place"
+        }
+      ],
+      "en_definition": "Leave or go away; used to tell someone to leave, gently or firmly depending on the tone."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共卫生宣传 / 社区健康讲座致辞",
+      "ms": "Jika gejala berterusan, pergilah ke klinik berhampiran untuk mendapatkan pemeriksaan lanjut.",
+      "zh": "若症状持续，请前往附近诊所接受进一步检查。",
+      "en": "If symptoms persist, go to a nearby clinic for further examination."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉的平辈同事在赶工时劝对方休息",
+      "ms_spoken": "Aku dah baca ayat ni tiga kali, masih tak masuk kepala. Penat betul.",
+      "ms_standard": "Saya sudah membaca ayat ini tiga kali, tetapi saya masih tidak memahaminya. Saya sangat penat.",
+      "zh": "这句话我都读三遍了，还是看不进去。真累。",
+      "spoken_features": [
+        "pergilah 在这里是体谅对方的劝说；结合代为接手工作的话语，表达‘去休息吧’。",
+        "pergilah 已含助词 -lah，无须再另加 lah。",
+        "tak masuk kepala 是口语惯用表达，此处指疲劳导致读不进去、无法理解。",
+        "rehat、dulu、gi、kejap 分别对应 berehat、dahulu、pergi、sekejap。",
+        "sambung balik 在这里表示恢复先前的工作；Thanks 是聊天中常见的英语夹用。"
+      ],
+      "messages": [
+        {
+          "speaker": "Faiz (熟悉的同事)",
+          "ms_spoken": "Aku dah baca ayat ni tiga kali, masih tak masuk kepala. Penat betul.",
+          "ms_standard": "Saya sudah membaca ayat ini tiga kali, tetapi saya masih tidak memahaminya. Saya sangat penat.",
+          "zh": "这句话我都读三遍了，还是看不进去。真累。",
+          "en": "I've read this sentence three times and it's still not sinking in. I'm exhausted."
+        },
+        {
+          "speaker": "Aiman (熟悉的同事)",
+          "ms_spoken": "Dah penat tu, pergilah rehat dulu. Aku boleh sambung semak bahagian ni.",
+          "ms_standard": "Kamu sudah penat. Pergilah berehat dahulu. Saya boleh meneruskan semakan bahagian ini.",
+          "zh": "都累了，先去休息吧。这部分我可以接着检查。",
+          "en": "You're tired. Go and take a break. I can carry on checking this section."
+        },
+        {
+          "speaker": "Faiz (熟悉的同事)",
+          "ms_spoken": "Thanks, aku gi ambil air kejap. Nanti aku sambung balik.",
+          "ms_standard": "Terima kasih, saya akan pergi mengambil air sebentar. Selepas itu, saya akan menyambung kerja semula.",
+          "zh": "谢了，我去拿点水，一会儿回来接着做。",
+          "en": "Thanks, I'll go grab some water. I'll get back to it in a bit."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "温和语调可表达关心或许可，但对长辈、上司或顾客直接命令 Pergilah 可能显得生硬。邀请时可按情况用 Silakan 或 Jemput；-lah 本身不是通用敬语。",
+    "usage_etiquette": "正式健康宣传中的建议语气自然，行政指令则常用 Sila pergi。避免把生气时的 Pergilah! 当作友善邀请；聊天省掉主语可减少 aku/kau 带来的关系不适。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语；南岛语系背景",
+    "root_origin": "马来语 pergi 与后附语气助词 -lah 结合；材料未给出 pergi 的更早祖语词形。",
+    "historical_story": "pergilah 的形成可以直接在马来语内部理解：表示去、离开的 pergi，接上调整语气的 -lah。于是同一个去的动作，能在送别时成为走吧，在家人关心时成为去休息吧；今天它也自然进入公共宣传中的劝告。资料没有给出这一组合的首见年代或海上迁移路线，不能把日常送别场景写成已证实的起源故事。",
+    "cognitive_memory_aid": "把 pergi 想成一个向外的箭头，-lah 给箭头配上说话者的口气：pergilah = 去吧；口气是否温和还要听语调。"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "wow",
+    "syllables": null,
+    "ipa": "[wau̯]",
+    "jawi": null,
+    "frequency_rank": 535,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "wow",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + wow → wow（整词感叹）",
+    "pattern_note": "英语感叹词在聊天中整词使用，没有需要拆分的马来语词缀。PRPM 原始包没有官方音节或 Jawi，均保留 null；[wau̯] 是按马来语 wau 对应读法给出的编辑标音，不冒充 DBP 官方音标。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "哇！用于表示惊讶、赞叹或出乎意料。",
+      "ms_definition": "interj wau",
+      "nuances": "原文来自 Kamus Inggeris-Melayu Dewan，是英语 wow 的马来语对应释义，并非独立 Kamus Dewan 马来语词条。实际词类为 kata seru（感叹词），因本 Schema 未列 interjection，映射到 particle。以下是感叹词常见接续表达，不是名词式固定搭配；标准马来语写作可用 wau，反讽含义取决于语境。",
+      "collocations": [
+        {
+          "ms": "wow, cantiknya",
+          "zh": "哇，真漂亮",
+          "en": "wow, that's beautiful"
+        },
+        {
+          "ms": "wow, hebatnya",
+          "zh": "哇，真厉害",
+          "en": "wow, that's impressive"
+        }
+      ],
+      "en_definition": "An exclamation expressing surprise, admiration, or amazement."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化新闻／引述展览观众反应",
+      "ms": "Ungkapan “wow” kedengaran daripada pengunjung sebaik sahaja hasil seni itu dipamerkan kepada umum.",
+      "zh": "艺术品一向公众展出，现场便传来参观者的“哇”声。",
+      "en": "Visitors could be heard exclaiming “wow” as soon as the artwork was unveiled to the public."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友发来自制蛋糕照片",
+      "ms_spoken": "Wow, cantiknya kek ni! Kau buat sendiri ke?",
+      "ms_standard": "Wau, cantiknya kek ini! Adakah kamu membuatnya sendiri?",
+      "zh": "哇，这蛋糕真漂亮！你自己做的吗？",
+      "spoken_features": [
+        "wow 是聊天中常见的惊叹写法；标准马来语还原使用 wau。",
+        "cantiknya 用 -nya 加强赞叹；ni 对应 ini；句末 ke 表示询问。",
+        "haah 表示肯定；bawak 是 membawa 的常见口语写法；sikit 对应 sedikit；aku 和 kau 适合关系熟悉的朋友。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mira (朋友)",
+          "ms_spoken": "Wow, cantiknya kek ni! Kau buat sendiri ke?",
+          "ms_standard": "Wau, cantiknya kek ini! Adakah kamu membuatnya sendiri?",
+          "zh": "哇，这蛋糕真漂亮！你自己做的吗？",
+          "en": "Wow, this cake looks gorgeous! Did you make it yourself?"
+        },
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Haah, kali pertama cuba ni! Esok aku bawak sikit untuk kau rasa.",
+          "ms_standard": "Ya, inilah kali pertama saya mencuba membuat kek ini. Esok saya akan membawa sedikit kek untuk kamu rasai.",
+          "zh": "对呀，第一次试着做这个！明天我带一点给你尝尝。",
+          "en": "Yeah, it's my first try! I'll bring you some tomorrow so you can taste it."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "waww",
+      "full_form": "wow",
+      "note": "原包所列聊天变体，通过重复字母延长感叹；并非规范缩写。"
+    },
+    {
+      "abbr": "wewww",
+      "full_form": "wow",
+      "note": "原包映射的表情化变体，具体语气依聊天语境而定，不用于正式书写。"
+    },
+    {
+      "abbr": "waw",
+      "full_form": "wow",
+      "note": "原包所列拼写变体；标准马来语感叹词可写 wau。"
+    },
+    {
+      "abbr": "wawwwww",
+      "full_form": "wow",
+      "note": "原包所列拉长拼写，用来加强赞叹或惊讶，不是有固定字母数的词形。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "在大马多语聊天里，wow 可自然表达赞叹；夸作品、手艺或成绩时，补一句具体赞美更清楚。它本身不含宗教身份要求。",
+    "usage_etiquette": "wow 的语调和上下文可能让真诚赞叹变成挖苦。正式公函通常改用具体描述，新闻中可作为原话引述；别人谈事故、病痛或损失时，不宜只用一个 wow 回应。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语；更早见于 Scots（苏格兰语）",
+    "root_origin": "英语感叹词 wow；早期 Scots 中已有惊讶、赞叹等用例。早期记录参见 [Dictionary of the Scots Language](https://dsl.ac.uk/entry/dost/wow_interj)；原包的英马词典条目把它对应为 wau，但未提供进入马来语的具体年代。",
+    "historical_story": "wow 的书面足迹早已出现在 Scots 文献中，几个字母就能承载惊讶和赞叹，后来也成为英语里的熟悉感叹。在现代马来西亚的多语聊天中，这个英语形式可直接嵌入马来语句子，而英马词典给出的对应形式是 wau。它适合放在现代语言接触的背景下理解，现有材料不足以把它编成某个古代港口传入的故事。",
+    "cognitive_memory_aid": "把嘴张开惊叹一声“哇”：聊天拼 wow，标准马来语对应 wau；它表达反应，不负责叙述事件。"
+  }
+}

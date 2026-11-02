@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "benarkah",
+    "syllables": null,
+    "ipa": "/bə.nar.kah/",
+    "jawi": "بنر",
+    "frequency_rank": 1046,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "benar",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "benar + -kah → benarkah",
+    "pattern_note": "-kah 是后附疑问小品词，按本结构归入 suffix；直接连写，不改变 benar 的词根拼写。",
+    "word_family": [
+      {
+        "word": "kebenaran",
+        "affix": "ke-…-an",
+        "gloss": "真实性；真相"
+      },
+      {
+        "word": "membenarkan",
+        "affix": "meN-…-kan",
+        "gloss": "确认属实"
+      }
+    ],
+    "root_jawi": "بنر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "是真的吗；是否属实，用于询问某项消息、陈述或判断是否符合事实。",
+      "en_definition": "Is it true; used to ask whether a report, statement, or belief is factually correct.",
+      "ms_definition": "Adakah sesuatu berita, pernyataan atau anggapan itu betul dan sesuai dengan kenyataan?",
+      "nuances": "benar 的核心词类是形容词，附加 -kah 后成为询问真实性的表达。可用于中性核实，也可表达惊讶或怀疑；具体态度取决于语调与上下文。口语常用 Betul ke? 或 Betul ke yang…，不是所有场合都自然保留 benarkah。",
+      "collocations": [
+        {
+          "ms": "benarkah berita itu",
+          "zh": "那则消息属实吗",
+          "en": "is that news true?"
+        },
+        {
+          "ms": "benarkah dakwaan tersebut",
+          "zh": "那项指称属实吗",
+          "en": "is that claim true?"
+        },
+        {
+          "ms": "benarkah begitu",
+          "zh": "真是这样吗",
+          "en": "is that really so?"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场会议 / 核实项目进度",
+      "ms": "Benarkah projek tersebut telah siap sepenuhnya seperti yang dinyatakan dalam laporan?",
+      "zh": "该项目是否如报告所述，已经全部完成？",
+      "en": "Is it true that the project has been fully completed, as stated in the report?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核实会议变动",
+      "ms_spoken": "Betul ke mesyuarat esok dah batal?",
+      "ms_standard": "Benarkah mesyuarat esok sudah dibatalkan?",
+      "zh": "明天的会议真的取消了吗？",
+      "en": "Is it true that tomorrow's meeting has been cancelled?",
+      "spoken_features": [
+        "Betul ke? 是 benarkah 的常见口语对应表达。",
+        "ke 在此用作口语疑问标记，不是表示方向的介词。",
+        "dah 对应 sudah。",
+        "口语中的 dah batal 在此对应标准表达 sudah dibatalkan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Betul ke mesyuarat esok dah batal?",
+          "ms_standard": "Benarkah mesyuarat esok sudah dibatalkan?",
+          "zh": "明天的会议真的取消了吗？",
+          "en": "Has tomorrow's meeting really been cancelled?"
+        },
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Haah, bos baru je bagitahu dalam grup.",
+          "ms_standard": "Ya, ketua baru sahaja memaklumkannya dalam kumpulan sembang.",
+          "zh": "对，老板刚刚才在群里通知。",
+          "en": "Yeah, the boss just told us in the group chat."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "对别人的说法直接追问 Benarkah?，可能让对方觉得受到质疑。职场核实时可先说 Saya ingin mendapatkan pengesahan，再提出具体问题。",
+    "usage_etiquette": "适合核实消息或报告；向个人追问时注意语调，避免无意中显得不信任。输入包未提供音节，故 syllables 保留 null；headword.jawi 按输入保留的是词根 benar 的爪夷文，未包含 -kah。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay",
+    "root_origin": "benar + -kah；直接来源为马来语形容词与疑问小品词",
+    "cognitive_memory_aid": "benar 是“真、对”，-kah 像附在后面的问号：把“是真的”转成“是真的吗”。",
+    "historical_story": "Benarkah 由表示真实、正确的 benar 加上疑问小品词 -kah 构成，并非一个不可分析的独立借词。它把“真实”变成需要对方确认的问题：在报告讨论中可以庄重地核实事实，在日常聊天中则常由 Betul ke? 承担相同功能。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "对别人的说法直接追问 Benarkah?，可能让对方觉得受到质疑。职场核实时可先说 Saya ingin mendapatkan pengesahan，再提出具体问题。",
+    "usage_etiquette": "适合核实消息或报告；向个人追问时注意语调，避免无意中显得不信任。输入包未提供音节，故 syllables 保留 null；headword.jawi 按输入保留的是词根 benar 的爪夷文，未包含 -kah。"
+  }
+}

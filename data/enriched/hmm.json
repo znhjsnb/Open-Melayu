@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "hmm",
+    "syllables": null,
+    "ipa": "[mː]",
+    "jawi": null,
+    "frequency_rank": 870,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hmm",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hmm → hmm",
+    "pattern_note": "表示思考等反应的独立声音写法，不作词根与词缀拆分；is_root 仅表示没有可分析的词缀。PRPM 未收录资料，音节与 Jawi 保留 null；[mː] 仅示意常见的延长鼻音，实际音高、长度及是否带气声随语境变化，不是 DBP 官方读音；CEFR 为教学估计。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "嗯……；表示正在思考、犹豫或暂时不确定的语气声。",
+      "ms_definition": "Huraian editorial, bukan takrif Kamus Dewan: bunyi atau ungkapan bertulis yang menandakan seseorang sedang berfikir, teragak-agak atau belum pasti. Paket ini tidak menyediakan takrif PRPM bagi hmm.",
+      "nuances": "实际属于感叹或话语标记；因本任务词性选项受限，归入 particle。不是有固定实词意义的缩写；下面是聊天中的常见接续表达，不是严格的词汇搭配。",
+      "collocations": [
+        {
+          "ms": "hmm, tak pasti",
+          "zh": "嗯……不太确定",
+          "en": "Hmm, I'm not sure."
+        },
+        {
+          "ms": "hmm, biar saya fikir dulu",
+          "zh": "嗯……让我先想一想",
+          "en": "Hmm, let me think first."
+        }
+      ],
+      "en_definition": "Used to express thought, hesitation, or uncertainty."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "嗯？；表示保留意见、疑惑，或对某个说法存疑。",
+      "ms_definition": "Huraian editorial, bukan takrif Kamus Dewan: ungkapan reaksi yang boleh menunjukkan keraguan atau rasa kurang yakin terhadap sesuatu kenyataan, bergantung pada intonasi dan konteks.",
+      "nuances": "问号、前后文和语调会改变解读；不能把 hmm 自动当成同意、拒绝或生气。以下是情境化的聊天接续表达。",
+      "collocations": [
+        {
+          "ms": "hmm, betul ke?",
+          "zh": "嗯？真的吗？",
+          "en": "Hmm, really?"
+        },
+        {
+          "ms": "hmm, macam pelik",
+          "zh": "嗯，感觉怪怪的",
+          "en": "Hmm, that seems odd."
+        }
+      ],
+      "en_definition": "Used to express doubt, scepticism, or reservations about something."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "媒体语言专栏／解释聊天语气",
+      "ms": "Dalam komunikasi bertulis, ungkapan ‘hmm’ boleh menandakan bahawa penulis sedang mempertimbangkan sesuatu sebelum memberikan jawapan.",
+      "zh": "在书面交流中，hmm 可以表示写信者正在考虑某事，尚未作答。",
+      "en": "In written communication, the expression ‘hmm’ can indicate that the writer is considering something before giving an answer."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量晚餐地点，一人仍拿不定主意",
+      "ms_spoken": "Malam ni nak makan mana? Kedai tomyam dekat rumah kau tu okay tak?",
+      "ms_standard": "Di manakah kita hendak makan malam ini? Adakah kedai tomyam berhampiran rumah awak itu sesuai?",
+      "zh": "今晚去哪里吃？你家附近那家冬阴功店怎么样？",
+      "spoken_features": [
+        "Hmm 在这里标示考虑和犹豫，后面的转折表明说话者对提议有所保留，并非直接答应。",
+        "标准句用 Saya masih mempertimbangkan cadangan itu 说明 Hmm 在本轮中的交际作用，而非把它当作固定词义逐字替换。",
+        "nak makan mana 省略了可由语境理解的 kita 和地点介词；标准句恢复为 Di manakah kita hendak makan。",
+        "jugak 对应 juga；makan situ 省略了 di，标准句恢复为 makan di situ。",
+        "kat、tu、dah、gi 分别对应 di、itu、sudah、pergi；Lama dah kita tak gi 把时长放在前面，强调很久没去。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Malam ni nak makan mana? Kedai tomyam dekat rumah kau tu okay tak?",
+          "ms_standard": "Di manakah kita hendak makan malam ini? Adakah kedai tomyam berhampiran rumah awak itu sesuai?",
+          "zh": "今晚去哪里吃？你家附近那家冬阴功店怎么样？",
+          "en": "Where shall we eat tonight? Is that tom yum place near your house any good?"
+        },
+        {
+          "speaker": "Alya (朋友)",
+          "ms_spoken": "Hmm, boleh jugak, tapi aku baru makan situ semalam. Cari tempat lain boleh?",
+          "ms_standard": "Saya masih mempertimbangkan cadangan itu. Kedai itu juga boleh menjadi pilihan, tetapi saya baru makan di situ semalam. Bolehkah kita mencari tempat lain?",
+          "zh": "嗯……也可以，不过我昨天才在那里吃过。能换个地方吗？",
+          "en": "Hmm, that could work, but I just ate there yesterday. Can we try somewhere else?"
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Jom makan kat kedai sup depan stesen tu. Lama dah kita tak gi.",
+          "ms_standard": "Mari kita makan di kedai sup di hadapan stesen itu. Sudah lama kita tidak pergi ke sana.",
+          "zh": "去车站前面那家汤店吃吧。我们很久没去了。",
+          "en": "Let's go to that soup place in front of the station. We haven't been there in ages."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "熟人聊天中自然；给客户、师长或上司回复时，宜补上具体说明，如 Saya perlukan sedikit masa untuk menyemaknya，避免只发 hmm 让对方猜。",
+    "usage_etiquette": "不能把单独的 hmm 当成承诺或许可。正式场景例句是在讨论这个表达本身，不表示建议在公文正文用它作停顿词；不同语言背景的人也可能给它不同语气解读。"
+  },
+  "etymology": {
+    "origin": "未确定（声音表达，无法归入已证实的借词来源）",
+    "source_language": "未确定；不能仅凭拼写认定借自英语",
+    "root_origin": "对思考或犹疑时鼻音反应的书写表示；没有所给 PRPM 词源或单一来源语言证据。",
+    "historical_story": "把一个人在回答前闭口发出的鼻音写下来，便容易理解 hmm 为什么能在聊天中表示停下来想一想。今天这样的声音写法出现在数码交流里，但现有资料无法确定它在马来语中的首次出现，也无法为它编排一条从某种外语或海上商路传入的历史。",
+    "cognitive_memory_aid": "嘴巴暂时闭上、脑子还在转：hmm 表示先想一想，不能据此判定已经答应。"
+  }
+}

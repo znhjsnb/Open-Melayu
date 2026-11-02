@@ -1,0 +1,171 @@
+{
+  "headword": {
+    "word": "hal",
+    "syllables": null,
+    "ipa": "/ˈhal/",
+    "jawi": null,
+    "frequency_rank": 246,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hal",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hal → hal",
+    "pattern_note": "阿拉伯语整词借入，现代马来语中作为独立词根。所给 PRPM 包未提供音节和 Jawi，二者保留 null，不按阿拉伯语原词补写。",
+    "word_family": [
+      {
+        "word": "berhal",
+        "affix": "ber-",
+        "gloss": "有事；因故受阻"
+      },
+      {
+        "word": "terhal",
+        "affix": "ter-",
+        "gloss": "受阻而停顿"
+      },
+      {
+        "word": "mengehalkan",
+        "affix": "meN-…-kan",
+        "gloss": "叙述；讲述某事"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "事情；事务；问题；所谈的事项",
+      "ms_definition": "masalah, perkara, soal, urusan",
+      "nuances": "释义补核自 DBP《Kamus Dewan Edisi Keempat》hal I 第 2 义：https://prpm.dbp.gov.my/Cari1?d=73980&keyword=keadaannya 。hal 可泛指一件事，不一定是难题；hal peribadi 指私事，hal ehwal 常用于机构事务名称。",
+      "collocations": [
+        {
+          "ms": "hal peribadi",
+          "zh": "私事",
+          "en": "personal matters"
+        },
+        {
+          "ms": "hal ehwal pelajar",
+          "zh": "学生事务",
+          "en": "student affairs"
+        }
+      ],
+      "en_definition": "A matter, issue, or affair to be discussed or dealt with."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "情况；状况；发生的事情",
+      "ms_definition": "keadaan, kejadian, peristiwa",
+      "nuances": "采用同一 DBP 词条第 1 义。hal ini 可以指眼前情况，halnya 中的 -nya 则须根据上下文理解；不把所有 hal 都译为需要解决的问题。",
+      "collocations": [
+        {
+          "ms": "dalam hal ini",
+          "zh": "在这种情况下；就此事而言",
+          "en": "in this case"
+        },
+        {
+          "ms": "lain halnya",
+          "zh": "情况另当别论",
+          "en": "that's a different matter"
+        }
+      ],
+      "en_definition": "A situation, state of affairs, or occurrence."
+    },
+    {
+      "id": 3,
+      "pos": "preposition",
+      "zh_definition": "关于；有关……的事项",
+      "ms_definition": "tentang, mengenai, darihal, perihal",
+      "nuances": "对应同一 DBP 词条第 4 义，词类针对 hal 引出话题的用法。独立用 hal 引出题目较书面；日常完整句子常用 tentang，或采用 bercakap tentang hal… 结构。",
+      "collocations": [
+        {
+          "ms": "hal pendidikan",
+          "zh": "关于教育的事项",
+          "en": "matters concerning education"
+        },
+        {
+          "ms": "hal keselamatan",
+          "zh": "有关安全的事项",
+          "en": "matters concerning safety"
+        }
+      ],
+      "en_definition": "About or concerning a particular subject."
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "妨碍；麻烦，多用于表示“不成问题”的结构",
+      "ms_definition": "halangan",
+      "nuances": "对应同一 DBP 词条第 6 义；tidak menjadi hal 和口语 tak ada hal 常表示没有妨碍、可以接受。普通的 hal 本身不能一律替换 halangan。",
+      "collocations": [
+        {
+          "ms": "tidak menjadi hal",
+          "zh": "不成问题；没有妨碍",
+          "en": "pose no problem"
+        },
+        {
+          "ms": "tidak jadi hal",
+          "zh": "没关系；不碍事",
+          "en": "be no trouble"
+        }
+      ],
+      "en_definition": "An obstacle or difficulty, especially in expressions meaning that something poses no problem."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 校园行政公告",
+      "ms": "Pihak universiti akan meneliti semua aduan berkaitan hal ehwal pelajar sebelum mengambil tindakan lanjut.",
+      "zh": "校方将在采取进一步行动前，审查所有涉及学生事务的投诉。",
+      "en": "The university will review all complaints concerning student affairs before taking further action."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 室友晚上商量搬家的安排",
+      "ms_spoken": "Kau free tak sekarang? Nak bincang hal pindah rumah kejap.",
+      "ms_standard": "Adakah kamu mempunyai masa lapang sekarang? Saya hendak membincangkan hal perpindahan rumah sebentar.",
+      "zh": "你现在有空吗？想跟你聊一下搬家的事。",
+      "spoken_features": [
+        "hal pindah rumah 指搬家这件事；下一轮用 hal ni 回指同一个话题。",
+        "free 是英语切换，在这里表示有空；kejap 对应 sekejap 或 sebentar。",
+        "bincang hal 在口语中省去标准动词词缀，正式表达用 membincangkan hal。",
+        "ni 对应 ini；dah 对应 sudah；lah 在这里缓和推迟讨论的提议。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aiman (室友)",
+          "ms_spoken": "Kau free tak sekarang? Nak bincang hal pindah rumah kejap.",
+          "ms_standard": "Adakah kamu mempunyai masa lapang sekarang? Saya hendak membincangkan hal perpindahan rumah sebentar.",
+          "zh": "你现在有空吗？想跟你聊一下搬家的事。",
+          "en": "Are you free right now? I wanted to have a quick chat about moving house."
+        },
+        {
+          "speaker": "Rizal (室友)",
+          "ms_spoken": "Hal ni kita bincang esok lah, aku dah penat. Lepas sarapan boleh?",
+          "ms_standard": "Marilah kita membincangkan hal ini esok kerana saya sudah penat. Bolehkah kita berbincang selepas sarapan?",
+          "zh": "这事咱们明天再聊吧，我已经累了。吃完早饭聊行吗？",
+          "en": "Let's talk about it tomorrow. I'm tired. How about after breakfast?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "hal 语体中性；询问私事前可先说 Boleh saya tanya…（我可以问一下……吗）。Apa hal? 在熟人间可问怎么回事，对陌生人则可能显得冲。",
+    "usage_etiquette": "hal peribadi 涉及个人边界，避免追问同事的婚姻、宗教或收入。Jangan masuk campur hal saya 语气较强；需要划清界限时可改说 Ini hal peribadi saya。候选 pasai 是地区性用词，不是 hal 的短信缩写，未收作缩写。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语",
+    "root_origin": "阿拉伯语 حَال（ḥāl），意为状态、处境、情况。",
+    "historical_story": "hal 借自阿拉伯语 ḥāl，原本就指人的状态或事情的处境。把它放进马来世界与阿拉伯语长期接触的海上交流背景中看，这个表示处境的词很容易让人联想到往来者互问近况的画面；这只是帮助理解的场景，并非已知的首次借入事件。到了现代马来语，它既能谈个人的事情，也能进入 hal ehwal 这样的行政事务表达。",
+    "cognitive_memory_aid": "给每件待处理的事贴一张 hal 便签：hal kerja 是工作上的事，hal peribadi 是私事。"
+  }
+}

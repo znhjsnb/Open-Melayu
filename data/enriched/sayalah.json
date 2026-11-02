@@ -1,0 +1,111 @@
+{
+  "headword": {
+    "word": "sayalah",
+    "syllables": null,
+    "ipa": "/sa.ja.lah/",
+    "jawi": "ساي",
+    "frequency_rank": 1725,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "saya",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "saya + -lah → sayalah",
+    "pattern_note": "-lah 是附着于词尾的强调小品词，不是派生词缀；这里按附着位置归入 suffix。组合时无音位替换，音节为 sa.ya.lah。headword.jawi 保留输入包提供的词根拼写 ساي，未补写 -lah。",
+    "word_family": [
+      {
+        "word": "saya",
+        "affix": "∅",
+        "gloss": "我；较礼貌的第一人称代词"
+      },
+      {
+        "word": "sayakah",
+        "affix": "-kah",
+        "gloss": "是我吗；强调询问是否为自己"
+      }
+    ],
+    "root_jawi": "ساي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "正是我；就是我。用来突出说话者本人，确认身份或强调由自己承担某事。",
+      "en_definition": "It is I; I am the one, with emphasis identifying the speaker.",
+      "ms_definition": "Bentuk saya yang disertai partikel penegas -lah untuk menegaskan bahawa diri penuturlah orang yang dimaksudkan.",
+      "nuances": "实际词类是第一人称代词加强调小品词；给定标签没有 pronoun，因此以 noun 表示其名词性用法。-lah 在这里突出“我”，不自动表示“只有我”，也不一定表达不耐烦；具体语气取决于上下文和语调。DBP 将 -lah 列为强调小品词：[DBP：penegas](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penegas)。",
+      "collocations": [
+        {
+          "ms": "sayalah orangnya",
+          "zh": "那个人就是我",
+          "en": "I'm the one."
+        },
+        {
+          "ms": "sayalah yang bertanggungjawab",
+          "zh": "负责的人正是我",
+          "en": "I'm the one responsible."
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报：说明项目责任归属",
+      "ms": "Dalam projek ini, sayalah yang bertanggungjawab menyelaras semua urusan dengan pihak pembekal.",
+      "zh": "在这个项目中，负责协调与供应商之间所有事务的人正是我。",
+      "en": "In this project, I am the person responsible for coordinating all dealings with the supplier."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：同事确认谁已将文件放在办公桌上",
+      "ms_spoken": "Sayalah yang dah letak fail tu kat meja awak tadi.",
+      "ms_standard": "Sayalah yang sudah meletakkan fail itu di atas meja awak tadi.",
+      "zh": "刚才把那份文件放到你桌上的就是我啦。",
+      "en": "I'm the one who put that file on your desk earlier.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式",
+        "tu 是 itu 的口语缩略形式",
+        "kat 在这里对应标准语 di atas",
+        "口语 letak 对应此句标准语中的 meletakkan",
+        "-lah 紧接 saya，强调执行动作的人"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Siapa yang dah letak fail tu kat meja saya tadi?",
+          "ms_standard": "Siapakah yang sudah meletakkan fail itu di atas meja saya tadi?",
+          "zh": "刚才谁把那份文件放到我桌上了？",
+          "en": "Who put that file on my desk earlier?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Sayalah yang dah letak fail tu kat meja awak tadi.",
+          "ms_standard": "Sayalah yang sudah meletakkan fail itu di atas meja awak tadi.",
+          "zh": "刚才放到你桌上的就是我啦。",
+          "en": "It was me who put that file on your desk earlier."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "saya 通常适合与陌生人、长辈和同事交谈。sayalah 增加对自己的强调；平和语调适合确认身份或承担责任，重读并反复强调则可能显得争辩或自我突出。",
+    "usage_etiquette": "标准书写将 -lah 与 saya 连写为 sayalah。需要突出“正是我”时使用；一般自我介绍或中性陈述使用 saya 即可。正式邮件和报告应保留完整拼写。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "梵语，经马来语 sahaya、saya",
+    "root_origin": "梵语 सहाय sahāya，意为同伴、助手；经马来语 sahaya 演变为 saya，再接马来语强调小品词 -lah",
+    "cognitive_memory_aid": "把 saya 想成指向自己的手势，再用 -lah 给这个手势加一道聚光灯：sayalah，就是我。",
+    "historical_story": "saya 的词源通常追溯至梵语 sahāya，经马来语 sahaya 进入第一人称称谓系统。sahaya 曾带有仆从、谦称自我的用法，缩短后的 saya 成为现代礼貌自称；加上 -lah，便将焦点落在“我本人”身上。[词源参考：Wikikamus saya](https://ms.wiktionary.org/wiki/saya)，[历史用法：Sanskrit Words in Southeast Asian Languages](https://www.wisdomlib.org/history/book/sanskrit-words-in-southeast-asian-languages/ocr/1595120/618)。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "saya 通常适合与陌生人、长辈和同事交谈。sayalah 增加对自己的强调；平和语调适合确认身份或承担责任，重读并反复强调则可能显得争辩或自我突出。",
+    "usage_etiquette": "标准书写将 -lah 与 saya 连写为 sayalah。需要突出“正是我”时使用；一般自我介绍或中性陈述使用 saya 即可。正式邮件和报告应保留完整拼写。"
+  }
+}

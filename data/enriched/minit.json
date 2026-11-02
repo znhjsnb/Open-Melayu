@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "minit",
+    "syllables": "mi.nit",
+    "ipa": "[minet]",
+    "jawi": "مينيت",
+    "frequency_rank": 312,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "minit",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + minit → minit（分钟；会议记录）",
+    "pattern_note": "英语借词，现代马来语作为完整词根使用；mi- 不是前缀。IPA 保留词包的 [minet]，不把这一读音当作拼写 minet。数词后不加英语复数 -s。",
+    "word_family": [
+      {
+        "word": "minit mesyuarat",
+        "affix": "复合词；无词缀",
+        "gloss": "会议记录"
+      },
+      {
+        "word": "seminit",
+        "affix": "se-",
+        "gloss": "一分钟；每分钟（依语境）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "分钟，等于60秒，即一小时的六十分之一。",
+      "ms_definition": "tempoh masa yg lamanya 60 saat (Kamus Dewan Edisi Keempat; petikan).",
+      "nuances": "原始抓取把分数排坏为‘601 jam’，故只引用未损坏的60秒定义。一分钟是 satu minit，五分钟是 lima minit；询问时长用 berapa minit，询问几点则用 pukul berapa。",
+      "collocations": [
+        {
+          "ms": "beberapa minit",
+          "zh": "几分钟",
+          "en": "a few minutes"
+        },
+        {
+          "ms": "lima minit lagi",
+          "zh": "再过五分钟；还要五分钟",
+          "en": "in another five minutes; five more minutes"
+        }
+      ],
+      "en_definition": "A unit of time equal to sixty seconds or one sixtieth of an hour."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "会议记录；记载会议或磋商中讨论内容与议定事项的正式文字。",
+      "ms_definition": "catatan tentang apa yg telah diperkatakan (dibincangkan) atau dipersetujui (dlm mesyuarat, perundingan, dll) (Kamus Dewan Edisi Keempat).",
+      "nuances": "minit mesyuarat 是常见行政用语，不能逐字理解为‘开会的分钟’。会议记录通常摘要议题、决定和行动事项，不必是逐字实录；此义不需要加英语复数词尾。",
+      "collocations": [
+        {
+          "ms": "minit mesyuarat",
+          "zh": "会议记录",
+          "en": "meeting minutes"
+        },
+        {
+          "ms": "mengesahkan minit",
+          "zh": "确认会议记录",
+          "en": "approve the minutes"
+        }
+      ],
+      "en_definition": "Minutes: the official written record of discussions and decisions at a meeting or negotiation."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议报道 / 行政新闻",
+      "ms": "Jawatankuasa itu mengesahkan minit mesyuarat terdahulu sebelum membincangkan cadangan baharu.",
+      "zh": "该委员会先确认上次会议记录，再讨论新提案。",
+      "en": "The committee approved the minutes of the previous meeting before discussing the new proposal."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友在咖啡馆等人",
+      "ms_spoken": "Kau kat mana? Aku dah sampai kafe ni.",
+      "ms_standard": "Awak berada di mana? Saya sudah tiba di kafe ini.",
+      "zh": "你在哪儿？我已经到这家咖啡馆了。",
+      "spoken_features": [
+        "minit 在这里是时间单位‘分钟’，不是‘会议记录’。",
+        "kat 对应 di，dah 对应 sudah，tengah 在这里对应 sedang。",
+        "parking、order 是聊天中常见的英语混用；标准对照分别还原为 tempat letak kereta、memesan。",
+        "nak 对应 mahu；orderkan 中的 -kan 在这里表示替对方点单。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Kau kat mana? Aku dah sampai kafe ni.",
+          "ms_standard": "Awak berada di mana? Saya sudah tiba di kafe ini.",
+          "zh": "你在哪儿？我已经到这家咖啡馆了。",
+          "en": "Where are you? I'm already at the café."
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Tunggu lima minit lagi ya, aku tengah cari parking.",
+          "ms_standard": "Tunggu lima minit lagi, ya. Saya sedang mencari tempat letak kereta.",
+          "zh": "再等五分钟啊，我正在找停车位。",
+          "en": "Give me another five minutes, okay? I'm looking for parking."
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Okey, aku masuk dulu. Nak aku orderkan air sekali?",
+          "ms_standard": "Baiklah, saya masuk dahulu. Adakah awak mahu saya memesan minuman untuk awak juga?",
+          "zh": "好，我先进去。要我顺便帮你点杯喝的吗？",
+          "en": "Okay, I'll head in first. Want me to order you a drink too?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "等候请求可说 Boleh tunggu sebentar?，比直接命令 Tunggu 更客气。‘五分钟’应是合理估计，迟到时宜主动说明。",
+    "usage_etiquette": "行政场合先看语境判断 minit 是时长还是记录；向同事索取 minit mesyuarat 时遵守该会议的分享范围。给老师、主管或客户发消息，可用 saya 配合对方姓名或职衔。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语；更早经古法语追溯至中世纪拉丁语",
+    "root_origin": "英语 minute；词包追溯古法语 minut、中世纪拉丁语 minūta。时间单位与会议书面记录两义在马来语中均有收录。",
+    "historical_story": "英语 minute 进入马来语后，采用 minit 这一适应本地拼写的形式，把钟表上的小单位带进日常表达。同一个词在会议桌上又指向书面记录，所以课间等候的 lima minit 与办公室的 minit mesyuarat，必须靠搭配分清。",
+    "cognitive_memory_aid": "看钟表是‘分钟’，看会议文件是‘记录’：用 mesyuarat 给第二义定位。"
+  }
+}

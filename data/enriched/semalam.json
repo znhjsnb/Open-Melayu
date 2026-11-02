@@ -1,0 +1,185 @@
+{
+  "headword": {
+    "word": "semalam",
+    "syllables": "se.ma.lam",
+    "ipa": "/səmalam/",
+    "jawi": "سمالم",
+    "frequency_rank": 715,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "malam",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + malam → semalam",
+    "pattern_note": "se- 表示一，加 malam‘夜晚’得到‘一夜’；现代 semalam 也已固定表示昨天或昨晚。首音节 se- 的元音为 /ə/，词干 malam 不变。",
+    "word_family": [
+      {
+        "word": "malam",
+        "affix": "none",
+        "gloss": "夜晚"
+      },
+      {
+        "word": "bermalam",
+        "affix": "ber-",
+        "gloss": "过夜；留宿"
+      },
+      {
+        "word": "semalaman",
+        "affix": "se-...-an",
+        "gloss": "整夜"
+      },
+      {
+        "word": "malam-malam",
+        "affix": "reduplication",
+        "gloss": "在夜间；夜深时（依语境）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "昨天；今天之前的那一天",
+      "ms_definition": "hari sebelum hari ini, kelmarin",
+      "nuances": "马来西亚日常最常用的意思之一，不一定发生在夜里；semalam pada waktu pagi 明确指昨天上午。为免 kelmarin 在不同地区的用法造成混淆，学习时优先把此义记为‘昨天’。",
+      "collocations": [
+        {
+          "ms": "semalam pada waktu pagi",
+          "zh": "昨天上午",
+          "en": "yesterday morning"
+        },
+        {
+          "ms": "sejak semalam",
+          "zh": "从昨天起",
+          "en": "since yesterday"
+        }
+      ],
+      "en_definition": "Yesterday; the day before today."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "昨晚；前一夜",
+      "ms_definition": "malam sebelum malam ini, malam tadi",
+      "nuances": "与‘昨天’义靠语境区分；如果需要明确是夜晚，可说 malam tadi 或 malam semalam。不能仅因为词中含 malam 就把所有 semalam 都译为昨晚。",
+      "collocations": [
+        {
+          "ms": "malam semalam",
+          "zh": "昨天夜里；昨晚",
+          "en": "last night"
+        },
+        {
+          "ms": "tidur lewat semalam",
+          "zh": "昨晚很晚才睡",
+          "en": "went to bed late last night"
+        }
+      ],
+      "en_definition": "Last night; the night before today."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "一夜；一个晚上的时长",
+      "ms_definition": "satu malam",
+      "nuances": "此处作时间数量短语，表示持续多久，而非事情发生在哪一天；住一夜可以是过去，也可以是未来。se- 已含一，不再写 satu semalam 来表示一夜。",
+      "collocations": [
+        {
+          "ms": "bermalam semalam",
+          "zh": "留宿一夜",
+          "en": "stay for one night"
+        },
+        {
+          "ms": "kadar semalam",
+          "zh": "每晚的收费",
+          "en": "nightly rate"
+        }
+      ],
+      "en_definition": "For one night; lasting a single night."
+    },
+    {
+      "id": 4,
+      "pos": "adverb",
+      "zh_definition": "整夜；整个晚上",
+      "ms_definition": "sepanjang malam",
+      "nuances": "表示从夜间持续至很晚或天明，semalam suntuk 明确突出整夜；单独用 semalam 表此义常见于叙事，现代也常说 semalaman。",
+      "collocations": [
+        {
+          "ms": "semalam suntuk",
+          "zh": "通宵；整整一夜",
+          "en": "all night long"
+        },
+        {
+          "ms": "berjaga semalam suntuk",
+          "zh": "彻夜不眠",
+          "en": "stay awake all night"
+        }
+      ],
+      "en_definition": "All night; throughout the night."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区新闻 / 志愿活动报道",
+      "ms": "Program gotong-royong yang diadakan semalam mendapat sambutan menggalakkan daripada penduduk setempat.",
+      "zh": "昨天举行的社区集体劳动活动获得了当地居民的踊跃响应。",
+      "en": "The community clean-up held yesterday drew an enthusiastic response from local residents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问昨晚聚餐的合照",
+      "ms_spoken": "Gambar kita makan semalam ada kat kau tak? Aku nak simpan.",
+      "ms_standard": "Adakah awak mempunyai gambar yang diambil ketika kita makan bersama malam tadi? Saya mahu menyimpannya.",
+      "zh": "我们昨晚吃饭的照片在你那儿吗？我想存下来。",
+      "spoken_features": [
+        "semalam 可表示昨天或昨晚；本段通过 malam tadi 明确指昨晚。",
+        "kat kau 表示在你那里，标准语按句意恢复为 awak mempunyai。",
+        "kan 提醒对方先前已经发生、对方可能知道的事情。",
+        "dah、nak 分别对应 sudah、mahu；grup 是聊天中常见的 group 借用写法，标准语使用 kumpulan。",
+        "tengok balik 在这里表示重新查看；jumpa dah 省略主语和宾语，并将 dah 放在动词之后。",
+        "tu yang 引出原因与结果，标准语可恢复为 sebab itulah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Gambar kita makan semalam ada kat kau tak? Aku nak simpan.",
+          "ms_standard": "Adakah awak mempunyai gambar yang diambil ketika kita makan bersama malam tadi? Saya mahu menyimpannya.",
+          "zh": "我们昨晚吃饭的照片在你那儿吗？我想存下来。",
+          "en": "Have you got the photos from our meal last night? I want to save them."
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Kan aku dah hantar dalam grup lepas balik malam tadi. Cuba tengok balik.",
+          "ms_standard": "Saya sudah menghantarnya dalam kumpulan perbualan selepas pulang malam tadi. Cuba semak semula.",
+          "zh": "我昨晚回来后不是已经发群里了吗？你再翻一下。",
+          "en": "I already sent them to the group after I got home last night, remember? Have another look."
+        },
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Ha, jumpa dah! Banyak sangat mesej, tu yang terlepas.",
+          "ms_standard": "Saya sudah menemukannya! Terdapat terlalu banyak mesej, sebab itulah saya terlepas pandang gambar itu.",
+          "zh": "啊，找到了！消息太多，所以没注意到那张照片。",
+          "en": "Ah, found them! There were so many messages, I missed them."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "semalam 本身没有礼貌高低之分；跟长辈或不熟的人说话，通常选 saya，并按关系采用合适称谓。",
+    "usage_etiquette": "安排工作、住宿或核对付款时，明确区分‘昨天’与‘一夜’；必要时补充日期、时间或 malam tadi。聊天例句的 kan 带提醒意味，对客户使用时应注意避免责备感。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay",
+    "root_origin": "马来语 se-（一）+ malam（夜晚）；以本族词根构成的时间表达。",
+    "historical_story": "semalam 把本族的数量前缀 se-‘一’与 malam‘夜晚’连在一起，字面上就是一夜。留宿时的一夜与回顾时间时的前一天，今天都能由这个词表达：旅程说 singgah semalam，日常回忆则说 semalam saya datang。它把以夜计时的具体画面保存在现代‘昨天、昨晚’的常用表达里。",
+    "cognitive_memory_aid": "se- 是一，malam 是夜：先抓住‘一夜’，再用语境分辨‘昨天、昨晚、住一夜’。"
+  }
+}

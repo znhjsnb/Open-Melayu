@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "kebenaran",
+    "syllables": "ke.be.na.ran",
+    "ipa": "/kəbənaran/",
+    "jawi": "کبنرن",
+    "frequency_rank": 726,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "benar",
+    "affix": "ke-…-an",
+    "affix_type": "circumfix",
+    "formula": "ke- + benar + -an → kebenaran",
+    "pattern_note": "环缀 ke-…-an 把 benar 名词化，词根拼写不变。两个主要义项分别是‘真实／真相’与‘许可’，须由搭配判断；Jawi 取自本地未损坏的 PRPM 原文件。CEFR 标签为教学估计，并非官方分级。",
+    "word_family": [
+      {
+        "word": "benar",
+        "affix": "∅",
+        "gloss": "真的；正确的"
+      },
+      {
+        "word": "membenarkan",
+        "affix": "meN-…-kan",
+        "gloss": "允许；证实；认同为正确"
+      },
+      {
+        "word": "dibenarkan",
+        "affix": "di-…-kan",
+        "gloss": "获准；被允许"
+      },
+      {
+        "word": "sebenarnya",
+        "affix": "se-…-nya",
+        "gloss": "其实；实际上"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "真实性；真相；真实存在、符合事实的事物或道理。",
+      "ms_definition": "perihal benar (sesuatu), sebenarnya; sesuatu yg benar (sungguh-sungguh ada, betul-betul demikian halnya).",
+      "nuances": "合并所给 Kamus Dewan 第 1、3 义。kebenaran sesuatu berita 是消息的真实性；mencari kebenaran 是寻找真相，不能一律译成正义。词典另记 Jk‘碰巧’，属于雅加达地域义，不作为现代马来西亚通用义教学。",
+      "collocations": [
+        {
+          "ms": "mencari kebenaran",
+          "zh": "寻找真相",
+          "en": "seek the truth"
+        },
+        {
+          "ms": "membuktikan kebenaran",
+          "zh": "证实真实性",
+          "en": "establish the truth"
+        }
+      ],
+      "en_definition": "Truth; the actual facts, or the quality of being true."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "许可；准许；获准做某事的批准。",
+      "ms_definition": "izin.",
+      "nuances": "所给 Kamus Dewan 第 2 义。meminta kebenaran 是请求许可，与 mencari kebenaran 的‘寻找真相’不同；正式文件中的 kebenaran bertulis 是书面许可。",
+      "collocations": [
+        {
+          "ms": "meminta kebenaran",
+          "zh": "请求许可",
+          "en": "ask for permission"
+        },
+        {
+          "ms": "kebenaran bertulis",
+          "zh": "书面许可",
+          "en": "written permission"
+        }
+      ],
+      "en_definition": "Permission; approval to do something."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻／调查声明（自拟）",
+      "ms": "Polis sedang menyiasat kebenaran dakwaan itu sebelum mengeluarkan kenyataan lanjut.",
+      "zh": "警方正在调查该指控是否属实，之后才会发表进一步声明。",
+      "en": "The police are investigating the truth of the allegation before issuing a further statement."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学准备借用音乐室排练",
+      "ms_spoken": "Petang ni kita latihan kat bilik muzik je, boleh?",
+      "ms_standard": "Bolehkah kita berlatih di bilik muzik sahaja petang ini?",
+      "zh": "今天傍晚我们就在音乐室排练，可以吗？",
+      "spoken_features": [
+        "minta kebenaran 和 dapat kebenaran 分别表示征求许可和获得许可，此处不涉及‘真相’义。",
+        "kena 在这里表示必须或需要；dulu 对应 dahulu 或 terlebih dahulu。",
+        "kita latihan 是聊天中省略动词前缀的表达，标准对应句用 kita berlatih。",
+        "ni、kat、je 分别对应 ini、di、sahaja；bagitau 的标准对应表达为 beritahu，句末 ya 使提醒较亲切。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Petang ni kita latihan kat bilik muzik je, boleh?",
+          "ms_standard": "Bolehkah kita berlatih di bilik muzik sahaja petang ini?",
+          "zh": "今天傍晚我们就在音乐室排练，可以吗？",
+          "en": "Can we just rehearse in the music room this afternoon?"
+        },
+        {
+          "speaker": "Aisyah (同学)",
+          "ms_spoken": "Kena minta kebenaran cikgu dulu. Aku tanya cikgu lepas kelas nanti.",
+          "ms_standard": "Kita perlu meminta kebenaran guru terlebih dahulu. Saya akan bertanya kepada guru selepas kelas nanti.",
+          "zh": "得先征求老师许可。我下课后去问老师。",
+          "en": "We need to get the teacher's permission first. I'll ask after class."
+        },
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Okey, dah dapat kebenaran nanti, bagitau aku ya.",
+          "ms_standard": "Baiklah, beritahu saya apabila kamu sudah mendapat kebenaran.",
+          "zh": "好，拿到许可后告诉我一声啊。",
+          "en": "Okay, let me know once you've got permission, yeah?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "请求许可时可说 Bolehkah saya…? 或 Mohon kebenaran…；面向老师、上司或机构时，说明用途与时间更清楚。",
+    "usage_etiquette": "不要把未经核实的消息直接称为 kebenaran。借用他人物品或拍摄他人时，应先取得相应许可；对陌生人使用 saya 等中性称呼。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语（南岛语系）",
+    "root_origin": "benar + ke-…-an；原包证实的是现代派生关系，未提供更早祖语形式。",
+    "historical_story": "马来语用 benar 说‘真、对’，再以 ke-…-an 把这种性质变成可以谈论的抽象名词。如今，追问一则消息是否属实和向机构申请准许，都能遇到 kebenaran；这种双义也保留了‘认定为真、认定可行’之间的语义联系，而非已核实的年代演变顺序。",
+    "cognitive_memory_aid": "把 benar‘对’装进 ke-…-an 的名词框：事情‘是真的’就是真实性，事情‘可以做’就是许可；看 mencari 还是 meminta 来分辨。"
+  }
+}

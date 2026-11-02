@@ -1,0 +1,292 @@
+{
+  "sedang": {
+    "context": "WhatsApp / 朋友来电前先发消息，确认是否方便通话",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Awak free tak? Nak call kejap.",
+        "ms_standard": "Adakah awak mempunyai masa lapang? Saya hendak menelefon awak sebentar.",
+        "zh": "你现在有空吗？想打给你聊一下。"
+      },
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Saya sedang makan kat rumah ni. Nanti saya telefon balik ya.",
+        "ms_standard": "Saya sedang makan di rumah sekarang. Saya akan menelefon awak semula sebentar lagi.",
+        "zh": "我这会儿正在家里吃饭，等下回电话给你啊。"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Okey, makan dulu. Dah habis nanti call je.",
+        "ms_standard": "Baiklah, makanlah dahulu. Telefonlah saya setelah awak selesai makan.",
+        "zh": "好，你先吃。吃完再打给我就行。"
+      }
+    ],
+    "spoken_features": [
+      "sedang 表示动作正在进行；这里保留目标词，日常聊天中也常用 tengah。",
+      "free、call 是马来西亚聊天中常见的英语夹用；kat 在此对应 di。",
+      "ni 在此突出当前情境，标准语用 sekarang 表达；dah 对应 sudah，je 对应 sahaja。",
+      "Nak call kejap 省略主语和通话对象；kejap 对应 sebentar。"
+    ]
+  },
+  "rumah": {
+    "context": "WhatsApp / 朋友到家后，邀请附近的朋友过来喝茶",
+    "messages": [
+      {
+        "speaker": "Farah (朋友)",
+        "ms_spoken": "Saya dah sampai rumah. Nak singgah minum kejap tak?",
+        "ms_standard": "Saya sudah sampai di rumah. Adakah awak mahu singgah untuk minum sebentar?",
+        "zh": "我到家了。要不要过来坐一会儿，喝点东西？"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Nak! Saya kat kedai depan rumah awak ni. Beli roti sekali ke?",
+        "ms_standard": "Ya, saya mahu. Saya sekarang berada di kedai di hadapan rumah awak. Adakah awak mahu saya membeli roti juga?",
+        "zh": "好啊！我就在你家前面那家店。要我顺便买面包吗？"
+      },
+      {
+        "speaker": "Farah (朋友)",
+        "ms_spoken": "Boleh juga. Nanti saya buat teh.",
+        "ms_standard": "Boleh juga. Saya akan menyediakan teh sebentar lagi.",
+        "zh": "也好。那我等下泡茶。"
+      }
+    ],
+    "spoken_features": [
+      "rumah 在对话中指住家；sampai rumah 是省略地点介词 di 的自然口语表达。",
+      "dah 对应 sudah，kat 对应 di，kejap 对应 sebentar。",
+      "Nak ... tak? 是口语询问意愿的结构；单独回答 Nak! 表示愿意。",
+      "Beli roti sekali ke? 省略主语，sekali 在此表示顺便一起，ke 是口语疑问词。"
+    ]
+  },
+  "kan": {
+    "context": "WhatsApp / 同事核对第二天的集合时间与地点",
+    "messages": [
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Esok kita jumpa kat lobi pukul sembilan, kan?",
+        "ms_standard": "Esok kita akan berjumpa di lobi pada pukul sembilan, bukan?",
+        "zh": "明天我们九点在大厅见，对吧？"
+      },
+      {
+        "speaker": "Mei Ling (同事)",
+        "ms_spoken": "Haah, lobi bawah tu. Jangan tunggu kat tingkat tiga pulak.",
+        "ms_standard": "Ya, di lobi di tingkat bawah itu. Jangan pula menunggu di tingkat tiga.",
+        "zh": "对，就是楼下那个大厅。可别跑到三楼等啊。"
+      },
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Okey, ingat dah. Saya sampai awal sikit nanti.",
+        "ms_standard": "Baiklah, saya sudah ingat. Saya akan tiba sedikit lebih awal esok.",
+        "zh": "好，记住了。我明天会稍微早一点到。"
+      }
+    ],
+    "spoken_features": [
+      "句尾 kan 请求对方确认双方已有的约定，此处不表示 akan。",
+      "haah 是口语中表示肯定的回应，对应 ya。",
+      "kat 对应 di，tu 对应 itu，pulak 对应 pula，sikit 对应 sedikit。",
+      "ingat dah 采用口语中的后置 dah；标准语恢复为 saya sudah ingat。"
+    ]
+  },
+  "masuk": {
+    "context": "WhatsApp / 朋友到访，在门外询问能否进去",
+    "messages": [
+      {
+        "speaker": "Amir (来访的朋友)",
+        "ms_spoken": "Saya dah kat depan pintu. Boleh masuk sekarang tak?",
+        "ms_standard": "Saya sudah berada di hadapan pintu. Bolehkah saya masuk sekarang?",
+        "zh": "我已经在门口了。现在可以进去吗？"
+      },
+      {
+        "speaker": "Danish (屋主、朋友)",
+        "ms_spoken": "Masuk je, pintu tak kunci. Saya kat dapur.",
+        "ms_standard": "Masuklah, pintu tidak berkunci. Saya berada di dapur.",
+        "zh": "直接进来吧，门没锁。我在厨房。"
+      },
+      {
+        "speaker": "Amir (来访的朋友)",
+        "ms_spoken": "Okey, saya masuk ya. Ada bawa kuih sikit ni.",
+        "ms_standard": "Baiklah, saya masuk sekarang. Saya ada membawa sedikit kuih.",
+        "zh": "好，那我进来啦。我带了点糕点。"
+      }
+    ],
+    "spoken_features": [
+      "masuk 在这里表示进入屋内；Masuk je 是熟人之间自然的准许和招呼。",
+      "dah kat depan pintu 省略 berada，标准语恢复为 sudah berada di hadapan pintu。",
+      "pintu tak kunci 是口语表达，标准语恢复为 pintu tidak berkunci。",
+      "句尾 tak 构成口语问句；ya 表示友善地告知对方自己的行动。"
+    ]
+  },
+  "nampak": {
+    "context": "WhatsApp / 朋友离开咖啡馆后，向仍在店里的朋友找包",
+    "messages": [
+      {
+        "speaker": "Sara (遗落包的朋友)",
+        "ms_spoken": "Awak nampak tak beg saya kat meja tadi? Baru perasan tak bawa balik.",
+        "ms_standard": "Adakah awak nampak beg saya di meja tempat kita duduk tadi? Saya baru menyedari bahawa saya tidak membawanya pulang.",
+        "zh": "你有没有看到我的包在刚才那张桌子上？我刚发现没带回来。"
+      },
+      {
+        "speaker": "Liyana (仍在咖啡馆的朋友)",
+        "ms_spoken": "Yang hitam tu ke? Nampak, ada atas kerusi sebelah saya.",
+        "ms_standard": "Adakah awak maksudkan beg yang berwarna hitam itu? Ya, saya nampak beg itu. Beg itu berada di atas kerusi di sebelah saya.",
+        "zh": "是那个黑色的吗？看到了，就在我旁边的椅子上。"
+      },
+      {
+        "speaker": "Sara (遗落包的朋友)",
+        "ms_spoken": "Haah, yang tu! Tolong simpan dulu ya, saya patah balik sekarang.",
+        "ms_standard": "Ya, beg itulah yang saya maksudkan. Tolong simpankan dahulu. Saya akan berpatah balik sekarang.",
+        "zh": "对，就是那个！先帮我收着啊，我现在折回去。"
+      }
+    ],
+    "spoken_features": [
+      "nampak tak 是口语的是非问句结构；回答 Nampak 可以省略已知的主语和宾语。",
+      "Yang hitam tu ke? 用颜色指认双方已知的包，省略名词 beg。",
+      "kat 对应 di，tu 对应 itu，haah 对应 ya。",
+      "tak bawa balik 表示没有带回去；patah balik 在此表示折返，标准语恢复为 berpatah balik。"
+    ]
+  },
+  "cuma": {
+    "context": "WhatsApp / 顾客询问店铺是否还营业，并说明暂时只想了解商品",
+    "messages": [
+      {
+        "speaker": "Iman (顾客)",
+        "ms_spoken": "Kak, kedai buka lagi tak? Saya cuma nak tengok beg je dulu.",
+        "ms_standard": "Kakak, adakah kedai masih dibuka? Buat masa ini, saya cuma hendak melihat beg sahaja.",
+        "zh": "姐，店还开着吗？我暂时只是想先看看包。"
+      },
+      {
+        "speaker": "Kak Lina (店主)",
+        "ms_spoken": "Buka lagi, dik. Datang je, tengok dulu pun tak apa.",
+        "ms_standard": "Kedai masih dibuka, adik. Silakan datang. Tidak mengapa jika adik mahu melihat-lihat dahulu.",
+        "zh": "还开着呢。过来吧，先看看也没关系。"
+      },
+      {
+        "speaker": "Iman (顾客)",
+        "ms_spoken": "Okey kak, saya sampai dalam sepuluh minit.",
+        "ms_standard": "Baiklah, kakak. Saya akan tiba dalam masa sepuluh minit.",
+        "zh": "好的，姐，我十分钟内到。"
+      }
+    ],
+    "spoken_features": [
+      "cuma 限定来意为先看看；与 je 搭配，在此也缓和暂时不购买的表达。",
+      "nak 对应 hendak，je 对应 sahaja，tengok 对应 melihat。",
+      "buka lagi tak 在此询问是否仍在营业；标准语恢复为 adakah kedai masih dibuka。",
+      "kak 和 dik 分别来自 kakak 和 adik，可作为亲切称呼，不必表示实际亲属关系。"
+    ]
+  },
+  "tahun": {
+    "context": "WhatsApp / 朋友商量把兰卡威旅行安排到明年",
+    "messages": [
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Tahun ni jadi tak kita pergi Langkawi?",
+        "ms_standard": "Adakah rancangan kita untuk pergi ke Langkawi pada tahun ini akan diteruskan?",
+        "zh": "今年我们去兰卡威的计划还成行吗？"
+      },
+      {
+        "speaker": "Syafiq (朋友)",
+        "ms_spoken": "Tahun ni susah sikit, cuti saya dah habis. Tahun depan je lah?",
+        "ms_standard": "Agak sukar bagi saya untuk pergi pada tahun ini kerana cuti saya sudah habis. Bagaimana jika kita pergi pada tahun depan sahaja?",
+        "zh": "今年有点难，我的假已经用完了。要不就明年吧？"
+      },
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Boleh. Awal tahun depan kita pilih tarikh, senang nak mohon cuti.",
+        "ms_standard": "Baiklah. Pada awal tahun depan, kita pilih tarikh supaya lebih mudah untuk memohon cuti.",
+        "zh": "行。明年年初我们就把日期选好，方便请假。"
+      }
+    ],
+    "spoken_features": [
+      "tahun ni 和 tahun depan 分别表示今年和明年；ni 对应 ini。",
+      "jadi tak 在这里询问原定计划是否成行，不宜逐字译成‘变不变成’。",
+      "Tahun depan je lah? 省略双方已知的旅行事项，以 je lah 提出调整建议。",
+      "dah 对应 sudah，sikit 对应 sedikit；pergi Langkawi 在口语中省略 ke。"
+    ]
+  },
+  "berada": {
+    "context": "WhatsApp / 朋友约在店门口碰面，通过消息确认位置",
+    "messages": [
+      {
+        "speaker": "Aisyah (朋友)",
+        "ms_spoken": "Saya dah ada kat depan kedai ni. Awak kat mana?",
+        "ms_standard": "Saya sudah berada di hadapan kedai ini. Awak berada di mana?",
+        "zh": "我已经在这家店前面了。你在哪儿？"
+      },
+      {
+        "speaker": "Mira (朋友)",
+        "ms_spoken": "Saya kat belakang kedai, dekat tempat parking. Salah pintu rupanya.",
+        "ms_standard": "Saya berada di belakang kedai, berhampiran tempat letak kereta. Rupa-rupanya saya tersilap pintu.",
+        "zh": "我在店后面，靠近停车的地方。原来我走错门了。"
+      },
+      {
+        "speaker": "Aisyah (朋友)",
+        "ms_spoken": "Patutlah tak nampak. Tunggu situ je, saya datang.",
+        "ms_standard": "Patutlah saya tidak nampak awak. Tunggu sahaja di situ. Saya akan datang ke tempat awak.",
+        "zh": "难怪没看到你。就在那儿等着吧，我过去。"
+      }
+    ],
+    "spoken_features": [
+      "这里示范 berada 的位置义如何自然转为口语：ada kat 对应 berada di；ada 并非 berada 的短信缩写。",
+      "Awak kat mana? 和 Saya kat belakang kedai 都省略位置动词，标准语补回 berada。",
+      "dah 对应 sudah，kat 对应 di，ni 对应 ini，je 对应 sahaja。",
+      "tempat parking 是常见的英语夹用，标准语为 tempat letak kereta；patutlah 在此表示得知原因后的‘难怪’。"
+    ]
+  },
+  "suka": {
+    "context": "WhatsApp / 朋友确认饮料喜好，顺便帮忙买下午茶",
+    "messages": [
+      {
+        "speaker": "Nabil (朋友)",
+        "ms_spoken": "Awak suka teh tarik kan? Saya nak beli, nak sekali tak?",
+        "ms_standard": "Awak suka minum teh tarik, bukan? Saya hendak membelinya. Adakah awak mahu saya membelikan segelas untuk awak juga?",
+        "zh": "你喜欢拉茶，对吧？我要去买，要不要也帮你带一杯？"
+      },
+      {
+        "speaker": "Fatin (朋友)",
+        "ms_spoken": "Suka! Tapi kurang manis ya. Yang biasa tu manis sangat.",
+        "ms_standard": "Ya, saya suka minum teh tarik. Namun, tolong pesan yang kurang manis. Teh tarik biasa itu terlalu manis.",
+        "zh": "喜欢！不过要少甜啊。普通甜度的太甜了。"
+      },
+      {
+        "speaker": "Nabil (朋友)",
+        "ms_spoken": "Okey, saya pesan kurang manis. Roti bakar nak juga ke?",
+        "ms_standard": "Baiklah, saya akan memesan teh tarik yang kurang manis. Adakah awak mahu roti bakar juga?",
+        "zh": "好，我点少甜的。烤面包也要吗？"
+      }
+    ],
+    "spoken_features": [
+      "suka 在这里表示喜欢某种饮料；直接接 teh tarik 是自然表达，标准对应句用 suka minum teh tarik 明示饮用这一活动。",
+      "单独回答 Suka! 省略主语及双方已知的对象。",
+      "kan 寻求确认；nak 对应 mahu 或 hendak，具体取决于句中功能。",
+      "nak sekali tak 在此表示是否也要一份；kurang manis 是点饮料时常用的‘少甜’要求。"
+    ]
+  },
+  "tetapi": {
+    "context": "WhatsApp / 朋友聚餐前，说明因堵车会迟到",
+    "messages": [
+      {
+        "speaker": "Jia Wen (等候的朋友)",
+        "ms_spoken": "Awak jadi datang tak? Kita dah kat kedai ni.",
+        "ms_standard": "Adakah awak masih akan datang seperti yang dirancang? Kami sudah berada di kedai ini.",
+        "zh": "你还来吗？我们已经在店里了。"
+      },
+      {
+        "speaker": "Azlan (赴约的朋友)",
+        "ms_spoken": "Datang, tapi lambat sikit lah. Jalan jem teruk ni.",
+        "ms_standard": "Saya akan datang, tetapi saya akan tiba sedikit lewat kerana lalu lintas sangat sesak sekarang.",
+        "zh": "来，不过会晚一点。现在路上堵得很厉害。"
+      },
+      {
+        "speaker": "Jia Wen (等候的朋友)",
+        "ms_spoken": "Okey, tak apa. Kita pesan makanan dulu ya.",
+        "ms_standard": "Baiklah, tidak mengapa. Kami akan memesan makanan dahulu.",
+        "zh": "好，没关系。我们先点菜了啊。"
+      }
+    ],
+    "spoken_features": [
+      "tapi 是 tetapi 的常见口语短式，在此连接仍会赴约与会迟到这两项情况。",
+      "Datang 作为简短回应，省略主语和表示将来的成分；标准语恢复为 Saya akan datang。",
+      "sikit 对应 sedikit，dah 对应 sudah；lah 在此缓和告知迟到的语气。",
+      "jalan jem 是马来西亚常见的堵车表达，标准语可用 lalu lintas sesak；这里 kita 指发消息者和已经到场的其他人，标准语按语境恢复为 kami。"
+    ]
+  }
+}

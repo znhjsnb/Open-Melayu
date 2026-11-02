@@ -1,0 +1,2543 @@
+{
+  "observed_utc": "2026-11-01T08:14:58.246527+00:00",
+  "python": "3.13.15",
+  "pyarrow": "23.0.1",
+  "files": {
+    "dbp_malay_words_v2.json": {
+      "bytes": 2467611,
+      "MB": 2.467611,
+      "MiB": 2.353297,
+      "sha256": "6ba3e497f411c0b5186eb0d4f0de7578edd0ce0299b6c08c03448ef52cb6a6a6"
+    },
+    "entries-ms.parquet": {
+      "bytes": 1448922,
+      "MB": 1.448922,
+      "MiB": 1.3818,
+      "sha256": "91689e67e60c55792b4dc41f64bad4405451c57aae1a51110c0c98de55f02a8d"
+    },
+    "kaikki_malay.jsonl": {
+      "bytes": 28867677,
+      "MB": 28.867677,
+      "MiB": 27.530362,
+      "sha256": "d4b211c01a2206ae4136a6b35ca0cd1412e053cf95bcb639837a4f4559d3c592"
+    },
+    "opensubtitles_frequency_ms_50k.txt": {
+      "bytes": 545346,
+      "MB": 0.545346,
+      "MiB": 0.520082,
+      "sha256": "908558d74db18b486239a557ff7a692178b7ac8555cab04ac3ea8326e6129675"
+    },
+    "opensubtitles_frequency_ms_full.txt": {
+      "bytes": 1169064,
+      "MB": 1.169064,
+      "MiB": 1.114906,
+      "sha256": "35e1840ab6d69bc7e1674261cf4250d6e30bed720b77a4fe9b957b4fa27554d0"
+    },
+    "wordnet-ms.parquet": {
+      "bytes": 1066523,
+      "MB": 1.066523,
+      "MiB": 1.017116,
+      "sha256": "9d91ea829c802678350e4e533dbadc23a5a3e152841c4a6cdfa326206ea6d0c2"
+    }
+  },
+  "dbp": {
+    "type": "list",
+    "rows": 187385,
+    "unique_exact": 187385,
+    "unique_casefold": 187385,
+    "all_strings": true,
+    "contains_examples": {
+      "abandoned": false,
+      "mesovarium": true,
+      "hydroterpene": true,
+      "tak": false,
+      "ajar": false,
+      "belajar": true
+    }
+  },
+  "kaikki": {
+    "records": 17812,
+    "headwords_exact": 15619,
+    "headwords_casefold": 15515,
+    "sense_objects": 22460,
+    "lang_codes": {
+      "ms": 17812
+    },
+    "fields_by_record": {
+      "ipa": 9668,
+      "audio": 953,
+      "hyphenation": 6134,
+      "etymology_text": 9890,
+      "etymology_templates": 9552,
+      "examples": 2641,
+      "derived": 829,
+      "forms": 14004
+    },
+    "fields_by_headword_casefold": {
+      "ipa": 8168,
+      "audio": 763,
+      "hyphenation": 5069,
+      "etymology_text": 8585,
+      "etymology_templates": 8343,
+      "examples": 2265,
+      "derived": 806,
+      "forms": 12293
+    },
+    "probes": {
+      "ajar": [
+        {
+          "pos": "verb",
+          "head_templates": [
+            {
+              "name": "ms-verb",
+              "args": {
+                "j": "اجر"
+              },
+              "expansion": "ajar (Jawi spelling اجر)"
+            }
+          ],
+          "forms": [
+            {
+              "form": "اجر",
+              "tags": [
+                "Jawi"
+              ]
+            }
+          ],
+          "descendants": [
+            {
+              "lang": "Ambonese Malay",
+              "lang_code": "abs",
+              "word": "ajar",
+              "raw_tags": [
+                "inherited",
+                "inherited"
+              ]
+            },
+            {
+              "lang": "Indonesian",
+              "lang_code": "id",
+              "word": "ajar",
+              "raw_tags": [
+                "inherited",
+                "inherited"
+              ]
+            },
+            {
+              "lang": "Iban",
+              "lang_code": "iba",
+              "word": "ajar",
+              "raw_tags": [
+                "borrowed"
+              ]
+            }
+          ],
+          "etymology_text": "From Sanskrit आचार्य (ācārya, “teacher, master”). Doublet of acar, acara, and hajar.",
+          "etymology_links": [
+            [
+              "आचार्य",
+              "आचार्य#Sanskrit"
+            ],
+            [
+              "acar",
+              "acar#Malay"
+            ],
+            [
+              "acara",
+              "acara#Malay"
+            ],
+            [
+              "hajar",
+              "hajar#Malay"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "ety",
+              "args": {
+                "1": "ms",
+                "2": ":uder",
+                "3": "sa:आचार्य<t:teacher; master>"
+              },
+              "expansion": "[Appendix:Glossary#inherited|Inherited]] from\", \"keyword\" : \"inherited\" } ], \"lang_name\" : \"Proto-Indo-Iranian\", \"term\" : \"*HáH\", \"status\" : \"inline\", \"lang\" : \"iir-pro\" } ], \"keyword_label\" : \"Inherited from\", \"keyword\" : \"inherited\" } ], \"status\" : \"ok\", \"lang_name\" : \"Sanskrit\", \"term\" : \"आ\", \"lang\" : \"sa\" } ], \"keyword_label\" : \"From\", \"keyword\" : \"from\" } ], \"lang_name\" : \"Sanskrit\", \"term\" : \"आ-\", \"status\" : \"ok\", \"lang\" : \"sa\" }, { \"children\" : [ { \"keyword_abbrev\" : \"vṛd.\", \"keyword_label\" : \"Vṛddhi derivative of\", \"terms\" : [ { \"children\" : [ { \"terms\" : [ { \"children\" : [ { \"terms\" : [ { \"children\" : [ { \"terms\" : [ { \"gloss\" : \"to move; to turn (around)\", \"children\" : [ ], \"lang_name\" : \"Proto-Indo-European\", \"term\" : \"*kʷelh₁-\", \"status\" : \"ok\", \"lang\" : \"ine-pro\" } ], \"keyword_label\" : \"Inherited from\", \"keyword\" : \"inherited\" } ], \"lang_name\" : \"Proto-Indo-Iranian\", \"term\" : \"*čarH-\", \"status\" : \"inline\", \"lang\" : \"iir-pro\" } ], \"keyword_label\" : \"Inherited from\", \"keyword\" : \"inherited\" } ], \"lang_name\" : \"Sanskrit\", \"term\" : \"चर्\", \"status\" : \"ok\", \"lang\" : \"sa\" }, { \"children\" : [ { \"terms\" : [ { \"id\" : \"athematic\", \"children\" : [ ], \"status\" : \"ok\", \"lang_name\" : \"Proto-Indo-European\", \"term\" : \"*-os\", \"lang\" : \"ine-pro\" } ], \"keyword_label\" : \"Inherited from\", \"keyword\" : \"inherited\" } ], \"lang_name\" : \"Sanskrit\", \"term\" : \"-अ\", \"status\" : \"ok\", \"lang\" : \"sa\" } ], \"keyword_label\" : \"From\", \"is_group\" : true, \"keyword\" : \"affix\" } ], \"lang_name\" : \"Sanskrit\", \"term\" : \"चर\", \"status\" : \"ok\", \"lang\" : \"sa\" } ], \"keyword\" : \"vrd\" } ], \"lang_name\" : \"Sanskrit\", \"term\" : \"चार\", \"status\" : \"ok\", \"lang\" : \"sa\" } ], \"keyword_label\" : \"From\", \"is_group\" : true, \"keyword\" : \"affix\" } ], \"lang_name\" : \"Sanskrit\", \"term\" : \"आचार\", \"status\" : \"ok\", \"lang\" : \"sa\" }, { \"children\" : [ { \"terms\" : [ { \"id\" : \"suffix\", \"children\" : [ ], \"status\" : \"ok\", \"lang_name\" : \"Proto-Indo-European\", \"term\" : \"*-yós\", \"lang\" : \"ine-pro\" } ], \"keyword_label\" : \"Inherited from\", \"keyword\" : \"inherited\" } ], \"lang_name\" : \"Sanskrit\", \"term\" : \"-य\", \"status\" : \"ok\", \"lang\" : \"sa\", \"pos\" : \"gerundive suffix\" } ], \"keyword_label\" : \"From\", \"is_group\" : true, \"keyword\" : \"affix\" } ], \"lang_name\" : \"Sanskrit\", \"term\" : \"आचार्य\", \"status\" : \"ok\", \"lang\" : \"sa\" } ], \"keyword_label\" : \"From\", \"keyword\" : \"uder\" } ], \"lang_name\" : \"Malay\", \"term\" : \"ajar\", \"status\" : \"ok\", \"lang\" : \"ms\" }\" data-lang=\"ms\" data-title=\"ajar\">"
+            },
+            {
+              "name": "uder",
+              "args": {
+                "1": "ms",
+                "2": "sa",
+                "3": "आचार्य",
+                "4": "",
+                "5": "teacher, master"
+              },
+              "expansion": "Sanskrit आचार्य (ācārya, “teacher, master”)"
+            },
+            {
+              "name": "dbt",
+              "args": {
+                "1": "ms",
+                "2": "acar",
+                "3": "acara",
+                "4": "hajar"
+              },
+              "expansion": "Doublet of acar, acara, and hajar"
+            },
+            {
+              "name": "ety",
+              "args": {
+                "1": "ms",
+                "2": ":uder",
+                "3": "sa:आचार्य<t:teacher; master>"
+              },
+              "expansion": ""
+            }
+          ],
+          "word": "ajar",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "senses": [
+            {
+              "links": [
+                [
+                  "teach",
+                  "teach"
+                ],
+                [
+                  "Kamus Dewan",
+                  "w:Kamus Dewan"
+                ],
+                [
+                  "Dewan Bahasa dan Pustaka",
+                  "w:Dewan Bahasa dan Pustaka"
+                ]
+              ],
+              "glosses": [
+                "to teach"
+              ],
+              "id": "en-ajar-ms-verb-7Z3BpXhf",
+              "categories": [
+                {
+                  "name": "Malay entries with etymon",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Malay undefined derivations",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages using etymon with no ID",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages with 10 entries",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages with entries",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages with etymon",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                }
+              ],
+              "derived": [
+                {
+                  "sense": "Affixations",
+                  "english": "ascetics",
+                  "translation": "ascetics",
+                  "word": "ajar-ajar"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "teachings",
+                  "translation": "teachings",
+                  "word": "ajaran"
+                },
+                {
+                  "sense": "Affixations",
+                  "word": "ajari"
+                },
+                {
+                  "sense": "Affixations",
+                  "word": "ajarkan"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "to learn",
+                  "translation": "to learn",
+                  "word": "belajar"
+                },
+                {
+                  "sense": "Affixations",
+                  "word": "berajar"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "educated",
+                  "translation": "educated",
+                  "word": "berpelajaran"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "being taught (intr.)",
+                  "translation": "being taught (intr.)",
+                  "word": "diajar"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "being taught (tr.)",
+                  "translation": "being taught (tr.)",
+                  "word": "diajarkan"
+                },
+                {
+                  "sense": "Affixations",
+                  "word": "mempelajari"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "to teach",
+                  "translation": "to teach",
+                  "word": "mengajar"
+                },
+                {
+                  "sense": "Affixations",
+                  "word": "mengajari"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "to teach (tr.)",
+                  "translation": "to teach (tr.)",
+                  "word": "mengajarkan"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "student",
+                  "translation": "student",
+                  "word": "pelajar"
+                },
+                {
+                  "topics": [
+                    "education"
+                  ],
+                  "tags": [
+                    "subjective"
+                  ],
+                  "sense": "Affixations",
+                  "word": "pelajaran"
+                },
+                {
+                  "sense": "Affixations",
+                  "word": "pembelajaran"
+                },
+                {
+                  "sense": "Affixations",
+                  "word": "pemelajaran"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "teacher",
+                  "translation": "teacher",
+                  "word": "pengajar"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "lesson; moral of story",
+                  "translation": "lesson; moral of story",
+                  "word": "pengajaran"
+                },
+                {
+                  "sense": "Affixations",
+                  "english": "well-educated",
+                  "translation": "well-educated",
+                  "word": "terpelajar"
+                },
+                {
+                  "sense": "Compounds",
+                  "word": "tunjuk ajar"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "belajar": [
+        {
+          "pos": "verb",
+          "head_templates": [
+            {
+              "name": "ms-verb",
+              "args": {
+                "j": "بلاجر"
+              },
+              "expansion": "belajar (Jawi spelling بلاجر)"
+            }
+          ],
+          "forms": [
+            {
+              "form": "بلاجر",
+              "tags": [
+                "Jawi"
+              ]
+            }
+          ],
+          "descendants": [
+            {
+              "lang": "Indonesian",
+              "lang_code": "id",
+              "word": "belajar",
+              "raw_tags": [
+                "inherited",
+                "inherited"
+              ]
+            }
+          ],
+          "etymology_text": "From dissimilated ber- + ajar.",
+          "etymology_links": [
+            [
+              "ber-",
+              "ber-#Malay"
+            ],
+            [
+              "ajar",
+              "ajar#Malay"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "af",
+              "args": {
+                "1": "ms",
+                "2": "ber-",
+                "3": "ajar"
+              },
+              "expansion": "ber- + ajar"
+            }
+          ],
+          "sounds": [
+            {
+              "note": "schwa-variety",
+              "ipa": "/bəˈlad͡ʒa(r)/"
+            },
+            {
+              "note": "schwa-variety",
+              "ipa": "[bəˈla.d͡ʒa(r)]"
+            },
+            {
+              "rhymes": "-a(r)"
+            },
+            {
+              "note": "Literary Standard",
+              "ipa": "/bəˈlad͡ʒar/"
+            },
+            {
+              "note": "Literary Standard",
+              "ipa": "[bəˈla.d͡ʒar]"
+            },
+            {
+              "rhymes": "-ar"
+            }
+          ],
+          "hyphenations": [
+            {
+              "parts": [
+                "be",
+                "la",
+                "jar"
+              ]
+            }
+          ],
+          "word": "belajar",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "senses": [
+            {
+              "links": [
+                [
+                  "study",
+                  "study"
+                ],
+                [
+                  "learn",
+                  "learn"
+                ]
+              ],
+              "glosses": [
+                "to study; to learn"
+              ],
+              "id": "en-belajar-ms-verb-Dm3zwSIp",
+              "categories": [
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Malay terms prefixed with ber-",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages with 4 entries",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages with entries",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                }
+              ],
+              "derived": [
+                {
+                  "sense": "Affixations",
+                  "word": "pembelajaran"
+                }
+              ],
+              "related": [
+                {
+                  "english": "student",
+                  "translation": "student",
+                  "word": "pelajar"
+                },
+                {
+                  "english": "teacher; instructor",
+                  "translation": "teacher; instructor",
+                  "word": "pengajar"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mengajar": [
+        {
+          "pos": "verb",
+          "head_templates": [
+            {
+              "name": "ms-verb",
+              "args": {
+                "head": "mĕngajar"
+              },
+              "expansion": "mĕngajar"
+            }
+          ],
+          "forms": [
+            {
+              "form": "mĕngajar",
+              "tags": [
+                "canonical"
+              ]
+            }
+          ],
+          "descendants": [
+            {
+              "lang": "Indonesian",
+              "lang_code": "id",
+              "word": "mengajar"
+            }
+          ],
+          "etymology_text": "meng- + ajar.",
+          "etymology_links": [
+            [
+              "meng-",
+              "meng-#Malay"
+            ],
+            [
+              "ajar",
+              "ajar#Malay"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "af",
+              "args": {
+                "1": "ms",
+                "2": "meng-",
+                "3": "ajar"
+              },
+              "expansion": "meng- + ajar"
+            }
+          ],
+          "word": "mengajar",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "senses": [
+            {
+              "links": [
+                [
+                  "teach",
+                  "teach"
+                ]
+              ],
+              "glosses": [
+                "to teach"
+              ],
+              "id": "en-mengajar-ms-verb-7Z3BpXhf",
+              "categories": [
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Malay terms prefixed with meng-",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages with 2 entries",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages with entries",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pelajar": [
+        {
+          "pos": "noun",
+          "head_templates": [
+            {
+              "name": "ms-noun",
+              "args": {
+                "j": "ڤلاجر"
+              },
+              "expansion": "pelajar (Jawi spelling ڤلاجر, plural pelajar-pelajar)"
+            }
+          ],
+          "forms": [
+            {
+              "form": "ڤلاجر",
+              "tags": [
+                "Jawi"
+              ]
+            },
+            {
+              "form": "pelajar-pelajar",
+              "tags": [
+                "plural"
+              ]
+            }
+          ],
+          "antonyms": [
+            {
+              "word": "pengajar"
+            },
+            {
+              "word": "guru"
+            },
+            {
+              "word": "cikgu"
+            }
+          ],
+          "etymology_text": "From dissimilated per- + ajar (“to teach”)",
+          "etymology_links": [
+            [
+              "per-",
+              "per-#Malay"
+            ],
+            [
+              "ajar",
+              "ajar#Malay"
+            ],
+            [
+              "teach",
+              "teach"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "prefix",
+              "args": {
+                "1": "ms",
+                "2": "per",
+                "3": "ajar",
+                "t2": "to teach"
+              },
+              "expansion": "per- + ajar (“to teach”)"
+            }
+          ],
+          "sounds": [
+            {
+              "ipa": "/pəl.a.d͡ʒa(r)/"
+            },
+            {
+              "rhymes": "-d͡ʒa(r)"
+            },
+            {
+              "rhymes": "-a(r)"
+            },
+            {
+              "audio": "Ms-MY-pelajar.ogg",
+              "tags": [
+                "Malaysia"
+              ],
+              "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ms-MY-pelajar.ogg",
+              "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/Ms-MY-pelajar.ogg/Ms-MY-pelajar.ogg.mp3"
+            }
+          ],
+          "word": "pelajar",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "synonyms": [
+            {
+              "word": "murid",
+              "_dis1": "0 0 0"
+            },
+            {
+              "word": "penuntut",
+              "_dis1": "0 0 0"
+            }
+          ],
+          "hyponyms": [
+            {
+              "word": "siswa",
+              "_dis1": "0 0 0"
+            },
+            {
+              "english": "student enrol in an institution of higher learning",
+              "translation": "student enrol in an institution of higher learning",
+              "word": "siswi",
+              "_dis1": "0 0 0"
+            },
+            {
+              "word": "mahasiswa",
+              "_dis1": "0 0 0"
+            },
+            {
+              "english": "university student",
+              "translation": "university student",
+              "word": "mahasiswi",
+              "_dis1": "0 0 0"
+            }
+          ],
+          "related": [
+            {
+              "english": "to learn",
+              "translation": "to learn",
+              "word": "belajar",
+              "_dis1": "0 0 0"
+            },
+            {
+              "topics": [
+                "education"
+              ],
+              "tags": [
+                "subjective"
+              ],
+              "word": "pelajaran",
+              "_dis1": "0 0 0"
+            }
+          ],
+          "senses": [
+            {
+              "examples": [
+                {
+                  "text": "Raja Mohamad Amin yang merupakan pelajar Ijazah Sarjana Filem dan Televisyen berkata, pendakian sangat mencabar kerana angin bertiup lebih kencang daripada biasa berikutan taufan Jebi baru lepas melanda.",
+                  "ref": "2018 October 11, Abdul Razak Idris, “8 pelajar Universiti Lim Kok Wing tawan Gunung Fuji [8 students from Lim Kok Wing University conquer Mount Fuji]”, in Utusan Malaysia, archived from the original on 12 Oct 2018:",
+                  "english": "Raja Mohamad Amin who is a student of the Master in Digital Film and Television says that the climb is very challenging because the wind was blowing stronger than usual due to typhoon Jebi that just hit recently.",
+                  "type": "quotation",
+                  "translation": "Raja Mohamad Amin who is a student of the Master in Digital Film and Television says that the climb is very challenging because the wind was blowing stronger than usual due to typhoon Jebi that just hit recently.",
+                  "bold_translation_offsets": [
+                    [
+                      27,
+                      34
+                    ]
+                  ],
+                  "bold_text_offsets": [
+                    [
+                      33,
+                      40
+                    ]
+                  ]
+                }
+              ],
+              "links": [
+                [
+                  "student",
+                  "student"
+                ]
+              ],
+              "glosses": [
+                "student (of all categories)"
+              ],
+              "id": "en-pelajar-ms-noun-IxWUKJiz",
+              "categories": []
+            },
+            {
+              "links": [
+                [
+                  "studies",
+                  "studies"
+                ],
+                [
+                  "research",
+                  "research"
+                ],
+                [
+                  "branch",
+                  "branch"
+                ],
+                [
+                  "knowledge",
+                  "knowledge"
+                ]
+              ],
+              "glosses": [
+                "one who studies or researches a particular branch of knowledge"
+              ],
+              "id": "en-pelajar-ms-noun-P1jw6jEP"
+            },
+            {
+              "examples": [
+                {
+                  "text": "Nafas masa mengibar layak—koyak, basah dan garang;\ndirinya pelajar yang sabar sopan diranumi alam.\nDan di tengah pekan, dirinya polis segan menyaman;\ndi pantai polemik, ia pendebat payah disanggah.",
+                  "ref": "2005, A. Samad Said, A. Samad Said: Sebuah antologi puisi yang menghimpunkan karya-karya selama setengah abad [A. Samad Said: An anthology of poems assembled from works spanning half a century], Utusan Publications, Menyongsong Abad (Poem No. 165), page 324:",
+                  "english": "A. Samad Said: An anthology of poems assembled from works spanning half a century",
+                  "type": "quotation",
+                  "translation": "A. Samad Said: An anthology of poems assembled from works spanning half a century",
+                  "bold_text_offsets": [
+                    [
+                      59,
+                      66
+                    ]
+                  ]
+                }
+              ],
+              "links": [
+                [
+                  "learn",
+                  "learn"
+                ]
+              ],
+              "raw_glosses": [
+                "(literary) one who learns"
+              ],
+              "glosses": [
+                "one who learns"
+              ],
+              "tags": [
+                "literary"
+              ],
+              "id": "en-pelajar-ms-noun-aAMRBiUl",
+              "categories": [
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "31 11 58"
+                },
+                {
+                  "name": "Malay terms prefixed with per-",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "31 27 42"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tak": [
+        {
+          "pos": "adv",
+          "head_templates": [
+            {
+              "name": "ms-adv",
+              "args": {
+                "j": "تق"
+              },
+              "expansion": "tak (Jawi spelling تق)"
+            },
+            {
+              "name": "tlb",
+              "args": {
+                "1": "ms",
+                "2": "informal"
+              },
+              "expansion": "(informal)"
+            }
+          ],
+          "forms": [
+            {
+              "form": "تق",
+              "tags": [
+                "Jawi"
+              ]
+            },
+            {
+              "form": "x",
+              "tags": [
+                "alternative",
+                "Internet"
+              ]
+            },
+            {
+              "form": "tk",
+              "tags": [
+                "alternative",
+                "Internet"
+              ]
+            }
+          ],
+          "descendants": [
+            {
+              "lang": "Indonesian",
+              "lang_code": "id",
+              "word": "tak",
+              "raw_tags": [
+                "inherited",
+                "inherited"
+              ]
+            }
+          ],
+          "etymology_number": "1",
+          "etymology_text": "Contraction of tidak, from Proto-Malayic *daʔ, from Proto-Malayo-Polynesian *diaq.",
+          "etymology_links": [
+            [
+              "tidak",
+              "tidak#Malay"
+            ],
+            [
+              "*daʔ",
+              "Reconstruction:Proto-Malayic/daʔ"
+            ],
+            [
+              "*diaq",
+              "Reconstruction:Proto-Malayo-Polynesian/diaq"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "contraction",
+              "args": {
+                "1": "ms",
+                "2": "tidak"
+              },
+              "expansion": "Contraction of tidak"
+            },
+            {
+              "name": "inh",
+              "args": {
+                "1": "ms",
+                "2": "poz-mly-pro",
+                "3": "*daʔ"
+              },
+              "expansion": "Proto-Malayic *daʔ"
+            },
+            {
+              "name": "inh",
+              "args": {
+                "1": "ms",
+                "2": "poz-pro",
+                "3": "*diaq"
+              },
+              "expansion": "Proto-Malayo-Polynesian *diaq"
+            }
+          ],
+          "word": "tak",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "sounds": [
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "/ˈtak/"
+            },
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "[ˈt̪aʔ]"
+            },
+            {
+              "rhymes": "-aʔ"
+            }
+          ],
+          "hyphenations": [
+            {
+              "parts": [
+                "tak"
+              ]
+            }
+          ],
+          "synonyms": [
+            {
+              "tags": [
+                "Indonesia"
+              ],
+              "word": "gak",
+              "_dis1": "0 0"
+            }
+          ],
+          "senses": [
+            {
+              "examples": [
+                {
+                  "text": "Saya tak mahu makan.",
+                  "bold_text_offsets": [
+                    [
+                      5,
+                      8
+                    ]
+                  ],
+                  "translation": "I don't want to eat.",
+                  "english": "I don't want to eat.",
+                  "bold_translation_offsets": [
+                    [
+                      2,
+                      7
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "links": [
+                [
+                  "not",
+                  "not"
+                ]
+              ],
+              "glosses": [
+                "not (negates the meaning of the verb)"
+              ],
+              "tags": [
+                "informal"
+              ],
+              "id": "en-tak-ms-adv-HIQpedeR",
+              "categories": [
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "84 0 16"
+                }
+              ],
+              "derived": [
+                {
+                  "sense": "Affixation",
+                  "english": "there is/are no; nothing; no one; none",
+                  "translation": "there is/are no; nothing; no one; none",
+                  "word": "tak ada",
+                  "_dis1": "100 0"
+                },
+                {
+                  "sense": "Affixation",
+                  "english": "won't",
+                  "translation": "won't",
+                  "word": "tak akan",
+                  "_dis1": "100 0"
+                },
+                {
+                  "sense": "Affixation",
+                  "english": "it doesn't matter; never mind; it's okay; you're welcome",
+                  "translation": "it doesn't matter; never mind; it's okay; you're welcome",
+                  "word": "tak apa",
+                  "_dis1": "100 0"
+                },
+                {
+                  "sense": "Affixation",
+                  "english": "not very; not particularly; not really; not quite",
+                  "translation": "not very; not particularly; not really; not quite",
+                  "word": "tak berapa",
+                  "_dis1": "100 0"
+                },
+                {
+                  "sense": "Affixation",
+                  "english": "I don't care",
+                  "translation": "I don't care",
+                  "word": "tak kisah",
+                  "_dis1": "100 0"
+                },
+                {
+                  "sense": "Affixation",
+                  "english": "no need",
+                  "translation": "no need",
+                  "word": "tak perlu",
+                  "_dis1": "100 0"
+                }
+              ]
+            },
+            {
+              "examples": [
+                {
+                  "text": "Buku itu tak mahal.",
+                  "bold_text_offsets": [
+                    [
+                      9,
+                      12
+                    ]
+                  ],
+                  "translation": "That book is not expensive.",
+                  "english": "That book is not expensive.",
+                  "bold_translation_offsets": [
+                    [
+                      13,
+                      16
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "links": [
+                [
+                  "not",
+                  "not"
+                ]
+              ],
+              "glosses": [
+                "not (to no degree)"
+              ],
+              "tags": [
+                "informal"
+              ],
+              "id": "en-tak-ms-adv-G5YyQZTU",
+              "categories": []
+            }
+          ]
+        },
+        {
+          "pos": "noun",
+          "head_templates": [
+            {
+              "name": "ms-noun",
+              "args": {},
+              "expansion": "tak (plural tak-tak)"
+            }
+          ],
+          "forms": [
+            {
+              "form": "tak-tak",
+              "tags": [
+                "plural"
+              ]
+            }
+          ],
+          "etymology_number": "2",
+          "word": "tak",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "sounds": [
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "/ˈtak/"
+            },
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "[ˈt̪aʔ]"
+            },
+            {
+              "rhymes": "-aʔ"
+            }
+          ],
+          "hyphenations": [
+            {
+              "parts": [
+                "tak"
+              ]
+            }
+          ],
+          "senses": [
+            {
+              "glosses": [
+                "A sound like the sound of someone knocking something like wood with a stone."
+              ],
+              "tags": [
+                "informal"
+              ],
+              "id": "en-tak-ms-noun-svyBTy0d"
+            }
+          ]
+        }
+      ],
+      "nak": [
+        {
+          "pos": "prep",
+          "head_templates": [
+            {
+              "name": "ms-prep",
+              "args": {
+                "j": "نق"
+              },
+              "expansion": "nak (Jawi spelling نق)"
+            }
+          ],
+          "forms": [
+            {
+              "form": "نق",
+              "tags": [
+                "Jawi"
+              ]
+            },
+            {
+              "form": "na'",
+              "tags": [
+                "alternative",
+                "obsolete"
+              ]
+            }
+          ],
+          "etymology_number": "1",
+          "etymology_text": "Contraction of hendak (“to, for”).",
+          "etymology_links": [
+            [
+              "hendak",
+              "hendak#Malay"
+            ],
+            [
+              "to",
+              "to"
+            ],
+            [
+              "for",
+              "for"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "contraction",
+              "args": {
+                "1": "ms",
+                "2": "hendak",
+                "t": "to, for"
+              },
+              "expansion": "Contraction of hendak (“to, for”)"
+            }
+          ],
+          "word": "nak",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "sounds": [
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "/ˈnak/"
+            },
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "[ˈnaʔ]"
+            },
+            {
+              "rhymes": "-aʔ"
+            }
+          ],
+          "hyphenations": [
+            {
+              "parts": [
+                "nak"
+              ]
+            }
+          ],
+          "senses": [
+            {
+              "examples": [
+                {
+                  "text": "duit nak bayar hutang",
+                  "bold_text_offsets": [
+                    [
+                      5,
+                      8
+                    ]
+                  ],
+                  "translation": "money for paying off debt",
+                  "english": "money for paying off debt",
+                  "bold_translation_offsets": [
+                    [
+                      6,
+                      9
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "links": [
+                [
+                  "hendak",
+                  "hendak#Malay"
+                ]
+              ],
+              "raw_glosses": [
+                "(informal, Malaysia) contraction of hendak (“to; for”)"
+              ],
+              "glosses": [
+                "contraction of hendak (“to; for”)"
+              ],
+              "tags": [
+                "Malaysia",
+                "abbreviation",
+                "alt-of",
+                "contraction",
+                "informal"
+              ],
+              "alt_of": [
+                {
+                  "word": "hendak",
+                  "extra": "to; for"
+                }
+              ],
+              "id": "en-nak-ms-prep-b6hw04QE",
+              "categories": [
+                {
+                  "name": "Malaysian Malay",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "33 37 30"
+                },
+                {
+                  "name": "Malay prepositions",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "52 48"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pos": "verb",
+          "head_templates": [
+            {
+              "name": "ms-verb",
+              "args": {
+                "j": "نق"
+              },
+              "expansion": "nak (Jawi spelling نق)"
+            }
+          ],
+          "forms": [
+            {
+              "form": "نق",
+              "tags": [
+                "Jawi"
+              ]
+            },
+            {
+              "form": "na'",
+              "tags": [
+                "alternative",
+                "obsolete"
+              ]
+            }
+          ],
+          "etymology_number": "1",
+          "etymology_text": "Contraction of hendak (“to, for”).",
+          "etymology_links": [
+            [
+              "hendak",
+              "hendak#Malay"
+            ],
+            [
+              "to",
+              "to"
+            ],
+            [
+              "for",
+              "for"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "contraction",
+              "args": {
+                "1": "ms",
+                "2": "hendak",
+                "t": "to, for"
+              },
+              "expansion": "Contraction of hendak (“to, for”)"
+            }
+          ],
+          "word": "nak",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "sounds": [
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "/ˈnak/"
+            },
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "[ˈnaʔ]"
+            },
+            {
+              "rhymes": "-aʔ"
+            }
+          ],
+          "hyphenations": [
+            {
+              "parts": [
+                "nak"
+              ]
+            }
+          ],
+          "senses": [
+            {
+              "examples": [
+                {
+                  "text": "Saya nak ke tandas sebentar.",
+                  "bold_text_offsets": [
+                    [
+                      5,
+                      8
+                    ]
+                  ],
+                  "translation": "I want to go to the bathroom for a bit.",
+                  "english": "I want to go to the bathroom for a bit.",
+                  "bold_translation_offsets": [
+                    [
+                      2,
+                      6
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "links": [
+                [
+                  "hendak",
+                  "hendak#Malay"
+                ]
+              ],
+              "raw_glosses": [
+                "(informal, Malaysia, modal auxiliary) contraction of hendak (“going to; want”)"
+              ],
+              "glosses": [
+                "contraction of hendak (“going to; want”)"
+              ],
+              "tags": [
+                "Malaysia",
+                "abbreviation",
+                "alt-of",
+                "auxiliary",
+                "contraction",
+                "informal",
+                "modal"
+              ],
+              "alt_of": [
+                {
+                  "word": "hendak",
+                  "extra": "going to; want"
+                }
+              ],
+              "id": "en-nak-ms-verb-HuuegpSB",
+              "categories": [
+                {
+                  "name": "Malaysian Malay",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "33 37 30"
+                },
+                {
+                  "name": "Malay prepositions",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "52 48"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pos": "noun",
+          "head_templates": [
+            {
+              "name": "ms-noun",
+              "args": {
+                "j": "نق",
+                "pl": "-"
+              },
+              "expansion": "nak (Jawi spelling نق, uncountable)"
+            }
+          ],
+          "forms": [
+            {
+              "form": "نق",
+              "tags": [
+                "Jawi"
+              ]
+            },
+            {
+              "form": "na'",
+              "tags": [
+                "alternative",
+                "obsolete"
+              ]
+            }
+          ],
+          "etymology_number": "2",
+          "etymology_text": "Clipping of anak.",
+          "etymology_links": [
+            [
+              "anak",
+              "anak#Malay"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "clipping",
+              "args": {
+                "1": "ms",
+                "2": "anak"
+              },
+              "expansion": "Clipping of anak"
+            }
+          ],
+          "word": "nak",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "sounds": [
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "/ˈnak/"
+            },
+            {
+              "note": "schwa-variety, /a/-variety, Literary Standard",
+              "ipa": "[ˈnaʔ]"
+            },
+            {
+              "rhymes": "-aʔ"
+            }
+          ],
+          "hyphenations": [
+            {
+              "parts": [
+                "nak"
+              ]
+            }
+          ],
+          "senses": [
+            {
+              "examples": [
+                {
+                  "text": "Ingatlah pesan mak ayah kamu, nak.",
+                  "bold_text_offsets": [
+                    [
+                      30,
+                      33
+                    ]
+                  ],
+                  "translation": "Remember your parents' advice, young one.",
+                  "english": "Remember your parents' advice, young one.",
+                  "bold_translation_offsets": [
+                    [
+                      31,
+                      40
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "links": [
+                [
+                  "term",
+                  "term#English"
+                ],
+                [
+                  "address",
+                  "address#English"
+                ],
+                [
+                  "noticeably",
+                  "noticeably#English"
+                ],
+                [
+                  "young",
+                  "young#English"
+                ]
+              ],
+              "glosses": [
+                "A term of address for someone noticeably younger."
+              ],
+              "tags": [
+                "uncountable"
+              ],
+              "id": "en-nak-ms-noun-W5uo83F0",
+              "categories": [
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "33 37 30"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "kat": [
+        {
+          "pos": "prep",
+          "head_templates": [
+            {
+              "name": "ms-prep",
+              "args": {},
+              "expansion": "kat"
+            }
+          ],
+          "etymology_text": "Clipping of dekat.",
+          "etymology_links": [
+            [
+              "dekat",
+              "dekat#Malay"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "clipping",
+              "args": {
+                "1": "ms",
+                "2": "dekat"
+              },
+              "expansion": "Clipping of dekat"
+            }
+          ],
+          "sounds": [
+            {
+              "ipa": "[kat]"
+            },
+            {
+              "audio": "LL-Q9237 (msa)-GinormousBuildings-kat-kad.wav",
+              "tags": [
+                "Malaysia"
+              ],
+              "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/LL-Q9237_%28msa%29-GinormousBuildings-kat-kad.wav/LL-Q9237_%28msa%29-GinormousBuildings-kat-kad.wav.ogg",
+              "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/LL-Q9237_%28msa%29-GinormousBuildings-kat-kad.wav/LL-Q9237_%28msa%29-GinormousBuildings-kat-kad.wav.mp3"
+            },
+            {
+              "rhymes": "-at"
+            }
+          ],
+          "hyphenations": [
+            {
+              "parts": [
+                "kat"
+              ]
+            }
+          ],
+          "word": "kat",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "senses": [
+            {
+              "examples": [
+                {
+                  "text": "Aku ada kat rumah sekarang.",
+                  "bold_text_offsets": [
+                    [
+                      8,
+                      11
+                    ]
+                  ],
+                  "translation": "I am at home right now.",
+                  "english": "I am at home right now.",
+                  "bold_translation_offsets": [
+                    [
+                      5,
+                      7
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "synonyms": [
+                {
+                  "word": "di"
+                }
+              ],
+              "raw_glosses": [
+                "(colloquial) At, in, or on; used to indicate a location, position, or point in time."
+              ],
+              "glosses": [
+                "At, in, or on; used to indicate a location, position, or point in time."
+              ],
+              "tags": [
+                "Malaysia",
+                "colloquial"
+              ],
+              "id": "en-kat-ms-prep-ZlLLyZc~",
+              "categories": [
+                {
+                  "name": "Pages with 25 entries",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "0 0 2 0 1 4 1 3 7 1 8 1 3 1 0 2 1 0 10 3 2 7 4 3 0 1 7 2 1 1 11 5 6 0 0 1 1"
+                },
+                {
+                  "name": "Pages with entries",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "0 0 3 0 0 4 1 4 8 0 7 0 3 0 0 2 0 0 11 3 1 7 5 4 0 1 7 1 1 1 12 5 6 0 0 1 0"
+                },
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "29 10 4 20 18 12 1 5"
+                },
+                {
+                  "name": "Malay prepositions",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "11 13 12 12 17 11 6 18"
+                }
+              ]
+            },
+            {
+              "examples": [
+                {
+                  "text": "Bagi buku ni kat dia.",
+                  "bold_text_offsets": [
+                    [
+                      13,
+                      16
+                    ]
+                  ],
+                  "translation": "Give this book to him/her.",
+                  "english": "Give this book to him/her.",
+                  "bold_translation_offsets": [
+                    [
+                      15,
+                      17
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "synonyms": [
+                {
+                  "word": "pada"
+                },
+                {
+                  "word": "ke"
+                },
+                {
+                  "word": "kepada"
+                }
+              ],
+              "raw_glosses": [
+                "(colloquial) To or toward; used to mark a spatial goal, destination, or recipient."
+              ],
+              "glosses": [
+                "To or toward; used to mark a spatial goal, destination, or recipient."
+              ],
+              "tags": [
+                "Malaysia",
+                "colloquial"
+              ],
+              "id": "en-kat-ms-prep-QOVlO1JF",
+              "categories": [
+                {
+                  "name": "Malay prepositions",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "11 13 12 12 17 11 6 18"
+                }
+              ]
+            },
+            {
+              "examples": [
+                {
+                  "text": "Jangan tengok kat sana.",
+                  "bold_text_offsets": [
+                    [
+                      14,
+                      17
+                    ]
+                  ],
+                  "translation": "Don't look over there.",
+                  "english": "Don't look over there.",
+                  "bold_translation_offsets": [
+                    [
+                      11,
+                      15
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "synonyms": [
+                {
+                  "word": "ke"
+                }
+              ],
+              "raw_glosses": [
+                "(colloquial) Toward; used to indicate a direction of movement or focus."
+              ],
+              "glosses": [
+                "Toward; used to indicate a direction of movement or focus."
+              ],
+              "tags": [
+                "Malaysia",
+                "colloquial"
+              ],
+              "id": "en-kat-ms-prep-cnkIl3oB",
+              "categories": [
+                {
+                  "name": "Malay prepositions",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "11 13 12 12 17 11 6 18"
+                }
+              ]
+            },
+            {
+              "examples": [
+                {
+                  "text": "Saya ambil kat meja tadi.",
+                  "bold_text_offsets": [
+                    [
+                      11,
+                      14
+                    ]
+                  ],
+                  "translation": "I took it from the table just now.",
+                  "english": "I took it from the table just now.",
+                  "bold_translation_offsets": [
+                    [
+                      10,
+                      14
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "synonyms": [
+                {
+                  "word": "dari"
+                }
+              ],
+              "raw_glosses": [
+                "(colloquial) From; used to indicate a physical point of origin."
+              ],
+              "glosses": [
+                "From; used to indicate a physical point of origin."
+              ],
+              "tags": [
+                "Malaysia",
+                "colloquial"
+              ],
+              "id": "en-kat-ms-prep-UVSioOYD",
+              "categories": [
+                {
+                  "name": "Malay prepositions",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "11 13 12 12 17 11 6 18"
+                }
+              ]
+            },
+            {
+              "examples": [
+                {
+                  "text": "Dengar cerita kat siapa tadi?",
+                  "bold_text_offsets": [
+                    [
+                      14,
+                      17
+                    ]
+                  ],
+                  "translation": "Who did you hear that story from?",
+                  "english": "Who did you hear that story from?",
+                  "bold_translation_offsets": [
+                    [
+                      28,
+                      32
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "synonyms": [
+                {
+                  "word": "dari"
+                },
+                {
+                  "word": "sama"
+                }
+              ],
+              "raw_glosses": [
+                "(colloquial) From; used to indicate a person or entity as a source of information."
+              ],
+              "glosses": [
+                "From; used to indicate a person or entity as a source of information."
+              ],
+              "tags": [
+                "Malaysia",
+                "colloquial"
+              ],
+              "id": "en-kat-ms-prep-20xDoZfK",
+              "categories": [
+                {
+                  "name": "Malay prepositions",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "11 13 12 12 17 11 6 18"
+                },
+                {
+                  "name": "Malaysian Malay",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "12 10 13 9 34 6 1 14"
+                }
+              ]
+            },
+            {
+              "examples": [
+                {
+                  "text": "Dia masih marah kat aku.",
+                  "bold_text_offsets": [
+                    [
+                      16,
+                      19
+                    ]
+                  ],
+                  "translation": "She is still angry with (at) me.",
+                  "english": "She is still angry with (at) me.",
+                  "bold_translation_offsets": [
+                    [
+                      19,
+                      23
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "synonyms": [
+                {
+                  "word": "pada"
+                },
+                {
+                  "word": "terhadap"
+                },
+                {
+                  "word": "sama"
+                }
+              ],
+              "raw_glosses": [
+                "(colloquial) On, toward, or regarding; marks the object of an emotional or psychological attitude."
+              ],
+              "glosses": [
+                "On, toward, or regarding; marks the object of an emotional or psychological attitude."
+              ],
+              "tags": [
+                "Malaysia",
+                "colloquial"
+              ],
+              "id": "en-kat-ms-prep-YE2XU19P",
+              "categories": [
+                {
+                  "name": "Malay prepositions",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "11 13 12 12 17 11 6 18"
+                }
+              ]
+            },
+            {
+              "examples": [
+                {
+                  "text": "Makanan aku kena makan kat kucing.",
+                  "bold_text_offsets": [
+                    [
+                      23,
+                      26
+                    ]
+                  ],
+                  "translation": "My food got eaten by a cat.",
+                  "english": "My food got eaten by a cat.",
+                  "bold_translation_offsets": [
+                    [
+                      18,
+                      20
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "synonyms": [
+                {
+                  "word": "dek"
+                }
+              ],
+              "raw_glosses": [
+                "(colloquial) By; marks the agent performing the action in passive clauses."
+              ],
+              "glosses": [
+                "By; marks the agent performing the action in passive clauses."
+              ],
+              "tags": [
+                "Malaysia",
+                "colloquial"
+              ],
+              "id": "en-kat-ms-prep-G716HTbV",
+              "categories": []
+            },
+            {
+              "examples": [
+                {
+                  "text": "Jangan pukul kat anjing tu!",
+                  "bold_text_offsets": [
+                    [
+                      13,
+                      16
+                    ]
+                  ],
+                  "translation": "Don't hit that dog!",
+                  "english": "Don't hit that dog!",
+                  "bold_translation_offsets": [
+                    [
+                      6,
+                      9
+                    ]
+                  ],
+                  "type": "example"
+                }
+              ],
+              "raw_glosses": [
+                "(colloquial) Used to mark the direct object or patient that receives the direct physical impact of an action."
+              ],
+              "glosses": [
+                "Used to mark the direct object or patient that receives the direct physical impact of an action."
+              ],
+              "tags": [
+                "Malaysia",
+                "colloquial"
+              ],
+              "id": "en-kat-ms-prep-C5A1dyCM",
+              "categories": [
+                {
+                  "name": "Malay prepositions",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w+disamb",
+                  "_dis": "11 13 12 12 17 11 6 18"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "diorang": [
+        {
+          "pos": "pron",
+          "head_templates": [
+            {
+              "name": "ms-pronoun",
+              "args": {},
+              "expansion": "diorang"
+            }
+          ],
+          "etymology_text": "Contraction of dia orang.",
+          "etymology_links": [
+            [
+              "dia orang",
+              "dia orang#Malay"
+            ]
+          ],
+          "etymology_templates": [
+            {
+              "name": "contraction",
+              "args": {
+                "1": "ms",
+                "2": "dia orang"
+              },
+              "expansion": "Contraction of dia orang"
+            }
+          ],
+          "sounds": [
+            {
+              "ipa": "/diˈoraŋ/"
+            },
+            {
+              "ipa": "[diˈʔo.raŋ]"
+            }
+          ],
+          "word": "diorang",
+          "lang": "Malay",
+          "lang_code": "ms",
+          "senses": [
+            {
+              "examples": [
+                {
+                  "text": "Dan apa bila diorang soedah melihat bintang itoe, maka soekalah ija dengan kasoekaän yang amat besar.",
+                  "ref": "1816, Indjil jang tersoerat oleh Mataj [Gospel of Matthew], FASAL JANG KA II, page 5:",
+                  "english": "And when they saw the star, they rejoiced with exceeding great joy.",
+                  "type": "quotation",
+                  "translation": "And when they saw the star, they rejoiced with exceeding great joy.",
+                  "bold_text_offsets": [
+                    [
+                      13,
+                      20
+                    ]
+                  ],
+                  "bold_translation_offsets": [
+                    [
+                      9,
+                      13
+                    ],
+                    [
+                      28,
+                      32
+                    ]
+                  ]
+                }
+              ],
+              "links": [
+                [
+                  "they",
+                  "they"
+                ],
+                [
+                  "them",
+                  "them"
+                ],
+                [
+                  "their",
+                  "their"
+                ]
+              ],
+              "raw_glosses": [
+                "(informal) they; them; their"
+              ],
+              "glosses": [
+                "they; them; their"
+              ],
+              "tags": [
+                "informal"
+              ],
+              "id": "en-diorang-ms-pron-y987mDaT",
+              "categories": [
+                {
+                  "name": "Malay entries with incorrect language header",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Malay pronouns",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages with 1 entry",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                },
+                {
+                  "name": "Pages with entries",
+                  "kind": "other",
+                  "parents": [],
+                  "source": "w"
+                }
+              ],
+              "synonyms": [
+                {
+                  "word": "depa"
+                },
+                {
+                  "word": "dia orang"
+                },
+                {
+                  "word": "mereka"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "frequency": {
+    "opensubtitles_frequency_ms_full.txt": {
+      "rows": 106821,
+      "unique_exact": 106821,
+      "occurrences": 11054078,
+      "top10": [
+        [
+          "saya",
+          "386821"
+        ],
+        [
+          "yang",
+          "253087"
+        ],
+        [
+          "aku",
+          "209980"
+        ],
+        [
+          "dia",
+          "175687"
+        ],
+        [
+          "awak",
+          "175660"
+        ],
+        [
+          "kau",
+          "159596"
+        ],
+        [
+          "ini",
+          "149318"
+        ],
+        [
+          "di",
+          "148161"
+        ],
+        [
+          "tak",
+          "146394"
+        ],
+        [
+          "dan",
+          "145662"
+        ]
+      ],
+      "rank_probes": {
+        "tak": 9,
+        "nak": 35,
+        "kat": 517,
+        "diorang": 3662
+      },
+      "top_token_coverage": {
+        "4000": {
+          "occurrences": 9947468,
+          "pct": 89.98912437563766
+        },
+        "5000": {
+          "occurrences": 10110605,
+          "pct": 91.46493267009696
+        },
+        "12000": {
+          "occurrences": 10605696,
+          "pct": 95.943741305245
+        },
+        "15000": {
+          "occurrences": 10696784,
+          "pct": 96.7677629920831
+        }
+      }
+    },
+    "opensubtitles_frequency_ms_50k.txt": {
+      "rows": 50000,
+      "unique_exact": 50000,
+      "occurrences": 10982935,
+      "top10": [
+        [
+          "saya",
+          "386821"
+        ],
+        [
+          "yang",
+          "253087"
+        ],
+        [
+          "aku",
+          "209980"
+        ],
+        [
+          "dia",
+          "175687"
+        ],
+        [
+          "awak",
+          "175660"
+        ],
+        [
+          "kau",
+          "159596"
+        ],
+        [
+          "ini",
+          "149318"
+        ],
+        [
+          "di",
+          "148161"
+        ],
+        [
+          "tak",
+          "146394"
+        ],
+        [
+          "dan",
+          "145662"
+        ]
+      ],
+      "rank_probes": {
+        "tak": 9,
+        "nak": 35,
+        "kat": 517,
+        "diorang": 3662
+      },
+      "top_token_coverage": {
+        "4000": {
+          "occurrences": 9947468,
+          "pct": 90.57203743808007
+        },
+        "5000": {
+          "occurrences": 10110605,
+          "pct": 92.05740542031798
+        },
+        "12000": {
+          "occurrences": 10605696,
+          "pct": 96.56522596191273
+        },
+        "15000": {
+          "occurrences": 10696784,
+          "pct": 97.39458532714616
+        }
+      }
+    }
+  },
+  "parquet": {
+    "entries-ms.parquet": {
+      "rows": 17485,
+      "schema": "entry_id: string\nword: string\nlang: string\npos: string\nipa: list<element: string>\n  child 0, element: string\nglosses: list<element: string>\n  child 0, element: string\ntags: list<element: string>\n  child 0, element: string\ntopics: list<element: string>\n  child 0, element: string\nforms: list<element: string>\n  child 0, element: string\naudio_urls: list<element: string>\n  child 0, element: string\netymology_text: string\nwikt_url: string\nsource: string",
+      "first_two": [
+        {
+          "entry_id": "d2845454d5d8fecf",
+          "word": "cat",
+          "lang": "ms",
+          "pos": "noun",
+          "ipa": [
+            "/ˈt͡ʃat/",
+            "[ˈt͡ʃat̪̚]"
+          ],
+          "glosses": [
+            "paint (substance)"
+          ],
+          "tags": [
+            "uncountable"
+          ],
+          "topics": [],
+          "forms": [
+            "چت\tJawi"
+          ],
+          "audio_urls": [
+            "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Ms-MY-cat.ogg/Ms-MY-cat.ogg.mp3"
+          ],
+          "etymology_text": "Borrowed from Hokkien 漆 (chhat).",
+          "wikt_url": "",
+          "source": "https://kaikki.org/dictionary/Malay/kaikki.org-dictionary-Malay.jsonl"
+        },
+        {
+          "entry_id": "379df16d5de62b7e",
+          "word": "gratis",
+          "lang": "ms",
+          "pos": "adj",
+          "ipa": [
+            "/ˈɡratis/",
+            "[ˈɡra.t̪is]"
+          ],
+          "glosses": [
+            "free, without charge"
+          ],
+          "tags": [
+            "Indonesia"
+          ],
+          "topics": [],
+          "forms": [
+            "ݢراتيس\tJawi",
+            "lebih gratis\tcomparative",
+            "paling gratis\tsuperlative"
+          ],
+          "audio_urls": [],
+          "etymology_text": "From Dutch gratis, from Latin grātīs, contraction of grātiīs.",
+          "wikt_url": "",
+          "source": "https://kaikki.org/dictionary/Malay/kaikki.org-dictionary-Malay.jsonl"
+        }
+      ],
+      "nonempty_by_column": {
+        "entry_id": 17485,
+        "word": 17485,
+        "lang": 17485,
+        "pos": 17485,
+        "ipa": 9425,
+        "glosses": 17481,
+        "tags": 9436,
+        "topics": 1253,
+        "forms": 13702,
+        "audio_urls": 912,
+        "etymology_text": 9679,
+        "wikt_url": 0,
+        "source": 17485
+      },
+      "unique_word": 15619,
+      "unique_entry_id": 17485,
+      "unique_source": 1,
+      "distribution_source": {
+        "https://kaikki.org/dictionary/Malay/kaikki.org-dictionary-Malay.jsonl": 17485
+      },
+      "unique_lang": 1,
+      "distribution_lang": {
+        "ms": 17485
+      },
+      "unique_pos": 25,
+      "distribution_pos": {
+        "noun": 9451,
+        "adj": 1899,
+        "character": 95,
+        "name": 889,
+        "prefix": 87,
+        "verb": 3319,
+        "adv": 426,
+        "pron": 164,
+        "classifier": 50,
+        "intj": 194,
+        "particle": 33,
+        "det": 38,
+        "conj": 134,
+        "suffix": 78,
+        "prep": 130,
+        "num": 349,
+        "article": 5,
+        "phrase": 57,
+        "symbol": 2,
+        "infix": 5,
+        "punct": 3,
+        "root": 6,
+        "circumfix": 11,
+        "prep_phrase": 23,
+        "proverb": 37
+      }
+    },
+    "wordnet-ms.parquet": {
+      "rows": 105028,
+      "schema": "synset: string\nword: string\nlang: string\nrole: string\nvalue: string",
+      "first_two": [
+        {
+          "synset": "00001740-a",
+          "word": "berdaya",
+          "lang": "ms",
+          "role": "lemma",
+          "value": "berdaya"
+        },
+        {
+          "synset": "00001740-a",
+          "word": "keahlian",
+          "lang": "ms",
+          "role": "lemma",
+          "value": "keahlian"
+        }
+      ],
+      "nonempty_by_column": {
+        "synset": 105028,
+        "word": 105028,
+        "lang": 105028,
+        "role": 105028,
+        "value": 105028
+      },
+      "unique_word": 33932,
+      "unique_synset": 36911,
+      "unique_lang": 1,
+      "distribution_lang": {
+        "ms": 105028
+      },
+      "unique_role": 1,
+      "distribution_role": {
+        "lemma": 105028
+      }
+    }
+  },
+  "dict_static": {
+    "search_index_records": 25006,
+    "shards": 27,
+    "shard_counts": {
+      "a.json": 1748,
+      "b.json": 1486,
+      "c.json": 2741,
+      "d.json": 1483,
+      "e.json": 1103,
+      "f.json": 985,
+      "g.json": 937,
+      "h.json": 990,
+      "i.json": 828,
+      "j.json": 219,
+      "k.json": 285,
+      "l.json": 812,
+      "m.json": 1614,
+      "n.json": 539,
+      "o.json": 652,
+      "other.json": 1,
+      "p.json": 2186,
+      "q.json": 158,
+      "r.json": 1028,
+      "s.json": 2508,
+      "t.json": 1360,
+      "u.json": 276,
+      "v.json": 429,
+      "w.json": 465,
+      "x.json": 16,
+      "y.json": 83,
+      "z.json": 74
+    },
+    "detail_records": 25006,
+    "unique_headwords": 25006,
+    "sense_objects": 58574,
+    "missing_from_details": [],
+    "extra_in_details": [],
+    "duplicate_detail_words": 0
+  }
+}

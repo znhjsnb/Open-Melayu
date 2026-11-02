@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "berada",
+    "syllables": "be.ra.da",
+    "ipa": "[bəˈra.da]",
+    "jawi": "براد",
+    "frequency_rank": 128,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ada",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + ada → berada",
+    "pattern_note": "ber- 接元音开头的 ada，保留 r；音节按 PRPM 字段写 be.ra.da，不能把这个分节误当成词根切分。词尾文读 /a/，半岛南部亦读 /ə/。",
+    "word_family": [
+      {
+        "word": "ada",
+        "affix": "∅",
+        "gloss": "有；存在；在"
+      },
+      {
+        "word": "keberadaan",
+        "affix": "ke-…-an（接 berada）",
+        "gloss": "存在；所在情况"
+      },
+      {
+        "word": "mengadakan",
+        "affix": "meN-…-kan（接 ada）",
+        "gloss": "举办；设立；提供"
+      },
+      {
+        "word": "keadaan",
+        "affix": "ke-…-an（接 ada）",
+        "gloss": "情况；状态"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "位于；身处；处于某个地点、位置或状态。",
+      "ms_definition": "ada (di), ada atau terdapat di sesuatu tempat atau dlm sesuatu keadaan",
+      "nuances": "通常接 di、dalam 等引出的地点或状态。berada di rumah 是‘在家’，berada dalam keadaan baik 是‘状况良好’；不能把 berada 当英语 be，随意接任何名词或形容词。口语定位常直接用 ada。",
+      "collocations": [
+        {
+          "ms": "berada di rumah",
+          "zh": "在家",
+          "en": "be at home"
+        },
+        {
+          "ms": "berada dalam keadaan baik",
+          "zh": "处于良好状态",
+          "en": "be in good condition"
+        }
+      ],
+      "en_definition": "To be in a particular place, position, or state."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "富裕的；家境殷实的。",
+      "ms_definition": "berharta, kaya",
+      "nuances": "常在 orang berada、keluarga berada 等名词短语中出现。anak orang berada 指富裕人家的孩子，不是‘在场的人的孩子’；依句法和语境判断。",
+      "collocations": [
+        {
+          "ms": "orang berada",
+          "zh": "有钱人；富裕人士",
+          "en": "a wealthy person"
+        },
+        {
+          "ms": "keluarga berada",
+          "zh": "富裕家庭",
+          "en": "a well-off family"
+        }
+      ],
+      "en_definition": "Wealthy; well-off."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／疏散情况报道（自拟例句）",
+      "ms": "Semua penduduk yang dipindahkan kini berada di pusat pemindahan sementara.",
+      "zh": "所有被疏散的居民目前都在临时疏散中心。",
+      "en": "All evacuated residents are now at the temporary evacuation centre."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约在店门口碰面，通过消息确认位置",
+      "ms_spoken": "Saya dah ada kat depan kedai ni. Awak kat mana?",
+      "ms_standard": "Saya sudah berada di hadapan kedai ini. Awak berada di mana?",
+      "zh": "我已经在这家店前面了。你在哪儿？",
+      "spoken_features": [
+        "这里示范 berada 的位置义如何自然转为口语：ada kat 对应 berada di；ada 并非 berada 的短信缩写。",
+        "Awak kat mana? 和 Saya kat belakang kedai 都省略位置动词，标准语补回 berada。",
+        "dah 对应 sudah，kat 对应 di，ni 对应 ini，je 对应 sahaja。",
+        "tempat parking 是常见的英语夹用，标准语为 tempat letak kereta；patutlah 在此表示得知原因后的‘难怪’。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aisyah (朋友)",
+          "ms_spoken": "Saya dah ada kat depan kedai ni. Awak kat mana?",
+          "ms_standard": "Saya sudah berada di hadapan kedai ini. Awak berada di mana?",
+          "zh": "我已经在这家店前面了。你在哪儿？",
+          "en": "I'm already out front of the shop. Where are you?"
+        },
+        {
+          "speaker": "Mira (朋友)",
+          "ms_spoken": "Saya kat belakang kedai, dekat tempat parking. Salah pintu rupanya.",
+          "ms_standard": "Saya berada di belakang kedai, berhampiran tempat letak kereta. Rupa-rupanya saya tersilap pintu.",
+          "zh": "我在店后面，靠近停车的地方。原来我走错门了。",
+          "en": "I'm behind the shop, near the parking area. Turns out I went to the wrong entrance."
+        },
+        {
+          "speaker": "Aisyah (朋友)",
+          "ms_spoken": "Patutlah tak nampak. Tunggu situ je, saya datang.",
+          "ms_standard": "Patutlah saya tidak nampak awak. Tunggu sahaja di situ. Saya akan datang ke tempat awak.",
+          "zh": "难怪没看到你。就在那儿等着吧，我过去。",
+          "en": "No wonder I couldn't see you. Just wait there. I'll come over."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "berada 常见于新闻、通告和清楚交代位置的表达；朋友聊天用 ada di／ada kat 更轻松。初次联络可用 saya 和合适称谓，awak 的合适程度取决于关系及地方习惯。",
+    "usage_etiquette": "询问实时位置应说明实际需要，尊重对方不分享位置的选择。orang berada 是财富描述，谈援助或资格时应以相关资料为准，不凭穿着、族群或姓氏判断家境。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语（南岛语系）",
+    "root_origin": "马来语内部构词 ber- + ada；不是一个不可分析的外来整词。",
+    "historical_story": "berada 的形成可以直接从马来语自己的构词看出来：ada 表示‘有、存在’，加上 ber-，便形成表达所在位置或状态的词。在现代用法里，一边是身处某地的 berada di，一边是表示家境殷实的 orang berada；同一个‘有’字观念，连接了位置与财产两幅画面。",
+    "cognitive_memory_aid": "ber- + ada：先记‘有其所在’，berada di mana 问‘在哪里’；再记 orang berada 为‘有家底的人’。这是记忆联想，不是额外的历史词源。"
+  }
+}

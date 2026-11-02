@@ -1,0 +1,105 @@
+{
+  "headword": {
+    "word": "menendang",
+    "syllables": "me.nen.dang",
+    "ipa": "[mə.nən.daŋ]",
+    "jawi": "منندڠ",
+    "frequency_rank": 2880,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tendang",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + tendang → menendang",
+    "pattern_note": "meN- 接以 t 开头的本族词根时，通常发生鼻音替换：t 脱落，由 n 承接，因此不是 mentendang。输入包将 menendang 标为词根有误；依据 DBP 词族校正为 tendang。",
+    "word_family": [
+      {
+        "word": "tendangan",
+        "affix": "-an",
+        "gloss": "踢击；一脚射门"
+      },
+      {
+        "word": "penendang",
+        "affix": "peN-",
+        "gloss": "踢球者；踢击者"
+      }
+    ],
+    "root_jawi": "تندڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用脚踢击某人或某物，使其受到冲击或发生移动。",
+      "en_definition": "To strike someone or something with the foot; to kick.",
+      "ms_definition": "Menyepak, mendepak, menerajang.",
+      "nuances": "本义指脚部的踢击动作，常见于运动和动作描写；menendang bola 不一定表示射门，也可能是传球或解围。口语中可省略 meN- 而使用 tendang，正式主动句通常使用 menendang。参考：[DBP：tendang](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tendang)。",
+      "collocations": [
+        {
+          "ms": "menendang bola",
+          "zh": "踢球",
+          "en": "kick a ball"
+        },
+        {
+          "ms": "menendang pintu",
+          "zh": "踢门",
+          "en": "kick a door"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "体育新闻 / 比赛报道",
+      "ms": "Penyerang itu menendang bola ke penjuru kanan gawang lalu menjaringkan gol kemenangan.",
+      "zh": "那名前锋将球踢向球门右角，攻入了制胜球。",
+      "en": "The striker kicked the ball into the right-hand corner of the goal to score the winner."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈论孩子踢球",
+      "ms_spoken": "Adik aku asyik menendang bola kat dinding je.",
+      "ms_standard": "Adik saya asyik menendang bola ke arah dinding sahaja.",
+      "zh": "我弟弟老是对着墙踢球。",
+      "en": "My little brother keeps kicking the ball against the wall.",
+      "spoken_features": [
+        "aku 用于熟人交流，kat 在这里表示动作朝向的地方。",
+        "je 是 sahaja 的口语形式；asyik 配合 je 突出反复进行同一动作。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Adik aku asyik menendang bola kat dinding je.",
+          "ms_standard": "Adik saya asyik menendang bola ke arah dinding sahaja.",
+          "zh": "我弟弟老是对着墙踢球。",
+          "en": "My little brother keeps kicking the ball against the wall."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ajak dia main kat padang lah. Kat situ lagi luas.",
+          "ms_standard": "Ajaklah dia bermain di padang. Kawasan di situ lebih luas.",
+          "zh": "叫他去球场玩吧，那边宽敞些。",
+          "en": "Get him to play on the field. There's more space there."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "体育语境中属于中性动作词；若直接以对方为宾语，如 aku nak menendang kau，会被理解为威胁。",
+    "usage_etiquette": "描述比赛时可补充球的方向、力度或结果；描述人与人的冲突时，应准确区分实际踢击与带情绪的说法。"
+  },
+  "etymology": {
+    "historical_story": "menendang 是马来语词根 tendang 加主动前缀 meN- 形成的派生词，词根的 t 在构词时让位给鼻音 n。DBP 同时记录了实际踢击和比喻性驱逐的用法：用脚把东西踢开的动作，也可以成为把人排除出去的语言图像。",
+    "cognitive_memory_aid": "想象前缀 meN- 一脚“踢走” tendang 开头的 t，再用 n 补上：meN- + tendang → menendang。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "体育语境中属于中性动作词；若直接以对方为宾语，如 aku nak menendang kau，会被理解为威胁。",
+    "usage_etiquette": "描述比赛时可补充球的方向、力度或结果；描述人与人的冲突时，应准确区分实际踢击与带情绪的说法。"
+  }
+}

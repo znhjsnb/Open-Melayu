@@ -1,0 +1,141 @@
+{
+  "headword": {
+    "word": "merah",
+    "syllables": null,
+    "ipa": "/ˈmerah/",
+    "jawi": null,
+    "frequency_rank": 696,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "merah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + merah → merah",
+    "pattern_note": "独立色彩词根；e 读 /e/。meN- 遇词首 m 时采用 me- 形式，保留词根 m，如 memerahkan。PRPM 原始缓存的独立音节与 Jawi 字段均缺失，保留 null。CEFR 与用途标签为教学建议。",
+    "word_family": [
+      {
+        "word": "memerah",
+        "affix": "meN-",
+        "gloss": "变红；泛红"
+      },
+      {
+        "word": "memerahkan",
+        "affix": "meN-…-kan",
+        "gloss": "使变红；涂红"
+      },
+      {
+        "word": "kemerahan",
+        "affix": "ke-…-an",
+        "gloss": "发红的状态"
+      },
+      {
+        "word": "kemerah-merahan",
+        "affix": "ke-…-an + 重叠",
+        "gloss": "略红；带红色的"
+      },
+      {
+        "word": "pemerah",
+        "affix": "peN-",
+        "gloss": "使物体变红的材料或用品"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "红的；红色，像血一样的颜色。",
+      "ms_definition": "warna spt warna darah",
+      "nuances": "采用 raw_definitions 中的 Kamus Dewan 颜色义；缓存的首个 kamus_dewan 字段实际是同形的古代称号义。merah jambu 是粉红色，merah tua 是深红色；muka merah 可描述脸红，不能脱离语境就认定为生气。颜色词根派生的 memerah（变红）与 perah 派生的 memerah（挤压、榨取）同形，词根及 e 的读音不同。",
+      "collocations": [
+        {
+          "ms": "merah jambu",
+          "zh": "粉红色",
+          "en": "pink"
+        },
+        {
+          "ms": "lampu merah",
+          "zh": "红灯",
+          "en": "a red traffic light"
+        }
+      ],
+      "en_definition": "Red; the colour of blood."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "红鱼；若干海鱼的名称，常见于 ikan merah 等说法。",
+      "ms_definition": "sj ikan laut",
+      "nuances": "买鱼或点菜时，ikan merah 是鱼名，不只是说某条鱼颜色发红。词典列有多个种类，不能只凭这个名称确定唯一物种。",
+      "collocations": [
+        {
+          "ms": "ikan merah",
+          "zh": "红鱼",
+          "en": "red fish"
+        },
+        {
+          "ms": "sup ikan merah",
+          "zh": "红鱼汤",
+          "en": "red fish soup"
+        }
+      ],
+      "en_definition": "Any of several kinds of marine fish known as red fish."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "道路安全／新闻报道",
+      "ms": "Polis mengingatkan pengguna jalan raya supaya berhenti apabila lampu isyarat bertukar merah.",
+      "zh": "警方提醒道路使用者，交通灯转红时必须停车。",
+      "en": "Police reminded road users to stop when traffic lights turn red."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友在服装店发来照片，帮忙确认要买的衣服颜色",
+      "ms_spoken": "Aku dah jumpa baju yang kau nak. Nak yang biru ke merah?",
+      "ms_standard": "Aku sudah menemui baju yang engkau mahu. Adakah engkau mahu yang biru atau yang merah?",
+      "zh": "我找到你想要的那款衣服了。你要蓝色的还是红色的？",
+      "spoken_features": [
+        "nak 对应 mahu；ke 在两个选项之间相当于 atau。",
+        "Yang merah 省略了已知的名词 baju，表示“红色的那件”。",
+        "tu 对应 itu；lah 在这里强调已经确定的选择。",
+        "takde 对应 tiada，pulak 对应 pula，末句带熟人之间的打趣语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Lina (在店里代买的朋友)",
+          "ms_spoken": "Aku dah jumpa baju yang kau nak. Nak yang biru ke merah?",
+          "ms_standard": "Aku sudah menemui baju yang engkau mahu. Adakah engkau mahu yang biru atau yang merah?",
+          "zh": "我找到你想要的那款衣服了。你要蓝色的还是红色的？",
+          "en": "I've found the top you wanted. Do you want the blue one or the red one?"
+        },
+        {
+          "speaker": "Yana (请朋友代买的人)",
+          "ms_spoken": "Yang merah tu lah. Ambil saiz M ya. Kalau takde, jangan ambil biru pulak 😂",
+          "ms_standard": "Aku mahu yang merah itu. Tolong ambil saiz M. Jika saiz itu tiada, jangan pula mengambil yang biru.",
+          "zh": "就那件红色的啦。帮我拿 M 码哦。要是没这个码，可别拿蓝色的啊 😂",
+          "en": "The red one! Get me a medium, okay? If they don't have that size, don't go getting the blue one instead 😂"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "描述物品颜色时语气中性，适合跨族群日常及正式沟通。向店员询问可说 Ada warna merah?，无需套用族群或宗教象征。",
+    "usage_etiquette": "描述别人脸红时注意场合，避免当众追问是否害羞或生气。lobak merah 是胡萝卜；不要把所有带 merah 的固定名称逐字理解成临时颜色描述。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "南岛语系；经原始马来语传承",
+    "root_origin": "资料包追溯为 mirah ← 原始马来语 *(ma-)irah ← 原始马来－波利尼西亚语 *(ma-)iʀaq；星号表示重建形式。此词源对应颜色义。",
+    "historical_story": "merah 继承了南岛语的古老色彩词，经 mirah 等历史形式成为现代马来语的基本颜色词。词典用血来说明这种颜色，又让它出现在晚霞、花朵和成熟果实的描述中，把古老的感官经验带进今天的日常语言。现代街头的 lampu merah 则把这个老词用在了交通信号上。",
+    "cognitive_memory_aid": "想象红灯下的一件红衣服：lampu merah、baju merah；加上 jambu，就变成粉红色。"
+  }
+}

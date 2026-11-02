@@ -1,0 +1,173 @@
+{
+  "headword": {
+    "word": "maaf",
+    "syllables": null,
+    "ipa": "[ma.ʔaf]",
+    "jawi": "معاف",
+    "frequency_rank": 109,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "maaf",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + maaf → maaf",
+    "pattern_note": "现代马来语中作为完整词根，不将 ma- 误拆为马来语前缀。meN- + maaf + -kan → memaafkan，词根初始 m 保留且前缀取 me- 形式；两个 a 在所给 IPA 中由 [ʔ] 隔开。PRPM 独立音节字段为空，保留 null。",
+    "word_family": [
+      {
+        "word": "memaafi",
+        "affix": "meN-...-i（me-...-i）",
+        "gloss": "宽恕某人"
+      },
+      {
+        "word": "memaafkan",
+        "affix": "meN-...-kan（me-...-kan）",
+        "gloss": "原谅某人或某项过失"
+      },
+      {
+        "word": "bermaaf-maafan",
+        "affix": "ber-...-an + 重叠",
+        "gloss": "互相请求与给予原谅"
+      },
+      {
+        "word": "pemaaf",
+        "affix": "pe-",
+        "gloss": "宽容的人；乐于原谅的"
+      },
+      {
+        "word": "kemaafan",
+        "affix": "ke-...-an",
+        "gloss": "宽恕；获原谅的状态"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "原谅；宽恕；免于追究过失。",
+      "ms_definition": "kerelaan melepaskan atau membebaskan seseorang drpd hukuman atau denda kerana sesuatu kesalahan (kekeliruan dsb), ampun",
+      "nuances": "原义摘自所给《Kamus Dewan Edisi Keempat》，仅清除排版断字。minta maaf 是请求原谅、道歉，memberi maaf 是给予原谅，二者方向不同；日常道歉不必涉及法律处罚。",
+      "collocations": [
+        {
+          "ms": "meminta maaf",
+          "zh": "道歉；请求原谅",
+          "en": "ask for forgiveness"
+        },
+        {
+          "ms": "memberi maaf",
+          "zh": "给予原谅",
+          "en": "grant forgiveness"
+        }
+      ],
+      "en_definition": "Forgiveness or pardon for a mistake or wrongdoing."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "对不起；不好意思；用于道歉、礼貌打扰或婉拒。",
+      "ms_definition": "meminta supaya tidak dimarahi; meminta supaya dibenarkan dll",
+      "nuances": "原义摘自所给《Kamus Pelajar Edisi Kedua》第二义；日常礼貌功能兼据 Kaikki。作为独立礼貌表达，因 Schema 无 interjection 而归 particle。Maaf, boleh saya lalu? 是礼貌借过，不一定承认自己犯错。",
+      "collocations": [
+        {
+          "ms": "maaf mengganggu",
+          "zh": "不好意思打扰了",
+          "en": "sorry to bother you"
+        },
+        {
+          "ms": "maaf kerana lewat",
+          "zh": "抱歉迟到了",
+          "en": "sorry I'm late"
+        }
+      ],
+      "en_definition": "Sorry; excuse me; used to apologize, interrupt politely, or decline courteously."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "请原谅；饶了……吧（简略祈使用法）。",
+      "ms_definition": "maafkanlah; ampunilah",
+      "nuances": "原义摘自所给《Kamus Dewan Edisi Keempat》第二义。该词在此相当于 maafkanlah，常见于 maaf sahajalah 这类表达；规范陈述“我原谅他”应写 saya memaafkannya，不能直接套用英语语法写 saya maaf dia。",
+      "collocations": [
+        {
+          "ms": "maaf sahajalah",
+          "zh": "就原谅吧",
+          "en": "just forgive them"
+        },
+        {
+          "ms": "maaf sahaja budak itu",
+          "zh": "就饶了那个孩子吧",
+          "en": "just let the child off"
+        }
+      ],
+      "en_definition": "Forgive; pardon; used as a shortened imperative."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务通知／主办方声明",
+      "ms": "Pihak penganjur memohon maaf atas kesulitan yang dialami oleh para peserta berikutan penangguhan program tersebut.",
+      "zh": "活动延期给参与者造成不便，主办方对此致歉。",
+      "en": "The organisers apologise for the inconvenience experienced by participants following the postponement of the programme."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 因工作而迟回复消息，向正在等确认的朋友道歉",
+      "ms_spoken": "Maaf ya, baru nampak mesej awak. Tadi tengah kerja, tak sempat nak balas.",
+      "ms_standard": "Maaf, saya baru sahaja melihat mesej awak. Saya sedang bekerja tadi dan tidak sempat membalasnya.",
+      "zh": "不好意思啊，刚看到你的消息。刚才在工作，没来得及回。",
+      "spoken_features": [
+        "Maaf ya 中的 ya 柔化道歉语气，规范改写可直接用 Maaf。",
+        "baru nampak mesej 在这里表示刚注意到消息；口语省略主语 saya。",
+        "tengah 表示当时正在做某事，对应 sedang；tak 对应 tidak。",
+        "tak sempat nak balas 规范改写为 tidak sempat membalas，nak 不必单独译成想要。",
+        "boleh datang tak? 用句末 tak 构成是非问句；nak tempah 中的 nak 则表示想要。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nisa (朋友)",
+          "ms_spoken": "Maaf ya, baru nampak mesej awak. Tadi tengah kerja, tak sempat nak balas.",
+          "ms_standard": "Maaf, saya baru sahaja melihat mesej awak. Saya sedang bekerja tadi dan tidak sempat membalasnya.",
+          "zh": "不好意思啊，刚看到你的消息。刚才在工作，没来得及回。",
+          "en": "Sorry, I've only just seen your message. I was working earlier and didn't get a chance to reply."
+        },
+        {
+          "speaker": "Hana (朋友)",
+          "ms_spoken": "Tak apa, saya faham. Jadi malam ni awak boleh datang tak? Saya nak tempah meja.",
+          "ms_standard": "Tidak mengapa, saya faham. Jadi, bolehkah awak datang malam ini? Saya mahu menempah meja.",
+          "zh": "没关系，我理解。那你今晚能来吗？我想订位。",
+          "en": "No worries, I understand. So can you make it tonight? I want to book a table."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "maap",
+      "full_form": "maaf",
+      "note": "反映口语变音的非规范拼写；正式道歉写 maaf。"
+    },
+    {
+      "abbr": "mff",
+      "full_form": "maaf",
+      "note": "资料包提供的聊天省写候选，辨识度有限，宜仅在熟悉该写法的聊天对象间使用。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "maaf 适用于各族群日常礼貌交流；正式机构声明常用 memohon maaf atas kesulitan。严重过失应明确说明责任与补救，不能只靠一句 maaf 带过。",
+    "usage_etiquette": "不要要求受影响者立即原谅。maaf zahir dan batin 常见于马来穆斯林开斋节问候，应尊重其节庆语境；普通办事、借过或打扰时，简洁的 maaf 已足够。英语 sorry 是换语表达，不是 maaf 的字母缩写。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语；所给词源材料列古典波斯语为中介，再进入古典马来语",
+    "root_origin": "所给词源链：阿拉伯语 مُعَافًى（muʕāfan）→ 古典波斯语 مُعَاف（muʿāf）→ 古典马来语 معاف → maaf。",
+    "historical_story": "maaf 的词源材料把它连到阿拉伯语，并列出古典波斯语作为进入马来语前的中介，带来的是免除、宽宥的语义。进入马来语后，它既能用于请求原谅，也成为敲门打扰、迟到和婉拒时顺口的礼貌表达。从节庆中的互相宽恕到手机上的一句 maaf，这个借词如今已经深深融入日常人情往来。",
+    "cognitive_memory_aid": "分清两个方向：minta maaf 是向别人要原谅，memberi maaf 是把原谅给别人。"
+  }
+}

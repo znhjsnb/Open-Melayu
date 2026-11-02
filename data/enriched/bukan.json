@@ -1,0 +1,160 @@
+{
+  "headword": {
+    "word": "bukan",
+    "syllables": "bu.kan",
+    "ipa": "[ˈbu.kan]",
+    "jawi": "بوکن",
+    "frequency_rank": 43,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bukan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bukan → bukan（不是）",
+    "pattern_note": "bukan 是不可按现代词缀拆分的词根，末尾 kan 不等于后缀 -kan。bukankah 的 -kah 标记疑问，bukanlah 的 -lah 标记语气；词尾 kan 恰与口语确认词 kan 同形，不能据此随意替换整词。",
+    "word_family": [
+      {
+        "word": "bukankah",
+        "affix": "-kah（疑问附着成分）",
+        "gloss": "难道不是；不是……吗"
+      },
+      {
+        "word": "bukanlah",
+        "affix": "-lah（语气附着成分）",
+        "gloss": "并不是"
+      },
+      {
+        "word": "bukan-bukan",
+        "affix": "重叠",
+        "gloss": "不合理、荒唐的事；也可表程度甚高"
+      },
+      {
+        "word": "membukankan",
+        "affix": "meN-...-kan",
+        "gloss": "否认；驳斥"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "不是、并非；否定身份、类别、归属、对象或某种判断，也可用于纠正说法。",
+      "ms_definition": "berlain drpd yg sebenarnya; tidak benar (Kamus Pelajar Edisi Kedua)",
+      "nuances": "属于 kata nafi，主要否定名词短语和介词短语：bukan guru、bukan untuk dijual。普通动词或形容词谓语一般用 tidak；但在纠正或对比结构中也可用 bukan，如 bukan tidak mahu, tetapi tidak mampu‘不是不愿意，而是没有能力’。本材料未附独立 Kamus Dewan 定义，所引为 Kamus Pelajar。",
+      "collocations": [
+        {
+          "ms": "bukan untuk dijual",
+          "zh": "非卖品；不供出售",
+          "en": "not for sale"
+        },
+        {
+          "ms": "bukan sahaja",
+          "zh": "不但；不仅仅（常接 malah 或 tetapi juga）",
+          "en": "not only"
+        }
+      ],
+      "en_definition": "Not; used to deny or correct an identity, category, ownership or other assertion."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "对吗、不是吗；放在句末，向听者确认前面的判断。",
+      "ms_definition": "kata yg digunakan pd akhir ayat utk menanyakan benar tidaknya sesuatu (Kamus Pelajar Edisi Kedua)",
+      "nuances": "如 Awak sudah makan, bukan?‘你已经吃过了，对吗？’通常带有说话人的预期，并非完全开放的提问。口语 kan 很常见，但并非每个 kan 都能机械换回 bukan。",
+      "collocations": [
+        {
+          "ms": "betul, bukan?",
+          "zh": "是对的，不是吗？",
+          "en": "That's right, isn't it?"
+        },
+        {
+          "ms": "sudah siap, bukan?",
+          "zh": "已经准备好了，对吗？",
+          "en": "It's ready, isn't it?"
+        }
+      ],
+      "en_definition": "Used at the end of a statement to ask for confirmation: 'right?' or 'isn't that so?'"
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／政策说明",
+      "ms": "Bantuan ini bukan pinjaman dan penerima tidak perlu membayarnya semula.",
+      "zh": "这项援助不是贷款，受助者无须偿还。",
+      "en": "This assistance is not a loan, and recipients do not need to repay it."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聚会后，在群里确认遗落背包的主人",
+      "ms_spoken": "Amir, beg hitam ni awak punya ke? Tertinggal kat rumah saya.",
+      "ms_standard": "Amir, adakah beg hitam ini milik awak? Beg ini tertinggal di rumah saya.",
+      "zh": "Amir，这个黑色包是你的吗？落在我家了。",
+      "spoken_features": [
+        "bukan 在这里否定物品归属，并引出正确的主人。",
+        "awak punya、saya punya、adik saya punya 是口语所属结构，规范分别对应 milik awak、milik saya、milik adik saya。",
+        "ni、tu 分别对应 ini、itu；句尾 ke 构成口语疑问，规范表达可用 adakah。",
+        "lah 加强澄清语气；ha 在最后一轮表示认出物品后的回应。",
+        "adik 本身不区分弟妹；本对话通过说话人身份明确指弟弟。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Amir, beg hitam ni awak punya ke? Tertinggal kat rumah saya.",
+          "ms_standard": "Amir, adakah beg hitam ini milik awak? Beg ini tertinggal di rumah saya.",
+          "zh": "Amir，这个黑色包是你的吗？落在我家了。",
+          "en": "Amir, is this black bag yours? It was left at my place."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Bukan saya punya lah, beg tu adik saya punya.",
+          "ms_standard": "Beg itu bukan milik saya, tetapi milik adik saya.",
+          "zh": "不是我的啦，那个包是我弟弟的。",
+          "en": "It's not mine. It's my younger brother's."
+        },
+        {
+          "speaker": "Hakim (Amir的弟弟)",
+          "ms_spoken": "Ha, saya punya! Nanti saya datang ambil ya.",
+          "ms_standard": "Ya, beg itu milik saya! Saya akan datang mengambilnya nanti.",
+          "zh": "啊，是我的！我待会儿来拿啊。",
+          "en": "Oh, it's mine! I'll come and pick it up later, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "bkn",
+      "full_form": "bukan",
+      "note": "常见聊天省元音形式，正式书写用完整词。"
+    },
+    {
+      "abbr": "bukn",
+      "full_form": "bukan",
+      "note": "非规范聊天省写。"
+    },
+    {
+      "abbr": "bkan",
+      "full_form": "bukan",
+      "note": "非规范聊天省写；材料中的 kaga 是其他口语变体中的否定词，不是 bukan 的马来西亚缩写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "纠正陌生人或同事时可说 Maaf, bukan yang ini‘不好意思，不是这个’，并给出正确对象。反复重读 Bukan! 容易像在顶撞。",
+    "usage_etiquette": "句尾 bukan? 带有期待对方认可的意味，讨论有分歧的事情时宜给对方解释空间。涉及族群、宗教或身份时，按实际沟通需要准确描述，避免用否定身份给人贴轻蔑标签。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语（属南岛语系；更早词源未核实）",
+    "root_origin": "以马来语独立词根 bukan 记忆；所给词源字段为空。Austronesian 在此仅标语言谱系归属，不代表已证实某个原始语重构形式。",
+    "historical_story": "把马来群岛的人际交往想成一幅画面，bukan 就像一块澄清身份和归属的小牌子：‘不是这个，是那个’。现代马来语也把它放在句尾，向对方轻轻求证‘对吧’；现有材料未交代它的最早词形或两种用法的年代先后，因此不能替它编排海商借入或碑铭首见的故事。",
+    "cognitive_memory_aid": "看到身份牌先想 bukan：Dia bukan guru＝他不是老师；放到句尾则把牌翻成一个问号：对吧？"
+  }
+}

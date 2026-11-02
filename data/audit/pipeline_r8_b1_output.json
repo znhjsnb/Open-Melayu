@@ -1,0 +1,292 @@
+{
+  "laporan": {
+    "context": "WhatsApp / 同事确认报告进度和提交时间",
+    "messages": [
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Laporan tu dah siap ke? Bos nak sebelum pukul tiga.",
+        "ms_standard": "Adakah laporan itu sudah siap? Ketua mahu laporan itu diserahkan sebelum pukul tiga.",
+        "zh": "那份报告做好了吗？老板要三点前交。"
+      },
+      {
+        "speaker": "Aina (同事)",
+        "ms_spoken": "Dah, tinggal nak semak angka je. Saya hantar kat awak kejap lagi.",
+        "ms_standard": "Laporan itu sudah siap. Saya hanya perlu menyemak angka yang tercatat sebelum menghantarnya kepada awak sebentar lagi.",
+        "zh": "做好了，只剩核对数字。我一会儿发给你。"
+      },
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Okey, sempat lagi tu. Dah semak nanti, terus hantar ya.",
+        "ms_standard": "Baiklah, masih ada masa. Setelah selesai menyemaknya, sila terus hantar laporan itu.",
+        "zh": "好，那还来得及。核对完就直接发过来啊。"
+      }
+    ],
+    "spoken_features": [
+      "tu、dah、nak 分别对应 itu、sudah、hendak；je 对应 sahaja。",
+      "句末 ke 构成是非问句，标准语可还原为句首的 adakah。",
+      "hantar kat awak 中的 kat 表示接收对象，标准语用 kepada；kejap lagi 对应 sebentar lagi。",
+      "Dah 和 sempat lagi tu 都依赖上下文补足所指事项，是聊天中自然的省略。"
+    ]
+  },
+  "tingkat": {
+    "context": "WhatsApp / 朋友到达公寓后确认楼层和门牌",
+    "messages": [
+      {
+        "speaker": "Haziq (来访的朋友)",
+        "ms_spoken": "Saya dah kat tingkat lima ni. Rumah awak nombor berapa?",
+        "ms_standard": "Saya sudah berada di tingkat lima sekarang. Berapakah nombor rumah awak?",
+        "zh": "我已经在五楼了。你家几号？"
+      },
+      {
+        "speaker": "Amir (住在公寓的朋友)",
+        "ms_spoken": "5-08. Keluar lif, belok kanan je. Ada pasu besar kat depan pintu.",
+        "ms_standard": "Nombor rumah saya ialah 5-08. Selepas keluar dari lif, awak hanya perlu membelok ke kanan. Terdapat sebuah pasu besar di hadapan pintu.",
+        "zh": "5-08。出电梯右转就行，门前有个大花盆。"
+      },
+      {
+        "speaker": "Haziq (来访的朋友)",
+        "ms_spoken": "Ha, nampak dah. Saya kat luar ni, bukak pintu jap.",
+        "ms_standard": "Ya, saya sudah melihat rumah awak. Saya berada di luar sekarang. Tolong buka pintu sebentar.",
+        "zh": "啊，看到了。我在门外了，开一下门。"
+      }
+    ],
+    "spoken_features": [
+      "tingkat lima 在此表示五楼；kat 对应地点介词 di。",
+      "dah、ni、je 分别对应 sudah、ini、sahaja；ni 在这里也起提示当前状态的作用。",
+      "bukak 是 buka 的口语拼写；jap 是 sekejap 的口语短式，标准语可用 sebentar。",
+      "Ha 表示突然看到或认出目标；nampak dah 将 dah 放在动词后，突出‘已经看到了’。"
+    ]
+  },
+  "laluan": {
+    "context": "WhatsApp / 朋友提醒赴约路线临时封闭",
+    "messages": [
+      {
+        "speaker": "Nadia (先到餐馆的朋友)",
+        "ms_spoken": "Awak dah dekat ke? Laluan depan kedai tu kena tutup sebab ada kerja jalan.",
+        "ms_standard": "Adakah awak sudah hampir tiba? Laluan di hadapan kedai itu ditutup kerana terdapat kerja pembaikan jalan.",
+        "zh": "你快到了吗？店前面的通道因为修路封了。"
+      },
+      {
+        "speaker": "Lina (正在赶来的朋友)",
+        "ms_spoken": "Patutlah tak gerak langsung. Nak ikut mana ni?",
+        "ms_standard": "Patutlah kenderaan langsung tidak bergerak. Laluan manakah yang patut saya gunakan sekarang?",
+        "zh": "难怪车子完全不动。现在该走哪条路啊？"
+      },
+      {
+        "speaker": "Nadia (先到餐馆的朋友)",
+        "ms_spoken": "Ikut jalan belakang lah. Masuk simpang sebelah bank tu, nanti nampak kedai.",
+        "ms_standard": "Gunakan jalan di belakang. Belok masuk ke jalan di sebelah bank itu; selepas itu, awak akan melihat kedai tersebut.",
+        "zh": "走后面的路吧。拐进银行旁边那条路，接着就能看到店了。"
+      }
+    ],
+    "spoken_features": [
+      "dah dekat ke 省略具体目的地，用来询问对方是否快到。",
+      "kena tutup 是口语中的被动表达，此处标准语可用 ditutup。",
+      "Patutlah 表示得知原因后的恍然大悟，相当于‘难怪’。",
+      "ikut 在路线语境中表示沿某条路走；lah 缓和指路建议的语气。"
+    ]
+  },
+  "perjanjian": {
+    "context": "WhatsApp / 姐姐提醒弟弟查看租约的押金条款",
+    "messages": [
+      {
+        "speaker": "Kak Mira (姐姐)",
+        "ms_spoken": "Perjanjian sewa tu dah baca belum? Jangan terus tandatangan je.",
+        "ms_standard": "Adakah kamu sudah membaca perjanjian sewa itu? Jangan terus menandatanganinya begitu sahaja.",
+        "zh": "那份租约看过了没？别就这样直接签了。"
+      },
+      {
+        "speaker": "Hakim (弟弟)",
+        "ms_spoken": "Belum habis lagi, kak. Bahagian deposit ni saya tak berapa faham.",
+        "ms_standard": "Saya masih belum selesai membacanya, kakak. Saya kurang memahami bahagian tentang deposit ini.",
+        "zh": "还没看完，姐。押金这部分我不太明白。"
+      },
+      {
+        "speaker": "Kak Mira (姐姐)",
+        "ms_spoken": "Hantar gambar bahagian tu kat kak. Kita baca sama-sama dulu, baru tanya tuan rumah.",
+        "ms_standard": "Hantarkan gambar bahagian itu kepada kakak. Kita baca bersama-sama terlebih dahulu, kemudian kita bertanya kepada tuan rumah.",
+        "zh": "把那部分拍给姐看。我们先一起读，再问房东。"
+      }
+    ],
+    "spoken_features": [
+      "dah…belum 用于询问某事是否已经完成；Belum habis lagi 承接上文，省略‘读租约’。",
+      "tak berapa faham 表示‘不太明白’，标准语可用 kurang memahami。",
+      "kak 是 kakak 的简称，既可用于称呼姐姐，也可由姐姐用来指自己。",
+      "kat kak 中的 kat 对应 kepada；baru 在这里表示完成前一步后才进行下一步。"
+    ]
+  },
+  "terlibat": {
+    "context": "WhatsApp / 朋友邀请对方参与社区志愿项目",
+    "messages": [
+      {
+        "speaker": "Syafiq (项目组织者、朋友)",
+        "ms_spoken": "Awak nak terlibat dalam projek agih makanan hujung minggu ni tak? Kami tengah cari orang lagi.",
+        "ms_standard": "Adakah awak mahu terlibat dalam projek pengagihan makanan pada hujung minggu ini? Kami sedang mencari sukarelawan tambahan.",
+        "zh": "你想参与这周末派发食物的项目吗？我们还在找人。"
+      },
+      {
+        "speaker": "Iman (受邀的朋友)",
+        "ms_spoken": "Nak, tapi saya boleh datang pagi je. Boleh tolong bungkus makanan tak?",
+        "ms_standard": "Saya mahu terlibat, tetapi saya hanya dapat datang pada waktu pagi. Bolehkah saya membantu membungkus makanan?",
+        "zh": "想啊，不过我只能早上来。我可以帮忙打包食物吗？"
+      },
+      {
+        "speaker": "Syafiq (项目组织者、朋友)",
+        "ms_spoken": "Boleh sangat! Kami mula pukul lapan. Nanti saya masukkan awak dalam grup ya.",
+        "ms_standard": "Sudah tentu boleh! Kami bermula pada pukul lapan. Saya akan memasukkan awak ke dalam kumpulan perbualan nanti.",
+        "zh": "当然可以！我们八点开始。待会儿我拉你进群啊。"
+      }
+    ],
+    "spoken_features": [
+      "nak…tak 构成询问意愿的是非问句；单独回答 Nak 表示愿意。",
+      "tengah 对应 sedang，表示正在进行；orang lagi 在此指还需要更多人。",
+      "boleh sangat 是热情肯定的口语回应，意思是‘当然可以’。",
+      "grup 在 WhatsApp 语境中指聊天群；kami 指组织者一方，在邀约时尚不自动包含受邀者。"
+    ]
+  },
+  "percayalah": {
+    "context": "WhatsApp / 朋友在考试前安慰紧张的同学",
+    "messages": [
+      {
+        "speaker": "Siti (备考的同学)",
+        "ms_spoken": "Esok dah nak exam. Saya takut tiba-tiba lupa semua lah.",
+        "ms_standard": "Peperiksaan akan berlangsung esok. Saya takut tiba-tiba terlupa semua yang telah saya pelajari.",
+        "zh": "明天就要考试了。我怕到时突然全忘了。"
+      },
+      {
+        "speaker": "Aisyah (一起复习的同学)",
+        "ms_spoken": "Percayalah, awak dah banyak buat latihan. Semalam soalan susah pun awak boleh jawab.",
+        "ms_standard": "Percayalah, awak sudah banyak membuat latihan. Semalam, awak dapat menjawab soalan yang sukar sekalipun.",
+        "zh": "相信我，你已经做了很多练习。昨天连难题你都答得出来。"
+      },
+      {
+        "speaker": "Siti (备考的同学)",
+        "ms_spoken": "Betul jugak. Saya baca nota sikit lagi, lepas tu tidur lah.",
+        "ms_standard": "Betul juga. Saya akan membaca nota sedikit lagi, kemudian tidur.",
+        "zh": "也是。我再看一点笔记，然后就睡吧。"
+      }
+    ],
+    "spoken_features": [
+      "percayalah 中的 -lah 是附着在动词后的语气成分，此处表示诚恳劝慰。",
+      "dah nak exam 表示考试已迫在眼前；exam 是聊天中常用的英语借词，标准语用 peperiksaan。",
+      "soalan susah pun… 表示‘连难题也……’，pun 突出超出预期的情况。",
+      "jugak 是 juga 的口语拼写；lepas tu 对应 selepas itu 或 kemudian。"
+    ]
+  },
+  "mabuk": {
+    "context": "WhatsApp / 朋友乘船靠岸后解释自己为何脸色不好",
+    "messages": [
+      {
+        "speaker": "Farah (同行的朋友)",
+        "ms_spoken": "Tadi atas bot awak diam je. Mabuk laut ke?",
+        "ms_standard": "Semasa berada di atas bot tadi, awak hanya berdiam diri. Adakah awak mengalami mabuk laut?",
+        "zh": "刚才在船上你一直不说话。晕船了吗？"
+      },
+      {
+        "speaker": "Nisa (刚下船的朋友)",
+        "ms_spoken": "Haah, baru naik bot dah rasa nak muntah. Sekarang dah kurang sikit.",
+        "ms_standard": "Ya, sejurus selepas menaiki bot, saya sudah berasa hendak muntah. Sekarang, rasa loya itu sudah berkurang sedikit.",
+        "zh": "是啊，刚上船就想吐。现在好一点了。"
+      },
+      {
+        "speaker": "Farah (同行的朋友)",
+        "ms_spoken": "Kita duduk kat bangku ni dulu lah. Tak payah jalan lagi kalau masih pening.",
+        "ms_standard": "Marilah kita duduk di bangku ini dahulu. Tidak perlu meneruskan perjalanan dengan berjalan kaki jika awak masih pening.",
+        "zh": "我们先在这张长椅上坐一会儿吧。要是还头晕，就先别继续走了。"
+      }
+    ],
+    "spoken_features": [
+      "mabuk laut 指晕船，此处的 mabuk 不表示醉酒。",
+      "Haah 是表示肯定的口语写法，对应 ya。",
+      "baru…dah… 在这里突出反应出现得快，相当于‘刚……就……’；nak muntah 表示想吐。",
+      "tak payah 对应 tidak perlu；kat、ni 分别对应 di、ini。"
+    ]
+  },
+  "lemah": {
+    "context": "WhatsApp / 朋友解释通话断续，并商量换地方再打",
+    "messages": [
+      {
+        "speaker": "Daniel (正在联系朋友)",
+        "ms_spoken": "Tadi suara awak putus-putus. Awak dengar saya tak?",
+        "ms_standard": "Suara awak kedengaran terputus-putus tadi. Adakah awak dapat mendengar suara saya?",
+        "zh": "刚才你的声音断断续续的。你听得到我吗？"
+      },
+      {
+        "speaker": "Faris (身处信号较差的位置的朋友)",
+        "ms_spoken": "Dengar sikit-sikit je. Line kat sini lemah lah. Saya keluar kejap, nanti telefon balik.",
+        "ms_standard": "Saya hanya dapat mendengar suara awak secara terputus-putus. Isyarat telefon di sini lemah. Saya akan keluar sebentar, kemudian menelefon awak semula.",
+        "zh": "只能断断续续听到一点。这里手机信号弱。我出去一下，待会儿再打给你。"
+      },
+      {
+        "speaker": "Daniel (正在联系朋友)",
+        "ms_spoken": "Okey, dah dapat line elok nanti mesej saya dulu ya.",
+        "ms_standard": "Baiklah, apabila awak mendapat isyarat telefon yang baik nanti, hantarkan mesej kepada saya terlebih dahulu.",
+        "zh": "好，待会儿信号好了先给我发个消息啊。"
+      }
+    ],
+    "spoken_features": [
+      "line 是英语借词，在这里指手机信号；lemah 表示信号强度不足。",
+      "句末 tak 用于是非问句；Dengar sikit-sikit je 省略主语，并承接前文的声音。",
+      "telefon balik 中的 balik 表示再次进行该动作，此处对应 menelefon semula。",
+      "dah…nanti 在这里引出将来满足条件后的行动；mesej 作动词，标准语可展开为 menghantar mesej。"
+    ]
+  },
+  "menonton": {
+    "context": "WhatsApp / 朋友相约晚上去电影院看电影",
+    "messages": [
+      {
+        "speaker": "Amira (邀约的朋友)",
+        "ms_spoken": "Lama tak menonton wayang. Malam ni jom? Ada cerita baru tu.",
+        "ms_standard": "Saya sudah lama tidak menonton wayang. Mahukah awak menonton wayang bersama saya malam ini? Ada filem baharu yang sedang ditayangkan.",
+        "zh": "好久没去电影院看电影了。今晚一起去吗？有部新片在上映。"
+      },
+      {
+        "speaker": "Sofia (受邀的朋友)",
+        "ms_spoken": "Jom! Tapi saya habis kerja pukul tujuh. Ambil yang pukul sembilan boleh?",
+        "ms_standard": "Mari kita pergi! Namun, saya selesai bekerja pada pukul tujuh. Bolehkah kita memilih tayangan pada pukul sembilan?",
+        "zh": "走啊！不过我七点才下班。选九点那场可以吗？"
+      },
+      {
+        "speaker": "Amira (邀约的朋友)",
+        "ms_spoken": "Boleh. Saya beli tiket dulu, nanti kita jumpa kat lobi pukul lapan setengah.",
+        "ms_standard": "Boleh. Saya akan membeli tiket terlebih dahulu. Kita berjumpa di lobi pada pukul lapan setengah nanti.",
+        "zh": "可以。我先买票，待会儿我们八点半在大厅见。"
+      }
+    ],
+    "spoken_features": [
+      "menonton wayang 表示看电影；口语可以保留完整的 menonton，不必一律省去前缀。",
+      "Lama tak… 省略主语，表示已有很长时间没有做某事；jom 用于发出或接受邀约。",
+      "cerita 在这里指电影，标准语明确为 filem；yang pukul sembilan 省略所指的电影场次。",
+      "kat 对应 di；pukul lapan setengah 表示八点半，口语时间表达常省略 pada。"
+    ]
+  },
+  "musim": {
+    "context": "WhatsApp / 兄妹确认榴梿季到了，并约好去市场挑选",
+    "messages": [
+      {
+        "speaker": "Abang Hafiz (哥哥)",
+        "ms_spoken": "Dah masuk musim durian kan? Tadi nampak banyak gerai tepi jalan.",
+        "ms_standard": "Sekarang sudah masuk musim durian, bukan? Saya melihat banyak gerai di tepi jalan tadi.",
+        "zh": "已经到榴梿季了，对吧？刚才看到路边有好多摊位。"
+      },
+      {
+        "speaker": "Alya (妹妹)",
+        "ms_spoken": "Haah, mak pun teringin nak makan. Petang ni kita gi pasar, nak?",
+        "ms_standard": "Ya, ibu juga teringin makan durian. Mahukah abang pergi ke pasar bersama saya petang ini?",
+        "zh": "是啊，妈妈也馋榴梿了。今天傍晚我们去市场，要不要？"
+      },
+      {
+        "speaker": "Abang Hafiz (哥哥)",
+        "ms_spoken": "Jom. Kita tengok harga dulu lah. Kalau mahal sangat, beli sebiji je buat rasa.",
+        "ms_standard": "Mari kita pergi. Kita semak harganya terlebih dahulu. Jika terlalu mahal, kita beli sebiji sahaja untuk merasainya.",
+        "zh": "走吧。我们先看看价格。要是太贵，就买一颗尝尝。"
+      }
+    ],
+    "spoken_features": [
+      "musim durian 指榴梿集中出产的时节；句末 kan 用于寻求确认。",
+      "Haah 对应 ya；mak 是 ibu 的日常称呼；gi 是 pergi 的口语短式。",
+      "句末 nak? 在这里是简短的邀约询问，省略了对方是否愿意一起去的完整问句。",
+      "mahal sangat 在条件句中表示‘太贵’；sebiji 用于计数整颗榴梿；buat rasa 表示买来尝尝。"
+    ]
+  }
+}

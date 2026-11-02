@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "berdua",
+    "syllables": "ber.dua",
+    "ipa": "/bərduə/",
+    "jawi": "بردوا ب",
+    "frequency_rank": 285,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dua",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + dua → berdua（两个人一起）",
+    "pattern_note": "dua 保持词干，ber- 表示人数成组。syllables 与 Jawi 严格保留任务原文；Jawi 原串末尾含空格及额外 ب，未擅自删改。",
+    "word_family": [
+      {
+        "word": "dua",
+        "affix": "none",
+        "gloss": "二；两个（词根）"
+      },
+      {
+        "word": "kedua",
+        "affix": "ke-",
+        "gloss": "第二；两者中的（依结构）"
+      },
+      {
+        "word": "kedua-dua",
+        "affix": "ke- + 重叠",
+        "gloss": "两个都；两者都"
+      },
+      {
+        "word": "mendua",
+        "affix": "meN-",
+        "gloss": "分成两路；心意不专"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "两个人一起；两人共同；与另一人结伴。",
+      "ms_definition": "bersama-sama (dua orang), bersama dgn seorang lagi",
+      "nuances": "Kamus Dewan 原释义。此处以 adverb 映射表示同行或参与人数的功能；kami berdua 是我们俩（不含听者），kita berdua 是咱俩（含听者）。不自动表示恋爱关系，也不是任意两个物件的通用 both。",
+      "collocations": [
+        {
+          "ms": "kami berdua",
+          "zh": "我们俩（不含听者）",
+          "en": "the two of us"
+        },
+        {
+          "ms": "pergi berdua",
+          "zh": "两人一起去",
+          "en": "go together as a pair"
+        }
+      ],
+      "en_definition": "Together with one other person; as a pair."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "三心二意；感情不专一（限 berdua hati 的比喻表达）。",
+      "ms_definition": "tidak jujur, mencabangkan kasih",
+      "nuances": "Kamus Dewan 对 berdua hati 的原释义，标 ki（比喻）。仅适用于该惯用组合，不把普通 berdua 理解为不忠。",
+      "collocations": [
+        {
+          "ms": "berdua hati",
+          "zh": "心意不专；感情分岔",
+          "en": "be unfaithful in love"
+        },
+        {
+          "ms": "jangan berdua hati",
+          "zh": "不要感情不专",
+          "en": "don't be unfaithful"
+        }
+      ],
+      "en_definition": "To be unfaithful in love; to have divided affections (in the expression berdua hati)."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 赛事报道",
+      "ms": "Mereka berdua akan mewakili negara dalam pertandingan debat antarabangsa yang dijadualkan berlangsung bulan hadapan.",
+      "zh": "他们两人将代表国家参加定于下个月举行的国际辩论赛。",
+      "en": "The two of them will represent the country in an international debate competition scheduled for next month."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认明天出游的人数和接送安排",
+      "ms_spoken": "Esok kita berdua je ke yang gi?",
+      "ms_standard": "Adakah hanya kita berdua yang akan pergi esok?",
+      "zh": "明天就咱俩去吗？",
+      "spoken_features": [
+        "kita berdua 包括说话者和听者，表示两人一起。",
+        "je 对应 sahaja，在此明确只有两人；berdua 本身不一定强调排除所有旁人。",
+        "ke 是口语疑问标记，在此不是表示方向的介词。",
+        "gi 是 pergi 的口语缩略；haah 对应 ya；tak 对应 tidak。",
+        "ambil kau 在接送语境中表示去接对方，标准语还原为 menjemput awak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Esok kita berdua je ke yang gi?",
+          "ms_standard": "Adakah hanya kita berdua yang akan pergi esok?",
+          "zh": "明天就咱俩去吗？",
+          "en": "Is it just the two of us going tomorrow?"
+        },
+        {
+          "speaker": "Danish (朋友)",
+          "ms_spoken": "Haah, Amir tak dapat cuti. Aku ambil kau pukul lapan, boleh?",
+          "ms_standard": "Ya, Amir tidak dapat mengambil cuti. Bolehkah saya menjemput awak pada pukul lapan?",
+          "zh": "对，Amir 请不到假。我八点去接你，可以吗？",
+          "en": "Yeah, Amir couldn't get the day off. I'll pick you up at eight, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "brdua",
+      "full_form": "berdua",
+      "note": "聊天省略 e；正式文本保留完整前缀。"
+    },
+    {
+      "abbr": "ber2",
+      "full_form": "berdua",
+      "note": "数字 2 代替 dua；在此不是表示整词重叠。"
+    },
+    {
+      "abbr": "bedua",
+      "full_form": "berdua",
+      "note": "所给口语候选中的省 r 写法；不作为全马统一读音或规范拼写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "对两位客人可说 Encik berdua 或 Puan berdua；称呼须符合对象，不确定时用中性完整问句。",
+    "usage_etiquette": "强调两人同行即可，不应据 berdua 推断关系。私下邀约时说 kita berdua 可能带有单独见面的意味，工作安排中最好说明目的与场合；对两个物件说 kedua-duanya，而非机械套用 berdua。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语构词；组成部分属南岛语言传统",
+    "root_origin": "所给词源为 ber- + dua；现代基本数词 dua 表示二，不据本包补造祖语重建式。",
+    "historical_story": "berdua 的来路就在马来语自己的构词里：把表示二的 dua 接上 ber-，数量便成为两人一起行动的方式。词典例句里，两个人既能坐在门廊聊天，也能结伴去钓鱼；到了现代出行和聊天安排中，这个构词仍然直接好用。",
+    "cognitive_memory_aid": "dua 是两个，ber- 把两个人组到一起：dua → berdua；想象两人并肩走。"
+  }
+}

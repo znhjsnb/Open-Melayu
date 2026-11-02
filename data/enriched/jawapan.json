@@ -1,0 +1,142 @@
+{
+  "headword": {
+    "word": "jawapan",
+    "syllables": "ja.wa.pan",
+    "ipa": "/dʒa.wa.pan/",
+    "jawi": "جواڤن",
+    "frequency_rank": 956,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jawab",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "jawab + -an → jawapan（答案；答复）",
+    "pattern_note": "jawapan 是 jawab 加 -an 后形成的固定拼写，b 在这个派生词中写作 p；不要把它推广成所有词干加 -an 都有的规则。IPA 为宽式教学转写；音节及 Jawi 核对本地 PRPM 原始 JSON，修复聊天包的问号乱码；CEFR 为教学建议分级。",
+    "word_family": [
+      {
+        "word": "jawab",
+        "affix": "∅",
+        "gloss": "回答"
+      },
+      {
+        "word": "menjawab",
+        "affix": "meN-",
+        "gloss": "回答；应答"
+      },
+      {
+        "word": "berjawab",
+        "affix": "ber-",
+        "gloss": "得到回答"
+      },
+      {
+        "word": "jawaban",
+        "affix": "-an",
+        "gloss": "答复；答案（词典亦收录）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对询问或话语作出的回答、答复。",
+      "ms_definition": "jawab, balas(an).",
+      "nuances": "可指口头或书面答复，不限于考试。马来西亚日常及学校用语常用 jawapan；Kamus Dewan 的本词短释为 jawaban，此处采用原始包同时提供的展开义。",
+      "collocations": [
+        {
+          "ms": "memberikan jawapan",
+          "zh": "给出答复",
+          "en": "give an answer"
+        },
+        {
+          "ms": "menunggu jawapan",
+          "zh": "等待回复",
+          "en": "wait for a reply"
+        }
+      ],
+      "en_definition": "An answer or reply to a question or remark."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "对题目或问题写出的答案、解答，尤指笔试答案。",
+      "ms_definition": "sesuatu yg dituliskan sbg penyelesaian atau keputusan terhadap sesuatu soalan atau masalah (terutamanya dlm ujian bertulis).",
+      "nuances": "jawapan 指提交的答案；penyelesaian 更强调解决方法或过程。数学题可要求同时写 jawapan 和 langkah pengiraan（计算步骤）。",
+      "collocations": [
+        {
+          "ms": "jawapan yang tepat",
+          "zh": "准确答案",
+          "en": "the correct answer"
+        },
+        {
+          "ms": "skema jawapan",
+          "zh": "参考答案及评分方案",
+          "en": "an answer key and marking scheme"
+        }
+      ],
+      "en_definition": "A written answer or solution to a question or problem, especially in an examination."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 教育通告",
+      "ms": "Calon diminta menyemak semua jawapan sebelum menyerahkan kertas peperiksaan.",
+      "zh": "考生须在交卷前检查所有答案。",
+      "en": "Candidates are asked to check all their answers before submitting their examination papers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学做练习时讨论一道数学题",
+      "ms_spoken": "Kau dah dapat jawapan untuk soalan lima ke? Aku kira dua kali, lain pulak hasilnya.",
+      "ms_standard": "Adakah awak sudah mendapat jawapan untuk soalan kelima? Saya sudah mengira dua kali, tetapi hasilnya berbeza pula.",
+      "zh": "你算出第五题的答案了吗？我算了两遍，结果却不一样。",
+      "spoken_features": [
+        "句末 ke 和 tak 都能构成口语的是非问句；标准版本使用 adakah，并恢复完整句式。",
+        "soalan lima 是聊天中按编号称呼题目的说法，标准版本用 soalan kelima。",
+        "pulak、jap、tu 分别对应 pula、sekejap、itu；kira balik 表示重新计算，标准版本用 mengira semula。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Kau dah dapat jawapan untuk soalan lima ke? Aku kira dua kali, lain pulak hasilnya.",
+          "ms_standard": "Adakah awak sudah mendapat jawapan untuk soalan kelima? Saya sudah mengira dua kali, tetapi hasilnya berbeza pula.",
+          "zh": "你算出第五题的答案了吗？我算了两遍，结果却不一样。",
+          "en": "Have you worked out the answer to question five yet? I've done it twice, but I got different answers."
+        },
+        {
+          "speaker": "Aisyah (同学)",
+          "ms_spoken": "Aku dapat dua belas. Kau dah kira yang dalam kurungan dulu tak?",
+          "ms_standard": "Saya mendapat dua belas. Adakah awak sudah mengira bahagian di dalam kurungan terlebih dahulu?",
+          "zh": "我算出来是十二。你有先算括号里面的吗？",
+          "en": "I got twelve. Did you work out what was in the brackets first?"
+        },
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Oh, aku tertinggal langkah tu. Jap, aku cuba kira balik.",
+          "ms_standard": "Oh, saya tertinggal langkah itu. Sebentar, saya akan cuba mengira semula.",
+          "zh": "哦，我漏了那一步。等一下，我再算算。",
+          "en": "Oh, I missed that step. Hang on, let me try again."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "本词语气中性。向老师或办事人员询问时可说 Boleh saya mendapatkan penjelasan tentang jawapan ini?，避免用命令语气催答。",
+    "usage_etiquette": "聊天中迟迟没收到 jawapan，不一定表示对方拒绝；礼貌追问即可。课堂可讨论解题思路，考试时不要向他人索取答案。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语，经马来语派生",
+    "root_origin": "词根 jawab 来自阿拉伯语 jawāb（جواب，回答），jawapan 是马来语 -an 派生名词。",
+    "historical_story": "阿拉伯语 jawāb 在马来语中成为可参与本地构词的 jawab，随后形成名词 jawapan。把视线从旧时的书信问答移到今天的课堂试卷，同一个“回答”的概念便能串起这个词的使用场景；这里的场景是记忆说明，不代表已确定的传播年代或航路。",
+    "cognitive_memory_aid": "jawab 是“回答”这个动作，加 -an 得到“回答的内容”；记住固定拼写 jawapan 的 p。"
+  }
+}

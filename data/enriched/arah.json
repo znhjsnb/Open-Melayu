@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "arah",
+    "syllables": "a.rah",
+    "ipa": "/arah/",
+    "jawi": "اره",
+    "frequency_rank": 431,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "arah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + arah → arah（方向）",
+    "pattern_note": "基本词，不拆分。单独的 arah 主要是名词；‘指挥、命令’通常由 mengarah、mengarahkan 等派生形式表达。",
+    "word_family": [
+      {
+        "word": "searah",
+        "affix": "se-",
+        "gloss": "同方向的；目标一致的"
+      },
+      {
+        "word": "mengarah",
+        "affix": "meN-",
+        "gloss": "朝向；指挥；导演"
+      },
+      {
+        "word": "mengarahkan",
+        "affix": "meN-…-kan",
+        "gloss": "使朝向；命令"
+      },
+      {
+        "word": "arahan",
+        "affix": "-an",
+        "gloss": "指示；命令"
+      },
+      {
+        "word": "pengarah",
+        "affix": "peN-",
+        "gloss": "导演；主管"
+      },
+      {
+        "word": "terarah",
+        "affix": "ter-",
+        "gloss": "有所指向的；有明确目标的"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "方向；方位；朝向。",
+      "ms_definition": "hala, jurusan",
+      "nuances": "Kamus Dewan 第1义。ke arah 表示朝向，dari arah 表示来自某方向；arah 本身不是‘去’的动作，也不等于派生词 arahan‘指示’。",
+      "collocations": [
+        {
+          "ms": "ke arah utara",
+          "zh": "朝北方",
+          "en": "towards the north"
+        },
+        {
+          "ms": "dari arah bertentangan",
+          "zh": "从相反方向",
+          "en": "from the opposite direction"
+        }
+      ],
+      "en_definition": "The direction in which someone or something faces, moves, or lies."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "目标；意图；事情发展的方向。",
+      "ms_definition": "maksud, tujuan",
+      "nuances": "Kamus Dewan 第2义。从空间方向引申为行动或讨论的目标；ke arah 也可接抽象目标，如 kemajuan‘进步’。",
+      "collocations": [
+        {
+          "ms": "arah aliran",
+          "zh": "发展趋势",
+          "en": "a trend"
+        },
+        {
+          "ms": "tidak tentu arah",
+          "zh": "没有明确方向；漫无目的",
+          "en": "without a clear direction or purpose"
+        }
+      ],
+      "en_definition": "An aim or purpose; the course along which something develops."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 交通通告",
+      "ms": "Polis menasihatkan pengguna jalan raya supaya berhati-hati ketika memandu dari arah utara menuju ke pusat bandar.",
+      "zh": "警方提醒从北方驶往市中心的道路使用者谨慎驾驶。",
+      "en": "Police advised road users to drive carefully when travelling from the north towards the city centre."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友在车站会合，确认来路和等候位置",
+      "ms_spoken": "Awak datang dari arah mana? Saya dah sampai kat pintu utama stesen ni.",
+      "ms_standard": "Awak datang dari arah mana? Saya sudah sampai di pintu utama stesen ini.",
+      "zh": "你从哪个方向过来？我已经到车站正门了。",
+      "spoken_features": [
+        "dari arah pasar 表示从市场所在的方向过来，不一定表示刚从市场出发。",
+        "dah、kat、ni、tu 分别对应 sudah、di、ini、itu。",
+        "tunggu situ 在聊天中省略地点介词 di；je 对应 sahaja。",
+        "sikit 对应 sedikit；senang sikit 表示比较容易些，nak 在这里引出要做的事。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Awak datang dari arah mana? Saya dah sampai kat pintu utama stesen ni.",
+          "ms_standard": "Awak datang dari arah mana? Saya sudah sampai di pintu utama stesen ini.",
+          "zh": "你从哪个方向过来？我已经到车站正门了。",
+          "en": "Which direction are you coming from? I'm already at the station's main entrance."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Saya dari arah pasar. Awak tunggu situ je, lagi lima minit saya sampai.",
+          "ms_standard": "Saya datang dari arah pasar. Awak tunggu di situ sahaja. Saya akan sampai dalam masa lima minit lagi.",
+          "zh": "我从市场那边过来。你就在那儿等着，我再过五分钟就到。",
+          "en": "I'm coming from the market. Just wait there. I'll be there in five minutes."
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Okey, saya tunggu sebelah kedai roti tu. Senang sikit awak nak cari nanti.",
+          "ms_standard": "Baiklah, saya menunggu di sebelah kedai roti itu supaya awak lebih mudah mencari saya nanti.",
+          "zh": "好，我在那家面包店旁边等。这样你待会儿比较容易找到我。",
+          "en": "Okay, I'll wait next to that bakery. It'll be easier for you to find me."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "可用于正式及日常交流。向陌生人问路可说 Maaf, boleh tunjukkan arah ke stesen?，用 Maaf 和 boleh 缓和请求。",
+    "usage_etiquette": "面对不熟悉的人可省略称呼，或视场合用 encik、puan；不要把 kau 当成通用于陌生人的‘你’。解释路线时配合明确地标，避免只说 sana‘那边’。"
+  },
+  "etymology": {
+    "origin": "Uncertain",
+    "source_language": "Malay；更早来源未核实",
+    "root_origin": "现有词包只确认独立基本词 arah，未提供可核实的借词来源或祖语重建形式。",
+    "historical_story": "把方向想成从码头伸向远处的一条线：arah 可以指船驶来的方向，也可以指人前进的目标。现代词典把具体的‘方位’与抽象的‘目的’并列，词族中的 pengarah 则指引领一项工作的人。码头只是帮助理解的画面，现有材料不足以确定这个词最早出现的年代与地点。",
+    "cognitive_memory_aid": "脑中画一支箭头：arah 是箭头的方向，arahan 是别人给你的指示，pengarah 是带领大家的人。"
+  }
+}

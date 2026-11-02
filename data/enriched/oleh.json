@@ -1,0 +1,176 @@
+{
+  "headword": {
+    "word": "oleh",
+    "syllables": null,
+    "ipa": "/ˈoleh/",
+    "jawi": "اوليه",
+    "frequency_rank": 178,
+    "tags": [
+      "CEFR-A2",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "oleh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + oleh → oleh",
+    "pattern_note": "介词本身无词缀；beroleh、memperoleh 等属于同形词根的得获词族，不把介词硬译为“获得”。PRPM 音节字段为空，保留 null。",
+    "word_family": [
+      {
+        "word": "beroleh",
+        "affix": "ber-",
+        "gloss": "得到；获得"
+      },
+      {
+        "word": "memperoleh",
+        "affix": "memper-",
+        "gloss": "取得；经努力获得"
+      },
+      {
+        "word": "perolehan",
+        "affix": "per-...-an",
+        "gloss": "所得；收益"
+      },
+      {
+        "word": "pemerolehan",
+        "affix": "pemer-...-an",
+        "gloss": "取得的过程或方式"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "由；被，用于被动句引出动作执行者。",
+      "ms_definition": "kata sendi nama utk menunjukkan pelaku dlm ayat pasif",
+      "nuances": "据《Kamus Pelajar》第二版；资料未附独立《Kamus Dewan》原文。常用于 di- 被动句；第一、第二人称代词构成的被动句通常用 Buku itu saya baca 一类语序。",
+      "collocations": [
+        {
+          "ms": "ditulis oleh",
+          "zh": "由……撰写",
+          "en": "written by"
+        },
+        {
+          "ms": "diluluskan oleh",
+          "zh": "由……批准",
+          "en": "approved by"
+        }
+      ],
+      "en_definition": "By (introducing the agent in a passive construction)."
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "因；由于，表示原因或造成后果的因素。",
+      "ms_definition": "sebab; akibat",
+      "nuances": "据《Kamus Pelajar》第二版。正式书写用 oleh sebab，避免 oleh kerana；oleh itu 表示“因此”，引出结果，不能当作表示原因的同义替换。",
+      "collocations": [
+        {
+          "ms": "oleh sebab itu",
+          "zh": "由于那个原因；因此",
+          "en": "for that reason; therefore"
+        },
+        {
+          "ms": "oleh sebab kekurangan dana",
+          "zh": "由于经费不足",
+          "en": "due to a lack of funding"
+        }
+      ],
+      "en_definition": "Because of; owing to (indicating a cause or reason)."
+    },
+    {
+      "id": 3,
+      "pos": "preposition",
+      "zh_definition": "对……而言；为……所感知，用于引出感知者。",
+      "ms_definition": "kepada; bagi",
+      "nuances": "据《Kamus Pelajar》第二版。较偏文学或旧式语体，如 tampak olehnya；以下是这类书面构式，不宜当作日常高频口语。现代交谈通常改说 dia nampak 或 dia dengar。",
+      "collocations": [
+        {
+          "ms": "tampak olehnya",
+          "zh": "被他看见；映入他眼中",
+          "en": "visible to him"
+        },
+        {
+          "ms": "terdengar olehnya",
+          "zh": "被他听见",
+          "en": "heard by him"
+        }
+      ],
+      "en_definition": "To; by (introducing the person who perceives something)."
+    },
+    {
+      "id": 4,
+      "pos": "preposition",
+      "zh_definition": "以；带着，用于说明装载或充满的内容。",
+      "ms_definition": "dengan",
+      "nuances": "据《Kamus Pelajar》第二版，例为 Bakul itu sarat oleh buah-buahan。此义多见于书面描写；以下搭配用于识别该构式，日常更常说 sarat dengan 或 penuh dengan。",
+      "collocations": [
+        {
+          "ms": "sarat oleh buah-buahan",
+          "zh": "装满水果",
+          "en": "laden with fruit"
+        },
+        {
+          "ms": "sarat oleh muatan",
+          "zh": "载满货物",
+          "en": "laden with cargo"
+        }
+      ],
+      "en_definition": "With (introducing what something is laden or filled with)."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 政府项目报道",
+      "ms": "Projek pembinaan dewan komuniti itu telah diluluskan oleh pihak berkuasa tempatan.",
+      "zh": "该社区礼堂建设项目已获地方政府批准。",
+      "en": "The community hall construction project has been approved by the local authority."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 学生活动筹备群确认海报是否已经过老师审核",
+      "ms_spoken": "Poster ni dah disemak oleh Cikgu Farah, kan? Aku nak hantar kat grup kelas dah ni.",
+      "ms_standard": "Poster ini sudah disemak oleh Cikgu Farah, bukan? Saya mahu menghantarnya ke kumpulan sembang kelas sekarang.",
+      "zh": "这张海报法拉老师已经审核过了，对吧？我这就要发到班群里了。",
+      "spoken_features": [
+        "disemak oleh 保留被动结构，oleh 明确引出执行审核的人；此类活动事务聊天可以自然保留较正式的措辞。",
+        "ni 对应 ini；dah 对应 sudah；kan 用来向知情者确认。",
+        "hantar kat grup 在这里表示发到聊天群，标准语用 hantar ke kumpulan sembang。",
+        "hantar je 表示可以直接发送；tarikh dengan tempat 中的 dengan 起连接作用，标准语用 dan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (负责发布海报的同学)",
+          "ms_spoken": "Poster ni dah disemak oleh Cikgu Farah, kan? Aku nak hantar kat grup kelas dah ni.",
+          "ms_standard": "Poster ini sudah disemak oleh Cikgu Farah, bukan? Saya mahu menghantarnya ke kumpulan sembang kelas sekarang.",
+          "zh": "这张海报法拉老师已经审核过了，对吧？我这就要发到班群里了。",
+          "en": "This poster's been checked by Ms Farah, right? I'm about to send it to the class group chat."
+        },
+        {
+          "speaker": "Imran (负责联络老师的同学)",
+          "ms_spoken": "Dah, cikgu kata semua okey. Hantar je, tarikh dengan tempat pun dah betul.",
+          "ms_standard": "Ya, cikgu sudah menyemaknya dan mengatakan bahawa semuanya baik. Awak boleh menghantarnya kerana tarikh dan tempat juga sudah betul.",
+          "zh": "审过了，老师说都没问题。直接发吧，日期和地点也都对了。",
+          "en": "Yes, she said everything looks good. Go ahead and send it. The date and venue are correct too."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "oleh 本身不带敬称；由它引出的老师、官员或长辈，仍按场合使用 cikgu、encik、puan 等称呼。",
+    "usage_etiquette": "公文中用 oleh 说明责任方或作者很清楚；谈错误或投诉时，点明执行者可能带来归责意味，应先核实事实。oleh-oleh 是表示伴手礼的另一个词项，不列为介词 oleh 的义项。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic；Proto-Malayo-Polynesian",
+    "root_origin": "词源资料：原始马来语 *ulih，进一步追溯至原始马来—波利尼西亚语 *uliq。",
+    "historical_story": "oleh 承接了南岛语系内部的旧词形，词源资料把它连接到原始马来语 *ulih。马来语词典至今并列保存它表示执行者、原因和感知者等用法，也另列 beroleh、memperoleh 的“获得”词族。现代新闻与行政写作尤其常用 oleh，把一项决定或行动清楚地连接到负责的人与机构。",
+    "cognitive_memory_aid": "看到 di- 动词后面的 oleh，就顺着它找“是谁做的”；看到 oleh sebab，就转向“是什么原因”。"
+  }
+}

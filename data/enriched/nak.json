@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "nak",
+    "syllables": null,
+    "ipa": "[ˈnaʔ]",
+    "jawi": "نق",
+    "frequency_rank": 35,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "nak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "hendak → nak（缩略）；anak → nak（称呼义缩略）",
+    "pattern_note": "现代独立口语形式，无可拆词缀；两个意义分别来自 hendak 与 anak。词尾 k 常读喉塞音 ʔ；PRPM 的 [naʔ] 是读音记录，原始 syllables 字段为空，故保留 null。",
+    "word_family": [
+      {
+        "word": "hendak",
+        "affix": "none",
+        "gloss": "想要；打算，意愿义的完整形式"
+      },
+      {
+        "word": "kehendak",
+        "affix": "ke-（附于 hendak）",
+        "gloss": "意愿；要求"
+      },
+      {
+        "word": "anak",
+        "affix": "none",
+        "gloss": "孩子；晚辈称呼义的来源"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "想要；打算；将要，hendak 的口语缩略。",
+      "ms_definition": "kep hendak: apa ~ dimakan semua ada.",
+      "nuances": "可作意愿或将然标记，本 Schema 归入 verb；Saya nak kopi 是“我想要咖啡”，nak hujan 可表示“快下雨了”。不是所有 nak 都是主观愿望，也不能把它机械地当成未来时词。",
+      "collocations": [
+        {
+          "ms": "nak pergi",
+          "zh": "想去；打算去",
+          "en": "want to go; plan to go"
+        },
+        {
+          "ms": "nak makan",
+          "zh": "想吃；要吃",
+          "en": "want to eat"
+        }
+      ],
+      "en_definition": "Colloquial short form of hendak: to want or intend to; to be going to or about to."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "孩子；孩子呀，长辈对孩子或明显较年轻者的称呼。",
+      "ms_definition": "kep anak: ambillah duit ini, ~.",
+      "nuances": "此义来自 anak，与“想要”的 hendak 缩略来源不同。常带亲切照顾语气，但不要求一定存在亲子关系；标点和称呼位置帮助判断。",
+      "collocations": [
+        {
+          "ms": "mari, nak",
+          "zh": "来，孩子",
+          "en": "come here, dear"
+        },
+        {
+          "ms": "hati-hati, nak",
+          "zh": "孩子，小心点",
+          "en": "be careful, dear"
+        }
+      ],
+      "en_definition": "Short form of anak, used by an older person to address a child or someone much younger affectionately."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育报道 / 说明访谈中的口语用词",
+      "ms": "Dalam petikan wawancara itu, perkataan “nak” merujuk kepada hasrat penduduk untuk pulang.",
+      "zh": "在这段访谈摘录中，“nak”一词表达了居民想回家的意愿。",
+      "en": "In that interview excerpt, the word “nak” expresses the residents' wish to return home."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友先到店里帮忙点饮料",
+      "ms_spoken": "Aku dah sampai kat kedai. Kau nak teh ke kopi?",
+      "ms_standard": "Saya sudah sampai di kedai. Awak mahu teh atau kopi?",
+      "zh": "我已经到店里了。你要茶还是咖啡？",
+      "spoken_features": [
+        "nak 在这里表示想要某种饮料，正式还原为 mahu；回复中的 Nak teh ais 省略主语",
+        "ke 在二选一问句中对应 atau，不是方向介词",
+        "dah = sudah；kat = di；kejap lagi 对应 sebentar lagi",
+        "order 是马来西亚聊天中常见的英语夹用，正式还原为 pesan 或 membuat pesanan",
+        "马来西亚茶餐饮语境中的 teh ais 通常指加奶的冰茶；kurang manis 是常用的少甜点单表达"
+      ],
+      "messages": [
+        {
+          "speaker": "Syafiq (朋友)",
+          "ms_spoken": "Aku dah sampai kat kedai. Kau nak teh ke kopi?",
+          "ms_standard": "Saya sudah sampai di kedai. Awak mahu teh atau kopi?",
+          "zh": "我已经到店里了。你要茶还是咖啡？",
+          "en": "I'm at the coffee shop already. Do you want tea or coffee?"
+        },
+        {
+          "speaker": "Iman (朋友)",
+          "ms_spoken": "Nak teh ais, kurang manis. Tolong order dulu, aku sampai kejap lagi.",
+          "ms_standard": "Saya mahu teh ais yang kurang manis. Tolong pesan dahulu. Saya akan sampai sebentar lagi.",
+          "zh": "要冰奶茶，少甜。帮我先点，我一会儿就到。",
+          "en": "I'll have an iced milk tea, less sweet. Order for me first, please. I'll be there in a bit."
+        },
+        {
+          "speaker": "Syafiq (朋友)",
+          "ms_spoken": "Okey, aku order sekarang.",
+          "ms_standard": "Baiklah, saya akan membuat pesanan sekarang.",
+          "zh": "好，我现在点。",
+          "en": "Okay, I'll order now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "nk",
+      "full_form": "hendak",
+      "note": "通常代表意愿义 nak；恢复口语可写 nak，正式展开为 hendak。称呼孩子时一般保留 nak，不宜只写 nk。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "点餐时 Nak teh 一般能理解且很常见；向陌生人或服务人员说 Saya nak teh, boleh? 并道谢会更周到。正式申请可用 Saya ingin… 或 Saya hendak…。",
+    "usage_etiquette": "称呼义 nak 常由长辈对晚辈使用；对成年同事、客户或年龄相仿者使用可能显得居高临下，宜依关系和对方接受程度选择。不要把本义称呼推断为必须有血缘关系。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语",
+    "root_origin": "意愿义缩自 hendak；晚辈称呼义缩自 anak，是两个不同来源在现代口语中同形。",
+    "historical_story": "nak 有两条缩略路径：谈打算时从 hendak 而来，叫孩子时则从 anak 而来，两者不能混成一个词源。想象茶室里一句 Nak teh? 和长辈一句 Mari, nak，同一个短音节便分别承担点单与亲切招呼。今天意愿义在手机聊天中还能写成 nk，而正式文字通常恢复为 hendak。",
+    "cognitive_memory_aid": "看位置分两条路：nak + 动作，多是“想要”；逗号后的 nak，多是在叫“孩子呀”。"
+  }
+}

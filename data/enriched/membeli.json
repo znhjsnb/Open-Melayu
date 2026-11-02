@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "membeli",
+    "syllables": "mem.be.li",
+    "ipa": "/məmbəli/",
+    "jawi": "ممبلي",
+    "frequency_rank": 869,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "beli",
+    "affix": "meN-（实现为 mem-）",
+    "affix_type": "prefix",
+    "formula": "meN- + beli → mem- + beli → membeli",
+    "pattern_note": "meN- 在 b 前实现为 mem-，词根首辅音 b 保留；membeli 不是词根。IPA 为编辑提供的宽式读音；输入 Jawi 的 ????? 为乱码占位，原样保留；CEFR 为教学估计。",
+    "word_family": [
+      {
+        "word": "beli",
+        "affix": "∅",
+        "gloss": "买（词根）"
+      },
+      {
+        "word": "dibeli",
+        "affix": "di-",
+        "gloss": "被买下"
+      },
+      {
+        "word": "pembeli",
+        "affix": "peN-",
+        "gloss": "买家"
+      },
+      {
+        "word": "pembelian",
+        "affix": "peN-...-an",
+        "gloss": "购买行为；采购"
+      },
+      {
+        "word": "membelikan",
+        "affix": "meN-...-kan",
+        "gloss": "替某人购买"
+      },
+      {
+        "word": "terbeli",
+        "affix": "ter-",
+        "gloss": "不经意买下；具体含义依语境"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "购买；付钱取得物品。",
+      "ms_definition": "memperoleh barang dgn membayar (harganya). (Kamus Dewan Edisi Keempat; 来自所给 raw_definitions 中的完整义项)",
+      "nuances": "正式主动陈述用 membeli，日常聊天常用 beli。表示价格宜用 dengan harga，如 membeli buku dengan harga RM20；表示替谁购买可用 membeli buku untuk ibu。",
+      "collocations": [
+        {
+          "ms": "membeli barang keperluan",
+          "zh": "购买生活必需品",
+          "en": "buy everyday necessities"
+        },
+        {
+          "ms": "membeli tiket",
+          "zh": "买票",
+          "en": "buy tickets"
+        }
+      ],
+      "en_definition": "To obtain goods by paying for them; to buy."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "比喻以努力或牺牲换取、赢得某种成果。",
+      "ms_definition": "mencapai (memperoleh) sesuatu dgn usaha yg keras (dgn pengorbanan). (Kamus Dewan Edisi Keempat; 来自所给 raw_definitions 中的第二义项)",
+      "nuances": "这里强调付出的代价，不一定真的有金钱交易。membeli kejayaan 等表达若没有努力或牺牲的语境，也可能让人想到用钱买通，需讲清所指。",
+      "collocations": [
+        {
+          "ms": "membeli kejayaan dengan pengorbanan",
+          "zh": "以牺牲换取成功",
+          "en": "achieve success through sacrifice"
+        },
+        {
+          "ms": "membeli kebebasan dengan nyawa",
+          "zh": "以生命为代价换取自由",
+          "en": "pay for freedom with one's life"
+        }
+      ],
+      "en_definition": "To gain or achieve something through great effort or sacrifice."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "消费者新闻／购物提醒",
+      "ms": "Pengguna dinasihatkan supaya membandingkan harga sebelum membeli barang keperluan harian.",
+      "zh": "消费者获提醒，在购买日常必需品之前应比较价格。",
+      "en": "Consumers are advised to compare prices before buying daily necessities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友协调购买当晚的巴士票",
+      "ms_spoken": "Aku nak beli tiket bas untuk malam ni. Kau nak ikut tak?",
+      "ms_standard": "Saya hendak membeli tiket bas untuk perjalanan malam ini. Adakah awak mahu ikut?",
+      "zh": "我想买今晚的巴士票。你要一起去吗？",
+      "spoken_features": [
+        "目标词 membeli 在口语陈述中自然使用词根 beli；第一、三轮标准句恢复为 membeli。",
+        "Tolong beli 是请求句，标准马来语中也可保留词根 beli，不必一律加 meN-。",
+        "nak、ni、tu 分别对应 hendak 或 mahu、ini、itu；ikut tak 和 ada tak 都是口语疑问结构。",
+        "untuk aku sekali 中的 sekali 表示顺便也替我购买，不是“买一次”。",
+        "yang pukul lapan tu 依赖上下文指八点发车的班次；bayar balik 表示归还垫付的钱，je 表示“就行”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Aku nak beli tiket bas untuk malam ni. Kau nak ikut tak?",
+          "ms_standard": "Saya hendak membeli tiket bas untuk perjalanan malam ini. Adakah awak mahu ikut?",
+          "zh": "我想买今晚的巴士票。你要一起去吗？",
+          "en": "I'm going to buy a bus ticket for tonight. Want to come along?"
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Nak. Tolong beli satu untuk aku sekali. Yang pukul lapan tu masih ada tak?",
+          "ms_standard": "Ya, saya mahu ikut. Tolong beli satu tiket untuk saya juga. Adakah tiket untuk bas yang bertolak pada pukul lapan itu masih tersedia?",
+          "zh": "要。麻烦顺便也帮我买一张。八点那班还有票吗？",
+          "en": "Yeah. Could you get me one too? Are there any tickets left for the eight o'clock bus?"
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Ada lagi. Aku beli dua terus lah. Nanti kau bayar balik je.",
+          "ms_standard": "Tiket masih tersedia. Saya akan terus membeli dua tiket. Awak hanya perlu membayar semula kepada saya nanti.",
+          "zh": "还有票。那我直接买两张吧。你之后再把钱还我就行。",
+          "en": "There are. I'll just get two, then. You can pay me back later."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "购物时可用 Saya mahu membeli...，向店员提问可用 Boleh saya tanya harga...?；买卖双方使用礼貌称谓即可，不必按族群猜称呼。",
+    "usage_etiquette": "beli 是词根在口语中的使用，不是 membeli 的短信缩写。正式采购说明保留 membeli；砍价前先看场合，标价商店与可议价摊位的惯例不同。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "南岛语系继承词；现代形式由马来语构词形成",
+    "root_origin": "beli 可追溯到重建形式 *bəli；星号表示重建词形，不是出土原文。参见 [Wiktionary：beli](https://en.wiktionary.org/wiki/beli#Malay)。membeli = meN- + beli。",
+    "historical_story": "beli 的词源可沿南岛语系的继承关系向前追溯，现代 membeli 则是在这个买卖词根上加马来语主动前缀形成的。可以把传统市场里付钱取货的动作与手机上付款购物的动作并置来记忆，两个场景都用得上 membeli；这是生活图景，不是对史前交易制度或某条海上商路的断言。",
+    "cognitive_memory_aid": "看到 b 就让 meN- 变成 mem-，但保留 b：mem- + beli = membeli，付钱把东西买回来。"
+  }
+}

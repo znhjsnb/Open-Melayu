@@ -1,0 +1,232 @@
+{
+  "nama": {
+    "context": "WhatsApp / 参与者向朋友确认活动报名名单",
+    "messages": [
+      {
+        "speaker": "Aina (参与活动的朋友)",
+        "ms_spoken": "Nama aku dah ada dalam senarai ke? Aku isi borang malam tadi.",
+        "ms_standard": "Adakah nama saya sudah ada dalam senarai? Saya mengisi borang malam tadi.",
+        "zh": "名单里有我的名字了吗？我昨晚填了表。"
+      },
+      {
+        "speaker": "Farhan (负责报名的朋友)",
+        "ms_spoken": "Dah ada, aku baru semak. Esok datang je, tak payah isi lagi.",
+        "ms_standard": "Nama awak sudah ada dalam senarai. Saya baru menyemaknya. Esok, awak hanya perlu hadir dan tidak perlu mengisi borang sekali lagi.",
+        "zh": "有了，我刚查过。明天直接来就行，不用再填了。"
+      }
+    ],
+    "spoken_features": [
+      "aku 是朋友之间熟悉、随意的第一人称；标准语还原为 saya。",
+      "dah 是 sudah 的口语短式；句末 ke 将陈述变成询问。",
+      "je 对应 sahaja；tak payah 表示不必，对应 tidak perlu。",
+      "第二轮省略已知的 nama 和 borang，符合聊天中依赖上文的表达习惯。"
+    ]
+  },
+  "dunia": {
+    "context": "WhatsApp / 朋友看到旅行照片后聊环游世界的愿望",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Tengok gambar kau kat Jepun, aku pun rasa nak keliling dunia. Duit je tak cukup lagi.",
+        "ms_standard": "Melihat gambar awak di Jepun, saya juga berasa ingin mengelilingi dunia. Cuma wang saya masih belum mencukupi.",
+        "zh": "看到你在日本的照片，我也想环游世界了。就是钱还不够。"
+      },
+      {
+        "speaker": "Amir (正在旅行的朋友)",
+        "ms_spoken": "Kita mula dekat-dekat dulu lah. Jom simpan duit, tahun depan gi Thailand sama-sama.",
+        "ms_standard": "Marilah kita bermula dengan destinasi yang berdekatan dahulu. Marilah kita menyimpan wang supaya kita dapat pergi ke Thailand bersama-sama pada tahun hadapan.",
+        "zh": "咱们先从近一点的地方开始吧。一起存钱，明年一起去泰国。"
+      }
+    ],
+    "spoken_features": [
+      "nak 对应 ingin 或 mahu；keliling dunia 在口语中省略 mengelilingi 的词缀。",
+      "kat 在地点前对应 di；je 在这里突出唯一的现实障碍是钱。",
+      "jom 用来邀请对方一起行动；gi 是 pergi 的口语短式。",
+      "dulu lah 在这里缓和建议语气，表示先从容易实现的计划开始。"
+    ]
+  },
+  "ingat": {
+    "context": "WhatsApp / 同学提醒朋友明天带充电器",
+    "messages": [
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Esok ingat bawa pengecas tau. Aku nak pinjam kejap sebelum kelas.",
+        "ms_standard": "Pastikan awak ingat untuk membawa pengecas esok. Saya mahu meminjamnya sebentar sebelum kelas bermula.",
+        "zh": "明天记得带充电器哦。我想上课前借用一下。"
+      },
+      {
+        "speaker": "Nadia (同学)",
+        "ms_spoken": "Boleh, aku dah letak dalam beg. Esok jumpa kat kantin macam biasa.",
+        "ms_standard": "Boleh, saya sudah meletakkannya di dalam beg. Esok kita berjumpa di kantin seperti biasa.",
+        "zh": "可以，我已经放进包里了。明天照常在食堂见。"
+      }
+    ],
+    "spoken_features": [
+      "ingat bawa 是提醒用法，口语中省略 untuk，并以 bawa 对应 membawa。",
+      "句末 tau 是带提醒意味的口语语气成分，不宜机械译成“知道”。",
+      "nak 对应 mahu；kejap 对应 sebentar。",
+      "dah 对应 sudah；kat 对应 di；macam biasa 对应 seperti biasa。"
+    ]
+  },
+  "sayang": {
+    "context": "WhatsApp / 兄妹整理旧物时商量如何处理旧书架",
+    "messages": [
+      {
+        "speaker": "Faiz (哥哥)",
+        "ms_spoken": "Rak lama ni nak buang ke? Aku boleh angkat turun petang nanti.",
+        "ms_standard": "Adakah awak mahu membuang rak lama ini? Saya boleh membawanya ke bawah petang nanti.",
+        "zh": "这个旧架子要扔掉吗？我今天傍晚可以搬下去。"
+      },
+      {
+        "speaker": "Mira (妹妹)",
+        "ms_spoken": "Eh, jangan buang dulu. Sayang lah, masih elok lagi. Kita bagi kat orang yang nak je.",
+        "ms_standard": "Jangan buangnya dahulu. Sayang jika rak itu dibuang kerana keadaannya masih baik. Kita berikan sahaja kepada orang yang menginginkannya.",
+        "zh": "哎，先别扔。还好好的，扔了多可惜。咱们送给有需要的人就好。"
+      }
+    ],
+    "spoken_features": [
+      "sayang lah 在这里表示丢弃仍然好用的物品很可惜，不是亲昵称呼。",
+      "ni 对应 ini；nak 对应 mahu；句末 ke 表示询问。",
+      "angkat turun 在此指把物品搬到楼下；标准语可表达为 membawanya ke bawah。",
+      "bagi kat 对应 berikan kepada；je 对应 sahaja。"
+    ]
+  },
+  "kali": {
+    "context": "WhatsApp / 朋友商量这次聚餐去哪里",
+    "messages": [
+      {
+        "speaker": "Daniel (朋友)",
+        "ms_spoken": "Kali ni kita makan kat kedai tomyam hujung jalan tu, nak? Dah lama tak pergi.",
+        "ms_standard": "Kali ini, mahukah awak makan bersama saya di kedai tom yam di hujung jalan itu? Kita sudah lama tidak ke sana.",
+        "zh": "这次咱们去路尽头那家冬阴功店吃，好吗？好久没去了。"
+      },
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Boleh je. Tapi pergi awal sikit lah, nanti susah nak dapat meja.",
+        "ms_standard": "Boleh. Namun, marilah kita pergi sedikit lebih awal supaya kita tidak sukar mendapatkan meja nanti.",
+        "zh": "可以啊。不过早点去吧，不然到时不好找位子。"
+      }
+    ],
+    "spoken_features": [
+      "kali ni 对应 kali ini，表示这一次。",
+      "kat 对应 di；tu 对应 itu；dah lama tak 对应 sudah lama tidak。",
+      "提议后的 nak? 是简短的意愿询问，可按语境还原为 mahukah awak。",
+      "boleh je 表示爽快接受；sikit 对应 sedikit；lah 在这里缓和建议。"
+    ]
+  },
+  "berhenti": {
+    "context": "WhatsApp / 分乘两辆车出游的朋友约好在休息站停车",
+    "messages": [
+      {
+        "speaker": "Afiq (前车乘客、朋友)",
+        "ms_spoken": "Korang nak berhenti kat R&R depan tak? Aku nak beli air kejap.",
+        "ms_standard": "Adakah kamu semua mahu berhenti di kawasan rehat dan rawat di hadapan? Saya mahu membeli air minuman sebentar.",
+        "zh": "你们要在前面的休息站停一下吗？我想买点水。"
+      },
+      {
+        "speaker": "Lina (后车乘客、朋友)",
+        "ms_spoken": "Nak, kita jumpa kat situ je. Kami pun dah lapar.",
+        "ms_standard": "Ya, kami mahu berhenti di situ. Kita berjumpa sahaja di sana. Kami juga sudah lapar.",
+        "zh": "要，咱们就在那儿碰头吧。我们也饿了。"
+      }
+    ],
+    "spoken_features": [
+      "berhenti 在这里指旅途中停车暂歇。",
+      "korang 是朋友间表示“你们”的口语形式，对应 kamu semua。",
+      "nak ... tak? 是口语中常见的意愿问句；回答 nak 表示愿意。",
+      "kat 对应 di；kejap 对应 sebentar；dah 对应 sudah；R&R 指公路休息服务区。"
+    ]
+  },
+  "ayuh": {
+    "context": "WhatsApp / 朋友用打气的语气催同伴下楼出发爬山",
+    "messages": [
+      {
+        "speaker": "Hafiz (一起爬山的朋友)",
+        "ms_spoken": "Ayuh, geng! Semua dah tunggu kat bawah ni. Kau siap belum?",
+        "ms_standard": "Ayuh, kawan-kawan! Semua orang sudah menunggu di bawah sekarang. Adakah awak sudah bersedia?",
+        "zh": "走吧，伙伴们！大家都在楼下等着了。你准备好了吗？"
+      },
+      {
+        "speaker": "Syafiq (一起爬山的朋友)",
+        "ms_spoken": "Kejap, tengah pakai kasut. Dua minit lagi aku turun!",
+        "ms_standard": "Tunggu sebentar, saya sedang memakai kasut. Saya akan turun dalam masa dua minit lagi.",
+        "zh": "等一下，正在穿鞋。我再过两分钟就下楼！"
+      }
+    ],
+    "spoken_features": [
+      "ayuh 在这里带领队式的打气、催促语气；配合 geng，适合朋友间热情的集体招呼。",
+      "geng 在这里是对一群朋友的随意称呼，标准语可用 kawan-kawan。",
+      "dah 对应 sudah；kat 对应 di；句末 ni 突出大家此刻正在等待。",
+      "siap belum? 省略完整疑问结构；tengah 对应 sedang，第二轮也省略了可由语境补出的主语。"
+    ]
+  },
+  "oleh": {
+    "context": "WhatsApp / 学生活动筹备群确认海报是否已经过老师审核",
+    "messages": [
+      {
+        "speaker": "Aina (负责发布海报的同学)",
+        "ms_spoken": "Poster ni dah disemak oleh Cikgu Farah, kan? Aku nak hantar kat grup kelas dah ni.",
+        "ms_standard": "Poster ini sudah disemak oleh Cikgu Farah, bukan? Saya mahu menghantarnya ke kumpulan sembang kelas sekarang.",
+        "zh": "这张海报法拉老师已经审核过了，对吧？我这就要发到班群里了。"
+      },
+      {
+        "speaker": "Imran (负责联络老师的同学)",
+        "ms_spoken": "Dah, cikgu kata semua okey. Hantar je, tarikh dengan tempat pun dah betul.",
+        "ms_standard": "Ya, cikgu sudah menyemaknya dan mengatakan bahawa semuanya baik. Awak boleh menghantarnya kerana tarikh dan tempat juga sudah betul.",
+        "zh": "审过了，老师说都没问题。直接发吧，日期和地点也都对了。"
+      }
+    ],
+    "spoken_features": [
+      "disemak oleh 保留被动结构，oleh 明确引出执行审核的人；此类活动事务聊天可以自然保留较正式的措辞。",
+      "ni 对应 ini；dah 对应 sudah；kan 用来向知情者确认。",
+      "hantar kat grup 在这里表示发到聊天群，标准语用 hantar ke kumpulan sembang。",
+      "hantar je 表示可以直接发送；tarikh dengan tempat 中的 dengan 起连接作用，标准语用 dan。"
+    ]
+  },
+  "melakukan": {
+    "context": "WhatsApp / 同学因再次误发作业文件而向朋友求助",
+    "messages": [
+      {
+        "speaker": "Nadia (同学)",
+        "ms_spoken": "Aku rasa aku dah melakukan kesalahan yang sama lagi. Terhantar fail lama kat pensyarah. Macam mana nak betulkan ni?",
+        "ms_standard": "Saya rasa saya telah melakukan kesalahan yang sama sekali lagi. Saya tersilap menghantar fail lama kepada pensyarah. Bagaimanakah saya boleh membetulkan kesilapan ini?",
+        "zh": "我觉得我又犯同样的错了。不小心把旧文件发给讲师了。这下要怎么补救？"
+      },
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Hantar fail yang betul sekarang, lepas tu mesej dia. Cakap je kau tersalah hantar tadi.",
+        "ms_standard": "Hantarkan fail yang betul sekarang, kemudian hantar mesej kepada pensyarah itu. Jelaskan sahaja bahawa awak tersilap menghantar fail tadi.",
+        "zh": "现在把正确的文件发过去，然后给讲师发条消息。直接说明刚才发错了就好。"
+      }
+    ],
+    "spoken_features": [
+      "melakukan kesalahan 是“犯错”的搭配；这里保留稍郑重的自责措辞，周围则使用日常聊天表达。",
+      "dah 对应 sudah；terhantar 表示非故意地发出了文件。",
+      "kat 在接收者前对应 kepada；macam mana 对应 bagaimana；ni 对应 ini。",
+      "lepas tu 对应 kemudian；cakap je 在此是让对方直接说明情况，标准语可用 jelaskan sahaja。"
+    ]
+  },
+  "semuanya": {
+    "context": "WhatsApp / 朋友聚餐后一人代付，另一人确认总额并转账",
+    "messages": [
+      {
+        "speaker": "Mei Ling (一起吃饭的朋友)",
+        "ms_spoken": "Semuanya RM30 je ke, termasuk air? Aku nak transfer bahagian aku.",
+        "ms_standard": "Adakah jumlah keseluruhannya hanya RM30, termasuk minuman? Saya mahu memindahkan wang untuk membayar bahagian saya.",
+        "zh": "包括饮料在内，总共才30令吉吗？我想把我那份转给你。"
+      },
+      {
+        "speaker": "Farah (先行付款的朋友)",
+        "ms_spoken": "Haah, RM30 untuk kita berdua. Kau transfer RM15 je, aku dah bayar tadi.",
+        "ms_standard": "Ya, jumlahnya RM30 untuk kita berdua. Awak hanya perlu memindahkan RM15 kepada saya kerana saya sudah membayar bil tadi.",
+        "zh": "对，咱们两个人一共30令吉。你转我15令吉就行，我刚才已经付过了。"
+      }
+    ],
+    "spoken_features": [
+      "semuanya 在这里询问合计金额，标准语可展开为 jumlah keseluruhannya。",
+      "je 对应 sahaja，在金额后表示“只要、而已”；ke 标记口语疑问。",
+      "haah 是口语中的肯定回答，标准语用 ya。",
+      "transfer 是聊天中常见的英语借词，此处指转账；air 在用餐语境中泛指饮料；dah 对应 sudah。"
+    ]
+  }
+}

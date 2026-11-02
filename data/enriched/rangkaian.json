@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "rangkaian",
+    "syllables": "rang.kaian",
+    "ipa": "/raŋkai̯an/",
+    "jawi": "رڠکاين",
+    "frequency_rank": 2429,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rangkaian",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "rangkai + -an → rangkaian",
+    "pattern_note": "is_root、root_word 与 root_jawi 按输入词包保留；实际构词分析为 rangkai 加名词后缀 -an，因此此处词包的词根标注与语言学分析不一致。添加 -an 时没有辅音替换。[DBP 将 rangkaian 列为 rangkai 的派生词](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=rangkai)",
+    "word_family": [
+      {
+        "word": "berangkaian",
+        "affix": "ber-",
+        "gloss": "有联系的；相互联网的"
+      },
+      {
+        "word": "merangkaikan",
+        "affix": "meN-...-kan",
+        "gloss": "把各部分连接起来"
+      }
+    ],
+    "root_jawi": "رڠکاين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "网络；由彼此联系的多个单位、节点或设施组成的系统。",
+      "en_definition": "A network of interconnected units, nodes, or facilities.",
+      "ms_definition": "Kumpulan atau sistem yang bahagian-bahagiannya berhubungan antara satu sama lain.",
+      "nuances": "强调各部分之间的连接关系，可用于电脑、通信、交通或商业系统。rangkaian 不专指互联网；rangkaian komputer 是计算机网络，Internet 是特定的全球网络。此处收录网络这一核心义。",
+      "collocations": [
+        {
+          "ms": "rangkaian komputer",
+          "zh": "计算机网络",
+          "en": "computer network"
+        },
+        {
+          "ms": "rangkaian pengangkutan",
+          "zh": "交通运输网络",
+          "en": "transport network"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 基础设施汇报",
+      "ms": "Kerajaan negeri akan memperluas rangkaian pengangkutan awam bagi menghubungkan kawasan luar bandar dengan pusat bandar.",
+      "zh": "州政府将扩展公共交通网络，连接乡村地区与市中心。",
+      "en": "The state government will expand the public transport network to connect rural areas with the city centre."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论手机信号",
+      "ms_spoken": "Rangkaian telefon kat sini lemah lah, mesej aku tak lepas.",
+      "ms_standard": "Isyarat rangkaian telefon di sini lemah, jadi mesej saya tidak dapat dihantar.",
+      "zh": "这里手机信号好弱啊，我的消息发不出去。",
+      "en": "The phone signal's weak here. My messages aren't going through.",
+      "spoken_features": [
+        "kat 对应表示地点的 di",
+        "lah 表达对当前情况的感受",
+        "tak 对应 tidak",
+        "tak lepas 在此口语语境中表示消息未能发送成功"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Rangkaian telefon kat sini lemah lah, mesej aku tak lepas.",
+          "ms_standard": "Isyarat rangkaian telefon di sini lemah, jadi mesej saya tidak dapat dihantar.",
+          "zh": "这里手机信号好弱啊，我的消息发不出去。",
+          "en": "The phone signal's weak here. My messages aren't going through."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Cuba pergi dekat tingkap kejap. Aku tadi buat macam tu je.",
+          "ms_standard": "Cuba pergi ke tepi tingkap sebentar. Saya melakukan perkara yang sama tadi.",
+          "zh": "试试到窗边站一会儿，我刚才就是这样弄的。",
+          "en": "Try going over to the window for a moment. That's what I did just now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "中性标准用词，适合技术说明与正式汇报。反映故障时说 rangkaian terganggu（网络出现故障）比直接指责对方更客观。",
+    "usage_etiquette": "说明是哪一种网络，例如 rangkaian telefon 或 rangkaian komputer；手机信号弱与网络连接中断是不同情况，报修时应描述具体表现。"
+  },
+  "etymology": {
+    "historical_story": "rangkaian 与表示连接、串联的 rangkai 相联系，构词上的 -an 使它成为表示连接体或系统的名词。把一串相连物件的形象放大，就能理解现代电脑、交通和商业网络的用法；这是理解词义联系的路径，不代表这些用法有已确定的先后年代。[DBP 词族与释义](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=rangkai)",
+    "cognitive_memory_aid": "想象把几个独立圆点用线连起来：rangkai 是连接的基本形象，rangkaian 是连成的网络。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "中性标准用词，适合技术说明与正式汇报。反映故障时说 rangkaian terganggu（网络出现故障）比直接指责对方更客观。",
+    "usage_etiquette": "说明是哪一种网络，例如 rangkaian telefon 或 rangkaian komputer；手机信号弱与网络连接中断是不同情况，报修时应描述具体表现。"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "headword": {
+    "word": "mesti",
+    "syllables": "mes.ti",
+    "ipa": "/məsti/",
+    "jawi": "مستي",
+    "frequency_rank": 223,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mesti",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mesti → mesti",
+    "pattern_note": "现代构词中整体视为词根，不拆成 mes- 与 ti。资料包同时记录 [məsti] 和 [mesti]；本词头采用前者，正字分节仍保留 PRPM 的 mes.ti。",
+    "word_family": [
+      {
+        "word": "memestikan",
+        "affix": "meN-…-kan",
+        "gloss": "强制要求；确定"
+      },
+      {
+        "word": "kemestian",
+        "affix": "ke-…-an",
+        "gloss": "必需之事；义务"
+      },
+      {
+        "word": "semestinya",
+        "affix": "se-…-nya",
+        "gloss": "理应；本来；在否定中可表不一定"
+      },
+      {
+        "word": "termesti",
+        "affix": "ter-",
+        "gloss": "被规定为必须的"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "必须；一定得；表示义务或不能省去的必要条件。",
+      "ms_definition": "tidak boleh tidak, wajib",
+      "nuances": "释义摘自 Kamus Dewan Edisi Keempat。马来语语法中属 kata bantu ragam，本 Schema 以 adverb 对应。mesti 后接动作或状态，不因人称、时间改变形式；tidak mesti 常表示不必或并非必须，不等于 dilarang 的禁止。",
+      "collocations": [
+        {
+          "ms": "mesti hadir",
+          "zh": "必须出席",
+          "en": "must attend"
+        },
+        {
+          "ms": "mesti mematuhi peraturan",
+          "zh": "必须遵守规定",
+          "en": "must follow the rules"
+        }
+      ],
+      "en_definition": "Must; be required to; used to express an obligation or an essential condition."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "一定；肯定；表示说话者很有把握的判断或推测。",
+      "ms_definition": "tentu, pasti",
+      "nuances": "释义摘自 Kamus Dewan Edisi Keempat。Dia mesti tahu 可指他一定知道，并非要求他必须知道。tidak semestinya 是不一定；别与 tidak boleh 的不可以混淆。Dewan 另收较少见的 patut、wajar 义，可在 menurut mestinya 一类表达中遇到。",
+      "collocations": [
+        {
+          "ms": "mesti tahu",
+          "zh": "一定知道",
+          "en": "must know"
+        },
+        {
+          "ms": "mesti penat",
+          "zh": "一定累了",
+          "en": "must be tired"
+        }
+      ],
+      "en_definition": "Must; surely; used to express a confident judgment or inference."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "活动管理 / 主办方公告",
+      "ms": "Semua peserta mesti mengemukakan dokumen pengenalan diri semasa pendaftaran.",
+      "zh": "所有参加者必须在登记时出示身份证明文件。",
+      "en": "All participants must present identification documents during registration."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友得知对方刚加班回家，提醒对方休息",
+      "ms_spoken": "Aku baru sampai rumah. Dari pagi sampai malam kat pejabat.",
+      "ms_standard": "Saya baru tiba di rumah. Saya berada di pejabat dari pagi hingga malam.",
+      "zh": "我刚到家。从早到晚都在办公室。",
+      "spoken_features": [
+        "mesti 在此表示根据对方工作了一整天而作出的肯定推测，标准句用 pasti。",
+        "kan 请求对方认同；kat 在此对应 di；lepas tu 对应 kemudian。",
+        "je 对应 sahaja；borak 是日常的‘聊天’，标准句用 perbualan 恢复相应表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku baru sampai rumah. Dari pagi sampai malam kat pejabat.",
+          "ms_standard": "Saya baru tiba di rumah. Saya berada di pejabat dari pagi hingga malam.",
+          "zh": "我刚到家。从早到晚都在办公室。",
+          "en": "I've just got home. I've been at the office from morning till night."
+        },
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Kau mesti penat kan? Makan dulu, lepas tu rehatlah. Esok je kita sambung borak.",
+          "ms_standard": "Awak pasti penat, bukan? Makanlah dahulu, kemudian berehat. Kita boleh menyambung perbualan esok sahaja.",
+          "zh": "你肯定累了吧？先吃点东西，再休息。咱们明天再接着聊。",
+          "en": "You must be tired, right? Have something to eat, then get some rest. We can carry on chatting tomorrow."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "mst",
+      "full_form": "mesti",
+      "note": "非正式短信省去元音的写法；仅在上下文清楚时使用，作业、公函写完整形式。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "mesti 表达要求时较直接，适合明确的规则；向不熟悉的同事或客户提出请求时，可用 boleh…?、mohon 或 sila 配合具体语境。",
+    "usage_etiquette": "区分必须遵守的要求与自己确信的推测，避免把 Dia mesti… 的猜测说成已经查证的事实。对长辈、主管或新认识的人，不照搬熟人例句中的 kau。"
+  },
+  "etymology": {
+    "origin": "未核实",
+    "source_language": "更早来源未核实；本批可确认现代马来语 mesti",
+    "root_origin": "资料包及本地马来语词条没有提供可靠历史词源；现代词根为 mesti，不凭与其他语言词形相似而指定借入来源。",
+    "historical_story": "mesti 的确切起源和传入路径在本批材料中尚不能确定，因此不编造某个港口或某位商人带来它的故事。今天它把两种常见说话需要连在一起：公告用它说明必须遵守的事，家人朋友则用它表达你一定累了这样的肯定判断。",
+    "cognitive_memory_aid": "记住两句：Kamu mesti datang 是你必须来；Kamu mesti penat 是你一定累了。先判断是在提要求，还是在作判断。"
+  }
+}

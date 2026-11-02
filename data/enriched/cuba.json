@@ -1,0 +1,190 @@
+{
+  "headword": {
+    "word": "cuba",
+    "syllables": "cu.ba",
+    "ipa": "/ˈt͡ʃuba/",
+    "jawi": "چوبا",
+    "frequency_rank": 137,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "cuba",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + cuba → cuba",
+    "pattern_note": "c 读 /t͡ʃ/；此处选词尾 /a/ 的标准读法，半岛部分口音词尾可读 /ə/。meN- + cuba → mencuba，c 保留，鼻音前缀表现为 men-；与国家名 Cuba 的 /k/ 起首读音分开。",
+    "word_family": [
+      {
+        "word": "mencuba",
+        "affix": "meN-",
+        "gloss": "尝试；试用；试吃"
+      },
+      {
+        "word": "cubaan",
+        "affix": "-an",
+        "gloss": "尝试；考验"
+      },
+      {
+        "word": "percubaan",
+        "affix": "per-...-an",
+        "gloss": "试验；尝试；试用"
+      },
+      {
+        "word": "mencubakan",
+        "affix": "meN-...-kan",
+        "gloss": "拿来试用；用于测试"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "试；尝试做某事，或试用某物以了解效果。",
+      "ms_definition": "berusaha utk membuat (memperoleh, melakukan, dll) sesuatu; memeriksa utk mengetahui keadaan sesuatu (sedap tidaknya, baik buruknya, dll)",
+      "nuances": "此义引用 Kamus Dewan 的 mencuba 子条。cuba 常见于祈使句和口语，正式陈述通常用 mencuba；表示已经尝试，不等于已经成功。",
+      "collocations": [
+        {
+          "ms": "cuba sekali lagi",
+          "zh": "再试一次",
+          "en": "try again"
+        },
+        {
+          "ms": "cuba baju",
+          "zh": "试穿衣服",
+          "en": "try on clothes"
+        }
+      ],
+      "en_definition": "To try or attempt something; to test or try something out to see what it is like or how well it works."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "请试着……；不妨……，用来较委婉地邀请或指示。",
+      "ms_definition": "haraplah, hendaklah, silalah, sudilah (sbg mengajak atau menyuruh secara halus)",
+      "nuances": "通常放在动作前，如 cuba fikir。既可温和提议，也可带提醒甚至挑战语气；是否客气还要看语调和双方关系。",
+      "collocations": [
+        {
+          "ms": "cuba fikir",
+          "zh": "试着想一想",
+          "en": "give it some thought"
+        },
+        {
+          "ms": "cuba lihat",
+          "zh": "请看看；不妨看看",
+          "en": "take a look"
+        }
+      ],
+      "en_definition": "Used to soften a request, instruction, or suggestion: try; please."
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "你看看；瞧瞧，带生气、责备或懊恼的感叹。",
+      "ms_definition": "sr kata utk menyatakan marah (kesal dll)",
+      "nuances": "此处并非真请对方尝试；词典的 sr 在本 Schema 中归入 particle。与温和的 cuba lihat 相比，责备义主要靠上下文和语调辨别。",
+      "collocations": [
+        {
+          "ms": "cuba, apa yang telah kauperbuat",
+          "zh": "看看，你都干了什么",
+          "en": "just look at what you've done!"
+        },
+        {
+          "ms": "cuba tengok perangai dia",
+          "zh": "瞧瞧他那副样子",
+          "en": "just look at how he's behaving!"
+        }
+      ],
+      "en_definition": "Used to express anger, reproach, or frustration: just look!"
+    },
+    {
+      "id": 4,
+      "pos": "conjunction",
+      "zh_definition": "假如；倘若，提出假设，常见于 cuba kalau。",
+      "ms_definition": "= cuba kalau sekiranya, seandainya",
+      "nuances": "属于词典收录的假设用法，不是所有 cuba 都可译为“假如”。现代中性正式行文通常选 sekiranya 或 jika，更容易避免歧义。",
+      "collocations": [
+        {
+          "ms": "cuba kalau",
+          "zh": "假如；试想如果",
+          "en": "suppose; what if"
+        },
+        {
+          "ms": "cuba tidak ada orang",
+          "zh": "假如没有人在场",
+          "en": "suppose no one was there"
+        }
+      ],
+      "en_definition": "If; supposing; used to introduce a hypothetical situation, often in cuba kalau."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务说明／标准书面语",
+      "ms": "Jika permohonan tidak dapat dihantar, cuba sekali lagi selepas sambungan Internet kembali stabil.",
+      "zh": "若申请无法提交，请待网络连接恢复稳定后再试一次。",
+      "en": "If the application cannot be submitted, try again after the Internet connection becomes stable."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友帮忙排查应用一直加载的问题",
+      "ms_spoken": "Aplikasi ni asyik loading je. Aku nak tengok tiket pun tak boleh.",
+      "ms_standard": "Aplikasi ini terus memuatkan kandungan tanpa selesai. Saya tidak dapat melihat tiket saya.",
+      "zh": "这个应用一直在加载。我连票都看不了。",
+      "spoken_features": [
+        "Cuba tutup 用 cuba 引出建议，意思是“试着关掉”，比直接下命令更缓和。",
+        "ni、tu 分别对应 ini、itu；lepas tu 对应 kemudian。",
+        "buka balik 在这里指重新打开，对应 buka semula。",
+        "asyik loading je 混用英语 loading，表达持续卡在加载状态。",
+        "Dah boleh buka tiket dah 的句首和句末 dah 共同突出状态已经改变，规范等值句无需逐个重复。"
+      ],
+      "messages": [
+        {
+          "speaker": "Danish (朋友)",
+          "ms_spoken": "Aplikasi ni asyik loading je. Aku nak tengok tiket pun tak boleh.",
+          "ms_standard": "Aplikasi ini terus memuatkan kandungan tanpa selesai. Saya tidak dapat melihat tiket saya.",
+          "zh": "这个应用一直在加载。我连票都看不了。",
+          "en": "This app just keeps loading. I can't even view my ticket."
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Cuba tutup aplikasi tu dulu, lepas tu buka balik. Kadang-kadang jadi macam ni.",
+          "ms_standard": "Cuba tutup aplikasi itu dahulu, kemudian buka semula. Masalah seperti ini kadangkala berlaku.",
+          "zh": "你先把那个应用关掉，再重新打开试试。有时候会这样。",
+          "en": "Try closing the app first, then opening it again. This happens sometimes."
+        },
+        {
+          "speaker": "Danish (朋友)",
+          "ms_spoken": "Dah boleh buka tiket dah. Thanks!",
+          "ms_standard": "Saya sudah dapat membuka tiket itu sekarang. Terima kasih!",
+          "zh": "现在能打开票了。谢啦！",
+          "en": "I can open my ticket now. Thanks!"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "cube",
+      "full_form": "cuba",
+      "note": "非标准聊天拼写，模拟部分半岛口音的词尾弱化；不按英语 cube 发音，正式书写用 cuba。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "cuba 可以缓和建议或指示；对陌生人可用 Encik/Puan, cuba…，并在需要时加上 boleh 或 tolong。",
+    "usage_etiquette": "Cuba fikir! 若语气强硬会像“你动动脑子”，不宜直接用于责备客户或长辈。小写 cuba 是尝试，大写 Cuba 可能指国家古巴，不能混用词源与读音。"
+  },
+  "etymology": {
+    "origin": "未确定",
+    "source_language": "马来语；更早来源未核实",
+    "root_origin": "马来语 cuba（尝试）；所给英语／西班牙语来源实际对应国家名 Cuba，不能用于本词。",
+    "historical_story": "现有材料没有交代“尝试”义 cuba 更早从何而来，不能把古巴的名称故事移接过来。在马来语的生活场景里，一句 cuba 可以请人试穿衣服，也可以请人再想一想，把实际试验与委婉邀请连在一起。词典同时收录 mencuba、cubaan 和 percubaan，展现出这个词根在现代马来语中形成的词族。",
+    "cognitive_memory_aid": "把 cuba 记成“先试一下”：cuba lagi 再试，cuba fikir 想想看；开头 c 像英语 ch。"
+  }
+}

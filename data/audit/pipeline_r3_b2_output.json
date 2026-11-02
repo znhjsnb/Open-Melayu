@@ -1,0 +1,262 @@
+{
+  "encik": {
+    "context": "WhatsApp / 顾客向打印店店员查询文件并约定取件时间",
+    "messages": [
+      {
+        "speaker": "Amir (顾客)",
+        "ms_spoken": "Encik, dokumen saya dah siap ke? Saya nak ambil petang ni.",
+        "ms_standard": "Encik, adakah dokumen saya sudah siap? Saya hendak mengambilnya pada petang ini.",
+        "zh": "先生，我的文件弄好了吗？我想今天下午来拿。"
+      },
+      {
+        "speaker": "Hafiz (打印店店员)",
+        "ms_spoken": "Dah siap, encik. Datang sebelum pukul enam ya, kedai tutup pukul enam.",
+        "ms_standard": "Dokumen encik sudah siap. Sila datang sebelum pukul enam kerana kedai kami ditutup pada pukul enam.",
+        "zh": "已经好了，先生。请六点前过来，我们店六点关门。"
+      },
+      {
+        "speaker": "Amir (顾客)",
+        "ms_spoken": "Baik, saya sampai dalam pukul lima nanti. Terima kasih, encik.",
+        "ms_standard": "Baik, saya akan tiba sekitar pukul lima nanti. Terima kasih, encik.",
+        "zh": "好的，我待会儿大概五点到。谢谢您，先生。"
+      }
+    ],
+    "spoken_features": [
+      "encik 用于顾客与店员之间的礼貌称呼；即使使用口语缩略，也能保留尊重。",
+      "dah、nak、ni 分别对应 sudah、hendak、ini。",
+      "句尾 ke 标记口语疑问，标准语可改用句首 adakah。",
+      "dalam pukul lima 在这里表示大约五点，对应标准语 sekitar pukul lima。"
+    ]
+  },
+  "sakit": {
+    "context": "WhatsApp / 好友因肚子痛取消晚上的聚餐",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Kau jadi ikut makan malam ni tak? Aku nak tempah meja dah.",
+        "ms_standard": "Adakah kamu akan ikut makan malam bersama kami pada malam ini? Saya hendak menempah meja sekarang.",
+        "zh": "你今晚还跟我们一起吃饭吗？我这就要订位了。"
+      },
+      {
+        "speaker": "Faris (朋友)",
+        "ms_spoken": "Aku tak jadi ikut lah. Perut aku sakit dari tadi. Korang makan dulu je.",
+        "ms_standard": "Saya tidak jadi ikut kerana perut saya sakit sejak tadi. Kamu semua makanlah dahulu tanpa saya.",
+        "zh": "我不去了啦，肚子从刚才就一直痛。你们先吃吧，不用等我。"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Okay, kau rehat dulu. Nanti kalau nak aku bungkuskan bubur, bagitahu je.",
+        "ms_standard": "Baik, berehatlah dahulu. Jika kamu mahu saya membelikan bubur untuk dibawa pulang nanti, beritahu saya sahaja.",
+        "zh": "好，你先休息。待会儿要是想让我帮你打包粥，跟我说一声就行。"
+      }
+    ],
+    "spoken_features": [
+      "perut aku sakit 使用 sakit 表示身体部位疼痛。",
+      "kau、aku、korang 分别用于熟人之间的你、我、你们；korang 对应 kamu semua。",
+      "句尾 tak 可构成口语的是非问句；nak、ni、je 分别对应 hendak、ini、sahaja。",
+      "dari tadi 在此口语中表示从刚才起，标准语恢复为 sejak tadi；bagitahu 对应 beritahu。"
+    ]
+  },
+  "bersedia": {
+    "context": "WhatsApp / 熟悉的同事确认次日汇报准备情况并安排试讲",
+    "messages": [
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Kau dah bersedia untuk bentang esok? Kalau nak cuba sekali dulu, aku boleh dengar.",
+        "ms_standard": "Adakah kamu sudah bersedia untuk membuat pembentangan esok? Jika kamu mahu berlatih sekali terlebih dahulu, saya boleh mendengar pembentangan kamu.",
+        "zh": "你准备好明天的汇报了吗？要是想先试讲一遍，我可以听听。"
+      },
+      {
+        "speaker": "Nadia (同事)",
+        "ms_spoken": "Belum lagi, bahagian akhir tu aku kena kemaskan sikit. Lepas makan tengah hari nanti kau free tak?",
+        "ms_standard": "Saya belum bersedia kerana saya perlu mengemaskan sedikit bahagian akhir itu. Adakah kamu mempunyai masa lapang selepas makan tengah hari nanti?",
+        "zh": "还没，最后那部分我还得稍微整理一下。待会儿吃过午饭你有空吗？"
+      },
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Free. Pukul dua kita cuba, boleh?",
+        "ms_standard": "Saya mempunyai masa lapang. Bolehkah kita berlatih pada pukul dua?",
+        "zh": "有空。我们两点试讲，行吗？"
+      }
+    ],
+    "spoken_features": [
+      "bersedia 在这里表示已做好汇报准备，搭配 untuk 引出准备进行的活动。",
+      "bentang 是此处口语中的简短动词表达，标准语恢复为 membuat pembentangan。",
+      "kena 在这里表示需要或必须，kemaskan sikit 表示稍作整理。",
+      "free 是熟人聊天中常见的英语夹用，表示有空；句尾 tak、boleh? 用于询问时间或征求同意。"
+    ]
+  },
+  "puan": {
+    "context": "WhatsApp / 蛋糕店通知顾客订单已备妥并确认取货安排",
+    "messages": [
+      {
+        "speaker": "Aina (蛋糕店店员)",
+        "ms_spoken": "Puan, kek dah siap ya. Nak ambil pukul berapa nanti?",
+        "ms_standard": "Puan, kek tempahan puan sudah siap. Pada pukul berapakah puan hendak mengambilnya nanti?",
+        "zh": "女士，您订的蛋糕已经做好了。您待会儿想几点来拿？"
+      },
+      {
+        "speaker": "Salmah (顾客)",
+        "ms_spoken": "Saya habis kerja pukul lima. Kalau sampai dalam lima setengah, sempat lagi tak?",
+        "ms_standard": "Saya selesai bekerja pada pukul lima. Jika saya tiba sekitar pukul lima setengah, adakah saya masih sempat mengambil kek itu?",
+        "zh": "我五点下班。如果大概五点半到，还来得及拿吗？"
+      },
+      {
+        "speaker": "Aina (蛋糕店店员)",
+        "ms_spoken": "Sempat, puan. Kami tutup pukul enam. Nanti sampai, bagi nama je.",
+        "ms_standard": "Puan masih sempat mengambilnya kerana kedai kami ditutup pada pukul enam. Apabila puan tiba nanti, berikan nama puan sahaja.",
+        "zh": "来得及，女士。我们六点关门。到时过来报一下您的名字就行。"
+      }
+    ],
+    "spoken_features": [
+      "puan 在这里是对女性顾客的礼貌称呼，不需要先询问对方的婚姻状况。",
+      "dah、nak、je 分别对应 sudah、hendak、sahaja；ya 使通知语气较亲切。",
+      "lima setengah 在已明确谈论取货时间的语境中指五点半，标准语补出 pukul。",
+      "bagi nama 是口语表达，对应 berikan nama；nanti sampai 省略了主语和 apabila。"
+    ]
+  },
+  "memberi": {
+    "context": "WhatsApp / 同事在私聊中感谢对方提供处理工作问题的建议",
+    "messages": [
+      {
+        "speaker": "Nabil (同事)",
+        "ms_spoken": "Terima kasih sebab sudi memberi nasihat tadi. Aku dah tahu nak cakap apa dengan bos esok.",
+        "ms_standard": "Terima kasih kerana sudi memberi nasihat tadi. Saya sudah tahu perkara yang hendak saya katakan kepada ketua esok.",
+        "zh": "谢谢你刚才愿意给我建议。我已经知道明天该怎么跟老板说了。"
+      },
+      {
+        "speaker": "Rina (同事)",
+        "ms_spoken": "Sama-sama. Cakap elok-elok je. Kalau nak aku tengok draf mesej tu dulu, hantar sini.",
+        "ms_standard": "Sama-sama. Sampaikan perkara itu dengan baik. Jika kamu mahu saya menyemak draf mesej itu terlebih dahulu, hantarkan draf tersebut kepada saya di sini.",
+        "zh": "不客气，好好说就行。如果想让我先看看消息草稿，就发到这里来。"
+      }
+    ],
+    "spoken_features": [
+      "memberi nasihat 表示给予建议；sudi memberi nasihat 带认真致谢的语气，在同事私聊中也自然。",
+      "更随意的聊天也常说 bagi nasihat，但此处保留 memberi，以呈现目标词的实际用法。",
+      "sebab 在这里连接致谢原因，标准语改用 kerana；dah、nak、je、tu 分别对应 sudah、hendak 或 mahu、sahaja、itu。",
+      "tengok draf 在这里指查看、帮忙检查草稿，标准语可恢复为 menyemak draf。"
+    ]
+  },
+  "buka": {
+    "context": "WhatsApp / 好友到家门口后发消息请屋内的朋友开门",
+    "messages": [
+      {
+        "speaker": "Imran (来访的朋友)",
+        "ms_spoken": "Aku dah sampai depan rumah kau. Tolong buka pintu jap, hujan ni.",
+        "ms_standard": "Saya sudah tiba di hadapan rumah kamu. Tolong buka pintu sebentar kerana hujan sedang turun.",
+        "zh": "我到你家门口了。帮忙开一下门，正下着雨呢。"
+      },
+      {
+        "speaker": "Hakim (住在屋内的朋友)",
+        "ms_spoken": "Jap, aku turun sekarang. Kau tunggu bawah bumbung dulu.",
+        "ms_standard": "Tunggu sebentar, saya akan turun sekarang. Kamu tunggulah di bawah bumbung dahulu.",
+        "zh": "等一下，我现在就下来。你先在屋檐下等着。"
+      }
+    ],
+    "spoken_features": [
+      "buka pintu 表示打开门；请求句中的 buka 在标准语中也可直接使用，无须改成 membuka。",
+      "dah 对应 sudah；depan rumah、bawah bumbung 在口语中省略了地点介词 di。",
+      "jap 是 sekejap 的口语缩短形式，放在回复开头时表示稍等。",
+      "hujan ni 依当前情境表示这会儿正在下雨，标准语明确为 hujan sedang turun。"
+    ]
+  },
+  "selesai": {
+    "context": "WhatsApp / 熟悉的同事协调下班前核对报表的时间",
+    "messages": [
+      {
+        "speaker": "Mei Ling (同事)",
+        "ms_spoken": "Kerja kau dah selesai ke? Aku nak semak angka dalam laporan tu dengan kau jap.",
+        "ms_standard": "Adakah kerja kamu sudah selesai? Saya hendak menyemak angka dalam laporan itu bersama kamu sebentar.",
+        "zh": "你的工作做完了吗？我想跟你花点时间核对一下那份报告里的数字。"
+      },
+      {
+        "speaker": "Azlan (同事)",
+        "ms_spoken": "Belum selesai lagi, tinggal satu bahagian je. Bagi aku sepuluh minit, nanti aku mesej kau.",
+        "ms_standard": "Kerja saya masih belum selesai dan hanya berbaki satu bahagian. Berikan saya masa sepuluh minit; selepas itu, saya akan menghantar mesej kepada kamu.",
+        "zh": "还没做完，只剩一个部分了。给我十分钟，我待会儿发消息给你。"
+      }
+    ],
+    "spoken_features": [
+      "selesai 在这里表示工作已经完成；belum selesai lagi 表示仍未完成。",
+      "dah、tu、jap、je 分别对应 sudah、itu、sekejap、sahaja。",
+      "tinggal satu bahagian 在此表示只剩一个部分，标准语可用 berbaki satu bahagian。",
+      "bagi aku sepuluh minit 是熟人之间的口语请求；mesej 直接作动词，标准语恢复为 menghantar mesej。"
+    ]
+  },
+  "menunggu": {
+    "context": "WhatsApp / 朋友在餐馆等人，发消息询问对方到哪里了",
+    "messages": [
+      {
+        "speaker": "Syafiq (等候的朋友)",
+        "ms_spoken": "Aku dah lama menunggu kat kedai ni. Kau kat mana sekarang?",
+        "ms_standard": "Saya sudah lama menunggu di kedai ini. Kamu berada di mana sekarang?",
+        "zh": "我都在这家店等好久了。你现在到哪儿了？"
+      },
+      {
+        "speaker": "Danish (赴约的朋友)",
+        "ms_spoken": "Sorry, aku baru dapat parking. Kau order dulu je, aku sampai lagi dua minit.",
+        "ms_standard": "Maaf, saya baru mendapat tempat letak kereta. Kamu pesanlah makanan dahulu; saya akan tiba dalam masa dua minit lagi.",
+        "zh": "不好意思，我刚找到停车位。你先点餐吧，我再过两分钟就到。"
+      }
+    ],
+    "spoken_features": [
+      "menunggu 在这里表示等候朋友，保留完整形式在聊天中也自然；更随意时常说 tunggu。",
+      "dah、kat、ni 分别对应 sudah、di、ini；kau kat mana 省略了 berada。",
+      "sorry、parking、order 是这段熟人聊天中的英语夹用，分别恢复为 maaf、tempat letak kereta、pesan。",
+      "lagi dua minit 表示再过两分钟，标准语恢复为 dalam masa dua minit lagi。"
+    ]
+  },
+  "sejak": {
+    "context": "WhatsApp / 好友谈搬家后少见面，并约周末喝茶",
+    "messages": [
+      {
+        "speaker": "Afiq (朋友)",
+        "ms_spoken": "Sejak kau pindah jauh ni, kita dah jarang jumpa kan? Jom minum Sabtu ni.",
+        "ms_standard": "Sejak kamu berpindah ke tempat yang jauh ini, kita sudah jarang berjumpa, bukan? Marilah kita keluar minum pada hari Sabtu ini.",
+        "zh": "自从你搬远了，我们就很少见面了，对吧？这周六出来喝点东西吧。"
+      },
+      {
+        "speaker": "Luqman (朋友)",
+        "ms_spoken": "Tu lah, aku pun rindu nak lepak dengan kau. Sabtu petang boleh, tempat biasa?",
+        "ms_standard": "Benar, saya juga rindu untuk meluangkan masa bersama kamu. Saya boleh berjumpa pada petang Sabtu. Bolehkah kita berjumpa di tempat biasa?",
+        "zh": "就是啊，我也挺想跟你聚聚的。周六下午可以，老地方？"
+      }
+    ],
+    "spoken_features": [
+      "sejak 引出搬家这个时间起点，后半句说明从那以后持续出现的情况。",
+      "ni、dah、tu 分别对应 ini、sudah、itu；pindah 在这里对应 berpindah。",
+      "kan? 用于寻求认同；tu lah 在回复中表示附和，近似中文的就是啊。",
+      "jom minum 是相约喝茶聊天；lepak 在这里表示与朋友轻松相聚，不含贬义。"
+    ]
+  },
+  "berfikir": {
+    "context": "WhatsApp / 朋友商量是否一起租房，其中一人希望多考虑一天",
+    "messages": [
+      {
+        "speaker": "Amira (朋友兼潜在室友)",
+        "ms_spoken": "Pasal rumah sewa tu, kau jadi nak kongsi dengan aku tak? Tuan rumah nak jawapan esok.",
+        "ms_standard": "Tentang rumah sewa itu, adakah kamu sudah memutuskan untuk berkongsi sewa dengan saya? Pemilik rumah mahu mendapatkan jawapan esok.",
+        "zh": "那套出租房，你决定要不要跟我合租了？房东明天要答复。"
+      },
+      {
+        "speaker": "Sofea (朋友兼潜在室友)",
+        "ms_spoken": "Aku nak berfikir dulu lah, sewa dia tinggi sikit. Esok pagi aku bagi jawapan, boleh?",
+        "ms_standard": "Saya mahu berfikir dahulu kerana kadar sewanya agak tinggi. Bolehkah saya memberikan jawapan esok pagi?",
+        "zh": "我想先考虑一下，租金有点高。我明天早上给你答复，行吗？"
+      },
+      {
+        "speaker": "Amira (朋友兼潜在室友)",
+        "ms_spoken": "Boleh, kau kira bajet dulu. Kalau rasa mahal sangat, kita cari lain je.",
+        "ms_standard": "Boleh, hitunglah bajet kamu dahulu. Jika kamu berasa rumah itu terlalu mahal, kita boleh mencari rumah lain sahaja.",
+        "zh": "可以，你先算算预算。如果觉得太贵，我们再找别的就行。"
+      }
+    ],
+    "spoken_features": [
+      "berfikir 在这里表示认真考虑合租决定；口语也常简化为 fikir，完整形式同样可用。",
+      "nak、dulu、bagi jawapan 分别对应 mahu、dahulu、memberikan jawapan。",
+      "sewa dia 中的 dia 在此口语里指房子的租金，标准语恢复为 kadar sewanya。",
+      "lah 在这里缓和暂缓决定的表达；句尾 boleh? 征求对方同意，je 对应 sahaja。"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "suhu",
+    "syllables": "su.hu",
+    "ipa": "/ˈsuhu/",
+    "jawi": "سوهو",
+    "frequency_rank": 2906,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "suhu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + suhu → suhu",
+    "pattern_note": "双音节独立词根，无词缀。bersuhu 加 ber- 后词根不变；词族中的 suhu bilik 为复合表达，不是添加词缀形成的派生词。",
+    "word_family": [
+      {
+        "word": "bersuhu",
+        "affix": "ber-",
+        "gloss": "具有某种温度"
+      },
+      {
+        "word": "suhu bilik",
+        "affix": "∅",
+        "gloss": "室温；复合表达"
+      }
+    ],
+    "root_jawi": "سوهو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "表示物体、人体或环境冷热程度的量；温度。",
+      "en_definition": "The degree of hotness or coldness of a body, substance, or environment.",
+      "ms_definition": "Panas sejuknya sesuatu benda, badan, hawa dan sebagainya.",
+      "nuances": "suhu 是温度，不等于 haba“热、热量”。常说 suhu tinggi 或 suhu rendah；说明温度值可用 pada suhu 25 darjah Celsius。suhu bilik 表示室温，具体数值依环境及使用情境而定。[DBP 释义参考](https://prpm.dbp.gov.my/cari1?keyword=suhu)",
+      "collocations": [
+        {
+          "ms": "suhu badan",
+          "zh": "体温",
+          "en": "body temperature"
+        },
+        {
+          "ms": "suhu bilik",
+          "zh": "室温",
+          "en": "room temperature"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Petugas merekodkan suhu bilik makmal pada awal setiap sesi.",
+      "zh": "工作人员在每次实验开始时记录实验室的室温。",
+      "en": "Staff record the laboratory's room temperature at the start of each session."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Suhu bilik ni 28 darjah, tapi saya rasa panas lagi lah.",
+      "ms_standard": "Suhu bilik ini ialah 28 darjah Celsius, tetapi saya masih berasa panas.",
+      "zh": "这房间28度，可我还是觉得热啊。",
+      "en": "It's 28 degrees in here, but I still feel hot.",
+      "spoken_features": [
+        "ni 对应 ini。",
+        "上下文明确时，口语可省略 Celsius。",
+        "panas lagi 在此对应 masih berasa panas。",
+        "句末 lah 加强说话者的感受。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (室友)",
+          "ms_spoken": "Suhu bilik ni berapa? Saya dah buka kipas, tapi panas lagi lah.",
+          "ms_standard": "Berapakah suhu bilik ini? Saya sudah menghidupkan kipas, tetapi saya masih berasa panas.",
+          "zh": "这房间多少度啊？我已经开风扇了，还是觉得热。",
+          "en": "What's the temperature in here? I've turned on the fan, but I'm still hot."
+        },
+        {
+          "speaker": "Mei (室友)",
+          "ms_spoken": "Termometer tunjuk 28 darjah. Nak buka tingkap kejap?",
+          "ms_standard": "Termometer menunjukkan suhu 28 darjah Celsius. Mahukah kita membuka tingkap sebentar?",
+          "zh": "温度计显示28度。要不要开会儿窗？",
+          "en": "The thermometer says 28 degrees. Shall we open the window for a bit?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用于日常、医疗及技术交流时语气中性。若要调整共用空间的空调或开窗，先用 Boleh…? 或 Nak…? 征询他人意见较自然。",
+    "usage_etiquette": "正式记录应注明摄氏或其他单位；口语中上下文明确时常只说数字加 darjah。区分房间实际 suhu 与空调设定 suhu，避免把设定值当成实测值。"
+  },
+  "etymology": {
+    "historical_story": "suhu 在马来语中是表示冷热程度的独立词，现代科学用语以它构成 suhu bilik、suhu genting 等表达。现有核实材料不足以确定它更早的来源，因此不把它与汉语“师父”的音近关系当作温度义的词源。[马来语释义](https://prpm.dbp.gov.my/cari1?keyword=suhu)及[科学术语用例](https://dev.dbp.my/index.php/jurnalbahasa/en/article/download/8687/4190/29139)",
+    "cognitive_memory_aid": "想象温度计旁标着两个音节 su-hu：水银柱往上是 suhu tinggi，往下是 suhu rendah。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "用于日常、医疗及技术交流时语气中性。若要调整共用空间的空调或开窗，先用 Boleh…? 或 Nak…? 征询他人意见较自然。",
+    "usage_etiquette": "正式记录应注明摄氏或其他单位；口语中上下文明确时常只说数字加 darjah。区分房间实际 suhu 与空调设定 suhu，避免把设定值当成实测值。"
+  }
+}

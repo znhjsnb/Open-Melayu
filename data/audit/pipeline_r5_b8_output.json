@@ -1,0 +1,296 @@
+{
+  "keras": {
+    "context": "WhatsApp / 母子讨论晚餐的牛肉",
+    "messages": [
+      {
+        "speaker": "Amir (儿子)",
+        "ms_spoken": "Mak, daging ni keras sangatlah. Penat dah kunyah.",
+        "ms_standard": "Ibu, daging ini terlalu keras. Saya sudah penat mengunyahnya.",
+        "zh": "妈，这肉也太硬了。我都嚼累了。"
+      },
+      {
+        "speaker": "Ibu (母亲)",
+        "ms_spoken": "Letak tepi dulu. Mak masak lama sikit lagi bagi empuk.",
+        "ms_standard": "Letakkan daging itu di tepi dahulu. Ibu akan memasaknya lebih lama supaya empuk.",
+        "zh": "先放一边。妈妈再多煮一会儿，让它软一点。"
+      },
+      {
+        "speaker": "Amir (儿子)",
+        "ms_spoken": "Okey, makan sayur dulu je lah kalau macam tu.",
+        "ms_standard": "Baiklah, kalau begitu, saya makan sayur sahaja dahulu.",
+        "zh": "好吧，那我就先吃菜。"
+      }
+    ],
+    "spoken_features": [
+      "ni 是 ini 的口语形式；keras 在这里形容肉质硬、难嚼。",
+      "Penat dah kunyah 省略主语和宾语；标准语恢复为 Saya sudah penat mengunyahnya。",
+      "Mak 用亲属称呼自称；masak lama sikit lagi 表示再多煮一会儿。",
+      "bagi 在这里表示让某物变成某种状态；je 对应 sahaja，macam tu 对应 begitu。"
+    ]
+  },
+  "menjaga": {
+    "context": "WhatsApp / 同事说明请假照顾母亲",
+    "messages": [
+      {
+        "speaker": "Nadia (同事)",
+        "ms_spoken": "Farah, kau cuti hari ni ke? Tak nampak kat pejabat pun.",
+        "ms_standard": "Farah, adakah kamu bercuti pada hari ini? Saya tidak melihat kamu di pejabat.",
+        "zh": "Farah，你今天休假吗？办公室里没见到你。"
+      },
+      {
+        "speaker": "Farah (同事)",
+        "ms_spoken": "Haah, aku ambil cuti sebab nak menjaga mak kat rumah. Dia demam dari semalam.",
+        "ms_standard": "Ya, saya mengambil cuti kerana hendak menjaga ibu di rumah. Beliau demam sejak semalam.",
+        "zh": "对，我请假在家照顾妈妈。她从昨天起就发烧了。"
+      },
+      {
+        "speaker": "Nadia (同事)",
+        "ms_spoken": "Oh, patutlah. Jaga mak dulu, aku boleh uruskan fail tu.",
+        "ms_standard": "Oh, begitu rupanya. Jagalah ibu kamu dahulu. Saya boleh menguruskan fail itu.",
+        "zh": "哦，难怪。你先照顾妈妈吧，那份文件我可以处理。"
+      }
+    ],
+    "spoken_features": [
+      "kau 和 aku 是熟悉的同事之间使用的随意人称；正式表达可用 kamu 和 saya。",
+      "句末 ke 构成是非问句；haah 是表示肯定的口语应答。",
+      "nak 对应 hendak，mak 对应 ibu，kat 对应 di；dari semalam 在标准句中恢复为 sejak semalam。",
+      "menjaga 在口语中也可以保留完整形式；回复中的 Jaga mak dulu 使用不带前缀的祈使形式。"
+    ]
+  },
+  "nyawa": {
+    "context": "WhatsApp / 朋友劝对方骑摩托赴约时注意安全",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Aku lambat sikit. Nak bawak motor laju sikit ni, korang dah sampai kan?",
+        "ms_standard": "Saya akan lewat sedikit. Saya hendak menunggang motosikal dengan lebih laju. Kamu semua sudah sampai, bukan?",
+        "zh": "我要晚一点到。你们都到了，对吧？我想骑快一点。"
+      },
+      {
+        "speaker": "Farid (朋友)",
+        "ms_spoken": "Eh, tak payah laju. Nyawa bukan boleh ganti. Kita tunggu je.",
+        "ms_standard": "Tidak perlu menunggang dengan laju. Nyawa tidak dapat diganti. Kami akan menunggu sahaja.",
+        "zh": "诶，不用骑快。命可没得换，我们等你就是了。"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Okey, aku bawak perlahan je. Sampai nanti aku mesej.",
+        "ms_standard": "Baiklah, saya akan menunggang dengan perlahan. Saya akan menghantar mesej apabila tiba nanti.",
+        "zh": "好，我慢慢骑。到了再给你发消息。"
+      }
+    ],
+    "spoken_features": [
+      "bawak 是 bawa 的口语写法；bawak motor 在这里指骑摩托，标准表达用 menunggang motosikal。",
+      "korang 对应 kamu semua；句末 kan 用来寻求确认。",
+      "tak payah 表示不必；bukan boleh ganti 在这里口语化地强调无法替换，标准句用 tidak dapat diganti。",
+      "kita 在这段随意聊天中指等候一方，标准句按实际所指明确为 kami；je 对应 sahaja。"
+    ]
+  },
+  "muncul": {
+    "context": "WhatsApp / 两名朋友确认赴约者是否已经露面",
+    "messages": [
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Danial dah muncul ke? Aku tunggu kat luar kafe dari tadi.",
+        "ms_standard": "Adakah Danial sudah muncul? Saya telah menunggu di luar kafe sejak tadi.",
+        "zh": "Danial露面了没？我在咖啡馆外面等好一会儿了。"
+      },
+      {
+        "speaker": "Mira (朋友)",
+        "ms_spoken": "Dah, dia kat dalam dengan aku. Masuk je, kita duduk dekat tingkap.",
+        "ms_standard": "Ya, dia sudah tiba dan berada di dalam bersama saya. Masuklah, kami duduk berhampiran tingkap.",
+        "zh": "到了，他和我在里面呢。直接进来吧，我们坐在窗边。"
+      },
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "La, ingatkan dia belum sampai. Aku masuk sekarang.",
+        "ms_standard": "Oh, saya sangka dia belum tiba. Saya akan masuk sekarang.",
+        "zh": "啊，我还以为他没到呢。我现在进去。"
+      }
+    ],
+    "spoken_features": [
+      "dah 对应 sudah；单独回复 Dah 可以表示已经到了。",
+      "kat 对应 di；dari tadi 在标准句中用 sejak tadi。",
+      "Masuk je 在这里表示直接进来即可；je 不必在每个语境中机械译成 sahaja。",
+      "La 是表示意外发现的口语感叹；ingatkan 在这里表示原以为，标准句用 saya sangka。"
+    ]
+  },
+  "it": {
+    "context": "WhatsApp / 同事协助联系 IT 人员处理笔电故障",
+    "messages": [
+      {
+        "speaker": "Lina (同事)",
+        "ms_spoken": "Laptop aku tak boleh hidup lah. Ada nombor orang IT tak?",
+        "ms_standard": "Komputer riba saya tidak dapat dihidupkan. Adakah kamu mempunyai nombor telefon kakitangan teknologi maklumat (IT)?",
+        "zh": "我的笔电开不了机。你有 IT 人员的电话号码吗？"
+      },
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Ada, aku bagi nombor Hafiz. Dia uruskan masalah laptop kat pejabat kita.",
+        "ms_standard": "Ada, saya akan memberikan nombor telefon Hafiz kepada kamu. Dia menguruskan masalah komputer riba di pejabat kita.",
+        "zh": "有，我把Hafiz的号码给你。他负责处理我们办公室的笔电问题。"
+      },
+      {
+        "speaker": "Lina (同事)",
+        "ms_spoken": "Terima kasih! Aku mesej dia kejap, nak tanya bila dia boleh tengok.",
+        "ms_standard": "Terima kasih! Saya akan menghantar mesej kepadanya sebentar lagi untuk bertanya bila dia boleh memeriksa komputer riba ini.",
+        "zh": "谢谢！我一会儿给他发消息，问问他什么时候能帮忙看看。"
+      }
+    ],
+    "spoken_features": [
+      "词条键保留 it，表示信息技术的缩写在对话中按惯例写作 IT。",
+      "laptop 是办公室聊天中常见的英语夹用；标准马来语用 komputer riba。",
+      "orang IT 指 IT 工作人员；Ada nombor ... tak? 是口语中常见的询问联系方式的句式。",
+      "bagi 在这里表示给；mesej 用作动词表示发消息；tengok 在此指检查电脑。",
+      "kejap 在 Aku mesej dia kejap 中表示稍后就发消息，标准句按语境恢复为 sebentar lagi。"
+    ]
+  },
+  "perhatian": {
+    "context": "WhatsApp / 同学课后讨论因困倦而听漏作业要求",
+    "messages": [
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Tadi cikgu suruh hantar latihan bila eh? Aku tak dapat tumpu perhatian, mengantuk sangat.",
+        "ms_standard": "Bilakah guru meminta kita menghantar latihan tadi? Saya tidak dapat menumpukan perhatian kerana terlalu mengantuk.",
+        "zh": "刚才老师说练习什么时候交来着？我太困了，集中不了精神。"
+      },
+      {
+        "speaker": "Aisyah (同学)",
+        "ms_spoken": "Esok pagi. Kau tidur lambat lagi ke semalam?",
+        "ms_standard": "Esok pagi. Adakah kamu tidur lewat lagi malam tadi?",
+        "zh": "明天早上。你昨晚又很晚才睡吗？"
+      },
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Haah, tengok drama sampai pukul dua. Malam ni kena tidur awal lah.",
+        "ms_standard": "Ya, saya menonton drama sehingga pukul dua pagi. Saya perlu tidur awal malam ini.",
+        "zh": "对，追剧追到凌晨两点。今晚得早点睡了。"
+      }
+    ],
+    "spoken_features": [
+      "bila eh 用于随意询问或回想某个信息；eh 在这里带有想确认一下的语气。",
+      "tumpu perhatian 在随意口语中省去词缀，标准句恢复为 menumpukan perhatian。",
+      "口语首句把时间疑问成分 bila 放在后面；标准句改为 Bilakah 引导。",
+      "tengok drama 对应正式表达 menonton drama；kena 在这里表示需要，ni 对应 ini。"
+    ]
+  },
+  "sebabnya": {
+    "context": "WhatsApp / 朋友询问为何不能参加晚上的聚餐",
+    "messages": [
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Malam ni kau tak ikut makan sekali ke? Semua orang datang tau.",
+        "ms_standard": "Adakah kamu tidak akan menyertai kami untuk makan bersama malam ini? Semua orang akan hadir.",
+        "zh": "今晚你不一起吃饭吗？大家都会来哦。"
+      },
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Tak dapatlah. Sebabnya esok aku kena bangun pukul lima, nak hantar mak ke stesen.",
+        "ms_standard": "Saya tidak dapat menyertai kamu semua kerana esok saya perlu bangun pada pukul lima pagi untuk menghantar ibu ke stesen.",
+        "zh": "去不了啦。因为明天我得凌晨五点起床，送妈妈去车站。"
+      },
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Oh, patutlah. Takpe, lain kali kita makan sama-sama.",
+        "ms_standard": "Oh, begitu rupanya. Tidak mengapa, kita makan bersama-sama pada kesempatan lain.",
+        "zh": "哦，难怪。没关系，下次我们再一起吃。"
+      }
+    ],
+    "spoken_features": [
+      "Sebabnya 在这里接续上一句，引出不能赴约的原因；标准句合并为 kerana 引导的原因分句。",
+      "tak dapat 在语境中省略了参加聚餐这一动作，标准句补明 menyertai kamu semua。",
+      "kena 表示必须；nak 在这里引出起床后的目的，标准句用 untuk。",
+      "tau 是 tahu 的口语写法，在句末有提醒对方的作用；takpe 对应 tidak mengapa。"
+    ]
+  },
+  "beg": {
+    "context": "WhatsApp / 姐姐请弟弟把忘在家里的包带到办公室",
+    "messages": [
+      {
+        "speaker": "Kak Sara (姐姐)",
+        "ms_spoken": "Adik, beg akak tertinggal kat rumah. Nanti kau lalu pejabat akak kan? Boleh bawakan sekali?",
+        "ms_standard": "Adik, beg kakak tertinggal di rumah. Kamu akan melalui pejabat kakak nanti, bukan? Bolehkah kamu membawakan beg itu sekali?",
+        "zh": "弟弟，姐姐的包落在家里了。你等下会经过姐姐的办公室，对吧？能顺便带过来吗？"
+      },
+      {
+        "speaker": "Aiman (弟弟)",
+        "ms_spoken": "Boleh. Beg hitam atas sofa tu ke?",
+        "ms_standard": "Boleh. Adakah beg yang dimaksudkan itu beg hitam di atas sofa?",
+        "zh": "可以。是沙发上那个黑色的包吗？"
+      },
+      {
+        "speaker": "Kak Sara (姐姐)",
+        "ms_spoken": "Haah, yang tu. Dah sampai nanti mesej akak, akak turun ambil.",
+        "ms_standard": "Ya, beg itulah yang dimaksudkan. Apabila kamu tiba nanti, hantarkan mesej kepada kakak. Kakak akan turun untuk mengambilnya.",
+        "zh": "对，就是那个。到了给姐姐发消息，姐姐下楼拿。"
+      }
+    ],
+    "spoken_features": [
+      "akak 是 kakak 的口语形式；姐姐可以用这一亲属称呼自称。",
+      "tertinggal 表示无意间把包遗留在某处，是规范词形。",
+      "Boleh bawakan sekali? 省略了可由上下文确定的宾语，sekali 在这里表示顺便一起带来。",
+      "Beg hitam atas sofa tu ke? 省略地点介词 di；tu 对应 itu，句末 ke 表示询问确认。",
+      "Dah sampai nanti 省略到达者，标准句恢复为 Apabila kamu tiba nanti。"
+    ]
+  },
+  "sistem": {
+    "context": "WhatsApp / 同事讨论线上表格提交系统卡住",
+    "messages": [
+      {
+        "speaker": "Rina (同事)",
+        "ms_spoken": "Sistem ni sangkut lagi lah. Aku tekan hantar, tapi tak jadi apa-apa.",
+        "ms_standard": "Sistem ini mengalami gangguan lagi. Saya menekan butang hantar, tetapi tiada apa-apa yang berlaku.",
+        "zh": "这系统又卡住了。我点了提交，却什么反应都没有。"
+      },
+      {
+        "speaker": "Azlan (同事)",
+        "ms_spoken": "Aku pun sama. Simpan dulu apa yang kau dah isi, takut hilang nanti.",
+        "ms_standard": "Saya juga mengalami masalah yang sama. Simpan dahulu maklumat yang telah kamu isi supaya maklumat itu tidak hilang nanti.",
+        "zh": "我这边也一样。先把你填好的内容存下来，免得等下丢了。"
+      },
+      {
+        "speaker": "Rina (同事)",
+        "ms_spoken": "Dah simpan. Nanti kalau sistem dah okey, bagitahu aku ya.",
+        "ms_standard": "Saya sudah menyimpannya. Beritahu saya apabila sistem kembali berfungsi dengan baik nanti.",
+        "zh": "已经存好了。等下系统恢复正常了，告诉我一声啊。"
+      }
+    ],
+    "spoken_features": [
+      "sangkut 原本可以表示卡住，在这里口语化地形容系统无法继续处理操作。",
+      "tekan hantar 省略了 butang；tak jadi apa-apa 在这里表示点击后没有任何反应。",
+      "Aku pun sama 省略了共同遇到的问题，标准句补明 mengalami masalah yang sama。",
+      "takut hilang nanti 表达对内容丢失的担忧，标准句按这里的劝告语境恢复为 supaya maklumat itu tidak hilang nanti。",
+      "bagitahu 是 beritahu 的口语写法；sistem dah okey 表示系统已经恢复正常。"
+    ]
+  },
+  "surat": {
+    "context": "WhatsApp / 哥哥请妹妹查看家中信箱里的大学来信",
+    "messages": [
+      {
+        "speaker": "Abang Faiz (哥哥)",
+        "ms_spoken": "Adik, surat dari universiti tu dah sampai ke? Cuba tengok peti surat kejap.",
+        "ms_standard": "Adik, adakah surat daripada universiti itu sudah sampai? Cuba periksa peti surat sebentar.",
+        "zh": "妹妹，大学寄来的那封信到了吗？帮忙看看信箱。"
+      },
+      {
+        "speaker": "Alya (妹妹)",
+        "ms_spoken": "Ada satu surat untuk abang. Nak Alya buka ke?",
+        "ms_standard": "Ada sepucuk surat untuk abang. Adakah abang mahu Alya membukanya?",
+        "zh": "有一封给哥哥的信。要Alya帮你拆开吗？"
+      },
+      {
+        "speaker": "Abang Faiz (哥哥)",
+        "ms_spoken": "Tak payah buka dulu. Letak atas meja je, nanti abang balik abang baca.",
+        "ms_standard": "Tidak perlu membukanya dahulu. Letakkan surat itu di atas meja sahaja. Abang akan membacanya apabila pulang nanti.",
+        "zh": "先不用拆。放桌上就好，等哥哥回家再看。"
+      }
+    ],
+    "spoken_features": [
+      "tu 和 dah 分别对应 itu 和 sudah；句末 ke 构成是非问句。",
+      "surat dari universiti 在这里指来自大学这一机构的信，标准句用 surat daripada universiti。",
+      "Ada satu surat 是日常说法；标准句使用书信的量词 sepucuk。",
+      "妹妹用自己的名字 Alya 自称，哥哥用 abang 自称，符合家人之间的称呼习惯。",
+      "tak payah 对应 tidak perlu；Letak atas meja 省略宾语和地点介词，标准句补为 Letakkan surat itu di atas meja。"
+    ]
+  }
+}

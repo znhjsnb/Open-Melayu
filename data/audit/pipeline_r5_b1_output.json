@@ -1,0 +1,243 @@
+{
+  "padanya": {
+    "context": "WhatsApp / 同事寻找会议室钥匙",
+    "messages": [
+      {
+        "speaker": "Nadia (同事)",
+        "ms_spoken": "Awak ada kunci bilik mesyuarat tak? Saya nak buka pintu ni.",
+        "ms_standard": "Adakah awak mempunyai kunci bilik mesyuarat? Saya hendak membuka pintu ini.",
+        "zh": "会议室钥匙在你那儿吗？我正要开门呢。"
+      },
+      {
+        "speaker": "Amir (同事)",
+        "ms_spoken": "Cuba tanya Farid. Kunci tu masih ada padanya kot, dia yang kunci pintu semalam.",
+        "ms_standard": "Cuba bertanya kepada Farid. Kunci itu mungkin masih ada padanya kerana dialah yang mengunci pintu semalam.",
+        "zh": "问问法里德吧。钥匙可能还在他那儿，昨天是他锁的门。"
+      }
+    ],
+    "spoken_features": [
+      "ada ... tak 构成口语是非问句，这里的 ada 表示持有。",
+      "nak 对应 hendak；ni 和 tu 分别是 ini 和 itu 的口语短式。",
+      "kot 表示不确定的推测，对应 mungkin。",
+      "padanya 指钥匙由前文提到的 Farid 持有；这个较书面的形式可与工作聊天中的口语表达混用。"
+    ]
+  },
+  "presiden": {
+    "context": "WhatsApp / 协会工作人员确认会长是否到场",
+    "messages": [
+      {
+        "speaker": "Aina (协会秘书)",
+        "ms_spoken": "Presiden persatuan kita dah sampai ke? Semua orang dah tunggu dalam dewan ni.",
+        "ms_standard": "Adakah presiden persatuan kita sudah tiba? Semua orang sudah menunggu di dalam dewan ini.",
+        "zh": "咱们协会会长到了吗？大家都已经在礼堂里等着了。"
+      },
+      {
+        "speaker": "Faiz (协会委员)",
+        "ms_spoken": "Dah, dia kat luar lagi, tengah jawab telefon. Kejap lagi dia masuk.",
+        "ms_standard": "Beliau sudah tiba dan masih berada di luar kerana sedang menjawab panggilan telefon. Beliau akan masuk sebentar lagi.",
+        "zh": "到了，他还在外面接电话，一会儿就进来。"
+      }
+    ],
+    "spoken_features": [
+      "presiden persatuan 在这里指协会会长。",
+      "dah 对应 sudah；句末 ke 表示询问。",
+      "kat 对应 di；kat luar lagi 在这里表示仍在外面。",
+      "tengah 对应 sedang；kejap lagi 对应 sebentar lagi。",
+      "口语用 dia 指会长，正式表达可根据其身份改用尊称 beliau。"
+    ]
+  },
+  "barang": {
+    "context": "WhatsApp / 熟悉的朋友帮忙搬家",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Barang kau kat bawah lagi. Nak aku tolong angkat tak?",
+        "ms_standard": "Barang kamu masih berada di bawah. Adakah kamu mahu saya membantu mengangkatnya?",
+        "zh": "你的东西还在楼下。要我帮你搬吗？"
+      },
+      {
+        "speaker": "Danish (朋友)",
+        "ms_spoken": "Nak! Tolong angkat kotak buku tu je. Yang lain aku boleh bawak sendiri.",
+        "ms_standard": "Ya, saya mahu. Tolong angkat kotak buku itu sahaja. Barang yang lain boleh saya bawa sendiri.",
+        "zh": "要！帮我搬那箱书就好，其他的我自己能拿。"
+      }
+    ],
+    "spoken_features": [
+      "aku 和 kau 是熟悉同辈之间的亲近称呼。",
+      "kat 对应 di；lagi 在这里表示仍然。",
+      "Nak ... tak 是口语询问意愿的句式，单独回答 Nak! 表示愿意接受帮助。",
+      "tu je 对应 itu sahaja；bawak 是 bawa 的口语形式。"
+    ]
+  },
+  "saudara": {
+    "context": "WhatsApp / 朋友询问合照里的人与对方的关系",
+    "messages": [
+      {
+        "speaker": "Danial (朋友)",
+        "ms_spoken": "Yang sebelah kau dalam gambar tu kawan sekolah kau ke?",
+        "ms_standard": "Adakah orang yang berada di sebelah kamu dalam gambar itu kawan sekolah kamu?",
+        "zh": "照片里站在你旁边的那个人，是你的同学吗？"
+      },
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Bukan, saudara aku lah. Sepupu sebelah mak, dari kecik memang rapat.",
+        "ms_standard": "Bukan, dia saudara saya, iaitu sepupu di sebelah ibu. Kami memang rapat sejak kecil.",
+        "zh": "不是啦，是我亲戚，妈妈那边的表亲。我们从小就很亲。"
+      }
+    ],
+    "spoken_features": [
+      "saudara 在这里指亲戚，后一句用 sepupu sebelah mak 明确说明亲属关系。",
+      "Yang sebelah kau 省略了可由语境补出的 orang 和表示位置的成分。",
+      "lah 在回答中带有说明和轻微纠正的语气。",
+      "mak 是 ibu 的日常称呼；kecik 是 kecil 的口语形式。",
+      "从 dari kecik memang rapat 可恢复省略的主语 kami，规范表达为 Kami memang rapat sejak kecil。"
+    ]
+  },
+  "dilakukan": {
+    "context": "WhatsApp / 同事确认报告发送前的核查进度",
+    "messages": [
+      {
+        "speaker": "Farhan (项目负责人)",
+        "ms_spoken": "Semakan tu dah dilakukan ke? Saya nak hantar laporan kat klien petang ni.",
+        "ms_standard": "Adakah semakan itu sudah dilakukan? Saya hendak menghantar laporan kepada klien pada petang ini.",
+        "zh": "核查已经做了吗？我想今天下午把报告发给客户。"
+      },
+      {
+        "speaker": "Siti (项目同事)",
+        "ms_spoken": "Dah, semua angka dah betul. Saya hantar versi akhir kat awak jap lagi ya.",
+        "ms_standard": "Ya, semakan itu sudah dilakukan dan semua angka sudah betul. Saya akan menghantar versi akhir kepada awak sebentar lagi.",
+        "zh": "做了，所有数字都已经核对无误。我一会儿把最终版发给你呀。"
+      }
+    ],
+    "spoken_features": [
+      "dilakukan 保留被动结构，突出核查是否已经完成，适合工作聊天。",
+      "tu 和 dah 分别对应 itu 和 sudah；句末 ke 表示询问。",
+      "kat 在发送对象前对应 kepada。",
+      "jap lagi 对应 sebentar lagi；句末 ya 柔化告知的语气。",
+      "回答 Dah 省略了前文已经明确的 semakan itu sudah dilakukan。"
+    ]
+  },
+  "menembak": {
+    "context": "WhatsApp / 朋友在嘉年华相约玩打靶游戏",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Jom cuba menembak sasaran kat gerai tu. Hadiah dia besar gila!",
+        "ms_standard": "Marilah kita mencuba menembak sasaran di gerai itu. Hadiah yang ditawarkan sangat besar!",
+        "zh": "走，去那个摊位试试打靶。奖品大得夸张！"
+      },
+      {
+        "speaker": "Faris (朋友)",
+        "ms_spoken": "Jom! Tapi kau cuba dulu lah, aku tak pernah main.",
+        "ms_standard": "Marilah! Tetapi kamu cubalah dahulu kerana saya belum pernah bermain permainan itu.",
+        "zh": "走！不过你先试吧，我还没玩过。"
+      }
+    ],
+    "spoken_features": [
+      "menembak sasaran 在这里指嘉年华游戏中的打靶。",
+      "jom 是日常邀约词，规范表达可用 marilah。",
+      "kat gerai tu 对应 di gerai itu。",
+      "besar gila 是朋友间的夸张说法，表示非常大；gila 在这里加强程度。",
+      "hadiah dia 在这里指该摊位提供的奖品，dia 不指某个人。",
+      "dulu lah 表示让对方先试，lah 使请求更随意。"
+    ]
+  },
+  "rakan": {
+    "context": "WhatsApp / 朋友在咖啡馆碰头并介绍旧同学",
+    "messages": [
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Aku dah sampai kat kafe. Kau duduk mana?",
+        "ms_standard": "Saya sudah tiba di kafe. Kamu duduk di mana?",
+        "zh": "我到咖啡馆了。你坐哪儿？"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Kat meja tepi tingkap. Aku dengan rakan sekolah lama aku ni. Sini lah, aku kenalkan.",
+        "ms_standard": "Saya duduk di meja di tepi tingkap bersama rakan sekolah lama saya. Marilah ke sini supaya saya dapat memperkenalkan kamu kepadanya.",
+        "zh": "在窗边那桌。我正和以前的同学一起坐着呢。过来吧，我给你们介绍一下。"
+      }
+    ],
+    "spoken_features": [
+      "rakan sekolah lama 指以前一起上学的同学；rakan 可用于聊天，熟人间也常说 kawan。",
+      "dah 和 kat 分别对应 sudah 和 di。",
+      "Kau duduk mana 省略了地点疑问词前的 di。",
+      "Aku dengan ... 在这里省略了坐着或待在一起的动作。",
+      "Sini lah 是招呼对方过来的口语省略句；aku kenalkan 省略了由语境可知的介绍对象。"
+    ]
+  },
+  "terhadap": {
+    "context": "WhatsApp / 好友谈论另一位朋友的态度变化",
+    "messages": [
+      {
+        "speaker": "Mira (好友)",
+        "ms_spoken": "Kau dengan Lina gaduh ke? Tadi korang tak tegur pun.",
+        "ms_standard": "Adakah kamu bergaduh dengan Lina? Tadi kamu berdua langsung tidak bertegur sapa.",
+        "zh": "你和丽娜吵架了吗？刚才你们连招呼都没打。"
+      },
+      {
+        "speaker": "Aina (好友)",
+        "ms_spoken": "Tak gaduh pun, tapi sikap dia terhadap aku dah berubah. Mesej aku pun dia balas sepatah je.",
+        "ms_standard": "Kami tidak bergaduh, tetapi sikapnya terhadap saya sudah berubah. Mesej saya juga dibalasnya dengan sepatah perkataan sahaja.",
+        "zh": "没吵架啊，可她对我的态度变了。连回我的消息都只回一个字。"
+      }
+    ],
+    "spoken_features": [
+      "terhadap 标明态度所指向的对象，这里是说话人自己。",
+      "korang 是 kamu orang 的口语缩合形式，指你们；此处具体指两个人。",
+      "tak gaduh pun 中的 pun 带有否认对方猜测的语气。",
+      "sikap dia 对应 sikapnya；dah 对应 sudah。",
+      "sepatah je 对应 sepatah perkataan sahaja，口语省略 perkataan。",
+      "terhadap 较书面，但在 sikap ... terhadap ... 这个搭配中可自然保留。"
+    ]
+  },
+  "siap": {
+    "context": "WhatsApp / 朋友出门前确认碰头时间",
+    "messages": [
+      {
+        "speaker": "Siti (朋友)",
+        "ms_spoken": "Aku dah siap, tengah tunggu kat bawah ni. Kau kat mana?",
+        "ms_standard": "Saya sudah siap dan sedang menunggu di bawah. Kamu berada di mana?",
+        "zh": "我准备好了，正在楼下等着呢。你在哪儿？"
+      },
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Aku turun sekarang. Kita gerak pukul lapan kan? Sempat lagi.",
+        "ms_standard": "Saya akan turun sekarang. Kita akan bertolak pada pukul lapan, bukan? Kita masih sempat.",
+        "zh": "我现在就下去。咱们是八点出发，对吧？还来得及。"
+      }
+    ],
+    "spoken_features": [
+      "siap 在这里表示已经收拾妥当、可以出门。",
+      "dah 对应 sudah；tengah 对应 sedang；kat 对应 di。",
+      "ni 在这里强调说话人此刻正在楼下等待的情况。",
+      "gerak 在出门语境中表示出发，规范表达可用 bertolak。",
+      "kan 用于确认双方已有的安排；Sempat lagi 省略主语，表示仍来得及。"
+    ]
+  },
+  "pembunuh": {
+    "context": "WhatsApp / 朋友讨论悬疑剧并避免剧透",
+    "messages": [
+      {
+        "speaker": "Faris (朋友)",
+        "ms_spoken": "Kau dah habis tengok siri tu? Aku langsung tak sangka dia pembunuh!",
+        "ms_standard": "Adakah kamu sudah selesai menonton siri itu? Saya langsung tidak menyangka bahawa dialah pembunuhnya!",
+        "zh": "你看完那部剧了吗？我完全没想到凶手竟然是那个人！"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Eh, jangan sebut nama dulu! Aku baru episod tiga. Jangan bagi petunjuk lagi, nanti aku boleh teka.",
+        "ms_standard": "Tunggu, jangan sebut namanya dahulu! Saya baru menonton sehingga episod ketiga. Jangan berikan petunjuk lagi kerana nanti saya dapat meneka identiti pembunuh itu.",
+        "zh": "诶，先别说名字！我才看到第三集。别再给提示了，不然我就猜出来了。"
+      }
+    ],
+    "spoken_features": [
+      "pembunuh 在这里指悬疑剧中的凶手。",
+      "dah habis tengok 对应 sudah selesai menonton；tu 对应 itu。",
+      "tak sangka 对应 tidak menyangka，口语可省略连接词 bahawa。",
+      "Eh 用于引起注意，这里表达急忙制止的反应。",
+      "Aku baru episod tiga 省略了观看动作，意思是才看到第三集。",
+      "bagi 在这里口语表示给予，对应 berikan；boleh teka 表示能够猜出。"
+    ]
+  }
+}

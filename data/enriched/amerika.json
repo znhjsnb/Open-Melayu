@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "amerika",
+    "syllables": "a.mé.ri.ka",
+    "ipa": "[ˌʔa.mɛˈri.ka]",
+    "jawi": "اميريکا",
+    "frequency_rank": 407,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "amerika",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Amerika → Amerika",
+    "pattern_note": "专名整词记忆，正文写 Amerika；词头小写沿用批次索引。分节 a.mé.ri.ka 取自 PRPM 定义头，保留 é。meN- 在元音前成为 meng-，形成 mengamerikakan；其名词为 pengamerikaan。",
+    "word_family": [
+      {
+        "word": "mengamerikakan",
+        "affix": "meN-...-kan",
+        "gloss": "使美国化"
+      },
+      {
+        "word": "pengamerikaan",
+        "affix": "peN-...-an",
+        "gloss": "美国化的过程"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "美国；正式全称为 Amerika Syarikat。",
+      "ms_definition": "= Amerika Syarikat negara di Amerika Utara yg ibu negaranya Washington D.C",
+      "nuances": "摘自《Kamus Dewan Edisi Keempat》，将原文占位符 ~ 展开为 Amerika。实际为专有名词，本 Schema 归 noun。单说 Amerika 常指美国；外交、新闻或正式文件首次提及时宜写 Amerika Syarikat。",
+      "collocations": [
+        {
+          "ms": "Amerika Syarikat",
+          "zh": "美国",
+          "en": "the United States of America"
+        },
+        {
+          "ms": "rakyat Amerika",
+          "zh": "美国人民；美国公民（按语境）",
+          "en": "the American people; American citizens"
+        }
+      ],
+      "en_definition": "The United States of America, a country in North America whose capital is Washington, D.C."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "美洲；把北美洲、中美洲和南美洲合起来谈论的地理名称。",
+      "ms_definition": "Huraian editorial berdasarkan gloss Kaikki: nama bagi benua Amerika secara keseluruhan, merangkumi Amerika Utara, Amerika Tengah dan Amerika Selatan.",
+      "nuances": "本义由所给 Kaikki 地理义补充，非该包 Kamus Dewan 独立编号原文。不要把整个美洲与美国混为一谈；说明区域时用 Amerika Utara、Amerika Selatan 等名称消除歧义。",
+      "collocations": [
+        {
+          "ms": "benua Amerika",
+          "zh": "美洲大陆",
+          "en": "the Americas"
+        },
+        {
+          "ms": "Amerika Selatan",
+          "zh": "南美洲",
+          "en": "South America"
+        }
+      ],
+      "en_definition": "The Americas, comprising North America, Central America, and South America."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 国际教育合作",
+      "ms": "Universiti itu menjalinkan kerjasama penyelidikan dengan beberapa institusi pengajian tinggi di Amerika Syarikat.",
+      "zh": "该大学与美国数所高等院校建立了研究合作关系。",
+      "en": "The university has established research partnerships with several higher education institutions in the United States."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈姐姐赴美国留学的计划",
+      "ms_spoken": "Kakak saya nak sambung belajar kat Amerika tahun depan. Jauh juga kan?",
+      "ms_standard": "Kakak saya hendak melanjutkan pelajaran di Amerika Syarikat pada tahun hadapan. Jauh juga, bukan?",
+      "zh": "我姐明年要去美国继续读书。也挺远的，对吧？",
+      "spoken_features": [
+        "nak 对应 hendak；kat 在此对应 di；dah 对应 sudah；tengah 对应 sedang。",
+        "sambung belajar 对应较正式的 melanjutkan pelajaran；tahun depan 对应 tahun hadapan。",
+        "Haah 是口语中的肯定回应；kan 用来寻求认同，ke 用来提问。",
+        "此处 Amerika 结合州名和留学语境指美国，标准语明确为 Amerika Syarikat；专名首字母须大写。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Kakak saya nak sambung belajar kat Amerika tahun depan. Jauh juga kan?",
+          "ms_standard": "Kakak saya hendak melanjutkan pelajaran di Amerika Syarikat pada tahun hadapan. Jauh juga, bukan?",
+          "zh": "我姐明年要去美国继续读书。也挺远的，对吧？",
+          "en": "My older sister's going to study in the States next year. That's pretty far away, isn't it?"
+        },
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Haah, jauh. Dia pergi negeri mana? Dah dapat tempat kat universiti ke?",
+          "ms_standard": "Ya, jauh. Dia akan pergi ke negeri yang mana? Adakah dia sudah mendapat tempat di universiti?",
+          "zh": "是啊，挺远的。她去哪个州？已经被大学录取了吗？",
+          "en": "Yeah, it is. Which state is she going to? Has she got a place at a university yet?"
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "California. Dah dapat tawaran, sekarang tengah urus visa pula.",
+          "ms_standard": "Dia akan pergi ke California. Dia sudah menerima tawaran kemasukan dan sekarang sedang mengurus permohonan visa.",
+          "zh": "加利福尼亚州。已经拿到录取通知了，现在正忙着办签证。",
+          "en": "California. She's got an offer, and now she's sorting out her visa."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "作为国家或地区名称，Amerika 本身中性。正式书写注意首字母大写；谈对方国籍时不宜用刻板印象替代具体事实。",
+    "usage_etiquette": "rakyat Amerika 通常指美国人，不能据此把拉丁美洲等地的人一概称为美国人。专业地理讨论应明确所指国家或区域；文化上的 pengamerikaan 可能含评价意味，需要结合具体语境。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语",
+    "root_origin": "借自英语 America；马来语使用 k 对应原词的 c，作为独立专名接纳。",
+    "historical_story": "英语地名 America 借入马来语后写成 Amerika，把地图上的名称变成新闻、求学与旅行中都能遇到的词。现代马来语常用 Amerika Syarikat 明确指美国，同时也在 benua Amerika 等地理表达中保留它的美洲含义；mengamerikakan 则把地名进一步变成描述文化影响的动词。",
+    "cognitive_memory_aid": "America 换成马来语拼写 Amerika；加 Syarikat 就锁定‘美国’，加 benua 则把视角拉到‘美洲’。"
+  }
+}

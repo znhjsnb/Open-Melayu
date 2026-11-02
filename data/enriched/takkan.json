@@ -1,0 +1,138 @@
+{
+  "headword": {
+    "word": "takkan",
+    "syllables": "taʔ.kan",
+    "ipa": "[taʔ.kan]",
+    "jawi": "تقکن",
+    "frequency_rank": 141,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tidak akan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "tidak akan → tak + kan → takkan（缩合）",
+    "pattern_note": "由否定词与情态词缩合，不是给 tak 加使役后缀 -kan；第二部分来自 akan。PRPM 未另列音节字段，此处保留官方条首 [taʔ.kan] 的分段，ʔ 表示喉塞音。",
+    "word_family": [
+      {
+        "word": "tidak",
+        "affix": "∅",
+        "gloss": "不；没有（缩合来源）"
+      },
+      {
+        "word": "tak",
+        "affix": "缩略",
+        "gloss": "不（tidak 的短式）"
+      },
+      {
+        "word": "akan",
+        "affix": "∅",
+        "gloss": "将；会（缩合来源）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "不会；将不会。否定将要发生的动作或预期结果。",
+      "ms_definition": "singkatan bagi tidak akan. (Kamus Dewan Edisi Keempat)",
+      "nuances": "置于谓语前，常带承诺、断言或预测语气。正式公文通常展开为 tidak akan；媒体引述发言可以保留 takkan。只说‘不’且不涉及将来或可能性时，通常用 tidak 或 tak。",
+      "collocations": [
+        {
+          "ms": "takkan lupa",
+          "zh": "不会忘记",
+          "en": "won't forget"
+        },
+        {
+          "ms": "takkan berulang",
+          "zh": "不会重演",
+          "en": "won't happen again"
+        }
+      ],
+      "en_definition": "Will not; a colloquial contraction of tidak akan."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "难道会……；总不至于……吧。以反问表达难以置信。",
+      "ms_definition": "masakan; mustahil. (Kamus Pelajar Edisi Kedua)",
+      "nuances": "这一用法常在句首，反问整件事的可能性，如 Takkan dia tak tahu? 意为‘他总不至于不知道吧？’。释义引自资料包中的《Kamus Pelajar》，不是《Kamus Dewan》的逐字释义；语气较口语化，可能含质疑。",
+      "collocations": [
+        {
+          "ms": "takkan tak tahu",
+          "zh": "总不至于不知道吧",
+          "en": "surely you know?"
+        },
+        {
+          "ms": "takkan begitu",
+          "zh": "不至于这样吧",
+          "en": "surely it can't be like that?"
+        }
+      ],
+      "en_definition": "Used in rhetorical questions to express disbelief or suggest that something is impossible or unlikely."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 部门发言引述",
+      "ms": "“Kami takkan berkompromi dalam soal keselamatan pengguna,” kata jurucakap syarikat itu.",
+      "zh": "该公司发言人表示：“在用户安全问题上，我们不会妥协。”",
+      "en": "“We will not compromise on user safety,” the company's spokesperson said."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两位朋友确认第二天的见面安排",
+      "ms_spoken": "Esok aku nak tidur sampai tengah hari. Penat gila minggu ni.",
+      "ms_standard": "Esok saya hendak tidur sehingga tengah hari. Saya sangat penat minggu ini.",
+      "zh": "明天我想睡到中午。这星期累死了。",
+      "spoken_features": [
+        "句首 takkan 表示难以置信的反问，此处对应 masakan，不是单纯表示“将不会”。",
+        "dah、nak、ni 分别对应 sudah、hendak 或 akan、ini；nak 的具体意思取决于语境。",
+        "penat gila 用 gila 加强“累”的程度；Alamak 表示突然想起或发现疏漏时的惊呼。",
+        "aku、kau 适用于关系亲近的朋友；set alarm 是聊天中自然的英语夹杂，标准语还原为 menetapkan penggera。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Esok aku nak tidur sampai tengah hari. Penat gila minggu ni.",
+          "ms_standard": "Esok saya hendak tidur sehingga tengah hari. Saya sangat penat minggu ini.",
+          "zh": "明天我想睡到中午。这星期累死了。",
+          "en": "I'm going to sleep till noon tomorrow. This week's been exhausting."
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Takkan kau dah lupa kita nak jumpa pukul sepuluh esok?",
+          "ms_standard": "Masakan kamu sudah lupa bahawa kita akan berjumpa pada pukul sepuluh esok?",
+          "zh": "你总不至于已经忘了我们明天十点要见面吧？",
+          "en": "Surely you haven't forgotten we're meeting at ten tomorrow?"
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Alamak, nasib kau ingatkan! Aku set alarm sekarang.",
+          "ms_standard": "Aduh, mujurlah kamu mengingatkan saya! Saya akan menetapkan penggera sekarang.",
+          "zh": "哎呀，还好你提醒我！我现在就设闹钟。",
+          "en": "Oh no, good thing you reminded me! I'll set an alarm now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "这是词典收录的缩合形式，日常交谈自然；正式函件宜用 tidak akan。用 takkan 质疑对方时，需留意语调和双方关系。",
+    "usage_etiquette": "Takkan awak tak faham? 容易让人觉得被责备。不熟悉对方时，可改用 Boleh saya jelaskan semula?（我可以再解释一次吗？）；takkan 本身不限定任何族群。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Bahasa Melayu",
+    "root_origin": "马来语内部由 tidak akan 缩合而成；同步构词是短语缩合，不是 -kan 后缀派生。",
+    "historical_story": "马来语把‘不’与‘将会’连在一起说，形成了比 tidak akan 更紧凑的 takkan，这种缩合体现了口头交流的省力倾向。如今它既能用于郑重保证，也能在反问中表示‘怎么可能’，从面对面谈话延续到即时聊天。",
+    "cognitive_memory_aid": "先记 tidak akan＝不会，再把两个词压紧成 takkan；放在反问句首时，听成‘总不至于……吧？’。"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "headword": {
+    "word": "m",
+    "syllables": null,
+    "ipa": "/ɛm/",
+    "jawi": null,
+    "frequency_rank": 785,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "m",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + m → m",
+    "pattern_note": "字母与符号条，不作词缀拆分；is_root=true 仅表示本条无派生构词。PRPM 的音节、Jawi 均缺，保留 null。IPA 为字母名 em；单位读 meter，纪年 M 读 Masihi。CEFR 为教学估级。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "马来语罗马字母表的第十三个字母，小写 m，大写 M。",
+      "ms_definition": "huruf ke-13 abjad Rumi.",
+      "nuances": "字母名 em 与辅音音值 /m/ 不同。M 和 m 在字母教学中是同一字母的大小写形式，在符号或缩写中则须注意大小写。",
+      "collocations": [
+        {
+          "ms": "huruf m kecil",
+          "zh": "小写字母 m",
+          "en": "lowercase m"
+        },
+        {
+          "ms": "huruf M besar",
+          "zh": "大写字母 M",
+          "en": "uppercase M"
+        }
+      ],
+      "en_definition": "The thirteenth letter of the Malay Latin alphabet, written m in lowercase and M in uppercase."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "米的符号 m，表示长度。",
+      "ms_definition": "kep meter.",
+      "nuances": "原义按 PRPM 缩写记录保留；计量中实际属于单位符号，此处用 noun 归类。m 小写，数值与符号间留空格，如 10 m；作为单位时读 meter。[BIPM 国际单位制手册](https://www.bipm.org/documents/20126/41483022/SI-Brochure-9.pdf)",
+      "collocations": [
+        {
+          "ms": "panjang 10 m",
+          "zh": "长 10 米",
+          "en": "10 m long"
+        },
+        {
+          "ms": "jarak 100 m",
+          "zh": "100 米的距离",
+          "en": "a distance of 100 m"
+        }
+      ],
+      "en_definition": "Symbol for the metre, a unit of length."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "公元、基督纪年的缩写，通常写作大写 M，代表 Masihi。",
+      "ms_definition": "kep Masihi; 1959~ tahun 1959 Masihi.",
+      "nuances": "本条聚合了 PRPM 的同形记录；纪年通常写 1959 M，不应因词头为小写 m 就把纪年缩写一律小写。与 Hijrah 的 H 区分；此处 noun 是对缩写的便于教学归类。",
+      "collocations": [
+        {
+          "ms": "tahun 1959 M",
+          "zh": "公元 1959 年",
+          "en": "AD 1959"
+        },
+        {
+          "ms": "abad ke-20 M",
+          "zh": "公元 20 世纪",
+          "en": "the 20th century AD"
+        }
+      ],
+      "en_definition": "Abbreviation for Masihi, indicating a year or century in the Christian era (AD)."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "工程说明 / 步道尺寸",
+      "ms": "Laluan pejalan kaki yang dicadangkan mempunyai lebar 3 m dan panjang 200 m.",
+      "zh": "拟建的人行步道宽 3 米、长 200 米。",
+      "en": "The proposed pedestrian walkway is 3 metres wide and 200 metres long."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友在停车场商量如何前往入口",
+      "ms_spoken": "Pintu masuk tu 50 m je dari tempat kita parkir. Jalan kaki je lah?",
+      "ms_standard": "Pintu masuk itu hanya 50 meter dari tempat kita meletakkan kereta. Bagaimana jika kita berjalan kaki sahaja?",
+      "zh": "入口离我们停车的地方才50米。直接走过去吧？",
+      "spoken_features": [
+        "m 是 meter 的规范单位符号，不是 WhatsApp 缩写；50 m 读作 lima puluh meter。",
+        "tu、je、nak 分别对应 itu、sahaja、hendak；kejap 在此对应 sebentar。",
+        "jalan kaki 在此对应标准表达 berjalan kaki；je lah 配合问句语调提出轻松的建议。",
+        "jom 用于邀约一起行动；kau、aku 适合这里熟悉朋友之间的关系。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Pintu masuk tu 50 m je dari tempat kita parkir. Jalan kaki je lah?",
+          "ms_standard": "Pintu masuk itu hanya 50 meter dari tempat kita meletakkan kereta. Bagaimana jika kita berjalan kaki sahaja?",
+          "zh": "入口离我们停车的地方才50米。直接走过去吧？",
+          "en": "The entrance is only 50 metres from where we parked. Shall we just walk?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jom. Kau tunggu tepi kereta dulu, aku nak ambil payung kejap.",
+          "ms_standard": "Marilah kita berjalan ke sana. Tunggulah di tepi kereta dahulu, saya hendak mengambil payung sebentar.",
+          "zh": "走吧。你先在车旁等一下，我拿个伞。",
+          "en": "Let's go. Wait by the car for a sec while I grab an umbrella."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "报告尺寸时写清数字和单位；口头沟通直接说 meter 较清楚。日期涉及不同历法时，可完整写 Masihi 或 Hijrah，方便不同背景的读者理解。",
+    "usage_etiquette": "区分 m（米）与 M（Masihi 纪年缩写）；不要把单位符号自动当作普通单词缩写或聊天暗号。使用 Masihi 说明纪年体系不等于判断某人的宗教身份。"
+  },
+  "etymology": {
+    "origin": "Latin",
+    "source_language": "拉丁字母体系；另有 meter、Masihi 的缩写用法",
+    "root_origin": "m/M 是 Rumi 字母；m 表 meter，M 可表 Masihi。这些是不同来源词语共用的字形，不存在统一的普通词词根。",
+    "historical_story": "在马来语字母表里，m 是第十三个字母，负责拼写；在步道长度标示上，它又成为 meter 的符号。历史年份旁的大写 M 则可展开为 Masihi：同一个字母进入了不同书写体系，阅读时须根据长度、拼写或纪年语境选择含义。",
+    "cognitive_memory_aid": "三格记忆：huruf m 读 em；50 m 读 lima puluh meter；1959 M 的 M 读 Masihi。"
+  }
+}

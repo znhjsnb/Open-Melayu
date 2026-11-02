@@ -1,0 +1,200 @@
+{
+  "headword": {
+    "word": "bicara",
+    "syllables": "bi.ca.ra",
+    "ipa": "[biˈt͡ʃa.rə]",
+    "jawi": "بيچارا",
+    "frequency_rank": 823,
+    "tags": [
+      "CEFR-B2",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bicara",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bicara → bicara",
+    "pattern_note": "整词借入后作为独立词根，不把 bi- 拆成前缀。c 读 /t͡ʃ/；采用资料包马来半岛南部读音，词末 a 可实现为 [ə]。音节与 Jawi 采用本地 UTF-8 原包；CEFR 为教学估级。",
+    "word_family": [
+      {
+        "word": "berbicara",
+        "affix": "ber-",
+        "gloss": "说话；讨论"
+      },
+      {
+        "word": "membicarakan",
+        "affix": "meN-…-kan",
+        "gloss": "讨论；审理"
+      },
+      {
+        "word": "perbicaraan",
+        "affix": "per-…-an",
+        "gloss": "庭审；审讯"
+      },
+      {
+        "word": "pembicaraan",
+        "affix": "peN-…-an",
+        "gloss": "谈论；讨论"
+      },
+      {
+        "word": "pembicara",
+        "affix": "peN-",
+        "gloss": "发言者"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "意见；看法，多见于古典或文学表达。",
+      "ms_definition": "pendapat",
+      "nuances": "Kamus Dewan Edisi Keempat 第一义。日常询问意见通常用 pendapat；budi bicara 是已词汇化的表达，可指酌情判断、裁量或体谅，不能机械逐字翻译。",
+      "collocations": [
+        {
+          "ms": "budi bicara",
+          "zh": "酌情判断；裁量",
+          "en": "discretion"
+        },
+        {
+          "ms": "menurut budi bicara",
+          "zh": "依照酌情判断",
+          "en": "at one's discretion"
+        }
+      ],
+      "en_definition": "An opinion or view, chiefly in classical or literary usage."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "思虑；计策；智识，多见于古典叙事。",
+      "ms_definition": "fikiran, muslihat, akal budi",
+      "nuances": "Kamus Dewan Edisi Keempat 第二义。这个意义通常依托较旧的固定表达，不宜在现代日常句中随意替换 fikiran；[DBP putus](https://ekamus.dbp.gov.my/Makna.aspx?kid=190247) 明列 putus bicara 可表示无计可施，也可表示商议结束或达成一致，须按语境区分。",
+      "collocations": [
+        {
+          "ms": "putus bicara",
+          "zh": "无计可施（思虑义）",
+          "en": "be at one's wits' end"
+        },
+        {
+          "ms": "habis bicara",
+          "zh": "计无所出；无计可施（古典义）",
+          "en": "have no ideas left"
+        }
+      ],
+      "en_definition": "Thought, ingenuity, or a stratagem, chiefly in classical usage."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "商议；议事；会议，常见于较旧的表达。",
+      "ms_definition": "mesyuarat",
+      "nuances": "Kamus Dewan Edisi Keempat 第三义。putus bicara 体现商议达成结论的旧式说法，mengadakan bicara 见 Kamus Pelajar 例句；现代正式会议通常直接称 mesyuarat 或 perbincangan。",
+      "collocations": [
+        {
+          "ms": "putus bicara",
+          "zh": "商议已有定论",
+          "en": "reach a decision after deliberation"
+        },
+        {
+          "ms": "mengadakan bicara",
+          "zh": "进行商议",
+          "en": "hold discussions"
+        }
+      ],
+      "en_definition": "A discussion, deliberation, or meeting, chiefly in older usage."
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "说话；开口表达，多见于文学或较郑重的措辞。",
+      "ms_definition": "(ber)cakap, (ber)kata",
+      "nuances": "Kamus Dewan Edisi Keempat 第四义。裸词可见于不多话等表达；马来西亚熟人聊天更常用 cakap，较完整的标准表达是 berbicara。这里按动词义标注，不能把所有带 bicara 的短语都分析成动词。",
+      "collocations": [
+        {
+          "ms": "tidak banyak bicara",
+          "zh": "不多话",
+          "en": "be a person of few words"
+        },
+        {
+          "ms": "tanpa banyak bicara",
+          "zh": "不多说话地；二话不说",
+          "en": "without saying much; without further ado"
+        }
+      ],
+      "en_definition": "To speak or talk, chiefly in literary or formal usage."
+    },
+    {
+      "id": 5,
+      "pos": "noun",
+      "zh_definition": "法庭审理；庭审中的案件。",
+      "ms_definition": "perkara di mahkamah",
+      "nuances": "Kamus Dewan Edisi Keempat 第五义。在 tarikh bicara、ulang bicara 等司法表达中指审理，不表示普通聊天。perbicaraan 通常指完整庭审过程；不要把 pembicaraan 在印尼语中的司法用法当成所有马来西亚语境的首选。",
+      "collocations": [
+        {
+          "ms": "tarikh bicara",
+          "zh": "庭审日期",
+          "en": "trial date"
+        },
+        {
+          "ms": "ulang bicara",
+          "zh": "重新审理",
+          "en": "retrial"
+        }
+      ],
+      "en_definition": "A court case or trial."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 法庭报道",
+      "ms": "Mahkamah menetapkan tarikh bicara kes itu pada bulan hadapan.",
+      "zh": "法庭将该案的庭审日期定在下个月。",
+      "en": "The court set the trial date for the case for next month."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事聊起一位话少但做事可靠的新同事",
+      "ms_spoken": "Pendiam kan budak baru tu? Masa mesyuarat tadi dia senyap je.",
+      "ms_standard": "Pekerja baharu itu pendiam, bukan? Semasa mesyuarat tadi, dia hanya berdiam diri.",
+      "zh": "新来的那个同事挺安静的，对吧？刚才开会时一直没怎么说话。",
+      "spoken_features": [
+        "kan 用来寻求认同；budak baru 在熟悉的同事间可指新来的员工，但称呼是否合适取决于关系和年龄。",
+        "haah 表示肯定回应；tak、tapi、dah 分别对应 tidak、tetapi、sudah，senyap je 表示只是静静地不说话。",
+        "tak banyak bicara 带一点书面或文学色彩，可用于聊天中的人物评价；更随意时常说 tak banyak cakap，这里只呈现‘说话’义。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pendiam kan budak baru tu? Masa mesyuarat tadi dia senyap je.",
+          "ms_standard": "Pekerja baharu itu pendiam, bukan? Semasa mesyuarat tadi, dia hanya berdiam diri.",
+          "zh": "新来的那个同事挺安静的，对吧？刚才开会时一直没怎么说话。",
+          "en": "The new colleague's pretty quiet, isn't he? He barely said a word in the meeting earlier."
+        },
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Haah, dia tak banyak bicara, tapi kerja semua dah siap. Senang aku nak sambung kerja lepas tu.",
+          "ms_standard": "Ya, dia tidak banyak bicara, tetapi semua kerjanya sudah siap. Hal itu memudahkan saya meneruskan kerja selepas itu.",
+          "zh": "是啊，话不多，活儿倒是全做好了。我接着往下做也省事。",
+          "en": "Yeah, he's a man of few words, but he'd got all the work done. Made it easy for me to pick up from there."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "与不熟悉的人商议时可用 berbincang；bicara 单独出现往往带文学或司法色彩。mohon budi bicara 是请求对方酌情处理，宜简洁说明理由。",
+    "usage_etiquette": "不要把请求 budi bicara 说成要求私人通融或绕过程序。使用 tuan、puan 或对方认可的称呼；说某人 banyak bicara 可能被理解成嫌对方话多。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "梵语",
+    "root_origin": "资料包词源：梵语 विचार vicāra，意为思考、讨论；现代马来语将 bicara 作为完整词根。",
+    "historical_story": "bicara 来自梵语 vicāra 的思考、讨论义，可把它放在印度文化与海上东南亚交往的大背景中理解，资料包没有指定它乘哪条航线传入。进入马来语后，这个词把心中思量、开口商议和法庭审理连在一起；今天 tarikh bicara 与 budi bicara 仍保留了这种审议的意味。",
+    "cognitive_memory_aid": "先思量，再商量，最后审量：bicara 把意见、说话和庭审串起来；berbicara 是说，perbicaraan 是审。"
+  }
+}

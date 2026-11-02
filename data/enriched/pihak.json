@@ -1,0 +1,155 @@
+{
+  "headword": {
+    "word": "pihak",
+    "syllables": null,
+    "ipa": "[pi.haʔ]",
+    "jawi": "ڤيهق",
+    "frequency_rank": 532,
+    "tags": [
+      "CEFR-B1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pihak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pihak → pihak；meN- + pihak → memihak",
+    "pattern_note": "pihak 为词根；加 meN- 时 p 脱落，形成 memihak。原始 PRPM syllables 字段为空，保留 null；IPA 依据词典读音整理，词尾 k 在所示读法中实现为喉塞音 [ʔ]。",
+    "word_family": [
+      {
+        "word": "berpihak",
+        "affix": "ber-",
+        "gloss": "站在某一方；支持"
+      },
+      {
+        "word": "memihak",
+        "affix": "meN-",
+        "gloss": "偏向；支持某方"
+      },
+      {
+        "word": "sepihak",
+        "affix": "se-",
+        "gloss": "单方面；一侧"
+      },
+      {
+        "word": "pemihakan",
+        "affix": "peN-…-an",
+        "gloss": "偏向或支持某一方的行为"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一方；某个团体、机构或相关当事方。",
+      "ms_definition": "salah satu drpd dua kumpulan (golongan) orang yg berlawanan dlm peperangan (permainan, politik, dll)",
+      "nuances": "引文为 Kamus Dewan 的对立双方义；并非所有 pihak 都对立。Kamus Pelajar 另列 kumpulan orang yg merupakan satu kesatuan，涵盖 pihak sekolah、pihak kerajaan 等作为一个整体的机构。pihak berkuasa 指当局；pihak ketiga 的具体身份须由语境决定。",
+      "collocations": [
+        {
+          "ms": "pihak berkuasa",
+          "zh": "当局；主管机关",
+          "en": "the authorities"
+        },
+        {
+          "ms": "kedua-dua belah pihak",
+          "zh": "双方",
+          "en": "both sides"
+        }
+      ],
+      "en_definition": "A party, group, or organization involved in a matter, especially one of two opposing sides."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "一边；侧面；某个空间方位的一侧。",
+      "ms_definition": "belah, sisi",
+      "nuances": "Kamus Dewan 原义节录。此义谈实际位置，不是政治立场；日常描述左右位置时 sebelah kanan、sebelah kiri 通常更自然。",
+      "collocations": [
+        {
+          "ms": "pihak kanan",
+          "zh": "右侧",
+          "en": "the right-hand side"
+        },
+        {
+          "ms": "pihak kiri",
+          "zh": "左侧",
+          "en": "the left-hand side"
+        }
+      ],
+      "en_definition": "A side or lateral part of something."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "方向；各个来向。",
+      "ms_definition": "arah, hala, jurusan",
+      "nuances": "Kamus Dewan 原义节录。segenap pihak 可以按语境指四面八方，也可以指社会各方；当上下文是意见、呼吁或支持时，通常指相关群体。",
+      "collocations": [
+        {
+          "ms": "dari segenap pihak",
+          "zh": "从四面八方；来自各方",
+          "en": "from all directions"
+        },
+        {
+          "ms": "dari segala pihak",
+          "zh": "从各个方向；来自各方",
+          "en": "from every direction"
+        }
+      ],
+      "en_definition": "A direction from which something comes or towards which it extends."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "地方新闻／公共服务公告",
+      "ms": "Pihak berkuasa tempatan meminta orang ramai mematuhi arahan penutupan jalan sepanjang kerja penyelenggaraan dijalankan.",
+      "zh": "地方当局呼吁民众在维修工程进行期间遵守封路指示。",
+      "en": "The local authority has asked the public to comply with road closure instructions while maintenance work is being carried out."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两位家长确认学校参观活动是否照常举行",
+      "ms_spoken": "Pihak sekolah dah balas ke? Saya nak tahu lawatan tu jadi tak.",
+      "ms_standard": "Adakah pihak sekolah sudah memberikan jawapan? Saya ingin tahu sama ada lawatan itu akan diteruskan.",
+      "zh": "校方回复了吗？我想知道那趟参观还办不办。",
+      "spoken_features": [
+        "pihak sekolah 指作为机构或相关一方的校方，是家长聊天中自然使用的表达。",
+        "dah 对应 sudah，nak 在这里对应 ingin，tu 对应 itu；jadi tak 询问活动是否会照常举行。",
+        "Belum lagi 省略了语境已知的主语和动作；update 是聊天中常见的英语夹用，标准表达可用 memaklumkan perkembangan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同班学生的家长)",
+          "ms_spoken": "Pihak sekolah dah balas ke? Saya nak tahu lawatan tu jadi tak.",
+          "ms_standard": "Adakah pihak sekolah sudah memberikan jawapan? Saya ingin tahu sama ada lawatan itu akan diteruskan.",
+          "zh": "校方回复了吗？我想知道那趟参观还办不办。",
+          "en": "Has the school got back to you yet? I'd like to know if the trip is going ahead."
+        },
+        {
+          "speaker": "Hana (同班学生的家长)",
+          "ms_spoken": "Belum lagi. Cikgu kata tunggu pengesahan bas dulu. Nanti saya update dalam grup ya.",
+          "ms_standard": "Pihak sekolah belum memberikan jawapan. Guru mengatakan bahawa pihak sekolah perlu menunggu pengesahan bas terlebih dahulu. Saya akan memaklumkan perkembangan seterusnya dalam kumpulan ini.",
+          "zh": "还没有。老师说要先等巴士安排确认下来。之后有进展，我会在群里更新呀。",
+          "en": "Not yet. The teacher said they're waiting for confirmation of the bus arrangements first. I'll post an update in the group when I hear more, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "公函中的 pihak tuan 可礼貌指称对方机构，不一定是对一名男性的私人称呼；若明确给个人写信，应按收件人的合适称谓处理。",
+    "usage_etiquette": "pihak kami 把发言者呈现为一个机构或团体的代表，使用前须确认自己确实代表该方。pihak lawan 适合竞赛或争议情境，普通协作中称 pihak berkenaan 更中性；不要无故把族群或宗教群体塑造成对立双方。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "西部马来－波利尼西亚语的重构层次",
+    "root_origin": "原包列出 *piqak（分开、分成部分）或 *pihak（一边、一半）两种重构解释，并比较古爪哇语 pihakan；不据此断言马来语直接借自爪哇语。",
+    "historical_story": "pihak 的比较词源把我们带到一件东西分成两边的空间图景，古爪哇语的相关形式也保留了边与半的概念。今天，同一个词既能指左右一侧，也能把谈判桌两边的人各称为一方，让空间分界成为理解社会关系的桥梁。它属于群岛语言的亲缘背景，现有材料没有给出某次海上贸易把它带入马来语的具体事件。",
+    "cognitive_memory_aid": "脑中画一张谈判桌：桌子有两边，两边各坐一方；pihak 把侧边和当事方连起来。"
+  }
+}

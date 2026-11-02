@@ -1,0 +1,152 @@
+{
+  "headword": {
+    "word": "tanya",
+    "syllables": "ta.nya",
+    "ipa": "/ˈtaɲa/",
+    "jawi": "تاڽ",
+    "frequency_rank": 389,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tanya",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tanya → tanya",
+    "pattern_note": "ny 表示单个腭鼻音 /ɲ/，不读成 n 加 y。ber- + tanya → bertanya；meN- + tanya + -kan → menanyakan，t 脱落；马来西亚部分口音词尾 a 读 /ə/。",
+    "word_family": [
+      {
+        "word": "bertanya",
+        "affix": "ber-",
+        "gloss": "询问；发问"
+      },
+      {
+        "word": "menanyai",
+        "affix": "meN-…-i",
+        "gloss": "询问某人"
+      },
+      {
+        "word": "menanyakan",
+        "affix": "meN-…-kan",
+        "gloss": "询问某事；另有提亲义"
+      },
+      {
+        "word": "pertanyaan",
+        "affix": "per-…-an",
+        "gloss": "询问；问题"
+      },
+      {
+        "word": "tertanya-tanya",
+        "affix": "ter- + 重叠",
+        "gloss": "心中纳闷；一直想知道"
+      },
+      {
+        "word": "penanya",
+        "affix": "peN-",
+        "gloss": "提问者"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "询问；索取说明或解释的提问。",
+      "ms_definition": "permintaan keterangan (penjelasan dll). (Kamus Dewan Edisi Keempat)",
+      "nuances": "裸词名词义多见于固定组合；一般独立说‘一个问题’用 satu soalan 或 satu pertanyaan 更自然。tanda tanya 是问号，也可比喻未解之疑。",
+      "collocations": [
+        {
+          "ms": "tanda tanya",
+          "zh": "问号；疑问",
+          "en": "question mark; doubt"
+        },
+        {
+          "ms": "tanya jawab",
+          "zh": "问答；访谈",
+          "en": "questions and answers; an interview"
+        }
+      ],
+      "en_definition": "A question or request for information or an explanation."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "问；询问；向别人请求信息或解释。",
+      "ms_definition": "bp = bertanya; bertanya meminta supaya diberitahu tentang sesuatu, meminta keterangan (penjelasan dll). (Kamus Dewan Edisi Keempat)",
+      "nuances": "DBP 将裸词作动词标为口语；正式叙述常用 bertanya。tumpang tanya 是礼貌开场；询问某人可用 bertanya kepada…，询问某事可用 bertanya tentang…。",
+      "collocations": [
+        {
+          "ms": "tumpang tanya",
+          "zh": "请问；借问一下",
+          "en": "excuse me, may I ask"
+        },
+        {
+          "ms": "tanya soalan",
+          "zh": "提问",
+          "en": "ask a question"
+        }
+      ],
+      "en_definition": "To ask someone for information or an explanation."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／调查进展报道",
+      "ms": "Keputusan siasatan itu masih menjadi tanda tanya dalam kalangan penduduk setempat.",
+      "zh": "当地居民对该调查的结果仍存疑问。",
+      "en": "The outcome of the investigation remains an open question among local residents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟客联系店员，询问当天是否已营业",
+      "ms_spoken": "Kak, nak tanya sikit. Kedai dah buka ke? Saya nak singgah beli roti.",
+      "ms_standard": "Kakak, saya hendak bertanya. Adakah kedai sudah dibuka? Saya hendak singgah untuk membeli roti.",
+      "zh": "姐，问一下。店开门了吗？我想顺路过来买面包。",
+      "spoken_features": [
+        "nak tanya 是省略主语及动词前缀的口语表达，标准改写采用 saya hendak bertanya。",
+        "sikit 字面上指‘一点’，在 nak tanya sikit 中用于软化提问，不必机械译为‘问一点点’。",
+        "Kak 和 dik 分别是 kakak、adik 的口语称呼，可用于并无亲属关系、但年龄有差距的交谈双方。",
+        "dah 对应 sudah；句末 ke 标记是非问句；datang je 在这里表达欢迎，可还原为 silakan datang。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (熟客)",
+          "ms_spoken": "Kak, nak tanya sikit. Kedai dah buka ke? Saya nak singgah beli roti.",
+          "ms_standard": "Kakak, saya hendak bertanya. Adakah kedai sudah dibuka? Saya hendak singgah untuk membeli roti.",
+          "zh": "姐，问一下。店开门了吗？我想顺路过来买面包。",
+          "en": "Hi Kak, just wanted to ask—is the shop open yet? I'd like to pop by for some bread."
+        },
+        {
+          "speaker": "Kak Yati (店员)",
+          "ms_spoken": "Dah buka, dik. Datang je, roti pun baru siap.",
+          "ms_standard": "Kedai sudah dibuka, adik. Silakan datang. Roti juga baru sahaja siap.",
+          "zh": "开门了。过来吧，面包也刚做好。",
+          "en": "Yes, dear, we're open. Come on over—the bread's just come out of the oven."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "tnya",
+      "full_form": "tanya",
+      "note": "省略首个元音的聊天写法；正式文本写 tanya 或按句法使用 bertanya。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "面对陌生人可用 Maaf, tumpang tanya…；向老师或办事人员提问时用 saya 及合适称呼。裸词动词 tanya 偏口语，bertanya 更适合正式叙述。",
+    "usage_etiquette": "询问收入、宗教实践、婚姻或家庭情况前应尊重对方意愿。原包的 ask 是英语对应词或语码转换，不是 tanya 的缩写，因此不列为聊天缩略。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic; Proto-Malayo-Polynesian",
+    "root_origin": "所给词源：原始马来语 *taɲaʔ，进一步追溯至原始马来—波利尼西亚语 *utaña。星号表示重建形式。",
+    "historical_story": "tanya 是继承的南岛语词，材料把它追溯到比现代马来语更早的重建形式。想象群岛市集里问路、询价、打听来船的对话，这些场景让‘请求别人告诉我’的意义格外直观；今天同一词根仍活在 bertanya 和手机上的 nak tanya 中。",
+    "cognitive_memory_aid": "先记 Nak tanya…＝‘想问一下……’，再把正式前缀 ber- 接上：bertanya＝询问。"
+  }
+}

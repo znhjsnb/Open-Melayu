@@ -1,0 +1,139 @@
+{
+  "timestamp": "2026-11-02T00:42:38.050Z",
+  "environment": {
+    "browser": "Chrome 156.0.8078.47 (Headless CDP)",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "endpoints": {
+      "open_melayu": "http://127.0.0.1:8766",
+      "dict_reference": "http://127.0.0.1:8765"
+    }
+  },
+  "tests": {
+    "test1_home": {
+      "title": "Open-Melayu · 把马来语读懂",
+      "itemsRendered": 50,
+      "firstWord": "saya",
+      "connectionText": " 已就绪 · 15,000 词",
+      "passed": true
+    },
+    "test2_saya": {
+      "head": "saya",
+      "jawi": "ساي",
+      "ipa": "/ˈsajə/",
+      "audioPills": 8,
+      "senses": 2,
+      "collocations": 4,
+      "storyLength": 182,
+      "memoryLength": 63,
+      "chatBubbles": 2,
+      "hasAccordion": false,
+      "badge": "★ 8维精编",
+      "hasFormula": true,
+      "passed": true
+    },
+    "test3_dengan": {
+      "head": "dengan",
+      "senses": 14,
+      "collocations": 28,
+      "storyLength": 191,
+      "chatBubbles": 2,
+      "passed": true
+    },
+    "test4_recovered_jawi": {
+      "jawiResults": {
+        "bangunan": "باڠونن",
+        "belajar": "بلاجر",
+        "kelihatan": "کليهتن"
+      },
+      "passed": true
+    },
+    "test5_pending_jawi": {
+      "pendingJawiResults": {
+        "okay": {
+          "jawiHtml": "<span class=\"jawi-pending\" title=\"未取得官方爪夷文资料\">Jawi 待补</span>",
+          "isPending": true
+        },
+        "tv": {
+          "jawiHtml": "<span class=\"jawi-pending\" title=\"未取得官方爪夷文资料\">Jawi 待补</span>",
+          "isPending": true
+        }
+      },
+      "passed": true
+    },
+    "test6_source_only": {
+      "badge": "官方原义",
+      "defOfficial": "DBP 原文: [ang.gap]  | اڠݢڤ Definisi : ; menganggap memandang ",
+      "notice": "\n        📖 DBP 原始词典数据:\n        本词包含 DBP 官方词典原始条目。构词代数公式、双境对",
+      "passed": true
+    },
+    "test7_missing_source": {
+      "badge": "待补",
+      "hasFakeDef": false,
+      "fakeOfficialBadge": false,
+      "notice": "\n        📌 官方词典收录说明:\n        本词来自马来语高频语料池（位序 #1187），PRPM 尚未",
+      "passed": true
+    },
+    "test8_search_tracks": {
+      "chinese": {
+        "query": "我",
+        "topWords": [
+          "saya",
+          "aku",
+          "kita",
+          "kami",
+          "sini"
+        ],
+        "matched": true
+      },
+      "jawi": {
+        "query": "ساي",
+        "topWords": [
+          "saya",
+          "sayang",
+          "selesai",
+          "menyelesaikan",
+          "sayangkan"
+        ],
+        "matched": true
+      },
+      "root": {
+        "query": "#root:ajar",
+        "topWords": [
+          "belajar",
+          "ajar",
+          "mengajar",
+          "pelajar",
+          "pelajari"
+        ],
+        "matched": true
+      },
+      "slang": {
+        "query": "tak",
+        "topWords": [
+          "tak",
+          "x",
+          "takkan",
+          "takut",
+          "takdir"
+        ],
+        "matched": true
+      },
+      "passed": true
+    }
+  },
+  "screenshots": {
+    "home": "C:\\Users\\d\\Documents\\open-melayu\\data\\audit\\screenshots\\01_home_screen.png",
+    "saya": "C:\\Users\\d\\Documents\\open-melayu\\data\\audit\\screenshots\\02_sample_saya_8D.png",
+    "dengan": "C:\\Users\\d\\Documents\\open-melayu\\data\\audit\\screenshots\\03_sample_dengan_14senses.png",
+    "recovered_jawi": "C:\\Users\\d\\Documents\\open-melayu\\data\\audit\\screenshots\\04_sample_bangunan_jawi.png",
+    "pending_jawi": "C:\\Users\\d\\Documents\\open-melayu\\data\\audit\\screenshots\\05_sample_okay_pending_jawi.png",
+    "source_only": "C:\\Users\\d\\Documents\\open-melayu\\data\\audit\\screenshots\\06_sample_anggap_source_only.png",
+    "missing_source": "C:\\Users\\d\\Documents\\open-melayu\\data\\audit\\screenshots\\07_sample_ayahku_missing_source.png",
+    "reference_8765": "C:\\Users\\d\\Documents\\open-melayu\\data\\audit\\screenshots\\08_dict_reference_8765.png",
+    "open_melayu_8766": "C:\\Users\\d\\Documents\\open-melayu\\data\\audit\\screenshots\\09_open_melayu_compare_8766.png"
+  },
+  "overall_passed": true
+}

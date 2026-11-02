@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "dimana",
+    "syllables": null,
+    "ipa": "[di ˈma.nə]",
+    "jawi": null,
+    "frequency_rank": 381,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: مان (mana)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mana",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "di + mana → di mana；非规范连写 → dimana",
+    "pattern_note": "这是介词 di 与疑问词 mana 组成的短语，di 不是被动前缀 di-。正式书写必须分开；句首直接提问常用 di manakah。原包未提供官方音节和 Jawi，保留 null；IPA 为半岛南部常见读法的编辑标音。 核心词根（Kata Dasar）「mana」官方爪夷文为「مان」，派生附加 派生词缀。",
+    "word_family": [
+      {
+        "word": "mana",
+        "affix": "无",
+        "gloss": "哪里；哪一个"
+      },
+      {
+        "word": "di manakah",
+        "affix": "-kah（附于 mana）",
+        "gloss": "在哪里呢；正式问法"
+      },
+      {
+        "word": "di mana-mana",
+        "affix": "重叠 mana",
+        "gloss": "到处；在任何地方"
+      }
+    ],
+    "root_jawi": "مان"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "在哪里；询问或指向尚不清楚的所在位置。规范拼写为 di mana。",
+      "ms_definition": "Huraian editorial bagi di mana: frasa tanya untuk menanyakan tempat atau kedudukan sesuatu.",
+      "nuances": "按本 Schema 归入疑问副词，马来语语法中是疑问短语。原包没有 dimana 的 Kamus Dewan 定义，此处为编辑释义。DBP 规范 di mana 分写；不把它当英语 where 一样随意连接说明性从句，尤其避免用它替代 yang 或 iaitu。规范依据：https://eseminar.dbp.gov.my/dokumen/ejaan.pdf；https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyoalkan 。",
+      "collocations": [
+        {
+          "ms": "tinggal di mana",
+          "zh": "住在哪里",
+          "en": "where someone lives"
+        },
+        {
+          "ms": "berjumpa di mana",
+          "zh": "在哪里见面",
+          "en": "where to meet"
+        }
+      ],
+      "en_definition": "Where; used to ask or indicate the location of someone or something. The standard spelling is di mana."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育报道／规范拼写说明",
+      "ms": "Peserta bengkel diingatkan bahawa ejaan ‘dimana’ perlu dibetulkan kepada ‘di mana’ dalam penulisan rasmi.",
+      "zh": "工作坊提醒参与者，在正式写作中应将 dimana 改为 di mana。",
+      "en": "Workshop participants were reminded that the spelling ‘dimana’ should be corrected to ‘di mana’ in formal writing."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两个朋友在商场碰面，确认等候地点",
+      "ms_spoken": "Kau dimana? Aku dah sampai depan kedai kasut ni.",
+      "ms_standard": "Kamu di mana? Saya sudah tiba di hadapan kedai kasut ini.",
+      "zh": "你在哪儿？我已经到这家鞋店门口了。",
+      "spoken_features": [
+        "dimana 是聊天中可见的连写形式；规范拼写为 di mana，正式书写必须分开。",
+        "kau 和 aku 是亲近朋友之间的称呼，使用时须符合双方的关系与习惯。",
+        "dah 对应 sudah；depan 对应 di hadapan；ni 对应 ini。",
+        "kat 对应 di；lagi 在这里表示‘还’；je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Kau dimana? Aku dah sampai depan kedai kasut ni.",
+          "ms_standard": "Kamu di mana? Saya sudah tiba di hadapan kedai kasut ini.",
+          "zh": "你在哪儿？我已经到这家鞋店门口了。",
+          "en": "Where are you? I'm already outside this shoe shop."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku kat tingkat atas lagi. Tunggu situ je, aku turun sekarang.",
+          "ms_standard": "Saya masih di tingkat atas. Tunggu sahaja di situ. Saya turun sekarang.",
+          "zh": "我还在楼上。你就在那儿等，我现在下来。",
+          "en": "I'm still upstairs. Just wait there—I'm coming down now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "dmn",
+      "full_form": "di mana",
+      "note": "原包提供的聊天缩写；正式写作恢复为空格分写。"
+    },
+    {
+      "abbr": "dmana",
+      "full_form": "di mana",
+      "note": "原包提供的省写形式，仅用于能看懂的私人聊天。"
+    },
+    {
+      "abbr": "dmna",
+      "full_form": "di mana",
+      "note": "原包提供的省元音形式，不用于作业、公文或公告。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "向不熟悉的人问地点可说 Maaf, tandas di mana?；正式提问用 Di manakah…?，语气自然有礼即可。",
+    "usage_etiquette": "询问朋友位置时 di mana 或 kat mana 都自然；追问住址、实时位置前应顾及对方是否愿意透露。dimana 的连写不要带入考试或正式文件。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Bahasa Melayu",
+    "root_origin": "本土位置介词 di 与疑问词 mana 的组合；不是独立借词，也不是 di- 派生的动词。更早的 mana 词源在原包中未提供。",
+    "historical_story": "想象在码头问船停在哪里：这个画面只是帮助理解 di 表示位置、mana 提出疑问，并非这个短语首次出现的史料。现代规范将两部分写作 di mana；这批字幕材料中的 dimana 则保留了实际出现的连写形式。",
+    "cognitive_memory_aid": "di＝在，mana＝哪里：两个意思、两个词，正式写作中间留一个空格。"
+  }
+}

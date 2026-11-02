@@ -1,0 +1,232 @@
+{
+  "ruang": {
+    "context": "WhatsApp / 朋友到访，主人招呼入座",
+    "messages": [
+      {
+        "speaker": "Haziq (来访的朋友)",
+        "ms_spoken": "Aku dah sampai depan rumah kau. Nak tunggu kat mana?",
+        "ms_standard": "Saya sudah tiba di hadapan rumah awak. Di manakah saya perlu menunggu?",
+        "zh": "我已经到你家门口了。要在哪里等？"
+      },
+      {
+        "speaker": "Farhan (招待朋友的主人)",
+        "ms_spoken": "Masuk je, duduk kat ruang tamu dulu. Aku tengah buat air.",
+        "ms_standard": "Masuklah dan duduk di ruang tamu dahulu. Saya sedang menyediakan minuman.",
+        "zh": "直接进来吧，先在客厅坐。我正在准备饮料。"
+      }
+    ],
+    "spoken_features": [
+      "aku、kau 是熟朋友之间常用的非正式人称代词，标准表达改用 saya、awak。",
+      "dah 对应 sudah；nak 在问句中结合语境表达下一步该怎么做。",
+      "kat 对应地点介词 di；je 对应 sahaja，在 Masuk je 中表示直接进来即可。",
+      "tengah 对应 sedang；buat air 在这里指准备饮料。ruang tamu 指客厅。"
+    ]
+  },
+  "pistol": {
+    "context": "WhatsApp / 家长看照片，询问孩子拿着的玩具",
+    "messages": [
+      {
+        "speaker": "Aina (孩子的母亲)",
+        "ms_spoken": "Pistol yang Amir pegang dalam gambar tu pistol mainan ke?",
+        "ms_standard": "Adakah pistol yang dipegang oleh Amir dalam gambar itu pistol mainan?",
+        "zh": "照片里阿米尔拿着的那把枪是玩具枪吗？"
+      },
+      {
+        "speaker": "Hakim (孩子的父亲)",
+        "ms_spoken": "Haah, pistol air je. Budak-budak nak main kat luar nanti.",
+        "ms_standard": "Ya, itu hanya pistol air. Kanak-kanak hendak bermain di luar sebentar lagi.",
+        "zh": "对，只是水枪。孩子们等下想在外面玩。"
+      }
+    ],
+    "spoken_features": [
+      "tu 对应 itu；句末 ke 构成口语是非问句，标准句用 adakah。",
+      "Haah 是口语中表示肯定的回应，对应 ya。",
+      "je 对应 sahaja；budak-budak 在这里对应 kanak-kanak。",
+      "nak 对应 hendak；kat luar 对应 di luar。pistol air 是水枪的固定搭配。"
+    ]
+  },
+  "misi": {
+    "context": "WhatsApp / 朋友商量晚餐，幽默地把找吃当作任务",
+    "messages": [
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Malam ni nak makan apa? Aku dah lapar ni.",
+        "ms_standard": "Apakah yang hendak kita makan pada malam ini? Saya sudah lapar.",
+        "zh": "今晚要吃什么？我已经饿了。"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Misi kita malam ni: cari nasi lemak paling sedap kat sini. Jom!",
+        "ms_standard": "Misi kita pada malam ini ialah mencari nasi lemak yang paling sedap di sini. Marilah kita pergi!",
+        "zh": "咱们今晚的任务：找到这里最好吃的椰浆饭。走吧！"
+      }
+    ],
+    "spoken_features": [
+      "malam ni 对应 malam ini；dah 对应 sudah。",
+      "Aku dah lapar ni 中的句末 ni 突出眼下已经饿了的状态。",
+      "口语用冒号式停顿直接交代任务，标准句补出 ialah 和 yang。",
+      "kat 对应 di；jom 表示邀请一起行动。这里的 misi 是把日常找吃幽默地说成任务。"
+    ]
+  },
+  "tarik": {
+    "context": "WhatsApp / 朋友搬家具，提醒对方等人帮忙",
+    "messages": [
+      {
+        "speaker": "Daniel (帮忙搬家具的朋友)",
+        "ms_spoken": "Meja ni nak letak kat mana? Aku tarik ke tepi je, boleh?",
+        "ms_standard": "Di manakah meja ini hendak diletakkan? Bolehkah saya menariknya ke tepi sahaja?",
+        "zh": "这张桌子要放哪里？我把它拉到旁边，可以吗？"
+      },
+      {
+        "speaker": "Farhan (正在赶来的朋友)",
+        "ms_spoken": "Jangan tarik sorang-sorang, berat tu. Tunggu aku sampai dulu.",
+        "ms_standard": "Jangan menarik meja itu seorang diri kerana meja itu berat. Tunggu sehingga saya tiba dahulu.",
+        "zh": "别一个人拉，那张桌子很重。先等我到了再说。"
+      }
+    ],
+    "spoken_features": [
+      "ni 对应 ini；kat 对应 di；je 对应 sahaja。",
+      "口语主动句 Aku tarik 直接使用词根 tarik，标准句恢复为 menarik。",
+      "sorang-sorang 在这里对应 seorang diri，表示独自一人。",
+      "berat tu 是省略主语的口语提醒；dulu 对应 dahulu。这里的 tarik 表示拉动桌子。"
+    ]
+  },
+  "sekitar": {
+    "context": "WhatsApp / 朋友肚子饿，决定在附近找店吃饭",
+    "messages": [
+      {
+        "speaker": "Mei Ling (朋友)",
+        "ms_spoken": "Kau nak makan kat mana? Aku dah lapar ni.",
+        "ms_standard": "Di manakah awak hendak makan? Saya sudah lapar.",
+        "zh": "你想去哪里吃？我已经饿了。"
+      },
+      {
+        "speaker": "Siti (朋友)",
+        "ms_spoken": "Kita cari kedai makan sekitar sini je lah. Tak payah gi jauh.",
+        "ms_standard": "Marilah kita mencari kedai makan di sekitar sini sahaja. Kita tidak perlu pergi jauh.",
+        "zh": "咱们就在这附近找家店吃吧。不用跑远。"
+      }
+    ],
+    "spoken_features": [
+      "nak 对应 hendak；kat 对应 di；dah 对应 sudah。",
+      "sekitar sini 表示这附近，口语中可省略前面的地点介词 di。",
+      "je lah 把建议说得随和，带有就这样吧的语气。",
+      "tak payah 对应 tidak perlu；gi 是 pergi 的口语缩略。"
+    ]
+  },
+  "jom": {
+    "context": "WhatsApp / 同事午休时相约吃午餐",
+    "messages": [
+      {
+        "speaker": "Siti (同事)",
+        "ms_spoken": "Dah pukul satu ni. Kau dah makan belum?",
+        "ms_standard": "Sekarang sudah pukul satu. Adakah awak sudah makan?",
+        "zh": "都一点了。你吃饭了吗？"
+      },
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Belum. Jom makan kat kedai depan tu, aku dah lapar!",
+        "ms_standard": "Belum. Marilah kita makan di kedai di hadapan itu. Saya sudah lapar!",
+        "zh": "还没。去前面那家店吃吧，我已经饿了！"
+      }
+    ],
+    "spoken_features": [
+      "jom 用于邀请对方共同采取行动，在这里对应 marilah kita。",
+      "dah 对应 sudah；dah makan belum 是常见口语问法，询问是否已经吃过饭。",
+      "kat 对应 di；depan tu 对应 di hadapan itu。",
+      "aku、kau 体现关系熟悉的同事之间的非正式语气。"
+    ]
+  },
+  "bayar": {
+    "context": "WhatsApp / 两位朋友吃完饭，商量结账和转账",
+    "messages": [
+      {
+        "speaker": "Aina (一起吃饭的朋友)",
+        "ms_spoken": "Bil semua RM48. Nak bayar asing-asing ke?",
+        "ms_standard": "Jumlah bil ialah RM48. Adakah kita hendak membayar secara berasingan?",
+        "zh": "账单一共48令吉。要分开付吗？"
+      },
+      {
+        "speaker": "Siti (一起吃饭的朋友)",
+        "ms_spoken": "Aku bayar dulu lah. Nanti kau transfer RM24 kat aku, boleh?",
+        "ms_standard": "Saya akan membayar dahulu. Bolehkah awak memindahkan wang sebanyak RM24 kepada saya selepas itu?",
+        "zh": "我先付吧。等下你转24令吉给我，可以吗？"
+      }
+    ],
+    "spoken_features": [
+      "口语主动句直接用 bayar，标准句恢复为 membayar。",
+      "asing-asing 表示分开，标准表达为 secara berasingan；句末 ke 标记是非问句。",
+      "dulu 对应 dahulu；lah 缓和主动垫付的提议。",
+      "transfer 是聊天中夹用的英语动词，表示转账；kat aku 在这里对应 kepada saya，表示收款对象。"
+    ]
+  },
+  "bergurau": {
+    "context": "WhatsApp / 朋友误以为自己没被邀请，对方解释刚才在开玩笑",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Eh, kau betul-betul tak nak ajak aku gi makan ke?",
+        "ms_standard": "Adakah awak benar-benar tidak mahu mengajak saya pergi makan?",
+        "zh": "诶，你真的不打算叫我一起去吃饭啊？"
+      },
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Eh, aku bergurau je tadi! Jomlah sekali, jangan merajuk.",
+        "ms_standard": "Saya hanya bergurau tadi! Marilah pergi bersama-sama dan jangan merajuk.",
+        "zh": "诶，我刚才只是开玩笑！一起去啦，别闹别扭。"
+      }
+    ],
+    "spoken_features": [
+      "Eh 用来引起注意或表达意外，两轮中分别带有疑问和急忙解释的语气。",
+      "tak nak 对应 tidak mahu；gi 对应 pergi；句末 ke 标记疑问。",
+      "bergurau je 对应 hanya bergurau；bergurau 本身就是自然的完整口语形式。",
+      "Jomlah sekali 在这里邀请对方一同前往，sekali 表示一起，lah 使邀请带有劝说语气。"
+    ]
+  },
+  "nya": {
+    "context": "WhatsApp / 朋友询问外带早餐的味道，对方感叹很好吃",
+    "messages": [
+      {
+        "speaker": "Siti (帮忙买早餐的朋友)",
+        "ms_spoken": "Dah rasa nasi lemak yang aku belikan tadi?",
+        "ms_standard": "Adakah awak sudah merasa nasi lemak yang saya belikan untuk awak tadi?",
+        "zh": "尝过我刚才帮你买的椰浆饭了吗？"
+      },
+      {
+        "speaker": "Mei Ling (收到早餐的朋友)",
+        "ms_spoken": "Dah. Sedapnya nasi lemak ni! Ada lebih tak? Aku nak tambah lah.",
+        "ms_standard": "Sudah. Nasi lemak ini sungguh sedap! Adakah masih ada lagi? Saya hendak menambah hidangan.",
+        "zh": "尝过了。这椰浆饭真好吃啊！还有多的吗？我想再添一点。"
+      }
+    ],
+    "spoken_features": [
+      "Sedapnya 中的 -nya 附在形容词 sedap 后表示感叹和程度强调，不表示所属。",
+      "dah 对应 sudah；ni 对应 ini；nak 对应 hendak。",
+      "Ada lebih tak 使用句末 tak 构成口语是非问句，在这里询问是否还有多余的食物。",
+      "tambah 根据吃饭的语境表示再添一些；lah 使表达更随意、亲近。"
+    ]
+  },
+  "utama": {
+    "context": "WhatsApp / 朋友讨论换工作，说明最主要的考虑",
+    "messages": [
+      {
+        "speaker": "Farhan (朋友)",
+        "ms_spoken": "Kau nak tukar kerja sebab gaji kat situ rendah ke?",
+        "ms_standard": "Adakah awak hendak bertukar kerja kerana gaji di tempat itu rendah?",
+        "zh": "你想换工作，是因为那里的薪水低吗？"
+      },
+      {
+        "speaker": "Haziq (考虑换工作的朋友)",
+        "ms_spoken": "Gaji bukan sebab utama. Aku dah penat ulang-alik jauh tiap-tiap hari lah.",
+        "ms_standard": "Gaji bukan sebab utama saya hendak bertukar kerja. Saya sudah penat berulang-alik dalam perjalanan yang jauh setiap hari.",
+        "zh": "薪水不是主要原因。我每天跑那么远上下班，已经累了啦。"
+      }
+    ],
+    "spoken_features": [
+      "nak 对应 hendak；tukar kerja 是常用口语表达，标准句用 bertukar kerja。",
+      "kat situ 对应 di tempat itu；句末 ke 标记是非问句。",
+      "dah 对应 sudah；ulang-alik 在标准句中恢复为 berulang-alik；tiap-tiap hari 对应 setiap hari。",
+      "sebab utama 表示主要原因；口语省略了上一轮已明确的换工作这一内容，句末 lah 加强解释语气。"
+    ]
+  }
+}

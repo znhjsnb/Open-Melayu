@@ -1,0 +1,142 @@
+{
+  "headword": {
+    "word": "dinding",
+    "syllables": "din.ding",
+    "ipa": "/din.diŋ/",
+    "jawi": "دينديڠ",
+    "frequency_rank": 959,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dinding",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dinding → dinding（墙；壁）",
+    "pattern_note": "完整词根，不按重复音节拆成重叠词；末尾 ng 表示一个软腭鼻音 /ŋ/。meN- 遇 d 形成 mend-，d 保留，如 mendindingi。音节及 Jawi 来自本地 PRPM 原始 JSON；IPA 为宽式转写，CEFR 为教学建议分级。",
+    "word_family": [
+      {
+        "word": "berdinding",
+        "affix": "ber-",
+        "gloss": "有墙的"
+      },
+      {
+        "word": "berdindingkan",
+        "affix": "ber-...-kan",
+        "gloss": "以某物为墙"
+      },
+      {
+        "word": "mendindingi",
+        "affix": "meN-...-i",
+        "gloss": "遮挡；保护"
+      },
+      {
+        "word": "pendinding",
+        "affix": "peN-",
+        "gloss": "屏障；保护物"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "围住或分隔房屋、房间、空间的墙、隔墙。",
+      "ms_definition": "penutup (penyekat) ruang, bangunan, bilik, dll yg dibuat drpd kayu, bata, dll.",
+      "nuances": "不限于砖墙，木板、竹材等构成的墙也可称 dinding。tembok 常强调坚固、厚实的墙体，pagar 则通常指围栏。",
+      "collocations": [
+        {
+          "ms": "dinding rumah",
+          "zh": "房屋的墙",
+          "en": "the walls of a house"
+        },
+        {
+          "ms": "cat dinding",
+          "zh": "墙面漆",
+          "en": "wall paint"
+        }
+      ],
+      "en_definition": "A wall or partition enclosing or dividing a building, room, or other space."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "像墙一样围护、分隔的结构；器官壁、细胞壁等。",
+      "ms_definition": "sesuatu yg menyerupai dinding.",
+      "nuances": "在科学语境通常译为“壁”。dinding sel 是细胞壁，不能与 membran sel（细胞膜）混同；也不要仅凭旧词典的简短释义把两者视作同一结构。",
+      "collocations": [
+        {
+          "ms": "dinding sel",
+          "zh": "细胞壁",
+          "en": "cell wall"
+        },
+        {
+          "ms": "dinding abdomen",
+          "zh": "腹壁",
+          "en": "abdominal wall"
+        }
+      ],
+      "en_definition": "A structure resembling a wall that encloses, protects, or separates something, such as an organ or cell."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 学校维修报道",
+      "ms": "Kerja membaiki dinding sekolah yang retak akan dilaksanakan semasa cuti penggal.",
+      "zh": "学校开裂墙面的维修工程将在学期假期进行。",
+      "en": "Repairs to the school’s cracked walls will be carried out during the term break."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 室友商量客厅照片的悬挂位置",
+      "ms_spoken": "Nak gantung gambar ni kat dinding sebelah pintu ke?",
+      "ms_standard": "Adakah awak mahu menggantung gambar ini pada dinding di sebelah pintu?",
+      "zh": "你想把这张照片挂在门旁边的墙上吗？",
+      "spoken_features": [
+        "nak、ni、tu、jugak 分别对应 mahu、ini、itu、juga；gantung 在标准版本中恢复为 menggantung。",
+        "kat dinding 表示照片附着的表面，标准语用 pada dinding；kat situ 表示位置，标准语用 di situ。",
+        "kot 表示不完全确定的判断，标准版本用 saya rasa；sesuai tak 是询问是否合适的口语结构。"
+      ],
+      "messages": [
+        {
+          "speaker": "Sara (室友)",
+          "ms_spoken": "Nak gantung gambar ni kat dinding sebelah pintu ke?",
+          "ms_standard": "Adakah awak mahu menggantung gambar ini pada dinding di sebelah pintu?",
+          "zh": "你想把这张照片挂在门旁边的墙上吗？",
+          "en": "Do you want to hang this picture on the wall next to the door?"
+        },
+        {
+          "speaker": "Wani (室友)",
+          "ms_spoken": "Kat situ sempit sangat kot. Atas sofa tu ada ruang lagi.",
+          "ms_standard": "Saya rasa ruang di situ terlalu sempit. Masih ada ruang di atas sofa itu.",
+          "zh": "那里可能太挤了吧。沙发上方还有位置。",
+          "en": "Might be a bit cramped there. There's still room above the sofa."
+        },
+        {
+          "speaker": "Sara (室友)",
+          "ms_spoken": "Betul jugak. Aku pegang kat situ dulu, kau tengok sesuai tak.",
+          "ms_standard": "Betul juga. Saya akan memegang gambar ini di situ dahulu supaya awak dapat melihat sama ada kedudukannya sesuai.",
+          "zh": "也是。我先把照片举到那边，你看看位置合不合适。",
+          "en": "True. I'll hold it up there first, and you can see if it looks right."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "普通生活名词，本身没有身份或族群限制。要求别人清理或修补墙面时，用 tolong 或 boleh 使请求自然。",
+    "usage_etiquette": "租房、宿舍或共用空间挂画钻墙，应先征得房东或管理方同意。谈 pendinding 的宗教或民俗用法时，应尊重对方观念，不把它与实物墙的意思混为一谈。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语；比较词源追溯至原始马来语及原始马来—波利尼西亚语",
+    "root_origin": "原始包列出早期重构形式，但其字符已损坏，故不补写；并列同源词 Tetum didin、Makasar rinring。",
+    "historical_story": "dinding 属于南岛语言的房屋词汇背景，原始包还列出帝汶语 didin 与望加锡语 rinring 作为同源比较。想象以木板或竹材隔出居室，再看现代房屋的砖墙，便能抓住“围护、分隔空间”的连续概念；词典中的 dinding sel 又把墙的形象带进科学词汇。",
+    "cognitive_memory_aid": "把 din.ding 想成相邻的两块墙板；屋子的 dinding 围住房间，dinding sel 围护细胞。"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "dariku",
+    "syllables": "da.ri.ku",
+    "ipa": "/da.ri.ku/",
+    "jawi": "دري",
+    "frequency_rank": 2275,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dari",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "dari + -ku → dariku",
+    "pattern_note": "-ku 是 aku 的后附着形式，连写且不触发音变；此处按字段归为 suffix，实际属于代词附着成分。headword.jawi 沿用输入的底词拼写 دري；完整 dariku 写作 دريکو。",
+    "word_family": [
+      {
+        "word": "darimu",
+        "affix": "-mu",
+        "gloss": "来自你；由你"
+      },
+      {
+        "word": "darinya",
+        "affix": "-nya",
+        "gloss": "来自他／她／它"
+      }
+    ],
+    "root_jawi": "دري"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "来自我；由我发出或给予，多见于抒情文字、题词和亲密表达。",
+      "en_definition": "From me; originating with or given by the speaker, especially in literary or affectionate language.",
+      "ms_definition": "Bentuk dari yang dirangkaikan dengan kata ganti nama singkat -ku, bermaksud daripada aku dalam penggunaan sastera atau tidak rasmi.",
+      "nuances": "这是介词与第一人称附着代词组成的形式。马来西亚正式语法中，人的来源通常用 daripada，因此公文宜写 daripada saya；较亲近的表达可用 daripadaku。参见 [DBP：daripada 的用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=daripada)。",
+      "collocations": [
+        {
+          "ms": "salam dariku",
+          "zh": "来自我的问候",
+          "en": "greetings from me"
+        },
+        {
+          "ms": "hadiah dariku",
+          "zh": "我送的礼物",
+          "en": "a gift from me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "出版 / 编辑汇报中引用题词",
+      "ms": "Penulis mengakhiri catatan itu dengan ungkapan 'salam dariku' sebagai tanda penghargaan kepada para pembaca.",
+      "zh": "作者以“来自我的问候”结束那篇文字，向读者表达谢意。",
+      "en": "The author ends the note with the phrase 'greetings from me' as a gesture of appreciation to readers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量生日卡片题词",
+      "ms_spoken": "Aku nak tulis 'hadiah dariku untukmu' kat kad ni. Okey tak?",
+      "ms_standard": "Saya mahu menulis 'hadiah daripada saya untuk kamu' pada kad ini. Adakah ungkapan itu sesuai?",
+      "zh": "我想在这张卡上写“我送给你的礼物”，可以吗？",
+      "en": "I want to write 'a gift from me to you' on this card. Does that sound okay?",
+      "spoken_features": [
+        "nak 对应 mahu。",
+        "kat 在此对应 pada。",
+        "ni 对应 ini。",
+        "dariku 出现在卡片题词中，带有亲近和抒情色彩。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak tulis 'hadiah dariku untukmu' kat kad ni. Okey tak?",
+          "ms_standard": "Saya mahu menulis 'hadiah daripada saya untuk kamu' pada kad ini. Adakah ungkapan itu sesuai?",
+          "zh": "我想在这张卡上写“我送给你的礼物”，可以吗？",
+          "en": "I want to write 'a gift from me to you' on this card. Does that sound okay?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okey je, bunyi macam puisi sikit. Dia mesti suka.",
+          "ms_standard": "Ungkapan itu sesuai dan kedengaran agak puitis. Dia pasti menyukainya.",
+          "zh": "可以啊，听起来有点诗意。他肯定喜欢。",
+          "en": "Sure, it sounds a little poetic. They'll love it."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "intimate",
+    "politeness_note": "-ku 对应 aku，适合亲密关系、个人题词和文学声音；给上司、客户或不熟悉的长辈写信时，通常改用 daripada saya。",
+    "usage_etiquette": "可用于贺卡、歌词式留言和个人署语。正式场景例句保留它作为被引用的题词；公文正文表达“来自我”时宜用 daripada saya。"
+  },
+  "etymology": {
+    "historical_story": "dariku 由表示起点或来源的 dari 与 aku 的短形式 -ku 结合而成，核心画面是某样东西从说话者这里传向别人。在题词和抒情文字中，这种紧凑形式常使问候或赠礼显得更个人化；它无需另设一个独立外来词源。",
+    "cognitive_memory_aid": "把 dari 想成一支表示“从……来”的箭头，把 ku 想成“我”：箭头从我这里出发，就是 dariku。"
+  },
+  "sociolinguistic_register": {
+    "register": "intimate",
+    "politeness_note": "-ku 对应 aku，适合亲密关系、个人题词和文学声音；给上司、客户或不熟悉的长辈写信时，通常改用 daripada saya。",
+    "usage_etiquette": "可用于贺卡、歌词式留言和个人署语。正式场景例句保留它作为被引用的题词；公文正文表达“来自我”时宜用 daripada saya。"
+  }
+}

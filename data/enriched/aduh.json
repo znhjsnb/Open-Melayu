@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "aduh",
+    "syllables": "me.nga.du.kan",
+    "ipa": "/ˈʔa.duh/",
+    "jawi": "ادوه",
+    "frequency_rank": 2345,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "aduh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + aduh → aduh",
+    "pattern_note": "独立感叹词，无词缀。headword.syllables 按要求保留输入包的 me.nga.du.kan，但该字段与词头不符；aduh 本身应划分为 a.duh，不能按该输入字段朗读。",
+    "word_family": [
+      {
+        "word": "mengaduh",
+        "affix": "meN-",
+        "gloss": "因疼痛等叫唤；呻吟"
+      },
+      {
+        "word": "teraduh",
+        "affix": "ter-",
+        "gloss": "突然叫出“哎哟”"
+      }
+    ],
+    "root_jawi": "ادوه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "哎哟；用于直接表达疼痛，也可随语境表达惊讶、苦恼或叹息。",
+      "en_definition": "An exclamation expressing pain, or sometimes surprise or distress: ouch; oh dear.",
+      "ms_definition": "sr kata yg menyatakan rasa sakit (rasa hairan, keluhan)",
+      "nuances": "马来语词类为 kata seru（感叹词）；此处按给定枚举归入 particle。可独立成句，也可置于句首，后接逗号或感叹号。实际情绪由语调和后文决定，不是所有场合都译为疼痛的“哎哟”。",
+      "collocations": [
+        {
+          "ms": "aduh, sakitnya!",
+          "zh": "哎哟，真疼！",
+          "en": "Ouch, that hurts!"
+        },
+        {
+          "ms": "aduh, penatnya!",
+          "zh": "哎哟，累死了！",
+          "en": "Oh, I’m exhausted!"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻：引述现场证人的话",
+      "ms": "Menurut saksi, mangsa menjerit, \"Aduh, sakitnya kaki saya!\" selepas terjatuh di tangga.",
+      "zh": "据目击者称，伤者在楼梯上跌倒后喊道：“哎哟，我的脚好疼！”",
+      "en": "According to a witness, the injured person cried, \"Ouch, my foot hurts!\" after falling on the stairs."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：朋友说自己撞到了脚",
+      "ms_spoken": "Aduh, kaki aku terhantuk kat meja tadi!",
+      "ms_standard": "Aduh, kaki saya terhantuk pada meja tadi!",
+      "zh": "哎哟，我刚才脚撞到桌子了！",
+      "en": "Ouch, I just banged my foot against the table!",
+      "spoken_features": [
+        "aku 是熟人间使用的第一人称",
+        "kat 在这里口语化地替代 pada",
+        "dah 对应 sudah",
+        "tak 用于口语中的否定或是非问句"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Aduh, kaki aku terhantuk kat meja tadi!",
+          "ms_standard": "Aduh, kaki saya terhantuk pada meja tadi!",
+          "zh": "哎哟，我刚才脚撞到桌子了！",
+          "en": "Ouch, I just banged my foot against the table!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah duduk belum? Sakit sangat tak?",
+          "ms_standard": "Adakah kamu sudah duduk? Adakah kaki kamu sangat sakit?",
+          "zh": "你坐下了没？疼得厉害吗？",
+          "en": "Have you sat down yet? Does it hurt a lot?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "本身不是粗话，因疼痛脱口而出通常自然。若对着别人的请求拖长声说 Aduh…，可能显得不耐烦。",
+    "usage_etiquette": "正式报告通常直接描述疼痛或困难；新闻、笔录及叙事可在引语中保留 aduh，以呈现说话人的真实反应。"
+  },
+  "etymology": {
+    "historical_story": "aduh 作为完整感叹词表达疼痛、惊讶或叹息，不能拆成 adu 加后缀 -h。马来语再以它构成 mengaduh 和 teraduh，把直接喊出的声音变成“呻吟”或“突然叫出声”的动作名称；现有资料不足以确定更早的借入来源或年代。[DBP：aduh](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=aduh)",
+    "cognitive_memory_aid": "想象脚趾碰到桌脚时脱口而出的“啊——哎哟！”：aduh 是叫声本身，mengaduh 是发出这种叫声的动作。"
+  },
+  "sociolinguistic_register": {
+    "register": "colloquial",
+    "politeness_note": "本身不是粗话，因疼痛脱口而出通常自然。若对着别人的请求拖长声说 Aduh…，可能显得不耐烦。",
+    "usage_etiquette": "正式报告通常直接描述疼痛或困难；新闻、笔录及叙事可在引语中保留 aduh，以呈现说话人的真实反应。"
+  }
+}

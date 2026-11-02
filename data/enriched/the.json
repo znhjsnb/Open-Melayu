@@ -1,0 +1,102 @@
+{
+  "headword": {
+    "word": "the",
+    "syllables": null,
+    "ipa": "/ðə/, /ði/; 强读 /ðiː/（英语）",
+    "jawi": null,
+    "frequency_rank": 256,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "the",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + the → the",
+    "pattern_note": "这是语料中混入的英语定冠词，不是马来语词根；按英语独立词处理，不套用马来语词缀。PRPM 未收录，音节与 Jawi 保留 null；读音为英语常见弱读与强读。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "【英语】定冠词，置于名词短语前，表示双方能够识别、已经提及或在语境中唯一的对象；汉语常不译出。",
+      "ms_definition": "Huraian editorial, bukan petikan DBP: kata sandang tentu bahasa Inggeris yang mendahului frasa nama untuk merujuk sesuatu yang dapat dikenal pasti dalam konteks.",
+      "nuances": "实际英语词类为 article/determiner；本 Schema 无此选项，暂归 particle，不代表马来语词类判定。马来语没有与 the 一一对应的冠词，不能一律译成 itu。以下搭配是马来语中讨论该英语词的表达；正式例句也采用语言教学语境，而非把 the 插入普通马来语句法。CEFR 标签为学习编排建议，不是 DBP 分级。",
+      "collocations": [
+        {
+          "ms": "penggunaan the",
+          "zh": "the 的用法（讨论英语语法）",
+          "en": "the use of 'the'"
+        },
+        {
+          "ms": "kata sandang the",
+          "zh": "冠词 the（讨论英语语法）",
+          "en": "the article 'the'"
+        }
+      ],
+      "en_definition": "The English definite article, used before a noun phrase to refer to someone or something identifiable, previously mentioned, or unique in context."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育新闻 / 英语教学说明",
+      "ms": "Modul bahasa Inggeris itu menerangkan penggunaan kata sandang ‘the’ melalui contoh ayat yang mudah difahami.",
+      "zh": "该英语教学单元通过浅显易懂的例句讲解冠词 the 的用法。",
+      "en": "The English module explains the use of the article ‘the’ through easy-to-understand example sentences."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论英语作业中再次提及同一本书的写法",
+      "ms_spoken": "Aku dah tulis 'I bought a book'. Lepas tu nak cakap buku yang sama warna biru. Kena tulis 'The book is blue' ke?",
+      "ms_standard": "Saya sudah menulis 'I bought a book'. Selepas itu, saya mahu menyatakan bahawa buku yang sama berwarna biru. Adakah saya perlu menulis 'The book is blue'?",
+      "zh": "我已经写了“I bought a book”。接下来想说同一本书是蓝色的。要写“The book is blue”吗？",
+      "spoken_features": [
+        "the 是这里被讨论的英语定冠词，不是马来语词；对话通过首次引入 a book、再次指称 the book 展示其用法。",
+        "dah = sudah；lepas tu = selepas itu；nak = mahu；kena 在这里表示需要。",
+        "句末 ke 构成口语疑问；Ha, betul 在这里表示确认对方理解正确。",
+        "depan dia 口语化地指该词前面，标准语还原为 di hadapannya；不是指某个人面前。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Aku dah tulis 'I bought a book'. Lepas tu nak cakap buku yang sama warna biru. Kena tulis 'The book is blue' ke?",
+          "ms_standard": "Saya sudah menulis 'I bought a book'. Selepas itu, saya mahu menyatakan bahawa buku yang sama berwarna biru. Adakah saya perlu menulis 'The book is blue'?",
+          "zh": "我已经写了“I bought a book”。接下来想说同一本书是蓝色的。要写“The book is blue”吗？",
+          "en": "I've already written 'I bought a book'. Now I want to say that the same book is blue. Should I write 'The book is blue'?"
+        },
+        {
+          "speaker": "Mei Ling (同学)",
+          "ms_spoken": "Ha, betul. Guna 'the' sebab kau maksudkan buku yang dah disebut tadi.",
+          "ms_standard": "Ya, betul. Gunakan kata sandang 'the' kerana kamu merujuk kepada buku yang sudah disebut tadi.",
+          "zh": "对，没错。用 the，因为你指的是刚才已经提过的那本书。",
+          "en": "Yep, that's right. Use 'the' because you mean the book you mentioned earlier."
+        },
+        {
+          "speaker": "Siti (同学)",
+          "ms_spoken": "Oh, faham dah. Bukan semua perkataan 'book' kena letak 'the' depan dia rupanya.",
+          "ms_standard": "Oh, saya sudah faham. Rupa-rupanya, bukan setiap penggunaan perkataan 'book' memerlukan kata sandang 'the' di hadapannya.",
+          "zh": "哦，懂了。原来不是每次用 book，前面都要加 the。",
+          "en": "Oh, I get it now. So you don't have to put 'the' before 'book' every time you use it."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "此处 standard 指该词在英语中的地位；在马来语交流中宜限于引语、英语名称或双方理解的语码转换。讨论语法时用 saya，不以 kau 称呼不熟悉的同学或教师。",
+    "usage_etiquette": "正式马来语文件保留机构或作品英文原名时可出现 the，普通名词前不必添加。不要把说话者使用英语冠词当作其族群或教育程度的判断依据。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语；更早为古英语",
+    "root_origin": "英语 the 承接古英语定冠词及指示词系统；本包没有其马来语借词词源证据。",
+    "historical_story": "the 在英语内部由早期的指示、限定形式发展成今天的定冠词，用来把听者的注意力指向特定对象。英国殖民时期及其后的英语教育，使这类英语功能词也会出现在马来西亚的英文材料和混合聊天里；本包的英语例句不能证明它已成为马来语词。",
+    "cognitive_memory_aid": "把 the 想成英语里的聚光灯：照向双方知道的那个对象；换成马来语时，先看语境，别自动加 itu。"
+  }
+}

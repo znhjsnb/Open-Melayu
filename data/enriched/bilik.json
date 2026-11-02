@@ -1,0 +1,152 @@
+{
+  "headword": {
+    "word": "bilik",
+    "syllables": "",
+    "ipa": "[ˈbi.liʔ]",
+    "jawi": "بيليق",
+    "frequency_rank": 283,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bilik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bilik → bilik",
+    "pattern_note": "独立词根；PRPM syllables 字段缺失，留空而不把读音 [bi.liʔ] 冒充官方音节。所给 IPA 另有 [ˈbi.leʔ] 变体。",
+    "word_family": [
+      {
+        "word": "berbilik",
+        "affix": "ber-",
+        "gloss": "有房间的"
+      },
+      {
+        "word": "berbilik-bilik",
+        "affix": "ber- + 重叠",
+        "gloss": "有许多房间的"
+      },
+      {
+        "word": "bilik tidur",
+        "affix": "none（复合词）",
+        "gloss": "卧室"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "房间；建筑物内由墙壁分隔、设有门的空间。",
+      "ms_definition": "ruang dlm rumah (bangunan dsb) yg bersekat dgn dinding dan berpintu, kamar",
+      "nuances": "Kamus Dewan 原释义。bilik 本身不限于卧室；卧室是 bilik tidur，会议室是 bilik mesyuarat。大马 bilik air 通常指厕所或浴厕空间。",
+      "collocations": [
+        {
+          "ms": "bilik tidur",
+          "zh": "卧室",
+          "en": "bedroom"
+        },
+        {
+          "ms": "bilik air",
+          "zh": "浴厕；洗手间",
+          "en": "bathroom; toilet"
+        }
+      ],
+      "en_definition": "A room enclosed by walls and fitted with a door within a house or other building."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "隔间；小舱；被分隔出的腔室。",
+      "ms_definition": "ruang yg tersekat, petak kecil",
+      "nuances": "Kamus Dewan 原释义。不必是可居住的整间房；bilik jantung 是心室。Kaikki 另列船舱义，不据此推定词源来自航海。",
+      "collocations": [
+        {
+          "ms": "bilik persalinan",
+          "zh": "更衣间",
+          "en": "changing room"
+        },
+        {
+          "ms": "bilik jantung",
+          "zh": "心室",
+          "en": "ventricle of the heart"
+        }
+      ],
+      "en_definition": "A partitioned space, small compartment, or chamber."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "竹篾编成的墙席或隔屏。",
+      "ms_definition": "anyaman drpd bilah-bilah buluh (utk dinding dsb)",
+      "nuances": "此释义逐字取自 Kamus Pelajar；原包中的对应 Kamus Dewan 同形词仅写 Jw tepas，表示爪哇语用法。属材料义，日常订房时通常不会作此理解。",
+      "collocations": [
+        {
+          "ms": "bilik buluh",
+          "zh": "竹编墙席（材料义）",
+          "en": "woven bamboo matting"
+        },
+        {
+          "ms": "dinding bilik buluh",
+          "zh": "竹编墙席构成的墙壁（材料义）",
+          "en": "a wall made of woven bamboo matting"
+        }
+      ],
+      "en_definition": "Matting woven from bamboo strips, used for walls or partitions."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议通知",
+      "ms": "Sesi taklimat akan diadakan di bilik mesyuarat utama pada pukul 9.00 pagi esok.",
+      "zh": "说明会将于明早九点在主会议室举行。",
+      "en": "The briefing will be held in the main meeting room at 9.00 a.m. tomorrow."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 母亲在楼下催女儿准备出门",
+      "ms_spoken": "Dah siap belum? Ayah dah tunggu dalam kereta tu.",
+      "ms_standard": "Adakah kamu sudah selesai bersiap? Ayah sudah menunggu di dalam kereta itu.",
+      "zh": "准备好了没有？爸爸已经在那辆车里等着了。",
+      "spoken_features": [
+        "Dah siap belum? 是省略主语的口语问句，询问是否已经准备好。",
+        "mak 是对母亲的日常称呼，标准语在此还原为 ibu。",
+        "kat bilik 在此表示在房间里，标准语还原为 di dalam bilik。",
+        "lagi 在 saya kat bilik lagi 中表示仍然；tengah 对应表示动作正在进行的 sedang。",
+        "kejap lagi 对应 sebentar lagi，表示再过一会儿；tu 对应 itu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Ibu (母亲)",
+          "ms_spoken": "Dah siap belum? Ayah dah tunggu dalam kereta tu.",
+          "ms_standard": "Adakah kamu sudah selesai bersiap? Ayah sudah menunggu di dalam kereta itu.",
+          "zh": "准备好了没有？爸爸已经在那辆车里等着了。",
+          "en": "Are you ready yet? Dad's already waiting in the car."
+        },
+        {
+          "speaker": "Aina (女儿)",
+          "ms_spoken": "Belum, mak. Saya kat bilik lagi, tengah bersiap. Kejap lagi saya turun.",
+          "ms_standard": "Belum, ibu. Saya masih di dalam bilik dan sedang bersiap. Saya akan turun sebentar lagi.",
+          "zh": "还没，妈。我还在房间里，正在准备。再过一会儿我就下去。",
+          "en": "Not yet, Mum. I'm still in my room getting ready. I'll be down in a minute."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "找洗手间可说 Maaf, di manakah bilik air?，在公共场所礼貌而自然。",
+    "usage_etiquette": "进入他人的 bilik 前先敲门并征得同意；订住宿时说明人数、床型和房间数量，dua bilik 是两间房，不是双人房。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "原始马来—波利尼西亚语（重建形式）",
+    "root_origin": "所给词源资料：继承自重建形式 *bilik，与爪哇语 bilik 同源；星号表示重建，非出土实录。",
+    "historical_story": "bilik 被追溯到马来—波利尼西亚语的共同祖语层，与爪哇语的同源词相呼应。词典中既能看到竹编墙席，也能看到房间和隔间，仿佛把传统住屋的隔屏与现代建筑的房门放在同一幅图里；这些并存词义本身不能证明哪一个最先出现。",
+    "cognitive_memory_aid": "想象一道隔板把大空间隔成小空间：住人是 bilik，睡觉是 bilik tidur，身体里也有 bilik jantung。"
+  }
+}

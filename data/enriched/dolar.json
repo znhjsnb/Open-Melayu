@@ -1,0 +1,118 @@
+{
+  "headword": {
+    "word": "dolar",
+    "syllables": "do.lar",
+    "ipa": "/dolar/",
+    "jawi": "دولر",
+    "frequency_rank": 844,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dolar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dolar → dolar（整词借入，表示货币单位）",
+    "pattern_note": "dolar 是独立借词，不拆成 do- 与 -lar。数量放在前面，如 sepuluh dolar；具体币种放在后面，如 dolar Singapura。官方音节照录，Jawi 保留输入问号；IPA 用宽式 /dolar/，避免把包内损坏音标字符当成真实音值，口语词末 r 可弱化。CEFR 为教学估级。",
+    "word_family": [
+      {
+        "word": "dolar Amerika Syarikat",
+        "affix": "∅（币种短语）",
+        "gloss": "美元"
+      },
+      {
+        "word": "dolar Singapura",
+        "affix": "∅（币种短语）",
+        "gloss": "新加坡元"
+      },
+      {
+        "word": "dolar Brunei",
+        "affix": "∅（币种短语）",
+        "gloss": "文莱元"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "元；名称为 dollar 的货币单位，如美元、新加坡元、文莱元、加元或澳元。",
+      "ms_definition": "mata wang (di Amerika Syarikat, Kanada, dll)",
+      "nuances": "所给 Kamus Dewan 释义原文节录。dolar 本身并不唯一指美元；需看国家名称或语境。马来西亚本国货币的现行标准名称是 ringgit，不宜在正式金额中写成 dolar Malaysia；美元可明确写 dolar Amerika Syarikat 或 USD。此处不提供即时汇率。",
+      "collocations": [
+        {
+          "ms": "dolar Amerika Syarikat",
+          "zh": "美元",
+          "en": "US dollar"
+        },
+        {
+          "ms": "dolar Singapura",
+          "zh": "新加坡元",
+          "en": "Singapore dollar"
+        }
+      ],
+      "en_definition": "The dollar, a unit of currency used in countries including the United States, Singapore, Brunei, Canada and Australia."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "活动费用公告／国际报名",
+      "ms": "Yuran penyertaan bagi program itu ditetapkan sebanyak 50 dolar Singapura bagi setiap peserta.",
+      "zh": "该项目的报名费定为每位参加者 50 新加坡元。",
+      "en": "The participation fee for the programme is set at 50 Singapore dollars per participant."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 一位朋友在新加坡购物，替另一位朋友挑衣服",
+      "ms_spoken": "Baju kat sini dua puluh dolar Singapura je. Nak aku belikan satu tak?",
+      "ms_standard": "Baju di sini berharga dua puluh dolar Singapura sahaja. Adakah awak mahu saya membelikan sehelai untuk awak?",
+      "zh": "这里的衣服才二十新币。要我帮你买一件吗？",
+      "spoken_features": [
+        "dolar Singapura 明确指新加坡元；单用 dolar 时，币种需要由上下文确定。",
+        "kat sini 对应 di sini；je 对应 sahaja，在这里突出价格便宜。",
+        "Nak…tak? 是口语中询问意愿的句式；单独回复 Nak! 表示要、想要。",
+        "聊天中可用 satu 指一件衣服，标准改写补出量词 sehelai；warna dia 中的 dia 指衣服。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Baju kat sini dua puluh dolar Singapura je. Nak aku belikan satu tak?",
+          "ms_standard": "Baju di sini berharga dua puluh dolar Singapura sahaja. Adakah awak mahu saya membelikan sehelai untuk awak?",
+          "zh": "这里的衣服才二十新币。要我帮你买一件吗？",
+          "en": "The tops here are only twenty Singapore dollars. Want me to get you one?"
+        },
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Nak! Ada warna biru tak? Kalau ada saiz M, ambil satu untuk aku.",
+          "ms_standard": "Ya, saya mahu. Adakah baju berwarna biru tersedia? Jika ada saiz M, belilah sehelai untuk saya.",
+          "zh": "要！有蓝色的吗？如果有 M 码，就帮我买一件。",
+          "en": "Yes! Do they have blue? If they've got a medium, get me one."
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Ada. Nanti aku hantar gambar dulu, kau tengok warna dia.",
+          "ms_standard": "Ada. Saya akan menghantar gambarnya terlebih dahulu supaya awak dapat melihat warna baju itu.",
+          "zh": "有。我先把照片发给你，你看看它的颜色。",
+          "en": "They do. I'll send you a photo first so you can see the colour."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "这是中性的货币名。跨境聊天、报价和报销时注明国家或货币代码，尤其要区分 ringgit、dolar Singapura 与 dolar Amerika Syarikat。",
+    "usage_etiquette": "单独的 $ 符号可能指不同货币，报价时写明 SGD、USD 等代码更清楚；代码和货币符号属于金额记法，不是 dolar 的聊天缩写。向别人询问收入或资产前，应考虑关系和场合。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "English ← Dutch ← German",
+    "root_origin": "所给词源链为 English dollar ← Dutch daler／daalder ← German Taler／Thaler ← Joachimsthaler，名称联系现今捷克 Jáchymov 的 Joachimsthal；不是马来语词缀派生。",
+    "historical_story": "这枚货币名称的旅程从中欧约阿希姆谷的银币开始：Joachimsthaler 缩成 Thaler，再经荷兰语的 daler、daalder 走到英语 dollar。马来语把英语名称写成 dolar，如今同一个词可出现在新加坡、文莱和更远国家的金额里；当地的日常用法提醒我们，dolar 并不只等于美元。",
+    "cognitive_memory_aid": "英语 dollar 收掉一个 l，成为马来语 dolar；先认出货币单位，再看后面的国家名。"
+  }
+}

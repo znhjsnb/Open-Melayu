@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "unit",
+    "syllables": "u.nit",
+    "ipa": "/ˈjunit/",
+    "jawi": "اونيت",
+    "frequency_rank": 1013,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "unit",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + unit → unit",
+    "pattern_note": "整词借入，无马来语词缀；seunit 中 se- 表示“一”，与 unit 连写，词根拼写不变。",
+    "word_family": [
+      {
+        "word": "seunit",
+        "affix": "se-",
+        "gloss": "一个单位；每个单位"
+      },
+      {
+        "word": "subunit",
+        "affix": "sub-",
+        "gloss": "子单位；下属小单位"
+      }
+    ],
+    "root_jawi": "اونيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "作为一个完整个体计算的单位；可用于计数房屋、设备等独立项目。",
+      "en_definition": "An individual item regarded as a complete entity for counting.",
+      "ms_definition": "Sesuatu yang dianggap sebagai entiti tunggal yang lengkap.",
+      "nuances": "本条聚焦可独立计数的完整个体。常见结构为“数词 + unit + 名词”，如 dua unit komputer；已有数词时通常不再重叠 unit。",
+      "collocations": [
+        {
+          "ms": "unit rumah",
+          "zh": "住房单位；套住房",
+          "en": "housing unit"
+        },
+        {
+          "ms": "unit komputer",
+          "zh": "电脑单位；台电脑",
+          "en": "computer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 采购汇报",
+      "ms": "Syarikat telah membeli dua puluh unit komputer untuk kegunaan kakitangan baharu.",
+      "zh": "公司已购买二十台电脑，供新员工使用。",
+      "en": "The company has purchased twenty computers for new employees."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事借用设备",
+      "ms_spoken": "Kat stor ada dua unit komputer lagi, nak ambil satu?",
+      "ms_standard": "Di stor masih ada dua unit komputer. Adakah awak mahu mengambil satu unit?",
+      "zh": "库房里还剩两台电脑，你要拿一台吗？",
+      "en": "There are two computers left in the storeroom. Do you want to take one?",
+      "spoken_features": [
+        "kat 对应 di，表示地点。",
+        "nak 是 hendak 的口语形式。",
+        "上下文明确后，以 satu 省略重复的 unit komputer。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同事)",
+          "ms_spoken": "Kat stor ada dua unit komputer lagi, nak ambil satu?",
+          "ms_standard": "Di stor masih ada dua unit komputer. Adakah awak mahu mengambil satu unit?",
+          "zh": "库房里还剩两台电脑，你要拿一台吗？",
+          "en": "There are two computers left in the storeroom. Want to take one?"
+        },
+        {
+          "speaker": "Rizal (同事)",
+          "ms_spoken": "Nak satu je. Yang satu lagi simpan dulu lah.",
+          "ms_standard": "Saya hanya memerlukan satu unit. Simpanlah unit yang satu lagi dahulu.",
+          "zh": "我要一台就够了。另一台先留着吧。",
+          "en": "Just one, thanks. Keep the other one for now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "本词语气中性，适合交易、库存和采购沟通；礼貌程度主要取决于整句的称呼与请求方式。",
+    "usage_etiquette": "报价或交接时明确物品和数量，例如 tiga unit komputer，并说明价格是每台还是总价，避免产生歧义。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语",
+    "root_origin": "unit",
+    "cognitive_memory_aid": "把一排电脑想成一个个独立的小格子：每一台就是一个 unit，seunit 就是一个。",
+    "historical_story": "unit 从英语以整词形式进入马来语，保留了把事物作为一个单位看待的核心概念。现代马来语可用它逐一清点房屋或设备；常见读音保留英语式的词首 /j/，也有按拼写以元音起首的读法。[词源与读音参考](https://en.wiktionary.org/wiki/unit#Malay)"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "本词语气中性，适合交易、库存和采购沟通；礼貌程度主要取决于整句的称呼与请求方式。",
+    "usage_etiquette": "报价或交接时明确物品和数量，例如 tiga unit komputer，并说明价格是每台还是总价，避免产生歧义。"
+  }
+}

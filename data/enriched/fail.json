@@ -1,0 +1,110 @@
+{
+  "headword": {
+    "word": "fail",
+    "syllables": "fail",
+    "ipa": "/fail/",
+    "jawi": "فاءيل",
+    "frequency_rank": 1408,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "fail",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + fail → fail",
+    "pattern_note": "英语借词，现代马来语中作为完整词根使用，不拆成词缀与词根。",
+    "word_family": [
+      {
+        "word": "memfailkan",
+        "affix": "meN-...-kan",
+        "gloss": "将文件归档；正式提交备案"
+      },
+      {
+        "word": "pemfailan",
+        "affix": "peN-...-an",
+        "gloss": "归档；正式提交文件的过程"
+      }
+    ],
+    "root_jawi": "فاءيل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "围绕某个人或某件事整理保存的一组文件；档案。",
+      "en_definition": "An organized collection of documents or information concerning a particular person or matter.",
+      "ms_definition": "Maklumat atau dokumen tentang sesuatu perkara atau seseorang yang disimpan secara tersusun.",
+      "nuances": "此处聚焦档案内容。实际交流中，fail 也可指装这些文件的文件夹；电脑语境中则指电子文件。马来语名词 fail 不表示英语动词 fail 的“失败”。",
+      "collocations": [
+        {
+          "ms": "fail peribadi",
+          "zh": "个人档案",
+          "en": "personal file"
+        },
+        {
+          "ms": "fail permohonan",
+          "zh": "申请档案",
+          "en": "application file"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pegawai itu menyemak fail permohonan sebelum menyediakan laporan untuk pihak pengurusan.",
+      "zh": "该职员先查阅申请档案，再为管理层编写报告。",
+      "en": "The officer reviewed the application file before preparing a report for management."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Fail biru tu dah ada kat meja awak, ya.",
+      "ms_standard": "Fail biru itu sudah ada di atas meja awak.",
+      "zh": "那份蓝色档案已经放你桌上啦。",
+      "en": "That blue file is already on your desk.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式",
+        "dah 对应 sudah，表示已经",
+        "kat 在此对应 di atas，表示所在位置",
+        "句末 ya 用于提醒并缓和语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail biru tu dah ada kat meja awak, ya.",
+          "ms_standard": "Fail biru itu sudah ada di atas meja awak.",
+          "zh": "那份蓝色档案已经放你桌上啦。",
+          "en": "The blue file's on your desk already, just so you know."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Terima kasih! Saya nak semak fail tu lepas makan.",
+          "ms_standard": "Terima kasih! Saya hendak menyemak fail itu selepas makan.",
+          "zh": "谢谢！我吃完饭就看那份档案。",
+          "en": "Thanks! I'll go through it after lunch."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "办公室中请求查阅档案时，可说 Boleh saya semak fail ini?，语气比直接命令对方交出档案更得体。",
+    "usage_etiquette": "说明档案类别、颜色或编号，方便对方辨认；涉及个人档案时，应先确认自己有查阅权限。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语",
+    "root_origin": "file",
+    "cognitive_memory_aid": "把英语 file 和马来语 fail 并排记：读音相近，都是把资料整理成一份“档案”。",
+    "historical_story": "fail 借自英语 file，进入马来语后以适应本地读音的拼写固定下来。它既用于纸质档案，也随着电脑应用用于电子文件，办公桌上的资料与屏幕上的文件因此共用这个名称。[词源与释义参考](https://en.wiktionary.org/wiki/fail#Malay)"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "办公室中请求查阅档案时，可说 Boleh saya semak fail ini?，语气比直接命令对方交出档案更得体。",
+    "usage_etiquette": "说明档案类别、颜色或编号，方便对方辨认；涉及个人档案时，应先确认自己有查阅权限。"
+  }
+}

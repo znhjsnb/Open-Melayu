@@ -1,0 +1,142 @@
+{
+  "headword": {
+    "word": "adakah",
+    "syllables": "a.da.kah",
+    "ipa": "/aˈdakah/",
+    "jawi": "اداکه",
+    "frequency_rank": 86,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ada",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "ada + -kah → adakah",
+    "pattern_note": "疑问附着词 -kah 连写在 ada 后，词根不变；在此用于询问有无或整句真假，并非所有句子都逐字译为‘有没有’。IPA 采用文读形式，半岛部分地区也读 /ˌadəˈkah/。",
+    "word_family": [
+      {
+        "word": "ada",
+        "affix": "none",
+        "gloss": "有；存在"
+      },
+      {
+        "word": "adakan",
+        "affix": "-kan",
+        "gloss": "安排；使有（命令形式）"
+      },
+      {
+        "word": "mengadakan",
+        "affix": "meng-…-kan",
+        "gloss": "举办；提供"
+      },
+      {
+        "word": "keadaan",
+        "affix": "ke-…-an",
+        "gloss": "情况；状态"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "是否有；有没有，用于询问某人或某物是否存在。",
+      "ms_definition": "apakah ada (utk mengeraskan pertanyaan), ada atau tidak (tiada). (Kamus Dewan Edisi Keempat)",
+      "nuances": "核心是 ada 的有无问题。规范问句可用 adakah terdapat；日常聊天常直接问 Ada ...?。本表将疑问标记功能归入 particle，不表示 DBP 原文给出了这一英语词性。",
+      "collocations": [
+        {
+          "ms": "adakah terdapat",
+          "zh": "是否存在；是否有",
+          "en": "is there; are there"
+        },
+        {
+          "ms": "adakah sesiapa",
+          "zh": "是否有人",
+          "en": "is there anyone"
+        }
+      ],
+      "en_definition": "Used to ask whether someone or something exists or is present: is there; are there."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "是否；是不是，用于询问某个判断是否属实。",
+      "ms_definition": "benarkah (atau tidak), sesungguhnyakah (atau tidak). (Kamus Dewan Edisi Keempat)",
+      "nuances": "引出可以回答 ya 或 tidak 的问题，例如询问是否同意；不替代问人、地点或原因的 siapa、di mana、mengapa。完整形式常见于问卷、采访和正式询问。",
+      "collocations": [
+        {
+          "ms": "adakah benar",
+          "zh": "是否属实",
+          "en": "is it true"
+        },
+        {
+          "ms": "adakah anda bersetuju",
+          "zh": "您是否同意",
+          "en": "do you agree"
+        }
+      ],
+      "en_definition": "Used to introduce a yes-or-no question asking whether something is true."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻发布会 / 记者提问",
+      "ms": "Adakah kerajaan akan menyediakan bantuan tambahan kepada keluarga yang terjejas akibat banjir?",
+      "zh": "政府是否会向受水灾影响的家庭提供额外援助？",
+      "en": "Will the government provide additional assistance to families affected by the floods?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 顾客向店主确认是否仍在营业",
+      "ms_spoken": "Adakah kedai tu masih buka? Saya dah sampai kat depan ni, tapi pintu tutup.",
+      "ms_standard": "Adakah kedai itu masih beroperasi? Saya sudah tiba di hadapan kedai, tetapi pintunya ditutup.",
+      "zh": "你们店还在营业吗？我已经到店门口了，可是门关着。",
+      "spoken_features": [
+        "adakah 在这里询问“仍在营业”这一判断是否属实；顾客向店主询问时略显郑重，但可以与口语形式并用。",
+        "更随意的说法是 Kedai tu masih buka ke?；本对话保留目标词 adakah。",
+        "tu、dah、kat 分别对应 itu、sudah、di；句末 ni 突出已经到门口的当前情况。",
+        "je 对应 sahaja；ikut pintu tepi 在这里表示经由侧门进入。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (顾客)",
+          "ms_spoken": "Adakah kedai tu masih buka? Saya dah sampai kat depan ni, tapi pintu tutup.",
+          "ms_standard": "Adakah kedai itu masih beroperasi? Saya sudah tiba di hadapan kedai, tetapi pintunya ditutup.",
+          "zh": "你们店还在营业吗？我已经到店门口了，可是门关着。",
+          "en": "Is the shop still open? I'm outside now, but the door's closed."
+        },
+        {
+          "speaker": "Kak Salmah (店主)",
+          "ms_spoken": "Masih buka. Pintu depan je tutup, masuk ikut pintu tepi ya.",
+          "ms_standard": "Kedai kami masih beroperasi. Hanya pintu hadapan yang ditutup. Sila masuk melalui pintu sisi.",
+          "zh": "还在营业。只是前门关着，从侧门进来就行。",
+          "en": "We're still open. It's just the front door that's closed. Come in through the side door."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "adkah",
+      "full_form": "adakah",
+      "note": "聊天中的省字写法，适合熟人消息；正式问卷与公文使用完整拼写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "可用于跨族群的中性询问；礼貌程度仍取决于称呼和问题内容，adakah 本身不会自动使冒犯的问题变得得体。",
+    "usage_etiquette": "面向一般公众可用 anda；面对长辈或受访者可按关系使用 Encik、Puan 或职衔。询问收入、宗教实践等私人事项时应说明目的并尊重对方不回答的选择。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay; inherited root ada from Proto-Malayic",
+    "root_origin": "现代构词为 ada + 疑问附着词 -kah；ada 可追溯至原始马来语 *ada(ʔ)，更早关联原始马来-波利尼西亚语 *wada‘存在’。星号表示重建形式。",
+    "historical_story": "adakah 把马来语表示‘有、存在’的 ada 与疑问附着词 -kah 接在一起，让一个存在判断变成等待回答的问题。它的现代用途还包括询问整项陈述是否属实，所以记者问政策、老师设问和问卷调查都能使用同一个句首形式。",
+    "cognitive_memory_aid": "把 ada 想成‘有’，把 -kah 想成问号：ada + ? → adakah；再扩展记成‘是否’。"
+  }
+}

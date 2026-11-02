@@ -1,0 +1,147 @@
+{
+  "headword": {
+    "word": "sebab",
+    "syllables": "se.bab",
+    "ipa": "/səˈbab/",
+    "jawi": "سبب",
+    "frequency_rank": 159,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sebab",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sebab → sebab",
+    "pattern_note": "阿拉伯语整词借入，开头 se 不是这里可拆的马来语前缀 se-。词首 e 读 [ə]；词尾 b 在半岛标准读音中可实现为不除阻的 [p̚]。",
+    "word_family": [
+      {
+        "word": "bersebab",
+        "affix": "ber-",
+        "gloss": "有原因的"
+      },
+      {
+        "word": "menyebabkan",
+        "affix": "meN-...-kan",
+        "gloss": "导致；造成"
+      },
+      {
+        "word": "disebabkan",
+        "affix": "di-...-kan",
+        "gloss": "由……造成"
+      },
+      {
+        "word": "penyebab",
+        "affix": "peN-",
+        "gloss": "致因者；起因"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "原因；缘故；导致某事的因素。",
+      "ms_definition": "yg mengakibatkan sesuatu, fasal",
+      "nuances": "是可受 utama、lain 等修饰的名词；sebab 侧重原因，alasan 也可指提出的理由或借口，二者并非处处等价。",
+      "collocations": [
+        {
+          "ms": "sebab utama",
+          "zh": "主要原因",
+          "en": "the main reason"
+        },
+        {
+          "ms": "tanpa sebab",
+          "zh": "无缘无故；没有原因",
+          "en": "for no reason"
+        }
+      ],
+      "en_definition": "A cause or reason; something that makes something happen."
+    },
+    {
+      "id": 2,
+      "pos": "conjunction",
+      "zh_definition": "因为；由于；引出原因。",
+      "ms_definition": "kerana, lantaran, mula",
+      "nuances": "直接引原因分句的 sebab 很常见于口语，正式行文可用 kerana 或 oleh sebab。oleh sebab itu 表示“因此”；规范写作避免叠用 oleh sebab kerana 或 kerana sebab。",
+      "collocations": [
+        {
+          "ms": "sebab hujan",
+          "zh": "因为下雨",
+          "en": "because of the rain"
+        },
+        {
+          "ms": "oleh sebab itu",
+          "zh": "因此；所以",
+          "en": "therefore; for that reason"
+        }
+      ],
+      "en_definition": "Because; on account of the fact that."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 活动安排说明",
+      "ms": "Penganjur menjelaskan bahawa hujan lebat merupakan sebab utama penangguhan acara tersebut.",
+      "zh": "主办方说明，大雨是该活动延期的主要原因。",
+      "en": "The organisers explained that heavy rain was the main reason for postponing the event."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友因等不到公交车而告知会迟到",
+      "ms_spoken": "Aku lambat sikit sebab bas tak sampai lagi. Kau tunggu kat lobi dulu, ya.",
+      "ms_standard": "Saya akan lewat sedikit kerana bas belum tiba. Tunggu di lobi dahulu, ya.",
+      "zh": "公交车还没来，我会晚一点。你先在大厅等一下啊。",
+      "spoken_features": [
+        "sebab 在第一轮中直接引出迟到的原因；标准改写用 kerana，也可用 oleh sebab。",
+        "sikit 对应 sedikit；tak sampai lagi 在此表示尚未到达，对应 belum tiba。",
+        "takpe 是 tak apa 的聊天写法，标准改写为 tidak mengapa；bagitahu 对应 beritahu。",
+        "dah naik bas nanti… 省略时间连接词和主语，意思是等上车以后再告知，标准改写补出 apabila awak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Aku lambat sikit sebab bas tak sampai lagi. Kau tunggu kat lobi dulu, ya.",
+          "ms_standard": "Saya akan lewat sedikit kerana bas belum tiba. Tunggu di lobi dahulu, ya.",
+          "zh": "公交车还没来，我会晚一点。你先在大厅等一下啊。",
+          "en": "I'll be a bit late because the bus hasn't arrived yet. Wait in the lobby for now, okay?"
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Takpe, aku tunggu sini. Dah naik bas nanti bagitahu aku.",
+          "ms_standard": "Tidak mengapa, saya akan menunggu di sini. Beritahu saya apabila awak sudah menaiki bas nanti.",
+          "zh": "没事，我就在这里等。你上车后告诉我一声。",
+          "en": "No worries, I'll wait here. Let me know once you're on the bus."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "sbb",
+      "full_form": "sebab",
+      "note": "短信和 WhatsApp 中的省元音写法；正式文书写全词。"
+    },
+    {
+      "abbr": "sebb",
+      "full_form": "sebab",
+      "note": "给定口语资料中的非正式省写；不应当作标准拼法。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "询问原因可用 Boleh saya tahu sebabnya?，比直接质问 Apa sebab? 更缓和；正式解释使用 kerana 或 oleh sebab 往往更稳妥。",
+    "usage_etiquette": "把某人称为 penyebab 会归因于其责任，需有依据。向长辈解释事情可用 saya 和适当称谓；聊天里的 aku、kau 不随 sebab 自动适用于正式关系。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "Arabic（阿拉伯语）",
+    "root_origin": "借自阿拉伯语 سَبَب sabab（原因；手段等）；本地 Kaikki 直接标为阿拉伯语借词。WOLD 也列出相关印尼语 sebab 的阿拉伯语来源：https://wold.clld.org/word/92181432315064114-1 。",
+    "historical_story": "sebab 属于阿拉伯语进入马来语的词汇层；伊斯兰学术与马来世界的长期交流，是理解这一词汇层的历史背景，不能据此断定本词首次传入的港口或年代。它在现代马来语中已走出宗教语境，从报告里的“主要原因”到聊天里的一句“因为堵车”，都能用来连接事情与缘由。",
+    "cognitive_memory_aid": "问“为什么”就找 sebab；在 sebab 前后加词缀，menyebabkan 便是“造成”，penyebab 则是“造成事情的人或因素”。"
+  }
+}

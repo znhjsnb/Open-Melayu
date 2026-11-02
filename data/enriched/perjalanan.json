@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "perjalanan",
+    "syllables": "per.ja.la.nan",
+    "ipa": "[pər.d͡ʒaˈla.nan]",
+    "jawi": "ڤرجالنن",
+    "frequency_rank": 461,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jalan",
+    "affix": "per-...-an",
+    "affix_type": "circumfix",
+    "formula": "per- + jalan + -an → perjalanan（行程；运作过程）",
+    "pattern_note": "per-...-an 构成名词；jalan 的 j 保留，表示 /d͡ʒ/，没有鼻音替换。包中的 root 字段重复词头，此处按明确的构词证据还原为 jalan。",
+    "word_family": [
+      {
+        "word": "jalan",
+        "affix": "none",
+        "gloss": "道路；办法"
+      },
+      {
+        "word": "berjalan",
+        "affix": "ber-",
+        "gloss": "走路；运行"
+      },
+      {
+        "word": "menjalankan",
+        "affix": "meN-...-kan",
+        "gloss": "执行；经营；使运行"
+      },
+      {
+        "word": "pejalan kaki",
+        "affix": "pe-（pejalan）；复合词",
+        "gloss": "行人"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "旅程；行程；从一处前往另一处的过程。",
+      "ms_definition": "perihal berpergian (kepergian) (Kamus Dewan Edisi Keempat).",
+      "nuances": "可以指上学、通勤或长途旅行，不限于步行。dalam perjalanan 表示‘在途中’，与专指观光休闲的 pelancongan 不同；原文的 ark 标记属于同列的 kejalanan，不应把常用的 perjalanan 判成古语。",
+      "collocations": [
+        {
+          "ms": "dalam perjalanan pulang",
+          "zh": "在回程途中",
+          "en": "on the way home"
+        },
+        {
+          "ms": "perjalanan jauh",
+          "zh": "长途行程",
+          "en": "a long journey"
+        }
+      ],
+      "en_definition": "A journey or the act of travelling from one place to another."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "运作；运行；事务、机构或活动的进行过程。",
+      "ms_definition": "perihal berjalan (bergerak), gerakan (Kamus Dewan Edisi Keempat).",
+      "nuances": "把‘行进’用于机构或事件的推进。perjalanan mesyuarat 是会议的进行过程，并非去开会的路程；区别由后面的名词与上下文决定。",
+      "collocations": [
+        {
+          "ms": "perjalanan mesyuarat",
+          "zh": "会议的进行过程",
+          "en": "the conduct of a meeting"
+        },
+        {
+          "ms": "perjalanan syarikat",
+          "zh": "公司的运作",
+          "en": "the running of a company"
+        }
+      ],
+      "en_definition": "The operation or progress of an organisation, activity, or process."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "流动；流通，指水、油等的流行过程。",
+      "ms_definition": "pengaliran (Kamus Dewan Edisi Keempat).",
+      "nuances": "词典收录的流动义；现代说明水流时 aliran air 通常更直接。不要将涉及液体的 perjalanan 一律理解成拟人化的‘旅行’。",
+      "collocations": [
+        {
+          "ms": "perjalanan air",
+          "zh": "水的流动",
+          "en": "the flow of water"
+        },
+        {
+          "ms": "perjalanan minyak",
+          "zh": "油的流动",
+          "en": "the flow of oil"
+        }
+      ],
+      "en_definition": "The flow or circulation of a liquid, such as water or oil."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 节庆交通提醒",
+      "ms": "Pengguna jalan raya dinasihatkan supaya merancang perjalanan pulang ke kampung bagi mengelakkan kesesakan lalu lintas.",
+      "zh": "当局劝请公路使用者预先规划返乡行程，以避开交通拥堵。",
+      "en": "Road users are advised to plan their journeys back to their hometowns to avoid traffic congestion."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约见，确认抵达进度",
+      "ms_spoken": "Awak dah sampai ke? Saya dah tunggu kat lobi ni.",
+      "ms_standard": "Adakah awak sudah sampai? Saya sudah menunggu di lobi.",
+      "zh": "你到了吗？我已经在大厅等着了。",
+      "spoken_features": [
+        "dah 是 sudah 的口语短式；句尾 ke 用于询问是否已经抵达。",
+        "dalam perjalanan lagi 中的 lagi 表示仍然在路上，标准句用 masih。",
+        "jem 是交通堵塞的日常说法，标准句用 sesak；kot 表示不确定的估计。",
+        "kat 对应地点介词 di；sini je 相当于 di sini sahaja。",
+        "Dah dekat nanti mesej 省略了双方已知的主语和消息接收者。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Awak dah sampai ke? Saya dah tunggu kat lobi ni.",
+          "ms_standard": "Adakah awak sudah sampai? Saya sudah menunggu di lobi.",
+          "zh": "你到了吗？我已经在大厅等着了。",
+          "en": "Are you here yet? I'm already waiting in the lobby."
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Saya dalam perjalanan lagi. Jalan jem sikit, lagi sepuluh minit sampai kot.",
+          "ms_standard": "Saya masih dalam perjalanan. Jalan agak sesak. Saya mungkin akan sampai dalam masa sepuluh minit lagi.",
+          "zh": "我还在路上。有点堵车，估计再过十分钟到。",
+          "en": "I'm still on my way. There's a bit of traffic, so I'll probably be there in another ten minutes."
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Okey, saya tunggu sini je. Dah dekat nanti mesej ya.",
+          "ms_standard": "Baiklah, saya akan menunggu di sini sahaja. Apabila awak sudah hampir tiba, hantarlah mesej kepada saya.",
+          "zh": "好，我就在这儿等。快到了就发个消息哦。",
+          "en": "Okay, I'll just wait here. Text me when you're close, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "适合跨族群日常交流、交通公告与正式说明。祝人一路平安可说 Semoga selamat dalam perjalanan。",
+    "usage_etiquette": "已出发才说 sudah dalam perjalanan；约见时最好同时说明预计到达时间。返乡习惯不只属于某个族群，谈 balik kampung 时无需预设对方的宗教或节日。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语本地构词",
+    "root_origin": "per- + jalan + -an；jalan 是表示道路、行进的马来语词根。",
+    "historical_story": "马来语以 jalan 表达道路和行进，再通过 per-...-an 将动作组织成名词 perjalanan。沿河坐船也好，沿陆路返乡也好，这个词都能容纳‘从这里到那里’的过程；今天它也用于会议和机构的运作，把空间中的行进延伸到事务的推进。",
+    "cognitive_memory_aid": "jalan 是路；给 jalan 套上 per-...-an，就把‘走这条路的整个过程’装成一段旅程。"
+  }
+}

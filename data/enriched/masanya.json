@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "masanya",
+    "syllables": null,
+    "ipa": "[ma.sa.ɲa]",
+    "jawi": null,
+    "frequency_rank": 617,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: ماس (masa)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "masa",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "masa + -nya → masanya",
+    "pattern_note": "-nya 是附着成分，在此按 schema 归入 suffix；它可以指某人的时间，也可使时间指向语境中的特定时机，并非一律译成‘他的’。nya 中 ny 表示单个鼻音 /ɲ/；IPA 为依据构词给出的宽式读音，不是 DBP 官方音标。原包未提供整个词形的官方分节与 Jawi，保留 null，不从 masa 的字段拼造。 核心词根（Kata Dasar）「masa」官方爪夷文为「ماس」，派生附加 -nya。",
+    "word_family": [
+      {
+        "word": "masa",
+        "affix": "none",
+        "gloss": "时间；时机；时期"
+      },
+      {
+        "word": "semasa",
+        "affix": "se-",
+        "gloss": "当时的；在……期间"
+      },
+      {
+        "word": "pemasa",
+        "affix": "pe-",
+        "gloss": "计时器；定时器"
+      },
+      {
+        "word": "pemasaan",
+        "affix": "pe-…-an",
+        "gloss": "定时；时间安排"
+      }
+    ],
+    "root_jawi": "ماس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "所说的时间或时机；该到的时候。",
+      "ms_definition": "Kata dasar masa: waktu, ketika (Kamus Dewan Edisi Keempat). Huraian editorial masa + -nya: waktu atau ketika tertentu yang dimaksudkan dalam konteks.",
+      "nuances": "tepat pada masanya 表示准时，sudah tiba masanya 表示时候到了；这两种结构中的 -nya 通常不指某个男性。tiba masanya 后面可接 untuk + 动词，或接说明谁该做什么的分句。",
+      "collocations": [
+        {
+          "ms": "tepat pada masanya",
+          "zh": "准时；恰在预定时间",
+          "en": "on time"
+        },
+        {
+          "ms": "sudah tiba masanya",
+          "zh": "时候已经到了",
+          "en": "the time has come"
+        }
+      ],
+      "en_definition": "The particular time or occasion referred to; the appropriate or appointed time."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "他、她或所指对象的时间；其可支配或投入的一段时间。",
+      "ms_definition": "Kata dasar masa: jangka waktu yg tertentu (ada permulaan serta batasnya) (Kamus Dewan Edisi Keempat). Huraian editorial bentuk masanya: jangka waktu yang dimiliki, digunakan atau diperuntukkan kepada pihak yang dirujuk.",
+      "nuances": "在 Dia menghabiskan masanya membaca 中，-nya 回指 dia，意为把自己的时间花在阅读上。领属者的性别和身份由上下文决定，词形本身不编码性别。",
+      "collocations": [
+        {
+          "ms": "menghabiskan masanya",
+          "zh": "花费他／她的时间",
+          "en": "spend their time"
+        },
+        {
+          "ms": "meluangkan masanya",
+          "zh": "抽出他／她的时间",
+          "en": "make time; set aside some of their time"
+        }
+      ],
+      "en_definition": "The time available to, used by, or allocated to the person or entity referred to."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共工程进度通报",
+      "ms": "Semua projek perlu disiapkan tepat pada masanya bagi memastikan perkhidmatan awam tidak terjejas.",
+      "zh": "所有项目都须按时完工，以确保公共服务不受影响。",
+      "en": "All projects must be completed on time to ensure that public services are not affected."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聚会将结束时商量回家",
+      "ms_spoken": "Kau nak lepak lagi ke? Yang lain semua dah nak balik.",
+      "ms_standard": "Adakah kamu mahu terus bersantai di sini? Semua yang lain sudah hendak pulang.",
+      "zh": "你还想继续待着吗？其他人都准备回去了。",
+      "spoken_features": [
+        "nak 对应 mahu 或 hendak；lepak 在这里指闲坐、消磨时间。",
+        "dah tiba masanya 表示该到某个时候了；这里的 -nya 不表示某个人的所有关系。",
+        "jugak 是 juga 的口语写法；kena 在这里表示必须、需要。",
+        "jom lah 用于招呼对方一起行动；hantar kau balik sekali 中的 sekali 表示顺便也送你回家。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau nak lepak lagi ke? Yang lain semua dah nak balik.",
+          "ms_standard": "Adakah kamu mahu terus bersantai di sini? Semua yang lain sudah hendak pulang.",
+          "zh": "你还想继续待着吗？其他人都准备回去了。",
+          "en": "Do you still want to hang out? Everyone else is getting ready to leave."
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Dah tiba masanya kita balik jugak. Esok kena kerja awal.",
+          "ms_standard": "Sudah tiba masanya kita pulang juga. Esok kita perlu mula bekerja awal.",
+          "zh": "我们也该回家了。明天还得一早上班。",
+          "en": "It's time we headed home too. We've got to be at work early tomorrow."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jom lah. Aku hantar kau balik sekali.",
+          "ms_standard": "Mari kita pulang. Saya akan menghantar kamu pulang juga.",
+          "zh": "走吧。我顺便送你回家。",
+          "en": "Let's go. I'll give you a lift home while I'm at it."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Sudah tiba masanya kita… 常用于提议或号召，kita 把听者包括在内。向长辈或客户催办时，宜说明具体时间和原因，避免只说 sudah tiba masanya 而显得训人。",
+    "usage_etiquette": "不能把所有 -nya 都理解为‘他的’。约会和工作安排中，tepat pada masanya 表示准时，及时做某事也可能说 pada masa yang sesuai，要按具体语境区分。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "Sanskrit，经 Old Javanese，再进入 Malay",
+    "root_origin": "masa 通常追溯至古爪哇语 māsa 及梵语 मास māsa‘月’，现代 masanya 再由 masa 加马来语 -nya 构成。",
+    "historical_story": "masa 的词源把现代的‘时间’连到梵语 māsa‘月’，并经古爪哇语传入马来语。它的意义从月份这样的时间单位扩展到时刻、时期和时机，融入了群岛社会的日常表达。今天马来西亚的会议通报和手机聊天都能说 tiba masanya，用本地的 -nya 指出‘眼下所说的那个时候’。",
+    "cognitive_memory_aid": "masa 是时间，-nya 像把手指向‘那个时间’：tiba masanya＝那个时候到了；tepat pada masanya＝正好赶上那个时间。"
+  }
+}

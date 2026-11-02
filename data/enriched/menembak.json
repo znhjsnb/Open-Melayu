@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "menembak",
+    "syllables": "me.ném.baʔ",
+    "ipa": "[mə.nem.baʔ]",
+    "jawi": "منيمبق",
+    "frequency_rank": 556,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tembak",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + tembak → men- + embak → menembak",
+    "pattern_note": "meN- 遇词首 t 通常变为 men-，同时省去原来的 t；不是把完整的 men- 直接加在 tembak 前。PRPM 独立 syllables 字段为空，音节栏逐字保留正文读音标注 me.ném.baʔ；其中 é 表示 e taling，ʔ 标示词尾喉塞音，不是另造的拉丁拼写。",
+    "word_family": [
+      {
+        "word": "tembak",
+        "affix": "∅",
+        "gloss": "射击；开枪"
+      },
+      {
+        "word": "ditembak",
+        "affix": "di-",
+        "gloss": "被射击；遭枪击"
+      },
+      {
+        "word": "tembakan",
+        "affix": "-an",
+        "gloss": "射击；枪声；射出的一枪"
+      },
+      {
+        "word": "penembak",
+        "affix": "peN-",
+        "gloss": "射手；射击装置"
+      },
+      {
+        "word": "penembakan",
+        "affix": "peN-...-an",
+        "gloss": "射击行为；枪击事件"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "射击；开枪；向某人或某物发射枪弹。",
+      "ms_definition": "melepaskan bedilan dgn senjata api (senapang, pistol, dll), melepaskan bedilan ke arah (seseorang atau sesuatu), membedil",
+      "nuances": "采用 Kamus Dewan 枪械义，而非资料包排在首位的另一个 tembak 词条。menembak 本身不保证击中或致死；menembak mati 才明确表示开枪打死。日常会话常直接用 tembak，正式主动句通常保留 meN-。",
+      "collocations": [
+        {
+          "ms": "menembak sasaran",
+          "zh": "射击靶子；向目标射击",
+          "en": "shoot at a target"
+        },
+        {
+          "ms": "menembak mati",
+          "zh": "开枪打死",
+          "en": "shoot dead"
+        }
+      ],
+      "en_definition": "To fire a gun, or fire it at someone or something."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "【足球；词典标为印尼语用法】射门；把球踢向球门。",
+      "ms_definition": "Id menyepak bola ke arah gol (dlm permainan bola sepak)",
+      "nuances": "保留 DBP 的 Id 标签。理解足球报道时可据语境辨认；在马来西亚标准表达中，merembat bola、melakukan percubaan ke arah gol 等说法更明确，不能把本义当成真实开枪。",
+      "collocations": [
+        {
+          "ms": "menembak bola",
+          "zh": "踢球射门",
+          "en": "shoot the ball at goal"
+        },
+        {
+          "ms": "menembak ke arah gol",
+          "zh": "朝球门射门",
+          "en": "take a shot at goal"
+        }
+      ],
+      "en_definition": "(Indonesian, football) To kick the ball towards the goal in an attempt to score."
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "【比喻】说假话；用编造的话欺骗别人。",
+      "ms_definition": "ki berbuat bohong, membohongi",
+      "nuances": "这是 Kamus Dewan 列出的比喻义；要靠谈话内容与语气判断。口语 tembak 也可能表示瞎猜答案，不能把所有‘猜测’都解释为蓄意撒谎。资料包另一个 tembak 词条还列有米南加保语背景的‘指向’及雷电‘击中’义，不与本条枪械义混为同一释义。",
+      "collocations": [
+        {
+          "ms": "jangan menembak",
+          "zh": "别胡诌；别说假话",
+          "en": "don't make things up"
+        },
+        {
+          "ms": "pandai menembak",
+          "zh": "很会胡编乱造（比喻语境）",
+          "en": "be good at making things up"
+        }
+      ],
+      "en_definition": "(Figurative) To tell lies or deceive someone with made-up stories."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "体育新闻 / 射击训练",
+      "ms": "Atlet negara itu menjalani latihan menembak sasaran sebagai persediaan menghadapi kejohanan antarabangsa.",
+      "zh": "该国手正在进行打靶训练，为国际锦标赛做准备。",
+      "en": "The national athlete is practising target shooting in preparation for an international championship."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友在嘉年华相约玩打靶游戏",
+      "ms_spoken": "Jom cuba menembak sasaran kat gerai tu. Hadiah dia besar gila!",
+      "ms_standard": "Marilah kita mencuba menembak sasaran di gerai itu. Hadiah yang ditawarkan sangat besar!",
+      "zh": "走，去那个摊位试试打靶。奖品大得夸张！",
+      "spoken_features": [
+        "menembak sasaran 在这里指嘉年华游戏中的打靶。",
+        "jom 是日常邀约词，规范表达可用 marilah。",
+        "kat gerai tu 对应 di gerai itu。",
+        "besar gila 是朋友间的夸张说法，表示非常大；gila 在这里加强程度。",
+        "hadiah dia 在这里指该摊位提供的奖品，dia 不指某个人。",
+        "dulu lah 表示让对方先试，lah 使请求更随意。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Jom cuba menembak sasaran kat gerai tu. Hadiah dia besar gila!",
+          "ms_standard": "Marilah kita mencuba menembak sasaran di gerai itu. Hadiah yang ditawarkan sangat besar!",
+          "zh": "走，去那个摊位试试打靶。奖品大得夸张！",
+          "en": "Let's have a go at target shooting at that stall. The prizes are absolutely massive!"
+        },
+        {
+          "speaker": "Faris (朋友)",
+          "ms_spoken": "Jom! Tapi kau cuba dulu lah, aku tak pernah main.",
+          "ms_standard": "Marilah! Tetapi kamu cubalah dahulu kerana saya belum pernah bermain permainan itu.",
+          "zh": "走！不过你先试吧，我还没玩过。",
+          "en": "Let's do it! But you go first—I've never tried it before."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用于体育、新闻与一般叙述均自然，本词本身不涉及族群或身份称谓。比喻指责别人‘胡诌’可能使人难堪，工作讨论宜具体询问信息来源。",
+    "usage_etiquette": "真实事件中区分开枪、击中与死亡，不能仅凭 menembak 就翻成‘枪杀’。nembak 常见于印尼口语，不作为本条马来西亚聊天缩写；nmbk 也不是可默认通用的规范简称。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语；更早为马来语支及马来—波利尼西亚语",
+    "root_origin": "现代构词为 meN- + tembak；tembak 可追溯至旧式 timbak 与重建形式 *timbak、*ti(m)bak，星号表示重建。参考：[tembak 词源](https://en.wiktionary.org/wiki/tembak#Malay)。",
+    "historical_story": "tembak 有较早的词形 timbak，menembak 则用马来语本有的 meN- 前缀把射击动作纳入主动动词系统。PRPM 保存的古典叙事例句把交火、火炮和 Peringgi（葡萄牙人）放在同一幅海上冲突图景里，呈现这个词在旧叙事中的使用。今天它既用于枪击报道，也用于射击运动，而足球和说谎等义则需依语境辨认。",
+    "cognitive_memory_aid": "把 t 想成被前缀‘射掉’的字母：meN- + tembak → menembak；枪响不等于命中，更不一定致死。"
+  }
+}

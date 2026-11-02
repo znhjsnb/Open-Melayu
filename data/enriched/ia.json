@@ -1,0 +1,127 @@
+{
+  "headword": {
+    "word": "ia",
+    "syllables": null,
+    "ipa": "[i.ja]",
+    "jawi": null,
+    "frequency_rank": 36,
+    "tags": [
+      "CEFR-A1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ia",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ia → ia",
+    "pattern_note": "独立词；代词义与表示肯定的同形词分列。PRPM 原包未提供音节和 Jawi，保留 null；半岛读音亦见 [i.jə]。",
+    "word_family": [
+      {
+        "word": "mengiakan",
+        "affix": "meN-…-kan",
+        "gloss": "表示赞同；来自肯定义 ia"
+      },
+      {
+        "word": "beria-ia",
+        "affix": "ber- + 重叠",
+        "gloss": "十分认真；热切；来自肯定义 ia"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "他；她；不区分性别的第三人称代词，常用于书面叙述。",
+      "ms_definition": "kata ganti nama diri ketiga; dia. (Kamus Pelajar Edisi Kedua)",
+      "nuances": "原包此义来自 Kamus Pelajar，并无 Kamus Dewan 原文。主要用于主语位置；宾语通常用 dia，物主形式用 -nya，不照搬英语的 him/her。指物或事情的 ia 可见于实际文本，但正式写作可复述名词以避免指代不清；不把单数 ia 当作一般复数 mereka。",
+      "collocations": [
+        {
+          "ms": "ia berkata",
+          "zh": "他／她说",
+          "en": "he or she said"
+        },
+        {
+          "ms": "ia bercita-cita",
+          "zh": "他／她立志",
+          "en": "he or she aspires to"
+        }
+      ],
+      "en_definition": "He or she; a gender-neutral third-person singular pronoun, commonly used in written narratives."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "是；对；表示承认或赞同的较少见形式。",
+      "ms_definition": "kata yg diucapkan utk membenarkan, mengakui atau menyetujui sesuatu; ya. (Kamus Pelajar Edisi Kedua)",
+      "nuances": "这是与代词同形的肯定词；日常回答通常写 ya 或 iya。mengiakan、beria-ia 保留这一意义联系；下列搭配展示其常见派生用法，不表示独立 ia 是最常用的答话形式。",
+      "collocations": [
+        {
+          "ms": "mengiakan pendapat",
+          "zh": "赞同意见",
+          "en": "agree with an opinion"
+        },
+        {
+          "ms": "beria-ia mengajak",
+          "zh": "热切地邀请",
+          "en": "invite eagerly"
+        }
+      ],
+      "en_definition": "Yes; a less common form used to affirm, acknowledge, or express agreement."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻人物报道",
+      "ms": "Amir berkata bahawa ia akan meneruskan pengajian dalam bidang perubatan selepas tamat persekolahan.",
+      "zh": "阿米尔表示，他将在中学毕业后继续攻读医学。",
+      "en": "Amir said that he would pursue medical studies after finishing school."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论短篇小说中的人物指代",
+      "ms_spoken": "Dalam cerpen tu ada ayat 'Ia terus pulang.' Yang 'ia' tu Amir ke ayah dia?",
+      "ms_standard": "Dalam cerpen itu terdapat ayat 'Ia terus pulang.' Adakah kata ganti nama 'ia' itu merujuk kepada Amir atau bapanya?",
+      "zh": "那篇短篇小说里有一句“他随即回家了”。这个“他”指的是阿米尔，还是他爸爸？",
+      "spoken_features": [
+        "ia 通过小说原句和指代讨论自然出现，在这里指人，属于书面叙述中的第三人称代词",
+        "同学自己的随意聊天使用 dia；dia 与 ia 是语体用词差异，并非拼写缩略关系",
+        "tu = itu；kat = di；masa tu 对应 pada waktu itu",
+        "Amir ke ayah dia 中的 ke 表示二选一，正式还原为 atau",
+        "第二轮用单独的 Amir 回答选择问句，正式还原时补全指代关系"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (同学)",
+          "ms_spoken": "Dalam cerpen tu ada ayat 'Ia terus pulang.' Yang 'ia' tu Amir ke ayah dia?",
+          "ms_standard": "Dalam cerpen itu terdapat ayat 'Ia terus pulang.' Adakah kata ganti nama 'ia' itu merujuk kepada Amir atau bapanya?",
+          "zh": "那篇短篇小说里有一句“他随即回家了”。这个“他”指的是阿米尔，还是他爸爸？",
+          "en": "There's a line in that short story: 'He went straight home.' Does 'he' mean Amir or his dad?"
+        },
+        {
+          "speaker": "Aisyah (同学)",
+          "ms_spoken": "Amir. Ayah dia masih kat kedai masa tu.",
+          "ms_standard": "Kata ganti nama itu merujuk kepada Amir. Bapanya masih berada di kedai pada waktu itu.",
+          "zh": "阿米尔。他爸爸当时还在店里。",
+          "en": "Amir. His dad was still at the shop then."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "ia 不标性别，也不是对面听者的称呼。谈论在场的长辈、老师或贵宾时，姓名与职衔通常比反复用第三人称更体贴。",
+    "usage_etiquette": "第三人称不等于敬语；需要敬称时按身份选择 beliau，王室称谓另依礼仪。不要把 ia 当成对任何族群的特殊称呼；聊天可自然换成 dia。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic；更早为 Proto-Malayo-Polynesian / Proto-Austronesian",
+    "root_origin": "原包将代词追溯为 Proto-Malayic *ia < *(si-)ia；星号表示重建形式。肯定同形词不据此强行认定为同一条词源。",
+    "historical_story": "ia 是马来语继承的古老代词，远早于现代新闻报道与手机聊天。把它想成岛屿语言之间传承的一枚指人标记：今天书面叙述仍用它接续前文的人物，而朋友聊天往往选 dia。",
+    "cognitive_memory_aid": "写报道想到 ia，聊朋友想到 dia；两者都不分他与她。"
+  }
+}

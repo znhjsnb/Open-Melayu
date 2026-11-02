@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "mesej",
+    "syllables": "me.sej",
+    "ipa": "/ˈme.sed͡ʒ/",
+    "jawi": "ميسيج",
+    "frequency_rank": 1149,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mesej",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mesej → mesej",
+    "pattern_note": "整词借入，不拆分为马来语词缀；两个 e 均读 /e/，词尾 j 读 /d͡ʒ/。",
+    "word_family": [
+      {
+        "word": "pemesejan",
+        "affix": "peN-...-an",
+        "gloss": "消息传递；即时通信"
+      },
+      {
+        "word": "mesej suara",
+        "affix": "none",
+        "gloss": "语音消息；由词根组成的复合表达"
+      }
+    ],
+    "root_jawi": "ميسيج"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "要传达给某人的简短信息、口信或消息，尤指通过手机等工具发送的信息。",
+      "en_definition": "A short communication intended for someone, especially one sent electronically.",
+      "ms_definition": "Pesanan berupa berita atau kata-kata singkat yang hendak disampaikan kepada seseorang.",
+      "nuances": "本义不限于手机消息，也可指口信或电话留言。日常口语可直接说 mesej saya，表示“给我发消息”；正式表达宜用 hantar mesej kepada saya。",
+      "collocations": [
+        {
+          "ms": "menghantar mesej",
+          "zh": "发送消息",
+          "en": "send a message"
+        },
+        {
+          "ms": "membalas mesej",
+          "zh": "回复消息",
+          "en": "reply to a message"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场通知 / 客户服务",
+      "ms": "Pihak kami akan menghantar mesej pengesahan kepada pelanggan selepas pendaftaran selesai.",
+      "zh": "注册完成后，我们将向客户发送确认消息。",
+      "en": "We will send customers a confirmation message once registration is complete."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认消息",
+      "ms_spoken": "Kau dah baca mesej aku tadi ke?",
+      "ms_standard": "Adakah kamu sudah membaca mesej saya tadi?",
+      "zh": "你看我刚才发的消息了吗？",
+      "en": "Have you read the message I sent earlier?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "句末 ke 用于口语疑问，标准语可用 adakah。",
+        "kau 和 aku 适用于关系亲近、接受这种称呼的朋友。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah baca mesej aku tadi ke?",
+          "ms_standard": "Adakah kamu sudah membaca mesej saya tadi?",
+          "zh": "你看我刚才发的消息了吗？",
+          "en": "Have you read the message I sent earlier?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, aku baru nak balas. Kita jumpa kat kedai tu pukul tiga, ya.",
+          "ms_standard": "Sudah, saya baru hendak membalasnya. Kita berjumpa di kedai itu pada pukul tiga, ya.",
+          "zh": "看了，我正要回呢。我们三点在那家店见啊。",
+          "en": "Yeah, I was just about to reply. Let's meet at that shop at three, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向上司或不熟悉的人发送消息时，宜先称呼对方并说明来意；请求回复可说 Mohon balas apabila berkelapangan。",
+    "usage_etiquette": "工作沟通宜使用完整拼写，并结合对方的工作时间判断是否适合催复。正式写作中使用 menghantar mesej 或 membalas mesej。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "English",
+    "root_origin": "message",
+    "cognitive_memory_aid": "把英语 message 与 mesej 配对记忆：手机里收到一条 message，马来语就是一条 mesej。",
+    "historical_story": "mesej 是英语 message 进入马来语后形成的适应性拼写，整词承担“传递信息”的意义。它所指的载体可以从电话留言换成手机屏幕，核心仍是要交给接收者的那段话；DBP 也以 pesanan 解释这一核心义。[DBP 词义说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mesej)"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "向上司或不熟悉的人发送消息时，宜先称呼对方并说明来意；请求回复可说 Mohon balas apabila berkelapangan。",
+    "usage_etiquette": "工作沟通宜使用完整拼写，并结合对方的工作时间判断是否适合催复。正式写作中使用 menghantar mesej 或 membalas mesej。"
+  }
+}

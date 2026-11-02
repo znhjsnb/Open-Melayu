@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "mempunyai",
+    "syllables": "mem.pu.nya.i",
+    "ipa": "[məm.pu.ɲa.ʔi]",
+    "jawi": "ممڤوڽاءي",
+    "frequency_rank": 140,
+    "tags": [
+      "CEFR-A2",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "punya",
+    "affix": "meN-...-i",
+    "affix_type": "circumfix",
+    "formula": "mem- + punya + -i → mempunyai",
+    "pattern_note": "现代按 punya 加 meN-…-i 分析，但此词保留 p，不能套用一般 p 脱落规则；nya 中 ny 是 /ɲ/，末尾 -i 单独成音节。历史上又与 empunya 有关，不能把现代拆分当成唯一历史路径。",
+    "word_family": [
+      {
+        "word": "punya",
+        "affix": "none",
+        "gloss": "有；所属，口语常用"
+      },
+      {
+        "word": "empunya",
+        "affix": "none（历史相关词）",
+        "gloss": "主人；所有者"
+      },
+      {
+        "word": "kepunyaan",
+        "affix": "ke-...-an",
+        "gloss": "所有物；属于某人"
+      },
+      {
+        "word": "dipunyai",
+        "affix": "di-...-i",
+        "gloss": "被拥有；为……所有"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "拥有；有，表示具备财物、资源、特征、能力或某种关系。",
+      "ms_definition": "ada menaruh atau menyimpan sesuatu; ada yg dimilikinya; memiliki",
+      "nuances": "释义来自材料中的 Kamus Pelajar Edisi Kedua；该词的独立 Kamus Dewan 字段为空，不冒称第四版引文。属及物动词，通常接名词宾语；mempunyai dua orang anak 只是“有两个孩子”，没有把家人当财产的意味。",
+      "collocations": [
+        {
+          "ms": "mempunyai pengalaman",
+          "zh": "具备经验",
+          "en": "have experience"
+        },
+        {
+          "ms": "mempunyai anak",
+          "zh": "有孩子",
+          "en": "have children"
+        }
+      ],
+      "en_definition": "To have or possess something, or to have a particular quality, ability, or relationship."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "招聘公告／标准书面语",
+      "ms": "Calon yang mempunyai pengalaman dalam bidang berkaitan akan diberikan keutamaan.",
+      "zh": "具备相关领域经验的应聘者将获优先考虑。",
+      "en": "Candidates who have experience in the relevant field will be given priority."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友转述招聘广告中的正式经验要求",
+      "ms_spoken": "Aku nak mohon kerja ni, tapi iklan tu tulis calon kena mempunyai pengalaman kerja sekurang-kurangnya dua tahun. Aku baru kerja setahun je.",
+      "ms_standard": "Saya mahu memohon pekerjaan ini, tetapi iklan itu menyatakan bahawa calon perlu mempunyai pengalaman kerja sekurang-kurangnya dua tahun. Saya baru bekerja selama setahun sahaja.",
+      "zh": "我想申请这份工作，可广告写着应聘者得有至少两年的工作经验。我才工作一年。",
+      "spoken_features": [
+        "mempunyai 自然保留在转述招聘条件的内容中，表示具备工作经验；同一人的日常叙述则使用 ada。",
+        "kena mempunyai 混合口语中的义务表达 kena 与广告中的正式词 mempunyai，符合聊天转述书面要求的语境。",
+        "ni、tu 分别对应 ini、itu；nak 对应 mahu；je 对应 sahaja。",
+        "diorang 是口语第三人称复数，对应 mereka；HR 指人力资源部门。",
+        "kira sekali 在这里表示也计入经验；Haah 是口语中的肯定回应。"
+      ],
+      "messages": [
+        {
+          "speaker": "Danish (正在求职的朋友)",
+          "ms_spoken": "Aku nak mohon kerja ni, tapi iklan tu tulis calon kena mempunyai pengalaman kerja sekurang-kurangnya dua tahun. Aku baru kerja setahun je.",
+          "ms_standard": "Saya mahu memohon pekerjaan ini, tetapi iklan itu menyatakan bahawa calon perlu mempunyai pengalaman kerja sekurang-kurangnya dua tahun. Saya baru bekerja selama setahun sahaja.",
+          "zh": "我想申请这份工作，可广告写着应聘者得有至少两年的工作经验。我才工作一年。",
+          "en": "I want to apply for this job, but the ad says applicants need at least two years of work experience. I've only been working for a year."
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Cuba tanya HR dulu. Pengalaman latihan industri kau tu diorang kira sekali tak?",
+          "ms_standard": "Cuba bertanya kepada bahagian sumber manusia dahulu sama ada pengalaman latihan industri awak turut diambil kira.",
+          "zh": "先问问人力资源部门吧。他们会把你的实习经历也算进去吗？",
+          "en": "Try asking HR first. Would they count your internship experience too?"
+        },
+        {
+          "speaker": "Danish (正在求职的朋友)",
+          "ms_spoken": "Haah, aku ada latihan industri enam bulan dulu. Okey, aku tanya diorang.",
+          "ms_standard": "Ya, saya pernah menjalani latihan industri selama enam bulan. Baiklah, saya akan bertanya kepada mereka.",
+          "zh": "对，我之前实习过六个月。好，我问问他们。",
+          "en": "Oh yeah, I did a six-month internship before. Okay, I'll ask them."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "常见于公文、履历和新闻，但中性叙述也可使用。日常谈话用 ada 往往更自然；这是换词，不是 mempunyai 的缩写。",
+    "usage_etiquette": "适合描述资格、设施、孩子或抽象权利。不要把 Saya mempunyai… 的结构机械替换成所有英语 have 结构，例如“必须”通常另用 perlu 或 mesti；聊天中的 saya punya buku 又是另一种所属结构。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语",
+    "root_origin": "现代词根通常分析为 punya；所给研究说明历史上与 empunya（主人、所有者）及 empu + -nya 有关。DBP 的 empunya 条也记录其拥有义：https://prpm.dbp.gov.my/Cari1?d=246792&keyword=Empunya 。",
+    "historical_story": "在较早的马来语表达中，empunya 可以指主人、所有者，也能表达拥有，把人和其所属之物连接起来。所给词源研究把 mempunyai 与这条线索相连，而现代教学通常从 punya 来分析它，历史来路与今天的构词口诀因此不能完全画等号。如今它既能说“有财物”，也能说明履历中的经验和公共文本中的权利，是正式马来语说明“具有什么”的常用动词。",
+    "cognitive_memory_aid": "把 punya 的“有／所属”穿上正式动词外衣：mem- + punya + -i → mempunyai；特别记住 p 保留，末尾 i 另成一拍。"
+  }
+}

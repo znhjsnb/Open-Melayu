@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "bolehkah",
+    "syllables": "",
+    "ipa": "/bolehkah/",
+    "jawi": "",
+    "frequency_rank": 462,
+    "tags": [
+      "CEFR-A1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "boleh",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "boleh + -kah → bolehkah（可以吗；能否）",
+    "pattern_note": "-kah 是附着并连写的疑问小品词，本 schema 以 suffix 表示其位置，并非改变词汇意义的普通派生后缀。boleh 的 h 保留；IPA 是按 boleh + -kah 给出的宽式读音，不冒称 DBP 音标。词包未提供此词的官方音节与 Jawi，两字段留空，不从 boleh 的拼写推造。",
+    "word_family": [
+      {
+        "word": "boleh",
+        "affix": "none",
+        "gloss": "可以；能够"
+      },
+      {
+        "word": "membolehkan",
+        "affix": "meN-...-kan",
+        "gloss": "使能够；准许"
+      },
+      {
+        "word": "kebolehan",
+        "affix": "ke-...-an",
+        "gloss": "能力；本领"
+      },
+      {
+        "word": "berkebolehan",
+        "affix": "ber- + ke-...-an",
+        "gloss": "有能力的"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "可以……吗？能否……？用于征求许可或礼貌地提出请求。",
+      "ms_definition": "Bentuk pertanyaan bagi boleh untuk meminta izin atau mengemukakan permintaan. (Huraian editorial bagi boleh + partikel -kah; bukan petikan entri Kamus Dewan.)",
+      "nuances": "boleh 是 kata bantu ragam，本 schema 归 verb；-kah 标记疑问。Bolehkah saya...? 常询问自己是否获准，Bolehkah tuan membantu...? 则请求对方协助。-kah 本身不保证礼貌，称呼与措辞同样重要。",
+      "collocations": [
+        {
+          "ms": "bolehkah saya meminjam",
+          "zh": "我可以借用……吗",
+          "en": "may I borrow …?"
+        },
+        {
+          "ms": "bolehkah tuan menjelaskan",
+          "zh": "能否请您说明",
+          "en": "could you please explain …?"
+        }
+      ],
+      "en_definition": "May …? Can …? Used to ask permission or make a polite request."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "能……吗？是否可行？询问能力、条件或可能性。",
+      "ms_definition": "Bentuk pertanyaan bagi boleh untuk menanyakan keupayaan atau kemungkinan melakukan sesuatu. (Huraian editorial; bukan petikan entri Kamus Dewan.)",
+      "nuances": "例如询问设备是否可用或工程能否准时完成，不一定涉及批准。答 boleh 表示能或可以，答 tidak boleh 表示不能或不准，须结合语境。",
+      "collocations": [
+        {
+          "ms": "bolehkah digunakan semula",
+          "zh": "是否可以再次使用",
+          "en": "can it be reused?"
+        },
+        {
+          "ms": "bolehkah disiapkan tepat pada masanya",
+          "zh": "是否能够准时完成",
+          "en": "can it be finished on time?"
+        }
+      ],
+      "en_definition": "Can …? Used to ask whether someone is able to do something or whether something is possible."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议发言 / 询问申请程序",
+      "ms": "Bolehkah pihak tuan menjelaskan prosedur permohonan bantuan ini kepada para peserta?",
+      "zh": "能否请贵方为出席者说明这项援助的申请程序？",
+      "en": "Could you explain the procedure for applying for this assistance to the participants?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事之间礼貌借用参考书",
+      "ms_spoken": "Bolehkah saya pinjam buku rujukan awak kejap? Nak semak satu benda je.",
+      "ms_standard": "Bolehkah saya meminjam buku rujukan awak sebentar? Saya hanya mahu menyemak satu perkara.",
+      "zh": "我可以借一下你的参考书吗？就想查个东西。",
+      "spoken_features": [
+        "Bolehkah 保留较完整、礼貌的请求形式，适合同事之间客气地借东西；更随意时常说 Boleh saya pinjam…?",
+        "pinjam 和 semak 在聊天主动句中省去标准形式中的前缀，分别对应 meminjam 和 menyemak。",
+        "kejap 相当于 sebentar；nak 相当于 mahu；satu benda 在此指一件要查的事情。",
+        "je 相当于 sahaja，但 ambil je 在此主要传达可以直接拿取的随和语气。",
+        "lepas 对应 selepas；letak balik 表示放回原处；balik 在末句表示回去。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (同事，借书者)",
+          "ms_spoken": "Bolehkah saya pinjam buku rujukan awak kejap? Nak semak satu benda je.",
+          "ms_standard": "Bolehkah saya meminjam buku rujukan awak sebentar? Saya hanya mahu menyemak satu perkara.",
+          "zh": "我可以借一下你的参考书吗？就想查个东西。",
+          "en": "Could I borrow your reference book for a moment? I just want to check something."
+        },
+        {
+          "speaker": "Amir (同事，书主)",
+          "ms_spoken": "Boleh, ambil je kat meja saya. Lepas guna, letak balik situ ya.",
+          "ms_standard": "Boleh, ambillah buku itu di meja saya. Selepas menggunakannya, letakkan semula buku itu di situ.",
+          "zh": "可以，直接去我桌上拿吧。用完放回那里就好。",
+          "en": "Sure, just grab it from my desk. Put it back there when you're done, okay?"
+        },
+        {
+          "speaker": "Nadia (同事，借书者)",
+          "ms_spoken": "Terima kasih! Nanti saya pulangkan sebelum awak balik.",
+          "ms_standard": "Terima kasih. Saya akan memulangkannya sebelum awak pulang.",
+          "zh": "谢谢！我会在你回去之前还给你。",
+          "en": "Thanks! I'll return it before you head home."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "用于柜台、邮件和会议请求较稳妥。称呼可选姓名、职衔、tuan 或 puan；对长辈与陌生人避免未经熟悉就用 kau。",
+    "usage_etiquette": "Bolehkah saya...? 是征求同意，应等待答复再行动。朋友间的 Boleh tak...? 是另一种疑问表达，并非 bolehkah 的拼写缩写；-kah 应与前词连写。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语构词；此处不推定 boleh 的更早借词来源",
+    "root_origin": "直接结构为 boleh（能；获准）+ 疑问小品词 -kah；origin 指马来语构词层。",
+    "historical_story": "马来语用附着的小品词 -kah 突出提问内容，将 boleh 的‘能、可以’转成向对方开放的询问。这个结构今天从日常借物请求延伸到会议和公共服务中的正式问句；口语常省去 -kah 而依靠语调，书面语则保留这个清楚的疑问标记。",
+    "cognitive_memory_aid": "把 boleh 想成‘可以’，把 -kah 想成贴在后面的问号：可以 + 问号 = 可以吗？"
+  }
+}

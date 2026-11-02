@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "york",
+    "syllables": null,
+    "ipa": "/jɔːk/",
+    "jawi": null,
+    "frequency_rank": 979,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "york",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + York → York",
+    "pattern_note": "地名专名整体记忆，不作马来语词缀拆分。词频索引沿用小写 york，正常行文必须写 York；is_root 表示不作共时派生分析。IPA 给英语非卷舌读法作参考，不声称是 DBP 马来语官方音标；官方音节与 Jawi 原包缺失，保留 null。CEFR 为教学估级。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "约克，英国英格兰的一座历史城市（专有名词）。",
+      "ms_definition": "York ialah sebuah bandar bersejarah di England. (Huraian editorial nama khas; tiada definisi Kamus Dewan dalam paket.)",
+      "nuances": "pos 的 noun 在本结构中包含专有名词。York 与美国 New York 是不同地点；单独的 York 不自动表示纽约。",
+      "collocations": [
+        {
+          "ms": "bandar York",
+          "zh": "约克市",
+          "en": "the city of York"
+        },
+        {
+          "ms": "Universiti York",
+          "zh": "约克大学（须据上下文辨明具体院校）",
+          "en": "the University of York or York University, depending on the institution intended"
+        }
+      ],
+      "en_definition": "York, a historic city in England."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在 New York 这一完整专名中的组成部分：纽约，可指美国纽约市或纽约州。",
+      "ms_definition": "Dalam nama New York, unsur York menjadi sebahagian daripada nama bandar atau negeri di Amerika Syarikat. (Huraian editorial konteks; bukan makna bebas York atau petikan Kamus Dewan.)",
+      "nuances": "原包例句均为 New York。此项解释完整专名中的用法，不能把 york 单独当成‘纽约’的马来语译词；需要区分城市与州时写 bandar New York 或 negeri New York。",
+      "collocations": [
+        {
+          "ms": "bandar New York",
+          "zh": "纽约市",
+          "en": "New York City"
+        },
+        {
+          "ms": "negeri New York",
+          "zh": "纽约州",
+          "en": "New York State"
+        }
+      ],
+      "en_definition": "An element of the proper name New York, referring to either a city or a state in the United States."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "国际事务新闻",
+      "ms": "Delegasi Malaysia dijadualkan menghadiri persidangan antarabangsa di New York minggu hadapan.",
+      "zh": "马来西亚代表团预定下周在纽约出席国际会议。",
+      "en": "The Malaysian delegation is scheduled to attend an international conference in New York next week."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问抵达纽约后的情况",
+      "ms_spoken": "Kau dah sampai New York ke? Kat sana sejuk tak?",
+      "ms_standard": "Adakah kamu sudah tiba di New York? Adakah cuaca di sana sejuk?",
+      "zh": "你到纽约了吗？那边冷不冷？",
+      "spoken_features": [
+        "New York 是完整专名，规范书写保留首字母大写；这里不能单独用 York 来指纽约。",
+        "dah 对应 sudah；句末 ke 引出是非问句；kat 对应 di；tak 对应 tidak。",
+        "sejuk gila 是熟人聊天中强调非常冷的说法，gila 在这里起加强程度的作用。",
+        "nasib baik 表示幸好，标准还原为 mujurlah；aku、kau 适用于熟悉的朋友之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nurin (朋友)",
+          "ms_spoken": "Kau dah sampai New York ke? Kat sana sejuk tak?",
+          "ms_standard": "Adakah kamu sudah tiba di New York? Adakah cuaca di sana sejuk?",
+          "zh": "你到纽约了吗？那边冷不冷？",
+          "en": "Have you arrived in New York yet? Is it cold there?"
+        },
+        {
+          "speaker": "Aisyah (朋友)",
+          "ms_spoken": "Dah, baru sampai hotel ni. Sejuk gila, nasib baik aku bawa jaket tebal.",
+          "ms_standard": "Ya, saya sudah tiba dan baru sahaja sampai di hotel. Cuaca sangat sejuk. Mujurlah saya membawa jaket tebal.",
+          "zh": "到了，刚到酒店。冷得很，幸好我带了厚外套。",
+          "en": "Yeah, I just got to the hotel. It's absolutely freezing. Good thing I brought a thick jacket."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "地名本身中性；正式文章保留 York、New York 的大写。对长辈或陌生人询问行程时不用熟人式 kau。",
+    "usage_etiquette": "预订行程或谈院校时写清国家、城市及机构全名，尤其要区分英国 York 与美国 New York。NYC 是 New York City 的缩写，不是 york 单词的通用缩写，故不收入 spoken_shortcuts。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语专名；更早有凯尔特语、古英语及古诺斯语历史层次",
+    "root_origin": "马来语保留英语专名 York；历史形式包括 Eboracum、Eoforwic、Jórvík。参考：https://www.snsbi.org.uk/exploring-names/place-names/york/ 。",
+    "historical_story": "英国约克的地名像一层层城墙，保存了 Eboracum、Eoforwic、Jórvík 等历史形式，后来成为 York。1664 年英国人把新阿姆斯特丹改名为 New York，名称关联约克公爵，不能简单说是直接照搬英国城市名。现代马来语在国际新闻和旅行叙述中保留这些专名；现有资料未确定 York 首次进入马来语的时间。",
+    "cognitive_memory_aid": "把 York 当作专名积木：York＝英国约克；前面加 New，完整地名 New York＝美国纽约。"
+  }
+}

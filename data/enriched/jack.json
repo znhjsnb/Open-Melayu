@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "jack",
+    "syllables": null,
+    "ipa": "/dʒæk/",
+    "jawi": null,
+    "frequency_rank": 599,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "jack",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + jack → jack",
+    "pattern_note": "英语整词，不作马来语词缀拆分。原包只有英马词典释义，没有马来语音节或 Jawi，故两者保留 null；IPA 标示英语读音。标准马来语工具名可用 jek 或 bicu，但不能把 jek 的字形资料移植给 jack。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "（英语词；见于夹用英语）千斤顶；顶起重物的装置。",
+      "ms_definition": "bicu, dongkrak, jek",
+      "nuances": "此处马来释义是所给 Kamus Inggeris-Melayu Dewan 的译词，不是 Kamus Dewan 马来语词头定义。标准正文宜用 bicu 或 jek；搭配是英语原词在双语环境中的形式。原包示例中的 Jack 则是人名杰克，不能用来证明工具义的频率。",
+      "collocations": [
+        {
+          "ms": "hydraulic jack",
+          "zh": "液压千斤顶（英语搭配；马来语 bicu hidraulik）",
+          "en": "hydraulic jack"
+        },
+        {
+          "ms": "jack kereta",
+          "zh": "汽车千斤顶（英马夹用；标准语 jek kereta）",
+          "en": "car jack"
+        }
+      ],
+      "en_definition": "A device used to lift heavy objects, especially vehicles."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "（英语扑克牌术语）J 牌；杰克牌。",
+      "ms_definition": "pekak",
+      "nuances": "pekak 是原包英马词典在 playing card 义下给出的译词；这里不能按其常见的‘耳聋’义理解。花色搭配仍是英语表达，不能据此宣称 jack 是标准马来语词头。",
+      "collocations": [
+        {
+          "ms": "jack of spades",
+          "zh": "黑桃 J（英语牌名）",
+          "en": "jack of spades"
+        },
+        {
+          "ms": "jack of hearts",
+          "zh": "红桃 J（英语牌名）",
+          "en": "jack of hearts"
+        }
+      ],
+      "en_definition": "A playing card marked J, ranking between the ten and the queen."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "汽车资讯专栏的术语说明",
+      "ms": "Alat pengangkat kenderaan yang dikenali sebagai ‘jack’ dalam bahasa Inggeris disebut bicu atau jek dalam bahasa Melayu.",
+      "zh": "英语称为 jack 的汽车顶升工具，在马来语中称作 bicu 或 jek。",
+      "en": "The vehicle lifting tool known as a ‘jack’ in English is called a bicu or jek in Malay."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友借来的汽车轮胎漏气，发消息询问工具位置",
+      "ms_spoken": "Tayar pancit lah. Jack kereta kau kat mana? Aku nak tukar tayar ni.",
+      "ms_standard": "Tayar kereta pancit. Di manakah jek kereta kamu? Saya hendak menukar tayar ini.",
+      "zh": "轮胎没气了。你车上的千斤顶放在哪里？我要换这个轮胎。",
+      "spoken_features": [
+        "jack 是此处夹用的英语工具名称；标准马来语对照采用 jek。",
+        "kat mana 对应 di mana，标准疑问句可写为 di manakah。",
+        "kau、aku 是朋友间的人称形式；标准对照采用 kamu、saya。",
+        "ni、tu、dah、takde 分别对应 ini、itu、sudah、tiada 或 tidak ada。",
+        "Dah jumpa 省略主语及已知的工具名称，符合即时聊天习惯；标准句补为 Saya sudah menemuinya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (借车的朋友)",
+          "ms_spoken": "Tayar pancit lah. Jack kereta kau kat mana? Aku nak tukar tayar ni.",
+          "ms_standard": "Tayar kereta pancit. Di manakah jek kereta kamu? Saya hendak menukar tayar ini.",
+          "zh": "轮胎没气了。你车上的千斤顶放在哪里？我要换这个轮胎。",
+          "en": "I've got a flat tyre. Where's the jack in your car? I need to change this tyre."
+        },
+        {
+          "speaker": "Hakim (车主兼朋友)",
+          "ms_spoken": "Dalam bonet, bawah tayar simpanan. Cuba angkat tayar tu dulu.",
+          "ms_standard": "Jek itu berada di dalam bonet, di bawah tayar simpanan. Cuba angkat tayar itu dahulu.",
+          "zh": "在后备厢里，备胎下面。你先把那个备胎抬起来看看。",
+          "en": "In the boot, under the spare tyre. Try lifting the spare out first."
+        },
+        {
+          "speaker": "Amir (借车的朋友)",
+          "ms_spoken": "Dah jumpa, terima kasih! Aku ingat takde tadi.",
+          "ms_standard": "Saya sudah menemuinya, terima kasih! Tadi saya menyangka bahawa jek itu tiada.",
+          "zh": "找到了，谢谢！我刚才还以为没有呢。",
+          "en": "Found it, thanks! I thought there wasn't one."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "在熟悉英语工具名的朋友间可夹用 jack；正式文件优先采用清楚的马来语术语，避免假定所有人都熟悉英语。",
+    "usage_etiquette": "Jack 大写常是人名，需结合句意判断，不能把叫 Jack 的人理解成工具。原包英马词典还列有其他英语义项，但本条重点教授工具和牌面两义；未把英语动词 jack up 当成马来语派生词。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语",
+    "root_origin": "原包收录的是英语 jack 的英马译词；未提供更早词源，也未证明 jack 本身已成为标准马来语拼写。",
+    "historical_story": "在马来西亚双语交谈中，同一件汽车工具可以在英语里叫 jack，在马来语里叫 jek 或 bicu。DBP 的英马词典给出这些对应译词，而马来语词典另收 jek；这个拼写对照展示了英语形式与本地形式的区别，现有资料不足以指定最初借入的年代或场合。",
+    "cognitive_memory_aid": "换轮胎时把三个标签贴在同一件工具上：英语 jack，马来语 jek／bicu；人名 Jack 则另看语境。"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "cantik",
+    "syllables": null,
+    "ipa": "[ˈt͡ʃan̪.t̪iʔ]",
+    "jawi": "چنتيق",
+    "frequency_rank": 309,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "cantik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + cantik → cantik",
+    "pattern_note": "独立词根，不拆成 can- 与 -tik；c 读 /t͡ʃ/，所列读音的词尾 k 实现为喉塞音 [ʔ]。PRPM 的 syllables 字段为空，保留 null，不把发音标记改写成官方分音节。",
+    "word_family": [
+      {
+        "word": "mencantikkan",
+        "affix": "meN-…-kan",
+        "gloss": "使漂亮；美化"
+      },
+      {
+        "word": "mempercantik",
+        "affix": "memper-",
+        "gloss": "使更漂亮"
+      },
+      {
+        "word": "kecantikan",
+        "affix": "ke-…-an",
+        "gloss": "美丽；美貌"
+      },
+      {
+        "word": "pencantik",
+        "affix": "peN-",
+        "gloss": "美化用品；使漂亮的东西"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "漂亮的；美丽的；外观悦目的。",
+      "ms_definition": "sangat menarik apabila dipandang (bkn orang perempuan, rupa muka, bangunan, benda, pemandangan, dll), sangat elok (bagus, molek). (Kamus Dewan Edisi Keempat)",
+      "nuances": "既可形容人，也可形容衣物、建筑或风景；并非只用于女性。称赞男性外貌时 tampan 或 kacak 往往更贴合通常语用，但物品和环境都可用 cantik。",
+      "collocations": [
+        {
+          "ms": "pemandangan yang cantik",
+          "zh": "美丽的景色",
+          "en": "beautiful scenery"
+        },
+        {
+          "ms": "baju yang cantik",
+          "zh": "漂亮的衣服",
+          "en": "a beautiful outfit"
+        }
+      ],
+      "en_definition": "Beautiful or attractive in appearance; pleasing to look at."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "出色的；漂亮利落的；令人满意的，用于计划、表现等。",
+      "ms_definition": "sangat elok (bagus, molek). (Kamus Dewan Edisi Keempat; penggunaan kiasan ditunjukkan melalui contoh rancangan.)",
+      "nuances": "超出外表审美，也可称赞安排、设计或体育动作。漂亮的计划不保证落实成功；正式评价时可补充具体理由。",
+      "collocations": [
+        {
+          "ms": "rancangan yang cantik",
+          "zh": "设计得很好的计划",
+          "en": "a well-crafted plan"
+        },
+        {
+          "ms": "jaringan cantik",
+          "zh": "精彩的进球",
+          "en": "a superb goal"
+        }
+      ],
+      "en_definition": "Excellent, well executed, or particularly satisfying, as of a plan or performance."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／旅游报道",
+      "ms": "Pemandangan yang cantik di kawasan pantai itu terus menarik kedatangan pelancong tempatan dan antarabangsa.",
+      "zh": "该海滨地区的美丽景色持续吸引国内外游客到访。",
+      "en": "The beautiful scenery along that coast continues to attract domestic and international tourists."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友发来海边日落照片后聊起拍摄地点",
+      "ms_spoken": "Cantik lah gambar ni! Kau ambil kat mana?",
+      "ms_standard": "Gambar ini cantik sekali! Di manakah awak mengambil gambar ini?",
+      "zh": "这张照片好漂亮呀！你在哪儿拍的？",
+      "spoken_features": [
+        "Cantik 放在句首，先表达对照片的赞赏；lah 加强称赞语气。",
+        "ni 对应 ini，kat mana 对应 di mana；ambil 在照片语境中表示拍摄。",
+        "第二轮开头省略了已知的主语和拍照动作；je 对应 sahaja。",
+        "lawa 在这里也表示漂亮；gila 作口语程度强化语，lawa gila 表示非常美。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友，收到照片的人)",
+          "ms_spoken": "Cantik lah gambar ni! Kau ambil kat mana?",
+          "ms_standard": "Gambar ini cantik sekali! Di manakah awak mengambil gambar ini?",
+          "zh": "这张照片好漂亮呀！你在哪儿拍的？",
+          "en": "This photo is so beautiful! Where did you take it?"
+        },
+        {
+          "speaker": "Mei (朋友，拍照的人)",
+          "ms_spoken": "Kat pantai dekat rumah aku je. Petang tadi langit lawa gila.",
+          "ms_standard": "Saya mengambilnya di pantai berhampiran dengan rumah saya sahaja. Langit pada petang tadi sangat indah.",
+          "zh": "就在我家附近的海边拍的。今天傍晚的天空美极了。",
+          "en": "Just at the beach near my place. The sky was absolutely gorgeous this evening."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "称赞照片、衣饰或布置通常较自然；对不熟悉的人，尤其在工作场合，宜称赞作品或选择，留意对方是否愿意接受外貌评论。",
+    "usage_etiquette": "gojes／gojess 是另一套俚语表达，sempoi 也有不同语义，均不是 cantik 的字母缩写。一般学习和跨族群交流使用这里的漂亮义，不把原始词典中另列的米南加保方言义混入日常称赞。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Bahasa Melayu",
+    "root_origin": "南岛语系马来语中的独立词根；所给词源资料为空，无法确认更早的语源，origin 在此仅指所属语系。",
+    "historical_story": "现有资料没有交代 cantik 最早从哪里来，不能为它安排一位带词入港的商人或某个借入年代。词典所保存的用法却很鲜明：从好看的面容、饰物和风景，到设计得很好的计划，cantik 在现代马来语中连起了外观之美与表现之佳。",
+    "cognitive_memory_aid": "先记 cantik＝看着漂亮，再联想一脚漂亮的进球 jaringan cantik：外观和表现都能让人赞叹。"
+  }
+}

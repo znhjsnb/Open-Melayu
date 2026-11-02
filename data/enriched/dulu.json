@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "dulu",
+    "syllables": "du.lu",
+    "ipa": "/ˈdulu/",
+    "jawi": "دولو",
+    "frequency_rank": 196,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dulu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dulu → dulu；历史缩略：dahulu → dulu",
+    "pattern_note": "现代作为独立基本词使用，无生产性词缀；是 dahulu 的口语缩略，不能拆成 du- + lu。PRPM 标 bp；正式叙述通常选 dahulu。",
+    "word_family": [
+      {
+        "word": "dahulu",
+        "affix": "无；完整形式",
+        "gloss": "以前；先"
+      },
+      {
+        "word": "dulu-dulu",
+        "affix": "重叠",
+        "gloss": "从前；很久以前"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "以前；从前；过去某个时候。",
+      "ms_definition": "bp dahulu. (Kamus Dewan Edisi Keempat)",
+      "nuances": "表示过去的时间背景，常与 sekarang（现在）对照；不是表示所有过去事件都必须添加的时态标记。原包 DBP 释义仅作 dahulu 的交叉指引，本条分义据所给用法展开。",
+      "collocations": [
+        {
+          "ms": "dulu dan sekarang",
+          "zh": "过去与现在",
+          "en": "then and now"
+        },
+        {
+          "ms": "dulu pernah",
+          "zh": "以前曾经",
+          "en": "used to"
+        }
+      ],
+      "en_definition": "Previously; formerly; at some time in the past."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "先；先做某事，再处理其他事情。",
+      "ms_definition": "bp dahulu. (Kamus Dewan Edisi Keempat; penggunaan mendahulukan tindakan dihuraikan secara editorial.)",
+      "nuances": "多放在动作后，如 makan dulu 是先吃，并非吃过了；与 sudah 表示已完成不同。也可表示眼下先这样，如 itu saja dulu（暂时就这些）。",
+      "collocations": [
+        {
+          "ms": "makan dulu",
+          "zh": "先吃",
+          "en": "eat first"
+        },
+        {
+          "ms": "tunggu dulu",
+          "zh": "先等一下",
+          "en": "wait a moment"
+        }
+      ],
+      "en_definition": "First; before doing something else."
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "以前的；过去的；从前那时候的。",
+      "ms_definition": "bp dahulu. (Kamus Dewan Edisi Keempat; penggunaan penerang masa dihuraikan secara editorial.)",
+      "nuances": "放在名词或名词短语后，指过去的时期或状态；这里的 adjective 是本 Schema 对名词后修饰功能的映射，并非 DBP 明列词性。不要把所有英语 former + 人物称谓都机械译成 dulu，正式的前任通常用 bekas。",
+      "collocations": [
+        {
+          "ms": "zaman dulu",
+          "zh": "从前那个年代",
+          "en": "the old days"
+        },
+        {
+          "ms": "orang dulu",
+          "zh": "从前的人；老一辈",
+          "en": "people of earlier generations"
+        }
+      ],
+      "en_definition": "Of an earlier time; former; belonging to the past."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻人物专访；引语保留受访者的日常用词",
+      "ms": "Dalam temu bual itu, beliau berkata, \"Dulu, penduduk terpaksa menaiki bot untuk ke sekolah, tetapi kini sebuah jambatan telah dibina.\"",
+      "zh": "他在专访中说：“以前，居民得乘船去学校，如今这里已经建起了一座桥。”",
+      "en": "In the interview, he said, \"In the past, residents had to travel to school by boat, but a bridge has now been built.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约去夜市，一方出门前还要喂猫",
+      "ms_spoken": "Aku dah siap. Jom gi pasar malam sekarang?",
+      "ms_standard": "Saya sudah bersiap. Marilah kita pergi ke pasar malam sekarang.",
+      "zh": "我准备好了。咱们现在去夜市吧？",
+      "spoken_features": [
+        "dulu 在这里表示先完成喂猫这件事，对应 dahulu，不是“以前”。",
+        "gi = pergi；jom 是日常邀请一起行动的表达。",
+        "Kejap 在这里独立使用，表示“等一下”。",
+        "bagi kucing makan 是日常口语说法，标准语还原为 memberi kucing makan。",
+        "lepas tu = selepas itu；baru 对应这里的 barulah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Danial (朋友)",
+          "ms_spoken": "Aku dah siap. Jom gi pasar malam sekarang?",
+          "ms_standard": "Saya sudah bersiap. Marilah kita pergi ke pasar malam sekarang.",
+          "zh": "我准备好了。咱们现在去夜市吧？",
+          "en": "I'm ready. Shall we head to the night market now?"
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Kejap, aku bagi kucing makan dulu. Lepas tu baru kita keluar.",
+          "ms_standard": "Tunggu sebentar, saya hendak memberi kucing makan dahulu. Selepas itu barulah kita keluar.",
+          "zh": "等一下，我先喂猫。然后咱们再出门。",
+          "en": "Hang on, let me feed the cat first. Then we can head out."
+        },
+        {
+          "speaker": "Danial (朋友)",
+          "ms_spoken": "Okey, aku tunggu kat bawah.",
+          "ms_standard": "Baiklah, saya akan menunggu di bawah.",
+          "zh": "好，我在楼下等。",
+          "en": "Okay, I'll wait downstairs."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "dulu 本身不失礼；saya pergi dulu 可以是自然的告辞。向长辈或客户告辞时，可加 minta diri、职衔或感谢，让语气更周全。",
+    "usage_etiquette": "tunggu dulu 的语气决定它是礼貌挽留还是打断；服务场合可说 Sila tunggu sebentar。正式叙述优先用 dahulu，新闻直接引语可保留 dulu；kita 包括听者。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；完整形式 dahulu",
+    "root_origin": "原包明确为 dahulu 的缩略；本条不继续推定未提供的祖语形式。",
+    "historical_story": "dulu 是较长形式 dahulu 在口语中缩短后的样子，把“过去”和“先后”这两种时间关系一起保留下来。可以用河岸村落的告辞场景记住它：一句 saya pergi dulu，就是“我先走了”；这是用法画面，不是某次历史首用的记录。如今正式叙述常用 dahulu，日常谈话与聊天则自然使用 dulu。",
+    "cognitive_memory_aid": "把动作排队：makan dulu = 吃饭先排前面；把时间往回推：dulu = 以前。"
+  }
+}

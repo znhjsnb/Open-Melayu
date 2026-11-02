@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "mengirim",
+    "syllables": "me.ngi.rim",
+    "ipa": "/məŋirim/",
+    "jawi": "مڠيريم",
+    "frequency_rank": 2746,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kirim",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + kirim → mengirim",
+    "pattern_note": "meN- 接以 k 开头的本族词基时通常表现为 meng-，词基首音 k 脱落：kirim → mengirim。",
+    "word_family": [
+      {
+        "word": "kiriman",
+        "affix": "-an",
+        "gloss": "寄送的物品；汇款"
+      },
+      {
+        "word": "pengirim",
+        "affix": "peN-",
+        "gloss": "寄件人；发送者"
+      }
+    ],
+    "root_jawi": "کيريم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "通过邮递、通信工具等途径，将信件、物品或信息寄送给接收者。",
+      "en_definition": "To send a letter, item, or message to a recipient by post or another means of delivery.",
+      "ms_definition": "Menyampaikan atau menghantar sesuatu, seperti surat, melalui pos dan sebagainya.",
+      "nuances": "是及物动词，常用 mengirim sesuatu kepada seseorang 表示“把某物寄给某人”。在马来西亚日常交谈中，hantar 往往更常见；mengirim 较突出通过某种渠道传送的意思。",
+      "collocations": [
+        {
+          "ms": "mengirim surat",
+          "zh": "寄信",
+          "en": "send a letter"
+        },
+        {
+          "ms": "mengirim wang",
+          "zh": "汇款；寄钱",
+          "en": "send money"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 文件递交",
+      "ms": "Pihak syarikat telah mengirim dokumen yang diminta kepada pelanggan melalui e-mel.",
+      "zh": "公司已通过电子邮件将客户要求的文件发送给客户。",
+      "en": "The company has sent the requested documents to the client by email."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认文件",
+      "ms_spoken": "Saya dah mengirim borang tu melalui e-mel, ya.",
+      "ms_standard": "Saya sudah mengirim borang itu melalui e-mel untuk makluman awak.",
+      "zh": "跟你说一声，我已经把那张表格用邮件发过去了。",
+      "en": "Just letting you know, I've emailed the form.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "tu 是 itu 的口语形式。",
+        "句末 ya 用于柔和地提醒或告知对方。",
+        "口语中可保留完整动词 mengirim，同一句中的其他成分仍可使用口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Saya dah mengirim borang tu melalui e-mel, ya.",
+          "ms_standard": "Saya sudah mengirim borang itu melalui e-mel untuk makluman awak.",
+          "zh": "跟你说一声，我已经把那张表格用邮件发过去了。",
+          "en": "Just letting you know, I've emailed the form."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Okey, terima kasih. Nanti saya semak kat pejabat.",
+          "ms_standard": "Baiklah, terima kasih. Saya akan menyemaknya di pejabat nanti.",
+          "zh": "好，谢谢。我等下在办公室看。",
+          "en": "Okay, thanks. I'll check it at the office later."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "提出寄送要求时，可用 Boleh tolong kirim…? 表示“能帮忙寄……吗？”。正式往来可用 Mohon kirim… 并明确收件人和期限。",
+    "usage_etiquette": "mengirim 说明已经发送，不保证对方已经收到；需要确认送达时，可接问 Adakah pihak tuan sudah menerimanya?。"
+  },
+  "etymology": {
+    "historical_story": "mengirim 由词基 kirim 加主动动词前缀 meN- 构成，词首 k 在构词时脱落。DBP 以通过邮递等途径送出信件来解释这一核心义；从纸质信件到电子信息，可以用同一个“通过渠道送达对方”的画面理解其用法。参见 [DBP 的 kirim 词条及派生词](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=kirim)。",
+    "cognitive_memory_aid": "想象把 kirim 开头的 k 换成鼻音 ng，再加上 me-：me + ng + irim → mengirim；一封信随即从寄件人手中送出。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "提出寄送要求时，可用 Boleh tolong kirim…? 表示“能帮忙寄……吗？”。正式往来可用 Mohon kirim… 并明确收件人和期限。",
+    "usage_etiquette": "mengirim 说明已经发送，不保证对方已经收到；需要确认送达时，可接问 Adakah pihak tuan sudah menerimanya?。"
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "rasmi": {
+    "headword": {
+      "word": "rasmi",
+      "syllables": "ras.mi",
+      "ipa": "/rasmi/",
+      "jawi": "راسمي",
+      "frequency_rank": 1800,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "rasmi",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + rasmi → rasmi",
+      "pattern_note": "阿拉伯语整词借入，在现代马来语中作为独立词根使用；不能拆成 ras- 与 -mi。",
+      "word_family": [
+        {
+          "word": "merasmikan",
+          "affix": "meN-…-kan",
+          "gloss": "正式宣布启用；为活动主持开幕"
+        },
+        {
+          "word": "perasmian",
+          "affix": "peN-…-an",
+          "gloss": "正式启用；开幕仪式"
+        }
+      ],
+      "root_jawi": "راسمي"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "adjective",
+        "zh_definition": "官方的；经政府、机构或有权者正式宣布、认可或确定的。",
+        "en_definition": "Official: authorized, recognized, or formally declared by a government, institution, or other competent authority.",
+        "ms_definition": "Disahkan, diisytiharkan atau ditentukan oleh kerajaan, jabatan atau pihak yang berkuasa.",
+        "nuances": "核心是获得正式认可或具有机构身份，不只是气氛庄重。常用于声明、文件、语言地位及公务活动；不要与表示品性或特征的 resam 混淆。释义依据：[DBP：rasmi](https://prpm.dbp.gov.my/cari1?keyword=rasmi)。",
+        "collocations": [
+          {
+            "ms": "kenyataan rasmi",
+            "zh": "官方声明"
+          },
+          {
+            "ms": "bahasa rasmi",
+            "zh": "官方语言"
+          },
+          {
+            "ms": "surat rasmi",
+            "zh": "正式公函"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Kementerian akan mengeluarkan kenyataan rasmi mengenai keputusan tersebut petang ini.",
+        "zh": "该部将于今天下午就这项决定发表官方声明。",
+        "en": "The ministry will issue an official statement on the decision this afternoon."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Jadual rasmi dah keluar ke?",
+        "ms_standard": "Adakah jadual rasmi sudah dikeluarkan?",
+        "zh": "正式时间表出来了吗？",
+        "en": "Has the official schedule been released yet?",
+        "spoken_features": [
+          "dah 是 sudah 的口语缩略形式。",
+          "句末 ke 表示询问，标准书面语可用 adakah。"
+        ],
+        "messages": [
+          {
+            "speaker": "Farah (同事)",
+            "ms_spoken": "Jadual rasmi dah keluar ke?",
+            "ms_standard": "Adakah jadual rasmi sudah dikeluarkan?",
+            "zh": "正式时间表出来了吗？"
+          },
+          {
+            "speaker": "Amir (同事)",
+            "ms_spoken": "Dah, saya baru hantar kat kumpulan tadi.",
+            "ms_standard": "Sudah, saya baru menghantarnya dalam kumpulan tadi.",
+            "zh": "出来了，我刚发到群里。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "用于政府部门、学校或公司沟通时语气中性、得体；称某消息为 rasmi，通常意味着消息已经获得相关机构确认。",
+      "usage_etiquette": "转发尚未核实的通知时，不宜称其为 pengumuman rasmi。需要向机构查询时，可说 Boleh saya mendapatkan pengesahan rasmi?，即“我可以取得正式确认吗？”"
+    },
+    "etymology": {
+      "origin": "Arabic",
+      "source_language": "Arabic",
+      "root_origin": "رَسْمِيّ (rasmiyy)，意为官方的、正式的",
+      "cognitive_memory_aid": "想象一份盖着机构公章的声明：盖章确认后，它就是 kenyataan rasmi。rasmi 整词记忆，不把它拆成虚构的马来语词缀。",
+      "historical_story": "rasmi 借自阿拉伯语 rasmiyy，是进入马来语的阿拉伯语借词之一。[阿拉伯语与马来语词汇研究](https://oarep.usim.edu.my/server/api/core/bitstreams/559de856-f8c5-4f4f-93fb-3f5ea7b86ce1/content)列出了这组对应关系。今天，从政府发布的声明到学校寄出的公函，这个词都用来标明正式身份或认可。"
+    }
+  },
+  "berkaitan": {
+    "headword": {
+      "word": "berkaitan",
+      "syllables": "ber.kai.tan",
+      "ipa": "/bərkaitan/",
+      "jawi": "برکاءيتن",
+      "frequency_rank": 1801,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "berkait",
+      "affix": "-an",
+      "affix_type": "suffix",
+      "formula": "berkait + -an → berkaitan",
+      "pattern_note": "按输入保留 berkait 为直接基词；完整构词也可分析为 beR-…-an + kait，其中 kait 是基础词。添加 -an 时不发生辅音脱落。",
+      "word_family": [
+        {
+          "word": "kaitan",
+          "affix": "-an",
+          "gloss": "联系；关联"
+        },
+        {
+          "word": "mengaitkan",
+          "affix": "meN-…-kan",
+          "gloss": "把某事与另一事联系起来"
+        }
+      ],
+      "root_jawi": "برکاءيت"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "与某人、某事或某个主题有联系；涉及或关乎。",
+        "en_definition": "To be connected with, related to, or concerned with someone or something.",
+        "ms_definition": "Bersangkutan, berhubungan atau berkenaan dengan seseorang atau sesuatu.",
+        "nuances": "属于不及物动词，常用于描述主题、事务或责任之间的联系。学习时优先掌握 berkaitan dengan；pihak yang berkaitan 等结构也可独立使用。释义及用法依据：[DBP：berkaitan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berkaitan)。",
+        "collocations": [
+          {
+            "ms": "berkaitan dengan kewangan",
+            "zh": "与财务有关"
+          },
+          {
+            "ms": "berkaitan dengan keselamatan",
+            "zh": "与安全有关"
+          },
+          {
+            "ms": "pihak yang berkaitan",
+            "zh": "相关方面；有关单位"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Semua aduan yang berkaitan dengan keselamatan pekerja akan disiasat dengan segera.",
+        "zh": "所有涉及员工安全的投诉都将立即展开调查。",
+        "en": "All complaints relating to employee safety will be investigated immediately."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Soalan ni berkaitan dengan kerja kita ke?",
+        "ms_standard": "Adakah soalan ini berkaitan dengan kerja kita?",
+        "zh": "这个问题跟我们的工作有关吗？",
+        "en": "Is this question related to our work?",
+        "spoken_features": [
+          "ni 是 ini 的口语形式。",
+          "句末 ke 构成口语疑问句。",
+          "je 是 sahaja 的口语形式，表示“只、而已”。"
+        ],
+        "messages": [
+          {
+            "speaker": "Aina (同事)",
+            "ms_spoken": "Soalan ni berkaitan dengan kerja kita ke?",
+            "ms_standard": "Adakah soalan ini berkaitan dengan kerja kita?",
+            "zh": "这个问题跟我们的工作有关吗？"
+          },
+          {
+            "speaker": "Hafiz (同事)",
+            "ms_spoken": "Ya, bahagian bajet je. Yang lain tak berkaitan.",
+            "ms_standard": "Ya, bahagian belanjawan sahaja. Bahagian yang lain tidak berkaitan.",
+            "zh": "对，只有预算那部分。其他部分没关系。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "适合会议、公函和日常解释。直接说 Itu tidak berkaitan 可能让对方觉得意见被否定；讨论中可说 Mungkin perkara itu kurang berkaitan dengan topik kita，语气较缓和。",
+      "usage_etiquette": "表达具体联系时可用 berkaitan dengan + 名词。它表示有关联，本身不说明两件事之间存在因果关系。"
+    },
+    "etymology": {
+      "origin": "Austronesian",
+      "source_language": "Malay",
+      "root_origin": "kait（钩；勾连），构成 berkait 和 berkaitan",
+      "cognitive_memory_aid": "想象两个钩子 kait 扣在一起：两件事也这样连着，就是 berkaitan。看到 berkaitan dengan，就想到“与……钩连着”。",
+      "historical_story": "这个词属于 kait 的马来语构词家族；kait 同时提供了钩连的具体形象和联系的抽象概念。把两件事理解为彼此勾连，可以帮助理解 berkaitan 在现代行政、教育和工作讨论中表示“有关联”的用法；这是语义联系的说明，并非对首次引申年代的断言。[DBP：berkaitan 与 kait 词族](https://prpm.dbp.gov.my/Cari1?d=109300&keyword=berkaitan)。"
+    }
+  },
+  "kenangan": {
+    "headword": {
+      "word": "kenangan",
+      "syllables": "ke.na.ngan",
+      "ipa": "/kəˈnaŋan/",
+      "jawi": "کنڠن",
+      "frequency_rank": 1802,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": false,
+      "root_word": "kenang",
+      "affix": "-an",
+      "affix_type": "suffix",
+      "formula": "kenang + -an → kenangan",
+      "pattern_note": "-an 构成表示所回想内容的名词；词首 ke- 属于词根，不是 ke-…-an 环缀。ng 表示单一鼻音 /ŋ/，添加后缀时保留。",
+      "word_family": [
+        {
+          "word": "mengenang",
+          "affix": "meN-",
+          "gloss": "回想；怀念"
+        },
+        {
+          "word": "terkenang",
+          "affix": "ter-",
+          "gloss": "想起；不由得忆起"
+        }
+      ],
+      "root_jawi": "کنڠ"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "noun",
+        "zh_definition": "回忆；过去的人、事或经历在记忆中留下并可被重新唤起的内容。",
+        "en_definition": "A memory or recollection of a person, event, or experience from the past.",
+        "ms_definition": "Apa yang dikenangkan atau yang timbul dan terbayang kembali dalam ingatan.",
+        "nuances": "常带怀念、喜悦、悲伤等感情色彩，并不限于美好回忆。此处指记忆中的内容；表示纪念品时，kenang-kenangan 或 cenderamata 通常更明确。释义依据：[DBP：kenang 及其派生词](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kenang)。",
+        "collocations": [
+          {
+            "ms": "kenangan manis",
+            "zh": "美好的回忆"
+          },
+          {
+            "ms": "kenangan zaman kanak-kanak",
+            "zh": "童年回忆"
+          },
+          {
+            "ms": "mengimbau kenangan",
+            "zh": "追忆往事"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Pameran foto itu mengimbau kenangan penduduk tentang kehidupan di kampung sebelum pembangunan semula.",
+        "zh": "这场摄影展唤起了居民对村庄重建前生活的回忆。",
+        "en": "The photography exhibition brings back residents' memories of village life before the redevelopment."
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Tengok gambar ni, banyak betul kenangan kita kat sekolah dulu.",
+        "ms_standard": "Apabila melihat gambar ini, saya teringat akan begitu banyak kenangan kita semasa di sekolah dahulu.",
+        "zh": "看看这张照片，我们以前在学校真有好多回忆啊。",
+        "en": "Looking at this photo brings back so many memories of our school days.",
+        "spoken_features": [
+          "tengok 是口语常用的“看”，标准表达可用 melihat。",
+          "ni 是 ini 的口语形式，kat 在这里对应 di。",
+          "banyak betul 用来加强感叹，表示“真多”。"
+        ],
+        "messages": [
+          {
+            "speaker": "Mei Ling (老同学)",
+            "ms_spoken": "Tengok gambar ni, banyak betul kenangan kita kat sekolah dulu.",
+            "ms_standard": "Apabila melihat gambar ini, saya teringat akan begitu banyak kenangan kita semasa di sekolah dahulu.",
+            "zh": "看看这张照片，我们以前在学校真有好多回忆啊。"
+          },
+          {
+            "speaker": "Farah (老同学)",
+            "ms_spoken": "Kan? Saya nak simpan gambar ni. Kenangan manis betul.",
+            "ms_standard": "Betul, bukan? Saya mahu menyimpan gambar ini kerana gambar ini mengingatkan saya akan kenangan yang sangat manis.",
+            "zh": "是吧？我要把这张照片存起来，真是美好的回忆。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "standard",
+      "politeness_note": "适合谈论家庭、旧友、校园及过去的生活。对方谈及逝者时，kenangan 可承载温柔的怀念，但不要擅自认定那段回忆一定美好。",
+      "usage_etiquette": "分享旧照片时可说 Banyak kenangan dalam gambar ini。描述不愉快的往事可用 kenangan pahit；不要把 kenangan 当作所有技术性“存储器”或“记忆容量”的通用译词。"
+    },
+    "etymology": {
+      "origin": "Austronesian",
+      "source_language": "Malay",
+      "root_origin": "kenang（回想；怀念）；更早的历史词源未确证",
+      "cognitive_memory_aid": "先记 kenang“怀念”，再加 -an，把回想的动作变成回想的内容：kenangan“回忆”。想象翻开旧相册，一页就是一段 kenangan。",
+      "historical_story": "kenangan 由马来语 kenang 加上 -an 构成；较早的马来语语法著作也已记录这组构词关系。[Winstedt《Malay Grammar》](https://www.sabrizain.org/malaya/library/grammarwinstedt.pdf)将 kenangan 与 kenang 联系起来。今天，一张旧照片或一次同学聚会都能唤起 kenangan，不过这些使用场景并不能确定 kenang 更早的起源。"
+    }
+  },
+  "belasah": {
+    "headword": {
+      "word": "belasah",
+      "syllables": "be.la.sah",
+      "ipa": "/bəlasah/",
+      "jawi": "بلاسه",
+      "frequency_rank": 1803,
+      "status": "official"
+    },
+    "morphology": {
+      "is_root": true,
+      "root_word": "belasah",
+      "affix": null,
+      "affix_type": "none",
+      "formula": "∅ + belasah → belasah",
+      "pattern_note": "belasah 是完整词根，开头 be- 不是 ber- 的变体。派生 membelasah 时，meN- 在 /b/ 前变为 mem-，原有 /b/ 保留。",
+      "word_family": [
+        {
+          "word": "membelasah",
+          "affix": "meN-",
+          "gloss": "痛打；狠揍"
+        },
+        {
+          "word": "dibelasah",
+          "affix": "di-",
+          "gloss": "被痛打；遭狠揍"
+        }
+      ],
+      "root_jawi": "بلاسه"
+    },
+    "senses": [
+      {
+        "id": 1,
+        "pos": "verb",
+        "zh_definition": "痛打；用拳脚或棍条等猛烈殴打某人。",
+        "en_definition": "To beat someone severely, using blows, kicks, or an implement such as a stick.",
+        "ms_definition": "Memukul dengan kuat, menyebat atau menyesah seseorang.",
+        "nuances": "比普通的 pukul 更强调打得凶狠。口语常直接用 belasah，标准主动陈述句一般用 membelasah；命令句可用词根形式。此处只取身体殴打这一核心义。释义依据：[DBP：belasah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=belasah)。",
+        "collocations": [
+          {
+            "ms": "belasah orang",
+            "zh": "痛打别人"
+          },
+          {
+            "ms": "belasah dengan rotan",
+            "zh": "用藤条狠打"
+          },
+          {
+            "ms": "kena belasah",
+            "zh": "挨揍；遭痛打"
+          }
+        ]
+      }
+    ],
+    "dual_scenarios": [
+      {
+        "scenario": "formal",
+        "context": "公文 / 新闻 / 职场汇报",
+        "ms": "Ketua polis menegaskan, \"Jangan belasah suspek; serahkan mereka kepada pihak polis.\"",
+        "zh": "警察局长强调：“不要殴打嫌疑人；应将他们交给警方。”",
+        "en": "The police chief stressed, \"Do not beat the suspects; hand them over to the police.\""
+      },
+      {
+        "scenario": "colloquial",
+        "context": "WhatsApp / 日常口语交流",
+        "ms_spoken": "Jangan belasah dia lah. Kita panggil pengawal je.",
+        "ms_standard": "Jangan belasah dia. Kita panggil pengawal sahaja.",
+        "zh": "别揍他啦，我们叫保安就好。",
+        "en": "Don't beat him up. Let's just call the security guard.",
+        "spoken_features": [
+          "lah 在这里加强劝阻语气，具体强弱取决于语调。",
+          "je 是 sahaja 的口语形式。",
+          "命令句使用 belasah 词根形式，标准语中也成立。"
+        ],
+        "messages": [
+          {
+            "speaker": "Amir (朋友)",
+            "ms_spoken": "Jangan belasah dia lah. Kita panggil pengawal je.",
+            "ms_standard": "Jangan belasah dia. Kita panggil pengawal sahaja.",
+            "zh": "别揍他啦，我们叫保安就好。"
+          },
+          {
+            "speaker": "Hafiz (朋友)",
+            "ms_spoken": "Okey, saya dah panggil pengawal. Awak tunggu kat sini dulu.",
+            "ms_standard": "Baiklah, saya sudah memanggil pengawal. Awak tunggu di sini dahulu.",
+            "zh": "好，我已经叫保安了。你先在这里等。"
+          }
+        ]
+      }
+    ],
+    "spoken_shortcuts": [],
+    "cultural_pragmatics": {
+      "register": "colloquial",
+      "politeness_note": "表达力度强，直接对人说 Aku belasah kau 可被理解为威胁。即使朋友之间开玩笑，也要考虑关系、语气和现场情境。",
+      "usage_etiquette": "虽然属于词典收录的规范词汇，但日常用法往往粗直。在正式事件报告中，根据事实采用 memukul、membelasah 或 dipukul，并明确施事者与受害者。"
+    },
+    "etymology": {
+      "origin": "Austronesian",
+      "source_language": "Malay",
+      "root_origin": "belasah，马来语词根；更早的词源未确证，Austronesian 在此仅标示本族语归类",
+      "cognitive_memory_aid": "把 belasah 想成比 pukul 更重的一档：不是轻碰一下，而是“狠揍”。整词记忆，不把开头 be- 当作前缀，也不要与 belas“怜悯”强行建立词源关系。",
+      "historical_story": "约1939年的《Bausastra Indonesia-Jawi》已经收录 kena belasah 和 dibelasah，并用爪哇语解释被捆打或殴打的意思，说明这一用法并非新近网络俚语。[历史词典条目](https://www.sastra.org/bahasa-dan-budaya/kamus-dan-leksikon/2662-bausastra-indonesia-jawi-purwadarminta-c-1939-1979-bagian-a-b)。现代马来语仍保留其强烈的殴打含义，但这条早期记录不能证明它最初来自哪一种语言。"
+    }
+  }
+}

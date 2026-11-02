@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "padamu",
+    "syllables": null,
+    "ipa": "/padamu/",
+    "jawi": null,
+    "frequency_rank": 670,
+    "tags": [
+      "CEFR-B1",
+      "文学表达"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pada",
+    "affix": "-mu（第二人称附着代词）",
+    "affix_type": "suffix",
+    "formula": "pada + -mu（kamu）→ padamu",
+    "pattern_note": "-mu 附着于介词 pada，连写为一个词；本 Schema 用 suffix 容纳该附着形式，它不是使词义派生的普通后缀，也不表示复数。PRPM 未给该完整形式的音节与 Jawi，保留 null；IPA 为按组成成分推导的标准宽式拼读，不是官方审音。",
+    "word_family": [
+      {
+        "word": "pada",
+        "affix": "无",
+        "gloss": "于；对；在……那里"
+      },
+      {
+        "word": "padaku",
+        "affix": "-ku（附着代词）",
+        "gloss": "对我；在我这里"
+      },
+      {
+        "word": "padanya",
+        "affix": "-nya（附着代词）",
+        "gloss": "对他或她；在他或她那里"
+      },
+      {
+        "word": "kepadamu",
+        "affix": "kepada + -mu（附着代词）",
+        "gloss": "给你；向你"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "对你；向你，表示感情、态度或指向的对象，常带文学或亲密语气。",
+      "ms_definition": "Terhadap kamu; kepada kamu mengikut konteks. (Huraian editorial bagi pada + -mu; bukan petikan definisi Kamus Dewan untuk padamu.)",
+      "nuances": "完整形式未见于所给 PRPM 词条，不能把编辑释义冒称 DBP 原文。DBP 的 padamu 用法答复可作为连写依据：https://prpm.dbp.gov.my/Cari1?d=175768&keyword=padamu 。表达寄送、给予的接收者时，正式语体通常用 kepada kamu 或 kepadamu；padamu 不能在所有句子中机械替代 kepadamu。CEFR 为编辑分级。",
+      "collocations": [
+        {
+          "ms": "rindu padamu",
+          "zh": "思念你",
+          "en": "longing for you"
+        },
+        {
+          "ms": "percaya padamu",
+          "zh": "相信你（较亲密或文学表达）",
+          "en": "believe in you"
+        }
+      ],
+      "en_definition": "To or towards you, often expressing feelings or attitudes in an intimate or literary register."
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "在你那里；由你持有，用来说明物品或责任所在。",
+      "ms_definition": "Pada kamu; berada dalam pegangan atau jagaan kamu. (Huraian editorial berdasarkan penggunaan pada; bukan definisi rasmi bagi padamu.)",
+      "nuances": "如 Kunci itu ada padamu 表示钥匙在你那里，不必表示钥匙归你所有。此义由 pada 的处所／持有者用法与 -mu 组合而成，不能将整个 padamu 当作独立人称代词。",
+      "collocations": [
+        {
+          "ms": "ada padamu",
+          "zh": "在你那里；你手上有",
+          "en": "you have it"
+        },
+        {
+          "ms": "terletak padamu",
+          "zh": "取决于你；落在你身上",
+          "en": "rests with you; is up to you"
+        }
+      ],
+      "en_definition": "With you; in your possession or care, or resting on you as a responsibility."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文学活动 / 舞台朗诵示例",
+      "ms": "Dalam deklamasi itu, penyair berkata, “Harapan generasi akan datang terletak padamu, wahai anak muda.”",
+      "zh": "在朗诵中，诗人说道：“年轻人啊，下一代的希望寄托在你身上。”",
+      "en": "In the recitation, the poet said, “The hopes of future generations rest with you, young one.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 好友在面试前互相打气，并用略带抒情的措辞开玩笑",
+      "ms_spoken": "Aku percaya padamu! Kau dah buat persediaan, esok jawab je macam kita praktis tadi.",
+      "ms_standard": "Saya percaya kepada kamu. Kamu sudah membuat persediaan. Esok, jawablah seperti yang telah kita latih tadi.",
+      "zh": "我相信你！你已经准备好了，明天就照我们刚才练习的那样回答吧。",
+      "spoken_features": [
+        "padamu 由 pada 与第二人称附着形式 -mu 连写而成；在这里表示信任的对象，规范中性改写使用 kepada kamu。",
+        "padamu 本身并非聊天缩写，带文学或抒情色彩；第二轮用 jiwang 回应，使这种刻意抒情的说法符合好友间玩笑的语境。",
+        "dah、je、sikit 分别对应 sudah、sahaja、sedikit。",
+        "jawab je 在此有照着做就好的鼓励意味；doakan aku 是祈使表达，规范语中也可保留 doakan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Alya (好友)",
+          "ms_spoken": "Aku percaya padamu! Kau dah buat persediaan, esok jawab je macam kita praktis tadi.",
+          "ms_standard": "Saya percaya kepada kamu. Kamu sudah membuat persediaan. Esok, jawablah seperti yang telah kita latih tadi.",
+          "zh": "我相信你！你已经准备好了，明天就照我们刚才练习的那样回答吧。",
+          "en": "I believe in you! You've prepared for this. Tomorrow, just answer like we practised earlier."
+        },
+        {
+          "speaker": "Hana (好友)",
+          "ms_spoken": "Wah, jiwang betul ayat kau! Tapi lega sikit aku dengar. Doakan aku, ya.",
+          "ms_standard": "Wah, sungguh sentimental ungkapan kamu! Namun, saya berasa sedikit lega setelah mendengarnya. Doakan saya, ya.",
+          "zh": "哇，你这话也太抒情了！不过听了我确实安心了一点。为我祈祷吧。",
+          "en": "Wow, you're getting all sentimental! But I do feel a bit better hearing that. Pray for me, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "intimate",
+    "politeness_note": "-mu 对应第二人称 kamu，常见于诗歌、歌词、亲密称呼或文学呼语，不能因书面上显得优美就对客户、长辈或陌生人一律使用。",
+    "usage_etiquette": "职场及跨族群正式交流优先用姓名、职位或合适称谓，如 kepada Puan。指人时写 padamu；宗教文本直接称呼上帝时可见 pada-Mu，但应随具体文本规范，不把这种宗教用法强加给他人。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；pada 与 -mu 属南岛语继承成分",
+    "root_origin": "本地 Kaikki 的介词 pada 追溯至原始马来—波利尼西亚语 *pada，-mu 追溯至 *mu；同形的梵语借词 pada（足；诗句单位）不用于本条。padamu 本身是组合形式，不是整词借入。",
+    "historical_story": "padamu 把马来语的关系词 pada 与指向听者的 -mu 接在一起，让一段关系落到你身上。它在现代诗歌和亲密表达中可以承载思念与信任，在 ada padamu 里又只是说东西在你那里；这种并存展示了语法组合的生命力，现有资料没有确定它首次连写的年代。",
+    "cognitive_memory_aid": "把 pada 想成关系箭头，把 -mu 想成你：箭头指向你，就是 padamu；箭头表示对你还是在你那里，由前面的词决定。"
+  }
+}

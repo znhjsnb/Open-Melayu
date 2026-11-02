@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "mengesahkan",
+    "syllables": "me.nge.sah.kan",
+    "ipa": "/məŋəˈsahkan/",
+    "jawi": "مڠصحکن",
+    "frequency_rank": 2972,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mengesahkan",
+    "affix": "meN-...-kan",
+    "affix_type": "circumfix",
+    "formula": "meN- + sah + -kan → mengesahkan",
+    "pattern_note": "root_word 与 root_jawi 按输入包保留，属于源数据标注；实际构词词根是 sah（صح），因此 is_root 应为 false。单音节词根 sah 接 meN- 时采用 menge-，s 保留，再接 -kan。",
+    "word_family": [
+      {
+        "word": "sah",
+        "affix": "∅",
+        "gloss": "有效的；确实的"
+      },
+      {
+        "word": "pengesahan",
+        "affix": "peN-...-an",
+        "gloss": "确认；核实"
+      }
+    ],
+    "root_jawi": "مڠصحکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "确认；核实并认可某项消息、事实或资料真实无误。",
+      "en_definition": "To verify or confirm that information or a statement is true or correct.",
+      "ms_definition": "Mengakui bahawa sesuatu benar; membenarkan.",
+      "nuances": "本条取事实确认义。常用 mengesahkan bahawa… 引出已确认的内容；它比 sekadar mengatakan（只是说）更强调确认。文件认证涉及另一用法，本条不展开。[DBP：mengesahkan](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=mengesahkan)",
+      "collocations": [
+        {
+          "ms": "mengesahkan maklumat",
+          "zh": "核实资料",
+          "en": "verify information"
+        },
+        {
+          "ms": "mengesahkan berita",
+          "zh": "确认消息属实",
+          "en": "confirm a news report"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 官方消息发布",
+      "ms": "Jurucakap kementerian mengesahkan bahawa mesyuarat itu akan berlangsung pada hari Isnin.",
+      "zh": "该部发言人确认，会议将于星期一举行。",
+      "en": "The ministry spokesperson confirmed that the meeting would take place on Monday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认会议信息",
+      "ms_spoken": "Bos dah mengesahkan mesyuarat esok jadi ke?",
+      "ms_standard": "Adakah ketua sudah mengesahkan bahawa mesyuarat esok akan diadakan?",
+      "zh": "老板确认明天的会议照常开了吗？",
+      "en": "Has the boss confirmed that tomorrow's meeting is going ahead?",
+      "spoken_features": [
+        "dah 对应 sudah；句末 ke 表示疑问。",
+        "jadi 在此表示安排照常进行，标准表达为 akan diadakan。",
+        "nak 对应 hendak；dulu 对应 dahulu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Bos dah mengesahkan mesyuarat esok jadi ke? Aku nak susun jadual.",
+          "ms_standard": "Adakah ketua sudah mengesahkan bahawa mesyuarat esok akan diadakan? Saya hendak menyusun jadual.",
+          "zh": "老板确认明天的会议照常开了吗？我要安排时间。",
+          "en": "Has the boss confirmed that tomorrow's meeting is going ahead? I need to plan my schedule."
+        },
+        {
+          "speaker": "Rizal (同事)",
+          "ms_spoken": "Belum lagi. Tunggu dia mengesahkan masa dulu, lepas tu baru kita beritahu semua orang.",
+          "ms_standard": "Belum. Kita perlu menunggu dia mengesahkan masa dahulu, kemudian barulah kita memberitahu semua orang.",
+          "zh": "还没呢。等他先确认时间，我们再通知大家。",
+          "en": "Not yet. Let's wait for him to confirm the time, then tell everyone."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向同事或负责人请求确认时，Boleh pihak tuan mengesahkan…? 适合较正式的沟通；熟悉的同事之间可用 Boleh sahkan…?",
+    "usage_etiquette": "说明确认的具体内容及确认者，避免把个人推测写成已确认消息。正式报告保留完整形式 mengesahkan，并用 bahawa 引出完整陈述。"
+  },
+  "etymology": {
+    "historical_story": "这个词的现代构词基础是 sah，表示真实、确定或有效。加上 meN-…-kan 后，焦点转为“确认某事真实或有效”的行为，因此自然用于消息核实、行政确认和文件认证等场景。",
+    "cognitive_memory_aid": "想象资料旁盖上一个“已核实”的章：sah 是确认后的状态，mengesahkan 是完成确认的动作。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "向同事或负责人请求确认时，Boleh pihak tuan mengesahkan…? 适合较正式的沟通；熟悉的同事之间可用 Boleh sahkan…?",
+    "usage_etiquette": "说明确认的具体内容及确认者，避免把个人推测写成已确认消息。正式报告保留完整形式 mengesahkan，并用 bahawa 引出完整陈述。"
+  }
+}

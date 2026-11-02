@@ -1,0 +1,157 @@
+{
+  "headword": {
+    "word": "tiada",
+    "syllables": "tia.da",
+    "ipa": "/tiada/",
+    "jawi": "تياد",
+    "frequency_rank": 87,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tiada",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tiada → tiada",
+    "pattern_note": "现代作为完整否定词记忆，不把历史否定成分 ti 分析为今日可自由添加的前缀。官方分节保留 tia.da；IPA 为编辑补充的宽式读音，原始包没有 IPA。",
+    "word_family": [
+      {
+        "word": "meniada",
+        "affix": "meN- → men-",
+        "gloss": "变得不存在；表示否认"
+      },
+      {
+        "word": "meniadakan",
+        "affix": "men-…-kan",
+        "gloss": "消除；取消；否认"
+      },
+      {
+        "word": "ketiadaan",
+        "affix": "ke-…-an",
+        "gloss": "缺乏；不在场"
+      },
+      {
+        "word": "peniadaan",
+        "affix": "peN-…-an → pen-…-an",
+        "gloss": "消除；废除这一行为"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "没有；不存在；不在。",
+      "ms_definition": "tidak ada. (Kamus Dewan Edisi Keempat)",
+      "nuances": "可否定事物存在、人员在场或某种情况，例如 tiada bukti。语法上是存在否定词，本表以 adverb 映射；聊天中的 tak ada、takde 常可表达相近意思。",
+      "collocations": [
+        {
+          "ms": "tiada masalah",
+          "zh": "没有问题；没关系",
+          "en": "no problem"
+        },
+        {
+          "ms": "tiada sesiapa",
+          "zh": "没有任何人",
+          "en": "no one"
+        }
+      ],
+      "en_definition": "There is no; there are no; not present or available."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "不；未，用于否定动作或状态，多见于书面或文学表达。",
+      "ms_definition": "tidak. (Kamus Dewan Edisi Keempat)",
+      "nuances": "如 tiada pernah kudengar，相当于 tidak pernah kudengar；一般日常否定动作更常用 tidak 或 tak。不能因此把所有 bukan 的句法位置都换成 tiada。",
+      "collocations": [
+        {
+          "ms": "tiada pernah",
+          "zh": "从未",
+          "en": "never"
+        },
+        {
+          "ms": "tiada mengerti",
+          "zh": "不明白",
+          "en": "not understand"
+        }
+      ],
+      "en_definition": "Not; used to negate an action or state, chiefly in formal writing or literary language."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 灾情通报",
+      "ms": "Pihak berkuasa mengesahkan bahawa tiada kemalangan jiwa dilaporkan dalam kejadian banjir itu.",
+      "zh": "当局证实，该次水灾未接获人员死亡的报告。",
+      "en": "The authorities confirmed that no loss of life was reported in the flood."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人帮忙留座",
+      "ms_spoken": "Boleh simpan satu tempat untuk saya tak? Saya sampai lambat sikit.",
+      "ms_standard": "Bolehkah awak menyimpan satu tempat duduk untuk saya? Saya akan tiba agak lewat.",
+      "zh": "能帮我留个位子吗？我会晚一点到。",
+      "spoken_features": [
+        "Tiada masalah 是聊天中自然使用的回应，表示“没问题”；不代表 tiada 的所有书面用法都同样口语化。",
+        "Boleh…tak? 是常见的口语请求句式，对应 Bolehkah…?",
+        "dah、kat、je 分别对应 sudah、di、sahaja。",
+        "simpan satu tempat 在此指留座；nanti cari saya je 省略了可由语境推知的“你到了以后”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Sofia (朋友)",
+          "ms_spoken": "Boleh simpan satu tempat untuk saya tak? Saya sampai lambat sikit.",
+          "ms_standard": "Bolehkah awak menyimpan satu tempat duduk untuk saya? Saya akan tiba agak lewat.",
+          "zh": "能帮我留个位子吗？我会晚一点到。",
+          "en": "Could you save me a seat? I'll be a little late."
+        },
+        {
+          "speaker": "Mira (朋友)",
+          "ms_spoken": "Tiada masalah, saya dah simpan satu tempat untuk awak kat depan. Nanti cari saya je.",
+          "ms_standard": "Tiada masalah. Saya sudah menyimpan satu tempat duduk untuk awak di bahagian hadapan. Cari sahaja saya apabila awak tiba nanti.",
+          "zh": "没问题，我已经在前面给你留了个位子。你到了直接找我就行。",
+          "en": "No problem, I've saved you a seat at the front. Just look for me when you get here."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "takde",
+      "full_form": "tidak ada",
+      "note": "tak ada 的口语连写，语义常对应 tiada，并非从 tiada 逐字缩写；正式文本写 tiada 或 tidak ada。"
+    },
+    {
+      "abbr": "takda",
+      "full_form": "tidak ada",
+      "note": "tak ada 的另一种口语连写，地区与个人习惯不同。"
+    },
+    {
+      "abbr": "tkde",
+      "full_form": "tidak ada",
+      "note": "聊天中进一步省略 takde 的元音，不适用于正式写作。"
+    },
+    {
+      "abbr": "tkda",
+      "full_form": "tidak ada",
+      "note": "takda 的省字聊天写法，需结合语境识别。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Tiada masalah 是跨族群沟通中常用的友善回应；单独回复 Tiada 可能显得简短，服务场景可补充说明。",
+    "usage_etiquette": "他人说家属 sudah tiada 时，可能委婉表示该家属已去世，应依上下文理解并体谅回应。不能把所有 tiada 都理解成死亡，例如 tiada di rumah 通常只是‘不在家’。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic → Malay",
+    "root_origin": "资料将它追溯至原始马来语否定成分 *ti 与存在动词 *ada(ʔ) 的结合；现代意义相当于 tidak ada。重建形式不等于现代可自由拼接的词缀。",
+    "historical_story": "tiada 的历史构形把‘否定’和‘存在’放在一起，凝成了一个表示‘没有’的词。在马来文学的 tiada taranya‘无可比拟’与今天告示上的 tiada kekosongan‘没有空缺’里，这个简洁的否定词连接着不同的表达传统。",
+    "cognitive_memory_aid": "ada 是‘有’，tiada 是‘没有’：把二者当作存在与空缺的一对开关。"
+  }
+}

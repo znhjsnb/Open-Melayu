@@ -1,0 +1,105 @@
+{
+  "batch": 2,
+  "checked_at_utc": "2026-11-01T10:46:45.570182+00:00",
+  "result": "passed",
+  "entry_count": 10,
+  "sense_count": 42,
+  "scenario_count": 20,
+  "individual_file_count": 10,
+  "top_level_key_count": 7,
+  "checks": [
+    "strict UTF-8 JSON; no duplicate keys, BOM, replacement characters or doubled-question-mark placeholders",
+    "exact required top-level and nested fields; allowed enums and scalar/collection types",
+    "ordered unique headwords; continuous integer sense ids",
+    "root formulas and family gloss structure",
+    "formal and colloquial scenarios; target headword in formal and standardized sentences",
+    "Chinese definitions, Arabic-script Jawi, IPA delimiters and spoken-feature annotations",
+    "frequency ranks against raw full subtitle corpus and pilot list",
+    "available PRPM cached Jawi and syllables preserved; accented definition-header divisions preserved",
+    "individual objects equal corresponding batch entries",
+    "excluded incorrect raw shortcut mappings",
+    "all Batch 1 delivery hashes unchanged"
+  ],
+  "prpm_cached_jawi_exact_matches": 7,
+  "prpm_cached_syllables_exact_matches": 3,
+  "prpm_accented_header_syllables_exact_matches": 2,
+  "frequency_ranks": {
+    "akan": 11,
+    "tidak": 12,
+    "kita": 13,
+    "apa": 14,
+    "kamu": 15,
+    "itu": 16,
+    "untuk": 17,
+    "ada": 18,
+    "boleh": 19,
+    "mereka": 20
+  },
+  "linguistic_review": "Editorial self-review completed; automated checks do not certify independent expert review.",
+  "evidence_limits": [
+    "untuk earlier etymology unverified",
+    "mereka pronoun etymology unknown; verb homograph kept distinct",
+    "available Kamus Pelajar definitions labelled; not all Malay definitions are verbatim Kamus Dewan quotations",
+    "ada independent Jawi headword not retrieved; local Kaikki corroborated by DBP reduplicated component and primary UPM study",
+    "akan and ada syllable breaks are phonetic/editorial divisions, not directly retrieved DBP syllables",
+    "unverified wildlife homograph in raw mereka packet excluded"
+  ],
+  "notes": "docs/BATCH_2_NOTES.md",
+  "files": [
+    {
+      "path": "data/enriched/batch_2.json",
+      "bytes": 66562,
+      "sha256": "66a2fd607236e49a29077d60fc1faba02cc4f669a47336b99ed2e75b50d88330"
+    },
+    {
+      "path": "data/enriched/akan.json",
+      "bytes": 6843,
+      "sha256": "4488a3b6e7f545a6b46209069c3b1088ca2728b9da23efc0f912b63c5f05c2b5"
+    },
+    {
+      "path": "data/enriched/tidak.json",
+      "bytes": 5458,
+      "sha256": "057d2447b94dd19b9f01e891b7541d0fc51dc143a2655f2a18c5cc4e308201ef"
+    },
+    {
+      "path": "data/enriched/kita.json",
+      "bytes": 6232,
+      "sha256": "865ad67ab6e8ca0ad282bc76b4d535bebcfcafa996d54bc7b30559b0a7f473ab"
+    },
+    {
+      "path": "data/enriched/apa.json",
+      "bytes": 7521,
+      "sha256": "fd6be323cc13183e56683dd05621a8419cebda8015065ae5dfe20d413d648d89"
+    },
+    {
+      "path": "data/enriched/kamu.json",
+      "bytes": 4848,
+      "sha256": "b9b60c194266783f020c91846a8c63b9f1fb0facdb4bd95f4ca614e80d8d1387"
+    },
+    {
+      "path": "data/enriched/itu.json",
+      "bytes": 4684,
+      "sha256": "ca117ae997e9065fa6ebf0f879a6466c6533eb1b3569b0c1dd0663643106ebc5"
+    },
+    {
+      "path": "data/enriched/untuk.json",
+      "bytes": 7716,
+      "sha256": "d392be948af7e60d45640aa631f24033b537e8c76d21e5865835e6aadc7bca96"
+    },
+    {
+      "path": "data/enriched/ada.json",
+      "bytes": 8324,
+      "sha256": "4092759cce4f1768dfc0d56b3ff6c14505d99e1eaa3641ae23d46ce7398fa57b"
+    },
+    {
+      "path": "data/enriched/boleh.json",
+      "bytes": 6103,
+      "sha256": "648547551b4bd2f687401cdc95442d75d847ffec3da548e55a467e458d781f8d"
+    },
+    {
+      "path": "data/enriched/mereka.json",
+      "bytes": 6450,
+      "sha256": "3030de6a60bc317e1dd509b7c164db4b01af3cfe392f7529da8c6b08f4f2d49b"
+    }
+  ]
+}

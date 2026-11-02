@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "adik",
+    "syllables": null,
+    "ipa": "[ˈʔa.diʔ]",
+    "jawi": "اديق",
+    "frequency_rank": 516,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "adik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + adik → adik",
+    "pattern_note": "基本亲属称谓，不拆词缀。词尾 k 常读喉塞音 [ʔ]；采用本地 Kaikki 的书面标准读音，半岛南部也有 [ˈʔa.deʔ]。音节字段在 PRPM 缓存中缺失，保留 null；Jawi 从同工程 UTF-8 缓存恢复。",
+    "word_family": [
+      {
+        "word": "beradik",
+        "affix": "ber-",
+        "gloss": "有弟妹；是手足"
+      },
+      {
+        "word": "adik-beradik",
+        "affix": "重叠并加 ber-",
+        "gloss": "兄弟姐妹；手足"
+      },
+      {
+        "word": "memperadik",
+        "affix": "memper-",
+        "gloss": "把某人当作弟妹；称为弟妹"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "弟弟或妹妹；比自己年幼的手足。",
+      "ms_definition": "saudara kandung (laki-laki atau perempuan) yg lebih muda.",
+      "nuances": "本义不区分性别，要明确时说 adik lelaki 或 adik perempuan；同父异母、同母异父可分别用 adik seayah、adik seibu。adik-beradik 指兄弟姐妹整体，不限弟妹。定义节录自本地 Kamus Dewan Edisi Keempat；CEFR 与学习标签为编辑分级，排名依任务给定值。",
+      "collocations": [
+        {
+          "ms": "adik lelaki",
+          "zh": "弟弟",
+          "en": "younger brother"
+        },
+        {
+          "ms": "adik perempuan",
+          "zh": "妹妹",
+          "en": "younger sister"
+        }
+      ],
+      "en_definition": "A younger brother or sister."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "对年幼亲属或年轻人的称呼；特定亲密关系中也可称呼妻子。",
+      "ms_definition": "panggilan (khasnya kpd saudara kandung atau saudara mara yg lebih muda atau kpd isteri dan amnya kpd orang yg lebih muda).",
+      "nuances": "可用于呼唤，也可由年幼一方在亲近关系中自称。并非对所有成年陌生人都合适；词典所记的夫妻称呼依双方习惯，不能据此对陌生女性使用亲昵称呼。",
+      "collocations": [
+        {
+          "ms": "adik sayang",
+          "zh": "亲爱的小弟或小妹（亲昵称呼）",
+          "en": "my dear little one"
+        },
+        {
+          "ms": "adik-adik sekalian",
+          "zh": "各位小朋友；各位弟弟妹妹",
+          "en": "dear children"
+        }
+      ],
+      "en_definition": "A term of address for a younger sibling, relative, or person, also used affectionately for one's wife."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区新闻 / 家庭照护",
+      "ms": "Beliau menjaga adik perempuannya yang masih bersekolah selepas ibu mereka meninggal dunia.",
+      "zh": "母亲去世后，他照顾仍在上学的妹妹。",
+      "en": "He looks after his younger sister, who is still at school, following their mother's death."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp 兄妹聊天 / 哥哥安排接妹妹下课",
+      "ms_spoken": "Adik dah habis kelas ke? Abang nak gerak ni.",
+      "ms_standard": "Adik, adakah kelas adik sudah tamat? Abang hendak bertolak sekarang.",
+      "zh": "妹妹，下课了吗？哥哥现在准备出发了。",
+      "spoken_features": [
+        "adik 既是哥哥对妹妹的称呼，也可由妹妹用来自称；abang 同样可作称呼和哥哥的自称，体现家庭关系。",
+        "bang 是 abang 的口语短式；dah、nak、je 分别对应 sudah、hendak、sahaja。",
+        "gerak 在出行语境中表示动身，对应 bertolak；nak gerak ni 中的 ni 强调眼下准备采取行动。",
+        "kat 对应地点介词 di；tunggu situ 省略 di，规范语恢复为 tunggu di situ。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (哥哥)",
+          "ms_spoken": "Adik dah habis kelas ke? Abang nak gerak ni.",
+          "ms_standard": "Adik, adakah kelas adik sudah tamat? Abang hendak bertolak sekarang.",
+          "zh": "妹妹，下课了吗？哥哥现在准备出发了。",
+          "en": "Are you done with class, sis? I'm about to head out."
+        },
+        {
+          "speaker": "Alya (妹妹)",
+          "ms_spoken": "Dah, bang. Adik tunggu kat pondok depan sekolah je, ya.",
+          "ms_standard": "Sudah, abang. Adik akan menunggu di pondok di hadapan sekolah sahaja, ya.",
+          "zh": "下课了，哥。我就在学校前面的小亭子等你啊。",
+          "en": "Yep, I'm done, bro. I'll be waiting at the little shelter in front of the school, okay?"
+        },
+        {
+          "speaker": "Hakim (哥哥)",
+          "ms_spoken": "Okey, tunggu situ. Lagi sepuluh minit abang sampai.",
+          "ms_standard": "Baiklah, tunggu di situ. Abang akan tiba dalam masa sepuluh minit lagi.",
+          "zh": "好，在那儿等着。哥哥再过十分钟就到。",
+          "en": "Okay, stay there. I'll be there in ten minutes."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "dik",
+      "full_form": "adik",
+      "note": "称呼弟妹或年轻人时常见的短式；称呼成年人需注意对方是否接受。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "adik 是标准词，用于儿童或明显年幼者通常亲切，但在职场称成年同事为 adik 可能显得居高临下。跨族群交流可优先用姓名或对方认可的称呼。",
+    "usage_etiquette": "别仅凭体型或外貌判断年龄与辈分。夫妻间用 adik 是私人称呼；对客户、陌生成年女性或地位平等的同事，不宜擅自套用。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic（原始马来语）",
+    "root_origin": "本地 Kaikki 记录由原始马来语 *adi-ʔ 继承，远溯原始南岛语 *Suaji；星号表示重建形式。",
+    "historical_story": "adik 的词源线索通向南岛语族古老的亲属称谓，像把今天家中呼唤弟妹的声音接回更早的语言传统。进入现代马来语后，它既指年幼的手足，也能把家庭式的亲近感带到对年轻人的称呼中。这个变化可由词典现有义项看出，但不能据此确定称呼义产生的年代或某条海上传播路线。",
+    "cognitive_memory_aid": "画一张家谱：自己下面是 adik，上面是 abang 或 kakak；adik 本身不分弟弟、妹妹。"
+  }
+}

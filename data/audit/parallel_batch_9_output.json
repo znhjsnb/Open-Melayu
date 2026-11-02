@@ -1,0 +1,238 @@
+{
+  "mari": {
+    "context": "WhatsApp / 朋友相约吃饭",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Kau nak makan mana? Aku lapar dah ni.",
+        "ms_standard": "Kamu hendak makan di mana? Saya sudah lapar sekarang.",
+        "zh": "你想去哪儿吃？我现在都饿了。"
+      },
+      {
+        "speaker": "Farhan (朋友)",
+        "ms_spoken": "Mari makan kat kedai depan stesen tu. Nasi ayam dia sedap.",
+        "ms_standard": "Mari kita makan di kedai di hadapan stesen itu. Nasi ayam di kedai itu sedap.",
+        "zh": "走，去车站前面那家店吃吧。那家的鸡饭很好吃。"
+      }
+    ],
+    "spoken_features": [
+      "mari 在这里邀请对方一起行动，相当于“来吧，我们一起……”，不表示具体的移动方向。",
+      "nak、kat、tu 分别对应 hendak、di、itu。",
+      "lapar dah ni 用随意口语语序突出此刻已经饿了；标准语可还原为 sudah lapar sekarang。",
+      "nasi ayam dia 中的 dia 回指店家，表示“那家的鸡饭”；aku、kau 适用于熟悉的朋友。"
+    ]
+  },
+  "sana": {
+    "context": "WhatsApp / 朋友确认见面地点",
+    "messages": [
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Kita jumpa kat kedai mamak sebelah bank tu ke?",
+        "ms_standard": "Adakah kita akan berjumpa di kedai mamak di sebelah bank itu?",
+        "zh": "我们是在银行旁边那家嘛嘛档见吗？"
+      },
+      {
+        "speaker": "Fikri (朋友)",
+        "ms_spoken": "Ha, jumpa kat sana pukul lapan. Aku dah nak keluar ni.",
+        "ms_standard": "Ya, kita berjumpa di sana pada pukul lapan. Saya sudah hendak keluar sekarang.",
+        "zh": "对，八点在那边见。我这就要出门了。"
+      }
+    ],
+    "spoken_features": [
+      "sana 回指上一轮明确提到的嘛嘛档，体现“那里、那边”的地点义。",
+      "kat 对应 di；tu 对应 itu；句末 ke 构成口语是非问句。",
+      "Ha 在这里表示确认，相当于“对”；其作用取决于语境。",
+      "dah nak keluar 表示即将出门；句末 ni 突出眼下的情况。"
+    ]
+  },
+  "kepada": {
+    "context": "WhatsApp / 同事确认文件审核顺序",
+    "messages": [
+      {
+        "speaker": "Lina (组员)",
+        "ms_spoken": "Fail tu dah siap. Saya hantar terus kepada klien ke?",
+        "ms_standard": "Fail itu sudah siap. Adakah saya perlu menghantarnya terus kepada klien?",
+        "zh": "那个文件已经做好了。我直接发给客户吗？"
+      },
+      {
+        "speaker": "Farid (组长)",
+        "ms_spoken": "Hantar kepada saya dulu ya. Nanti saya semak, baru kita hantar kepada klien.",
+        "ms_standard": "Hantarkan fail itu kepada saya terlebih dahulu. Saya akan menyemaknya sebelum kita menghantarnya kepada klien.",
+        "zh": "先发给我吧。我看过以后，我们再发给客户。"
+      }
+    ],
+    "spoken_features": [
+      "kepada 引出文件的接收者；同事聊天中保留完整形式很自然，尤其是在交代工作流程时。",
+      "tu、dah 分别对应 itu、sudah；dulu 在这里对应 terlebih dahulu。",
+      "句末 ke 用来询问是否按某个方案处理；ya 在回复中缓和指示语气。",
+      "nanti…baru… 表示“之后……，然后才……”；第二轮省略了语境中已经明确的 fail itu。"
+    ]
+  },
+  "masih": {
+    "context": "WhatsApp / 朋友在餐厅等人",
+    "messages": [
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Kau dah gerak? Aku tunggu kat pintu masuk ni.",
+        "ms_standard": "Adakah kamu sudah bertolak? Saya sedang menunggu di pintu masuk sekarang.",
+        "zh": "你出发了吗？我正在入口这儿等你。"
+      },
+      {
+        "speaker": "Aina (朋友)",
+        "ms_spoken": "Aku masih kat pejabat, kerja tak habis lagi. Kau masuk dulu lah, tak payah tunggu aku.",
+        "ms_standard": "Saya masih berada di pejabat kerana kerja saya belum selesai. Masuklah dahulu; kamu tidak perlu menunggu saya.",
+        "zh": "我还在办公室，工作还没做完。你先进去吧，不用等我。"
+      }
+    ],
+    "spoken_features": [
+      "masih 表示先前的状态持续到现在：说话者仍然在办公室。",
+      "masih kat pejabat 省略了标准表达中的 berada；kat 对应 di。",
+      "gerak 在这里口语表示出发；tak habis lagi 按语境还原为 belum selesai。",
+      "tak payah 表示“不必”；dulu lah 缓和让对方先进去的建议。"
+    ]
+  },
+  "mati": {
+    "context": "WhatsApp / 朋友途中遇到汽车故障",
+    "messages": [
+      {
+        "speaker": "Faiz (朋友)",
+        "ms_spoken": "Kau kat mana? Lama aku tunggu ni.",
+        "ms_standard": "Kamu berada di mana? Saya sudah lama menunggu.",
+        "zh": "你到哪儿了？我都等好久了。"
+      },
+      {
+        "speaker": "Hakim (朋友)",
+        "ms_spoken": "Enjin kereta aku mati kat tepi jalan ni. Nak hidupkan balik pun tak boleh. Kau boleh datang tolong tak?",
+        "ms_standard": "Enjin kereta saya mati di tepi jalan ini dan tidak dapat dihidupkan semula. Bolehkah kamu datang membantu saya?",
+        "zh": "我车子的引擎在路边熄火了，怎么也发动不起来。你能过来帮个忙吗？"
+      },
+      {
+        "speaker": "Faiz (朋友)",
+        "ms_spoken": "Boleh. Hantar lokasi kau, aku datang sekarang.",
+        "ms_standard": "Boleh. Hantarkan lokasi kamu kepada saya. Saya akan datang sekarang.",
+        "zh": "可以。把你的位置发给我，我现在就过来。"
+      }
+    ],
+    "spoken_features": [
+      "mati 在这里指引擎停止运转，即“熄火”，不涉及生命死亡。",
+      "kat、ni、nak 分别对应 di、ini、hendak。",
+      "hidupkan balik 表示重新发动，对应 hidupkan semula；口语中常省略可推知的宾语。",
+      "pun tak boleh 强调连重新发动也做不到；句末 tak 构成口语是非问句。"
+    ]
+  },
+  "adakah": {
+    "context": "WhatsApp / 顾客向店主确认是否仍在营业",
+    "messages": [
+      {
+        "speaker": "Mei (顾客)",
+        "ms_spoken": "Adakah kedai tu masih buka? Saya dah sampai kat depan ni, tapi pintu tutup.",
+        "ms_standard": "Adakah kedai itu masih beroperasi? Saya sudah tiba di hadapan kedai, tetapi pintunya ditutup.",
+        "zh": "你们店还在营业吗？我已经到店门口了，可是门关着。"
+      },
+      {
+        "speaker": "Kak Salmah (店主)",
+        "ms_spoken": "Masih buka. Pintu depan je tutup, masuk ikut pintu tepi ya.",
+        "ms_standard": "Kedai kami masih beroperasi. Hanya pintu hadapan yang ditutup. Sila masuk melalui pintu sisi.",
+        "zh": "还在营业。只是前门关着，从侧门进来就行。"
+      }
+    ],
+    "spoken_features": [
+      "adakah 在这里询问“仍在营业”这一判断是否属实；顾客向店主询问时略显郑重，但可以与口语形式并用。",
+      "更随意的说法是 Kedai tu masih buka ke?；本对话保留目标词 adakah。",
+      "tu、dah、kat 分别对应 itu、sudah、di；句末 ni 突出已经到门口的当前情况。",
+      "je 对应 sahaja；ikut pintu tepi 在这里表示经由侧门进入。"
+    ]
+  },
+  "tiada": {
+    "context": "WhatsApp / 熟人帮忙留座",
+    "messages": [
+      {
+        "speaker": "Sofia (朋友)",
+        "ms_spoken": "Boleh simpan satu tempat untuk saya tak? Saya sampai lambat sikit.",
+        "ms_standard": "Bolehkah awak menyimpan satu tempat duduk untuk saya? Saya akan tiba agak lewat.",
+        "zh": "能帮我留个位子吗？我会晚一点到。"
+      },
+      {
+        "speaker": "Mira (朋友)",
+        "ms_spoken": "Tiada masalah, saya dah simpan satu tempat untuk awak kat depan. Nanti cari saya je.",
+        "ms_standard": "Tiada masalah. Saya sudah menyimpan satu tempat duduk untuk awak di bahagian hadapan. Cari sahaja saya apabila awak tiba nanti.",
+        "zh": "没问题，我已经在前面给你留了个位子。你到了直接找我就行。"
+      }
+    ],
+    "spoken_features": [
+      "Tiada masalah 是聊天中自然使用的回应，表示“没问题”；不代表 tiada 的所有书面用法都同样口语化。",
+      "Boleh…tak? 是常见的口语请求句式，对应 Bolehkah…?",
+      "dah、kat、je 分别对应 sudah、di、sahaja。",
+      "simpan satu tempat 在此指留座；nanti cari saya je 省略了可由语境推知的“你到了以后”。"
+    ]
+  },
+  "kerana": {
+    "context": "WhatsApp / 同事说明开会迟到的原因",
+    "messages": [
+      {
+        "speaker": "Rina (同事)",
+        "ms_spoken": "Mesyuarat nak mula dah. Awak kat mana?",
+        "ms_standard": "Mesyuarat akan bermula sebentar lagi. Awak berada di mana?",
+        "zh": "会议马上要开始了。你到哪儿了？"
+      },
+      {
+        "speaker": "Azlan (同事)",
+        "ms_spoken": "Saya lambat sikit kerana jalan dah sesak. Awak masuk dulu ya, saya sampai dalam sepuluh minit lagi.",
+        "ms_standard": "Saya akan tiba agak lewat kerana jalan sudah sesak. Masuklah dahulu. Saya akan tiba dalam masa sepuluh minit lagi.",
+        "zh": "路已经堵了，我会晚一点到。你先进去吧，我大概再过十分钟到。"
+      }
+    ],
+    "spoken_features": [
+      "kerana 引出迟到的原因；工作聊天中保留这个较完整的连接词可以成立，熟人随意聊天也常用 sebab。",
+      "nak mula dah 表示马上就要开始；这里的 dah 不表示会议已经开始。",
+      "lambat sikit 在这里表示晚一点到；dah 对应 sudah，dulu 对应 dahulu。",
+      "kat mana 省略了 berada；ya 缓和让对方先进去的建议。"
+    ]
+  },
+  "baiklah": {
+    "context": "WhatsApp / 朋友接受见面安排",
+    "messages": [
+      {
+        "speaker": "Daniel (朋友)",
+        "ms_spoken": "Kita jumpa kat pintu utama pukul tujuh ya? Senang sikit nak cari.",
+        "ms_standard": "Bolehkah kita berjumpa di pintu utama pada pukul tujuh? Lebih mudah untuk kita mencari satu sama lain di situ.",
+        "zh": "我们七点在正门见，好吗？在那里比较容易找到对方。"
+      },
+      {
+        "speaker": "Imran (朋友)",
+        "ms_spoken": "Baiklah, jumpa kat situ nanti. Saya nak gerak dah.",
+        "ms_standard": "Baiklah, kita berjumpa di situ nanti. Saya hendak bertolak sekarang.",
+        "zh": "好，那待会儿就在那儿见。我这就出门了。"
+      }
+    ],
+    "spoken_features": [
+      "baiklah 在这里接受对方提出的时间和地点，不必译出勉强或不情愿的语气。",
+      "kat、nak 分别对应 di、hendak；gerak 在这里口语表示出发。",
+      "nak gerak dah 整体表示现在就要出发，不能逐词理解成“已经想动”。",
+      "baiklah 中的 -lah 与词根连写；回复省略了语境已经明确的 kita。"
+    ]
+  },
+  "menjadi": {
+    "context": "WhatsApp / 朋友确认烘焙成果",
+    "messages": [
+      {
+        "speaker": "Yana (朋友)",
+        "ms_spoken": "Dah potong kek tu? Tengah dia masak tak?",
+        "ms_standard": "Sudahkah awak memotong kek itu? Adakah bahagian tengahnya sudah masak?",
+        "zh": "那个蛋糕切开了吗？中间熟了吗？"
+      },
+      {
+        "speaker": "Nisa (朋友)",
+        "ms_spoken": "Kek ni menjadi juga akhirnya! Tengah dia dah masak, gebu je. Saya dah risau tadi.",
+        "ms_standard": "Kek ini akhirnya berjaya dibuat dengan baik! Bahagian tengahnya sudah masak dan teksturnya gebu. Saya sudah berasa risau tadi.",
+        "zh": "这个蛋糕总算做成功了！中间也熟了，松松软软的。刚才我都担心起来了。"
+      }
+    ],
+    "spoken_features": [
+      "menjadi 在这里表示制作取得预期成果，即蛋糕做成功了，不表示“变成”。",
+      "menjadi juga akhirnya 带有经过担心或等待之后“总算还是成功了”的语气；juga 在这里不宜机械译成“也”。",
+      "tengah dia 是随意口语中的“它的中间”，标准表达为 bahagian tengahnya。",
+      "ni、tu、dah、je 分别对应 ini、itu、sudah、sahaja；gebu je 在这里轻松地描述蛋糕松软的状态。"
+    ]
+  }
+}

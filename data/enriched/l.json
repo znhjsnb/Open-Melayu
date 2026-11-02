@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "l",
+    "syllables": null,
+    "ipa": "/ɛl/",
+    "jawi": null,
+    "frequency_rank": 782,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "l",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + l → l",
+    "pattern_note": "这是字母或单位符号，不作词缀拆分；is_root=true 仅表示本条无派生构词。PRPM 未提供音节与 Jawi，保留 null。IPA 为字母名 el；单位 l 应按 liter 读出。CEFR 为教学估级。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "马来语罗马字母表的第十二个字母，小写 l，大写 L。",
+      "ms_definition": "huruf ke-12 abjad Rumi.",
+      "nuances": "字母名读 el，辅音本身是 /l/，不要混淆字母名称和单词中的音值。这里用 noun 归类字母名称；L 是大小写对应形式，不是派生词。",
+      "collocations": [
+        {
+          "ms": "huruf l kecil",
+          "zh": "小写字母 l",
+          "en": "a lowercase l"
+        },
+        {
+          "ms": "huruf L besar",
+          "zh": "大写字母 L",
+          "en": "an uppercase L"
+        }
+      ],
+      "en_definition": "The twelfth letter of the Malay Roman alphabet, written l in lower case and L in upper case."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "升的符号 l，用于表示液体等的体积。",
+      "ms_definition": "kep liter (ukuran isi barang cair dll).",
+      "nuances": "原义按 PRPM 缩写记录保留；在计量规范中属于单位符号，此处受词性选项限制列作 noun。l 与 L 都可表示升，L 较不易与数字 1 混淆；数值与符号间留空格，如 2 l。[BIPM 国际单位制手册](https://www.bipm.org/documents/20126/41483022/SI-Brochure-9.pdf)",
+      "collocations": [
+        {
+          "ms": "2 l air",
+          "zh": "2 升水",
+          "en": "2 litres of water"
+        },
+        {
+          "ms": "kapasiti 5 l",
+          "zh": "容量 5 升",
+          "en": "a capacity of 5 litres"
+        }
+      ],
+      "en_definition": "The symbol for litre, a unit of volume used especially for liquids."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "课堂 / 字母教学",
+      "ms": "Murid diminta menulis huruf l kecil dan huruf L besar dengan jelas.",
+      "zh": "学生须清楚地写出小写字母 l 和大写字母 L。",
+      "en": "Pupils are asked to write the lowercase letter l and the uppercase letter L clearly."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 室友核对瓶装水容量并商量采购数量",
+      "ms_spoken": "Botol air ni 2 l je, kan? Beli dua cukup tak untuk kita berempat?",
+      "ms_standard": "Botol air ini berkapasiti 2 liter sahaja, bukan? Adakah dua botol mencukupi untuk kita berempat?",
+      "zh": "这瓶水只有2升，对吧？买两瓶够我们四个人喝吗？",
+      "spoken_features": [
+        "l 是 liter 的单位符号，不是聊天缩写；2 l 读作 dua liter，数字与符号之间留空格。",
+        "ni、je 分别对应 ini、sahaja；kan 用于核对容量。",
+        "cukup tak 是口语是非问句，对应 adakah…mencukupi。",
+        "kat 对应 di；kot 表示推测或不完全确定，lah 在此配合提出建议。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Botol air ni 2 l je, kan? Beli dua cukup tak untuk kita berempat?",
+          "ms_standard": "Botol air ini berkapasiti 2 liter sahaja, bukan? Adakah dua botol mencukupi untuk kita berempat?",
+          "zh": "这瓶水只有2升，对吧？买两瓶够我们四个人喝吗？",
+          "en": "This bottle of water's only 2 litres, right? Will two bottles be enough for the four of us?"
+        },
+        {
+          "speaker": "Hafiz (室友)",
+          "ms_spoken": "Kita kat luar sampai petang kot. Ambil tiga botol lah, takut tak cukup.",
+          "ms_standard": "Kita mungkin akan berada di luar sehingga petang. Belilah tiga botol kerana saya bimbang air itu tidak mencukupi.",
+          "zh": "我们可能要在外面待到傍晚呢。买三瓶吧，怕不够喝。",
+          "en": "We'll probably be out till the evening. Let's get three bottles, just in case two aren't enough."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "核对字母时可说 huruf el，并补充大写或小写；清楚说明比要求对方猜字形更方便。",
+    "usage_etiquette": "不要把 l 擅自解释为 lah 的通用缩写。采购和标签上的单位应写清；l、L、数字 1 形近时可直接拼写 liter。"
+  },
+  "etymology": {
+    "origin": "Latin",
+    "source_language": "拉丁字母体系；计量义对应 liter",
+    "root_origin": "l/L 是 Rumi 的字母形式，不是具有词根意义的普通借词；单位 l 是 liter 的符号，与字母名 el 分属不同读法。",
+    "historical_story": "在马来语课堂里，l 是 Rumi 字母表的一员；走到商店的饮料标签前，同一字形又可表示 liter。前者帮助拼写词语，后者帮助读取容量，这两种用途需要按上下文区分，并不是一个马来语词通过加词缀产生了新义。",
+    "cognitive_memory_aid": "看见 huruf 就读字母名 el；看见 2 l 这样的数值组合，就读 dua liter。"
+  }
+}

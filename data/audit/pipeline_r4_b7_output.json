@@ -1,0 +1,292 @@
+{
+  "pastikan": {
+    "context": "WhatsApp 家人聊天 / 出门前确认门窗",
+    "messages": [
+      {
+        "speaker": "Salmah (母亲)",
+        "ms_spoken": "Aina, sebelum keluar tu, pastikan pintu belakang dah kunci, ya.",
+        "ms_standard": "Aina, sebelum keluar, pastikan pintu belakang sudah dikunci, ya.",
+        "zh": "艾娜，出门前记得确认后门锁好了啊。"
+      },
+      {
+        "speaker": "Aina (女儿)",
+        "ms_spoken": "Dah, mak. Tingkap dapur pun dah tutup. Lampu luar nak biar pasang ke?",
+        "ms_standard": "Sudah, ibu. Tingkap dapur juga sudah ditutup. Adakah lampu di luar hendak dibiarkan menyala?",
+        "zh": "锁好了，妈。厨房窗户也关了。外面的灯要留着开吗？"
+      },
+      {
+        "speaker": "Salmah (母亲)",
+        "ms_spoken": "Haah, biar je. Nanti mak balik lambat sikit.",
+        "ms_standard": "Ya, biarkan sahaja lampu itu menyala. Ibu akan pulang agak lewat nanti.",
+        "zh": "对，留着开吧。妈等下会晚一点回来。"
+      }
+    ],
+    "spoken_features": [
+      "pastikan 在此是提醒对方检查并确保某个状态成立，后面的回复明确确认任务已完成。",
+      "pintu belakang dah kunci 和 tingkap dapur dah tutup 是口语中的状态表达，规范语分别恢复为 sudah dikunci 和 sudah ditutup。",
+      "dah、nak、je 分别对应 sudah、hendak、sahaja；haah 表示肯定，句末 ke 构成是非问句。",
+      "sebelum keluar tu 中的 tu 起话语提示作用，规范表达可省略；mak 既用于称呼母亲，也用于母亲对孩子自称。"
+    ]
+  },
+  "nah": {
+    "context": "WhatsApp 同学聊天 / 索取并发送活动照片",
+    "messages": [
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Farah, gambar masa aktiviti tadi ada kat kau kan? Hantar kat aku jap, nak masuk dalam laporan.",
+        "ms_standard": "Farah, gambar semasa aktiviti tadi ada pada awak, bukan? Tolong hantarkan gambar itu kepada saya sebentar kerana saya hendak memasukkannya ke dalam laporan.",
+        "zh": "法拉，刚才活动的照片在你那儿吧？发给我一下，我要放进报告里。"
+      },
+      {
+        "speaker": "Farah (同学)",
+        "ms_spoken": "Nah, aku hantar yang jelas je. Yang lain semua kabur.",
+        "ms_standard": "Nah, saya menghantar gambar yang jelas sahaja. Gambar yang lain semuanya kabur.",
+        "zh": "喏，我只发清楚的那几张。其他的全都模糊了。"
+      },
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Dah dapat, terima kasih! Yang ni memang ngam untuk laporan.",
+        "ms_standard": "Saya sudah menerima gambar itu, terima kasih! Gambar ini memang sesuai untuk laporan.",
+        "zh": "收到了，谢谢！这几张正好适合放进报告。"
+      }
+    ],
+    "spoken_features": [
+      "nah 与发送照片的动作配合，表示把东西交给对方，相当于中文的“喏，给你”。",
+      "kat kau 在持有关系中对应 pada awak；hantar kat aku 中的 kat 则引出接收者，对应 kepada saya。",
+      "jap 是 sekejap 的口语短式，在请求中表示“花一点时间、帮忙一下”；nak、je、ni 分别对应 hendak、sahaja、ini。",
+      "ngam 是马来西亚日常口语中的借词，此处表示合适；aku、kau 适用于关系熟悉的同学。"
+    ]
+  },
+  "gambar": {
+    "context": "WhatsApp 朋友聊天 / 聚会后索取合照原图",
+    "messages": [
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Cantiklah gambar kita tadi! Tapi yang kau hantar ni macam pecah sikit bila zum.",
+        "ms_standard": "Gambar kita tadi cantik sekali! Namun, gambar yang awak hantar ini kelihatan agak berpetak apabila dibesarkan.",
+        "zh": "我们刚才那张照片真好看！不过你发来的这张放大后好像有点糊，能看到像素块。"
+      },
+      {
+        "speaker": "Lina (朋友)",
+        "ms_spoken": "Aku hantar yang asal sebagai dokumen, nak? Yang tadi tu dah kena mampat.",
+        "ms_standard": "Mahukah awak saya menghantar gambar asal sebagai dokumen? Gambar yang dihantar tadi sudah dimampatkan.",
+        "zh": "我把原图当文档发给你，要吗？刚才那张已经被压缩了。"
+      },
+      {
+        "speaker": "Nadia (朋友)",
+        "ms_spoken": "Nak! Hantar kat aku, nanti aku simpan.",
+        "ms_standard": "Ya, saya mahu! Hantarkan gambar itu kepada saya; saya akan menyimpannya nanti.",
+        "zh": "要！发给我，我等下存起来。"
+      }
+    ],
+    "spoken_features": [
+      "gambar 在本段明确指聚会时拍摄的照片；yang asal 根据语境指 gambar asal，即原图。",
+      "pecah 用于描述放大后画质变差、出现像素块，是日常谈论数码图片时的口语说法。",
+      "dah kena mampat 是口语被动表达，规范语可恢复为 sudah dimampatkan。",
+      "独立的 nak? 用于简短询问对方是否想要，回复 Nak! 表示接受；kat aku 对应 kepada saya。"
+    ]
+  },
+  "jahat": {
+    "context": "WhatsApp 好友聊天 / 收到吓人视频后打趣抱怨",
+    "messages": [
+      {
+        "speaker": "Amir (好友)",
+        "ms_spoken": "Jahatlah kau, hantar video hantu malam-malam! Aku sampai terlepas telefon tadi 😂",
+        "ms_standard": "Awak memang nakal kerana menghantar video hantu pada waktu malam! Saya begitu terkejut sehingga telefon terlepas daripada tangan saya tadi.",
+        "zh": "你真坏，大晚上的发鬼片给我！我刚才吓得手机都脱手了 😂"
+      },
+      {
+        "speaker": "Haziq (好友)",
+        "ms_spoken": "Hahaha, aku ingat kau berani! Telefon okey tak?",
+        "ms_standard": "Ha ha ha, saya menyangka awak berani! Adakah telefon awak masih dalam keadaan baik?",
+        "zh": "哈哈哈，我还以为你胆子很大呢！手机没事吧？"
+      },
+      {
+        "speaker": "Amir (好友)",
+        "ms_spoken": "Nasib baik jatuh atas katil je. Jangan buat lagi weh!",
+        "ms_standard": "Mujurlah telefon itu hanya jatuh di atas katil. Jangan lakukan perkara itu lagi!",
+        "zh": "幸好只是掉在床上。别再这样啦！"
+      }
+    ],
+    "spoken_features": [
+      "Jahatlah kau 在这里是好友之间的夸张嗔怪，笑脸和后续互动表明语气较轻；规范等义表达用 nakal 呈现此处“爱捉弄人”的意思。",
+      "-lah 加强带有情绪的评价；weh 是熟人间的呼语，此处强化抱怨，不宜机械译成某个固定词。",
+      "ingat 在这里表示“以为”，对应 menyangka；okey tak? 是口语是非问句。",
+      "je 对应 sahaja；jatuh atas katil 省略地点短语中的 di，主语 telefon 也由上下文补足。"
+    ]
+  },
+  "soalan": {
+    "context": "WhatsApp 同学聊天 / 讨论数学练习题",
+    "messages": [
+      {
+        "speaker": "Aisyah (同学)",
+        "ms_spoken": "Soalan nombor lima ni kau dah buat ke? Aku tak tahu nak mula kat mana.",
+        "ms_standard": "Adakah awak sudah menjawab soalan nombor lima ini? Saya tidak tahu dari mana hendak memulakannya.",
+        "zh": "第五题你做了吗？我都不知道该从哪儿下手。"
+      },
+      {
+        "speaker": "Siti (同学)",
+        "ms_spoken": "Dah. Kira luas segi tiga tu dulu, baru tolak daripada luas segi empat.",
+        "ms_standard": "Sudah. Hitung luas segi tiga itu dahulu, kemudian tolak luas tersebut daripada luas segi empat.",
+        "zh": "做了。先算那个三角形的面积，再从四边形的面积里减掉它。"
+      },
+      {
+        "speaker": "Aisyah (同学)",
+        "ms_spoken": "Oh, patutlah! Aku tambah dua-dua tadi. Terima kasih weh.",
+        "ms_standard": "Oh, rupa-rupanya begitu! Saya menjumlahkan kedua-dua luas itu tadi. Terima kasih.",
+        "zh": "哦，怪不得！我刚才把两个面积加起来了。谢啦。"
+      }
+    ],
+    "spoken_features": [
+      "soalan nombor lima 指练习中的第五题；口语常用 buat soalan，规范语在此用 menjawab soalan。",
+      "ni、dah、tak、nak、tu、dulu 分别对应 ini、sudah、tidak、hendak、itu、dahulu。",
+      "句末 ke 构成是非问句；mula kat mana 在此询问解题的起点，规范语恢复为 dari mana hendak memulakannya。",
+      "baru 在步骤说明中表示完成前一步后才做下一步；dua-dua 根据语境指两个面积，对应 kedua-dua luas itu。"
+    ]
+  },
+  "adik": {
+    "context": "WhatsApp 兄妹聊天 / 哥哥安排接妹妹下课",
+    "messages": [
+      {
+        "speaker": "Hakim (哥哥)",
+        "ms_spoken": "Adik dah habis kelas ke? Abang nak gerak ni.",
+        "ms_standard": "Adik, adakah kelas adik sudah tamat? Abang hendak bertolak sekarang.",
+        "zh": "妹妹，下课了吗？哥哥现在准备出发了。"
+      },
+      {
+        "speaker": "Alya (妹妹)",
+        "ms_spoken": "Dah, bang. Adik tunggu kat pondok depan sekolah je, ya.",
+        "ms_standard": "Sudah, abang. Adik akan menunggu di pondok di hadapan sekolah sahaja, ya.",
+        "zh": "下课了，哥。我就在学校前面的小亭子等你啊。"
+      },
+      {
+        "speaker": "Hakim (哥哥)",
+        "ms_spoken": "Okey, tunggu situ. Lagi sepuluh minit abang sampai.",
+        "ms_standard": "Baiklah, tunggu di situ. Abang akan tiba dalam masa sepuluh minit lagi.",
+        "zh": "好，在那儿等着。哥哥再过十分钟就到。"
+      }
+    ],
+    "spoken_features": [
+      "adik 既是哥哥对妹妹的称呼，也可由妹妹用来自称；abang 同样可作称呼和哥哥的自称，体现家庭关系。",
+      "bang 是 abang 的口语短式；dah、nak、je 分别对应 sudah、hendak、sahaja。",
+      "gerak 在出行语境中表示动身，对应 bertolak；nak gerak ni 中的 ni 强调眼下准备采取行动。",
+      "kat 对应地点介词 di；tunggu situ 省略 di，规范语恢复为 tunggu di situ。"
+    ]
+  },
+  "kat": {
+    "context": "WhatsApp 朋友聊天 / 到饮料店碰面并代买饮料",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Aku dah sampai kat kedai. Kau kat mana?",
+        "ms_standard": "Saya sudah tiba di kedai. Awak berada di mana?",
+        "zh": "我到店里了。你在哪儿？"
+      },
+      {
+        "speaker": "Danish (朋友)",
+        "ms_spoken": "Aku kat rumah lagi. Belikan aku teh ais satu, nanti aku bayar kat kau.",
+        "ms_standard": "Saya masih berada di rumah. Tolong belikan saya segelas teh ais; saya akan membayar awak nanti.",
+        "zh": "我还在家。帮我买一杯冰奶茶，等下我给你钱。"
+      },
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Boleh. Aku tunggu kat meja luar, senang kau nampak nanti.",
+        "ms_standard": "Boleh. Saya akan menunggu di meja di luar supaya awak mudah melihat saya nanti.",
+        "zh": "行。我在外面的桌子那儿等，你等下比较容易看到我。"
+      }
+    ],
+    "spoken_features": [
+      "sampai kat kedai、kat mana、kat rumah 和 kat meja luar 中的 kat 都标示地点，规范语使用 di。",
+      "bayar kat kau 中的 kat 引出收款人，表示“给你付款”；规范表达可直接说 membayar awak。",
+      "Aku kat rumah lagi 中的 lagi 表示“仍然、还”，规范语用 masih 表达。",
+      "teh ais satu 是点单时常见的口语语序，规范语补出量词为 segelas teh ais；senang kau nampak 省略了表示目的的连接词和已知宾语。"
+    ]
+  },
+  "sebelah": {
+    "context": "WhatsApp 朋友聊天 / 在银行附近寻找约定的餐馆",
+    "messages": [
+      {
+        "speaker": "Farid (朋友)",
+        "ms_spoken": "Aku dah depan bank ni. Kedai makan yang kau cakap tu kat mana?",
+        "ms_standard": "Saya sudah berada di hadapan bank ini. Di manakah kedai makan yang awak sebutkan itu?",
+        "zh": "我已经在银行前面了。你说的那家餐馆在哪儿？"
+      },
+      {
+        "speaker": "Imran (朋友)",
+        "ms_spoken": "Sebelah bank tu je, yang papan tanda hijau. Aku duduk kat luar.",
+        "ms_standard": "Kedai makan itu terletak betul-betul di sebelah bank tersebut dan mempunyai papan tanda berwarna hijau. Saya duduk di luar.",
+        "zh": "就在那家银行旁边，招牌是绿色的。我坐在外面。"
+      },
+      {
+        "speaker": "Farid (朋友)",
+        "ms_spoken": "Oh, nampak dah! Tunggu jap, aku jalan ke sana.",
+        "ms_standard": "Oh, saya sudah melihatnya! Tunggu sebentar, saya akan berjalan ke sana.",
+        "zh": "哦，看到了！等一下，我走过去。"
+      }
+    ],
+    "spoken_features": [
+      "sebelah bank 表示银行旁边的位置；口语回复省略已知主语及介词，规范语恢复为 kedai makan itu terletak di sebelah bank。",
+      "tu je 在这里强调距离很近，相当于“就在那儿”；tu、je 分别对应 itu、sahaja。",
+      "Aku dah depan bank 省略 berada di；yang papan tanda hijau 是省略式辨认描述，指招牌为绿色的那家店。",
+      "nampak dah 的语序突出“已经看到了”；jap 对应 sekejap，规范语也可用 sebentar。"
+    ]
+  },
+  "milik": {
+    "context": "WhatsApp 班级群聊 / 在食堂发现遗留的书包",
+    "messages": [
+      {
+        "speaker": "Fatin (同学)",
+        "ms_spoken": "Beg biru ni milik siapa? Aku jumpa kat kantin tadi.",
+        "ms_standard": "Beg biru ini milik siapa? Saya menjumpainya di kantin tadi.",
+        "zh": "这个蓝色书包是谁的？我刚才在食堂发现的。"
+      },
+      {
+        "speaker": "Amin (同学)",
+        "ms_spoken": "Aku punya! Ada rantai kunci bentuk kucing kat zip tu kan?",
+        "ms_standard": "Beg itu milik saya! Ada rantai kunci berbentuk kucing pada zip beg itu, bukan?",
+        "zh": "我的！拉链上挂着一个猫咪形状的钥匙扣，对吧？"
+      },
+      {
+        "speaker": "Fatin (同学)",
+        "ms_spoken": "Haah, ada. Aku simpan dulu, nanti kau ambil kat kelas.",
+        "ms_standard": "Ya, ada. Saya akan menyimpannya dahulu; awak boleh mengambilnya di kelas nanti.",
+        "zh": "对，有。我先替你保管，你等下来教室拿。"
+      }
+    ],
+    "spoken_features": [
+      "milik siapa 直接询问物品归属，在群聊失物认领中自然可用；回复 Aku punya! 用更随意的结构表达同一归属关系。",
+      "jumpa 在这里表示发现遗留物品，规范语恢复为 menjumpainya；宾语书包由上下文补足。",
+      "kat kantin 和 kat kelas 对应 di kantin 和 di kelas；kat zip 表示附着位置，规范语用 pada zip。",
+      "haah 表示肯定；句末 kan 请求对方确认识别细节，对应 bukan?。"
+    ]
+  },
+  "bertenang": {
+    "context": "WhatsApp 朋友聊天 / 把背包遗落在巴士上后求助",
+    "messages": [
+      {
+        "speaker": "Nisa (朋友)",
+        "ms_spoken": "Aku tertinggal beg dalam bas tadi! Dompet semua ada dalam tu, macam mana ni?",
+        "ms_standard": "Saya tertinggal beg di dalam bas tadi! Dompet dan barang-barang lain semuanya ada di dalam beg itu. Apakah yang patut saya lakukan sekarang?",
+        "zh": "我刚才把包落在巴士上了！钱包那些全在里面，现在怎么办？"
+      },
+      {
+        "speaker": "Mira (朋友)",
+        "ms_spoken": "Cuba bertenang dulu. Kau ingat nombor bas tak? Kita telefon syarikat bas tu dulu.",
+        "ms_standard": "Cuba bertenang dahulu. Adakah awak ingat nombor bas itu? Mari kita menghubungi syarikat bas tersebut terlebih dahulu.",
+        "zh": "先试着冷静一下。你记得巴士号码吗？我们先给那家巴士公司打电话。"
+      },
+      {
+        "speaker": "Nisa (朋友)",
+        "ms_spoken": "Ingat, ada dalam tiket. Kejap, aku cari nombor telefon dia.",
+        "ms_standard": "Saya ingat; nombor bas itu tertera pada tiket. Tunggu sebentar, saya akan mencari nombor telefon syarikat tersebut.",
+        "zh": "记得，车票上有。等一下，我找找那家公司的电话号码。"
+      }
+    ],
+    "spoken_features": [
+      "Cuba bertenang dulu 是先安抚再处理问题的表达，cuba 使劝告较柔和，dulu 对应 dahulu。",
+      "Dompet semua 是口语中的概括表达，此处指钱包及其他随身物品；dalam tu 根据语境指包里面。",
+      "macam mana ni? 在慌张求助时表示“现在怎么办”，规范等义句需补出应采取行动的含义。",
+      "ingat nombor bas tak? 是以 tak 结尾的口语是非问句；dia 在最后一句回指巴士公司，规范语明确恢复为 syarikat tersebut。"
+    ]
+  }
+}

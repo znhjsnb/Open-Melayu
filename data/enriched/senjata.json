@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "senjata",
+    "syllables": "sen.ja.ta",
+    "ipa": "/sənˈd͡ʒata/",
+    "jawi": "سنجات",
+    "frequency_rank": 272,
+    "tags": [
+      "CEFR-B1",
+      "SPM词汇"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "senjata",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + senjata → senjata（武器）",
+    "pattern_note": "现代马来语按完整借词词根记忆，不能拆成 se- + njata。首个 e 读 /ə/，j 读 /d͡ʒ/；半岛南部词尾 a 常读 /ə/。Jawi 与音节从本地同词 PRPM 原始文件恢复。",
+    "word_family": [
+      {
+        "word": "bersenjata",
+        "affix": "ber-",
+        "gloss": "携带武器；武装的"
+      },
+      {
+        "word": "bersenjatakan",
+        "affix": "ber-…-kan",
+        "gloss": "以……为武器"
+      },
+      {
+        "word": "mempersenjatai",
+        "affix": "memper-…-i",
+        "gloss": "给……配备武器"
+      },
+      {
+        "word": "persenjataan",
+        "affix": "per-…-an",
+        "gloss": "武装情况；武器装备"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "武器；用于作战或打斗的器具。",
+      "ms_definition": "alat yg digunakan utk berperang atau berkelahi (keris, lembing, senapang, dll) (Kamus Dewan Edisi Keempat).",
+      "nuances": "范围比 senjata api‘枪械／火器’广，也包括 keris 等冷兵器。mengangkat senjata 指拿起武器作战，meletakkan senjata 可指停止作战。词典另收‘阿拉伯文字的元音符号’这一低频专门义，通常学习场景先掌握武器义。",
+      "collocations": [
+        {
+          "ms": "senjata api",
+          "zh": "枪械；火器",
+          "en": "firearms"
+        },
+        {
+          "ms": "senjata tajam",
+          "zh": "刀剑等利器",
+          "en": "bladed weapons"
+        }
+      ],
+      "en_definition": "A weapon; an implement used in warfare or fighting."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "比喻用来达到目的的手段、利器或筹码。",
+      "ms_definition": "ki sesuatu (surat, kejadian, dll) yg digunakan utk mencapai sesuatu maksud (Kamus Dewan Edisi Keempat).",
+      "nuances": "可说知识、论据或某项优势是 senjata，不必涉及实际暴力。senjata makan tuan 指本来用来对付别人的手段反而害了自己，类似‘反噬自身’。",
+      "collocations": [
+        {
+          "ms": "senjata politik",
+          "zh": "政治手段；政治筹码",
+          "en": "a political tool; political leverage"
+        },
+        {
+          "ms": "senjata makan tuan",
+          "zh": "手段反噬自身",
+          "en": "a tactic that backfires"
+        }
+      ],
+      "en_definition": "Something used as a means of achieving an aim or gaining an advantage."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／警方调查",
+      "ms": "Polis mengesahkan bahawa tiada senjata api ditemukan di lokasi kejadian.",
+      "zh": "警方证实，事发地点没有发现枪械。",
+      "en": "Police confirmed that no firearms were found at the scene."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 和朋友聊游戏里的武器",
+      "ms_spoken": "Senjata yang kau pakai tadi tu memang kuat lah. Mana kau dapat?",
+      "ms_standard": "Senjata yang kamu gunakan tadi memang sangat berkesan. Di manakah kamu mendapatkannya?",
+      "zh": "你刚才用的那把武器真厉害啊。哪儿弄到的？",
+      "spoken_features": [
+        "tu、nak 分别对应 itu、mahu；句末 ke 表示询问。",
+        "kuat 在游戏装备语境中表示威力大、效果强；lah 在这里加强赞叹。",
+        "lepas habis misi 省略了可由语境补出的主语，标准版本整理为 selepas menyelesaikan misi。",
+        "tunjuk aku cara guna 是熟人间简洁的说法，标准版本补出 tunjukkan kepada saya 和 menggunakan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (游戏好友)",
+          "ms_spoken": "Senjata yang kau pakai tadi tu memang kuat lah. Mana kau dapat?",
+          "ms_standard": "Senjata yang kamu gunakan tadi memang sangat berkesan. Di manakah kamu mendapatkannya?",
+          "zh": "你刚才用的那把武器真厉害啊。哪儿弄到的？",
+          "en": "That weapon you were using earlier was seriously powerful. Where did you get it?"
+        },
+        {
+          "speaker": "Hafiz (游戏好友)",
+          "ms_spoken": "Aku dapat lepas habis misi semalam. Kau nak cuba ke?",
+          "ms_standard": "Saya mendapatkannya selepas menyelesaikan misi semalam. Adakah kamu mahu mencubanya?",
+          "zh": "我昨天做完任务拿到的。你想试试吗？",
+          "en": "I got it after finishing yesterday's mission. Wanna try it?"
+        },
+        {
+          "speaker": "Amir (游戏好友)",
+          "ms_spoken": "Nak! Nanti kita main lagi, kau tunjuk aku cara guna senjata tu.",
+          "ms_standard": "Ya, saya mahu mencubanya. Apabila kita bermain lagi nanti, tunjukkan kepada saya cara menggunakan senjata itu.",
+          "zh": "想！等下再玩的时候，你教我怎么用那把武器。",
+          "en": "Yeah! When we play again later, show me how to use it."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "这是中性名词，新闻、历史、游戏和比喻语境都能使用；对陌生人不宜用含 senjata 的威胁式玩笑。",
+    "usage_etiquette": "谈 keris 等传统器物时，应按具体语境区分历史武器、工艺藏品与礼仪象征，不把任何族群简单等同于好战。angkatan bersenjata 是‘武装部队’，语气正式。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "梵语",
+    "root_origin": "资料列梵语 संयत्त saṃyatta‘准备好、戒备着’或 सज्जता sajjatā‘准备’为候选；具体来源保留不确定性。",
+    "historical_story": "这个词把‘准备、戒备’与现代‘武器’联系起来，但资料仍给出两个梵语候选，不能把其中一个说成定论。记忆时可以想象旧港口里守卫整理装备、准备执勤的画面，这只是帮助理解语义的文化场景。进入现代马来语后，senjata 成了完整名词，又能把知识或论据比作达成目的的‘武器’。",
+    "cognitive_memory_aid": "把‘准备防身的装备’连到 senjata，再顺着记 bersenjata‘有武器’、bersenjatakan ilmu‘以知识为武器’；不要把开头误拆成 se-。"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "headword": {
+    "word": "kan",
+    "syllables": null,
+    "ipa": "/kan/",
+    "jawi": null,
+    "frequency_rank": 123,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: بوکن (bukan)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bukan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "bukan → kan（截短）；akan → kan（另一来源，限将来义）",
+    "pattern_note": "口语截短，不是加缀。root_word 按核心确认语气义填 bukan；将来义来自 akan。独立 kan 与动词后缀 -kan 不同，不能把 melakukan 写成 melaku kan。PRPM 包内未提供音节及 Jawi，两个字段保留 null；本地 Kaikki 虽有 کن，也不冒充 DBP 官方字段。 核心词根（Kata Dasar）「bukan」官方爪夷文为「بوکن」，派生附加 派生词缀。",
+    "word_family": [
+      {
+        "word": "bukan",
+        "affix": "none（来源词）",
+        "gloss": "不是；核心确认语气 kan 的来源"
+      },
+      {
+        "word": "bukankah",
+        "affix": "-kah（加于 bukan）",
+        "gloss": "难道不是……吗；较完整的反问形式"
+      },
+      {
+        "word": "akan",
+        "affix": "none（另一来源词）",
+        "gloss": "将要；诗歌等语境中 kan 的来源"
+      }
+    ],
+    "root_jawi": "بوکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "对吧；是不是，用来向对方寻求确认。",
+      "ms_definition": "Huraian editorial berdasarkan Kaikki: partikel percakapan untuk meminta pengesahan terhadap sesuatu pernyataan; bentuk pendek bukan. Definisi Kamus Dewan tidak tersedia dalam paket.",
+      "nuances": "通常位于句尾，用升调征求确认。正式等义表达依语境用 bukan?、betulkah? 或 betul, bukan?；本条不是逐字 DBP 释义。",
+      "collocations": [
+        {
+          "ms": "betul, kan?",
+          "zh": "对吧？",
+          "en": "That's right, isn't it?"
+        },
+        {
+          "ms": "awak dah tahu, kan?",
+          "zh": "你已经知道了，对吧？",
+          "en": "You already know, don't you?"
+        }
+      ],
+      "en_definition": "A conversational particle used to seek confirmation, equivalent to “right?” or a tag question; shortened from bukan."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "你也知道嘛；不是说过了吗；可不是嘛，表示共同认知、提醒或赞同。",
+      "ms_definition": "Huraian editorial berdasarkan Kaikki: penanda pendirian yang mengingatkan pendengar tentang pengetahuan bersama atau menyatakan persetujuan. Definisi Kamus Dewan tidak tersedia dalam paket.",
+      "nuances": "可出现在句首、句中或独立回应 Kan!。Kan saya dah cakap 可带‘我早说过了’的责备语气；Kan bagus ... 常是‘那样不是挺好吗’，未必是在询问信息。",
+      "collocations": [
+        {
+          "ms": "kan saya dah cakap",
+          "zh": "我不是早就说过了吗",
+          "en": "Didn't I tell you?"
+        },
+        {
+          "ms": "kan bagus kalau",
+          "zh": "要是……不是挺好吗",
+          "en": "Wouldn't it be nice if…"
+        }
+      ],
+      "en_definition": "A conversational particle used to invoke shared knowledge, remind someone of something, or express agreement."
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "将；会，akan 的截短形式。",
+      "ms_definition": "Huraian editorial berdasarkan Kaikki: bentuk pendek akan yang menandakan sesuatu yang bakal berlaku. Definisi Kamus Dewan tidak tersedia dalam paket.",
+      "nuances": "多见于诗歌、歌词或带文学色彩的省略；此处用 adverb 对应将来助词功能。与句尾确认 kan 同形异源，不能把每一个 kan 都展开成 akan；一般正式写作采用全形 akan。",
+      "collocations": [
+        {
+          "ms": "kan tiba",
+          "zh": "将会到来，诗歌用法",
+          "en": "will arrive"
+        },
+        {
+          "ms": "kan kembali",
+          "zh": "将会归来，歌词或诗歌用法",
+          "en": "will return"
+        }
+      ],
+      "en_definition": "Will; shall; a shortened form of akan, used especially in poetry and song lyrics to mark future action or events."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "语言教育报道／规范书面语介绍口语现象",
+      "ms": "Partikel kan lazim digunakan dalam perbualan untuk mendapatkan pengesahan daripada pendengar.",
+      "zh": "语气词 kan 常用于交谈中，以向听者寻求确认。",
+      "en": "The particle kan is commonly used in conversation to seek confirmation from the listener."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对第二天的集合时间与地点",
+      "ms_spoken": "Esok kita jumpa kat lobi pukul sembilan, kan?",
+      "ms_standard": "Esok kita akan berjumpa di lobi pada pukul sembilan, bukan?",
+      "zh": "明天我们九点在大厅见，对吧？",
+      "spoken_features": [
+        "句尾 kan 请求对方确认双方已有的约定，此处不表示 akan。",
+        "haah 是口语中表示肯定的回应，对应 ya。",
+        "kat 对应 di，tu 对应 itu，pulak 对应 pula，sikit 对应 sedikit。",
+        "ingat dah 采用口语中的后置 dah；标准语恢复为 saya sudah ingat。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (同事)",
+          "ms_spoken": "Esok kita jumpa kat lobi pukul sembilan, kan?",
+          "ms_standard": "Esok kita akan berjumpa di lobi pada pukul sembilan, bukan?",
+          "zh": "明天我们九点在大厅见，对吧？",
+          "en": "We're meeting in the lobby at nine tomorrow, right?"
+        },
+        {
+          "speaker": "Mei Ling (同事)",
+          "ms_spoken": "Haah, lobi bawah tu. Jangan tunggu kat tingkat tiga pulak.",
+          "ms_standard": "Ya, di lobi di tingkat bawah itu. Jangan pula menunggu di tingkat tiga.",
+          "zh": "对，就是楼下那个大厅。可别跑到三楼等啊。",
+          "en": "Yep, the downstairs lobby. Don't go waiting on the third floor!"
+        },
+        {
+          "speaker": "Farhan (同事)",
+          "ms_spoken": "Okey, ingat dah. Saya sampai awal sikit nanti.",
+          "ms_standard": "Baiklah, saya sudah ingat. Saya akan tiba sedikit lebih awal esok.",
+          "zh": "好，记住了。我明天会稍微早一点到。",
+          "en": "Okay, got it. I'll get there a little early."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "kn",
+      "full_form": "kan",
+      "note": "聊天中省略元音；应按上下文区分确认语气与 akan 的截短义。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "熟人之间很自然；向长辈、客户或上级核实要点，Betulkah ...? 或 Boleh saya sahkan ...? 通常更稳妥。",
+    "usage_etiquette": "kan 会暗示对方应当知道或同意。讨论敏感议题时连续追问 kan? 容易形成压力；Kan saya dah cakap 也可能像责备，宜看关系和语调使用。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay（bukan／akan 的截短；标示语系，不指单一祖语词根）",
+    "root_origin": "材料列出两条独立的马来语内部来源：bukan → kan（确认／立场）；akan → kan（将来）。",
+    "historical_story": "马来语交谈中的 kan 把较完整的 bukan 缩短，留下一个可以向听者确认、提醒共同认知的小词；今天在 WhatsApp 中也能遇见它。诗句或歌词里的 kan 又可能来自 akan，保留‘将会’的意思，所以同一个声音背后有两条不同来源。材料未给出首次出现的年代，不能把它说成由手机聊天发明的新词。",
+    "cognitive_memory_aid": "句尾 kan? 先想到‘对吧’；诗句中 kan + 动作再检查是否是‘将会’。别与紧贴动词的后缀 -kan 混在一起。"
+  }
+}

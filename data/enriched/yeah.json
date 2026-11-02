@@ -1,0 +1,95 @@
+{
+  "headword": {
+    "word": "yeah",
+    "syllables": null,
+    "ipa": "/jeə/",
+    "jawi": null,
+    "frequency_rank": 204,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "yeah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + yeah → yeah",
+    "pattern_note": "英语口语应答词，在马来语聊天中可作为语码转换使用，整词记忆，无马来语词缀。原包未提供 DBP 音节或 Jawi，均保留 null；IPA 采用 Cambridge 的英语读音，并非 DBP 马来语音标。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "嗯；对；是啊；用于随口肯定、同意或表示在听。",
+      "ms_definition": "Huraian editorial, bukan petikan DBP: kata respons bahasa Inggeris tidak formal yang menyatakan persetujuan atau pengakuan, sepadan dengan ya mengikut konteks.",
+      "nuances": "这是英语口语词，并非本包已获 DBP 收录的标准马来语词。Cambridge 将其列作非正式的 yes，亦说明它可表示正在听；释义与英语 IPA 参考 https://dictionary.cambridge.org/dictionary/english/yeah 和 https://dictionary.cambridge.org/grammar/british-grammar/yes 。Schema 无 interjection，故以 particle 承载应答功能；下列为混语常用应答片段。",
+      "collocations": [
+        {
+          "ms": "yeah, betul",
+          "zh": "嗯，对的",
+          "en": "yeah, that's right"
+        },
+        {
+          "ms": "yeah, boleh",
+          "zh": "嗯，可以",
+          "en": "yeah, sure"
+        }
+      ],
+      "en_definition": "An informal English response expressing agreement, affirmation, or acknowledgment."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／语言教育专栏（讨论口语用词）",
+      "ms": "Dalam penulisan rasmi bahasa Melayu, perkataan Inggeris seperti ‘yeah’ wajar digantikan dengan padanan yang sesuai, seperti ‘ya’.",
+      "zh": "在正式马来文写作中，yeah 这类英语词宜换成适当的对应词，例如 ya。",
+      "en": "In formal Malay writing, English words such as ‘yeah’ should be replaced with suitable equivalents, such as ‘ya’."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认是否已经到达公寓大厅",
+      "ms_spoken": "Awak dah sampai ke? Saya tengah pakai kasut ni.",
+      "ms_standard": "Adakah awak sudah tiba? Saya sedang memakai kasut.",
+      "zh": "你到了吗？我正在穿鞋呢。",
+      "spoken_features": [
+        "yeah 是英语肯定应答词，在这里直接回答对方是否已经到达；与马来语混用属于语码转换。",
+        "句末 ke 构成口语是非问句；tengah 在此对应表示动作正在进行的 sedang。",
+        "kat 对应 di，dah 对应 sudah；saya kat lobi dah 把 dah 放在分句末尾。",
+        "tak payah rushing 混用马来语与英语，表示不用赶；标准语恢复为 tidak perlu tergesa-gesa。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Awak dah sampai ke? Saya tengah pakai kasut ni.",
+          "ms_standard": "Adakah awak sudah tiba? Saya sedang memakai kasut.",
+          "zh": "你到了吗？我正在穿鞋呢。",
+          "en": "Are you here yet? I'm just putting my shoes on."
+        },
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "yeah, saya kat lobi dah. Turun bila dah siap, tak payah rushing.",
+          "ms_standard": "Ya, saya sudah berada di lobi. Turunlah apabila sudah bersedia; tidak perlu tergesa-gesa.",
+          "zh": "嗯，我已经在大厅了。准备好了再下来，不用赶。",
+          "en": "Yeah, I'm already in the lobby. Come down when you're ready, no rush."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "熟人聊天可随口用 yeah 应答；正式面试、对长辈的郑重答复或公函中，用 Ya、Baik 或完整回应更稳妥，依实际意思选择。",
+    "usage_etiquette": "多语交流时先判断对方是否习惯混用英语，不假定所有族群或年龄层都偏好这种语气。短短一个 yeah 可能仅表示听到了；涉及约定时应补明同意什么，不把它一律解读为明确承诺。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "English（英语）",
+    "root_origin": "来自英语非正式肯定应答词 yeah，与 yes 意义相近；没有证据把它拆成马来语构词单位。",
+    "historical_story": "yeah 的直接来路是英语口语中的肯定应答，一个简短的声音就能表示‘对’或‘我在听’。把它放进马来语与英语交替出现的聊天窗口，便能理解本条所展示的混语用法，但现有资料不足以确定它在马来西亚开始流行的年代。正式马来文仍应按具体意思选择 ya 等对应表达。",
+    "cognitive_memory_aid": "把 yeah 想成聊天里的轻轻点头；要写成正式马来文时，再把这个点头换成 ya。"
+  }
+}

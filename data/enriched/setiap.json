@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "setiap",
+    "syllables": "se.tiap",
+    "ipa": "/səˈtiap/",
+    "jawi": "ستياڤ",
+    "frequency_rank": 189,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tiap",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + tiap → setiap",
+    "pattern_note": "se- 与 tiap 结合，无辅音替换；保留 PRPM 分节 se.tiap，不擅改为另一套语音分节。Jawi 取本地 PRPM，IPA 取本地 Kaikki。",
+    "word_family": [
+      {
+        "word": "tiap",
+        "affix": "none",
+        "gloss": "每；各"
+      },
+      {
+        "word": "tiap-tiap",
+        "affix": "完整重叠",
+        "gloss": "每一个；每逢"
+      },
+      {
+        "word": "setiap",
+        "affix": "se-",
+        "gloss": "每一个；每逢"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "每一个；各个；逐一涵盖某类中的成员。",
+      "ms_definition": "satu-satu drpd banyak, masing-masing",
+      "nuances": "释义逐字取自 Kamus Dewan Edisi Keempat。实际语法功能是 kata bilangan pisahan／限定词；因 Schema 没有 determiner，映射为 adjective，不表示它是普通性质形容词。名词通常不再重叠：setiap murid，而非 setiap murid-murid。",
+      "collocations": [
+        {
+          "ms": "setiap orang",
+          "zh": "每个人",
+          "en": "everyone"
+        },
+        {
+          "ms": "setiap pelajar",
+          "zh": "每名学生",
+          "en": "every student"
+        }
+      ],
+      "en_definition": "Each; every individual member of a group, without exception."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "每逢；每隔相同的时间单位；表示有规律地重复。",
+      "ms_definition": "berurutan atau yg satu mengikuti yg lain (bkn masa), saban",
+      "nuances": "释义逐字取自 Kamus Dewan Edisi Keempat；其中 bkn 是 berkenaan 的缩写，不是口语 bukan。词仍限定后面的时间名词，整个 setiap hari 才作时间状语；词性按 Schema 映射为 adjective。setiap hari 是每天，sepanjang hari 是一整天。",
+      "collocations": [
+        {
+          "ms": "setiap hari",
+          "zh": "每天",
+          "en": "every day"
+        },
+        {
+          "ms": "setiap tahun",
+          "zh": "每年",
+          "en": "every year"
+        }
+      ],
+      "en_definition": "Every; at each occurrence of a specified time or interval."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育新闻 / 培训计划说明",
+      "ms": "Setiap peserta akan menerima latihan keselamatan sebelum program bermula.",
+      "zh": "每名参加者将在活动开始前接受安全培训。",
+      "en": "Each participant will receive safety training before the programme begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友相约上班前吃早餐",
+      "ms_spoken": "Saya sarapan kat sini setiap hari. Nak ikut esok?",
+      "ms_standard": "Saya bersarapan di sini setiap hari. Adakah awak mahu ikut saya esok?",
+      "zh": "我每天都在这里吃早餐。明天要一起吗？",
+      "spoken_features": [
+        "setiap hari 表示每天重复发生的习惯；setiap 在口语中也自然保留完整形式。",
+        "sarapan 在这里口语化地作动词使用，规范表达为 bersarapan；kat 对应 di。",
+        "Nak ikut esok? 省略了主语及跟随对象，语境表明是在邀请对方同行。",
+        "kena 在这里表示‘必须／得’，对应 perlu；Sempat je 带有安抚、表示时间足够的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Zara (朋友)",
+          "ms_spoken": "Saya sarapan kat sini setiap hari. Nak ikut esok?",
+          "ms_standard": "Saya bersarapan di sini setiap hari. Adakah awak mahu ikut saya esok?",
+          "zh": "我每天都在这里吃早餐。明天要一起吗？",
+          "en": "I have breakfast here every day. Want to join me tomorrow?"
+        },
+        {
+          "speaker": "Iman (朋友)",
+          "ms_spoken": "Nak! Selalunya awak sampai pukul berapa? Saya kena masuk kerja pukul lapan.",
+          "ms_standard": "Ya, saya mahu ikut. Biasanya awak sampai pada pukul berapa? Saya perlu mula bekerja pada pukul lapan.",
+          "zh": "要！你一般几点到？我八点得上班。",
+          "en": "I'd love to! What time do you usually get here? I have to be at work by eight."
+        },
+        {
+          "speaker": "Zara (朋友)",
+          "ms_spoken": "Pukul tujuh. Sempat je, kedai ni dekat dengan pejabat awak.",
+          "ms_standard": "Saya sampai pada pukul tujuh. Awak sempat bersarapan kerana kedai ini berdekatan dengan pejabat awak.",
+          "zh": "七点。来得及吃，这家店离你的办公室很近。",
+          "en": "Seven. You'll have time—this place is close to your office."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "stiap",
+      "full_form": "setiap",
+      "note": "随意聊天中省去 e 的写法，正式文本恢复 setiap。"
+    },
+    {
+      "abbr": "stp",
+      "full_form": "setiap",
+      "note": "高度压缩的聊天写法，须有每人／每天等清楚语境；不作为独立标准缩写使用。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "适合通知、服务说明和日常安排；强调逐一覆盖，措辞本身没有身份或族群倾向。",
+    "usage_etiquette": "发布规则时 setiap 表示每个适用者都包括在内；有例外就直接说明。描述个人习惯时，每天与一整天要区分，避免把频率说成持续时间。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay（马来语内部构成）",
+    "root_origin": "所给 Kaikki：se-（一）+ tiap（每、各）；未提供更早的确切词源或首次出现年代。",
+    "historical_story": "setiap 把 se- 的‘一’与 tiap 的‘各’放在一起，让人想到逐个点过人群，而不是只把整群人看成一团。今天的学校通知说 setiap pelajar，年度活动说 setiap tahun，同一构形把‘逐个’带到人和时间上；现有资料不足以把这种用法系于某个具体历史事件。",
+    "cognitive_memory_aid": "脑中逐一点名：一个、一个、再一个，全都点到，就是 setiap；换成日历格子就是 setiap hari。"
+  }
+}

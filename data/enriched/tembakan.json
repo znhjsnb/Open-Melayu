@@ -1,0 +1,137 @@
+{
+  "headword": {
+    "word": "tembakan",
+    "syllables": "tém.ba.kan/tém.baʔ.kan",
+    "ipa": "/tem.ba.kan/; /tem.baʔ.kan/",
+    "jawi": "تيمبقن",
+    "frequency_rank": 906,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tembak",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "tembak + -an → tembakan（射击的结果；枪声）",
+    "pattern_note": "-an 构成表示行为结果的名词；不是 tem- 前缀。音节字段取同批本地原始包 PRPM 定义前的两种标音，保留 é 与 ʔ；Jawi 亦据该未乱码包恢复。IPA 为相应宽式转写，CEFR 为教学分级建议。",
+    "word_family": [
+      {
+        "word": "tembak",
+        "affix": "none",
+        "gloss": "射击；开枪"
+      },
+      {
+        "word": "menembak",
+        "affix": "meN-",
+        "gloss": "射击；开枪，词首 t 脱落"
+      },
+      {
+        "word": "penembak",
+        "affix": "peN-",
+        "gloss": "射手；枪手"
+      },
+      {
+        "word": "penembakan",
+        "affix": "peN-…-an",
+        "gloss": "射击行为；枪击事件"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "射击；一次射出的枪炮火力或射击结果。",
+      "ms_definition": "hasil menembak, letusan senjata api dll. (Kamus Dewan Edisi Keempat)",
+      "nuances": "指射击本身或射出的火力，不是开枪者，也不是子弹这一物件。枪炮发射的次数常用 das 计数，如 dua das tembakan；体育报道也用 tembakan 表示射门，须由上下文判断。",
+      "collocations": [
+        {
+          "ms": "melepaskan tembakan",
+          "zh": "开火；开枪",
+          "en": "open fire"
+        },
+        {
+          "ms": "tembakan amaran",
+          "zh": "警告性射击",
+          "en": "a warning shot"
+        }
+      ],
+      "en_definition": "A shot or discharge from a gun or similar weapon."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "枪声；枪炮发射时的爆响。",
+      "ms_definition": "bunyi letusan senjata api. (Kamus Pelajar Edisi Kedua, makna 2)",
+      "nuances": "强调听到的声音，常与 bunyi、terdengar、kedengaran 连用。听见 tembakan 不等于已经有人中弹；中弹通常说 terkena tembakan。",
+      "collocations": [
+        {
+          "ms": "bunyi tembakan",
+          "zh": "枪声",
+          "en": "the sound of gunfire"
+        },
+        {
+          "ms": "terdengar tembakan",
+          "zh": "听见枪声",
+          "en": "hear gunfire"
+        }
+      ],
+      "en_definition": "The explosive sound of a gun or other firearm being fired."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／警方调查报道（教学例句）",
+      "ms": "Polis sedang menyiasat laporan penduduk yang terdengar beberapa das tembakan berhampiran kawasan perumahan itu malam tadi.",
+      "zh": "警方正在调查居民关于昨晚住宅区附近传出数声枪响的报案。",
+      "en": "Police are investigating reports from residents who heard several gunshots near the housing estate last night."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 室友提醒正在看动作片的对方调低音量",
+      "ms_spoken": "Kau tengok filem apa tu? Bunyi tembakan kuat sangat, sampai bilik aku boleh dengar.",
+      "ms_standard": "Filem apakah yang sedang awak tonton? Bunyi tembakan terlalu kuat sehingga saya dapat mendengarnya dari bilik saya.",
+      "zh": "你在看什么电影？枪声太大了，我在房间里都听得到。",
+      "spoken_features": [
+        "bunyi tembakan 在这里指电影里的枪声，语境明确是电视播放的声音。",
+        "tengok 是日常口语的看，在看电影的语境中标准表达可用 menonton。",
+        "sampai…boleh dengar 表示声音大到某处也听得见，省略了部分连接和地点成分。",
+        "je 对应 sahaja，sorry 是聊天中常见的英语借用。",
+        "kecilkan bunyi TV 指调低电视音量；macam tu 对应 seperti itu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (室友)",
+          "ms_spoken": "Kau tengok filem apa tu? Bunyi tembakan kuat sangat, sampai bilik aku boleh dengar.",
+          "ms_standard": "Filem apakah yang sedang awak tonton? Bunyi tembakan terlalu kuat sehingga saya dapat mendengarnya dari bilik saya.",
+          "zh": "你在看什么电影？枪声太大了，我在房间里都听得到。",
+          "en": "What movie are you watching? The gunfire's so loud I can hear it from my room."
+        },
+        {
+          "speaker": "Rizal (室友)",
+          "ms_spoken": "Filem aksi je. Sorry, aku kecilkan bunyi TV sekarang. Tak sangka kuat sampai macam tu.",
+          "ms_standard": "Saya hanya menonton sebuah filem aksi. Maaf, saya akan mengurangkan kelantangan bunyi televisyen sekarang. Saya tidak menyangka bunyinya sekuat itu.",
+          "zh": "就是一部动作片。不好意思，我现在把电视音量调小。没想到会那么响。",
+          "en": "Just an action movie. Sorry, I'll turn the TV down now. I didn't realise it was that loud."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "这是中性新闻及日常用词。讨论枪击时可直接描述 bunyi tembakan 或 terkena tembakan，避免用玩笑语气形容受害者。",
+    "usage_etiquette": "转述消息时区分听见枪声、发生枪击和有人受伤，勿把猜测写成事实。向陌生人说明情况用 saya 和礼貌称谓，不默认使用 aku、kau。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；本地词源资料追溯至 Proto-Malayic",
+    "root_origin": "tembak + -an；本地 Kaikki 的 tembak 条目经 timbak 追溯至重构形式 *timbak。星号表示语言学重构，非历史文献中的实录拼写。",
+    "historical_story": "马来语以 tembak 表示射击，再加 -an，把动作转成可以计数、描述的 tembakan。把视线从枪炮声转向今天的球场，同一个词也可以落在 tembakan ke arah gol 的报道中：射向目标的动作成为连接枪炮与射门的语义桥梁。",
+    "cognitive_memory_aid": "把 tembak 看成“射”，-an 把动作变成“射出的那一下”：一声枪响就是 satu das tembakan。"
+  }
+}

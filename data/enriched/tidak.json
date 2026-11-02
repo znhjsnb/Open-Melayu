@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "tidak",
+    "syllables": "ti.dak",
+    "ipa": "[ˈti.daʔ]",
+    "jawi": "تيدق",
+    "frequency_rank": 12,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tidak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tidak → tidak",
+    "pattern_note": "现代否定词整词记忆；口语 tidak → tak 为缩短而非加缀。meN- (men-) + tidak + -kan → menidakkan，词首 t 脱落；peN- (pen-) + tidak + -an → penidakan，同样脱落 t。ke- + tidak + seimbang + -an → ketidakseimbangan 是对 tidak seimbang 的名词化，不把 ketidak 当作独立词根。",
+    "word_family": [
+      {
+        "word": "menidakkan",
+        "affix": "meN-...-kan",
+        "gloss": "否认、说不存在或不成立 / deny; negate"
+      },
+      {
+        "word": "penidakan",
+        "affix": "peN-...-an",
+        "gloss": "否认、否定这一行为 / denial; negation"
+      },
+      {
+        "word": "setidak-tidaknya",
+        "affix": "se- + reduplication + -nya",
+        "gloss": "至少、无论如何 / at least; in any case"
+      },
+      {
+        "word": "ketidakseimbangan",
+        "affix": "ke- + tidak + seimbang + -an",
+        "gloss": "不平衡 / imbalance"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "不、没（有）；通常放在动词、形容词及某些助动词前，否定动作、状态或可能性。",
+      "en_definition": "Not; normally negates a verb, adjective, or certain auxiliary predicates.",
+      "ms_definition": "tiada; bukan",
+      "nuances": "所给 DBP《Kamus Pelajar》第二版释义摘录；实际句法不能因此与 bukan 任意互换。tidak datang = 不来／没来，tidak mahal = 不贵，tidak boleh = 不能／不许。普通名词身份用 bukan，如 bukan doktor；归属否定用 bukan milik saya。bukan 也可用于对照纠正，不把规则说成绝无例外。时间由上下文决定，不单靠 tidak 区分过去和现在。",
+      "collocations": [
+        {
+          "ms": "tidak ada",
+          "zh": "没有",
+          "en": "there is no; there are no"
+        },
+        {
+          "ms": "tidak mungkin",
+          "zh": "不可能",
+          "en": "not possible"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "作为简短否定回答，表示不、没有、不是所问的情况；所否定的谓语由前文补出。",
+      "en_definition": "No; a short negative answer with the predicate understood from context.",
+      "ms_definition": "Jawapan ringkas yang menafikan perkara yang ditanya. (Takrif editorial berdasarkan fungsi penafian tidak.)",
+      "nuances": "例如 Sudah siap? — Tidak, belum siap. 日常更自然也可只答 Belum；问 Ini buku awak? 时通常答 Bukan，而不是机械以 Tidak 回答所有 yes/no 问题。固定表达 tidak apa（没关系）和 tidak boleh tidak（非得、必须）须按整体理解。",
+      "collocations": [
+        {
+          "ms": "sama ada ya atau tidak",
+          "zh": "是或者不是",
+          "en": "whether yes or no"
+        },
+        {
+          "ms": "jawab tidak",
+          "zh": "回答‘不’；拒绝",
+          "en": "say no"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 申请受理规定",
+      "ms": "Permohonan yang tidak lengkap tidak akan diproses.",
+      "zh": "资料不完整的申请将不予处理。",
+      "en": "Incomplete applications will not be processed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事解释暂时无法赴约",
+      "ms_spoken": "Saya tak boleh datang hari ni, kerja belum siap lagi lah.",
+      "ms_standard": "Saya tidak boleh datang hari ini kerana kerja saya masih belum siap.",
+      "zh": "我今天来不了啦，工作还没做完。",
+      "en": "I can't make it today; I still haven't finished my work.",
+      "spoken_features": [
+        "tak = tidak，日常口语常用。",
+        "ni = ini；口语省略明确的因果连接词 kerana。",
+        "lah 在这里作解释和缓和；belum...lagi 表示仍未完成，不等于简单过去否定。"
+      ],
+      "messages": [
+        {
+          "speaker": "Salim (警卫)",
+          "ms_spoken": "Encik, kawasan ini tidak boleh masuk ya.",
+          "ms_standard": "Encik, kawasan ini tidak boleh masuk ya.",
+          "zh": "先生，这个区域不能进入哦。",
+          "en": "Sir, you're not allowed in this area."
+        },
+        {
+          "speaker": "Pelawat (访客)",
+          "ms_spoken": "Oh maaf, saya tidak perasan ada papan tanda.",
+          "ms_standard": "Oh maaf, saya tidak perasan ada papan tanda.",
+          "zh": "噢抱歉，我没注意到有指示牌。",
+          "en": "Oh, sorry, I didn't notice the sign."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "tak",
+      "full_form": "tidak",
+      "note": "大马日常口语常用；规范公文通常用完整 tidak，文学对白可保留 tak。"
+    },
+    {
+      "abbr": "tdk",
+      "full_form": "tidak",
+      "note": "省略元音的聊天或速记形式；不是口头读音。"
+    },
+    {
+      "abbr": "x",
+      "full_form": "tidak",
+      "note": "非正式聊天中的否定符号；按上下文也可能相当于 tak 或别的否定表达，不是正式正字法。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "tidak 并非粗话，但单独、硬声地回答 Tidak! 可能显得生硬。对客户或长辈拒绝请求可说 Maaf, saya tidak dapat...；礼貌不只取决于把 tak 换成 tidak。",
+    "usage_etiquette": "否定动作或性质先学 tidak；否定名词身份先学 bukan；表示尚未用 belum；劝阻命令用 jangan。聊天中 tak 自然，但不要把印尼 nggak／enggak、英语 isn't 当作本词的大马常用缩写。"
+  },
+  "etymology": {
+    "origin": "Austronesian (Inherited)",
+    "source_language": "Malay; Proto-Malayic",
+    "root_origin": "Kaikki 将 tidak 联系到早期 tida／tiada，以及原始马来语否定成分 *ti 与存在词 *ada(ʔ)。这是历史分析，现代使用不要求先拆成 ti + ada；所给古碑首见年份未独立核验，故不作确定断言。",
+    "cognitive_memory_aid": "记一组对照：tidak datang（不来）、bukan guru（不是老师）、belum datang（还没来）、jangan datang（别来）。",
+    "historical_story": "tidak 历史上与 tiada（无、没有）同源，属于古代马来语 ti（否定词素）与相关助词复合演变而成的正式否定副词。在现代标准马来语规范语法中，tidak 专门用来否定动词谓语（如 tidak pergi）和形容词谓语（如 tidak cantik），而否定名词短语时则必须使用 bukan，两者构成了马来语体系中严丝合缝的否定对立系统。"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "headword": {
+    "word": "kes",
+    "syllables": "kés",
+    "ipa": "/kes/",
+    "jawi": "کيس",
+    "frequency_rank": 478,
+    "tags": [
+      "CEFR-B1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kes",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kes → kes",
+    "pattern_note": "案件、个案义是英语 case 的整词借入形式；单音节，不含可拆的马来语词缀。音节采用原包正文 [kés]，IPA 为据该读音编写的宽式转写。现金义是另一个口语同形词，不与案件义混成一条语义演变。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "事件；个案；病例，指某一具体发生或被记录的情况。",
+      "ms_definition": "perkara, hal, kejadian",
+      "nuances": "据《Kamus Dewan》第四版第1义。新闻中的 kes rompakan 是抢劫事件或案件，卫生语境中的 kes denggi 是登革热病例；统计的 kes 不一定等于住院人数。",
+      "collocations": [
+        {
+          "ms": "kes rompakan",
+          "zh": "抢劫案件",
+          "en": "robbery case"
+        },
+        {
+          "ms": "kes demam denggi",
+          "zh": "登革热病例",
+          "en": "case of dengue fever"
+        }
+      ],
+      "en_definition": "A particular incident, situation, or recorded instance, including an instance of a disease."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "诉讼案件；涉及法律或衡平法问题的法庭程序。",
+      "ms_definition": "(Udg) prosiding di mahkamah yg melibatkan persoalan undang-undang dan ekuiti",
+      "nuances": "据《Kamus Dewan》第四版第2义，去除断行软连字符并将 undang-undang 的词内连字符规范为普通连字符。可指已经进入司法程序的案件；正在调查的 kes 并不当然意味着已经定罪。",
+      "collocations": [
+        {
+          "ms": "kes jenayah",
+          "zh": "刑事案件",
+          "en": "criminal case"
+        },
+        {
+          "ms": "kes sivil",
+          "zh": "民事案件",
+          "en": "civil case"
+        }
+      ],
+      "en_definition": "A legal proceeding before a court involving questions of law or equity."
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "现金的；以现款支付的，口语中相当于 tunai。",
+      "ms_definition": "bp tunai, kontan",
+      "nuances": "据原包另一条《Kamus Dewan》同形词释义。wang kes 是现金；这是口语用法，正式文件写 wang tunai、bayaran tunai 更清楚，不能把 wang kes 理解成案件款项。",
+      "collocations": [
+        {
+          "ms": "wang kes",
+          "zh": "现金（口语）",
+          "en": "cash"
+        },
+        {
+          "ms": "bayar kes",
+          "zh": "付现款（口语）",
+          "en": "pay in cash"
+        }
+      ],
+      "en_definition": "Cash; paid or payable in cash."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "警方通报 / 治安新闻",
+      "ms": "Polis sedang menyiasat kes rompakan itu dan meminta orang ramai yang mempunyai maklumat supaya tampil membantu siasatan.",
+      "zh": "警方正在调查这起抢劫案，并呼吁掌握线索的公众出面协助调查。",
+      "en": "Police are investigating the robbery case and have urged anyone with information to come forward to assist the investigation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 邻居询问住宅区失窃案的进展",
+      "ms_spoken": "Kes pecah rumah tu dah selesai ke? Saya nampak polis kat depan rumah Pak Din tadi.",
+      "ms_standard": "Adakah kes pecah rumah itu sudah selesai? Saya melihat polis di hadapan rumah Pak Din tadi.",
+      "zh": "那起入室盗窃案解决了吗？我刚才看见警察在丁叔家门口。",
+      "spoken_features": [
+        "kes pecah rumah 指入室盗窃案件，在此不表示现金。",
+        "tu、dah、je 分别对应 itu、sudah、sahaja；句末 ke 构成疑问。",
+        "kat depan 对应 di hadapan；ambil 在标准句中恢复为 mengambil。",
+        "Masih siasat 是省略调查主体的口语短句，标准句明确表达为 Siasatan masih dijalankan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (邻居)",
+          "ms_spoken": "Kes pecah rumah tu dah selesai ke? Saya nampak polis kat depan rumah Pak Din tadi.",
+          "ms_standard": "Adakah kes pecah rumah itu sudah selesai? Saya melihat polis di hadapan rumah Pak Din tadi.",
+          "zh": "那起入室盗窃案解决了吗？我刚才看见警察在丁叔家门口。",
+          "en": "Has that burglary case been solved yet? I saw the police outside Uncle Din's house earlier."
+        },
+        {
+          "speaker": "Faiz (邻居)",
+          "ms_spoken": "Belum lagi. Pak Din kata polis datang ambil rakaman CCTV je tadi. Masih siasat.",
+          "ms_standard": "Belum. Pak Din mengatakan bahawa polis datang hanya untuk mengambil rakaman kamera litar tertutup tadi. Siasatan masih dijalankan.",
+          "zh": "还没有。丁叔说警察刚才只是来拿监控录像，案子还在调查。",
+          "en": "Not yet. Uncle Din said the police just came to collect the CCTV footage earlier. They're still investigating."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "在公开讨论案件时，使用 suspek 等中性身份描述，不把被调查者直接称为罪犯；谈病例也应尊重个人隐私。",
+    "usage_etiquette": "家庭或群聊里谈别人的 kes 容易显得在传播私事，应先考虑是否有必要披露。正式付款沟通用 tunai，避免现金义 kes 与案件义混淆；向当事人或工作人员提问宜用姓名或 tuan/puan。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语（案件、个案义）",
+    "root_origin": "案件、个案义来自英语 case，更早经古法语 cas 追溯到拉丁语 cāsus，原义与发生的事件、情况有关。原包未说明现金义的历史来源，此处不据读音自行确定。",
+    "historical_story": "英语 case 进入马来语后写成简洁的 kes，把一个可以单独讨论的事件或情况框在一起。放到法庭，它是诉讼案件；放到卫生统计，它又能指一个病例，两个场景共享‘一宗具体情况’这一核心。街头付款时的 wang kes 属于另一个口语同形词，不能讲成案件义演变成现金义。",
+    "cognitive_memory_aid": "英语 case → kes：法庭一宗案、医院一个病例；见到 wang kes 时另开一格，理解为现金。"
+  }
+}

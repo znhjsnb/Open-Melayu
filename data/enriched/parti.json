@@ -1,0 +1,138 @@
+{
+  "headword": {
+    "word": "parti",
+    "syllables": "par.ti",
+    "ipa": "[ˈpar.t̪i]",
+    "jawi": "ڤرتي",
+    "frequency_rank": 708,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "parti",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + parti → parti",
+    "pattern_note": "英语借词整体进入马来语，现代不拆成 par- 与 -ti；词尾按马来语拼写写作 i。政治义可派生 berparti、kepartian。",
+    "word_family": [
+      {
+        "word": "berparti",
+        "affix": "ber-",
+        "gloss": "参加政党；按政党组织"
+      },
+      {
+        "word": "kepartian",
+        "affix": "ke-...-an",
+        "gloss": "政党事务；党派性质"
+      },
+      {
+        "word": "parti-parti",
+        "affix": "完全重叠",
+        "gloss": "多个政党；多个派对（依语境）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "政党；具有共同政治目标、纲领或政策的组织。",
+      "ms_definition": "= parti politik satu golongan (kumpulan) orang yg bergerak utk tujuan (dasar dll) yg sama dlm politik",
+      "nuances": "政治报道中 parti 常省略 politik。parti pemerintah 指执政党，parti pembangkang 指反对党；gabungan parti 是政党联盟，不一定是单一政党。",
+      "collocations": [
+        {
+          "ms": "parti pemerintah",
+          "zh": "执政党",
+          "en": "the ruling party"
+        },
+        {
+          "ms": "parti pembangkang",
+          "zh": "反对党",
+          "en": "an opposition party"
+        }
+      ],
+      "en_definition": "An organized group of people with shared political aims and policies."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "派对；为娱乐、庆祝而举行的社交聚会。",
+      "ms_definition": "perjumpaan sosial utk bersuka-sukaan",
+      "nuances": "与政治义靠上下文区分：hari jadi、jemputan 等常提示聚会义。并非每一种 majlis 都适合叫 parti；kenduri、宗教活动和庄重仪式各有自己的称呼。",
+      "collocations": [
+        {
+          "ms": "parti hari jadi",
+          "zh": "生日派对",
+          "en": "a birthday party"
+        },
+        {
+          "ms": "mengadakan parti",
+          "zh": "举办派对",
+          "en": "throw a party"
+        }
+      ],
+      "en_definition": "A social gathering held for enjoyment or celebration."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 选举期间的政策讨论",
+      "ms": "Setiap parti politik digesa mengemukakan cadangan yang jelas bagi menangani peningkatan kos sara hidup.",
+      "zh": "各政党受促提出明确建议，以应对生活成本上涨的问题。",
+      "en": "Every political party is urged to present clear proposals to address the rising cost of living."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两个共同受邀的朋友确认生日派对地点",
+      "ms_spoken": "Parti hari jadi Nina malam ni kat mana eh? Aku tak jumpa mesej alamat tu.",
+      "ms_standard": "Di manakah parti hari jadi Nina akan diadakan pada malam ini? Saya tidak dapat menemukan mesej yang mengandungi alamatnya.",
+      "zh": "Nina今晚的生日派对在哪儿办啊？我找不到那条写着地址的消息了。",
+      "spoken_features": [
+        "parti hari jadi 明确指生日派对，排除了 parti 的“政党”义。",
+        "kat mana 对应 di mana；口语中省略了可由语境补足的 diadakan。",
+        "eh 在这里表示随意询问或寻求对方提醒；kejap 表示稍等片刻。",
+        "forward 是英语夹用，指转发消息；nak…tak 用于询问对方意愿。"
+      ],
+      "messages": [
+        {
+          "speaker": "Alya (朋友)",
+          "ms_spoken": "Parti hari jadi Nina malam ni kat mana eh? Aku tak jumpa mesej alamat tu.",
+          "ms_standard": "Di manakah parti hari jadi Nina akan diadakan pada malam ini? Saya tidak dapat menemukan mesej yang mengandungi alamatnya.",
+          "zh": "Nina今晚的生日派对在哪儿办啊？我找不到那条写着地址的消息了。",
+          "en": "Where's Nina's birthday party tonight again? I can't find the message with the address."
+        },
+        {
+          "speaker": "Sara (朋友)",
+          "ms_spoken": "Kat rumah dia je. Aku forward alamat kejap. Kau nak pergi sekali dengan aku tak?",
+          "ms_standard": "Parti itu diadakan di rumahnya sahaja. Saya akan memajukan mesej yang mengandungi alamat itu sebentar lagi. Adakah awak mahu pergi bersama saya?",
+          "zh": "就在她家。我马上把地址转给你。你要不要跟我一起去？",
+          "en": "Just at her place. I'll forward you the address in a sec. Want to go with me?"
+        },
+        {
+          "speaker": "Alya (朋友)",
+          "ms_spoken": "Nak! Aku tunggu kat lobi rumah aku pukul tujuh, okey?",
+          "ms_standard": "Ya, saya mahu. Saya akan menunggu di lobi bangunan kediaman saya pada pukul tujuh. Adakah itu sesuai?",
+          "zh": "要！我七点在我家楼下大堂等你，可以吗？",
+          "en": "Yes! I'll wait for you in my building's lobby at seven, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "讨论政党时保持具体、尊重，不从一个人的族群或宗教背景推断其党派立场。与陌生人聊天不宜追问投票选择。",
+    "usage_etiquette": "收到 parti 邀请时可询问时间、着装和餐食安排，不预设聚会一定有酒精或某类娱乐活动。标准马来语拼写为 parti；英语 party 属语言切换，不列作短信缩写。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语；更早经法语联系到拉丁语",
+    "root_origin": "借自英语 party；更早经 Anglo-Norman partie 联系到拉丁语分划、部分的词族。马来语采用 parti 拼写，继承政党与社交聚会两种常见意义。",
+    "historical_story": "英语 party 的远源与‘划分出来的一部分’有关，后来既能指有共同立场的一群人，也能指聚在一起娱乐的人。随着英马语言接触，parti 以适合马来语的拼写进入词汇，在政治组织和社交生活中都找到位置。今天读报见到 parti politik，打开生日邀请又见 parti hari jadi，同一个词便在公共事务与日常庆祝之间切换。",
+    "cognitive_memory_aid": "先看‘大家为什么聚在一起’：共同政纲是 parti politik，庆祝生日是 parti hari jadi。"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "mulai",
+    "syllables": "mu.la.i",
+    "ipa": "[muˈla.i]",
+    "jawi": "مولاءي",
+    "frequency_rank": 600,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mula",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "mula + -i → mulai",
+    "pattern_note": "可分析为 mula 加后缀 -i；不能因自动根词字段写 mulai 就忽略构词。依 DBP 音节保留 mu.la.i，末尾 a.i 分节；Jawi 保留原包占位值。",
+    "word_family": [
+      {
+        "word": "mula",
+        "affix": "∅",
+        "gloss": "起点；开始"
+      },
+      {
+        "word": "bermula",
+        "affix": "ber-",
+        "gloss": "开始；起源于"
+      },
+      {
+        "word": "memulakan",
+        "affix": "meN-…-kan",
+        "gloss": "着手开展；开始某事"
+      },
+      {
+        "word": "permulaan",
+        "affix": "per-…-an",
+        "gloss": "开端；起始阶段"
+      },
+      {
+        "word": "pemula",
+        "affix": "peN-",
+        "gloss": "发起者；初学者"
+      },
+      {
+        "word": "semula",
+        "affix": "se-",
+        "gloss": "重新；回到原来状态"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "开始做某事；某种动作或状态开始发生。",
+      "ms_definition": "mula-mula melakukan sesuatu",
+      "nuances": "常接动词，如 mulai bekerja、mulai turun。马来西亚日常也常说 mula；以名词表示被开展的事项时，正式语常用 memulakan，如 memulakan mesyuarat。不要一律把 mulai 判成印尼语专用。",
+      "collocations": [
+        {
+          "ms": "mulai bekerja",
+          "zh": "开始工作",
+          "en": "start working"
+        },
+        {
+          "ms": "mulai beroperasi",
+          "zh": "开始运作；开始营业",
+          "en": "begin operations; open for business"
+        }
+      ],
+      "en_definition": "To begin an action or enter a particular state."
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "从某个时间起；自……开始。",
+      "ms_definition": "sejak (semenjak), dari",
+      "nuances": "标明时间起点，尤其常见于生效日期、营业时间和通知；可接未来时间，不等于只能表示过去持续至今的‘自从’。mulai esok 已足够明确，通常无须再加 dari。",
+      "collocations": [
+        {
+          "ms": "mulai sekarang",
+          "zh": "从现在起",
+          "en": "from now on"
+        },
+        {
+          "ms": "berkuat kuasa mulai",
+          "zh": "自……起生效",
+          "en": "take effect from"
+        }
+      ],
+      "en_definition": "From a specified time onwards."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务公告",
+      "ms": "Waktu operasi baharu kaunter perkhidmatan itu akan berkuat kuasa mulai hari Isnin depan.",
+      "zh": "该服务柜台的新营业时间将从下周一起实施。",
+      "en": "The service counter’s new operating hours will take effect from next Monday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友得知对方调去新分行，商量是否继续一起吃早餐",
+      "ms_spoken": "Esok sarapan kat kedai biasa pukul lapan?",
+      "ms_standard": "Mahukah kamu bersarapan di kedai yang biasa kita kunjungi pada pukul lapan esok?",
+      "zh": "明天八点在老地方吃早餐？",
+      "spoken_features": [
+        "Mulai esok 表示从明天起，采用 mulai 引出时间起点的用法。",
+        "首句省略主语及邀请表达，由语境和问号构成简短邀约；标准对照补全。",
+        "tak、dah、kat、je 分别对应 tidak、sudah、di、sahaja；Tak sempat dah 在本语境中表示往后无法再赶上。",
+        "kerja 在口语中直接作动词，标准对照用 bekerja；baru 表示新的，正式对照采用 baharu。",
+        "kena 在这里表示必须、需要，对应 perlu；je lah 表示接受情况后提出替代安排。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nabil (朋友)",
+          "ms_spoken": "Esok sarapan kat kedai biasa pukul lapan?",
+          "ms_standard": "Mahukah kamu bersarapan di kedai yang biasa kita kunjungi pada pukul lapan esok?",
+          "zh": "明天八点在老地方吃早餐？",
+          "en": "Breakfast at the usual place at eight tomorrow?"
+        },
+        {
+          "speaker": "Farid (朋友)",
+          "ms_spoken": "Tak sempat dah. Mulai esok aku kerja kat cawangan baru, kena keluar awal.",
+          "ms_standard": "Saya tidak akan sempat lagi. Mulai esok, saya akan bekerja di cawangan baharu dan perlu keluar awal.",
+          "zh": "以后这个时间就赶不及了。从明天起我去新分行上班，得早点出门。",
+          "en": "I won't have time for that anymore. I'm working at the new branch from tomorrow, so I'll have to leave earlier."
+        },
+        {
+          "speaker": "Nabil (朋友)",
+          "ms_spoken": "Oh, patutlah. Kita sarapan sama-sama hujung minggu je lah.",
+          "ms_standard": "Oh, patutlah. Kalau begitu, kita bersarapan bersama-sama pada hujung minggu sahaja.",
+          "zh": "哦，难怪。那我们就周末再一起吃早餐吧。",
+          "en": "Oh, that explains it. Let's just have breakfast together at the weekend, then."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "mulai 本身中性，适合通知、报道和日常安排。向客户说明变化时可给出明确日期，比只说 mulai esok 更便于之后查阅。",
+    "usage_etiquette": "正式通知应说明从何时开始及适用事项；聊天中可自然搭配 aku、kat 等熟人口语，但给老师或客户的信息宜用 saya 和标准句式。"
+  },
+  "etymology": {
+    "origin": "未定（Sanskrit / Austronesian）",
+    "source_language": "直接由马来语 mula 派生；mula 的更早来源有不同解释",
+    "root_origin": "可核实的直接构词为 mula + -i。本地 mula 词源记录并列梵语 mūla（根、起源）借入说与原始马来－波利尼西亚语 *mula（种植；开始）继承说，未在此裁定。",
+    "historical_story": "mulai 的直接来路很清楚：马来语 mula 加上 -i，把‘开端’带进开始行动和时间起点的表达。再往前追，现有记录同时提出梵语‘根、起源’和南岛语‘种植、开始’两条解释；无论用哪幅画面助记，现代通知中的 mulai esok 都是在标出事情开始的那一刻，不能把记忆画面当成已证实的传播史。",
+    "cognitive_memory_aid": "把 mula 想成时间轴的起点，接上 -i 成为 mulai：mulai esok，就是把起点放在明天。"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headword": {
+    "word": "you",
+    "syllables": null,
+    "ipa": "[juː]",
+    "jawi": null,
+    "frequency_rank": 384,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "you",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "English you → you（整词借用）",
+    "pattern_note": "英语代词整词进入语码混用，不拆成马来语词根或词缀，也没有需要强行补出的马来语派生词族。原包无官方音节、Jawi，保留 null；IPA 采用英语强读形式作为教学参照，本地说话者的元音时长可不同。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "你；你们。马来语夹杂英语的交谈中，用来称呼对方。",
+      "ms_definition": "Huraian editorial: kata ganti nama diri kedua daripada bahasa Inggeris yang digunakan dalam pertuturan bercampur bahasa, merujuk kepada orang yang diajak bercakap.",
+      "nuances": "原包没有 you 的 Kamus Dewan 定义，此处为编辑释义。聊天里可以搭配马来语语法，如 you dah makan；借用的 you 不自动等于礼貌称呼，也不必表示情侣关系。正式马来语通常按对象改用 anda、tuan、puan 或职衔。",
+      "collocations": [
+        {
+          "ms": "you nak",
+          "zh": "你想要；你要",
+          "en": "you want"
+        },
+        {
+          "ms": "you dah makan",
+          "zh": "你已经吃过了",
+          "en": "you've already eaten"
+        }
+      ],
+      "en_definition": "The English second-person pronoun, used in mixed Malay-English speech to address one or more people."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育报道／语言使用专题",
+      "ms": "Bengkel itu membincangkan penggunaan kata ganti nama ‘you’ dalam perbualan yang mencampurkan bahasa Melayu dengan bahasa Inggeris.",
+      "zh": "该工作坊讨论了马来语与英语混合交谈中代词 you 的使用。",
+      "en": "The workshop discussed the use of the pronoun ‘you’ in conversations that mix Malay and English."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两个熟悉的同事约好一起出门",
+      "ms_spoken": "You dah siap ke? I nak gerak dah ni.",
+      "ms_standard": "Adakah awak sudah bersedia? Saya hendak bertolak sekarang.",
+      "zh": "你准备好了吗？我这就要出发了。",
+      "spoken_features": [
+        "you 和 I 是英语代词嵌入马来语句法的语码混用，在部分城市熟人交谈中常见；标准改写分别采用 awak 和 saya。",
+        "dah 对应 sudah；ke 是口语是非问句标记。",
+        "nak gerak 在这里指准备动身；dah ni 强调马上就要出发。",
+        "kejap 对应 sekejap 或 sebentar；eh 在这里用于招呼对方稍等；kat 对应 di，je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Lina (熟悉的同事)",
+          "ms_spoken": "You dah siap ke? I nak gerak dah ni.",
+          "ms_standard": "Adakah awak sudah bersedia? Saya hendak bertolak sekarang.",
+          "zh": "你准备好了吗？我这就要出发了。",
+          "en": "Are you ready yet? I'm about to head out."
+        },
+        {
+          "speaker": "Maya (熟悉的同事)",
+          "ms_spoken": "Kejap eh, I cari kunci dulu. You tunggu kat bawah je.",
+          "ms_standard": "Tunggu sebentar, ya. Saya hendak mencari kunci dahulu. Awak tunggu sahaja di bawah.",
+          "zh": "等一下啊，我先找钥匙。你就在楼下等。",
+          "en": "Hang on a sec, let me find my keys first. Just wait downstairs."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "u",
+      "full_form": "you",
+      "note": "按英语字母名与 you 的近音省写，常见于私人聊天；为编辑补充，不是原包提供的缩写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "熟人接受 I/you 式混语时可以自然使用；初次接触或与长者、公务人员交谈，优先采用对方认可的称谓，不能假设英语 you 一定比马来语代词更礼貌。",
+    "usage_etiquette": "是否使用 you 取决于双方语言习惯，不按族群推定。正式马来语场景通常用适当的马来语称呼；正式例句中的 you 只是被讨论的语言形式，不是对读者的称呼。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "English",
+    "root_origin": "直接借用英语第二人称代词 you；本词条记录其在马来语混语中的用法，不把它当成传统马来语固有代词。",
+    "historical_story": "you 原本是英语中的第二人称代词，在本地双语交谈里可以直接放进马来语句子，例如 you nak pergi。到了手机聊天，同一个称呼还可按字母音省写成 u；原包没有提供这种混语用法最早出现的年代，不能替它指定某个港口或历史人物。",
+    "cognitive_memory_aid": "熟悉的英语 you，加上马来语 dah、nak，就能听懂很多混语聊天；正式场合再按对象换成合适称呼。"
+  }
+}

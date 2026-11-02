@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "tak",
+    "syllables": "tak",
+    "ipa": "[t̪aʔ]",
+    "jawi": "تق",
+    "frequency_rank": 9,
+    "status": "colloquial"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tidak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tidak → tak (pemendekan)",
+    "pattern_note": "核心否定义是 tidak 的缩短，无派生词缀；末尾 k 常读喉塞音 [ʔ]。tak 为单音节，缓存 [taʔ] 是发音标注。敲击声名词 tak 是另一个独立同形词，不由 tidak 缩成。",
+    "word_family": [
+      {
+        "word": "tidak",
+        "affix": "none",
+        "gloss": "不；否定词的完整形式 / not; full negative form"
+      },
+      {
+        "word": "takkan",
+        "affix": "none",
+        "gloss": "不会；难道；tak akan 的缩合形式 / will not; surely not; contracted tak akan"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "不、没；tidak 的缩短形式，用来否定动词、形容词或相应谓语。",
+      "en_definition": "Not; the shortened form of tidak, used to negate verbs, adjectives, or corresponding predicates.",
+      "ms_definition": "singkatan bagi tidak",
+      "nuances": "DBP《Kamus Dewan》第四版定义。tak tahu（不知道）、tak mahal（不贵）、tak ada（没有）。通常名词身份否定用 bukan，如 Dia bukan guru，不用 tak 机械替换。这里按 Schema 和所给 Kaikki 归 adverb；马来语教学中通常称 kata nafi。",
+      "collocations": [
+        {
+          "ms": "tak boleh",
+          "zh": "不可以；不行",
+          "en": "can't; not allowed"
+        },
+        {
+          "ms": "tak tahu",
+          "zh": "不知道",
+          "en": "don't know"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "在固定表达 tak apa 中表示没关系、不要紧；特定语境也可表示没什么。",
+      "en_definition": "In tak apa: it is all right; never mind; or nothing is the matter, depending on context.",
+      "ms_definition": "tak apa: tidak mengapa; tidak ada apa-apa",
+      "nuances": "DBP《Kamus Dewan》第四版固定搭配。安慰、婉拒或接受道歉时的 tak apa 依语调有不同效果；它不是给 tak 单独增加一个通用的“好”义。",
+      "collocations": [
+        {
+          "ms": "tak apa",
+          "zh": "没关系；不要紧",
+          "en": "it's okay; never mind"
+        },
+        {
+          "ms": "tak apa-apa",
+          "zh": "没什么大碍",
+          "en": "it's nothing serious"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "嗒、笃等敲击声，尤指用石块敲木头一类声音；拟声同形词。",
+      "en_definition": "A tapping or knocking sound, such as a stone striking wood; an onomatopoeic homonym.",
+      "ms_definition": "bunyi spt bunyi orang mengetuk kayu dll dgn batu, bunyi detak",
+      "nuances": "来自所给 DBP《Kamus Dewan》第四版另一条原始定义。与否定词 tak 的缩短关系无关；主词头的 colloquial 标记针对高频否定义。",
+      "collocations": [
+        {
+          "ms": "betul tak",
+          "zh": "对不对？是不是？",
+          "en": "is that right?"
+        },
+        {
+          "ms": "takkan lah",
+          "zh": "不可能吧；难道会是这样",
+          "en": "surely not!"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "规范新闻叙述 / 原样呈现口语引语",
+      "ms": "Ketika ditemu bual, saksi itu berkata, “Saya tak nampak nombor pendaftaran kenderaan tersebut.”",
+      "zh": "接受采访时，该证人说：“我没看见那辆车的车牌号码。”",
+      "en": "When interviewed, the witness said, “I didn't see the vehicle's registration number.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人间婉拒邀约",
+      "ms_spoken": "Aku tak boleh ikut lah, kerja belum siap lagi.",
+      "ms_standard": "Aku tidak dapat ikut kerana kerja masih belum siap.",
+      "zh": "我去不了啦，活儿还没做完。",
+      "en": "I can't come along, I've still got work to finish.",
+      "spoken_features": [
+        "tak = tidak；boleh 在本句表示实际能否参加，标准等义句用 dapat。",
+        "lah 在这里软化拒绝；belum … lagi 强调到现在还没有完成。",
+        "口语省略连接原因的 kerana，标准等义句补出。"
+      ],
+      "messages": [
+        {
+          "speaker": "Adam (室友)",
+          "ms_spoken": "Kau tak makan lagi ke dari tadi?",
+          "ms_standard": "Awak tidak makan lagi kah dari tadi?",
+          "zh": "你从刚才到现在都还没吃吗？",
+          "en": "You still haven't eaten after all this time?"
+        },
+        {
+          "speaker": "Faiz (室友)",
+          "ms_spoken": "Tak lapar sangat pun, satgi aku keluar beli.",
+          "ms_standard": "Tidak lapar sangat pun, sebentar lagi saya keluar beli.",
+          "zh": "不是很饿，待会儿我出去买。",
+          "en": "I'm not that hungry anyway. I'll go out and get something in a bit."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "tak",
+      "full_form": "tidak",
+      "note": "普遍口语缩短；正式论述正文通常用 tidak，保留口语引语时可用 tak。"
+    },
+    {
+      "abbr": "tk",
+      "full_form": "tidak",
+      "note": "聊天中对 tak 的再省写；须结合上下文。"
+    },
+    {
+      "abbr": "x",
+      "full_form": "tidak",
+      "note": "马来语聊天中的否定代号，如 x tahu；不是标准正字法，也不保证每个 x 都表示否定。"
+    },
+    {
+      "abbr": "xde",
+      "full_form": "tidak ada",
+      "note": "表示没有的聊天缩合；包含 ada，不能把整个 xde 只还原成 tak。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "tak 是正常口语，本身不是粗话；对长辈说 Saya tak pasti 可以很礼貌。生硬地单说 Tak! 可能显得拒人于千里，实际效果取决于语调和上下文。",
+    "usage_etiquette": "公文、论文和考试中的正式叙述优先用 tidak；文学对话、真实口语引语可保留 tak。婉拒时补充 maaf 或简短原因，常比机械换成较长词形更有礼貌。"
+  },
+  "etymology": {
+    "origin": "Austronesian (Inherited)",
+    "source_language": "Malay tidak; separate sound-symbolic homonym",
+    "root_origin": "否定义由 tidak 缩短；所给 Kaikki 将其否定词家族追溯至原始马来语 *daʔ 等形式。本批不把这一历史关系当成现代可拆词缀。敲击声名词属拟声同形词，另行理解。",
+    "cognitive_memory_aid": "先记三个高频搭配：tak tahu 不知道、tak ada 没有、tak apa 没关系；正式表达分别回到 tidak tahu、tidak ada、tidak mengapa。",
+    "historical_story": "否定词 tak 产生于日常口语交流中的语音弱化机制，由规范否定词 tidak 经过快速连读省去首音节 ti- 并保留重音末音节而形成。早期主要流行于马来半岛各州民间的口语、民谣和集市交易中（Bahasa Pasar），近代随着大众影视传媒和社交网络的普及，tak 已经彻底融入西马口语的日常表达中，但在正式公文、法律文书与学术答辩中，依旧必须严格使用规范全称 tidak。"
+  }
+}

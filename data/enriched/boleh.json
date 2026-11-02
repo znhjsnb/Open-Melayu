@@ -1,0 +1,174 @@
+{
+  "headword": {
+    "word": "boleh",
+    "syllables": "bo.léh",
+    "ipa": "[bo.leh]",
+    "jawi": "بوليه",
+    "frequency_rank": 19,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "boleh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + boleh → boleh",
+    "pattern_note": "现代基本情态词，不拆成 bo- + leh。meN- (mem-) + boleh + -kan → membolehkan，词首 b 保留；ke- + boleh + -an → kebolehan；ber- + kebolehan → berkebolehan。历史与 beroleh 的联系不构成现代任意缩写规则。",
+    "word_family": [
+      {
+        "word": "membolehkan",
+        "affix": "meN-...-kan",
+        "gloss": "使能够；准许 / enable; permit"
+      },
+      {
+        "word": "kebolehan",
+        "affix": "ke-...-an",
+        "gloss": "能力、本领 / ability; capability"
+      },
+      {
+        "word": "berkebolehan",
+        "affix": "ber- + ke-...-an",
+        "gloss": "有能力、有才干 / capable; talented"
+      },
+      {
+        "word": "seboleh-bolehnya",
+        "affix": "se- + reduplication + -nya",
+        "gloss": "尽可能、尽力 / as far as possible; to the best of one's ability"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "能、能够、可以；表示具备能力，或条件使某事可行。",
+      "en_definition": "Can; be able to; be possible under the circumstances.",
+      "ms_definition": "tidak mustahil utk melakukan sesuatu; dapat",
+      "nuances": "DBP《Kamus Pelajar》第二版；kata bantu ragam 在本 Schema 归 verb。Dia boleh berenang = 他／她会游泳。能力可强调 mampu／pandai，成功做到常用 dapat，三者并非处处可互换。oleh 是另一个词，不能因为字形相近省掉 b。",
+      "collocations": [
+        {
+          "ms": "boleh pergi",
+          "zh": "可以去",
+          "en": "can go"
+        },
+        {
+          "ms": "boleh buat",
+          "zh": "能够做；办得到",
+          "en": "can do it"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "可以、获准；表示得到许可，也用于礼貌请求和表示接受、愿意配合的简短回答。",
+      "en_definition": "May; be allowed to; also used in requests and as an affirmative response of consent.",
+      "ms_definition": "tidak dilarang utk melakukan sesuatu; diberi izin",
+      "nuances": "DBP《Kamus Pelajar》第二版。Boleh saya masuk? = 我可以进来吗？答 Boleh = 可以／没问题。tidak boleh 依情境可为不能或不准；boleh 不一定表示说话人已证明有能力完成。请求别人行动用 Boleh tolong...? 常比直接命令温和。",
+      "collocations": [
+        {
+          "ms": "boleh tahan",
+          "zh": "蛮不错；过得去",
+          "en": "pretty good; not bad"
+        },
+        {
+          "ms": "boleh juga",
+          "zh": "也行；还可以",
+          "en": "that works too; all right"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "获得、取得；古旧的实义动词用法，现代通常用 beroleh 或 memperoleh。",
+      "en_definition": "Acquire; obtain, in obsolete usage.",
+      "ms_definition": "Mendapat atau memperoleh sesuatu. (Takrif editorial berdasarkan Kaikki; penggunaan usang.)",
+      "nuances": "所给 Kaikki 标为 obsolete，不能当作现代日常核心义教。历史阅读中才考虑此义；不是在每个 boleh + 名词 结构中都解作获得。",
+      "collocations": [
+        {
+          "ms": "boleh hasil",
+          "zh": "获得收益（古文用法）",
+          "en": "obtain a return (archaic)"
+        },
+        {
+          "ms": "tidak boleh apa-apa",
+          "zh": "一无所获",
+          "en": "obtain nothing (archaic)"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务 / 线上申请指引",
+      "ms": "Orang ramai boleh mengemukakan permohonan melalui portal rasmi jabatan tersebut.",
+      "zh": "公众可以通过该部门的官方门户提交申请。",
+      "en": "Members of the public may submit applications through the department's official portal."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "同事求助 / 请人临时帮忙",
+      "ms_spoken": "Boleh tolong tengokkan beg saya kejap? Saya nak beli air kat sana.",
+      "ms_standard": "Boleh tolong jagakan beg saya sebentar? Saya hendak membeli minuman di sana.",
+      "zh": "能帮我看一下包吗？我去那边买杯饮料。",
+      "en": "Could you watch my bag for a moment? I'm going over there to get a drink.",
+      "spoken_features": [
+        "kejap 在此相当于 sebentar；nak = hendak；kat 在此对应 di。",
+        "tengokkan 在这里口语表示帮忙看管，规范对应 jagakan。",
+        "air 在此指饮料；口语用买东西的动词原形 beli，规范对应 membeli。"
+      ],
+      "messages": [
+        {
+          "speaker": "Zaki (同事)",
+          "ms_spoken": "Boleh tolong print file ni tak?",
+          "ms_standard": "Boleh tolong cetak fail ini tidak?",
+          "zh": "能帮忙打印这个文件吗？",
+          "en": "Can you help me print this file?"
+        },
+        {
+          "speaker": "Chong (同事)",
+          "ms_spoken": "Boleh, pass kat email saya sekarang.",
+          "ms_standard": "Boleh, hantar ke e-mel saya sekarang.",
+          "zh": "没问题，现在发到我邮箱吧。",
+          "en": "Sure, email it to me now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "blh",
+      "full_form": "boleh",
+      "note": "聊天中省略元音的常见形式；正式拼写用 boleh。"
+    },
+    {
+      "abbr": "bleh",
+      "full_form": "boleh",
+      "note": "非正式拼写，省去中间元音，需据上下文理解。"
+    },
+    {
+      "abbr": "leh",
+      "full_form": "boleh",
+      "note": "口语及聊天可见的缩短；某些混合语句中的 leh 也可能是语气词，不能一律展开。"
+    },
+    {
+      "abbr": "bole",
+      "full_form": "boleh",
+      "note": "省略末尾 h 的聊天写法；不代表规范发音必须省 h。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Boleh tolong...? 是大马跨族群服务及日常互动中自然的请求句式；面对长辈、老师或客户可加入称呼和 terima kasih。加 lah 并不必然礼貌：Boleh lah! 的语气不同，也可能显得敷衍或勉强。",
+    "usage_etiquette": "请许可用 Boleh saya...?，请帮助用 Boleh encik／puan tolong...?。口语答 Boleh, nanti saya semak 表示愿意配合，但若尚未确认可完成，就补充条件；不要把印尼 bisa 的缩写 bsa 列为 boleh 的直接简称。"
+  },
+  "etymology": {
+    "origin": "Austronesian (Inherited; historical analysis)",
+    "source_language": "Earlier Malay; Proto-Malayic (proposed reconstruction)",
+    "root_origin": "Kaikki 将早期 bulih 与 beroleh 联系，并提出追溯至 *mAɣ-ulih 的重建过程。此处标为来源所给的历史分析，不把每一步音变当作已由本批独立证实的定论；现代教学以 boleh 为基本词。",
+    "cognitive_memory_aid": "把两种“可以”并排记：Saya boleh berenang（我会游泳，能力），Boleh saya masuk?（我能进来吗，许可）。",
+    "historical_story": "boleh 的古义为‘获取、得到’，直接见于古马来语派生词 peroleh（获得）以及菲律宾他加禄语同源词 bili（购买、获得）。在古典文献向现代马来语过渡的几个世纪中，‘能够获得某物’的历史意义逐渐虚化演变为表示主观能力与客观许可的情态助动词‘可以、能够’，古老实词义项在现代语中已基本废弃，而口语固定搭配 boleh tahan（不错、过得去）则延续了其肯定能力的衍生色彩。"
+  }
+}

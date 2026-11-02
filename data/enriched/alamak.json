@@ -1,0 +1,95 @@
+{
+  "headword": {
+    "word": "alamak",
+    "syllables": null,
+    "ipa": "[ʔaˈla.maʔ]",
+    "jawi": "الامق",
+    "frequency_rank": 727,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "alamak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + alamak → alamak",
+    "pattern_note": "现代用法把整个词视为独立感叹词，不拆成生产性词缀。schema 未设 interjection，故 pos 用 particle 表示感叹功能；末尾 k 在所给语音记录中读喉塞音 [ʔ]。官方 syllables 字段为空，保留 null；Jawi 从本地 PRPM 原件恢复。CEFR 为教学估计。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "哎呀！糟了！天哪！（表示吃惊、懊恼或发现出了小状况）",
+      "ms_definition": "sr alah mak.",
+      "nuances": "sr 是 kata seru，即感叹词。它常是即时反应，语调决定是惊讶、无奈还是轻微惊慌；不是每次都表示严重危险，也不宜按字面理解成在呼唤母亲。以下为常见反应组合。",
+      "collocations": [
+        {
+          "ms": "alamak, terlupa",
+          "zh": "哎呀，忘了",
+          "en": "Oh no, I forgot!"
+        },
+        {
+          "ms": "alamak, dah lambat",
+          "zh": "糟了，已经迟了",
+          "en": "Oh no, I'm already late!"
+        }
+      ],
+      "en_definition": "An exclamation expressing surprise, dismay, or annoyance, especially at a minor mishap."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化报道／以引语介绍口语表达（自拟）",
+      "ms": "Ungkapan \"alamak\" digunakan dalam pertuturan harian untuk menyatakan rasa terkejut atau kesal.",
+      "zh": "日常口语使用‘alamak’来表达惊讶或懊恼。",
+      "en": "The expression \"alamak\" is used in everyday speech to express surprise or dismay."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友在餐馆会合，一人发现忘带钱包",
+      "ms_spoken": "Alamak, dompet aku tertinggal kat rumah! Kau dah order ke?",
+      "ms_standard": "Alamak, dompet saya tertinggal di rumah! Adakah kamu sudah memesan makanan?",
+      "zh": "哎呀，我钱包落在家里了！你已经点餐了吗？",
+      "spoken_features": [
+        "alamak 表示突然发现小状况时的惊讶和懊恼；它本身是马来语感叹词，标准对应句可以保留。",
+        "aku、kau 用于熟人之间，标准对应句使用 saya、kamu。",
+        "kat、dah、dulu 分别对应 di、sudah、dahulu；句末 ke 构成口语是非问句。",
+        "takpe 是 tidak apa 的口语缩写，此处标准对应句用 tidak mengapa；order、transfer 是聊天中夹用的英语词。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Alamak, dompet aku tertinggal kat rumah! Kau dah order ke?",
+          "ms_standard": "Alamak, dompet saya tertinggal di rumah! Adakah kamu sudah memesan makanan?",
+          "zh": "哎呀，我钱包落在家里了！你已经点餐了吗？",
+          "en": "Oh no, I left my wallet at home! Have you ordered yet?"
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Dah. Takpe, aku bayarkan dulu. Nanti kau transfer je.",
+          "ms_standard": "Saya sudah memesan makanan. Tidak mengapa, saya akan membayar untuk kamu dahulu. Kamu boleh membuat pindahan wang kepada saya kemudian.",
+          "zh": "点了。没事，我先帮你付，之后你转账给我就行。",
+          "en": "Yeah. No worries, I'll cover you for now. Just transfer me the money later."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "适合日常聊天，不属于粗口；正式说明宜直接描述问题，或在报道中以引语呈现这个词。",
+    "usage_etiquette": "别人遭遇严重损失或痛苦时，单独一声 alamak 可能显得回应不足，应补上关心与帮助。它在日常使用中不要求说话者具有特定宗教身份。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语；更早来源存在争议",
+    "root_origin": "DBP 以 alah mak 释义；所给词源另列 Allah + mak、与 Kristang alamah 的可能联系及阿拉伯语短语说，均不能据此定论。origin 仅按现代马来语表达暂归类。",
+    "historical_story": "‘Alah, mak!’仿佛一个人突然发现出了状况时脱口而出的呼声，DBP 也用 alah mak 来解释 alamak。这个形象适合帮助理解今天的语气，但词源材料还列出葡萄牙克里斯坦语接触及阿拉伯语短语等不同解释；资料不足以把其中任何一条南洋语言接触路线写成定史。",
+    "cognitive_memory_aid": "想象出门才发现没带钱包，立刻一拍额头：Alamak! 记住这个反应场景即可，不必把有争议的历史拆词当作事实。"
+  }
+}

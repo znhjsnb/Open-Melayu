@@ -1,0 +1,177 @@
+{
+  "headword": {
+    "word": "banyak",
+    "syllables": "ba.nyaʔ",
+    "ipa": "[ˈba.ɲaʔ]",
+    "jawi": "باڽق",
+    "frequency_rank": 91,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "banyak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + banyak → banyak",
+    "pattern_note": "独立基本词。音节字段照录 PRPM 原释义头 ba.nyaʔ（缓存 syllables 栏为空）；其中 ʔ 表示词尾喉塞音，ny 对应单一鼻音 /ɲ/。数量限定功能在本 schema 中归入 adjective，实际语法类别为 kata bilangan tak tentu；CEFR 标签为教学估级。",
+    "word_family": [
+      {
+        "word": "membanyakkan",
+        "affix": "meN-...-kan",
+        "gloss": "使数量增多；b 前 meN- 变为 mem-"
+      },
+      {
+        "word": "memperbanyak",
+        "affix": "memper-",
+        "gloss": "增加；使更多"
+      },
+      {
+        "word": "kebanyakan",
+        "affix": "ke-...-an",
+        "gloss": "大多数；通常"
+      },
+      {
+        "word": "sebanyak",
+        "affix": "se-",
+        "gloss": "同样多；数量达……"
+      },
+      {
+        "word": "terbanyak",
+        "affix": "ter-",
+        "gloss": "最多的"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "很多；大量，指人、物或不可数事物的数量多。",
+      "ms_definition": "besar jumlahnya. (Kamus Pelajar Edisi Kedua; petikan PRPM, bukan Kamus Dewan.)",
+      "nuances": "置于名词前表示不定数量，如 banyak orang、banyak air；也可作谓语，如 Wangnya banyak。banyak orang 与 ramai orang 都能表示很多人；不可数事物用 banyak，不用 ramai。不是 setiap 或 semua 所表示的全部。",
+      "collocations": [
+        {
+          "ms": "banyak orang",
+          "zh": "很多人",
+          "en": "many people"
+        },
+        {
+          "ms": "banyak masa",
+          "zh": "很多时间",
+          "en": "a lot of time"
+        }
+      ],
+      "en_definition": "Large in number or quantity; many or much."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "很多地；大量地，表示动作发生的量大。",
+      "ms_definition": "Huraian editorial berdasarkan makna jumlah dalam Kamus Pelajar dan glos Kaikki: dalam jumlah yang besar atau dengan banyaknya.",
+      "nuances": "可修饰动作，如 banyak membaca、makan banyak；不自动含过量之意，要明确过量可用 terlalu banyak。terima kasih banyak 表示非常感谢；不要把 banyak 当成可随意替换 sangat 的万能程度副词。",
+      "collocations": [
+        {
+          "ms": "banyak membaca",
+          "zh": "大量阅读",
+          "en": "read a lot"
+        },
+        {
+          "ms": "terima kasih banyak",
+          "zh": "非常感谢",
+          "en": "thank you very much"
+        }
+      ],
+      "en_definition": "In large amounts or to a great degree; a lot."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "数量；数额，常见于询问有多少的结构。",
+      "ms_definition": "jumlahnya; bilangannya. (Kamus Pelajar Edisi Kedua; petikan PRPM, bukan Kamus Dewan.)",
+      "nuances": "主要见于 berapa banyak 等数量结构；询问人数也可用 berapa orang。正式统计可用 jumlah；不能据此把每个表示 quantity 的位置都直接换成裸词 banyak。",
+      "collocations": [
+        {
+          "ms": "berapa banyak wang",
+          "zh": "多少钱；多少资金",
+          "en": "how much money"
+        },
+        {
+          "ms": "berapa banyak air",
+          "zh": "多少水",
+          "en": "how much water"
+        }
+      ],
+      "en_definition": "The amount or number of something, especially in questions about quantity."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共教育报道／新闻书面语（编辑例句）",
+      "ms": "Program tersebut memberi peluang kepada lebih banyak pelajar untuk mendapatkan bimbingan akademik secara percuma.",
+      "zh": "该计划让更多学生有机会免费获得课业辅导。",
+      "en": "The programme gives more students the opportunity to receive academic guidance free of charge."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉同事下班前确认工作进度",
+      "ms_spoken": "Kau balik pukul berapa hari ni? Banyak lagi kerja?",
+      "ms_standard": "Awak akan pulang pada pukul berapa hari ini? Adakah masih banyak kerja yang perlu disiapkan?",
+      "zh": "你今天几点回去？还有很多活儿吗？",
+      "spoken_features": [
+        "banyak lagi kerja 中的 banyak 表示工作量大；回答中的 banyak lagi 省略了双方已知的 kerja。",
+        "kau、aku 是熟人之间的非正式人称代词，标准语还原为 awak、saya。",
+        "haah 表示口语中的肯定回应，对应 ya。",
+        "ni 对应 ini，nak 对应 hendak；lah 使让对方先回去的语气较随和。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (熟悉同事)",
+          "ms_spoken": "Kau balik pukul berapa hari ni? Banyak lagi kerja?",
+          "ms_standard": "Awak akan pulang pada pukul berapa hari ini? Adakah masih banyak kerja yang perlu disiapkan?",
+          "zh": "你今天几点回去？还有很多活儿吗？",
+          "en": "What time are you heading home today? Still got a lot of work to do?"
+        },
+        {
+          "speaker": "Farhan (熟悉同事)",
+          "ms_spoken": "Haah, banyak lagi ni. Kau balik dulu lah, aku nak siapkan laporan ni dulu.",
+          "ms_standard": "Ya, masih banyak kerja yang perlu disiapkan. Awak pulanglah dahulu. Saya hendak menyiapkan laporan ini terlebih dahulu.",
+          "zh": "是啊，还有一大堆呢。你先回吧，我想先把这份报告做完。",
+          "en": "Yeah, loads. You go ahead. I want to finish this report first."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "bnyk",
+      "full_form": "banyak",
+      "note": "聊天省略元音写法；公文及考试用全拼。"
+    },
+    {
+      "abbr": "banyk",
+      "full_form": "banyak",
+      "note": "非正式输入中省略末音节的 a。"
+    },
+    {
+      "abbr": "bnyak",
+      "full_form": "banyak",
+      "note": "非正式输入中省略首音节的 a；可理解，不作为规范拼写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "词本身中性；terima kasih banyak 可用于跨族群日常致谢，正式场合也可说 terima kasih atas bantuan tuan/puan。",
+    "usage_etiquette": "Banyak cakap! 可带有嫌对方话多的斥责，慎用于长辈、客户或初次见面者。人称与称谓按关系选择；称呼陌生人可优先用合适称谓，不因聊天随意就默认用 kau。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "古马来语，经古典马来语传承",
+    "root_origin": "本地 Kaikki 记录古马来语 vañak，碑文形式 vañakña 对应现代 banyaknya；该记录将见证归于公元 683 年 Kedukan Bukit 碑文，见 https://en.wiktionary.org/wiki/banyak#Malay 。",
+    "historical_story": "公元七世纪的 Kedukan Bukit 碑文在记录室利佛逝时代的行程与人数时，已经留下 vañakña 这一古老形式，让今天的 banyaknya 有了可辨认的前身。把碑文里的队伍与今日街市的人群并置，便能感受到这个数量词跨越古典马来语而延续至今的生命力；这里的街市场景是帮助理解的联想，并非关于造词地点的考证。",
+    "cognitive_memory_aid": "想象一排排数不完的货物：banyak 是多，kebanyakan 是大多数，sebanyak 是数量达……；记忆画面不代表历史词根拆分。"
+  }
+}

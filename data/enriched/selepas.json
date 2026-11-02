@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "selepas",
+    "syllables": "se.le.pas",
+    "ipa": "/sə.lə.pas/",
+    "jawi": "سلڤس",
+    "frequency_rank": 251,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lepas",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + lepas → selepas",
+    "pattern_note": "se- 与 lepas 结合，词根拼写不变；整体表示时间上的‘之后’，不能把这里的 se- 机械译成‘一个’。",
+    "word_family": [
+      {
+        "word": "lepas",
+        "affix": "∅",
+        "gloss": "脱离；过去的"
+      },
+      {
+        "word": "berlepas",
+        "affix": "ber-",
+        "gloss": "出发；启程"
+      },
+      {
+        "word": "melepaskan",
+        "affix": "meN-…-kan",
+        "gloss": "释放；放开"
+      },
+      {
+        "word": "terlepas",
+        "affix": "ter-",
+        "gloss": "脱落；错过"
+      },
+      {
+        "word": "pelepasan",
+        "affix": "peN-…-an",
+        "gloss": "释放；离境；减免"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "在某个时间或某项活动之后。",
+      "ms_definition": "sesudah, setelah sudah, setelah selesai",
+      "nuances": "后接时间或活动名词短语，如 selepas mesyuarat；强调时间先后，不表示原因。与 sebelum（之前）相对。",
+      "collocations": [
+        {
+          "ms": "selepas makan",
+          "zh": "饭后",
+          "en": "after a meal"
+        },
+        {
+          "ms": "selepas waktu bekerja",
+          "zh": "下班时间之后",
+          "en": "after working hours"
+        }
+      ],
+      "en_definition": "After a particular time or activity."
+    },
+    {
+      "id": 2,
+      "pos": "conjunction",
+      "zh_definition": "在……发生或完成以后；……之后。",
+      "ms_definition": "sesudah, setelah sudah, setelah selesai",
+      "nuances": "与上一项是同一时间义的不同句法用法；后接从句，如 selepas dia pulang。时间从句放在句首时，后面常用逗号分隔主句。selepas 不要求紧接着发生；‘立刻在……之后’可说 sebaik sahaja。",
+      "collocations": [
+        {
+          "ms": "selepas hujan berhenti",
+          "zh": "雨停以后",
+          "en": "after the rain stops"
+        },
+        {
+          "ms": "selepas mesyuarat tamat",
+          "zh": "会议结束以后",
+          "en": "after the meeting ends"
+        }
+      ],
+      "en_definition": "After something happens or is completed."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 道路开放通告",
+      "ms": "Jalan itu akan dibuka semula selepas kerja pembaikan selesai.",
+      "zh": "该道路将在维修工程完成后重新开放。",
+      "en": "The road will reopen after the repair work is completed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约好吃完饭后去买东西",
+      "ms_spoken": "Kau nak gi kedai tu sekarang ke? Aku lapar lah.",
+      "ms_standard": "Adakah kamu mahu pergi ke kedai itu sekarang? Saya lapar.",
+      "zh": "你要现在去那家店吗？我饿了啦。",
+      "spoken_features": [
+        "selepas makan 表示吃饭这项活动结束之后；selepas 保留标准形式，放在口语对话中也自然。",
+        "gi 是 pergi 的口语缩略；tu = itu；kat 在这里对应 di。",
+        "句末 ke 构成口语疑问；lah 在这里表达轻微抱怨。",
+        "baru 在这里表示先吃饭、然后才去商店的顺序；aku、kau 适用于熟悉的同辈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau nak gi kedai tu sekarang ke? Aku lapar lah.",
+          "ms_standard": "Adakah kamu mahu pergi ke kedai itu sekarang? Saya lapar.",
+          "zh": "你要现在去那家店吗？我饿了啦。",
+          "en": "Are you going to that shop now? I'm hungry."
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Kita makan dulu. Selepas makan nanti, baru kita gi kedai tu.",
+          "ms_standard": "Kita makan dahulu. Selepas makan nanti, barulah kita pergi ke kedai itu.",
+          "zh": "我们先吃饭。等吃完了，再去那家店。",
+          "en": "Let's eat first. We can go to that shop after we've eaten."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ha, boleh. Aku tunggu kau kat kedai makan bawah rumah aku.",
+          "ms_standard": "Baiklah, boleh. Saya menunggu kamu di kedai makan di bawah rumah saya.",
+          "zh": "好啊，可以。我在我家楼下的饭店等你。",
+          "en": "Yeah, sounds good. I'll wait for you at the restaurant downstairs from my place."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "适用于通知、工作交流和朋友聊天，本身没有尊卑色彩。对客户或长辈安排后续事项时，可配合 sila、boleh 或合适称谓。",
+    "usage_etiquette": "selepas makan、selepas solat 都能作时间参照；跨宗教安排活动时，应确认共同时间，不默认所有人参加同一宗教活动。selepas 表示先后关系，约会或工作交接还应说明具体时间，避免让人误以为‘之后’就是马上。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语；词根 lepas 属南岛语继承词",
+    "root_origin": "由 se- + lepas 构成；lepas 的‘过去、完成’义支撑 selepas 的时间意义。",
+    "historical_story": "selepas 由马来语词根 lepas 加上 se- 构成，把‘已过去、已完成’组织成‘在……之后’的时间关系。用海港生活作记忆画面：卸完货再开船，前一件事完成，后一件事才开始。今天，从饭后见面到工程完工后的道路开放，都能用这个词交代先后。",
+    "cognitive_memory_aid": "把一件事想成越过终点线：事情已经 lepas（过去），接下来的时间就是 selepas（之后）。"
+  }
+}

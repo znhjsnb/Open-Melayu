@@ -1,0 +1,117 @@
+{
+  "headword": {
+    "word": "membunuhmu",
+    "syllables": null,
+    "ipa": "/məm.bu.nuh.mu/",
+    "jawi": "ممبونوه",
+    "frequency_rank": 2851,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "membunuh",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "membunuh + -mu → membunuhmu；基础构词：meN- + bunuh → membunuh",
+    "pattern_note": "按输入将 membunuh 保留为直接基础；更底层词根为 bunuh。meN- 在 b 前采用 mem-，b 保留；-mu 是后附代词，此处表示宾语“你”，并非派生后缀。音节字段按输入保留 null，可分析为 mem.bu.nuh.mu。输入 Jawi ممبونوه 仅对应 membunuh，缺少 -mu，不能视为完整词形的已核实拼写。",
+    "word_family": [
+      {
+        "word": "bunuh",
+        "affix": "∅",
+        "gloss": "杀"
+      },
+      {
+        "word": "membunuh",
+        "affix": "meN-",
+        "gloss": "杀死"
+      },
+      {
+        "word": "pembunuh",
+        "affix": "peN-",
+        "gloss": "杀人者；杀灭某物的东西"
+      },
+      {
+        "word": "pembunuhan",
+        "affix": "peN-...-an",
+        "gloss": "杀害行为"
+      }
+    ],
+    "root_jawi": "ممبونوه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "杀死你；使作为受话人的“你”失去生命。",
+      "en_definition": "To kill you; to cause the person being addressed to die.",
+      "ms_definition": "Menghilangkan nyawa kamu; huraian gabungan membunuh dengan kata ganti nama singkat -mu, bukan petikan definisi entri tersendiri.",
+      "nuances": "这是 membunuh 加宾语后附代词 -mu 的组合，词形本身不指定谁实施动作，也不标记时态。DBP 对 membunuh 的核心解释是使生命终止；短代词 -mu 与前面的词连写。status 按指定格式保留 official，但不据此声称 DBP 独立收录了整个组合词形。[DBP：bunuh](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=Bunuh)；[DBP：短代词连写规则](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kamu+nya)",
+      "collocations": [
+        {
+          "ms": "cuba membunuhmu",
+          "zh": "试图杀死你",
+          "en": "to try to kill you"
+        },
+        {
+          "ms": "berniat membunuhmu",
+          "zh": "意图杀死你",
+          "en": "to intend to kill you"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam skrip drama itu, watak utama berkata, “Aku tidak mahu membunuhmu.”",
+      "zh": "在该剧剧本中，主角说道：“我不想杀死你。”",
+      "en": "In the drama script, the main character says, “I don't want to kill you.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah baca skrip tu. Ayat “Aku tak nak membunuhmu” tu memang dramatik.",
+      "ms_standard": "Saya sudah membaca skrip itu. Ayat “Aku tidak mahu membunuhmu” itu memang dramatik.",
+      "zh": "我看过那个剧本了。“我不想杀死你”那句还真有戏剧感。",
+      "en": "I've read the script. That line, “I don't want to kill you,” is pretty dramatic.",
+      "spoken_features": [
+        "dah 相当于 sudah",
+        "tu 相当于 itu",
+        "tak nak 在此相当于 tidak mahu",
+        "-mu 在日常聊天中较有文学或戏剧色彩，常以 awak 或 kau 替代"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (戏剧社朋友)",
+          "ms_spoken": "Aku dah baca skrip tu. Ayat “Aku tak nak membunuhmu” tu memang dramatik.",
+          "ms_standard": "Saya sudah membaca skrip itu. Ayat “Aku tidak mahu membunuhmu” itu memang dramatik.",
+          "zh": "我看过那个剧本了。“我不想杀死你”那句还真有戏剧感。",
+          "en": "I've read the script. That line, “I don't want to kill you,” is pretty dramatic."
+        },
+        {
+          "speaker": "Amir (戏剧社朋友)",
+          "ms_spoken": "Kan? Kalau nak dialog lebih santai, guna “Aku tak nak bunuh kau” je.",
+          "ms_standard": "Betul, bukan? Jika hendak menghasilkan dialog yang lebih santai, gunakan sahaja ayat “Aku tidak mahu membunuh engkau”.",
+          "zh": "对吧？要让台词更口语一点，就用“Aku tak nak bunuh kau”好了。",
+          "en": "Right? For a more casual line, just use “Aku tak nak bunuh kau.”"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "-mu 在这种句式中带有直接、文学或戏剧色彩，并不表示尊敬。整个表达涉及杀害，面向真实对象说出时可能被理解为威胁，不能仅凭熟人关系视为无害玩笑。",
+    "usage_etiquette": "适合在剧情、引语或语言分析中解释。现代日常口语较常说 bunuh kau 或 membunuh awak，具体代词仍须符合人物关系；正式叙述宜明确写出对象。"
+  },
+  "etymology": {
+    "historical_story": "membunuhmu 是可直接分析的组合：bunuh 加主动动词前缀 meN- 成为 membunuh，再接表示受话人的 -mu。这里的意义来自马来语现有构词和代词规则，无须假设一个独立的古代词源；在台词或叙事中，紧接动词的 -mu 使动作对象直接指向“你”。",
+    "cognitive_memory_aid": "分成两格记：membunuh＝杀死，-mu＝你；合起来就是“杀死你”。与 rumahmu（你的房子）比较：-mu 的具体语法作用取决于它连接的词。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "-mu 在这种句式中带有直接、文学或戏剧色彩，并不表示尊敬。整个表达涉及杀害，面向真实对象说出时可能被理解为威胁，不能仅凭熟人关系视为无害玩笑。",
+    "usage_etiquette": "适合在剧情、引语或语言分析中解释。现代日常口语较常说 bunuh kau 或 membunuh awak，具体代词仍须符合人物关系；正式叙述宜明确写出对象。"
+  }
+}

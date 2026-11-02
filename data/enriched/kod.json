@@ -1,0 +1,176 @@
+{
+  "headword": {
+    "word": "kod",
+    "syllables": "kod",
+    "ipa": "/kod/",
+    "jawi": "کود",
+    "frequency_rank": 973,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kod",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kod → kod",
+    "pattern_note": "整词作独立词根，不拆作词缀。编码义的 mengekodkan、pengekodan 使用 menge-、penge-，适配单音节词根，k 保留。音节与 Jawi 采用本地 UTF-8 原包；IPA 是教学宽式标音，原包未提供，非 DBP 实录。CEFR 为教学估级。",
+    "word_family": [
+      {
+        "word": "berkod",
+        "affix": "ber-",
+        "gloss": "有编码的；以代码形式表示的"
+      },
+      {
+        "word": "mengekodkan",
+        "affix": "meN-…-kan（menge-）",
+        "gloss": "编码；编定代码"
+      },
+      {
+        "word": "pengekodan",
+        "affix": "peN-…-an（penge-）",
+        "gloss": "编码过程"
+      },
+      {
+        "word": "pengekod",
+        "affix": "peN-（penge-）",
+        "gloss": "编码者"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "密码；具有特定或隐蔽意义的符号、文字。",
+      "ms_definition": "tulisan dgn tanda dll yg mempunyai erti yg tertentu atau yg tersembunyi (rahsia)",
+      "nuances": "Kamus Dewan 第一义去除排版软连字符后节录。可以涉及保密通信，但并非所有 kod 都保密；登录用的密码通常叫 kata laluan，验证码或一次性码则可叫 kod pengesahan。",
+      "collocations": [
+        {
+          "ms": "tulisan kod",
+          "zh": "密码文字；暗码文字",
+          "en": "coded writing"
+        },
+        {
+          "ms": "kod rahsia",
+          "zh": "秘密代码；暗码",
+          "en": "a secret code"
+        }
+      ],
+      "en_definition": "Writing in signs or symbols that have a particular or secret meaning."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "代码；用于传递信息或向电脑发出指令的符号系统。",
+      "ms_definition": "sistem simbol-simbol utk menyampaikan maklumat atau arahan kpd komputer",
+      "nuances": "Kamus Dewan 第二义去除排版软连字符后节录。可用于电报、颜色标识及电脑领域；kod sumber 指源代码，不能把代码一概译成秘密密码。kod QR 是可读取的编码图形，也不必具有保密性。",
+      "collocations": [
+        {
+          "ms": "kod Morse",
+          "zh": "摩尔斯电码",
+          "en": "Morse code"
+        },
+        {
+          "ms": "kod sumber",
+          "zh": "源代码",
+          "en": "source code"
+        }
+      ],
+      "en_definition": "A system of symbols used to convey information or give instructions to a computer."
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "识别码；用于识别地点、物品等的字母或数字组合。",
+      "ms_definition": "serangkai huruf atau nombor yg digunakan utk mengenal pasti sesuatu tempat, objek, dsb mis kod alamat surat-menyurat",
+      "nuances": "Kamus Dewan 第三义节录。邮政编码通常写成一个词 poskod；kod kawasan 是地区码，kod produk 是产品识别码。代码开头的零也可能有意义，不能随意删去。",
+      "collocations": [
+        {
+          "ms": "kod kawasan",
+          "zh": "地区码",
+          "en": "an area code"
+        },
+        {
+          "ms": "kod produk",
+          "zh": "产品编码",
+          "en": "a product code"
+        }
+      ],
+      "en_definition": "A sequence of letters or numbers used to identify a place, product, or other item."
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "鳕鱼；指鳕科海鱼，通常说 ikan kod。",
+      "ms_definition": "sj ikan laut drpd famili Gadidae, yg minyak drpd hatinya kaya dgn vitamin A dan D",
+      "nuances": "来自资料包 raw_definitions 中 Kamus Dewan 的另一个同形词条，不是由代码义引申。常以 ikan kod 出现；minyak hati ikan kod 是鳕鱼肝油。此同形词不参与 mengekodkan 等编码义派生。",
+      "collocations": [
+        {
+          "ms": "ikan kod",
+          "zh": "鳕鱼",
+          "en": "cod"
+        },
+        {
+          "ms": "minyak hati ikan kod",
+          "zh": "鳕鱼肝油",
+          "en": "cod liver oil"
+        }
+      ],
+      "en_definition": "Cod; a marine fish of the family Gadidae, whose liver oil is rich in vitamins A and D."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务公告 / 数字申请流程",
+      "ms": "Pemohon perlu memasukkan kod pengesahan yang dihantar melalui pesanan ringkas sebelum meneruskan pendaftaran.",
+      "zh": "申请者须输入通过短信发送的验证码，才能继续注册。",
+      "en": "Applicants must enter the verification code sent by text message before continuing with registration."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友已到餐馆，询问如何查看菜单",
+      "ms_spoken": "Aku dah duduk kat meja hujung ni. Menu xde ke?",
+      "ms_standard": "Saya sudah duduk di meja di hujung ini. Adakah tiada menu?",
+      "zh": "我已经坐在最里面这张桌子了。没有菜单吗？",
+      "spoken_features": [
+        "kod QR 指二维码；kod 在这里表示用于编码、传递信息的代码。",
+        "xde 是聊天中对 tak ada 或 tidak ada 的压缩写法；句末 ke 将疑问突出出来。",
+        "kat、tu、ni 分别对应 di、itu、ini；tengok 对应 melihat。",
+        "baru boleh 表示完成前一步后才可以；nak sampai dah 整体表示快到了。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Aku dah duduk kat meja hujung ni. Menu xde ke?",
+          "ms_standard": "Saya sudah duduk di meja di hujung ini. Adakah tiada menu?",
+          "zh": "我已经坐在最里面这张桌子了。没有菜单吗？",
+          "en": "I'm already at the table at the far end. Isn't there a menu?"
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Imbas kod QR kat meja tu dulu, baru boleh tengok menu. Aku nak sampai dah.",
+          "ms_standard": "Imbas kod QR di meja itu terlebih dahulu, barulah kamu boleh melihat menu. Saya hampir tiba.",
+          "zh": "先扫桌上那个二维码，才能看菜单。我快到了。",
+          "en": "You need to scan the QR code on the table first to see the menu. I'm nearly there."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "kod 是中性词，适用于服务柜台、技术说明和日常扫码。求助时可说 Boleh bantu saya mengimbas kod ini?，对工作人员用合适称谓，不随意用 kau。",
+    "usage_etiquette": "先说明是产品码、二维码还是验证码，以免误会；账号验证码属于个人资料，不宜在群聊中公开。食品或商品语境里的 ikan kod 是鳕鱼，与电脑代码无关。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语；代码义对应 code，鳕鱼义对应 cod",
+    "root_origin": "编码义与英语 code 对应，可参见 [DBP code](https://prpm.dbp.gov.my/Cari1?d=43668&keyword=code)；按英语借词及拼写适应分析，资料包未给直接借入年代。鱼名另对应英语 cod，是同形异源词，不把它解释成 code 的意义变化。",
+    "historical_story": "从电报的点与划到电脑指令，编码总是在约定符号与信息之间建立联系，马来语 kod 的现代用法横跨这些场景。它与英语 code 相对应，并以适合马来语的拼写进入 mengekodkan、pengekodan 等构词；餐桌上的 ikan kod 则对应英语 cod，是另一条词源线。",
+    "cognitive_memory_aid": "看到 QR、Morse、komputer，想代码；看到 ikan、hati、餐桌，想鳕鱼。同写 kod，意义靠搭配区分。"
+  }
+}

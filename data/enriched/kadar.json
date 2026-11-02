@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "kadar",
+    "syllables": "ka.dar",
+    "ipa": "/kadar/",
+    "jawi": "قدر",
+    "frequency_rank": 2684,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kadar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kadar → kadar",
+    "pattern_note": "阿拉伯语借词，在现代马来语中作为完整词根使用；开头的 ka- 不是前缀。",
+    "word_family": [
+      {
+        "word": "berkadar",
+        "affix": "ber-",
+        "gloss": "成比例"
+      },
+      {
+        "word": "perkadaran",
+        "affix": "per-...-an",
+        "gloss": "比例关系；按比例的分配或比较"
+      }
+    ],
+    "root_jawi": "قدر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "以某一单位或基准表示的数量关系，即速率、比率或换算率。",
+      "en_definition": "A rate expressing a quantity in relation to a specified unit or reference basis.",
+      "ms_definition": "Ukuran kuantiti sesuatu berbanding dengan unit atau asas tertentu.",
+      "nuances": "重点是带有比较基准的量，例如每年增长百分比或两种货币的兑换关系。报告数字时宜说明单位、期间或基准，避免把 kadar 与没有比较基准的总数 jumlah 混用。核心义依据 [DBP PRPM](https://prpmv1.dbp.gov.my/Search.aspx?k=kadar)。",
+      "collocations": [
+        {
+          "ms": "kadar pertumbuhan",
+          "zh": "增长率",
+          "en": "growth rate"
+        },
+        {
+          "ms": "kadar pertukaran",
+          "zh": "汇率",
+          "en": "exchange rate"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 年度业务汇报",
+      "ms": "Laporan tahunan menunjukkan bahawa kadar pertumbuhan jualan meningkat daripada dua peratus kepada tiga peratus.",
+      "zh": "年度报告显示，销售额增长率从百分之二升至百分之三。",
+      "en": "The annual report shows that the sales growth rate rose from two percent to three percent."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量兑换外币",
+      "ms_spoken": "Kadar pertukaran kat sini okey tak?",
+      "ms_standard": "Adakah kadar pertukaran di sini berpatutan?",
+      "zh": "这里的汇率划算吗？",
+      "en": "Is the exchange rate here any good?",
+      "spoken_features": [
+        "kat sini 对应 di sini。",
+        "句末 tak 用于构成口语疑问。",
+        "dulu lah 在建议中表示先做某事，并使语气较随和。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Aku nak tukar duit sikit. Kadar pertukaran kat sini okey tak?",
+          "ms_standard": "Saya mahu menukar sedikit wang. Adakah kadar pertukaran di sini berpatutan?",
+          "zh": "我想换点钱。这里的汇率划算吗？",
+          "en": "I want to exchange a bit of money. Is the rate here any good?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jom bandingkan dengan kedai sebelah dulu lah.",
+          "ms_standard": "Mari kita bandingkannya dengan kadar di kedai sebelah dahulu.",
+          "zh": "先跟隔壁那家的比一比吧。",
+          "en": "Let's compare it with the place next door first."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "属于中性计量词。询问收费标准时，可用 Boleh saya tahu kadar bayaran?，语气礼貌、直接。",
+    "usage_etiquette": "正式汇报应注明比率的基准。由 2% 升至 3% 是增加一个百分点，马来语可表述为 meningkat sebanyak satu mata peratusan。"
+  },
+  "etymology": {
+    "historical_story": "kadar 借自阿拉伯语 qadr／qadar，相关意义包括分量、程度和尺度。进入马来语后，这种衡量多少的概念体现于能力、数量和比例等用法，也用于现代统计与货币兑换语境。借词来源参见 [Wiktionary](https://en.wiktionary.org/wiki/kadar)，马来语义项参见 [DBP PRPM](https://prpmv1.dbp.gov.my/Search.aspx?k=kadar)。",
+    "cognitive_memory_aid": "想象一把旁边写着基准的量尺：每年多少、每小时多少、一种货币可换多少另一种货币；这个相对于基准的量就是 kadar。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "属于中性计量词。询问收费标准时，可用 Boleh saya tahu kadar bayaran?，语气礼貌、直接。",
+    "usage_etiquette": "正式汇报应注明比率的基准。由 2% 升至 3% 是增加一个百分点，马来语可表述为 meningkat sebanyak satu mata peratusan。"
+  }
+}

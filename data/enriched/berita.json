@@ -1,0 +1,137 @@
+{
+  "headword": {
+    "word": "berita",
+    "syllables": "be.ri.ta",
+    "ipa": "/bərita/",
+    "jawi": "بريتا",
+    "frequency_rank": 471,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "berita",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + berita → berita（消息；新闻）",
+    "pattern_note": "现代马来语中整词为词根，开头 ber- 不是这里的前缀，不可拆成 ber- + ita。音节和 Jawi 直接取自本地 PRPM 原始条目；IPA 为宽式读音，部分半岛口音词尾 a 读作 [ə]。CEFR 标签为教学估级。",
+    "word_family": [
+      {
+        "word": "memberitakan",
+        "affix": "meN-…-kan",
+        "gloss": "报道；告知消息"
+      },
+      {
+        "word": "pemberita",
+        "affix": "peN-",
+        "gloss": "记者；新闻报道者"
+      },
+      {
+        "word": "pemberitaan",
+        "affix": "peN-…-an",
+        "gloss": "报道活动；新闻报道"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "消息；新闻；传达给他人的事件或近况信息。",
+      "ms_definition": "maklumat mengenai sesuatu kejadian (peristiwa, diri sendiri, dll) yg disampaikan (sama ada secara lisan atau dgn surat dsb), khabar, warta",
+      "nuances": "摘自 Kamus Dewan 第四版第一义。既可指媒体新闻，也可指某个人的近况；berita 本身不保证内容属实，仍可说 berita palsu（假消息）。通常是不可数的信息名词，需要计量时可用 satu berita 或 satu laporan berita。",
+      "collocations": [
+        {
+          "ms": "berita terkini",
+          "zh": "最新消息；最新新闻",
+          "en": "the latest news"
+        },
+        {
+          "ms": "berita baik",
+          "zh": "好消息",
+          "en": "good news"
+        }
+      ],
+      "en_definition": "News or information about events or someone's circumstances, communicated to others."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "新闻播报；广播或电视的新闻节目。",
+      "ms_definition": "siaran atau penyampaian berita (melalui televisyen atau radio)",
+      "nuances": "摘自 Kamus Dewan 第四版第二义。menonton berita 常指看电视新闻，mendengar berita 可指听新闻节目，也可依语境指听到某个消息。节目与消息内容要结合动词和媒介判断。",
+      "collocations": [
+        {
+          "ms": "siaran berita",
+          "zh": "新闻播报；新闻节目",
+          "en": "a news broadcast"
+        },
+        {
+          "ms": "berita perdana",
+          "zh": "黄金时段新闻",
+          "en": "prime-time news"
+        }
+      ],
+      "en_definition": "A radio or television programme reporting the news."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "媒体公告 / 信息核实",
+      "ms": "Orang ramai dinasihatkan supaya menyemak kesahihan berita sebelum berkongsinya di media sosial.",
+      "zh": "公众受促在社交媒体分享消息前先核实其真实性。",
+      "en": "Members of the public are advised to verify news before sharing it on social media."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认常去的店是否要关门",
+      "ms_spoken": "Kau dah baca berita kedai Pak Ali nak tutup tu? Betul ke?",
+      "ms_standard": "Adakah kamu sudah membaca berita bahawa kedai Pak Ali akan ditutup? Benarkah berita itu?",
+      "zh": "你看了阿里叔的店要关门的那条消息吗？是真的吗？",
+      "spoken_features": [
+        "kau 和 aku 是熟人之间使用的非正式人称，需符合双方关系。",
+        "dah、tu、je 分别对应 sudah、itu、sahaja。",
+        "句末 ke 构成口语疑问；Betul ke? 在这里追问消息是否属实。",
+        "nak tutup 表示将要关门；tutup terus 在此指永久停业。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Kau dah baca berita kedai Pak Ali nak tutup tu? Betul ke?",
+          "ms_standard": "Adakah kamu sudah membaca berita bahawa kedai Pak Ali akan ditutup? Benarkah berita itu?",
+          "zh": "你看了阿里叔的店要关门的那条消息吗？是真的吗？",
+          "en": "Have you read the news about Uncle Ali's shop closing? Is it true?"
+        },
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Aku baru tanya anak dia. Tutup seminggu je sebab nak baiki bumbung, bukan tutup terus.",
+          "ms_standard": "Saya baru bertanya kepada anaknya. Kedai itu hanya akan ditutup selama seminggu untuk membaiki bumbung, bukannya ditutup secara kekal.",
+          "zh": "我刚问了他孩子。只是为了修屋顶关一个星期，不是永久关门。",
+          "en": "I just asked his kid. It's only closing for a week to fix the roof, not for good."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "brita",
+      "full_form": "berita",
+      "note": "所给口语规则中出现的省略元音写法，仅用于非正式聊天；正式报道和作文保留 berita。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "词本身中性。向别人传达坏消息时可用 Saya ada berita yang kurang baik，先温和提示，再说明事实。",
+    "usage_etiquette": "转发涉及族群、宗教或个人名誉的消息前先核实来源；把听说的内容说成 Saya dengar…，避免以 berita sahih 的口吻把传闻当作事实。涉及他人的近况时也应尊重隐私。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "Sanskrit",
+    "root_origin": "源自梵语 वृत्त（vṛtta），含已发生之事、情况等义；与马来语 warta 属同源借词。",
+    "historical_story": "在马来世界与南亚长期交往的文化背景中，梵语表示事情、情况的 vṛtta 留下了 berita 这一借词，记录的是‘发生了什么’。从口头传来的近况到报纸、广播和电视里的新闻，同一个词把传递消息这件事延续到了现代媒体。",
+    "cognitive_memory_aid": "把 berita 连到‘别人传来的新消息’：berita baik 是好消息，siaran berita 是播新闻；不要把开头误拆成 ber-。"
+  }
+}

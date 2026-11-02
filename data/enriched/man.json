@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "man",
+    "syllables": "man",
+    "ipa": "/man/",
+    "jawi": "من",
+    "frequency_rank": 843,
+    "tags": [
+      "CEFR-B2",
+      "书面常见"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "man",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + man → man（重量单位）；paman → man（称谓缩略）",
+    "pattern_note": "重量单位义按独立词处理；称谓义是 paman 的截短形式，不是加词缀派生，两义没有可证明的共同词根。官方音节照录，Jawi 保留损坏问号；IPA 为宽式推写。CEFR 为阅读历史词汇的教学估级，词频名次不代表这两个马来语义项都高频。",
+    "word_family": [
+      {
+        "word": "paman",
+        "affix": "∅（称谓义的完整形式）",
+        "gloss": "叔伯舅辈男性亲属；叔叔"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一种传统重量单位，按本词典所指约为 80 磅，即 36.3 千克。",
+      "ms_definition": "sj ukuran berat (yg beratnya lebih kurang 80 paun atau 36.3 kilogram).",
+      "nuances": "所给 Kamus Dewan 第一义原文。现代交易主要用公制；此处给出的是该词典中的近似值，不能据此断言各地同名旧单位完全相同。下面是历史计量语境中可用的组合，并非已证实的当代高频搭配；也不能按英语 man 译为男人。",
+      "collocations": [
+        {
+          "ms": "satu man beras",
+          "zh": "一 man 的米，传统重量表达",
+          "en": "one man of rice"
+        },
+        {
+          "ms": "berat satu man",
+          "zh": "重量为一 man",
+          "en": "weighing one man"
+        }
+      ],
+      "en_definition": "A traditional unit of weight equal to approximately 80 pounds or 36.3 kilograms."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "叔叔；伯伯；舅舅等，paman 的简称。",
+      "ms_definition": "singkatan bagi paman.",
+      "nuances": "所给 Kamus Dewan 第二义原文。具体亲属关系由家庭语境决定，不能仅靠 man 区分父系母系或长幼。马来西亚不少家庭更常用 pak cik 或既定的亲属称呼，man 不是适用于所有族群和家庭的默认称谓；大写 Man 也可能只是人名短式，应凭上下文判断。",
+      "collocations": [
+        {
+          "ms": "rumah man",
+          "zh": "叔叔家，家庭内部用法",
+          "en": "uncle's house"
+        },
+        {
+          "ms": "man dan mak cik",
+          "zh": "叔叔和阿姨，依家庭称呼习惯使用",
+          "en": "uncle and auntie"
+        }
+      ],
+      "en_definition": "Uncle; a shortened form of paman."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化专栏／传统度量衡介绍",
+      "ms": "Dalam glosari ukuran tradisional itu, man diterangkan sebagai unit berat yang bersamaan dengan kira-kira 36.3 kilogram.",
+      "zh": "该传统度量衡词汇表将 man 解释为一种重量单位，约等于 36.3 千克。",
+      "en": "In the glossary of traditional measures, man is described as a unit of weight equivalent to approximately 36.3 kilograms."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 惯用 paman 简称 man 的家庭中，姐弟安排接待叔叔",
+      "ms_spoken": "Esok man nak datang rumah kita, kan? Aku nak beli kuih sikit.",
+      "ms_standard": "Esok paman akan datang ke rumah kita, bukan? Saya mahu membeli sedikit kuih.",
+      "zh": "叔叔明天要来我们家，对吧？我想买点糕点。",
+      "spoken_features": [
+        "man 在这里是该家庭惯用的亲属称呼，为 paman 的简称，不是英语 man，也不是重量单位。",
+        "这一称呼有家庭或地域使用限制，不能推广为所有马来西亚家庭的通用叫法。",
+        "第一句中的两个 nak 分别表示将要和想要；datang rumah 省略了标准表达中的 ke。",
+        "haah 表示肯定回应；je、tu 对应 sahaja、itu；buat air 在这里指准备饮料。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Esok man nak datang rumah kita, kan? Aku nak beli kuih sikit.",
+          "ms_standard": "Esok paman akan datang ke rumah kita, bukan? Saya mahu membeli sedikit kuih.",
+          "zh": "叔叔明天要来我们家，对吧？我想买点糕点。",
+          "en": "Uncle's coming over tomorrow, right? I want to buy some snacks."
+        },
+        {
+          "speaker": "Hakim (弟弟)",
+          "ms_spoken": "Haah, lepas Zohor katanya. Beli karipap je, man suka yang tu.",
+          "ms_standard": "Ya, paman mengatakan bahawa beliau akan datang selepas waktu solat zuhur. Beli sahaja karipap kerana paman menyukainya.",
+          "zh": "对，他说晌礼后过来。买咖喱角就好，叔叔喜欢吃那个。",
+          "en": "Yeah, he said after midday prayers. Just get some curry puffs—Uncle likes those."
+        },
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Okey, nanti kau tolong buat air, ya.",
+          "ms_standard": "Baiklah, nanti tolong sediakan minuman, ya.",
+          "zh": "好，那到时你帮忙准备饮料啊。",
+          "en": "Okay, you help make the drinks when he comes, yeah?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "man",
+      "full_form": "paman",
+      "note": "DBP 收录的称谓简称，属于词语截短，不专指短信拼写；与重量单位 man 是不同义项。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "重量单位义属历史计量用语；称谓义则依家庭习惯，具有亲近语气。初次见面应沿用对方认可的称谓，不能见到年长男性就直接叫 man。",
+    "usage_etiquette": "涉及旧账簿或货物重量，换算时写明地域、时期和采用的标准。称谓中的 man、姓名简称 Man 和英语插入语 man 需要分别理解，不能用同一个中文译词覆盖。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay（paman 的简称）；重量单位的直接来源未核实",
+    "root_origin": "称谓义可直接确定为 paman → man；origin 仅标示这条马来语缩略关系。重量单位义未有足够材料确定借入语言，不能仅凭与其他地区 man、mann 相似便断言来自阿拉伯语或波斯语。",
+    "historical_story": "man 在词典里保留了两幅不同的生活画面：一边是以旧单位计算货物重量的记录，一边是家人把 paman 缩成亲近的称呼。如今前者主要需要在历史度量衡语境中辨认，后者仍须放回家庭称呼习惯理解；两义的年代和单位名称的传播路线尚未核实。",
+    "cognitive_memory_aid": "看见数字和公斤，就想旧秤上的 man；看见家庭称呼，就把 man 补回 paman，两条线分开记。"
+  }
+}

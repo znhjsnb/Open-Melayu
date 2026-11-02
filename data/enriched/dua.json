@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "dua",
+    "syllables": "dua",
+    "ipa": "[du.a]",
+    "jawi": "دوا",
+    "frequency_rank": 144,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dua",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dua → dua",
+    "pattern_note": "独立数词。音节字段按 PRPM 原样保留 dua；采用 [du.a] 的标准语音标，标明两个元音分属音节，不将官方字段擅改为 du.a。",
+    "word_family": [
+      {
+        "word": "berdua",
+        "affix": "ber-",
+        "gloss": "两人一起"
+      },
+      {
+        "word": "berdua-dua",
+        "affix": "ber- + 重叠",
+        "gloss": "每次两个；两人一组"
+      },
+      {
+        "word": "berdua-duaan",
+        "affix": "ber-…-an + 重叠",
+        "gloss": "只有两人在一起"
+      },
+      {
+        "word": "kedua",
+        "affix": "ke-",
+        "gloss": "第二"
+      },
+      {
+        "word": "kedua-dua",
+        "affix": "ke- + 重叠",
+        "gloss": "两个都；两者"
+      },
+      {
+        "word": "menduakan",
+        "affix": "meN-…-kan",
+        "gloss": "使成为两个；对伴侣不忠"
+      },
+      {
+        "word": "seperdua",
+        "affix": "se- + per-",
+        "gloss": "二分之一"
+      },
+      {
+        "word": "pendua",
+        "affix": "peN-",
+        "gloss": "副本；备用品"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "二；两；数字 2。",
+      "ms_definition": "(jumlah) satu dicampur satu; bilangan di antara satu dgn tiga; 2. (Kamus Pelajar Edisi Kedua)",
+      "nuances": "语法上是 kata bilangan tentu（确定数词）；当前格式没有 numeral 类别，借用 noun 标签。数人常说 dua orang，数书常说 dua buah buku；dua belas＝12，dua puluh＝20，第二是 kedua。释义来自资料包中的《Kamus Pelajar》，不冒称《Kamus Dewan》原文。",
+      "collocations": [
+        {
+          "ms": "dua orang anak",
+          "zh": "两个孩子",
+          "en": "two children"
+        },
+        {
+          "ms": "dua puluh minit",
+          "zh": "二十分钟",
+          "en": "twenty minutes"
+        }
+      ],
+      "en_definition": "Two; the number equal to one plus one."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 活动报道",
+      "ms": "Sebanyak dua buah sekolah telah dipilih untuk menyertai program rintis itu.",
+      "zh": "共有两所学校获选参与该试点计划。",
+      "en": "Two schools have been selected to take part in the pilot programme."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 妹妹买早餐时询问姐姐要买多少",
+      "ms_spoken": "Kak, ni kat gerai nasi lemak. Nak berapa bungkus?",
+      "ms_standard": "Kakak, saya sekarang berada di gerai nasi lemak. Kakak mahu berapa bungkus?",
+      "zh": "姐，我现在在椰浆饭摊。你要几包？",
+      "spoken_features": [
+        "dua 表示数量“二、两”；dua bungkus 通过包装量词 bungkus 表示“两包”。",
+        "Kak 是对姐姐的简短称呼；akak 是 kakak 的口语形式，姐姐也可以用它自称。",
+        "ni kat ... 是聊天中省略主语的位置表达；标准句补成 saya sekarang berada di ...。",
+        "Sambal asing 是点餐时简短的“辣酱另装”要求；句末 tau 用于提醒，ya 用于缓和请求语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (妹妹)",
+          "ms_spoken": "Kak, ni kat gerai nasi lemak. Nak berapa bungkus?",
+          "ms_standard": "Kakak, saya sekarang berada di gerai nasi lemak. Kakak mahu berapa bungkus?",
+          "zh": "姐，我现在在椰浆饭摊。你要几包？",
+          "en": "Sis, I'm at the nasi lemak stall. How many packets do you want?"
+        },
+        {
+          "speaker": "Mira (姐姐)",
+          "ms_spoken": "Tolong beli dua bungkus ya. Satu untuk akak, satu lagi untuk mak. Sambal asing tau, mak tak tahan pedas.",
+          "ms_standard": "Tolong beli dua bungkus, satu untuk kakak dan satu lagi untuk ibu. Minta sambal dibungkus secara berasingan kerana ibu tidak tahan makanan pedas.",
+          "zh": "帮忙买两包呀，一包给姐姐，一包给妈妈。记得让摊主把参巴辣酱另装，妈妈吃不了辣。",
+          "en": "Get two packets, please. One for me and one for Mum. Ask for the sambal on the side, okay? Mum can't handle spicy food."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "dua 本身中性，适用于所有族群和场合；礼貌由整句请求和称呼决定，如 Tolong beri saya dua bungkus。",
+    "usage_etiquette": "向店员点餐时说明数量和份量，如 dua bungkus（两包）、dua gelas（两杯）。berdua 表示两人同行，不自动表示恋人关系；kedua-dua 表示两者都，与序数 kedua 不同。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayic / Proto-Malayo-Polynesian / Proto-Austronesian",
+    "root_origin": "Proto-Malayic *dua(ʔ) ← Proto-Malayo-Polynesian *duha ← Proto-Austronesian *duSa；是继承数词，不能因外形相近就说来自梵语。",
+    "historical_story": "dua 是南岛语族传下来的基本数词，资料包指出公元 683 年的古马来语 Kedukan Bukit 铭文已有这一形式。想象从古代记数量到今天点两包饭：社会生活变了，‘一加一’这个最基本的计数单位仍沿用同一个词。",
+    "cognitive_memory_aid": "竖起两根手指说 dua；再把 dua belas＝12、dua puluh＝20、berdua＝两人一起连成一组记。"
+  }
+}

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f5f7">
+  <meta name="description" content="Open-Melayu：15,000 个马来语核心词汇的认知学习词典。掌握代数构词公式，熟悉双场景平行语料，避免社交称谓避坑，理解深层词源。">
+  <title>Open-Melayu · 把马来语读懂</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230071e3'/%3E%3Cpath d='M7 9q5-2 9 1 4-3 9-1v15q-5-2-9 1-4-3-9-1Zm9 1v15' fill='none' stroke='white' stroke-width='1.7' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">跳至词条内容</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Open-Melayu 首页">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M3 4.5c3-1 6-.5 9 1.5 3-2 6-2.5 9-1.5v15c-3-1-6-.5-9 1.5-3-2-6-2.5-9-1.5Z"/><path d="M12 6v15"/></svg>
+      </span>
+      <span>Open-Melayu<small>把马来语读懂</small></span>
+      <span class="edition">15K</span>
+    </a>
+    <nav aria-label="学习工具">
+      <button class="nav-button" id="daily" aria-label="每日一词" aria-haspopup="dialog" aria-controls="study" title="每日一词">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        <span class="nav-label">每日一词</span>
+      </button>
+      <button class="nav-button" id="practice" aria-label="抽认卡" aria-haspopup="dialog" aria-controls="study" title="抽认卡片">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="7" width="16" height="14" rx="3"/><path d="M17 3H6a3 3 0 0 0-3 3v11M9 12h8m-8 4h5"/></svg>
+        <span class="nav-label">抽认卡片</span>
+      </button>
+      <span class="nav-divider"></span>
+      <button class="icon-button" id="theme" aria-label="切换深色主题" title="切换主题">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 14A9 9 0 0 1 10 3.2 9 9 0 1 0 20.8 14Z"/></svg>
+      </button>
+      <button class="nav-button focus-button" id="focus" aria-label="沉浸阅读" aria-pressed="false" title="沉浸阅读">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg>
+        <span class="nav-label">沉浸阅读</span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="workspace">
+    <aside id="word-sidebar" class="sidebar" aria-label="查词">
+      <div class="search-area">
+        <div class="sidebar-heading">
+          <h1>发现一个词</h1>
+          <span>马来语认知词典</span>
+        </div>
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input id="search" type="search" placeholder="搜索马来词、中文、Jawi 或 #root:词根" aria-label="搜索马来词、中文、Jawi 或 #root:词根" autocomplete="off" spellcheck="false" maxlength="120" aria-controls="word-list" aria-describedby="search-help">
+          <button id="clear" class="clear-button" aria-label="清除搜索" hidden>×</button>
+          <kbd id="search-key">/</kbd>
+        </div>
+        <p id="search-help">↑↓ 切换词条 · Enter 开始阅读 · 搜 #root:ajar 找同族词</p>
+        <div id="filters" class="filters" role="group" aria-label="词库范围">
+          <button class="filter-pill active" data-filter="">全部 (15K)</button>
+          <button class="filter-pill" data-filter="enriched">★ 8维精编</button>
+          <button class="filter-pill" data-filter="root">词根</button>
+          <button class="filter-pill" data-filter="colloquial">口语缩写</button>
+        </div>
+        <div id="alphabet-bar" class="alphabet-bar" role="group" aria-label="字母快速直达"></div>
+      </div>
+
+      <div class="results-meta">
+        <span id="result-count" role="status">正在准备词库…</span>
+        <button id="bookmarks" class="bookmark-filter" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9Z"/></svg>我的收藏 <span id="bookmark-count">0</span>
+        </button>
+        <span id="search-time"></span>
+      </div>
+
+      <div class="list-controls">
+        <select id="sort-order" aria-label="排序方式">
+          <option value="rank">语料词频高频排序</option>
+          <option value="alpha">A–Z 字母排序</option>
+        </select>
+      </div>
+
+      <div id="word-list" class="word-list" role="listbox" aria-label="词条结果" tabindex="0" aria-busy="true"></div>
+      <div class="list-status" role="status"><span id="list-status">正在准备词库…</span></div>
+
+      <div class="page-jumper" role="group" aria-label="页码跳转">
+        <button id="page-prev" class="page-nav-btn" aria-label="上一页" disabled>◀</button>
+        <label class="page-input-label">第 <input id="page-input" type="number" min="1" max="300" value="1" aria-label="页码" disabled> <span id="page-total">/ 300 页</span></label>
+        <button id="page-next" class="page-nav-btn" aria-label="下一页" disabled>▶</button>
+      </div>
+
+      <footer class="sidebar-footer">
+        <span id="connection"><i></i> 正在载入</span>
+        <span class="engine-badge">0算力纯本地</span>
+      </footer>
+    </aside>
+
+    <div id="resizer" class="resizer" role="separator" aria-orientation="vertical" aria-label="调整侧边栏宽度" aria-controls="word-sidebar" tabindex="0" title="拖动调整宽度"></div>
+
+    <section id="content" class="content" tabindex="-1" aria-label="词条详情" aria-busy="true">
+      <div class="content-toolbar" role="group" aria-label="词条工具">
+        <button id="back" class="text-button mobile-only">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>返回词表
+        </button>
+        <span id="breadcrumb">词典 / 开始探索</span>
+        <div id="toolbar-pinned-word" class="toolbar-pinned-word" hidden></div>
+        <div class="lang-switch" role="group" aria-label="语言模式">
+          <button id="lang-bilingual" class="lang-pill" aria-pressed="true" title="中马双语对照">中马双语</button>
+          <button id="lang-ms" class="lang-pill" aria-pressed="false" title="纯马来语沉浸">Bahasa Melayu</button>
+        </div>
+        <span class="toolbar-actions">
+          <button id="typography-btn" class="text-button typography-trigger" aria-label="阅读排版" aria-haspopup="dialog" aria-controls="typography-panel" title="阅读排版">
+            <svg class="typography-glyph" viewBox="0 0 28 24" aria-hidden="true"><text x="1" y="19">a</text><text x="12" y="19" class="glyph-capital">A</text></svg>
+            <span>排版</span>
+          </button>
+          <button id="save" class="icon-button" aria-label="收藏单词" aria-pressed="false" disabled>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9Z"/></svg>
+          </button>
+          <button id="copy" class="icon-button" aria-label="复制词条 Markdown" title="复制词条 Markdown" disabled>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M15 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3"/></svg>
+          </button>
+          <button id="copy-anki" class="text-button" aria-label="复制 Anki 卡片" title="复制 Anki TSV" disabled>Anki</button>
+        </span>
+      </div>
+
+      <article id="detail" class="entry">
+        <div class="welcome">
+          <span class="welcome-glyph">🇲🇾</span>
+          <h2>每一个词，都有来处。</h2>
+          <p>正在为你打开 15,000 个马来语词汇的认知世界…</p>
+        </div>
+      </article>
+
+      <footer class="reading-footer">
+        <span>Open-Melayu 15K</span>
+        <span>代数构词 · 8维精编 · 双场景语料 · 语用避坑 · 词源深挖</span>
+      </footer>
+    </section>
+  </main>
+
+  <dialog id="typography-panel" class="typography-popover" aria-labelledby="typography-title">
+    <div class="typography-heading">
+      <div>
+        <span class="small-label">让阅读合你心意</span>
+        <h2 id="typography-title">阅读排版</h2>
+      </div>
+      <button id="typography-close" class="icon-button" aria-label="关闭排版面板">×</button>
+    </div>
+    <fieldset>
+      <legend>字号</legend>
+      <div class="typography-size">
+        <button id="typography-decrease" aria-label="缩小字号">A−</button>
+        <output id="typography-scale" aria-live="polite">100% · 标准</output>
+        <button id="typography-increase" aria-label="放大字号">A+</button>
+      </div>
+    </fieldset>
+    <button id="typography-reset" class="text-button typography-reset">恢复默认排版</button>
+  </dialog>
+
+  <dialog id="study" class="study-dialog" aria-labelledby="study-title">
+    <div class="drawer-heading">
+      <div>
+        <span class="small-label" id="study-kind">每日认知练习</span>
+        <h2 id="study-title">抽认卡片</h2>
+      </div>
+      <button id="close-study" class="icon-button" aria-label="关闭学习抽屉">×</button>
+    </div>
+    <div class="study-stats">
+      <div><strong id="study-known-count">0</strong><span>已掌握</span></div>
+      <div><strong id="study-total-count">0</strong><span>总卡片数</span></div>
+    </div>
+    <p id="study-progress" class="study-progress" role="status">准备开始...</p>
+    <div class="study-body">
+      <div id="flashcard" class="flashcard">
+        <div class="card-front">
+          <span class="small-label">先想一想它的构词与意思</span>
+          <strong id="card-word">...</strong>
+          <span id="card-jawi" class="jawi-text" dir="rtl"></span>
+          <span id="card-phonetic"></span>
+          <span class="flip-hint">点击翻开 ↻</span>
+        </div>
+        <div class="card-back" hidden>
+          <span class="small-label">释义与代数公式</span>
+          <div id="card-meaning"></div>
+          <span class="flip-hint">点击翻回词面 ↻</span>
+        </div>
+      </div>
+      <div class="study-controls">
+        <button id="study-again" class="secondary-button">再看一次</button>
+        <button id="study-known" class="primary-button">记住了 ✓</button>
+      </div>
+      <div style="text-align: center; margin-top: 14px;">
+        <button id="study-open" class="text-button study-open">在词典中细读 ➔</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript>请启用 JavaScript 以使用本地离线词典检索。</noscript>
+</body>
+</html>

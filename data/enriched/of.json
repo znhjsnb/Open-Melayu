@@ -1,0 +1,122 @@
+{
+  "headword": {
+    "word": "of",
+    "syllables": null,
+    "ipa": "/əv/",
+    "jawi": null,
+    "frequency_rank": 730,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "of",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + of → of",
+    "pattern_note": "这是语料中的英语介词，常随英文片段或专名出现，并非已证实的马来语借词。没有马来语词缀或词族；官方音节和 Jawi 缺失，保留 null。IPA 标英语常见弱读 /əv/，强调时可读 /ɒv/；CEFR-A1 是英语识别难度估计，日常高频标签仅指所给混合语料。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "（英语）表示所属、关联或整体中的某个位置，常相当于‘……的’。",
+      "ms_definition": "Huraian editorial bagi kata sendi bahasa Inggeris, bukan petikan Kamus Dewan: menghubungkan sesuatu dengan pemilik, perkara atau keseluruhan yang berkaitan dengannya.",
+      "nuances": "英语词义参考 Cambridge：https://dictionary.cambridge.org/dictionary/english/of 。包内 Age of Empires 是英语游戏名称，不是马来语 of 的词典用例。马来语所属关系常直接并置名词，如 tajuk buku；不应机械插入 of 或把每个 of 都译为 daripada。以下为英语搭配识别例。",
+      "collocations": [
+        {
+          "ms": "the title of the book",
+          "zh": "书名（英语片段；马来语：tajuk buku）",
+          "en": "the title of the book"
+        },
+        {
+          "ms": "the end of the year",
+          "zh": "年底（英语片段；马来语：akhir tahun）",
+          "en": "the end of the year"
+        }
+      ],
+      "en_definition": "An English preposition expressing possession, association, or a position within a whole."
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "（英语）连接数量、容器或部分与其内容、整体，如‘一杯茶’、‘其中一人’。",
+      "ms_definition": "Huraian editorial bagi penggunaan bahasa Inggeris, bukan petikan Kamus Dewan: menghubungkan kuantiti, bekas atau bahagian dengan kandungan atau keseluruhannya.",
+      "nuances": "英语词义来源同上。马来语通常用量词和直接名词组合，如 secawan teh；表示某群体中的一员可用 salah seorang daripada…。不能把英语 of 直接放进标准马来语结构。以下 ms 字段依固定 schema 容纳英语搭配，中文栏另给马来语对应。",
+      "collocations": [
+        {
+          "ms": "a cup of tea",
+          "zh": "一杯茶（英语片段；马来语：secawan teh）",
+          "en": "a cup of tea"
+        },
+        {
+          "ms": "one of them",
+          "zh": "他们中的一个（英语片段；指人时马来语可用 salah seorang daripada mereka）",
+          "en": "one of them"
+        }
+      ],
+      "en_definition": "An English preposition linking a quantity, container, or part to its contents or the whole."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "科技报道／保留英语游戏专名（自拟）",
+      "ms": "Permainan strategi Age of Empires menggabungkan unsur sejarah dengan pengurusan sumber.",
+      "zh": "策略游戏《帝国时代》结合了历史元素与资源管理。",
+      "en": "The strategy game Age of Empires combines historical elements with resource management."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 玩家夹用英语游戏名，相约晚上联机",
+      "ms_spoken": "Kau nak main Age of Empires malam ni tak?",
+      "ms_standard": "Adakah kamu mahu bermain permainan Age of Empires pada malam ini?",
+      "zh": "你今晚要不要玩《帝国时代》？",
+      "spoken_features": [
+        "of 仅是英语游戏名 Age of Empires 的组成部分，不承担马来语句法功能；标准对应句保留原名。",
+        "nak、ni、dah 分别对应 mahu、ini、sudah；句末 tak 构成口语是非问句。",
+        "第二轮用 Nak 简短回应邀约，完整意思是‘我想玩’；lepas 在这里对应 selepas。",
+        "kena 表示需要，dulu 对应 terlebih dahulu；mesej aku 把 mesej 直接用作动词，标准对应表达为 hantar mesej kepada saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Danial (朋友兼游戏伙伴)",
+          "ms_spoken": "Kau nak main Age of Empires malam ni tak?",
+          "ms_standard": "Adakah kamu mahu bermain permainan Age of Empires pada malam ini?",
+          "zh": "你今晚要不要玩《帝国时代》？",
+          "en": "Do you want to play Age of Empires tonight?"
+        },
+        {
+          "speaker": "Hafiz (朋友兼游戏伙伴)",
+          "ms_spoken": "Nak, tapi lepas pukul sembilan lah. Aku kena siapkan kerja dulu.",
+          "ms_standard": "Saya mahu bermain, tetapi hanya selepas pukul sembilan. Saya perlu menyiapkan kerja terlebih dahulu.",
+          "zh": "要，不过得九点以后。我得先把工作做完。",
+          "en": "Yeah, but after nine. I've got to finish my work first."
+        },
+        {
+          "speaker": "Danial (朋友兼游戏伙伴)",
+          "ms_spoken": "Okey, dah siap nanti mesej aku. Aku tunggu.",
+          "ms_standard": "Baiklah, hantarlah mesej kepada saya apabila kamu sudah selesai menyiapkan kerja. Saya akan menunggu.",
+          "zh": "好，忙完了给我发消息。我等你。",
+          "en": "Okay, message me when you're done. I'll be waiting."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "standard 仅描述承载英文专名的马来语句子。专名可保留原文；正式公文的普通马来语内容应使用对应的马来语结构。",
+    "usage_etiquette": "保留原有游戏名可方便辨认；对不熟悉英语的读者可附译名。不要因词频排名高就把英语功能词当成标准马来语；也不要把 of 与 off 混为一词。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语",
+    "root_origin": "英语 of，经中古英语承自古英语 of；可核对 Merriam-Webster：https://scrabble.m-w.com/dictionary/of 。这里记录英语来源，不主张它已经归化为马来语词。",
+    "historical_story": "英语 of 从古英语传到现代，逐渐成为连接所属、关联与部分整体关系的常用小词。在本批马来语语料中，它随着 Age of Empires 这样的英语名称及完整英语句子一起出现，像书名里保留的一枚连接扣；这说明语料有语言混用，并不能据此建立马来语借入史。",
+    "cognitive_memory_aid": "看到 of，先检查周围是不是英文名称或英文片段；回到马来语时，the title of the book 通常直接说 tajuk buku。"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "headword": {
+    "word": "mak",
+    "syllables": "mak",
+    "ipa": "[ˈmaʔ]",
+    "jawi": "مق",
+    "frequency_rank": 157,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mak → mak；emak → mak（词首弱音节省略）",
+    "pattern_note": "mak 是 emak 的缩略形式，现代作为独立词使用，不是假设存在前缀 e-。原包未提供音节字段；此处 mak 是单音节编辑分节，非声称缓存已有 DBP 分节。Jawi 补核自 DBP 的“mak (emak) [ma/] مق”：https://prpmv1.dbp.gov.my/Search.aspx?k=mak 。词尾 k 常读 [ʔ]。",
+    "word_family": [
+      {
+        "word": "emak",
+        "affix": "none",
+        "gloss": "妈妈；mak 的完整形式"
+      },
+      {
+        "word": "mak-mak",
+        "affix": "重叠",
+        "gloss": "妈妈们；一群母亲（口语）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "妈妈；emak 的简短形式。",
+      "ms_definition": "singkatan bagi emak",
+      "nuances": "常用于家庭日常和亲密对话，不等于不尊重；对外正式陈述亲属关系通常用 ibu。mak angkat 指养母，mak mentua 指配偶的母亲。",
+      "collocations": [
+        {
+          "ms": "mak saya",
+          "zh": "我妈妈",
+          "en": "my mum"
+        },
+        {
+          "ms": "mak mentua",
+          "zh": "岳母；婆婆",
+          "en": "mother-in-law"
+        }
+      ],
+      "en_definition": "Mother; a shortened form of emak."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "对年长女性的称呼；也用于表示女性亲属的固定称谓。",
+      "ms_definition": "panggilan atau sebutan utk orang perempuan yg lebih tua (yg ada hubungan kekeluargaan atau yg kerana umurnya patut dipanggil ibu)",
+      "nuances": "称非亲属女性常用完整的 mak cik；Mak Long 通常称父母辈排行最年长的女性亲属，具体仍看家庭惯例，不能把 mak 单独当作任何女性的通用称呼。",
+      "collocations": [
+        {
+          "ms": "mak cik",
+          "zh": "阿姨；姑姨辈女性；对较年长女性的称呼",
+          "en": "aunt; auntie, as a form of address for an older woman"
+        },
+        {
+          "ms": "mak saudara",
+          "zh": "姑母；姨母",
+          "en": "aunt"
+        }
+      ],
+      "en_definition": "A term of address or reference for an older woman, also used in terms for female relatives."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区报道 / 亲属关系说明",
+      "ms": "Beliau berkata bahawa mak saudaranya telah banyak membantu keluarga itu.",
+      "zh": "他表示，姑姨辈的一位亲属曾给予那个家庭许多帮助。",
+      "en": "He said that his aunt had done a great deal to help the family."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 孩子准备回家，顺便帮母亲买东西",
+      "ms_spoken": "Mak, saya nak balik dah. Mak nak saya belikan apa-apa?",
+      "ms_standard": "Mak, saya hendak pulang sekarang. Adakah Mak mahu saya membelikan apa-apa?",
+      "zh": "妈，我这就准备回去了。你要我顺便买点什么吗？",
+      "spoken_features": [
+        "mak 是 emak 的简短形式，此处用作对母亲的亲昵称呼；标准改写保留家庭称呼 Mak。",
+        "nak balik dah 表示已经到了准备回去的阶段，整句意为现在就要回去，不能理解为已经回到家。",
+        "je 对应 sahaja；tu 对应 itu。",
+        "句末 kot 表示推测或不完全确定，标准改写用 mungkin。"
+      ],
+      "messages": [
+        {
+          "speaker": "Faiz (儿子)",
+          "ms_spoken": "Mak, saya nak balik dah. Mak nak saya belikan apa-apa?",
+          "ms_standard": "Mak, saya hendak pulang sekarang. Adakah Mak mahu saya membelikan apa-apa?",
+          "zh": "妈，我这就准备回去了。你要我顺便买点什么吗？",
+          "en": "Mum, I'm about to head home. Do you want me to pick anything up for you?"
+        },
+        {
+          "speaker": "Mak (母亲)",
+          "ms_spoken": "Beli roti je. Kedai dekat rumah tu belum tutup lagi kot.",
+          "ms_standard": "Beli roti sahaja. Kedai berhampiran rumah itu mungkin masih belum ditutup.",
+          "zh": "买点面包就行。家附近那家店应该还没关。",
+          "en": "Just some bread. I reckon that shop near the house is still open."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "在本人家庭习惯中，Mak 可以很亲切且有礼貌；正式对外称呼母亲可用 ibu。对陌生女性用 puan 更稳妥，熟悉的社区场合可依对方接受程度用 mak cik。",
+    "usage_etiquette": "不要仅凭外貌推断对方年龄或是否已婚；对方不喜欢 mak cik 时应改用其姓名或合适称谓。含 mak 的辱骂会牵涉对方母亲，应避免；不要拿词典里涉及性别身份的旧称呼给他人贴标签。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay；Proto-Malayic（马来语；原始马来语）",
+    "root_origin": "emak 的缩略形式；本地 Kaikki 将 emak 上溯至原始马来语 *əma-ʔ。星号表示重建形式，不是现存手稿中的拼写。",
+    "historical_story": "mak 从 emak 缩短而来，把母亲的称呼压成了一个亲近的音节；它延续的是马来语自身的亲属称谓。今天从家里的一声 Mak 到邻里的 Mak Cik、亲族里的 Mak Long，这个短词仍把家庭关系带进日常交往，并未被较庄重的 ibu 取代。",
+    "cognitive_memory_aid": "emak 少了开头的弱音节，就成 mak：家里的一声“妈”；词尾 k 听起来常像轻轻收住喉咙。"
+  }
+}

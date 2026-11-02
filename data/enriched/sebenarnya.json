@@ -1,0 +1,177 @@
+{
+  "headword": {
+    "word": "sebenarnya",
+    "syllables": null,
+    "ipa": "[sə.bəˈnar.ɲa]",
+    "jawi": null,
+    "frequency_rank": 219,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: بنر (benar)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "benar",
+    "affix": "se-…-nya",
+    "affix_type": "circumfix",
+    "formula": "se- + benar + -nya → sebenarnya",
+    "pattern_note": "benar 表示真、正确；se-…-nya 构成副词 sebenarnya。这里按模板将整体组合标作 circumfix，不将 -nya 机械理解为某个人的‘他的’。修正原包把表层词当作词根的回退值；音节及 Jawi 原包均缺失，保留 null。IPA 取本地 Kaikki 的文读形式，南部半岛也有词尾 -nya 读 [ɲə] 的变体。 核心词根（Kata Dasar）「benar」官方爪夷文为「بنر」，派生附加 se-…-nya。",
+    "word_family": [
+      {
+        "word": "benar",
+        "affix": "∅",
+        "gloss": "真；正确"
+      },
+      {
+        "word": "kebenaran",
+        "affix": "ke-…-an",
+        "gloss": "真相；许可"
+      },
+      {
+        "word": "membenarkan",
+        "affix": "meN-…-kan",
+        "gloss": "确认属实；允许"
+      },
+      {
+        "word": "sebenar",
+        "affix": "se-",
+        "gloss": "真正的；实际的"
+      }
+    ],
+    "root_jawi": "بنر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "其实；实际上；事实上，用来补充或纠正对事实的认识。",
+      "ms_definition": "[Kamus Dewan Edisi Keempat, sebenarnya 1] yg merupakan kenyataan, sebetulnya, sesungguhnya.",
+      "nuances": "可放句首引出真相，也可放在句中聚焦；apa sebenarnya yang berlaku? 是‘究竟发生了什么？’。不要因样句混入数学表达而把 nombor sebenarnya 当作‘实数’的标准术语。CEFR 与学习标签为编辑分级，排名采用任务给定值。",
+      "collocations": [
+        {
+          "ms": "sebenarnya tidak",
+          "zh": "其实并不",
+          "en": "actually not"
+        },
+        {
+          "ms": "apa sebenarnya yang berlaku",
+          "zh": "究竟发生了什么",
+          "en": "what really happened"
+        }
+      ],
+      "en_definition": "Actually; in fact; used to add to or correct someone's understanding of the facts."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "真正的；正确的，指某事物的实际或正确形式。",
+      "ms_definition": "[Kamus Dewan Edisi Keempat, sebenarnya 2] yg dikira betul, sebetulnya.",
+      "nuances": "如 ejaan yang sebenarnya，表示真正正确的拼写。此处按后置描述功能标 adjective；不可因此把所有副词 actually 都译成‘真正的’。",
+      "collocations": [
+        {
+          "ms": "ejaan yang sebenarnya",
+          "zh": "正确的拼写",
+          "en": "the correct spelling"
+        },
+        {
+          "ms": "maksud yang sebenarnya",
+          "zh": "真正的意思",
+          "en": "the true meaning"
+        }
+      ],
+      "en_definition": "True or correct; representing the actual meaning or proper form of something."
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "确实如此；的确是那样，用来确认前面的话。",
+      "ms_definition": "[Kamus Dewan Edisi Keempat, sebenarnya 3] begitulah, demikianlah, sungguhlah.",
+      "nuances": "加 -lah 强调确认时，规范连写为 sebenarnyalah；此类肯定说法较有书面色彩。日常直接回应也可用 memang betul。词典另记 sewajarnya、sepatutnya（应当）的义项，但原包无用例，未据此生造目标词搭配；主动表达‘应该’宜用 sepatutnya。",
+      "collocations": [
+        {
+          "ms": "sebenarnyalah seperti yang dikatakan",
+          "zh": "确实如所说的那样",
+          "en": "indeed, just as stated"
+        },
+        {
+          "ms": "sebenarnyalah demikian",
+          "zh": "确实如此",
+          "en": "that is indeed so"
+        }
+      ],
+      "en_definition": "Indeed; truly so; used to affirm what has been said."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共服务新闻澄清（编辑例句）",
+      "ms": "Pihak majlis menjelaskan bahawa kerja pembaikan itu sebenarnya telah selesai pada minggu lalu.",
+      "zh": "市议会方面说明，相关维修工程其实已于上周完成。",
+      "en": "The council explained that the repair work had in fact been completed the previous week."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两位朋友说明无法参加第二天的海边活动",
+      "ms_spoken": "Esok kita gerak pukul lapan. Kau ikut sekali, kan?",
+      "ms_standard": "Esok kita akan bertolak pada pukul lapan. Awak juga akan ikut serta, bukan?",
+      "zh": "明天我们八点出发。你也一起去，对吧？",
+      "spoken_features": [
+        "sebenarnya 在此引出对方尚不知道的实际情况，修正“你会一起去”的预期。",
+        "nak 对应 mahu，tapi 对应 tetapi；kena 在此表示需要或必须。",
+        "lah 带出解释和无奈语气，不需要逐字翻译。",
+        "Baru dapat jadual tadi 省略主语；jadual 按工作语境指工作安排。",
+        "takpe 是 tak apa 的聊天缩写，对应 tidak mengapa；gi 对应 pergi。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Esok kita gerak pukul lapan. Kau ikut sekali, kan?",
+          "ms_standard": "Esok kita akan bertolak pada pukul lapan. Awak juga akan ikut serta, bukan?",
+          "zh": "明天我们八点出发。你也一起去，对吧？",
+          "en": "We're leaving at eight tomorrow. You're coming along too, right?"
+        },
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Sebenarnya aku nak ikut, tapi esok kena kerja lah. Baru dapat jadual tadi.",
+          "ms_standard": "Sebenarnya saya mahu ikut serta, tetapi saya perlu bekerja esok. Saya baru menerima jadual kerja tadi.",
+          "zh": "其实我也想去，可明天得上班啊。刚刚才拿到工作安排。",
+          "en": "Actually, I'd love to come, but I've got to work tomorrow. I only just got my schedule."
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Oh, patutlah. Takpe, lain kali kita gi sama-sama.",
+          "ms_standard": "Oh, sekarang saya faham. Tidak mengapa, kita boleh pergi bersama-sama pada kesempatan lain.",
+          "zh": "哦，难怪。没事，下次我们再一起去。",
+          "en": "Oh, that explains it. No worries, we'll go together next time."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "sbnrny",
+      "full_form": "sebenarnya",
+      "note": "省元音的聊天写法；需依上下文辨认。"
+    },
+    {
+      "abbr": "sbnarnya",
+      "full_form": "sebenarnya",
+      "note": "省略第一个 e 的非正式拼写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "可用于正式澄清，也可用于熟人说明。纠正他人时句首 Sebenarnya... 可能让对方感觉被当众否定；对客户或长辈可先说 Untuk penjelasan，再平和说明事实。",
+    "usage_etiquette": "它可以引出真实想法或迟说的情况，但不保证后面的话已有证据。原包 sebenernya 更偏印尼口语拼写，sbbrnya 更像输入错误，本批不作为大马常用缩写推荐。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay（马来语）",
+    "root_origin": "直接构词依据是 benar + se-…-nya，原包已有说明。本地 Kaikki 在 benar 下给出原始马来语 *bənər，进一步联系原始马来—波利尼西亚语 *bənər；星号表示重建形式，不是已发现的古代原文。",
+    "historical_story": "benar 的‘真、正确’成为这整个表达的意义中心，马来语用 se-…-nya 把它构成陈述实际情况的副词。想象有人在谈话中停一下，补上一句‘其实……’：现代 sebenarnya 正承担这种揭示、补充和纠正的作用。构词有材料依据，但现有资料没有交代其首见年代或具体传播路线。",
+    "cognitive_memory_aid": "先抓住 benar＝真：se- + benar + -nya → 把真相说出来 → 其实、实际上。"
+  }
+}

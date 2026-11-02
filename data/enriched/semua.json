@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "semua",
+    "syllables": "se.mua",
+    "ipa": "/səˈmuə/",
+    "jawi": "سموا",
+    "frequency_rank": 30,
+    "status": "loanword"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "semua",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + semua → semua",
+    "pattern_note": "现代整词，不拆成 se- + mua；借词来源不等于现代带前缀。ke- + semua → kesemua；-nya 在 semuanya／kesemuanya 表总括或指回。DBP 音节栏 se.mua 原样保留，不按 IPA 重新切写；文读亦有 /səmua/。",
+    "word_family": [
+      {
+        "word": "semuanya",
+        "affix": "-nya",
+        "gloss": "全都；所有的人或物 / all of them; everything"
+      },
+      {
+        "word": "kesemua",
+        "affix": "ke-",
+        "gloss": "所有；整个数目 / all; the entire number"
+      },
+      {
+        "word": "kesemuanya",
+        "affix": "ke- + semua + -nya",
+        "gloss": "全部；总共 / all of them; in total"
+      },
+      {
+        "word": "semua-semuanya",
+        "affix": "∅（重叠）+ -nya",
+        "gloss": "一切；全部无遗 / absolutely everything"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "所有的、全部的；概括某范围中的每一个成员或全部数量，没有例外。",
+      "en_definition": "All; covering the whole quantity or every member of a specified set.",
+      "ms_definition": "sekalian, segala. (Kamus Dewan Edisi Keempat)",
+      "nuances": "马来语类别为 kata bilangan tak tentu（不定数量词），英语常归 determiner；Schema 无此类别，暂用 adjective 表示名词前的限定功能，并非把它当程度形容词。semua murid 已表复数，规范表达一般无需再写 semua murid-murid；不是 *sangat semua。",
+      "collocations": [
+        {
+          "ms": "semua pelajar",
+          "zh": "所有学生",
+          "en": "all students"
+        },
+        {
+          "ms": "semua orang",
+          "zh": "所有人；大家",
+          "en": "everyone"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "pronoun",
+      "zh_definition": "所有人、所有事物、全体；根据语境概括已知群体或整体。",
+      "en_definition": "Everyone, everybody, or everything in the contextually relevant group.",
+      "ms_definition": "= semuanya, kesemuanya sekaliannya. (Kamus Dewan Edisi Keempat)",
+      "nuances": "Semua sudah hadir（大家都到了）；semuanya boleh 是全都可以，不自动指全世界所有事物。kami semua 仍排除听者，kita semua 才包括听者。",
+      "collocations": [
+        {
+          "ms": "terima kasih semua",
+          "zh": "谢谢大家",
+          "en": "thanks, everyone"
+        },
+        {
+          "ms": "semua sudah siap",
+          "zh": "一切都准备妥当了",
+          "en": "everything is ready"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "全都、整个地、合计；总括谓语所述状态、行动或数量。",
+      "en_definition": "All, entirely, or in total; emphasizing that a statement or amount applies to the whole set.",
+      "ms_definition": "= kesemua segenap, setiap, seluruh. (Kamus Dewan Edisi Keempat)",
+      "nuances": "Bunga itu merah semua（那些花全是红的）；Berapa harga semuanya?（一共多少钱？）可用含 -nya 的形式。此处 adverb 是按句中总括功能映射，并非额外声称 DBP 给了英语式词类标签。",
+      "collocations": [
+        {
+          "ms": "semua sekali",
+          "zh": "总共；一网打尽",
+          "en": "all together; in total"
+        },
+        {
+          "ms": "rusak semua",
+          "zh": "全部损坏了",
+          "en": "all broken"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共活动／主办方通告",
+      "ms": "Semua peserta diminta hadir tiga puluh minit sebelum majlis bermula.",
+      "zh": "请所有参与者在活动开始前三十分钟到场。",
+      "en": "All participants are asked to arrive thirty minutes before the event begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "朋友聚餐／WhatsApp 群聊",
+      "ms_spoken": "Korang semua dah makan ke? Kalau belum, jom makan kat sini.",
+      "ms_standard": "Adakah kamu semua sudah makan? Jika belum, mari kita makan di sini.",
+      "zh": "你们都吃了吗？还没的话，就来这儿一起吃吧。",
+      "en": "Have you all eaten? If not, let's eat here.",
+      "spoken_features": [
+        "korang 是 kau orang 的口语压缩，此处规范对应 kamu；semua 强调整组人。",
+        "dah = sudah；句尾 ke 是疑问；jom 是共同邀请。",
+        "kat 在此 = di；kalau 为日常条件表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Bos (主管)",
+          "ms_spoken": "Semua staff dah masuk bilik mesyuarat ke?",
+          "ms_standard": "Semua staf sudah masuk ke bilik mesyuarat kah?",
+          "zh": "所有员工都进会议室了吗？",
+          "en": "Is everyone in the meeting room yet?"
+        },
+        {
+          "speaker": "Setiausaha (秘书)",
+          "ms_spoken": "Dah bos, semua dah bersedia sekarang.",
+          "ms_standard": "Sudah bos, semua sudah bersedia sekarang.",
+          "zh": "都进去了老板，大家现在都准备好了。",
+          "en": "Yes, boss. Everyone's in and ready now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "smua",
+      "full_form": "semua",
+      "note": "常见聊天省写；正式文本写 semua。"
+    },
+    {
+      "abbr": "smuaaa",
+      "full_form": "semua",
+      "note": "拖长字母的强调写法，表达全都或呼唤大家的语气，不表示另一种数量。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "面向公众可说 anda semua 或 para hadirin；kamu semua 适合关系与地位合适的受众。korang 适合熟友群聊；对长者或客户不能只因加了 semua 就认为礼貌。",
+    "usage_etiquette": "Kami semua 不包括听者，kita semua 包括听者，semua 本身不改变代词的范围。通知中的 semua peserta 指该活动所有参与者；若有例外应明确写出，不靠语气暗示。"
+  },
+  "etymology": {
+    "origin": "Sanskrit (Loanword)",
+    "source_language": "Sanskrit, through Old and Classical Malay",
+    "root_origin": "依 Kaikki，古典马来语 samua，来自古马来语 samūha，源于梵语 समूह samūha（群、集合）。现代 semua 作为完整基本词使用；不是 se- 的现代派生。",
+    "cognitive_memory_aid": "想象把指定范围内的人和物全部收进一个集合，没有剩下任何一个：semua。se.mua 是所存 DBP 分节，不能把 se- 当作可拆前缀。",
+    "historical_story": "semua 借自古梵语词汇 samūha（समुह，意为‘聚集、集合、总和、群体’），是公元 1 世纪至 14 世纪马来群岛深受印度古典文化影响时沉淀下来的核心词汇之一。它在借入后迅速融入马来语日常口语与书面体系，彻底取代了原生分散表达，成为表达绝对全体与全称量化最首要的词汇标杆，历经近两千年未发生语音突变，音节结构始终稳固。"
+  }
+}

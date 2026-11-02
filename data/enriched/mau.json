@@ -1,0 +1,147 @@
+{
+  "headword": {
+    "word": "mau",
+    "syllables": "",
+    "ipa": "/mau/",
+    "jawi": "",
+    "frequency_rank": 433,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: ماهو (mahu)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mahu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "mahu − h → mau（口语省音：想；愿意）",
+    "pattern_note": "mahu 的口语缩合形式，没有新增词缀；不是 ma- + u。词包未提供此词的官方分节与爪夷拼写，相关栏留空；IPA 为教学宽式拟音，并非 DBP 标音。 核心词根（Kata Dasar）「mahu」官方爪夷文为「ماهو」，派生附加 派生词缀。",
+    "word_family": [
+      {
+        "word": "mahu",
+        "affix": "∅",
+        "gloss": "想；愿意（标准形式）"
+      },
+      {
+        "word": "kemahuan",
+        "affix": "ke-…-an",
+        "gloss": "意愿；欲望"
+      },
+      {
+        "word": "berkemahuan",
+        "affix": "ber- + ke-…-an",
+        "gloss": "有意愿的；有决心的"
+      }
+    ],
+    "root_jawi": "ماهو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "想要；想做某事。",
+      "ms_definition": "Padanan baku mahu: hendak, akan.",
+      "nuances": "mau 未见于所给 PRPM 词包的独立词条；此释义援用本地 PRPM mahu 的 Kamus Dewan 第2义，不冒称 mau 的官方原文。作意愿助动词，后接动作；马来西亚正式写作通常用 mahu 或 hendak。",
+      "collocations": [
+        {
+          "ms": "mau makan",
+          "zh": "想吃饭",
+          "en": "want to eat"
+        },
+        {
+          "ms": "mau balik",
+          "zh": "想回去",
+          "en": "want to go back"
+        }
+      ],
+      "en_definition": "An informal variant of mahu: to want or intend to do something."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "愿意；肯。",
+      "ms_definition": "Padanan baku mahu: suka akan, suka hendak, bersedia akan.",
+      "nuances": "援用本地 PRPM mahu 的 Kamus Dewan 第1义。mau tak? 可以询问意愿，tak mau 表示不愿意或不要；语气及关系决定听起来是随和还是生硬。",
+      "collocations": [
+        {
+          "ms": "tak mau",
+          "zh": "不愿意；不要",
+          "en": "be unwilling; not want to"
+        },
+        {
+          "ms": "mau tolong",
+          "zh": "愿意帮忙",
+          "en": "be willing to help"
+        }
+      ],
+      "en_definition": "An informal variant of mahu: to be willing or prepared to do something."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻采访 / 保留受访者口语的直接引语",
+      "ms": "Seorang penduduk menyatakan, “Saya mau pulang,” ketika ditemu bual selepas pemindahan itu.",
+      "zh": "一名居民在撤离后接受采访时表示：“我想回家。”",
+      "en": "A resident said, “I want to go home,” when interviewed after the evacuation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 参加聚会的朋友私聊，一人因疲倦准备先走",
+      "ms_spoken": "Saya mau balik dah, penat sangat. Awak nak ikut sekali ke?",
+      "ms_standard": "Saya mahu pulang sekarang kerana sangat penat. Adakah awak mahu pulang bersama saya?",
+      "zh": "我想回去了，太累了。你要一起走吗？",
+      "spoken_features": [
+        "mau 是 mahu 的变体，日常使用情况因地区和说话者而异；这里保留说话者的个人用语习惯。",
+        "Saya mau balik dah 中的 dah 表示到了准备离开的时候，不表示已经回到家。",
+        "nak 对应 mahu；句末 ke 是口语疑问标记。",
+        "bagitahu 是 beritahu 的非正式写法；borak 对应 berbual。",
+        "belum sampai lagi 强调仍然还没到；标准句可用 masih belum sampai。"
+      ],
+      "messages": [
+        {
+          "speaker": "Rizal (朋友)",
+          "ms_spoken": "Saya mau balik dah, penat sangat. Awak nak ikut sekali ke?",
+          "ms_standard": "Saya mahu pulang sekarang kerana sangat penat. Adakah awak mahu pulang bersama saya?",
+          "zh": "我想回去了，太累了。你要一起走吗？",
+          "en": "I want to head home now. I'm so tired. Want to come along?"
+        },
+        {
+          "speaker": "Dani (朋友)",
+          "ms_spoken": "Awak balik dulu je. Saya tunggu Hafiz, dia belum sampai lagi.",
+          "ms_standard": "Awak pulang dahulu. Saya akan menunggu Hafiz kerana dia masih belum sampai.",
+          "zh": "你先回去吧。我等哈菲兹，他还没到呢。",
+          "en": "You go ahead. I'm waiting for Hafiz. He's not here yet."
+        },
+        {
+          "speaker": "Rizal (朋友)",
+          "ms_spoken": "Okey, nanti tolong bagitahu dia saya balik dulu, ya. Esok kita sambung borak.",
+          "ms_standard": "Baiklah, nanti tolong beritahu dia bahawa saya sudah pulang terlebih dahulu. Kita sambung berbual esok.",
+          "zh": "好，待会儿麻烦跟他说一声，我先回去了。咱们明天接着聊。",
+          "en": "Okay, let him know I've headed home, will you? We'll chat more tomorrow."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "mau",
+      "full_form": "mahu",
+      "note": "口语省去 h 后也可这样写在聊天中；不是正式公文缩写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "熟人之间可以自然使用；公函、考试作文与正式陈述采用 mahu 或 hendak。正式场景例句仅在直接引语中保留 mau。",
+    "usage_etiquette": "不要仅凭 mau 就判断说话者的国籍或族群。向陌生人提出请求时，可改说 Boleh saya…?；tak mau 的直接拒绝可加 terima kasih 缓和。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay",
+    "root_origin": "词包 Kaikki 将 mau 标为 mahu 的缩合；mahu 的本地词源记录列原始马来语 *mahu，但更早来源未定，不采用未经证实的 ma- + hu 拆法。",
+    "historical_story": "把同一句‘想回家’读快一点，mahu 中的 h 弱化或省去，便能理解 mau 与标准形式之间的关系。现代马来西亚语境里，它作为口语变体与 mahu 并存，而正式书写通常选用后者。这个解释来自词包给出的缩合关系，不代表已经查明它最早流行的港口、地区或年代。",
+    "cognitive_memory_aid": "mahu 把 h 轻轻‘呼’掉，就是 mau；意思仍是‘想、愿意’，换的是口语外形。"
+  }
+}

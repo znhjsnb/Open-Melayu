@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "semuanya",
+    "syllables": null,
+    "ipa": "/səˈmuaɲə/",
+    "jawi": null,
+    "frequency_rank": 180,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: سموا (semua)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "semua",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "semua + -nya → semuanya",
+    "pattern_note": "-nya 在这里使所指整体明确，常回指前文的一群人或一组事物，不必译成“他的”；ny 表示 /ɲ/。PRPM 未提供本词音节及 Jawi，均保留 null。 核心词根（Kata Dasar）「semua」官方爪夷文为「سموا」，派生附加 -nya。",
+    "word_family": [
+      {
+        "word": "semua",
+        "affix": "none",
+        "gloss": "所有；全部"
+      },
+      {
+        "word": "kesemua",
+        "affix": "ke-",
+        "gloss": "全体；全部"
+      },
+      {
+        "word": "kesemuanya",
+        "affix": "ke- + -nya",
+        "gloss": "全部；无一例外"
+      }
+    ],
+    "root_jawi": "سموا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "所有人；全部事物；他们全都，指语境中相关的整个集合。",
+      "ms_definition": "sekaliannya",
+      "nuances": "采用《Kamus Dewan》第四版释义核心；所指可为人或物，由上下文决定。semuanya 通常独立或回指已有集合；“所有学生”直接说 semua murid。资料中的 sakit 所有格释义与本词无关，已排除。",
+      "collocations": [
+        {
+          "ms": "semuanya hadir",
+          "zh": "全员到场",
+          "en": "everyone is present"
+        },
+        {
+          "ms": "semuanya sudah siap",
+          "zh": "全部准备好了",
+          "en": "everything is ready"
+        }
+      ],
+      "en_definition": "Everyone or everything in the group or set referred to; all of them."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "总共；合计；整个地，用于总数量、总价或整体范围。",
+      "ms_definition": "seluruhnya; segala-galanya",
+      "nuances": "此义据《Kamus Pelajar》第二版，并按句中作总体数量说明归为 adverb。Berapa harga semuanya? 问全部合计多少钱，不是问每件单价。",
+      "collocations": [
+        {
+          "ms": "berapa harga semuanya",
+          "zh": "全部一共多少钱",
+          "en": "how much is it all together?"
+        },
+        {
+          "ms": "sepuluh orang semuanya",
+          "zh": "总共十人",
+          "en": "ten people in total"
+        }
+      ],
+      "en_definition": "In total; taken as a whole or in its entirety."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 灾后安置报道",
+      "ms": "Seramai 120 penduduk dipindahkan ke pusat pemindahan sementara, dan semuanya dilaporkan berada dalam keadaan selamat.",
+      "zh": "共有120名居民被转移至临时疏散中心，据报所有人均平安。",
+      "en": "A total of 120 residents were moved to a temporary evacuation centre, and all were reported to be safe."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聚餐后一人代付，另一人确认总额并转账",
+      "ms_spoken": "Semuanya RM30 je ke, termasuk air? Aku nak transfer bahagian aku.",
+      "ms_standard": "Adakah jumlah keseluruhannya hanya RM30, termasuk minuman? Saya mahu memindahkan wang untuk membayar bahagian saya.",
+      "zh": "包括饮料在内，总共才30令吉吗？我想把我那份转给你。",
+      "spoken_features": [
+        "semuanya 在这里询问合计金额，标准语可展开为 jumlah keseluruhannya。",
+        "je 对应 sahaja，在金额后表示“只要、而已”；ke 标记口语疑问。",
+        "haah 是口语中的肯定回答，标准语用 ya。",
+        "transfer 是聊天中常见的英语借词，此处指转账；air 在用餐语境中泛指饮料；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (一起吃饭的朋友)",
+          "ms_spoken": "Semuanya RM30 je ke, termasuk air? Aku nak transfer bahagian aku.",
+          "ms_standard": "Adakah jumlah keseluruhannya hanya RM30, termasuk minuman? Saya mahu memindahkan wang untuk membayar bahagian saya.",
+          "zh": "包括饮料在内，总共才30令吉吗？我想把我那份转给你。",
+          "en": "Is it only RM30 in total, including drinks? I want to transfer you my share."
+        },
+        {
+          "speaker": "Farah (先行付款的朋友)",
+          "ms_spoken": "Haah, RM30 untuk kita berdua. Kau transfer RM15 je, aku dah bayar tadi.",
+          "ms_standard": "Ya, jumlahnya RM30 untuk kita berdua. Awak hanya perlu memindahkan RM15 kepada saya kerana saya sudah membayar bil tadi.",
+          "zh": "对，咱们两个人一共30令吉。你转我15令吉就行，我刚才已经付过了。",
+          "en": "Yeah, RM30 for the two of us. Just transfer me RM15. I've already paid."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "用于招呼 Selamat pagi, semuanya 可自然地面向整个群体；特别正式的场合可明确称呼各位来宾。",
+    "usage_etiquette": "点餐、团购或分账时，须说清 semuanya 指哪些项目，以及合计的是全桌还是个人金额；不能仅凭 -nya 判断为“他的全部”。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "Sanskrit，经古马来语及古典马来语",
+    "root_origin": "semua + 马来语 -nya；semua 经古典马来语 samua、古马来语 samūha，追溯至梵语 समूह samūha，意为集合、群体。",
+    "historical_story": "semua 的历史通向梵语 samūha，原义是聚集起来的一群或一个整体，并在古马来语中留下了 samūha 的形式。这条从南亚词汇进入马来语的线索，体现了两个文化世界长期接触留下的语言痕迹。后来这个表示整体的词根与本土 -nya 结合成为 semuanya，如今从“大家都来了”到摊位结账的“总共多少钱”都能使用。",
+    "cognitive_memory_aid": "先把东西全部圈进一个圆：semua 是“全部”，加 -nya 就指“这一圈的全部”；结账时问 Berapa harga semuanya?"
+  }
+}

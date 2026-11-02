@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "mabuk",
+    "syllables": null,
+    "ipa": "[ˈma.buʔ]",
+    "jawi": "مابوق",
+    "frequency_rank": 857,
+    "tags": [
+      "CEFR-A2",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mabuk",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mabuk → mabuk",
+    "pattern_note": "现代马来语将 mabuk 作为完整词根，不把 ma- 当作现行前缀。memabukkan 中 meN- 遇 m 呈 mem-，原有 m 保留；双 k 来自词根末 k 与 -kan。音节字段依 PRPM 缺项保留 null；Jawi 从本地同词 PRPM 原始缓存恢复，IPA 采用资料库的书面标准读音。",
+    "word_family": [
+      {
+        "word": "memabukkan",
+        "affix": "meN-...-kan",
+        "gloss": "使醉；令人沉醉"
+      },
+      {
+        "word": "kemabukan",
+        "affix": "ke-...-an",
+        "gloss": "醉酒状态；沉醉"
+      },
+      {
+        "word": "pemabuk",
+        "affix": "peN-",
+        "gloss": "经常醉酒的人"
+      },
+      {
+        "word": "pemabukan",
+        "affix": "peN-...-an",
+        "gloss": "进入醉态的过程"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "醉的；因酒精或某些食物等而头昏、神志不清的。",
+      "ms_definition": "pening kepala (hilang ingatan, tidak sedarkan diri, dsb) kerana meminum minuman keras atau makan gadung dsb",
+      "nuances": "单独说 seseorang mabuk 通常让人联想到醉酒，但词典义不限于酒精。不是普通疲倦；要表达困倦通常用 mengantuk。",
+      "collocations": [
+        {
+          "ms": "mabuk arak",
+          "zh": "喝酒喝醉",
+          "en": "drunk on alcohol"
+        },
+        {
+          "ms": "dalam keadaan mabuk",
+          "zh": "处于醉酒状态",
+          "en": "in a drunken state"
+        }
+      ],
+      "en_definition": "Intoxicated, dizzy, or mentally confused from drinking alcohol or eating certain foods."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "晕船、晕机等；因交通工具晃动等而头晕恶心的。",
+      "ms_definition": "pening dan muntah-muntah dlm pelayaran (dgn kapal atau perahu)",
+      "nuances": "马来文释义摘自 Kamus Dewan 的 mabuk laut（ombak）搭配义；不是另一个与酒精有关的解释。这里须看后接成分：mabuk laut 指晕船，mabuk udara 指晕机；晕车也常说 mabuk kereta。",
+      "collocations": [
+        {
+          "ms": "mabuk laut",
+          "zh": "晕船",
+          "en": "seasick"
+        },
+        {
+          "ms": "mabuk udara",
+          "zh": "晕机",
+          "en": "airsick"
+        }
+      ],
+      "en_definition": "Feeling dizzy or nauseous from the motion of a boat, aircraft, or other vehicle."
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "沉迷的；痴迷得失去分寸的，常指爱情或权力。",
+      "ms_definition": "sangat suka (gemar) akan sesuatu ... terlalu sangat asyik (berahi)",
+      "nuances": "比喻用法，强调沉醉或失去判断，不只是一般的喜欢。mabuk cinta 可带浪漫或调侃语气，mabuk kuasa 通常含批评。",
+      "collocations": [
+        {
+          "ms": "mabuk cinta",
+          "zh": "为爱痴迷",
+          "en": "madly in love"
+        },
+        {
+          "ms": "mabuk kuasa",
+          "zh": "迷恋权力；权欲熏心",
+          "en": "drunk with power"
+        }
+      ],
+      "en_definition": "Excessively absorbed in or carried away by something, especially love or power."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "交通新闻 / 道路安全提醒",
+      "ms": "Polis menasihati orang ramai supaya tidak memandu dalam keadaan mabuk demi keselamatan semua pengguna jalan raya.",
+      "zh": "警方劝请公众不要醉酒驾驶，以保障所有道路使用者的安全。",
+      "en": "Police advised the public not to drive while intoxicated, for the safety of all road users."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友乘船靠岸后解释自己为何脸色不好",
+      "ms_spoken": "Tadi atas bot awak diam je. Mabuk laut ke?",
+      "ms_standard": "Semasa berada di atas bot tadi, awak hanya berdiam diri. Adakah awak mengalami mabuk laut?",
+      "zh": "刚才在船上你一直不说话。晕船了吗？",
+      "spoken_features": [
+        "mabuk laut 指晕船，此处的 mabuk 不表示醉酒。",
+        "Haah 是表示肯定的口语写法，对应 ya。",
+        "baru…dah… 在这里突出反应出现得快，相当于‘刚……就……’；nak muntah 表示想吐。",
+        "tak payah 对应 tidak perlu；kat、ni 分别对应 di、ini。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同行的朋友)",
+          "ms_spoken": "Tadi atas bot awak diam je. Mabuk laut ke?",
+          "ms_standard": "Semasa berada di atas bot tadi, awak hanya berdiam diri. Adakah awak mengalami mabuk laut?",
+          "zh": "刚才在船上你一直不说话。晕船了吗？",
+          "en": "You were so quiet on the boat earlier. Were you seasick?"
+        },
+        {
+          "speaker": "Nisa (刚下船的朋友)",
+          "ms_spoken": "Haah, baru naik bot dah rasa nak muntah. Sekarang dah kurang sikit.",
+          "ms_standard": "Ya, sejurus selepas menaiki bot, saya sudah berasa hendak muntah. Sekarang, rasa loya itu sudah berkurang sedikit.",
+          "zh": "是啊，刚上船就想吐。现在好一点了。",
+          "en": "Yeah, I felt like throwing up as soon as I got on. I'm feeling a bit better now."
+        },
+        {
+          "speaker": "Farah (同行的朋友)",
+          "ms_spoken": "Kita duduk kat bangku ni dulu lah. Tak payah jalan lagi kalau masih pening.",
+          "ms_standard": "Marilah kita duduk di bangku ini dahulu. Tidak perlu meneruskan perjalanan dengan berjalan kaki jika awak masih pening.",
+          "zh": "我们先在这张长椅上坐一会儿吧。要是还头晕，就先别继续走了。",
+          "en": "Let's sit on this bench for a bit. No need to keep walking if you're still dizzy."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "lalok",
+      "full_form": "mabuk",
+      "note": "资料库列作替换形式，实际是俚语词，不是拼写缩写；可指酒醉、药物作用下昏沉等，语义受语境限制，不能替代 mabuk laut 等全部搭配，正式文体避免。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "词本身中性，但说某人 mabuk 可能成为冒犯或指控；与陌生人交谈宜描述可观察情况，不随意贴标签。讨论酒精时尊重各族群及个人选择，不以族群推断饮酒习惯。",
+    "usage_etiquette": "mabuk laut 和 mabuk udara 不涉及喝酒，说明搭配能避免误会。pemabuk 表示惯常醉酒的人，比描述一次状态的 mabuk 更具评价性；不宜拿来随意称呼同事或长辈。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "原始马来－波利尼西亚语；更早为原始南岛语",
+    "root_origin": "本地 Kaikki：原始马来－波利尼西亚语 *ma-buhuk ← 原始南岛语 *ma-buSuk，进一步联系 *buSuk；星号表示重建形式。",
+    "historical_story": "mabuk 的比较词源连向南岛语族中的古老词形，并有邦阿西楠语及东占语同源词，显示它不是现代才借入的词。现代马来语既用它形容酒醉，也在海上航行的语境里说 mabuk laut，还把这种失去平衡与自制的感觉用来描写痴恋；这些现存用法不等于已证实的先后演变时间线。",
+    "cognitive_memory_aid": "把 mabuk 连到‘失去平衡’：酒让人醉，船让人晕，爱情也能让人沉醉；看后面的词判断是哪一种。"
+  }
+}

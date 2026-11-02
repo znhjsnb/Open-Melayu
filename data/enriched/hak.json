@@ -1,0 +1,174 @@
+{
+  "headword": {
+    "word": "hak",
+    "syllables": null,
+    "ipa": "[haʔ]",
+    "jawi": "حق",
+    "frequency_rank": 750,
+    "tags": [
+      "CEFR-B1",
+      "公文标准"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hak → hak",
+    "pattern_note": "阿拉伯语借入的完整词根，末尾 k 在常见马来西亚读法中实现为喉塞音 [ʔ]。原包 syllables 为 null，定义头 [haʔ] 是发音提示，不冒充 DBP 的拉丁字母分节。爪夷文保留本地 PRPM 原值；CEFR 为编辑建议。",
+    "word_family": [
+      {
+        "word": "berhak",
+        "affix": "ber-",
+        "gloss": "有权；享有资格"
+      },
+      {
+        "word": "mengehakkan",
+        "affix": "meN-…-kan",
+        "gloss": "赋予权利；确定归属"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "权利；按法律、宗教、习俗等享有的资格或行动自由。",
+      "ms_definition": "kuasa atas sesuatu atau utk berbuat sesuatu (ditentukan oleh undang-undang, agama, adat istiadat, dll)",
+      "nuances": "常见结构为 hak untuk + 动词，表示做某事的权利；berhak 是有权的派生动词。这里解释词义，并不表示某个具体人在现实法律下必然享有某项权利。",
+      "collocations": [
+        {
+          "ms": "hak asasi",
+          "zh": "基本权利",
+          "en": "fundamental rights"
+        },
+        {
+          "ms": "hak mengundi",
+          "zh": "投票权",
+          "en": "the right to vote"
+        }
+      ],
+      "en_definition": "A right or entitlement to possess something or act in a particular way, as established by law, religion, custom, etc."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "所有权；归属；某人拥有的东西。",
+      "ms_definition": "milik, kepunyaan",
+      "nuances": "可以指抽象的所有权，也可以在 Itu hak saya 中表示那是我的。hak milik 是常见固定组合；hak cipta 专指著作权语境，不等于对一切物品的所有权。",
+      "collocations": [
+        {
+          "ms": "hak milik",
+          "zh": "所有权",
+          "en": "ownership"
+        },
+        {
+          "ms": "hak orang lain",
+          "zh": "他人所有之物；他人的权益",
+          "en": "other people's property"
+        }
+      ],
+      "en_definition": "Ownership; something belonging to someone."
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "真实的；正确的；合乎真理的。也可名词化指真理。",
+      "ms_definition": "(yg) benar, kebenaran",
+      "nuances": "较多见于宗教、伦理或庄重论述，日常说事实正确通常用 benar 或 betul。与前两项表示权利、归属的名词用法区分；yang hak 中形容词可名词化。",
+      "collocations": [
+        {
+          "ms": "yang hak dan yang batil",
+          "zh": "真理与谬误；正与邪",
+          "en": "truth and falsehood"
+        },
+        {
+          "ms": "ajaran yang hak",
+          "zh": "正确的教义；合乎真理的教导",
+          "en": "true teachings"
+        }
+      ],
+      "en_definition": "True or right; truth."
+    },
+    {
+      "id": 4,
+      "pos": "pronoun",
+      "zh_definition": "那个；……的那个。用于从几个对象中指明所选的一项。",
+      "ms_definition": "yg (mana satu)",
+      "nuances": "这是 PRPM 另列的指代用法，常用于口语或地方表达，如 hak merah 相当于 yang merah。这里按格式归入 pronoun；正式书写宜改用 yang 或完整名词，不能把这种用法解释成权利。",
+      "collocations": [
+        {
+          "ms": "hak ini",
+          "zh": "这一个（口语指代）",
+          "en": "this one"
+        },
+        {
+          "ms": "hak merah",
+          "zh": "红色的那个（口语指代）",
+          "en": "the red one"
+        }
+      ],
+      "en_definition": "The one specified or selected."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育新闻／公共议题",
+      "ms": "Forum itu membincangkan hak kanak-kanak untuk mendapat pendidikan yang berkualiti.",
+      "zh": "该论坛讨论了儿童接受优质教育的权利。",
+      "en": "The forum discussed children's right to receive a quality education."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友支持对方自行决定是否参加旅行",
+      "ms_spoken": "Aku sebenarnya tak nak ikut trip tu, tapi segan nak cakap kat diorang.",
+      "ms_standard": "Sebenarnya, saya tidak mahu menyertai perjalanan itu, tetapi saya berasa segan untuk memberitahu mereka.",
+      "zh": "其实我不想参加那次旅行，但不好意思跟他们说。",
+      "spoken_features": [
+        "hak 在此指自主决定是否参加活动的权利。",
+        "tak nak 对应 tidak mahu；tu 对应 itu；diorang 是非正式的第三人称复数形式，标准语用 mereka。",
+        "lah 在此配合上下文表达支持和宽慰。",
+        "je 对应 sahaja；cakap elok-elok 表示好好地、客气地说明。",
+        "tak payah 对应 tidak perlu；jugak 对应 juga；bagitahu 对应 beritahu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Aku sebenarnya tak nak ikut trip tu, tapi segan nak cakap kat diorang.",
+          "ms_standard": "Sebenarnya, saya tidak mahu menyertai perjalanan itu, tetapi saya berasa segan untuk memberitahu mereka.",
+          "zh": "其实我不想参加那次旅行，但不好意思跟他们说。",
+          "en": "I actually don't want to go on that trip, but I feel awkward telling them."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Itu hak kau lah. Kalau tak nak ikut, cakap je elok-elok. Tak payah paksa diri.",
+          "ms_standard": "Itu hak kamu. Jika kamu tidak mahu menyertainya, beritahulah mereka dengan baik. Kamu tidak perlu memaksa diri.",
+          "zh": "你有权自己决定。不想去，就好好跟他们说，不用勉强自己。",
+          "en": "That's your call. If you don't want to go, just tell them nicely. You don't have to force yourself."
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Betul jugak. Nanti aku bagitahu diorang aku tak ikut.",
+          "ms_standard": "Betul juga. Saya akan memberitahu mereka nanti bahawa saya tidak akan menyertainya.",
+          "zh": "也是。等下我就跟他们说我不去了。",
+          "en": "You're right. I'll tell them later that I'm not going."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Itu hak awak 可以表达尊重选择，也可能听起来冷淡或带争执意味；需要支持对方时可补 Saya hormati keputusan awak。",
+    "usage_etiquette": "讨论权利时说明具体事项和语境，避免把权利与责任混为一谈。宗教语境中的真理义应尊重不同群体的信仰；指代义 hak ini 等宜先学会识别，再按当地说话习惯使用。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语",
+    "root_origin": "阿拉伯语 حَقّ（ḥaqq，真理；应有之权），借入马来语为 hak；爪夷文保留 حق。指代义的更早来源未在原包中单独说明，不据此编造所有义项的共同演变路线。",
+    "historical_story": "阿拉伯语 ḥaqq 把真实、正当和应得的观念联系在一起，马来语 hak 仍保留真理与权利这两端的意义。在马来世界与伊斯兰文化长期接触的背景下，这个词融入宗教和社会表达，现代又常见于 hak asasi、hak milik 等公共讨论。读音适应了马来语，而爪夷文 حق 仍让人看见它与阿拉伯语的联系。",
+    "cognitive_memory_aid": "从‘正当应得’串起三层：真理是正确的，权利是应得的，所有权是正当地属于谁的；口语‘那个’一义另记。"
+  }
+}

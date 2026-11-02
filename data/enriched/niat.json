@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "niat",
+    "syllables": "niat",
+    "ipa": "/ni.at/",
+    "jawi": "نية",
+    "frequency_rank": 2646,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "niat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + niat → niat",
+    "pattern_note": "在现代马来语中作为完整词根使用，不拆成 ni- 与 -at；数据包的音节字段保留 niat，发音中的 i、a 可分别实现为两个元音音节。",
+    "word_family": [
+      {
+        "word": "berniat",
+        "affix": "ber-",
+        "gloss": "打算；有意"
+      },
+      {
+        "word": "meniatkan",
+        "affix": "meN-…-kan",
+        "gloss": "在心中确定意图；以……为意"
+      }
+    ],
+    "root_jawi": "نية"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "做某件事时心中的意图、目的或打算。",
+      "en_definition": "The intention or purpose behind an action.",
+      "ms_definition": "Maksud atau tujuan sesuatu perbuatan.",
+      "nuances": "强调内心的目的，不等于已经行动或作出承诺。可用于日常计划和行为动机；宗教语境中的 niat 则常特指进行功修时的内心意向。核心词义依据：[DBP：niat](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=niat)。",
+      "collocations": [
+        {
+          "ms": "niat baik",
+          "zh": "善意；好意",
+          "en": "good intentions"
+        },
+        {
+          "ms": "niat jahat",
+          "zh": "恶意；不良企图",
+          "en": "malicious intent"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Cadangan tersebut dikemukakan dengan niat untuk meningkatkan mutu perkhidmatan kepada orang ramai.",
+      "zh": "提出该建议的目的是提升面向公众的服务质量。",
+      "en": "The proposal was submitted with the intention of improving services to the public."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Niat aku nak tolong je, bukan nak susahkan kau.",
+      "ms_standard": "Niat saya hanyalah untuk membantu, bukan untuk menyusahkan kamu.",
+      "zh": "我就是想帮忙，没想给你添麻烦。",
+      "en": "I was only trying to help, not make things harder for you.",
+      "spoken_features": [
+        "niat aku 对应较中性的 niat saya。",
+        "nak 是 hendak 的口语形式，此处表达目的。",
+        "je 表示“而已”；susahkan 在口语中省略标准形式 menyusahkan 的前缀。",
+        "kau 适用于熟人之间，正式或尊长场合应换用合适称谓。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Niat aku nak tolong je, bukan nak susahkan kau.",
+          "ms_standard": "Niat saya hanyalah untuk membantu, bukan untuk menyusahkan kamu.",
+          "zh": "我就是想帮忙，没想给你添麻烦。",
+          "en": "I was only trying to help, not make things harder for you."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku tahu niat kau baik. Lain kali tanya aku dulu ya.",
+          "ms_standard": "Saya tahu niat kamu baik. Pada masa akan datang, tanyalah saya dahulu.",
+          "zh": "我知道你是好意，下次先问我一声啊。",
+          "en": "I know you meant well. Just check with me first next time."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Saya tahu niat awak baik 可先认可对方的善意，再温和指出问题。直接质问 Apa niat awak? 容易带有怀疑对方动机的意味，应注意语气。",
+    "usage_etiquette": "解释误会时可以说明自己的 niat，同时承认实际影响，避免只强调好意。讨论宗教功修时，应尊重 niat 的专门含义，不把它简单等同于口头念出的句子。"
+  },
+  "etymology": {
+    "historical_story": "niat 来自阿拉伯语 niyyah，核心意义是内心的意向；马来语爪夷文 نية 保留了与阿拉伯语原词的联系。它在伊斯兰功修语境中具有重要地位，也用于日常生活中的目的、善意和打算。阿拉伯语与马来语的相关对应可见：[MAIS 阿拉伯语教学材料](https://mais.gov.my/wp-content/uploads/2025/03/Buletin-MAIS_Bil-1_2025-final.pdf)。",
+    "cognitive_memory_aid": "把行动想成一支箭：做出来的是箭飞出去，niat 是射箭前心里瞄准的方向。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "Saya tahu niat awak baik 可先认可对方的善意，再温和指出问题。直接质问 Apa niat awak? 容易带有怀疑对方动机的意味，应注意语气。",
+    "usage_etiquette": "解释误会时可以说明自己的 niat，同时承认实际影响，避免只强调好意。讨论宗教功修时，应尊重 niat 的专门含义，不把它简单等同于口头念出的句子。"
+  }
+}

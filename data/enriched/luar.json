@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "luar",
+    "syllables": "luar",
+    "ipa": "/ˈluar/",
+    "jawi": "لوار",
+    "frequency_rank": 202,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "luar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + luar → luar",
+    "pattern_note": "luar 是完整方位词；保留 DBP 分节 luar，不按 IPA 的元音序列另改分节。di luar 表位置，ke luar 表方向，介词分写；动词 keluar 则连写。",
+    "word_family": [
+      {
+        "word": "luaran",
+        "affix": "-an",
+        "gloss": "外部的；表面的"
+      },
+      {
+        "word": "meluarkan",
+        "affix": "meN-…-kan",
+        "gloss": "排除；叫出去"
+      },
+      {
+        "word": "keluar",
+        "affix": "ke-",
+        "gloss": "出去；出来；已词汇化的动词"
+      },
+      {
+        "word": "mengeluarkan",
+        "affix": "meN-…-kan（加于 keluar）",
+        "gloss": "取出；发出；生产"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "外面；外部；与里面相对的部分或区域。",
+      "ms_definition": "lwn (bahagian) dalam. (Kamus Dewan Edisi Keempat)",
+      "nuances": "本词属于 kata arah（方位词），本 Schema 以 noun 承载。di luar rumah 是在屋外，ke luar rumah 是往屋外；orang luar 是圈子以外的人，不一定指外国人。luar bandar 通常指乡区，不能一律译成城市近郊。",
+      "collocations": [
+        {
+          "ms": "di luar rumah",
+          "zh": "在屋外",
+          "en": "outside the house"
+        },
+        {
+          "ms": "luar negara",
+          "zh": "国外；境外",
+          "en": "abroad"
+        }
+      ],
+      "en_definition": "The outer part of something or the area outside it."
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "某个范围之外；不在知识、控制、责任或预期之内。",
+      "ms_definition": "tidak masuk (perkara, perhitungan, tanggungan, dll), kecuali, tidak diliputi (terliput) oleh, lain drpd. (Kamus Dewan Edisi Keempat, di luar)",
+      "nuances": "这是空间方位向抽象范围的延伸，常见于 di luar 加抽象名词；完整短语有介词功能，不能据此把单独的 luar 一概当作介词。luar biasa 是固定表达，意为非同寻常。",
+      "collocations": [
+        {
+          "ms": "di luar kawalan",
+          "zh": "超出控制范围",
+          "en": "beyond control"
+        },
+        {
+          "ms": "di luar jangkaan",
+          "zh": "出乎预料",
+          "en": "unexpected"
+        }
+      ],
+      "en_definition": "Beyond a particular scope, limit, or range, as of knowledge, control, responsibility, or expectation."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章／高等教育",
+      "ms": "Universiti itu menawarkan bantuan kewangan kepada pelajar yang melanjutkan pengajian di luar negara.",
+      "zh": "该大学为赴国外深造的学生提供经济援助。",
+      "en": "The university offers financial assistance to students pursuing further studies abroad."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友到餐馆碰面",
+      "ms_spoken": "Saya dah tunggu kat luar kedai ni. Awak kat mana?",
+      "ms_standard": "Saya sudah menunggu di luar kedai ini. Awak berada di mana?",
+      "zh": "我已经在这家店外面等着了，你在哪儿？",
+      "spoken_features": [
+        "luar kedai 表示店外，与回应中的 dalam kedai 形成明确的内外对照。",
+        "dah 对应 sudah，kat 在此对应位置介词 di，ni 对应 ini。",
+        "Dalam kedai 省略了主语和位置介词，完整形式是 Saya berada di dalam kedai。",
+        "Masuk je 是随和的邀请；saya nampak awak dah 把表示已经的 dah 放在分句末尾。"
+      ],
+      "messages": [
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Saya dah tunggu kat luar kedai ni. Awak kat mana?",
+          "ms_standard": "Saya sudah menunggu di luar kedai ini. Awak berada di mana?",
+          "zh": "我已经在这家店外面等着了，你在哪儿？",
+          "en": "I'm already waiting outside the shop. Where are you?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dalam kedai, dekat kaunter. Masuk je, saya nampak awak dah.",
+          "ms_standard": "Saya berada di dalam kedai, berhampiran kaunter. Masuk sahaja, saya sudah nampak awak.",
+          "zh": "我在店里，柜台旁边。直接进来吧，我已经看到你了。",
+          "en": "Inside, by the counter. Just come in—I can see you already."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "在门口等候可说 Saya tunggu di luar，以说明位置。对他人说 Tunggu di luar 时，加入 sila 或请对方先稍候的说明会更礼貌。",
+    "usage_etiquette": "orang luar 可指非成员、外地人或不相干的人；直接用它划分本地与外来群体，可能产生排斥感。聊天中的 kat luar 很自然，正式书面语用 di luar。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayo-Polynesian（原始马来—波利尼西亚语）",
+    "root_origin": "所附词源追溯至重建形式 *luqar；星号表示比较语言学重建，并非现存古文献的拼写。",
+    "historical_story": "luar 的来路比许多外来借词更早，所附资料把它接回原始马来—波利尼西亚语的 *luqar。可以借一幅海岛生活画面理解它：跨过家门，便从 dalam 走向 luar；这幅画面用于理解方位，并非某个已考证的造词事件。现代马来语又把这条内外边界搬到国家、组织和思想中，于是有了 luar negara 和 di luar jangkaan。",
+    "cognitive_memory_aid": "脑中画一扇门：di luar 是人在门外，ke luar 是箭头朝外，keluar 是走出去这个动作。"
+  }
+}

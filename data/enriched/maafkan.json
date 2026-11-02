@@ -1,0 +1,151 @@
+{
+  "headword": {
+    "word": "maafkan",
+    "syllables": "",
+    "ipa": "[ma.ʔaf.kan]",
+    "jawi": "",
+    "frequency_rank": 237,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ],
+    "jawi_note": "词根爪夷文: معاف (maaf)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "maaf",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "maaf + -kan → maafkan",
+    "pattern_note": "maafkan 可用于祈使句；完整主动形式为 memaafkan。本批没有 maafkan 的官方分节或 Jawi，两个字段留空；IPA 是依据 maaf 的本地读音加 -kan 的编辑推导，不是 DBP 注音。 核心词根（Kata Dasar）「maaf」官方爪夷文为「معاف」，派生附加 -kan。",
+    "word_family": [
+      {
+        "word": "maaf",
+        "affix": "∅",
+        "gloss": "原谅；抱歉"
+      },
+      {
+        "word": "memaafkan",
+        "affix": "meN-…-kan",
+        "gloss": "原谅某人或其过错"
+      },
+      {
+        "word": "dimaafkan",
+        "affix": "di-…-kan",
+        "gloss": "被原谅"
+      },
+      {
+        "word": "pemaaf",
+        "affix": "peN-",
+        "gloss": "宽容的人；宽容的"
+      }
+    ],
+    "root_jawi": "معاف"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "请原谅；宽恕某人或某项过错。",
+      "ms_definition": "mengampunkan kesalahan (kesilapan dll), tidak menganggap salah dll lagi. (Kamus Dewan Edisi Keempat, entri maaf, subentri memaafkan)",
+      "nuances": "定义依据词根下的 memaafkan，非独立 maafkan 词条。Maafkan saya 是请求别人原谅自己；表示‘我原谅你’则说 Saya memaafkan awak。",
+      "collocations": [
+        {
+          "ms": "maafkan saya",
+          "zh": "请原谅我",
+          "en": "please forgive me"
+        },
+        {
+          "ms": "maafkan kesalahan saya",
+          "zh": "请原谅我的过错",
+          "en": "please forgive me for what I did wrong"
+        }
+      ],
+      "en_definition": "Forgive someone or pardon a mistake or wrongdoing."
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "不好意思；劳驾。用于礼貌打断或引出询问。",
+      "ms_definition": "Huraian editorial berdasarkan penggunaan maaf dalam Kamus Pelajar Edisi Kedua: meminta supaya tidak dimarahi atau supaya dibenarkan melakukan sesuatu.",
+      "nuances": "是 Maafkan saya 的礼貌语用功能，不一定承认实际过错。单说 Maaf, ... 也自然；问时间应说 pukul berapa，而非直译 apa masa。",
+      "collocations": [
+        {
+          "ms": "maafkan saya, boleh saya bertanya?",
+          "zh": "不好意思，可以请教一下吗？",
+          "en": "excuse me, may I ask a question?"
+        },
+        {
+          "ms": "maafkan saya kerana mengganggu",
+          "zh": "不好意思打扰了",
+          "en": "sorry to bother you"
+        }
+      ],
+      "en_definition": "Excuse me; used to interrupt politely or introduce a question."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议致辞／主席就延误致歉",
+      "ms": "Maafkan saya atas kelewatan memulakan mesyuarat pada pagi ini.",
+      "zh": "今天上午会议延迟开始，请各位原谅。",
+      "en": "Please forgive me for the delay in starting this morning's meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友回复迟了，确认晚上的见面安排",
+      "ms_spoken": "Kau senyap je dari tadi. Jadi ke kita jumpa malam ni?",
+      "ms_standard": "Kamu tidak membalas mesej sejak tadi. Adakah kita masih akan berjumpa pada malam ini?",
+      "zh": "你刚才一直没回消息。我们今晚还见面吗？",
+      "spoken_features": [
+        "maafkan aku 是请求对方原谅自己；ya 缓和请求，适合熟人间的道歉。",
+        "sempat nak balas 对应 sempat membalas mesej，表示‘来得及回复消息’；tak 对应 tidak。",
+        "takpe 是 tidak apa 的口语写法，在此还原为正式表达 tidak mengapa；xleh 是聊天缩写，对应 tidak boleh。",
+        "jadi ke 询问安排是否仍然成立；回应中的 Jadi 表示‘照常进行’，不是‘所以’。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Kau senyap je dari tadi. Jadi ke kita jumpa malam ni?",
+          "ms_standard": "Kamu tidak membalas mesej sejak tadi. Adakah kita masih akan berjumpa pada malam ini?",
+          "zh": "你刚才一直没回消息。我们今晚还见面吗？",
+          "en": "You've been quiet for a while. Are we still on for tonight?"
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Maafkan aku ya, tadi tak sempat nak balas. Jadi, pukul lapan macam kita janji.",
+          "ms_standard": "Maafkan saya kerana tidak sempat membalas mesej tadi. Ya, kita akan berjumpa pada pukul lapan seperti yang telah kita janjikan.",
+          "zh": "原谅我哈，刚才没来得及回消息。见的，按说好的八点见。",
+          "en": "Sorry about that, I didn't get a chance to reply earlier. We're still on—eight o'clock, as we agreed."
+        },
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Takpe, aku ingat kau xleh datang. Jumpa nanti!",
+          "ms_standard": "Tidak mengapa, saya menyangka bahawa kamu tidak boleh datang. Kita berjumpa nanti!",
+          "zh": "没事，我还以为你来不了了。一会儿见！",
+          "en": "No worries, I thought you couldn't make it. See you later!"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "maapkan",
+      "full_form": "maafkan",
+      "note": "材料中的非规范口语拼写，反映把 f 写作 p；不是正式马来语拼写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Maafkan saya 适用于跨族群交往；轻微打扰可用较简短的 Maaf, boleh saya ...?。严重失误宜说明责任和补救。",
+    "usage_etiquette": "向长辈或不熟悉的人用 saya；请求原谅后不要用 lah 催促对方接受。候选 maapin 带有印尼口语特征，不列为通用大马聊天缩写。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "Arabic; Classical Persian; Classical Malay",
+    "root_origin": "本地 Kaikki 将 maaf 追溯为阿拉伯语 مُعَافًى，经古典波斯语 مُعَاف 和古典马来语 معَاف 传入；maafkan 是其马来语 -kan 派生。传播链以该资料为依据，具体借入年代未确认。",
+    "historical_story": "随着伊斯兰文化在马来群岛传播，阿拉伯语词汇经多种语言接触进入马来语；现有词源材料把 maaf 的路径联系到古典波斯语与古典马来语，未确定具体港口或年代。进入马来语后，它接上本土后缀 -kan 成为 maafkan，既能请求宽恕，也能在日常问路或打断谈话时放轻语气。",
+    "cognitive_memory_aid": "maaf 是‘抱歉／原谅’，接上 -kan 后想成伸出手请求：‘请原谅我——maafkan saya。’"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "headword": {
+    "word": "hello",
+    "syllables": null,
+    "ipa": "/həˈləʊ/（英语读法）；[he.lo]（马来语 helo 读法）",
+    "jawi": null,
+    "frequency_rank": 318,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hello",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hello → hello；hello → helo（马来语拼写适应）",
+    "pattern_note": "英语整词；马来语规范对应为 helo，减少一个 l 是拼写适应，不是脱落词缀。IPA 标明英语及本地化读法的区别，不声称来自原包中为空的 IPA 字段。hello 的官方分节、Jawi 未提供，保留 null，不套用 helo 的字段。",
+    "word_family": []
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "你好；嗨；用于非正式问候。",
+      "ms_definition": "Padanan Kamus Inggeris-Melayu Dewan: helo; digunakan sebagai sapaan tidak rasmi.",
+      "nuances": "原包是 Kamus Inggeris-Melayu Dewan 的英马对译，并非 hello 的 Kamus Dewan 马来语词头定义；分义说明为编辑转述。kata seru 在本 Schema 中归 particle。DBP 明确指出马来语拼写为 helo，见[DBP 用法答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=helo)。",
+      "collocations": [
+        {
+          "ms": "hello semua",
+          "zh": "大家好（聊天混用）",
+          "en": "hello, everyone"
+        },
+        {
+          "ms": "hello, apa khabar?",
+          "zh": "你好，最近怎么样？",
+          "en": "hello, how are you?"
+        }
+      ],
+      "en_definition": "Used as an informal greeting."
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "喂；用于接通电话、开始通话或确认对方能否听见。",
+      "ms_definition": "Padanan Kamus Inggeris-Melayu Dewan: helo; digunakan untuk memulakan perbualan telefon.",
+      "nuances": "原包英马对译明确包括电话开场，此处为相应的编辑转述。通话中的 hello 可以纯粹用于检查线路，不一定表示惊讶或催促。",
+      "collocations": [
+        {
+          "ms": "hello, boleh saya bercakap dengan",
+          "zh": "喂，我可以跟……通话吗",
+          "en": "hello, may I speak to…"
+        },
+        {
+          "ms": "hello, boleh dengar?",
+          "zh": "喂，听得到吗？",
+          "en": "hello, can you hear me?"
+        }
+      ],
+      "en_definition": "Used to begin a telephone conversation or check whether the other person can hear."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "语言专栏／规范拼写说明",
+      "ms": "Dalam penulisan bahasa Melayu, sapaan bahasa Inggeris “hello” dieja sebagai “helo”.",
+      "zh": "在马来语书写中，英语问候语 hello 拼作 helo。",
+      "en": "In written Malay, the English greeting “hello” is spelt “helo”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp 语音通话 / 朋友确认声音是否清楚",
+      "ms_spoken": "Hello, dengar tak? Aku kat luar ni, bising sikit.",
+      "ms_standard": "Helo, bolehkah awak mendengar suara saya? Saya berada di luar dan keadaan di sini agak bising.",
+      "zh": "喂，听得到吗？我在外面，这边有点吵。",
+      "spoken_features": [
+        "hello 在这里用于开始通话并确认对方能否听见；标准马来语拼写还原为 helo。",
+        "dengar tak、jelas tak 都是省略部分成分的口语疑问结构。",
+        "kat、ni、sikit、jap 分别对应 di、ini、sedikit、sekejap；标准对照按语境调整句法。",
+        "dah masuk dah 重复 dah，强调已经完成进入室内的动作；标准语保留一次 sudah 即可。"
+      ],
+      "messages": [
+        {
+          "speaker": "Daniel (朋友)",
+          "ms_spoken": "Hello, dengar tak? Aku kat luar ni, bising sikit.",
+          "ms_standard": "Helo, bolehkah awak mendengar suara saya? Saya berada di luar dan keadaan di sini agak bising.",
+          "zh": "喂，听得到吗？我在外面，这边有点吵。",
+          "en": "Hello, can you hear me? I'm outside, so it's a bit noisy."
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Dengar, tapi suara kau putus-putus lah. Cuba masuk dalam jap.",
+          "ms_standard": "Saya boleh mendengar suara awak, tetapi suara awak kedengaran terputus-putus. Cuba masuk ke dalam sebentar.",
+          "zh": "听得到，不过你的声音断断续续的。试着进去里面一下。",
+          "en": "Yeah, but you're breaking up. Try going inside for a sec."
+        },
+        {
+          "speaker": "Daniel (朋友)",
+          "ms_spoken": "Okey, dah masuk dah. Sekarang jelas tak?",
+          "ms_standard": "Baiklah, saya sudah masuk ke dalam. Adakah suara saya jelas sekarang?",
+          "zh": "好，已经进来了。现在清楚吗？",
+          "en": "Okay, I'm inside now. Can you hear me clearly now?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "helloo",
+      "full_form": "hello",
+      "note": "重复 o 表示拖长声音或亲切语气，并非真正缩写；马来语规范写法为 helo。"
+    },
+    {
+      "abbr": "hellooooooo",
+      "full_form": "hello",
+      "note": "原包的夸张拖音写法；可能表示热情，也可能是在提醒对方回复。"
+    },
+    {
+      "abbr": "helooooo",
+      "full_form": "helo",
+      "note": "在马来语拼写 helo 上重复 o；聊天用，正式书写去掉多余字母。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "hello 常用于英语混用聊天，helo 是马来语规范拼写。正式接听电话时，问候后可补单位名称或自报姓名。",
+    "usage_etiquette": "反复发送 Hello??? 或拖长拼写可能让对方感到被催促；催问前先给对方合理回复时间。对不熟悉英语混用的人，用 helo 或 selamat sejahtera 更清楚。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "英语",
+    "root_origin": "英语 hello；其马来语对应拼写是 helo，不在现代马来语中继续拆分。关于英语词本身更早的来源，所给资料没有证据，不补造。",
+    "historical_story": "hello 从英语进入马来语交流后，在规范拼写中成为 helo，在混用聊天里仍常保留原来的双 l。DBP 的用法答复指出，P. Ramlee 时代的旧电影已能看到用 helo 开始电话交谈，参见[DBP 关于 helo 的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=helo)。从电话那头的一声招呼，到手机上的一行问候，这个词都在承担开启交流的作用。",
+    "cognitive_memory_aid": "英语 hello 有两个 l；换成马来语 helo，留下一个 l，意思还是“你好／喂”。"
+  }
+}

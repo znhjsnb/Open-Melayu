@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "lahir",
+    "syllables": "la.hir",
+    "ipa": "/la.hir/",
+    "jawi": "لاهير",
+    "frequency_rank": 1050,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "lahir",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + lahir → lahir",
+    "pattern_note": "整词为词根，无前后缀；h 保留发音。加 meN-…-kan 时，meN- 在 l 前呈现 me-，形成 melahirkan，词首 l 保留。",
+    "word_family": [
+      {
+        "word": "melahirkan",
+        "affix": "meN-…-kan",
+        "gloss": "生下；表达"
+      },
+      {
+        "word": "kelahiran",
+        "affix": "ke-…-an",
+        "gloss": "出生；诞生"
+      },
+      {
+        "word": "dilahirkan",
+        "affix": "di-…-kan",
+        "gloss": "出生；被生下"
+      }
+    ],
+    "root_jawi": "لاهير"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "出生；诞生，指婴儿从母体来到世上。",
+      "en_definition": "To be born; to come into the world as a baby.",
+      "ms_definition": "Keluar daripada kandungan ibu ke dunia; dilahirkan.",
+      "nuances": "本条聚焦“出生”这一核心义。lahir 的主语是出生者，如 Bayi itu lahir semalam；母亲“生下孩子”用 melahirkan anak，不能把 lahir 直接当作带宾语的“生育”。tarikh lahir 是出生日期。[马来西亚官方出生数据用语](https://data.gov.my/ms-MY/data-catalogue/births)。",
+      "collocations": [
+        {
+          "ms": "baru lahir",
+          "zh": "刚出生",
+          "en": "newborn"
+        },
+        {
+          "ms": "lahir pramatang",
+          "zh": "早产",
+          "en": "born prematurely"
+        },
+        {
+          "ms": "tarikh lahir",
+          "zh": "出生日期",
+          "en": "date of birth"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 新生儿健康报道",
+      "ms": "Bayi yang lahir pramatang itu kini berada dalam keadaan stabil.",
+      "zh": "那名早产婴儿目前情况稳定。",
+      "en": "The baby who was born prematurely is now in a stable condition."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友分享新生儿消息",
+      "ms_spoken": "Anak kakak saya dah lahir pagi tadi!",
+      "ms_standard": "Anak kakak saya sudah lahir pada pagi tadi.",
+      "zh": "我姐姐的宝宝今天早上出生啦！",
+      "en": "My sister's baby was born this morning!",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "口语时间短语 pagi tadi 前常省略 pada。",
+        "回复中的 lah 表达亲近、积极的回应。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Anak kakak saya dah lahir pagi tadi!",
+          "ms_standard": "Anak kakak saya sudah lahir pada pagi tadi.",
+          "zh": "我姐姐的宝宝今天早上出生啦！",
+          "en": "My sister's baby was born this morning!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Wah, tahniah! Saya nak datang melawat bila kakak awak dah sedia lah.",
+          "ms_standard": "Wah, tahniah! Saya hendak datang melawat apabila kakak awak sudah bersedia.",
+          "zh": "哇，恭喜！等你姐姐方便了，我想去探望一下。",
+          "en": "Wow, congratulations! I'd like to come and visit when your sister's ready."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "lhir",
+      "full_form": "lahir",
+      "note": "私人短信中的省元音写法；出生登记、医疗资料和正式祝福中使用完整拼写。"
+    },
+    {
+      "abbr": "lhirr",
+      "full_form": "lahir",
+      "note": "非正式聊天中的变体，含省略元音和重复末字母；不是标准拼写。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "收到婴儿出生的消息，可说 Tahniah atas kelahiran bayi anda，并祝母婴安康；探访前先确认家属是否方便。",
+    "usage_etiquette": "询问个人出生资料时说明用途，避免在群聊中随意公开完整出生日期。讲出生地点用 lahir di，讲日期用 lahir pada。"
+  },
+  "etymology": {
+    "origin": "Arabic",
+    "source_language": "阿拉伯语",
+    "root_origin": "ظَاهِر（ẓāhir，显现的；外在的）",
+    "cognitive_memory_aid": "把“从里面来到外面、进入可见世界”连成一幅出生画面，就能把历史上的“显现”与现代常用义“出生”联系起来。",
+    "historical_story": "lahir 与阿拉伯语 ẓāhir 的“外在、显现”意义有关；借入后的语音变化，使它与马来语 zahir 保持词源联系，却采用不同的词首辅音。[DBP 刊载研究](https://dev.dbp.my/index.php/Melayu/en/article/download/4471/1336/15280)。在马来语的发展中，它也获得“出生”的常用义，可用“来到可见的世界”理解这种语义联系，但这是一种帮助理解的解释，并非已确定的历史发生场景。[阿拉伯语借词研究](https://www.pertanika.upm.edu.my/resources/files/Pertanika%20PAPERS/JSSH%20Vol.%2023%20%283%29%20Sep.%202015/08%20JSSH%201102-2014.pdf)。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "收到婴儿出生的消息，可说 Tahniah atas kelahiran bayi anda，并祝母婴安康；探访前先确认家属是否方便。",
+    "usage_etiquette": "询问个人出生资料时说明用途，避免在群聊中随意公开完整出生日期。讲出生地点用 lahir di，讲日期用 lahir pada。"
+  }
+}

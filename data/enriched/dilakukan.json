@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "dilakukan",
+    "syllables": null,
+    "ipa": "/ˌdilaˈkukan/",
+    "jawi": null,
+    "frequency_rank": 555,
+    "tags": [
+      "CEFR-A2",
+      "公文标准"
+    ],
+    "jawi_note": "词根爪夷文: لاکو (laku)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "laku",
+    "affix": "di-…-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + laku + -kan → dilakukan",
+    "pattern_note": "laku 接 -kan 构成及物词干，di- 标记被动；主动对应 melakukan。模板归类为 circumfix，但 di- 与 -kan 各自承担被动及及物构词功能；不是把 lakukan 误认作最终词根。di- 与词干连写，有别于地点介词 di。官方音节、Jawi 未提供，保留 null。 核心词根（Kata Dasar）「laku」官方爪夷文为「لاکو」，派生附加 di-…-kan。",
+    "word_family": [
+      {
+        "word": "laku",
+        "affix": "none",
+        "gloss": "行为；畅销；有效，依语境而定"
+      },
+      {
+        "word": "lakukan",
+        "affix": "-kan",
+        "gloss": "做；执行（常见于指令）"
+      },
+      {
+        "word": "melakukan",
+        "affix": "meN-…-kan",
+        "gloss": "做；进行；实施"
+      },
+      {
+        "word": "pelaku",
+        "affix": "pe-",
+        "gloss": "行为实施者"
+      },
+      {
+        "word": "perlakuan",
+        "affix": "per-…-an",
+        "gloss": "行为；做法"
+      }
+    ],
+    "root_jawi": "لاکو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被做；被执行；被进行或实施",
+      "ms_definition": "menjalankan (tugas), membuat (kerja dll), mengerjakan",
+      "nuances": "引自词根 laku 下 melakukan 的《Kamus Dewan》第四版第一义，已合并排版断字；dilakukan 是它的被动对应形式，并非独立词条原文。来源：https://prpm.dbp.gov.my/Cari1?d=246792&keyword=laku 。常以工作、检查、活动作主语；可与 telah、sedang、akan 搭配，本身不表示过去时。",
+      "collocations": [
+        {
+          "ms": "pemeriksaan dilakukan",
+          "zh": "进行检查；检查被实施",
+          "en": "an inspection is carried out"
+        },
+        {
+          "ms": "perlu dilakukan",
+          "zh": "需要做；需要实施",
+          "en": "needs to be done"
+        }
+      ],
+      "en_definition": "Done, carried out, or performed."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 设施检查通报",
+      "ms": "Pemeriksaan berkala akan dilakukan oleh pihak berkuasa bagi memastikan semua kemudahan awam berada dalam keadaan baik.",
+      "zh": "当局将定期进行检查，确保所有公共设施状况良好。",
+      "en": "Regular inspections will be carried out by the authorities to ensure that all public facilities are in good condition."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认报告发送前的核查进度",
+      "ms_spoken": "Semakan tu dah dilakukan ke? Saya nak hantar laporan kat klien petang ni.",
+      "ms_standard": "Adakah semakan itu sudah dilakukan? Saya hendak menghantar laporan kepada klien pada petang ini.",
+      "zh": "核查已经做了吗？我想今天下午把报告发给客户。",
+      "spoken_features": [
+        "dilakukan 保留被动结构，突出核查是否已经完成，适合工作聊天。",
+        "tu 和 dah 分别对应 itu 和 sudah；句末 ke 表示询问。",
+        "kat 在发送对象前对应 kepada。",
+        "jap lagi 对应 sebentar lagi；句末 ya 柔化告知的语气。",
+        "回答 Dah 省略了前文已经明确的 semakan itu sudah dilakukan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (项目负责人)",
+          "ms_spoken": "Semakan tu dah dilakukan ke? Saya nak hantar laporan kat klien petang ni.",
+          "ms_standard": "Adakah semakan itu sudah dilakukan? Saya hendak menghantar laporan kepada klien pada petang ini.",
+          "zh": "核查已经做了吗？我想今天下午把报告发给客户。",
+          "en": "Has that review been done yet? I want to send the report to the client this afternoon."
+        },
+        {
+          "speaker": "Siti (项目同事)",
+          "ms_spoken": "Dah, semua angka dah betul. Saya hantar versi akhir kat awak jap lagi ya.",
+          "ms_standard": "Ya, semakan itu sudah dilakukan dan semua angka sudah betul. Saya akan menghantar versi akhir kepada awak sebentar lagi.",
+          "zh": "做了，所有数字都已经核对无误。我一会儿把最终版发给你呀。",
+          "en": "Yes, all the figures have been checked and they're correct. I'll send you the final version in a bit, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "被动式适合公告、报告和工作沟通，可突出事项本身。向同事询问 Kemaskini sudah dilakukan? 时，加入请托或称呼可让语气更柔和。",
+    "usage_etiquette": "正式第三人称被动可说 dilakukan oleh pihak sekolah；第一、第二人称施事前置的规范结构用 kerja itu saya lakukan、kerja itu perlu anda lakukan。日常工作消息可直接问 Sudah buat semakan?，但这属于句式替换，不是 dilakukan 的缩写。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "马来语；词根可能联系原始马来－波利尼西亚语",
+    "root_origin": "dilakukan 是马来语内部 di- + laku + -kan 的构词；本地 Kaikki 仅推测 laku 可能与 *lakaw（去、走）相关，此远源不能视为定论。",
+    "historical_story": "在词根 laku 周围，马来语形成了描述行为、做事与事情发生的一组词，如 kelakuan、melakukan 和 berlaku。di- 把叙述焦点从做事的人转向被完成的事项，于是 melakukan pemeriksaan 可以换成 pemeriksaan dilakukan。今天的报告沿用这套构词机制说明检查或工作如何进行；把 laku 更远追溯到‘走’的重建形式仍只是词源推测。",
+    "cognitive_memory_aid": "melakukan：某人做事；dilakukan：事情被做。用 Pemeriksaan dilakukan oleh pegawai 记住‘检查由工作人员进行’。"
+  }
+}

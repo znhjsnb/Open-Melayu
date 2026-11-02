@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "saya",
+    "syllables": "sa.ya",
+    "ipa": "/ˈsajə/",
+    "jawi": "ساي",
+    "frequency_rank": 1,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "saya",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + saya → saya",
+    "pattern_note": "现代马来语中为独立代词，无能产词缀。历史上的 sahaya → saya 是词形缩短，不是现代加缀规则；∅ 表示无词缀。",
+    "word_family": [
+      {
+        "word": "sahaya",
+        "affix": "none",
+        "gloss": "古雅形式；历史来源 / archaic related form; historical source"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "我；第一人称单数代词，表达礼貌、中性距离，可作主语、宾语或后置领属语。",
+      "en_definition": "I; me; my when placed after a noun. A polite, neutral first-person singular pronoun.",
+      "ms_definition": "ganti nama diri pertama (lebih halus drpd aku), hamba",
+      "nuances": "DBP《Kamus Dewan》第四版义项。Saya datang（我来）、untuk saya（给我）、buku saya（我的书）中的 saya 不随语法位置变化；不因说话者性别变化。词频第 1 名仅指本项目 OpenSubtitles 马来语字幕语料。音标采用半岛南部常见读法 /ˈsajə/；清晰的 /ˈsaja/ 读法也见于所给语音资料。",
+      "collocations": [
+        {
+          "ms": "nama saya",
+          "zh": "我的名字",
+          "en": "my name"
+        },
+        {
+          "ms": "rumah saya",
+          "zh": "我的家；我的房子",
+          "en": "my home; my house"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "是；在传统或郑重语境中应答呼唤、表示应承。",
+      "en_definition": "Yes; a traditional deferential response to a call or an acknowledgement.",
+      "ms_definition": "ya, benar",
+      "nuances": "DBP《Kamus Dewan》第四版义项。Saya, tuan 是应答语，不是省略宾语的“我”。此用法较传统；日常回答普通是非问句通常用 ya。Schema 无 interjection，故应答义归入 particle。",
+      "collocations": [
+        {
+          "ms": "Ya, saya",
+          "zh": "是，遵命（下属向长官应答）",
+          "en": "Yes, sir."
+        },
+        {
+          "ms": "Saya, tuan",
+          "zh": "在，长官（军警或正式应答）",
+          "en": "Here, sir."
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议发言 / 正式工作汇报",
+      "ms": "Saya ingin mengucapkan terima kasih kepada semua pihak yang menjayakan program ini.",
+      "zh": "我谨向所有促成本次活动成功举办的各方致谢。",
+      "en": "I would like to thank everyone who helped make this programme a success."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 向同事告知到达地点",
+      "ms_spoken": "Saya dah sampai kat lobi. Awak kat mana?",
+      "ms_standard": "Saya sudah sampai di lobi. Awak di mana?",
+      "zh": "我到大厅了。你在哪儿？",
+      "en": "I'm at the lobby already. Where are you?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略，表示已经。",
+        "kat 在这里对应表示地点的 di。",
+        "saya 可自然用于轻松口语，并非只用于公文。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hafiz (同事)",
+          "ms_spoken": "Kau dah lunch ke?",
+          "ms_standard": "Awak sudah makan tengah hari ke?",
+          "zh": "你吃午饭了吗？",
+          "en": "Have you had lunch yet?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Belum, saya baru nak keluar ni.",
+          "ms_standard": "Belum, saya baru mahu keluar ini.",
+          "zh": "还没呢，我正准备出去。",
+          "en": "Not yet. I'm just about to head out."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "sy",
+      "full_form": "saya",
+      "note": "聊天中常见的省元音写法；本地 Kaikki 记录有此形式。正式书写还原为 saya。"
+    },
+    {
+      "abbr": "sya",
+      "full_form": "saya",
+      "note": "非正式聊天拼写；本地 Malaya 规则可见，不是标准正字法。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向陌生人、长辈、老师、客户或上司自称时，saya 通常是稳妥起点，不限族群。它比 aku 更有礼貌和距离感，但不是卑称，也不表示说话者地位较低。",
+    "usage_etiquette": "可搭配 tuan、puan、encik、cik 或对方的职衔来称呼对方；不要以为自称 saya 就可以随意把长辈称为 awak。亲友间用 saya 也正常，无需为了显得地道而改用 aku。"
+  },
+  "etymology": {
+    "origin": "Sanskrit",
+    "source_language": "Sanskrit, through Malay sahaya",
+    "root_origin": "所给 Kaikki 资料将 saya 解释为 sahaya 的缩短形式，追溯至梵语 sahāya（同伴、助手、随从）。这是历史借源；现代 saya 是标准马来语代词。",
+    "cognitive_memory_aid": "先记一句 Saya mahu belajar（我想学习）：见老师或初次见面，自称先选 saya。此为使用记忆法，不是词源拆字。",
+    "historical_story": "saya 来源于梵语 sahāya（伴侣、随从），在古马来语及古典文学中先借入为 sahaya / hamba sahaya（仆从、奴仆），古代臣民对君主或平民向上级回话时自称‘仆人’以示谦卑。到了近代，该词逐渐演化为现代标准马来语中最通用、最礼貌的第一人称代词，彻底褪去了最初的人身依附与仆从阶层色彩，成为跨越族群、职场与教育场合最中正、得体的中性第一人称自称。"
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "bos": {
+    "context": "WhatsApp / 同事确认上司是否已到办公室",
+    "messages": [
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Bos dah sampai kat pejabat ke? Aku nak jumpa dia kejap.",
+        "ms_standard": "Adakah bos sudah sampai di pejabat? Saya hendak berjumpa dengannya sebentar.",
+        "zh": "老板到办公室了吗？我想找他一下。"
+      },
+      {
+        "speaker": "Aina (同事)",
+        "ms_spoken": "Dah, tapi dia tengah mesyuarat. Tunggu dulu lah, nanti aku bagitahu bila dia dah habis.",
+        "ms_standard": "Sudah, tetapi beliau sedang bermesyuarat. Tunggulah dahulu. Saya akan memberitahu kamu apabila mesyuaratnya selesai.",
+        "zh": "到了，不过他正在开会。先等等吧，等他开完我告诉你。"
+      }
+    ],
+    "spoken_features": [
+      "dah 对应 sudah；kat 在地点表达中对应 di。",
+      "句尾 ke 标记是非问句；标准句可改用句首 Adakah。",
+      "kejap 对应 sebentar，bagitahu 对应 memberitahu。",
+      "aku 适用于熟悉的同事；lah 在这里缓和让对方等待的语气。"
+    ]
+  },
+  "hubungi": {
+    "context": "WhatsApp / 刚认识的朋友约在公寓大厅见面",
+    "messages": [
+      {
+        "speaker": "Mei (新认识的朋友)",
+        "ms_spoken": "Saya dah dekat ni. Nak tunggu kat lobi ke?",
+        "ms_standard": "Saya sudah hampir tiba. Perlukah saya menunggu di lobi?",
+        "zh": "我快到了。要在大厅等吗？"
+      },
+      {
+        "speaker": "Aina (新认识的朋友)",
+        "ms_spoken": "Ya, nanti dah sampai, hubungi saya ya. Saya turun jumpa awak kat lobi.",
+        "ms_standard": "Ya, apabila sudah tiba nanti, sila hubungi saya. Saya akan turun untuk berjumpa dengan awak di lobi.",
+        "zh": "对，到了联系我一下哦。我下楼到大厅找你。"
+      }
+    ],
+    "spoken_features": [
+      "dah dekat ni 表示已经快到了；ni 将话语联系到眼下的情况。",
+      "Nak tunggu…ke? 省略主语，结合约见语境询问是否需要在某处等待。",
+      "nanti dah sampai 省略 apabila，标准句可补为 apabila sudah tiba nanti。",
+      "hubungi 是规范动词，也可用于较客气的聊天；请求末尾的 ya 柔化语气。"
+    ]
+  },
+  "menerima": {
+    "context": "WhatsApp / 好友确认是否决定接受工作邀约",
+    "messages": [
+      {
+        "speaker": "Haziq (好友)",
+        "ms_spoken": "Kau dah buat keputusan pasal tawaran kerja tu?",
+        "ms_standard": "Adakah kamu sudah membuat keputusan tentang tawaran kerja itu?",
+        "zh": "那份工作邀约，你决定好了吗？"
+      },
+      {
+        "speaker": "Amir (好友)",
+        "ms_spoken": "Dah, aku dah menerima tawaran tu. Bulan depan baru mula kerja!",
+        "ms_standard": "Sudah, saya sudah menerima tawaran itu. Saya hanya akan mula bekerja pada bulan hadapan.",
+        "zh": "决定了，我已经接受那份邀约了。下个月才开始上班！"
+      }
+    ],
+    "spoken_features": [
+      "前一轮询问决定，后一轮确认接受，使 menerima 明确表示接受邀约。",
+      "kau／aku 用于亲近朋友之间；标准对应句采用 kamu／saya。",
+      "pasal 在这里对应 tentang，tu 对应 itu，dah 对应 sudah。",
+      "baru 在这里表示到下个月才开始；规范动词 menerima 可以与口语表达并用。"
+    ]
+  },
+  "menunjukkan": {
+    "context": "WhatsApp / 同事分享应用操作教学视频",
+    "messages": [
+      {
+        "speaker": "Nadia (同事)",
+        "ms_spoken": "Aku tak reti nak hantar tuntutan guna aplikasi ni. Kau pernah buat tak?",
+        "ms_standard": "Saya tidak tahu cara menghantar tuntutan menggunakan aplikasi ini. Adakah kamu pernah melakukannya?",
+        "zh": "我不会用这个应用提交报销申请。你以前弄过吗？"
+      },
+      {
+        "speaker": "Farhan (同事)",
+        "ms_spoken": "Pernah. Video ni menunjukkan cara nak hantar tuntutan tu. Cuba tengok dulu, kalau sangkut mesej aku je.",
+        "ms_standard": "Pernah. Video ini menunjukkan cara menghantar tuntutan itu. Cuba tonton video ini dahulu. Jika kamu menghadapi kesukaran, hantarkan mesej kepada saya.",
+        "zh": "弄过。这个视频有演示怎么提交报销申请。先看看，卡住了就给我发消息。"
+      }
+    ],
+    "spoken_features": [
+      "tak reti nak… 表示不知道怎么做，标准句可还原为 tidak tahu cara…。",
+      "ni／tu 对应 ini／itu；cara nak hantar 对应 cara menghantar。",
+      "menunjukkan 保留规范词形，在这里表示演示操作方法。",
+      "sangkut 在这里比喻操作遇到困难；mesej aku je 表示直接给我发消息就行，je 对应 sahaja。"
+    ]
+  },
+  "kekuatan": {
+    "context": "WhatsApp / 同组同学在汇报前互相打气",
+    "messages": [
+      {
+        "speaker": "Siti (同组同学)",
+        "ms_spoken": "Aku risau lah pasal pembentangan esok. Kumpulan lain nampak hebat-hebat.",
+        "ms_standard": "Saya berasa risau tentang pembentangan esok. Kumpulan lain kelihatan sangat hebat.",
+        "zh": "我有点担心明天的汇报。其他组看起来都很厉害。"
+      },
+      {
+        "speaker": "Hana (同组同学)",
+        "ms_spoken": "Kekuatan kita kan kerja berpasukan. Jom latihan sekali lagi malam ni, aku tolong kau bahagian penutup.",
+        "ms_standard": "Kekuatan kita ialah keupayaan bekerja secara berpasukan. Marilah kita berlatih sekali lagi pada malam ini. Saya akan membantu kamu dengan bahagian penutup.",
+        "zh": "我们的强项就是团队合作嘛。今晚再练一次吧，结尾那部分我帮你。"
+      }
+    ],
+    "spoken_features": [
+      "kekuatan 在这里指团队具备的实力或优势。",
+      "kan 唤起双方已有的共识，带有‘你也知道嘛’的语气。",
+      "jom 用于邀请一起行动；jom latihan 在聊天中可理解为一起练习，标准句用 marilah kita berlatih。",
+      "malam ni 对应 pada malam ini；aku tolong kau 省略主动动词前缀，标准句用 saya akan membantu kamu。"
+    ]
+  },
+  "letakkan": {
+    "context": "WhatsApp / 母亲请孩子把车钥匙放在固定位置",
+    "messages": [
+      {
+        "speaker": "Ibu (母亲)",
+        "ms_spoken": "Amir, tolong letakkan kunci kereta kat atas meja dekat pintu ya. Esok ibu nak keluar awal.",
+        "ms_standard": "Amir, tolong letakkan kunci kereta di atas meja berhampiran pintu. Esok ibu hendak keluar awal.",
+        "zh": "阿米尔，帮忙把车钥匙放在门边的桌上哦。妈妈明天要早点出门。"
+      },
+      {
+        "speaker": "Amir (儿子)",
+        "ms_spoken": "Dah letak, bu. Sebelah beg ibu je, senang nak nampak.",
+        "ms_standard": "Saya sudah meletakkannya, ibu. Kunci itu berada betul-betul di sebelah beg ibu supaya mudah dilihat.",
+        "zh": "放好了，妈。就在你的包旁边，很容易看到。"
+      }
+    ],
+    "spoken_features": [
+      "tolong 配合 letakkan 构成请求；letakkan 保留适用于指示或请求的词形。",
+      "kat atas 对应 di atas，nak 对应 hendak。",
+      "Dah letak 省略主语和宾语，回复中也采用较简短的 letak；标准句可补为 saya sudah meletakkannya。",
+      "bu 是对 ibu 的亲昵称呼；je 在这里带有‘就在旁边’的语气。"
+    ]
+  },
+  "bukanlah": {
+    "context": "WhatsApp / 好友澄清暂时无法帮忙搬家的原因",
+    "messages": [
+      {
+        "speaker": "Haziq (好友)",
+        "ms_spoken": "Kau tak nak tolong aku pindah ke? Dari tadi senyap je.",
+        "ms_standard": "Adakah kamu tidak mahu membantu saya berpindah? Sejak tadi kamu tidak memberikan sebarang jawapan.",
+        "zh": "你是不想帮我搬家吗？从刚才起就一直没回话。"
+      },
+      {
+        "speaker": "Amir (好友)",
+        "ms_spoken": "Aku bukanlah tak nak tolong, cuma sekarang tengah sibuk sikit. Lepas pukul tiga aku boleh datang.",
+        "ms_standard": "Saya bukanlah tidak mahu membantu, cuma saya sedang agak sibuk sekarang. Selepas pukul tiga, saya boleh datang.",
+        "zh": "我又不是不想帮，只是现在有点忙。三点以后我可以过来。"
+      }
+    ],
+    "spoken_features": [
+      "bukanlah tak nak tolong…cuma… 用于否定对方的推测，再说明实际原因。",
+      "tak nak 对应 tidak mahu；这里否定的是不愿帮忙的说法。",
+      "tengah 对应 sedang；sibuk sikit 在这里表示有点忙，标准句可用 agak sibuk。",
+      "senyap je 在聊天语境中表示一直没回应；lepas 在时间表达中对应 selepas。"
+    ]
+  },
+  "panggilan": {
+    "context": "WhatsApp / 好友解释漏接电话并安排回拨",
+    "messages": [
+      {
+        "speaker": "Nadia (好友)",
+        "ms_spoken": "Aku telefon kau tadi, tapi tak berjawab. Kau tengah sibuk ke?",
+        "ms_standard": "Saya menelefon kamu tadi, tetapi panggilan saya tidak berjawab. Adakah kamu sedang sibuk?",
+        "zh": "我刚才给你打电话了，不过没人接。你正在忙吗？"
+      },
+      {
+        "speaker": "Hana (好友)",
+        "ms_spoken": "Maaf, tadi tak sempat jawab panggilan kau sebab tengah memandu. Aku dah sampai rumah ni. Nak aku telefon balik sekarang?",
+        "ms_standard": "Maaf, saya tidak sempat menjawab panggilan kamu tadi kerana sedang memandu. Saya sudah tiba di rumah sekarang. Mahukah kamu saya telefon semula sekarang?",
+        "zh": "不好意思，刚才在开车，没来得及接你的电话。我现在已经到家了。要我现在回拨吗？"
+      }
+    ],
+    "spoken_features": [
+      "panggilan 在这里明确指电话呼叫；jawab panggilan 对应 menjawab panggilan。",
+      "tak／tengah／dah 分别对应 tidak／sedang／sudah。",
+      "sebab 在这里引出原因，标准句用 kerana。",
+      "telefon balik 表示回拨；Nak aku…? 是询问对方是否希望自己做某事的口语句式。"
+    ]
+  },
+  "oke": {
+    "context": "WhatsApp / 朋友发送集合地点后确认赴约",
+    "messages": [
+      {
+        "speaker": "Haziq (朋友)",
+        "ms_spoken": "Aku dah hantar lokasi kedai tu. Kita jumpa kat situ pukul lapan ya?",
+        "ms_standard": "Saya sudah menghantar lokasi kedai itu. Bolehkah kita berjumpa di situ pada pukul lapan?",
+        "zh": "我把那家店的定位发过去了。我们八点在那里见，好吗？"
+      },
+      {
+        "speaker": "Amir (朋友)",
+        "ms_spoken": "Oke, aku dah tengok lokasi tu. Jumpa nanti! Kalau lambat sikit, aku mesej kau.",
+        "ms_standard": "Baiklah, saya sudah melihat lokasi itu. Kita berjumpa nanti. Jika saya akan lewat sedikit, saya akan menghantar mesej kepada kamu.",
+        "zh": "好，我看过定位了。待会儿见！要是会晚一点，我就给你发消息。"
+      }
+    ],
+    "spoken_features": [
+      "oke 保留题定拼写，在这里表示同意安排；标准对应句用 baiklah。",
+      "dah／tu／kat 分别对应 sudah／itu／di。",
+      "Jumpa nanti! 是省略主语的告别用语，表示待会儿见。",
+      "kalau lambat sikit 省略主语，意为如果自己会稍晚到；mesej 在这里作动词使用。"
+    ]
+  },
+  "bimbang": {
+    "context": "WhatsApp / 母亲因孩子迟回消息而担心，孩子报平安",
+    "messages": [
+      {
+        "speaker": "Ibu (母亲)",
+        "ms_spoken": "Dah sampai rumah ke? Dari tadi ibu mesej tak berbalas. Ibu bimbang ni.",
+        "ms_standard": "Adakah kamu sudah tiba di rumah? Sejak tadi, mesej ibu belum berbalas. Ibu berasa bimbang sekarang.",
+        "zh": "到家了吗？妈妈从刚才起发的消息都没收到回复。妈妈很担心。"
+      },
+      {
+        "speaker": "Aina (女儿)",
+        "ms_spoken": "Dah sampai, bu. Jangan bimbang ya. Tadi telefon dalam beg, tak perasan ibu mesej.",
+        "ms_standard": "Saya sudah tiba di rumah, ibu. Jangan bimbang. Tadi telefon saya berada di dalam beg, jadi saya tidak menyedari bahawa ibu menghantar mesej.",
+        "zh": "已经到了，妈。别担心哦。刚才手机放在包里，没注意到你发消息。"
+      }
+    ],
+    "spoken_features": [
+      "bimbang 在这里表示担心亲人的安全；Jangan bimbang 用于安抚对方。",
+      "dah 对应 sudah；句尾 ke 标记是非问句。",
+      "ni 强调母亲眼下的担忧；安抚句末的 ya 使语气温和。",
+      "tak perasan 表示没有注意到；telefon dalam beg 省略物主和表示所在的 berada，标准句可补出。"
+    ]
+  }
+}

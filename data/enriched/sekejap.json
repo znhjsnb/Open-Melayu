@@ -1,0 +1,160 @@
+{
+  "headword": {
+    "word": "sekejap",
+    "syllables": "se.ke.jap",
+    "ipa": "[sə.kə.d͡ʒap̚]",
+    "jawi": "سکجڤ",
+    "frequency_rank": 504,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kejap",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + kejap → sekejap",
+    "pattern_note": "se- 表示‘一’，此处 kejap 是眨眼、短暂片刻义，构成‘一瞬、片刻’；不要与表示紧固的同形 kejap 混淆。两个 e 都读央元音 [ə]，j 读 [d͡ʒ]，词尾 p 常不爆破。分音照录 se.ke.jap；Jawi 原包损坏为问号，原样保留。",
+    "word_family": [
+      {
+        "word": "kejap",
+        "affix": "∅",
+        "gloss": "眨眼；片刻；也用作 sekejap 的短形式"
+      },
+      {
+        "word": "sekejap-sekejap",
+        "affix": "重叠，非词缀",
+        "gloss": "时不时；隔一会儿就……"
+      },
+      {
+        "word": "berkejap-kejap",
+        "affix": "ber- + 重叠",
+        "gloss": "不断眨眼；闪烁"
+      },
+      {
+        "word": "kejapan",
+        "affix": "-an",
+        "gloss": "眨眼的动作"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "一会儿；片刻；短暂地；表示持续时间很短。",
+      "ms_definition": "sebentar, seketika.",
+      "nuances": "跟在动作后面时常说明持续多久，如 berehat sekejap。独立说 Sekejap! 常是‘等一下’，不一定承诺精确的一分钟；在正式通知中可选较庄重的 sebentar。",
+      "collocations": [
+        {
+          "ms": "tunggu sekejap",
+          "zh": "等一下",
+          "en": "wait a moment"
+        },
+        {
+          "ms": "berehat sekejap",
+          "zh": "休息一会儿",
+          "en": "take a short break"
+        }
+      ],
+      "en_definition": "For a moment; for a short time."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "很快；再过一会儿；与 lagi 等词组合表示不久以后。",
+      "ms_definition": "sebentar, seketika.",
+      "nuances": "这是同一个‘片刻’义在时间定位上的用法，并非另有‘将来’词缀。sekejap lagi 强调从现在起再过不久；sekejap sahaja 也可强调事情完成得快，具体由动词和上下文决定。",
+      "collocations": [
+        {
+          "ms": "sekejap lagi",
+          "zh": "再过一会儿；待会儿",
+          "en": "in a little while"
+        },
+        {
+          "ms": "sampai sekejap lagi",
+          "zh": "再过一会儿就到",
+          "en": "arrive shortly"
+        }
+      ],
+      "en_definition": "Soon; in a short while, especially when followed by lagi."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "电视新闻／直播节目转场",
+      "ms": "Siaran langsung sidang media itu akan bermula sekejap lagi selepas laporan cuaca.",
+      "zh": "天气报告结束后，该记者会的现场直播将于稍后开始。",
+      "en": "The live broadcast of the press conference will begin shortly after the weather report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友开车到楼下接人",
+      "ms_spoken": "Aku dah sampai bawah. Kau dah siap ke?",
+      "ms_standard": "Saya sudah tiba di bawah bangunan. Adakah kamu sudah bersedia?",
+      "zh": "我到楼下了。你准备好了吗？",
+      "spoken_features": [
+        "sekejap 在这里请求对方短暂等待，不表示确定的秒数或分钟数。",
+        "sampai bawah 省略可从接人场景推知的地点成分，标准对照补出 di bawah bangunan。",
+        "dah、nak、je、kat 分别对应 sudah、hendak、sahaja、di。",
+        "dah nak turun ni 整体表示马上就要下楼；不能逐字理解为‘已经想下楼’。",
+        "句末 ke 构成口语是非问句；ambil 对应 mengambil。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai bawah. Kau dah siap ke?",
+          "ms_standard": "Saya sudah tiba di bawah bangunan. Adakah kamu sudah bersedia?",
+          "zh": "我到楼下了。你准备好了吗？",
+          "en": "I'm downstairs. Are you ready?"
+        },
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Tunggu sekejap, aku nak ambil kunci. Dah nak turun ni.",
+          "ms_standard": "Tunggu sekejap, saya hendak mengambil kunci. Saya akan turun sebentar lagi.",
+          "zh": "等一下，我拿个钥匙。这就下来了。",
+          "en": "Hang on, let me grab my keys. I'm just about to come down."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Okey, aku tunggu dalam kereta je. Kat luar panas.",
+          "ms_standard": "Baiklah, saya akan menunggu di dalam kereta sahaja. Cuaca di luar panas.",
+          "zh": "好，我就在车里等。外面热。",
+          "en": "Okay, I'll just wait in the car. It's hot outside."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "kejap",
+      "full_form": "sekejap",
+      "note": "日常口语与聊天常见的短形式；kejap 本身也有词典中的‘片刻’义，不是随意创造的拼写。"
+    },
+    {
+      "abbr": "jap",
+      "full_form": "sekejap",
+      "note": "更短的聊天形式，如 tunggu jap；适合非正式交流。"
+    },
+    {
+      "abbr": "kjp",
+      "full_form": "sekejap",
+      "note": "由 kejap 省略元音的短信写法；正式写作使用完整形式。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "请顾客或长辈等候时可说 Sila tunggu sebentar, puan／tuan。熟人间 Tunggu sekejap 很普通；只丢一句 Jap! 给陌生人，可能显得急躁。",
+    "usage_etiquette": "sekejap 是相对的短时间，不是精确计时单位。预约、取餐或办事若会等十分钟，直接说明预计时间更清楚；不能把这个词当作马来西亚人不守时的文化标签。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Malay（马来语内部构词）",
+    "root_origin": "由 se- + kejap 构成；DBP 的 kejap 词条同时记录‘kelip, kedip (mata)’与‘sebentar, seketika’，可见眨眼和片刻之间的语义联系。更早的具体年代及传播路线未据本包确立。",
+    "historical_story": "kejap 在词典里既能指眼睛的一次开合，也能指短短一刻，se- 把这个时间意象收成‘一眨眼的工夫’。今天人在门口等朋友会说 tunggu sekejap，主播预告下一段直播会说 sekejap lagi；身体经验中的短暂片刻，就这样成为灵活的日常时间表达。",
+    "cognitive_memory_aid": "se-＝一，kejap＝眨眼：一眨眼就是 sekejap；加 lagi，便是‘再过一小会儿’。"
+  }
+}

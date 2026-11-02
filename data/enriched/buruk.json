@@ -1,0 +1,167 @@
+{
+  "headword": {
+    "word": "buruk",
+    "syllables": "",
+    "ipa": "[ˈbu.ruʔ]",
+    "jawi": "بوروق",
+    "frequency_rank": 339,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "buruk",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + buruk → buruk（破旧；不好）",
+    "pattern_note": "本地 PRPM 的 syllables 字段为 null，故此处以空字符串保留缺失，不把读音栏 [bu.ruʔ] 冒充官方 Rumi 音节字段；Jawi 原样取自缓存，IPA 取自本地 Kaikki 书面标准读音。memburukkan = meN- + buruk + -kan；b 前的 meN- 变为 mem-，词根 b 保留。",
+    "word_family": [
+      {
+        "word": "memburuk",
+        "affix": "meN-",
+        "gloss": "变坏；恶化"
+      },
+      {
+        "word": "memburukkan",
+        "affix": "meN-…-kan",
+        "gloss": "使变坏；说坏话；诋毁"
+      },
+      {
+        "word": "keburukan",
+        "affix": "ke-…-an",
+        "gloss": "缺点；坏处；不良之事"
+      },
+      {
+        "word": "berburuk",
+        "affix": "ber-",
+        "gloss": "交恶；不和"
+      },
+      {
+        "word": "pemburukan",
+        "affix": "peN-…-an",
+        "gloss": "使变坏或诋毁的行为"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "破旧的；因年久而损坏的；也可指外貌难看。",
+      "ms_definition": "tua dan rosak (busuk), tidak cantik",
+      "nuances": "描述旧屋、衣物时突出破旧或不好看，并非单纯‘年代久’；年纪大不等于 buruk。用来评价人的容貌有贬损意味。食物腐坏在现代日常表达中常用 busuk 或 basi，不能把所有‘坏了’都套成 buruk。",
+      "collocations": [
+        {
+          "ms": "pondok buruk",
+          "zh": "破旧的小屋",
+          "en": "a dilapidated hut"
+        },
+        {
+          "ms": "baju buruk",
+          "zh": "破旧的衣服",
+          "en": "worn-out clothes"
+        }
+      ],
+      "en_definition": "Old and worn out or dilapidated; also, ugly in appearance."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "不好的；恶劣的；指品行、习惯或意图不良。",
+      "ms_definition": "tidak baik, jahat",
+      "nuances": "可评价具体行为或习惯，如 tabiat buruk；直接给人贴上 orang buruk 的标签不够清楚，也可能被理解为侮辱外貌。buruk sangka 是往坏处猜疑，不是‘长相不好’。",
+      "collocations": [
+        {
+          "ms": "tabiat buruk",
+          "zh": "坏习惯",
+          "en": "a bad habit"
+        },
+        {
+          "ms": "perangai buruk",
+          "zh": "恶劣的品行",
+          "en": "bad behaviour"
+        }
+      ],
+      "en_definition": "Bad or morally wrong, especially in character, habits, or intentions."
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "糟糕的；不利的；令人不快或呈衰退状态的。",
+      "ms_definition": "tidak menyenangkan, merosot",
+      "nuances": "用于天气、经济、局势等状况，不必含道德谴责。semakin buruk 表示越来越糟；lebih buruk 比较两种情况，terburuk 表示最差。马来释义均摘自 Kamus Dewan Edisi Keempat。",
+      "collocations": [
+        {
+          "ms": "cuaca buruk",
+          "zh": "恶劣天气",
+          "en": "bad weather"
+        },
+        {
+          "ms": "keadaan semakin buruk",
+          "zh": "情况越来越糟",
+          "en": "the situation is getting worse"
+        }
+      ],
+      "en_definition": "Bad, unfavourable, or unpleasant; in a deteriorating condition."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 海上交通消息",
+      "ms": "Perkhidmatan feri ke pulau itu ditangguhkan berikutan cuaca buruk.",
+      "zh": "由于天气恶劣，前往该岛的渡轮服务已延后。",
+      "en": "Ferry services to the island have been postponed due to bad weather."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 两位朋友原本约好乘船去海岛，其中一人因天气恶劣提议延期",
+      "ms_spoken": "Esok kita jadi naik bot ke pulau tu tak?",
+      "ms_standard": "Adakah rancangan kita untuk menaiki bot ke pulau itu esok masih diteruskan?",
+      "zh": "咱们明天还按计划坐船去那个岛吗？",
+      "spoken_features": [
+        "cuaca buruk 指恶劣天气，不涉及外貌难看或物品破旧的词义。",
+        "jadi…tak 在此询问原定计划是否照常进行；tak jadi 表示计划取消或不再进行。",
+        "orang bot 在此口语指经营或驾驶船只的人；baik kita… 表示建议；dah elok baru… 表示等情况好转后才采取下一步。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Esok kita jadi naik bot ke pulau tu tak?",
+          "ms_standard": "Adakah rancangan kita untuk menaiki bot ke pulau itu esok masih diteruskan?",
+          "zh": "咱们明天还按计划坐船去那个岛吗？",
+          "en": "Are we still taking the boat to that island tomorrow?"
+        },
+        {
+          "speaker": "Farid (朋友)",
+          "ms_spoken": "Cuaca buruk kat sana sekarang. Orang bot kata angin kuat, baik kita tangguh dulu.",
+          "ms_standard": "Cuaca di sana buruk sekarang. Pengendali bot mengatakan bahawa angin bertiup kencang. Sebaik-baiknya kita menangguhkan perjalanan dahulu.",
+          "zh": "那边现在天气很差。船家说风很大，咱们还是先延期吧。",
+          "en": "The weather's bad over there right now. The boat operator says it's really windy, so we'd better put it off for now."
+        },
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Okey, tak jadi esok lah. Nanti cuaca dah elok baru kita pilih tarikh lain.",
+          "ms_standard": "Baiklah, kita tidak akan pergi esok. Kita akan memilih tarikh lain setelah cuaca kembali baik.",
+          "zh": "好，那明天就不去了。等天气好了，咱们再另选日子。",
+          "en": "Okay, tomorrow's off then. We'll pick another date once the weather clears up."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "评价物品和天气通常中性；评价人的容貌或品行则可能伤人。与同事讨论问题可明确说 kesan buruk 或 tabiat buruk，指出具体影响和行为。",
+    "usage_etiquette": "不要用 buruk 概括某个族群或宗教群体。buruk siku 是给出东西后又收回的批评性惯用语，不能逐字译作‘坏手肘’，也不宜在不了解事实时用来给人定性。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "原始马来语，经原始马来－波利尼西亚语追溯至原始南岛语",
+    "root_origin": "本地 Kaikki 给出 Proto-Malayic *buruk < Proto-Malayo-Polynesian *buʀuk < Proto-Austronesian *buʀuk‘腐坏；品性不良’；星号表示重建形式。",
+    "historical_story": "在所给词源材料中，buruk 的重建祖形已经兼有‘腐坏’和‘品性不良’的意思，不能简单编成现代才从烂木头转喻为坏人。把海边一块风化旧木板与一句 perangai buruk 并排想象，能同时记住物质状态和行为评价；海边画面只是助记。现代词还用于 cuaca buruk 等不利状况，让同一个词覆盖物品、行为和局势。",
+    "cognitive_memory_aid": "用三个画面记 buruk：破旧衣服 baju buruk、坏习惯 tabiat buruk、恶劣天气 cuaca buruk；共同点是状态或表现不好。"
+  }
+}

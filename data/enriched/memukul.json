@@ -1,0 +1,110 @@
+{
+  "headword": {
+    "word": "memukul",
+    "syllables": "me.mu.kul",
+    "ipa": "/mə.mu.kul/",
+    "jawi": "مموکول",
+    "frequency_rank": 1088,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pukul",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + pukul → memukul",
+    "pattern_note": "meN- 遇到词根开头的 p 时，鼻音实现为 m，词根首音 p 脱落。输入包将 memukul 标作词根有误；实际词根为 pukul，DBP 将 memukul 列为其派生词。[DBP 参考](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=memukul)",
+    "word_family": [
+      {
+        "word": "pukulan",
+        "affix": "-an",
+        "gloss": "一击；击打"
+      },
+      {
+        "word": "pemukul",
+        "affix": "peN-",
+        "gloss": "击打者；击打工具"
+      }
+    ],
+    "root_jawi": "ڤوکول"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "打；击打；用手或工具施力击中人或物。",
+      "en_definition": "To hit, strike or beat someone or something with the hand or an implement.",
+      "ms_definition": "Mengenakan sesuatu yang keras atau berat dengan kuat; memalu, mengetuk atau meninju.",
+      "nuances": "属于及物动词，通常直接接被击打的对象。可用于打球、敲鼓等中性活动；对象是人时，通常表示身体攻击。该词本身不限定击打一次还是多次。",
+      "collocations": [
+        {
+          "ms": "memukul bola",
+          "zh": "击球",
+          "en": "hit a ball"
+        },
+        {
+          "ms": "memukul gendang",
+          "zh": "敲鼓",
+          "en": "beat a drum"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 体育报道",
+      "ms": "Pemain itu memukul bola dengan kuat sehingga melepasi pagar padang.",
+      "zh": "那名球员用力击球，使球飞过了球场围栏。",
+      "en": "The player hit the ball hard enough to send it over the field's fence."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 乐队成员安排练习",
+      "ms_spoken": "Siapa nak memukul gendang malam ni? Aku dah bawa gendang.",
+      "ms_standard": "Siapakah yang hendak memukul gendang malam ini? Saya sudah membawa gendang.",
+      "zh": "今晚谁来敲鼓？我已经把鼓带来了。",
+      "en": "Who wants to play the drum tonight? I've brought it along.",
+      "spoken_features": [
+        "siapa 代替较正式的 siapakah",
+        "nak 对应 hendak，ni 对应 ini",
+        "dah 对应 sudah",
+        "回复中的 pukul 省略 meN-，是随意口语中的常见形式"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (乐队朋友)",
+          "ms_spoken": "Siapa nak memukul gendang malam ni? Aku dah bawa gendang.",
+          "ms_standard": "Siapakah yang hendak memukul gendang malam ini? Saya sudah membawa gendang.",
+          "zh": "今晚谁来敲鼓？我已经把鼓带来了。",
+          "en": "Who's going to play the drum tonight? I've brought it along."
+        },
+        {
+          "speaker": "Hafiz (乐队朋友)",
+          "ms_spoken": "Aku boleh. Kita pukul perlahan je dulu, ya.",
+          "ms_standard": "Saya boleh. Kita memukul gendang itu perlahan sahaja dahulu.",
+          "zh": "我来吧。我们先轻轻敲就好啊。",
+          "en": "I can. Let's play softly to start with, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "谈论击球或敲鼓时语气中性。以人为宾语时，该词通常表达实际暴力，不能当作普通提醒或责备的礼貌说法。",
+    "usage_etiquette": "正式主动句通常使用 memukul，如 Dia memukul bola。日常聊天和祈使句可使用 pukul；被动形式是 dipukul。"
+  },
+  "etymology": {
+    "origin": "Austronesian",
+    "source_language": "Proto-Malayo-Polynesian，经马来语传承",
+    "root_origin": "*pukul（用棍棒击打）→ pukul",
+    "cognitive_memory_aid": "记住 pukul 的 p 被鼻音 m 替换：meN- + pukul → memukul；想象手中的球棒挥出去，完成一次击打。",
+    "historical_story": "词根 pukul 可追溯至重建的原始马来—波利尼西亚语 *pukul，原义是用棍棒击打。现代马来语保留了这个具体动作义，并通过 meN- 派生出主动动词 memukul，用来描述击球、敲鼓以及其他击打动作。[词源参考：pukul](https://en.wiktionary.org/wiki/pukul)"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "谈论击球或敲鼓时语气中性。以人为宾语时，该词通常表达实际暴力，不能当作普通提醒或责备的礼貌说法。",
+    "usage_etiquette": "正式主动句通常使用 memukul，如 Dia memukul bola。日常聊天和祈使句可使用 pukul；被动形式是 dipukul。"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "headword": {
+    "word": "esok",
+    "syllables": null,
+    "ipa": "[ˈʔe.soʔ]",
+    "jawi": "ايسوق",
+    "frequency_rank": 383,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "esok",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + esok → esok",
+    "pattern_note": "独立时间词，不将 e- 误当词缀。原包 syllables 缺失，保留 null；Jawi 从本地同批任务原文 .codex_tasks/task_batch_170.md 的 PRPM 字段恢复；IPA 据本地 Kaikki 完整记录恢复，e 为闭前元音而非 ə，词尾 k 常读为喉塞音。",
+    "word_family": [
+      {
+        "word": "esoknya",
+        "affix": "-nya",
+        "gloss": "次日；那一天的第二天"
+      },
+      {
+        "word": "keesokan",
+        "affix": "ke-…-an",
+        "gloss": "次日，常见于 keesokan harinya"
+      },
+      {
+        "word": "mengesokkan",
+        "affix": "meN-…-kan",
+        "gloss": "推迟到明天"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "明天；今天之后的那一天。",
+      "ms_definition": "hari selepas hari ini, besok",
+      "nuances": "名词性用法指日期本身，如 esok hari Jumaat。esoknya 和 keesokan harinya 则可相对于故事中的某一天表示次日，不一定是说话当天之后的明天。",
+      "collocations": [
+        {
+          "ms": "hari esok",
+          "zh": "明天；明日",
+          "en": "tomorrow"
+        },
+        {
+          "ms": "pagi esok",
+          "zh": "明天早上",
+          "en": "tomorrow morning"
+        }
+      ],
+      "en_definition": "Tomorrow; the day after today."
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "在明天；用于说明事情发生的时间。",
+      "ms_definition": "hari selepas hari ini, besok",
+      "nuances": "同一时间义作状语，如 Kami bertolak esok；定义沿用原包 Kamus Dewan，词性划分为编辑整理。esok 本身已能表示将来时间，是否加 akan 取决于表达需要。",
+      "collocations": [
+        {
+          "ms": "berjumpa esok",
+          "zh": "明天见面",
+          "en": "meet tomorrow"
+        },
+        {
+          "ms": "bertolak esok",
+          "zh": "明天出发",
+          "en": "leave tomorrow"
+        }
+      ],
+      "en_definition": "Tomorrow; on the day after today."
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "以后；将来；来日，未必精确指下一天。",
+      "ms_definition": "kemudian hari, nanti, kelak",
+      "nuances": "esok lusa 可以字面指明天或后天，也可以泛指将来某一天；涉及期限、预约时应给具体日期，不能只凭这个短语确定相隔几天。",
+      "collocations": [
+        {
+          "ms": "esok lusa",
+          "zh": "明后天；将来某一天",
+          "en": "tomorrow or the day after; sometime in the future"
+        },
+        {
+          "ms": "esok apabila sudah dewasa",
+          "zh": "将来长大以后",
+          "en": "in the future, when you're grown up"
+        }
+      ],
+      "en_definition": "In the future; at some later time, not necessarily the next day."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／公共服务安排",
+      "ms": "Kaunter perkhidmatan itu akan dibuka semula pada pukul lapan pagi esok.",
+      "zh": "该服务柜台将于明天上午八时重新开放。",
+      "en": "The service counter will reopen at eight tomorrow morning."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约第二天吃早餐，协商时间",
+      "ms_spoken": "Esok nak sarapan kat kedai biasa tak? Pukul lapan boleh?",
+      "ms_standard": "Adakah kamu mahu bersarapan di kedai yang biasa kita kunjungi esok? Bolehkah kita berjumpa pada pukul lapan pagi?",
+      "zh": "明天要不要去老地方吃早餐？八点可以吗？",
+      "spoken_features": [
+        "esok 在这段对话中明确指第二天。",
+        "nak 对应 mahu；kat 对应 di；kedai biasa 依靠双方共有的背景指经常光顾的店。",
+        "句末 tak 构成是非问句；boleh tak 用来询问对方是否接受安排。",
+        "awal sangat 对应 terlalu awal；boleh je 在这里表示爽快接受，可自然还原为 Boleh。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Esok nak sarapan kat kedai biasa tak? Pukul lapan boleh?",
+          "ms_standard": "Adakah kamu mahu bersarapan di kedai yang biasa kita kunjungi esok? Bolehkah kita berjumpa pada pukul lapan pagi?",
+          "zh": "明天要不要去老地方吃早餐？八点可以吗？",
+          "en": "Want to have breakfast at our usual place tomorrow? Is eight okay?"
+        },
+        {
+          "speaker": "Siti (朋友)",
+          "ms_spoken": "Lapan awal sangat lah. Lapan setengah boleh tak?",
+          "ms_standard": "Pukul lapan pagi terlalu awal. Bolehkah kita berjumpa pada pukul lapan setengah pagi?",
+          "zh": "八点太早了啦。八点半行吗？",
+          "en": "Eight's way too early. How about eight thirty?"
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Boleh je. Esok aku tunggu kau depan kedai.",
+          "ms_standard": "Boleh. Esok saya akan menunggu kamu di hadapan kedai itu.",
+          "zh": "可以啊。明天我在店门口等你。",
+          "en": "Sure. I'll wait for you outside the place tomorrow."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "esok 是中性常用词，适合朋友聊天、学校通知和正式报道。是否礼貌主要取决于整句的请求方式及双方关系。",
+    "usage_etiquette": "承诺 esok 时，对方通常理解为下一天；安排交件、班次或会面最好同时给日期和时间。不要因为某人使用 esok 就推断其态度拖延或归结为族群习惯。"
+  },
+  "etymology": {
+    "origin": "未确定",
+    "source_language": "Bahasa Melayu；更早来源未核实",
+    "root_origin": "原包没有词源资料，只能确认它是现代马来语的独立时间词；不重建祖语形式或借入路线。",
+    "historical_story": "从约定明天再出发，到在故事里说次日，esok 及其派生形式把时间定位到今天或叙事中的某一天之后。现代词典也收录 esok 泛指来日的用法，但原包没有证据说明这个词何时出现、曾经循哪条海上路线传播。",
+    "cognitive_memory_aid": "记住今天 hari ini → 明天 esok → 后天 lusa；故事里的次日则常说 keesokan harinya。"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "headword": {
+    "word": "sial",
+    "syllables": "sial",
+    "ipa": "[ˈsjal]",
+    "jawi": "سيال",
+    "frequency_rank": 379,
+    "tags": [
+      "CEFR-B1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sial",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sial → sial",
+    "pattern_note": "完整词根，不拆成 si- + al。meN- + sial + -kan → menyialkan，词首 s 脱落；PRPM 的分节字段 sial 原样保留，不自行改成 si.al。",
+    "word_family": [
+      {
+        "word": "menyialkan",
+        "affix": "meN-…-kan",
+        "gloss": "给……带来厄运"
+      },
+      {
+        "word": "kesialan",
+        "affix": "ke-…-an",
+        "gloss": "倒霉；不幸；厄运"
+      },
+      {
+        "word": "sialan",
+        "affix": "-an",
+        "gloss": "带来厄运的人；骂语‘混账’（骂语义词典标 Id）"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "倒霉的；不走运的；遭遇不幸的。",
+      "ms_definition": "tidak beruntung (selalu gagal dlm mendapat sesuatu dll), tidak bernasib baik (selalu ditimpa kemalangan, selalu susah, dll), celaka, malang (Kamus Dewan Edisi Keempat；已合并原文软断字符)",
+      "nuances": "用于处境或遭遇时，重点是不幸；不一定是骂人。正式报道描述受害者通常选 malang，直接把某人称为 orang sial 很容易成为侮辱。",
+      "collocations": [
+        {
+          "ms": "nasib sial",
+          "zh": "倒霉的命运；厄运",
+          "en": "bad luck"
+        },
+        {
+          "ms": "hari sial",
+          "zh": "倒霉的一天",
+          "en": "an unlucky day"
+        }
+      ],
+      "en_definition": "Unlucky; unfortunate; afflicted by misfortune."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "被认为会带来厄运的；不吉利的。",
+      "ms_definition": "(yg) mendatangkan kecelakaan (kemalangan dll), (yg) tidak mendatangkan keuntungan (kebahagiaan dll) (Kamus Dewan Edisi Keempat；已合并原文软断字符)",
+      "nuances": "描述数字、地方或物件时，常涉及个人或群体的迷信观念。表述宜加 dianggap 或 dipercayai，明确是‘被认为不吉利’，不能当作事实或全体马来西亚人的共同信仰。",
+      "collocations": [
+        {
+          "ms": "angka sial",
+          "zh": "被认为不吉利的数字",
+          "en": "an unlucky number"
+        },
+        {
+          "ms": "tempat sial",
+          "zh": "被认为带来厄运的地方",
+          "en": "a place believed to bring bad luck"
+        }
+      ],
+      "en_definition": "Believed to bring bad luck or misfortune."
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "该死；妈的；用于骂人或宣泄强烈不满的粗话。",
+      "ms_definition": "jahanam, si celaka (kata makian) (Kamus Dewan Edisi Keempat；已合并原文软断字符)",
+      "nuances": "本 schema 无感叹词标签，独立咒骂在此归 particle。大马口语也可置于句尾加强烦躁、惊讶等情绪；熟人间的玩笑语气仍不适合移用于陌生人。以下是识别用语，不是建议模仿。词典另列固定植物名 sial menahun，与骂语分开理解。",
+      "collocations": [
+        {
+          "ms": "sial betul",
+          "zh": "真他妈倒霉；真该死",
+          "en": "what bloody rotten luck"
+        },
+        {
+          "ms": "sial lah",
+          "zh": "妈的；该死啦",
+          "en": "damn it"
+        }
+      ],
+      "en_definition": "A swear word used to express anger or frustration, or to insult someone."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化报道／对民间观念作转述",
+      "ms": "Pameran itu meneliti kepercayaan bahawa sesetengah objek dianggap sial oleh masyarakat tertentu.",
+      "zh": "该展览探讨某些社群将部分物件视为不祥之物的观念。",
+      "en": "The exhibition examines beliefs in which certain communities regard some objects as unlucky."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉且接受粗口的朋友之间，因错过巴士而抱怨",
+      "ms_spoken": "Sial lah, bas baru je lepas depan aku! Lari pun tak sempat.",
+      "ms_standard": "Malangnya, bas baru sahaja berlalu di hadapan saya! Walaupun saya berlari, saya tidak sempat menaikinya.",
+      "zh": "妈的，巴士刚从我面前开走！跑过去也没赶上。",
+      "spoken_features": [
+        "Sial lah 在这里是针对遭遇的粗俗感叹，没有指向某个人；不宜用于正式或需要保持礼貌的交流。",
+        "标准句以 Malangnya 礼貌改述，保留倒霉和懊恼的事件含义，但不保留原句的粗口强度。",
+        "baru je 对应 baru sahaja；bas lepas 在这里指巴士驶过，不能机械理解为所有语境中的 lepas。",
+        "lari pun tak sempat 省略了主语和没来得及做的事；kat 对应 di，je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Azri (好友、刚错过巴士)",
+          "ms_spoken": "Sial lah, bas baru je lepas depan aku! Lari pun tak sempat.",
+          "ms_standard": "Malangnya, bas baru sahaja berlalu di hadapan saya! Walaupun saya berlari, saya tidak sempat menaikinya.",
+          "zh": "妈的，巴士刚从我面前开走！跑过去也没赶上。",
+          "en": "Damn it, the bus just pulled away right in front of me! I ran for it and still missed it."
+        },
+        {
+          "speaker": "Fikri (好友、正在等对方)",
+          "ms_spoken": "Aduh, bas seterusnya pukul berapa? Aku tunggu kat kedai dulu lah.",
+          "ms_standard": "Aduh, pada pukul berapakah bas seterusnya akan tiba? Saya akan menunggu di kedai dahulu.",
+          "zh": "哎呀，下一班几点来？那我先在店里等吧。",
+          "en": "Oh no, when's the next bus? I'll wait at the shop for now, then."
+        },
+        {
+          "speaker": "Azri (好友、刚错过巴士)",
+          "ms_spoken": "Lagi dua puluh minit. Kau makan dulu je, jangan tunggu aku.",
+          "ms_standard": "Bas seterusnya akan tiba dalam masa dua puluh minit lagi. Kamu makan dahulu sahaja, jangan tunggu saya.",
+          "zh": "还要二十分钟。你先吃吧，别等我。",
+          "en": "Another twenty minutes. Go ahead and eat. Don't wait for me."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "描述‘不吉利’可见于标准叙述，但独立感叹或直接指人时属于粗话。与长辈、客户、老师或不熟悉的同事交流，抱怨不顺可改用 malangnya。",
+    "usage_etiquette": "不要把 sial 贴到某个人、族群或宗教身上，也不要把别人的物件或习俗一概称为不祥。句尾 sial 即使在某些朋友圈常见，也取决于关系和语气，不代表跨场合安全。"
+  },
+  "etymology": {
+    "origin": "未确定",
+    "source_language": "日常‘倒霉／骂语’义的来源未确定",
+    "root_origin": "所给英语 sial 与 silikon + aluminium 的解释对应地质学同形术语，不能解释本条的倒霉义或骂语义。",
+    "historical_story": "词典里的 sial 把‘遭遇不幸’、‘被认为带来不幸’和骂人的用法并列，像把倒霉的一天、不祥的物件和脱口而出的抱怨放进三幅相邻画面。现代大马聊天还会把它放在句尾宣泄情绪，但这些用法的先后演变年代，现有材料没有说明。它的日常词源仍应留白，不能借同形地质术语的硅、铝故事来填补。",
+    "cognitive_memory_aid": "记三层：自己遭殃＝倒霉；东西被说会招灾＝不吉利；脱口大骂＝粗话。"
+  }
+}

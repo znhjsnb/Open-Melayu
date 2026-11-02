@@ -1,0 +1,137 @@
+{
+  "headword": {
+    "word": "okay",
+    "syllables": null,
+    "ipa": "/o.ke/",
+    "jawi": null,
+    "frequency_rank": 163,
+    "tags": [
+      "CEFR-A1",
+      "日常高频"
+    ]
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "okay",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "English okay → okay（整词借用；马来语规范拼写 okey）",
+    "pattern_note": "整词借用，不拆词缀。/o.ke/ 表示马来语化常见读法，不是资料包所提供的官方音标。okay 的 PRPM 记录来自英马词典，没有官方分音和 Jawi，故这两项保留 null；另一个词头 okey 的官方资料不能冒充 okay 的原始字段。",
+    "word_family": [
+      {
+        "word": "okey",
+        "affix": "无；规范对应拼写",
+        "gloss": "好；行；同意"
+      }
+    ]
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "好；行；知道了，用来表示同意、回应，或转入下一步。",
+      "ms_definition": "baiklah, yalah, O.K. (Kamus Dewan Edisi Keempat, entri okey; ejaan okay dalam paket berasal daripada Kamus Inggeris-Melayu Dewan).",
+      "nuances": "日常聊天常写 okay 或 OK；规范马来语拼写是 okey。Okay? 也可确认对方是否接受；回应 okay 有时只是收到消息，并不等于已完成任务。正式命令或程序说明中可用 baiklah、bersetuju 等更明确的词。",
+      "collocations": [
+        {
+          "ms": "okay, boleh",
+          "zh": "好，可以",
+          "en": "okay, sure"
+        },
+        {
+          "ms": "okay, terima kasih",
+          "zh": "好的，谢谢",
+          "en": "okay, thank you"
+        }
+      ],
+      "en_definition": "Used to express agreement or acknowledgment, or to move on to the next step."
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "还好；可以接受；状态没问题，通常不表示特别出色。",
+      "ms_definition": "boleh tahan; tak apa-apa; selamat (padanan mengikut konteks dalam Kamus Inggeris-Melayu Dewan, entri okay; bukan definisi entri Melayu Kamus Dewan).",
+      "nuances": "评价 makanan okay 可能只是‘还可以’；问 awak okay? 则通常关心身体或心情。这里按马来语聊天中的谓语用法归为形容词，不照搬英词条的全部词性；正式批准应写 kelulusan 或 persetujuan。",
+      "collocations": [
+        {
+          "ms": "semuanya okay",
+          "zh": "一切都没问题",
+          "en": "everything's okay"
+        },
+        {
+          "ms": "rasa okay",
+          "zh": "感觉还好",
+          "en": "feel okay"
+        }
+      ],
+      "en_definition": "Satisfactory or acceptable, though not especially good; in a sound or safe condition."
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报章 / 受访者直接引语",
+      "ms": "Mangsa memberitahu pemberita, “Keadaan saya okay dan saya sedang menerima rawatan lanjut.”",
+      "zh": "受害者告诉记者：“我的情况还好，目前正在接受进一步治疗。”",
+      "en": "The victim told reporters, “I am okay and am receiving further treatment.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认见面地点和时间",
+      "ms_spoken": "Jumpa kat kedai biasa pukul lapan, boleh? Aku habis kerja lambat sikit hari ni.",
+      "ms_standard": "Bolehkah kita berjumpa di kedai makan yang biasa kita kunjungi pada pukul lapan? Saya selesai bekerja agak lewat hari ini.",
+      "zh": "八点在常去的那家店见，可以吗？我今天下班稍微晚一点。",
+      "spoken_features": [
+        "okay 在这里表示接受安排；规范马来语可写 okey，此处也可还原为 baiklah。",
+        "okay lah 结合上下文表示同意调整时间，不能仅凭 lah 判断说话人是否勉强。",
+        "kat、sikit、ni 分别对应 di、sedikit、ini。",
+        "Aku sampai dulu nanti aku cari meja 用口语并列句表达条件关系，标准版补出 jika 和 akan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farhan (朋友)",
+          "ms_spoken": "Jumpa kat kedai biasa pukul lapan, boleh? Aku habis kerja lambat sikit hari ni.",
+          "ms_standard": "Bolehkah kita berjumpa di kedai makan yang biasa kita kunjungi pada pukul lapan? Saya selesai bekerja agak lewat hari ini.",
+          "zh": "八点在常去的那家店见，可以吗？我今天下班稍微晚一点。",
+          "en": "Can we meet at the usual place at eight? I'm finishing work a bit later today."
+        },
+        {
+          "speaker": "Haziq (朋友)",
+          "ms_spoken": "Okay lah, pukul lapan. Aku sampai dulu nanti aku cari meja.",
+          "ms_standard": "Baiklah, kita berjumpa pada pukul lapan. Jika saya tiba dahulu, saya akan mencari meja.",
+          "zh": "行，那就八点。我如果先到，就先找张桌子。",
+          "en": "All right, eight it is. If I get there first, I'll grab a table."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "OK",
+      "full_form": "okay",
+      "note": "通行的简写形式；马来语规范对应拼写为 okey。"
+    },
+    {
+      "abbr": "k",
+      "full_form": "okay",
+      "note": "极简聊天回应，可能被读成冷淡或敷衍，工作沟通宜写完整。"
+    },
+    {
+      "abbr": "kk",
+      "full_form": "okay",
+      "note": "非正式快速回应，有时表示 okay, okay；含义依聊天习惯而定。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "colloquial",
+    "politeness_note": "跨语种朋友聊天时容易理解，但单独一个 k 可能显得生硬；回复上级或客户时可写 Baik, terima kasih 或明确说明下一步。",
+    "usage_etiquette": "正式马来语正文宜用 okey 或更具体的规范表达；新闻直接引语可以保留受访者口吻。涉及授权、付款或任务完成时，补清同意了什么，避免只凭 okay 猜测。"
+  },
+  "etymology": {
+    "origin": "English",
+    "source_language": "English（英语）",
+    "root_origin": "英语 okay / OK；Merriam-Webster 将 OK 追溯到 1839 年美国报刊中戏写的 oll korrect（all correct）。来源：https://www.merriam-webster.com/wordplay/the-hilarious-history-of-ok-okay",
+    "historical_story": "1839 年的美国报刊把 all correct 故意戏写为 oll korrect，并缩成 OK，后来这个小小的回应词广泛流传。马来西亚今天的多语聊天也常见 okay，而 DBP 将马来语对应拼写收为 okey。它是现代英语接触的一个例子，不能与古代海路传入的梵语借词混为一谈；现有材料没有确定它进入马来语的具体年份。",
+    "cognitive_memory_aid": "把 okay 想成对话里的绿色勾号：可以、收到、还好；进入规范马来语书写时记住 okey。"
+  }
+}

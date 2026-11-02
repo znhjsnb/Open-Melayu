@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "semak",
+    "syllables": null,
+    "ipa": "[se.maʔ]",
+    "jawi": "سيمق",
+    "frequency_rank": 2623,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "semak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + semak → semak",
+    "pattern_note": "本条按词包中的 DBP 释义和 Jawi 选取 sémak“检查”，e 读 /e/，词尾 k 常实现为 /ʔ/。它是完整词根，不是 se- + mak；词包中的 mak 为错误切分。",
+    "word_family": [
+      {
+        "word": "menyemak",
+        "affix": "meN-",
+        "gloss": "检查；核对"
+      },
+      {
+        "word": "semakan",
+        "affix": "-an",
+        "gloss": "检查；复核结果"
+      }
+    ],
+    "root_jawi": "سيمق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "仔细检查或核对资料、答案等，以确认内容正确并发现错误。",
+      "en_definition": "To check or review something carefully for accuracy or errors.",
+      "ms_definition": "Memeriksa atau meneliti sesuatu dengan teliti untuk memastikan ketepatannya dan mengenal pasti kesilapan.",
+      "nuances": "本义读 sémak，常见于指令，如 Semak jawapan anda；完整主动动词为 menyemak。不要与读 /sə.maʔ/、表示灌木丛或杂乱的同形词混淆；词包中的 bush 等 glosses 属于另一词项。参见 [DBP：semak](https://prpm.dbp.gov.my/Cari1?d=155028&keyword=semak)。",
+      "collocations": [
+        {
+          "ms": "semak ejaan",
+          "zh": "检查拼写",
+          "en": "check the spelling"
+        },
+        {
+          "ms": "semak status permohonan",
+          "zh": "查询申请状态",
+          "en": "check the application status"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 申请填报指引",
+      "ms": "Sila semak semua maklumat peribadi sebelum menghantar borang permohonan.",
+      "zh": "提交申请表之前，请核对所有个人资料。",
+      "en": "Please check all personal details before submitting the application form."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对文件",
+      "ms_spoken": "Tolong semak fail ni dulu, ya. Aku nak hantar kat bos.",
+      "ms_standard": "Tolong semak fail ini dahulu. Saya mahu menghantarnya kepada ketua.",
+      "zh": "帮我先检查一下这个文件呀，我要发给老板。",
+      "en": "Could you check this file first? I need to send it to the boss.",
+      "spoken_features": [
+        "ni 对应 ini，nak 对应 mahu。",
+        "kat 在此表示接收对象，标准语对应 kepada。",
+        "句末 ya 缓和请求语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Tolong semak fail ni dulu, ya. Aku nak hantar kat bos.",
+          "ms_standard": "Tolong semak fail ini dahulu. Saya mahu menghantarnya kepada ketua.",
+          "zh": "帮我先检查一下这个文件呀，我要发给老板。",
+          "en": "Could you check this file first? I need to send it to the boss."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah semak. Ada satu salah ejaan je.",
+          "ms_standard": "Saya sudah menyemaknya. Hanya ada satu kesalahan ejaan.",
+          "zh": "检查好了，只有一个拼写错误。",
+          "en": "I've checked it. There's just one spelling mistake."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Semak! 单独使用可能像命令；请求同事协助时，可加 tolong、sila 或 boleh。",
+    "usage_etiquette": "核对具体内容可说 semak maklumat；查询办理进度可说 semak status。正式主动陈述使用 menyemak，如 Pegawai sedang menyemak dokumen。"
+  },
+  "etymology": {
+    "historical_story": "DBP 将 sémak 的仔细察看、研究和复核用法收在同一词项中，现代的 menyemak、semakan 和 penyemak 都围绕这一意义形成。学习时可以把它们放在校对文件的场景里：有人检查，留下复核结果，也有人担任检查者。所核验资料未确定这一词根更早的历史来源，不应把它拆成 se- 与 mak。",
+    "cognitive_memory_aid": "想象拿着红笔逐项打勾：sémak 就是仔细检查。把 /e/ 的读音与这支校对笔绑定，避免联想到另一词项“灌木丛”。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "Semak! 单独使用可能像命令；请求同事协助时，可加 tolong、sila 或 boleh。",
+    "usage_etiquette": "核对具体内容可说 semak maklumat；查询办理进度可说 semak status。正式主动陈述使用 menyemak，如 Pegawai sedang menyemak dokumen。"
+  }
+}

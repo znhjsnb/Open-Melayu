@@ -1,0 +1,96 @@
+{
+  "headword": {
+    "word": "em",
+    "syllables": null,
+    "ipa": "/em/",
+    "jawi": "عيم",
+    "frequency_rank": 2022,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "em",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + em → em",
+    "pattern_note": "整体记忆的排印术语；e 按 é 发音，不读作央元音 /ə/。没有常用的马来语加缀派生词，相关组合不冒充派生词族。",
+    "word_family": [],
+    "root_jawi": "عيم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "排印中的相对长度单位，其长度等于所用字体的磅值；例如使用十二磅字体时，一 em 为十二磅长。",
+      "en_definition": "A typographic unit of length equal to the point size of the type being used.",
+      "ms_definition": "Unit ukuran linear dalam tipografi yang nilainya sama dengan saiz poin taip yang digunakan.",
+      "nuances": "属于排印技术词；不是聊天中表示犹豫的嗯。em 随字号改变，不能一律换算成固定毫米数，也不等于所有字体中字母 M 的实际宽度。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=em)",
+      "collocations": [
+        {
+          "ms": "ruang satu em",
+          "zh": "一 em 宽的空白",
+          "en": "a one-em space"
+        },
+        {
+          "ms": "lebar dua em",
+          "zh": "两 em 的宽度",
+          "en": "a width of two ems"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "出版 / 排版规范",
+      "ms": "Bagi teks bersaiz 12 poin, ruang selebar satu em bersamaan dengan 12 poin.",
+      "zh": "对于十二磅的文字，一 em 宽的空白等于十二磅。",
+      "en": "For 12-point text, a one-em space is 12 points wide."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 设计同事讨论排版",
+      "ms_spoken": "Ruang ni luas sangatlah, kecilkan jadi satu em je.",
+      "ms_standard": "Ruang ini terlalu luas. Tolong kecilkannya kepada satu em sahaja.",
+      "zh": "这空白也太宽了吧，缩到一个 em 就好。",
+      "en": "This gap's too wide. Make it just one em.",
+      "spoken_features": [
+        "ni = ini",
+        "-lah 加强对当前情况的评价",
+        "je = sahaja",
+        "技术名词 em 在非正式对话中保留原形"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (设计同事)",
+          "ms_spoken": "Ruang ni luas sangatlah, kecilkan jadi satu em je.",
+          "ms_standard": "Ruang ini terlalu luas. Tolong kecilkannya kepada satu em sahaja.",
+          "zh": "这空白也太宽了吧，缩到一个 em 就好。",
+          "en": "This gap's too wide. Make it just one em."
+        },
+        {
+          "speaker": "Hakim (设计同事)",
+          "ms_spoken": "Okey, dah ubah. Nak aku hantar pratonton sekarang?",
+          "ms_standard": "Baiklah, saya sudah mengubahnya. Adakah awak mahu saya menghantar pratonton sekarang?",
+          "zh": "好，改好了。要我现在把预览发给你吗？",
+          "en": "Okay, done. Want me to send you a preview now?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "这是中性的专业术语。向不熟悉排印的客户说明时，应同时给出字号和对应长度，方便对方理解。",
+    "usage_etiquette": "首次使用可说 unit em dalam tipografi。说明具体尺寸时交代所用字号；不要把 em 当成固定的毫米单位。"
+  },
+  "etymology": {
+    "historical_story": "em 沿用英语排印术语，其名称与字母 M 的读名有关，背景是传统活字排版中的方形字身与空铅。后来这个名称继续用于排印计量，但现代定义依据字号，不能据此认定所有 M 字形都恰好占一 em。[Typography.Guru](https://typography.guru/term/em-square-r46/)",
+    "cognitive_memory_aid": "想象一个随字号一起放大或缩小的正方形：十二磅字对应边长十二磅的方格，一条边就是一 em。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "这是中性的专业术语。向不熟悉排印的客户说明时，应同时给出字号和对应长度，方便对方理解。",
+    "usage_etiquette": "首次使用可说 unit em dalam tipografi。说明具体尺寸时交代所用字号；不要把 em 当成固定的毫米单位。"
+  }
+}
