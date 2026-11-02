@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "mencegahnya",
+    "syllables": "men.ce.gah.nya",
+    "ipa": "/mən.tʃə.ɡah.ɲa/",
+    "jawi": "منچݢهڽ",
+    "frequency_rank": 14353,
+    "status": "official",
+    "verification_note": "这是规范动词 mencegah 加附着代词 -nya 的组合形式，不表示 DBP 单独收有此完整词条。输入爪夷文 منچݢه 仅对应 mencegah；此处补上 -nya 对应的 ڽ。音节与音标为完整词形的规则分析。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mencegah",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "mencegah + -nya → mencegahnya；底层构词：meN- + cegah → mencegah",
+    "pattern_note": "按输入保留直接基底 mencegah；最终词根为 cegah。meN- 在 c 前取 men-，c 保留；-nya 是后附代词，此处按给定分类记为 suffix，ny 表示 /ɲ/。",
+    "word_family": [
+      {
+        "word": "cegah",
+        "affix": "∅",
+        "gloss": "阻止；预防"
+      },
+      {
+        "word": "mencegah",
+        "affix": "meN- → men-",
+        "gloss": "阻止；预防"
+      },
+      {
+        "word": "pencegahan",
+        "affix": "peN-...-an",
+        "gloss": "预防；防止"
+      },
+      {
+        "word": "pencegah",
+        "affix": "peN- → pen-",
+        "gloss": "预防者；防止某事的装置或手段"
+      }
+    ],
+    "root_jawi": "منچݢه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "防止它发生；预防前文提到的不良事件、情况或后果。",
+      "en_definition": "To prevent it: to take action so that a previously mentioned event or outcome does not occur.",
+      "ms_definition": "Mengikhtiarkan supaya jangan berlaku sesuatu yang dirujuk oleh -nya.",
+      "nuances": "基于输入 DBP 对 mencegah 的释义，并补明 -nya 的指代作用。-nya 的所指必须能从上下文确定；它不是完成体或过去时标记。常用于预防发生或再次发生，不单指处理已经造成的后果。",
+      "collocations": [
+        {
+          "ms": "langkah untuk mencegahnya",
+          "zh": "防止此事的措施",
+          "en": "measures to prevent it"
+        },
+        {
+          "ms": "mencegahnya daripada berulang",
+          "zh": "防止此事再次发生",
+          "en": "to prevent it from recurring"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "阻止他或她做某事；其中 -nya 指代语境中已知的人。",
+      "en_definition": "To stop or prevent him or her from doing something.",
+      "ms_definition": "Menghalang atau menegah orang yang dirujuk oleh -nya daripada melakukan sesuatu.",
+      "nuances": "与上一义的主要差别在于宾语所指是人。常见结构为 mencegahnya daripada + 动词。-nya 不区分男性和女性；阻止的方式不必是身体拦截，也可能是劝阻或其他干预。",
+      "collocations": [
+        {
+          "ms": "mencegahnya daripada masuk",
+          "zh": "阻止他或她进入",
+          "en": "to prevent him or her from entering"
+        },
+        {
+          "ms": "mencegahnya daripada bertindak terburu-buru",
+          "zh": "阻止他或她贸然行动",
+          "en": "to stop him or her from acting rashly"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 事故调查报告",
+      "ms": "Kejadian yang sama telah berulang, dan pihak pengurusan sedang merangka langkah untuk mencegahnya daripada berulang lagi.",
+      "zh": "同类事件已再次发生，管理层正制定措施，防止此事再度重演。",
+      "en": "The same incident has occurred again, and management is drawing up measures to prevent another recurrence."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论重复寄送的问题",
+      "ms_spoken": "Masalah hantar barang dua kali tu dah jadi lagi. Kita kena cari cara untuk mencegahnya.",
+      "ms_standard": "Masalah penghantaran barang sebanyak dua kali itu telah berlaku lagi. Kita perlu mencari cara untuk mencegahnya.",
+      "zh": "重复寄货的问题又发生了。我们得想办法防止这种事。",
+      "en": "We've had another duplicate shipment. We need to find a way to prevent this.",
+      "spoken_features": [
+        "tu 对应 itu",
+        "dah 对应 sudah 或 telah",
+        "kena 在此表示 perlu 或 mesti",
+        "口语句框中保留 mencegahnya，语气偏认真讨论",
+        "更随意的交流也常用 elak benda tu"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Masalah hantar barang dua kali tu dah jadi lagi. Kita kena cari cara untuk mencegahnya.",
+          "ms_standard": "Masalah penghantaran barang sebanyak dua kali itu telah berlaku lagi. Kita perlu mencari cara untuk mencegahnya.",
+          "zh": "重复寄货的问题又发生了。我们得想办法防止这种事。",
+          "en": "We've had another duplicate shipment. We need to find a way to prevent this."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Betul. Lepas ni kita semak nombor pesanan dulu, baru hantar.",
+          "ms_standard": "Betul. Selepas ini, kita akan menyemak nombor pesanan terlebih dahulu sebelum menghantar barang.",
+          "zh": "对。以后先核对订单号，再发货。",
+          "en": "Agreed. From now on, let's check the order number before shipping anything."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates two productive Malay patterns rather than a separate historical root. The active verb mencegah comes from cegah with meN-, while -nya attaches to supply an understood object. The referent may be a person or an event. Its interpretation therefore depends on discourse, linking the action of prevention to something already mentioned.",
+    "cognitive_memory_aid": "分两步记：mencegah＝阻止、预防；-nya＝前面说过的他、她或它。合起来就是“阻止他／她”或“防止那件事”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于制度、风险和问题时语气中性；用于人时可能显得强硬，提出建议可用 Kita perlu mencari cara untuk mencegahnya。",
+    "usage_etiquette": "先交代 -nya 指谁或什么，尤其在公文中避免指代不清。-nya 本身不表示不敬；直接称呼长辈或上级时，应使用合适的称谓。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于制度、风险和问题时语气中性；用于人时可能显得强硬，提出建议可用 Kita perlu mencari cara untuk mencegahnya。",
+    "usage_etiquette": "先交代 -nya 指谁或什么，尤其在公文中避免指代不清。-nya 本身不表示不敬；直接称呼长辈或上级时，应使用合适的称谓。"
+  }
+}

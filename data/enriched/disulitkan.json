@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "disulitkan",
+    "syllables": "di.su.lit.kan",
+    "ipa": "/di.su.lit.kan/",
+    "jawi": null,
+    "frequency_rank": 14262,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sulit",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + sulit + -kan → disulitkan",
+    "pattern_note": "di- 表被动，-kan 使形容词具有使动意义；词根 sulit 的辅音保持不变。输入包将完整派生词误判为词根，现予纠正；音节及 IPA 按标准读法补充。",
+    "word_family": [
+      {
+        "word": "menyulitkan",
+        "affix": "meN-...-kan",
+        "gloss": "使复杂；使保密；加密"
+      },
+      {
+        "word": "kesulitan",
+        "affix": "ke-...-an",
+        "gloss": "困难；困境"
+      },
+      {
+        "word": "penyulitan",
+        "affix": "peN-...-an",
+        "gloss": "加密；加密过程"
+      }
+    ],
+    "root_jawi": "سوليت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被弄得困难、复杂或难以处理。",
+      "en_definition": "To be made difficult or complicated.",
+      "ms_definition": "Dijadikan sukar, rumit atau susah untuk diurus atau diselesaikan.",
+      "nuances": "用于手续、事务或处境，常暗示增加了不必要的障碍；是否有人故意刁难须由上下文判断。义项依据 [DBP：menyulitkan](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=menyulitkan)。",
+      "collocations": [
+        {
+          "ms": "urusan disulitkan",
+          "zh": "事务办理受到刁难",
+          "en": "dealings are made difficult"
+        },
+        {
+          "ms": "proses disulitkan",
+          "zh": "流程被复杂化",
+          "en": "the process is made more complicated"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被保密；被隐藏而不向公众或无关人士公开。",
+      "en_definition": "To be kept secret or concealed.",
+      "ms_definition": "Dirahsiakan atau disembunyikan daripada pengetahuan pihak yang tidak berkenaan.",
+      "nuances": "强调信息不公开；一般表述也常用 dirahsiakan。保密本身不表示已经实施技术加密。此义由 menyulitkan 的“使隐秘”义形成被动。参见 [DBP：sulit](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=sulit)。",
+      "collocations": [
+        {
+          "ms": "maklumat yang disulitkan",
+          "zh": "被保密的信息",
+          "en": "information kept confidential"
+        },
+        {
+          "ms": "butiran yang disulitkan",
+          "zh": "被隐去的细节",
+          "en": "details kept secret"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "数据或信息被转换成密文，即被加密。",
+      "en_definition": "To be encrypted by conversion into ciphertext.",
+      "ms_definition": "Ditukarkan daripada bentuk asal kepada teks sifer melalui proses penyulitan.",
+      "nuances": "信息技术义；并非仅指设为私人、限制访问或添加密码。DBP 的技术术语资料明确使用此词描述明文转为密文。见 [DBP：penyulitan 技术释义](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=menyulitkan)。",
+      "collocations": [
+        {
+          "ms": "data yang disulitkan",
+          "zh": "已加密的数据",
+          "en": "encrypted data"
+        },
+        {
+          "ms": "mesej yang disulitkan",
+          "zh": "已加密的消息",
+          "en": "encrypted messages"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua data pelanggan perlu disulitkan sebelum dihantar melalui rangkaian.",
+      "zh": "所有客户数据在通过网络发送前都必须加密。",
+      "en": "All customer data must be encrypted before being transmitted over the network."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Fail tu dah disulitkan, kan?",
+      "ms_standard": "Fail itu sudah disulitkan, bukan?",
+      "zh": "那个文件已经加密了，对吧？",
+      "en": "That file's encrypted already, right?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略。",
+        "dah 对应 sudah。",
+        "句末 kan 用于寻求确认；技术动词仍保留完整形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail tu dah disulitkan, kan? Aku nak hantar kat pelanggan.",
+          "ms_standard": "Fail itu sudah disulitkan, bukan? Aku hendak menghantarnya kepada pelanggan.",
+          "zh": "那个文件已经加密了吧？我要发给客户。",
+          "en": "That file's encrypted already, right? I'm about to send it to the client."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah. Hantar fail tu dulu, kata laluan bagi melalui telefon je.",
+          "ms_standard": "Sudah. Hantarkan fail itu dahulu dan berikan kata laluan melalui telefon sahaja.",
+          "zh": "加密了。先发文件，密码另外打电话告诉对方就行。",
+          "en": "Yes. Send the file first, then give them the password over the phone."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The root sulit connects two ideas that remain distinct in modern Malay: difficulty and secrecy. Its causative form can therefore describe making a task harder or keeping information hidden. Computing gives the secrecy branch a specialized application: converting readable data into ciphertext. Disulitkan is the passive form shared by these uses. See [DBP](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=menyulitkan).",
+    "cognitive_memory_aid": "抓住 sulit 的两个核心画面：事情变难，信息藏起；di- 把视角转向承受者：被弄复杂／被加密。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "说 Urusan saya disulitkan 容易让人听出对办事人员的指责。向机构询问时，可先说 Saya menghadapi kesulitan dalam urusan ini，较为缓和。",
+    "usage_etiquette": "讨论技术时可直接使用；讨论人际阻挠时应说明具体过程。文件标注 SULIT 与文件已经 disulitkan 属于不同概念，不能据保密标签推定已经加密。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "说 Urusan saya disulitkan 容易让人听出对办事人员的指责。向机构询问时，可先说 Saya menghadapi kesulitan dalam urusan ini，较为缓和。",
+    "usage_etiquette": "讨论技术时可直接使用；讨论人际阻挠时应说明具体过程。文件标注 SULIT 与文件已经 disulitkan 属于不同概念，不能据保密标签推定已经加密。"
+  }
+}

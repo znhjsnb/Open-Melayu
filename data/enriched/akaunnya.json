@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "akaunnya",
+    "syllables": null,
+    "ipa": "/a.kaun.ɲa/",
+    "jawi": "اکاءون",
+    "frequency_rank": 14283,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "akaun",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "akaun + -nya → akaunnya",
+    "pattern_note": "-nya 是表示所属或回指的附着代词，此处并非派生词缀。词根末尾 /n/ 与 -nya 的 /ɲ/ 分属相邻音节；书写保留 nn。所给 Jawi 是原包中的词根拼写。",
+    "word_family": [
+      {
+        "word": "perakaunan",
+        "affix": "per-...-an",
+        "gloss": "会计；会计核算"
+      },
+      {
+        "word": "mengakaunkan",
+        "affix": "meN-...-kan",
+        "gloss": "入账；记入账目"
+      }
+    ],
+    "root_jawi": "اکاءون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "其账目或会计记录；记录前文所指个人或机构收支、借贷等财务往来的账务资料。",
+      "en_definition": "The financial accounts or accounting records of a previously mentioned person or organization.",
+      "ms_definition": "Catatan urusan kewangan pihak yang telah disebut, termasuk penerimaan, pembayaran, debit dan kredit.",
+      "nuances": "对应原包所给 akaun 的账务记录义。-nya 回指账目所属者，词形本身不标明一套还是多套账目。本释义为原包定义的概括与语法扩展；mengakaunkan 的政府会计用例见：[马来西亚国家会计局](https://km.anm.gov.my/Aset%20Pengetahuan%20Bahagian/PENGENALAN%20PERAKAUAN%20BAYARAN-part%201%20of%206.pdf)。",
+      "collocations": [
+        {
+          "ms": "mengaudit akaunnya",
+          "zh": "审计其账目",
+          "en": "audit its accounts"
+        },
+        {
+          "ms": "menyemak akaunnya",
+          "zh": "核查其账目",
+          "en": "review its accounts"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "其银行账户或其他金融账户。",
+      "en_definition": "A bank or other financial account belonging to a previously mentioned holder.",
+      "ms_definition": "Akaun bank atau akaun kewangan lain milik pemegang yang telah disebut.",
+      "nuances": "通常由转账、余额、存款等语境确定为银行账户。不要把 akaunnya 自动译成“其账号”：账户与识别账户的号码不同。银行文件中的 akaun 用法见：[MBSB 账户条款](https://www.mbsb.com/mbsbbank/sites/default/files/2024-03/General-TC-CASA-i-BM.pdf)。",
+      "collocations": [
+        {
+          "ms": "baki akaunnya",
+          "zh": "其账户余额",
+          "en": "the balance in the account"
+        },
+        {
+          "ms": "memindahkan wang ke akaunnya",
+          "zh": "向其账户转账",
+          "en": "transfer money into the account"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "其网络服务、应用程序或社交平台账户。",
+      "en_definition": "A user account belonging to a previously mentioned person or organization.",
+      "ms_definition": "Akaun pengguna bagi perkhidmatan dalam talian, aplikasi atau platform digital milik pihak yang telah disebut.",
+      "nuances": "指用户账户，不等同于密码或用户名。属于现代数字服务用法；DBP 对 account linking 给出 pemautan akaun：[DBP 术语咨询](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=account+for)。",
+      "collocations": [
+        {
+          "ms": "mengaktifkan akaunnya",
+          "zh": "激活其账户",
+          "en": "activate the account"
+        },
+        {
+          "ms": "akaunnya digodam",
+          "zh": "其账户遭入侵",
+          "en": "the account was hacked"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pelanggan itu mengesahkan bahawa bayaran balik telah dikreditkan ke dalam akaunnya.",
+      "zh": "该客户确认，退款已存入其账户。",
+      "en": "The customer confirmed that the refund had been credited to their account."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aina kata akaunnya dah kena godam, lah.",
+      "ms_standard": "Aina mengatakan bahawa akaunnya sudah digodam.",
+      "zh": "Aina 说她的账号已经被盗了。",
+      "en": "Aina says her account has been hacked.",
+      "spoken_features": [
+        "dah 对应标准语 sudah。",
+        "kena godam 是口语被动表达，对应 digodam。",
+        "lah 在此加强告知语气，不必逐字翻译。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aina kata akaunnya dah kena godam. Kau ada dapat mesej pelik tak?",
+          "ms_standard": "Aina mengatakan bahawa akaunnya sudah digodam. Adakah awak menerima mesej yang mencurigakan?",
+          "zh": "Aina 说她的账号被盗了。你有没有收到奇怪的消息？",
+          "en": "Aina says her account's been hacked. Have you received any suspicious messages?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ada, mesej minta duit je. Aku nak telefon dia dulu.",
+          "ms_standard": "Ada, mesej itu hanya meminta wang. Saya hendak menelefonnya terlebih dahulu.",
+          "zh": "有，就是要钱的消息。我先打电话问问她。",
+          "en": "Yes, just a message asking for money. I'll call her first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Akaun is the Malay adaptation of English account. Its established financial use connects it with records, payments and balances, while digital contexts use it for a user's registered access to a service. Adding -nya identifies the relevant holder without changing the underlying meaning of akaun or introducing a new borrowing.",
+    "cognitive_memory_aid": "akaun 对应 account；akaun + -nya＝其账户。记住“双 n”：词根一个 n，-nya 再带一个 n。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属中性用语。正式沟通宜先明确提到客户、同事或机构，再用 akaunnya 回指；直接称呼对方时可用 akaun tuan 或 akaun puan。",
+    "usage_etiquette": "财务汇报中区分 akaun、nombor akaun 和 baki akaun，分别表示账户、账号与余额；数字服务中也应区分账户、用户名和密码。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属中性用语。正式沟通宜先明确提到客户、同事或机构，再用 akaunnya 回指；直接称呼对方时可用 akaun tuan 或 akaun puan。",
+    "usage_etiquette": "财务汇报中区分 akaun、nombor akaun 和 baki akaun，分别表示账户、账号与余额；数字服务中也应区分账户、用户名和密码。"
+  }
+}

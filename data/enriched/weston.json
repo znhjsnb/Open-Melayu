@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "weston",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 14266,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "weston",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Weston → Weston（专名整体保留）",
+    "pattern_note": "按专名整体识别，不作马来语词缀拆分；is_root 沿用输入包的未派生分类。没有可核实的本地标准读音或爪夷文资料，相关字段保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "Weston，专名；在马来西亚地理语境中可指沙巴州保佛地区的 Weston 小镇。",
+      "en_definition": "A proper name; in Malaysian geographical contexts, a town in the Beaufort area of Sabah.",
+      "ms_definition": "Nama khas; dalam konteks geografi Malaysia, nama sebuah pekan di kawasan Beaufort, Sabah.",
+      "nuances": "正文应大写为 Weston。输入包没有上下文，不能确定原始词次指沙巴地名、外国地名还是人名；此处以马来西亚地名用法示例。以下搭配属于自然地名组合，不代表已测得的搭配频率。status 按指定模板保留为 official，不构成 DBP 收词或审定声明。地名依据：[NADI：Weston 地区资料](https://lubok-weston.nadi.my/main/mengenai-kami/maklumat-tempatan)。",
+      "collocations": [
+        {
+          "ms": "pekan Weston",
+          "zh": "Weston 小镇",
+          "en": "the town of Weston"
+        },
+        {
+          "ms": "penduduk Weston",
+          "zh": "Weston 居民",
+          "en": "Weston residents"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Lawatan kerja ke pekan Weston akan diadakan pada minggu hadapan.",
+      "zh": "前往 Weston 小镇的工作考察将于下周进行。",
+      "en": "The working visit to the town of Weston will take place next week."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Esok kita nak singgah kat Weston, kan?",
+      "ms_standard": "Esok kita hendak singgah di Weston, bukan?",
+      "zh": "我们明天要顺道去 Weston，对吧？",
+      "en": "We're stopping in Weston tomorrow, right?",
+      "spoken_features": [
+        "nak 对应 hendak，表示打算。",
+        "kat 对应地点介词 di。",
+        "句末 kan 用于确认共同安排。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Esok kita nak singgah kat Weston, kan?",
+          "ms_standard": "Esok kita hendak singgah di Weston, bukan?",
+          "zh": "我们明天要顺道去 Weston，对吧？",
+          "en": "We're stopping in Weston tomorrow, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, singgah sekejap je. Lepas tu kita terus ke Beaufort.",
+          "ms_standard": "Ya, kita singgah sebentar sahaja. Selepas itu, kita meneruskan perjalanan ke Beaufort.",
+          "zh": "对，就停一小会儿，然后直接去保佛。",
+          "en": "Yes, just a quick stop. Then we'll head straight to Beaufort."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Weston illustrates how a proper name can occur in Malay without becoming an ordinary Malay vocabulary item. Local community information places Weston within the geographical world of Beaufort, Sabah. Its appearance in a corpus therefore requires attention to place and context. The supplied packet does not establish the origin of this particular name. [Local geographical context](https://lubok-weston.nadi.my/main/mengenai-kami/maklumat-tempatan).",
+    "cognitive_memory_aid": "把 Weston 连同地图定位一起记：Weston → 沙巴地名；遇见大写，先判断它在指哪里或谁。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "地名本身没有敬语等级；正式文件保留 Weston 的大写拼写。若指人，应按其身份和本人偏好使用称谓。",
+    "usage_etiquette": "适用于地址、行程和地方报道。缺少上下文时，不凭这个名字推断人物的国籍、族群或宗教。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "地名本身没有敬语等级；正式文件保留 Weston 的大写拼写。若指人，应按其身份和本人偏好使用称谓。",
+    "usage_etiquette": "适用于地址、行程和地方报道。缺少上下文时，不凭这个名字推断人物的国籍、族群或宗教。"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "angkanya",
+    "syllables": "ang.ka.nya",
+    "ipa": "/aŋ.ka.ɲa/",
+    "jawi": "اڠکڽ",
+    "frequency_rank": 14263,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "angka",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "angka + -nya → angkanya",
+    "pattern_note": "-nya 是后附代词或具有指称作用的附着成分，此处按字段归为 suffix；不触发词根音变，ny 表示 /ɲ/。输入包中的 اڠک 是词根 angka 的写法，完整词形补为 اڠکڽ；IPA 采用逐音节读法，马来西亚部分口音的词尾 a 可读作 [ə]。",
+    "word_family": [
+      {
+        "word": "angka",
+        "affix": null,
+        "gloss": "数字；数值"
+      },
+      {
+        "word": "mengangkakan",
+        "affix": "meN-...-kan",
+        "gloss": "给……编号"
+      },
+      {
+        "word": "perangkaan",
+        "affix": "per-...-an",
+        "gloss": "统计；统计数据"
+      }
+    ],
+    "root_jawi": "اڠک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "所指对象的数字、号码或数字符号。",
+      "en_definition": "The numeral or number associated with the referent.",
+      "ms_definition": "Lambang bilangan atau nombor bagi orang atau perkara yang dirujuk.",
+      "nuances": "-nya 须联系前文理解，可译为“他的／她的号码”或“那个数字”，不能固定译成“他的”。数字核心义见 [DBP：angka](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=angka)。",
+      "collocations": [
+        {
+          "ms": "angkanya tidak jelas",
+          "zh": "数字看不清楚",
+          "en": "the numeral is unclear"
+        },
+        {
+          "ms": "angkanya tersalah tulis",
+          "zh": "号码写错了",
+          "en": "the number was written incorrectly"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "前文所指事项的数值、数量或统计数字。",
+      "en_definition": "The numerical value, amount, or statistical figure under discussion.",
+      "ms_definition": "Nilai, jumlah atau bilangan yang dinyatakan dengan nombor bagi perkara yang sedang dibincangkan.",
+      "nuances": "常见于新闻、预算和销售讨论，如前文谈到人数，angkanya 即指该人数的具体数值。它本身不表示“大约”或“估计”。此处为 angka 数字义在语境中的运用。",
+      "collocations": [
+        {
+          "ms": "angkanya meningkat",
+          "zh": "该数值上升",
+          "en": "the figure rises"
+        },
+        {
+          "ms": "angkanya mencecah satu juta",
+          "zh": "该数字达到一百万",
+          "en": "the figure reaches one million"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "他的／她的分数或成绩；主要见于印度尼西亚用法。",
+      "en_definition": "His or her score or grade, chiefly in Indonesian usage.",
+      "ms_definition": "Markah yang diperoleh oleh seseorang; penggunaan yang ditandai sebagai bahasa Indonesia.",
+      "nuances": "DBP 将 angka 的“分数”义标作 Id。马来西亚学校和职场通常使用 markahnya，不能把此义当作当地默认用法。见 [DBP：angka 的地区标记](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=angka)。",
+      "collocations": [
+        {
+          "ms": "angkanya tinggi",
+          "zh": "他的／她的分数很高",
+          "en": "his or her score is high"
+        },
+        {
+          "ms": "angkanya rendah",
+          "zh": "他的／她的分数很低",
+          "en": "his or her score is low"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jumlah permohonan terus meningkat, dengan angkanya mencecah 12,000 pada akhir September.",
+      "zh": "申请数量持续上升，截至九月底已达到一万两千份。",
+      "en": "The number of applications continued to rise, reaching 12,000 by the end of September."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Angkanya dah betul ke? Semak sekali lagi je.",
+      "ms_standard": "Adakah angkanya sudah betul? Semak sekali lagi sahaja.",
+      "zh": "这个数字对了吗？再核对一次就好。",
+      "en": "Is that figure right now? Just check it once more.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "句末 ke 构成口语疑问。",
+        "je 对应 sahaja。",
+        "angkanya 在工作群聊中自然保留书面名词形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Angkanya dah betul ke? Aku nak masukkan dalam laporan ni.",
+          "ms_standard": "Adakah angkanya sudah betul? Aku hendak memasukkannya ke dalam laporan ini.",
+          "zh": "这个数字确认对了吗？我要放进这份报告。",
+          "en": "Have we got the figure right? I need to put it in this report."
+        },
+        {
+          "speaker": "Hafiz (同事)",
+          "ms_spoken": "Dah, 250 je. Aku dah semak kat sistem.",
+          "ms_standard": "Sudah, jumlahnya 250 sahaja. Aku sudah menyemaknya dalam sistem.",
+          "zh": "对了，就是250。我已经在系统里核对过。",
+          "en": "Yes, it's 250. I've checked it in the system."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Angka belongs to Malay's Sanskrit borrowing layer: Sanskrit aṅka denotes a mark or numerical figure. The attached -nya is Malay grammar, rather than part of that borrowed root. The resulting form links a number to someone or something already mentioned, allowing a report to refer back to a figure without repeating its full description. See [historical lexical comparison](https://www.sabrizain.org/malaya/library/manualmalaylan.pdf).",
+    "cognitive_memory_aid": "angka 是数字，-nya 像一根回指箭头：angkanya 就是“前面说的那个对象的数字”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身语气中性。讨论薪资、营业额或个人成绩时，是否适合追问取决于关系和场合；可用 Boleh saya tahu angkanya? 礼貌询问。",
+    "usage_etiquette": "报告中应让 -nya 的指向清楚，并交代单位和统计期间。谈马来西亚学生成绩时，优先使用 markahnya；不要把数值和人数、金额等单位混为一谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身语气中性。讨论薪资、营业额或个人成绩时，是否适合追问取决于关系和场合；可用 Boleh saya tahu angkanya? 礼貌询问。",
+    "usage_etiquette": "报告中应让 -nya 的指向清楚，并交代单位和统计期间。谈马来西亚学生成绩时，优先使用 markahnya；不要把数值和人数、金额等单位混为一谈。"
+  }
+}

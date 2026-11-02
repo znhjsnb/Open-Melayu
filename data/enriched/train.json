@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "train",
+    "syllables": null,
+    "ipa": "/treɪn/",
+    "jawi": null,
+    "frequency_rank": 14347,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "train",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + train → train",
+    "pattern_note": "整词按英语借用或语码转换处理，不拆成马来语词缀。IPA 标示英语读音；当地口语可能单元音化为 [tren]。status 按要求保留 official，但不表示英语拼写 train 已获认定为规范马来语词形。word_family 所列为英语同族词。",
+    "word_family": [
+      {
+        "word": "training",
+        "affix": "-ing（英语）",
+        "gloss": "训练；培训"
+      },
+      {
+        "word": "trainer",
+        "affix": "-er（英语）",
+        "gloss": "教练；培训员"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "列车；火车。用于马来语口语中的英语夹用，规范马来语写作使用 tren 或 kereta api。",
+      "en_definition": "A railway train; an English word used within informal Malay speech.",
+      "ms_definition": "Kenderaan yang bergerak di atas landasan untuk membawa penumpang atau barang; padanan bahasa Melayu ialah tren atau kereta api.",
+      "nuances": "如 naik train 属英语词汇嵌入马来语句法。规范拼写为 tren；勿与表示“趋势”的 trend 混淆。资料包未提供 train 的 DBP 马来语释义，本释义解释其夹用意义。参见 [DBP：tren](https://prpm.dbp.gov.my/Cari1?d=399108&keyword=tren)。",
+      "collocations": [
+        {
+          "ms": "naik train",
+          "zh": "搭火车",
+          "en": "take the train"
+        },
+        {
+          "ms": "tunggu train",
+          "zh": "等火车",
+          "en": "wait for the train"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "训练、练习；或培训他人使其熟练。属于英语动词在马来语口语中的夹用。",
+      "en_definition": "To practise systematically or teach someone a skill, in informal Malay-English code-switching.",
+      "ms_definition": "Berlatih untuk memahirkan diri, atau melatih seseorang supaya mahir melakukan sesuatu.",
+      "nuances": "须依宾语判断：train kat gim 指自己锻炼，规范表达为 berlatih di gimnasium；train staf 指培训员工，规范表达为 melatih kakitangan。两者不能一律替换成 berlatih。标准动词区别参见 [DBP：berlatih](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berlatih)。",
+      "collocations": [
+        {
+          "ms": "train kat gim",
+          "zh": "在健身房训练",
+          "en": "train at the gym"
+        },
+        {
+          "ms": "train staf baharu",
+          "zh": "培训新员工",
+          "en": "train new staff"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场报告 / 用词说明",
+      "ms": "Dalam laporan ini, perkataan bahasa Inggeris 'train' diterjemahkan sebagai 'tren'.",
+      "zh": "本报告将英语单词 train 译为 tren。",
+      "en": "In this report, the English word 'train' is translated as 'tren'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约定出行",
+      "ms_spoken": "Aku nak naik train je esok, senang sikit.",
+      "ms_standard": "Saya hendak menaiki tren sahaja esok kerana lebih mudah.",
+      "zh": "我明天就搭火车吧，方便一点。",
+      "en": "I'll just take the train tomorrow. It's easier.",
+      "spoken_features": [
+        "train 是英语名词夹用，标准马来语使用 tren",
+        "aku 用于熟人之间",
+        "nak、je 分别对应 hendak、sahaja",
+        "回复中的 dah、kat 分别对应 sudah、di"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak naik train je esok, senang sikit.",
+          "ms_standard": "Saya hendak menaiki tren sahaja esok kerana lebih mudah.",
+          "zh": "我明天就搭火车吧，方便一点。",
+          "en": "I'll just take the train tomorrow. It's easier."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh, aku dah beli tiket. Jumpa kat stesen pukul lapan, ya.",
+          "ms_standard": "Baik, saya sudah membeli tiket. Kita berjumpa di stesen pada pukul lapan, ya.",
+          "zh": "行，我已经买票了。八点车站见啊。",
+          "en": "Sure, I've already bought my ticket. See you at the station at eight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Train enters these Malay sentences as an English word, rather than through a Malay prefix or suffix. Railway talk provides a useful comparison: standard Malay has the adapted spelling tren, while informal messages may retain train. The same English spelling can also express training. Context therefore separates a journey on rails from practice at a gym or instruction at work.",
+    "cognitive_memory_aid": "看搭配分流：naik train＝搭列车；train staf＝培训员工。正式写作分别换成 menaiki tren 和 melatih kakitangan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人间夹用 train 通常自然；正式马来语公文使用 tren、kereta api、berlatih 或 melatih，以实际意义为准。正式例句通过引用英语词形保留目标词。",
+    "usage_etiquette": "交通、健身和职场闲聊均可能出现，但应顾及听者的英语理解能力。向公众提供指示时，采用明确的规范马来语词语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人间夹用 train 通常自然；正式马来语公文使用 tren、kereta api、berlatih 或 melatih，以实际意义为准。正式例句通过引用英语词形保留目标词。",
+    "usage_etiquette": "交通、健身和职场闲聊均可能出现，但应顾及听者的英语理解能力。向公众提供指示时，采用明确的规范马来语词语。"
+  }
+}

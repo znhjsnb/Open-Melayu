@@ -1,0 +1,159 @@
+{
+  "headword": {
+    "word": "borak",
+    "syllables": null,
+    "ipa": "[bo.raʔ]",
+    "jawi": "بورق",
+    "frequency_rank": 14368,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "borak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + borak → borak",
+    "pattern_note": "基本词；依输入读作 [bo.raʔ]，末尾 k 实现为喉塞音 [ʔ]。音节可分析为 bo.rak，但 syllables 字段保留输入的 null。",
+    "word_family": [
+      {
+        "word": "berborak",
+        "affix": "ber-",
+        "gloss": "闲聊"
+      },
+      {
+        "word": "berborak-borak",
+        "affix": "ber- + 重叠",
+        "gloss": "随意聊聊"
+      },
+      {
+        "word": "memborak",
+        "affix": "meN-",
+        "gloss": "闲谈；空谈"
+      },
+      {
+        "word": "memborakkan",
+        "affix": "meN-...-kan",
+        "gloss": "吹嘘某事"
+      },
+      {
+        "word": "pemborak",
+        "affix": "peN-",
+        "gloss": "爱闲聊的人"
+      }
+    ],
+    "root_jawi": "بورق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "轻松、亲切而非正式的闲谈，通常不涉及严肃或重要的事情。",
+      "en_definition": "Friendly, informal conversation, usually about light or unimportant matters.",
+      "ms_definition": "Perbualan mesra yang tidak formal, biasanya tentang hal-hal yang tidak serius atau tidak penting.",
+      "nuances": "通常为中性或亲切用语，不必含“无聊”“说谎”或“说人坏话”的意思。正式描述聊天活动时可用 perbualan santai。依据 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=borak)。",
+      "collocations": [
+        {
+          "ms": "borak santai",
+          "zh": "轻松闲聊",
+          "en": "a relaxed chat"
+        },
+        {
+          "ms": "borak kosong",
+          "zh": "无关紧要的闲谈",
+          "en": "idle chatter"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "闲聊；随意交谈。口语中直接以基本形式 borak 表示标准语的 berborak。",
+      "en_definition": "To chat informally; a colloquial use corresponding to standard Malay berborak.",
+      "ms_definition": "Berbual-bual secara santai; penggunaan bentuk dasar borak dalam bahasa percakapan bagi berborak.",
+      "nuances": "如 jom borak、nak borak，常见于随意邀请；这属于基本形式的口语动词用法。正式完整句通常使用 berborak 或 berbual。",
+      "collocations": [
+        {
+          "ms": "borak dengan kawan",
+          "zh": "跟朋友闲聊",
+          "en": "chat with friends"
+        },
+        {
+          "ms": "borak sampai lewat malam",
+          "zh": "聊到深夜",
+          "en": "chat until late at night"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "空话；夸大而不可信的闲谈，带有吹嘘意味。",
+      "en_definition": "Empty or boastful talk regarded as exaggerated or untrue.",
+      "ms_definition": "Percakapan kosong yang berlarut-larut dan biasanya tidak benar atau bersifat membesar-besarkan sesuatu.",
+      "nuances": "这是词典记录的贬义用法，不能套用于所有 borak。说某人的话是 borak kosong，可能是在否定其可信度。依据 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=borak)。",
+      "collocations": [
+        {
+          "ms": "sekadar borak kosong",
+          "zh": "不过是空话",
+          "en": "nothing more than empty talk"
+        },
+        {
+          "ms": "percaya akan boraknya",
+          "zh": "相信他的吹嘘之词",
+          "en": "believe his boasting"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 社区活动报道",
+      "ms": "Program itu menyediakan ruang untuk peserta berborak secara santai sambil mengeratkan hubungan kejiranan.",
+      "zh": "该活动为参与者提供轻松闲聊的空间，借此增进邻里关系。",
+      "en": "The programme gives participants an opportunity to chat informally and strengthen neighbourhood ties."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约见",
+      "ms_spoken": "Jom borak kejap kat kedai kopi.",
+      "ms_standard": "Mari kita berborak sebentar di kedai kopi.",
+      "zh": "走，去咖啡店聊一会儿。",
+      "en": "Let’s have a quick chat at the coffee shop.",
+      "spoken_features": [
+        "jom 是口语邀请语，对应 mari。",
+        "borak 对应标准语 berborak。",
+        "kejap 对应 sebentar。",
+        "kat 在此对应地点介词 di。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah habis kerja? Jom borak kejap kat kedai kopi.",
+          "ms_standard": "Adakah kamu sudah selesai bekerja? Mari kita berborak sebentar di kedai kopi.",
+          "zh": "你下班了吗？去咖啡店聊一会儿吧。",
+          "en": "Are you done with work? Let’s have a quick chat at the coffee shop."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah. Tunggu aku sepuluh minit je, aku nak tutup komputer dulu.",
+          "ms_standard": "Sudah. Tunggu saya selama sepuluh minit sahaja; saya mahu mematikan komputer dahulu.",
+          "zh": "下班了。等我十分钟就好，我先关电脑。",
+          "en": "Yes. Give me ten minutes; I just need to shut down my computer."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries record a revealing range within borak: friendly informal conversation, but also empty or exaggerated talk. Its derivatives distinguish chatting from boasting about something, showing why context matters more than a single translation. The consulted dictionary entries do not establish a deeper historical source, so no foreign origin or connection with similarly spelled words is asserted here. [DBP](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=borak).",
+    "cognitive_memory_aid": "用整句记：Jom borak！＝“来聊聊！”；末尾 k 轻收成喉塞音，别读成额外一个音节。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与熟人说 jom borak 很自然；邀请长辈、客户或主管时，可说 Jika ada masa, boleh kita berbual sebentar?，语气更周到。",
+    "usage_etiquette": "适合朋友交流、茶歇和邻里互动；闲聊并不自动意味着八卦。不要把别人的正式发言随口称为 borak kosong，否则容易显得轻视或指责其胡说。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与熟人说 jom borak 很自然；邀请长辈、客户或主管时，可说 Jika ada masa, boleh kita berbual sebentar?，语气更周到。",
+    "usage_etiquette": "适合朋友交流、茶歇和邻里互动；闲聊并不自动意味着八卦。不要把别人的正式发言随口称为 borak kosong，否则容易显得轻视或指责其胡说。"
+  }
+}

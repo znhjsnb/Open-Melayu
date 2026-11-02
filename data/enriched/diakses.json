@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "diakses",
+    "syllables": null,
+    "ipa": "/di. ak.ses/",
+    "jawi": null,
+    "frequency_rank": 14274,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "akses",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + akses → diakses",
+    "pattern_note": "di- 是被动前缀，与词根连写；词根开头的 a 保留，不发生鼻音同化。输入包将 diakses 标为词根，此处按实际构词修正。",
+    "word_family": [
+      {
+        "word": "akses",
+        "affix": null,
+        "gloss": "访问；获取或使用信息的途径、权限"
+      },
+      {
+        "word": "mengakses",
+        "affix": "meN-",
+        "gloss": "访问、获取或使用数据等"
+      }
+    ],
+    "root_jawi": "اکسيس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被访问、获取或调用，通常指数据、文件、网站或计算机资源。",
+      "en_definition": "To be accessed, retrieved, or used, especially of digital information or resources.",
+      "ms_definition": "Dicapai, diperoleh atau digunakan, khususnya berkenaan data, maklumat, fail atau sumber komputer.",
+      "nuances": "这是 mengakses 的被动形式，本身不表示过去时。dapat diakses、boleh diakses 表示能够访问；telah diakses 才明确表示已经访问。此处马来文释义为根据词根义编写的释义，并非 DBP 对 diakses 的逐字引文。[DBP：akses](https://prpm.dbp.gov.my/cari1?d=175768&keyword=akses)",
+      "collocations": [
+        {
+          "ms": "boleh diakses dalam talian",
+          "zh": "可在线访问",
+          "en": "can be accessed online"
+        },
+        {
+          "ms": "hanya boleh diakses oleh pengguna berdaftar",
+          "zh": "仅限注册用户访问",
+          "en": "can only be accessed by registered users"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan tahunan tersebut boleh diakses melalui portal rasmi kementerian.",
+      "zh": "该年度报告可通过该部的官方网站查阅。",
+      "en": "The annual report can be accessed through the ministry’s official portal."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Fail tu dah boleh diakses kat telefon ke?",
+      "ms_standard": "Adakah fail itu sudah boleh diakses melalui telefon?",
+      "zh": "那个文件现在能用手机打开了吗？",
+      "en": "Can you access that file on your phone now?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "dah 对应 sudah",
+        "kat 在此口语语境中表示访问所用的平台或设备",
+        "句末 ke 标记疑问，标准语可用 adakah"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail tu dah boleh diakses kat telefon ke?",
+          "ms_standard": "Adakah fail itu sudah boleh diakses melalui telefon?",
+          "zh": "那个文件现在能用手机打开了吗？",
+          "en": "Can you access that file on your phone now?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah boleh. Tekan pautan yang saya hantar tadi je.",
+          "ms_standard": "Sudah boleh. Anda hanya perlu menekan pautan yang saya hantar tadi.",
+          "zh": "可以了，点我刚才发的链接就行。",
+          "en": "Yes, you can. Just tap the link I sent earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The interesting feature of diakses is how a modern information word fits an established Malay grammatical pattern. DBP records akses for access to information and mengakses for obtaining such access. Adding the passive prefix di- shifts attention to the resource: the report, file, or website becomes the thing being accessed. [DBP: akses](https://prpm.dbp.gov.my/cari1?d=175768&keyword=akses)",
+    "cognitive_memory_aid": "看到 di-，先想“被”；akses 联想 access：diakses 就是“被访问”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于网站公告、技术说明和工作沟通都自然。向客户说明故障时，可说 Maaf, fail tersebut belum dapat diakses，语气礼貌，也避免直接归责。",
+    "usage_etiquette": "适合信息和系统访问语境。访问权限不等于转发许可；涉及私人文件时，应另行说明谁获准访问或分享。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于网站公告、技术说明和工作沟通都自然。向客户说明故障时，可说 Maaf, fail tersebut belum dapat diakses，语气礼貌，也避免直接归责。",
+    "usage_etiquette": "适合信息和系统访问语境。访问权限不等于转发许可；涉及私人文件时，应另行说明谁获准访问或分享。"
+  }
+}

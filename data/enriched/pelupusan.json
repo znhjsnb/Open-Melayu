@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "pelupusan",
+    "syllables": "pe.lu.pu.san",
+    "ipa": "/pə.lu.pu.san/",
+    "jawi": "ڤلوڤوسن",
+    "frequency_rank": 14305,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lupus",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + lupus + -an → pelupusan",
+    "pattern_note": "peN- 在 /l/ 前实现为 pe-，词根首音 /l/ 保留；加 -an 后末尾 /s/ 成为下一音节的声母，故分音节为 pe.lu.pu.san。输入未提供 root_jawi，保留 null；DBP 所列 lupus 的 Jawi 为 لوڤوس。",
+    "word_family": [
+      {
+        "word": "lupus",
+        "affix": null,
+        "gloss": "消失；消除"
+      },
+      {
+        "word": "melupuskan",
+        "affix": "meN-...-kan",
+        "gloss": "处置；清除"
+      },
+      {
+        "word": "dilupuskan",
+        "affix": "di-...-kan",
+        "gloss": "被处置；被清除"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "处置、清除或消除某物的行为或过程，常指废物的最终处置。",
+      "en_definition": "The act or process of disposing of or eliminating something, especially waste.",
+      "ms_definition": "Perihal atau perbuatan melupuskan sesuatu.",
+      "nuances": "是过程名词，不是“垃圾”本身，也不特指回收利用。具体处置方式须由上下文说明。基本词义依据：[DBP：lupus](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=lupus)。",
+      "collocations": [
+        {
+          "ms": "pelupusan sisa pepejal",
+          "zh": "固体废物处置",
+          "en": "solid waste disposal"
+        },
+        {
+          "ms": "tapak pelupusan sampah",
+          "zh": "垃圾处置场",
+          "en": "a waste disposal site"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "对资产、库存或馆藏等进行正式处置，使其退出原有持有或使用体系的过程。",
+      "en_definition": "The formal disposal of assets, stock, or collection materials no longer retained or used.",
+      "ms_definition": "Dalam pengurusan, proses melupuskan aset, stok atau bahan koleksi yang tidak lagi dikekalkan atau digunakan.",
+      "nuances": "这是基本义在管理领域的常见应用，不自动等于销毁。处置可能涉及出售、赠送或销毁；具体方式依对象和程序而定。实际用例：[MARA：图书处置流程](https://perpustakaan.mara.gov.my/doc/carta_alir_lupus.pdf)。",
+      "collocations": [
+        {
+          "ms": "pelupusan aset",
+          "zh": "资产处置",
+          "en": "asset disposal"
+        },
+        {
+          "ms": "pelupusan buku perpustakaan",
+          "zh": "图书馆书籍处置",
+          "en": "disposal of library books"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jawatankuasa akan menilai cadangan pelupusan komputer lama sebelum menentukan kaedah yang sesuai.",
+      "zh": "委员会将先评估旧电脑的处置建议，再决定适当的处置方式。",
+      "en": "The committee will assess the proposal to dispose of the old computers before deciding on a suitable method."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Borang pelupusan komputer lama tu dah siap ke?",
+      "ms_standard": "Adakah borang pelupusan komputer lama itu sudah siap?",
+      "zh": "那份旧电脑处置表填好了吗？",
+      "en": "Is the disposal form for those old computers ready?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "dah 是 sudah 的口语形式",
+        "句末 ke 构成日常口语疑问",
+        "pelupusan 在同事聊天中仍保留其行政用语性质"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Borang pelupusan komputer lama tu dah siap ke?",
+          "ms_standard": "Adakah borang pelupusan komputer lama itu sudah siap?",
+          "zh": "那份旧电脑处置表填好了吗？",
+          "en": "Is the disposal form for those old computers ready?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, aku nak hantar kat penyelia petang ni.",
+          "ms_standard": "Sudah. Saya mahu menghantarnya kepada penyelia pada petang ini.",
+          "zh": "好了，我打算今天下午交给主管。",
+          "en": "Yes. I'm going to send it to the supervisor this afternoon."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records lupus with meanings involving disappearance or elimination. Malay morphology develops this into melupuskan, the action of disposing of something, and pelupusan, the process itself. In institutional life, the noun appears in waste management, asset administration and library procedures. Its administrative use is broader than destruction: an item may leave a collection through sale or donation.",
+    "cognitive_memory_aid": "把 lupus 的“消失、清除”放进 pe-…-an 过程框：pelupusan＝让物品退出使用或持有体系的“处置过程”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性、偏正式的管理用语。与同事谈设备或废物处置很自然，家庭聊天通常用 buang 等更日常的词。",
+    "usage_etiquette": "用于物品、资产和废物等对象；用于人员会显得物化。讨论资产时说明处置对象及方式，避免把 pelupusan 一概理解为焚毁或随手丢弃。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性、偏正式的管理用语。与同事谈设备或废物处置很自然，家庭聊天通常用 buang 等更日常的词。",
+    "usage_etiquette": "用于物品、资产和废物等对象；用于人员会显得物化。讨论资产时说明处置对象及方式，避免把 pelupusan 一概理解为焚毁或随手丢弃。"
+  }
+}
