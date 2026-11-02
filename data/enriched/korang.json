@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "korang",
+    "syllables": null,
+    "ipa": "/ˈkoraŋ/",
+    "jawi": null,
+    "frequency_rank": 1129,
+    "status": "colloquial",
+    "data_note": "这是马来西亚马来语口语代词，不能标为正式语体。数据包音节字段为空，故保留 null；发音可分为 ko.rang。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "korang",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "kau + orang → kau orang → korang（口语缩合，非加缀）",
+    "pattern_note": "is_root 沿用数据包，表示当前检索词没有再解析出词缀；历史构成则是 kau orang 的口语缩合，不是由某个 ko- 前缀派生。",
+    "word_family": [
+      {
+        "word": "kitorang",
+        "affix": "无；kita orang 的口语缩合，属平行构式",
+        "gloss": "我们，通常不包括听话人"
+      },
+      {
+        "word": "diorang",
+        "affix": "无；dia orang 的口语缩合，属平行构式",
+        "gloss": "他们；她们"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "你们；口语中称呼多个听话人的第二人称代词。",
+      "en_definition": "An informal second-person plural pronoun meaning you or you all.",
+      "ms_definition": "Kata ganti nama diri kedua dalam bahasa percakapan yang lazimnya merujuk kepada orang yang disapa secara jamak; kamu semua atau kalian.",
+      "nuances": "准确词性是 pronoun／kata ganti nama，原模板的词性列表未列出这一类别。通常指复数听话人；DBP 的答复也指出具体指称须看语境。标准书面表达可用 kamu semua、awak semua 或 kalian；正式公众称呼可依场景选用 anda semua、tuan-tuan dan puan-puan。[DBP：korang](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=korang)；[DBP：kau orang](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau+orang)",
+      "collocations": [
+        {
+          "ms": "korang semua",
+          "zh": "你们大家",
+          "en": "all of you"
+        },
+        {
+          "ms": "korang berdua",
+          "zh": "你们俩",
+          "en": "you two"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan analisis bahasa itu, korang dikenal pasti sebagai kata ganti nama diri kedua yang digunakan dalam perbualan tidak rasmi.",
+      "zh": "该语言分析报告将 korang 归为非正式交谈中使用的第二人称代词。",
+      "en": "The language analysis report identifies korang as a second-person pronoun used in informal conversation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Korang dah makan ke?",
+      "ms_standard": "Adakah kamu semua sudah makan?",
+      "zh": "你们吃了吗？",
+      "en": "Have you all eaten yet?",
+      "spoken_features": [
+        "korang 对应 kamu semua",
+        "dah 对应 sudah",
+        "句末 ke 构成口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Korang dah makan ke? Aku nak pergi kedai ni.",
+          "ms_standard": "Adakah kamu semua sudah makan? Saya hendak pergi ke kedai makan sekarang.",
+          "zh": "你们吃了吗？我现在想去吃点东西。",
+          "en": "Have you all eaten yet? I'm heading out for some food."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi. Tunggu jap, kitorang nak ikut.",
+          "ms_standard": "Kami belum makan. Tunggu sebentar, kami hendak ikut.",
+          "zh": "还没呢。等一下，我们也要一起去。",
+          "en": "Not yet. Hang on a sec—we want to come too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Korang developed through the colloquial contraction of kau orang, an expression meaning 'you all'. Related conversational forms include kitorang and diorang. These forms make person and group reference explicit in everyday speech. Their usefulness in friendly conversation does not make them interchangeable with the forms preferred in formal reports, official correspondence, or respectful public address. [DBP：korang](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=korang)；[UKM：相关语言研究](https://ejournal.ukm.my/jmelayu/article/download/60140/13675)",
+    "cognitive_memory_aid": "kau 是“你”，orang 是“人”；把“你＋一群人”压缩成 korang，就记住“你们”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合熟人、同辈和关系轻松的群聊。对长辈、客户、上司或不熟悉的人直接使用，可能显得随便或不够尊重。",
+    "usage_etiquette": "朋友群聊可自然使用；正式通知、申请和工作报告改用适当的标准称呼。正式例句中的 korang 是被讨论的语言形式，并非正式称呼听众的示范。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合熟人、同辈和关系轻松的群聊。对长辈、客户、上司或不熟悉的人直接使用，可能显得随便或不够尊重。",
+    "usage_etiquette": "朋友群聊可自然使用；正式通知、申请和工作报告改用适当的标准称呼。正式例句中的 korang 是被讨论的语言形式，并非正式称呼听众的示范。"
+  }
+}

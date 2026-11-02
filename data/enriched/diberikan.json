@@ -1,0 +1,160 @@
+{
+  "headword": {
+    "word": "diberikan",
+    "syllables": "di.be.ri.kan",
+    "ipa": "[di.bə.ri.kan]",
+    "jawi": null,
+    "frequency_rank": 1670,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "beri",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + beri + -kan → diberikan",
+    "pattern_note": "di- 标记被动，-kan 保留在词干后；词根没有辅音交替。数据包的 diberi 本身已含被动前缀，不能作为最终词根；词根应为 beri。",
+    "word_family": [
+      {
+        "word": "memberi",
+        "affix": "meN-",
+        "gloss": "给予；使接受"
+      },
+      {
+        "word": "memberikan",
+        "affix": "meN-...-kan",
+        "gloss": "把某物给予"
+      },
+      {
+        "word": "diberi",
+        "affix": "di-",
+        "gloss": "获给；被给予"
+      },
+      {
+        "word": "pemberian",
+        "affix": "peN-...-an",
+        "gloss": "给予行为；赠予之物"
+      },
+      {
+        "word": "pemberi",
+        "affix": "peN-",
+        "gloss": "给予者"
+      }
+    ],
+    "root_jawi": "بري"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被给予；被交给；某物由给予者转交给接受者。",
+      "en_definition": "To be given or handed to a recipient.",
+      "ms_definition": "Diserahkan atau disampaikan kepada seseorang atau sesuatu pihak.",
+      "nuances": "是 memberikan 的被动形式，不自带过去时意义；是否已经发生须由 telah、sudah 或上下文确定。常见结构为“所给之物 + diberikan + kepada + 接受者”。马来语释义依据 beri 词族概括，并非独立词条的逐字引文。[DBP 词族释义](https://prpmv1.dbp.gov.my/Search.aspx?d=1&k=beri)",
+      "collocations": [
+        {
+          "ms": "hadiah yang diberikan",
+          "zh": "所赠送的礼物",
+          "en": "the gift that is given"
+        },
+        {
+          "ms": "bantuan diberikan kepada mangsa",
+          "zh": "向受灾者提供援助",
+          "en": "aid is given to the victims"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被授予、分配或提供某种机会、权限、时间等非实物资源。",
+      "en_definition": "To be granted, allocated, or provided, especially an opportunity, permission, or time.",
+      "ms_definition": "Dikurniakan, diperuntukkan atau disediakan, seperti peluang, kebenaran atau tempoh masa.",
+      "nuances": "强调被提供或授予的事项，不一定指所有权转移。比较 Peluang diberikan kepada peserta（机会被给予参加者）与 Peserta diberi peluang（参加者获给机会）。这是给予义在抽象对象上的延伸。",
+      "collocations": [
+        {
+          "ms": "peluang diberikan kepada semua peserta",
+          "zh": "所有参加者均获给予机会",
+          "en": "an opportunity is given to all participants"
+        },
+        {
+          "ms": "kebenaran diberikan",
+          "zh": "许可获批",
+          "en": "permission is granted"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "某项说明、答复、指示等被提供或传达。",
+      "en_definition": "To be supplied or communicated, as information, an explanation, or instructions.",
+      "ms_definition": "Disampaikan atau dikemukakan, seperti maklumat, penjelasan, jawapan atau arahan.",
+      "nuances": "用于信息内容时，英语常译为 provided、supplied 或 issued，须依名词选词。并非所有出现 diberikan 的句子都适合机械译成“被赠送”。",
+      "collocations": [
+        {
+          "ms": "penjelasan yang diberikan",
+          "zh": "所提供的说明",
+          "en": "the explanation provided"
+        },
+        {
+          "ms": "arahan yang diberikan",
+          "zh": "所下达的指示",
+          "en": "the instructions issued"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 援助发放",
+      "ms": "Bantuan kewangan akan diberikan kepada keluarga yang terjejas akibat banjir.",
+      "zh": "将向受洪灾影响的家庭提供经济援助。",
+      "en": "Financial assistance will be provided to families affected by the floods."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学办理申请",
+      "ms_spoken": "Borang yang diberikan kat kau tadi tu, dah isi ke?",
+      "ms_standard": "Sudahkah kamu mengisi borang yang diberikan kepada kamu tadi?",
+      "zh": "刚才给你的那张表，你填了吗？",
+      "en": "Have you filled in the form you were given earlier?",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "kat kau 在这里对应 kepada kamu。",
+        "tu 对应 itu，重复指示有口语强调作用。",
+        "话题提前与句末 ke 是自然的口语疑问方式。",
+        "diberikan 可保留在口语关系从句中，整句仍可搭配口语缩略形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Borang yang diberikan kat kau tadi tu, dah isi ke?",
+          "ms_standard": "Sudahkah kamu mengisi borang yang diberikan kepada kamu tadi?",
+          "zh": "刚才给你的那张表，你填了吗？",
+          "en": "Have you filled in the form you were given earlier?"
+        },
+        {
+          "speaker": "Hafiz (同学)",
+          "ms_spoken": "Dah. Aku nak hantar kat kaunter sekarang.",
+          "ms_standard": "Sudah. Saya hendak menghantarnya ke kaunter sekarang.",
+          "zh": "填好了。我现在要拿去柜台交。",
+          "en": "Yes. I'm taking it to the counter now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diberikan belongs to the Malay word family built on beri, meaning give. Its form shows how Malay can shift attention from the giver to what is given: memberikan becomes diberikan. The same construction serves ordinary exchanges and administrative announcements, where aid, permission, or information becomes the focus of the sentence. [DBP word family](https://prpmv1.dbp.gov.my/Search.aspx?d=1&k=beri)",
+    "cognitive_memory_aid": "抓住 beri＝给；前面 di- 切换到被动，后面 -kan 保留：diberikan＝某物被给出。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合正式通知、说明和报告。被动句可让焦点落在援助或安排上；若责任主体重要，可用 oleh 明确指出给予者。",
+    "usage_etiquette": "被动前缀 di- 与动词连写：diberikan。地点介词 di 则分写，如 di pejabat。正式写作中要明确区分“给出的东西”和“接受者”，避免句式含混。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合正式通知、说明和报告。被动句可让焦点落在援助或安排上；若责任主体重要，可用 oleh 明确指出给予者。",
+    "usage_etiquette": "被动前缀 di- 与动词连写：diberikan。地点介词 di 则分写，如 di pejabat。正式写作中要明确区分“给出的东西”和“接受者”，避免句式含混。"
+  }
+}

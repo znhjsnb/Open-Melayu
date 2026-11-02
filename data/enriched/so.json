@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "so",
+    "syllables": "so",
+    "ipa": "/səʊ/",
+    "jawi": null,
+    "frequency_rank": 1705,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "so",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + so → so",
+    "pattern_note": "英语整词在马英混用中出现，不作马来语词缀分析；本条采用英语读音，实际口语可有单元音化。输入的音节值 v 无法表示本词音节，故校正为单音节 so。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "所以；因此。马英混用中用于引出前述情况产生的结果或决定。",
+      "en_definition": "An English connector used in mixed Malay speech to introduce a consequence or resulting decision.",
+      "ms_definition": "Kata hubung bahasa Inggeris yang digunakan dalam pertuturan campur kod untuk memperkenalkan akibat atau keputusan; padanannya ialah jadi atau oleh itu.",
+      "nuances": "本条解释马英混用中的英语 so，不将其列为已核实的规范马来语连接词。正式马来语通常按语境改用 jadi、maka 或 oleh itu。释义为编写释义，并非 DBP 原文。",
+      "collocations": [
+        {
+          "ms": "so, kita tunggu dulu",
+          "zh": "所以，我们先等等",
+          "en": "so, let's wait for now"
+        },
+        {
+          "ms": "so, saya tak dapat datang",
+          "zh": "所以，我来不了",
+          "en": "so, I can't come"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "那么；那。用于承接话题、引出下一步或提出追问的英语话语标记。",
+      "en_definition": "An English discourse marker introducing a follow-up question, transition, or next step.",
+      "ms_definition": "Penanda wacana bahasa Inggeris dalam pertuturan campur kod untuk menyambung perbualan, mengemukakan soalan susulan atau beralih kepada langkah seterusnya.",
+      "nuances": "句首 so 不一定表示严格因果，有时只负责推进对话。本条以 particle 表示其话语功能；规范改写可用 jadi、kalau begitu，或直接省略。",
+      "collocations": [
+        {
+          "ms": "so, macam mana?",
+          "zh": "那么，怎么样？",
+          "en": "so, what do you think?"
+        },
+        {
+          "ms": "so, bila nak mula?",
+          "zh": "那么，什么时候开始？",
+          "en": "so, when are we starting?"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "这么；那么；非常。马英混用中保留英语用法，置于形容词或副词前强调程度。",
+      "en_definition": "An English degree adverb meaning very or to such an extent, retained in code-switched phrases.",
+      "ms_definition": "Kata penguat bahasa Inggeris yang dikekalkan dalam frasa campur kod untuk menegaskan darjah sesuatu sifat atau keadaan; padanannya mengikut konteks ialah sangat atau begitu.",
+      "nuances": "常随英语形容词一起嵌入马来语句子，例如 so busy。它与表示结果的连接词 so 功能不同；正式马来语应翻译整个短语。",
+      "collocations": [
+        {
+          "ms": "so busy",
+          "zh": "非常忙",
+          "en": "very busy"
+        },
+        {
+          "ms": "so cute",
+          "zh": "太可爱了",
+          "en": "so cute"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan rasmi, penanda bahasa Inggeris 'so' boleh digantikan dengan 'oleh itu' apabila menunjukkan akibat.",
+      "zh": "正式报告中，英语标记词 so 在表示结果时可改为 oleh itu。",
+      "en": "In a formal report, the English marker 'so' can be replaced with 'oleh itu' when expressing a consequence."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Hujan lebat, so kita tunggu kat sini dulu je lah.",
+      "ms_standard": "Hujan lebat, jadi marilah kita menunggu di sini dahulu.",
+      "zh": "雨这么大，那我们先在这儿等着吧。",
+      "en": "It's pouring, so let's just wait here for now.",
+      "spoken_features": [
+        "so 是嵌入马来语句子的英语结果连接词。",
+        "kat 对应 di；je 对应 sahaja。",
+        "lah 缓和建议语气；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Hujan lebat, so kita tunggu kat sini dulu je lah.",
+          "ms_standard": "Hujan lebat, jadi marilah kita menunggu di sini dahulu.",
+          "zh": "雨这么大，那我们先在这儿等着吧。",
+          "en": "It's pouring, so let's just wait here for now."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Boleh, aku dah bagitahu Farah kita lambat sikit.",
+          "ms_standard": "Baiklah, saya sudah memberitahu Farah bahawa kita akan tiba sedikit lewat.",
+          "zh": "行，我已经跟 Farah 说我们会晚一点到了。",
+          "en": "Sure, I've already told Farah we'll be a little late."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English so descends from Old English swā and belongs to inherited Germanic vocabulary. Its modern functions include expressing degree and connecting statements. In mixed Malay conversation, speakers can retain this English word while using Malay around it. This entry treats that usage as code-switching rather than Malay affixation. [Source: Oxford English Dictionary](https://doi.org/10.1093/OED/7207367185)",
+    "cognitive_memory_aid": "把 so 想成一句话的转接按钮：接结果是“所以”，接追问是“那么”，接形容词是“这么、非常”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人聊天中可自然使用；与不熟悉英语的对象交流时，改用 jadi 或 kalau begitu 更清楚。",
+    "usage_etiquette": "适合接受马英混用的聊天环境。正式公函、规范马来语作文和面向广泛公众的说明，应按具体功能改写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人聊天中可自然使用；与不熟悉英语的对象交流时，改用 jadi 或 kalau begitu 更清楚。",
+    "usage_etiquette": "适合接受马英混用的聊天环境。正式公函、规范马来语作文和面向广泛公众的说明，应按具体功能改写。"
+  }
+}

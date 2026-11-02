@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "iya",
+    "syllables": null,
+    "ipa": "/i.ja/",
+    "jawi": null,
+    "frequency_rank": 1504,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "iya",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + iya → iya；规范对应形式：ia／ya",
+    "pattern_note": "无词缀；y 表示 /j/ 滑音。原包词根字段保留 iya，但马来西亚规范书写宜采用表示肯定的 ia 或 ya。下列词族通过规范形式 ia 关联。",
+    "word_family": [
+      {
+        "word": "seia",
+        "affix": "se-",
+        "gloss": "意见一致；同意，以 ia 为词基"
+      },
+      {
+        "word": "mengiakan",
+        "affix": "meN-...-kan",
+        "gloss": "认可；表示同意，以 ia 为词基"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "是、对、好；用于肯定、确认或表示同意，是肯定词 ia／ya 的非首选书写变体。",
+      "en_definition": "Yes; an affirmative response expressing confirmation or agreement.",
+      "ms_definition": "Bentuk variasi bagi ia atau ya yang menyatakan pengesahan atau persetujuan.",
+      "nuances": "在本模式中归入 particle，功能上是肯定应答词。这里关联的是表示“是”的 ia，不是表示“他／她”的同形代词。DBP 对规范拼写的答复采用 ya 或 ia，见 [DBP：ia 的用法与拼写](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ia)。以下是应答组合。",
+      "collocations": [
+        {
+          "ms": "iya, betul",
+          "zh": "是的，没错",
+          "en": "yes, that’s right"
+        },
+        {
+          "ms": "iya, saya setuju",
+          "zh": "是的，我同意",
+          "en": "yes, I agree"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Ya, pihak kami bersetuju dengan cadangan tersebut.",
+      "zh": "是的，我方同意该建议。",
+      "en": "Yes, we agree with that proposal."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Iya, aku dah hantar tadi.",
+      "ms_standard": "Ya, saya sudah menghantarnya tadi.",
+      "zh": "对，我刚才已经发了。",
+      "en": "Yes, I sent it earlier.",
+      "spoken_features": [
+        "iya 在这里表示肯定；规范对应形式为 ya。",
+        "dah 对应 sudah。",
+        "宾语由聊天上下文补足。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah hantar gambar tu kat Mei ke?",
+          "ms_standard": "Adakah kamu sudah menghantar gambar itu kepada Mei?",
+          "zh": "你把那张照片发给美了吗？",
+          "en": "Have you sent that photo to Mei yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Iya, aku dah hantar tadi. Cuba tanya dia.",
+          "ms_standard": "Ya, saya sudah menghantarnya tadi. Cuba tanya dia.",
+          "zh": "对，我刚才发了。你问问她。",
+          "en": "Yes, I sent it earlier. Try asking her."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Iya makes the glide in an affirmative response visible in writing. Its relevant connection is with affirmative ia and ya, rather than the pronoun ia. DBP notes that affirmative ia has appeared in its dictionaries since 1970. The spelling question therefore reflects how an existing response is represented, not evidence that it means he or she. [Source: DBP spelling discussion](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pengekodan).",
+    "cognitive_memory_aid": "i-ya 的结尾就是 ya：听见它，联想点头说“对”。正式书写优先记 ya。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "肯定回复可加称呼或说明，如 Ya, puan；只回一个肯定词有时显得简短，具体取决于关系和语境。",
+    "usage_etiquette": "马来西亚正式写作优先用 ya 或肯定词 ia，故正式示例使用 ya。规范派生词是 mengiakan，不是 mengiyakan，参见 [DBP：mengiakan](https://prpm.dbp.gov.my/cari1?d=175768&keyword=mengiakan)。status 按指定模式保留 official，不表示 iya 已获首选规范拼写地位。音节和爪夷文保留原包的 null。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "肯定回复可加称呼或说明，如 Ya, puan；只回一个肯定词有时显得简短，具体取决于关系和语境。",
+    "usage_etiquette": "马来西亚正式写作优先用 ya 或肯定词 ia，故正式示例使用 ya。规范派生词是 mengiakan，不是 mengiyakan，参见 [DBP：mengiakan](https://prpm.dbp.gov.my/cari1?d=175768&keyword=mengiakan)。status 按指定模式保留 official，不表示 iya 已获首选规范拼写地位。音节和爪夷文保留原包的 null。"
+  }
+}

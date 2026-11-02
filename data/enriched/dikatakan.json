@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "dikatakan",
+    "syllables": null,
+    "ipa": "[di.ka.ta.kan]",
+    "jawi": null,
+    "frequency_rank": 1428,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kata",
+    "affix": "di-…-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + kata + -kan → dikatakan",
+    "pattern_note": "纠正输入包的词根误判：dikatakan 是 kata 的派生形式，也是 mengatakan 对应的 di- 被动式。di- 与 -kan 均连写，词根起首 k 保留；主动式 meN- + kata + -kan → mengatakan 中 k 脱落。本字段以 circumfix 表示 di- 与 -kan 的前后缀组合。",
+    "word_family": [
+      {
+        "word": "kata",
+        "affix": null,
+        "gloss": "词；话语"
+      },
+      {
+        "word": "berkata",
+        "affix": "ber-",
+        "gloss": "说话；说道"
+      },
+      {
+        "word": "mengatakan",
+        "affix": "meN-…-kan",
+        "gloss": "说出；表示；认为"
+      },
+      {
+        "word": "perkataan",
+        "affix": "per-…-an",
+        "gloss": "词语；说出的话"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被说出、讲述或表达；表示某人所说的话或所传达的内容。",
+      "en_definition": "To be said, uttered, expressed, or related by someone.",
+      "ms_definition": "Diucapkan, dituturkan, diceritakan atau disampaikan oleh seseorang.",
+      "nuances": "这是 mengatakan 的被动用法，可指具体话语，也可指传达的内容。说话者可由 oleh 引出，也可由上下文确定；本身不表示过去时。第一、第二人称代词被动句通常采用 saya katakan、awak katakan 等结构。各义项的马来文释义根据 DBP 对 mengatakan 的释义归纳，并非官方原文引语。[DBP 释义依据](https://ekamus.dbp.gov.my/Search.aspx?cari=kata&type=1)。",
+      "collocations": [
+        {
+          "ms": "apa yang dikatakan",
+          "zh": "所说的内容",
+          "en": "what is said"
+        },
+        {
+          "ms": "seperti yang dikatakan",
+          "zh": "正如所说",
+          "en": "as stated"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "据说；被传为；用于转述某个说法，而不直接保证其真实性。",
+      "en_definition": "To be said or reported to be the case.",
+      "ms_definition": "Disebut atau diberitakan sebagai sesuatu yang berlaku atau benar menurut sesuatu sumber.",
+      "nuances": "常见于新闻和信息转述。dikatakan 本身不等于“已经证实”，也不必然表示“虚假传闻”；可信度取决于来源和上下文。正式行文应尽可能交代消息来源。[DBP 关于转述用法的说明](https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=kata)。",
+      "collocations": [
+        {
+          "ms": "dikatakan bahawa",
+          "zh": "据说……",
+          "en": "it is said that"
+        },
+        {
+          "ms": "dikatakan akan",
+          "zh": "据说将会……",
+          "en": "is said to be going to"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被认为、被视为或被描述为具有某种性质或属于某一类别。",
+      "en_definition": "To be considered, regarded, or described as.",
+      "ms_definition": "Dianggap atau disifatkan sebagai sesuatu atau mempunyai sifat tertentu.",
+      "nuances": "常用于评价和归类。boleh dikatakan 往往表示“可以说”“可算是”，既可缓和判断，也可表示大致成立，不一定涉及外部消息来源。[DBP 释义依据](https://ekamus.dbp.gov.my/Search.aspx?cari=kata&type=1)。",
+      "collocations": [
+        {
+          "ms": "boleh dikatakan berjaya",
+          "zh": "可以说是成功的",
+          "en": "can be considered successful"
+        },
+        {
+          "ms": "dikatakan sebagai",
+          "zh": "被描述为；被视为",
+          "en": "is described as"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Projek itu dikatakan akan siap pada akhir tahun, namun tarikh sebenar masih belum disahkan oleh pihak pengurusan.",
+      "zh": "据说该项目将于年底完工，但管理层尚未确认确切日期。",
+      "en": "The project is said to be due for completion at the end of the year, but management has yet to confirm the exact date."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kedai tu dikatakan paling sedap kat sini. Nak cuba tak?",
+      "ms_standard": "Kedai itu dikatakan menyajikan makanan yang paling sedap di sini. Adakah kamu hendak mencubanya?",
+      "zh": "听说这家店在这儿最好吃，要不要试试？",
+      "en": "That place is supposed to have the best food around here. Want to try it?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "kat 在此相当于 di，nak 相当于 hendak。",
+        "Nak cuba tak? 省略主语，并用句末 tak 构成口语问句。",
+        "dikatakan 在此保留转述语气；更随意的口语也常说 orang kata。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kedai tu dikatakan paling sedap kat sini. Nak cuba tak?",
+          "ms_standard": "Kedai itu dikatakan menyajikan makanan yang paling sedap di sini. Adakah kamu hendak mencubanya?",
+          "zh": "听说这家店在这儿最好吃，要不要试试？",
+          "en": "That place is supposed to have the best food around here. Want to try it?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jom lah, aku pun belum makan lagi.",
+          "ms_standard": "Marilah kita pergi. Saya juga belum makan.",
+          "zh": "走吧，我也还没吃呢。",
+          "en": "Let's go. I haven't eaten either."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dikatakan combines Malay passive di- and verbal -kan with kata. The University of Malaya's journal KATHA connects kata with Sanskrit kathā, associated with conversation, speech, and story. The modern form therefore brings an older vocabulary of speaking into Malay's productive grammatical system, allowing speakers to foreground what is said rather than the person saying it. [Historical source](https://jier.um.edu.my/index.php/KATHA/issue/view/517).",
+    "cognitive_memory_aid": "抓住 kata“话”：di- 把视角转向被说的内容，-kan 构成动词——dikatakan 就是“被说到”，常引申为“据说、被认为”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "dikatakan 可使转述保持一定距离，但不能代替事实核实。职场汇报中交代 sumber maklumat（信息来源），比笼统地说“据说”更清楚负责。",
+    "usage_etiquette": "适合新闻转述、说明他人观点及委婉评价。涉及个人声誉时应明确区分未经证实的说法与已确认事实，避免借被动表达传播指控。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "dikatakan 可使转述保持一定距离，但不能代替事实核实。职场汇报中交代 sumber maklumat（信息来源），比笼统地说“据说”更清楚负责。",
+    "usage_etiquette": "适合新闻转述、说明他人观点及委婉评价。涉及个人声誉时应明确区分未经证实的说法与已确认事实，避免借被动表达传播指控。"
+  }
+}

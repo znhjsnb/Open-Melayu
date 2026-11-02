@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "what",
+    "syllables": null,
+    "ipa": "/wɒt/",
+    "jawi": null,
+    "frequency_rank": 1616,
+    "status": "english_code_switch",
+    "status_note": "英语词；不能据此标为马来西亚规范马来语官方词目。音标采用英式英语读音；数据包未提供音节及爪夷文。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "what",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + what → what",
+    "pattern_note": "英语单纯词；在马来语夹杂英语的表达中按整词记忆，不套用马来语词缀规则。",
+    "word_family": [
+      {
+        "word": "whatever",
+        "affix": "复合成分 ever",
+        "gloss": "无论什么；任何事物"
+      },
+      {
+        "word": "whatnot",
+        "affix": "复合成分 not",
+        "gloss": "诸如此类的东西"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "什么；用于询问事物、情况、内容或身份性质，也可要求对方重复没有听清的话。",
+      "en_definition": "Used to ask about the identity, nature, or content of something, or to request repetition.",
+      "ms_definition": "Kata tanya bahasa Inggeris yang digunakan untuk menanyakan benda, perkara atau maklumat; padanan bahasa Melayunya ialah apa.",
+      "nuances": "这是英语疑问代词，不是规范马来语疑问词。词性保留 pronoun，以免受给定枚举限制而误标。单独说 What? 可能显得生硬；正式马来语可说 Maaf, boleh ulang?。本马来语释义为编写释义，并非 DBP 原文。[Merriam-Webster：what](https://www.merriam-webster.com/dictionary/what)",
+      "collocations": [
+        {
+          "ms": "what happened?（英语；马来语：apa yang berlaku?）",
+          "zh": "发生了什么事？",
+          "en": "What happened?"
+        },
+        {
+          "ms": "what time?（英语；马来语：pukul berapa?）",
+          "zh": "几点？",
+          "en": "What time?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "pronoun",
+      "zh_definition": "所……的事物或内容；引导兼有先行词意义的关系分句。",
+      "en_definition": "The thing or things that; that which.",
+      "ms_definition": "Kata bahasa Inggeris yang merujuk perkara atau benda yang dinyatakan oleh klausa selepasnya; lazimnya dipadankan dengan apa yang.",
+      "nuances": "如 what I mean 对应 apa yang saya maksudkan，不表示直接提问；不能把每个 what 都机械译为疑问语气的“什么”。[Merriam-Webster：what](https://www.merriam-webster.com/dictionary/what)",
+      "collocations": [
+        {
+          "ms": "what I mean（英语；马来语：apa yang saya maksudkan）",
+          "zh": "我的意思",
+          "en": "What I mean"
+        },
+        {
+          "ms": "what you need（英语；马来语：apa yang anda perlukan）",
+          "zh": "你所需要的东西",
+          "en": "What you need"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "什么样的；哪一种；置于名词前询问类别，也可引出感叹，表示“多么……”。",
+      "en_definition": "Used before a noun to ask its identity or kind, or to introduce an exclamation.",
+      "ms_definition": "Kata bahasa Inggeris yang hadir sebelum kata nama untuk menanyakan jenis atau menyatakan kekaguman dan perasaan yang kuat.",
+      "nuances": "adjective 沿用传统词典分类；现代语法通常称此用法为限定词 determiner。英语感叹结构 what a ... 不能逐词移植进规范马来语。[Merriam-Webster：what](https://www.merriam-webster.com/dictionary/what)",
+      "collocations": [
+        {
+          "ms": "what kind of ...（英语；马来语：jenis ... yang mana / jenis apa）",
+          "zh": "哪一种……",
+          "en": "What kind of ..."
+        },
+        {
+          "ms": "what a surprise!（英语；马来语：sungguh tidak disangka!）",
+          "zh": "真没想到！",
+          "en": "What a surprise!"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场翻译培训；以引用方式呈现英语词",
+      "ms": "Dalam dokumen bahasa Melayu, perkataan Inggeris “what” perlu diterjemahkan mengikut konteks, bukan digantikan dengan “apa” secara automatik.",
+      "zh": "在马来语文件中，英语词 what 应根据语境翻译，不能一律直接替换为 apa。",
+      "en": "In Malay documents, the English word “what” should be translated according to context rather than automatically replaced with “apa”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间夹杂英语的惊讶反应",
+      "ms_spoken": "Eh, what? Kau dah sampai kat stesen?",
+      "ms_standard": "Eh, apa? Awak sudah sampai di stesen?",
+      "zh": "诶，什么？你已经到车站了？",
+      "en": "Wait, what? You’re already at the station?",
+      "spoken_features": [
+        "what 为英语切换，不是规范马来语词。",
+        "kau 是熟人间第二人称；dah 对应 sudah，kat 对应 di。",
+        "Eh 表示惊讶或引起注意。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Eh, what? Kau dah sampai kat stesen?",
+          "ms_standard": "Eh, apa? Awak sudah sampai di stesen?",
+          "zh": "诶，什么？你已经到车站了？",
+          "en": "Wait, what? You’re already at the station?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, aku baru sampai je. Tak payah cepat sangat.",
+          "ms_standard": "Ya, saya baru sahaja sampai. Awak tidak perlu tergesa-gesa.",
+          "zh": "对啊，我也刚到而已，你不用太赶。",
+          "en": "Yeah, I only just got here. No need to rush."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English what descends through Middle English from Old English hwæt, historically related to who. Its appearance inside a Malay conversation illustrates language switching rather than Malay affixation. For learners, the useful cultural distinction is between understanding an English insertion among friends and choosing an appropriate Malay expression in formal writing. [Merriam-Webster: what](https://www.merriam-webster.com/dictionary/what)",
+    "cognitive_memory_aid": "把 what /wɒt/ 想成一个弹出的问号：询问时找 apa，感叹时看整句。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人间的 What? 可表示惊讶；面对长辈、客户或上司，要求重复时用 Maaf, boleh ulang? 更稳妥。",
+    "usage_etiquette": "适合能理解英语的朋友间交流。正式马来语文件应按意思使用 apa、apa yang 或相应感叹表达；英语原话和语言分析中的引用可保留 what。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人间的 What? 可表示惊讶；面对长辈、客户或上司，要求重复时用 Maaf, boleh ulang? 更稳妥。",
+    "usage_etiquette": "适合能理解英语的朋友间交流。正式马来语文件应按意思使用 apa、apa yang 或相应感叹表达；英语原话和语言分析中的引用可保留 what。"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "guys",
+    "syllables": null,
+    "ipa": "/ɡaɪz/",
+    "jawi": null,
+    "frequency_rank": 1639,
+    "status": "english_code_switch",
+    "status_note": "英语复数形式，常作非正式群体称呼；不能标为规范马来语官方词目。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "guys",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "马来语整词处理：∅ + guys → guys；英语内部分析：guy + -s → guys",
+    "pattern_note": "is_root 与 root_word 保留数据包的整词分析；从英语形态看，guys 是 guy 的复数，-s 在双元音 /aɪ/ 后读 /z/，不是马来语后缀。",
+    "word_family": [
+      {
+        "word": "guy",
+        "affix": null,
+        "gloss": "男人；家伙；某个人，英语单数形式"
+      },
+      {
+        "word": "guys",
+        "affix": "-s（英语复数）",
+        "gloss": "男人们；各位；大家"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "各位；大家；用于非正式地称呼一群人，所指群体可以包含不同性别。",
+      "en_definition": "An informal term of address for a group of people, sometimes regardless of gender.",
+      "ms_definition": "Sapaan tidak rasmi bahasa Inggeris kepada sekumpulan orang; padanan bahasa Melayu mengikut konteks ialah semua, kawan-kawan atau rakan-rakan.",
+      "nuances": "在夹杂英语的交流中，guys 可作为呼语，不必逐字译成“男生们”。不过，并非所有听者都认为它完全不带性别色彩。此处马来语释义为编写释义。[Cambridge：guy](https://dictionary.cambridge.org/us/dictionary/english/guy)",
+      "collocations": [
+        {
+          "ms": "hai, guys（夹杂英语；规范马来语：hai, semua）",
+          "zh": "嗨，大家好",
+          "en": "Hi, everyone"
+        },
+        {
+          "ms": "terima kasih, guys（夹杂英语；规范马来语：terima kasih, semua）",
+          "zh": "谢谢大家",
+          "en": "Thanks, everyone"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "男人们；几个男的；非正式地指一群男性。",
+      "en_definition": "Men or boys, referred to informally.",
+      "ms_definition": "Bentuk jamak bahasa Inggeris bagi guy yang merujuk beberapa orang lelaki secara tidak rasmi.",
+      "nuances": "表示第三方群体时，应根据语境判断是否专指男性；不要把所有 guys 都译成“各位”。[Merriam-Webster：guy](https://www.merriam-webster.com/dictionary/guy)",
+      "collocations": [
+        {
+          "ms": "two guys（英语；马来语：dua orang lelaki）",
+          "zh": "两个男的",
+          "en": "Two men"
+        },
+        {
+          "ms": "those guys（英语；马来语：lelaki-lelaki itu，视语境而定）",
+          "zh": "那几个男的",
+          "en": "Those men"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场沟通指南；引用非正式称呼",
+      "ms": "Panduan komunikasi itu mengesyorkan sapaan “rakan-rakan” sebagai ganti “guys” dalam e-mel rasmi.",
+      "zh": "该沟通指南建议在正式电子邮件中以 rakan-rakan 代替 guys 作为称呼。",
+      "en": "The communication guide recommends using “rakan-rakan” instead of “guys” as a greeting in formal emails."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友群聊",
+      "ms_spoken": "Guys, korang dah makan ke? Jom makan kat kedai depan.",
+      "ms_standard": "Kawan-kawan, kamu semua sudah makan? Mari kita makan di kedai di hadapan.",
+      "zh": "大家吃了吗？走，去前面那家店吃。",
+      "en": "Guys, have you eaten yet? Let’s eat at the place up ahead.",
+      "spoken_features": [
+        "guys 为英语群体称呼。",
+        "korang 对应 kamu semua，dah 对应 sudah，kat 对应 di。",
+        "句末 ke 构成口语疑问；jom 表示邀约。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Guys, korang dah makan ke? Jom makan kat kedai depan.",
+          "ms_standard": "Kawan-kawan, kamu semua sudah makan? Mari kita makan di kedai di hadapan.",
+          "zh": "大家吃了吗？走，去前面那家店吃。",
+          "en": "Guys, have you eaten yet? Let’s eat at the place up ahead."
+        },
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Belum lagi. Aku nak nasi goreng je. Tunggu aku kejap!",
+          "ms_standard": "Belum lagi. Saya hanya hendak makan nasi goreng. Tunggu saya sebentar!",
+          "zh": "还没呢，我就想吃个炒饭。等我一下！",
+          "en": "Not yet. I just feel like fried rice. Give me a minute!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The English person-word guy is historically connected with Guy Fawkes. Effigies associated with commemorations of the failed Gunpowder Plot were called guys; the word subsequently described oddly dressed people and later ordinary men. Its plural broadened into a familiar group address, sometimes including people of any gender. [Merriam-Webster: guy](https://www.merriam-webster.com/dictionary/guy)",
+    "cognitive_memory_aid": "guys /ɡaɪz/ 一喊，大家回头：称呼时记“各位”，描述男性时记“几个男的”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合朋友或已有轻松交流习惯的同事；对长辈、正式听众或客户，使用各自适合的称谓，如 tuan-tuan dan puan-puan、rakan-rakan 或 semua。",
+    "usage_etiquette": "群体称呼应照顾听者偏好。面向陌生人或需要明确包容所有人的场合，semua 或 rakan-rakan 更稳妥。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合朋友或已有轻松交流习惯的同事；对长辈、正式听众或客户，使用各自适合的称谓，如 tuan-tuan dan puan-puan、rakan-rakan 或 semua。",
+    "usage_etiquette": "群体称呼应照顾听者偏好。面向陌生人或需要明确包容所有人的场合，semua 或 rakan-rakan 更稳妥。"
+  }
+}

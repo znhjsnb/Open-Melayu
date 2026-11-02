@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "do",
+    "syllables": null,
+    "ipa": "/do/",
+    "jawi": null,
+    "frequency_rank": 1370,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "do",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + do → do",
+    "pattern_note": "按输入包作共时独立语气词处理，无能产词缀；历史上的缩略来源不能当作现代词缀拆分。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "用于熟人间的非正式谈话，通常置于句末，加强惊讶、疲惫、不满或感叹的语气；可视语境译为“啊”“欸”“真是的”。",
+      "en_definition": "An informal, often sentence-final particle expressing surprise, frustration, exhaustion, or emphasis between familiar speakers.",
+      "ms_definition": "Partikel percakapan tidak formal yang lazimnya hadir pada akhir ayat untuk menguatkan rasa terkejut, penat, tidak puas hati atau penegasan.",
+      "nuances": "此处依据输入提示处理马来语口语语气词，不是英语动词 do。它可能表达亲近，也可能显得粗鲁，不能一律理解为友善。status 的 official 仅沿用指定模板，不表示该口语用法已获 DBP 正式规范；马来文释义为本条编写。有关研究记录了 bodoh 缩略为 do、doh 并用作非正式语气标记的现象。[马来西亚社交媒体语言研究](https://hrmars.com/papers_submitted/22303/profanity-on-malaysian-social-media-implications-on-brand-perception-and-organisational-communication.pdf)",
+      "collocations": [
+        {
+          "ms": "penat do",
+          "zh": "累死了啊",
+          "en": "I'm so tired, man"
+        },
+        {
+          "ms": "mahal do",
+          "zh": "好贵啊",
+          "en": "That's really expensive, man"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场培训 / 语言现象说明；以引用方式出现",
+      "ms": "Dalam latihan komunikasi itu, peserta diminta menggantikan ungkapan tidak formal seperti “penat do” dengan ungkapan yang sesuai untuk urusan rasmi.",
+      "zh": "在该沟通培训中，参与者被要求把“penat do”等非正式表达换成适合公务场合的说法。",
+      "en": "During the communication training, participants were asked to replace informal expressions such as “penat do” with wording suitable for official business."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉的朋友之间",
+      "ms_spoken": "Penat do, aku baru je sampai rumah.",
+      "ms_standard": "Saya sangat penat dan baru sahaja tiba di rumah.",
+      "zh": "累死了，我才刚到家。",
+      "en": "I'm exhausted, man. I've only just got home.",
+      "spoken_features": [
+        "do 在句末加强疲惫或感叹语气",
+        "aku 用于熟人之间",
+        "je 对应标准语 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Penat do, aku baru je sampai rumah.",
+          "ms_standard": "Saya sangat penat dan baru sahaja tiba di rumah.",
+          "zh": "累死了，我才刚到家。",
+          "en": "I'm exhausted, man. I've only just got home."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Rehat dulu lah. Nak makan nanti, mesej aku je.",
+          "ms_standard": "Berehatlah dahulu. Jika kamu mahu makan nanti, hantarkan sahaja mesej kepada saya.",
+          "zh": "先歇会儿吧。待会儿想吃东西就给我发消息。",
+          "en": "Get some rest first. Just message me if you feel like eating later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Research on Malaysian social media describes do and doh as shortened forms of bodoh. In familiar exchanges, such forms can lose much of their literal insulting force and instead mark emotion or conversational closeness. That change does not make them universally polite: the relationship between speakers still determines how the expression is received.",
+    "cognitive_memory_aid": "把 /do/ 记成一句感叹后的“情绪尾音”：penat do＝“累啊！”；记住语气，不把它理解为英语“做”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合已经熟悉并接受这种说话方式的朋友；面对长辈、客户、老师或上司时宜省略。",
+    "usage_etiquette": "不宜用在公文或正式汇报中。即使朋友间常用，也应留意语调；直接对着别人强调时可能被听成冒犯。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合已经熟悉并接受这种说话方式的朋友；面对长辈、客户、老师或上司时宜省略。",
+    "usage_etiquette": "不宜用在公文或正式汇报中。即使朋友间常用，也应留意语调；直接对着别人强调时可能被听成冒犯。"
+  }
+}

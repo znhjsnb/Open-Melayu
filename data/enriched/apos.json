@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "apos",
+    "syllables": null,
+    "ipa": "/a.pos/",
+    "jawi": null,
+    "frequency_rank": 1603,
+    "status": "regional"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "apos",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + apos → apos（北苏门答腊马来语方言词）",
+    "pattern_note": "按已见方言词典作为完整词根处理，不拆成 a- + pos。相关派生形式采用当地词缀，不能据此直接套用马来西亚标准语的构词规则。",
+    "word_family": [
+      {
+        "word": "mangapos",
+        "affix": "mang-",
+        "gloss": "擦除；删除，北苏门答腊方言形式"
+      },
+      {
+        "word": "tarapos",
+        "affix": "tar-",
+        "gloss": "被擦除；被删除，见于该词典所标部分方言"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "擦除；消去。见于北苏门答腊马来语方言，不应作为马来西亚标准语的常用动词教授。",
+      "en_definition": "To erase or remove, in North Sumatran Malay dialect usage.",
+      "ms_definition": "Menghapus atau memadam sesuatu dalam penggunaan dialek Melayu Sumatera Utara; bukan bentuk yang disahkan di sini sebagai kata baku Malaysia.",
+      "nuances": "《Kamus Melayu Sumatera Utara–Indonesia》将 apos 标为动词，释为 hapus，并列有 mangapos、tarapos 和 terapos。见[词典第23页](https://upload.wikimedia.org/wikipedia/commons/2/28/Kamus_Melayu_Sumatera_Utara_Indonesia_2018.pdf)及[官方书目记录](https://repositori.kemendikdasmen.go.id/16268/)。输入包没有原始语境，无法确认其 apos 就是此方言词；也可能是字符实体 &apos; 的残片，这仅是待核实的解释。该实体表示撇号，见 [W3C 字符实体表](https://www.w3.org/TR/xml-entity-names/predefined.html)。以下为谈论此词的教学组合，不是已证实的高频方言搭配；例句亦为编写。",
+      "collocations": [
+        {
+          "ms": "makna kata apos",
+          "zh": "apos 一词的含义",
+          "en": "the meaning of the word apos"
+        },
+        {
+          "ms": "kata dasar apos",
+          "zh": "词根 apos",
+          "en": "the root apos"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "词典说明 / 语言研究汇报",
+      "ms": "Kamus Melayu Sumatera Utara–Indonesia merekodkan apos sebagai kata kerja yang bermaksud hapus.",
+      "zh": "《北苏门答腊马来语—印度尼西亚语词典》将 apos 收录为动词，意为“擦除”。",
+      "en": "The North Sumatran Malay–Indonesian Dictionary records apos as a verb meaning “erase.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论阅读中遇到的方言词",
+      "ms_spoken": "Aku dah semak kamus. Apos kat sini maksudnya hapus.",
+      "ms_standard": "Saya sudah menyemak kamus. Apos dalam konteks ini bermaksud hapus.",
+      "zh": "我查过词典了。这里的 apos 是“擦除”的意思。",
+      "en": "I've checked the dictionary. Here, apos means “erase.”",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat sini 在此口语化地指“在这里这个语境中”",
+        "对话是在讨论方言词，并非示范马来西亚人日常用 apos 代替 padam"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku jumpa perkataan apos dalam kamus ni. Apa maksudnya, ya?",
+          "ms_standard": "Saya menemukan perkataan apos dalam kamus ini. Apakah maksudnya?",
+          "zh": "我在这本词典里看到 apos。是什么意思啊？",
+          "en": "I came across apos in this dictionary. What does it mean?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah semak. Kat sini maksudnya hapus, tapi ini kata dialek Sumatera Utara.",
+          "ms_standard": "Saya sudah menyemaknya. Dalam konteks ini, maksudnya ialah hapus, tetapi ini merupakan kata dialek Sumatera Utara.",
+          "zh": "我查过了。这里是“擦除”的意思，不过这是北苏门答腊的方言词。",
+          "en": "I've checked. It means “erase” here, but it's a North Sumatran dialect word."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "A regional dictionary published in 2018 records apos alongside related dialect forms meaning erase or be erased. This documents a living regional vocabulary rather than establishing the word's ultimate origin. A bare corpus token remains ambiguous: the same letters also occur inside the character entity &apos;. Without the original sentence, those two explanations cannot responsibly be merged into one history.",
+    "cognitive_memory_aid": "先记地域标签，再记 apos＝hapus。若它来自网页残片，先检查是否原为 &apos;；两种来源不要混记。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "地域方言词不因有别于标准语就低人一等。介绍时说明地域即可，避免把当地说法称为粗话或错误语言。",
+    "usage_etiquette": "在马来西亚一般交流中，表达“擦除”可按对象使用 padam 或 memadam；表达“消除”可使用 menghapuskan。apos 适用于有明确方言语境的引用与讨论。本包的具体词元来源仍未确定，频率名次本身不能证明其标准语资格。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "地域方言词不因有别于标准语就低人一等。介绍时说明地域即可，避免把当地说法称为粗话或错误语言。",
+    "usage_etiquette": "在马来西亚一般交流中，表达“擦除”可按对象使用 padam 或 memadam；表达“消除”可使用 menghapuskan。apos 适用于有明确方言语境的引用与讨论。本包的具体词元来源仍未确定，频率名次本身不能证明其标准语资格。"
+  }
+}

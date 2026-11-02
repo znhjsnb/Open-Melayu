@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "makcik",
+    "syllables": null,
+    "ipa": "/maʔ.tʃiʔ/",
+    "jawi": null,
+    "frequency_rank": 1091,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "makcik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "mak + cik → mak cik（makcik 为常见非规范连写）",
+    "pattern_note": "这是无生产性词缀的复合称谓，is_root 表示作为词汇基形处理，并非单一历史词素。规范拼写为 mak cik；常见马来西亚读音中，两个音节末的 k 均实现为喉塞音 [ʔ]。[DBP：mak cik 拼写](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mak+cik)",
+    "word_family": [
+      {
+        "word": "mak cik",
+        "affix": "∅（规范分写形式）",
+        "gloss": "姨母、姑母等；阿姨"
+      },
+      {
+        "word": "mak cik-mak cik",
+        "affix": "∅（整词重叠，非词缀）",
+        "gloss": "各位阿姨；多位中年妇女"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "姨母、姑母等女性长辈亲属的日常称谓；较狭义时指父母的妹妹，也可用于叔伯舅父的妻子。",
+      "en_definition": "An aunt; a familiar kinship term, especially for a younger sister of either parent, also used for an uncle’s wife.",
+      "ms_definition": "Panggilan kekeluargaan bagi ibu saudara, khususnya adik perempuan kepada ibu atau bapa; turut digunakan untuk isteri bapa saudara.",
+      "nuances": "规范形式是 mak cik。实际称谓会随家庭习惯、排行和地区而变化，不能一律对应中文某一种亲属关系；正式说明亲属关系宜用 ibu saudara。[DBP／MABBIM：亲属称谓](https://mabbim.dbp.my/wordpress/wp-content/uploads/2015/04/19-DrHjh.-Aini-_Brunei_.pdf)",
+      "collocations": [
+        {
+          "ms": "mak cik saya",
+          "zh": "我的姨母、姑母等女性长辈亲属",
+          "en": "my aunt"
+        },
+        {
+          "ms": "rumah mak cik",
+          "zh": "阿姨家",
+          "en": "an aunt’s house"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "阿姨；对与自己没有亲属关系、年龄大致属于母亲一辈的妇女的日常称呼。",
+      "en_definition": "Auntie; a familiar form of address or reference for a woman of approximately one’s mother’s generation.",
+      "ms_definition": "Panggilan atau sebutan mesra bagi perempuan separuh umur yang tidak semestinya mempunyai hubungan kekeluargaan dengan penutur.",
+      "nuances": "称呼可表示亲切和尊重，但也会传达对年龄的判断。普通名词写 mak cik；与人名组合成称呼时写 Mak Cik Aminah。这里的 official 表示条目状态；规范拼写仍须分写。[DBP：mak](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=mak), [DBP：称谓拼写](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mak+cik)",
+      "collocations": [
+        {
+          "ms": "mak cik penjual kuih",
+          "zh": "卖糕点的阿姨",
+          "en": "the auntie who sells kuih"
+        },
+        {
+          "ms": "mak cik di sebelah rumah",
+          "zh": "住在隔壁的阿姨",
+          "en": "the auntie next door"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 社区报道；使用规范拼写",
+      "ms": "Penduduk setempat menyampaikan sumbangan kepada seorang peniaga yang dikenali sebagai Mak Cik Aminah.",
+      "zh": "当地居民向一位大家称为阿米娜阿姨的商贩赠送了援助物资。",
+      "en": "Local residents presented donations to a trader known as Mak Cik Aminah."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "日常口语 / 向熟悉的摊主买早餐",
+      "ms_spoken": "Maaf, makcik, saya nak nasi lemak satu, sambal sikit je.",
+      "ms_standard": "Maaf, mak cik, saya mahu satu bungkus nasi lemak dengan sedikit sahaja sambal.",
+      "zh": "不好意思，阿姨，我要一包椰浆饭，辣酱放一点就好。",
+      "en": "Excuse me, auntie. One packet of nasi lemak, with just a little sambal, please.",
+      "spoken_features": [
+        "makcik 是聊天中常见的连写，规范写法为 mak cik",
+        "nak 对应 mahu",
+        "sikit 对应 sedikit",
+        "je 对应 sahaja",
+        "nasi lemak satu 采用点餐时常见的简省语序"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (熟客)",
+          "ms_spoken": "Maaf, makcik, saya nak nasi lemak satu, sambal sikit je.",
+          "ms_standard": "Maaf, mak cik, saya mahu satu bungkus nasi lemak dengan sedikit sahaja sambal.",
+          "zh": "不好意思，阿姨，我要一包椰浆饭，辣酱放一点就好。",
+          "en": "Excuse me, auntie. One packet of nasi lemak, with just a little sambal, please."
+        },
+        {
+          "speaker": "Aminah (摊主)",
+          "ms_spoken": "Boleh, nak tambah telur tak?",
+          "ms_standard": "Boleh. Adakah kamu mahu menambah telur?",
+          "zh": "可以，要加鸡蛋吗？",
+          "en": "Sure. Would you like an egg with that?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mak is a shortened form of emak, meaning mother. Kamus Dewan connects mak cik with mak kecil and mak muda, placing it within a wider system of family titles. The expression also addresses unrelated middle-aged women. This extension lets an ordinary encounter carry the warmth of family language without asserting an actual genealogical relationship. [DBP: mak](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=mak)",
+    "cognitive_memory_aid": "mak 联想妈妈：不是自己的妈妈，而是妈妈那一辈的女性，可亲切称 mak cik。写字时记住分成两个词。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对熟悉的母辈女性，mak cik 往往亲切自然；对年龄不明的陌生女性或正式场合中的女性，使用 puan 通常更稳妥。优先尊重对方惯用的称呼。",
+    "usage_etiquette": "适合家庭、邻里和日常买卖等场合。不要用它讥讽女性年纪、外貌或社会身份；正式文件说明亲属关系时宜写 ibu saudara。[DBP：正式与非正式用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mak+cik)"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对熟悉的母辈女性，mak cik 往往亲切自然；对年龄不明的陌生女性或正式场合中的女性，使用 puan 通常更稳妥。优先尊重对方惯用的称呼。",
+    "usage_etiquette": "适合家庭、邻里和日常买卖等场合。不要用它讥讽女性年纪、外貌或社会身份；正式文件说明亲属关系时宜写 ibu saudara。[DBP：正式与非正式用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mak+cik)"
+  }
+}

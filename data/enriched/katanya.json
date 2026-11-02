@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "katanya",
+    "syllables": null,
+    "ipa": "/kataɲa/",
+    "jawi": null,
+    "frequency_rank": 1371,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kata",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "kata + -nya → katanya",
+    "pattern_note": "-nya 在这里是后附的第三人称代词，不是派生后缀；suffix 为适配字段的形式归类。ny 表示单一辅音 /ɲ/，连接时 kata 不变。",
+    "word_family": [
+      {
+        "word": "berkata",
+        "affix": "ber-",
+        "gloss": "说；讲话"
+      },
+      {
+        "word": "mengatakan",
+        "affix": "meN-…-kan",
+        "gloss": "表示；说出"
+      },
+      {
+        "word": "perkataan",
+        "affix": "per-…-an",
+        "gloss": "词；话语"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "他说／她说；据他／她所说。用于引出或结束引语，也用于标示消息的具体来源。",
+      "en_definition": "He or she says or said; according to him or her, introducing or attributing reported speech.",
+      "ms_definition": "Bentuk kata yang digunakan untuk menyatakan sesuatu yang diucapkan oleh seseorang, dengan maksud dia berkata atau menurut keterangannya.",
+      "nuances": "不区分性别，也不自行标示过去或现在。-nya 的指代通常由上下文确定；句尾引语标记可理解为 kata dia，而非机械译成“他的话”。本义按整段转述功能归为 verb。马来文释义为综合编写，非 DBP 原文。[DBP 对 -nya 的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hari+an+nya)；[DBP 新闻中的实际用例](https://dewanbahasa.jendeladbp.my/2026/09/28/24270/)",
+      "collocations": [
+        {
+          "ms": "katanya lagi",
+          "zh": "他／她还说",
+          "en": "he or she added"
+        },
+        {
+          "ms": "katanya kepada pemberita",
+          "zh": "他／她向记者说",
+          "en": "he or she told reporters"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "听说；据说。消息来源未具体指出，或说话人仅转述而未作保证。",
+      "en_definition": "Reportedly; they say, without necessarily identifying the source or endorsing the report.",
+      "ms_definition": "Menurut khabar atau maklumat yang didengar, tanpa semestinya menyatakan sumbernya.",
+      "nuances": "这是 katanya 的转述来源用法，按句子副词功能归类；不是把 -nya 另析为派生词缀。是否带怀疑或讽刺取决于语调，不能自动译为“所谓”。",
+      "collocations": [
+        {
+          "ms": "katanya sudah siap",
+          "zh": "听说已经好了",
+          "en": "reportedly already finished"
+        },
+        {
+          "ms": "katanya akan datang",
+          "zh": "听说会来",
+          "en": "apparently coming"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "他／她所说的话；其言辞。此时 -nya 表示话语的所属者。",
+      "en_definition": "His or her words or utterance, with -nya identifying the speaker.",
+      "ms_definition": "Kata atau ucapan seseorang yang dirujuk oleh bentuk -nya.",
+      "nuances": "名词性读法须由句法确认。例如 katanya itu menyakitkan hati 中，katanya 指“他／她说的那番话”。现代日常表达也常用更明确的 kata-katanya 或 ucapannya。[DBP 的 kata 词条](https://ekamus.dbp.gov.my/Search.aspx?cari=kata&type=1)",
+      "collocations": [
+        {
+          "ms": "katanya itu",
+          "zh": "他／她说的那番话",
+          "en": "those words of his or hers"
+        },
+        {
+          "ms": "mendengar katanya",
+          "zh": "听他／她说的话",
+          "en": "hear his or her words"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 职场汇报",
+      "ms": "Pengarah itu menjelaskan bahawa kerja pembaikan hampir selesai. “Kemudahan ini akan dibuka semula pada hari Isnin,” katanya kepada pemberita.",
+      "zh": "该主管解释说，维修工作已接近完成。“这项设施将于星期一重新开放，”他向记者表示。",
+      "en": "The director explained that repairs were almost complete. “This facility will reopen on Monday,” the director told reporters."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事转述消息",
+      "ms_spoken": "Katanya mesyuarat esok kat pejabat, bukan dalam talian.",
+      "ms_standard": "Menurut maklumat yang saya terima, mesyuarat esok akan diadakan di pejabat, bukan secara dalam talian.",
+      "zh": "听说明天的会议在办公室开，不在线上。",
+      "en": "Apparently, tomorrow's meeting is at the office, rather than online.",
+      "spoken_features": [
+        "kat 对应标准语 di",
+        "省略可由上下文补出的 akan diadakan",
+        "katanya 标记消息来自转述"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Katanya mesyuarat esok kat pejabat, bukan dalam talian.",
+          "ms_standard": "Menurut maklumat yang saya terima, mesyuarat esok akan diadakan di pejabat, bukan secara dalam talian.",
+          "zh": "听说明天的会议在办公室开，不在线上。",
+          "en": "Apparently, tomorrow's meeting is at the office, rather than online."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Oh, aku belum dapat mesej lagi. Nanti aku tanya ketua dulu lah.",
+          "ms_standard": "Saya belum menerima mesej tentang perkara itu. Saya akan bertanya kepada ketua dahulu.",
+          "zh": "哦，我还没收到消息呢。我待会儿先问问主管。",
+          "en": "Oh, I haven't had a message about that yet. I'll check with the team leader first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Katanya combines kata with the attached third-person pronoun -nya. Its compact form suits storytelling and news reporting, where writers repeatedly identify who supplied a statement. Context allows the same form to refer to someone's words, attribute a quotation, or introduce information heard from others. These functions explain its flexibility without requiring a separate invented historical root.",
+    "cognitive_memory_aid": "kata＝话／说，-nya＝他／她：先记“他／她说”；找不到具体说话人时，再按上下文理解为“听说”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "katanya 本身可用于正式新闻。面对需要明确尊称或避免指代混淆的场合，可用 menurut beliau 或直接写出姓名与职衔。",
+    "usage_etiquette": "katanya 表明转述来源，并不证明消息属实。涉及他人声誉时，应交代来源和确定程度；带讽刺语调的 katanya 可能显得不信任对方。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "katanya 本身可用于正式新闻。面对需要明确尊称或避免指代混淆的场合，可用 menurut beliau 或直接写出姓名与职衔。",
+    "usage_etiquette": "katanya 表明转述来源，并不证明消息属实。涉及他人声誉时，应交代来源和确定程度；带讽刺语调的 katanya 可能显得不信任对方。"
+  }
+}

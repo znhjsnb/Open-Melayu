@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "master",
+    "syllables": "mas.ter",
+    "ipa": "[mas.tər]",
+    "jawi": null,
+    "frequency_rank": 1668,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "master",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + master → master",
+    "pattern_note": "英语整词借用或语码转换，不拆成马来语词根与词缀。数据包中的 sst 不是有效分音，已改为 mas.ter；音标表示一种马来语化读法，英语式读音因说话者而异。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "硕士学位或硕士阶段课程；马来西亚口语中常借用英语 master 表达，正式马来语用 sarjana。",
+      "en_definition": "A master's degree or master's-level course, referred to informally using the English word master.",
+      "ms_definition": "Ijazah atau pengajian pada peringkat sarjana; penggunaan bahasa Inggeris yang lazim dalam percakapan tidak rasmi.",
+      "nuances": "常见于 sambung master 等口语表达，不能把它当作所有正式场合都适用的马来语标准词。DBP 建议在正式马来语中将学位名称 Master 译为 Sarjana。此处马来语释义为用法概述。[DBP 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=master)",
+      "collocations": [
+        {
+          "ms": "sambung master",
+          "zh": "继续读硕士",
+          "en": "go on to do a master's degree"
+        },
+        {
+          "ms": "buat master",
+          "zh": "读硕士",
+          "en": "do a master's degree"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "大师；在某种技艺或竞技领域具有很高水平的人，或相关英语头衔中的称号。",
+      "en_definition": "A highly skilled practitioner, or a designation used in an English professional or sporting title.",
+      "ms_definition": "Orang yang sangat mahir dalam sesuatu bidang, atau sebutan dalam gelaran bahasa Inggeris tertentu.",
+      "nuances": "应依据领域使用 pakar、mahir、mahaguru 或正式赛事头衔；这些词并非处处可互换。以下是可遇到的领域组合，不表示都是通用马来语标准搭配。[DBP 双语释义及术语](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=master)",
+      "collocations": [
+        {
+          "ms": "gelaran master dalam catur",
+          "zh": "国际象棋大师称号",
+          "en": "a master title in chess"
+        },
+        {
+          "ms": "master dalam seni mempertahankan diri",
+          "zh": "武术大师",
+          "en": "a martial arts master"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "用于复制的原始母本、母带或主文件；常见于制作与技术领域的英语借用表达。",
+      "en_definition": "An original recording, file, or other source from which copies are produced.",
+      "ms_definition": "Rakaman, fail atau bahan asal yang digunakan untuk menghasilkan salinan.",
+      "nuances": "这是技术语境中的英语用法；正式马来语通常按对象选用 induk 或 asal，例如 pita induk。具体译名须依据行业惯例。[DBP 双语释义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=master)",
+      "collocations": [
+        {
+          "ms": "fail master",
+          "zh": "主文件；原始母文件",
+          "en": "a master file"
+        },
+        {
+          "ms": "pita master",
+          "zh": "母带",
+          "en": "a master tape"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "熟练掌握某种技能、知识或工具；用于马来语口语中的英语语码转换，标准表达为 menguasai。",
+      "en_definition": "To become thoroughly proficient in a skill or subject, used as an English insertion in informal Malay.",
+      "ms_definition": "Menguasai sesuatu kemahiran, ilmu atau penggunaan alat dengan baik.",
+      "nuances": "如 belum master teknik ini 是混合语码表达；正式写作宜用 belum menguasai teknik ini。不能把这里的 master 分析为带有马来语零词缀的规范动词。[DBP 英马动词释义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=master)",
+      "collocations": [
+        {
+          "ms": "master teknik asas",
+          "zh": "掌握基本技巧",
+          "en": "master the basic techniques"
+        },
+        {
+          "ms": "master bahasa Inggeris",
+          "zh": "熟练掌握英语",
+          "en": "master English"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 学历名称规范",
+      "ms": "Dalam dokumen rasmi bahasa Melayu, istilah master bagi kelayakan akademik hendaklah digantikan dengan sarjana.",
+      "zh": "在正式马来语文件中，表示学位的 master 应改用 sarjana。",
+      "en": "In official Malay documents, master should be rendered as sarjana when referring to the academic qualification."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论升学",
+      "ms_spoken": "Aku nak sambung master tahun depan lah.",
+      "ms_standard": "Saya mahu melanjutkan pengajian ke peringkat sarjana pada tahun hadapan.",
+      "zh": "我想明年接着读硕士。",
+      "en": "I'm thinking of doing a master's next year.",
+      "spoken_features": [
+        "aku 用于熟人之间；正式或较疏远的关系通常用 saya。",
+        "nak 对应 mahu 或 hendak。",
+        "sambung master 是含英语词的口语表达，标准语为 melanjutkan pengajian ke peringkat sarjana。",
+        "lah 在这里使陈述带有随意、表明打算的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Aku nak sambung master tahun depan lah.",
+          "ms_standard": "Saya mahu melanjutkan pengajian ke peringkat sarjana pada tahun hadapan.",
+          "zh": "我想明年接着读硕士。",
+          "en": "I'm thinking of doing a master's next year."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Baguslah! Kau dah pilih universiti ke?",
+          "ms_standard": "Bagus! Adakah kamu sudah memilih universiti?",
+          "zh": "挺好的！大学选好了吗？",
+          "en": "That's great! Have you picked a university yet?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English master ultimately derives from Latin magister, associated with teachers and people holding authority. Its academic meaning developed around qualifications linked to university teaching. Malaysian speakers use the English form in informal educational conversation, while formal Malay uses sarjana for the degree. Its other meanings explain technical and skill-related uses. [Etymology](https://www.etymonline.com/word/master), [DBP guidance](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=master)",
+    "cognitive_memory_aid": "master 联想“掌握到大师水平”；谈学历时记住口语 master、正式 sarjana，并靠上下文区分硕士、大师和母本。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "拥有硕士学位通常不意味着应被称为 Master。称呼时使用本人认可的称谓或职称；同事闲聊中说 sambung master 很自然。",
+    "usage_etiquette": "正式申请、学历说明及公文中优先使用 ijazah sarjana。英语课程正式名称可保留原文。此条记录英语借用与语码转换，不能据此宣称 master 的全部义项均为官方马来语词义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "拥有硕士学位通常不意味着应被称为 Master。称呼时使用本人认可的称谓或职称；同事闲聊中说 sambung master 很自然。",
+    "usage_etiquette": "正式申请、学历说明及公文中优先使用 ijazah sarjana。英语课程正式名称可保留原文。此条记录英语借用与语码转换，不能据此宣称 master 的全部义项均为官方马来语词义。"
+  }
+}
