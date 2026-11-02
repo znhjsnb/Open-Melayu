@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "sensor",
+    "syllables": null,
+    "ipa": "/sen.sor/",
+    "jawi": "سينسور",
+    "frequency_rank": 6234,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sensor",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sensor → sensor",
+    "pattern_note": "技术义作为完整借词使用，不拆成马来语词缀。首音节 e 为 /e/，不是 /ə/。本词的技术词族常用复合词构成；另有“审查者”同形词，其派生形式不能套用于传感器义。",
+    "word_family": [
+      {
+        "word": "sensor suhu",
+        "affix": null,
+        "gloss": "温度传感器；复合词"
+      },
+      {
+        "word": "sensor cahaya",
+        "affix": null,
+        "gloss": "光传感器；复合词"
+      }
+    ],
+    "root_jawi": "سينسور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "检测光、热、压力等物理量或其变化的装置；传感器。",
+      "en_definition": "A device that detects physical quantities or changes such as light, heat, or pressure.",
+      "ms_definition": "Alat yang dapat mengesan perubahan sinar cahaya, haba, tekanan dan sebagainya; penderia.",
+      "nuances": "这是词包指定的核心技术义。penderia 是对应的马来语术语。传感器负责检测，具体设备可能另由控制器和执行部件完成开关等动作。",
+      "collocations": [
+        {
+          "ms": "sensor suhu",
+          "zh": "温度传感器",
+          "en": "temperature sensor"
+        },
+        {
+          "ms": "sensor gerakan",
+          "zh": "运动传感器",
+          "en": "motion sensor"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "审查拟公开的书刊、电影等内容的人员或机构。",
+      "en_definition": "A person or body that examines material before publication or public release; a censor.",
+      "ms_definition": "Badan atau orang yang memeriksa bahan sebelum disiarkan.",
+      "nuances": "DBP 另列的同形词 sensor II，标记为 Indonesia Belanda；与传感器义分开理解。马来西亚一般行政语境常用 penapis、penapisan 或机构正式名称。[DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sensor)",
+      "collocations": [
+        {
+          "ms": "badan sensor",
+          "zh": "内容审查机构",
+          "en": "censorship body"
+        },
+        {
+          "ms": "sensor filem",
+          "zh": "电影审查人员或机构",
+          "en": "film censor"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sensor suhu yang dipasang pada mesin itu membolehkan perubahan suhu dipantau secara berterusan.",
+      "zh": "安装在该机器上的温度传感器可持续监测温度变化。",
+      "en": "The temperature sensor installed on the machine enables continuous monitoring of temperature changes."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Lampu kat luar tu menyala bila sensor kesan gerakan je.",
+      "ms_standard": "Lampu di luar itu menyala sebaik sahaja sensor mengesan gerakan.",
+      "zh": "外面的灯，传感器一感应到有人动就会亮。",
+      "en": "The outside light comes on as soon as the sensor detects movement.",
+      "spoken_features": [
+        "kat 对应 di，tu 对应 itu。",
+        "口语可省略 mengesan 的前缀，使用 kesan。",
+        "bila...je 在此表示“一……就……”，标准表达为 sebaik sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Aku dah tutup lampu kat luar tadi. Kenapa menyala balik?",
+          "ms_standard": "Saya sudah mematikan lampu di luar tadi. Mengapakah lampu itu menyala semula?",
+          "zh": "我刚才已经把外面的灯关了，怎么又亮了？",
+          "en": "I turned the outside light off earlier. Why is it back on?"
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Lampu tu ada sensor gerakan. Kucing lalu je, terus menyala.",
+          "ms_standard": "Lampu itu dilengkapi dengan sensor gerakan. Apabila kucing lalu, lampu itu terus menyala.",
+          "zh": "那盏灯有运动传感器，猫一走过去就亮了。",
+          "en": "It has a motion sensor. It comes on whenever a cat walks past."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Modern Malay uses sensor alongside penderia for devices that detect physical changes. A separate dictionary entry records sensor as a censor, marked as Indonesian Dutch usage. The shared spelling therefore brings together two distinct lexical histories: detecting conditions and examining material for publication. Context determines which entry is intended. [DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sensor)",
+    "cognitive_memory_aid": "用英语 sense（感知）联想 sensor：机器用来“感知”的部件。涉及电影或出版审查时，另读作“审查者”这一同形词义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "技术交流中 sensor 与 penderia 都能使用；面向非技术读者时，可先说明它检测什么，例如 sensor suhu（温度传感器）。",
+    "usage_etiquette": "适合汽车、家电、安防和工业语境。正式文件中应按所属机构术语表统一用词；涉及电影审查时，使用 penapisan filem 或机构正式名称可减少歧义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "技术交流中 sensor 与 penderia 都能使用；面向非技术读者时，可先说明它检测什么，例如 sensor suhu（温度传感器）。",
+    "usage_etiquette": "适合汽车、家电、安防和工业语境。正式文件中应按所属机构术语表统一用词；涉及电影审查时，使用 penapisan filem 或机构正式名称可减少歧义。"
+  }
+}

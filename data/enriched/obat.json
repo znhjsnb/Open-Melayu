@@ -1,0 +1,188 @@
+{
+  "headword": {
+    "word": "obat",
+    "syllables": null,
+    "ipa": "/o.bat/",
+    "jawi": null,
+    "frequency_rank": 6198,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "obat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + obat → obat",
+    "pattern_note": "独立词根；可分析为 o.bat，但资料包未提供音节字段，故保留 null。印度尼西亚语派生 mengobati 中，meN- 在元音前实现为 meng-，词首 o 保留。马来西亚标准对应形式为 ubat；两者的元音差异不是词缀变化。",
+    "word_family": [
+      {
+        "word": "berobat",
+        "affix": "ber-",
+        "gloss": "就医；接受治疗（印度尼西亚语）"
+      },
+      {
+        "word": "mengobati",
+        "affix": "meN-...-i",
+        "gloss": "治疗；医治（印度尼西亚语）"
+      },
+      {
+        "word": "pengobatan",
+        "affix": "peN-...-an",
+        "gloss": "治疗；疗法（印度尼西亚语）"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用于预防、缓解或治疗疾病的药物；药。",
+      "en_definition": "A substance used to prevent, relieve, or treat illness; medicine.",
+      "ms_definition": "Bahan yang digunakan untuk mencegah, melegakan atau merawat penyakit; ubat.",
+      "nuances": "obat 是印度尼西亚语标准形式；马来西亚正式马来语使用 ubat。以下 obat 搭配属于印度尼西亚语，马来西亚对应写作 ubat batuk、ubat tradisional。字段 status 按指定格式保留 official，不表示 obat 已获确认为马来西亚标准词形。参见 [马来西亚与印度尼西亚拼写比较研究](https://www.tufs.ac.jp/common/fs/ilr/contents/ronshuu/19/jilr_19.pdf)及 [印度尼西亚—亚齐语官方词典](https://repositori.kemendikdasmen.go.id/16244/1/Kamus%20Dwibahasa%20Indonesia-Aceh%202011.pdf)。",
+      "collocations": [
+        {
+          "ms": "obat batuk",
+          "zh": "止咳药",
+          "en": "cough medicine"
+        },
+        {
+          "ms": "obat tradisional",
+          "zh": "传统药物",
+          "en": "traditional medicine"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "具有特定用途的化学制剂，如杀虫剂或摄影冲洗药剂。",
+      "en_definition": "A chemical preparation used for a particular practical purpose.",
+      "ms_definition": "Bahan kimia untuk kegunaan tertentu, seperti membunuh serangga atau memproses filem fotografi.",
+      "nuances": "指制剂时不一定与人体治疗有关；须根据完整搭配判断。以下为印度尼西亚语搭配。参见 [KBBI 词条转录：obat](https://www.kbbi.web.id/obat)。",
+      "collocations": [
+        {
+          "ms": "obat nyamuk",
+          "zh": "驱蚊或灭蚊用品",
+          "en": "mosquito repellent or insecticide"
+        },
+        {
+          "ms": "obat cuci film",
+          "zh": "胶片冲洗药剂",
+          "en": "film-processing chemicals"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "旧时指火药；也可指弹药。",
+      "en_definition": "Gunpowder or ammunition, in older usage.",
+      "ms_definition": "Mesiu atau peluru dalam penggunaan lama.",
+      "nuances": "多见于旧叙事、历史语境或固定表达，不能把现代药品语境中的 obat 自动译成火药。以下为旧式表达，不属于现代日常高频搭配。参见 [KBBI 词条转录：obat](https://www.kbbi.web.id/obat)。",
+      "collocations": [
+        {
+          "ms": "obat bedil",
+          "zh": "枪炮用火药",
+          "en": "gunpowder"
+        },
+        {
+          "ms": "membuang obat",
+          "zh": "鸣枪示警；朝空中开枪",
+          "en": "fire a warning shot into the air"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "民间信仰中据说能影响他人心意或行为的巫术、符咒或施法物。",
+      "en_definition": "A charm or magical preparation believed to influence someone's feelings or behaviour.",
+      "ms_definition": "Guna-guna atau bahan berjampi yang dipercayai dapat mempengaruhi seseorang.",
+      "nuances": "用于转述民间信仰，不表示相关效力已经证实。kena obat 在此指被认为中了巫术，不能一律理解为服了药。参见 [KBBI 词条转录：obat](https://www.kbbi.web.id/obat)及 [官方印度尼西亚—亚齐语词典](https://repositori.kemendikdasmen.go.id/16244/1/Kamus%20Dwibahasa%20Indonesia-Aceh%202011.pdf)。",
+      "collocations": [
+        {
+          "ms": "kena obat",
+          "zh": "被认为中了巫术",
+          "en": "be thought to be under a spell"
+        },
+        {
+          "ms": "obat pekasih",
+          "zh": "迷情符药；爱情巫术用品",
+          "en": "a love charm or love potion"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "noun",
+      "zh_definition": "比喻能够排解悲伤、思念或其他不适感的事物；慰藉；解方。",
+      "en_definition": "Something that soothes emotional pain or relieves an unwelcome feeling; a remedy or comfort.",
+      "ms_definition": "Sesuatu yang melegakan perasaan sedih, rindu atau tidak selesa secara kiasan.",
+      "nuances": "由治疗义引申而来；搭配的对象可以是情绪或感受。印度尼西亚语可用 obat，马来西亚语相应用 ubat，例如 ubat hati。参见 [KBBI：obat](https://www.kbbi.web.id/obat)及 [DBP：ubat](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=ubat)。",
+      "collocations": [
+        {
+          "ms": "obat hati",
+          "zh": "心灵的慰藉",
+          "en": "a balm for the heart"
+        },
+        {
+          "ms": "obat rindu",
+          "zh": "排解思念的慰藉",
+          "en": "a remedy for longing"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam terjemahan dokumen kesihatan dari Indonesia untuk kegunaan di Malaysia, istilah 'obat' hendaklah disesuaikan kepada 'ubat'.",
+      "zh": "将印度尼西亚的卫生文件翻译供马来西亚使用时，应将 obat 一词调整为 ubat。",
+      "en": "When translating Indonesian health documents for use in Malaysia, the term 'obat' should be adapted to 'ubat'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat label Indonesia ni tulis 'obat batuk'. Maksudnya ubat batuk lah.",
+      "ms_standard": "Pada label dari Indonesia ini tertulis 'obat batuk'. Maksudnya ialah ubat batuk.",
+      "zh": "这张印尼标签写着 obat batuk，就是止咳药啦。",
+      "en": "This Indonesian label says 'obat batuk'. That means cough medicine.",
+      "spoken_features": [
+        "kat 对应 pada，ni 对应 ini",
+        "lah 用于自然说明或确认",
+        "obat 出现在对印度尼西亚文字的引用中；马来西亚标准对应形式为 ubat"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Aku dah baca label ni, tapi 'obat' tu maksudnya ubat ke?",
+          "ms_standard": "Saya sudah membaca label ini, tetapi adakah 'obat' bermaksud ubat?",
+          "zh": "我已经看过这标签了，不过 obat 是药的意思吗？",
+          "en": "I've read the label, but does 'obat' mean medicine?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Ya, betul. Kat Indonesia guna 'obat'; kat Malaysia kita guna 'ubat'.",
+          "ms_standard": "Ya, betul. Di Indonesia, bentuk yang digunakan ialah 'obat'; di Malaysia, kita menggunakan 'ubat'.",
+          "zh": "对呀，印尼用 obat，马来西亚这边用 ubat。",
+          "en": "Yes, that's right. In Indonesia they use 'obat'; here in Malaysia we use 'ubat'."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Obat and Malaysian ubat belong to a word history that reaches beyond modern national borders. The Austronesian Comparative Dictionary records related forms meaning medicine, charms, and gunpowder across several languages, discussing their spread through borrowing from Malay. This helps explain the word's unusually broad semantic range. Its deeper origin should remain separate from that documented history of regional circulation. See [the comparative dictionary](https://ling.lll.hawaii.edu/dicts/ACD/acd-lo_m.htm).",
+    "cognitive_memory_aid": "读 o.bat，想象药盒上一个大大的 O：obat＝药。再成对记住：印度尼西亚 obat，马来西亚 ubat；这是词形对照，不是加减词缀。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与印度尼西亚人交流时，obat 是正常词汇，无须纠正。在马来西亚正式文件、学校作业和医疗沟通中，使用当地标准形式 ubat。",
+    "usage_etiquette": "引用印度尼西亚标签、影视台词或原文时可以保留 obat。谈到巫术义时，应明确是在转述某种信仰，避免以 kena obat 随意指责他人施术或解释他人的行为。资料包缺少 Jawi，故相关字段保留 null。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与印度尼西亚人交流时，obat 是正常词汇，无须纠正。在马来西亚正式文件、学校作业和医疗沟通中，使用当地标准形式 ubat。",
+    "usage_etiquette": "引用印度尼西亚标签、影视台词或原文时可以保留 obat。谈到巫术义时，应明确是在转述某种信仰，避免以 kena obat 随意指责他人施术或解释他人的行为。资料包缺少 Jawi，故相关字段保留 null。"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "harian",
+    "syllables": "ha.rian",
+    "ipa": "[ha.ri.an]",
+    "jawi": "هارين",
+    "frequency_rank": 6298,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hari",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "hari + -an → harian",
+    "pattern_note": "词根 hari 不发生辅音交替；审慎发音可保留 /i.a/ 元音相接。syllables 字段按输入包保留 ha.rian。",
+    "word_family": [
+      {
+        "word": "sehari",
+        "affix": "se-",
+        "gloss": "一天"
+      },
+      {
+        "word": "seharian",
+        "affix": "se- + -an",
+        "gloss": "一整天"
+      },
+      {
+        "word": "berhari-hari",
+        "affix": "ber- + 重叠",
+        "gloss": "连续多日"
+      },
+      {
+        "word": "sehari-hari",
+        "affix": "se- + 重叠",
+        "gloss": "每天；日常"
+      }
+    ],
+    "root_jawi": "هاري"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "每天发生、进行或使用的；按日计算的。",
+      "en_definition": "Occurring, performed or used every day; calculated by the day.",
+      "ms_definition": "Berlaku atau dilakukan setiap hari, atau dikira berdasarkan hari.",
+      "nuances": "常置于名词后作限定语。pekerja harian 指按实际工作日计酬的工人，并非单指“每天工作的工人”。harian 与表示“一整天”的 seharian 有别。[DBP 释义与用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=harian)。",
+      "collocations": [
+        {
+          "ms": "rutin harian",
+          "zh": "日常作息",
+          "en": "daily routine"
+        },
+        {
+          "ms": "laporan harian",
+          "zh": "每日报告",
+          "en": "daily report"
+        },
+        {
+          "ms": "pekerja harian",
+          "zh": "按日计酬的工人",
+          "en": "daily-paid worker"
+        },
+        {
+          "ms": "keperluan harian",
+          "zh": "日常所需",
+          "en": "daily necessities"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "每天出版的，尤指报纸。",
+      "en_definition": "Published every day, especially of a newspaper.",
+      "ms_definition": "Diterbitkan setiap hari, khususnya tentang akhbar.",
+      "nuances": "akhbar harian 是明确而常用的完整表达。Berita Harian 等刊名中的 Harian 属专名组成部分，须保留大写。[Kamus Dewan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=harian)。",
+      "collocations": [
+        {
+          "ms": "akhbar harian",
+          "zh": "日报",
+          "en": "daily newspaper"
+        },
+        {
+          "ms": "akhbar harian berbahasa Melayu",
+          "zh": "马来文日报",
+          "en": "Malay-language daily newspaper"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Setiap penyelia diminta menyerahkan laporan harian sebelum pukul lima petang.",
+      "zh": "请各主管于下午五时前提交每日报告。",
+      "en": "Each supervisor is requested to submit a daily report before five in the afternoon."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah siap laporan harian, nak hantar sekarang.",
+      "ms_standard": "Saya sudah menyiapkan laporan harian dan hendak menghantarnya sekarang.",
+      "zh": "我的日报写好了，现在就发。",
+      "en": "I've finished the daily report. I'll send it now.",
+      "spoken_features": [
+        "aku 为熟人间的第一人称",
+        "dah 对应 sudah",
+        "nak 对应 hendak",
+        "siap 在口语中代替 menyiapkan"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku dah siap laporan harian. Kau nak semak dulu?",
+          "ms_standard": "Saya sudah menyiapkan laporan harian. Adakah awak hendak menyemaknya dahulu?",
+          "zh": "我的日报写好了。你要先看一下吗？",
+          "en": "I've finished the daily report. Do you want to check it first?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Nak. Hantar kat aku je, nanti aku semak.",
+          "ms_standard": "Ya. Hantarkan laporan itu kepada saya sahaja; saya akan menyemaknya nanti.",
+          "zh": "要。直接发给我吧，我待会儿看。",
+          "en": "Yes. Just send it to me, and I'll check it in a bit."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Harian is transparently formed from hari, meaning day, with -an. Its uses organize life into daily units: records, wages, routines, and newspaper publication. This provides a useful cultural link between household schedules and institutional record keeping. The familiar newspaper expression akhbar harian expresses the same daily rhythm. [DBP entry for hari](https://ekamus.dbp.gov.my/Search.aspx?cari=hari&type=1).",
+    "cognitive_memory_aid": "hari 是“一天”，hari + -an 就把事情按天安排：laporan harian，每天一份报告。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属中性标准用语，适用于学校、职场和日常交流；本身不表达尊卑或亲疏。",
+    "usage_etiquette": "谈论 pekerja harian 时，应把它理解为计酬或雇佣安排，避免据此贬低其职业地位。表达“忙了一整天”应用 sibuk seharian，而非 sibuk harian。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属中性标准用语，适用于学校、职场和日常交流；本身不表达尊卑或亲疏。",
+    "usage_etiquette": "谈论 pekerja harian 时，应把它理解为计酬或雇佣安排，避免据此贬低其职业地位。表达“忙了一整天”应用 sibuk seharian，而非 sibuk harian。"
+  }
+}

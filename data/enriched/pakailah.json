@@ -1,0 +1,141 @@
+{
+  "headword": {
+    "word": "pakailah",
+    "syllables": "pa.kai.lah",
+    "ipa": "[pa.kai̯.lah]",
+    "jawi": "ڤاکاي",
+    "frequency_rank": 6275,
+    "status": "official",
+    "jawi_note": "按要求保留输入值；该爪夷文对应词根 pakai，输入未提供完整词形 pakailah 的爪夷文。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pakai",
+    "affix": "-lah",
+    "affix_type": "none",
+    "formula": "pakai + -lah (partikel penegas) → pakailah",
+    "pattern_note": "-lah 是附着并连写的强调语助词，不是派生后缀，因此 affix_type 记为 none；affix 字段仅记录附着成分。pakai 的词干不变，ai 保留双元音。pakailah 不是因派生词缀形成的新词。",
+    "word_family": [
+      {
+        "word": "memakai",
+        "affix": "meN-",
+        "gloss": "穿戴；使用"
+      },
+      {
+        "word": "pakaian",
+        "affix": "-an",
+        "gloss": "衣服；服装"
+      },
+      {
+        "word": "pemakaian",
+        "affix": "peN-...-an",
+        "gloss": "穿戴；使用；应用"
+      },
+      {
+        "word": "dipakai",
+        "affix": "di-",
+        "gloss": "被穿戴；被使用"
+      },
+      {
+        "word": "terpakai",
+        "affix": "ter-",
+        "gloss": "已使用过的；适用的"
+      }
+    ],
+    "root_jawi": "ڤاکاي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "穿上吧；戴上吧。用于劝告、邀请、允许或要求对方穿戴某物。",
+      "en_definition": "Wear it or put it on, expressed as an encouragement, permission, or instruction.",
+      "ms_definition": "Bentuk suruhan atau ajakan bagi pakai, dengan partikel -lah, supaya seseorang memakai pakaian atau kelengkapan pada tubuh.",
+      "nuances": "-lah 不改变 pakai 的基本动作意义。柔和语调可表达劝说或许可，急促或重读则可能表达催促。不能机械地把所有 pakailah 都译成“请穿”。",
+      "collocations": [
+        {
+          "ms": "pakailah kasut",
+          "zh": "穿上鞋吧",
+          "en": "put your shoes on"
+        },
+        {
+          "ms": "pakailah baju ini",
+          "zh": "穿这件衣服吧",
+          "en": "wear this shirt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用吧；采用吧。用于建议、允许或要求对方使用某物或某种办法。",
+      "en_definition": "Use it or adopt it, expressed as a suggestion, permission, or instruction.",
+      "ms_definition": "Bentuk suruhan atau ajakan bagi pakai yang bermaksud menggunakan sesuatu atau mengambil sesuatu cara, dengan partikel -lah.",
+      "nuances": "以物品为宾语时常表示允许或建议使用；以 cara 等为宾语时可表示采用办法。正式说明操作程序时，gunakan 或 gunakanlah 往往更明确。",
+      "collocations": [
+        {
+          "ms": "pakailah pen ini",
+          "zh": "用这支笔吧",
+          "en": "use this pen"
+        },
+        {
+          "ms": "pakailah cara ini",
+          "zh": "采用这个办法吧",
+          "en": "use this method"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；职场安全提示",
+      "ms": "Demi keselamatan bersama, pakailah kelengkapan perlindungan yang sesuai sebelum memasuki kawasan kerja.",
+      "zh": "为保障大家的安全，请在进入作业区前穿戴合适的防护装备。",
+      "en": "For everyone's safety, wear suitable protective equipment before entering the work area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kalau nak keluar, pakailah kasut yang kat tepi pintu tu.",
+      "ms_standard": "Jika awak hendak keluar, pakailah kasut yang berada di tepi pintu itu.",
+      "zh": "要出门的话，就穿门边那双鞋吧。",
+      "en": "If you're going out, put on the shoes by the door.",
+      "spoken_features": [
+        "nak 是 hendak 的口语形式",
+        "kat 对应 di",
+        "tu 是 itu 的口语形式",
+        "-lah 在此以温和语调表达建议；标准马来语同样允许这种用法"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak keluar kejap, tapi kasut aku masih basah.",
+          "ms_standard": "Saya hendak keluar sebentar, tetapi kasut saya masih basah.",
+          "zh": "我想出去一下，可我的鞋还湿着。",
+          "en": "I need to pop out, but my shoes are still wet."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Pakailah selipar aku yang kat tepi pintu tu. Aku tak nak keluar pun.",
+          "ms_standard": "Pakailah selipar saya yang berada di tepi pintu itu. Saya tidak bercadang untuk keluar.",
+          "zh": "穿我放在门边的拖鞋吧，反正我也不出门。",
+          "en": "Wear my slippers by the door. I'm not going out anyway."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pakailah shows how Malay can shape an instruction without creating a new lexical verb. The base pakai supplies the action, while the attached particle -lah adds emphasis and can soften a command. DBP explicitly distinguishes such particles from derivational affixes. This small form connects standard written instructions with the flexible interpersonal tone of everyday Malaysian conversation.",
+    "cognitive_memory_aid": "pakai＝穿戴或使用；加上 lah，想成“穿上吧／用吧”，再听语调判断是劝说还是催促。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 不保证礼貌。对长辈、上司或陌生人，可用 Sila pakai... 或 Silakan memakai...，并配合合适称呼；急促重读 Pakailah! 可能显得不耐烦。",
+    "usage_etiquette": "朋友间可自然用于借物许可、穿搭建议和日常提醒。必须执行的正式规定应明确写出义务要求，避免只靠 -lah 表示强制性。"
+  },
+  "source_note": "pakai 的基本义据输入词典资料；pakailah 的马来释义为组合解释，并非独立词条原文。关于 -lah 的语助词身份及不构成派生词，见 [DBP PRPM：partikel](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel)；连写规则见 [DBP：Pedoman Umum Ejaan Bahasa Melayu](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 不保证礼貌。对长辈、上司或陌生人，可用 Sila pakai... 或 Silakan memakai...，并配合合适称呼；急促重读 Pakailah! 可能显得不耐烦。",
+    "usage_etiquette": "朋友间可自然用于借物许可、穿搭建议和日常提醒。必须执行的正式规定应明确写出义务要求，避免只靠 -lah 表示强制性。"
+  }
+}

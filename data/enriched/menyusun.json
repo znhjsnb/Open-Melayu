@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "menyusun",
+    "syllables": "me.nyu.sun",
+    "ipa": "/mə.ɲu.sun/",
+    "jawi": "مڽوسون",
+    "frequency_rank": 6232,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyusun",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + susun → menyusun",
+    "pattern_note": "词包的 root_word 与 root_jawi 保留原始检索值；实际构词词根是 susun（سوسون）。meN- 接以 s 开头的本族词根时，通常变为 meny-，词根首音 s 脱落；ny 表示单一鼻音 /ɲ/。[DBP](https://prpm.dbp.gov.my/Cari1?d=319148&keyword=menyusun)",
+    "word_family": [
+      {
+        "word": "susunan",
+        "affix": "-an",
+        "gloss": "排列；布局；结构"
+      },
+      {
+        "word": "penyusun",
+        "affix": "peN-",
+        "gloss": "编排者；编纂者"
+      },
+      {
+        "word": "penyusunan",
+        "affix": "peN-...-an",
+        "gloss": "整理、安排或编纂的过程"
+      },
+      {
+        "word": "tersusun",
+        "affix": "ter-",
+        "gloss": "排列整齐的；有条理的"
+      }
+    ],
+    "root_jawi": "مڽوسون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把物品一层层叠放，或按一定次序排放。",
+      "en_definition": "To stack objects in layers or arrange them in an orderly sequence.",
+      "ms_definition": "Meletakkan berlapis-lapis atau mengatur barang supaya beraturan.",
+      "nuances": "强调物品之间形成层次、行列或顺序，并非单纯把物品放到某处；具体排列方式由语境决定。",
+      "collocations": [
+        {
+          "ms": "menyusun buku",
+          "zh": "整理、排列书本",
+          "en": "arrange books"
+        },
+        {
+          "ms": "menyusun kerusi",
+          "zh": "排列椅子",
+          "en": "arrange chairs"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "有条理地安排事务、规划步骤或制定计划。",
+      "en_definition": "To organize activities or formulate a plan in a systematic way.",
+      "ms_definition": "Mengatur sesuatu dengan baik atau merencanakan sesuatu.",
+      "nuances": "宾语通常是计划、日程、策略或工作安排。menyusun semula 表示重新安排或重组。",
+      "collocations": [
+        {
+          "ms": "menyusun jadual",
+          "zh": "编排日程",
+          "en": "draw up a schedule"
+        },
+        {
+          "ms": "menyusun strategi",
+          "zh": "制定策略",
+          "en": "formulate a strategy"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "整理、编排文字或资料，形成文章、报告、词典等作品。",
+      "en_definition": "To compile, compose, or organize written material into a coherent work.",
+      "ms_definition": "Mengatur karangan atau menggubah sesuatu bahan tulisan.",
+      "nuances": "侧重材料的选择、顺序和结构；编纂者不一定是全部原始内容的作者。正式出版物中的 penyusun 常指编者或编纂者。",
+      "collocations": [
+        {
+          "ms": "menyusun laporan",
+          "zh": "编写报告",
+          "en": "prepare a report"
+        },
+        {
+          "ms": "menyusun kamus",
+          "zh": "编纂词典",
+          "en": "compile a dictionary"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jawatankuasa sedang menyusun jadual pelaksanaan projek berdasarkan keutamaan yang telah dipersetujui.",
+      "zh": "委员会正在根据已商定的优先事项编排项目实施日程。",
+      "en": "The committee is drawing up the project implementation schedule based on the agreed priorities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku tengah menyusun buku kat rak ni, kejap lagi aku turun.",
+      "ms_standard": "Saya sedang menyusun buku di rak ini. Sebentar lagi saya akan turun.",
+      "zh": "我正在这边的书架整理书，等一下就下去。",
+      "en": "I'm sorting the books on this shelf. I'll come down in a minute.",
+      "spoken_features": [
+        "tengah 在口语中表示动作正在进行，对应 sedang。",
+        "kat 对应地点介词 di，ni 对应 ini。",
+        "aku 用于熟人之间；kejap 对应 sekejap 或 sebentar。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah siap ke? Aku nak gerak dah.",
+          "ms_standard": "Adakah kamu sudah bersedia? Saya sudah hendak bertolak.",
+          "zh": "你准备好了没？我都要出发了。",
+          "en": "Are you ready? I'm about to leave."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kejap ya, aku tengah menyusun buku kat rak ni. Tinggal sikit je.",
+          "ms_standard": "Tunggu sebentar, ya. Saya sedang menyusun buku di rak ini. Hanya sedikit lagi yang belum selesai.",
+          "zh": "等一下啊，我正在这边的书架整理书，剩一点点了。",
+          "en": "Give me a minute. I'm sorting the books on this shelf. I'm almost done."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The root susun belongs to an old Austronesian vocabulary of layers and ordered placement. Comparative evidence connects it with reconstructed Proto-Malayo-Polynesian *susun and related forms describing stacks, tiers, and rows. Modern Malay preserves that concrete image while also applying menyusun to schedules, strategies, reports, and dictionaries. [Austronesian Comparative Dictionary](https://ling.lll.hawaii.edu/dicts/ACD/acd-w_s.htm)",
+    "cognitive_memory_aid": "把 su-sun 的两个音节想成上下叠好的两层书；加上 meN-，就是动手把东西排好。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请别人整理物品时，可说 Tolong susun buku ini 或 Boleh bantu saya menyusun buku ini?；与上司或客户交流时，用适当称呼并保留请求语气。",
+    "usage_etiquette": "适用于家庭整理、活动筹备和正式规划。口语及祈使句常用 susun；正式主动陈述句通常使用 menyusun。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请别人整理物品时，可说 Tolong susun buku ini 或 Boleh bantu saya menyusun buku ini?；与上司或客户交流时，用适当称呼并保留请求语气。",
+    "usage_etiquette": "适用于家庭整理、活动筹备和正式规划。口语及祈使句常用 susun；正式主动陈述句通常使用 menyusun。"
+  }
+}

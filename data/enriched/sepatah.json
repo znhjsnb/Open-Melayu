@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "sepatah",
+    "syllables": "se.pa.tah",
+    "ipa": "/sə.pa.tah/",
+    "jawi": "سڤاته",
+    "frequency_rank": 6216,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "patah",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + patah → sepatah",
+    "pattern_note": "se- 在这里表示数量一；词根首音 p 保留，不发生鼻音同化。patah 在本结构中是计算词语的量词。",
+    "word_family": [
+      {
+        "word": "patah",
+        "affix": null,
+        "gloss": "断；计算词语的量词"
+      },
+      {
+        "word": "sepatah-sepatah",
+        "affix": "se- + 重叠",
+        "gloss": "一个词一个词地；断续地说"
+      },
+      {
+        "word": "mematahkan",
+        "affix": "meN-...-kan",
+        "gloss": "折断；挫败"
+      }
+    ],
+    "root_jawi": "ڤاته"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一个词；一句极简短的话，常用于强调连一个字也没有说。",
+      "en_definition": "A single word or minimal utterance, especially in expressions emphasizing silence.",
+      "ms_definition": "Satu patah perkataan; satu kata yang diucapkan atau ditulis.",
+      "nuances": "严格说是数词与量词组成的数量结构；本字段以 noun 表示其所指的言语单位。sepatah kata 通常指一个词或一句话，不宜一律理解为现代语音学意义上的一个音节。否定结构中常与 pun 连用。[DBP：sepatah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sepatah)",
+      "collocations": [
+        {
+          "ms": "tidak berkata sepatah pun",
+          "zh": "一句话也没说",
+          "en": "not say a single word"
+        },
+        {
+          "ms": "sepatah perkataan",
+          "zh": "一个词",
+          "en": "a single word"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "简短的开场致辞、引言或几句话；主要见于 sepatah kata、sepatah dua kata。",
+      "en_definition": "A few introductory words or brief remarks.",
+      "ms_definition": "Kata pendahuluan atau pengantar yang ringkas, terutama dalam ungkapan sepatah kata atau sepatah dua kata.",
+      "nuances": "属于固定表达中的引申义。sepatah dua kata 是谦称简短发言，并不要求只说一两个词。[DBP：sepatah kata 与 sepatah dua kata](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sepatah)",
+      "collocations": [
+        {
+          "ms": "menyampaikan sepatah dua kata",
+          "zh": "作简短致辞",
+          "en": "deliver a few brief remarks"
+        },
+        {
+          "ms": "memberikan sepatah kata",
+          "zh": "说几句开场的话",
+          "en": "offer a few introductory words"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议 / 活动开场致辞",
+      "ms": "Pengerusi menjemput pengarah untuk menyampaikan sepatah dua kata sebelum mesyuarat bermula.",
+      "zh": "主席邀请主任在会议开始前作简短致辞。",
+      "en": "The chair invited the director to say a few words before the meeting began."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈论聚会",
+      "ms_spoken": "Dia diam je tadi, sepatah pun tak cakap.",
+      "ms_standard": "Dia hanya berdiam diri tadi dan tidak berkata sepatah pun.",
+      "zh": "他刚才一直不出声，一句话都没说。",
+      "en": "He just sat there quietly earlier and didn't say a word.",
+      "spoken_features": [
+        "je 对应 sahaja，表示只是",
+        "tak 对应 tidak",
+        "sepatah pun tak cakap 将数量短语前置，突出完全没有说话"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Amir diam je kat kedai tadi, sepatah pun tak cakap.",
+          "ms_standard": "Amir hanya berdiam diri di kedai tadi dan tidak berkata sepatah pun.",
+          "zh": "阿米尔刚才在店里一直不出声，一句话都没说。",
+          "en": "Amir was so quiet at the shop earlier. He didn't say a word."
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Dia penat kot. Nanti aku tanya dia dah okey ke belum.",
+          "ms_standard": "Mungkin dia penat. Nanti saya akan bertanya sama ada dia sudah berasa lebih baik.",
+          "zh": "可能累了吧。待会儿我问问他好点了没有。",
+          "en": "Maybe he's tired. I'll check on him later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay uses classifiers to count different kinds of things, and patah counts words or brief units of speech. Adding se-, meaning one here, produces sepatah. The expression sepatah dua kata also serves a social purpose: it presents a speech modestly as just a few words, even when the speaker offers several sentences.",
+    "cognitive_memory_aid": "把 se- 记作 satu 的数量一：sepatah 就是一个言语单位；sepatah pun tak cakap＝连一个字都没说。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "sepatah dua kata 是邀请嘉宾简短发言的得体表达；邀请长辈或上级时可配合 dipersilakan、dijemput。",
+    "usage_etiquette": "不要把 sepatah dua kata 当作严格的字数限制。描述别人 tidak berkata sepatah pun 时，语气可能暗示不满、担忧或惊讶，应结合语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "sepatah dua kata 是邀请嘉宾简短发言的得体表达；邀请长辈或上级时可配合 dipersilakan、dijemput。",
+    "usage_etiquette": "不要把 sepatah dua kata 当作严格的字数限制。描述别人 tidak berkata sepatah pun 时，语气可能暗示不满、担忧或惊讶，应结合语境。"
+  }
+}

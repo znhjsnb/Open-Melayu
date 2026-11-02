@@ -1,0 +1,135 @@
+{
+  "headword": {
+    "word": "drop",
+    "syllables": null,
+    "ipa": "/drɒp/",
+    "jawi": null,
+    "frequency_rank": 6256,
+    "status": "official",
+    "status_note": "此字段按指定格式保留；drop 在以下条目中属于英语夹用，不表示其已获认定为规范马来语词。",
+    "pronunciation_note": "所列为英式英语读音；马来西亚实际夹用时的元音和 r 音可能不同。输入未提供音节划分或 Jawi。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "drop",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + drop → drop",
+    "pattern_note": "作为英语整词夹用于马来语，不按马来语词缀拆分；不能将英语字母组合 dr- 视为前缀。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "下降；降低；表现、数值或水平变差。",
+      "en_definition": "To fall or decrease in level, amount, or performance.",
+      "ms_definition": "Turun atau merosot dari segi jumlah, tahap atau prestasi.",
+      "nuances": "英语夹用，常见于非正式聊天。上述马来语释义为编写释义，并非 DBP 对马来语词 drop 的官方定义；正式表达按语境使用 turun、menurun、jatuh 或 merosot。英语本词的下降义可参见 [Merriam-Webster](https://www.merriam-webster.com/dictionary/drop)。",
+      "collocations": [
+        {
+          "ms": "harga drop",
+          "zh": "价格下跌",
+          "en": "prices drop"
+        },
+        {
+          "ms": "prestasi drop",
+          "zh": "表现下滑",
+          "en": "performance declines"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "放弃或取消某项安排；尤其指退选课程。",
+      "en_definition": "To discontinue or withdraw from something, especially a course.",
+      "ms_definition": "Menggugurkan sesuatu daripada pilihan atau menarik diri daripada sesuatu kursus.",
+      "nuances": "校园中的 drop subjek 指退选某门课，不等于退学。正式马来语宜用 menggugurkan kursus 或 menarik diri daripada kursus。大学材料中也会以英语 drop 辅助解释退选操作，见 [UniSHAMS 课程与贷款说明](https://www.unishams.edu.my/images/FINANCIAL%20AID%202025/PTPTN/5.%20TATACARA%20PEMBELIAN%20NO%20PIN%20PTPTN%20DAN%20PERMOHONAN%20ONLINE%20PINJAMAN%20PTPTN.pdf)。",
+      "collocations": [
+        {
+          "ms": "drop subjek",
+          "zh": "退选科目",
+          "en": "drop a subject"
+        },
+        {
+          "ms": "drop kursus",
+          "zh": "退选课程",
+          "en": "withdraw from a course"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "顺路送某人到指定地点，或把物品送到某处。",
+      "en_definition": "To take someone or deliver something to a place, often on the way elsewhere.",
+      "ms_definition": "Menghantar seseorang atau barang ke sesuatu tempat, biasanya dalam perjalanan.",
+      "nuances": "英语 drop 或 drop off 在混合口语中的用法；drop saya kat stesen 是送我到车站，不是让我掉下去。正式表达用 menghantar；强调乘客下车则可用 menurunkan penumpang。",
+      "collocations": [
+        {
+          "ms": "drop saya kat stesen",
+          "zh": "送我到车站",
+          "en": "drop me off at the station"
+        },
+        {
+          "ms": "drop barang kat rumah",
+          "zh": "把东西送到家里",
+          "en": "drop the things off at home"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；引述英语夹用并给出规范表达",
+      "ms": "Istilah tidak rasmi “drop subjek” dalam mesej pelajar merujuk kepada tindakan menggugurkan kursus daripada pendaftaran.",
+      "zh": "学生信息中的非正式说法“drop subjek”，指从已注册课程中退选课程。",
+      "en": "The informal expression “drop subjek” in students’ messages refers to removing a course from their registration."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Boleh drop saya kat stesen je?",
+      "ms_standard": "Bolehkah awak menghantar saya ke stesen sahaja?",
+      "zh": "送我到车站就行，可以吗？",
+      "en": "Could you just drop me off at the station?",
+      "spoken_features": [
+        "drop 为英语动词夹用",
+        "kat 表示地点，对应标准语的 di 或 ke，须按句意选择",
+        "je 对应 sahaja",
+        "疑问句省略 -kah 和主语 awak"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Awak dah nak balik? Boleh drop saya kat stesen je?",
+          "ms_standard": "Adakah awak hendak pulang sekarang? Bolehkah awak menghantar saya ke stesen sahaja?",
+          "zh": "你现在要回去了吗？顺路送我到车站就行，可以吗？",
+          "en": "Are you heading home now? Could you just drop me off at the station?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh je. Saya lalu situ nanti.",
+          "ms_standard": "Boleh. Saya akan melalui kawasan itu nanti.",
+          "zh": "可以啊，我待会儿正好经过那里。",
+          "en": "Sure. I’ll be passing that way anyway."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English drop has an older history than its modern campus uses: Merriam-Webster traces it through Middle English to Old English dropa. Its meanings include downward movement, reduction and discontinuation. In Malaysian mixed-language conversation, context determines whether someone is discussing falling prices, withdrawing from a subject or giving a friend a lift. [Merriam-Webster](https://www.merriam-webster.com/dictionary/drop)",
+    "cognitive_memory_aid": "想象清单上的一门课被 drop 掉：数值往下掉、课程从清单移除、乘客在目的地下车。靠宾语判断具体意思。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友间夹用自然；向老师、客户或不熟悉英语的人表达时，使用明确的马来语对应词。请求接送可用 Boleh…? 或 Bolehkah…?。",
+    "usage_etiquette": "适用于熟悉混合语言的聊天群。正式报告应明确写 menurun、menggugurkan kursus 或 menghantar，避免仅用 drop 造成歧义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友间夹用自然；向老师、客户或不熟悉英语的人表达时，使用明确的马来语对应词。请求接送可用 Boleh…? 或 Bolehkah…?。",
+    "usage_etiquette": "适用于熟悉混合语言的聊天群。正式报告应明确写 menurun、menggugurkan kursus 或 menghantar，避免仅用 drop 造成歧义。"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "headword": {
+    "word": "apaan",
+    "syllables": "a.pa.an",
+    "ipa": "/a.pa.an/",
+    "jawi": "اڤ",
+    "frequency_rank": 6223,
+    "status": "official",
+    "standard_form": "apa / apakah",
+    "status_note": "official 按指定数据标签保留；apaan 属印度尼西亚口语，不是马来西亚标准马来语的中性疑问形式。",
+    "jawi_note": "اڤ 按资料包原样保留，但实际对应词根 apa，不能视为已核实的 apaan 完整爪夷文拼写。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "apa",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "apa + -an → apaan（印度尼西亚口语形式）",
+    "pattern_note": "词根末尾 a 与后缀起首 a 在形态上相邻，发音可保持元音间隔，部分说话者加入喉塞过渡音。这里的 -an 不宜直接套用为马来西亚标准语中的普通名词化规则。",
+    "word_family": [
+      {
+        "word": "apa",
+        "affix": null,
+        "gloss": "什么"
+      },
+      {
+        "word": "apakah",
+        "affix": "-kah",
+        "gloss": "什么；用于正式提问"
+      },
+      {
+        "word": "apa-apa",
+        "affix": "重叠",
+        "gloss": "任何东西；什么东西"
+      },
+      {
+        "word": "apa-apaan",
+        "affix": "重叠 + -an",
+        "gloss": "搞什么名堂；印度尼西亚口语，常带不满"
+      }
+    ],
+    "root_jawi": "اڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "什么；搞什么、这是什么玩意儿。印度尼西亚口语疑问表达，常带惊讶、质疑或不满，也可用于随意询问。",
+      "en_definition": "What; what on earth, an Indonesian colloquial interrogative often expressing surprise, disbelief, or disapproval.",
+      "ms_definition": "Bentuk percakapan bahasa Indonesia yang bermaksud apa, digunakan untuk bertanya atau menyatakan kehairanan, keraguan atau rasa tidak senang.",
+      "nuances": "此处 particle 是受限词性列表中的近似标注；更准确的类别是疑问代词或疑问表达。不能把资料包中 apa 的 DBP 定义直接视为 apaan 的官方释义。该形式在印度尼西亚口语词典中带 cak 标记，常可构成无需实际回答的反问；参见 [KBBI 词条转载](https://kbbi.web.id/apaan)。马来西亚日常中性问法通常使用 apa、apa tu 或什么意思相应的 apa maksudnya。以下搭配属于印度尼西亚口语，马来语释义为说明性改写。",
+      "collocations": [
+        {
+          "ms": "apaan sih",
+          "zh": "到底什么呀；搞什么嘛",
+          "en": "what on earth"
+        },
+        {
+          "ms": "buat apaan",
+          "zh": "用来干什么；干吗用的",
+          "en": "what for"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场询问；使用马来西亚规范对应形式，不把 apaan 用作正式问语",
+      "ms": "Apakah tujuan perubahan prosedur ini?",
+      "zh": "这项程序调整的目的是什么？",
+      "en": "What is the purpose of this procedural change?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 马来西亚朋友模仿印度尼西亚口语表达惊讶",
+      "ms_spoken": "Apaan ni? Aku nak buka fail je, tiba-tiba keluar iklan.",
+      "ms_standard": "Apakah ini? Saya hanya hendak membuka fail, tetapi iklan tiba-tiba muncul.",
+      "zh": "这什么啊？我只是想打开文件，怎么突然弹出广告了。",
+      "en": "What's this? I just wanted to open the file, and an ad popped up.",
+      "spoken_features": [
+        "apaan 是此处刻意采用的印度尼西亚口语形式，不代表典型马来西亚中性用法",
+        "ni 是 ini 的口语形式",
+        "nak 是 hendak 的口语形式",
+        "je 是 sahaja 的口语形式",
+        "口语 keluar iklan 在此对应标准表达 iklan muncul"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Apaan ni? Aku nak buka fail je, tiba-tiba keluar iklan.",
+          "ms_standard": "Apakah ini? Saya hanya hendak membuka fail, tetapi iklan tiba-tiba muncul.",
+          "zh": "这什么啊？我只是想打开文件，怎么突然弹出广告了。",
+          "en": "What's this? I just wanted to open the file, and an ad popped up."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau tekan iklan tu kot. Fail sebenar ada kat bawah.",
+          "ms_standard": "Mungkin awak telah menekan iklan itu. Fail sebenar terdapat di bahagian bawah.",
+          "zh": "你可能点到广告了，真正的文件在下面。",
+          "en": "You probably tapped the ad. The actual file's further down."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Apaan is formed from apa with the colloquial ending -an in Indonesian. Its dictionary treatment places it in conversational usage, where a question can convey a reaction rather than request information. This makes the word useful for recognizing informal Indonesian dialogue, but its shared root with Malay apa does not give it the same neutral status in Malaysian Malay.",
+    "cognitive_memory_aid": "先认出 apa＝什么，再把 apaan 听成带情绪的“什么呀？”；在马来西亚需要稳妥表达时，换回 apa 或 apakah。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "apaan 尤其配合强硬语调或 sih 时，可能显得质疑、轻慢或不耐烦。向长辈、客户和陌生人询问时，宜使用 Maaf, apakah maksudnya? 等明确礼貌的表达。",
+    "usage_etiquette": "适合用于理解印度尼西亚影视、网络聊天或朋友间有意模仿的说法。马来西亚正式邮件、公文、考试及初次见面的交流使用 apa 或 apakah；不要把 apaan 当作普遍适用的本地口语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "apaan 尤其配合强硬语调或 sih 时，可能显得质疑、轻慢或不耐烦。向长辈、客户和陌生人询问时，宜使用 Maaf, apakah maksudnya? 等明确礼貌的表达。",
+    "usage_etiquette": "适合用于理解印度尼西亚影视、网络聊天或朋友间有意模仿的说法。马来西亚正式邮件、公文、考试及初次见面的交流使用 apa 或 apakah；不要把 apaan 当作普遍适用的本地口语。"
+  }
+}

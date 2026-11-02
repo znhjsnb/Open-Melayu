@@ -1,0 +1,160 @@
+{
+  "headword": {
+    "word": "beratnya",
+    "syllables": null,
+    "ipa": "/bə.rat.ɲa/",
+    "jawi": "برتڽ",
+    "frequency_rank": 6291,
+    "status": "official",
+    "editorial_note": "输入的 برت 是词根 berat 的 Jawi；完整词形须加 ڽ，写作 برتڽ。音节切分可分析为 be.rat.nya，但输入未提供，故 syllables 保留 null。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "berat",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "berat + -nya → beratnya",
+    "pattern_note": "词根不发生音变；ny 表示单一腭鼻音 /ɲ/。按本模式将 -nya 归入 suffix，但它可承担代词附着、名词化或强调功能，并非所有用法都是普通派生后缀。[DBP：-nya 的功能](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pascakata)；[DBP：-nya 的 Jawi 写法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bagi+nya)。",
+    "word_family": [
+      {
+        "word": "berat",
+        "affix": null,
+        "gloss": "重量；重的；艰难的"
+      },
+      {
+        "word": "memberatkan",
+        "affix": "meN-…-kan",
+        "gloss": "加重；使负担增加"
+      },
+      {
+        "word": "keberatan",
+        "affix": "ke-…-an",
+        "gloss": "困难；不情愿；介意"
+      },
+      {
+        "word": "pemberat",
+        "affix": "peN-",
+        "gloss": "用于增加重量的重物"
+      }
+    ],
+    "root_jawi": "برت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "其重量；所述对象的重量，或重量这一可测量的属性。",
+      "en_definition": "The weight of the person or thing under discussion.",
+      "ms_definition": "Ukuran berat seseorang atau sesuatu yang sedang diperkatakan.",
+      "nuances": "如 beratnya lima kilogram，表示其重量为五公斤。-nya 的具体分析取决于句法和所指，不能一律解释为“他的”。对物体属性也可作名词化分析。[DBP：berat](https://prpm.dbp.gov.my/Cari1?d=132444&keyword=berat)。",
+      "collocations": [
+        {
+          "ms": "beratnya lima kilogram",
+          "zh": "其重量为五公斤",
+          "en": "it weighs five kilograms"
+        },
+        {
+          "ms": "berapa beratnya",
+          "zh": "它有多重",
+          "en": "how much it weighs"
+        },
+        {
+          "ms": "beratnya tidak melebihi had",
+          "zh": "其重量不超过限额",
+          "en": "its weight does not exceed the limit"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "沉重的程度；负担、责任或任务的艰巨程度。",
+      "en_definition": "The heaviness of a load or the burdensomeness of a responsibility or task.",
+      "ms_definition": "Tahap keberatan sesuatu beban atau kesukaran sesuatu tanggungjawab dan tugas.",
+      "nuances": "此处 -nya 可将 berat 所表达的性质名词化，如 betapa beratnya tanggungjawab itu。“重”可以指实际负荷，也可以指心理或社会责任。",
+      "collocations": [
+        {
+          "ms": "betapa beratnya tanggungjawab itu",
+          "zh": "那份责任有多么重大",
+          "en": "how great that responsibility is"
+        },
+        {
+          "ms": "merasai beratnya beban",
+          "zh": "感受到负担之重",
+          "en": "feel the weight of the burden"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "真重；好沉；真艰难。用于感叹某物的重量或某项负担、任务的沉重程度。",
+      "en_definition": "How heavy or burdensome! Used exclamatorily about a load, responsibility, or difficult task.",
+      "ms_definition": "Ungkapan seruan untuk menyatakan bahawa sesuatu sangat berat atau sukar ditanggung.",
+      "nuances": "这是 beratnya 在感叹结构中的用法，并非另一个独立词根。Beratnya beg ini! 表示“这个包真重”，其中 -nya 不宜硬译为所有格。此处按形容词核心功能标注词性。",
+      "collocations": [
+        {
+          "ms": "beratnya beg ini",
+          "zh": "这个包真重",
+          "en": "this bag is so heavy"
+        },
+        {
+          "ms": "beratnya dugaan ini",
+          "zh": "这次考验真难熬",
+          "en": "what a difficult ordeal this is"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 货运重量核对",
+      "ms": "Setiap bungkusan telah ditimbang untuk memastikan beratnya tidak melebihi had yang ditetapkan.",
+      "zh": "每个包裹都已称重，以确保其重量不超过规定限额。",
+      "en": "Each parcel has been weighed to ensure that its weight does not exceed the prescribed limit."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友帮忙搬东西",
+      "ms_spoken": "Beratnya kotak ni! Tolong angkat sekali, boleh?",
+      "ms_standard": "Kotak ini sangat berat! Bolehkah awak membantu saya mengangkatnya bersama-sama?",
+      "zh": "这箱子好重啊！帮我一起抬一下，行吗？",
+      "en": "This box is so heavy! Can you help me lift it?",
+      "spoken_features": [
+        "beratnya 用于感叹重量",
+        "ni 对应 ini",
+        "句末 boleh 构成口语请求",
+        "sekali 在这里表示一起"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Beratnya kotak ni! Aku nak alih ke tepi je.",
+          "ms_standard": "Kotak ini sangat berat! Saya hanya hendak mengalihkannya ke tepi.",
+          "zh": "这箱子好重啊！我只是想把它挪到旁边。",
+          "en": "This box is so heavy! I only want to move it to the side."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kejap, aku dah sampai kat pintu. Kita angkat sama-sama lah.",
+          "ms_standard": "Sebentar, saya sudah sampai di pintu. Marilah kita mengangkatnya bersama-sama.",
+          "zh": "等一下，我已经到门口了。咱们一起抬吧。",
+          "en": "Hang on, I'm at the door. Let's lift it together."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Beratnya is transparently formed from berat and -nya, rather than being a separate historical root. Its meaning changes with the sentence: a measured weight, the burden of responsibility, or an exclamation of heaviness. Malay also connects physical and shared social burdens in the proverb berat sama dipikul, ringan sama dijinjing, encouraging people to carry difficulties together.",
+    "cognitive_memory_aid": "同一个 beratnya，看句型判断：Beratnya 5 kg＝重量五公斤；Beratnya!＝好重啊！"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述包裹重量很中性；评论他人体重则可能冒犯。需要询问时可说 Boleh saya tahu berat badan anda?，并确保场合确实需要这项信息。",
+    "usage_etiquette": "别人谈到责任或困境时，beratnya 可表达同情，但应配合语气和回应。Beratnya dugaan yang awak hadapi 表示理解；带笑评价别人的身体重量则容易被理解为嘲讽。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述包裹重量很中性；评论他人体重则可能冒犯。需要询问时可说 Boleh saya tahu berat badan anda?，并确保场合确实需要这项信息。",
+    "usage_etiquette": "别人谈到责任或困境时，beratnya 可表达同情，但应配合语气和回应。Beratnya dugaan yang awak hadapi 表示理解；带笑评价别人的身体重量则容易被理解为嘲讽。"
+  }
+}

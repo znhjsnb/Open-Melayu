@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "menyuruhku",
+    "syllables": null,
+    "ipa": "/mə.ɲu.ruh.ku/",
+    "jawi": "مڽوروه",
+    "frequency_rank": 6205,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyuruh",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "menyuruh + -ku → menyuruhku；内部构词：meN- + suruh → menyuruh",
+    "pattern_note": "资料包的root_word是直接基词menyuruh，更深层词根是suruh。加meN-时，词首s发生鼻音替换，形成ny /ɲ/。-ku是宾语“我”的后附代词，此处按字段归入suffix。所给Jawi仅对应menyuruh，缺少-ku。",
+    "word_family": [
+      {
+        "word": "suruh",
+        "affix": null,
+        "gloss": "叫某人做；吩咐"
+      },
+      {
+        "word": "suruhan",
+        "affix": "-an",
+        "gloss": "命令；受差遣的人"
+      },
+      {
+        "word": "penyuruh",
+        "affix": "peN-",
+        "gloss": "发出指令的人"
+      }
+    ],
+    "root_jawi": "مڽوروه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "叫我、吩咐我或命令我做某事。",
+      "en_definition": "To tell, ask or order me to do something.",
+      "ms_definition": "Meminta atau mengarahkan aku supaya melakukan sesuatu.",
+      "nuances": "语气从普通吩咐到命令不等，不应一律译成强硬的“命令”。-ku是动作对象“我”；整词不是“我命令”。释义根据[PRPM menyuruh](https://prpm.dbp.gov.my/Cari1?d=7876&keyword=menyuruh)改写。",
+      "collocations": [
+        {
+          "ms": "menyuruhku menunggu",
+          "zh": "叫我等候",
+          "en": "tell me to wait"
+        },
+        {
+          "ms": "menyuruhku menyiapkan kerja",
+          "zh": "吩咐我完成工作",
+          "en": "tell me to finish the work"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "差遣我去某处，或派我前去办事。",
+      "en_definition": "To send me somewhere, especially to carry out a task.",
+      "ms_definition": "Mengutus atau mengarahkan aku pergi ke sesuatu tempat untuk menjalankan tugas.",
+      "nuances": "突出被派往某处，常接ke加地点，或pergi加目的地、任务。与第一义相关，但焦点是前往某处。[PRPM义项依据](https://prpm.dbp.gov.my/Cari1?d=7876&keyword=menyuruh)。",
+      "collocations": [
+        {
+          "ms": "menyuruhku ke kedai",
+          "zh": "叫我去商店",
+          "en": "send me to the shop"
+        },
+        {
+          "ms": "menyuruhku pergi ke pejabat",
+          "zh": "派我去办公室",
+          "en": "send me to the office"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 员工陈述引语",
+      "ms": "Dalam kenyataannya, pekerja itu menjelaskan, \"Penyelia menyuruhku menyemak semua dokumen sebelum mesyuarat bermula.\"",
+      "zh": "该员工在陈述中解释：“主管叫我在会议开始前检查所有文件。”",
+      "en": "In the statement, the employee explained, \"The supervisor told me to check all the documents before the meeting began.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学转述老师的话",
+      "ms_spoken": "Cikgu menyuruhku datang awal esok. Kau dah tahu ke?",
+      "ms_standard": "Cikgu menyuruhku datang awal esok. Adakah kamu sudah mengetahui perkara itu?",
+      "zh": "老师叫我明天早点来。你已经知道了吗？",
+      "en": "The teacher told me to come early tomorrow. Did you know?",
+      "spoken_features": [
+        "dah对应sudah，句末ke构成口语疑问。",
+        "kau适用于熟悉的同辈。",
+        "menyuruhku较有书面色彩；日常更常说suruh aku。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Cikgu menyuruhku datang awal esok. Kau dah tahu ke?",
+          "ms_standard": "Cikgu menyuruhku datang awal esok. Adakah kamu sudah mengetahui perkara itu?",
+          "zh": "老师叫我明天早点来。你已经知道了吗？",
+          "en": "The teacher told me to come early tomorrow. Did you know?"
+        },
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Dah. Aku pun kena datang awal, nak susun kerusi kat dewan.",
+          "ms_standard": "Sudah. Aku juga perlu datang awal untuk menyusun kerusi di dewan.",
+          "zh": "知道了。我也得早点到，要在礼堂摆椅子。",
+          "en": "Yeah. I have to come early too, to set up the chairs in the hall."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The structure brings together suruh, the action of directing someone, and -ku, the shortened form of aku. Malay therefore identifies the person receiving the instruction within the written verb. The nasal sound in menyuruh belongs to verb formation; it does not change who gives or receives the order. [DBP pronoun guidance](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bukumu).",
+    "cognitive_memory_aid": "把menyuruhku展开成menyuruh aku：“叫我做”。看到末尾-ku，先找句中“我”被要求做什么。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "转述上级指示时menyuruh并非必然失礼；正式汇报通常说meminta saya或mengarahkan saya，按实际语气选择。",
+    "usage_etiquette": "适合叙述自己收到的吩咐。避免把普通请求夸译成强制命令；与长辈或客户交谈时，saya通常比aku及-ku稳妥。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "转述上级指示时menyuruh并非必然失礼；正式汇报通常说meminta saya或mengarahkan saya，按实际语气选择。",
+    "usage_etiquette": "适合叙述自己收到的吩咐。避免把普通请求夸译成强制命令；与长辈或客户交谈时，saya通常比aku及-ku稳妥。"
+  }
+}

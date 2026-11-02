@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "merobek",
+    "syllables": null,
+    "ipa": "/mə.ro.beʔ/",
+    "jawi": "مروبيق",
+    "frequency_rank": 6206,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "merobek",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + robek → merobek",
+    "pattern_note": "meN-在r前实现为me-，保留r；é读/e/，词尾k通常实现为[ʔ]。root_word及root_jawi保留资料包的归并词头；实际构词词根是robek，Jawi为روبيق，因此纠正资料包的is_root=true。",
+    "word_family": [
+      {
+        "word": "robek",
+        "affix": null,
+        "gloss": "破裂的；撕破的"
+      },
+      {
+        "word": "merobek-robek",
+        "affix": "meN- + 重叠",
+        "gloss": "反复撕扯；撕得粉碎"
+      },
+      {
+        "word": "merobekkan",
+        "affix": "meN-...-kan",
+        "gloss": "把某物撕破"
+      }
+    ],
+    "root_jawi": "مروبيق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "撕破、扯裂纸张、布料等物。",
+      "en_definition": "To tear or rip something.",
+      "ms_definition": "Menjadikan kertas, kain atau bahan lain koyak atau cabik.",
+      "nuances": "强调材料破裂，不要求使用剪刀。日常马来西亚口语也常用koyakkan。释义依据[PRPM robek](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=robek)改写。",
+      "collocations": [
+        {
+          "ms": "merobek kertas",
+          "zh": "撕纸",
+          "en": "tear paper"
+        },
+        {
+          "ms": "merobek kain",
+          "zh": "撕破布料",
+          "en": "rip fabric"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "使内心受到强烈伤害；令人心碎。",
+      "en_definition": "To cause intense emotional pain.",
+      "ms_definition": "Menyebabkan seseorang berasa amat sedih atau terluka perasaannya.",
+      "nuances": "比喻用法，常与hati或jantung搭配，语气强烈，适合文学或情感描写。",
+      "collocations": [
+        {
+          "ms": "merobek hati",
+          "zh": "令人心碎",
+          "en": "break someone's heart"
+        },
+        {
+          "ms": "merobek jantung",
+          "zh": "令人痛彻心扉",
+          "en": "tear at someone's heart"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "突破防线或屏障；体育报道中也指攻破球门。",
+      "en_definition": "To breach a barrier or defence; in sports reporting, to beat the goal.",
+      "ms_definition": "Menembusi halangan atau pertahanan; dalam sukan, membolosi gawang lawan.",
+      "nuances": "具有鲜明画面感，常见于体育报道；并非指真的撕坏球门。",
+      "collocations": [
+        {
+          "ms": "merobek gawang lawan",
+          "zh": "攻破对方球门",
+          "en": "score against the opposition"
+        },
+        {
+          "ms": "merobek pertahanan lawan",
+          "zh": "撕开对方防线",
+          "en": "tear through the opposing defence"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 体育报道",
+      "ms": "Penyerang itu berjaya merobek gawang lawan pada minit terakhir perlawanan.",
+      "zh": "那名前锋在比赛最后一分钟成功攻破了对方球门。",
+      "en": "The striker scored against the opposition in the final minute of the match."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论旧信",
+      "ms_spoken": "Aku dah merobek surat lama tu. Nak simpan sampulnya je.",
+      "ms_standard": "Aku sudah merobek surat lama itu. Aku hanya mahu menyimpan sampulnya.",
+      "zh": "我已经把那封旧信撕了，只想留着信封。",
+      "en": "I've torn up that old letter. I only want to keep the envelope.",
+      "spoken_features": [
+        "dah对应sudah，tu对应itu，nak对应mahu，je对应sahaja。",
+        "第二句省略主语aku。",
+        "日常口语也可用koyakkan来表达撕破。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah merobek surat lama tu. Nak simpan sampulnya je.",
+          "ms_standard": "Aku sudah merobek surat lama itu. Aku hanya mahu menyimpan sampulnya.",
+          "zh": "我已经把那封旧信撕了，只想留着信封。",
+          "en": "I've torn up that old letter. I only want to keep the envelope."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okey, letak sampul tu kat dalam laci dulu.",
+          "ms_standard": "Baiklah, letakkan sampul itu di dalam laci dahulu.",
+          "zh": "行，那先把信封放进抽屉吧。",
+          "en": "Okay, put the envelope in the drawer for now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay forms this verb from robek by adding the active prefix meN-, realized here as me-. Its dictionary meanings connect torn material with emotional injury and a breached goal. These uses share an image of something giving way, although that connection alone does not establish their historical order. [Kamus Dewan via PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=robek).",
+    "cognitive_memory_aid": "记住robek“破了”，加me-变成“把它撕破”；纸被撕开、防线被撕开，画面相通。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词没有特殊敬语限制；merobek hati等表达情绪很重，正式工作沟通宜根据事实使用更具体的说法。",
+    "usage_etiquette": "适合描述材料损坏、文学情绪或体育突破。描述他人撕毁信件、证件等行为时，应避免无依据地暗示其动机。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词没有特殊敬语限制；merobek hati等表达情绪很重，正式工作沟通宜根据事实使用更具体的说法。",
+    "usage_etiquette": "适合描述材料损坏、文学情绪或体育突破。描述他人撕毁信件、证件等行为时，应避免无依据地暗示其动机。"
+  }
+}
