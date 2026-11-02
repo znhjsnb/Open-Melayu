@@ -1,0 +1,138 @@
+{
+  "headword": {
+    "word": "pembicaraan",
+    "syllables": "pem.bi.ca.ra.an",
+    "ipa": "/pəm.bi.tʃa.ra.an/",
+    "jawi": "ڤمبيچاراءن",
+    "frequency_rank": 7844,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pembicaraan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pembicaraan → pembicaraan（按输入整词索引）；peN- + bicara + -an → pembicaraan（实际构词）",
+    "pattern_note": "is_root 与 root_word 保留输入索引信息；从语言学构词看，本词是 bicara 的派生名词。peN- 在词首 b 前实现为 pem-，b 保留，后接 -an；末尾 ra.an 分属两个音节。",
+    "word_family": [
+      {
+        "word": "bicara",
+        "affix": "∅",
+        "gloss": "谈话；意见；审理"
+      },
+      {
+        "word": "berbicara",
+        "affix": "ber-",
+        "gloss": "说话；发表意见"
+      },
+      {
+        "word": "membicarakan",
+        "affix": "meN-...-kan",
+        "gloss": "讨论；审理"
+      },
+      {
+        "word": "pembicara",
+        "affix": "peN-",
+        "gloss": "发言者；演讲者"
+      },
+      {
+        "word": "perbicaraan",
+        "affix": "per-...-an",
+        "gloss": "庭审；审讯"
+      }
+    ],
+    "root_jawi": "ڤمبيچاراءن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "谈话；围绕某个话题进行的讨论。",
+      "en_definition": "Conversation or discussion about a subject.",
+      "ms_definition": "Percakapan atau perbincangan tentang sesuatu perkara.",
+      "nuances": "马来西亚马来语可用，但在一般会议和工作交流中，perbincangan 往往更自然；不能把所有 pembicaraan 都理解为法庭听证。[DBP：bicara 及其派生词](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=bicara)",
+      "collocations": [
+        {
+          "ms": "tajuk pembicaraan",
+          "zh": "谈论的话题",
+          "en": "topic of discussion"
+        },
+        {
+          "ms": "pokok pembicaraan",
+          "zh": "讨论的核心问题",
+          "en": "central subject of discussion"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "案件在法官面前接受审理；庭审。",
+      "en_definition": "The judicial hearing or trial of a case before a judge.",
+      "ms_definition": "Pengadilan sesuatu perkara di hadapan hakim; penggunaan berlabel Indonesia.",
+      "nuances": "《Kamus Dewan》将此义标为 Id，即印度尼西亚用法。马来西亚司法语境通常使用 perbicaraan；本义本身不限定是否有陪审团。",
+      "collocations": [
+        {
+          "ms": "pembicaraan perkara",
+          "zh": "案件审理",
+          "en": "hearing of a case"
+        },
+        {
+          "ms": "pembicaraan di muka hakim",
+          "zh": "法官面前的审理",
+          "en": "proceedings before a judge"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pembicaraan antara kedua-dua wakil itu tertumpu pada usaha memperkukuh kerjasama pendidikan.",
+      "zh": "两位代表的讨论集中在加强教育合作的工作上。",
+      "en": "The discussion between the two representatives focused on strengthening educational cooperation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pembicaraan tadi dah masuk bab bajet ke?",
+      "ms_standard": "Adakah pembicaraan tadi sudah menyentuh soal belanjawan?",
+      "zh": "刚才已经聊到预算了吗？",
+      "en": "Did the discussion get around to the budget?",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "句末 ke 表示疑问。",
+        "masuk bab 表示谈到某个方面；目标词本身仍带书面语色彩，日常也常说 perbincangan 或 sembang。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pembicaraan tadi dah masuk bab bajet ke?",
+          "ms_standard": "Adakah pembicaraan tadi sudah menyentuh soal belanjawan?",
+          "zh": "刚才已经聊到预算了吗？",
+          "en": "Did the discussion get around to the budget?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum lagi. Kita nak bincang jadual dulu je.",
+          "ms_standard": "Belum lagi. Kita mahu membincangkan jadual dahulu sahaja.",
+          "zh": "还没呢，我们想先聊一下时间安排。",
+          "en": "Not yet. We just want to go over the schedule first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The lexical base bicara is traced to Sanskrit vicāra, associated with deliberation and investigation. Malay developed a family of words around speaking, discussion, and judicial proceedings. Pembicaraan names an activity of discussing, while Malaysian legal usage generally favours perbicaraan for a trial. This shared history explains the overlap between conversation and courtroom meanings. [Historical linguistic study](https://sealang.net/archives/nusa/pdf/nusa-v19-p1-38.pdf)",
+    "cognitive_memory_aid": "抓住中间的 bicara“谈论”：在它外面加上 pem- 和 -an，把“谈”装成名词“谈话、讨论”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "该词本身中性而偏书面。向上级提出讨论时，可说 Mohon kita lanjutkan perbincangan ini，以请求式表达保持礼貌。",
+    "usage_etiquette": "适合报道、叙述和较正式的讨论场景。撰写马来西亚法院文件时，庭审通常写 perbicaraan；一般同事聊天则优先考虑 perbincangan 或 bincang。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "该词本身中性而偏书面。向上级提出讨论时，可说 Mohon kita lanjutkan perbincangan ini，以请求式表达保持礼貌。",
+    "usage_etiquette": "适合报道、叙述和较正式的讨论场景。撰写马来西亚法院文件时，庭审通常写 perbicaraan；一般同事聊天则优先考虑 perbincangan 或 bincang。"
+  }
+}

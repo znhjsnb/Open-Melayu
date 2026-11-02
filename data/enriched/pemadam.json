@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "pemadam",
+    "syllables": "pe.ma.dam",
+    "ipa": "/pəmadam/",
+    "jawi": "ڤمادم",
+    "frequency_rank": 7827,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "padam",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + padam → pemadam",
+    "pattern_note": "peN- 遇词根首音 p 时取 pem-，词根首字母 p 脱落。输入包的 madam 是错误切分，正确词根为 padam。",
+    "word_family": [
+      {
+        "word": "memadamkan",
+        "affix": "meN-...-kan",
+        "gloss": "扑灭；擦除"
+      },
+      {
+        "word": "pemadaman",
+        "affix": "peN-...-an",
+        "gloss": "扑灭或清除的过程"
+      }
+    ],
+    "root_jawi": "ڤادم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用于扑灭火焰或火灾的器具，通常见于 pemadam api 或 alat pemadam api。",
+      "en_definition": "A device for extinguishing a fire, usually called a pemadam api.",
+      "ms_definition": "Alat untuk memadamkan api atau kebakaran.",
+      "nuances": "消防语境通常明确说 pemadam api；只说 pemadam 时，听者也可能理解为橡皮擦或板擦，应由上下文区分。[DBP 词条](https://prpm.dbp.gov.my/cari1?keyword=pemadam)。",
+      "collocations": [
+        {
+          "ms": "alat pemadam api",
+          "zh": "灭火器",
+          "en": "fire extinguisher"
+        },
+        {
+          "ms": "pemadam api mudah alih",
+          "zh": "便携式灭火器",
+          "en": "portable fire extinguisher"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "擦除文字或笔迹的工具，如橡皮擦、黑板擦或白板擦。",
+      "en_definition": "A tool for removing writing or marks, such as an eraser or board duster.",
+      "ms_definition": "Alat untuk memadamkan tulisan pada papan hitam dan sebagainya; getah pemadam digunakan untuk memadamkan tulisan pensel.",
+      "nuances": "文具语境中的 pemadam 常指橡皮擦。getah pemadam 明确指橡皮擦；pemadam papan putih 指白板擦，不能将两者的使用对象混同。[DBP 词条](https://prpm.dbp.gov.my/cari1?keyword=pemadam)。",
+      "collocations": [
+        {
+          "ms": "getah pemadam",
+          "zh": "橡皮擦",
+          "en": "eraser"
+        },
+        {
+          "ms": "pemadam papan putih",
+          "zh": "白板擦",
+          "en": "whiteboard eraser"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 办公室设备管理",
+      "ms": "Pihak pengurusan akan memeriksa semua alat pemadam api di bangunan pejabat pada hari Isnin.",
+      "zh": "管理方将在星期一检查办公楼内的所有灭火器。",
+      "en": "Management will inspect all fire extinguishers in the office building on Monday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学借文具",
+      "ms_spoken": "Boleh pinjam pemadam kau kejap? Aku nak padam jawapan ni.",
+      "ms_standard": "Bolehkah saya meminjam pemadam kamu sebentar? Saya hendak memadamkan jawapan ini.",
+      "zh": "橡皮借我用一下行吗？我想把这个答案擦掉。",
+      "en": "Can I borrow your eraser for a second? I want to rub out this answer.",
+      "spoken_features": [
+        "kau 和 aku 是熟人之间的非正式人称代词。",
+        "kejap 在这里相当于 sebentar。",
+        "nak 是 hendak 的口语形式。",
+        "ni 是 ini 的口语缩略形式。",
+        "padam 在口语中代替较完整的 memadamkan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Boleh pinjam pemadam kau kejap? Aku nak padam jawapan ni.",
+          "ms_standard": "Bolehkah saya meminjam pemadam kamu sebentar? Saya hendak memadamkan jawapan ini.",
+          "zh": "橡皮借我用一下行吗？我想把这个答案擦掉。",
+          "en": "Can I borrow your eraser for a second? I want to rub out this answer."
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Boleh, ambil je kat atas meja. Nanti pulangkan, ya.",
+          "ms_standard": "Boleh, ambil sahaja pemadam itu di atas meja. Pulangkan pemadam itu selepas digunakan, ya.",
+          "zh": "可以，桌上那个拿去用吧。用完记得还我哦。",
+          "en": "Sure, just take the one on the table. Give it back when you're done, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pemadam brings two familiar settings together: the classroom and fire protection. Its root padam concerns going out or disappearing, while the prefix peN- forms the name of an instrument. Something that removes pencil marks and something that extinguishes flames therefore share a word, with context or a following noun identifying the tool. [DBP root entry](https://prpm.dbp.gov.my/Cari1?d=113780&keyword=padam).",
+    "cognitive_memory_aid": "padam＝灭掉、擦掉；peN- 把它变成工具名：pemadam api 灭火，getah pemadam 擦字。注意 p 脱落，词根仍是 padam。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "借文具时可说 Boleh saya pinjam pemadam?，归还时说 Terima kasih。aku、kau 适合熟悉的同辈；对老师或不熟的人采用 saya 和合适称谓。",
+    "usage_etiquette": "课堂中单说 pemadam 通常足够；办公室设施说明和公共标识应明确写 alat pemadam api，避免与擦字工具混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "借文具时可说 Boleh saya pinjam pemadam?，归还时说 Terima kasih。aku、kau 适合熟悉的同辈；对老师或不熟的人采用 saya 和合适称谓。",
+    "usage_etiquette": "课堂中单说 pemadam 通常足够；办公室设施说明和公共标识应明确写 alat pemadam api，避免与擦字工具混淆。"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "mendengarmu",
+    "syllables": null,
+    "ipa": "/mən.də.ŋar.mu/",
+    "jawi": "مندڠر",
+    "frequency_rank": 7758,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mendengar",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "mendengar + -mu → mendengarmu; meN- + dengar → mendengar",
+    "pattern_note": "保留输入中的直接基词 mendengar；更深层词根是 dengar。meN- 在 d 前实现为 men-，d 保留。-mu 是后附的第二人称代词，本结构中作宾语，并非派生后缀；affix_type 的 suffix 仅表示附着位置。输入 Jawi 缺少 -mu，完整形式为 مندڠرمو。书写原则参见 [DBP：马来语拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+    "word_family": [
+      {
+        "word": "mendengar",
+        "affix": "meN-",
+        "gloss": "听见；聆听"
+      },
+      {
+        "word": "terdengar",
+        "affix": "ter-",
+        "gloss": "无意间听见；传入耳中"
+      },
+      {
+        "word": "pendengar",
+        "affix": "peN-",
+        "gloss": "听众"
+      },
+      {
+        "word": "pendengaran",
+        "affix": "peN-...-an",
+        "gloss": "听觉；听力"
+      }
+    ],
+    "root_jawi": "مندڠر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "听见你的声音或你正在说的话。",
+      "en_definition": "Hear you or the sound of your voice.",
+      "ms_definition": "Menangkap suara atau bunyi yang kamu hasilkan melalui deria telinga.",
+      "nuances": "-mu 在这里表示“你”，不是“你的”。此形式带文学或亲密语气；马来西亚日常交流更常说 dengar awak 或 dengar kau。并非 mendengar 的所有义项都适合直接带人称宾语；“听到关于你的消息”通常说 mendengar khabar tentangmu。基本义参见 [DBP：dengar](https://prpmv1.dbp.gov.my/Search.aspx?k=menurut)。",
+      "collocations": [
+        {
+          "ms": "dapat mendengarmu",
+          "zh": "能够听见你",
+          "en": "be able to hear you"
+        },
+        {
+          "ms": "mendengarmu bercakap",
+          "zh": "听见你说话",
+          "en": "hear you speaking"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "认真听你说话，关注并考虑你的意见、感受或劝告。",
+      "en_definition": "Listen to you attentively and consider what you say.",
+      "ms_definition": "Memberikan perhatian kepada percakapan, pandangan atau nasihat kamu untuk memahaminya atau mempertimbangkannya.",
+      "nuances": "重点在给予注意，而非仅仅有声音传入耳中。语境可引出“听你的劝告”，但不自动表示同意或服从。以下组合适用于该完整形式，其日常口语替代形式更常见。",
+      "collocations": [
+        {
+          "ms": "sedia mendengarmu",
+          "zh": "愿意倾听你",
+          "en": "be ready to listen to you"
+        },
+        {
+          "ms": "mendengarmu dengan penuh perhatian",
+          "zh": "专心倾听你",
+          "en": "listen to you attentively"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam sesi sokongan tersebut, kaunselor berkata kepada remaja itu, \"Saya sedia mendengarmu tanpa menghakimi.\"",
+      "zh": "在该次支持辅导中，辅导员对那名少年说：“我愿意倾听你，不作评判。”",
+      "en": "During the support session, the counsellor told the teenager, \"I'm ready to listen to you without judging.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kaunselor tu tulis, \"Saya sedia mendengarmu.\" Aku rasa lega sikit lah.",
+      "ms_standard": "Kaunselor itu menulis, \"Saya sedia mendengarmu.\" Saya berasa sedikit lega.",
+      "zh": "那个辅导员写了句“我愿意倾听你”，我就觉得安心一点了。",
+      "en": "The counsellor wrote, \"I'm ready to listen to you.\" That made me feel a little better.",
+      "spoken_features": [
+        "mendengarmu 出现在引语中，保留原话较温柔、书面的语气",
+        "tu 相当于 itu",
+        "sikit 相当于 sedikit",
+        "lah 在这里缓和陈述语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Kaunselor tu tulis, \"Saya sedia mendengarmu.\" Aku rasa lega sikit lah.",
+          "ms_standard": "Kaunselor itu menulis, \"Saya sedia mendengarmu.\" Saya berasa sedikit lega.",
+          "zh": "那个辅导员写了句“我愿意倾听你”，我就觉得安心一点了。",
+          "en": "The counsellor wrote, \"I'm ready to listen to you.\" That made me feel a little better."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Baguslah. Kalau kau nak cerita kat aku pun, boleh je.",
+          "ms_standard": "Baguslah. Jika awak hendak bercerita kepada saya juga, saya sedia mendengar.",
+          "zh": "那就好。你要是也想跟我聊，随时都行。",
+          "en": "That's good. You can talk to me too, whenever you want."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form combines the ordinary hearing verb with the attached pronoun -mu. Malay spelling joins that pronoun to the preceding word, making an entire verb-and-object expression appear as one written unit. Its expressive force comes from direct address: the listener is attending to you personally. This explains its suitability for intimate or literary language.",
+    "cognitive_memory_aid": "mendengar＝听；句尾 -mu＝你：mendengarmu 就是“听见你／听你说”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 带熟悉、亲密或文学色彩，并不是通用于所有对象的敬称。正式职场或初次见面时，可说 mendengar pandangan tuan/puan。",
+    "usage_etiquette": "适合诗歌、私人文字和温柔的直接引语。普通通话更自然地说 Saya boleh dengar awak。若涉及对上天的称呼，通常按宗教指称规则写 -Mu，并加连字符。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 带熟悉、亲密或文学色彩，并不是通用于所有对象的敬称。正式职场或初次见面时，可说 mendengar pandangan tuan/puan。",
+    "usage_etiquette": "适合诗歌、私人文字和温柔的直接引语。普通通话更自然地说 Saya boleh dengar awak。若涉及对上天的称呼，通常按宗教指称规则写 -Mu，并加连字符。"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "ton",
+    "syllables": "ton",
+    "ipa": "/ton/",
+    "jawi": "تون",
+    "frequency_rank": 7815,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ton",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ton → ton",
+    "pattern_note": "单音节独立词素，不作伪词根拆分；常与其他词组合，限定声音或颜色的具体属性。",
+    "word_family": [
+      {
+        "word": "ton warna",
+        "affix": "∅（复合词）",
+        "gloss": "颜色的色调或明暗层次"
+      },
+      {
+        "word": "ton suara",
+        "affix": "∅（复合词）",
+        "gloss": "声音的音调或音质"
+      },
+      {
+        "word": "warna ton",
+        "affix": "∅（复合词）",
+        "gloss": "音色"
+      }
+    ],
+    "root_jawi": "تون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "音调；音乐声音所具有的高低或定音特征。",
+      "en_definition": "A musical tone or pitch.",
+      "ms_definition": "Laras bunyi dalam muzik.",
+      "nuances": "用于音乐时，侧重声音的高低或音调属性；与表示音质的义项须按上下文区分。依据：[DBP PRPM：ton I](https://prpm.dbp.gov.my/Cari1?d=241100&keyword=ton+I)。",
+      "collocations": [
+        {
+          "ms": "ton tinggi",
+          "zh": "高音调",
+          "en": "high pitch"
+        },
+        {
+          "ms": "ton rendah",
+          "zh": "低音调",
+          "en": "low pitch"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "音色；声音所具有的独特质感或品质。",
+      "en_definition": "The distinctive quality or timbre of a sound.",
+      "ms_definition": "Kualiti bunyi dalam muzik.",
+      "nuances": "侧重声音听起来如何，如圆润、明亮或柔和，而非单纯高低。warna ton 是音乐语境中的“音色”。依据：[DBP PRPM：ton](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=ton)。",
+      "collocations": [
+        {
+          "ms": "kualiti ton",
+          "zh": "音色品质",
+          "en": "tone quality"
+        },
+        {
+          "ms": "warna ton",
+          "zh": "音色",
+          "en": "tone colour"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "色调；颜色的明暗程度，也用于描述相近颜色之间的深浅层次。",
+      "en_definition": "The lightness or darkness of a colour; a shade or tonal value.",
+      "ms_definition": "Darjah kecerahan warna.",
+      "nuances": "常用于绘画、摄影、服装及设计。给定词包对应 ton I；此处不混入另列的印尼荷兰语源货币俗称。一般马来西亚计量语境中的“吨”写作 tan。颜色用法与计量区别见 [DBP PRPM：ton](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ton)。",
+      "collocations": [
+        {
+          "ms": "ton warna",
+          "zh": "颜色的色调",
+          "en": "colour tone"
+        },
+        {
+          "ms": "ton cerah",
+          "zh": "明亮色调",
+          "en": "light tone"
+        },
+        {
+          "ms": "ton gelap",
+          "zh": "深暗色调",
+          "en": "dark tone"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan reka bentuk mencadangkan penggunaan ton warna yang lebih cerah untuk ruang penerimaan tetamu.",
+      "zh": "设计团队建议接待区采用更明亮的色调。",
+      "en": "The design team recommends lighter colour tones for the reception area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ton biru ni cantik lah, ambil yang ni je.",
+      "ms_standard": "Ton biru ini cantik; pilih yang ini sahaja.",
+      "zh": "这个蓝色调挺好看的，就选这个吧。",
+      "en": "This shade of blue looks lovely. Let's go with this one.",
+      "spoken_features": [
+        "ni 对应 ini。",
+        "lah 在此表达赞同或欣赏。",
+        "je 对应 sahaja。",
+        "ambil 在挑选商品时表示选择。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Awak nak ton biru yang ni ke yang gelap tu?",
+          "ms_standard": "Awak mahu ton biru yang ini atau ton biru yang gelap itu?",
+          "zh": "你想要这个蓝色调，还是那个深一点的？",
+          "en": "Do you want this shade of blue or that darker one?"
+        },
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Yang ni je lah, nampak cerah sikit.",
+          "ms_standard": "Saya pilih yang ini sahaja kerana warnanya kelihatan sedikit lebih cerah.",
+          "zh": "就这个吧，看起来亮一点。",
+          "en": "Let's go with this one. It looks a little lighter."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ton provides a useful bridge between the arts. In music, it can identify pitch or the quality of a sound; in painting and design, it identifies degrees of colour brightness. The musical expression warna ton, literally tone colour, makes that bridge especially memorable: a sound can be described through the vocabulary of colour. See [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=ton).",
+    "cognitive_memory_aid": "用英语 tone 联想 ton：耳朵听音调、音色，眼睛看色调；说“吨”则记 tan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "评价演奏或设计时，可具体说 ton terlalu tinggi 或 ton warna agak gelap，聚焦作品属性。讨论他人的说话态度时，nada suara 通常更直接清楚。",
+    "usage_etiquette": "适用于音乐教学、录音讨论、绘画和配色交流。涉及肤色时宜保持客观，避免把深浅色调与人的价值、身份或美丑直接挂钩。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "评价演奏或设计时，可具体说 ton terlalu tinggi 或 ton warna agak gelap，聚焦作品属性。讨论他人的说话态度时，nada suara 通常更直接清楚。",
+    "usage_etiquette": "适用于音乐教学、录音讨论、绘画和配色交流。涉及肤色时宜保持客观，避免把深浅色调与人的价值、身份或美丑直接挂钩。"
+  }
+}

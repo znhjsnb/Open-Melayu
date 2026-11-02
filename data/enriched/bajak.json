@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "bajak",
+    "syllables": "ba.jak",
+    "ipa": "[ba.d͡ʒaʔ]",
+    "jawi": "باجق",
+    "frequency_rank": 7829,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bajak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bajak → bajak",
+    "pattern_note": "无词缀；j 读 [d͡ʒ]，词尾 k 通常读 [ʔ]。派生时 meN- 在 b 前变为 mem-，保留 b：meN- + bajak → membajak。",
+    "word_family": [
+      {
+        "word": "membajak",
+        "affix": "meN-",
+        "gloss": "犁地；翻耕"
+      },
+      {
+        "word": "pembajak",
+        "affix": "peN-",
+        "gloss": "犁地的人；犁耕工具"
+      },
+      {
+        "word": "pembajakan",
+        "affix": "peN-...-an",
+        "gloss": "犁耕的过程或作业"
+      }
+    ],
+    "root_jawi": "باجق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用于翻开、疏松土壤以准备播种的农具；犁。",
+      "en_definition": "A plough used to turn and loosen soil before planting.",
+      "ms_definition": "Alat pertanian untuk membalikkan dan menggemburkan tanah; tenggala atau luku.",
+      "nuances": "可指传统畜力犁，也可指由拖拉机牵引的犁具。bajak 是工具名称；完整正式主动句中，表示犁地通常使用 membajak。",
+      "collocations": [
+        {
+          "ms": "bajak piring",
+          "zh": "圆盘犁",
+          "en": "disc plough"
+        },
+        {
+          "ms": "mata bajak",
+          "zh": "犁铧；犁的切土部件",
+          "en": "ploughshare"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用犁翻耕、疏松土地；常见于命令句和省略词缀的口语。",
+      "en_definition": "To plough or till soil, especially in commands and informal speech.",
+      "ms_definition": "Menggemburkan atau membalikkan tanah dengan menggunakan bajak.",
+      "nuances": "如 Bajak tanah ini dahulu，表示先犁这块地。正式主动陈述句通常写 Petani itu membajak sawah，而第一人称宾语前置结构可用 Sawah itu saya bajak。",
+      "collocations": [
+        {
+          "ms": "bajak sawah",
+          "zh": "犁水田",
+          "en": "plough a paddy field"
+        },
+        {
+          "ms": "bajak tanah",
+          "zh": "犁地；翻耕土地",
+          "en": "plough the soil"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "海盗；在海上抢劫的人，通常用于 bajak laut。",
+      "en_definition": "A pirate or sea robber, usually in the expression bajak laut.",
+      "ms_definition": "Perompak atau penyamun di laut; lanun.",
+      "nuances": "属于同形异义词 bajak II，与农具义分开理解。马来西亚日常及新闻语境常使用 lanun 或 perompak laut；不能因为字形相同就把海盗义解释成犁地义的必然引申。",
+      "collocations": [
+        {
+          "ms": "bajak laut",
+          "zh": "海盗",
+          "en": "pirate"
+        },
+        {
+          "ms": "kapal bajak laut",
+          "zh": "海盗船",
+          "en": "pirate ship"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Koperasi itu membeli sebuah bajak piring untuk mempercepat kerja penyediaan tanah sebelum musim menanam.",
+      "zh": "该合作社购置了一台圆盘犁，以加快种植季前的整地工作。",
+      "en": "The cooperative purchased a disc plough to speed up land preparation before the planting season."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bajak kat tepi bangsal tu masih elok ke?",
+      "ms_standard": "Adakah bajak di tepi bangsal itu masih dalam keadaan baik?",
+      "zh": "棚子旁边那把犁还好用吗？",
+      "en": "Is the plough beside the shed still in good condition?",
+      "spoken_features": [
+        "kat 对应 di，tu 对应 itu。",
+        "句尾 ke 构成口语一般疑问句。",
+        "回复中的 nak 对应 hendak，dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Azlan (兄弟)",
+          "ms_spoken": "Bajak kat tepi bangsal tu masih elok ke? Aku nak guna esok.",
+          "ms_standard": "Adakah bajak di tepi bangsal itu masih dalam keadaan baik? Saya hendak menggunakannya esok.",
+          "zh": "棚子旁边那把犁还好用吗？我明天想用。",
+          "en": "Is the plough beside the shed still in good condition? I want to use it tomorrow."
+        },
+        {
+          "speaker": "Hakim (兄弟)",
+          "ms_spoken": "Masih elok. Ayah dah bersihkan tadi, ambil je.",
+          "ms_standard": "Bajak itu masih dalam keadaan baik. Ayah sudah membersihkannya tadi; ambillah.",
+          "zh": "还好用。爸爸刚清理过，你拿去用吧。",
+          "en": "It is. Dad cleaned it earlier, so go ahead and take it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bajak belongs to the vocabulary of cultivation, and Malay verse places membajak beside the figure of the farmer. A separate dictionary meaning identifies a sea robber, familiar in bajak laut. These two meanings offer contrasting cultural scenes, the cultivated field and the sea, but their shared spelling alone does not establish a common historical origin. [Malay Concordance Dictionary](https://www.malaycivilization.com.my/kamusmelayu/)",
+    "cognitive_memory_aid": "把 bajak 和近音的 bijak（聪明）配成画面：Petani bijak memilih bajak，聪明农夫会选犁。记住 bajak 是犁，membajak 是犁地。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "农业义是中性用词。与农民交谈时，直接讨论工具或耕作即可；不宜把从事体力劳动的人作为玩笑或贬低对象。",
+    "usage_etiquette": "农业报告中应区分 bajak（犁具）、membajak（犁地）和 pembajakan（犁耕作业）。谈海盗时使用完整的 bajak laut 或较常见的 lanun，以免歧义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "农业义是中性用词。与农民交谈时，直接讨论工具或耕作即可；不宜把从事体力劳动的人作为玩笑或贬低对象。",
+    "usage_etiquette": "农业报告中应区分 bajak（犁具）、membajak（犁地）和 pembajakan（犁耕作业）。谈海盗时使用完整的 bajak laut 或较常见的 lanun，以免歧义。"
+  }
+}

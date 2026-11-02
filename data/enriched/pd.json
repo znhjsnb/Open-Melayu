@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "pd",
+    "syllables": null,
+    "ipa": "/pa.da/",
+    "jawi": null,
+    "frequency_rank": 7845,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pd",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "pada → pd（书写缩略，不属于加词缀构词）",
+    "pattern_note": "按输入保留整词索引，但 pd 是缩写形式。此处按常见展开 pada 释读，IPA 对应展开词，不表示 pd 有独立词音；无独立音节划分，亦不补造 Jawi。其他展开须由上下文确定。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "pada 的书写缩写，用在时间表达之前，表示“在……时候”。",
+      "en_definition": "Written abbreviation of pada, introducing a time expression: at, on, or in.",
+      "ms_definition": "Singkatan bertulis bagi pada yang digunakan sebelum keterangan waktu.",
+      "nuances": "这是缩写用法，而非独立的标准完整词。DBP 的短信指南也指出 pd 可能有不同展开，须结合语境；本条采用常见的 pada 解读。status 按指定格式填写，不表示该缩写适合正式行文。[DBP：短信语言指南](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf)",
+      "collocations": [
+        {
+          "ms": "pd waktu malam",
+          "zh": "在夜间",
+          "en": "at night"
+        },
+        {
+          "ms": "pd hari Isnin",
+          "zh": "在星期一",
+          "en": "on Monday"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "pada 的书写缩写，用于表示看法的持有者，或某事所依赖、依据的对象。",
+      "en_definition": "Written abbreviation of pada, marking a viewpoint or the basis on which something depends.",
+      "ms_definition": "Singkatan bertulis bagi pada yang menandai sudut pandangan atau sandaran sesuatu perkara.",
+      "nuances": "如 pada pendapat saya“依我看”、bergantung pada keadaan“视情况而定”。不能把 pd 无条件展开成 kepada；正式文本应写出完整形式。[DBP：pada 与 kepada 的用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pada+benda)",
+      "collocations": [
+        {
+          "ms": "pd pendapat saya",
+          "zh": "依我看",
+          "en": "in my opinion"
+        },
+        {
+          "ms": "bergantung pd keadaan",
+          "zh": "视情况而定",
+          "en": "depending on the circumstances"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "preposition",
+      "zh_definition": "pada 的书写缩写，表示物品由某人持有，或某种特点存在于某人或某物身上。",
+      "en_definition": "Written abbreviation of pada, marking a holder or the bearer of a quality.",
+      "ms_definition": "Singkatan bertulis bagi pada yang menunjukkan pemegang sesuatu atau tempat terdapatnya sesuatu sifat.",
+      "nuances": "例如 Kunci ada pada Amir 表示钥匙在 Amir 手里。表达一般地理位置仍通常用 di，而不是把所有“在”都写成 pada。",
+      "collocations": [
+        {
+          "ms": "ada pd saya",
+          "zh": "在我这里；由我保管",
+          "en": "with me; in my possession"
+        },
+        {
+          "ms": "sifat yang ada pd seseorang",
+          "zh": "某人身上具有的特质",
+          "en": "a quality someone possesses"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam surat rasmi, singkatan 'pd' hendaklah ditulis penuh sebagai 'pada'.",
+      "zh": "在正式公函中，缩写 pd 应完整写作 pada。",
+      "en": "In official correspondence, the abbreviation 'pd' should be written out as 'pada'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kita jumpa pd pukul tiga je, boleh?",
+      "ms_standard": "Bolehkah kita berjumpa pada pukul tiga sahaja?",
+      "zh": "我们就三点见，可以吗？",
+      "en": "Can we just meet at three?",
+      "spoken_features": [
+        "pd 是聊天中的书写缩略；朗读时在本语境中展开为 pada。",
+        "je 对应 sahaja，表示“就、而已”。",
+        "句末 boleh 表示征询对方是否方便。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kita jumpa pd pukul tiga je, boleh?",
+          "ms_standard": "Bolehkah kita berjumpa pada pukul tiga sahaja?",
+          "zh": "我们就三点见，可以吗？",
+          "en": "Can we just meet at three?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh. Aku dah kosongkan jadual petang ni.",
+          "ms_standard": "Boleh. Saya sudah mengosongkan jadual pada petang ini.",
+          "zh": "可以，我已经把今天下午的时间空出来了。",
+          "en": "Sure. I've already cleared my schedule this afternoon."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pd is a graphic shortening rather than an independently inherited word. It preserves the consonants of pada while omitting its vowels. DBP's guide to SMS language discusses pd as an abbreviation whose interpretation depends on context, including possible readings as pada or padu. Its history belongs to writing practices, not to a new spoken root.",
+    "cognitive_memory_aid": "pada 去掉两个 a，留下 pd；看到 pd，先用上下文把元音补回来。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友之间的简短讯息通常可以使用。给老师、客户或初次联系的人写信时，完整写 pada 更清楚，也更显认真。",
+    "usage_etiquette": "适用于私人聊天、速记和明确允许缩写的资料。正式公函、考试及公开说明一般写 pada；大写 PD 还可能指专名或其他缩略语，不能直接套用本条。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友之间的简短讯息通常可以使用。给老师、客户或初次联系的人写信时，完整写 pada 更清楚，也更显认真。",
+    "usage_etiquette": "适用于私人聊天、速记和明确允许缩写的资料。正式公函、考试及公开说明一般写 pada；大写 PD 还可能指专名或其他缩略语，不能直接套用本条。"
+  }
+}

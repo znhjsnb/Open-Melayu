@@ -1,0 +1,338 @@
+{
+  "headword": {
+    "word": "memotongnya",
+    "syllables": "me.mo.tong.nya",
+    "ipa": "/mə.mo.toŋ.ɲa/",
+    "jawi": "مموتوڠ",
+    "frequency_rank": 7838,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "memotong",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "memotong + -nya → memotongnya；meN- + potong → memotong",
+    "pattern_note": "按数据包保留 root_word 为直接基底 memotong，最终词根是 potong。meN- 遇词根首音 p，变为 mem-，同时 p 脱落。-nya 是附着代词，此处通常作宾语，表示它、他或她，并非时态标记。数据包 Jawi 只包含 memotong；完整形式应写作 مموتوڠڽ。",
+    "word_family": [
+      {
+        "word": "potong",
+        "affix": null,
+        "gloss": "切；剪；截"
+      },
+      {
+        "word": "memotong",
+        "affix": "meN-",
+        "gloss": "切割；削减；超越"
+      },
+      {
+        "word": "potongan",
+        "affix": "-an",
+        "gloss": "切块；剪裁；扣减额"
+      },
+      {
+        "word": "pemotong",
+        "affix": "peN-",
+        "gloss": "切割工具或人员"
+      },
+      {
+        "word": "pemotongan",
+        "affix": "peN-…-an",
+        "gloss": "切割或削减的过程"
+      }
+    ],
+    "root_jawi": "مموتوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用刀、锯等利器将所指物切断、切开或切成片。",
+      "en_definition": "To cut, sever, or slice the referenced object.",
+      "ms_definition": "Memutuskan, mengerat atau menghiris sesuatu yang dirujuk dengan alat tajam.",
+      "nuances": "-nya 的对象由上文确定，例如木板、肉或水果。以下搭配展示基础动词 memotong 的常用宾语；对象已知时可用 -nya 代替。各义依据数据包及 [DBP：memotong](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=memotong)。",
+      "collocations": [
+        {
+          "ms": "memotong kayu",
+          "zh": "锯断或砍断木材",
+          "en": "cut wood"
+        },
+        {
+          "ms": "memotong daging",
+          "zh": "切肉",
+          "en": "cut meat"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "将所指树木砍倒或伐下。",
+      "en_definition": "To fell the referenced tree.",
+      "ms_definition": "Menebang pokok atau tumbuhan berkayu yang dirujuk.",
+      "nuances": "对象是树木时可指砍伐；若只修掉部分树枝，应明确说明 bahagian 或 dahan，避免让人理解为整棵砍倒。",
+      "collocations": [
+        {
+          "ms": "memotong pokok",
+          "zh": "砍树",
+          "en": "cut down a tree"
+        },
+        {
+          "ms": "memotong buluh",
+          "zh": "砍竹子",
+          "en": "cut bamboo"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "宰杀所指动物，通常供食用。",
+      "en_definition": "To slaughter the referenced animal.",
+      "ms_definition": "Menyembelih binatang yang dirujuk.",
+      "nuances": "须由活体动物和宰杀语境确定；若对象是已处理的肉，通常仍是切肉。memotong 本身不说明具体宗教宰杀程序。",
+      "collocations": [
+        {
+          "ms": "memotong ayam",
+          "zh": "宰鸡；也可依语境指切鸡肉",
+          "en": "slaughter a chicken; also cut chicken, depending on context"
+        },
+        {
+          "ms": "memotong lembu",
+          "zh": "宰牛",
+          "en": "slaughter cattle"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "剪短或修整所指头发、草木等。",
+      "en_definition": "To trim or clip the referenced hair or vegetation.",
+      "ms_definition": "Menggunting atau memangkas rambut, rumput atau bahagian tumbuhan yang dirujuk.",
+      "nuances": "此义强调修整长度或形状。日常口语也常用不带 meN- 的 potong rambut。",
+      "collocations": [
+        {
+          "ms": "memotong rambut",
+          "zh": "剪头发",
+          "en": "cut hair"
+        },
+        {
+          "ms": "memotong rumput",
+          "zh": "割草",
+          "en": "mow the grass"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "verb",
+      "zh_definition": "按尺寸或样式裁剪所指布料或衣物。",
+      "en_definition": "To cut the referenced fabric or garment to shape.",
+      "ms_definition": "Menggunting kain atau pakaian yang dirujuk mengikut ukuran atau bentuk.",
+      "nuances": "着重裁剪材料；不等于已经完成缝制。",
+      "collocations": [
+        {
+          "ms": "memotong kain",
+          "zh": "裁布",
+          "en": "cut fabric"
+        },
+        {
+          "ms": "memotong pola baju",
+          "zh": "裁剪衣服纸样",
+          "en": "cut out a garment pattern"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "pos": "verb",
+      "zh_definition": "收割所指稻谷、玉米等作物。",
+      "en_definition": "To harvest the referenced crop.",
+      "ms_definition": "Menuai tanaman yang dirujuk, seperti padi atau jagung.",
+      "nuances": "属于农业语境；一般表达“收获”时，menuai 或 mengutip hasil 的适用范围更明确。",
+      "collocations": [
+        {
+          "ms": "memotong padi",
+          "zh": "割稻",
+          "en": "reap rice"
+        },
+        {
+          "ms": "memotong jagung",
+          "zh": "收割玉米",
+          "en": "harvest maize"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "pos": "verb",
+      "zh_definition": "切除所指肢体，或在相关语境中切开身体部位。",
+      "en_definition": "To amputate a referenced limb or cut open a body part.",
+      "ms_definition": "Mengudungkan anggota atau membedah bahagian tubuh yang dirujuk.",
+      "nuances": "涉及身体时含义较重；专业表达宜区分截肢与手术切口。",
+      "collocations": [
+        {
+          "ms": "memotong kaki",
+          "zh": "截去腿部",
+          "en": "amputate a leg"
+        },
+        {
+          "ms": "memotong tali pusat",
+          "zh": "剪断脐带",
+          "en": "cut the umbilical cord"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "pos": "verb",
+      "zh_definition": "扣减所指金额、工资或拨款等。",
+      "en_definition": "To deduct from or reduce the referenced amount.",
+      "ms_definition": "Mengurangkan jumlah wang, gaji atau peruntukan yang dirujuk.",
+      "nuances": "是抽象的削减义；-nya 可代替前文金额或预算项目。",
+      "collocations": [
+        {
+          "ms": "memotong gaji",
+          "zh": "扣工资",
+          "en": "deduct pay"
+        },
+        {
+          "ms": "memotong peruntukan",
+          "zh": "削减拨款",
+          "en": "cut an allocation"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "pos": "verb",
+      "zh_definition": "超过所指车辆或行人；也可指抄近路缩短行程。",
+      "en_definition": "To overtake the referent or shorten a route.",
+      "ms_definition": "Mendahului kenderaan atau orang yang dirujuk, atau memintasi perjalanan.",
+      "nuances": "行车语境中接车辆作宾语，表示超车；memotong jalan 则可表示走捷径。",
+      "collocations": [
+        {
+          "ms": "memotong kenderaan",
+          "zh": "超越车辆",
+          "en": "overtake a vehicle"
+        },
+        {
+          "ms": "memotong jalan",
+          "zh": "抄近路",
+          "en": "take a shortcut"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "pos": "verb",
+      "zh_definition": "打断所指人的讲话或正在进行的话语。",
+      "en_definition": "To interrupt the referenced speaker or speech.",
+      "ms_definition": "Menyelang percakapan atau mencelah ketika orang yang dirujuk bercakap.",
+      "nuances": "-nya 可指说话的人，也可指前文提到的发言。",
+      "collocations": [
+        {
+          "ms": "memotong percakapan",
+          "zh": "打断讲话",
+          "en": "interrupt a conversation"
+        },
+        {
+          "ms": "memotong cakap orang",
+          "zh": "打断别人说话",
+          "en": "cut someone off"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "pos": "verb",
+      "zh_definition": "缩短所指词语、姓名或名称。",
+      "en_definition": "To shorten the referenced word or name.",
+      "ms_definition": "Memendekkan kata atau nama yang dirujuk.",
+      "nuances": "涉及文字或称呼的缩短；正式缩写也常用 menyingkatkan。",
+      "collocations": [
+        {
+          "ms": "memotong nama",
+          "zh": "把姓名缩短",
+          "en": "shorten a name"
+        },
+        {
+          "ms": "memotong perkataan",
+          "zh": "缩短词语",
+          "en": "shorten a word"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "pos": "verb",
+      "zh_definition": "割所指橡胶树的树皮以采集胶乳。",
+      "en_definition": "To tap the referenced rubber tree.",
+      "ms_definition": "Menoreh pokok getah yang dirujuk.",
+      "nuances": "割胶语境中的专门用法；不能理解为把橡胶树砍倒。",
+      "collocations": [
+        {
+          "ms": "memotong getah",
+          "zh": "割胶",
+          "en": "tap rubber"
+        },
+        {
+          "ms": "pisau memotong getah",
+          "zh": "割胶刀",
+          "en": "a rubber-tapping knife"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 木工作业",
+      "ms": "Selepas mengukur papan itu, juruteknik memotongnya mengikut ukuran yang ditetapkan.",
+      "zh": "量好那块木板后，技术人员按规定尺寸将其切割。",
+      "en": "After measuring the board, the technician cut it to the specified dimensions."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人准备晚餐",
+      "ms_spoken": "Kentang tu dah dikupas; saya nak memotongnya kecil-kecil je.",
+      "ms_standard": "Kentang itu sudah dikupas; saya hendak memotongnya menjadi kepingan kecil sahaja.",
+      "zh": "土豆已经削皮了，我就准备把它切成小块。",
+      "en": "The potatoes are peeled; I'm just going to cut them into small pieces.",
+      "spoken_features": [
+        "tu、dah、nak、je 分别对应 itu、sudah、hendak、sahaja。",
+        "小语境中 -nya 指前文的 kentang，不表示动作已经完成。",
+        "此句保留完整形式 memotongnya；更随意的口语常说 potong kentang tu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Kentang tu dah dikupas ke? Nak goreng kejap lagi.",
+          "ms_standard": "Adakah kentang itu sudah dikupas? Saya hendak menggorengnya sebentar lagi.",
+          "zh": "土豆削皮了吗？我等一下要炸。",
+          "en": "Are the potatoes peeled? I'm going to fry them in a minute."
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Dah. Saya tengah memotongnya kecil-kecil je.",
+          "ms_standard": "Sudah. Saya sedang memotongnya menjadi kepingan kecil.",
+          "zh": "削好了。我正在把它们切成小块。",
+          "en": "Yes. I'm just cutting them into small pieces."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Memotongnya grows from potong, the everyday Malay base for cutting. Its physical meaning provides a useful bridge to abstract uses: a salary can be cut, a conversation cut short, and a journey shortened. The ending -nya contributes a separate piece of information, identifying an object already understood from the conversation rather than creating another cutting sense.",
+    "cognitive_memory_aid": "先记 potong＝切；memotong＝进行切的动作；最后贴上 -nya＝切它。再把“切掉一部分”联想到扣薪、缩短和打断。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈话时 memotong cakap orang 带负面评价。需要插话可先说 Maaf, boleh saya mencelah sebentar?，表示尊重。",
+    "usage_etiquette": "使用 -nya 前应让听者知道对象。涉及人的身体、收入或宰杀时，补足语境，避免歧义；日常聊天用 potong 很自然，报告中完整使用 memotong 更稳妥。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈话时 memotong cakap orang 带负面评价。需要插话可先说 Maaf, boleh saya mencelah sebentar?，表示尊重。",
+    "usage_etiquette": "使用 -nya 前应让听者知道对象。涉及人的身体、收入或宰杀时，补足语境，避免歧义；日常聊天用 potong 很自然，报告中完整使用 memotong 更稳妥。"
+  }
+}

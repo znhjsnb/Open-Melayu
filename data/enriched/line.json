@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "line",
+    "syllables": null,
+    "ipa": "/laɪn/",
+    "jawi": null,
+    "frequency_rank": 7789,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "line",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + line → line",
+    "pattern_note": "英语整词夹用，通常读作单音节 /laɪn/，不按马来语拼写拆成 li.ne。资料包未提供音节标注或爪夷文，故保留 null；下列为口语词组。",
+    "word_family": [
+      {
+        "word": "line telefon",
+        "affix": "∅",
+        "gloss": "电话线路；手机通信服务"
+      },
+      {
+        "word": "line internet",
+        "affix": "∅",
+        "gloss": "网络连接"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "（非正式夹用英语）电话或互联网的线路、连接或信号；常用于谈论通信是否畅通。",
+      "en_definition": "Informally, a telephone or internet connection, or the signal and service available through it.",
+      "ms_definition": "Dalam percakapan tidak rasmi, talian telefon atau sambungan Internet, termasuk isyarat atau mutu perkhidmatannya.",
+      "nuances": "这是马来西亚口语中的英语夹用形式；资料包没有提供 DBP 官方释义，本释义为实际用法归纳，不表示其已获 DBP 规范词资格认定。正式表达依语境使用 talian、sambungan Internet、isyarat 或 liputan rangkaian。马来西亚国会逐字记录可见 line 用于手机信号语境。[马来西亚国会会议记录](https://www.parlimen.gov.my/files/hindex/pdf/DR-04022026.pdf)。不要与 lain（别的；不同的）混淆。",
+      "collocations": [
+        {
+          "ms": "line telefon",
+          "zh": "电话线路；手机通信服务",
+          "en": "telephone line or mobile service"
+        },
+        {
+          "ms": "line tak ada",
+          "zh": "没信号；没有网络连接",
+          "en": "no signal or connection"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Aduan pelanggan yang menyebut “line tak ada” direkodkan sebagai masalah ketiadaan isyarat rangkaian mudah alih.",
+      "zh": "客户所反映的“没信号”被记录为移动网络无信号问题。",
+      "en": "The customer's complaint of “no signal” was recorded as a loss of mobile network signal."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat sini line tak ada lah; nanti aku telefon kau balik.",
+      "ms_standard": "Di sini tiada isyarat telefon; saya akan menelefon kamu semula nanti.",
+      "zh": "这边没信号啦，我等下再打给你。",
+      "en": "There is no signal here. I will call you back later.",
+      "spoken_features": [
+        "line 是英语夹用，标准对应词须按语境选择。",
+        "kat 对应 di；tak ada 对应 tiada。",
+        "lah 表示解释或轻微无奈。",
+        "aku 和 kau 用于熟人之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai kat lobi, tapi line lemah sangat lah.",
+          "ms_standard": "Saya sudah tiba di lobi, tetapi isyarat telefon sangat lemah.",
+          "zh": "我已经到大厅了，可是信号好弱啊。",
+          "en": "I am in the lobby, but the signal is really weak."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Cuba pergi dekat pintu masuk je. Kat situ line biasanya okey.",
+          "ms_standard": "Cuba pergi ke kawasan berhampiran pintu masuk. Isyarat telefon di situ biasanya baik.",
+          "zh": "你去入口那边试试，那里的信号通常还行。",
+          "en": "Try going over by the entrance. The signal is usually fine there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This use takes the English word line into otherwise Malay conversation. A term associated with a telephone connection also serves speakers discussing mobile reception or Internet access. Malaysian parliamentary speech documents this everyday usage. It illustrates how an English noun can fit Malay sentence patterns while formal Malay offers more specific alternatives such as talian, isyarat and sambungan.",
+    "cognitive_memory_aid": "line /laɪn/：先想一条通信“线”，再想到手机的信号和连接；正式写作换成 talian 或 isyarat。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人聊天及即时通信中自然常见；正式报告宜改用准确的马来语对应词。正式场景例句通过引用客户原话保留 line。",
+    "usage_etiquette": "向客服反馈时，说明是 tiada isyarat（没信号）、panggilan terputus（通话中断）还是 sambungan Internet perlahan（网络慢），比笼统说 line 有助于表达问题。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人聊天及即时通信中自然常见；正式报告宜改用准确的马来语对应词。正式场景例句通过引用客户原话保留 line。",
+    "usage_etiquette": "向客服反馈时，说明是 tiada isyarat（没信号）、panggilan terputus（通话中断）还是 sambungan Internet perlahan（网络慢），比笼统说 line 有助于表达问题。"
+  }
+}

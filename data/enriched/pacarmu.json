@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "pacarmu",
+    "syllables": null,
+    "ipa": "/pa.tʃar.mu/",
+    "jawi": "ڤاچر",
+    "frequency_rank": 7860,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pacar",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "pacar + -mu → pacarmu",
+    "pattern_note": "-mu 是 kamu 的后附着形式，表示“你的”，直接连写，词根不发生音变；严格说属于代词附着语，而非派生后缀。读音分节为 pa.car.mu。输入的 Jawi ڤاچر 仅对应词根 pacar，未包含 -mu。[DBP：代词缩略形式的连写](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau)",
+    "word_family": [
+      {
+        "word": "pacar",
+        "affix": null,
+        "gloss": "恋人；另有植物名称用法"
+      },
+      {
+        "word": "berpacaran",
+        "affix": "ber-...-an",
+        "gloss": "谈恋爱；交往"
+      },
+      {
+        "word": "berpacar",
+        "affix": "ber-",
+        "gloss": "涂指甲花染料，见文莱、砂拉越用法"
+      }
+    ],
+    "root_jawi": "ڤاچر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的恋人；你的男朋友或女朋友，性别由语境确定。",
+      "en_definition": "Your romantic partner; your boyfriend or girlfriend.",
+      "ms_definition": "Kekasih kamu, sama ada teman lelaki atau teman wanita.",
+      "nuances": "这是 pacar“恋人”加 -mu 的组合义，并非独立词根。DBP 将此义的 pacar 标作 Jk，即雅加达用语；马来西亚读者通常能理解，但日常更常说 teman lelaki、teman wanita 或 pasangan。不能仅凭 pacar 推断性别。[DBP：pacar](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=pacar)",
+      "collocations": [
+        {
+          "ms": "nama pacarmu",
+          "zh": "你恋人的名字",
+          "en": "your partner's name"
+        },
+        {
+          "ms": "bersama pacarmu",
+          "zh": "与你的恋人在一起",
+          "en": "with your partner"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你的 pacar 植物；具体植物须由上下文确定，例如 pacar kuku 指指甲花，pacar cina 指米仔兰。",
+      "en_definition": "Your pacar plant, with the species determined by its fuller name or the context.",
+      "ms_definition": "Tumbuhan pacar milik kamu; jenisnya ditentukan oleh konteks, misalnya pacar kuku atau pacar cina.",
+      "nuances": "这是植物义词根与所属代词的透明组合，不能视为常见独立植物名称。输入释义对应这一植物义，不能据此排除 pacar 的“恋人”义。下列搭配为说明所属关系的组合示例，未核实其使用频率。[DBP：pacar 的植物义](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=pacar)",
+      "collocations": [
+        {
+          "ms": "pokok pacarmu",
+          "zh": "你的那株 pacar 植物",
+          "en": "your pacar plant"
+        },
+        {
+          "ms": "bunga pacarmu",
+          "zh": "你的 pacar 植物开的花",
+          "en": "the flowers of your pacar plant"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报／文学编辑讨论",
+      "ms": "Dalam dialog novel itu, perkataan “pacarmu” merujuk kepada kekasih orang yang disapa.",
+      "zh": "在该小说的对白中，pacarmu 指的是受话者的恋人。",
+      "en": "In the novel's dialogue, “pacarmu” refers to the romantic partner of the person being addressed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp／朋友讨论歌词",
+      "ms_spoken": "Dalam lagu tu, pacarmu maksudnya pasangan kau lah.",
+      "ms_standard": "Dalam lagu itu, pacarmu bermaksud pasangan kamu.",
+      "zh": "那首歌里的 pacarmu，就是“你的对象”啦。",
+      "en": "In that song, pacarmu means your partner.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式",
+        "kau 是熟人之间使用的第二人称形式",
+        "lah 在此用于解释和强调"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah dengar lagu tu. Pacarmu tu maksudnya teman lelaki ke?",
+          "ms_standard": "Saya sudah mendengar lagu itu. Adakah pacarmu bermaksud teman lelaki kamu?",
+          "zh": "我听过那首歌了。pacarmu 是“你的男朋友”吗？",
+          "en": "I've heard that song. Does pacarmu mean your boyfriend?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh juga teman wanita. Tengok konteks je.",
+          "ms_standard": "Perkataan itu juga boleh merujuk kepada teman wanita. Maksudnya bergantung pada konteks.",
+          "zh": "也可以是女朋友呀，看上下文就行。",
+          "en": "It can mean your girlfriend too. It depends on the context."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pacarmu is transparently built from pacar and the attached second-person form -mu. Its romantic reading belongs to the pacar sense that DBP labels as Jakarta usage. The same dictionary also records botanical uses of pacar and regional henna-related berpacar. These entries establish separate usage histories, but do not establish that the romantic meaning developed from henna customs. [DBP: pacar](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=pacar)",
+    "cognitive_memory_aid": "先记 pacar“恋人”，再把 -mu 当作“你的”标签：pacarmu＝你的恋人。植物语境则另行判断。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 带熟悉、亲密或文学色彩；向陌生人、长辈或客户直接询问其 pacar，可能显得冒昧。",
+    "usage_etiquette": "讨论歌词、影视对白或亲密关系时适用。马来西亚正式交流宜按实际关系使用 pasangan、teman lelaki 或 teman wanita，避免擅自假定对方有恋人或已婚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 带熟悉、亲密或文学色彩；向陌生人、长辈或客户直接询问其 pacar，可能显得冒昧。",
+    "usage_etiquette": "讨论歌词、影视对白或亲密关系时适用。马来西亚正式交流宜按实际关系使用 pasangan、teman lelaki 或 teman wanita，避免擅自假定对方有恋人或已婚。"
+  }
+}

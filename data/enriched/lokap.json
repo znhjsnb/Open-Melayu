@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "lokap",
+    "syllables": "lo.kap",
+    "ipa": "/lokap/",
+    "jawi": "لوکڤ",
+    "frequency_rank": 7790,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "lokap",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + lokap → lokap",
+    "pattern_note": "英语 lock-up 借入后作为完整词根，不拆成马来语词缀。派生 melokap 时，meN- 在 l 前取 me-，保留 l。",
+    "word_family": [
+      {
+        "word": "melokap",
+        "affix": "meN-",
+        "gloss": "把人关入警察拘留室"
+      },
+      {
+        "word": "dilokap",
+        "affix": "di-",
+        "gloss": "被关入警察拘留室"
+      }
+    ],
+    "root_jawi": "لوکڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "警察拘留室；警局内用于关押被拘留者的房间。",
+      "en_definition": "A lockup: a room at a police station used to hold detainees.",
+      "ms_definition": "Bilik di balai polis tempat mengurung orang tahanan.",
+      "nuances": "主要指警察拘留设施，与服刑监狱 penjara 有别。被关入 lokap 本身不表示已经被判有罪。规范词典将动词形式列作 melokap。[DBP 词典](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=lokap)。",
+      "collocations": [
+        {
+          "ms": "lokap balai polis",
+          "zh": "警局拘留室",
+          "en": "police station lockup"
+        },
+        {
+          "ms": "ditahan di lokap",
+          "zh": "被羁押在警察拘留室",
+          "en": "held in a police lockup"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "（口语）把某人关进警察拘留室；拘留某人。",
+      "en_definition": "Informally, to put someone in a police lockup.",
+      "ms_definition": "Dalam percakapan, mengurung atau menahan seseorang di dalam lokap; bentuk berimbuhan bakunya ialah melokap.",
+      "nuances": "裸词根作动词常见于口语，如 polis lokap dia；正式写作宜用 melokap，或采用更明确的 menahan seseorang di dalam lokap。本义是口语动词用法的归纳，不是把资料包中的名词释义直接改列为官方动词义。",
+      "collocations": [
+        {
+          "ms": "polis lokap dia",
+          "zh": "警察把他关进拘留室",
+          "en": "the police put him in a lockup"
+        },
+        {
+          "ms": "kena lokap",
+          "zh": "被关进拘留室",
+          "en": "get locked up by the police"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Lelaki itu ditahan di lokap balai polis sementara siasatan lanjut dijalankan.",
+      "zh": "该男子被羁押在警局拘留室，等待进一步调查。",
+      "en": "The man was held in the police station lockup pending further investigation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dia masih kat lokap ke? Aku ingat dia dah keluar.",
+      "ms_standard": "Adakah dia masih berada di dalam lokap? Saya menyangka dia sudah dibebaskan.",
+      "zh": "他还在拘留室吗？我以为他已经出来了。",
+      "en": "Is he still in the lockup? I thought he had been released.",
+      "spoken_features": [
+        "kat 对应 di；ke 是口语疑问标记。",
+        "dah 对应 sudah。",
+        "keluar 在此语境中表示获释离开拘留室。",
+        "aku 适合熟人之间交流。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah tahu ke sama ada dia masih kat lokap?",
+          "ms_standard": "Adakah kamu sudah mengetahui sama ada dia masih berada di dalam lokap?",
+          "zh": "你知道他是不是还在拘留室了吗？",
+          "en": "Have you found out whether he is still in the lockup?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Belum. Aku nak tunggu berita daripada keluarga dia dulu lah.",
+          "ms_standard": "Belum. Saya mahu menunggu maklumat daripada keluarganya terlebih dahulu.",
+          "zh": "还不知道。我想先等他家里的消息。",
+          "en": "Not yet. I want to wait until we hear from his family."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Lokap comes from English lock-up. The borrowed expression became a single Malay word rather than retaining the English division into two parts. It also supports Malay morphology: melokap means to put someone in a lockup. A linguistic study uses lokap as an example of an English compound absorbed as one lexical unit. [USM linguistic study](https://ejournal.usm.my/kajh/article/download/kajh_vol25-no-1-2018_5/pdf/3571).",
+    "cognitive_memory_aid": "把英语 lock-up 连起来听，就接近 lo-kap：门一锁，人被暂时关在警察拘留室。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "涉及本人或家属被拘留时，宜客观使用 ditahan di lokap；避免用带嘲讽意味的 padan muka（活该）等表达。",
+    "usage_etiquette": "新闻、工作汇报和日常转述应区分 tahanan（被拘留者）与 pesalah（违法者），不要仅凭某人进入 lokap 就断言其有罪。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "涉及本人或家属被拘留时，宜客观使用 ditahan di lokap；避免用带嘲讽意味的 padan muka（活该）等表达。",
+    "usage_etiquette": "新闻、工作汇报和日常转述应区分 tahanan（被拘留者）与 pesalah（违法者），不要仅凭某人进入 lokap 就断言其有罪。"
+  }
+}

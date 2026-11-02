@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "rebus",
+    "syllables": "re.bus",
+    "ipa": "/rəbus/",
+    "jawi": "ربوس",
+    "frequency_rank": 7813,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rebus",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rebus → rebus",
+    "pattern_note": "首音节的 e 读央元音 /ə/。派生 merebus 时，meN- 在 r 前实现为 me-，词根 r 保留。",
+    "word_family": [
+      {
+        "word": "merebus",
+        "affix": "meN-",
+        "gloss": "用水煮"
+      },
+      {
+        "word": "rebusan",
+        "affix": "-an",
+        "gloss": "煮过的东西；煮出物"
+      },
+      {
+        "word": "perebusan",
+        "affix": "peN-...-an",
+        "gloss": "水煮过程"
+      },
+      {
+        "word": "merebuskan",
+        "affix": "meN-...-kan",
+        "gloss": "替某人煮"
+      }
+    ],
+    "root_jawi": "ربوس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把食物放在水中加热煮熟、煮软或煮至所需状态。",
+      "en_definition": "To cook food in boiling water until cooked, tender, or otherwise ready.",
+      "ms_definition": "Memasak sesuatu dalam air mendidih.",
+      "nuances": "原形常见于指令、食谱步骤及口语；完整主动陈述通常用 merebus。重点是用水煮食物；表示水本身沸腾通常用 mendidih。词义及烹饪方式区别见 [DBP PRPM：rebus](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=rebus)。",
+      "collocations": [
+        {
+          "ms": "rebus telur",
+          "zh": "煮鸡蛋",
+          "en": "boil eggs"
+        },
+        {
+          "ms": "rebus jagung",
+          "zh": "煮玉米",
+          "en": "boil corn"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "水煮的；置于食物名称之后，说明该食物以水煮方式烹制。",
+      "en_definition": "Boiled; used after a food noun to describe its method of preparation.",
+      "ms_definition": "Yang dimasak dalam air sehingga mencapai keadaan yang dikehendaki.",
+      "nuances": "在 telur rebus、ubi rebus 等短语中作后置修饰语，描述烹制方式。mi rebus 是固定菜名，指配浓稠汤汁的面食，不能仅按字面理解为普通水煮面。基本用法见 [DBP PRPM：rebus](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=rebus)。",
+      "collocations": [
+        {
+          "ms": "telur rebus",
+          "zh": "水煮蛋",
+          "en": "boiled egg"
+        },
+        {
+          "ms": "ubi rebus",
+          "zh": "水煮薯块",
+          "en": "boiled tubers"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Menu sarapan yang disediakan untuk peserta kursus merangkumi telur rebus dan buah-buahan.",
+      "zh": "为课程参加者准备的早餐包括水煮蛋和水果。",
+      "en": "The breakfast provided for course participants includes boiled eggs and fruit."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Rebus telur tu dulu, nanti kita makan sekali.",
+      "ms_standard": "Rebus telur itu dahulu; selepas itu kita makan bersama-sama.",
+      "zh": "先把那些蛋煮了，待会儿我们一起吃。",
+      "en": "Boil those eggs first, then we'll eat together.",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "dulu 对应 dahulu。",
+        "祈使句直接使用词根 rebus。",
+        "makan sekali 在此表示一起吃。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Dah rebus telur belum? Saya nak buat sandwic.",
+          "ms_standard": "Adakah awak sudah merebus telur? Saya hendak membuat sandwic.",
+          "zh": "蛋煮了吗？我想做三明治。",
+          "en": "Have you boiled the eggs yet? I want to make sandwiches."
+        },
+        {
+          "speaker": "Hafiz (室友)",
+          "ms_spoken": "Dah, saya rebus empat biji je. Ada kat dapur.",
+          "ms_standard": "Sudah, saya merebus empat biji sahaja. Telur itu ada di dapur.",
+          "zh": "煮了，我只煮了四个，在厨房。",
+          "en": "Yes, I only boiled four. They're in the kitchen."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Rebus belongs to the practical vocabulary of the Malay kitchen. Its word family distinguishes the action, merebus, from what has been boiled, rebusan, and the cooking process, perebusan. Everyday expressions such as telur rebus show how a cooking verb also becomes a compact description of food on a menu. See [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=rebus).",
+    "cognitive_memory_aid": "记住顺序就记住用法：rebus telur＝煮蛋，telur rebus＝煮好的蛋。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "rebus 用于食谱指令很自然；请长辈或不熟悉的人帮忙时，可说 Boleh tolong rebus telur ini?，避免只用生硬命令。",
+    "usage_etiquette": "适用于家庭厨房、餐饮点单及烹饪说明。询问做法可说 Ini rebus atau goreng?，意思是“这是水煮的还是油炸的？”"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "rebus 用于食谱指令很自然；请长辈或不熟悉的人帮忙时，可说 Boleh tolong rebus telur ini?，避免只用生硬命令。",
+    "usage_etiquette": "适用于家庭厨房、餐饮点单及烹饪说明。询问做法可说 Ini rebus atau goreng?，意思是“这是水煮的还是油炸的？”"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "double",
+    "syllables": "n",
+    "ipa": "/ˈdʌb.əl/",
+    "jawi": null,
+    "frequency_rank": 7836,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "double",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + double → double",
+    "pattern_note": "英语整词，在马来西亚马来语中主要用于语码转换，不按马来语词缀拆分。数据包的 syllables 值 n 原样保留，但不是有效音节划分；英语通常分为 dou.ble，所列 IPA 为英语读音。本条 status 是指定的数据标签，不表示已核实为 DBP 规范马来语词。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "两倍的；数量、价格或程度为原来两倍的。",
+      "en_definition": "Twice the original or usual amount, size, or degree.",
+      "ms_definition": "Dua kali jumlah, saiz atau kadar asal; berganda.",
+      "nuances": "常见于马来语夹英语的日常表达。规范马来语宜明确写成 dua kali jumlah asal；原价 RM10 变成 RM20 才是此义。这里的马来语释义为释写，英语对应义可参见 [DBP 英马词典检索](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menambahkan)。",
+      "collocations": [
+        {
+          "ms": "gaji double",
+          "zh": "两倍的薪水",
+          "en": "double the salary"
+        },
+        {
+          "ms": "harga double",
+          "zh": "两倍的价格",
+          "en": "double the price"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "使数量加倍；增加到原来的两倍。",
+      "en_definition": "To increase something to twice its original amount.",
+      "ms_definition": "Menjadikan sesuatu dua kali jumlah asal; menggandakan.",
+      "nuances": "在 doublekan 等混合形式中也能见到英语词干，但正式马来语应使用 menggandakan。具体谈论金额或产量时，应说明起始值与最终值。",
+      "collocations": [
+        {
+          "ms": "double jumlah itu",
+          "zh": "把那个数量加倍",
+          "en": "double that amount"
+        },
+        {
+          "ms": "double saiz hidangan",
+          "zh": "把餐点分量加倍",
+          "en": "double the portion size"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "双份的、双层的或供两人使用的，具体含义由所修饰的事物决定。",
+      "en_definition": "Having two components or portions, or intended for two people.",
+      "ms_definition": "Mempunyai dua bahagian atau dua lapis, atau disediakan untuk dua orang.",
+      "nuances": "这是菜单、酒店及日常消费语境中的英语用法。burger double 通常指双份肉饼；bilik double 通常涉及双人入住配置，但床型须另行确认，不能自动理解为两张单人床。",
+      "collocations": [
+        {
+          "ms": "burger double",
+          "zh": "双层肉饼汉堡",
+          "en": "a double-patty burger"
+        },
+        {
+          "ms": "bilik double",
+          "zh": "双人房",
+          "en": "a double room"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场报告 / 英语术语说明",
+      "ms": "Istilah bahasa Inggeris “double” dalam laporan ini merujuk kepada dua kali jumlah asal.",
+      "zh": "本报告中的英语术语“double”指原来数量的两倍。",
+      "en": "The English term “double” in this report means twice the original amount."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聊价格",
+      "ms_spoken": "Harga kat kedai tu dah double lah sekarang.",
+      "ms_standard": "Harga di kedai itu sekarang sudah menjadi dua kali harga asal.",
+      "zh": "那家店现在的价格都翻倍了啦。",
+      "en": "Prices at that shop have doubled now.",
+      "spoken_features": [
+        "kat 是 di 的口语对应形式。",
+        "tu 是 itu 的口语缩略形式。",
+        "dah 是 sudah 的口语缩略形式。",
+        "double 是英语语码转换；lah 加强说话者的感叹语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Harga kat kedai tu dah double ke?",
+          "ms_standard": "Adakah harga di kedai itu sudah menjadi dua kali harga asal?",
+          "zh": "那家店的价格已经翻倍了吗？",
+          "en": "Have prices at that shop doubled?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, dulu lima ringgit je, sekarang sepuluh.",
+          "ms_standard": "Ya, dahulu harganya hanya lima ringgit, tetapi sekarang sepuluh ringgit.",
+          "zh": "对啊，以前才五令吉，现在十令吉了。",
+          "en": "Yeah, it used to be just five ringgit. Now it's ten."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Double enters these Malaysian conversations as an English word, rather than as a Malay root with native affixes. Its usefulness is easy to see at a food counter: one short expression can signal an extra patty, a larger portion, or twice the price. Standard Malay expresses those distinctions more precisely with dua, dua lapis, or menggandakan.",
+    "cognitive_memory_aid": "把 double 和“双份”绑定：一份变两份，数量就是 ×2；具体是双层还是双人，要看后面的商品或服务。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人聊天、点餐或双语职场交流中很自然；面向公众的正式马来语文件宜使用明确的马来语对应表达。",
+    "usage_etiquette": "点餐时可礼貌地说 Nak burger double satu, boleh?；涉及价格、份量或房型时，把具体配置说清楚，避免仅靠 double 推断。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人聊天、点餐或双语职场交流中很自然；面向公众的正式马来语文件宜使用明确的马来语对应表达。",
+    "usage_etiquette": "点餐时可礼貌地说 Nak burger double satu, boleh?；涉及价格、份量或房型时，把具体配置说清楚，避免仅靠 double 推断。"
+  }
+}

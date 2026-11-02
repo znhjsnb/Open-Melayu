@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "disukai",
+    "syllables": null,
+    "ipa": "/di.su.ka.i/",
+    "jawi": null,
+    "frequency_rank": 7822,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "suka",
+    "affix": "di-...-i",
+    "affix_type": "circumfix",
+    "formula": "di- + suka + -i → disukai",
+    "pattern_note": "纠正资料包的自动词根判断：disukai 是 suka 的派生被动形式，不是词根。此处 circumfix 表示前后缀组合：di- 标记被动，-i 保留及物动词结构；di- 连写，词首 s 不脱落，a 与 i 通常分属两个音节。",
+    "word_family": [
+      {
+        "word": "menyukai",
+        "affix": "meN-...-i",
+        "gloss": "喜欢；喜爱"
+      },
+      {
+        "word": "kesukaan",
+        "affix": "ke-...-an",
+        "gloss": "喜好；心爱之物；喜悦"
+      },
+      {
+        "word": "menyukakan",
+        "affix": "meN-...-kan",
+        "gloss": "使高兴；使愉快"
+      }
+    ],
+    "root_jawi": "سوک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被喜欢、受欢迎；成为某人或某群体喜好的对象。",
+      "en_definition": "To be liked, enjoyed or favoured by someone.",
+      "ms_definition": "Menjadi sesuatu yang digemari, diminati atau disenangi oleh seseorang atau sesuatu golongan.",
+      "nuances": "是 menyukai 的被动对应形式，常见于食物、歌曲、活动和产品。disukai ramai 指广受喜爱。它不表示“被使得开心”，也不直接表示“得到正式批准”。释义据 [DBP：suka](https://prpm.dbp.gov.my/Cari1?d=155028&keyword=suka) 的派生词说明整理。",
+      "collocations": [
+        {
+          "ms": "disukai ramai",
+          "zh": "广受喜爱",
+          "en": "widely liked"
+        },
+        {
+          "ms": "disukai kanak-kanak",
+          "zh": "受到儿童喜爱",
+          "en": "liked by children"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "受到他人的好感、喜爱或爱慕；是否包含恋爱情感取决于语境。",
+      "en_definition": "To be liked as a person or regarded with affection or romantic interest.",
+      "ms_definition": "Menjadi orang yang disenangi, dikasihi atau diminati oleh orang lain.",
+      "nuances": "用于人时，既可表示普通人缘，也可表示爱慕，不能一律译成“被爱上”。需要明确施事者时可用 disukai oleh；紧接施事者时，oleh 常可省略。相关人际义见 [DBP：suka](https://prpm.dbp.gov.my/Cari1?d=155028&keyword=suka)。",
+      "collocations": [
+        {
+          "ms": "disukai rakan sekerja",
+          "zh": "受到同事喜爱",
+          "en": "liked by colleagues"
+        },
+        {
+          "ms": "disukai oleh seseorang",
+          "zh": "受到某人的喜欢",
+          "en": "liked by someone"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Hasil tinjauan menunjukkan bahawa reka bentuk baharu itu disukai oleh kebanyakan responden.",
+      "zh": "调查结果显示，大多数受访者喜欢这款新设计。",
+      "en": "The survey results show that most respondents like the new design."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kek ni memang disukai ramai, kan? Dah tinggal sikit je.",
+      "ms_standard": "Kek ini memang disukai ramai, bukan? Kek yang tinggal hanya sedikit.",
+      "zh": "这蛋糕真受欢迎，对吧？都只剩一点了。",
+      "en": "This cake's a real crowd-pleaser, isn't it? There's hardly any left.",
+      "spoken_features": [
+        "ni 对应 ini，dah 对应 sudah。",
+        "sikit 和 je 分别对应 sedikit 和 sahaja。",
+        "句末 kan? 邀请对方认同。",
+        "disukai 可保留在口语中；更随意时也常改用 ramai suka。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Kek ni memang disukai ramai, kan? Dah tinggal sikit je.",
+          "ms_standard": "Kek ini memang disukai ramai, bukan? Kek yang tinggal hanya sedikit.",
+          "zh": "这蛋糕真受欢迎，对吧？都只剩一点了。",
+          "en": "This cake's a real crowd-pleaser, isn't it? There's hardly any left."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Haah, tak manis sangat. Aku nak ambil sepotong lagi.",
+          "ms_standard": "Ya, kek ini tidak terlalu manis. Saya mahu mengambil sepotong lagi.",
+          "zh": "对啊，不会太甜。我想再拿一块。",
+          "en": "Yeah, it's not too sweet. I'm going to grab another slice."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The root suka belongs to the Sanskrit sukha word family associated with pleasure and happiness, also discussed for Indonesian in [Badan Bahasa's account](https://badanbahasa.kemendikdasmen.go.id/artikel-detail/238/di-balik-suka-dan-duka). Malay forms disukai through its own grammar: di- marks the passive and -i belongs to the transitive verb. The complete word is therefore a Malay formation, not a Sanskrit passive borrowed whole.",
+    "cognitive_memory_aid": "suka＝喜欢；di- 把对象放到前面：Kek ini disukai ramai＝这蛋糕被很多人喜欢。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述人缘或作品评价时语气中性。谈论具体对象是否喜欢某人时，应区分普通好感与爱慕，避免替他人断言感情。",
+    "usage_etiquette": "适合调查结果、产品评价和人际描述。网络语境下可指内容受到喜爱，但收到多少个点赞宜明确说 menerima tanda suka，避免把受欢迎程度与点赞数量混为一谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述人缘或作品评价时语气中性。谈论具体对象是否喜欢某人时，应区分普通好感与爱慕，避免替他人断言感情。",
+    "usage_etiquette": "适合调查结果、产品评价和人际描述。网络语境下可指内容受到喜爱，但收到多少个点赞宜明确说 menerima tanda suka，避免把受欢迎程度与点赞数量混为一谈。"
+  }
+}
