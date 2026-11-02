@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "pemancar",
+    "syllables": "pe.man.car",
+    "ipa": "/pə.man.t͡ʃar/",
+    "jawi": "ڤمانچر",
+    "frequency_rank": 5248,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pemancar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pemancar → pemancar（按输入词元记录）；构词分析：peN- + pancar → pemancar",
+    "pattern_note": "is_root、root_word及root_jawi保留输入记录；语言学词根实际为pancar。peN-遇词首p时变为pem-，原p脱落，形成pemancar。",
+    "word_family": [
+      {
+        "word": "memancar",
+        "affix": "meN-",
+        "gloss": "喷出；发光"
+      },
+      {
+        "word": "memancarkan",
+        "affix": "meN-...-kan",
+        "gloss": "发射；播送；喷射"
+      },
+      {
+        "word": "pancaran",
+        "affix": "-an",
+        "gloss": "射出的光、水流或信号"
+      },
+      {
+        "word": "pemancaran",
+        "affix": "peN-...-an",
+        "gloss": "发射；播送的过程"
+      }
+    ],
+    "root_jawi": "ڤمانچر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "发射、放射或喷射某种能量、信号或物质的事物；亦用于修饰发射设备或发射站。",
+      "en_definition": "Something that emits or transmits; also used attributively of transmitting equipment or facilities.",
+      "ms_definition": "Sesuatu yang mengeluarkan atau menyiarkan tenaga, isyarat atau bahan.",
+      "nuances": "用于alat pemancar、stesen pemancar等结构时，说明设备或设施具有发射功能。依据[DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pemancar)释义归纳。",
+      "collocations": [
+        {
+          "ms": "stesen pemancar",
+          "zh": "发射站",
+          "en": "transmitting station"
+        },
+        {
+          "ms": "alat pemancar",
+          "zh": "发射设备",
+          "en": "transmitting device"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于发射无线电信号、放射光线或喷射水流等的装置。",
+      "en_definition": "A device that transmits signals, emits light or projects a substance such as water.",
+      "ms_definition": "Alat untuk menghantar isyarat, mengeluarkan cahaya atau memancutkan bahan seperti air.",
+      "nuances": "无线电语境通常译为“发射机”；pemancar air指喷水装置。pemancar是装置，pancaran则可指装置发出的信号、光或水流。",
+      "collocations": [
+        {
+          "ms": "pemancar radio",
+          "zh": "无线电发射机",
+          "en": "radio transmitter"
+        },
+        {
+          "ms": "pemancar air",
+          "zh": "喷水装置",
+          "en": "water jet device"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kerja penyelenggaraan pemancar radio itu dijadualkan selesai sebelum tengah hari.",
+      "zh": "该无线电发射机的维护工作预计于中午前完成。",
+      "en": "Maintenance of the radio transmitter is scheduled to be completed before noon."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pemancar kat bukit tu dah elok ke?",
+      "ms_standard": "Adakah pemancar di bukit itu sudah berfungsi dengan baik?",
+      "zh": "山上那个发射机修好了吗？",
+      "en": "Is the transmitter up on the hill working properly now?",
+      "spoken_features": [
+        "kat对应表示地点的di",
+        "tu是itu的口语缩略形式",
+        "dah是sudah的口语缩略形式",
+        "句末ke表示口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pemancar kat bukit tu dah elok ke?",
+          "ms_standard": "Adakah pemancar di bukit itu sudah berfungsi dengan baik?",
+          "zh": "山上那个发射机修好了吗？",
+          "en": "Is the transmitter up on the hill working properly now?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, juruteknik baru baiki tadi. Siaran pun dah jelas.",
+          "ms_standard": "Ya, juruteknik baru sahaja membaikinya tadi. Siaran juga sudah jelas.",
+          "zh": "修好了，技术员刚修完，广播也清楚了。",
+          "en": "Yes, the technician just fixed it. The broadcast is clear now too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pemancar belongs to the Malay pancar family, whose meanings connect flowing water, shining light and transmitted sound. This shared image helps explain its technical applications: a transmitter sends a signal outward, just as a jet sends water outward. The connection is semantic and morphological; it does not establish when each technical meaning first appeared.",
+    "cognitive_memory_aid": "抓住pancar“向外射出”的画面：水向外喷、光向外照、信号向外发；pemancar就是负责发射的装置。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的技术词，适合新闻、维修报告及日常讨论；向技术人员询问时可说Boleh semak pemancar ini?",
+    "usage_etiquette": "先明确所指设备。发射机用pemancar，接收机用penerima；手机信号不好时，不宜未经确认就把故障归因于pemancar。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的技术词，适合新闻、维修报告及日常讨论；向技术人员询问时可说Boleh semak pemancar ini?",
+    "usage_etiquette": "先明确所指设备。发射机用pemancar，接收机用penerima；手机信号不好时，不宜未经确认就把故障归因于pemancar。"
+  }
+}

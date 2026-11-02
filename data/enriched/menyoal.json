@@ -1,0 +1,139 @@
+{
+  "headword": {
+    "word": "menyoal",
+    "syllables": "me.nyo.al",
+    "ipa": "/mə.ɲo.al/",
+    "jawi": "مڽوءال",
+    "frequency_rank": 5345,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyoal",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + soal → menyoal",
+    "pattern_note": "root_word 与 root_jawi 按资料包保留，但它们在此是检索词形；实际语言学词根为 soal（سوءال），menyoal 并非单纯词根。meN- 接 s 开头词根时变为 meny-，s 脱落；ny 表示 /ɲ/。",
+    "word_family": [
+      {
+        "word": "soal",
+        "affix": "∅",
+        "gloss": "问题；事项"
+      },
+      {
+        "word": "soalan",
+        "affix": "-an",
+        "gloss": "问题；试题"
+      },
+      {
+        "word": "penyoal",
+        "affix": "peN-",
+        "gloss": "提问者"
+      },
+      {
+        "word": "penyoalan",
+        "affix": "peN-...-an",
+        "gloss": "提问；询问过程"
+      },
+      {
+        "word": "mempersoalkan",
+        "affix": "memper-...-kan",
+        "gloss": "质疑；提出讨论"
+      }
+    ],
+    "root_jawi": "مڽوءال"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "向某人提出问题，以获取信息、检验理解或查明情况；提问、询问。",
+      "en_definition": "To ask someone questions in order to obtain information, test understanding, or establish facts.",
+      "ms_definition": "Mengemukakan pertanyaan, memberi soalan, menanya.",
+      "nuances": "可用于课堂提问，也可用于记者询问或警方讯问；是否具有审问意味取决于情境。menyoal seseorang tentang sesuatu 表示“就某事询问某人”。质疑某事本身通常用 mempersoalkan。参照 [DBP PRPM：menyoal](https://prpm.dbp.gov.my/cari1?keyword=menyoal)。",
+      "collocations": [
+        {
+          "ms": "menyoal murid",
+          "zh": "向学生提问",
+          "en": "question pupils"
+        },
+        {
+          "ms": "menyoal suspek",
+          "zh": "讯问嫌疑人",
+          "en": "question a suspect"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "在固定短语 menyoal balas 中，指就已提供的证言进一步盘问，以检验其真实性；交叉询问。",
+      "en_definition": "In menyoal balas, to cross-examine a witness in order to test their testimony.",
+      "ms_definition": "Menyoal pemberi keterangan untuk memastikan kesahihan keterangannya.",
+      "nuances": "此义属于完整短语 menyoal balas；balas 在这里不表示随口回问，也不能把普通提问一概译作交叉询问。参照 [DBP PRPM：menyoal](https://prpm.dbp.gov.my/cari1?keyword=menyoal)。",
+      "collocations": [
+        {
+          "ms": "menyoal balas saksi",
+          "zh": "交叉询问证人",
+          "en": "cross-examine a witness"
+        },
+        {
+          "ms": "menyoal balas saksi pihak lawan",
+          "zh": "交叉询问对方证人",
+          "en": "cross-examine the opposing party's witness"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pegawai penyiasat menyoal beberapa orang saksi untuk mendapatkan maklumat lanjut tentang kejadian itu.",
+      "zh": "调查人员询问了数名证人，以获取有关该事件的进一步资料。",
+      "en": "The investigating officer questioned several witnesses to obtain further information about the incident."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Cikgu dah menyoal aku tadi, nasib baik aku sempat ulang kaji.",
+      "ms_standard": "Cikgu sudah menyoal saya tadi. Nasib baik saya sempat mengulang kaji pelajaran.",
+      "zh": "老师刚才问到我了，还好我来得及复习。",
+      "en": "The teacher asked me some questions earlier. Luckily, I'd had time to revise.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "aku 用于关系熟悉的同辈之间，标准对应形式为 saya",
+        "ulang kaji 在口语中省略主动词缀，标准形式为 mengulang kaji",
+        "tadi 表示不久前，常用于口头叙事"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Cikgu dah menyoal aku tadi. Aku ingat dia nak tanya definisi je.",
+          "ms_standard": "Cikgu sudah menyoal saya tadi. Saya menyangka beliau hanya hendak bertanya tentang definisi.",
+          "zh": "老师刚才问到我了。我还以为他只想问定义呢。",
+          "en": "The teacher questioned me earlier. I thought he was only going to ask for the definition."
+        },
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Lepas tu dia minta contoh sekali ke? Nasib baik kau dah ulang kaji!",
+          "ms_standard": "Selepas itu, adakah beliau turut meminta contoh? Nasib baik kamu sudah mengulang kaji pelajaran!",
+          "zh": "然后他还要你举例吗？还好你已经复习了！",
+          "en": "Did he ask for an example too? Good thing you'd revised!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The word family centres on soal, a question or matter under discussion. Malay morphology gives it several roles: soalan is a question, penyoal a questioner, and menyoal the act of questioning. Classroom exchanges and investigative interviews therefore share one lexical foundation. The family also distinguishes asking for information from mempersoalkan, which can mean raising an issue for debate. [DBP PRPM：soal 词族](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menanya)",
+    "cognitive_memory_aid": "soal＝问题；s 遇到 meN- 后让位给 ny：soal → menyoal，意思就是把问题问出来。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "menyoal 容易让人想到连续提问、课堂考问或正式询问。向陌生人或长辈礼貌打听时，Boleh saya bertanya…? 通常更柔和。",
+    "usage_etiquette": "课堂、采访及事实调查中使用自然。不要把 menyoal 自动理解为冒犯权威；但连续追问收入、婚姻或家庭隐私，仍可能让对方感到被盘问。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "menyoal 容易让人想到连续提问、课堂考问或正式询问。向陌生人或长辈礼貌打听时，Boleh saya bertanya…? 通常更柔和。",
+    "usage_etiquette": "课堂、采访及事实调查中使用自然。不要把 menyoal 自动理解为冒犯权威；但连续追问收入、婚姻或家庭隐私，仍可能让对方感到被盘问。"
+  }
+}

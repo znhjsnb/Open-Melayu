@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "gear",
+    "syllables": "ge.ar",
+    "ipa": "/ɡe.ar/",
+    "jawi": "ݢيار",
+    "frequency_rank": 5299,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "gear",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + gear → gear",
+    "pattern_note": "英语借词，整词作为独立词素记忆。输入包未给音节；此处按标准分读补为 ge.ar，e 为 e taling /e/。DBP 将 gear 列为相邻元音分读的例子，参见 [DBP：vokal berganding](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berganding)。",
+    "word_family": [
+      {
+        "word": "menggear",
+        "affix": "meN-",
+        "gloss": "使用齿轮或挡位"
+      },
+      {
+        "word": "penggearan",
+        "affix": "peN-...-an",
+        "gloss": "齿轮传动；齿轮配置"
+      }
+    ],
+    "root_jawi": "ݢيار"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "齿轮或齿轮组；通过齿的啮合传递动力，并改变转速、转矩或运动方向的机械装置。",
+      "en_definition": "A toothed wheel or arrangement of toothed wheels that transmits power and changes speed, torque, or direction.",
+      "ms_definition": "Roda bergigi atau susunan roda bergigi yang memindahkan kuasa serta mengubah kelajuan atau arah gerakan.",
+      "nuances": "机械语境可指单个齿轮，也可指传动齿轮组；单个齿轮还可明确称为 roda gear。释义依据 [DBP PRPM：gear](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gear)。",
+      "collocations": [
+        {
+          "ms": "roda gear",
+          "zh": "齿轮",
+          "en": "a gear wheel"
+        },
+        {
+          "ms": "sistem gear",
+          "zh": "齿轮传动系统",
+          "en": "a gear system"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "挡；挡位；车辆或机器传动系统所选用的传动比或运行挡位。",
+      "en_definition": "A selected transmission ratio or operating position in a vehicle or machine.",
+      "ms_definition": "Nisbah atau kedudukan dalam sistem transmisi yang dipilih untuk menentukan kelajuan dan daya gerakan.",
+      "nuances": "驾驶语境下 menukar gear 是换挡，gear rendah 是低挡，gear tinggi 是高挡。gear undur 表示倒挡；gear 本身不等于换挡杆，后者可称 tuil gear。",
+      "collocations": [
+        {
+          "ms": "menukar gear",
+          "zh": "换挡",
+          "en": "to change gear"
+        },
+        {
+          "ms": "gear rendah",
+          "zh": "低挡",
+          "en": "a low gear"
+        },
+        {
+          "ms": "gear tinggi",
+          "zh": "高挡",
+          "en": "a high gear"
+        },
+        {
+          "ms": "gear undur",
+          "zh": "倒挡",
+          "en": "reverse gear"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pemeriksaan mendapati bahawa salah satu gear dalam sistem transmisi telah haus dan perlu diganti.",
+      "zh": "检查发现，传动系统中的一个齿轮已经磨损，需要更换。",
+      "en": "The inspection found that one of the gears in the transmission system was worn and needed replacing."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kereta ni susah nak masuk gear satu lah.",
+      "ms_standard": "Kereta ini sukar dimasukkan ke gear satu.",
+      "zh": "这车一挡很难挂进去啊。",
+      "en": "This car is really hard to get into first gear.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式。",
+        "susah nak 对应 sukar untuk。",
+        "masuk gear 是常见驾驶口语表达。",
+        "句末 lah 在这里突出不满或困扰，不能机械译为礼貌标记。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kereta ni susah nak masuk gear satu lah.",
+          "ms_standard": "Kereta ini sukar dimasukkan ke gear satu.",
+          "zh": "这车一挡很难挂进去啊。",
+          "en": "This car is really hard to get into first gear."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah tekan klac sampai habis ke? Kalau masih susah, jangan paksa.",
+          "ms_standard": "Adakah kamu sudah menekan pedal klac sepenuhnya? Jika masih sukar, jangan paksa tuil gear itu.",
+          "zh": "离合踩到底了吗？还是难挂的话，别硬来。",
+          "en": "Have you pressed the clutch all the way down? If it still won't go in, don't force it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Gear entered Malay as an English technical loanword and became an ordinary word of workshops, machinery, and driving. Malay grammar treats it as a usable base: menggear means to use gears, while penggearan names gearing. Its mechanical meaning remains central; English uses referring broadly to clothing or equipment should not automatically be transferred into Malay.",
+    "cognitive_memory_aid": "看到 gear，就想车上的“挡”和机器里的“齿轮”：换挡 menukar gear，齿轮 roda gear。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是标准马来语认可的技术借词，正式报告也可使用。对司机或维修人员提出问题时，以 Boleh periksa gear ini?（可以检查这个齿轮／挡位系统吗？）开口较自然。",
+    "usage_etiquette": "维修沟通时应区分齿轮磨损、换挡困难和换挡杆故障。马来语中的 gear 主要用于机械与车辆语境，英语 camping gear 一类的装备义不宜直接套用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是标准马来语认可的技术借词，正式报告也可使用。对司机或维修人员提出问题时，以 Boleh periksa gear ini?（可以检查这个齿轮／挡位系统吗？）开口较自然。",
+    "usage_etiquette": "维修沟通时应区分齿轮磨损、换挡困难和换挡杆故障。马来语中的 gear 主要用于机械与车辆语境，英语 camping gear 一类的装备义不宜直接套用。"
+  }
+}

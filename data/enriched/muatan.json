@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "muatan",
+    "syllables": "mua.tan",
+    "ipa": "/mu.a.tan/",
+    "jawi": "مواتن",
+    "frequency_rank": 5344,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "muat",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "muat + -an → muatan",
+    "pattern_note": "-an 构成表示所装之物或装载量的名词，词根 t 保留。保留资料包分节 mua.tan；清晰发音时 u、a 可分属相邻音节，读作 /mu.a.tan/，不是把 ua 当作固定双元音。",
+    "word_family": [
+      {
+        "word": "memuatkan",
+        "affix": "meN-...-kan",
+        "gloss": "装入；容纳；刊载"
+      },
+      {
+        "word": "memuat",
+        "affix": "meN-",
+        "gloss": "装载；载有"
+      },
+      {
+        "word": "termuat",
+        "affix": "ter-",
+        "gloss": "装得下；载于其中"
+      }
+    ],
+    "root_jawi": "موات"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "由货车、船舶等运载的货物；载荷。",
+      "en_definition": "Goods carried by a vehicle or vessel; a load or cargo.",
+      "ms_definition": "Barang-barang yang dibawa; isi kapal dan sebagainya.",
+      "nuances": "指被运载的东西，不等于运输工具本身，也不等于运费。muatan penuh 强调满载，lebihan muatan 表示超出装载限度。参照 [DBP PRPM：muatan](https://prpm.dbp.gov.my/Cari1?d=28648&keyword=muatan)。",
+      "collocations": [
+        {
+          "ms": "muatan lori",
+          "zh": "货车载货",
+          "en": "a lorry's load"
+        },
+        {
+          "ms": "muatan penuh",
+          "zh": "满载",
+          "en": "a full load"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "容器或运输工具能够容纳的数量或体积；容量、载量。",
+      "en_definition": "The quantity or volume that a container or vehicle can hold; capacity.",
+      "ms_definition": "Jumlah atau isi padu yang dapat ditampung oleh sesuatu bekas atau kenderaan.",
+      "nuances": "此为容量用法，须与实际装载的货物区分。muatan maksimum 是上限，muatan semasa 是当前载量。容量义见 [DBP《英马词典》：capacity](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=capacity)。",
+      "collocations": [
+        {
+          "ms": "muatan maksimum",
+          "zh": "最大载量",
+          "en": "maximum capacity"
+        },
+        {
+          "ms": "had muatan",
+          "zh": "装载限度",
+          "en": "load limit"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "在热学术语中表示物体升温所需的热量与温升之比；muatan haba 指热容量，muatan haba tentu 指比热容。",
+      "en_definition": "In thermal terminology, capacity to absorb heat: muatan haba means heat capacity, and muatan haba tentu means specific heat capacity.",
+      "ms_definition": "Dalam istilah muatan haba, kuantiti haba yang diperlukan untuk menaikkan suhu sesuatu bahan sebanyak satu kelvin.",
+      "nuances": "这是固定术语中的专门用法，不能脱离 haba 单独把 muatan 译成“热容量”。muatan haba 常用单位为 J/K，muatan haba tentu 常用单位为 J/(kg·K)。术语参照 [DBP PRPM：muatan](https://prpm.dbp.gov.my/Cari1?d=28648&keyword=muatan)。",
+      "collocations": [
+        {
+          "ms": "muatan haba",
+          "zh": "热容量",
+          "en": "heat capacity"
+        },
+        {
+          "ms": "muatan haba tentu",
+          "zh": "比热容",
+          "en": "specific heat capacity"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Penyelia memastikan berat muatan lori tidak melebihi had yang ditetapkan sebelum penghantaran dilakukan.",
+      "zh": "主管在发货前确认货车载货重量未超过规定限度。",
+      "en": "The supervisor ensures that the lorry's load does not exceed the specified limit before dispatch."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Muatan van ni dah penuh lah, kotak tu kita bawa kemudian je.",
+      "ms_standard": "Muatan van ini sudah penuh. Kotak itu kita bawa kemudian sahaja.",
+      "zh": "这辆面包车已经装满啦，那个箱子我们晚点再运吧。",
+      "en": "The van's already full. Let's take that box later.",
+      "spoken_features": [
+        "ni、tu 分别对应 ini、itu",
+        "dah 对应 sudah",
+        "lah 在此加强解释语气",
+        "je 对应 sahaja，表示限制或简化安排"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Muatan van ni dah penuh ke? Aku nak tambah satu kotak je.",
+          "ms_standard": "Adakah muatan van ini sudah penuh? Saya hendak menambah satu kotak sahaja.",
+          "zh": "这辆面包车装满了吗？我就想再放一个箱子。",
+          "en": "Is the van full already? I just want to add one box."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah penuh lah. Letak kat rumah dulu, nanti kita datang ambil.",
+          "ms_standard": "Muatan van sudah penuh. Letakkan kotak itu di rumah dahulu; kita akan datang mengambilnya kemudian.",
+          "zh": "已经满啦。先放家里，我们待会儿再来拿。",
+          "en": "It's full. Leave it at home for now; we'll come back for it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Muatan belongs to the muat family, concerned with fitting and containing. Its maritime associations remain visible in dictionary examples about unloading boats near an estuary and in pantun describing a heavily laden vessel. The same noun now serves road transport and technical compounds. These examples illustrate cultural continuity without establishing a precise date for the word's origin. [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=28648&keyword=muatan)",
+    "cognitive_memory_aid": "muat＝装得下；muat + -an＝装进去的东西或能装的量。脑中放一辆满载货车。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的物流和技术词。涉及乘客时通常用 penumpang 或 kapasiti penumpang；直接把人称为 muatan，日常交谈中可能显得把人当货物。",
+    "usage_etiquette": "适合搬家、配送、货运和容量说明。讨论载量时最好明确重量、体积或人数；“装得进去”与“未超过载重上限”是不同概念。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的物流和技术词。涉及乘客时通常用 penumpang 或 kapasiti penumpang；直接把人称为 muatan，日常交谈中可能显得把人当货物。",
+    "usage_etiquette": "适合搬家、配送、货运和容量说明。讨论载量时最好明确重量、体积或人数；“装得进去”与“未超过载重上限”是不同概念。"
+  }
+}
