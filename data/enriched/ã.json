@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "ã",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 12923,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ã",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "a + ◌̃ → ã（字符组合，不是马来语构词）",
+    "pattern_note": "is_root 仅保留输入包的未拆分标记。ã 是带波浪号的拉丁字母，不能据此认定为马来语词根；没有上下文时也不能确定它是否来自外语文本或字符损坏。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "带波浪号的小写拉丁字母 a，即 Unicode 字符 U+00E3；此处仅作为被谈论的字符，不具有已核实的马来语独立词义。",
+      "en_definition": "The Latin small letter a with tilde, Unicode U+00E3, mentioned as a character rather than an established Malay word.",
+      "ms_definition": "Huruf kecil Latin a yang bertanda tilde, berkod Unicode U+00E3; digunakan di sini sebagai nama atau sebutan bagi aksara.",
+      "nuances": "noun 只描述字符被引用时的名词性用法，不表示该字符本身属于马来语名词词汇。不能擅自释为啊、某个语气词或特定乱码的还原结果。以下为字符讨论中的说明性组合，未经频率统计。字符身份见 [Unicode 字符表](https://www.unicode.org/charts/PDF/U0080.pdf)。",
+      "collocations": [
+        {
+          "ms": "aksara ã",
+          "zh": "字符 ã",
+          "en": "the character ã"
+        },
+        {
+          "ms": "huruf ã",
+          "zh": "字母 ã",
+          "en": "the letter ã"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 文本校对",
+      "ms": "Penyunting meminta penulis menyemak aksara ã dalam dokumen asal.",
+      "zh": "编辑请作者核查原始文件中的字符 ã。",
+      "en": "The editor asked the author to check the character ã in the original document."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 核对文字",
+      "ms_spoken": "Kenapa ada ã kat sini?",
+      "ms_standard": "Mengapakah terdapat aksara ã di sini?",
+      "zh": "这里怎么有个 ã？",
+      "en": "Why is there an ã here?",
+      "spoken_features": [
+        "kat 对应标准语的 di",
+        "kenapa 是日常会话中常用的疑问表达",
+        "问句省略正式疑问标记"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Kenapa ada ã kat sini? Aku baru perasan je.",
+          "ms_standard": "Mengapakah terdapat aksara ã di sini? Saya baru menyedarinya.",
+          "zh": "这里怎么有个 ã？我刚刚才注意到。",
+          "en": "Why is there an ã here? I only just noticed it."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku pun tak pasti. Nak semak fail asal dulu.",
+          "ms_standard": "Saya juga tidak pasti. Saya mahu menyemak fail asal terlebih dahulu.",
+          "zh": "我也不确定，想先查一下原文件。",
+          "en": "I'm not sure either. I'll check the original file first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The character ã combines the Latin letter a with a tilde. Unicode represents it both as a precomposed character and as an equivalent sequence of a plus a combining tilde. Its presence in a Malay text may reflect a foreign name, quotation, transcription, or text problem; the isolated packet cannot establish which explanation applies.",
+    "cognitive_memory_aid": "a 头上多一道波浪：先认作“带波浪号的 a”，再看上下文；不要直接背成马来语单词。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "校对他人的姓名或外语引文时，先核对原文，避免把合法的附加符号直接当作错误。",
+    "usage_etiquette": "适用于字符、拼写和文本显示讨论；缺少上下文时，不赋予它固定的口语语气或社会含义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "校对他人的姓名或外语引文时，先核对原文，避免把合法的附加符号直接当作错误。",
+    "usage_etiquette": "适用于字符、拼写和文本显示讨论；缺少上下文时，不赋予它固定的口语语气或社会含义。"
+  }
+}

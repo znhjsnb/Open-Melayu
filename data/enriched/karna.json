@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "karna",
+    "syllables": null,
+    "ipa": "/kar.na/",
+    "jawi": null,
+    "frequency_rank": 12911,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "karna",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + karna → karna；标准对应形式：kerana",
+    "pattern_note": "按数据包作为独立词形处理，无现代派生词缀；它是 kerana 的口语变体，不能拆成 kar- 与 -na。下列词族项目属于对应形式及其附着形式，并非由 karna 规则派生。",
+    "word_family": [
+      {
+        "word": "kerana",
+        "affix": "∅",
+        "gloss": "因为；karna 的标准对应形式"
+      },
+      {
+        "word": "kerananya",
+        "affix": "-nya",
+        "gloss": "因为他／她／它；由于此事"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "因为；由于。口语中用于引出某种情况发生的原因，相当于标准语 kerana。",
+      "en_definition": "Because; a colloquial variant of kerana introducing a reason or cause.",
+      "ms_definition": "Bentuk bahasa percakapan bagi kerana, yang menghubungkan sesuatu keadaan dengan sebabnya.",
+      "nuances": "DBP 明确标为 bp，即 bahasa percakapan。马来西亚正式写作使用 kerana；不能仅凭词形就将其判定为印尼语借词。status 字段按指定结构保留，不表示 karna 属于正式书面语。[DBP：karna 及用法答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=karna)",
+      "collocations": [
+        {
+          "ms": "karna hujan",
+          "zh": "因为下雨",
+          "en": "because of the rain"
+        },
+        {
+          "ms": "karna tak tahu",
+          "zh": "因为不知道",
+          "en": "because someone does not know"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场文件校对 / 标准用语说明",
+      "ms": "Dalam laporan rasmi, bentuk percakapan “karna” hendaklah digantikan dengan “kerana”.",
+      "zh": "在正式报告中，应将口语形式 karna 改为 kerana。",
+      "en": "In an official report, the colloquial form “karna” should be replaced with “kerana”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友解释迟到",
+      "ms_spoken": "Aku lambat karna hujan lebat kat sini.",
+      "ms_standard": "Saya lewat kerana hujan lebat di sini.",
+      "zh": "我会晚点，这边雨下得很大。",
+      "en": "I'm running late because it's pouring here.",
+      "spoken_features": [
+        "karna 为 DBP 标记的口语变体；此例展示该词形，不表示所有马来西亚说话人都惯用它",
+        "kat 对应表示地点的 di",
+        "aku 用于熟人之间",
+        "je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku lambat karna hujan lebat kat sini.",
+          "ms_standard": "Saya lewat kerana hujan lebat di sini.",
+          "zh": "我会晚点，这边雨下得很大。",
+          "en": "I'm running late because it's pouring here."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tak apa, aku tunggu kat kafe je. Hati-hati jalan.",
+          "ms_standard": "Tidak mengapa, saya akan menunggu di kafe sahaja. Berhati-hatilah dalam perjalanan.",
+          "zh": "没事，我就在咖啡馆等。路上小心。",
+          "en": "No worries, I'll wait at the café. Take care on the way."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Karna belongs with standard Malay kerana, whose history reaches back to Sanskrit kāraṇa, meaning cause or reason. Research on Malay etymology identifies related historical spellings in early Malay texts. Modern DBP nevertheless classifies karna specifically as conversational Malay: its historical connections do not make it the preferred spelling for a Malaysian school essay or official report. [Malay etymology study](https://e-journal.uum.edu.my/index.php/rentas/article/download/18918/4751)",
+    "cognitive_memory_aid": "把 karna 与 kerana 成对记：两者都引出“原因”；聊天遇到 karna，正式写作换回 kerana。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "karna 本身不失礼，但在求职信、学校作文及公务文件中会显得口语化。正式说明原因时使用 kerana。",
+    "usage_etiquette": "可用于呈现人物口吻或保留原始聊天文字。日常马来西亚交流也常用 kerana 或口语 sebab，不必为了显得自然而刻意使用 karna。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "karna 本身不失礼，但在求职信、学校作文及公务文件中会显得口语化。正式说明原因时使用 kerana。",
+    "usage_etiquette": "可用于呈现人物口吻或保留原始聊天文字。日常马来西亚交流也常用 kerana 或口语 sebab，不必为了显得自然而刻意使用 karna。"
+  }
+}

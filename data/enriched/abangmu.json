@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "abangmu",
+    "syllables": null,
+    "ipa": "/abaŋmu/",
+    "jawi": "ابڠ",
+    "frequency_rank": 12981,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "abang",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "abang + -mu → abangmu",
+    "pattern_note": "-mu 是第二人称附着代词，此处表示“你的”，并非改变词类的派生后缀；为适配字段归入 suffix。连写后 /ŋ/ 保留。syllables=null 按数据包保留，实际可分 a.bang.mu。headword.jawi 按输入保留根词 ابڠ；完整 abangmu 应写作 ابڠمو。连写规则参见 [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=serangkai)。",
+    "word_family": [
+      {
+        "word": "abangku",
+        "affix": "-ku（附着代词）",
+        "gloss": "我的哥哥"
+      },
+      {
+        "word": "abangnya",
+        "affix": "-nya（附着代词）",
+        "gloss": "他或她的哥哥"
+      },
+      {
+        "word": "berabang",
+        "affix": "ber-",
+        "gloss": "有哥哥；称某人为哥哥"
+      }
+    ],
+    "root_jawi": "ابڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的哥哥；年龄比你大的男性兄弟，具体是否同父同母由上下文决定。",
+      "en_definition": "Your elder brother.",
+      "ms_definition": "Saudara lelaki yang lebih tua daripada kamu; abang kepada orang yang dilawan bercakap.",
+      "nuances": "abangmu 是 abang 加领属代词 -mu 的组合，不是独立的新亲属称谓。不能仅凭 abangmu 就断定是亲哥哥；明确同父同母可说 abang kandungmu。根词义参见 [DBP](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=abang)。",
+      "collocations": [
+        {
+          "ms": "abangmu yang sulung",
+          "zh": "你的大哥",
+          "en": "your eldest brother"
+        },
+        {
+          "ms": "abangmu yang sudah berkahwin",
+          "zh": "你那位已婚的哥哥",
+          "en": "your elder brother who is married"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你的丈夫；仅在上下文明确沿用妻子对丈夫的 abang 称呼时成立。",
+      "en_definition": "Your husband, where abang is being used as a spousal term.",
+      "ms_definition": "Suami kamu, apabila kata abang digunakan sebagai panggilan kepada suami.",
+      "nuances": "属于依赖关系与语境的延伸用法，不能见到 abangmu 就自动译作“你丈夫”。下列是语境搭配，脱离婚姻语境时仍可能指哥哥；明确表达“你的丈夫”用 suamimu。",
+      "collocations": [
+        {
+          "ms": "abangmu yang tercinta",
+          "zh": "你深爱的丈夫（配偶语境）",
+          "en": "your beloved husband, in a spousal context"
+        },
+        {
+          "ms": "abangmu di rumah",
+          "zh": "你在家的丈夫（配偶语境）",
+          "en": "your husband at home, in a spousal context"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 校方对学生的书面通知",
+      "ms": "Sila minta abangmu menghubungi pihak sekolah sebelum hari Jumaat.",
+      "zh": "请让你的哥哥在星期五之前联系校方。",
+      "en": "Please ask your elder brother to contact the school before Friday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人之间的接送安排",
+      "ms_spoken": "Abangmu dah sampai kat kedai ke?",
+      "ms_standard": "Adakah abang kamu sudah sampai di kedai?",
+      "zh": "你哥已经到店里了吗？",
+      "en": "Has your brother arrived at the shop yet?",
+      "spoken_features": [
+        "dah 对应 sudah；kat 在此对应 di。",
+        "句末 ke 构成口语疑问。",
+        "abangmu 合乎标准连写规则，但不少马来西亚日常对话更常用 abang awak 或 abang kau；-mu 的自然程度随地区和个人习惯变化。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Abangmu dah sampai kat kedai ke? Aku nak tumpang kereta dia.",
+          "ms_standard": "Adakah abang kamu sudah sampai di kedai? Saya hendak menumpang keretanya.",
+          "zh": "你哥到店里了吗？我想搭他的车。",
+          "en": "Has your brother reached the shop yet? I'd like to get a lift with him."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, dia tunggu kat luar je. Jom!",
+          "ms_standard": "Sudah. Dia sedang menunggu di luar. Mari kita pergi!",
+          "zh": "到了，他就在外面等着。走吧！",
+          "en": "Yes, he's waiting just outside. Let's go!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay kinship vocabulary extends beyond literal family relationships: abang can identify an elder brother, address a slightly older man, or serve as a wife's term for her husband. Abangmu combines that relational word with the bound pronoun -mu. Context supplies the relationship, while -mu identifies the person addressed as its reference point. See [DBP's abang entry](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=abang).",
+    "cognitive_memory_aid": "abang＝哥哥，-mu＝你的；abang + mu，一拼就是“你的哥哥”。配偶语境另看上下文。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 不是敬称。面对长辈、上司或不熟悉的人，通常用姓名、职衔或适当称谓表达关系；不要把 -mu 当作正式礼貌标记。",
+    "usage_etiquette": "向稍年长男子打招呼时可视关系称 abang 或 bang，但 abangmu 表示领属关系，不能直接代替这种招呼。称丈夫为 abang 带亲密色彩；谈论别人的配偶而关系不熟时，使用 suami 更清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 不是敬称。面对长辈、上司或不熟悉的人，通常用姓名、职衔或适当称谓表达关系；不要把 -mu 当作正式礼貌标记。",
+    "usage_etiquette": "向稍年长男子打招呼时可视关系称 abang 或 bang，但 abangmu 表示领属关系，不能直接代替这种招呼。称丈夫为 abang 带亲密色彩；谈论别人的配偶而关系不熟时，使用 suami 更清楚。"
+  }
+}

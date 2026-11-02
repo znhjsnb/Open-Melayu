@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "penyakitnya",
+    "syllables": null,
+    "ipa": "/pə.ɲa.kit.ɲa/",
+    "jawi": "ڤڽاکيت",
+    "frequency_rank": 12896,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penyakit",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "penyakit + -nya → penyakitnya; peN- + sakit → penyakit",
+    "pattern_note": "依数据包保留直接词基 penyakit；进一步可分析为 peN- + sakit，词根首音 s 脱落，鼻音实现为 ny /ɲ/。外层 -nya 是第三人称领属或回指附着语素。数据包 Jawi 仅对应 penyakit，未包含 -nya；syllables 保留原始 null。",
+    "word_family": [
+      {
+        "word": "sakit",
+        "affix": null,
+        "gloss": "生病；疼痛"
+      },
+      {
+        "word": "berpenyakit",
+        "affix": "ber-",
+        "gloss": "患有疾病"
+      }
+    ],
+    "root_jawi": "ڤڽاکيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他、她或所指生物患有的疾病；上下文已确定的那种疾病。",
+      "en_definition": "The disease or illness affecting him, her, or the organism referred to; the disease already identified in context.",
+      "ms_definition": "Penyakit yang dihidapi oleh orang atau hidupan yang dirujuk oleh -nya, atau penyakit tertentu yang telah disebut.",
+      "nuances": "penyakit 指疾病或病症，不能一律译为疼痛。-nya 可表示领属，也可回指已知对象；不表性别。马来文释义为依据 DBP 词基义项所作的编辑性改写。[DBP：penyakit](https://prpm.dbp.gov.my/Cari1?d=274404&keyword=penyakit)",
+      "collocations": [
+        {
+          "ms": "merawat penyakitnya",
+          "zh": "治疗他／她的疾病",
+          "en": "treat his or her illness"
+        },
+        {
+          "ms": "penyakitnya semakin teruk",
+          "zh": "他／她的病情日益加重",
+          "en": "his or her illness is getting worse"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "所指个人、群体或制度中反复造成困扰的弊病、恶习或问题。",
+      "en_definition": "A persistent harmful habit, failing, or social ill associated with the person, group, or system referred to.",
+      "ms_definition": "Secara kiasan, keburukan, tabiat atau masalah yang menyusahkan dan dikaitkan dengan pihak yang dirujuk oleh -nya.",
+      "nuances": "这是比喻义，例如把反复迟到称作某人的 penyakit。并非医学诊断，语气可能带批评或挖苦。DBP 另收词基 penyakit 的印尼语辱骂义，标作 ki、Id；不宜当作本词在马来西亚的一般用法。[DBP：penyakit](https://prpm.dbp.gov.my/Cari1?d=274404&keyword=penyakit)",
+      "collocations": [
+        {
+          "ms": "itulah penyakitnya",
+          "zh": "那就是他／她的老毛病",
+          "en": "that's his or her persistent failing"
+        },
+        {
+          "ms": "penyakitnya berulang lagi",
+          "zh": "他／她的老毛病又犯了",
+          "en": "his or her old bad habit has resurfaced"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pesakit itu masih menerima rawatan, dan perkembangan penyakitnya dipantau oleh pasukan perubatan.",
+      "zh": "该患者仍在接受治疗，医疗团队正监测其病情的发展。",
+      "en": "The patient is still receiving treatment, and the medical team is monitoring the progression of the illness."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Penyakitnya dah terkawal, tapi dia kena makan ubat lagi.",
+      "ms_standard": "Penyakitnya sudah terkawal, tetapi dia masih perlu mengambil ubat.",
+      "zh": "她的病已经控制住了，不过还得继续吃药。",
+      "en": "Her condition is under control now, but she still needs medication.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "tapi 对应 tetapi",
+        "kena 在这里表示需要或必须",
+        "makan ubat 是常见日常说法，正式文本也可用 mengambil ubat"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Penyakitnya dah terkawal, tapi dia kena makan ubat lagi.",
+          "ms_standard": "Penyakitnya sudah terkawal, tetapi dia masih perlu mengambil ubat.",
+          "zh": "她的病已经控制住了，不过还得继续吃药。",
+          "en": "Her condition is under control now, but she still needs medication."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Legalah dengar. Aku nak tanya khabar dia nanti.",
+          "ms_standard": "Saya berasa lega mendengarnya. Saya hendak bertanya khabar kepadanya nanti.",
+          "zh": "听到这个消息就放心了。我晚点问候她一下。",
+          "en": "That's a relief. I'll check in on her later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penyakit belongs to the Malay family built around sakit, meaning ill or painful. Its formation shows nasal substitution: peN- combines with sakit, replacing the initial s with ny. The resulting noun names illness, while figurative uses extend illness into a model for persistent personal or social problems. The final -nya adds contextual reference. [DBP](https://prpm.dbp.gov.my/Cari1?d=274404&keyword=penyakit)",
+    "cognitive_memory_aid": "先认出 sakit“病／痛”，再记 peN- 把 s 换成 ny，得到 penyakit“疾病”；最后 -nya 把病情连到前文的人或事物。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "询问病情时可先用 Bagaimana keadaannya sekarang?，比直接追问 Apakah penyakitnya? 更委婉。是否进一步说明疾病，应尊重当事人的意愿。",
+    "usage_etiquette": "比喻义可能贬低对方；对不熟悉的人、上级或患者，宜直接描述具体行为，避免把疾病词当作讥讽。谈论真实病情时，不将疾病与品格或责任混为一谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "询问病情时可先用 Bagaimana keadaannya sekarang?，比直接追问 Apakah penyakitnya? 更委婉。是否进一步说明疾病，应尊重当事人的意愿。",
+    "usage_etiquette": "比喻义可能贬低对方；对不熟悉的人、上级或患者，宜直接描述具体行为，避免把疾病词当作讥讽。谈论真实病情时，不将疾病与品格或责任混为一谈。"
+  }
+}

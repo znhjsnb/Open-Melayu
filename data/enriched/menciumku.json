@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "menciumku",
+    "syllables": null,
+    "ipa": "/mən.tʃi.um.ku/",
+    "jawi": "منچيوم",
+    "frequency_rank": 12925,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mencium",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "mencium + -ku → menciumku；底层构词：meN- + cium → mencium",
+    "pattern_note": "root_word 按输入包保留为直接基底 mencium，真正的基本词是 cium。meN- 在 c 前表现为 men-，c 保留；-ku 是 aku 的后附代词，此处表示动作对象“我”，严格说属于附着语而非派生后缀。输入 Jawi منچيوم 仅对应 mencium，尚未包含 -ku；完整形式可按构词写作 منچيومکو。official 表示规范构形，不表示已核实其具有独立词头。",
+    "word_family": [
+      {
+        "word": "cium",
+        "affix": "∅",
+        "gloss": "亲吻；闻"
+      },
+      {
+        "word": "mencium",
+        "affix": "meN-",
+        "gloss": "亲吻；嗅闻"
+      },
+      {
+        "word": "ciuman",
+        "affix": "-an",
+        "gloss": "吻；亲吻的动作"
+      },
+      {
+        "word": "tercium",
+        "affix": "ter-",
+        "gloss": "闻到；无意间亲到或被亲到"
+      }
+    ],
+    "root_jawi": "منچيوم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "亲吻我：用嘴唇接触我，以表达爱意、亲情或其他情感。",
+      "en_definition": "To kiss me.",
+      "ms_definition": "Mengucup aku dengan mengenakan bibir pada tubuhku.",
+      "nuances": "通常是最直接的理解，但时态须由上下文确定。-ku 表示宾语“我”，不是施事“我”，也不是独立的“我的吻”。本条马来语释义为依据 DBP 基词义所作的完整词形释义，并非官方逐字引文。基词义见 [DBP：mencium](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mencium)。以下为常见句法组合，未核实完整词形的搭配频率。",
+      "collocations": [
+        {
+          "ms": "memeluk dan menciumku",
+          "zh": "拥抱并亲吻我",
+          "en": "to hug and kiss me"
+        },
+        {
+          "ms": "menciumku dengan mesra",
+          "zh": "亲昵地吻我",
+          "en": "to kiss me affectionately"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "贴近我的脸颊、头顶等部位轻嗅，以表达亲昵。",
+      "en_definition": "To nuzzle and sniff me affectionately, especially on the cheek or head.",
+      "ms_definition": "Mendekatkan hidung pada pipi atau kepalaku lalu menyedut dengan mesra.",
+      "nuances": "对应 mencium 以鼻部贴近并轻嗅亲人的义项，实际动作不一定是嘴唇接触。常见于亲子或亲密叙述，译文应按具体动作选择“亲亲”“轻嗅”或“贴着脸亲昵”。",
+      "collocations": [
+        {
+          "ms": "ibu menciumku",
+          "zh": "母亲亲昵地轻嗅我",
+          "en": "my mother nuzzling me"
+        },
+        {
+          "ms": "mendakap dan menciumku",
+          "zh": "紧抱着我并亲昵地轻嗅",
+          "en": "to embrace and nuzzle me"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "嗅闻我：用鼻子闻我身上的气味。",
+      "en_definition": "To sniff me or smell my scent.",
+      "ms_definition": "Menghidu tubuhku untuk mengenal pasti atau mengetahui bauku.",
+      "nuances": "须由动物、气味或嗅闻动作等上下文支持，不能把所有 menciumku 都译为“吻我”。基词的察觉秘密、碰撞和享有等延伸义，不能脱离宾语适配条件直接移植到本词形。",
+      "collocations": [
+        {
+          "ms": "anjing itu menciumku",
+          "zh": "那只狗嗅闻我",
+          "en": "the dog sniffing me"
+        },
+        {
+          "ms": "mendekati dan menciumku",
+          "zh": "走近并嗅闻我",
+          "en": "to approach and sniff me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "出版 / 人物访谈引述",
+      "ms": "Dalam wawancara itu, beliau berkata, “Ibu memeluk dan menciumku sebelum aku berangkat melanjutkan pelajaran.”",
+      "zh": "在那次访谈中，他说：“出发去继续求学前，母亲拥抱并亲吻了我。”",
+      "en": "In the interview, the speaker said, “My mother hugged and kissed me before I left to continue my studies.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人分享孩子的举动",
+      "ms_spoken": "Tadi anak aku peluk aku, lepas tu dia menciumku. Manja betul dia hari ni.",
+      "ms_standard": "Tadi anak saya memeluk dan mencium saya. Dia sangat manja pada hari ini.",
+      "zh": "刚才我家孩子抱着我，还亲了我一下。今天特别黏人。",
+      "en": "My child hugged me and then gave me a kiss earlier. They're being so affectionate today.",
+      "spoken_features": [
+        "lepas tu 对应 selepas itu",
+        "hari ni 对应 hari ini",
+        "口语中更自然的宾语形式通常是 cium aku 或 cium saya；menciumku 带叙事或抒情色彩"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Tadi anak aku peluk aku, lepas tu dia menciumku. Manja betul dia hari ni.",
+          "ms_standard": "Tadi anak saya memeluk dan mencium saya. Dia sangat manja pada hari ini.",
+          "zh": "刚才我家孩子抱着我，还亲了我一下。今天特别黏人。",
+          "en": "My child hugged me and then gave me a kiss earlier. They're being so affectionate today."
+        },
+        {
+          "speaker": "Aina (妹妹)",
+          "ms_spoken": "Comelnya! Dia nak duduk dekat kau je agaknya.",
+          "ms_standard": "Comelnya! Agaknya dia hanya mahu berada dekat dengan kamu.",
+          "zh": "真可爱！看来就是想一直黏着你。",
+          "en": "That's adorable! I guess they just want to stay close to you."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menciumku is transparently formed from mencium and the attached pronoun -ku, meaning me in this construction. DBP records both smelling and kissing among the meanings of mencium, including affectionate contact with the nose. These related bodily actions explain its contextual ambiguity. The packet establishes this structure but does not establish a deeper historical origin for cium.",
+    "cognitive_memory_aid": "抓住尾巴 ku＝“我”：mencium + ku＝亲我或闻我；前面的主语才告诉你是谁在做动作。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲密叙述、文学或个人表达。面向陌生人、上级或正式办事场合，mencium saya 通常更合适。",
+    "usage_etiquette": "可描述亲子亲情、伴侣互动或动物嗅闻，具体含义依上下文判断。涉及身体接触时尊重对方意愿；马来西亚不同家庭和社群对公开亲昵的接受程度有所不同。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲密叙述、文学或个人表达。面向陌生人、上级或正式办事场合，mencium saya 通常更合适。",
+    "usage_etiquette": "可描述亲子亲情、伴侣互动或动物嗅闻，具体含义依上下文判断。涉及身体接触时尊重对方意愿；马来西亚不同家庭和社群对公开亲昵的接受程度有所不同。"
+  }
+}

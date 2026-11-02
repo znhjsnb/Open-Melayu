@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "dicuci",
+    "syllables": "di.cu.ci",
+    "ipa": "/ditʃutʃi/",
+    "jawi": null,
+    "frequency_rank": 12974,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "cuci",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + cuci → dicuci",
+    "pattern_note": "被动前缀 di- 与词根连写，不改变词根的词首辅音。输入包将 dicuci 标为词根有误；音节划分及 IPA 为补充分析，词头 Jawi 因输入缺失而保留 null。",
+    "word_family": [
+      {
+        "word": "mencuci",
+        "affix": "meN-",
+        "gloss": "清洗；清洁"
+      },
+      {
+        "word": "cucian",
+        "affix": "-an",
+        "gloss": "待洗或已洗物品；清洗结果"
+      },
+      {
+        "word": "pencuci",
+        "affix": "peN-",
+        "gloss": "清洁剂；清洁工具；清洗者"
+      },
+      {
+        "word": "pencucian",
+        "affix": "peN-...-an",
+        "gloss": "清洗过程"
+      }
+    ],
+    "root_jawi": "چوچي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被清洗；被用水等洗去污垢。",
+      "en_definition": "To be washed or cleaned with water or another cleaning liquid.",
+      "ms_definition": "Dibersihkan dengan air atau bahan pencuci; dibasuh.",
+      "nuances": "这是 mencuci 的被动形式，本身不表示动作已经完成；sudah、sedang、akan 分别表达完成、进行及将来。词义依据 [DBP：cuci](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=cuci)。",
+      "collocations": [
+        {
+          "ms": "pakaian dicuci",
+          "zh": "衣物被清洗",
+          "en": "clothes are washed"
+        },
+        {
+          "ms": "dicuci dengan sabun",
+          "zh": "用肥皂清洗",
+          "en": "washed with soap"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被擦净或以其他方式清洁；不限定必须用水。",
+      "en_definition": "To be cleaned by wiping or another method, not necessarily washing.",
+      "ms_definition": "Dibersihkan dengan mengesat, menyapu atau kaedah lain yang sesuai.",
+      "nuances": "用于桌面、设备或其他物件时，具体方法由上下文决定，不宜一律译为“水洗”。",
+      "collocations": [
+        {
+          "ms": "permukaan meja dicuci",
+          "zh": "桌面被清洁",
+          "en": "the tabletop is cleaned"
+        },
+        {
+          "ms": "dicuci hingga bersih",
+          "zh": "清洁至干净",
+          "en": "cleaned thoroughly"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "胶片被冲洗；照片经传统摄影工序冲印。",
+      "en_definition": "Of photographic film or photographs, to be developed or processed.",
+      "ms_definition": "Diproses untuk menghasilkan negatif filem atau gambar daripada negatif.",
+      "nuances": "属于传统摄影用语。现代口语 cuci gambar 也可泛指冲印照片，翻译时应依实际工序选择 develop 或 print。",
+      "collocations": [
+        {
+          "ms": "filem dicuci",
+          "zh": "胶片被冲洗",
+          "en": "film is developed"
+        },
+        {
+          "ms": "gambar dicuci",
+          "zh": "照片被冲印",
+          "en": "photographs are processed or printed"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua peralatan dapur hendaklah dicuci selepas digunakan.",
+      "zh": "所有厨房用具使用后均须清洗。",
+      "en": "All kitchen utensils must be washed after use."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Baju ni dah dicuci, kan?",
+      "ms_standard": "Baju ini sudah dicuci, bukan?",
+      "zh": "这件衣服已经洗过了，对吧？",
+      "en": "This shirt has been washed, right?",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略形式。",
+        "dah 是 sudah 的口语缩略形式。",
+        "句末 kan 用来寻求确认。",
+        "日常口语也常说 dah cuci；此处保留 dicuci 以展示被动形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Baju ni dah dicuci, kan?",
+          "ms_standard": "Baju ini sudah dicuci, bukan?",
+          "zh": "这件衣服洗过了，对吧？",
+          "en": "This shirt has been washed, right?"
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Dah, tinggal nak jemur je.",
+          "ms_standard": "Sudah, hanya perlu dijemur.",
+          "zh": "洗过了，就差晾起来。",
+          "en": "Yes, it just needs hanging out to dry."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dicuci is a grammatical formation rather than a separate borrowed root. Its history begins with cuci, the everyday verb for cleaning. Research on language contact connects cuci with Tamil cuci and ultimately Sanskrit śuci, associated with cleanliness and purity. Malay adds di- to present the object as undergoing the action. See [research on language contact](https://journals.openedition.org/archipel/pdf/490).",
+    "cognitive_memory_aid": "把 di- 想成“被”的标签：cuci 是“洗”，dicuci 就是“被洗”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "被动句适合说明清洁要求，可减少直接指责。对同事提出请求时可说 Sila pastikan peralatan ini dicuci。",
+    "usage_etiquette": "适用于家务、餐饮及工作场所。涉及宗教洁净时，普通清洗与特定净化程序须按语境区分。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "被动句适合说明清洁要求，可减少直接指责。对同事提出请求时可说 Sila pastikan peralatan ini dicuci。",
+    "usage_etiquette": "适用于家务、餐饮及工作场所。涉及宗教洁净时，普通清洗与特定净化程序须按语境区分。"
+  }
+}
