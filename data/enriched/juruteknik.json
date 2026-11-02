@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "juruteknik",
+    "syllables": "ju.ru.ték.nik",
+    "ipa": "/dʒu.ru.tek.nik/",
+    "jawi": "جوروتيکنيک",
+    "frequency_rank": 7130,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "juruteknik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "整词归一化：∅ + juruteknik → juruteknik；内部构词：juru- + teknik → juruteknik",
+    "pattern_note": "is_root 与 root_word 保留输入的整词归一化标记；语言学上实际可分析为 juru- + teknik，juru- 表示从事某项专门工作的人，拼合时无音变。té 中的 e 读 /e/。",
+    "word_family": [
+      {
+        "word": "teknik",
+        "affix": "∅",
+        "gloss": "技术；技巧；juruteknik 的构词基础"
+      },
+      {
+        "word": "juruteknik-juruteknik",
+        "affix": "penggandaan penuh",
+        "gloss": "多名技术员"
+      }
+    ],
+    "root_jawi": "جوروتيکنيک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "技术员；掌握机械、设备或某一技术领域的专门技能，从事安装、检测、维护或维修等工作的人。",
+      "en_definition": "A person skilled in the practical technical work of a particular field, including installing, testing, maintaining or repairing equipment.",
+      "ms_definition": "Orang yang ahli dalam hal selok-belok jentera dan lain-lain.",
+      "nuances": "指职业或岗位，不表示特定性别，也不自动等同于 jurutera（工程师）。可加 bidang 限定工作领域，如 juruteknik komputer。构词中的 juru- 连写。[DBP 词条及构词讨论](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=juruteknik)。",
+      "collocations": [
+        {
+          "ms": "juruteknik komputer",
+          "zh": "计算机技术员",
+          "en": "computer technician"
+        },
+        {
+          "ms": "juruteknik penyelenggaraan",
+          "zh": "维护技术员",
+          "en": "maintenance technician"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Juruteknik penyelenggaraan sedang memeriksa sistem pendingin hawa di bangunan tersebut.",
+      "zh": "维护技术员正在检查该楼的空调系统。",
+      "en": "The maintenance technician is inspecting the building's air-conditioning system."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Juruteknik tu dah datang ke? Aku nak guna komputer ni.",
+      "ms_standard": "Adakah juruteknik itu sudah datang? Saya hendak menggunakan komputer ini.",
+      "zh": "那个技术员来了吗？我还要用这台电脑呢。",
+      "en": "Has the technician arrived yet? I need to use this computer.",
+      "spoken_features": [
+        "tu 和 ni 分别对应 itu 和 ini。",
+        "dah 对应 sudah，nak 对应 hendak。",
+        "句末 ke 用于口语提问。",
+        "guna 在此对应标准书面语的 menggunakan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Juruteknik tu dah datang ke? Aku nak guna komputer ni.",
+          "ms_standard": "Adakah juruteknik itu sudah datang? Saya hendak menggunakan komputer ini.",
+          "zh": "那个技术员来了吗？我还要用这台电脑呢。",
+          "en": "Has the technician arrived yet? I need to use this computer."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah, dia tengah periksa kat bilik sebelah. Tunggu sekejap, ya.",
+          "ms_standard": "Ya, dia sudah datang dan sedang membuat pemeriksaan di bilik sebelah. Sila tunggu sebentar.",
+          "zh": "来了，他正在隔壁房间检查。稍等一下啊。",
+          "en": "Yes, he's checking it in the next room. Give him a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Juruteknik illustrates Malay's productive way of naming skilled occupations. The occupational element juru- combines with teknik to identify a person whose work involves technical expertise. The result belongs to a broader naming pattern rather than an indivisible historical root. A Malaysian terminology study lists juruteknik among professional terms formed with juru-. [Source: Universiti Kebangsaan Malaysia study](https://www.ukm.my/jatma/wp-content/uploads/makalah/jatma-2020-0801-01.pdf).",
+    "cognitive_memory_aid": "juru-＝专门做某项工作的人，teknik＝技术；合起来就是“做技术工作的人”——技术员。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "juruteknik 是正式、中性的职业名称。直接称呼工作人员时，使用 Encik、Puan 或其姓名通常更礼貌。",
+    "usage_etiquette": "适用于报修、招聘、工作分工和技术服务场景。应按实际岗位称呼，不因对方负责维修便把其职称一律写成 jurutera。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "juruteknik 是正式、中性的职业名称。直接称呼工作人员时，使用 Encik、Puan 或其姓名通常更礼貌。",
+    "usage_etiquette": "适用于报修、招聘、工作分工和技术服务场景。应按实际岗位称呼，不因对方负责维修便把其职称一律写成 jurutera。"
+  }
+}

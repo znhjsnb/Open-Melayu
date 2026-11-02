@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "rosakkannya",
+    "syllables": null,
+    "ipa": "/ro.saʔ.kan.ɲa/",
+    "jawi": null,
+    "frequency_rank": 7203,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "rosakkan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "rosakkan + -nya → rosakkannya；rosak + -kan → rosakkan",
+    "pattern_note": "按数据包保留 rosakkan，但它是直接词干，最终词根是 rosak。-kan 构成使动动词，-nya 在常见用法中是宾语附着形式，不是过去时标记。kk 来自词根末尾 k 与 -kan 的 k 相接；ny 读 /ɲ/。输入未提供 Jawi，保留 null。",
+    "word_family": [
+      {
+        "word": "merosakkan",
+        "affix": "meN-...-kan",
+        "gloss": "损坏；破坏"
+      },
+      {
+        "word": "kerosakan",
+        "affix": "ke-...-an",
+        "gloss": "损坏；故障"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把前文提到的东西弄坏、损坏或毁掉；常见于命令、禁止或省略主动前缀的口语。",
+      "en_definition": "To damage or break the previously mentioned thing; also used in commands and prohibitions.",
+      "ms_definition": "Menjadikan benda yang telah disebut itu rosak atau tidak dapat berfungsi dengan baik.",
+      "nuances": "例如 Jangan rosakkannya 意为“别把它弄坏”。正式主动陈述通常用 merosakkannya，如 Dia merosakkannya；口语 Dia rosakkannya 省略了 meN-。这里 -nya 承接前文宾语，不能理解为“他的损坏”。基本使动意义参见 [DBP PRPM：merosakkan](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=merosakkan)。本条马来语释义为据词根与结构编写的释义，并非独立 DBP 词条原文。",
+      "collocations": [
+        {
+          "ms": "jangan rosakkannya",
+          "zh": "别把它弄坏",
+          "en": "do not damage it"
+        },
+        {
+          "ms": "rosakkannya dengan sengaja",
+          "zh": "故意把它弄坏",
+          "en": "damage it deliberately"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "毁掉、损害前文提到的名誉、信任、关系或其他抽象事物。",
+      "en_definition": "To spoil, undermine, or ruin a previously mentioned reputation, relationship, or other abstract good.",
+      "ms_definition": "Menjejaskan atau menghancurkan perkara abstrak yang telah disebut, seperti nama baik, kepercayaan atau hubungan.",
+      "nuances": "宾语由上下文决定。例如前文谈及 nama baik，jangan rosakkannya 就是“别毁掉这份好名声”，不是损坏实体物品。正式主动陈述仍通常使用 merosakkannya。抽象引申依据 [DBP PRPM：rosak](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=rosak)。",
+      "collocations": [
+        {
+          "ms": "jangan rosakkannya dengan fitnah",
+          "zh": "别用诽谤毁掉它",
+          "en": "do not ruin it through slander"
+        },
+        {
+          "ms": "usah rosakkannya kerana marah",
+          "zh": "别因为生气而毁掉它",
+          "en": "do not ruin it out of anger"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场指示 / 提醒妥善使用设备",
+      "ms": "Peralatan ini dipinjam daripada pihak sekolah; sila gunakannya dengan cermat dan jangan rosakkannya.",
+      "zh": "这些设备借自校方，请小心使用，不要将其损坏。",
+      "en": "This equipment is on loan from the school; please use it carefully and do not damage it."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友借用相机",
+      "ms_spoken": "Kamera ni aku baru beli, jangan rosakkannya tau.",
+      "ms_standard": "Saya baru membeli kamera ini. Jangan rosakkannya.",
+      "zh": "这相机我刚买的，可别弄坏了啊。",
+      "en": "I only just bought this camera, so don't break it, okay?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "aku 用于熟人之间",
+        "tau 在这里用于提醒对方注意",
+        "日常口语也常用 jangan rosakkan kamera ni，直接重复宾语"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kamera ni aku baru beli, jangan rosakkannya tau.",
+          "ms_standard": "Saya baru membeli kamera ini. Jangan rosakkannya.",
+          "zh": "这相机我刚买的，可别弄坏了啊。",
+          "en": "I only just bought this camera, so don't break it, okay?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ya lah, aku nak ambil gambar je. Lepas tu aku simpan kat dalam beg.",
+          "ms_standard": "Baiklah, saya hanya mahu mengambil gambar. Selepas itu, saya akan menyimpan kamera ini di dalam beg.",
+          "zh": "知道啦，我就拍几张照片，拍完就放回包里。",
+          "en": "Okay, I'm just taking a few photos. I'll put it in the bag afterward."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates productive Malay word building. Rosak describes a damaged condition; -kan supplies the causative action, and attached -nya refers back to an object already mentioned. The result can occur in a warning about borrowed equipment or something less tangible, such as trust. No unsupported ancient borrowing history is needed. See [DBP](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=rosak).",
+    "cognitive_memory_aid": "rosak＝坏了；rosakkan＝把东西弄坏；rosakkannya＝把它弄坏。记住两个 k 是 rosak + kan 的接缝。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Jangan rosakkannya 是直接的禁止语。对同事或客人提醒时，可先说 Sila gunakan dengan cermat；对朋友则可用语气缓和的 tau。",
+    "usage_etiquette": "可以提醒对方保护借来的物品；事故原因未明时，直接说 Awak rosakkannya 容易被理解为指责。涉及名誉或信任时，破坏的指控通常更重，应明确事实与所指对象。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Jangan rosakkannya 是直接的禁止语。对同事或客人提醒时，可先说 Sila gunakan dengan cermat；对朋友则可用语气缓和的 tau。",
+    "usage_etiquette": "可以提醒对方保护借来的物品；事故原因未明时，直接说 Awak rosakkannya 容易被理解为指责。涉及名誉或信任时，破坏的指控通常更重，应明确事实与所指对象。"
+  }
+}

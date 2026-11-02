@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "menyarankan",
+    "syllables": "me.nya.ran.kan",
+    "ipa": "/mə.ɲa.ran.kan/",
+    "jawi": "مڽارنکن",
+    "frequency_rank": 7190,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "saran",
+    "affix": "meN-...-kan",
+    "affix_type": "circumfix",
+    "formula": "meN- + saran + -kan → menyarankan",
+    "pattern_note": "词根 saran 的首辅音 s 在 meN- 后脱落，鼻音实现为 ny /ɲ/；-kan 构成及物动词。输入包将 menyarankan 标为词根有误，此处按实际构词校正。",
+    "word_family": [
+      {
+        "word": "saranan",
+        "affix": "-an",
+        "gloss": "建议；所提出的意见"
+      },
+      {
+        "word": "penyaranan",
+        "affix": "peN-...-an",
+        "gloss": "提出建议；倡议的过程"
+      },
+      {
+        "word": "penyaran",
+        "affix": "peN-",
+        "gloss": "建议者；提议方"
+      }
+    ],
+    "root_jawi": "سارن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "提出意见、建议或推荐的做法，供他人考虑或采纳。",
+      "en_definition": "To suggest or recommend an idea or course of action for consideration.",
+      "ms_definition": "Mengutarakan pendapat atau cadangan untuk dipertimbangkan atau diterima.",
+      "nuances": "通常表达建议而非命令。常见结构为 menyarankan sesuatu 及 menyarankan supaya + 分句。词根、派生关系与义项见 [DBP PRPM：saran](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=saran)。",
+      "collocations": [
+        {
+          "ms": "menyarankan langkah pencegahan",
+          "zh": "建议采取预防措施",
+          "en": "recommend preventive measures"
+        },
+        {
+          "ms": "menyarankan supaya berehat",
+          "zh": "建议休息",
+          "en": "recommend taking a rest"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "向公众传播、宣扬或倡导某种思想、主张或理想。",
+      "en_definition": "To publicize, propagate or advocate an idea or ideal.",
+      "ms_definition": "Menyampaikan dan menyebarluaskan sesuatu fahaman atau cita-cita kepada masyarakat.",
+      "nuances": "词典收录的传播义，较常见于书面、政治或思想论述。现代一般表达中，menyebarkan 或 memperjuangkan 往往更直接；不可把所有 menyarankan 都译成“宣传”。",
+      "collocations": [
+        {
+          "ms": "menyarankan cita-cita politik",
+          "zh": "宣扬政治理想",
+          "en": "propagate political ideals"
+        },
+        {
+          "ms": "menyarankan fahaman kepada masyarakat",
+          "zh": "向社会传播某种思想",
+          "en": "propagate an ideology among the public"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场汇报",
+      "ms": "Jawatankuasa itu menyarankan supaya pihak pengurusan menilai semula jadual kerja sebelum melaksanakan perubahan tersebut.",
+      "zh": "委员会建议管理层在实施该项变更前重新评估工作时间安排。",
+      "en": "The committee recommends that management reassess the work schedule before implementing the change."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友转述维修建议",
+      "ms_spoken": "Juruteknik tu menyarankan kita buat salinan fail dulu, baru hantar komputer.",
+      "ms_standard": "Juruteknik itu menyarankan supaya kita membuat salinan fail terlebih dahulu sebelum menghantar komputer untuk dibaiki.",
+      "zh": "维修师傅建议我们先备份文件，再把电脑送过去。",
+      "en": "The technician suggested backing up our files before sending the computer in.",
+      "spoken_features": [
+        "tu 对应 itu。",
+        "口语可省略 supaya，并以 dulu、baru 表达先后顺序。",
+        "menyarankan 保留完整形式，常用于转述专业建议；更随意时也说 cadangkan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Juruteknik tu menyarankan kita buat salinan fail dulu. Kau dah buat ke?",
+          "ms_standard": "Juruteknik itu menyarankan supaya kita membuat salinan fail terlebih dahulu. Adakah kamu sudah melakukannya?",
+          "zh": "维修师傅建议先备份文件。你弄好了吗？",
+          "en": "The technician suggested backing up the files first. Have you done that?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, semua dah ada kat pemacu luar. Esok baru aku nak hantar.",
+          "ms_standard": "Sudah, semua fail sudah disimpan dalam pemacu luaran. Saya akan menghantar komputer itu esok.",
+          "zh": "好了，全都存到移动硬盘里了。我打算明天再送修。",
+          "en": "Yep, everything's on the external drive. I'll take it in tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The transparent Malay formation begins with saran, a proposal or opinion. Its derivatives distinguish the suggestion itself, saranan, from the act of putting it forward, menyarankan. Dictionaries also preserve a broader sense involving the public promotion of ideals. That range connects a private recommendation with the more public work of advocating a position, without establishing a particular foreign origin.",
+    "cognitive_memory_aid": "记住 saran 是“建议”；s 遇到 meN- 变成 ny：saran → menyarankan，“把建议提出来”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合会议、报告和专业建议。向上司或长者提议时，可用 Saya ingin menyarankan…，并附上理由，使语气更委婉。",
+    "usage_etiquette": "建议仍给对方保留选择空间。若表达正式命令、强制规定或已经批准的决定，应使用与实际权限和决定相符的措辞。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合会议、报告和专业建议。向上司或长者提议时，可用 Saya ingin menyarankan…，并附上理由，使语气更委婉。",
+    "usage_etiquette": "建议仍给对方保留选择空间。若表达正式命令、强制规定或已经批准的决定，应使用与实际权限和决定相符的措辞。"
+  }
+}

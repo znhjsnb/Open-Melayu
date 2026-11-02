@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "dapatnya",
+    "syllables": null,
+    "ipa": "/dapatɲa/",
+    "jawi": "داڤت",
+    "frequency_rank": 7242,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dapat",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "dapat + -nya → dapatnya（具体意义由 -nya 的句法功能决定）",
+    "pattern_note": "词根不发生音变；ny 表示单一辅音 /ɲ/，分音为 da.pat.nya。-nya 在这里可作附着代词或名词化成分，不能一律当作普通派生后缀。headword.jawi 按输入保留 داڤت，但该拼写只对应 dapat；带 -nya 的完整形式应为 داڤتڽ。",
+    "word_family": [
+      {
+        "word": "mendapat",
+        "affix": "meN-",
+        "gloss": "获得；收到"
+      },
+      {
+        "word": "mendapati",
+        "affix": "meN-…-i",
+        "gloss": "发现；查明"
+      },
+      {
+        "word": "mendapatkan",
+        "affix": "meN-…-kan",
+        "gloss": "设法取得"
+      },
+      {
+        "word": "dapatan",
+        "affix": "-an",
+        "gloss": "研究发现；所得"
+      },
+      {
+        "word": "pendapatan",
+        "affix": "peN-…-an",
+        "gloss": "收入"
+      },
+      {
+        "word": "terdapat",
+        "affix": "ter-",
+        "gloss": "有；存在"
+      }
+    ],
+    "root_jawi": "داڤت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "得到它、取得那个东西；口语中由表示获得的 dapat 与回指已知对象的 -nya 组合而成。",
+      "en_definition": "To get or obtain it, with -nya referring to an understood object in colloquial usage.",
+      "ms_definition": "Memperoleh atau menerima sesuatu yang telah disebut atau difahami daripada konteks, dengan -nya merujuk kepada perkara tersebut.",
+      "nuances": "这是按构词和语境解释的形式，并非输入所附 dapat 词条的独立释义。表示获得的裸词根 dapat 本身具有口语用法；正式表达通常改用 mendapatkannya 或明确说出宾语。不能把 dapatnya 一概译成“他能”。[PRPM：dapat](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=dapat)",
+      "collocations": [
+        {
+          "ms": "mana dapatnya",
+          "zh": "从哪里弄到的",
+          "en": "where someone got it"
+        },
+        {
+          "ms": "susah nak dapatnya",
+          "zh": "很难弄到它",
+          "en": "hard to get it"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "能否办到、是否能够实现；在 dapat tidaknya 等结构中，-nya 使表示能力或可能性的表达名词化。",
+      "en_definition": "The possibility or feasibility of doing something, especially in constructions meaning whether something can be done.",
+      "ms_definition": "Hal dapat atau tidak dapat sesuatu dilakukan atau dicapai, khususnya dalam binaan dapat tidaknya.",
+      "nuances": "这是依句法产生的名词性解释，不是独立的固定名词。词根 dapat 的“能够”义与名词化成分 -nya 共同构成表达；现代说明文也常改写为 sama ada … dapat …。[DBP：-nya 的名词化功能](https://dewanbahasa.jendeladbp.my/2022/03/16/2777/)",
+      "collocations": [
+        {
+          "ms": "dapat tidaknya",
+          "zh": "能否；办不办得到",
+          "en": "whether it is possible"
+        },
+        {
+          "ms": "dapat atau tidaknya",
+          "zh": "是否能够做到",
+          "en": "whether or not it can be done"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dapat tidaknya projek ini diteruskan bergantung pada kelulusan peruntukan.",
+      "zh": "这个项目能否继续，取决于拨款是否获批。",
+      "en": "Whether this project can proceed depends on approval of the funding."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Eh, mana dapatnya tiket murah tu?",
+      "ms_standard": "Di manakah kamu mendapatkan tiket murah itu?",
+      "zh": "诶，那张便宜票你从哪儿弄到的？",
+      "en": "Hey, where did you get that cheap ticket?",
+      "spoken_features": [
+        "疑问句省略了可由上下文恢复的主语。",
+        "-nya 回指谈话中的票；标准表达可直接使用明确的宾语。",
+        "tu 是 itu 的口语缩略形式。",
+        "回复中的 kat、je、nak 分别对应 di、sahaja、hendak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Eh, mana dapatnya tiket murah tu?",
+          "ms_standard": "Di manakah kamu mendapatkan tiket murah itu?",
+          "zh": "诶，那张便宜票你从哪儿弄到的？",
+          "en": "Hey, where did you get that cheap ticket?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kat kaunter tadi je. Kau nak satu?",
+          "ms_standard": "Saya mendapatkannya di kaunter tadi. Adakah kamu mahu satu tiket?",
+          "zh": "刚才就在柜台买的。你要一张吗？",
+          "en": "Just at the counter earlier. Want one?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dapatnya is best understood through Malay grammar rather than an invented ancient compound. Dapat supplies meanings involving obtaining or ability, while attached -nya receives its function from the sentence. Malay also uses -nya to turn expressions into noun-like units. This explains why a single written form can require different English or Chinese translations. [DBP grammar discussion](https://dewanbahasa.jendeladbp.my/2022/03/16/2777/)",
+    "cognitive_memory_aid": "先抓住 dapat 的“得到／能够”，再问 -nya 指什么或把什么名词化：同一个词形，放回整句才能定意思。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词形本身不表示敬意。向长辈或客户询问来源时，可说 Boleh saya tahu dari mana tuan mendapatkannya?，比直接问 Mana dapatnya? 更周到。",
+    "usage_etiquette": "熟人聊天可以使用省略式问句；公文宜明确主语、宾语或采用 sama ada 结构。询问钱财、礼物或贵重物品的来源时，语气过急容易让人觉得受到质疑。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词形本身不表示敬意。向长辈或客户询问来源时，可说 Boleh saya tahu dari mana tuan mendapatkannya?，比直接问 Mana dapatnya? 更周到。",
+    "usage_etiquette": "熟人聊天可以使用省略式问句；公文宜明确主语、宾语或采用 sama ada 结构。询问钱财、礼物或贵重物品的来源时，语气过急容易让人觉得受到质疑。"
+  }
+}
