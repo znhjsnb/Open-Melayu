@@ -1,0 +1,120 @@
+{
+  "headword": {
+    "word": "biometrik",
+    "syllables": "bi.o.me.trik",
+    "ipa": "/bi.o.me.trik/",
+    "jawi": "بيوميتريک",
+    "frequency_rank": 15000,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "biometrik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + biometrik → biometrik",
+    "pattern_note": "现代马来语中按完整科学借词处理；bio- 与 metrik 可作国际术语成分理解，并非本词新加的马来语词缀。mé 中的 e 读 /e/，不是 /ə/。",
+    "word_family": [],
+    "root_jawi": "بيوميتريک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "生物统计测量学；运用统计分析研究生物数据的学科或方法。",
+      "en_definition": "The statistical study and analysis of biological data; biometry.",
+      "ms_definition": "Kajian tentang data biologi secara analisis statistik.",
+      "nuances": "这是输入所引《Kamus Dewan Edisi Keempat》的核心学术义。对象不限于人类身份特征，也可以是生物体的生长、形态或其他测量数据；不能一律译为“生物识别”。",
+      "collocations": [
+        {
+          "ms": "analisis biometrik",
+          "zh": "生物测量统计分析",
+          "en": "biometric statistical analysis"
+        },
+        {
+          "ms": "kajian biometrik",
+          "zh": "生物测量统计研究",
+          "en": "a study in biometry"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "生物识别的；利用可测量的生理或行为特征识别身份或核验所声称身份的。",
+      "en_definition": "Relating to the identification or verification of individuals through measurable physiological or behavioural characteristics.",
+      "ms_definition": "Berkaitan dengan pengecaman atau pengesahan identiti individu berdasarkan ciri fisiologi atau tingkah laku yang boleh diukur.",
+      "nuances": "这是现代身份核验及科技语境中的定语用法，常见于指纹、人脸或虹膜识别。并非所有生物数据都属于用于身份识别的数据，也不能把 biometrik 限定为指纹。此义的马来语释义为根据实际用法编写的综合释义；政府文件中的 pengesahan biometrik 可见 [iSPKP 用户手册](https://iportal.ispkp.gov.my/wp-content/uploads/manual/MODUL-PROFIL/MANUAL-PENGGUNA-iSPKP-PENGGUNA-AWAM.pdf)。",
+      "collocations": [
+        {
+          "ms": "pengesahan biometrik",
+          "zh": "生物特征身份核验",
+          "en": "biometric verification"
+        },
+        {
+          "ms": "data biometrik",
+          "zh": "生物识别数据",
+          "en": "biometric data"
+        },
+        {
+          "ms": "sistem biometrik",
+          "zh": "生物识别系统",
+          "en": "a biometric system"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pemohon diminta hadir ke kaunter untuk menjalani pengesahan biometrik menggunakan cap ibu jari.",
+      "zh": "申请人须前往柜台，通过拇指指纹进行生物特征身份核验。",
+      "en": "Applicants are requested to attend the counter for biometric verification using their thumbprints."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah sampai kat kaunter untuk pengesahan biometrik.",
+      "ms_standard": "Saya sudah tiba di kaunter untuk menjalani pengesahan biometrik.",
+      "zh": "我已经到柜台做生物识别验证了。",
+      "en": "I'm at the counter for biometric verification now.",
+      "spoken_features": [
+        "aku 用于熟人之间的非正式交流",
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "tu 对应 itu",
+        "je 对应 sahaja",
+        "lah 可缓和确认语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai kat kaunter untuk pengesahan biometrik. Kena imbas ibu jari je ke?",
+          "ms_standard": "Saya sudah tiba di kaunter untuk menjalani pengesahan biometrik. Adakah saya hanya perlu mengimbas cap ibu jari?",
+          "zh": "我到柜台做生物识别验证了。只要扫拇指指纹吗？",
+          "en": "I'm at the counter for biometric verification. Do I just need to scan my thumbprint?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Masa aku buat dulu, macam tulah. Tanya pegawai kat situ dulu, ya.",
+          "ms_standard": "Begitulah prosesnya ketika saya melakukannya dahulu. Sila bertanya kepada pegawai di situ terlebih dahulu.",
+          "zh": "我之前办的时候是这样。你先问问那里的工作人员吧。",
+          "en": "That's how it worked when I did it. Check with the officer there first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Biometrik belongs to an international scientific vocabulary built from Greek bios, life, and metron, measure. Historically, biometrics developed a statistical meaning concerned with biological variation, alongside another tradition concerned with identifying people. These meanings still coexist. The Malay dictionary definition preserves the statistical sense, while identity-verification contexts make the recognition sense especially visible in everyday usage. See [National Research Council](https://www.ncbi.nlm.nih.gov/books/NBK219892/?report=printable).",
+    "cognitive_memory_aid": "bio 联想“生命”，metrik 联想“测量”：先记“测量生物特征”，再看语境判断是生物统计研究还是身份识别。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "biometrik 是中性的技术用语。向公众解释时，补充具体动作，例如 pengesahan biometrik melalui imbasan cap jari，比只说 biometrik 更容易理解。",
+    "usage_etiquette": "用于柜台办理、身份文件、考勤及设备验证等场景。谈及他人的指纹或人脸资料时，应尊重其隐私；不要把同意一次扫描理解为同意任意保存、转发或另作他用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "biometrik 是中性的技术用语。向公众解释时，补充具体动作，例如 pengesahan biometrik melalui imbasan cap jari，比只说 biometrik 更容易理解。",
+    "usage_etiquette": "用于柜台办理、身份文件、考勤及设备验证等场景。谈及他人的指纹或人脸资料时，应尊重其隐私；不要把同意一次扫描理解为同意任意保存、转发或另作他用。"
+  }
+}

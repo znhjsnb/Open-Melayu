@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "digit",
+    "syllables": "di.git",
+    "ipa": "/di.ɡit/",
+    "jawi": "ديݢيت",
+    "frequency_rank": 14921,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "digit",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + digit → digit",
+    "pattern_note": "作为完整借词词干记忆；开头 di- 不是马来语被动前缀。g 读 /ɡ/，不读英语 digit 中的 /dʒ/。",
+    "word_family": [
+      {
+        "word": "berdigit",
+        "affix": "ber-",
+        "gloss": "具有数位的；数字式的"
+      },
+      {
+        "word": "pendigit",
+        "affix": "peN-",
+        "gloss": "数字化仪；将图像转换为数字形式的设备"
+      }
+    ],
+    "root_jawi": "ديݢيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "数字符号；十进制中指 0 至 9 的任一个数字，也用于说明号码或数值包含多少位。",
+      "en_definition": "A numerical symbol, especially any of the decimal figures 0 to 9; a figure counted when specifying the length of a number or code.",
+      "ms_definition": "Mana-mana satu angka Arab daripada kosong hingga sembilan.",
+      "nuances": "digit 指组成数或号码的单个符号；例如 4204 有四个 digit。digit perduaan 专指二进制的 0 或 1。马来语本词不直接套用英语中“手指、脚趾”的解剖义。释义及派生词见 [DBP：digit](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=digit)。",
+      "collocations": [
+        {
+          "ms": "digit terakhir",
+          "zh": "最后一位数字",
+          "en": "the last digit"
+        },
+        {
+          "ms": "digit perduaan",
+          "zh": "二进制数字",
+          "en": "binary digit"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kod rujukan bagi setiap permohonan terdiri daripada enam digit.",
+      "zh": "每份申请的参考编号均由六位数字组成。",
+      "en": "The reference code for each application consists of six digits."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kod rujukan ni ada enam digit je, kan?",
+      "ms_standard": "Kod rujukan ini mempunyai enam digit sahaja, bukan?",
+      "zh": "这个参考编号只有六位，对吧？",
+      "en": "This reference code is only six digits long, right?",
+      "spoken_features": [
+        "ni 对应 ini；je 对应 sahaja。",
+        "口语 ada 在此对应标准语 mempunyai。",
+        "句末 kan 请求确认；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Kod rujukan ni ada enam digit je, kan?",
+          "ms_standard": "Kod rujukan ini mempunyai enam digit sahaja, bukan?",
+          "zh": "这个参考编号只有六位，对吧？",
+          "en": "This reference code is only six digits long, right?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, enam digit. Aku dah semak pada borang tadi.",
+          "ms_standard": "Ya, enam digit. Saya sudah menyemaknya pada borang tadi.",
+          "zh": "对，六位。我刚才已经对照表格检查过了。",
+          "en": "Yes, six digits. I checked it against the form earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The international numerical term digit ultimately connects with Latin digitus, meaning a finger or toe. Finger-counting makes the connection memorable: the body supplies a natural counting aid. Malay uses digit for numerical figures and forms derivatives such as berdigit and pendigit. Its modern numerical meaning should be distinguished from the anatomical meaning retained in English. [American Heritage](https://www.ahdictionary.com/word/search.html?q=digit); [DBP](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=digit).",
+    "cognitive_memory_aid": "想象用十根手指数 0—9：每一个数字符号就是一个 digit。念 di-git，g 是硬音 /ɡ/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的数学与技术用语，适用于课堂、银行表格、公文和日常说明，无特殊敬语限制。",
+    "usage_etiquette": "讲号码长度时用 enam digit 等表达；讲整个号码时通常用 nombor。为避免听错，可逐位朗读，并将 sifar（零）与字母 O 区分。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的数学与技术用语，适用于课堂、银行表格、公文和日常说明，无特殊敬语限制。",
+    "usage_etiquette": "讲号码长度时用 enam digit 等表达；讲整个号码时通常用 nombor。为避免听错，可逐位朗读，并将 sifar（零）与字母 O 区分。"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "test",
+    "syllables": null,
+    "ipa": "/test/",
+    "jawi": null,
+    "frequency_rank": 14975,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "test",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + test → test",
+    "pattern_note": "这是英语整词，在马来语口语中可用于语码混用，不拆成马来语词缀。IPA 为英语读音；规范马来语按词性使用 ujian 或 menguji。",
+    "word_family": [
+      {
+        "word": "tests",
+        "affix": "-s（英语）",
+        "gloss": "多项测试；也可为英语动词第三人称单数"
+      },
+      {
+        "word": "testing",
+        "affix": "-ing（英语）",
+        "gloss": "测试；正在测试"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "测试；测验；检验。英语词，在马来语非正式混合表达中指评估知识、能力、性能或身体状况的检查。",
+      "en_definition": "An examination or procedure used to assess knowledge, ability, performance, or a condition; an English word used in informal Malay code-switching.",
+      "ms_definition": "Dalam pertuturan yang bercampur bahasa Inggeris, ujian atau pemeriksaan untuk menilai pengetahuan, kebolehan, prestasi atau keadaan sesuatu.",
+      "nuances": "规范马来语名词用 ujian，学校考试也可按情境用 peperiksaan。下列搭配属于口语混用，不是正式马来语推荐形式。status 的 official 值仅沿用请求的记录标签，不表示该拼写获认定为规范马来语词。PRPM 将相关释义列于 [《英马来语词典》test](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=test)；此处马来语释义为编写释义。",
+      "collocations": [
+        {
+          "ms": "test darah",
+          "zh": "验血；血液检查",
+          "en": "blood test"
+        },
+        {
+          "ms": "keputusan test",
+          "zh": "测试结果",
+          "en": "test results"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "测试；试用；检查是否正常。英语动词，在马来语口语混用中表示试验某物的功能或效果。",
+      "en_definition": "To try or examine something to establish how well it works; used as an English verb in informal Malay code-switching.",
+      "ms_definition": "Dalam pertuturan yang bercampur bahasa Inggeris, mencuba atau menguji sesuatu untuk mengetahui sama ada sesuatu itu berfungsi atau memenuhi keperluan.",
+      "nuances": "正式写作用 menguji；强调试着使用某物时也可用 mencuba。不要把英语词族 tests、testing 当作马来语派生词。对应关系见 [DBP：test](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=test)。",
+      "collocations": [
+        {
+          "ms": "test mikrofon",
+          "zh": "测试麦克风",
+          "en": "test the microphone"
+        },
+        {
+          "ms": "test sistem",
+          "zh": "测试系统",
+          "en": "test the system"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场文件 / 术语规范",
+      "ms": "Dalam laporan rasmi ini, perkataan bahasa Inggeris “test” hendaklah diterjemahkan sebagai “ujian” atau “menguji” mengikut konteks.",
+      "zh": "在这份正式报告中，英语词 test 应根据上下文译为 ujian 或 menguji。",
+      "en": "In this official report, the English word “test” should be translated as “ujian” or “menguji”, depending on the context."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事准备会议",
+      "ms_spoken": "Aku nak test mikrofon ni kejap, boleh?",
+      "ms_standard": "Saya hendak menguji mikrofon ini sebentar, boleh?",
+      "zh": "我想试一下这个麦克风，可以吗？",
+      "en": "Can I quickly test this microphone?",
+      "spoken_features": [
+        "test 是混用的英语动词",
+        "nak 对应 hendak",
+        "ni 对应 ini",
+        "kejap 对应 sebentar"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku nak test mikrofon ni dulu. Kau dah masuk mesyuarat?",
+          "ms_standard": "Saya hendak menguji mikrofon ini dahulu. Adakah kamu sudah menyertai mesyuarat?",
+          "zh": "我想先试一下麦克风。你已经进会议了吗？",
+          "en": "I want to test the microphone first. Have you joined the meeting?"
+        },
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Dah. Cakap je, aku dengar.",
+          "ms_standard": "Sudah. Bercakaplah; saya sedang mendengar.",
+          "zh": "进了。你说吧，我听着。",
+          "en": "Yes. Go ahead—I'm listening."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English test once named a vessel used in assaying metals. It came through French from Latin testum, an earthenware pot. The meaning shifted from the container to the act of checking quality, then broadened to examinations and trials. In Malay conversation, the English form can appear where formal Malay uses ujian or menguji. See [Dictionary.com’s etymology](https://www.dictionary.com/browse/test).",
+    "cognitive_memory_aid": "听到 test，就想“测试”：一项测试是 ujian，动手测试是 menguji。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉的双语同事之间使用 test 通常自然；面向公众、长辈或语言背景不同的人，ujian、menguji 和 mencuba 更清楚。",
+    "usage_etiquette": "适合非正式聊天和双语技术交流。正式马来语报告、考试答案及公共通知应使用相应马来语词；引用英语界面文字时可保留原词并加说明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉的双语同事之间使用 test 通常自然；面向公众、长辈或语言背景不同的人，ujian、menguji 和 mencuba 更清楚。",
+    "usage_etiquette": "适合非正式聊天和双语技术交流。正式马来语报告、考试答案及公共通知应使用相应马来语词；引用英语界面文字时可保留原词并加说明。"
+  }
+}

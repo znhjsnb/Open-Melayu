@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "kenai",
+    "syllables": null,
+    "ipa": "/kə.nai̯/",
+    "jawi": null,
+    "frequency_rank": 14988,
+    "status": "official",
+    "verification_note": "此处 official 仅表示有 DBP 方言资料作为依据，不表示全国标准语。数据包所附“你”义实际指向 kena（kéna），不能据此赋予 kenai 同一释义。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kenal",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "kenal → kenai（方言对应，无词缀）",
+    "pattern_note": "按已见北部方言用法，kenai 对应标准语 kenal；词尾 -ai 属方言语音表现，不是后缀 -i。数据包 root_word 为 kena，与此用法不符，故在本条订正；不把这一对应推广为所有方言的统一音变规则。",
+    "word_family": [
+      {
+        "word": "mengenal",
+        "affix": "meN-",
+        "gloss": "认识；识别"
+      },
+      {
+        "word": "kenalan",
+        "affix": "-an",
+        "gloss": "相识的人；熟人"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "认识、认得或知道；北部马来语方言中对应标准语 kenal 的形式。",
+      "en_definition": "To know or recognize; a northern Malay dialect form corresponding to standard Malay kenal.",
+      "ms_definition": "Bentuk dialek utara bagi kenal, iaitu mengetahui atau dapat mengecam seseorang atau sesuatu.",
+      "nuances": "DBP《槟城方言词汇表》的例句包含 tak kenai，并以标准语“不知道”解释其语境。此义不可与 kena（受到、必须等）混同。数据包的古代第二人称释义属于另一词项 kena；下列搭配为依据方言用法编写的教学搭配，未经频次统计。[DBP：槟城方言例句](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=ut)；[DBP：kena 旧版检索](https://prpmv1.dbp.gov.my/Search.aspx?d=1&k=kena)",
+      "collocations": [
+        {
+          "ms": "tak kenai",
+          "zh": "不认识；认不出",
+          "en": "not know; not recognize"
+        },
+        {
+          "ms": "kenai orang tu",
+          "zh": "认识那个人",
+          "en": "know that person"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "语言研究报告 / 方言说明",
+      "ms": "Dalam contoh dialek utara ini, bentuk kenai sepadan dengan kenal dalam bahasa Melayu standard.",
+      "zh": "在这个北部方言例子中，kenai 对应标准马来语的 kenal。",
+      "en": "In this northern dialect example, kenai corresponds to kenal in standard Malay."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉北部方言的朋友交流",
+      "ms_spoken": "Hang kenai orang tu tak?",
+      "ms_standard": "Adakah awak mengenali orang itu?",
+      "zh": "你认识那个人吗？",
+      "en": "Do you know that person?",
+      "spoken_features": [
+        "hang 为北部方言的第二人称称呼",
+        "kenai 对应标准语 kenal 或句中的 mengenali",
+        "tu 对应 itu",
+        "句末 tak 构成口语是非问句",
+        "kat 对应 di，je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Hang kenai orang yang duduk kat depan tu tak?",
+          "ms_standard": "Adakah awak mengenali orang yang duduk di hadapan itu?",
+          "zh": "你认识坐在前面那个人吗？",
+          "en": "Do you know the person sitting up front?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kenai muka je, nama dia aku tak tahu.",
+          "ms_standard": "Saya hanya mengecam wajahnya, tetapi saya tidak tahu namanya.",
+          "zh": "只是认得脸，我不知道他叫什么。",
+          "en": "I recognize the face, but I don't know the name."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Regional speech can preserve familiar Malay vocabulary in forms that look unfamiliar on the page. DBP's Penang dialect material records kenai in a sentence about not knowing something. That provides a regional usage anchor, rather than evidence of a new suffix. The packet's archaic pronoun gloss belongs to kena and must remain separate from this dialect interpretation.",
+    "cognitive_memory_aid": "把 kenai 连回 kenal：“认得”是核心；末尾 ai 是方言形式提示，不是“你”的意思，也不是后缀。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "kenai 适合双方熟悉的北部方言交流；正式书面语按句法使用 kenal、mengenal 或 mengenali。例句中的 hang 只宜用于关系与地方习惯允许的场合。",
+    "usage_etiquette": "自然使用当地说法可以表达亲近；跨地区交流时宜改用标准语，避免对方误解。不要把方言形式当作可以随意模仿他人口音的笑料。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "kenai 适合双方熟悉的北部方言交流；正式书面语按句法使用 kenal、mengenal 或 mengenali。例句中的 hang 只宜用于关系与地方习惯允许的场合。",
+    "usage_etiquette": "自然使用当地说法可以表达亲近；跨地区交流时宜改用标准语，避免对方误解。不要把方言形式当作可以随意模仿他人口音的笑料。"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "headword": {
+    "word": "autopilot",
+    "syllables": null,
+    "ipa": "/ˈɔː.təʊˌpaɪ.lət/",
+    "jawi": null,
+    "frequency_rank": 14997,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "autopilot",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + autopilot → autopilot",
+    "pattern_note": "依输入按整词借入处理，不分析为马来语派生词。英语内部可识别 auto- + pilot；所列 IPA 为英式英语读音，不是已核定的马来语标准读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "自动驾驶仪；按设定自动控制飞机或船舶等航向、姿态或其他运行参数的系统。",
+      "en_definition": "A system that automatically controls the course or other operating parameters of an aircraft or vessel.",
+      "ms_definition": "Sistem yang mengawal arah perjalanan atau parameter operasi tertentu bagi pesawat atau kapal secara automatik mengikut tetapan.",
+      "nuances": "此处按英语技术词在马来语语境中的使用解释。输入包没有官方马来语释义，现有核验也不足以确认其 DBP 词头地位，因此 status 为 unverified，马来语释义为编辑释义。正式写作可按语境解释为 sistem kawalan penerbangan automatik。自动控制的范围取决于系统功能，不能仅凭此词推断全程无需人员监督。英语词义及音标依据：[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/autopilot)。以下为自然技术组合，未作马来语语料频次排序。",
+      "collocations": [
+        {
+          "ms": "sistem autopilot",
+          "zh": "自动驾驶系统",
+          "en": "autopilot system"
+        },
+        {
+          "ms": "mengaktifkan autopilot",
+          "zh": "启用自动驾驶仪",
+          "en": "engage the autopilot"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "比喻不加思索地按习惯行事的状态；“自动驾驶模式”。",
+      "en_definition": "A figurative state of acting habitually with little conscious thought.",
+      "ms_definition": "Secara kiasan, keadaan melakukan sesuatu mengikut kebiasaan tanpa banyak berfikir secara sedar.",
+      "nuances": "源于英语 on autopilot 的比喻用法，在混用英语的交流中可理解为“凭惯性做事”。不表示一个人真的失去意识，也不自动表示工作效率高。正式汇报宜具体说明是例行操作、注意力不足还是流程自动化。英语比喻义依据：[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/autopilot)。",
+      "collocations": [
+        {
+          "ms": "macam autopilot",
+          "zh": "像开了自动驾驶一样；凭惯性",
+          "en": "as if on autopilot"
+        },
+        {
+          "ms": "dalam mod autopilot",
+          "zh": "处于不假思索的惯性模式",
+          "en": "in autopilot mode"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "航空技术报告",
+      "ms": "Laporan teknikal itu menyatakan bahawa sistem autopilot telah dinyahaktifkan sebelum pesawat mendarat.",
+      "zh": "该技术报告指出，飞机降落前已关闭自动驾驶系统。",
+      "en": "The technical report states that the autopilot system was disengaged before the aircraft landed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事谈论疲倦时的惯性操作",
+      "ms_spoken": "Aku buat kerja tadi macam autopilot je, dah penat sangat.",
+      "ms_standard": "Saya melakukan kerja tadi secara rutin tanpa banyak berfikir kerana sudah terlalu penat.",
+      "zh": "刚才干活全凭惯性，实在太累了。",
+      "en": "I was just going through the motions earlier. I was exhausted.",
+      "spoken_features": [
+        "autopilot 为英语借用的比喻表达。",
+        "macam 对应 seperti，je 对应 sahaja，dah 对应 sudah；aku 用于熟人交流。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku buat kerja tadi macam autopilot je, dah penat sangat.",
+          "ms_standard": "Saya melakukan kerja tadi secara rutin tanpa banyak berfikir kerana sudah terlalu penat.",
+          "zh": "刚才干活全凭惯性，实在太累了。",
+          "en": "I was just going through the motions earlier. I was exhausted."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Rehat dulu lah. Lepas tu kita semak laporan tu sama-sama.",
+          "ms_standard": "Berehatlah dahulu. Selepas itu, kita semak laporan itu bersama-sama.",
+          "zh": "先休息一下吧，待会儿我们一起检查那份报告。",
+          "en": "Take a break first. We’ll check the report together afterwards."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English autopilot combines auto- with pilot and names an automatic guidance system. Its technical image also supports a familiar metaphor: people can perform routines as though an automatic controller were directing them. That shift connects machinery with everyday experience, but it does not establish official Malay lexical status. Both English senses are documented by [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/autopilot/).",
+    "cognitive_memory_aid": "auto 联想“自动”，pilot 联想“驾驶员”：机器接手部分驾驶控制，就是 autopilot；人凭惯性做事，也像进入了这个模式。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "技术交流中首次出现时可附马来语解释。对主管或客户说自己在用 autopilot 工作，可能被理解为不够专注，应根据场合具体表达。",
+    "usage_etiquette": "用于航空、航海技术语境或明确的口语比喻。一般技术词写作 autopilot；涉及具体产品时须核对产品名称和功能，避免把自动驾驶辅助、完全自主运行及日常惯性行为混为一谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "技术交流中首次出现时可附马来语解释。对主管或客户说自己在用 autopilot 工作，可能被理解为不够专注，应根据场合具体表达。",
+    "usage_etiquette": "用于航空、航海技术语境或明确的口语比喻。一般技术词写作 autopilot；涉及具体产品时须核对产品名称和功能，避免把自动驾驶辅助、完全自主运行及日常惯性行为混为一谈。"
+  }
+}

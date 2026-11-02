@@ -1,0 +1,160 @@
+{
+  "headword": {
+    "word": "menagih",
+    "syllables": "me.na.gih",
+    "ipa": "/mə.na.ɡih/",
+    "jawi": "مناݢيه",
+    "frequency_rank": 14936,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tagih",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + tagih → menagih",
+    "pattern_note": "meN- 接以 t 开头的本族词根时，通常发生鼻音替代：t 脱落，鼻音实现为 n。DBP 将索讨义与成瘾义分别列在 tagih 的同形词条下；据此修正输入包将 menagih 判作词根的分析。",
+    "word_family": [
+      {
+        "word": "penagih",
+        "affix": "peN-",
+        "gloss": "催收者；对某物成瘾者，依语境区分"
+      },
+      {
+        "word": "penagihan",
+        "affix": "peN-...-an",
+        "gloss": "催收；成瘾行为，依语境区分"
+      },
+      {
+        "word": "tagihan",
+        "affix": "-an",
+        "gloss": "催缴款项；要求履行的事项"
+      },
+      {
+        "word": "ketagihan",
+        "affix": "ke-...-an",
+        "gloss": "成瘾状态；强烈依赖"
+      },
+      {
+        "word": "menagihkan",
+        "affix": "meN-...-kan",
+        "gloss": "使人上瘾"
+      }
+    ],
+    "root_jawi": "تاݢيه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "因习惯或依赖而强烈渴求某物，或反复沉迷于某种行为；在毒品等语境中指吸食成瘾。",
+      "en_definition": "To crave or habitually indulge in something because of dependence or an established habit.",
+      "ms_definition": "Berasa sangat ingin akan sesuatu atau sangat gemar melakukannya kerana kebiasaan atau ketagihan.",
+      "nuances": "对应输入包提供的释义，强调习惯形成的强烈欲求，不能简单等同于普通的 suka。menagih dadah 表示涉毒成瘾行为；menagih kopi 可描述强烈的咖啡依赖，语气轻重由上下文决定。马来语释义据 DBP 改写。[DBP：tagih](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tagih)",
+      "collocations": [
+        {
+          "ms": "menagih dadah",
+          "zh": "吸毒成瘾",
+          "en": "to be addicted to drugs"
+        },
+        {
+          "ms": "menagih kopi",
+          "zh": "对咖啡上瘾",
+          "en": "to crave coffee habitually"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "向欠款人追讨债务，或催促支付应缴的租金、费用等。",
+      "en_definition": "To demand or pursue payment of a debt, rent, fees, or another outstanding sum.",
+      "ms_definition": "Meminta atau mendesak seseorang supaya menjelaskan hutang, sewa, yuran atau bayaran yang tertunggak.",
+      "nuances": "主语是催收款项的一方；不表示主语自己欠钱。通常比 meminta bayaran 更强调催讨，但不必然涉及威胁、暴力或诉讼。马来语释义据 DBP 改写。[DBP：tagih](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tagih)",
+      "collocations": [
+        {
+          "ms": "menagih hutang",
+          "zh": "追讨债务",
+          "en": "to collect a debt"
+        },
+        {
+          "ms": "menagih wang sewa",
+          "zh": "催收租金",
+          "en": "to demand rent payment"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "要求兑现承诺或履行先前答应的事项。",
+      "en_definition": "To call on someone to fulfil a promise or deliver something previously pledged.",
+      "ms_definition": "Menuntut supaya seseorang menunaikan janji atau melaksanakan perkara yang telah dijanjikan.",
+      "nuances": "常带有“之前答应过，现在应兑现”的预期。menagih kasih、menagih simpati 等是寻求关爱或同情的引申表达，不必意味着对方曾承诺。马来语释义据 DBP 改写。[DBP：tagih](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tagih)",
+      "collocations": [
+        {
+          "ms": "menagih janji",
+          "zh": "要求兑现承诺",
+          "en": "to demand fulfilment of a promise"
+        },
+        {
+          "ms": "menagih janji pilihan raya",
+          "zh": "要求兑现竞选承诺",
+          "en": "to demand delivery on election promises"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 应收款项管理",
+      "ms": "Unit kewangan sedang menagih bayaran tertunggak daripada pelanggan.",
+      "zh": "财务部门正在向客户催收逾期款项。",
+      "en": "The finance unit is pursuing overdue payments from customers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友之间提醒还款",
+      "ms_spoken": "Aku segan nak menagih hutang tu lagi lah.",
+      "ms_standard": "Saya berasa segan untuk menagih hutang itu sekali lagi.",
+      "zh": "我都不好意思再催那笔钱了。",
+      "en": "I feel awkward asking for that money back again.",
+      "spoken_features": [
+        "aku：熟人之间的第一人称",
+        "nak：此处表示意愿",
+        "tu：itu 的口语形式",
+        "lah：此处表达为难的语气",
+        "语境已明确时可省略欠款人的名称"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku segan nak menagih hutang tu lagi lah. Dah dua kali aku ingatkan dia.",
+          "ms_standard": "Saya berasa segan untuk menagih hutang itu sekali lagi. Saya sudah mengingatkannya dua kali.",
+          "zh": "我都不好意思再催了，已经提醒他两次了。",
+          "en": "I feel awkward asking him to pay me back again. I've reminded him twice already."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Cuba tanya elok-elok je bila dia boleh bayar.",
+          "ms_standard": "Cuba tanya dengan baik bila dia boleh membayar hutang itu.",
+          "zh": "就好好问问他什么时候能还吧。",
+          "en": "Just ask him politely when he can pay you back."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP distinguishes two tagih entries: one concerns collecting what is owed or promised, while the other concerns habitual craving. Both produce menagih through ordinary Malay prefixation. This makes context essential: a finance officer menagih payment, whereas someone dependent on a substance menagih that substance. Their shared spelling does not establish that one historical meaning developed from the other.",
+    "cognitive_memory_aid": "tagih 的 t 遇 meN- 变成 n：menagih。看宾语分义：hutang 是讨债，janji 是催兑现，dadah 是成瘾。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "催款时，menagih 可用于内部汇报；直接对客户或长辈沟通，可用 Mohon jelaskan bayaran yang tertunggak 等较委婉表达。",
+    "usage_etiquette": "谈论成瘾者时避免嘲讽或将成瘾当作人格标签。penagih dadah 与 penagih hutang 含义不同，正式表述宜写明对象，避免歧义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "催款时，menagih 可用于内部汇报；直接对客户或长辈沟通，可用 Mohon jelaskan bayaran yang tertunggak 等较委婉表达。",
+    "usage_etiquette": "谈论成瘾者时避免嘲讽或将成瘾当作人格标签。penagih dadah 与 penagih hutang 含义不同，正式表述宜写明对象，避免歧义。"
+  }
+}

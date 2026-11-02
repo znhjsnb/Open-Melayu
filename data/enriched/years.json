@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "years",
+    "syllables": null,
+    "ipa": "/jɪəz/",
+    "jawi": null,
+    "frequency_rank": 14931,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "years",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + years → years（按输入保留整词；英语内部为 year + -s → years）",
+    "pattern_note": "输入将 years 标为独立词根，故保留该字段；实际英语语法中，它是 year 的复数，词尾 -s 在此读 /z/，不是马来语词缀。",
+    "word_family": [
+      {
+        "word": "year",
+        "affix": "∅（英语单数词基）",
+        "gloss": "年；一年"
+      },
+      {
+        "word": "yearly",
+        "affix": "-ly（英语派生后缀）",
+        "gloss": "每年的；每年"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英语 year 的复数：年，用来计量两个或更多的年度、持续时间或年龄。",
+      "en_definition": "The plural of year, used to count annual periods, duration, or age.",
+      "ms_definition": "Bentuk jamak bahasa Inggeris bagi year, digunakan untuk menghitung tahun, tempoh atau umur.",
+      "nuances": "这是英语复数形式，标准马来语对应 tahun；数词后不因复数而添加 -s，如 dua tahun。status 的 official 是本次要求的输出标签，不表示 DBP 认定 years 为标准马来语。以下搭配保留英语原文。参见 [Merriam-Webster：year](https://scrabble.m-w.com/dictionary/year)。",
+      "collocations": [
+        {
+          "ms": "two years",
+          "zh": "两年",
+          "en": "two years"
+        },
+        {
+          "ms": "years of experience",
+          "zh": "多年的经验",
+          "en": "years of experience"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "英语中表示多年、很长时间，通常不说明确切年数。",
+      "en_definition": "A long time, without specifying an exact number of years.",
+      "ms_definition": "Dalam bahasa Inggeris, tempoh yang lama tanpa menyatakan bilangan tahun yang tepat.",
+      "nuances": "常见于 for years、in years 等英语结构；马来语通常译为 bertahun-tahun 或 sudah lama。下列搭配属于英语，不应直接当作标准马来语短语。参见 [Cambridge：years](https://dictionary.cambridge.org/us/dictionary/english/years)。",
+      "collocations": [
+        {
+          "ms": "for years",
+          "zh": "多年来；持续多年",
+          "en": "for a long time"
+        },
+        {
+          "ms": "years ago",
+          "zh": "多年前",
+          "en": "many years ago"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "英语中指人生中的岁月、年龄，或具有某种特征的一段时期。",
+      "en_definition": "The years of someone's life or a period marked by a particular stage or quality.",
+      "ms_definition": "Dalam bahasa Inggeris, tahun-tahun kehidupan seseorang atau suatu tempoh yang mempunyai ciri tertentu.",
+      "nuances": "具体译法随搭配变化，可译为 usia、zaman 或 tahun-tahun；不是每次都机械译为复数的“年”。年龄用法参见 [Cambridge：years](https://dictionary.cambridge.org/us/dictionary/english/years)，时期用法参见 [Merriam-Webster：year](https://scrabble.m-w.com/dictionary/year)。",
+      "collocations": [
+        {
+          "ms": "teenage years",
+          "zh": "青少年时期",
+          "en": "the teenage period of life"
+        },
+        {
+          "ms": "glory years",
+          "zh": "辉煌岁月",
+          "en": "a period of outstanding success"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan bahasa Melayu, frasa 'three years' hendaklah diterjemahkan sebagai 'tiga tahun'.",
+      "zh": "在马来语报告中，英语短语“three years”应译为“tiga tahun”。",
+      "en": "In a Malay-language report, the phrase 'three years' should be translated as 'tiga tahun'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah kerja kat sini three years dah.",
+      "ms_standard": "Saya sudah bekerja di sini selama tiga tahun.",
+      "zh": "我在这里已经工作三年了。",
+      "en": "I've been working here for three years now.",
+      "spoken_features": [
+        "three years 是嵌入马来语的英语短语，属于语码混用。",
+        "dah 对应 sudah；kat sini 对应 di sini。",
+        "句首和句尾重复 dah，强调已经持续的时间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah kerja kat situ berapa lama?",
+          "ms_standard": "Sudah berapa lama kamu bekerja di situ?",
+          "zh": "你在那边工作多久了？",
+          "en": "How long have you been working there?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Three years dah. Cepat je masa berlalu.",
+          "ms_standard": "Sudah tiga tahun. Cepat sungguh masa berlalu.",
+          "zh": "已经三年了，时间过得真快。",
+          "en": "Three years now. Time really flies."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English year descends from Old English gear, a word with relatives in other Germanic languages. Years adds the ordinary English plural ending. The same form counts calendar periods, measures age, and evokes long stretches of life. In Malay, tahun carries the corresponding basic meaning without requiring an English-style plural suffix.",
+    "cognitive_memory_aid": "year 是“一年”，years 是“多于一年”；看到 two years，整块对应 dua tahun，不给 tahun 加 s。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人聊天中的英语夹杂通常取决于双方语言习惯；面对不熟悉英语的听者，使用 tahun 更清楚。",
+    "usage_etiquette": "马来语公文、履历和正式汇报使用 tahun、pengalaman selama beberapa tahun 等表达；英语原文、引语或双语对话可保留 years。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人聊天中的英语夹杂通常取决于双方语言习惯；面对不熟悉英语的听者，使用 tahun 更清楚。",
+    "usage_etiquette": "马来语公文、履历和正式汇报使用 tahun、pengalaman selama beberapa tahun 等表达；英语原文、引语或双语对话可保留 years。"
+  }
+}

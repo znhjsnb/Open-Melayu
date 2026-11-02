@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "bukankan",
+    "syllables": null,
+    "ipa": "/bu.kan.kan/",
+    "jawi": "بوکن",
+    "frequency_rank": 14925,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bukan",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "bukan + -kan → bukankan",
+    "pattern_note": "若为动词形式，-kan 接在 bukan 后，词根不变，音节为 bu.kan.kan；可联系 membukankan 理解。若实际来自口语 bukan, kan?，kan 是独立语气词，不能分析为动词后缀。输入的 Jawi 仅对应 bukan。",
+    "word_family": [
+      {
+        "word": "membukankan",
+        "affix": "meN-...-kan",
+        "gloss": "否认；否定"
+      },
+      {
+        "word": "bukankah",
+        "affix": "-kah",
+        "gloss": "不是……吗；用于确认或反问"
+      }
+    ],
+    "root_jawi": "بوکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "否认；否定某项说法。此为依据 membukankan 分析出的无 meN- 动词形式，其实际功能须结合句法判断。",
+      "en_definition": "To deny or negate a claim, as a context-dependent unprefixed form corresponding to membukankan.",
+      "ms_definition": "Menafikan atau menyangkal sesuatu, sebagai bentuk tanpa awalan meN- yang berkaitan dengan membukankan.",
+      "nuances": "DBP 明确收录 membukankan，释为否认、否定等；输入数据只提供 bukan 的词条，未证明 bukankan 是独立收录的常用词。这里的动词分析属于形态推断，不能据此声称它具有高频搭配。以下为说明该分析的句法组合；现代日常表达通常使用 nafikan 或 sangkal。[DBP：bukan 与 membukankan](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bukan)",
+      "collocations": [
+        {
+          "ms": "bukankan tuduhan itu",
+          "zh": "否认那项指控",
+          "en": "deny that allegation"
+        },
+        {
+          "ms": "bukankan dakwaan tersebut",
+          "zh": "否认该项说法",
+          "en": "deny that claim"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "在非规范连写中，可能表示「不是……吗」或寻求确认；须按上下文判断是否应写为 bukankah 或 bukan, kan?。",
+      "en_definition": "In nonstandard joined writing, a possible confirmation-seeking expression corresponding to bukankah or bukan, kan?, depending on context.",
+      "ms_definition": "Dalam tulisan tidak baku, bentuk yang mungkin digunakan untuk meminta pengesahan, dengan maksud yang perlu ditentukan melalui konteks.",
+      "nuances": "此义记录可能的文本用法，不把 bukankan 认定为标准疑问词。标准反问或确认形式是 bukankah；口语中独立的 kan 应分开处理。不能把所有 bukankan 都自动改为 bukankah，因为少数语境可能涉及动词形式。此处 status 按指定格式保留 official，其规范性须依本说明区分。[DBP：bukan、bukankah 与 membukankan](https://ekamus.dbp.gov.my/Search.aspx?cari=buka&spec=false&type=1)",
+      "collocations": [
+        {
+          "ms": "bukankah begitu?",
+          "zh": "不是这样吗？",
+          "en": "isn't that so?"
+        },
+        {
+          "ms": "bukankah kita sudah bersetuju?",
+          "zh": "我们不是已经同意了吗？",
+          "en": "haven't we already agreed?"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan rasmi, bentuk bukankan yang digunakan untuk mengemukakan pertanyaan pengesahan hendaklah digantikan dengan bukankah.",
+      "zh": "正式报告中，若 bukankan 用于提出确认性疑问，应改为 bukankah。",
+      "en": "In an official report, bukankan should be replaced with bukankah when it introduces a question seeking confirmation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau taip bukankan tadi; maksud kau, kita dah setuju, kan?",
+      "ms_standard": "Kamu menaip bukankan tadi. Adakah maksud kamu bahawa kita sudah bersetuju?",
+      "zh": "你刚才打了 bukankan；你是说，我们已经同意了，对吧？",
+      "en": "You typed bukankan earlier. Did you mean we'd already agreed?",
+      "spoken_features": [
+        "dah 对应标准语 sudah。",
+        "句末独立的 kan 用于寻求认同，不能直接当作 -kan 后缀。",
+        "kau 适合熟人交流；对上级或陌生人应使用合适称谓或较礼貌的代词。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau tulis bukankan dalam mesej tadi. Maksud kau, kita dah setuju, kan?",
+          "ms_standard": "Kamu menulis bukankan dalam mesej tadi. Adakah kamu bermaksud bahawa kita sudah bersetuju?",
+          "zh": "你刚才消息里写了 bukankan。你是说，我们已经同意了，对吧？",
+          "en": "You wrote bukankan in your message. Did you mean we'd already agreed?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Haah, aku nak tulis bukankah. Tersalah taip je.",
+          "ms_standard": "Ya, saya sebenarnya hendak menulis bukankah. Itu hanya kesilapan menaip.",
+          "zh": "对，我本来想写 bukankah，就是打错了。",
+          "en": "Yeah, I meant to write bukankah. It was just a typo."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The packet establishes bukan as the base, while DBP records the related verb membukankan and the question form bukankah. Bukankan therefore requires contextual analysis: it may reflect an unprefixed verb, joined conversational writing, or a typing error. These possibilities should not be collapsed into a single historical derivation without an original sentence or stronger documentary evidence.",
+    "cognitive_memory_aid": "先看句子在做什么：否认说法，联系 membukankan；问「不是吗」，记 bukankah；口语求确认，kan 单独站。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "bukankah 和句末 kan 都可能暗示「你应该知道或同意」，语气强时容易显得质问。向上级核对事项时，使用 Boleh saya sahkan…? 通常更委婉。",
+    "usage_etiquette": "正式写作先判断原意，再选择 bukankah、bukan 或 menafikan 等表达。不要将非规范连写教成通用标准形式，也不要在缺乏上下文时武断认定它一定是错别字。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "bukankah 和句末 kan 都可能暗示「你应该知道或同意」，语气强时容易显得质问。向上级核对事项时，使用 Boleh saya sahkan…? 通常更委婉。",
+    "usage_etiquette": "正式写作先判断原意，再选择 bukankah、bukan 或 menafikan 等表达。不要将非规范连写教成通用标准形式，也不要在缺乏上下文时武断认定它一定是错别字。"
+  }
+}

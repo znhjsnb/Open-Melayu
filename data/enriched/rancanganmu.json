@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "rancanganmu",
+    "syllables": null,
+    "ipa": "/ran.tʃa.ŋan.mu/",
+    "jawi": "رانچڠن",
+    "frequency_rank": 14991,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "rancangan",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "rancangan + -mu → rancanganmu；内部结构：rancang + -an → rancangan",
+    "pattern_note": "-mu 是表示第二人称领属的附着代词，按给定分类归入 suffix，并非派生后缀；连写且不引起语音交替。数据包的 root_word 是直接基底，进一步分析的词根为 rancang。包内 Jawi 仅对应 rancangan，未包含 -mu；syllables 原值为 null。",
+    "word_family": [
+      {
+        "word": "merancang",
+        "affix": "meN-",
+        "gloss": "计划；筹划"
+      },
+      {
+        "word": "perancangan",
+        "affix": "peR-...-an",
+        "gloss": "规划；筹划过程"
+      }
+    ],
+    "root_jawi": "رانچڠن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的计划、安排或方案。",
+      "en_definition": "Your plan, intended course of action, or arrangement.",
+      "ms_definition": "Sesuatu yang kamu rancang, termasuk persediaan, persiapan atau rencana kamu.",
+      "nuances": "由数据包中 rancangan 的第一义加领属代词 -mu 合成；此处马来语释义为编写释义，并非独立词条的官方原文。-mu 对应 kamu，在此表示“你的”，不说明计划是否已经获批。附着代词连写依据 [DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "rancanganmu untuk bercuti",
+          "zh": "你的度假计划",
+          "en": "your holiday plans"
+        },
+        {
+          "ms": "rancanganmu pada hujung minggu",
+          "zh": "你的周末安排",
+          "en": "your plans for the weekend"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你的节目；由你制作、主持或与你有关的广播、电视等节目。",
+      "en_definition": "Your programme or show, understood as one you make, present, or are otherwise associated with.",
+      "ms_definition": "Program atau siaran yang dikaitkan dengan kamu, misalnya yang kamu hasilkan atau kendalikan.",
+      "nuances": "这是 rancangan 表示“节目”时加 -mu 的组合用法。领属关系由上下文确定，不一定表示法律上的所有权；也不自动等于“你最喜欢的节目”。",
+      "collocations": [
+        {
+          "ms": "rancanganmu di televisyen",
+          "zh": "你的电视节目",
+          "en": "your television programme"
+        },
+        {
+          "ms": "rancanganmu di radio",
+          "zh": "你的广播节目",
+          "en": "your radio programme"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "在土地开发计划语境中，与你有关的垦殖计划区或计划区土地。",
+      "en_definition": "In a land-development context, the settlement scheme or scheme land associated with you.",
+      "ms_definition": "Dalam konteks tanah rancangan, kawasan atau tanah yang diusahakan oleh peneroka dan dikaitkan dengan kamu.",
+      "nuances": "数据包收录的 rancangan 第二义等同 tanah rancangan，涉及 FELDA、FELCRA 等垦殖语境。单独的 rancanganmu 默认更容易理解成“你的计划”；此义须有明确背景，以下为组合示例，不声称是高频固定搭配。",
+      "collocations": [
+        {
+          "ms": "peneroka di rancanganmu",
+          "zh": "你所在垦殖计划区的垦殖民",
+          "en": "settlers in your land-development scheme"
+        },
+        {
+          "ms": "kemudahan di rancanganmu",
+          "zh": "你所在垦殖计划区的设施",
+          "en": "facilities in your land-development scheme"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：导师在正式项目汇报中向学生反馈",
+      "ms": "Rancanganmu untuk mengurangkan pembaziran makanan mempunyai objektif yang jelas, tetapi anggaran kosnya perlu diperincikan.",
+      "zh": "你减少食物浪费的方案目标明确，但成本估算还需要细化。",
+      "en": "Your plan to reduce food waste has clear objectives, but its cost estimates need more detail."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：朋友间略带书面感的表达",
+      "ms_spoken": "Aku dah baca rancanganmu. Kita nak mula bila?",
+      "ms_standard": "Saya sudah membaca rancangan kamu. Bilakah kita hendak bermula?",
+      "zh": "我看过你的计划了，咱们什么时候开始？",
+      "en": "I've read your plan. When do we want to start?",
+      "spoken_features": [
+        "aku 是熟人之间的第一人称。",
+        "dah 对应 sudah；nak 对应 hendak。",
+        "rancanganmu 在聊天中可以使用，但 rancangan kau 或 rancangan awak 往往更口语化。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah baca rancanganmu. Kita nak mula bila?",
+          "ms_standard": "Saya sudah membaca rancangan kamu. Bilakah kita hendak bermula?",
+          "zh": "我看过你的计划了，咱们什么时候开始？",
+          "en": "I've read your plan. When do we want to start?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Sabtu ni je. Pagi tu semua orang lapang.",
+          "ms_standard": "Kita mulakan pada hari Sabtu ini sahaja. Semua orang mempunyai masa lapang pada pagi itu.",
+          "zh": "就这周六吧，那天上午大家都有空。",
+          "en": "Let's start this Saturday. Everyone's free that morning."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Rancanganmu illustrates how Malay builds a personal expression from an established noun: rancangan supplies the plan, while mu identifies the addressee. The spelling joins them without a space. This is productive grammar rather than evidence of a separately coined historical word. DBP's spelling guide illustrates the same attachment with bukumu, meaning your book. See [DBP spelling guidance](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf).",
+    "cognitive_memory_aid": "先记 rancangan＝计划，再把末尾 mu 当成“你的”标签：rancangan＋mu＝你的计划。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 有熟悉、直接或文学性的语感。面向客户、上司或陌生人时，通常改用 rancangan tuan、rancangan puan 或合适的姓名与职称。",
+    "usage_etiquette": "适合熟人交流、文学表达或教师向学生反馈；正式公文应根据对象选择称谓。宗教文本中的 -Mu 可能指神，不能与本词的小写 -mu 自动等同。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 有熟悉、直接或文学性的语感。面向客户、上司或陌生人时，通常改用 rancangan tuan、rancangan puan 或合适的姓名与职称。",
+    "usage_etiquette": "适合熟人交流、文学表达或教师向学生反馈；正式公文应根据对象选择称谓。宗教文本中的 -Mu 可能指神，不能与本词的小写 -mu 自动等同。"
+  }
+}
