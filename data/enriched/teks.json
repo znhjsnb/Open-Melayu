@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "teks",
+    "syllables": null,
+    "ipa": "/teks/",
+    "jawi": "تيک س",
+    "frequency_rank": 5702,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "teks",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + teks → teks",
+    "pattern_note": "整词作为独立词素记忆；为单音节，é 对应 /e/，词末保留 /ks/。输入包未提供音节字段，因此保留 null。",
+    "word_family": [
+      {
+        "word": "berteks",
+        "affix": "ber-",
+        "gloss": "带有文字或文本的"
+      },
+      {
+        "word": "teks-teks",
+        "affix": "∅（全词重叠）",
+        "gloss": "多篇文本；多种文献"
+      }
+    ],
+    "root_jawi": "تيک س"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "作者原来写下的文字；与译文、评论或摘要相区别的原文。",
+      "en_definition": "An author's original wording, as distinct from a translation, commentary, or summary.",
+      "ms_definition": "Kata-kata asli oleh pengarangnya, bukan terjemahan, ulasan atau ringkasan daripada asalnya.",
+      "nuances": "强调文字的原貌或来源；teks asal 是原文，teks terjemahan 则是译文。teks 本身仍可泛指译文等文本，是否强调“原文”由上下文决定。义项依据：[DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=teks)。",
+      "collocations": [
+        {
+          "ms": "teks asal",
+          "zh": "原文",
+          "en": "the original text"
+        },
+        {
+          "ms": "teks sumber",
+          "zh": "源文本",
+          "en": "the source text"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "从宗教经典中摘录、用作引证或讲解依据的经文。",
+      "en_definition": "A passage from a sacred text used for reference or exposition.",
+      "ms_definition": "Petikan daripada sesebuah kitab suci yang dijadikan bahan rujukan dan sebagainya.",
+      "nuances": "此义取决于宗教语境；不能把一般的 teks 都译成“经文”。引用时应说明具体经典和出处。参见：[DBP 宗教摘录义](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=teks)。",
+      "collocations": [
+        {
+          "ms": "teks kitab suci",
+          "zh": "宗教经典的经文",
+          "en": "scriptural text"
+        },
+        {
+          "ms": "petikan teks kitab suci",
+          "zh": "宗教经典的经文摘录",
+          "en": "a passage of scripture"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "书籍或文献的正文，不包括注释等附加内容；现代应用中也泛指书面或电子形式的文字内容。",
+      "en_definition": "The main written content of a book or document, excluding notes; more generally, written or digital verbal content.",
+      "ms_definition": "Kandungan buku yang utama, tidak termasuk catatan dan sebagainya.",
+      "nuances": "正文义见《Kamus Dewan》；电子文字属于现代应用中的延伸，可与 imej、audio 相对。buku teks 整体表示教科书。马来西亚日常所说的手机消息常用 mesej，不宜把英语动词 text 的所有用法直接套到 teks 上。参见：[DBP 正文及计算机用例](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teks)。",
+      "collocations": [
+        {
+          "ms": "teks utama",
+          "zh": "正文；主要文字内容",
+          "en": "the main text"
+        },
+        {
+          "ms": "teks penuh",
+          "zh": "全文",
+          "en": "the full text"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "用作演讲、授课或讲解依据的书面稿件；讲稿。",
+      "en_definition": "A written script or prepared text used for a speech, lesson, or lecture.",
+      "ms_definition": "Tulisan yang dijadikan pokok syarahan dan sebagainya.",
+      "nuances": "职场及公共活动中很常见，可指供朗读或参考的完整稿件。它与 ringkasan 或 nota 要点式笔记并不完全相同。参见：[DBP 讲稿义](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=teks)。",
+      "collocations": [
+        {
+          "ms": "teks ucapan",
+          "zh": "致辞稿",
+          "en": "a speech script"
+        },
+        {
+          "ms": "teks syarahan",
+          "zh": "演讲稿",
+          "en": "a lecture or oration script"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Teks ucapan pengerusi hendaklah disemak sebelum diedarkan kepada pihak media.",
+      "zh": "主席的致辞稿须经审核后，方可分发给媒体。",
+      "en": "The chairperson's speech text must be reviewed before it is distributed to the media."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Teks ucapan tu dah siap ke?",
+      "ms_standard": "Adakah teks ucapan itu sudah siap?",
+      "zh": "那份致辞稿写好了吗？",
+      "en": "Is the speech draft ready yet?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "dah 对应 sudah。",
+        "句末 ke 构成口语疑问。",
+        "je 对应 sahaja，表示“只要；就好”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Teks ucapan tu dah siap ke? Bos nak tengok petang ni.",
+          "ms_standard": "Adakah teks ucapan itu sudah siap? Ketua mahu menyemaknya pada petang ini.",
+          "zh": "那份致辞稿写好了吗？老板今天下午要看。",
+          "en": "Is the speech draft ready yet? The boss wants to look at it this afternoon."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah, tinggal semak ejaan je. Nanti aku hantar kat kau.",
+          "ms_standard": "Teks itu sudah siap; saya hanya perlu menyemak ejaannya. Nanti saya akan menghantarnya kepada awak.",
+          "zh": "写好了，就差检查拼写。我等下发给你。",
+          "en": "Yes, I just need to check the spelling. I'll send it over in a bit."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP identifies English as the source language of teks. The borrowed form fits a single Malay syllable while retaining the final /ks/ cluster. Its dictionary meanings move between an author's original wording, scripture, a book's main content, and prepared speeches. Contemporary digital usage carries the same focus on written words.",
+    "cognitive_memory_aid": "把英语 text 的末尾 t 去掉，联想马来语 teks：文字、正文、讲稿；读 /teks/，不要额外加一个元音。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "teks 是中性用语。向同事索取稿件可说 Boleh hantarkan teks ucapan itu?；面向上级或正式对象时使用适当称谓。",
+    "usage_etiquette": "引用原文、宗教经文或他人讲话时应准确标明出处。处理尚未公开的致辞稿，应遵守工作场合的发布安排。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "teks 是中性用语。向同事索取稿件可说 Boleh hantarkan teks ucapan itu?；面向上级或正式对象时使用适当称谓。",
+    "usage_etiquette": "引用原文、宗教经文或他人讲话时应准确标明出处。处理尚未公开的致辞稿，应遵守工作场合的发布安排。"
+  }
+}

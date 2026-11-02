@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "sebagian",
+    "syllables": "se.ba.gi.an",
+    "ipa": "/sə.ba.ɡi.an/",
+    "jawi": "باݢين",
+    "frequency_rank": 5690,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bagian",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + bagian → sebagian",
+    "pattern_note": "se- 加在 bagian 前，词干不变；更深层可分析为 bagi + -an → bagian。数据包的 Jawi باݢين 对应 bagian，未包含 sebagian 的前缀，故此处仅按原包保留，不能视为完整词头拼写的核定。",
+    "word_family": [
+      {
+        "word": "bagian",
+        "affix": "-an",
+        "gloss": "分出的部分；口语形式"
+      },
+      {
+        "word": "membagi",
+        "affix": "meN-",
+        "gloss": "分开；分配"
+      }
+    ],
+    "root_jawi": "باݢين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "整体中的一部分；某一群体中的一些成员。",
+      "en_definition": "A part or portion of a whole; some members of a group.",
+      "ms_definition": "Sebahagian daripada sesuatu keseluruhan atau beberapa anggota daripada sesuatu kumpulan.",
+      "nuances": "这是印尼语常见形式；马来西亚正式书面语通常使用 sebahagian。本条 noun 对应其名词性用法，置于群体名词前时具有数量限定功能。数据包的 DBP 释义实际属于 bagian，并非 sebagian 的独立释义；status 为数据目录状态，不代表该拼写获推荐用于马来西亚公文。参见 [DBP：bagian](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bagian) 及 [DBP 的印尼与马来西亚术语对照](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=kering)。",
+      "collocations": [
+        {
+          "ms": "sebagian besar",
+          "zh": "大部分；马来西亚标准形式为 sebahagian besar",
+          "en": "the greater part; most"
+        },
+        {
+          "ms": "sebagian penduduk",
+          "zh": "部分居民；马来西亚标准形式为 sebahagian penduduk",
+          "en": "some residents"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "部分地；在程度或范围上未达到全部。",
+      "en_definition": "Partly or partially, rather than completely.",
+      "ms_definition": "Secara tidak keseluruhan; hanya pada sebahagian daripada sesuatu.",
+      "nuances": "主要用于印尼语表达；马来西亚标准语应随句法使用 sebahagian、sebahagiannya 或 secara separa。不要将部分误解为恰好一半。参见 [DBP：kering sebagian 与 kering sebahagian 的地区对照](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=kering)。",
+      "collocations": [
+        {
+          "ms": "kering sebagian",
+          "zh": "部分干燥；马来西亚形式为 kering sebahagian",
+          "en": "partially dry"
+        },
+        {
+          "ms": "terendam sebagian",
+          "zh": "部分浸没；马来西亚通常说 sebahagiannya terendam",
+          "en": "partially submerged"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：编辑说明",
+      "ms": "Dalam laporan rasmi ini, ejaan “sebagian” hendaklah digantikan dengan “sebahagian” agar selaras dengan penggunaan bahasa Melayu baku di Malaysia.",
+      "zh": "本正式报告中的拼写“sebagian”应改为“sebahagian”，以符合马来西亚标准马来语的用法。",
+      "en": "In this official report, “sebagian” should be replaced with “sebahagian” to conform to standard Malaysian Malay usage."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：受印尼语影响的非标准用法",
+      "ms_spoken": "Aku dah baca sebagian laporan tu je.",
+      "ms_standard": "Saya baru membaca sebahagian daripada laporan itu sahaja.",
+      "zh": "那份报告我才看了一部分而已。",
+      "en": "I've only read part of that report so far.",
+      "spoken_features": [
+        "sebagian 在此展示受印尼语影响的形式；马来西亚标准语改为 sebahagian。",
+        "dah 对应 sudah，tu 对应 itu，je 对应 sahaja。",
+        "标准句补出 daripada，使部分与整体的关系更明确。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku dah baca sebagian laporan tu je. Kau dah habis baca ke?",
+          "ms_standard": "Saya baru membaca sebahagian daripada laporan itu sahaja. Adakah kamu sudah selesai membacanya?",
+          "zh": "那份报告我才看了一部分。你看完了吗？",
+          "en": "I've only read part of that report. Have you finished it?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Belum, aku pun baru baca sikit je. Nanti kita bincang, ya.",
+          "ms_standard": "Belum. Saya juga baru membaca sedikit sahaja. Kita berbincang kemudian, ya.",
+          "zh": "还没，我也才看了一点。待会儿我们再讨论吧。",
+          "en": "Not yet. I've only read a little too. Let's discuss it later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sebagian transparently combines se- with bagian, a form connected with dividing and shares. Its spelling illustrates a useful regional distinction: Indonesian commonly uses bagian and sebagian, while Malaysian formal writing normally uses bahagian and sebahagian. DBP also records bagian as colloquial. Recognising the relationship helps readers understand neighbouring usage without confusing the two writing standards. See [DBP: bagian](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bagian).",
+    "cognitive_memory_aid": "se-ba-gi-an：先想到 bagi“分”，分出来的就是一部分；写马来西亚正式文章时，记得换成 sebahagian。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "地区差异本身不构成失礼。协助他人修改时，可说“在马来西亚正式文稿中通常写 sebahagian”，避免贬低对方的语言背景。",
+    "usage_etiquette": "阅读印尼文本或跨地区聊天时应能识别 sebagian；撰写马来西亚公文、考试作文和正式报告时宜用 sebahagian。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "地区差异本身不构成失礼。协助他人修改时，可说“在马来西亚正式文稿中通常写 sebahagian”，避免贬低对方的语言背景。",
+    "usage_etiquette": "阅读印尼文本或跨地区聊天时应能识别 sebagian；撰写马来西亚公文、考试作文和正式报告时宜用 sebahagian。"
+  }
+}

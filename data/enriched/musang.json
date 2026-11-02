@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "musang",
+    "syllables": "mu.sang",
+    "ipa": "/musaŋ/",
+    "jawi": "موسڠ",
+    "frequency_rank": 5757,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "musang",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + musang → musang",
+    "pattern_note": "无词缀；词尾 ng 表示一个软腭鼻音 /ŋ/，不另读 /g/。词族所列为动物名称复合词。",
+    "word_family": [
+      {
+        "word": "musang pandan",
+        "affix": "∅",
+        "gloss": "椰子狸；亦称 musang pulut"
+      },
+      {
+        "word": "musang tenggalung",
+        "affix": "∅",
+        "gloss": "马来灵猫"
+      }
+    ],
+    "root_jawi": "موسڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "灵猫、果子狸等野生哺乳动物的通称；在马来西亚日常语境中，常指椰子狸一类动物。",
+      "en_definition": "A civet or a similar wild mammal, commonly a palm civet in Malaysian usage.",
+      "ms_definition": "Sejenis binatang liar yang gemar memakan ayam.",
+      "nuances": "这是马来西亚本地动物语境中的优先理解。musang 是民间通称，涵盖范围不能与单一现代分类科完全画等号；也不能把所有 musang 都译成狐狸。参见 [DBP 词条](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=musang)。",
+      "collocations": [
+        {
+          "ms": "musang pandan",
+          "zh": "椰子狸",
+          "en": "Asian palm civet"
+        },
+        {
+          "ms": "musang tenggalung",
+          "zh": "马来灵猫",
+          "en": "Malay civet"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "狐狸；指狐属 Vulpes 的野生犬科动物。",
+      "en_definition": "A fox of the genus Vulpes.",
+      "ms_definition": "Sejenis binatang liar seperti anjing daripada genus Vulpes.",
+      "nuances": "DBP 另收此义。常见于外国动物、译作和故事语境；必须凭上下文与本地灵猫义区分。",
+      "collocations": [
+        {
+          "ms": "musang merah",
+          "zh": "赤狐",
+          "en": "red fox"
+        },
+        {
+          "ms": "musang Artik",
+          "zh": "北极狐",
+          "en": "Arctic fox"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "在谚语或比喻中，指伪装善良、实则心怀恶意的人。",
+      "en_definition": "In proverbial or figurative use, a malicious person who conceals harmful intentions.",
+      "ms_definition": "Dalam peribahasa tertentu, orang berniat jahat yang berpura-pura baik.",
+      "nuances": "主要见于 musang berbulu ayam 等固定表达，不宜将这个贬义无条件套用于单独出现的 musang。DBP 的文化讨论也涉及这种动物形象，参见 [《Dewan Bahasa》文章](https://eseminar.dbp.gov.my/majalah/2019/dbahasa9/files/basic-html/page18.html)。",
+      "collocations": [
+        {
+          "ms": "musang berbulu ayam",
+          "zh": "披着善良外衣的恶人",
+          "en": "a wolf in sheep's clothing"
+        },
+        {
+          "ms": "seperti musang berbulu ayam",
+          "zh": "如同伪装善良的恶人",
+          "en": "like a wolf in sheep's clothing"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Seekor musang ditemukan di kawasan perumahan itu sebelum diserahkan kepada pihak berkuasa hidupan liar.",
+      "zh": "该住宅区发现了一只灵猫，随后被移交给野生动物主管部门。",
+      "en": "A civet was found in the residential area and subsequently handed over to the wildlife authorities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ada musang kat atas bumbung tu lah!",
+      "ms_standard": "Ada seekor musang di atas bumbung itu!",
+      "zh": "屋顶上有只灵猫啊！",
+      "en": "There's a civet up on that roof!",
+      "spoken_features": [
+        "kat 对应表示位置的 di。",
+        "tu 是 itu 的口语缩略形式。",
+        "口语中可省略量词 seekor；lah 加强提醒语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (邻居)",
+          "ms_spoken": "Aku nampak musang kat atas bumbung tadi. Kau dengar tak?",
+          "ms_standard": "Saya nampak seekor musang di atas bumbung tadi. Adakah kamu mendengar bunyinya?",
+          "zh": "刚才我看到屋顶上有只灵猫。你听到动静了吗？",
+          "en": "I saw a civet on the roof earlier. Did you hear it?"
+        },
+        {
+          "speaker": "Hakim (熟悉的邻居)",
+          "ms_spoken": "Dengar. Dia dah turun kot, sekarang senyap je.",
+          "ms_standard": "Ya, saya mendengarnya. Mungkin musang itu sudah turun kerana sekarang tiada bunyi lagi.",
+          "zh": "听到了。它可能已经下去了，现在没什么声音了。",
+          "en": "Yes. It's probably come down already; it's quiet now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The cultural history of musang reflects encounters between people and wildlife around Malay settlements. An animal associated with taking chickens became an image of concealed danger in musang berbulu ayam, literally a musang wearing chicken feathers. This explains the proverb's imagery, rather than the word's ultimate linguistic origin. See [DBP's cultural discussion](https://eseminar.dbp.gov.my/majalah/2019/dbahasa9/files/basic-html/page18.html).",
+    "cognitive_memory_aid": "把 mu.sang 连到“暮色里上房的灵猫”这一画面；ng 收成一个鼻音 /ŋ/。这是画面联想，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "说动物时中性；用 musang berbulu ayam 指人则是明显贬责，带有指控对方虚伪、居心不良的意味。",
+    "usage_etiquette": "自然观察、乡村生活和动物故事中都适用。翻译外国故事时要确认指狐狸还是灵猫；不要因英语常译 fox 就把马来西亚屋顶上的 musang 也认作狐狸。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "说动物时中性；用 musang berbulu ayam 指人则是明显贬责，带有指控对方虚伪、居心不良的意味。",
+    "usage_etiquette": "自然观察、乡村生活和动物故事中都适用。翻译外国故事时要确认指狐狸还是灵猫；不要因英语常译 fox 就把马来西亚屋顶上的 musang 也认作狐狸。"
+  }
+}

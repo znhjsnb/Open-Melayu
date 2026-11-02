@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "pengurusan",
+    "syllables": "pe.ngu.ru.san",
+    "ipa": "/pə.ŋu.ru.san/",
+    "jawi": "ڤڠوروسن",
+    "frequency_rank": 5722,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pengurus",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "按输入中间基底：pengurus + -an → pengurusan；基本构词分析：peN- + urus + -an → pengurusan",
+    "pattern_note": "输入将 pengurus 列为中间基底，故保留该字段；基本词根是 urus，常规分析采用 peN-...-an。peN- 在元音 u 前实现为 peng-；接 -an 后词干末尾 s 与后续元音组成 san。",
+    "word_family": [
+      {
+        "word": "urus",
+        "affix": null,
+        "gloss": "料理；管理"
+      },
+      {
+        "word": "pengurus",
+        "affix": "peN-",
+        "gloss": "经理；管理人员"
+      },
+      {
+        "word": "mengurus",
+        "affix": "meN-",
+        "gloss": "管理；照料"
+      },
+      {
+        "word": "urusan",
+        "affix": "-an",
+        "gloss": "事务；待办事项"
+      }
+    ],
+    "root_jawi": "ڤڠوروس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对事务、资源或机构进行安排、协调和处理的工作或过程；管理。",
+      "en_definition": "The work or process of managing affairs, resources, or an organisation.",
+      "ms_definition": "Perihal atau kerja mengurus sesuatu, termasuk syarikat, badan perniagaan dan sebagainya.",
+      "nuances": "核心是“管理活动”，并非单个经理；经理是 pengurus。可用于企业、社区设施、时间、财务和项目等对象。此义依据输入中的《Kamus Dewan Edisi Keempat》定义。",
+      "collocations": [
+        {
+          "ms": "pengurusan masa",
+          "zh": "时间管理",
+          "en": "time management"
+        },
+        {
+          "ms": "pengurusan kewangan",
+          "zh": "财务管理",
+          "en": "financial management"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "负责经营或管理某机构的人员整体；管理层。",
+      "en_definition": "The people collectively responsible for managing an organisation.",
+      "ms_definition": "Golongan atau pihak yang bertanggungjawab mengurus sesebuah organisasi.",
+      "nuances": "这是由管理活动转指管理人员整体的常用用法，尤其见于 pihak pengurusan 和 pengurusan tertinggi；输入的核心释义未将其单独编号。[DBP 用法资料](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pengurusan)收有这些表达。",
+      "collocations": [
+        {
+          "ms": "pihak pengurusan",
+          "zh": "管理方；管理层",
+          "en": "the management"
+        },
+        {
+          "ms": "pengurusan tertinggi",
+          "zh": "最高管理层",
+          "en": "senior management"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报：改进项目管理",
+      "ms": "Pengurusan projek yang cekap dapat mengurangkan kos dan memastikan kerja disiapkan mengikut jadual.",
+      "zh": "高效的项目管理能够降低成本，并确保工作按期完成。",
+      "en": "Efficient project management can reduce costs and ensure that work is completed on schedule."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：同事确认休假申请进度",
+      "ms_spoken": "Pihak pengurusan dah luluskan cuti kita ke?",
+      "ms_standard": "Adakah pihak pengurusan sudah meluluskan permohonan cuti kita?",
+      "zh": "管理层批了咱们的休假申请没？",
+      "en": "Has management approved our leave requests yet?",
+      "spoken_features": [
+        "dah 对应 sudah；句末 ke 构成口语是非问句。",
+        "luluskan 在此省略主动动词前缀，标准形式为 meluluskan。",
+        "je 对应 sahaja；正式职场书面沟通宜使用完整形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pihak pengurusan dah luluskan cuti kita ke?",
+          "ms_standard": "Adakah pihak pengurusan sudah meluluskan permohonan cuti kita?",
+          "zh": "管理层批了咱们的休假申请没？",
+          "en": "Has management approved our leave requests yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, tinggal tunggu e-mel je.",
+          "ms_standard": "Sudah. Kita hanya perlu menunggu e-mel pengesahan.",
+          "zh": "批了，就等确认邮件了。",
+          "en": "Yes. We're just waiting for the confirmation email."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay distinguishes an activity from its practitioner within the urus family: pengurus names a manager, while pengurusan names management. The distinction is useful far beyond business. The supplied Kamus Dewan example concerns a locally chosen committee managing a surau or mosque, showing how the same vocabulary describes community responsibilities as naturally as commercial administration.",
+    "cognitive_memory_aid": "pengurus 是“管理的人”，pengurusan 是“管理这件事”；看到末尾 -an，就联想成一整套管理工作。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "pihak pengurusan 是职场或公共事务中较中性的管理方称呼。提出问题时可说 memohon penjelasan daripada pihak pengurusan，语气比直接指责某位主管更适合正式沟通。",
+    "usage_etiquette": "区分“管理有问题”和“某位经理有问题”，避免把 pengurusan 一律译成“经理”。向管理层投诉时，交代具体事项、时间和所需处理，有助于保持专业。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "pihak pengurusan 是职场或公共事务中较中性的管理方称呼。提出问题时可说 memohon penjelasan daripada pihak pengurusan，语气比直接指责某位主管更适合正式沟通。",
+    "usage_etiquette": "区分“管理有问题”和“某位经理有问题”，避免把 pengurusan 一律译成“经理”。向管理层投诉时，交代具体事项、时间和所需处理，有助于保持专业。"
+  }
+}

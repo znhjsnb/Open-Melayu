@@ -1,0 +1,138 @@
+{
+  "headword": {
+    "word": "las",
+    "syllables": "las",
+    "ipa": "/las/",
+    "jawi": "لس",
+    "frequency_rank": 5765,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "las",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + las → las",
+    "pattern_note": "单音节独立词根。研磨义主要构成复合词，不宜凭空拆分词缀；焊接义另有 mengelas 等派生形式，须与研磨义分开理解。",
+    "word_family": [
+      {
+        "word": "batu las",
+        "affix": "∅（复合词）",
+        "gloss": "磨刀石、研磨石"
+      },
+      {
+        "word": "kertas las",
+        "affix": "∅（复合词）",
+        "gloss": "砂纸"
+      },
+      {
+        "word": "roda las",
+        "affix": "∅（复合词）",
+        "gloss": "砂轮"
+      },
+      {
+        "word": "mengelas",
+        "affix": "meN-",
+        "gloss": "焊接；属于 las II"
+      }
+    ],
+    "root_jawi": "لس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "研磨材料或器具的复合词构词成分，见于磨刀石、砂纸、砂轮等名称。",
+      "en_definition": "An element in compounds naming abrasive materials or grinding tools.",
+      "ms_definition": "Unsur dalam nama bahan atau alat pengasah dan penggosok, seperti batu las, kertas las dan roda las.",
+      "nuances": "对应输入资料的 las I；主要依附完整搭配理解，不应直接当作现代口语中“打磨”的通用动词。kertas pasir 是砂纸的常用说法。[参考：DBP PRPM](https://prpm.dbp.gov.my/Search?k=las)",
+      "collocations": [
+        {
+          "ms": "kertas las",
+          "zh": "砂纸",
+          "en": "sandpaper"
+        },
+        {
+          "ms": "batu las",
+          "zh": "磨刀石",
+          "en": "a sharpening stone"
+        },
+        {
+          "ms": "roda las",
+          "zh": "砂轮",
+          "en": "a grinding wheel"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "通过加热熔接形成的金属接合处；焊接接头。",
+      "en_definition": "A weld; a joint made by joining metal through heat.",
+      "ms_definition": "Sambungan pada besi atau logam lain yang dihasilkan melalui pemanasan.",
+      "nuances": "DBP 另列为 las II，并标注 IB，即源自荷兰语；不要与 las I 的研磨义混为一谈。马来西亚一般技术表达常用 kimpalan 和 mengimpal。[参考：DBP PRPM](https://prpm.dbp.gov.my/Search?k=las)",
+      "collocations": [
+        {
+          "ms": "sambungan las",
+          "zh": "焊接接头",
+          "en": "a welded joint"
+        },
+        {
+          "ms": "bekas las",
+          "zh": "焊接痕迹",
+          "en": "a weld mark"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Permukaan kayu hendaklah dilicinkan dengan kertas las sebelum disapu varnis.",
+      "zh": "木材表面须先用砂纸磨平，再涂清漆。",
+      "en": "The wooden surface must be smoothed with sandpaper before varnish is applied."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kertas las tu ada kat atas meja, ambil je.",
+      "ms_standard": "Kertas las itu ada di atas meja. Ambillah.",
+      "zh": "砂纸就在桌上，直接拿吧。",
+      "en": "The sandpaper's on the table. Go ahead and take it.",
+      "spoken_features": [
+        "tu 代替 itu",
+        "kat 代替地点介词 di",
+        "je 是 sahaja 的口语形式，此处表示可以直接拿"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau ada kertas las tak? Aku nak licinkan tepi rak ni.",
+          "ms_standard": "Adakah awak mempunyai kertas las? Saya hendak melicinkan tepi rak ini.",
+          "zh": "你有砂纸吗？我想把这个架子的边磨平。",
+          "en": "Have you got any sandpaper? I want to smooth the edge of this shelf."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ada, kat atas meja tu. Ambil je.",
+          "ms_standard": "Ada, kertas las itu di atas meja. Ambillah.",
+          "zh": "有啊，就在桌上，拿去用吧。",
+          "en": "Yes, it's on the table. Help yourself."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Workshop vocabulary gives las two distinct dictionary identities. In batu las, kertas las and roda las, it belongs to sharpening and abrasion. A separate entry concerns welding and carries DBP's Dutch-origin label. Remembering the grinding stone and the welded joint as separate images prevents two established workshop meanings from being mistakenly treated as one process.",
+    "cognitive_memory_aid": "先记三件打磨工具：batu las 磨刀石、kertas las 砂纸、roda las 砂轮；遇到 sambungan las，再切换到“焊接接头”的另一词义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的工具或技术词。向店员询问时可说 Ada kertas las?；对方不熟悉时补充 kertas pasir，沟通更顺畅。",
+    "usage_etiquette": "适合五金店、木工和金属加工场景。采购或工作指令应说明完整工具名称；涉及焊接时，使用马来西亚常见的 kimpalan、mengimpal 更清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的工具或技术词。向店员询问时可说 Ada kertas las?；对方不熟悉时补充 kertas pasir，沟通更顺畅。",
+    "usage_etiquette": "适合五金店、木工和金属加工场景。采购或工作指令应说明完整工具名称；涉及焊接时，使用马来西亚常见的 kimpalan、mengimpal 更清楚。"
+  }
+}

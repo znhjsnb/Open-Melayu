@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "imam",
+    "syllables": "i.mam",
+    "ipa": "/i.mam/",
+    "jawi": "امام",
+    "frequency_rank": 5719,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "imam",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + imam → imam",
+    "pattern_note": "阿拉伯语借入的词根，在马来语中不拆分为词缀。派生 mengimami 时，元音起首的 imam 接 meN-，前缀实现为 meng-，词根首音保留；句首或单独发音时可出现声门起音 [ʔi.mam]。",
+    "word_family": [
+      {
+        "word": "berimam",
+        "affix": "ber-",
+        "gloss": "有伊玛目带领礼拜"
+      },
+      {
+        "word": "berimamkan",
+        "affix": "ber-...-kan",
+        "gloss": "以某人为领拜者或领袖"
+      },
+      {
+        "word": "mengimami",
+        "affix": "meN-...-i",
+        "gloss": "带领集体礼拜"
+      },
+      {
+        "word": "keimaman",
+        "affix": "ke-...-an",
+        "gloss": "伊玛目的职位或地位"
+      }
+    ],
+    "root_jawi": "امام"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "伊玛目；带领穆斯林进行集体礼拜的人。",
+      "en_definition": "An imam: a person who leads Muslims in congregational prayer.",
+      "ms_definition": "Orang yang mengetuai sembahyang berjemaah.",
+      "nuances": "这是马来西亚日常语境中最常见的含义。既可指清真寺的任职伊玛目，也可指某次集体礼拜的领拜者，不能仅凭该词推断其拥有固定职位。不要与 bilal「宣礼员」或 khatib「讲道者」混同；同一个人可能兼任不同角色。[DBP 释义](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=imam)。",
+      "collocations": [
+        {
+          "ms": "imam masjid",
+          "zh": "清真寺伊玛目",
+          "en": "mosque imam"
+        },
+        {
+          "ms": "menjadi imam",
+          "zh": "担任领拜者",
+          "en": "lead the congregational prayer"
+        },
+        {
+          "ms": "mengikut imam",
+          "zh": "跟随伊玛目礼拜",
+          "en": "follow the imam in prayer"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "领袖、倡导者或首领；在伊斯兰学术语境中，也用作受尊崇的宗教学者或学派宗师的称号。",
+      "en_definition": "A leader, head, or guiding authority; also a title for a distinguished Islamic scholar or founder of a school of jurisprudence.",
+      "ms_definition": "Pemimpin, penganjur, ketua (negara dan lain-lain).",
+      "nuances": "表示一般首领或国家领袖时多见于特定历史、宗教语境，现代普通职场通常使用 ketua 或 pemimpin。Imam Syafii 等称号强调宗教学术地位，不只表示领拜职能。词组 imam yang empat 指哈乃斐、马立克、沙斐仪、罕百里四大法学派所尊奉的宗师。[DBP 释义及固定表达](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=imam)。",
+      "collocations": [
+        {
+          "ms": "imam yang empat",
+          "zh": "伊斯兰四大法学派宗师",
+          "en": "the four imams of the Sunni schools of jurisprudence"
+        },
+        {
+          "ms": "imam mazhab",
+          "zh": "法学派宗师",
+          "en": "imam of a school of Islamic jurisprudence"
+        },
+        {
+          "ms": "imam perang",
+          "zh": "旧时的战争首领",
+          "en": "a historical military leader"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Imam masjid itu akan mengetuai solat berjemaah sempena program tersebut.",
+      "zh": "该清真寺的伊玛目将在该活动期间带领集体礼拜。",
+      "en": "The mosque's imam will lead the congregational prayer during the programme."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Imam dah sampai kat surau ke?",
+      "ms_standard": "Adakah imam sudah tiba di surau?",
+      "zh": "伊玛目已经到祈祷室了吗？",
+      "en": "Has the imam arrived at the prayer hall yet?",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "kat 在这里对应表示地点的 di。",
+        "句末 ke 标记口语的是非问句。",
+        "nak 是 hendak 的口语形式。",
+        "此处 surau 指社区或建筑内供穆斯林礼拜的场所。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Imam dah sampai kat surau ke?",
+          "ms_standard": "Adakah imam sudah tiba di surau?",
+          "zh": "伊玛目到祈祷室了吗？",
+          "en": "Has the imam arrived at the prayer hall yet?"
+        },
+        {
+          "speaker": "Hakim (邻居)",
+          "ms_spoken": "Dah. Kalau nak solat berjemaah, datanglah sekarang.",
+          "ms_standard": "Imam sudah tiba. Jika mahu menunaikan solat berjemaah, datanglah sekarang.",
+          "zh": "到了。你要一起礼拜的话，现在就过来吧。",
+          "en": "Yes, he's here. Come over now if you want to join the prayer."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay borrowed imam from Arabic imām, meaning a leader. Its dictionary meanings preserve two connected roles: leading congregational prayer and providing leadership or guidance. The title also honours the scholars associated with the four Sunni legal schools. Consequently, the same word can identify a local prayer leader or a major religious authority in scholarly discussion. [DBP](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=imam)",
+    "cognitive_memory_aid": "把 imam 记成「伊玛目」：集体礼拜时站在前面带领大家的人。由「领拜」联想到更广义的「引领」。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称呼当地伊玛目时可使用 Imam 加姓名；在适合的当地交往习惯中，也可称 Tuan Imam。imam、ustaz、bilal 各有不同含义，宜按对方实际身份和惯用称呼使用。",
+    "usage_etiquette": "适用于礼拜、清真寺事务、宗教教育及相关历史讨论。普通管理岗位通常称 ketua 或 pemimpin。涉及宗教学派及其宗师时，宜使用准确名称并保持尊重，避免把称号用于戏谑或贬损。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称呼当地伊玛目时可使用 Imam 加姓名；在适合的当地交往习惯中，也可称 Tuan Imam。imam、ustaz、bilal 各有不同含义，宜按对方实际身份和惯用称呼使用。",
+    "usage_etiquette": "适用于礼拜、清真寺事务、宗教教育及相关历史讨论。普通管理岗位通常称 ketua 或 pemimpin。涉及宗教学派及其宗师时，宜使用准确名称并保持尊重，避免把称号用于戏谑或贬损。"
+  }
+}

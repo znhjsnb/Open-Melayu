@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "rak",
+    "syllables": null,
+    "ipa": "[raʔ]",
+    "jawi": "رق",
+    "frequency_rank": 5717,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rak → rak",
+    "pattern_note": "单音节独立词根；输入包未提供音节字段，故保留 null。所给读音中，词尾 k 实现为喉塞音 [ʔ]。rak buku 属于复合词，rak-rak 属于完全重叠，rak-rok 属于变音重叠，均非添加词缀。",
+    "word_family": [
+      {
+        "word": "rak-rak",
+        "affix": null,
+        "gloss": "多个架子；置物架义的完全重叠形式"
+      },
+      {
+        "word": "rak buku",
+        "affix": null,
+        "gloss": "书架；置物架义的复合词"
+      },
+      {
+        "word": "rak kasut",
+        "affix": null,
+        "gloss": "鞋架；置物架义的复合词"
+      },
+      {
+        "word": "rak-rok",
+        "affix": null,
+        "gloss": "树木折断的响声；拟声义的变音重叠形式"
+      }
+    ],
+    "root_jawi": "رق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "笔尖划过纸面时的刮擦声，或木头折断时的咔嚓声。",
+      "en_definition": "A scratching sound, as of a pen on paper, or a cracking sound, as of wood breaking.",
+      "ms_definition": "Bunyi seperti bunyi pena yang digoreskan atau bunyi kayu patah.",
+      "nuances": "对应输入包的 rak I，属于拟声名词，常见于声音描写；不是“架子”的引申义。rak-rok 特指树木折断的声音，词典另参见 derak。依据 [DBP《Kamus Dewan》第四版](https://prpm.dbp.gov.my/Cari1?d=241100&keyword=rak)。",
+      "collocations": [
+        {
+          "ms": "bunyi rak",
+          "zh": "刮擦声或咔嚓声",
+          "en": "a scratching or cracking sound"
+        },
+        {
+          "ms": "rak-rok",
+          "zh": "树木折断的咔嚓声",
+          "en": "the cracking of breaking trees"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于摆放书籍、碗碟、鞋子等物品的架子或层架。",
+      "en_definition": "A rack or shelving unit for holding books, crockery, shoes, or other objects.",
+      "ms_definition": "Sejenis para-para daripada kayu atau logam untuk meletakkan pinggan mangkuk, buku dan sebagainya.",
+      "nuances": "对应 rak II，是日常生活中的常用义，与拟声义同形同音。Rak 通常指架子或整组层架；要明确其中一层，可说 satu tingkat rak。义项见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=241100&keyword=rak)。",
+      "collocations": [
+        {
+          "ms": "rak buku",
+          "zh": "书架",
+          "en": "bookshelf"
+        },
+        {
+          "ms": "rak kasut",
+          "zh": "鞋架",
+          "en": "shoe rack"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "稀疏的灌丛或杂草丛。",
+      "en_definition": "Sparse scrub or undergrowth, in Kelantan dialect.",
+      "ms_definition": "Semak-samun yang tipis.",
+      "nuances": "对应词典标注 Kl 的 rak III，限吉兰丹方言语境。下列为说明此义的描述性组合；全国通行的正式表达宜用 semak-samun。地域标记见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=241100&keyword=rak)。",
+      "collocations": [
+        {
+          "ms": "rak nipis",
+          "zh": "稀疏的杂草灌丛",
+          "en": "thin scrub"
+        },
+        {
+          "ms": "rak di tepi jalan",
+          "zh": "路边的稀疏杂草丛",
+          "en": "sparse roadside undergrowth"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak perpustakaan menyediakan rak buku tambahan untuk menampung pertambahan koleksi bahan bacaan.",
+      "zh": "图书馆增设书架，以容纳不断增加的阅读馆藏。",
+      "en": "The library is providing additional bookshelves to accommodate its growing collection."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah letak buku kau kat rak tu.",
+      "ms_standard": "Saya sudah meletakkan buku kamu di rak itu.",
+      "zh": "你的书我已经放在那个架子上了。",
+      "en": "I've put your book on that shelf.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "kat 在此对应表示位置的 di。",
+        "tu 是 itu 的口语缩略形式。",
+        "aku、kau 用于熟人之间的非正式交流。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (室友)",
+          "ms_spoken": "Buku aku yang atas meja tadi mana? Nak baca kejap.",
+          "ms_standard": "Di manakah buku saya yang berada di atas meja tadi? Saya mahu membacanya sebentar.",
+          "zh": "刚才放桌上的那本书呢？我想看一会儿。",
+          "en": "Where's the book I left on the table? I want to read for a bit."
+        },
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Aku dah letak kat rak sebelah sofa tu. Ambil je.",
+          "ms_standard": "Saya sudah meletakkannya di rak di sebelah sofa itu. Ambillah.",
+          "zh": "我已经放到沙发旁边那个架子上了，拿吧。",
+          "en": "I've put it on the shelf next to the sofa. Go ahead and grab it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kamus Dewan preserves three homonyms under rak: an imitative sound word, a household storage structure, and a Kelantan term for sparse scrub. The sound entry points readers to derak and records rak-rok for breaking trees. These records capture different strands of Malay vocabulary; they do not establish a common historical origin for the three homonyms. [DBP](https://prpm.dbp.gov.my/Cari1?d=241100&keyword=rak)",
+    "cognitive_memory_aid": "读 rak 时在元音后突然收住喉头：[raʔ]。用两个画面分别记忆：书放在架子上；木头突然“咔”地折断。同音不代表同一词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "置物架义是中性日常词，没有特殊敬语要求。请别人取放物品时，可说 Boleh tolong letakkan buku ini di rak?；比直接命令更适合不熟悉的人。",
+    "usage_etiquette": "家居、学校、图书馆和办公室通常使用置物架义。拟声义适合叙事和声音描写；吉兰丹的灌丛义需要地域语境，否则听者容易理解成架子。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "置物架义是中性日常词，没有特殊敬语要求。请别人取放物品时，可说 Boleh tolong letakkan buku ini di rak?；比直接命令更适合不熟悉的人。",
+    "usage_etiquette": "家居、学校、图书馆和办公室通常使用置物架义。拟声义适合叙事和声音描写；吉兰丹的灌丛义需要地域语境，否则听者容易理解成架子。"
+  }
+}

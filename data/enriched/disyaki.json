@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "disyaki",
+    "syllables": "di.sya.ki",
+    "ipa": "/di.ʃa.ki/",
+    "jawi": "شک",
+    "frequency_rank": 5694,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "syak",
+    "affix": "di-...-i",
+    "affix_type": "circumfix",
+    "formula": "di- + syak + -i → disyaki；对应主动形式：mengesyaki",
+    "pattern_note": "di- 标示被动，-i 保留；严格说是前缀与后缀的组合，此处按给定类别归入 circumfix。sy 表示单个辅音 /ʃ/，加 -i 后 k 成为下一音节的起首。jawi 字段按数据包保留，但 شک 实为词根 syak 的写法，未包含完整派生形式。",
+    "word_family": [
+      {
+        "word": "syak",
+        "affix": null,
+        "gloss": "疑心；怀疑"
+      },
+      {
+        "word": "mengesyaki",
+        "affix": "meN-...-i",
+        "gloss": "怀疑某人或某事"
+      }
+    ],
+    "root_jawi": "شک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被怀疑与某种行为、事件或问题有关；受到猜疑。",
+      "en_definition": "To be suspected of involvement in an act, event, or problem.",
+      "ms_definition": "Dipandang dengan rasa curiga atau dianggap mungkin terlibat dalam sesuatu perkara.",
+      "nuances": "是 mengesyaki 的被动形式，表达尚未确定的怀疑。可接涉嫌行为的动词短语，也可用 disyaki oleh 指明怀疑者。释义依据 [DBP：syak](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=syak)。",
+      "collocations": [
+        {
+          "ms": "disyaki terlibat",
+          "zh": "被怀疑涉入",
+          "en": "be suspected of involvement"
+        },
+        {
+          "ms": "disyaki mencuri",
+          "zh": "被怀疑偷窃",
+          "en": "be suspected of stealing"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "根据迹象被初步推测为具有某种情况或发生了某事，尚待确认。",
+      "en_definition": "To be provisionally thought to have a condition or to have undergone an event.",
+      "ms_definition": "Diduga mengalami keadaan atau kejadian tertentu berdasarkan petunjuk yang belum disahkan.",
+      "nuances": "不限于犯罪或品行问题；新闻及专业报告也用它表达未确认的判断。disyaki 与 disahkan 的确定程度不同。",
+      "collocations": [
+        {
+          "ms": "disyaki dijangkiti",
+          "zh": "疑似受到感染",
+          "en": "be suspected of being infected"
+        },
+        {
+          "ms": "disyaki berpunca daripada",
+          "zh": "被初步认为源于",
+          "en": "be suspected of resulting from"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kerosakan mesin itu disyaki berpunca daripada gangguan bekalan elektrik, dan pemeriksaan lanjut sedang dijalankan.",
+      "zh": "机器故障初步被认为与供电中断有关，目前正进行进一步检查。",
+      "en": "The machine failure is suspected to have resulted from a power interruption, and further inspections are underway."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Berita tu kata dia disyaki mencuri je, belum tentu dia yang buat.",
+      "ms_standard": "Berita itu hanya menyatakan bahawa dia disyaki mencuri; belum tentu dialah yang melakukannya.",
+      "zh": "新闻只是说他涉嫌偷窃，还不一定就是他干的。",
+      "en": "The report only says he's suspected of theft. That doesn't mean he did it.",
+      "spoken_features": [
+        "tu 对应 itu；je 对应 sahaja。",
+        "省略 bahawa，使转述更接近日常口语。",
+        "disyaki 保留新闻用语色彩；普通聊天也常说 orang syak dia。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Berita tu kata dia disyaki mencuri je, belum tentu dia yang buat.",
+          "ms_standard": "Berita itu hanya menyatakan bahawa dia disyaki mencuri; belum tentu dialah yang melakukannya.",
+          "zh": "新闻只是说他涉嫌偷窃，还不一定就是他干的。",
+          "en": "The report only says he's suspected of theft. That doesn't mean he did it."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Betul lah. Jangan terus tuduh dia kat dalam grup.",
+          "ms_standard": "Betul. Jangan terus menuduhnya dalam kumpulan perbualan itu.",
+          "zh": "对啊，别直接在群里指控他。",
+          "en": "Exactly. Don't start accusing him in the group chat."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Syak comes from Arabic shakk, meaning doubt. Malay integrates the borrowed stem into its own grammar: mengesyaki presents the person doing the suspecting, while disyaki places the suspected person or situation in focus. The word therefore connects an older vocabulary of uncertainty with modern reporting. Arabic borrowing and consonant simplification are discussed in this [linguistic study](https://fbmk.upm.edu.my/dokumen/FKBMK1_MAHAWANGSA_Vol_2%281%29_Jun_2015.pdf).",
+    "cognitive_memory_aid": "syak 是“疑”；看到 di- 就把镜头转向被怀疑的一方：disyaki＝被怀疑。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "涉及个人名誉时，应保留 disyaki 表达的不确定性，并注明消息来源。直接对人说 awak disyaki 会显得严肃，甚至带有审问意味。",
+    "usage_etiquette": "适用于转述初步判断、调查消息及待确认情况。不要把 disyaki 翻译成已经证实的事实，也不要据此给他人贴上确定性的标签。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "涉及个人名誉时，应保留 disyaki 表达的不确定性，并注明消息来源。直接对人说 awak disyaki 会显得严肃，甚至带有审问意味。",
+    "usage_etiquette": "适用于转述初步判断、调查消息及待确认情况。不要把 disyaki 翻译成已经证实的事实，也不要据此给他人贴上确定性的标签。"
+  }
+}

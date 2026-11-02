@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "transaksi",
+    "syllables": "tran.sak.si",
+    "ipa": "/tran.sak.si/",
+    "jawi": "ترنسکسي",
+    "frequency_rank": 5712,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "transaksi",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + transaksi → transaksi",
+    "pattern_note": "现代马来语中作为完整借词词根使用；不把 trans- 或 -aksi 当作本词的马来语生产性词缀。",
+    "word_family": [],
+    "root_jawi": "ترنسکسي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "商业往来中的付款结算，亦指一次支付或资金处理业务。",
+      "en_definition": "The settlement of a commercial payment; a payment transaction.",
+      "ms_definition": "Penyelesaian pembayaran dalam perniagaan atau perdagangan.",
+      "nuances": "常见于银行、电子支付和收据语境；交易状态可为成功、失败或处理中，不能单凭出现 transaksi 就认定已经付款成功。",
+      "collocations": [
+        {
+          "ms": "transaksi pembayaran",
+          "zh": "支付交易",
+          "en": "a payment transaction"
+        },
+        {
+          "ms": "transaksi tanpa tunai",
+          "zh": "无现金交易",
+          "en": "a cashless transaction"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "买卖协议或商业交易；涉及商品、服务等的交易业务。",
+      "en_definition": "A purchase or sale agreement; a commercial transaction or business dealing.",
+      "ms_definition": "Persetujuan jual beli atau urusan jual beli dalam perdagangan; urus niaga.",
+      "nuances": "范围比单次付款更广，可指整项买卖活动。Kamus Dewan 的 IB 标记说明其印尼语用法背景；该词也见于马来西亚现代商业和技术语境，可按场合使用 urus niaga。[来源：DBP](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=transaksi)。",
+      "collocations": [
+        {
+          "ms": "transaksi jual beli",
+          "zh": "买卖交易",
+          "en": "a purchase and sale transaction"
+        },
+        {
+          "ms": "transaksi hartanah",
+          "zh": "房地产交易",
+          "en": "a property transaction"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "数据库或相关信息系统中作为一个完整逻辑单位处理的一项操作或一组操作。",
+      "en_definition": "An operation or group of operations treated as a single logical unit in a database or information system.",
+      "ms_definition": "Proses interaksi atau aktiviti dengan sistem pengurusan pangkalan data yang membentuk satu unit yang koheren dan boleh dipercayai serta bebas daripada transaksi lain.",
+      "nuances": "这是信息技术专门义，处理对象可以是数据，无须涉及金钱；不能一律译成“付款”。[来源：DBP 技术术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=transaksi)。",
+      "collocations": [
+        {
+          "ms": "transaksi pangkalan data",
+          "zh": "数据库事务",
+          "en": "a database transaction"
+        },
+        {
+          "ms": "pemprosesan transaksi",
+          "zh": "事务处理",
+          "en": "transaction processing"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 财务汇报",
+      "ms": "Semua transaksi pembayaran hendaklah direkodkan dalam sistem kewangan syarikat.",
+      "zh": "所有支付交易均须记录在公司的财务系统中。",
+      "en": "All payment transactions must be recorded in the company's financial system."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认转账",
+      "ms_spoken": "Transaksi tadi dah berjaya, kan?",
+      "ms_standard": "Transaksi tadi sudah berjaya, bukan?",
+      "zh": "刚才那笔交易成功了，对吧？",
+      "en": "That transaction went through, right?",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "kan 用于请求对方确认。",
+        "kat 对应 di，je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Transaksi tadi dah berjaya, kan? Kat aplikasi aku masih tulis sedang diproses.",
+          "ms_standard": "Transaksi tadi sudah berjaya, bukan? Dalam aplikasi saya, statusnya masih dinyatakan sebagai sedang diproses.",
+          "zh": "刚才那笔交易成功了吧？我的应用里还显示处理中。",
+          "en": "That transaction went through, right? My app still says it's processing."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum pasti lagi. Tunggu je dulu, nanti kita semak semula.",
+          "ms_standard": "Kejayaannya belum dapat dipastikan. Tunggu dahulu, kemudian kita semak semula.",
+          "zh": "还不确定。先等等，待会儿我们再查一下。",
+          "en": "I'm not sure yet. Let's give it a moment and check again."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kamus Dewan marks transaksi as Indonesian usage. Its international relatives include English transaction, whose history reaches Latin transactio, an agreement or accomplishment. The historical association with settling affairs helps illuminate the Malay word's linked senses of payment settlement and commercial dealing, without establishing a precise borrowing route into Malay. [Sources: DBP](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=transaksi), [Etymonline](https://www.etymonline.com/word/transaction).",
+    "cognitive_memory_aid": "把 transaksi 与英语 transaction 对照记忆：同一笔交易从买卖约定走到付款结算；马来语读 tran-sak-si。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是银行、商业和技术沟通中的中性用词。向客户确认情况时，boleh semak status transaksi ini? 比直接指责对方未付款更得体。",
+    "usage_etiquette": "适用于付款记录、交易凭证、商业报告和系统说明。对一般听众可用 urus niaga 解释商业义；技术场合应明确是否指数据库事务。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是银行、商业和技术沟通中的中性用词。向客户确认情况时，boleh semak status transaksi ini? 比直接指责对方未付款更得体。",
+    "usage_etiquette": "适用于付款记录、交易凭证、商业报告和系统说明。对一般听众可用 urus niaga 解释商业义；技术场合应明确是否指数据库事务。"
+  }
+}

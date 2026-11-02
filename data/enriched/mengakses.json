@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "mengakses",
+    "syllables": "me.ngak.sés",
+    "ipa": "/mə.ŋak.ses/",
+    "jawi": "اکسيسوري",
+    "frequency_rank": 5770,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "akses",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + akses → mengakses",
+    "pattern_note": "meN- 在元音 a 前采用 meng-，保留词根 akses。syllables 由输入的 DBP 注音恢复；é 表示 /e/，不是 /ə/。输入 Jawi اکسيسوري 实际拼写 aksesori，与词头不符；此处按要求保留原字段，不应作为 mengakses 的正确拼写学习。原网页亦存在这一错配：[DBP：mengakses](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengakses)。",
+    "word_family": [
+      {
+        "word": "akses",
+        "affix": null,
+        "gloss": "访问；获取或使用的途径、机会"
+      },
+      {
+        "word": "diakses",
+        "affix": "di-",
+        "gloss": "被访问；被获取或使用"
+      }
+    ],
+    "root_jawi": "اکسيس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "访问、获取或使用文件、数据、信息等资源，尤其指通过电脑或网络进行访问。",
+      "en_definition": "To gain access to or retrieve and use a resource, especially computer files, data, or information.",
+      "ms_definition": "Mendapat atau memperoleh akses kepada sesuatu, seperti fail komputer, data atau maklumat.",
+      "nuances": "是及物动词，通常直接接宾语，如 mengakses data。访问不等于下载、编辑或取得所有权，也不必然意味着已获授权；是否有权限须另行说明。",
+      "collocations": [
+        {
+          "ms": "mengakses maklumat",
+          "zh": "获取信息",
+          "en": "access information"
+        },
+        {
+          "ms": "mengakses pangkalan data",
+          "zh": "访问数据库",
+          "en": "access a database"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kakitangan boleh mengakses pangkalan data tersebut melalui portal dalaman menggunakan akaun masing-masing.",
+      "zh": "员工可使用各自的账号，通过内部平台访问该数据库。",
+      "en": "Staff can access the database through the internal portal using their individual accounts."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah cuba mengakses fail tu, tapi tak boleh buka lah.",
+      "ms_standard": "Saya sudah cuba mengakses fail itu, tetapi saya tidak dapat membukanya.",
+      "zh": "我已经试着访问那个文件了，可就是打不开。",
+      "en": "I've tried accessing that file, but I just can't open it.",
+      "spoken_features": [
+        "dah、tu、tak 分别对应 sudah、itu、tidak。",
+        "lah 在这里表达无奈，标准句通常不另译。",
+        "技术动词 mengakses 可保留完整形式，与口语成分混用。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku dah cuba mengakses fail tu, tapi tak boleh buka lah.",
+          "ms_standard": "Saya sudah cuba mengakses fail itu, tetapi saya tidak dapat membukanya.",
+          "zh": "我已经试着访问那个文件了，可就是打不开。",
+          "en": "I've tried accessing that file, but I just can't open it."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah log masuk ke? Cuba guna akaun pejabat je.",
+          "ms_standard": "Adakah kamu sudah log masuk? Cuba gunakan akaun pejabat sahaja.",
+          "zh": "你登录了吗？试试直接用公司账号。",
+          "en": "Have you logged in? Try using your work account."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mengakses shows how Malay builds a verb from the base akses using its productive meN- prefix. Before the initial vowel, that prefix appears as meng-. DBP's examples place the verb in the world of computer data and smart-card access to books, illustrating how an established Malay grammatical pattern accommodates the vocabulary of modern information systems. [Source: DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengakses).",
+    "cognitive_memory_aid": "akses 联想英语 access；加上表示主动行为的 meng-：mengakses，就是“去访问、获取资源”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适用于技术说明、公文和工作沟通。求助时可说 Boleh bantu saya mengakses fail ini?，比直接命令对方开放访问更客气。",
+    "usage_etiquette": "描述个人文件或工作系统时，应区分“能够访问”与“获准访问”。日常聊天也常直接说 buka fail 或 guna sistem，具体取决于要表达打开文件还是使用系统。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适用于技术说明、公文和工作沟通。求助时可说 Boleh bantu saya mengakses fail ini?，比直接命令对方开放访问更客气。",
+    "usage_etiquette": "描述个人文件或工作系统时，应区分“能够访问”与“获准访问”。日常聊天也常直接说 buka fail 或 guna sistem，具体取决于要表达打开文件还是使用系统。"
+  }
+}

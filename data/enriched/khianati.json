@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "khianati",
+    "syllables": null,
+    "ipa": "/xianati/",
+    "jawi": "خيانت",
+    "frequency_rank": 5760,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "khianat",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "khianat + -i → khianati",
+    "pattern_note": "后缀 -i 接在词根后，末尾 t 保留；kh 表示 /x/，部分说话者读作 /h/。khianati 用于祈使句及 saya、kami、kita 等参与的第二式被动结构；普通主动陈述通常用 mengkhianati。输入包未提供音节，故保留 null；可按 khia.na.ti 教学。headword.jawi 按输入保留，但 خيانت 对应词根 khianat，khianati 的完整拼写应为 خيانتي。",
+    "word_family": [
+      {
+        "word": "mengkhianati",
+        "affix": "meN-...-i",
+        "gloss": "背叛；辜负；出卖"
+      },
+      {
+        "word": "berkhianat",
+        "affix": "ber-",
+        "gloss": "作出背叛行为"
+      },
+      {
+        "word": "pengkhianat",
+        "affix": "peN-",
+        "gloss": "叛徒；背信者"
+      },
+      {
+        "word": "pengkhianatan",
+        "affix": "peN-...-an",
+        "gloss": "背叛；背信行为"
+      }
+    ],
+    "root_jawi": "خيانت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "背叛某人、团体或国家；违背应有的忠诚。",
+      "en_definition": "To betray a person, group, or country by acting disloyally.",
+      "ms_definition": "Berbuat khianat kepada seseorang atau sesuatu pihak dengan membelot atau tidak setia.",
+      "nuances": "这是及物动词形式，宾语直接接在后面。Jangan khianati negara 是祈使结构；普通主动陈述用 Dia mengkhianati negara。词义依据 [DBP 的 khianat／mengkhianati 词条](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=khianat)转述。",
+      "collocations": [
+        {
+          "ms": "jangan khianati negara",
+          "zh": "不要背叛国家",
+          "en": "do not betray the country"
+        },
+        {
+          "ms": "sahabat yang tidak akan saya khianati",
+          "zh": "我绝不会背叛的朋友",
+          "en": "a friend I would never betray"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "辜负信任、背弃托付或违反所承担的责任。",
+      "en_definition": "To betray trust or violate a responsibility entrusted to oneself.",
+      "ms_definition": "Tidak menjaga kepercayaan atau amanah yang telah diberikan.",
+      "nuances": "是背叛义用于抽象宾语的常见延伸；不必涉及投敌，但仍带有强烈的道德谴责。正式主动形式为 mengkhianati kepercayaan 或 mengkhianati amanah。",
+      "collocations": [
+        {
+          "ms": "jangan khianati amanah",
+          "zh": "不要辜负托付",
+          "en": "do not betray the trust placed in you"
+        },
+        {
+          "ms": "kepercayaan yang tidak akan kami khianati",
+          "zh": "我们绝不会辜负的信任",
+          "en": "trust that we will never betray"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "以欺骗、恶意陷害或破坏行为伤害某人。",
+      "en_definition": "To harm someone through deceit, treachery, or malicious interference.",
+      "ms_definition": "Memperdaya atau melakukan perbuatan jahat yang mendatangkan kecelakaan kepada orang lain.",
+      "nuances": "承接词根中恶意加害、欺骗的含义，不限于国家忠诚。它暗示蓄意作恶，通常不用于无心造成的失误。",
+      "collocations": [
+        {
+          "ms": "jangan khianati orang lain",
+          "zh": "不要恶意加害他人",
+          "en": "do not act treacherously towards others"
+        },
+        {
+          "ms": "orang yang kamu khianati",
+          "zh": "遭你欺骗或加害的人",
+          "en": "the person you have wronged through treachery"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Amanah yang diberikan oleh rakyat tidak akan kami khianati.",
+      "zh": "我们绝不会辜负人民的托付。",
+      "en": "We will never betray the trust placed in us by the people."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Jangan khianati kepercayaan aku, ya. Aku cerita kat kau je.",
+      "ms_standard": "Jangan khianati kepercayaan saya. Saya hanya menceritakan perkara ini kepada kamu.",
+      "zh": "别辜负我的信任啊。这事我只告诉了你。",
+      "en": "Don't betray my trust, okay? You're the only person I've told.",
+      "spoken_features": [
+        "aku、kau 是熟人之间的非正式人称代词。",
+        "kat 在这里对应 kepada；je 对应 sahaja。",
+        "ya 在请求末尾缓和语气，但 khianati 本身仍语气较重。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (好友)",
+          "ms_spoken": "Jangan khianati kepercayaan aku, ya. Aku cerita kat kau je.",
+          "ms_standard": "Jangan khianati kepercayaan saya. Saya hanya menceritakan perkara ini kepada kamu.",
+          "zh": "别辜负我的信任啊。这事我只告诉了你。",
+          "en": "Don't betray my trust, okay? You're the only person I've told."
+        },
+        {
+          "speaker": "Aina (好友)",
+          "ms_spoken": "Aku faham lah. Aku takkan cerita kat orang lain.",
+          "ms_standard": "Saya faham. Saya tidak akan menceritakan perkara ini kepada orang lain.",
+          "zh": "我明白啦，不会告诉别人的。",
+          "en": "I understand. I won't tell anyone else."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Khianat comes from Arabic khiyānah, meaning treachery or betrayal. In Malay, the borrowed base participates in local word formation: khianati adds the suffix i, while mengkhianati supplies the usual active form. Historical Malay usage connects the word with betrayal of people and communities, illustrating how an Arabic ethical term became part of everyday Malay vocabulary. See [ANU's Malay Concordance Project](https://mcp.anu.edu.au/papers/laffan_apc.php).",
+    "cognitive_memory_aid": "先记 khianat＝背叛，再加 -i 指向被背叛的对象：khianati amanah＝辜负托付；主动陈述再加 meng-：mengkhianati。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是强烈的道德指责。对同事或长辈直接说 Jangan khianati saya 容易带出不信任或对抗；一般保密请求用 Tolong rahsiakan perkara ini 更自然。",
+    "usage_etiquette": "适用于背叛、泄密、背信和重大失责等严肃语境。朋友间可以夸张使用，但不宜把普通分歧、拒绝帮忙或无心失误轻率称为背叛。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是强烈的道德指责。对同事或长辈直接说 Jangan khianati saya 容易带出不信任或对抗；一般保密请求用 Tolong rahsiakan perkara ini 更自然。",
+    "usage_etiquette": "适用于背叛、泄密、背信和重大失责等严肃语境。朋友间可以夸张使用，但不宜把普通分歧、拒绝帮忙或无心失误轻率称为背叛。"
+  }
+}

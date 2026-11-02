@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "berbaris",
+    "syllables": "ber.ba.ris",
+    "ipa": "/bər.ba.ris/",
+    "jawi": "برباريس",
+    "frequency_rank": 5723,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "baris",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + baris → berbaris",
+    "pattern_note": "ber- 接 baris 时保持完整形式，词干不变。ber- 可表达处于某种状态、参与某种活动或具有某物；此处随语境表示成行、列队或带有线条。",
+    "word_family": [
+      {
+        "word": "baris",
+        "affix": null,
+        "gloss": "行；排；线"
+      },
+      {
+        "word": "barisan",
+        "affix": "-an",
+        "gloss": "队列；行列"
+      },
+      {
+        "word": "membariskan",
+        "affix": "meN-...-kan",
+        "gloss": "使排成队列；排列"
+      },
+      {
+        "word": "sebaris",
+        "affix": "se-",
+        "gloss": "一行；同一排"
+      }
+    ],
+    "root_jawi": "باريس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "排列成行、成排或呈连续的行列，尤指物体的排列状态。",
+      "en_definition": "To stand or be arranged in rows or a line.",
+      "ms_definition": "Tersusun dalam baris-baris tertentu; berderet, berbanjar atau berjajar.",
+      "nuances": "不必有人主动排队；树木、房屋或其他物体也可 berbaris。用于景物描写时常带有整齐延伸的视觉感。",
+      "collocations": [
+        {
+          "ms": "pokok berbaris",
+          "zh": "树木排列成行",
+          "en": "trees standing in rows"
+        },
+        {
+          "ms": "rumah berbaris",
+          "zh": "房屋排列成行",
+          "en": "houses standing in a row"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "多人按一定队形站立或行进；排队、列队或操练队列。",
+      "en_definition": "To form a line or stand or march together in an ordered formation.",
+      "ms_definition": "Berdiri, berjalan dan sebagainya beramai-ramai dalam baris tertentu.",
+      "nuances": "既可指日常排队，也可指学校、制服团体或军队的列队活动。berbaris 本身不保证正在行进；kawad kaki 更明确指步操训练。该词通常不带直接宾语，使别人列队则用 membariskan。",
+      "collocations": [
+        {
+          "ms": "berbaris mengikut giliran",
+          "zh": "按先后次序排队",
+          "en": "to queue in turn"
+        },
+        {
+          "ms": "berbaris dalam tiga barisan",
+          "zh": "列成三排",
+          "en": "to form three ranks"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "带有线条或被加上线条，如纸上有横线、文字下方有划线。",
+      "en_definition": "To have or be marked with lines, as on ruled paper or beneath underlined text.",
+      "ms_definition": "Mempunyai atau dibubuhi baris atau garis; bergaris.",
+      "nuances": "这是“具有线条”的状态义，不是排队义。现代教学指令中，bergaris 或 bergaris bawah 往往更明确；berbaris 也不必然表示文字下划线，须结合修饰语判断。",
+      "collocations": [
+        {
+          "ms": "kertas berbaris",
+          "zh": "横线纸",
+          "en": "ruled paper"
+        },
+        {
+          "ms": "ayat yang berbaris di bawahnya",
+          "zh": "下方划了线的句子",
+          "en": "an underlined sentence"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "学校通知：集合安排",
+      "ms": "Semua murid dikehendaki berbaris di tapak perhimpunan sebelum pukul tujuh setengah pagi.",
+      "zh": "所有学生须在早上七点半之前到集合场地列队。",
+      "en": "All pupils are required to line up at the assembly area before 7:30 a.m."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：朋友在售票柜台外碰面",
+      "ms_spoken": "Aku dah berbaris kat luar kaunter. Kau kat mana?",
+      "ms_standard": "Saya sudah berbaris di luar kaunter. Kamu berada di mana?",
+      "zh": "我已经在柜台外排队了。你在哪儿？",
+      "en": "I'm already queuing outside the counter. Where are you?",
+      "spoken_features": [
+        "dah 对应 sudah；kat 在此对应 di。",
+        "aku、kau 适用于关系熟悉的平辈。",
+        "nak 对应 hendak；强调性的 lah 在此表达轻微提醒。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah berbaris kat luar kaunter. Kau kat mana?",
+          "ms_standard": "Saya sudah berbaris di luar kaunter. Kamu berada di mana?",
+          "zh": "我已经在柜台外排队了。你在哪儿？",
+          "en": "I'm already queuing outside the counter. Where are you?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku baru sampai. Aku nak berbaris kat belakang sekali lah.",
+          "ms_standard": "Saya baru sampai. Saya hendak berbaris di hujung belakang barisan.",
+          "zh": "我刚到。我去队尾排吧。",
+          "en": "I've just arrived. I'll join the back of the queue."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "A line provides the shared image behind this word's meanings. With ber-, baris can describe objects standing in rows, people forming a queue, or a surface carrying lines. The supplied Kamus Dewan entry places rubber trees beside collective standing and walking, connecting a familiar plantation landscape with the everyday organisation of people in space.",
+    "cognitive_memory_aid": "baris＝“一排”；加 ber-，就进入“成排”的状态：树成排、人排队、纸有横线。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "要求公众排队时，Sila berbaris… 比单独命令 Berbaris! 更客气。学校或步操场景中的简短口令语气较直接，应按角色和场合使用。",
+    "usage_etiquette": "日常候车、购票或办事时，排在队尾并遵守先后次序。需要确认队尾可问 Ini hujung barisan, ya?；插队通常称为 memotong barisan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "要求公众排队时，Sila berbaris… 比单独命令 Berbaris! 更客气。学校或步操场景中的简短口令语气较直接，应按角色和场合使用。",
+    "usage_etiquette": "日常候车、购票或办事时，排在队尾并遵守先后次序。需要确认队尾可问 Ini hujung barisan, ya?；插队通常称为 memotong barisan。"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "menyekat",
+    "syllables": "me.nye.kat",
+    "ipa": "/mə.ɲə.kat/",
+    "jawi": "مڽکت",
+    "frequency_rank": 5656,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sekat",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + sekat → menyekat",
+    "pattern_note": "词根为 sekat。meN- 接此类 s 开头词根时实现为 meny-，原有 s 脱落：sekat → menyekat；ny 表示单一鼻音 /ɲ/。[DBP：sekat 及其派生词](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sekat)",
+    "word_family": [
+      {
+        "word": "sekatan",
+        "affix": "-an",
+        "gloss": "阻碍；限制；封锁"
+      },
+      {
+        "word": "tersekat",
+        "affix": "ter-",
+        "gloss": "受阻；卡住"
+      },
+      {
+        "word": "penyekat",
+        "affix": "peN-",
+        "gloss": "阻挡物；隔板"
+      },
+      {
+        "word": "penyekatan",
+        "affix": "peN-…-an",
+        "gloss": "阻止、限制或封锁的行为"
+      }
+    ],
+    "root_jawi": "سکت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用隔板、墙、帘幕等将空间隔开或分成若干部分。",
+      "en_definition": "To partition or separate a space with a barrier.",
+      "ms_definition": "Membahagikan ruang menggunakan dinding, tabir atau pengadang.",
+      "nuances": "强调设置实体分隔。menyekat ruang 是主动分隔空间；ruang bersekat 描述空间已有隔断。词义参照 [DBP：sekat](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sekat)。",
+      "collocations": [
+        {
+          "ms": "menyekat ruang",
+          "zh": "分隔空间",
+          "en": "partition a space"
+        },
+        {
+          "ms": "menyekat bilik dengan tabir",
+          "zh": "用帘幕隔开房间",
+          "en": "divide a room with a curtain"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "阻挡通行、流动或发展；遏制扩散；限制接触、使用或取得某物。",
+      "en_definition": "To block, restrain, or restrict movement, spread, progress, or access.",
+      "ms_definition": "Menghalang pergerakan, mengehadkan akses atau membendung sesuatu daripada merebak dan meluas.",
+      "nuances": "可指实体阻挡，也可指网络访问、自由或机会受到限制。通常带宾语；一般禁止行为可用 melarang，不能在所有语境中互换。[DBP：sekat](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sekat)",
+      "collocations": [
+        {
+          "ms": "menyekat laluan",
+          "zh": "阻挡通道",
+          "en": "block a passage"
+        },
+        {
+          "ms": "menyekat penularan penyakit",
+          "zh": "遏制疾病传播",
+          "en": "curb the spread of disease"
+        },
+        {
+          "ms": "menyekat akses",
+          "zh": "限制访问",
+          "en": "restrict access"
+        },
+        {
+          "ms": "menyekat kebebasan",
+          "zh": "限制自由",
+          "en": "restrict freedom"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "限制自己的活动范围；把自己隔离或拘束起来。",
+      "en_definition": "To confine or isolate oneself.",
+      "ms_definition": "Mengehadkan pergerakan atau pergaulan diri sendiri.",
+      "nuances": "通常与 diri 连用；较少见于日常口语，自我隔离也常表达为 mengasingkan diri。[DBP：sekat](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sekat)",
+      "collocations": [
+        {
+          "ms": "menyekat diri",
+          "zh": "自我限制；自我隔离",
+          "en": "confine oneself"
+        },
+        {
+          "ms": "menyekat diri daripada bergaul",
+          "zh": "限制自己与他人交往",
+          "en": "keep oneself from socializing"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 信息安全通知",
+      "ms": "Pihak syarikat akan menyekat akses kepada laman web tersebut bagi melindungi keselamatan data.",
+      "zh": "公司将限制对该网站的访问，以保障数据安全。",
+      "en": "The company will block access to that website to protect data security."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论打不开的网站",
+      "ms_spoken": "Sistem pejabat ni menyekat laman tu ke? Aku dah cuba, tapi tak boleh buka.",
+      "ms_standard": "Adakah sistem pejabat ini menyekat laman tersebut? Saya sudah mencubanya, tetapi laman itu tidak dapat dibuka.",
+      "zh": "是办公室的系统把那个网站封了吗？我试过了，打不开。",
+      "en": "Is the office system blocking that site? I've tried, but I can't open it.",
+      "spoken_features": [
+        "ni、tu 分别对应 ini、itu。",
+        "句末 ke 标记口语疑问，标准语可用 adakah。",
+        "dah、tak 分别对应 sudah、tidak；口语省略可由上下文补足的宾语。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Sistem pejabat ni menyekat laman tu ke? Aku dah cuba, tapi tak boleh buka.",
+          "ms_standard": "Adakah sistem pejabat ini menyekat laman tersebut? Saya sudah mencubanya, tetapi laman itu tidak dapat dibuka.",
+          "zh": "是办公室的系统把那个网站封了吗？我试过了，打不开。",
+          "en": "Is the office system blocking that site? I've tried, but I can't open it."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Mungkin. Aku nak tanya bahagian IT dulu.",
+          "ms_standard": "Mungkin. Saya hendak bertanya kepada bahagian teknologi maklumat terlebih dahulu.",
+          "zh": "可能吧。我先问问信息技术部门。",
+          "en": "Maybe. I'll check with IT first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base sekat names a partition or barrier, making menyekat easy to visualize: someone puts a boundary across a space or path. The same barrier image organizes uses involving disease, access, and freedom. This is a connection among documented meanings, rather than a claim that their historical order has been established. [DBP: sekat](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sekat)",
+    "cognitive_memory_aid": "先想 sekat 是“隔挡”；加 meN-，s 换成 ny，成为 menyekat：“动手隔开、挡住”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性，但说 seseorang menyekat saya 可能带受阻或受控制的指责。工作沟通中宜说明具体被限制的通道、权限或行为。",
+    "usage_etiquette": "适用于空间分隔、通行阻挡、传播控制及访问限制。描述他人社交边界时应避免轻率认定其是在“阻挠”自己。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性，但说 seseorang menyekat saya 可能带受阻或受控制的指责。工作沟通中宜说明具体被限制的通道、权限或行为。",
+    "usage_etiquette": "适用于空间分隔、通行阻挡、传播控制及访问限制。描述他人社交边界时应避免轻率认定其是在“阻挠”自己。"
+  }
+}

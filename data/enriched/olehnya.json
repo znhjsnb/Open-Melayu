@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "olehnya",
+    "syllables": null,
+    "ipa": "/o.leh.ɲa/",
+    "jawi": "اوليه",
+    "frequency_rank": 5660,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "oleh",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "oleh + -nya → olehnya",
+    "pattern_note": "-nya 是附着在词后的第三人称代词附着语，不是派生后缀；此处按给定分类记为 suffix。词根不变，ny 读 /ɲ/。输入未提供音节，故保留 null；分析可分为 o.leh.nya。输入 Jawi اوليه 实为 oleh 的拼写，完整 olehnya 应写作 اوليهڽ。",
+    "word_family": [
+      {
+        "word": "olehku",
+        "affix": "-ku",
+        "gloss": "由我"
+      },
+      {
+        "word": "olehmu",
+        "affix": "-mu",
+        "gloss": "由你"
+      },
+      {
+        "word": "memperoleh",
+        "affix": "memper-",
+        "gloss": "获得；取得"
+      }
+    ],
+    "root_jawi": "اوليه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "由他或她；在被动句中指明前文所述的第三人称施事者。",
+      "en_definition": "By him or her; identifying a previously mentioned third-person agent in a passive construction.",
+      "ms_definition": "Oleh orang yang telah disebut, sebagai penanda pelaku dalam ayat pasif.",
+      "nuances": "整体是 oleh 加第三人称代词的介词短语，按核心词归为 preposition；-nya 本身不区分男女，须从前文判断所指。正式写作中常见，口语通常使用 oleh dia 或改为主动句。[DBP 对 oleh 的释义](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=oleh)",
+      "collocations": [
+        {
+          "ms": "ditulis olehnya",
+          "zh": "由他或她撰写",
+          "en": "written by him or her"
+        },
+        {
+          "ms": "dilakukan olehnya",
+          "zh": "由他或她实施",
+          "en": "done by him or her"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "因他或她；由于该人的作用而产生某种结果。",
+      "en_definition": "Because of him or her; through that person's influence or agency.",
+      "ms_definition": "Disebabkan oleh orang yang dirujuk, sebagai penanda sebab atau punca sesuatu keadaan.",
+      "nuances": "由 oleh 的原因义构成，常见于文学或带感情色彩的叙述，与被动施事义可能重叠。现代日常表达往往改用 kerana dia 或 disebabkan olehnya，避免歧义。[DBP 的原因义依据](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=oleh)",
+      "collocations": [
+        {
+          "ms": "binasa olehnya",
+          "zh": "因他或她而毁灭",
+          "en": "ruined because of him or her"
+        },
+        {
+          "ms": "menderita olehnya",
+          "zh": "因他或她而受苦",
+          "en": "suffer because of him or her"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "preposition",
+      "zh_definition": "为他或她所感知；在较旧的叙事表达中，指明看见或察觉某事的人。",
+      "en_definition": "To him or her; marking the experiencer in a literary perception construction.",
+      "ms_definition": "Kepada atau bagi orang yang dirujuk, khususnya sebagai pihak yang melihat atau menyedari sesuatu.",
+      "nuances": "较旧或文学用法，如 Tampak olehnya seorang tua。不能机械地把所有 kepada dia 都换成 olehnya；此义主要依附特定感知结构。[DBP 的 kepada、bagi 义依据](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=oleh)",
+      "collocations": [
+        {
+          "ms": "tampak olehnya",
+          "zh": "被他或她看见",
+          "en": "visible to him or her"
+        },
+        {
+          "ms": "terlihat olehnya",
+          "zh": "映入他或她眼中",
+          "en": "caught his or her eye"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场汇报",
+      "ms": "Puan Farah mengetuai pasukan tersebut, dan laporan akhir telah disediakan olehnya.",
+      "zh": "法拉女士领导该团队，最终报告也由她编写。",
+      "en": "Ms Farah led the team, and the final report was prepared by her."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认审批进度",
+      "ms_spoken": "Puan Farah dah semak cadangan tu. Semuanya dah diluluskan olehnya, kan?",
+      "ms_standard": "Puan Farah telah menyemak cadangan itu. Semuanya telah diluluskan olehnya, bukan?",
+      "zh": "法拉女士已经看过那个方案了。都经过她批准了，对吧？",
+      "en": "Ms Farah has reviewed the proposal. She's approved everything, right?",
+      "spoken_features": [
+        "dah 对应 sudah 或 telah",
+        "tu 对应 itu",
+        "kan 用来寻求确认",
+        "olehnya 保留书面语色彩，在同事讨论正式审批时可以出现；一般闲聊更常说 dia dah luluskan"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Puan Farah dah semak cadangan tu. Semuanya dah diluluskan olehnya, kan?",
+          "ms_standard": "Puan Farah telah menyemak cadangan itu. Semuanya telah diluluskan olehnya, bukan?",
+          "zh": "法拉女士已经看过那个方案了。都经过她批准了，对吧？",
+          "en": "Ms Farah has reviewed the proposal. She's approved everything, right?"
+        },
+        {
+          "speaker": "Mei Ling (同事)",
+          "ms_spoken": "Ya, dia dah setuju. Esok kita boleh mula je.",
+          "ms_standard": "Ya, beliau telah bersetuju. Kita boleh memulakannya esok.",
+          "zh": "对，她已经同意了。我们明天就能开始。",
+          "en": "Yes, she's agreed. We can get started tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Olehnya is a transparent Malay combination of oleh and the third-person clitic -nya. Its literary uses preserve a wider range of oleh meanings than everyday passive sentences suggest: the same form can identify an agent, a cause or a person experiencing a perception. Context determines which relationship the reader should understand. [DBP dictionary evidence](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=oleh)",
+    "cognitive_memory_aid": "oleh 表示“由”，-nya 指“他／她”：oleh + nya → “由他／她”。先找前文的人，再判断这件事是谁做的。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "涉及长辈、上司或受尊敬人士时，首次提及宜使用职衔、姓名或 beliau；olehnya 可以回指，但前文必须清楚。",
+    "usage_etiquette": "适合报告和叙事。日常聊天使用主动句通常更自然。指称上帝时采用敬称拼写 oleh-Nya；普通人的 olehnya 连写且不用大写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "涉及长辈、上司或受尊敬人士时，首次提及宜使用职衔、姓名或 beliau；olehnya 可以回指，但前文必须清楚。",
+    "usage_etiquette": "适合报告和叙事。日常聊天使用主动句通常更自然。指称上帝时采用敬称拼写 oleh-Nya；普通人的 olehnya 连写且不用大写。"
+  }
+}
