@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "generator",
+    "syllables": null,
+    "ipa": "/ɡe.nə.ra.tor/",
+    "jawi": "ݢينراتور",
+    "frequency_rank": 6407,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "generator",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + generator → generator",
+    "pattern_note": "在现代马来语中作为完整借词处理，不拆成马来语词缀。输入包的独立音节字段为空，DBP 释义中的读音标注为 gé.ne.ra.tor；首音为 /ɡ/，不是英语 generator 的 /dʒ/。",
+    "word_family": [
+      {
+        "word": "generatornya",
+        "affix": "-nya",
+        "gloss": "其发电机；该发生器"
+      },
+      {
+        "word": "generator-generator",
+        "affix": "∅（整词重叠）",
+        "gloss": "多台发电机或发生器"
+      }
+    ],
+    "root_jawi": "ݢينراتور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "发电机；将机械能等其他形式的能量转化为电能的机器。",
+      "en_definition": "A machine that converts another form of energy, especially mechanical energy, into electrical energy.",
+      "ms_definition": "Mesin atau alat yang menghasilkan tenaga elektrik.",
+      "nuances": "日常提到 generator，通常指发电设备，尤其是备用发电机。马来语同义术语为 penjana 或 penjana elektrik；它与 generator 是术语对应关系，并非同一马来语词根的派生关系。[DBP：generator](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=generator)。",
+      "collocations": [
+        {
+          "ms": "generator diesel",
+          "zh": "柴油发电机",
+          "en": "diesel generator"
+        },
+        {
+          "ms": "generator kecemasan",
+          "zh": "应急发电机",
+          "en": "emergency generator"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "发生器；用于产生气体、蒸汽等特定物质的装置。",
+      "en_definition": "An apparatus that produces a particular substance, such as gas or steam.",
+      "ms_definition": "Alat yang menghasilkan bahan tertentu, seperti gas atau wap.",
+      "nuances": "属于较广的技术义，具体产物通常由后接名词说明。generator gas 不一定是燃气发电机；它也可以指产生气体的装置，应根据设备用途判断。[DBP：generator](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=generator)。",
+      "collocations": [
+        {
+          "ms": "generator gas",
+          "zh": "气体发生器",
+          "en": "gas generator"
+        },
+        {
+          "ms": "generator wap",
+          "zh": "蒸汽发生器",
+          "en": "steam generator"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak hospital mengaktifkan generator kecemasan bagi memastikan bekalan elektrik tidak terputus.",
+      "zh": "院方启动应急发电机，以确保电力供应不中断。",
+      "en": "The hospital activated its emergency generator to maintain an uninterrupted electricity supply."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Elektrik dah terputus, tapi kedai ni ada generator lah.",
+      "ms_standard": "Bekalan elektrik sudah terputus, tetapi kedai ini mempunyai generator.",
+      "zh": "停电了，不过这家店有发电机。",
+      "en": "The power's out, but this shop has a generator.",
+      "spoken_features": [
+        "dah 对应 sudah；ni 对应 ini。",
+        "ada 在口语中可表达拥有，较正式可用 mempunyai。",
+        "句末 lah 带解释或安抚语气。",
+        "日常也常用英语借语 blackout 指停电，标准表达为 bekalan elektrik terputus。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kedai sebelah dah blackout. Kat sini ada generator tak?",
+          "ms_standard": "Bekalan elektrik di kedai sebelah sudah terputus. Adakah terdapat generator di sini?",
+          "zh": "隔壁店已经停电了，我们这里有发电机吗？",
+          "en": "The shop next door has lost power. Do we have a generator here?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ada, bos dah hidupkan generator tadi. Kita boleh kerja macam biasa je.",
+          "ms_standard": "Ada, majikan sudah menghidupkan generator sebentar tadi. Kita boleh bekerja seperti biasa.",
+          "zh": "有，老板刚才已经开了，我们照常工作就行。",
+          "en": "Yes, the boss started the generator earlier. We can carry on as usual."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Generator belongs to an international technical vocabulary with an ultimate Latin source meaning a producer or begetter. Its machine sense preserves that productive image: something brings an output into being. Malay treats generator as a whole borrowed noun, while penjana provides a corresponding Malay term. The packet does not identify the immediate borrowing route. [Oxford: word origin](https://www.oxfordlearnersdictionaries.com/definition/english/generator).",
+    "cognitive_memory_aid": "把 generator 想成“产生输出的机器”：日常多产生电，技术语境也可产生气体或蒸汽。记住马来语开头读 /ɡe/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是语体中性的技术名词，不涉及特殊敬语。向非技术读者介绍时，可首次写 generator atau penjana elektrik，帮助对方确认设备类型。",
+    "usage_etiquette": "适合停电、设施管理、施工及工业设备等话题。正式技术文件应统一采用 generator 或相应的 penjana 术语，并写清产物或设备类别，避免把气体发生器误认为燃气发电机。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是语体中性的技术名词，不涉及特殊敬语。向非技术读者介绍时，可首次写 generator atau penjana elektrik，帮助对方确认设备类型。",
+    "usage_etiquette": "适合停电、设施管理、施工及工业设备等话题。正式技术文件应统一采用 generator 或相应的 penjana 术语，并写清产物或设备类别，避免把气体发生器误认为燃气发电机。"
+  }
+}

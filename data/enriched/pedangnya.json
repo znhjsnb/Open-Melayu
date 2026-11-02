@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "pedangnya",
+    "syllables": null,
+    "ipa": "/pə.daŋ.ɲa/",
+    "jawi": "ڤدڠ",
+    "frequency_rank": 6491,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pedang",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "pedang + -nya → pedangnya",
+    "pattern_note": "-nya 在这里通常是第三人称领属附着语，不是派生新词的后缀；按给定分类归入 suffix。ng 为 /ŋ/，ny 为 /ɲ/。输入爪夷文 ڤدڠ 仅表示词根 pedang；完整词形应写作 ڤدڠڽ。音节可划分为 pe.dang.nya，但输入未提供该字段，保留 null。",
+    "word_family": [
+      {
+        "word": "memedang",
+        "affix": "meN-",
+        "gloss": "用剑砍；挥剑劈砍"
+      },
+      {
+        "word": "berpedang",
+        "affix": "ber-",
+        "gloss": "持剑；佩剑"
+      }
+    ],
+    "root_jawi": "ڤدڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他、她或它的剑；拥有者由上下文确定。",
+      "en_definition": "His, her or its sword, with the possessor identified by context.",
+      "ms_definition": "Pedang milik orang atau pihak ketiga yang dirujuk dalam konteks.",
+      "nuances": "pedang 指刃身长而锋利的武器；-nya 本身不标示拥有者性别，也不使名词变成复数。这里的马来文释义是对附着语结构的说明，输入提供的 DBP 条目实际属于 pedang。[DBP：pedang](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=pedang)。",
+      "collocations": [
+        {
+          "ms": "menghunus pedangnya",
+          "zh": "拔出他／她的剑",
+          "en": "draw his or her sword"
+        },
+        {
+          "ms": "menyarungkan pedangnya",
+          "zh": "将他／她的剑收入鞘中",
+          "en": "sheathe his or her sword"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "那把剑；在语境已明确时，-nya 可起回指或确定所指的作用。",
+      "en_definition": "The sword in question, when -nya marks an identifiable referent.",
+      "ms_definition": "Pedang tertentu yang sudah disebut atau dapat dikenal pasti daripada konteks.",
+      "nuances": "须结合语境判断是领属还是确定指称，不能把每个 -nya 都机械译为“他的”。需要明确指示时，可改用 pedang itu。[DBP 关于 -nya 确定指称用法的检索](https://prpm.dbp.gov.my/Cari1?keyword=nya)。",
+      "collocations": [
+        {
+          "ms": "bilah pedangnya",
+          "zh": "那把剑的剑身",
+          "en": "the blade of the sword"
+        },
+        {
+          "ms": "hulu pedangnya",
+          "zh": "那把剑的剑柄",
+          "en": "the hilt of the sword"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化报道 / 博物馆展览",
+      "ms": "Pameran itu menampilkan seorang pahlawan dan pedangnya sebagai lambang keberanian.",
+      "zh": "该展览以一名武士及其佩剑象征勇气。",
+      "en": "The exhibition presents a warrior and his sword as symbols of courage."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论电影",
+      "ms_spoken": "Watak tu dah cabut pedangnya, nak lawan lah tu.",
+      "ms_standard": "Watak itu sudah menghunus pedangnya dan nampaknya mahu berlawan.",
+      "zh": "那角色都拔剑了，看来要开打啦。",
+      "en": "That character has drawn his sword. Looks like he's about to fight.",
+      "spoken_features": [
+        "tu、dah、nak 分别对应 itu、sudah、mahu。",
+        "cabut 在这里是口语中的“拔出”，正式对应 menghunus。",
+        "lah tu 表达对眼前情节的推断。",
+        "口语也常说 pedang dia；pedangnya 在讨论故事情节时自然可用。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Watak tu dah cabut pedangnya, nak lawan lah tu.",
+          "ms_standard": "Watak itu sudah menghunus pedangnya dan nampaknya mahu berlawan.",
+          "zh": "那角色都拔剑了，看来要开打啦。",
+          "en": "That character has drawn his sword. Looks like he's about to fight."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Tengok je dulu, mungkin dia nak takutkan musuh je.",
+          "ms_standard": "Tonton dahulu; mungkin dia hanya mahu menakutkan musuh.",
+          "zh": "先看下去嘛，他可能只是想吓唬敌人。",
+          "en": "Keep watching. Maybe he's just trying to scare the enemy."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pedangnya combines pedang with the attached pronoun -nya. The dictionary records several named sword types and the royal ceremonial sword, showing that pedang belongs to both weapon vocabulary and ceremonial language. The attached pronoun then connects that object to a possessor or an established referent. This account explains the Malay formation without asserting an unverified remote origin. [DBP sword terminology](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=pedang).",
+    "cognitive_memory_aid": "pedang＝剑，-nya 像给剑挂上“属于他／她”的小牌；先找上下文中的主人，别凭 -nya 判断性别。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在历史、电影、游戏或展览讨论中属于中性表达；谈及王室礼器时，应使用场合所要求的正式名称和称谓。",
+    "usage_etiquette": "不要把 pedang 与 keris（马来短剑）混为一谈。真实文物的名称、归属和礼仪用途应依展签或可靠资料说明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在历史、电影、游戏或展览讨论中属于中性表达；谈及王室礼器时，应使用场合所要求的正式名称和称谓。",
+    "usage_etiquette": "不要把 pedang 与 keris（马来短剑）混为一谈。真实文物的名称、归属和礼仪用途应依展签或可靠资料说明。"
+  }
+}

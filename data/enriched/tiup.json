@@ -1,0 +1,198 @@
+{
+  "headword": {
+    "word": "tiup",
+    "syllables": "tiup",
+    "ipa": "/tiup/",
+    "jawi": "تيوڤ",
+    "frequency_rank": 6464,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tiup",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tiup → tiup",
+    "pattern_note": "本词无词缀。派生时，meN- + tiup → meniup，peN- + tiup → peniup，词首 t 被鼻音 n 替代；输入音节字段按原包保留。",
+    "word_family": [
+      {
+        "word": "meniup",
+        "affix": "meN-",
+        "gloss": "吹；吹奏"
+      },
+      {
+        "word": "bertiup",
+        "affix": "ber-",
+        "gloss": "风吹动；消息传播"
+      },
+      {
+        "word": "tiupan",
+        "affix": "-an",
+        "gloss": "吹动；吹奏声"
+      },
+      {
+        "word": "peniup",
+        "affix": "peN-",
+        "gloss": "吹奏者；吹气器具"
+      },
+      {
+        "word": "peniupan",
+        "affix": "peN-...-an",
+        "gloss": "吹气或吹奏的行为"
+      }
+    ],
+    "root_jawi": "تيوڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "吹；通过嘴呼出气流，使物体移动、充气、降温或使火焰发生变化。",
+      "en_definition": "To blow air from the mouth, especially onto or into something.",
+      "ms_definition": "Menghembuskan udara melalui mulut ke arah sesuatu atau ke dalam sesuatu.",
+      "nuances": "tiup 常见于命令句和口语；正式主动陈述通常用 meniup。吹灭蜡烛宜说 tiup lilin sampai padam，单独 tiup 不必然表示吹灭。自然风作主语时通常用 bertiup。义项依据 DBP 对 tiup 及其派生词的释义整理：[DBP PRPM](https://prpm.dbp.gov.my/cari1?d=175768&keyword=tiup)。",
+      "collocations": [
+        {
+          "ms": "tiup lilin",
+          "zh": "吹蜡烛",
+          "en": "blow on the candles"
+        },
+        {
+          "ms": "tiup belon",
+          "zh": "吹气球",
+          "en": "blow up a balloon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "吹奏；向哨子或管乐器中吹气，使其发声。",
+      "en_definition": "To sound a whistle or play a wind instrument by blowing into it.",
+      "ms_definition": "Menghasilkan bunyi daripada wisel atau alat muzik dengan menghembuskan udara ke dalamnya.",
+      "nuances": "重点在以气流使器具发声。正式叙述用 meniup wisel、meniup seruling；不能泛指弹奏或敲击乐器。",
+      "collocations": [
+        {
+          "ms": "tiup wisel",
+          "zh": "吹哨",
+          "en": "blow a whistle"
+        },
+        {
+          "ms": "tiup seruling",
+          "zh": "吹笛子",
+          "en": "play the flute"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "在念咒或传统仪式中，向人或物吹气、喷气。",
+      "en_definition": "To blow or spray breath onto someone or something as part of an incantation.",
+      "ms_definition": "Menghembus atau menyembur ke arah orang atau benda ketika membaca jampi.",
+      "nuances": "DBP 将相关用法标为口语，常见于传统疗法或民俗叙述。该词描述仪式动作，本身不表示疗效。",
+      "collocations": [
+        {
+          "ms": "meniup air yang telah dijampi",
+          "zh": "向念过咒的水吹气",
+          "en": "blow onto water over which an incantation has been recited"
+        },
+        {
+          "ms": "meniup sambil membaca jampi",
+          "zh": "一边念咒一边吹气",
+          "en": "blow while reciting an incantation"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "比喻激发、鼓动或煽起某种精神、情绪或对立。",
+      "en_definition": "To kindle, inspire, or stir up a feeling, spirit, or conflict.",
+      "ms_definition": "Membangkitkan semangat atau mengobarkan perasaan dan pertentangan.",
+      "nuances": "主要见于 meniup、meniupkan 等派生形式，可表示积极鼓舞，也可表示煽动敌意；须根据宾语判断褒贬。",
+      "collocations": [
+        {
+          "ms": "meniup semangat baharu",
+          "zh": "激发新的斗志",
+          "en": "inspire fresh enthusiasm"
+        },
+        {
+          "ms": "meniup api permusuhan",
+          "zh": "煽起敌意",
+          "en": "fan the flames of hostility"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "noun",
+      "zh_definition": "风或空气的吹动；一阵吹来的气流。",
+      "en_definition": "A blowing movement or puff of air.",
+      "ms_definition": "Gerakan atau hembusan angin dan udara.",
+      "nuances": "对应原包的 hembus、hembusan。现代一般叙述更常用 tiupan 或 hembusan 表示一次吹动；不要将所有名词位置上的 tiup 都理解为独立常用名词。",
+      "collocations": [
+        {
+          "ms": "tiupan angin",
+          "zh": "风的吹拂",
+          "en": "a gust of wind"
+        },
+        {
+          "ms": "alat muzik tiup",
+          "zh": "管乐器",
+          "en": "wind instrument"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pengadil meniup wisel untuk menandakan bahawa perlawanan telah tamat.",
+      "zh": "裁判吹哨，示意比赛已经结束。",
+      "en": "The referee blew the whistle to signal the end of the match."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tiup lilin tu dulu, lepas tu baru kita potong kek, ya.",
+      "ms_standard": "Tiup lilin itu dahulu, kemudian barulah kita memotong kek, ya.",
+      "zh": "先吹蜡烛，然后我们再切蛋糕，好吗？",
+      "en": "Blow out the candles first, then we can cut the cake, okay?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略。",
+        "lepas tu 表示然后，对应标准语 kemudian。",
+        "命令句可直接使用词根 tiup。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Semua dah sedia. Tiup lilin tu dulu, ya!",
+          "ms_standard": "Semua orang sudah bersedia. Tiup lilin itu dahulu, ya!",
+          "zh": "大家都准备好了。先吹蜡烛吧！",
+          "en": "Everyone's ready. Blow out the candles first!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Sekejap je, aku nak buat hajat dulu!",
+          "ms_standard": "Sebentar sahaja, saya mahu membuat hajat dahulu!",
+          "zh": "等一下下，我想先许个愿！",
+          "en": "Just a second, I want to make a wish first!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tiup connects an everyday bodily action with music and figurative expression. DBP records blowing air, sounding instruments, ritual blowing, and stirring enthusiasm within its word family. The semantic bridge is easy to picture: breath moves something, produces sound, or metaphorically brings feeling to life. This explains the meanings without claiming an unverified ancient origin. [DBP PRPM](https://prpm.dbp.gov.my/cari1?d=175768&keyword=tiup)",
+    "cognitive_memory_aid": "读 tiup 时想象嘴唇收拢，把一口气吹向蜡烛：tiup lilin。发音联想只用于记忆，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对小孩或熟人说 Tiup dulu 很自然；对不熟悉的人提出要求，可用 Tolong tiup… 或 Sila tiup…，使语气更礼貌。",
+    "usage_etiquette": "吹生日蜡烛、气球和哨子都是普通场景。谈及念咒吹气时，应尊重对方的信仰背景；不要仅凭这一动作推断其宗教身份。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对小孩或熟人说 Tiup dulu 很自然；对不熟悉的人提出要求，可用 Tolong tiup… 或 Sila tiup…，使语气更礼貌。",
+    "usage_etiquette": "吹生日蜡烛、气球和哨子都是普通场景。谈及念咒吹气时，应尊重对方的信仰背景；不要仅凭这一动作推断其宗教身份。"
+  }
+}

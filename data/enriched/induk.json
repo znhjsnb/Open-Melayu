@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "induk",
+    "syllables": "in.duk",
+    "ipa": "/induʔ/",
+    "jawi": "ايندوق",
+    "frequency_rank": 6463,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "induk",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + induk → induk",
+    "pattern_note": "整词为词根；马来西亚马来语常将词尾 k 实现为声门塞音 /ʔ/。输入包未提供音节划分，此处按标准补为 in.duk。",
+    "word_family": [
+      {
+        "word": "berindukkan",
+        "affix": "ber-…-kan",
+        "gloss": "以某事物为母体、源头或主体"
+      },
+      {
+        "word": "seperinduk",
+        "affix": "seper-",
+        "gloss": "同出一母；同一家系"
+      }
+    ],
+    "root_jawi": "ايندوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "母体；母兽或母禽，尤指已经产仔或用于繁殖的雌性动物。",
+      "en_definition": "A mother animal, especially a female that has produced offspring or is kept for breeding.",
+      "ms_definition": "Ibu, khususnya bagi binatang.",
+      "nuances": "DBP 标有米南加保来源。动物饲养语境常用；日常称呼自己的母亲通常用 ibu、emak 或 mak。雌性动物不因性别本身就必然称为 induk。释义依据 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=induk)。",
+      "collocations": [
+        {
+          "ms": "induk ayam",
+          "zh": "母鸡，尤指已繁殖的母鸡",
+          "en": "a mother hen"
+        },
+        {
+          "ms": "induk kambing",
+          "zh": "母山羊；繁殖用母羊",
+          "en": "a mother goat; a breeding doe"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "作为源头、基础或核心的主体、母体；也用于修饰语位置，表示总体的、主要的或统领下属部分的。",
+      "en_definition": "A parent body, source, or principal unit; also used attributively for something overarching or fundamental.",
+      "ms_definition": "Sesuatu yang menjadi asal, asas atau pusat utama bagi bahagian-bahagian lain.",
+      "nuances": "由“母体”引申为统领分支的主体。syarikat induk 是母公司，pelan induk 是总体规划；后者虽常译为英语 master 或中文“总体”，马来语中仍可按名词修饰关系理解。释义依据 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=induk)。",
+      "collocations": [
+        {
+          "ms": "syarikat induk",
+          "zh": "母公司",
+          "en": "parent company"
+        },
+        {
+          "ms": "pelan induk",
+          "zh": "总体规划",
+          "en": "master plan"
+        },
+        {
+          "ms": "badan induk",
+          "zh": "总机构；统辖机构",
+          "en": "parent body; governing body"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Majlis perbandaran telah membentangkan pelan induk pembangunan bandar untuk pertimbangan penduduk.",
+      "zh": "市议会已提交城市发展总体规划，供居民审议。",
+      "en": "The municipal council has presented the urban development master plan for residents' consideration."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Anak ayam tu dah ikut induk dia masuk reban.",
+      "ms_standard": "Anak ayam itu sudah mengikut induknya masuk ke dalam reban.",
+      "zh": "那只小鸡已经跟着母鸡进鸡舍了。",
+      "en": "That chick has already followed its mother into the coop.",
+      "spoken_features": [
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "induk dia 是口语所有格，标准形式可用 induknya",
+        "口语可省略方向结构中的 ke dalam"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (家人)",
+          "ms_spoken": "Anak ayam kat luar tu mana induk dia?",
+          "ms_standard": "Di manakah induk anak ayam yang berada di luar itu?",
+          "zh": "外面那只小鸡的妈妈在哪儿？",
+          "en": "Where's the mother of that chick outside?"
+        },
+        {
+          "speaker": "Hakim (家人)",
+          "ms_spoken": "Induk dia dah masuk reban. Aku nak bawa anak dia masuk sekali.",
+          "ms_standard": "Induknya sudah masuk ke dalam reban. Saya hendak membawa anaknya masuk juga.",
+          "zh": "母鸡已经进鸡舍了。我想把小鸡也带进去。",
+          "en": "Its mother's already in the coop. I'll take the chick in too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP identifies induk as a word of Minangkabau origin. Its meanings preserve a connection between a mother and the larger source from which other things emerge. In contemporary Malay, that connection extends from livestock to organizations and planning: a company can have a parent, and a development programme can have an overarching plan. [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=induk)",
+    "cognitive_memory_aid": "记住“母体带分支”：induk ayam 带小鸡，syarikat induk 带子公司，pelan induk 统领各项规划。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈动物和机构时语体中性。标准日常交流中称呼人的母亲通常用 ibu、emak 或 mak；直接称某位女性为 induk 可能显得生硬或带动物化意味，地方惯用法除外。",
+    "usage_etiquette": "适用于养殖、组织结构和总体规划。固定说法 induk ayam 也有“胆小的人”的比喻义，带嘲讽色彩，不宜用于需要尊重对方的交谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈动物和机构时语体中性。标准日常交流中称呼人的母亲通常用 ibu、emak 或 mak；直接称某位女性为 induk 可能显得生硬或带动物化意味，地方惯用法除外。",
+    "usage_etiquette": "适用于养殖、组织结构和总体规划。固定说法 induk ayam 也有“胆小的人”的比喻义，带嘲讽色彩，不宜用于需要尊重对方的交谈。"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "jawablah",
+    "syllables": null,
+    "ipa": "/dʒa.wab.lah/",
+    "jawi": "جواب",
+    "frequency_rank": 6504,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jawab",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "jawab + -lah → jawablah",
+    "pattern_note": "-lah 是附着语气词，不是派生后缀；此处借用 suffix 字段表示后接位置。词根不发生音变，教学分音为 ja.wab.lah。词包的 جواب 仅对应 jawab，未包含 -lah。",
+    "word_family": [
+      {
+        "word": "menjawab",
+        "affix": "meN-",
+        "gloss": "回答；回复"
+      },
+      {
+        "word": "jawapan",
+        "affix": "-an",
+        "gloss": "答案；答复，词干末辅音出现 b/p 交替"
+      }
+    ],
+    "root_jawi": "جواب"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "回答吧；请作答。用于要求、鼓励或催促对方回答问题或作出回应。",
+      "en_definition": "Answer or respond, as an instruction, encouragement, or urging.",
+      "ms_definition": "Memberikan jawapan atau respons apabila disuruh, dipelawa atau didesak.",
+      "nuances": "-lah 的语气随语调和关系变化，可缓和请求，也可加强催促；不固定等于“请”。核心词义据 [DBP：jawab](https://prpm.dbp.gov.my/Cari1?keyword=jawab)；语气词性质参见 [DBP：-lah](https://prpm.dbp.gov.my/Cari1?keyword=juga+lah)。",
+      "collocations": [
+        {
+          "ms": "jawablah soalan berikut",
+          "zh": "请回答以下问题",
+          "en": "answer the following questions"
+        },
+        {
+          "ms": "jawablah dengan jujur",
+          "zh": "请如实回答",
+          "en": "answer honestly"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sebelum sesi taklimat bermula, jawablah soalan dalam borang penilaian keperluan latihan.",
+      "zh": "说明会开始前，请回答培训需求评估表中的问题。",
+      "en": "Before the briefing begins, answer the questions in the training needs assessment form."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kalau dah tahu, jawablah dalam grup tu.",
+      "ms_standard": "Jika sudah tahu, jawablah dalam kumpulan itu.",
+      "zh": "你要是已经知道，就在群里回一下吧。",
+      "en": "If you already know, reply in the group.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "grup 是聊天场景常见用词，标准对应词为 kumpulan。",
+        "tu 对应 itu；-lah 在这里表示温和催促。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Amir, kalau dah tahu tempatnya, jawablah dalam grup tu.",
+          "ms_standard": "Amir, jika sudah tahu tempatnya, jawablah dalam kumpulan itu.",
+          "zh": "阿米尔，你要是知道地点，就在群里回一下吧。",
+          "en": "Amir, if you know the venue, let everyone know in the group."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okey, aku nak semak alamat dulu, lepas tu aku balas.",
+          "ms_standard": "Baiklah, saya hendak menyemak alamat dahulu, kemudian saya akan membalas.",
+          "zh": "行，我先核对一下地址，再回复。",
+          "en": "Okay, I'll check the address first, then reply."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay jawab comes from Arabic jawāb, meaning an answer or reply. Its integration is visible in everyday Malay formations such as menjawab and jawapan. Jawablah combines that borrowed base with the Malay particle -lah: a small grammatical addition that turns answering into an instruction whose warmth or firmness depends on context. Source: [World Loanword Database](https://wold.clld.org/word/7126183943108297).",
+    "cognitive_memory_aid": "把 jawab 记成“回答”，再接语气尾巴 -lah：jawablah，就是“回答吧！”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对朋友可以自然使用；对长辈、客户或上司，单说 Jawablah! 可能显得催逼，可用 Mohon berikan jawapan 或 Sila jawab。",
+    "usage_etiquette": "适合教学指示、鼓励发言和熟人提醒；对方不愿透露私人信息时，反复使用可能形成施压。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对朋友可以自然使用；对长辈、客户或上司，单说 Jawablah! 可能显得催逼，可用 Mohon berikan jawapan 或 Sila jawab。",
+    "usage_etiquette": "适合教学指示、鼓励发言和熟人提醒；对方不愿透露私人信息时，反复使用可能形成施压。"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "headword": {
+    "word": "fletcher",
+    "syllables": null,
+    "ipa": "/ˈfletʃə/（英式）；/ˈfletʃər/（美式）",
+    "jawi": null,
+    "frequency_rank": 6519,
+    "status": "unverified_foreign",
+    "language": "en",
+    "validation_note": "可核实为英语职业名，也存在大写姓氏 Fletcher。输入没有出现语境或 DBP 释义，无法确定该语料项属于职业名还是专名，不能标记为官方马来语词条；不补造爪夷文。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "fletcher",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + fletcher → fletcher（依输入作为独立词形处理）",
+    "pattern_note": "is_root 和 root_word 沿用输入，不表示已经确认为马来语本族词。英语可作 fletch + -er 的共时分析，但历史来源是盎格鲁法语 flecher；下列为英语相关词，不是马来语派生词。",
+    "word_family": [
+      {
+        "word": "fletch",
+        "affix": null,
+        "gloss": "给箭安装尾羽；相关英语动词"
+      },
+      {
+        "word": "fletching",
+        "affix": "-ing（英语，接 fletch）",
+        "gloss": "箭羽；给箭装尾羽的工艺"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "制箭匠；制作箭的人。",
+      "en_definition": "A person who makes arrows.",
+      "ms_definition": "Istilah bahasa Inggeris bagi tukang yang membuat anak panah.",
+      "nuances": "这是英语职业名；马来文释义为编辑翻译，不是 DBP 官方释义。制箭匠与制作弓的 bowyer 有区别。没有证据支持该词存在高频马来语搭配；下列 ms 项为马来语解释性组合，en 项为英语对应表达。[Merriam-Webster：fletcher](https://www.merriam-webster.com/dictionary/fletcher)",
+      "collocations": [
+        {
+          "ms": "tukang pembuat anak panah zaman pertengahan",
+          "zh": "中世纪制箭匠",
+          "en": "a medieval fletcher"
+        },
+        {
+          "ms": "tukang pembuat anak panah yang mahir",
+          "zh": "技艺娴熟的制箭匠",
+          "en": "a skilled fletcher"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "弗莱彻；英语姓氏，须写作 Fletcher。",
+      "en_definition": "An English occupational surname derived from the occupation of arrow-making.",
+      "ms_definition": "Nama keluarga Inggeris yang berasal daripada pekerjaan membuat anak panah dan dieja dengan huruf awal besar, Fletcher.",
+      "nuances": "这是专有名词用法，因给定词类列表没有 proper noun 而列入 noun。输入的小写形式可能来自文本归一化，但没有语境便无法确认其指向任何具体人物。以下为称谓示例，不是经过频率验证的搭配。[Merriam-Webster：职业名与姓氏说明](https://www.merriam-webster.com/dictionary/fletcher)",
+      "collocations": [
+        {
+          "ms": "Encik Fletcher",
+          "zh": "弗莱彻先生",
+          "en": "Mr Fletcher"
+        },
+        {
+          "ms": "keluarga Fletcher",
+          "zh": "弗莱彻一家",
+          "en": "the Fletcher family"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "博物馆说明 / 翻译工作",
+      "ms": "Dalam teks bahasa Inggeris tersebut, istilah 'fletcher' merujuk kepada tukang pembuat anak panah.",
+      "zh": "在该英文文本中，fletcher 指制箭匠。",
+      "en": "In that English text, the term 'fletcher' refers to an arrow-maker."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 阅读历史资料",
+      "ms_spoken": "Aku jumpa perkataan 'fletcher' kat buku ni. Rupanya tukang buat anak panah je.",
+      "ms_standard": "Saya menemukan perkataan 'fletcher' dalam buku ini. Rupa-rupanya perkataan itu bermaksud tukang pembuat anak panah.",
+      "zh": "我在这本书里看到 fletcher，原来就是制箭匠。",
+      "en": "I came across 'fletcher' in this book. Turns out it just means an arrow-maker.",
+      "spoken_features": [
+        "fletcher 是引述的英语词",
+        "aku 是熟人间的第一人称",
+        "kat 在此对应 dalam，ni 对应 ini",
+        "tukang buat anak panah 对应较正式的 tukang pembuat anak panah",
+        "je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah jumpa 'fletcher' kat buku sejarah ni. Tukang buat busur ke?",
+          "ms_standard": "Saya sudah menemukan perkataan 'fletcher' dalam buku sejarah ini. Adakah perkataan itu bermaksud tukang pembuat busur?",
+          "zh": "我在这本历史书里看到 fletcher。是做弓的人吗？",
+          "en": "I found 'fletcher' in this history book. Does it mean someone who makes bows?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bukan, tukang buat anak panah. Kalau nak sebut tukang buat busur dalam bahasa Inggeris, guna 'bowyer'.",
+          "ms_standard": "Bukan, perkataan itu bermaksud tukang pembuat anak panah. Istilah bahasa Inggeris bagi tukang pembuat busur ialah 'bowyer'.",
+          "zh": "不是，是制箭匠。做弓的人，英语叫 bowyer。",
+          "en": "No, an arrow-maker. Someone who makes bows is called a bowyer."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Fletcher entered Middle English from Anglo-French flecher, associated with fleche, meaning an arrow. Merriam-Webster dates its recorded English use to the fourteenth century. Like Baker and Carpenter, an occupational label also became a surname. Modern readers may therefore encounter Fletcher as a person's name without any implication that the person actually makes arrows. [Merriam-Webster](https://www.merriam-webster.com/dictionary/fletcher)",
+    "cognitive_memory_aid": "把 fletch 与箭尾羽连在一起，再用英语职业后缀 -er 联想从业者：fletcher 是制箭匠；这是记忆分析，不替代历史词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "若是姓氏，保留大写 Fletcher，并依本人称谓使用 Encik、Puan、Dr 或其他适当头衔；不要因姓氏来源而把当事人称为制箭匠。",
+    "usage_etiquette": "职业义适合英语历史、传统工艺和射箭材料的讨论。面向普通马来语读者，首次出现时解释为 tukang pembuat anak panah；人名则保留原拼写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "若是姓氏，保留大写 Fletcher，并依本人称谓使用 Encik、Puan、Dr 或其他适当头衔；不要因姓氏来源而把当事人称为制箭匠。",
+    "usage_etiquette": "职业义适合英语历史、传统工艺和射箭材料的讨论。面向普通马来语读者，首次出现时解释为 tukang pembuat anak panah；人名则保留原拼写。"
+  }
+}
