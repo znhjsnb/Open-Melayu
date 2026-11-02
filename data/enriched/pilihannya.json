@@ -1,0 +1,126 @@
+{
+  "headword": {
+    "word": "pilihannya",
+    "syllables": "pi.li.han.nya",
+    "ipa": "/pilihanɲa/",
+    "jawi": "ڤيليهن",
+    "frequency_rank": 6789,
+    "status": "official",
+    "jawi_note": "按输入保留的 ڤيليهن 对应 pilihan，尚未包含 -nya；完整词形按构词应写作 ڤيليهنڽ。",
+    "syllables_note": "输入未提供音节划分；此处根据完整词形补列。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pilihan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "pilihan + -nya → pilihannya；底层结构：pilih + -an → pilihan",
+    "pattern_note": "pilihan 是输入指定的直接词基，更底层的词根为 pilih。-nya 在此主要是附着于名词的第三人称代词；为适配字段列入 suffix，但应与派生后缀 -an 区分。词尾 n 保留，ny 表示 /ɲ/。参见 [DBP：-nya 的用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=not+nya)。",
+    "word_family": [
+      {
+        "word": "memilih",
+        "affix": "meN-",
+        "gloss": "选择；挑选"
+      },
+      {
+        "word": "pemilihan",
+        "affix": "peN-…-an",
+        "gloss": "选择或遴选的过程"
+      }
+    ],
+    "root_jawi": "ڤيليهن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他或她所作的选择；他或她选中的人或事物。",
+      "en_definition": "His or her choice; the person or thing he or she has chosen.",
+      "ms_definition": "Pilihan yang dibuat oleh seseorang, atau orang atau perkara yang dipilih oleh orang tersebut.",
+      "nuances": "-nya 的所指须由上下文确定，不编码性别，也不表示“我”或“你”。pilihan 有“选出的结果”和“精选者”等义，但不能因此把每个 pilihannya 都译成“最好的”。本义依据 [DBP：pilihan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pilihan) 与 -nya 的语法功能合成。",
+      "collocations": [
+        {
+          "ms": "menghormati pilihannya",
+          "zh": "尊重他或她的选择",
+          "en": "respect his or her choice"
+        },
+        {
+          "ms": "menjadi pilihannya",
+          "zh": "成为他或她选中的对象",
+          "en": "be his or her choice"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "上下文所指的可选方案或选择范围；常指某人拥有的选择。",
+      "en_definition": "The available option or options referred to in context, often those available to someone.",
+      "ms_definition": "Alternatif atau ruang untuk memilih yang tersedia dalam konteks tertentu, khususnya bagi seseorang.",
+      "nuances": "如 pilihannya terhad 可表示“他或她能选的有限”。马来语名词不强制标示单复数，不能仅凭这个词形判断是一项还是多项。这是 pilihan 在具体句法环境中的读法，并非 -nya 单独产生了“选项”的意义。",
+      "collocations": [
+        {
+          "ms": "pilihannya terhad",
+          "zh": "可供他或她选择的方案有限",
+          "en": "his or her options are limited"
+        },
+        {
+          "ms": "pilihannya banyak",
+          "zh": "他或她有很多选择",
+          "en": "he or she has plenty of options"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Calon itu diminta menyatakan kursus pilihannya dalam borang permohonan.",
+      "zh": "该申请者须在申请表中注明自己选择的课程。",
+      "en": "The applicant was asked to indicate their chosen course on the application form."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aina dah pilih yang biru. Kita ikut pilihannya je lah.",
+      "ms_standard": "Aina sudah memilih yang berwarna biru. Kita ikut sahaja pilihannya.",
+      "zh": "Aina 已经选了蓝色的，我们就照她选的吧。",
+      "en": "Aina's picked the blue one. Let's just go with her choice.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "je 对应 sahaja。",
+        "句末 lah 使提议更自然随和。",
+        "口语也常说 pilihan dia；这里保留目标词 pilihannya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Aina dah pilih yang biru. Kita ikut pilihannya je lah.",
+          "ms_standard": "Aina sudah memilih yang berwarna biru. Kita ikut sahaja pilihannya.",
+          "zh": "Aina 已经选了蓝色的，我们就照她选的吧。",
+          "en": "Aina's picked the blue one. Let's just go with her choice."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh, aku pun suka yang tu. Nak pesan sekarang?",
+          "ms_standard": "Boleh, saya juga suka yang itu. Adakah kita mahu membuat pesanan sekarang?",
+          "zh": "可以，我也喜欢那个。现在要下单吗？",
+          "en": "Sure, I like that one too. Shall we order now?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pilihannya illustrates how Malay builds meaning in layers. Pilih expresses choosing; -an forms pilihan, the choice or selected result; attached -nya connects that choice to a person already understood in the conversation. This makes a compact expression useful for everything from a preferred course to a family member's decision, while leaving the person's gender unspecified. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pilihan)",
+    "cognitive_memory_aid": "pilih＝选，pilihan＝选择，-nya＝他或她的：像搭积木一样记成“选 → 选择 → 他或她的选择”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论长辈、上司或受尊敬者时，pilihan beliau 比单用 pilihannya 更明确地体现尊重；直接与对方交谈时应按关系使用 pilihan anda、pilihan tuan 或 pilihan puan。",
+    "usage_etiquette": "用于表达个人偏好、教育与职业决定时很自然。涉及伴侣、宗教或家庭决定时，menghormati pilihannya 能表达尊重当事人意愿。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论长辈、上司或受尊敬者时，pilihan beliau 比单用 pilihannya 更明确地体现尊重；直接与对方交谈时应按关系使用 pilihan anda、pilihan tuan 或 pilihan puan。",
+    "usage_etiquette": "用于表达个人偏好、教育与职业决定时很自然。涉及伴侣、宗教或家庭决定时，menghormati pilihannya 能表达尊重当事人意愿。"
+  }
+}

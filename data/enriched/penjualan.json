@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "penjualan",
+    "syllables": "pen.jua.lan",
+    "ipa": "/pən.dʒu.a.lan/",
+    "jawi": "ڤنجوالن",
+    "frequency_rank": 6709,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penjual",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + jual + -an → penjualan",
+    "pattern_note": "保留输入的 root_word penjual 作为中间派生形式；基础词根为 jual。peN- 在 j 前取 pen-，j 保留；peN-...-an 构成表示出售行为的名词。",
+    "word_family": [
+      {
+        "word": "jual",
+        "affix": null,
+        "gloss": "卖"
+      },
+      {
+        "word": "penjual",
+        "affix": "peN-",
+        "gloss": "卖家；销售者"
+      },
+      {
+        "word": "menjual",
+        "affix": "meN-",
+        "gloss": "出售"
+      },
+      {
+        "word": "jualan",
+        "affix": "-an",
+        "gloss": "销售；出售的商品"
+      }
+    ],
+    "root_jawi": "ڤنجوال"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "出售商品、资产或服务的行为或过程。",
+      "en_definition": "The act or process of selling goods, assets, or services.",
+      "ms_definition": "Perbuatan atau proses menjual sesuatu.",
+      "nuances": "偏重出售这一行为或过程。马来西亚商业报告中的销售额、销量通常使用 jualan、nilai jualan 或 jumlah jualan，不能一律用 penjualan 替换。",
+      "collocations": [
+        {
+          "ms": "penjualan hartanah",
+          "zh": "房地产出售",
+          "en": "the sale of property"
+        },
+        {
+          "ms": "penjualan tiket",
+          "zh": "售票",
+          "en": "ticket sales"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "售卖某种商品或票券的地点；属印度尼西亚用法。",
+      "en_definition": "A place where something is sold; Indonesian usage.",
+      "ms_definition": "Tempat menjual sesuatu, dalam penggunaan bahasa Indonesia.",
+      "nuances": "DBP 标注 Id。此义不宜作为马来西亚日常表达的首选；本地通常说 tempat jualan、kedai 或 kaunter jualan。下列组合在马来西亚通常理解为出售行为，只有特定印度尼西亚语境才可能指售卖地点。",
+      "collocations": [
+        {
+          "ms": "penjualan karcis",
+          "zh": "售票处（印度尼西亚地点义）",
+          "en": "a ticket outlet in Indonesian usage"
+        },
+        {
+          "ms": "penjualan garam",
+          "zh": "售盐处（印度尼西亚地点义）",
+          "en": "a salt-selling outlet in Indonesian usage"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Penjualan tiket bagi persembahan tersebut akan bermula pada hari Isnin melalui laman sesawang rasmi penganjur.",
+      "zh": "该演出的门票将于星期一通过主办方官方网站开始发售。",
+      "en": "Tickets for the performance will go on sale on Monday through the organizer’s official website."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Penjualan tiket dah mula ke? Aku nak beli dua.",
+      "ms_standard": "Adakah penjualan tiket sudah bermula? Saya mahu membeli dua keping tiket.",
+      "zh": "开始卖票了吗？我想买两张。",
+      "en": "Have tickets gone on sale yet? I want to get two.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "句末 ke 标记口语疑问。",
+        "nak 是 hendak 或 mahu 的口语对应形式。",
+        "penjualan 可出现在聊天中，但 Tiket dah mula dijual ke? 通常更口语化。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Penjualan tiket dah mula ke? Aku nak beli dua.",
+          "ms_standard": "Adakah penjualan tiket sudah bermula? Saya mahu membeli dua keping tiket.",
+          "zh": "开始卖票了吗？我想买两张。",
+          "en": "Have tickets gone on sale yet? I want to get two."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Dah, beli kat laman rasmi je. Aku baru beli tadi.",
+          "ms_standard": "Sudah. Beli sahaja melalui laman sesawang rasmi. Saya baru membelinya tadi.",
+          "zh": "开始了，直接去官网买就行。我刚刚才买了。",
+          "en": "Yes, just get them through the official website. I bought mine a little while ago."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penjualan belongs to the productive Malay family built around jual, meaning to sell. Its morphology turns an everyday transaction into an abstract process suitable for contracts and business reports. The same family distinguishes penjual, the seller, from penjualan, the selling activity. DBP also records an Indonesian place sense. Reference: [DBP](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=penjualan).",
+    "cognitive_memory_aid": "jual 是卖，penjual 是卖家，penjualan 是卖这件事。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性、偏书面的商业词。询问交易进度时，可说 Bagaimanakah perkembangan penjualan rumah itu?，表达自然且礼貌。",
+    "usage_etiquette": "适合合同、新闻、售票公告和资产交易。表达促销活动时通常用 jualan murah 或 promosi；表达营业额时用 nilai jualan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性、偏书面的商业词。询问交易进度时，可说 Bagaimanakah perkembangan penjualan rumah itu?，表达自然且礼貌。",
+    "usage_etiquette": "适合合同、新闻、售票公告和资产交易。表达促销活动时通常用 jualan murah 或 promosi；表达营业额时用 nilai jualan。"
+  }
+}

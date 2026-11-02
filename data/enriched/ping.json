@@ -1,0 +1,194 @@
+{
+  "headword": {
+    "word": "ping",
+    "syllables": null,
+    "ipa": "/piŋ/",
+    "jawi": null,
+    "frequency_rank": 6746,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ping",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ping → ping",
+    "pattern_note": "单音节，ng 表示一个软腭鼻音 /ŋ/。计算机义与英语借词有关；饮料义属于地区用语，不能因拼写相同就认定词源相同。未列未经核实的马来语派生词；下列搭配不作为词缀派生词处理。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "通过发送请求并等待回显来测试网络主机可达性的程序、命令或测试。",
+      "en_definition": "A utility, command, or test that checks a network host's reachability by sending echo requests and awaiting replies.",
+      "ms_definition": "Utiliti, arahan atau ujian untuk memeriksa kebolehcapaian hos rangkaian dengan menghantar permintaan gema dan menunggu balasannya.",
+      "nuances": "属于计算机专业用语；DBP 技术资料使用 paket ping、ping maut 等表达。无回应可能涉及过滤或网络故障，不能仅凭这一结果断言主机关闭。释义为编辑整理；headword 的 official 标记限于有官方技术资料支持的用法，不覆盖下列所有口语义。[DBP：ping 技术用例](https://prpm.dbp.gov.my/Cari1?d=155028&keyword=bait)",
+      "collocations": [
+        {
+          "ms": "arahan ping",
+          "zh": "ping 命令",
+          "en": "the ping command"
+        },
+        {
+          "ms": "paket ping",
+          "zh": "ping 数据包",
+          "en": "a ping packet"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "向网络主机发送回显请求，以测试其可达性或响应时间。",
+      "en_definition": "To send echo requests to a network host to test its reachability or response time.",
+      "ms_definition": "Menghantar permintaan gema kepada hos rangkaian untuk menguji kebolehcapaian atau masa responsnya.",
+      "nuances": "技术交流中的英语借用动词。正式说明可写 menjalankan ujian ping terhadap pelayan；未经核实，不把所有可能的加缀形式列为标准派生词。[Cambridge：ping 的计算机动词义](https://dictionary.cambridge.org/us/dictionary/english/ping?topic=internet-terminology-and-abbreviations)",
+      "collocations": [
+        {
+          "ms": "ping pelayan",
+          "zh": "对服务器执行 ping 测试",
+          "en": "ping the server"
+        },
+        {
+          "ms": "ping alamat IP",
+          "zh": "对 IP 地址执行 ping 测试",
+          "en": "ping an IP address"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "网络请求往返所需的时间，尤其指游戏界面显示的网络延迟数值。",
+      "en_definition": "The round-trip network response time, especially the latency value displayed in online games.",
+      "ms_definition": "Masa pergi balik bagi komunikasi rangkaian, khususnya nilai kependaman yang dipaparkan dalam permainan dalam talian.",
+      "nuances": "属于技术口语中的转喻用法：以测试名称指代测得的时间，通常以毫秒计。它与下载速度、带宽和帧率是不同指标；这里不声称存在已核实的 DBP 独立释义。",
+      "collocations": [
+        {
+          "ms": "ping tinggi",
+          "zh": "网络延迟高",
+          "en": "high ping"
+        },
+        {
+          "ms": "ping rendah",
+          "zh": "网络延迟低",
+          "en": "low ping"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "通过聊天软件或电子消息简短联系、提醒某人。",
+      "en_definition": "To contact or prompt someone with a brief electronic message.",
+      "ms_definition": "Menghubungi atau mengingatkan seseorang secara ringkas melalui mesej elektronik.",
+      "nuances": "属于英语混用的职场及聊天口语，不据此认定为通用标准马来语动词。正式对应表达可用 menghantar mesej、menghubungi 或 memaklumkan，具体取决于意图。[Cambridge：ping 的消息联系义](https://dictionary.cambridge.org/us/dictionary/english/ping?topic=internet-terminology-and-abbreviations)",
+      "collocations": [
+        {
+          "ms": "ping saya nanti",
+          "zh": "稍后给我发个消息",
+          "en": "message me later"
+        },
+        {
+          "ms": "ping dalam kumpulan",
+          "zh": "在群里发消息提醒",
+          "en": "send a prompt in the group chat"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "noun",
+      "zh_definition": "短促清脆的声音，尤其指电子设备的提示音。",
+      "en_definition": "A short, sharp sound, especially an electronic notification tone.",
+      "ms_definition": "Bunyi pendek dan nyaring, khususnya bunyi pemberitahuan daripada peranti elektronik.",
+      "nuances": "作为声音描写或英语混用理解；不要把英语词典收录直接视为标准马来语词头认证。正式表达可用 bunyi pemberitahuan。[Cambridge：ping 的声音义](https://dictionary.cambridge.org/us/dictionary/english/ping?topic=internet-terminology-and-abbreviations)",
+      "collocations": [
+        {
+          "ms": "bunyi ping",
+          "zh": "叮的一声",
+          "en": "a pinging sound"
+        },
+        {
+          "ms": "ping notifikasi",
+          "zh": "通知提示音",
+          "en": "a notification ping"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "pos": "adjective",
+      "zh_definition": "加冰的；冰饮的，用在饮料名称后，见于沙巴等地区的点餐用语。",
+      "en_definition": "Iced; served with ice, used after a drink name in regional Malaysian ordering language.",
+      "ms_definition": "Berais atau disajikan dengan ais, digunakan selepas nama minuman dalam pertuturan daerah, termasuk di Sabah.",
+      "nuances": "这是地区饮食用语，与网络测试义分开理解。词类按其在饮料名称后的修饰功能标注；官方方言资料将其解释为加冰冷饮。跨地区交流可改用 ais。[PLANMalaysia dialekPedia：ping，沙巴用语](https://app.planmalaysia.gov.my/planet/theme/dist/dialekPedia/kamus.cfm?page=61)",
+      "collocations": [
+        {
+          "ms": "teh ping",
+          "zh": "冰茶",
+          "en": "iced tea"
+        },
+        {
+          "ms": "kopi ping",
+          "zh": "冰咖啡",
+          "en": "iced coffee"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "技术报告 / 职场汇报",
+      "ms": "Juruteknik menjalankan ujian ping untuk memeriksa kebolehcapaian pelayan.",
+      "zh": "技术员执行 ping 测试，以检查服务器是否可达。",
+      "en": "The technician ran a ping test to check the server's reachability."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事协调工作",
+      "ms_spoken": "Nanti ping aku bila fail tu dah siap, ya.",
+      "ms_standard": "Tolong maklumkan kepada saya melalui mesej apabila fail itu sudah siap.",
+      "zh": "文件弄好了就发消息叫我一声啊。",
+      "en": "Message me when the file's ready, okay?",
+      "spoken_features": [
+        "ping 是英语动词混用",
+        "aku 用于熟悉的同事之间",
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "句末 ya 用于柔化请求"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku nak semak fail tu. Nanti ping aku bila dah siap, ya.",
+          "ms_standard": "Saya mahu menyemak fail itu. Tolong maklumkan kepada saya melalui mesej apabila fail itu sudah siap.",
+          "zh": "我想检查一下那个文件。弄好了发消息叫我啊。",
+          "en": "I want to check that file. Message me when it's ready, okay?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Boleh, aku tengah kemas sikit je lagi. Nanti aku ping.",
+          "ms_standard": "Boleh. Saya sedang membuat sedikit kemasan terakhir. Saya akan menghantar mesej kepada awak selepas itu.",
+          "zh": "行，我就剩一点收尾了，等下发消息给你。",
+          "en": "Sure, I'm just finishing a few things. I'll message you after that."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The computing name comes from sonar: a signal goes out and an echo returns. Mike Muuss, who wrote the original utility, explicitly described that analogy rather than an original acronym. Messaging uses preserve the idea of a brief signal seeking attention. Regional drink-ordering ping is a separate lexical item; its precise borrowing route is not established by the cited dialect record. [Muuss's account](https://ftp.arl.army.mil/~mike/ping.html) [Regional drink usage](https://app.planmalaysia.gov.my/planet/theme/dist/dialekPedia/kamus.cfm?page=61)",
+    "cognitive_memory_aid": "网络或聊天里的 ping：想象“叮”一下，发出信号等回应。点饮料时另记 teh ping＝teh ais，不要把两条记忆混在一起。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉的技术团队可说 ping saya；向客户或上级提出请求时，Tolong maklumkan kepada saya 更明确。不要假定每位听者都熟悉英语技术口语。",
+    "usage_etiquette": "先按场景判断：技术报告是网络测试，游戏聊天可能是延迟，工作聊天可能是发消息，点饮料则可能表示加冰。地区饮料用语不宜推广为全国所有场合的默认表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉的技术团队可说 ping saya；向客户或上级提出请求时，Tolong maklumkan kepada saya 更明确。不要假定每位听者都熟悉英语技术口语。",
+    "usage_etiquette": "先按场景判断：技术报告是网络测试，游戏聊天可能是延迟，工作聊天可能是发消息，点饮料则可能表示加冰。地区饮料用语不宜推广为全国所有场合的默认表达。"
+  }
+}

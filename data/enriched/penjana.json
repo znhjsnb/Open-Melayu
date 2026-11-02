@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "penjana",
+    "syllables": "pen.ja.na",
+    "ipa": "/pən.d͡ʒa.na/",
+    "jawi": "ڤنجان",
+    "frequency_rank": 6814,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jana",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + jana → penjana",
+    "pattern_note": "peN- 在 j 前采用 pen-，保留 j，构成表示产生者或产生装置的名词。输入包误将 penjana 标为词根，已据 [DBP：jana](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=jana) 更正。",
+    "word_family": [
+      {
+        "word": "menjana",
+        "affix": "meN-",
+        "gloss": "产生；创造"
+      },
+      {
+        "word": "terjana",
+        "affix": "ter-",
+        "gloss": "已产生；已形成"
+      },
+      {
+        "word": "penjanaan",
+        "affix": "peN-...-an",
+        "gloss": "产生过程；发电"
+      }
+    ],
+    "root_jawi": "جان"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "产生电力、热量、信号或其他输出的装置；在电力语境中通常指发电机。",
+      "en_definition": "A device that generates electricity, heat, signals, or another output; especially an electrical generator.",
+      "ms_definition": "Sesuatu, seperti alat, yang atau untuk menjanakan kuasa dan sebagainya.",
+      "nuances": "电力语境中的 penjana 是发电机；penjana haba、penjana isyarat 等则需按输出种类翻译。输入包所引 DBP 释义已展开省略成分，不应把所有 penjana 都译为“发电机”。",
+      "collocations": [
+        {
+          "ms": "penjana elektrik",
+          "zh": "发电机",
+          "en": "electrical generator"
+        },
+        {
+          "ms": "penjana haba",
+          "zh": "热发生器",
+          "en": "heat generator"
+        },
+        {
+          "ms": "penjana isyarat",
+          "zh": "信号发生器",
+          "en": "signal generator"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "促使收入、就业、知识或其他成果产生的人、行业或事物；创造来源或推动力量。",
+      "en_definition": "A person, activity, or entity that generates income, employment, knowledge, or other outcomes.",
+      "ms_definition": "Pihak atau sesuatu yang menghasilkan atau menggerakkan penghasilan sesuatu hasil.",
+      "nuances": "由“产生装置”扩展到抽象的产生者，常见于经济、教育和公共论述；这里通常译为“创造者、来源、引擎”。这是根据 DBP 广义释义及其收录用例归纳的扩展义，马来语释义为编写释义。",
+      "collocations": [
+        {
+          "ms": "penjana pendapatan",
+          "zh": "收入来源；创收项目",
+          "en": "income generator"
+        },
+        {
+          "ms": "penjana ekonomi",
+          "zh": "经济引擎；经济推动力量",
+          "en": "economic driver"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak hospital mengaktifkan penjana elektrik bagi memastikan bekalan kuasa ke unit rawatan rapi tidak terputus.",
+      "zh": "院方启动发电机，以确保重症监护室的电力供应不中断。",
+      "en": "The hospital activated its electrical generator to maintain an uninterrupted power supply to the intensive care unit."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Elektrik dah terputus. Penjana kat belakang tu boleh guna lagi tak?",
+      "ms_standard": "Bekalan elektrik sudah terputus. Adakah penjana di belakang itu masih boleh digunakan?",
+      "zh": "停电了。后面那台发电机还能用吗？",
+      "en": "The power's gone out. Does that generator out back still work?",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "tu 对应 itu",
+        "句末 tak 构成口语是非问句"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Elektrik dah terputus. Penjana kat belakang tu boleh guna lagi tak?",
+          "ms_standard": "Bekalan elektrik sudah terputus. Adakah penjana di belakang itu masih boleh digunakan?",
+          "zh": "停电了。后面那台发电机还能用吗？",
+          "en": "The power's gone out. Does that generator out back still work?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Boleh. Juruteknik dah periksa pagi tadi, dia nak hidupkan sekarang.",
+          "ms_standard": "Boleh. Juruteknik sudah memeriksanya pagi tadi dan hendak menghidupkannya sekarang.",
+          "zh": "能用。技术员今天早上检查过了，现在准备启动。",
+          "en": "Yes. The technician checked it this morning and is about to start it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penjana is transparently formed from jana with the productive Malay prefix peN-, which identifies a producer or generating instrument. DBP records both technical generators and published uses involving knowledge, culture, and the economy. The word therefore connects machinery with a broader image of productive power. This account describes documented word formation and usage rather than claiming an unverified borrowing history. [DBP: penjana](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=penjana)",
+    "cognitive_memory_aid": "jana＝产生；menjana＝去产生；penjana＝产生东西的装置或来源；penjanaan＝产生的过程。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "技术用法语体中性，可用于工作交接和设备说明。称某人为 penjana idea 是对其创造力的肯定，偏正式。",
+    "usage_etiquette": "说明设备时宜补充输出种类，如 elektrik、haba 或 isyarat。全大写 PENJANA 也可能是计划名称的缩写，须按具体文件辨识，不能一律当作普通名词“发电机”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "技术用法语体中性，可用于工作交接和设备说明。称某人为 penjana idea 是对其创造力的肯定，偏正式。",
+    "usage_etiquette": "说明设备时宜补充输出种类，如 elektrik、haba 或 isyarat。全大写 PENJANA 也可能是计划名称的缩写，须按具体文件辨识，不能一律当作普通名词“发电机”。"
+  }
+}
