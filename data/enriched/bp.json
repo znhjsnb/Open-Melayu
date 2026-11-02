@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "bp",
+    "syllables": null,
+    "ipa": "/bi pi/",
+    "jawi": null,
+    "frequency_rank": 9679,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bp",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "bahasa percakapan → bp（缩略标签，非词缀构词）",
+    "pattern_note": "由 bahasa 和 percakapan 的首字母组成；需要读出标签时可逐字母读，解释其意义时通常说全称。is_root 沿用输入分类，不表示它是普通词根。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "马来语词典中 bahasa percakapan 的缩写标签，表示某个词或义项属于日常口语语体。",
+      "en_definition": "A dictionary label abbreviating bahasa percakapan, indicating colloquial usage.",
+      "ms_definition": "Singkatan bagi bahasa percakapan yang digunakan sebagai label untuk menandai kata atau makna dalam penggunaan tidak formal.",
+      "nuances": "这是词典元语言标签；noun 是本条对标签名称的功能分类。标签只限定它所标注的词或义项，并不表示所有口语都是粗话。输入没有提供实际语料，因此本条采用已核实的词典标签义，不推定其他缩写义。status 字段按指定格式保留，不能理解为普通实词认证。[DBP 标签说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bp)",
+      "collocations": [
+        {
+          "ms": "label bp",
+          "zh": "口语标签 bp",
+          "en": "the colloquial label bp"
+        },
+        {
+          "ms": "perkataan berlabel bp",
+          "zh": "标有 bp 的词",
+          "en": "a word labelled colloquial"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam panduan ini, label bp menandakan penggunaan bahasa percakapan.",
+      "zh": "在本指南中，标签 bp 表示口语用法。",
+      "en": "In this guide, the label bp indicates colloquial usage."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat kamus ni, bp tu maksudnya bahasa percakapan je.",
+      "ms_standard": "Dalam kamus ini, bp itu bermaksud bahasa percakapan sahaja.",
+      "zh": "这本词典里的 bp 就是“口语”的意思。",
+      "en": "In this dictionary, bp just means colloquial language.",
+      "spoken_features": [
+        "kat 在此对应标准语 dalam",
+        "ni、tu 分别对应 ini、itu",
+        "je 对应 sahaja",
+        "讨论词典标签时才自然使用 bp"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku nampak label bp kat perkataan ni. Apa maksudnya?",
+          "ms_standard": "Saya melihat label bp pada perkataan ini. Apakah maksudnya?",
+          "zh": "我看到这个词旁边有个 bp，什么意思？",
+          "en": "I saw bp next to this word. What does it mean?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Bahasa percakapan je. Kalau nak guna dalam karangan rasmi, semak padanan bakunya dulu.",
+          "ms_standard": "Label itu bermaksud bahasa percakapan. Jika hendak menggunakannya dalam karangan rasmi, semak padanan bakunya terlebih dahulu.",
+          "zh": "就是口语。要写进正式作文的话，先查一下对应的规范表达。",
+          "en": "It means colloquial language. If you want to use it in a formal essay, check the standard equivalent first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The letters bp come from bahasa percakapan, literally conversational language. Malay dictionaries use this compact label to signal register beside particular words or meanings. Its interest lies in dictionary practice rather than an ancient lexical origin: two letters help readers distinguish everyday expressions from choices suitable for formal writing.",
+    "cognitive_memory_aid": "按字母读 bi pi；把 b 连到 bahasa，把 p 连到 percakapan，就能记住“口语标签”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "bp 标的是语体，不直接表示不礼貌；具体表达是否得体仍取决于对象、关系和场合。",
+    "usage_etiquette": "适合讨论词典、教学和编辑规范。面对不熟悉标签的读者，首次出现时写明 bahasa percakapan；正式写作是否采用某个被标记的词，应结合语境选择。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "bp 标的是语体，不直接表示不礼貌；具体表达是否得体仍取决于对象、关系和场合。",
+    "usage_etiquette": "适合讨论词典、教学和编辑规范。面对不熟悉标签的读者，首次出现时写明 bahasa percakapan；正式写作是否采用某个被标记的词，应结合语境选择。"
+  }
+}

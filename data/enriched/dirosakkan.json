@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "dirosakkan",
+    "syllables": "di.ro.sak.kan",
+    "ipa": "[di.ro.saʔ.kan]",
+    "jawi": "ديروسقکن",
+    "frequency_rank": 9710,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "rosak",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + rosak + -kan → dirosakkan",
+    "pattern_note": "纠正输入包的整词词根判断：词根为 rosak。di- 标记被动，-kan 表示使之受损；词根末尾 k 与后缀开头 k 均保留。di- 不表示过去时，也不是表示地点的独立介词 di。整词 Jawi 按词根 روسق 加词缀构成。",
+    "word_family": [
+      {
+        "word": "merosakkan",
+        "affix": "meN-...-kan",
+        "gloss": "损坏；破坏"
+      },
+      {
+        "word": "kerosakan",
+        "affix": "ke-...-an",
+        "gloss": "损坏；故障"
+      }
+    ],
+    "root_jawi": "روسق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被某人、某物或某种作用损坏、毁坏，导致原有状态或功能受损。",
+      "en_definition": "To be damaged or ruined by someone or something.",
+      "ms_definition": "Dijadikan atau disebabkan rosak oleh seseorang atau sesuatu.",
+      "nuances": "这是 merosakkan 的被动形式，释义由其主动词义转换而来。不同于只陈述状态的 rosak，dirosakkan 突出造成损坏的作用；本身不必然表示故意破坏。参见 [PRPM：merosakkan](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=merosakkan)。",
+      "collocations": [
+        {
+          "ms": "dirosakkan oleh vandalisme",
+          "zh": "因蓄意破坏公物而受损",
+          "en": "damaged by vandalism"
+        },
+        {
+          "ms": "dirosakkan oleh serangga",
+          "zh": "被昆虫损坏",
+          "en": "damaged by insects"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "名誉、关系、思想或其他抽象事物受到损害或败坏。",
+      "en_definition": "To be harmed, spoiled, or corrupted, especially in reputation, relationships, or thought.",
+      "ms_definition": "Dicemarkan atau dijadikan buruk, berkenaan nama baik, hubungan, fikiran dan sebagainya.",
+      "nuances": "比喻用法仍保留“受到某种作用而变坏”的被动意义。翻译须随宾语调整，例如名誉用“损害”，思想可用“腐蚀”。此义根据 [PRPM：merosakkan](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=merosakkan) 所列抽象用法编写。",
+      "collocations": [
+        {
+          "ms": "nama baik dirosakkan",
+          "zh": "名誉受到损害",
+          "en": "a good reputation is damaged"
+        },
+        {
+          "ms": "hubungan dirosakkan",
+          "zh": "关系遭到破坏",
+          "en": "a relationship is damaged"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Beberapa kemudahan awam di taman itu telah dirosakkan oleh pihak yang tidak bertanggungjawab.",
+      "zh": "该公园内的数项公共设施遭到不负责任者破坏。",
+      "en": "Several public facilities in the park have been damaged by irresponsible individuals."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bangku kat taman tu dah dirosakkan orang lah.",
+      "ms_standard": "Bangku di taman itu telah dirosakkan oleh seseorang.",
+      "zh": "公园里那张长椅已经被人弄坏啦。",
+      "en": "Someone's damaged that bench in the park.",
+      "spoken_features": [
+        "kat 对应 di，tu 对应 itu。",
+        "dah 对应 sudah 或 telah。",
+        "orang 在此泛指身份不明的人。",
+        "口语省略 oleh，并用 lah 表达不满或感叹。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Bangku kat taman tu dah dirosakkan orang lah. Tempat duduk dia patah.",
+          "ms_standard": "Bangku di taman itu telah dirosakkan oleh seseorang. Bahagian tempat duduknya patah.",
+          "zh": "公园里那张长椅被人弄坏啦，椅面都断了。",
+          "en": "Someone's damaged that bench in the park. The seat is broken."
+        },
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Oh, patutlah. Aku nak laporkan kat pihak majlis nanti.",
+          "ms_standard": "Oh, patutlah. Saya hendak melaporkannya kepada pihak majlis perbandaran nanti.",
+          "zh": "哦，难怪。我待会儿要向市议会反映。",
+          "en": "Oh, that explains it. I'll report it to the local council later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dirosakkan illustrates a productive Malay contrast: rosak describes damage as a condition, merosakkan presents the action of causing it, and dirosakkan presents the affected thing as the subject. This makes the passive useful in reports about public property and other losses. The explanation concerns established modern morphology; the consulted sources do not establish a deeper historical origin.",
+    "cognitive_memory_aid": "rosak＝坏；-kan＝弄坏；di-＝被。三步连起来：dirosakkan＝被弄坏。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "dirosakkan 容易引出责任归属。投诉时宜描述可观察到的损坏；若尚不清楚原因，可先说 rosak，避免把推测说成事实。",
+    "usage_etiquette": "适用于设施、物品、环境、名誉及关系受损的情境。该词不自动表示蓄意行为；只有证据支持时才加 dengan sengaja“故意”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "dirosakkan 容易引出责任归属。投诉时宜描述可观察到的损坏；若尚不清楚原因，可先说 rosak，避免把推测说成事实。",
+    "usage_etiquette": "适用于设施、物品、环境、名誉及关系受损的情境。该词不自动表示蓄意行为；只有证据支持时才加 dengan sengaja“故意”。"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "terpasang",
+    "syllables": "ter.pa.sang",
+    "ipa": "/tər.pa.saŋ/",
+    "jawi": "ترڤاسڠ",
+    "frequency_rank": 9721,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pasang",
+    "affix": "ter-",
+    "affix_type": "prefix",
+    "formula": "ter- + pasang → terpasang",
+    "pattern_note": "ter- 直接接 pasang，起首 p 保留；这里主要表示安装、连接或开启之后的结果状态，并不必然表示意外。",
+    "word_family": [
+      {
+        "word": "memasang",
+        "affix": "meN-",
+        "gloss": "安装；开启"
+      },
+      {
+        "word": "dipasang",
+        "affix": "di-",
+        "gloss": "被安装；被开启"
+      },
+      {
+        "word": "pemasangan",
+        "affix": "peN-...-an",
+        "gloss": "安装；装设"
+      },
+      {
+        "word": "pemasang",
+        "affix": "peN-",
+        "gloss": "安装人员"
+      }
+    ],
+    "root_jawi": "ڤاسڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "已装上、安装好、固定好或连接好；处于安装或装设完成的状态。",
+      "en_definition": "To be installed, fitted, attached, or set in place.",
+      "ms_definition": "Sudah dipasang atau dipasangkan.",
+      "nuances": "侧重结果状态，不着重说明安装者。terpasang 不能一律译成“不小心装上”；具体安装对象也决定其译法。核心释义见词包所引《Kamus Pelajar Edisi Kedua》，可查 [DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=terpasang)。",
+      "collocations": [
+        {
+          "ms": "terpasang dengan kemas",
+          "zh": "安装得整齐牢靠",
+          "en": "neatly fitted"
+        },
+        {
+          "ms": "terpasang pada dinding",
+          "zh": "安装在墙上",
+          "en": "mounted on the wall"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "电灯、电视或其他设备处于已开启、亮着或运行着的状态。",
+      "en_definition": "To be switched on, lit, or left running.",
+      "ms_definition": "Berada dalam keadaan sudah dipasang atau dihidupkan, seperti lampu atau televisyen.",
+      "nuances": "这是 pasang 表示“开启”时的结果义。lampu terpasang 可依上下文指灯已装设或灯正亮着；masih terpasang 通常突出仍然开启。只有上下文明确时，才译为“忘了关”。",
+      "collocations": [
+        {
+          "ms": "lampu masih terpasang",
+          "zh": "灯还亮着",
+          "en": "the light is still on"
+        },
+        {
+          "ms": "televisyen terpasang",
+          "zh": "电视开着",
+          "en": "the television is on"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 设施检查",
+      "ms": "Pemeriksaan mendapati bahawa semua kamera keselamatan telah terpasang dengan baik di lokasi yang ditetapkan.",
+      "zh": "检查发现，所有监控摄像头均已妥善安装在指定位置。",
+      "en": "The inspection found that all security cameras were properly installed at the designated locations."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 室友检查电灯",
+      "ms_spoken": "Lampu kat dapur masih terpasang lah. Kau dah keluar ke?",
+      "ms_standard": "Lampu di dapur masih terpasang. Adakah kamu sudah keluar?",
+      "zh": "厨房的灯还亮着呢。你已经出门了吗？",
+      "en": "The kitchen light's still on. Have you already left?",
+      "spoken_features": [
+        "kat 对应 di。",
+        "dah 对应 sudah。",
+        "ke 在句末标示疑问。",
+        "lah 在这里突出提醒的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (室友)",
+          "ms_spoken": "Lampu kat dapur masih terpasang lah. Kau dah keluar ke?",
+          "ms_standard": "Lampu di dapur masih terpasang. Adakah kamu sudah keluar?",
+          "zh": "厨房的灯还亮着呢。你已经出门了吗？",
+          "en": "The kitchen light's still on. Have you already left?"
+        },
+        {
+          "speaker": "Aina (室友)",
+          "ms_spoken": "Dah, aku baru je keluar. Tolong tutupkan ya.",
+          "ms_standard": "Ya, aku baru sahaja keluar. Tolong padamkan lampu itu.",
+          "zh": "对，我刚出门。帮我关一下哦。",
+          "en": "Yeah, I've just left. Could you turn it off for me?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pasang connects several practical activities in Malay, including fitting equipment and switching things on. Terpasang shifts attention from the action to its resulting state. A camera can therefore be terpasang because it has been mounted, while a lamp can be terpasang because it is on. The object and surrounding words guide interpretation.",
+    "cognitive_memory_aid": "pasang 是“装上、打开”；加 ter- 后，把镜头定格在结果：已经装好，或还开着。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述设备 terpasang 是中性说法。提醒别人关灯时，用 Lampu masih terpasang, boleh tolong padamkan? 比直接责问对方更客气。",
+    "usage_etiquette": "适合设施报告、家居对话和设备检查。汇报时应区分“已安装”与“已通电运行”，避免仅用 terpasang 就暗示设备已通过功能测试。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述设备 terpasang 是中性说法。提醒别人关灯时，用 Lampu masih terpasang, boleh tolong padamkan? 比直接责问对方更客气。",
+    "usage_etiquette": "适合设施报告、家居对话和设备检查。汇报时应区分“已安装”与“已通电运行”，避免仅用 terpasang 就暗示设备已通过功能测试。"
+  }
+}

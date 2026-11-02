@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "jujurnya",
+    "syllables": null,
+    "ipa": "/dʒu.dʒur.ɲa/",
+    "jawi": "جوجور",
+    "frequency_rank": 9655,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jujur",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "jujur + -nya → jujurnya",
+    "pattern_note": "词根不变；-nya 读 /ɲa/，可承担强调、名词化或指代功能，须结合句法判断。数据包的 جوجور 是词根 jujur 的拼写，保留原值；完整词形的常规拼写为 جوجورڽ。音节字段按数据包保留 null，实际可分 ju.jur.nya。",
+    "word_family": [
+      {
+        "word": "kejujuran",
+        "affix": "ke-…-an",
+        "gloss": "诚实；真诚"
+      },
+      {
+        "word": "sejujurnya",
+        "affix": "se-…-nya",
+        "gloss": "坦白地说；如实地"
+      }
+    ],
+    "root_jawi": "جوجور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "坦白说；说实话。用于引出说话者真实的判断或感受。",
+      "en_definition": "Honestly; to be frank; introducing the speaker's candid opinion or admission.",
+      "ms_definition": "Secara terus terang atau dengan ikhlas ketika menyatakan pendapat atau perasaan sebenar.",
+      "nuances": "常作句首话语标记，可接逗号；不必然表示先前说过谎。郑重表达也可用 sejujurnya 或 secara jujur。此处是组合词形的用法说明；DBP 对词根的释义见 [PRPM：jujur](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=jujur)。",
+      "collocations": [
+        {
+          "ms": "jujurnya, saya tidak tahu",
+          "zh": "说实话，我不知道",
+          "en": "honestly, I do not know"
+        },
+        {
+          "ms": "jujurnya, saya kurang bersetuju",
+          "zh": "坦白说，我不太赞同",
+          "en": "frankly, I do not quite agree"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "真诚的；诚实的。用于带有感叹或程度强调的结构。",
+      "en_definition": "Honest or sincere, with exclamatory emphasis.",
+      "ms_definition": "Lurus hati atau ikhlas, dengan penegasan terhadap sifat tersebut dalam ungkapan seruan.",
+      "nuances": "如 betapa jujurnya 表示“多么真诚”，不是“坦白说”。-nya 的功能取决于整个结构，不能一律译作“他的”。相关功能区别见 [DBP：kata penekan 与 kata pembenda](https://dewanbahasa.jendeladbp.my/2022/03/16/2777/)。",
+      "collocations": [
+        {
+          "ms": "betapa jujurnya pengakuan itu",
+          "zh": "那番坦白是多么真诚",
+          "en": "how sincere that admission is"
+        },
+        {
+          "ms": "alangkah jujurnya dia",
+          "zh": "他多么诚实啊",
+          "en": "how honest that person is"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "诚实或真诚这一性质；具体指谁的诚实，由上下文确定。",
+      "en_definition": "The quality of being honest or sincere, with its possessor determined by context.",
+      "ms_definition": "Sifat jujur seseorang yang dibendakan dalam ayat; kejujuran.",
+      "nuances": "是依句法形成的名词化读法，较具文学色彩；一般说明文用 kejujuran 更清楚。不能把所有 jujurnya 都解释为名词。名词化机制参见 [DBP：kata pembenda](https://dewanbahasa.jendeladbp.my/2022/03/16/2777/)。",
+      "collocations": [
+        {
+          "ms": "jujurnya dalam berbicara",
+          "zh": "他说话时的真诚",
+          "en": "the sincerity of that person's speech"
+        },
+        {
+          "ms": "jujurnya dalam persahabatan",
+          "zh": "他在友谊中的真诚",
+          "en": "that person's sincerity in friendship"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 会议发言",
+      "ms": "Sejujurnya, saya berpendapat bahawa tempoh pelaksanaan ini terlalu singkat.",
+      "zh": "坦白说，我认为这项工作的执行期限太短。",
+      "en": "Frankly, I believe the implementation period is too short."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论计划",
+      "ms_spoken": "Jujurnya, aku tak nak pergi malam ni lah.",
+      "ms_standard": "Sejujurnya, saya tidak mahu pergi pada malam ini.",
+      "zh": "说实话，我今晚不太想去啦。",
+      "en": "Honestly, I don't feel like going tonight.",
+      "spoken_features": [
+        "tak 是 tidak 的口语形式",
+        "nak 在此对应 mahu",
+        "ni 对应 ini",
+        "lah 配合语调表达个人立场",
+        "aku 适用于熟悉的朋友"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jujurnya, aku dah penat sangat. Kita pergi esok je, boleh?",
+          "ms_standard": "Sejujurnya, saya sudah sangat penat. Bolehkah kita pergi esok sahaja?",
+          "zh": "说实话，我已经累坏了。我们明天再去，行吗？",
+          "en": "Honestly, I'm exhausted. Can we just go tomorrow?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh je. Kau rehat dulu lah, esok kita pergi.",
+          "ms_standard": "Boleh. Kamu berehat dahulu; kita pergi esok.",
+          "zh": "可以呀。你先休息吧，我们明天去。",
+          "en": "Sure. Get some rest first; we'll go tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Jujurnya illustrates how Malay builds conversational expressions from ordinary descriptive words. The base jujur describes honesty or sincerity, while attached -nya serves several grammatical functions. In modern conversation, the combination can introduce a candid admission. Its history should therefore be understood through Malay word formation, without inventing a separate foreign origin for the whole expression.",
+    "cognitive_memory_aid": "先记 jujur＝诚实；jujurnya 放在句首，就像举起“说实话”的小牌子。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "提出异议时，jujurnya 后接 saya kurang bersetuju 比直接否定对方柔和；坦率仍需顾及语气与身份关系。",
+    "usage_etiquette": "适合坦承感受或表达真实判断。正式报告可用 secara jujur，正式发言可用 sejujurnya；不要用“说实话”作为羞辱他人的开场。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "提出异议时，jujurnya 后接 saya kurang bersetuju 比直接否定对方柔和；坦率仍需顾及语气与身份关系。",
+    "usage_etiquette": "适合坦承感受或表达真实判断。正式报告可用 secara jujur，正式发言可用 sejujurnya；不要用“说实话”作为羞辱他人的开场。"
+  }
+}

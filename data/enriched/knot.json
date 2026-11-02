@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "knot",
+    "syllables": "not",
+    "ipa": "/not/",
+    "jawi": "نوت",
+    "frequency_rank": 9663,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "knot",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + knot → knot",
+    "pattern_note": "整词借入的计量单位名称；按资料包读作not，词首k不发音，无马来语词缀。",
+    "word_family": [],
+    "root_jawi": "نوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "节：航海、航空及气象中使用的速度单位，等于每小时一海里，即每小时1.852公里。",
+      "en_definition": "A unit of speed equal to one nautical mile per hour, or exactly 1.852 kilometres per hour.",
+      "ms_definition": "Ukuran kelajuan 1 batu nautika sejam atau 1.852 km sejam.",
+      "nuances": "表示速度，不表示距离；20 knot已经包含“每小时”的意义，无须再写20 knot sejam。英语knot另有“绳结”等义，但资料包中的马来语词条只指速度单位。换算依据：[NOAA](https://oceanservice.noaa.gov/facts/nautical-mile-knot.html)。",
+      "collocations": [
+        {
+          "ms": "kelajuan kapal 20 knot",
+          "zh": "船速20节",
+          "en": "a ship speed of 20 knots"
+        },
+        {
+          "ms": "angin berkelajuan 30 knot",
+          "zh": "风速30节的风",
+          "en": "winds of 30 knots"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kapal penyelamat itu bergerak pada kelajuan 20 knot menuju ke lokasi kejadian.",
+      "zh": "救援船以20节的速度驶向事发地点。",
+      "en": "The rescue vessel proceeded towards the incident site at a speed of 20 knots."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Angin dah cecah 30 knot, jangan keluar naik bot dulu lah.",
+      "ms_standard": "Kelajuan angin sudah mencapai 30 knot; jangan keluar menaiki bot buat masa ini.",
+      "zh": "风速都到30节了，先别坐船出海啦。",
+      "en": "The wind's already reached 30 knots. Don't head out in the boat yet.",
+      "spoken_features": [
+        "dah是sudah的口语缩略形式。",
+        "cecah在口语中表示达到某个数值。",
+        "句末lah加强劝告语气；正式表达可省略。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kita nak keluar naik bot petang ni ke?",
+          "ms_standard": "Adakah kita hendak keluar menaiki bot petang ini?",
+          "zh": "我们今天下午还要坐船出去吗？",
+          "en": "Are we still taking the boat out this afternoon?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Angin dah cecah 30 knot, jangan keluar dulu lah.",
+          "ms_standard": "Kelajuan angin sudah mencapai 30 knot; jangan keluar buat masa ini.",
+          "zh": "风速都到30节了，先别出去啦。",
+          "en": "The wind's already reached 30 knots. Let's stay ashore for now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The nautical sense comes from English knot. Seventeenth-century sailors estimated a ship's speed with a floating wooden log attached to a rope bearing regularly spaced knots. Counting the knots paid out during a measured interval gave a speed estimate. That practical procedure survives in the modern unit, although navigation instruments have changed. [NOAA](https://oceanservice.noaa.gov/facts/nautical-mile-knot.html)",
+    "cognitive_memory_aid": "k不出声，读not；脑中放一条打结的测速绳：一节就是一海里每小时。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的技术单位，没有特殊敬语要求；向非专业听众说明时，可补充公里每小时的换算。",
+    "usage_etiquette": "适合航运、航空和气象语境。马来语中数词后仍写knot，例如20 knot；不要套用英语复数knots。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的技术单位，没有特殊敬语要求；向非专业听众说明时，可补充公里每小时的换算。",
+    "usage_etiquette": "适合航运、航空和气象语境。马来语中数词后仍写knot，例如20 knot；不要套用英语复数knots。"
+  }
+}

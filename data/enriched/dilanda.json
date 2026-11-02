@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "dilanda",
+    "syllables": null,
+    "ipa": "/di.lan.da/",
+    "jawi": null,
+    "frequency_rank": 9718,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "landa",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + landa → dilanda",
+    "pattern_note": "di- 构成被动式，词根首音 l 保留，没有鼻音替换。主动对应词为 melanda。输入包把整个派生词识别为词根，此处按实际构词纠正。",
+    "word_family": [
+      {
+        "word": "melanda",
+        "affix": "meN-",
+        "gloss": "侵袭；冲击；使遭受"
+      },
+      {
+        "word": "terlanda",
+        "affix": "ter-",
+        "gloss": "意外撞上；遭冲撞"
+      },
+      {
+        "word": "landaan",
+        "affix": "-an",
+        "gloss": "冲击；侵袭造成的作用"
+      },
+      {
+        "word": "pelanda",
+        "affix": "peN-",
+        "gloss": "淘矿者；属于 landa 的淘矿义"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "遭到洪水、风暴、外力或人群等猛烈侵袭、冲撞。",
+      "en_definition": "To be struck, swept over, or overwhelmed by a powerful physical force.",
+      "ms_definition": "Bentuk pasif melanda: dikenai serbuan, rempuhan atau daya yang kuat.",
+      "nuances": "受影响者通常作主语，后接灾害或冲击来源，如 kampung dilanda banjir。di- 标记被动而非过去时。释义和同形异义区分据 [DBP：landa](https://prpm.dbp.gov.my/cari1?keyword=landa) 编写。",
+      "collocations": [
+        {
+          "ms": "dilanda banjir",
+          "zh": "遭受洪灾",
+          "en": "hit by floods"
+        },
+        {
+          "ms": "dilanda ribut",
+          "zh": "遭风暴袭击",
+          "en": "struck by a storm"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "受到危机、疾病、困难或强烈情绪等的侵扰、笼罩。",
+      "en_definition": "To be afflicted, beset, or overwhelmed by a crisis, condition, or strong emotion.",
+      "ms_definition": "Secara kiasan, ditimpa masalah atau dikuasai keadaan dan perasaan yang kuat.",
+      "nuances": "把外力冲击的画面用于抽象处境；可描述国家、机构或个人。并非任何普通感受都适合用 dilanda，通常带有较强影响。",
+      "collocations": [
+        {
+          "ms": "dilanda krisis ekonomi",
+          "zh": "遭受经济危机冲击",
+          "en": "hit by an economic crisis"
+        },
+        {
+          "ms": "dilanda keresahan",
+          "zh": "被焦虑笼罩",
+          "en": "overwhelmed by anxiety"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "含矿泥沙被置于淘盘中淘洗，以分离矿物。",
+      "en_definition": "To be panned or washed in a tray to separate ore from sediment.",
+      "ms_definition": "Bentuk pasif melanda dalam kegiatan perlombongan: dibasuh menggunakan dulang untuk mengasingkan bijih daripada lumpur atau pasir.",
+      "nuances": "这是 landa 另一词条的淘矿义，与“遭受侵袭”属于同形异义；现代一般新闻中较少见。下列搭配为说明这一专业义而编写。",
+      "collocations": [
+        {
+          "ms": "lodak dilanda",
+          "zh": "泥沙被淘洗",
+          "en": "sediment is panned"
+        },
+        {
+          "ms": "bahan berbijih dilanda",
+          "zh": "含矿物料被淘洗",
+          "en": "ore-bearing material is panned"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 灾情报道示例",
+      "ms": "Beberapa buah kampung dilanda banjir selepas hujan lebat berterusan sejak malam tadi.",
+      "zh": "昨晚开始持续下大雨，多个村庄遭受洪灾。",
+      "en": "Several villages were hit by floods following continuous heavy rain since last night."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问灾情",
+      "ms_spoken": "Kampung kau dah dilanda banjir ke?",
+      "ms_standard": "Adakah kampung kamu sudah dilanda banjir?",
+      "zh": "你村里已经遭水灾了吗？",
+      "en": "Has your village been hit by the floods?",
+      "spoken_features": [
+        "kau 是 engkau 的口语形式，适合熟人。",
+        "dah 对应 sudah；句末 ke 构成口语问句。",
+        "kat 对应 di；tak 对应 tidak。",
+        "这里保留 dilanda，周围句法采用口语表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kampung kau dah dilanda banjir ke?",
+          "ms_standard": "Adakah kampung kamu sudah dilanda banjir?",
+          "zh": "你村里已经遭水灾了吗？",
+          "en": "Has your village been hit by the floods?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, tapi rumah aku kat tempat tinggi. Kami selamat, jangan risau.",
+          "ms_standard": "Ya, tetapi rumah saya terletak di kawasan tinggi. Kami selamat, jadi jangan risau.",
+          "zh": "对，不过我家在高处。我们都安全，别担心。",
+          "en": "Yes, but my house is on higher ground. We’re safe, so don’t worry."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries distinguish landa associated with forceful impact from a homonymous mining word for panning ore. The impact sense also extends to emotions and crises, allowing an inner experience to be described like an outside force. Passive di- places the affected village, institution or person in focus. These dictionary distinctions do not establish a single historical origin for both roots.",
+    "cognitive_memory_aid": "把 landa 记成“一股力量冲过来”；加上 di-，主语就成了“被冲击的一方”。想到 kampung dilanda banjir：村庄遭洪水侵袭。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "询问灾情时宜关心实际安危，例如 Semua selamat? 或 Ada apa-apa yang boleh saya bantu?，避免把灾情当作谈资。",
+    "usage_etiquette": "用于灾害、危机和强烈情绪时自然；对轻微不便使用可能显得夸张。淘矿义应放在明确的采矿语境中，以免被理解为受灾。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "询问灾情时宜关心实际安危，例如 Semua selamat? 或 Ada apa-apa yang boleh saya bantu?，避免把灾情当作谈资。",
+    "usage_etiquette": "用于灾害、危机和强烈情绪时自然；对轻微不便使用可能显得夸张。淘矿义应放在明确的采矿语境中，以免被理解为受灾。"
+  }
+}
