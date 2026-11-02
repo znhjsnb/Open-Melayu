@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "macamlah",
+    "syllables": null,
+    "ipa": "/ma.tʃam.lah/",
+    "jawi": "ماچم",
+    "frequency_rank": 5942,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "macam",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "macam + -lah → macamlah",
+    "pattern_note": "-lah 是后附强调小品词，不是改变词类的派生后缀；接合时词干不变。数据包的 ماچم 仅表示 macam，未包含 -lah；音节字段按数据包保留 null。",
+    "word_family": [
+      {
+        "word": "semacam",
+        "affix": "se-",
+        "gloss": "同一种；像……一样；有点异样"
+      },
+      {
+        "word": "bermacam-macam",
+        "affix": "ber- + 重叠",
+        "gloss": "各种各样"
+      }
+    ],
+    "root_jawi": "ماچم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "说得好像……似的；仿佛……一样，常以反讽语气否定或质疑后面的说法。",
+      "en_definition": "As if; used emphatically, often to challenge or sarcastically reject an implied claim.",
+      "ms_definition": "Seolah-olah atau seakan-akan, dengan penegasan yang sering menyatakan sindiran atau ketidakpercayaan terhadap sesuatu anggapan.",
+      "nuances": "本词常引出带反讽的分句，例如 macamlah dia tahu，实际暗示“他哪里知道”。反讽来自语境、语调与 -lah 的强调，并非 macam 本身必然带贬义。这里的 conjunction 按引出比较分句的功能标注；完整形式的释义为组合分析。[DBP：比较词 macam](https://dewanbahasa.jendeladbp.my/2024/12/23/16890/)",
+      "collocations": [
+        {
+          "ms": "macamlah dia tahu",
+          "zh": "说得好像他知道似的",
+          "en": "as if he knew"
+        },
+        {
+          "ms": "macamlah aku tak tahu",
+          "zh": "好像我不知道似的",
+          "en": "as if I didn't know"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "就像……一样；引出名词性比较对象，并加强相似的感觉。",
+      "en_definition": "Just like; introducing an emphatic comparison with a person or thing.",
+      "ms_definition": "Seperti atau serupa dengan seseorang atau sesuatu, dengan penegasan pada persamaan tersebut.",
+      "nuances": "可作真诚比较，不必带讽刺，例如 mesra macamlah adik-beradik。正式叙述一般用 seperti、seakan-akan 或 seolah-olah。这里的 preposition 对应名词性比较对象前的功能，与前一义引出分句的用法区分。",
+      "collocations": [
+        {
+          "ms": "mesra macamlah adik-beradik",
+          "zh": "亲密得像兄弟姐妹一样",
+          "en": "as close as siblings"
+        },
+        {
+          "ms": "rupanya macamlah kembar",
+          "zh": "长得简直像双胞胎",
+          "en": "looking just like twins"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 职场争议引述",
+      "ms": "Wakil pekerja mengkritik nada penjelasan tersebut dengan berkata, “Pihak pengurusan bercakap macamlah kami tidak memahami masalah ini.”",
+      "zh": "员工代表批评解释的口吻，说：“管理层说得好像我们不明白这个问题似的。”",
+      "en": "The workers' representative criticised the tone of the explanation, saying, “Management speaks as if we don't understand the problem.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟朋友互相打趣",
+      "ms_spoken": "Macamlah kau pernah masak untuk sepuluh orang!",
+      "ms_standard": "Engkau bercakap seolah-olah engkau pernah memasak untuk sepuluh orang!",
+      "zh": "说得好像你给十个人做过饭似的！",
+      "en": "As if you've ever cooked for ten people!",
+      "spoken_features": [
+        "句首 macamlah 加感叹语调，表达带挑战意味的反讽。",
+        "kau 是熟人间常用的第二人称形式。",
+        "masak 在口语中省略主动前缀 meN-；规范对应 memasak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Macamlah kau pernah masak untuk sepuluh orang!",
+          "ms_standard": "Engkau bercakap seolah-olah engkau pernah memasak untuk sepuluh orang!",
+          "zh": "说得好像你给十个人做过饭似的！",
+          "en": "As if you've ever cooked for ten people!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah pernah lah, masa raya kat rumah nenek dulu!",
+          "ms_standard": "Aku sudah pernah melakukannya ketika menyambut Hari Raya di rumah nenek dahulu!",
+          "zh": "还真做过啊！以前在奶奶家过开斋节的时候！",
+          "en": "Actually, I have—at my grandma's house one Hari Raya!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Macam links the ideas of kind, appearance, and likeness: things of a similar kind can be described as looking or behaving alike. Adding -lah brings the speaker's emphasis into that comparison. In Malaysian conversation, tone can turn an ordinary likeness into a sharp “as if,” so the social meaning extends beyond the literal comparison.",
+    "cognitive_memory_aid": "macam＝“像”，加 -lah 后听语气：平声可表“真像”，挑眉说则常是“说得好像……似的”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "反讽性的 macamlah 容易让对方觉得被嘲笑或被否定。对上司、长辈或客户，宜直接、礼貌地说明不同意见。",
+    "usage_etiquette": "适合熟人打趣、表达不服或引用原话；正式报道可放在引语中，公文正文通常改用 seolah-olah 或明确描述事实。不要把 -lah 一概理解成礼貌标记。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "反讽性的 macamlah 容易让对方觉得被嘲笑或被否定。对上司、长辈或客户，宜直接、礼貌地说明不同意见。",
+    "usage_etiquette": "适合熟人打趣、表达不服或引用原话；正式报道可放在引语中，公文正文通常改用 seolah-olah 或明确描述事实。不要把 -lah 一概理解成礼貌标记。"
+  }
+}

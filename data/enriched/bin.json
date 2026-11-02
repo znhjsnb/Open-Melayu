@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "bin",
+    "syllables": "bin",
+    "ipa": "/bin/",
+    "jawi": null,
+    "frequency_rank": 5882,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bin",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bin → bin",
+    "pattern_note": "阿拉伯语来源的独立词素，整体记忆；单音节，无词缀或音变。原包未提供音节，现补为 bin；Jawi 保留原包的 null。",
+    "word_family": [
+      {
+        "word": "berbin",
+        "affix": "ber-",
+        "gloss": "名字后带有 bin 及父名"
+      },
+      {
+        "word": "berbinkan",
+        "affix": "ber-...-kan",
+        "gloss": "以某人的名字作为父名"
+      },
+      {
+        "word": "membinkan",
+        "affix": "meN-...-kan",
+        "gloss": "为男孩的姓名添加父名"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "某人的儿子；置于男性个人名与父亲名字之间，表示父子关系。",
+      "en_definition": "Son of; a patronymic marker placed between a male personal name and his father's name.",
+      "ms_definition": "Anak lelaki kepada seseorang, digunakan di antara nama anak lelaki dengan nama bapanya.",
+      "nuances": "这里按姓名连接功能标为 particle。父名不等于世代相传的姓氏；例如 Ali bin Abdullah 表示 Ali 是 Abdullah 的儿子。姓名组合属于生产性的命名格式。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=berbin)",
+      "collocations": [
+        {
+          "ms": "Ali bin Abdullah",
+          "zh": "阿卜杜拉之子阿里",
+          "en": "Ali, son of Abdullah"
+        },
+        {
+          "ms": "Ahmad bin Ibrahim",
+          "zh": "易卜拉欣之子艾哈迈德",
+          "en": "Ahmad, son of Ibrahim"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "口语中指姓名里 bin 后面的父亲名字，即父名部分。",
+      "en_definition": "Informally, the father's name forming the patronymic part of a person's name.",
+      "ms_definition": "Dalam bahasa percakapan, nama bapa yang menjadi sebahagian daripada nama seseorang.",
+      "nuances": "对应原包中标为 bp 的义项，适合熟人间核对姓名；正式表格和说明宜明确写 nama bapa。",
+      "collocations": [
+        {
+          "ms": "nama dan bin",
+          "zh": "个人名和父名",
+          "en": "personal name and patronymic"
+        },
+        {
+          "ms": "binnya sama",
+          "zh": "其父名相同",
+          "en": "having the same patronymic"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "口语中的加强连接词，置于两个意思相近的词之间，强调程度很深。",
+      "en_definition": "An informal intensifying connector between words of similar meaning.",
+      "ms_definition": "Dalam bahasa percakapan, digunakan antara perkataan yang sama atau hampir sama ertinya untuk menyatakan amat sangat.",
+      "nuances": "常带夸张、诙谐或讽刺色彩，不是可自由代替 dan 的普通连接词；适用范围以惯用表达为主。",
+      "collocations": [
+        {
+          "ms": "ganjil bin ajaib",
+          "zh": "奇怪透顶",
+          "en": "exceedingly strange"
+        },
+        {
+          "ms": "hairan bin takjub",
+          "zh": "惊奇万分",
+          "en": "utterly astonished"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Nama penerima anugerah itu ialah Ahmad bin Ibrahim.",
+      "zh": "该奖项得主的姓名是 Ahmad bin Ibrahim。",
+      "en": "The award recipient's name is Ahmad bin Ibrahim."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat borang tu, tulis nama penuh dengan bin sekali, ya.",
+      "ms_standard": "Pada borang itu, tulis nama penuh termasuk bin dan nama bapa, ya.",
+      "zh": "那张表填全名，bin 和父名也一起写上哦。",
+      "en": "Put your full name on that form, including bin and your father's name, okay?",
+      "spoken_features": [
+        "kat 在这里对应 pada",
+        "tu 对应 itu",
+        "sekali 表示一并、也包括在内",
+        "ya 缓和提醒语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku dah isi nama kat borang tu. Kena tulis bin sekali ke?",
+          "ms_standard": "Saya sudah mengisi nama pada borang itu. Adakah bin dan nama bapa juga perlu ditulis?",
+          "zh": "我已经在那张表填了名字，bin 和父名也要写吗？",
+          "en": "I've filled in my name on the form. Do I need to include bin and my father's name too?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, ikut nama penuh kat kad pengenalan je.",
+          "ms_standard": "Ya, tulis sahaja nama penuh seperti yang tertera pada kad pengenalan.",
+          "zh": "对，就照身份证上的全名写。",
+          "en": "Yes, just use your full name as it appears on your identity card."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bin belongs to the Arabic naming tradition associated with ibn, meaning son. In Malay names, it connects a man's personal name with his father's name, preserving a relationship rather than supplying a hereditary surname. Malay also developed a playful extension: between near synonyms, as in ganjil bin ajaib, the same connector strengthens an expression instead of identifying parentage.",
+    "cognitive_memory_aid": "把 bin 想成姓名中的桥：Ali → bin → Abdullah，即“阿里是阿卜杜拉的儿子”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式文件应依当事人的证件填写姓名；日常称呼通常使用其个人名或适当称谓，不单独称呼别人为 bin。",
+    "usage_etiquette": "不要擅自添加、删除或推断某人的父名，也不要仅凭 bin 判断其族群或宗教。涉及亲子关系时，避免用父名开玩笑。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式文件应依当事人的证件填写姓名；日常称呼通常使用其个人名或适当称谓，不单独称呼别人为 bin。",
+    "usage_etiquette": "不要擅自添加、删除或推断某人的父名，也不要仅凭 bin 判断其族群或宗教。涉及亲子关系时，避免用父名开玩笑。"
+  }
+}

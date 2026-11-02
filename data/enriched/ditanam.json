@@ -1,0 +1,175 @@
+{
+  "headword": {
+    "word": "ditanam",
+    "syllables": null,
+    "ipa": "/di.ta.nam/",
+    "jawi": null,
+    "frequency_rank": 5845,
+    "status": "official",
+    "status_note": "标准马来语被动动词。输入的词根标记已按 di- + tanam 的构词关系纠正；缺失的音节字段和爪夷文字段保留为空。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tanam",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + tanam → ditanam",
+    "pattern_note": "被动前缀 di- 与词根连写，词根首辅音 t 保留；主动式 meN- + tanam → menanam 中，t 被鼻音替代。di- 不表示过去时，并须与分写的地点介词 di 区分。",
+    "word_family": [
+      {
+        "word": "menanam",
+        "affix": "meN-",
+        "gloss": "种植；埋入；投入"
+      },
+      {
+        "word": "tanaman",
+        "affix": "-an",
+        "gloss": "种植的植物；作物"
+      },
+      {
+        "word": "penanaman",
+        "affix": "peN-...-an",
+        "gloss": "种植；投入；灌输的过程"
+      },
+      {
+        "word": "ditanamkan",
+        "affix": "di-...-kan",
+        "gloss": "被植入；被灌输"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被种下、被栽种；指种子、幼苗或植物被放入适宜的生长介质中培育。",
+      "en_definition": "To be planted or sown in a growing medium.",
+      "ms_definition": "Dimasukkan atau diletakkan dalam tanah atau medium yang sesuai supaya tumbuh, seperti biji benih atau anak pokok.",
+      "nuances": "是 menanam 的被动形式，主语通常是被种植的植物或种子。是否已经完成由 sudah、telah 或上下文表达，不能把 di- 当成过去时。DBP 的主动、被动句示例支持这一分析：[PRPM：tanam 用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tanam)。",
+      "collocations": [
+        {
+          "ms": "anak pokok ditanam",
+          "zh": "树苗被栽下",
+          "en": "saplings are planted"
+        },
+        {
+          "ms": "ditanam dalam pasu",
+          "zh": "被种在花盆里",
+          "en": "planted in a pot"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被埋入、被安置在地下；也可在特定语境中指遗体被埋葬。",
+      "en_definition": "To be buried or embedded in the ground; also, in context, to be interred.",
+      "ms_definition": "Dimasukkan ke dalam tanah dan ditimbus atau dipasang di bawah tanah; bagi mayat, dikebumikan.",
+      "nuances": "对象不限于植物，也可为管道、电缆或其他被埋入地下的物体。谈论逝者时，dikebumikan 通常比 ditanam 更庄重。",
+      "collocations": [
+        {
+          "ms": "kabel ditanam di bawah tanah",
+          "zh": "电缆被埋设在地下",
+          "en": "cables are buried underground"
+        },
+        {
+          "ms": "paip ditanam",
+          "zh": "管道被埋设",
+          "en": "pipes are buried"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "〈比喻〉资金被投入某项事业或投资项目。",
+      "en_definition": "Of capital or funds, to be invested in an enterprise or venture.",
+      "ms_definition": "Dilaburkan dalam sesuatu perusahaan atau usaha, khususnya modal atau wang.",
+      "nuances": "常见于商业和财经语境。表示资金投入，不直接说明投资是否获利，也不等同于把现金实物埋藏起来。",
+      "collocations": [
+        {
+          "ms": "modal ditanam dalam perniagaan",
+          "zh": "资本被投入生意中",
+          "en": "capital is invested in a business"
+        },
+        {
+          "ms": "wang ditanam dalam hartanah",
+          "zh": "资金被投入房地产",
+          "en": "money is invested in property"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "〈比喻〉观念、情感或价值被植入心中，使其逐渐扎根。",
+      "en_definition": "Of an idea, feeling, or value, to be instilled or planted in the mind.",
+      "ms_definition": "Disemai atau diterapkan dalam hati atau fikiran, seperti nilai, semangat atau perasaan.",
+      "nuances": "延续“种下并生根”的比喻，可用于正面的价值培养，也可描述仇恨等负面情感的形成。ditanamkan 和 diterapkan 也是常见表达，但有各自的构词和句法形式。",
+      "collocations": [
+        {
+          "ms": "nilai murni ditanam dalam jiwa",
+          "zh": "美德被植入心灵",
+          "en": "moral values are instilled in the heart"
+        },
+        {
+          "ms": "semangat cinta akan negara ditanam",
+          "zh": "爱国精神得到培养",
+          "en": "a spirit of patriotism is instilled"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 社区绿化工作汇报",
+      "ms": "Sebanyak 200 anak pokok telah ditanam di kawasan sekolah melalui program penghijauan tersebut.",
+      "zh": "该绿化计划已在校园内栽种了200棵树苗。",
+      "en": "A total of 200 saplings have been planted on the school grounds through the greening programme."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 邻居讨论社区种植活动",
+      "ms_spoken": "Pokok yang ditanam kat taman tu dah berbunga!",
+      "ms_standard": "Pokok yang ditanam di taman itu sudah berbunga!",
+      "zh": "公园里种的那棵树已经开花啦！",
+      "en": "The tree planted in the park is flowering already!",
+      "spoken_features": [
+        "kat 对应地点介词 di。",
+        "tu 对应 itu。",
+        "dah 对应 sudah。",
+        "ditanam 在口语中仍可自然保留，尤其用于 yang 引导的修饰结构。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Pokok yang ditanam kat taman tu dah berbunga. Nak tengok petang ni?",
+          "ms_standard": "Pokok yang ditanam di taman itu sudah berbunga. Adakah kamu hendak melihatnya pada petang ini?",
+          "zh": "公园里种的那棵树已经开花了。今天傍晚要去看看吗？",
+          "en": "The tree planted in the park is flowering already. Want to go and see it this evening?"
+        },
+        {
+          "speaker": "Mei (邻居)",
+          "ms_spoken": "Nak! Pokok yang ditanam masa gotong-royong hari tu, kan?",
+          "ms_standard": "Ya, saya hendak melihatnya. Pokok itu ditanam semasa kegiatan gotong-royong tempoh hari, bukan?",
+          "zh": "要啊！就是前阵子大家一起做社区劳动时种的那棵，对吧？",
+          "en": "Yes! That's the tree planted during the community work day, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ditanam combines the Malay passive prefix di- with tanam. Planting supplies the concrete image behind its wider uses: objects can be buried, capital invested, and values established in the heart. These meanings share the idea of placing something where it can remain or develop; they do not require separate invented roots.",
+    "cognitive_memory_aid": "di- 表示“被”，tanam 表示“种、埋”：ditanam 就是“被种下”。再联想资金和观念也能被“种进去”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于植物、设施和资金时语气中性。涉及逝者时，正式或慰问场合通常采用 dikebumikan，以表达庄重与尊重。",
+    "usage_etiquette": "适用于农业、绿化、工程及比喻表达。标准语中 Saya menanam pokok 的常见被动对应为 Pokok itu saya tanam；第三人称施事可用 Pokok itu ditanam oleh Ali。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于植物、设施和资金时语气中性。涉及逝者时，正式或慰问场合通常采用 dikebumikan，以表达庄重与尊重。",
+    "usage_etiquette": "适用于农业、绿化、工程及比喻表达。标准语中 Saya menanam pokok 的常见被动对应为 Pokok itu saya tanam；第三人称施事可用 Pokok itu ditanam oleh Ali。"
+  }
+}

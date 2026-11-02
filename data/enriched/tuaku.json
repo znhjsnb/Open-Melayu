@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "tuaku",
+    "syllables": null,
+    "ipa": "/tu.a.ku/",
+    "jawi": "توا",
+    "frequency_rank": 5941,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tua",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "tua + -ku → tuaku",
+    "pattern_note": "-ku 是 aku 的附着形式，表示第一人称领属；无词干音变，tua 中的 u 与 a 分属两个音节。在 masa tuaku 等结构中，领属关系作用于整个短语。数据包的 توا 是 tua 的 Jawi，未包含 -ku；音节字段按数据包保留 null。",
+    "word_family": [
+      {
+        "word": "tertua",
+        "affix": "ter-",
+        "gloss": "最年长的；最古老的"
+      },
+      {
+        "word": "menuakan",
+        "affix": "meN-…-kan",
+        "gloss": "使变老；尊为长者"
+      }
+    ],
+    "root_jawi": "توا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "我的老年、我的晚年；通常见于 masa tuaku 或 hari tuaku 等短语。",
+      "en_definition": "My old age or later years, usually within a phrase such as masa tuaku or hari tuaku.",
+      "ms_definition": "Masa atau keadaan ketika aku sudah lanjut usia, lazimnya dalam ungkapan masa tuaku atau hari tuaku.",
+      "nuances": "这里的 noun 标注对应短语中名词化的“晚年”意义；tua 的基本词类仍是形容词。此释义是依据 tua 与 -ku 的组合分析，并非声称 tuaku 有独立的 DBP 词条。tuaku 不等于“我老了”，后者是 aku sudah tua。在 orang tuaku 中，整个短语可表示“我的父母”或“我的长辈”，并非 tuaku 单独具有“父母”义。[DBP：tua](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=tua)、[DBP：ku](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ku)",
+      "collocations": [
+        {
+          "ms": "masa tuaku",
+          "zh": "我的晚年时期",
+          "en": "my old age"
+        },
+        {
+          "ms": "hari tuaku",
+          "zh": "我的晚年岁月",
+          "en": "my later years"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 退休致辞引述",
+      "ms": "Dalam ucapan persaraannya, beliau berkata, “Aku berharap dapat menghabiskan hari tuaku bersama keluarga dalam keadaan sihat.”",
+      "zh": "他在退休致辞中说：“我希望晚年能身体健康，与家人共度时光。”",
+      "en": "In his retirement speech, he said, “I hope to spend my later years in good health with my family.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友半认真地谈晚年储蓄",
+      "ms_spoken": "Aku nak simpan duit untuk hari tuaku, bukan nak beli telefon baru je.",
+      "ms_standard": "Aku hendak menyimpan wang untuk hari tuaku, bukan sekadar untuk membeli telefon baharu.",
+      "zh": "我想存点钱养老，可不只是为了买新手机。",
+      "en": "I want to save for my old age, not just for a new phone.",
+      "spoken_features": [
+        "nak 是 hendak 的口语形式。",
+        "duit 比 wang 更口语；je 对应 sahaja。",
+        "hari tuaku 带抒情感，在聊天中可形成半认真、半打趣的语气；日常也常说 masa aku tua nanti。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak simpan duit untuk hari tuaku, bukan nak beli telefon baru je.",
+          "ms_standard": "Aku hendak menyimpan wang untuk hari tuaku, bukan sekadar untuk membeli telefon baharu.",
+          "zh": "我想存钱养老，又不只是想买新手机。",
+          "en": "I'm saving for my old age, not just for a new phone."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Betul juga. Aku pun dah mula simpan sikit tiap-tiap bulan.",
+          "ms_standard": "Betul juga. Aku juga sudah mula menyimpan sedikit wang setiap bulan.",
+          "zh": "也是。我也开始每个月存一点了。",
+          "en": "Fair point. I've started putting a little aside each month too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay uses the short pronoun -ku to give possessions and experiences a personal voice. In phrases such as hari tuaku, the speaker claims the later years of life as their own. This makes the expression suitable for reflective writing, memoirs, and verse, while everyday conversation can express the same idea as masa aku tua nanti.",
+    "cognitive_memory_aid": "tua＝老，ku＝我的；放进 hari tuaku：“属于我的晚年岁月”。不要倒读成“我老了”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 相连，适合亲近关系、自述和文学表达。正式财务或退休规划沟通通常用 masa persaraan saya，更中性得体。",
+    "usage_etiquette": "谈自己的晚年可自然使用；称呼别人时避免随意以 tua 给人贴标签。orang tuaku 的具体所指要看上下文，向外人介绍父母时 ibu bapa saya 更清楚、正式。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 相连，适合亲近关系、自述和文学表达。正式财务或退休规划沟通通常用 masa persaraan saya，更中性得体。",
+    "usage_etiquette": "谈自己的晚年可自然使用；称呼别人时避免随意以 tua 给人贴标签。orang tuaku 的具体所指要看上下文，向外人介绍父母时 ibu bapa saya 更清楚、正式。"
+  }
+}

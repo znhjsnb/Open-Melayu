@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "memerangi",
+    "syllables": "me.me.ra.ngi",
+    "ipa": "/mə.mə.ra.ŋi/",
+    "jawi": "ممرڠي",
+    "frequency_rank": 5936,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "perang",
+    "affix": "meN-...-i",
+    "affix_type": "circumfix",
+    "formula": "meN- + perang + -i → memerangi",
+    "pattern_note": "词根为 perang（战争），不是 memerang（水獭）。meN- 遇词首 p 时，p 脱落并发生唇音鼻化，形成 mem-；-i 构成指向受事的及物动词。此处 circumfix 表示前后缀组合。[DBP 词族资料](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=berperang)",
+    "word_family": [
+      {
+        "word": "berperang",
+        "affix": "ber-",
+        "gloss": "作战；交战"
+      },
+      {
+        "word": "peperangan",
+        "affix": "pe-...-an",
+        "gloss": "战争；战事"
+      },
+      {
+        "word": "diperangi",
+        "affix": "di-...-i",
+        "gloss": "被攻击；被打击或根除"
+      }
+    ],
+    "root_jawi": "ڤرڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "以武力对某一方作战；与某一方交战。",
+      "en_definition": "To wage war against or engage in armed conflict with.",
+      "ms_definition": "Berperang dengan atau berperang melawan sesuatu pihak.",
+      "nuances": "及物动词，后面直接接受攻击的一方，如 memerangi musuh。表示实际武装冲突时，语气强于一般的 menentang；不用于普通争论。",
+      "collocations": [
+        {
+          "ms": "memerangi musuh",
+          "zh": "与敌人作战",
+          "en": "fight the enemy"
+        },
+        {
+          "ms": "memerangi penjajah",
+          "zh": "反抗殖民侵略者",
+          "en": "fight colonial occupiers"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "采取持续、有组织的行动，打击、遏制或消除某种弊害。",
+      "en_definition": "To combat, suppress, or work to eradicate something harmful.",
+      "ms_definition": "Melawan, membasmi atau menghapuskan sesuatu yang memudaratkan.",
+      "nuances": "常用于公共政策、卫生宣传和社会议题。强调积极而持续的行动，不表示问题已经被彻底消除；如要表达行动成果，须另加 berjaya 等成分。",
+      "collocations": [
+        {
+          "ms": "memerangi rasuah",
+          "zh": "打击贪腐",
+          "en": "combat corruption"
+        },
+        {
+          "ms": "memerangi kemiskinan",
+          "zh": "消除贫困",
+          "en": "combat poverty"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kerajaan memperkukuh kerjasama antara agensi untuk memerangi rasuah dalam sektor awam.",
+      "zh": "政府加强机构间的合作，以打击公共部门的贪腐。",
+      "en": "The government is strengthening cooperation between agencies to combat corruption in the public sector."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nak memerangi denggi, kita kena buang air bertakung kat rumah juga lah.",
+      "ms_standard": "Untuk memerangi denggi, kita perlu membuang air bertakung di rumah juga.",
+      "zh": "要对抗登革热，我们也得清掉家里的积水啦。",
+      "en": "To fight dengue, we need to get rid of standing water at home too.",
+      "spoken_features": [
+        "nak 在此引出行动目的，标准表达可用 untuk",
+        "kena 表示必须或需要",
+        "kat 对应标准语的 di",
+        "lah 加强劝说语气；memerangi 本身仍带公共宣传语体色彩"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Esok ada gotong-royong nak memerangi denggi kat taman kita. Kau nak ikut?",
+          "ms_standard": "Esok ada aktiviti gotong-royong untuk memerangi denggi di kawasan perumahan kita. Adakah kamu mahu menyertainya?",
+          "zh": "明天咱们小区有防登革热的大扫除，你要一起吗？",
+          "en": "There's a community clean-up to fight dengue in our neighbourhood tomorrow. Want to join?"
+        },
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Nak! Aku dah kosongkan pasu kat belakang. Esok aku datang awal lah.",
+          "ms_standard": "Ya, saya mahu menyertainya. Saya sudah mengosongkan pasu di belakang rumah. Esok saya akan datang awal.",
+          "zh": "要啊！我已经把屋后花盆里的水倒掉了，明天我早点来。",
+          "en": "Yes! I've already emptied the flowerpots out back. I'll come early tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The key to memerangi is perang, meaning war. Malay builds a transitive verb by combining this base with meN- and -i, with the initial p disappearing during nasal substitution. The dictionary records both armed opposition and combating harmful things. This pairing helps explain why the same verb fits accounts of warfare and campaigns against corruption or poverty.",
+    "cognitive_memory_aid": "抓住 perang＝战争：meN- + perang + -i，把某人或某种弊害当作作战对象。别把它误拆成 memerang（水獭）加 -i。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于打击贪腐、疾病等公共议题时庄重有力；用于同事、家人或普通意见分歧时，容易显得敌对。",
+    "usage_etiquette": "政策报告和宣传口号适合使用；日常协商宜根据实际意思选择 menangani（处理）、mengatasi（克服）或 berbincang（商谈）。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于打击贪腐、疾病等公共议题时庄重有力；用于同事、家人或普通意见分歧时，容易显得敌对。",
+    "usage_etiquette": "政策报告和宣传口号适合使用；日常协商宜根据实际意思选择 menangani（处理）、mengatasi（克服）或 berbincang（商谈）。"
+  }
+}

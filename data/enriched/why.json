@@ -1,0 +1,158 @@
+{
+  "headword": {
+    "word": "why",
+    "syllables": null,
+    "ipa": "/waɪ/",
+    "jawi": null,
+    "frequency_rank": 5916,
+    "status": "unverified",
+    "lexical_note": "英语词，不能依据本数据包认证为正式马来语词。通常对应 mengapa 或 kenapa。排名仅沿用输入；音节及爪夷文缺失值保留为 null。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "why",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + why → why",
+    "pattern_note": "英语独立词，不适用马来语词缀分析。所列读音为单音节，字母 y 表示双元音 /aɪ/；部分英语口音保留 /ʍ/ 起音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "为什么；出于什么原因。用于直接或间接询问原因。",
+      "en_definition": "For what reason; used in direct or indirect questions.",
+      "ms_definition": "Mengapa atau kenapa; digunakan untuk menanyakan sebab secara langsung atau tidak langsung.",
+      "nuances": "词性描述针对英语 why。正式马来语通常使用 mengapa；kenapa 常用于日常交流。下列搭配为马来语对应表达，马来语释义为编辑撰写，非 DBP 原文。",
+      "collocations": [
+        {
+          "ms": "mengapa tidak",
+          "zh": "为什么不；有何不可",
+          "en": "why not"
+        },
+        {
+          "ms": "bertanya mengapa",
+          "zh": "询问原因",
+          "en": "ask why"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "……的原因；用于引出说明原因的从句。",
+      "en_definition": "For which reason; introducing a clause that specifies a reason.",
+      "ms_definition": "Digunakan untuk memperkenalkan klausa yang menjelaskan sebab sesuatu perkara.",
+      "nuances": "这是英语关系副词用法，如 the reason why。翻译为马来语时常重组为 sebab、itulah sebabnya 等，不应逐词硬译。",
+      "collocations": [
+        {
+          "ms": "sebab perkara itu berlaku",
+          "zh": "事情发生的原因",
+          "en": "the reason why it happened"
+        },
+        {
+          "ms": "itulah sebabnya",
+          "zh": "那就是为什么；所以才",
+          "en": "that is why"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "原因；缘由，尤见于谈论事情来龙去脉的表达。",
+      "en_definition": "A reason or explanation, especially in expressions about underlying causes.",
+      "ms_definition": "Sebab atau penjelasan tentang sesuatu perkara.",
+      "nuances": "英语名词用法常见于复数 whys 或固定表达 the whys and wherefores；马来语以 sebab、alasan 或 sebab-musabab 表达。",
+      "collocations": [
+        {
+          "ms": "sebab-musabab",
+          "zh": "各种缘由；来龙去脉",
+          "en": "the whys and wherefores"
+        },
+        {
+          "ms": "memahami sebabnya",
+          "zh": "弄清背后的原因",
+          "en": "understand the why"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "particle",
+      "zh_definition": "哎呀；咦。置于话语开头表示惊讶或加强情绪，不询问原因。",
+      "en_definition": "An exclamation expressing surprise or emotional emphasis.",
+      "ms_definition": "Seruan yang menyatakan kehairanan atau menguatkan perasaan, bukan pertanyaan tentang sebab.",
+      "nuances": "这里用 particle 容纳英语感叹词功能。此用法在现代日常英语中可带旧式或戏剧化色彩；不能译作 mengapa。",
+      "collocations": [
+        {
+          "ms": "oh, sudah tentu",
+          "zh": "哎呀，当然",
+          "en": "why, of course"
+        },
+        {
+          "ms": "eh, tengoklah",
+          "zh": "咦，你看",
+          "en": "why, look"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam soal selidik dwibahasa itu, perkataan Inggeris 'why' diterjemahkan sebagai 'mengapa'.",
+      "zh": "在该双语问卷中，英语 why 译为马来语 mengapa。",
+      "en": "In the bilingual questionnaire, the English word 'why' is translated as 'mengapa'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Why tak datang semalam? Aku dah tunggu lama tau.",
+      "ms_standard": "Mengapa kamu tidak datang semalam? Saya sudah menunggu lama.",
+      "zh": "你昨天怎么没来？我可是等了很久啊。",
+      "en": "Why didn't you come yesterday? I waited ages, you know.",
+      "spoken_features": [
+        "why 为英语语码混用，对应 mengapa 或 kenapa",
+        "tak 对应 tidak，dah 对应 sudah",
+        "tau 在此加强提醒语气",
+        "口语问句省略可由上下文恢复的主语"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Why tak datang semalam? Aku dah tunggu lama tau.",
+          "ms_standard": "Mengapa kamu tidak datang semalam? Saya sudah menunggu lama.",
+          "zh": "你昨天怎么没来？我可是等了很久啊。",
+          "en": "Why didn't you come yesterday? I waited ages, you know."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Maaf lah, kereta aku rosak. Nak mesej pun bateri telefon dah habis.",
+          "ms_standard": "Maaf, kereta saya rosak. Saya juga tidak dapat menghantar mesej kerana bateri telefon sudah habis.",
+          "zh": "不好意思啦，我的车坏了。想发消息，手机又没电了。",
+          "en": "Sorry, my car broke down. I couldn't even text you because my phone had died."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English why descends from Old English hwī or hwȳ, historically a form associated with hwæt, meaning what. Its older grammatical sense concerned the cause or means of something. Modern English retains why as a basic question word. When it appears in Malay conversation, it may represent English code-switching rather than an established Malay borrowing.",
+    "cognitive_memory_aid": "why /waɪ/ 一出现，就先找“原因”；马来语用 mengapa，日常也常用 kenapa。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独追问 Why? 或 Kenapa? 可能显得突然。正式询问可用 Boleh saya tahu sebabnya?，即“我可以了解一下原因吗？”",
+    "usage_etiquette": "亲友之间可依共同语言习惯混用 why；对上级、客户或陌生人询问原因时，应结合称谓、完整句式及柔和语气。"
+  },
+  "sources": [
+    "[Cambridge Dictionary: why](https://dictionary.cambridge.org/dictionary/english/why)",
+    "[Oxford Advanced Learner's Dictionary: why](https://www.oxfordlearnersdictionaries.com/us/definition/english/why_1)"
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "单独追问 Why? 或 Kenapa? 可能显得突然。正式询问可用 Boleh saya tahu sebabnya?，即“我可以了解一下原因吗？”",
+    "usage_etiquette": "亲友之间可依共同语言习惯混用 why；对上级、客户或陌生人询问原因时，应结合称谓、完整句式及柔和语气。"
+  }
+}

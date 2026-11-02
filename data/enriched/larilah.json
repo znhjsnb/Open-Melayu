@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "larilah",
+    "syllables": null,
+    "ipa": "/la.ri.lah/",
+    "jawi": "لاري",
+    "frequency_rank": 5987,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lari",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "lari + -lah → larilah",
+    "pattern_note": "-lah 是附着在词后的语气助词，不是派生后缀；suffix 在此仅表示其附着位置。加入后不改变 lari 的词根读音。输入未提供音节划分，因此保留 null；所给 Jawi لاري 是词根 lari 的写法，按词包保留，不视为已核实的 larilah 完整拼写。-lah 按规范与前词连写。[DBP：马来语拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)",
+    "word_family": [
+      {
+        "word": "berlari",
+        "affix": "ber-",
+        "gloss": "跑步；奔跑"
+      },
+      {
+        "word": "pelari",
+        "affix": "pe-",
+        "gloss": "跑步者；赛跑运动员"
+      },
+      {
+        "word": "larian",
+        "affix": "-an",
+        "gloss": "跑步；奔跑活动"
+      }
+    ],
+    "root_jawi": "لاري"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "跑吧；快跑；带有催促、鼓励或强调语气的“跑”。",
+      "en_definition": "Run; go ahead and run, with encouragement, urging, or emphasis.",
+      "ms_definition": "Bergerak dengan pantas sekali (lebih cepat daripada berjalan).",
+      "nuances": "马来文释义对应词根 lari；-lah 添加语用意义。语调可使其听起来像鼓励、催促、准许或不耐烦，并非一律使命令更温和。在叙事句 lalu larilah dia... 中，也可表示“于是他便跑了……”，不必理解为命令。",
+      "collocations": [
+        {
+          "ms": "larilah cepat",
+          "zh": "快跑吧",
+          "en": "run quickly"
+        },
+        {
+          "ms": "larilah perlahan-lahan",
+          "zh": "慢慢跑吧",
+          "en": "run slowly"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "逃吧；赶快逃离危险、追捕或拘禁。",
+      "en_definition": "Flee or escape, with urging or emphasis.",
+      "ms_definition": "Menyelamatkan atau melepaskan diri (daripada bahaya, tahanan, dan lain-lain).",
+      "nuances": "释义沿用词包中的 lari 第二义。是否强调逃离而非单纯跑步，取决于危险、追赶等语境。larilah ke tempat selamat 可理解为催促对方逃到安全处；该词本身不保证逃脱成功。",
+      "collocations": [
+        {
+          "ms": "larilah ke tempat selamat",
+          "zh": "快逃到安全的地方",
+          "en": "run to safety"
+        },
+        {
+          "ms": "larilah dari sini",
+          "zh": "快从这里逃走",
+          "en": "get away from here"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam sesi latihan, jurulatih mengingatkan para peserta, \"Jika masih bertenaga, larilah perlahan-lahan sehingga ke garisan penamat.\"",
+      "zh": "训练期间，教练提醒参与者：“如果还有体力，就慢慢跑到终点线。”",
+      "en": "During the training session, the coach reminded participants, \"If you still have the energy, keep running slowly until you reach the finish line.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kalau kau nak kejar bas tu, larilah cepat!",
+      "ms_standard": "Jika awak hendak mengejar bas itu, larilah dengan cepat!",
+      "zh": "你要赶那辆巴士的话，就快跑呀！",
+      "en": "If you want to catch that bus, hurry up and run!",
+      "spoken_features": [
+        "nak 是 hendak 的口语缩略形式。",
+        "tu 是 itu 的口语缩略形式。",
+        "kau 用于接受这种称呼的亲近朋友。",
+        "dah 对应 sudah。",
+        "-lah 在此表达催促；语气强弱由语调与情境决定。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kalau kau nak kejar bas tu, larilah cepat!",
+          "ms_standard": "Jika awak hendak mengejar bas itu, larilah dengan cepat!",
+          "zh": "你要赶那辆巴士的话，就快跑呀！",
+          "en": "If you want to catch that bus, hurry up and run!"
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Tak sempat dah, pintu pun dah tutup. Kita tunggu bas lain je.",
+          "ms_standard": "Sudah tidak sempat; pintu bas juga sudah ditutup. Kita tunggu bas yang lain sahaja.",
+          "zh": "来不及了，车门都关了。我们等下一辆吧。",
+          "en": "Too late—the doors have already closed. Let's just wait for the next bus."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Larilah combines the verb lari with the attached particle -lah. Its spelling reflects the Malay convention of writing this particle together with the preceding word. In conversation, the combination can encourage a runner or urgently tell someone to flee. In narrative prose, -lah can instead highlight an event, so the surrounding sentence determines whether a command is intended. [DBP: Malay spelling guidelines](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)",
+    "cognitive_memory_aid": "lari＝跑，后接 -lah 像给这声呼喊加上语气：larilah!＝“跑吧！”或“快跑！”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 不能自动把命令变得礼貌。朋友之间可用 larilah 催促或鼓励；对长辈或不熟悉的人提出一般请求时，通常需要称谓、说明或较委婉的句式。",
+    "usage_etiquette": "适用于运动鼓励、直接引语和需要立即逃离的情境。对摔倒的人说 larilah lagi 可能带有“再跑呀”的反讽或责备意味，应结合语调判断。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 不能自动把命令变得礼貌。朋友之间可用 larilah 催促或鼓励；对长辈或不熟悉的人提出一般请求时，通常需要称谓、说明或较委婉的句式。",
+    "usage_etiquette": "适用于运动鼓励、直接引语和需要立即逃离的情境。对摔倒的人说 larilah lagi 可能带有“再跑呀”的反讽或责备意味，应结合语调判断。"
+  }
+}

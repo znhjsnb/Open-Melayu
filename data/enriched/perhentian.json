@@ -1,0 +1,135 @@
+{
+  "headword": {
+    "word": "perhentian",
+    "syllables": "per.hen.tian",
+    "ipa": "/pər.hən.ti.an/",
+    "jawi": "ڤرهنتين",
+    "frequency_rank": 5966,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "henti",
+    "affix": "per-...-an",
+    "affix_type": "circumfix",
+    "formula": "per- + henti + -an → perhentian",
+    "pattern_note": "环缀 per-...-an 在这里构成表示停靠地点的名词，henti 的 h 保留；i 与后接 a 可分读，快读时可连成近似 /ja/。资料包的 hentian 已含 -an，基础词根应为 henti。参见 [DBP：地点名词环缀](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=perkampungan+1)。",
+    "word_family": [
+      {
+        "word": "berhenti",
+        "affix": "ber-",
+        "gloss": "停下；停止"
+      },
+      {
+        "word": "hentian",
+        "affix": "-an",
+        "gloss": "停靠处；停顿"
+      },
+      {
+        "word": "menghentikan",
+        "affix": "meN-...-kan",
+        "gloss": "使停止；终止"
+      },
+      {
+        "word": "pemberhentian",
+        "affix": "peN-...-an（与 memberhentikan 对应）",
+        "gloss": "停止、终止的行为；解雇"
+      }
+    ],
+    "root_jawi": "هنتي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "车辆等停靠的地点，尤指公共汽车或出租车的停靠站。",
+      "en_definition": "A stopping place, especially a designated stop for buses or taxis.",
+      "ms_definition": "Tempat berhenti bagi bas, teksi dan sebagainya.",
+      "nuances": "这是 Kamus Dewan 的核心义。perhentian bas 指巴士站点，不必是大型总站；大型总站通常称 terminal bas。不要与 pemberhentian pekerja（解雇员工）混淆。参见 [DBP：perhentian](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=perhentian)。",
+      "collocations": [
+        {
+          "ms": "perhentian bas",
+          "zh": "巴士站；公共汽车停靠站",
+          "en": "bus stop"
+        },
+        {
+          "ms": "perhentian teksi",
+          "zh": "出租车候车站",
+          "en": "taxi stand"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "停止或停顿的状态、情形。",
+      "en_definition": "The act or state of stopping.",
+      "ms_definition": "Hal atau keadaan berhenti.",
+      "nuances": "Kamus Pelajar 另收此义；现代常用程度低于地点义。下列组合可描述停顿，但也可能按上下文理解为临时停靠地点，不能脱离语境机械翻译。表示活动暂停时，常直接用 berhenti sebentar 或 pemberhentian sementara。参见 [DBP：Kamus Pelajar 的 perhentian 第二义](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=perhentian)。",
+      "collocations": [
+        {
+          "ms": "perhentian sementara",
+          "zh": "暂时停止；临时停靠",
+          "en": "a temporary stop"
+        },
+        {
+          "ms": "perhentian seketika",
+          "zh": "短暂停顿",
+          "en": "a brief stop"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共交通公告",
+      "ms": "Perhentian bas di hadapan hospital akan dipindahkan sementara sepanjang kerja pembaikan jalan.",
+      "zh": "道路维修期间，医院前的巴士站将暂时迁移。",
+      "en": "The bus stop in front of the hospital will be temporarily relocated during road repairs."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约定接人地点",
+      "ms_spoken": "Aku dah sampai kat perhentian bas depan hospital.",
+      "ms_standard": "Saya sudah tiba di perhentian bas di hadapan hospital.",
+      "zh": "我已经到医院前面的巴士站了。",
+      "en": "I’m at the bus stop in front of the hospital.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "kat 在此对应地点介词 di。",
+        "depan 对应 di hadapan。",
+        "je 对应 sahaja。",
+        "口语第二句省略了可从上下文补出的主语。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah sampai kat perhentian bas depan hospital.",
+          "ms_standard": "Saya sudah tiba di perhentian bas di hadapan hospital.",
+          "zh": "我已经到医院前面的巴士站了。",
+          "en": "I’m at the bus stop in front of the hospital."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Okey, tunggu kat situ je. Aku sampai kejap lagi.",
+          "ms_standard": "Baiklah, tunggu di situ sahaja. Saya akan tiba sebentar lagi.",
+          "zh": "好，就在那里等，我一会儿到。",
+          "en": "Okay, stay there. I’ll be there shortly."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Perhentian is a transparent Malay formation built around henti, “stop.” The circumfix per-...-an gives it a place meaning, turning stopping into somewhere to stop. Everyday transport makes that structure easy to see: a perhentian bas is where a bus stops. The dictionary also records a less prominent sense referring to stopping itself. [Source: DBP](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=perhentian).",
+    "cognitive_memory_aid": "先记 henti＝停；per-...-an 在这里把“停”变成“停的地方”：perhentian bas＝巴士停靠站。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "问路可用 Maaf, di manakah perhentian bas yang terdekat?；向司机确认时可用 Encik, adakah bas ini berhenti di hadapan hospital?",
+    "usage_etiquette": "约见或接人时最好注明站名、道路方向或地标，因为马路两侧可能各有站点。普通名词写 perhentian；地名 Pulau Perhentian 中使用大写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "问路可用 Maaf, di manakah perhentian bas yang terdekat?；向司机确认时可用 Encik, adakah bas ini berhenti di hadapan hospital?",
+    "usage_etiquette": "约见或接人时最好注明站名、道路方向或地标，因为马路两侧可能各有站点。普通名词写 perhentian；地名 Pulau Perhentian 中使用大写。"
+  }
+}

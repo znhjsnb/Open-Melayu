@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "sangatlah",
+    "syllables": null,
+    "ipa": "/sa.ŋat.lah/",
+    "jawi": "ساڠت",
+    "frequency_rank": 5943,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sangat",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "sangat + -lah → sangatlah",
+    "pattern_note": "-lah 是后附强调小品词，不改变 sangat 的词干；ng 表示单个鼻音 /ŋ/，不是 /nɡ/。数据包的 ساڠت 仅表示 sangat，未包含 -lah；音节字段按数据包保留 null。",
+    "word_family": [
+      {
+        "word": "tersangat",
+        "affix": "ter-",
+        "gloss": "极其；非常"
+      },
+      {
+        "word": "kesangatan",
+        "affix": "ke-…-an",
+        "gloss": "过度；程度过甚"
+      }
+    ],
+    "root_jawi": "ساڠت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "非常；极其；以强调语气表示性质或状态的程度很高。",
+      "en_definition": "Very or extremely, with added emphasis.",
+      "ms_definition": "Menunjukkan darjah sifat atau keadaan yang tinggi dengan penegasan tambahan.",
+      "nuances": "sangat 已表示高程度，-lah 增加强调或感情色彩，并不自动产生“过头、不合适”的意思。常放在形容词前，如 sangatlah penting；也可见于评述句，如 sangatlah sukar untuk diterima。完整形式由词基释义与强调小品词组合解释。[DBP：sangat](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=sangat)",
+      "collocations": [
+        {
+          "ms": "sangatlah penting",
+          "zh": "非常重要",
+          "en": "extremely important"
+        },
+        {
+          "ms": "sangatlah sukar",
+          "zh": "非常困难",
+          "en": "extremely difficult"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "十分；非常；强调希望、感激等心理活动的强烈或恳切程度。",
+      "en_definition": "Greatly or earnestly, emphasising the strength of a feeling or desire.",
+      "ms_definition": "Dengan perasaan atau keinginan yang sangat kuat dan bersungguh-sungguh.",
+      "nuances": "修饰感激、期盼等动词时，英语常译为 greatly、very much 或 earnestly。适合郑重表达，但 -lah 本身不是“真诚”的保证，也不是祈使标记。较简洁的公文常直接使用 sangat。",
+      "collocations": [
+        {
+          "ms": "sangatlah menghargai",
+          "zh": "十分感激；高度珍视",
+          "en": "greatly appreciate"
+        },
+        {
+          "ms": "sangatlah mengharapkan",
+          "zh": "殷切期盼",
+          "en": "earnestly hope for"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场汇报",
+      "ms": "Kerjasama semua jabatan sangatlah penting bagi memastikan pelaksanaan projek ini berjalan lancar.",
+      "zh": "各部门的合作对于确保项目顺利实施至关重要。",
+      "en": "Cooperation among all departments is extremely important to ensure that this project runs smoothly."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友抱怨排队",
+      "ms_spoken": "Sangatlah lama nak tunggu makanan kat sini!",
+      "ms_standard": "Sangatlah lama masa yang diperlukan untuk menunggu makanan di sini!",
+      "zh": "在这里等个吃的也太久了吧！",
+      "en": "The wait for food here is so long!",
+      "spoken_features": [
+        "sangatlah 前置，突出抱怨和感叹。",
+        "nak 是 hendak 的口语形式，此处构成口语中的等待表达。",
+        "kat 对应 di；口语省略 masa yang diperlukan 等可由语境理解的成分。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Sangatlah lama nak tunggu makanan kat sini! Aku dah lapar.",
+          "ms_standard": "Sangatlah lama masa yang diperlukan untuk menunggu makanan di sini! Aku sudah lapar.",
+          "zh": "这里等吃的也太久了！我都饿了。",
+          "en": "The wait for food here is so long! I'm hungry already."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Sabar je dulu. Aku dah tanya pelayan, makanan kita dah nak siap.",
+          "ms_standard": "Bersabarlah dahulu. Aku sudah bertanya kepada pelayan, dan makanan kita hampir siap.",
+          "zh": "再耐心等一下吧。我问过服务员了，我们的餐快好了。",
+          "en": "Hang on a bit. I asked the server, and our food is almost ready."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sangat supplies intensity, while -lah adds the speaker's emphasis. Their combination shows how Malay can make an evaluation more forceful without changing its basic subject matter. In a speech it can stress an important principle; in conversation it can heighten admiration or frustration. Context and intonation determine whether the emphasis sounds solemn, warm, or theatrical.",
+    "cognitive_memory_aid": "sangat 是程度旋钮“很”，-lah 是强调键：sangatlah penting＝“真的非常重要”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式致辞和郑重感谢中可以使用；连续多次使用会显得夸张。对他人作负面评价时，sangatlah 会加强批评力度。",
+    "usage_etiquette": "适合强调重要性、困难、赞赏或强烈感受。形容普通小事也可带幽默或戏剧性；判断是否讽刺须结合语调，不能只凭 -lah。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式致辞和郑重感谢中可以使用；连续多次使用会显得夸张。对他人作负面评价时，sangatlah 会加强批评力度。",
+    "usage_etiquette": "适合强调重要性、困难、赞赏或强烈感受。形容普通小事也可带幽默或戏剧性；判断是否讽刺须结合语调，不能只凭 -lah。"
+  }
+}
