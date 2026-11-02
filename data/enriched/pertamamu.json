@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "pertamamu",
+    "syllables": null,
+    "ipa": "/pər.ta.ma.mu/",
+    "jawi": "ڤرتام",
+    "frequency_rank": 11767,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pertama",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "pertama + -mu → pertamamu",
+    "pattern_note": "-mu 是 kamu 的后附代词形式，此处表示与你相关的所属关系；为适配字段归入 suffix，严格说并非普通派生后缀。接合时不发生辅音交替，读作 per.ta.ma.mu。输入包的 ڤرتام 只体现词根，未体现 -mu；headword.jawi 按要求保留原值，不应视为完整词形的已核定拼写。",
+    "word_family": [
+      {
+        "word": "pertamaku",
+        "affix": "-ku",
+        "gloss": "我的第一个；我的首次"
+      },
+      {
+        "word": "pertamanya",
+        "affix": "-nya",
+        "gloss": "他、她或它的第一个；具体所指依语境"
+      }
+    ],
+    "root_jawi": "ڤرتام"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "你的第一个；你的首次：表示某人、事物或经历在与你有关的序列中居首。",
+      "en_definition": "Your first; occurring before all others in a sequence or experience associated with you.",
+      "ms_definition": "Yang menduduki urutan satu atau berlaku paling awal dalam pengalaman atau perkara yang berkaitan dengan kamu.",
+      "nuances": "通常接在名词后，如 pengalaman pertamamu；脱离前文时，不能确定具体指哪一件事。pertama 在马来语语法中通常归为序数词，字段受限而以 adjective 表示其修饰功能。输入包误取了组织缩略语 PERTAMA 的释义，该释义不适用于此词。[DBP：pertama](https://prpm.dbp.gov.my/Cari1?d=259120&keyword=pertama)",
+      "collocations": [
+        {
+          "ms": "pengalaman pertamamu",
+          "zh": "你的第一次经历",
+          "en": "your first experience"
+        },
+        {
+          "ms": "hari pertamamu",
+          "zh": "你的第一天",
+          "en": "your first day"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "你首要的；你最应优先处理的：在特定义务或任务中居于最重要的位置。",
+      "en_definition": "Your foremost or principal; taking priority among your duties or concerns.",
+      "ms_definition": "Yang paling utama atau perlu kamu dahulukan antara tanggungjawab atau urusan yang ada.",
+      "nuances": "此义承接 pertama 的“首要、最重要”义，但须由上下文确定；例如 tugas pertamamu 也可能只是时间顺序上的第一项任务。需要明确表达优先级时，可改用 tugas utama kamu。[DBP：pertama 的优先义](https://prpm.dbp.gov.my/Cari1?d=259120&keyword=pertama)",
+      "collocations": [
+        {
+          "ms": "kewajipan pertamamu",
+          "zh": "你的首要义务",
+          "en": "your foremost duty"
+        },
+        {
+          "ms": "tanggungjawab pertamamu",
+          "zh": "你的首要责任",
+          "en": "your primary responsibility"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semoga pengalaman pertamamu sebagai wakil sekolah menjadi asas kepada pencapaian yang lebih cemerlang pada masa hadapan.",
+      "zh": "愿你首次担任学校代表的经历，为今后更出色的表现奠定基础。",
+      "en": "May your first experience as a school representative lay the foundation for even greater achievements in the future."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Macam mana hari pertamamu kat tempat kerja baharu? Dah kenal semua orang ke?",
+      "ms_standard": "Bagaimanakah hari pertamamu di tempat kerja baharu? Adakah kamu sudah mengenali semua orang?",
+      "zh": "新工作第一天怎么样？都认识大家了吗？",
+      "en": "How was your first day at the new job? Have you met everyone yet?",
+      "spoken_features": [
+        "macam mana 对应 bagaimanakah，kat 对应 di，dah 对应 sudah。",
+        "句末 ke 构成口语是非问句。",
+        "pertamamu 本身较有书面感；普通闲聊也常说 hari pertama kau 或 hari pertama awak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Macam mana hari pertamamu kat tempat kerja baharu? Dah kenal semua orang ke?",
+          "ms_standard": "Bagaimanakah hari pertamamu di tempat kerja baharu? Adakah kamu sudah mengenali semua orang?",
+          "zh": "新工作第一天怎么样？都认识大家了吗？",
+          "en": "How was your first day at the new job? Have you met everyone yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okey je, tapi belum kenal semua lagi. Esok nak makan tengah hari dengan mereka.",
+          "ms_standard": "Semuanya baik, tetapi saya masih belum mengenali semua orang. Esok saya hendak makan tengah hari bersama mereka.",
+          "zh": "还不错，不过还没认全。明天打算跟他们一起吃午饭。",
+          "en": "Pretty good, but I haven't met everyone yet. I'm planning to have lunch with them tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pertama belongs to an old layer of Sanskrit vocabulary absorbed into Malay, tracing back to prathama, meaning first. Modern pertamamu combines that established word with the attached pronoun -mu. Its meaning is therefore built from an inherited loanword and a productive Malay pronoun construction, rather than from the unrelated organizational acronym PERTAMA. [World Loanword Database](https://wold.clld.org/word/71261839316533519)",
+    "cognitive_memory_aid": "先抓住 pertama＝第一，再把 -mu 当成“你的”标签：pengalaman pertamamu 就是“你的第一次经历”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 可带亲近、抒情或劝勉语气，但不自动表示尊敬。正式职场沟通宜按对象使用 pertama anda、pertama tuan 或 pertama puan。",
+    "usage_etiquette": "适合朋友留言、祝福、歌词及面向年轻人的勉励文字；正式行政文件通常使用较明确的称谓。-mu 应与前词连写。[DBP：附着代词的连写规则](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=serangkai)"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 可带亲近、抒情或劝勉语气，但不自动表示尊敬。正式职场沟通宜按对象使用 pertama anda、pertama tuan 或 pertama puan。",
+    "usage_etiquette": "适合朋友留言、祝福、歌词及面向年轻人的勉励文字；正式行政文件通常使用较明确的称谓。-mu 应与前词连写。[DBP：附着代词的连写规则](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=serangkai)"
+  }
+}

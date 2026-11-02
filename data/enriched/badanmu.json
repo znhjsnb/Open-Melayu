@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "badanmu",
+    "syllables": null,
+    "ipa": "/ba.dan.mu/",
+    "jawi": "بادن",
+    "frequency_rank": 11805,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "badan",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "badan + -mu → badanmu",
+    "pattern_note": "-mu 是第二人称代词的附着形式，表示你的，并非普通派生后缀；此处按给定字段归入 suffix。与 badan 连写，不引起音变。headword.jawi 保留输入的 بادن，但它仅为词根拼写；完整形式应为 بادنمو。[DBP：代词附着形式的拼写](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)",
+    "word_family": [
+      {
+        "word": "berbadan",
+        "affix": "ber-",
+        "gloss": "具有某种体形或体格"
+      },
+      {
+        "word": "badanmu",
+        "affix": "-mu",
+        "gloss": "你的身体；词根加代词附着形式"
+      }
+    ],
+    "root_jawi": "بادن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的身体，指被说话者的整体肉身或体格。",
+      "en_definition": "Your body, referring to your physical person or physique.",
+      "ms_definition": "Tubuh kamu atau engkau secara keseluruhan.",
+      "nuances": "这是 badan 的身体义加上表示你的的 -mu，并非新的独立词根。口语中 badan awak 或 badan kau 往往更自然；badanmu 常见于书面劝告、歌词和亲密表达。释义依据输入所载 badan 的核心义组合而成。",
+      "collocations": [
+        {
+          "ms": "menjaga badanmu",
+          "zh": "照顾你的身体",
+          "en": "take care of your body"
+        },
+        {
+          "ms": "berat badanmu",
+          "zh": "你的体重",
+          "en": "your body weight"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你的躯干，即不包括头部和四肢的身体部分。",
+      "en_definition": "Your trunk or torso, excluding the head and limbs.",
+      "ms_definition": "Bahagian tubuh kamu atau engkau yang tidak termasuk kepala, tangan dan kaki.",
+      "nuances": "与整体身体义同形，须靠描述位置或动作的上下文辨别。需要精确解剖表达时，使用 torso 或明确说明具体部位；不能把所有 badanmu 都理解成躯干。",
+      "collocations": [
+        {
+          "ms": "bahagian atas badanmu",
+          "zh": "你的上身",
+          "en": "your upper torso"
+        },
+        {
+          "ms": "memusingkan badanmu",
+          "zh": "转动你的躯干",
+          "en": "rotate your torso"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "校园健康宣传 / 书面劝告",
+      "ms": "Jagalah badanmu dengan mengamalkan pemakanan seimbang dan mendapatkan rehat yang mencukupi.",
+      "zh": "均衡饮食并充分休息，好好照顾你的身体。",
+      "en": "Take care of your body by eating a balanced diet and getting enough rest."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友关心身体状况",
+      "ms_spoken": "Jaga badanmu tu lah, jangan asyik berjaga sampai pagi.",
+      "ms_standard": "Jagalah badanmu dan jangan kerap berjaga sehingga pagi.",
+      "zh": "顾好你自己的身体啦，别老是熬到天亮。",
+      "en": "Look after yourself—don't keep staying up till morning.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式，在这里突出被提醒的对象。",
+        "lah 缓和并强调关心式劝告。",
+        "badanmu 在此带有刻意亲昵的语气；中性日常口语更常说 badan kau 或 badan awak。",
+        "回复中的 nak 和 je 分别对应 hendak 和 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Jaga badanmu tu lah, jangan asyik berjaga sampai pagi.",
+          "ms_standard": "Jagalah badanmu dan jangan kerap berjaga sehingga pagi.",
+          "zh": "顾好你自己的身体啦，别老是熬到天亮。",
+          "en": "Look after yourself—don't keep staying up till morning."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Yalah, aku nak tidur awal malam ni. Tinggal satu kerja je.",
+          "ms_standard": "Baiklah, saya hendak tidur awal malam ini. Hanya satu tugasan yang masih belum selesai.",
+          "zh": "知道啦，我今晚会早点睡。只剩一项工作了。",
+          "en": "I know. I'm going to bed early tonight. I've only got one task left."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Badanmu shows how Malay attaches a short pronoun directly to a noun. The ending -mu represents kamu and contributes the meaning 'your'; it does not create a new kind of body. DBP's spelling guidance places mu after the preceding word without a space, making the written form an accessible example of possession. [DBP: spelling guidance](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)",
+    "cognitive_memory_aid": "badan＝身体，-mu＝你的：badanmu 就是你的身体。把 -mu 想成紧贴名词的小标签。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 带有熟悉、亲密或文学色彩，不能自动当作敬称。面向公众可用 badan anda；面对长辈或上级，应按关系使用称谓或更合适的表达。",
+    "usage_etiquette": "适合亲密关怀、歌词、诗歌及面向读者的劝告。谈论他人体重或体形应注意对方感受；未经邀请，避免使用 badanmu 直接评价外貌。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 带有熟悉、亲密或文学色彩，不能自动当作敬称。面向公众可用 badan anda；面对长辈或上级，应按关系使用称谓或更合适的表达。",
+    "usage_etiquette": "适合亲密关怀、歌词、诗歌及面向读者的劝告。谈论他人体重或体形应注意对方感受；未经邀请，避免使用 badanmu 直接评价外貌。"
+  }
+}

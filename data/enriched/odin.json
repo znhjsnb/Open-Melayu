@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "odin",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11812,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "odin",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Odin → Odin",
+    "pattern_note": "按资料包保留未分析形式；这里是专名，不作马来语词缀分析。资料包未提供音节、读音或爪夷文，且原始指向不明，故保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "专有名词候选：奥丁，北欧神话中的主要神祇，与智慧、战争、诗歌和死者等领域有关。",
+      "en_definition": "Odin, a principal Norse deity associated with wisdom, war, poetry, and the dead.",
+      "ms_definition": "Nama dewa utama dalam mitologi Norse yang dikaitkan dengan kebijaksanaan, peperangan, puisi dan orang mati.",
+      "nuances": "词性 noun 在此表示专有名词，正文通常写 Odin。资料包没有 DBP 释义；本条为依据博物馆资料编写的说明。status 按指定格式保留 official，不表示 DBP 认证。搭配为教学组合，未核定语料频率。[瑞典历史博物馆：Odin](https://historiska.se/en/explore-history/history-hub/odin-leader-of-the-gods/)",
+      "collocations": [
+        {
+          "ms": "dewa Odin",
+          "zh": "奥丁神",
+          "en": "the god Odin"
+        },
+        {
+          "ms": "kisah Odin dalam mitologi Norse",
+          "zh": "北欧神话中的奥丁故事",
+          "en": "stories of Odin in Norse mythology"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "专有名词候选：Odin，一种面向高性能系统及数据导向编程的通用编程语言。",
+      "en_definition": "Odin, a general-purpose programming language designed for high-performance systems and data-oriented programming.",
+      "ms_definition": "Nama bahasa pengaturcaraan kegunaan umum yang direka untuk sistem berprestasi tinggi dan pengaturcaraan berorientasikan data.",
+      "nuances": "这是技术名称，与神话人物的指称不同。没有原始语句，不能判断输入是否采用本义；马来语释义为依据官方介绍编写的说明。[Odin 官方网站](https://odin-lang.org/)",
+      "collocations": [
+        {
+          "ms": "bahasa pengaturcaraan Odin",
+          "zh": "Odin 编程语言",
+          "en": "the Odin programming language"
+        },
+        {
+          "ms": "pengkompil Odin",
+          "zh": "Odin 编译器",
+          "en": "the Odin compiler"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化展览 / 编辑说明；采用神话指向的教学例句",
+      "ms": "Pameran ini menerangkan peranan Odin dalam mitologi Norse.",
+      "zh": "本展览介绍奥丁在北欧神话中的角色。",
+      "en": "This exhibition explains Odin's role in Norse mythology."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论读物；教学对话",
+      "ms_spoken": "Aku nak baca kisah Odin kat buku ni dulu.",
+      "ms_standard": "Saya mahu membaca kisah Odin dalam buku ini terlebih dahulu.",
+      "zh": "我想先看这本书里的奥丁故事。",
+      "en": "I want to read the story about Odin in this book first.",
+      "spoken_features": [
+        "aku 是熟人语境中的非正式第一人称。",
+        "nak 对应 mahu。",
+        "kat 在此泛指内容所在，标准表达用 dalam。",
+        "ni 对应 ini。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak baca kisah Odin kat buku ni dulu.",
+          "ms_standard": "Saya mahu membaca kisah Odin dalam buku ini terlebih dahulu.",
+          "zh": "我想先看这本书里的奥丁故事。",
+          "en": "I want to read the story about Odin in this book first."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bacalah. Aku dah baca bahagian tu, menarik juga.",
+          "ms_standard": "Silakan baca. Saya sudah membaca bahagian itu dan mendapati ceritanya agak menarik.",
+          "zh": "看吧。我已经看过那一部分了，还挺有意思的。",
+          "en": "Go ahead. I've read that part—it's pretty interesting."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The mythological name Odin continues Old Norse Óðinn, with related Germanic forms such as Woden and Wotan. Its linguistic background involves inspiration and frenzy, fitting a deity associated with poetry as well as war. These connections explain the historical name; they do not establish the intended referent of an isolated corpus token or the naming motive of a software project. [Name history](https://thetroth.org/resource/odin/)",
+    "cognitive_memory_aid": "神话语境中，把 Odin 直接连接中文“奥丁”；技术语境中，记住 bahasa pengaturcaraan Odin。用上下文区分同形专名。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在马来西亚的历史、文学或宗教比较讨论中，可用 menurut mitologi Norse 标明叙述框架。介绍神祇名称本身不等于表达宗教信仰。",
+    "usage_etiquette": "文化说明应尊重相关信仰传统；影视或游戏版本的设定须注明作品来源。技术讨论首次出现时写全 bahasa pengaturcaraan Odin，可减少歧义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在马来西亚的历史、文学或宗教比较讨论中，可用 menurut mitologi Norse 标明叙述框架。介绍神祇名称本身不等于表达宗教信仰。",
+    "usage_etiquette": "文化说明应尊重相关信仰传统；影视或游戏版本的设定须注明作品来源。技术讨论首次出现时写全 bahasa pengaturcaraan Odin，可减少歧义。"
+  }
+}

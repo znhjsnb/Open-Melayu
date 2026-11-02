@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "sye",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11775,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sye",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "saya → sye（非正式短信简写，无词缀）",
+    "pattern_note": "保留输入包的词根字段；语言分析上，此处是 saya 的非标准书写变体，并非独立派生词。字母组合 sy 不应在此机械读作 /ʃ/；朗读时恢复为 saya，具体语音随口音而异。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "我：标准马来语 saya 的非正式短信拼写，用于指说话者本人；不是正式书面语拼写。",
+      "en_definition": "An informal texting spelling of saya, the first-person singular pronoun meaning I or me.",
+      "ms_definition": "Ejaan tidak baku dalam mesej ringkas bagi saya, iaitu kata ganti nama diri pertama tunggal yang merujuk kepada penutur.",
+      "nuances": "PRPM 收录的公众提问中可见 sye 与 saya 交替出现，支持此处的短信简写解释，但不构成 DBP 对该拼写的规范认可。[PRPM 公众提问用例](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bole)。标准词 saya 属第一人称代词，因此此处使用 pronoun，而非将它误归为名词或虚词。[PRPM：saya](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=saya)。以下组合是教学示例，未核实频率。",
+      "collocations": [
+        {
+          "ms": "sye nak",
+          "zh": "我想要；我打算（标准写法：saya hendak）",
+          "en": "I want to; I am going to"
+        },
+        {
+          "ms": "sye dah",
+          "zh": "我已经……（标准写法：saya sudah）",
+          "en": "I have already"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报；正式表达恢复为 saya",
+      "ms": "Saya telah menghantar laporan tersebut kepada penyelia untuk semakan.",
+      "zh": "我已将该报告提交主管审阅。",
+      "en": "I have submitted the report to my supervisor for review."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事之间的非正式文字交流；自拟对话",
+      "ms_spoken": "Sye dah hantar fail tu kat awak.",
+      "ms_standard": "Saya sudah menghantar fail itu kepada awak.",
+      "zh": "我已经把那个文件发给你了。",
+      "en": "I've sent you the file.",
+      "spoken_features": [
+        "sye 是 saya 的非标准短信拼写；这里的 ms_spoken 字段呈现聊天文字，不代表独立的口语读音。",
+        "dah 对应 sudah，tu 对应 itu。",
+        "kat 在此口语结构中对应标准语的 kepada。",
+        "je 是 sahaja 的口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Sye dah hantar fail tu kat awak.",
+          "ms_standard": "Saya sudah menghantar fail itu kepada awak.",
+          "zh": "我已经把那个文件发给你了。",
+          "en": "I've sent you the file."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah dapat, terima kasih. Sye nak semak kejap je.",
+          "ms_standard": "Saya sudah menerima fail itu, terima kasih. Saya hendak menyemaknya sebentar.",
+          "zh": "收到了，谢谢。我想快速看一下。",
+          "en": "Got it, thanks. I'll take a quick look."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The spelling sye is attested in informal questions submitted to DBP, where its context identifies it with saya. It illustrates how digital writing can shorten familiar expressions without creating a new dictionary word. The available evidence does not establish its inventor, first appearance, or a single pronunciation, so no more specific origin is assigned.",
+    "cognitive_memory_aid": "聊天里遇到 sye，先还原为 saya＝“我”；正式写作把完整拼写补回来。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Saya 是较礼貌的自称，但 sye 的简写形式会降低文字的正式程度。写给老师、客户、主管或不熟悉的人时，完整写作 saya 更稳妥。",
+    "usage_etiquette": "适合双方都接受简写的私人聊天；公文、求职信、正式邮件及考试作文使用 saya。不要把这种书写简化理解为可以省略礼貌称呼。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Saya 是较礼貌的自称，但 sye 的简写形式会降低文字的正式程度。写给老师、客户、主管或不熟悉的人时，完整写作 saya 更稳妥。",
+    "usage_etiquette": "适合双方都接受简写的私人聊天；公文、求职信、正式邮件及考试作文使用 saya。不要把这种书写简化理解为可以省略礼貌称呼。"
+  }
+}

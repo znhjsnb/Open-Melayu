@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "ditemani",
+    "syllables": "di.te.ma.ni",
+    "ipa": "/di.tə.ma.ni/",
+    "jawi": null,
+    "frequency_rank": 11791,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "teman",
+    "affix": "di-...-i",
+    "affix_type": "circumfix",
+    "formula": "di- + teman + -i → ditemani",
+    "pattern_note": "数据包将 ditemani 标为词根有误；实际词根为 teman。此处 circumfix 表示前后词缀组合：di- 标记被动，-i 构成及物动词，并非不可分割的单一环缀。词根首音 t 保留，末辅音 n 与后缀 -i 连读为 ni；主动对应形式为 menemani。原包未提供完整词的 Jawi，保留 null。",
+    "word_family": [
+      {
+        "word": "menemani",
+        "affix": "meN-...-i",
+        "gloss": "陪伴；陪同"
+      },
+      {
+        "word": "berteman",
+        "affix": "ber-",
+        "gloss": "有伴；结伴"
+      },
+      {
+        "word": "peneman",
+        "affix": "peN-",
+        "gloss": "陪伴者；相伴之物"
+      }
+    ],
+    "root_jawi": "تمن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "由某人陪伴或陪同；有人相伴。",
+      "en_definition": "To be accompanied or kept company by someone.",
+      "ms_definition": "Diiringi atau disertai oleh seseorang yang menjadi teman.",
+      "nuances": "menemani 的被动形式，主语是受到陪伴的人。可表示陪同出行或留下相伴，不必涉及正式护送，也不自动表示恋爱关系。此处马来语释义依据词根词条作被动改写。[DBP：teman／menemani](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=teman)",
+      "collocations": [
+        {
+          "ms": "ditemani ibu",
+          "zh": "由母亲陪伴",
+          "en": "accompanied by one's mother"
+        },
+        {
+          "ms": "ditemani seorang rakan",
+          "zh": "由一名朋友陪同",
+          "en": "accompanied by a friend"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "与某种食物搭配供应或食用；以某物相佐。",
+      "en_definition": "To be served or eaten with an accompanying food.",
+      "ms_definition": "Disertai makanan lain sebagai pelengkap atau lauk yang dimakan bersama.",
+      "nuances": "属于食物搭配的引申用法，常见于餐饮介绍，带有把配菜视作伙伴的拟人色彩。不是食物主动陪人的字面意思。[DBP：menemani 的食物搭配义](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=teman)",
+      "collocations": [
+        {
+          "ms": "ditemani sambal belacan",
+          "zh": "佐以虾酱辣椒酱",
+          "en": "served with sambal belacan"
+        },
+        {
+          "ms": "ditemani ikan goreng",
+          "zh": "配以炸鱼",
+          "en": "served with fried fish"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semasa lawatan ke pusat komuniti itu, para peserta ditemani oleh petugas yang menerangkan kemudahan yang disediakan.",
+      "zh": "参观该社区中心时，参加者由工作人员陪同，工作人员还介绍了中心提供的设施。",
+      "en": "During the visit to the community centre, participants were accompanied by staff who explained the available facilities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak ditemani masa pergi klinik nanti, boleh tak?",
+      "ms_standard": "Saya mahu ditemani ketika pergi ke klinik nanti. Bolehkah kamu menemani saya?",
+      "zh": "我等下去诊所想找个人陪，你能陪我吗？",
+      "en": "I'd like some company when I go to the clinic later. Could you come with me?",
+      "spoken_features": [
+        "aku 是熟人之间使用的第一人称",
+        "nak 对应 mahu 或 hendak",
+        "masa 在此对应 ketika",
+        "boleh tak 是口语中的请求问法",
+        "日常口语更常直接说 teman aku；ditemani 保留被陪伴者的视角"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Aku nak ditemani masa pergi klinik nanti. Kau lapang tak?",
+          "ms_standard": "Saya mahu ditemani ketika pergi ke klinik nanti. Adakah kamu mempunyai masa lapang?",
+          "zh": "我等下去诊所想找个人陪，你有空吗？",
+          "en": "I'd like someone to come to the clinic with me later. Are you free?"
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Boleh, aku dah habis kerja. Tunggu kat rumah je, aku ambil kau.",
+          "ms_standard": "Boleh, saya sudah selesai bekerja. Tunggu sahaja di rumah; saya akan menjemput kamu.",
+          "zh": "可以，我已经下班了。你就在家等，我去接你。",
+          "en": "Sure, I've finished work. Just wait at home and I'll pick you up."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ditemani grows from teman, a companion or something that goes together with something else. Malay extends this relationship from people to food: a dish can be accompanied by another dish. The passive form places the person or food receiving that company at the centre of the sentence. [DBP](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=teman)",
+    "cognitive_memory_aid": "teman 是伙伴；di- 把镜头转向被陪的人：Saya ditemani ibu＝我由妈妈陪着。记住“伙伴在旁，我被陪伴”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请求陪伴时，可说 Boleh temankan saya?；与长辈、不熟悉的人或服务人员交谈时，使用 saya，并以适当称呼代替 aku、kau。",
+    "usage_etiquette": "适用于就医、出行、探访或表达需要陪伴。它只说明相伴关系；是否为家人、朋友、伴侣或工作人员，应由上下文说明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请求陪伴时，可说 Boleh temankan saya?；与长辈、不熟悉的人或服务人员交谈时，使用 saya，并以适当称呼代替 aku、kau。",
+    "usage_etiquette": "适用于就医、出行、探访或表达需要陪伴。它只说明相伴关系；是否为家人、朋友、伴侣或工作人员，应由上下文说明。"
+  }
+}

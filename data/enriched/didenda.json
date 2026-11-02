@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "didenda",
+    "syllables": null,
+    "ipa": "/di.dən.da/",
+    "jawi": null,
+    "frequency_rank": 11813,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "denda",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + denda → didenda",
+    "pattern_note": "纠正资料包将 didenda 标为词根的分析：它是 denda 的被动动词形式。di- 与词根连写，无鼻音同化，词根首音 d 保留；音节可分析为 di.den.da。IPA 为根据词根读音推导的宽式标音，采用词末 a 的读法，并非 DBP 提供的音标。词根读音参见 [denda](https://en.wiktionary.org/wiki/denda#Malay)。",
+    "word_family": [
+      {
+        "word": "denda",
+        "affix": null,
+        "gloss": "罚款；处罚"
+      },
+      {
+        "word": "mendenda",
+        "affix": "meN-",
+        "gloss": "对某人处以罚款或处罚"
+      },
+      {
+        "word": "dendaan",
+        "affix": "-an",
+        "gloss": "罚款；所缴罚金"
+      },
+      {
+        "word": "pendendaan",
+        "affix": "peN-...-an",
+        "gloss": "处以罚款或处罚的行为"
+      }
+    ],
+    "root_jawi": "دندا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "因违法或违反规定而被处以罚款。",
+      "en_definition": "To be fined for an offence or a breach of rules.",
+      "ms_definition": "Dikenakan hukuman membayar sejumlah wang kerana melakukan kesalahan atau melanggar peraturan.",
+      "nuances": "被动动词，主语是受罚者。di- 本身不表示过去时，实际时间由 sudah、akan 或上下文表达。马来语释义依据 DBP 的 denda、mendenda 词义编写，非 DBP 对 didenda 的逐字释义；例句和金额均为教学设定。[DBP：denda](https://prpm.dbp.gov.my/cari1?keyword=denda)",
+      "collocations": [
+        {
+          "ms": "didenda sebanyak RM500",
+          "zh": "被罚款500令吉",
+          "en": "be fined RM500"
+        },
+        {
+          "ms": "didenda kerana melanggar peraturan",
+          "zh": "因违反规定而被罚款",
+          "en": "be fined for breaking the rules"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "因较轻的过失或违纪而受到处罚，不一定涉及缴钱。",
+      "en_definition": "To be punished for a relatively minor fault or disciplinary offence, without necessarily paying money.",
+      "ms_definition": "Dikenakan hukuman kerana kesalahan yang biasanya agak kecil, tanpa semestinya melibatkan bayaran wang.",
+      "nuances": "学校或家庭语境中可以指罚站、额外任务等处罚，不能一概译为被罚款。对应 DBP 对 denda 和 mendenda 所列的非金钱处罚义。",
+      "collocations": [
+        {
+          "ms": "didenda oleh guru",
+          "zh": "受到老师处罚",
+          "en": "be punished by a teacher"
+        },
+        {
+          "ms": "didenda kerana tidak menyiapkan kerja rumah",
+          "zh": "因没完成作业而受罚",
+          "en": "be punished for not completing homework"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道；教学例句，非真实案件或法定罚款标准",
+      "ms": "Syarikat itu didenda sebanyak RM5,000 oleh mahkamah kerana melanggar peraturan.",
+      "zh": "该公司因违反规定，被法院罚款5000令吉。",
+      "en": "The company was fined RM5,000 by the court for breaching the regulations."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论课堂处罚；教学对话",
+      "ms_spoken": "Aku didenda cikgu tadi sebab tak siap kerja rumah.",
+      "ms_standard": "Saya didenda oleh guru tadi kerana tidak menyiapkan kerja rumah.",
+      "zh": "我刚才因为没做完作业，被老师罚了。",
+      "en": "My teacher punished me earlier for not finishing my homework.",
+      "spoken_features": [
+        "口语中以 cikgu 称老师，并省略被动施事前的 oleh。",
+        "tak 对应 tidak。",
+        "sebab 在此口语化地引出原因，标准句采用 kerana。",
+        "tak siap kerja rumah 对应 tidak menyiapkan kerja rumah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Aku didenda cikgu tadi sebab tak siap kerja rumah.",
+          "ms_standard": "Saya didenda oleh guru tadi kerana tidak menyiapkan kerja rumah.",
+          "zh": "我刚才因为没做完作业，被老师罚了。",
+          "en": "My teacher punished me earlier for not finishing my homework."
+        },
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Kena buat apa? Aku nak tolong kalau boleh.",
+          "ms_standard": "Apakah yang awak perlu lakukan sebagai hukuman? Saya mahu membantu jika boleh.",
+          "zh": "罚你做什么了？能帮的话，我想帮你。",
+          "en": "What did you have to do? I'd like to help if I can."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Didenda combines the Malay passive prefix di- with denda, a word belonging to the Sanskrit borrowing layer of Malay. That older vocabulary reflects sustained contact with South Asian languages and traditions. Modern Malay uses the root for monetary fines and lesser punishments; adding di- shifts attention from whoever imposes the penalty to whoever receives it. [Sanskrit borrowing evidence](https://mlcs.moe.edu.sg/files/dian_bahasa_6.pdf), [modern meanings](https://prpm.dbp.gov.my/cari1?keyword=denda)",
+    "cognitive_memory_aid": "di- 想成“被”，denda 想成“罚”：didenda 就是“被罚”。再看上下文，判断是罚钱还是其他处罚。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性，但公开说某人 didenda 可能涉及对方面子和声誉。正式陈述应清楚交代处罚事实；belum didenda 表示尚未受罚，不能省略否定词。",
+    "usage_etiquette": "报道时区分已受罚与可能受罚：didenda、boleh didenda 的断言不同。日常 kena denda 常对应 didenda；学校语境中应根据具体处罚内容翻译。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性，但公开说某人 didenda 可能涉及对方面子和声誉。正式陈述应清楚交代处罚事实；belum didenda 表示尚未受罚，不能省略否定词。",
+    "usage_etiquette": "报道时区分已受罚与可能受罚：didenda、boleh didenda 的断言不同。日常 kena denda 常对应 didenda；学校语境中应根据具体处罚内容翻译。"
+  }
+}

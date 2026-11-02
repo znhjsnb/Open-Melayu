@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "browning",
+    "syllables": null,
+    "ipa": "/ˈbraʊ.nɪŋ/",
+    "jawi": null,
+    "frequency_rank": 11799,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "browning",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "马来语条目层面：∅ + browning → browning；英语过程义内部：brown + -ing → browning",
+    "pattern_note": "is_root 沿用资料包，表示未分析出马来语词缀。英语过程义可分析为 brown + -ing；专名 Browning 则不能据此分析为动作名词。IPA 为英语读音。",
+    "word_family": [
+      {
+        "word": "brown",
+        "affix": null,
+        "gloss": "英语：棕色的；使变成褐色，仅关联过程义"
+      },
+      {
+        "word": "browned",
+        "affix": "-ed",
+        "gloss": "英语：已变褐的；煎至褐色的，仅关联过程义"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "褐变；食物或植物组织形成褐色的过程，包括酶促褐变及非酶促褐变。",
+      "en_definition": "The process by which food or plant tissue develops a brown colour.",
+      "ms_definition": "Proses makanan atau tisu tumbuhan menjadi berwarna perang, termasuk melalui tindak balas berenzim atau tanpa enzim.",
+      "nuances": "这是英语技术词，DBP 提供的马来语对应词为 pemerangan；不应把英语原词直接当作已核实的官方马来语词头。褐变不一定表示烧焦，也不一定表示腐坏。资料包缺少上下文，无法确定它是否为原始语料中的目标义。参见 [DBP 农业术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=Oksidasi) 及 [DBP 食品技术术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=non)。",
+      "collocations": [
+        {
+          "ms": "proses pemerangan",
+          "zh": "褐变过程",
+          "en": "the browning process"
+        },
+        {
+          "ms": "pemerangan tanpa enzim",
+          "zh": "非酶促褐变",
+          "en": "non-enzymatic browning"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "勃朗宁：用于相关枪械的专名，可指其品牌或型号系列；具体所指须结合上下文。",
+      "en_definition": "A proper name used for Browning firearms, with the particular weapon determined by context.",
+      "ms_definition": "Nama khas yang digunakan bagi senjata api Browning; jenis atau modelnya ditentukan oleh konteks.",
+      "nuances": "此义在正文中应写作 Browning，首字母大写。它与食品褐变义没有词义派生关系，也不能自动等同于某一款手枪或机枪。作为人物姓氏出现时，还须另行识别具体人物。参见 [Browning 官方历史介绍](https://browning.eu/about-us.html)。",
+      "collocations": [
+        {
+          "ms": "pistol Browning",
+          "zh": "勃朗宁手枪",
+          "en": "a Browning pistol"
+        },
+        {
+          "ms": "senjata api Browning",
+          "zh": "勃朗宁枪械",
+          "en": "Browning firearms"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：食品实验报告",
+      "ms": "Laporan makmal menggunakan istilah pemerangan sebagai padanan bahasa Melayu bagi 'browning' pada hirisan epal.",
+      "zh": "实验室报告使用马来语术语 pemerangan，表示苹果切片发生的 browning，即褐变。",
+      "en": "The laboratory report uses the Malay term 'pemerangan' for browning in apple slices."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：朋友讨论切开的苹果",
+      "ms_spoken": "Epal ni dah jadi perang—browning lah tu.",
+      "ms_standard": "Epal ini sudah menjadi perang; perubahan itu disebut pemerangan.",
+      "zh": "这苹果已经变褐色了，就是发生褐变了。",
+      "en": "This apple has turned brown—that's browning.",
+      "spoken_features": [
+        "ni 和 tu 分别对应 ini 和 itu",
+        "dah 对应 sudah",
+        "browning 是食品语境中的英语术语切换",
+        "lah tu 用于口语解释或确认"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Epal yang saya potong tadi dah jadi perang. Browning ke ni?",
+          "ms_standard": "Epal yang saya potong tadi sudah menjadi perang. Adakah ini proses pemerangan?",
+          "zh": "我刚才切的苹果已经变褐色了。这就是褐变吗？",
+          "en": "The apple I cut earlier has turned brown. Is this browning?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ya, itulah browning. Dalam bahasa Melayu, kita panggil pemerangan je.",
+          "ms_standard": "Ya, itulah proses yang disebut browning dalam bahasa Inggeris dan pemerangan dalam bahasa Melayu.",
+          "zh": "对，就是 browning。马来语叫 pemerangan。",
+          "en": "Yes, that's browning. The Malay term is 'pemerangan'."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Two histories must remain separate here. In the food-process sense, English browning combines brown with -ing, while Malay terminology uses pemerangan. Capitalized Browning instead preserves a family name associated with firearm designer John Moses Browning. Similar spelling therefore conceals different lexical identities, making context and capitalization essential when interpreting an isolated corpus token. [Sources: DBP](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=garing+I), [Browning](https://browning.eu/about-us.html).",
+    "cognitive_memory_aid": "食品看到 brown，就想到 browning＝变褐；枪械看到大写 Browning，就想到人名、品牌名。先看语境，再分两条记忆。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "食品讨论中属于中性技术用语；面向非专业读者时，先写 pemerangan，再补充英语 browning，更便于理解。",
+    "usage_etiquette": "烹饪和食品科学语境可讨论褐变；军事、历史或博物馆语境中的 Browning 应注明枪械类型，避免与食品术语混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "食品讨论中属于中性技术用语；面向非专业读者时，先写 pemerangan，再补充英语 browning，更便于理解。",
+    "usage_etiquette": "烹饪和食品科学语境可讨论褐变；军事、历史或博物馆语境中的 Browning 应注明枪械类型，避免与食品术语混淆。"
+  }
+}
