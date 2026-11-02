@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "lm",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 7762,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "lm",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "lm → simbol unit lumen",
+    "pattern_note": "这里按国际单位符号处理，不属于可作词根、词缀分析的普通马来语单词。符号本身无固定词汇读音，朗读数值时通常读出单位名称 lumen。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "流明的国际单位符号，用于表示光通量；1 lm = 1 cd·sr。",
+      "en_definition": "The international symbol for the lumen, the SI unit of luminous flux; 1 lm = 1 cd·sr.",
+      "ms_definition": "Simbol antarabangsa bagi lumen, iaitu unit SI untuk fluks cahaya; satu lumen bersamaan dengan satu kandela steradian.",
+      "nuances": "此处 pos=noun 表示它代替单位名称使用，实际类别是计量符号。输入没有原始语境，因此只能确认 lm 存在这一标准含义，不能断定原语料必指流明。光通量不同于以 lx 表示的照度。依据见 [BIPM 光度测量原则](https://www.bipm.org/documents/20126/41749107/Principles%2Bgoverning%2Bphotometry/8365350c-bf72-3cf2-bf03-324bf5c01b62)。",
+      "collocations": [
+        {
+          "ms": "fluks cahaya 800 lm",
+          "zh": "800 流明的光通量",
+          "en": "a luminous flux of 800 lm"
+        },
+        {
+          "ms": "keberkesanan cahaya dalam lm/W",
+          "zh": "以流明每瓦表示的光效",
+          "en": "luminous efficacy expressed in lm/W"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Menurut helaian spesifikasi, lampu LED ini menghasilkan fluks cahaya sebanyak 800 lm.",
+      "zh": "根据规格表，这盏 LED 灯的光通量为 800 流明。",
+      "en": "According to the specification sheet, this LED lamp produces a luminous flux of 800 lm."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat kotak ni tulis 800 lm je.",
+      "ms_standard": "Pada kotak ini hanya tertera nilai 800 lm.",
+      "zh": "这个盒子上只写着 800 流明。",
+      "en": "The box just says 800 lm.",
+      "spoken_features": [
+        "kat 对应表示位置的 pada。",
+        "ni 对应 ini。",
+        "je 对应 sahaja；lm 保留产品标签上的单位符号形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Kat kotak ni tulis 800 lm je. Apa maksud lm?",
+          "ms_standard": "Pada kotak ini hanya tertera nilai 800 lm. Apakah maksud simbol lm?",
+          "zh": "这个盒子上只写着 800 lm。lm 是什么意思？",
+          "en": "The box just says 800 lm. What does lm mean?"
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "lm tu simbol lumen. Nak banding lampu, tengok nilai lumen sekali.",
+          "ms_standard": "Simbol lm bermaksud lumen. Jika mahu membandingkan lampu, lihat juga nilai lumennya.",
+          "zh": "lm 是流明的符号。要比较灯泡，也看看流明数。",
+          "en": "lm stands for lumens. Check the lumen rating too when comparing bulbs."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The letters lm belong to the international language of measurement rather than ordinary Malay word formation. They represent the lumen, a unit of luminous flux. The same symbol appears in scientific documents and lighting specifications across languages, allowing a quantity written on a lamp package to retain its technical meaning internationally. [BIPM photometry principles](https://www.bipm.org/documents/20126/41749107/Principles%2Bgoverning%2Bphotometry/8365350c-bf72-3cf2-bf03-324bf5c01b62)",
+    "cognitive_memory_aid": "把 lumen 的 l、m 两个辅音抓出来记成 lm：看到灯泡标签上的 lm，就想到光通量的单位流明。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "技术符号没有敬贬色彩。向非专业人士解释时，先说明 lm bermaksud lumen，比直接堆叠单位符号更易理解。",
+    "usage_etiquette": "适合规格表、采购文件和灯具比较。规范书写使用小写 lm，数值与符号之间留空格，例如 800 lm；不能把大写 LM 自动视为同一符号。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "技术符号没有敬贬色彩。向非专业人士解释时，先说明 lm bermaksud lumen，比直接堆叠单位符号更易理解。",
+    "usage_etiquette": "适合规格表、采购文件和灯具比较。规范书写使用小写 lm，数值与符号之间留空格，例如 800 lm；不能把大写 LM 自动视为同一符号。"
+  }
+}

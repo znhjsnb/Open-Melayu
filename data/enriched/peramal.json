@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "peramal",
+    "syllables": "pe.ra.mal",
+    "ipa": "/pə.ra.mal/",
+    "jawi": "ڤرامل",
+    "frequency_rank": 7740,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ramal",
+    "affix": "pe-",
+    "affix_type": "prefix",
+    "formula": "pe- + ramal → peramal",
+    "pattern_note": "表示施事者的 peN- 在 r 前采用 pe-，词根首音 r 保留。输入包的 amal 为误析；此词属于 ramal 词族。",
+    "word_family": [
+      {
+        "word": "meramal",
+        "affix": "me-",
+        "gloss": "预测；占卜"
+      },
+      {
+        "word": "meramalkan",
+        "affix": "me-…-kan",
+        "gloss": "预测某事"
+      },
+      {
+        "word": "ramalan",
+        "affix": "-an",
+        "gloss": "预测；预言"
+      },
+      {
+        "word": "peramalan",
+        "affix": "pe-…-an",
+        "gloss": "预测活动或过程"
+      }
+    ],
+    "root_jawi": "رامل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "预测者；对未来事件或发展趋势作出判断的人。",
+      "en_definition": "A person who predicts future events or developments; a forecaster.",
+      "ms_definition": "Orang yang meramal atau meramalkan sesuatu.",
+      "nuances": "可指依据资料、经验或判断进行预测的人，不必涉及占卜。专业场合宜加上领域，如 peramal ekonomi。此义与占卜义同属 DBP 的宽泛释义，按使用情境分列。[DBP：ramal](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ramal)",
+      "collocations": [
+        {
+          "ms": "peramal ekonomi",
+          "zh": "经济预测者",
+          "en": "economic forecaster"
+        },
+        {
+          "ms": "peramal cuaca",
+          "zh": "天气预报员",
+          "en": "weather forecaster"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "占卜者；声称能通过占星、算命等方式预知未来或个人命运的人。",
+      "en_definition": "A person who claims to foretell the future or someone's fortune through divination.",
+      "ms_definition": "Orang yang menilik nasib atau menelah perkara yang akan berlaku melalui amalan tilikan.",
+      "nuances": "涉及命运、星象或神秘力量时通常取此义；tukang ramal 是常见近义表达。这个称呼本身不证明其预测可靠。",
+      "collocations": [
+        {
+          "ms": "peramal nasib",
+          "zh": "算命者",
+          "en": "fortune-teller"
+        },
+        {
+          "ms": "berjumpa dengan peramal",
+          "zh": "去见占卜者",
+          "en": "consult a fortune-teller"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "预测因子；统计模型中用于预测另一变量的变量或因素。",
+      "en_definition": "A variable or factor used to predict another variable in a statistical model.",
+      "ms_definition": "Pemboleh ubah atau faktor yang digunakan untuk meramalkan nilai atau hasil pemboleh ubah lain dalam model statistik.",
+      "nuances": "统计学专门用法，通常出现在 pemboleh ubah peramal 等术语中；预测关系本身不等于因果关系。[马来亚大学数学与统计术语表](https://ism.um.edu.my/Image/Research/Links/MATHEMATICAL%20%26%20STATISTICAL%20TERMS/english_to_bm.pdf)",
+      "collocations": [
+        {
+          "ms": "pemboleh ubah peramal",
+          "zh": "预测变量",
+          "en": "predictor variable"
+        },
+        {
+          "ms": "faktor peramal",
+          "zh": "预测因子",
+          "en": "predictive factor"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 经济报告",
+      "ms": "Menurut peramal ekonomi tersebut, permintaan domestik dijangka meningkat pada tahun hadapan.",
+      "zh": "据该经济预测者判断，明年的内需预计将会上升。",
+      "en": "According to the economic forecaster, domestic demand is expected to rise next year."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论比赛",
+      "ms_spoken": "Aku bukan peramal lah, tapi aku rasa pasukan kita boleh menang.",
+      "ms_standard": "Saya bukan peramal, tetapi saya berpendapat bahawa pasukan kita boleh menang.",
+      "zh": "我又不会预知未来啦，不过我觉得我们队能赢。",
+      "en": "I can't predict the future, but I reckon our team can win.",
+      "spoken_features": [
+        "aku 是熟人之间的第一人称代词。",
+        "lah 使自我调侃的语气更自然。",
+        "tapi 对应标准语的 tetapi；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau rasa kita menang tak malam ni? Dah macam peramal je kau semalam!",
+          "ms_standard": "Adakah kamu berpendapat bahawa pasukan kita akan menang malam ini? Semalam kamu seolah-olah seorang peramal!",
+          "zh": "你觉得我们今晚会赢吗？你昨天简直像个预言家！",
+          "en": "Think we'll win tonight? You were practically a fortune-teller yesterday!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku bukan peramal lah, tapi aku rasa pasukan kita boleh menang.",
+          "ms_standard": "Saya bukan peramal, tetapi saya berpendapat bahawa pasukan kita boleh menang.",
+          "zh": "我又不会预知未来啦，不过我觉得我们队能赢。",
+          "en": "I can't predict the future, but I reckon our team can win."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Peramal is formed in Malay from ramal with an agent-forming prefix. DBP marks ramal as Arabic in origin and records both sand and sand used for divination among its meanings. That connection links an older fortune-telling vocabulary with today's broader language of prediction, including economic forecasting. [DBP: ramal](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ramal)",
+    "cognitive_memory_aid": "ramal 是“预测”，前面加表示“做这件事的人”的 pe-：peramal 就是“预测的人”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称专业人士时加领域，如 peramal ekonomi，能减少被理解为算命者的可能；不要随意把别人的专业判断戏称为算命。",
+    "usage_etiquette": "朋友间可用作轻松调侃。占卜话题在马来西亚部分穆斯林社交环境中较敏感，应尊重对方立场。[联邦直辖区穆fti署：占星与占卜](https://muftiwp.gov.my/ms/artikel/al-afkar/3871-al-afkar-68-muat-turun-aplikasi-zodiak)"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称专业人士时加领域，如 peramal ekonomi，能减少被理解为算命者的可能；不要随意把别人的专业判断戏称为算命。",
+    "usage_etiquette": "朋友间可用作轻松调侃。占卜话题在马来西亚部分穆斯林社交环境中较敏感，应尊重对方立场。[联邦直辖区穆fti署：占星与占卜](https://muftiwp.gov.my/ms/artikel/al-afkar/3871-al-afkar-68-muat-turun-aplikasi-zodiak)"
+  }
+}

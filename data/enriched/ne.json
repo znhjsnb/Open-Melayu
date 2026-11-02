@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "ne",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 7782,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ne",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "Ne → simbol kimia bagi neon",
+    "pattern_note": "输入键 ne 对应规范化学符号 Ne，必须大写 N、小写 e。它不是通过马来语词缀构成的普通词；is_root 沿用输入包的标记。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "氖的化学符号，规范写作 Ne；氖是原子序数为10的稀有气体元素。",
+      "en_definition": "The chemical symbol Ne for neon, the noble-gas element with atomic number 10.",
+      "ms_definition": "Simbol kimia bagi neon.",
+      "nuances": "DBP 的正式词条形式是 Ne，输入 ne 仅作为本次 JSON 的检索键保留。pos 使用 noun 是受给定分类限制的近似映射，准确类型是化学符号。符号没有独立固定的马来语音节和词汇读音；在解释元素时可读作 neon。不要把它当作口语 ni 或其他语言的语气词。参见 [DBP：Ne](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=ne) 与 [PubChem：Neon](https://pubchem.ncbi.nlm.nih.gov/element/10)。",
+      "collocations": [
+        {
+          "ms": "atom Ne",
+          "zh": "氖原子",
+          "en": "a Ne atom"
+        },
+        {
+          "ms": "isotop Ne",
+          "zh": "氖同位素",
+          "en": "an isotope of Ne"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "科学报告 / 化学课堂",
+      "ms": "Ne ialah simbol kimia bagi neon, unsur gas adi yang mempunyai nombor atom 10.",
+      "zh": "Ne 是氖的化学符号；氖是一种原子序数为10的稀有气体元素。",
+      "en": "Ne is the chemical symbol for neon, a noble-gas element with atomic number 10."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论化学作业",
+      "ms_spoken": "Ne kat jadual ni simbol untuk neon, kan?",
+      "ms_standard": "Ne dalam jadual ini ialah simbol bagi neon, bukan?",
+      "zh": "这张表里的 Ne 是氖的符号，对吧？",
+      "en": "Ne in this table is the symbol for neon, right?",
+      "spoken_features": [
+        "kat 在此对应标准语的 dalam。",
+        "ni 是 ini 的口语形式。",
+        "kan 用于征求确认。",
+        "聊天中的化学符号仍保留规范大小写 Ne。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Ne kat jadual ni simbol untuk neon, kan?",
+          "ms_standard": "Ne dalam jadual ini ialah simbol bagi neon, bukan?",
+          "zh": "这张表里的 Ne 是氖的符号，对吧？",
+          "en": "Ne in this table is the symbol for neon, right?"
+        },
+        {
+          "speaker": "Mei (同学)",
+          "ms_spoken": "Ya, aku dah semak. N besar, e kecil je.",
+          "ms_standard": "Ya, saya sudah menyemaknya. Tulis N dengan huruf besar dan e dengan huruf kecil sahaja.",
+          "zh": "对，我查过了。N 大写，e 小写。",
+          "en": "Yes, I checked. Just use a capital N and a lowercase e."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ne represents neon, whose name comes from Greek neos, meaning new. William Ramsay and Morris Travers discovered the element in 1898 while investigating liquefied air. Its distinctive spectral lines helped identify it. The symbol belongs to international chemical notation, so its capitalization remains the same in Malay scientific writing. [PubChem](https://pubchem.ncbi.nlm.nih.gov/element/10)",
+    "cognitive_memory_aid": "Ne 对应 neon 的开头：记住“大 N、小 e”，再联想霓虹灯中的氖；符号本身不必硬读成一个音节。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在课堂、实验报告和技术文件中可直接使用 Ne；面向非专业读者，首次出现可写 neon (Ne)。",
+    "usage_etiquette": "化学符号的大小写具有规范意义，即使在 WhatsApp 中也应写 Ne。它属于科学记号，不涉及人际称谓或礼貌等级。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在课堂、实验报告和技术文件中可直接使用 Ne；面向非专业读者，首次出现可写 neon (Ne)。",
+    "usage_etiquette": "化学符号的大小写具有规范意义，即使在 WhatsApp 中也应写 Ne。它属于科学记号，不涉及人际称谓或礼貌等级。"
+  }
+}

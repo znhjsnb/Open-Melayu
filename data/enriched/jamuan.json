@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "jamuan",
+    "syllables": "ja.muan",
+    "ipa": "/dʒa.mu.an/",
+    "jawi": "جاموان",
+    "frequency_rank": 7693,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jamu",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "jamu + -an → jamuan",
+    "pattern_note": "原包将 jamuan 标为词根，但 DBP 将其列为 jamu 的派生词，故据此修正。加 -an 时保留词尾 u，u 与 a 分属相邻音节；syllables 字段仍保留原包写法。参见：[DBP PRPM：jamu](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=jamu)。",
+    "word_family": [
+      {
+        "word": "menjamu",
+        "affix": "meN-",
+        "gloss": "以饮食招待客人"
+      },
+      {
+        "word": "berjamu",
+        "affix": "ber-",
+        "gloss": "接待宾客；作客"
+      },
+      {
+        "word": "perjamuan",
+        "affix": "per-…-an",
+        "gloss": "宴会；聚餐"
+      }
+    ],
+    "root_jawi": "جامو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "为宾客准备并端上的食物；待客的餐点或茶点。",
+      "en_definition": "Food or refreshments served to guests.",
+      "ms_definition": "Makanan yang dihidangkan kepada tetamu; sajian.",
+      "nuances": "本义着重所供应的饮食，不一定是丰盛的大餐。jamuan ringan 可仅指糕点、水果和饮料。",
+      "collocations": [
+        {
+          "ms": "jamuan ringan",
+          "zh": "待客茶点",
+          "en": "light refreshments"
+        },
+        {
+          "ms": "menyediakan jamuan",
+          "zh": "准备待客餐点",
+          "en": "prepare refreshments for guests"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "设有饮食招待的聚会、宴会或聚餐。",
+      "en_definition": "A reception, meal, or gathering at which food is served.",
+      "ms_definition": "Majlis yang disertai dengan hidangan makan.",
+      "nuances": "可指学校聚餐、办公室欢送会或正式国宴；是否隆重须由修饰语和语境判断，不能一律译为 banquet。",
+      "collocations": [
+        {
+          "ms": "jamuan perpisahan",
+          "zh": "欢送宴；离别聚餐",
+          "en": "a farewell meal or reception"
+        },
+        {
+          "ms": "jamuan negara",
+          "zh": "国宴",
+          "en": "a state banquet"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak jabatan akan mengadakan jamuan perpisahan bagi meraikan pegawai yang akan bersara pada akhir bulan ini.",
+      "zh": "部门将举办欢送宴，向本月底退休的职员致意。",
+      "en": "The department will hold a farewell reception to honour the officer retiring at the end of this month."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Esok ada jamuan kat pejabat, nak datang tak?",
+      "ms_standard": "Esok akan ada jamuan di pejabat. Adakah awak mahu datang?",
+      "zh": "明天办公室有聚餐，你要来吗？",
+      "en": "There's a meal at the office tomorrow. Want to come?",
+      "spoken_features": [
+        "kat 对应 di",
+        "nak 对应 mahu",
+        "句末 tak 构成口语是非问句",
+        "共同语境下省略部分主语"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Esok ada jamuan kat pejabat, nak datang tak?",
+          "ms_standard": "Esok akan ada jamuan di pejabat. Adakah awak mahu datang?",
+          "zh": "明天办公室有聚餐，你要来吗？",
+          "en": "There's a meal at the office tomorrow. Want to come?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Nak! Aku bawa buah je lah. Makanan lain dah cukup kan?",
+          "ms_standard": "Ya, saya mahu datang. Saya akan membawa buah sahaja. Makanan lain sudah mencukupi, bukan?",
+          "zh": "要啊！那我就带水果吧。其他吃的已经够了，对吗？",
+          "en": "Definitely! I'll just bring some fruit. We've got enough other food, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Jamuan is formed from jamu, the hospitality root associated with receiving and feeding guests, plus the noun-forming suffix -an. Its two meanings preserve a useful connection: the food offered and the gathering where it is offered. Malaysian expressions such as jamuan ringan and jamuan negara show how the same word spans modest refreshments and ceremonial hospitality.",
+    "cognitive_memory_aid": "jamu 是“招待”，加 -an 把动作变成“招待用的餐点或聚餐”：jamu + an → jamuan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "邀请宾客时，敬语可用 tuan/puan 和 dijemput hadir；开席时可说 sila menjamu selera。aku 适合熟悉的同辈，不宜直接用于正式邀请。",
+    "usage_etiquette": "跨族群聚餐应考虑清真要求、素食及其他饮食限制。jamuan 本身不表示是否收费、是否自助或是否需要自带食物，应在邀请中说明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "邀请宾客时，敬语可用 tuan/puan 和 dijemput hadir；开席时可说 sila menjamu selera。aku 适合熟悉的同辈，不宜直接用于正式邀请。",
+    "usage_etiquette": "跨族群聚餐应考虑清真要求、素食及其他饮食限制。jamuan 本身不表示是否收费、是否自助或是否需要自带食物，应在邀请中说明。"
+  }
+}

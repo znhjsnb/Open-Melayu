@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "penyebabnya",
+    "syllables": "pe.nye.bab.nya",
+    "ipa": "/pə.ɲə.bab.ɲa/",
+    "jawi": "ڤڽببڽ",
+    "frequency_rank": 7755,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penyebab",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "penyebab + -nya → penyebabnya；内部派生：peN- + sebab → penyebab",
+    "pattern_note": "按词包保留直接基词 penyebab；更深层词根是 sebab。peN- 与 sebab 结合时实现为 peny-，词根首音 /s/ 脱落。-nya 是附着成分，通常分析为代词附着语素，本字段按后接形式归入 suffix。两个 e 均读 /ə/。词包的 ڤڽبب 只拼出 penyebab，完整形式需加 ڽ，成为 ڤڽببڽ；音节划分为本条补足。",
+    "word_family": [
+      {
+        "word": "penyebab",
+        "affix": "peN-",
+        "gloss": "成因；肇因者"
+      },
+      {
+        "word": "menyebabkan",
+        "affix": "meN-…-kan",
+        "gloss": "导致；造成"
+      }
+    ],
+    "root_jawi": "ڤڽبب"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "所谈事情的起因、成因或致因因素；其中 -nya 回指前文或语境中的事情。",
+      "en_definition": "Its cause; the factor responsible for the situation under discussion.",
+      "ms_definition": "Sesuatu yang menjadi sebab atau punca kepada perkara yang telah disebut atau difahami daripada konteks.",
+      "nuances": "不是表示“因为”的连接词。其含义建立在名词 penyebab 上，-nya 把原因与已知事件联系起来。正式报告也常用 puncanya 或 sebabnya。这里的马来语定义是依据词典基词释义对完整形式作出的说明，并非独立词条的逐字引文。[DBP：penyebab](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tindakan+nya)",
+      "collocations": [
+        {
+          "ms": "mengenal pasti penyebabnya",
+          "zh": "查明其成因",
+          "en": "to identify its cause"
+        },
+        {
+          "ms": "penyebabnya masih belum diketahui",
+          "zh": "其成因仍不明",
+          "en": "its cause remains unknown"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "造成所谈事情的人或有关方面；肇因者。",
+      "en_definition": "The person or party responsible for the event under discussion.",
+      "ms_definition": "Orang atau pihak yang menjadi sebab atau punca kepada kejadian atau perbuatan yang dimaksudkan.",
+      "nuances": "通常在上下文明确谈论某个人或某个组织时成立。-nya 本身不指明肇因者的性别；是否带有责备意味取决于事件及语境。",
+      "collocations": [
+        {
+          "ms": "dialah penyebabnya",
+          "zh": "就是他或她造成的",
+          "en": "he or she is the one responsible"
+        },
+        {
+          "ms": "siapakah penyebabnya",
+          "zh": "是谁造成的",
+          "en": "who is responsible for it"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Gangguan bekalan air telah dilaporkan, dan pihak berkenaan sedang menjalankan siasatan untuk mengenal pasti penyebabnya.",
+      "zh": "有关方面已接获供水中断的报告，目前正展开调查以查明原因。",
+      "en": "A water supply disruption has been reported, and the relevant authorities are investigating its cause."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Internet asyik putus je. Dah tahu penyebabnya ke?",
+      "ms_standard": "Sambungan Internet kerap terputus. Adakah penyebabnya sudah diketahui?",
+      "zh": "网络老是断，查出原因了吗？",
+      "en": "The internet keeps dropping out. Have you figured out what's causing it?",
+      "spoken_features": [
+        "asyik…je 表示某种情况反复发生，并可带轻微抱怨。",
+        "dah 对应 sudah；ke 是口语疑问标记。",
+        "penyebabnya 可以用于口语，但熟人交谈中 puncanya、sebab apa 也很自然。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (室友)",
+          "ms_spoken": "Internet asyik putus je. Dah tahu penyebabnya ke?",
+          "ms_standard": "Sambungan Internet kerap terputus. Adakah penyebabnya sudah diketahui?",
+          "zh": "网络老是断，查出原因了吗？",
+          "en": "The internet keeps dropping out. Have you figured out what's causing it?"
+        },
+        {
+          "speaker": "Hafiz (室友)",
+          "ms_spoken": "Belum pasti lagi. Aku nak periksa kabel kat belakang penghala dulu.",
+          "ms_standard": "Saya masih belum pasti. Saya hendak memeriksa kabel di belakang penghala terlebih dahulu.",
+          "zh": "还不确定，我想先检查一下路由器后面的线。",
+          "en": "I'm not sure yet. I'll check the cable at the back of the router first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penyebabnya illustrates productive Malay word formation rather than a separate inherited root. Sebab supplies the idea of a cause; peN- forms penyebab, the person or thing causing something; and attached -nya links that noun to an understood referent. The resulting form can identify either a causal factor or a responsible person, depending on the surrounding conversation.",
+    "cognitive_memory_aid": "sebab 是“原因”，penyebab 是“造成事情的人或因素”，再接 -nya：把原因扣回“刚才那件事”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Awak penyebabnya 容易被理解为指责“都是你造成的”。需要保持中立时，可说 Kita perlu mengenal pasti puncanya，表示共同查明原因。",
+    "usage_etiquette": "适合事故说明、问题排查及一般因果讨论。尚未确认责任时，宜明确区分已知事实与推测，避免把待查原因直接说成某个人的过错。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Awak penyebabnya 容易被理解为指责“都是你造成的”。需要保持中立时，可说 Kita perlu mengenal pasti puncanya，表示共同查明原因。",
+    "usage_etiquette": "适合事故说明、问题排查及一般因果讨论。尚未确认责任时，宜明确区分已知事实与推测，避免把待查原因直接说成某个人的过错。"
+  }
+}
