@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "shake",
+    "syllables": "shake",
+    "ipa": "/ʃeɪk/",
+    "jawi": null,
+    "frequency_rank": 10557,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "shake",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + shake → shake；英语整词进入马英夹杂表达",
+    "pattern_note": "这是英语词形，不按马来语词缀拆分。标准英语读音为单音节 /ʃeɪk/，末尾 e 不单独发音。输入的 various translations 不是音节数据，故改为 shake。英语动词变化为 shake—shook—shaken。Jawi 按包保留 null；status 为指定模式固定值，不表示此拼写已获确认为标准马来语词。",
+    "word_family": [
+      {
+        "word": "shaking",
+        "affix": "-ing",
+        "gloss": "摇动；发抖；英语分词形式"
+      },
+      {
+        "word": "shaken",
+        "affix": "-en，伴随词干元音变化",
+        "gloss": "被摇动；受到震动；英语过去分词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "摇动、摇晃或使物体反复快速移动；也可指身体发抖。",
+      "en_definition": "To move, or cause something to move, repeatedly with short, quick motions.",
+      "ms_definition": "Menggerakkan sesuatu berulang kali dengan cepat, atau bergerak sedemikian, termasuk menggigil.",
+      "nuances": "这是英语义，可出现于马英夹杂口语；标准马来语依对象选 goncang、goyang、kocok、bergegar 或 menggigil。不是所有情境都可用同一个马来语词对译。[Cambridge：shake](https://dictionary.cambridge.org/dictionary/english/shake)",
+      "collocations": [
+        {
+          "ms": "shake botol tu",
+          "zh": "摇一摇那个瓶子",
+          "en": "shake that bottle"
+        },
+        {
+          "ms": "shake dulu sebelum minum",
+          "zh": "喝之前先摇一摇",
+          "en": "shake it before drinking"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "一种搅打或摇混而成的饮料，如奶昔、椰子冰沙或蛋白质饮品。",
+      "en_definition": "A blended or mixed drink, such as a milkshake or protein drink.",
+      "ms_definition": "Minuman yang disediakan dengan mengisar atau mencampurkan ramuan, seperti susu, ais krim, buah atau serbuk protein.",
+      "nuances": "常见于英文饮品名及菜单；具体配方由完整名称决定，并非所有 shake 都含牛奶。一般 milkshake 可称 susu kocak。[Cambridge：饮料义](https://dictionary.cambridge.org/dictionary/english/shake)",
+      "collocations": [
+        {
+          "ms": "coconut shake",
+          "zh": "椰子冰沙",
+          "en": "coconut shake"
+        },
+        {
+          "ms": "protein shake",
+          "zh": "蛋白质饮品",
+          "en": "protein shake"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "一次摇动、摇晃或抖动。",
+      "en_definition": "An instance of shaking.",
+      "ms_definition": "Satu gerakan menggoncang, menggoyang atau menggetarkan sesuatu.",
+      "nuances": "本义属于英语；标准马来语一般用 goncangan 或相应动词结构。下列搭配是英语表达，不能当作标准马来语搭配。[Cambridge：动作名词义](https://dictionary.cambridge.org/dictionary/english/shake)",
+      "collocations": [
+        {
+          "ms": "give it a shake",
+          "zh": "把它摇一下",
+          "en": "give it a shake"
+        },
+        {
+          "ms": "a shake of the head",
+          "zh": "摇一下头",
+          "en": "a shake of the head"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "使人震惊或不安；使信心、信念或稳定性动摇。",
+      "en_definition": "To unsettle someone emotionally or weaken confidence or stability.",
+      "ms_definition": "Menyebabkan seseorang terguncang perasaannya atau menyebabkan keyakinan dan kestabilan menjadi lemah.",
+      "nuances": "属于英语比喻义；标准马来语可按情境用 mengejutkan、menggoncangkan 或 menggugat。正式马来语写作应采用合适的马来语表达。[Cambridge：比喻义](https://dictionary.cambridge.org/dictionary/english/shake)",
+      "collocations": [
+        {
+          "ms": "shake someone's confidence",
+          "zh": "动摇某人的信心",
+          "en": "shake someone's confidence"
+        },
+        {
+          "ms": "shake someone's beliefs",
+          "zh": "动摇某人的信念",
+          "en": "shake someone's beliefs"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Menu baharu kafe itu menyenaraikan minuman bernama \"coconut shake\".",
+      "zh": "该咖啡馆的新菜单列有一款名为“coconut shake”的饮品。",
+      "en": "The café's new menu lists a drink called \"coconut shake\"."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Botol tu shake dulu lah sebelum minum.",
+      "ms_standard": "Goncang botol itu dahulu sebelum meminum kandungannya.",
+      "zh": "那瓶先摇一摇再喝啦。",
+      "en": "Give that bottle a shake before you drink it.",
+      "spoken_features": [
+        "shake 是英语动词，与马来语句法混用。",
+        "tu 对应 itu；dulu 对应 dahulu。",
+        "lah 在此加强提醒。",
+        "口语把 botol tu 放在句首作为话题。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak minum ni. Kena shake dulu ke?",
+          "ms_standard": "Saya hendak meminum minuman ini. Adakah saya perlu menggoncangnya dahulu?",
+          "zh": "我想喝这个，要先摇一摇吗？",
+          "en": "I'm going to drink this. Do I need to shake it first?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Haah, tutup rapat-rapat, lepas tu shake je.",
+          "ms_standard": "Ya, pastikan penutupnya dipasang dengan rapat, kemudian goncangkan botol itu.",
+          "zh": "对，先把盖子拧紧，再摇就行。",
+          "en": "Yeah, tighten the lid, then just give it a shake."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English shake descends from Old English sc(e)acan, a Germanic verb. Modern English uses it for physical movement and, figuratively, emotional disturbance or weakened confidence. Its drink sense belongs to the same modern word family. In Malay contexts, the English spelling needs contextual interpretation, particularly when it appears inside a beverage name. [Oxford](https://www.oxfordlearnersdictionaries.com/us/definition/english/shake_2), [Cambridge](https://dictionary.cambridge.org/dictionary/english/shake)",
+    "cognitive_memory_aid": "读 /ʃeɪk/ 时想象摇杯里“唰”地一晃：动词是摇，饮品名里的 shake 是摇混或搅打出来的饮料。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人交流中夹用 shake 可以自然，但是否合适取决于对方的英语熟悉程度；面向公众的操作说明宜使用清楚的马来语动词。",
+    "usage_etiquette": "菜单名称可保留 coconut shake 等原名。若出现在 shake hands 中，意思是 berjabat tangan；在马来西亚社交场合，应尊重对方是否愿意握手，尤其涉及异性接触时。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人交流中夹用 shake 可以自然，但是否合适取决于对方的英语熟悉程度；面向公众的操作说明宜使用清楚的马来语动词。",
+    "usage_etiquette": "菜单名称可保留 coconut shake 等原名。若出现在 shake hands 中，意思是 berjabat tangan；在马来西亚社交场合，应尊重对方是否愿意握手，尤其涉及异性接触时。"
+  }
+}

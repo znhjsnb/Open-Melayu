@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "membaik",
+    "syllables": null,
+    "ipa": "/məm.ba.iʔ/",
+    "jawi": "باءيق",
+    "frequency_rank": 10508,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "baik",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + baik → membaik",
+    "pattern_note": "meN- 在 b 前变为 mem-，保留词根首音 b。baik 中 a、i 可分属相邻音节，词末 k 在常见马来语读音中实现为 [ʔ]。数据包 Jawi باءيق 对应词根 baik，未包含前缀。马来西亚标准语中须特别注意固定组合 membaik pulih。",
+    "word_family": [
+      {
+        "word": "baik",
+        "affix": "∅",
+        "gloss": "好；良好"
+      },
+      {
+        "word": "membaiki",
+        "affix": "meN-…-i",
+        "gloss": "修理；纠正"
+      },
+      {
+        "word": "memperbaik",
+        "affix": "memper-",
+        "gloss": "使更好；改善"
+      },
+      {
+        "word": "kebaikan",
+        "affix": "ke-…-an",
+        "gloss": "善行；好处"
+      }
+    ],
+    "root_jawi": "باءيق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "变好；情况、局势或表现朝较好的方向发展。",
+      "en_definition": "To improve or become better.",
+      "ms_definition": "Menjadi lebih baik atau menunjukkan perubahan ke arah keadaan yang lebih baik.",
+      "nuances": "独立不及物用法明确见于印尼语词典。面向马来西亚标准语学习者，通常采用 bertambah baik 或 semakin baik；不能把所给 baik 的形容词释义直接冒充 membaik 的 DBP 释义。参见 [印尼教育部门《Kamus Bahasa Indonesia》](https://luk.staff.ugm.ac.id/bahasa/Indonesia/2008Depdiknas-KamusBahasaIndonesia.pdf)。",
+      "collocations": [
+        {
+          "ms": "keadaan membaik",
+          "zh": "情况好转",
+          "en": "conditions improve"
+        },
+        {
+          "ms": "ekonomi membaik",
+          "zh": "经济好转",
+          "en": "the economy improves"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "健康状况、伤口等逐渐恢复；病情好转。",
+      "en_definition": "To recover or improve in health or physical condition.",
+      "ms_definition": "Beransur pulih atau menjadi semakin baik, khususnya tentang kesihatan, penyakit atau luka.",
+      "nuances": "这一独立用法同样属于印尼语中有词典依据的意义。马来西亚中性表达通常是 kesihatannya bertambah baik、lukanya semakin baik 或 keadaannya semakin pulih。参见 [《Kamus Bahasa Indonesia》：membaik](https://luk.staff.ugm.ac.id/bahasa/Indonesia/2008Depdiknas-KamusBahasaIndonesia.pdf)。",
+      "collocations": [
+        {
+          "ms": "kesihatan membaik",
+          "zh": "健康状况好转",
+          "en": "health improves"
+        },
+        {
+          "ms": "luka mulai membaik",
+          "zh": "伤口开始好转",
+          "en": "a wound begins to heal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "用于 membaik pulih：修复、整修或翻修，使设备、车辆、建筑等恢复良好功能。",
+      "en_definition": "In membaik pulih: to repair, restore, or overhaul something to proper working condition.",
+      "ms_definition": "Dalam gabungan membaik pulih, membaiki dan memulihkan sesuatu supaya dapat digunakan atau berfungsi dengan sempurna.",
+      "nuances": "这是完整组合 membaik pulih 的意义，不能据此把独立 membaik 当作可自由接宾语的“修理”。DBP 明确指出 membaik 通常用于 membaik pulih。动词分写，名词 pembaikpulihan 连写。参见 [DBP：baik pulih](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=baik+pulih)及 [DBP 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memperbaiki)。",
+      "collocations": [
+        {
+          "ms": "membaik pulih bangunan",
+          "zh": "修复建筑",
+          "en": "restore a building"
+        },
+        {
+          "ms": "membaik pulih jentera",
+          "zh": "检修并恢复机械功能",
+          "en": "overhaul machinery"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 工程进度汇报",
+      "ms": "Pihak kontraktor sedang membaik pulih bangunan bersejarah itu mengikut jadual yang ditetapkan.",
+      "zh": "承包商正按照既定时间表修复那座历史建筑。",
+      "en": "The contractor is restoring the historic building according to the agreed schedule."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事交流维修进度",
+      "ms_spoken": "Mereka tengah membaik pulih lif kat blok kita, jadi kena guna tangga dulu lah.",
+      "ms_standard": "Mereka sedang membaik pulih lif di blok kita, jadi kita perlu menggunakan tangga buat sementara waktu.",
+      "zh": "他们正在检修我们这栋楼的电梯，暂时得走楼梯啦。",
+      "en": "They are overhauling the lift in our block, so we will have to use the stairs for now.",
+      "spoken_features": [
+        "tengah 对应 sedang。",
+        "kat 对应 di。",
+        "kena 在此表示“必须、得”，标准语可用 perlu。",
+        "dulu 表示暂时先这样；lah 带解释或接受现状的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Mereka tengah membaik pulih lif kat blok kita. Kau dah sampai ke?",
+          "ms_standard": "Mereka sedang membaik pulih lif di blok kita. Adakah kamu sudah sampai?",
+          "zh": "他们正在检修我们这栋楼的电梯。你到了吗？",
+          "en": "They are overhauling the lift in our block. Have you arrived yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, aku kat bawah. Nak naik tangga je, tingkat dua kan?",
+          "ms_standard": "Sudah, saya berada di bawah. Saya akan menggunakan tangga sahaja. Pejabat kita di tingkat dua, bukan?",
+          "zh": "到了，我在楼下。我就走楼梯吧，我们办公室在二楼，对吧？",
+          "en": "Yes, I am downstairs. I will just take the stairs. Our office is on the second floor, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Membaik is transparently built from baik with the prefix meN-, whose nasal becomes m before b. Regional dictionaries reveal a useful distinction: Indonesian records independent meanings of improvement and recovery, while DBP highlights Malaysian use in membaik pulih. The shared morphology therefore does not guarantee identical preferences across neighbouring standard varieties. [Indonesian dictionary](https://luk.staff.ugm.ac.id/bahasa/Indonesia/2008Depdiknas-KamusBahasaIndonesia.pdf), [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memperbaiki)",
+    "cognitive_memory_aid": "baik 是“好”；membaik 可理解为“变好”。在马来西亚记牢完整搭档 membaik pulih：“修好，再恢复功能”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身语气中性。慰问病人时，马来西亚常说 Semoga cepat sembuh 或 Semoga kesihatan semakin baik，既自然也体贴。",
+    "usage_etiquette": "正式马来西亚文本表达“情况好转”时优先用 bertambah baik；表达修复时用 membaiki 或完整的 membaik pulih。表示双方和好通常用 berbaik semula，避免与 membaik 混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身语气中性。慰问病人时，马来西亚常说 Semoga cepat sembuh 或 Semoga kesihatan semakin baik，既自然也体贴。",
+    "usage_etiquette": "正式马来西亚文本表达“情况好转”时优先用 bertambah baik；表达修复时用 membaiki 或完整的 membaik pulih。表示双方和好通常用 berbaik semula，避免与 membaik 混淆。"
+  }
+}

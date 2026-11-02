@@ -1,0 +1,170 @@
+{
+  "headword": {
+    "word": "dipadam",
+    "syllables": null,
+    "ipa": "/di.pa.dam/",
+    "jawi": null,
+    "frequency_rank": 10520,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "padam",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + padam → dipadam",
+    "pattern_note": "di- 是被动前缀，与词根连写，padam 的词首 p 保留，不发生鼻音替换。数据包把 dipadam 标为词根有误，此处按实际构词更正；它与带 -kan 的 dipadamkan 形式不同。构词区别参见 [DBP 语法答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=padam)。",
+    "word_family": [
+      {
+        "word": "padam",
+        "affix": "∅",
+        "gloss": "熄灭；消失"
+      },
+      {
+        "word": "memadam",
+        "affix": "meN-",
+        "gloss": "擦除；删除"
+      },
+      {
+        "word": "memadamkan",
+        "affix": "meN-…-kan",
+        "gloss": "使熄灭；消除"
+      },
+      {
+        "word": "dipadamkan",
+        "affix": "di-…-kan",
+        "gloss": "被熄灭；被消除"
+      },
+      {
+        "word": "pemadam",
+        "affix": "peN-",
+        "gloss": "橡皮擦；擦除或灭火工具"
+      },
+      {
+        "word": "pemadaman",
+        "affix": "peN-…-an",
+        "gloss": "删除、擦除或熄灭的过程"
+      },
+      {
+        "word": "terpadam",
+        "affix": "ter-",
+        "gloss": "意外被删除；意外熄灭"
+      }
+    ],
+    "root_jawi": "ڤادم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "文字、图像、痕迹或电子资料被擦去、清除或删除。",
+      "en_definition": "To be erased, removed, or deleted, especially writing, images, or digital data.",
+      "ms_definition": "Dihilangkan atau dihapuskan, khususnya tulisan, tanda, gambar atau data digital.",
+      "nuances": "被动形式突出遭到清除的对象。dipadam 本身不表示动作已经完成；telah、sudah、akan 等才说明时间或体貌。删除也不必然代表无法恢复。词义据 padam 释义编写，参见 [PRPM：padam](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=padam)。",
+      "collocations": [
+        {
+          "ms": "fail dipadam",
+          "zh": "文件被删除",
+          "en": "a file is deleted"
+        },
+        {
+          "ms": "mesej dipadam",
+          "zh": "消息被删除",
+          "en": "a message is deleted"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "火焰被扑灭，或灯光被人为关闭。",
+      "en_definition": "To be extinguished, or switched off in the case of a light.",
+      "ms_definition": "Dijadikan tidak bernyala lagi, seperti api yang dipadam atau lampu yang ditutup.",
+      "nuances": "可见于实际用语；正式教学和精确表述中，使火或灯停止燃亮常采用 dipadamkan。lampu padam 只陈述灯灭，lampu dipadam 则表示灯被关掉。相关词义及形式区别参见 [PRPM：padam](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=padam) 和 [DBP 语法答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=padam)。",
+      "collocations": [
+        {
+          "ms": "api berjaya dipadam",
+          "zh": "火被成功扑灭",
+          "en": "the fire is successfully extinguished"
+        },
+        {
+          "ms": "lampu dipadam",
+          "zh": "灯被关掉",
+          "en": "the lights are switched off"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "记忆、感情、希望或精神被抹去、消除或压灭。",
+      "en_definition": "To be effaced or extinguished figuratively, as a memory, feeling, hope, or spirit.",
+      "ms_definition": "Dihilangkan atau dilenyapkan secara kiasan, seperti kenangan, perasaan, harapan atau semangat.",
+      "nuances": "多用于文学、演说及情感表达；sukar dipadam 表示难以抹去，不是可以实际删除的资料。此义由 padam 的“消失、消退”义及其派生用法归纳，参见 [PRPM：padam](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=padam)。",
+      "collocations": [
+        {
+          "ms": "kenangan yang sukar dipadam",
+          "zh": "难以抹去的回忆",
+          "en": "memories that are hard to erase"
+        },
+        {
+          "ms": "semangat yang tidak dapat dipadam",
+          "zh": "无法被扑灭的精神",
+          "en": "a spirit that cannot be extinguished"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 档案管理",
+      "ms": "Fail pendua itu telah dipadam oleh pentadbir selepas salinan sandaran disahkan lengkap.",
+      "zh": "管理员确认备份完整后，已删除该重复文件。",
+      "en": "The duplicate file was deleted by the administrator after the backup was confirmed to be complete."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认群聊文件",
+      "ms_spoken": "Fail lama tu dah dipadam ke? Aku nak guna yang baharu je.",
+      "ms_standard": "Adakah fail lama itu sudah dipadam? Saya hendak menggunakan fail yang baharu sahaja.",
+      "zh": "旧文件删了吗？我只想用新的那份。",
+      "en": "Has the old file been deleted? I only want to use the new one.",
+      "spoken_features": [
+        "tu = itu",
+        "dah = sudah",
+        "句末 ke 表示口语疑问",
+        "nak = hendak",
+        "je = sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Fail lama tu dah dipadam ke? Aku nak guna yang baharu je.",
+          "ms_standard": "Adakah fail lama itu sudah dipadam? Saya hendak menggunakan fail yang baharu sahaja.",
+          "zh": "旧文件删了吗？我只想用新的那份。",
+          "en": "Has the old file been deleted? I only want to use the new one."
+        },
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Dah, fail lama tu dah dipadam. Yang baharu ada kat folder Projek.",
+          "ms_standard": "Ya, fail lama itu sudah dipadam. Fail yang baharu berada di dalam folder Projek.",
+          "zh": "删了，旧文件已经删掉了。新的在 Projek 文件夹里。",
+          "en": "Yes, the old one's been deleted. The new one is in the Projek folder."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dipadam is a transparent Malay formation: passive di- attaches to padam. Its dictionary meanings connect extinguished flames with disappearing marks and fading feelings. Modern file deletion extends that familiar idea into computing: something previously visible or available is removed. This is a semantic connection, rather than evidence for a particular ancient origin of padam. Sources: [PRPM](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=padam), [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=padam).",
+    "cognitive_memory_aid": "di- 提醒你“被”，padam 联想橡皮擦 pemadam：dipadam 就是“被擦掉、被删除”；灯火语境则是“被熄灭”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "工作中询问 Kenapa fail ini dipadam? 可能带责问语气；可说 Boleh saya tahu sebab fail ini dipadam?，礼貌询问删除原因。",
+    "usage_etiquette": "谈论群聊撤回消息或删除文件时，先确认事实再判断动机。dipadam 只表达被删除或清除，不自动表示误删、恶意操作或永久销毁。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "工作中询问 Kenapa fail ini dipadam? 可能带责问语气；可说 Boleh saya tahu sebab fail ini dipadam?，礼貌询问删除原因。",
+    "usage_etiquette": "谈论群聊撤回消息或删除文件时，先确认事实再判断动机。dipadam 只表达被删除或清除，不自动表示误删、恶意操作或永久销毁。"
+  }
+}

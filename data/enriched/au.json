@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "au",
+    "syllables": "au",
+    "ipa": "/au̯/",
+    "jawi": "اءو",
+    "frequency_rank": 10577,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "au",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + au → au；化学符号规范形式：Au",
+    "pattern_note": "au 感叹词整体发音，不加词缀；Au 是化学符号，不作马来语词根拆分。headword.ipa 对应感叹词，不规定化学符号的读法；科学语境可读出元素名称 emas。",
+    "word_family": [],
+    "root_jawi": "اءو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "Au：化学元素金的符号，源于拉丁语 aurum；金的原子序数为79。",
+      "en_definition": "Au, the chemical symbol for gold, the element with atomic number 79.",
+      "ms_definition": "Simbol kimia bagi aurum.",
+      "nuances": "规范写法必须为大写 A 加小写 u：Au。此处 noun 是在指定词性范围内对元素符号的归类，Au 本身不是普通名词词形。不能把感叹词 /au̯/ 的读音直接套用到符号。参见 [DBP：Au／au](https://prpm.dbp.gov.my/cari1?keyword=au) 与 [英国皇家化学学会：Gold](https://periodic-table.rsc.org/element/79/Gold)。",
+      "collocations": [
+        {
+          "ms": "simbol Au",
+          "zh": "符号Au",
+          "en": "the symbol Au"
+        },
+        {
+          "ms": "unsur emas (Au)",
+          "zh": "金元素（Au）",
+          "en": "the element gold (Au)"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "哎哟；表示疼痛、害怕或突然受惊的感叹声。",
+      "en_definition": "An exclamation expressing pain, fear or sudden surprise.",
+      "ms_definition": "Kata seru untuk menyatakan rasa sakit, takut atau terkejut.",
+      "nuances": "DBP 将此义标为 kata seru；因指定词性列表不含 interjection，此处以 particle 容纳。不要与化学符号 Au 混为一义。数据包中的“是、对”提示不足以证明其为标准马来语肯定词，本条不据此增设该义。参见 [DBP：au](https://prpm.dbp.gov.my/cari1?keyword=au)。",
+      "collocations": [
+        {
+          "ms": "Au, sakitnya!",
+          "zh": "哎哟，疼死了！",
+          "en": "Ouch, that hurts!"
+        },
+        {
+          "ms": "Au, terkejut saya!",
+          "zh": "哎哟，吓我一跳！",
+          "en": "Oh! You startled me!"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan makmal itu mengesahkan kehadiran unsur emas (Au) dalam sampel tersebut.",
+      "zh": "该实验室报告确认样本中含有金元素（Au）。",
+      "en": "The laboratory report confirmed the presence of gold (Au) in the sample."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Au, sakitnya! Aku dah terpijak mainan ni!",
+      "ms_standard": "Au, sakitnya! Saya telah terpijak mainan ini!",
+      "zh": "哎哟，好痛！我踩到这个玩具了！",
+      "en": "Ouch, that hurts! I just stepped on this toy!",
+      "spoken_features": [
+        "au 是表达疼痛的感叹词。",
+        "aku 是熟人之间的第一人称代词；正式等值句使用 saya。",
+        "dah 对应 sudah；ni 对应 ini；回复中的 kat 对应 di。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (家人)",
+          "ms_spoken": "Au, sakitnya! Aku dah terpijak mainan ni!",
+          "ms_standard": "Au, sakitnya! Saya telah terpijak mainan ini!",
+          "zh": "哎哟，好痛！我踩到这个玩具了！",
+          "en": "Ouch, that hurts! I just stepped on this toy!"
+        },
+        {
+          "speaker": "Farah (家人)",
+          "ms_spoken": "Duduk kat sofa dulu. Biar aku tengok kaki kau.",
+          "ms_standard": "Duduklah di sofa dahulu. Biar saya memeriksa kaki kamu.",
+          "zh": "先坐到沙发上，让我看看你的脚。",
+          "en": "Sit on the sofa for a moment. Let me look at your foot."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Two distinct items meet in this spelling. The chemical symbol Au preserves the opening letters of aurum, the Latin name for gold, rather than the Malay name emas. Lowercase au is separately recorded by DBP as an exclamation of pain, fear or surprise. Their shared letters do not establish a shared origin. Sources: [Geoscience Australia](https://www.ga.gov.au/education/minerals-energy/australian-mineral-facts/gold), [DBP](https://prpm.dbp.gov.my/cari1?keyword=au).",
+    "cognitive_memory_aid": "Au 看前两字母：Aurum＝金；au 听语气：踩到玩具喊“哎哟”。同样两字母，靠大小写和语境分辨。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "疼痛时喊 au 本身不粗俗；与长辈或陌生人说明情况时，可接 Maaf, kaki saya sakit。感叹词不宜用于责骂或嘲笑别人受伤。",
+    "usage_etiquette": "科学报告保留符号 Au 的大小写，日常谈论金通常说 emas。感叹词 au 适合口语、聊天和人物对白；正式报告应直接描述疼痛或受惊情况。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "疼痛时喊 au 本身不粗俗；与长辈或陌生人说明情况时，可接 Maaf, kaki saya sakit。感叹词不宜用于责骂或嘲笑别人受伤。",
+    "usage_etiquette": "科学报告保留符号 Au 的大小写，日常谈论金通常说 emas。感叹词 au 适合口语、聊天和人物对白；正式报告应直接描述疼痛或受惊情况。"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "headword": {
+    "word": "freeze",
+    "syllables": "freeze",
+    "ipa": "/friːz/",
+    "jawi": null,
+    "frequency_rank": 10564,
+    "status": "code_switching"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "freeze",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + freeze（英语整词） → freeze（混语使用）",
+    "pattern_note": "英语单音节词，词尾 e 不单独发音。资料包的 pd sst 是马来语词典缩写片段，不是音节划分。混语使用时不按马来语词缀拆分；这里不将它认证为标准马来语词头。",
+    "word_family": [
+      {
+        "word": "freezer",
+        "affix": "-er（英语后缀）",
+        "gloss": "冷冻柜；英语同族词"
+      },
+      {
+        "word": "frozen",
+        "affix": "英语不规则分词变化",
+        "gloss": "已冻结的；英语同族词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "【英语夹杂用法】指屏幕、应用程序或电脑卡住，停止响应。",
+      "en_definition": "Of a screen, application or computer, stop responding or updating.",
+      "ms_definition": "Dalam penggunaan campur kod, terhenti atau tidak memberikan respons, khususnya tentang skrin, aplikasi atau komputer.",
+      "nuances": "属于英语词在马来语会话中的使用；正式马来语宜按情况写作 tidak memberikan respons、terhenti 或 paparan tidak berubah。以下为混语搭配，不能视为标准马来语搭配。",
+      "collocations": [
+        {
+          "ms": "skrin freeze",
+          "zh": "屏幕卡住",
+          "en": "the screen freezes"
+        },
+        {
+          "ms": "komputer freeze",
+          "zh": "电脑停止响应",
+          "en": "the computer freezes"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "【英语夹杂用法】使食物或液体冷冻、结冰；或自行冻结。",
+      "en_definition": "Become solid through cold, or preserve food by freezing it.",
+      "ms_definition": "Dalam penggunaan campur kod, membeku atau membekukan makanan dan cecair.",
+      "nuances": "标准马来语按及物性分别使用 membeku 和 membekukan。英语 freeze 在混语中可接马来语宾语，但正式说明应使用相应马来语动词。",
+      "collocations": [
+        {
+          "ms": "freeze makanan",
+          "zh": "冷冻食物",
+          "en": "freeze food"
+        },
+        {
+          "ms": "freeze lebihan lauk",
+          "zh": "冷冻剩下的菜肴",
+          "en": "freeze leftover dishes"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "【英语夹杂用法】暂停某项活动，或冻结账户等，使其暂时不能使用。",
+      "en_definition": "Temporarily suspend an activity or prevent an account or resource from being used.",
+      "ms_definition": "Dalam penggunaan campur kod, menghentikan sesuatu kegiatan buat sementara atau menyekat penggunaan sesuatu akaun atau kemudahan.",
+      "nuances": "标准马来语常用 membekukan、menggantung 或 menangguhkan，须依据具体对象选择。冻结账户、暂停招聘和固定价格并非完全相同的行为；正式文件应说明实际限制。",
+      "collocations": [
+        {
+          "ms": "freeze akaun",
+          "zh": "冻结账户",
+          "en": "freeze an account"
+        },
+        {
+          "ms": "freeze pengambilan pekerja",
+          "zh": "暂停招聘",
+          "en": "freeze recruitment"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场技术报告 / 引述用户原话",
+      "ms": "Pengguna melaporkan bahawa skrin aplikasi itu mengalami keadaan yang disebutnya sebagai 'freeze', iaitu paparan tidak berubah dan aplikasi tidak memberikan respons.",
+      "zh": "用户报告称，该应用程序的屏幕出现了其所称的“freeze”现象，即画面不再变化，应用程序也不再响应。",
+      "en": "The user reported that the application screen had 'frozen': the display stopped updating and the application became unresponsive."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事处理应用程序卡顿",
+      "ms_spoken": "Skrin aku freeze lagi lah, tak boleh tekan apa-apa.",
+      "ms_standard": "Skrin peranti aku sekali lagi tidak memberikan respons, dan aku tidak dapat memilih apa-apa pada skrin.",
+      "zh": "我的屏幕又卡住了，点什么都没反应。",
+      "en": "My screen's frozen again. Nothing responds when I tap it.",
+      "spoken_features": [
+        "freeze 是嵌入马来语句子的英语动词。",
+        "lah 强调说话人的无奈。",
+        "tak 对应 tidak；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Skrin aku freeze lagi lah, tak boleh tekan apa-apa.",
+          "ms_standard": "Skrin peranti aku sekali lagi tidak memberikan respons, dan aku tidak dapat memilih apa-apa pada skrin.",
+          "zh": "我的屏幕又卡住了，点什么都没反应。",
+          "en": "My screen's frozen again. Nothing responds when I tap it."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kau dah cuba tutup aplikasi tu dan buka balik?",
+          "ms_standard": "Adakah kamu sudah mencuba menutup aplikasi itu dan membukanya semula?",
+          "zh": "你试过把那个应用关掉再打开吗？",
+          "en": "Have you tried closing the app and reopening it?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English freeze descends from Old English frēosan, a Germanic verb associated with becoming frozen. Its meanings extend from physical solidification to immobility and suspension. That semantic connection helps explain references to unresponsive screens and restricted accounts. In a Malay sentence, the unchanged English spelling signals code-switching; it does not by itself establish official Malay borrowing status.",
+    "cognitive_memory_aid": "读 /friːz/，想象画面像结冰一样不动：食物是冷冻，屏幕是卡住，账户是冻结。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉英语的朋友或技术同事之间可以理解这种混语。面向公众、客户或不熟悉英语的听众时，使用明确的马来语说法。",
+    "usage_etiquette": "正式通知和操作说明应描述具体状态，例如 aplikasi tidak memberikan respons；涉及账户或业务暂停时，避免只用 freeze 而不说明范围。"
+  },
+  "verification": {
+    "note": "status 使用 code_switching，以免将英语词误标为官方马来语词。IPA 为英语读音；马来语释义为综合说明，并非 DBP 的马来语词头定义。未提供的 Jawi 保留为 null。",
+    "sources": [
+      "[DBP《Kamus Inggeris-Melayu Dewan》：freeze 的英马释义](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=fros)",
+      "[Oxford Learner’s Dictionaries：freeze 的词义与词源](https://www.oxfordlearnersdictionaries.com/us/definition/english/freeze_1)"
+    ]
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉英语的朋友或技术同事之间可以理解这种混语。面向公众、客户或不熟悉英语的听众时，使用明确的马来语说法。",
+    "usage_etiquette": "正式通知和操作说明应描述具体状态，例如 aplikasi tidak memberikan respons；涉及账户或业务暂停时，避免只用 freeze 而不说明范围。"
+  }
+}

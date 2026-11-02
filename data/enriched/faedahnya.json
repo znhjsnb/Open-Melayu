@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "faedahnya",
+    "syllables": null,
+    "ipa": "/fa.e.dah.ɲa/",
+    "jawi": "فاءيده",
+    "frequency_rank": 10461,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "faedah",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "faedah + -nya → faedahnya",
+    "pattern_note": "-nya 在此是附着于名词的后附代词或回指成分，表示“它的／其”；不改变词根拼写，也不表示复数。数据包的 Jawi فاءيده 仅对应词根 faedah，未包含 -nya；此处按输入保留。音节字段按输入保留 null，实际可分为 fa.e.dah.nya。",
+    "word_family": [
+      {
+        "word": "faedah",
+        "affix": null,
+        "gloss": "益处；利息"
+      },
+      {
+        "word": "berfaedah",
+        "affix": "ber-",
+        "gloss": "有益的；有用的"
+      },
+      {
+        "word": "faedah-faedah",
+        "affix": null,
+        "gloss": "各项益处或福利；全词重叠"
+      }
+    ],
+    "root_jawi": "فاءيده"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "其益处、好处或用途；某事物所带来的有利作用。",
+      "en_definition": "Its benefit, advantage, or usefulness; the benefit associated with something already mentioned.",
+      "ms_definition": "Guna atau manfaat sesuatu yang telah disebut atau difahami daripada konteks.",
+      "nuances": "-nya 通常回指前文的事物，不必译成“他的”。apa faedahnya 可真诚询问用途，也可反问“有什么用”。词根义项依据 [DBP PRPM：faedah](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=faedah)；本条释义结合 -nya 作了展开。",
+      "collocations": [
+        {
+          "ms": "apa faedahnya",
+          "zh": "有什么益处；有什么用",
+          "en": "what benefit it offers; what the point is"
+        },
+        {
+          "ms": "banyak faedahnya",
+          "zh": "好处很多",
+          "en": "it has many benefits"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "某笔贷款、信贷或存款所涉及的利息；其应付或可得的利息。",
+      "en_definition": "The interest payable on a particular loan or credit, or earned on a particular deposit.",
+      "ms_definition": "Bayaran tambahan atas sesuatu pinjaman atau kredit, atau pulangan wang daripada sesuatu simpanan.",
+      "nuances": "须由金融语境确定 -nya 指哪笔款项。faedahnya tinggi 可指利息高，不能脱离语境直接判断是贷款成本高还是存款收益高。利息金额与 kadar faedah“利率”应加以区分。",
+      "collocations": [
+        {
+          "ms": "membayar faedahnya",
+          "zh": "支付该笔款项的利息",
+          "en": "pay the interest on it"
+        },
+        {
+          "ms": "faedahnya dikira setiap hari",
+          "zh": "其利息按日计算",
+          "en": "its interest is calculated daily"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Program latihan ini akan diteruskan kerana faedahnya kepada pekerja telah dikenal pasti melalui penilaian dalaman.",
+      "zh": "这项培训计划将继续推行，因为内部评估已确认它能使员工受益。",
+      "en": "The training programme will continue because an internal assessment has established its benefits for employees."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Apa faedahnya kita tunggu kat sini lagi? Dia dah balik.",
+      "ms_standard": "Apakah faedahnya kita terus menunggu di sini? Dia sudah pulang.",
+      "zh": "我们还在这里等有什么用？他都回去了。",
+      "en": "What's the point of waiting here any longer? He's already gone home.",
+      "spoken_features": [
+        "kat 对应标准语的 di。",
+        "dah 是 sudah 的口语缩略形式。",
+        "apa faedahnya 在这里表达反问，语气取决于上下文。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Apa faedahnya kita tunggu kat sini lagi? Dia dah balik.",
+          "ms_standard": "Apakah faedahnya kita terus menunggu di sini? Dia sudah pulang.",
+          "zh": "我们还在这里等有什么用？他都回去了。",
+          "en": "What's the point of waiting here any longer? He's already gone home."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Betul juga. Jom balik je, esok kita datang semula.",
+          "ms_standard": "Betul juga. Marilah kita pulang sahaja dan datang semula esok.",
+          "zh": "也是。走吧，先回去，明天再来。",
+          "en": "Fair point. Let's just go home and come back tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Faedah belongs to Malay's Arabic-derived vocabulary and is related to Arabic fāʾidah, meaning benefit or gain. In modern Malay, its meanings encompass both practical usefulness and financial interest. Adding -nya links either meaning to an understood referent, so context determines whether faedahnya concerns an activity's benefits or a sum of money's interest.",
+    "cognitive_memory_aid": "先记 faedah＝益处／利息，再把 -nya 当作回指箭头：faedahnya＝“它的益处／那笔钱的利息”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对上司或长辈直接说 Apa faedahnya? 容易显得质疑或不耐烦。较委婉的问法是 Boleh jelaskan manfaatnya?，即“可以说明它的益处吗？”",
+    "usage_etiquette": "适用于讨论活动价值、政策成效及金融事项。描述金融产品时应沿用产品文件的实际术语，不宜把 faedah、keuntungan“利润／收益”和 dividen“股息”任意互换。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对上司或长辈直接说 Apa faedahnya? 容易显得质疑或不耐烦。较委婉的问法是 Boleh jelaskan manfaatnya?，即“可以说明它的益处吗？”",
+    "usage_etiquette": "适用于讨论活动价值、政策成效及金融事项。描述金融产品时应沿用产品文件的实际术语，不宜把 faedah、keuntungan“利润／收益”和 dividen“股息”任意互换。"
+  }
+}

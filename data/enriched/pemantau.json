@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "pemantau",
+    "syllables": "pe.man.tau",
+    "ipa": "/pəˈmantaw/",
+    "jawi": "ڤمنتاو",
+    "frequency_rank": 10581,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pemantau",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + pantau → pemantau",
+    "pattern_note": "实际构词基词为 pantau；root_word 与 root_jawi 按词包保留。peN- 遇词首 p 时变为 pem-，原 p 脱落；词尾 au 通常为双元音 /aw/。",
+    "word_family": [
+      {
+        "word": "pantau",
+        "affix": "∅",
+        "gloss": "监看；观察"
+      },
+      {
+        "word": "memantau",
+        "affix": "meN-",
+        "gloss": "持续监测；监督"
+      },
+      {
+        "word": "pemantauan",
+        "affix": "peN-...-an",
+        "gloss": "监测或监督工作"
+      }
+    ],
+    "root_jawi": "ڤمنتاو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "持续观察、检查某项活动或情况的人、组织或相关单位；监督人员或观察员。",
+      "en_definition": "A person or body that monitors an activity, development or situation.",
+      "ms_definition": "Orang atau pihak yang memantau.",
+      "nuances": "重点在持续观察、检查与记录；是否具有执法、处分或指挥权，取决于具体职务，词本身不赋予这些权限。",
+      "collocations": [
+        {
+          "ms": "pasukan pemantau",
+          "zh": "监督小组；监测团队",
+          "en": "a monitoring team"
+        },
+        {
+          "ms": "pemantau pilihan raya",
+          "zh": "选举观察员",
+          "en": "an election observer"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于持续观察、测量或追踪某项状况的监测仪器或装置。",
+      "en_definition": "A device used to monitor a condition, process or activity.",
+      "ms_definition": "Alat yang digunakan untuk memantau.",
+      "nuances": "可用于医疗、环境或设备运行等语境。这里的 monitor 表示监测设备；普通电脑显示器通常称 monitor 或 skrin，不宜一概译作 pemantau。",
+      "collocations": [
+        {
+          "ms": "pemantau jantung",
+          "zh": "心脏监测仪",
+          "en": "a cardiac monitor"
+        },
+        {
+          "ms": "pemantau tekanan darah",
+          "zh": "血压监测仪",
+          "en": "a blood pressure monitor"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan pemantau akan menilai kemajuan projek dan mengemukakan laporan bulanan kepada pihak pengurusan.",
+      "zh": "监督小组将评估项目进展，并向管理层提交月度报告。",
+      "en": "The monitoring team will assess the project's progress and submit monthly reports to management."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pemantau tekanan darah yang aku beli tu dah sampai.",
+      "ms_standard": "Pemantau tekanan darah yang saya beli itu sudah sampai.",
+      "zh": "我买的那个血压监测仪已经送到了。",
+      "en": "The blood pressure monitor I bought has arrived.",
+      "spoken_features": [
+        "aku 是熟人之间的第一人称。",
+        "tu 是 itu 的口语缩略形式。",
+        "dah 是 sudah 的口语缩略形式。",
+        "人称代词加无前缀动词的 yang aku beli 结构在此自然成立。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (兄弟)",
+          "ms_spoken": "Pemantau tekanan darah yang aku beli tu dah sampai.",
+          "ms_standard": "Pemantau tekanan darah yang saya beli itu sudah sampai.",
+          "zh": "我买的那个血压监测仪已经送到了。",
+          "en": "The blood pressure monitor I bought has arrived."
+        },
+        {
+          "speaker": "Hakim (兄弟)",
+          "ms_spoken": "Baguslah. Letak kat meja dulu, nanti kita tengok cara guna.",
+          "ms_standard": "Baguslah. Letakkan alat itu di atas meja dahulu; nanti kita akan melihat cara menggunakannya.",
+          "zh": "那就好，先放桌上，等会儿我们看看怎么用。",
+          "en": "Great. Put it on the table for now, and we'll check how to use it later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pemantau is formed from pantau with peN-, a Malay prefix that can name either a person performing an activity or an instrument used for it. The dictionary records both a monitoring party and a monitoring device. This pairing explains why a project observer and a cardiac monitor share one word: both keep watch over a changing situation. [Kamus Dewan via DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pemantau)",
+    "cognitive_memory_aid": "pantau 是盯着情况看；加 peN- 后，就是负责监看的人，或替你持续监看的仪器。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "pemantau 是中性的职责名称。与监督人员交谈时，可依实际身份使用 Encik、Puan 或职称；不能仅凭该词判断对方拥有执法权。",
+    "usage_etiquette": "用于项目监督、选举观察和仪器监测都自然。谈到个人被监看时，应交代具体职责与范围，以免让对方误解为私人监视。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "pemantau 是中性的职责名称。与监督人员交谈时，可依实际身份使用 Encik、Puan 或职称；不能仅凭该词判断对方拥有执法权。",
+    "usage_etiquette": "用于项目监督、选举观察和仪器监测都自然。谈到个人被监看时，应交代具体职责与范围，以免让对方误解为私人监视。"
+  }
+}

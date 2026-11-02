@@ -1,0 +1,118 @@
+{
+  "headword": {
+    "word": "tempo",
+    "syllables": null,
+    "ipa": "/tem.po/",
+    "jawi": "تيمڤو",
+    "frequency_rank": 10462,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tempo",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tempo → tempo",
+    "pattern_note": "在马来语中作为完整借词处理，不拆成 tem- 和 -po。首音节 e 读 /e/，不是 /ə/。音节字段按输入保留 null，标准分节为 tem.po；bertempo 的 ber- 直接附加，词根不变。",
+    "word_family": [
+      {
+        "word": "bertempo",
+        "affix": "ber-",
+        "gloss": "具有某种速度；按一定速度进行"
+      }
+    ],
+    "root_jawi": "تيمڤو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "音乐演奏或演唱的速度，即节拍进行的快慢。",
+      "en_definition": "The speed at which a piece or passage of music is performed.",
+      "ms_definition": "Ukuran waktu dalam muzik yang menentukan kelajuan sesuatu lagu dimainkan atau dinyanyikan.",
+      "nuances": "音乐术语中，tempo 主要回答“多快”，而 irama 通常涉及节奏组织；两者并非始终可互换。上述马来语释义是对 [DBP PRPM：tempo](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=tempo) 所列义项的展开。",
+      "collocations": [
+        {
+          "ms": "tempo perlahan",
+          "zh": "缓慢的演奏速度",
+          "en": "a slow tempo"
+        },
+        {
+          "ms": "mengekalkan tempo",
+          "zh": "保持演奏速度",
+          "en": "maintain the tempo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "活动、工作或比赛推进的节奏与快慢。",
+      "en_definition": "The pace or rate at which an activity progresses.",
+      "ms_definition": "Kadar kelajuan atau rentak perjalanan sesuatu kegiatan, pekerjaan atau permainan.",
+      "nuances": "这是由音乐速度引申的用法，常见于比赛或活动进程的描述。不要与 tempoh“时段、期限”混淆；“申请期限”应说 tempoh permohonan。",
+      "collocations": [
+        {
+          "ms": "tempo permainan",
+          "zh": "比赛节奏",
+          "en": "the pace of the game"
+        },
+        {
+          "ms": "meningkatkan tempo",
+          "zh": "加快节奏",
+          "en": "increase the pace"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Konduktor meminta semua pemuzik mengekalkan tempo yang sama sepanjang persembahan.",
+      "zh": "指挥要求所有乐手在整场演出中保持一致的演奏速度。",
+      "en": "The conductor asked all the musicians to maintain a consistent tempo throughout the performance."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tempo lagu ni laju sangatlah. Kita perlahankan sikit, boleh?",
+      "ms_standard": "Tempo lagu ini terlalu laju. Bolehkah kita memperlahankannya sedikit?",
+      "zh": "这首歌的速度太快啦，我们放慢一点，可以吗？",
+      "en": "This song's tempo is way too fast. Can we slow it down a little?",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略形式。",
+        "-lah 加强说话者的感受。",
+        "sikit 对应 sedikit；口语 perlahankan 在此对应标准形式 memperlahankan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (乐队成员)",
+          "ms_spoken": "Tempo lagu ni laju sangatlah. Aku tak sempat nak masuk.",
+          "ms_standard": "Tempo lagu ini terlalu laju. Saya tidak sempat mula menyanyi pada waktunya.",
+          "zh": "这首歌太快啦，我都来不及跟上进唱。",
+          "en": "This song's tempo is way too fast. I can't come in on time."
+        },
+        {
+          "speaker": "Hakim (乐队成员)",
+          "ms_spoken": "Okey, kita perlahankan sikit je. Lepas tu cuba lagi.",
+          "ms_standard": "Baiklah, kita memperlahankannya sedikit sahaja. Selepas itu, kita mencuba lagi.",
+          "zh": "行，我们稍微放慢一点，然后再试。",
+          "en": "Okay, let's slow it down just a little, then try again."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tempo is an international musical term associated with Italian tempo, meaning time, ultimately from Latin tempus. Its history explains why musicians speak of tempo when discussing how quickly a piece moves. Malay incorporates the term as a whole word and forms bertempo with its own prefix. The international etymology is documented by the [American Heritage Dictionary](https://ahdictionary.com/word/search.html?q=tempo).",
+    "cognitive_memory_aid": "想象节拍器发出 tem-po、tem-po：滴答越快，tempo 越快；期限则记带 h 的 tempoh。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "tempo 是中性的音乐及活动描述用语。排练时说 Boleh kita perlahankan tempo sedikit? 比直接命令 Perlahan! 更适合协作场景。",
+    "usage_etiquette": "适用于音乐教学、排练及体育评论。用于工作节奏时可理解，但正式说明也可根据语境选用 rentak kerja 或 kadar pelaksanaan；表示期限应使用 tempoh。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "tempo 是中性的音乐及活动描述用语。排练时说 Boleh kita perlahankan tempo sedikit? 比直接命令 Perlahan! 更适合协作场景。",
+    "usage_etiquette": "适用于音乐教学、排练及体育评论。用于工作节奏时可理解，但正式说明也可根据语境选用 rentak kerja 或 kadar pelaksanaan；表示期限应使用 tempoh。"
+  }
+}

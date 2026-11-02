@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "disitulah",
+    "syllables": null,
+    "ipa": "/di situ lah/",
+    "jawi": null,
+    "frequency_rank": 10551,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "disitu",
+    "affix": "-lah",
+    "affix_type": "none",
+    "formula": "di + situ + -lah → di situlah；输入连写形式：disitulah",
+    "pattern_note": "root_word 保留输入包的 disitu，但规范基础短语为 di situ。di 是分写的处所介词；-lah 是附着于 situ 的强调小品词，并非派生后缀，因此 affix_type 标为 none。规范拼写为 di situlah。",
+    "word_family": [
+      {
+        "word": "di situ",
+        "affix": null,
+        "gloss": "在那里"
+      },
+      {
+        "word": "situlah",
+        "affix": "-lah",
+        "gloss": "就是那里；具体功能依句法而定"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "就在那个地方；强调前文提到或双方已经明确的地点。规范写作 di situlah。",
+      "en_definition": "Right there; at that very place, with emphasis on the location.",
+      "ms_definition": "Di tempat yang dirujuk itu, dengan penegasan pada tempat tersebut; bentuk bakunya ialah di situlah.",
+      "nuances": "这里的 adverb 表示整个短语作处所状语的功能；di situlah 在结构上是介词短语。不能将 di 当作被动前缀，也不能把 -lah 一律译为“啦”。规范拼写依据：[DBP 马来语拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)；小品词性质依据：[DBP：partikel](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel)。",
+      "collocations": [
+        {
+          "ms": "di situlah tempatnya",
+          "zh": "位置就在那儿",
+          "en": "that is exactly where it belongs"
+        },
+        {
+          "ms": "di situlah mereka berkumpul",
+          "zh": "他们就在那儿集合",
+          "en": "that is where they gather"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "问题、关键、差别等恰恰就在所述之处；把空间指向引申为论述中的焦点。",
+      "en_definition": "At precisely that point in an argument or situation; used to identify where an issue or distinction lies.",
+      "ms_definition": "Pada perkara atau keadaan yang disebut itulah terletaknya sesuatu masalah, perbezaan atau kepentingan.",
+      "nuances": "这是处所表达的抽象用法，并非任何情况下都等于“因此”。翻译时可用“关键就在这里”或“问题恰恰在于这一点”，须保留实际指向。",
+      "collocations": [
+        {
+          "ms": "di situlah masalahnya",
+          "zh": "问题恰恰就在这里",
+          "en": "that is precisely where the problem lies"
+        },
+        {
+          "ms": "di situlah letaknya perbezaan",
+          "zh": "差别恰恰就在这里",
+          "en": "that is where the difference lies"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场流程评估",
+      "ms": "Prosedur itu tidak menetapkan pihak yang bertanggungjawab; di situlah letaknya kelemahan utama sistem tersebut.",
+      "zh": "该程序没有明确责任方；这正是该系统的主要缺陷所在。",
+      "en": "The procedure does not identify the responsible party; that is where the system's principal weakness lies."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 约定会合地点",
+      "ms_spoken": "Nampak pondok kat depan tu? Di situlah kita tunggu nanti.",
+      "ms_standard": "Adakah kamu nampak pondok di hadapan itu? Di situlah kita akan menunggu nanti.",
+      "zh": "看到前面那个亭子了吗？等会儿我们就在那儿等。",
+      "en": "See that shelter up ahead? That's where we'll wait.",
+      "spoken_features": [
+        "kat 在此对应介词 di。",
+        "tu 是 itu 的口语缩略形式。",
+        "口语省略 Adakah kamu 等可由上下文补足的成分。",
+        "即使在聊天中，di situlah 也可保持规范分写；disitulah 属于非规范连写。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai kat pintu utama. Nak tunggu mana?",
+          "ms_standard": "Saya sudah sampai di pintu utama. Di manakah saya perlu menunggu?",
+          "zh": "我已经到正门了。要在哪儿等？",
+          "en": "I'm at the main entrance. Where should I wait?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nampak pondok kat depan tu? Di situlah kita tunggu nanti. Duduk situ je dulu.",
+          "ms_standard": "Adakah kamu nampak pondok di hadapan itu? Di situlah kita akan menunggu nanti. Duduk di situ sahaja dahulu.",
+          "zh": "看到前面那个亭子了吗？等会儿我们就在那儿等。你先在那儿坐着就好。",
+          "en": "See that shelter up ahead? That's where we'll wait. Just sit there for now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This expression combines the Malay locative preposition di, the place word situ, and the emphatic particle -lah. Its spelling makes the grammatical relationships visible: di remains separate, while -lah attaches to situ. A run-together corpus spelling therefore needs normalization, not a newly invented root or a separate historical origin. References: [DBP spelling guidelines](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf), [DBP on particles](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel).",
+    "cognitive_memory_aid": "记住“两块”：di｜situlah。di 留空格，lah 紧跟 situ；意思是“就是在那里”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这里的 -lah 主要强调地点，本身不表示不耐烦或不礼貌；语气仍取决于上下文和说话方式。",
+    "usage_etiquette": "作文、公文及教学材料应写 di situlah。给陌生人指路时，配合明确地标比只说 di situlah 更容易理解。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这里的 -lah 主要强调地点，本身不表示不耐烦或不礼貌；语气仍取决于上下文和说话方式。",
+    "usage_etiquette": "作文、公文及教学材料应写 di situlah。给陌生人指路时，配合明确地标比只说 di situlah 更容易理解。"
+  }
+}
