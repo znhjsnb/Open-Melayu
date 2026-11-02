@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "walaubagaimanapun",
+    "syllables": null,
+    "ipa": "/wa.lau̯ ba.ɡai̯.ma.na.pun/",
+    "jawi": null,
+    "frequency_rank": 12825,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "walaubagaimanapun",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "walaubagaimanapun → 规范分写 walau bagaimanapun；walau + (bagaimana + -pun)",
+    "pattern_note": "is_root 与 root_word 保留输入包的解析标签，仅表示输入未解析出其他词根；从语言学上说，这是短语的非规范连写，并非不可分析的单一词根。标准形式为两个词 walau bagaimanapun，pun 与 bagaimana 连写。按标准短语读作 wa.lau ba.gai.ma.na.pun。输入未提供音节及 Jawi，均保留 null。",
+    "word_family": [
+      {
+        "word": "bagaimanapun",
+        "affix": "-pun",
+        "gloss": "无论如何；然而，属相关构式"
+      },
+      {
+        "word": "walaupun",
+        "affix": "-pun",
+        "gloss": "虽然；即使，属相关构式"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "然而；尽管如此。连接前后信息，说明后文与前文形成转折或让步关系。规范写法为 walau bagaimanapun。",
+      "en_definition": "However; nevertheless. A nonstandard joined spelling of walau bagaimanapun, introducing contrasting or qualifying information.",
+      "ms_definition": "Bentuk ejaan tidak baku bagi walau bagaimanapun, iaitu penanda wacana yang memperkenalkan maklumat yang berbeza atau berlawanan dengan maklumat sebelumnya.",
+      "nuances": "严格说是 penanda wacana，即篇章连接语，此处按给定词类选项归入 conjunction。DBP 明确规定写作 walau bagaimanapun。headword.status 按请求结构保留 official，但该字段不代表 DBP 认可这个连写词形；该拼写本身不规范。以下搭配和例句展示规范形式。参见 [DBP：walau bagaimanapun 的规范拼写与用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=walau+bagaimanapun)。",
+      "collocations": [
+        {
+          "ms": "walau bagaimanapun, keputusan",
+          "zh": "然而，该决定／结果……",
+          "en": "however, the decision or result …"
+        },
+        {
+          "ms": "walau bagaimanapun, usaha",
+          "zh": "尽管如此，相关努力……",
+          "en": "nevertheless, the efforts …"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "conjunction",
+      "zh_definition": "无论如何；不管情况怎样。在后接具体情状时，表示该情状不影响主句成立。规范写法为 walau bagaimanapun。",
+      "en_definition": "However …; no matter how … . In a concessive construction, regardless of the circumstances described.",
+      "ms_definition": "Bentuk ejaan tidak baku bagi walau bagaimanapun yang, dalam binaan konsesif, menyatakan bahawa keadaan yang disebut tidak mengubah perkara dalam klausa utama.",
+      "nuances": "须与独立用于句首、后接逗号的“然而”用法区分。此处如何理解取决于其后的情状结构，例如 walau bagaimanapun sukarnya …。DBP 所收谚语中的相关结构也体现“无论怎样”的让步意义。参见 [DBP：walau bagaimanapun 的谚语用例](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=walau+bagaimanapun)。",
+      "collocations": [
+        {
+          "ms": "walau bagaimanapun sukarnya",
+          "zh": "无论多么困难",
+          "en": "however difficult it may be"
+        },
+        {
+          "ms": "walau bagaimanapun keadaannya",
+          "zh": "无论情况如何",
+          "en": "whatever the circumstances"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 项目进展汇报，使用规范分写形式",
+      "ms": "Kos pelaksanaan telah meningkat. Walau bagaimanapun, projek itu dijangka siap mengikut jadual.",
+      "zh": "实施成本已经增加。然而，该项目预计仍将按期完成。",
+      "en": "Implementation costs have risen. Nevertheless, the project is expected to be completed on schedule."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事协调进度，使用规范分写形式",
+      "ms_spoken": "Banyak lagi nak buat. Walau bagaimanapun, kita cuba siap hari ni, ya.",
+      "ms_standard": "Masih banyak kerja yang perlu dilakukan. Walau bagaimanapun, marilah kita cuba menyiapkannya pada hari ini.",
+      "zh": "还有好多事要做。不过，我们争取今天弄完吧。",
+      "en": "There's still a lot to do. Still, let's try to finish today.",
+      "spoken_features": [
+        "nak 对应 hendak 或 perlu，依句意转换",
+        "hari ni 对应 hari ini",
+        "ya 用于柔和地争取认同",
+        "walau bagaimanapun 在同事文字沟通中自然，但比 tapi 或 tapi kan 更正式"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Banyak lagi nak buat. Walau bagaimanapun, kita cuba siap hari ni, ya.",
+          "ms_standard": "Masih banyak kerja yang perlu dilakukan. Walau bagaimanapun, marilah kita cuba menyiapkannya pada hari ini.",
+          "zh": "还有好多事要做。不过，我们争取今天弄完吧。",
+          "en": "There's still a lot to do. Still, let's try to finish today."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Boleh. Aku dah semak bahagian awal, tinggal bahagian akhir je.",
+          "ms_standard": "Baiklah. Saya sudah menyemak bahagian awal; hanya bahagian akhir yang masih perlu disemak.",
+          "zh": "行。我已经检查完前面的部分，就剩最后一部分了。",
+          "en": "Sure. I've checked the first part; only the last section is left."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The interesting story here concerns spelling rather than a separate word origin. Malay writes bagaimanapun together, but keeps walau separate in walau bagaimanapun. Because the expression works as a familiar connective, writers sometimes run the whole sequence together. DBP's guidance preserves the two-word form, showing that a closely connected meaning does not automatically require a single written word.",
+    "cognitive_memory_aid": "记成两块：walau｜bagaimanapun。后块的 pun 不拆开，前块 walau 不粘上；意思可记作“情况虽如此，不过……”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "规范形式 walau bagaimanapun 适合公文、新闻和职场说明，可先承认前述情况，再温和提出限制、不同意见或后续安排。",
+    "usage_etiquette": "正式写作应把输入词形改为 walau bagaimanapun。作为篇章连接语置于句首时，通常后接逗号；在“无论多么……”的让步结构中，不应机械地在短语后加逗号。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "规范形式 walau bagaimanapun 适合公文、新闻和职场说明，可先承认前述情况，再温和提出限制、不同意见或后续安排。",
+    "usage_etiquette": "正式写作应把输入词形改为 walau bagaimanapun。作为篇章连接语置于句首时，通常后接逗号；在“无论多么……”的让步结构中，不应机械地在短语后加逗号。"
+  }
+}

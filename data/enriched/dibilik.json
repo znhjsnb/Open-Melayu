@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "dibilik",
+    "syllables": null,
+    "ipa": "/di bi.lik/",
+    "jawi": null,
+    "frequency_rank": 12838,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bilik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "di + bilik → di bilik；dibilik 为非规范连写",
+    "pattern_note": "表示处所的 di 是独立介词，须与 bilik 分写；这里没有被动前缀 di-，也没有音变。输入包将 dibilik 标为词根，属于需要纠正的分析。",
+    "word_family": [
+      {
+        "word": "bilik",
+        "affix": "∅",
+        "gloss": "房间"
+      },
+      {
+        "word": "bilik-bilik",
+        "affix": "∅；全词重叠",
+        "gloss": "各个房间"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "在房间里；原始形式 dibilik 通常是处所短语 di bilik 的非规范连写，并非独立的规范词。",
+      "en_definition": "In a room; a nonstandard joined spelling of the prepositional phrase di bilik.",
+      "ms_definition": "Ejaan tidak baku bagi frasa di bilik, yang menunjukkan tempat seseorang atau sesuatu berada.",
+      "nuances": "本条按常见处所用法进行纠错解释；pos 对应规范短语的介词功能，整段 di bilik 实为介词短语。不能将 dibilik 认证为 official，也不能把输入包的自动词根分析当成词典结论。这里的马来文释义是编者说明，并非 DBP 对 dibilik 的独立释义。DBP 规定处所介词 di 与后面的名词分写。依据：[DBP 关于 di 分写与连写的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dilabel)。",
+      "collocations": [
+        {
+          "ms": "di bilik tidur",
+          "zh": "在卧室里",
+          "en": "in the bedroom"
+        },
+        {
+          "ms": "di bilik mesyuarat",
+          "zh": "在会议室里",
+          "en": "in the meeting room"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；使用规范分写形式",
+      "ms": "Sesi taklimat akan diadakan di bilik mesyuarat pada pukul sembilan pagi.",
+      "zh": "说明会将于上午九点在会议室举行。",
+      "en": "The briefing will be held in the meeting room at nine in the morning."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；展示规范形式及常见口语替换",
+      "ms_spoken": "Saya ada di bilik je, tengah siapkan kerja.",
+      "ms_standard": "Saya berada di bilik sahaja dan sedang menyiapkan kerja.",
+      "zh": "我就在房间里，正赶着把工作做完。",
+      "en": "I'm just in my room, finishing some work.",
+      "spoken_features": [
+        "je 是 sahaja 的口语形式",
+        "tengah 在这里相当于 sedang",
+        "口语 kat 可对应表示处所的 di",
+        "口语表达不构成将 di bilik 连写为 dibilik 的规范依据"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Awak kat mana? Dah sampai rumah?",
+          "ms_standard": "Awak berada di mana? Adakah awak sudah sampai di rumah?",
+          "zh": "你在哪儿？到家了吗？",
+          "en": "Where are you? Are you home yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Saya ada di bilik je, tengah siapkan kerja.",
+          "ms_standard": "Sudah. Saya berada di bilik sahaja dan sedang menyiapkan kerja.",
+          "zh": "到了。我就在房间里，正赶着把工作做完。",
+          "en": "Yes. I'm just in my room, finishing some work."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This item illustrates a spelling distinction rather than the birth of a new word. Malay writes the location marker di separately from a following noun, while the passive prefix di- attaches to a verb. Joining di and bilik hides that grammatical boundary. The packet supplies no evidence establishing dibilik as an independent historical headword.",
+    "cognitive_memory_aid": "di 表示“在”，bilik 表示“房间”：先说位置，再进房间，中间留一个空格。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "di bilik 本身语气中性。询问他人所在位置时，对不熟悉的人可说 Maaf, encik berada di bilik yang mana?，避免生硬追问。",
+    "usage_etiquette": "公文、学校作文和职场信息中写 di bilik。谈到别人的卧室或私人房间时，应尊重隐私；短语本身不表示获准进入。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "di bilik 本身语气中性。询问他人所在位置时，对不熟悉的人可说 Maaf, encik berada di bilik yang mana?，避免生硬追问。",
+    "usage_etiquette": "公文、学校作文和职场信息中写 di bilik。谈到别人的卧室或私人房间时，应尊重隐私；短语本身不表示获准进入。"
+  }
+}

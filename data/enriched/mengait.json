@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "mengait",
+    "syllables": "me.ngait",
+    "ipa": "[mə.ŋa.(j)it]",
+    "jawi": "مڠاءيت",
+    "frequency_rank": 12871,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mengait",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + kait → mengait",
+    "pattern_note": "root_word 与 root_jawi 保留词包给定值；实际构词底词为 kait（کاءيت），不是 mengait。meN- 在底词首音 /k/ 前实现为 meng-，/k/ 脱落。词包的 is_root 标记据此修正。参见 [DBP kait 词族](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kait)。",
+    "word_family": [
+      {
+        "word": "pengait",
+        "affix": "peN-",
+        "gloss": "钩具；用钩采摘的人"
+      },
+      {
+        "word": "mengaitkan",
+        "affix": "meN-...-kan",
+        "gloss": "钩接；使产生关联"
+      },
+      {
+        "word": "kaitan",
+        "affix": "-an",
+        "gloss": "联系；钩织物"
+      }
+    ],
+    "root_jawi": "مڠاءيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用钩或钩状工具采摘、拉取或钩住物体。",
+      "en_definition": "Pick, pull, or catch something with a hook or hooked implement.",
+      "ms_definition": "Memetik, menarik atau mencangkuk sesuatu dengan kait.",
+      "nuances": "重点是钩取动作。采摘高处果实时常使用末端带钩的长杆；不是泛指任何采摘方式。义项依据 [DBP mengait](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengait)。",
+      "collocations": [
+        {
+          "ms": "mengait buah rambutan",
+          "zh": "用钩杆采红毛丹",
+          "en": "pick rambutans with a hooked pole"
+        },
+        {
+          "ms": "mengait buah kelapa",
+          "zh": "用钩杆采椰子",
+          "en": "harvest coconuts with a hooked pole"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用钩针将线编织成花边、衣物等。",
+      "en_definition": "Crochet yarn or thread into lace, clothing, or other items.",
+      "ms_definition": "Merajut benang dengan jarum kait untuk menghasilkan renda, pakaian dan sebagainya.",
+      "nuances": "通常指钩针编织；若需明确区分钩针与棒针，可补充 alat 或 jarum 的名称。",
+      "collocations": [
+        {
+          "ms": "mengait renda",
+          "zh": "钩织花边",
+          "en": "crochet lace"
+        },
+        {
+          "ms": "mengait baju",
+          "zh": "钩织衣服",
+          "en": "crochet a garment"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "钩状物或带倒刺的东西钩伤身体。",
+      "en_definition": "Injure by catching or tearing with something hooked or barbed.",
+      "ms_definition": "Melukai dengan benda yang berkait atau bercangkuk.",
+      "nuances": "主语可为荆棘等物体。若只是钩住衣服而没有造成伤口，不宜自动套用受伤义。",
+      "collocations": [
+        {
+          "ms": "duri mengait kaki",
+          "zh": "荆棘钩伤脚",
+          "en": "thorns catching and injuring a foot"
+        },
+        {
+          "ms": "duri mengait kulit",
+          "zh": "荆棘钩伤皮肤",
+          "en": "thorns catching and tearing the skin"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "以不正当手段牟取利益。",
+      "en_definition": "Obtain gains through dishonest or improper means.",
+      "ms_definition": "Mengambil keuntungan dan sebagainya dengan cara yang tidak halal.",
+      "nuances": "词典收录的比喻义，现代日常使用较少；不能把所有 mengait keuntungan 都机械理解为普通获利。现代中性表达通常用 memperoleh keuntungan。参见 [DBP 义项说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mengait+1)。",
+      "collocations": [
+        {
+          "ms": "mengait keuntungan",
+          "zh": "以不正当手段牟利",
+          "en": "make illicit gains"
+        },
+        {
+          "ms": "mengait keuntungan peribadi",
+          "zh": "以不正当手段谋取私利",
+          "en": "secure improper personal gains"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "社区活动报道 / 培训简报",
+      "ms": "Peserta bengkel diajar mengait renda dengan menggunakan jarum kait.",
+      "zh": "工作坊教参与者使用钩针钩织花边。",
+      "en": "Workshop participants were taught to crochet lace using crochet hooks."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论手工",
+      "ms_spoken": "Aku baru nak belajar mengait, nak buat beg kecil je.",
+      "ms_standard": "Saya baru hendak belajar mengait untuk membuat sebuah beg kecil sahaja.",
+      "zh": "我刚想学钩织，就想做个小包。",
+      "en": "I'm just starting to learn crochet. I only want to make a little bag.",
+      "spoken_features": [
+        "aku：熟人间的非正式第一人称",
+        "nak 对应 hendak",
+        "je 对应 sahaja",
+        "口语中重复 nak 来串联意图"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku baru nak belajar mengait, nak buat beg kecil je.",
+          "ms_standard": "Saya baru hendak belajar mengait untuk membuat sebuah beg kecil sahaja.",
+          "zh": "我刚想学钩织，就想做个小包。",
+          "en": "I'm just starting to learn crochet. I only want to make a little bag."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh, aku dah ada benang lebih kat rumah. Nanti aku ajar.",
+          "ms_standard": "Boleh, saya sudah mempunyai benang lebihan di rumah. Saya akan mengajar awak nanti.",
+          "zh": "可以呀，我家里正好有多余的线。回头我教你。",
+          "en": "Sure, I've got some spare yarn at home. I'll show you how."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The meanings of mengait gather around the curved end of a hook. A hooked pole catches fruit, while a crochet hook catches loops of thread. A thorn can catch and wound skin through a similar physical action. The dictionary also records a figurative extension to dishonest gain, presenting profit as something hooked and pulled towards oneself.",
+    "cognitive_memory_aid": "想象 kait 是一把小钩子：钩果实、钩线圈、钩伤皮肤，都由「钩住再拉」这一个动作串起来。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "采摘和手工义都是中性用语。比喻义暗示牟取不当利益，直接用于他人可能构成指责。",
+    "usage_etiquette": "谈手工时可直接说 suka mengait。表示「把甲与乙联系起来」通常用 mengaitkan A dengan B，避免与 mengait 的钩取或钩织义混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "采摘和手工义都是中性用语。比喻义暗示牟取不当利益，直接用于他人可能构成指责。",
+    "usage_etiquette": "谈手工时可直接说 suka mengait。表示「把甲与乙联系起来」通常用 mengaitkan A dengan B，避免与 mengait 的钩取或钩织义混淆。"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "baterinya",
+    "syllables": null,
+    "ipa": "/ba.te.ri.ɲa/",
+    "jawi": "باتريڽ",
+    "frequency_rank": 12817,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bateri",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "bateri + -nya → baterinya",
+    "pattern_note": "-nya在此是附着于名词的代词性成分，表示第三人称所属或语境中已知对象的关联，并非派生新词的后缀。词根不变，ny表示/ɲ/。输入的باتري仅为词根拼写；完整词形补写ڽ。输入未提供完整词的音节划分，故syllables保留null。",
+    "word_family": [
+      {
+        "word": "bateri",
+        "affix": "∅",
+        "gloss": "电池；另可指炮兵连"
+      },
+      {
+        "word": "berbateri",
+        "affix": "ber-",
+        "gloss": "装有电池的；使用电池的"
+      }
+    ],
+    "root_jawi": "باتري"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他、她或它的电池；也可指语境中某设备的电池。",
+      "en_definition": "His, her, or its battery, or the battery of a contextually identified device.",
+      "ms_definition": "Bateri milik atau pada orang atau benda yang dirujuk oleh -nya; bateri ialah alat yang menyimpan dan membekalkan tenaga elektrik melalui tindak balas kimia.",
+      "nuances": "独立词条依据来自词根bateri；完整词形的释义是对bateri与-nya的组合解释，并非DBP另立的释义。-nya本身不区分性别，也不标明电池数量。在“Telefon ini baharu, tetapi baterinya cepat habis”中，指这部手机的电池。日常语中的bateri也可指单个电池，不应把输入中“两枚或以上电池单元”的技术性定义当作全部用法边界。official沿用指定记录标签。[DBP词根释义](https://prpm.dbp.gov.my/Cari1?d=168608&keyword=bateri)",
+      "collocations": [
+        {
+          "ms": "baterinya lemah",
+          "zh": "它的电池电量不足",
+          "en": "its battery is low"
+        },
+        {
+          "ms": "baterinya cepat habis",
+          "zh": "它的电池很快耗尽",
+          "en": "its battery runs out quickly"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "他、她或其所属的炮兵连；具体所属关系由语境确定。",
+      "en_definition": "His, her, or its artillery battery, with the relationship determined by context.",
+      "ms_definition": "Unit tentera yang dilengkapi dengan meriam dan kenderaan serta dikaitkan dengan orang atau pihak yang dirujuk oleh -nya.",
+      "nuances": "此义来自DBP所列bateri的军事义，与电池义不同；完整词形仍由名词加-nya构成。只有军事语境才宜采用此解释。以下为军事义的搭配示例，不代表其在一般语料中高频。[DBP军事义](https://prpm.dbp.gov.my/Cari1?d=168608&keyword=bateri)",
+      "collocations": [
+        {
+          "ms": "anggota baterinya",
+          "zh": "其炮兵连的成员",
+          "en": "members of his or her artillery battery"
+        },
+        {
+          "ms": "baterinya melepaskan tembakan",
+          "zh": "其炮兵连开火",
+          "en": "his or her artillery battery opens fire"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "设备维护报告",
+      "ms": "Komputer riba itu tidak dapat digunakan kerana baterinya telah rosak.",
+      "zh": "那台笔记本电脑因电池损坏而无法使用。",
+      "en": "The laptop cannot be used because its battery has failed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论手机电量",
+      "ms_spoken": "Telefon ni baterinya dah nak habis.",
+      "ms_standard": "Bateri telefon ini hampir kehabisan kuasa.",
+      "zh": "这手机快没电了。",
+      "en": "This phone's battery is almost dead.",
+      "spoken_features": [
+        "ni是ini的口语缩略形式。",
+        "dah nak habis在此表示即将耗尽。",
+        "“Telefon ni, baterinya…”采用口语常见的话题先行结构。",
+        "baterinya在口语中可用；日常交流也常直接说bateri telefon ni。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Telefon ni baterinya dah nak habis. Kau ada pengecas tak?",
+          "ms_standard": "Bateri telefon ini hampir kehabisan kuasa. Adakah awak mempunyai pengecas?",
+          "zh": "这手机快没电了。你有充电器吗？",
+          "en": "This phone's battery is almost dead. Do you have a charger?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ada, kat dalam beg aku. Ambil je.",
+          "ms_standard": "Ada, pengecas itu di dalam beg saya. Awak boleh mengambilnya.",
+          "zh": "有，在我包里，你拿去用吧。",
+          "en": "Yes, it's in my bag. Go ahead and use it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records bateri for both an electrical device and a military unit. Baterinya adds the attached pronoun -nya, allowing either noun sense to connect to a previously mentioned person or thing. The form illustrates how Malay builds contextual reference without a separate possessive word; its electrical meaning is selected by context, not by the ending. [DBP](https://prpm.dbp.gov.my/Cari1?d=168608&keyword=bateri)",
+    "cognitive_memory_aid": "拆成bateri＋nya：“电池＋它的”。先找上文的设备，就能知道是谁的电池；ny连读为/ɲ/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述设备故障时语气中性；借充电器可加boleh、tolong和terima kasih。-nya本身没有敬语功能。",
+    "usage_etiquette": "确保-nya的所指清楚；同时谈及多部设备时，可改说bateri telefon itu或bateri komputer riba tersebut，避免混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述设备故障时语气中性；借充电器可加boleh、tolong和terima kasih。-nya本身没有敬语功能。",
+    "usage_etiquette": "确保-nya的所指清楚；同时谈及多部设备时，可改说bateri telefon itu或bateri komputer riba tersebut，避免混淆。"
+  }
+}

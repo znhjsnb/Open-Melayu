@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "number",
+    "syllables": null,
+    "ipa": "/ˈnʌm.bə/",
+    "jawi": null,
+    "frequency_rank": 12826,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "number",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + number → number",
+    "pattern_note": "这是英语整词，不按马来语词缀拆分。这里采用英语非卷舌读音；标准马来语对应形式为 nombor。未确认本词具有规范马来语派生词，因此词族留空。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "数；数字。英语词，在马来语夹杂英语的表达中可出现，标准马来语通常用 nombor，表示数量时也可用 bilangan。",
+      "en_definition": "A numerical value or a symbol representing one; an English item used in code-switching.",
+      "ms_definition": "Kata bahasa Inggeris yang merujuk kepada nilai atau lambang angka; padanan bahasa Melayunya ialah nombor, atau bilangan mengikut konteks.",
+      "nuances": "本词不是 nombor 的规范马来语拼写。此处 status 按要求保留为 official，仅作为输出标签，不代表 DBP 认可 number 为规范马来语词。以下搭配保留英语形式。标准拼写参见 [DBP：nombor](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=nombor)；所列音标参见 [Cambridge：number 发音](https://dictionary.cambridge.org/us/pronunciation/english/number)。",
+      "collocations": [
+        {
+          "ms": "even number",
+          "zh": "偶数；标准马来语：nombor genap",
+          "en": "even number"
+        },
+        {
+          "ms": "odd number",
+          "zh": "奇数；标准马来语：nombor ganjil",
+          "en": "odd number"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "号码；用于识别人、账户或事物的一组数字。",
+      "en_definition": "A sequence of digits identifying a person, account, or thing.",
+      "ms_definition": "Kata bahasa Inggeris bagi rangkaian angka yang digunakan sebagai pengenalan seseorang, akaun atau sesuatu benda; padanannya ialah nombor.",
+      "nuances": "日常混合语境中可指电话号码或账户号码。正式马来语分别用 nombor telefon、nombor akaun。这里收录与马来语交流有关的英语用法，不扩展为英语 number 的全部义项。",
+      "collocations": [
+        {
+          "ms": "phone number",
+          "zh": "电话号码；标准马来语：nombor telefon",
+          "en": "phone number"
+        },
+        {
+          "ms": "account number",
+          "zh": "账户号码；标准马来语：nombor akaun",
+          "en": "account number"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 表格语言审核",
+      "ms": "Label bahasa Inggeris “number” pada borang ini hendaklah digantikan dengan “nombor” dalam versi bahasa Melayu.",
+      "zh": "此表格上的英语标签“number”在马来语版本中应改为“nombor”。",
+      "en": "The English label “number” on this form must be replaced with “nombor” in the Malay version."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友交换联系方式",
+      "ms_spoken": "Kau dah simpan number baru aku ke?",
+      "ms_standard": "Adakah kamu sudah menyimpan nombor telefon baharu saya?",
+      "zh": "你存了我的新号码没？",
+      "en": "Have you saved my new number?",
+      "spoken_features": [
+        "number 为英语语码转换，标准对应词是 nombor。",
+        "dah 是 sudah 的口语缩略形式。",
+        "句末 ke 表示疑问。",
+        "kau、aku 适用于关系熟悉且接受这种称呼的交谈者。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah simpan number baru aku ke?",
+          "ms_standard": "Adakah kamu sudah menyimpan nombor telefon baharu saya?",
+          "zh": "你存了我的新号码没？",
+          "en": "Have you saved my new number?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi. Hantar kat sini je, nanti aku simpan.",
+          "ms_standard": "Belum lagi. Hantarkan nombor itu di sini sahaja; saya akan menyimpannya nanti.",
+          "zh": "还没。直接发这里吧，我等会儿存。",
+          "en": "Not yet. Just send it here and I’ll save it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This entry illustrates the boundary between an English word and a standard Malay equivalent. English number can appear inside a Malay conversation, while formal Malay uses nombor. Comparing the two forms helps learners distinguish conversational code-switching from the spelling expected in schoolwork, official forms, and edited Malay prose. [DBP: nombor](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=nombor).",
+    "cognitive_memory_aid": "把 number 和 nombor 配成一对：聊天可能夹英语 number，正式马来文写 nombor。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向陌生人或长辈索取号码时可说 Boleh saya minta nombor telefon tuan/puan?；朋友间才视关系使用 aku、kau。",
+    "usage_etiquette": "适合双方都理解英语的非正式混合交流。学校作文、公文和正式马来语界面使用 nombor；索取或转发他人的电话号码应尊重对方意愿。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向陌生人或长辈索取号码时可说 Boleh saya minta nombor telefon tuan/puan?；朋友间才视关系使用 aku、kau。",
+    "usage_etiquette": "适合双方都理解英语的非正式混合交流。学校作文、公文和正式马来语界面使用 nombor；索取或转发他人的电话号码应尊重对方意愿。"
+  }
+}

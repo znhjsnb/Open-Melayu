@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "tender",
+    "syllables": null,
+    "ipa": "/ten.der/",
+    "jawi": "تيندر",
+    "frequency_rank": 12842,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tender",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tender → tender",
+    "pattern_note": "整词借入，不拆成马来语词缀；首音节 e 读 /e/。招投标义的 menender 中，meN- 遇词首 t，t 脱落，鼻音实现为 n。",
+    "word_family": [
+      {
+        "word": "menender",
+        "affix": "meN-",
+        "gloss": "进行招投标；用于招投标义"
+      },
+      {
+        "word": "penenderan",
+        "affix": "peN-...-an",
+        "gloss": "招投标的过程；用于招投标义"
+      }
+    ],
+    "root_jawi": "تيندر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "铁路煤水车：与机车配套、用于携带燃料和水等物资的车辆。",
+      "en_definition": "A railway vehicle carrying fuel, water, or other supplies for a locomotive.",
+      "ms_definition": "Gerabak kereta api untuk membawa minyak, air, arang dan bekalan lain.",
+      "nuances": "输入资料对应此铁路专门义，主要见于蒸汽机车、铁路史及技术说明；不能将所有货运车厢都称为 tender。DBP 标记 IB，指经印度尼西亚语使用的荷兰语借词。[DBP：tender](https://prpm.dbp.gov.my/Cari1?d=67756&keyword=tender)",
+      "collocations": [
+        {
+          "ms": "tender lokomotif",
+          "zh": "机车煤水车",
+          "en": "locomotive tender"
+        },
+        {
+          "ms": "tender arang batu",
+          "zh": "运载煤炭的煤水车",
+          "en": "coal tender"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为承接工程或供应货物而提出、列明价格或报酬的投标报价；也用于相关招标项目和程序。",
+      "en_definition": "A priced offer to undertake work or supply goods; also a procurement opportunity or tendering process.",
+      "ms_definition": "Tawaran untuk melaksanakan pekerjaan atau membekalkan barang dengan menyatakan harga atau bayaran yang dikehendaki.",
+      "nuances": "这是现代马来西亚职场和新闻中的常见义。须根据语境区分招标邀请、投标报价和整个采购程序；中标并不等同于已完成合同履约。[DBP：tender](https://prpm.dbp.gov.my/Cari1?d=67756&keyword=tender)",
+      "collocations": [
+        {
+          "ms": "tender terbuka",
+          "zh": "公开招标",
+          "en": "open tender"
+        },
+        {
+          "ms": "dokumen tender",
+          "zh": "招标文件",
+          "en": "tender documents"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Syarikat yang berminat hendaklah mengemukakan dokumen tender sebelum tarikh tutup yang ditetapkan.",
+      "zh": "有意参与的公司须在规定截止日期前提交投标文件。",
+      "en": "Interested companies must submit their tender documents before the specified closing date."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dokumen tender tu dah siap ke?",
+      "ms_standard": "Adakah dokumen tender itu sudah siap?",
+      "zh": "那份投标文件做好了吗？",
+      "en": "Are those tender documents ready yet?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "dah 对应 sudah。",
+        "句末 ke 表示疑问，标准语可使用 adakah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dokumen tender tu dah siap ke? Nak hantar petang ni.",
+          "ms_standard": "Adakah dokumen tender itu sudah siap? Kita hendak menghantarnya pada petang ini.",
+          "zh": "那份投标文件做好了吗？我们今天下午要交。",
+          "en": "Are those tender documents ready? We need to submit them this afternoon."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, tinggal semak harga je. Lepas tu kita hantar.",
+          "ms_standard": "Sudah, hanya harga yang masih perlu disemak. Selepas itu, kita akan menghantarnya.",
+          "zh": "做好了，就差核对价格。核对完我们就交。",
+          "en": "Yes, we just need to check the prices. Then we can submit them."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Two borrowing histories meet in this spelling. Kamus Dewan labels the railway sense as an Indonesian Dutch borrowing, preserving vocabulary associated with locomotives and their supplies. The procurement sense belongs to commercial language and is now familiar in Malaysian administration. Context therefore separates a vehicle behind an engine from an offer submitted for a contract. [DBP](https://prpm.dbp.gov.my/Cari1?d=67756&keyword=tender)",
+    "cognitive_memory_aid": "想象两份清单：煤水车 tender 装的是煤和水，投标 tender 列的是工作和价格；靠场景区分同形词。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "tender 本身语气中性。与客户或采购单位沟通时，宜用 mengemukakan tender、dokumen tender 等明确表达。",
+    "usage_etiquette": "商务场景通常理解为招投标；谈铁路时加上 lokomotif 或 arang batu 可消除歧义。正式沟通中应区分参与投标与已经中标。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "tender 本身语气中性。与客户或采购单位沟通时，宜用 mengemukakan tender、dokumen tender 等明确表达。",
+    "usage_etiquette": "商务场景通常理解为招投标；谈铁路时加上 lokomotif 或 arang batu 可消除歧义。正式沟通中应区分参与投标与已经中标。"
+  }
+}

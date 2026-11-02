@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "mengubur",
+    "syllables": null,
+    "ipa": "/mə.ŋu.bur/",
+    "jawi": "قبور",
+    "frequency_rank": 12836,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kubur",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + kubur → mengubur；meN- + kubur + -kan → menguburkan",
+    "pattern_note": "meN- 与词首 k 结合时发生鼻音替代，k 脱落，形成 mengubur。输入未提供音节划分，保留 null；可分析为 me.ngu.bur。headword.jawi 按要求保留输入 قبور，但该拼写属于 kubur，并非完整的 mengubur。",
+    "word_family": [
+      {
+        "word": "menguburkan",
+        "affix": "meN-...-kan",
+        "gloss": "埋葬；使消失"
+      },
+      {
+        "word": "terkubur",
+        "affix": "ter-",
+        "gloss": "被埋葬；湮没"
+      },
+      {
+        "word": "perkuburan",
+        "affix": "per-...-an",
+        "gloss": "墓地"
+      },
+      {
+        "word": "penguburan",
+        "affix": "peN-...-an",
+        "gloss": "埋葬的过程"
+      }
+    ],
+    "root_jawi": "قبور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "埋葬：把遗体或动物尸体放入土穴并覆土。",
+      "en_definition": "To bury a dead person or animal in the ground.",
+      "ms_definition": "Menanam mayat di dalam tanah; menguburkan atau mengebumikan.",
+      "nuances": "mengubur 可按构词理解，在印度尼西亚语中常见；本次查到的 DBP kubur 词条列出的是 menguburkan，未据此确认 mengubur 的独立规范收录。因此，要求标准马来西亚马来语的例句使用 menguburkan。此处马来文释义为对应意义的整理，非 DBP 对 mengubur 的原文。[DBP：kubur](https://prpm.dbp.gov.my/Cari1?d=41812&keyword=kubur)",
+      "collocations": [
+        {
+          "ms": "menguburkan jenazah",
+          "zh": "安葬遗体",
+          "en": "bury the deceased"
+        },
+        {
+          "ms": "menguburkan bangkai kucing",
+          "zh": "掩埋猫的尸体",
+          "en": "bury a dead cat"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "比喻使希望、理想或计划消失，或将往事深埋心底；马来西亚规范表达通常用 menguburkan。",
+      "en_definition": "Figuratively, to extinguish hopes or ambitions, or put a memory firmly behind one.",
+      "ms_definition": "Secara kiasan, menghilangkan atau melenyapkan harapan, cita-cita atau kenangan.",
+      "nuances": "DBP 在 menguburkan 下记录“消除、使消失”的比喻义；这里说明其与输入词形的意义对应，不将两个词形的收录地位等同。[DBP：kubur](https://prpm.dbp.gov.my/Cari1?d=41812&keyword=kubur)",
+      "collocations": [
+        {
+          "ms": "menguburkan harapan",
+          "zh": "使希望破灭",
+          "en": "bury hopes"
+        },
+        {
+          "ms": "menguburkan cita-cita",
+          "zh": "断送理想",
+          "en": "put an end to an ambition"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 救援工作报告",
+      "ms": "Pasukan sukarelawan membantu menguburkan jenazah mangsa selepas proses pengecaman selesai.",
+      "zh": "身份确认程序完成后，志愿队协助安葬遇难者遗体。",
+      "en": "The volunteer team helped bury the victims after identification was completed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈及宠物去世",
+      "ms_spoken": "Aku baru lepas mengubur kucing tu kat belakang rumah.",
+      "ms_standard": "Saya baru selesai menguburkan bangkai kucing itu di belakang rumah.",
+      "zh": "我刚把那只猫埋在屋后了。",
+      "en": "I've just buried the cat behind the house.",
+      "spoken_features": [
+        "aku 为熟人之间使用的第一人称",
+        "baru lepas 表示“刚刚做完”",
+        "tu、kat 分别对应 itu、di",
+        "此处保留输入词形 mengubur；马来西亚标准对应句改用 menguburkan"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah selesai mengubur kucing tu. Sedih betul.",
+          "ms_standard": "Saya sudah selesai menguburkan bangkai kucing itu. Saya berasa sangat sedih.",
+          "zh": "我已经把那只猫埋好了，真的很难过。",
+          "en": "I've buried the cat. I'm really upset."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku faham. Kalau nak teman, aku boleh datang.",
+          "ms_standard": "Saya faham. Jika kamu memerlukan teman, saya boleh datang.",
+          "zh": "我懂。你要是想有人陪，我可以过去。",
+          "en": "I understand. If you want some company, I can come over."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kubur is traced to Arabic qubūr, the plural of qabr, meaning a grave. Malay uses kubur without requiring a plural interpretation and builds its own derivatives around it. This illustrates how a borrowed noun can become part of a productive local word family, including words for burial, being buried, and a cemetery. [Etymology of kubur](https://en.wiktionary.org/wiki/kubur#Malay)",
+    "cognitive_memory_aid": "先记 kubur 是“坟墓”，再想象加 meN- 时 k 被鼻音替代：mengubur 是“埋葬”；马来西亚规范写作用 menguburkan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈到人的遗体时，jenazah 通常比 mayat 更庄重；向丧属表达时可用 urusan pengebumian，语气较委婉。",
+    "usage_etiquette": "丧葬方式因宗教、家庭与个人意愿而异，不要假设所有马来西亚人都实行土葬。bangkai 用于动物尸体，不应用来称呼人的遗体；在人类丧事中使用会极不尊重。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈到人的遗体时，jenazah 通常比 mayat 更庄重；向丧属表达时可用 urusan pengebumian，语气较委婉。",
+    "usage_etiquette": "丧葬方式因宗教、家庭与个人意愿而异，不要假设所有马来西亚人都实行土葬。bangkai 用于动物尸体，不应用来称呼人的遗体；在人类丧事中使用会极不尊重。"
+  }
+}

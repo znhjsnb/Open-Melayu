@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "bawakannya",
+    "syllables": null,
+    "ipa": "/ba.wa.kan.ɲa/",
+    "jawi": null,
+    "frequency_rank": 12916,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bawakan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "bawakan + -nya → bawakannya; bawa + -kan + -nya → bawakannya",
+    "pattern_note": "依数据包保留直接基底 bawakan；更深层词根为 bawa。-kan 是派生后缀，-nya 在此是附着代词，按字段归入 suffix；二者接合时不发生词首鼻音变化。",
+    "word_family": [
+      {
+        "word": "bawa",
+        "affix": null,
+        "gloss": "带；拿；携带"
+      },
+      {
+        "word": "membawakan",
+        "affix": "meN-…-kan",
+        "gloss": "给某人带来；呈献"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把它带来或带去；其中 -nya 指上文提到的人或物，方向由语境决定。",
+      "en_definition": "Bring or take it, him or her, with the referent and direction supplied by context.",
+      "ms_definition": "Membawa orang atau benda yang telah disebut ke tempat yang dimaksudkan, lazimnya dalam ayat perintah.",
+      "nuances": "此处 -nya 表示被带走或带来的人、物；不固定等于“他的”。无 meN- 的形式可用于标准祈使句，陈述句主动形式通常使用 membawakannya。status 表示按标准马来语构词分析处理，不表示已核实存在独立 DBP 词头 bawakannya；本条马来文释义及 IPA 为编辑分析。DBP 可检索到 bawakan 的祈使用例：[PRPM 用法资料](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bawakan)。以下为常见句型示例。",
+      "collocations": [
+        {
+          "ms": "bawakannya ke sini",
+          "zh": "把它带到这里来",
+          "en": "bring it here"
+        },
+        {
+          "ms": "bawakannya ke pejabat",
+          "zh": "把它带到办公室",
+          "en": "take it to the office"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "给他或她带来某物；其中 -nya 指接受物品或服务的人。",
+      "en_definition": "Bring something for him or her, with -nya identifying the beneficiary.",
+      "ms_definition": "Membawa sesuatu untuk orang yang dirujuk oleh -nya.",
+      "nuances": "当后面另有物品名词时，-nya 可表示受益者，例如 bawakannya segelas air 为“给他或她端一杯水”。物品和受益者的关系必须结合整句判断；为避免歧义，可改为 bawa sesuatu untuknya。本义为构词与句法分析，非数据包提供的 DBP 原文释义。",
+      "collocations": [
+        {
+          "ms": "bawakannya segelas air",
+          "zh": "给他或她端一杯水",
+          "en": "bring him or her a glass of water"
+        },
+        {
+          "ms": "bawakannya makanan",
+          "zh": "给他或她带食物",
+          "en": "bring him or her some food"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 会议准备",
+      "ms": "Fail asal itu diperlukan untuk mesyuarat; sila bawakannya ke bilik mesyuarat sebelum pukul sembilan.",
+      "zh": "会议需要那份原始档案，请在九点前把它带到会议室。",
+      "en": "The original file is needed for the meeting; please bring it to the meeting room before nine."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事安排交接",
+      "ms_spoken": "Fail tu dah siap? Tolong bawakannya ke pejabat esok, ya.",
+      "ms_standard": "Adakah fail itu sudah siap? Tolong bawakannya ke pejabat esok.",
+      "zh": "那份档案弄好了吗？明天帮忙带到办公室啊。",
+      "en": "Is that file ready? Please bring it to the office tomorrow, okay?",
+      "spoken_features": [
+        "tu 对应标准语 itu。",
+        "dah 对应标准语 sudah。",
+        "ya 使请求语气较柔和。",
+        "口语也常用 bawa fail tu 或 bawa benda tu，代替较书面的 bawakannya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail tu dah siap? Tolong bawakannya ke pejabat esok, ya.",
+          "ms_standard": "Adakah fail itu sudah siap? Tolong bawakannya ke pejabat esok.",
+          "zh": "那份档案弄好了吗？明天帮忙带到办公室啊。",
+          "en": "Is that file ready? Please bring it to the office tomorrow, okay?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah. Aku bawa esok pagi, jangan risau.",
+          "ms_standard": "Fail itu sudah siap. Saya akan membawanya esok pagi; jangan risau.",
+          "zh": "好了。我明早带过去，放心。",
+          "en": "It's ready. I'll bring it tomorrow morning, don't worry."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bawakannya illustrates how Malay builds meaning around a familiar action rather than borrowing a complete expression. The base bawa supplies carrying or bringing, -kan can introduce a beneficiary, and -nya points back to someone or something already understood. Their combination lets a short instruction express a relationship that English often spells out with several separate words.",
+    "cognitive_memory_aid": "bawa＝带，-kan＝构成带来或给人带的动作，-nya＝上文那个人或东西：把三块拼起来，再看整句确定“带它”还是“给他带”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向同事提出请求可加 tolong；正式指示可用 sila。向长辈或上级请求帮忙时，可用 boleh 加尊称，使语气更委婉。",
+    "usage_etiquette": "使用 -nya 前应让对方清楚知道所指对象。文件、人物或受益者较多时，直接说出名称可避免交接错误；熟人聊天中使用 aku，正式往来通常使用 saya。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向同事提出请求可加 tolong；正式指示可用 sila。向长辈或上级请求帮忙时，可用 boleh 加尊称，使语气更委婉。",
+    "usage_etiquette": "使用 -nya 前应让对方清楚知道所指对象。文件、人物或受益者较多时，直接说出名称可避免交接错误；熟人聊天中使用 aku，正式往来通常使用 saya。"
+  }
+}

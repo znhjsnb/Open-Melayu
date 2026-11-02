@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "ber",
+    "syllables": null,
+    "ipa": "/bər/",
+    "jawi": null,
+    "frequency_rank": 12835,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ber",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + jalan → berjalan；ber- + rasa → berasa；ber- + ajar → belajar",
+    "pattern_note": "这里将输入 ber 解释为规范前缀 ber-，而非独立词根，因此修正输入的 is_root 标记；root_word 保留输入索引形式。遇词首 r 时两个 r 合并，如 berasa；bekerja 中 r 脱落，belajar 使用 bel- 形式。输入未提供音节和爪夷文，相关字段保留 null。",
+    "word_family": [
+      {
+        "word": "berjalan",
+        "affix": "ber-",
+        "gloss": "步行；运行"
+      },
+      {
+        "word": "berbaju",
+        "affix": "ber-",
+        "gloss": "穿着衣服"
+      },
+      {
+        "word": "berasa",
+        "affix": "ber-",
+        "gloss": "感觉"
+      },
+      {
+        "word": "belajar",
+        "affix": "ber-，表面形式 bel-",
+        "gloss": "学习"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "前缀 ber-：加在词基前，通常构成表示进行某种活动或发生某种行为的不及物动词。",
+      "en_definition": "The bound prefix ber-, typically forming intransitive verbs denoting an action or activity.",
+      "ms_definition": "Awalan yang membentuk kata kerja, lazimnya tak transitif, dengan makna melakukan perbuatan atau kegiatan yang terkandung dalam kata dasar.",
+      "nuances": "本条实际词类是“前缀”；particle 仅为给定词类选项中的近似归类，不表示它是可独立使用的语气词。ber- 不能单独替代英语 be，也不直接表示进行时。规范性指前缀 ber-，不指一个独立单词 ber。[DBP：awalan ber-](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=awalan)",
+      "collocations": [
+        {
+          "ms": "berjalan kaki",
+          "zh": "步行",
+          "en": "walk on foot"
+        },
+        {
+          "ms": "berbincang dengan rakan",
+          "zh": "与朋友讨论",
+          "en": "discuss something with a friend"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "前缀 ber-：表示具有、穿戴、使用或以词基所指事物为自身特征。",
+      "en_definition": "The prefix ber- expressing possession, wearing, use, or a characteristic associated with the base.",
+      "ms_definition": "Awalan yang membawa makna mempunyai, memakai atau menggunakan sesuatu yang dinyatakan oleh kata dasar.",
+      "nuances": "具体意义取决于词基：berwang 表示有钱，berbaju 表示穿衣；不能机械地把所有 ber- 派生词都译为“拥有”。[DBP：ber- 的语义功能](https://dev.dbp.my/index.php/jurnalbahasa/ms/article/download/8163/3709/27261)",
+      "collocations": [
+        {
+          "ms": "berbaju kurung",
+          "zh": "穿着马来传统女装",
+          "en": "wear a baju kurung"
+        },
+        {
+          "ms": "berambut panjang",
+          "zh": "留着长发",
+          "en": "have long hair"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "前缀 ber-：与某些数词结合，表示若干人或事物组成一组。",
+      "en_definition": "The prefix ber- forming expressions that denote a group of a specified number.",
+      "ms_definition": "Awalan pada kata bilangan tertentu yang menyatakan kumpulan dengan jumlah anggota tertentu.",
+      "nuances": "berdua、bertiga、berempat 分别表示两人、三人、四人一起；beribu-ribu 等重叠形式则表达数量众多，应整体理解。[DBP：ber- 与数词](https://dev.dbp.my/index.php/jurnalbahasa/ms/article/download/8163/3709/27261)",
+      "collocations": [
+        {
+          "ms": "makan berdua",
+          "zh": "两个人一起吃饭",
+          "en": "eat together as a pair"
+        },
+        {
+          "ms": "datang bertiga",
+          "zh": "三个人一起来",
+          "en": "come as a group of three"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教学报告 / 语言培训",
+      "ms": "Awalan ber- dalam perkataan berjalan membentuk kata kerja tak transitif.",
+      "zh": "berjalan 中的前缀 ber- 构成不及物动词。",
+      "en": "The prefix ber- in berjalan forms an intransitive verb."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论马来语作业",
+      "ms_spoken": "Yang ni kena tambah ber- kat depan jalan, kan?",
+      "ms_standard": "Untuk perkataan ini, kita perlu menambahkan awalan ber- pada kata dasar jalan, bukan?",
+      "zh": "这题要在 jalan 前面加 ber-，对吧？",
+      "en": "For this one, we add ber- to jalan, right?",
+      "spoken_features": [
+        "ni、kat 分别对应 ini、pada",
+        "kena 在这里口语化地表示“需要”",
+        "kan 用于请求确认",
+        "ber- 在对话中作为被讨论的前缀名称出现"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Aku dah tulis ber jalan. Betul ke?",
+          "ms_standard": "Saya sudah menulis ber jalan sebagai dua perkataan. Adakah ejaan itu betul?",
+          "zh": "我写成 ber jalan，分开写了。这样对吗？",
+          "en": "I wrote ber jalan as two words. Is that right?"
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Kena rapatkan jadi berjalan. Ber- tu awalan je.",
+          "ms_standard": "Ejaannya perlu dirapatkan menjadi berjalan kerana ber- ialah awalan.",
+          "zh": "要连起来写成 berjalan。ber- 是前缀嘛。",
+          "en": "Write it together as berjalan. Ber- is a prefix."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ber- belongs to the established Malay system of word formation. A historical grammar preserved by the Max Planck repository already describes ber-, bel-, and be- with examples such as berdiri and belajar. The interest lies in continuity: a small grammatical element links older descriptions of Malay with words that speakers still use every day. [Historical grammar](https://pure.mpg.de/rest/items/item_404525_4/component/file_404524/content)",
+    "cognitive_memory_aid": "把 ber- 想成贴在词前的“活动或状态标签”：jalan 是走，berjalan 是行走；baju 是衣服，berbaju 是穿着衣服。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ber- 本身不表达尊敬或无礼。请求是否礼貌，取决于整句话，例如 Sila beratur 比直接命令 Beratur! 更柔和。",
+    "usage_etiquette": "书写实际派生词时前缀与词基连写，如 berjalan；只有讨论词缀本身时写 ber-。不要把聊天中的词缀省略一概搬入正式报告。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ber- 本身不表达尊敬或无礼。请求是否礼貌，取决于整句话，例如 Sila beratur 比直接命令 Beratur! 更柔和。",
+    "usage_etiquette": "书写实际派生词时前缀与词基连写，如 berjalan；只有讨论词缀本身时写 ber-。不要把聊天中的词缀省略一概搬入正式报告。"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headword": {
+    "word": "tuang",
+    "syllables": "tuang",
+    "ipa": "/tu.aŋ/",
+    "jawi": "تواڠ",
+    "frequency_rank": 12834,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tuang",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tuang → tuang；meN- + tuang → menuang",
+    "pattern_note": "词根不带词缀；加 meN- 时，词首 t 脱落，形成 menuang。输入音节字段保留为 tuang；实际读音中的 u、a 分属两个音节。",
+    "word_family": [
+      {
+        "word": "menuang",
+        "affix": "meN-",
+        "gloss": "倒入；熔炼；浇铸"
+      },
+      {
+        "word": "menuangkan",
+        "affix": "meN-...-kan",
+        "gloss": "把液体倒入容器或模具"
+      },
+      {
+        "word": "tuangan",
+        "affix": "-an",
+        "gloss": "浇铸物；铸件"
+      },
+      {
+        "word": "penuangan",
+        "affix": "peN-...-an",
+        "gloss": "倾倒或浇铸的过程"
+      }
+    ],
+    "root_jawi": "تواڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "倒；倾注：使液体从原容器流入另一容器或指定位置。",
+      "en_definition": "To pour liquid from a container into another container or onto a surface.",
+      "ms_definition": "Mencurahkan atau memasukkan cecair ke dalam bekas atau ke sesuatu tempat.",
+      "nuances": "原形常见于祈使句、口语及 saya tuang 一类受事前置结构；正式主动叙述一般用 menuang 或 menuangkan。这里的马来文释义根据 DBP 对派生词的解释整理。[DBP：tuang](https://prpm.dbp.gov.my/Cari1?d=246792&keyword=tuang)",
+      "collocations": [
+        {
+          "ms": "tuang air ke dalam gelas",
+          "zh": "把水倒进杯子里",
+          "en": "pour water into a glass"
+        },
+        {
+          "ms": "tuang kuah ke atas nasi",
+          "zh": "把汤汁浇在饭上",
+          "en": "pour gravy over rice"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "熔炼：通过加热使金属熔化；规范主动形式为 menuang。",
+      "en_definition": "To melt metal by heating it, especially in a metalworking process.",
+      "ms_definition": "Meleburkan logam dengan memanaskannya.",
+      "nuances": "这是 DBP 在 menuang 下列出的金属加工义，不能套用于融化黄油、冰块等一般情形；现代技术说明也常用 meleburkan。[DBP：tuang](https://prpm.dbp.gov.my/Cari1?d=246792&keyword=tuang)",
+      "collocations": [
+        {
+          "ms": "menuang bijih timah",
+          "zh": "熔炼锡矿石",
+          "en": "smelt tin ore"
+        },
+        {
+          "ms": "menuang logam",
+          "zh": "熔炼金属",
+          "en": "melt metal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "浇铸：将熔融金属注入模具，使其凝固成形。",
+      "en_definition": "To cast an object by pouring molten metal into a mould.",
+      "ms_definition": "Mencetak sesuatu dengan memasukkan leburan logam ke dalam acuan.",
+      "nuances": "强调铸造成形，与仅仅把金属熔化有所区别。besi tuang 是固定材料名称，意为“铸铁”。[DBP：tuang](https://prpm.dbp.gov.my/Cari1?d=246792&keyword=tuang)",
+      "collocations": [
+        {
+          "ms": "tuang logam ke dalam acuan",
+          "zh": "把熔融金属注入模具",
+          "en": "pour molten metal into a mould"
+        },
+        {
+          "ms": "besi tuang",
+          "zh": "铸铁",
+          "en": "cast iron"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "逃课；旷工：未经许可而缺席应到的课程或工作。",
+      "en_definition": "To skip school, classes, or work without permission.",
+      "ms_definition": "Tidak hadir ke sekolah, kelas atau tempat kerja tanpa izin; ponteng.",
+      "nuances": "这是 DBP 标注为口语的另一词义，不表示倾倒；正式报告通常用 ponteng 或 tidak hadir tanpa kebenaran。[DBP：tuang](https://prpm.dbp.gov.my/Cari1?d=246792&keyword=tuang)",
+      "collocations": [
+        {
+          "ms": "tuang kelas",
+          "zh": "逃课",
+          "en": "skip class"
+        },
+        {
+          "ms": "tuang kerja",
+          "zh": "旷工",
+          "en": "skip work"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场培训 / 操作说明",
+      "ms": "Sila tuang cecair itu ke dalam bekas yang disediakan sebelum memulakan ujian.",
+      "zh": "开始测试前，请将该液体倒入备好的容器。",
+      "en": "Please pour the liquid into the container provided before starting the test."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人准备饮料",
+      "ms_spoken": "Tuang sikit je, nanti melimpah pulak.",
+      "ms_standard": "Tuang sedikit sahaja supaya tidak melimpah.",
+      "zh": "倒一点就好，等下溢出来。",
+      "en": "Just pour a little, or it'll overflow.",
+      "spoken_features": [
+        "sikit 是 sedikit 的口语形式",
+        "je 对应 sahaja，表示“就、而已”",
+        "pulak 是 pula 的口语形式，在此加强提醒"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Air dalam jag tu dah siap. Nak aku tuang?",
+          "ms_standard": "Air minuman di dalam jag itu sudah siap. Mahukah kamu saya tuangkan?",
+          "zh": "壶里的饮料弄好了。要我帮你倒吗？",
+          "en": "The drink in the jug is ready. Want me to pour you some?"
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Nak, tuang separuh gelas je, ya.",
+          "ms_standard": "Ya, tolong tuang setengah gelas sahaja.",
+          "zh": "要，帮我倒半杯就好。",
+          "en": "Yes, please. Just half a glass."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The meanings recorded by DBP connect an everyday household movement with metalworking: liquid flows from a vessel, while molten metal flows into a mould and becomes an object. The expression besi tuang preserves that manufacturing image in the name of a familiar material. This is a cultural connection between documented senses, rather than a claim about their chronological development.",
+    "cognitive_memory_aid": "读 tu-ang 时想象水从壶口流下：tuang air 是倒水，besi tuang 是把熔铁倒进模具制成的铸铁。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请别人倒饮料时可用 Tolong tuang… 或 Boleh tuangkan…?；对长辈或客人提供服务时，Boleh saya tuangkan air? 自然有礼。",
+    "usage_etiquette": "用餐时说明倒多少即可。表示逃课、旷工的 tuang 带随意甚至责备语气，不适合直接写进正式考勤报告。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请别人倒饮料时可用 Tolong tuang… 或 Boleh tuangkan…?；对长辈或客人提供服务时，Boleh saya tuangkan air? 自然有礼。",
+    "usage_etiquette": "用餐时说明倒多少即可。表示逃课、旷工的 tuang 带随意甚至责备语气，不适合直接写进正式考勤报告。"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "kamukah",
+    "syllables": null,
+    "ipa": "/ka.mu.kah/",
+    "jawi": "کامو",
+    "frequency_rank": 12822,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kamu",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "kamu + -kah → kamukah",
+    "pattern_note": "-kah 是附着在前词后的疑问强调小品词，并非派生后缀；此处以 suffix 表示其后附位置。词根不变音。音节可分析为 ka.mu.kah；输入未提供音节，故 syllables 保留 null。所给 Jawi 是词根 kamu 的拼写，未包含 -kah。",
+    "word_family": [
+      {
+        "word": "kamu",
+        "affix": null,
+        "gloss": "你；你们"
+      },
+      {
+        "word": "berkamu",
+        "affix": "ber-",
+        "gloss": "以 kamu 称呼对方"
+      }
+    ],
+    "root_jawi": "کامو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "是你吗；用于疑问句中，强调需要确认的人是否为对方。",
+      "en_definition": "You, marked for interrogative focus: is it you who …?",
+      "ms_definition": "Kata ganti nama diri kedua kamu yang menerima partikel -kah untuk menanyakan atau menegaskan sama ada orang yang dimaksudkan ialah orang yang dilawan bercakap.",
+      "nuances": "准确词类是 kata ganti nama diri，即人称代词；受本结构的词类选项限制，归入 noun。重点是确认身份，不只是给任何含 kamu 的句子添加疑问语气。常见于 kamukah yang …，对应陈述结构 yang … ialah kamu。本义项的完整词形释义由 kamu 的词典义和 -kah 的语法功能综合而成，并非 DBP 独立词条的逐字引文。参见 [DBP：kamu](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kamu+) 与 [DBP：疑问强调小品词](https://dewanbahasa.jendeladbp.my/2022/03/16/2777/)。",
+      "collocations": [
+        {
+          "ms": "kamukah yang menelefon",
+          "zh": "打电话来的是你吗",
+          "en": "was it you who called"
+        },
+        {
+          "ms": "kamukah pemiliknya",
+          "zh": "你是它的主人吗",
+          "en": "are you its owner"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "是你们吗；在上下文明确指向多位听者时，询问是否为对方这一群人。",
+      "en_definition": "You collectively, marked for interrogative focus: is it you all who …?",
+      "ms_definition": "Bentuk pertanyaan berpartikel -kah bagi kamu yang merujuk sekumpulan orang yang dilawan bercakap.",
+      "nuances": "kamu 可依语境指一人或多人；-kah 本身不表示人数。所有人这一范围通常由 semua 或 sekalian 明示。这是 kamu 复数用法在疑问结构中的体现。",
+      "collocations": [
+        {
+          "ms": "kamukah semua yang hadir",
+          "zh": "出席的是你们所有人吗",
+          "en": "were all of you the ones who attended"
+        },
+        {
+          "ms": "kamukah yang mewakili kelas",
+          "zh": "代表班级的是你们吗",
+          "en": "are you the ones representing the class"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场培训中的身份确认",
+      "ms": "Dalam sesi latihan itu, penyelia bertanya kepada pelatih, “Kamukah yang menyediakan laporan ini?”",
+      "zh": "在那场培训中，主管问实习生：“这份报告是你准备的吗？”",
+      "en": "During the training session, the supervisor asked the trainee, “Are you the one who prepared this report?”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 教师与学生确认物品放置情况",
+      "ms_spoken": "Kamukah yang letak buku ni kat meja cikgu?",
+      "ms_standard": "Kamukah yang meletakkan buku ini di atas meja cikgu?",
+      "zh": "这本书是你放在老师桌上的吗？",
+      "en": "Were you the one who put this book on my desk?",
+      "spoken_features": [
+        "letak 对应标准语 meletakkan",
+        "ni 对应 ini；kat 对应 di",
+        "保留 kamukah 带有教师询问的语气；熟人闲聊中更常用 Kamu ke yang …"
+      ],
+      "messages": [
+        {
+          "speaker": "Salmah (老师)",
+          "ms_spoken": "Kamukah yang letak buku ni kat meja cikgu?",
+          "ms_standard": "Kamukah yang meletakkan buku ini di atas meja cikgu?",
+          "zh": "这本书是你放在老师桌上的吗？",
+          "en": "Were you the one who put this book on my desk?",
+          "ms_spoken_note": "教师以 cikgu 自称。"
+        },
+        {
+          "speaker": "Amir (学生)",
+          "ms_spoken": "Ya, cikgu. Saya dah letak tadi, dekat tepi komputer.",
+          "ms_standard": "Ya, cikgu. Saya sudah meletakkannya tadi, di sebelah komputer.",
+          "zh": "是的，老师。我刚才已经放好了，就在电脑旁边。",
+          "en": "Yes, teacher. I put it there earlier, beside the computer."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates Malay's productive use of attached particles rather than the creation of a new lexical root. Kamu identifies the addressee, while -kah places that identity under question. In classroom dialogue and literary conversation, the combination can spotlight a person dramatically: the action is already known, and the speaker wants to establish who performed it.",
+    "cognitive_memory_aid": "把 kamu 记成“你”，把 -kah 想成贴在后面的问号：kamu + ? →“是你吗？”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "kamu 常用于教师对学生、成人对儿童或熟悉的人之间。对长辈、客户或上级，通常使用姓名、职衔、tuan 或 puan 更稳妥；-kah 不会自动提升称呼的礼貌程度。",
+    "usage_etiquette": "询问责任归属时，kamukah yang … 配合严厉语气可能像在追责。中性确认可先交代原因，再提出问题。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "kamu 常用于教师对学生、成人对儿童或熟悉的人之间。对长辈、客户或上级，通常使用姓名、职衔、tuan 或 puan 更稳妥；-kah 不会自动提升称呼的礼貌程度。",
+    "usage_etiquette": "询问责任归属时，kamukah yang … 配合严厉语气可能像在追责。中性确认可先交代原因，再提出问题。"
+  }
+}

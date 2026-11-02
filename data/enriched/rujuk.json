@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "rujuk",
+    "syllables": "ru.juk",
+    "ipa": "[ˈru.d͡ʒoʔ]",
+    "jawi": "روجوع",
+    "frequency_rank": 12884,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rujuk",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rujuk → rujuk",
+    "pattern_note": "现代马来语中作为完整词根处理；末尾 k 在所列马来西亚读音中实现为喉塞音 [ʔ]，/u/ 可出现接近 [o] 的音值。",
+    "word_family": [
+      {
+        "word": "merujuk",
+        "affix": "meN-",
+        "gloss": "查阅；参照；恢复婚姻关系"
+      },
+      {
+        "word": "merujukkan",
+        "affix": "meN-...-kan",
+        "gloss": "提交有关方面审议或处理"
+      },
+      {
+        "word": "rujukan",
+        "affix": "-an",
+        "gloss": "参考资料；参考来源"
+      },
+      {
+        "word": "perujukan",
+        "affix": "peN-...-an",
+        "gloss": "查阅、参照或提交处理的行为"
+      }
+    ],
+    "root_jawi": "روجوع"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "在符合伊斯兰婚姻规定的条件下，于可撤销离婚后的待婚期内恢复原婚姻关系。",
+      "en_definition": "To resume a marriage during the waiting period after a revocable Islamic divorce.",
+      "ms_definition": "Kembali kepada hubungan suami isteri dalam tempoh idah selepas perceraian yang membolehkan rujuk, mengikut syarat yang ditetapkan.",
+      "nuances": "词典释义的规范转述。这里不是泛指情侣和好，也不等于所有离婚后重新结婚的情况。具体可否 rujuk 及登记程序须依适用规定确定；马来西亚政府说明将其与 talak raj‘i 后的 idah 联系起来。[DBP：rujuk](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=Rujuk)；[马来西亚政府：Memohon Rujuk](https://www.malaysia.gov.my/my/topics/memohon-rujuk)",
+      "collocations": [
+        {
+          "ms": "rujuk semula",
+          "zh": "恢复原婚姻关系",
+          "en": "resume the marriage"
+        },
+        {
+          "ms": "rujuk dalam tempoh idah",
+          "zh": "在待婚期内恢复婚姻关系",
+          "en": "resume the marriage during the waiting period"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "回到先前的立场、状态或处境。",
+      "en_definition": "To return to a previous position or state.",
+      "ms_definition": "Kembali kepada kedudukan atau pendirian yang asal.",
+      "nuances": "DBP 标为比喻用法。应明确说明返回的立场或状态，以免与婚姻义混淆。一般口语中，kembali 或 balik 往往更直接自然。[DBP：rujuk](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=Rujuk)",
+      "collocations": [
+        {
+          "ms": "rujuk kepada pendirian asal",
+          "zh": "回到原先的立场",
+          "en": "return to the original position"
+        },
+        {
+          "ms": "rujuk kepada kedudukan asal",
+          "zh": "恢复原有状态",
+          "en": "return to the previous state"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "查阅、参照某项资料，或向有关人士查询；常见于指示语和省略前缀的口语。",
+      "en_definition": "To consult or refer to a source or person for information, especially in instructions or informal speech.",
+      "ms_definition": "Melihat sumber atau mendapatkan keterangan daripada pihak tertentu untuk memperoleh maklumat lanjut.",
+      "nuances": "完整主动陈述通常用 merujuk；指示语可用 Sila rujuk lampiran。口语中的 Saya rujuk dulu 对应正式语 Saya akan merujuk terlebih dahulu。涉及“把案件提交某机构”时，须按句法选用 merujukkan 或 dirujuk，不能把所有结构都机械替换为裸词根 rujuk。[DBP：rujuk 词族](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=Rujuk)",
+      "collocations": [
+        {
+          "ms": "rujuk lampiran",
+          "zh": "参阅附件",
+          "en": "refer to the appendix"
+        },
+        {
+          "ms": "rujuk kamus",
+          "zh": "查阅词典",
+          "en": "consult a dictionary"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场通知",
+      "ms": "Sila rujuk lampiran untuk mendapatkan jadual pelaksanaan yang terkini.",
+      "zh": "请参阅附件，了解最新的实施时间表。",
+      "en": "Please refer to the appendix for the latest implementation schedule."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对工作资料",
+      "ms_spoken": "Aku nak rujuk fail lama kat pejabat dulu.",
+      "ms_standard": "Saya mahu merujuk fail lama di pejabat terlebih dahulu.",
+      "zh": "我想先查一下办公室里的旧档案。",
+      "en": "I want to check the old file at the office first.",
+      "spoken_features": [
+        "nak 对应 mahu，kat 对应 di",
+        "口语中省略主动前缀 meN-：rujuk 对应 merujuk",
+        "dulu 对应 terlebih dahulu，表示先进行某个步骤"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku nak rujuk fail lama kat pejabat dulu.",
+          "ms_standard": "Saya mahu merujuk fail lama di pejabat terlebih dahulu.",
+          "zh": "我想先查一下办公室里的旧档案。",
+          "en": "I want to check the old file at the office first."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Boleh, aku dah letak fail tu atas meja kau.",
+          "ms_standard": "Boleh. Saya sudah meletakkan fail itu di atas meja awak.",
+          "zh": "行，我已经把那份档案放你桌上了。",
+          "en": "Sure. I've already put it on your desk."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP marks rujuk as an Arabic borrowing. The idea of returning connects its established meanings: returning to a marital relationship, returning to an earlier position, and, in merujuk, turning to a source for further information. Modern Malaysian readers encounter this family throughout administrative writing, especially in instructions directing them to attachments, earlier correspondence, or reference materials. [DBP](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=Rujuk)",
+    "cognitive_memory_aid": "用“回到”串起词义：回到资料查证，回到原先立场，在特定婚姻语境中回到原婚姻关系。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式通知中用 Sila rujuk… 自然得体。面对长辈、客户或上级，可用 Boleh tuan/puan rujuk…? 提出较委婉的请求。",
+    "usage_etiquette": "资料义在职场十分常见；婚姻义涉及私人关系与宗教法律语境，不宜拿他人的离婚经历开玩笑。单独出现 rujuk semula 时，应根据上下文判断是重新参阅还是恢复婚姻关系。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式通知中用 Sila rujuk… 自然得体。面对长辈、客户或上级，可用 Boleh tuan/puan rujuk…? 提出较委婉的请求。",
+    "usage_etiquette": "资料义在职场十分常见；婚姻义涉及私人关系与宗教法律语境，不宜拿他人的离婚经历开玩笑。单独出现 rujuk semula 时，应根据上下文判断是重新参阅还是恢复婚姻关系。"
+  }
+}
