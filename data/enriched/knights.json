@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "knights",
+    "syllables": null,
+    "ipa": "/naɪts/",
+    "jawi": null,
+    "frequency_rank": 13492,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "knights",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "马来语外语词项处理：∅ + knights → knights；英语内部：knight + -s → knights",
+    "pattern_note": "is_root 与 root_word 沿用输入包，表示该外语形式在马来语层面不作派生分析，并非认定它是英语词根。英语词元为 knight；-s 可标记名词复数，也可标记动词一般现在时第三人称单数。k、gh 不发音，-s 在清辅音 /t/ 后读 /s/，全词一个音节。音节字段保留输入包的 null。",
+    "word_family": [
+      {
+        "word": "knight",
+        "affix": "∅",
+        "gloss": "英语：骑士；授予骑士爵位"
+      },
+      {
+        "word": "knighthood",
+        "affix": "-hood",
+        "gloss": "英语：骑士身份或爵位"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "骑士们，尤指欧洲中世纪具有特定身份、为君主或领主作战的武士。",
+      "en_definition": "Medieval warriors of a recognized military or social rank, typically serving a monarch or lord.",
+      "ms_definition": "Bentuk jamak bahasa Inggeris bagi kesateria, khususnya pahlawan Eropah zaman pertengahan yang berkhidmat kepada raja atau pembesar.",
+      "nuances": "这是英语复数形式，不是普通标准马来语名词。马来语叙述通常使用 kesateria。以下搭配保留英语，供识别外语原文使用。参见 [Oxford：knight](https://www.oxfordlearnersdictionaries.com/definition/english/knight_1)。",
+      "collocations": [
+        {
+          "ms": "medieval knights",
+          "zh": "中世纪骑士",
+          "en": "medieval knights"
+        },
+        {
+          "ms": "knights in armour",
+          "zh": "身披铠甲的骑士",
+          "en": "knights wearing armour"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "获授骑士爵位的男性；在英国授勋制度中，可在姓名前使用 Sir 称号。",
+      "en_definition": "Men awarded a knighthood; in the British honours system, men entitled to use Sir before their names.",
+      "ms_definition": "Lelaki yang dianugerahi darjah kesateria; dalam sistem kehormatan British, penerimanya berhak menggunakan gelaran Sir.",
+      "nuances": "此义指荣誉身份，不表示受封者是军人，也不能直接等同于马来西亚的 Datuk 或 Dato'。以下为英语搭配。参见 [Cambridge：knight](https://dictionary.cambridge.org/us/dictionary/english/knight)。",
+      "collocations": [
+        {
+          "ms": "newly appointed knights",
+          "zh": "新获授骑士爵位的人士",
+          "en": "men newly awarded knighthoods"
+        },
+        {
+          "ms": "knights and dames",
+          "zh": "男性骑士爵位获得者与女性爵位获得者",
+          "en": "male and female recipients of the corresponding honours"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "国际象棋中的马，英语 knight 的复数形式。",
+      "en_definition": "Chess pieces that move two squares along one axis and one along the other, and can jump over intervening pieces.",
+      "ms_definition": "Bentuk jamak bahasa Inggeris bagi buah kuda dalam catur, yang bergerak berbentuk L dan boleh melompati buah lain.",
+      "nuances": "马来语通常称 buah kuda。此义指棋子，不指历史人物。以下为英语搭配。参见 [Cambridge：knight](https://dictionary.cambridge.org/us/dictionary/english/knight)。",
+      "collocations": [
+        {
+          "ms": "two knights",
+          "zh": "两枚马棋子",
+          "en": "two knight pieces"
+        },
+        {
+          "ms": "exchange knights",
+          "zh": "兑马",
+          "en": "exchange knight pieces"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "授予某人骑士爵位；英语动词 knight 的一般现在时第三人称单数形式。",
+      "en_definition": "Confers a knighthood on someone; the third-person singular present form of knight.",
+      "ms_definition": "Menganugerahkan darjah kesateria kepada seseorang; bentuk kata kerja bahasa Inggeris bagi subjek orang ketiga tunggal dalam kala kini.",
+      "nuances": "需根据英语句法与名词复数区别：主语之后、宾语之前的 knights 可为动词。以下为英语动宾组合。动词义参见 [Cambridge：knight](https://dictionary.cambridge.org/us/dictionary/english/knight)。",
+      "collocations": [
+        {
+          "ms": "knights an actor",
+          "zh": "授予一名男演员骑士爵位",
+          "en": "confers a knighthood on an actor"
+        },
+        {
+          "ms": "knights a scientist",
+          "zh": "授予一名科学家骑士爵位",
+          "en": "confers a knighthood on a scientist"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "博物馆新闻 / 外语展签说明",
+      "ms": "Istilah 'knights' pada label pameran itu merujuk kepada kesateria Eropah zaman pertengahan.",
+      "zh": "该展览标签上的“knights”指欧洲中世纪骑士。",
+      "en": "The term 'knights' on the exhibition label refers to medieval European knights."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论国际象棋",
+      "ms_spoken": "Dua 'knights' kau dah kena makan ke?",
+      "ms_standard": "Adakah kedua-dua buah kuda kamu sudah ditawan?",
+      "zh": "你的两匹马都被吃掉了吗？",
+      "en": "Have both your knights been captured?",
+      "spoken_features": [
+        "knights 是嵌入马来语句子的英语棋类词。",
+        "dah 对应 sudah。",
+        "句末 ke 表示口语疑问。",
+        "kena makan 在棋局语境中表示棋子被吃掉。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dua 'knights' kau dah kena makan ke?",
+          "ms_standard": "Adakah kedua-dua buah kuda kamu sudah ditawan?",
+          "zh": "你的两匹马都被吃了啊？",
+          "en": "Have you lost both your knights?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Satu je. Satu lagi kat sebelah raja.",
+          "ms_standard": "Hanya satu. Seekor lagi berada di sebelah raja.",
+          "zh": "就一匹，另一匹还在王旁边。",
+          "en": "Just one. The other one's next to my king."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English knight descends from Old English cniht, whose meanings included a boy or servant. Its later senses reflect military service and the recognized status of a knight. Modern English also uses the word for an honour and a chess piece. Knights adds English grammatical marking; its appearance in Malay text does not establish Malay lexical status. See [Oxford word history](https://www.oxfordlearnersdictionaries.com/definition/english/knight_1).",
+    "cognitive_memory_aid": "knights 与 nights 同音 /naɪts/；想象“夜里的一队骑士”，同时记住末尾 -s。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "英国骑士称号 Sir 通常置于名字或全名前，不能只凭 knights 一词推定任何人的实际头衔。介绍人物时应采用其正式称谓。",
+    "usage_etiquette": "英语原文、展签、作品名称及双语棋类聊天中可保留 knights。正式马来语正文应按义项使用 kesateria、获授爵位的说明或 buah kuda；大写 Knights 还可能属于专名，须另看语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "英国骑士称号 Sir 通常置于名字或全名前，不能只凭 knights 一词推定任何人的实际头衔。介绍人物时应采用其正式称谓。",
+    "usage_etiquette": "英语原文、展签、作品名称及双语棋类聊天中可保留 knights。正式马来语正文应按义项使用 kesateria、获授爵位的说明或 buah kuda；大写 Knights 还可能属于专名，须另看语境。"
+  }
+}

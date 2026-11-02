@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "menghiraukan",
+    "syllables": "meng.hi.rau.kan",
+    "ipa": "/məŋ.hi.rau̯.kan/",
+    "jawi": "مڠهيراوکن",
+    "frequency_rank": 13516,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hiraukan",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + hiraukan → menghiraukan; meN- + hirau + -kan → menghiraukan",
+    "pattern_note": "依资料包保留直接基础词 hiraukan；真正的基础词根是 hirau，完整派生涉及 meN- 和 -kan。meN- 在 h 前实现为 meng- /məŋ/，h 保留，au 通常为双元音。资料包候选 IPA 中的 /ɣ/ 不符合此词标准拼写所示的 /h/，故采用规范读音。",
+    "word_family": [
+      {
+        "word": "hirau",
+        "affix": "∅",
+        "gloss": "在意；关心；理会"
+      },
+      {
+        "word": "hiraukan",
+        "affix": "-kan",
+        "gloss": "理会；留意，常见于祈使或第一、第二人称被动结构"
+      },
+      {
+        "word": "dihiraukan",
+        "affix": "di-…-kan",
+        "gloss": "被理会；受到重视"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "理会；在意；关心；对某人、某事或某种意见给予注意或重视。",
+      "en_definition": "To pay attention to, take notice of, heed, or care about someone or something.",
+      "ms_definition": "Mengambil peduli tentang seseorang atau sesuatu serta memberikan perhatian kepadanya, termasuk mengendahkan nasihat atau teguran.",
+      "nuances": "这是及物动词，可直接接宾语。词本身表示“理会”，不是“忽略”；tidak menghiraukan 才是“不理会”。常见于否定结构，但肯定用法同样成立。与 nasihat 搭配时可译为“重视、听取劝告”，不必然表示已经照办。词义依据 [DBP：menghiraukan](https://prpm.dbp.gov.my/Cari1?d=132444&keyword=menghiraukan)；ms_definition 为整合释义。root_jawi 保留 null，因为资料包没有提供 hiraukan 的爪夷文，不能以整个派生词的拼写冒充。",
+      "collocations": [
+        {
+          "ms": "menghiraukan nasihat",
+          "zh": "重视劝告",
+          "en": "heed advice"
+        },
+        {
+          "ms": "tidak menghiraukan teguran",
+          "zh": "不理会提醒或批评",
+          "en": "disregard an admonition or criticism"
+        },
+        {
+          "ms": "menghiraukan perasaan orang lain",
+          "zh": "顾及他人的感受",
+          "en": "care about other people's feelings"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场调查报告",
+      "ms": "Siasatan mendapati bahawa kontraktor itu tidak menghiraukan teguran bertulis yang telah dikeluarkan oleh pihak pengurusan.",
+      "zh": "调查发现，该承包商没有理会管理方此前发出的书面告诫。",
+      "en": "The investigation found that the contractor had disregarded the written warning issued by management."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈论无人回应的群聊",
+      "ms_spoken": "Dia macam tak menghiraukan mesej aku je.",
+      "ms_standard": "Dia seolah-olah tidak menghiraukan mesej saya.",
+      "zh": "他好像根本没理我的消息。",
+      "en": "It feels like he's ignoring my messages.",
+      "spoken_features": [
+        "tak 对应 tidak。",
+        "macam 在此对应 seolah-olah，表示主观推测。",
+        "句末 je 加强个人感受，不宜逐字译为“只是”。",
+        "随意口语也常省去 meN-，使用 tak hiraukan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah tanya kat kumpulan tu dua kali. Dia macam tak menghiraukan mesej aku je.",
+          "ms_standard": "Saya sudah bertanya dalam kumpulan itu dua kali. Dia seolah-olah tidak menghiraukan mesej saya.",
+          "zh": "我已经在群里问两次了。他好像都没理我的消息。",
+          "en": "I've asked twice in the group. It feels like he's ignoring my messages."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Mungkin dia tengah sibuk kot. Cuba tanya dia sendiri dulu.",
+          "ms_standard": "Mungkin dia sedang sibuk. Cuba bertanya kepadanya secara peribadi dahulu.",
+          "zh": "也许他正在忙吧。先私下问问他。",
+          "en": "Maybe he's busy. Try asking him privately first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menghiraukan is transparently connected to hirau through Malay verbal morphology. Its dictionary meaning centres on attention and concern, yet learners frequently encounter it inside negative expressions. That recurring setting creates a memorable trap: the whole phrase tidak menghiraukan means to disregard, while the verb itself retains the positive meaning of paying attention or caring.",
+    "cognitive_memory_aid": "把 hirau 当作“注意力开关”：menghiraukan 是开着、会理会；前面加 tidak 或 tak，才把开关关掉，变成“不理会”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 awak tidak menghiraukan saya 带有责备意味。需要礼貌追问时，可改为 saya ingin membuat susulan tentang mesej saya，表示跟进此前的信息。",
+    "usage_etiquette": "适合描述是否重视意见、提醒或他人感受。劝朋友不要理会闲言时，口语常说 jangan hiraukan；对上级或长辈不宜用生硬的祈使语气。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 awak tidak menghiraukan saya 带有责备意味。需要礼貌追问时，可改为 saya ingin membuat susulan tentang mesej saya，表示跟进此前的信息。",
+    "usage_etiquette": "适合描述是否重视意见、提醒或他人感受。劝朋友不要理会闲言时，口语常说 jangan hiraukan；对上级或长辈不宜用生硬的祈使语气。"
+  }
+}

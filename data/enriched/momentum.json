@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "momentum",
+    "syllables": null,
+    "ipa": "/mo.men.tum/",
+    "jawi": "مومينتوم",
+    "frequency_rank": 13445,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "momentum",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + momentum → momentum",
+    "pattern_note": "现代马来语将 momentum 作为完整借词使用，不拆分为本土词根和词缀。e 为 /e/，不是 /ə/。输入未提供音节划分，保留 null；DBP 标音为 mo.mén.tum。下列词族项为术语复合词。",
+    "word_family": [
+      {
+        "word": "momentum linear",
+        "affix": "∅（复合词）",
+        "gloss": "线动量"
+      },
+      {
+        "word": "momentum sudut",
+        "affix": "∅（复合词）",
+        "gloss": "角动量"
+      }
+    ],
+    "root_jawi": "مومينتوم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "使活动、发展或进程持续向前的势头、动力。",
+      "en_definition": "The impetus that sustains the progress or development of an activity.",
+      "ms_definition": "Daya yang mendorong pergerakan sesuatu.",
+      "nuances": "常见于新闻、商业、体育及项目进度讨论，强调已经形成并可持续、增强或失去的推进势头。此处是比喻义。义项据 [DBP：momentum](https://prpm.dbp.gov.my/Search?k=momentum)。",
+      "collocations": [
+        {
+          "ms": "mengekalkan momentum",
+          "zh": "保持势头",
+          "en": "maintain momentum"
+        },
+        {
+          "ms": "kehilangan momentum",
+          "zh": "失去势头",
+          "en": "lose momentum"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "动量：经典力学中物体质量与速度的乘积，为矢量。",
+      "en_definition": "In classical mechanics, the vector quantity equal to an object's mass multiplied by its velocity.",
+      "ms_definition": "Hasil darab jisim dengan halaju sesuatu jasad.",
+      "nuances": "物理义通常指线动量，表达式为 p = mv，国际单位为 kg·m/s；不能直接等同于力、能量或速度。DBP 将其单列为物理义项。见 [DBP：momentum](https://prpm.dbp.gov.my/Search?k=momentum)。",
+      "collocations": [
+        {
+          "ms": "prinsip keabadian momentum",
+          "zh": "动量守恒原理",
+          "en": "the principle of conservation of momentum"
+        },
+        {
+          "ms": "jumlah momentum",
+          "zh": "总动量",
+          "en": "total momentum"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan projek akan mengekalkan momentum pelaksanaan melalui pemantauan kemajuan secara berkala.",
+      "zh": "项目团队将通过定期监测进度，保持项目实施的推进势头。",
+      "en": "The project team will maintain implementation momentum by monitoring progress regularly."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kita dah ada momentum ni, sambung sikit lagi jom.",
+      "ms_standard": "Kita sudah mendapat momentum. Marilah kita meneruskan kerja sedikit lagi.",
+      "zh": "咱们已经进入状态了，再接着做一会儿吧。",
+      "en": "We've got some momentum now. Let's keep going a little longer.",
+      "spoken_features": [
+        "dah 相当于 sudah。",
+        "ni 在此突出当前已经形成的状态。",
+        "jom 表示友好的共同提议。",
+        "口语省略了 sambung 后可由上下文确定的工作内容。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kita dah ada momentum ni, sambung sikit lagi jom.",
+          "ms_standard": "Kita sudah mendapat momentum. Marilah kita meneruskan kerja sedikit lagi.",
+          "zh": "咱们已经进入状态了，再接着做一会儿吧。",
+          "en": "We've got some momentum now. Let's keep going a little longer."
+        },
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Jom, tinggal dua slaid je. Lepas tu kita rehat.",
+          "ms_standard": "Marilah. Hanya dua slaid yang masih perlu disiapkan. Selepas itu, kita berehat.",
+          "zh": "来吧，就剩两页幻灯片了。做完咱们就休息。",
+          "en": "Let's do it. There are only two slides left, then we can take a break."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Momentum has a Latin origin connected with movement, as recorded by DBP's word portal. Malay uses the international term both for a measurable physical quantity and for the impetus behind continuing activity. A moving object and a progressing project thus share a useful linguistic image, although only the physical sense denotes mass multiplied by velocity. See [DBP: origin](https://ekamus.dbp.gov.my/Katadetail.aspx?ktid=13051) and [definitions](https://prpm.dbp.gov.my/Search?k=momentum).",
+    "cognitive_memory_aid": "把 momentum 连到英文 movement：物体运动有动量，事情推进有势头；两种意思都围绕持续向前。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适用于正式汇报，也自然出现于同事和朋友的交流。提出 mengekalkan momentum 时，可配合具体工作安排，使表达更清楚。",
+    "usage_etiquette": "日常用法可谈学习、比赛或项目的势头；物理课堂和技术说明中应使用严格的动量概念，并区分 momentum、daya（力）和 tenaga（能量）。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适用于正式汇报，也自然出现于同事和朋友的交流。提出 mengekalkan momentum 时，可配合具体工作安排，使表达更清楚。",
+    "usage_etiquette": "日常用法可谈学习、比赛或项目的势头；物理课堂和技术说明中应使用严格的动量概念，并区分 momentum、daya（力）和 tenaga（能量）。"
+  }
+}

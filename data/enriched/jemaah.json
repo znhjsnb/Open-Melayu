@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "jemaah",
+    "syllables": null,
+    "ipa": "/d͡ʒəˈmaʔah/",
+    "jawi": "جماعه",
+    "frequency_rank": 13489,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "jemaah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + jemaah → jemaah",
+    "pattern_note": "作为完整借词记忆，不拆成马来语词缀。输入音标采用 /ʔ/；DBP 标音保留 /ʕ/。词族中 berjemaah 是派生词，jemaah haji 是词组。",
+    "word_family": [
+      {
+        "word": "berjemaah",
+        "affix": "ber-",
+        "gloss": "共同进行；集体礼拜"
+      },
+      {
+        "word": "jemaah haji",
+        "affix": null,
+        "gloss": "参加正朝的朝觐者群体"
+      }
+    ],
+    "root_jawi": "جماعه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "共同进行宗教礼拜的会众或信众群体。",
+      "en_definition": "A congregation gathered for religious worship.",
+      "ms_definition": "Kumpulan orang beribadat.",
+      "nuances": "马来西亚语境中常指清真寺会众，但词义本身不限于星期五礼拜，也不专指男性。依据 [DBP：jemaah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jemaah)。",
+      "collocations": [
+        {
+          "ms": "jemaah masjid",
+          "zh": "清真寺会众",
+          "en": "the mosque congregation"
+        },
+        {
+          "ms": "para jemaah",
+          "zh": "各位会众",
+          "en": "the worshippers"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "参加朝觐的信众群体，尤其见于 jemaah haji 一词。",
+      "en_definition": "A group of pilgrims, especially those undertaking the Hajj.",
+      "ms_definition": "Dalam frasa jemaah haji, rombongan orang yang pergi menunaikan haji.",
+      "nuances": "这是礼拜群体义在朝觐语境中的具体用法。jemaah 单独出现并不等于“朝觐”；haji 与 umrah 也应根据实际宗教行程区分。",
+      "collocations": [
+        {
+          "ms": "jemaah haji",
+          "zh": "正朝朝觐者群体",
+          "en": "Hajj pilgrims"
+        },
+        {
+          "ms": "jemaah umrah",
+          "zh": "副朝朝觐者群体",
+          "en": "Umrah pilgrims"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "集会的人群；在特定正式名称中指共同履职的成员团体或议事机构。",
+      "en_definition": "An assembly or collective body, including certain formally named councils.",
+      "ms_definition": "Orang ramai atau perjumpaan ramai; dalam nama badan tertentu, kumpulan anggota yang menjalankan tugas bersama.",
+      "nuances": "现代一般人群通常称 orang ramai 或 kumpulan。机构义多保留在固定名称中；Jemaah Menteri 指内阁，而不是泛指任意一群部长。",
+      "collocations": [
+        {
+          "ms": "Jemaah Menteri",
+          "zh": "内阁",
+          "en": "the Cabinet"
+        },
+        {
+          "ms": "Jemaah Pemangku Raja",
+          "zh": "摄政委员会",
+          "en": "the Council of Regency"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan masjid meminta semua jemaah memberikan kerjasama sepanjang kerja penyelenggaraan dijalankan.",
+      "zh": "清真寺管理方请所有会众在维修期间给予配合。",
+      "en": "The mosque management asks all worshippers to cooperate while maintenance work is underway."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Jemaah dah ramai kat masjid, kita jalan sekaranglah.",
+      "ms_standard": "Sudah ramai jemaah di masjid; marilah kita bertolak sekarang.",
+      "zh": "清真寺已经来了很多会众，我们现在出发吧。",
+      "en": "There are already lots of worshippers at the mosque. Let's head off now.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "-lah 在这里使提议更自然",
+        "口语省略部分连接成分，但 jemaah 的拼写不变"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jemaah dah ramai kat masjid ke?",
+          "ms_standard": "Adakah sudah ramai jemaah di masjid?",
+          "zh": "清真寺已经有很多会众了吗？",
+          "en": "Are there lots of worshippers at the mosque already?"
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Dah ramai. Kalau nak dapat tempat, jom gerak sekarang.",
+          "ms_standard": "Sudah ramai. Jika kita hendak mendapatkan tempat, marilah kita bertolak sekarang.",
+          "zh": "已经很多了。想找到位置的话，我们现在就走吧。",
+          "en": "Yes. If we want to get a spot, let's leave now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Jemaah is an Arabic loan associated with gathering and collective worship. Malay preserves that communal meaning in mosque life and pilgrimage groups. Its institutional reach is visible in Jemaah Menteri, the Cabinet: a body acting collectively. These established uses connect religious congregation and public administration through the shared idea of people assembled for a purpose.",
+    "cognitive_memory_aid": "把 je-ma-ah 想成三声招呼，把人召集到一起：jemaah＝聚在一起礼拜或共同履职的一群人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "面向会众的正式通知可使用 para jemaah 或 jemaah yang dihormati，语气庄重自然。",
+    "usage_etiquette": "宗教场景根据实际活动选择 jemaah masjid、jemaah haji 或 jemaah umrah。机构正式名称按规范大写；一般会众用小写 jemaah。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "面向会众的正式通知可使用 para jemaah 或 jemaah yang dihormati，语气庄重自然。",
+    "usage_etiquette": "宗教场景根据实际活动选择 jemaah masjid、jemaah haji 或 jemaah umrah。机构正式名称按规范大写；一般会众用小写 jemaah。"
+  }
+}

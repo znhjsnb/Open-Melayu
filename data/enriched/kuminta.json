@@ -1,0 +1,110 @@
+{
+  "headword": {
+    "word": "kuminta",
+    "syllables": null,
+    "ipa": "/ku.min.ta/",
+    "jawi": null,
+    "frequency_rank": 13534,
+    "status": "official",
+    "verification_note": "这是符合马来语拼写规则的附着形式，不代表已核实存在独立的 DBP 词头。输入包的音节和爪夷文空值予以保留；IPA 为规则推导。ku- 应与后接动词连写。参见 [DBP 代词连写说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau+nya)。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "minta",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku- + minta → kuminta",
+    "pattern_note": "ku- 是 aku 的前附着代词，表示第一人称施事，并非派生词缀；连接时不发生音变。输入包将 kuminta 当作词根，需要纠正。",
+    "word_family": [
+      {
+        "word": "meminta",
+        "affix": "meN-",
+        "gloss": "请求；索取"
+      },
+      {
+        "word": "permintaan",
+        "affix": "per-…-an",
+        "gloss": "请求；需求"
+      },
+      {
+        "word": "diminta",
+        "affix": "di-",
+        "gloss": "被请求；被要求"
+      }
+    ],
+    "root_jawi": "مينتا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "由我请求、索取或要求；常用于以所求事物为中心的第一人称被动结构。",
+      "en_definition": "Requested, asked for, or sought by me; a first-person clitic form of minta.",
+      "ms_definition": "Bentuk minta yang didahului kata ganti nama diri singkat ku-, dengan aku sebagai pelaku permintaan.",
+      "nuances": "例如 bantuan yang kuminta 表示“我所请求的援助”，不自带过去时意义。文学表达中也可相当于 aku minta。这里的马来语释义是依据语法与词根义编写的综合释义，并非 DBP 对 kuminta 的独立引文。词根义参见 [DBP：minta](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=minta)。",
+      "collocations": [
+        {
+          "ms": "bantuan yang kuminta",
+          "zh": "我所请求的援助",
+          "en": "the assistance I requested"
+        },
+        {
+          "ms": "izin yang kuminta",
+          "zh": "我所请求的许可",
+          "en": "the permission I sought"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道中的引述；例句为编写示例",
+      "ms": "Saksi itu menjelaskan, \"Bantuan yang kuminta belum tiba ketika kejadian itu berlaku.\"",
+      "zh": "该证人解释道：“事发时，我所请求的援助尚未抵达。”",
+      "en": "The witness explained, \"The assistance I requested had not arrived when the incident occurred.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉朋友之间的交流",
+      "ms_spoken": "Buku yang kuminta tu dah ada kat rumah kau ke?",
+      "ms_standard": "Adakah buku yang aku minta itu sudah ada di rumah engkau?",
+      "zh": "我要的那本书已经在你家了吗？",
+      "en": "Is the book I asked for at your place already?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "dah 对应 sudah；kat 对应 di。",
+        "句末 ke 用于口语疑问。",
+        "kuminta 比 aku minta 更凝练，在聊天中可能带个人文风。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Buku yang kuminta tu dah ada kat rumah kau ke?",
+          "ms_standard": "Adakah buku yang aku minta itu sudah ada di rumah engkau?",
+          "zh": "我要的那本书已经在你家了吗？",
+          "en": "Is the book I asked for at your place already?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, nanti aku bawakan. Kau tunggu kat kafe je.",
+          "ms_standard": "Sudah. Nanti aku akan membawakannya. Engkau tunggu sahaja di kafe.",
+          "zh": "到了，等下我带过去。你在咖啡馆等就好。",
+          "en": "Yes, it is. I'll bring it over later. Just wait at the café."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay allows shortened personal pronouns to attach directly to neighbouring words. In kuminta, ku- represents aku and identifies the person making the request. The spelling therefore preserves a grammatical relationship inside one written unit. Recognising that relationship connects the form with minta and prevents learners from memorising it as an unrelated root.",
+    "cognitive_memory_aid": "ku = aku（我），minta = 请求：kuminta，就是“我所请求的”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 与 aku 有关，适合亲近关系、文学表达或个人抒情。向长辈、客户或上级提出请求时，通常采用 saya 和礼貌请求句。",
+    "usage_etiquette": "朋友之间可使用；正式公函宜写 dokumen yang saya minta 或更客气的 dokumen yang saya mohon。不要把 ku- 当作敬称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 与 aku 有关，适合亲近关系、文学表达或个人抒情。向长辈、客户或上级提出请求时，通常采用 saya 和礼貌请求句。",
+    "usage_etiquette": "朋友之间可使用；正式公函宜写 dokumen yang saya minta 或更客气的 dokumen yang saya mohon。不要把 ku- 当作敬称。"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "lambert",
+    "syllables": null,
+    "ipa": "/ˈlæm.bət/",
+    "jawi": null,
+    "frequency_rank": 13463,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "lambert",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + lambert → lambert",
+    "pattern_note": "作为以人名命名的国际计量术语整词记忆，不能拆成马来语词缀。所列 IPA 为英式英语读法，非已核实的 DBP 马来语标准读音。",
+    "word_family": [
+      {
+        "word": "millilambert",
+        "affix": "milli-",
+        "gloss": "毫朗伯，千分之一朗伯"
+      },
+      {
+        "word": "foot-lambert",
+        "affix": null,
+        "gloss": "英尺朗伯；英语复合单位名，数值不同于朗伯"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "朗伯：非国际单位制的光亮度单位，1 朗伯等于 1/π 坎德拉每平方厘米，约为 3183.10 坎德拉每平方米。",
+      "en_definition": "A non-SI unit of luminance equal to 1/π candela per square centimetre.",
+      "ms_definition": "Unit luminans bukan SI yang bersamaan dengan 1/π kandela per sentimeter persegi, atau kira-kira 3183.10 kandela per meter persegi.",
+      "nuances": "这里选择小写单位名义项；Lambert 也可为人名，资料包不足以判定原始语料所指。马来语释义为据计量定义撰写的说明，并非 DBP 引文。亮度 luminans 与照度 iluminans 不同，不能将本单位当作 lux。搭配属于专业用语。[NIST：朗伯定义](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication480-16.pdf)",
+      "collocations": [
+        {
+          "ms": "luminans dalam unit lambert",
+          "zh": "以朗伯为单位的亮度",
+          "en": "luminance in lamberts"
+        },
+        {
+          "ms": "penukaran lambert kepada kandela per meter persegi",
+          "zh": "朗伯与坎德拉每平方米的换算",
+          "en": "conversion from lamberts to candelas per square metre"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Nilai luminans dalam unit lambert hendaklah ditukar kepada kandela per meter persegi sebelum dimasukkan ke dalam laporan.",
+      "zh": "以朗伯表示的亮度值应先换算为坎德拉每平方米，再写入报告。",
+      "en": "Luminance values in lamberts should be converted to candelas per square metre before inclusion in the report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bacaan ni dalam lambert ke? Aku nak tukar ke unit SI.",
+      "ms_standard": "Adakah bacaan ini dalam unit lambert? Saya hendak menukarkannya kepada unit SI.",
+      "zh": "这个读数是朗伯吗？我要换成国际单位。",
+      "en": "Is this reading in lamberts? I want to convert it to SI units.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式。",
+        "句末 ke 表示口语疑问。",
+        "nak 是 hendak 的口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (实验室同事)",
+          "ms_spoken": "Data lama ni guna lambert ke?",
+          "ms_standard": "Adakah data lama ini menggunakan unit lambert?",
+          "zh": "这份旧数据用的是朗伯吗？",
+          "en": "Are these old data in lamberts?"
+        },
+        {
+          "speaker": "Hakim (实验室同事)",
+          "ms_spoken": "Ya, aku dah tukar ke kandela per meter persegi. Tengok jadual baru je.",
+          "ms_standard": "Ya, saya sudah menukarkannya kepada kandela per meter persegi. Rujuk jadual baharu sahaja.",
+          "zh": "对，我已经换成坎德拉每平方米了。看新表就行。",
+          "en": "Yes. I've converted them to candelas per square metre. Just use the new table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The unit commemorates Johann Heinrich Lambert, the physicist and philosopher. Merriam-Webster records its English use from 1915. Its name therefore preserves a scientist's surname rather than a Malay word-building pattern. In measurement, lambert belongs to an older system of luminance units; modern SI reporting expresses the same quantity in candelas per square metre. [Merriam-Webster](https://www.merriam-webster.com/dictionary/lambert), [NIST](https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote938.pdf)",
+    "cognitive_memory_aid": "朗伯 lambert：把名字联想到一块发亮的屏幕，记住它测 luminans“亮度”；不是测照度的 lux。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "专业交流中首次使用时说明它是亮度单位，并给出所用单位，便于跨专业读者理解。",
+    "usage_etiquette": "单位名称写作小写 lambert；人名写作 Lambert。资料包没有 Jawi、音节或 DBP 定义，空值予以保留；status 沿用指定数据标签，不表示已核实 DBP 收录。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "专业交流中首次使用时说明它是亮度单位，并给出所用单位，便于跨专业读者理解。",
+    "usage_etiquette": "单位名称写作小写 lambert；人名写作 Lambert。资料包没有 Jawi、音节或 DBP 定义，空值予以保留；status 沿用指定数据标签，不表示已核实 DBP 收录。"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "headword": {
+    "word": "dilalui",
+    "syllables": null,
+    "ipa": "/di.la.lu.i/",
+    "jawi": null,
+    "frequency_rank": 13436,
+    "status": "official",
+    "verification_note": "标准马来语派生被动式。输入未提供官方音节或词形爪夷文，故保留 null；音标为四音节宽式读音。词根已据构词关系修正为 lalu。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lalu",
+    "affix": "di-…-i",
+    "affix_type": "circumfix",
+    "formula": "di- + lalu + -i → dilalui",
+    "pattern_note": "di- 标记被动，-i 保留通过、经过或经历的及物关系；词根不发生辅音交替。此处 circumfix 是对前缀与后缀组合的 schema 归类，不表示二者必须是不可分割的单一词缀。输入把 dilalui 标为词根，现予纠正。",
+    "word_family": [
+      {
+        "word": "melalui",
+        "affix": "meN-…-i",
+        "gloss": "通过；经过；经历"
+      },
+      {
+        "word": "laluan",
+        "affix": "-an",
+        "gloss": "通道；路线"
+      },
+      {
+        "word": "berlalu",
+        "affix": "ber-",
+        "gloss": "离去；流逝"
+      }
+    ],
+    "root_jawi": "لالو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被经过、穿过或通行；以道路、地区或空间为被动句的对象。",
+      "en_definition": "Be passed along, crossed, or travelled through.",
+      "ms_definition": "Bentuk pasif melalui: menjadi jalan, tempat atau kawasan yang ditempuh atau dilintasi oleh seseorang atau sesuatu.",
+      "nuances": "如 Jalan itu dilalui lori 表示卡车经过那条路。di- 是词缀，必须连写；不同于介词 di 的分写。马来语释义为根据词根及主动式编写的被动式说明，并非虚构的独立 DBP 引文。参见 [DBP：lalu](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=lalu)。",
+      "collocations": [
+        {
+          "ms": "jalan yang dilalui",
+          "zh": "所经过的道路",
+          "en": "the road travelled along"
+        },
+        {
+          "ms": "boleh dilalui kenderaan",
+          "zh": "可供车辆通行",
+          "en": "passable by vehicles"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被经历、度过或经受；用于人生阶段、困难、考验或过程。",
+      "en_definition": "Be experienced, lived through, or undergone.",
+      "ms_definition": "Bentuk pasif melalui yang merujuk kepada pengalaman, tempoh, proses atau kesukaran yang ditempuh oleh seseorang.",
+      "nuances": "常见于 pengalaman yang dilalui、cabaran yang dilalui。强调身处其中的经历，不等于困难已经解决。此义为通过空间的意义向经历过程的延伸；释义为编辑转述，词义基础参见 [DBP：melalui](https://prpm.dbp.gov.my/Cari1?d=250764&keyword=melalui)。",
+      "collocations": [
+        {
+          "ms": "pengalaman yang dilalui",
+          "zh": "亲身经历",
+          "en": "experiences lived through"
+        },
+        {
+          "ms": "cabaran yang dilalui",
+          "zh": "所经历的挑战",
+          "en": "challenges faced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被略过、跳过或置之不理；尤其指尚未理解的内容。",
+      "en_definition": "Be passed over or skipped without being addressed.",
+      "ms_definition": "Bentuk pasif melalui yang bermaksud dilangkaui atau dilepaskan tanpa diberi perhatian atau penjelasan.",
+      "nuances": "较依赖语境，现代日常表达也常用 dilangkau。DBP 在 melalui 的释义中举有不要把不理解之处直接略过的用法。参见 [DBP：melalui](https://prpm.dbp.gov.my/Cari1?d=250764&keyword=melalui)。",
+      "collocations": [
+        {
+          "ms": "bahagian yang dilalui begitu sahaja",
+          "zh": "被草草略过的部分",
+          "en": "a section passed over without attention"
+        },
+        {
+          "ms": "jangan dilalui sahaja",
+          "zh": "不要直接略过",
+          "en": "do not simply skip it"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 道路通行公告",
+      "ms": "Jalan tersebut hanya boleh dilalui oleh kenderaan ringan selepas kerja pembaikan selesai.",
+      "zh": "维修工程完成后，该道路仅供轻型车辆通行。",
+      "en": "After the repairs are completed, the road will be open only to light vehicles."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论驾车路线",
+      "ms_spoken": "Jalan kat belakang tu masih boleh dilalui ke?",
+      "ms_standard": "Adakah jalan di belakang itu masih boleh dilalui?",
+      "zh": "后面那条路还能走吗？",
+      "en": "Is that road at the back still passable?",
+      "spoken_features": [
+        "kat → di",
+        "tu → itu",
+        "句末 ke 表示疑问",
+        "dah → sudah"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jalan kat belakang tu masih boleh dilalui ke?",
+          "ms_standard": "Adakah jalan di belakang itu masih boleh dilalui?",
+          "zh": "后面那条路还能走吗？",
+          "en": "Is that road at the back still passable?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, air dah surut. Tapi bawa perlahan je.",
+          "ms_standard": "Boleh, air sudah surut. Tetapi pandulah dengan perlahan.",
+          "zh": "能，水已经退了，不过慢点开。",
+          "en": "Yes, the water has gone down. Just drive slowly."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The Malay base lalu links movement with the passage of time. A road can be crossed, a period can pass, and an experience can be lived through. Dilalui places the route or experience at the centre of a passive sentence. This connection helps explain its natural use in both traffic reports and personal accounts.",
+    "cognitive_memory_aid": "lalu 是“经过”；di- 把镜头转向“被经过的路”，-i 接上所经过或经历的对象：jalan yang dilalui，就是走过的路。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式、中性，适用于新闻、报告和日常说明。谈论他人苦难时，pengalaman yang dilalui 可用于尊重而克制的叙述。",
+    "usage_etiquette": "描述道路通行应说明车辆类型和时间；描述痛苦经历时避免用 mudah dilalui 轻率断言对方很容易熬过去。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式、中性，适用于新闻、报告和日常说明。谈论他人苦难时，pengalaman yang dilalui 可用于尊重而克制的叙述。",
+    "usage_etiquette": "描述道路通行应说明车辆类型和时间；描述痛苦经历时避免用 mudah dilalui 轻率断言对方很容易熬过去。"
+  }
+}

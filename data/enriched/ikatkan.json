@@ -1,0 +1,140 @@
+{
+  "headword": {
+    "word": "ikatkan",
+    "syllables": "i.kat.kan",
+    "ipa": "/i.kat.kan/",
+    "jawi": "ايکتکن",
+    "frequency_rank": 13501,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ikat",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "ikat + -kan → ikatkan",
+    "pattern_note": "后缀 -kan 直接接在 ikat 后，保留词根末尾 t 和后缀起首 k。ikatkan 常见于祈使句及 saya ikatkan 等无 meN- 的结构；一般主动陈述使用 mengikatkan。",
+    "word_family": [
+      {
+        "word": "mengikat",
+        "affix": "meN-",
+        "gloss": "绑；捆；系"
+      },
+      {
+        "word": "mengikatkan",
+        "affix": "meN-…-kan",
+        "gloss": "把某物系在另一物上；替人系好"
+      },
+      {
+        "word": "diikatkan",
+        "affix": "di-…-kan",
+        "gloss": "被系上；被绑在某处"
+      },
+      {
+        "word": "ikatan",
+        "affix": "-an",
+        "gloss": "结；捆束；联系"
+      },
+      {
+        "word": "pengikat",
+        "affix": "peN-",
+        "gloss": "绑扎物；起连接作用的事物"
+      }
+    ],
+    "root_jawi": "ايکت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把某物用绳、带等系在、绑在或拴在另一物体上。",
+      "en_definition": "To tie or fasten something to another object.",
+      "ms_definition": "Mengikat sesuatu pada sesuatu yang lain; menambatkan.",
+      "nuances": "突出被系物与固定位置之间的关系，常用 ikatkan X pada Y。ikatkan 本身不含“请”的意思；礼貌程度取决于 tolong、sila、称呼和语气。释义根据 DBP 对 mengikatkan 的解释改写：[PRPM：mengikatkan](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengikat)。",
+      "collocations": [
+        {
+          "ms": "ikatkan tali pada tiang",
+          "zh": "把绳子系在柱子上",
+          "en": "tie the rope to the post"
+        },
+        {
+          "ms": "ikatkan reben pada bungkusan",
+          "zh": "把丝带系在包裹上",
+          "en": "tie a ribbon around the parcel"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "为某人把物品系好或绑好；受益者可以明说，也可以由语境补足。",
+      "en_definition": "To tie or fasten something for someone.",
+      "ms_definition": "Mengikat sesuatu untuk seseorang.",
+      "nuances": "这是 -kan 在有关句式中的受益用法，与“系在某处”的用法相关。tolong ikatkan tali kasut saya 常可理解为“请帮我系鞋带”；并非每个 -kan 都表达受益者。依据：[PRPM：mengikatkan](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengikat)。",
+      "collocations": [
+        {
+          "ms": "tolong ikatkan tali kasut saya",
+          "zh": "请帮我系鞋带",
+          "en": "please tie my shoelaces for me"
+        },
+        {
+          "ms": "ikatkan rambut adik",
+          "zh": "替弟弟或妹妹扎头发",
+          "en": "tie up a younger sibling's hair"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 活动布置指示",
+      "ms": "Sila ikatkan tali pada tiang yang disediakan sebelum sepanduk dipasang.",
+      "zh": "安装横幅前，请先将绳子系在预设的柱子上。",
+      "en": "Please tie the rope to the designated post before the banner is installed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友协助布置",
+      "ms_spoken": "Tolong ikatkan reben ni kat hadiah tu, ya.",
+      "ms_standard": "Tolong ikatkan reben ini pada hadiah itu.",
+      "zh": "帮我把这条丝带系在那个礼物上吧。",
+      "en": "Could you tie this ribbon around that gift for me?",
+      "spoken_features": [
+        "ni、tu 分别对应 ini、itu",
+        "kat 在此表示附着位置，标准语还原为 pada",
+        "句末 ya 缓和请求语气",
+        "tolong 后使用不带 meN- 的动词形式，适用于请求句"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tolong ikatkan reben ni kat hadiah tu, ya. Aku nak tulis kad dulu.",
+          "ms_standard": "Tolong ikatkan reben ini pada hadiah itu. Saya hendak menulis kad terlebih dahulu.",
+          "zh": "帮我把这条丝带系在那个礼物上吧，我先写卡片。",
+          "en": "Could you tie this ribbon around that gift? I'll write the card first."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, aku ikatkan sekarang. Nak simpul biasa je ke?",
+          "ms_standard": "Boleh, saya ikatkan sekarang. Adakah kamu mahu simpulan biasa sahaja?",
+          "zh": "行，我现在就系。打个普通的结就好吗？",
+          "en": "Sure, I'll do it now. Do you just want a simple knot?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ikatkan is transparently formed from ikat and the Malay suffix -kan. DBP records a wider family linking physical fastening with figurative bonds, including relationships and obligations. The concrete image of tying therefore helps explain the family's semantic reach. This entry makes no claim about a dated invention or an unverified ultimate source of the root. [PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengikat)",
+    "cognitive_memory_aid": "先记 ikat＝绑，再把 -kan 想成动作指向：把东西系上去，或帮别人系好；具体意思看句子。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独说 Ikatkan! 容易显得命令式。向同事或不熟悉的人求助时，可用 Tolong ikatkan… 或 Boleh tolong ikatkan…?；书面操作说明可用 Sila ikatkan…。",
+    "usage_etiquette": "适用于包装、衣饰和布置等具体动作。涉及替别人整理头发或衣物时，应先征得同意，并明确要处理的物品。"
+  },
+  "verification_note": "输入中的 ايکت 是词根 ikat 的 Jawi，不是完整派生词 ikatkan 的拼写。headword.jawi 按 ikat + -kan 补为 ايکتکن，root_jawi 保留 ايکت。音节及 IPA 为补充分析；例句为原创。",
+  "sociolinguistic_register": {
+    "politeness_note": "单独说 Ikatkan! 容易显得命令式。向同事或不熟悉的人求助时，可用 Tolong ikatkan… 或 Boleh tolong ikatkan…?；书面操作说明可用 Sila ikatkan…。",
+    "usage_etiquette": "适用于包装、衣饰和布置等具体动作。涉及替别人整理头发或衣物时，应先征得同意，并明确要处理的物品。"
+  }
+}

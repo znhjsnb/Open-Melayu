@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "lacey",
+    "syllables": null,
+    "ipa": "/ˈleɪ.si/",
+    "jawi": null,
+    "frequency_rank": 13437,
+    "status": "unverified_foreign",
+    "verification_note": "可核实为英语形容词 lacy 的另一拼法；大写 Lacey 也可能是专名。缺少原始例句，不能确定本批语料属于哪一种。音标对应英语形容词；未确认正式马来语词头身份。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "lacey",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + lacey → lacey（作为外语词形整体识别）",
+    "pattern_note": "保留输入的整词归档方式，不作马来语词缀拆分。英语形容词与 lace、lacy 有关；若实际是姓名 Lacey，则按专名整体处理，不能套用形容词构词分析。",
+    "word_family": [
+      {
+        "word": "lace",
+        "affix": "英语零词缀",
+        "gloss": "蕾丝；花边，仅与形容词义相关"
+      },
+      {
+        "word": "lacy",
+        "affix": "英语后缀 -y",
+        "gloss": "蕾丝制的；像蕾丝的，lacey 的另一拼法"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "蕾丝制的、有蕾丝装饰的，或外观呈蕾丝般细密镂空纹样的；英语 lacy 的另一拼法。",
+      "en_definition": "Made of, decorated with, or resembling lace; an alternative spelling of lacy.",
+      "ms_definition": "Kata sifat bahasa Inggeris yang bermaksud diperbuat daripada renda, dihiasi renda atau menyerupai corak renda; ejaan lain bagi lacy.",
+      "nuances": "这是一项英语词义，不应包装为 DBP 的马来语官方释义。马来语按语境用 berenda、daripada renda 或 menyerupai renda。拼写与读音参见 [Collins English Dictionary: lacey](https://www.collinsdictionary.com/dictionary/english/lacey)。",
+      "collocations": [
+        {
+          "ms": "lacey dress（马来语：gaun berenda）",
+          "zh": "蕾丝连衣裙",
+          "en": "a lace dress"
+        },
+        {
+          "ms": "lacey pattern（马来语：corak seperti renda）",
+          "zh": "蕾丝般的镂空纹样",
+          "en": "a lace-like pattern"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "若原文为大写 Lacey，可作为姓名、姓氏或其他专名；具体指称须由上下文确定。",
+      "en_definition": "When capitalized, a proper name whose particular referent must be established from context.",
+      "ms_definition": "Jika ditulis dengan huruf awal besar, Lacey boleh berfungsi sebagai nama khas; orang atau perkara yang dirujuk perlu dikenal pasti daripada konteks.",
+      "nuances": "这是条件性专名识别说明，不是已经确认的原语料义项。不能把名为 Lacey 的人翻译为“蕾丝的”，也不能仅凭词频指定某位人物。下列为姓名出现时的示例框架，并非固定搭配。",
+      "collocations": [
+        {
+          "ms": "bernama Lacey",
+          "zh": "名叫 Lacey",
+          "en": "named Lacey"
+        },
+        {
+          "ms": "mesej daripada Lacey",
+          "zh": "Lacey 发来的消息",
+          "en": "a message from Lacey"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "商品目录 / 翻译审校",
+      "ms": "Dalam katalog ini, perkataan bahasa Inggeris “lacey” diterjemahkan sebagai “berenda” untuk menerangkan reka bentuk gaun tersebut.",
+      "zh": "在这份商品目录中，英语 lacey 译为“带蕾丝的”，用于描述该连衣裙的设计。",
+      "en": "In this catalogue, the English word “lacey” is translated as “berenda” to describe the dress's design."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论衣服",
+      "ms_spoken": "Aku nak gaun yang lacey tu, tapi warna biru.",
+      "ms_standard": "Saya hendak gaun berenda itu, tetapi dalam warna biru.",
+      "zh": "我想要那款蕾丝裙，不过要蓝色的。",
+      "en": "I want that lace dress, but in blue.",
+      "spoken_features": [
+        "英语形容词 lacey 与马来语混用",
+        "aku 为熟人之间的第一人称",
+        "nak → hendak",
+        "tu → itu"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak gaun yang lacey tu, tapi warna biru.",
+          "ms_standard": "Saya hendak gaun berenda itu, tetapi dalam warna biru.",
+          "zh": "我想要那款蕾丝裙，不过要蓝色的。",
+          "en": "I want that lace dress, but in blue."
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Yang biru dah habis. Tinggal yang putih je.",
+          "ms_standard": "Gaun yang berwarna biru sudah habis dijual. Hanya gaun putih yang masih ada.",
+          "zh": "蓝色的卖完了，只剩白色的。",
+          "en": "The blue one's sold out. They've only got white left."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Lacey presents a useful reading distinction between description and naming. Collins records the lowercase adjective as another spelling of lacy, connecting it with lace fabric and lace-like patterns. A capitalized Lacey may instead identify a person or another named entity. Without the original sentence, neither interpretation should be assigned as the token's confirmed meaning.",
+    "cognitive_memory_aid": "lace 是蕾丝，lacey 可形容蕾丝般的样子；看到大写 Lacey，先检查它是不是名字。这个提示用于辨义，不解释姓名来源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论衣物纹样时语义中性；若是人名，尊重本人采用的拼写和读音，不擅自改成 Lacy。",
+    "usage_etiquette": "正式马来语商品说明宜用 berenda 等明确表达。处理姓名时保留 Lacey，不因英语形容词义而意译，也不推断姓名持有者的性别、国籍或身份。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论衣物纹样时语义中性；若是人名，尊重本人采用的拼写和读音，不擅自改成 Lacy。",
+    "usage_etiquette": "正式马来语商品说明宜用 berenda 等明确表达。处理姓名时保留 Lacey，不因英语形容词义而意译，也不推断姓名持有者的性别、国籍或身份。"
+  }
+}
