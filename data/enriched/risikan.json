@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "risikan",
+    "syllables": "ri.si.kan",
+    "ipa": "/ri.si.kan/",
+    "jawi": null,
+    "frequency_rank": 8768,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "risikan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + risikan → risikan；构词分析：risik + -an → risikan",
+    "pattern_note": "is_root 与 root_word 保留输入包的词表标记；实际构词可分析为 risik 加名词后缀 -an。risik 的词尾 k 常读作 [ʔ]，接元音起首的后缀后读作 [k]。",
+    "word_family": [
+      {
+        "word": "merisik",
+        "affix": "meN-",
+        "gloss": "暗中探查；婚前探询"
+      },
+      {
+        "word": "perisik",
+        "affix": "peN-",
+        "gloss": "情报人员；间谍"
+      },
+      {
+        "word": "perisikan",
+        "affix": "peN-...-an",
+        "gloss": "情报工作；侦察活动"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "为查明情况而秘密进行的探查、侦察或调查。",
+      "en_definition": "Discreet or covert investigation undertaken to discover information.",
+      "ms_definition": "Penyelidikan atau penyiasatan secara sulit untuk mengetahui sesuatu perkara.",
+      "nuances": "侧重秘密搜集信息的过程，常见于警务、军事及安全语境；普通公开调查通常用 penyiasatan 或 kajian。DBP 在 risik 词条中将 risikan 列为同义形式。[DBP：risik](https://prpm.dbp.gov.my/Cari1?d=113780&keyword=risik)",
+      "collocations": [
+        {
+          "ms": "menjalankan risikan",
+          "zh": "开展秘密调查",
+          "en": "conduct covert inquiries"
+        },
+        {
+          "ms": "hasil risikan",
+          "zh": "侦察所得；调查结果",
+          "en": "findings from intelligence gathering"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "通过秘密调查或隐蔽渠道取得的情报、线索或消息。",
+      "en_definition": "Information obtained through discreet inquiries or covert investigation.",
+      "ms_definition": "Maklumat atau keterangan yang diperoleh melalui penyiasatan secara rahsia.",
+      "nuances": "侧重搜集到的信息，而非执行任务的人。perisik 指情报人员，risikan 指活动或所得情报；情报仍须核实，不能自动视为已证实的事实。",
+      "collocations": [
+        {
+          "ms": "maklumat risikan",
+          "zh": "情报信息",
+          "en": "intelligence information"
+        },
+        {
+          "ms": "risikan awal",
+          "zh": "初步情报",
+          "en": "preliminary intelligence"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Berdasarkan risikan awal, pihak polis mengenal pasti sebuah gudang yang disyaki digunakan untuk menyimpan barangan curi.",
+      "zh": "警方根据初步情报，锁定了一座涉嫌用于存放赃物的仓库。",
+      "en": "Acting on preliminary intelligence, police identified a warehouse suspected of being used to store stolen goods."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dah buat risikan sikit, kedai tu tutup hari Isnin rupanya.",
+      "ms_standard": "Saya sudah membuat sedikit risikan dan mendapati bahawa kedai itu tutup pada hari Isnin.",
+      "zh": "我打听了一下，原来那家店星期一不开门。",
+      "en": "I did a little digging. Turns out that shop is closed on Mondays.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式",
+        "sikit 对应 sedikit，tu 对应 itu",
+        "省略主语；rupanya 表示新近发现",
+        "把侦察用语用于打听店铺消息，带轻松诙谐语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah buat risikan sikit, kedai tu tutup hari Isnin rupanya.",
+          "ms_standard": "Saya sudah membuat sedikit risikan dan mendapati bahawa kedai itu tutup pada hari Isnin.",
+          "zh": "我打听过了，那家店原来星期一休息。",
+          "en": "I did a little digging. That shop is closed on Mondays."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Oh, patutlah! Kita pergi Selasa je lah.",
+          "ms_standard": "Oh, begitu rupanya! Kita pergi pada hari Selasa sahaja.",
+          "zh": "哦，难怪！那咱们星期二去吧。",
+          "en": "Oh, that explains it! Let's just go on Tuesday."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP connects risikan with risik, a word associated with discovering information discreetly. The same lexical family includes merisik, which can describe preliminary inquiries about a prospective marriage. This offers a memorable cultural connection between confidential investigation and tactful family inquiries, without implying that intelligence work historically originated in marriage customs. [DBP: risik](https://prpm.dbp.gov.my/Cari1?d=113780&keyword=risik)",
+    "cognitive_memory_aid": "把 ri-si-kan 分成三拍，想象“悄悄问、细细查、拿情报”；联系 merisik 的“暗中探询”一起记。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式场合带有警务、军事或保密工作的色彩。朋友间说 buat risikan 可以开玩笑地表示“做了点功课、打听了一下”，语气取决于关系。",
+    "usage_etiquette": "涉及他人私事时，使用这个词容易让对方觉得被监视。普通咨询可用 bertanya 或 mendapatkan maklumat；risikan 也不应与未经核实的流言混为一谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式场合带有警务、军事或保密工作的色彩。朋友间说 buat risikan 可以开玩笑地表示“做了点功课、打听了一下”，语气取决于关系。",
+    "usage_etiquette": "涉及他人私事时，使用这个词容易让对方觉得被监视。普通咨询可用 bertanya 或 mendapatkan maklumat；risikan 也不应与未经核实的流言混为一谈。"
+  }
+}

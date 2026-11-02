@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "memproses",
+    "syllables": "mem.pro.sés",
+    "ipa": "/məm.pro.ses/",
+    "jawi": "ممڤروسيس",
+    "frequency_rank": 8743,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "proses",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + proses → mem- + proses → memproses",
+    "pattern_note": "meN- 在此实现为 mem-；proses 以辅音群 pr- 起首，因此保留 p，不套用单辅音 p 常见的脱落规则。前缀 e 读 /ə/，词末 sés 的 é 读 /e/。音节据词包定义中的 mem.pro.sés 补全。[DBP：Petua Pengimbuhan](https://dewanbahasa.jendeladbp.my/2024/01/01/11474/)",
+    "word_family": [
+      {
+        "word": "proses",
+        "affix": null,
+        "gloss": "过程；程序"
+      },
+      {
+        "word": "pemprosesan",
+        "affix": "peN-...-an",
+        "gloss": "处理；加工"
+      },
+      {
+        "word": "pemproses",
+        "affix": "peN-",
+        "gloss": "处理器；加工设备"
+      },
+      {
+        "word": "diproses",
+        "affix": "di-",
+        "gloss": "被处理；被加工"
+      }
+    ],
+    "root_jawi": "ڤروسيس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "按照既定程序办理或处理申请、文件、交易等事项。",
+      "en_definition": "To deal with an application, document, transaction, or other matter according to an established procedure.",
+      "ms_definition": "Mengambil tindakan tertentu terhadap sesuatu mengikut prosedur yang ditetapkan.",
+      "nuances": "强调按程序执行处理步骤。正在 memproses permohonan 只表示正在办理申请，并不表示已经批准或完成。[DBP：memproses 的程序处理义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prosedur)",
+      "collocations": [
+        {
+          "ms": "memproses permohonan",
+          "zh": "办理申请",
+          "en": "process applications"
+        },
+        {
+          "ms": "memproses pembayaran",
+          "zh": "处理付款",
+          "en": "process payments"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "加工原料，使其成为可用产品或制成品。",
+      "en_definition": "To treat or transform raw materials into usable or finished products.",
+      "ms_definition": "Mengolah bahan mentah menjadi barangan siap.",
+      "nuances": "用于制造业、农业及食品生产，突出材料经过一系列加工步骤；不等同于单纯搬运或包装。[DBP：memproses 的加工义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=prosedur)",
+      "collocations": [
+        {
+          "ms": "memproses bahan mentah",
+          "zh": "加工原料",
+          "en": "process raw materials"
+        },
+        {
+          "ms": "memproses makanan",
+          "zh": "加工食品",
+          "en": "process food"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "依照指定操作对数据或信息进行转换、计算、分析等处理，以获得所需结果。",
+      "en_definition": "To perform operations on data or information to produce a required result.",
+      "ms_definition": "Mengolah data atau maklumat melalui operasi tertentu untuk menghasilkan output yang diperlukan.",
+      "nuances": "计算机与信息技术中的专业用法。此处依据 DBP 的计算机术语释义归纳，不另称为《Kamus Dewan》所列的第三义。不同于仅仅储存或传送数据。[DBP：信息处理术语](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=information)",
+      "collocations": [
+        {
+          "ms": "memproses data",
+          "zh": "处理数据",
+          "en": "process data"
+        },
+        {
+          "ms": "memproses maklumat",
+          "zh": "处理信息",
+          "en": "process information"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Unit pentadbiran sedang memproses semua permohonan yang lengkap mengikut prosedur yang ditetapkan.",
+      "zh": "行政部门正按照既定程序办理所有材料齐全的申请。",
+      "en": "The administration unit is processing all complete applications in accordance with the established procedure."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Sistem tengah memproses bayaran kau lagi, tunggu kejap ya.",
+      "ms_standard": "Sistem masih sedang memproses bayaran kamu. Tunggu sebentar, ya.",
+      "zh": "系统还在处理你的付款，稍等一下哈。",
+      "en": "The system's still processing your payment. Give it a moment.",
+      "spoken_features": [
+        "tengah 在此作进行标记，对应 sedang；句末 lagi 表示仍在继续。",
+        "kau 是熟人之间的非正式第二人称；kejap 对应 sebentar。",
+        "dah 对应 sudah；je 对应 sahaja；ya 用于缓和提醒。",
+        "memproses 作为行政及技术动词，在日常交流中也可以保留完整词形。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Sistem tengah memproses bayaran kau lagi, tunggu kejap ya.",
+          "ms_standard": "Sistem masih sedang memproses bayaran kamu. Tunggu sebentar, ya.",
+          "zh": "系统还在处理你的付款，稍等一下哈。",
+          "en": "The system's still processing your payment. Give it a moment."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Okey, aku tunggu je. Dah siap nanti, bagitahu ya.",
+          "ms_standard": "Baiklah, saya akan menunggu. Beritahu saya apabila proses itu sudah selesai.",
+          "zh": "好，那我等着。处理好了告诉我哈。",
+          "en": "Okay, I'll wait. Let me know when it's done."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP lists proses as an English borrowing. Malay integrates it into its own grammatical system through memproses, pemproses and pemprosesan. The retained pr cluster makes this family especially memorable: the borrowed base remains recognizable even after prefixation. Its uses bring applications, factory materials and computer data under one practical idea: organized operations that produce a result. [DBP: proses word family and English origin](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pemprosesan)",
+    "cognitive_memory_aid": "proses 联想英语 process；前面加主动动词前缀 mem-：memproses＝进行处理。记住 pr 要一起保留。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性、专业用语，适用于政府柜台、银行、办公室与技术交流。向客户说明进度时可搭配 sedang，并交代预计完成时间。",
+    "usage_etiquette": "说明办理状态时，应区分正在处理、处理完毕与已经批准。日常谈一般问题也常用 mengurus 或 menangani；memproses 更适合有明确步骤的办理、加工及信息处理。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性、专业用语，适用于政府柜台、银行、办公室与技术交流。向客户说明进度时可搭配 sedang，并交代预计完成时间。",
+    "usage_etiquette": "说明办理状态时，应区分正在处理、处理完毕与已经批准。日常谈一般问题也常用 mengurus 或 menangani；memproses 更适合有明确步骤的办理、加工及信息处理。"
+  }
+}

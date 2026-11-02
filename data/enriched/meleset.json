@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "meleset",
+    "syllables": "me.le.set",
+    "ipa": "/məleset/",
+    "jawi": "مليسيت",
+    "frequency_rank": 8727,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "meleset",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + meleset → meleset；ke- + meleset + -an → kemelesetan",
+    "pattern_note": "按输入保留 meleset 作为本条词汇基底；这不表示所有同形义项都不可再分析。词典也把部分 meleset 义项列在 leset 下，可分析为 meN- + leset → meleset，l 保留。首音节 e 为 /ə/，后两个 e 为 /e/。",
+    "word_family": [
+      {
+        "word": "kemelesetan",
+        "affix": "ke-…-an",
+        "gloss": "经济衰退；低迷状态"
+      },
+      {
+        "word": "terpeleset",
+        "affix": "ter-，对应相关词干 peleset",
+        "gloss": "滑倒；失足，属于滑移义词群"
+      }
+    ],
+    "root_jawi": "مليسيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "不准确；与事实、预期或目标不符，尤指预测、判断或猜测。",
+      "en_definition": "Inaccurate or wide of the mark, especially of a prediction or judgment.",
+      "ms_definition": "Tidak tepat atau tidak kena pada yang dijangkakan.",
+      "nuances": "这是现代常用义之一；不应因输入只摘到“涂抹”就遗漏。依据 [DBP PRPM：meleset](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meleset)，马来文释义为据义改写。",
+      "collocations": [
+        {
+          "ms": "ramalan meleset",
+          "zh": "预测失准",
+          "en": "an inaccurate prediction"
+        },
+        {
+          "ms": "sangkaan meleset",
+          "zh": "猜测错误",
+          "en": "a mistaken assumption"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "经济或商业活动衰退、低迷，呈现萧条或困顿状态。",
+      "en_definition": "Depressed or declining, especially of economic or business activity.",
+      "ms_definition": "Merosot atau mundur, khususnya tentang kegiatan ekonomi dan perniagaan.",
+      "nuances": "常与 ekonomi、perniagaan、zaman 搭配；名词 kemelesetan 常用于 kemelesetan ekonomi。这里的词义说明不等于以任何单一指标判定技术性衰退。参见 [DBP 词条及经济用例](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=meleset)。",
+      "collocations": [
+        {
+          "ms": "ekonomi meleset",
+          "zh": "经济低迷",
+          "en": "a depressed economy"
+        },
+        {
+          "ms": "zaman meleset",
+          "zh": "经济萧条时期",
+          "en": "a period of economic depression"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "滑离应有的位置；脚步滑脱或失足。",
+      "en_definition": "To slip or slide out of the intended position.",
+      "ms_definition": "Tergelincir atau teralih daripada kedudukan yang sepatutnya.",
+      "nuances": "词典有此义，但日常描述滑倒通常更常用 tergelincir 或 terpeleset。以下为帮助理解的组合，不标作高频。",
+      "collocations": [
+        {
+          "ms": "kaki meleset",
+          "zh": "脚下一滑",
+          "en": "one's foot slips"
+        },
+        {
+          "ms": "hampir meleset",
+          "zh": "差点滑脱",
+          "en": "almost slip"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "涂抹油漆等物质。",
+      "en_definition": "To spread or apply paint or a similar substance.",
+      "ms_definition": "Menyapu cat atau bahan seumpamanya.",
+      "nuances": "这是输入确实包含的独立义项，不能与“不准确”或“经济低迷”混为一义。属于较少见用法；现代通用表达宜用 menyapu cat 或 mengecat。以下为释义性组合，不声称具有高频语料支持。",
+      "collocations": [
+        {
+          "ms": "meleset cat",
+          "zh": "涂抹油漆",
+          "en": "apply paint"
+        },
+        {
+          "ms": "meleset cat pada dinding",
+          "zh": "往墙上涂抹油漆",
+          "en": "spread paint on a wall"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Ramalan jualan syarikat itu meleset kerana permintaan sebenar lebih rendah daripada jangkaan.",
+      "zh": "由于实际需求低于预期，该公司的销售预测出现偏差。",
+      "en": "The company's sales forecast proved inaccurate because actual demand was lower than expected."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku ingat kedai tu buka sampai malam, rupanya tekaan aku meleset lah.",
+      "ms_standard": "Saya menyangka kedai itu dibuka sehingga malam, tetapi ternyata tekaan saya tidak tepat.",
+      "zh": "我还以为那家店开到晚上呢，结果猜错了。",
+      "en": "I thought that shop stayed open until the evening, but I got it wrong.",
+      "spoken_features": [
+        "ingat 在此表示原先以为，并非记住。",
+        "tu 对应 itu。",
+        "lah 表达对判断落空的感叹。",
+        "aku 适用于朋友之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai kat kedai, tapi tutup. Tekaan kita meleset lah.",
+          "ms_standard": "Saya sudah tiba di kedai itu, tetapi kedai itu ditutup. Tekaan kita tidak tepat.",
+          "zh": "我已经到店了，可是没开。我们猜错啦。",
+          "en": "I'm at the shop, but it's closed. We guessed wrong."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Alamak, aku ingat buka lagi. Kita pergi kedai sebelah je.",
+          "ms_standard": "Aduhai, saya menyangka kedai itu masih dibuka. Mari kita pergi ke kedai di sebelah sahaja.",
+          "zh": "哎呀，我还以为开着呢。我们去隔壁那家吧。",
+          "en": "Oh no, I thought it was still open. Let's just go to the shop next door."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records several meanings under the spelling meleset, including inaccurate judgment, economic decline, slipping, and applying paint. Its newspaper index already lists the word in a 1973 title, with explicitly economic titles appearing in the 1980s. These records establish historical usage, not a single origin story linking every meaning. The painting sense must therefore remain distinct. See [DBP newspaper index](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=meleset).",
+    "cognitive_memory_aid": "把 me.le.set 联想成“没对准，滑离线”：预测偏离事实，经济滑向低迷。涂抹义另记，不强行串成同一词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Ramalan awak meleset 可能显得责备。职场反馈可说 Ramalan ini perlu disemak semula，表达“这项预测需要重新检视”。",
+    "usage_etiquette": "用于预测和经济报道时自然、正式。经济低迷义不宜随意套在人身上；涂抹义较少见，面向全国受众时采用 menyapu cat 或 mengecat 更清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Ramalan awak meleset 可能显得责备。职场反馈可说 Ramalan ini perlu disemak semula，表达“这项预测需要重新检视”。",
+    "usage_etiquette": "用于预测和经济报道时自然、正式。经济低迷义不宜随意套在人身上；涂抹义较少见，面向全国受众时采用 menyapu cat 或 mengecat 更清楚。"
+  }
+}

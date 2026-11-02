@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "pemanas",
+    "syllables": "pe.ma.nas",
+    "ipa": "/pəˈma.nas/",
+    "jawi": "ڤمانس",
+    "frequency_rank": 8674,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "panas",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + panas → pemanas",
+    "pattern_note": "peN- 遇词首 p，p 脱落，鼻音实现为 /m/：panas → pemanas。输入将 pemanas 标为词根，但它实际是 panas 的派生词，因此此处更正词根和词根爪夷文。[DBP：panas 及派生词](https://prpmv1.dbp.gov.my/Search.aspx?k=panas)",
+    "word_family": [
+      {
+        "word": "memanaskan",
+        "affix": "meN-...-kan",
+        "gloss": "使变热；加热"
+      },
+      {
+        "word": "pemanasan",
+        "affix": "peN-...-an",
+        "gloss": "加热过程；升温"
+      }
+    ],
+    "root_jawi": "ڤانس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "能使其他事物变热的东西；加热者或加热因素。",
+      "en_definition": "Something that supplies heat or causes something else to become hot.",
+      "ms_definition": "Sesuatu yang memanasi atau memanaskan.",
+      "nuances": "这是较广的功能义，不限于某一种电器。在 alat pemanas 等结构中，pemanas 说明前面名词的用途。",
+      "collocations": [
+        {
+          "ms": "alat pemanas",
+          "zh": "加热装置",
+          "en": "heating apparatus"
+        },
+        {
+          "ms": "kuasa pemanas",
+          "zh": "加热功率",
+          "en": "heating power"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "加热器；用来加热水、空气或其他物质的器具。",
+      "en_definition": "A heater: a device used to heat water, air, or another substance.",
+      "ms_definition": "Alat untuk memanaskan sesuatu.",
+      "nuances": "现代生活中最常见的意义。pemanas air 是热水器；pemanas bilik 是房间取暖器。单说 pemanas 时，具体设备由上下文确定。",
+      "collocations": [
+        {
+          "ms": "pemanas air",
+          "zh": "热水器",
+          "en": "water heater"
+        },
+        {
+          "ms": "pemanas elektrik",
+          "zh": "电加热器",
+          "en": "electric heater"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "脾气暴躁的；容易发怒的；缺乏耐性的。也可名词化指这样的人。",
+      "en_definition": "Quick-tempered; easily angered or impatient; also used of a hot-tempered person.",
+      "ms_definition": "Lekas panas atau marah; pemarah dan tidak penyabar.",
+      "nuances": "由 panas 的“发火”比喻义理解，不能译成“加热器”。现代口语中 pemarah 或 panas baran 通常更直接。此义搭配不如器具义常见，下列为典型描述方式。",
+      "collocations": [
+        {
+          "ms": "pemanas dan pembengis",
+          "zh": "暴躁而凶狠",
+          "en": "hot-tempered and fierce"
+        },
+        {
+          "ms": "seorang yang pemanas",
+          "zh": "一个容易发火的人",
+          "en": "a hot-tempered person"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan akan menggantikan semua pemanas air yang rosak di asrama itu.",
+      "zh": "管理方将更换该宿舍所有损坏的热水器。",
+      "en": "Management will replace all the faulty water heaters in the hostel."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pemanas air kat bilik mandi dah rosak ke?",
+      "ms_standard": "Adakah pemanas air di bilik mandi sudah rosak?",
+      "zh": "浴室的热水器坏了吗？",
+      "en": "Has the bathroom water heater broken down?",
+      "spoken_features": [
+        "kat 对应表示地点的 di",
+        "dah 对应 sudah",
+        "句末 ke 对应标准问句中的 adakah"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Pemanas air kat bilik mandi dah rosak ke? Air sejuk je.",
+          "ms_standard": "Adakah pemanas air di bilik mandi sudah rosak? Airnya sejuk sahaja.",
+          "zh": "浴室的热水器坏了吗？怎么都是冷水。",
+          "en": "Has the bathroom water heater broken down? I'm only getting cold water."
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Haah, dah rosak. Saya dah bagitahu tuan rumah.",
+          "ms_standard": "Ya, pemanas air itu sudah rosak. Saya sudah memberitahu tuan rumah.",
+          "zh": "对，坏了。我已经告诉房东了。",
+          "en": "Yep, it's broken. I've already told the landlord."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pemanas illustrates a productive Malay word-building pattern: panas means hot, while peN- forms a word for something performing a related function. The initial p disappears as the prefix takes its pem- form. The dictionary also preserves a human character sense, quick-tempered, reflecting the familiar metaphor of anger as heat. The equipment and personality meanings therefore remain connected through panas.",
+    "cognitive_memory_aid": "panas 是“热”；peN- 把它变成“使东西变热的器具”：pemanas。用于人时，想到“一点就热起来、容易发火”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈设备时是中性词；用来评价某人脾气时带负面意味，当面说尤其容易冒犯。",
+    "usage_etiquette": "购买、报修或讨论设备时，最好说明 pemanas air、pemanas bilik 等具体种类。正式人事沟通宜描述实际行为，避免直接给人贴上 pemanas 的性格标签。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈设备时是中性词；用来评价某人脾气时带负面意味，当面说尤其容易冒犯。",
+    "usage_etiquette": "购买、报修或讨论设备时，最好说明 pemanas air、pemanas bilik 等具体种类。正式人事沟通宜描述实际行为，避免直接给人贴上 pemanas 的性格标签。"
+  }
+}

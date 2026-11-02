@@ -1,0 +1,179 @@
+{
+  "headword": {
+    "word": "penerangan",
+    "syllables": "pe.ne.ra.ngan",
+    "ipa": "/pə.nə.ra.ŋan/",
+    "jawi": "ڤنرڠن",
+    "frequency_rank": 8723,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penerangan",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + terang + -an → penerangan",
+    "pattern_note": "保留数据包的 root_word 字段；语言学词根实际为 terang。peN- 遇词首 t 时，t 脱落并形成 pen-；加 -an 后构成表示过程、结果或相关事物的名词。",
+    "linguistic_root": "terang",
+    "word_family": [
+      {
+        "word": "terang",
+        "affix": null,
+        "gloss": "明亮；清楚"
+      },
+      {
+        "word": "menerangi",
+        "affix": "meN-...-i",
+        "gloss": "照亮"
+      },
+      {
+        "word": "menerangkan",
+        "affix": "meN-...-kan",
+        "gloss": "解释；说明；使明亮"
+      },
+      {
+        "word": "keterangan",
+        "affix": "ke-...-an",
+        "gloss": "说明；证词；详情"
+      }
+    ],
+    "root_jawi": "ڤنرڠن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对事情、方法、原因等所作的解释或说明，使人理解。",
+      "en_definition": "An explanation or account that makes something clear or understandable.",
+      "ms_definition": "Huraian atau penjelasan yang menjadikan sesuatu perkara jelas dan dapat difahami.",
+      "nuances": "这是学习、工作和日常交流中的常见义。penerangan 强调解释的过程或内容；涉及法庭证词时，通常使用 keterangan。",
+      "collocations": [
+        {
+          "ms": "memberikan penerangan",
+          "zh": "作出说明",
+          "en": "give an explanation"
+        },
+        {
+          "ms": "penerangan terperinci",
+          "zh": "详细说明",
+          "en": "a detailed explanation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "照明；使某个空间或区域获得光线的过程或安排。",
+      "en_definition": "Lighting or illumination provided to a space or area.",
+      "ms_definition": "Perihal atau perbuatan memberikan cahaya kepada sesuatu tempat supaya menjadi terang.",
+      "nuances": "这里指实际光线，不是口头解释。现代马来西亚技术及设施语境也常用 pencahayaan。",
+      "collocations": [
+        {
+          "ms": "penerangan jalan",
+          "zh": "道路照明",
+          "en": "street lighting"
+        },
+        {
+          "ms": "penerangan yang mencukupi",
+          "zh": "充足的照明",
+          "en": "adequate lighting"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "用于照亮环境的灯具、照明器材或设备。",
+      "en_definition": "Equipment or apparatus used to provide light.",
+      "ms_definition": "Alat atau kelengkapan, seperti lampu, yang digunakan untuk menerangi sesuatu tempat.",
+      "nuances": "词典收录此器具义；在实际采购或维修中，lampu、alat penerangan 或 kelengkapan pencahayaan 往往更明确。与“照明过程”一义可能重叠。",
+      "collocations": [
+        {
+          "ms": "alat penerangan",
+          "zh": "照明器具",
+          "en": "lighting equipment"
+        },
+        {
+          "ms": "kelengkapan penerangan",
+          "zh": "照明设备",
+          "en": "lighting apparatus"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "面向公众提供资讯和解释的工作、服务或行政职能。",
+      "en_definition": "Public information work or services that explain matters to the public.",
+      "ms_definition": "Bidang pekerjaan atau perkhidmatan yang memberikan maklumat dan penjelasan kepada orang ramai.",
+      "nuances": "常见于机构、职位和公众沟通工作。中文需依语境译为“新闻”“资讯”“宣导”或“公众说明”；该词本身不必然含有操控舆论的贬义。",
+      "collocations": [
+        {
+          "ms": "pegawai penerangan",
+          "zh": "新闻官；公众资讯官",
+          "en": "information officer"
+        },
+        {
+          "ms": "Jabatan Penerangan",
+          "zh": "新闻局",
+          "en": "Department of Information"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 政策说明会",
+      "ms": "Pegawai itu memberikan penerangan terperinci tentang syarat permohonan bantuan kepada penduduk yang hadir.",
+      "zh": "该官员向到场居民详细说明了援助申请条件。",
+      "en": "The officer gave the residents present a detailed explanation of the requirements for applying for assistance."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论申请步骤",
+      "ms_spoken": "Aku dah baca penerangan tu, tapi bahagian ni tak faham lagi.",
+      "ms_standard": "Aku sudah membaca penerangan itu, tetapi aku masih tidak memahami bahagian ini.",
+      "zh": "那份说明我已经看了，但这一部分还是不懂。",
+      "en": "I've read the explanation, but I still don't understand this part.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "tu、ni 分别对应 itu、ini。",
+        "tak 对应 tidak。",
+        "口语中可省略重复的主语和部分动词前缀。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah baca penerangan tu, tapi tak faham macam mana nak isi borang ni.",
+          "ms_standard": "Aku sudah membaca penerangan itu, tetapi aku tidak memahami cara mengisi borang ini.",
+          "zh": "我看过那份说明了，可还是不懂这张表怎么填。",
+          "en": "I've read the explanation, but I still don't know how to fill in this form."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Bahagian mana? Hantar gambar je, nanti aku terangkan.",
+          "ms_standard": "Bahagian yang mana? Hantarkan sahaja gambarnya, kemudian aku akan menerangkannya.",
+          "zh": "哪一部分？直接发张照片来，我给你讲。",
+          "en": "Which part? Just send me a photo and I'll explain it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penerangan belongs to the family of terang, meaning bright or clear. Its dictionary meanings connect making a place bright with making an idea clear. The same noun also names public information work, where explanations are offered to a wider audience. This gives learners a useful bridge between light, understanding, and civic communication.",
+    "cognitive_memory_aid": "抓住 terang＝亮、清楚：灯把房间照亮，解释把问题讲明；两者都能联想到 penerangan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请人解释时可说 Boleh beri sedikit penerangan?，语气较柔和。面对官员、老师或长辈，可加称谓，例如 Boleh cikgu beri penerangan lanjut?。",
+    "usage_etiquette": "中性说明可用 penerangan；若要求对方为错误或争议作出交代，penjelasan 往往更贴切。正式机构名称应保留其既定拼写和大小写。"
+  },
+  "sources": [
+    "[DBP PRPM：penerangan](https://prpm.dbp.gov.my/cari1?keyword=penerangan)",
+    "[DBP PRPM：terang 及其派生词](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=terang)"
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "请人解释时可说 Boleh beri sedikit penerangan?，语气较柔和。面对官员、老师或长辈，可加称谓，例如 Boleh cikgu beri penerangan lanjut?。",
+    "usage_etiquette": "中性说明可用 penerangan；若要求对方为错误或争议作出交代，penjelasan 往往更贴切。正式机构名称应保留其既定拼写和大小写。"
+  }
+}

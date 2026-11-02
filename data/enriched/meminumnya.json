@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "meminumnya",
+    "syllables": null,
+    "ipa": "/mə.mi.num.ɲa/",
+    "jawi": "ممينوم",
+    "frequency_rank": 8747,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "meminum",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "meminum + -nya → meminumnya；整体构词：meN- + minum + -nya → meminumnya",
+    "pattern_note": "按原包保留 meminum 作为直接基础，更基础的词根是 minum。meN- 在 m 前取 me-，词根 m 保留；-nya 读 /ɲa/，此处为后附代词，按给定字段归入 suffix，并非派生词缀。原包未提供音节字段；常规划分为 me.mi.num.nya。headword.jawi 保留原包 ممينوم，但该写法仅对应 meminum；完整形式应写作 ممينومڽ。",
+    "word_family": [
+      {
+        "word": "minum",
+        "affix": "∅",
+        "gloss": "喝"
+      },
+      {
+        "word": "minuman",
+        "affix": "-an",
+        "gloss": "饮料；饮品"
+      }
+    ],
+    "root_jawi": "ممينوم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "喝它；把上文已经提到的水、饮料或其他液体喝下。",
+      "en_definition": "To drink it, referring to a previously mentioned liquid.",
+      "ms_definition": "Meneguk atau menelan cecair yang telah disebut atau diketahui dalam konteks.",
+      "nuances": "这是 meminum 与后附成分 -nya 的组合，不能由 -nya 推断是谁在喝；主语仍须由句子或上下文确定。本义中的 -nya 回指所喝的液体，不表示“他的饮料”，也不自带完成时。原包中 meminum 的 Id 标记义涉及吸食烟或鸦片，不应当作现代马来西亚日常“喝它”的默认用法；本条马来语释义是针对完整形式的综合释义。[参见 DBP：minum](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=minum)。",
+      "collocations": [
+        {
+          "ms": "sebelum meminumnya",
+          "zh": "在喝它之前",
+          "en": "before drinking it"
+        },
+        {
+          "ms": "meminumnya sedikit demi sedikit",
+          "zh": "一点一点地喝",
+          "en": "drink it a little at a time"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Peserta menuangkan air ke dalam cawan masing-masing sebelum meminumnya.",
+      "zh": "参加者先将水倒入各自的杯中，然后饮用。",
+      "en": "The participants poured water into their own cups before drinking it."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat botol ni tertulis 'Goncang sebelum meminumnya', jadi goncang dulu, ya.",
+      "ms_standard": "Pada botol ini tertulis 'Goncang sebelum meminumnya', jadi goncangkan botol ini terlebih dahulu.",
+      "zh": "瓶子上写着“饮用前摇匀”，所以先摇一下哦。",
+      "en": "The bottle says 'Shake before drinking', so give it a shake first, okay?",
+      "spoken_features": [
+        "kat 和 ni 分别对应 pada 和 ini",
+        "dulu 在此对应 terlebih dahulu",
+        "完整形式 meminumnya 较偏书面语，在口语中引用标签文字很自然",
+        "日常直接说话时，常用 minum air tu 或 minum je，依语境明确或省略宾语"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Aku nak minum jus ni. Kat label tulis 'Goncang sebelum meminumnya'.",
+          "ms_standard": "Saya ingin meminum jus ini. Pada label tertulis 'Goncang sebelum meminumnya'.",
+          "zh": "我想喝这瓶果汁，标签上写着“饮用前摇匀”。",
+          "en": "I'm going to have this juice. The label says 'Shake before drinking'."
+        },
+        {
+          "speaker": "Hafiz (室友)",
+          "ms_spoken": "Ha, goncang dulu. Lepas tu baru tuang dalam gelas.",
+          "ms_standard": "Ya, goncangkan botol itu terlebih dahulu. Selepas itu, tuangkan jus ke dalam gelas.",
+          "zh": "对，先摇一下，再倒进杯子里。",
+          "en": "Yeah, shake it first, then pour it into a glass."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Meminumnya illustrates how a familiar Malay action word can carry a reference back to something already mentioned. Minum supplies the drinking meaning, meminum provides the prefixed verb, and -nya completes the contextual reference. DBP also preserves a separately marked Indonesian use involving smoking, a reminder that dictionary families can contain meanings unsuitable for ordinary contemporary Malaysian conversation. [Source: DBP](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=minum).",
+    "cognitive_memory_aid": "minum＝喝；meminum＝喝这一动作；尾巴 -nya 把意思接回前面那杯东西：喝它。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "meminumnya 本身中性但偏书面。请客人喝饮料时，Silakan minum 或 Jemput minum 更自然；不要把喝饮料的邀请说成生硬的命令。",
+    "usage_etiquette": "适用于叙述、饮品说明和回指已知液体。使用前应确保指代清楚；若桌上有几种饮料，直接说 meminum jus itu 或 minum air ini 更明确。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "meminumnya 本身中性但偏书面。请客人喝饮料时，Silakan minum 或 Jemput minum 更自然；不要把喝饮料的邀请说成生硬的命令。",
+    "usage_etiquette": "适用于叙述、饮品说明和回指已知液体。使用前应确保指代清楚；若桌上有几种饮料，直接说 meminum jus itu 或 minum air ini 更明确。"
+  }
+}

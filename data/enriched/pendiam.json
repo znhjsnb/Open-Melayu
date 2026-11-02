@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "pendiam",
+    "syllables": "pen.diam",
+    "ipa": "/pənˈdiam/",
+    "jawi": "ڤنديام",
+    "frequency_rank": 8716,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "diam",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + diam → pendiam",
+    "pattern_note": "peN- 在 d 前实现为 pen-，词根首辅音 d 保留。词包将 pendiam 标作词根；此处依据实际构词关系校正，DBP 也将它列于 diam 的派生词中。",
+    "word_family": [
+      {
+        "word": "berdiam",
+        "affix": "ber-",
+        "gloss": "保持沉默；不采取行动"
+      },
+      {
+        "word": "mendiamkan",
+        "affix": "meN-…-kan",
+        "gloss": "使安静；对某事不予理会"
+      },
+      {
+        "word": "terdiam",
+        "affix": "ter-",
+        "gloss": "突然不出声；一时语塞"
+      }
+    ],
+    "root_jawi": "ديام",
+    "packet_root": {
+      "root_word": "pendiam",
+      "root_jawi": "ڤنديام",
+      "is_root": true
+    }
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "形容一个人平时不爱说话、言语不多的性格或习惯。",
+      "en_definition": "Habitually quiet and disinclined to talk.",
+      "ms_definition": "Tidak suka bercakap-cakap.",
+      "nuances": "侧重惯常性格，不等于暂时沉默的 diam，也不必然表示害羞、不友善或缺乏自信。可用于 sangat pendiam、lebih pendiam。释义依据 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pendiam)。",
+      "collocations": [
+        {
+          "ms": "agak pendiam",
+          "zh": "比较寡言",
+          "en": "rather quiet"
+        },
+        {
+          "ms": "bersifat pendiam",
+          "zh": "性格寡言",
+          "en": "to have a quiet disposition"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "平时不爱说话的人；寡言的人。",
+      "en_definition": "A person who habitually says little.",
+      "ms_definition": "Orang yang tidak suka bercakap-cakap.",
+      "nuances": "常见于 seorang pendiam，属于对人的称述，与形容词用法共享同一核心意义，不表示生理上不能说话。",
+      "collocations": [
+        {
+          "ms": "seorang pendiam",
+          "zh": "一个寡言的人",
+          "en": "a quiet person"
+        },
+        {
+          "ms": "pendiam tetapi peramah",
+          "zh": "话少却待人友善的人",
+          "en": "a quiet but friendly person"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Walaupun beliau seorang yang pendiam, beliau memberikan pandangan yang bernas dalam mesyuarat tersebut.",
+      "zh": "虽然他平时寡言，但他在那场会议上提出了精辟的意见。",
+      "en": "Although he is a quiet person, he offered insightful views at the meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Amir tu pendiam sikit, tapi bila dah kenal, banyak juga dia borak.",
+      "ms_standard": "Amir agak pendiam, tetapi apabila sudah mengenali seseorang, dia juga banyak berbual.",
+      "zh": "阿米尔话比较少，不过熟了以后也挺能聊的。",
+      "en": "Amir is a bit quiet, but he gets quite chatty once he knows you.",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "dah 对应 sudah",
+        "borak 是随意交谈时常用的词"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Amir ni memang pendiam ke? Kat pejabat dia cakap sikit je.",
+          "ms_standard": "Adakah Amir memang seorang yang pendiam? Di pejabat, dia hanya bercakap sedikit.",
+          "zh": "阿米尔本来就这么寡言吗？他在办公室话很少。",
+          "en": "Is Amir usually this quiet? He barely says anything at the office."
+        },
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Ya, dia memang pendiam. Tapi kalau dah kenal, senang je nak borak dengan dia.",
+          "ms_standard": "Ya, dia memang pendiam. Namun, apabila sudah mengenalinya, mudah sahaja untuk berbual dengannya.",
+          "zh": "对，他本来就话少。不过熟了以后，跟他聊天很容易。",
+          "en": "Yes, he is. But once you get to know him, he is easy to talk to."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pendiam belongs to the Malay word family built around diam, meaning quiet or silent. The prefix turns that state into a habitual personal characteristic. Malay proverbial language also associates quietness with hidden capability: PRPM records air tenang menghanyutkan as describing a quiet person who may possess knowledge and accomplish great things. Source: [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pendiam).",
+    "cognitive_memory_aid": "先记 diam＝安静；pendiam 就是把安静变成了日常性格：平时话不多的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "通常是中性描述，但当面对别人说 Awak pendiam sangat 可能让对方觉得被评价。较体贴的表达是 Dia agak pendiam, tetapi mesra。",
+    "usage_etiquette": "适合描述交往风格。不要仅凭寡言就推断对方傲慢、能力不足或存在心理问题；工作评价宜描述具体沟通行为。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "通常是中性描述，但当面对别人说 Awak pendiam sangat 可能让对方觉得被评价。较体贴的表达是 Dia agak pendiam, tetapi mesra。",
+    "usage_etiquette": "适合描述交往风格。不要仅凭寡言就推断对方傲慢、能力不足或存在心理问题；工作评价宜描述具体沟通行为。"
+  }
+}
