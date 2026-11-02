@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "mengenalimu",
+    "syllables": null,
+    "ipa": "/mə.ŋə.na.li.mu/",
+    "jawi": "مڠنلي",
+    "frequency_rank": 12191,
+    "status": "official",
+    "verification_note": "保留输入包的 syllables 与 jawi；其中 مڠنلي 实际对应 mengenali，未包含 -mu。完整词形可分析为 mengenali + -mu；据此组合的爪夷文为 مڠنليمو。此处 official 指规范构词形式，不表示 DBP 将其单独立目。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mengenali",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "mengenali + -mu → mengenalimu；底层构词：meN- + kenal + -i → mengenali",
+    "pattern_note": "按输入包保留直接基础词 mengenali，最终词根为 kenal。meN- 接 kenal 时发生鼻音替代，词首 /k/ 脱落并出现 /ŋ/；-mu 是表示第二人称宾语的附着代词，须连写，并非派生后缀。[DBP：附着代词 mu 的拼写](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mu)",
+    "word_family": [
+      {
+        "word": "mengenali",
+        "affix": "meN-…-i",
+        "gloss": "认识；了解"
+      },
+      {
+        "word": "berkenalan",
+        "affix": "ber-…-an",
+        "gloss": "结识；互相认识"
+      },
+      {
+        "word": "pengenalan",
+        "affix": "peN-…-an",
+        "gloss": "介绍；识别"
+      }
+    ],
+    "root_jawi": "مڠنلي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "认识你；与你相识，或逐渐了解你的为人。",
+      "en_definition": "To know you personally or become acquainted with you.",
+      "ms_definition": "Kenal akan kamu atau mengetahui diri kamu melalui perkenalan dan pergaulan.",
+      "nuances": "动作主体由句子决定，词形本身不表示“我”。-mu 指受话者，带熟悉、亲近或文学色彩；不必然表达爱情。释义据 mengenali 的“认识”义结合 -mu 推导。[DBP：mengenali](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengenali)",
+      "collocations": [
+        {
+          "ms": "ingin mengenalimu",
+          "zh": "想认识你",
+          "en": "want to get to know you"
+        },
+        {
+          "ms": "mengenalimu dengan lebih dekat",
+          "zh": "更深入地了解你",
+          "en": "get to know you better"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "认出你；凭外貌、声音或其他特征辨认出你。",
+      "en_definition": "To recognize you by your appearance, voice, or other identifying features.",
+      "ms_definition": "Mengetahui bahawa seseorang itu ialah kamu berdasarkan rupa, suara atau tanda pengenal yang lain.",
+      "nuances": "表示辨认身份时，通常具有既往印象或识别依据；mengecammu 可更明确地突出“认出”。此义根据 mengenali 的特征认知义及其近义词 mengenal 推导。[DBP：mengenal](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mengenal)",
+      "collocations": [
+        {
+          "ms": "mengenalimu melalui suaramu",
+          "zh": "通过你的声音认出你",
+          "en": "recognize you by your voice"
+        },
+        {
+          "ms": "masih mengenalimu",
+          "zh": "仍然认得你",
+          "en": "still recognize you"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场表彰 / 导师对年轻同事的致辞；保留亲近的第二人称",
+      "ms": "Sepanjang kita bekerjasama, saya mengenalimu sebagai seorang yang tekun dan amanah.",
+      "zh": "在共事期间，我认识到你是一个勤勉而可靠的人。",
+      "en": "Throughout our work together, I have come to know you as a diligent and trustworthy person."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间略带抒情色彩的交流",
+      "ms_spoken": "Aku rasa aku dah mengenalimu dengan lebih baik sekarang.",
+      "ms_standard": "Saya berasa bahawa saya sudah mengenali kamu dengan lebih baik sekarang.",
+      "zh": "我觉得我现在更了解你了。",
+      "en": "I feel like I know you better now.",
+      "spoken_features": [
+        "aku：熟人间的第一人称代词",
+        "dah 对应 sudah；nak 对应 mahu",
+        "ni 对应 ini；je 对应 sahaja",
+        "mengenalimu 比普通聊天中的 kenal kau 或 kenal awak 更具书面和抒情色彩"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku rasa aku dah mengenalimu dengan lebih baik sejak kita buat projek ni.",
+          "ms_standard": "Saya berasa bahawa saya sudah mengenali kamu dengan lebih baik sejak kita menjalankan projek ini.",
+          "zh": "我觉得从一起做这个项目开始，我就更了解你了。",
+          "en": "I feel like I've gotten to know you better since we started this project."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku pun rasa macam tu. Lepas ni kalau nak tanya apa-apa, tanya je.",
+          "ms_standard": "Saya juga berasa begitu. Selepas ini, jika kamu mahu bertanya apa-apa, tanyalah.",
+          "zh": "我也这么觉得。以后有什么想问的，直接问就行。",
+          "en": "I feel the same. If there's anything you want to ask me, just ask."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mengenalimu illustrates how Malay builds a personal expression from ordinary grammatical parts. Kenal supplies recognition or acquaintance, mengenali develops the verbal meaning, and the attached pronoun mu directs it toward the listener. This compact construction helps explain its intimate literary tone: a complete relationship between knowing and being addressed is carried within one written word.",
+    "cognitive_memory_aid": "kenal 是“认识”，mengenali 是“认识、了解”，再接 -mu“你”：mengenalimu＝认识你。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 适合熟人、文学表达或关系亲近的交流；面对长辈、客户或上级，通常改用 mengenali tuan、mengenali puan 或对方称谓。",
+    "usage_etiquette": "普通公文较少直接使用 mengenalimu；日常聊天更常采用 kenal awak 或 kenal kau，具体取决于关系。宗教文本中指称上帝的 -Mu 通常大写并以连字符连接，应与此处的小写人称用法区分。[DBP：mu 的书写规则](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mu)"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 适合熟人、文学表达或关系亲近的交流；面对长辈、客户或上级，通常改用 mengenali tuan、mengenali puan 或对方称谓。",
+    "usage_etiquette": "普通公文较少直接使用 mengenalimu；日常聊天更常采用 kenal awak 或 kenal kau，具体取决于关系。宗教文本中指称上帝的 -Mu 通常大写并以连字符连接，应与此处的小写人称用法区分。[DBP：mu 的书写规则](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mu)"
+  }
+}

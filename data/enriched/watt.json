@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "watt",
+    "syllables": "wat",
+    "ipa": "/wat/",
+    "jawi": "وات",
+    "frequency_rank": 12259,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "watt",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + watt → watt",
+    "pattern_note": "整词借入，作为独立词素记忆；拼写中的 tt 不表示双辅音，马来语读作单音节 /wat/。",
+    "word_family": [
+      {
+        "word": "kilowatt",
+        "affix": "kilo-（国际单位前缀）",
+        "gloss": "千瓦；一千瓦特"
+      },
+      {
+        "word": "megawatt",
+        "affix": "mega-（国际单位前缀）",
+        "gloss": "兆瓦；一百万瓦特"
+      }
+    ],
+    "root_jawi": "وات"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "瓦特，简称瓦；国际单位制的功率单位，符号为 W，等于每秒一焦耳，常用于表示电器的功率。",
+      "en_definition": "The SI unit of power, symbol W, equal to one joule per second.",
+      "ms_definition": "(Fiz) unit ukuran kuasa elektrik.",
+      "nuances": "马来语定义沿用输入中的《Kamus Dewan》释义。科学上 watt 也适用于机械、热及其他形式的功率；它表示能量传递或转换的速率。watt-jam 和 kilowatt-jam 则表示能量。参见 [DBP 词条](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=watt)及 [BIPM 功率单位定义](https://www.bipm.org/en/committees/ci/cipm/41-1946/resolution-2)。",
+      "collocations": [
+        {
+          "ms": "mentol 10 watt",
+          "zh": "10瓦灯泡",
+          "en": "a 10-watt light bulb"
+        },
+        {
+          "ms": "kuasa dalam watt",
+          "zh": "以瓦特表示的功率",
+          "en": "power expressed in watts"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua mentol di pejabat telah diganti dengan mentol LED berkuasa 10 watt.",
+      "zh": "办公室内的所有灯泡均已更换为功率为10瓦的LED灯泡。",
+      "en": "All light bulbs in the office have been replaced with 10-watt LED bulbs."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Lampu ni berapa watt? Aku nak beli untuk meja belajar.",
+      "ms_standard": "Lampu ini berapa watt? Saya mahu membelinya untuk meja belajar.",
+      "zh": "这盏灯多少瓦？我想买来放书桌上。",
+      "en": "How many watts is this lamp? I want to get it for my study desk.",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略形式。",
+        "nak 对应 hendak 或 mahu。",
+        "je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Lampu ni berapa watt? Aku nak beli untuk meja belajar.",
+          "ms_standard": "Lampu ini berapa watt? Saya mahu membelinya untuk meja belajar.",
+          "zh": "这盏灯多少瓦？我想买来放书桌上。",
+          "en": "How many watts is this lamp? I want to get it for my study desk."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "10 watt je. Aku dah tengok label dia.",
+          "ms_standard": "Kuasa lampu ini hanya 10 watt. Saya sudah melihat labelnya.",
+          "zh": "才10瓦，我看过标签了。",
+          "en": "Just 10 watts. I've checked the label."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The unit name commemorates James Watt, whose engineering work is associated with the development of steam power. Its everyday Malaysian setting is often an appliance label, but the scientific idea extends beyond electricity: a watt measures how quickly energy is transferred or converted. One watt corresponds to one joule per second. See [Cambridge University Press](https://assets.cambridge.org/97811070/31074/excerpt/9781107031074_excerpt.pdf) and [BIPM](https://www.bipm.org/en/committees/ci/cipm/41-1946/resolution-2).",
+    "cognitive_memory_aid": "watt /wat/ 对应“瓦特”：记住 1 W = 1 J/s，就是每秒传递一焦耳能量的功率。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的技术名词，适用于购物、课堂和工作场合；询问店员可说 Berapa watt lampu ini?",
+    "usage_etiquette": "单位全称写作小写 watt，符号写作大写 W，数字与符号之间留空格，如 10 W。讨论电费时应区分功率 W 与用电量 kWh。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的技术名词，适用于购物、课堂和工作场合；询问店员可说 Berapa watt lampu ini?",
+    "usage_etiquette": "单位全称写作小写 watt，符号写作大写 W，数字与符号之间留空格，如 10 W。讨论电费时应区分功率 W 与用电量 kWh。"
+  }
+}

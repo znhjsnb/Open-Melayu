@@ -1,0 +1,165 @@
+{
+  "headword": {
+    "word": "eggs",
+    "syllables": null,
+    "ipa": "/eɡz/",
+    "jawi": null,
+    "frequency_rank": 12280,
+    "status": "unverified",
+    "verification_note": "这是英语形式，不能标为马来语官方词。常见名词用法是 egg 的复数，马来语对应 telur。数据包的 is_root=true 与英语形态分析不符，以下据实际构词更正；爪夷文和音节缺值保留。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "egg",
+    "affix": "-s",
+    "affix_type": "suffix",
+    "formula": "egg + -s → eggs",
+    "pattern_note": "这是英语屈折变化：名词中 -s 表示复数；动词中可表示一般现在时第三人称单数。浊辅音 /ɡ/ 后的 -s 读 /z/，不增加音节。名词 egg 与表示怂恿的动词 egg 是不同词源的同形词。",
+    "word_family": [
+      {
+        "word": "egg",
+        "affix": null,
+        "gloss": "英语名词单数：蛋"
+      },
+      {
+        "word": "eggless",
+        "affix": "-less",
+        "gloss": "英语形容词：不含蛋的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "蛋；卵。英语 egg 的复数，指鸟类、爬行动物等产下的卵，也常指供食用的禽蛋。",
+      "en_definition": "The plural of egg: reproductive bodies laid by birds and various other animals, especially birds' eggs used as food.",
+      "ms_definition": "Bentuk jamak bahasa Inggeris bagi egg, yang merujuk kepada telur haiwan, khususnya telur unggas yang dimakan.",
+      "nuances": "英语形式，不是马来语复数构词。马来语通常用 telur；有数量词时可说 dua biji telur，不添加 -s。以下搭配给出马来语对应表达。释义为编写释义，英语词义参见 [Cambridge](https://dictionary.cambridge.org/us/dictionary/english/egg?topic=animal-reproduction)。",
+      "collocations": [
+        {
+          "ms": "telur rebus",
+          "zh": "水煮蛋",
+          "en": "boiled eggs"
+        },
+        {
+          "ms": "telur hancur",
+          "zh": "炒散的鸡蛋",
+          "en": "scrambled eggs"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "卵细胞；卵子。英语 egg 的复数，指雌性生殖细胞。",
+      "en_definition": "Female reproductive cells; ova.",
+      "ms_definition": "Sel pembiakan betina, iaitu ovum; dalam konteks ini eggs ialah bentuk jamak bahasa Inggeris.",
+      "nuances": "生物学语境的细胞义，不一定指带壳的蛋。马来语可依对象使用 ovum 或 sel telur。英语词义参见 [Cambridge](https://dictionary.cambridge.org/us/dictionary/english/egg?topic=animal-reproduction)。",
+      "collocations": [
+        {
+          "ms": "ovum matang",
+          "zh": "成熟卵子",
+          "en": "mature eggs"
+        },
+        {
+          "ms": "ovum yang disenyawakan",
+          "zh": "受精卵",
+          "en": "fertilized eggs"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "向……投掷鸡蛋。英语动词 egg 的一般现在时第三人称单数形式。",
+      "en_definition": "Throws eggs at someone or something; the third-person singular present form of egg.",
+      "ms_definition": "Melontarkan telur ke arah seseorang atau sesuatu; bentuk kata kerja bahasa Inggeris bagi subjek orang ketiga tunggal dalam kala kini.",
+      "nuances": "这是英语动词用法，不能解释为马来语词缀变化。是否为此义须看宾语与句子结构。英语词义参见 [Cambridge](https://dictionary.cambridge.org/us/dictionary/english/egg?topic=animal-reproduction)。",
+      "collocations": [
+        {
+          "ms": "melontarkan telur ke arah rumah",
+          "zh": "朝房屋扔鸡蛋",
+          "en": "eggs a house"
+        },
+        {
+          "ms": "melontarkan telur ke arah kereta",
+          "zh": "朝汽车扔鸡蛋",
+          "en": "eggs a car"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "在 eggs someone on 结构中表示怂恿、煽动某人做某事，常涉及不明智或冒险的行为。",
+      "en_definition": "In eggs someone on, encourages or urges someone to act, often unwisely.",
+      "ms_definition": "Dalam ungkapan eggs someone on, menghasut atau menggalakkan seseorang melakukan sesuatu, lazimnya tindakan yang kurang bijak.",
+      "nuances": "该义通常须连同小品词 on 理解，不应由孤立的 eggs 推定。它与表示蛋的名词词源不同。英语短语义参见 [Cambridge](https://dictionary.cambridge.org/dictionary/english/egg-someone-on)。",
+      "collocations": [
+        {
+          "ms": "menghasut seseorang supaya meneruskan perbuatan itu",
+          "zh": "怂恿某人继续那种行为",
+          "en": "eggs someone on"
+        },
+        {
+          "ms": "menghasut kawannya supaya berlawan",
+          "zh": "怂恿朋友打架",
+          "en": "eggs a friend on to fight"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 标签翻译说明",
+      "ms": "Perkataan bahasa Inggeris 'eggs' pada label bahan diterjemahkan sebagai 'telur' dalam versi bahasa Melayu.",
+      "zh": "配料标签上的英语 eggs 在马来语版本中译为 telur。",
+      "en": "The English word 'eggs' on the ingredient label is translated as 'telur' in the Malay version."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友看菜单",
+      "ms_spoken": "Kat menu ni, 'eggs' tu telur, kan?",
+      "ms_standard": "Pada menu ini, perkataan 'eggs' bermaksud telur, bukan?",
+      "zh": "这菜单上的 eggs 就是蛋，对吧？",
+      "en": "On this menu, 'eggs' means telur, right?",
+      "spoken_features": [
+        "kat 对应表示位置的 pada",
+        "ni 和 tu 分别对应 ini 和 itu",
+        "kan 用于确认",
+        "英语菜单词作为引用保留"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kat menu ni, 'eggs' tu telur, kan?",
+          "ms_standard": "Pada menu ini, perkataan 'eggs' bermaksud telur, bukan?",
+          "zh": "这菜单上的 eggs 就是蛋，对吧？",
+          "en": "On this menu, 'eggs' means telur, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya. Aku nak telur rebus je.",
+          "ms_standard": "Ya. Saya hanya mahu telur rebus.",
+          "zh": "对。我就要水煮蛋。",
+          "en": "Yeah. I'll just have boiled eggs."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The English noun egg comes through Middle English from Old Norse egg. It became established alongside, and eventually displaced, forms descended from the older English word for the same everyday object. Eggs adds the regular English plural ending. The verb in egg someone on has a separate history and should not be explained through eggs as food. [Etymonline](https://www.etymonline.com/word/egg)",
+    "cognitive_memory_aid": "一颗 egg，多颗 eggs；尾音读 /z/。换成马来语记 telur，数量交给 dua biji 等表达。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在熟悉英语的朋友间引用 eggs 很自然；正式马来语菜单、报告和一般说明宜使用 telur，避免假定所有读者都理解英语。",
+    "usage_etiquette": "食品、生物学和动词语境须分开理解。点餐时可直接说 Saya mahu dua biji telur rebus；讨论他人饮食需求时按其明确要求确认。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在熟悉英语的朋友间引用 eggs 很自然；正式马来语菜单、报告和一般说明宜使用 telur，避免假定所有读者都理解英语。",
+    "usage_etiquette": "食品、生物学和动词语境须分开理解。点餐时可直接说 Saya mahu dua biji telur rebus；讨论他人饮食需求时按其明确要求确认。"
+  }
+}

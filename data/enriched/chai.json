@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "chai",
+    "syllables": "chai",
+    "ipa": "/tʃaɪ/",
+    "jawi": null,
+    "frequency_rank": 12249,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "chai",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + chai → chai",
+    "pattern_note": "按饮品名称处理为单音节整词借用。输入将 root_word 标为 cha、is_root 标为 false，不能据此成立马来语派生关系，故校正为 chai、true；chai 不可拆为马来语 cha + -i。未列出未经证实的马来语派生词。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "南亚语言中的茶；在饮品菜单及英语影响的用法中，常特指印度风味奶茶，尤其加入香料的玛萨拉奶茶。",
+      "en_definition": "Tea in South Asian usage; especially an Indian-style tea drink, commonly made with milk and, in masala chai, spices.",
+      "ms_definition": "Teh dalam penggunaan bahasa Asia Selatan; dalam konteks menu, lazimnya minuman teh gaya India yang disediakan dengan susu dan sering dengan rempah.",
+      "nuances": "本条采用饮品义；数据包未提供足以排除其他同形用法的上下文。普通马来语的茶是 teh。chai 在南亚语言中并不必然含香料；masala chai 才明确指香料茶。马来语定义为编辑释义，并非所给数据包中的 DBP 正式定义。official 为要求的词库记录状态，不表示已核实其规范马来语地位。参见 [Merriam-Webster 饮品义](https://www.merriam-webster.com/dictionary/chai) 与 [Rekhta 乌尔都语茶词条](https://www.rekhta.org/urdudictionary?keyword=%DA%86%D8%A7%D8%A6%DB%92&lang=ur)。",
+      "collocations": [
+        {
+          "ms": "masala chai",
+          "zh": "印度香料奶茶",
+          "en": "Indian spiced milk tea"
+        },
+        {
+          "ms": "chai latte",
+          "zh": "奶沫香料茶；香料茶拿铁",
+          "en": "a café-style spiced tea drink with steamed milk"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "餐饮介绍 / 产品说明",
+      "ms": "Kafe itu menyediakan masala chai, iaitu teh yang dimasak bersama susu dan rempah seperti halia serta buah pelaga.",
+      "zh": "该咖啡馆供应玛萨拉奶茶，即加入牛奶、姜和豆蔻等香料一起煮制的茶。",
+      "en": "The café serves masala chai, tea simmered with milk and spices such as ginger and cardamom."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量饮品订单",
+      "ms_spoken": "Kau nak masala chai panas ke ais? Aku nak yang panas je.",
+      "ms_standard": "Kamu mahu masala chai panas atau berais? Saya mahu yang panas sahaja.",
+      "zh": "你要热的还是冰的香料奶茶？我就要热的。",
+      "en": "Do you want your masala chai hot or iced? I'll just have a hot one.",
+      "spoken_features": [
+        "nak 是 hendak 或 mahu 的口语对应形式。",
+        "ke 在选择问句中相当于 atau。",
+        "je 是 sahaja 的口语形式。",
+        "点饮料时 panas ke ais 省略重复的饮品名称。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau nak masala chai panas ke ais? Aku nak yang panas je.",
+          "ms_standard": "Kamu mahu masala chai panas atau berais? Saya mahu yang panas sahaja.",
+          "zh": "你要热的还是冰的香料奶茶？我就要热的。",
+          "en": "Do you want your masala chai hot or iced? I'll just have a hot one."
+        },
+        {
+          "speaker": "Priya (朋友)",
+          "ms_spoken": "Panas juga. Minta kurang manis sikit ya.",
+          "ms_standard": "Saya juga mahu yang panas. Tolong minta supaya minuman itu kurang manis.",
+          "zh": "我也要热的，帮我说少甜一点哦。",
+          "en": "Hot for me too. Ask for it less sweet, please."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Chai belongs to an international family of tea names ultimately associated with Chinese chá. Persian and South Asian forms connect this family across languages, while English commonly uses chai for a spiced milk tea. Urdu usage retains the broader meaning of tea. These connections describe borrowing history, not a Malay suffix added to cha. [Etymology reference](https://www.etymonline.com/word/chai); [Urdu dictionary](https://www.rekhta.org/urdudictionary?keyword=%DA%86%D8%A7%D8%A6%DB%92&lang=ur)",
+    "cognitive_memory_aid": "从中文茶 chá 联想到 chai 的开头，再想象姜与豆蔻冒出的热气：记住它与茶有关；是否加香料，要看菜单是否写 masala。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "点单可说 Boleh saya pesan satu masala chai, kurang manis?，礼貌地说明品项与甜度。普通茶直接说 teh，避免默认所有店员都把 chai 理解为同一种饮品。",
+    "usage_etiquette": "适用于南亚饮食和咖啡馆菜单语境。chai、masala chai、chai latte 与 teh tarik 的配方和制作方式不必相同；介绍饮品时沿用店家的名称，并说明主要原料。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "点单可说 Boleh saya pesan satu masala chai, kurang manis?，礼貌地说明品项与甜度。普通茶直接说 teh，避免默认所有店员都把 chai 理解为同一种饮品。",
+    "usage_etiquette": "适用于南亚饮食和咖啡馆菜单语境。chai、masala chai、chai latte 与 teh tarik 的配方和制作方式不必相同；介绍饮品时沿用店家的名称，并说明主要原料。"
+  }
+}

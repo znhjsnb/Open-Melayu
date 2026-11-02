@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "kehormat",
+    "syllables": "ke.hor.mat",
+    "ipa": "/kəhormat/",
+    "jawi": "کحرمت",
+    "frequency_rank": 12237,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hormat",
+    "affix": "ke-",
+    "affix_type": "prefix",
+    "formula": "ke- + hormat → kehormat",
+    "pattern_note": "前缀 ke- 的 e 读 /ə/，词根 hormat 保留；这里没有 -an。数据包把 kehormat 误列为词根，此处校正为 hormat。",
+    "word_family": [
+      {
+        "word": "menghormati",
+        "affix": "meN-…-i",
+        "gloss": "尊敬；尊重"
+      },
+      {
+        "word": "kehormatan",
+        "affix": "ke-…-an",
+        "gloss": "荣誉；尊严"
+      }
+    ],
+    "root_jawi": "حرمت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "受到特别尊重和礼遇的，尤指典礼中的贵宾。",
+      "en_definition": "Honoured and accorded special recognition, especially as a distinguished guest.",
+      "ms_definition": "Yang dihormati dan diraikan.",
+      "nuances": "通常置于名词后，如 tetamu kehormat、dif kehormat；这里强调礼遇，并非任命性质。三项核心释义依据 [DBP：kehormat](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=kehormat)。",
+      "collocations": [
+        {
+          "ms": "tetamu kehormat",
+          "zh": "贵宾",
+          "en": "guest of honour"
+        },
+        {
+          "ms": "dif kehormat",
+          "zh": "贵宾；受特别礼遇的嘉宾",
+          "en": "distinguished guest"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "为表示敬意或表彰贡献而授予的；荣誉的、名誉的。",
+      "en_definition": "Honorary; conferred as a mark of respect or recognition.",
+      "ms_definition": "Yang dilantik kerana menghormati atau diberikan sebagai pernyataan hormat.",
+      "nuances": "用于会员身份、学位或其他荣誉身份；具体权利与资格取决于授予机构，不能仅凭 kehormat 推定。",
+      "collocations": [
+        {
+          "ms": "ahli kehormat",
+          "zh": "名誉会员",
+          "en": "honorary member"
+        },
+        {
+          "ms": "ijazah kehormat",
+          "zh": "荣誉学位",
+          "en": "honorary degree"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "义务任职、不领取该职务薪酬的。",
+      "en_definition": "Serving in an unpaid or honorary capacity.",
+      "ms_definition": "Yang jasanya tidak dibayar.",
+      "nuances": "常见于社团职衔，通常指实际承担职责的义务人员。固定词组 bayaran kehormat 则表示酬谢金，不能按“不付钱”逐字理解。",
+      "collocations": [
+        {
+          "ms": "setiausaha kehormat",
+          "zh": "义务秘书",
+          "en": "honorary secretary"
+        },
+        {
+          "ms": "bendahari kehormat",
+          "zh": "义务财政；义务司库",
+          "en": "honorary treasurer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak penganjur menjemput beliau sebagai tetamu kehormat sempena majlis penyampaian anugerah.",
+      "zh": "主办方邀请他作为颁奖典礼的贵宾出席。",
+      "en": "The organisers have invited him to attend the awards ceremony as the guest of honour."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tetamu kehormat dah sampai ke? Aku nak sambut kat pintu.",
+      "ms_standard": "Adakah tetamu kehormat sudah tiba? Saya hendak menyambut beliau di pintu masuk.",
+      "zh": "贵宾到了吗？我想去门口迎接。",
+      "en": "Has the guest of honour arrived? I'll meet them at the entrance.",
+      "spoken_features": [
+        "dah、nak、kat 分别对应 sudah、hendak、di。",
+        "句末 ke 构成口语疑问；正式句式使用 Adakah。",
+        "职务或礼宾名称在口语中仍保留完整形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (活动筹委)",
+          "ms_spoken": "Tetamu kehormat dah sampai ke? Aku nak sambut kat pintu.",
+          "ms_standard": "Adakah tetamu kehormat sudah tiba? Saya hendak menyambut beliau di pintu masuk.",
+          "zh": "贵宾到了吗？我想去门口迎接。",
+          "en": "Has the guest of honour arrived? I'll meet them at the entrance."
+        },
+        {
+          "speaker": "Amir (活动筹委)",
+          "ms_spoken": "Belum lagi. Tunggu kat lobi dulu, ya.",
+          "ms_standard": "Beliau belum tiba. Sila tunggu di lobi dahulu.",
+          "zh": "还没到。你先在大厅等一下。",
+          "en": "Not yet. Wait in the lobby for now, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kehormat is built from hormat, respect, with the prefix ke-. Its established uses show how recognition operates in Malaysian public life: a guest receives special welcome, a recipient receives an honorary distinction, and an association officer may serve without salary. These related meanings explain why context determines the appropriate English translation.",
+    "cognitive_memory_aid": "hormat＝尊重；kehormat 就是“因尊重而特别对待或授予身份”：见到 tetamu 想“贵宾”，见到 ijazah 想“荣誉学位”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "kehormat 是身份或礼遇的修饰语，不是可以直接替代姓名的称呼。正式邀请和主持时应核对来宾姓名、职衔及适用称谓。",
+    "usage_etiquette": "适合典礼、荣誉授予及社团任职语境。tetamu kehormat 表示贵宾角色；Yang Berhormat 是特定称谓，两者不能互换。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "kehormat 是身份或礼遇的修饰语，不是可以直接替代姓名的称呼。正式邀请和主持时应核对来宾姓名、职衔及适用称谓。",
+    "usage_etiquette": "适合典礼、荣誉授予及社团任职语境。tetamu kehormat 表示贵宾角色；Yang Berhormat 是特定称谓，两者不能互换。"
+  }
+}

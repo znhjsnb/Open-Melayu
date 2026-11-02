@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "pengawalan",
+    "syllables": "pe.nga.wa.lan",
+    "ipa": "/pə.ŋa.wa.lan/",
+    "jawi": "ڤڠاولن",
+    "frequency_rank": 12244,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pengawal",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + kawal + -an → pengawalan",
+    "pattern_note": "输入的 root_word pengawal 保留作关联词记录；实际基础词根是 kawal。peN- 在 kawal 前实现为 peng-，词首 /k/ 脱落，形成 /pəŋawal an/；pengawalan 表示行为或过程，不能简单释为“pengawal 加 -an”。",
+    "word_family": [
+      {
+        "word": "mengawal",
+        "affix": "meN-",
+        "gloss": "守卫；监督；控制"
+      },
+      {
+        "word": "pengawal",
+        "affix": "peN-",
+        "gloss": "守卫；监管人员"
+      },
+      {
+        "word": "kawalan",
+        "affix": "-an",
+        "gloss": "管制；控制；防护措施"
+      }
+    ],
+    "root_jawi": "ڤڠاول"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "为保障人员、场所或活动安全而实施的守卫、警戒或护卫工作。",
+      "en_definition": "The act or process of guarding or providing security.",
+      "ms_definition": "Perihal atau perbuatan mengawal untuk menjaga keselamatan orang, tempat atau kegiatan.",
+      "nuances": "这是 DBP 总释义“perihal (perbuatan) mengawal”在安全语境中的教学细分，并非另引独立词典义项。pengawalan 指守卫行为；pengawal 指执行者。[DBP：kawal 及其派生词](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=kawal)",
+      "collocations": [
+        {
+          "ms": "pengawalan keselamatan",
+          "zh": "安全警戒工作",
+          "en": "security operations"
+        },
+        {
+          "ms": "pengawalan pintu masuk",
+          "zh": "入口守卫",
+          "en": "guarding an entrance"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为使过程有序、使情况保持在一定范围内或防止不良情况扩展而实施的控制、监督或防治。",
+      "en_definition": "The process of controlling, regulating or containing something.",
+      "ms_definition": "Perbuatan mengawasi atau mengatur sesuatu supaya teratur, terbatas atau tidak merebak.",
+      "nuances": "这是同一总释义在管理、防治等语境中的细分。pengawalan 强调实施过程；kawalan 也常用于措施、制度或控制状态，两者须结合惯用搭配选择。",
+      "collocations": [
+        {
+          "ms": "pengawalan penyakit",
+          "zh": "疾病防控",
+          "en": "disease control"
+        },
+        {
+          "ms": "pengawalan perosak",
+          "zh": "害虫防治",
+          "en": "pest control"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 活动安全汇报",
+      "ms": "Pihak penganjur akan memperketat pengawalan di semua pintu masuk sepanjang acara berlangsung.",
+      "zh": "主办方将在活动期间加强所有入口的警戒。",
+      "en": "The organisers will tighten security at all entrances throughout the event."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事协调活动入场",
+      "ms_spoken": "Pengawalan kat pintu masuk ketat sikit hari ni, bawa pas ya.",
+      "ms_standard": "Pengawalan di pintu masuk agak ketat pada hari ini; bawalah pas.",
+      "zh": "今天入口查得比较严，记得带通行证哦。",
+      "en": "Security's a bit tighter at the entrance today, so bring your pass.",
+      "spoken_features": [
+        "kat 在此相当于 di",
+        "sikit 是 sedikit 的口语形式",
+        "hari ni 对应 hari ini",
+        "句末 ya 用于友善提醒"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pengawalan kat pintu masuk ketat hari ni. Kau dah bawa pas?",
+          "ms_standard": "Pengawalan di pintu masuk ketat pada hari ini. Adakah kamu sudah membawa pas?",
+          "zh": "今天入口查得很严。你带通行证了吗？",
+          "en": "Security's tight at the entrance today. Have you got your pass?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, ada dalam beg. Aku tunggu kau kat luar je.",
+          "ms_standard": "Sudah, pas itu ada di dalam beg. Saya menunggu kamu di luar sahaja.",
+          "zh": "带了，在包里。我就在外面等你。",
+          "en": "Yes, it's in my bag. I'll wait outside for you."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay uses kawal for guarding and supervision, and builds a productive family around it. Pengawal names a person who guards, while pengawalan names the activity. Modern usage extends that activity from protecting entrances to controlling disease or pests. The peN-...-an construction and the loss of initial k explain the form without requiring an invented historical origin.",
+    "cognitive_memory_aid": "围绕 kawal“看守、控制”记三兄弟：mengawal“去控制”、pengawal“控制的人”、pengawalan“控制这件事”；遇到 peng-，被替换的 k 藏起来了。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性、偏正式的工作用语。向安保人员询问时可说 Boleh saya tahu prosedur masuk?，用请求信息的方式表达更自然。",
+    "usage_etiquette": "适用于安保、行政管理和防治过程。不要把 pengawalan 当作工作人员的称呼；称人应使用 pengawal 或其职衔。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性、偏正式的工作用语。向安保人员询问时可说 Boleh saya tahu prosedur masuk?，用请求信息的方式表达更自然。",
+    "usage_etiquette": "适用于安保、行政管理和防治过程。不要把 pengawalan 当作工作人员的称呼；称人应使用 pengawal 或其职衔。"
+  }
+}

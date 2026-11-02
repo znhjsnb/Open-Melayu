@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "bidaan",
+    "syllables": null,
+    "ipa": "/bi.da.an/",
+    "jawi": null,
+    "frequency_rank": 12257,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bida",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "bida + -an → bidaan",
+    "pattern_note": "输入把 bidaan 标成不可再分的词根，此处据 bida 词族校正为 bida + -an。词根末尾 a 与后缀起首 a 分属相邻音节，不合并为长元音；音节为 bi.da.an。输入未提供 syllables 和 jawi，均保留 null；root_jawi 据 DBP 的 bida 补充。参见 [DBP：bida](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bida)。",
+    "word_family": [
+      {
+        "word": "bida",
+        "affix": "∅",
+        "gloss": "出价；报价"
+      },
+      {
+        "word": "membida",
+        "affix": "meN-",
+        "gloss": "竞价；提出报价"
+      },
+      {
+        "word": "pembida",
+        "affix": "peN-",
+        "gloss": "竞价者；投标者"
+      },
+      {
+        "word": "pembidaan",
+        "affix": "peN-…-an",
+        "gloss": "竞价行为或过程"
+      }
+    ],
+    "root_jawi": "بيدا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "在拍卖、竞价或竞争性交易中提出的购买报价，尤指出价金额。",
+      "en_definition": "A bid, especially the amount offered in an auction or competitive purchase.",
+      "ms_definition": "Tawaran harga yang dikemukakan oleh pembida untuk mendapatkan sesuatu yang ditawarkan secara lelong atau melalui persaingan.",
+      "nuances": "DBP《Kamus Inggeris-Melayu Dewan》在 bid 的出价金额义下列出 bidaan。它与表示过程的 pembidaan 有区别：bidaan tertinggi 是最高出价。报价不等于成交价，须结合结果理解。此处 ms_definition 为整合释写，并非输入中不存在的 DBP 原文。参见 [DBP：bid](https://prpm.dbp.gov.my/Cari1?d=399108&keyword=bid)。",
+      "collocations": [
+        {
+          "ms": "bidaan tertinggi",
+          "zh": "最高出价",
+          "en": "the highest bid"
+        },
+        {
+          "ms": "bidaan minimum",
+          "zh": "最低出价",
+          "en": "the minimum bid"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "竞价活动或竞争性报价程序；常见于行政系统、新闻和活动名称。",
+      "en_definition": "A bidding exercise or competitive bidding process, especially in administrative usage.",
+      "ms_definition": "Urusan atau proses mengemukakan tawaran harga secara bersaing.",
+      "nuances": "这是官方实际用语中的过程义，可见于系统名称和 tempoh bidaan 等搭配。若要明确区分过程与某笔报价，可用 pembidaan 表示过程。参见 [JPJ：JPJeBid 官方系统](https://jpjebid.jpj.gov.my/ebid/)。",
+      "collocations": [
+        {
+          "ms": "tempoh bidaan",
+          "zh": "竞价期限",
+          "en": "the bidding period"
+        },
+        {
+          "ms": "sistem bidaan dalam talian",
+          "zh": "线上竞价系统",
+          "en": "an online bidding system"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Bidaan tertinggi bagi nombor pendaftaran tersebut ialah RM5,000 ketika tempoh bidaan ditutup.",
+      "zh": "竞价截止时，该车牌号码的最高出价为五千令吉。",
+      "en": "The highest bid for that registration number was RM5,000 when bidding closed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bidaan aku dah kena potong. Nak tambah lagi ke?",
+      "ms_standard": "Pembida lain sudah mengemukakan bidaan yang lebih tinggi daripada bidaan saya. Patutkah saya menaikkan bidaan lagi?",
+      "zh": "有人出价超过我了，还要不要再加？",
+      "en": "I've been outbid. Should I raise my bid again?",
+      "spoken_features": [
+        "dah 对应 sudah；nak 对应 hendak。",
+        "kena potong 在竞价语境中口语化地表示被别人超过。",
+        "aku 适用于关系亲近的平辈。",
+        "句末 ke 表示口语疑问；回复中的 je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Bidaan aku dah kena potong. Nak tambah lagi ke?",
+          "ms_standard": "Pembida lain sudah mengemukakan bidaan yang lebih tinggi daripada bidaan saya. Patutkah saya menaikkan bidaan lagi?",
+          "zh": "有人出价超过我了，还要不要再加？",
+          "en": "I've been outbid. Should I raise my bid again?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kalau dah lebih bajet, berhenti je. Nanti cuba nombor lain.",
+          "ms_standard": "Jika jumlahnya sudah melebihi bajet, hentikan sahaja pembidaan. Cuba bida nombor lain kemudian.",
+          "zh": "如果已经超预算，就算了吧。之后再试别的号码。",
+          "en": "If it's over your budget, leave it. Try another number later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bidaan is formed from bida and the noun suffix -an. Its contemporary Malaysian setting is especially visible in vehicle registration number bidding, where participants compare offers and check results online. JPJ's terminology shows how an ordinary commercial word can become familiar administrative language. The related pembida names the bidder, while pembidaan explicitly names the bidding activity. See [JPJeBid](https://jpjebid.jpj.gov.my/ebid/).",
+    "cognitive_memory_aid": "一组记牢：membida＝出价，pembida＝出价的人，bidaan＝报出的价；谈整个竞价过程时再联想 pembidaan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "工作沟通中宜客观说 bidaan kami 或 bidaan pihak tuan，不必评价其他竞价者是否“出得太低”。询问他人金额时，可先问 Boleh saya tahu jumlah bidaan itu?",
+    "usage_etiquette": "适用于拍卖、号码竞价及相关商业程序。不要把普通购物砍价一律称为 bidaan；日常议价通常用 tawar-menawar。涉及尚未公开的竞争性报价时，应尊重相应的保密约定。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "工作沟通中宜客观说 bidaan kami 或 bidaan pihak tuan，不必评价其他竞价者是否“出得太低”。询问他人金额时，可先问 Boleh saya tahu jumlah bidaan itu?",
+    "usage_etiquette": "适用于拍卖、号码竞价及相关商业程序。不要把普通购物砍价一律称为 bidaan；日常议价通常用 tawar-menawar。涉及尚未公开的竞争性报价时，应尊重相应的保密约定。"
+  }
+}
