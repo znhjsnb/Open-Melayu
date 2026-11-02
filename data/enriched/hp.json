@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "hp",
+    "syllables": null,
+    "ipa": "/eɪtʃ piː/",
+    "jawi": null,
+    "frequency_rank": 14558,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hp",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "handphone → hp；horsepower → hp（缩写，非词缀派生）",
+    "pattern_note": "通常逐字母读；所列音标采用英语字母名称读法，并非已核实的马来语规范音标。is_root 沿用输入分类，表示未作词缀切分。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "手机；handphone 的非正式缩写，也可在电话号码栏中指手机号码。",
+      "en_definition": "An informal abbreviation for a mobile phone; in contact fields, a mobile phone number.",
+      "ms_definition": "Singkatan tidak formal bagi handphone, iaitu telefon bimbit; dalam ruangan maklumat hubungan, boleh merujuk nombor telefon bimbit.",
+      "nuances": "手机义须由聊天或联系方式语境确定。正式马来语宜写 telefon bimbit 或 nombor telefon bimbit。此处为释义整理，未核实为 DBP 正式词条，故不标记 official。马来西亚院校的操作手册确有 No. HP 用法。[马来西亚波德申理工学院操作手册](https://polipd.mypolycc.edu.my/web/images/PELAJAR/Sistem%20dan%20Perkhidmatan%20ICT/SPMP/MANUAL%20LOG%20MASUK%20SPMP%20KALI%20PERTAMA.pdf)",
+      "collocations": [
+        {
+          "ms": "nombor hp",
+          "zh": "手机号码",
+          "en": "mobile phone number"
+        },
+        {
+          "ms": "hp baru",
+          "zh": "新手机",
+          "en": "new mobile phone"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "马力的缩写或单位符号，用于表示发动机、马达等的功率。",
+      "en_definition": "An abbreviation or unit symbol for horsepower, used to express power.",
+      "ms_definition": "Singkatan atau lambang unit bagi horsepower, iaitu kuasa kuda, yang digunakan untuk menyatakan kuasa enjin atau motor.",
+      "nuances": "技术语境中常接在数值后，与手机义无关。具体换算须确认采用哪一种马力定义；不能仅凭大小写判断全部含义。HP 也可能是品牌或其他缩写，输入没有提供足以确定原始所指的上下文。[马来西亚理工学院技术教育会议论文集](https://upk.ptsb.edu.my/eProceeding/E_PROCEEDING_CIETVET_2024.pdf)",
+      "collocations": [
+        {
+          "ms": "kuasa enjin dalam hp",
+          "zh": "以马力表示的发动机功率",
+          "en": "engine power in horsepower"
+        },
+        {
+          "ms": "enjin 150 hp",
+          "zh": "150 马力发动机",
+          "en": "a 150-horsepower engine"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场技术汇报；使用马力义",
+      "ms": "Menurut spesifikasi pengeluar, enjin model ini menghasilkan kuasa maksimum 150 hp.",
+      "zh": "根据制造商的规格，这款型号的发动机最大功率为 150 马力。",
+      "en": "According to the manufacturer's specifications, this model's engine produces a maximum of 150 hp."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论手机",
+      "ms_spoken": "Hp aku dah rosak lah, nak pinjam telefon kau kejap.",
+      "ms_standard": "Telefon bimbit saya sudah rosak. Saya hendak meminjam telefon awak sebentar.",
+      "zh": "我手机坏了，想借你的电话用一下。",
+      "en": "My phone's broken. Can I borrow yours for a moment?",
+      "spoken_features": [
+        "hp 是手机的聊天缩写",
+        "dah 对应 sudah",
+        "nak 对应 hendak",
+        "kejap 对应 sebentar",
+        "lah 增添口语语气；aku、kau 用于熟人之间"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Hp aku dah rosak lah. Boleh pinjam telefon kau kejap?",
+          "ms_standard": "Telefon bimbit saya sudah rosak. Bolehkah saya meminjam telefon awak sebentar?",
+          "zh": "我手机坏了。能借你的电话用一下吗？",
+          "en": "My phone's broken. Can I borrow yours for a moment?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh je. Ada kat atas meja, ambillah.",
+          "ms_standard": "Boleh. Telefon itu ada di atas meja. Silakan ambil.",
+          "zh": "可以啊，在桌上，拿去用吧。",
+          "en": "Sure. It's on the table—help yourself."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In everyday messaging, hp compresses handphone into two letters, while technical writing uses the same letters for horsepower. Malaysian institutional documents illustrate both uses: contact forms label mobile numbers HP, and engineering papers label engine power hp. The overlap shows how an abbreviation gains its meaning from its surroundings rather than from Malay affixation.",
+    "cognitive_memory_aid": "聊天里把 h、p 连回 handphone，想到手机；数值后看到 hp，想到 horsepower，即马力。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "hp 本身不表示失礼，但手机义较随意。给客户、老师或长辈发送正式信息时，写 telefon bimbit 更清楚；人称宜按关系使用 saya、tuan 或 puan。",
+    "usage_etiquette": "技术规格可使用 hp；正式联系方式宜明确写 nombor telefon bimbit。索取或转发他人的私人号码时，应先取得对方同意。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "hp 本身不表示失礼，但手机义较随意。给客户、老师或长辈发送正式信息时，写 telefon bimbit 更清楚；人称宜按关系使用 saya、tuan 或 puan。",
+    "usage_etiquette": "技术规格可使用 hp；正式联系方式宜明确写 nombor telefon bimbit。索取或转发他人的私人号码时，应先取得对方同意。"
+  }
+}

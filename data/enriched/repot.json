@@ -1,0 +1,170 @@
+{
+  "headword": {
+    "word": "repot",
+    "syllables": null,
+    "ipa": "/re.pot/",
+    "jawi": "ريڤوت",
+    "frequency_rank": 14518,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "repot",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + repot → repot",
+    "pattern_note": "词根形式，无词缀；e 为 é，即 /e/。派生 merepotkan 时，meN- 在 r 前实现为 me-，保留 r。",
+    "word_family": [
+      {
+        "word": "merepotkan",
+        "affix": "meN-...-kan",
+        "gloss": "报告；另一个同形词义为使忙乱、添麻烦"
+      },
+      {
+        "word": "repotan",
+        "affix": "-an",
+        "gloss": "报告、报案陈述"
+      },
+      {
+        "word": "kerepotan",
+        "affix": "ke-...-an",
+        "gloss": "忙乱、困窘"
+      }
+    ],
+    "root_jawi": "ريڤوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "报告、举报或报案，尤指向警方或有关负责人反映某事。",
+      "en_definition": "To report an incident or person, especially to the police or another authority.",
+      "ms_definition": "Lapor; memberitahukan atau mengadukan sesuatu kepada pihak berkenaan.",
+      "nuances": "《Kamus Dewan》将此义标为 bp，即口语。正式叙述通常用 melaporkan；kena repot 表示被举报或被人报告。依据：[DBP：repot](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=repot)。",
+      "collocations": [
+        {
+          "ms": "repot kepada polis",
+          "zh": "向警方报案",
+          "en": "report to the police"
+        },
+        {
+          "ms": "kena repot",
+          "zh": "被举报",
+          "en": "be reported"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "报案或投诉的陈述、记录，尤指警方接收的报案记录。",
+      "en_definition": "A report or recorded complaint, especially a police report.",
+      "ms_definition": "Laporan atau pengaduan tentang sesuatu kejadian, khususnya yang dibuat kepada polis.",
+      "nuances": "名词用法见于马来西亚警方实际用语，例如 membuat repot polis；此定义据用例归纳。一般工作报告仍以 laporan 更通用。依据：[马来西亚皇家警察：Cara Membuat Repot Polis](https://www.rmp.gov.my/cara-membuat-repot-polis)。",
+      "collocations": [
+        {
+          "ms": "membuat repot polis",
+          "zh": "向警方报案",
+          "en": "lodge a police report"
+        },
+        {
+          "ms": "salinan repot",
+          "zh": "报案记录副本",
+          "en": "a copy of a report"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "事务繁多而忙碌、忙乱的。",
+      "en_definition": "Busy or occupied with many tasks.",
+      "ms_definition": "Banyak kerja; sibuk.",
+      "nuances": "这是另一个同形词 repot II，《Kamus Dewan》标为 IB，即印度尼西亚语用法。马来西亚日常表达通常选 sibuk；须与“报告、报案”义区分。依据：[DBP：repot](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=repot)。",
+      "collocations": [
+        {
+          "ms": "repot mengurus tetamu",
+          "zh": "忙着接待客人",
+          "en": "busy attending to guests"
+        },
+        {
+          "ms": "repot dengan kerja",
+          "zh": "忙于工作",
+          "en": "busy with work"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "adjective",
+      "zh_definition": "陷入困难而忙乱、不知所措的。",
+      "en_definition": "In difficulty, flustered, or in a state of confusion.",
+      "ms_definition": "Dalam kesukaran; kalut atau kelam-kabut.",
+      "nuances": "同属标为 IB 的 repot II。派生词 merepotkan 在此词义下表示“给人添麻烦”，不能一律理解为“举报”。依据：[DBP：repot](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=repot)。",
+      "collocations": [
+        {
+          "ms": "mula repot",
+          "zh": "开始忙乱起来",
+          "en": "begin to get flustered"
+        },
+        {
+          "ms": "tanpa repot",
+          "zh": "毫不费事地",
+          "en": "without any fuss"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Mangsa telah membuat repot polis berhubung kehilangan motosikalnya.",
+      "zh": "受害者已就摩托车失窃一事向警方报案。",
+      "en": "The victim has lodged a police report concerning the loss of their motorcycle."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak buat repot kat balai kejap lagi.",
+      "ms_standard": "Saya hendak membuat laporan di balai polis sebentar lagi.",
+      "zh": "我等一下要去警局报案。",
+      "en": "I'm going to the police station to file a report in a bit.",
+      "spoken_features": [
+        "aku：熟人之间的第一人称",
+        "nak 对应 hendak",
+        "kat 对应 di",
+        "kejap lagi 对应 sebentar lagi",
+        "buat repot：口语中常见的报案表达"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dompet aku dah hilang. Aku nak buat repot kat balai kejap lagi.",
+          "ms_standard": "Dompet saya sudah hilang. Saya hendak membuat laporan di balai polis sebentar lagi.",
+          "zh": "我的钱包丢了。我等一下要去警局报案。",
+          "en": "I've lost my wallet. I'm going to file a police report in a bit."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jom, aku teman. Kau dah cari dalam kereta?",
+          "ms_standard": "Mari, saya temankan kamu. Adakah kamu sudah mencarinya di dalam kereta?",
+          "zh": "走，我陪你。你找过车里了吗？",
+          "en": "I'll go with you. Have you checked the car?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In Malaysia, repot connects everyday conversation with the institutional world of police reports. The police themselves use the expression repot polis. Its resemblance to English report provides a useful learning connection, although the supplied evidence does not establish a borrowing chronology. A separate homonym, labelled Indonesian by DBP, describes being busy or troubled.",
+    "cognitive_memory_aid": "把 repot 与英语 report 联系起来：遇事去警局做 repot。另记印尼语同形词可表示“忙乱”，不能混译。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向警员陈述时可说 Saya hendak membuat laporan，并使用 tuan 或 puan 称呼对方；repot polis 本身也见于警方用语。",
+    "usage_etiquette": "Aku repot kau 表示“我要举报你”，容易带威胁语气。描述事实时说明事件、时间和地点，避免把报案表达当作日常争执中的恐吓。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向警员陈述时可说 Saya hendak membuat laporan，并使用 tuan 或 puan 称呼对方；repot polis 本身也见于警方用语。",
+    "usage_etiquette": "Aku repot kau 表示“我要举报你”，容易带威胁语气。描述事实时说明事件、时间和地点，避免把报案表达当作日常争执中的恐吓。"
+  }
+}

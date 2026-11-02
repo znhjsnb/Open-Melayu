@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "mainlah",
+    "syllables": null,
+    "ipa": "/ma.in.lah/",
+    "jawi": "ماءين",
+    "frequency_rank": 14562,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "main",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "main + -lah → mainlah",
+    "pattern_note": "-lah 是连写的强调或缓和语气助词，并非派生后缀；suffix 仅表示其后附位置。词根无音变。数据包中的 Jawi 仅为 main，未包含 -lah。",
+    "word_family": [
+      {
+        "word": "bermain",
+        "affix": "ber-",
+        "gloss": "玩耍；参加游戏"
+      },
+      {
+        "word": "mainan",
+        "affix": "-an",
+        "gloss": "玩具"
+      },
+      {
+        "word": "permainan",
+        "affix": "per-…-an",
+        "gloss": "游戏；比赛"
+      },
+      {
+        "word": "pemain",
+        "affix": "pe-",
+        "gloss": "运动员；演奏者"
+      }
+    ],
+    "root_jawi": "ماءين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "玩吧；去玩吧；进行游戏或体育活动，带有鼓励、许可或强调语气。",
+      "en_definition": "Play or go ahead and play, with encouragement, permission, or emphasis.",
+      "ms_definition": "Melakukan kegiatan untuk berhibur atau bersukan, dengan partikel -lah yang melembutkan atau menegaskan suruhan.",
+      "nuances": "不是独立于 main 的新词义。-lah 的实际语气取决于上下文和语调，也可能表达不耐烦或勉强同意。此处马来文释义为依据 DBP 词根释义及语法规则编写的释义。[DBP：main](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=main)；[DBP：-lah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=juga+lah)。",
+      "collocations": [
+        {
+          "ms": "mainlah bola",
+          "zh": "踢球吧",
+          "en": "go ahead and play football"
+        },
+        {
+          "ms": "mainlah bersama-sama",
+          "zh": "一起玩吧",
+          "en": "play together"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "弹吧；演奏吧；进行某种乐器的演奏，带有邀请或鼓励语气。",
+      "en_definition": "Play a musical instrument, with invitation or encouragement.",
+      "ms_definition": "Memainkan alat muzik, dengan partikel -lah yang menyatakan galakan atau suruhan yang dilembutkan.",
+      "nuances": "mainlah piano 等形式常见于交谈；正式说明演奏行为时通常用 bermain piano 或 memainkan alat muzik。-lah 本身不表示演奏。[DBP：main 及其派生词](https://prpm.dbp.gov.my/Cari1?d=241100&keyword=main)。",
+      "collocations": [
+        {
+          "ms": "mainlah piano",
+          "zh": "弹钢琴吧",
+          "en": "go ahead and play the piano"
+        },
+        {
+          "ms": "mainlah gitar",
+          "zh": "弹吉他吧",
+          "en": "go ahead and play the guitar"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 社区活动报道中的直接引语",
+      "ms": "Dalam ucapannya, pengerusi berkata, “Mainlah bersama-sama dan patuhilah peraturan pertandingan.”",
+      "zh": "主席在致辞中说：“大家一起玩吧，并遵守比赛规则。”",
+      "en": "In his speech, the chairperson said, “Play together and follow the competition rules.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友相约踢球",
+      "ms_spoken": "Dah siap kerja sekolah? Mainlah bola dengan kita orang kat padang.",
+      "ms_standard": "Adakah kamu sudah menyiapkan kerja sekolah? Mainlah bola bersama kami di padang.",
+      "zh": "作业做完了吗？来球场跟我们一起踢球吧。",
+      "en": "Finished your homework? Come and play football with us at the field.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式",
+        "kita orang 在此表示 kami，即不包括听话人的“我们”",
+        "kat 在此对应地点介词 di",
+        "-lah 表示友好邀请"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah siap kerja sekolah? Mainlah bola dengan kita orang kat padang.",
+          "ms_standard": "Adakah kamu sudah menyiapkan kerja sekolah? Mainlah bola bersama kami di padang.",
+          "zh": "作业做完了吗？来球场跟我们一起踢球吧。",
+          "en": "Finished your homework? Come and play football with us at the field."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Dah, aku nak ambil kasut je. Kejap lagi aku sampai.",
+          "ms_standard": "Sudah. Saya hendak mengambil kasut sahaja. Saya akan tiba sebentar lagi.",
+          "zh": "做完了，我拿一下鞋就来，马上到。",
+          "en": "Yep. Just grabbing my shoes. I'll be there in a minute."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mainlah is a grammatical combination rather than a separate historical root. Main supplies the activity, while attached -lah shapes the speaker's stance. DBP describes this particle as an emphasizer that can also soften commands. The same spelling can therefore sound welcoming, encouraging, or impatient, depending on delivery and context. [DBP guidance](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=juga+lah).",
+    "cognitive_memory_aid": "main＝玩，-lah＝语气上的“吧”：mainlah → 玩吧！语调重时也可能是催促。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 可以缓和邀请，但不能自动使命令变得恭敬；对长辈或贵宾可说 Silakan bermain。",
+    "usage_etiquette": "适合朋友互动、亲子活动和比赛鼓励。正式文件通常使用完整陈述；引用现场邀请时可保留 mainlah。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 可以缓和邀请，但不能自动使命令变得恭敬；对长辈或贵宾可说 Silakan bermain。",
+    "usage_etiquette": "适合朋友互动、亲子活动和比赛鼓励。正式文件通常使用完整陈述；引用现场邀请时可保留 mainlah。"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "pengering",
+    "syllables": "pe.nge.ring",
+    "ipa": "/pə.ŋə.riŋ/",
+    "jawi": "ڤڠريڠ",
+    "frequency_rank": 14599,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kering",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + kering → pengering",
+    "pattern_note": "peN- 遇词首 k 时发生鼻音替代：k 脱落，前缀取 peng-。输入包将 pengering 标为词根，与 DBP 在 kering 下列出的派生关系不符，此处据辞典更正。[DBP：kering](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=kering)",
+    "word_family": [
+      {
+        "word": "mengeringkan",
+        "affix": "meN-…-kan",
+        "gloss": "使干燥；弄干"
+      },
+      {
+        "word": "pengeringan",
+        "affix": "peN-…-an",
+        "gloss": "干燥过程"
+      },
+      {
+        "word": "kekeringan",
+        "affix": "ke-…-an",
+        "gloss": "干燥状态；干涸"
+      }
+    ],
+    "root_jawi": "کريڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用于使头发、衣物、空气或其他物质变干的器具或设备。",
+      "en_definition": "A device or appliance used to dry something.",
+      "ms_definition": "Alat untuk mengeringkan udara atau sesuatu yang lain.",
+      "nuances": "此为依据 DBP 释义展开的标准马来语表述。pengering 指器具，pengeringan 指过程；具体用途通常由后接名词说明。[DBP：pengering](https://prpm.dbp.gov.my/Cari1?d=274404&keyword=pengering)",
+      "collocations": [
+        {
+          "ms": "pengering rambut",
+          "zh": "吹风机",
+          "en": "hair dryer"
+        },
+        {
+          "ms": "mesin pengering pakaian",
+          "zh": "衣物烘干机",
+          "en": "clothes dryer"
+        },
+        {
+          "ms": "balang pengering",
+          "zh": "干燥器；干燥罐",
+          "en": "desiccator"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于除去水分或促使某种材料干燥的物质；在涂料语境中可指催干剂。",
+      "en_definition": "A substance used to remove moisture or promote drying, including a paint drier.",
+      "ms_definition": "Bahan yang menyerap atau menyingkirkan lembapan, atau membantu sesuatu bahan menjadi kering.",
+      "nuances": "此为技术语境中的用法说明，并非输入包中器具义的逐字释义。干燥剂与涂料催干剂的作用机制不同，应由专业语境判别。[DBP 技术用例](https://prpm.dbp.gov.my/Cari1?d=274404&keyword=pengering)、[DBP 英马词典](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pengering)",
+      "collocations": [
+        {
+          "ms": "bahan pengering",
+          "zh": "干燥剂",
+          "en": "drying agent"
+        },
+        {
+          "ms": "agen pengering",
+          "zh": "干燥剂；干燥助剂",
+          "en": "drying agent"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 酒店设施维护",
+      "ms": "Pihak pengurusan akan menggantikan semua pengering rambut yang rosak di bilik tetamu.",
+      "zh": "管理方将更换客房内所有损坏的吹风机。",
+      "en": "Management will replace all faulty hair dryers in the guest rooms."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 室友借用吹风机",
+      "ms_spoken": "Pengering rambut ada kat atas meja tu, ambil je.",
+      "ms_standard": "Pengering rambut ada di atas meja itu; ambillah.",
+      "zh": "吹风机就在那张桌上，直接拿吧。",
+      "en": "The hair dryer is on that table. Help yourself.",
+      "spoken_features": [
+        "kat 对应 di",
+        "tu 对应 itu",
+        "je 对应 sahaja，此处表示可以直接拿"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (室友)",
+          "ms_spoken": "Aku nak pinjam pengering rambut kau kejap, boleh?",
+          "ms_standard": "Bolehkah saya meminjam pengering rambut awak sebentar?",
+          "zh": "我想借你的吹风机用一下，可以吗？",
+          "en": "Can I borrow your hair dryer for a minute?"
+        },
+        {
+          "speaker": "Nadia (室友)",
+          "ms_spoken": "Boleh. Ada kat atas meja tu, ambil je.",
+          "ms_standard": "Boleh. Pengering rambut itu ada di atas meja; ambillah.",
+          "zh": "可以，就在那张桌上，拿吧。",
+          "en": "Sure. It's on that table. Help yourself."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pengering illustrates how Malay builds equipment names from familiar roots. Kering means dry; the instrumental prefix peN- produces a noun for something that makes other things dry. The same family distinguishes an action, mengeringkan, from a process, pengeringan. Everyday appliances and laboratory equipment therefore share a transparent naming pattern. [DBP：kering](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=kering)",
+    "cognitive_memory_aid": "kering 是“干”；加上表示工具的 peN-，pengering 就是“让东西变干的工具”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性，适用于日常及正式场合。向酒店或不熟悉的人借用时可说 Boleh saya meminjam pengering rambut?",
+    "usage_etiquette": "家电场景最好说清 pengering rambut 或 mesin pengering pakaian；实验室中则应明确是设备还是 bahan pengering，避免混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性，适用于日常及正式场合。向酒店或不熟悉的人借用时可说 Boleh saya meminjam pengering rambut?",
+    "usage_etiquette": "家电场景最好说清 pengering rambut 或 mesin pengering pakaian；实验室中则应明确是设备还是 bahan pengering，避免混淆。"
+  }
+}

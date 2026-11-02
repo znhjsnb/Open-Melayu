@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "ev",
+    "syllables": null,
+    "ipa": "/iː viː/",
+    "jawi": null,
+    "frequency_rank": 14585,
+    "status": "official",
+    "canonical_form": "EV",
+    "status_note": "按马来西亚汽车语境优先解释为正式使用的缩写 EV；兼列大小写不同的科学符号 eV。音标表示英语字母名称连读，不能据此认定小写 ev 有唯一词义。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ev",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "electric vehicle → E + V → EV（英语首字母缩写）",
+    "pattern_note": "is_root=true 沿用输入的未加词缀分类，不表示它是马来语本土词根。EV 通常逐字母读出；科学符号 eV 的大小写必须保留，两者不是派生关系。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "电动车辆；英语 electric vehicle 的首字母缩写，指使用电动机提供全部或部分驱动力的车辆，具体范围依语境而定。",
+      "en_definition": "An electric vehicle: a vehicle propelled wholly or partly by an electric motor, with the precise category depending on context.",
+      "ms_definition": "Singkatan bahasa Inggeris bagi electric vehicle, iaitu kenderaan yang menggunakan motor elektrik untuk membekalkan keseluruhan atau sebahagian kuasa penggeraknya.",
+      "nuances": "规范缩写写作 EV。日常购车语境常指纯电动车，但技术或政策文件可能采用更宽的类别，不能一概把 EV 等同于 BEV。此处马来文释义为编辑性说明；MITI 文件使用 kenderaan elektrik (EV)。[MITI：电动车辆指南](https://www.miti.gov.my/miti/resources/Approve%20Permit/Guidelines/GP_AP_MRA_EV_1_JAN_2026.pdf)",
+      "collocations": [
+        {
+          "ms": "pengecas EV",
+          "zh": "电动车充电器",
+          "en": "an EV charger"
+        },
+        {
+          "ms": "pemilik EV",
+          "zh": "电动车车主",
+          "en": "an EV owner"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "电子伏特的单位符号 eV；一种能量单位，1 eV 精确等于 1.602176634 × 10⁻¹⁹ 焦耳。",
+      "en_definition": "The symbol eV for the electronvolt, a unit of energy equal to exactly 1.602176634 × 10⁻¹⁹ joules.",
+      "ms_definition": "Simbol eV bagi unit tenaga elektronvolt, dengan 1 eV bersamaan tepat dengan 1.602176634 × 10⁻¹⁹ joule.",
+      "nuances": "只在大小写被归一化的输入中与 ev 合并检索；规范形式是 eV，小写 e、大写 V。它是单位符号，不是电动车缩写的延伸义。此处马来文释义为编辑性说明。[NIST：Units accepted for use with the SI](https://www.nist.gov/pml/special-publication-330/sp-330-section-4)",
+      "collocations": [
+        {
+          "ms": "tenaga dalam eV",
+          "zh": "以电子伏特表示的能量",
+          "en": "energy in eV"
+        },
+        {
+          "ms": "tenaga foton sebanyak 2 eV",
+          "zh": "2电子伏特的光子能量",
+          "en": "a photon energy of 2 eV"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 设施规划",
+      "ms": "Pihak pengurusan sedang menilai cadangan pemasangan pengecas EV di tempat letak kereta bangunan ini.",
+      "zh": "管理层正在评估在本大楼停车场安装电动车充电器的建议。",
+      "en": "Management is evaluating a proposal to install EV chargers in this building's car park."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论电动车充电",
+      "ms_spoken": "Kat sini ada pengecas EV tak?",
+      "ms_standard": "Adakah terdapat pengecas EV di sini?",
+      "zh": "这里有电动车充电器吗？",
+      "en": "Is there an EV charger here?",
+      "spoken_features": [
+        "kat 对应 di",
+        "句末 tak 构成口语是非问句",
+        "je 对应 sahaja",
+        "tu 对应 itu"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kat sini ada pengecas EV tak?",
+          "ms_standard": "Adakah terdapat pengecas EV di sini?",
+          "zh": "这里有电动车充电器吗？",
+          "en": "Is there an EV charger here?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ada, kat sebelah pintu masuk je. Tapi tengok dulu pengecas tu sesuai tak dengan kereta kau.",
+          "ms_standard": "Ada, di sebelah pintu masuk sahaja. Namun, periksa dahulu sama ada pengecas itu sesuai dengan kereta kamu.",
+          "zh": "有啊，就在入口旁边。不过先看看那个充电器适不适合你的车。",
+          "en": "Yes, right by the entrance. Just check that it's compatible with your car first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "EV takes the initial letters of the English phrase electric vehicle. The abbreviation sounds contemporary, but electric motoring has nineteenth-century roots: practical electric cars developed as batteries and motors improved. Malaysian official documents use EV alongside kenderaan elektrik. This borrowing concerns an abbreviation, rather than the attachment of a Malay prefix or suffix. [US Department of Energy](https://www.energy.gov/articles/history-electric-car) · [MITI](https://www.miti.gov.my/miti/resources/Approve%20Permit/Guidelines/GP_AP_MRA_EV_1_JAN_2026.pdf)",
+    "cognitive_memory_aid": "E＝electric，V＝vehicle：看到大写 EV，想到插电的车；看到 eV，想到物理课里的能量单位。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "EV 属于中性技术缩写。面向不熟悉汽车术语的听众，首次写作 kenderaan elektrik (EV)，之后再使用缩写。",
+    "usage_etiquette": "适合汽车、交通和充电设施讨论。购车或政策交流中应说明具体车辆类别；科学文本必须保留 eV 的大小写，避免与 EV 混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "EV 属于中性技术缩写。面向不熟悉汽车术语的听众，首次写作 kenderaan elektrik (EV)，之后再使用缩写。",
+    "usage_etiquette": "适合汽车、交通和充电设施讨论。购车或政策交流中应说明具体车辆类别；科学文本必须保留 eV 的大小写，避免与 EV 混淆。"
+  }
+}

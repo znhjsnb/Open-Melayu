@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "tembaknya",
+    "syllables": null,
+    "ipa": "/tem.baʔ.ɲa/",
+    "jawi": "تيمبق",
+    "frequency_rank": 14493,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tembak",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "tembak + -nya → tembaknya",
+    "pattern_note": "-nya 实为后附的人称代词附着语，不改变词根拼写，也不表示过去时。首音节的 e 为 /e/；词根末尾 k 通常读作喉塞音 /ʔ/。音节可分析为 tem.bak.nya，但输入未提供音节字段，因此保留 null。headword.jawi 按输入保留词根写法；含 -nya 的完整拼写为 تيمبقڽ。附着语连写规则见 [DBP《马来语拼写通则》](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+    "word_family": [
+      {
+        "word": "menembak",
+        "affix": "meN-",
+        "gloss": "射击；向……开枪"
+      },
+      {
+        "word": "tembakan",
+        "affix": "-an",
+        "gloss": "射击；枪声；射出的子弹"
+      },
+      {
+        "word": "penembak",
+        "affix": "peN-",
+        "gloss": "射手；开枪者"
+      },
+      {
+        "word": "menembaknya",
+        "affix": "meN- + -nya",
+        "gloss": "向他／她／它射击"
+      }
+    ],
+    "root_jawi": "تيمبق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "向他、她或语境中已指明的目标开枪；在口语中也可指用游戏武器射击该目标。",
+      "en_definition": "Shoot him, her, or a contextually identified target.",
+      "ms_definition": "Melepaskan peluru daripada senjata api ke arah orang atau sasaran yang dirujuk oleh -nya.",
+      "nuances": "-nya 在此标示射击的对象，不表示射击者，也不自行标示动作已经发生。祈使句可用 tembaknya；陈述式主动句通常用 menembaknya，口语则可省略 meN-。射击不必然表示击中或射杀。词根的射击义见 [DBP：menembak](https://prpm.dbp.gov.my/cari1?keyword=menembak)。输入所引的 Mn（米南加保语）“方向、目的”属于 tembak 的另一词义，不能直接作为现代常用射击义的定义。tembak 的口语“猜答案”义也不能脱离上下文套用于本形式。",
+      "collocations": [
+        {
+          "ms": "jangan tembaknya",
+          "zh": "不要向他／她开枪",
+          "en": "do not shoot him or her"
+        },
+        {
+          "ms": "cuba tembaknya",
+          "zh": "试图向他／她射击",
+          "en": "try to shoot him or her"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam latihan simulasi itu, jurulatih memberikan arahan, “Jangan tembaknya kerana dia memainkan peranan sebagai orang awam.”",
+      "zh": "在那次模拟训练中，教官下令：“不要向他开枪，因为他扮演的是平民。”",
+      "en": "During the simulation exercise, the instructor ordered, “Do not shoot him, as he is playing a civilian.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah nak tembaknya tadi, nasib baik nampak nama dia!",
+      "ms_standard": "Saya hampir menembaknya tadi; mujurlah saya terlihat namanya!",
+      "zh": "我刚才差点就朝他开枪了，幸好看到了他的名字！",
+      "en": "I almost shot him just now—luckily, I spotted his name!",
+      "spoken_features": [
+        "游戏语境：射击对象是玩家角色。",
+        "aku 是熟人之间使用的第一人称代词。",
+        "dah nak 在此表示动作即将发生；标准语用 hampir 表达“差点”。",
+        "tembaknya 省略主动词前缀 meN-；标准陈述句用 menembaknya。",
+        "口语中 tembak dia 也很自然；tembaknya 的表达较紧凑。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (游戏好友)",
+          "ms_spoken": "Aku dah nak tembaknya tadi, nasib baik nampak nama dia!",
+          "ms_standard": "Saya hampir menembaknya tadi; mujurlah saya terlihat namanya!",
+          "zh": "我刚才差点就朝他开枪了，幸好看到了他的名字！",
+          "en": "I almost shot him just now—luckily, I spotted his name!"
+        },
+        {
+          "speaker": "Farah (游戏好友)",
+          "ms_spoken": "Eh, dia kawan kita lah. Tengok nama dulu sebelum tembak!",
+          "ms_standard": "Dia rakan sepasukan kita. Lihat namanya dahulu sebelum menembak!",
+          "zh": "诶，他是咱们队友啦。开枪前先看名字！",
+          "en": "Hey, he's on our team! Check the name before you shoot!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tembaknya combines the Malay shooting verb tembak with the attached third-person pronoun -nya. Its structure shows how Malay can place information about an action and its target within one written word. The supplied dictionary extract records a separate Minangkabau sense involving direction or intention. That regional meaning should be distinguished from the shooting sense, rather than treated as proof of its historical origin.",
+    "cognitive_memory_aid": "把 tembak 想成“瞄准开枪”，再把 -nya 想成接在后面的“他／她”：tembak + nya，就是“朝他／她开枪”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与熟人讨论游戏时可以使用简短口语表达；正式陈述通常使用 menembaknya，并明确 -nya 所指的人物。-nya 本身不表达敬意，涉及受尊敬的人物时，可按语境明确使用姓名、职衔或 beliau。",
+    "usage_etiquette": "适用于射击训练、新闻叙述、文学及明确的游戏语境。直接对现实中的人说“我会 tembaknya”容易被理解为暴力威胁；玩笑中也应确保对方清楚游戏或虚构背景。新闻翻译须区分“向其开枪”“击中”和“射杀”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与熟人讨论游戏时可以使用简短口语表达；正式陈述通常使用 menembaknya，并明确 -nya 所指的人物。-nya 本身不表达敬意，涉及受尊敬的人物时，可按语境明确使用姓名、职衔或 beliau。",
+    "usage_etiquette": "适用于射击训练、新闻叙述、文学及明确的游戏语境。直接对现实中的人说“我会 tembaknya”容易被理解为暴力威胁；玩笑中也应确保对方清楚游戏或虚构背景。新闻翻译须区分“向其开枪”“击中”和“射杀”。"
+  }
+}
