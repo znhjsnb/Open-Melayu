@@ -1,0 +1,105 @@
+{
+  "headword": {
+    "word": "atok",
+    "syllables": null,
+    "ipa": "[ˈʔa.t̪oʔ]",
+    "jawi": null,
+    "frequency_rank": 13714,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "atok",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + atok → atok",
+    "pattern_note": "独立亲属称谓，属于 atuk 的口语变体；词末 k 在所给读音中实现为喉塞音 [ʔ]。输入未提供音节划分和爪夷文，保留 null。",
+    "word_family": [
+      {
+        "word": "atuk",
+        "affix": "∅（规范对应词形）",
+        "gloss": "爷爷；外公"
+      },
+      {
+        "word": "atok-atok",
+        "affix": "∅（整词重叠）",
+        "gloss": "爷爷们；老爷爷们"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "爷爷或外公；家庭中对祖父辈男性的亲昵称呼。",
+      "en_definition": "Grandfather; an affectionate family term for a grandfather.",
+      "ms_definition": "Datuk, iaitu bapa kepada ibu atau bapa; bentuk percakapan bagi atuk.",
+      "nuances": "不区分父系与母系祖父。atok 是口语拼写，规范对应词形为 atuk；DBP 将 atuk 标为口语词，释作 datuk。本字段的马来文释义据此整理，并非 atok 的独立官方释文。status 按指定结构保留，不表示此拼写适用于正式公文。[DBP：atuk](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=atuk)",
+      "collocations": [
+        {
+          "ms": "rumah atok",
+          "zh": "爷爷家；外公家",
+          "en": "Grandpa’s house"
+        },
+        {
+          "ms": "atok dan nenek",
+          "zh": "爷爷奶奶；外公外婆",
+          "en": "Grandpa and Grandma"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻人物报道中的亲属称谓说明",
+      "ms": "Beliau menjaga datuknya, yang dipanggil 'atok' oleh ahli keluarga, selepas pulang dari tempat kerja.",
+      "zh": "他下班回家后照顾祖父，家人都亲切地称祖父为“atok”。",
+      "en": "After returning from work, he looks after his grandfather, whom the family affectionately calls 'atok'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人商量探望祖父",
+      "ms_spoken": "Petang ni kita nak pergi rumah atok, kan?",
+      "ms_standard": "Petang ini kita hendak pergi ke rumah datuk, bukan?",
+      "zh": "我们今天傍晚要去爷爷家，对吧？",
+      "en": "We’re going to Grandpa’s this evening, right?",
+      "spoken_features": [
+        "ni 是 ini 的口语形式",
+        "nak 对应 hendak",
+        "rumah 前省略方向介词 ke",
+        "kan 用于寻求确认",
+        "atok 是家庭口语称谓"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Petang ni kita nak pergi rumah atok, kan?",
+          "ms_standard": "Petang ini kita hendak pergi ke rumah datuk, bukan?",
+          "zh": "我们今天傍晚要去爷爷家，对吧？",
+          "en": "We’re going to Grandpa’s this evening, right?"
+        },
+        {
+          "speaker": "Hakim (弟弟)",
+          "ms_spoken": "Ya, atok dah tunggu kita kat rumah. Jom gerak!",
+          "ms_standard": "Ya, datuk sudah menunggu kita di rumah. Mari kita bertolak!",
+          "zh": "对，爷爷已经在家等我们了。走吧！",
+          "en": "Yes, Grandpa’s already waiting for us at home. Let’s go!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Atok belongs to the intimate vocabulary of family life rather than ceremonial titles. Its standard counterpart, atuk, is recorded by DBP as a colloquial term for datuk. The spelling atok reflects a familiar spoken variant. No securely dated origin for this particular spelling is established by the supplied evidence.",
+    "cognitive_memory_aid": "把 atok 的结尾读得短促，想象孩子一进家门就喊“爷爷！”；记住它同时可以指外公。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称呼自己的祖父时亲切自然；称呼陌生长者前应留意对方习惯，不能仅凭年龄就认定对方愿意被叫 atok。",
+    "usage_etiquette": "适合家庭聊天、儿童对白及人物引语。正式叙述通常使用 datuk；亲属称谓 atok 本身不表示对方拥有 Datuk 勋衔。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称呼自己的祖父时亲切自然；称呼陌生长者前应留意对方习惯，不能仅凭年龄就认定对方愿意被叫 atok。",
+    "usage_etiquette": "适合家庭聊天、儿童对白及人物引语。正式叙述通常使用 datuk；亲属称谓 atok 本身不表示对方拥有 Datuk 勋衔。"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "selnya",
+    "syllables": null,
+    "ipa": "/sel.ɲa/",
+    "jawi": "سيل",
+    "frequency_rank": 13722,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sel",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "sel + -nya → selnya",
+    "pattern_note": "-nya 是附着在名词后的代词性成分，此处按 suffix 归类；ny 表示 /ɲ/，词基不变。输入 Jawi سيل 对应 sel，未包含 -nya。",
+    "word_family": [
+      {
+        "word": "sel",
+        "affix": null,
+        "gloss": "细胞；牢房；电池单元"
+      },
+      {
+        "word": "bersel",
+        "affix": "ber-",
+        "gloss": "具有细胞的"
+      }
+    ],
+    "root_jawi": "سيل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "其细胞；所指对象的细胞，单复数由语境决定。",
+      "en_definition": "The cell or cells of the person or organism referred to.",
+      "ms_definition": "Sel yang dimiliki oleh atau berkaitan dengan orang atau organisma yang dirujuk; sel ialah unit asas struktur dan fungsi hidupan.",
+      "nuances": "-nya 的所指须由上下文确定。selnya 不能单独表示‘他的手机’。输入释义提到细胞核，但并非所有细胞都有细胞核。此处马来文为释义转述。[PRPM：sel](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sel)",
+      "collocations": [
+        {
+          "ms": "struktur selnya",
+          "zh": "其细胞的结构",
+          "en": "the structure of its cells"
+        },
+        {
+          "ms": "pembahagian selnya",
+          "zh": "其细胞的分裂",
+          "en": "the division of its cells"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "他或她被关押的牢房；上下文中所指的牢房。",
+      "en_definition": "His or her prison cell, or the cell referred to in context.",
+      "ms_definition": "Bilik kurungan kecil di penjara yang dihuni oleh orang yang dirujuk atau dikenal pasti melalui konteks.",
+      "nuances": "表示与囚犯有关的牢房，不表示囚犯拥有该房间的产权。也不等同于一般卧室。",
+      "collocations": [
+        {
+          "ms": "pintu selnya",
+          "zh": "他或她的牢房门",
+          "en": "the door of his or her cell"
+        },
+        {
+          "ms": "di dalam selnya",
+          "zh": "在他或她的牢房里",
+          "en": "inside his or her cell"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "其电池单元；所指电池或装置中的电化学单元。",
+      "en_definition": "Its electrochemical cell or cells, especially those within a battery.",
+      "ms_definition": "Unit elektrokimia dalam bateri atau peranti yang dirujuk, yang menukarkan tenaga kimia kepada tenaga elektrik.",
+      "nuances": "技术语境中，sel 指单个单元；bateri 可由一个或多个单元构成。-nya 不提供单复数信息。",
+      "collocations": [
+        {
+          "ms": "voltan selnya",
+          "zh": "其电池单元的电压",
+          "en": "the voltage of its cells"
+        },
+        {
+          "ms": "salah satu selnya",
+          "zh": "其中一个电池单元",
+          "en": "one of its cells"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sampel tisu itu diperiksa untuk mengenal pasti perubahan pada struktur selnya.",
+      "zh": "研究人员检查了该组织样本，以识别其细胞结构的变化。",
+      "en": "The tissue sample was examined to identify changes in the structure of its cells."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bateri ni dah lemah sebab salah satu selnya rosak.",
+      "ms_standard": "Bateri ini sudah lemah kerana salah satu selnya rosak.",
+      "zh": "这块电池不太行了，因为里面有一个电芯坏了。",
+      "en": "This battery is getting weak because one of its cells is faulty.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式",
+        "dah 是 sudah 的口语形式",
+        "sebab 在口语中常用来引出原因"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bateri ni dah lemah sebab salah satu selnya rosak.",
+          "ms_standard": "Bateri ini sudah lemah kerana salah satu selnya rosak.",
+          "zh": "这块电池不太行了，里面有一个电芯坏了。",
+          "en": "This battery is getting weak because one of its cells is faulty."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Oh, patutlah. Kita bawa ke kedai esok je.",
+          "ms_standard": "Oh, patutlah. Kita bawa bateri ini ke kedai esok sahaja.",
+          "zh": "哦，难怪。我们明天再拿去店里吧。",
+          "en": "Oh, that explains it. Let's just take it to the shop tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sel belongs to the international vocabulary of cells. In 1665, Robert Hooke illustrated the small compartments visible in cork in Micrographia, an important episode in the history of biological cell terminology. Malay uses sel for biological cells, prison compartments and electrical cells. Adding -nya connects the relevant cell to an identifiable referent. [Library of Congress: Hooke’s cork illustration](https://www.loc.gov/resource/cph.3b41351/)",
+    "cognitive_memory_aid": "sel 对应英语 cell；再接 -nya‘其’，就记成‘其细胞／其牢房／其电池单元’。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性。谈论他人的身体组织、检测结果或监禁经历时，措辞应尊重当事人。",
+    "usage_etiquette": "先交代 -nya 指谁或什么，避免歧义。生物学、电池维修与监狱语境中的 sel 应分别理解。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性。谈论他人的身体组织、检测结果或监禁经历时，措辞应尊重当事人。",
+    "usage_etiquette": "先交代 -nya 指谁或什么，避免歧义。生物学、电池维修与监狱语境中的 sel 应分别理解。"
+  }
+}

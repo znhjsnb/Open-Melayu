@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "dealer",
+    "syllables": null,
+    "ipa": "/ˈdiː.lə/",
+    "jawi": null,
+    "frequency_rank": 13648,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dealer",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dealer → dealer",
+    "pattern_note": "在马来语使用中按英语整词处理；英语内部可分析为deal + -er，但-er不是此处的马来语后缀。IPA采用英式英语读音；输入未提供音节划分或Jawi，保留null。",
+    "word_family": [
+      {
+        "word": "deal",
+        "affix": null,
+        "gloss": "英语同词族：交易；发牌"
+      },
+      {
+        "word": "dealership",
+        "affix": "-ship（英语后缀）",
+        "gloss": "英语同词族：经销企业；经销权"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "以买卖某类商品为业的人或企业；经销商、商贩，某些语境下也指交易商。",
+      "en_definition": "A person or business that buys and sells a particular type of goods or assets.",
+      "ms_definition": "Orang atau syarikat yang menjalankan urusan jual beli barang tertentu; peniaga, peraih atau pengedar mengikut konteks.",
+      "nuances": "这是马来西亚商业口语中可见的英语用词。DBP英马词典给出peniaga、peraih等对应词；不能仅因英语词出现在PRPM就认定它已成为规范马来语词。以下马来语释义为解释性整合。经销商不必然是制造商的授权代理，金融交易商也不必然等同broker。参见[DBP英马词典](https://prpm.dbp.gov.my/cari1?keyword=dealer)。",
+      "collocations": [
+        {
+          "ms": "dealer kereta terpakai",
+          "zh": "二手车商",
+          "en": "used-car dealer"
+        },
+        {
+          "ms": "dealer sah",
+          "zh": "授权经销商",
+          "en": "authorised dealer"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "纸牌游戏中负责发牌的人；赌场纸牌游戏中的荷官。",
+      "en_definition": "The person who distributes the cards in a card game.",
+      "ms_definition": "Orang yang membahagikan daun terup dalam permainan kad.",
+      "nuances": "英语纸牌术语，马来语可用pembahagi kad或pembahagi daun terup。普通朋友间的纸牌游戏也有dealer，并不必然涉及赌博或职业荷官。参见[DBP英马词典](https://prpm.dbp.gov.my/cari1?keyword=dealer)。",
+      "collocations": [
+        {
+          "ms": "dealer dalam permainan poker",
+          "zh": "扑克游戏中的发牌者",
+          "en": "the dealer in a poker game"
+        },
+        {
+          "ms": "giliran menjadi dealer",
+          "zh": "轮到担任发牌者",
+          "en": "a turn to be the dealer"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "贩卖非法毒品的人；毒贩。",
+      "en_definition": "A person who sells illegal drugs.",
+      "ms_definition": "Orang yang menjual atau mengedarkan dadah secara haram.",
+      "nuances": "这是英语dealer的特定义项；马来语正式表达通常为pengedar dadah。单独出现dealer时必须结合上下文，不应把普通经销商误解为毒贩。该英语义项及其历史见[词源词典](https://www.etymonline.com/word/dealer)。",
+      "collocations": [
+        {
+          "ms": "dealer dadah",
+          "zh": "毒贩",
+          "en": "drug dealer"
+        },
+        {
+          "ms": "dealer dadah jalanan",
+          "zh": "街头毒贩",
+          "en": "street drug dealer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Istilah Inggeris dealer dalam dokumen ini merujuk kepada peniaga kereta terpakai.",
+      "zh": "本文件中的英语术语dealer指二手车商。",
+      "en": "The English term dealer in this document refers to a used-car trader."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah tanya dealer tu, kereta ni masih ada lagi.",
+      "ms_standard": "Saya sudah bertanya kepada peniaga itu, dan kereta ini masih tersedia untuk dijual.",
+      "zh": "我问过那个车商了，这辆车还没卖掉。",
+      "en": "I've checked with the dealer. This car is still available.",
+      "spoken_features": [
+        "dealer为英语与马来语混用",
+        "aku用于熟人之间",
+        "dah、tu、ni分别对应sudah、itu、ini",
+        "口语中tanya后可省略标准语的kepada"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah tanya dealer tu. Kereta yang kau nak masih ada lagi.",
+          "ms_standard": "Saya sudah bertanya kepada peniaga itu. Kereta yang kamu mahukan masih tersedia untuk dijual.",
+          "zh": "我问过那个车商了，你想要的那辆车还在。",
+          "en": "I've checked with the dealer. The car you wanted is still available."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Baguslah. Aku nak tengok kereta tu dulu, baru bincang harga.",
+          "ms_standard": "Baguslah. Saya mahu melihat kereta itu dahulu sebelum membincangkan harganya.",
+          "zh": "那就好。我想先看车，再谈价钱。",
+          "en": "Great. I'd like to see the car before we talk about the price."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English dealer belongs to the family of deal, whose older meanings involved dividing and distributing. That connection explains both a trader distributing goods and a card player distributing cards. The commercial and card-playing senses developed centuries ago, while the illegal-drug sense is later. Malaysian commercial conversation uses the English word alongside Malay equivalents such as peniaga and pengedar. [Etymology](https://www.etymonline.com/word/dealer); [DBP equivalents](https://prpm.dbp.gov.my/cari1?keyword=dealer).",
+    "cognitive_memory_aid": "把开头的/diːl/联想到英语deal“交易”：dealer就是做交易的人；换到牌桌上，deal变成“发牌”，dealer就是发牌者。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与销售人员交谈时，宜使用姓名或Encik、Puan等称谓；dealer适合描述职业角色，不宜直接当面用作称呼。",
+    "usage_etiquette": "汽车、零售及商业聊天中常见英语混用。正式马来语文件宜按角色选用peniaga、pengedar或wakil jualan；只有明确涉及毒品时才解释为pengedar dadah。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与销售人员交谈时，宜使用姓名或Encik、Puan等称谓；dealer适合描述职业角色，不宜直接当面用作称呼。",
+    "usage_etiquette": "汽车、零售及商业聊天中常见英语混用。正式马来语文件宜按角色选用peniaga、pengedar或wakil jualan；只有明确涉及毒品时才解释为pengedar dadah。"
+  }
+}

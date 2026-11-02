@@ -1,0 +1,173 @@
+{
+  "headword": {
+    "word": "pandanganku",
+    "syllables": null,
+    "ipa": "/pandaŋanku/",
+    "jawi": "ڤندڠن",
+    "frequency_rank": 13654,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pandangan",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "pandangan + -ku → pandanganku",
+    "pattern_note": "-ku 是 aku 的附着形式，此处表示“我的”，与名词连写，不引起音变。更深层构词为 pandang + -an → pandangan。输入爪夷文 ڤندڠن 对应 pandangan；完整 pandanganku 应写作 ڤندڠنکو。音节可分析为 pan.da.ngan.ku；syllables 字段保留输入的 null。",
+    "word_family": [
+      {
+        "word": "pandang",
+        "affix": null,
+        "gloss": "看；注视的基本词根"
+      },
+      {
+        "word": "memandang",
+        "affix": "meN-",
+        "gloss": "注视；看待"
+      },
+      {
+        "word": "pandangan",
+        "affix": "-an",
+        "gloss": "目光；看法"
+      },
+      {
+        "word": "pemandangan",
+        "affix": "peN-...-an",
+        "gloss": "景色；景观"
+      }
+    ],
+    "root_jawi": "ڤندڠن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "我的看法、意见或对某人某事的判断。",
+      "en_definition": "My opinion, perspective, or assessment of someone or something.",
+      "ms_definition": "Pendapat, tanggapan atau pertimbangan aku tentang seseorang atau sesuatu perkara.",
+      "nuances": "这是现代语境中最常见的理解。Pada pandanganku 表示“在我看来”，明确标示个人判断，不自动表示已经证实的事实。基础词义参见 [DBP：pandangan](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=pandangan)。",
+      "collocations": [
+        {
+          "ms": "pada pandanganku",
+          "zh": "在我看来",
+          "en": "in my view"
+        },
+        {
+          "ms": "pandanganku terhadap perkara itu",
+          "zh": "我对那件事的看法",
+          "en": "my view of that matter"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "我的目光、视线或注视。",
+      "en_definition": "My gaze or the direction of my eyes.",
+      "ms_definition": "Renungan atau arah mata aku ketika memandang seseorang atau sesuatu.",
+      "nuances": "强调眼睛朝向或注视的动作，常见于叙事；不能一律译成“我的意见”。",
+      "collocations": [
+        {
+          "ms": "mengalihkan pandanganku",
+          "zh": "移开我的目光",
+          "en": "avert my gaze"
+        },
+        {
+          "ms": "memusatkan pandanganku pada",
+          "zh": "将我的目光集中在",
+          "en": "focus my gaze on"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "我眼前所见的景象或我的可见范围。",
+      "en_definition": "What I can see, or the view available to me.",
+      "ms_definition": "Gambaran yang terlihat oleh mata aku atau ruang yang dapat aku lihat.",
+      "nuances": "常与遮挡、清晰程度或消失于视野等表达连用；描述风景本身通常用 pemandangan。",
+      "collocations": [
+        {
+          "ms": "menghalang pandanganku",
+          "zh": "挡住我的视线",
+          "en": "block my view"
+        },
+        {
+          "ms": "hilang daripada pandanganku",
+          "zh": "从我的视野中消失",
+          "en": "disappear from my sight"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "我所关注的对象；引申为我所敬重、倾慕或向往的人或事物。",
+      "en_definition": "The object of my attention, admiration, or aspirations.",
+      "ms_definition": "Seseorang atau sesuatu yang menjadi perhatian aku, atau yang aku hormati, kagumi atau cita-citakan.",
+      "nuances": "承接 pandangan 的较少见义项，带有文学色彩。以下为该义的用法示例，不能视为现代高频搭配；日常表达可改用 perhatianku、orang yang aku kagumi 等。",
+      "collocations": [
+        {
+          "ms": "menjadi pandanganku",
+          "zh": "成为我关注或倾慕的对象",
+          "en": "become the object of my attention or admiration"
+        },
+        {
+          "ms": "dialah pandanganku",
+          "zh": "他／她就是我所倾慕的人",
+          "en": "he or she is the one I admire"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pada pandanganku, cadangan ini perlu dinilai berdasarkan kesannya terhadap masyarakat.",
+      "zh": "在我看来，应根据这项建议对社会的影响来作出评估。",
+      "en": "In my view, this proposal should be assessed on the basis of its impact on society."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pada pandanganku, kita tunggu esok je lah.",
+      "ms_standard": "Pada pandangan saya, lebih baik kita menunggu sehingga esok.",
+      "zh": "我看我们就等到明天吧。",
+      "en": "I reckon we should just wait until tomorrow.",
+      "spoken_features": [
+        "je 是 sahaja 的口语形式。",
+        "lah 在这里缓和建议的语气。",
+        "pandanganku 在聊天中略显书面；熟人之间也常说 aku rasa。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Pada pandanganku, kita tunggu esok je lah. Amir pun tak balas lagi.",
+          "ms_standard": "Pada pandangan saya, lebih baik kita menunggu sehingga esok. Amir juga belum membalas.",
+          "zh": "我看就等明天吧，Amir 也还没回复。",
+          "en": "I reckon we should just wait until tomorrow. Amir hasn't replied either."
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Boleh, aku dah mesej dia tadi. Esok kita tanya lagi.",
+          "ms_standard": "Baiklah, saya sudah menghantar mesej kepadanya tadi. Kita akan bertanya lagi esok.",
+          "zh": "行，我刚才已经发信息给他了，明天再问吧。",
+          "en": "Sure. I messaged him earlier. Let's ask him again tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pandanganku brings together three familiar Malay elements: pandang, meaning to look; -an, forming pandangan; and -ku, the attached form of aku. The dictionary records both physical sight and personal opinion under pandangan. Their connection offers a useful interpretive bridge: a person's view can be something seen with the eyes or understood with the mind.",
+    "cognitive_memory_aid": "pandang 是“看”，pandangan 是“看法”，尾巴 -ku 把它领回“我”：pandanganku＝我的看法／我的目光。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲密关系、个人叙述和文学表达。向上司、客户或不熟悉的人陈述意见时，通常用 pada pandangan saya 更稳妥。",
+    "usage_etiquette": "提出异议时可说 Pada pandangan saya, mungkin…，给对方保留讨论空间。不要因为使用“我的看法”就把未经核实的指控写成事实。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲密关系、个人叙述和文学表达。向上司、客户或不熟悉的人陈述意见时，通常用 pada pandangan saya 更稳妥。",
+    "usage_etiquette": "提出异议时可说 Pada pandangan saya, mungkin…，给对方保留讨论空间。不要因为使用“我的看法”就把未经核实的指控写成事实。"
+  }
+}

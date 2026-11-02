@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "salai",
+    "syllables": "sa.lai",
+    "ipa": "/sa.lai̯/",
+    "jawi": "سالاي",
+    "frequency_rank": 13726,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "salai",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + salai → salai",
+    "pattern_note": "词根无词缀；末尾 ai 为双元音。构成 menyalai、penyalai 时，meN-、peN- 在词首 s 前分别实现为 meny-、peny-，原 s 脱落。",
+    "word_family": [
+      {
+        "word": "menyalai",
+        "affix": "meN-",
+        "gloss": "熏制；用火烘干"
+      },
+      {
+        "word": "bersalai",
+        "affix": "ber-",
+        "gloss": "正在熏干；靠火取暖"
+      },
+      {
+        "word": "salaian",
+        "affix": "-an",
+        "gloss": "熏制品；熏架"
+      },
+      {
+        "word": "penyalai",
+        "affix": "peN-",
+        "gloss": "熏制用具或架子"
+      },
+      {
+        "word": "penyalaian",
+        "affix": "peN-...-an",
+        "gloss": "熏制过程"
+      }
+    ],
+    "root_jawi": "سالاي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "熏制或在火上烘干的；用于说明鱼、肉、香蕉等经过烟熏或火热干燥处理。",
+      "en_definition": "Smoked or dried over a fire, especially of fish, meat, or fruit.",
+      "ms_definition": "Dikeringkan dengan cara diasapi atau dipanggang di atas api, seperti ikan atau pisang.",
+      "nuances": "常置于食物名称之后，表示处理方法或制成状态。与 bakar、panggang 的意义有重叠，但 salai 尤其突出熏制或烘干，不宜把所有烤制食品都称为 salai。依据：[DBP：salai](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=salai)。",
+      "collocations": [
+        {
+          "ms": "ikan salai",
+          "zh": "熏鱼",
+          "en": "smoked fish"
+        },
+        {
+          "ms": "daging salai",
+          "zh": "熏肉",
+          "en": "smoked meat"
+        },
+        {
+          "ms": "pisang salai",
+          "zh": "火烘或烟熏香蕉干",
+          "en": "fire-dried or smoked bananas"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把食物等放在火上熏干或烘干；此处为动词词根形式，常见于指令。",
+      "en_definition": "To smoke or dry something over a fire; the bare verb form, especially in instructions.",
+      "ms_definition": "Mengeringkan sesuatu dengan mengasapinya atau memanggangnya di atas api.",
+      "nuances": "标准主动陈述句通常使用 menyalai；salai 可直接用于祈使句或食谱步骤。bersalai 另可指传统的靠火取暖习俗，不能因此把该意义直接套用于所有含 salai 的食品名称。",
+      "collocations": [
+        {
+          "ms": "salai ikan",
+          "zh": "熏鱼；把鱼熏干",
+          "en": "smoke the fish"
+        },
+        {
+          "ms": "salai daging",
+          "zh": "熏肉；把肉熏干",
+          "en": "smoke the meat"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pengusaha tempatan itu membekalkan daging salai kepada beberapa buah restoran.",
+      "zh": "该本地业者向数家餐馆供应熏肉。",
+      "en": "The local producer supplies smoked meat to several restaurants."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat kedai tu ada daging salai, nak cuba tak?",
+      "ms_standard": "Di kedai itu ada daging salai. Adakah awak mahu mencubanya?",
+      "zh": "那家店有熏肉，要不要试试？",
+      "en": "That shop has smoked meat. Want to try it?",
+      "spoken_features": [
+        "kat 对应标准语 di，表示地点。",
+        "tu 是 itu 的口语形式。",
+        "nak 对应 mahu；句末 tak 构成口语疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kat kedai tu ada daging salai, nak cuba tak?",
+          "ms_standard": "Di kedai itu ada daging salai. Adakah awak mahu mencubanya?",
+          "zh": "那家店有熏肉，要不要试试？",
+          "en": "That shop has smoked meat. Want to try it?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nak! Kita ambil satu pinggan dulu je, ya.",
+          "ms_standard": "Ya, saya mahu mencubanya. Kita pesan satu pinggan dahulu.",
+          "zh": "要！我们先点一盘就好。",
+          "en": "Yes! Let's just order one plate first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary records salai alongside fish and bananas dried over a fire, while its derivatives also describe smoking rubber and warming the body near embers. These uses share a concrete image: material or a person exposed to heat. This explains the semantic connection, but does not establish a dated origin or a particular donor language.",
+    "cognitive_memory_aid": "读 sa-lai，想象“撒来一缕烟”：烟慢慢绕过食物，留下熏香。此为记忆联想，并非词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "食品语境中属中性日常词，菜单、市场交谈及正式食品介绍均可使用。",
+    "usage_etiquette": "购买熏肉时可礼貌询问肉类及配料；salai 只说明加工方式，本身不表示清真认证。谈论 bersalai 的产后传统时，应尊重个人与家庭选择。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "食品语境中属中性日常词，菜单、市场交谈及正式食品介绍均可使用。",
+    "usage_etiquette": "购买熏肉时可礼貌询问肉类及配料；salai 只说明加工方式，本身不表示清真认证。谈论 bersalai 的产后传统时，应尊重个人与家庭选择。"
+  }
+}

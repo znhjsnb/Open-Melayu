@@ -1,0 +1,158 @@
+{
+  "headword": {
+    "word": "habisi",
+    "syllables": null,
+    "ipa": "/habisi/",
+    "jawi": "هابيسي",
+    "frequency_rank": 13686,
+    "status": "official",
+    "verification_note": "habisi 是 menghabisi 去掉 meN- 后的形式，可用于祈使句或第一、第二人称被动结构。数据包的 هابيس 是词根 habis 的拼写；此处补入后缀 -i 对应的 ي。音标按词形推定；频率排名沿用输入，未独立验证。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "habis",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "habis + -i → habisi；meN- + habis + -i → menghabisi",
+    "pattern_note": "添加 -i 时保留词根全部辅音，末尾 s 随后接元音；完整主动形式的 meN- 在 h 前实现为 meng-，h 保留。",
+    "word_family": [
+      {
+        "word": "menghabisi",
+        "affix": "meN-…-i",
+        "gloss": "结束；消除；杀死"
+      },
+      {
+        "word": "menghabiskan",
+        "affix": "meN-…-kan",
+        "gloss": "用尽；吃完；完成"
+      },
+      {
+        "word": "kehabisan",
+        "affix": "ke-…-an",
+        "gloss": "耗尽；没有剩余"
+      },
+      {
+        "word": "penghabisan",
+        "affix": "peN-…-an",
+        "gloss": "终结；最后部分"
+      }
+    ],
+    "root_jawi": "هابيس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "结束、收束某项活动、讲话或过程。",
+      "en_definition": "To bring an activity, speech, or process to an end.",
+      "ms_definition": "Membawa sesuatu kegiatan, ucapan atau proses kepada penghujungnya.",
+      "nuances": "对应 DBP menghabisi 的结束义。habisi 本身常出现在命令或 saya habisi 等结构中；中性主动陈述使用 menghabisi。日常表达完成工作或吃完食物时，通常用 siapkan、habiskan 等更自然。马来文释义为依据 DBP 义项撰写的释义，并非官方原文引述。",
+      "collocations": [
+        {
+          "ms": "menghabisi ucapan",
+          "zh": "结束讲话",
+          "en": "conclude a speech"
+        },
+        {
+          "ms": "menghabisi upacara",
+          "zh": "结束仪式",
+          "en": "bring a ceremony to a close"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "消除或使某种感情、状态等不再存在。",
+      "en_definition": "To eliminate or put an end to a feeling or condition.",
+      "ms_definition": "Melenyapkan sesuatu perasaan atau keadaan sehingga tidak berterusan.",
+      "nuances": "较具文学色彩；不能把它当作所有语境中 hapuskan 或 hilangkan 的固定替代词。以下搭配用于说明已核实义项，不代表经过语料统计的高频排名。",
+      "collocations": [
+        {
+          "ms": "menghabisi perasaan itu",
+          "zh": "消除那种感情",
+          "en": "put an end to that feeling"
+        },
+        {
+          "ms": "habisi rasa benci",
+          "zh": "消除仇恨",
+          "en": "let go of hatred"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "杀死；结束某人的生命。",
+      "en_definition": "To kill someone; to end someone's life.",
+      "ms_definition": "Menyebabkan seseorang kehilangan nyawa.",
+      "nuances": "用于人作宾语时，容易被理解为杀害。不是一般的责备、解雇或完成任务；在威胁话语中语气尤其强烈。",
+      "collocations": [
+        {
+          "ms": "menghabisi mangsa",
+          "zh": "杀害受害者",
+          "en": "kill the victim"
+        },
+        {
+          "ms": "menghabisi orang tawanan",
+          "zh": "杀害俘虏",
+          "en": "kill a captive"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式致辞 / 演讲结语",
+      "ms": "Ucapan ini akan saya habisi dengan pesanan agar kita terus bekerjasama.",
+      "zh": "最后，我以一句嘱托结束这次讲话：愿我们继续携手合作。",
+      "en": "I will conclude this speech with an appeal for us to continue working together."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论台词",
+      "ms_spoken": "Ayat 'habisi dia' tu bunyi macam ugutan lah.",
+      "ms_standard": "Ayat 'habisi dia' itu kedengaran seperti suatu ugutan.",
+      "zh": "“干掉他”这句话听起来像威胁啊。",
+      "en": "'Finish him off' sounds like a threat.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略。",
+        "lah 加强说话者的判断。",
+        "dah 和 je 分别对应 sudah 和 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ayat 'habisi dia' tu bunyi macam ugutan lah.",
+          "ms_standard": "Ayat 'habisi dia' itu kedengaran seperti suatu ugutan.",
+          "zh": "“干掉他”这句话听起来像威胁啊。",
+          "en": "'Finish him off' sounds like a threat."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, aku dah tukar. Watak tu nak suruh dia berhenti je.",
+          "ms_standard": "Ya, saya sudah mengubahnya. Watak itu hanya mahu menyuruhnya berhenti.",
+          "zh": "对，我已经改了。那个角色只是想叫他停下来。",
+          "en": "Yeah, I've changed it. The character just wants him to stop."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The useful historical connection is within the Malay word family: habis expresses an endpoint, while menghabisi directs that endpoint towards something affected. DBP records uses involving the conclusion of a ceremony, the removal of a feeling, and the ending of a life. These meanings explain why an apparently simple instruction can become threatening when its object is a person. A deeper origin is not established here.",
+    "cognitive_memory_aid": "habis 是“到头、结束”；habis + -i，把“结束”作用到对象上。对象若是人，要想到“结束生命”的强烈含义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "habisi 的直接命令形式较强硬；礼貌请求应结合 sila 或 tolong，并根据实际意思选择更自然的动词。",
+    "usage_etiquette": "指完成工作可说 siapkan kerja；指吃完可说 habiskan makanan。避免随意对人说 habisi dia，因为可能被理解为杀害指令。"
+  },
+  "sources": [
+    "[DBP PRPM：menghabisi](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menghabisi)",
+    "[DBP PRPM：menghabiskan](https://prpm.dbp.gov.my/Cari1?d=146196&keyword=menghabiskan)"
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "habisi 的直接命令形式较强硬；礼貌请求应结合 sila 或 tolong，并根据实际意思选择更自然的动词。",
+    "usage_etiquette": "指完成工作可说 siapkan kerja；指吃完可说 habiskan makanan。避免随意对人说 habisi dia，因为可能被理解为杀害指令。"
+  }
+}

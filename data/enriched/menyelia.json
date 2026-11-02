@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "menyelia",
+    "syllables": "me.nye.lia",
+    "ipa": "/məɲəlia/",
+    "jawi": "مڽليا",
+    "frequency_rank": 13657,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyelia",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + selia → menyelia",
+    "pattern_note": "实际构词词根是 selia（سليا）。meN- 接以 s 开头的基本词时，通常以 meny- 出现，并脱落词首 s，ny 表示 /ɲ/。root_word 字段按要求保留输入的 menyelia，但该词本身是派生词，故 is_root 修正为 false。词根关系参见 [DBP：selia](https://prpm.dbp.gov.my/cari1?keyword=selia)。",
+    "word_family": [
+      {
+        "word": "selia",
+        "affix": null,
+        "gloss": "监督、照管的基本词根"
+      },
+      {
+        "word": "penyelia",
+        "affix": "peN-",
+        "gloss": "主管；督导；指导教师"
+      },
+      {
+        "word": "penyeliaan",
+        "affix": "peN-...-an",
+        "gloss": "监督；督导工作"
+      },
+      {
+        "word": "diselia",
+        "affix": "di-",
+        "gloss": "受到监督或指导"
+      }
+    ],
+    "root_jawi": "مڽليا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "监督、督导或照管某人的工作或某项活动，查看其执行情况并作必要指导。",
+      "en_definition": "To supervise or oversee a person's work, an activity, or an operation.",
+      "ms_definition": "Memerhatikan dan mengawasi kerja, kegiatan atau sesuatu keadaan supaya pelaksanaannya terkawal dan berjalan dengan baik.",
+      "nuances": "通常是及物动词，可直接接工作、项目、学生或员工等对象。重点是承担监督责任，不要求亲自完成每项任务，也不只指偶然看见。用于研究生培养时，可译为“指导”。释义参照 [DBP：selia／menyelia](https://prpm.dbp.gov.my/cari1?keyword=selia) 归纳。",
+      "collocations": [
+        {
+          "ms": "menyelia kerja pembinaan",
+          "zh": "监督施工",
+          "en": "supervise construction work"
+        },
+        {
+          "ms": "menyelia pelajar pascasiswazah",
+          "zh": "指导研究生",
+          "en": "supervise postgraduate students"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jurutera yang dilantik akan menyelia kerja pembinaan bagi memastikan spesifikasi projek dipatuhi.",
+      "zh": "获委任的工程师将监督施工，确保工程符合项目规格。",
+      "en": "The appointed engineer will supervise the construction work to ensure that the project specifications are followed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Esok aku kena menyelia kerja kat tapak, jadi mungkin lambat balas.",
+      "ms_standard": "Esok saya perlu menyelia kerja di tapak, jadi saya mungkin lambat membalas mesej.",
+      "zh": "明天我得在工地盯工程，可能会晚点回信息。",
+      "en": "I have to supervise work on site tomorrow, so I might be slow to reply.",
+      "spoken_features": [
+        "kena 在这里口语化地表示“得；必须”，不是被动标记。",
+        "kat 是 di 的口语对应形式。",
+        "lambat balas 在聊天中省略了 mesej，仍可由语境理解。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Esok aku kena menyelia kerja kat tapak. Kau nak jumpa pukul berapa?",
+          "ms_standard": "Esok saya perlu menyelia kerja di tapak. Awak hendak berjumpa pada pukul berapa?",
+          "zh": "明天我得在工地监督施工，你想几点见？",
+          "en": "I have to supervise work on site tomorrow. What time did you want to meet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Petang je lah. Bila dah habis, mesej aku ya.",
+          "ms_standard": "Kita berjumpa pada sebelah petang sahaja. Apabila kerja sudah selesai, hantarkan mesej kepada saya.",
+          "zh": "就下午吧。你忙完了发信息给我哦。",
+          "en": "Let's make it the afternoon. Message me when you're done, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menyelia belongs to the Malay family built on selia, alongside penyelia, a supervisor, and penyeliaan, supervision. Its initial sound demonstrates a productive Malay pattern: adding meN- to an s-initial base replaces that s with ny. The family links a familiar workplace role with the action and responsibility that define it, rather than naming mere observation.",
+    "cognitive_memory_aid": "认出 penyelia“主管”，就能记住 menyelia“做主管的事”：看进度、作指导、负监督责任。构词时 s 让位给 ny。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性而专业的用词。称呼具体主管时，通常使用姓名配合 encik、puan、博士头衔或单位惯用称谓；直接用 penyelia 称呼本人可能显得生硬。",
+    "usage_etiquette": "适合工作管理、施工、教学和研究指导。描述自己的职责时应与实际授权一致；menyelia 表示监督职责，并不自动表示拥有最终审批权。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性而专业的用词。称呼具体主管时，通常使用姓名配合 encik、puan、博士头衔或单位惯用称谓；直接用 penyelia 称呼本人可能显得生硬。",
+    "usage_etiquette": "适合工作管理、施工、教学和研究指导。描述自己的职责时应与实际授权一致；menyelia 表示监督职责，并不自动表示拥有最终审批权。"
+  }
+}

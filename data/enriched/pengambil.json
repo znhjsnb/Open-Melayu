@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "pengambil",
+    "syllables": "pe.ngam.bil",
+    "ipa": "/pə.ŋam.bil/",
+    "jawi": "ڤڠمبيل",
+    "frequency_rank": 13716,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pengambil",
+    "affix": "peN-（实现为 peng-）",
+    "affix_type": "prefix",
+    "formula": "peN- + ambil → peng- + ambil → pengambil",
+    "pattern_note": "元音 a 前，施事前缀 peN- 实现为 peng-，ambil 保持不变。root_word 和 root_jawi 按要求保留输入值，但输入将派生词误作词根；实际构词词根为 ambil（امبيل），因此 is_root 校正为 false。",
+    "word_family": [
+      {
+        "word": "mengambil",
+        "affix": "meN-",
+        "gloss": "拿取；领取"
+      },
+      {
+        "word": "pengambilan",
+        "affix": "peN-...-an",
+        "gloss": "拿取、采集或招收的过程"
+      }
+    ],
+    "root_jawi": "ڤڠمبيل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "拿取、领取、采集或承接某物的人或一方；具体角色由后接成分说明。",
+      "en_definition": "A person or party that takes, collects, or receives something.",
+      "ms_definition": "Orang yang mengambil.",
+      "nuances": "这是施事名词，表示“执行 mengambil 的人”，不等于表示过程的 pengambilan，也不自动含有偷窃意味。pengambil bahagian 是“参与者”；pengambil insurans 指投保的一方，具体法律身份须结合保单条款判断。[DBP：pengambil](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pengambil)",
+      "collocations": [
+        {
+          "ms": "pengambil bahagian",
+          "zh": "参与者",
+          "en": "participant"
+        },
+        {
+          "ms": "pengambil insurans",
+          "zh": "投保人；购买保险的一方",
+          "en": "insurance taker"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "水利工程中从水源引入、控制或导流来水的取水设施或取水构筑物。",
+      "en_definition": "An intake structure that admits and controls water from a source.",
+      "ms_definition": "Binaan atau tapak untuk mengawal, mengendali, melencong dan memasukkan air dari puncanya melalui pemasuk.",
+      "nuances": "这是 DBP 所收水文学专业义，指设施而非人员；应依水利上下文理解。以下组合用于说明专业搭配，不据此声称其具有通用语料高频性。[DBP：pengambil，水文学术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pengambil)",
+      "collocations": [
+        {
+          "ms": "pengambil air",
+          "zh": "取水设施",
+          "en": "water intake"
+        },
+        {
+          "ms": "struktur pengambil",
+          "zh": "取水构筑物",
+          "en": "intake structure"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "活动通知 / 会务安排",
+      "ms": "Semua pengambil bahagian diminta mendaftar di kaunter sebelum seminar bermula.",
+      "zh": "请所有参与者在研讨会开始前到柜台登记。",
+      "en": "All participants are requested to register at the counter before the seminar begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认活动人数",
+      "ms_spoken": "Senarai pengambil bahagian dah siap ke?",
+      "ms_standard": "Adakah senarai peserta sudah siap?",
+      "zh": "参与者名单弄好了吗？",
+      "en": "Is the participant list ready yet?",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "句末 ke 对应标准疑问结构 adakah",
+        "pengambil bahagian 可在标准转述中简化为 peserta",
+        "kat 对应 di"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Senarai pengambil bahagian dah siap ke?",
+          "ms_standard": "Adakah senarai peserta sudah siap?",
+          "zh": "参与者名单弄好了吗？",
+          "en": "Is the participant list ready yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, ada dua puluh orang je. Aku dah letak senarai tu kat meja kau.",
+          "ms_standard": "Sudah, terdapat dua puluh orang sahaja. Saya sudah meletakkan senarai itu di atas meja awak.",
+          "zh": "好了，就二十个人。我已经把名单放你桌上了。",
+          "en": "Yes, just twenty people. I’ve already left the list on your desk."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pengambil illustrates Malay’s productive way of naming people through their actions. The base ambil means to take, while peN- creates an agent noun. Before a vowel, that prefix appears as peng-. Familiar combinations then specify the role: pengambil bahagian names someone who takes part, making participation a kind of taking.",
+    "cognitive_memory_aid": "ambil 是“拿”，peng- 给动作配上“执行者”：pengambil 就是“拿取的人”；bahagian 是“部分”，合起来表示参与其中的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "通常是中性角色称谓；若讨论物品遗失，直接指认某人为 pengambil 可能被理解为指责，应先核实情况。",
+    "usage_etiquette": "正式活动中 pengambil bahagian 正确，peserta 更简洁。一般人物描述宜说明拿取何物；水利文件中的 pengambil 则可能指取水设施。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "通常是中性角色称谓；若讨论物品遗失，直接指认某人为 pengambil 可能被理解为指责，应先核实情况。",
+    "usage_etiquette": "正式活动中 pengambil bahagian 正确，peserta 更简洁。一般人物描述宜说明拿取何物；水利文件中的 pengambil 则可能指取水设施。"
+  }
+}

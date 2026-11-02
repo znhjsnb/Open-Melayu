@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "penguncian",
+    "syllables": null,
+    "ipa": "/pə.ŋun.tʃi.an/",
+    "jawi": null,
+    "frequency_rank": 13676,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kunci",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + kunci + -an → penguncian",
+    "pattern_note": "peN- 在词根首音 k 前采用 peng- 变体，k 按鼻音替代规则脱落；加 -an 后形成表示过程或行为的名词。词末 i 与后缀 a 分属不同音节。",
+    "word_family": [
+      {
+        "word": "kunci",
+        "affix": null,
+        "gloss": "锁；钥匙；关键"
+      },
+      {
+        "word": "mengunci",
+        "affix": "meN-",
+        "gloss": "上锁；锁定"
+      },
+      {
+        "word": "pengunci",
+        "affix": "peN-",
+        "gloss": "锁定装置；锁扣"
+      },
+      {
+        "word": "terkunci",
+        "affix": "ter-",
+        "gloss": "处于锁住的状态"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "上锁、锁闭或通过锁定机构固定某物的行为、过程或操作。",
+      "en_definition": "The act or process of locking something or securing it with a locking mechanism.",
+      "ms_definition": "Perbuatan atau proses mengunci sesuatu supaya tidak dapat dibuka atau digerakkan dengan bebas.",
+      "nuances": "常用于安全规程、设备说明和车辆功能描述。penguncian 是过程或操作，pengunci 是装置，terkunci 是状态。日常口语谈具体动作时，通常直接用 kunci 或 mengunci。",
+      "collocations": [
+        {
+          "ms": "penguncian pintu",
+          "zh": "车门或房门的锁闭",
+          "en": "door locking"
+        },
+        {
+          "ms": "penguncian automatik",
+          "zh": "自动锁闭",
+          "en": "automatic locking"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "计算机系统中暂时限制文件、记录或其他资源的访问或修改，以控制并发操作的锁定机制或过程。",
+      "en_definition": "The temporary restriction of access to or modification of a computing resource to control concurrent operations.",
+      "ms_definition": "Proses mengehadkan capaian atau pengubahan fail, rekod atau sumber komputer buat sementara waktu untuk mengawal operasi serentak.",
+      "nuances": "属于信息技术语域。此义不等同于 penyulitan（加密），也不必然表示文件受密码保护。",
+      "collocations": [
+        {
+          "ms": "penguncian fail",
+          "zh": "文件锁定",
+          "en": "file locking"
+        },
+        {
+          "ms": "penguncian rekod",
+          "zh": "记录锁定",
+          "en": "record locking"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "雷达等跟踪系统建立并保持对目标自动跟踪的锁定过程。",
+      "en_definition": "The acquisition and maintenance of automatic target tracking by a radar or similar tracking system.",
+      "ms_definition": "Proses memperoleh dan mengekalkan pengikutan sasaran secara automatik oleh radar atau sistem penjejakan.",
+      "nuances": "属于工程技术语域，对应 locking 或 lock-on。不能将这里的锁定理解成实体门锁。",
+      "collocations": [
+        {
+          "ms": "penguncian sasaran",
+          "zh": "目标锁定",
+          "en": "target lock-on"
+        },
+        {
+          "ms": "penguncian radar",
+          "zh": "雷达锁定",
+          "en": "radar lock-on"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 设施安全",
+      "ms": "Pemeriksaan mendapati bahawa sistem penguncian automatik pada pintu utama berfungsi dengan baik.",
+      "zh": "检查发现，正门的自动锁闭系统运行正常。",
+      "en": "The inspection found that the main entrance's automatic locking system was functioning properly."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论汽车功能",
+      "ms_spoken": "Kereta ni ada penguncian automatik ke? Aku tak jumpa butang dia.",
+      "ms_standard": "Adakah kereta ini mempunyai sistem penguncian automatik? Saya tidak menemukan butangnya.",
+      "zh": "这辆车有自动落锁功能吗？我找不到按钮。",
+      "en": "Does this car have automatic locking? I can't find the button.",
+      "spoken_features": [
+        "ni → ini",
+        "ada → mempunyai：此处表示具备某项功能",
+        "ke：句末疑问标记",
+        "tak → tidak",
+        "butang dia → butangnya：口语用 dia 指代物品的所属关系"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kereta ni ada penguncian automatik ke? Aku tak jumpa butang dia.",
+          "ms_standard": "Adakah kereta ini mempunyai sistem penguncian automatik? Saya tidak menemukan butangnya.",
+          "zh": "这辆车有自动落锁功能吗？我找不到按钮。",
+          "en": "Does this car have automatic locking? I can't find the button."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku pun tak pasti. Jom tengok manual dulu, kot ada kat bahagian tetapan.",
+          "ms_standard": "Saya juga tidak pasti. Mari kita merujuk manual dahulu; mungkin maklumatnya terdapat dalam bahagian tetapan.",
+          "zh": "我也不确定。先看看说明书吧，可能在设置那一部分。",
+          "en": "I'm not sure either. Let's check the manual first; it might be in the settings section."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penguncian turns the concrete idea of a kunci, a lock or key, into a process noun through peN-...-an. Its modern range extends from securing doors to controlling shared computer resources and tracking radar targets. The connecting image is holding something in a controlled condition. These meanings are documented in Malaysian institutional usage and DBP terminology.",
+    "cognitive_memory_aid": "kunci＝锁；peN-...-an＝进行这件事的过程。把 k 隐去再套上词缀：penguncian＝上锁、锁定的过程。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "技术及行政语境中属于中性用词。向同事提出请求时，Boleh semak sistem penguncian ini? 比直接下命令更柔和。",
+    "usage_etiquette": "适合操作说明、安全规程和技术讨论。面向一般用户时，可根据语境改用更直接的 Kunci pintu（把门锁上）。"
+  },
+  "verification": {
+    "note": "修正数据包的词根误判：词根为 kunci。DBP 术语材料支持信息技术及雷达语义，马来西亚车辆手册支持实体锁闭语义。各 ms_definition 为编辑综合，非官方释义逐字引用；IPA 为规范读音转写。音节及 Jawi 保留输入 null，搭配未作频次排序。",
+    "sources": [
+      "[Proton Iriz 马来语车主手册：车门集中锁闭](https://cms-assets.proton.com/proton-cms-blob/media/p2jdhoww/iriz_owners_manual_jan2024_compressed.pdf)",
+      "[DBP PRPM：信息技术释文中的 penguncian fail](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=rahsia+1)",
+      "[DBP PRPM：工程术语 locking → penguncian，雷达跟踪义](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=sasaran+1)"
+    ]
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "技术及行政语境中属于中性用词。向同事提出请求时，Boleh semak sistem penguncian ini? 比直接下命令更柔和。",
+    "usage_etiquette": "适合操作说明、安全规程和技术讨论。面向一般用户时，可根据语境改用更直接的 Kunci pintu（把门锁上）。"
+  }
+}
