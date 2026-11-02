@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "mengangkut",
+    "syllables": "me.ngang.kut",
+    "ipa": "/mə.ŋaŋ.kut/",
+    "jawi": "مڠڠکوت",
+    "frequency_rank": 8561,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mengangkut",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + angkut → meng- + angkut → mengangkut",
+    "pattern_note": "meN- 在元音 a 前变为 meng-，基词 angkut 保持不变。root_word 和 root_jawi 按数据包保留，但它们实际是派生词词目；真正的构词基础是 angkut（اڠکوت），因此 is_root 为 false。[DBP 词条](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=angkut)",
+    "word_family": [
+      {
+        "word": "angkut",
+        "affix": null,
+        "gloss": "搬运；运载的基础词"
+      },
+      {
+        "word": "angkutan",
+        "affix": "-an",
+        "gloss": "所运载的货物"
+      },
+      {
+        "word": "pengangkut",
+        "affix": "peN-",
+        "gloss": "搬运者；运输工具"
+      },
+      {
+        "word": "pengangkutan",
+        "affix": "peN-…-an",
+        "gloss": "运输；交通运输"
+      }
+    ],
+    "root_jawi": "مڠڠکوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "搬运；把物品提起并带到另一处。",
+      "en_definition": "To lift and carry something to another place.",
+      "ms_definition": "Mengangkat dan membawa sesuatu ke sesuatu tempat.",
+      "nuances": "强调物品的搬移，可指徒手搬运，也可涉及辅助工具。mengangkat 可以只表示抬起，mengangkut 通常包含带走或移往别处的意思。[DBP 释义](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=angkut)",
+      "collocations": [
+        {
+          "ms": "mengangkut kayu api",
+          "zh": "搬运柴火",
+          "en": "carry firewood"
+        },
+        {
+          "ms": "mengangkut barang",
+          "zh": "搬运物品",
+          "en": "carry goods"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "运输；运载；利用车辆等运输工具将货物或人员送往另一地点。",
+      "en_definition": "To transport goods or people from one place to another using a vehicle or other means of transport.",
+      "ms_definition": "Membawa barang atau orang dari satu tempat ke tempat lain dengan menggunakan kenderaan atau alat pengangkutan.",
+      "nuances": "主语可为运输人员、公司或车辆。用于人员时侧重运力和集体转运；接送客人时，menjemput 或 menghantar 往往更符合人际语境。",
+      "collocations": [
+        {
+          "ms": "mengangkut penumpang",
+          "zh": "运载乘客",
+          "en": "carry passengers"
+        },
+        {
+          "ms": "mengangkut sampah",
+          "zh": "清运垃圾",
+          "en": "transport rubbish"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Syarikat itu menyediakan tiga buah lori untuk mengangkut bekalan makanan ke pusat pemindahan.",
+      "zh": "该公司安排三辆卡车，将食品物资运往疏散中心。",
+      "en": "The company is providing three lorries to transport food supplies to the evacuation centre."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Lori dah sampai. Boleh tolong mengangkut kotak ni?",
+      "ms_standard": "Lori sudah sampai. Bolehkah awak membantu mengangkut kotak ini?",
+      "zh": "卡车到了，能帮忙搬一下这个箱子吗？",
+      "en": "The lorry's here. Can you help carry this box?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "ni 对应 ini。",
+        "回复中的 angkut 省略主动词前缀，是口语中常见的简化。",
+        "jom 用于邀请对方一起行动。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Lori dah sampai. Boleh tolong mengangkut kotak ni?",
+          "ms_standard": "Lori sudah sampai. Bolehkah awak membantu mengangkut kotak ini?",
+          "zh": "卡车到了，能帮忙搬一下这个箱子吗？",
+          "en": "The lorry's here. Can you help carry this box?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh, jom angkut sama-sama. Kotak ni beratlah.",
+          "ms_standard": "Boleh, mari kita mengangkutnya bersama-sama kerana kotak ini berat.",
+          "zh": "可以，一起搬吧，这箱子挺重的。",
+          "en": "Sure, let's carry it together. This box is heavy."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mengangkut belongs to the Malay angkut family, which links physical carrying with organised transport. DBP illustrates it with firewood carried by hand and logs transported by lorry. The same base also gives pengangkutan, the familiar word in pengangkutan awam. This family connects a concrete action with the wider transport system without requiring a speculative origin story. [DBP](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=angkut)",
+    "cognitive_memory_aid": "把 angkut 想成“搬走的一批货”：mengangkut 是搬运这个动作，pengangkutan 是运输这套系统。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请人搬东西可说 Boleh tolong mengangkut barang ini?；加上 tolong，语气更客气。对长辈或不熟悉的人宜使用合适称呼。",
+    "usage_etiquette": "适用于搬家、物流、公共交通和救灾转运。描述接送贵宾或亲友时，可按实际意思选用 menjemput、menghantar 或 membawa，使表达更有人情味。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请人搬东西可说 Boleh tolong mengangkut barang ini?；加上 tolong，语气更客气。对长辈或不熟悉的人宜使用合适称呼。",
+    "usage_etiquette": "适用于搬家、物流、公共交通和救灾转运。描述接送贵宾或亲友时，可按实际意思选用 menjemput、menghantar 或 membawa，使表达更有人情味。"
+  }
+}

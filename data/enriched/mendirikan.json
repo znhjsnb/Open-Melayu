@@ -1,0 +1,189 @@
+{
+  "headword": {
+    "word": "mendirikan",
+    "syllables": "men.di.ri.kan",
+    "ipa": "/mən.di.ri.kan/",
+    "jawi": "منديريکن",
+    "frequency_rank": 8494,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dirikan",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + dirikan → mendirikan；完整构词：meN- + diri + -kan → mendirikan",
+    "pattern_note": "保留输入包的 root_word=dirikan，但它是已带 -kan 的派生词干；更深层词根是 diri。meN- 遇词首 /d/ 采用 men-，保留 d。若从 diri 分析，整体使用 meN-…-kan；本条 affix_type=prefix 对应输入包提供的直接词干 dirikan。root_jawi 保留输入包的 null。",
+    "word_family": [
+      {
+        "word": "berdiri",
+        "affix": "ber-",
+        "gloss": "站立；屹立"
+      },
+      {
+        "word": "pendirian",
+        "affix": "peN-…-an",
+        "gloss": "立场；建立、建造之事"
+      },
+      {
+        "word": "didirikan",
+        "affix": "di-…-kan",
+        "gloss": "被竖起；被建造；被创立"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把某物竖起来，使其处于直立状态。",
+      "en_definition": "To erect something or set it upright.",
+      "ms_definition": "Menjadikan sesuatu berdiri; menegakkan.",
+      "nuances": "及物动词，宾语通常是柱子、支架等可竖立物体。表示人自己站起来通常用 berdiri。前三项核心义及结婚惯用语依据 [DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=7876&keyword=mendirikan)；各义的例句由编者拟写。",
+      "collocations": [
+        {
+          "ms": "mendirikan tiang",
+          "zh": "竖立柱子",
+          "en": "erect a post"
+        },
+        {
+          "ms": "mendirikan tiang gol",
+          "zh": "架设球门柱",
+          "en": "erect goalposts"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "建造建筑物或构筑物；搭建帐篷等设施。",
+      "en_definition": "To build a structure or put up a temporary shelter.",
+      "ms_definition": "Membina atau membangunkan rumah, bangunan dan sebagainya.",
+      "nuances": "重点在于使实体建筑或设施建成。既可用于永久建筑，也可用于搭建帐篷；一般不用于制造小型日用品。",
+      "collocations": [
+        {
+          "ms": "mendirikan bangunan",
+          "zh": "建造建筑物",
+          "en": "construct a building"
+        },
+        {
+          "ms": "mendirikan khemah",
+          "zh": "搭帐篷",
+          "en": "pitch a tent"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "创立、成立公司、协会或其他组织。",
+      "en_definition": "To found or establish a company, association, or other organization.",
+      "ms_definition": "Menubuhkan persatuan, perkumpulan dan sebagainya.",
+      "nuances": "表示组织从无到有的创立。强调正式成立机构时，menubuhkan 也是常用表达；管理已经存在的机构通常用 mengurus 或 mentadbir。",
+      "collocations": [
+        {
+          "ms": "mendirikan syarikat",
+          "zh": "创办公司",
+          "en": "establish a company"
+        },
+        {
+          "ms": "mendirikan persatuan",
+          "zh": "成立协会",
+          "en": "found an association"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "【惯用语 mendirikan rumah tangga】结婚，建立家庭。",
+      "en_definition": "In mendirikan rumah tangga, to marry and establish a household.",
+      "ms_definition": "Berkahwin dan membentuk sebuah keluarga.",
+      "nuances": "此义依赖固定组合 rumah tangga；不能把 mendirikan 单独理解为“结婚”。这是礼貌且常见的婚姻表达，不表示建造住宅。",
+      "collocations": [
+        {
+          "ms": "mendirikan rumah tangga",
+          "zh": "结婚成家",
+          "en": "get married and establish a household"
+        },
+        {
+          "ms": "berhasrat mendirikan rumah tangga",
+          "zh": "有意结婚成家",
+          "en": "intend to get married"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "verb",
+      "zh_definition": "【伊斯兰宗教用语】履行、举行礼拜。",
+      "en_definition": "To perform or observe Islamic ritual prayer.",
+      "ms_definition": "Melaksanakan ibadat solat menurut ketetapan agama Islam.",
+      "nuances": "常与 solat 或 sembahyang 连用，不能按字面译为“竖立礼拜”，也不表示礼拜全程站立。此项为实际宗教用法的编辑归纳，并非输入包所引 DBP 三项释义的逐字内容；用例可见 [雪兰莪伊斯兰宗教理事会刊物](https://www.mais.gov.my/wp-content/uploads/2020/06/FINAL-Edisi-MAIS-Bil2.2020.pdf)。",
+      "collocations": [
+        {
+          "ms": "mendirikan solat",
+          "zh": "履行礼拜",
+          "en": "perform ritual prayer"
+        },
+        {
+          "ms": "mendirikan solat berjemaah",
+          "zh": "举行集体礼拜",
+          "en": "perform congregational prayer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Persatuan penduduk bercadang untuk mendirikan sebuah dewan serbaguna bagi kegunaan masyarakat setempat.",
+      "zh": "居民协会计划兴建一座多用途礼堂，供当地社区使用。",
+      "en": "The residents' association plans to build a multipurpose hall for the local community."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kita nak mendirikan khemah kat sini ke? Tanah ni rata sikit.",
+      "ms_standard": "Adakah kita hendak mendirikan khemah di sini? Tanah di sini lebih rata sedikit.",
+      "zh": "我们要在这里搭帐篷吗？这边的地比较平。",
+      "en": "Shall we pitch the tent here? The ground's a bit more level.",
+      "spoken_features": [
+        "nak 对应 hendak；kat 对应 di；ni 对应 ini。",
+        "句末 ke 构成口语疑问。",
+        "sikit 是 sedikit 的口语缩略形式。",
+        "mendirikan 可保留在口语中；具体谈搭帐篷时，搭配 pasang khemah 也常见。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kita nak mendirikan khemah kat sini ke? Tanah ni rata sikit.",
+          "ms_standard": "Adakah kita hendak mendirikan khemah di sini? Tanah di sini lebih rata sedikit.",
+          "zh": "我们要在这里搭帐篷吗？这边的地比较平。",
+          "en": "Shall we pitch the tent here? The ground's a bit more level."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh, kat sini je. Aku dah keluarkan semua tiang khemah.",
+          "ms_standard": "Boleh, kita dirikan khemah di sini sahaja. Saya sudah mengeluarkan semua tiang khemah.",
+          "zh": "行，就这里吧。我已经把帐篷杆都拿出来了。",
+          "en": "Sure, let's put it here. I've already taken out all the tent poles."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mendirikan makes a useful semantic journey from physical support to social creation. Its underlying base is diri, visible in berdiri, while the causative construction expresses making something stand. Posts stand physically; buildings and associations come into existence. In mendirikan rumah tangga, establishing a household becomes an expression for marriage. This is a semantic explanation, not a dated account of first usage.",
+    "cognitive_memory_aid": "抓住 diri 的“立”：让柱子立起来是竖立，让建筑立起来是建造，让组织立起来是创立，让家庭立起来是成家。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性而适合正式表达。mendirikan rumah tangga 是礼貌的婚姻说法，但询问他人何时结婚仍涉及私人生活，是否合适取决于关系。",
+    "usage_etiquette": "根据宾语区分“竖立、建造、创立、结婚、礼拜”。宗教义用于伊斯兰礼拜语境；一般祈求或祷告应依据语境使用 berdoa，不能一律替换为 mendirikan solat。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性而适合正式表达。mendirikan rumah tangga 是礼貌的婚姻说法，但询问他人何时结婚仍涉及私人生活，是否合适取决于关系。",
+    "usage_etiquette": "根据宾语区分“竖立、建造、创立、结婚、礼拜”。宗教义用于伊斯兰礼拜语境；一般祈求或祷告应依据语境使用 berdoa，不能一律替换为 mendirikan solat。"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "kastam",
+    "syllables": "kas.tam",
+    "ipa": "/kas.tam/",
+    "jawi": "کستم",
+    "frequency_rank": 8557,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kastam",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kastam → kastam",
+    "pattern_note": "英语来源的整词借词；现代马来语中不拆成 kas 和 tam。下列相关词是复合词，并非加缀派生词。",
+    "word_family": [
+      {
+        "word": "duti kastam",
+        "affix": null,
+        "gloss": "关税"
+      },
+      {
+        "word": "pegawai kastam",
+        "affix": null,
+        "gloss": "海关官员"
+      }
+    ],
+    "root_jawi": "کستم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "政府对进口或出口货物征收的税，即关税。",
+      "en_definition": "A government duty levied on imported or exported goods.",
+      "ms_definition": "Cukai yang dipungut oleh kerajaan atas barang-barang yang diimport atau dieksport.",
+      "nuances": "指税款时，duti kastam 比单用 kastam 更明确。不能把所有税都称为 kastam。",
+      "collocations": [
+        {
+          "ms": "duti kastam",
+          "zh": "关税",
+          "en": "customs duty"
+        },
+        {
+          "ms": "membayar kastam",
+          "zh": "缴纳关税",
+          "en": "to pay customs duty"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "负责征收进出口货物税款的政府部门，即海关；语境中也可指其工作人员。",
+      "en_definition": "The government department responsible for collecting duties on imports and exports; contextually, its officers.",
+      "ms_definition": "Jabatan kerajaan yang memungut cukai atas barang-barang yang diimport atau dieksport.",
+      "nuances": "日常所说的 kastam 常指海关部门或人员。海关与 imigresen（移民局）的职责不同；查验护照通常属于移民检查。",
+      "collocations": [
+        {
+          "ms": "pegawai kastam",
+          "zh": "海关官员",
+          "en": "customs officer"
+        },
+        {
+          "ms": "pelepasan kastam",
+          "zh": "清关",
+          "en": "customs clearance"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Syarikat itu telah mengemukakan dokumen yang diperlukan bagi urusan pelepasan kastam.",
+      "zh": "该公司已提交办理清关所需的文件。",
+      "en": "The company has submitted the documents required for customs clearance."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bungkusan aku masih kat kastam, belum lepas lagi.",
+      "ms_standard": "Bungkusan saya masih berada di pihak kastam dan belum mendapat pelepasan.",
+      "zh": "我的包裹还在海关，暂时还没放行。",
+      "en": "My parcel is still with customs. It hasn't been cleared yet.",
+      "spoken_features": [
+        "kat 对应 di 或 berada di。",
+        "lepas 在包裹语境中简指获得海关放行。",
+        "belum…lagi 是日常对话中自然的尚未完成表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Bungkusan aku masih kat kastam, belum lepas lagi.",
+          "ms_standard": "Bungkusan saya masih berada di pihak kastam dan belum mendapat pelepasan.",
+          "zh": "我的包裹还在海关，还没放行呢。",
+          "en": "My parcel's still with customs. It hasn't cleared yet."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah tanya syarikat kurier? Mungkin dia orang nak invois je.",
+          "ms_standard": "Sudahkah kamu bertanya kepada syarikat kurier? Mungkin mereka hanya memerlukan invois.",
+          "zh": "问过快递公司了吗？他们可能只是需要发票。",
+          "en": "Have you checked with the courier? They might just need the invoice."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kastam is an English-origin borrowing associated with customs administration. Its Malaysian history connects the language of taxation with ports, river mouths, and trade. The customs department's historical account records a peninsula-wide customs union in 1946, illustrating how a borrowed administrative term became embedded in local institutions and everyday vocabulary. [Sources: DBP](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kastam), [JKDM history](https://www.customs.gov.my/ms/korporat/sejarah-jkdm).",
+    "cognitive_memory_aid": "kastam 与英语 customs 联想记忆：货物经过的海关，货物可能要缴的关税。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与官员交谈可称 tuan 或 puan。正式文件首次提及马来西亚海关时，可写全称 Jabatan Kastam Diraja Malaysia。",
+    "usage_etiquette": "适用于进出口、包裹、机场和物流事务。描述货物仍在海关时，belum mendapat pelepasan 比未经证实便说 dirampas（被没收）准确。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与官员交谈可称 tuan 或 puan。正式文件首次提及马来西亚海关时，可写全称 Jabatan Kastam Diraja Malaysia。",
+    "usage_etiquette": "适用于进出口、包裹、机场和物流事务。描述货物仍在海关时，belum mendapat pelepasan 比未经证实便说 dirampas（被没收）准确。"
+  }
+}

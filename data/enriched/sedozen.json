@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "sedozen",
+    "syllables": "se.do.zen",
+    "ipa": "/sə.do.zen/",
+    "jawi": "دوزين",
+    "frequency_rank": 8597,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dozen",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + dozen → sedozen",
+    "pattern_note": "se- 在这里表示 satu（一），不引起词根辅音变化；se- 的 e 读 /ə/，dozen 的 e 读 /e/。音节按完整词形补为 se.do.zen。按输入保留 headword.jawi 的 دوزين，但该字段实际是词根拼写；完整 sedozen 的 Jawi 为 سدوزين。",
+    "word_family": [
+      {
+        "word": "berdozen",
+        "affix": "ber-",
+        "gloss": "有好几打；数量很多"
+      },
+      {
+        "word": "berdozen-dozen",
+        "affix": "ber- + 重叠",
+        "gloss": "数十个；一打又一打"
+      }
+    ],
+    "root_jawi": "دوزين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一打，即十二个同类事物。",
+      "en_definition": "One dozen; a group or quantity of twelve.",
+      "ms_definition": "Satu dozen, iaitu dua belas jumlahnya.",
+      "nuances": "马来语语法中主要作数量表达，属于 kata bilangan；本结构未提供 numeral 类别，因此以 noun 表示其计量单位用法。sedozen 通常明确等于十二，不能直接套用英语 a dozen 有时泛指多次的用法。词义与用例依据：[DBP：dozen](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dozen)。",
+      "collocations": [
+        {
+          "ms": "sedozen telur",
+          "zh": "一打鸡蛋",
+          "en": "a dozen eggs"
+        },
+        {
+          "ms": "sedozen cawan",
+          "zh": "一打杯子",
+          "en": "a dozen cups"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak urus setia telah membeli sedozen cawan untuk kegunaan di bilik mesyuarat.",
+      "zh": "秘书处已购买一打杯子，供会议室使用。",
+      "en": "The secretariat has purchased a dozen cups for the meeting room."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nanti beli sedozen telur je, kat rumah masih ada lagi.",
+      "ms_standard": "Nanti beli sedozen telur sahaja kerana di rumah masih ada telur.",
+      "zh": "待会儿买一打鸡蛋就好，家里还有呢。",
+      "en": "Just get a dozen eggs later. We've still got some at home.",
+      "spoken_features": [
+        "je 对应 sahaja，表示数量只需这么多。",
+        "kat 对应 di，表示地点。",
+        "口语通过逗号直接连接补充说明，标准语可补出 kerana。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (室友)",
+          "ms_spoken": "Aku kat kedai ni. Nak telur berapa banyak?",
+          "ms_standard": "Saya berada di kedai sekarang. Berapa banyak telur yang kamu mahu?",
+          "zh": "我在店里呢，要买多少鸡蛋？",
+          "en": "I'm at the shop. How many eggs do you want?"
+        },
+        {
+          "speaker": "Mei (室友)",
+          "ms_spoken": "Sedozen je. Kita dah ada enam biji kat rumah.",
+          "ms_standard": "Sedozen sahaja. Kita sudah mempunyai enam biji telur di rumah.",
+          "zh": "一打就好，家里已经有六个了。",
+          "en": "Just a dozen. We've already got six at home."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sedozen combines Malay se-, meaning one, with dozen, the commercial unit of twelve. The English word dozen traces through Old French dozaine to Latin duodecim, meaning twelve. The Malay construction illustrates how a familiar counting unit works with a local prefix, producing a compact expression for everyday purchases such as eggs, cups, or other goods. [Source: Online Etymology Dictionary](https://www.etymonline.com/word/dozen).",
+    "cognitive_memory_aid": "se-＝一，dozen＝打：sedozen 就是一打十二个；先记十二，再看后面买什么。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "购物时可说 Boleh saya beli sedozen telur?；熟人之间说 Sedozen je 很自然，对店员加上 ya 或 terima kasih 会更客气。",
+    "usage_etiquette": "一打固定是十二个，但商品包装未必按十二个出售。不要把一托鸡蛋、一盒商品或一个包装自动当作 sedozen，必要时确认数量。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "购物时可说 Boleh saya beli sedozen telur?；熟人之间说 Sedozen je 很自然，对店员加上 ya 或 terima kasih 会更客气。",
+    "usage_etiquette": "一打固定是十二个，但商品包装未必按十二个出售。不要把一托鸡蛋、一盒商品或一个包装自动当作 sedozen，必要时确认数量。"
+  }
+}

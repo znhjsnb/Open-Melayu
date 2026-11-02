@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "fahamkan",
+    "syllables": null,
+    "ipa": "/fa.ham.kan/",
+    "jawi": "فهم",
+    "frequency_rank": 8498,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "faham",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "faham + -kan → fahamkan",
+    "pattern_note": "词根末尾 /m/ 保留，直接接 -kan，无鼻音替换。可作 memahamkan 的祈使形式；口语陈述句也可省略 meN-。headword.jawi 按输入包保留，但 فهم 仅对应 faham；完整形式按构词应写 فهمکن。",
+    "word_family": [
+      {
+        "word": "memahami",
+        "affix": "meN-…-i",
+        "gloss": "理解；体谅"
+      },
+      {
+        "word": "memahamkan",
+        "affix": "meN-…-kan",
+        "gloss": "仔细领会；使明白"
+      },
+      {
+        "word": "kefahaman",
+        "affix": "ke-…-an",
+        "gloss": "理解程度；理解能力"
+      },
+      {
+        "word": "pemahaman",
+        "affix": "peN-…-an",
+        "gloss": "理解过程；所理解的内容"
+      }
+    ],
+    "root_jawi": "فهم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "仔细研读、思考或辨认某事物，以理解、领会其意思；常用于指令。",
+      "en_definition": "Study or consider something carefully in order to understand it.",
+      "ms_definition": "Meneliti atau mempelajari sesuatu dengan bersungguh-sungguh supaya memahami maksudnya.",
+      "nuances": "标准祈使句可使用 fahamkan，不必一概视为口语错误。普通主动陈述句通常使用 memahami 或 memahamkan，依具体意思选择。这里强调主动领会，而非单纯陈述“懂”。释义根据 [PRPM：faham 与 memahamkan](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=faham) 综合改写。",
+      "collocations": [
+        {
+          "ms": "fahamkan maksud ayat",
+          "zh": "弄懂句子的意思",
+          "en": "work out the meaning of a sentence"
+        },
+        {
+          "ms": "fahamkan arahan",
+          "zh": "弄清指示",
+          "en": "make sure you understand the instructions"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "通过说明或解释，使某人明白某事。",
+      "en_definition": "Make someone understand something through explanation.",
+      "ms_definition": "Memberikan penerangan kepada seseorang supaya orang itu memahami sesuatu perkara.",
+      "nuances": "受解释者可作宾语。祈使句如 Tolong fahamkan dia dahulu；正式主动陈述句使用 memahamkan。不要把它与分写的 faham, kan? 混淆，后者是“明白，对吧？”。参见 [PRPM：memahamkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memahamkan)。",
+      "collocations": [
+        {
+          "ms": "fahamkan dia dahulu",
+          "zh": "先向他解释清楚",
+          "en": "explain it to him first"
+        },
+        {
+          "ms": "fahamkan mereka tentang peraturan",
+          "zh": "向他们解释清楚规则",
+          "en": "make sure they understand the rules"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场培训 / 操作指示",
+      "ms": "Sila baca dan fahamkan arahan keselamatan sebelum mengendalikan mesin ini.",
+      "zh": "操作这台机器前，请阅读并理解安全指示。",
+      "en": "Please read and understand the safety instructions before operating this machine."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论文件",
+      "ms_spoken": "Cuba fahamkan arahan tu dulu, lepas tu baru isi borang.",
+      "ms_standard": "Cuba fahamkan arahan itu dahulu sebelum mengisi borang.",
+      "zh": "先把那些指示弄明白，再填表。",
+      "en": "Try to understand those instructions first, then fill in the form.",
+      "spoken_features": [
+        "tu 对应 itu。",
+        "dulu 对应 dahulu。",
+        "lepas tu 表示 selepas itu。",
+        "口语 isi 在该结构中对应标准形式 mengisi。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Cuba fahamkan arahan tu dulu, lepas tu baru isi borang.",
+          "ms_standard": "Cuba fahamkan arahan itu dahulu sebelum mengisi borang.",
+          "zh": "先把那些指示弄明白，再填表。",
+          "en": "Try to understand those instructions first, then fill in the form."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku dah baca, tapi bahagian ni aku tak faham lagi. Boleh terangkan sikit?",
+          "ms_standard": "Saya sudah membacanya, tetapi saya masih belum memahami bahagian ini. Bolehkah awak menerangkannya sedikit?",
+          "zh": "我读过了，不过这一部分还没弄懂。能解释一下吗？",
+          "en": "I've read them, but I still don't understand this part. Could you explain it a bit?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "An early Malay-English vocabulary identifies faham as an Arabic borrowing and records meanings connected with understanding and knowledge. Malay then uses its own morphology to build related forms, including fahamkan. The result illustrates how a borrowed base becomes productive within Malay grammar: its historical source is foreign, while its suffix and sentence patterns belong to Malay. See [Malay-English Vocabulary](https://ms.wikisource.org/wiki/Malay-English_Vocabulary/F).",
+    "cognitive_memory_aid": "faham 是“懂”；fahamkan 像把意思“弄通”：宾语是内容，就仔细弄懂；宾语是人，就解释给他懂。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Fahamkan! 可能显得生硬；可用 sila、tolong 或 cuba 缓和。向上级请求解释时，可说 Boleh tuan/puan terangkan perkara ini?",
+    "usage_etiquette": "适用于教学、说明和提醒。它不必然含责备意味，但语气急躁时容易被理解为“你给我弄清楚”。正式写作应区分祈使形式 fahamkan 与主动陈述形式 memahamkan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Fahamkan! 可能显得生硬；可用 sila、tolong 或 cuba 缓和。向上级请求解释时，可说 Boleh tuan/puan terangkan perkara ini?",
+    "usage_etiquette": "适用于教学、说明和提醒。它不必然含责备意味，但语气急躁时容易被理解为“你给我弄清楚”。正式写作应区分祈使形式 fahamkan 与主动陈述形式 memahamkan。"
+  }
+}

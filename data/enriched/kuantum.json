@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "kuantum",
+    "syllables": "kuan.tum",
+    "ipa": "/kuantum/",
+    "jawi": "کوانتوم",
+    "frequency_rank": 8550,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kuantum",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kuantum → kuantum",
+    "pattern_note": "整词借入，不拆分为 kuan 与 tum 两个词素。英语 quantum 的马来语规范拼写为 kuantum。[DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf) 词族栏所列为复合术语，不是加缀派生词。",
+    "word_family": [
+      {
+        "word": "teori kuantum",
+        "affix": null,
+        "gloss": "量子理论"
+      },
+      {
+        "word": "mekanik kuantum",
+        "affix": null,
+        "gloss": "量子力学"
+      }
+    ],
+    "root_jawi": "کوانتوم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "数量、数额或总量；尤用于正式讨论款项、赔偿等的金额。",
+      "en_definition": "An amount or quantity, especially a monetary amount in formal usage.",
+      "ms_definition": "Banyaknya, bilangannya.",
+      "nuances": "金额语境常可用 jumlah 表达。此义不涉及量子物理。[DBP：kuantum](https://prpm.dbp.gov.my/cari1?keyword=kuantum)",
+      "collocations": [
+        {
+          "ms": "kuantum pampasan",
+          "zh": "赔偿金额",
+          "en": "amount of compensation"
+        },
+        {
+          "ms": "kuantum ganti rugi",
+          "zh": "损害赔偿数额",
+          "en": "quantum of damages"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "某一确定的份额或定量。",
+      "en_definition": "A specified portion or definite quantity.",
+      "ms_definition": "Bahagian atau banyak yang tertentu.",
+      "nuances": "与数量义紧密相连，强调已确定的一份或一定数额；以下组合用于说明语义，不表示另有固定术语。[DBP：kuantum](https://prpm.dbp.gov.my/cari1?keyword=kuantum)",
+      "collocations": [
+        {
+          "ms": "kuantum yang ditetapkan",
+          "zh": "规定的定量或数额",
+          "en": "the stipulated quantity or amount"
+        },
+        {
+          "ms": "kuantum tertentu",
+          "zh": "某一确定的量",
+          "en": "a specified quantity"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "量子；在物理学中，系统能够吸收或释放的一定份额的能量。",
+      "en_definition": "A discrete amount of energy that a physical system can absorb or emit.",
+      "ms_definition": "Kuantiti tenaga tertentu yang boleh diserap atau dibebaskan oleh sesuatu sistem.",
+      "nuances": "在 teori kuantum 等术语中作名词修饰语。量子能量取决于有关系统或辐射频率，并非所有量子都有相同能量。[DBP：kuantum](https://prpm.dbp.gov.my/cari1?keyword=kuantum)",
+      "collocations": [
+        {
+          "ms": "teori kuantum",
+          "zh": "量子理论",
+          "en": "quantum theory"
+        },
+        {
+          "ms": "mekanik kuantum",
+          "zh": "量子力学",
+          "en": "quantum mechanics"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan itu memperincikan kaedah pengiraan kuantum pampasan bagi setiap penerima.",
+      "zh": "该报告详细说明了每位领取者赔偿金额的计算方法。",
+      "en": "The report details how the compensation amount is calculated for each recipient."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah baca nota teori kuantum tu, tapi masih tak faham.",
+      "ms_standard": "Saya sudah membaca nota teori kuantum itu, tetapi masih tidak memahaminya.",
+      "zh": "那份量子理论笔记我看过了，可还是不懂。",
+      "en": "I've read those quantum theory notes, but I still don't get it.",
+      "spoken_features": [
+        "aku 用于熟人之间",
+        "dah 对应 sudah",
+        "tu 对应 itu",
+        "tak 对应 tidak",
+        "je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku dah baca nota teori kuantum tu, tapi masih tak faham.",
+          "ms_standard": "Saya sudah membaca nota teori kuantum itu, tetapi masih tidak memahaminya.",
+          "zh": "那份量子理论笔记我看过了，可还是不懂。",
+          "en": "I've read those quantum theory notes, but I still don't get it."
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Jom tengok contoh dulu. Kita mula dengan satu contoh je.",
+          "ms_standard": "Marilah kita melihat contoh dahulu. Kita mulakan dengan satu contoh sahaja.",
+          "zh": "先看看例子吧，咱们就从一个例子开始。",
+          "en": "Let's look at an example first. We'll start with just one."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kuantum is the Malay adaptation of quantum, a Latin word associated with quantity. Its scientific significance grew from early twentieth-century work on energy exchange, especially Planck's introduction of energy elements. The Malay dictionary preserves both ordinary quantity meanings and the physics meaning, explaining why the same word appears in compensation reports and science lessons. [CERN: quantum origins](https://quantum.web.cern.ch/sites/default/files/2023-06/CERN%20marks%20second%20World%20Quantum%20Day%20_%20Mirage%20News.pdf)",
+    "cognitive_memory_aid": "把 kuantum 与 kuantiti（数量）联记：公文看“数额”，物理看“一份离散能量”。这是联想，不是马来语构词拆分。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于正式或专业用语。向一般听众解释金额时，可说 kuantum pampasan, iaitu jumlah pampasan，帮助理解。",
+    "usage_etiquette": "先按上下文判断是金额还是物理术语；不要仅因产品宣传使用 kuantum，就推断其功效获得量子物理支持。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于正式或专业用语。向一般听众解释金额时，可说 kuantum pampasan, iaitu jumlah pampasan，帮助理解。",
+    "usage_etiquette": "先按上下文判断是金额还是物理术语；不要仅因产品宣传使用 kuantum，就推断其功效获得量子物理支持。"
+  }
+}

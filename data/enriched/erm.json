@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "erm",
+    "syllables": null,
+    "ipa": "[əːm]",
+    "jawi": null,
+    "frequency_rank": 8495,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "erm",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + erm → erm",
+    "pattern_note": "这是犹豫声的书写形式，没有可分析的词缀；is_root=true 依输入包表示未派生形式。IPA 仅示意一种可能实现，时长与鼻音成分可变，字母 r 不必对应实际颤音。未确认规范 Jawi 或固定派生词。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "嗯……；呃……；说话者思考、犹豫、寻找措辞或暂缓回答时发出的填充声。",
+      "en_definition": "A hesitation sound used while thinking, searching for words, or delaying a response.",
+      "ms_definition": "Bunyi pengisi jeda ketika penutur berfikir, teragak-agak atau mencari kata sebelum meneruskan ujaran.",
+      "nuances": "本模式将话语填充声归入 particle；它没有稳定的实词意义，也不自动表示同意、拒绝或怀疑。未核实 DBP 对此拼写的规范收录；status 按请求模板保留为 official，不代表 DBP 认证。马来语释义为编辑归纳；实际话语转写可见 [UPSI 研究文本](https://ir.upsi.edu.my/sw_inc/doc.php?did=5761&id=17076344&t=d)。",
+      "collocations": [
+        {
+          "ms": "erm, saya rasa",
+          "zh": "嗯……我觉得",
+          "en": "um, I think"
+        },
+        {
+          "ms": "erm, entahlah",
+          "zh": "呃……我也说不准",
+          "en": "um, I'm not sure"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报中的引语或转写说明",
+      "ms": "Transkrip temu bual itu mengekalkan bunyi pengisi 'erm' untuk menunjukkan jeda sebelum responden menjawab.",
+      "zh": "该访谈逐字稿保留了填充声 erm，以呈现受访者回答前的停顿。",
+      "en": "The interview transcript retains the hesitation sound erm to show the pause before the respondent answered."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Erm, aku nak fikir dulu. Esok aku jawab, boleh?",
+      "ms_standard": "Saya hendak memikirkannya terlebih dahulu. Bolehkah saya memberikan jawapan esok?",
+      "zh": "嗯……我想先考虑一下，明天再答复，可以吗？",
+      "en": "Um, let me think about it first. Can I get back to you tomorrow?",
+      "spoken_features": [
+        "erm 表示回答前的犹豫或思考，在标准书面对应句中可省略。",
+        "nak 对应 hendak。",
+        "aku 适合熟悉的同辈；正式交际通常换用 saya。",
+        "句尾 boleh? 是简短的口语请求确认形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Kau nak ikut kami pergi Melaka hujung minggu ni tak?",
+          "ms_standard": "Adakah kamu hendak mengikuti kami ke Melaka pada hujung minggu ini?",
+          "zh": "这周末你要跟我们去马六甲吗？",
+          "en": "Do you want to come to Melaka with us this weekend?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Erm, aku kena semak jadual dulu. Nanti aku beritahu kau, ya.",
+          "ms_standard": "Saya perlu menyemak jadual terlebih dahulu. Saya akan memberitahu kamu kemudian.",
+          "zh": "嗯……我得先看看日程，晚点告诉你啊。",
+          "en": "Um, I need to check my schedule first. I'll let you know, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Erm represents a pause made audible, rather than an object or action. In written dialogue and messaging, spelling gives readers access to hesitation that speech conveys through timing and sound. Similar spellings occur across languages, but that resemblance alone does not establish a particular borrowing route into Malay or a fixed pronunciation.",
+    "cognitive_memory_aid": "把 erm 想成“脑内加载中”的声音：嗯……先停半拍，再把话说出来；不要把它固定理解为“是”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "偶尔使用可自然呈现思考，也可能缓和直接回答；过多使用则可能使表达显得不确定。不能仅凭 erm 判断对方失礼或不诚实。",
+    "usage_etiquette": "适合聊天、人物对白和忠实转写。公文正文一般省略；需要清楚表达暂缓决定时，可写 Saya perlu mempertimbangkannya terlebih dahulu。大写 ERM 在专业文本中可能是缩略语，应另按上下文解释。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "偶尔使用可自然呈现思考，也可能缓和直接回答；过多使用则可能使表达显得不确定。不能仅凭 erm 判断对方失礼或不诚实。",
+    "usage_etiquette": "适合聊天、人物对白和忠实转写。公文正文一般省略；需要清楚表达暂缓决定时，可写 Saya perlu mempertimbangkannya terlebih dahulu。大写 ERM 在专业文本中可能是缩略语，应另按上下文解释。"
+  }
+}

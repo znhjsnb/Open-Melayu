@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "bev",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 8554,
+    "status": "unverified",
+    "verification_note": "原始小写词形的具体所指尚未确认。以下提供有马来西亚官方用例支持的 BEV 汽车缩写义，不能据此断定原始语料中的 bev 必然具有此义。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bev",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "若指汽车术语：Battery Electric Vehicle → BEV",
+    "pattern_note": "BEV 是英语词组的首字母缩写，不是由马来语词根加词缀构成。原始 bev 的身份未定，故保留数据包的根词字段，不据此认定它是马来语本族词根。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "仅在原词确指大写缩写 BEV 时：纯电动汽车，即依靠可充电电池供电、不配备内燃发动机的车辆。",
+      "en_definition": "If intended as BEV: a battery electric vehicle powered entirely by rechargeable batteries, without an internal combustion engine.",
+      "ms_definition": "Jika yang dimaksudkan ialah BEV: kenderaan elektrik bateri yang menggunakan tenaga daripada bateri boleh dicas semula tanpa enjin pembakaran dalaman.",
+      "nuances": "此义在马来西亚汽车和政策语境中有据，标准写法为 BEV。以下搭配及例句均以这一解释为前提；不能将它泛化为所有小写 bev 的含义。马来语释义为编辑性概括。[MITI：BEV 指南](https://www.miti.gov.my/miti/resources/Approve%20Permit/Motor%20vehicle/Garis_Panduan_AP_Peneraju_Global_BEV.pdf)；技术定义见 [Liberty 马来语文件](https://www.libertyinsurance.com.my/images/pdf/lib/ev-365-care-endorsement-bm.pdf)。",
+      "collocations": [
+        {
+          "ms": "penggunaan BEV",
+          "zh": "纯电动汽车的使用",
+          "en": "BEV adoption and use"
+        },
+        {
+          "ms": "model BEV",
+          "zh": "纯电动车型",
+          "en": "BEV model"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；仅适用于 BEV 汽车缩写义",
+      "ms": "Syarikat sedang menilai penggunaan kenderaan elektrik bateri (BEV) untuk perjalanan harian kakitangan.",
+      "zh": "公司正在评估使用纯电动汽车供员工日常出行。",
+      "en": "The company is assessing the use of battery electric vehicles (BEVs) for employees’ daily travel."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；仅适用于 BEV 汽车缩写义",
+      "ms_spoken": "Kalau nak beli BEV, kena fikir tempat nak cas juga lah.",
+      "ms_standard": "Jika hendak membeli BEV, kita perlu mempertimbangkan tempat untuk mengecasnya juga.",
+      "zh": "想买纯电动车，也得考虑在哪儿充电啊。",
+      "en": "If you want to buy a BEV, you’ll need to think about where to charge it too.",
+      "spoken_features": [
+        "nak 对应 hendak",
+        "kena 在此表示需要",
+        "cas 为 mengecas 的口语简略形式",
+        "lah 增添提醒语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak tengok model BEV tu hujung minggu ni.",
+          "ms_standard": "Saya hendak melihat model BEV itu pada hujung minggu ini.",
+          "zh": "我这个周末想去看看那款纯电动车。",
+          "en": "I want to check out that BEV model this weekend."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, tapi kau dah semak tempat nak cas dekat rumah ke?",
+          "ms_standard": "Boleh, tetapi adakah kamu sudah menyemak tempat untuk mengecas berhampiran rumah?",
+          "zh": "可以啊，不过你查过家附近哪里能充电了吗？",
+          "en": "Sure, but have you checked where you could charge it near home?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In Malaysian automotive documents, BEV abbreviates the English phrase Battery Electric Vehicle. Its appearance in Malay illustrates the use of international technical initials alongside a Malay explanatory term, kenderaan elektrik bateri. This documented usage establishes an automotive interpretation, but cannot identify an isolated lowercase bev without its original context. [MITI](https://www.miti.gov.my/miti/resources/Approve%20Permit/Motor%20vehicle/Garis_Panduan_AP_Peneraju_Global_BEV.pdf)",
+    "cognitive_memory_aid": "仅就汽车义记忆：B = Battery，E = Electric，V = Vehicle；先确认大写 BEV，再联想“电池驱动车辆”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式文件首次出现时宜写 kenderaan elektrik bateri (BEV)，帮助不熟悉汽车缩写的读者理解。",
+    "usage_etiquette": "不要将 BEV 与混合动力车一概混称；若 bev 出现在人名或其他语境中，应先核实所指。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式文件首次出现时宜写 kenderaan elektrik bateri (BEV)，帮助不熟悉汽车缩写的读者理解。",
+    "usage_etiquette": "不要将 BEV 与混合动力车一概混称；若 bev 出现在人名或其他语境中，应先核实所指。"
+  }
+}
