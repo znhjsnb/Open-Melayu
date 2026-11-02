@@ -1,0 +1,204 @@
+{
+  "headword": {
+    "word": "block",
+    "syllables": "n",
+    "ipa": "/blok/",
+    "jawi": null,
+    "frequency_rank": 5517,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "block",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + block → block（英语原形用于语码转换）；名词规范对应形式之一为 blok",
+    "pattern_note": "输入形式无马来语词缀。英语 ck 在马来语适应拼写 blok 中写作 k；headword.ipa 给出马来语适应读法，英语英式读音为 /blɒk/。输入 syllables 的 n 是异常数据，不是音节划分；实际为单音节。",
+    "word_family": [
+      {
+        "word": "blok",
+        "affix": null,
+        "gloss": "规范马来语名词：楼栋；块体；印版等"
+      },
+      {
+        "word": "memblok",
+        "affix": "meN-（加于 blok）",
+        "gloss": "制版、制作印刷用块版；见专业术语"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "在应用程序或通信服务中屏蔽某个账号、号码或其联系权限。",
+      "en_definition": "To prevent an account or number from contacting someone or accessing a service.",
+      "ms_definition": "Dalam penggunaan campur kod, menyekat akaun atau nombor supaya tidak dapat menghubungi seseorang atau memperoleh capaian tertentu.",
+      "nuances": "马来西亚混合口语中可使用英语 block；规范马来语通常选 menyekat，界面动作标签可用 Sekat。具体效果取决于服务，不能一概解释为删除、静音或封禁整个平台账号。此处为按英语“阻止”义编写的数字语境释义，并非 DBP 专列义项。status 为指定标签，不表示英语拼写已成为规范马来语词形。[DBP：block 与 menyekat](https://prpm.dbp.gov.my/Cari1?d=74812&keyword=block)。",
+      "collocations": [
+        {
+          "ms": "block nombor telefon",
+          "zh": "屏蔽电话号码",
+          "en": "block a phone number"
+        },
+        {
+          "ms": "block akaun",
+          "zh": "屏蔽账号",
+          "en": "block an account"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "挡住通道、视线或行动，使其无法通过或继续。",
+      "en_definition": "To obstruct a passage, view, movement, or action.",
+      "ms_definition": "Menghalang atau menyekat laluan, pandangan, pergerakan atau sesuatu tindakan.",
+      "nuances": "英语原形用于混合口语时，具体马来语对应词可为 menghalang、menyekat 或 menutup。涉及排水管堵塞等状态时，通常使用 tersumbat，不能机械替换成 blok。[DBP：block 的动词义](https://prpm.dbp.gov.my/Cari1?d=74812&keyword=block)。",
+      "collocations": [
+        {
+          "ms": "block jalan",
+          "zh": "挡住道路",
+          "en": "block the road"
+        },
+        {
+          "ms": "block pandangan",
+          "zh": "挡住视线",
+          "en": "block the view"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "一栋或一组构成建筑单元的楼房，常指公寓、办公楼或宿舍楼栋；规范马来语拼作 blok。",
+      "en_definition": "A building or connected group of buildings, especially flats, offices, or dormitories.",
+      "ms_definition": "Bangunan atau kumpulan bangunan yang mengandungi beberapa unit rumah, pejabat, asrama atau ruang lain.",
+      "nuances": "此义的规范马来语形式为 blok，不能在正式马来文中沿用英语 block。blok pangsapuri 表示公寓楼栋，不指单独一套公寓。[DBP：blok](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=blok)。",
+      "collocations": [
+        {
+          "ms": "blok pangsapuri",
+          "zh": "公寓楼栋",
+          "en": "an apartment block"
+        },
+        {
+          "ms": "blok pejabat",
+          "zh": "办公楼栋",
+          "en": "an office block"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "由木、石、混凝土等材料构成的块体；具体马来语对应词依用途为 blok 或 bongkah。",
+      "en_definition": "A solid piece of material such as wood, stone, or concrete.",
+      "ms_definition": "Ketulan atau bongkah bahan pejal, seperti kayu, batu atau konkrit, yang boleh digunakan untuk pembinaan atau tujuan lain.",
+      "nuances": "规则建筑材料常用 blok，如 blok konkrit；较大或不规则块体可用 bongkah。英语 block 的所有实物义并不都对应同一个马来语词。[DBP：block 的块体义](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=blok)。",
+      "collocations": [
+        {
+          "ms": "blok konkrit",
+          "zh": "混凝土砌块",
+          "en": "a concrete block"
+        },
+        {
+          "ms": "bongkah kayu",
+          "zh": "木块",
+          "en": "a block of wood"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "noun",
+      "zh_definition": "计算机系统中作为一个单位处理的数据、存储空间或程序片段；规范术语使用 blok。",
+      "en_definition": "A unit of data, memory, or program structure treated as a single group.",
+      "ms_definition": "Unit data, ruang ingatan atau bahagian struktur atur cara yang dikendalikan sebagai satu kelompok.",
+      "nuances": "这是依具体技术语境确定的块单位，大小和边界并不固定相同；block 在此不表示“屏蔽”。规范马来语术语使用 blok。[DBP：计算机术语 blok](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=blok+I)。",
+      "collocations": [
+        {
+          "ms": "blok data",
+          "zh": "数据块",
+          "en": "a data block"
+        },
+        {
+          "ms": "blok ingatan",
+          "zh": "存储块",
+          "en": "a memory block"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "pos": "noun",
+      "zh_definition": "用于印刷或盖印的雕刻、蚀刻或带凸起图案的木质、金属等块版；规范马来语拼作 blok。",
+      "en_definition": "An engraved or relief-bearing block used for printing or stamping.",
+      "ms_definition": "Bongkah atau kepingan bahan yang mempunyai corak terukir atau timbul untuk mencetak atau mengecap.",
+      "nuances": "限印刷及相关工艺语境，不等同于所有现代印版。memblok 的已查证专业用法与制版有关，不宜据此推定其所有数字屏蔽用法都已规范化。[DBP：blok 的印刷义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=blok+II)，[DBP：block making](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=block)。",
+      "collocations": [
+        {
+          "ms": "blok cetak",
+          "zh": "印刷块版",
+          "en": "a printing block"
+        },
+        {
+          "ms": "cetak blok",
+          "zh": "块版印刷",
+          "en": "block printing"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；数字义采用规范马来语对应词",
+      "ms": "Pentadbir sistem telah menyekat akaun tersebut selepas mengesan aktiviti yang mencurigakan.",
+      "zh": "系统管理员发现可疑活动后，已封锁该账号。",
+      "en": "The system administrator blocked the account after detecting suspicious activity."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；示范英语动词的语码转换",
+      "ms_spoken": "Aku dah block nombor tu sebab asyik hantar spam.",
+      "ms_standard": "Saya sudah menyekat nombor itu kerana penggunanya kerap menghantar mesej spam.",
+      "zh": "我已经把那个号码屏蔽了，老是发垃圾信息。",
+      "en": "I've blocked that number because it keeps sending spam.",
+      "spoken_features": [
+        "block 为英语动词嵌入马来语句子",
+        "dah 对应 sudah，tu 对应 itu",
+        "aku 适合熟人交流",
+        "asyik 表达某种行为反复发生，常带不耐烦语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nombor tu asyik hantar spam kat aku.",
+          "ms_standard": "Pengguna nombor itu kerap menghantar mesej spam kepada saya.",
+          "zh": "那个号码老是给我发垃圾信息。",
+          "en": "That number keeps sending me spam."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Block je nombor tu. Aku dah block tadi.",
+          "ms_standard": "Sekat sahaja nombor itu. Saya sudah menyekatnya tadi.",
+          "zh": "直接屏蔽吧。我刚才已经屏蔽了。",
+          "en": "Just block it. I blocked it earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English block covers both solid objects and acts of obstruction. Malay dictionaries distribute these meanings among words including blok, bongkah and menyekat. The adapted noun spelling appears in building, printing and computing terminology. This makes the word a useful lesson in borrowing: a shared English spelling can lead to several Malay equivalents with distinct grammatical roles. [DBP](https://prpm.dbp.gov.my/Cari1?d=74812&keyword=block)",
+    "cognitive_memory_aid": "想象一块 block 挡住门：作动词是“挡住、屏蔽”，马来语常用 sekat；作块体或楼栋名词时，规范拼写常是 blok。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Block je 在朋友间简短自然，但向客户、长辈或上司解释处理措施时，宜说明对象和理由，例如 Akaun tersebut telah disekat kerana…。",
+    "usage_etiquette": "英语 block 适合能理解语码转换的非正式交流。正式马来文按意义采用 menyekat、menghalang、blok 或 bongkah；政治“集团”义对应英语 bloc，不能仅因马来语也写 blok 就混同英语拼写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Block je 在朋友间简短自然，但向客户、长辈或上司解释处理措施时，宜说明对象和理由，例如 Akaun tersebut telah disekat kerana…。",
+    "usage_etiquette": "英语 block 适合能理解语码转换的非正式交流。正式马来文按意义采用 menyekat、menghalang、blok 或 bongkah；政治“集团”义对应英语 bloc，不能仅因马来语也写 blok 就混同英语拼写。"
+  }
+}

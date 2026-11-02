@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "men",
+    "syllables": null,
+    "ipa": "/mɛn/",
+    "jawi": null,
+    "frequency_rank": 5727,
+    "status": "foreign_word",
+    "validation_note": "以下按英语 man 的复数形式解释。输入包缺少语境，无法排除专名、缩写或非标准拼写；不能把独立字符串 men 自动认作马来语前缀 men-。排名沿用输入数据。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "man",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "man + 英语不规则复数变化 /æ/ → /ɛ/ → men",
+    "pattern_note": "通过词干内部元音变化构成复数，不是添加后缀 -en，也不是马来语 meN- 的变体。输入包的 root_word=men、is_root=true 已按英语分析修正。",
+    "word_family": [
+      {
+        "word": "man",
+        "affix": null,
+        "gloss": "成年男子；men 的单数形式"
+      },
+      {
+        "word": "manhood",
+        "affix": "-hood",
+        "gloss": "成年男子的状态；男子气概"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "成年男子；男人们，为英语 man 的复数。",
+      "en_definition": "Adult male human beings; the plural of man.",
+      "ms_definition": "Bentuk jamak bahasa Inggeris bagi man, yang merujuk kepada orang lelaki dewasa.",
+      "nuances": "标准马来语通常用 lelaki 或 orang lelaki，明确需要时可用 lelaki-lelaki；不能机械地给马来语名词套用英语复数变化。以下搭配为英语。复数关系见 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/men?q=Men)，马来语释义为编辑译释。",
+      "collocations": [
+        {
+          "ms": "young men",
+          "zh": "年轻男子",
+          "en": "young men"
+        },
+        {
+          "ms": "men and women",
+          "zh": "男性和女性",
+          "en": "men and women"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "某人指挥、雇用或带领的人员，尤其指士兵或工人。",
+      "en_definition": "Workers, soldiers, or other personnel under someone's direction.",
+      "ms_definition": "Pekerja, anggota tentera atau anggota lain yang berada di bawah arahan seseorang, dalam penggunaan bahasa Inggeris.",
+      "nuances": "具体译为 pekerja、anggota 或 anggota tentera，取决于语境。此用法常见于传统军旅或劳动叙述，不能脱离上下文一概译成“男人们”。以下搭配为英语。相关义项见 [Merriam-Webster 的 man 词条](https://www.merriam-webster.com/dictionary/man)。",
+      "collocations": [
+        {
+          "ms": "officers and men",
+          "zh": "军官和士兵",
+          "en": "officers and men"
+        },
+        {
+          "ms": "send in more men",
+          "zh": "增派人员",
+          "en": "send in more men"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "人；人类成员，不限男性，主要见于传统、历史或宗教表达。",
+      "en_definition": "Human beings generally, especially in traditional, historical, or religious language.",
+      "ms_definition": "Manusia secara umum, termasuk lelaki dan perempuan, terutama dalam ungkapan bahasa Inggeris tradisional, sejarah atau keagamaan.",
+      "nuances": "此义具有传统语体色彩。现代包容性英语通常根据语境使用 people、human beings 或 humanity。以下搭配为英语；相关泛指义见 [Merriam-Webster](https://www.merriam-webster.com/dictionary/man)。",
+      "collocations": [
+        {
+          "ms": "all men are created equal",
+          "zh": "人人生而平等",
+          "en": "all men are created equal"
+        },
+        {
+          "ms": "the world of men",
+          "zh": "人类世界",
+          "en": "the world of men"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：说明英语标签",
+      "ms": "Label bahasa Inggeris “men” pada papan tanda itu merujuk kepada tandas lelaki.",
+      "zh": "标牌上的英语标签“men”指男厕所。",
+      "en": "The English label “men” on the sign indicates the men's toilet."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：询问英语标识",
+      "ms_spoken": "Kat pintu tu tulis “men”. Tandas lelaki ke?",
+      "ms_standard": "Pada pintu itu tertulis perkataan “men”. Adakah itu tandas lelaki?",
+      "zh": "那扇门上写着“men”，是男厕所吗？",
+      "en": "That door says “men”. Is that the men's toilet?",
+      "spoken_features": [
+        "kat 相当于 pada",
+        "tu 是 itu 的口语缩略形式",
+        "句末 ke 表示口语疑问",
+        "英语单词以标识引文形式出现"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Kat pintu tu tulis “men”. Tandas lelaki ke?",
+          "ms_standard": "Pada pintu itu tertulis perkataan “men”. Adakah itu tandas lelaki?",
+          "zh": "门上写着“men”，是男厕所吗？",
+          "en": "The door says “men”. Is that the men's toilet?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ya, yang tu untuk lelaki. Tandas perempuan kat sebelah je.",
+          "ms_standard": "Ya, tandas itu untuk lelaki. Tandas perempuan terletak di sebelahnya.",
+          "zh": "对，那间是男厕。女厕就在旁边。",
+          "en": "Yes, that's the men's. The women's is right next door."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English men preserves an old plural pattern rather than the usual ending in -s. An earlier sound change, called i-umlaut, altered the stem vowel under the influence of a following sound. The conditioning ending disappeared, but the vowel contrast survived. Modern learners therefore inherit man and men as a pair, unrelated to Malay men-. See [the Old English grammar](https://hcmc.uvic.ca/eol/oe/docs/oe_grammar.htm).",
+    "cognitive_memory_aid": "一个 man，一群 men：换中间元音表示复数；不要把它拆成马来语 men-。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在标准马来语交流中使用 lelaki、pekerja 或 anggota 等合适词语；不要把 men 当作对男性普遍适用的马来语称呼。",
+    "usage_etiquette": "可用于引用英语标识、标题和原文。解释历史文献中的泛指义时，应说明它可能涵盖所有人，而非只指男性。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在标准马来语交流中使用 lelaki、pekerja 或 anggota 等合适词语；不要把 men 当作对男性普遍适用的马来语称呼。",
+    "usage_etiquette": "可用于引用英语标识、标题和原文。解释历史文献中的泛指义时，应说明它可能涵盖所有人，而非只指男性。"
+  }
+}

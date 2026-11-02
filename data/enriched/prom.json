@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "prom",
+    "syllables": null,
+    "ipa": "/prom/",
+    "jawi": null,
+    "frequency_rank": 5632,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "prom",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + prom → prom（独立借词）",
+    "pattern_note": "单音节，保留词首辅音组合 /pr/；作为独立借词使用，不拆成马来语词缀。未核实派生词，不以术语短语冒充词族。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "计算机提示符：屏幕上表示系统正在等待用户输入的符号或字符。",
+      "en_definition": "A symbol or sequence of characters indicating that a computer system is ready to receive user input.",
+      "ms_definition": "Simbol pada skrin komputer yang memerlukan input daripada pengguna.",
+      "nuances": "这是输入包提供的《Kamus Pelajar Edisi Kedua》义项，释义已展开缩写。命令行中的 prom 表示可输入命令，不等同于表示输入位置的光标。例：C:>。参见 [DBP：prom](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=prom)。",
+      "collocations": [
+        {
+          "ms": "prom arahan",
+          "zh": "命令提示符",
+          "en": "command prompt"
+        },
+        {
+          "ms": "pada prom",
+          "zh": "在提示符处",
+          "en": "at the prompt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "生成式人工智能提示：提供给模型、用于引导其生成回答或其他输出的指令、问题或相关输入。",
+      "en_definition": "An instruction, question, or other input supplied to a generative AI model to guide its output.",
+      "ms_definition": "Arahan, soalan atau input yang diberikan kepada model kecerdasan buatan generatif untuk membimbing penghasilan respons.",
+      "nuances": "此为根据 DBP 人工智能术语条目概括的释义，不是输入包旧词典释义的逐字引文。此处由用户向模型提供输入；计算机提示符义则由系统提示用户输入。参见 [DBP：kejuruteraan prom、penjana prom](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=prom)。",
+      "collocations": [
+        {
+          "ms": "kejuruteraan prom",
+          "zh": "提示工程",
+          "en": "prompt engineering"
+        },
+        {
+          "ms": "penjana prom",
+          "zh": "提示生成器",
+          "en": "prompt generator"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "言语治疗中用于引导患者作出目标言语反应的提示或提示技术。",
+      "en_definition": "A cue or prompting technique used to elicit a target speech response in therapy.",
+      "ms_definition": "Teknik terapi yang memberikan kiu dalam pertuturan.",
+      "nuances": "DBP 卫生科学术语义，限言语治疗等专业语境。以下是说明性组合，不声称为统计上的高频搭配。参见 [DBP：prom 的卫生科学术语义](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=prom)。",
+      "collocations": [
+        {
+          "ms": "pemberian prom",
+          "zh": "给予提示",
+          "en": "the provision of prompts"
+        },
+        {
+          "ms": "prom dalam terapi pertuturan",
+          "zh": "言语治疗中的提示",
+          "en": "prompts in speech therapy"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "技术文档 / 职场操作说明",
+      "ms": "Sila taipkan perintah berikut pada prom arahan, kemudian tekan kekunci Enter.",
+      "zh": "请在命令提示符处键入以下命令，然后按 Enter 键。",
+      "en": "Please type the following command at the command prompt, then press Enter."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论人工智能工具",
+      "ms_spoken": "Prom ni panjang sangatlah. Nak pendekkan sikit boleh?",
+      "ms_standard": "Prom ini terlalu panjang. Bolehkah kita memendekkannya sedikit?",
+      "zh": "这个提示太长了啦，能不能缩短一点？",
+      "en": "This prompt is too long. Can we shorten it a little?",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略形式。",
+        "nak 表示 hendak。",
+        "lah 在此加强评价语气。",
+        "疑问结构采用口语语序。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Prom ni panjang sangatlah. Nak pendekkan sikit boleh?",
+          "ms_standard": "Prom ini terlalu panjang. Bolehkah kita memendekkannya sedikit?",
+          "zh": "这个提示太长了啦，能不能缩短一点？",
+          "en": "This prompt is too long. Can we shorten it a little?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Boleh. Buang ayat yang berulang je, tapi arahan utama kena jelas.",
+          "ms_standard": "Boleh. Buang sahaja ayat yang berulang, tetapi arahan utama mesti jelas.",
+          "zh": "可以，把重复的句子删掉就行，不过主要指令得写清楚。",
+          "en": "Sure. Just remove the repeated sentences, but keep the main instruction clear."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay prom corresponds to English prompt in DBP terminology. Its computing sense concerns a screen signal inviting user input, while its generative AI use concerns input supplied to a model. These related technical uses explain why context matters: the same Malay spelling can describe either a system asking for instructions or instructions given to an AI.",
+    "cognitive_memory_aid": "把 prom 记成“提示”：屏幕上的 prom 提示你输入；写给 AI 的 prom 提示模型如何回答。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词是中性技术用语。向不熟悉术语的人说明时，可补充 arahan atau soalan kepada AI，让对方理解具体所指。",
+    "usage_etiquette": "根据计算机操作、人工智能或治疗语境判断含义。不要与大写硬件缩略词 PROM 混同；英语中表示毕业舞会的 prom 也不能直接套用本条马来语技术释义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词是中性技术用语。向不熟悉术语的人说明时，可补充 arahan atau soalan kepada AI，让对方理解具体所指。",
+    "usage_etiquette": "根据计算机操作、人工智能或治疗语境判断含义。不要与大写硬件缩略词 PROM 混同；英语中表示毕业舞会的 prom 也不能直接套用本条马来语技术释义。"
+  }
+}

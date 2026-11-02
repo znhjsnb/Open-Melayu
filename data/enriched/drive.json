@@ -1,0 +1,173 @@
+{
+  "headword": {
+    "word": "drive",
+    "syllables": "drive",
+    "ipa": "/draɪv/",
+    "jawi": null,
+    "frequency_rank": 5781,
+    "status": "needs_review"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "drive",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + drive → drive",
+    "pattern_note": "英语整词，不含马来语词缀。英语派生 driver 和形式 driving 均去掉末尾不发音的 e 后接词缀；这些规则不能当作马来语构词规则。",
+    "word_family": [
+      {
+        "word": "driver",
+        "affix": "-er",
+        "gloss": "司机；驱动程序，英语派生词"
+      },
+      {
+        "word": "driving",
+        "affix": "-ing",
+        "gloss": "驾驶，英语形式"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "英语动词：驾驶车辆；在马来西亚混合口语中可嵌入马来语句子，标准马来语用 memandu。",
+      "en_definition": "English: to operate and control a motor vehicle.",
+      "ms_definition": "Dalam bahasa Inggeris, mengendalikan dan mengawal pergerakan kenderaan bermotor; memandu.",
+      "nuances": "drive balik 等属于马英混合口语。正式马来语应按句意使用 memandu 或 memandu pulang。以下搭配为标准马来语对应表达。",
+      "collocations": [
+        {
+          "ms": "memandu kereta",
+          "zh": "开车",
+          "en": "drive a car"
+        },
+        {
+          "ms": "memandu pulang",
+          "zh": "开车回家",
+          "en": "drive home"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "英语动词：促使某事发展或使某人采取行动；马来语可按语境用 memacu 或 mendorong。",
+      "en_definition": "English: to cause or strongly influence an action or development.",
+      "ms_definition": "Dalam bahasa Inggeris, menyebabkan atau mendorong sesuatu tindakan atau perkembangan berlaku.",
+      "nuances": "这是抽象推动义，不涉及实际驾驶；搭配应按语义选择马来语动词。",
+      "collocations": [
+        {
+          "ms": "memacu pertumbuhan",
+          "zh": "推动增长",
+          "en": "drive growth"
+        },
+        {
+          "ms": "mendorong perubahan",
+          "zh": "促成变化",
+          "en": "drive change"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "英语计算机名词：用于读写或存储数据的驱动器、存储设备；马来语通常用 pemacu。",
+      "en_definition": "Computing: a device used to read, write, or store digital data.",
+      "ms_definition": "Dalam pengkomputeran bahasa Inggeris, peranti untuk membaca, menulis atau menyimpan data digital; pemacu.",
+      "nuances": "不要与 driver“驱动程序”混淆。Google Drive 是产品名，应保留其正式拼写；普通设备名则可采用马来语术语。",
+      "collocations": [
+        {
+          "ms": "pemacu keras",
+          "zh": "硬盘驱动器",
+          "en": "hard drive"
+        },
+        {
+          "ms": "pemacu USB",
+          "zh": "USB 存储设备",
+          "en": "USB drive"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "英语名词：促使人持续努力的强烈动力或进取心。",
+      "en_definition": "English: strong motivation and determination to achieve something.",
+      "ms_definition": "Dalam bahasa Inggeris, dorongan dan keazaman yang kuat untuk mencapai sesuatu.",
+      "nuances": "指人的内在动力；马来语可用 dorongan、semangat 或 keazaman，不能译为 pemacu 设备。",
+      "collocations": [
+        {
+          "ms": "dorongan untuk berjaya",
+          "zh": "追求成功的动力",
+          "en": "the drive to succeed"
+        },
+        {
+          "ms": "dorongan dalaman",
+          "zh": "内在动力",
+          "en": "inner drive"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场文件 / 翻译说明",
+      "ms": "Dalam panduan keselamatan ini, perkataan Inggeris 'drive' diterjemahkan sebagai 'memandu'.",
+      "zh": "在这份安全指南中，英语单词 drive 译为 memandu。",
+      "en": "In this safety guide, the English word 'drive' is translated as 'memandu'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事下班交流；马英混合口语",
+      "ms_spoken": "Awak nak drive balik sekarang ke?",
+      "ms_standard": "Adakah awak hendak memandu pulang sekarang?",
+      "zh": "你现在要开车回去吗？",
+      "en": "Are you driving home now?",
+      "spoken_features": [
+        "nak 对应 hendak",
+        "句末 ke 用于口语疑问",
+        "drive 是英语语码转换",
+        "balik 在此对应较正式的 pulang"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Awak nak drive balik sekarang ke?",
+          "ms_standard": "Adakah awak hendak memandu pulang sekarang?",
+          "zh": "你现在要开车回去吗？",
+          "en": "Are you driving home now?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum, hujan lebat lagi. Saya tunggu kat sini dulu lah.",
+          "ms_standard": "Belum, hujan masih lebat. Saya akan menunggu di sini dahulu.",
+          "zh": "还没，雨还很大。我先在这里等等吧。",
+          "en": "Not yet. It's still pouring. I'll wait here for a while."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English drive descends from Old English drīfan. Its older meanings involve forcing movement, including moving animals; modern meanings include controlling vehicles, powering machinery and motivating action. This shared idea of causing movement helps connect its senses. In Malay contexts, the appropriate equivalent changes with the meaning rather than following one universal translation.",
+    "cognitive_memory_aid": "抓住“推动前进”：推动车辆是驾驶，推动事业是促进，推动自己是动力。不同语境分别联系 memandu、memacu 和 dorongan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉的双语同事之间可说 drive；面向公众、客户或不熟悉英语的人时，用 memandu 更清楚。",
+    "usage_etiquette": "正式马来语应根据含义选择 memandu、memacu、pemacu 或 dorongan。产品名称 Google Drive 保留原名。"
+  },
+  "verification": {
+    "classification": "English word; usable in Malay-English code-switching",
+    "official_malay_status": "not_verified",
+    "definition_provenance": "本条为英语相关义项的编辑性三语说明，并非 DBP 官方马来语词条。",
+    "packet_note": "输入音节值 sso 不是音节标注，已改为英语单音节 drive。保留输入排名；爪夷文缺失，保留 null。IPA 为英语读音。本条列出与马来语学习相关的主要义项，并非穷尽英语全部义项。",
+    "sources": [
+      "[Merriam-Webster：drive 的动词、名词义项及词源](https://www.merriam-webster.com/dictionary/drive)"
+    ]
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉的双语同事之间可说 drive；面向公众、客户或不熟悉英语的人时，用 memandu 更清楚。",
+    "usage_etiquette": "正式马来语应根据含义选择 memandu、memacu、pemacu 或 dorongan。产品名称 Google Drive 保留原名。"
+  }
+}

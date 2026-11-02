@@ -1,0 +1,151 @@
+{
+  "headword": {
+    "word": "bear",
+    "syllables": null,
+    "ipa": "/beə(r)/",
+    "jawi": null,
+    "frequency_rank": 5754,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bear",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bear → bear",
+    "pattern_note": "按输入保留整词分析；此处音标为英语读音。没有证据支持将其拆成马来语词缀与词根。",
+    "word_family": [
+      {
+        "word": "bearish",
+        "affix": "-ish（英语后缀）",
+        "gloss": "看跌的；不是马来语派生词"
+      },
+      {
+        "word": "bearable",
+        "affix": "-able（英语后缀）",
+        "gloss": "可忍受的；源自动词 bear，与动物名词分属不同词源"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英语动物名词：熊，指熊科哺乳动物；标准马来语通常用 beruang。",
+      "en_definition": "An English noun denoting a mammal of the family Ursidae; Malay: beruang.",
+      "ms_definition": "Dalam bahasa Inggeris, mamalia daripada famili Ursidae; padanan bahasa Melayunya ialah beruang.",
+      "nuances": "英语候选义项，不能据此认定 bear 是表示动物的正式马来语词。英语 teddy bear 指玩具熊，不是另一个动物类别。[DBP 英马词典对应](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=beruang)",
+      "collocations": [
+        {
+          "ms": "beruang matahari",
+          "zh": "马来熊",
+          "en": "sun bear"
+        },
+        {
+          "ms": "beruang kutub",
+          "zh": "北极熊",
+          "en": "polar bear"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "英语动词：承载、承担或忍受；具体马来语译法须依宾语选择，如 memikul、menanggung 或 menahan。",
+      "en_definition": "To carry or support a burden, accept a responsibility, or endure something difficult.",
+      "ms_definition": "Dalam bahasa Inggeris, membawa atau memikul beban, menanggung tanggungjawab, atau menahan sesuatu yang sukar.",
+      "nuances": "这些是英语动词的相关用法，不是已核实的马来语义项。承担费用通常译为 menanggung kos；忍受疼痛可译为 menahan kesakitan。所列马来语定义为编写释义。[DBP：menanggung](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menanggung)",
+      "collocations": [
+        {
+          "ms": "menanggung kos",
+          "zh": "承担费用",
+          "en": "bear the costs"
+        },
+        {
+          "ms": "menahan kesakitan",
+          "zh": "忍受疼痛",
+          "en": "bear the pain"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "金融英语：预期证券等资产价格下跌的交易者或投资者，即空头。",
+      "en_definition": "A market participant who expects prices to fall.",
+      "ms_definition": "Dalam istilah kewangan bahasa Inggeris, pelaku pasaran yang menjangkakan harga akan menurun.",
+      "nuances": "DBP 英马词典在证券交易语境保留 bear，并列出 pasaran bear；这支持其金融术语用途，但不能证明整条输入的所有义项均属正式马来语。[DBP：bear 的金融对应](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=beruang)",
+      "collocations": [
+        {
+          "ms": "pasaran bear",
+          "zh": "熊市",
+          "en": "bear market"
+        },
+        {
+          "ms": "pelabur yang menjangkakan kejatuhan harga",
+          "zh": "看跌的投资者",
+          "en": "a bearish investor"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 英语合同术语说明",
+      "ms": "Frasa bahasa Inggeris “bear the costs” dalam kontrak itu bermaksud menanggung kos.",
+      "zh": "该合同中的英语短语 bear the costs 意为承担费用。",
+      "en": "The English phrase “bear the costs” in that contract means to cover the costs."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论英语词义",
+      "ms_spoken": "Bear kat sini maksudnya beruang ke?",
+      "ms_standard": "Adakah perkataan Inggeris “bear” di sini bermaksud beruang?",
+      "zh": "这里的 bear 是指熊吗？",
+      "en": "Does “bear” mean the animal here?",
+      "spoken_features": [
+        "kat 对应标准语 di",
+        "句末 ke 构成口语疑问",
+        "英语目标词作为讨论对象出现"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bear kat sini maksudnya beruang ke?",
+          "ms_standard": "Adakah perkataan Inggeris “bear” di sini bermaksud beruang?",
+          "zh": "这里的 bear 是指熊吗？",
+          "en": "Does “bear” mean the animal here?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Bukan, kat sini bear the costs maksudnya tanggung kos je.",
+          "ms_standard": "Tidak, frasa “bear the costs” di sini bermaksud menanggung kos sahaja.",
+          "zh": "不是啦，这里的 bear the costs 就是承担费用。",
+          "en": "No, “bear the costs” just means to cover the costs here."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English bear hides two histories behind one spelling. The animal noun continues Old English bera, traditionally associated with a Germanic expression meaning the brown one. The verb continues Old English beran, meaning to carry. Their modern spelling therefore conceals a historical distinction rather than a Malay derivational relationship. [Etymology](https://www.etymonline.com/word/bear)",
+    "cognitive_memory_aid": "把 bear 分成两幅画：熊是一幅，肩上承担重物是另一幅；同音同形不代表同一词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式马来语沟通应按意思使用 beruang、menanggung 或其他准确对应词；金融场合使用 bear 时宜先说明术语。",
+    "usage_etiquette": "不要将英语动物义直接当成马来语通用词教授，也不要仅凭姓名称呼或品牌中的 Bear 推断动物义。"
+  },
+  "validation": {
+    "classification": "英语同形词；另有金融术语对应证据",
+    "official_status_note": "输入没有提供马来语官方定义，因此未将整条记录标记为 official。",
+    "definition_provenance": "三语释义为综合编写；ms_definition 不是声称逐字引用的 DBP 官方定义。",
+    "metadata_note": "保留输入的空音节和空 Jawi；IPA 为英语参考读音。排名仅沿用输入，未验证其语料库来源。",
+    "scope_note": "所列为用于辨识的主要候选义项；缺少原始语境，不能确定该排名对应哪个义项。",
+    "example_note": "例句与对话为编写示例，非语料引文；搭配列提供相应的马来语表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式马来语沟通应按意思使用 beruang、menanggung 或其他准确对应词；金融场合使用 bear 时宜先说明术语。",
+    "usage_etiquette": "不要将英语动物义直接当成马来语通用词教授，也不要仅凭姓名称呼或品牌中的 Bear 推断动物义。"
+  }
+}

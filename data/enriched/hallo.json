@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "hallo",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 5752,
+    "status": "nonstandard_for_malay",
+    "verification_note": "未核实 hallo 为规范马来语词头。马来语问候词的规范拼写为 helo；DBP 亦收录口语形式 halo。不能把 helo 或 halo 的音标、爪夷文直接移植给 hallo。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hallo",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hallo → hallo",
+    "pattern_note": "作为完整招呼表达识别；双写 ll 不表示马来语词缀、重叠或已确认的长辅音。规范化时采用 helo。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "非规范马来语拼写的招呼语：你好；喂，用于开始交谈或接通电话。规范马来语写作 helo。",
+      "en_definition": "A greeting or telephone-opening expression corresponding to hello; standard Malay uses helo.",
+      "ms_definition": "Bentuk sapaan tidak baku dalam bahasa Melayu yang digunakan untuk memulakan perbualan atau menjawab telefon; ejaan bakunya ialah helo.",
+      "nuances": "严格词类为 kata seru（感叹词／招呼语）；此处因给定词类选项限制而归入 particle。hallo 也存在于其他语言，不能仅凭字形确定借入路径。以下搭配采用规范马来语 helo。[来源：DBP 的 helo 词条](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=helo)；[DBP 关于 hello 与 helo 的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=helo)。马来语释义为编辑性说明。",
+      "collocations": [
+        {
+          "ms": "Helo, apa khabar?",
+          "zh": "你好，近来好吗？",
+          "en": "Hello, how are you?"
+        },
+        {
+          "ms": "Helo, boleh saya bercakap dengan Encik Lim?",
+          "zh": "喂，请问可以请林先生接电话吗？",
+          "en": "Hello, may I speak to Mr Lim?"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；说明拼写规范",
+      "ms": "Dalam skrip panggilan pelanggan, ejaan 'hallo' hendaklah digantikan dengan 'helo'.",
+      "zh": "客户电话话术中的拼写 hallo 应改为 helo。",
+      "en": "In the customer call script, the spelling 'hallo' should be replaced with 'helo'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；保留非规范输入拼写",
+      "ms_spoken": "Hallo, kau dah sampai ke?",
+      "ms_standard": "Helo, adakah kamu sudah sampai?",
+      "zh": "喂，你到了吗？",
+      "en": "Hey, have you arrived yet?",
+      "spoken_features": [
+        "hallo 在此保留为非规范聊天拼写；标准形式为 helo。",
+        "kau 是熟人间的第二人称。",
+        "dah 对应 sudah；句末 ke 表示疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Hallo, kau dah sampai ke?",
+          "ms_standard": "Helo, adakah kamu sudah sampai?",
+          "zh": "喂，你到了吗？",
+          "en": "Hey, have you arrived yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, aku kat depan kedai je. Kau kat mana?",
+          "ms_standard": "Ya, saya sudah sampai dan berada di hadapan kedai. Kamu berada di mana?",
+          "zh": "到了，我就在店门口。你在哪儿？",
+          "en": "Yes, I'm right outside the shop. Where are you?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Hallo belongs to a wider history of European calling and greeting expressions, including English hello and hollo. Their histories involve calls for attention as well as greetings. That relationship does not establish a particular borrowing route for Malay hallo. For Malaysian Malay, DBP identifies helo as the standard spelling. [Historical discussion: Oxford University Press](https://blog.oup.com/2008/10/hello/); [Malay usage: DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=helo).",
+    "cognitive_memory_aid": "记住“马来语问候用 helo，一个 l”：听到类似 hello 的招呼声，正式落笔写 helo。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "招呼语是否礼貌取决于语调与后续称呼。正式电话可用 Helo，随后自报身份；对客户或长辈避免使用质问语气。",
+    "usage_etiquette": "正式写作采用 helo。Selamat pagi 或 Selamat sejahtera 也适合相应场合；聊天中的 hallo 不宜作为规范拼写示范。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "招呼语是否礼貌取决于语调与后续称呼。正式电话可用 Helo，随后自报身份；对客户或长辈避免使用质问语气。",
+    "usage_etiquette": "正式写作采用 helo。Selamat pagi 或 Selamat sejahtera 也适合相应场合；聊天中的 hallo 不宜作为规范拼写示范。"
+  }
+}
