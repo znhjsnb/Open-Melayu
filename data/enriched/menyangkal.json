@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "menyangkal",
+    "syllables": "me.nyang.kal",
+    "ipa": "/mə.ɲaŋ.kal/",
+    "jawi": "مڽاڠکل",
+    "frequency_rank": 7079,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sangkal",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + sangkal → menyangkal",
+    "pattern_note": "词根首音 s 在 meN- 派生中被鼻音 ny /ɲ/ 替代，形成 meny-。依据 DBP 的 sangkal 词族，纠正输入将 menyangkal 本身判为词根的自动分析。",
+    "word_family": [
+      {
+        "word": "sangkalan",
+        "affix": "-an",
+        "gloss": "反驳；驳议"
+      },
+      {
+        "word": "penyangkalan",
+        "affix": "peN-...-an",
+        "gloss": "否认；反驳行为"
+      },
+      {
+        "word": "penyangkal",
+        "affix": "peN-",
+        "gloss": "否认者；反驳者"
+      }
+    ],
+    "root_jawi": "ساڠکل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "否认某项陈述、消息或指控属实；表示不承认其真实性。",
+      "en_definition": "To deny the truth of a statement, report, or allegation.",
+      "ms_definition": "Tidak mengakui kebenaran sesuatu atau tidak mengiakan sesuatu kenyataan.",
+      "nuances": "强调说话者不承认其真实性；否认本身不等于已经证明对方错误。常见于新闻、声明和争议报道。释义依据 [DBP：sangkal／menyangkal](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=sangkal)。",
+      "collocations": [
+        {
+          "ms": "menyangkal dakwaan",
+          "zh": "否认某项声称或指控",
+          "en": "deny an allegation"
+        },
+        {
+          "ms": "menyangkal tuduhan",
+          "zh": "否认指责",
+          "en": "deny an accusation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "反驳、驳斥或反对某种观点、论证、主张或命令。",
+      "en_definition": "To challenge, contradict, or oppose an argument, opinion, claim, or command.",
+      "ms_definition": "Membantah, melawan, menentang, menolak atau menyanggah sesuatu.",
+      "nuances": "比单纯表示不同意更有对抗性。用于论证时可译“反驳”；只有上下文表明反驳成立，才适合译成带有成功含义的“证伪”。依据 [DBP：sangkal／menyangkal](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=sangkal)。",
+      "collocations": [
+        {
+          "ms": "menyangkal hujah",
+          "zh": "反驳论点",
+          "en": "challenge an argument"
+        },
+        {
+          "ms": "menyangkal pendapat",
+          "zh": "反驳意见",
+          "en": "dispute an opinion"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 企业声明",
+      "ms": "Syarikat itu menyangkal dakwaan bahawa maklumat pelanggan telah dijual kepada pihak ketiga.",
+      "zh": "该公司否认曾将客户资料出售给第三方的指控。",
+      "en": "The company denied the allegation that customer information had been sold to a third party."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论群组传言",
+      "ms_spoken": "Dia dah menyangkal cerita tu kat dalam grup.",
+      "ms_standard": "Dia sudah menyangkal cerita itu dalam kumpulan sembang.",
+      "zh": "他已经在群里否认那个传言了。",
+      "en": "He’s already denied that story in the group chat.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "tu 对应 itu",
+        "kat dalam 是口语位置表达",
+        "grup 是聊天中常见的夹用形式，标准表达可用 kumpulan sembang",
+        "menyangkal 保留完整词形，在口语中仍带声明式语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dia dah menyangkal cerita tu kat dalam grup, kan?",
+          "ms_standard": "Dia sudah menyangkal cerita itu dalam kumpulan sembang, bukan?",
+          "zh": "他已经在群里否认那个传言了，对吧？",
+          "en": "He’s already denied that story in the group chat, hasn’t he?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, tapi kita tunggu bukti dulu lah. Jangan kongsi lagi.",
+          "ms_standard": "Ya, tetapi kita perlu menunggu bukti terlebih dahulu. Jangan kongsikan cerita itu lagi.",
+          "zh": "对，不过还是先等证据吧，别再转发了。",
+          "en": "Yes, but let’s wait for evidence. Don’t share it any further."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menyangkal belongs to the Malay sangkal family, alongside sangkalan, penyangkal, and penyangkalan. Its changing initial consonant illustrates nasal substitution: the s of sangkal gives way to ny after meN-. This visible family relationship explains the modern word reliably; the available dictionary evidence does not establish a deeper historical origin.",
+    "cognitive_memory_aid": "记住 sangkal“反驳”：加 meN- 时 s 换成 ny，得到 menyangkal；看到 nyangkal，就想到“否认、反驳”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Saya menyangkal pendapat tuan 语气较强。一般职场讨论可用 Saya kurang bersetuju dengan pandangan itu，再解释依据；正式澄清则可直接使用 menyangkal。",
+    "usage_etiquette": "适合事实澄清、新闻回应和学术争论。反驳时针对说法和证据；对长辈或上级公开使用时，应留意语气，避免把合理异议表达成人身指责。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Saya menyangkal pendapat tuan 语气较强。一般职场讨论可用 Saya kurang bersetuju dengan pandangan itu，再解释依据；正式澄清则可直接使用 menyangkal。",
+    "usage_etiquette": "适合事实澄清、新闻回应和学术争论。反驳时针对说法和证据；对长辈或上级公开使用时，应留意语气，避免把合理异议表达成人身指责。"
+  }
+}

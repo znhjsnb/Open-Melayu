@@ -1,0 +1,165 @@
+{
+  "headword": {
+    "word": "dent",
+    "syllables": null,
+    "ipa": "/dent/",
+    "jawi": null,
+    "frequency_rank": 7048,
+    "status": "foreign",
+    "language": "en"
+  },
+  "lexicographic_note": "此词经核实为英语词头，不能标为正式马来语词。DBP 将其收入英马词典，马来语对应词包括 lekuk、kemik、melekukkan、mengemikkan 和 menjejaskan。以下释义说明英语原词；搭配提供标准马来语对应表达，不将英语混用认定为马来语规范。音标为英语读音；输入未提供音节和爪夷文，保留 null。[DBP 英马词典](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=dent)、[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/dent)。",
+  "morphology": {
+    "is_root": true,
+    "root_word": "dent",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dent → dent",
+    "pattern_note": "英语独立词素，不能按马来语词缀拆分；下列词族形式属于英语屈折变化。",
+    "word_family": [
+      {
+        "word": "dented",
+        "affix": "-ed（英语）",
+        "gloss": "使凹陷的过去式；已凹陷的"
+      },
+      {
+        "word": "denting",
+        "affix": "-ing（英语）",
+        "gloss": "使凹陷；造成损害"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "物体表面因撞击或挤压而形成的凹痕。",
+      "en_definition": "An indentation in a surface caused by impact or pressure.",
+      "ms_definition": "Bahagian permukaan yang menjadi lekuk atau kemik akibat hentaman atau tekanan.",
+      "nuances": "这是英语名词义。马来语描述金属表面通常用 kemik，描述一般凹处可用 lekuk；凹痕与 calar（刮痕）不同。",
+      "collocations": [
+        {
+          "ms": "kemik pada pintu kereta",
+          "zh": "车门上的凹痕",
+          "en": "a dent in a car door"
+        },
+        {
+          "ms": "membaiki bahagian yang kemik",
+          "zh": "修复凹陷处",
+          "en": "repair a dent"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "使物体表面凹陷；或指表面受力后变得凹陷。",
+      "en_definition": "To indent a surface, or to become indented.",
+      "ms_definition": "Menyebabkan permukaan menjadi lekuk atau kemik, atau mengalami perubahan tersebut.",
+      "nuances": "英语可作及物或不及物动词。马来语应根据主语和受事关系使用 mengemikkan、melekukkan 或 menjadi kemik。",
+      "collocations": [
+        {
+          "ms": "mengemikkan panel kereta",
+          "zh": "使汽车钣金凹陷",
+          "en": "dent a car panel"
+        },
+        {
+          "ms": "mudah menjadi kemik",
+          "zh": "容易凹陷",
+          "en": "dent easily"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "削弱或损害信心、自尊、声誉等。",
+      "en_definition": "To weaken or damage confidence, pride, reputation, or a similar quality.",
+      "ms_definition": "Menjejaskan keyakinan, harga diri, reputasi atau sifat seumpamanya.",
+      "nuances": "英语比喻义，通常表示受到一定损害，不必然表示彻底摧毁。马来语对应词为 menjejaskan。",
+      "collocations": [
+        {
+          "ms": "menjejaskan keyakinan",
+          "zh": "打击信心",
+          "en": "dent confidence"
+        },
+        {
+          "ms": "menjejaskan reputasi",
+          "zh": "损害声誉",
+          "en": "dent a reputation"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "对数量、资源或整体状况造成的明显削减或影响，常见于 make a dent in。",
+      "en_definition": "A noticeable reduction or effect, especially in the expression make a dent in.",
+      "ms_definition": "Pengurangan atau kesan yang ketara terhadap sesuatu jumlah, sumber atau keadaan.",
+      "nuances": "这是英语惯用表达中的名词义。具体可指减少积压、消耗储蓄或影响产量，不能一律译作物理上的凹痕。",
+      "collocations": [
+        {
+          "ms": "mengurangkan tunggakan dengan ketara",
+          "zh": "明显减少积压",
+          "en": "make a dent in the backlog"
+        },
+        {
+          "ms": "mengurangkan simpanan dengan ketara",
+          "zh": "使储蓄明显减少",
+          "en": "make a dent in savings"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 车辆检验术语说明",
+      "ms": "Istilah bahasa Inggeris dent dalam laporan pemeriksaan itu merujuk kepada bahagian pintu kereta yang kemik.",
+      "zh": "该检验报告中的英语术语 dent 指车门的凹陷部位。",
+      "en": "The English term dent in the inspection report refers to the indented area of the car door."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论车身损伤；含英语混用",
+      "ms_spoken": "Ada dent sikit kat pintu kereta aku lah.",
+      "ms_standard": "Terdapat sedikit kesan kemik pada pintu kereta saya.",
+      "zh": "我车门上有一点凹痕啦。",
+      "en": "There's a small dent in my car door.",
+      "spoken_features": [
+        "dent 为英语混用词，标准马来语可用 kesan kemik。",
+        "kat 对应 pada，sikit 对应 sedikit。",
+        "aku 是熟人间的第一人称，lah 表达语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku baru nampak dent kat pintu kereta aku lah.",
+          "ms_standard": "Saya baru terlihat kesan kemik pada pintu kereta saya.",
+          "zh": "我刚发现自己车门上有个凹痕。",
+          "en": "I've just noticed a dent in my car door."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kecil je tu. Kau dah tanya bengkel belum?",
+          "ms_standard": "Kesan kemik itu kecil sahaja. Adakah kamu sudah bertanya kepada pihak bengkel?",
+          "zh": "就一点点嘛。你问过修车厂了吗？",
+          "en": "It's only small. Have you asked a repair shop about it yet?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This entry illustrates a boundary between languages rather than a Malay derivation. DBP records dent in its English–Malay dictionary and distinguishes a hollow in a general surface from damage to metal. The same physical image also supports English figurative uses involving confidence or reputation. Its appearance in Malaysian conversation does not establish a standard Malay headword.",
+    "cognitive_memory_aid": "把 dent 和车门被撞后的小凹坑连在一起：看见凹痕，想到 kemik；信心被打出一道“凹痕”，就是 menjejaskan keyakinan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论车辆损伤时可自然使用英语混用，但正式马来语报告宜使用 kemik 或 lekuk。",
+    "usage_etiquette": "向车主说明损伤时客观描述位置和程度；不要把 dent 当成已经核定的马来语词，也不要把凹陷与刮伤混为一谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论车辆损伤时可自然使用英语混用，但正式马来语报告宜使用 kemik 或 lekuk。",
+    "usage_etiquette": "向车主说明损伤时客观描述位置和程度；不要把 dent 当成已经核定的马来语词，也不要把凹陷与刮伤混为一谈。"
+  }
+}

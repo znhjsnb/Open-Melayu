@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "tembaklah",
+    "syllables": "tem.bak.lah",
+    "ipa": "/tem.baʔ.lah/",
+    "jawi": "تيمبقله",
+    "frequency_rank": 7043,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tembak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "tembak + -lah（附着强调小品词）→ tembaklah",
+    "pattern_note": "-lah 是附着小品词，不是派生后缀，因此 affix 为 null、affix_type 为 none；全词不是裸词根。它与前词连写，不触发鼻音化；tembak 的 é 为 /e/，词尾 k 常实现为 [ʔ]。音节按构成补为 tem.bak.lah；输入的 تيمبق 仅对应词根，全词按拼写规则补为 تيمبقله。小品词分类依据 [DBP 语法答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel)。",
+    "word_family": [
+      {
+        "word": "menembak",
+        "affix": "meN-",
+        "gloss": "射击；开枪"
+      },
+      {
+        "word": "tembakan",
+        "affix": "-an",
+        "gloss": "射击；一发射击或其结果"
+      }
+    ],
+    "root_jawi": "تيمبق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "射击吧；开枪吧。由 tembak 加上强调小品词 -lah 构成，表示催促、准许或加强射击指令。",
+      "en_definition": "Shoot; go ahead and fire, with imperative emphasis supplied by -lah.",
+      "ms_definition": "Bentuk perintah bagi tembak yang disertai partikel -lah untuk menegaskan atau menggalakkan tindakan melepaskan tembakan.",
+      "nuances": "-lah 的效果取决于语调和关系，并不自动表示客气。射击义依据 [DBP：menembak](https://prpm.dbp.gov.my/cari1?keyword=menembak)。输入所引 Mn 释义标记的是米南加保语来源的“方向、目的”等区域用法，不能代替常用射击义。",
+      "collocations": [
+        {
+          "ms": "tembaklah sasaran itu",
+          "zh": "向那个靶子射击吧",
+          "en": "shoot at that target"
+        },
+        {
+          "ms": "tembaklah apabila diarahkan",
+          "zh": "接到指令时再射击",
+          "en": "fire when instructed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "猜一个吧；蒙个答案吧。口语中指没有把握时猜选答案，常见于选择题语境。",
+      "en_definition": "Take a guess at an answer, especially in a multiple-choice question; informal.",
+      "ms_definition": "Dalam bahasa percakapan, membuat tekaan untuk memilih jawapan apabila tidak pasti, dengan penegasan daripada partikel -lah.",
+      "nuances": "这是口语引申义，不是输入所给的 DBP 区域释义。标准表达可用 tekalah 或 buatlah tekaan；不表示有根据的判断。有关学校俚语用法见 [Wikikamus：tembak](https://ms.wiktionary.org/wiki/tembak)。",
+      "collocations": [
+        {
+          "ms": "tembaklah jawapan",
+          "zh": "蒙个答案吧",
+          "en": "take a guess at the answer"
+        },
+        {
+          "ms": "tembaklah satu pilihan",
+          "zh": "猜选一个选项吧",
+          "en": "pick an option as a guess"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "射门吧；把球踢向球门吧。",
+      "en_definition": "Shoot at goal; strike the ball towards the goal.",
+      "ms_definition": "Bentuk perintah untuk menyepak bola ke arah gol, dengan penegasan daripada partikel -lah.",
+      "nuances": "DBP 在 menembak 的此义下标注 Id，表示印度尼西亚用法。马来西亚足球语境可以理解，但正式教学宜同时掌握 sepak bola ke arah gol；此处不把它标作无地域限制的马来西亚核心义。",
+      "collocations": [
+        {
+          "ms": "tembaklah ke arah gol",
+          "zh": "朝球门射门吧",
+          "en": "shoot towards the goal"
+        },
+        {
+          "ms": "tembaklah dari luar kotak penalti",
+          "zh": "从禁区外射门吧",
+          "en": "shoot from outside the penalty area"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 射击训练报道中的引语",
+      "ms": "Dalam sesi latihan itu, jurulatih mengingatkan peserta, “Tembaklah hanya selepas arahan diberikan.”",
+      "zh": "在该训练环节中，教练提醒学员：“只有接到指令后才射击。”",
+      "en": "During the training session, the instructor reminded participants, “Fire only after the command is given.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论练习题",
+      "ms_spoken": "Kalau tak pasti, tembaklah satu jawapan dulu, lepas tu kita semak.",
+      "ms_standard": "Jika tidak pasti, tekalah satu jawapan terlebih dahulu, kemudian kita semak.",
+      "zh": "没把握的话就先猜一个答案，之后我们再核对。",
+      "en": "If you’re unsure, take a guess first, then we’ll check it.",
+      "spoken_features": [
+        "tak 对应 tidak。",
+        "lepas tu 对应 kemudian。",
+        "tembaklah 在此是“猜吧”的口语引申义。",
+        "标准对应句改用 tekalah，以明确表示猜测。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (同学)",
+          "ms_spoken": "Aku dah cuba, tapi soalan ni susah lah. Nak pilih yang mana?",
+          "ms_standard": "Saya sudah mencuba, tetapi soalan ini sukar. Pilihan yang manakah patut saya pilih?",
+          "zh": "我已经试过了，可这题好难啊。该选哪个？",
+          "en": "I’ve tried, but this question is hard. Which one should I pick?"
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Tembaklah satu dulu, nanti kita tengok penerangan dia.",
+          "ms_standard": "Tekalah satu jawapan terlebih dahulu, kemudian kita lihat penjelasannya.",
+          "zh": "先猜一个吧，等下我们再看解析。",
+          "en": "Take a guess first, then we’ll look at the explanation."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tembaklah is a transparent combination of tembak and the attached particle -lah. DBP treats -lah as an emphasizing particle rather than a derivational affix. Shooting supplies the literal image; in informal classroom speech, aiming without certainty becomes guessing an answer. The particle then turns that suggestion into a prompt whose force depends on tone and context. [DBP: partikel](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel), [Wikikamus: tembak](https://ms.wiktionary.org/wiki/tembak)",
+    "cognitive_memory_aid": "tembak 是“射”，-lah 像把话推向对方的“吧”：射击吧；面对选项时，就是“先猜一个吧”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 可以加强、催促或缓和话语，但是否礼貌仍取决于语气、关系和场合。面对不熟悉的人，不宜仅靠加 -lah 把命令当作请求。",
+    "usage_etiquette": "射击、体育和猜答案三种语境必须分清。讨论正式考试策略时，宜用 membuat tekaan；在日常谈话中，应确保对方能理解 tembaklah 是比喻用法。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 可以加强、催促或缓和话语，但是否礼貌仍取决于语气、关系和场合。面对不熟悉的人，不宜仅靠加 -lah 把命令当作请求。",
+    "usage_etiquette": "射击、体育和猜答案三种语境必须分清。讨论正式考试策略时，宜用 membuat tekaan；在日常谈话中，应确保对方能理解 tembaklah 是比喻用法。"
+  }
+}

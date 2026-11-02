@@ -1,0 +1,146 @@
+{
+  "headword": {
+    "word": "much",
+    "syllables": "much",
+    "ipa": "/mʌtʃ/",
+    "jawi": null,
+    "frequency_rank": 7014,
+    "status": "official",
+    "language": "en",
+    "status_note": "official 在此仅标明规范英语词形；much 不应归类为正式马来语词目。输入包的 positive adj 是语法标签，不是音节。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "much",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + much → much",
+    "pattern_note": "作为英语整词记忆，不套用马来语词缀规则。英语比较级 more、最高级 most 为不规则形式；ch 读 /tʃ/。",
+    "word_family": [
+      {
+        "word": "more",
+        "affix": "∅",
+        "gloss": "更多；much 的不规则比较级"
+      },
+      {
+        "word": "most",
+        "affix": "∅",
+        "gloss": "最多；much 的不规则最高级"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "大量的；许多的，用于不可数名词，表示数量或程度。",
+      "en_definition": "A large amount of something, used with an uncountable noun.",
+      "ms_definition": "Perkataan bahasa Inggeris yang menunjukkan kuantiti besar bagi sesuatu yang dinyatakan dengan kata nama tidak boleh bilang.",
+      "nuances": "这是英语义项。adjective 沿用传统分类，现代英语语法通常归为限定词或数量词；日常肯定句常用 a lot of，much 常见于疑问、否定及 too/so/as much 等结构。搭配的 ms 字段提供马来语对应表达。参考 [Cambridge 英马词典：much](https://dictionary.cambridge.org/dictionary/english-malaysian/much) 与 [Oxford：much](https://www.oxfordlearnersdictionaries.com/definition/english/much_1)。",
+      "collocations": [
+        {
+          "ms": "tidak banyak masa",
+          "zh": "没有多少时间",
+          "en": "not much time"
+        },
+        {
+          "ms": "terlalu banyak wang",
+          "zh": "过多的钱",
+          "en": "too much money"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "很大程度地；非常；用于比较级前表示程度上的显著差异。",
+      "en_definition": "To a great degree, or by a substantial amount.",
+      "ms_definition": "Perkataan bahasa Inggeris yang menerangkan darjah tinggi atau perbezaan besar pada sesuatu keadaan.",
+      "nuances": "常见于 much better、much more 和 very much；不能自由替换 very，例如通常不说 much happy。正式马来语应根据结构使用 jauh lebih、sangat 或其他自然表达。参考 [American Heritage：much](https://ahdictionary.com/word/search.html?q=much)。",
+      "collocations": [
+        {
+          "ms": "jauh lebih baik",
+          "zh": "好得多",
+          "en": "much better"
+        },
+        {
+          "ms": "jauh lebih mahal",
+          "zh": "贵得多",
+          "en": "much more expensive"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "大量；很多东西或事情，具体所指由上下文确定。",
+      "en_definition": "A large amount or a considerable quantity of something.",
+      "ms_definition": "Perkataan bahasa Inggeris yang merujuk kepada jumlah besar tanpa menyebut semula perkara yang dimaksudkan.",
+      "nuances": "noun 采用 [American Heritage](https://ahdictionary.com/word/search.html?q=much) 的分类；现代学习词典也常将这种独立使用归为代词。此处不是马来语名词。",
+      "collocations": [
+        {
+          "ms": "banyak yang perlu dilakukan",
+          "zh": "有许多事要做",
+          "en": "much to do"
+        },
+        {
+          "ms": "tidak banyak yang tinggal",
+          "zh": "所剩不多",
+          "en": "not much left"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam terjemahan laporan itu, frasa bahasa Inggeris ‘much higher’ dipadankan dengan ‘jauh lebih tinggi’.",
+      "zh": "在该报告的译文中，英语短语 much higher 被译为“高得多”。",
+      "en": "In the report’s translation, the English phrase ‘much higher’ is rendered as ‘jauh lebih tinggi’."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Yang ni ‘too much’ lah untuk bajet aku.",
+      "ms_standard": "Harga yang ini terlalu tinggi untuk bajet saya.",
+      "zh": "这个价钱对我的预算来说太高啦。",
+      "en": "This one costs too much for my budget.",
+      "spoken_features": [
+        "too much 是英语语码转换，不是标准马来语词组",
+        "ni 是 ini 的口语缩略",
+        "lah 在此加强评价语气",
+        "aku 适用于熟人交流"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah tengok harga dia. Yang ni ‘too much’ lah untuk bajet aku.",
+          "ms_standard": "Saya sudah melihat harganya. Harga yang ini terlalu tinggi untuk bajet saya.",
+          "zh": "我看过价格了，这个超出我的预算太多啦。",
+          "en": "I’ve checked the price. This one costs way too much for my budget."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kalau macam tu, kita cari yang murah sikit je lah.",
+          "ms_standard": "Jika begitu, kita cari yang lebih murah sedikit.",
+          "zh": "那我们就找个便宜一点的吧。",
+          "en": "Then let’s look for something a bit cheaper."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English much developed from Middle English muchel, continuing Old English micel or mycel, meaning great or large. The shorter modern form expresses quantity and degree. Its presence in a Malaysian conversation can reflect English use or code-switching; its historical ancestry belongs to English rather than the Malay system of roots and affixes. [American Heritage reference](https://ahdictionary.com/word/search.html?q=much).",
+    "cognitive_memory_aid": "把 much /mʌtʃ/ 和一大堆不可数的东西绑定：much water、much time；马来语通常用 banyak 表达数量多。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "马来西亚部分双语熟人圈会自然混用英语。too much lah 可表达嫌贵、过分或难以接受，语气取决于上下文，直接评价他人时可能显得不客气。",
+    "usage_etiquette": "正式马来语文本应采用符合语境的 banyak、terlalu、sangat 或 jauh lebih。教学、翻译和引用英语时可以明确标出 much；上述例句分别展示引用与语码转换。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "马来西亚部分双语熟人圈会自然混用英语。too much lah 可表达嫌贵、过分或难以接受，语气取决于上下文，直接评价他人时可能显得不客气。",
+    "usage_etiquette": "正式马来语文本应采用符合语境的 banyak、terlalu、sangat 或 jauh lebih。教学、翻译和引用英语时可以明确标出 much；上述例句分别展示引用与语码转换。"
+  }
+}

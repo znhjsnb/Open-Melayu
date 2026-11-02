@@ -1,0 +1,165 @@
+{
+  "headword": {
+    "word": "menghidu",
+    "syllables": "meng.hi.du",
+    "ipa": "/məŋ.hi.du/",
+    "jawi": "مڠهيدو",
+    "frequency_rank": 7084,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hidu",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + hidu → menghidu",
+    "pattern_note": "meN- 在 h 前变为 meng-；词根的 h 保留，因此读作 /məŋ.hi.du/。",
+    "word_family": [
+      {
+        "word": "terhidu",
+        "affix": "ter-",
+        "gloss": "无意间闻到；不慎吸入"
+      },
+      {
+        "word": "penghidu",
+        "affix": "peN- → peng-",
+        "gloss": "嗅闻者；吸嗅某种物质者"
+      }
+    ],
+    "root_jawi": "هيدو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用鼻子嗅闻，辨认或感受某物的气味。",
+      "en_definition": "To smell or sniff something.",
+      "ms_definition": "Mencium atau membaui sesuatu.",
+      "nuances": "可用于花香、食物、衣物等气味，不限定香臭。比 mencium 更明确地指嗅觉动作，因为 mencium 也可表示亲吻。[DBP：hidu](https://prpm.dbp.gov.my/Cari1?keyword=hidu)",
+      "collocations": [
+        {
+          "ms": "menghidu bau bunga",
+          "zh": "嗅闻花香",
+          "en": "to smell the scent of flowers"
+        },
+        {
+          "ms": "menghidu bau makanan",
+          "zh": "闻食物的气味",
+          "en": "to smell food"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "经鼻吸入空气、气体或挥发性物质。",
+      "en_definition": "To inhale air, gas, or vapour through the nose.",
+      "ms_definition": "Menyedut udara atau bahan lain melalui hidung.",
+      "nuances": "重点在吸入动作，不一定是在辨认气味。描述意外吸入时常用 terhidu；menghidu gam 是吸嗅胶水挥发物的固定说法。",
+      "collocations": [
+        {
+          "ms": "menghidu udara segar",
+          "zh": "呼吸新鲜空气",
+          "en": "to breathe in fresh air"
+        },
+        {
+          "ms": "menghidu gam",
+          "zh": "吸嗅胶水挥发物",
+          "en": "to sniff glue"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "凭留下的气味辨认、发现或追踪人或物。",
+      "en_definition": "To detect or track someone or something by scent.",
+      "ms_definition": "Mengesan seseorang atau sesuatu melalui bau yang ditinggalkan.",
+      "nuances": "常描述警犬、搜救犬或其他动物的嗅觉追踪能力；比单纯闻到气味更强调侦测或寻找目标。",
+      "collocations": [
+        {
+          "ms": "menghidu jejak suspek",
+          "zh": "循气味追踪嫌疑人的踪迹",
+          "en": "to follow a suspect's scent trail"
+        },
+        {
+          "ms": "menghidu bau mangsa",
+          "zh": "嗅辨受困者的气味",
+          "en": "to detect a victim's scent"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "通过观察、打听或调查，察觉隐情、秘密或可疑活动。",
+      "en_definition": "To uncover or detect something concealed through observation or inquiry.",
+      "ms_definition": "Mengetahui perkara tersembunyi melalui pemerhatian, pertanyaan atau risikan.",
+      "nuances": "比喻义，相当于中文的“嗅出端倪”。新闻和调查语境中常见，不涉及实际气味。",
+      "collocations": [
+        {
+          "ms": "menghidu kegiatan haram",
+          "zh": "察觉非法活动",
+          "en": "to uncover illegal activities"
+        },
+        {
+          "ms": "menghidu rancangan jahat",
+          "zh": "识破阴谋",
+          "en": "to sniff out a sinister plan"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak polis berjaya menghidu kegiatan penyeludupan itu hasil maklumat orang awam.",
+      "zh": "警方根据民众提供的线索，成功发现了该走私活动。",
+      "en": "The police uncovered the smuggling operation following information from the public."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kucing tu tengah menghidu beg kau lah, mesti ada makanan kat dalam.",
+      "ms_standard": "Kucing itu sedang menghidu beg kamu; pasti ada makanan di dalamnya.",
+      "zh": "那只猫正在闻你的包呢，里面肯定有吃的。",
+      "en": "That cat's sniffing your bag—there must be food inside.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略",
+        "tengah 表示正在进行，相当于 sedang",
+        "kau 是熟人之间使用的第二人称",
+        "lah 加强判断语气",
+        "kat 相当于 di"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kucing tu tengah menghidu beg kau lah, mesti ada makanan kat dalam.",
+          "ms_standard": "Kucing itu sedang menghidu beg kamu; pasti ada makanan di dalamnya.",
+          "zh": "那只猫正在闻你的包呢，里面肯定有吃的。",
+          "en": "That cat's sniffing your bag—there must be food inside."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, aku baru beli ikan tadi. Nak simpan dalam peti sejuk sekarang.",
+          "ms_standard": "Ya, saya baru membeli ikan tadi. Saya hendak menyimpannya di dalam peti sejuk sekarang.",
+          "zh": "对啊，我刚买了鱼，现在就要放进冰箱。",
+          "en": "Yeah, I just bought some fish. I'm putting it in the fridge now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay builds menghidu from hidu with its productive active prefix meN-. Its meanings connect an ordinary bodily action with detection: a person smells a flower, an animal follows a scent, and an investigator uncovers a hidden scheme. This connection makes the figurative sense memorable without requiring a separate root or an invented origin story. [DBP: hidu](https://prpm.dbp.gov.my/Cari1?keyword=hidu)",
+    "cognitive_memory_aid": "把 hidu 联想到 hidung（鼻子）：鼻子主动去闻，就是 menghidu。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词本身中性，正式和日常场合都可使用。若评论他人的体味或衣物气味，应避免当众直说，以免使对方难堪。",
+    "usage_etiquette": "可用于赏香、食物、动物追踪及新闻调查。menghidu gam 指吸嗅胶水挥发物，不是普通闻胶水气味的轻松说法；具体含义须结合语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词本身中性，正式和日常场合都可使用。若评论他人的体味或衣物气味，应避免当众直说，以免使对方难堪。",
+    "usage_etiquette": "可用于赏香、食物、动物追踪及新闻调查。menghidu gam 指吸嗅胶水挥发物，不是普通闻胶水气味的轻松说法；具体含义须结合语境。"
+  }
+}

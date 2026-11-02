@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "kearah",
+    "syllables": null,
+    "ipa": "/kə a.rah/",
+    "jawi": null,
+    "frequency_rank": 7081,
+    "status": "nonstandard",
+    "data_note": "规范形式为 ke arah，必须分写。IPA 对应规范短语 ke arah；数据包未提供音节和爪夷文，保留 null。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "arah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "ke（介词） + arah（方向） → ke arah；kearah 为误连写",
+    "pattern_note": "此处 ke 是独立介词，不是前缀 ke-，也不存在词缀附加引起的音变。数据包把 kearah 标为词根的分析须纠正。",
+    "word_family": [
+      {
+        "word": "searah",
+        "affix": "se-",
+        "gloss": "同方向的；目标一致的"
+      },
+      {
+        "word": "mengarah",
+        "affix": "meN-",
+        "gloss": "朝向；前往；指导"
+      },
+      {
+        "word": "terarah",
+        "affix": "ter-",
+        "gloss": "指向某处的；有明确方向的"
+      }
+    ],
+    "root_jawi": "اره"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "【规范形式 ke arah】朝着；向某个空间方向或目标所在的方向。",
+      "en_definition": "Towards; in the direction of a place, person, or physical target.",
+      "ms_definition": "Menunjukkan hala atau jurusan yang dituju oleh pergerakan, pandangan atau sesuatu tindakan.",
+      "nuances": "词性 preposition 在此对应整个介词性短语。它强调方向，不保证已经抵达目标。DBP 明确要求 ke arah 分写：[DBP 拼写答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=arah-arah)。本条马来语定义为依据词典编写的释义。",
+      "collocations": [
+        {
+          "ms": "bergerak ke arah pintu",
+          "zh": "朝门口移动",
+          "en": "move towards the door"
+        },
+        {
+          "ms": "memandang ke arah laut",
+          "zh": "望向大海",
+          "en": "look towards the sea"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "【规范形式 ke arah】朝着某种目标、状态或发展结果；以某种结果为努力方向。",
+      "en_definition": "Towards an intended goal, developing condition, or outcome.",
+      "ms_definition": "Menunjukkan matlamat, keadaan atau hasil yang hendak dicapai melalui sesuatu usaha atau perkembangan.",
+      "nuances": "常见于政策、公文和工作规划，表示努力的方向；该短语本身不表示目标已实现。用法依据：[DBP 英马词典中的 towards](https://prpmv1.dbp.gov.my/Search.aspx?d=1&k=arah)。",
+      "collocations": [
+        {
+          "ms": "usaha ke arah perpaduan",
+          "zh": "促进团结的努力",
+          "en": "efforts towards unity"
+        },
+        {
+          "ms": "langkah ke arah pemulihan",
+          "zh": "迈向复苏的措施",
+          "en": "a step towards recovery"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；采用规范拼写",
+      "ms": "Program ini merupakan langkah penting ke arah meningkatkan mutu perkhidmatan awam.",
+      "zh": "这项计划是提升公共服务质量的重要一步。",
+      "en": "This programme is an important step towards improving the quality of public services."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友说明会合方向；采用规范拼写",
+      "ms_spoken": "Jalan ke arah pintu utama je, saya tunggu kat situ.",
+      "ms_standard": "Berjalan sahaja ke arah pintu utama; saya menunggu di situ.",
+      "zh": "朝正门走就行，我在那儿等你。",
+      "en": "Just walk towards the main entrance. I'll wait there.",
+      "spoken_features": [
+        "je 是 sahaja 的口语形式。",
+        "kat 在此代替 di。",
+        "口语可省略可由上下文补出的主语。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Saya dah sampai kat lobi. Nak jalan ke arah mana?",
+          "ms_standard": "Saya sudah tiba di lobi. Ke arah manakah saya perlu berjalan?",
+          "zh": "我到大厅了，接下来往哪边走？",
+          "en": "I'm in the lobby now. Which way should I go?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jalan ke arah pintu utama je. Saya kat luar.",
+          "ms_standard": "Berjalan sahaja ke arah pintu utama. Saya berada di luar.",
+          "zh": "朝正门走就行，我在外面。",
+          "en": "Just head towards the main entrance. I'm outside."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The expression ke arah combines a preposition of direction with a noun meaning direction or aim. Its spatial meaning also supports abstract expressions about progress towards a goal. The joined spelling kearah does not represent a separate inherited word: DBP explicitly requires the preposition and the following noun to be written separately.",
+    "cognitive_memory_aid": "ke 是“向”，arah 是“方向”：向某方向走，两部分各站一格，写成 ke arah。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "短语本身语体中性。给陌生人指路时加 sila 或 boleh，例如 Sila berjalan ke arah kaunter。",
+    "usage_etiquette": "在聊天、公文和考试中均应写 ke arah。抽象用法适合说明目标；若要明确表示已经到达，应另用相应的到达或完成表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "短语本身语体中性。给陌生人指路时加 sila 或 boleh，例如 Sila berjalan ke arah kaunter。",
+    "usage_etiquette": "在聊天、公文和考试中均应写 ke arah。抽象用法适合说明目标；若要明确表示已经到达，应另用相应的到达或完成表达。"
+  }
+}

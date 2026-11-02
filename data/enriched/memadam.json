@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "memadam",
+    "syllables": "me.ma.dam",
+    "ipa": "/mə.ma.dam/",
+    "jawi": null,
+    "frequency_rank": 7099,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "padam",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + padam → memadam",
+    "pattern_note": "meN- 在词根首音 /p/ 前取 mem-，词根的 /p/ 脱落：mem- + adam → memadam。这里的 adam 只是 padam 去掉首音后的部分，不是词根。输入的 Adam 释义属于错误匹配；正确词根为 padam。音节按词形补全，headword.jawi 保留输入的 null。[DBP：padam](https://prpmv1.dbp.gov.my/Search.aspx?k=padam)",
+    "word_family": [
+      {
+        "word": "padam",
+        "affix": null,
+        "gloss": "熄灭；消失"
+      },
+      {
+        "word": "memadamkan",
+        "affix": "meN-...-kan",
+        "gloss": "使熄灭；擦除；消除"
+      },
+      {
+        "word": "pemadam",
+        "affix": "peN-",
+        "gloss": "橡皮擦；擦除或灭火用具"
+      },
+      {
+        "word": "pemadaman",
+        "affix": "peN-...-an",
+        "gloss": "删除；擦除；灭火过程"
+      }
+    ],
+    "root_jawi": "ڤادم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "擦净写字板等表面，使上面的字迹消失。",
+      "en_definition": "To clear a writing surface by erasing its marks.",
+      "ms_definition": "Membersihkan permukaan seperti papan hitam dengan menghilangkan tulisan padanya.",
+      "nuances": "DBP 的一则用法说明区分 memadam papan hitam 与 memadamkan tulisan pada papan hitam：前者以被擦净的表面为宾语，后者以被清除的字迹为宾语。[DBP：memadam 与 memadamkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=padam)",
+      "collocations": [
+        {
+          "ms": "memadam papan hitam",
+          "zh": "擦黑板",
+          "en": "erase the blackboard"
+        },
+        {
+          "ms": "memadam papan putih",
+          "zh": "擦白板",
+          "en": "erase the whiteboard"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "删除电子文件、记录、信息或其他数字内容。",
+      "en_definition": "To delete a file, record, message, or other digital content.",
+      "ms_definition": "Menghapuskan fail, rekod, mesej atau kandungan digital daripada sesuatu sistem atau paparan.",
+      "nuances": "常用于软件界面和操作说明。删除画面上的项目、移除记录与永久抹除底层数据并不必然相同，须看系统功能；正式机构的操作手册也使用 memadam。[政府操作手册：删除通知](https://erekod.aim.gov.my/public/manual/Manual%20e-Rekod.pdf)",
+      "collocations": [
+        {
+          "ms": "memadam fail",
+          "zh": "删除文件",
+          "en": "delete a file"
+        },
+        {
+          "ms": "memadam mesej",
+          "zh": "删除信息",
+          "en": "delete a message"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "使火熄灭或使灯不再亮；此词形常见于口语，正式表达通常用 memadamkan。",
+      "en_definition": "To put out a fire or switch off a light, commonly expressed formally as memadamkan.",
+      "ms_definition": "Mematikan api atau lampu; bentuk memadamkan lazim diutamakan dalam penggunaan formal bagi maksud ini.",
+      "nuances": "memadam api 和 memadam lampu 在日常用语中可见；面向规范写作时优先用 memadamkan api、memadamkan lampu。相关比喻如消除希望或平息骚乱，正式表达也通常采用 memadamkan。[DBP：memadamkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memadamkan)",
+      "collocations": [
+        {
+          "ms": "memadam api",
+          "zh": "灭火",
+          "en": "put out a fire"
+        },
+        {
+          "ms": "memadam lampu",
+          "zh": "关灯",
+          "en": "switch off a light"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 系统操作说明",
+      "ms": "Pengguna perlu menyemak nombor rujukan sebelum memadam rekod pendua daripada sistem.",
+      "zh": "用户从系统删除重复记录前，须核对参考编号。",
+      "en": "Users must check the reference number before deleting a duplicate record from the system."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事整理文件",
+      "ms_spoken": "Aku tengah memadam fail lama kat komputer ni. Yang ni nak simpan lagi ke?",
+      "ms_standard": "Saya sedang memadam fail lama pada komputer ini. Adakah fail ini masih perlu disimpan?",
+      "zh": "我正在清理这台电脑里的旧文件。这个还要留着吗？",
+      "en": "I'm deleting old files on this computer. Do we still need to keep this one?",
+      "spoken_features": [
+        "tengah 对应表示进行中的 sedang",
+        "kat、ni 分别对应 pada、ini",
+        "nak 对应 mahu 或需要做某事",
+        "句尾 ke 构成口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku tengah memadam fail lama kat komputer ni. Yang ni nak simpan lagi ke?",
+          "ms_standard": "Saya sedang memadam fail lama pada komputer ini. Adakah fail ini masih perlu disimpan?",
+          "zh": "我在清理这台电脑里的旧文件。这个还要留吗？",
+          "en": "I'm deleting old files on this computer. Do we still need this one?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Yang tu simpan dulu. Aku belum semak lagi.",
+          "ms_standard": "Simpan fail itu dahulu kerana saya masih belum menyemaknya.",
+          "zh": "那个先留着，我还没检查。",
+          "en": "Keep that one for now. I haven't checked it yet."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Memadam belongs to the Malay family built on padam, associated with something going out or disappearing. The active prefix changes the initial p, producing memadam rather than an Adam-related word. Its modern digital use connects erasing visible marks with removing files and records. The related noun pemadam names tools such as an eraser or fire extinguisher. [DBP: pemadam](https://prpm.dbp.gov.my/cari1?keyword=pemadam)",
+    "cognitive_memory_aid": "抓住 padam 的“让它消失”：字迹擦掉、文件删掉、灯光灭掉。meN- 遇到 p，把 p 换成鼻音 m，就得到 memadam；不要误拆成 Adam。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "要求同事删除内容时，可说 Boleh tolong padam fail ini?；使用完整词形则可说 Bolehkah anda memadam fail ini?，语气比直接命令柔和。",
+    "usage_etiquette": "适用于课堂清洁、文件管理和设备操作。处理别人拥有的文件、聊天记录或共用资料时，应先确认对方意图；正式描述灭火或关灯时，优先采用 memadamkan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "要求同事删除内容时，可说 Boleh tolong padam fail ini?；使用完整词形则可说 Bolehkah anda memadam fail ini?，语气比直接命令柔和。",
+    "usage_etiquette": "适用于课堂清洁、文件管理和设备操作。处理别人拥有的文件、聊天记录或共用资料时，应先确认对方意图；正式描述灭火或关灯时，优先采用 memadamkan。"
+  }
+}

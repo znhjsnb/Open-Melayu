@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "perjudian",
+    "syllables": "per.ju.dian",
+    "ipa": "/pər.dʒu.di.an/",
+    "jawi": "ڤرجودين",
+    "frequency_rank": 7032,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "perjudian",
+    "affix": "per-…-an",
+    "affix_type": "circumfix",
+    "formula": "per- + judi + -an → perjudian",
+    "pattern_note": "root_word 与 root_jawi 按输入包保留；实际构词词根为 judi（جودي），因此 is_root 校正为 false。per-…-an 构成名词，词根首音 j 保留，不发生鼻音同化；词尾 i 与后缀 a 可分属相邻音节。",
+    "word_family": [
+      {
+        "word": "judi",
+        "affix": null,
+        "gloss": "赌博；以钱物下注的游戏"
+      },
+      {
+        "word": "berjudi",
+        "affix": "ber-",
+        "gloss": "赌博；参与下注"
+      },
+      {
+        "word": "penjudi",
+        "affix": "peN-",
+        "gloss": "赌徒；经常赌博的人"
+      },
+      {
+        "word": "memperjudikan",
+        "affix": "memper-…-kan",
+        "gloss": "拿来下注；使利益或前途冒险"
+      }
+    ],
+    "root_jawi": "ڤرجودين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "赌博；以金钱或其他财物为赌注的行为或活动。",
+      "en_definition": "Gambling; the activity or practice of staking money or valuables on an uncertain outcome.",
+      "ms_definition": "Hal atau perbuatan berjudi.",
+      "nuances": "主要指赌博活动这一整体概念，常见于新闻、社会议题和正式报告。与 berjudi 的区别是：perjudian 是名词，berjudi 是动词。释义依据 [DBP PRPM：judi 词族](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=berjudi)。",
+      "collocations": [
+        {
+          "ms": "perjudian dalam talian",
+          "zh": "网络赌博",
+          "en": "online gambling"
+        },
+        {
+          "ms": "aktiviti perjudian",
+          "zh": "赌博活动",
+          "en": "gambling activities"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "赌博的场所；供人聚集赌博的地方。",
+      "en_definition": "A place where gambling takes place.",
+      "ms_definition": "Tempat berjudi.",
+      "nuances": "这是词典收录的地点义。现代马来西亚语境通常用 tempat berjudi、rumah perjudian 或 premis perjudian 明确指场所；perjudian 单独出现时通常先理解为赌博活动。见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=berjudi)。",
+      "collocations": [
+        {
+          "ms": "rumah perjudian",
+          "zh": "赌馆；赌屋",
+          "en": "gambling house"
+        },
+        {
+          "ms": "pusat perjudian",
+          "zh": "赌博中心",
+          "en": "gambling centre"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan itu meneliti kesan perjudian dalam talian terhadap kewangan keluarga.",
+      "zh": "该报告研究网络赌博对家庭财务的影响。",
+      "en": "The report examines the effects of online gambling on household finances."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论收到的链接",
+      "ms_spoken": "Link yang kau hantar tadi tu laman perjudian ke?",
+      "ms_standard": "Adakah pautan yang kamu hantar tadi membawa ke laman perjudian?",
+      "zh": "你刚才发来的链接是赌博网站的吗？",
+      "en": "Does that link you sent lead to a gambling site?",
+      "spoken_features": [
+        "link 是日常交流中的英语夹用，标准表达为 pautan。",
+        "kau 是熟人之间的非正式第二人称。",
+        "tu 是 itu 的口语形式。",
+        "句末 ke 构成非正式疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Link yang kau hantar tadi tu laman perjudian ke? Aku belum buka lagi.",
+          "ms_standard": "Adakah pautan yang kamu hantar tadi membawa ke laman perjudian? Saya masih belum membukanya.",
+          "zh": "你刚才发来的链接是赌博网站的吗？我还没打开。",
+          "en": "Does that link you sent lead to a gambling site? I haven't opened it yet."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, aku baru perasan. Aku dah padam mesej tu, kau abaikan je.",
+          "ms_standard": "Ya, saya baru menyedarinya. Saya sudah memadamkan mesej itu; kamu boleh mengabaikannya.",
+          "zh": "对，我刚发现。我已经把那条消息删了，你别理它就行。",
+          "en": "Yeah, I only just noticed. I've deleted the message—just ignore it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Scholarly research connects judi with an Indo-Aryan gambling term related to Sanskrit dyūta, possibly through intermediate forms. Malay combines this established base with its own circumfix per-…-an to name the activity. Kamus Dewan also preserves a place meaning, linking the practice of gambling with the location where it occurs. See [Hoogervorst, Lexical Influence from South Asia](https://brill.com/downloadpdf/book/9789004529458/BP000002.pdf).",
+    "cognitive_memory_aid": "先抓住 judi＝赌，再给它套上 per-…-an 名词框：berjudi 是“去赌博”，perjudian 是“赌博这件事”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是正式而直接的用词。谈公共议题时可客观使用；谈具体亲友时，宜描述行为和影响，避免未经证实就称对方为 penjudi。",
+    "usage_etiquette": "适合新闻、研究、辅导及家庭财务讨论。与马来穆斯林交流时应尊重对赌博的宗教禁忌，避免把参与赌博当作默认的社交安排。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是正式而直接的用词。谈公共议题时可客观使用；谈具体亲友时，宜描述行为和影响，避免未经证实就称对方为 penjudi。",
+    "usage_etiquette": "适合新闻、研究、辅导及家庭财务讨论。与马来穆斯林交流时应尊重对赌博的宗教禁忌，避免把参与赌博当作默认的社交安排。"
+  }
+}

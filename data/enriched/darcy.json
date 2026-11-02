@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "darcy",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 7083,
+    "status": "unverified",
+    "data_note": "科学单位 darcy 的身份可以核实，但数据包不足以确定原始语料采用单位义还是专名 Darcy，也不足以认定其为 DBP 核定词条。以下列出两种候选解释；未指定马来语规范读音或爪夷文。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "darcy",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + darcy → darcy（单位名）；∅ + Darcy → Darcy（专名）",
+    "pattern_note": "按数据包保留未派生分析，不表示该形式属于马来语本源词。单位名与专名须按语境区分；milli- 等为国际科学构词成分，不是马来语本土词缀。",
+    "word_family": [
+      {
+        "word": "millidarcy",
+        "affix": "milli-",
+        "gloss": "毫达西；千分之一达西"
+      },
+      {
+        "word": "microdarcy",
+        "affix": "micro-",
+        "gloss": "微达西；百万分之一达西"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "【科学；候选义】达西，多孔介质固有渗透率的非国际单位制单位；1 达西约等于 9.86923 × 10⁻¹³ 平方米。",
+      "en_definition": "A non-SI unit of intrinsic permeability, approximately equal to 9.86923 × 10⁻¹³ square metres.",
+      "ms_definition": "Unit bukan SI bagi ketelapan intrinsik medium berliang, dengan satu darcy bersamaan kira-kira 9.86923 × 10⁻¹³ meter persegi.",
+      "nuances": "用于地质、石油工程和多孔介质流动讨论，不能与量纲为长度除以时间的水力传导系数混同。此马来语释义为依据技术资料编写，并非 DBP 引文。单位定义、换算及相关单位依据：[API《岩心分析推荐规程》第 6.1.2 节](https://energistics.org/sites/default/files/2022-10/rp40.pdf)。以下搭配为技术用法示例，未据语料统计其频率。",
+      "collocations": [
+        {
+          "ms": "ketelapan dalam unit darcy",
+          "zh": "以达西为单位的渗透率",
+          "en": "permeability expressed in darcys"
+        },
+        {
+          "ms": "ketelapan satu darcy",
+          "zh": "一达西的渗透率",
+          "en": "a permeability of one darcy"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "【专名；候选义】Darcy，姓氏或人名；具体所指须由原文确定，不能由小写输入直接认定。",
+      "en_definition": "Darcy, a surname or personal name whose referent must be established from context.",
+      "ms_definition": "Darcy ialah nama khas bagi seseorang; identiti orang yang dimaksudkan perlu ditentukan daripada konteks.",
+      "nuances": "noun 在此包含专名。用于人名时通常首字母大写；不把所有 Darcy 都理解为科学家 Henry Darcy，也不把人名本身定义为渗透率单位。Henry Darcy 与单位名称的关系见：[USGS 渗透率资料](https://pubs.usgs.gov/of/1982/0166/report.pdf)。以下组合为特定人物的称名及相关术语，不是一般人名的高频搭配。",
+      "collocations": [
+        {
+          "ms": "Henry Darcy",
+          "zh": "亨利·达西",
+          "en": "Henry Darcy"
+        },
+        {
+          "ms": "hukum Darcy",
+          "zh": "达西定律",
+          "en": "Darcy's law"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 岩心测试；仅适用于单位义",
+      "ms": "Keputusan ujian menunjukkan bahawa ketelapan intrinsik sampel batuan itu ialah 0.5 darcy.",
+      "zh": "测试结果显示，该岩石样本的固有渗透率为 0.5 达西。",
+      "en": "The test results show that the rock sample has an intrinsic permeability of 0.5 darcy."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对实验报告单位；仅适用于单位义",
+      "ms_spoken": "Nilai ni dalam darcy ke millidarcy? Nak pastikan je.",
+      "ms_standard": "Adakah nilai ini dinyatakan dalam darcy atau millidarcy? Saya hanya hendak memastikannya.",
+      "zh": "这个数值用的是达西还是毫达西？我就确认一下。",
+      "en": "Is this value in darcys or millidarcys? Just checking.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式。",
+        "ke 在此连接疑问选项，对应标准语的 atau。",
+        "nak 是 hendak 的口语形式。",
+        "je 是 sahaja 的口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kat jadual ni, 0.5 tu dalam darcy ke?",
+          "ms_standard": "Dalam jadual ini, adakah nilai 0.5 itu dinyatakan dalam darcy?",
+          "zh": "这张表里的 0.5，单位是达西吗？",
+          "en": "Is that 0.5 in the table measured in darcys?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, darcy. Kalau nak tukar, jadi 500 millidarcy.",
+          "ms_standard": "Ya, unitnya darcy. Jika hendak menukarkannya kepada millidarcy, nilainya ialah 500 millidarcy.",
+          "zh": "对，是达西。换成毫达西就是 500。",
+          "en": "Yes, darcys. That converts to 500 millidarcys."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The permeability unit darcy commemorates Henry Darcy, whose work established a foundational relationship for flow through porous materials. Petroleum and groundwater specialists use the name when discussing how readily fluids pass through a medium. That scientific history explains the unit, but it cannot establish whether this contextless corpus token denotes the unit or a person.",
+    "cognitive_memory_aid": "单位义可想象“达西让水穿过砂石”：记住它衡量介质的渗透率；专名 Darcy 则先认作人名，再查具体人物。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论专业资料时，先解释单位并明确换算关系；向非专业听众介绍时可补充 unit ketelapan，避免仅报一个陌生术语。",
+    "usage_etiquette": "单位名通常写 darcy，人名写 Darcy。报告中应统一单位写法；没有原文语境时，不应把词频表中的 darcy 自动归入某位人物或科学单位。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论专业资料时，先解释单位并明确换算关系；向非专业听众介绍时可补充 unit ketelapan，避免仅报一个陌生术语。",
+    "usage_etiquette": "单位名通常写 darcy，人名写 Darcy。报告中应统一单位写法；没有原文语境时，不应把词频表中的 darcy 自动归入某位人物或科学单位。"
+  }
+}

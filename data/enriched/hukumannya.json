@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "hukumannya",
+    "syllables": null,
+    "ipa": "/hu.ku.man.ɲa/",
+    "jawi": "حکومنڽ",
+    "frequency_rank": 7082,
+    "status": "official",
+    "data_note": "这是标准马来语中 hukuman 加 -nya 的语法形式，不表示 DBP 必定另立独立词条。数据包中的 حکومن 对应 hukuman；此处补写 -nya 的 ڽ，得到完整词形。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hukuman",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "hukuman + -nya → hukumannya；进一步分析：hukum + -an → hukuman",
+    "pattern_note": "root_word 按数据包保留直接基底 hukuman；更深层词根为 hukum。-nya 是附着于词尾的代词形式，suffix 为本模式中的位置标签；通常不应视为派生词缀。词干末尾 /n/ 保留，-nya 的 ny 读 /ɲ/。",
+    "word_family": [
+      {
+        "word": "hukum",
+        "affix": null,
+        "gloss": "法律；规则；裁决"
+      },
+      {
+        "word": "hukuman",
+        "affix": "-an",
+        "gloss": "处罚；刑罚；判处的结果"
+      },
+      {
+        "word": "menghukum",
+        "affix": "meN-",
+        "gloss": "惩罚；判处刑罚"
+      },
+      {
+        "word": "dihukum",
+        "affix": "di-",
+        "gloss": "被处罚；被判刑"
+      }
+    ],
+    "root_jawi": "حکومن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他或她所受的处罚；前文提到的行为或过错所对应的惩罚。",
+      "en_definition": "His or her punishment; the penalty associated with an offence or action already mentioned.",
+      "ms_definition": "Balasan yang dikenakan kerana melakukan kesalahan, dengan -nya merujuk orang, perbuatan atau perkara yang telah disebut.",
+      "nuances": "-nya 不区分性别，也不固定表示单数。在 Kalau melanggar peraturan, hukumannya berat 中，指的是违反规则所对应的处罚，不必译成“他的处罚”。马来语定义为编写释义；基本词义依据：[DBP：hukuman](https://prpm.dbp.gov.my/cari1?keyword=hukuman)。",
+      "collocations": [
+        {
+          "ms": "hukumannya berat",
+          "zh": "处罚很重",
+          "en": "the punishment is severe"
+        },
+        {
+          "ms": "hukumannya setimpal dengan kesalahan",
+          "zh": "处罚与过错相称",
+          "en": "the punishment is proportionate to the offence"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "对他或她判处的刑罚；前文所指案件或罪行的判刑结果。",
+      "en_definition": "His or her judicial sentence; the sentence imposed for the case or offence under discussion.",
+      "ms_definition": "Hukuman yang diputuskan oleh mahkamah terhadap seseorang atau bagi kesalahan yang dirujuk dalam konteks.",
+      "nuances": "此义聚焦法院判处的刑罚，可与一般纪律处罚区分。不能把 hukumannya 一概等同于定罪结论；宣告有罪与判处刑罚是不同概念。该义依据：[DBP：hukuman](https://prpm.dbp.gov.my/cari1?keyword=hukuman)。",
+      "collocations": [
+        {
+          "ms": "menjalani hukumannya",
+          "zh": "服所判刑罚",
+          "en": "serve his or her sentence"
+        },
+        {
+          "ms": "hukumannya diringankan",
+          "zh": "所判刑罚获减轻",
+          "en": "his or her sentence is reduced"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 法院报道；虚构示例",
+      "ms": "Selepas rayuannya dipertimbangkan, hukumannya dikurangkan daripada dua tahun penjara kepada satu tahun.",
+      "zh": "上诉获审理后，其刑期由两年减为一年。",
+      "en": "After the appeal was considered, the sentence was reduced from two years' imprisonment to one year."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论学校纪律处分",
+      "ms_spoken": "Dia kena amaran je? Saya ingat hukumannya lagi berat.",
+      "ms_standard": "Dia hanya diberikan amaran? Saya menyangka hukumannya lebih berat.",
+      "zh": "他只是被警告？我还以为处罚会更重。",
+      "en": "He only got a warning? I thought the punishment would be harsher.",
+      "spoken_features": [
+        "kena 在此表示受到某种处理。",
+        "je 是 sahaja 的口语形式。",
+        "lagi berat 在此是口语比较表达，标准对应为 lebih berat。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Amir dah jumpa guru disiplin. Apa hukumannya?",
+          "ms_standard": "Amir sudah berjumpa dengan guru disiplin. Apakah hukuman yang dikenakan terhadapnya?",
+          "zh": "Amir 已经见过纪律老师了。他受了什么处罚？",
+          "en": "Amir has seen the discipline teacher. What punishment did he get?"
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Amaran bertulis je, sebab ni kali pertama.",
+          "ms_standard": "Dia hanya diberikan amaran bertulis kerana ini merupakan kesalahan pertamanya.",
+          "zh": "就是书面警告，因为这是他第一次犯。",
+          "en": "Just a written warning, since it was his first offence."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Hukumannya illustrates how Malay builds meaning in layers. The base hukum supports hukuman, naming a punishment or judicial sentence. Adding -nya then links that noun to a person or matter already understood. The final form can therefore describe someone's school punishment or a court sentence without creating a new, unrelated dictionary meaning.",
+    "cognitive_memory_aid": "分三层记：hukum 是规则或裁决，hukuman 是处罚，hukumannya 是“他／她的处罚”或“那件事的处罚”；-nya 负责回指。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论当事人的处罚时，使用准确、中性的表达，并确保 -nya 的指代清楚；在正式报道中可先写姓名、职位或相关身份。",
+    "usage_etiquette": "适用于纪律、法律及一般惩戒语境。避免用来羞辱当事人；涉及宗教时应依据上下文区分 hukum 的规范或教法义与 hukuman 的处罚义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论当事人的处罚时，使用准确、中性的表达，并确保 -nya 的指代清楚；在正式报道中可先写姓名、职位或相关身份。",
+    "usage_etiquette": "适用于纪律、法律及一般惩戒语境。避免用来羞辱当事人；涉及宗教时应依据上下文区分 hukum 的规范或教法义与 hukuman 的处罚义。"
+  }
+}

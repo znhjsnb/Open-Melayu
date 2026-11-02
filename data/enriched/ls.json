@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "ls",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 7080,
+    "status": "unverified",
+    "data_note": "数据包没有释义或原文语境，无法确认此词项的身份。以下仅提供有来源支持的计算机命令义，不表示原始语料中的 ls 必然具有此义，也不表示它是 DBP 核定的马来语词条。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ls",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ls → ls（仅适用于计算机命令标识符）",
+    "pattern_note": "按数据包保留 is_root；这里表示未作马来语词缀分析，不证明 ls 是马来语本源词。命令名保持小写，不根据两个辅音字母推定马来语音节或读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "【计算机；候选义】Unix 类系统中用于列出文件或目录内容信息的命令名称。",
+      "en_definition": "In Unix-like computing, the name of a command that lists information about files or directory contents.",
+      "ms_definition": "Dalam pengkomputeran berasaskan Unix, nama perintah untuk menyenaraikan maklumat fail atau kandungan direktori.",
+      "nuances": "这是技术语境中的条件性解释，不能据此排除缩写、姓名首字母或语料噪声等其他可能。词性 noun 指命令名称的名词性用法；上述马来语定义为编写释义，并非 DBP 引文。功能依据：[GNU Coreutils：目录列表命令](https://www.gnu.org/s/coreutils/manual/html_node/Directory-listing.html)。以下搭配与例句均限定于此技术义。",
+      "collocations": [
+        {
+          "ms": "perintah ls",
+          "zh": "ls 命令",
+          "en": "the ls command"
+        },
+        {
+          "ms": "output perintah ls",
+          "zh": "ls 命令的输出",
+          "en": "the output of the ls command"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 技术培训；仅适用于计算机命令义",
+      "ms": "Juruteknik menggunakan perintah ls untuk menyemak kandungan direktori tersebut.",
+      "zh": "技术员使用 ls 命令查看该目录的内容。",
+      "en": "The technician used the ls command to check the directory's contents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论终端操作；仅适用于计算机命令义",
+      "ms_spoken": "Nak tengok fail kat sini? Taip ls je.",
+      "ms_standard": "Hendak melihat fail di sini? Taip sahaja perintah ls.",
+      "zh": "想看这里有哪些文件？输入 ls 就行。",
+      "en": "Want to see the files here? Just type ls.",
+      "spoken_features": [
+        "nak 是 hendak 的口语形式。",
+        "kat 在此代替表示地点的 di。",
+        "je 是 sahaja 的口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Nak tengok fail kat folder ni macam mana?",
+          "ms_standard": "Bagaimanakah saya boleh melihat fail dalam folder ini?",
+          "zh": "要怎么看这个文件夹里的文件？",
+          "en": "How do I see the files in this folder?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Taip ls je kat terminal.",
+          "ms_standard": "Taip sahaja perintah ls dalam terminal.",
+          "zh": "在终端输入 ls 就行。",
+          "en": "Just type ls in the terminal."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In Unix computing, ls is a compact command name associated with listing directory contents. Malay technical conversation can retain such identifiers unchanged while placing them inside Malay sentences. This explains one possible occurrence of ls in a Malay corpus, but the packet supplies no context establishing that history for this particular token.",
+    "cognitive_memory_aid": "仅记候选技术义：把 ls 与英文 list 联系起来，想象屏幕列出一串文件；这不是马来语谐音或已确认的缩写展开。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向初学者说明时先说 perintah ls，并解释其用途；对同事提出操作请求可用 Boleh taip perintah ls?，语气较柔和。",
+    "usage_etiquette": "此义适用于技术交流。保留命令的大小写和字符，不将其扩展为未经确认的马来语短语；脱离技术语境时须回看原文。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向初学者说明时先说 perintah ls，并解释其用途；对同事提出操作请求可用 Boleh taip perintah ls?，语气较柔和。",
+    "usage_etiquette": "此义适用于技术交流。保留命令的大小写和字符，不将其扩展为未经确认的马来语短语；脱离技术语境时须回看原文。"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "bukunya",
+    "syllables": "bu.ku.nya",
+    "ipa": "/bu.ku.ɲa/",
+    "jawi": "بوکوڽ",
+    "frequency_rank": 7095,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "buku",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "buku + -nya → bukunya",
+    "pattern_note": "-nya 在此为附着于名词后的第三人称代词，表示领属；并非创造新词义的派生后缀。ny 表示单一辅音 /ɲ/。数据包的 بوکو 只对应 buku，完整 bukunya 应加 ڽ。bu.ku.nya 为补充的音节划分。",
+    "word_family": [
+      {
+        "word": "buku",
+        "affix": null,
+        "gloss": "书；本子"
+      },
+      {
+        "word": "bukuku",
+        "affix": "-ku",
+        "gloss": "我的书"
+      },
+      {
+        "word": "bukumu",
+        "affix": "-mu",
+        "gloss": "你的书"
+      },
+      {
+        "word": "membukukan",
+        "affix": "meN-...-kan",
+        "gloss": "编成书；记录入册"
+      }
+    ],
+    "root_jawi": "بوکو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他或她的书、本子；根据上下文，也可指他或她所写的书。",
+      "en_definition": "His or her book or notebook; also a book authored by that person, depending on context.",
+      "ms_definition": "Buku yang dimiliki atau ditulis oleh orang ketiga yang dirujuk dalam konteks.",
+      "nuances": "这是 buku 与领属代词 -nya 的组合释义，不是独立的 DBP 引文。-nya 不区分男女，也不单独标记书的数量；英语须依上下文选择 his 或 her。数据包引用的是 buku 表示节、关节或小块的另一组义项，不能直接充当本条常见书本义的定义。[DBP 拼写规范中的 bukunya 示例](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)",
+      "collocations": [
+        {
+          "ms": "membaca bukunya",
+          "zh": "阅读他或她的书",
+          "en": "read his or her book"
+        },
+        {
+          "ms": "memulangkan bukunya",
+          "zh": "归还他或她的书",
+          "en": "return his or her book"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在身体部位的特定语境中，指他或她的骨节或关节隆起处。",
+      "en_definition": "His or her joint or knuckle, where buku has its anatomical meaning.",
+      "ms_definition": "Bahagian sendi tulang yang berbonggol pada orang yang dirujuk oleh -nya.",
+      "nuances": "须由手指、骨骼等上下文明确限定；不是看到 bukunya 就默认采用的解释。下列为说明结构的搭配，不代表已核实的高频搭配。",
+      "collocations": [
+        {
+          "ms": "jari yang besar bukunya",
+          "zh": "关节粗大的手指",
+          "en": "a finger with a large knuckle"
+        },
+        {
+          "ms": "jari yang bengkak bukunya",
+          "zh": "关节肿起的手指",
+          "en": "a finger with a swollen knuckle"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Penulis itu menyerahkan senaskhah bukunya kepada pihak perpustakaan untuk dijadikan bahan rujukan.",
+      "zh": "该作者向图书馆赠交了一册自己的著作，供读者参考。",
+      "en": "The author presented a copy of their book to the library for use as reference material."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aina tertinggal bukunya kat rumah aku lah.",
+      "ms_standard": "Aina tertinggal bukunya di rumah saya.",
+      "zh": "艾娜把她的书落在我家了。",
+      "en": "Aina left her book at my place.",
+      "spoken_features": [
+        "kat 对应标准语 di",
+        "aku 用于熟悉的同辈之间",
+        "lah 表达提醒或刚发现某事的语气",
+        "bukunya 的 -nya 回指前面的 Aina"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aina tertinggal bukunya kat rumah aku lah. Dia nak guna esok ke?",
+          "ms_standard": "Aina tertinggal bukunya di rumah saya. Adakah dia mahu menggunakannya esok?",
+          "zh": "艾娜把她的书落在我家了，她明天要用吗？",
+          "en": "Aina left her book at my place. Does she need it tomorrow?"
+        },
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Ya, dia nak guna esok. Bawa je, nanti aku bagi kat dia.",
+          "ms_standard": "Ya, dia mahu menggunakannya esok. Bawalah buku itu; nanti saya akan menyerahkannya kepadanya.",
+          "zh": "对，她明天要用。你带来就行，回头我交给她。",
+          "en": "Yes, she needs it tomorrow. Just bring it along and I'll pass it to her."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay attaches the possessive forms ku, mu, and nya directly to a preceding noun. DBP's spelling guide illustrates this with bukuku, bukumu, and bukunya together in one sentence. A single written word therefore carries both an object and its owner. This grammatical history is separate from the different dictionary meanings associated with buku.",
+    "cognitive_memory_aid": "buku＝书，尾巴 -nya＝他／她的：把小尾巴接到书后，书就有了主人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-nya 本身没有性别或敬意标记。正式介绍受尊敬的人物时，可先用姓名、职衔或 beliau 明确所指，再用 bukunya 衔接。",
+    "usage_etiquette": "先让读者知道 -nya 指谁。句中出现多人时，宜改用 buku Aina 或 buku tulisan beliau 等明确表达。规范拼写连写为 bukunya，不写 buku nya。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-nya 本身没有性别或敬意标记。正式介绍受尊敬的人物时，可先用姓名、职衔或 beliau 明确所指，再用 bukunya 衔接。",
+    "usage_etiquette": "先让读者知道 -nya 指谁。句中出现多人时，宜改用 buku Aina 或 buku tulisan beliau 等明确表达。规范拼写连写为 bukunya，不写 buku nya。"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "zen",
+    "syllables": null,
+    "ipa": "/zen/",
+    "jawi": null,
+    "frequency_rank": 7109,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "zen",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + zen → zen",
+    "pattern_note": "整词借入，不拆作马来语词缀；单音节。数据包未提供音节划分及爪夷文，保留 null。未确认常规马来语派生词，词族留空。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "禅宗，尤指以日语名称 Zen 为人熟知、强调禅修与直接体悟的佛教传统。",
+      "en_definition": "Zen Buddhism, a Buddhist tradition emphasizing meditation and direct insight.",
+      "ms_definition": "Aliran agama Buddha yang menekankan meditasi dan pemahaman langsung, khususnya tradisi yang dikenali dengan nama Jepun Zen.",
+      "nuances": "宗教名称通常写作 Zen。数据包没有 DBP 释义，本马来语定义为编辑释义，不能称为官方引文；status 按指定结构保留，不表示已核实 DBP 收录。英语义项可参见：[Cambridge：Zen](https://dictionary.cambridge.org/us/dictionary/english/zen)。",
+      "collocations": [
+        {
+          "ms": "Buddhisme Zen",
+          "zh": "禅宗佛教",
+          "en": "Zen Buddhism"
+        },
+        {
+          "ms": "meditasi Zen",
+          "zh": "禅宗禅修",
+          "en": "Zen meditation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "平静放松、面对处境不焦躁的。",
+      "en_definition": "Calm, relaxed, and accepting of a situation.",
+      "ms_definition": "Tenang dan santai serta tidak mudah gelisah apabila menghadapi sesuatu keadaan.",
+      "nuances": "英语非正式形容词义，可在马英混用中出现；不宜据此认定为已规范化的马来语形容词。正式马来语通常用 tenang 或 santai。下列搭配属于混用表达，未核实其马来语使用频率。依据：[Cambridge：zen](https://dictionary.cambridge.org/us/dictionary/english/zen)。",
+      "collocations": [
+        {
+          "ms": "rasa zen",
+          "zh": "感到平静放松",
+          "en": "feel zen"
+        },
+        {
+          "ms": "nampak zen",
+          "zh": "看起来很淡定",
+          "en": "look calm and relaxed"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化报道 / 学术活动介绍",
+      "ms": "Ceramah itu membincangkan peranan meditasi dalam tradisi Zen di Jepun.",
+      "zh": "该讲座探讨了禅修在日本禅宗传统中的作用。",
+      "en": "The lecture discusses the role of meditation in Japan's Zen tradition."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友闲聊，含英语混用",
+      "ms_spoken": "Duduk kat sini, rasa zen je.",
+      "ms_standard": "Saya berasa tenang apabila duduk di sini.",
+      "zh": "坐在这里，整个人都平静下来了。",
+      "en": "I feel so relaxed sitting here.",
+      "spoken_features": [
+        "kat 对应 di",
+        "je 对应 sahaja，亦可弱化语气",
+        "省略可由语境恢复的主语",
+        "zen 使用英语非正式义；标准句以 tenang 表达"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Aku dah duduk kat taman ni setengah jam. Rasa zen je.",
+          "ms_standard": "Saya sudah duduk di taman ini selama setengah jam. Saya berasa tenang.",
+          "zh": "我在这个公园坐了半小时，感觉特别平静。",
+          "en": "I've been sitting in this park for half an hour. I feel so relaxed."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bestlah. Aku pun nak rehat kat situ nanti.",
+          "ms_standard": "Seronoknya. Saya juga mahu berehat di situ nanti.",
+          "zh": "真不错。我等会儿也想去那里歇一歇。",
+          "en": "That sounds lovely. I'd like to relax there later too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Zen is the Japanese reading of a Chinese Buddhist term, Chan, shortened from a transcription of Sanskrit dhyāna, meaning meditation. The word therefore carries a history of religious exchange across languages. Its informal English use for calmness is a later semantic extension, which should be distinguished from the Buddhist tradition itself. [Etymonline](https://www.etymonline.com/word/Zen)。",
+    "cognitive_memory_aid": "把 zen 与汉字“禅”配对：宗教语境想“禅宗”，英语混用语境再想“淡定”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论宗教时使用尊重、准确的语气；不能因某人使用 zen，就推断其宗教身份。",
+    "usage_etiquette": "文化与宗教介绍中宜写 Zen。朋友之间可借用其“淡定”义；正式马来语报告若只表达心情平静，通常写 tenang 更清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论宗教时使用尊重、准确的语气；不能因某人使用 zen，就推断其宗教身份。",
+    "usage_etiquette": "文化与宗教介绍中宜写 Zen。朋友之间可借用其“淡定”义；正式马来语报告若只表达心情平静，通常写 tenang 更清楚。"
+  }
+}
