@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "kataku",
+    "syllables": null,
+    "ipa": "/ka.ta.ku/",
+    "jawi": null,
+    "frequency_rank": 8439,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kata",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "kata + -ku → kataku",
+    "pattern_note": "-ku 是 aku 的后附着形式，须与前词连写；此处归入 suffix 以适配字段，语法上属于代词附着成分，不是普通派生后缀。kata 的词干不变。",
+    "word_family": [
+      {
+        "word": "berkata",
+        "affix": "ber-",
+        "gloss": "说；讲话"
+      },
+      {
+        "word": "perkataan",
+        "affix": "per-...-an",
+        "gloss": "词；字词"
+      },
+      {
+        "word": "katanya",
+        "affix": "-nya",
+        "gloss": "他／她说；他／她的话"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "我的话；我所说的内容。",
+      "en_definition": "My words; what I say or have said.",
+      "ms_definition": "Kata atau sesuatu yang diucapkan oleh aku.",
+      "nuances": "kata 表示“话”，-ku 标示第一人称所属关系，如 dengarlah kataku。这里的 official 表示其构成符合规范，不表示 kataku 必须作为独立词目收录。释义为组合释义；附着形式依据见 [DBP：ku](https://prpm.dbp.gov.my/Cari1?d=112548&keyword=ku)。",
+      "collocations": [
+        {
+          "ms": "dengarlah kataku",
+          "zh": "听我说的话",
+          "en": "listen to what I say"
+        },
+        {
+          "ms": "ingatlah kataku",
+          "zh": "记住我的话",
+          "en": "remember my words"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "我说；我说道。用于引出话语或标明引语由第一人称叙述者说出。",
+      "en_definition": "I say or I said, used to introduce or attribute quoted speech.",
+      "ms_definition": "Aku berkata atau aku menyatakan sesuatu, digunakan untuk memperkenalkan atau mengiringi petikan percakapan.",
+      "nuances": "常见于小说、故事及第一人称叙述。此处按其引语归属功能标为 verb；不能脱离句法环境，把所有 kataku 都理解成带宾语的普通动词。自然叙事用例见 [DBP 刊物](https://pdigital.dbp.gov.my/storage/majalah/67e10e9e23f4b_majalah.pdf)。",
+      "collocations": [
+        {
+          "ms": "kataku sambil tersenyum",
+          "zh": "我微笑着说道",
+          "en": "I said with a smile"
+        },
+        {
+          "ms": "kataku perlahan",
+          "zh": "我轻声说道",
+          "en": "I said softly"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式书面第一人称叙事 / 发言回顾",
+      "ms": "“Cadangan ini perlu diteliti terlebih dahulu,” kataku ketika mesyuarat itu.",
+      "zh": "“这项建议需要先作仔细研究，”我在那次会议上说道。",
+      "en": "“This proposal needs to be examined first,” I said during the meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；朋友讨论故事写作",
+      "ms_spoken": "Aku nak letak kataku lepas dialog ni, okey tak?",
+      "ms_standard": "Saya hendak meletakkan perkataan kataku selepas dialog ini. Adakah penggunaannya sesuai?",
+      "zh": "我想在这句对白后面加 kataku，可以吗？",
+      "en": "I want to put kataku after this line of dialogue. Does that work?",
+      "spoken_features": [
+        "aku 为熟人之间的第一人称",
+        "nak 对应 hendak",
+        "lepas 对应 selepas",
+        "ni 对应 ini",
+        "okey tak 用于询问是否合适"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak letak kataku lepas dialog ni, okey tak?",
+          "ms_standard": "Saya hendak meletakkan perkataan kataku selepas dialog ini. Adakah penggunaannya sesuai?",
+          "zh": "我想在这句对白后面加 kataku，可以吗？",
+          "en": "I want to put kataku after this line of dialogue. Does that work?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh je kalau penceritanya aku. Kalau orang lain yang cakap, kena tukar.",
+          "ms_standard": "Boleh, jika pencerita menggunakan kata ganti nama aku. Jika orang lain yang bercakap, penanda ujaran itu perlu ditukar.",
+          "zh": "可以啊，如果是“我”这个叙述者在说话。要是别人说的，就得换。",
+          "en": "Yes, if the narrator is the one speaking. If someone else says it, you'll need to change the attribution."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay allows the shortened first-person form ku to attach to another word. In kataku, that compact form connects speech with the speaker: either my words or, in narrative dialogue, I said. Its usefulness in storytelling comes from identifying a voice economically, without repeating a full expression such as aku berkata.",
+    "cognitive_memory_aid": "kata＝话，-ku＝我的／我：kataku 可以是“我的话”，放在引语旁就是“我说”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 相联系，适合文学、自述及亲近语境；对客户、上级或不熟悉的人，通常用 kata saya 或 saya berkata 更稳妥。",
+    "usage_etiquette": "kataku 须连写。正式会议纪要通常采用客观转述；文学叙事可以自然使用 kataku。不要把 ku 拆成独立词写作 kata ku。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 相联系，适合文学、自述及亲近语境；对客户、上级或不熟悉的人，通常用 kata saya 或 saya berkata 更稳妥。",
+    "usage_etiquette": "kataku 须连写。正式会议纪要通常采用客观转述；文学叙事可以自然使用 kataku。不要把 ku 拆成独立词写作 kata ku。"
+  }
+}

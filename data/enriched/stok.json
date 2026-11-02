@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "stok",
+    "syllables": "stok",
+    "ipa": "/stok/",
+    "jawi": "ستوک",
+    "frequency_rank": 8377,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "stok",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + stok → stok",
+    "pattern_note": "单音节借词，起首保留/st/辅音连缀。以下词族项目为复合表达，不是添加词缀形成的派生词。",
+    "word_family": [
+      {
+        "word": "stok penimbal",
+        "affix": "∅",
+        "gloss": "缓冲库存；调节供求的储备"
+      },
+      {
+        "word": "stok akhir",
+        "affix": "∅",
+        "gloss": "期末库存"
+      }
+    ],
+    "root_jawi": "ستوک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "供出售的存货；商店或企业持有的商品库存。",
+      "en_definition": "Goods held by a shop or business for sale; merchandise inventory.",
+      "ms_definition": "Barang dagangan yang disimpan oleh kedai atau perusahaan untuk dijual.",
+      "nuances": "侧重商品是否有货以及库存数量。stok是货物，stor是存放货物的仓库，两者不能混用。[DBP词典](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=stok)",
+      "collocations": [
+        {
+          "ms": "stok baharu",
+          "zh": "新到存货",
+          "en": "new stock"
+        },
+        {
+          "ms": "kehabisan stok",
+          "zh": "售罄；缺货",
+          "en": "out of stock"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为日后使用或分发而储存的一批物资；储备。",
+      "en_definition": "A supply of goods or materials stored for future use or distribution.",
+      "ms_definition": "Kumpulan barang atau bahan yang disimpan untuk kegunaan atau pengagihan kemudian.",
+      "nuances": "不必涉及销售，也可指医院、办公室或家庭的备用物资。stok penimbal专指用于缓和供求及价格波动的储备。",
+      "collocations": [
+        {
+          "ms": "stok makanan",
+          "zh": "食物储备",
+          "en": "food supplies"
+        },
+        {
+          "ms": "stok penimbal",
+          "zh": "缓冲库存；调节储备",
+          "en": "buffer stock"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "股份；代表公司资本所有权的证券。",
+      "en_definition": "Shares representing ownership in a company's capital.",
+      "ms_definition": "Saham yang mewakili pemilikan modal dalam sesebuah syarikat.",
+      "nuances": "属于词典收录的金融义；现代马来西亚一般金融报道更常用saham表达公司股份。本义不指仓库中的货物。",
+      "collocations": [
+        {
+          "ms": "pemegang stok",
+          "zh": "股份持有人",
+          "en": "stockholder"
+        },
+        {
+          "ms": "stok biasa",
+          "zh": "普通股",
+          "en": "common stock"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "嫁接时承接另一植物接芽或接穗的植株或茎部；砧木。",
+      "en_definition": "The plant or stem onto which a bud or scion from another plant is grafted; a rootstock.",
+      "ms_definition": "Bahagian batang tumbuhan yang menerima tunas atau cantuman daripada tumbuhan lain.",
+      "nuances": "限于植物学及园艺嫁接语境，常以pokok penanti解释；不同于等待出售的一批苗木。[DBP词典](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=stok)",
+      "collocations": [
+        {
+          "ms": "pemilihan stok untuk cantuman",
+          "zh": "嫁接砧木的选择",
+          "en": "selection of stock for grafting"
+        },
+        {
+          "ms": "keserasian stok dengan sion",
+          "zh": "砧木与接穗的亲和性",
+          "en": "compatibility between stock and scion"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 库存管理",
+      "ms": "Semakan inventori mendapati bahawa stok sarung tangan masih mencukupi untuk kegunaan bulan hadapan.",
+      "zh": "库存核查发现，现有手套库存仍足以满足下个月的使用需求。",
+      "en": "The inventory review found that glove supplies remain sufficient for next month's needs."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 顾客向卖家询问存货",
+      "ms_spoken": "Stok warna biru kat kedai tu dah habis ke?",
+      "ms_standard": "Adakah stok berwarna biru di kedai itu sudah habis?",
+      "zh": "那家店的蓝色款已经没货了吗？",
+      "en": "Has that shop sold out of the blue one?",
+      "spoken_features": [
+        "kat相当于di；tu相当于itu。",
+        "dah相当于sudah。",
+        "句末ke构成口语疑问，标准表达可使用adakah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (顾客)",
+          "ms_spoken": "Kak, stok warna biru masih ada tak? Saya nak satu je.",
+          "ms_standard": "Kak, adakah stok berwarna biru masih ada? Saya mahu satu sahaja.",
+          "zh": "姐，蓝色款还有货吗？我只要一个。",
+          "en": "Hi, do you still have the blue one in stock? I’d just like one."
+        },
+        {
+          "speaker": "Aina (卖家)",
+          "ms_spoken": "Ada lagi, tinggal dua je. Nak saya simpan satu untuk awak?",
+          "ms_standard": "Masih ada, tetapi tinggal dua sahaja. Adakah awak mahu saya menyimpan satu untuk awak?",
+          "zh": "还有，只剩两个了。要我帮你留一个吗？",
+          "en": "Yes, there are only two left. Would you like me to put one aside for you?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay stok corresponds to English stock, but its dictionary meanings reach beyond shop shelves. Alongside merchandise and stored supplies, the word also denotes shares and the plant base used in grafting. These specialised meanings make context essential: a warehouse manager and a horticulturist can use the same word for very different things. [DBP dictionary](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=stok)",
+    "cognitive_memory_aid": "stok与英语stock音义相连：先记货架上的存货，再区分股票和嫁接砧木。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "购物时说Maaf, stok ini masih ada?自然有礼。Kak或abang适用于合适的非正式互动；正式采购宜使用对方姓名或职称。",
+    "usage_etiquette": "适用于零售、采购和物资管理。形容人时，某些stok加人物类别的说法带有把人当商品或按类型物化的意味，应避免用于正式或不熟悉的关系。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "购物时说Maaf, stok ini masih ada?自然有礼。Kak或abang适用于合适的非正式互动；正式采购宜使用对方姓名或职称。",
+    "usage_etiquette": "适用于零售、采购和物资管理。形容人时，某些stok加人物类别的说法带有把人当商品或按类型物化的意味，应避免用于正式或不熟悉的关系。"
+  }
+}

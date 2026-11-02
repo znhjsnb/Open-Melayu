@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "portland",
+    "syllables": null,
+    "ipa": "/ˈpɔːt.lənd/",
+    "jawi": null,
+    "frequency_rank": 8387,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "portland",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + portland → portland",
+    "pattern_note": "作为外来名称或术语组成部分整体处理，不拆成马来语词根与词缀。地名应写 Portland；输入的小写形式不改变这一规范。音标采用英语英式读音，不表示已核实独立的马来语标准读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "波特兰；波特兰岛：多个地点使用的专有名称，具体所指须由国家、州或上下文确定。",
+      "en_definition": "Portland, a place name used for several locations, including cities in Oregon and Maine and the Isle of Portland in England.",
+      "ms_definition": "Nama khas bagi beberapa tempat, termasuk bandar di Oregon dan Maine, Amerika Syarikat, serta Isle of Portland di England.",
+      "nuances": "作为地名必须大写 Portland；不能仅凭输入 token 判定它一定指俄勒冈州城市。pos 的 noun 在此包括专有名词。headword.status 的 official 适用于规范名称及已收录术语的使用范围，不表示小写 portland 是独立的马来语普通名词。读音参见 [Cambridge](https://dictionary.cambridge.org/us/pronunciation/english/portland)。",
+      "collocations": [
+        {
+          "ms": "bandar Portland",
+          "zh": "波特兰市",
+          "en": "the city of Portland"
+        },
+        {
+          "ms": "Portland di Oregon",
+          "zh": "俄勒冈州的波特兰",
+          "en": "Portland, Oregon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于 simen portland，指波特兰水泥，即硅酸盐水泥；此处是水泥类别名称的组成部分。",
+      "en_definition": "The name element in simen portland, meaning Portland cement, a hydraulic cement used in concrete and mortar.",
+      "ms_definition": "Unsur nama dalam istilah simen portland, iaitu simen hidraulik yang digunakan sebagai bahan pengikat dalam konkrit dan mortar.",
+      "nuances": "实际词义由整个术语 simen portland 承担，不宜把 portland 单独教成“水泥”。DBP 术语资料可见小写 portland，百科名称也可见 Portland；应遵循所采用的术语表或文体规范。参见 [PRPM：水泥术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=mengeset)。",
+      "collocations": [
+        {
+          "ms": "simen portland biasa",
+          "zh": "普通硅酸盐水泥",
+          "en": "ordinary Portland cement"
+        },
+        {
+          "ms": "simen portland cepat mengeset",
+          "zh": "快凝硅酸盐水泥",
+          "en": "quick-setting Portland cement"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pembekal diminta menyatakan jenis simen portland yang dicadangkan dalam dokumen tawaran.",
+      "zh": "请供应商在投标文件中注明拟采用的硅酸盐水泥种类。",
+      "en": "Suppliers are requested to specify the proposed type of Portland cement in their tender documents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Simen portland yang kita pesan tu dah sampai kat tapak ke?",
+      "ms_standard": "Adakah simen portland yang kita pesan itu sudah sampai di tapak pembinaan?",
+      "zh": "我们订的硅酸盐水泥已经送到工地了吗？",
+      "en": "Has the Portland cement we ordered arrived at the site?",
+      "spoken_features": [
+        "tu、dah 分别对应 itu、sudah",
+        "kat 对应 di",
+        "句末 ke 构成口语是非问句",
+        "tapak 在施工语境中省略为 tapak pembinaan 的简称"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (工地同事)",
+          "ms_spoken": "Simen portland yang kita pesan tu dah sampai kat tapak ke?",
+          "ms_standard": "Adakah simen portland yang kita pesan itu sudah sampai di tapak pembinaan?",
+          "zh": "我们订的硅酸盐水泥到工地了吗？",
+          "en": "Has the Portland cement we ordered arrived at the site?"
+        },
+        {
+          "speaker": "Amir (工地同事)",
+          "ms_spoken": "Dah sampai. Saya nak semak nota penghantaran dulu.",
+          "ms_standard": "Simen itu sudah sampai. Saya hendak menyemak nota penghantaran terlebih dahulu.",
+          "zh": "已经到了。我先核对一下送货单。",
+          "en": "Yes, it's here. I'll check the delivery note first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Portland cement takes its name from the Isle of Portland in England. Joseph Aspdin patented a cement product in 1824 and named it for its resemblance, when hardened, to Portland limestone. The technical name therefore has a different naming history from the American cities called Portland; it does not identify the cement's manufacturing location. [American Cement Association](https://members.cement.org/EBiz55/Bookstore/EB001.16-Ch.1-Intro-to-Concrete-LR.pdf).",
+    "cognitive_memory_aid": "见到 Portland 先想“地点名称”；前面有 simen，就把 simen portland 整块记成“硅酸盐水泥”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "该词没有特殊敬语要求。跨国交流中提到城市时，补充 Oregon、Maine 等地点信息，能避免同名地造成误会。",
+    "usage_etiquette": "施工、采购和工程文件中应写完整的水泥类别。simen、mortar、konkrit 分别指水泥、砂浆、混凝土，不宜混用；地名 Portland 与水泥术语也须根据上下文区分。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "该词没有特殊敬语要求。跨国交流中提到城市时，补充 Oregon、Maine 等地点信息，能避免同名地造成误会。",
+    "usage_etiquette": "施工、采购和工程文件中应写完整的水泥类别。simen、mortar、konkrit 分别指水泥、砂浆、混凝土，不宜混用；地名 Portland 与水泥术语也须根据上下文区分。"
+  }
+}

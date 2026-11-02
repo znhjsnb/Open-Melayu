@@ -1,0 +1,105 @@
+{
+  "headword": {
+    "word": "insuran",
+    "syllables": "in.su.ran",
+    "ipa": "/in.su.ran/",
+    "jawi": null,
+    "frequency_rank": 8481,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "insuran",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + insuran → insuran",
+    "pattern_note": "整词识别，不可把词尾 an 当作马来语后缀。规范拼写为 insurans；下列词族采用规范词干 insurans 构成。",
+    "word_family": [
+      {
+        "word": "berinsurans",
+        "affix": "ber-",
+        "gloss": "有保险保障"
+      },
+      {
+        "word": "menginsuranskan",
+        "affix": "meN-…-kan",
+        "gloss": "为……投保"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "保险；insurans 的非规范拼写，指保险人依约收取保费，并对约定风险提供赔偿或给付的保障安排。",
+      "en_definition": "A nonstandard spelling of insurans: insurance against specified risks in return for a premium.",
+      "ms_definition": "Bentuk ejaan tidak baku bagi insurans, iaitu perjanjian perlindungan yang melibatkan bayaran premium serta pampasan atau manfaat mengikut syarat yang ditetapkan.",
+      "nuances": "马来西亚规范书面语使用 insurans；insuran 可见于非正式书写，但不宜作为正式拼写教学。本条按指定结构保留 status 字段值，该值不表示此拼写获 DBP 认可。输入未提供 Jawi，故保留 null；规范词 insurans 的 Jawi 为 اينسورنس。参见 [DBP：insurans](https://prpm.dbp.gov.my/Cari1?d=178260&keyword=insurans)。",
+      "collocations": [
+        {
+          "ms": "insuran kereta",
+          "zh": "汽车保险；规范写法为 insurans kereta",
+          "en": "car insurance; standard spelling: insurans kereta"
+        },
+        {
+          "ms": "polisi insuran",
+          "zh": "保险单；规范写法为 polisi insurans",
+          "en": "an insurance policy; standard spelling: polisi insurans"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan rasmi, ejaan \"insuran\" hendaklah dibetulkan kepada \"insurans\".",
+      "zh": "正式报告中的 insuran 应改为规范拼写 insurans。",
+      "en": "In an official report, the spelling \"insuran\" should be corrected to \"insurans\"."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Insuran kereta kau dah renew ke?",
+      "ms_standard": "Adakah awak sudah memperbaharui insurans kereta awak?",
+      "zh": "你的车险续保了吗？",
+      "en": "Have you renewed your car insurance?",
+      "spoken_features": [
+        "insuran 是此处保留的非规范拼写，标准对应词为 insurans。",
+        "kau 用于关系熟悉的同辈之间。",
+        "dah 对应 sudah。",
+        "renew 是口语中的英语语码转换，对应 memperbaharui。",
+        "句末 ke 构成口语疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Insuran kereta kau dah renew ke? Nak tamat dah tu.",
+          "ms_standard": "Adakah awak sudah memperbaharui insurans kereta awak? Tempoh perlindungannya hampir tamat.",
+          "zh": "你车险续了吗？快到期了哦。",
+          "en": "Have you renewed your car insurance? It's about to expire."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Belum lagi. Aku nak renew malam ni je.",
+          "ms_standard": "Belum. Saya bercadang untuk memperbaharuinya malam ini.",
+          "zh": "还没，我打算今晚就续。",
+          "en": "Not yet. I'm planning to renew it tonight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The standard Malay word insurans is borrowed from English insurance, reflecting the vocabulary of financial protection. Insuran is a nonstandard spelling encountered in everyday writing, not a separate native formation with the suffix -an. Learning the pair connects familiar conversation with the spelling used in policies, professional correspondence, and standard dictionaries.",
+    "cognitive_memory_aid": "把 insuran 连到英语 insurance；正式写马来语时记得补上末尾 s：insurans。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与客户或同事沟通时使用规范拼写 insurans；纠正他人时可说 Ejaan bakunya ialah insurans，避免评价对方的教育程度。",
+    "usage_etiquette": "适用于讨论投保、保单和理赔。涉及个人健康或家庭保障时，应尊重隐私；takaful 是相关但有独立制度含义的术语，不宜在所有语境下直接替换 insurans。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与客户或同事沟通时使用规范拼写 insurans；纠正他人时可说 Ejaan bakunya ialah insurans，避免评价对方的教育程度。",
+    "usage_etiquette": "适用于讨论投保、保单和理赔。涉及个人健康或家庭保障时，应尊重隐私；takaful 是相关但有独立制度含义的术语，不宜在所有语境下直接替换 insurans。"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headword": {
+    "word": "dijamin",
+    "syllables": "di.ja.min",
+    "ipa": "/di.dʒa.min/",
+    "jawi": null,
+    "frequency_rank": 8433,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jamin",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + jamin → dijamin（获得保证／由人担保）",
+    "pattern_note": "纠正输入中的未拆分分析：dijamin 是 jamin 的 di- 被动形式。前缀与词根连写，词根首音 j /dʒ/ 保留；di- 不表示过去时。",
+    "word_family": [
+      {
+        "word": "menjamin",
+        "affix": "meN-",
+        "gloss": "保证；担保"
+      },
+      {
+        "word": "jaminan",
+        "affix": "-an",
+        "gloss": "保证；担保；保障"
+      },
+      {
+        "word": "penjamin",
+        "affix": "peN-",
+        "gloss": "担保人"
+      },
+      {
+        "word": "terjamin",
+        "affix": "ter-",
+        "gloss": "有保障的；得到保证的"
+      }
+    ],
+    "root_jawi": "جامين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "在品质、安全、真实性或其他条件方面获得保证或保障。",
+      "en_definition": "To be guaranteed or safeguarded with respect to quality, safety, authenticity, or another condition.",
+      "ms_definition": "Diberi jaminan tentang keselamatan, mutu, ketulenan atau sesuatu keadaan.",
+      "nuances": "menjamin 的被动形式；可接 oleh 引出保证者。与 terjamin 相比，dijamin 更容易突出保证行为或责任方。本条各义的马来语释义按主动词义改写，并非 DBP 对 dijamin 的独立原文释义。参见 [DBP：jamin](https://prpm.dbp.gov.my/Cari1?keyword=jamin)。",
+      "collocations": [
+        {
+          "ms": "mutu dijamin",
+          "zh": "品质有保证",
+          "en": "quality guaranteed"
+        },
+        {
+          "ms": "keselamatan dijamin",
+          "zh": "安全获得保障",
+          "en": "safety guaranteed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "由担保人承诺在有关人士未履行义务时承担责任；也用于保释担保。",
+      "en_definition": "To be backed by a guarantor who undertakes another person's obligations, including in bail arrangements.",
+      "ms_definition": "Ditanggung oleh penjamin sekiranya pihak berkenaan tidak memenuhi kewajipannya; termasuk dalam urusan ikat jamin.",
+      "nuances": "责任承担义，常出现明确担保人。涉及保释时，获得担保并不表示被判无罪。",
+      "collocations": [
+        {
+          "ms": "pinjaman dijamin oleh kerajaan",
+          "zh": "贷款由政府担保",
+          "en": "a loan guaranteed by the government"
+        },
+        {
+          "ms": "dijamin oleh seorang penjamin",
+          "zh": "由一名担保人提供担保",
+          "en": "backed by a guarantor"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "某种结果或待遇得到明确承诺；口语中也用于强调说话者很有把握。",
+      "en_definition": "To be promised a particular outcome or benefit; conversationally, to be presented as certain.",
+      "ms_definition": "Dijanjikan sesuatu hasil, manfaat atau layanan.",
+      "nuances": "广告中的 dijamin puas hati 表示满意保证；口语中的 dijamin sedap 表示强烈推荐，通常不能单凭该说法认定存在正式担保条款。",
+      "collocations": [
+        {
+          "ms": "dijamin puas hati",
+          "zh": "保证满意",
+          "en": "satisfaction guaranteed"
+        },
+        {
+          "ms": "dijamin sedap",
+          "zh": "保证好吃",
+          "en": "guaranteed to taste good"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "日常生活所需由他人承担或供给。",
+      "en_definition": "To have one's everyday living needs provided for by someone.",
+      "ms_definition": "Ditanggung keperluan hidup sehari-hari oleh seseorang atau sesuatu pihak.",
+      "nuances": "对应 menjamin 的口语供养义；需由生活、饮食等上下文明确，不宜将所有 dijamin 都译作“供养”。",
+      "collocations": [
+        {
+          "ms": "makan minum dijamin",
+          "zh": "饮食有人负责",
+          "en": "meals provided"
+        },
+        {
+          "ms": "keperluan harian dijamin",
+          "zh": "日常所需获得供给",
+          "en": "daily needs provided for"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Mutu produk ini dijamin oleh pengilang melalui pemeriksaan berkala.",
+      "zh": "制造商通过定期检查保证该产品的品质。",
+      "en": "The manufacturer guarantees the quality of this product through regular inspections."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Cuba nasi lemak kat sini, dijamin sedap!",
+      "ms_standard": "Cubalah nasi lemak di sini; saya menjamin bahawa rasanya sedap.",
+      "zh": "试试这里的椰浆饭，保证好吃！",
+      "en": "Try the nasi lemak here. You'll love it!",
+      "spoken_features": [
+        "kat 在此相当于 di。",
+        "dijamin sedap 省略保证者，是强调信心的推荐说法。",
+        "回应中的 lah 加强亲近、随和的语气；je 相当于 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Cuba nasi lemak kat sini, dijamin sedap!",
+          "ms_standard": "Cubalah nasi lemak di sini; saya menjamin bahawa rasanya sedap.",
+          "zh": "试试这里的椰浆饭，保证好吃！",
+          "en": "Try the nasi lemak here. You'll love it!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okeylah, aku nak satu bungkus je dulu.",
+          "ms_standard": "Baiklah, saya mahu satu bungkus sahaja dahulu.",
+          "zh": "行，那我先要一包试试。",
+          "en": "All right, I'll start with one pack."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dijamin illustrates a productive Malay grammatical pattern rather than a separate lexical root: di- places the guaranteed person or thing at the centre of the clause. The jamin family connects a promise, its guarantor, and the resulting assurance. Everyday recommendations extend that assurance into friendly expressions of confidence about food or service. [DBP](https://prpm.dbp.gov.my/Cari1?keyword=jamin)",
+    "cognitive_memory_aid": "jamin＝保证；前面加 di-，镜头转向接受保证的一方：mutu dijamin＝品质获得保证。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式承诺使用 dijamin 语气较强，应明确保证者及保证内容；朋友推荐美食时则可带轻松、夸张的口吻。",
+    "usage_etiquette": "商务表达应让保证范围与实际承诺一致。标准语中前缀连写为 dijamin；表示地点的介词 di 才与后面的词分写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式承诺使用 dijamin 语气较强，应明确保证者及保证内容；朋友推荐美食时则可带轻松、夸张的口吻。",
+    "usage_etiquette": "商务表达应让保证范围与实际承诺一致。标准语中前缀连写为 dijamin；表示地点的介词 di 才与后面的词分写。"
+  }
+}

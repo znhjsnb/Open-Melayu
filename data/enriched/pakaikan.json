@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "pakaikan",
+    "syllables": "pa.kai.kan",
+    "ipa": "/pa.kai̯.kan/",
+    "jawi": "ڤاکايکن",
+    "frequency_rank": 8483,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pakai",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "pakai + -kan → pakaikan",
+    "pattern_note": "后缀 -kan 直接接在 pakai 后，ai 保持双元音。pakaikan 常见于祈使句或第一、第二人称被动结构；主动陈述通常用 memakaikan。输入 Jawi ڤاکاي 对应词根 pakai，此处补全词尾 کن。",
+    "word_family": [
+      {
+        "word": "memakai",
+        "affix": "meN-",
+        "gloss": "穿戴；使用"
+      },
+      {
+        "word": "memakaikan",
+        "affix": "meN-…-kan",
+        "gloss": "给……穿戴；将……用于"
+      }
+    ],
+    "root_jawi": "ڤاکاي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "给别人穿上、戴上或装上衣物、饰品及随身装备。",
+      "en_definition": "To put clothing, an accessory, or wearable equipment on someone.",
+      "ms_definition": "Mengenakan atau memasangkan pakaian, perhiasan atau kelengkapan pada seseorang.",
+      "nuances": "重点是替别人穿戴。Pakaikan baju ini pada adik 表示给弟弟或妹妹穿这件衣服；Pakai baju ini 表示自己穿。完整主动式为 memakaikan，祈使句可用 pakaikan。释义依据 [DBP：pakai／memakaikan](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=pakai)。",
+      "collocations": [
+        {
+          "ms": "pakaikan baju pada anak",
+          "zh": "给孩子穿衣服",
+          "en": "put a shirt on a child"
+        },
+        {
+          "ms": "pakaikan kasut pada adik",
+          "zh": "给弟弟或妹妹穿鞋",
+          "en": "put shoes on one's younger sibling"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把某事物施用于某人或某对象；使其适用或供其使用。",
+      "en_definition": "To apply something to a person or situation, or assign it for use.",
+      "ms_definition": "Menggunakan atau menguntukkan sesuatu supaya digunakan pada seseorang atau sesuatu pihak.",
+      "nuances": "属于较少见的书面或旧式用法；现代表达常改用 gunakan 或 terapkan。词典另记 memakaikan 可在古语中同 memakai，不应据此把现代 pakaikan 普遍解释为自己穿戴。",
+      "collocations": [
+        {
+          "ms": "pakaikan peraturan itu kepada mereka",
+          "zh": "将该规定适用于他们",
+          "en": "apply that rule to them"
+        },
+        {
+          "ms": "pakaikan syarat itu kepada semua pihak",
+          "zh": "将该条件适用于各方",
+          "en": "apply that condition to all parties"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Demi keselamatan, pakaikan jaket keselamatan pada setiap kanak-kanak sebelum menaiki bot.",
+      "zh": "为确保安全，请在登船前给每名儿童穿上救生衣。",
+      "en": "For safety, put a life jacket on every child before boarding the boat."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tolong pakaikan kasut kat adik dulu, kita dah nak keluar ni.",
+      "ms_standard": "Tolong pakaikan kasut pada adik dahulu kerana kita akan keluar sebentar lagi.",
+      "zh": "先帮弟弟穿好鞋，我们马上要出门了。",
+      "en": "Please put your little brother's shoes on first. We're about to head out.",
+      "spoken_features": [
+        "kat 在此对应表示穿戴对象的 pada。",
+        "dulu 对应 dahulu。",
+        "dah nak 表示某事即将发生。",
+        "ni 在句末突出眼前即将出门的情境。",
+        "祈使句保留 pakaikan，无须加主动前缀 meN-。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (姐姐)",
+          "ms_spoken": "Tolong pakaikan kasut kat adik dulu. Aku nak ambil beg kejap.",
+          "ms_standard": "Tolong pakaikan kasut pada adik dahulu. Saya hendak mengambil beg sebentar.",
+          "zh": "先帮弟弟穿一下鞋，我去拿个包。",
+          "en": "Please put your little brother's shoes on first. I'll just grab my bag."
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Okey, dah siap. Dia nak pakai kasut biru je hari ni.",
+          "ms_standard": "Baiklah, sudah siap. Dia hanya mahu memakai kasut biru hari ini.",
+          "zh": "好，穿好了。他今天就想穿蓝色那双。",
+          "en": "Okay, all done. He only wants to wear his blue shoes today."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pakaikan grows from pakai, a Malay base covering wearing and using. The suffix -kan shifts attention toward putting something on another person or applying it to a recipient. Dressing a child makes the distinction concrete: memakai describes the wearer, while memakaikan describes the helper. Pakaikan is the familiar command form heard in family routines.",
+    "cognitive_memory_aid": "pakai＝穿；pakaikan＝帮别人穿。记一句：Pakaikan baju pada adik——给弟弟妹妹穿上衣服。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独使用 Pakaikan… 可能像直接命令；对同事、照护人员或不熟悉的人可加 tolong、sila 或 boleh。例如 Boleh tolong pakaikan jaket ini pada anak saya?",
+    "usage_etiquette": "常用于照顾幼儿、长者或需要协助的人，也适用于安全装备穿戴。协助成年人穿衣涉及身体接触与隐私，应先征得对方同意，并维护其尊严。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独使用 Pakaikan… 可能像直接命令；对同事、照护人员或不熟悉的人可加 tolong、sila 或 boleh。例如 Boleh tolong pakaikan jaket ini pada anak saya?",
+    "usage_etiquette": "常用于照顾幼儿、长者或需要协助的人，也适用于安全装备穿戴。协助成年人穿衣涉及身体接触与隐私，应先征得对方同意，并维护其尊严。"
+  }
+}

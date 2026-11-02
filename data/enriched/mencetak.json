@@ -1,0 +1,173 @@
+{
+  "headword": {
+    "word": "mencetak",
+    "syllables": null,
+    "ipa": "/mən.tʃe.taʔ/",
+    "jawi": "منچيتق",
+    "frequency_rank": 8409,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "cetak",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + cetak → mencetak",
+    "pattern_note": "meN- 接 c 开头的 cetak 时写作 men-，c 保留；c 表示 /tʃ/，词根中的 é 为 /e/，马来西亚常见发音中词末 k 实现为 [ʔ]。输入未提供独立的 syllables 字段值，故保留 null。",
+    "word_family": [
+      {
+        "word": "cetakan",
+        "affix": "-an",
+        "gloss": "印刷品；印次；模具"
+      },
+      {
+        "word": "pencetak",
+        "affix": "peN-",
+        "gloss": "打印机；印刷人员"
+      },
+      {
+        "word": "pencetakan",
+        "affix": "peN-...-an",
+        "gloss": "印刷过程"
+      },
+      {
+        "word": "percetakan",
+        "affix": "per-...-an",
+        "gloss": "印刷厂；印刷企业"
+      }
+    ],
+    "root_jawi": "چيتق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把文字或图像印在纸张等载体上；印刷书刊，或用打印机打印文件。",
+      "en_definition": "To reproduce text or images on paper or another medium by printing.",
+      "ms_definition": "Mengecapkan tulisan atau gambar pada kertas dan sebagainya untuk membuat buku, surat khabar dan sebagainya.",
+      "nuances": "通常是带宾语的主动及物动词，可用于商业印刷及电脑打印。出版一本书还涉及编辑、发行等工作，因此 mencetak 不总能替代 menerbitkan。[DBP：mencetak](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=mencetak)",
+      "collocations": [
+        {
+          "ms": "mencetak dokumen",
+          "zh": "打印文件",
+          "en": "print documents"
+        },
+        {
+          "ms": "mencetak buku",
+          "zh": "印刷书籍",
+          "en": "print books"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把图案印在布料上；进行织物印花。",
+      "en_definition": "To print a design or pattern onto fabric.",
+      "ms_definition": "Mengecapkan lukisan pada kain.",
+      "nuances": "强调把图案印到织物上。mencetak batik 指印制蜡染风格图案的相关工序，不能据此把所有 batik 制作方式都视为印花。",
+      "collocations": [
+        {
+          "ms": "mencetak corak pada kain",
+          "zh": "在布料上印制图案",
+          "en": "print patterns on fabric"
+        },
+        {
+          "ms": "mencetak batik",
+          "zh": "印制巴迪布图案",
+          "en": "print batik designs"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "把金属等材料倒入模具铸造成形，或用模具制作物品、糕点等。",
+      "en_definition": "To cast material in a mould or make something using a mould.",
+      "ms_definition": "Menuang sesuatu seperti logam dalam acuan; membuat sesuatu dengan acuan.",
+      "nuances": "这里的核心是利用 acuan（模具）成形，不涉及纸张或打印机。具体译为铸造、压模或用模具制作，取决于材料和工艺。",
+      "collocations": [
+        {
+          "ms": "mencetak timah",
+          "zh": "铸锡；把锡浇铸成形",
+          "en": "cast tin"
+        },
+        {
+          "ms": "mencetak kuih",
+          "zh": "用模具制作糕点",
+          "en": "shape cakes using moulds"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "在体育或比喻语境中取得某种成果，如进球、获胜或获得利润。",
+      "en_definition": "To score a goal or achieve a win or profit.",
+      "ms_definition": "Membuat atau menjaringkan gol; memperoleh kemenangan atau keuntungan.",
+      "nuances": "这是 DBP 收录的引申义。表达足球进球时，menjaringkan gol 更直接清晰；不要把这一义项机械推广为任何英语 make 或 achieve 的对应词。",
+      "collocations": [
+        {
+          "ms": "mencetak gol",
+          "zh": "攻入进球",
+          "en": "score a goal"
+        },
+        {
+          "ms": "mencetak keuntungan",
+          "zh": "获得利润",
+          "en": "generate a profit"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak urus setia akan mencetak semua dokumen mesyuarat selepas menerima kelulusan pengerusi.",
+      "zh": "秘书处将在收到主席批准后打印所有会议文件。",
+      "en": "The secretariat will print all meeting documents after receiving the chairperson's approval."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Saya nak mencetak borang ni kat pejabat kejap.",
+      "ms_standard": "Saya hendak mencetak borang ini di pejabat sebentar.",
+      "zh": "我想去办公室把这张表打印一下。",
+      "en": "I'm going to print this form at the office quickly.",
+      "spoken_features": [
+        "nak 相当于 hendak，ni 相当于 ini，kat 在这里相当于 di。",
+        "kejap 是 sekejap 的口语形式，表示一会儿或很快。",
+        "mencetak 可保留在口语中；实际交流中也常听到英语 print。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Saya nak mencetak borang ni kat pejabat kejap. Awak dah isi?",
+          "ms_standard": "Saya hendak mencetak borang ini di pejabat sebentar. Adakah awak sudah mengisinya?",
+          "zh": "我想去办公室把这张表打印一下。你填好了吗？",
+          "en": "I'm going to print this form at the office. Have you filled it in?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah. Cetak satu salinan je untuk saya, ya.",
+          "ms_standard": "Sudah. Tolong cetak satu salinan sahaja untuk saya.",
+          "zh": "填好了。帮我打印一份就行，谢谢。",
+          "en": "Yes. Just print one copy for me, please."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay cetak brings together two concrete ideas: making an impression and producing a shape with a mould. Its derivative mencetak therefore covers paper printing, fabric printing and moulding. The dictionary also records figurative achievement, including scoring goals. These related meanings offer a useful semantic bridge, although they do not establish the root's ultimate historical source. [DBP: cetak](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cetak)",
+    "cognitive_memory_aid": "把 cetak 想成盖出一个成品：纸上印字、布上印花、模里成形；加 meN-，mencetak 就是执行这个动作。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请别人打印文件时可说 Boleh tolong cetak dokumen ini?。面对同事，加入 tolong 或 boleh 可使请求更柔和；单说 Cetak ini! 容易显得生硬。",
+    "usage_etiquette": "正式文件使用 mencetak；熟人聊天中使用 print 很常见。词本身没有特殊禁忌，但在办公室请求打印时，说清份数、单双面和彩色要求能避免误会。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请别人打印文件时可说 Boleh tolong cetak dokumen ini?。面对同事，加入 tolong 或 boleh 可使请求更柔和；单说 Cetak ini! 容易显得生硬。",
+    "usage_etiquette": "正式文件使用 mencetak；熟人聊天中使用 print 很常见。词本身没有特殊禁忌，但在办公室请求打印时，说清份数、单双面和彩色要求能避免误会。"
+  }
+}
