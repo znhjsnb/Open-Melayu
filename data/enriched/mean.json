@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "mean",
+    "syllables": null,
+    "ipa": "/miːn/",
+    "jawi": null,
+    "frequency_rank": 7410,
+    "status": "foreign"
+  },
+  "editorial_note": "此拼写属于英语，不能据此标为官方马来语词。以下记录有术语对应证据的统计学用法；标准马来语对应词是 min。IPA 为英语读音。缺少原始语境，不能确认输入 token 实际使用的是此义；本条也不穷举英语 mean 的其他词义。",
+  "morphology": {
+    "is_root": true,
+    "root_word": "mean",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mean → mean（英语整词；非马来语派生词）",
+    "pattern_note": "英语读音 /miːn/ 中的 ee 对应长元音 /iː/；不套用马来语逐字母拼读规则。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "算术平均值：将一组数值相加后，除以数值的个数所得的结果；标准马来语称 min 或 min aritmetik。",
+      "en_definition": "The arithmetic average: the sum of a set of values divided by their number.",
+      "ms_definition": "Dalam penggunaan bahasa Inggeris bagi statistik, nilai yang diperoleh dengan menjumlahkan semua nilai dalam satu set data dan membahagikan jumlah itu dengan bilangan nilai; padanan bahasa Melayunya ialah min aritmetik.",
+      "nuances": "这里的马来语释义是编写的解释，并非 DBP 对 mean 作为马来语词目的官方定义。英语 mean 与马来语 min 的术语对应见 [DBP PRPM：mean／min](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=min+set)。以下搭配展示马来语句子中引用英语术语的情境，不代表标准马来语搭配或频率结论。",
+      "collocations": [
+        {
+          "ms": "nilai 'mean' dalam output perisian",
+          "zh": "软件输出中的“mean”值",
+          "en": "the mean value in the software output"
+        },
+        {
+          "ms": "lajur 'mean' dalam jadual",
+          "zh": "表格中的“mean”列",
+          "en": "the column labelled 'mean' in the table"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 解释英语统计标签",
+      "ms": "Lajur berlabel 'mean' dalam jadual tersebut menunjukkan min aritmetik bagi setiap kumpulan.",
+      "zh": "该表中标为“mean”的一列显示各组的算术平均值。",
+      "en": "The column labelled 'mean' in the table shows the arithmetic mean for each group."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 讨论统计作业",
+      "ms_spoken": "Mean untuk data ni dah kira ke?",
+      "ms_standard": "Adakah min bagi data ini sudah dikira?",
+      "zh": "这组数据的平均值算好了吗？",
+      "en": "Have you worked out the mean for this data yet?",
+      "spoken_features": [
+        "mean 是英语术语的语码转换；标准马来语使用 min。",
+        "ni 对应 ini；dah 对应 sudah。",
+        "句末 ke 表示口语疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Mean untuk data ni dah kira ke?",
+          "ms_standard": "Adakah min bagi data ini sudah dikira?",
+          "zh": "这组数据的平均值算好了吗？",
+          "en": "Have you worked out the mean for this data yet?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Dah, dapat 12. Masukkan kat jadual je.",
+          "ms_standard": "Sudah, nilainya ialah 12. Masukkan nilai itu ke dalam jadual sahaja.",
+          "zh": "算好了，是 12。填进表格就行。",
+          "en": "Yes, it's 12. Just put that in the table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This entry illustrates a terminology crossing rather than an established Malay word history. DBP terminology records pair English mean with Malay min. An English label may therefore remain visible when a Malay sentence discusses a table or software output, while formal Malay prose uses min. That correspondence alone does not establish the origin or intended sense of this corpus token. [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=min+set)",
+    "cognitive_memory_aid": "统计语境记“mean → min → 平均值”：加总，再除以个数。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "同学或同事讨论英语教材时可沿用 mean；面对不熟悉英语术语的人，补充说明“min，iaitu purata”更便于理解。",
+    "usage_etiquette": "正式马来语报告采用 min 或 min aritmetik。引用英文表头时可以保留 mean，并明确所指的是统计概念。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "同学或同事讨论英语教材时可沿用 mean；面对不熟悉英语术语的人，补充说明“min，iaitu purata”更便于理解。",
+    "usage_etiquette": "正式马来语报告采用 min 或 min aritmetik。引用英文表头时可以保留 mean，并明确所指的是统计概念。"
+  }
+}

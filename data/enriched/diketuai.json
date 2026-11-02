@@ -1,0 +1,108 @@
+{
+  "headword": {
+    "word": "diketuai",
+    "syllables": "di.ke.tu.a.i",
+    "ipa": "/di.kə.tu.a.i/",
+    "jawi": null,
+    "frequency_rank": 7446,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ketua",
+    "affix": "di-...-i",
+    "affix_type": "circumfix",
+    "formula": "di- + ketua + -i → diketuai",
+    "pattern_note": "ketua 的 k 在 di- 后保留；这是 mengetuai 的被动对应形式，不发生 meN- 结构中的 k 脱落。输入包的词根标签已更正；缺失且未核实的整词爪夷文保留 null。",
+    "word_family": [
+      {
+        "word": "ketua",
+        "affix": null,
+        "gloss": "领导；负责人"
+      },
+      {
+        "word": "mengetuai",
+        "affix": "meN-...-i",
+        "gloss": "领导；率领"
+      },
+      {
+        "word": "berketuakan",
+        "affix": "ber-...-kan",
+        "gloss": "以某人为首"
+      }
+    ],
+    "root_jawi": "کتوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "由某人领导、率领或担任负责人；mengetuai 的被动形式。",
+      "en_definition": "To be led or headed by someone.",
+      "ms_definition": "Dipimpin atau dikepalai oleh seseorang yang menjadi ketua.",
+      "nuances": "主语通常是团队、代表团、委员会或机构；diketuai oleh 后接领导者。表示领导关系，不等同于“某人被任命为领导”。释义依据 [DBP：mengetuai](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=mengetuai) 转换为被动形式，并非直接引录独立词条。",
+      "collocations": [
+        {
+          "ms": "pasukan yang diketuai oleh",
+          "zh": "由……率领的团队",
+          "en": "a team led by"
+        },
+        {
+          "ms": "rombongan yang diketuai oleh",
+          "zh": "由……率领的代表团",
+          "en": "a delegation headed by"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelidikan itu diketuai oleh Profesor Aisyah dan dianggotai oleh enam orang penyelidik.",
+      "zh": "该研究团队由艾莎教授领导，成员包括六名研究人员。",
+      "en": "The research team is headed by Professor Aisyah and includes six researchers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pasukan kita diketuai oleh Kak Lina kan?",
+      "ms_standard": "Pasukan kita diketuai oleh Kak Lina, bukan?",
+      "zh": "我们这队是丽娜姐带的，对吧？",
+      "en": "Kak Lina is leading our team, right?",
+      "spoken_features": [
+        "kan 是征求确认的口语附加问句。",
+        "Kak 可作对年长女性的熟悉而尊重的称呼。",
+        "diketuai 语气较正式，但可自然出现在工作群聊中。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pasukan kita diketuai oleh Kak Lina kan? Aku dah lupa.",
+          "ms_standard": "Pasukan kita diketuai oleh Kak Lina, bukan? Saya sudah terlupa.",
+          "zh": "我们这队是丽娜姐带的，对吧？我给忘了。",
+          "en": "Kak Lina is leading our team, right? I've forgotten."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Haah. Dia nak jumpa kita kat pejabat pukul tiga nanti.",
+          "ms_standard": "Ya. Beliau hendak berjumpa dengan kita di pejabat pada pukul tiga nanti.",
+          "zh": "对。她待会儿三点要在办公室见我们。",
+          "en": "Yeah. She wants to meet us at the office at three."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diketuai is a grammatical formation built on ketua, meaning a leader or head. Its story is the productive Malay relationship between active and passive verbs: mengetuai presents the leader as the subject, while diketuai presents the group. This makes it useful for introducing delegations and teams. No separate borrowing history is established here. See [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mengetuai).",
+    "cognitive_memory_aid": "先认 ketua“领导”：di- 把镜头转向团队，pasukan diketuai oleh Lina 就是“团队由 Lina 领导”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式介绍负责人时保留其实际使用的称谓，如 Encik、Puan 或 Profesor；用 beliau 指称受尊重的人物。",
+    "usage_etiquette": "适合报告组织分工和代表团组成。diketuai 表示领导关系，不自动表示领导者亲自完成所有工作，也不说明其任命方式。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式介绍负责人时保留其实际使用的称谓，如 Encik、Puan 或 Profesor；用 beliau 指称受尊重的人物。",
+    "usage_etiquette": "适合报告组织分工和代表团组成。diketuai 表示领导关系，不自动表示领导者亲自完成所有工作，也不说明其任命方式。"
+  }
+}

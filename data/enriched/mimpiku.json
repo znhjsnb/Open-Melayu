@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "mimpiku",
+    "syllables": "mim.pi.ku",
+    "ipa": "/mimpiku/",
+    "jawi": "ميمڤي",
+    "frequency_rank": 7442,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mimpi",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "mimpi + -ku → mimpiku",
+    "pattern_note": "-ku 是 aku 的后附着形式，表示“我的”，严格说属于代词附着语，此处依字段归为 suffix。连接时不改变词根读音。输入 Jawi ميمڤي 仅对应 mimpi，完整 mimpiku 应写作 ميمڤيکو；音节按完整词补为 mim.pi.ku。连写规则见 [DBP《Pedoman Umum Ejaan Bahasa Melayu》](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+    "word_family": [
+      {
+        "word": "bermimpi",
+        "affix": "ber-",
+        "gloss": "做梦；幻想"
+      },
+      {
+        "word": "memimpikan",
+        "affix": "meN-…-kan",
+        "gloss": "梦见；梦想得到"
+      }
+    ],
+    "root_jawi": "ميمڤي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "我的梦；说话者睡眠中所见或经历的情景。",
+      "en_definition": "My dream: images or experiences occurring in the speaker's sleep.",
+      "ms_definition": "Sesuatu yang aku lihat atau alami sewaktu tidur; mimpi aku.",
+      "nuances": "这是 mimpi 加第一人称所属形式 -ku，并非独立的新词义。与 mimpi saya 相比，更常带有亲近、个人叙述或文学色彩。基础义依据：[DBP PRPM：mimpi](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=mimpi)。",
+      "collocations": [
+        {
+          "ms": "dalam mimpiku",
+          "zh": "在我的梦里",
+          "en": "in my dream"
+        },
+        {
+          "ms": "mimpiku malam tadi",
+          "zh": "我昨晚做的梦",
+          "en": "my dream last night"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "我的梦想、憧憬或幻想；说话者在想象中期望实现的事物。",
+      "en_definition": "My dream, aspiration, or imagined wish.",
+      "ms_definition": "Angan-angan atau sesuatu yang aku harapkan menjadi kenyataan.",
+      "nuances": "此处是 mimpi 的比喻用法，可表达真切愿望，也可指不切实际的幻想；不能仅凭该词断定愿望必然无法实现。明确谈职业目标时，cita-cita saya 往往更具体。",
+      "collocations": [
+        {
+          "ms": "mimpiku menjadi kenyataan",
+          "zh": "我的梦想成真",
+          "en": "my dream comes true"
+        },
+        {
+          "ms": "mengejar mimpiku",
+          "zh": "追逐我的梦想",
+          "en": "pursue my dream"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 人物专访 / 正式致辞",
+      "ms": "Dalam ucapannya, penerima biasiswa itu berkata, \"Inilah peluang untuk merealisasikan mimpiku menjadi seorang penyelidik.\"",
+      "zh": "那名奖学金获得者在致辞中说：“这是实现我成为研究人员这一梦想的机会。”",
+      "en": "In the speech, the scholarship recipient said, \"This is an opportunity to fulfil my dream of becoming a researcher.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论社交媒体配文",
+      "ms_spoken": "Aku nak tulis 'mimpiku jadi kenyataan' kat kapsyen ni, okey tak?",
+      "ms_standard": "Aku mahu menulis 'mimpiku menjadi kenyataan' dalam kapsyen ini. Adakah ayat itu sesuai?",
+      "zh": "我想在这条配文里写“我的梦想成真了”，行不行？",
+      "en": "I'm thinking of writing 'my dream came true' in this caption. Does that sound okay?",
+      "spoken_features": [
+        "nak 对应 mahu，kat 在此对应 dalam。",
+        "ni 对应 ini；okey tak? 是口语中的征询表达。",
+        "mimpiku 在此作为抒情配文出现；普通聊天也常说 mimpi aku。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak tulis 'mimpiku jadi kenyataan' kat kapsyen ni, okey tak?",
+          "ms_standard": "Aku mahu menulis 'mimpiku menjadi kenyataan' dalam kapsyen ini. Adakah ayat itu sesuai?",
+          "zh": "我想在这条配文里写“我的梦想成真了”，行不行？",
+          "en": "I'm thinking of writing 'my dream came true' in this caption. Does that sound okay?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okey je! Kau dah dapat tawaran tu, memang patut raikan.",
+          "ms_standard": "Ayat itu sesuai! Kamu sudah mendapat tawaran itu, jadi kejayaan itu memang wajar diraikan.",
+          "zh": "挺好啊！你都拿到录取通知了，当然值得庆祝。",
+          "en": "Sounds good! You got the offer—you've definitely got something to celebrate."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mimpiku combines mimpi, meaning dream, with the shortened first-person pronoun -ku. This is a grammatical combination rather than a separate ancient root. The compact possessive form suits intimate narration, poetry, and song lyrics. It lets a single word hold both the dream and its dreamer, whether the dream happened during sleep or expresses a personal hope.",
+    "cognitive_memory_aid": "mimpi 是“梦”，-ku 是“我的”：mimpi + ku，一口气说出“我的梦”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲近关系、内心独白和文学表达；向陌生人、长辈或正式受众陈述个人愿望时，mimpi saya 或 impian saya 通常更稳妥。",
+    "usage_etiquette": "mimpiku 是正常连写形式，不是拼写错误；它不表示“我做梦”这一动词动作。谈他人的梦或宗教解释时，应尊重其个人信念，避免直接嘲讽。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲近关系、内心独白和文学表达；向陌生人、长辈或正式受众陈述个人愿望时，mimpi saya 或 impian saya 通常更稳妥。",
+    "usage_etiquette": "mimpiku 是正常连写形式，不是拼写错误；它不表示“我做梦”这一动词动作。谈他人的梦或宗教解释时，应尊重其个人信念，避免直接嘲讽。"
+  }
+}

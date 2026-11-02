@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "penanda",
+    "syllables": "pe.nan.da",
+    "ipa": "/pə.nan.da/",
+    "jawi": "ڤنندا",
+    "frequency_rank": 7407,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "nanda",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + tanda → penanda",
+    "pattern_note": "root_word 按数据包保留，但 nanda 是误切结果，实际词根是 tanda。peN- 在 t 前取 pen-，词根首音 t 脱落，形成 penanda；不能分析为 pe- + nanda。root_jawi 按要求回退为数据包 headword.jawi；实际词根 tanda 的爪夷文为 تندا。",
+    "word_family": [
+      {
+        "word": "tanda",
+        "affix": null,
+        "gloss": "标记；迹象"
+      },
+      {
+        "word": "menandakan",
+        "affix": "meN-...-kan",
+        "gloss": "表明；标示"
+      },
+      {
+        "word": "penandaan",
+        "affix": "peN-...-an",
+        "gloss": "标注；标记过程"
+      },
+      {
+        "word": "petanda",
+        "affix": "pe-",
+        "gloss": "征兆；预示性迹象"
+      }
+    ],
+    "root_jawi": "ڤنندا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用于标记、辨认或指示位置、界限等的物件或标志。",
+      "en_definition": "An object or sign used to mark or identify a position, boundary, or other feature.",
+      "ms_definition": "Sesuatu yang digunakan sebagai tanda.",
+      "nuances": "核心在于“起标记作用的东西”，不限定为笔。penanda buku 是书签；如需明确指马克笔，可用 pen penanda。此处把 DBP 的宽泛定义按具体用途展开。来源：[DBP：tanda／penanda](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tanda)。",
+      "collocations": [
+        {
+          "ms": "penanda buku",
+          "zh": "书签",
+          "en": "bookmark"
+        },
+        {
+          "ms": "penanda sempadan",
+          "zh": "边界标志",
+          "en": "boundary marker"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "表明某种状态、程度或关系的指标或标记；也指语言中提示语篇衔接关系的成分。",
+      "en_definition": "An indicator or marker of a condition, degree, or relationship, including a linguistic marker.",
+      "ms_definition": "Sesuatu yang menandakan keadaan, tahap atau hubungan tertentu, termasuk hubungan dalam wacana.",
+      "nuances": "这是“起标示作用”这一核心义在抽象领域的应用。penanda aras 通常译为“基准”，penanda wacana 为“语篇标记”。petanda 常强调征兆，penanda 常强调标示功能，两者不宜机械互换。来源：[DBP：penanda](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penanda)。",
+      "collocations": [
+        {
+          "ms": "penanda aras",
+          "zh": "基准；比较标准",
+          "en": "benchmark"
+        },
+        {
+          "ms": "penanda wacana",
+          "zh": "语篇标记；篇章衔接语",
+          "en": "discourse marker"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Prestasi tahun lalu digunakan sebagai penanda aras untuk menilai pencapaian jabatan pada tahun ini.",
+      "zh": "去年的绩效被用作评估该部门今年表现的基准。",
+      "en": "Last year's performance is used as a benchmark for assessing the department's achievements this year."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Letak penanda buku kat situ je, nanti senang nak sambung baca.",
+      "ms_standard": "Letakkan penanda buku di situ supaya mudah untuk menyambung bacaan nanti.",
+      "zh": "就在那儿夹个书签吧，等下接着看比较方便。",
+      "en": "Just put a bookmark there so you can easily pick up where you left off.",
+      "spoken_features": [
+        "letak 对应标准祈使形式 letakkan。",
+        "kat 对应地点介词 di。",
+        "je 对应 sahaja，表示“就……即可”。",
+        "nak 对应 hendak；sambung baca 是较口语化的动词组合。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同学)",
+          "ms_spoken": "Kau nampak penanda buku aku tak? Aku nak sambung baca ni.",
+          "ms_standard": "Adakah awak nampak penanda buku saya? Saya hendak menyambung bacaan sekarang.",
+          "zh": "你看到我的书签了吗？我现在想接着看。",
+          "en": "Have you seen my bookmark? I want to get back to my book."
+        },
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Ada kat atas meja tu. Aku dah letak sebelah buku kau.",
+          "ms_standard": "Penanda buku itu ada di atas meja itu. Saya sudah meletakkannya di sebelah buku awak.",
+          "zh": "在那张桌上。我已经放在你书旁边了。",
+          "en": "It's on that table. I've put it next to your book."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penanda belongs to the Malay family built around tanda, a sign or mark. Its formation turns that idea into something serving a marking function. A bookmark makes the meaning tangible, while benchmarks and discourse markers show its abstract reach: the same word helps readers locate a page, compare performance, and follow connections between ideas. [DBP: tanda](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tanda), [DBP: penanda](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penanda)",
+    "cognitive_memory_aid": "先记 tanda＝标记；peN- 把它变成“起标记作用的东西”。t 脱落：peN- + tanda → penanda；夹在书里的就是 penanda buku。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性词，适用于课堂、技术说明和职场报告。向他人借用物品时，可说 Boleh saya pinjam penanda buku ini?，语气自然礼貌。",
+    "usage_etiquette": "按用途补足限定语可避免歧义，例如 penanda buku、penanda sempadan 或 pen penanda。penanda wacana 属于语言教学术语；实际写作应按语义选用衔接语，避免只为显得正式而堆砌。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性词，适用于课堂、技术说明和职场报告。向他人借用物品时，可说 Boleh saya pinjam penanda buku ini?，语气自然礼貌。",
+    "usage_etiquette": "按用途补足限定语可避免歧义，例如 penanda buku、penanda sempadan 或 pen penanda。penanda wacana 属于语言教学术语；实际写作应按语义选用衔接语，避免只为显得正式而堆砌。"
+  }
+}

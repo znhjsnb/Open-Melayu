@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "kebarangkalian",
+    "syllables": "ke.ba.rang.ka.lian",
+    "ipa": "/kəbaraŋkalian/",
+    "jawi": "کبارڠکالين",
+    "frequency_rank": 7440,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kebarangkalian",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kebarangkalian → kebarangkalian",
+    "pattern_note": "依输入词根字段将整词作为检索基词；这不表示语言学上不可分析。构词上可联系 ke- + barangkali + -an：barangkali 表示“也许”，ke-…-an 构成抽象名词，词干无需发生辅音替换。",
+    "word_family": [
+      {
+        "word": "barangkali",
+        "affix": "∅",
+        "gloss": "也许；可能"
+      },
+      {
+        "word": "kebarangkalian",
+        "affix": "ke-…-an",
+        "gloss": "概率；可能性"
+      }
+    ],
+    "root_jawi": "کبارڠکالين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "概率；对某事件发生可能性的数值度量，通常以零至一之间的数、分数或百分比表示。",
+      "en_definition": "A numerical measure of how likely an event is to occur, expressed as a number between zero and one, a fraction, or a percentage.",
+      "ms_definition": "Pengukuran kemungkinan berlakunya sesuatu perkara atau hal yang dinyatakan dalam bentuk pecahan atau peratusan.",
+      "nuances": "数学义强调可量化的机会大小；0 表示不可能，1 表示必然。不要把概率大小直接等同于事件后果的严重程度。释义依据：[DBP PRPM：kebarangkalian](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=kebarangkalian)。",
+      "collocations": [
+        {
+          "ms": "mengira kebarangkalian",
+          "zh": "计算概率",
+          "en": "calculate probability"
+        },
+        {
+          "ms": "taburan kebarangkalian",
+          "zh": "概率分布",
+          "en": "probability distribution"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "某事发生的可能性或机会大小；不一定经过数值计算。",
+      "en_definition": "The likelihood or chance that something will happen.",
+      "ms_definition": "Kemungkinan berlakunya sesuatu perkara atau hal.",
+      "nuances": "常见于新闻、风险讨论及分析性表达；日常聊天往往用 kemungkinan 或 mungkin。此一般义亦见于 [DBP PRPM 所收《Kamus Pelajar》](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=kebarangkalian)。",
+      "collocations": [
+        {
+          "ms": "kebarangkalian tinggi",
+          "zh": "可能性很高",
+          "en": "high likelihood"
+        },
+        {
+          "ms": "kebarangkalian berlakunya banjir",
+          "zh": "发生洪灾的可能性",
+          "en": "likelihood of flooding"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Analisis ini menunjukkan bahawa kebarangkalian berlakunya kelewatan meningkat apabila jumlah pesanan bertambah.",
+      "zh": "这项分析显示，订单数量增加时，发生延误的可能性也会上升。",
+      "en": "The analysis shows that the likelihood of delays increases as the number of orders rises."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kebarangkalian dapat nombor enam ni satu per enam je, kan?",
+      "ms_standard": "Kebarangkalian mendapat nombor enam ini hanya satu per enam, bukan?",
+      "zh": "掷出六点的概率就六分之一，对吧？",
+      "en": "The chance of rolling a six is only one in six, right?",
+      "spoken_features": [
+        "ni 是 ini 的口语形式。",
+        "je 对应 sahaja，表示“仅仅”。",
+        "句末 kan? 用于请求对方确认。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku dah kira. Kebarangkalian dapat nombor enam ni satu per enam je, kan?",
+          "ms_standard": "Aku sudah mengiranya. Kebarangkalian mendapat nombor enam ini hanya satu per enam, bukan?",
+          "zh": "我算过了，掷出六点的概率就六分之一，对吧？",
+          "en": "I've worked it out. The chance of rolling a six is only one in six, right?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Haah, kalau dadu tu adil. Nak aku tunjuk cara kira?",
+          "ms_standard": "Ya, jika dadu itu adil. Adakah kamu mahu aku menunjukkan cara pengiraannya?",
+          "zh": "对，前提是骰子公平。要我给你讲怎么算吗？",
+          "en": "Yep, if the die is fair. Want me to show you how to work it out?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay mathematical vocabulary gives an everyday expression a precise technical role here. Barangkali means perhaps, while the ke-…-an frame forms an abstract noun. The connection offers a useful bridge from ordinary uncertainty to measurable chance. In a classroom, the same word can take a learner from wondering about an outcome to calculating its probability.",
+    "cognitive_memory_aid": "抓住中间的 barangkali“也许”：把“也许”放进 ke-…-an 的名词框，就想到“可能性／概率”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "该词语体中性，适合教学、报告和专业讨论；面对非专业听众时，可用 peluang 或 kemungkinan 辅助解释。",
+    "usage_etiquette": "讨论不确定结果时，应说明概率所依据的条件；表达“可能性很高”并不等于作出保证。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "该词语体中性，适合教学、报告和专业讨论；面对非专业听众时，可用 peluang 或 kemungkinan 辅助解释。",
+    "usage_etiquette": "讨论不确定结果时，应说明概率所依据的条件；表达“可能性很高”并不等于作出保证。"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "rujukan",
+    "syllables": "ru.ju.kan",
+    "ipa": "[ru.d͡ʒu.kan]",
+    "jawi": "روجوعن",
+    "frequency_rank": 7322,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "rujuk",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "rujuk + -an → rujukan",
+    "pattern_note": "后缀 -an 构成名词；词根末尾 k 保留，在 ru.ju.kan 中成为末音节的起始辅音，不发生鼻音替换。",
+    "word_family": [
+      {
+        "word": "merujuk",
+        "affix": "meN-",
+        "gloss": "查阅；参照；指向"
+      },
+      {
+        "word": "merujukkan",
+        "affix": "meN-…-kan",
+        "gloss": "提交有关方面处理或研究；转交"
+      }
+    ],
+    "root_jawi": "روجوع"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "供查阅、核实或进一步了解某事的资料、来源或参考依据。",
+      "en_definition": "A source consulted for information, clarification, or verification.",
+      "ms_definition": "Bahan atau sumber yang boleh dirujuk untuk memperoleh maklumat lanjut tentang sesuatu perkara.",
+      "nuances": "这是输入词典释义的核心义，可指书籍、文件、数据库或其他资料。untuk rujukan 表示供日后查阅，不一定表示必须照办。[DBP：rujuk 与 rujukan](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=Rujuk)",
+      "collocations": [
+        {
+          "ms": "buku rujukan",
+          "zh": "参考书",
+          "en": "reference book"
+        },
+        {
+          "ms": "bahan rujukan",
+          "zh": "参考资料",
+          "en": "reference material"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "文中标示资料出处的引注，或列出所引用来源的书目记录。",
+      "en_definition": "A citation or bibliographic reference identifying a source used in a text.",
+      "ms_definition": "Catatan yang mengenal pasti sumber yang dipetik atau digunakan dalam sesuatu penulisan.",
+      "nuances": "属于核心“参考来源”义在学术写作中的具体用法。senarai rujukan 通常指正文所引用来源的列表；具体格式依所用写作规范而定。[学术写作指南](https://fppi.uis.edu.my/images/pascasiswazah/buku-panduan-penulisan-ilmiah-gaya-kuis-peringkat-pascasiswazah.pdf)",
+      "collocations": [
+        {
+          "ms": "senarai rujukan",
+          "zh": "参考文献列表",
+          "en": "reference list"
+        },
+        {
+          "ms": "rujukan dalam teks",
+          "zh": "文内引注",
+          "en": "in-text citation"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "供识别、追踪或对应某封公函、档案或事项的参考标识，尤其用于编号。",
+      "en_definition": "An identifying reference used to locate or track correspondence, a file, or a case.",
+      "ms_definition": "Pengenal yang digunakan untuk mengesan atau menghubungkan surat, fail atau sesuatu urusan.",
+      "nuances": "常见于 nombor rujukan。公函中的 Rujukan kami 和 Rujukan tuan 分别对应发函方与收函方的有关档案参考编号，不表示学术参考文献。[马来西亚公共服务局公函指南](https://docs.jpa.gov.my/docs/myppsm/PPSM/PO/Pentadbiran-dan-Pengurusan-Pejabat/55/)",
+      "collocations": [
+        {
+          "ms": "nombor rujukan",
+          "zh": "参考编号；档案编号",
+          "en": "reference number"
+        },
+        {
+          "ms": "rujukan fail",
+          "zh": "档案参考标识",
+          "en": "file reference"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "将个案交由另一位专业人员或另一机构进一步评估、处理或治疗；医疗语境指转诊。",
+      "en_definition": "A referral of a person or case to another professional or institution for assessment, treatment, or action.",
+      "ms_definition": "Penghantaran seseorang atau sesuatu kes kepada pihak lain untuk penilaian, rawatan atau tindakan lanjut.",
+      "nuances": "这是行政与医疗领域的常见扩展用法。surat rujukan 在医疗场景是转诊信，不是求职推荐信；后者通常需按语境使用 surat sokongan 或 surat perakuan。[卫生部转诊政策用例](https://www.moh.gov.my/moh/modules_resources/database_stores/87/178.pdf)",
+      "collocations": [
+        {
+          "ms": "surat rujukan",
+          "zh": "转诊信",
+          "en": "referral letter"
+        },
+        {
+          "ms": "rujukan pesakit",
+          "zh": "患者转诊",
+          "en": "patient referral"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan lengkap dilampirkan untuk rujukan pihak tuan sebelum mesyuarat tersebut.",
+      "zh": "随函附上完整报告，供贵方在会议前参考。",
+      "en": "The full report is attached for your reference before the meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah letak bahan rujukan kat folder tu, kau tengok je nanti.",
+      "ms_standard": "Saya sudah meletakkan bahan rujukan di dalam folder itu; kamu boleh menyemaknya nanti.",
+      "zh": "我已经把参考资料放进那个文件夹了，你之后看一下就行。",
+      "en": "I've put the reference materials in that folder. Just take a look later.",
+      "spoken_features": [
+        "dah 对应 sudah；kat 对应 di 或 di dalam。",
+        "tu 对应 itu；je 对应 sahaja，表示“就……即可”。",
+        "省略 meN- 的 letak 和 tengok 是熟人聊天中的常见形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Kau dah jumpa bahan rujukan untuk tugasan ni?",
+          "ms_standard": "Adakah kamu sudah menemukan bahan rujukan untuk tugasan ini?",
+          "zh": "这份作业的参考资料，你找到了吗？",
+          "en": "Have you found any reference materials for this assignment?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Dah, aku letak kat folder kita. Nak guna, ambil je.",
+          "ms_standard": "Sudah, saya telah meletakkannya di dalam folder kita. Jika kamu hendak menggunakannya, ambillah.",
+          "zh": "找到了，我放进咱们的文件夹了。要用就直接拿吧。",
+          "en": "Yep, they're in our shared folder. Help yourself."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base rujuk is an Arabic loan associated with returning. In Malay, its meanings include returning to an earlier position and consulting a source. Adding the Malay suffix -an produces rujukan, something one turns to for information. Modern academic, administrative, and medical usage extends this network to citations, identifying references, and referrals. [DBP](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=Rujuk)",
+    "cognitive_memory_aid": "rujuk 是“回头查”，rujukan 是“拿来查的资料”；见到 surat rujukan，则把画面换成“带着信转给另一位医生”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式邮件可用 untuk rujukan pihak tuan/puan，表达“供贵方参考”。称谓应与收件人及机构惯例相符。",
+    "usage_etiquette": "学术写作中须清楚列明引用来源；行政沟通中应准确提供参考编号。谈论医疗转诊时，应根据语境区分转诊行为、转诊信和预约文件。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式邮件可用 untuk rujukan pihak tuan/puan，表达“供贵方参考”。称谓应与收件人及机构惯例相符。",
+    "usage_etiquette": "学术写作中须清楚列明引用来源；行政沟通中应准确提供参考编号。谈论医疗转诊时，应根据语境区分转诊行为、转诊信和预约文件。"
+  }
+}

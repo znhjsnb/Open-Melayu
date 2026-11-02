@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "awakkah",
+    "syllables": null,
+    "ipa": "/a.waʔ.kah/",
+    "jawi": "اوق",
+    "frequency_rank": 7382,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "awak",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "awak + -kah → awakkah",
+    "pattern_note": "-kah 是附着式疑问语气词，不是改变词类的派生后缀；按本结构归入 suffix。awak 的 k 与 -kah 的 k 均保留，形成 kk；常见读音中 awak 的末尾 k 实现为喉塞音。资料包的 اوق 仅对应 awak，按要求保留；含 -kah 的完整形式可据构词写为 اوقکه。音节字段按资料包保留 null。",
+    "word_family": [
+      {
+        "word": "berawak",
+        "affix": "ber-",
+        "gloss": "用 awak 称呼对方；另可指配有船员"
+      },
+      {
+        "word": "perawakan",
+        "affix": "peR-...-an",
+        "gloss": "体格；身形"
+      }
+    ],
+    "root_jawi": "اوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "是你吗；用于把疑问焦点放在对方身份上，询问某人是否就是对方。",
+      "en_definition": "Is it you; a question form that focuses on the addressee's identity.",
+      "ms_definition": "Bentuk awak dengan partikel -kah untuk menanyakan sama ada orang yang dimaksudkan ialah orang yang dilawan bercakap.",
+      "nuances": "awak 实际是第二人称人称代词；本输出的 pos 选项没有 pronoun，故用 noun 表示其名词性分布，不能据此把它当普通名词。awakkah 也不是单独的语气词。常见结构为 Awakkah yang ...?，含“是你而非别人吗”的焦点。释义为依据 awak 与 -kah 综合编写。[DBP：awak](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=awak)、[DBP：-kah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kah)",
+      "collocations": [
+        {
+          "ms": "awakkah yang menelefon",
+          "zh": "是你打来电话吗",
+          "en": "was it you who called"
+        },
+        {
+          "ms": "awakkah pemiliknya",
+          "zh": "你是它的主人吗",
+          "en": "are you its owner"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam sesi semakan laporan, ketua pasukan bertanya kepada rakannya, “Awakkah yang menyediakan analisis ini?”",
+      "zh": "在报告审查环节，组长问同事：“这份分析是你做的吗？”",
+      "en": "During the report review, the team leader asked a colleague, “Were you the one who prepared this analysis?”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Awakkah yang letak makanan kat meja saya tadi? Baiknya!",
+      "ms_standard": "Awakkah yang meletakkan makanan di atas meja saya tadi? Baik sungguh hati awak!",
+      "zh": "刚才是你把吃的放在我桌上的吗？真贴心！",
+      "en": "Was it you who left the food on my desk earlier? That was so kind!",
+      "spoken_features": [
+        "awakkah 保留较书面的疑问形式，在聊天中可带认真确认或俏皮语气。",
+        "更随意的同义问法是 Awak ke yang ...?，ke 在此用作口语疑问标记。",
+        "letak 代替较完整的 meletakkan。",
+        "kat 在此对应 di atas。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Awakkah yang letak makanan kat meja saya tadi? Baiknya!",
+          "ms_standard": "Awakkah yang meletakkan makanan di atas meja saya tadi? Baik sungguh hati awak!",
+          "zh": "刚才是你把吃的放在我桌上的吗？真贴心！",
+          "en": "Was it you who left the food on my desk earlier? That was so kind!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, saya. Saya beli lebih je tadi. Makanlah dulu.",
+          "ms_standard": "Ya, saya. Saya cuma membeli lebih banyak makanan tadi. Makanlah dahulu.",
+          "zh": "对，是我。刚才顺手多买了些，你先吃吧。",
+          "en": "Yes, that was me. I just picked up some extra food. Go ahead and eat."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Awak carries several established meanings in Malay, including body, self and the person being addressed. Awakkah adds the interrogative particle -kah to the personal pronoun. Its meaning is therefore compositional, rather than the result of a separate borrowing: the question singles out you as the possible person concerned. [DBP: awak](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=awak), [DBP: -kah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kah)",
+    "cognitive_memory_aid": "awak 是“你”，-kah 挂上问号：awak + kah →“是你吗？”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "awak 常用于同辈或熟悉的人；面对长辈、客户或职位较高者，宜按关系使用姓名、职衔、Encik、Puan 或其他合适称谓。加上 -kah 不会自动提升称呼的敬意。[DBP：awak 的称呼用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=awak)",
+    "usage_etiquette": "身份确认时自然；若后接指责内容，Awakkah yang ...? 容易像质问。敏感场合可先说 Maaf, saya ingin memastikan ...，再提出问题。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "awak 常用于同辈或熟悉的人；面对长辈、客户或职位较高者，宜按关系使用姓名、职衔、Encik、Puan 或其他合适称谓。加上 -kah 不会自动提升称呼的敬意。[DBP：awak 的称呼用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=awak)",
+    "usage_etiquette": "身份确认时自然；若后接指责内容，Awakkah yang ...? 容易像质问。敏感场合可先说 Maaf, saya ingin memastikan ...，再提出问题。"
+  }
+}

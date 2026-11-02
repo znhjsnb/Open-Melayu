@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "server",
+    "syllables": "ser.ver",
+    "ipa": "/sər.vər/",
+    "jawi": "سرۏر",
+    "frequency_rank": 7470,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "server",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + server → server",
+    "pattern_note": "在马来语中作为英语整词借入，不把 -er 当作马来语后缀。所列 IPA 为马来语适应读音；英语夹用时可能保留英语读音。",
+    "word_family": [],
+    "root_jawi": "سرۏر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "服务器；在计算机网络中向其他设备或程序提供数据、资源或服务的计算机系统或程序。",
+      "en_definition": "A computer system or program that provides data, resources, or services to other computers or programs.",
+      "ms_definition": "Pelayan dalam bidang komputer; sistem komputer atau atur cara yang menyediakan data, sumber atau perkhidmatan kepada klien.",
+      "nuances": "资料包中的 DBP 释义为“(Komp) bp pelayan”：Komp 表示计算机领域，bp 表示口语。此处马来文在该释义基础上作解释性扩写。正式马来文通常采用 pelayan。本条不把英语中“服务员”等其他义项直接移植为马来语义项。",
+      "collocations": [
+        {
+          "ms": "server web",
+          "zh": "网页服务器",
+          "en": "web server"
+        },
+        {
+          "ms": "server pangkalan data",
+          "zh": "数据库服务器",
+          "en": "database server"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Gangguan pada server pangkalan data telah menjejaskan capaian pengguna kepada sistem.",
+      "zh": "数据库服务器故障影响了用户访问系统。",
+      "en": "A database server disruption has affected users' access to the system."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Server dah pulih ke? Aku nak hantar fail ni.",
+      "ms_standard": "Adakah pelayan sudah kembali berfungsi? Saya mahu menghantar fail ini.",
+      "zh": "服务器恢复了吗？我要上传这个文件。",
+      "en": "Is the server back up? I need to upload this file.",
+      "spoken_features": [
+        "server：日常技术交流中的英语借词，标准对应词为 pelayan",
+        "dah 对应 sudah",
+        "ke：口语疑问标记",
+        "nak 对应 mahu",
+        "ni 对应 ini"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Server dah pulih ke? Aku nak hantar fail ni.",
+          "ms_standard": "Adakah pelayan sudah kembali berfungsi? Saya mahu menghantar fail ini.",
+          "zh": "服务器恢复了吗？我要上传这个文件。",
+          "en": "Is the server back up? I need to upload this file."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, cuba je sekarang. Aku dah boleh masuk.",
+          "ms_standard": "Ya, pelayan sudah kembali berfungsi. Cuba akses sistem sekarang; saya sudah berjaya mengaksesnya.",
+          "zh": "恢复了，你现在试试吧。我已经能进去了。",
+          "en": "Yeah, give it a try now. I can get in."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Server is borrowed from English, where the computing term evokes something that serves other machines or programs. Malay also expresses that service metaphor through pelayan. The borrowed form is familiar in technical conversation, but Kamus Dewan marks it as colloquial and directs readers to pelayan, giving learners a useful distinction between everyday workplace speech and formal terminology. [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=83916&keyword=server)",
+    "cognitive_memory_aid": "把 server 联想到“提供服务”：其他设备提出请求，它送回网页或数据；正式马来文对应 pelayan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "server 在技术团队交流中自然，并无失礼意味。面向公众、政府机构或正式报告时，优先使用 pelayan；必要时首次写作 pelayan (server)。",
+    "usage_etiquette": "正式场景例句保留目标词以便识别，实际公文宜将 server pangkalan data 改为 pelayan pangkalan data。与非技术用户交流时，应说明是哪个系统无法访问。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "server 在技术团队交流中自然，并无失礼意味。面向公众、政府机构或正式报告时，优先使用 pelayan；必要时首次写作 pelayan (server)。",
+    "usage_etiquette": "正式场景例句保留目标词以便识别，实际公文宜将 server pangkalan data 改为 pelayan pangkalan data。与非技术用户交流时，应说明是哪个系统无法访问。"
+  }
+}

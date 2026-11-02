@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "pom",
+    "syllables": null,
+    "ipa": "/pom/",
+    "jawi": null,
+    "frequency_rank": 7354,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pom",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pom → pom；方言助词义对应标准语 pun",
+    "pattern_note": "应区分方言助词与拟声形式，两者不必具有共同词源。/pom/ 在此标示拟声形式；不能据拼写断定方言助词的唯一读音。方言对应关系不是加缀规则。",
+    "word_family": [
+      {
+        "word": "pun",
+        "affix": null,
+        "gloss": "方言助词义的标准语对应形式：也；连……都"
+      },
+      {
+        "word": "pom-pom",
+        "affix": null,
+        "gloss": "连续的喇叭拟声形式；属于重叠"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "也；连……都。部分吉兰丹方言文字交流中对应标准马来语 pun 的助词。",
+      "en_definition": "A dialectal written form corresponding to pun, expressing addition or emphasis: too; even.",
+      "ms_definition": "Bentuk dialek yang sepadan dengan partikel pun, untuk menyatakan tambahan atau penegasan mengikut konteks.",
+      "nuances": "此用法见于吉兰丹方言 WhatsApp 语料，不应推广为全国通行的规范拼写。具体可译“也”还是“连……都”，取决于句法和语境。资料包没有原句，因此不能断定其词频记录必属此义。马来文释义为编写释义。[吉兰丹方言 WhatsApp 研究](https://ejournal.ukm.my/akademika/article/viewFile/31245/9261)",
+      "collocations": [
+        {
+          "ms": "aku pom",
+          "zh": "我也（方言）",
+          "en": "me too; I also"
+        },
+        {
+          "ms": "sikit pom",
+          "zh": "连一点也……（方言，常用于否定句）",
+          "en": "even a little"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "“嘟”一类的拟声形式，用来模仿汽车喇叭声，常重复使用。",
+      "en_definition": "An imitation of a car horn, commonly repeated: honk; beep.",
+      "ms_definition": "Tiruan bunyi hon kereta, lazimnya diulang sebagai pom-pom.",
+      "nuances": "常见于儿歌、游戏和声音模仿；在 bunyi pom 等结构中可作声音名称，故本结构归为 noun。它与方言 pun 的对应形式须按上下文区分。儿歌 Bapaku Pulang dari Kota 中可见重复的 pom。[儿歌语言分析中的例子](https://linguistikdanrazni.wordpress.com/2017/03/01/kata-nama-dan-kata-tugas/)",
+      "collocations": [
+        {
+          "ms": "bunyi pom",
+          "zh": "“嘟”的声音",
+          "en": "a honking sound"
+        },
+        {
+          "ms": "pom-pom",
+          "zh": "嘟嘟",
+          "en": "honk-honk"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报：方言助词 pom 改用标准语 pun",
+      "ms": "Saya pun akan menghadiri taklimat tersebut esok.",
+      "zh": "我明天也会出席那场说明会。",
+      "en": "I will also attend the briefing tomorrow."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 使用吉兰丹方言形式的朋友聊天",
+      "ms_spoken": "Aku pom nak ikut esok, boleh?",
+      "ms_standard": "Saya pun hendak ikut esok. Bolehkah?",
+      "zh": "我明天也想一起去，可以吗？",
+      "en": "I'd like to come along tomorrow too. Is that okay?",
+      "spoken_features": [
+        "pom 在此是对应 pun 的方言文字形式。",
+        "nak 对应 hendak，aku 用于熟人之间。",
+        "此例混用方言助词与较广泛的马来语口语形式，不代表完整的吉兰丹方言转写。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Aku nak pergi pasar malam esok. Kau nak ikut?",
+          "ms_standard": "Saya hendak pergi ke pasar malam esok. Adakah awak hendak ikut?",
+          "zh": "我明天想去夜市。你要一起吗？",
+          "en": "I'm going to the night market tomorrow. Want to come?"
+        },
+        {
+          "speaker": "Amin (朋友)",
+          "ms_spoken": "Aku pom nak ikut. Jumpa kat rumah kau je?",
+          "ms_standard": "Saya pun hendak ikut. Bolehkah kita berjumpa di rumah awak sahaja?",
+          "zh": "我也想去。就在你家碰面，可以吗？",
+          "en": "I'd like to come too. Shall we just meet at your place?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pom has more than one explanation in Malaysian material. Kelantanese messaging records it where standard Malay uses pun, showing how local speech enters informal writing. Separately, children's songs use repeated pom to imitate a car horn. These uses should remain distinct: identical spelling alone does not establish a shared historical origin. [Dialect evidence](https://ejournal.ukm.my/akademika/article/viewFile/31245/9261)",
+    "cognitive_memory_aid": "先看上下文：aku pom 中把 pom 换成 pun，记“我也”；汽车儿歌里的 pom-pom 则听成“嘟嘟”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "方言 pom 可体现熟悉感和地方认同；与不熟悉该方言的人交流时，使用 pun 更容易理解。",
+    "usage_etiquette": "正式公文中的助词义用 pun；模仿喇叭声时可保留 pom。不要仅凭这个小写词形，把它自动解释为 pam“泵”、外语词或大写缩写 POM。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "方言 pom 可体现熟悉感和地方认同；与不熟悉该方言的人交流时，使用 pun 更容易理解。",
+    "usage_etiquette": "正式公文中的助词义用 pun；模仿喇叭声时可保留 pom。不要仅凭这个小写词形，把它自动解释为 pam“泵”、外语词或大写缩写 POM。"
+  }
+}

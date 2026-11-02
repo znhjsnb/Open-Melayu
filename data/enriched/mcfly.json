@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "mcfly",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 7411,
+    "status": "proper_name"
+  },
+  "editorial_note": "可识别的专名形式为 McFly，但缺少原句，无法确认输入字符串是否指该乐队、其他名称或标识符。以下仅提供以英国乐队 McFly 为指称的条件性条目，不将其认定为官方马来语普通词。输入小写键保留；专名例句采用 McFly。",
+  "morphology": {
+    "is_root": true,
+    "root_word": "mcfly",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "McFly → McFly（专名整体保留；输入形式为 mcfly）",
+    "pattern_note": "不作马来语词缀拆分；不得将 fly 直接解释为此名称在马来语中的词义。is_root 仅沿用输入标记。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "McFly：英国流行摇滚乐队的名称；此释义仅在原文确实指该乐队时适用。",
+      "en_definition": "McFly, an English pop-rock band; applicable only when the context identifies this referent.",
+      "ms_definition": "Nama khas sebuah kumpulan muzik pop rock dari England; tafsiran ini hanya terpakai jika konteks merujuk kepada kumpulan tersebut.",
+      "nuances": "词性 noun 在此表示专有名词。乐队身份可参见 [McFly](https://en.wikipedia.org/wiki/McFly)，但该来源不能确定输入 token 的具体指称。以下是乐队语境中的示例搭配，不作高频断言；马来语释义为编写说明，非 DBP 官方词条。",
+      "collocations": [
+        {
+          "ms": "lagu McFly",
+          "zh": "McFly 的歌曲",
+          "en": "a song by McFly"
+        },
+        {
+          "ms": "peminat McFly",
+          "zh": "McFly 的歌迷",
+          "en": "a McFly fan"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 假设的音乐节目选曲讨论",
+      "ms": "Pasukan produksi mencadangkan sebuah lagu McFly untuk segmen muzik program itu.",
+      "zh": "制作团队建议在该节目的音乐环节使用一首 McFly 的歌曲。",
+      "en": "The production team proposed a McFly song for the programme's music segment."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 讨论音乐；假定指乐队",
+      "ms_spoken": "Aku nak dengar lagu McFly kejap.",
+      "ms_standard": "Saya hendak mendengar lagu McFly sebentar.",
+      "zh": "我想听会儿 McFly 的歌。",
+      "en": "I feel like listening to some McFly for a bit.",
+      "spoken_features": [
+        "nak 对应 hendak。",
+        "kejap 对应 sebentar。",
+        "专名 McFly 在马来语句中保留原有拼写。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau pernah dengar lagu McFly tak?",
+          "ms_standard": "Adakah kamu pernah mendengar lagu McFly?",
+          "zh": "你听过 McFly 的歌吗？",
+          "en": "Have you ever listened to McFly?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Pernah. Aku nak dengar lagi malam ni.",
+          "ms_standard": "Pernah. Saya hendak mendengarnya lagi pada malam ini.",
+          "zh": "听过。我今晚还想再听听。",
+          "en": "Yes. I feel like listening to them again tonight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "McFly is attested as the name of an English pop-rock band, which gives one possible cultural setting for this token. A band name can appear unchanged inside a Malay sentence without acquiring Malay morphology. However, an isolated lowercase spelling cannot identify its source or referent, so no particular naming history should be assigned to this occurrence. [McFly](https://en.wikipedia.org/wiki/McFly)",
+    "cognitive_memory_aid": "若原句指乐队，就把 McFly 整体联想成唱片封面上的名字；不要按 fly 拆译。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论音乐喜好时语气中性；面对不熟悉该名称的人，可先说明“kumpulan muzik McFly”。",
+    "usage_etiquette": "指乐队时采用 McFly 的大小写。引用用户名、文件名或其他标识符时，应保留原文，并根据上下文另行确认指称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论音乐喜好时语气中性；面对不熟悉该名称的人，可先说明“kumpulan muzik McFly”。",
+    "usage_etiquette": "指乐队时采用 McFly 的大小写。引用用户名、文件名或其他标识符时，应保留原文，并根据上下文另行确认指称。"
+  }
+}

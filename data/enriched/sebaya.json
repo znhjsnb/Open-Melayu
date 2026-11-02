@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "sebaya",
+    "syllables": "se.ba.ya",
+    "ipa": "/sə.ba.ja/",
+    "jawi": "سباي",
+    "frequency_rank": 7421,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sebaya",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sebaya → sebaya",
+    "pattern_note": "以上根词字段依输入包保留；但 DBP 在 baya（年龄）条下列出 sebaya，支持 se- + baya → sebaya 的构词分析，其中 se- 表示“相同”，b 保留，se- 读 /sə/。数据库根词标注与语言学分析应加以区分。",
+    "word_family": [
+      {
+        "word": "baya",
+        "affix": "∅",
+        "gloss": "年龄；sebaya 的构词基础"
+      },
+      {
+        "word": "separuh baya",
+        "affix": "无；短语组合",
+        "gloss": "中年；与 baya 共享词根的相关短语"
+      }
+    ],
+    "root_jawi": "سباي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "同龄的；年龄相同或相近的。",
+      "en_definition": "Of the same or approximately the same age.",
+      "ms_definition": "Seumur atau sama umurnya.",
+      "nuances": "最常用于人与人的年龄比较。sebaya dengan 表示“与……同龄”；rakan sebaya 指年龄相近的同伴，不要求生日或出生年份完全相同。它本身不表示地位、资历或能力相同。义项依据 [DBP PRPM：sebaya](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sebaya)。",
+      "collocations": [
+        {
+          "ms": "rakan sebaya",
+          "zh": "同龄伙伴",
+          "en": "peers"
+        },
+        {
+          "ms": "sebaya dengan saya",
+          "zh": "与我同龄",
+          "en": "the same age as me"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "大小、高度等相同或相近的。",
+      "en_definition": "Of equal or comparable size, height, or other physical dimensions.",
+      "ms_definition": "Sama atau hampir sama dari segi besar, tinggi dan sebagainya.",
+      "nuances": "这是 DBP 收录的另一义项，可用于房屋、植物等事物。现代日常表达中，若要明确比较尺寸，sama besar 或 sama tinggi 通常更直接；不可将此义泛化为任何性质都相同。",
+      "collocations": [
+        {
+          "ms": "hampir sebaya tingginya",
+          "zh": "高度差不多",
+          "en": "almost equal in height"
+        },
+        {
+          "ms": "rumah-rumah yang sebaya",
+          "zh": "大小相近的房屋",
+          "en": "houses of comparable size"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育报告 / 学生发展",
+      "ms": "Program pembimbing rakan sebaya ini bertujuan membantu murid memberikan sokongan emosi kepada rakan mereka.",
+      "zh": "这项同伴辅导计划旨在帮助学生为同龄伙伴提供情绪支持。",
+      "en": "This peer mentoring programme aims to help pupils provide emotional support to their peers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聊年龄",
+      "ms_spoken": "Eh, kita sebaya rupanya! Aku ingat kau muda lagi.",
+      "ms_standard": "Rupa-rupanya kita sebaya! Saya menyangka kamu lebih muda.",
+      "zh": "咦，原来我们同龄啊！我还以为你比较年轻。",
+      "en": "Oh, we're the same age! I thought you were younger.",
+      "spoken_features": [
+        "eh：表示惊讶或突然发现",
+        "aku、kau：熟人间使用的人称代词",
+        "muda lagi：此处以口语语序表达“更年轻”，标准表达为 lebih muda"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah umur dua puluh lima juga ke?",
+          "ms_standard": "Adakah kamu juga sudah berumur dua puluh lima tahun?",
+          "zh": "你也已经二十五岁了吗？",
+          "en": "Are you twenty-five too?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, kita sebaya rupanya! Aku ingat kau muda lagi.",
+          "ms_standard": "Ya, rupa-rupanya kita sebaya! Saya menyangka kamu lebih muda.",
+          "zh": "对啊，原来我们同龄！我还以为你比较年轻。",
+          "en": "Yeah, turns out we're the same age! I thought you were younger."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records baya as a word for age and lists sebaya beneath it. This supports an analysis combining se-, expressing sameness, with baya. The familiar meaning concerns equal age, while the dictionary also records comparable physical size or height. These relationships explain the word without requiring an unsupported account of its earliest origin. See [DBP PRPM: baya](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=baya).",
+    "cognitive_memory_aid": "se- 想成“相同”，baya 是“年龄”：sebaya 就是“同龄”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "同龄不代表可以立即使用 aku、kau；初次见面或职场交流仍应根据关系使用 saya、姓名或适当称谓。",
+    "usage_etiquette": "可自然用于同伴关系和教育语境。询问年龄或评价别人显老、显年轻可能涉及隐私，应视熟悉程度措辞。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "同龄不代表可以立即使用 aku、kau；初次见面或职场交流仍应根据关系使用 saya、姓名或适当称谓。",
+    "usage_etiquette": "可自然用于同伴关系和教育语境。询问年龄或评价别人显老、显年轻可能涉及隐私，应视熟悉程度措辞。"
+  }
+}
