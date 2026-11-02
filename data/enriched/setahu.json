@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "setahu",
+    "syllables": "se.ta.hu",
+    "ipa": "/sə.ta.hu/",
+    "jawi": "ستاهو",
+    "frequency_rank": 8542,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tahu",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + tahu → setahu",
+    "pattern_note": "前缀 se- 的 e 读央元音 /ə/；与 tahu 直接结合，词根的辅音和元音保持不变。此处表示所知的范围，不表示数量“一”。",
+    "word_family": [
+      {
+        "word": "mengetahui",
+        "affix": "meN-...-i",
+        "gloss": "知道；获悉；了解"
+      },
+      {
+        "word": "pengetahuan",
+        "affix": "peN-...-an",
+        "gloss": "知识；所知的内容"
+      }
+    ],
+    "root_jawi": "تاهو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "据某人所知；在某人知道或了解的范围内。",
+      "en_definition": "As far as a specified person knows; to the extent of that person's knowledge.",
+      "ms_definition": "Sepanjang atau sebanyak yang dimaklumi.",
+      "nuances": "通常后接 saya、kami、aku 等，或接代词附着形式构成 setahuku、setahunya。用于限定陈述的知识范围，允许信息不完整，并不等于完全没有把握。词义依据：[DBP PRPM：setahu](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=setahu)。",
+      "collocations": [
+        {
+          "ms": "setahu saya",
+          "zh": "据我所知",
+          "en": "as far as I know"
+        },
+        {
+          "ms": "setahu kami",
+          "zh": "据我们所知",
+          "en": "to our knowledge"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "在某人知情或见证的情况下；与否定词连用时表示瞒着某人、未让某人知情。",
+      "en_definition": "With someone's knowledge or in someone's presence as a witness; with negation, without someone's knowledge.",
+      "ms_definition": "Dengan dimaklumi atau disaksikan oleh seseorang.",
+      "nuances": "常见于 tanpa setahu… 和 dengan tidak setahu…。这里说明当事人是否知情；知情不自动表示批准或同意，明确表达许可应使用 kebenaran。",
+      "collocations": [
+        {
+          "ms": "tanpa setahu saya",
+          "zh": "在我不知情的情况下",
+          "en": "without my knowledge"
+        },
+        {
+          "ms": "tanpa setahu ibu bapa",
+          "zh": "瞒着父母",
+          "en": "without the parents' knowledge"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "不知道；谁知道呢。作为口语应答表示无法回答。",
+      "en_definition": "An informal response expressing ignorance or uncertainty: I don't know; who knows.",
+      "ms_definition": "Bahasa percakapan: saya tidak tahu; entah.",
+      "nuances": "《Kamus Dewan》将此义标为 bp，即口语。须与 setahu saya“据我所知”区别理解。本义不宜当作普遍通用的首选答语；下面列出独立应答及应答组合，不代表高频固定搭配。",
+      "collocations": [
+        {
+          "ms": "Setahu!",
+          "zh": "不知道！",
+          "en": "Who knows!"
+        },
+        {
+          "ms": "Setahu, aku pun tak tahu.",
+          "zh": "谁知道呢，我也不知道。",
+          "en": "Who knows? I don't know either."
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Setahu saya, pihak pengurusan belum meluluskan sebarang perubahan pada jadual pelaksanaan projek.",
+      "zh": "据我所知，管理层尚未批准对项目实施时间表作出任何修改。",
+      "en": "To my knowledge, management has not approved any changes to the project implementation schedule."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Setahu aku, kedai tu kat sebelah bank je.",
+      "ms_standard": "Setahu saya, kedai itu terletak betul-betul di sebelah bank.",
+      "zh": "据我所知，那家店就在银行旁边。",
+      "en": "As far as I know, the shop is right next to the bank.",
+      "spoken_features": [
+        "aku：熟人之间使用的第一人称代词；标准对应句改用 saya。",
+        "tu：itu 的口语缩略形式。",
+        "kat：口语位置标记，此处对应 di。",
+        "je：sahaja 的口语缩略形式，此处加强“就在旁边”的语气。",
+        "dah：sudah 的口语缩略形式，表示已经。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Setahu aku, kedai tu kat sebelah bank je. Kau dah sampai ke?",
+          "ms_standard": "Setahu saya, kedai itu terletak betul-betul di sebelah bank. Adakah awak sudah sampai?",
+          "zh": "据我所知，那家店就在银行旁边。你到了吗？",
+          "en": "As far as I know, the shop is right next to the bank. Are you there yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, tapi kedai tu tutup lah. Kat pintu ada notis kata dah pindah.",
+          "ms_standard": "Saya sudah sampai, tetapi kedai itu tutup. Terdapat notis pada pintu yang menyatakan bahawa kedai itu sudah berpindah.",
+          "zh": "到了，可是店关着呢。门上贴了通知，说已经搬走了。",
+          "en": "Yes, but it's closed. There's a notice on the door saying they've moved."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Setahu is transparently formed from se- and tahu, meaning 'know'. Its dictionary senses connect two perspectives: the limits of a person's knowledge and whether an event happens within that person's awareness. Kamus Dewan records a literary example with setahuku, while setahu saya remains useful in modern conversation and workplace reporting. The continuity illustrates how a compact Malay formation can serve both narrative and everyday interaction.",
+    "cognitive_memory_aid": "把 tahu“知道”想成一圈知识光照：setahu saya＝“在我知道的光圈内”；tanpa setahu saya＝“事情发生在我的光圈外，我不知情”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向上司、长辈或不熟悉的人说明情况时，setahu saya 自然且得体，也能为对方补充或纠正信息留出余地。setahu aku 适合熟人交流；礼貌程度主要取决于代词、语气和双方关系。",
+    "usage_etiquette": "需要明确承担事实责任时，可补充资料来源或核实结果，避免只用 setahu saya 回答。tanpa setahu… 可能暗示隐瞒，谈论同事或家人时应依据实际情况使用。第三义的独立答语容易显得敷衍；正式场合宜说 Saya tidak pasti 或 Saya belum mendapat maklumat tentang perkara itu。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向上司、长辈或不熟悉的人说明情况时，setahu saya 自然且得体，也能为对方补充或纠正信息留出余地。setahu aku 适合熟人交流；礼貌程度主要取决于代词、语气和双方关系。",
+    "usage_etiquette": "需要明确承担事实责任时，可补充资料来源或核实结果，避免只用 setahu saya 回答。tanpa setahu… 可能暗示隐瞒，谈论同事或家人时应依据实际情况使用。第三义的独立答语容易显得敷衍；正式场合宜说 Saya tidak pasti 或 Saya belum mendapat maklumat tentang perkara itu。"
+  }
+}

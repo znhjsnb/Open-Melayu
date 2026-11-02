@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "disekat",
+    "syllables": null,
+    "ipa": "/di.sə.kat/",
+    "jawi": null,
+    "frequency_rank": 8695,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sekat",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + sekat → disekat",
+    "pattern_note": "纠正输入中的词根误标：disekat 是 sekat 加被动前缀 di- 的派生形式。di- 不引起词根首辅音变化，须与词根连写；它本身不表示过去时。",
+    "word_family": [
+      {
+        "word": "menyekat",
+        "affix": "meN-",
+        "gloss": "阻挡；限制；用隔板分隔"
+      },
+      {
+        "word": "sekatan",
+        "affix": "-an",
+        "gloss": "障碍；限制；封锁"
+      },
+      {
+        "word": "tersekat",
+        "affix": "ter-",
+        "gloss": "受阻；卡住"
+      },
+      {
+        "word": "penyekat",
+        "affix": "peN-",
+        "gloss": "阻挡物；隔板；阻断装置"
+      }
+    ],
+    "root_jawi": "سکت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被挡住、被阻止通过或继续前进；也指扩散或蔓延受到遏制。",
+      "en_definition": "To be blocked or prevented from passing or advancing; to have one's spread contained.",
+      "ms_definition": "Dihalang daripada melalui sesuatu atau bergerak maju, atau ditahan supaya tidak merebak atau melimpah.",
+      "nuances": "是 menyekat 的被动形式，既可用于道路、行进等具体情境，也可用于遏制扩散。与强调受阻状态的 tersekat 有别。释义依据 [PRPM 的 sekat／menyekat](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sekat)转换为被动表达。",
+      "collocations": [
+        {
+          "ms": "laluan disekat",
+          "zh": "通道被封堵",
+          "en": "the passage is blocked"
+        },
+        {
+          "ms": "kemaraan disekat",
+          "zh": "前进受到阻挡",
+          "en": "the advance is halted"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被限制或禁止使用、访问、联系或进行某项活动。",
+      "en_definition": "To be restricted or barred from access, use, communication, or an activity.",
+      "ms_definition": "Dikenakan halangan atau batasan terhadap akses, penggunaan, perhubungan atau kegiatan.",
+      "nuances": "是“阻止、限制”义在网络和行政语境中的常见应用。账号 disekat 不必然表示永久封禁，具体范围和期限须由上下文说明。本义由 [PRPM 的 menyekat“限制、阻止”义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sekat)引申。",
+      "collocations": [
+        {
+          "ms": "akses disekat",
+          "zh": "访问受到限制",
+          "en": "access is blocked"
+        },
+        {
+          "ms": "akaun disekat",
+          "zh": "账号被封锁或限制",
+          "en": "an account is blocked"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被用隔板、帘幕或墙体分隔成不同空间。",
+      "en_definition": "To be partitioned or divided into separate spaces by a barrier.",
+      "ms_definition": "Dibahagi atau dipisahkan dengan menggunakan sekat seperti dinding atau tabir.",
+      "nuances": "常以 disekat menjadi 说明分隔后的结果，以 disekat dengan 说明分隔材料。此义强调空间划分，依据 [PRPM 的 menyekat 第一义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sekat)。",
+      "collocations": [
+        {
+          "ms": "disekat menjadi beberapa bilik",
+          "zh": "被分隔成几个房间",
+          "en": "partitioned into several rooms"
+        },
+        {
+          "ms": "disekat dengan tabir",
+          "zh": "被帘幕分隔",
+          "en": "partitioned with a curtain"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 办公网络通知",
+      "ms": "Akses ke laman web tersebut disekat bagi melindungi keselamatan rangkaian pejabat.",
+      "zh": "为保障办公室网络安全，对该网站的访问受到限制。",
+      "en": "Access to the website is blocked to protect the office network."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事排查访问问题",
+      "ms_spoken": "Laman tu disekat kat pejabat kita ke?",
+      "ms_standard": "Adakah akses ke laman web itu disekat di pejabat kita?",
+      "zh": "那个网站在我们办公室被屏蔽了吗？",
+      "en": "Is that website blocked at our office?",
+      "spoken_features": [
+        "tu、kat、dah、nak 分别对应 itu、di、sudah、mahu。",
+        "句末 ke 表示口语疑问。",
+        "口语可用 laman tu disekat，标准表达可补足为 akses ke laman web itu disekat。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Laman tu disekat kat pejabat kita ke? Aku dah cuba buka, tapi tak boleh.",
+          "ms_standard": "Adakah akses ke laman web itu disekat di pejabat kita? Saya sudah cuba membukanya, tetapi tidak berjaya.",
+          "zh": "那个网站在我们办公室被屏蔽了吗？我试着打开了，可是打不开。",
+          "en": "Is that website blocked at our office? I've tried opening it, but it won't load."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Tak pasti lagi. Aku nak tanya pihak IT dulu.",
+          "ms_standard": "Saya belum pasti. Saya mahu bertanya kepada pihak teknologi maklumat terlebih dahulu.",
+          "zh": "还不确定，我先问问信息技术部门。",
+          "en": "I'm not sure yet. I'll check with IT first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Disekat is a transparent Malay formation rather than an indivisible root. Sekat names a partition or obstacle, while menyekat covers partitioning, blocking and containing. Adding passive di- presents the affected entity as the sentence's focus. Digital uses preserve that barrier image: access to a website can be blocked just as a physical passage can. [PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sekat)",
+    "cognitive_memory_aid": "di- 记作“被”，sekat 想成一道隔板：disekat 就是“被隔住、被挡住”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "职场说明可用 Akses disekat 或 Akaun disekat，先描述情况。若要说明责任方，再补充 oleh 后的施事者。",
+    "usage_etiquette": "适用于道路、网络、行政限制及空间分隔。Saya disekat oleh dia 在社交媒体语境可表示“我被对方拉黑”，但其他情境也可能指实际被拦住，应补足上下文。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "职场说明可用 Akses disekat 或 Akaun disekat，先描述情况。若要说明责任方，再补充 oleh 后的施事者。",
+    "usage_etiquette": "适用于道路、网络、行政限制及空间分隔。Saya disekat oleh dia 在社交媒体语境可表示“我被对方拉黑”，但其他情境也可能指实际被拦住，应补足上下文。"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "jax",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 8691,
+    "status": "unverified",
+    "status_note": "未核实为标准马来语普通词，不能标记为官方马来语词条。可核实的技术用法是占碑马来语的 ISO 639-3 代码；以下仅说明该代码用法，不能据此确定原始语料中的含义。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "jax",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + jax → jax（完整语言代码，不作马来语词缀拆分）",
+    "pattern_note": "is_root 沿用数据包对独立字符串的标记，不构成马来语词根认证。作为语言代码，没有在本次材料中得到核实的词汇读音、音节划分或爪夷拼写。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "语言标识符：ISO 639-3 中用于标识占碑马来语的三字母代码。",
+      "en_definition": "The ISO 639-3 language identifier for Jambi Malay.",
+      "ms_definition": "Kod bahasa ISO 639-3 yang mengenal pasti bahasa Melayu Jambi.",
+      "nuances": "此处 noun 仅表示代码名称在句中具有名词性功能。马来语释义为编辑说明，并非 DBP 官方释义。该代码对应关系可核实，但不能证明输入字符串在原文中采用这一含义，也不能证明它是普通马来语词。[Glottolog：Jambi Malay](https://glottolog.org/resource/languoid/id/jamb1236)",
+      "collocations": [
+        {
+          "ms": "kod bahasa jax",
+          "zh": "语言代码 jax",
+          "en": "the language code jax"
+        },
+        {
+          "ms": "label bahasa jax",
+          "zh": "语言标签 jax",
+          "en": "the language label jax"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：语言资料编目",
+      "ms": "Dalam katalog ini, kod jax digunakan untuk mengenal pasti bahan dalam bahasa Melayu Jambi.",
+      "zh": "在本目录中，代码 jax 用于标识占碑马来语资料。",
+      "en": "In this catalogue, the code jax identifies materials in Jambi Malay."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：讨论语言标签",
+      "ms_spoken": "Kod jax kat fail ni untuk bahasa Melayu Jambi, kan?",
+      "ms_standard": "Kod jax dalam fail ini merujuk kepada bahasa Melayu Jambi, bukan?",
+      "zh": "这个文件里的 jax 代码，指的是占碑马来语，对吧？",
+      "en": "The jax code in this file means Jambi Malay, right?",
+      "spoken_features": [
+        "kat 在此口语语境中对应 dalam",
+        "ni 是 ini 的口语形式",
+        "kan 用于请求确认",
+        "例句讨论代码本身，不赋予它普通词义"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Kod jax kat fail ni untuk bahasa Melayu Jambi, kan?",
+          "ms_standard": "Kod jax dalam fail ini merujuk kepada bahasa Melayu Jambi, bukan?",
+          "zh": "这个文件里的 jax 代码，指的是占碑马来语，对吧？",
+          "en": "The jax code in this file means Jambi Malay, right?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, aku dah semak. Letak nama bahasa sekali je supaya orang faham.",
+          "ms_standard": "Ya, saya sudah menyemaknya. Sertakan juga nama bahasa supaya pembaca memahaminya.",
+          "zh": "对，我查过了。顺便把语言名称也写上，大家就看得懂了。",
+          "en": "Yes, I checked. Just include the language name too so people understand."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Unlike the other entries, jax has a documented role as a language identifier rather than an established ordinary Malay word. Glottolog associates this ISO 639-3 code with Jambi Malay. That administrative function explains its appearance in language catalogues, but does not supply a lexical etymology, a standard pronunciation, or evidence that this interpretation fits the original input context. [Glottolog: Jambi Malay](https://glottolog.org/resource/languoid/id/jamb1236)",
+    "cognitive_memory_aid": "把 jax 当作语言的编号牌：联想 Jambi 的 J，记住“占碑马来语代码”；这只是记忆提示，不是代码来源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "面向普通读者时先写 bahasa Melayu Jambi，再附代码 jax，避免只用代码使人难以理解。",
+    "usage_etiquette": "适用于语言学、编目和资料标注。脱离这些语境时，应先核实原文所指；不要自行补造普通词义、读音、爪夷拼写或派生词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "面向普通读者时先写 bahasa Melayu Jambi，再附代码 jax，避免只用代码使人难以理解。",
+    "usage_etiquette": "适用于语言学、编目和资料标注。脱离这些语境时，应先核实原文所指；不要自行补造普通词义、读音、爪夷拼写或派生词。"
+  }
+}

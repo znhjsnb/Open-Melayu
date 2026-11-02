@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "shell",
+    "syllables": null,
+    "ipa": "/ʃel/",
+    "jawi": null,
+    "frequency_rank": 8667,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "shell",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + shell → shell",
+    "pattern_note": "英语整词，在马来语技术交流中可直接使用；无马来语词缀变化。IPA采用英语读音，下列词族项目为技术复合搭配。",
+    "word_family": [
+      {
+        "word": "skrip shell",
+        "affix": "∅",
+        "gloss": "shell脚本；复合术语"
+      },
+      {
+        "word": "shell Unix",
+        "affix": "∅",
+        "gloss": "Unix命令解释器；复合术语"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "（计算机）命令解释器；接收并解释命令、调用程序的用户交互程序。",
+      "en_definition": "A command interpreter that accepts commands and invokes programs, interactively or from scripts.",
+      "ms_definition": "Program pentafsir perintah yang menerima dan mentafsir arahan pengguna serta menjalankan perintah atau program.",
+      "nuances": "英语技术术语，常见于马来西亚资讯科技交流。Bash 是一种 shell；terminal 通常指承载交互的终端或终端程序，两者不能直接画等号。此处马来文为编写释义，并非DBP引文。[GNU Bash手册](https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html)",
+      "collocations": [
+        {
+          "ms": "skrip shell",
+          "zh": "shell脚本",
+          "en": "shell script"
+        },
+        {
+          "ms": "sesi shell",
+          "zh": "shell会话",
+          "en": "shell session"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "（英语词汇切换）贝类等动物的硬壳，或蛋、坚果等的外壳。",
+      "en_definition": "The hard outer covering of an animal, egg, or nut.",
+      "ms_definition": "Lapisan luar yang keras pada haiwan tertentu, telur atau kekacang.",
+      "nuances": "这是英语普通词义；在完整的马来语表达中，应按对象选用 cangkerang、kulit telur 或 tempurung 等词，不把 shell 当作所有“壳”的统一马来语名称。DBP以 cangkerang 对应动物硬壳义的 shell。此处马来文为编写释义。[DBP PRPM：cangkerang](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=cangkerang)",
+      "collocations": [
+        {
+          "ms": "shell kerang",
+          "zh": "贝壳；混合用语，标准马来语为 cangkerang kerang",
+          "en": "a clam shell"
+        },
+        {
+          "ms": "shell telur",
+          "zh": "蛋壳；混合用语，标准马来语为 kulit telur",
+          "en": "an eggshell"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pentadbir sistem menggunakan skrip shell untuk mengautomasikan tugas penyelenggaraan pelayan.",
+      "zh": "系统管理员使用shell脚本自动执行服务器维护任务。",
+      "en": "The system administrator uses shell scripts to automate server maintenance tasks."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Saya dah buka terminal, tapi tak tahu shell apa yang tengah jalan.",
+      "ms_standard": "Saya sudah membuka terminal, tetapi saya tidak tahu shell yang sedang digunakan.",
+      "zh": "我已经打开终端了，但不知道现在用的是哪种shell。",
+      "en": "I've opened the terminal, but I don't know which shell is running.",
+      "spoken_features": [
+        "dah 对应 sudah，tak 对应 tidak。",
+        "tengah 表示 sedang。",
+        "jalan 在此口语化地表示程序运行。",
+        "shell 保留为英语技术术语。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Saya dah buka terminal, tapi tak tahu shell apa yang tengah jalan.",
+          "ms_standard": "Saya sudah membuka terminal, tetapi saya tidak tahu shell yang sedang digunakan.",
+          "zh": "我已经打开终端了，但不知道现在用的是哪种shell。",
+          "en": "I've opened the terminal, but I don't know which shell is running."
+        },
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Kongsi tangkap layar je. Saya tengok dulu, lepas tu kita semak sama-sama.",
+          "ms_standard": "Kongsikan sahaja tangkap layar. Saya akan melihatnya dahulu, kemudian kita menyemaknya bersama-sama.",
+          "zh": "发张截图就行。我先看看，然后我们一起确认。",
+          "en": "Just send a screenshot. I'll take a look, then we can check together."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English shell descends from Old English words for a seashell or eggshell. Its older image is a hard outer covering. In computing, that image offers a useful analogy for a user-facing layer through which commands reach other programs. Malaysian technical conversation often retains shell, while ordinary physical shells receive context-specific Malay names. [Etymonline](https://www.etymonline.com/word/shell), [GNU Bash手册](https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html)",
+    "cognitive_memory_aid": "先想贝壳的“外壳”，再把计算机 shell 想成可输入命令的交互外层；这是帮助理解的比喻。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "技术义本身中性。与非技术人员交流时，可首次说明 shell ialah program pentafsir perintah，避免只用术语造成理解障碍。",
+    "usage_etiquette": "技术文件中应准确区分 shell、terminal 和具体程序名称。大写 Shell 通常是品牌专名，不属于这里小写 shell 的普通词义；谈论实物外壳时优先使用相应马来语名称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "技术义本身中性。与非技术人员交流时，可首次说明 shell ialah program pentafsir perintah，避免只用术语造成理解障碍。",
+    "usage_etiquette": "技术文件中应准确区分 shell、terminal 和具体程序名称。大写 Shell 通常是品牌专名，不属于这里小写 shell 的普通词义；谈论实物外壳时优先使用相应马来语名称。"
+  }
+}
