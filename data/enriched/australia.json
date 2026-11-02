@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 3412,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "马来语正式国名写作Australia，首字母必须大写；此处word保留输入形式。未取得经核定的马来语音标，故保留null；音节和爪夷文亦不补造。排名仅沿用输入数据。[马来西亚地名命名指南](https://www.jupem.gov.my/storage/upload/pdf/Garis-Panduan-Penentuan-Nama-Geografi-Malaysia-Edisi-Ketiga-1759887516.pdf)"
   },
   "morphology": {
@@ -110,5 +110,10 @@
   "sociolinguistic_register": {
     "politeness_note": "国名本身语体中性。称呼某人时使用对方姓名或适当称谓，不以国籍代替个人称呼。",
     "usage_etiquette": "正式文本使用Australia并保留大写。讨论原住民群体时，应尊重其具体族群名称，不把所有澳大利亚人的文化背景一概而论。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

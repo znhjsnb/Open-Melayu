@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "dahan",
+    "syllables": "da.han",
+    "ipa": "/dahan/",
+    "jawi": "ده",
+    "frequency_rank": 11426,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dahan → dahan",
+    "pattern_note": "dahan 是完整词根，不能分析为 dah + -an，没有加缀音变。root_word 字段按输入保留 dah，但该值属于资料错配；实际词根应为 dahan，规范词根爪夷文为 داهن。",
+    "word_family": [
+      {
+        "word": "berdahan",
+        "affix": "ber-",
+        "gloss": "有树枝；长出树枝"
+      },
+      {
+        "word": "dahan-dahan",
+        "affix": "重叠",
+        "gloss": "多根树枝"
+      }
+    ],
+    "root_jawi": "ده"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "树枝；从树干长出的木质分枝，通常比细枝粗大。",
+      "en_definition": "A woody branch growing from the trunk of a tree, typically bearing smaller branches or twigs.",
+      "ms_definition": "Bahagian yang tumbuh dari batang pokok.",
+      "nuances": "区别 batang（树干）、dahan（树枝）与 ranting（细枝）；这种区分不是严格的直径分类。机构分支通常用 cawangan，知识或道路的分支通常用 cabang。输入定义实际属于 dah，即 sudah 的口语缩略形式，与 dahan 无关。headword.jawi 和 root_jawi 按输入保留 ده，但 dahan 的规范爪夷文是 داهن。[DBP：dahan](https://prpm.dbp.gov.my/Search?k=dahan)",
+      "collocations": [
+        {
+          "ms": "dahan pokok",
+          "zh": "树的枝条",
+          "en": "a tree branch"
+        },
+        {
+          "ms": "dahan patah",
+          "zh": "折断的树枝",
+          "en": "a broken branch"
+        },
+        {
+          "ms": "memangkas dahan",
+          "zh": "修剪树枝",
+          "en": "to prune branches"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "古语：短投矛；亦称 pendahan。",
+      "en_definition": "An archaic term for a short throwing spear; pendahan.",
+      "ms_definition": "Pendahan, iaitu sejenis lembing pendek untuk dilemparkan.",
+      "nuances": "这是与“树枝”分列的罕见同形词，DBP 以 dahan II 转见 pendahan。现代日常交流通常使用 lembing 或说明性名称。以下是帮助辨义的说明性组合，不应视为已证实的高频搭配，也不能据此认定兵器义源自树枝义。[DBP：dahan II](https://prpm.dbp.gov.my/Search?k=dahan)",
+      "collocations": [
+        {
+          "ms": "dahan atau pendahan",
+          "zh": "短投矛，即 pendahan",
+          "en": "a dahan, or short throwing spear"
+        },
+        {
+          "ms": "dahan sebagai senjata",
+          "zh": "用作兵器的短投矛",
+          "en": "a dahan used as a weapon"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak majlis telah memangkas dahan yang menghalang papan tanda jalan.",
+      "zh": "市议会已修剪遮挡路牌的树枝。",
+      "en": "The council has pruned the branches obstructing the road sign."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dahan pokok kat depan rumah dah patah lah.",
+      "ms_standard": "Dahan pokok di hadapan rumah sudah patah.",
+      "zh": "屋前那棵树的树枝已经断了。",
+      "en": "A branch on the tree in front of the house has snapped.",
+      "spoken_features": [
+        "kat 在这里对应标准语的 di。",
+        "dah 是 sudah 的口语缩略形式，与目标词 dahan 不同。",
+        "lah 在这里加强提醒语气；标准语版本省略该语气词。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Dahan pokok kat depan rumah dah patah lah. Kereta awak kena tak?",
+          "ms_standard": "Dahan pokok di hadapan rumah sudah patah. Adakah kereta awak terkena dahan itu?",
+          "zh": "屋前那棵树的树枝断了，你的车有没有被砸到？",
+          "en": "A branch has snapped off the tree in front of the house. Did it hit your car?"
+        },
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Tak kena, nasib baik. Saya nak alihkan kereta dulu, takut dahan lain patah pula.",
+          "ms_standard": "Kereta saya tidak terkena dahan itu, mujurlah. Saya hendak mengalihkan kereta dahulu kerana bimbang dahan lain pula akan patah.",
+          "zh": "幸好没砸到。我先把车移开，怕别的树枝也断。",
+          "en": "Luckily, it missed my car. I'll move it first in case another branch snaps."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In Malay pantun, dahan belongs to the familiar landscape of trees, birds and squirrels. DBP records a verse with a squirrel crossing a branch, and a proverb involving a branch and its trunk. These attestations show its cultural role as an everyday image; they do not establish a borrowing history or explain the separate weapon homonym. [DBP](https://prpm.dbp.gov.my/Search?k=dahan)",
+    "cognitive_memory_aid": "读 da-han 时，想象树干旁横伸的一根粗树枝：batang 是干，dahan 是枝，ranting 是细枝。这是画面助记，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "树枝义是中性词，适用于正式报告和日常交流。向长辈或负责人提出修剪请求时，可用 Boleh tolong pangkas dahan ini?，语气比直接命令柔和。",
+    "usage_etiquette": "描述园艺、环境或树木损坏时自然适用。涉及邻居的树木，可先说明枝条影响的位置再提出请求。古代兵器义适用于文学阅读、历史说明或词义讨论。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "树枝义是中性词，适用于正式报告和日常交流。向长辈或负责人提出修剪请求时，可用 Boleh tolong pangkas dahan ini?，语气比直接命令柔和。",
+    "usage_etiquette": "描述园艺、环境或树木损坏时自然适用。涉及邻居的树木，可先说明枝条影响的位置再提出请求。古代兵器义适用于文学阅读、历史说明或词义讨论。"
+  },
+  "provenance": {
+    "has_official_dbp": true,
+    "source_type": "dbp_official",
+    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+  }
+}

@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 13985,
-    "status": "unverified"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -89,5 +89,10 @@
   "sociolinguistic_register": {
     "politeness_note": "没有证据支持任何马来西亚特有的礼貌规则。向一般读者使用可能的电影专名时，应补充出处和解释。",
     "usage_etiquette": "不应标为已获官方确认的马来语普通词；电影专名通常写作 Kragle。正式词典收录前须确认原始语境，缺失字段保留 null。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

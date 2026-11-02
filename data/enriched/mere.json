@@ -5,7 +5,7 @@
     "ipa": "/mɪə/",
     "jawi": null,
     "frequency_rank": 11685,
-    "status": "unverified",
+    "status": "corpus_usage",
     "status_note": "PRPM 所核实的是英语形容词 mere，并非普通马来语词。输入包中的 syllables 值 n 不是有效音节划分，故更正为 null。以下限定为该英语形容词；输入缺少语境，不能据此排除其他语言或同形词。"
   },
   "morphology": {
@@ -121,5 +121,10 @@
   "sociolinguistic_register": {
     "politeness_note": "英语 a mere clerk 等表达可能贬低他人的职位或身份。翻译时应留意“不过是……”所带的轻视语气。",
     "usage_etiquette": "在正式马来语文章中，依语境使用 hanya、sekadar 或其他自然译法。保留 mere 适用于英语引文、翻译讨论或明确的语码转换。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

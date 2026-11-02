@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 11030,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "已查到区域马来语词形 batés，但未核实 bates 为马来西亚标准马来语正式词头，因此不能标为 official。输入未提供音节、音标或爪夷文，保留 null。频率排名沿用输入，不代表权威词典排名。"
   },
   "morphology": {
@@ -101,5 +101,10 @@
   "sociolinguistic_register": {
     "politeness_note": "区域词形本身不表示失礼。与马来西亚不同地区的人交流或撰写正式文件时，宜采用通行标准词 batas；讨论他人的家乡话时，可称其为区域形式，避免直接贬为“错误马来语”。",
     "usage_etiquette": "bates 适合出现在区域语言讨论、原文引述或词形辨识中。现有证据不足以把它作为马来西亚日常口语的通用教学词；正式表达“边界、界限”时使用 batas 或按语境使用 sempadan、had。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

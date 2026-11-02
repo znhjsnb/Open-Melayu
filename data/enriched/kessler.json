@@ -5,7 +5,7 @@
     "ipa": "/ˈkɛslɐ/",
     "jawi": null,
     "frequency_rank": 11924,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "official 按所要求的条目模板保留；本项是外语姓氏专名，不表示 DBP 已将其认定为规范马来语普通词。",
     "orthography_note": "保留输入的小写检索键；实际行文应写 Kessler。IPA 为德语读音，具体持名人的读音可能不同。"
   },
@@ -110,5 +110,10 @@
   "sociolinguistic_register": {
     "politeness_note": "称呼具体人物时，按对方身份使用 Encik、Puan、Dr. 或其他适用称谓；不凭姓氏猜测性别、国籍或宗教。",
     "usage_etiquette": "正式行文必须大写 Kessler。输入未提供具体人物，不能自行编造其职位、生平或与马来西亚的关系；Jawi 未获核实，保留 null。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

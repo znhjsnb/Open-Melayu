@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "lahan",
+    "syllables": "la.han",
+    "ipa": "/la.han/",
+    "jawi": "له",
+    "frequency_rank": 11345,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + lahan → lahan（土地义独立词）；lah + -an ↛ lahan",
+    "pattern_note": "root_word、root_jawi 和 is_root 保留数据包的解析结果，但该解析有误：土地义 lahan 不是语气词 lah 的派生词，也没有可据此认定的 -an 后缀；就该义而言应分析为独立词。两个音节中的 h 均应按词形保留。headword.jawi 的 له 对应 lah，不能作为 lahan 的正确拼写。",
+    "word_family": [
+      {
+        "word": "lahan pertanian",
+        "affix": "∅（复合词组）",
+        "gloss": "农业用地；印尼语用法"
+      },
+      {
+        "word": "lahan kosong",
+        "affix": "∅（复合词组）",
+        "gloss": "空地；印尼语用法"
+      }
+    ],
+    "root_jawi": "له"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "【主要为印度尼西亚语用法】土地；地块，尤指可供耕作、开发或其他用途的土地。",
+      "en_definition": "Chiefly Indonesian: land or a tract of ground available for cultivation, development, or another use.",
+      "ms_definition": "Dalam penggunaan bahasa Indonesia, tanah atau kawasan daratan yang digunakan atau boleh digunakan untuk pertanian, pembangunan atau tujuan lain.",
+      "nuances": "此义可由印尼官方土地术语用例确认，参见 [印尼财政部 JDIH：Lahan](https://jdih.kemenkeu.go.id/kamus-hukum/lahan?id=07ef6987bbad0fcafca52db9041d4afe)。马来西亚一般表达宜用 tanah、kawasan tanah 或 tapak，具体依上下文选择。这里的 ms_definition 是马来语释义转述，并非已核实的 DBP 原文。数据包提供的是语气词 lah 的释义，与本词不符；慢、轻缓等提示应先核对 perlahan，不能据提示直接确立 lahan 的规范马来西亚马来语副词义，参见 [DBP：perlahan](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=perlahan)。status 按指定格式保留为 official，不表示已核实其马来西亚规范词资格。",
+      "collocations": [
+        {
+          "ms": "lahan pertanian",
+          "zh": "农业用地",
+          "en": "agricultural land"
+        },
+        {
+          "ms": "lahan kosong",
+          "zh": "空地；闲置地块",
+          "en": "vacant land"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：说明印尼资料中的术语",
+      "ms": "Istilah lahan pertanian dalam laporan Indonesia itu merujuk kepada tanah yang digunakan untuk kegiatan pertanian.",
+      "zh": "该印尼报告中的 lahan pertanian 一词，指用于农业活动的土地。",
+      "en": "The term lahan pertanian in the Indonesian report refers to land used for agricultural activities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：讨论印尼新闻用词",
+      "ms_spoken": "Aku nampak perkataan lahan kat berita Indonesia tadi. Maksudnya tanah ke?",
+      "ms_standard": "Saya melihat perkataan lahan dalam berita Indonesia tadi. Adakah maksudnya tanah?",
+      "zh": "我刚才在印尼新闻里看到 lahan 这个词。是土地的意思吗？",
+      "en": "I saw the word lahan in an Indonesian news report earlier. Does it mean land?",
+      "spoken_features": [
+        "aku 是熟人之间的非正式第一人称。",
+        "kat 在此对应标准表达 dalam，表示出现于某种媒介中。",
+        "句末 ke 对应标准疑问结构 adakah。",
+        "对话通过讨论印尼用词自然保留 lahan，避免把它示范成马来西亚日常首选词。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nampak perkataan lahan kat berita Indonesia tadi. Maksudnya tanah ke?",
+          "ms_standard": "Saya melihat perkataan lahan dalam berita Indonesia tadi. Adakah maksudnya tanah?",
+          "zh": "我刚才在印尼新闻里看到 lahan 这个词。是土地的意思吗？",
+          "en": "I saw the word lahan in an Indonesian news report earlier. Does it mean land?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, dalam berita tu maksudnya tanah. Kat Malaysia, kita biasa sebut tanah je.",
+          "ms_standard": "Ya, dalam berita itu maksudnya tanah. Di Malaysia, kita biasanya menggunakan perkataan tanah sahaja.",
+          "zh": "对，那则新闻里就是土地的意思。在马来西亚，我们一般就说 tanah。",
+          "en": "Yes, it means land in that report. In Malaysia, we usually just say tanah."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The documented trail here concerns usage rather than a securely established ancient origin. Indonesian official terminology uses lahan for land considered in relation to its use and physical environment. Malaysian readers may encounter it in Indonesian reports about farming or development. Its resemblance to lah does not establish a derivational relationship; the supplied particle definition therefore cannot explain the land meaning.",
+    "cognitive_memory_aid": "把 la.han 的两个音节联想成两格相连的田地，记住“地块”。这是画面助记，不是词源解释；不要把它拆成 lah 加 -an。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "lahan 的土地义没有冒犯性；沟通重点是地域用词是否清楚。与马来西亚客户或公众交流时，可先解释为 tanah，再依原文需要保留 lahan。",
+    "usage_etiquette": "适合阅读、引用或讨论印尼农业及开发资料。撰写面向马来西亚读者的文字时，通常选用 tanah pertanian、tanah kosong 等对应表达。正式场景示例采用术语说明句，以保留目标词并交代其地域背景。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "lahan 的土地义没有冒犯性；沟通重点是地域用词是否清楚。与马来西亚客户或公众交流时，可先解释为 tanah，再依原文需要保留 lahan。",
+    "usage_etiquette": "适合阅读、引用或讨论印尼农业及开发资料。撰写面向马来西亚读者的文字时，通常选用 tanah pertanian、tanah kosong 等对应表达。正式场景示例采用术语说明句，以保留目标词并交代其地域背景。"
+  },
+  "provenance": {
+    "has_official_dbp": true,
+    "source_type": "dbp_official",
+    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+  }
+}

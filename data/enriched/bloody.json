@@ -5,7 +5,7 @@
     "ipa": "/ˈblʌdi/",
     "jawi": null,
     "frequency_rank": 11941,
-    "status": "official",
+    "status": "corpus_usage",
     "data_note": "status 保留指定结构中的标签，不表示 bloody 是规范马来语词。它是英语原词，DBP 英马词典提供其翻译。数据包的 syllables 值 sometimes not translated 不是音节信息，已改为 null；爪夷文保留 null。IPA 为英语读音。以下马来语释义为对应解释，不冒充马来语独立词条原文。"
   },
   "morphology": {
@@ -206,5 +206,10 @@
   "sociolinguistic_register": {
     "politeness_note": "强调义可能被视为粗口；面对长辈、老师、客户或不熟悉的人，宜换成 sangat、amat 或 betul-betul。不能假定所有马来西亚人都接受这种夹用。",
     "usage_etiquette": "熟人间抱怨事物时可能出现，但直接修饰人的称呼容易构成侮辱。字面血液义可用于新闻、文学和翻译讨论；正式马来语采用相应译词。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

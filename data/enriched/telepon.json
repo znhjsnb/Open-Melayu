@@ -5,7 +5,7 @@
     "ipa": "[te.le.pon]",
     "jawi": null,
     "frequency_rank": 2701,
-    "status": "regional_variant",
+    "status": "corpus_usage",
     "status_note": "telepon 是印尼语用形，也可作为 telefon 的变体识别；马来西亚标准马来语采用 telefon。音标选自输入候选，排名沿用输入。"
   },
   "morphology": {
@@ -101,5 +101,10 @@
   "sociolinguistic_register": {
     "politeness_note": "与印尼语使用者交流时，自然理解 telepon；需要本地化文件时说明地区规范即可，避免把地区差异说成对方语言有错。",
     "usage_etiquette": "马来西亚正式文件、学校作文及本地界面采用 telefon；引用印尼原文、表格字段或名称时可保留 telepon。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

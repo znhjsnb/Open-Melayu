@@ -1,32 +1,25 @@
 """
-Open-Melayu Grand Master Trilingual Expansion Pipeline (All the way to 15,000!)
-Continuously synthesizes authentic, production-grade 8-dimension trilingual entries
-across all remaining slices (Top 3,001 ~ 15,000) for all genuine core Malay candidates with DBP definitions.
-
-Features:
-1. 30-40 RPM sliding-window rate limit (RateLimiter at 36.0 RPM).
-2. 4-word micro-batching with 20-worker thread pool.
-3. Fast in-memory candidate scanner using RAM-cached PRPM file index.
-4. Strict 8-dimension trilingual quality validation (senses en, collocations en, messages en).
-5. Automatic straggler retry for any failed/timed-out batch.
-6. Periodic commit & shard/index sync after every 100 words.
-7. Dynamic 15,000-word three-state conservation verification.
-8. Full crash-resilience and resumability (skips already enriched files).
+Open-Melayu Master 15,000 Expansion Pipeline (Fortified Edition v2)
+===================================================================
+Incorporates all peer-reviewed audit recommendations from Codex (2026-11-02):
+  1. Quality Lock: Strictly enforce `gpt-6.1-sol / high` reasoning effort.
+  2. Packaging: Retain efficient 4-word batches (maximize prompt caching and avoid 2x request overhead).
+  3. Timeout: Extended from 240s to 420s (7 minutes) to eliminate the ~35% truncation cutoff.
+  4. Collision-Free Tagging: Namespaced batch tags `r{round}_p{idx}` and `r{round}_retry{idx}`.
+  5. Zero-Dropped-Words Queue: Dynamic candidate queue automatically prioritizes missing/uncompleted words.
+  6. Fortified Validation: Rejects placeholder Jawi ("????"), enforces non-empty ms_definition, checks duplicate collocations.
 """
 
 import os
 import sys
 import json
 import time
-import copy
-import glob
-import string
-import threading
 import subprocess
-from pathlib import Path
+import threading
 import concurrent.futures
+from pathlib import Path
 
-if hasattr(sys.stdout, "reconfigure") and sys.stdout is not None:
+if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT_DIR = Path(r"C:\Users\d\Documents\open-melayu")
@@ -58,7 +51,7 @@ class SlidingWindowRateLimiter:
                     time.sleep(sleep_needed)
                     now = time.time()
                     self.timestamps = [t for t in self.timestamps if now - t < 60.0]
-            self.timestamps.append(time.time())
+            self.timestamps.append(now)
 
 limiter = SlidingWindowRateLimiter(max_per_minute=36.0)
 
@@ -129,7 +122,7 @@ class LinguisticKnowledgeBase:
                         break
             if not r or r == w:
                 for prefix in ["meng", "mem", "men", "me", "ber", "ter", "per", "pe", "se"]:
-                    if w.startswith(prefix) and len(w) > len(prefix) + 2:
+                    if w.startswith(prefix) and len(prefix) + 2 < len(w):
                         cand = w[len(prefix):]
                         if cand in self.prpm_file_map:
                             r = cand
@@ -158,7 +151,6 @@ class LinguisticKnowledgeBase:
                     glosses.append(g)
 
         kd = prpm.get("kamus_dewan") or prpm.get("kamus_pelajar") or prpm.get("definisi_melayu") or ""
-        # If derivative has no direct definition, use root definition
         if not kd and root != w:
             r_data = self.get_prpm_data(root)
             kd = r_data.get("kamus_dewan") or r_data.get("kamus_pelajar") or ""
@@ -178,15 +170,14 @@ class LinguisticKnowledgeBase:
                 "root_jawi": root_jawi,
                 "is_root": (root == w)
             },
-            "ipas": list(set(ipas))[:2],
-            "glosses": glosses[:2],
-            "shortcuts": self.reverse_shortcuts.get(w, [])[:2]
+            "phonetics": {
+                "ipa_candidates": ipas[:2],
+                "gloss_hints": glosses[:3]
+            }
         }
 
-SCHEMA_PROMPT = """
-You are the authoritative Malay cognitive lexicographer and Lead Engineer for Open-Melayu.
-Synthesize complete, production-grade 8-dimension cognitive dictionary entries for the given Malay words.
-Crucial: This is a TRILINGUAL dictionary (Malay core + Chinese + English translations).
+SCHEMA_PROMPT = """You are the Senior Computational Lexicographer for the Open-Melayu Trilingual Lexicon (Malay - Chinese - English).
+Synthesize the complete, authoritative 8-dimension cognitive dictionary entry for each of the provided Malay words.
 
 Return a single JSON object mapping each word to its complete 8-dimension entry:
 {
@@ -260,24 +251,20 @@ Return a single JSON object mapping each word to its complete 8-dimension entry:
         ]
       }
     ],
-    "spoken_shortcuts": [
-      { "abbr": "<SMS shortcut>", "full_form": "<word>", "note": "<context>" }
-    ],
-    "cultural_pragmatics": {
-      "register": "standard" | "formal" | "colloquial" | "intimate",
-      "politeness_note": "<Politeness guidance in Malaysian society>",
-      "usage_etiquette": "<Practical usage advice>"
-    },
     "etymology": {
-      "historical_story": "<Vivid 2-3 sentence narrative detailing the word's historical origin and semantic evolution>",
-      "cognitive_memory_aid": "<Memorable cognitive mnemonic or visual association>"
+      "historical_story": "<Fascinating 40-80 word historical or cultural narrative on word origins>",
+      "cognitive_memory_aid": "<Punchy cognitive mnemonic connecting pronunciation to meaning>"
+    },
+    "cultural_pragmatics": {
+      "politeness_note": "<Crucial Malaysian etiquette note on register and respect>",
+      "usage_etiquette": "<Taboo boundaries or social contexts where this word fits>"
     }
   }
 }
 
-TRILINGUAL RULES:
-1. Provide 1 core sense per word. The sense MUST contain at least 2 distinct collocations, EACH with `ms`, `zh`, AND `en`.
-2. Both `zh_definition` AND `en_definition` are mandatory and non-empty.
+Quality Rules:
+1. Every collocation must have: `ms`, `zh`, and `en`.
+2. Both `zh_definition` AND `en_definition` AND `ms_definition` are mandatory and non-empty.
 3. WhatsApp colloquial scenario MUST have `messages` containing at least 2 turns with speaker name, `ms_spoken`, `ms_standard`, `zh`, AND `en`.
 4. Output MUST be ONLY the raw JSON object. No markdown code fences, no extra text.
 """
@@ -290,6 +277,11 @@ def validate_trilingual_entry(entry: dict, word: str) -> tuple[bool, str]:
     if not head.get("word") or head.get("word").lower() != word.lower():
         return False, f"Headword mismatch: {head.get('word')} != {word}"
 
+    # Strengthened Jawi validation (reject ???? and placeholders)
+    jawi = head.get("jawi", "")
+    if not jawi or not isinstance(jawi, str) or "?" in jawi or jawi.strip().lower() in ("null", "none"):
+        return False, f"Invalid/placeholder Jawi in {word}: '{jawi}'"
+
     morph = entry.get("morphology", {})
     if "formula" not in morph or not morph.get("formula"):
         return False, f"Missing morphology formula in {word}"
@@ -299,16 +291,24 @@ def validate_trilingual_entry(entry: dict, word: str) -> tuple[bool, str]:
         return False, f"Missing senses for {word}"
         
     for s in senses:
-        if not s.get("zh_definition"):
-            return False, f"Missing zh_definition in {word}"
-        if not s.get("en_definition"):
-            return False, f"Missing en_definition in {word}"
+        if not s.get("zh_definition") or len(s["zh_definition"].strip()) < 2:
+            return False, f"Missing/short zh_definition in {word}"
+        if not s.get("en_definition") or len(s["en_definition"].strip()) < 3:
+            return False, f"Missing/short en_definition in {word}"
+        if not s.get("ms_definition") or len(s["ms_definition"].strip()) < 3:
+            return False, f"Missing/short ms_definition in {word}"
+
         collocs = s.get("collocations", [])
         if len(collocs) < 2:
             return False, f"Sense {s.get('id')} has <2 collocations in {word}"
+        colloc_seen = set()
         for c in collocs:
             if not c.get("ms") or not c.get("zh") or not c.get("en"):
                 return False, f"Collocation missing ms/zh/en in {word}"
+            c_key = c["ms"].lower().strip()
+            if c_key in colloc_seen:
+                return False, f"Duplicate collocation '{c_key}' in {word}"
+            colloc_seen.add(c_key)
             
     scenarios = entry.get("dual_scenarios", [])
     if len(scenarios) < 2:
@@ -324,7 +324,7 @@ def validate_trilingual_entry(entry: dict, word: str) -> tuple[bool, str]:
     if len(msgs) < 2:
         return False, f"Colloquial scenario has <2 messages in {word}"
     for m in msgs:
-        if not m.get("speaker") or not m.get("ms_spoken") or not m.get("zh") or not m.get("en"):
+        if not m.get("speaker") or not m.get("ms_spoken") or not m.get("ms_standard") or not m.get("zh") or not m.get("en"):
             return False, f"Incomplete message turn in {word}"
 
     etym = entry.get("etymology", {})
@@ -341,10 +341,10 @@ def validate_trilingual_entry(entry: dict, word: str) -> tuple[bool, str]:
         
     return True, "OK"
 
-def process_micro_batch(batch_idx: int, packets: list) -> dict:
+def process_micro_batch(batch_tag: str, packets: list) -> dict:
     start_time = time.time()
     words = [p["word"] for p in packets]
-    out_file = AUDIT_DIR / f"full15k_b{batch_idx}_output.json"
+    out_file = AUDIT_DIR / f"full15k_{batch_tag}_output.json"
     
     prompt = f"""{SCHEMA_PROMPT}
 
@@ -359,6 +359,8 @@ Input Ground Truth Packets:
     cmd = [
         CODEX_EXE, "exec",
         "-C", str(ROOT_DIR),
+        "-c", 'model="gpt-6.1-sol"',
+        "-c", 'model_reasoning_effort="high"',
         "--ephemeral",
         "-o", str(out_file),
         "-"
@@ -371,14 +373,14 @@ Input Ground Truth Packets:
             text=True,
             capture_output=True,
             encoding="utf-8",
-            timeout=240
+            timeout=420  # Fortified to 420 seconds to eliminate right-censored timeouts
         )
         elapsed = round(time.time() - start_time, 1)
         if proc.returncode != 0:
-            return {"batch_idx": batch_idx, "status": "error", "error": f"Code {proc.returncode}", "words": words, "elapsed": elapsed}
+            return {"batch_tag": batch_tag, "status": "error", "error": f"Code {proc.returncode}", "words": words, "elapsed": elapsed}
             
         if not out_file.exists():
-            return {"batch_idx": batch_idx, "status": "error", "error": "Output missing", "words": words, "elapsed": elapsed}
+            return {"batch_tag": batch_tag, "status": "error", "error": "Output missing", "words": words, "elapsed": elapsed}
 
         with open(out_file, "r", encoding="utf-8") as f:
             raw = f.read().strip()
@@ -411,7 +413,7 @@ Input Ground Truth Packets:
 
         status = "ok" if not errors else ("partial" if validated_entries else "error")
         return {
-            "batch_idx": batch_idx,
+            "batch_tag": batch_tag,
             "status": status,
             "validated": validated_entries,
             "errors": errors,
@@ -420,22 +422,22 @@ Input Ground Truth Packets:
         }
 
     except subprocess.TimeoutExpired:
-        return {"batch_idx": batch_idx, "status": "timeout", "words": words, "elapsed": round(time.time() - start_time, 1)}
+        return {"batch_tag": batch_tag, "status": "timeout", "words": words, "elapsed": round(time.time() - start_time, 1)}
     except Exception as e:
-        return {"batch_idx": batch_idx, "status": "exception", "error": str(e), "words": words, "elapsed": round(time.time() - start_time, 1)}
+        return {"batch_tag": batch_tag, "status": "exception", "error": str(e), "words": words, "elapsed": round(time.time() - start_time, 1)}
 
 def update_shards_and_manifest():
     subprocess.run(["python", str(ROOT_DIR / "src" / "sync_enriched_to_shards.py")], check=True, capture_output=True)
     subprocess.run(["python", str(ROOT_DIR / "src" / "sync_search_index.py")], check=True, capture_output=True)
     
+    total_shard_words = 0
     enriched_count = 0
     source_only_count = 0
     missing_source_count = 0
-    total_shard_words = 0
 
-    for letter in list(string.ascii_lowercase) + ["other"]:
-        with open(SHARDS_DIR / f"{letter}.json", "r", encoding="utf-8") as sf:
-            sdata = json.load(sf)
+    for s_file in SHARDS_DIR.glob("*.json"):
+        with open(s_file, "r", encoding="utf-8") as f:
+            sdata = json.load(f)
         total_shard_words += len(sdata)
         for w, entry in sdata.items():
             state = entry.get("data_state")
@@ -474,7 +476,7 @@ def update_shards_and_manifest():
 
     # Automated milestone Git commit
     try:
-        subprocess.run(["git", "-C", str(ROOT_DIR), "add", "app/static/data/", "data/enriched/", "data/audit/", "START.md", "docs/"], check=False)
+        subprocess.run(["git", "-C", str(ROOT_DIR), "add", "app/static/", "data/enriched/", "data/audit/grand_expansion_progress.json", "START.md", "docs/"], check=False)
         subprocess.run(["git", "-C", str(ROOT_DIR), "commit", "-m", f"feat(lexicon): milestone {enriched_count} words trilingual build {new_build_id}"], check=False)
     except Exception as ge:
         print(f"[!] Git commit notice: {ge}")
@@ -507,40 +509,47 @@ def get_all_remaining_candidates(kb: LinguisticKnowledgeBase) -> list[dict]:
 
 def run_grand_expansion():
     kb = LinguisticKnowledgeBase()
-    candidates = get_all_remaining_candidates(kb)
-    total_to_enrich = len(candidates)
-    print(f"\n[★] GRAND EXPANSION TO 15,000 LAUNCHED!")
-    print(f"[*] Total genuine Malay core candidates to enrich across remaining pool: {total_to_enrich} words.\n")
     
     ROUND_SIZE = 100
     MICRO_BATCH_SIZE = 4
     
     round_idx = 1
-    total_processed = 0
     
-    while total_processed < total_to_enrich:
-        round_pkts = candidates[total_processed: total_processed + ROUND_SIZE]
+    print(f"\n[★] FORTIFIED GRAND EXPANSION TO 15,000 LAUNCHED (TIMEOUT=420s, QUALITY=HIGH)!")
+    
+    while True:
+        # Dynamic candidate backlog query (guarantees zero dropped words across runs)
+        candidates = get_all_remaining_candidates(kb)
+        total_remaining = len(candidates)
+        if total_remaining == 0:
+            print(f"\n[★★★] ALL CANDIDATES HAVE BEEN ENRICHED! ZERO CANDIDATES REMAIN! [★★★]")
+            break
+            
+        round_pkts = candidates[:ROUND_SIZE]
         round_words = [p["word"] for p in round_pkts]
         round_count = len(round_words)
         
         print(f"\n==================================================")
-        print(f"  [GRAND ROUND {round_idx}] Synthesizing {round_count} words ({total_processed}/{total_to_enrich} done)")
+        print(f"  [FORTIFIED ROUND {round_idx}] Synthesizing {round_count} words (Remaining in pool: {total_remaining})")
         print(f"==================================================")
         
         batches = [round_pkts[i:i + MICRO_BATCH_SIZE] for i in range(0, len(round_pkts), MICRO_BATCH_SIZE)]
-        concurrency = min(20, len(batches))
+        concurrency = min(25, len(batches))
         
         round_start = time.time()
         round_validated = {}
         missing_in_round = []
         
         with concurrent.futures.ThreadPoolExecutor(max_workers=concurrency) as executor:
-            futures = {executor.submit(process_micro_batch, (round_idx * 1000) + i, b): i for i, b in enumerate(batches)}
+            futures = {
+                executor.submit(process_micro_batch, f"r{round_idx:03d}_p{i:02d}", b): i 
+                for i, b in enumerate(batches)
+            }
             for future in concurrent.futures.as_completed(futures):
                 res = future.result()
                 val_cnt = len(res.get("validated", {}))
                 w_cnt = len(res.get("words", []))
-                print(f"  --> Batch {res.get('batch_idx')}: {val_cnt}/{w_cnt} validated in {res.get('elapsed')}s (Status: {res.get('status')})")
+                print(f"  --> Batch {res.get('batch_tag')}: {val_cnt}/{w_cnt} validated in {res.get('elapsed')}s (Status: {res.get('status')})")
                 for w, entry in res.get("validated", {}).items():
                     round_validated[w] = entry
                 for w, err in res.get("errors", {}).items():
@@ -553,13 +562,16 @@ def run_grand_expansion():
                             
         print(f"[*] Round {round_idx} primary pass: {len(round_validated)}/{round_count} validated.")
         
-        # Straggler retry
+        # Straggler retry (if any timeout/validation edge cases occur)
         if missing_in_round:
             print(f"[!] Retrying {len(missing_in_round)} stragglers: {missing_in_round}...")
             retry_pkts = [p for p in round_pkts if p["word"] in missing_in_round]
             retry_batches = [retry_pkts[i:i + 2] for i in range(0, len(retry_pkts), 2)]
-            with concurrent.futures.ThreadPoolExecutor(max_workers=min(10, len(retry_batches))) as executor:
-                ret_futs = [executor.submit(process_micro_batch, (round_idx * 5000) + i, rb) for i, rb in enumerate(retry_batches)]
+            with concurrent.futures.ThreadPoolExecutor(max_workers=min(12, len(retry_batches))) as executor:
+                ret_futs = [
+                    executor.submit(process_micro_batch, f"r{round_idx:03d}_retry{i:02d}", rb) 
+                    for i, rb in enumerate(retry_batches)
+                ]
                 for rf in concurrent.futures.as_completed(ret_futs):
                     res = rf.result()
                     for w, entry in res.get("validated", {}).items():
@@ -586,8 +598,7 @@ def run_grand_expansion():
         progress_data = {
             "round": round_idx,
             "round_words_count": len(round_validated),
-            "total_processed_in_grand_run": total_processed + len(round_validated),
-            "total_candidates_to_enrich": total_to_enrich,
+            "total_candidates_remaining": len(get_all_remaining_candidates(kb)),
             "total_enriched_in_repo": e_cnt,
             "speed_wpm": speed,
             "elapsed_seconds": round_elapsed,
@@ -597,7 +608,6 @@ def run_grand_expansion():
         with open(AUDIT_DIR / "grand_expansion_progress.json", "w", encoding="utf-8") as f:
             json.dump(progress_data, f, ensure_ascii=False, indent=2)
             
-        total_processed += round_count
         round_idx += 1
         
     print(f"\n[★★★] GRAND EXPANSION COMPLETE! ALL CORE MALAY WORDS ENRICHED! [★★★]")

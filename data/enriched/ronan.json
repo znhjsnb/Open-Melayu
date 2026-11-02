@@ -1,0 +1,97 @@
+{
+  "headword": {
+    "word": "ronan",
+    "syllables": null,
+    "ipa": "/ro.nan/",
+    "jawi": null,
+    "frequency_rank": 6087,
+    "status": "corpus_usage"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ron",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Ronan → Ronan（人名整体使用；不能据词包拆为马来语 ron + -an）",
+    "pattern_note": "词包的 root_word=ron 与 is_root=false 原样保留为待核元数据，不代表已证实的马来语派生关系。作为人名使用时，不适用马来语词缀音变规则。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "罗南：人名 Ronan 的小写输入形式，常见为源自爱尔兰语的男性名字；具体指称须由原文确认。",
+      "en_definition": "A lowercase rendering of Ronan, commonly a masculine personal name of Irish origin; its referent depends on context.",
+      "ms_definition": "Nama khas orang, lazimnya nama lelaki yang berasal daripada bahasa Ireland; identiti orang yang dimaksudkan bergantung pada konteks.",
+      "nuances": "本条按人名作审慎释读；缺少原始语境，不能排除其他专名或转写情况。正常马来语书写应为 Ronan，条目键与 headword.word 按要求保留 ronan。名源可参见 [Woulfe《Irish Names and Surnames》](https://libraryireland.booksulster.com/names/men/ronan-ronan.php)。不能把名字的历史含义直接当作其现代马来语释义。本条马来语定义为编写释义，并非 DBP 引文；未取得该词形的 DBP 词条。status 的 official 仅沿用指定输出标签，不表示官方收录。IPA 为按马来语音节近似读出的示意，实际读音以本人为准；syllables 和 Jawi 保留词包缺值。排名来自输入，不能据此推断通用词频。下列搭配及情境为教学例句，未经搭配频率统计。",
+      "collocations": [
+        {
+          "ms": "Encik Ronan",
+          "zh": "罗南先生",
+          "en": "Mr Ronan"
+        },
+        {
+          "ms": "bersama Ronan",
+          "zh": "与罗南一起",
+          "en": "with Ronan"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报：介绍负责说明计划的同事",
+      "ms": "Encik Ronan akan membentangkan cadangan projek dalam mesyuarat esok.",
+      "zh": "罗南先生将在明天的会议上汇报项目提案。",
+      "en": "Mr Ronan will present the project proposal at tomorrow's meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：朋友确认罗南是否到达",
+      "ms_spoken": "Ronan dah sampai kat kafe ke?",
+      "ms_standard": "Adakah Ronan sudah tiba di kafe?",
+      "zh": "罗南到咖啡馆了吗？",
+      "en": "Has Ronan arrived at the café yet?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略。",
+        "kat 在此相当于标准语的 di。",
+        "句末 ke 在此标示是非问句。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ronan dah sampai kat kafe ke?",
+          "ms_standard": "Adakah Ronan sudah tiba di kafe?",
+          "zh": "罗南到咖啡馆了吗？",
+          "en": "Has Ronan arrived at the café yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, dia tunggu kat dalam. Jom masuk.",
+          "ms_standard": "Ya, dia sudah tiba dan sedang menunggu di dalam kafe. Mari kita masuk.",
+          "zh": "到了，他在里面等着。走，进去吧。",
+          "en": "Yes, he's waiting inside. Let's go in."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ronan corresponds to Irish Rónán. In his 1923 dictionary of Irish names, Patrick Woulfe explains it as a diminutive of rón, meaning seal, and records its use among early saints. This is an Irish naming history, not evidence for a Malay suffix. In a Malay sentence, the name identifies its bearer rather than denoting a small marine animal. [Source: Woulfe](https://libraryireland.booksulster.com/names/men/ronan-ronan.php).",
+    "cognitive_memory_aid": "把 Ronan 连同一个人的名牌一起记成“罗南”；整个人名整体识别，不把末尾 an 当作马来语后缀。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式场合依本人身份和偏好使用称谓；对适用者可称 Encik Ronan。首次接触时先确认姓名读音与称呼方式。",
+    "usage_etiquette": "朋友间可直接称 Ronan，正式文件按本人登记姓名书写。不要根据名字推断国籍、宗教或族群，也不要擅自用名字的词源含义给本人起绰号。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式场合依本人身份和偏好使用称谓；对适用者可称 Encik Ronan。首次接触时先确认姓名读音与称呼方式。",
+    "usage_etiquette": "朋友间可直接称 Ronan，正式文件按本人登记姓名书写。不要根据名字推断国籍、宗教或族群，也不要擅自用名字的词源含义给本人起绰号。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
+  }
+}

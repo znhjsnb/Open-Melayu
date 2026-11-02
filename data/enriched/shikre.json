@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 7010,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "输入没有提供 DBP 释义或上下文，无法确定其具体指称、来源语言及是否为专名或误拼。不能标为正式马来语词条，也不能推定标准读音或爪夷文拼写。"
   },
   "morphology": {
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "若原文确认它是姓名，应礼貌询问本人认可的拼写和读法；目前不能仅凭字符串指定称谓。",
     "usage_etiquette": "适合在核查、引用和编辑讨论中使用。确认身份前，不把它当作马来语称呼、评价词或文化标签。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

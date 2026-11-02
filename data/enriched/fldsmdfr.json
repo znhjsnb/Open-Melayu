@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 13399,
-    "status": "unverified",
+    "status": "corpus_usage",
     "validation_note": "输入没有提供马来语词典释义或上下文。该字符串很可能对应电影中的机器专名 FLDSMDFR；这一对应关系属于推断，不能据此认定它是正式马来语词汇。没有可据以填写的标准马来语音标、音节或 Jawi。排名仅沿用输入数据。"
   },
   "morphology": {
@@ -89,5 +89,10 @@
   "sociolinguistic_register": {
     "politeness_note": "作为影视专名，本身没有特定敬语等级；首次提及时说明所属电影，方便不熟悉作品的人理解。",
     "usage_etiquette": "适用于影迷聊天、字幕讨论和影视评论。缺少电影语境时，应先核对原文指向；不要把它当作马来语普通名词或真实技术术语。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

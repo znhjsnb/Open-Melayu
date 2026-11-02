@@ -5,7 +5,7 @@
     "ipa": "/səl.sə.ma/",
     "jawi": null,
     "frequency_rank": 6681,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -115,5 +115,10 @@
   "sociolinguistic_register": {
     "politeness_note": "说明自己感冒时语气通常中性；面对主管、老师或客户，使用 saya 和标准拼写 selesema 更得体。",
     "usage_etiquette": "selsema 适合识读聊天和非正式文字，正式通知采用 selesema。输入包中的 Jawi 和音节字段为空，保留 null；不把标准形式的资料冒充为原包资料。headword.status 的 official 是指定字段值，不表示 selsema 为规范拼写。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/bjuːt/",
     "jawi": null,
     "frequency_rank": 9914,
-    "status": "official",
+    "status": "corpus_usage",
     "data_note": "status 为所要求的记录标签，不表示 DBP 审定。此处按英语地貌名词处理；未确认其作为规范马来语词条的收录情况。IPA 为英语读音，Jawi 与音节字段保留输入的 null，排名沿用输入。"
   },
   "morphology": {
@@ -110,5 +110,10 @@
   "sociolinguistic_register": {
     "politeness_note": "本词没有特殊敬语或禁忌。与一般马来语读者交流时，首次使用应补充“孤立、陡壁、顶部较平”的说明，避免默认对方熟悉英语地貌术语。",
     "usage_etiquette": "写地貌时用小写 butte，写城市或具体地名时遵循专名大写。旅游或地理说明中的形态描述不等于允许攀登或进入；具体地点应尊重当地管理方式及社区命名。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

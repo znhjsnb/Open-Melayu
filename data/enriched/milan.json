@@ -1,0 +1,99 @@
+{
+  "headword": {
+    "word": "milan",
+    "syllables": null,
+    "ipa": "/mi.lan/",
+    "jawi": "ميل",
+    "frequency_rank": 13564,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mil",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "Nama khas: Milan → milan (输入保留小写；不能分析为 mil + -an)",
+    "pattern_note": "root_word、root_jawi 和 is_root 保留词包记录，但该词根关联未经证实。若指意大利城市，Milan 是不可按马来语词缀拆分的专名；/mi.lan/ 为马来语近似读法。词包爪夷文 ميل 对应 mil，并非已核实的 Milan 拼写。",
+    "word_family": [],
+    "root_jawi": "ميل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "米兰，意大利的一座城市；这是将输入理解为专名 Milan 时的释义。",
+      "en_definition": "Milan, a city in Italy; a proper-name interpretation of the supplied form.",
+      "ms_definition": "Nama khas sebuah bandar di Itali; tafsiran ini terpakai jika bentuk input merujuk kepada Milan.",
+      "nuances": "标准拼写为 Milan，首字母大写。由于缺少原始语境，此处只能提供专名解释，不能断定输入实际指向该城市。词包提供的是 mil 的词典释义，即等于 1760 码的距离单位；不能据此把 milan 释为“英里”。headword.status 按指定格式保留 official，不表示词包中的小写形式、爪夷文及词根关联已经获得 DBP 认证。城市名称参见 [DBP 百科资料](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=gian)；距离单位参见 [DBP：mil](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mil)。",
+      "collocations": [
+        {
+          "ms": "bandar Milan",
+          "zh": "米兰市",
+          "en": "the city of Milan"
+        },
+        {
+          "ms": "Katedral Milan",
+          "zh": "米兰大教堂",
+          "en": "Milan Cathedral"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；按城市专名解释",
+      "ms": "Delegasi syarikat akan menghadiri mesyuarat di Milan pada minggu hadapan.",
+      "zh": "公司代表团将于下周在米兰出席会议。",
+      "en": "The company delegation will attend a meeting in Milan next week."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；讨论米兰行程",
+      "ms_spoken": "Aku dah sampai kat Milan, tapi nak rehat dulu lah.",
+      "ms_standard": "Saya sudah tiba di Milan, tetapi saya mahu berehat dahulu.",
+      "zh": "我已经到米兰了，不过想先歇一会儿。",
+      "en": "I've arrived in Milan, but I want to rest first.",
+      "spoken_features": [
+        "aku 是熟人之间使用的第一人称代词",
+        "dah 对应 sudah",
+        "kat 在此对应地点介词 di",
+        "nak 对应 mahu",
+        "lah 使表达更口语化，实际语气取决于语调"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah sampai kat Milan ke?",
+          "ms_standard": "Adakah kamu sudah tiba di Milan?",
+          "zh": "你已经到米兰了吗？",
+          "en": "Have you arrived in Milan yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, aku nak rehat kat hotel je malam ni.",
+          "ms_standard": "Ya, saya sudah tiba. Saya hanya mahu berehat di hotel pada malam ini.",
+          "zh": "到了，今晚我就想在酒店歇着。",
+          "en": "Yes, I have. I just want to rest at the hotel tonight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Milan appears in Malay as a foreign place name, including in DBP's encyclopedic material about its cathedral. Its treatment therefore follows proper-name conventions rather than Malay affix formation. The packet's distance definition belongs to mil, a separate dictionary headword. No historical derivation of Milan from mil is established by the supplied evidence.",
+    "cognitive_memory_aid": "把 Milan 直接连到“米兰”的城市画面；mil 才是词包中表示距离单位的词，不要给它加上 -an 来解释城市名。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "城市名本身没有敬语差别；正式邮件使用 Milan，并采用 saya、kami 等适合职场的代词。",
+    "usage_etiquette": "旅行和城市介绍中可使用 Milan。足球语境须区分城市与具体俱乐部，必要时写出 AC Milan 或 Inter Milan，避免仅凭地名猜测所指。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "城市名本身没有敬语差别；正式邮件使用 Milan，并采用 saya、kami 等适合职场的代词。",
+    "usage_etiquette": "旅行和城市介绍中可使用 Milan。足球语境须区分城市与具体俱乐部，必要时写出 AC Milan 或 Inter Milan，避免仅凭地名猜测所指。"
+  },
+  "provenance": {
+    "has_official_dbp": true,
+    "source_type": "dbp_official",
+    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+  }
+}

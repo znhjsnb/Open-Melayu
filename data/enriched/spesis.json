@@ -5,7 +5,7 @@
     "ipa": "/spe.sis/",
     "jawi": null,
     "frequency_rank": 6259,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "此字段按指定格式保留；spesis 是非规范拼写，规范词形为 spesies，不应将 official 理解为 DBP 认可该拼写。",
     "pronunciation_note": "规范拼写 spesies 的 DBP 标音为 spé.sis，因此读作两个音节；拼写中的 ie 不要求另读一个音节。输入未提供 Jawi 或音节划分。"
   },
@@ -91,5 +91,10 @@
   "sociolinguistic_register": {
     "politeness_note": "纠正拼写时可说 Ejaan bakunya ialah spesies，直接说明规范形式即可，避免嘲笑对方的语言能力。",
     "usage_etiquette": "学校作业、科普、新闻及正式报告使用 spesies。用物种词比喻某类人时可能显得贬低或去人化，尤其不宜用于族群或社会群体。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

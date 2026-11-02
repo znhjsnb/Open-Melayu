@@ -5,7 +5,7 @@
     "ipa": "/smɪθ/",
     "jawi": null,
     "frequency_rank": 3232,
-    "status": "unverified",
+    "status": "corpus_usage",
     "status_note": "已核实英语词义及姓氏用法，未核实为正式马来语词头，故不能标记为official。排名仅沿用输入，不代表经核验的马来语词频。音标为英语读音；缺失字段保留null。以下马来语释义为编写的说明，非DBP官方释义原文。"
   },
   "morphology": {
@@ -146,5 +146,10 @@
   "sociolinguistic_register": {
     "politeness_note": "在马来语正式交流中，可按身份使用Encik Smith或其实际职衔。若指职业，使用tukang besi等明确表达。",
     "usage_etiquette": "保留姓名的正式拼写和大小写；不要根据姓氏推断对方的职业、国籍或族群。称谓组合只是语言示例，不代表某位真实人物。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

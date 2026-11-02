@@ -5,7 +5,7 @@
     "ipa": "/steɪts/",
     "jawi": null,
     "frequency_rank": 10249,
-    "status": "official",
+    "status": "corpus_usage",
     "language": "en",
     "is_standard_malay": false,
     "status_scope": "规范英语形式；不表示该形式获认定为规范马来语词条。"
@@ -172,5 +172,10 @@
   "sociolinguistic_register": {
     "politeness_note": "同学或同事讨论英语原文时可直接引用 states；正式马来语正文应按语义采用 negeri、negara、keadaan 或 menyatakan。",
     "usage_etiquette": "不要把所有 states 都译为“州”，也不要把英语复数 -s 套用到马来语词上。输入未提供马来语音节或爪夷文，因此保留 null，不虚构规范马来语拼写。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

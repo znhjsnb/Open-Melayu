@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 9139,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "未核实为马来语普通词。Cotys 可为历史人名；小写 cotys 也见于生物学名 Ancema cotys。输入无法确定指代，因此不能标记为 official 或指定唯一发音。频率排名沿用输入。"
   },
   "morphology": {
@@ -89,5 +89,10 @@
   "sociolinguistic_register": {
     "politeness_note": "引用历史人物姓名时保留可靠来源采用的拼写；没有确定人物前，不随意添加头衔、身份或中文译名细节。",
     "usage_etiquette": "人名通常首字母大写；双名法中的种加词通常小写，并与属名一起使用斜体。两种书写习惯应按实际指代选择。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

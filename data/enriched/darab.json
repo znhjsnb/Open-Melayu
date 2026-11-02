@@ -1,0 +1,168 @@
+{
+  "headword": {
+    "word": "darab",
+    "syllables": "da.rab",
+    "ipa": "/da.rab/",
+    "jawi": "ضرب",
+    "frequency_rank": 13846,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "darab",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + darab → darab",
+    "pattern_note": "词根本身不带词缀。接 meN- 或 peN- 时，在 d 前分别采用 men-、pen-，词根首音 d 保留：mendarab、pendarab。",
+    "word_family": [
+      {
+        "word": "mendarab",
+        "affix": "meN-",
+        "gloss": "做乘法；相乘"
+      },
+      {
+        "word": "mendarabkan",
+        "affix": "meN-...-kan",
+        "gloss": "将某数乘以另一数"
+      },
+      {
+        "word": "pendaraban",
+        "affix": "peN-...-an",
+        "gloss": "乘法运算"
+      },
+      {
+        "word": "pendarab",
+        "affix": "peN-",
+        "gloss": "乘数"
+      },
+      {
+        "word": "daraban",
+        "affix": "-an",
+        "gloss": "倍数"
+      }
+    ],
+    "root_jawi": "ضرب"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "乘法；把一个数与另一个数相乘的数学运算。",
+      "en_definition": "Multiplication; the arithmetic operation of multiplying one number by another.",
+      "ms_definition": "Perkalian; kali-kali.",
+      "nuances": "现代主要用于数学。hasil darab 指乘积，pendaraban 指运算过程，daraban 指倍数，三者不宜混淆。名词义及古典义参见 [DBP PRPM：darab](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=darab)。",
+      "collocations": [
+        {
+          "ms": "hasil darab",
+          "zh": "乘积",
+          "en": "product"
+        },
+        {
+          "ms": "sifir darab",
+          "zh": "乘法表",
+          "en": "multiplication table"
+        },
+        {
+          "ms": "tanda darab",
+          "zh": "乘号",
+          "en": "multiplication sign"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "乘；将某个数乘以另一个数，常用于数学指令或口头列式。",
+      "en_definition": "Multiply; used especially in arithmetic instructions and spoken calculations.",
+      "ms_definition": "Mengalikan sesuatu nombor dengan nombor lain.",
+      "nuances": "祈使句中可直接说 Darab 5 dengan 3；完整陈述句通常用 mendarab 或 mendarabkan，例如 Murid mendarabkan lima dengan tiga。列式口语中的 lima darab tiga 相当于“五乘三”。无前缀指令式的实际用法参见 [DBP Khidmat Nasihat：darab](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=darab)。",
+      "collocations": [
+        {
+          "ms": "darab dengan sepuluh",
+          "zh": "乘以十",
+          "en": "multiply by ten"
+        },
+        {
+          "ms": "tiga darab empat",
+          "zh": "三乘四",
+          "en": "three times four"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "击打；一击，见于古典文学语境。",
+      "en_definition": "A blow or stroke, in older literary usage.",
+      "ms_definition": "Pukulan.",
+      "nuances": "此义见于 DBP 所引古典叙事，不是当代日常“打人”的常用表达。以下为帮助理解的文学性组合，不声称是现代高频搭配；现代通常用 pukulan 表示“一击”，用 memukul 表示“击打”。",
+      "collocations": [
+        {
+          "ms": "darab palu",
+          "zh": "锤击；重击",
+          "en": "a hammer blow"
+        },
+        {
+          "ms": "darab yang kuat",
+          "zh": "猛烈的一击",
+          "en": "a powerful blow"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jumlah kos diperoleh daripada hasil darab bilangan unit dengan harga seunit.",
+      "zh": "总成本由单位数量与单价相乘得出。",
+      "en": "The total cost is calculated by multiplying the number of units by the unit price."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Darab lima dengan dua je, dapat sepuluh.",
+      "ms_standard": "Darab lima dengan dua sahaja; hasilnya sepuluh.",
+      "zh": "五乘二就行，答案是十。",
+      "en": "Just multiply five by two. You get ten.",
+      "spoken_features": [
+        "je 是 sahaja 的口语形式。",
+        "dapat sepuluh 在口语中简洁表达“结果是十”。",
+        "数学指令使用不带 meN- 的 darab。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak beli lima pek, dua ringgit satu. Semua sekali berapa?",
+          "ms_standard": "Saya mahu membeli lima pek dengan harga dua ringgit setiap pek. Berapakah jumlah harganya?",
+          "zh": "我要买五包，一包两令吉，一共多少钱？",
+          "en": "I want five packs at two ringgit each. How much is that altogether?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Darab lima dengan dua je. Sepuluh ringgit lah.",
+          "ms_standard": "Darab lima dengan dua sahaja. Jumlahnya sepuluh ringgit.",
+          "zh": "五乘二就行啦，一共十令吉。",
+          "en": "Just multiply five by two. That's ten ringgit."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Darab belongs to Malay’s Arabic-derived vocabulary. Its older Roman spelling, dharab, was standardized as darab, while Jawi preserves ضرب. A striking contrast survives in the dictionary: an older literary sense means a blow, whereas the familiar classroom sense means multiplication. Today, related forms such as mendarab and pendaraban place the borrowed word firmly within Malay mathematical vocabulary. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=darab)",
+    "cognitive_memory_aid": "把 da.rab 读成两拍，同时想象两组各三件物品：2 darab 3 = 6。用分组图像记住“乘”，不要把 darab 与表示“倍数”的 daraban 混淆。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "数学指令中的 Darab… 属于正常课堂表达，并不天然失礼。向同事或长辈提出请求时，可说 Boleh tolong darabkan angka ini?，语气更委婉。",
+    "usage_etiquette": "适用于课堂、购物计算、财务和技术讨论。正式说明宜使用准确的 hasil darab、pendaraban 等术语；古典“击打”义主要用于阅读或讨论旧文学。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "数学指令中的 Darab… 属于正常课堂表达，并不天然失礼。向同事或长辈提出请求时，可说 Boleh tolong darabkan angka ini?，语气更委婉。",
+    "usage_etiquette": "适用于课堂、购物计算、财务和技术讨论。正式说明宜使用准确的 hasil darab、pendaraban 等术语；古典“击打”义主要用于阅读或讨论旧文学。"
+  },
+  "provenance": {
+    "has_official_dbp": true,
+    "source_type": "dbp_official",
+    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+  }
+}

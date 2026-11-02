@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 7080,
-    "status": "unverified",
+    "status": "corpus_usage",
     "data_note": "数据包没有释义或原文语境，无法确认此词项的身份。以下仅提供有来源支持的计算机命令义，不表示原始语料中的 ls 必然具有此义，也不表示它是 DBP 核定的马来语词条。"
   },
   "morphology": {
@@ -89,5 +89,10 @@
   "sociolinguistic_register": {
     "politeness_note": "向初学者说明时先说 perintah ls，并解释其用途；对同事提出操作请求可用 Boleh taip perintah ls?，语气较柔和。",
     "usage_etiquette": "此义适用于技术交流。保留命令的大小写和字符，不将其扩展为未经确认的马来语短语；脱离技术语境时须回看原文。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

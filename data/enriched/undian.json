@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "undian",
+    "syllables": "un.dian",
+    "ipa": "/undian/",
+    "jawi": "اوندين",
+    "frequency_rank": 5929,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "undi",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "undi + -an → undian",
+    "pattern_note": "后缀 -an 构成名词，词根 undi 不变；i 与后续 a 相接。输入的 un.dian 保留为分节标记；较快语流中可出现接近 [un.djan] 的读法。",
+    "word_family": [
+      {
+        "word": "undi",
+        "affix": null,
+        "gloss": "选票；票；抽签用的签"
+      },
+      {
+        "word": "mengundi",
+        "affix": "meN-",
+        "gloss": "投票；抽签决定"
+      },
+      {
+        "word": "pengundi",
+        "affix": "peN-",
+        "gloss": "投票者；选民"
+      },
+      {
+        "word": "pengundian",
+        "affix": "peN-...-an",
+        "gloss": "投票或抽签的过程"
+      }
+    ],
+    "root_jawi": "اوندي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "抽签、抽奖或彩票；以随机抽取方式决定名额、次序、奖项等的安排或结果。",
+      "en_definition": "A drawing of lots, prize draw or lottery in which an outcome is determined by chance.",
+      "ms_definition": "Sesuatu yang diundi; loteri.",
+      "nuances": "此义依靠随机抽取，与表达个人选择的投票义不同。cabutan undian 常指抽签或抽奖，undian wang 指金钱彩票。是否涉及博彩取决于具体活动，不能把所有 undian 都译成“赌博”。[DBP：undian](https://prpm.dbp.gov.my/Search?k=undian)",
+      "collocations": [
+        {
+          "ms": "cabutan undian",
+          "zh": "抽签；抽奖",
+          "en": "a drawing of lots; a prize draw"
+        },
+        {
+          "ms": "undian wang",
+          "zh": "金钱彩票",
+          "en": "a cash lottery"
+        },
+        {
+          "ms": "undian kumpulan",
+          "zh": "分组抽签",
+          "en": "a group draw"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "投票、表决；通过选票作出的选择、所得票数或形成的结果。",
+      "en_definition": "A vote or ballot expressing a choice, or the selection, tally or result produced by voting.",
+      "ms_definition": "Hasil mengundi; pemilihan undi.",
+      "nuances": "可用于组织选举、议案表决和网络投票。undian 常侧重选择或结果，pengundian 更明确地表示进行投票的过程，但实际用法存在重叠。指单张选票或一票时通常用 undi；“选票纸”是 kertas undi。DBP《学生词典》另收票数及 undian sulit 等用法。[DBP：undian](https://prpm.dbp.gov.my/Search?k=undian)",
+      "collocations": [
+        {
+          "ms": "keputusan undian",
+          "zh": "投票结果",
+          "en": "voting results"
+        },
+        {
+          "ms": "undian sulit",
+          "zh": "无记名投票",
+          "en": "a secret ballot"
+        },
+        {
+          "ms": "undian dalam talian",
+          "zh": "网络投票",
+          "en": "an online poll"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "罕见比喻义：为确定某事而进行的尝试或检验；试验。",
+      "en_definition": "Figuratively, a trial or test undertaken to determine something.",
+      "ms_definition": "Cubaan untuk menentukan sesuatu; ujian.",
+      "nuances": "《Kamus Dewan》收录此比喻义，但现代一般交流宜用 cubaan 或 ujian。这里的 ujian 不足以支持把 undian 普遍用于学校考试或技术测试。以下是解释该罕见义的组合，并非已证实的高频固定搭配。[DBP：undian，第3义](https://prpm.dbp.gov.my/Search?k=undian)",
+      "collocations": [
+        {
+          "ms": "undian dalam erti cubaan",
+          "zh": "表示“尝试”的 undian",
+          "en": "undian in the sense of a trial"
+        },
+        {
+          "ms": "undian dalam erti ujian",
+          "zh": "表示“检验”的 undian",
+          "en": "undian in the sense of a test"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Berdasarkan keputusan undian sulit, jawatankuasa bersetuju untuk melaksanakan cadangan tersebut.",
+      "zh": "根据无记名投票结果，委员会同意实施该建议。",
+      "en": "Following the secret ballot, the committee agreed to implement the proposal."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Undian kat grup dah tutup ke?",
+      "ms_standard": "Adakah undian dalam kumpulan itu sudah ditutup?",
+      "zh": "群里的投票已经结束了吗？",
+      "en": "Has the group poll closed yet?",
+      "spoken_features": [
+        "kat 在这里对应标准语的 dalam。",
+        "grup 是聊天中常见的非正式说法，标准语用 kumpulan。",
+        "dah 对应 sudah。",
+        "句末 ke 构成口语疑问，标准语可用 Adakah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Undian kat grup dah tutup ke? Saya nak pilih Sabtu.",
+          "ms_standard": "Adakah undian dalam kumpulan itu sudah ditutup? Saya hendak memilih hari Sabtu.",
+          "zh": "群里的投票结束了吗？我想选星期六。",
+          "en": "Has the group poll closed yet? I want to vote for Saturday."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi, undian tutup pukul sembilan malam ni. Pilih je sekarang.",
+          "ms_standard": "Belum. Undian akan ditutup pada pukul sembilan malam ini. Awak boleh membuat pilihan sekarang.",
+          "zh": "还没，今晚九点才结束。你现在直接选就行。",
+          "en": "Not yet. The poll closes at nine tonight. Go ahead and vote now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Undian is transparently formed from undi plus the noun-forming suffix -an. Its dictionary meanings connect two different ways of settling a choice: drawing lots and counting people's votes. A lottery draw selects by chance, whereas a ballot records preferences. This semantic connection is useful for understanding the word, but does not itself prove which meaning developed first. [DBP](https://prpm.dbp.gov.my/Search?k=undian)",
+    "cognitive_memory_aid": "把 undi 想成“投出一票或抽出一签”，加 -an 后把镜头转向所得选择或结果：undi + -an → undian。先判断靠意愿还是靠随机，就能区分投票与抽签。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "组织投票时，Sila buat pilihan dalam undian ini（请在本次投票中作出选择）语气正式得体。询问他人的政治选择时，可先确认对方是否愿意分享，避免把私人谈话变成追问。",
+    "usage_etiquette": "社团、工作群、活动安排及体育抽签中均可自然使用。彩票义应明确活动性质，避免将普通分组抽签误说成博彩。日常表达“考试”或“测试”时使用 peperiksaan 或 ujian。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "组织投票时，Sila buat pilihan dalam undian ini（请在本次投票中作出选择）语气正式得体。询问他人的政治选择时，可先确认对方是否愿意分享，避免把私人谈话变成追问。",
+    "usage_etiquette": "社团、工作群、活动安排及体育抽签中均可自然使用。彩票义应明确活动性质，避免将普通分组抽签误说成博彩。日常表达“考试”或“测试”时使用 peperiksaan 或 ujian。"
+  },
+  "provenance": {
+    "has_official_dbp": true,
+    "source_type": "dbp_official",
+    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+  }
+}

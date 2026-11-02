@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 5084,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "小写 amelia 已见于 DBP 医学及护理术语资料；大写 Amelia 另可作人名。输入缺少上下文，无法确定该排名对应哪一种用法；未核定的音节、音标和爪夷文保留为 null。"
   },
   "morphology": {
@@ -109,5 +109,10 @@
   "sociolinguistic_register": {
     "politeness_note": "谈及相关人士时使用尊重个人的表达，例如 individu dengan amelia，不用身体特征代替姓名，也不预设其生活能力。",
     "usage_etiquette": "医学义用于临床、护理、教学及研究讨论。公开交流不披露可识别的个人健康资料；人名义按本人姓名及合适称谓使用。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

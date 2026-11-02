@@ -5,7 +5,7 @@
     "ipa": "/fi.kir.kan.ɲa/",
     "jawi": null,
     "frequency_rank": 3760,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "这是可按标准马来语语法分析的组合形式，不表示 DBP 将整个带附着代词的形式单列为词条。输入包未提供音节划分与爪夷文，相关字段保留 null。"
   },
   "morphology": {
@@ -121,5 +121,10 @@
   "sociolinguistic_register": {
     "politeness_note": "直接说 Fikirkannya! 可能显得命令式。向长辈、客户或上级建议时，可说 Mohon pertimbangkan perkara ini（敬请考虑此事）。",
     "usage_etiquette": "需要给对方时间时，可用 Fikirkannya dahulu，不必催促即时表态。安慰别人时，Jangan fikirkannya lagi 有时会显得轻描淡写，应结合关系和事件严重程度使用。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/ˈdeɪ.mi.ən/",
     "jawi": null,
     "frequency_rank": 6425,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "official 仅保留请求指定的输出标签，不代表已核实 DBP 收录；本项按人名处理。",
     "pronunciation_note": "所列为常见英语读法；法语常读 /da.mjɛ̃/。具体人名以本人读法为准。"
   },
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "初次或正式交流可使用 Encik Damien，具体称谓随本人身份及偏好调整；朋友之间可直接称 Damien。",
     "usage_etiquette": "保留本人姓名的拼写与大小写，并尊重其读音。不能仅凭这个名字推断国籍、宗教或性格；没有确认的 Jawi 写法时保留 null。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

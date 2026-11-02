@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "terjual",
+    "syllables": "ter.jual",
+    "ipa": "/tərdʒual/",
+    "jawi": "ترجوال",
+    "frequency_rank": 9111,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jual",
+    "affix": "ter-",
+    "affix_type": "prefix",
+    "formula": "ter- + jual → terjual",
+    "pattern_note": "ter- 接在 jual 前，词根首辅音 j 保留，不发生鼻音替换；本词主要表达售出的结果，也可依语境表达能够售出。",
+    "word_family": [
+      {
+        "word": "menjual",
+        "affix": "meN-",
+        "gloss": "出售；卖"
+      },
+      {
+        "word": "jualan",
+        "affix": "-an",
+        "gloss": "商品；销售"
+      },
+      {
+        "word": "penjual",
+        "affix": "peN-",
+        "gloss": "卖家；售货者"
+      },
+      {
+        "word": "penjualan",
+        "affix": "peN-...-an",
+        "gloss": "出售行为；销售活动"
+      }
+    ],
+    "root_jawi": "جوال"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "已售出；已经卖掉，强调出售完成后的结果。",
+      "en_definition": "To have been sold; to be in the state resulting from a completed sale.",
+      "ms_definition": "Sudah dijual.",
+      "nuances": "常以商品、房屋或门票作主语。habis terjual 才明确表示全部售罄；terjual 本身不表示所有库存都已售出。前缀 ter- 在这里不必然表示无意或意外。释义依据：[DBP：terjual](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terjual)。",
+      "collocations": [
+        {
+          "ms": "habis terjual",
+          "zh": "全部售罄",
+          "en": "completely sold out"
+        },
+        {
+          "ms": "belum terjual",
+          "zh": "尚未售出",
+          "en": "not yet sold"
+        },
+        {
+          "ms": "terjual dengan harga tinggi",
+          "zh": "以高价售出",
+          "en": "sold at a high price"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "能够售出；卖得掉。",
+      "en_definition": "To be capable of being sold; to find a buyer.",
+      "ms_definition": "Dapat dijual.",
+      "nuances": "此义见 Kamus Pelajar。常出现于 tidak、sukar 等表示否定或困难的语境。单独的 belum terjual 通常只是说尚未卖出，不能据此断定卖不掉。释义依据：[DBP：terjual](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terjual)。",
+      "collocations": [
+        {
+          "ms": "tidak terjual",
+          "zh": "卖不掉；未能售出",
+          "en": "cannot be sold; remains unsold"
+        },
+        {
+          "ms": "sukar terjual",
+          "zh": "难以卖出",
+          "en": "difficult to sell"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "有意拿来出售；打算出售，为词典另载的低频义。",
+      "en_definition": "To be intended for sale, in an uncommon dictionary-recorded use.",
+      "ms_definition": "Sahaja hendak dijual.",
+      "nuances": "Kamus Dewan 另列此义，不能简单并入“已售出”。现代交易中通常用 hendak dijual 或 untuk dijual 表达出售意向。以下组合本身无法区分此义与“已售出”，必须依赖上下文，不应当作现代常用的待售标示。释义依据：[DBP：terjual](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=terjual)。",
+      "collocations": [
+        {
+          "ms": "barang terjual",
+          "zh": "拟出售的物品（仅限本低频义的语境）",
+          "en": "goods intended for sale, in this uncommon sense"
+        },
+        {
+          "ms": "harta terjual",
+          "zh": "拟出售的财产（仅限本低频义的语境）",
+          "en": "property intended for sale, in this uncommon sense"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sebanyak 120 unit rumah telah terjual sejak projek itu dilancarkan pada bulan Januari.",
+      "zh": "自该项目于一月推出以来，已有120套房屋售出。",
+      "en": "A total of 120 homes have been sold since the project was launched in January."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Basikal tu dah terjual ke?",
+      "ms_standard": "Adakah basikal itu sudah terjual?",
+      "zh": "那辆脚踏车已经卖掉了吗？",
+      "en": "Has that bike been sold already?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "dah 对应标准语 sudah。",
+        "句末 ke 构成口语疑问，标准语可用 adakah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Basikal yang kau letak kat WhatsApp tu dah terjual ke?",
+          "ms_standard": "Adakah basikal yang kamu iklankan melalui WhatsApp itu sudah terjual?",
+          "zh": "你放在 WhatsApp 上卖的那辆脚踏车，已经卖掉了吗？",
+          "en": "Has that bike you posted on WhatsApp been sold yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah terjual semalam. Ada orang datang ambil kat rumah je.",
+          "ms_standard": "Basikal itu sudah terjual semalam. Pembelinya datang mengambilnya di rumah saya.",
+          "zh": "昨天卖掉了，买家直接来我家拿的。",
+          "en": "Sold it yesterday. The buyer came straight to my house to pick it up."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Terjual is formed within Malay from jual and the prefix ter-. Its everyday commercial meaning places attention on the outcome: an item has found a buyer. The contrast with menjual is useful: menjual follows the seller’s action, while terjual follows the goods. Traditional expressions also extend selling into moral territory, as in the contrast between losing one’s life and losing one’s good name.",
+    "cognitive_memory_aid": "抓住 jual＝卖：menjual 看“谁在卖”，terjual 看“东西卖出去了”。想到商品贴上 SOLD 标签，就想到 terjual。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词语体中性，可用于商业报告和日常询价。回复陌生买家时可说 Maaf, barang ini sudah terjual，谢谢对方则可接 Terima kasih atas minat anda。",
+    "usage_etiquette": "交易中应区分 sudah terjual（已经卖出）、ditempah（已被预订）和 untuk dijual（待售）。商品只是被预订时，直接说 terjual 可能让其他买家误以为交易已经完成。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词语体中性，可用于商业报告和日常询价。回复陌生买家时可说 Maaf, barang ini sudah terjual，谢谢对方则可接 Terima kasih atas minat anda。",
+    "usage_etiquette": "交易中应区分 sudah terjual（已经卖出）、ditempah（已被预订）和 untuk dijual（待售）。商品只是被预订时，直接说 terjual 可能让其他买家误以为交易已经完成。"
+  },
+  "provenance": {
+    "has_official_dbp": true,
+    "source_type": "dbp_official",
+    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+  }
+}

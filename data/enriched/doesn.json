@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 8358,
-    "status": "unverified",
+    "status": "corpus_usage",
     "status_note": "输入形式身份未明；可能是英语 doesn't 被截断或分词后的片段，但缺少原文，不能确认。不能赋予其官方马来语词条身份。排名仅沿用输入。"
   },
   "morphology": {
@@ -89,5 +89,10 @@
   "sociolinguistic_register": {
     "politeness_note": "讨论他人文本时，可用 perlu disemak（需要核对），避免在未看原文前直接断言作者拼错。",
     "usage_etiquette": "仅在引用原始字符串或讨论文字问题时保留 doesn。日常马来语表达否定时，应依据句法和含义选择 tidak、bukan 等形式，不能机械替换。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

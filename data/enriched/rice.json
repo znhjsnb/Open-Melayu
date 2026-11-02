@@ -5,7 +5,7 @@
     "ipa": "/raɪs/",
     "jawi": null,
     "frequency_rank": 13401,
-    "status": "english",
+    "status": "corpus_usage",
     "validation_note": "这里按英语普通词解释，不认定为正式马来语词条。音标采用英语读音；音节字段保留输入的 null，英语中为单音节。没有据此生成官方 Jawi。排名仅沿用输入数据。"
   },
   "morphology": {
@@ -141,5 +141,10 @@
   "sociolinguistic_register": {
     "politeness_note": "rice 本身是中性英语词。与使用英语或混合语言的朋友交谈时可以自然出现；用马来语向店员点餐时，nasi putih、nasi goreng 等具体名称更清楚。",
     "usage_etiquette": "购物买生米用 beras，讨论种植用 padi，点熟饭用 nasi。菜单或产品名称中的英文 rice 应结合食物状态理解，不能机械固定成一个马来语译词。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

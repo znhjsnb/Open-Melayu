@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 6825,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "输入包没有词典释义，核查亦未取得可确认其为马来语普通词的 DBP 词条，因此不能标为 official。Khanna 可见于人名；这只是输入形式的一种可能解释，不能在缺少原始语境时确定。"
   },
   "morphology": {
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "若确认是姓名，应尊重本人使用的拼写与读音；不知道读法时可礼貌询问。",
     "usage_etiquette": "原始数据中的小写形式不能单独证明它是普通词。正式引用姓名时保留适当的大写，也不要仅凭姓氏推断个人的国籍、宗教或族群身份。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

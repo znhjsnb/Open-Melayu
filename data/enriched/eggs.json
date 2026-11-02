@@ -5,7 +5,7 @@
     "ipa": "/eɡz/",
     "jawi": null,
     "frequency_rank": 12280,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "这是英语形式，不能标为马来语官方词。常见名词用法是 egg 的复数，马来语对应 telur。数据包的 is_root=true 与英语形态分析不符，以下据实际构词更正；爪夷文和音节缺值保留。"
   },
   "morphology": {
@@ -161,5 +161,10 @@
   "sociolinguistic_register": {
     "politeness_note": "在熟悉英语的朋友间引用 eggs 很自然；正式马来语菜单、报告和一般说明宜使用 telur，避免假定所有读者都理解英语。",
     "usage_etiquette": "食品、生物学和动词语境须分开理解。点餐时可直接说 Saya mahu dua biji telur rebus；讨论他人饮食需求时按其明确要求确认。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

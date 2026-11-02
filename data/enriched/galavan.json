@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 5308,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "未能核实为正式马来语普通词，不能标记为 official。可核实的 Galavan 是外来姓氏，作为专名时首字母应大写。输入排名照录，不代表已验证的马来语词频。"
   },
   "morphology": {
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "专名本身没有已核实的马来语敬语等级。称呼真实人物时，应依据对方身份、惯用姓名及场合选择称谓；朋友对话中的 kau 不宜直接套用于正式交流。",
     "usage_etiquette": "适用于指称确实使用该姓名的人物。保留 Galavan 的大写形式，不将其当作已获认可的马来语普通词，也不自行添加派生词或推定贬义。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

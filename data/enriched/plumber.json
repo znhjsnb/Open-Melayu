@@ -5,7 +5,7 @@
     "ipa": "/ˈplʌmə(r)/",
     "jawi": null,
     "frequency_rank": 12343,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -139,5 +139,10 @@
   "sociolinguistic_register": {
     "politeness_note": "正式马来语文件优先使用 tukang paip。称呼从业者时可用 Encik、Puan 或对方姓名；交谈中说明具体故障即可。",
     "usage_etiquette": "这里的 official 仅保留请求中的条目状态值，不表示 plumber 获 DBP 认定为标准马来语词。ms_definition 为马来语释义，非冒充 DBP 原文；搭配采用标准马来语对应表达。缺失的音节及爪夷文保留 null，IPA 为英语读音。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

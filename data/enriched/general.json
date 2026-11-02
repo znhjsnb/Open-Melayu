@@ -5,7 +5,7 @@
     "ipa": "/ˈdʒen.ər.əl/",
     "jawi": null,
     "frequency_rank": 3538,
-    "status": "official",
+    "status": "corpus_usage",
     "language": "en",
     "status_note": "按请求保留 status 字段值；general 在此是英语词形，不表示它是规范马来语词头。输入包中的 various translations 是释义提示，不是音节。"
   },
@@ -222,5 +222,10 @@
   "sociolinguistic_register": {
     "politeness_note": "在马来西亚熟人或同事聊天中夹用英语 general 可以理解；正式马来语文件应按语义使用 umum、am、menyeluruh 或规范职衔。",
     "usage_etiquette": "正式例句通过引用英语词形展示用法；口语例句展示语码转换。不要将 general 当成可以替代所有马来语对应词的通用拼写。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

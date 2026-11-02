@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 14525,
-    "status": "nonstandard_ms_MY",
+    "status": "corpus_usage",
     "verification_note": "Prancis 是印度尼西亚官方文本采用的拼写；马来西亚规范用法为 Perancis。输入键及排名保留，但不将 prancis 标为马来西亚官方规范词形。输入未提供的音节、IPA 与爪夷文保留为 null。"
   },
   "morphology": {
@@ -134,5 +134,10 @@
   "sociolinguistic_register": {
     "politeness_note": "面向马来西亚读者的正式文字使用 Perancis。讨论印度尼西亚文本时，承认 Prancis 是当地官方使用的形式，避免把地区差异说成对方语言错误。",
     "usage_etiquette": "国名及其参与构成的语言、国籍名称均保留首字母大写。直接引文可保留原拼写；编辑正文时按目标地区统一。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

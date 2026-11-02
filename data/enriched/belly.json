@@ -5,7 +5,7 @@
     "ipa": "/ˈbel.i/",
     "jawi": null,
     "frequency_rank": 12616,
-    "status": "official",
+    "status": "corpus_usage",
     "language": "en",
     "lexical_note": "这是正式英语词，不是据此核定的标准马来语借词。DBP 将其列于英马词典。原始 syllables 值 n 是词性标签，不是音节；此处已更正。"
   },
@@ -187,5 +187,10 @@
   "sociolinguistic_register": {
     "politeness_note": "英语 belly 较生活化；正式马来语按语境使用 perut、abdomen 或具体部位名称。未经对方主动提起，避免评论其肚子大小或猜测是否怀孕。",
     "usage_etiquette": "适合英语学习、双语解释或明确的语码转换。标准马来语正文通常使用相应译词；必须保留英语时，可按出版规范标示外语词。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

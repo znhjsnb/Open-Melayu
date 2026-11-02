@@ -1,0 +1,100 @@
+{
+  "headword": {
+    "word": "balli",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11782,
+    "status": "corpus_usage"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "balli",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + balli → balli (kata dasar dalam bahasa Melayu Makasar; padanan bahasa Melayu standard: beli)",
+    "pattern_note": "按有文献支持的望加锡马来语用法作为整体词根处理；没有依据分析为英语 ball + 马来语后缀 -i。输入包缺少读音、分音节和爪夷文资料，因此保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "〔望加锡马来语地区用语〕买，购买；对应标准马来语 beli。",
+      "en_definition": "In Makassar Malay, to buy or purchase; equivalent to standard Malay beli.",
+      "ms_definition": "Dalam bahasa Melayu Makasar, membeli sesuatu; padanannya dalam bahasa Melayu standard ialah beli.",
+      "nuances": "Kamus Melayu Makasar-Indonesia 将 balli 释为 beli；这里的马来文释义是据此编写的解释，并非 DBP 原文。该地区义项有据，但缺少原始字幕，无法断定输入词例一定属于此义。不得将其标为已核实的马来西亚标准词，因此 status 使用 regional。以下搭配来自地区词典例句，未取得频率统计。来源：[Kamus Melayu Makasar-Indonesia：balli、balong](https://repositori.kemendikdasmen.go.id/2943/1/Kamus%20Melayu%20Makasar-Indonesia%20-%20159h.pdf)、[同词典：barras](https://repositori.kemendikdasmen.go.id/23842/1/KAMUS%20MELAYU%20MAKASAR%20-%20INDONESIA.pdf)。",
+      "collocations": [
+        {
+          "ms": "balli barras",
+          "zh": "买米〔望加锡马来语〕",
+          "en": "buy rice, in Makassar Malay"
+        },
+        {
+          "ms": "balliko dulu balong lampu",
+          "zh": "先买灯泡〔望加锡马来语词典例句片段〕",
+          "en": "buy a light bulb first, in a Makassar Malay dictionary example"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam kamus bahasa Melayu Makasar, perkataan balli diberikan padanan beli.",
+      "zh": "望加锡马来语词典将 balli 对译为 beli，意思是“买”。",
+      "en": "The Makassar Malay dictionary gives beli, meaning “buy,” as the equivalent of balli."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku jumpa perkataan balli kat kamus ni. Maksudnya beli ke?",
+      "ms_standard": "Saya menemukan perkataan balli dalam kamus ini. Adakah maksudnya beli?",
+      "zh": "我在这本词典里看到 balli，是“买”的意思吗？",
+      "en": "I found balli in this dictionary. Does it mean “buy”?",
+      "spoken_features": [
+        "aku 用于熟人之间，对应此处标准表达 saya",
+        "kat 对应 dalam",
+        "ni 对应 ini",
+        "句末 ke 表示口语疑问",
+        "je 对应 sahaja",
+        "例句以马来西亚口语讨论地区词，没有将 balli 当作马来西亚通行词使用"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku jumpa perkataan balli kat kamus ni. Maksudnya beli ke?",
+          "ms_standard": "Saya menemukan perkataan balli dalam kamus ini. Adakah maksudnya beli?",
+          "zh": "我在这本词典里看到 balli，是“买”的意思吗？",
+          "en": "I found balli in this dictionary. Does it mean “buy”?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Ya, dalam bahasa Melayu Makasar. Kalau kat Malaysia, guna beli je.",
+          "ms_standard": "Ya, dalam bahasa Melayu Makasar. Untuk penggunaan di Malaysia, gunakan perkataan beli sahaja.",
+          "zh": "对，在望加锡马来语里是这个意思。在马来西亚用 beli 就行。",
+          "en": "Yes, in Makassar Malay. In Malaysia, just use beli."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "A regional dictionary provides a firmer clue than the spelling alone: Kamus Melayu Makasar-Indonesia records balli as beli, meaning buy, and illustrates it in everyday shopping language. This documents a regional Malay form rather than an English word with a Malay suffix. Its deeper historical development and the identity of the supplied subtitle token remain unverified. Source: [Kamus Melayu Makasar-Indonesia](https://repositori.kemendikdasmen.go.id/2943/1/Kamus%20Melayu%20Makasar-Indonesia%20-%20159h.pdf).",
+    "cognitive_memory_aid": "把 balli 与熟悉的 beli 并排记：望加锡地区形式 balli → 标准语 beli → 买。不要拆成 ball + i；这个对应关系也不能代替原句语境判断。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "地区词形不等于说话者说错了；介绍时宜说明“这是望加锡马来语的说法”。在马来西亚正式写作中表达“购买”，使用 beli 或 membeli。",
+    "usage_etiquette": "适合地区语言研究、词典说明及有明确地域背景的引用。缺少原句时，不宜将字幕中的 balli 自动改为 beli，也不宜擅自认定它来自英语 ball。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "地区词形不等于说话者说错了；介绍时宜说明“这是望加锡马来语的说法”。在马来西亚正式写作中表达“购买”，使用 beli 或 membeli。",
+    "usage_etiquette": "适合地区语言研究、词典说明及有明确地域背景的引用。缺少原句时，不宜将字幕中的 balli 自动改为 beli，也不宜擅自认定它来自英语 ball。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
+  }
+}

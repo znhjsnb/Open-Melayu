@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 13688,
-    "status": "official",
+    "status": "corpus_usage",
     "verification_note": "已核实 DBP 百科资料中的地名 Pune，规范书写须大写首字母；这里保留输入词形作为映射标识。此身份属于专名，不能据此认定小写 pune 是马来语普通词。未核实标准马来语音标或爪夷文；频率排名沿用输入。"
   },
   "morphology": {
@@ -94,5 +94,10 @@
   "sociolinguistic_register": {
     "politeness_note": "地名本身没有敬语要求；正式文书首次出现时可写 Pune, India，便于读者定位。",
     "usage_etiquette": "当代地点名称使用 Pune；Poona 可保留在历史引文或含该拼写的正式名称中。不能因为名称相似而将 Pune 与其他印度城市混同。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/ˈkɒlɪnz/",
     "jawi": null,
     "frequency_rank": 5235,
-    "status": "context_dependent",
+    "status": "corpus_usage",
     "verification_note": "输入没有上下文，不能确定指姓氏 Collins、出版品牌 Collins，还是英语饮品名 collins，也不能标为官方马来语普通词。以下区分这些候选用法。音标为英语参考读音；排名沿用输入，音节与爪夷文缺项保留 null。"
   },
   "morphology": {
@@ -130,5 +130,10 @@
   "sociolinguistic_register": {
     "politeness_note": "指人时采用本人认可的称谓，如 Encik Collins 或相应专业头衔；指品牌时直接保留 Collins，无需人名称谓。",
     "usage_etiquette": "先依据语境区分人物、品牌与饮品。涉及饮品时明确说明是否含酒精，尊重对方的饮食选择；不能仅凭品牌或姓氏推断个人身份。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/dɪsk/",
     "jawi": null,
     "frequency_rank": 9766,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "按指定格式保留 official 标签；计算机义按英语术语及马来语混用形式处理，不能据此宣称 disk 是 DBP 推荐的马来语计算机术语。对应规范术语为 cakera。"
   },
   "morphology": {
@@ -111,5 +111,10 @@
   "sociolinguistic_register": {
     "politeness_note": "这个词本身没有冒犯性。与熟悉英语界面的同事交流时可以直接使用；面向公众或正式文件时，优先用 cakera，并在需要时附上英语术语。",
     "usage_etiquette": "引用界面原文时保留 disk，便于对应实际按钮或错误信息。给非技术用户解释时，用 ruang storan 等明确表达，避免让对方误以为所有存储设备都是机械硬盘。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -1,0 +1,160 @@
+{
+  "headword": {
+    "word": "jana",
+    "syllables": "ja.na",
+    "ipa": "/dʒa.na/",
+    "jawi": "جان",
+    "frequency_rank": 14710,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "jana",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + jana → jana；meN- + jana → menjana",
+    "pattern_note": "jana 是无词缀词根。加 meN- 时采用 men-，词首 j 保留，形成 menjana；加 peN- 时形成 penjana。",
+    "word_family": [
+      {
+        "word": "menjana",
+        "affix": "meN-",
+        "gloss": "产生；创造；生成"
+      },
+      {
+        "word": "menjanakan",
+        "affix": "meN-…-kan",
+        "gloss": "产生；制造；使形成"
+      },
+      {
+        "word": "terjana",
+        "affix": "ter-",
+        "gloss": "已产生；得以形成"
+      },
+      {
+        "word": "penjana",
+        "affix": "peN-",
+        "gloss": "发生器；产生某物的装置或因素"
+      },
+      {
+        "word": "penjanaan",
+        "affix": "peN-…-an",
+        "gloss": "产生；生成的过程"
+      },
+      {
+        "word": "dijana",
+        "affix": "di-",
+        "gloss": "被产生；被生成"
+      }
+    ],
+    "root_jawi": "جان"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "产生、创造或生成某种成果，如电力、收入、想法或电脑输出。",
+      "en_definition": "To generate or produce something, such as electricity, income, ideas, or computer output.",
+      "ms_definition": "Menghasilkan, mengadakan, melahirkan atau mengeluarkan sesuatu.",
+      "nuances": "现代常用义。jana 常见于祈使句、操作按钮及口语；正式主动陈述句通常使用 menjana 或 menjanakan，带施事者的被动结构可用 saya jana 等形式。电脑语境中特指按照规则或设定生成输出。不能把所有表示改善的动词都换成 menjana，例如‘改善健康’通常用 meningkatkan kesihatan。定义及用法依据：[DBP PRPM：jana](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jana)、[DBP：menjana 用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menjana)。",
+      "collocations": [
+        {
+          "ms": "jana pendapatan",
+          "zh": "创造收入",
+          "en": "generate income"
+        },
+        {
+          "ms": "jana kuasa elektrik",
+          "zh": "产生电力",
+          "en": "generate electricity"
+        },
+        {
+          "ms": "jana idea",
+          "zh": "产生想法",
+          "en": "generate ideas"
+        },
+        {
+          "ms": "jana laporan",
+          "zh": "生成报告",
+          "en": "generate a report"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "生命；性命。属于现代日常交流中少用的词义。",
+      "en_definition": "Life or vital existence; a sense uncommon in contemporary everyday usage.",
+      "ms_definition": "Hidup; nyawa.",
+      "nuances": "《Kamus Dewan》第四版收录 hidup、nyawa 两项释义；日常表达生命或性命通常使用 kehidupan、hidup 或 nyawa。本义未查得可核验的现代高频搭配，因此以下两项是词义讲解短语，不冒充惯用搭配。另有固定旧词 jana-bijana，意为‘出生地’，应整体理解，不能据此把独立的 jana 普遍译为‘出生地’。来源：[DBP PRPM：jana](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jana)。",
+      "collocations": [
+        {
+          "ms": "jana dalam erti hidup",
+          "zh": "表示‘生命’之义的 jana",
+          "en": "jana in the sense of life"
+        },
+        {
+          "ms": "jana dalam erti nyawa",
+          "zh": "表示‘性命’之义的 jana",
+          "en": "jana in the sense of vital existence"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 系统操作指示",
+      "ms": "Sila jana laporan pendapatan bulanan melalui sistem sebelum mesyuarat bermula.",
+      "zh": "请在会议开始前通过系统生成月度收入报告。",
+      "en": "Please generate the monthly income report through the system before the meeting begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事之间确认工作进度",
+      "ms_spoken": "Kau dah jana laporan tu ke?",
+      "ms_standard": "Adakah awak sudah menjana laporan itu?",
+      "zh": "你生成那份报告了吗？",
+      "en": "Have you generated that report yet?",
+      "spoken_features": [
+        "kau 是熟人之间的第二人称称呼。",
+        "dah 是 sudah 的口语形式。",
+        "tu 是 itu 的口语形式。",
+        "句末 ke 标记口语疑问。",
+        "口语主动句可省略 meN-，使用 jana；标准对应句使用 menjana。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Kau dah jana laporan tu ke? Bos nak tengok petang ni.",
+          "ms_standard": "Adakah awak sudah menjana laporan itu? Ketua kita mahu melihatnya petang ini.",
+          "zh": "你生成那份报告了吗？老板今天下午要看。",
+          "en": "Have you generated that report yet? The boss wants to see it this afternoon."
+        },
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Dah, aku jana kat sistem tadi. Nak semak jumlah je lagi.",
+          "ms_standard": "Sudah, saya telah menjana laporan itu melalui sistem tadi. Saya hanya perlu menyemak jumlahnya lagi.",
+          "zh": "生成了，我刚才在系统里弄好了。就剩核对总数了。",
+          "en": "Yes, I generated it in the system earlier. I just need to check the totals."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP’s dictionary preserves jana with meanings relating to life, alongside derivatives describing production and generation. It also records jana-bijana, meaning birthplace. Modern technical vocabulary uses jana for generating computer output. These records offer a memorable connection between life and production, but they do not establish a dated sequence of semantic change or a particular borrowing route. [Source: DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=jana).",
+    "cognitive_memory_aid": "把 ja.na 的两拍联想成发电机启动的两声：一启动，就‘产生’电力；再连记 jana pendapatan＝创造收入。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "jana 本身没有冒犯意味。向客户、上司或不熟悉的人提出请求时，可用 Boleh bantu jana laporan ini?（能帮忙生成这份报告吗？）；正式操作指示可用 Sila jana…。kau、aku 更适合关系熟悉且彼此接受这种称呼的人。",
+    "usage_etiquette": "适用于科技、电力、商业及创意讨论。正式陈述宜使用完整词形，如 Sistem ini menjana laporan secara automatik。谈论人的生命、伤亡或慰问时，通常使用 nyawa 或 kehidupan，避免使用少见的 jana 旧义而造成理解困难。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "jana 本身没有冒犯意味。向客户、上司或不熟悉的人提出请求时，可用 Boleh bantu jana laporan ini?（能帮忙生成这份报告吗？）；正式操作指示可用 Sila jana…。kau、aku 更适合关系熟悉且彼此接受这种称呼的人。",
+    "usage_etiquette": "适用于科技、电力、商业及创意讨论。正式陈述宜使用完整词形，如 Sistem ini menjana laporan secara automatik。谈论人的生命、伤亡或慰问时，通常使用 nyawa 或 kehidupan，避免使用少见的 jana 旧义而造成理解困难。"
+  },
+  "provenance": {
+    "has_official_dbp": true,
+    "source_type": "dbp_official",
+    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+  }
+}

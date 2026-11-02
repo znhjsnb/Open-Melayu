@@ -5,7 +5,7 @@
     "ipa": "/striːk/",
     "jawi": null,
     "frequency_rank": 9854,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "英语词项，其作为标准马来语词的身份未获证实。输入 syllables 中的 rambut 是马来语“头发”，不是音节资料，因此改为 null；英语 streak 为单音节。保留未提供的爪夷文为 null。[Merriam-Webster](https://www.merriam-webster.com/dictionary/streak)"
   },
   "morphology": {
@@ -200,5 +200,10 @@
   "sociolinguistic_register": {
     "politeness_note": "和熟悉相关应用的朋友谈 streak 通常容易理解；面对不熟悉该术语的人，说明为 bilangan hari berturut-turut 更清楚。",
     "usage_etiquette": "正式文件可先解释英语界面术语，再使用马来语说明。不要将连续打卡天数直接等同于能力；谈发色、性格或运动时，应依语境选择相应含义。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

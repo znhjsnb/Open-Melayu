@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 12750,
-    "status": "informal",
+    "status": "corpus_usage",
     "validation_note": "可核实重复形式 bla bla 在马来语非正式语篇中的使用，但未取得支持单独形式 bla 为官方标准词目的 DBP 定义。词频排名沿用输入数据；缺失的音节、音标和爪夷取字不作伪补。"
   },
   "morphology": {
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "模仿别人说话时可能显得轻蔑，尤其不宜用来概括上司、长辈或客户刚说过的话。",
     "usage_etiquette": "适合熟人之间的轻松叙述或自嘲。正式概述可用 dan sebagainya；需要准确记录时应写出实质内容。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

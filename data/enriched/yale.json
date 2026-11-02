@@ -5,7 +5,7 @@
     "ipa": "/jeɪl/",
     "jawi": null,
     "frequency_rank": 13483,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -109,5 +109,10 @@
   "sociolinguistic_register": {
     "politeness_note": "正式文本应写 Yale；首次提及大学时写 Universiti Yale，提及产品时写 jenama Yale，可减少歧义。",
     "usage_etiquette": "保留个人姓氏或品牌的原有拼写。输入包未提供爪夷文和音节字段，应保留 null，不把自行音译当成官方形式。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

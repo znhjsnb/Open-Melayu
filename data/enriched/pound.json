@@ -5,7 +5,7 @@
     "ipa": "/paʊnd/",
     "jawi": null,
     "frequency_rank": 5231,
-    "status": "foreign_form",
+    "status": "corpus_usage",
     "verification_note": "pound 是这里保留的英语拼写；DBP 拼写指南明确给出 pound → paun。不得把英语拼写标为标准马来语 official。音标为英语读音；排名沿用输入，音节与爪夷文缺项保留 null。"
   },
   "morphology": {
@@ -129,5 +129,10 @@
   "sociolinguistic_register": {
     "politeness_note": "词本身没有敬语或冒犯色彩；应根据听者选择熟悉的表达。正式马来语中的货币和重量单位通常写作 paun。",
     "usage_etiquette": "谈价格时说明是哪一种货币；谈重量时避免与公斤混用。保留英语原词适合引用、标签解读或双方都理解的非正式交流。DBP 明列拼写对应 pound → paun。[DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

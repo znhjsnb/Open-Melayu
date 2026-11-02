@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 14080,
-    "status": "attested_loanword",
+    "status": "corpus_usage",
     "verification_note": "马来西亚体育语境确有 dart 用例，但 DBP 对该运动建议使用 baling damak，不能据此标为已核实的官方普通词。缺少已核实的马来语音节、音标和爪夷取写，保留 null。排名沿用输入数据。"
   },
   "morphology": {
@@ -109,5 +109,10 @@
   "sociolinguistic_register": {
     "politeness_note": "属于中性的体育词。正式马来语材料可优先采用 baling damak，并在首次出现时附注 dart。",
     "usage_etiquette": "适用于体育活动、比赛和休闲交流，不必联想到酒吧或博彩。实际活动名称若使用 Dart，可按主办方名称保留。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

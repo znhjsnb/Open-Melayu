@@ -5,7 +5,7 @@
     "ipa": "/ˈsɪs.təm/",
     "jawi": null,
     "frequency_rank": 13969,
-    "status": "foreign_spelling",
+    "status": "corpus_usage",
     "validation_note": "system 是英语拼写；标准马来语对应形式为 sistem。输入的 syllables 值 various translations 不是音节数据，故改为 null。音标采用英语读音，爪夷文保留输入中的空值，排名仅沿用输入。参见 [DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)及 [Cambridge 发音](https://dictionary.cambridge.org/pronunciation/english/system)。"
   },
   "morphology": {
@@ -147,5 +147,10 @@
   "sociolinguistic_register": {
     "politeness_note": "内部聊天可随群体习惯混用英语；面向公众的马来语文件、考试和正式报告宜使用 sistem。",
     "usage_etiquette": "引用英语原文、界面标签或专有名称时可保留 system。向不熟悉英语术语的人解释时，使用 sistem 并说明具体功能。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

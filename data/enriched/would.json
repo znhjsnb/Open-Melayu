@@ -5,7 +5,7 @@
     "ipa": "/wʊd/",
     "jawi": null,
     "frequency_rank": 8193,
-    "status": "official",
+    "status": "corpus_usage",
     "language": "en",
     "register": "standard English",
     "verification_note": "这是英语情态助动词，不能标作已核实的规范马来语词。status 仅保留所要求的记录标签。输入未提供音节或爪夷文，故保留 null；英语实际为单音节。"
@@ -191,5 +191,10 @@
   "sociolinguistic_register": {
     "politeness_note": "英语 would 可使请求较委婉，但礼貌程度仍受称呼、语调和请求内容影响。马来语公函应使用适当的马来语请求表达。",
     "usage_etiquette": "适用于英语交流、英语教学及明确的语码转换。规范马来语句子不能把 would 当作 akan 的通用替代词；正式马来语文本讨论该词时宜加引号或使用斜体。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

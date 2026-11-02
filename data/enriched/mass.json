@@ -5,7 +5,7 @@
     "ipa": "/mæs/",
     "jawi": null,
     "frequency_rank": 6301,
-    "status": "foreign",
+    "status": "corpus_usage",
     "validation_note": "作为英语词及翻译参照处理，不标记为已核实的标准马来语词头。原包的 syllables 值 various translations 不是音节划分，已改为英语单音节形式；IPA 为美式英语。Jawi 保留 null。下列马来语释义和搭配是英语各义的对应表达，不是 mass 的官方马来语释义。"
   },
   "morphology": {
@@ -189,5 +189,10 @@
   "sociolinguistic_register": {
     "politeness_note": "双语课堂或熟人交流中夹用英语 mass 可以理解；正式马来语写作应选用相应的马来语术语。",
     "usage_etiquette": "宗教语境中的 Mass 指弥撒，须尊重具体教会的称谓和礼仪；不能按科学义解释。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

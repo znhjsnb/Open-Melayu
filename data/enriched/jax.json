@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 8691,
-    "status": "unverified",
+    "status": "corpus_usage",
     "status_note": "未核实为标准马来语普通词，不能标记为官方马来语词条。可核实的技术用法是占碑马来语的 ISO 639-3 代码；以下仅说明该代码用法，不能据此确定原始语料中的含义。"
   },
   "morphology": {
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "面向普通读者时先写 bahasa Melayu Jambi，再附代码 jax，避免只用代码使人难以理解。",
     "usage_etiquette": "适用于语言学、编目和资料标注。脱离这些语境时，应先核实原文所指；不要自行补造普通词义、读音、爪夷拼写或派生词。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/ˈtʃɛl.si/",
     "jawi": null,
     "frequency_rank": 9913,
-    "status": "official",
+    "status": "corpus_usage",
     "data_note": "status 为所要求的记录标签，不表示 DBP 审定。输入检索键保留小写；作为地名、球队名或人名，正文规范写法为 Chelsea。IPA 为英语读音，其他缺失字段保留 null，排名沿用输入。"
   },
   "morphology": {
@@ -130,5 +130,10 @@
   "sociolinguistic_register": {
     "politeness_note": "作为地名和球队名没有敬语要求；作为人名时，应使用本人认可的称呼，正式场合可配合适当头衔。不要因名字推断对方的国籍或身份。",
     "usage_etiquette": "马来语正文须写 Chelsea。球迷之间可以轻松交流，但在不熟悉的人际关系中避免以球队归属嘲讽对方；正式报道宜首次写出 Chelsea Football Club。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

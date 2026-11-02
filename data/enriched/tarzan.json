@@ -5,7 +5,7 @@
     "ipa": "[tar.zan]",
     "jawi": null,
     "frequency_rank": 4385,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "official 为请求指定的状态标签，不代表已核实 DBP 收录或核准。规范大小写为 Tarzan；马来文释义为编写释义，非 DBP 引文。输入未提供音节划分或爪夷文，故保留 null。",
     "ipa_note": "按马来语拼读给出的宽式参考转写，非经核实的官方读音。"
   },
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "谈论文学或电影角色时语气中性；把真人叫作 Tarzan 可能带有取笑其外貌、衣着或举止的意味。",
     "usage_etiquette": "适合影视、阅读和角色讨论。除非对方接受这个昵称，否则避免用来称呼他人，尤其不要借此贬低族群或生活方式。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

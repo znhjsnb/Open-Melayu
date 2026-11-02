@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 9137,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "尚未核实为马来语普通词。法语 salle 有“房间、厅堂”义，也可能出现在专名中；输入未提供足以确定指代的上下文。不能据此标记为 official。频率排名沿用输入。"
   },
   "morphology": {
@@ -89,5 +89,10 @@
   "sociolinguistic_register": {
     "politeness_note": "若属于人名或机构名称，应保留原有拼写、大小写及当事方使用的读音。",
     "usage_etiquette": "马来语一般空间描述宜使用 bilik、ruang 或 dewan；只有引用法语、解释原文或保留专名时才使用 salle。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

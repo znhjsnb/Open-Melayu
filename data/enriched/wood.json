@@ -5,7 +5,7 @@
     "ipa": "/wʊd/",
     "jawi": null,
     "frequency_rank": 13113,
-    "status": "official",
+    "status": "corpus_usage",
     "language": "en",
     "status_note": "按请求保留 official 字段值；该值不表示 wood 已获 DBP 认定为标准马来语词。此项作为英语词及语码转换材料处理。"
   },
@@ -142,5 +142,10 @@
   "sociolinguistic_register": {
     "politeness_note": "马来西亚熟人聊天中可能出现英语与马来语混用；面对不熟悉英语的听者，改用 kayu 更清楚。",
     "usage_etiquette": "正式马来语材料说明使用 kayu；只有在引用英语规格、商品名称或解释术语时保留 wood。普通材料义是中性词，没有特殊禁忌。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

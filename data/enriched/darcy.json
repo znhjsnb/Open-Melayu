@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 7083,
-    "status": "unverified",
+    "status": "corpus_usage",
     "data_note": "科学单位 darcy 的身份可以核实，但数据包不足以确定原始语料采用单位义还是专名 Darcy，也不足以认定其为 DBP 核定词条。以下列出两种候选解释；未指定马来语规范读音或爪夷文。"
   },
   "morphology": {
@@ -121,5 +121,10 @@
   "sociolinguistic_register": {
     "politeness_note": "讨论专业资料时，先解释单位并明确换算关系；向非专业听众介绍时可补充 unit ketelapan，避免仅报一个陌生术语。",
     "usage_etiquette": "单位名通常写 darcy，人名写 Darcy。报告中应统一单位写法；没有原文语境时，不应把词频表中的 darcy 自动归入某位人物或科学单位。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

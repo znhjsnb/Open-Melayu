@@ -5,7 +5,7 @@
     "ipa": "/te.ro.ris/",
     "jawi": null,
     "frequency_rank": 11474,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "保留请求指定的记录状态 official；此标签不表示 DBP 认可该词为马来西亚规范用词。DBP 推荐使用 pengganas。"
   },
   "morphology": {
@@ -100,5 +100,10 @@
   "sociolinguistic_register": {
     "politeness_note": "属于严重指控性称谓。描述尚未证实的个案时，应准确交代消息来源及嫌疑状态，例如 suspek pengganas。",
     "usage_etiquette": "适合新闻识读、翻译和地区用词比较；不要因为某人的宗教、族群或政治立场而随意使用这一标签。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

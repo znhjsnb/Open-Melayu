@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "sesudah",
+    "syllables": "se.su.dah",
+    "ipa": "/sə.su.dah/",
+    "jawi": "سوده",
+    "frequency_rank": 11244,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sudah",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + sudah → sesudah",
+    "pattern_note": "前缀 se- 的 e 读 /ə/；词根 sudah 的首辅音 s 保留，不发生鼻音同化。输入 Jawi سوده 属于 sudah；sesudah 的规范 Jawi 为 سسوده。",
+    "word_family": [
+      {
+        "word": "menyudahkan",
+        "affix": "meN-…-kan",
+        "gloss": "完成；结束某事"
+      },
+      {
+        "word": "kesudahan",
+        "affix": "ke-…-an",
+        "gloss": "结局；结果"
+      },
+      {
+        "word": "penyudah",
+        "affix": "peN-",
+        "gloss": "收尾部分；终结者"
+      }
+    ],
+    "root_jawi": "سوده"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "在某一动作完成或某件事情发生之后；引导表示先行事件的时间从句。",
+      "en_definition": "After an action has been completed or an event has occurred.",
+      "ms_definition": "Setelah selesai melakukan sesuatu atau setelah sesuatu peristiwa berlaku.",
+      "nuances": "强调事件的先后顺序，不必然表示紧接着发生，也不表示因果关系。与 setelah、selepas 意义接近；马来西亚日常口语常用 lepas。输入释义属于词根 sudah，不能直接作为 sesudah 的释义。headword.jawi 按数据包保留，规范拼写为 سسوده。参见 [DBP：sesudah](https://prpm.dbp.gov.my/cari1?keyword=sesudah)。",
+      "collocations": [
+        {
+          "ms": "sesudah makan",
+          "zh": "吃饭之后",
+          "en": "after eating"
+        },
+        {
+          "ms": "sesudah selesai mesyuarat",
+          "zh": "会议结束之后",
+          "en": "after the meeting has ended"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "在所指的时间或事件之后；后接名词性成分。",
+      "en_definition": "Following a specified time or event.",
+      "ms_definition": "Selepas waktu atau peristiwa yang dinyatakan.",
+      "nuances": "这是同一时间意义在名词性成分前的用法，与后接从句的连词用法作句法区分，并非另一个无关词义。sesudah itu 表示“那之后”，sesudah ini 表示“这之后”。正式行文可依上下文选用 selepas。DBP 的英马词典亦将 sesudah 列为介词 after 的对应词，参见 [DBP：after／selepas](https://prpmv1.dbp.gov.my/Search.aspx?k=selepas)。",
+      "collocations": [
+        {
+          "ms": "sesudah itu",
+          "zh": "那之后；随后",
+          "en": "after that"
+        },
+        {
+          "ms": "sesudah waktu pejabat",
+          "zh": "办公时间之后",
+          "en": "after office hours"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan akhir akan dikemukakan sesudah semua maklumat disahkan.",
+      "zh": "所有资料核实后，将提交最终报告。",
+      "en": "The final report will be submitted after all information has been verified."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Sesudah makan nanti, kita jumpa kat kedai tu, ya?",
+      "ms_standard": "Sesudah makan nanti, kita berjumpa di kedai itu, ya?",
+      "zh": "待会儿吃完饭，我们在那家店见，好吗？",
+      "en": "Let's meet at that shop after we eat, okay?",
+      "spoken_features": [
+        "kat 对应标准语 di，表示地点。",
+        "tu 对应 itu。",
+        "ya 用于征求对方认同，语气较柔和。",
+        "例句保留目标词 sesudah；随意聊天中常改说 lepas makan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Sesudah makan nanti, kita jumpa kat kedai tu, ya?",
+          "ms_standard": "Sesudah makan nanti, kita berjumpa di kedai itu, ya?",
+          "zh": "待会儿吃完饭，我们在那家店见，好吗？",
+          "en": "Let's meet at that shop after we eat, okay?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh. Aku dah siap, tunggu kau je.",
+          "ms_standard": "Boleh. Saya sudah bersedia dan hanya menunggu kamu.",
+          "zh": "可以啊。我已经准备好了，就等你了。",
+          "en": "Sure. I'm ready—just waiting for you."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sesudah belongs to the Malay word family built around sudah, which expresses completion or an accomplished state. Adding se- produces a temporal connector: one event is completed before another begins. DBP also records related forms such as kesudahan and menyudahkan. This family offers a useful cultural reading pattern: stories move from an accomplished action to what happens next, often through sesudah or setelah.",
+    "cognitive_memory_aid": "抓住 sudah 的“已经完成”：A sudah 完成了，B 才接上；sesudah A 就是“A 之后”。这是构词记忆提示。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "sesudah 本身没有敬语或贬义，适合正式说明、叙述和礼貌安排。与长辈或客户沟通时，礼貌主要由称呼、请求方式和整句语气体现。",
+    "usage_etiquette": "安排事项时可用 sesudah 明确先后顺序。它只说明“之后”，不能单独表达“立即之后”；需要强调立即衔接时，可加 sejurus。朋友聊天中使用 sesudah 可以理解，但通常比 lepas 更书面。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "sesudah 本身没有敬语或贬义，适合正式说明、叙述和礼貌安排。与长辈或客户沟通时，礼貌主要由称呼、请求方式和整句语气体现。",
+    "usage_etiquette": "安排事项时可用 sesudah 明确先后顺序。它只说明“之后”，不能单独表达“立即之后”；需要强调立即衔接时，可加 sejurus。朋友聊天中使用 sesudah 可以理解，但通常比 lepas 更书面。"
+  },
+  "provenance": {
+    "has_official_dbp": true,
+    "source_type": "dbp_official",
+    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+  }
+}

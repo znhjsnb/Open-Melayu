@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 12190,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "已核实马来西亚餐饮菜单中的用例，但尚未核实其为DBP正式收录的马来语词条。输入包未提供音节、音标或爪夷文，故保留空值；排名仅沿用输入数据。"
   },
   "morphology": {
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "点餐时可沿用菜单上的pappu；向不熟悉这道菜的人介绍时，补充hidangan dal可帮助理解。向服务员询问可说：Boleh terangkan hidangan pappu ini?",
     "usage_etiquette": "适合南印度餐饮、菜单介绍和饮食交流。正式写作首次使用时宜附简短说明；不要假设所有马来西亚读者都熟悉这个名称，也不要把不同豆类或不同配方一概视为同一道菜。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

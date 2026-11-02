@@ -5,7 +5,7 @@
     "ipa": "/wʌns/",
     "jawi": null,
     "frequency_rank": 14484,
-    "status": "official",
+    "status": "corpus_usage",
     "status_note": "此状态沿用所要求的输出值；本条按英语词及其夹用处理，不代表已确认其为规范马来语词形。",
     "data_note": "syllables 原样保留输入值，但“or not translated”不是有效音节资料。英语 once 实际为一个音节；IPA 为英语读音。"
   },
@@ -131,5 +131,10 @@
   "sociolinguistic_register": {
     "politeness_note": "在使用双语的熟人或团队中，once 夹语可能容易理解；正式马来语沟通应换成准确的马来语连接词或副词。",
     "usage_etiquette": "避免假定所有收件人都熟悉英语夹语。交代期限时使用明确表达，例如 Setelah dokumen siap, sila hantarkannya kepada saya，以减少误解。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

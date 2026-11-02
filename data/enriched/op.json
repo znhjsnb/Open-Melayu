@@ -5,7 +5,7 @@
     "ipa": "/op/",
     "jawi": null,
     "frequency_rank": 9646,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -88,5 +88,10 @@
   "sociolinguistic_register": {
     "politeness_note": "正式报告首次出现时可先写 operasi，再采用所属机构使用的缩写。面对公众时，展开说明比默认所有人都懂 op 更清楚。",
     "usage_etiquette": "适合行动名称、机构内部简写和已有明确上下文的聊天。不同机构可能使用 Op、OP 或 Ops；引用专名时沿用原写法。输入中的 official 为所要求的数据状态，不能单凭该标签推断所有缩写用法都已获 DBP 词头认证。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 10214,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "未能核实为正式马来语词条，不能标记为 official。输入未提供 DBP 释义、音节、读音或爪夷文。检索发现 Belicoff 的专名用例，但无法据此确定输入词项的具体来源。直接访问 PRPM 查询页未成功，因此不能断言 DBP 未收录。频率排名仅沿用输入数据，其语料来源未经核实。"
   },
   "morphology": {
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "作为人物姓氏提及时使用首字母大写的 Belicoff。此处没有已核实的马来西亚特有敬语含义；称呼真实人物时应遵循其本人使用的姓名与称谓。",
     "usage_etiquette": "适用于有明确指代的姓名引用或影视讨论。用于语言教学时，应明确标注专名身份及尚未核实的马来语词条地位。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

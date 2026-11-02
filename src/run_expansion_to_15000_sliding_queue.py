@@ -506,25 +506,16 @@ def get_all_remaining_candidates(kb: LinguisticKnowledgeBase, quarantined: set) 
     with open(DATA_DIR / "candidate_pool_15k.json", "r", encoding="utf-8") as f:
         pool = json.load(f)
 
+    enriched_set = {f.name[:-5].lower() for f in os.scandir(ENRICHED_DIR) if f.name.endswith(".json")}
+
     valid_candidates = []
     for item in pool:
         w = item["word"].lower().strip()
-        if w in quarantined:
+        if w in quarantined or w in enriched_set:
             continue
-        if (ENRICHED_DIR / f"{w}.json").exists():
-            continue
-            
-        pdata = kb.get_prpm_data(w)
-        kd = pdata.get("kamus_dewan") or pdata.get("kamus_pelajar") or pdata.get("definisi_melayu")
-        
-        root, root_jawi = kb.resolve_root(w)
-        root_kd = None
-        if root != w:
-            r_data = kb.get_prpm_data(root)
-            root_kd = r_data.get("kamus_dewan") or r_data.get("kamus_pelajar")
-            
-        if kd or root_kd:
-            valid_candidates.append(kb.assemble_word_packet(w, item["rank"]))
+        r = kb.rootwords.get(w, w)
+        if w in kb.prpm_file_map or r in kb.prpm_file_map:
+            valid_candidates.append(item)
 
     return valid_candidates
 
@@ -559,10 +550,10 @@ def run_continuous_sliding_expansion():
     session_start_time = time.time()
     sync_lock = threading.Lock()
 
-    # Pre-fetch candidate pool
+    # Pre-fetch candidate pool (instant 0.09s lookup)
     initial_candidates = get_all_remaining_candidates(kb, quarantined)
     candidate_queue = deque(initial_candidates)
-    print(f"[*] Initial pending candidate pool: {len(candidate_queue)} words.")
+    print(f"[+] Initial pending candidate pool: {len(candidate_queue)} words indexed in RAM.")
 
     def get_next_batch() -> tuple[str, list[dict]] | None:
         nonlocal batch_counter
@@ -575,40 +566,43 @@ def run_continuous_sliding_expansion():
                 in_flight_words.add(p["word"])
             return tag, pkts
 
-        # Priority 2: Fresh candidates
-        batch_pkts = []
-        while candidate_queue and len(batch_pkts) < MICRO_BATCH_SIZE:
-            pkt = candidate_queue.popleft()
-            w = pkt["word"]
-            if (ENRICHED_DIR / f"{w}.json").exists() or w in in_flight_words or w in quarantined:
+        # Priority 2: Fresh candidates (assemble packets on demand)
+        batch_items = []
+        enriched_set = {f.name[:-5].lower() for f in os.scandir(ENRICHED_DIR) if f.name.endswith(".json")}
+        
+        while candidate_queue and len(batch_items) < MICRO_BATCH_SIZE:
+            item = candidate_queue.popleft()
+            w = item["word"]
+            if w in enriched_set or w in in_flight_words or w in quarantined:
                 continue
-            batch_pkts.append(pkt)
+            batch_items.append(item)
             in_flight_words.add(w)
 
-        if batch_pkts:
+        if batch_items:
             batch_counter += 1
             tag = f"s{SESSION_ID:04d}_p_{batch_counter:05d}"
+            batch_pkts = [kb.assemble_word_packet(it["word"], it["rank"]) for it in batch_items]
             return tag, batch_pkts
 
         # If candidate queue is exhausted, check if any un-enriched remain in candidate_pool_15k
-        # that weren't in memory
         fresh_check = get_all_remaining_candidates(kb, quarantined)
         for fc in fresh_check:
             if fc["word"] not in in_flight_words:
                 candidate_queue.append(fc)
 
         if candidate_queue:
-            batch_pkts = []
-            while candidate_queue and len(batch_pkts) < MICRO_BATCH_SIZE:
-                pkt = candidate_queue.popleft()
-                w = pkt["word"]
-                if (ENRICHED_DIR / f"{w}.json").exists() or w in in_flight_words or w in quarantined:
+            batch_items = []
+            while candidate_queue and len(batch_items) < MICRO_BATCH_SIZE:
+                item = candidate_queue.popleft()
+                w = item["word"]
+                if w in enriched_set or w in in_flight_words or w in quarantined:
                     continue
-                batch_pkts.append(pkt)
+                batch_items.append(item)
                 in_flight_words.add(w)
-            if batch_pkts:
+            if batch_items:
                 batch_counter += 1
                 tag = f"s{SESSION_ID:04d}_p_{batch_counter:05d}"
+                batch_pkts = [kb.assemble_word_packet(it["word"], it["rank"]) for it in batch_items]
                 return tag, batch_pkts
 
         return None
@@ -625,10 +619,10 @@ def run_continuous_sliding_expansion():
             fut = executor.submit(process_micro_batch, tag, pkts)
             futures[fut] = (tag, pkts)
 
-        print(f"[+] Initialized {len(futures)} concurrent slots in-flight. Starting continuous sliding pull loop...\n")
+        print(f"[+] Initialized {len(futures)} concurrent slots in-flight. Continuous sliding pull loop actively generating!\n")
 
         while futures:
-            # Wait for the next slot to finish
+            # Wait for ANY slot to finish
             done, _ = concurrent.futures.wait(futures, return_when=concurrent.futures.FIRST_COMPLETED)
 
             for fut in done:

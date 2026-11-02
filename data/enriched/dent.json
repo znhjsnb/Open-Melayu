@@ -5,7 +5,7 @@
     "ipa": "/dent/",
     "jawi": null,
     "frequency_rank": 7048,
-    "status": "foreign",
+    "status": "corpus_usage",
     "language": "en"
   },
   "lexicographic_note": "此词经核实为英语词头，不能标为正式马来语词。DBP 将其收入英马词典，马来语对应词包括 lekuk、kemik、melekukkan、mengemikkan 和 menjejaskan。以下释义说明英语原词；搭配提供标准马来语对应表达，不将英语混用认定为马来语规范。音标为英语读音；输入未提供音节和爪夷文，保留 null。[DBP 英马词典](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=dent)、[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/dent)。",
@@ -161,5 +161,10 @@
   "sociolinguistic_register": {
     "politeness_note": "讨论车辆损伤时可自然使用英语混用，但正式马来语报告宜使用 kemik 或 lekuk。",
     "usage_etiquette": "向车主说明损伤时客观描述位置和程度；不要把 dent 当成已经核定的马来语词，也不要把凹陷与刮伤混为一谈。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

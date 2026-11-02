@@ -5,7 +5,7 @@
     "ipa": "/tris/",
     "jawi": null,
     "frequency_rank": 7365,
-    "status": "official",
+    "status": "corpus_usage",
     "verification_note": "DBP 咨询记录提供 tris base → bes tris 的术语对应；这不等同于已找到独立词目的完整官方释义。IPA 为按拼写推定的读音。排名沿用输入数据。"
   },
   "morphology": {
@@ -89,5 +89,10 @@
   "sociolinguistic_register": {
     "politeness_note": "这是中性的专业术语；向非专业人士说明时，先补充 bahan untuk menyediakan larutan penimbal（配制缓冲液的物质）。",
     "usage_etiquette": "适用于实验室、科研与试剂采购。正式记录应依所用规程写明试剂形式、浓度及其他必要参数。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

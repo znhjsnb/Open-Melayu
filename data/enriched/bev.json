@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 8554,
-    "status": "unverified",
+    "status": "corpus_usage",
     "verification_note": "原始小写词形的具体所指尚未确认。以下提供有马来西亚官方用例支持的 BEV 汽车缩写义，不能据此断定原始语料中的 bev 必然具有此义。"
   },
   "morphology": {
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "正式文件首次出现时宜写 kenderaan elektrik bateri (BEV)，帮助不熟悉汽车缩写的读者理解。",
     "usage_etiquette": "不要将 BEV 与混合动力车一概混称；若 bev 出现在人名或其他语境中，应先核实所指。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

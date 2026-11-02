@@ -5,7 +5,7 @@
     "ipa": "/treɪd/",
     "jawi": null,
     "frequency_rank": 12287,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -161,5 +161,10 @@
   "sociolinguistic_register": {
     "politeness_note": "熟人之间混用 trade 通常自然，但应照顾对方的语言习惯。与不熟悉英语的对象沟通时，改用 perdagangan、jual beli 或 tukar。",
     "usage_etiquette": "正式马来语文件宜采用对应马来语术语；必须保留英语词时，可先说明含义。这里保留所要求的 official 字段，但该字段不构成 DBP 对 trade 作为马来语词头的认证。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

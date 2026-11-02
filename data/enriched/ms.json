@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 10132,
-    "status": "official",
+    "status": "corpus_usage",
     "usage_label": "此处按 muka surat 的非正式缩写处理；DBP 推荐写作 m.s.。status 不表示无点形式 ms 获得规范认证。"
   },
   "morphology": {
@@ -90,5 +90,10 @@
   "sociolinguistic_register": {
     "politeness_note": "同学或同事之间用 ms 指页码通常容易理解；给教师、客户或公众的正式说明宜写完整词组或使用规范缩写 m.s.。",
     "usage_etiquette": "适合笔记、作业提示和聊天。必须根据上下文判断；例如表示时间单位的 20 ms 应理解为20毫秒，不能读成20页。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

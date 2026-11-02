@@ -5,7 +5,7 @@
     "ipa": "/kɔːt/",
     "jawi": null,
     "frequency_rank": 9355,
-    "status": "official",
+    "status": "corpus_usage",
     "language": "en",
     "validation_note": "此词在 DBP 英马双语词典中属于英语词头；official 仅表示有官方词典记录，不表示它是规范马来语词头。保留输入音节字段 sst，但该字段无效；court 在英语中为单音节，所列音标为英式英语读音。"
   },
@@ -112,5 +112,10 @@
   "sociolinguistic_register": {
     "politeness_note": "熟人之间夹用 court 通常容易理解；面向公众、长辈或正式机构时，使用准确的马来语对应词更清楚。",
     "usage_etiquette": "体育预约用 gelanggang，司法文件用 mahkamah。正式文字必须保留英语术语时，可用引号并说明含义。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/ˈmeɪ.pəl/",
     "jawi": null,
     "frequency_rank": 13069,
-    "status": "foreign",
+    "status": "corpus_usage",
     "verification_note": "maple 是英语拼写；DBP 给出的标准马来语对应词为 mapel。此处 IPA 表示英语读音，不是马来语 mapel 的读音。输入包中的 Jawi 与音节字段保持为空，不把另一词形的数据移植过来。"
   },
   "morphology": {
@@ -101,5 +101,10 @@
   "sociolinguistic_register": {
     "politeness_note": "日常交流中遇到对方使用 maple，无需当面纠正；正式翻译或编辑时采用 mapel 即可。",
     "usage_etiquette": "马来语正文宜用 mapel；品牌、商品原名或直接引语可保留 maple。讨论食物时，sirap mapel 指枫树糖浆，不能把所有普通糖浆都称为枫糖浆。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 11465,
-    "status": "nonstandard",
+    "status": "corpus_usage",
     "canonical_form": "masalah",
     "canonical_ipa": "/masalah/",
     "orthographic_note": "masaalah 是非规范拼写，不能标为官方规范词形；标准马来语拼写为 masalah。数据包未提供音节、IPA 或 Jawi，相关原始字段保留 null。[DBP：错误与正确拼写对照](https://eseminar.dbp.gov.my/dokumen/koleksi1.pdf)"
@@ -127,5 +127,10 @@
   "sociolinguistic_register": {
     "politeness_note": "masalah 本身语体中性。询问 Ada masalah? 的语气若过于生硬，可能像在质问；关心对方时，可说 Ada apa-apa masalah yang boleh saya bantu?",
     "usage_etiquette": "公文、考试、新闻和工作消息均写 masalah。描述事情的问题通常自然；直接把某个人称为 bermasalah 可能带有负面评价，宜具体说明行为或困难。"
+  },
+  "provenance": {
+    "has_official_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }
