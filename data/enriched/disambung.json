@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "disambung",
+    "syllables": null,
+    "ipa": "/di.sam.buŋ/",
+    "jawi": null,
+    "frequency_rank": 14203,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sambung",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + sambung → disambung",
+    "pattern_note": "di- 构成被动动词，直接连接词根，保留开头 s；词尾 ng 表示 /ŋ/。输入将 disambung 判为词根，此处依据其明确的构词关系修正为 sambung。音节及爪夷文缺失值保留。",
+    "word_family": [
+      {
+        "word": "menyambung",
+        "affix": "meN-",
+        "gloss": "连接；继续"
+      },
+      {
+        "word": "bersambung",
+        "affix": "ber-",
+        "gloss": "相连；接续"
+      },
+      {
+        "word": "sambungan",
+        "affix": "-an",
+        "gloss": "连接部分；续篇；电话分机"
+      },
+      {
+        "word": "penyambung",
+        "affix": "peN-",
+        "gloss": "连接器；接续者"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被接合、接通或延长，使原本分离、断开或不足长的部分连在一起。",
+      "en_definition": "To be joined, connected, or extended by attaching another part.",
+      "ms_definition": "Dihubungkan dengan bahagian lain atau dipanjangkan dengan tambahan.",
+      "nuances": "为 sambung 的 di- 被动形式，可用于电线、绳索、道路及通信连接。di- 本身不表示过去时；时间由 sudah、sedang、akan 或上下文决定。马来语释义根据词根释义及被动构词整理，并非独立词条的原文引语。依据：[DBP menyambung](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyambung)。",
+      "collocations": [
+        {
+          "ms": "wayar disambung",
+          "zh": "电线被接合",
+          "en": "wires are joined"
+        },
+        {
+          "ms": "talian disambung",
+          "zh": "线路被接通",
+          "en": "the line is connected"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "某项活动、谈话或叙述被继续进行，或在中断后恢复。",
+      "en_definition": "To be continued or resumed after an interruption.",
+      "ms_definition": "Diteruskan atau dimulakan semula selepas terhenti atau ditangguhkan.",
+      "nuances": "常用于会议、审讯、谈话及故事；semula 强调恢复，lagi 强调进一步继续。通常由活动本身充当被动句主语。依据：[DBP sambung](https://prpm.dbp.gov.my/cari1?keyword=sambung-bersambung)。",
+      "collocations": [
+        {
+          "ms": "mesyuarat disambung semula",
+          "zh": "会议恢复进行",
+          "en": "the meeting is resumed"
+        },
+        {
+          "ms": "perbincangan disambung",
+          "zh": "讨论继续进行",
+          "en": "the discussion is continued"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Mesyuarat akan disambung semula pada pukul dua petang selepas waktu rehat.",
+      "zh": "会议将在休息后于下午两点恢复进行。",
+      "en": "The meeting will resume at two in the afternoon after the break."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Mesyuarat tu nak disambung lepas makan, kan?",
+      "ms_standard": "Mesyuarat itu akan disambung selepas makan, bukan?",
+      "zh": "那个会是吃完饭再继续，对吧？",
+      "en": "The meeting’s going to continue after lunch, right?",
+      "spoken_features": [
+        "tu 对应 itu",
+        "nak 在此口语语境中表示即将发生，对应 akan",
+        "lepas 对应 selepas",
+        "kan 是征求确认的句末语气词"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Mesyuarat tu nak disambung lepas makan, kan?",
+          "ms_standard": "Mesyuarat itu akan disambung selepas makan, bukan?",
+          "zh": "那个会是吃完饭再继续，对吧？",
+          "en": "The meeting’s going to continue after lunch, right?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, pukul dua. Kita makan kat bawah je.",
+          "ms_standard": "Ya, pada pukul dua petang. Kita makan di tingkat bawah sahaja.",
+          "zh": "对，下午两点。我们就在楼下吃吧。",
+          "en": "Yes, at two. Let’s just eat downstairs."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The root sambung connects physical joining with the continuation of an activity. This semantic bridge lets Malay describe both a repaired connection and a resumed discussion through the same root. Disambung adds the passive prefix di-, placing the connected object or continued activity at the centre of the sentence. Source: [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyambung).",
+    "cognitive_memory_aid": "sambung 是“接上”，前面加 di- 就记成“被接上”；会议接上，就是会议继续。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性标准用语，适合通知及职场沟通。被动句可突出安排或处理结果；需要明确责任时可补充 oleh 及执行者。",
+    "usage_etiquette": "动词前缀 di- 必须连写：disambung。表示地点的介词 di 则分写，如 di pejabat。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性标准用语，适合通知及职场沟通。被动句可突出安排或处理结果；需要明确责任时可补充 oleh 及执行者。",
+    "usage_etiquette": "动词前缀 di- 必须连写：disambung。表示地点的介词 di 则分写，如 di pejabat。"
+  }
+}

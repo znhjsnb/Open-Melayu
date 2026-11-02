@@ -1,0 +1,110 @@
+{
+  "headword": {
+    "word": "ckp",
+    "syllables": null,
+    "ipa": "/tʃakap/",
+    "jawi": null,
+    "frequency_rank": 14322,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "cakap",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "cakap → ckp（书写时省略元音字母）",
+    "pattern_note": "这是聊天缩写，不是词缀派生。输入中的根词判断应修正为 cakap；所列 IPA 表示还原为 cakap 后的读音，ckp 本身没有独立的规范词汇读音。",
+    "word_family": [
+      {
+        "word": "cakap",
+        "affix": null,
+        "gloss": "说；话语"
+      },
+      {
+        "word": "bercakap",
+        "affix": "ber-",
+        "gloss": "说话；交谈"
+      },
+      {
+        "word": "percakapan",
+        "affix": "per-…-an",
+        "gloss": "谈话；交谈内容"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "聊天文字中 cakap 的非正式缩写，表示说、告诉或讲话。",
+      "en_definition": "An informal texting abbreviation of cakap, meaning to say, tell, or speak.",
+      "ms_definition": "Singkatan tidak rasmi bagi cakap dalam mesej bertulis, yang bermaksud berkata, memberitahu atau berbicara.",
+      "nuances": "主要用于马来西亚即时通信。必须结合上下文还原，不能把所有 ckp 都机械解释为 cakap。它不是标准公文拼写；status 字段沿用指定格式，不表示该缩写获得 DBP 规范词认证。马来语释义为编辑释义。[马来西亚短信缩写用法](https://cilisos.my/bahasa-sms-shortforms-glossary/)。",
+      "collocations": [
+        {
+          "ms": "nak ckp",
+          "zh": "想说；要说",
+          "en": "want to say"
+        },
+        {
+          "ms": "dah ckp",
+          "zh": "已经说过",
+          "en": "have already said"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场写作规范说明；缩写作为讨论对象出现",
+      "ms": "Dalam surat rasmi, singkatan seperti \"ckp\" hendaklah digantikan dengan perkataan penuh yang sesuai dengan konteks.",
+      "zh": "在正式信函中，像“ckp”这样的缩写应改成符合上下文的完整词语。",
+      "en": "In formal correspondence, abbreviations such as \"ckp\" should be replaced with the appropriate full words."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约见",
+      "ms_spoken": "Aku dah ckp kat Farah, kita jumpa pukul lapan je.",
+      "ms_standard": "Saya sudah memberitahu Farah bahawa kita akan berjumpa pada pukul lapan.",
+      "zh": "我已经跟 Farah 说了，我们就八点见。",
+      "en": "I've already told Farah we're meeting at eight.",
+      "spoken_features": [
+        "ckp 是 cakap 的文字缩写，朗读时还原完整词",
+        "dah 对应 sudah",
+        "kat 在此口语结构中引出告知对象，标准表达可用 memberitahu Farah",
+        "je 对应 sahaja，此处带轻松确认的语气",
+        "aku 适用于熟人之间"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah ckp kat Farah ke kita jumpa pukul lapan?",
+          "ms_standard": "Adakah kamu sudah memberitahu Farah bahawa kita akan berjumpa pada pukul lapan?",
+          "zh": "你跟 Farah 说我们八点见了吗？",
+          "en": "Have you told Farah we're meeting at eight?"
+        },
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Dah, aku ckp tadi. Dia nak datang sekali.",
+          "ms_standard": "Sudah, saya telah memberitahunya tadi. Dia juga mahu datang.",
+          "zh": "说了，我刚才跟她讲了。她也想一起来。",
+          "en": "Yes, I told her earlier. She wants to come too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ckp belongs to the practical shorthand of Malay digital messaging. Writers remove the vowel letters from cakap while leaving enough consonants for familiar readers to reconstruct it. This is an orthographic shortcut rather than an ancient root or a new pronunciation. Its usefulness depends on shared language knowledge and conversational context. [Usage reference](https://cilisos.my/bahasa-sms-shortforms-glossary/).",
+    "cognitive_memory_aid": "给 c-k-p 补回两个 a：cakap。看到缩写，脑中还原“说”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人聊天中通常自然；初次联系客户、老师或上级时宜写完整词，并按语境选择 berkata、bercakap 或 memberitahu。",
+    "usage_etiquette": "缩写本身没有粗俗含义，但密集使用可能显得敷衍。不要把聊天文字缩写当成正式拼写，也不要据此创造独立发音。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人聊天中通常自然；初次联系客户、老师或上级时宜写完整词，并按语境选择 berkata、bercakap 或 memberitahu。",
+    "usage_etiquette": "缩写本身没有粗俗含义，但密集使用可能显得敷衍。不要把聊天文字缩写当成正式拼写，也不要据此创造独立发音。"
+  }
+}

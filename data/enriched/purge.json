@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "purge",
+    "syllables": null,
+    "ipa": "/pɜːdʒ/",
+    "jawi": null,
+    "frequency_rank": 14243,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "purge",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + purge → purge（英语整词）",
+    "pattern_note": "此处按英语词处理，不作马来语词缀分析。英语中为单音节，词末 e 不单独发音，g 对应 /dʒ/；所列 IPA 是英语英式读音，不是已确立的马来语读音。",
+    "word_family": [
+      {
+        "word": "purged",
+        "affix": "-ed（英语）",
+        "gloss": "已清除；purge 的过去式和过去分词"
+      },
+      {
+        "word": "purging",
+        "affix": "-ing（英语）",
+        "gloss": "清除；purge 的现在分词或动名词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "清除、清空或排除不需要的内容、杂质等；具体操作取决于对象。",
+      "en_definition": "To remove unwanted contents, substances, or elements from something.",
+      "ms_definition": "Mengeluarkan atau menyingkirkan kandungan, bahan atau unsur yang tidak dikehendaki daripada sesuatu.",
+      "nuances": "这是英语释义及其马来语解释，不冒充 DBP 的马来语词条定义。技术交流中可能作为英语操作名称出现；正式马来语应按语境使用 memadamkan、mengosongkan 或 menyingkirkan 等表达。读音与英语基本义参见 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/purge)。以下搭配保留英语成分。",
+      "collocations": [
+        {
+          "ms": "purge cache",
+          "zh": "清空缓存",
+          "en": "purge the cache"
+        },
+        {
+          "ms": "purge data lama",
+          "zh": "清除旧数据",
+          "en": "purge old data"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把被认为不受欢迎或持不同意见的人清除出组织；清洗。",
+      "en_definition": "To remove unwanted or dissenting members from an organization.",
+      "ms_definition": "Menyingkirkan anggota yang tidak dikehendaki atau yang berbeza pendirian daripada sesebuah organisasi.",
+      "nuances": "用于人的时候语气强烈，往往带有政治排斥或强制清洗的意味，不等同于中性的调职。英语用法参见 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/purge)。以下为说明性的马英混合组合。",
+      "collocations": [
+        {
+          "ms": "purge anggota parti",
+          "zh": "清洗党内成员",
+          "en": "purge party members"
+        },
+        {
+          "ms": "purge penentang dalam organisasi",
+          "zh": "清除组织内的反对者",
+          "en": "purge opponents within an organization"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "清除行动；尤指组织内部排除异己的清洗。",
+      "en_definition": "An act of removing unwanted things or people, especially a political or organizational purge.",
+      "ms_definition": "Tindakan menyingkirkan perkara atau orang yang tidak dikehendaki, khususnya dalam organisasi atau politik.",
+      "nuances": "这是英语名词用法。正式马来语可根据对象改用 penyingkiran 或 pembersihan，并清楚说明被清除的内容。参见 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/purge)。",
+      "collocations": [
+        {
+          "ms": "purge dalam parti",
+          "zh": "党内清洗",
+          "en": "a purge within the party"
+        },
+        {
+          "ms": "purge besar-besaran",
+          "zh": "大规模清洗",
+          "en": "a large-scale purge"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场技术汇报 / 操作名称说明",
+      "ms": "Pentadbir sistem akan menjalankan fungsi 'purge' untuk memadamkan data sementara yang tidak lagi diperlukan.",
+      "zh": "系统管理员将执行“purge”功能，删除不再需要的临时数据。",
+      "en": "The system administrator will run the 'purge' function to delete temporary data that is no longer needed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论系统维护",
+      "ms_spoken": "Aku nak purge cache ni dulu, lepas tu cuba buka semula.",
+      "ms_standard": "Saya mahu mengosongkan cache ini terlebih dahulu, kemudian cuba membukanya semula.",
+      "zh": "我先清一下缓存，然后再试着打开。",
+      "en": "I'll clear the cache first, then try opening it again.",
+      "spoken_features": [
+        "purge 是插入马来语句子的英语动词。",
+        "nak 对应 mahu，ni 对应 ini。",
+        "lepas tu 对应 selepas itu；口语可省略已知宾语。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku dah purge cache kat pelayan ujian. Kau cuba buka semula.",
+          "ms_standard": "Saya sudah mengosongkan cache pada pelayan ujian. Cuba buka semula.",
+          "zh": "我已经清掉测试服务器的缓存了，你再打开试试。",
+          "en": "I've cleared the cache on the test server. Try opening it again."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah boleh buka dah. Terima kasih!",
+          "ms_standard": "Sekarang saya sudah dapat membukanya. Terima kasih!",
+          "zh": "现在能打开了，谢谢！",
+          "en": "It's opening now. Thanks!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English purge came through French from Latin purgare, meaning to cleanse. The underlying image extends from removing impurities to excluding unwanted people. Modern computing applies the same image to clearing stored contents. This history explains the English word; it does not establish purge as an officially adopted Malay headword. [Etymology](https://www.etymonline.com/word/purge).",
+    "cognitive_memory_aid": "记住“清掉多余内容”的画面：purge cache 清缓存，purge members 清成员；对象不同，语气强度也不同。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉英语术语的同事之间可自然切换语言；面对公众或不熟悉技术的对象，应给出明确的马来语说明。",
+    "usage_etiquette": "谈论人员时，这个词容易传达排斥或敌意；普通的人事调整宜使用准确、中性的具体措辞。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉英语术语的同事之间可自然切换语言；面对公众或不熟悉技术的对象，应给出明确的马来语说明。",
+    "usage_etiquette": "谈论人员时，这个词容易传达排斥或敌意；普通的人事调整宜使用准确、中性的具体措辞。"
+  }
+}

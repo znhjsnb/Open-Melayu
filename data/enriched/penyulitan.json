@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "penyulitan",
+    "syllables": null,
+    "ipa": "/pəɲulitan/",
+    "jawi": null,
+    "frequency_rank": 14323,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sulit",
+    "affix": "peN-…-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + sulit + -an → penyulitan",
+    "pattern_note": "词首 s 在 peN- 后脱落，鼻音实现为 ny /ɲ/，形成 peny-。输入把 penyulitan 标为根词，应修正；这里采用 sulit 的“秘密、保密”义。",
+    "word_family": [
+      {
+        "word": "sulit",
+        "affix": null,
+        "gloss": "秘密的；机密的；亦可指困难的"
+      },
+      {
+        "word": "menyulitkan",
+        "affix": "meN-…-kan",
+        "gloss": "使保密；技术语境中指加密；亦可指使困难"
+      },
+      {
+        "word": "penyahsulitan",
+        "affix": "peN-…-an（基于 nyahsulit）",
+        "gloss": "解密"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "加密；按照密码算法并利用密钥，将可读数据转换为密文，以保护其机密性的过程。",
+      "en_definition": "Encryption: the transformation of readable data into ciphertext using a cryptographic algorithm and a key to protect confidentiality.",
+      "ms_definition": "Proses menukarkan data yang boleh dibaca kepada teks sifer dengan menggunakan algoritma kriptografi dan kunci untuk melindungi kerahsiaan data.",
+      "nuances": "用于信息技术和密码学，对应 encryption；反向过程为 penyahsulitan。不要与 kesulitan“困难”混淆，也不要把一般编码、文件压缩或设置访问密码一概称为加密。此处马来语释义为根据术语用法编写的释义，不冒充输入中缺失的 DBP 原文。[DBP 相关术语用例](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=penyahsulitan)。",
+      "collocations": [
+        {
+          "ms": "penyulitan data",
+          "zh": "数据加密",
+          "en": "data encryption"
+        },
+        {
+          "ms": "kunci penyulitan",
+          "zh": "加密密钥",
+          "en": "encryption key"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 信息安全工作汇报",
+      "ms": "Syarikat melaksanakan penyulitan data untuk melindungi maklumat pelanggan semasa penghantaran dan penyimpanan.",
+      "zh": "公司实施数据加密，以保护客户信息在传输和存储过程中的安全。",
+      "en": "The company uses data encryption to protect customer information during transmission and storage."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论文件传输",
+      "ms_spoken": "Fail tu dah dilindungi dengan penyulitan ke?",
+      "ms_standard": "Adakah fail itu sudah dilindungi dengan penyulitan?",
+      "zh": "那个文件已经加密保护了吗？",
+      "en": "Is that file encrypted already?",
+      "spoken_features": [
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "句末 ke 表示口语疑问",
+        "技术名词 penyulitan 保留完整形式"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail pelanggan tu dah dilindungi dengan penyulitan ke? Aku nak hantar sekarang.",
+          "ms_standard": "Adakah fail pelanggan itu sudah dilindungi dengan penyulitan? Saya mahu menghantarnya sekarang.",
+          "zh": "那个客户文件已经加密了吗？我现在要发出去。",
+          "en": "Is the customer file encrypted? I want to send it now."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah. Hantar kat penerima yang betul je, ya.",
+          "ms_standard": "Sudah. Pastikan fail itu dihantar hanya kepada penerima yang betul.",
+          "zh": "加密了。记得只发给正确的收件人。",
+          "en": "Yes. Just make sure you send it to the right person."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penyulitan illustrates how Malay builds technical vocabulary from an existing base. Sulit can concern secrecy as well as difficulty; the secrecy sense supports the computing term for encryption. The circumfix peN-…-an names a process. Malaysian institutional usage pairs penyulitan with penyahsulitan, allowing related security operations to be expressed through a recognisable Malay word family. [DBP terminology](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=penyahsulitan).",
+    "cognitive_memory_aid": "把 sulit 的“秘密”义抓牢：penyulitan 就是把明文变成秘密密文的过程。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是语体中性的技术名词，适用于公文、课堂和同事讨论。向非技术人员解释时，可先说 penyulitan，也就是 enkripsi。",
+    "usage_etiquette": "谈论客户资料、银行信息或聊天隐私时适用。描述产品功能时，应区分加密、访问控制和密码保护，避免夸大实际保护范围。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是语体中性的技术名词，适用于公文、课堂和同事讨论。向非技术人员解释时，可先说 penyulitan，也就是 enkripsi。",
+    "usage_etiquette": "谈论客户资料、银行信息或聊天隐私时适用。描述产品功能时，应区分加密、访问控制和密码保护，避免夸大实际保护范围。"
+  }
+}

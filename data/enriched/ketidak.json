@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "ketidak",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 14321,
+    "status": "incomplete_form"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ketidak",
+    "affix": "ke-（完整构式还需 -an）",
+    "affix_type": "prefix",
+    "formula": "ke- + [tidak + X] + -an → ketidakXan；例如 ke- + [tidak + adil] + -an → ketidakadilan",
+    "pattern_note": "词包的 root_word 字段原样保留，但 ketidak 不是独立词根。这里可识别 ke- 与否定词 tidak；完整名词通常还需要性质成分和 -an。没有发生鼻音同化，不能把 ketidak 当作完整的 ke-...-an 派生词。",
+    "word_family": [
+      {
+        "word": "tidak",
+        "affix": null,
+        "gloss": "不；没有"
+      },
+      {
+        "word": "ketidakadilan",
+        "affix": "ke-...-an + tidak",
+        "gloss": "不公正"
+      },
+      {
+        "word": "ketidakpastian",
+        "affix": "ke-...-an + tidak",
+        "gloss": "不确定性"
+      },
+      {
+        "word": "ketidakupayaan",
+        "affix": "ke-...-an + tidak",
+        "gloss": "无能力；不能胜任的状态"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "不完整的构词片段，见于 ketidak...an 一类表示“不具有某性质或能力之状态”的名词中；单独使用没有已核实的独立词义。",
+      "en_definition": "An incomplete word-building sequence occurring in nouns that express the state of not having a property or ability; no independent meaning is established for the isolated form.",
+      "ms_definition": "Fragmen binaan kata yang hadir dalam bentuk ketidak...an untuk menyatakan perihal tidak mempunyai sesuatu sifat atau keupayaan; bukan kata bebas yang lengkap.",
+      "nuances": "particle 只是受限词性枚举下的近似标签，实际对象是构词片段，不能当作自由虚词使用。DBP 在 tidak 条下列出 ketidak...an，并举 ketidakadilan、ketidakpastian 等例。以下搭配为完整构词的示例，不是独立 ketidak 的搭配；例句中的 ketidak 均为讨论字形的引用。[DBP：tidak 及 ketidak...an](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ketidakpastian)",
+      "collocations": [
+        {
+          "ms": "ketidakpastian ekonomi",
+          "zh": "经济不确定性",
+          "en": "economic uncertainty"
+        },
+        {
+          "ms": "ketidakadilan sosial",
+          "zh": "社会不公",
+          "en": "social injustice"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文字编辑 / 职场校对",
+      "ms": "Bentuk 'ketidak' dalam draf ini belum lengkap dan perlu disemak berdasarkan konteks ayat.",
+      "zh": "草稿中的“ketidak”形式尚不完整，需要根据句子语境核查。",
+      "en": "The form 'ketidak' in this draft is incomplete and needs to be checked against the sentence context."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事校对文字",
+      "ms_spoken": "Kat sini tertulis 'ketidak' je. Ada bahagian yang tertinggal ke?",
+      "ms_standard": "Di sini hanya tertulis 'ketidak'. Adakah sebahagian perkataan tertinggal?",
+      "zh": "这里就写了个“ketidak”，是不是漏了一截？",
+      "en": "It just says 'ketidak' here. Is part of the word missing?",
+      "spoken_features": [
+        "kat sini 对应标准形式 di sini。",
+        "je 对应 sahaja 或 hanya。",
+        "句末 ke 构成口语疑问。",
+        "目标片段置于引号内，表示讨论文字本身。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kat sini tertulis 'ketidak' je. Kau nak tulis apa sebenarnya?",
+          "ms_standard": "Di sini hanya tertulis 'ketidak'. Apakah perkataan yang sebenarnya hendak awak tulis?",
+          "zh": "这里就写了“ketidak”，你原本想写什么词？",
+          "en": "It just says 'ketidak' here. What word did you mean to write?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku nak tulis 'ketidakpastian'. Dah betulkan.",
+          "ms_standard": "Saya hendak menulis 'ketidakpastian'. Saya sudah membetulkannya.",
+          "zh": "我想写的是“ketidakpastian”。已经改好了。",
+          "en": "I meant to write 'ketidakpastian'. I've fixed it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This fragment reveals a productive Malay way of naming negative states. Tidak negates a property, and the surrounding ke-...-an construction turns that expression into a noun, as in ketidakadilan and ketidakpastian. The isolated spelling ketidak leaves that construction unfinished. Its appearance in a word list therefore does not establish an independent historical word.",
+    "cognitive_memory_aid": "看到 ketidak，先找后面的性质词与 -an：tidak adil 是“不公正”，ketidakadilan 是“不公正这种状态”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "完整派生词的语气取决于所指内容；例如 ketidakadilan 带有负面评价，正式沟通宜说明具体事实。",
+    "usage_etiquette": "ketidak 本身不宜独立用于普通句子。校对时应结合上下文恢复完整词形，不能未经核查就一律补成 ketidakpastian。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "完整派生词的语气取决于所指内容；例如 ketidakadilan 带有负面评价，正式沟通宜说明具体事实。",
+    "usage_etiquette": "ketidak 本身不宜独立用于普通句子。校对时应结合上下文恢复完整词形，不能未经核查就一律补成 ketidakpastian。"
+  }
+}

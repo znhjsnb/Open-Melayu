@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "vedalam",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 14280,
+    "status": "proper_noun"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "vedalam",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Vedalam → Vedalam（外语电影专名，整词记忆）",
+    "pattern_note": "这里按电影名称处理，不进行马来语词缀拆分；is_root 仅沿用输入的未派生标记，不表示它是已确立的马来语词根。输入未提供音节、音标或 Jawi，故保留 null，不虚构标准马来语读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "《Vedalam》：2015年由 Siva 执导、Ajith Kumar 主演的一部印度泰米尔语动作电影的名称。",
+      "en_definition": "Vedalam, the title of a 2015 Indian Tamil-language action film directed by Siva and starring Ajith Kumar.",
+      "ms_definition": "Nama khas sebuah filem aksi berbahasa Tamil dari India, terbitan tahun 2015, yang diarahkan oleh Siva dan dibintangi Ajith Kumar.",
+      "nuances": "按名词类别容纳电影专名；规范书写为 Vedalam。电影资料由 [Apple TV 影片页面](https://tv.apple.com/us/movie/vedalam/umc.cmc.2j2kfqnqgt8oc3pq41ra4in7k) 支持，但输入没有上下文，不能断定原始语料一定指这部电影。它不能据此标成 DBP 官方马来语普通词，故 status 使用 proper_noun；ms_definition 是描述性释义，并非官方词典引文。以下搭配是自然的电影讨论用语，不宣称已验证语料频率。",
+      "collocations": [
+        {
+          "ms": "filem Vedalam",
+          "zh": "电影《Vedalam》",
+          "en": "the film Vedalam"
+        },
+        {
+          "ms": "menonton Vedalam",
+          "zh": "观看《Vedalam》",
+          "en": "watch Vedalam"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "影评 / 文化新闻",
+      "ms": "Filem Vedalam, arahan Siva, dibintangi oleh Ajith Kumar.",
+      "zh": "电影《Vedalam》由 Siva 执导，Ajith Kumar 主演。",
+      "en": "Vedalam, directed by Siva, stars Ajith Kumar."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau dah tengok Vedalam ke?",
+      "ms_standard": "Adakah kamu sudah menonton Vedalam?",
+      "zh": "你看过《Vedalam》了吗？",
+      "en": "Have you seen Vedalam?",
+      "spoken_features": [
+        "kau 是用于熟人之间的第二人称形式",
+        "dah 对应 sudah",
+        "tengok 在此对应 menonton",
+        "句末 ke 是口语疑问标记"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah tengok Vedalam ke?",
+          "ms_standard": "Adakah kamu sudah menonton Vedalam?",
+          "zh": "你看过《Vedalam》了吗？",
+          "en": "Have you seen Vedalam?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi. Aku nak tengok hujung minggu ni.",
+          "ms_standard": "Saya belum menontonnya. Saya mahu menontonnya pada hujung minggu ini.",
+          "zh": "还没呢，我想这个周末看。",
+          "en": "Not yet. I'm planning to watch it this weekend."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Vedalam is documented as the title of a Tamil film released in 2015, directed by Siva and starring Ajith Kumar. Its use in a Malay sentence can therefore reflect discussion of cinema rather than an established Malay borrowing. This entry records that identifiable title; it does not establish a Malay lexical history or a verified derivation of the Tamil name. [Film listing](https://tv.apple.com/us/movie/vedalam/umc.cmc.2j2kfqnqgt8oc3pq41ra4in7k).",
+    "cognitive_memory_aid": "把 Vedalam 与“Ajith 主演的泰米尔电影片名”绑定记忆；字母中虽有 dalam，也不能据此拆成马来语“里面”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论电影时使用原片名，并在首次出现时加 filem，有助于不熟悉泰米尔电影的听者理解。kau 适合关系熟悉的朋友；对长辈或陌生人宜换成姓名、职衔或适当称呼。",
+    "usage_etiquette": "适合影评、观影邀约和娱乐讨论。正式文字中首字母大写；不要把片名当作已确立的马来语普通名词，也不要据片名推断演员或观众的宗教立场。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论电影时使用原片名，并在首次出现时加 filem，有助于不熟悉泰米尔电影的听者理解。kau 适合关系熟悉的朋友；对长辈或陌生人宜换成姓名、职衔或适当称呼。",
+    "usage_etiquette": "适合影评、观影邀约和娱乐讨论。正式文字中首字母大写；不要把片名当作已确立的马来语普通名词，也不要据片名推断演员或观众的宗教立场。"
+  }
+}

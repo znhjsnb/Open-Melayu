@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "musuhmu",
+    "syllables": "mu.suh.mu",
+    "ipa": "/mu.suh.mu/",
+    "jawi": "موسوهمو",
+    "frequency_rank": 14245,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "musuh",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "musuh + -mu → musuhmu",
+    "pattern_note": "-mu 是附着于词后的第二人称代词，表示“你的”，严格说是代词附着形式，并非普通派生后缀；此处按字段限制归入 suffix。词根不变，h 保留。输入包的 موسوه 是 musuh 的写法；完整 musuhmu 补写为 موسوهمو。",
+    "word_family": [
+      {
+        "word": "bermusuh",
+        "affix": "ber-",
+        "gloss": "处于敌对关系"
+      },
+      {
+        "word": "memusuhi",
+        "affix": "meN-...-i",
+        "gloss": "敌视；把……当作敌人"
+      },
+      {
+        "word": "permusuhan",
+        "affix": "per-...-an",
+        "gloss": "敌意；敌对关系"
+      }
+    ],
+    "root_jawi": "موسوه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的敌人；与你敌对、交战或对抗的人或一方。",
+      "en_definition": "Your enemy or adversary.",
+      "ms_definition": "Orang atau pihak yang menjadi lawan atau seteru kamu.",
+      "nuances": "-mu 明确指向受话者。该形式常见于文学、对白或亲近关系中的直接表达；一般日常谈话也常说 musuh awak 或 musuh kau。体育语境中的 musuh 可指对手，但 lawan 通常更中性。词根义项见 [DBP：musuh](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=musuh)。以下为自然组合，未单独核实其频率。",
+      "collocations": [
+        {
+          "ms": "menjadi musuhmu",
+          "zh": "成为你的敌人",
+          "en": "become your enemy"
+        },
+        {
+          "ms": "menghadapi musuhmu",
+          "zh": "面对你的敌人",
+          "en": "face your enemy"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "威胁你、损害你或妨碍你达到目标的事物；你的大敌。",
+      "en_definition": "Something that threatens, harms, or works against you.",
+      "ms_definition": "Sesuatu yang mengancam, merosakkan atau menghalang kemajuan kamu.",
+      "nuances": "是 musuh 的比喻义加第二人称所属形式，可把恐惧、懒惰等说成“你的敌人”；常用于劝诫或励志表达。比喻义依据 [DBP：musuh](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=musuh)。以下为自然组合，未单独核实其频率。",
+      "collocations": [
+        {
+          "ms": "ketakutan ialah musuhmu",
+          "zh": "恐惧是你的敌人",
+          "en": "fear is your enemy"
+        },
+        {
+          "ms": "kemalasan menjadi musuhmu",
+          "zh": "懒惰成为你的大敌",
+          "en": "laziness becomes your enemy"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式文学评论 / 作品引语",
+      "ms": "Dalam ulasannya, pengkritik itu menafsirkan ungkapan 'Aku bukan musuhmu' sebagai usaha watak utama untuk berdamai.",
+      "zh": "评论者在文章中把“我不是你的敌人”这句话解读为主角试图和解的表现。",
+      "en": "In the review, the critic interprets the line 'I am not your enemy' as the main character's attempt to make peace."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 亲近朋友之间化解误会",
+      "ms_spoken": "Aku bukan musuhmu lah, aku nak tolong je.",
+      "ms_standard": "Saya bukan musuhmu; saya hanya mahu membantu.",
+      "zh": "我又不是你的敌人，我只是想帮忙啦。",
+      "en": "I'm not your enemy. I'm just trying to help.",
+      "spoken_features": [
+        "lah 在此加强解释语气，也可能因语调显得不耐烦。",
+        "nak 对应 mahu，je 对应 sahaja。",
+        "musuhmu 在日常口语中带一点戏剧感；musuh kau 或 musuh awak 也很常见。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (好友)",
+          "ms_spoken": "Aku bukan musuhmu lah. Aku tegur sebab aku nak tolong je.",
+          "ms_standard": "Saya bukan musuhmu. Saya menegur kerana saya hanya mahu membantu.",
+          "zh": "我又不是你的敌人。我提醒你，只是想帮忙。",
+          "en": "I'm not your enemy. I only brought it up because I want to help."
+        },
+        {
+          "speaker": "Farah (好友)",
+          "ms_spoken": "Aku tahu. Tadi aku tengah marah je. Sekarang dah okey.",
+          "ms_standard": "Saya tahu. Tadi saya sedang marah sahaja. Sekarang saya sudah tenang.",
+          "zh": "我知道，我刚才就是在气头上，现在没事了。",
+          "en": "I know. I was just upset earlier. I'm okay now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Musuhmu combines the established Malay noun musuh with the attached second-person pronoun -mu. Rather than introducing a new kind of enemy, the ending makes the relationship personal: your enemy. This compact construction suits dialogue, verse and direct address. Its formation is clear, but the supplied material does not establish the deeper historical origin of musuh.",
+    "cognitive_memory_aid": "musuh＝敌人，末尾 -mu＝你的；musuh＋mu 就是“你的敌人”。开头 mu 属于词根，末尾 mu 才表示“你的”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 不是敬称；对长辈、客户或陌生人直接使用可能过于亲近或显得居高临下。正式交流宜根据关系选择 tuan、puan 或 anda 等表达。",
+    "usage_etiquette": "适合文学对白、亲近关系中的解释或比喻性劝诫。把真实同事、邻居或普通竞争者称为 musuh 容易加深对立；描述一般竞争关系时可用 pesaing 或 lawan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 不是敬称；对长辈、客户或陌生人直接使用可能过于亲近或显得居高临下。正式交流宜根据关系选择 tuan、puan 或 anda 等表达。",
+    "usage_etiquette": "适合文学对白、亲近关系中的解释或比喻性劝诫。把真实同事、邻居或普通竞争者称为 musuh 容易加深对立；描述一般竞争关系时可用 pesaing 或 lawan。"
+  }
+}

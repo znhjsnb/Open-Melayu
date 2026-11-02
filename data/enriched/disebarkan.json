@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "disebarkan",
+    "syllables": null,
+    "ipa": "/di.se.bar.kan/",
+    "jawi": null,
+    "frequency_rank": 14189,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sebar",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + sebar + -kan → disebarkan",
+    "pattern_note": "di- 标记被动，-kan 构成及物动词；严格说是两个词缀的组合，此处归入 circumfix。词根首字母 s 保留，sebar 的 e 读 /e/，不是 /ə/。输入包误将被动派生词当作词根，此处修正。di- 须与动词连写。",
+    "word_family": [
+      {
+        "word": "sebar",
+        "affix": null,
+        "gloss": "散播；传播"
+      },
+      {
+        "word": "menyebarkan",
+        "affix": "meN-...-kan",
+        "gloss": "散播；传播；散布"
+      },
+      {
+        "word": "tersebar",
+        "affix": "ter-",
+        "gloss": "已传开；散布于各处"
+      },
+      {
+        "word": "penyebaran",
+        "affix": "peN-...-an",
+        "gloss": "传播；散布的过程"
+      },
+      {
+        "word": "penyebar",
+        "affix": "peN-",
+        "gloss": "传播者；散布工具"
+      }
+    ],
+    "root_jawi": "سيبر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被传播；被散布；被向更多人传达，指消息、知识、思想或教义等。",
+      "en_definition": "To be disseminated, circulated, or communicated to a wider audience.",
+      "ms_definition": "Bentuk pasif bagi menyebarkan: disiarkan atau dikembangkan supaya diketahui atau diterima oleh lebih ramai orang.",
+      "nuances": "突出被传播的内容，施事者可用 oleh 引出。该形式本身不表示过去时，可与 telah、sedang、akan 等连用。与侧重传开状态的 tersebar 相比，disebarkan 更突出传播这一被动过程。马来语释义依据 DBP 的主动词条转换，并非冒充独立词条的逐字引文。[DBP：sebar](https://prpm.dbp.gov.my/cari1?keyword=sebar)",
+      "collocations": [
+        {
+          "ms": "maklumat disebarkan",
+          "zh": "信息被传播",
+          "en": "information is disseminated"
+        },
+        {
+          "ms": "berita palsu disebarkan",
+          "zh": "虚假消息被散布",
+          "en": "false news is circulated"
+        },
+        {
+          "ms": "disebarkan melalui media sosial",
+          "zh": "通过社交媒体传播",
+          "en": "disseminated through social media"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被撒布；被散播到各处，指种子等具体物质。",
+      "en_definition": "To be scattered or dispersed over an area.",
+      "ms_definition": "Bentuk pasif bagi menyebarkan: ditaburkan atau diserakkan ke pelbagai tempat.",
+      "nuances": "用于具体物质的分散。若强调按一定间距种植，宜用 ditanam；若强调撒下种子，ditaburkan 也很常见。不能把所有“分发”都机械译为 disebarkan。",
+      "collocations": [
+        {
+          "ms": "biji benih disebarkan oleh angin",
+          "zh": "种子由风传播",
+          "en": "seeds are dispersed by the wind"
+        },
+        {
+          "ms": "spora disebarkan melalui udara",
+          "zh": "孢子经空气传播",
+          "en": "spores are dispersed through the air"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Maklumat tentang penutupan jalan akan disebarkan melalui saluran rasmi majlis perbandaran.",
+      "zh": "道路封闭的信息将通过市议会的官方渠道发布。",
+      "en": "Information about the road closure will be disseminated through the municipal council's official channels."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Poster ni dah disebarkan kat semua kumpulan WhatsApp ke?",
+      "ms_standard": "Adakah poster ini sudah disebarkan dalam semua kumpulan WhatsApp?",
+      "zh": "这张海报已经发到所有 WhatsApp 群里了吗？",
+      "en": "Has this poster been shared in all the WhatsApp groups yet?",
+      "spoken_features": [
+        "ni 对应 ini，dah 对应 sudah",
+        "kat 在此泛指群组中的位置，标准表达用 dalam",
+        "句末 ke 对应标准疑问结构 adakah",
+        "口语句仍保留完整被动形式 disebarkan"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Poster ni dah disebarkan kat semua kumpulan WhatsApp ke?",
+          "ms_standard": "Adakah poster ini sudah disebarkan dalam semua kumpulan WhatsApp?",
+          "zh": "这张海报已经发到所有 WhatsApp 群里了吗？",
+          "en": "Has this poster been shared in all the WhatsApp groups yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, tinggal kumpulan sukarelawan je. Saya nak hantar sekarang.",
+          "ms_standard": "Poster itu sudah disebarkan dalam semua kumpulan kecuali kumpulan sukarelawan. Saya hendak menghantarnya sekarang.",
+          "zh": "发了，就差志愿者群。我现在发过去。",
+          "en": "Yes, all except the volunteers' group. I'll send it there now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Disebarkan illustrates how Malay builds a family of related meanings around sebar. DBP records both the scattering of seeds and the spreading of teachings or news within this family. The passive prefix di- makes the distributed material the sentence's focus. The same construction therefore connects a seed carried across a field with information circulated through a digital network. [DBP: sebar](https://prpm.dbp.gov.my/cari1?keyword=sebar)",
+    "cognitive_memory_aid": "sebar 是“散开传播”；前面 di- 提醒“被”，后面 -kan 连着传播动作：disebarkan＝被散播、被传开。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "职场中被动句可将重点放在信息和流程上。发出请求时可说 Mohon maklumat ini disebarkan；需要明确责任时补充负责人。",
+    "usage_etiquette": "该词本身中性，既可用于有益信息，也可用于谣言。群聊中转发他人的个人资料、照片或内部文件前，应尊重当事人的意愿及群组用途。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "职场中被动句可将重点放在信息和流程上。发出请求时可说 Mohon maklumat ini disebarkan；需要明确责任时补充负责人。",
+    "usage_etiquette": "该词本身中性，既可用于有益信息，也可用于谣言。群聊中转发他人的个人资料、照片或内部文件前，应尊重当事人的意愿及群组用途。"
+  }
+}

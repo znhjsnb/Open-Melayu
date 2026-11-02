@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "ln",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 14172,
+    "status": "technical_notation"
+  },
+  "morphology": {
+    "is_root": null,
+    "root_word": "ln",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "ln(x) = logₑ(x)",
+    "pattern_note": "数学函数记号，不适用马来语词根与词缀分析。读出时可说 logaritma asli；不给符号本身指定唯一词汇读音。原始语境缺失，因此数学解释尚不能确定就是该语料项的实际含义。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "数学记号：表示以 e 为底的自然对数；对正实数 x，ln(x) 是满足 eʸ = x 的数 y。",
+      "en_definition": "Mathematical notation for the natural logarithm, the logarithm to base e.",
+      "ms_definition": "Simbol bagi logaritma asli, iaitu logaritma berasaskan e.",
+      "nuances": "本义仅适用于数学上下文。pos 标作 noun 是为配合所给结构，ln 实际上是函数记号，并非普通马来语名词。保留小写 l，勿与大写 I 或数字 1 混淆；实数范围内要求 x > 0。马来语术语及记号见 [DBP PRPM：logaritma](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=logaritma)。以下为数学表达式，而非普通词语搭配。",
+      "collocations": [
+        {
+          "ms": "ln(x)",
+          "zh": "x 的自然对数",
+          "en": "the natural logarithm of x"
+        },
+        {
+          "ms": "ln(e) = 1",
+          "zh": "e 的自然对数等于 1",
+          "en": "the natural logarithm of e equals 1"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场技术汇报 / 数学说明",
+      "ms": "Dalam analisis ini, ln(x) merujuk kepada logaritma asli bagi x, dengan x bernilai positif.",
+      "zh": "在本分析中，ln(x) 表示 x 的自然对数，其中 x 为正数。",
+      "en": "In this analysis, ln(x) denotes the natural logarithm of x, where x is positive."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论数学",
+      "ms_spoken": "Nak cari ln(5), tekan butang ln kat kalkulator je.",
+      "ms_standard": "Untuk mencari nilai ln(5), tekan butang ln pada kalkulator.",
+      "zh": "要算 ln(5)，按计算器上的 ln 键就行。",
+      "en": "To find ln(5), just use the ln key on your calculator.",
+      "spoken_features": [
+        "nak → mahu；此处引出计算目的",
+        "kat → pada",
+        "je → sahaja",
+        "ln 保留为数学记号，不作为口语借词"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku nak kira ln(5). Guna butang log ke?",
+          "ms_standard": "Saya mahu mengira ln(5). Adakah saya perlu menggunakan butang log?",
+          "zh": "我想算 ln(5)，是按 log 键吗？",
+          "en": "I want to calculate ln(5). Do I use the log key?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Guna butang ln kat kalkulator tu je. Yang ni asas e.",
+          "ms_standard": "Gunakan butang ln pada kalkulator itu. Logaritma ini berasaskan e.",
+          "zh": "按那台计算器上的 ln 键就行，这个是以 e 为底的。",
+          "en": "Just use the ln key on that calculator. This one is base e."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The symbol ln belongs to international mathematical notation rather than Malay word formation. In Malay reference materials, it accompanies logaritma asli, the logarithm with base e. Its use in formulas and on calculators allows the same operation to be recognized across languages, even when teachers explain or pronounce the expression differently. [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=logaritma)",
+    "cognitive_memory_aid": "把 ln 和“自然对数、底数 e”绑在一起记：ln(e)＝1。它是符号，不必拼成一个马来语音节。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "教学或汇报时首次出现可解释为 ln, iaitu logaritma asli，让不熟悉记号的听众也能理解。",
+    "usage_etiquette": "适用于数学、统计及技术文本。正式排版中保留拉丁字母记号；没有上下文时，不把任意 ln 字串自动解释为自然对数。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "教学或汇报时首次出现可解释为 ln, iaitu logaritma asli，让不熟悉记号的听众也能理解。",
+    "usage_etiquette": "适用于数学、统计及技术文本。正式排版中保留拉丁字母记号；没有上下文时，不把任意 ln 字串自动解释为自然对数。"
+  }
+}
