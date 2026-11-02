@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "tahunnya",
+    "syllables": null,
+    "ipa": "/ta.hun.ɲa/",
+    "jawi": "تاهون",
+    "frequency_rank": 10831,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tahun",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "tahun + -nya → tahunnya",
+    "pattern_note": "-nya 在这里是附着于名词后的语法成分，不另造新词义；词根末尾 n 与 nya 的 ny /ɲ/ 均保留，读作 ta.hun.nya。输入的 Jawi تاهون 仅对应词根 tahun，未包含 -nya。",
+    "word_family": [
+      {
+        "word": "setahun",
+        "affix": "se-",
+        "gloss": "一年"
+      },
+      {
+        "word": "tahunan",
+        "affix": "-an",
+        "gloss": "每年的；年度的"
+      },
+      {
+        "word": "bertahun-tahun",
+        "affix": "ber- + 重叠",
+        "gloss": "多年；长年累月"
+      }
+    ],
+    "root_jawi": "تاهون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "上文所指事件或事物对应的年份，或与之相关的十二个月期间。",
+      "en_definition": "The year or twelve-month period associated with a previously mentioned event or thing.",
+      "ms_definition": "Tahun atau tempoh dua belas bulan yang berkaitan dengan perkara yang telah disebut, dengan rujukannya ditentukan oleh konteks.",
+      "nuances": "不是独立于 tahun 的新词义。-nya 的所指须由上下文确定，不应一律译作“他的一年”。在 setiap tahunnya 中，整个短语表示“每年”，马来西亚简洁书面语通常用 setiap tahun。词根释义依据输入的 DBP 条目；-nya 的语法功能可参见 [DBP 语法答疑](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tatabahasa+nya)。",
+      "collocations": [
+        {
+          "ms": "setiap tahunnya",
+          "zh": "每年",
+          "en": "every year"
+        },
+        {
+          "ms": "tahunnya tidak dinyatakan",
+          "zh": "未注明年份",
+          "en": "the year is not specified"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "某刊物出版或某项活动开展到的第几个年度，通常与序数配合使用。",
+      "en_definition": "The numbered year in the publication history of a periodical or the running of an activity.",
+      "ms_definition": "Tahun yang menunjukkan peringkat tempoh penerbitan atau pelaksanaan sesuatu, lazimnya dinyatakan dengan bilangan tingkat.",
+      "nuances": "继承 tahun 表示“第几个年度”的用法，如 dalam tahunnya yang kedua。这里表达持续阶段，并非某个公历年份；一般文字也可直接写 dalam tahun kedua。",
+      "collocations": [
+        {
+          "ms": "dalam tahunnya yang kedua",
+          "zh": "在其第二个年度",
+          "en": "in its second year"
+        },
+        {
+          "ms": "memasuki tahunnya yang kesepuluh",
+          "zh": "迈入其第十个年度",
+          "en": "entering its tenth year"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "档案说明 / 公文",
+      "ms": "Rekod itu menyatakan 15 Mei sebagai tarikh perasmian, tetapi tahunnya tidak dicatat.",
+      "zh": "该记录注明揭幕日期为5月15日，但未记载年份。",
+      "en": "The record gives 15 May as the opening date, but does not record the year."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友回忆往事",
+      "ms_spoken": "Tarikh tu aku ingat, tapi tahunnya aku dah lupa lah.",
+      "ms_standard": "Saya masih ingat tarikh itu, tetapi saya sudah lupa tahunnya.",
+      "zh": "几月几号我记得，可是哪一年我已经忘了啦。",
+      "en": "I remember the day and month, but I've forgotten the year.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "dah 对应 sudah；lah 在这里使说明语气更自然。",
+        "aku 适用于熟悉的朋友之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kita pergi Langkawi bulan Jun, kan? Tahunnya aku dah lupa lah.",
+          "ms_standard": "Kita pergi ke Langkawi pada bulan Jun, bukan? Saya sudah lupa tahunnya.",
+          "zh": "我们是六月去浮罗交怡的，对吧？哪一年我已经忘了啦。",
+          "en": "We went to Langkawi in June, right? I've forgotten which year."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tahun 2022. Aku dah semak gambar kat telefon tadi.",
+          "ms_standard": "Tahun 2022. Saya sudah menyemak gambar dalam telefon tadi.",
+          "zh": "2022年。我刚才已经看过手机里的照片了。",
+          "en": "2022. I checked the photos on my phone earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tahunnya is a transparent grammatical combination of tahun and -nya, rather than a separate historical root. Tahun supplies the idea of a year; the attached element connects it to an understood referent. The same time word serves calendars, ages, and publication histories, so context determines whether a particular calendar year or a numbered year of activity is intended.",
+    "cognitive_memory_aid": "先记 tahun＝年，再把 -nya 想成一根回指上文的线：tahunnya＝前面那件事对应的年份。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "该词本身语气中性。正式沟通应交代清楚所指年份；涉及长者或上司时，礼貌程度主要由称谓及整句表达决定。",
+    "usage_etiquette": "询问年份可说 Tahun berapa?；不要把 tahunnya 当作通用问句。正式日期、合同及档案应写明完整年份，避免仅用 -nya 回指而造成歧义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "该词本身语气中性。正式沟通应交代清楚所指年份；涉及长者或上司时，礼貌程度主要由称谓及整句表达决定。",
+    "usage_etiquette": "询问年份可说 Tahun berapa?；不要把 tahunnya 当作通用问句。正式日期、合同及档案应写明完整年份，避免仅用 -nya 回指而造成歧义。"
+  }
+}

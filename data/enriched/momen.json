@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "momen",
+    "syllables": null,
+    "ipa": "/mo.men/",
+    "jawi": "مومين",
+    "frequency_rank": 10843,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "momen",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + momen → momen",
+    "pattern_note": "整词记忆，无马来语词缀。DBP 标注 mo.mén，末音节为 /men/，其中 é 是 /e/，不是 /ə/。",
+    "word_family": [
+      {
+        "word": "momen daya",
+        "affix": "∅（复合词）",
+        "gloss": "力矩"
+      },
+      {
+        "word": "momen inersia",
+        "affix": "∅（复合词）",
+        "gloss": "转动惯量"
+      }
+    ],
+    "root_jawi": "مومين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "片刻；瞬间；某一短暂时刻，尤其指值得注意或纪念的一刻。",
+      "en_definition": "A very brief period of time; a particular moment.",
+      "ms_definition": "Waktu yang sangat singkat; saat, detik atau ketika.",
+      "nuances": "常见于叙事、摄影与纪念活动；momen indah 指美好的时刻，不表示固定长度的时间单位。日常也可按语境用 saat、detik 或 ketika。[DBP：momen](https://prpm.dbp.gov.my/cari1?keyword=momen)",
+      "collocations": [
+        {
+          "ms": "momen indah",
+          "zh": "美好时刻",
+          "en": "a beautiful moment"
+        },
+        {
+          "ms": "mengabadikan momen",
+          "zh": "把某个时刻记录留存",
+          "en": "to capture a moment"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "【物理】力矩；力使物体绕某点或某轴转动的作用量。",
+      "en_definition": "The turning effect of a force about a point or axis.",
+      "ms_definition": "Ukuran kecenderungan daya untuk menghasilkan gerakan berputar pada sesuatu jasad.",
+      "nuances": "这是专业义，须结合具体术语理解。momen daya 是力矩；momen inersia 是转动惯量，两者为不同物理量。[DBP：momen](https://prpm.dbp.gov.my/cari1?keyword=momen)",
+      "collocations": [
+        {
+          "ms": "momen daya",
+          "zh": "力矩",
+          "en": "moment of a force"
+        },
+        {
+          "ms": "mengira momen",
+          "zh": "计算力矩",
+          "en": "to calculate a moment"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "【统计】矩；用于描述分布特征的量，通常由随机变量的幂或其相对于某中心的偏差的幂的期望值定义。",
+      "en_definition": "An expected power of a random variable or of its deviation from a specified value, used to characterize a distribution.",
+      "ms_definition": "Dalam statistik, nilai jangkaan bagi kuasa pemboleh ubah rawak atau kuasa sisihannya daripada suatu nilai rujukan, untuk menghuraikan ciri taburan.",
+      "nuances": "此处的马来语释义为术语解释性编写，并非 DBP 原文。统计学中的 momen pusat 与 momen mentah 分别对应中心矩和原点矩。[马来亚大学数学与统计术语表](https://ism.um.edu.my/Image/Research/Links/MATHEMATICAL%20%26%20STATISTICAL%20TERMS/bm_to_english.pdf)",
+      "collocations": [
+        {
+          "ms": "momen pusat",
+          "zh": "中心矩",
+          "en": "central moment"
+        },
+        {
+          "ms": "momen mentah",
+          "zh": "原点矩",
+          "en": "raw moment"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 纪念活动报道",
+      "ms": "Pameran fotografi itu mengabadikan momen penting dalam sejarah negara.",
+      "zh": "该摄影展记录了国家历史上的重要时刻。",
+      "en": "The photography exhibition captures important moments in the nation's history."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友分享毕业照",
+      "ms_spoken": "Nasib baik kau sempat rakam momen tu tadi!",
+      "ms_standard": "Mujurlah kamu sempat merakam momen itu tadi!",
+      "zh": "还好你刚才来得及把那一刻拍下来！",
+      "en": "Good thing you managed to capture that moment!",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "kau 用于关系亲近的同辈。",
+        "rakam 在口语中省略标准主动式前缀 meN-。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah tengok gambar kita kat pentas tadi? Momen tu memang cantik!",
+          "ms_standard": "Kamu sudah melihat gambar kita di pentas tadi? Momen itu memang indah!",
+          "zh": "你看过我们刚才在台上的照片了吗？那一刻真的好美！",
+          "en": "Have you seen the photo of us on stage earlier? That was such a lovely moment!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah! Aku nak cetak satu, simpan buat kenangan.",
+          "ms_standard": "Sudah! Saya hendak mencetak sekeping untuk disimpan sebagai kenangan.",
+          "zh": "看了！我想印一张留作纪念。",
+          "en": "I have! I want to print a copy as a keepsake."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay momen belongs to an international vocabulary associated with English moment. Its dictionary record brings together an everyday instant and a technical turning effect, while mathematical terminology also uses it for statistical moments. These meanings provide a memorable bridge between lived experience and measurement. The consulted evidence does not establish its precise borrowing route into Malay.",
+    "cognitive_memory_aid": "把 momen 联想到英语 moment：相机咔嚓一下，留下一个 momen。注意末音节读 /men/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词没有冒犯性，可用于正式写作或朋友交谈；日常义常带纪念、感怀或叙事色彩。",
+    "usage_etiquette": "新闻和报告中可用 momen penting；说明准确时长时应使用 saat、minit 等明确单位。科技语境必须分清力矩、转动惯量与统计矩。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词没有冒犯性，可用于正式写作或朋友交谈；日常义常带纪念、感怀或叙事色彩。",
+    "usage_etiquette": "新闻和报告中可用 momen penting；说明准确时长时应使用 saat、minit 等明确单位。科技语境必须分清力矩、转动惯量与统计矩。"
+  }
+}

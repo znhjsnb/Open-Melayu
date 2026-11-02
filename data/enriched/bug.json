@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "bug",
+    "syllables": "sst",
+    "ipa": "/bʌɡ/",
+    "jawi": null,
+    "frequency_rank": 10875,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bug",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bug → bug",
+    "pattern_note": "英语整词借用，不作马来语词缀拆分。输入音节字段 sst 按要求保留，但不是本词的音节划分；bug 实为单音节。IPA 标示英语原词读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "计算机软件、系统或硬件中导致运行结果不符合预期的缺陷或错误；马来西亚科技交流中的英语借用词。",
+      "en_definition": "A defect in computer software, a system, or hardware that causes unintended behaviour.",
+      "ms_definition": "Dalam penggunaan teknologi yang meminjam istilah Inggeris, kecacatan atau kesilapan pada perisian, sistem atau perkakasan komputer yang menyebabkan operasi tidak seperti yang dikehendaki; padanan bahasa Melayunya ialah pepijat.",
+      "nuances": "常见于程序员交流和聊天，不等于病毒，也不表示所有故障都由恶意软件造成。规范马来语对应词为 pepijat。英语 bug 的昆虫、病菌、窃听器及动词义，不应自动全部移植为马来语义项。输入要求的 official 为本条输出状态，不代表 DBP 将英语拼写 bug 核定为规范马来语词头。[DBP：pepijat 与英语 bug](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pepijat)",
+      "collocations": [
+        {
+          "ms": "bug dalam perisian",
+          "zh": "软件中的缺陷",
+          "en": "a bug in the software"
+        },
+        {
+          "ms": "membaiki bug",
+          "zh": "修复程序缺陷",
+          "en": "to fix a bug"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan teknikal telah membaiki pepijat, atau bug, yang menyebabkan aplikasi itu tertutup secara tiba-tiba.",
+      "zh": "技术团队已修复导致该应用程序突然关闭的程序缺陷，即 bug。",
+      "en": "The technical team has fixed the bug that caused the application to close unexpectedly."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ada bug lagi lah, aku dah tekan simpan tapi gambar tu hilang.",
+      "ms_standard": "Masih terdapat pepijat; saya sudah menekan butang simpan, tetapi gambar itu hilang.",
+      "zh": "又有 bug 了啦，我都点保存了，那张照片还是不见了。",
+      "en": "There's another bug. I tapped Save, but the photo disappeared.",
+      "spoken_features": [
+        "bug 为科技交流中的英语借词，标准对应词为 pepijat",
+        "dah 是 sudah 的口语缩略",
+        "tu 是 itu 的口语缩略",
+        "lah 表达无奈或强调",
+        "aku 适用于熟人之间"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku dah jumpa bug kat bahagian bayaran ni.",
+          "ms_standard": "Saya sudah menemukan pepijat pada bahagian pembayaran ini.",
+          "zh": "我发现付款这一块有个 bug。",
+          "en": "I've found a bug in the payment section."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Hantar tangkap layar tu kat aku jap, aku nak semak.",
+          "ms_standard": "Hantarkan tangkap layar itu kepada saya sebentar; saya mahu menyemaknya.",
+          "zh": "把截图发我一下，我看看。",
+          "en": "Send me the screenshot so I can take a look."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English engineers used bug for mechanical faults before electronic computers existed. In 1947, a Harvard Mark II team found a moth inside the machine and attached it to a logbook. The incident popularised an existing expression rather than creating it. Malaysian technical conversation borrows bug, while Malay terminology uses pepijat. [Smithsonian collection record](https://americanhistory.si.edu/collections/object/nmah_334663)",
+    "cognitive_memory_aid": "把 bug 想成钻进程序的小虫：虫子让运行出错，抓出它就是修复缺陷。英语读音近“巴格”，不要把输入的 sst 当成读音。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "同事之间说 ada bug 很自然；向客户或主管汇报时，使用 terdapat pepijat，并说明具体影响，语气更清楚、专业。",
+    "usage_etiquette": "技术聊天可直接使用 bug；面向公众的正式马来语文件宜使用 pepijat，必要时首次附上英语 bug。描述系统问题时聚焦现象，避免直接指责某位开发人员。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "同事之间说 ada bug 很自然；向客户或主管汇报时，使用 terdapat pepijat，并说明具体影响，语气更清楚、专业。",
+    "usage_etiquette": "技术聊天可直接使用 bug；面向公众的正式马来语文件宜使用 pepijat，必要时首次附上英语 bug。描述系统问题时聚焦现象，避免直接指责某位开发人员。"
+  }
+}

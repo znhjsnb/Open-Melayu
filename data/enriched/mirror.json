@@ -1,0 +1,166 @@
+{
+  "headword": {
+    "word": "mirror",
+    "syllables": null,
+    "ipa": "/ˈmɪrə/",
+    "jawi": null,
+    "frequency_rank": 10848,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mirror",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mirror → mirror",
+    "pattern_note": "英语整词，不能拆为马来语词根和词缀；此处采用英式英语非卷舌读音。英语名词和动词同形，马来语对应形式须按语境选择。",
+    "word_family": [
+      {
+        "word": "mirrored",
+        "affix": "-ed（英语）",
+        "gloss": "映照出的；装有镜面的"
+      },
+      {
+        "word": "mirroring",
+        "affix": "-ing（英语）",
+        "gloss": "映照；镜像复制；屏幕镜像"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "通过反射形成物体影像的镜子或镜面。",
+      "en_definition": "A reflective surface that forms an image of objects before it.",
+      "ms_definition": "Cermin atau permukaan pemantul yang menghasilkan bayangan objek di hadapannya.",
+      "nuances": "英语名词；标准马来语对应 cermin。mirror 出现在马来语对话中属于语码混用，side mirror 等英语组合尤其容易出现在汽车话题中。[DBP：mirror 的马来语对应词](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=cermin)",
+      "collocations": [
+        {
+          "ms": "side mirror kereta",
+          "zh": "汽车侧视镜",
+          "en": "a car's side mirror"
+        },
+        {
+          "ms": "mirror bilik air",
+          "zh": "浴室镜子",
+          "en": "a bathroom mirror"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "能够真实反映某种社会状况、思想或特征的事物。",
+      "en_definition": "Something that faithfully represents a condition, character, or society.",
+      "ms_definition": "Sesuatu yang menggambarkan keadaan, sifat atau kehidupan masyarakat.",
+      "nuances": "英语比喻义；正式马来语通常用 cermin 或 cerminan。不能把它理解为实际的玻璃镜子。[Merriam-Webster：mirror](https://www.merriam-webster.com/dictionary/mirror)",
+      "collocations": [
+        {
+          "ms": "cermin masyarakat",
+          "zh": "社会的一面镜子",
+          "en": "a mirror of society"
+        },
+        {
+          "ms": "cerminan kehidupan",
+          "zh": "生活的写照",
+          "en": "a mirror of life"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "映照出某物；引申为反映某种状况，或与另一事物十分相似。",
+      "en_definition": "To reflect something or closely reproduce its characteristics.",
+      "ms_definition": "Memantulkan bayangan sesuatu atau mencerminkan keadaan dan cirinya.",
+      "nuances": "这是英语动词义。正式马来语中，实际光学反射可用 memantulkan，抽象反映常用 mencerminkan，相似则可用 menyerupai。[Merriam-Webster：mirror](https://www.merriam-webster.com/dictionary/mirror)",
+      "collocations": [
+        {
+          "ms": "memantulkan bayangan",
+          "zh": "映照出影像",
+          "en": "mirror an image"
+        },
+        {
+          "ms": "mencerminkan perubahan masyarakat",
+          "zh": "反映社会变化",
+          "en": "mirror changes in society"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "在另一屏幕上显示相同画面，或在另一存储位置复制并维持相同的数据内容。",
+      "en_definition": "To reproduce a screen display or maintain a matching copy of data elsewhere.",
+      "ms_definition": "Memaparkan kandungan skrin yang sama pada peranti lain atau menghasilkan salinan data yang sepadan.",
+      "nuances": "计算机语境中的英语延伸义；马来语口语可说 mirror skrin。屏幕镜像强调显示相同画面，数据镜像强调对应副本；两者均须结合具体系统理解。此义由英语的映照、复制概念延伸。[Merriam-Webster：mirror 的基本动词义](https://www.merriam-webster.com/dictionary/mirror)",
+      "collocations": [
+        {
+          "ms": "mirror skrin telefon",
+          "zh": "镜像显示手机屏幕",
+          "en": "mirror a phone screen"
+        },
+        {
+          "ms": "mirror data ke pelayan lain",
+          "zh": "将数据镜像复制到另一台服务器",
+          "en": "mirror data to another server"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 设备使用说明",
+      "ms": "Sila pilih fungsi berlabel 'mirror' untuk memaparkan kandungan skrin komputer pada projektor.",
+      "zh": "请选择标为“mirror”的功能，将电脑屏幕内容显示在投影仪上。",
+      "en": "Please select the function labelled 'mirror' to display the computer screen on the projector."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事准备演示",
+      "ms_spoken": "Aku nak mirror skrin laptop kat TV ni, tapi gambar tak keluar lah.",
+      "ms_standard": "Saya mahu memaparkan kandungan skrin komputer riba pada televisyen ini, tetapi tiada imej dipaparkan.",
+      "zh": "我想把笔记本画面投到这台电视上，可是画面出不来。",
+      "en": "I'm trying to mirror my laptop screen on this TV, but nothing's showing up.",
+      "spoken_features": [
+        "mirror 和 laptop 是英语词嵌入马来语句子",
+        "nak 对应 mahu",
+        "kat 在此对应 pada",
+        "ni 对应 ini",
+        "tak 对应 tidak",
+        "句末 lah 表达轻微无奈"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Aku nak mirror skrin laptop kat TV ni, tapi gambar tak keluar lah.",
+          "ms_standard": "Saya mahu memaparkan kandungan skrin komputer riba pada televisyen ini, tetapi tiada imej dipaparkan.",
+          "zh": "我想把笔记本画面投到这台电视上，可是画面出不来。",
+          "en": "I'm trying to mirror my laptop screen on this TV, but nothing's showing up."
+        },
+        {
+          "speaker": "Hakim (同事)",
+          "ms_spoken": "Kau dah pilih input HDMI yang betul ke? Cuba tukar dulu.",
+          "ms_standard": "Adakah awak sudah memilih input HDMI yang betul? Cuba tukar input itu dahulu.",
+          "zh": "你选对 HDMI 输入了吗？先切换一下试试。",
+          "en": "Have you selected the right HDMI input? Try switching it first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English mirror came through Anglo-French from a verb meaning to look at, ultimately connected with Latin mirari, to wonder at. Its history links looking with admiration. The reflective object later supplied a verb for reflecting or resembling something. Standard Malay uses cermin for the object and mencerminkan for many figurative uses. [Sources: Merriam-Webster](https://www.merriam-webster.com/dictionary/mirror), [DBP](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=cermin).",
+    "cognitive_memory_aid": "想象两块屏幕像镜子一样显示同一张脸：mirror 先记“镜子”，再联想“映照、复制”；马来语实物名称是 cermin。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "技术同事间说 mirror skrin 容易理解；面对不熟悉英语术语的人，可改说 paparkan skrin yang sama，并说明要显示到哪台设备。",
+    "usage_etiquette": "正式马来语写作优先使用 cermin、mencerminkan 或具体的显示、复制说明；引用设备界面的 mirror 标签时可保留英语。不要把 mirror 当成所有“玻璃”的通用名称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "技术同事间说 mirror skrin 容易理解；面对不熟悉英语术语的人，可改说 paparkan skrin yang sama，并说明要显示到哪台设备。",
+    "usage_etiquette": "正式马来语写作优先使用 cermin、mencerminkan 或具体的显示、复制说明；引用设备界面的 mirror 标签时可保留英语。不要把 mirror 当成所有“玻璃”的通用名称。"
+  }
+}

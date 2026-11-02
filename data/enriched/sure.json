@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "sure",
+    "syllables": "various translations",
+    "ipa": "/ʃʊə/",
+    "jawi": null,
+    "frequency_rank": 10792,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sure",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sure → sure（英语整词用于语码转换）",
+    "pattern_note": "整词使用，无马来语词缀。输入包的 syllables 原值予以保留，但 various translations 不是音节划分；sure 通常按单音节学习。此处采用英语读音，实际口音可有差异。",
+    "word_family": [
+      {
+        "word": "unsure",
+        "affix": "un-（英语前缀）",
+        "gloss": "不确定的；英语同族词"
+      },
+      {
+        "word": "surely",
+        "affix": "-ly（英语后缀）",
+        "gloss": "肯定；想必；英语同族词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "【英语语码转换】确定的；确信的；对某事没有疑问。",
+      "en_definition": "Certain or confident that something is true.",
+      "ms_definition": "Dalam percampuran kod dengan bahasa Inggeris: pasti atau yakin tentang sesuatu.",
+      "nuances": "常见于马来语与英语混用的对话；规范马来语对应 pasti 或 yakin。此处马来语释义为解释性转述，并非 DBP 的 sure 词条释义。[Cambridge 英马词典](https://dictionary.cambridge.org/dictionary/english-malaysian/sure)",
+      "collocations": [
+        {
+          "ms": "tak sure",
+          "zh": "不太确定",
+          "en": "not sure"
+        },
+        {
+          "ms": "awak sure?",
+          "zh": "你确定吗？",
+          "en": "are you sure?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "【英语语码转换】肯定；一定；表示说话者认为某结果必然发生。",
+      "en_definition": "Certainly; definitely; used informally to predict an outcome with confidence.",
+      "ms_definition": "Dalam percakapan bercampur bahasa Inggeris: pasti atau tentu berlaku.",
+      "nuances": "如 sure menang 相当于 pasti menang。表达的是说话者的把握，不构成客观保证；正式马来语使用 pasti、tentu 或 sudah tentu。",
+      "collocations": [
+        {
+          "ms": "sure menang",
+          "zh": "肯定会赢",
+          "en": "will definitely win"
+        },
+        {
+          "ms": "sure boleh",
+          "zh": "肯定可以",
+          "en": "can definitely do it"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "【英语语码转换】好；可以；当然，用于接受请求、提议或安排。",
+      "en_definition": "An informal affirmative response accepting a request, suggestion or arrangement.",
+      "ms_definition": "Kata respons dalam percampuran kod yang menyatakan persetujuan; boleh, baik atau sudah tentu.",
+      "nuances": "回应请求时通常译为“好／可以”，不宜机械译成“确定”。本结构将独立应答词归为 particle。[Cambridge 词典](https://dictionary.cambridge.org/us/dictionary/english/sure)",
+      "collocations": [
+        {
+          "ms": "sure, boleh",
+          "zh": "好，可以",
+          "en": "sure, no problem"
+        },
+        {
+          "ms": "sure, nanti saya hantar",
+          "zh": "好，我等会儿发过去",
+          "en": "sure, I'll send it later"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Penyunting menggantikan perkataan 'sure' dengan 'pasti' dalam laporan tersebut.",
+      "zh": "编辑将该报告中的 sure 替换为 pasti。",
+      "en": "The editor replaced 'sure' with 'pasti' in the report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Sure, aku hantar kat kau jap lagi ya.",
+      "ms_standard": "Baik, saya akan menghantarnya kepada awak sebentar lagi.",
+      "zh": "好，我一会儿发给你哈。",
+      "en": "Sure, I'll send it to you in a bit.",
+      "spoken_features": [
+        "sure 是英语应答词，体现语码转换。",
+        "kat kau 在此对应 kepada awak。",
+        "jap lagi 对应 sebentar lagi，ya 缓和语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Boleh hantar fail tu kat aku? Aku nak semak jap.",
+          "ms_standard": "Bolehkah awak menghantar fail itu kepada saya? Saya hendak menyemaknya sebentar.",
+          "zh": "能把那个文件发给我吗？我想看一下。",
+          "en": "Could you send me that file? I want to take a quick look."
+        },
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Sure, aku dah siap semak. Aku hantar sekarang ya.",
+          "ms_standard": "Baik, saya sudah selesai menyemaknya. Saya akan menghantarnya sekarang.",
+          "zh": "可以，我已经检查完了，现在发给你哈。",
+          "en": "Sure, I've finished checking it. I'll send it over now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English sure came through French forms such as seur from Latin securus, associated with freedom from worry and safety. Its meanings developed around reliability and certainty. In Malaysian mixed-language conversation, the English word can express confidence or accept a request; its occurrence there does not establish it as standard Malay. [Etymological source](https://www.etymonline.com/word/sure)",
+    "cognitive_memory_aid": "把 sure 与“心里有数”联想：有数就是确定；别人提出请求时，一声 sure 就是“好，可以”。这是记忆联想，不是词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉的双语同事或朋友之间用 sure 通常自然。正式马来语通信中，表达确定用 pasti 或 yakin，接受请求用 baik 或 boleh。",
+    "usage_etiquette": "先判断对方是否习惯英语混用。sure? 可表示核实，也可能因语调显得质疑；需要尊重语气时可说 Adakah tuan/puan pasti?。status 按指定格式保留为 official，不代表 sure 已获认定为规范马来词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉的双语同事或朋友之间用 sure 通常自然。正式马来语通信中，表达确定用 pasti 或 yakin，接受请求用 baik 或 boleh。",
+    "usage_etiquette": "先判断对方是否习惯英语混用。sure? 可表示核实，也可能因语调显得质疑；需要尊重语气时可说 Adakah tuan/puan pasti?。status 按指定格式保留为 official，不代表 sure 已获认定为规范马来词。"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "tap",
+    "syllables": null,
+    "ipa": "/tap/",
+    "jawi": null,
+    "frequency_rank": 10906,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tap",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tap → tap",
+    "pattern_note": "这里按马英混用中的英语整词处理，不作马来语词缀拆分。/tap/ 表示马来语化读法，沿用英语发音时可读 /tæp/。未核实稳定的马来语派生词，词族留空；输入未提供音节及爪夷文，保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "轻点触摸屏上的图标、按钮或其他项目，以选取内容或执行操作；用于马英混用的口语。",
+      "en_definition": "In informal Malay–English usage, to touch an item on a touchscreen briefly to select it or perform an action.",
+      "ms_definition": "Menyentuh ikon, butang atau bahagian skrin dengan jari secara singkat untuk memilih sesuatu atau menjalankan arahan; mengetik.",
+      "nuances": "此处为英语混用词的编写释义，不冒充 DBP 已收录的马来语原文释义。正式界面指令通常使用 ketik；DBP 的翻译示例采用 Ketik butang tambah untuk mencari Wi-Fi。tap 指短暂轻点，区别于 tekan dan tahan（长按）及 leret（滑动）。[DBP：ketik](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ketik)",
+      "collocations": [
+        {
+          "ms": "tap skrin",
+          "zh": "轻点屏幕",
+          "en": "tap the screen"
+        },
+        {
+          "ms": "tap ikon",
+          "zh": "轻点图标",
+          "en": "tap an icon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "将卡片或设备靠近或轻触感应读卡器，以完成付款、验票或门禁验证；用于马英混用的口语。",
+      "en_definition": "In informal Malay–English usage, to present a card or device to a contactless reader for payment, access, or validation.",
+      "ms_definition": "Mendekatkan atau menyentuhkan kad atau peranti pada pembaca tanpa sentuh untuk membuat bayaran atau pengesahan.",
+      "nuances": "这是日常交流中英语 tap 的延伸用法。实际操作可只需靠近读卡器，不一定接触。正式说明宜按设备操作写成 dekatkan kad pada pembaca 或 sentuhkan kad pada pembaca，不应把它与刷磁条卡混为一谈。",
+      "collocations": [
+        {
+          "ms": "tap kad",
+          "zh": "感应卡片",
+          "en": "tap a card"
+        },
+        {
+          "ms": "tap telefon pada terminal",
+          "zh": "将手机靠近支付终端感应",
+          "en": "tap a phone on the terminal"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam panduan aplikasi, arahan bahasa Inggeris “tap” diterjemahkan sebagai “ketik”, contohnya “Ketik ikon untuk membuka menu”.",
+      "zh": "在应用程序指南中，英语指令“tap”译作“ketik”，例如“轻点图标以打开菜单”。",
+      "en": "In the application guide, the English instruction “tap” is translated as “ketik”, as in “Tap the icon to open the menu”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tap ikon kat bawah tu sekali je.",
+      "ms_standard": "Ketik ikon di bahagian bawah itu sekali sahaja.",
+      "zh": "点一下下面那个图标就行。",
+      "en": "Just tap that icon at the bottom once.",
+      "spoken_features": [
+        "tap 是嵌入马来语句子的英语动作词",
+        "kat 对应 di，tu 对应 itu",
+        "je 对应 sahaja，表示只需如此"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku nak buka menu ni, kena tap kat mana?",
+          "ms_standard": "Saya hendak membuka menu ini. Bahagian manakah yang perlu saya ketik?",
+          "zh": "我想打开这个菜单，要点哪里？",
+          "en": "I want to open this menu. Where do I tap?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Tap ikon tiga garis kat bawah tu sekali je, nanti menu keluar.",
+          "ms_standard": "Ketik ikon tiga garis di bahagian bawah itu sekali sahaja. Selepas itu, menu akan dipaparkan.",
+          "zh": "点一下下面那个三条横线的图标，菜单就出来了。",
+          "en": "Just tap the three-line icon at the bottom once, and the menu will appear."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In the digital usage described here, tap is an English insertion into Malay conversation. Touchscreen instructions give the brief action a familiar verbal label, while contactless transactions extend it to presenting a card or phone to a reader. DBP translation guidance uses ketik for the touchscreen command, distinguishing conversational borrowing from formal Malay wording. [DBP：ketik](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ketik)",
+    "cognitive_memory_aid": "想象指尖轻碰屏幕，发出短短一声“嗒”：tap 就是短促轻点；标准马来语记作 ketik。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人交流可直接说 Tap kat sini；协助顾客或长辈时，可说 Sila ketik ikon ini 或 Boleh dekatkan kad pada pembaca ini?",
+    "usage_etiquette": "适用于熟悉英语界面词的日常技术交流。面向公众的马来语指南宜采用 ketik 等明确对应词；指导他人操作手机时，应让对方自行输入密码及确认交易。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人交流可直接说 Tap kat sini；协助顾客或长辈时，可说 Sila ketik ikon ini 或 Boleh dekatkan kad pada pembaca ini?",
+    "usage_etiquette": "适用于熟悉英语界面词的日常技术交流。面向公众的马来语指南宜采用 ketik 等明确对应词；指导他人操作手机时，应让对方自行输入密码及确认交易。"
+  }
+}

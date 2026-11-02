@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "terduga",
+    "syllables": "ter.du.ga",
+    "ipa": "/tər.du.ɡa/",
+    "jawi": "تردوݢا",
+    "frequency_rank": 10825,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "duga",
+    "affix": "ter-",
+    "affix_type": "prefix",
+    "formula": "ter- + duga → terduga",
+    "pattern_note": "ter- 接在 duga 前，保留词根首辅音 d；此处表达已被推测或能够推测，不表示最高级。输入 Jawi 含异常控制字符 U+0081，headword.jawi 已删除该字符；root_jawi 按输入保留。",
+    "word_family": [
+      {
+        "word": "menduga",
+        "affix": "meN-",
+        "gloss": "推测；预料；测量水深"
+      },
+      {
+        "word": "dugaan",
+        "affix": "-an",
+        "gloss": "猜测；预料；考验"
+      },
+      {
+        "word": "pendugaan",
+        "affix": "peN-…-an",
+        "gloss": "推测或测量的过程"
+      }
+    ],
+    "root_jawi": "دوݢ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "已被推测、估量；或能够被推测、估量。",
+      "en_definition": "To have been estimated or inferred, or to be capable of being estimated or inferred.",
+      "ms_definition": "Telah dianggarkan atau diagak, atau dapat diketahui melalui anggaran dan pertimbangan.",
+      "nuances": "以被动或可能性意义理解；时态和“能够”义须由上下文确定。以下释义依据 DBP 义项改写。[DBP：terduga](https://prpm.dbp.gov.my/cari1?keyword=terduga)。",
+      "collocations": [
+        {
+          "ms": "tidak terduga",
+          "zh": "无法预料；出乎意料",
+          "en": "unforeseen; beyond prediction"
+        },
+        {
+          "ms": "terduga oleh akal",
+          "zh": "凭理智能够推知",
+          "en": "conceivable through reason"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被料到；被预见。常用于否定结构，表示某事完全出乎意料。",
+      "en_definition": "To be anticipated or expected, especially in negative expressions meaning unexpected.",
+      "ms_definition": "Tersangka atau terjangka; lazim dalam ungkapan negatif bagi sesuatu yang berlaku di luar jangkaan.",
+      "nuances": "terduga 本身不是“意外”；没有预料到的意思来自 tidak 或 tak。马来西亚一般词义不宜套用印尼新闻中“涉嫌者”的名词用法。[DBP：terduga](https://prpm.dbp.gov.my/cari1?keyword=terduga)。",
+      "collocations": [
+        {
+          "ms": "kejadian yang tidak terduga",
+          "zh": "意料之外的事件",
+          "en": "an unforeseen event"
+        },
+        {
+          "ms": "sama sekali tidak terduga",
+          "zh": "完全没有料到",
+          "en": "completely unexpected"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 项目进度汇报",
+      "ms": "Pelaksanaan projek itu tertangguh akibat kerosakan peralatan yang tidak terduga.",
+      "zh": "由于设备发生意料之外的故障，该项目的实施被迫延后。",
+      "en": "Implementation of the project was delayed by an unforeseen equipment failure."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友分享录取消息",
+      "ms_spoken": "Tak terduga langsung aku dapat tawaran tu!",
+      "ms_standard": "Sama sekali tidak terduga bahawa aku akan menerima tawaran itu!",
+      "zh": "完全没想到，我居然拿到那个录取了！",
+      "en": "I never expected to get that offer!",
+      "spoken_features": [
+        "tak 对应 tidak",
+        "tu 对应 itu",
+        "langsung 加强否定语气",
+        "口语采用感叹式语序；本词比 tak sangka 略显书面"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tak terduga langsung aku dapat tawaran tu! Aku dah baca e-mel tu tiga kali.",
+          "ms_standard": "Sama sekali tidak terduga bahawa aku akan menerima tawaran itu! Aku sudah membaca e-mel itu tiga kali.",
+          "zh": "完全没想到我会拿到那个录取！那封邮件我已经看了三遍。",
+          "en": "I never expected to get that offer! I've read the email three times."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Wah, tahniah! Kau dah usaha banyak, memang patut dapat lah.",
+          "ms_standard": "Wah, tahniah! Kau sudah banyak berusaha dan memang layak menerima tawaran itu.",
+          "zh": "哇，恭喜！你付出了那么多，拿到录取也是实至名归。",
+          "en": "Wow, congratulations! You worked hard for it. You deserve it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The duga word family connects physical measurement with mental estimation: DBP records both sounding water depth and guessing or predicting. This provides a memorable semantic bridge, although it does not establish which meaning came first. With ter-, the focus shifts to what can be anticipated; tidak terduga places an event beyond that anticipation. [DBP: duga](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=duga).",
+    "cognitive_memory_aid": "duga＝估量，terduga＝料得到；前面加 tidak，才变成“料不到”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "语气中性，适用于新闻、公文和叙事。朋友聊天中，tak sangka 通常更轻松自然。",
+    "usage_etiquette": "说明事故或延误时可用 tidak terduga 描述预料之外的情况，但这个词本身不说明责任归属，也不等于已经证明事件无法预防。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "语气中性，适用于新闻、公文和叙事。朋友聊天中，tak sangka 通常更轻松自然。",
+    "usage_etiquette": "说明事故或延误时可用 tidak terduga 描述预料之外的情况，但这个词本身不说明责任归属，也不等于已经证明事件无法预防。"
+  }
+}

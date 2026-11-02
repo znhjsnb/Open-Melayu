@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "battle",
+    "syllables": "bat.tle",
+    "ipa": "/ˈbæt.əl/",
+    "jawi": null,
+    "frequency_rank": 10846,
+    "status": "unverified_loanword"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "battle",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + battle → battle",
+    "pattern_note": "作为英语整词或语码转换成分处理，不作马来语词根拆分。音标为英语读音，末尾也可实现为成音节的 /l̩/。输入 syllables 的 various translations 不是有效音节信息，已改为英语拼写分节 bat.tle。",
+    "word_family": [
+      {
+        "word": "battles",
+        "affix": "-s（英语屈折）",
+        "gloss": "多场战斗或对决；亦为英语动词第三人称单数形式"
+      },
+      {
+        "word": "battling",
+        "affix": "-ing（英语屈折，去末尾 e）",
+        "gloss": "正在战斗、较量或奋力应对"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "【英语词；马来语混用】战斗；交战。标准马来语通常使用 pertempuran。",
+      "en_definition": "A fight between opposing armed forces.",
+      "ms_definition": "Pertempuran antara pasukan yang bermusuhan; takrif penerangan bagi kata Inggeris, bukan petikan takrif rasmi DBP untuk kata Melayu battle.",
+      "nuances": "输入没有提供 DBP 马来语词条定义，现有核查不足以确认其为正式马来语收词，因此不标 official。英语 battle 通常指一次交战，war 指战争。[英语词典：battle](https://www.dictionary.com/browse/battle)",
+      "collocations": [
+        {
+          "ms": "battle besar",
+          "zh": "大规模战斗",
+          "en": "a major battle"
+        },
+        {
+          "ms": "menang battle",
+          "zh": "赢得一场战斗",
+          "en": "to win a battle"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "【非正式混用】游戏、说唱或舞蹈等活动中的对决；竞技较量。",
+      "en_definition": "A competitive face-off, especially in gaming, rap or dance.",
+      "ms_definition": "Pertandingan atau perlawanan secara berhadapan, khususnya dalam permainan, rap atau tarian; takrif penerangan penggunaan tidak formal.",
+      "nuances": "在混合语句中可充当名词；具体标准马来语译法随活动而定，可用 perlawanan、pertandingan 或对活动作明确描述。下列搭配为混用表达，不表示获得 DBP 规范认可。",
+      "collocations": [
+        {
+          "ms": "battle rap",
+          "zh": "说唱对决",
+          "en": "a rap battle"
+        },
+        {
+          "ms": "battle satu lawan satu",
+          "zh": "一对一较量",
+          "en": "a one-on-one battle"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "【非正式混用】与对方进行对决或较量。",
+      "en_definition": "To compete or face off against an opponent.",
+      "ms_definition": "Bertanding atau berlawan dengan pihak lain; takrif penerangan penggunaan kata Inggeris dalam pertuturan campur bahasa.",
+      "nuances": "在 nak battle、battle dengan 等句框中可作动词使用。标准语应按情境改为 bertanding 或 berlawan；没有证据支持将此用法标作正式马来语动词。",
+      "collocations": [
+        {
+          "ms": "battle dengan kawan",
+          "zh": "与朋友对决",
+          "en": "to battle a friend"
+        },
+        {
+          "ms": "nak battle",
+          "zh": "想来一场对决",
+          "en": "to want to battle"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "活动报道 / 引述英语活动名称",
+      "ms": "Acara yang dinamakan 'Rap Battle' itu menampilkan pertandingan rap antara dua peserta.",
+      "zh": "这项名为“Rap Battle”的活动呈现了两名参赛者之间的说唱对决。",
+      "en": "The event, titled 'Rap Battle', featured a rap contest between two participants."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约游戏对战",
+      "ms_spoken": "Malam ni nak battle satu lawan satu tak?",
+      "ms_standard": "Adakah kamu hendak berlawan satu lawan satu malam ini?",
+      "zh": "今晚要不要来一场一对一？",
+      "en": "Want to go one-on-one tonight?",
+      "spoken_features": [
+        "battle 是插入马来语句框的英语动词。",
+        "ni 对应 ini，nak 对应 hendak。",
+        "句末 tak 构成口语是非问句。"
+      ],
+      "messages": [
+        {
+          "speaker": "Hakim (游戏好友)",
+          "ms_spoken": "Kau dah habis kerja? Jom battle satu lawan satu malam ni.",
+          "ms_standard": "Kamu sudah selesai bekerja? Mari kita berlawan satu lawan satu malam ini.",
+          "zh": "你忙完工作了吗？今晚来单挑一局吧。",
+          "en": "Finished work? Let's play a one-on-one match tonight."
+        },
+        {
+          "speaker": "Amir (游戏好友)",
+          "ms_spoken": "Boleh, lepas makan je. Aku nak cuba strategi baru.",
+          "ms_standard": "Boleh, sebaik sahaja selesai makan. Saya hendak mencuba strategi baharu.",
+          "zh": "行，吃完饭就来。我想试试新战术。",
+          "en": "Sure, right after dinner. I want to try a new strategy."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English battle came through French bataille, ultimately connected with Latin battuere, to strike. That history links physical blows with organized combat; modern competitive contexts also use the word for a face-off. In a Malay conversation, the English form can serve as a code-switch. This does not establish recognition as an official Malay headword. [English dictionary: battle](https://www.dictionary.com/browse/battle)",
+    "cognitive_memory_aid": "把 battle 和游戏中的“对战”画面绑定：朋友说 Jom battle，就是“来对一局”。标准语可说 Jom berlawan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合熟悉的游戏伙伴或认可该表达的活动群体。面对长辈、客户或正式文件读者，优先使用明确的马来语表达。",
+    "usage_etiquette": "向陌生人直接说 nak battle 可能被理解为挑衅，须让游戏或比赛语境清楚可见。正式例句仅在引述英语活动名称时保留 battle；未核实的 Jawi 拼写保留为 null。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合熟悉的游戏伙伴或认可该表达的活动群体。面对长辈、客户或正式文件读者，优先使用明确的马来语表达。",
+    "usage_etiquette": "向陌生人直接说 nak battle 可能被理解为挑衅，须让游戏或比赛语境清楚可见。正式例句仅在引述英语活动名称时保留 battle；未核实的 Jawi 拼写保留为 null。"
+  }
+}

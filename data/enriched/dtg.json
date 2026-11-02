@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "dtg",
+    "syllables": null,
+    "ipa": "/dataŋ/",
+    "jawi": null,
+    "frequency_rank": 10891,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dtg",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "datang → dtg（书写缩略，无词缀）",
+    "pattern_note": "省略元音字母及 ng 中的 n，形成短信缩写；朗读时还原为 datang，IPA 标示还原后的读音。is_root 与 root_word 保留输入记录的分析，不表示 dtg 是独立的马来语词根。",
+    "word_family": [
+      {
+        "word": "kedatangan",
+        "affix": "ke-...-an",
+        "gloss": "到来；抵达，来自完整形式 datang"
+      },
+      {
+        "word": "mendatangi",
+        "affix": "meN-...-i",
+        "gloss": "前往；到访，来自完整形式 datang"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "datang 的短信及网络书写缩略形式，表示来、到来或抵达。",
+      "en_definition": "A messaging abbreviation of datang, meaning to come or arrive.",
+      "ms_definition": "Singkatan tulisan bagi datang, iaitu bergerak ke tempat yang dituju atau tiba di situ.",
+      "nuances": "这是书写缩略形式，不是独立口语词。是否表示已经到达、打算来或正在来，须由 dah、nak、sedang 等成分及上下文确定；dtg 本身不等于“正在路上”。DBP 的短信指南列有 datang → dtg；official 在此仅表示有官方短信指南依据，不表示适合一般正式行文。[DBP《Panduan Singkatan Khidmat Pesanan Ringkas》](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf)",
+      "collocations": [
+        {
+          "ms": "nak dtg",
+          "zh": "想来；打算来",
+          "en": "want to come; plan to come"
+        },
+        {
+          "ms": "dah dtg",
+          "zh": "已经来了",
+          "en": "have already come"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场通知：正式行文还原完整形式",
+      "ms": "Semua peserta diminta datang ke dewan sebelum pukul sembilan pagi.",
+      "zh": "请所有参与者在上午九点之前到礼堂。",
+      "en": "All participants are requested to come to the hall before nine in the morning."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约见",
+      "ms_spoken": "Kau nak dtg kat rumah aku petang ni?",
+      "ms_standard": "Adakah kamu mahu datang ke rumah saya petang ini?",
+      "zh": "你今天下午要来我家吗？",
+      "en": "Do you want to come over to my place this afternoon?",
+      "spoken_features": [
+        "dtg 是 datang 的短信写法，口头读作 datang。",
+        "nak 对应 mahu，ni 对应 ini。",
+        "kat 在此用于表达目的地，标准语改用 ke。",
+        "kau 和 aku 适用于关系熟悉的朋友。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau nak dtg kat rumah aku petang ni?",
+          "ms_standard": "Adakah kamu mahu datang ke rumah saya petang ini?",
+          "zh": "你今天下午要来我家吗？",
+          "en": "Do you want to come over this afternoon?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nak, aku dtg lepas kerja je. Kau dah beli makanan?",
+          "ms_standard": "Ya, saya akan datang selepas bekerja. Adakah kamu sudah membeli makanan?",
+          "zh": "要啊，我一下班就来。你买好吃的了吗？",
+          "en": "Yes, I'll come straight after work. Have you bought any food?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The form dtg belongs to abbreviated Malay writing rather than to a separate spoken vocabulary. DBP's 2008 SMS guide explicitly pairs datang with dtg, documenting its place in mobile communication. Readers recover the full word from context. Its history therefore illustrates how an established word acquires a compact written form without acquiring a new pronunciation. [DBP SMS guide](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf)",
+    "cognitive_memory_aid": "看到 dtg，就把完整的 datang“请回来”：字母缩短，意思仍是“来”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合熟人短信和轻松群聊。联系客户、长辈或上级时，写完整的 datang，并按关系选择称呼。",
+    "usage_etiquette": "正式通知、公函和考试作文使用 datang。给陌生人发邀请时，Sila datang 或 Jemput datang 通常比单独写 dtg 更周到。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合熟人短信和轻松群聊。联系客户、长辈或上级时，写完整的 datang，并按关系选择称呼。",
+    "usage_etiquette": "正式通知、公函和考试作文使用 datang。给陌生人发邀请时，Sila datang 或 Jemput datang 通常比单独写 dtg 更周到。"
+  }
+}

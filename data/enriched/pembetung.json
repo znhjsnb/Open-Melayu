@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "pembetung",
+    "syllables": "pem.be.tung",
+    "ipa": "/pəm.bə.tuŋ/",
+    "jawi": "ڤمبتوڠ",
+    "frequency_rank": 10850,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pembetung",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pembetung → pembetung",
+    "pattern_note": "依输入词根字段保留为整词词基。词族分析须另作区分：DBP 将 pembetung、membetung 和 pembetungan 列在 betung I 下，因此不能仅凭词首 pem- 否认其派生关系；peN- 接 betung 时可呈 pem-，b 保留。[DBP：betung 词族](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pembetung)",
+    "word_family": [
+      {
+        "word": "membetung",
+        "affix": "meN- + betung → membetung",
+        "gloss": "铺设排水或排污管道"
+      },
+      {
+        "word": "pembetungan",
+        "affix": "peN- + betung + -an → pembetungan",
+        "gloss": "排污管网；排污系统；管道铺设"
+      }
+    ],
+    "root_jawi": "ڤمبتوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用于输送水等物质的长形中空管道，形状如竹筒。",
+      "en_definition": "A long hollow conduit, such as a bamboo tube, used to convey water.",
+      "ms_definition": "Sesuatu yang berbentuk panjang, bulat dan berongga di dalamnya seperti buluh untuk menyalurkan air dan sebagainya.",
+      "nuances": "这是管状导流物的一般义；不限定为污水管，也不限定材料。下列为形制与功能搭配。[DBP：pembetung](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pembetung)",
+      "collocations": [
+        {
+          "ms": "pembetung buluh",
+          "zh": "竹制导水管",
+          "en": "a bamboo water conduit"
+        },
+        {
+          "ms": "pembetung air",
+          "zh": "导水管道",
+          "en": "a water conduit"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "穿过公路或铁路下方、供水流通过的涵洞或涵管。",
+      "en_definition": "A culvert carrying water beneath a road or railway.",
+      "ms_definition": "Saluran atau parit daripada konkrit dan sebagainya di bawah tanah yang merentasi jalan raya atau landasan kereta api.",
+      "nuances": "道路与排水工程中的常用义；与泛指露天沟渠的 longkang 有别。[DBP：pembetung](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pembetung)",
+      "collocations": [
+        {
+          "ms": "pembetung konkrit",
+          "zh": "混凝土涵管；混凝土涵洞",
+          "en": "a concrete culvert"
+        },
+        {
+          "ms": "pembetung di bawah jalan",
+          "zh": "道路下方的涵洞",
+          "en": "a culvert beneath a road"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "铺设在地下、将污物和污水输送至处理设施的排污管道。",
+      "en_definition": "An underground sewer conveying sewage to treatment facilities.",
+      "ms_definition": "Paip bawah tanah yang membawa najis dan air kumbahan ke tempat rawatan.",
+      "nuances": "须由排污语境确定，不能把所有 pembetung 都译作下水道。pembetungan 常指系统或相关工程。[DBP：pembetung](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pembetung)",
+      "collocations": [
+        {
+          "ms": "pembetung najis",
+          "zh": "污水管；排污管",
+          "en": "a sewer"
+        },
+        {
+          "ms": "pembetung tersumbat",
+          "zh": "排污管堵塞",
+          "en": "a blocked sewer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 市政排水工程汇报",
+      "ms": "Pihak berkuasa tempatan akan menggantikan pembetung di bawah jalan itu bagi meningkatkan aliran air hujan.",
+      "zh": "地方政府将更换该道路下方的涵管，以改善雨水排流。",
+      "en": "The local authority will replace the culvert beneath the road to improve rainwater flow."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 邻居讨论积水",
+      "ms_spoken": "Air dah naik kat depan rumah. Pembetung bawah jalan tu tersumbat ke?",
+      "ms_standard": "Paras air sudah meningkat di hadapan rumah. Adakah pembetung di bawah jalan itu tersumbat?",
+      "zh": "屋前已经积起水了，是不是路底下的涵管堵了？",
+      "en": "The water's rising outside the house. Is the culvert under the road blocked?",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "tu 对应 itu",
+        "句末 ke 构成口语疑问",
+        "pembetung bawah jalan 省略介词 di"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (邻居)",
+          "ms_spoken": "Air dah naik kat depan rumah. Pembetung bawah jalan tu tersumbat ke?",
+          "ms_standard": "Paras air sudah meningkat di hadapan rumah. Adakah pembetung di bawah jalan itu tersumbat?",
+          "zh": "屋前已经积起水了，是不是路底下的涵管堵了？",
+          "en": "The water's rising outside the house. Is the culvert under the road blocked?"
+        },
+        {
+          "speaker": "Ravi (邻居)",
+          "ms_spoken": "Mungkin. Aku nampak banyak sampah kat situ tadi. Aku nak laporkan sekarang.",
+          "ms_standard": "Mungkin begitu. Saya melihat banyak sampah di situ tadi. Saya mahu melaporkan keadaan itu sekarang.",
+          "zh": "可能吧，我刚才看见那里有很多垃圾。我现在就去反映。",
+          "en": "Possibly. I saw a lot of rubbish there earlier. I'll report it now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP places pembetung in the betung word family, which includes a large bamboo. The proverb 'Bulat air kerana pembetung, bulat kata kerana muafakat' turns a conduit into an image of agreement: a channel gives water its shape, while discussion brings words together. Modern usage also names culverts and sewers. [Sources: DBP dictionary](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pembetung), [DBP proverb guidance](https://prpm.dbp.gov.my/cari1?d=175768&keyword=pembentung).",
+    "cognitive_memory_aid": "抓住 betung 的“大竹筒”形象：长长、中空、让水通过；再把竹筒换成混凝土，就联想到 pembetung 涵管。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于报修、市政投诉和工程说明时语体中性。说明问题可说 pembetung tersumbat，并补充位置与积水情况，避免在原因未明时归咎于某户居民。",
+    "usage_etiquette": "规范拼写是 pembetung。谚语中的 pembetung 强调导流成形的形象；日常工程语境则须区分涵洞和污水管。[DBP：拼写与谚语说明](https://prpm.dbp.gov.my/cari1?d=175768&keyword=pembentung)"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于报修、市政投诉和工程说明时语体中性。说明问题可说 pembetung tersumbat，并补充位置与积水情况，避免在原因未明时归咎于某户居民。",
+    "usage_etiquette": "规范拼写是 pembetung。谚语中的 pembetung 强调导流成形的形象；日常工程语境则须区分涵洞和污水管。[DBP：拼写与谚语说明](https://prpm.dbp.gov.my/cari1?d=175768&keyword=pembentung)"
+  }
+}
