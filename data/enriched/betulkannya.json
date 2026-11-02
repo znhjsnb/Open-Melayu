@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "betulkannya",
+    "syllables": "be.tul.kan.nya",
+    "ipa": "/bə.tul.kan.ɲa/",
+    "jawi": "بتولکنڽ",
+    "frequency_rank": 12649,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "betulkan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "betul + -kan → betulkan；betulkan + -nya → betulkannya",
+    "pattern_note": "保留输入所给直接基底 betulkan，更深层词根为 betul。-kan 表示使其正确；-nya 是附着代词，在这里充当宾语，并非另造词义的派生后缀。受字段枚举限制，位置类型记为 suffix。词素相接不删字母，nya 读 /ɲa/。输入缺失的音节和爪夷文按完整构词补全；爪夷文为规则推写。",
+    "word_family": [
+      {
+        "word": "betul",
+        "affix": null,
+        "gloss": "正确的；直的"
+      },
+      {
+        "word": "betulkan",
+        "affix": "-kan",
+        "gloss": "纠正；修好；摆正"
+      },
+      {
+        "word": "membetulkan",
+        "affix": "meN-...-kan",
+        "gloss": "纠正；修理；认可为正确"
+      },
+      {
+        "word": "pembetulan",
+        "affix": "peN-...-an",
+        "gloss": "更正；修正"
+      }
+    ],
+    "root_jawi": "بتولکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "纠正它；把前文所指的错误、答案或说法改正。",
+      "en_definition": "To correct it or put it right.",
+      "ms_definition": "Menjadikan perkara yang dirujuk oleh -nya betul dengan membaiki kesalahannya.",
+      "nuances": "这是 betulkan 加宾语 -nya 的组合义；-nya 必须有可识别的指代对象。指令可用 betulkannya；正式主动陈述通常用 membetulkannya，如 Saya akan membetulkannya。[DBP：membetulkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membetulkan)。",
+      "collocations": [
+        {
+          "ms": "sila betulkannya",
+          "zh": "请把它改正",
+          "en": "please correct it"
+        },
+        {
+          "ms": "betulkannya sebelum dihantar",
+          "zh": "提交前把它改正",
+          "en": "correct it before submission"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把前文所指的物件修好、调整妥当或摆正。",
+      "en_definition": "To repair, adjust or straighten the thing referred to.",
+      "ms_definition": "Membaiki kerosakan atau melaraskan kedudukan benda yang dirujuk oleh -nya.",
+      "nuances": "具体译法取决于对象：故障物品侧重修好，歪斜物件侧重摆正；并不说明一定需要专业维修。",
+      "collocations": [
+        {
+          "ms": "tolong betulkannya semula",
+          "zh": "请把它重新调整好",
+          "en": "please put it right again"
+        },
+        {
+          "ms": "betulkannya supaya lurus",
+          "zh": "把它摆正，使其平直",
+          "en": "adjust it so that it is straight"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "认可前文所指的说法或指控为正确、属实。",
+      "en_definition": "To acknowledge the statement or allegation referred to as true.",
+      "ms_definition": "Mengakui perkara yang dirujuk oleh -nya sebagai benar.",
+      "nuances": "对应 membetulkan 的认可义，较少见且依赖明确上下文；容易与改正错误义混淆。现代公文通常改用 mengesahkannya 或 mengakui kebenarannya 以求清楚。",
+      "collocations": [
+        {
+          "ms": "jangan betulkannya tanpa bukti",
+          "zh": "不要在没有证据时认可其属实",
+          "en": "do not endorse it as true without evidence"
+        },
+        {
+          "ms": "betulkannya jika benar",
+          "zh": "若属实，就予以认可",
+          "en": "acknowledge it if it is true"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jika terdapat kesalahan pada alamat penerima, sila betulkannya sebelum surat dihantar.",
+      "zh": "如收件人地址有误，请在寄出信件前予以更正。",
+      "en": "If the recipient's address contains an error, please correct it before sending the letter."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nama saya salah kat borang tu. Tolong betulkannya dulu, ya.",
+      "ms_standard": "Nama saya tersalah tulis pada borang itu. Tolong betulkannya dahulu.",
+      "zh": "那张表把我的名字写错了，先帮我改一下哦。",
+      "en": "My name's wrong on that form. Please fix it first.",
+      "spoken_features": [
+        "kat 在这里对应 pada",
+        "tu 对应 itu",
+        "dulu 对应 dahulu",
+        "ya 缓和请求；口语也常直接说 tolong betulkan dulu，省略可推知的宾语"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (申请人)",
+          "ms_spoken": "Nama saya salah kat borang tu. Tolong betulkannya dulu, ya.",
+          "ms_standard": "Nama saya tersalah tulis pada borang itu. Tolong betulkannya dahulu.",
+          "zh": "那张表把我的名字写错了，先帮我改一下哦。",
+          "en": "My name's wrong on that form. Please fix it first."
+        },
+        {
+          "speaker": "Farah (负责登记的同事)",
+          "ms_spoken": "Boleh, saya dah tukar. Cuba semak sekali lagi, betul tak?",
+          "ms_standard": "Boleh, saya sudah menukarnya. Sila semak sekali lagi untuk memastikan ejaannya betul.",
+          "zh": "可以，已经改了。你再看一遍，对了吗？",
+          "en": "Sure, I've changed it. Take another look—is it right now?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Betulkannya brings together two familiar Malay mechanisms. The ending -kan turns betul into an action of making something right, while attached -nya identifies the object through context. DBP records both repairing errors and accepting statements as true under membetulkan. This entry therefore follows a transparent grammatical formation; the complete form does not require a separate borrowing story. [DBP: membetulkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membetulkan).",
+    "cognitive_memory_aid": "四拍 be-tul-kan-nya，分两步记：betulkan 改正，-nya 它，合起来就是把它改正。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接命令 Betulkannya! 语气较强；工作交流可加 sila 或 tolong，并明确指出需要修改的内容，减少责备感。",
+    "usage_etiquette": "适用于校对、登记和调整物件等场景。指出他人错误时宜针对具体内容；-nya 的指代必须清楚，涉及多个错误或多个物件时可直接重述对象。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接命令 Betulkannya! 语气较强；工作交流可加 sila 或 tolong，并明确指出需要修改的内容，减少责备感。",
+    "usage_etiquette": "适用于校对、登记和调整物件等场景。指出他人错误时宜针对具体内容；-nya 的指代必须清楚，涉及多个错误或多个物件时可直接重述对象。"
+  }
+}

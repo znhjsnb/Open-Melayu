@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "melemparnya",
+    "syllables": null,
+    "ipa": "/mə.lem.par.ɲa/",
+    "jawi": "مليمڤر",
+    "frequency_rank": 12607,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "melempar",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "melempar + -nya → melemparnya; meN- + lempar → melempar",
+    "pattern_note": "沿用数据包的直接基词 melempar；更底层词根是 lempar。meN- 在 l 前实现为 me-，l 保留；-nya 在这些用法中是第三人称宾语附着语，不是使役后缀。lem 的 e 为 /e/，nya 为 /ɲa/。所给爪夷文仅拼出 melempar，完整 melemparnya 应为 مليمڤرڽ；headword.jawi 按要求保留数据包原值。",
+    "word_family": [
+      {
+        "word": "lempar",
+        "affix": "∅",
+        "gloss": "抛；掷，底层词根"
+      },
+      {
+        "word": "melempar",
+        "affix": "meN-",
+        "gloss": "投掷；向目标投东西"
+      },
+      {
+        "word": "lemparan",
+        "affix": "-an",
+        "gloss": "一次投掷；投掷动作"
+      },
+      {
+        "word": "pelempar",
+        "affix": "peN-",
+        "gloss": "投掷者"
+      }
+    ],
+    "root_jawi": "مليمڤر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把它抛出、扔出或掷向某处；-nya 指上文已提到的物体，也可依语境指被抛出去的人。",
+      "en_definition": "To throw or hurl it, or a previously mentioned person, through the air.",
+      "ms_definition": "Membaling atau melontar sesuatu atau seseorang yang telah disebut; -nya merujuk kepada objek tersebut.",
+      "nuances": "必须有可识别的指代对象；本词不自带过去时。球是被扔的物体，而 ke arah gol 等短语说明方向。此释义依据 melempar 的词典义及 -nya 的宾语功能综合编写，并非 DBP 对完整词形的逐字释义。参见 [PRPM：melempar](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=melempar)。",
+      "collocations": [
+        {
+          "ms": "melemparnya ke dalam sungai",
+          "zh": "把它扔进河里",
+          "en": "throw it into the river"
+        },
+        {
+          "ms": "melemparnya ke arah sasaran",
+          "zh": "把它掷向目标",
+          "en": "throw it towards the target"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "向他、她或它投掷东西；以石块、木块等投击该对象。",
+      "en_definition": "To throw something at, or pelt, him, her, or it.",
+      "ms_definition": "Membaling sesuatu ke arah orang atau benda yang dirujuk oleh -nya, misalnya dengan batu atau kayu.",
+      "nuances": "在 melemparnya dengan batu 中，-nya 可指被投击的目标，batu 是所用物体；这与“把它扔出去”须靠上下文区分。melempar 另有投去目光的引申用法，但不能据此把 melemparnya 一概解释为“投去他的目光”。",
+      "collocations": [
+        {
+          "ms": "melemparnya dengan batu",
+          "zh": "用石头扔他／她／它",
+          "en": "throw stones at him, her, or it"
+        },
+        {
+          "ms": "melemparnya dengan kayu",
+          "zh": "用木块投击他／她／它",
+          "en": "throw a piece of wood at him, her, or it"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 体育报道",
+      "ms": "Pemain itu menangkap bola sebelum melemparnya kepada rakan sepasukan.",
+      "zh": "那名球员接住球后，将球传给队友。",
+      "en": "The player caught the ball before throwing it to a teammate."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈论比赛",
+      "ms_spoken": "Amir dah tangkap bola tu, lepas tu dia melemparnya kat Farah je.",
+      "ms_standard": "Amir sudah menangkap bola itu, kemudian dia melemparnya kepada Farah sahaja.",
+      "zh": "阿米尔已经接到球了，接着就把球传给法拉。",
+      "en": "Amir caught the ball, then just threw it to Farah.",
+      "spoken_features": [
+        "dah、tu、lepas tu 分别对应 sudah、itu、selepas itu。",
+        "kat 在此口语中表示接球人，标准语使用 kepada。",
+        "je 对应 sahaja；melemparnya 较偏书面，随意交谈也常说 baling bola tu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Amir dah tangkap bola tu, lepas tu dia melemparnya kat Farah je.",
+          "ms_standard": "Amir sudah menangkap bola itu, kemudian dia melemparnya kepada Farah sahaja.",
+          "zh": "阿米尔接到球后，就把球传给法拉了。",
+          "en": "Amir caught the ball, then just threw it to Farah."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Oh, patutlah Farah dapat bola tu. Aku tak nampak tadi.",
+          "ms_standard": "Oh, sebab itulah Farah mendapat bola itu. Saya tidak melihatnya tadi.",
+          "zh": "哦，难怪球到法拉手里了。我刚才没看见。",
+          "en": "Oh, that explains how Farah got the ball. I missed that."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The form brings together two productive Malay mechanisms: an active verb built on lempar and the attached pronoun -nya. Its meaning therefore depends on an earlier referent rather than on a separate historical event. Malay dictionaries record both throwing an object and throwing something at a target, explaining why the same form can describe a ball being thrown or a person being pelted. Source: [PRPM](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=melempar).",
+    "cognitive_memory_aid": "melempar 是“扔”，-nya 接住上文的“它／他／她”：先找指代，再判断是把它扔出，还是朝它扔东西。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词语本身中性；对人使用时可能描述攻击。报道或正式记录中应交代清楚对象，避免 -nya 指代不明。",
+    "usage_etiquette": "体育、动作叙述和新闻中均可使用。描述递交文件或礼物时，若实际动作是礼貌地交给对方，应使用 menyerahkan 或 menghulurkan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词语本身中性；对人使用时可能描述攻击。报道或正式记录中应交代清楚对象，避免 -nya 指代不明。",
+    "usage_etiquette": "体育、动作叙述和新闻中均可使用。描述递交文件或礼物时，若实际动作是礼貌地交给对方，应使用 menyerahkan 或 menghulurkan。"
+  }
+}

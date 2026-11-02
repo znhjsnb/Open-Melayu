@@ -1,0 +1,105 @@
+{
+  "headword": {
+    "word": "disuatu",
+    "syllables": null,
+    "ipa": "/di su.a.tu/",
+    "jawi": null,
+    "frequency_rank": 12644,
+    "status": "nonstandard",
+    "canonical_form": "di suatu"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "suatu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "di + suatu + 名词 → di suatu + 名词；错误连写 disuatu → di suatu",
+    "pattern_note": "这里的 di 是独立的地点介词，不是被动前缀 di-，必须与 suatu 分写；整个组合不是一个派生词。输入包将 disuatu 标为词根的分析需要纠正。IPA 表示规范组合 di suatu 的读音；缺失的音节及爪夷文保留 null。下列关联词属于规范组合中的 suatu。",
+    "word_family": [
+      {
+        "word": "suatu",
+        "affix": null,
+        "gloss": "某一；一个未具体指明的"
+      },
+      {
+        "word": "sesuatu",
+        "affix": "se-",
+        "gloss": "某物；某件事，已词汇化形式"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "非规范连写，规范形式为 di suatu；置于地点名词前，表示“在某一……”。",
+      "en_definition": "A nonstandard joined spelling of di suatu, meaning 'at or in a certain ...' before a place noun.",
+      "ms_definition": "Bentuk tidak baku bagi gabungan di suatu, yang digunakan sebelum kata nama tempat untuk menunjukkan lokasi yang tidak dinyatakan secara khusus.",
+      "nuances": "此处 pos 按规范组合中起支配作用的介词 di 标注，并不表示 disuatu 是获认可的单词。di suatu 后通常还需地点名词，如 di suatu tempat。表示时间时应改用 pada suatu masa 或 pada suatu hari，不能只把 disuatu 拆开便视为正确。此释义为拼写纠错说明，不是 DBP 对 disuatu 的独立词条释义。依据：[DBP：地点介词 di 的分写及时间表达规则](https://eseminar.dbp.gov.my/dokumen/bahasa_melayu_berkesan_1.pdf)。",
+      "collocations": [
+        {
+          "ms": "di suatu tempat",
+          "zh": "在某个地方",
+          "en": "in a certain place"
+        },
+        {
+          "ms": "di suatu kawasan",
+          "zh": "在某个地区",
+          "en": "in a certain area"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 地点说明；示范规范分写",
+      "ms": "Pasukan penyelidik menemukan spesies itu di suatu kawasan terpencil.",
+      "zh": "研究团队在某个偏远地区发现了该物种。",
+      "en": "The research team found the species in a remote area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论拼写",
+      "ms_spoken": "Dalam ayat ni, 'disuatu' kena pisah ke?",
+      "ms_standard": "Dalam ayat ini, adakah 'disuatu' perlu ditulis sebagai dua perkataan?",
+      "zh": "这句话里的 disuatu 要分开写吗？",
+      "en": "Should 'disuatu' be written as two words in this sentence?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "kena 在此表示 perlu，即“需要”",
+        "句末 ke 用作口语疑问标记",
+        "je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Dalam ayat ni, 'disuatu' kena pisah ke?",
+          "ms_standard": "Dalam ayat ini, adakah 'disuatu' perlu ditulis sebagai dua perkataan?",
+          "zh": "这句话里的 disuatu 要分开写吗？",
+          "en": "Should 'disuatu' be written as two words in this sentence?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Ya, tulis 'di suatu tempat' je.",
+          "ms_standard": "Ya, tulis 'di suatu tempat' sahaja.",
+          "zh": "对，写成 di suatu tempat 就行。",
+          "en": "Yes, just write 'di suatu tempat'."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Disuatu has no separate lexical origin to explain: it is a spelling error involving two independent words. The useful distinction is grammatical. Locative di remains separate from the following phrase, whereas passive di- attaches to a verb. Treating the joined spelling as an ancient root would turn an orthographic mistake into a false etymology.",
+    "cognitive_memory_aid": "di 问“在哪里”，就留空格：di suatu tempat；di- 表示“被做某事”，才与动词连写。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "帮助他人纠正时可说 Dalam ayat ini, di perlu dipisahkan（这里的 di 要分开写），直接说明规则，避免贬低对方的语言能力。",
+    "usage_etiquette": "正式写作使用 di suatu；disuatu 仅适合在引用原文或讨论错拼时出现。日常谈地点更常见 di satu tempat 或 kat satu tempat，但它们不是保留错拼的理由。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "帮助他人纠正时可说 Dalam ayat ini, di perlu dipisahkan（这里的 di 要分开写），直接说明规则，避免贬低对方的语言能力。",
+    "usage_etiquette": "正式写作使用 di suatu；disuatu 仅适合在引用原文或讨论错拼时出现。日常谈地点更常见 di satu tempat 或 kat satu tempat，但它们不是保留错拼的理由。"
+  }
+}

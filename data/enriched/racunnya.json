@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "racunnya",
+    "syllables": null,
+    "ipa": "/ra.tʃun.ɲa/",
+    "jawi": "راچونڽ",
+    "frequency_rank": 12660,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "racun",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "racun + -nya → racunnya",
+    "pattern_note": "-nya 是附着成分，此处按指定类型记为 suffix，不是创造新词义的派生后缀；ny 读 /ɲ/，词根末尾 n 保留。资料包的 راچون 只对应 racun，完整词形补写为 راچونڽ。-nya 与前词连写的规范见 [DBP《马来语拼写通则》](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+    "word_family": [
+      {
+        "word": "racun",
+        "affix": null,
+        "gloss": "毒物；毒素"
+      },
+      {
+        "word": "beracun",
+        "affix": "ber-",
+        "gloss": "有毒的"
+      },
+      {
+        "word": "meracuni",
+        "affix": "meN-...-i",
+        "gloss": "下毒；毒害"
+      },
+      {
+        "word": "keracunan",
+        "affix": "ke-...-an",
+        "gloss": "中毒"
+      }
+    ],
+    "root_jawi": "راچون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "前文所指的人、动物、植物或物品所具有、携带或涉及的毒物、毒素；也可指已经提及的那种毒物。",
+      "en_definition": "The poison or toxin associated with a previously mentioned referent; his, her or its poison, or the poison already under discussion.",
+      "ms_definition": "Racun yang dikaitkan dengan orang, haiwan, tumbuhan atau benda yang telah disebut; bahan berbisa yang boleh menyebabkan sakit atau kematian.",
+      "nuances": "不能脱离上下文固定译成“他的毒”。-nya 的具体指向依赖前文，有时自然译为“其中的毒素”或“那种毒”。此义合并词根 racun 的致病、致死物质义；释义依据 [DBP：racun](https://prpm.dbp.gov.my/Cari1.aspx?d=73980&keyword=racun+1) 编写，并非独立收录的 racunnya 原文。",
+      "collocations": [
+        {
+          "ms": "kesan racunnya",
+          "zh": "其中毒素的作用；其毒性影响",
+          "en": "the effects of its toxin"
+        },
+        {
+          "ms": "kandungan racunnya",
+          "zh": "其中的毒素含量",
+          "en": "its toxin content"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "前文所指事物中损害思想、感情或生活的有害影响。",
+      "en_definition": "The harmful or corrupting influence of something previously mentioned.",
+      "ms_definition": "Unsur atau pengaruh buruk daripada sesuatu yang telah disebut, yang merosakkan fikiran, perasaan atau kehidupan.",
+      "nuances": "比喻义，源自 racun 的“损害内心或思想之物”义。带强烈负面评价；并非 racunnya 独有的新义。[DBP：racun](https://prpm.dbp.gov.my/Cari1.aspx?d=73980&keyword=racun+1)",
+      "collocations": [
+        {
+          "ms": "menyebarkan racunnya",
+          "zh": "散播其有害影响",
+          "en": "to spread its poisonous influence"
+        },
+        {
+          "ms": "racunnya meresap ke dalam fikiran",
+          "zh": "其毒害渗入思想",
+          "en": "its poison seeps into the mind"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "研究报告 / 样本分析",
+      "ms": "Sampel cendawan itu dihantar ke makmal untuk menentukan kandungan racunnya.",
+      "zh": "该蘑菇样本已送往实验室，以测定其中的毒素含量。",
+      "en": "The mushroom sample was sent to the laboratory to determine its toxin content."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论自然纪录片",
+      "ms_spoken": "Dalam dokumentari tu, penyelidik tunjuk macam mana racunnya dikumpulkan.",
+      "ms_standard": "Dalam dokumentari itu, penyelidik menunjukkan cara racun haiwan tersebut dikumpulkan.",
+      "zh": "那部纪录片里，研究员展示了怎么采集那种动物的毒液。",
+      "en": "In that documentary, the researcher showed how the animal's venom is collected.",
+      "spoken_features": [
+        "tu 对应 itu",
+        "tunjuk 在口语中代替 menunjukkan",
+        "macam mana 对应 bagaimana 或 cara",
+        "对白中的 dah 对应 sudah"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Kau dah tengok dokumentari ular tu? Diorang tunjuk macam mana racunnya dikumpulkan.",
+          "ms_standard": "Awak sudah menonton dokumentari tentang ular itu? Mereka menunjukkan cara racun ular tersebut dikumpulkan.",
+          "zh": "你看那部蛇的纪录片了吗？里面展示了怎么采集蛇毒。",
+          "en": "Have you watched that snake documentary? They show how its venom is collected."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Belum lagi. Aku nak tengok malam ni, kat rumah je.",
+          "ms_standard": "Belum lagi. Saya mahu menontonnya di rumah sahaja pada malam ini.",
+          "zh": "还没呢。我打算今晚在家看。",
+          "en": "Not yet. I'm going to watch it at home tonight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Racunnya is best understood through living Malay grammar rather than an invented ancient compound. Racun supplies the meaning of poison, while the attached nya connects it to a referent already available in the conversation. Dictionary examples also extend racun to destructive influences on thought and life. The same small grammatical attachment works with both the physical and figurative meanings.",
+    "cognitive_memory_aid": "racun＝毒，-nya＝接回前文：先找“谁的、什么里的”，再决定译成“他的毒”“其中的毒素”还是“那种毒”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "字面义适合科普和研究语境。比喻地把某人的言论称为 racun，评价很重，可能被理解为指责其毒害他人。",
+    "usage_etiquette": "正式写作应让 -nya 的指向明确。需要避免歧义时，直接写 racun cendawan itu 等完整名词短语。网络购物中另有用 racun 开玩笑表示“种草、诱人购买”的说法，理解时须看上下文。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "字面义适合科普和研究语境。比喻地把某人的言论称为 racun，评价很重，可能被理解为指责其毒害他人。",
+    "usage_etiquette": "正式写作应让 -nya 的指向明确。需要避免歧义时，直接写 racun cendawan itu 等完整名词短语。网络购物中另有用 racun 开玩笑表示“种草、诱人购买”的说法，理解时须看上下文。"
+  }
+}

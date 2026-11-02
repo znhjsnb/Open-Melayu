@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "diutamakan",
+    "syllables": "di.u.ta.ma.kan",
+    "ipa": "/di.u.ta.ma.kan/",
+    "jawi": null,
+    "frequency_rank": 12645,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "utama",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + utama + -kan → diutamakan",
+    "pattern_note": "utama 的被动派生形式，对应主动形式 mengutamakan。di- 和 -kan 与词基连写，不发生鼻音同化，也不删除 utama 的起首元音；输入包把整个词标作词根的分析需要纠正。affix_type 按给定分类将前后缀组合归入 circumfix；音节为规则分析，缺失的整词爪夷文保留 null。",
+    "word_family": [
+      {
+        "word": "mengutamakan",
+        "affix": "meN-...-kan",
+        "gloss": "优先考虑；把……放在首位"
+      },
+      {
+        "word": "keutamaan",
+        "affix": "ke-...-an",
+        "gloss": "优先地位；首要事项"
+      },
+      {
+        "word": "pengutamaan",
+        "affix": "peN-...-an",
+        "gloss": "优先考虑或优先处理的行为"
+      }
+    ],
+    "root_jawi": "اوتام"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被视为比其他事项更重要；获得优先考虑、安排或处理。",
+      "en_definition": "To be given priority or treated as more important than other matters.",
+      "ms_definition": "Diberi keutamaan atau dianggap lebih penting daripada perkara lain.",
+      "nuances": "这是被动形式，主语是获优先对待的事项或对象。通常不表示已经完成；是否已落实需由上下文或 sudah 等成分说明。与 utama（主要的）和 terutama（尤其）区别。马来语释义依据 DBP 对 mengutamakan 的释义转写为被动形式。依据：[DBP PRPM：utama](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=utama)。",
+      "collocations": [
+        {
+          "ms": "keselamatan diutamakan",
+          "zh": "安全被置于首位",
+          "en": "safety is given priority"
+        },
+        {
+          "ms": "kepentingan awam diutamakan",
+          "zh": "公众利益获优先考虑",
+          "en": "the public interest is given priority"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "在招聘、遴选等语境中，某类申请者或某项条件获得优先考虑。",
+      "en_definition": "To be given preference in recruitment, selection or a similar process.",
+      "ms_definition": "Diberi pertimbangan terlebih dahulu atau diberi kelebihan dalam sesuatu pemilihan.",
+      "nuances": "属于“给予优先”的语境化用法。招聘广告中的 calon berpengalaman diutamakan 表示有经验者优先，单凭这个词不能推断其他人没有申请资格；须结合完整条件阅读。依据：[DBP PRPM：utama 的优先义](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=utama)。",
+      "collocations": [
+        {
+          "ms": "calon berpengalaman diutamakan",
+          "zh": "有经验的应聘者优先",
+          "en": "experienced candidates are preferred"
+        },
+        {
+          "ms": "penduduk tempatan diutamakan",
+          "zh": "当地居民优先",
+          "en": "local residents are given preference"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场安全汇报",
+      "ms": "Keselamatan pekerja hendaklah diutamakan dalam setiap keputusan operasi.",
+      "zh": "每一项运营决策都应优先考虑员工安全。",
+      "en": "Worker safety must be given priority in every operational decision."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论招聘广告",
+      "ms_spoken": "Iklan tu tulis calon berpengalaman diutamakan, kan?",
+      "ms_standard": "Iklan itu menyatakan bahawa calon berpengalaman diutamakan, bukan?",
+      "zh": "那个广告写的是有经验者优先，对吧？",
+      "en": "The ad says experienced candidates are preferred, right?",
+      "spoken_features": [
+        "tu 对应 itu",
+        "kan 用于请求确认",
+        "tak 对应 tidak",
+        "je 对应 sahaja",
+        "口语 tulis 在此对应较正式的 menyatakan"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Iklan tu tulis calon berpengalaman diutamakan, kan?",
+          "ms_standard": "Iklan itu menyatakan bahawa calon berpengalaman diutamakan, bukan?",
+          "zh": "那个广告写的是有经验者优先，对吧？",
+          "en": "The ad says experienced candidates are preferred, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, tapi tak tulis pengalaman tu wajib. Cuba mohon je.",
+          "ms_standard": "Ya, tetapi iklan itu tidak menyatakan bahawa pengalaman diwajibkan. Cubalah memohon.",
+          "zh": "对，不过没说一定要有经验。试着申请一下吧。",
+          "en": "Yes, but it doesn't say experience is required. Give it a try."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diutamakan illustrates how Malay builds new grammatical forms around an established base. Utama supplies the idea of being foremost; -kan supports the meaning of treating something as foremost, and di- presents that action passively. The resulting word is familiar in statements about priorities and selection, where attention falls on whoever or whatever receives preference.",
+    "cognitive_memory_aid": "utama＝首要；di-…-kan＝被放到某种地位：diutamakan＝被放在首位、优先考虑。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "被动表达常用于机构通知，语气较客观。对同事提出建议时，可说 Perkara ini perlu diutamakan（这件事需要优先处理），并交代原因和期限。",
+    "usage_etiquette": "适合政策、服务安排、工作排序及招聘。向他人解释优先待遇时应说明适用条件；不要把 diutamakan 自动翻译成“只限”或“已经录取”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "被动表达常用于机构通知，语气较客观。对同事提出建议时，可说 Perkara ini perlu diutamakan（这件事需要优先处理），并交代原因和期限。",
+    "usage_etiquette": "适合政策、服务安排、工作排序及招聘。向他人解释优先待遇时应说明适用条件；不要把 diutamakan 自动翻译成“只限”或“已经录取”。"
+  }
+}

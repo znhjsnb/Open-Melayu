@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "wangmu",
+    "syllables": null,
+    "ipa": "/waŋmu/",
+    "jawi": "واڠ",
+    "frequency_rank": 12692,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "wang",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "wang + -mu → wangmu",
+    "pattern_note": "-mu 是第二人称领属附着词，对应 kamu；在此与 wang 连写，不发生音位变化。本结构以 suffix 兼容表示其词尾位置，语法上应识别为附着代词。读音可分为 wang.mu。",
+    "word_family": [
+      {
+        "word": "wangku",
+        "affix": "-ku",
+        "gloss": "我的钱"
+      },
+      {
+        "word": "wangnya",
+        "affix": "-nya",
+        "gloss": "他、她或其的钱"
+      }
+    ],
+    "root_jawi": "واڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的钱；属于受话者的金钱或资金。",
+      "en_definition": "Your money; money belonging to the person being addressed.",
+      "ms_definition": "Wang yang menjadi milik kamu.",
+      "nuances": "这是 wang 与领属附着词 -mu 的规范组合，不能直接把词根 wang 的全部义项当作 wangmu 的独立词典义项。此处马来语释义为组合释义。依要求保留数据包的 jawi 值 واڠ，但它仅拼写 wang；完整 wangmu 可按构词写作 واڠمو。syllables 的 null 保留数据包缺值。-mu 须与前词连写。[DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "wangmu sendiri",
+          "zh": "你自己的钱",
+          "en": "your own money"
+        },
+        {
+          "ms": "baki wangmu",
+          "zh": "你剩下的钱",
+          "en": "your remaining money"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "书面理财教育 / 面向青少年的指导",
+      "ms": "Uruslah wangmu dengan bijak supaya keperluan asas sentiasa dapat dipenuhi.",
+      "zh": "明智地管理你的钱，确保基本需求始终能得到满足。",
+      "en": "Manage your money wisely so that your basic needs can always be met."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉的兄弟姐妹讨论借款",
+      "ms_spoken": "Wangmu yang aku pinjam tu dah aku pulangkan, ya.",
+      "ms_standard": "Wangmu yang saya pinjam itu sudah saya pulangkan.",
+      "zh": "我借你的钱已经还给你了啊。",
+      "en": "I've paid back the money I borrowed from you, okay?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "dah 是 sudah 的口语形式",
+        "句末 ya 用于提醒或确认",
+        "wangmu 可用于熟人之间，但全国通用日常口语更常说 duit kau 或 duit awak"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Wangmu yang aku pinjam tu dah aku pulangkan, ya.",
+          "ms_standard": "Wangmu yang saya pinjam itu sudah saya pulangkan.",
+          "zh": "我借你的钱已经还给你了啊。",
+          "en": "I've paid back the money I borrowed from you, okay?"
+        },
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Ya, dah masuk akaun aku. Terima kasih!",
+          "ms_standard": "Ya, wang itu sudah diterima dalam akaun saya. Terima kasih!",
+          "zh": "嗯，已经到我账户了。谢谢！",
+          "en": "Yes, it's in my account now. Thanks!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Wangmu illustrates Malay's compact way of expressing possession: a noun can carry a shortened personal pronoun directly after it. The spelling convention joins -mu to the preceding word, just as in bukumu. Its immediate formation is therefore grammatical and transparent, rather than evidence of a separate historical word meaning money. [DBP spelling guide](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf).",
+    "cognitive_memory_aid": "wang＝钱，mu＝你的；一口连起来 wang-mu，就是“你的钱”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 对应熟悉或直接的第二人称称呼，不宜自动当作尊称。对客户、长辈或正式受众，wang anda、wang tuan 或 wang puan 通常更合适。",
+    "usage_etiquette": "适用于熟人称呼、文学语言、歌词及部分教育文体。正式财务沟通应根据受众选择称谓；wangmu 是规范组合形式，但不代表它在所有马来西亚口语场景中都是最常用表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 对应熟悉或直接的第二人称称呼，不宜自动当作尊称。对客户、长辈或正式受众，wang anda、wang tuan 或 wang puan 通常更合适。",
+    "usage_etiquette": "适用于熟人称呼、文学语言、歌词及部分教育文体。正式财务沟通应根据受众选择称谓；wangmu 是规范组合形式，但不代表它在所有马来西亚口语场景中都是最常用表达。"
+  }
+}

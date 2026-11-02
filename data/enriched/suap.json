@@ -1,0 +1,174 @@
+{
+  "headword": {
+    "word": "suap",
+    "syllables": "suap",
+    "ipa": "/su.ap/",
+    "jawi": "سواڤ",
+    "frequency_rank": 12646,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "suap",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + suap → suap",
+    "pattern_note": "独立词根，无词缀变化。保留输入的音节字段 suap；标准清晰读音中 u、a 分属两个音节。派生 menyuap 时，meN- 遇词首 s，s 脱落并发生鼻音替换：meN- + suap → menyuap。",
+    "word_family": [
+      {
+        "word": "menyuap",
+        "affix": "meN-",
+        "gloss": "喂食；行贿"
+      },
+      {
+        "word": "menyuapkan",
+        "affix": "meN-...-kan",
+        "gloss": "把食物送入口中"
+      },
+      {
+        "word": "suapan",
+        "affix": "-an",
+        "gloss": "喂入的一口食物；贿赂"
+      },
+      {
+        "word": "penyuapan",
+        "affix": "peN-...-an",
+        "gloss": "喂食或行贿的行为"
+      }
+    ],
+    "root_jawi": "سواڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一次送入口中的食物量；一口食物。",
+      "en_definition": "An amount of food put into the mouth at one time; a mouthful.",
+      "ms_definition": "Kuantiti makanan yang dimasukkan ke dalam mulut sekali makan.",
+      "nuances": "着重一次入口的分量，可由手或餐具送入口中；不固定等于一汤匙。",
+      "collocations": [
+        {
+          "ms": "satu suap nasi",
+          "zh": "一口饭",
+          "en": "a mouthful of rice"
+        },
+        {
+          "ms": "dua suap bubur",
+          "zh": "两口粥",
+          "en": "two mouthfuls of porridge"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为换取不正当便利而给予或收受的贿赂，尤指钱财。",
+      "en_definition": "A bribe, especially money offered or received for improper favour.",
+      "ms_definition": "Wang sogokan yang diberikan atau diterima untuk memperoleh layanan tidak wajar.",
+      "nuances": "wang suap 指贿款；makan suap 指收受贿赂，不能按字面理解为吃饭。[DBP：suap](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=suap)。",
+      "collocations": [
+        {
+          "ms": "wang suap",
+          "zh": "贿款",
+          "en": "bribe money"
+        },
+        {
+          "ms": "makan suap",
+          "zh": "收受贿赂",
+          "en": "to take bribes"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "把食物送入口中；给人喂食。",
+      "en_definition": "To put food into someone's mouth; to feed someone.",
+      "ms_definition": "Memasukkan makanan ke dalam mulut sendiri atau orang lain.",
+      "nuances": "裸词形常用于命令或口语；完整主动陈述通常用 menyuap。是否给自己或别人喂食由宾语与语境确定。",
+      "collocations": [
+        {
+          "ms": "suap anak makan",
+          "zh": "喂孩子吃饭",
+          "en": "feed a child"
+        },
+        {
+          "ms": "suap nasi ke mulut",
+          "zh": "把饭送入口中",
+          "en": "put rice into someone's mouth"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "向某人行贿，以换取不正当便利。",
+      "en_definition": "To bribe someone.",
+      "ms_definition": "Memberikan rasuah kepada seseorang.",
+      "nuances": "裸词形主要见于口语和命令；正式主动句通常用 menyuap。",
+      "collocations": [
+        {
+          "ms": "suap pegawai",
+          "zh": "向官员行贿",
+          "en": "bribe an official"
+        },
+        {
+          "ms": "jangan suap sesiapa",
+          "zh": "不要向任何人行贿",
+          "en": "do not bribe anyone"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua kakitangan diingatkan supaya tidak menerima wang suap daripada pembekal.",
+      "zh": "提醒全体员工不得收受供应商的贿款。",
+      "en": "All staff are reminded not to accept bribes from suppliers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tolong suap adik dulu, ya. Saya nak bancuh susu kejap.",
+      "ms_standard": "Tolong suap adik dahulu. Saya hendak membancuh susu sebentar.",
+      "zh": "先帮忙喂一下弟弟妹妹哦，我去冲个奶。",
+      "en": "Please feed the little one first. I'll just make some milk.",
+      "spoken_features": [
+        "dulu 对应 dahulu",
+        "nak 对应 hendak",
+        "kejap 对应 sebentar；bancuh 在口语主动句中省略 meN-",
+        "ya 缓和请求语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Amir, tolong suap adik dulu, ya. Saya nak bancuh susu kejap.",
+          "ms_standard": "Amir, tolong suap adik dahulu. Saya hendak membancuh susu sebentar.",
+          "zh": "阿米尔，先帮忙喂一下小的哦，我去冲个奶。",
+          "en": "Amir, please feed the little one first. I'll just make some milk."
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Boleh. Dia dah makan dua suap je, lepas tu tak nak dah.",
+          "ms_standard": "Boleh. Dia baru makan dua suap sahaja, kemudian tidak mahu makan lagi.",
+          "zh": "行。他才吃了两口，之后就不肯吃了。",
+          "en": "Sure. He's only had two mouthfuls and won't eat any more."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary places an ordinary mouthful beside the figurative sense of a bribe. It also records bersuap-suapan for exchanging mouthfuls, including between newlyweds during the bersanding ceremony. These recorded uses connect the word with nourishment, affection and improper inducement. The connection is a cultural reading of its meanings; it does not establish when the bribery sense arose. [DBP: suap](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=suap).",
+    "cognitive_memory_aid": "把 su-ap 两拍配上手送食物入口的动作：一送是一口；若送的是钱，就联想到 wang suap。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈喂食时语气通常中性或亲切；请求别人帮忙可加 tolong、ya。指称别人 makan suap 带有严重指控意味。",
+    "usage_etiquette": "照护孩子、长者或病人时适用喂食义，应尊重对方意愿。新闻或工作文件谈贿赂时，宜明确行为与证据，避免用玩笑口吻给具体人物贴标签。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈喂食时语气通常中性或亲切；请求别人帮忙可加 tolong、ya。指称别人 makan suap 带有严重指控意味。",
+    "usage_etiquette": "照护孩子、长者或病人时适用喂食义，应尊重对方意愿。新闻或工作文件谈贿赂时，宜明确行为与证据，避免用玩笑口吻给具体人物贴标签。"
+  }
+}

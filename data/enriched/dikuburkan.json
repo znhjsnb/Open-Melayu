@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "dikuburkan",
+    "syllables": null,
+    "ipa": "/di.ku.bur.kan/",
+    "jawi": null,
+    "frequency_rank": 12657,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kubur",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + kubur + -kan → dikuburkan",
+    "pattern_note": "di-标记被动，-kan构成相应及物动词，词根kubur保持不变。此处circumfix按字段枚举表示前后缀组合，并不意味着两者不可独立分析。输入将整个派生词标作词根，现纠正为kubur；di-须连写。",
+    "word_family": [
+      {
+        "word": "kubur",
+        "affix": null,
+        "gloss": "坟墓；墓穴"
+      },
+      {
+        "word": "menguburkan",
+        "affix": "meN-...-kan",
+        "gloss": "埋葬；使消失"
+      },
+      {
+        "word": "perkuburan",
+        "affix": "per-...-an",
+        "gloss": "墓地"
+      },
+      {
+        "word": "penguburan",
+        "affix": "peN-...-an",
+        "gloss": "埋葬这一行为"
+      }
+    ],
+    "root_jawi": "قبور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被埋葬；遗体被安葬入墓。",
+      "en_definition": "To be buried or interred, especially of a deceased person's body.",
+      "ms_definition": "Ditanam di dalam kubur atau dikebumikan, khususnya berkenaan dengan mayat atau jenazah.",
+      "nuances": "为menguburkan的被动形式；di-不表示过去时，telah dikuburkan表示已经安葬，akan dikuburkan表示将要安葬。马来语释义为依据词典主动词义编写的被动释义，并非逐字引文。参见[DBP：kubur](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=kubur)。",
+      "collocations": [
+        {
+          "ms": "jenazah dikuburkan",
+          "zh": "遗体被安葬",
+          "en": "the deceased's body is buried"
+        },
+        {
+          "ms": "dikuburkan di tanah perkuburan",
+          "zh": "被安葬于墓地",
+          "en": "be buried in a cemetery"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "比喻：被终结、抛弃或压下，因而无法继续存在、实现或被提起。",
+      "en_definition": "Figuratively, to be extinguished, abandoned or suppressed so that something cannot continue or emerge.",
+      "ms_definition": "Secara kiasan, dihapuskan, dilenyapkan atau dipendam sehingga tidak diteruskan atau tidak ditimbulkan lagi.",
+      "nuances": "常用于希望、理想或往事等抽象对象；语气比普通的取消或放弃更强，常带彻底终结的意味。不要把所有dikuburkan都理解为实际死亡。此义由DBP所列menguburkan的比喻义转为被动。",
+      "collocations": [
+        {
+          "ms": "harapan dikuburkan",
+          "zh": "希望被埋葬；希望破灭",
+          "en": "hopes are buried"
+        },
+        {
+          "ms": "cita-cita dikuburkan",
+          "zh": "理想被埋葬；抱负被放弃",
+          "en": "ambitions are buried"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 讣告",
+      "ms": "Jenazah beliau akan dikuburkan di tanah perkuburan kampung selepas solat zuhur.",
+      "zh": "其遗体将于晌礼后安葬在村里的墓地。",
+      "en": "The deceased will be buried in the village cemetery after the noon prayer."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问丧事安排",
+      "ms_spoken": "Jenazah arwah dah dikuburkan pagi tadi.",
+      "ms_standard": "Jenazah arwah sudah dikuburkan pada pagi tadi.",
+      "zh": "逝者的遗体今天早上已经安葬了。",
+      "en": "The deceased was buried this morning.",
+      "spoken_features": [
+        "dah对应sudah。",
+        "口语省略时间短语前的介词pada。",
+        "dikuburkan保留标准被动形式，语气适合严肃消息。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Aku baru dapat berita tu. Jenazah arwah dah dikuburkan ke?",
+          "ms_standard": "Saya baru menerima berita itu. Adakah jenazah arwah sudah dikuburkan?",
+          "zh": "我刚收到消息。逝者已经安葬了吗？",
+          "en": "I've only just heard the news. Has the burial already taken place?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah, jenazah arwah dikuburkan pagi tadi. Terima kasih sebab tanya.",
+          "ms_standard": "Ya, jenazah arwah sudah dikuburkan pada pagi tadi. Terima kasih kerana bertanya.",
+          "zh": "已经安葬了，是今天早上的事。谢谢你关心。",
+          "en": "Yes, the burial was this morning. Thank you for asking."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kubur comes from Arabic qubūr, the plural of qabr, meaning grave. Malay adopted the borrowed form without retaining its Arabic plural grammar: kubur can denote a single grave. Malay affixes then created menguburkan and its passive dikuburkan, integrating the borrowed noun into a productive local system of verbs. [Wiktionary](https://en.wiktionary.org/wiki/kubur)",
+    "cognitive_memory_aid": "kubur＝坟墓；menguburkan＝埋葬；换上被动di-，dikuburkan＝被安葬。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向家属表达消息时宜用jenazah、beliau等尊重措辞；dikebumikan也是常见的庄重表达。尊称须结合逝者及家属的宗教和文化背景。",
+    "usage_etiquette": "讣告和丧事安排中可直接使用。避免在悲伤家属面前用埋葬作轻佻比喻，也不要假定不同族群采用相同的安葬仪式。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向家属表达消息时宜用jenazah、beliau等尊重措辞；dikebumikan也是常见的庄重表达。尊称须结合逝者及家属的宗教和文化背景。",
+    "usage_etiquette": "讣告和丧事安排中可直接使用。避免在悲伤家属面前用埋葬作轻佻比喻，也不要假定不同族群采用相同的安葬仪式。"
+  }
+}

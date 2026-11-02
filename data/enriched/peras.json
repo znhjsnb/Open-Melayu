@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "peras",
+    "syllables": "pe.ras",
+    "ipa": "/pəras/",
+    "jawi": "ڤرس",
+    "frequency_rank": 12691,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "peras",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + peras → peras",
+    "pattern_note": "词根本身无词缀；加 meN- 或 peN- 时，首辅音 p 被鼻音 m 替代：memeras、pemeras、pemerasan。首音节 e 读 /ə/。",
+    "word_family": [
+      {
+        "word": "memeras",
+        "affix": "meN-",
+        "gloss": "挤取；剥削；勒索"
+      },
+      {
+        "word": "pemerasan",
+        "affix": "peN-...-an",
+        "gloss": "挤取、剥削或勒索的行为"
+      },
+      {
+        "word": "pemeras",
+        "affix": "peN-",
+        "gloss": "压榨者；挤压工具"
+      }
+    ],
+    "root_jawi": "ڤرس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "通过挤压、压榨或拧挤，取出物体中的液体。",
+      "en_definition": "To extract liquid from something by squeezing, pressing, or wringing it.",
+      "ms_definition": "Memerah sesuatu untuk mengeluarkan cecairnya.",
+      "nuances": "DBP 在词根 peras 下主要以 memeras 展开动词义。马来西亚日常表达挤汁、挤椰浆时，更常见 perah、memerah；peras 也可见于指令或口语省略前缀的形式。[DBP 词条](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=peras)。",
+      "collocations": [
+        {
+          "ms": "memeras kelapa",
+          "zh": "挤椰肉取椰浆",
+          "en": "squeeze grated coconut to extract coconut milk"
+        },
+        {
+          "ms": "mesin pemeras",
+          "zh": "压榨机",
+          "en": "pressing machine"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "过度榨取他人的劳动、资源或收益，以谋取自身利益；剥削。",
+      "en_definition": "To exploit someone by extracting excessive labour, resources, or profit for one's own benefit.",
+      "ms_definition": "Mengambil keuntungan yang berlebih-lebihan daripada orang lain atau menindas mereka untuk kepentingan sendiri.",
+      "nuances": "强调不公平的榨取，带有明确贬义；不一定涉及威胁。正式主动句通常使用 memeras。",
+      "collocations": [
+        {
+          "ms": "memeras tenaga pekerja",
+          "zh": "榨取工人的劳力",
+          "en": "exploit workers' labour"
+        },
+        {
+          "ms": "memeras golongan miskin",
+          "zh": "剥削贫困群体",
+          "en": "exploit the poor"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "以威胁或胁迫手段索取钱财或其他利益；勒索。",
+      "en_definition": "To obtain money or other benefits from someone through threats or coercion.",
+      "ms_definition": "Memeras ugut seseorang untuk mendapatkan wang atau faedah lain.",
+      "nuances": "这一义项侧重胁迫，区别于一般的剥削义。常与 ugut 构成 peras ugut、memeras ugut；不是普通的索款或催还借款。",
+      "collocations": [
+        {
+          "ms": "memeras ugut",
+          "zh": "威胁勒索",
+          "en": "extort through threats"
+        },
+        {
+          "ms": "memeras wang daripada mangsa",
+          "zh": "向受害者勒索钱财",
+          "en": "extort money from a victim"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "在固定比喻搭配中，指绞尽脑汁地思考，或付出极大的体力劳动。",
+      "en_definition": "In figurative expressions, to think intensely or exert oneself through strenuous work.",
+      "ms_definition": "Berfikir atau belajar dengan bersungguh-sungguh, atau bekerja keras, dalam ungkapan kiasan tertentu.",
+      "nuances": "具体意思由搭配决定：memeras otak 指苦思，memeras keringat 指辛勤劳动。此义不表示剥削别人，不宜脱离固定搭配任意使用。",
+      "collocations": [
+        {
+          "ms": "memeras otak",
+          "zh": "绞尽脑汁",
+          "en": "rack one's brains"
+        },
+        {
+          "ms": "memeras keringat",
+          "zh": "辛勤劳作",
+          "en": "toil hard"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 警方调查报道",
+      "ms": "Polis sedang menyiasat aduan peras ugut yang dibuat oleh seorang peniaga.",
+      "zh": "警方正在调查一名商人提出的勒索投诉。",
+      "en": "Police are investigating an extortion complaint filed by a trader."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈论收到的威胁",
+      "ms_spoken": "Dia ugut nak sebarkan gambar aku, lepas tu nak peras duit aku pula.",
+      "ms_standard": "Dia mengugut untuk menyebarkan gambar saya, kemudian cuba memeras wang daripada saya.",
+      "zh": "他威胁要把我的照片传出去，还想勒索我的钱。",
+      "en": "He's threatening to share my photos and trying to extort money from me.",
+      "spoken_features": [
+        "nak 是 hendak 或 mahu 的口语形式",
+        "lepas tu 对应 selepas itu 或 kemudian",
+        "peras 在此省略了标准主动形式 memeras 的前缀",
+        "aku 用于熟人之间的非正式交流"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dia ugut nak sebarkan gambar aku, lepas tu nak peras duit aku pula.",
+          "ms_standard": "Dia mengugut untuk menyebarkan gambar saya, kemudian cuba memeras wang daripada saya.",
+          "zh": "他威胁要把我的照片传出去，还想勒索我的钱。",
+          "en": "He's threatening to share my photos and trying to extort money from me."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah simpan mesej dia? Jom buat laporan polis.",
+          "ms_standard": "Adakah kamu sudah menyimpan mesejnya? Mari kita membuat laporan polis.",
+          "zh": "你保存他的消息了吗？走，我们去报警。",
+          "en": "Have you saved his messages? Let's report it to the police."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Peras offers a vivid semantic bridge between physical pressure and social pressure. DBP records squeezing, exploitation, and extortion under memeras, alongside expressions about intense thinking and hard work. These meanings can be understood through the shared image of extracting something under pressure; this is a semantic explanation, not a documented chronology. [DBP entry](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=peras).",
+    "cognitive_memory_aid": "把 peras 想成一只不断挤压的手：挤椰浆、榨劳力、勒索钱；配 otak 时，就是把脑力也“挤出来”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "指人时，memeras 往往带有严重的负面评价。向同事或上级表达工作负担时，直接说对方 memeras 可能构成强烈指责。",
+    "usage_etiquette": "做饭语境中的挤取义没有冒犯性；剥削或勒索义应根据具体行为使用。正式书面语注意使用 memeras，固定组合 peras ugut 则按其句法位置使用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "指人时，memeras 往往带有严重的负面评价。向同事或上级表达工作负担时，直接说对方 memeras 可能构成强烈指责。",
+    "usage_etiquette": "做饭语境中的挤取义没有冒犯性；剥削或勒索义应根据具体行为使用。正式书面语注意使用 memeras，固定组合 peras ugut 则按其句法位置使用。"
+  }
+}

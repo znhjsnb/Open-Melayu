@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "diagnosis",
+    "syllables": "diag.no.sis",
+    "ipa": "/di.aɡ.no.sis/",
+    "jawi": "دياݢنوسيس",
+    "frequency_rank": 12643,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "diagnosis",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + diagnosis → diagnosis",
+    "pattern_note": "现代马来语中按完整借词处理，不把 dia- 当作马来语词缀。派生 mendiagnosis 时，meN- 在 /d/ 前实现为 men-，原有 d 保留。",
+    "word_family": [
+      {
+        "word": "mendiagnosis",
+        "affix": "meN-",
+        "gloss": "诊断；辨识疾病"
+      },
+      {
+        "word": "didiagnosis",
+        "affix": "di-",
+        "gloss": "被诊断；经诊断确认"
+      }
+    ],
+    "root_jawi": "دياݢنوسيس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "根据症状、体征及相关检查辨识疾病的过程；也指由此作出的诊断结论。",
+      "en_definition": "The identification of a disease from its signs, symptoms and relevant findings; the resulting diagnostic conclusion.",
+      "ms_definition": "Perbuatan mengenal pasti sesuatu penyakit daripada tanda dan gejalanya.",
+      "nuances": "既可指诊断过程，也可指诊断结论。diagnosis awal 或 diagnosis sementara 不等于最终确诊；diagnosis 也不同于 prognosis（预后）。DBP 的核心释义以疾病识别为中心。依据：[DBP PRPM：diagnosis](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=diagnosis)。",
+      "collocations": [
+        {
+          "ms": "membuat diagnosis",
+          "zh": "作出诊断",
+          "en": "make a diagnosis"
+        },
+        {
+          "ms": "diagnosis awal",
+          "zh": "初步诊断",
+          "en": "initial diagnosis"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在技术领域，根据检查结果辨识系统、硬件或软件问题及其原因的过程。",
+      "en_definition": "The process of identifying a fault or the cause of a problem in a technical system.",
+      "ms_definition": "Proses mengenal pasti kerosakan atau punca masalah dalam sesuatu sistem, perkakasan atau perisian.",
+      "nuances": "这是专业领域中的延伸用法，通常带有系统或设备名称，以区别于医学诊断；此处马来语释义为对术语义的概括。依据：[DBP PRPM：diagnosis 技术术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=diagnosis)。",
+      "collocations": [
+        {
+          "ms": "diagnosis kerosakan",
+          "zh": "故障诊断",
+          "en": "fault diagnosis"
+        },
+        {
+          "ms": "diagnosis sistem",
+          "zh": "系统诊断",
+          "en": "system diagnosis"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "医疗报告 / 专业说明",
+      "ms": "Doktor akan membuat diagnosis selepas menilai gejala pesakit dan keputusan pemeriksaan.",
+      "zh": "医生将在评估患者症状和检查结果后作出诊断。",
+      "en": "The doctor will make a diagnosis after assessing the patient's symptoms and examination findings."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友关心就诊情况",
+      "ms_spoken": "Doktor dah jelaskan diagnosis tu ke?",
+      "ms_standard": "Adakah doktor sudah menjelaskan diagnosis itu?",
+      "zh": "医生已经给你解释那个诊断了吗？",
+      "en": "Has the doctor explained the diagnosis yet?",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "tu 对应 itu",
+        "句末 ke 用作口语疑问标记",
+        "nak 对应 hendak"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Doktor dah jelaskan diagnosis tu ke?",
+          "ms_standard": "Adakah doktor sudah menjelaskan diagnosis itu?",
+          "zh": "医生已经给你解释那个诊断了吗？",
+          "en": "Has the doctor explained the diagnosis yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi. Dia nak semak keputusan ujian dulu.",
+          "ms_standard": "Belum lagi. Doktor hendak menyemak keputusan ujian terlebih dahulu.",
+          "zh": "还没有。他想先看一下检查结果。",
+          "en": "Not yet. The doctor wants to review the test results first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diagnosis ultimately comes from Greek vocabulary for discerning or distinguishing. That history fits the clinical task: separating possible explanations until a condition can be identified. Malay uses the international term as a complete borrowed noun, while native affixes produce forms such as mendiagnosis. Its Greek components are historical, not productive Malay affixes. [American Heritage Dictionary](https://ahdictionary.com/word/search.html?q=diagnosis).",
+    "cognitive_memory_aid": "把 diagnosis 想成“把相似症状分辨清楚，得到诊断”；mendiagnosis 就是“进行诊断”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论他人的 diagnosis 时，先确认对方愿意分享；提问可用 Doktor sudah jelaskan diagnosis itu?，避免催问或擅自给人贴疾病标签。",
+    "usage_etiquette": "适合医疗交流及技术报告。转述时保留 awal、sementara 等限定词，避免把初步判断说成最终结论。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论他人的 diagnosis 时，先确认对方愿意分享；提问可用 Doktor sudah jelaskan diagnosis itu?，避免催问或擅自给人贴疾病标签。",
+    "usage_etiquette": "适合医疗交流及技术报告。转述时保留 awal、sementara 等限定词，避免把初步判断说成最终结论。"
+  }
+}
