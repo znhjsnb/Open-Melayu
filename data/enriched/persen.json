@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "persen",
+    "syllables": null,
+    "ipa": "/pərˈsen/",
+    "jawi": "سين",
+    "frequency_rank": 11376,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sen",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + persen → persen（整词借入）",
+    "pattern_note": "首音节 e 为 /ə/，末音节 é 为 /e/。root_word、is_root 和 root_jawi 按输入保留，但 sen 与 false 不应视为已确认的现代构词分析：百分比义的 persen 是整词借词，不能据字形拆成马来语 per- + sen。headword.jawi 的 سين 实为 sen，不能作为 persen 的已核实完整拼写。音节字段保留输入 null，可参考 per.sen。",
+    "word_family": [
+      {
+        "word": "persenan",
+        "affix": "-an",
+        "gloss": "按百分比计算的；另在印尼用法中指赠礼"
+      },
+      {
+        "word": "memerseni",
+        "affix": "meN-...-i",
+        "gloss": "给予礼物或酬谢；印尼用法，属于赠礼义"
+      }
+    ],
+    "root_jawi": "سين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "百分之；以一百为基数表示的比例单位。",
+      "en_definition": "Per cent; a proportion expressed as a number of parts in every hundred.",
+      "ms_definition": "Peratus; satu bahagian daripada seratus.",
+      "nuances": "通常置于数词后，如 sepuluh persen＝百分之十。马来西亚正式表达通常优先用 peratus；不要把 persen 与货币单位 sen 混淆。词义依据：[DBP PRPM：persen](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=persen)。",
+      "collocations": [
+        {
+          "ms": "sepuluh persen",
+          "zh": "百分之十",
+          "en": "ten per cent"
+        },
+        {
+          "ms": "seratus persen",
+          "zh": "百分之百",
+          "en": "one hundred per cent"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "赠礼、酬谢或小费；词典标注为印尼用法。",
+      "en_definition": "A gift, gratuity, or reward; an Indonesian usage.",
+      "ms_definition": "Hadiah, pemberian, upah atau wang kopi; penggunaan bahasa Indonesia.",
+      "nuances": "DBP 将此另列为 persen II，并标 Id。它与百分比义属于不同义项，不宜直接当作马来西亚日常“小费”的常用说法。以下搭配用于识别该义，未核实为马来西亚高频搭配。依据：[DBP PRPM：persen II](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=persen)。",
+      "collocations": [
+        {
+          "ms": "memberi persen",
+          "zh": "给予酬谢或小费；印尼用法",
+          "en": "give a gratuity; Indonesian usage"
+        },
+        {
+          "ms": "menerima persen",
+          "zh": "收到酬谢或小费；印尼用法",
+          "en": "receive a gratuity; Indonesian usage"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kontrak tersebut menggunakan istilah persen untuk merujuk kepada peratus.",
+      "zh": "该合同使用 persen 一词来表示百分比。",
+      "en": "The contract uses the term persen to mean per cent."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Diskaun dia sepuluh persen je ke?",
+      "ms_standard": "Adakah diskaun yang ditawarkan hanya sepuluh peratus?",
+      "zh": "才便宜百分之十啊？",
+      "en": "Is the discount only ten per cent?",
+      "spoken_features": [
+        "dia 在此口语中指商家所给的优惠",
+        "je 对应 sahaja，强调幅度小",
+        "ke 是口语疑问标记",
+        "标准对应句采用马来西亚更常用的 peratus"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Kedai tu bagi diskaun sepuluh persen je ke?",
+          "ms_standard": "Adakah kedai itu memberikan diskaun sebanyak sepuluh peratus sahaja?",
+          "zh": "那家店才便宜百分之十吗？",
+          "en": "Is that shop only offering ten per cent off?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ya, sepuluh peratus je. Aku nak tunggu jualan hujung tahun.",
+          "ms_standard": "Ya, sepuluh peratus sahaja. Saya hendak menunggu jualan akhir tahun.",
+          "zh": "对，就百分之十。我想等年终促销。",
+          "en": "Yes, just ten per cent. I'm going to wait for the year-end sale."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The percentage sense of persen belongs to the European percent word family, ultimately connected with the idea of counting by the hundred. English and Dutch are possible transmission sources for Malay. Treat it as a whole borrowed word rather than a productive prefix attached to sen, the monetary unit. [Malay etymology and pronunciation](https://en.wiktionary.org/wiki/persen#Malay).",
+    "cognitive_memory_aid": "persen 联想英语 percent 和符号 %：sepuluh persen＝10%；不是十个 sen。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "百分比义本身语气中性。在马来西亚的报告、报价和正式说明中优先用 peratus，有助于表达自然清楚。",
+    "usage_etiquette": "购物聊天中可理解 persen。表示小费时，马来西亚通常用 tip 或更明确的酬谢表达；不要把印尼赠礼义随意用于正式收费或公务往来。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "百分比义本身语气中性。在马来西亚的报告、报价和正式说明中优先用 peratus，有助于表达自然清楚。",
+    "usage_etiquette": "购物聊天中可理解 persen。表示小费时，马来西亚通常用 tip 或更明确的酬谢表达；不要把印尼赠礼义随意用于正式收费或公务往来。"
+  }
+}

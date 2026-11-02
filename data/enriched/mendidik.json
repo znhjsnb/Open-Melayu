@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "mendidik",
+    "syllables": null,
+    "ipa": "/mən.di.diʔ/",
+    "jawi": "منديديق",
+    "frequency_rank": 11374,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "didik",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + didik → mendidik",
+    "pattern_note": "meN- 在词首 d 前变为 men-，d 保留；词尾 k 通常实现为喉塞音 [ʔ]。输入未提供音节字段，故保留 null；可参考划分 men.di.dik。root_jawi 按输入保留，但其中 ديديقبر 含多余字符，didik 的规范写法为 ديديق。",
+    "word_family": [
+      {
+        "word": "pendidik",
+        "affix": "peN-",
+        "gloss": "教育者"
+      },
+      {
+        "word": "pendidikan",
+        "affix": "peN-...-an",
+        "gloss": "教育"
+      },
+      {
+        "word": "didikan",
+        "affix": "-an",
+        "gloss": "教养；教育或培养的结果"
+      },
+      {
+        "word": "terdidik",
+        "affix": "ter-",
+        "gloss": "受过教育的；有教养的"
+      }
+    ],
+    "root_jawi": "ديديقبر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "通过妥善照料、教导和训练，培养人的知识、品行与能力。",
+      "en_definition": "To educate and nurture someone through care, instruction, and training.",
+      "ms_definition": "Menjaga, memelihara dan melatih atau mengajar seseorang dengan baik.",
+      "nuances": "及物动词，通常直接接被教育的人，也可用于 mendidik masyarakat 等集体对象。比 mengajar 更强调持续培养、价值观和行为习惯，不仅是传授某项知识。马来语释义据输入所引《Kamus Dewan Edisi Keempat》整理。",
+      "collocations": [
+        {
+          "ms": "mendidik anak-anak",
+          "zh": "教育孩子",
+          "en": "raise and educate children"
+        },
+        {
+          "ms": "mendidik masyarakat",
+          "zh": "教育公众",
+          "en": "educate the public"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Program ini bertujuan untuk mendidik masyarakat tentang kepentingan menjaga kebersihan sungai.",
+      "zh": "这项计划旨在教育公众认识维护河流清洁的重要性。",
+      "en": "This programme aims to educate the public about the importance of keeping rivers clean."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nak mendidik anak ni, kita pun kena sabar.",
+      "ms_standard": "Untuk mendidik anak, kita juga perlu bersabar.",
+      "zh": "教育孩子，我们自己也得有耐心。",
+      "en": "Raising a child takes patience from us too.",
+      "spoken_features": [
+        "nak 对应 hendak，此处引出目标",
+        "ni 对应 ini，用作口语话题标记",
+        "pun 对应 juga",
+        "kena 在此表示需要或必须"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku nak mendidik anak supaya pandai berkongsi, tapi susah juga.",
+          "ms_standard": "Saya hendak mendidik anak supaya pandai berkongsi, tetapi perkara itu agak sukar.",
+          "zh": "我想教孩子学会分享，可还真不容易。",
+          "en": "I'm trying to teach my child to share, but it's harder than I thought."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Cuba mula dengan benda kecil je. Kita tunjuk contoh dulu.",
+          "ms_standard": "Cuba mulakan dengan perkara kecil sahaja. Kita tunjukkan teladan terlebih dahulu.",
+          "zh": "先从小事开始吧。我们自己先做个榜样。",
+          "en": "Try starting with little things. We can set an example first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mendidik is transparently formed from didik with the active verbal prefix meN-. Its educational meaning connects caring for a learner with teaching and training. The same base supports pendidik, an educator, and pendidikan, education. Together, these familiar forms help learners see education as an ongoing practice of developing people rather than merely delivering lessons.",
+    "cognitive_memory_aid": "抓住 didik＝教养培养：men-didik 是实施教育，pen-didik 是教育者，pen-didik-an 是教育。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于家长、教师和公共教育时自然得体。对成年人直接说“Saya akan mendidik awak”容易显得居高临下；职场合作中可按意思改用 membimbing 或 berkongsi pengetahuan。",
+    "usage_etiquette": "适合讨论育儿、学校教育和公众意识培养。批评他人“tidak terdidik”会直接贬损其教养，容易冒犯。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于家长、教师和公共教育时自然得体。对成年人直接说“Saya akan mendidik awak”容易显得居高临下；职场合作中可按意思改用 membimbing 或 berkongsi pengetahuan。",
+    "usage_etiquette": "适合讨论育儿、学校教育和公众意识培养。批评他人“tidak terdidik”会直接贬损其教养，容易冒犯。"
+  }
+}

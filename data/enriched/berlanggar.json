@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "berlanggar",
+    "syllables": "ber.lang.gar",
+    "ipa": "/bər.laŋ.ɡar/",
+    "jawi": "برلڠݢر",
+    "frequency_rank": 11337,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "langgar",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + langgar → berlanggar",
+    "pattern_note": "ber- 保持原形，词根首音 /l/ 不变；ng 表示 /ŋ/，其后的 g 另读 /ɡ/。此处 ber- 构成表示碰撞等事件的动词。",
+    "word_family": [
+      {
+        "word": "melanggar",
+        "affix": "meN-",
+        "gloss": "撞击；违反"
+      },
+      {
+        "word": "terlanggar",
+        "affix": "ter-",
+        "gloss": "不慎撞到"
+      },
+      {
+        "word": "perlanggaran",
+        "affix": "per-...-an",
+        "gloss": "碰撞事件"
+      },
+      {
+        "word": "pelanggaran",
+        "affix": "peN-...-an",
+        "gloss": "违反；侵犯"
+      }
+    ],
+    "root_jawi": "لڠݢر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "相撞；与另一车辆、人或物体发生碰撞。",
+      "en_definition": "To collide with another vehicle, person, or object.",
+      "ms_definition": "Bertembung atau terhantuk dengan kenderaan, orang atau benda lain.",
+      "nuances": "现代常用义。通常用 berlanggar dengan 引出碰撞对象；词本身不确定事故责任。释义据 [DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=berlanggar)改写。",
+      "collocations": [
+        {
+          "ms": "berlanggar dengan lori",
+          "zh": "与货车相撞",
+          "en": "collide with a lorry"
+        },
+        {
+          "ms": "dua buah kereta berlanggar",
+          "zh": "两辆汽车相撞",
+          "en": "two cars collide"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "交战；互相攻击。",
+      "en_definition": "To engage in combat or attack one another.",
+      "ms_definition": "Bertempur atau menyerang antara satu sama lain.",
+      "nuances": "较旧的叙事用法，常见于历史或文学语境；重叠形式 berlanggar-langgaran 更突出相互攻击。以下为此义的示例搭配，不代表现代高频表达。",
+      "collocations": [
+        {
+          "ms": "berlanggar dengan musuh",
+          "zh": "与敌军交战",
+          "en": "engage the enemy"
+        },
+        {
+          "ms": "berlanggar dalam peperangan",
+          "zh": "在战争中交锋",
+          "en": "clash in battle"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "与习俗、规则等相抵触；不符合其要求。",
+      "en_definition": "To conflict with a custom, rule, or requirement.",
+      "ms_definition": "Tidak selaras dengan adat, peraturan atau ketetapan.",
+      "nuances": "词典收录义。现代通常用 bertentangan dengan 表示抵触，用 melanggar 表示违反；berlanggar dengan peraturan 可以理解，但不宜作为首选教学表达。",
+      "collocations": [
+        {
+          "ms": "berlanggar dengan adat",
+          "zh": "与习俗相抵触",
+          "en": "conflict with custom"
+        },
+        {
+          "ms": "berlanggar dengan peraturan",
+          "zh": "与规定相抵触",
+          "en": "conflict with regulations"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sebuah kereta berlanggar dengan sebuah lori berhampiran persimpangan itu pagi tadi.",
+      "zh": "今天早上，一辆汽车在该路口附近与一辆货车相撞。",
+      "en": "A car collided with a lorry near the junction this morning."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dua kereta berlanggar kat simpang tadi, sebab tu jalan sesak.",
+      "ms_standard": "Dua buah kereta berlanggar di persimpangan tadi; oleh sebab itu, lalu lintas sesak.",
+      "zh": "刚才两辆车在路口撞了，所以才塞车。",
+      "en": "Two cars crashed at the junction earlier. That's why traffic is backed up.",
+      "spoken_features": [
+        "kat 对应 di",
+        "tu 对应 itu",
+        "口语可省略车辆量词 buah",
+        "sebab tu 用于口语因果衔接"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku lambat sikit. Dua kereta berlanggar kat simpang ni.",
+          "ms_standard": "Saya akan lewat sedikit. Dua buah kereta berlanggar di persimpangan ini.",
+          "zh": "我会晚一点，这个路口有两辆车撞了。",
+          "en": "I'll be a little late. Two cars have crashed at this junction."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Oh, patutlah sesak. Aku nak ikut jalan lain je.",
+          "ms_standard": "Oh, sebab itulah lalu lintas sesak. Saya hendak menggunakan jalan lain sahaja.",
+          "zh": "哦，难怪这么塞。我走别条路好了。",
+          "en": "Oh, that explains the traffic. I'll just take another route."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Berlanggar is transparently formed from ber- and langgar. Its dictionary senses connect physical collision, armed confrontation, and conflict with established rules. This offers a useful semantic bridge from bodies meeting to opposing forces meeting. It describes the recorded meaning network, rather than claiming a documented chronological sequence of meaning changes.",
+    "cognitive_memory_aid": "把 langgar 想成“撞上”，ber- 把画面变成碰撞事件：两辆车碰到一起，就是 berlanggar。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "询问事故宜先关心是否有人受伤，如 Ada sesiapa yang cedera?，再了解经过。",
+    "usage_etiquette": "描述尚未查明责任的事故时，berlanggar 可客观说明相撞。不要仅凭这个动词推断哪一方有错；历史交战义也不宜直接套入普通人际争执。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "询问事故宜先关心是否有人受伤，如 Ada sesiapa yang cedera?，再了解经过。",
+    "usage_etiquette": "描述尚未查明责任的事故时，berlanggar 可客观说明相撞。不要仅凭这个动词推断哪一方有错；历史交战义也不宜直接套入普通人际争执。"
+  }
+}

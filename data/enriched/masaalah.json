@@ -1,0 +1,131 @@
+{
+  "headword": {
+    "word": "masaalah",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11465,
+    "status": "nonstandard",
+    "canonical_form": "masalah",
+    "canonical_ipa": "/masalah/",
+    "orthographic_note": "masaalah 是非规范拼写，不能标为官方规范词形；标准马来语拼写为 masalah。数据包未提供音节、IPA 或 Jawi，相关原始字段保留 null。[DBP：错误与正确拼写对照](https://eseminar.dbp.gov.my/dokumen/koleksi1.pdf)"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "masaalah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + masaalah → masaalah（输入形式）；拼写规范化：masaalah → masalah",
+    "pattern_note": "按数据包保留未加词缀的输入形式；masaalah 的额外 a 属于拼写问题，不是词缀。规范词族以 masalah 为基础，不应拆成 masa + alah。",
+    "word_family": [
+      {
+        "word": "bermasalah",
+        "affix": "ber-",
+        "gloss": "有问题的；存在困难的"
+      },
+      {
+        "word": "permasalahan",
+        "affix": "per-…-an",
+        "gloss": "相关问题；各种问题"
+      },
+      {
+        "word": "mempermasalahkan",
+        "affix": "memper-…-kan",
+        "gloss": "把某事视为问题；对某事提出异议"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "规范词 masalah 的非规范拼写：需要解决的问题，或造成困难的事情、情况。",
+      "en_definition": "A nonstandard spelling of masalah: a problem, difficulty, or matter requiring resolution.",
+      "ms_definition": "Ejaan tidak baku bagi masalah, iaitu perkara yang perlu ditangani atau keadaan yang menyebabkan kesukaran.",
+      "nuances": "以下搭配与例句采用规范拼写 masalah。它既可指实际困难，也可指有待处理的事项；并非所有中性的讨论议题都带有同等程度的困难意味。[DBP：masalah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=masalah)",
+      "collocations": [
+        {
+          "ms": "masalah kewangan",
+          "zh": "财务困难",
+          "en": "financial difficulties"
+        },
+        {
+          "ms": "menyelesaikan masalah",
+          "zh": "解决问题",
+          "en": "solve a problem"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "规范词 masalah 的非规范拼写：数学等领域中需要通过计算或推理求解的题目。",
+      "en_definition": "A nonstandard spelling of masalah: a mathematical or similar problem requiring a solution.",
+      "ms_definition": "Dalam matematik atau bidang seumpamanya, soalan yang perlu diselesaikan melalui pengiraan atau penaakulan; ejaan bakunya ialah masalah.",
+      "nuances": "此义的英语 problem 对应“待求解的题目”，不一定表示生活中的麻烦。学习与考试中统一写 masalah。[DBP：masalah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=masalah)",
+      "collocations": [
+        {
+          "ms": "masalah matematik",
+          "zh": "数学问题",
+          "en": "mathematical problem"
+        },
+        {
+          "ms": "penyelesaian masalah",
+          "zh": "问题求解",
+          "en": "problem solving"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jabatan itu sedang mengenal pasti punca masalah bekalan air di kawasan tersebut.",
+      "zh": "该部门正在查明该地区供水问题的原因。",
+      "en": "The department is identifying the cause of the water supply problem in the area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ada masalah sikit kat rumah. Aku lambat sikit ya.",
+      "ms_standard": "Ada sedikit masalah di rumah. Saya akan tiba agak lewat.",
+      "zh": "家里出了点事，我会晚一点到啊。",
+      "en": "Something's come up at home. I'll be a little late.",
+      "spoken_features": [
+        "口语表达仍采用规范拼写 masalah；masaalah 不是口语必须使用的写法。",
+        "kat 在此对应 di；sikit 对应 sedikit。",
+        "aku 适合熟人；ya 在此用于缓和告知的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ada masalah sikit kat rumah. Aku lambat sikit ya.",
+          "ms_standard": "Ada sedikit masalah di rumah. Saya akan tiba agak lewat.",
+          "zh": "家里出了点事，我会晚一点到啊。",
+          "en": "Something's come up at home. I'll be a little late."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tak apa, uruskan dulu. Aku dah sampai, tunggu kat sini je.",
+          "ms_standard": "Tidak mengapa, uruskan perkara itu dahulu. Saya sudah sampai dan akan menunggu di sini.",
+          "zh": "没事，你先处理。我已经到了，就在这儿等你。",
+          "en": "No worries, take care of that first. I'm here already, so I'll wait."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The standard word masalah comes from Arabic masʾalah, meaning a question or matter. In Malay, it covers everyday difficulties as well as problems requiring a solution. The submitted spelling masaalah does not create a separate word or meaning: DBP explicitly lists it as incorrect and gives masalah as the correct spelling. [DBP spelling guide](https://eseminar.dbp.gov.my/dokumen/koleksi1.pdf)",
+    "cognitive_memory_aid": "“问题”是 masalah；别让多余的 a 再制造一个拼写问题。整词记忆，不拆成 masa（时间）＋alah。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "masalah 本身语体中性。询问 Ada masalah? 的语气若过于生硬，可能像在质问；关心对方时，可说 Ada apa-apa masalah yang boleh saya bantu?",
+    "usage_etiquette": "公文、考试、新闻和工作消息均写 masalah。描述事情的问题通常自然；直接把某个人称为 bermasalah 可能带有负面评价，宜具体说明行为或困难。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "masalah 本身语体中性。询问 Ada masalah? 的语气若过于生硬，可能像在质问；关心对方时，可说 Ada apa-apa masalah yang boleh saya bantu?",
+    "usage_etiquette": "公文、考试、新闻和工作消息均写 masalah。描述事情的问题通常自然；直接把某个人称为 bermasalah 可能带有负面评价，宜具体说明行为或困难。"
+  }
+}

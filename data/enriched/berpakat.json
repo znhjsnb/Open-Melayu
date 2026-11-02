@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "berpakat",
+    "syllables": "ber.pa.kat",
+    "ipa": "/bər.pa.kat/",
+    "jawi": "برڤاکت",
+    "frequency_rank": 11370,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "berpakat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + berpakat → berpakat",
+    "pattern_note": "上述字段保留资料包的整词词根标注。实际现代构词为 ber- + pakat → berpakat，属于前缀派生；ber- 接 p 时不改变词根首音，也不发生鼻音替换。因此，资料包的 is_root 标注不等同于语言学上的不可再分析词根。参见 [DBP：pakat 及其派生词](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=pakat)。",
+    "word_family": [
+      {
+        "word": "sepakat",
+        "affix": "se-",
+        "gloss": "意见一致；同意"
+      },
+      {
+        "word": "pakatan",
+        "affix": "-an",
+        "gloss": "协议；联盟；依语境也可指阴谋集团"
+      }
+    ],
+    "root_jawi": "برڤاکت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "与他人商议，以取得共同决定或就某项行动达成一致。",
+      "en_definition": "To confer with others and agree on a decision or course of action.",
+      "ms_definition": "Bermuafakat, berunding.",
+      "nuances": "核心是多方商议或共同约定，并不必然包含秘密或恶意。常用 berpakat dengan seseorang 和 berpakat untuk melakukan sesuatu；若行动涉及欺骗或伤害，中文可译为“串通、合谋”，英语可译为 collude 或 conspire。不要把普通的共同商议一律译成阴谋。参见 [DBP：pakat / berpakat](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=pakat)。",
+      "collocations": [
+        {
+          "ms": "berpakat untuk membantu",
+          "zh": "商定共同提供帮助",
+          "en": "agree to help together"
+        },
+        {
+          "ms": "berpakat dengan rakan",
+          "zh": "与朋友商议并达成一致",
+          "en": "agree on a plan with friends"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Penduduk telah berpakat untuk mengadakan gotong-royong bagi membersihkan kawasan perumahan pada hujung minggu ini.",
+      "zh": "居民已商定在本周末开展义务劳动，清理住宅区。",
+      "en": "Residents have agreed to hold a communal cleanup of the neighbourhood this weekend."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kita dah berpakat nak masak kat rumah je malam ni, kan?",
+      "ms_standard": "Kita sudah berpakat untuk memasak di rumah sahaja pada malam ini, bukan?",
+      "zh": "咱们不是说好了今晚就在家做饭吗？",
+      "en": "We agreed to just cook at home tonight, right?",
+      "spoken_features": [
+        "dah 对应 sudah，表示已经。",
+        "nak 对应 hendak 或 mahu；此处标准表达可用 untuk 引出商定的行动。",
+        "kat 对应表示地点的 di。",
+        "je 对应 sahaja，ni 对应 ini。",
+        "kan 用于确认双方已有的共识。",
+        "熟人交谈中也常把 berpakat 简化为 pakat。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Kita dah berpakat nak masak kat rumah je malam ni, kan?",
+          "ms_standard": "Kita sudah berpakat untuk memasak di rumah sahaja pada malam ini, bukan?",
+          "zh": "咱们不是说好了今晚就在家做饭吗？",
+          "en": "We agreed to just cook at home tonight, right?"
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Haah, aku dah beli ayam. Kau masak nasi je lah.",
+          "ms_standard": "Ya, saya sudah membeli ayam. Kamu hanya perlu memasak nasi.",
+          "zh": "对啊，我已经买了鸡肉。你煮饭就行啦。",
+          "en": "Yep, I've already bought the chicken. You just need to cook the rice."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Berpakat combines the Malay prefix ber- with pakat, the base shared by sepakat and pakatan. An etymological account traces pakat to earlier mupakat, ultimately connected with Arabic muwafaqa, meaning agreement. This history helps explain the word's centre of gravity: people bringing their intentions into alignment. Whether that agreement is helpful cooperation or harmful collusion depends on the action being planned. Sources: [DBP: pakat](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=pakat), [pakat etymology](https://en.wiktionary.org/wiki/pakat#Malay).",
+    "cognitive_memory_aid": "把 pa-kat 联想成“拍板”：大家先商量，再一起拍板。berpakat 就是“共同商定”；这是记忆联想，并非真实词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Kita berpakat dahulu 可用来邀请大家先商量，语气有共同参与感。正式会议中也可用 berunding 或 bermuafakat；面对上级时，用 Bolehkah kita berunding dahulu? 比直接下指令更委婉。",
+    "usage_etiquette": "适用于家庭安排、社区活动和共同计划。指着别人说 Kamu semua berpakat! 容易被理解为指控他们串通；若只是确认安排，应明确补出商定的事项。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Kita berpakat dahulu 可用来邀请大家先商量，语气有共同参与感。正式会议中也可用 berunding 或 bermuafakat；面对上级时，用 Bolehkah kita berunding dahulu? 比直接下指令更委婉。",
+    "usage_etiquette": "适用于家庭安排、社区活动和共同计划。指着别人说 Kamu semua berpakat! 容易被理解为指控他们串通；若只是确认安排，应明确补出商定的事项。"
+  }
+}

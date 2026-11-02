@@ -1,0 +1,105 @@
+{
+  "headword": {
+    "word": "birthday",
+    "syllables": null,
+    "ipa": "/ˈbɜːθ.deɪ/",
+    "jawi": null,
+    "frequency_rank": 11351,
+    "status": "code_switching",
+    "verification_note": "英语词，可出现在马来语混合口语中；规范马来语通常使用 hari jadi 或 hari lahir。音标为标准英式英语读音，不代表统一的马来西亚口语实现。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "birthday",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "马来语层面：∅ + birthday → birthday；英语内部：birth + day → birthday",
+    "pattern_note": "在马来语混合语码中作为整体使用，没有马来语词缀；英语内部是复合词，因此 is_root 仅表示没有马来语派生词缀。",
+    "word_family": [
+      {
+        "word": "birth",
+        "affix": "∅",
+        "gloss": "英语：出生"
+      },
+      {
+        "word": "day",
+        "affix": "∅",
+        "gloss": "英语：一天；日子"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "生日；每年纪念某人出生的日子。",
+      "en_definition": "The anniversary of the day on which a person was born.",
+      "ms_definition": "Hari ulang tahun kelahiran seseorang; hari jadi atau hari lahir.",
+      "nuances": "在马来语句子中使用 birthday 属于英语语码转换。正式马来语宜改用 hari jadi 或 hari lahir；填写完整出生日期通常用 tarikh lahir。以下为口语混合语码搭配，不作为规范马来语搭配推荐。[DBP：hari lahir](https://prpm.dbp.gov.my/cari1?keyword=hari+lahir)",
+      "collocations": [
+        {
+          "ms": "sambut birthday",
+          "zh": "庆祝生日",
+          "en": "celebrate a birthday"
+        },
+        {
+          "ms": "hadiah birthday",
+          "zh": "生日礼物",
+          "en": "birthday present"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场活动通知；规范马来语使用对应词",
+      "ms": "Pihak jabatan akan mengadakan sambutan hari jadi untuk kakitangan yang lahir pada bulan November.",
+      "zh": "部门将为十一月出生的员工举办生日庆祝活动。",
+      "en": "The department will hold a birthday celebration for staff born in November."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友安排生日聚会",
+      "ms_spoken": "Birthday kau esok, kan? Nak makan kat mana?",
+      "ms_standard": "Hari jadi awak esok, bukan? Awak hendak makan di mana?",
+      "zh": "你明天生日，对吧？想去哪里吃？",
+      "en": "It's your birthday tomorrow, right? Where do you want to eat?",
+      "spoken_features": [
+        "birthday：英语词嵌入马来语句子",
+        "kau：熟人之间使用的第二人称代词",
+        "kan 用于确认共同认知",
+        "nak 对应 hendak；kat 对应 di"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Birthday kau esok, kan? Nak sambut kat mana?",
+          "ms_standard": "Hari jadi awak esok, bukan? Di manakah awak hendak meraikannya?",
+          "zh": "你明天生日吧？想在哪里庆祝？",
+          "en": "Your birthday's tomorrow, right? Where do you want to celebrate?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kat rumah je. Aku dah beli kek.",
+          "ms_standard": "Di rumah sahaja. Saya sudah membeli kek.",
+          "zh": "就在家里，我已经买好蛋糕了。",
+          "en": "Just at home. I've already bought a cake."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Birthday is transparently formed from the English words birth and day. When it appears inside a Malay conversation, that English structure remains intact; Malay words around it supply the sentence's grammar. The useful cultural distinction is register: a friendly birthday invitation may mix languages, while a formal Malay notice normally uses hari jadi or hari lahir. [DBP：hari lahir](https://prpm.dbp.gov.my/cari1?keyword=hari+lahir)",
+    "cognitive_memory_aid": "birth“出生”＋day“日子”＝生日；切换到规范马来语时，记成 hari lahir 或 hari jadi。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对朋友可用 Happy birthday!；正式马来语祝词可用 Selamat hari lahir 或 Selamat hari jadi。kau 只适用于双方接受的亲近关系。",
+    "usage_etiquette": "是否庆生、公开年龄或接受惊喜因个人而异，先尊重当事人的意愿。王室诞辰的正式称谓通常使用 hari keputeraan，不宜直接套用朋友之间的生日说法。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对朋友可用 Happy birthday!；正式马来语祝词可用 Selamat hari lahir 或 Selamat hari jadi。kau 只适用于双方接受的亲近关系。",
+    "usage_etiquette": "是否庆生、公开年龄或接受惊喜因个人而异，先尊重当事人的意愿。王室诞辰的正式称谓通常使用 hari keputeraan，不宜直接套用朋友之间的生日说法。"
+  }
+}
