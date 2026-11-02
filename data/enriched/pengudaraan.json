@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "pengudaraan",
+    "syllables": "pe.ngu.da.ra.an",
+    "ipa": "/pə.ŋu.da.ra.an/",
+    "jawi": "ڤڠوداراءن",
+    "frequency_rank": 10741,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "udara",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + udara + -an → pengudaraan",
+    "pattern_note": "peN- 在元音 u 前变为 peng-，词根 udara 不删音；词尾 -a 与后缀 -an 的 a 分属两个音节，读作 ra.an。",
+    "word_family": [
+      {
+        "word": "udara",
+        "affix": null,
+        "gloss": "空气"
+      },
+      {
+        "word": "mengudarakan",
+        "affix": "meN-...-kan",
+        "gloss": "使通风；使接触空气"
+      },
+      {
+        "word": "berpengudaraan",
+        "affix": "ber- + peN-...-an",
+        "gloss": "具有通风条件"
+      }
+    ],
+    "root_jawi": "اودارا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "通过空气流入、流出及更换，使室内或封闭空间保持空气流通的过程；通风、换气。",
+      "en_definition": "Ventilation: the supply and exchange of air in a room or enclosed space.",
+      "ms_definition": "Proses menggantikan udara di sesuatu ruang dengan udara lain.",
+      "nuances": "建筑语境通常译为 ventilation。通风涉及空气交换，不等同于降温或单纯用风扇循环室内空气。马来西亚官方课程区分自然通风与其他通风方式，见 [政府 TVET：通风课程说明](https://mohon.tvet.gov.my/awam-kursus/kursus?id_kursus=12095)。",
+      "collocations": [
+        {
+          "ms": "sistem pengudaraan",
+          "zh": "通风系统",
+          "en": "ventilation system"
+        },
+        {
+          "ms": "pengudaraan semula jadi",
+          "zh": "自然通风",
+          "en": "natural ventilation"
+        },
+        {
+          "ms": "pengudaraan yang baik",
+          "zh": "良好的通风",
+          "en": "good ventilation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "使空气进入土壤等介质的过程；通气、透气处理。",
+      "en_definition": "Aeration: the introduction or movement of air into a medium such as soil.",
+      "ms_definition": "Proses membolehkan udara masuk atau bergerak dalam sesuatu bahan, khususnya tanah.",
+      "nuances": "农业和草坪养护语境中的 pengudaraan tanah 应译为 soil aeration，而不是房屋通风。马来西亚地方政府养护文件采用此用法，见 [吉打地方政府：草坪养护规范](https://pbt.kedah.gov.my/wp-content/uploads/2021/07/DOKUMEN-SEBUTHARGA-MDBB-0.0261-2021.pdf)。",
+      "collocations": [
+        {
+          "ms": "pengudaraan tanah",
+          "zh": "土壤通气",
+          "en": "soil aeration"
+        },
+        {
+          "ms": "pengudaraan akar",
+          "zh": "根部通气",
+          "en": "root aeration"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan akan menambah baik sistem pengudaraan di semua bilik mesyuarat.",
+      "zh": "管理层将改善所有会议室的通风系统。",
+      "en": "Management will improve the ventilation systems in all meeting rooms."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pengudaraan kat bilik ni kurang baik lah. Boleh buka tingkap sikit?",
+      "ms_standard": "Pengudaraan di bilik ini kurang baik. Bolehkah tingkap dibuka sedikit?",
+      "zh": "这房间不太通风啊，能把窗户开一点吗？",
+      "en": "It's a bit stuffy in here. Can we open the window a little?",
+      "spoken_features": [
+        "kat 对应 di，ni 对应 ini",
+        "lah 表达对当下情况的感受",
+        "省略施事者，使开窗请求更自然、间接"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pengudaraan kat bilik ni kurang baik lah. Boleh buka tingkap sikit?",
+          "ms_standard": "Pengudaraan di bilik ini kurang baik. Bolehkah tingkap dibuka sedikit?",
+          "zh": "这房间不太通风啊，能把窗户开一点吗？",
+          "en": "It's a bit stuffy in here. Can we open the window a little?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Boleh, aku buka sekarang. Pintu pun nak buka sekali?",
+          "ms_standard": "Boleh, saya akan membukanya sekarang. Adakah pintu juga hendak dibuka?",
+          "zh": "可以，我现在开。门也一起打开吗？",
+          "en": "Sure, I'll open it now. Shall I open the door too?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pengudaraan is built from udara, meaning air, with the noun-forming circumfix peN-...-an. The formation turns a substance into a process involving it. In Malaysian building language, that process is ventilation; in grounds maintenance, pengudaraan tanah means soil aeration. The shared image is air gaining access to a space or material.",
+    "cognitive_memory_aid": "先抓住 udara＝空气；peng-…-an 把它变成过程：让空气进出、更换，就是 pengudaraan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性的技术及日常用词。共享空间里可说 Pengudaraan di sini kurang baik，比直接责备管理人员更委婉。",
+    "usage_etiquette": "适合讨论住房、办公室、教室、建筑设施和土壤养护。开窗或调整通风设备前，应考虑同处者的需要及场所管理规定。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性的技术及日常用词。共享空间里可说 Pengudaraan di sini kurang baik，比直接责备管理人员更委婉。",
+    "usage_etiquette": "适合讨论住房、办公室、教室、建筑设施和土壤养护。开窗或调整通风设备前，应考虑同处者的需要及场所管理规定。"
+  }
+}

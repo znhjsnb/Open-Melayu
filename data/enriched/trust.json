@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "trust",
+    "syllables": null,
+    "ipa": "/trʌst/",
+    "jawi": null,
+    "frequency_rank": 10715,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "trust",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + trust → trust",
+    "pattern_note": "这里是英语整词及其在马来语交谈中的语码转换用法，不作马来语词缀拆分。IPA 为英语读音；输入未提供规范爪夷文，因此保留 null。",
+    "word_family": [
+      {
+        "word": "trustee",
+        "affix": "-ee",
+        "gloss": "英语同族词：受托人；马来语为 pemegang amanah"
+      },
+      {
+        "word": "distrust",
+        "affix": "dis-",
+        "gloss": "英语同族词：不信任；马来语为 ketidakpercayaan 或 tidak mempercayai"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对某人的诚实、可靠性或某事物的可信度所抱有的信任。",
+      "en_definition": "Confidence in someone's honesty or reliability, or in something's dependability.",
+      "ms_definition": "Kepercayaan atau keyakinan terhadap kejujuran dan kebolehpercayaan seseorang atau sesuatu.",
+      "nuances": "这是英语名词义的马来语释义，不能据此认定 trust 是规范马来语词。正式马来语通常用 kepercayaan。搭配中的 trust 是英语插入成分。[DBP 英马词典](https://prpmv1.dbp.gov.my/Search.aspx?k=percaya)",
+      "collocations": [
+        {
+          "ms": "bina trust",
+          "zh": "建立信任〔混合语码〕",
+          "en": "build trust"
+        },
+        {
+          "ms": "hilang trust",
+          "zh": "失去信任〔混合语码〕",
+          "en": "lose trust"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "相信、信任某人，或放心依赖某人某事。",
+      "en_definition": "To believe in or confidently rely on someone or something.",
+      "ms_definition": "Mempercayai seseorang atau sesuatu, atau bergantung padanya dengan yakin.",
+      "nuances": "常见于非正式混合语码，如 aku trust kau。规范表达是 saya mempercayai awak 或 saya percaya kepada awak；这些是马来语对应表达，并非 trust 的马来语派生形式。",
+      "collocations": [
+        {
+          "ms": "trust aku",
+          "zh": "相信我〔混合语码〕",
+          "en": "trust me"
+        },
+        {
+          "ms": "boleh trust",
+          "zh": "可以信任〔混合语码〕",
+          "en": "can be trusted"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "由受托人为受益人持有或管理财产的信托安排。",
+      "en_definition": "An arrangement in which a trustee holds or manages property for beneficiaries.",
+      "ms_definition": "Amanah yang melibatkan pemegangan atau pengurusan harta oleh pemegang amanah bagi benefisiari.",
+      "nuances": "这是英语法律及金融术语义；马来语对应 amanah。下列短语保留英语术语，正式马来语可分别用 menubuhkan amanah、menguruskan amanah。[DBP 术语表](https://prpmv1.dbp.gov.my/Search.aspx?k=amanah)",
+      "collocations": [
+        {
+          "ms": "menubuhkan trust",
+          "zh": "设立信托〔保留英语术语〕",
+          "en": "establish a trust"
+        },
+        {
+          "ms": "menguruskan trust",
+          "zh": "管理信托〔保留英语术语〕",
+          "en": "manage a trust"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan ini, istilah bahasa Inggeris \"trust\" merujuk kepada kepercayaan pelanggan terhadap organisasi.",
+      "zh": "在本报告中，英语术语“trust”指客户对机构的信任。",
+      "en": "In this report, the English term \"trust\" refers to customers' confidence in the organization."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku trust kau, tapi semak dulu lah sebelum hantar.",
+      "ms_standard": "Saya mempercayai awak, tetapi semak dahulu sebelum menghantarnya.",
+      "zh": "我信你，不过发出去前还是先检查一下啦。",
+      "en": "I trust you, but check it before you send it.",
+      "spoken_features": [
+        "trust 是英语动词插入马来语句法的语码转换。",
+        "aku、kau 适用于熟悉且地位相近的人。",
+        "lah 软化提醒语气。",
+        "正式马来语用 mempercayai 或 percaya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau trust aku tak? Aku dah semak fail tu.",
+          "ms_standard": "Adakah awak mempercayai saya? Saya sudah menyemak fail itu.",
+          "zh": "你信不信我呀？那个文件我已经检查过了。",
+          "en": "Do you trust me? I've already checked the file."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Trust lah. Aku nak tengok bahagian akhir je.",
+          "ms_standard": "Ya, saya mempercayai awak. Saya hanya mahu melihat bahagian akhir.",
+          "zh": "信啦。我只是想看看最后那部分。",
+          "en": "Of course I do. I just want to look at the last section."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English trust comes through Middle English from Old Norse traust, associated with confidence and firmness. Its history helps connect emotional reliance with something dependable. In Malaysian conversation, the English word can appear inside a Malay sentence, while standard Malay supplies equivalents such as kepercayaan, mempercayai and amanah according to context. [Oxford](https://www.oxfordlearnersdictionaries.com/us/definition/english/trust_2)",
+    "cognitive_memory_aid": "把 trust 想成一座结实的桥：敢把重量交给它，就是信任；日常对应 percaya，名词“信任”对应 kepercayaan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "混用 trust 的自然程度取决于交谈双方的语言习惯。对长辈、客户或正式受众，完整马来语表达通常更稳妥。",
+    "usage_etiquette": "朋友聊天可以说 trust aku；正式文件应按意思选 kepercayaan、mempercayai 或 amanah。涉及信托时，应保留法律语境，不能把它一概译成心理上的信任。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "混用 trust 的自然程度取决于交谈双方的语言习惯。对长辈、客户或正式受众，完整马来语表达通常更稳妥。",
+    "usage_etiquette": "朋友聊天可以说 trust aku；正式文件应按意思选 kepercayaan、mempercayai 或 amanah。涉及信托时，应保留法律语境，不能把它一概译成心理上的信任。"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "pelombong",
+    "syllables": "pe.lom.bong",
+    "ipa": "/pə.lom.boŋ/",
+    "jawi": "ڤلومبوڠ",
+    "frequency_rank": 10678,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lombong",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + lombong → pelombong",
+    "pattern_note": "施事名词前缀 peN- 在词首 l 前呈 pe-，词根 lombong 的 l 保留；前缀中的 e 读 /ə/。",
+    "word_family": [
+      {
+        "word": "melombong",
+        "affix": "meN-",
+        "gloss": "采矿；开采矿石"
+      },
+      {
+        "word": "perlombongan",
+        "affix": "per-...-an",
+        "gloss": "采矿业；采矿活动"
+      }
+    ],
+    "root_jawi": "لومبوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "经营矿场的人；矿业经营者或矿主。",
+      "en_definition": "A person who operates or owns a mine.",
+      "ms_definition": "Orang yang mengusahakan lombong; pemilik lombong.",
+      "nuances": "DBP 的核心释义侧重经营者或矿主。实际报道中也可泛指采矿者；若明确指受雇矿工，pekerja lombong 或 buruh lombong 更精确。不能仅凭此词推断某人拥有矿场。[DBP：pelombong](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pelombong)",
+      "collocations": [
+        {
+          "ms": "pelombong bijih timah",
+          "zh": "锡矿开采者；锡矿经营者",
+          "en": "tin miner; tin-mine operator"
+        },
+        {
+          "ms": "pelombong emas",
+          "zh": "金矿开采者；金矿经营者",
+          "en": "gold miner; gold-mine operator"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "通过计算设备参与工作量证明加密货币挖矿的人或经营主体。",
+      "en_definition": "A person or entity that uses computing equipment to mine a proof-of-work cryptocurrency.",
+      "ms_definition": "Individu atau pihak yang menggunakan peralatan pengkomputeran untuk menjalankan perlombongan mata wang kripto berasaskan bukti kerja.",
+      "nuances": "这是实体采矿向数字技术领域的比喻延伸；须由 Bitcoin、kripto 等上下文限定，不能理解为所有加密货币都需要挖矿。本条马来语释义为编辑概括。[Luno：Kamus Kripto](https://guide.luno.com/hc/ms-my/articles/11035556233501-Kamus-Kripto)",
+      "collocations": [
+        {
+          "ms": "pelombong Bitcoin",
+          "zh": "比特币矿工；比特币挖矿经营者",
+          "en": "Bitcoin miner"
+        },
+        {
+          "ms": "pelombong mata wang kripto",
+          "zh": "加密货币矿工",
+          "en": "cryptocurrency miner"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 矿业管理通知",
+      "ms": "Semua pelombong di daerah ini diminta mematuhi syarat lesen dan menjaga keselamatan pekerja.",
+      "zh": "本县所有矿业经营者均须遵守执照条件，并保障工人安全。",
+      "en": "All mine operators in this district are asked to comply with their licence conditions and ensure workers' safety."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈论家人职业",
+      "ms_spoken": "Pak cik aku pelombong emas kat sana, bukan pekerja lombong je.",
+      "ms_standard": "Bapa saudara saya mengusahakan lombong emas di sana, bukan sekadar bekerja di lombong.",
+      "zh": "我叔叔在那边经营金矿，不只是受雇的矿工。",
+      "en": "My uncle runs a gold mine there; he doesn't just work at one.",
+      "spoken_features": [
+        "pak cik 在此指叔伯辈亲属；标准对应词为 bapa saudara。",
+        "aku 是熟人之间的非正式第一人称。",
+        "kat 对应 di；je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Pak cik kau pelombong emas kat sana ke?",
+          "ms_standard": "Adakah bapa saudara kamu mengusahakan lombong emas di sana?",
+          "zh": "你叔叔是在那边经营金矿的吗？",
+          "en": "Does your uncle run a gold mine there?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, dia dah lama urus lombong tu.",
+          "ms_standard": "Ya, beliau sudah lama mengurus lombong itu.",
+          "zh": "对，他经营那个矿场很久了。",
+          "en": "Yes, he's been running that mine for years."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pelombong is transparently formed from lombong, meaning a mine, with the Malay agent-forming prefix peN-. Its dictionary meaning highlights the person operating or owning the mine, preserving a useful distinction between enterprise and labour. In cryptocurrency discourse, the same word has acquired a technological extension: the resource being extracted is digital rather than mineral.",
+    "cognitive_memory_aid": "先记 lombong＝矿场，再给它戴上表示人的 pe-：pelombong＝经营矿场的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的职业或行业称谓。正式介绍具体人物时，可配合 Encik、Puan 或对方实际职衔。",
+    "usage_etiquette": "介绍职业时应核实对方是经营者、矿主还是受雇工人；不要把词义与族群身份或财富水平直接挂钩。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的职业或行业称谓。正式介绍具体人物时，可配合 Encik、Puan 或对方实际职衔。",
+    "usage_etiquette": "介绍职业时应核实对方是经营者、矿主还是受雇工人；不要把词义与族群身份或财富水平直接挂钩。"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "emel",
+    "syllables": null,
+    "ipa": "/i.mel/",
+    "jawi": null,
+    "frequency_rank": 10742,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "emel",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + emel → emel；规范拼写：e-mel",
+    "pattern_note": "作为整词记忆；规范形式中的 e- 读 /i/，表示电子化，不是 meN- 一类动词前缀。输入包未提供音节划分或爪夷文，保留 null。",
+    "word_family": [
+      {
+        "word": "meng-e-melkan",
+        "affix": "meN-...-kan",
+        "gloss": "通过电子邮件发送"
+      },
+      {
+        "word": "peng-e-melan",
+        "affix": "peN-...-an",
+        "gloss": "电子邮件发送活动"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "电子邮件；通过计算机网络发送的电子信息。",
+      "en_definition": "Email; an electronic message transmitted over a computer network.",
+      "ms_definition": "Mesej atau maklumat yang dihantar secara elektronik melalui rangkaian komputer.",
+      "nuances": "emel 是常见的非规范连写形式；马来西亚正式书写采用 e-mel，读音按规范形式提供。此处 status 按请求保留为 official，不表示 DBP 认可 emel 的拼写。马来文释义为依据词典所作的释写。[DBP 拼写与用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=E-mel)。",
+      "collocations": [
+        {
+          "ms": "alamat e-mel",
+          "zh": "电子邮箱地址",
+          "en": "email address"
+        },
+        {
+          "ms": "menghantar e-mel",
+          "zh": "发送电子邮件",
+          "en": "send an email"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报：采用规范拼写 e-mel",
+      "ms": "Pihak urus setia telah menghantar pengesahan pendaftaran melalui e-mel kepada semua peserta.",
+      "zh": "秘书处已通过电子邮件向所有参与者发送报名确认。",
+      "en": "The secretariat has emailed registration confirmations to all participants."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认文件是否收到",
+      "ms_spoken": "Aku dah hantar emel tadi, cuba tengok jap.",
+      "ms_standard": "Aku sudah menghantar e-mel tadi. Cuba semak sebentar.",
+      "zh": "我刚才已经发邮件了，你看一下。",
+      "en": "I've already emailed it. Have a quick look.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "jap 是 sekejap 的口语缩略形式。",
+        "emel 在聊天中可见，正式文本写作 e-mel。",
+        "aku 适用于熟悉、关系平等的交谈者。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku dah hantar emel tadi, cuba tengok jap.",
+          "ms_standard": "Aku sudah menghantar e-mel tadi. Cuba semak sebentar.",
+          "zh": "我刚才已经发邮件了，你看一下。",
+          "en": "I've already emailed it. Have a quick look."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah masuk, terima kasih! Aku nak semak lampiran tu dulu.",
+          "ms_standard": "E-mel itu sudah diterima, terima kasih! Aku hendak menyemak lampiran itu dahulu.",
+          "zh": "收到了，谢谢！我先看看那个附件。",
+          "en": "Got it, thanks! I'll check the attachment first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay e-mel adapts English e-mail, linking the electronic prefix with mel, the Malay spelling of mail. Its vocabulary carries the familiar idea of correspondence into digital communication. Everyday typing sometimes drops the hyphen, producing emel, while DBP prescribes e-mel and records derived forms for sending messages electronically. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=E-mel)",
+    "cognitive_memory_aid": "读作 i-mel：听见 mel，想到 mail；前面的 e 提醒你这是电子邮件。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式邮件采用 e-mel，并根据收件人的身份使用 Tuan、Puan 或相应职称；聊天中的 aku、dah、jap 不宜直接带入正式函件。",
+    "usage_etiquette": "用于学校、工作和日常通信。向不熟悉的人索取邮箱时，可说 Boleh saya mendapatkan alamat e-mel tuan/puan?"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式邮件采用 e-mel，并根据收件人的身份使用 Tuan、Puan 或相应职称；聊天中的 aku、dah、jap 不宜直接带入正式函件。",
+    "usage_etiquette": "用于学校、工作和日常通信。向不熟悉的人索取邮箱时，可说 Boleh saya mendapatkan alamat e-mel tuan/puan?"
+  }
+}

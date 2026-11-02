@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "digodam",
+    "syllables": "di.go.dam",
+    "ipa": "/di.ɡo.dam/",
+    "jawi": "ديݢودم",
+    "frequency_rank": 10709,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "godam",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + godam → digodam",
+    "pattern_note": "di- 构成被动动词，与词根连写，词根首音不变；它本身不表示过去时。输入中的词根标记应更正为 godam。完整词的爪夷文按 di- 与已核实词根拼合，非输入原载。词根见 [PRPM：godam](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=godam)。",
+    "word_family": [
+      {
+        "word": "godam",
+        "affix": "∅",
+        "gloss": "大锤"
+      },
+      {
+        "word": "menggodam",
+        "affix": "meN-",
+        "gloss": "用大锤击打；入侵电脑系统"
+      },
+      {
+        "word": "penggodam",
+        "affix": "peN-",
+        "gloss": "黑客；电脑入侵者"
+      },
+      {
+        "word": "penggodaman",
+        "affix": "peN-...-an",
+        "gloss": "电脑入侵行为"
+      }
+    ],
+    "root_jawi": "ݢودم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "电脑系统、网站或账户遭到未经授权的侵入。",
+      "en_definition": "To be hacked or accessed without authorization.",
+      "ms_definition": "Dicerobohi tanpa kebenaran, khususnya apabila merujuk sistem komputer, laman web atau akaun.",
+      "nuances": "这是 menggodam 的被动形式，主语是受侵入的对象。表示遭到入侵，不必然表示资料已被窃取或删除。马来语释义为根据主动词义编写的被动释义。依据 [PRPM：godam](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=godam)。",
+      "collocations": [
+        {
+          "ms": "akaun digodam",
+          "zh": "账户被黑客入侵",
+          "en": "an account is hacked"
+        },
+        {
+          "ms": "laman web digodam",
+          "zh": "网站遭到入侵",
+          "en": "a website is hacked"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "受到大锤等重物的击打或猛砸。",
+      "en_definition": "To be struck or battered with a sledgehammer or similar implement.",
+      "ms_definition": "Dipukul atau dihentam dengan tukul besar atau alat seumpamanya.",
+      "nuances": "这是与大锤有关的字面被动义。现代数码语境通常使用第一义；字面义应由工具或被击打物的上下文明确。以下搭配为说明性组合，不表示已核实其使用频率。",
+      "collocations": [
+        {
+          "ms": "digodam dengan tukul besi",
+          "zh": "被铁锤猛砸",
+          "en": "to be battered with an iron hammer"
+        },
+        {
+          "ms": "dinding digodam",
+          "zh": "墙壁被大锤砸击",
+          "en": "a wall is battered with a sledgehammer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak syarikat mengesahkan bahawa laman web rasminya telah digodam dan siasatan sedang dijalankan.",
+      "zh": "公司证实其官方网站遭到入侵，目前正在展开调查。",
+      "en": "The company confirmed that its official website had been hacked and that an investigation was underway."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Akaun aku dah digodam lah, jangan percaya mesej pelik daripada aku.",
+      "ms_standard": "Akaun saya telah digodam. Jangan percaya mesej yang mencurigakan daripada akaun saya.",
+      "zh": "我的账号被盗了，别信我账号发来的奇怪消息。",
+      "en": "My account's been hacked. Don't trust any strange messages from it.",
+      "spoken_features": [
+        "aku 用于熟人之间",
+        "dah 对应 sudah 或表示完成的 telah",
+        "lah 在这里强调突发情况",
+        "口语中的 daripada aku 按语境指来自说话者的账户"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Akaun aku dah digodam. Kalau ada orang minta duit, jangan layan ya.",
+          "ms_standard": "Akaun saya telah digodam. Jika seseorang meminta wang melalui akaun itu, jangan berikan respons.",
+          "zh": "我的账号被盗了。要是有人用那账号要钱，别理哦。",
+          "en": "My account's been hacked. If anyone uses it to ask for money, ignore them, okay?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Baik, aku tak balas. Aku nak telefon kau kejap.",
+          "ms_standard": "Baiklah, saya tidak akan membalas mesej itu. Saya mahu menelefon kamu sebentar.",
+          "zh": "好，我不回那条消息。我给你打个电话。",
+          "en": "Okay, I won't reply. I'll give you a quick call."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Godam names a large hammer, while menggodam covers both forceful striking and unauthorized entry into computer systems. The connection makes digital intrusion imaginable as breaking through a barrier. Digodam adds the passive prefix di-, placing the affected account, website, or physical object at the centre of the sentence. This explains the recorded meanings without claiming a particular inventor or date for the computing usage. [PRPM: godam](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=godam).",
+    "cognitive_memory_aid": "godam 像“大锤破门”；di- 表示承受动作：digodam＝被攻破、被入侵。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于故障通报时直接而中性。原因尚未查明时可说 disyaki digodam，表示“疑似遭入侵”，避免把推测说成事实。",
+    "usage_etiquette": "适合账户安全提醒、新闻报道和技术沟通。正式陈述宜具体指出受影响的是账户、网站还是系统，避免笼统归责于账户持有人。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于故障通报时直接而中性。原因尚未查明时可说 disyaki digodam，表示“疑似遭入侵”，避免把推测说成事实。",
+    "usage_etiquette": "适合账户安全提醒、新闻报道和技术沟通。正式陈述宜具体指出受影响的是账户、网站还是系统，避免笼统归责于账户持有人。"
+  }
+}

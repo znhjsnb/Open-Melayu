@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "meet",
+    "syllables": "sso",
+    "ipa": "/miːt/",
+    "jawi": null,
+    "frequency_rank": 10783,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "meet",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + meet → meet",
+    "pattern_note": "按英语整词处理，不作马来语词缀拆分。输入的音节字段 sso 明显不对应 meet；此处保留原始字段，但实际英语读音为单音节。is_root 仅表示本条不再作同步构词拆分。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "英语动词，指与某人见面、碰面；在马来语夹英语的交流中可出现，标准马来语通常用 berjumpa 或 bertemu。",
+      "en_definition": "An English verb meaning to come together with someone, sometimes inserted into Malay conversation through code-switching.",
+      "ms_definition": "Kata kerja bahasa Inggeris yang bermaksud berjumpa atau bertemu dengan seseorang; dalam ayat bahasa Melayu baku, gunakan padanan yang sesuai.",
+      "nuances": "尚未核实为规范马来语词目，因此不标为 official。此处仅解释可识别的英语见面义，不据此认定原语料的具体指称，也不扩展为完整英语词条。Google Meet 中的 Meet 则属于产品名称。英语读音及释义参见 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/meet)；英马对应参见 [DBP PRPM：bertemu](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=bertemu)。",
+      "collocations": [
+        {
+          "ms": "meet klien — campur kod; baku: bertemu dengan klien",
+          "zh": "与客户见面",
+          "en": "meet a client"
+        },
+        {
+          "ms": "meet kat kafe — campur kod; baku: berjumpa di kafe",
+          "zh": "在咖啡馆碰面",
+          "en": "meet at a café"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场语言规范说明",
+      "ms": "Dalam surat rasmi, perkataan bahasa Inggeris “meet” boleh digantikan dengan “bertemu” mengikut konteks ayat.",
+      "zh": "在正式信函中，英语词 meet 可根据句意改用 bertemu。",
+      "en": "In formal correspondence, the English word “meet” can be replaced with “bertemu”, depending on the context."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约见；含英语语码转换",
+      "ms_spoken": "Esok kita meet kat kafe tu je, ya?",
+      "ms_standard": "Esok kita berjumpa di kafe itu sahaja, ya?",
+      "zh": "明天我们就在那家咖啡馆碰面，好吗？",
+      "en": "Let’s meet at that café tomorrow, okay?",
+      "spoken_features": [
+        "meet 为英语语码转换，不是本例的标准马来语用词",
+        "kat 对应 di",
+        "tu 对应 itu",
+        "je 对应 sahaja",
+        "ya 用于征求对方认同"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Esok nak meet kat kafe tu pukul tiga?",
+          "ms_standard": "Adakah awak mahu berjumpa di kafe itu pada pukul tiga esok?",
+          "zh": "明天下午三点要在那家咖啡馆见吗？",
+          "en": "Want to meet at that café at three tomorrow?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, kita jumpa kat sana je.",
+          "ms_standard": "Boleh, kita berjumpa di sana sahaja.",
+          "zh": "行，就在那里见。",
+          "en": "Sure, see you there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The identifiable form here is English, rather than an established Malay formation. In multilingual conversation, a speaker may insert an English verb into an otherwise Malay sentence. That illustrates code-switching, but does not by itself establish dictionary acceptance. The packet supplies no original sentence, so its intended reference remains uncertain.",
+    "cognitive_memory_aid": "把 meet /miːt/ 放进“meet a friend”一起记：与朋友见面；说标准马来语时换成 berjumpa。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉且理解英语的朋友之间可以夹用 meet；面对语言背景不明的对象或撰写正式马来语时，用 berjumpa 或 bertemu 更清楚。",
+    "usage_etiquette": "邀请上级或不熟悉的人见面，可说 Bolehkah saya bertemu dengan tuan/puan?；不要把朋友间的夹语表达直接套进公函。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉且理解英语的朋友之间可以夹用 meet；面对语言背景不明的对象或撰写正式马来语时，用 berjumpa 或 bertemu 更清楚。",
+    "usage_etiquette": "邀请上级或不熟悉的人见面，可说 Bolehkah saya bertemu dengan tuan/puan?；不要把朋友间的夹语表达直接套进公函。"
+  }
+}

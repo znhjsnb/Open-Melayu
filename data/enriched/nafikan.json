@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "nafikan",
+    "syllables": null,
+    "ipa": "/na.fi.kan/",
+    "jawi": null,
+    "frequency_rank": 10681,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "nafi",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "nafi + -kan → nafikan",
+    "pattern_note": "词根为 nafi，接 -kan 时不删音。nafikan 可用于祈使句及第一、第二人称被动结构，口语中也可省略 menafikan 的 meN-。输入包将 nafikan 标为独立词根，此处据其透明构词关系纠正。",
+    "word_family": [
+      {
+        "word": "menafikan",
+        "affix": "meN-...-kan",
+        "gloss": "否认；否定；驳斥"
+      },
+      {
+        "word": "penafian",
+        "affix": "peN-...-an",
+        "gloss": "否认；否定声明"
+      }
+    ],
+    "root_jawi": "نفي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "否认某事属实或存在；否定、驳斥某项指控、说法或观点。",
+      "en_definition": "To deny the truth or existence of something; to reject or refute an allegation or claim.",
+      "ms_definition": "Tidak mengakui atau menerima sesuatu sebagai benar atau wujud; menidakkan atau menyangkal sesuatu tuduhan, kenyataan atau pendapat.",
+      "nuances": "释义据 DBP 的 menafikan 条目改写。nafikan 并非在任何正式主动句中都能替代 menafikan：正式主动叙述宜写 Beliau menafikan tuduhan itu；第一人称被动可写 Tuduhan itu saya nafikan。tidak dapat saya nafikan 常表示“我不得不承认”。否认本身不等于已经证明某项说法为假。[DBP：menafikan](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menafikan)",
+      "collocations": [
+        {
+          "ms": "nafikan tuduhan",
+          "zh": "否认指控",
+          "en": "deny an allegation"
+        },
+        {
+          "ms": "tidak dapat saya nafikan",
+          "zh": "我无法否认；我不得不承认",
+          "en": "I cannot deny; I must acknowledge"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 审核文件后的回应",
+      "ms": "Ketepatan maklumat itu tidak dapat saya nafikan setelah meneliti dokumen asal.",
+      "zh": "仔细查阅原始文件后，我无法否认该信息的准确性。",
+      "en": "Having examined the original documents, I cannot deny the accuracy of that information."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事澄清传言",
+      "ms_spoken": "Aku dah nafikan cerita tu, tapi dia masih tak percaya.",
+      "ms_standard": "Saya sudah menafikan cerita itu, tetapi dia masih tidak mempercayai saya.",
+      "zh": "我已经否认那个传言了，可他还是不信我。",
+      "en": "I've already denied that story, but he still doesn't believe me.",
+      "spoken_features": [
+        "口语主动句可用 nafikan，对应正式形式 menafikan。",
+        "dah 对应 sudah；tu 对应 itu；tak 对应 tidak。",
+        "aku 适用于关系熟悉的同辈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah nafikan cerita pasal kau nak berhenti tu?",
+          "ms_standard": "Adakah kamu sudah menafikan cerita bahawa kamu mahu berhenti kerja?",
+          "zh": "说你要辞职的那个传言，你已经否认了吗？",
+          "en": "Have you denied the rumour that you're quitting?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, aku cuma nak cuti je, bukan nak berhenti.",
+          "ms_standard": "Sudah. Saya hanya mahu bercuti, bukan berhenti kerja.",
+          "zh": "否认了，我只是想请假，又不是要辞职。",
+          "en": "Yes. I just want some time off; I'm not quitting."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base nafi is identified by DBP as an Arabic loan associated with denial or negation. Malay combines it with its own suffix -kan to form nafikan, and with the active prefix to form menafikan. The resulting family connects everyday denials with more abstract expressions such as kata nafi, the grammatical term for a negating word.",
+    "cognitive_memory_aid": "先把 nafi 记成“否认”，再接 -kan 指向被否认的内容：nafikan tuduhan＝否认指控。",
+    "source": "[DBP：nafi 的阿拉伯语来源与词族](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=nafi)"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Saya menafikan tuduhan itu 语气郑重而明确。对上级或客户解释误会时，可先用 Untuk penjelasan，再陈述事实。",
+    "usage_etiquette": "适合回应传言、指控或争议性说法；不要把对方的否认当作事实已获澄清。祈使表达 Nafikan... 带指令色彩，需要与双方关系和具体情境相符。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Saya menafikan tuduhan itu 语气郑重而明确。对上级或客户解释误会时，可先用 Untuk penjelasan，再陈述事实。",
+    "usage_etiquette": "适合回应传言、指控或争议性说法；不要把对方的否认当作事实已获澄清。祈使表达 Nafikan... 带指令色彩，需要与双方关系和具体情境相符。"
+  }
+}

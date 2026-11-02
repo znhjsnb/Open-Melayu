@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "someone",
+    "syllables": null,
+    "ipa": "/ˈsʌm.wʌn/",
+    "jawi": null,
+    "frequency_rank": 10807,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "someone",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + someone → someone；英语内部构成为 some + one",
+    "pattern_note": "按输入包作为独立检索词保留；这是英语复合代词，不适用马来语词缀规则。首音节重读。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "某人；有人。指身份未说明、不明确或不便指明的一个人。",
+      "en_definition": "An unspecified or unidentified person.",
+      "ms_definition": "Kata ganti nama bahasa Inggeris yang bermaksud seseorang atau seorang yang tidak dinyatakan identitinya.",
+      "nuances": "这是英语不定代词，不能标为正式马来语词或普通名词，因此 status 使用 foreign，pos 使用 pronoun。标准马来语通常用 seseorang；口语存在英语切换，如 ada someone。下列搭配中的 ms 字段保留英语原搭配，并附标准马来语对应表达。[Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/someone)；[DBP：Perihal Kata Ganti Nama](https://dewanbahasa.jendeladbp.my/2024/02/20/12033/)",
+      "collocations": [
+        {
+          "ms": "someone else → orang lain",
+          "zh": "别人；另外一个人",
+          "en": "another person"
+        },
+        {
+          "ms": "someone special → seseorang yang istimewa",
+          "zh": "某个特别的人",
+          "en": "a special person"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "pronoun",
+      "zh_definition": "有地位或有影响力的人；人物。",
+      "en_definition": "A person regarded as important or influential in a particular setting.",
+      "ms_definition": "Dalam penggunaan bahasa Inggeris tertentu, seseorang yang dianggap penting atau berpengaruh dalam sesuatu bidang atau lingkungan.",
+      "nuances": "这是英语的引申用法，通常需要行业或群体语境；不应直接据此赋予 someone 一个马来语词义。马来语可按语境译为 orang penting 或 tokoh。[Collins English Dictionary](https://www.collinsdictionary.com/dictionary/english/someone)",
+      "collocations": [
+        {
+          "ms": "become someone → menjadi orang penting",
+          "zh": "成为有地位的人",
+          "en": "become a person of importance"
+        },
+        {
+          "ms": "someone in the industry → orang penting dalam industri",
+          "zh": "业内有分量的人物",
+          "en": "an influential person in the industry"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场翻译说明；英语词作为引用对象出现",
+      "ms": "Dalam terjemahan rasmi ini, perkataan bahasa Inggeris 'someone' dipadankan dengan 'seseorang'.",
+      "zh": "在这份正式译文中，英语 someone 对应译为 seseorang。",
+      "en": "In this official translation, the English word 'someone' is rendered as 'seseorang'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友之间夹用英语",
+      "ms_spoken": "Ada someone nak jumpa kau kat luar.",
+      "ms_standard": "Ada seseorang yang hendak berjumpa dengan awak di luar.",
+      "zh": "外面有人想见你。",
+      "en": "Someone outside wants to see you.",
+      "spoken_features": [
+        "someone 是英语切换成分；标准马来语使用 seseorang。",
+        "nak 对应 hendak，kat 对应 di。",
+        "kau 适用于熟悉、接受这种称呼的朋友。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ada someone nak jumpa kau kat luar.",
+          "ms_standard": "Ada seseorang yang hendak berjumpa dengan awak di luar.",
+          "zh": "外面有人想见你。",
+          "en": "Someone outside wants to see you."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Siapa? Aku baru je sampai.",
+          "ms_standard": "Siapa? Saya baru sahaja sampai.",
+          "zh": "谁啊？我才刚到。",
+          "en": "Who? I only just got here."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English someone combines some and one, with forms recorded in Middle English. Its ordinary meaning leaves a person's identity unstated, while a further use describes an important person. In Malaysian conversation it can occur inside otherwise Malay speech through language switching; that context does not make it a standard Malay headword. [Collins English Dictionary](https://www.collinsdictionary.com/dictionary/english/someone)",
+    "cognitive_memory_aid": "some + one：有那么一个人，但没有说是谁。马来语对应 seseorang。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在双方习惯夹用英语的朋友圈中可以使用；正式马来语公文、考试作文或面向广泛受众的说明通常用 seseorang。",
+    "usage_etiquette": "不要把 someone 当作称呼直接叫人。提到需要尊重的已知人物时，宜使用姓名、职衔或合适的敬称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在双方习惯夹用英语的朋友圈中可以使用；正式马来语公文、考试作文或面向广泛受众的说明通常用 seseorang。",
+    "usage_etiquette": "不要把 someone 当作称呼直接叫人。提到需要尊重的已知人物时，宜使用姓名、职衔或合适的敬称。"
+  }
+}
