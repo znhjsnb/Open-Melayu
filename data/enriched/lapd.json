@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "lapd",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 9047,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "lapd",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "L + A + P + D → LAPD（仅适用于机构名称缩写这一解释）",
+    "pattern_note": "未能确证小写 lapd 是马来语普通词。若原文指 Los Angeles Police Department，应规范写作 LAPD，按字母名称读出，不拆成马来语词根与词缀。is_root: true 在此仅表示未分析出马来语词缀，不表示已确认其词源。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "若原文的小写 lapd 指机构缩写 LAPD，则意为美国洛杉矶警察局；原包未提供足以确认这一解释的上下文。",
+      "en_definition": "If intended as LAPD: the Los Angeles Police Department; this interpretation of the lowercase input remains unconfirmed.",
+      "ms_definition": "Jika yang dimaksudkan ialah LAPD, singkatan ini merujuk kepada Jabatan Polis Los Angeles di Amerika Syarikat; tafsiran token asal belum dapat dipastikan tanpa konteks.",
+      "nuances": "这是机构专名缩写的候选解释，不是已核实的马来语普通词义，因此不能标为 official。机构全称与缩写可由 [洛杉矶警察局官方网站](https://www.lapdonline.org/) 核实，但该来源不能证明输入 token 的原始所指。下列搭配及例句均仅示范这一候选解释；英语字母名称读法可记为 /ˌɛl eɪ piː ˈdiː/。",
+      "collocations": [
+        {
+          "ms": "pegawai LAPD",
+          "zh": "洛杉矶警察局警员",
+          "en": "an LAPD officer"
+        },
+        {
+          "ms": "kenyataan LAPD",
+          "zh": "洛杉矶警察局的声明",
+          "en": "an LAPD statement"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；仅示范 LAPD 这一候选解释",
+      "ms": "Dalam terjemahan laporan itu, LAPD merujuk kepada Jabatan Polis Los Angeles.",
+      "zh": "在该报告的译文中，LAPD 指洛杉矶警察局。",
+      "en": "In the translated report, LAPD refers to the Los Angeles Police Department."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；仅示范 LAPD 这一候选解释",
+      "ms_spoken": "LAPD tu polis Los Angeles kan?",
+      "ms_standard": "LAPD ialah Jabatan Polis Los Angeles, betulkah?",
+      "zh": "LAPD 就是洛杉矶警察局，对吧？",
+      "en": "LAPD is the Los Angeles police department, right?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "句末 kan 用来请求确认。",
+        "机构缩写保留大写；不能由字形臆造一个马来语单词读音。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Saya nampak LAPD kat kereta dalam filem tu. Polis Los Angeles kan?",
+          "ms_standard": "Saya melihat singkatan LAPD pada kereta dalam filem itu. Singkatan itu merujuk kepada Jabatan Polis Los Angeles, betulkah?",
+          "zh": "我在那部电影里的车上看到 LAPD，是洛杉矶警察局，对吧？",
+          "en": "I saw LAPD on a car in that film. That's the Los Angeles police department, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, betul. LAPD tu singkatan nama jabatan polis tu.",
+          "ms_standard": "Ya, betul. LAPD ialah singkatan nama jabatan polis tersebut.",
+          "zh": "对，没错。LAPD 是那个警察局名称的缩写。",
+          "en": "Yes, that's right. LAPD is short for the department's name."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Under the proposed institutional reading, LAPD consists of the initials of Los Angeles Police Department. It is an English initialism retained when that American institution is mentioned in Malay. This explains the capital letters and the absence of Malay affixes. It does not establish that the unexplained lowercase token in the packet actually denotes that institution.",
+    "cognitive_memory_aid": "仅按候选解释记忆：LA = Los Angeles，PD = Police Department；先认机构缩写，不给 lapd 编造马来语谐音词义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "机构名称缩写本身不表达礼貌等级；正式马来文首次提及时，可写 Jabatan Polis Los Angeles (LAPD)。",
+    "usage_etiquette": "仅在确实指该美国机构时使用 LAPD。它不能泛指马来西亚警方；原始 token 的含义应待上下文确认后再定稿。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "机构名称缩写本身不表达礼貌等级；正式马来文首次提及时，可写 Jabatan Polis Los Angeles (LAPD)。",
+    "usage_etiquette": "仅在确实指该美国机构时使用 LAPD。它不能泛指马来西亚警方；原始 token 的含义应待上下文确认后再定稿。"
+  }
+}

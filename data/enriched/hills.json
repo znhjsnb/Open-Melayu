@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "hills",
+    "syllables": null,
+    "ipa": "/hɪlz/",
+    "jawi": null,
+    "frequency_rank": 9020,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hill",
+    "affix": "-s",
+    "affix_type": "suffix",
+    "formula": "hill + -s → hills（英语复数：山丘）",
+    "pattern_note": "这是英语复数形式，不能按马来语词缀分析。英语复数词尾 -s 在浊辅音 /l/ 后读 /z/。输入包将 hills 标为词根，此处按实际英语形态修正；缺失的马来语音节和爪夷文资料保留为 null。",
+    "word_family": [
+      {
+        "word": "hill",
+        "affix": null,
+        "gloss": "山丘；英语单数形式"
+      },
+      {
+        "word": "hilly",
+        "affix": "-y",
+        "gloss": "多山丘的；英语形容词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "山丘；小山，英语 hill 的复数形式。对应的标准马来语为 bukit，必要时用 bukit-bukit 明示复数。",
+      "en_definition": "Plural of hill: natural elevations of land above their surroundings; also, collectively, a hilly region.",
+      "ms_definition": "Bentuk jamak kata bahasa Inggeris hill, yang bermaksud bukit atau kawasan berbukit; padanan bahasa Melayunya ialah bukit atau bukit-bukit mengikut konteks.",
+      "nuances": "属于英语词形；出现在马来语语料中时，可能是语码转换、引文或专名的一部分，不能仅凭词频判为正式马来语词。以下搭配为英语搭配，ms 字段保留其原形。[Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/hill)",
+      "collocations": [
+        {
+          "ms": "rolling hills",
+          "zh": "连绵起伏的山丘",
+          "en": "gently undulating hills"
+        },
+        {
+          "ms": "the surrounding hills",
+          "zh": "周围的山丘",
+          "en": "the hills around a place"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "翻译说明 / 公文用词",
+      "ms": "Perkataan bahasa Inggeris hills dalam teks asal diterjemahkan sebagai bukit-bukit dalam laporan ini.",
+      "zh": "本报告将原文中的英语 hills 译为 bukit-bukit，即“山丘”。",
+      "en": "In this report, the English word hills in the original text is translated as bukit-bukit."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友分享风景，夹用英语",
+      "ms_spoken": "Nampak tak hills kat belakang tu?",
+      "ms_standard": "Adakah kamu nampak bukit-bukit di belakang itu?",
+      "zh": "看到后面那些山丘了吗？",
+      "en": "Can you see those hills in the background?",
+      "spoken_features": [
+        "hills 为临时夹用的英语词，标准马来语对应 bukit-bukit",
+        "tak 用于口语疑问，对应标准问句中的 adakah",
+        "kat 对应 di",
+        "tu 对应 itu"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nampak tak hills kat belakang tu?",
+          "ms_standard": "Adakah kamu nampak bukit-bukit di belakang itu?",
+          "zh": "看到后面那些山丘了吗？",
+          "en": "Can you see those hills in the background?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nampak! Esok kita nak pergi sana ke?",
+          "ms_standard": "Ya, saya nampak! Adakah kita hendak pergi ke sana esok?",
+          "zh": "看到了！我们明天要去那边吗？",
+          "en": "Yes! Are we going there tomorrow?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English hill descends from Old English hyll, a Germanic landscape word. Hills is its ordinary plural, rather than a Malay derivative. When it appears inside Malay conversation, the useful distinction is between an English insertion and the Malay equivalent bukit. Its presence alone does not establish a separate Malay borrowing. [American Heritage Dictionary](https://ahdictionary.com/word/search.html?q=hill)",
+    "cognitive_memory_aid": "先记英语 hill /hɪl/ 是一座小山；尾巴加 /z/，hills 就是多座山丘。马来语对应 bukit；这是形态记忆法，不是马来语词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人之间夹用英语通常不涉及敬语问题，但应照顾听者是否理解；面向公众的标准马来语文字宜使用 bukit 或 kawasan berbukit。",
+    "usage_etiquette": "普通地形描述采用马来语对应词；若 Hills 属于登记名称、机构名或作品名，应按该名称的正式写法保留，不能直接当作普通名词翻译。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人之间夹用英语通常不涉及敬语问题，但应照顾听者是否理解；面向公众的标准马来语文字宜使用 bukit 或 kawasan berbukit。",
+    "usage_etiquette": "普通地形描述采用马来语对应词；若 Hills 属于登记名称、机构名或作品名，应按该名称的正式写法保留，不能直接当作普通名词翻译。"
+  }
+}

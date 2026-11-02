@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "seorg",
+    "syllables": null,
+    "ipa": "/sə.o.raŋ/",
+    "jawi": null,
+    "frequency_rank": 9040,
+    "status": "official",
+    "status_note": "official 按指定格式保留为条目状态；seorg 是 seorang 的非规范书写简写，不表示它是正式马来语拼写。",
+    "pronunciation_note": "音标对应展开后的 seorang；seorg 没有独立于 seorang 的规范词汇读音。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "org",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + orang → seorang → seorg（书写简化）",
+    "pattern_note": "se- 表示“一”；orang 在简写中写为 org。省写字母属于书写压缩，不是标准语音变化。数据包中的 org 是简写基底，实际词根为 orang。",
+    "expanded_root_word": "orang",
+    "expanded_root_jawi": "اورڠ",
+    "word_family": [
+      {
+        "word": "seorang",
+        "affix": "se-",
+        "gloss": "一个人；一位"
+      },
+      {
+        "word": "berseorangan",
+        "affix": "ber-...-an（加于 seorang）",
+        "gloss": "独自；单独一人"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一个人；一名、一位。是 seorang 的非正式简写，可单独指一个人，也可用于人物名词前。",
+      "en_definition": "An informal written abbreviation of seorang, meaning one person or a person.",
+      "ms_definition": "Singkatan tidak baku bagi seorang, yang bermaksud satu orang.",
+      "nuances": "通常在阅读时还原为 seorang。用于 seorang guru 等结构时，整体承担数量和人的计量功能，此处按给定词性集合归入名词大类。标准词 seorang 的基本义为“一人”。[DBP：seorang](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=seorang)",
+      "collocations": [
+        {
+          "ms": "seorg kawan（标准：seorang kawan）",
+          "zh": "一位朋友",
+          "en": "a friend"
+        },
+        {
+          "ms": "seorg pelajar（标准：seorang pelajar）",
+          "zh": "一名学生",
+          "en": "a student"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "独自；单独一人，常见于 seorg diri 或口语 seorg je。",
+      "en_definition": "Alone or by oneself, especially in informal expressions corresponding to seorang diri.",
+      "ms_definition": "Secara bersendirian; tanpa ditemani orang lain, seperti dalam ungkapan seorang diri.",
+      "nuances": "是否表示“独自”取决于上下文。seorg 可只是数量上的“一人”；并不自动带有“孤独、寂寞”的情绪含义。[DBP：seorang](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=seorang)",
+      "collocations": [
+        {
+          "ms": "seorg diri（标准：seorang diri）",
+          "zh": "独自一人",
+          "en": "all alone; by oneself"
+        },
+        {
+          "ms": "seorg je（标准：seorang sahaja）",
+          "zh": "就一个人；独自",
+          "en": "just one person; alone"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sebelum notis itu diterbitkan, singkatan “seorg” telah digantikan dengan ejaan penuh “seorang”.",
+      "zh": "该通知发布前，简写 seorg 已被替换为完整拼写 seorang。",
+      "en": "Before the notice was published, the abbreviation “seorg” was replaced with the full spelling “seorang”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah sampai kat kafe, tapi aku seorg je sekarang.",
+      "ms_standard": "Saya sudah tiba di kafe, tetapi buat masa ini saya seorang sahaja.",
+      "zh": "我已经到咖啡馆了，不过现在就我一个人。",
+      "en": "I'm at the café already, but I'm the only one here so far.",
+      "spoken_features": [
+        "seorg 是 seorang 的聊天书写简写，读时还原为完整词",
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai kat kafe, tapi aku seorg je sekarang.",
+          "ms_standard": "Saya sudah tiba di kafe, tetapi buat masa ini saya seorang sahaja.",
+          "zh": "我已经到咖啡馆了，不过现在就我一个人。",
+          "en": "I'm at the café already, but I'm the only one here so far."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tunggu jap, aku nak sampai dah. Pesan air dulu je.",
+          "ms_standard": "Tunggu sebentar; saya hampir sampai. Pesan minuman dahulu.",
+          "zh": "等一下，我快到了，你先点喝的吧。",
+          "en": "Hang on, I'm nearly there. Go ahead and order a drink."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Seorg is a shortened written form of seorang, retaining se- while reducing orang to org. It belongs to an abbreviation practice rather than representing a separate spoken word. A University of Malaya thesis explicitly lists seorg as an abbreviation of seorang. This documents the spelling without establishing who invented it or when it first appeared. [University of Malaya](https://studentsrepo.um.edu.my/6132/1/ELEMEN_PEMIKIRAN_KRITIS_MENURUT_PERSPEKTIF_AL-QURAN_-_KAJIAN_SURAH_AL-RUM.pdf)",
+    "cognitive_memory_aid": "看到 org，补回 orang；前面的 se- 是“一”：seorg → seorang → 一个人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人聊天或个人笔记中容易理解；给老师、客户或上级发正式信息，以及写申请、报告和考试答案时，宜写全 seorang。",
+    "usage_etiquette": "适合快速文字交流，通常不按字母逐个念。描述别人独处时，seorg 只说明人数或陪伴情况，不宜据此推断对方寂寞或缺乏人际关系。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人聊天或个人笔记中容易理解；给老师、客户或上级发正式信息，以及写申请、报告和考试答案时，宜写全 seorang。",
+    "usage_etiquette": "适合快速文字交流，通常不按字母逐个念。描述别人独处时，seorg 只说明人数或陪伴情况，不宜据此推断对方寂寞或缺乏人际关系。"
+  }
+}

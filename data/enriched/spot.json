@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "spot",
+    "syllables": "sso",
+    "ipa": "/spɔt/",
+    "jawi": null,
+    "frequency_rank": 9035,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "spot",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + spot → spot",
+    "pattern_note": "英语来源的整词，通常读作一个音节 /spɔt/。输入 syllables 的 sso 原样保留，但它不是 spot 的有效音节标注；正确单音节标注为 spot。Jawi 未提供，保留 null。词族列组合形式，并非派生词。",
+    "word_family": [
+      {
+        "word": "spot iklan",
+        "affix": "∅",
+        "gloss": "广告短片；广告播出单元"
+      },
+      {
+        "word": "soalan spot",
+        "affix": "∅",
+        "gloss": "预测考题；押题"
+      },
+      {
+        "word": "spot bergambar",
+        "affix": "∅",
+        "gloss": "拍照地点"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "非正式交流中指某个特定地点、位置或适合某项活动的地点。",
+      "en_definition": "Informally, a particular place or a location suited to an activity.",
+      "ms_definition": "Dalam percakapan tidak rasmi, tempat atau lokasi tertentu, khususnya yang sesuai untuk sesuatu kegiatan.",
+      "nuances": "属于受英语影响的口语或语码混用，常用于拍照、钓鱼、聚会等语境。正式马来语按情境用 tempat、lokasi 或 kawasan。本义为实际口语用法的整理；不能把 PRPM 英马词典的英语释义当成马来语规范收词证明。status 按指定数据格式保留。",
+      "collocations": [
+        {
+          "ms": "spot bergambar",
+          "zh": "拍照地点",
+          "en": "a photo spot"
+        },
+        {
+          "ms": "spot memancing",
+          "zh": "钓鱼地点",
+          "en": "a fishing spot"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "广播、电视或其他媒体中的简短广告或宣传单元；也可按语境指一次广告播出。",
+      "en_definition": "A short advertising or promotional item, or an individual airing of such an item.",
+      "ms_definition": "Unit iklan atau bahan promosi yang ringkas untuk siaran; mengikut konteks, satu kali penyiaran bahan tersebut.",
+      "nuances": "属媒体行业用语，应分清广告成品、播出次数和时段。马来西亚媒体报价表使用 jumlah spot 计算播出单元，见 [IKIM 媒体报价表](https://www.ikim.gov.my/wp-content/uploads/2025/09/IKIM-MEDIA-RATE-CARD-2025-2026.pdf)。此处释义为行业用法整理。",
+      "collocations": [
+        {
+          "ms": "spot iklan",
+          "zh": "广告短片；广告播出单元",
+          "en": "an advertising spot"
+        },
+        {
+          "ms": "spot iklan 30 saat",
+          "zh": "三十秒广告",
+          "en": "a thirty-second advertising spot"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "在 soalan spot、topik spot 等学生口语组合中，指对可能考试内容的预测或押题。",
+      "en_definition": "In informal examination-related expressions, a prediction of likely questions or topics.",
+      "ms_definition": "Dalam ungkapan tidak rasmi berkaitan peperiksaan, ramalan tentang soalan atau topik yang mungkin diuji.",
+      "nuances": "多作为名词后的修饰成分使用，不表示已取得真实考题。正式表达宜用 soalan ramalan 或 topik yang diramalkan；DBP 明确建议将 Soalan Spot 改为 Soalan Ramalan，见 [PRPM：spot](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=spot)。",
+      "collocations": [
+        {
+          "ms": "soalan spot",
+          "zh": "预测考题",
+          "en": "predicted exam questions"
+        },
+        {
+          "ms": "topik spot",
+          "zh": "预测考点",
+          "en": "predicted exam topics"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan komunikasi telah menyediakan tiga spot iklan berdurasi 30 saat untuk kempen kesedaran itu.",
+      "zh": "传播团队已为该宣传教育活动制作三则三十秒广告。",
+      "en": "The communications team has produced three thirty-second advertising spots for the awareness campaign."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat sini ada spot cantik untuk bergambar lah.",
+      "ms_standard": "Di sini terdapat tempat yang cantik untuk bergambar.",
+      "zh": "这里有个拍照很好看的地方呢。",
+      "en": "There's a lovely photo spot here.",
+      "spoken_features": [
+        "kat 对应 di。",
+        "lah 加入分享发现的口语语气。",
+        "spot 是英语形式的口语借用，规范对应句采用 tempat。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah jumpa spot untuk kita bergambar ke?",
+          "ms_standard": "Adakah kamu sudah menemukan tempat untuk kita bergambar?",
+          "zh": "你找到我们拍照的地方了吗？",
+          "en": "Have you found a spot for us to take photos?"
+        },
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Dah, kat tepi tasik tu cantik. Kita pergi situ je lah.",
+          "ms_standard": "Sudah. Kawasan di tepi tasik itu cantik. Mari kita pergi ke situ sahaja.",
+          "zh": "找到了，湖边那里挺漂亮的。我们就去那儿吧。",
+          "en": "Yes, it's lovely by the lake. Let's just go there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Spot enters these Malaysian contexts through English usage. Broadcasting supplies a documented historical example: Malaysia's National Archives catalogues an English-language Radio Malaysia advertisement titled Iklan 20 Second Spot, dated 2 February 1963. That record establishes an early local broadcasting occurrence, not the first Malay borrowing. Present-day location talk and examination slang illustrate other contexts in which the English form is used. [Source](https://ofa.arkib.gov.my/ofa/group/asset/1090995)",
+    "cognitive_memory_aid": "先想地图上的一个小点 spot：选中的点是“地点”，节目里的一小段是“广告单元”；soalan spot 则是“押中的考题”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友间谈拍照地点时很自然；面对客户、长辈或正式受众，应按语境改用 lokasi、tempat 或明确的广告术语，避免对方不熟悉英语混用。",
+    "usage_etiquette": "在考试讨论中，soalan spot 只是预测，不应暗示保证命中或泄露试题。媒体工作中须明确 spot 指广告内容、时长还是播出次数。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友间谈拍照地点时很自然；面对客户、长辈或正式受众，应按语境改用 lokasi、tempat 或明确的广告术语，避免对方不熟悉英语混用。",
+    "usage_etiquette": "在考试讨论中，soalan spot 只是预测，不应暗示保证命中或泄露试题。媒体工作中须明确 spot 指广告内容、时长还是播出次数。"
+  }
+}

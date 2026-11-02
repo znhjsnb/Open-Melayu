@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "batal",
+    "syllables": "ba.tal",
+    "ipa": "/ˈbatal/",
+    "jawi": "بطل",
+    "frequency_rank": 9085,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "batal",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + batal → batal",
+    "pattern_note": "现代马来语中作为完整词根使用。接 meN- 时，词首 b 保留：meN- + batal + -kan → membatalkan。",
+    "word_family": [
+      {
+        "word": "membatalkan",
+        "affix": "meN-…-kan",
+        "gloss": "取消；宣布无效"
+      },
+      {
+        "word": "pembatalan",
+        "affix": "peN-…-an",
+        "gloss": "取消；废止的行为"
+      },
+      {
+        "word": "terbatal",
+        "affix": "ter-",
+        "gloss": "失效；被取消"
+      }
+    ],
+    "root_jawi": "بطل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "无效的；不具有效力或不再成立的，亦指宗教仪式因不符合条件而失效。",
+      "en_definition": "Invalid, void, or no longer in force; also ritually invalid.",
+      "ms_definition": "Tidak sah, tidak berlaku lagi atau mansuh.",
+      "nuances": "描述效力或有效状态，而非主动执行取消。正式表达“使某事无效”用 membatalkan；表达结果可用 terbatal。[DBP 释义](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=batal)",
+      "collocations": [
+        {
+          "ms": "sah atau batal",
+          "zh": "有效或无效",
+          "en": "valid or void"
+        },
+        {
+          "ms": "wuduk batal",
+          "zh": "小净失效",
+          "en": "one's ablution is invalidated"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "原定的计划、活动或意图未能实行；取消了的；未成的。",
+      "en_definition": "Cancelled or called off; not proceeding as planned.",
+      "ms_definition": "Tidak jadi, gagal atau tidak berhasil.",
+      "nuances": "强调计划没有实行，不必然表示尝试后失败。口语中的 Saya batal tempahan 使用了简略动词表达；正式书面语宜写 Saya membatalkan tempahan。",
+      "collocations": [
+        {
+          "ms": "rancangan batal",
+          "zh": "计划取消",
+          "en": "the plan is called off"
+        },
+        {
+          "ms": "niatnya batal",
+          "zh": "他／她打消了原来的念头",
+          "en": "his or her intention comes to nothing"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "指支票、票券等已作废，不能再使用、兑现或凭其取得服务。",
+      "en_definition": "No longer valid for use, payment, or redemption, of a cheque, ticket, or similar instrument.",
+      "ms_definition": "Tidak sah diperlakukan atau tidak laku lagi, berkenaan cek, tiket dan sebagainya.",
+      "nuances": "作废原因须由上下文说明；batal 本身不等于“过期”，也不等于支票因存款不足而被退票。",
+      "collocations": [
+        {
+          "ms": "cek batal",
+          "zh": "作废支票",
+          "en": "a void cheque"
+        },
+        {
+          "ms": "tiket batal",
+          "zh": "作废票券",
+          "en": "an invalid ticket"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Undian tersebut dianggap batal kerana tidak mematuhi prosedur yang ditetapkan.",
+      "zh": "该次投票因未遵守规定程序而被视为无效。",
+      "en": "The vote was deemed invalid because it did not comply with the prescribed procedures."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Rancangan kita nak pergi pantai esok batal lah, hujan lebat sangat.",
+      "ms_standard": "Rancangan kita untuk pergi ke pantai esok tidak jadi kerana hujan terlalu lebat.",
+      "zh": "明天去海边的计划取消啦，雨下得太大了。",
+      "en": "Our beach trip tomorrow is off—the rain's too heavy.",
+      "spoken_features": [
+        "nak 对应 hendak 或表示计划的 untuk",
+        "lah 缓和通知取消时的语气",
+        "口语以逗号连接原因，标准表达补出 kerana"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Rancangan kita nak pergi pantai esok batal lah, hujan lebat sangat.",
+          "ms_standard": "Rancangan kita untuk pergi ke pantai esok tidak jadi kerana hujan terlalu lebat.",
+          "zh": "明天去海边的计划取消啦，雨下得太大了。",
+          "en": "Our beach trip tomorrow is off—the rain's too heavy."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okey, kita lepak kat rumah je. Aku dah beli makanan.",
+          "ms_standard": "Baiklah, kita bersantai di rumah sahaja. Saya sudah membeli makanan.",
+          "zh": "行，那就在家待着吧。我已经买好吃的了。",
+          "en": "Okay, let's just hang out at home. I've already bought some food."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Batal belongs to Malay's Arabic loan vocabulary. Winstedt's historical grammar already lists it among Arabic-derived words, glossing it as futile. Modern Malay connects the word with validity as well as cancellation: an agreement may be void, a ritual invalid, or a planned outing called off. These uses share the idea that something no longer holds or takes effect. [Historical source](https://www.sabrizain.org/malaya/library/grammarwinstedt.pdf)",
+    "cognitive_memory_aid": "把 ba-tal 联想成“把它拉掉”：日历上的安排被划掉，就是 batal。此为记忆联想，并非词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "通知取消预约或活动时，说明原因并表达歉意，例如 Maaf, rancangan kita terpaksa dibatalkan，比只发 Batal 更体贴。",
+    "usage_etiquette": "适用于行政、预约、交易及宗教语境。讨论他人的宗教仪式是否有效时，应尊重其信仰与所依据的宗教规范。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "通知取消预约或活动时，说明原因并表达歉意，例如 Maaf, rancangan kita terpaksa dibatalkan，比只发 Batal 更体贴。",
+    "usage_etiquette": "适用于行政、预约、交易及宗教语境。讨论他人的宗教仪式是否有效时，应尊重其信仰与所依据的宗教规范。"
+  }
+}

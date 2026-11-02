@@ -1,0 +1,139 @@
+{
+  "headword": {
+    "word": "barah",
+    "syllables": "ba.rah",
+    "ipa": "/ˈba.rah/",
+    "jawi": "باره",
+    "frequency_rank": 9006,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "barah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + barah → barah",
+    "pattern_note": "本词为词根，无词缀变化；派生 membarah 时，meN- 在 b 前实现为 mem-，词根首音 b 保留。",
+    "word_family": [
+      {
+        "word": "membarah",
+        "affix": "meN-",
+        "gloss": "形成疮肿；比喻问题恶化蔓延"
+      }
+    ],
+    "root_jawi": "باره"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "大而化脓的疮肿；痈一类的脓性肿块。",
+      "en_definition": "A large pus-filled boil or carbuncle.",
+      "ms_definition": "Bisul besar atau bengkak yang mengandungi nanah.",
+      "nuances": "属于词典保留的疮肿义，在传统病名中可见；不能把这类用法自动理解为现代医学的癌症，也不能泛译为所有炎症。此义及后列两义参照 [DBP：barah](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=barah)。",
+      "collocations": [
+        {
+          "ms": "barah bernanah",
+          "zh": "化脓的疮肿",
+          "en": "a pus-filled boil"
+        },
+        {
+          "ms": "barah besar",
+          "zh": "大疮肿",
+          "en": "a large boil"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "癌；癌症。指细胞异常增殖所形成的恶性病变。",
+      "en_definition": "Cancer; malignant disease involving uncontrolled cell proliferation.",
+      "ms_definition": "Kanser, iaitu penyakit malignan yang melibatkan pembiakan sel secara tidak terkawal.",
+      "nuances": "现代健康报道中的主要用法之一，与 kanser 对应。barah 不等于所有肿块或所有肿瘤；必须根据语境区分此义与疮肿义。",
+      "collocations": [
+        {
+          "ms": "barah payudara",
+          "zh": "乳腺癌",
+          "en": "breast cancer"
+        },
+        {
+          "ms": "barah paru-paru",
+          "zh": "肺癌",
+          "en": "lung cancer"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "毒瘤；会扩散并严重损害社会、组织或制度的弊病。",
+      "en_definition": "A deeply harmful condition that spreads through a society, organization, or system.",
+      "ms_definition": "Keadaan atau gejala buruk yang memudaratkan dan boleh menular dalam masyarakat atau sesuatu sistem.",
+      "nuances": "带强烈谴责意味的比喻，常用于腐败等结构性问题。不可据此推断癌症在人与人之间具有一般传染性。",
+      "collocations": [
+        {
+          "ms": "barah rasuah",
+          "zh": "腐败毒瘤",
+          "en": "the cancer of corruption"
+        },
+        {
+          "ms": "barah masyarakat",
+          "zh": "社会毒瘤",
+          "en": "a social cancer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻／公共卫生项目汇报",
+      "ms": "Hospital itu memperluas perkhidmatan sokongan untuk pesakit barah payudara dan keluarga mereka.",
+      "zh": "该医院扩大了面向乳腺癌患者及其家属的支持服务。",
+      "en": "The hospital has expanded support services for breast cancer patients and their families."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp／朋友之间关心患病家属",
+      "ms_spoken": "Mak aku dah mula rawatan barah minggu ni.",
+      "ms_standard": "Ibu saya sudah memulakan rawatan barah pada minggu ini.",
+      "zh": "我妈这周已经开始接受癌症治疗了。",
+      "en": "My mum started cancer treatment this week.",
+      "spoken_features": [
+        "mak 是 ibu 的日常称呼",
+        "aku 用于关系亲近的朋友",
+        "dah 对应 sudah",
+        "minggu ni 对应 minggu ini"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir（朋友）",
+          "ms_spoken": "Mak aku dah mula rawatan barah minggu ni. Aku nak teman dia esok.",
+          "ms_standard": "Ibu saya sudah memulakan rawatan barah pada minggu ini. Saya hendak menemaninya esok.",
+          "zh": "我妈这周开始接受癌症治疗了。我明天想陪她去。",
+          "en": "My mum started cancer treatment this week. I'm going with her tomorrow."
+        },
+        {
+          "speaker": "Farah（朋友）",
+          "ms_spoken": "Kalau nak aku hantarkan makanan, cakap je. Semoga mak kau dipermudahkan urusan.",
+          "ms_standard": "Jika kamu mahu saya menghantarkan makanan, beritahu sahaja. Semoga segala urusan ibu kamu dipermudahkan.",
+          "zh": "要我送吃的过去就说一声。希望你妈妈一切顺利。",
+          "en": "Just let me know if you'd like me to bring some food. I hope everything goes smoothly for your mum."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Barah carries several layers of Malay experience in one word. DBP preserves its meaning of a large suppurating boil alongside cancer and a destructive social condition. Traditional names and modern public discourse therefore meet in the same entry. These coexisting senses offer a cultural vocabulary story, but they do not establish the word's ultimate origin or a dated sequence of semantic change.",
+    "cognitive_memory_aid": "记 ba.rah 的三幅图：化脓的大疮、医学上的癌、社会中的毒瘤。三义都提示严重病害，但具体含义必须看搭配。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论患者时宜用 pesakit barah 或 penghidap barah，并尊重本人对病情披露的意愿；避免把患者本人称为社会的 barah。",
+    "usage_etiquette": "医学、新闻和公共卫生语境均可使用。barah rasuah 等比喻语气强烈，适合批评现象；用来直接给某个人贴标签容易造成侮辱。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论患者时宜用 pesakit barah 或 penghidap barah，并尊重本人对病情披露的意愿；避免把患者本人称为社会的 barah。",
+    "usage_etiquette": "医学、新闻和公共卫生语境均可使用。barah rasuah 等比喻语气强烈，适合批评现象；用来直接给某个人贴标签容易造成侮辱。"
+  }
+}

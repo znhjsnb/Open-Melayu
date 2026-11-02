@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "penderma",
+    "syllables": "pen.der.ma",
+    "ipa": "/pən.dər.ma/",
+    "jawi": "ڤندرما",
+    "frequency_rank": 9038,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penderma",
+    "affix": "peN-（异形 pen-）",
+    "affix_type": "prefix",
+    "formula": "peN- + derma → penderma",
+    "pattern_note": "peN- 在词首 d 前表现为 pen-，原有 d 保留，构成表示施事者的名词。root_word 与 root_jawi 按数据包保留；实际构词词根为 derma，因此修正数据包的 is_root 判断。[DBP：derma 词族](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=derma)",
+    "derivational_root_word": "derma",
+    "derivational_root_jawi": "درما",
+    "word_family": [
+      {
+        "word": "menderma",
+        "affix": "meN-（异形 men-）",
+        "gloss": "捐献；捐助"
+      },
+      {
+        "word": "pendermaan",
+        "affix": "peN-...-an",
+        "gloss": "捐献行为；捐赠"
+      }
+    ],
+    "root_jawi": "ڤندرما"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "捐赠者；自愿捐出金钱、物资、血液或器官等以帮助他人的人。",
+      "en_definition": "A person who donates money, goods, blood, organs, or other resources.",
+      "ms_definition": "Orang yang menderma.",
+      "nuances": "DBP 的核心定义为 orang yang menderma。penderma 强调捐献者的身份，不表示捐献者必定富有，也不等同于提供商业交换利益的 penaja。[DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=derma)",
+      "collocations": [
+        {
+          "ms": "penderma darah",
+          "zh": "献血者",
+          "en": "blood donor"
+        },
+        {
+          "ms": "penderma organ",
+          "zh": "器官捐献者",
+          "en": "organ donor"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak penganjur merakamkan penghargaan kepada semua penderma yang menyumbang kepada tabung bantuan banjir.",
+      "zh": "主办方向所有为水灾援助基金捐款的捐赠者致谢。",
+      "en": "The organisers expressed their appreciation to all donors who contributed to the flood relief fund."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak jadi penderma darah, tapi tak tahu nak daftar kat mana.",
+      "ms_standard": "Saya mahu menjadi penderma darah, tetapi tidak tahu di mana hendak mendaftar.",
+      "zh": "我想去献血，可不知道在哪儿登记。",
+      "en": "I'd like to donate blood, but I don't know where to sign up.",
+      "spoken_features": [
+        "nak 对应 mahu 或 hendak",
+        "tak 对应 tidak",
+        "kat mana 对应 di mana",
+        "aku 是熟人之间常见的第一人称形式"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak jadi penderma darah, tapi tak tahu nak daftar kat mana.",
+          "ms_standard": "Saya mahu menjadi penderma darah, tetapi tidak tahu di mana hendak mendaftar.",
+          "zh": "我想去献血，可不知道在哪儿登记。",
+          "en": "I'd like to donate blood, but I don't know where to sign up."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jom tanya kat kaunter tu dulu, nanti kita daftar sama-sama.",
+          "ms_standard": "Mari kita bertanya di kaunter itu dahulu, kemudian mendaftar bersama-sama.",
+          "zh": "走，先去那个柜台问问，待会儿一起登记。",
+          "en": "Let's ask at that counter first, then we can sign up together."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penderma is formed in Malay from derma with the agent-forming prefix peN-. Derma belongs to the language's Sanskrit-derived vocabulary and is historically connected with dharma. The modern donor word shows how inherited cultural vocabulary supports new institutions: the same familiar base now describes charitable giving as well as people who donate blood or organs. [Malay Language Centre of Singapore](https://mlcs.moe.edu.sg/files/dian_bahasa_6.pdf)",
+    "cognitive_memory_aid": "记住 derma＝捐献；前面的 pen- 把行动变成人：penderma＝做捐献的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性而尊重的称呼。正式致谢可说 para penderma；对本人说话时宜结合姓名或 Encik、Puan 等称谓。",
+    "usage_etiquette": "适用于慈善、献血和器官捐献等语境。公开致谢时应尊重匿名意愿，避免未经同意披露个人捐款金额或捐献资料。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性而尊重的称呼。正式致谢可说 para penderma；对本人说话时宜结合姓名或 Encik、Puan 等称谓。",
+    "usage_etiquette": "适用于慈善、献血和器官捐献等语境。公开致谢时应尊重匿名意愿，避免未经同意披露个人捐款金额或捐献资料。"
+  }
+}

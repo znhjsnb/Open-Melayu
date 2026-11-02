@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "liak",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 9056,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "liak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + liak → liak",
+    "pattern_note": "按输入暂作未加词缀的整词处理；不能仅凭字形分析成其他标准马来语词的派生形式。未核实其标准马来语读音、Jawi 和派生词族，故保留 null 与空数组。此处仅收录有文献支持的区域植物名称义，不宣称它是已获 DBP 确认的标准词。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "姜、生姜；区域性或历史植物名称，对应标准马来语 halia，学名 Zingiber officinale。",
+      "en_definition": "Ginger, Zingiber officinale; an attested regional or historical plant name corresponding to standard Malay halia.",
+      "ms_definition": "Nama serantau atau sejarah bagi halia, iaitu tumbuhan Zingiber officinale; takrif ini ialah rumusan sumber botani, bukan petikan definisi rasmi DBP.",
+      "nuances": "Kew 的植物名称数据库将 liak 对应到 Zingiber officinale，并记录 liak merah、liak putih。该证据支持植物名称义，不能证明全国通用性，也不足以确定本批输入的原始语境。因此 status 标为 unverified，而不虚标 official。以下为来源记录的名称组合，未证实为现代马来西亚马来语高频搭配。来源：[Kew：liak](https://mpns.science.kew.org/mpns-portal/drugDetail?drugName=liak)。",
+      "collocations": [
+        {
+          "ms": "liak merah",
+          "zh": "红姜（来源记录的名称）",
+          "en": "red ginger, an attested vernacular name"
+        },
+        {
+          "ms": "liak putih",
+          "zh": "白姜（来源记录的名称）",
+          "en": "white ginger, an attested vernacular name"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pangkalan data nama tumbuhan itu merekodkan liak sebagai salah satu nama bagi halia, Zingiber officinale.",
+      "zh": "该植物名称数据库将 liak 记录为姜（Zingiber officinale）的名称之一。",
+      "en": "The plant-name database records liak as one of the names for ginger, Zingiber officinale."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；讨论旧食谱中的区域词",
+      "ms_spoken": "Dalam resipi lama ni ada tulis liak. Maksudnya halia ke?",
+      "ms_standard": "Dalam resipi lama ini tertulis perkataan liak. Adakah maksudnya halia?",
+      "zh": "这张旧食谱写了 liak，是指生姜吗？",
+      "en": "This old recipe says liak. Does that mean ginger?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "ada tulis 是口语表达，标准语可用 tertulis",
+        "句末 ke 对应标准疑问形式 adakah",
+        "目标词作为食谱中的引用词出现，不模拟未经核实的地方口音"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Aku nak cuba resipi lama ni, tapi liak tu apa?",
+          "ms_standard": "Saya hendak mencuba resipi lama ini, tetapi apakah maksud liak?",
+          "zh": "我想试试这张旧食谱，可 liak 是什么啊？",
+          "en": "I want to try this old recipe, but what does liak mean?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Mungkin halia. Kita semak bahan lain dulu, ya.",
+          "ms_standard": "Mungkin maksudnya halia. Mari kita semak bahan-bahan yang lain dahulu.",
+          "zh": "可能是生姜。我们先对照一下其他材料吧。",
+          "en": "It might mean ginger. Let's check the other ingredients first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Plant names often survive in regional speech and older recipe traditions even when another name becomes standard. Kew's medicinal plant database records liak alongside halia and connects both with Zingiber officinale. This establishes a botanical referent, but does not establish the word's ultimate origin, its borrowing route, or nationwide standard status in Malaysian Malay. See [Kew](https://mpns.science.kew.org/mpns-portal/drugDetail?drugName=liak).",
+    "cognitive_memory_aid": "先建立词义配对：liak → halia → 姜。把 liak 写在姜片的图像旁记忆；未核实读音前不用中文谐音硬记。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "遇到陌生地方词时，可问 Adakah liak bermaksud halia di sini?，尊重说话人的地方用语，不直接断言对方说错。",
+    "usage_etiquette": "全国性菜单、采购单和正式说明优先使用 halia。介绍地方词、旧食谱或植物名称时可保留 liak 并附释义；不能把这里的植物义自动套入所有出现 liak 的文本。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "遇到陌生地方词时，可问 Adakah liak bermaksud halia di sini?，尊重说话人的地方用语，不直接断言对方说错。",
+    "usage_etiquette": "全国性菜单、采购单和正式说明优先使用 halia。介绍地方词、旧食谱或植物名称时可保留 liak 并附释义；不能把这里的植物义自动套入所有出现 liak 的文本。"
+  }
+}

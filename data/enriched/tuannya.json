@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "tuannya",
+    "syllables": null,
+    "ipa": "/tu.an.ɲa/",
+    "jawi": "توان",
+    "frequency_rank": 9007,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tuan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "tuan + -nya → tuannya",
+    "pattern_note": "-nya 在此为附着于名词后的第三人称领属附着成分，按本模式归入 suffix；词根保持不变，ny 表示 /ɲ/。输入未给音节，可按所列读音分析为 tu.an.nya。headword.jawi 按输入保留为 توان，但该写法只对应 tuan；完整 tuannya 应写作 توانڽ。",
+    "word_family": [
+      {
+        "word": "bertuan",
+        "affix": "ber-",
+        "gloss": "有主人；有所有者"
+      },
+      {
+        "word": "bertuankan",
+        "affix": "ber-...-kan",
+        "gloss": "以某人为主人或主宰"
+      }
+    ],
+    "root_jawi": "توان"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "其主人；其所有者。指上文提到的动物或物品所属的人。",
+      "en_definition": "Its owner; the owner of the animal or object already referred to.",
+      "ms_definition": "Pemilik bagi haiwan atau benda yang telah disebut atau diketahui daripada konteks.",
+      "nuances": "这是 tuan 的所有者义加 -nya 形成的语法组合，不是独立词根。-nya 的所指由上下文确定，不标记性别。词根义与派生形式参照 [DBP：tuan](https://prpm.dbp.gov.my/Cari1?d=142528&keyword=tuan)。",
+      "collocations": [
+        {
+          "ms": "mencari tuannya",
+          "zh": "寻找它的主人",
+          "en": "look for its owner"
+        },
+        {
+          "ms": "dikembalikan kepada tuannya",
+          "zh": "归还给其主人",
+          "en": "returned to its owner"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "他或她的主人、主子；在历史或文学语境中，指接受其服侍或支配其行动的人。",
+      "en_definition": "His or her master; a person served or obeyed, especially in historical or literary contexts.",
+      "ms_definition": "Orang yang menjadi tempat seseorang berkhidmat atau menghambakan diri, terutama dalam konteks sejarah atau sastera.",
+      "nuances": "必须结合时代及人物关系理解，可能涉及仆役、奴役或封建从属关系。现代一般雇佣关系通常用 majikan 更准确。此词不自动表示礼貌称呼“先生”。",
+      "collocations": [
+        {
+          "ms": "arahan tuannya",
+          "zh": "其主人的命令",
+          "en": "his or her master's instructions"
+        },
+        {
+          "ms": "berkhidmat kepada tuannya",
+          "zh": "为其主人效劳",
+          "en": "serve his or her master"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻／动物救援工作汇报",
+      "ms": "Kucing yang diselamatkan itu telah diserahkan semula kepada tuannya selepas identiti pemilik disahkan.",
+      "zh": "获救的猫在所有者身份确认后，已交还给主人。",
+      "en": "The rescued cat was returned to its owner after the owner's identity was verified."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp／朋友协助走失宠物寻找主人",
+      "ms_spoken": "Kucing ni tunggu tuannya kat luar kedai ke?",
+      "ms_standard": "Adakah kucing ini sedang menunggu tuannya di luar kedai?",
+      "zh": "这只猫是在店外等主人吗？",
+      "en": "Is this cat waiting for its owner outside the shop?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "kat 对应地点介词 di",
+        "句末 ke 标记口语疑问",
+        "tuannya 中的 -nya 回指 kucing"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah（朋友）",
+          "ms_spoken": "Kucing ni dah lama kat luar kedai. Tuannya mana, ya?",
+          "ms_standard": "Kucing ini sudah lama berada di luar kedai. Di manakah tuannya?",
+          "zh": "这只猫在店外待很久了。它主人在哪儿呢？",
+          "en": "This cat's been outside the shop for ages. Where's its owner?"
+        },
+        {
+          "speaker": "Amir（朋友）",
+          "ms_spoken": "Aku tak pasti. Jom tanya orang kedai dulu, mungkin dia kenal tuannya.",
+          "ms_standard": "Saya tidak pasti. Mari kita bertanya kepada pekerja kedai dahulu; mungkin dia mengenali tuannya.",
+          "zh": "我不确定。先问问店员吧，说不定他认识它主人。",
+          "en": "I'm not sure. Let's ask the shop assistant first; they might know its owner."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tuannya combines the socially rich noun tuan with the possessive clitic -nya. DBP records tuan across ownership, service, and respectful address, reflecting different relationships rather than one interchangeable English translation. In this combination, context selects an owner or master. The form's story is therefore partly grammatical: a familiar noun gains a contextual possessor without becoming a new lexical root.",
+    "cognitive_memory_aid": "先记 tuan＝主人，再把 -nya 看成回指箭头：kucing itu → tuannya，就是“那只猫 → 它的主人”；不要把 -nya 固定译成“他的”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "说动物或物品的主人时自然常用；谈现代员工与雇主关系时，majikan 通常比 tuan 更合适。称呼对方“先生”用 Tuan，不能直接改成 tuannya。",
+    "usage_etiquette": "确保 -nya 有清楚的上下文所指。历史叙事中的主仆称谓可保留，但不宜随意套用到现代同事或服务人员身上。输入中的 توان 是词根字形，使用完整词形时应补上 ڽ。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "说动物或物品的主人时自然常用；谈现代员工与雇主关系时，majikan 通常比 tuan 更合适。称呼对方“先生”用 Tuan，不能直接改成 tuannya。",
+    "usage_etiquette": "确保 -nya 有清楚的上下文所指。历史叙事中的主仆称谓可保留，但不宜随意套用到现代同事或服务人员身上。输入中的 توان 是词根字形，使用完整词形时应补上 ڽ。"
+  }
+}

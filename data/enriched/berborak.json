@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "berborak",
+    "syllables": null,
+    "ipa": "/bər.bo.raʔ/",
+    "jawi": "بربوراق",
+    "frequency_rank": 9050,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "borak",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + borak → berborak",
+    "pattern_note": "ber- 接在 borak 前，词根起首 b 保留，不发生鼻音替换；词尾 k 在此读音中实现为声门塞音 [ʔ]。音节字段按输入包保留 null；音标依据所给读音规范化。",
+    "word_family": [
+      {
+        "word": "borak",
+        "affix": null,
+        "gloss": "闲聊；闲谈"
+      },
+      {
+        "word": "pemborak",
+        "affix": "peN- → pem-",
+        "gloss": "爱闲聊的人"
+      },
+      {
+        "word": "memborakkan",
+        "affix": "meN-…-kan",
+        "gloss": "吹嘘某事"
+      }
+    ],
+    "root_jawi": "بورق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "闲聊；漫谈，通常谈论轻松、非正式或不甚重要的话题。",
+      "en_definition": "To chat informally, usually about light or unimportant matters.",
+      "ms_definition": "Berbual(-bual) kosong, bergebang.",
+      "nuances": "通常表示轻松闲谈，不必然涉及说谎、散播流言或恶意议论。字典释义中的 bergebang 也容许带有夸谈意味的语境，但不能把所有 berborak 都译成“吹牛”。正式讨论业务时可按语意选用 berbincang。释义及词族依据 [DBP：borak](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=borak)。",
+      "collocations": [
+        {
+          "ms": "berborak dengan kawan",
+          "zh": "和朋友闲聊",
+          "en": "chat with friends"
+        },
+        {
+          "ms": "duduk berborak",
+          "zh": "坐着闲聊",
+          "en": "sit and chat"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Para peserta berborak seketika di ruang legar sebelum sesi taklimat bermula.",
+      "zh": "说明会开始前，与会者在大厅闲聊了片刻。",
+      "en": "Participants chatted briefly in the foyer before the briefing began."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Jom berborak kat kedai kopi kejap.",
+      "ms_standard": "Mari kita berborak sebentar di kedai kopi.",
+      "zh": "走，去咖啡店聊一会儿。",
+      "en": "Let’s have a quick chat at the coffee shop.",
+      "spoken_features": [
+        "jom 用来随意邀请，对应 mari 或 marilah。",
+        "kat 在本句对应地点介词 di。",
+        "kejap 在本句对应 sebentar。",
+        "dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jom berborak kat kedai kopi kejap.",
+          "ms_standard": "Mari kita berborak sebentar di kedai kopi.",
+          "zh": "走，去咖啡店聊一会儿。",
+          "en": "Let’s have a quick chat at the coffee shop."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, aku dah siap kerja. Kita jumpa kat sana, ya.",
+          "ms_standard": "Boleh, saya sudah menyiapkan kerja. Kita berjumpa di sana, ya.",
+          "zh": "行，我活儿干完了。那边见啊。",
+          "en": "Sure, I’ve finished my work. See you there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Berborak combines the Malay prefix ber- with borak, which Kamus Dewan describes as friendly, informal conversation about matters of little seriousness. Its meaning readily evokes people sitting together and passing time through conversation. The consulted dictionary supports this formation and usage, but supplies no dated account of the root’s earlier origin. [DBP entry](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=borak).",
+    "cognitive_memory_aid": "borak 是“闲聊”，加上表示活动的 ber-：berborak，就是开聊。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "和朋友闲聊时自然亲切。邀请长辈或不熟悉的人聊天，可使用 Mari kita berbual sebentar 等较为稳妥的表达，并配合适当称谓。",
+    "usage_etiquette": "适用于休息、聚会和候场时的轻松交谈。描述正式磋商时通常用 berbincang；批评别人只顾闲聊时，语气可能带有责备。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "和朋友闲聊时自然亲切。邀请长辈或不熟悉的人聊天，可使用 Mari kita berbual sebentar 等较为稳妥的表达，并配合适当称谓。",
+    "usage_etiquette": "适用于休息、聚会和候场时的轻松交谈。描述正式磋商时通常用 berbincang；批评别人只顾闲聊时，语气可能带有责备。"
+  }
+}

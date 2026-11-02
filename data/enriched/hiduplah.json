@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "hiduplah",
+    "syllables": null,
+    "ipa": "/hi.dup.lah/",
+    "jawi": "هيدوڤ",
+    "frequency_rank": 9024,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hidup",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "hidup + partikel -lah → hiduplah",
+    "pattern_note": "-lah 是附着在前词上的强调小品词，不是派生后缀；词根不发生音位替换。输入未提供音节划分，故保留 null；可分析为 hi.dup.lah。输入 Jawi 实为词根 hidup 的拼写，未包含 -lah。参见 [DBP 小品词说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel)。",
+    "word_family": [
+      {
+        "word": "kehidupan",
+        "affix": "ke-...-an",
+        "gloss": "生活；生命活动"
+      },
+      {
+        "word": "menghidupkan",
+        "affix": "meN-...-kan",
+        "gloss": "使活起来；启动；使活跃"
+      },
+      {
+        "word": "penghidupan",
+        "affix": "peN-...-an",
+        "gloss": "生计；谋生方式"
+      }
+    ],
+    "root_jawi": "هيدوڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "活着；过生活。加上 -lah 后，常用于劝勉、祝愿或强调某种生活方式。",
+      "en_definition": "To live or remain alive, with emphasis, encouragement, or a wish expressed by -lah.",
+      "ms_definition": "Bernyawa atau menjalani kehidupan; partikel -lah memberikan penegasan, nasihat atau harapan mengikut konteks.",
+      "nuances": "这是依据输入中 hidup 释义及 -lah 功能组合的释义，并非 DBP 对 hiduplah 的独立逐字定义。-lah 不表示时态，也不一定表示命令；叙事中的 hiduplah 可以只是突出陈述。",
+      "collocations": [
+        {
+          "ms": "hiduplah dengan bahagia",
+          "zh": "幸福地生活吧",
+          "en": "live happily"
+        },
+        {
+          "ms": "hiduplah dengan aman",
+          "zh": "安宁地生活吧",
+          "en": "live in peace"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "居住、度日或维持生计，并带有劝告或叙事强调。",
+      "en_definition": "To reside or sustain oneself, with exhortative or narrative emphasis.",
+      "ms_definition": "Tinggal di sesuatu tempat atau menyara kehidupan, dengan penegasan melalui partikel -lah.",
+      "nuances": "地点或谋生方式通常由后面的成分说明。不要把 hiduplah 本身译成“谋生职业”；它仍然是动词。",
+      "collocations": [
+        {
+          "ms": "hiduplah di kampung",
+          "zh": "在乡村生活吧",
+          "en": "live in the village"
+        },
+        {
+          "ms": "hiduplah dengan hasil usaha sendiri",
+          "zh": "靠自己的劳动生活吧",
+          "en": "live on the proceeds of your own work"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共宣传 / 社区致辞",
+      "ms": "Hiduplah dalam suasana saling menghormati demi kesejahteraan masyarakat.",
+      "zh": "为了社会福祉，请在互相尊重的氛围中共同生活。",
+      "en": "Live in mutual respect for the well-being of the community."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间的生活劝慰",
+      "ms_spoken": "Hiduplah ikut kemampuan sendiri, tak payah nak banding dengan orang lain.",
+      "ms_standard": "Hiduplah mengikut kemampuan sendiri; tidak perlu membandingkan diri dengan orang lain.",
+      "zh": "按自己的能力过日子就好，不用老跟别人比。",
+      "en": "Live within your means; you don't need to compare yourself with everyone else.",
+      "spoken_features": [
+        "tak 对应 tidak",
+        "tak payah 表示“不必”",
+        "nak 在此口语结构中加强意向意味，标准表达可省去",
+        "-lah 配合语调表达劝慰"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah penat nak ikut gaya hidup orang lain.",
+          "ms_standard": "Aku sudah penat mencuba mengikut gaya hidup orang lain.",
+          "zh": "我已经累了，不想再追着别人的生活方式跑。",
+          "en": "I'm tired of trying to keep up with everyone else's lifestyle."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Hiduplah ikut kemampuan sendiri je. Tak payah nak kejar semua tu.",
+          "ms_standard": "Hiduplah mengikut kemampuan sendiri sahaja. Tidak perlu mengejar semua itu.",
+          "zh": "照自己的能力过日子就好啦，没必要什么都追。",
+          "en": "Just live within your means. You don't have to chase all that."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form combines hidup with the attached particle -lah. Its interest lies in Malay discourse rather than a separate borrowing history: the same particle can make an appeal warmer, an instruction firmer, or a narrative more emphatic. DBP explicitly distinguishes such particle attachment from derivational affixation. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel)",
+    "cognitive_memory_aid": "先记 hidup＝活；再把 -lah 听成一句有语气的叮咛：hiduplah＝好好生活吧。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 不自动等于礼貌。温和语调可以表达祝福，生硬语调也可能显得居高临下；对长辈或上司表达祝愿时，Semoga tuan/puan hidup bahagia 往往更委婉。",
+    "usage_etiquette": "适合祝愿、劝勉、演讲和文学叙述。面对丧亲或严重困境者，直接说 hiduplah dengan bahagia 可能显得轻率，应先回应对方的处境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 不自动等于礼貌。温和语调可以表达祝福，生硬语调也可能显得居高临下；对长辈或上司表达祝愿时，Semoga tuan/puan hidup bahagia 往往更委婉。",
+    "usage_etiquette": "适合祝愿、劝勉、演讲和文学叙述。面对丧亲或严重困境者，直接说 hiduplah dengan bahagia 可能显得轻率，应先回应对方的处境。"
+  }
+}

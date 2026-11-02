@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "melantik",
+    "syllables": null,
+    "ipa": "/mə.lan.tiʔ/",
+    "jawi": "ملانتيق",
+    "frequency_rank": 9029,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lantik",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + lantik → melantik",
+    "pattern_note": "meN- 在词首 l 前实现为 me-，保留 l；马来西亚常见发音中，词末 k 实现为喉塞音 [ʔ]。",
+    "word_family": [
+      {
+        "word": "lantikan",
+        "affix": "-an",
+        "gloss": "任命；获任命者"
+      },
+      {
+        "word": "pelantikan",
+        "affix": "peN-...-an",
+        "gloss": "任命行为或程序"
+      },
+      {
+        "word": "dilantik",
+        "affix": "di-",
+        "gloss": "被任命"
+      }
+    ],
+    "root_jawi": "لانتيق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "正式任命某人担任某一职位或承担指定职务。",
+      "en_definition": "To formally appoint someone to a position or designated role.",
+      "ms_definition": "Mengangkat seseorang dengan rasmi untuk memegang sesuatu jawatan.",
+      "nuances": "及物动词，通常使用 melantik seseorang sebagai + 职位。任命意味着由有权者作出正式决定，不能直接等同于 mencalonkan（提名）或 memilih（选择、选举）。表示任命行为的规范名词为 pelantikan。[DBP 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=melantik)",
+      "collocations": [
+        {
+          "ms": "melantik pengerusi",
+          "zh": "任命主席",
+          "en": "appoint a chairperson"
+        },
+        {
+          "ms": "melantik ahli jawatankuasa",
+          "zh": "任命委员会成员",
+          "en": "appoint committee members"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Lembaga pengarah telah melantik Puan Aina sebagai ketua pegawai eksekutif yang baharu.",
+      "zh": "董事会已任命艾娜女士为新任首席执行官。",
+      "en": "The board of directors has appointed Ms Aina as the new chief executive officer."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bos dah melantik Farah jadi ketua projek, kan?",
+      "ms_standard": "Majikan sudah melantik Farah sebagai ketua projek, bukan?",
+      "zh": "老板已经任命法拉当项目负责人了，对吧？",
+      "en": "The boss has appointed Farah as project lead, right?",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "jadi 在口语中引出所任职位",
+        "kan 用于寻求确认",
+        "melantik 在口语中仍可保留，尤其谈论正式任命时"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Bos dah melantik Farah jadi ketua projek, kan?",
+          "ms_standard": "Majikan sudah melantik Farah sebagai ketua projek, bukan?",
+          "zh": "老板已经任命法拉当项目负责人了，对吧？",
+          "en": "The boss has appointed Farah as project lead, right?"
+        },
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Ya, dia nak bincang pembahagian tugas dengan kita esok.",
+          "ms_standard": "Ya, dia mahu membincangkan pembahagian tugas dengan kita esok.",
+          "zh": "对，她想明天跟我们商量怎么分工。",
+          "en": "Yes, she wants to discuss how to divide up the work with us tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Melantik is transparently formed from lantik with the Malay active prefix meN-, realized as me- before l. Its present meaning centres on formally assigning an office. The related noun pelantikan illustrates a useful administrative distinction: Malay names the appointment process with this form, and DBP explicitly identifies it as the correct spelling rather than perlantikan. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=melantik)",
+    "cognitive_memory_aid": "把 lantik 与“任命书”绑定：me- + lantik，想象上级签字，把某人正式放到职位上。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式任命文件应准确写明姓名、适用称谓与职位；称谓如 Encik、Puan 或专业头衔须符合实际身份。",
+    "usage_etiquette": "适用于政府、企业、社团和学校的职位安排。尚未作出正式决定时，宜用 mencadangkan（建议）或 mencalonkan（提名），避免让对方误以为任命已经生效。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式任命文件应准确写明姓名、适用称谓与职位；称谓如 Encik、Puan 或专业头衔须符合实际身份。",
+    "usage_etiquette": "适用于政府、企业、社团和学校的职位安排。尚未作出正式决定时，宜用 mencadangkan（建议）或 mencalonkan（提名），避免让对方误以为任命已经生效。"
+  }
+}

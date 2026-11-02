@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "kamilah",
+    "syllables": "ka.mi.lah",
+    "ipa": "/kamilah/",
+    "jawi": "کاميله",
+    "frequency_rank": 9048,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kami",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "kami + -lah（强调附着小品词）→ kamilah",
+    "pattern_note": "-lah 与 kami 连写，不改变词根读音；它是强调小品词，并非派生后缀，因此 affix_type 记为 none。原包的 کامي 仅对应 kami，完整词形补写为 کاميله。参见 [DBP：-lah 的性质与连写规则](https://prpm.dbp.gov.my/cari1?d=175768&keyword=lah)。",
+    "word_family": [
+      {
+        "word": "kami",
+        "affix": "∅",
+        "gloss": "我们，不包括听话者"
+      },
+      {
+        "word": "kamikah",
+        "affix": "-kah（疑问小品词）",
+        "gloss": "是我们吗"
+      }
+    ],
+    "root_jawi": "کامي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "正是我们；我们才是。强调说话者及其所属的一方，通常不包括听话者。",
+      "en_definition": "It is we or us; an emphatic form of the exclusive first-person plural pronoun kami.",
+      "ms_definition": "Kami yang ditegaskan, iaitu penutur bersama-sama orang dalam kelompoknya, tidak termasuk pendengar.",
+      "nuances": "实际词类是第一人称代词加强调小品词；因给定词类枚举没有 pronoun，此处以 noun 容纳代词类别。典型结构是 Kamilah yang…。-lah 强调身份，但不必然表示“只有我们”；若要明确排他，可加 hanya。kami 与包含听话者的 kita 有别。参见 [DBP：kami 与 kita](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kami+dan+kita) 及 [DBP：强调小品词](https://dewanbahasa.jendeladbp.my/2022/03/16/2777/)。",
+      "collocations": [
+        {
+          "ms": "kamilah yang bertanggungjawab",
+          "zh": "负责的正是我们",
+          "en": "we are the ones responsible"
+        },
+        {
+          "ms": "kamilah yang membantu",
+          "zh": "提供帮助的正是我们",
+          "en": "we are the ones who helped"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "正是我；用于文学或特定叙述语境中，以 kami 自称单个人，并加以强调。",
+      "en_definition": "It is I or me, with emphasis, where literary or context-specific kami refers to a single speaker.",
+      "ms_definition": "Saya atau aku yang ditegaskan, apabila kami digunakan sebagai kata ganti diri tunggal dalam konteks tertentu.",
+      "nuances": "此义依赖 kami 的特殊单数用法及具体语境，不是现代日常交流中替代 sayalah 的常规方式，也不表示一律比 saya 更礼貌。单数 kami 的词义见 [DBP：kami](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kami)；此处是该词义与 -lah 的组合分析。以下搭配按单数语境理解。",
+      "collocations": [
+        {
+          "ms": "kamilah penulisnya",
+          "zh": "作者正是我",
+          "en": "I am the author"
+        },
+        {
+          "ms": "kamilah yang bercerita",
+          "zh": "讲述者正是我",
+          "en": "I am the one telling the story"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kamilah yang bertanggungjawab menyelaras bantuan kepada keluarga yang terjejas.",
+      "zh": "负责为受影响家庭协调援助的正是我们。",
+      "en": "We are the ones responsible for coordinating assistance for the affected families."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kamilah yang dah tempah meja tu.",
+      "ms_standard": "Kamilah yang sudah menempah meja itu.",
+      "zh": "那桌就是我们订的呀。",
+      "en": "We're the ones who booked that table.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "tu 是 itu 的口语形式。",
+        "口语 tempah 在此对应标准形式 menempah。",
+        "kamilah 把“我们这一方”放在强调焦点上；kami 通常不包括听话者。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (餐厅职员)",
+          "ms_spoken": "Siapa yang dah tempah meja untuk enam orang ni?",
+          "ms_standard": "Siapakah yang sudah menempah meja untuk enam orang ini?",
+          "zh": "这张六人桌是谁订的？",
+          "en": "Who booked this table for six?"
+        },
+        {
+          "speaker": "Amir (顾客)",
+          "ms_spoken": "Kamilah yang tempah. Atas nama Amir, ya.",
+          "ms_standard": "Kamilah yang menempahnya. Tempahan itu atas nama Amir.",
+          "zh": "是我们订的，订位名字是 Amir。",
+          "en": "That was us. The booking's under Amir."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kamilah brings together two established Malay resources: kami identifies the speaker's group, and -lah gives that expression emphasis. The distinction between kami and kita makes group boundaries explicit in ways English we does not. In a sentence such as Kamilah yang membantu, the speaker highlights who helped while normally leaving the listener outside the named group.",
+    "cognitive_memory_aid": "kami = 我们这一边，通常不包括你；加 -lah 就把聚光灯打过来：“正是我们！”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "可用于认领责任、说明身份或纠正误会；重读时也可能显得邀功或争辩。-lah 在此主要强调身份，并不自动使语气委婉。",
+    "usage_etiquette": "对客户代表本方团队时可用 kami；若要把对方也包括在共同任务中，应根据实际所指使用 kita。正式汇报若无需突出身份，Kami bertanggungjawab… 通常比 Kamilah yang bertanggungjawab… 更平实。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "可用于认领责任、说明身份或纠正误会；重读时也可能显得邀功或争辩。-lah 在此主要强调身份，并不自动使语气委婉。",
+    "usage_etiquette": "对客户代表本方团队时可用 kami；若要把对方也包括在共同任务中，应根据实际所指使用 kita。正式汇报若无需突出身份，Kami bertanggungjawab… 通常比 Kamilah yang bertanggungjawab… 更平实。"
+  }
+}

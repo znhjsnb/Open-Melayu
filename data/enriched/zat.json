@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "zat",
+    "syllables": "zat",
+    "ipa": "/zat/",
+    "jawi": "ذات",
+    "frequency_rank": 9103,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "zat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + zat → zat",
+    "pattern_note": "整词借入的单音节词，无现代马来语词缀；马来语词首读 /z/，不必照搬阿拉伯语原音。",
+    "word_family": [
+      {
+        "word": "berzat",
+        "affix": "ber-",
+        "gloss": "含有营养；有营养的"
+      },
+      {
+        "word": "zat-zat",
+        "affix": "无词缀；整词重叠",
+        "gloss": "各种物质或营养成分"
+      }
+    ],
+    "root_jawi": "ذات"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "本体；使某物得以存在的本质，尤用于宗教或哲学讨论。",
+      "en_definition": "Essence or essential being, especially in theological or philosophical usage.",
+      "ms_definition": "Sesuatu yang menyebabkan wujudnya sesuatu benda.",
+      "nuances": "属抽象、较庄重的用法。zat Allah 指真主自存的本体，不应按营养成分或普通物质理解。释义依据：[DBP：zat](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=zat)。",
+      "collocations": [
+        {
+          "ms": "zat Allah",
+          "zh": "真主的本体",
+          "en": "the divine essence"
+        },
+        {
+          "ms": "sifat dan zat Allah",
+          "zh": "真主的属性与本体",
+          "en": "the attributes and essence of Allah"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "组成某物的物质、成分或精质。",
+      "en_definition": "A substance or constituent forming part of something.",
+      "ms_definition": "Bahagian daripada sesuatu benda, pati atau inti daripada sesuatu.",
+      "nuances": "常见于固定术语；zat hijau 指叶绿素，zat kapur 指钙。不要据这些固定搭配，把所有科学语境中的物质都机械替换成 zat；现代说明中也常用 bahan 或 unsur。",
+      "collocations": [
+        {
+          "ms": "zat hijau",
+          "zh": "叶绿素",
+          "en": "chlorophyll"
+        },
+        {
+          "ms": "zat kapur",
+          "zh": "钙",
+          "en": "calcium"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "食物中供身体利用的营养成分或养分。",
+      "en_definition": "A nutrient or nourishing constituent of food.",
+      "ms_definition": "Pati atau inti daripada sesuatu, seperti makanan; zat makanan ialah zat yang terdapat dalam makanan dan diperlukan oleh tubuh.",
+      "nuances": "这是食物成分义的常用分化。zat makanan 泛指营养素；虽然《Kamus Dewan》第四版在搭配下简释为 vitamin，实际学习与日常用法不宜只译作维生素。[DBP：zat 与相关释义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=zat)。",
+      "collocations": [
+        {
+          "ms": "zat makanan",
+          "zh": "营养素",
+          "en": "nutrients"
+        },
+        {
+          "ms": "kekurangan zat",
+          "zh": "营养缺乏",
+          "en": "nutrient deficiency"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共宣传 / 营养教育",
+      "ms": "Program pendidikan pemakanan itu menerangkan kepentingan zat makanan kepada murid sekolah.",
+      "zh": "该营养教育项目向在校学生讲解营养素的重要性。",
+      "en": "The nutrition education programme explains the importance of nutrients to schoolchildren."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聊午餐",
+      "ms_spoken": "Jangan makan mi segera je, tambah telur dengan sayur supaya cukup zat.",
+      "ms_standard": "Jangan hanya makan mi segera; tambahkan telur dan sayur supaya mendapat zat yang mencukupi.",
+      "zh": "别光吃快熟面，加个蛋和一些菜，营养才够。",
+      "en": "Don't just eat instant noodles. Add an egg and some vegetables to get enough nutrients.",
+      "spoken_features": [
+        "je 对应 sahaja",
+        "dengan 在口语中可连接并列食材",
+        "dah 对应 sudah",
+        "口语中可省略由上下文明确的主语"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jangan makan mi segera je, tambah telur dengan sayur supaya cukup zat.",
+          "ms_standard": "Jangan hanya makan mi segera; tambahkan telur dan sayur supaya mendapat zat yang mencukupi.",
+          "zh": "别光吃快熟面，加个蛋和一些菜，营养才够。",
+          "en": "Don't just eat instant noodles. Add an egg and some vegetables to get enough nutrients."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah tambah dah. Sayur pun aku letak banyak hari ni.",
+          "ms_standard": "Saya sudah menambahkannya. Saya juga memasukkan banyak sayur pada hari ini.",
+          "zh": "已经加啦，今天我还放了不少菜。",
+          "en": "I have! I've put in plenty of vegetables today too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Zat comes from Arabic dhāt, associated with essence or being. An early Malay vocabulary records both substance and divine essence, showing that its abstract meaning was already established. Modern Malay also uses it for constituents and nutrients, so the same short word can appear in discussions of theology, plant pigments and everyday meals. See [Shellabear's vocabulary](https://ms.wikisource.org/wiki/Malay-English_Vocabulary/Z).",
+    "cognitive_memory_aid": "把 zat 记成事物里的“核心成分”：谈存在是本体，谈食物是养分；不必强造中文谐音。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈食物时语气中性。谈 zat Allah 时宜用庄重、准确的表达，尊重宗教语境。",
+    "usage_etiquette": "讨论儿童、病人或家庭饮食时，避免用 kurang zat 嘲笑外貌或评价家境；需要表达关心时，具体讨论饮食与营养。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈食物时语气中性。谈 zat Allah 时宜用庄重、准确的表达，尊重宗教语境。",
+    "usage_etiquette": "讨论儿童、病人或家庭饮食时，避免用 kurang zat 嘲笑外貌或评价家境；需要表达关心时，具体讨论饮食与营养。"
+  }
+}
