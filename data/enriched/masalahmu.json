@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "masalahmu",
+    "syllables": "ma.sa.lah.mu",
+    "ipa": "/ma.sa.lah.mu/",
+    "jawi": "مسئله",
+    "frequency_rank": 7637,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "masalah",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "masalah + -mu → masalahmu",
+    "pattern_note": "-mu 是 kamu 的附着代词，在此表示“你的”，并非派生词缀；按本字段的有限分类列为 suffix。连接时词根读音不变。输入爪夷文 مسئله 仅为词根形式，故原样保留；完整 masalahmu 可写作 مسئلهمو。音节与 IPA 根据完整词形补全。附着代词须连写，参见 [DBP：ku、kau、mu 的写法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau+terima)。",
+    "word_family": [
+      {
+        "word": "bermasalah",
+        "affix": "ber-",
+        "gloss": "有问题；存在困难"
+      },
+      {
+        "word": "permasalahan",
+        "affix": "per-...-an",
+        "gloss": "问题；各种待解决的事项"
+      }
+    ],
+    "root_jawi": "مسئله"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的问题、困难或需要解决的事情。",
+      "en_definition": "Your problem, difficulty, or matter requiring a solution.",
+      "ms_definition": "Kesukaran atau perkara yang perlu kamu selesaikan atau yang berkaitan dengan dirimu.",
+      "nuances": "masalahmu 相当于 masalah kamu；-mu 指单个受话者，不表示问题的数量。形式合乎标准语法，但在马来西亚日常交谈中常用 masalah awak 或 masalah kau。独立说 Itu masalahmu 可带“那是你自己的事”的疏离语气。基本词义参见 [DBP：masalah](https://prpm.dbp.gov.my/cari1?keyword=masalah)。",
+      "collocations": [
+        {
+          "ms": "menyelesaikan masalahmu",
+          "zh": "解决你的问题",
+          "en": "solve your problem"
+        },
+        {
+          "ms": "menceritakan masalahmu",
+          "zh": "说出你的烦恼",
+          "en": "talk about your troubles"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你提出、正在处理或被分配解答的数学题。",
+      "en_definition": "A mathematical problem you have posed or are working on.",
+      "ms_definition": "Soalan matematik yang kamu kemukakan atau perlu kamu selesaikan melalui pengiraan atau kaedah lain.",
+      "nuances": "这是 masalah 的数学义与 -mu 的组合，并非另一个独立词根。通常需要数学上下文；课堂上 soalan kamu 往往更直接。参见 [DBP：masalah 的数学义](https://prpm.dbp.gov.my/cari1?keyword=masalah)。",
+      "collocations": [
+        {
+          "ms": "penyelesaian masalahmu",
+          "zh": "你的题目的解法",
+          "en": "the solution to your problem"
+        },
+        {
+          "ms": "jawapan bagi masalahmu",
+          "zh": "你的题目的答案",
+          "en": "the answer to your problem"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "学校辅导 / 正式书面回应",
+      "ms": "Pihak sekolah bersedia membantu menyelesaikan masalahmu melalui sesi kaunseling individu.",
+      "zh": "校方愿意通过个别辅导帮助解决你的问题。",
+      "en": "The school is willing to help you resolve your difficulties through individual counselling."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kalau nak cerita pasal masalahmu, aku ada je.",
+      "ms_standard": "Jika kamu mahu menceritakan masalahmu, saya sedia mendengar.",
+      "zh": "想聊聊你的烦恼的话，我随时都在。",
+      "en": "If you want to talk about what's bothering you, I'm here.",
+      "spoken_features": [
+        "nak 是 hendak 的口语形式，pasal 在此相当于 tentang。",
+        "aku 是熟人之间的第一人称，je 是 sahaja 的口语形式。",
+        "保留 masalahmu 时略显书面或抒情；日常也常说 masalah kau 或 masalah awak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (好友)",
+          "ms_spoken": "Kau nampak risau je. Kalau nak cerita pasal masalahmu, aku ada.",
+          "ms_standard": "Kamu kelihatan risau. Jika kamu mahu menceritakan masalahmu, saya sedia mendengar.",
+          "zh": "你看起来挺担心的。想聊聊你的烦恼，我在呢。",
+          "en": "You seem worried. If you want to talk about it, I'm here."
+        },
+        {
+          "speaker": "Aiman (好友)",
+          "ms_spoken": "Terima kasih. Aku tengah pening pasal kerja ni. Nanti aku cerita, ya.",
+          "ms_standard": "Terima kasih. Saya sedang berasa tertekan kerana hal kerja ini. Saya akan menceritakannya nanti.",
+          "zh": "谢谢啊。我正为工作的事头疼呢，晚点跟你说。",
+          "en": "Thanks. Work's been stressing me out. I'll tell you about it later, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Masalah comes from Arabic masʾala, meaning a question or problem, as documented in the regional loanword record. Malay combines this borrowed noun with its own bound pronoun -mu, shortened from kamu. The resulting word neatly joins two linguistic histories: an Arabic-derived expression for a difficulty and a Malay grammatical device identifying whose difficulty it is. See [SEAlang's loanword record](https://sealang.net/indonesia/lwim.old/htm/m.htm) and [DBP's pronoun guidance](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau+terima).",
+    "cognitive_memory_aid": "先读 ma-sa-lah，记“问题”；末尾 mu 对应 kamu“你”：masalah + mu，就是“你的问题”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 常见于文学、歌词、亲密表达或对晚辈的书面话语，并不是敬称。对客户、长辈或上司，通常改用 masalah tuan、masalah puan 或对方的职衔。",
+    "usage_etiquette": "关怀时可说 Saya sedia mendengar masalahmu；单说 Itu masalahmu 容易显得冷淡。正式机构对公众发文通常选择 masalah anda；所给正式例句适用于学校直接致学生的语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 常见于文学、歌词、亲密表达或对晚辈的书面话语，并不是敬称。对客户、长辈或上司，通常改用 masalah tuan、masalah puan 或对方的职衔。",
+    "usage_etiquette": "关怀时可说 Saya sedia mendengar masalahmu；单说 Itu masalahmu 容易显得冷淡。正式机构对公众发文通常选择 masalah anda；所给正式例句适用于学校直接致学生的语境。"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "apatah",
+    "syllables": "a.pa.tah",
+    "ipa": "/aˈpatah/",
+    "jawi": "اڤاته",
+    "frequency_rank": 7654,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "apatah",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + apatah → apatah；内部结构：apa + -tah → apatah",
+    "pattern_note": "按输入包将 apatah 作为独立词条处理；内部可分析为 apa 加疑问强调附着成分 -tah。-tah 连写，不引起词干音变；它不是普通派生后缀。",
+    "word_family": [
+      {
+        "word": "apa",
+        "affix": "∅",
+        "gloss": "什么"
+      },
+      {
+        "word": "apakah",
+        "affix": "-kah（疑问附着成分）",
+        "gloss": "什么；是否"
+      },
+      {
+        "word": "apalah",
+        "affix": "-lah（强调附着成分）",
+        "gloss": "究竟什么；有什么呢，依语境而定"
+      }
+    ],
+    "root_jawi": "اڤاته"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "用来强调程度更深或更不可能的情况，通常构成 apatah lagi，意为“更何况；更不用说”。",
+      "en_definition": "An emphatic expression, usually in apatah lagi, meaning much more so or, after a negative statement, let alone.",
+      "ms_definition": "Lebih-lebih lagi; apalagi.",
+      "nuances": "核心是递进推论。前句为否定时，常译为“连……都不……，更不用说……”；前句为肯定时，可译为“更何况”。不能一律翻译成 what else。此处 particle 为给定词性集合下的功能性标注。[DBP：apatah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=apatah)",
+      "collocations": [
+        {
+          "ms": "apatah lagi",
+          "zh": "更何况；更不用说",
+          "en": "all the more so; let alone"
+        },
+        {
+          "ms": "apatah lagi jika",
+          "zh": "更何况如果……",
+          "en": "especially if; all the more so if"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "用于自问或反问，强调“究竟有什么；又有什么”，常带感叹、无奈或质疑语气。",
+      "en_definition": "An emphatic rhetorical question form meaning what or what possible, often expressing doubt or resignation.",
+      "ms_definition": "Bentuk apa yang disertai partikel -tah untuk mengungkapkan pertanyaan kepada diri sendiri atau pertanyaan retorik.",
+      "nuances": "主要见于文学或较庄重表达，如 apatah gunanya。完整结构含疑问成分 apa；此处 particle 是受限词性集合下的近似标注。马来语正字法规定 -tah 与前词连写。[DBP：马来语拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)",
+      "collocations": [
+        {
+          "ms": "apatah gunanya",
+          "zh": "又有什么用呢",
+          "en": "what use is it"
+        },
+        {
+          "ms": "apatah dayaku",
+          "zh": "我又能怎么办呢",
+          "en": "what can I possibly do"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Peruntukan semasa tidak mencukupi untuk menampung kos penyelenggaraan, apatah lagi untuk membiayai pembinaan kemudahan baharu.",
+      "zh": "现有拨款不足以支付维护费用，更不用说资助新设施建设。",
+      "en": "The current allocation is insufficient to cover maintenance costs, let alone fund the construction of new facilities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nak jalan pun sakit lagi, apatah lagi nak berlari.",
+      "ms_standard": "Berjalan pun masih menyakitkan, apatah lagi berlari.",
+      "zh": "走路都还疼，更别说跑步了。",
+      "en": "It still hurts even to walk, let alone run.",
+      "spoken_features": [
+        "nak 对应 hendak；口语中也可引出打算进行的动作",
+        "sakit lagi 在此对应 masih sakit",
+        "apatah lagi 在口语中仍可完整保留"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kaki kau dah baik? Nak ikut lari esok?",
+          "ms_standard": "Adakah kaki awak sudah pulih? Adakah awak hendak turut berlari esok?",
+          "zh": "你的脚好了吗？明天要一起跑步吗？",
+          "en": "Has your foot healed? Want to join us for a run tomorrow?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belumlah. Nak jalan pun sakit lagi, apatah lagi nak berlari.",
+          "ms_standard": "Kaki saya belum pulih. Berjalan pun masih menyakitkan, apatah lagi berlari.",
+          "zh": "还没呢。走路都还疼，更别说跑步了。",
+          "en": "Not yet. It still hurts even to walk, let alone run."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Apatah combines apa, meaning “what”, with the attached particle -tah. Malay spelling guidance requires this particle to join the preceding word. The form supports rhetorical questioning, while the dictionary records its emphatic meaning alongside apalagi. For learners, apatah lagi provides a useful bridge between rhetorical emphasis and everyday expressions of comparison.",
+    "cognitive_memory_aid": "抓住 lagi“还、更”：前面已如此，apatah lagi 后面就“更何况／更不用说”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身不失礼，但递进比较若涉及他人能力或经济状况，可能显得轻视；宜比较情境和条件。",
+    "usage_etiquette": "apatah lagi 适用于论述及日常强调；apatah gunanya 带反问色彩，对别人的建议使用时可能显得否定或不耐烦。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身不失礼，但递进比较若涉及他人能力或经济状况，可能显得轻视；宜比较情境和条件。",
+    "usage_etiquette": "apatah lagi 适用于论述及日常强调；apatah gunanya 带反问色彩，对别人的建议使用时可能显得否定或不耐烦。"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headword": {
+    "word": "kepanasan",
+    "syllables": "ke.pa.na.san",
+    "ipa": "/kə.pa.na.san/",
+    "jawi": "کڤانسن",
+    "frequency_rank": 7659,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "panas",
+    "affix": "ke-...-an",
+    "affix_type": "circumfix",
+    "formula": "ke- + panas + -an → kepanasan",
+    "pattern_note": "ke-...-an 可表示状态，也可表示遭受某种影响；词根 panas 保留，末尾 s 与后缀元音连读，音节划为 ke.pa.na.san。",
+    "word_family": [
+      {
+        "word": "berpanas",
+        "affix": "ber-",
+        "gloss": "晒太阳；处于炎热中"
+      },
+      {
+        "word": "memanaskan",
+        "affix": "meN-...-kan",
+        "gloss": "加热；使变热"
+      },
+      {
+        "word": "pemanas",
+        "affix": "peN-",
+        "gloss": "加热器"
+      },
+      {
+        "word": "pemanasan",
+        "affix": "peN-...-an",
+        "gloss": "加热过程；升温"
+      }
+    ],
+    "root_jawi": "ڤانس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "热的状态、热度或温热程度。",
+      "en_definition": "The state or degree of being hot; heat or warmth.",
+      "ms_definition": "Perihal panas; kehangatan.",
+      "nuances": "指状态或程度；与表示加热过程的 pemanasan 区别。科学语境中，haba 是热能，suhu 是温度，不宜一律替换为 kepanasan。基本义项见 [DBP：kepanasan](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=kepanasan)。",
+      "collocations": [
+        {
+          "ms": "kepanasan matahari",
+          "zh": "太阳的热力",
+          "en": "the heat of the sun"
+        },
+        {
+          "ms": "darjah kepanasan",
+          "zh": "冷热程度；热度",
+          "en": "degree of hotness"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "非常热；热得难以忍受。",
+      "en_definition": "Extremely or uncomfortably hot.",
+      "ms_definition": "Tersangat panas.",
+      "nuances": "强调强烈的热感；与遭受炎热的用法常有重叠。不可因含有 ke-...-an 就把所有用例都分析成名词。",
+      "collocations": [
+        {
+          "ms": "terlalu kepanasan",
+          "zh": "热得过头；太热",
+          "en": "far too hot"
+        },
+        {
+          "ms": "badan kepanasan",
+          "zh": "身体热得难受",
+          "en": "the body feeling uncomfortably hot"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "受到日晒或热气影响而感到炎热难受。",
+      "en_definition": "To suffer from exposure to heat or feel uncomfortably hot.",
+      "ms_definition": "Kena panas atau menderita panas.",
+      "nuances": "表示遭受状态，可按 ke-...-an 被动动词分析，如 pekerja kepanasan。并不自动表示中暑、发烧或烫伤。",
+      "collocations": [
+        {
+          "ms": "kepanasan di bawah matahari",
+          "zh": "在太阳底下热得难受",
+          "en": "suffer from the heat in the sun"
+        },
+        {
+          "ms": "berpeluh kerana kepanasan",
+          "zh": "因炎热而流汗",
+          "en": "sweat from the heat"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "内心的愤怒或怒火；主要见于 kepanasan hati。",
+      "en_definition": "Anger or emotional heat, especially in the expression kepanasan hati.",
+      "ms_definition": "Kemarahan hati, khususnya dalam ungkapan kepanasan hati.",
+      "nuances": "这是与 hati 连用的比喻义，不能据此把所有 kepanasan 都理解为生气。日常表达愤怒更常用 marah 或 panas hati。",
+      "collocations": [
+        {
+          "ms": "kepanasan hati",
+          "zh": "心中的怒火",
+          "en": "anger; emotional heat"
+        },
+        {
+          "ms": "menahan kepanasan hati",
+          "zh": "压住心中的怒火",
+          "en": "hold back one's anger"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Penyelia menyediakan tempat rehat yang teduh supaya pekerja tidak kepanasan ketika menjalankan tugas di luar bangunan.",
+      "zh": "主管提供了阴凉的休息处，避免员工在户外工作时热得难受。",
+      "en": "The supervisor provided a shaded rest area so workers would not suffer from the heat while working outdoors."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah kepanasan kat sini. Kita duduk bawah pokok tu je lah.",
+      "ms_standard": "Saya sudah berasa kepanasan di sini. Marilah kita duduk di bawah pokok itu sahaja.",
+      "zh": "我在这儿热得不行了。咱们去那棵树下坐吧。",
+      "en": "I'm getting really hot here. Let's just sit under that tree.",
+      "spoken_features": [
+        "dah、kat、tu、je 分别对应 sudah、di、itu、sahaja。",
+        "口语省略 bawah 前的介词 di。",
+        "lah 使共同建议更自然。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah kepanasan tunggu kat luar ni. Kau kat mana?",
+          "ms_standard": "Saya sudah berasa kepanasan kerana menunggu di luar ini. Kamu berada di mana?",
+          "zh": "我在外面等得热死了。你在哪儿？",
+          "en": "I'm getting really hot waiting out here. Where are you?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku kat dalam kedai. Masuk je lah, sini sejuk sikit.",
+          "ms_standard": "Saya berada di dalam kedai. Masuklah kerana di sini lebih sejuk sedikit.",
+          "zh": "我在店里。进来吧，这里凉快一点。",
+          "en": "I'm inside the shop. Come on in; it's a bit cooler here."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kepanasan grows from panas through the Malay circumfix ke-...-an. The resulting word can name a hot condition or describe someone affected by heat. Its figurative extension appears in kepanasan hati, where physical heat becomes anger. The dictionary also records seperti cacing kepanasan, comparing restless discomfort to a worm exposed to heat.",
+    "cognitive_memory_aid": "panas＝热；ke-...-an 像热气把人包住：既可表示热的状态，也可表示热得难受。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "表达自己 kepanasan 通常自然、不失礼。请求调整风扇或空调时，可用 Boleh ...?，并考虑同处一室者的感受。",
+    "usage_etiquette": "适合天气、户外活动及室内闷热等情境。seperti cacing kepanasan 比喻坐立不安，用来形容他人可能带嘲讽意味；kepanasan 本身不是中暑的专门名称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "表达自己 kepanasan 通常自然、不失礼。请求调整风扇或空调时，可用 Boleh ...?，并考虑同处一室者的感受。",
+    "usage_etiquette": "适合天气、户外活动及室内闷热等情境。seperti cacing kepanasan 比喻坐立不安，用来形容他人可能带嘲讽意味；kepanasan 本身不是中暑的专门名称。"
+  }
+}

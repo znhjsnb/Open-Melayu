@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "mengapalah",
+    "syllables": null,
+    "ipa": "/mə.ŋa.pa.lah/",
+    "jawi": "مڠاڤ",
+    "frequency_rank": 7613,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mengapa",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "mengapa + -lah → mengapalah",
+    "pattern_note": "-lah 是附着语气词，按给定枚举归入 suffix；不触发鼻音替换。完整音节为 me.nga.pa.lah。headword.jawi 按数据包保留，但该拼写仅对应 mengapa；加入 -lah 后为 مڠاڤله。",
+    "word_family": [
+      {
+        "word": "mengapa",
+        "affix": null,
+        "gloss": "为什么"
+      },
+      {
+        "word": "mengapakah",
+        "affix": "-kah",
+        "gloss": "为什么；较正式的疑问形式"
+      }
+    ],
+    "root_jawi": "مڠاڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "为什么呀；用于追问原因，并带强调、困惑或惊讶的语气。",
+      "en_definition": "Why, with added emphasis, puzzlement, or surprise.",
+      "ms_definition": "Sebab apa; apa fasal.",
+      "nuances": "马来语语法称 mengapa 为 kata tanya，此处按给定词性枚举映射为 adverb。所给 DBP 释义属于基词 mengapa，-lah 增添语气；它不必然使问题更礼貌。中性正式询问常用 mengapa 或 mengapakah。",
+      "collocations": [
+        {
+          "ms": "mengapalah begitu",
+          "zh": "为什么会这样呀",
+          "en": "why is it like that"
+        },
+        {
+          "ms": "mengapalah sampai begitu",
+          "zh": "为什么竟会到那种地步",
+          "en": "why did it have to go that far"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "怎么偏偏……；用于带有懊悔、埋怨或无奈的反问或自问。",
+      "en_definition": "Why, used rhetorically to express regret, frustration, or dismay.",
+      "ms_definition": "Sebab apa, dengan nada kesal, keluhan atau kehairanan.",
+      "nuances": "这是带语气词后的语用延伸，马来文释义为综合说明。问题可能不期待实际回答。DBP 的英马词典以 mengapalah saya mengangkatnya 表达带懊悔的感叹。不要与 mengalah（让步、认输）混淆。[DBP](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=mengeluh)",
+      "collocations": [
+        {
+          "ms": "mengapalah aku",
+          "zh": "我怎么偏偏……",
+          "en": "why on earth did I"
+        },
+        {
+          "ms": "mengapalah nasib",
+          "zh": "命运怎么偏偏……",
+          "en": "why must fate"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam mesyuarat penilaian itu, pengerusi melahirkan kekesalannya dengan bertanya, “Mengapalah perkara ini tidak dilaporkan lebih awal?”",
+      "zh": "在评估会议上，主席遗憾地问道：“这件事怎么没有更早上报呢？”",
+      "en": "At the review meeting, the chair expressed regret, asking, “Why wasn't this matter reported earlier?”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Mengapalah aku tak semak tadi? Dah tersalah hantar kat bos.",
+      "ms_standard": "Mengapalah saya tidak menyemaknya tadi? Saya sudah tersilap menghantarnya kepada ketua.",
+      "zh": "我刚才怎么就没检查一下呢？都发错给老板了。",
+      "en": "Why didn't I check it first? I've sent the wrong thing to my boss.",
+      "spoken_features": [
+        "-lah 在疑问词后表达懊悔或无奈。",
+        "tak 和 dah 分别对应 tidak 和 sudah。",
+        "kat 在此对应 kepada，表示发送对象。",
+        "aku 适合熟人交流；正式场合通常改用 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Mengapalah aku tak semak tadi? Dah tersalah hantar kat bos.",
+          "ms_standard": "Mengapalah saya tidak menyemaknya tadi? Saya sudah tersilap menghantarnya kepada ketua.",
+          "zh": "我刚才怎么就没检查一下呢？都发错给老板了。",
+          "en": "Why didn't I check it first? I've sent the wrong thing to my boss."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Hantar versi betul je sekarang, lepas tu bagitahu dia yang tadi tu silap.",
+          "ms_standard": "Hantarkan versi yang betul sekarang, kemudian maklumkan kepadanya bahawa versi tadi tersilap.",
+          "zh": "现在把正确版本发过去，再告诉他刚才发错了就行。",
+          "en": "Just send the correct version now and let him know the earlier one was a mistake."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mengapalah combines the question word mengapa with the emphatic particle -lah. The particle has a literary history beyond present-day messaging: research on Hikayat Malim Deman documents lah in classical narrative. In this combination, asking for a reason can acquire an emotional voice, turning a plain why into puzzlement or lament. That interpretation depends on context and intonation. [Classical Malay particle study](https://irep.iium.edu.my/82259/1/Prosiding%20PAPAM%202020.pdf).",
+    "cognitive_memory_aid": "mengapa＝为什么，接上 -lah，把心里的叹气也带出来：为什么偏偏这样呀。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对上级或不熟悉的人直接说 Mengapalah awak… 容易像责问。需要中性了解原因时，可说 Boleh jelaskan sebabnya?；-lah 并非固定的礼貌标记。",
+    "usage_etiquette": "适合熟人之间的困惑、自我懊悔、文学表达及带情绪的引语；客观公文通常使用 mengapa、mengapakah 或说明原因的陈述句。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对上级或不熟悉的人直接说 Mengapalah awak… 容易像责问。需要中性了解原因时，可说 Boleh jelaskan sebabnya?；-lah 并非固定的礼貌标记。",
+    "usage_etiquette": "适合熟人之间的困惑、自我懊悔、文学表达及带情绪的引语；客观公文通常使用 mengapa、mengapakah 或说明原因的陈述句。"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "perbelanjaan",
+    "syllables": "per.be.lan.ja.an",
+    "ipa": "/pər.bə.lan.dʒa.an/",
+    "jawi": "ڤربلنجاءن",
+    "frequency_rank": 7614,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "perbelanjaan",
+    "affix": "per-...-an",
+    "affix_type": "circumfix",
+    "formula": "per- + belanja + -an → perbelanjaan",
+    "pattern_note": "词根首音 b 保留，词尾 a 与后缀 -an 的 a 分属两个音节。root_word 和 root_jawi 按数据包保留；实际词根是 belanja（بلنجا），因此修正数据包的 is_root=true。[构词研究](https://spaj.ukm.my/jws/index.php/jws/article/download/677/566/)",
+    "word_family": [
+      {
+        "word": "berbelanja",
+        "affix": "ber-",
+        "gloss": "花钱；购物"
+      },
+      {
+        "word": "membelanjakan",
+        "affix": "meN-...-kan",
+        "gloss": "花费；支出某笔钱"
+      }
+    ],
+    "root_jawi": "ڤربلنجاءن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "花钱、支出资金的行为、过程或方式。",
+      "en_definition": "The activity, process, or manner of spending money.",
+      "ms_definition": "Perihal berbelanja; cara atau kaedah mengeluarkan wang.",
+      "nuances": "侧重支出行为或支出安排，与表示花钱的动词 berbelanja 相对应。perbelanjaan 是名词，不能直接替代谓语 berbelanja。",
+      "collocations": [
+        {
+          "ms": "corak perbelanjaan",
+          "zh": "消费支出模式",
+          "en": "spending patterns"
+        },
+        {
+          "ms": "mengawal perbelanjaan",
+          "zh": "控制开支",
+          "en": "control spending"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为生活、经营、项目等支付或使用的款项；开支、费用。",
+      "en_definition": "Money spent or required for a purpose; expenditure or expenses.",
+      "ms_definition": "Apa-apa yang dibelanjakan.",
+      "nuances": "可指单项费用、某类支出或总开支，不必加复数标记。perbelanjaan 指支出，belanjawan 指预算，二者不可混用。[DBP](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=belanja)",
+      "collocations": [
+        {
+          "ms": "perbelanjaan bulanan",
+          "zh": "每月开支",
+          "en": "monthly expenses"
+        },
+        {
+          "ms": "perbelanjaan isi rumah",
+          "zh": "家庭开支",
+          "en": "household expenditure"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua tuntutan perbelanjaan perjalanan hendaklah disertakan dengan resit asal.",
+      "zh": "所有差旅费用报销申请均须附上原始收据。",
+      "en": "All travel expense claims must be accompanied by original receipts."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Perbelanjaan bulan ni dah lebih bajet lah.",
+      "ms_standard": "Perbelanjaan bulan ini sudah melebihi bajet.",
+      "zh": "这个月的开支已经超预算啦。",
+      "en": "We've already gone over budget this month.",
+      "spoken_features": [
+        "ni 和 dah 分别对应 ini 和 sudah。",
+        "lebih bajet 是口语表达，标准句用 melebihi bajet。",
+        "句末 lah 表达强调或轻微无奈；规范书面语中可省略。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (配偶)",
+          "ms_spoken": "Perbelanjaan bulan ni dah lebih bajet lah. Kita nak potong yang mana dulu?",
+          "ms_standard": "Perbelanjaan bulan ini sudah melebihi bajet. Perbelanjaan yang manakah hendak kita kurangkan dahulu?",
+          "zh": "这个月开支已经超预算啦，我们先减哪一项？",
+          "en": "We've already gone over budget this month. What should we cut back on first?"
+        },
+        {
+          "speaker": "Amir (配偶)",
+          "ms_spoken": "Kita masak kat rumah je minggu ni. Boleh jimat sikit.",
+          "ms_standard": "Kita masak di rumah sahaja pada minggu ini supaya dapat berjimat sedikit.",
+          "zh": "这周就在家做饭吧，能省一点。",
+          "en": "Let's just cook at home this week. That'll save us a bit."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Perbelanjaan is built around belanja, a word associated with money used for particular needs. Its circumfix creates a noun covering both the act of spending and the money spent. This distinction links everyday household decisions with institutional accounts: buying groceries and recording departmental expenses belong to the same lexical family, despite their very different scales. [DBP](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=belanja).",
+    "cognitive_memory_aid": "belanja＝花钱；per-…-an 把动作装进账本，变成开支。注意末尾是 ja.an 两个音节。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合家庭理财、商务及公共财政语境。与不熟悉的人谈个人开支时，先说明用途，避免直接追问收入或评价对方消费。",
+    "usage_etiquette": "报销、费用分摊和预算讨论中，应明确金额、项目及付款责任。要求 AA 制可说 Kita kongsi perbelanjaan，语气通常比直接命令对方付款柔和。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合家庭理财、商务及公共财政语境。与不熟悉的人谈个人开支时，先说明用途，避免直接追问收入或评价对方消费。",
+    "usage_etiquette": "报销、费用分摊和预算讨论中，应明确金额、项目及付款责任。要求 AA 制可说 Kita kongsi perbelanjaan，语气通常比直接命令对方付款柔和。"
+  }
+}

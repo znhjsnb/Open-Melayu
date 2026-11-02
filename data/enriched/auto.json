@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "auto",
+    "syllables": "au.to",
+    "ipa": "/au̯.to/",
+    "jawi": "اءوتو",
+    "frequency_rank": 7572,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "auto",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + auto → auto",
+    "pattern_note": "au 为同一音节内的双元音。表示汽车时是独立借词；表示自动时是 automatik 的缩略形式。两者均不宜拆成马来语词根与词缀。",
+    "word_family": [
+      {
+        "word": "berauto",
+        "affix": "ber-",
+        "gloss": "乘汽车；以汽车代步"
+      },
+      {
+        "word": "auto gerobak",
+        "affix": null,
+        "gloss": "旧式复合词：货车；不是加缀派生词"
+      }
+    ],
+    "root_jawi": "اءوتو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "汽车；小汽车。属于带有印尼语及荷兰语背景的旧式用词。",
+      "en_definition": "A motorcar; an older word associated with Indonesian usage of Dutch origin.",
+      "ms_definition": "Kereta; motokar.",
+      "nuances": "《Kamus Dewan》标为 IB。现代马来西亚一般使用 kereta 或 motokar；auto gerobak 是词典记录的旧式货车名称，不宜当作现代常用搭配。[DBP：auto](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=auto)",
+      "collocations": [
+        {
+          "ms": "auto gerobak",
+          "zh": "货车〔旧称〕",
+          "en": "lorry; truck, in older usage"
+        },
+        {
+          "ms": "menaiki auto",
+          "zh": "乘汽车〔旧式表达〕",
+          "en": "to travel in a motorcar, in older usage"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "自动的；能够按设定自行运作的，是 automatik 的缩略形式。",
+      "en_definition": "Automatic; operating without continual manual control, shortened from automatik.",
+      "ms_definition": "Kependekan bagi automatik.",
+      "nuances": "《Kamus Pelajar》收录此缩略义。常见于设备模式、相机设置和汽车变速器说明；正式技术行文通常写完整形式 automatik。此义与旧式的“汽车”义须按语境区分。[DBP：auto](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=auto)",
+      "collocations": [
+        {
+          "ms": "mod auto",
+          "zh": "自动模式",
+          "en": "automatic mode"
+        },
+        {
+          "ms": "kereta auto",
+          "zh": "自动挡汽车",
+          "en": "a car with automatic transmission"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Juruteknik mengesahkan bahawa mod auto pada mesin itu berfungsi dengan baik.",
+      "zh": "技术人员确认，该机器的自动模式运作正常。",
+      "en": "The technician confirmed that the machine's automatic mode was working properly."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Letak kamera kat mod auto je, senang sikit.",
+      "ms_standard": "Tetapkan kamera kepada mod automatik supaya lebih mudah digunakan.",
+      "zh": "相机调成自动模式就好，比较省事。",
+      "en": "Just put the camera on auto. It's easier.",
+      "spoken_features": [
+        "kat 在这里代替表示设置位置的标准介词结构。",
+        "je 是 sahaja 的口语缩略形式。",
+        "senang sikit 是比较随意的“更方便一点”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak ambil gambar ni. Guna mod auto je boleh?",
+          "ms_standard": "Saya mahu mengambil gambar ini. Bolehkah saya menggunakan mod automatik sahaja?",
+          "zh": "我想拍这张照片，用自动模式就行吗？",
+          "en": "I want to take this photo. Can I just use auto mode?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh je. Kamera tu dah pilih tetapan yang sesuai.",
+          "ms_standard": "Boleh. Kamera itu sudah memilih tetapan yang sesuai.",
+          "zh": "可以啊，相机已经选好合适的设置了。",
+          "en": "Sure. The camera has already picked suitable settings."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Auto preserves two distinct lexical histories. DBP marks its motorcar sense IB, linking it with Indonesian usage of Dutch origin; Dutch also uses auto for a car. Separately, DBP records auto as a shortening of automatik. This explains why an older passage may use the word for a vehicle while a modern camera menu uses it for a setting. [DBP](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=auto), [Cambridge Dutch–English](https://dictionary.cambridge.org/dictionary/dutch-english/auto)",
+    "cognitive_memory_aid": "看到 auto，先看场景：旧文里想到“汽车”，按钮上想到“自动”。au 连读，分节为 au.to。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词本身没有敬称或冒犯色彩。向客户或长辈解释设备时，可先说 mod automatik，再指出屏幕上的 auto 标签。",
+    "usage_etiquette": "现代马来西亚谈普通汽车通常说 kereta；谈自动挡时说 kereta auto 很自然。正式采购规格宜写 kereta bertransmisi automatik，以免语义含糊。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词本身没有敬称或冒犯色彩。向客户或长辈解释设备时，可先说 mod automatik，再指出屏幕上的 auto 标签。",
+    "usage_etiquette": "现代马来西亚谈普通汽车通常说 kereta；谈自动挡时说 kereta auto 很自然。正式采购规格宜写 kereta bertransmisi automatik，以免语义含糊。"
+  }
+}

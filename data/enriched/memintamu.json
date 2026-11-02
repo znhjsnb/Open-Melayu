@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "memintamu",
+    "syllables": null,
+    "ipa": "/mə.min.ta.mu/",
+    "jawi": "ممينتا",
+    "frequency_rank": 7649,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "meminta",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "meminta + -mu → memintamu；底层构词：meN- + minta → meminta",
+    "pattern_note": "-mu 是附着在词后的第二人称代词，不是派生词缀；此处借用 suffix 标签表示其位置。meminta 中 meN- 在词根首音 /m/ 前呈 me-，原有 /m/ 保留。",
+    "word_family": [
+      {
+        "word": "minta",
+        "affix": "∅",
+        "gloss": "请求；要求"
+      },
+      {
+        "word": "permintaan",
+        "affix": "per-...-an",
+        "gloss": "请求；需求"
+      }
+    ],
+    "root_jawi": "ممينتا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "请求你或要求你做某事；具体请求的内容由后面的补语或上下文说明。",
+      "en_definition": "To ask or request you to do something.",
+      "ms_definition": "Meminta kamu melakukan sesuatu; bentuk meminta yang digabungkan dengan kata ganti nama singkat -mu.",
+      "nuances": "这是 meminta 与 -mu 的组合，马来文释义是组合释义，并非 DBP 独立词条原文。-mu 表示 kamu，不表示“我的”；询问信息通常用 bertanya，而非直接用本词。原包未提供音节，故保留 null；所给 Jawi ممينتا 仅对应 meminta，完整组合按此拼写加 -mu 为 ممينتامو。基础动词用法参见 [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meminta)。",
+      "collocations": [
+        {
+          "ms": "memintamu membantu",
+          "zh": "请你帮忙",
+          "en": "ask you to help"
+        },
+        {
+          "ms": "memintamu hadir",
+          "zh": "请你出席",
+          "en": "request your attendance"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "书面请求 / 工作说明",
+      "ms": "Saya memintamu memberikan penjelasan bertulis tentang perkara ini.",
+      "zh": "我要求你就此事提供书面说明。",
+      "en": "I request that you provide a written explanation of this matter."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人之间请求帮忙",
+      "ms_spoken": "Aku memintamu tolong semak fail ni je, bukan buat semuanya.",
+      "ms_standard": "Aku memintamu membantu menyemak fail ini sahaja, bukan menyiapkan semuanya.",
+      "zh": "我只是请你帮忙检查这个文件，又不是要你全部做完。",
+      "en": "I'm only asking you to check this file, not do the whole thing.",
+      "spoken_features": [
+        "memintamu 在随意聊天中带有书面或刻意郑重的语气；更随意的说法是 minta kau。",
+        "ni 对应 ini；je 对应 sahaja。",
+        "nak 对应 hendak；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku memintamu tolong semak fail ni je, bukan buat semuanya.",
+          "ms_standard": "Aku memintamu membantu menyemak fail ini sahaja, bukan menyiapkan semuanya.",
+          "zh": "我只是请你帮忙检查这个文件，又不是要你全部做完。",
+          "en": "I'm only asking you to check this file, not do the whole thing."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Oh, okey. Aku nak semak sekarang, nanti dah siap aku bagitahu.",
+          "ms_standard": "Baiklah. Aku hendak menyemaknya sekarang dan akan memberitahumu apabila sudah selesai.",
+          "zh": "哦，好。我现在就检查，弄好了告诉你。",
+          "en": "Oh, okay. I'll check it now and let you know when I'm done."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Memintamu illustrates a productive Malay grammatical combination rather than a separate historical borrowing. The verb meminta expresses a request, while the attached pronoun -mu identifies the person addressed. This compact form suits letters, dialogue and literary expression, although everyday conversation often separates the verb and pronoun into minta kamu or minta kau.",
+    "cognitive_memory_aid": "meminta＝请求，-mu＝你；合起来就是“请求你”。把 -mu 当作贴在动词后面的“你”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 常用于亲近关系、文学表达或对晚辈说话，不自动表示尊敬。对客户、长辈或陌生人，通常改用姓名、职称、tuan 或 puan，并以 mohon 等表达缓和请求。",
+    "usage_etiquette": "适合双方接受 kamu 类称呼的关系。正式例句虽然符合标准语法，但直接对上级使用可能显得冒犯；涉及工作请求时应按关系选择称呼。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 常用于亲近关系、文学表达或对晚辈说话，不自动表示尊敬。对客户、长辈或陌生人，通常改用姓名、职称、tuan 或 puan，并以 mohon 等表达缓和请求。",
+    "usage_etiquette": "适合双方接受 kamu 类称呼的关系。正式例句虽然符合标准语法，但直接对上级使用可能显得冒犯；涉及工作请求时应按关系选择称呼。"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "stay",
+    "syllables": null,
+    "ipa": "/steɪ/",
+    "jawi": null,
+    "frequency_rank": 7580,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "stay",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + stay → stay",
+    "pattern_note": "英语整词插用，不拆成马来语词根与词缀；/eɪ/ 是一个双元音。没有据此可确认的规范马来语派生词，因此 word_family 留空。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "（马英混用口语）留下；继续待在某处，不离开。",
+      "en_definition": "In English–Malay code-switching, to remain in a place rather than leave.",
+      "ms_definition": "Dalam percakapan bercampur bahasa Inggeris, terus berada di sesuatu tempat dan tidak beredar; padanan bahasa Melayunya ialah tinggal atau berada.",
+      "nuances": "这是英语在马来语会话中的插用，不应仅凭本条的 official 数据标签认定其为规范马来语词。stay sini 对应 tinggal di sini；具体译法取决于是否强调停留、等候或住宿。英语读音与基本义参见 [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/stay)。",
+      "collocations": [
+        {
+          "ms": "stay kat sini",
+          "zh": "待在这里",
+          "en": "stay here"
+        },
+        {
+          "ms": "stay sampai petang",
+          "zh": "一直待到下午",
+          "en": "stay until the afternoon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "（马英混用口语）居住；暂住；在某处住宿或过夜。",
+      "en_definition": "In English–Malay code-switching, to live somewhere or lodge there temporarily.",
+      "ms_definition": "Dalam percakapan bercampur bahasa Inggeris, tinggal atau menetap di sesuatu tempat, atau menginap buat sementara waktu.",
+      "nuances": "询问住在哪里时，stay 可对应 tinggal；谈酒店住宿时通常对应 menginap。不要把所有 stay 都译成长期定居。DBP 的英马词典以 menginap 翻译酒店住宿语境中的 stay，参见 [PRPM](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menginap)。",
+      "collocations": [
+        {
+          "ms": "stay kat hotel",
+          "zh": "住酒店",
+          "en": "stay at a hotel"
+        },
+        {
+          "ms": "stay kat rumah kawan",
+          "zh": "住在朋友家",
+          "en": "stay at a friend's place"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "（英语短语插用）继续保持某种状态。",
+      "en_definition": "In an inserted English expression, to continue in a particular state.",
+      "ms_definition": "Dalam ungkapan bahasa Inggeris yang disisipkan dalam percakapan, terus berada dalam keadaan tertentu; padanannya termasuk kekal dan terus.",
+      "nuances": "常见于 stay calm、stay safe 等整段英语表达；不表示 stay 能在规范马来语中自由替代 kekal。其持续状态义参见 [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/stay)。",
+      "collocations": [
+        {
+          "ms": "stay calm",
+          "zh": "保持冷静",
+          "en": "stay calm"
+        },
+        {
+          "ms": "stay safe",
+          "zh": "注意安全",
+          "en": "stay safe"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan perjalanan ini, perkataan Inggeris \"stay\" diterjemahkan sebagai \"menginap\" kerana merujuk kepada penginapan di hotel.",
+      "zh": "在这份出差报告中，英语 stay 译为 menginap，因为它指的是在酒店住宿。",
+      "en": "In this travel report, the English word \"stay\" is translated as \"menginap\" because it refers to hotel accommodation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Malam ni saya stay kat rumah kakak je.",
+      "ms_standard": "Malam ini saya hanya menginap di rumah kakak.",
+      "zh": "今晚我就住姐姐家。",
+      "en": "I'm just staying at my sister's tonight.",
+      "spoken_features": [
+        "stay 是英语动词插用。",
+        "ni 是 ini 的口语形式。",
+        "kat 对应地点介词 di。",
+        "je 对应 sahaja，在此表示“就、而已”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Malam ni awak nak stay kat mana?",
+          "ms_standard": "Malam ini awak hendak menginap di mana?",
+          "zh": "你今晚打算住哪儿？",
+          "en": "Where are you staying tonight?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Saya stay kat rumah kakak je. Esok baru balik.",
+          "ms_standard": "Saya hanya menginap di rumah kakak. Saya akan pulang esok.",
+          "zh": "我就住姐姐家，明天才回去。",
+          "en": "I'm just staying at my sister's. I'll head home tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English stay, in its sense of remaining, came through Middle English from Anglo-French forms associated with standing, ultimately tracing to Latin stare. Its appearance inside Malay conversation represents English–Malay code-switching, rather than a Malay affix formation. Keeping that distinction visible helps learners choose tinggal, menginap, or kekal in formal writing. [Source: Merriam-Webster](https://scrabble.m-w.com/dictionary/stay).",
+    "cognitive_memory_aid": "听到 stay /steɪ/，想象有人伸手示意“先待着”：待在原地、住在某处、保持状态，都围绕“继续不变”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友或熟悉的同事之间可自然使用；对长辈、客户或不熟悉英语的人，使用 tinggal、menginap 或 kekal 更清楚。亲疏关系与语气比英语词本身更影响礼貌程度。",
+    "usage_etiquette": "适合双方习惯马英混用的聊天。正式马来语文件应按实际意思选用马来语对应词；本条 official 标签不构成 DBP 对该英语插用形式的规范认可。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友或熟悉的同事之间可自然使用；对长辈、客户或不熟悉英语的人，使用 tinggal、menginap 或 kekal 更清楚。亲疏关系与语气比英语词本身更影响礼貌程度。",
+    "usage_etiquette": "适合双方习惯马英混用的聊天。正式马来语文件应按实际意思选用马来语对应词；本条 official 标签不构成 DBP 对该英语插用形式的规范认可。"
+  }
+}

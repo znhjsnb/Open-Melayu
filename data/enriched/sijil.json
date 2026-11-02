@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "sijil",
+    "syllables": "si.jil",
+    "ipa": "/si.d͡ʒil/",
+    "jawi": "سيجيل",
+    "frequency_rank": 7551,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sijil",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sijil → sijil",
+    "pattern_note": "j 表示浊塞擦音 /d͡ʒ/。规范词 pensijilan 保留词根首字母 s，不套用 suntik → penyuntikan 的删 s 模式。",
+    "word_family": [
+      {
+        "word": "pensijilan",
+        "affix": "peN-...-an",
+        "gloss": "认证；按标准授予证书"
+      },
+      {
+        "word": "persijilan",
+        "affix": "per-...-an",
+        "gloss": "证书相关事务"
+      }
+    ],
+    "root_jawi": "سيجيل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "由学校、主管机关或其他机构出具，用以证明资格、考试成绩、身份、事实或认可事项的证书或证明文件。",
+      "en_definition": "A certificate issued by an institution or authority attesting a qualification, achievement, status, or fact.",
+      "ms_definition": "Surat akuan daripada sekolah, pihak berkuasa dan sebagainya; surat tanda lulus dalam sesuatu peperiksaan dan sebagainya.",
+      "nuances": "现代核心义。sijil 不限于学历证书，也不自动等同于 diploma、ijazah 或执照 lesen。[DBP《Kamus Dewan》第四版](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sijil)",
+      "collocations": [
+        {
+          "ms": "sijil kelahiran",
+          "zh": "出生证明",
+          "en": "birth certificate"
+        },
+        {
+          "ms": "sijil penyertaan",
+          "zh": "参与证书",
+          "en": "certificate of participation"
+        },
+        {
+          "ms": "Sijil Pelajaran Malaysia",
+          "zh": "马来西亚教育文凭（SPM）",
+          "en": "Malaysian Certificate of Education"
+        },
+        {
+          "ms": "sijil penghargaan",
+          "zh": "表扬证书；感谢状",
+          "en": "certificate of appreciation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "卷轴式文书；登记名册或书面记录。",
+      "en_definition": "A scroll, register, or written record.",
+      "ms_definition": "Surat gulungan; daftar.",
+      "nuances": "古典或历史文献义，现代一般名册通常称 daftar。以下为理解旧义的释义性搭配，不列作现代高频表达。[DBP 历史义项](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sijil)",
+      "collocations": [
+        {
+          "ms": "mencatat nama dalam sijil",
+          "zh": "把名字记入名册",
+          "en": "record names in a register"
+        },
+        {
+          "ms": "menuliskan nama pada suatu sijil",
+          "zh": "把名字写在一份卷册上",
+          "en": "write names on a scroll"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 求职申请",
+      "ms": "Pemohon diminta mengemukakan salinan sijil akademik yang telah disahkan bersama-sama borang permohonan.",
+      "zh": "申请人须随申请表提交经核证的学历证书副本。",
+      "en": "Applicants are requested to submit certified copies of their academic certificates together with the application form."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论求职材料",
+      "ms_spoken": "Sijil awak dah simpan kat mana?",
+      "ms_standard": "Di manakah awak sudah menyimpan sijil awak?",
+      "zh": "你的证书已经收在哪里了？",
+      "en": "Where have you put your certificate?",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "kat mana 对应 di mana。",
+        "口语将话题 sijil awak 提到句首；标准句明确补出施事 awak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Esok nak pergi temu duga, kan? Sijil awak dah siap?",
+          "ms_standard": "Awak hendak menghadiri temu duga esok, bukan? Adakah sijil awak sudah disediakan?",
+          "zh": "你明天要去面试，对吧？证书都准备好了吗？",
+          "en": "Your interview is tomorrow, right? Have you got your certificates ready?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Semua ada kat dalam fail ni. Saya nak fotostat satu set lagi je.",
+          "ms_standard": "Sudah. Semuanya ada di dalam fail ini. Saya hanya hendak membuat satu set salinan fotostat lagi.",
+          "zh": "准备好了，全在这个文件夹里。我就想再复印一套。",
+          "en": "Yes. They're all in this folder. I just want to make one more set of copies."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sijil comes from Arabic sijill, meaning a scroll or written record. Scholarship on Malay legal vocabulary identifies this connection, while DBP preserves the older register sense alongside the modern certificate sense. The semantic link is documentary evidence: a written record preserves information, and a certificate formally attests a fact or qualification. [Historical study of Malay legal vocabulary](https://pure.knaw.nl/portal/files/1708896328/Legal_diglossia_lexical_borrowing_and_mixed_juridical_systems_in_early_Islamic_Java_and_Sumatra_24_11_19_14_19_08.pdf)",
+    "cognitive_memory_aid": "把 si.jil 联想成“细记了”：把资格或事实仔细记下来，再出具 sijil 证明；这是记忆联想，不是词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "索取文件时可说 Boleh saya mendapatkan salinan sijil ini?。谈论他人学历时，使用具体证书名称，避免把有没有证书当作评判个人价值的依据。",
+    "usage_etiquette": "按证书功能区分 penyertaan、penghargaan 和 pencapaian；正式证书名称保留其规范大小写。pensijilan 指授予认证，persijilan 指相关事务，二者不能机械互换。[DBP 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sijil)"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "索取文件时可说 Boleh saya mendapatkan salinan sijil ini?。谈论他人学历时，使用具体证书名称，避免把有没有证书当作评判个人价值的依据。",
+    "usage_etiquette": "按证书功能区分 penyertaan、penghargaan 和 pencapaian；正式证书名称保留其规范大小写。pensijilan 指授予认证，persijilan 指相关事务，二者不能机械互换。[DBP 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sijil)"
+  }
+}

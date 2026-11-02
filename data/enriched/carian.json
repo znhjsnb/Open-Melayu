@@ -1,0 +1,146 @@
+{
+  "headword": {
+    "word": "carian",
+    "syllables": "ca.rian",
+    "ipa": "/tʃa.ri.an/",
+    "jawi": "چارين",
+    "frequency_rank": 7587,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "cari",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "cari + -an → carian",
+    "pattern_note": "后缀 -an 构成名词，词根 cari 的末尾 i 保留，不发生鼻音同化。音节字段按输入保留 ca.rian；IPA 展示 i 与 a 分属相邻音节的读法。",
+    "word_family": [
+      {
+        "word": "mencari",
+        "affix": "meN-",
+        "gloss": "寻找"
+      },
+      {
+        "word": "pencari",
+        "affix": "peN-",
+        "gloss": "寻找者；谋求者"
+      },
+      {
+        "word": "pencarian",
+        "affix": "peN-...-an",
+        "gloss": "寻找的过程；谋生"
+      },
+      {
+        "word": "mencarikan",
+        "affix": "meN-...-kan",
+        "gloss": "替某人寻找"
+      }
+    ],
+    "root_jawi": "چاري"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "所寻找或谋求的事物；在固定搭配中，也可指经努力取得的财物。",
+      "en_definition": "Something sought; in established expressions, property acquired through one's efforts.",
+      "ms_definition": "Sesuatu yang dicari; dalam ungkapan carian bujang, harta yang diperoleh sebelum berkahwin.",
+      "nuances": "这是输入所给《Kamus Dewan》的核心义。carian bujang 指婚前取得的财产，其中 bujang 说明取得财产时尚未结婚；不能把该词组理解为“寻找单身人士”。以下搭配体现词典义，不代表它们都与数字检索搭配一样常见。[DBP《Kamus Dewan》cari 词族](https://prpmv1.dbp.gov.my/Search.aspx?k=pencarian)",
+      "collocations": [
+        {
+          "ms": "menjadi carian",
+          "zh": "成为寻找的对象",
+          "en": "to be sought after"
+        },
+        {
+          "ms": "carian bujang",
+          "zh": "婚前取得的财产",
+          "en": "property acquired before marriage"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "搜索；检索；尤指利用系统、数据库或互联网查找资料的操作。",
+      "en_definition": "A search, especially an operation to retrieve information from a system, database, or the internet.",
+      "ms_definition": "Proses atau operasi mencari dan mendapatkan maklumat, khususnya melalui sistem komputer, pangkalan data atau Internet.",
+      "nuances": "现代技术和行政用语中非常常见。此处马来语定义是根据实际用法编写的释义，不能冒充输入所给《Kamus Dewan》的逐字引文。carian 是名词；“我正在搜索”应说 saya sedang mencari。DBP 确认 search engine 的对应词为 enjin carian。[DBP 术语答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=enjin)",
+      "collocations": [
+        {
+          "ms": "enjin carian",
+          "zh": "搜索引擎",
+          "en": "search engine"
+        },
+        {
+          "ms": "hasil carian",
+          "zh": "搜索结果",
+          "en": "search results"
+        },
+        {
+          "ms": "kata kunci carian",
+          "zh": "搜索关键词",
+          "en": "search keywords"
+        },
+        {
+          "ms": "membuat carian",
+          "zh": "进行搜索",
+          "en": "to run a search"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 数据库使用说明",
+      "ms": "Pengguna boleh membuat carian dalam pangkalan data dengan memasukkan kata kunci yang sesuai.",
+      "zh": "用户可输入适当的关键词，在数据库中进行检索。",
+      "en": "Users can search the database by entering suitable keywords."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事查找文件",
+      "ms_spoken": "Aku dah buat carian kat portal tu, tapi fail yang kita nak tak keluar pun.",
+      "ms_standard": "Saya sudah membuat carian di portal itu, tetapi fail yang kita perlukan tidak muncul dalam hasil carian.",
+      "zh": "我已经在那个网站搜过了，可我们要的文件根本没出来。",
+      "en": "I've searched the portal, but the file we need isn't showing up at all.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "tu 对应 itu",
+        "nak 表示想要或需要",
+        "tak 对应 tidak",
+        "tak ... pun 加强完全没有出现的语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku dah buat carian kat portal tu, tapi fail yang kita nak tak keluar pun.",
+          "ms_standard": "Saya sudah membuat carian di portal itu, tetapi fail yang kita perlukan tidak muncul dalam hasil carian.",
+          "zh": "我已经在那个网站搜过了，可我们要的文件根本没出来。",
+          "en": "I've searched the portal, but the file we need isn't showing up at all."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Cuba guna nombor rujukan je untuk carian tu. Mungkin nama fail dah berubah.",
+          "ms_standard": "Cuba gunakan nombor rujukan sahaja untuk carian itu. Mungkin nama fail sudah berubah.",
+          "zh": "试试只用参考编号搜吧，文件名可能已经改了。",
+          "en": "Try searching with just the reference number. The file name may have changed."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Carian is formed within Malay from cari and the noun-forming suffix -an. Its dictionary meaning points to something sought, while carian bujang preserves an established association with property acquired before marriage. In digital usage, the same form serves information retrieval through expressions such as enjin carian, linking familiar word formation with modern technology. [DBP dictionary](https://prpmv1.dbp.gov.my/Search.aspx?k=pencarian), [DBP digital usage](https://dewanbahasa.jendeladbp.my/2022/01/25/2371/)",
+    "cognitive_memory_aid": "cari 是“找”；加 -an 得到名词 carian。看见 enjin carian 就想“负责帮你找资料的引擎”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词语气中性，适用于公文、职场和日常交流。请求别人检索资料时，可说 Boleh tolong buat carian?；正式指示可用 Sila buat carian。",
+    "usage_etiquette": "数字场景中 carian 可指一次检索或检索功能；一般搜寻过程也常用 pencarian。谈到 carian bujang 时，应按财产语境理解，不能套用网络搜索义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词语气中性，适用于公文、职场和日常交流。请求别人检索资料时，可说 Boleh tolong buat carian?；正式指示可用 Sila buat carian。",
+    "usage_etiquette": "数字场景中 carian 可指一次检索或检索功能；一般搜寻过程也常用 pencarian。谈到 carian bujang 时，应按财产语境理解，不能套用网络搜索义。"
+  }
+}

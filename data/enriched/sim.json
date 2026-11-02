@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "sim",
+    "syllables": "sim",
+    "ipa": "/sim/",
+    "jawi": null,
+    "frequency_rank": 7626,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sim",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + SIM → SIM",
+    "pattern_note": "按电信语境解释为英语 Subscriber Identity Module 的缩略形式，通常整读为一个音节 /sim/，不作马来语词缀拆分。资料包的小写词头保留；正式文本通常写 SIM 或 kad SIM。音节为补充分音，爪夷文缺项保留 null。word_family 列相关术语，并非本土派生词。",
+    "word_family": [
+      {
+        "word": "kad SIM",
+        "affix": null,
+        "gloss": "SIM 卡；由 kad 与 SIM 组成的术语"
+      },
+      {
+        "word": "eSIM",
+        "affix": null,
+        "gloss": "嵌入式 SIM；相关技术术语"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用户身份模块；日常通常指用于移动通信服务身份识别和认证的 SIM 卡。",
+      "en_definition": "A subscriber identity module, commonly the SIM card used to identify and authenticate a mobile subscription.",
+      "ms_definition": "Modul identiti pelanggan yang digunakan untuk pengenalpastian dan pengesahan langganan pada rangkaian mudah alih; dalam penggunaan harian, kad yang mengandungi modul tersebut.",
+      "nuances": "资料包没有释义，此处按马来西亚电信用法补充解释，不冒充 DBP 原文。DBP 建议使用 kad SIM 的词序。SIM 与电话号码、数据配套及充值余额并非同一概念；印度尼西亚的 SIM 还可指驾驶执照，不能直接套用于马来西亚语境。依据：[DBP：kad SIM 的写法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kad)、[GSMA：SIM 的认证作用](https://www.gsma.com/solutions-and-impact/connectivity-for-good/public-policy/wp-content/uploads/2017/02/GSMA_Safety-privacy-and-security-across-the-mobile-ecosystem.pdf)。",
+      "collocations": [
+        {
+          "ms": "kad SIM prabayar",
+          "zh": "预付费 SIM 卡",
+          "en": "prepaid SIM card"
+        },
+        {
+          "ms": "mengaktifkan kad SIM",
+          "zh": "激活 SIM 卡",
+          "en": "activate a SIM card"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pelanggan perlu mengaktifkan kad SIM sebelum menggunakan perkhidmatan data mudah alih.",
+      "zh": "客户须先激活 SIM 卡，才能使用移动数据服务。",
+      "en": "Customers must activate their SIM cards before using mobile data services."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah masukkan sim baru, tapi telefon ni masih tak dapat isyarat lah.",
+      "ms_standard": "Saya sudah memasukkan kad SIM baharu, tetapi telefon ini masih tidak menerima isyarat.",
+      "zh": "我已经插了新 SIM 卡，可这手机还是没信号啊。",
+      "en": "I've put in the new SIM, but this phone still isn't getting a signal.",
+      "spoken_features": [
+        "sim 是聊天中的小写写法，并省略 kad。",
+        "dah 对应 sudah，ni 对应 ini，tak 对应 tidak。",
+        "句末 lah 表达轻微无奈，通常不逐字翻译。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah masukkan sim baru, tapi telefon ni tak dapat isyarat lah.",
+          "ms_standard": "Saya sudah memasukkan kad SIM baharu, tetapi telefon ini tidak menerima isyarat.",
+          "zh": "我插了新 SIM 卡，但这手机没信号啊。",
+          "en": "I've put in the new SIM, but the phone isn't getting a signal."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah aktifkan belum? Cuba matikan telefon, lepas tu hidupkan balik.",
+          "ms_standard": "Adakah kamu sudah mengaktifkannya? Cuba matikan telefon, kemudian hidupkannya semula.",
+          "zh": "激活了吗？试着关机，再重新开机。",
+          "en": "Have you activated it yet? Try turning the phone off and back on."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "SIM abbreviates Subscriber Identity Module, an English technical name associated with mobile network authentication. In Malaysian Malay, kad supplies the ordinary noun for the physical card, producing kad SIM. The familiar little card thus carries an international acronym inside a Malay noun phrase. Everyday chat may omit kad, while formal writing preserves the clearer technical expression.",
+    "cognitive_memory_aid": "SIM：想成手机向网络亮出的“身份卡”。它识别通信身份；数据配套和余额则是另外的东西。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词语本身语气中性。在柜台询问可说 Saya ingin membeli kad SIM prabayar，表达清楚且礼貌。",
+    "usage_etiquette": "正式马来语使用 kad SIM，避免照搬英语 SIM card 的词序。这里按手机通信语境释义；遇到印度尼西亚文件中的 SIM，应先判断是否指驾驶执照。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词语本身语气中性。在柜台询问可说 Saya ingin membeli kad SIM prabayar，表达清楚且礼貌。",
+    "usage_etiquette": "正式马来语使用 kad SIM，避免照搬英语 SIM card 的词序。这里按手机通信语境释义；遇到印度尼西亚文件中的 SIM，应先判断是否指驾驶执照。"
+  }
+}

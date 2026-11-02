@@ -1,0 +1,136 @@
+{
+  "headword": {
+    "word": "menyuruhnya",
+    "syllables": "me.nyu.ruh.nya",
+    "ipa": "/məɲuruhɲa/",
+    "jawi": "مڽوروهڽ",
+    "frequency_rank": 7655,
+    "status": "official",
+    "packet_jawi": "مڽوروه",
+    "jawi_note": "输入包的 مڽوروه 对应 menyuruh，遗漏 -nya；本条完整形式补写 ڽ。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyuruh",
+    "affix": "-nya（第三人称宾语附着代词）",
+    "affix_type": "suffix",
+    "formula": "menyuruh + -nya → menyuruhnya；完整派生链：meN- + suruh → menyuruh；menyuruh + -nya → menyuruhnya",
+    "pattern_note": "root_word 按输入包保留直接基底 menyuruh；更底层词根为 suruh。meN- 接 suruh 时实现为 meny-，词首 s 脱落。-nya 在这些用法中指被吩咐的人，不标性别，也不表示过去时；它是附着代词而非派生后缀。",
+    "word_family": [
+      {
+        "word": "suruh",
+        "affix": "∅",
+        "gloss": "叫；吩咐"
+      },
+      {
+        "word": "menyuruh",
+        "affix": "meN-",
+        "gloss": "叫某人做事；派某人前往"
+      },
+      {
+        "word": "suruhan",
+        "affix": "-an",
+        "gloss": "吩咐；受差遣的人，依语境而定"
+      },
+      {
+        "word": "pesuruh",
+        "affix": "pe-",
+        "gloss": "听差；受派遣办事的人"
+      }
+    ],
+    "root_jawi": "مڽوروه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "叫、吩咐、要求或命令他／她做某事；具体语气强弱由关系和语境决定。",
+      "en_definition": "To tell, ask, instruct, or order him or her to do something.",
+      "ms_definition": "Memberi arahan atau meminta orang yang dirujuk oleh -nya supaya melakukan sesuatu.",
+      "nuances": "通常后接动作，如 menyuruhnya menunggu。-nya 是宾语，不能译为“他／她吩咐”。不自带时态；英语过去式须由上下文决定。此定义依据 DBP 的 menyuruh 义项结合 -nya 编写，并非独立词条的逐字引文。[DBP：menyuruh](https://prpm.dbp.gov.my/Cari1?d=7876&keyword=menyuruh)",
+      "collocations": [
+        {
+          "ms": "menyuruhnya menunggu",
+          "zh": "叫他／她等候",
+          "en": "tell him or her to wait"
+        },
+        {
+          "ms": "menyuruhnya diam",
+          "zh": "叫他／她安静",
+          "en": "tell him or her to be quiet"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "叫或派他／她到某处去，通常为了办事或执行任务。",
+      "en_definition": "To send him or her somewhere, usually to carry out a task.",
+      "ms_definition": "Meminta atau mengarahkan orang yang dirujuk oleh -nya supaya pergi ke sesuatu tempat.",
+      "nuances": "常与 ke 加地点或 pergi 连用，强调受指派前往；不必然表示强制遣送。此义依据 DBP 的 menyuruh 第二义结合宾语 -nya 编写。[DBP：menyuruh](https://prpm.dbp.gov.my/Cari1?d=7876&keyword=menyuruh)",
+      "collocations": [
+        {
+          "ms": "menyuruhnya ke kedai",
+          "zh": "叫他／她去商店",
+          "en": "send him or her to the shop"
+        },
+        {
+          "ms": "menyuruhnya pergi",
+          "zh": "叫他／她去；叫他／她离开，依语境而定",
+          "en": "tell him or her to go"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pengurus memanggil Amir dan menyuruhnya menyediakan laporan kemajuan projek sebelum mesyuarat bermula.",
+      "zh": "经理叫来阿米尔，吩咐他在会议开始前准备好项目进度报告。",
+      "en": "The manager called Amir in and instructed him to prepare the project progress report before the meeting began."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah suruh dia tunggu kat lobi.",
+      "ms_standard": "Saya sudah menyuruhnya menunggu di lobi.",
+      "zh": "我已经叫他在大堂等了。",
+      "en": "I’ve already told him to wait in the lobby.",
+      "spoken_features": [
+        "menyuruhnya 在日常口语中常对应 suruh dia",
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "aku 适用于熟人交流"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Amir dah sampai ke? Dia tunggu kat mana?",
+          "ms_standard": "Adakah Amir sudah sampai? Di manakah dia menunggu?",
+          "zh": "阿米尔到了吗？他在哪里等？",
+          "en": "Has Amir arrived? Where’s he waiting?"
+        },
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Dah. Aku dah suruh dia tunggu kat lobi je.",
+          "ms_standard": "Dia sudah sampai. Saya sudah menyuruhnya menunggu di lobi sahaja.",
+          "zh": "到了。我已经叫他就在大堂等。",
+          "en": "Yes. I’ve told him to just wait in the lobby."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menyuruhnya illustrates how Malay builds compact expressions from familiar elements. Suruh supplies the idea of telling someone to act; meN- forms menyuruh through a regular consonant change; and -nya identifies the person addressed by the instruction. The dictionary also records sending someone somewhere, connecting verbal direction with the practical act of dispatching a person.",
+    "cognitive_memory_aid": "suruh＝叫人做事；menyuruh＋nya＝叫他／她做事。记住 -nya 是被叫的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "menyuruhnya 常用于转述指令。直接请长辈、客户或上级帮忙时，可用 Boleh…?、tolong 或 minta bantuan 等表达，避免命令口吻。",
+    "usage_etiquette": "适合描述工作安排、家长吩咐和差遣。menyuruhnya diam 可能显得严厉；若只是礼貌请求安静，应根据情境改用较缓和的表达。正式文中须让 -nya 的指代对象清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "menyuruhnya 常用于转述指令。直接请长辈、客户或上级帮忙时，可用 Boleh…?、tolong 或 minta bantuan 等表达，避免命令口吻。",
+    "usage_etiquette": "适合描述工作安排、家长吩咐和差遣。menyuruhnya diam 可能显得严厉；若只是礼貌请求安静，应根据情境改用较缓和的表达。正式文中须让 -nya 的指代对象清楚。"
+  }
+}
