@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "hacker",
+    "syllables": null,
+    "ipa": "/ˈhæk.ə/",
+    "jawi": null,
+    "frequency_rank": 14897,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hacker",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hacker → hacker",
+    "pattern_note": "依输入将 hacker 作为马来语夹用的完整词项。英语内部为 hack + 施事后缀 -er，该 -er 不是马来语后缀。音标采用标准英式英语；输入未提供音节划分或爪夷文，保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "黑客；利用计算机技术擅自进入他人系统或账户的人。",
+      "en_definition": "A person who uses technical skills to gain unauthorised access to computer systems or accounts.",
+      "ms_definition": "Orang yang menggunakan kemahiran komputer untuk menceroboh sistem atau akaun tanpa kebenaran; penggodam.",
+      "nuances": "英语词，马来语对应词为 penggodam。新闻和日常谈话中常突出未经授权的入侵义，但不能据此认定所有 hacker 都从事犯罪。此处马来语释义为依据相关术语编写的释义，不冒充输入中缺失的 DBP 原文。对应词及义项区分见 [DBP](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=penggodam)。以下为马来语夹用英语的组合。",
+      "collocations": [
+        {
+          "ms": "serangan hacker",
+          "zh": "黑客攻击",
+          "en": "a hacker attack"
+        },
+        {
+          "ms": "kumpulan hacker",
+          "zh": "黑客团体",
+          "en": "a group of hackers"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "善于深入理解、修改计算机系统并创造技术解决方案的人；也可指经授权寻找安全漏洞的技术人员。",
+      "en_definition": "A technically skilled person who explores or modifies computer systems, including an authorised security tester.",
+      "ms_definition": "Individu yang mahir memahami, meneliti atau mengubah suai sistem komputer untuk menghasilkan penyelesaian teknikal, termasuk menguji keselamatan dengan kebenaran.",
+      "nuances": "技术社群中的 hacker 可以是中性或褒义称呼。经授权的安全测试人员可明确称为 penggodam beretika；一般技术爱好者则未必从事安全测试。DBP 的信息技术术语说明也涵盖改进系统的技术人员，而不只涵盖入侵者。",
+      "collocations": [
+        {
+          "ms": "hacker beretika",
+          "zh": "道德黑客；经授权的安全测试人员",
+          "en": "an ethical hacker"
+        },
+        {
+          "ms": "komuniti hacker",
+          "zh": "黑客技术社群",
+          "en": "the hacker community"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场培训 / 网络安全术语说明",
+      "ms": "Dalam latihan keselamatan siber itu, istilah Inggeris \"hacker\" dibincangkan dengan membezakan penggodam beretika daripada penceroboh sistem.",
+      "zh": "该网络安全培训在讨论英语术语“hacker”时，区分了道德黑客与系统入侵者。",
+      "en": "The cybersecurity training discussed the English term \"hacker\", distinguishing ethical hackers from system intruders."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈工作",
+      "ms_spoken": "Dia kerja sebagai hacker beretika kat syarikat tu.",
+      "ms_standard": "Dia bekerja sebagai penggodam beretika di syarikat itu.",
+      "zh": "他在那家公司做道德黑客。",
+      "en": "He works as an ethical hacker at that company.",
+      "spoken_features": [
+        "kerja 在口语中对应 bekerja。",
+        "kat 对应地点介词 di。",
+        "tu 是 itu 的口语缩略形式。",
+        "hacker 为英语夹用词；beretika 明确其职业语境。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dia kerja sebagai hacker beretika kat syarikat tu.",
+          "ms_standard": "Dia bekerja sebagai penggodam beretika di syarikat itu.",
+          "zh": "他在那家公司做道德黑客。",
+          "en": "He works as an ethical hacker at that company."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Oh, dia cari kelemahan sistem dengan izin syarikat lah? Aku ingat semua hacker ceroboh akaun orang.",
+          "ms_standard": "Oh, jadi dia mencari kelemahan sistem dengan kebenaran syarikat? Saya menyangka semua penggodam menceroboh akaun orang lain.",
+          "zh": "哦，就是经过公司许可找系统漏洞的？我还以为黑客都入侵别人的账户呢。",
+          "en": "Oh, so he looks for weaknesses with the company's permission? I thought all hackers broke into other people's accounts."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English hacker is formed from hack plus the agent suffix -er. MIT's Tech Model Railroad Club recalls using hack and hacker proudly from the late 1950s for ingenious technical work. Later public usage also associated hackers with computer intrusion. That history explains why the same label can express admiration within a technical community and suspicion in a news report. [MIT TMRC](https://tmrc.mit.edu/old/hackers-ref.html)",
+    "cognitive_memory_aid": "英语 hack + -er＝做技术破解或巧妙改造的人。记住两幅画面：获准检查系统的专家，以及擅自闯入的入侵者；具体是哪一种，要看语境。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "未经说明就称某人为 hacker，可能被理解为指控其入侵系统。介绍专业人员时，使用 penggodam beretika 或其实际职称更清楚。",
+    "usage_etiquette": "技术社群中可带认同或赞赏意味，公众报道中则常带负面联想。描述具体人物时应交代其工作性质和授权情况，不把技术能力本身等同于违法行为。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "未经说明就称某人为 hacker，可能被理解为指控其入侵系统。介绍专业人员时，使用 penggodam beretika 或其实际职称更清楚。",
+    "usage_etiquette": "技术社群中可带认同或赞赏意味，公众报道中则常带负面联想。描述具体人物时应交代其工作性质和授权情况，不把技术能力本身等同于违法行为。"
+  }
+}

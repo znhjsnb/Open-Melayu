@@ -1,0 +1,142 @@
+{
+  "headword": {
+    "word": "setem",
+    "syllables": null,
+    "ipa": "/səˈtem/",
+    "jawi": "ستيم",
+    "frequency_rank": 14834,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "setem",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + setem → setem",
+    "pattern_note": "整词借入，不能拆成 se- 加 tem。首音节 e 为 /ə/，第二音节为 /e/；派生 penyeteman 时，词首 s 在 peN- 后发生鼻音替换。",
+    "word_family": [
+      {
+        "word": "bersetem",
+        "affix": "ber-",
+        "gloss": "贴有邮票或印花的"
+      },
+      {
+        "word": "penyeteman",
+        "affix": "peN-…-an",
+        "gloss": "加盖或办理印花的过程"
+      }
+    ],
+    "root_jawi": "ستيم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "邮票；印花票：具有指定面值、用来证明邮资或某些税费已付的小张票据。",
+      "en_definition": "A small stamp with a stated value used as evidence of payment of postage or certain duties.",
+      "ms_definition": "Kepingan kecil bercetak dan bernilai tertentu yang menjadi tanda pembayaran pos atau cukai dokumen.",
+      "nuances": "现代马来西亚用法的主要义项。普通橡皮图章通常称 cap；duti setem 指印花税。定义依据 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=setem)，此处马来文为释义整理。",
+      "collocations": [
+        {
+          "ms": "setem pos",
+          "zh": "邮票",
+          "en": "postage stamp"
+        },
+        {
+          "ms": "mengumpul setem",
+          "zh": "集邮",
+          "en": "collect stamps"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "选票；投票者所投的一票。",
+      "en_definition": "A vote cast by an elector.",
+      "ms_definition": "Undi yang diberikan oleh seseorang dalam sesuatu pemilihan.",
+      "nuances": "DBP 的 setem II 收录此义并标注 IB、bp。它不是现代马来西亚选举报道的常用表达；通常使用 undi。以下为说明性组合，不应视为现代高频搭配。",
+      "collocations": [
+        {
+          "ms": "setem pengundi",
+          "zh": "选民的一票",
+          "en": "an elector's vote"
+        },
+        {
+          "ms": "memberikan setem",
+          "zh": "投出一票",
+          "en": "cast a vote"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "音调相合的；调准的；引申为协调、合适的。",
+      "en_definition": "In tune; by extension, harmonious or compatible.",
+      "ms_definition": "Berada pada nada yang sepadan; secara kiasan, serasi atau sesuai.",
+      "nuances": "属于 DBP setem II 的受限口语义。现代马来西亚音乐语境通常使用 setala，泛指协调则用 selaras 或 serasi；以下组合仅帮助识别此义。",
+      "collocations": [
+        {
+          "ms": "tidak setem",
+          "zh": "音不准；不协调",
+          "en": "out of tune; incompatible"
+        },
+        {
+          "ms": "sudah setem",
+          "zh": "已经调准音",
+          "en": "already in tune"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pemohon hendaklah menyertakan sampul surat beralamat sendiri yang mempunyai setem yang mencukupi.",
+      "zh": "申请人须附上写有本人地址并贴足邮票的信封。",
+      "en": "Applicants must enclose a self-addressed envelope with sufficient postage."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak beli setem kat pejabat pos kejap.",
+      "ms_standard": "Saya hendak pergi sebentar ke pejabat pos untuk membeli setem.",
+      "zh": "我去邮局买个邮票，很快回来。",
+      "en": "I'm just popping to the post office to buy a stamp.",
+      "spoken_features": [
+        "aku 为熟人之间的第一人称代词。",
+        "nak 对应 hendak，kat 对应 di，kejap 是 sekejap 的口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah beli setem untuk surat tu?",
+          "ms_standard": "Adakah kamu sudah membeli setem untuk surat itu?",
+          "zh": "那封信的邮票你买了吗？",
+          "en": "Have you bought a stamp for that letter yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum, aku nak beli kat pejabat pos nanti.",
+          "ms_standard": "Belum, saya hendak membelinya di pejabat pos nanti.",
+          "zh": "还没，我待会儿去邮局买。",
+          "en": "Not yet. I'll get one at the post office later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The postage word comes from English stamp, adapted into Malay pronunciation. Its initial consonant cluster becomes easier to pronounce through an inserted vowel. The separate voting and tuning senses recorded by DBP belong to another lexical history and should not be explained as extensions of postage. See [linguist David Deterding's account](https://brunei-linguistics.blogspot.com/2009/02/words-borrowed-into-malay.html).",
+    "cognitive_memory_aid": "把 English stamp 放慢，读成 se-tem：想象在信封上贴上一张邮票。se- 在这里不是词缀。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在邮局可说 Saya hendak membeli setem, boleh?；对工作人员使用 saya 比 aku 更稳妥。",
+    "usage_etiquette": "日常优先理解为邮票或印花票。投票义和调音义有语域限制，不宜直接套用于现代马来西亚正式表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在邮局可说 Saya hendak membeli setem, boleh?；对工作人员使用 saya 比 aku 更稳妥。",
+    "usage_etiquette": "日常优先理解为邮票或印花票。投票义和调音义有语域限制，不宜直接套用于现代马来西亚正式表达。"
+  }
+}

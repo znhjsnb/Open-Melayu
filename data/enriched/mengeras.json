@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "mengeras",
+    "syllables": "me.nge.ras",
+    "ipa": "/mə.ŋə.ras/",
+    "jawi": "مڠرس",
+    "frequency_rank": 14860,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "keras",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + keras → mengeras",
+    "pattern_note": "meN- 接 keras 时采用 meng- 形式，词根首辅音 k 脱落，形成 mengeras。音节 me.nge.ras 不表示使用了 menge- 前缀。输入将本词判为词根有误，此处依据 DBP 的 keras 派生词关系更正。[DBP 词族资料](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=keras+)",
+    "word_family": [
+      {
+        "word": "mengeraskan",
+        "affix": "meN-…-kan",
+        "gloss": "使变硬；使声音变强"
+      },
+      {
+        "word": "berkeras",
+        "affix": "ber-",
+        "gloss": "坚持己见；不肯让步"
+      },
+      {
+        "word": "kekerasan",
+        "affix": "ke-…-an",
+        "gloss": "硬度；强硬行为；暴力"
+      }
+    ],
+    "root_jawi": "کرس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "物质由柔软、松散或流动的状态变硬、变坚实。",
+      "en_definition": "To become hard or firm.",
+      "ms_definition": "Menjadi keras, tidak lembut atau semakin pejal.",
+      "nuances": "不及物变化动词，主语是发生变化的物体。表示“使某物变硬”用 mengeraskan。本义对应输入中的《Kamus Dewan》第一义；此处马来文释义作简明整理。",
+      "collocations": [
+        {
+          "ms": "simen mengeras",
+          "zh": "水泥硬化",
+          "en": "cement hardens"
+        },
+        {
+          "ms": "agar-agar mengeras",
+          "zh": "燕菜凝固变实",
+          "en": "agar jelly sets"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "声音或说话语气变得强烈、严厉，失去原有的柔和。",
+      "en_definition": "Of a voice or tone, to become stronger or harsher.",
+      "ms_definition": "Menjadi lebih kuat atau tidak lagi lemah lembut, khususnya tentang suara atau nada percakapan.",
+      "nuances": "这是第一义在声音上的延伸，不单独表示“生气”。叙述声音变化时，suara mengeras 或 nada suara mengeras 均可使用。",
+      "collocations": [
+        {
+          "ms": "suara mengeras",
+          "zh": "声音变得严厉",
+          "en": "a voice grows harsher"
+        },
+        {
+          "ms": "nada suara mengeras",
+          "zh": "语气变得强硬",
+          "en": "a tone of voice hardens"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "坚持立场，不愿妥协或让步。",
+      "en_definition": "To remain adamant or refuse to compromise.",
+      "ms_definition": "Tidak mahu bertolak ansur atau mengalah; berkeras.",
+      "nuances": "对应输入中的《Kamus Dewan》第二义。用于人或其立场；日常表达“不肯让步”也常用 berkeras。是否带有负面评价取决于坚持的理由与语境。",
+      "collocations": [
+        {
+          "ms": "terus mengeras",
+          "zh": "继续坚持不让步",
+          "en": "remain adamant"
+        },
+        {
+          "ms": "mengeras dalam rundingan",
+          "zh": "在谈判中不肯让步",
+          "en": "refuse to compromise in negotiations"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "工程报告 / 施工安排",
+      "ms": "Kerja seterusnya hanya boleh dimulakan setelah konkrit mengeras dan mencapai kekuatan yang ditetapkan.",
+      "zh": "必须待混凝土硬化并达到规定强度后，才能开始后续施工。",
+      "en": "Further work may begin only after the concrete has hardened and reached the specified strength."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人制作甜品",
+      "ms_spoken": "Agar-agar ni belum mengeras lagi. Simpan dalam peti sejuk dulu lah.",
+      "ms_standard": "Agar-agar ini belum mengeras lagi. Simpanlah di dalam peti sejuk dahulu.",
+      "zh": "这燕菜还没凝固呢，先放冰箱里吧。",
+      "en": "This jelly hasn't set yet. Put it in the fridge for now.",
+      "spoken_features": [
+        "ni 对应 ini",
+        "dulu 对应 dahulu",
+        "lah 在这里使建议听起来较随和"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Agar-agar ni belum mengeras lagi. Jangan potong dulu lah.",
+          "ms_standard": "Agar-agar ini belum mengeras lagi. Jangan potong dahulu.",
+          "zh": "这燕菜还没凝固呢，先别切。",
+          "en": "The jelly hasn't set yet. Don't cut it just yet."
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Okey, aku nak simpan dalam peti sejuk dulu. Nanti dah keras, baru kita potong.",
+          "ms_standard": "Baiklah, saya mahu menyimpannya di dalam peti sejuk dahulu. Kita akan memotongnya setelah agar-agar itu keras.",
+          "zh": "好，我先放冰箱。等凝固了我们再切。",
+          "en": "Okay, I'll put it in the fridge first. We can cut it once it's firm."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mengeras shows how Malay builds a verb of change from the adjective keras. The prefix meN- supplies the verbal form, and the initial k disappears through a regular sound pattern. The same idea of increasing hardness extends naturally from setting jelly and solidifying materials to a harsher voice or an increasingly uncompromising human stance. [DBP 词义与派生关系](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=memperkeras)",
+    "cognitive_memory_aid": "keras＝硬；meN- 加上去，k 隐去：mengeras＝变硬。声音和立场也可以“变硬”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述材料变硬通常中性；说某人 mengeras，尤其在争论中，可能暗示对方固执。正式协商中可用 masih berpegang pada pendirian 来较委婉地描述坚持立场。",
+    "usage_etiquette": "根据主语区分材料硬化、声音转严厉与态度不让步。描述争执时宜说明具体行为，避免直接给对方贴上性格标签。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述材料变硬通常中性；说某人 mengeras，尤其在争论中，可能暗示对方固执。正式协商中可用 masih berpegang pada pendirian 来较委婉地描述坚持立场。",
+    "usage_etiquette": "根据主语区分材料硬化、声音转严厉与态度不让步。描述争执时宜说明具体行为，避免直接给对方贴上性格标签。"
+  }
+}

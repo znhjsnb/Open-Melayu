@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "laa",
+    "syllables": null,
+    "ipa": "[laː]",
+    "jawi": null,
+    "frequency_rank": 14817,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "laa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + laa → laa（口语表达性拼写；具体对应 la 或 lah，依位置与语调判断）",
+    "pattern_note": "双写 a 通常表示拖长声音或加强语气，不构成词缀，也不表示两个音节。[laː] 是可能的实际读音，不表示马来语存在相应的长短元音词义对立。is_root 沿用输入的未派生形式标记；status 为所要求的数据标签，不表示 laa 是规范书面词形。",
+    "word_family": [
+      {
+        "word": "la",
+        "affix": "∅（相关口语形式）",
+        "gloss": "口语语气成分；也可表示惊讶"
+      },
+      {
+        "word": "lah",
+        "affix": "∅（相关语气词形式）",
+        "gloss": "强调、劝说等语气；规范附着用法写作 -lah"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "口语或聊天文字中拉长书写的语气成分，常对应 lah，用于劝说、强调、安抚或表达不耐烦；具体语气取决于语调和上下文。",
+      "en_definition": "An expressive informal spelling of a particle often corresponding to lah, used for urging, emphasis, reassurance, or impatience according to tone.",
+      "ms_definition": "Ejaan ekspresif tidak baku bagi partikel percakapan yang lazimnya sepadan dengan lah, untuk memujuk, menegaskan atau menyampaikan sikap penutur mengikut intonasi.",
+      "nuances": "本义是依据DBP所收 la 可对应 lah 的用法，对 laa 作出的语用分析，并非DBP对 laa 的独立释义。它不固定等于中文“啦”，也不必逐字译入英语。规范附着形式通常与前词连写，如 marilah、bolehlah。[DBP的 la 词条](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=la)",
+      "collocations": [
+        {
+          "ms": "jom laa",
+          "zh": "来嘛；走啦",
+          "en": "come on; let's go"
+        },
+        {
+          "ms": "boleh laa",
+          "zh": "可以啦；还行吧",
+          "en": "sure; it's all right"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "置于话语开头，表示惊讶、恍然察觉或轻微埋怨，相当于“咦”“啊，原来”或“哎呀”。",
+      "en_definition": "An informal exclamatory particle expressing surprise, sudden realization, or mild reproach.",
+      "ms_definition": "Ejaan ekspresif tidak baku bagi kata seru la yang menyatakan kehairanan, kesedaran tiba-tiba atau teguran ringan.",
+      "nuances": "句首独立的 Laa 通常宜按感叹语理解，不能机械分析成省略 h 的句末 lah。所给词类选项没有 interjection，因此归入 particle；功能上属于 kata seru。此处由DBP所收 la 的惊讶用法推及表达性拼写 laa。[DBP的 la 词条](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=la)",
+      "collocations": [
+        {
+          "ms": "laa, patutlah",
+          "zh": "啊，难怪",
+          "en": "oh, that explains it"
+        },
+        {
+          "ms": "laa, kenapa tak cakap?",
+          "zh": "哎呀，怎么没说？",
+          "en": "oh, why didn't you say so?"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan rasmi, ejaan percakapan “laa” hendaklah digantikan dengan ungkapan baku yang sesuai dengan konteks.",
+      "zh": "正式报告中的口语拼写“laa”应替换为符合上下文的规范表达。",
+      "en": "In an official report, the colloquial spelling “laa” should be replaced with a standard expression appropriate to the context."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Laa, kau dah sampai? Aku ingat kau nak datang petang nanti.",
+      "ms_standard": "Oh, kamu sudah sampai? Saya menyangka kamu hendak datang pada petang nanti.",
+      "zh": "咦，你已经到了？我还以为你下午才来呢。",
+      "en": "Oh, you're here already? I thought you were coming this afternoon.",
+      "spoken_features": [
+        "句首 Laa 表示惊讶，拖长的 a 在文字中传达语气。",
+        "dah、nak 分别对应 sudah、hendak。",
+        "aku、kau 用于熟悉的平辈。",
+        "标准对应句按功能使用 Oh，而非逐字替换成 -lah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai kat kafe. Kau kat mana?",
+          "ms_standard": "Saya sudah tiba di kafe. Kamu berada di mana?",
+          "zh": "我已经到咖啡馆了，你在哪儿？",
+          "en": "I'm at the café already. Where are you?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Laa, aku ingat pukul tiga! Tunggu kejap, aku nak keluar sekarang.",
+          "ms_standard": "Oh, saya menyangka kita berjanji untuk berjumpa pada pukul tiga! Tunggu sebentar, saya akan bertolak sekarang.",
+          "zh": "啊，我以为约的是三点！等一下，我现在就出门。",
+          "en": "Oh, I thought we were meeting at three! Give me a minute—I'm heading out now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Laa is best understood as expressive writing that represents a spoken voice, rather than as a separately established historical root. DBP records la both as a colloquial equivalent of lah and as an expression of surprise. Reading laa through those functions is an interpretation: extra letters suggest vocal length or emotion, while position and context determine the meaning. [DBP evidence](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=la).",
+    "cognitive_memory_aid": "多出来的 a 像把声音拉长：句首“Laа……”先想到“咦／啊”；句末则结合语调理解劝说、强调或不耐烦。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合熟人聊天和轻松对话。拖长语气既可能亲切，也可能显得催促、顶嘴或不耐烦；与上级、不熟悉的人交谈时，不宜把它当作万能礼貌词。",
+    "usage_etiquette": "正式公文、申请和报告通常改用明确的规范表达；表达请求可用 sila、tolong 或 bolehkah，表达惊讶可按语境用 oh。此处不把 laa 自动解释为阿拉伯语 lā“否、不”，两者须由上下文区分。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合熟人聊天和轻松对话。拖长语气既可能亲切，也可能显得催促、顶嘴或不耐烦；与上级、不熟悉的人交谈时，不宜把它当作万能礼貌词。",
+    "usage_etiquette": "正式公文、申请和报告通常改用明确的规范表达；表达请求可用 sila、tolong 或 bolehkah，表达惊讶可按语境用 oh。此处不把 laa 自动解释为阿拉伯语 lā“否、不”，两者须由上下文区分。"
+  }
+}

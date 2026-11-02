@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "diwariskan",
+    "syllables": "di.wa.ris.kan",
+    "ipa": "/diwariskan/",
+    "jawi": "ديواريثکن",
+    "frequency_rank": 14842,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "waris",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + waris + -kan → diwariskan",
+    "pattern_note": "di- 标示被动，-kan 构成及物派生形式；词根 waris 不发生音变。输入包将整个派生词误标为词根。",
+    "word_family": [
+      {
+        "word": "mewariskan",
+        "affix": "meN-...-kan",
+        "gloss": "把遗产或传统传给后人"
+      },
+      {
+        "word": "mewarisi",
+        "affix": "meN-...-i",
+        "gloss": "继承；承袭"
+      },
+      {
+        "word": "warisan",
+        "affix": "-an",
+        "gloss": "遗产；传承"
+      },
+      {
+        "word": "pewaris",
+        "affix": "peN-",
+        "gloss": "继承人；传承者"
+      }
+    ],
+    "root_jawi": "واريث"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "作为遗产被留给或传给某人。",
+      "en_definition": "To be bequeathed or passed on to someone as an inheritance.",
+      "ms_definition": "Ditinggalkan atau diserahkan kepada seseorang sebagai harta pusaka.",
+      "nuances": "被动句的主语通常是遗产；kepada 引出接受者，oleh 可引出传留者。di- 本身不表示过去时。释义依据词根条目改写，并非逐字引文。[DBP：waris](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=waris)",
+      "collocations": [
+        {
+          "ms": "tanah yang diwariskan",
+          "zh": "传下来的土地",
+          "en": "land passed down as an inheritance"
+        },
+        {
+          "ms": "diwariskan kepada anak-anak",
+          "zh": "作为遗产传给子女",
+          "en": "bequeathed to the children"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "知识、技艺、传统、价值观或其他前人留下的事物被传承给后代。",
+      "en_definition": "To be handed down to later generations as a tradition, practice, quality, or legacy.",
+      "ms_definition": "Diturunkan daripada generasi terdahulu kepada generasi kemudian, seperti ilmu, adat, kemahiran atau nilai.",
+      "nuances": "不限于财物，也不必以传授者去世为前提。常强调代际延续；既可指珍贵传统，也可指前人留下的问题。DBP 另记 mewariskan 的较少见义为使某人成为继承人，并记有古义 mewarisi；这些不宜替代本词的通常理解。[DBP：waris](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=waris)",
+      "collocations": [
+        {
+          "ms": "diwariskan turun-temurun",
+          "zh": "世代相传",
+          "en": "handed down through generations"
+        },
+        {
+          "ms": "ilmu yang diwariskan",
+          "zh": "传承下来的知识或技艺",
+          "en": "knowledge handed down"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化新闻 / 传承项目汇报",
+      "ms": "Kemahiran menenun ini diwariskan daripada satu generasi kepada generasi seterusnya.",
+      "zh": "这项织造技艺一代代传承下来。",
+      "en": "This weaving skill is passed down from one generation to the next."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈家传食谱",
+      "ms_spoken": "Resipi ni diwariskan oleh nenek aku, jadi aku ikut cara dia je.",
+      "ms_standard": "Resipi ini diwariskan oleh nenek saya, jadi saya hanya mengikut caranya.",
+      "zh": "这个食谱是我奶奶传下来的，所以我就照她的方法做。",
+      "en": "My grandma passed this recipe down, so I just make it her way.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式",
+        "aku 是熟人之间的第一人称代词",
+        "je 对应 sahaja，表示只、就"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Resipi ni diwariskan oleh nenek kau ke?",
+          "ms_standard": "Adakah resipi ini diwariskan oleh nenek kamu?",
+          "zh": "这个食谱是你奶奶传下来的吗？",
+          "en": "Was this recipe passed down by your grandma?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, mak aku dah ajar aku buat. Nanti aku kongsi kat kau.",
+          "ms_standard": "Ya, ibu saya sudah mengajar saya membuatnya. Nanti saya kongsikannya dengan kamu.",
+          "zh": "对啊，我妈已经教我做了。回头分享给你。",
+          "en": "Yeah, my mum has taught me how to make it. I'll share it with you later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Waris is an Arabic loan associated with heirs and inheritance. Malay developed a productive family around it: warisan names a legacy, mewarisi describes receiving one, and mewariskan describes passing one on. Diwariskan presents that transfer from the legacy's perspective. Its cultural reach includes inherited knowledge and traditions as well as property. [DBP: waris](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=waris)",
+    "cognitive_memory_aid": "抓住 waris＝继承：mewariskan 是把东西传下去，diwariskan 是东西被传下来。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性、标准用语，适合文化介绍、家庭叙述和正式说明。谈家传技艺时，可点明长辈或师承，表达尊重。",
+    "usage_etiquette": "讨论遗产时避免用笃定语气预先分配仍在世亲属的财物；这个动词本身不证明某项财产已经完成合法转移。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性、标准用语，适合文化介绍、家庭叙述和正式说明。谈家传技艺时，可点明长辈或师承，表达尊重。",
+    "usage_etiquette": "讨论遗产时避免用笃定语气预先分配仍在世亲属的财物；这个动词本身不证明某项财产已经完成合法转移。"
+  }
+}

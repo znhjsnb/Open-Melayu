@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "iain",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 14843,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": null,
+    "affix": null,
+    "affix_type": "none",
+    "formula": "iain → 待核实原文；若为机构缩写，则规范形式为 IAIN",
+    "pattern_note": "尚未确认小写 iain 是独立的标准马来语词，不能据输入包将其认定为词根。IAIN 是机构名称缩写；若原文实际为 lain，则属于另一词条。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "仅在原文指大写缩写 IAIN 时：印度尼西亚国立伊斯兰宗教学院，完整名称为 Institut Agama Islam Negeri。小写 iain 的独立词义尚未核实。",
+      "en_definition": "If intended as IAIN: an Indonesian State Islamic Institute, abbreviated from Institut Agama Islam Negeri; the lowercase form iain has no verified independent meaning here.",
+      "ms_definition": "Jika yang dimaksudkan ialah IAIN, singkatan bagi Institut Agama Islam Negeri di Indonesia; makna tersendiri bagi bentuk huruf kecil iain belum dapat disahkan.",
+      "nuances": "这是有条件的专名识别，不是对小写 iain 的正式词义认定。以下搭配使用已证实的 IAIN。不能在没有上下文时断定它一定是缩写，也不能擅自改为 lain。未提供可靠读音或 Jawi，因此保留 null。[印度尼西亚宗教部：IAIN Parepare](https://prima-ptki.kemenag.go.id/member/college/view/490/institut-agama-islam-negeri-parepare)",
+      "collocations": [
+        {
+          "ms": "Institut Agama Islam Negeri (IAIN)",
+          "zh": "国立伊斯兰宗教学院",
+          "en": "State Islamic Institute (IAIN)"
+        },
+        {
+          "ms": "IAIN Parepare",
+          "zh": "帕雷帕雷国立伊斯兰宗教学院",
+          "en": "Parepare State Islamic Institute"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文件校对 / 机构名称核实",
+      "ms": "Bentuk \"iain\" dalam dokumen ini perlu disemak; jika merujuk kepada Institut Agama Islam Negeri, gunakan singkatan IAIN.",
+      "zh": "本文件中的“iain”需要核对；若指国立伊斯兰宗教学院，应使用缩写 IAIN。",
+      "en": "The form \"iain\" in this document needs checking; if it refers to Institut Agama Islam Negeri, use the abbreviation IAIN."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对文件拼写",
+      "ms_spoken": "Kat sini kau tulis \"iain\". Kau maksudkan IAIN ke?",
+      "ms_standard": "Di sini kamu menulis \"iain\". Adakah kamu bermaksud IAIN?",
+      "zh": "你这里写了“iain”，你是指 IAIN 吗？",
+      "en": "You've written \"iain\" here. Do you mean IAIN?",
+      "spoken_features": [
+        "kat sini 对应 di sini",
+        "kau 适用于熟悉的同辈",
+        "句末 ke 是非正式疑问标记",
+        "目标字符串作为待核对文字出现，不充当已确认词汇"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku nampak \"iain\" kat draf ni. Maksud kau IAIN ke?",
+          "ms_standard": "Saya melihat bentuk \"iain\" dalam draf ini. Adakah kamu bermaksud IAIN?",
+          "zh": "我看到草稿里写着“iain”，你是指 IAIN 吗？",
+          "en": "I spotted \"iain\" in this draft. Do you mean IAIN?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Haah, singkatan nama institut tu. Aku dah betulkan jadi IAIN.",
+          "ms_standard": "Ya, itu singkatan nama institut tersebut. Saya sudah membetulkannya kepada IAIN.",
+          "zh": "对，是那个学院名称的缩写。我已经改成 IAIN 了。",
+          "en": "Yes, it's the institute's abbreviation. I've changed it to IAIN."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The supplied lowercase string does not establish a word origin. One documented interpretation is IAIN, formed from the initials of Institut Agama Islam Negeri, an Indonesian institutional designation. That explains the capitalized abbreviation, but cannot prove what this particular corpus token meant. A spelling or OCR error remains another possibility requiring the original sentence. [Indonesian Ministry of Religious Affairs](https://prima-ptki.kemenag.go.id/member/college/view/490/institut-agama-islam-negeri-parepare)",
+    "cognitive_memory_aid": "若上下文确认是 IAIN，就用四个首字母记忆：Institut、Agama、Islam、Negeri；不要给未核实的小写 iain 编造读音或词义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "核对机构名称时可用 Adakah yang dimaksudkan ialah IAIN? 礼貌询问，避免直接把对方文字判为错误。",
+    "usage_etiquette": "机构缩写应保留规范大小写；正式文件首次出现时宜写全称。未取得原句前，不宜将此字符串作为已认证的普通马来语词教学。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "核对机构名称时可用 Adakah yang dimaksudkan ialah IAIN? 礼貌询问，避免直接把对方文字判为错误。",
+    "usage_etiquette": "机构缩写应保留规范大小写；正式文件首次出现时宜写全称。未取得原句前，不宜将此字符串作为已认证的普通马来语词教学。"
+  }
+}

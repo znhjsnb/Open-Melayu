@@ -1,0 +1,179 @@
+{
+  "headword": {
+    "word": "ditiup",
+    "syllables": null,
+    "ipa": "/di.ti.up/",
+    "jawi": null,
+    "frequency_rank": 14873,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tiup",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + tiup → ditiup",
+    "pattern_note": "di- 构成被动动词，直接连写，词根 tiup 不发生音变；di- 本身不表示过去时。数据包将 ditiup 标为词根，此处按其明确的被动构词关系更正为 tiup。[DBP 词根与用例](https://prpm.dbp.gov.my/cari1?d=175768&keyword=tiup)。",
+    "word_family": [
+      {
+        "word": "tiup",
+        "affix": "∅",
+        "gloss": "吹"
+      },
+      {
+        "word": "meniup",
+        "affix": "meN-",
+        "gloss": "吹；吹奏"
+      },
+      {
+        "word": "bertiup",
+        "affix": "ber-",
+        "gloss": "风吹动；吹拂"
+      },
+      {
+        "word": "tiupan",
+        "affix": "-an",
+        "gloss": "吹拂；吹出的气流或声音"
+      },
+      {
+        "word": "peniup",
+        "affix": "peN-",
+        "gloss": "吹奏者；吹气装置"
+      }
+    ],
+    "root_jawi": "تيوڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被吹、被吹拂；受到人呼出的气流或风的作用。",
+      "en_definition": "Be blown on or affected by a current of breath or wind.",
+      "ms_definition": "Dikenai hembusan nafas, angin atau udara.",
+      "nuances": "是 meniup 的被动形式。ditiup angin 表示“被风吹”，但不自动包含吹走、吹倒或吹灭的结果；这些结果须另加 terbang、tumbang 或 padam 等表达。[DBP 释义与用例](https://prpm.dbp.gov.my/cari1?d=175768&keyword=tiup)。",
+      "collocations": [
+        {
+          "ms": "ditiup angin",
+          "zh": "被风吹拂",
+          "en": "blown by the wind"
+        },
+        {
+          "ms": "lilin ditiup",
+          "zh": "蜡烛被人吹",
+          "en": "a candle being blown on"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被吹响、被吹奏；指哨子或管乐器因吹入空气而发声。",
+      "en_definition": "Be sounded or played by blowing air through it.",
+      "ms_definition": "Dibunyikan dengan menghembuskan udara ke dalam atau melalui alat bunyi-bunyian.",
+      "nuances": "主语通常是 wisel、serunai、trompet 等可吹奏器具。乐器按演奏方式分别搭配 ditiup、dipetik、digesek 或 dipukul，不能一律译为 ditiup。",
+      "collocations": [
+        {
+          "ms": "wisel ditiup",
+          "zh": "哨子被吹响",
+          "en": "a whistle being blown"
+        },
+        {
+          "ms": "serunai ditiup",
+          "zh": "唢呐类管乐器被吹奏",
+          "en": "a serunai being played"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被激发、被煽起；比喻情绪、斗志或敌意受到鼓动。",
+      "en_definition": "Be stirred up, encouraged or inflamed, figuratively.",
+      "ms_definition": "Dibangkitkan, digalakkan atau dikobarkan, berkenaan dengan semangat, perasaan atau permusuhan.",
+      "nuances": "属于比喻义，语气可正可负，取决于被激起的是斗志还是敌意。相关表达也常采用 meniupkan、ditiupkan 或 meniup-niup；须保留具体句子的词缀区别。",
+      "collocations": [
+        {
+          "ms": "semangat perjuangan ditiup",
+          "zh": "斗争精神被激发",
+          "en": "the fighting spirit being stirred"
+        },
+        {
+          "ms": "api permusuhan ditiup",
+          "zh": "敌意之火被煽起",
+          "en": "the flames of hostility being fanned"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "被施术者吹气；指念咒等传统仪式中向人或物吹气的行为。",
+      "en_definition": "Be blown upon as part of a traditional incantation or ritual.",
+      "ms_definition": "Dikenai hembusan atau semburan nafas oleh orang yang membaca mantera atau menjalankan upacara tradisional.",
+      "nuances": "继承自 tiup 在传统施术语境中的口语义，常见于叙事或民俗描述。该词只描述吹气行为，不单独说明仪式性质或实际效果。[DBP 民俗用法](https://prpm.dbp.gov.my/cari1?d=175768&keyword=tiup)。",
+      "collocations": [
+        {
+          "ms": "ditiup oleh bomoh",
+          "zh": "被传统施术者吹气",
+          "en": "blown upon by a traditional practitioner"
+        },
+        {
+          "ms": "ditiup sambil membaca mantera",
+          "zh": "被一边念咒一边吹气",
+          "en": "blown upon while an incantation is recited"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Bendera di hadapan bangunan itu berkibar apabila ditiup angin.",
+      "zh": "大楼前的旗帜在风吹拂时飘扬。",
+      "en": "The flag in front of the building flutters when the wind blows."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kertas kat meja tu dah terbang ditiup angin lah!",
+      "ms_standard": "Kertas di atas meja itu sudah terbang kerana ditiup angin!",
+      "zh": "桌上那张纸被风吹跑啦！",
+      "en": "The paper on the table's blown away!",
+      "spoken_features": [
+        "kat 在这里代替 di atas，具体位置由上下文补足。",
+        "tu 是 itu 的口语缩略形式。",
+        "dah 对应 sudah；句末 lah 加强提醒语气。",
+        "ditiup 保持标准被动形式；terbang 另行说明被吹走的结果。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kertas kat meja tu dah terbang ditiup angin lah!",
+          "ms_standard": "Kertas di atas meja itu sudah terbang kerana ditiup angin!",
+          "zh": "桌上那张纸被风吹跑啦！",
+          "en": "The paper on the table's blown away!"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Alamak, aku nak ambil sekarang. Tutup tingkap tu dulu, ya.",
+          "ms_standard": "Aduh, saya hendak mengambilnya sekarang. Tolong tutup tingkap itu dahulu.",
+          "zh": "哎呀，我马上去捡。你先把那扇窗关上啊。",
+          "en": "Oh no, I'll get it now. Close that window first, will you?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries connect tiup with moving air, sounding instruments, ritual blowing and stirring emotions. These meanings share a useful image: breath or wind sets something in motion. Ditiup adds the productive passive prefix di-, placing the affected object in focus. Its structure explains the word without requiring an uncertain story about a particular historical borrowing. [DBP reference](https://prpm.dbp.gov.my/cari1?d=175768&keyword=tiup).",
+    "cognitive_memory_aid": "tiup＝吹，di-＝被：di- + tiup 就是“被吹”。记住 angin bertiup（风在吹），daun ditiup angin（叶子被风吹）。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "普通物理义和乐器义语体中性，可用于正式报告及日常交流。描述人为行为时，明确行为者有助于避免被动句造成责任归属不清。",
+    "usage_etiquette": "描述传统吹气仪式时，应依当事人的实际做法和称谓表述，不把所有宗教祈祷、传统疗法或民间仪式混称为同一种行为。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "普通物理义和乐器义语体中性，可用于正式报告及日常交流。描述人为行为时，明确行为者有助于避免被动句造成责任归属不清。",
+    "usage_etiquette": "描述传统吹气仪式时，应依当事人的实际做法和称谓表述，不把所有宗教祈祷、传统疗法或民间仪式混称为同一种行为。"
+  }
+}

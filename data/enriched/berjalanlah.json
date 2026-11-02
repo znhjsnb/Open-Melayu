@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "berjalanlah",
+    "syllables": null,
+    "ipa": "/bər.dʒa.lan.lah/",
+    "jawi": "برجالن",
+    "frequency_rank": 14890,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "berjalan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "berjalan + -lah → berjalanlah；内部结构：ber- + jalan → berjalan",
+    "pattern_note": "berjalan 是直接基础形式，jalan 才是底层词根。-lah 是附着语气词，不是派生后缀；连接时没有音素脱落。资料包的 Jawi برجالن 对应 berjalan，未包含 -lah；完整形式应写作 برجالنله。音节可分析为 ber.ja.lan.lah，但 syllables 字段保留资料包的 null。[DBP：-lah 的语法身份](https://prpm.dbp.gov.my/cari1?d=175768&keyword=lah)",
+    "word_family": [
+      {
+        "word": "perjalanan",
+        "affix": "per-...-an",
+        "gloss": "行程；旅程"
+      },
+      {
+        "word": "menjalankan",
+        "affix": "meN-...-kan",
+        "gloss": "执行；经营；使运作"
+      }
+    ],
+    "root_jawi": "برجالن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "迈步行走；加上 -lah 后，可表示劝说、指示或对行走动作的强调。",
+      "en_definition": "To walk, with -lah adding exhortation, instruction, or emphasis.",
+      "ms_definition": "Bergerak dengan melangkahkan kaki, dengan partikel -lah sebagai penegas atau penghalus suruhan.",
+      "nuances": "不及物动词。berjalanlah 不必一律译成命令，也可用于叙述中的强调。温和劝说还是催促，取决于语调和上下文；-lah 本身不保证礼貌。",
+      "collocations": [
+        {
+          "ms": "berjalanlah perlahan-lahan",
+          "zh": "慢慢走吧",
+          "en": "walk slowly"
+        },
+        {
+          "ms": "berjalanlah kaki",
+          "zh": "步行去吧",
+          "en": "go on foot"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "从一处移动到另一处；可用于车辆等移动主体，-lah 增添强调或叙述推进语气。",
+      "en_definition": "To move or travel from one place to another, with added emphasis.",
+      "ms_definition": "Bergerak dari satu tempat ke tempat yang lain, dengan partikel -lah sebagai penegas.",
+      "nuances": "车辆作主语时不译为“步行”。带 -lah 的形式较有叙述色彩，例如 Maka berjalanlah kereta itu；普通情况陈述通常使用 berjalan。",
+      "collocations": [
+        {
+          "ms": "berjalanlah kereta itu",
+          "zh": "那辆车便行驶起来",
+          "en": "the car then moved off"
+        },
+        {
+          "ms": "berjalanlah menuju ke destinasi",
+          "zh": "便向目的地行进",
+          "en": "then proceeded towards the destination"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "事情、活动或程序进行、发生；-lah 可突出叙述中的进展。",
+      "en_definition": "To proceed or take place, with added emphasis.",
+      "ms_definition": "Berlangsung atau berlaku, dengan partikel -lah sebagai penegas.",
+      "nuances": "此义把事情的进展理解为向前行进。会议、计划或程序均可作主语；正式汇报通常使用 berjalan lancar，使用 berjalanlah 则更突出叙述语气。[DBP：berjalan 的用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berjalan)",
+      "collocations": [
+        {
+          "ms": "berjalanlah mesyuarat itu dengan lancar",
+          "zh": "会议于是顺利进行",
+          "en": "the meeting then proceeded smoothly"
+        },
+        {
+          "ms": "berjalanlah acara itu seperti yang dirancang",
+          "zh": "活动便按计划进行",
+          "en": "the event then proceeded as planned"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共场所安全指引",
+      "ms": "Demi keselamatan bersama, berjalanlah dengan tertib menuju ke pintu keluar.",
+      "zh": "为了大家的安全，请有秩序地步行前往出口。",
+      "en": "For everyone's safety, walk in an orderly manner towards the exit."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量如何前往餐馆",
+      "ms_spoken": "Dekat je kedai tu, berjalanlah kaki.",
+      "ms_standard": "Kedai itu dekat sahaja; berjalanlah kaki.",
+      "zh": "那家店很近，走过去吧。",
+      "en": "The shop's really close. Let's walk.",
+      "spoken_features": [
+        "je 是 sahaja 的口语缩略形式。",
+        "tu 对应 itu。",
+        "-lah 在这里表达建议；dekat 前置突出距离很近。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nak naik kereta ke? Kedai tu dekat je.",
+          "ms_standard": "Adakah kita hendak menaiki kereta? Kedai itu dekat sahaja.",
+          "zh": "要开车去吗？那家店很近而已。",
+          "en": "Are we driving? The shop's really close."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kalau macam tu, berjalanlah kaki. Aku dah siap.",
+          "ms_standard": "Kalau begitu, berjalanlah kaki. Saya sudah bersedia.",
+          "zh": "那就走过去吧，我已经准备好了。",
+          "en": "Let's walk, then. I'm ready."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates Malay grammar rather than a separate historical borrowing. Jalan supplies the idea of a path or movement, ber- forms the verb berjalan, and attached -lah adds discourse emphasis. The same walking verb also describes vehicles moving and events proceeding, connecting physical movement with the familiar experience of activities moving forward.",
+    "cognitive_memory_aid": "先记 jalan“路”，再记 berjalan“走路”；句尾加 lah，想成一句带语气的“走吧”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对朋友可直接说 berjalanlah；对长者、顾客或需要协助的人，可按情境加入 sila、请称或解释，避免用催促语调。",
+    "usage_etiquette": "适合路线指引、安全提示和温和建议。面对行动不便者，应先确认对方需要的协助，避免把“走吧”说成责备或催赶。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对朋友可直接说 berjalanlah；对长者、顾客或需要协助的人，可按情境加入 sila、请称或解释，避免用催促语调。",
+    "usage_etiquette": "适合路线指引、安全提示和温和建议。面对行动不便者，应先确认对方需要的协助，避免把“走吧”说成责备或催赶。"
+  }
+}

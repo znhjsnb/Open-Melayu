@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "diisytiharkan",
+    "syllables": null,
+    "ipa": "/di.iʃ.ti.har.kan/",
+    "jawi": null,
+    "frequency_rank": 14836,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "isytihar",
+    "affix": "di-…-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + isytihar + -kan → diisytiharkan",
+    "pattern_note": "这是 mengisytiharkan 的被动形式，输入包将整词判为词根有误。di- 与 isytihar 相接时保留两个 i；sy 表示 /ʃ/。本结构中 di- 标记被动，-kan 保留于动词词干。",
+    "word_family": [
+      {
+        "word": "mengisytiharkan",
+        "affix": "meN-…-kan",
+        "gloss": "宣布；宣告"
+      },
+      {
+        "word": "pengisytiharan",
+        "affix": "peN-…-an",
+        "gloss": "宣布这一行为或过程"
+      },
+      {
+        "word": "perisytiharan",
+        "affix": "per-…-an",
+        "gloss": "宣言；公告"
+      },
+      {
+        "word": "terisytihar",
+        "affix": "ter-",
+        "gloss": "已被宣布"
+      }
+    ],
+    "root_jawi": "اشتهار"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被宣布；被公布；某事项被公开告知。",
+      "en_definition": "To be publicly announced, declared, or proclaimed.",
+      "ms_definition": "Diumumkan atau dimaklumkan kepada orang ramai; bentuk pasif bagi mengisytiharkan.",
+      "nuances": "主语通常是被宣布的事项；宣布者可用 oleh 引出。词形本身不表示过去时，时间须结合 telah、akan 等词及上下文判断。释义据 [DBP：isytihar](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=isytihar) 整理，并非独立被动词条的逐字引文。",
+      "collocations": [
+        {
+          "ms": "keputusan diisytiharkan",
+          "zh": "结果被公布",
+          "en": "results are announced"
+        },
+        {
+          "ms": "kemerdekaan diisytiharkan",
+          "zh": "独立获宣告",
+          "en": "independence is proclaimed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被正式宣告为；被宣布具有某种身份、状态或地位。",
+      "en_definition": "To be formally declared to have a specified status or condition.",
+      "ms_definition": "Dinyatakan secara rasmi sebagai mempunyai kedudukan, taraf atau keadaan tertentu.",
+      "nuances": "这是宣布义在身份或状态补语结构中的常见用法。常接 sebagai 加名词，也可接形容词；宣告是否产生实际效力取决于具体制度和宣布者权限。[DBP 用例](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=diisytiharkan)。",
+      "collocations": [
+        {
+          "ms": "diisytiharkan sebagai pemenang",
+          "zh": "被宣布为获胜者",
+          "en": "be declared the winner"
+        },
+        {
+          "ms": "diisytiharkan selamat",
+          "zh": "被宣布为安全",
+          "en": "be declared safe"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Keputusan pertandingan akan diisytiharkan oleh pengerusi panel hakim selepas penilaian selesai.",
+      "zh": "评审结束后，比赛结果将由评审团主席宣布。",
+      "en": "The competition results will be announced by the chair of the judging panel once the assessment is complete."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pasukan kita dah diisytiharkan sebagai pemenang, weh!",
+      "ms_standard": "Pasukan kita sudah diisytiharkan sebagai pemenang!",
+      "zh": "咱们队已经被宣布获胜啦！",
+      "en": "Hey, our team has been declared the winner!",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "weh 是熟人之间表达兴奋或招呼对方的口语呼语。",
+        "口语可以保留 diisytiharkan，尤其在转述正式结果时。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (队友)",
+          "ms_spoken": "Pasukan kita dah diisytiharkan sebagai pemenang ke?",
+          "ms_standard": "Adakah pasukan kita sudah diisytiharkan sebagai pemenang?",
+          "zh": "已经宣布我们队赢了吗？",
+          "en": "Has our team been declared the winner yet?"
+        },
+        {
+          "speaker": "Amir (队友)",
+          "ms_spoken": "Dah! Aku baru tengok pengumuman kat laman rasmi.",
+          "ms_standard": "Sudah! Saya baru sahaja melihat pengumuman di laman rasmi.",
+          "zh": "宣布了！我刚在官网看到公告。",
+          "en": "Yes! I just saw the announcement on the official website."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP identifies isytihar as an Arabic loan associated with public announcement. Malay incorporates this borrowed base into its own productive grammar: mengisytiharkan presents the announcer as subject, while diisytiharkan foregrounds what is announced. Its association with proclamations makes it especially familiar in accounts of national independence and other public declarations. See [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=isytihar).",
+    "cognitive_memory_aid": "先记 isytihar＝宣布，再套 di-…-kan＝被宣布；看到开头 dii，想到 di- 遇上 i，两个 i 都保留。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合公告、新闻和正式汇报。日常随口通知通常用 diberitahu 或 diumumkan 更自然；转述正式宣告时可保留本词。",
+    "usage_etiquette": "涉及获奖、身份或公共决定时，应清楚说明宣布者及信息来源。正式书写须写 diisytiharkan，不写成分开的 di isytiharkan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合公告、新闻和正式汇报。日常随口通知通常用 diberitahu 或 diumumkan 更自然；转述正式宣告时可保留本词。",
+    "usage_etiquette": "涉及获奖、身份或公共决定时，应清楚说明宣布者及信息来源。正式书写须写 diisytiharkan，不写成分开的 di isytiharkan。"
+  }
+}
