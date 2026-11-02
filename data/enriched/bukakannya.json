@@ -1,0 +1,105 @@
+{
+  "headword": {
+    "word": "bukakannya",
+    "syllables": null,
+    "ipa": "/bu.ka.kan.ɲa/",
+    "jawi": null,
+    "frequency_rank": 14383,
+    "status": "official",
+    "verification_note": "这是可按标准构词规则分析的带附着代词形式；official 不表示已核实存在同形的独立 DBP 词条。输入未提供音节和爪夷文。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bukakan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "bukakan + -nya → bukakannya；深层结构：buka + -kan + -nya",
+    "pattern_note": "输入中的 bukakan 是直接基底，最终词根是 buka。-kan 为派生后缀，-nya 为附着代词；此处 suffix 是输出分类，不能把 -nya 等同于普通派生后缀。相邻 k 分属不同音节，不应误删。",
+    "word_family": [
+      {
+        "word": "buka",
+        "affix": null,
+        "gloss": "打开"
+      },
+      {
+        "word": "membukakan",
+        "affix": "meN-…-kan",
+        "gloss": "为某人打开"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把它打开；为某人打开它。-nya 的具体所指须由前文确定，常指已经提到的文件、包装或其他可打开的事物。",
+      "en_definition": "Open it, especially in an instruction or a construction without the active prefix; sometimes with a benefactive meaning.",
+      "ms_definition": "Membuka sesuatu yang telah disebut, termasuk membukanya untuk seseorang; rujukan -nya ditentukan oleh konteks.",
+      "nuances": "常用于指示语；-kan 是否带有“替某人”的受益含义取决于语境，不能一律译出。-nya 也不能一律译成“他的”。本释义为构词分析概括，实际指示用例见 [Apple 马来西亚支持文档](https://support.apple.com/ms-my/guide/mac-help/mh35835/mac)。",
+      "collocations": [
+        {
+          "ms": "sila bukakannya",
+          "zh": "请把它打开",
+          "en": "please open it"
+        },
+        {
+          "ms": "tolong bukakannya",
+          "zh": "请帮忙把它打开",
+          "en": "please help open it"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 文件操作指示",
+      "ms": "Selepas menerima fail tersebut, sila bukakannya untuk menyemak kandungannya.",
+      "zh": "收到该文件后，请将其打开以检查内容。",
+      "en": "After receiving the file, please open it to check its contents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友请求协助打开包装",
+      "ms_spoken": "Bungkusan ni ketat sangat. Tolong bukakannya untuk aku, boleh?",
+      "ms_standard": "Bungkusan ini sukar dibuka. Bolehkah kamu membukakannya untuk saya?",
+      "zh": "这个包装太难开了，能帮我打开吗？",
+      "en": "This package is really hard to open. Could you open it for me?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "aku 用于熟人之间",
+        "句末 boleh 使请求更委婉",
+        "日常口语也常直接说 tolong buka，而省去可从语境恢复的成分"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Bungkusan ni aku dah cuba buka. Tolong bukakannya untuk aku, boleh?",
+          "ms_standard": "Saya sudah cuba membuka bungkusan ini. Bolehkah kamu membukakannya untuk saya?",
+          "zh": "这个包装我已经试着开过了，能帮我打开吗？",
+          "en": "I've already tried opening this package. Could you open it for me?"
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Boleh, letak kat meja dulu. Aku ambil gunting jap.",
+          "ms_standard": "Boleh. Letakkannya di atas meja dahulu. Saya akan mengambil gunting sebentar.",
+          "zh": "可以，先放桌上，我去拿一下剪刀。",
+          "en": "Sure. Put it on the table first. I'll grab some scissors."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates Malay's ability to build a compact instruction from several meaningful parts. Buka names opening, -kan helps form a transitive or benefactive expression, and -nya connects the action to an understood referent. Modern software instructions use such compact forms, although conversation frequently leaves more information to context. No separate historical origin for the complete form is established here.",
+    "cognitive_memory_aid": "按 buka｜kan｜nya 分块记：打开｜动作扩展｜它。先想到“把它打开”，再看语境是否需要补出“替谁”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独说 Bukakannya! 是直接命令。请求同事或陌生人协助时，可加 sila、tolong 或 boleh。",
+    "usage_etiquette": "适合操作说明和具体请求。须让对方清楚 -nya 指什么；没有前文时，直接说出 fail、pintu 或 bungkusan 等对象更清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独说 Bukakannya! 是直接命令。请求同事或陌生人协助时，可加 sila、tolong 或 boleh。",
+    "usage_etiquette": "适合操作说明和具体请求。须让对方清楚 -nya 指什么；没有前文时，直接说出 fail、pintu 或 bungkusan 等对象更清楚。"
+  }
+}

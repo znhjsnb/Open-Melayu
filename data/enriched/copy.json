@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "copy",
+    "syllables": null,
+    "ipa": "/ˈkɒp.i/",
+    "jawi": null,
+    "frequency_rank": 14483,
+    "status": "official",
+    "status_note": "此状态沿用所要求的输出值；copy 在此按英语夹用形式处理，不代表已确认其为 DBP 规范马来语词形。IPA 为英语读音参考。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "copy",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + copy → copy",
+    "pattern_note": "英语整词进入夹语表达，不按马来语词缀拆分。规范马来语通常按语义使用 salin、menyalin、salinan 或 teks iklan。",
+    "word_family": [
+      {
+        "word": "copied",
+        "affix": "-ed（英语；y 变 i）",
+        "gloss": "复制了；已复制的"
+      },
+      {
+        "word": "copying",
+        "affix": "-ing（英语）",
+        "gloss": "正在复制；复制行为"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "复制；抄写；仿照原内容制作另一份。",
+      "en_definition": "To reproduce information, text, an image, or another original.",
+      "ms_definition": "Dalam penggunaan bahasa Inggeris, menyalin atau menghasilkan semula sesuatu berdasarkan yang asal.",
+      "nuances": "常见于电脑操作和非正式夹语。正式马来语使用 menyalin；界面命令使用 Salin。此处马来语释义为说明性译释，不是所提供资料中缺失的 DBP 原文。[DBP 关于 salin 与 salinan 的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=salinan)",
+      "collocations": [
+        {
+          "ms": "copy fail",
+          "zh": "复制文件",
+          "en": "copy a file"
+        },
+        {
+          "ms": "copy dan paste",
+          "zh": "复制并粘贴",
+          "en": "copy and paste"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "副本；复印件；同一出版物的一册或一份。",
+      "en_definition": "A reproduction of an original, or one individual instance of a publication.",
+      "ms_definition": "Dalam penggunaan bahasa Inggeris, salinan sesuatu dokumen atau satu naskhah bahan terbitan.",
+      "nuances": "依对象选择马来语量词和对应词：文件副本用 salinan，书刊的一册通常用 naskhah。soft copy 和 hard copy 是英语短语；DBP 提供 salinan lembut、salinan cetak 等对应表达。[DBP 术语说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=salinan)",
+      "collocations": [
+        {
+          "ms": "soft copy",
+          "zh": "电子版；电子副本",
+          "en": "a digital copy"
+        },
+        {
+          "ms": "hard copy",
+          "zh": "纸质副本；打印件",
+          "en": "a printed copy"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "供广告、宣传或出版使用的文案、文字稿。",
+      "en_definition": "Text prepared for advertising or publication.",
+      "ms_definition": "Dalam penggunaan bahasa Inggeris, teks yang disediakan untuk iklan atau penerbitan.",
+      "nuances": "属于英语广告与出版用语；此义不是“副本”。在马来语工作沟通中可按内容明确说 teks iklan 或 teks untuk penerbitan。[Merriam-Webster：copy](https://www.merriam-webster.com/dictionary/copy)",
+      "collocations": [
+        {
+          "ms": "copy iklan",
+          "zh": "广告文案",
+          "en": "advertising copy"
+        },
+        {
+          "ms": "copy untuk kempen",
+          "zh": "宣传活动文案",
+          "en": "campaign copy"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场操作说明 / 引述英文界面标签",
+      "ms": "Untuk menyalin teks tersebut, pilih arahan “Copy” pada menu.",
+      "zh": "要复制该段文字，请选择菜单中的“Copy”命令。",
+      "en": "To copy the text, select “Copy” from the menu."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事交流文件操作；含英语夹用",
+      "ms_spoken": "Tolong copy fail tu kat folder ni je.",
+      "ms_standard": "Tolong salin fail itu ke dalam folder ini sahaja.",
+      "zh": "麻烦把那个文件复制到这个文件夹就行。",
+      "en": "Just copy that file into this folder, please.",
+      "spoken_features": [
+        "copy 是英语动词夹用，标准对应词为 salin。",
+        "tu 和 ni 分别对应 itu 和 ini。",
+        "kat 在此表达目的位置，标准语使用 ke dalam。",
+        "je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah copy fail tu? Aku nak guna kejap lagi.",
+          "ms_standard": "Adakah kamu sudah menyalin fail itu? Saya mahu menggunakannya sebentar lagi.",
+          "zh": "你复制那个文件了吗？我等下要用。",
+          "en": "Have you copied that file? I'll need it shortly."
+        },
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Dah. Aku letak kat folder kongsi je.",
+          "ms_standard": "Sudah. Saya meletakkannya di dalam folder kongsi sahaja.",
+          "zh": "复制好了，我就放在共享文件夹里。",
+          "en": "Yes. I put it in the shared folder."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English copy came through Anglo-French from Medieval Latin copia, ultimately connected with Latin copia, meaning abundance. Its history links the idea of plentiful supply with reproduced texts. In present-day Malay conversations, the English form can appear around documents and computer commands; standard Malay distinguishes the action menyalin from its result, salinan. [Merriam-Webster word history](https://www.merriam-webster.com/dictionary/copy)",
+    "cognitive_memory_aid": "看见电脑上的 Copy，就想到“复制一份”。动作是 salin，复制出来的那份是 salinan；不要与 kopi“咖啡”混淆。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉的同事之间可用 copy 夹语；面向公众、客户或正式文件时，按语义使用清楚的马来语对应词。请求可说 Boleh tolong salin fail ini?",
+    "usage_etiquette": "引用英文软件按钮时保留 Copy 自然且明确。copy 不应一律理解为抄袭；涉及冒用他人作品时，应明确说 plagiat 或 meniru tanpa pengakuan sumber。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉的同事之间可用 copy 夹语；面向公众、客户或正式文件时，按语义使用清楚的马来语对应词。请求可说 Boleh tolong salin fail ini?",
+    "usage_etiquette": "引用英文软件按钮时保留 Copy 自然且明确。copy 不应一律理解为抄袭；涉及冒用他人作品时，应明确说 plagiat 或 meniru tanpa pengakuan sumber。"
+  }
+}

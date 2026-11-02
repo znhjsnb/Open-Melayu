@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "didik",
+    "syllables": "di.dik",
+    "ipa": "/di.dik/",
+    "jawi": "ديديقبر",
+    "frequency_rank": 14449,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "didik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + didik → didik",
+    "pattern_note": "didik 是词根，开头的 di- 不是被动前缀；被动式是 dididik。meN- + didik → mendidik，保留 d。音位式 /di.dik/ 在常见马来西亚读音中可实现为 [di.deʔ]。数据包的 ديديقبر 疑有多余尾字，通常 didik 写作 ديديق；此处按要求保留原字段。",
+    "word_family": [
+      {
+        "word": "mendidik",
+        "affix": "meN-",
+        "gloss": "教育；培养；悉心教养"
+      },
+      {
+        "word": "pendidikan",
+        "affix": "peN-...-an",
+        "gloss": "教育；培养过程"
+      }
+    ],
+    "root_jawi": "ديديقبر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "教育、教养或培养，使人通过指导与训练发展知识、品格及行为习惯。",
+      "en_definition": "To educate, train, or bring up through guidance and instruction.",
+      "ms_definition": "Ajar, bimbing dan latih supaya berkembang pengetahuan, akhlak serta kebolehan.",
+      "nuances": "比单次传授知识更强调持续培养。词根形式常见于祈使句、标题及口语；正式主动陈述一般使用 mendidik。DBP 的阅读教育报道也使用 didik 作为标题动词。[DBP 用例](https://dewanbahasa.jendeladbp.my/2024/03/26/12767/)。",
+      "collocations": [
+        {
+          "ms": "didik anak",
+          "zh": "教育孩子",
+          "en": "bring up children"
+        },
+        {
+          "ms": "didik dengan kasih sayang",
+          "zh": "以关爱来教导",
+          "en": "teach with love and care"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "悉心照料、养育或饲养，尤指从幼小阶段开始照顾。",
+      "en_definition": "To rear or nurture with careful attention.",
+      "ms_definition": "Pelihara dan jaga dengan teliti, terutama sejak kecil.",
+      "nuances": "与教育义共享“长期照顾成长”的核心。ayam didik 是词典收录的特殊组合，指无母而由人从小饲养的鸡；泛指养鸡通常用 bela 或 pelihara。",
+      "collocations": [
+        {
+          "ms": "ayam didik",
+          "zh": "无母而由人从小饲养的鸡",
+          "en": "a motherless chicken reared by hand"
+        },
+        {
+          "ms": "didik sejak kecil",
+          "zh": "从小悉心养育",
+          "en": "nurture from an early age"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "刚进入青春期的孩子；初长成的少年，属古典或方言用法。",
+      "en_definition": "A child who has just reached adolescence; an archaic or dialectal usage.",
+      "ms_definition": "Anak yang baru meningkat remaja; penggunaan sastera lama atau dialek.",
+      "nuances": "数据包中的 sl、bd 分别标示古典文学及方言。现代一般交流应使用 remaja 或 anak remaja。以下是古义理解组合，并非现代高频搭配；anak didik 通常意为学生或受教者，不能直接等同此义。",
+      "collocations": [
+        {
+          "ms": "didik itu",
+          "zh": "那个初长成的少年",
+          "en": "that adolescent"
+        },
+        {
+          "ms": "didik yang baru remaja",
+          "zh": "刚进入青春期的孩子",
+          "en": "a child newly entering adolescence"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育宣传 / 家长培训指引",
+      "ms": "Didik anak dengan teladan yang baik dan bimbing mereka untuk menghormati orang lain.",
+      "zh": "以良好榜样教育孩子，并引导他们尊重他人。",
+      "en": "Teach children by setting a good example and guide them to respect others."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家长或亲友交流",
+      "ms_spoken": "Nak didik anak ni kena sabar, bukan marah je.",
+      "ms_standard": "Untuk mendidik anak, kita perlu bersabar, bukan sekadar memarahinya.",
+      "zh": "教孩子得有耐心，不能只顾着骂。",
+      "en": "Raising kids takes patience; you can't just keep telling them off.",
+      "spoken_features": [
+        "nak 在这里引出目的，对应 untuk",
+        "口语在 nak 后使用词根 didik",
+        "kena 在这里表示必须或需要",
+        "ni 和 je 分别对应 ini 和 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah tegur banyak kali, dia buat lagi. Macam mana nak didik dia supaya simpan mainan sendiri?",
+          "ms_standard": "Saya sudah menegurnya berkali-kali, tetapi dia masih mengulanginya. Bagaimanakah saya boleh mendidiknya supaya menyimpan mainannya sendiri?",
+          "zh": "我已经提醒好多次了，他还是这样。怎么教他自己收玩具啊？",
+          "en": "I've reminded him so many times, but he keeps doing it. How can I teach him to put his toys away?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Cuba kemas sama-sama dulu. Nak didik tabiat ni kena ulang hari-hari, bukan cakap sekali je.",
+          "ms_standard": "Cuba kemaskan mainan bersama-sama terlebih dahulu. Untuk membentuk tabiat ini, latihan perlu diulang setiap hari, bukan sekadar diberikan arahan sekali.",
+          "zh": "先试着跟他一起收。培养这种习惯得天天练，不是说一次就会的。",
+          "en": "Try putting them away together first. Building that habit takes daily practice, not just one reminder."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Didik brings care and instruction into the same word family. The packet's traditional ayam didik expression preserves the idea of rearing, while mendidik and pendidikan express education and cultivation. This connection makes upbringing a useful cultural lens for remembering the word. It does not establish a particular borrowing source or date of origin.",
+    "cognitive_memory_aid": "didik：一次次教、一步步带，慢慢养成；词首 di 是词根的一部分，被动式要写 dididik。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于孩子、学生和培养过程十分自然；对成年同事直接说 saya akan didik awak 可能显得居高临下，职场中可根据实际意思改用 membimbing 或 memberikan latihan。",
+    "usage_etiquette": "评价别人 tak pandai didik anak（不会教孩子）容易冒犯家长。讨论教养方式时，说明具体行为和做法通常更得体。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于孩子、学生和培养过程十分自然；对成年同事直接说 saya akan didik awak 可能显得居高临下，职场中可根据实际意思改用 membimbing 或 memberikan latihan。",
+    "usage_etiquette": "评价别人 tak pandai didik anak（不会教孩子）容易冒犯家长。讨论教养方式时，说明具体行为和做法通常更得体。"
+  }
+}

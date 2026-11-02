@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "kuncian",
+    "syllables": null,
+    "ipa": "/kun.tʃi.an/",
+    "jawi": "کونچي",
+    "frequency_rank": 14473,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kunci",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "kunci + -an → kuncian",
+    "pattern_note": "-an 构成表示锁定动作、结果或技术的名词；词根末尾 /i/ 保留，与后缀 /a/ 分属相邻音节。输入包的 Jawi 对应基词 kunci，未表示 -an；syllables 的空值予以保留，完整词形可分为 kun.ci.an。",
+    "word_family": [
+      {
+        "word": "mengunci",
+        "affix": "meN-",
+        "gloss": "上锁；锁住"
+      },
+      {
+        "word": "terkunci",
+        "affix": "ter-",
+        "gloss": "处于锁住状态；被锁住"
+      },
+      {
+        "word": "penguncian",
+        "affix": "peN-...-an",
+        "gloss": "上锁或锁定的过程"
+      }
+    ],
+    "root_jawi": "کونچي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "武术或格斗中用以限制对手身体、肢体或关节活动的锁控技法。",
+      "en_definition": "A restraining hold or lock used in martial arts to restrict an opponent's movement.",
+      "ms_definition": "Teknik pegangan dalam seni bela diri yang mengehadkan pergerakan tubuh atau anggota lawan.",
+      "nuances": "在马来武术 silat 中有明确用例；不应译为“钥匙”。此处马来语释义为依据实际用法编写的说明，并非输入包所载 kunci 的词典原文。用例见 [马来西亚国家遗产局武术研究](https://www.heritage.gov.my/en/koleksi-penerbitan.html?download=11%3Ajurnal-warisan-tidak-ketara)。",
+      "collocations": [
+        {
+          "ms": "teknik kuncian",
+          "zh": "锁控技法",
+          "en": "locking technique"
+        },
+        {
+          "ms": "melepaskan diri daripada kuncian",
+          "zh": "挣脱锁控",
+          "en": "escape from a restraining hold"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "使物件、机构或系统无法自由开启、移动或运作的锁定作用或状态。",
+      "en_definition": "A locking action or condition that prevents an object, mechanism, or system from opening, moving, or operating freely.",
+      "ms_definition": "Tindakan atau keadaan mengunci yang menghalang sesuatu daripada dibuka, bergerak atau berfungsi secara bebas.",
+      "nuances": "常在机械或技术复合词中使用；具体含义由后面的限定语决定。输入包提供的是基词 kunci 的定义，此处为派生义概括。DBP 收有 kuncian wap“气阻”，说明它不必指实体锁具：[DBP：kuncian wap](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=melewatkan)。",
+      "collocations": [
+        {
+          "ms": "sistem kuncian",
+          "zh": "锁定系统",
+          "en": "locking system"
+        },
+        {
+          "ms": "mekanisme kuncian",
+          "zh": "锁定机构",
+          "en": "locking mechanism"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jurulatih menerangkan teknik kuncian kepada para peserta semasa bengkel pengenalan silat.",
+      "zh": "教练在马来武术入门工作坊中向参与者讲解锁控技法。",
+      "en": "The instructor explained locking techniques to participants during the introductory silat workshop."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku belum faham kuncian yang cikgu tunjuk tadi lah.",
+      "ms_standard": "Saya masih belum memahami teknik kuncian yang ditunjukkan oleh cikgu tadi.",
+      "zh": "老师刚才示范的那个锁控动作，我还没弄懂呢。",
+      "en": "I still don't understand the lock the instructor showed us earlier.",
+      "spoken_features": [
+        "aku 用于熟人交流",
+        "口语 tunjuk 对应较完整的 tunjukkan；标准被动句使用 ditunjukkan",
+        "lah 在此加强说明和轻微困惑的语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (武术班同学)",
+          "ms_spoken": "Kau dah faham kuncian yang cikgu tunjuk tadi ke?",
+          "ms_standard": "Adakah kamu sudah memahami teknik kuncian yang ditunjukkan oleh cikgu tadi?",
+          "zh": "老师刚才示范的那个锁控动作，你弄懂了吗？",
+          "en": "Did you understand the lock the instructor showed us earlier?"
+        },
+        {
+          "speaker": "Farah (武术班同学)",
+          "ms_spoken": "Belum lagi lah. Nanti aku nak minta cikgu tunjuk sekali lagi.",
+          "ms_standard": "Saya masih belum memahaminya. Nanti saya mahu meminta cikgu menunjukkannya sekali lagi.",
+          "zh": "还没呢，待会儿我想请老师再示范一次。",
+          "en": "Not yet. I'll ask the instructor to show us again later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kunci belongs to Malay's South Asian loan vocabulary: comparative research connects it with Sanskrit kuñcikā and related Middle and New Indo-Aryan forms meaning 'key.' Malay adds -an to form kuncian. Its martial use offers a memorable semantic extension: a limb or body is held as though locked. This explains the modern meaning without claiming that the martial term itself was borrowed from Sanskrit. See [Hoogervorst](https://brill.com/downloadpdf/book/9789004529458/BP000002.pdf).",
+    "cognitive_memory_aid": "kunci 是“钥匙／锁”，加 -an 把“锁住”变成一种作用或技法：门被锁住是锁定，对手被“锁住”就是锁控。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在 silat 课堂中，称呼教练可用 cikgu 或对方采用的称谓；讨论技术时保持尊重，避免以挑衅语气要求对方展示实力。",
+    "usage_etiquette": "适用于武术教学、比赛报道和机械技术说明。谈论武术技法时区分示范、训练与实际冲突；日常索要钥匙应说 kunci，不说 kuncian。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在 silat 课堂中，称呼教练可用 cikgu 或对方采用的称谓；讨论技术时保持尊重，避免以挑衅语气要求对方展示实力。",
+    "usage_etiquette": "适用于武术教学、比赛报道和机械技术说明。谈论武术技法时区分示范、训练与实际冲突；日常索要钥匙应说 kunci，不说 kuncian。"
+  }
+}

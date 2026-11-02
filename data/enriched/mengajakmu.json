@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "mengajakmu",
+    "syllables": null,
+    "ipa": "/mə.ŋa.dʒaʔ.mu/",
+    "jawi": "مڠاجق",
+    "frequency_rank": 14395,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mengajak",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "mengajak + -mu → mengajakmu；底层构词：meN- + ajak → mengajak",
+    "pattern_note": "root_word 按资料包保留直接基础形式 mengajak；其词根是 ajak。meN- 在元音前采用 meng-，不删除 a。-mu 是后附的第二人称代词附着成分，此处表示宾语“你”，并非派生后缀。词干末尾 k 通常实现为喉塞音。资料包爪夷文仅对应 mengajak；补上 -mu 后为 مڠاجقمو。音节字段保留资料包的缺失值。",
+    "word_family": [
+      {
+        "word": "ajak",
+        "affix": null,
+        "gloss": "邀请；招呼一起做"
+      },
+      {
+        "word": "mengajak",
+        "affix": "meN-",
+        "gloss": "邀请；劝人参与"
+      },
+      {
+        "word": "ajakan",
+        "affix": "-an",
+        "gloss": "邀请；倡议"
+      },
+      {
+        "word": "pengajak",
+        "affix": "peN-",
+        "gloss": "邀请者；倡导者"
+      }
+    ],
+    "root_jawi": "مڠاجق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "邀请你一同前往某处、参加活动或共同做某事。",
+      "en_definition": "To invite you to go somewhere or take part in an activity.",
+      "ms_definition": "Mempelawa kamu supaya pergi atau datang bersama-sama, atau turut melakukan sesuatu.",
+      "nuances": "-mu 指受邀的“你”，不表示动作由你发出。常用结构是 mengajakmu + 动作，或 mengajakmu ke + 地点。相比 mengajak awak，整词形式在马来西亚日常聊天中通常更有书信、歌词或文学色彩。词义依据 [DBP ajak 词条](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ajak)；附着拼写依据 [DBP 马来语拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "mengajakmu makan bersama",
+          "zh": "邀请你一起吃饭",
+          "en": "invite you to eat together"
+        },
+        {
+          "ms": "mengajakmu menyertai program",
+          "zh": "邀请你参加活动",
+          "en": "invite you to join a programme"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "鼓动、劝你或向你挑战，促使你采取某种行动。",
+      "en_definition": "To urge or challenge you to do something.",
+      "ms_definition": "Mendorong atau mencabar kamu supaya melakukan sesuatu.",
+      "nuances": "具体语气由后续动作决定：可以是积极劝勉，也可以是挑衅。涉及争执或打斗时，不宜译成友善的“邀请”。此义来自 [DBP mengajak 的第二义项](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ajak)，-mu 将对象限定为“你”。",
+      "collocations": [
+        {
+          "ms": "mengajakmu berdebat",
+          "zh": "向你提出辩论挑战",
+          "en": "challenge you to a debate"
+        },
+        {
+          "ms": "mengajakmu bertumbuk",
+          "zh": "挑衅你打架",
+          "en": "challenge you to a fistfight"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam surat terbuka itu, penulis menyatakan, \"Saya mengajakmu menyertai usaha memelihara alam sekitar.\"",
+      "zh": "作者在那封公开信中写道：“我邀请你参与保护环境的行动。”",
+      "en": "In the open letter, the writer states, \"I invite you to join the effort to protect the environment.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak mengajakmu makan—wah, macam ayat novel pulak!",
+      "ms_standard": "Saya mahu mengajakmu makan—wah, seperti ayat novel pula!",
+      "zh": "我想邀你吃饭——哇，怎么说得跟小说台词似的！",
+      "en": "I’d like to invite you to dinner—wow, that sounds like a line from a novel!",
+      "spoken_features": [
+        "nak 对应 mahu；macam 对应 seperti；pulak 是 pula 的口语写法。",
+        "整词 mengajakmu 被刻意保留，制造朋友间模仿文学语气的幽默。",
+        "普通邀约更常说 nak ajak awak makan；这里的整词不应当作最中性的聊天表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak mengajakmu makan—wah, macam ayat novel pulak!",
+          "ms_standard": "Saya mahu mengajakmu makan—wah, seperti ayat novel pula!",
+          "zh": "我想邀你吃饭——哇，怎么说得跟小说台词似的！",
+          "en": "I’d like to invite you to dinner—wow, that sounds like a line from a novel!"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Haha, ajak makan je pun! Nak jumpa kat mana?",
+          "ms_standard": "Haha, sekadar mengajak makan sahaja! Kamu mahu berjumpa di mana?",
+          "zh": "哈哈，不就约个饭嘛！想在哪儿见？",
+          "en": "Haha, it’s just dinner! Where do you want to meet?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form is best understood through Malay grammar rather than a speculative borrowing story. Ajak supplies the invitation, meN- forms the active verb mengajak, and attached -mu identifies the person addressed. Written Malay joins this shortened pronoun to the preceding word. The compact combination suits direct personal address, including letters and literary dialogue. Sources: [DBP dictionary](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ajak), [DBP spelling guide](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf).",
+    "cognitive_memory_aid": "ajak＝邀；mengajak＝发出邀请；尾巴 -mu＝你。顺着读就是“邀请你”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 带有直接称呼对方的语气，亲疏感取决于关系与文体。向客户、上级或不熟悉的人发正式邀请，通常使用 menjemput tuan/puan 或完整称谓更稳妥。",
+    "usage_etiquette": "适合私人书信、歌词、文学对白及刻意俏皮的聊天。词尾 -mu 本身不表示浪漫关系，也不等同于敬称；邀请时应给对方自然拒绝的空间。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 带有直接称呼对方的语气，亲疏感取决于关系与文体。向客户、上级或不熟悉的人发正式邀请，通常使用 menjemput tuan/puan 或完整称谓更稳妥。",
+    "usage_etiquette": "适合私人书信、歌词、文学对白及刻意俏皮的聊天。词尾 -mu 本身不表示浪漫关系，也不等同于敬称；邀请时应给对方自然拒绝的空间。"
+  }
+}

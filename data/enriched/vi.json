@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "vi",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 14415,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "vi",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + vi → vi（若为罗马数字，则 V + I = 6）",
+    "pattern_note": "保留输入的未分解词元标记；若表示罗马数字，v 和 i 是数字符号，不是词根或词缀。缺少上下文，不能确定为罗马数字、缩写或名称。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "若用于罗马数字编号，vi 为 VI 的小写形式，表示六；在章节或条目编号中可表示第六项。",
+      "en_definition": "If used as a Roman numeral, the lowercase form of VI, representing six or identifying the sixth numbered item.",
+      "ms_definition": "Jika digunakan sebagai angka Roman, bentuk huruf kecil bagi VI yang melambangkan enam atau menandai perkara keenam dalam sesuatu urutan.",
+      "nuances": "这是有条件的释读，不能据此确定原始词元的实际含义。DBP 的 enam 释义明确列出 6、vi 和 VI；但 vi 是数字符号，没有独立的马来语词汇读音。读作 enam 或 keenam 须依语境决定。pos 以 noun 容纳符号名称，实际类别为数字符号。以下搭配仅示范编号用法。[DBP：angka / enam](https://prpm.dbp.gov.my/Cari1?d=132444&keyword=angka)",
+      "collocations": [
+        {
+          "ms": "halaman vi",
+          "zh": "第 vi 页，即罗马数字编号的第六页",
+          "en": "page vi"
+        },
+        {
+          "ms": "perenggan (vi)",
+          "zh": "第（六）段",
+          "en": "paragraph (vi)"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 报告页码；以罗马数字释读为前提",
+      "ms": "Senarai singkatan terdapat pada halaman vi laporan tersebut.",
+      "zh": "缩略语表位于该报告的第 vi 页。",
+      "en": "The list of abbreviations appears on page vi of the report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学核对页码；以罗马数字释读为前提",
+      "ms_spoken": "Cuba tengok kat halaman vi, senarai tu ada kat situ je.",
+      "ms_standard": "Cuba lihat halaman vi; senarai itu terdapat di situ sahaja.",
+      "zh": "看看第 vi 页，那个列表就在那儿。",
+      "en": "Have a look at page vi—the list is right there.",
+      "spoken_features": [
+        "tengok 对应较正式的 lihat。",
+        "kat 是地点介词的口语形式。",
+        "tu 对应 itu，je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同学)",
+          "ms_spoken": "Senarai singkatan tu kat halaman vi ke?",
+          "ms_standard": "Adakah senarai singkatan itu terdapat pada halaman vi?",
+          "zh": "缩略语表是在第 vi 页吗？",
+          "en": "Is the list of abbreviations on page vi?"
+        },
+        {
+          "speaker": "Hafiz (同学)",
+          "ms_spoken": "Ya, aku dah semak. Buka halaman vi je.",
+          "ms_standard": "Ya, saya sudah menyemaknya. Buka halaman vi sahaja.",
+          "zh": "对，我查过了，翻到第 vi 页就行。",
+          "en": "Yes, I've checked. Just turn to page vi."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Under the numeral interpretation, vi belongs to Roman notation rather than Malay vocabulary. V represents five and the following I adds one. DBP explicitly lists vi and VI as representations of enam. Such notation can label pages or numbered items, but the isolated corpus token still needs context before this interpretation can be confirmed. [DBP: angka](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=angka), [DBP: enam](https://prpm.dbp.gov.my/Cari1?d=132444&keyword=angka)",
+    "cognitive_memory_aid": "若是罗马数字，看到 V 后加一根 I，就想到 5 + 1 = 6；不要直接把 vi 当作马来语音节念。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是编号或符号问题，没有固有的敬语等级；向他人说明时可说 angka Roman enam。",
+    "usage_etiquette": "引用文件时保留原有大小写和括号。若 vi 出现在姓名、品牌、软件或缩写中，应先确认含义，不能一律翻成“六”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是编号或符号问题，没有固有的敬语等级；向他人说明时可说 angka Roman enam。",
+    "usage_etiquette": "引用文件时保留原有大小写和括号。若 vi 出现在姓名、品牌、软件或缩写中，应先确认含义，不能一律翻成“六”。"
+  }
+}

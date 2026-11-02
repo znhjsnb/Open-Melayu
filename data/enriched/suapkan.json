@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "suapkan",
+    "syllables": "su.ap.kan",
+    "ipa": "/su.ap.kan/",
+    "jawi": "سواڤ",
+    "frequency_rank": 14392,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "suap",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "suap + -kan → suapkan",
+    "pattern_note": "添加 -kan 时保留词根末尾 p，不发生鼻音替换。suapkan 可用于祈使句及第一、第二人称受事结构；完整主动形式是 menyuapkan。数据包的 سواڤ 对应 suap，完整 suapkan 写作 سواڤکن。",
+    "word_family": [
+      {
+        "word": "suap",
+        "affix": null,
+        "gloss": "一口食物；贿赂"
+      },
+      {
+        "word": "menyuap",
+        "affix": "meN-",
+        "gloss": "喂食；行贿"
+      },
+      {
+        "word": "menyuapkan",
+        "affix": "meN-...-kan",
+        "gloss": "把食物送入口中；输入"
+      },
+      {
+        "word": "suapan",
+        "affix": "-an",
+        "gloss": "喂入的一口；输入物；贿赂"
+      }
+    ],
+    "root_jawi": "سواڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把食物等送入某人的口中；喂入口中。",
+      "en_definition": "To put food or another substance into someone’s mouth.",
+      "ms_definition": "Memasukkan makanan atau sesuatu yang lain ke dalam mulut seseorang.",
+      "nuances": "常以食物为直接宾语，如 suapkan bubur ke dalam mulut adik；以人为宾语时通常用 suap 或 menyuap。不要因 suap 也有“贿赂”义，就把本词的普通喂食用法理解为行贿。[DBP词条](https://prpm.dbp.gov.my/Cari1?d=244840&keyword=suap)",
+      "collocations": [
+        {
+          "ms": "suapkan bubur",
+          "zh": "喂粥",
+          "en": "feed someone porridge"
+        },
+        {
+          "ms": "suapkan makanan ke dalam mulut",
+          "zh": "把食物送入口中",
+          "en": "put food into someone’s mouth"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "将材料、数据等送入机器或系统，供其处理。",
+      "en_definition": "To feed material, data, or other input into a machine or system.",
+      "ms_definition": "Memasukkan bahan, data atau input lain ke dalam mesin atau sistem untuk diproses.",
+      "nuances": "技术用法把机器入口类比为进食入口；普通说明中也可用 masukkan。suapkan 常见于操作指令，主动陈述则用 menyuapkan。[DBP英马词典 feed 用例](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menyuap)",
+      "collocations": [
+        {
+          "ms": "suapkan data ke dalam komputer",
+          "zh": "向计算机输入数据",
+          "en": "feed data into a computer"
+        },
+        {
+          "ms": "suapkan bahan ke dalam mesin",
+          "zh": "向机器送入材料",
+          "en": "feed material into a machine"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam panduan penjagaan itu, petugas diarahkan: “Suapkan makanan sedikit demi sedikit ke dalam mulut pesakit.”",
+      "zh": "该护理指南指示工作人员：“将食物少量、逐次地送入患者口中。”",
+      "en": "The care guide instructs staff: “Place small amounts of food into the patient’s mouth, a little at a time.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tolong suapkan bubur ni kat adik dulu ya.",
+      "ms_standard": "Tolong suapkan bubur ini ke dalam mulut adik dahulu.",
+      "zh": "先帮忙给弟弟喂一下这碗粥啊。",
+      "en": "Please give your little brother some of this porridge first.",
+      "spoken_features": [
+        "ni 对应 ini。",
+        "kat 在这里口语化地引出喂食对象；标准句明确写 ke dalam mulut。",
+        "dulu 对应 dahulu。",
+        "ya 使请求语气更柔和。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Tolong suapkan bubur ni kat adik dulu ya. Saya nak basuh botol.",
+          "ms_standard": "Tolong suapkan bubur ini ke dalam mulut adik dahulu. Saya hendak membasuh botol.",
+          "zh": "先帮忙给弟弟喂一下这碗粥啊，我去洗奶瓶。",
+          "en": "Please give your little brother some of this porridge first. I need to wash the bottle."
+        },
+        {
+          "speaker": "Hakim (弟弟)",
+          "ms_spoken": "Boleh. Bubur ni dah sejuk ke?",
+          "ms_standard": "Boleh. Adakah bubur ini sudah sejuk?",
+          "zh": "可以啊，这粥已经凉了吗？",
+          "en": "Sure. Has the porridge cooled down yet?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Suap names a mouthful of food, linking the word to a small, concrete movement from hand or spoon to mouth. Adding -kan forms an action directed at the food being placed inside. The same feeding image also supports technical language about supplying machines with material or computers with data.",
+    "cognitive_memory_aid": "把 suap 想成“一口”，-kan 把这一口送进去：suapkan bubur＝把粥喂入口中。记住直接宾语通常是送进去的东西。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Suapkan… 带有指令意味；请求家人或同事帮忙时，加 tolong、boleh 或 ya 更自然。与受照护的成年人交谈时，应尊重其自主意愿。",
+    "usage_etiquette": "适用于喂婴幼儿、照护家人及技术送料等场景。suap、menyuap 在其他搭配中可涉及贿赂，但普通喂食语境中的 suapkan 没有这种默认含义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Suapkan… 带有指令意味；请求家人或同事帮忙时，加 tolong、boleh 或 ya 更自然。与受照护的成年人交谈时，应尊重其自主意愿。",
+    "usage_etiquette": "适用于喂婴幼儿、照护家人及技术送料等场景。suap、menyuap 在其他搭配中可涉及贿赂，但普通喂食语境中的 suapkan 没有这种默认含义。"
+  }
+}

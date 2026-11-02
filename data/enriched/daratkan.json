@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "daratkan",
+    "syllables": null,
+    "ipa": "/da.rat.kan/",
+    "jawi": "دارت",
+    "frequency_rank": 14418,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "darat",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "darat + -kan → daratkan",
+    "pattern_note": "词根末尾的 /t/ 保留，接 -kan 后形成 /t.k/。常用于祈使句及第一、第二人称被动结构；一般主动陈述用 mendaratkan。输入 Jawi دارت 是词根拼写。",
+    "word_family": [
+      {
+        "word": "darat",
+        "affix": null,
+        "gloss": "陆地"
+      },
+      {
+        "word": "mendarat",
+        "affix": "meN-",
+        "gloss": "登陆；降落"
+      },
+      {
+        "word": "mendaratkan",
+        "affix": "meN-...-kan",
+        "gloss": "使登陆；使降落"
+      },
+      {
+        "word": "pendaratan",
+        "affix": "peN-...-an",
+        "gloss": "登陆；着陆"
+      }
+    ],
+    "root_jawi": "دارت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把人或物运送、卸放到陆地上；使登陆。",
+      "en_definition": "Bring people or goods ashore; put them on land.",
+      "ms_definition": "Bawa atau turunkan orang atau barang ke darat; bentuk tanpa awalan meN- bagi mendaratkan.",
+      "nuances": "强调把对象送上陆地。daratkan 可直接用于指令，如 Daratkan bekalan itu；主动报道通常用 mendaratkan。释义依据 [PRPM：darat](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=darat)，本条说明为据此编写。",
+      "collocations": [
+        {
+          "ms": "daratkan bekalan",
+          "zh": "把补给物资运上岸",
+          "en": "bring supplies ashore"
+        },
+        {
+          "ms": "daratkan penumpang",
+          "zh": "让乘客上岸",
+          "en": "put passengers ashore"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "操纵飞机、直升机等着陆，使其降落到地面。",
+      "en_definition": "Bring an aircraft down to land.",
+      "ms_definition": "Kendalikan pesawat supaya turun dari udara dan sampai ke tanah dengan selamat.",
+      "nuances": "属于及物用法，操作者使航空器降落；描述航空器自行着陆的动作则用 mendarat。飞机宾语见 [PRPM：mendaratkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=darat)。",
+      "collocations": [
+        {
+          "ms": "daratkan pesawat",
+          "zh": "使飞机着陆",
+          "en": "land the aircraft"
+        },
+        {
+          "ms": "daratkan helikopter",
+          "zh": "使直升机降落",
+          "en": "land the helicopter"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 救援行动指令",
+      "ms": "Sila daratkan bekalan makanan di kawasan yang telah ditetapkan oleh pasukan penyelamat.",
+      "zh": "请把食品补给运上岸，放到救援队指定的区域。",
+      "en": "Please bring the food supplies ashore at the location designated by the rescue team."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友操控无人机",
+      "ms_spoken": "Daratkan dron tu kat sini je, bateri dah nak habis.",
+      "ms_standard": "Daratkan dron itu di sini sahaja kerana baterinya hampir habis.",
+      "zh": "就把无人机降在这里吧，电池快没电了。",
+      "en": "Just land the drone here; the battery is almost flat.",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "kat 表示地点，相当于 di",
+        "je 相当于 sahaja",
+        "dah nak habis 表示快要耗尽"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Daratkan dron tu kat sini je, bateri dah nak habis.",
+          "ms_standard": "Daratkan dron itu di sini sahaja kerana baterinya hampir habis.",
+          "zh": "就把无人机降在这里吧，电池快没电了。",
+          "en": "Just land the drone here; the battery is almost flat."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Okey, tunggu jap. Aku nak jauhkan sikit dari pokok tu dulu.",
+          "ms_standard": "Baiklah, tunggu sebentar. Saya mahu menjauhkannya sedikit daripada pokok itu dahulu.",
+          "zh": "好，等一下。我先让它离那棵树远一点。",
+          "en": "Okay, give me a second. I want to move it a little farther from that tree first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay darat means land, understood against water or the air. The suffix -kan turns that location into a destination for an affected object: someone brings something onto land. This same construction accommodates both bringing passengers ashore and landing an aircraft, linking maritime and aviation contexts through an ordinary Malay word-building pattern.",
+    "cognitive_memory_aid": "darat 是陆地，-kan 表示使某物发生变化：把对象送到陆地上，就是 daratkan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Daratkan… 带有指令语气。工作协调可加 sila 或 tolong；紧急操作指令则宜简明清楚。",
+    "usage_etiquette": "适合运输、航空和救援语境。若是请乘客自行下船，通常说 Sila naik ke darat 或 Sila turun dari bot，而不是对乘客单独说 Daratkan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Daratkan… 带有指令语气。工作协调可加 sila 或 tolong；紧急操作指令则宜简明清楚。",
+    "usage_etiquette": "适合运输、航空和救援语境。若是请乘客自行下船，通常说 Sila naik ke darat 或 Sila turun dari bot，而不是对乘客单独说 Daratkan。"
+  }
+}

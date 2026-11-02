@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "cer",
+    "syllables": null,
+    "ipa": "/tʃə/",
+    "jawi": null,
+    "frequency_rank": 14382,
+    "status": "colloquial",
+    "verification_note": "cer 是非正式聊天缩略形式，不能标为已核实的官方标准词。音标为常见口语读法的宽式近似；输入未提供音节和爪夷文。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "cer",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "cuba → cer（非正式口语缩略，不是词缀派生）",
+    "pattern_note": "依输入保留 cer 为检索词根；实际用法通常对应 cuba 的口语缩略形式。末尾 r 不一定实际发音，不能据此推导通用音变规则。以下词族通过标准形式 cuba 关联。",
+    "word_family": [
+      {
+        "word": "cuba",
+        "affix": null,
+        "gloss": "试；试试看"
+      },
+      {
+        "word": "mencuba",
+        "affix": "meN-",
+        "gloss": "尝试；试用"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "口语及聊天中用于催请对方尝试某个动作，相当于“试着……”“……看看”；通常对应标准形式 cuba。",
+      "en_definition": "An informal prompting form of cuba, used before an action to mean 'try' or 'let us see'.",
+      "ms_definition": "Bentuk singkat tidak formal bagi cuba, digunakan sebelum kata kerja untuk mengajak atau meminta seseorang melakukan sesuatu.",
+      "nuances": "常见于 cer tengok、cer baca 等表达。这里按话语功能标为 particle，不代表 DBP 的官方词类认定；本条马来文释义为编辑概括。缩写对应关系见 [HMI Talk 马来文聊天缩写表](https://hmitalk.com/2020/06/最全「馬來文字縮寫」對照！原來6be是nombor，xpe是tak-apa！/)。",
+      "collocations": [
+        {
+          "ms": "cer tengok",
+          "zh": "看看；试着看一下",
+          "en": "take a look"
+        },
+        {
+          "ms": "cer baca",
+          "zh": "读读看",
+          "en": "try reading it"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场书面指示；使用标准对应形式 cuba",
+      "ms": "Sila cuba buka fail tersebut sekali lagi sebelum menghubungi bahagian sokongan.",
+      "zh": "请先尝试再次打开该文件，再联系支持部门。",
+      "en": "Please try opening the file again before contacting the support department."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友协助查看照片",
+      "ms_spoken": "Cer tengok gambar ni, jelas tak?",
+      "ms_standard": "Cuba lihat gambar ini. Adakah gambar ini jelas?",
+      "zh": "看看这张照片，清楚吗？",
+      "en": "Have a look at this photo. Is it clear?",
+      "spoken_features": [
+        "cer 对应标准形式 cuba",
+        "ni 是 ini 的口语形式",
+        "tak 用于简短的是非问句"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Cer tengok gambar yang aku dah hantar kat kau tadi.",
+          "ms_standard": "Cuba lihat gambar yang telah saya hantar kepada kamu tadi.",
+          "zh": "看看我刚才发给你的照片。",
+          "en": "Take a look at the photo I sent you earlier."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah tengok. Jelas je, boleh guna.",
+          "ms_standard": "Saya sudah melihatnya. Gambar itu jelas dan boleh digunakan.",
+          "zh": "看了，很清楚，可以用。",
+          "en": "I've checked it. It looks clear enough to use."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay messaging often represents conversational speech rather than full formal spelling. Cer belongs to this informal written environment: a short prompt can invite someone to look, read, or test something. Its association with cuba is documented in popular abbreviation lists, but the supplied evidence does not establish its earliest use or a precise historical sound change.",
+    "cognitive_memory_aid": "把 cer 当作聊天中的“试试看”按钮：cer tengok，就是“看看”。这是用法联想，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合熟人聊天；向客户、教师或不熟悉的长辈提出请求时，宜用 boleh、sila 或完整的 cuba，并根据关系调整称呼。",
+    "usage_etiquette": "工作邮件、申请书及考试作文中应采用标准对应形式。cer tengok 在争论中可能带有“你自己看看”的挑战语气，应结合上下文判断。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合熟人聊天；向客户、教师或不熟悉的长辈提出请求时，宜用 boleh、sila 或完整的 cuba，并根据关系调整称呼。",
+    "usage_etiquette": "工作邮件、申请书及考试作文中应采用标准对应形式。cer tengok 在争论中可能带有“你自己看看”的挑战语气，应结合上下文判断。"
+  }
+}

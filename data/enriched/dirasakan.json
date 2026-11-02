@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "dirasakan",
+    "syllables": "di.ra.sa.kan",
+    "ipa": "/di.ra.sa.kan/",
+    "jawi": "دراساکن",
+    "frequency_rank": 14373,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "rasa",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + rasa + -kan → dirasakan",
+    "pattern_note": "被动前缀 di- 与 -kan 结合，词根 rasa 不变；对应主动形式 merasakan。-kan 在此不必然表示使役。输入将 dirasakan 标作词根，应更正为 rasa。",
+    "word_family": [
+      {
+        "word": "merasakan",
+        "affix": "meN-...-kan",
+        "gloss": "感受到；认为"
+      },
+      {
+        "word": "berasa",
+        "affix": "ber-",
+        "gloss": "感到；具有某种感觉"
+      },
+      {
+        "word": "terasa",
+        "affix": "ter-",
+        "gloss": "感觉得到；突然感到"
+      },
+      {
+        "word": "perasaan",
+        "affix": "pe-...-an",
+        "gloss": "感情；感觉"
+      }
+    ],
+    "root_jawi": "راسا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被身体感知或体验到，如疼痛、热度、震动等。",
+      "en_definition": "To be physically felt or experienced.",
+      "ms_definition": "Dialami atau disedari melalui deria atau bahagian tubuh.",
+      "nuances": "通常以感觉、刺激或影响为主语，体验者可用 oleh 引出。不能直接把 saya berasa sakit 换成 saya dirasakan sakit。释义据 [DBP：merasakan](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=merasakan) 作被动转换。",
+      "collocations": [
+        {
+          "ms": "kesakitan yang dirasakan",
+          "zh": "所感受到的疼痛",
+          "en": "the pain experienced"
+        },
+        {
+          "ms": "gegaran dirasakan",
+          "zh": "震动被感觉到",
+          "en": "tremors are felt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "某种情绪、情谊或心理影响被感受到、被体验到。",
+      "en_definition": "To be felt or experienced emotionally.",
+      "ms_definition": "Dialami atau dihayati dalam hati atau batin.",
+      "nuances": "常用于描述悲伤、温暖、亲密感，以及事件给人带来的心理影响。书面语常说 perasaan yang dirasakan，日常交流更常直接说 saya rasa 或 saya berasa。",
+      "collocations": [
+        {
+          "ms": "kesedihan yang dirasakan",
+          "zh": "所感受到的悲伤",
+          "en": "the sadness felt"
+        },
+        {
+          "ms": "kemesraan yang dirasakan",
+          "zh": "所感受到的亲切与融洽",
+          "en": "the warmth experienced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被认为、被判断或被主观感受为具有某种性质。",
+      "en_definition": "To be considered, judged, or perceived to be a certain way.",
+      "ms_definition": "Dianggap, difikirkan atau dinilai mempunyai sesuatu sifat atau keadaan.",
+      "nuances": "常接形容词或评价短语，如 penting、sesuai、perlu，表达判断而非纯粹身体感觉。[DBP：merasakan](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=merasakan) 明列思考、认为的用法。",
+      "collocations": [
+        {
+          "ms": "dirasakan perlu",
+          "zh": "被认为有必要",
+          "en": "considered necessary"
+        },
+        {
+          "ms": "dirasakan sesuai",
+          "zh": "被认为合适",
+          "en": "considered suitable"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Langkah tambahan dirasakan perlu bagi meningkatkan keselamatan pengguna.",
+      "zh": "为提高使用者的安全保障，有必要采取额外措施。",
+      "en": "Additional measures are considered necessary to improve user safety."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Gegaran tadi boleh dirasakan kat rumah kau juga ke?",
+      "ms_standard": "Adakah gegaran tadi juga dapat dirasakan di rumah kamu?",
+      "zh": "刚才的震动，你家那边也感觉到了吗？",
+      "en": "Could you feel that tremor at your place too?",
+      "spoken_features": [
+        "kat 代替地点介词 di",
+        "kau 用于熟人之间",
+        "句末 ke 表示是非问句",
+        "dirasakan 在此类即时事件交流中也自然"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Gegaran tadi boleh dirasakan kat rumah kau juga ke?",
+          "ms_standard": "Adakah gegaran tadi juga dapat dirasakan di rumah kamu?",
+          "zh": "刚才的震动，你家那边也感觉到了吗？",
+          "en": "Could you feel that tremor at your place too?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, aku rasa sekejap je. Lampu kat ruang tamu pun bergoyang.",
+          "ms_standard": "Ya, saya merasakan gegaran itu seketika sahaja. Lampu di ruang tamu juga bergoyang.",
+          "zh": "有啊，我只感觉到一小会儿。客厅的灯也晃了。",
+          "en": "Yeah, just for a moment. The living room light was swaying too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Rasa spans taste, bodily sensation, emotion, and personal judgment in Malay. This breadth helps explain why dirasakan can describe a tremor, someone's sadness, or a proposal considered necessary. The passive form shifts attention from the person who feels or judges to the experience or matter being assessed. These meanings belong to one established word family. [DBP: rasa](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=rasa).",
+    "cognitive_memory_aid": "先记 rasa 的“感受”：舌头尝、身体感、心里想；di-...-kan 把镜头转向对象——它被感受到，或被认为如此。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "dirasakan perlu 常用于公文或会议意见，语气较含蓄；若涉及具体责任或决策，应说明是谁作出判断。",
+    "usage_etiquette": "描述他人情绪时，应保留体验者的立场，例如 kesedihan yang dirasakan oleh keluarga。正式报告中的 dirasakan sesuai 表示评价，不宜直接当作已经客观验证的结论。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "dirasakan perlu 常用于公文或会议意见，语气较含蓄；若涉及具体责任或决策，应说明是谁作出判断。",
+    "usage_etiquette": "描述他人情绪时，应保留体验者的立场，例如 kesedihan yang dirasakan oleh keluarga。正式报告中的 dirasakan sesuai 表示评价，不宜直接当作已经客观验证的结论。"
+  }
+}

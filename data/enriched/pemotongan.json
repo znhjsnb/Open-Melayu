@@ -1,0 +1,173 @@
+{
+  "headword": {
+    "word": "pemotongan",
+    "syllables": "pe.mo.to.ngan",
+    "ipa": "/pə.mo.to.ŋan/",
+    "jawi": "ڤموتوڠن",
+    "frequency_rank": 14459,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pemotong",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + potong + -an → pemotongan",
+    "pattern_note": "peN- 遇到 potong 的词首 p 时实现为 pem-，原来的 p 脱落。root_word 按数据包保留 pemotong；实际构词词根是 potong，不能据此将本词简单解释为“切割者＋-an”。",
+    "word_family": [
+      {
+        "word": "potong",
+        "affix": null,
+        "gloss": "切；割"
+      },
+      {
+        "word": "memotong",
+        "affix": "meN-",
+        "gloss": "切割；削减"
+      },
+      {
+        "word": "pemotong",
+        "affix": "peN-",
+        "gloss": "切割者；切割工具"
+      },
+      {
+        "word": "potongan",
+        "affix": "-an",
+        "gloss": "切下的部分；扣减额；剪裁式样"
+      }
+    ],
+    "root_jawi": "ڤموتوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "切割、剪切、截断或砍断的行为或过程。",
+      "en_definition": "The act or process of cutting, shearing, severing, or chopping something.",
+      "ms_definition": "Perbuatan memotong, seperti mengerat, menggunting atau memenggal; pengeratan atau pemenggalan.",
+      "nuances": "强调切割这一行为或工序；切下来的块、片或部分通常用 potongan。对象决定具体译法，例如切金属、剪头发或截断材料。",
+      "collocations": [
+        {
+          "ms": "pemotongan logam",
+          "zh": "金属切割",
+          "en": "metal cutting"
+        },
+        {
+          "ms": "pemotongan rambut",
+          "zh": "剪发",
+          "en": "hair cutting"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "宰杀供食用的动物；屠宰。",
+      "en_definition": "The slaughtering of animals for food.",
+      "ms_definition": "Penyembelihan.",
+      "nuances": "动物或肉类生产语境下可指屠宰，不能一概译为将肉切块。马来西亚日常及清真语境通常更明确地使用 penyembelihan。",
+      "collocations": [
+        {
+          "ms": "pemotongan ternakan",
+          "zh": "牲畜屠宰",
+          "en": "livestock slaughter"
+        },
+        {
+          "ms": "pemotongan lembu",
+          "zh": "牛只屠宰",
+          "en": "cattle slaughter"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "抄近路、截取捷径或以较短路线穿越的行为。",
+      "en_definition": "The act of cutting across or taking a shorter route.",
+      "ms_definition": "Pemintasan jalan dan sebagainya.",
+      "nuances": "这是数据包所列的路线义，不等同于切开路面。现代日常表达通常用 mengambil jalan pintas；以下为释义性组合，使用频率低于切割义和扣减义。动词 memotong 的相关路线义见 [DBP](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=memotong)。",
+      "collocations": [
+        {
+          "ms": "pemotongan jalan",
+          "zh": "抄近路",
+          "en": "taking a shortcut"
+        },
+        {
+          "ms": "pemotongan laluan",
+          "zh": "穿越路线以取捷径",
+          "en": "cutting across a route"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "对工资、价格、拨款或其他数额进行扣减、削减或降低。",
+      "en_definition": "A deduction from, or reduction in, wages, prices, funding, or another amount.",
+      "ms_definition": "Pengurangan gaji, harga dan sebagainya.",
+      "nuances": "pemotongan gaji 可指工资被扣除某笔款项，也可指薪资水平下调，须看上下文。pemotongan 强调扣减行为；potongan 常指具体扣款、折扣或扣减数额。",
+      "collocations": [
+        {
+          "ms": "pemotongan gaji",
+          "zh": "工资扣减；减薪",
+          "en": "salary deduction or pay cut"
+        },
+        {
+          "ms": "pemotongan harga",
+          "zh": "降价",
+          "en": "price reduction"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan akan memberikan penjelasan bertulis tentang pemotongan gaji yang tercatat dalam penyata bulan ini.",
+      "zh": "管理层将就本月工资单上列明的工资扣减提供书面说明。",
+      "en": "Management will provide a written explanation of the salary deduction shown on this month's payslip."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Saya dah semak slip gaji; ada pemotongan RM50 bulan ni.",
+      "ms_standard": "Saya sudah menyemak penyata gaji; terdapat pemotongan sebanyak RM50 pada bulan ini.",
+      "zh": "我看过工资单了，这个月扣了五十令吉。",
+      "en": "I've checked my payslip; there's a RM50 deduction this month.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "ni 对应 ini",
+        "口语以 ada 表示“有”，正式说明可用 terdapat"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Awak dah tengok slip gaji? Ada pemotongan RM50 kat slip saya.",
+          "ms_standard": "Adakah awak sudah melihat penyata gaji? Terdapat pemotongan sebanyak RM50 dalam penyata saya.",
+          "zh": "你看工资单了吗？我那张扣了五十令吉。",
+          "en": "Have you checked your payslip? Mine shows a RM50 deduction."
+        },
+        {
+          "speaker": "Hafiz (同事)",
+          "ms_spoken": "Saya pun sama. Jom tanya HR dulu, nak tahu sebabnya.",
+          "ms_standard": "Penyata saya juga menunjukkan pemotongan yang sama. Mari kita bertanya kepada bahagian sumber manusia terlebih dahulu untuk mengetahui sebabnya.",
+          "zh": "我的也是。先问问人事吧，看看是什么原因。",
+          "en": "Same here. Let's ask HR first and find out why."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pemotongan brings several meanings of potong into a process noun. A blade removes part of a material; a deduction similarly removes part of an amount. This parallel provides a useful way to understand the word's physical and financial senses, without claiming a documented chronology for their development. The supplied dictionary also preserves slaughtering and shortcut senses alongside these familiar uses.",
+    "cognitive_memory_aid": "抓住 potong 的“切掉一部分”：材料切掉一块，工资扣掉一笔；peN-...-an 把动作包装成“切割／扣减这一过程”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论工资扣减时，先询问原因与明细，例如 Boleh jelaskan pemotongan ini?，比直接指责对方乱扣钱更适合职场。",
+    "usage_etiquette": "适用于生产、行政和财务说明。涉及清真屠宰时，使用 penyembelihan 更明确；单凭 pemotongan 一词不能判断是否符合清真要求。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论工资扣减时，先询问原因与明细，例如 Boleh jelaskan pemotongan ini?，比直接指责对方乱扣钱更适合职场。",
+    "usage_etiquette": "适用于生产、行政和财务说明。涉及清真屠宰时，使用 penyembelihan 更明确；单凭 pemotongan 一词不能判断是否符合清真要求。"
+  }
+}
