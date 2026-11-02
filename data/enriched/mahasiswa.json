@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "mahasiswa",
+    "syllables": "ma.ha.sis.wa",
+    "ipa": "/ma.ha.sis.wa/",
+    "jawi": "مهاسيسوا",
+    "frequency_rank": 6986,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mahasiswa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mahasiswa → mahasiswa；内部构词：maha- + siswa → mahasiswa",
+    "pattern_note": "依资料包将完整词 mahasiswa 作为词根节点；其内部构词仍可分析为 maha- + siswa，两部分直接连接，无音变。",
+    "word_family": [
+      {
+        "word": "kemahasiswaan",
+        "affix": "ke-…-an",
+        "gloss": "大学生事务；与大学生有关的事项"
+      },
+      {
+        "word": "mahasiswa-mahasiswa",
+        "affix": null,
+        "gloss": "大学生们；完整重叠形式"
+      }
+    ],
+    "root_jawi": "مهاسيسوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "在大学就读的学生；大学生。",
+      "en_definition": "A student studying at a university.",
+      "ms_definition": "Pelajar atau penuntut di universiti.",
+      "nuances": "语体较正式，常用于大学公告、新闻和学生组织名称。可泛指大学生群体；与 mahasiswi 并列时，mahasiswa 常特指男大学生。不能泛指中小学生，也不能自动等同于毕业生。",
+      "collocations": [
+        {
+          "ms": "mahasiswa universiti",
+          "zh": "大学在校生",
+          "en": "university students"
+        },
+        {
+          "ms": "mahasiswa tahun pertama",
+          "zh": "大学一年级学生",
+          "en": "first-year university students"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua mahasiswa tahun pertama diminta menghadiri sesi taklimat akademik di dewan utama.",
+      "zh": "请全体大学一年级学生到主礼堂参加学业说明会。",
+      "en": "All first-year university students are requested to attend the academic briefing in the main hall."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dah jadi mahasiswa sekarang, mesti banyak benda baru nak belajar, kan?",
+      "ms_standard": "Sekarang kamu sudah menjadi mahasiswa. Tentu banyak perkara baharu yang hendak dipelajari, bukan?",
+      "zh": "现在都上大学了，肯定有好多新东西要学吧？",
+      "en": "You're a university student now. There must be loads of new things to learn, right?",
+      "spoken_features": [
+        "首句省略可由语境判断的主语 kamu。",
+        "dah、nak 分别对应 sudah、hendak。",
+        "kan 是寻求认同的口语句末语气词。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah jadi mahasiswa sekarang! Kau duduk kat kolej kediaman ke?",
+          "ms_standard": "Sekarang kamu sudah menjadi mahasiswa! Adakah kamu tinggal di kolej kediaman?",
+          "zh": "现在是大学生啦！你住学生宿舍吗？",
+          "en": "You're a university student now! Are you staying in a hall of residence?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, aku duduk kat kampus je. Senang nak pergi kelas.",
+          "ms_standard": "Ya, saya tinggal di kampus sahaja. Mudah untuk saya pergi ke kelas.",
+          "zh": "对，我就住校内，上课方便。",
+          "en": "Yeah, I'm living on campus. It's easy to get to class."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mahasiswa combines maha-, a Sanskrit-derived element expressing greatness or higher standing, with siswa, meaning student. Malay grammar explicitly presents this formation as a designation for a higher-level learner. The word illustrates how inherited learned vocabulary supplies names for modern educational roles, while ordinary conversation can use the simpler expression pelajar universiti. [DBP morphology reference](https://jendeladbp.my/app/uploads/woocommerce_uploads/2025/04/eDigital_Morfologi-qnsczr.pdf).",
+    "cognitive_memory_aid": "maha- 表示高、大，siswa 是学生：把 mahasiswa 记成“进入高等学府的学生”，即大学生。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适用于正式介绍和面向大学生群体的致辞；日常自我介绍说 Saya belajar di universiti… 往往更自然。mahasiswa 不是必须用于称呼个人的头衔。",
+    "usage_etiquette": "描述大学生群体时可使用 mahasiswa；明确指女大学生可用 mahasiswi。需要避免性别歧义时，可用 pelajar universiti。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适用于正式介绍和面向大学生群体的致辞；日常自我介绍说 Saya belajar di universiti… 往往更自然。mahasiswa 不是必须用于称呼个人的头衔。",
+    "usage_etiquette": "描述大学生群体时可使用 mahasiswa；明确指女大学生可用 mahasiswi。需要避免性别歧义时，可用 pelajar universiti。"
+  }
+}

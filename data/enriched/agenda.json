@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "agenda",
+    "syllables": "a.gen.da",
+    "ipa": "/aˈd͡ʒenda/",
+    "jawi": "اݢيندا",
+    "frequency_rank": 7007,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "agenda",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + agenda → agenda",
+    "pattern_note": "整词借入，a- 不是马来语前缀。g 在本借词中读 /d͡ʒ/；e 为 é，对应 /e/，实际语音可接近 [ɛ]。音节为补充，DBP 标作 a.gén.da。词族列出常用组合，不把组合误作加缀派生词。",
+    "word_family": [
+      {
+        "word": "agenda mesyuarat",
+        "affix": "∅（词组）",
+        "gloss": "会议议程"
+      },
+      {
+        "word": "agenda tersembunyi",
+        "affix": "∅（词组）",
+        "gloss": "隐秘目的；暗中盘算"
+      }
+    ],
+    "root_jawi": "اݢيندا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "议程：按一定顺序列出的待讨论或处理事项，尤指会议议程。",
+      "en_definition": "An ordered list of matters to be discussed or dealt with, especially at a meeting.",
+      "ms_definition": "Senarai perkara yang disusun untuk dibincangkan atau diuruskan, khususnya dalam mesyuarat.",
+      "nuances": "agenda 列出将要处理的事项；minit mesyuarat 记录会议实际讨论和决定的内容，两者用途不同。此义依据 DBP 词典释义整理。[DBP：agenda](https://prpm.dbp.gov.my/Cari1?d=378040&keyword=agenda)",
+      "collocations": [
+        {
+          "ms": "agenda mesyuarat",
+          "zh": "会议议程",
+          "en": "meeting agenda"
+        },
+        {
+          "ms": "perkara dalam agenda",
+          "zh": "议程中的事项",
+          "en": "an item on the agenda"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "行动纲领、目标或意图；指个人、组织或政治力量希望推动的一组事项，也可指未公开的目的。",
+      "en_definition": "A set of objectives or intentions pursued by a person or group, sometimes undisclosed.",
+      "ms_definition": "Matlamat, rancangan atau perkara yang hendak diperjuangkan oleh seseorang atau sesuatu pihak, sama ada dinyatakan secara terbuka atau disembunyikan.",
+      "nuances": "agenda politik 可中性地指政治纲领；agenda tersembunyi 通常带怀疑意味，暗示公开说法背后另有目的。不能把 agenda 一律译为“阴谋”。[DBP：政治与隐含意图用语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=Agenda)",
+      "collocations": [
+        {
+          "ms": "agenda politik",
+          "zh": "政治纲领；政治目的",
+          "en": "a political agenda"
+        },
+        {
+          "ms": "agenda tersembunyi",
+          "zh": "隐秘目的；隐藏的盘算",
+          "en": "a hidden agenda"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "记事本；用于记录事项的本子。古旧用法。",
+      "en_definition": "A notebook or book for recording notes; archaic.",
+      "ms_definition": "Buku yang digunakan untuk mencatat sesuatu; penggunaan arkaik.",
+      "nuances": "DBP 将此义标为 ark，即古旧义。现代日常交流宜用 buku catatan 或 buku nota。以下组合用于展示旧义，不代表现代高频搭配。[DBP：古旧义标注](https://prpm.dbp.gov.my/Cari1?d=378040&keyword=agenda)",
+      "collocations": [
+        {
+          "ms": "mencatat dalam agenda",
+          "zh": "记在记事本里（古旧义）",
+          "en": "write in a notebook, in archaic usage"
+        },
+        {
+          "ms": "agenda peribadi",
+          "zh": "个人记事本（古旧义）",
+          "en": "a personal notebook, in archaic usage"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Setiausaha telah mengedarkan agenda mesyuarat kepada semua ahli untuk penelitian awal.",
+      "zh": "秘书已将会议议程分发给全体成员，以便提前审阅。",
+      "en": "The secretary has circulated the meeting agenda to all members for advance review."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau dah tengok agenda mesyuarat esok? Aku nak tambah satu perkara je.",
+      "ms_standard": "Adakah awak sudah melihat agenda mesyuarat esok? Saya mahu menambah satu perkara sahaja.",
+      "zh": "你看过明天的会议议程了吗？我只想加一个事项。",
+      "en": "Have you seen the agenda for tomorrow's meeting? I just want to add one item.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略",
+        "nak 对应 mahu 或 hendak",
+        "je 对应 sahaja",
+        "口语疑问句可通过语调表达，不必使用 adakah"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah tengok agenda mesyuarat esok? Aku nak tambah satu perkara je.",
+          "ms_standard": "Adakah awak sudah melihat agenda mesyuarat esok? Saya mahu menambah satu perkara sahaja.",
+          "zh": "你看过明天的会议议程了吗？我只想加一个事项。",
+          "en": "Have you seen the agenda for tomorrow's meeting? I just want to add one item."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah. Hantar je kat aku, nanti aku semak dengan pengerusi.",
+          "ms_standard": "Sudah. Hantarkan sahaja perkara itu kepada saya. Saya akan menyemaknya dengan pengerusi nanti.",
+          "zh": "看过了。直接发给我吧，我待会儿跟主席确认一下。",
+          "en": "Yes. Just send it to me, and I'll check with the chair."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Agenda ultimately comes from Latin agenda, 'things to be done', related to agere, 'to do'. Its origin explains why a meeting agenda points forward to unfinished business. Malay treats the borrowed form as an ordinary noun rather than applying Latin plural grammar. Modern usage also extends it to political priorities and concealed intentions. [Etymology](https://www.etymonline.com/word/agenda) [Malay terminology](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=Agenda)",
+    "cognitive_memory_aid": "把 a-gen-da 配上三步画面：“列事项—排顺序—开会讨论”，就记住 agenda 的核心义“议程”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "会议中提出增补时，可说 Saya ingin mencadangkan satu perkara untuk dimasukkan dalam agenda，语气礼貌且便于主席处理。",
+    "usage_etiquette": "适合会议、行政、政策及日常计划讨论。说某人有 agenda tersembunyi 暗含对动机的质疑；需要澄清时，可以先询问具体目标。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "会议中提出增补时，可说 Saya ingin mencadangkan satu perkara untuk dimasukkan dalam agenda，语气礼貌且便于主席处理。",
+    "usage_etiquette": "适合会议、行政、政策及日常计划讨论。说某人有 agenda tersembunyi 暗含对动机的质疑；需要澄清时，可以先询问具体目标。"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "thing",
+    "syllables": "thing",
+    "ipa": "/θɪŋ/",
+    "jawi": null,
+    "frequency_rank": 6971,
+    "status": "foreign",
+    "language": "English"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "thing",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + thing → thing",
+    "pattern_note": "这是英语单纯词，不能按马来语词缀拆解；th 表示 /θ/，ng 表示 /ŋ/。输入包的 approp adj 不是音节资料，已改为单音节 thing。词族列出英语屈折形式及复合词。",
+    "word_family": [
+      {
+        "word": "things",
+        "affix": "-s",
+        "gloss": "东西；事物（复数）"
+      },
+      {
+        "word": "something",
+        "affix": null,
+        "gloss": "某物；某事（some + thing 的复合词）"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英语词：未具体命名的物体、东西；马来语通常用 benda 或 barang。",
+      "en_definition": "An object or item whose precise identity is unspecified or unimportant.",
+      "ms_definition": "Dalam bahasa Inggeris, sesuatu objek atau barang yang tidak dinyatakan namanya secara khusus; padanan bahasa Melayunya ialah benda atau barang.",
+      "nuances": "这是英语释义及马来语对译，不是官方马来语词条。以下搭配属于英语。对译参见 [Cambridge 英马词典：thing](https://dictionary.cambridge.org/dictionary/english-malaysian/thing)。正式马来语应按语境选择 benda、barang 或具体物名。",
+      "collocations": [
+        {
+          "ms": "a small thing",
+          "zh": "一件小东西",
+          "en": "a small object"
+        },
+        {
+          "ms": "a useful thing",
+          "zh": "一件有用的东西",
+          "en": "a useful object"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "英语词：某件事情、情况、行动或讨论事项；马来语通常用 perkara 或 hal。",
+      "en_definition": "A matter, situation, event, or action being referred to.",
+      "ms_definition": "Dalam bahasa Inggeris, sesuatu perkara, hal, kejadian atau tindakan yang diperkatakan.",
+      "nuances": "抽象义不能一律译为 benda。one more thing 通常是 satu perkara lagi。英语用法参见 [Collins：thing](https://www.collinsdictionary.com/dictionary/english/thing)。以下搭配属于英语。",
+      "collocations": [
+        {
+          "ms": "one more thing",
+          "zh": "还有一件事",
+          "en": "one additional matter"
+        },
+        {
+          "ms": "the right thing to do",
+          "zh": "应该做的正确事情",
+          "en": "the appropriate or morally correct action"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "英语口语：某人特别喜欢、擅长或感兴趣的活动或领域。",
+      "en_definition": "Informally, an activity or interest that particularly suits or appeals to someone.",
+      "ms_definition": "Dalam bahasa Inggeris tidak formal, kegiatan atau bidang yang diminati atau sesuai dengan seseorang.",
+      "nuances": "常见于 someone's thing，不可按字面译成“某人的东西”；可译为 minat 或 bidang kegemaran。参见 [Collins：thing 的口语用法](https://www.collinsdictionary.com/dictionary/english/thing)。",
+      "collocations": [
+        {
+          "ms": "not really my thing",
+          "zh": "不太是我的兴趣所在",
+          "en": "not something I particularly enjoy"
+        },
+        {
+          "ms": "is that your thing?",
+          "zh": "那是你喜欢的活动吗？",
+          "en": "is that something you enjoy?"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan ini, perkataan bahasa Inggeris 'thing' diterjemahkan sebagai 'benda' atau 'perkara' mengikut konteks.",
+      "zh": "本报告按语境将英语 thing 译为 benda（物件）或 perkara（事情）。",
+      "en": "In this report, the English word 'thing' is translated as 'benda' or 'perkara', depending on the context."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "One more thing, kau nak jumpa kat mana?",
+      "ms_standard": "Satu perkara lagi, di manakah kamu mahu berjumpa?",
+      "zh": "还有一件事，我们要在哪里见？",
+      "en": "One more thing—where do you want to meet?",
+      "spoken_features": [
+        "One more thing 是英语插入语，属于语码转换",
+        "nak 对应 mahu 或 hendak",
+        "kat 对应地点介词 di",
+        "标准马来语用 satu perkara lagi 替换英语短语"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "One more thing, kau nak jumpa kat mana?",
+          "ms_standard": "Satu perkara lagi, di manakah kamu mahu berjumpa?",
+          "zh": "还有一件事，我们要在哪里见？",
+          "en": "One more thing—where do you want to meet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kat kafe dekat stesen je. Aku dah tempah meja.",
+          "ms_standard": "Di kafe berhampiran stesen sahaja. Saya sudah menempah meja.",
+          "zh": "就在车站附近那家咖啡馆吧。我已经订好位子了。",
+          "en": "Let's meet at the café near the station. I've booked a table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English thing descends from Old English þing, which could refer to an assembly as well as a matter or affair. Its history connects public discussion with the subjects being discussed, helping explain its broad modern meanings. Its appearance in a Malay conversation represents English code-switching, not evidence that it is an official Malay headword. [Etymonline: thing](https://www.etymonline.com/word/thing)",
+    "cognitive_memory_aid": "先问“物还是事”：能拿的 thing 常译 benda；要谈的 thing 常译 perkara。开头轻吐 /θ/，结尾是 /ŋ/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在熟悉英语的朋友之间，英语与马来语混用可以自然出现；面对不熟悉英语的对象，应选用 benda、barang、perkara 等清楚的马来语表达。",
+    "usage_etiquette": "正式马来语公文中应采用合适的马来语词；引用或讨论英语词本身时可保留 thing。搭配栏因固定字段名而使用 ms 键，但其中列出的内容均为英语搭配。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在熟悉英语的朋友之间，英语与马来语混用可以自然出现；面对不熟悉英语的对象，应选用 benda、barang、perkara 等清楚的马来语表达。",
+    "usage_etiquette": "正式马来语公文中应采用合适的马来语词；引用或讨论英语词本身时可保留 thing。搭配栏因固定字段名而使用 ms 键，但其中列出的内容均为英语搭配。"
+  }
+}

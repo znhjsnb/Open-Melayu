@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "riba",
+    "syllables": null,
+    "ipa": "/ˈri.bə/",
+    "jawi": null,
+    "frequency_rank": 7022,
+    "status": "official",
+    "status_note": "DBP收录的马来语词。此拼写包含不同词源的同形词；所列IPA沿用数据包的马来语读法，词尾a也可随发音体系及语境实现为[a]。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "riba",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + riba → riba",
+    "pattern_note": "本词为双音节独立词根。表示膝上部位的riba可构成meriba、beriba、ribaan；这些派生词不能套用于阿拉伯语来源的金融义。",
+    "word_family": [
+      {
+        "word": "meriba",
+        "affix": "meN-",
+        "gloss": "把人或物抱放在膝上"
+      },
+      {
+        "word": "beriba",
+        "affix": "ber-",
+        "gloss": "坐在膝上"
+      },
+      {
+        "word": "ribaan",
+        "affix": "-an",
+        "gloss": "膝上；怀中"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "人坐下时大腿朝上的部分；膝上。",
+      "en_definition": "The lap: the upper surface of the thighs when sitting.",
+      "ms_definition": "Bahagian paha yang menghala ke atas ketika seseorang duduk; pangkuan.",
+      "nuances": "对应riba I，与pangkuan近义；不是单指膝关节。常用于抱孩子，也可承接放置物品的表达。[DBP词典](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=riba)",
+      "collocations": [
+        {
+          "ms": "duduk di atas riba",
+          "zh": "坐在膝上",
+          "en": "sit on someone's lap"
+        },
+        {
+          "ms": "meletakkan buku di atas riba",
+          "zh": "把书放在膝上",
+          "en": "put a book on one's lap"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "伊斯兰金融语境中的利息或受禁止的增益，尤其指借贷中约定的本金以外增额。",
+      "en_definition": "Riba: interest or an impermissible increment in Islamic financial terminology.",
+      "ms_definition": "Bunga atau lebihan yang dilarang menurut syariah, khususnya tambahan yang disyaratkan atas pokok hutang.",
+      "nuances": "对应阿拉伯语来源的riba II。其宗教术语范围不限于日常汉语所说的高利贷，也不能把一切商业利润均称为riba。[马来西亚伊斯兰理解研究所](https://www.ikim.gov.my/en/wang-dan-kewangan-islami/)",
+      "collocations": [
+        {
+          "ms": "amalan riba",
+          "zh": "收取违禁利息的做法",
+          "en": "the practice of charging riba"
+        },
+        {
+          "ms": "bebas daripada riba",
+          "zh": "不涉及违禁利息",
+          "en": "free from riba"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "放债人；收取利息的借贷者，属旧用法。",
+      "en_definition": "Archaic: a moneylender or usurer.",
+      "ms_definition": "Dalam penggunaan arkaik, orang yang meminjamkan wang dengan mengambil bunga; ceti.",
+      "nuances": "DBP标为旧用法，不宜作为现代中性职业称谓教授；以下属于历史性表达。[DBP词典](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=riba)",
+      "collocations": [
+        {
+          "ms": "tukang riba",
+          "zh": "放债人，旧称",
+          "en": "moneylender, archaic"
+        },
+        {
+          "ms": "menjadi riba",
+          "zh": "成为放债人，旧用法",
+          "en": "become a moneylender, archaic"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻：描述疏散中心的情况",
+      "ms": "Di pusat pemindahan itu, seorang ibu meletakkan anaknya di atas riba sambil menunggu bantuan.",
+      "zh": "在疏散中心，一位母亲把孩子抱在膝上，等待援助。",
+      "en": "At the evacuation centre, a mother held her child on her lap while waiting for assistance."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：家人谈孩子入睡",
+      "ms_spoken": "Adik dah tidur atas riba aku ni.",
+      "ms_standard": "Adik sudah tidur di atas riba saya.",
+      "zh": "小家伙已经在我腿上睡着了。",
+      "en": "The little one's already asleep on my lap.",
+      "spoken_features": [
+        "dah对应sudah。",
+        "atas riba在口语中省略介词di。",
+        "ni在句末突出眼前情景，不必逐字翻译。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Adik dah tidur atas riba aku ni.",
+          "ms_standard": "Adik sudah tidur di atas riba saya.",
+          "zh": "小家伙已经在我腿上睡着了。",
+          "en": "The little one's already asleep on my lap."
+        },
+        {
+          "speaker": "Farah (妹妹)",
+          "ms_spoken": "Tunggu jap, aku ambil bantal kat bilik.",
+          "ms_standard": "Tunggu sebentar, saya akan mengambil bantal di bilik.",
+          "zh": "等一下，我去房间拿个枕头。",
+          "en": "Hang on, I'll get a pillow from the bedroom."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries distinguish the familiar bodily word riba, meaning lap, from a separate Arabic loan concerning interest. Their identical Roman spelling can hide that distinction. The domestic word forms derivatives such as meriba, while the financial word belongs to religious and commercial discussion. A shared spelling does not establish a shared origin. [DBP dictionary](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=riba)",
+    "cognitive_memory_aid": "孩子坐着时想“膝上”；借贷合约里想“利息”。用场景把两个同形词分开记。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "膝上义为中性日常用语；涉及成人身体接触时须考虑关系和个人边界。金融义带有明确的宗教评价，应结合讨论对象准确使用。",
+    "usage_etiquette": "谈孩子坐在父母膝上很自然。金融讨论中宜针对交易条款描述，避免未经依据就用makan riba指责个人；旧义“放债人”不宜用于现代礼貌称呼。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "膝上义为中性日常用语；涉及成人身体接触时须考虑关系和个人边界。金融义带有明确的宗教评价，应结合讨论对象准确使用。",
+    "usage_etiquette": "谈孩子坐在父母膝上很自然。金融讨论中宜针对交易条款描述，避免未经依据就用makan riba指责个人；旧义“放债人”不宜用于现代礼貌称呼。"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "paket",
+    "syllables": null,
+    "ipa": "/pa.ket/",
+    "jawi": "ڤاکيت",
+    "frequency_rank": 6981,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "paket",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + paket → paket",
+    "pattern_note": "整词记忆，不拆成 pa- 与 -ket。IPA 依据 DBP 的 pa.két，é 为 /e/；输入候选 [pɛ.kɛt] 不作为该拼写的标准读音。",
+    "word_family": [
+      {
+        "word": "sepaket",
+        "affix": "se-",
+        "gloss": "一包；一份包装单位"
+      },
+      {
+        "word": "paket-paket",
+        "affix": null,
+        "gloss": "多个包裹或数据包；由完整重叠构成"
+      }
+    ],
+    "root_jawi": "ڤاکيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "通过邮政寄送的包裹。",
+      "en_definition": "A parcel sent through the post.",
+      "ms_definition": "Bungkusan yang dikirim melalui pos.",
+      "nuances": "这是输入包所列的《Kamus Dewan》核心义。马来西亚日常谈快递时也常说 bungkusan 或 parcel。不要自动把旅游或服务的“套餐”译为 paket；马来西亚通常用 pakej。[DBP 词条及术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=paket)。",
+      "collocations": [
+        {
+          "ms": "menghantar paket",
+          "zh": "寄送包裹",
+          "en": "send a parcel"
+        },
+        {
+          "ms": "menerima paket",
+          "zh": "收到包裹",
+          "en": "receive a parcel"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "装在小包装中出售的一包物品。",
+      "en_definition": "A small package containing goods for sale.",
+      "ms_definition": "Bungkus kecil yang mengandungi barang untuk dijual.",
+      "nuances": "此义见 DBP 英马词典对 packet 的对应解释；本栏马来文为据该解释整理的释义。具体包装也可按形状称 bungkus、pek 或 kotak。[DBP 英马词典 packet 条](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=BUNGKUS)。",
+      "collocations": [
+        {
+          "ms": "satu paket gula-gula",
+          "zh": "一包糖果",
+          "en": "a packet of sweets"
+        },
+        {
+          "ms": "satu paket rokok",
+          "zh": "一包香烟",
+          "en": "a packet of cigarettes"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "计算机网络中作为一个单位传输的数据包。",
+      "en_definition": "A unit of data transmitted over a computer network.",
+      "ms_definition": "Unit data yang dihantar melalui rangkaian komputer.",
+      "nuances": "计算机及通信术语义，与邮政包裹义须依语境区分；本栏马来文为依据 DBP 术语资料整理的释义。[DBP 数据包相关术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=paket)。",
+      "collocations": [
+        {
+          "ms": "paket data",
+          "zh": "数据包",
+          "en": "data packet"
+        },
+        {
+          "ms": "pensuisan paket",
+          "zh": "分组交换；包交换",
+          "en": "packet switching"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua paket yang diterima hendaklah direkodkan sebelum diserahkan kepada penerima.",
+      "zh": "所有收到的包裹均须先登记，再交给收件人。",
+      "en": "All incoming parcels must be recorded before being handed to their recipients."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Paket kau dah sampai, aku letak kat meja je.",
+      "ms_standard": "Paket kamu sudah sampai. Saya meletakkannya di atas meja sahaja.",
+      "zh": "你的包裹到了，我就放桌上啦。",
+      "en": "Your parcel's here. I just left it on the table.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "kat 对应表示位置的 di。",
+        "je 对应 sahaja。",
+        "aku、kau 适用于关系熟悉的同辈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Paket kau dah sampai, aku letak kat meja je.",
+          "ms_standard": "Paket kamu sudah sampai. Saya meletakkannya di atas meja sahaja.",
+          "zh": "你的包裹到了，我就放桌上啦。",
+          "en": "Your parcel's here. I just left it on the table."
+        },
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Terima kasih! Jangan buka dulu ya, tu hadiah untuk adik aku.",
+          "ms_standard": "Terima kasih! Jangan buka dahulu, ya. Itu hadiah untuk adik saya.",
+          "zh": "谢谢！先别拆哦，那是送给我弟妹的礼物。",
+          "en": "Thanks! Don't open it yet, okay? It's a present for my younger sibling."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Paket links the concrete world of wrapped objects with the abstract world of network communication. DBP records the postal meaning and technical packet terminology. Dutch pakket and English packet belong to the wider European packaging vocabulary, but resemblance alone does not establish the immediate borrowing route of every Malaysian use. Remember the shared image: something grouped into a transportable unit. [DBP](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=paket).",
+    "cognitive_memory_aid": "把 paket 联想成英语 packet：实物装成一包，网络数据也装成一包。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是普通物品名，没有特殊敬语要求。向工作人员查询时可说 Boleh saya semak status paket ini?，语气自然礼貌。",
+    "usage_etiquette": "收取他人包裹后宜通知对方；未经允许不要拆封。商务沟通中按实际语境区分邮寄包裹、商品包装和网络数据包。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是普通物品名，没有特殊敬语要求。向工作人员查询时可说 Boleh saya semak status paket ini?，语气自然礼貌。",
+    "usage_etiquette": "收取他人包裹后宜通知对方；未经允许不要拆封。商务沟通中按实际语境区分邮寄包裹、商品包装和网络数据包。"
+  }
+}
