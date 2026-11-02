@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "hun",
+    "syllables": "hun",
+    "ipa": "/hun/",
+    "jawi": "هون",
+    "frequency_rank": 11986,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hun",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hun → hun",
+    "pattern_note": "单音节独立词根，无词缀变化；词尾 /n/ 保留。",
+    "word_family": [],
+    "root_jawi": "هون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "传统重量单位，等于一百分之一 tahil，或十分之一 ci。",
+      "en_definition": "A traditional unit of weight equal to one hundredth of a tahil or one tenth of a ci.",
+      "ms_definition": "Ukuran berat bersamaan satu perseratus tahil atau satu persepuluh ci.",
+      "nuances": "多见于旧式度量衡资料。输入所载《Kamus Dewan》另列“6.48 gm”，但该数值与同一资料体系中的 tahil 换算存在冲突，不能直接作为可靠克数。此处保留相对单位关系，不擅自确定克数。搭配为释义性示例，不宣称具有高语料频率。参见 [PRPM：hun](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hun) 与 [PRPM：tahil](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tahil)。",
+      "collocations": [
+        {
+          "ms": "berat satu hun",
+          "zh": "一 hun 的重量",
+          "en": "a weight of one hun"
+        },
+        {
+          "ms": "timbangan dalam hun",
+          "zh": "以 hun 为单位的称量",
+          "en": "weighing in hun"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "传统长度单位，词典记为八分之一英寸，约三点一毫米。",
+      "en_definition": "A traditional unit of length defined as one eighth of an inch.",
+      "ms_definition": "Ukuran panjang bersamaan seperlapan inci.",
+      "nuances": "必须与重量义区分。词典所列约 3.1 毫米属于近似表述；按一英寸等于 25.4 毫米计算，八分之一英寸为 3.175 毫米。涉及实际尺寸时应明确所采用的单位约定。参见 [PRPM：hun](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hun)。",
+      "collocations": [
+        {
+          "ms": "ketebalan satu hun",
+          "zh": "一 hun 的厚度",
+          "en": "a thickness of one hun"
+        },
+        {
+          "ms": "ukuran panjang dalam hun",
+          "zh": "以 hun 表示的长度尺寸",
+          "en": "length measurements in hun"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "博物馆资料 / 历史度量衡说明",
+      "ms": "Nota katalog itu menjelaskan bahawa hun digunakan sebagai unit berat dan juga unit panjang dalam sistem ukuran tradisional.",
+      "zh": "该目录注释说明，hun 在传统度量衡中既用作重量单位，也用作长度单位。",
+      "en": "The catalogue note explains that hun serves as both a weight unit and a length unit in traditional measurement systems."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 讨论旧式尺寸记录",
+      "ms_spoken": "Dalam nota lama ni, hun tu unit panjang ke?",
+      "ms_standard": "Dalam nota lama ini, adakah hun merupakan unit panjang?",
+      "zh": "这份旧笔记里的 hun，是长度单位吗？",
+      "en": "In this old note, is hun a unit of length?",
+      "spoken_features": [
+        "ni 对应 ini，tu 对应 itu",
+        "句末 ke 构成口语疑问",
+        "kat 对应 di"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah jumpa perkataan hun kat nota lama ni. Unit panjang ke?",
+          "ms_standard": "Saya sudah menemukan perkataan hun dalam nota lama ini. Adakah hun unit panjang?",
+          "zh": "我在这份旧笔记里找到 hun 这个词了。它是长度单位吗？",
+          "en": "I found the word hun in this old note. Is it a unit of length?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, kat bahagian ni dia sebut ketebalan je. Hun boleh jadi unit berat juga.",
+          "ms_standard": "Ya, bahagian ini hanya menyatakan ketebalan. Hun juga boleh menjadi unit berat.",
+          "zh": "对，这一段只是在说厚度。Hun 也可以是重量单位。",
+          "en": "Yes, this section is just about thickness. Hun can also be a unit of weight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kamus Dewan marks hun as Chinese in origin. Its paired meanings preserve a world in which small quantities could be described through inherited weight and length systems rather than metric units. The available evidence does not establish a particular Chinese dialect, donor pronunciation, or borrowing date. [Source: PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hun).",
+    "cognitive_memory_aid": "把 hun 想成旧秤或旧尺上的“小小一分”：先看是在称重量，还是量长度。此为联想，不是已证实的汉字词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "该词本身没有敬称或冒犯色彩；面对不熟悉传统单位的听者，应先解释含义。",
+    "usage_etiquette": "适合历史、工艺和传统度量衡讨论。现代交易或技术说明宜同时标明经核实的公制数值，并明确重量义或长度义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "该词本身没有敬称或冒犯色彩；面对不熟悉传统单位的听者，应先解释含义。",
+    "usage_etiquette": "适合历史、工艺和传统度量衡讨论。现代交易或技术说明宜同时标明经核实的公制数值，并明确重量义或长度义。"
+  }
+}

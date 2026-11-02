@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "tt",
+    "syllables": null,
+    "ipa": "/tan.da.ta.ŋan/",
+    "jawi": null,
+    "frequency_rank": 12063,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tt",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "tanda + tangan → tandatangan → tt",
+    "pattern_note": "这是缩写，不是词缀派生：分别取 tanda 和 tangan 的首字母 t。root_word 保留输入索引；实际展开形式为 tandatangan。IPA 表示展开后的读法，tt 本身没有独立的普通词读音。",
+    "word_family": [
+      {
+        "word": "tandatangan",
+        "affix": null,
+        "gloss": "签名；缩写的完整形式"
+      },
+      {
+        "word": "menandatangani",
+        "affix": "meN-...-i",
+        "gloss": "签署"
+      },
+      {
+        "word": "penandatangan",
+        "affix": "peN-",
+        "gloss": "签署人"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "tandatangan（签名）的书面缩写，用于短信、表格或文件签名位置。",
+      "en_definition": "A written abbreviation of tandatangan, meaning a signature.",
+      "ms_definition": "Singkatan bagi tandatangan, khususnya dalam pesanan ringkas dan pada ruangan tandatangan dokumen.",
+      "nuances": "名词词性随完整形式 tandatangan。DBP 的短信缩写指南明确列出 tandatangan → tt；这里的马来语释义为编写释义。没有上下文时不能把所有 tt 都解释为签名，尤其不可与其他领域的 TT 自动等同。[DBP：短信缩写指南](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf)",
+      "collocations": [
+        {
+          "ms": "ruang tt",
+          "zh": "签名栏",
+          "en": "signature field"
+        },
+        {
+          "ms": "tt pengarah",
+          "zh": "主管签名",
+          "en": "the director's signature"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Singkatan 'tt' pada borang ini merujuk kepada tandatangan pemohon.",
+      "zh": "本表格中的缩写“tt”指申请人的签名。",
+      "en": "The abbreviation 'tt' on this form refers to the applicant's signature."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat borang ni, tt tu maksudnya tandatangan ke?",
+      "ms_standard": "Adakah singkatan 'tt' pada borang ini bermaksud tandatangan?",
+      "zh": "这张表上的 tt，是签名的意思吗？",
+      "en": "Does 'tt' on this form mean signature?",
+      "spoken_features": [
+        "kat 对应标准语的 di 或 pada，视语境而定",
+        "ni、tu 分别是 ini、itu 的口语形式",
+        "句末 ke 表示口语疑问",
+        "dah 是 sudah 的口语缩略"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Kat borang ni, tt tu maksudnya tandatangan ke?",
+          "ms_standard": "Adakah singkatan 'tt' pada borang ini bermaksud tandatangan?",
+          "zh": "这张表上的 tt，是签名的意思吗？",
+          "en": "Does 'tt' on this form mean signature?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Haah, tandatangan kat situ je. Bahagian lain dah lengkap.",
+          "ms_standard": "Ya, tandatangan sahaja di situ. Bahagian lain sudah lengkap.",
+          "zh": "对，就在那里签名就行，其他部分都填好了。",
+          "en": "Yes, just sign there. Everything else is already filled in."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The abbreviation tt compresses tandatangan, a compound of tanda, meaning a mark, and tangan, meaning a hand. Each component contributes its initial letter. DBP documents this method in its SMS abbreviation guide. The written shortcut therefore preserves the compound's internal structure while saving space; in ordinary speech, readers generally restore the full word rather than pronounce a new syllable. [DBP: SMS guide](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf)",
+    "cognitive_memory_aid": "两个 t，分别来自 tanda“标记”和 tangan“手”：手留下的标记，就是签名。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与同事确认表格时使用 tt 很自然；正式说明或对外邮件中写全 tandatangan 更清楚。请对方签名可说 Mohon tandatangan di sini。",
+    "usage_etiquette": "适合短信和已有约定的文件标记。口头交流通常读完整形式 tandatangan；文件中的 tt 标记本身不等于已经完成实际签署。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与同事确认表格时使用 tt 很自然；正式说明或对外邮件中写全 tandatangan 更清楚。请对方签名可说 Mohon tandatangan di sini。",
+    "usage_etiquette": "适合短信和已有约定的文件标记。口头交流通常读完整形式 tandatangan；文件中的 tt 标记本身不等于已经完成实际签署。"
+  }
+}

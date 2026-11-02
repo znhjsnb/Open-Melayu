@@ -1,0 +1,135 @@
+{
+  "headword": {
+    "word": "masakkan",
+    "syllables": "ma.sak.kan",
+    "ipa": "/ma.saʔ.kan/",
+    "jawi": "ماسق",
+    "frequency_rank": 12057,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "masak",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "masak + -kan → masakkan",
+    "pattern_note": "词干末尾的 k 与后缀开头的 k 都保留，所以写 kk；马来西亚常见发音中，前一个 k 可实现为喉塞音。与名词 masakan 的单 k 区别。headword.jawi 依输入保留为 ماسق，但这是 masak 的拼写；加上 -kan 后，派生词应写作 ماسقکن。",
+    "word_family": [
+      {
+        "word": "masak",
+        "affix": "无",
+        "gloss": "熟的；成熟的"
+      },
+      {
+        "word": "memasak",
+        "affix": "meN-",
+        "gloss": "烹煮；做饭"
+      },
+      {
+        "word": "memasakkan",
+        "affix": "meN-…-kan",
+        "gloss": "为某人烹煮；使煮熟"
+      },
+      {
+        "word": "masakan",
+        "affix": "-an",
+        "gloss": "菜肴；烹饪方式"
+      }
+    ],
+    "root_jawi": "ماسق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "为某人烹煮或准备食物。",
+      "en_definition": "To cook or prepare food for someone.",
+      "ms_definition": "Memasak atau menyediakan makanan untuk seseorang.",
+      "nuances": "这里的 -kan 表示受益关系。常见于请求、命令及第一、第二人称被动结构，如 Tolong masakkan saya bubur 和 Bubur itu saya masakkan untuk ibu。普通主动陈述通常使用 memasakkan。拼写依据 [DBP：masak + -kan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=masak+kan)。",
+      "collocations": [
+        {
+          "ms": "tolong masakkan saya bubur",
+          "zh": "请为我煮粥",
+          "en": "please cook me some porridge"
+        },
+        {
+          "ms": "masakkan adik nasi",
+          "zh": "为弟弟或妹妹煮饭",
+          "en": "cook rice for a younger sibling"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把食物煮熟，或继续烹煮至熟透。",
+      "en_definition": "To make food cooked or cook it through.",
+      "ms_definition": "Menjadikan makanan masak atau membuat supaya makanan masak sepenuhnya.",
+      "nuances": "这里的 -kan 表示使成义，重点是达到熟透的状态。不要把 masak 的“水果成熟”“经验老到”等所有词义直接搬到本词。较旧文体中，memasakkan 还可比喻仔细考虑或使事情成熟。依据 [DBP：memasakkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memasakkan)。",
+      "collocations": [
+        {
+          "ms": "masakkan nasi yang masih mentah",
+          "zh": "把夹生饭继续煮熟",
+          "en": "finish cooking undercooked rice"
+        },
+        {
+          "ms": "masakkan ayam itu hingga empuk",
+          "zh": "把那只鸡煮至软熟",
+          "en": "cook the chicken until tender"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Penyelia dapur memberikan arahan berikut: “Sila masakkan tetamu kehormat hidangan vegetarian yang telah ditempah.”",
+      "zh": "厨房主管作出如下指示：“请为贵宾烹制已经预订的素食餐点。”",
+      "en": "The kitchen supervisor gave the following instruction: “Please prepare the vegetarian meal ordered for the guest of honour.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tolong masakkan aku bubur je malam ni, ya. Aku tak berapa sihat.",
+      "ms_standard": "Tolong masakkan saya bubur sahaja pada malam ini. Saya kurang sihat.",
+      "zh": "今晚帮我煮点粥就好呀，我有点不舒服。",
+      "en": "Could you just make me some porridge tonight? I’m not feeling too well.",
+      "spoken_features": [
+        "aku 用于熟人之间，对应较中性的 saya",
+        "je 对应 sahaja",
+        "malam ni 对应 malam ini",
+        "tak berapa sihat 是口语中的委婉表达",
+        "句末 ya 缓和请求"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (家人)",
+          "ms_spoken": "Kak, boleh masakkan saya bubur tak? Saya tak berapa sihat ni.",
+          "ms_standard": "Kakak, bolehkah kakak memasakkan saya bubur? Saya kurang sihat.",
+          "zh": "姐，能帮我煮点粥吗？我有点不舒服。",
+          "en": "Sis, could you make me some porridge? I’m not feeling too well."
+        },
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Boleh, akak masakkan sekarang. Adik rehat je dulu, ya.",
+          "ms_standard": "Boleh, bubur itu akan kakak masakkan sekarang. Adik berehat sahaja dahulu.",
+          "zh": "可以，姐姐现在就煮。你先休息呀。",
+          "en": "Sure, I’ll make it now. You just get some rest, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary places ripeness and cooked food together under masak, linking fruit ready to eat with food made ready by heat. Adding -kan gives masakkan its practical household meanings: cook for someone or make something cooked. The spelling preserves both adjoining k letters, distinguishing an act of cooking from masakan, the food or cuisine produced.",
+    "cognitive_memory_aid": "masak“熟”＋-kan“使熟／替人做”：两个 k，一边连着锅里的食物，一边连着等饭的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独命令 Masakkan… 可能显得生硬。请求家人或同事帮忙时，加入 tolong、boleh 或合适的称呼更自然；aku、kau 只适合关系允许的场合。",
+    "usage_etiquette": "为他人准备食物时，先确认饮食禁忌、过敏及清真需求。此处 -kan 是构词后缀，应与 masak 连写，不能当成表示确认语气的独立 kan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独命令 Masakkan… 可能显得生硬。请求家人或同事帮忙时，加入 tolong、boleh 或合适的称呼更自然；aku、kau 只适合关系允许的场合。",
+    "usage_etiquette": "为他人准备食物时，先确认饮食禁忌、过敏及清真需求。此处 -kan 是构词后缀，应与 masak 连写，不能当成表示确认语气的独立 kan。"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "dibanjiri",
+    "syllables": null,
+    "ipa": "/di.ban.dʒi.ri/",
+    "jawi": "دبنجيري",
+    "frequency_rank": 12010,
+    "status": "official",
+    "packet_jawi": "بنجير",
+    "jawi_note": "输入包提供的是词根 banjir 的爪夷文；此处补全派生词 dibanjiri 的拼写。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "banjir",
+    "affix": "di-...-i",
+    "affix_type": "circumfix",
+    "formula": "di- + banjir + -i → dibanjiri",
+    "pattern_note": "di- 表示被动，-i 标示水流或大量涌入所作用的对象；词根不发生音变。circumfix 在此按字段分类表示前后缀组合。",
+    "word_family": [
+      {
+        "word": "membanjiri",
+        "affix": "meN-...-i",
+        "gloss": "淹没；大量涌入"
+      },
+      {
+        "word": "kebanjiran",
+        "affix": "ke-...-an",
+        "gloss": "遭受水灾；被大量事物充斥"
+      },
+      {
+        "word": "membanjir",
+        "affix": "meN-",
+        "gloss": "如洪水般涌来"
+      }
+    ],
+    "root_jawi": "بنجير"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被大量积水或洪水淹没、漫灌。",
+      "en_definition": "To be flooded or inundated with water.",
+      "ms_definition": "Digenangi atau ditenggelami air yang melimpah.",
+      "nuances": "这是 membanjiri 的被动形式，主语通常是受淹的地方、建筑或土地；di- 不表示过去时。马来文释义依据词典义项改写为被动，并非逐字引文。[DBP：membanjiri](https://prpm.dbp.gov.my/cari1?keyword=membanjiri)",
+      "collocations": [
+        {
+          "ms": "dibanjiri air",
+          "zh": "被水淹没",
+          "en": "flooded with water"
+        },
+        {
+          "ms": "dibanjiri air lumpur",
+          "zh": "被泥水淹没",
+          "en": "inundated with muddy water"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被大量涌来的人、物品或信息挤满、充斥。",
+      "en_definition": "To be crowded or overwhelmed by a large influx of people or things.",
+      "ms_definition": "Didatangi atau dipenuhi orang, barang atau perkara lain dalam jumlah yang sangat banyak.",
+      "nuances": "比喻洪水般的数量与涌入势头，不一定表示灾害或负面结果；常用于人潮、订单、申请和信息。[DBP：membanjiri](https://prpm.dbp.gov.my/cari1?keyword=membanjiri)",
+      "collocations": [
+        {
+          "ms": "dibanjiri pengunjung",
+          "zh": "挤满访客",
+          "en": "thronged with visitors"
+        },
+        {
+          "ms": "dibanjiri tempahan",
+          "zh": "订单大量涌入",
+          "en": "inundated with orders"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Beberapa kawasan perumahan dibanjiri air selepas hujan lebat berterusan selama tiga jam.",
+      "zh": "持续三小时的暴雨过后，多个住宅区被水淹没。",
+      "en": "Several residential areas were flooded after three hours of continuous heavy rain."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kedai kita dah dibanjiri tempahan, sampai tak menang tangan!",
+      "ms_standard": "Kedai kita sudah dibanjiri tempahan sehingga kita tidak dapat mengurus semuanya dengan segera.",
+      "zh": "咱们店订单都涌进来了，忙得根本顾不过来！",
+      "en": "Our shop’s been flooded with orders—we can barely keep up!",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "tak 是 tidak 的口语形式。",
+        "tak menang tangan 是表示忙不过来的惯用语。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Sejak video tu tular, kedai kita dah dibanjiri tempahan!",
+          "ms_standard": "Sejak video itu tular, kedai kita sudah dibanjiri tempahan.",
+          "zh": "那个视频火了以后，咱们店的订单就涌进来了！",
+          "en": "Ever since that video went viral, we’ve been flooded with orders!"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Haah, aku nak urus tempahan yang awal dulu. Yang baru tu tunggu kejap, ya.",
+          "ms_standard": "Ya, saya hendak mengurus tempahan yang diterima lebih awal dahulu. Tempahan baharu perlu menunggu sebentar.",
+          "zh": "对啊，我先处理早一点下的单。新单得稍等一下。",
+          "en": "Yeah, I’ll handle the earlier orders first. The new ones will have to wait a bit."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay uses banjir for flooding and also extends the image to overwhelming quantities. Dibanjiri combines that root with passive di- and the suffix -i, placing the affected location or recipient at the centre of the sentence. The same image connects flooded neighbourhoods with shops receiving overwhelming orders. This explains its productive morphology and metaphor, without asserting an undocumented ancient origin.",
+    "cognitive_memory_aid": "banjir 是洪水；di- 把镜头转向承受者：地方 dibanjiri，就是地方被水或人潮淹没。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于新闻、公文和日常交流都自然。谈真实水灾时宜保持客观、体恤受灾者。",
+    "usage_etiquette": "形容订单或访客众多通常自然；形容某族群或移民 dibanjiri 某地，可能把人描绘成灾害，应谨慎处理语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于新闻、公文和日常交流都自然。谈真实水灾时宜保持客观、体恤受灾者。",
+    "usage_etiquette": "形容订单或访客众多通常自然；形容某族群或移民 dibanjiri 某地，可能把人描绘成灾害，应谨慎处理语境。"
+  }
+}

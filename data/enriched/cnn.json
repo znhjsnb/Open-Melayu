@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "cnn",
+    "syllables": null,
+    "ipa": "/ˌsiː.enˈen/",
+    "jawi": null,
+    "frequency_rank": 12016,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "cnn",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + cnn → cnn（规范缩写形式：CNN）",
+    "pattern_note": "这是逐字母读出的英语首字母缩写，不是普通马来语词根。is_root 依输入表示没有马来语词缀；正式书写用 CNN。输入未提供音节和爪夷文，故保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "【专名缩写】美国有线电视新闻网，英文全名 Cable News Network。",
+      "en_definition": "Cable News Network, an American television and digital news organization.",
+      "ms_definition": "Singkatan nama Cable News Network, sebuah organisasi berita Amerika Syarikat yang menyiarkan berita melalui televisyen dan media digital.",
+      "nuances": "词性 noun 在本结构中涵盖专有名词。输入小写 cnn 保留为检索词，但正文应写 CNN。status 沿用所要求的条目标签，不表示这是 DBP 认证的马来语普通词。输入缺少上下文，不能确定原始语料必然指这家媒体。ms_definition 是说明性释义。[马来西亚官方资料中的全名](https://libportal.aswara.edu.my/ms/koleksi/koleksi-digital)",
+      "collocations": [
+        {
+          "ms": "laporan CNN",
+          "zh": "美国有线电视新闻网的报道",
+          "en": "a CNN report"
+        },
+        {
+          "ms": "wartawan CNN",
+          "zh": "美国有线电视新闻网记者",
+          "en": "a CNN journalist"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "【计算机术语缩写】卷积神经网络：利用卷积运算学习局部特征的一类神经网络。",
+      "en_definition": "A convolutional neural network: a neural network that uses convolutional operations to learn local features.",
+      "ms_definition": "Singkatan bagi convolutional neural network, iaitu rangkaian neural yang menggunakan operasi konvolusi untuk mempelajari ciri setempat dalam data.",
+      "nuances": "这是与新闻机构名称不同的英语技术缩写，常见于图像识别和机器学习语境。首次出现时宜展开英文全称；这里的马来语释义不声称引用 DBP 官方术语条文。[Stanford CS231n](https://cs231n.github.io/convolutional-networks/)",
+      "collocations": [
+        {
+          "ms": "model CNN",
+          "zh": "卷积神经网络模型",
+          "en": "a CNN model"
+        },
+        {
+          "ms": "seni bina CNN",
+          "zh": "卷积神经网络架构",
+          "en": "a CNN architecture"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan komunikasi telah menyemak laporan CNN sebelum menyediakan ringkasan berita antarabangsa.",
+      "zh": "传播团队在编写国际新闻摘要之前，已查阅美国有线电视新闻网的报道。",
+      "en": "The communications team reviewed CNN's report before preparing the international news summary."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau dah tengok laporan CNN pasal banjir tu?",
+      "ms_standard": "Adakah kamu sudah menonton laporan CNN tentang banjir itu?",
+      "zh": "你看过 CNN 那篇关于水灾的报道了吗？",
+      "en": "Have you seen CNN's report on the flooding?",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "pasal 在此对应正式表达 tentang。",
+        "tu 对应 itu。",
+        "kau 是熟人间的第二人称形式，须考虑双方关系。",
+        "例句中的 CNN 指新闻机构；技术义须另由上下文判断。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah tengok laporan CNN pasal banjir tu?",
+          "ms_standard": "Adakah kamu sudah menonton laporan CNN tentang banjir itu?",
+          "zh": "你看过 CNN 那篇关于水灾的报道了吗？",
+          "en": "Have you seen CNN's report on the flooding?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Belum lagi. Hantar pautan kat aku jap, nak tengok.",
+          "ms_standard": "Saya belum menontonnya. Tolong hantarkan pautan itu kepada saya kerana saya mahu menontonnya.",
+          "zh": "还没。把链接发我一下，我想看看。",
+          "en": "Not yet. Send me the link—I want to watch it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "As a media name, CNN takes its letters from Cable News Network, launched on 1 June 1980 with round-the-clock television news. Its appearance in Malay reporting preserves an international proper name. In computing, the same letters independently abbreviate convolutional neural network. The shared spelling therefore reflects two separate naming histories rather than a single Malay word developing another meaning. [Broadcast history](https://www.history.com/this-day-in-history/june-1/cnn-launches); [computing terminology](https://cs231n.github.io/convolutional-networks/)",
+    "cognitive_memory_aid": "逐字母读 C–N–N：看到 laporan 或 wartawan，想到新闻机构；看到 model 或 imej，检查是否指卷积神经网络。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "作为机构名称或技术缩写，本身没有敬语等级。正式文件首次出现时写出全称，可帮助读者判断所指。",
+    "usage_etiquette": "引用新闻时，应明确区分 CNN 的报道、受访者发言与自己的判断；讨论技术时，应避免让读者把 CNN 模型误解为新闻机构。不要把字母缩写当作可以任意添加马来语词缀的普通词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "作为机构名称或技术缩写，本身没有敬语等级。正式文件首次出现时写出全称，可帮助读者判断所指。",
+    "usage_etiquette": "引用新闻时，应明确区分 CNN 的报道、受访者发言与自己的判断；讨论技术时，应避免让读者把 CNN 模型误解为新闻机构。不要把字母缩写当作可以任意添加马来语词缀的普通词。"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "disiasat",
+    "syllables": "di.sia.sat",
+    "ipa": "/di.si.a.sat/",
+    "jawi": null,
+    "frequency_rank": 12054,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "disiasat",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + siasat → disiasat",
+    "pattern_note": "di- 构成被动动词，不改变词干开头的 s。root_word 字段依输入保留；实际构词基础是 siasat，并非 disiasat。输入未提供爪夷文，故保留 null。",
+    "word_family": [
+      {
+        "word": "menyiasat",
+        "affix": "meN-",
+        "gloss": "调查；查明"
+      },
+      {
+        "word": "siasatan",
+        "affix": "-an",
+        "gloss": "调查；调查结果"
+      },
+      {
+        "word": "penyiasat",
+        "affix": "peN-",
+        "gloss": "调查员"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被调查、查究或仔细检验，以查明事实、原因或真相。",
+      "en_definition": "To be investigated or closely examined to establish facts, causes, or the truth.",
+      "ms_definition": "Diselidiki atau diperiksa dengan teliti untuk mendapatkan keterangan dan mengetahui perkara yang sebenarnya.",
+      "nuances": "被动形式本身不表示过去时；sedang disiasat 表示正在调查，telah disiasat 表示已经调查。可用于案件、投诉、事故原因及其他待查事项，并不限于刑事调查。义项依据 [DBP：siasat](https://prpm.dbp.gov.my/cari1?keyword=siasat)。",
+      "collocations": [
+        {
+          "ms": "kes sedang disiasat",
+          "zh": "案件正在调查中",
+          "en": "the case is under investigation"
+        },
+        {
+          "ms": "aduan disiasat dengan teliti",
+          "zh": "投诉受到仔细调查",
+          "en": "the complaint is investigated thoroughly"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "为获取情况或证据而被询问、问话或讯问。",
+      "en_definition": "To be questioned or interviewed as part of an inquiry.",
+      "ms_definition": "Ditanyai atau disoal untuk memperoleh maklumat atau keterangan tentang sesuatu perkara.",
+      "nuances": "主语通常是人；问话的强度取决于语境，不能一律译成带强制色彩的“审讯”。被调查或问话并不等于被控罪或已经有罪。依据 [DBP：menyiasat 的问话义](https://prpm.dbp.gov.my/cari1?keyword=siasat)。",
+      "collocations": [
+        {
+          "ms": "disiasat oleh polis",
+          "zh": "接受警方调查或问话",
+          "en": "be investigated or questioned by the police"
+        },
+        {
+          "ms": "dipanggil untuk disiasat",
+          "zh": "被传唤接受调查",
+          "en": "be called in for questioning"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua aduan yang diterima sedang disiasat oleh unit integriti sebelum tindakan lanjut diambil.",
+      "zh": "廉政部门正在调查收到的所有投诉，之后才会采取进一步行动。",
+      "en": "The integrity unit is investigating all complaints received before further action is taken."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kes tu masih disiasat lagi, jadi jangan kongsi cerita yang tak pasti dulu, ya.",
+      "ms_standard": "Kes itu masih disiasat, jadi jangan kongsikan maklumat yang belum dipastikan kesahihannya.",
+      "zh": "那件事还在调查，先别转发没核实的消息呀。",
+      "en": "The case is still being investigated, so hold off on sharing anything unverified, okay?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "tak 对应标准语 tidak",
+        "masih…lagi 在口语中加强“仍然”的意思",
+        "句末 ya 缓和提醒语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kes tu dah selesai ke, atau masih disiasat?",
+          "ms_standard": "Adakah kes itu sudah selesai atau masih disiasat?",
+          "zh": "那件事查完了吗，还是还在查？",
+          "en": "Has that case been resolved, or is it still being investigated?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Masih disiasat lagi. Tunggu kenyataan rasmi je dulu.",
+          "ms_standard": "Kes itu masih disiasat. Tunggu sahaja kenyataan rasmi terlebih dahulu.",
+          "zh": "还在查，先等正式通报吧。",
+          "en": "It’s still being investigated. Let’s just wait for the official statement."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary history of siasat preserves a wider world than modern crime reporting: the noun can also concern politics, strategy, and careful examination. Disiasat selects its investigative use through ordinary Malay passive morphology. This helps explain its institutional tone today: attention falls on the matter or person being examined, while the investigator may remain unnamed.",
+    "cognitive_memory_aid": "听到 di-，先想“被”；再接 siasat“调查”：disiasat＝被调查。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式沟通中使用 sedang disiasat 可客观说明调查状态；谈及个人时应避免以此暗示对方已经有罪。",
+    "usage_etiquette": "适合新闻、投诉处理及内部调查。日常追问朋友私事若像问案，容易让人感到被盘问；可以先说明关心的原因。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式沟通中使用 sedang disiasat 可客观说明调查状态；谈及个人时应避免以此暗示对方已经有罪。",
+    "usage_etiquette": "适合新闻、投诉处理及内部调查。日常追问朋友私事若像问案，容易让人感到被盘问；可以先说明关心的原因。"
+  }
+}

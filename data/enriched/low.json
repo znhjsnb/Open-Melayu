@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "low",
+    "syllables": null,
+    "ipa": "/ləʊ/",
+    "jawi": null,
+    "frequency_rank": 11916,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "low",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + low → low（英语整词）",
+    "pattern_note": "按英语单词整体识别，没有马来语词缀。英语读音为单音节，ow 在这里表示双元音 /əʊ/，美式常为 /oʊ/。",
+    "word_family": [
+      {
+        "word": "lower",
+        "affix": "-er",
+        "gloss": "英语比较级：更低的；更低地"
+      },
+      {
+        "word": "lowest",
+        "affix": "-est",
+        "gloss": "英语最高级：最低的；最低地"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "英语：低的；数量、程度、价格或剩余量较少的。",
+      "en_definition": "English: below a usual or reference level in position, amount, degree, or value.",
+      "ms_definition": "Dalam bahasa Inggeris, rendah atau sedikit dari segi kedudukan, jumlah, darjah atau nilai.",
+      "nuances": "这是英语释义，不能认证为正式马来语词义。马来西亚口语中的 bateri low 属于语码混用，标准表达可用 bateri lemah 或 paras bateri rendah。若原文实际写作 Low，也可能是姓氏；缺少上下文时不能确定。以下混语搭配仅用于识别口语。[Cambridge：low](https://dictionary.cambridge.org/us/dictionary/english/low?topic=of-little-or-less-importance)",
+      "collocations": [
+        {
+          "ms": "bateri low",
+          "zh": "电量低（马英混语）",
+          "en": "a low battery"
+        },
+        {
+          "ms": "stok dah low",
+          "zh": "库存已经不多了（马英混语）",
+          "en": "stock is running low"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "英语：低落的；情绪不振的。",
+      "en_definition": "English: unhappy, discouraged, or dispirited.",
+      "ms_definition": "Dalam bahasa Inggeris, sedih atau kurang bersemangat.",
+      "nuances": "描述暂时的情绪状态，不自动表示临床诊断。正式马来语可按语境使用 berasa sedih、murung 或 kurang bersemangat。以下为马英混语示例。[Cambridge：low](https://dictionary.cambridge.org/us/dictionary/english/low?topic=of-little-or-less-importance)",
+      "collocations": [
+        {
+          "ms": "rasa low",
+          "zh": "觉得情绪低落（马英混语）",
+          "en": "feel low"
+        },
+        {
+          "ms": "mood tengah low",
+          "zh": "这会儿情绪很低落（马英混语）",
+          "en": "be in a low mood"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "英语：在较低的位置；以较低的水平或强度。",
+      "en_definition": "English: at or to a low position, level, or intensity.",
+      "ms_definition": "Dalam bahasa Inggeris, pada kedudukan, paras atau keamatan yang rendah.",
+      "nuances": "以下马来语结构引用英语搭配，用于解释英语副词用法；并非正式马来语搭配。fly low 可译为 terbang rendah，turn the heat down low 可译为 kecilkan api。[Cambridge：low](https://dictionary.cambridge.org/us/dictionary/english/low?topic=of-little-or-less-importance)",
+      "collocations": [
+        {
+          "ms": "frasa Inggeris 'fly low'",
+          "zh": "英语短语“低空飞行”",
+          "en": "the English phrase 'fly low'"
+        },
+        {
+          "ms": "frasa Inggeris 'turn the heat down low'",
+          "zh": "英语短语“把火调小”",
+          "en": "the English phrase 'turn the heat down low'"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 设备操作说明",
+      "ms": "Paparan 'low battery' pada peranti menunjukkan bahawa paras baterinya rendah.",
+      "zh": "设备上的“low battery”提示表示电池电量偏低。",
+      "en": "The device's 'low battery' message indicates that its battery level is low."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论手机电量",
+      "ms_spoken": "Bateri aku dah low lah. Ada pengecas tak?",
+      "ms_standard": "Bateri telefon saya sudah lemah. Ada pengecas?",
+      "zh": "我手机快没电啦，有充电器吗？",
+      "en": "My phone's running low on battery. Have you got a charger?",
+      "spoken_features": [
+        "low 是嵌入马来语句子的英语词",
+        "dah 对应 sudah",
+        "aku 用于熟人之间",
+        "tak 在句末构成口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bateri aku dah low. Kau ada pengecas tak?",
+          "ms_standard": "Bateri telefon saya sudah lemah. Adakah awak mempunyai pengecas?",
+          "zh": "我手机快没电了，你有充电器吗？",
+          "en": "My phone's nearly dead. Have you got a charger?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ada, kat dalam beg. Ambil je.",
+          "ms_standard": "Ada, pengecas itu di dalam beg. Silakan ambil.",
+          "zh": "有，在包里，直接拿吧。",
+          "en": "Yes, it's in my bag. Go ahead and take it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English low is generally traced to Scandinavian ancestry, especially Old Norse lágr, meaning low or short. Its spatial meaning extended to quantities, rank, sound and mood. In a Malay sentence containing an English expression such as low battery, that English history remains relevant; the occurrence alone does not establish an official Malay borrowing. [Etymonline：low](https://www.etymonline.com/word/low)",
+    "cognitive_memory_aid": "low 读 /ləʊ/，想象手机电量条往下掉；马来语对应记 rendah，电池快没电也可说 bateri lemah。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人聊天可出现 low 这样的英语混用；面向公众、学校作业或正式公文时，按语境使用 rendah、lemah 或其他准确的马来语表达。",
+    "usage_etiquette": "不要把英语 low 的全部义项直接套入马来语。若 Low 是人名中的姓氏，应保留大写并按本人姓名使用，不翻译成“低”，也不在缺少资料时猜测对应汉字。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人聊天可出现 low 这样的英语混用；面向公众、学校作业或正式公文时，按语境使用 rendah、lemah 或其他准确的马来语表达。",
+    "usage_etiquette": "不要把英语 low 的全部义项直接套入马来语。若 Low 是人名中的姓氏，应保留大写并按本人姓名使用，不翻译成“低”，也不在缺少资料时猜测对应汉字。"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "tagihan",
+    "syllables": "ta.gi.han",
+    "ipa": "/ta.ɡi.han/",
+    "jawi": "تاݢيهن",
+    "frequency_rank": 12009,
+    "status": "official",
+    "verification_note": "DBP 收录该词。排名、音节和爪夷文沿用资料包；排名未独立验证。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tagihan",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "tagih + -an → tagihan",
+    "pattern_note": "加名词后缀 -an，词根末尾 h 保留。root_word 和 root_jawi 按要求保留资料包中的检索词形；实际构词词根为 tagih。资料包将 tagihan 标为原根词，与其派生结构不符，故 is_root 修正为 false。",
+    "word_family": [
+      {
+        "word": "menagih",
+        "affix": "meN-",
+        "gloss": "催收款项；要求兑现"
+      },
+      {
+        "word": "penagihan",
+        "affix": "peN-…-an",
+        "gloss": "催收；追讨的过程"
+      }
+    ],
+    "root_jawi": "تاݢيهن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "被催收的钱款等，或通过催收取得的款项、成果。",
+      "en_definition": "Money or other proceeds collected or sought through a demand for payment.",
+      "ms_definition": "Wang dan sebagainya yang ditagih, atau hasil daripada perbuatan menagih.",
+      "nuances": "可指应收款，也可指催收所得，须结合上下文判断。不要把所有场景都机械译为账单。释义依据 [DBP 的 tagihan 词条](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tagihan)改写。",
+      "collocations": [
+        {
+          "ms": "tagihan sewa rumah",
+          "zh": "催收的房租款",
+          "en": "rent payments sought or collected"
+        },
+        {
+          "ms": "hasil tagihan",
+          "zh": "催收所得款项",
+          "en": "collection proceeds"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "要求支付欠款、兑现承诺或履行义务的催告、追讨或要求。",
+      "en_definition": "A demand for payment or for the fulfilment of a promise or obligation.",
+      "ms_definition": "Tuntutan supaya seseorang menjelaskan hutang atau menunaikan janji dan kewajipan.",
+      "nuances": "重点是要求对方履行，不必然指纸面文件；surat tagihan 才明确表示催收函。也不应仅凭该词判断已启动诉讼。义项依据 [DBP 的 tagihan 词条](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tagihan)。",
+      "collocations": [
+        {
+          "ms": "surat tagihan hutang",
+          "zh": "债务催收函",
+          "en": "debt collection letter"
+        },
+        {
+          "ms": "tagihan janji",
+          "zh": "要求兑现承诺",
+          "en": "a demand to fulfil a promise"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公函 / 财务工作汇报",
+      "ms": "Bahagian kewangan telah menghantar surat tagihan kepada pelanggan yang masih belum menjelaskan bayaran.",
+      "zh": "财务部门已向尚未付款的客户发出催收函。",
+      "en": "The finance department has sent collection letters to customers with outstanding payments."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问催收函",
+      "ms_spoken": "Aku dah dapat surat tagihan tu, tapi aku dah bayar semalam.",
+      "ms_standard": "Aku sudah menerima surat tagihan itu, tetapi aku sudah membuat bayaran semalam.",
+      "zh": "我收到那封催款信了，可我昨天已经付了。",
+      "en": "I've received that collection letter, but I already paid yesterday.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "tu 对应 itu",
+        "tapi 对应 tetapi",
+        "tagihan 保留书面用语色彩，因为谈论的是催收函"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah dapat surat tagihan tu, tapi aku dah bayar semalam.",
+          "ms_standard": "Aku sudah menerima surat tagihan itu, tetapi aku sudah membuat bayaran semalam.",
+          "zh": "我收到那封催款信了，可我昨天已经付了。",
+          "en": "I've received that collection letter, but I already paid yesterday."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Hantar je resit kat mereka. Mungkin rekod belum dikemas kini lagi.",
+          "ms_standard": "Hantarkan sahaja resit kepada mereka. Mungkin rekod masih belum dikemas kini.",
+          "zh": "把收据发给他们就行，可能记录还没更新。",
+          "en": "Just send them the receipt. Their records might not have been updated yet."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tagihan is transparently formed from tagih with the noun suffix an. The dictionary links it both to money sought or collected and to demands that promises be fulfilled. This pairing connects financial collection with accountability: someone is being asked to deliver what is due. No deeper borrowing history is established here. See [DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tagihan).",
+    "cognitive_memory_aid": "tagih 是“催着要”，加 -an 把动作变成“催要的款项或要求”；看到 surat tagihan，就想到催收函。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "催款时宜用客观、礼貌的措辞，写清款项和付款记录；若对方已支付，可请其提供凭证以便核对。",
+    "usage_etiquette": "适合财务、租赁及履约语境。对外沟通应说明具体所指，避免把一般付款通知说成具有诉讼效力的法律文书。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "催款时宜用客观、礼貌的措辞，写清款项和付款记录；若对方已支付，可请其提供凭证以便核对。",
+    "usage_etiquette": "适合财务、租赁及履约语境。对外沟通应说明具体所指，避免把一般付款通知说成具有诉讼效力的法律文书。"
+  }
+}

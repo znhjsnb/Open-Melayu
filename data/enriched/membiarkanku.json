@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "membiarkanku",
+    "syllables": null,
+    "ipa": "/məm.bi.ar.kan.ku/",
+    "jawi": "ممبيارکن",
+    "frequency_rank": 12006,
+    "status": "official",
+    "verification_note": "这是 membiarkan 加宾语附着代词 -ku 的合成词形。音节字段保留资料包的 null；所给爪夷文仅对应 membiarkan，未包含 -ku，不宜视为完整词形的核定拼写。排名沿用资料包，未独立验证。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "membiarkan",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "meN- + biar + -kan → membiarkan；membiarkan + -ku → membiarkanku",
+    "pattern_note": "meN- 在 b 前变为 mem-，保留 b；-ku 是 aku 的附着形式，在这里表示宾语“我”，须与动词连写。root_word 沿用资料包中的直接词基；更底层的词根是 biar。",
+    "word_family": [
+      {
+        "word": "membiarkan",
+        "affix": "meN-…-kan",
+        "gloss": "任由；不理会"
+      },
+      {
+        "word": "terbiar",
+        "affix": "ter-",
+        "gloss": "无人照料的；被荒置的"
+      }
+    ],
+    "root_jawi": "ممبيارکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "不理会我；任由我处于某种状态而不加照顾或干预。",
+      "en_definition": "To ignore or neglect me, or leave me in a particular condition without intervening.",
+      "ms_definition": "Mengabaikan atau tidak mempedulikan aku; tidak memberikan perhatian atau penjagaan kepadaku.",
+      "nuances": "常暗含失望、被冷落或责备；并不必然表示永久抛弃。这里的 -ku 是宾语“我”，不是施事者。马来文释义根据 [DBP 的 membiarkan 词条](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membiarkan)针对该合成词形改写。",
+      "collocations": [
+        {
+          "ms": "membiarkanku sendirian",
+          "zh": "把我独自留下",
+          "en": "leave me alone"
+        },
+        {
+          "ms": "membiarkanku tanpa bantuan",
+          "zh": "任由我无人援助",
+          "en": "leave me without help"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "允许我做某事；不阻止我的行动，或任由某事发生在我身上。",
+      "en_definition": "To let or allow me to do something, or permit something to happen to me.",
+      "ms_definition": "Mengizinkan atau tidak melarang aku melakukan sesuatu, atau merelakan sesuatu berlaku terhadap diriku.",
+      "nuances": "可表示尊重自主，也可表示消极放任，须看后续动作和语境。正式表达明确许可时，mengizinkan saya 往往更清楚。义项依据 [DBP 的 membiarkan 词条](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membiarkan)。",
+      "collocations": [
+        {
+          "ms": "membiarkanku memilih sendiri",
+          "zh": "让我自己选择",
+          "en": "let me choose for myself"
+        },
+        {
+          "ms": "membiarkanku pergi",
+          "zh": "让我离开",
+          "en": "let me go"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道中的当事人引语",
+      "ms": "Dalam kenyataannya, saksi itu berkata, \"Penyelia membiarkanku menunggu tanpa sebarang penjelasan.\"",
+      "zh": "该证人在声明中说：“主管让我一直等着，没有给任何解释。”",
+      "en": "In a statement, the witness said, \"The supervisor left me waiting without any explanation.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间带文学色彩的抱怨",
+      "ms_spoken": "Kau membiarkanku tunggu kat luar je tadi.",
+      "ms_standard": "Engkau membiarkan aku menunggu di luar sahaja tadi.",
+      "zh": "刚才你就让我一个人在外面等。",
+      "en": "You just left me waiting outside earlier.",
+      "spoken_features": [
+        "kat 对应 di，je 对应 sahaja",
+        "口语中省略 menunggu 的前缀，使用 tunggu",
+        "membiarkanku 带抒情或戏剧化色彩；普通马来西亚口语更常说 biarkan aku"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau membiarkanku tunggu kat luar je tadi.",
+          "ms_standard": "Engkau membiarkan aku menunggu di luar sahaja tadi.",
+          "zh": "刚才你就让我一个人在外面等。",
+          "en": "You just left me waiting outside earlier."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Eh, aku ingat kau dah masuk. Maaf, ya.",
+          "ms_standard": "Oh, aku menyangka engkau sudah masuk. Maafkan aku.",
+          "zh": "啊，我还以为你已经进去了。对不起啊。",
+          "en": "Oh, I thought you were already inside. Sorry about that."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates Malay word building rather than a separate borrowing: biar supplies the idea of letting, membiarkan forms the verb, and attached ku identifies the speaker as its object. The compact ending can sound intimate or literary. Its meaning ranges from welcome freedom to painful neglect, depending on what follows.",
+    "cognitive_memory_aid": "分三块记：mem-biarkan-ku；biarkan 是“任由”，末尾 ku 把对象锁定为“我”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 对应 aku，适合亲密关系、文学及情绪表达；向长辈、客户或主管陈述时，membiarkan saya 通常更稳妥。",
+    "usage_etiquette": "用于指责他人时可能显得感情强烈。正式投诉宜说明具体行为，如让我等待多久、没有提供什么协助。附着形式的连写规则可参见 [DBP 关于 ku 的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kubaca)。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 对应 aku，适合亲密关系、文学及情绪表达；向长辈、客户或主管陈述时，membiarkan saya 通常更稳妥。",
+    "usage_etiquette": "用于指责他人时可能显得感情强烈。正式投诉宜说明具体行为，如让我等待多久、没有提供什么协助。附着形式的连写规则可参见 [DBP 关于 ku 的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kubaca)。"
+  }
+}

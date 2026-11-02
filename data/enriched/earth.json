@@ -1,0 +1,236 @@
+{
+  "headword": {
+    "word": "earth",
+    "syllables": "earth",
+    "ipa": "/ɜːθ/",
+    "jawi": null,
+    "frequency_rank": 12061,
+    "status": "official",
+    "language": "en",
+    "language_note": "本条为规范英语词的三语对照，不表示 earth 是规范马来语词。马来语对应 bumi、tanah 或 membumikan，视义项而定。",
+    "data_note": "输入中的 syllables='n' 是词性缩写形式，不能作为音节划分；earth 实际为单音节。音标采用非卷舌英式读音；美式通常为 /ɝːθ/。输入未提供 Jawi。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "earth",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + earth → earth",
+    "pattern_note": "作为现代英语独立词素整体记忆，不拆成 ear + th。英式读音中 r 通常不发音，末尾 th 为清齿擦音 /θ/。名词可直接转用为动词。",
+    "word_family": [
+      {
+        "word": "earthly",
+        "affix": "-ly",
+        "gloss": "地球上的；尘世的"
+      },
+      {
+        "word": "earthen",
+        "affix": "-en",
+        "gloss": "泥土制的；陶制的"
+      },
+      {
+        "word": "earthing",
+        "affix": "-ing",
+        "gloss": "电气接地"
+      },
+      {
+        "word": "unearth",
+        "affix": "un-",
+        "gloss": "挖出；发掘；揭露"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "地球：人类居住的行星。",
+      "en_definition": "The planet on which humans live.",
+      "ms_definition": "Bumi, iaitu planet tempat manusia hidup.",
+      "nuances": "天文学语境通常写作 Earth；普通表达也可见 the earth。马来语对应 bumi。本条 ms 搭配提供马来语对应，en 提供英语实际搭配。[Chambers：earth](https://chambers.co.uk/search/?query=earth&title=21st&xref=21C12503)。",
+      "collocations": [
+        {
+          "ms": "planet Bumi",
+          "zh": "地球这颗行星",
+          "en": "planet Earth"
+        },
+        {
+          "ms": "permukaan bumi",
+          "zh": "地球表面",
+          "en": "the earth's surface"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "泥土、土壤，尤其指地表可供植物生长的物质。",
+      "en_definition": "The soil or loose material forming the ground.",
+      "ms_definition": "Tanah atau bahan gembur yang membentuk lapisan permukaan daratan.",
+      "nuances": "通常为不可数名词；对应 tanah，不能把所有场合都译成 bumi。[Cambridge：earth](https://dictionary.cambridge.org/us/dictionary/english/earth)。",
+      "collocations": [
+        {
+          "ms": "tanah lembap",
+          "zh": "湿润的泥土",
+          "en": "damp earth"
+        },
+        {
+          "ms": "tanah gembur",
+          "zh": "松散的泥土",
+          "en": "loose earth"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "地面、陆地；与天空或空中位置相对的地表。",
+      "en_definition": "The ground or land surface, as opposed to the sky.",
+      "ms_definition": "Permukaan tanah atau daratan, berlawanan dengan langit atau udara.",
+      "nuances": "常见于运动方向及位置表达。down to earth 还可比喻“务实的”，其整体意义不能逐词翻译。[Chambers：earth](https://chambers.co.uk/search/?query=earth&title=21st&xref=21C12503)。",
+      "collocations": [
+        {
+          "ms": "jatuh ke bumi",
+          "zh": "落到地面",
+          "en": "fall to earth"
+        },
+        {
+          "ms": "kembali ke bumi",
+          "zh": "返回地面",
+          "en": "return to earth"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "世界、尘世，或生活在世上的人类整体。",
+      "en_definition": "The human world, earthly existence, or the world's inhabitants collectively.",
+      "ms_definition": "Dunia kehidupan manusia atau seluruh penduduk dunia.",
+      "nuances": "on earth 可表示“世界上”，也可在疑问句中加强惊讶或困惑，如 what on earth。cost the earth 是“贵得惊人”的习语。[Chambers：earth](https://chambers.co.uk/search/?query=earth&title=21st&xref=21C12503)。",
+      "collocations": [
+        {
+          "ms": "keamanan di dunia",
+          "zh": "世界和平",
+          "en": "peace on earth"
+        },
+        {
+          "ms": "tiada apa-apa pun di dunia",
+          "zh": "世上没有任何东西",
+          "en": "nothing on earth"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "noun",
+      "zh_definition": "电气系统中的接地连接、接地端或接地导体。",
+      "en_definition": "An electrical connection to ground, or the conductor providing it.",
+      "ms_definition": "Sambungan elektrik ke bumi atau pengalir yang menyediakan sambungan tersebut.",
+      "nuances": "主要为英式电气用语，美式通常用 ground。正式马来语依对象使用 sambungan bumi、terminal bumi 或 wayar bumi；后者见 [PRPM：bumi](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bumi)。",
+      "collocations": [
+        {
+          "ms": "wayar bumi",
+          "zh": "接地线",
+          "en": "earth wire"
+        },
+        {
+          "ms": "terminal bumi",
+          "zh": "接地端子",
+          "en": "earth terminal"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "pos": "verb",
+      "zh_definition": "使电气设备或其有关导电部分接地。",
+      "en_definition": "To connect electrical equipment or a conductive part to ground.",
+      "ms_definition": "Membumikan peralatan elektrik atau bahagian pengalir yang berkenaan.",
+      "nuances": "主要为英式及相关技术语域用法，美式对应 ground。它表示电气连接，并非把设备埋入泥土。[Collins：earth](https://www.collinsdictionary.com/us/dictionary/english/earth)。",
+      "collocations": [
+        {
+          "ms": "membumikan peralatan",
+          "zh": "将设备接地",
+          "en": "earth equipment"
+        },
+        {
+          "ms": "membumikan sarung logam",
+          "zh": "将金属外壳接地",
+          "en": "earth the metal casing"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "pos": "noun",
+      "zh_definition": "狐狸或獾等动物在地下的洞穴。",
+      "en_definition": "An underground den, especially that of a fox or badger.",
+      "ms_definition": "Lubang atau sarang bawah tanah, khususnya bagi rubah atau badger.",
+      "nuances": "可数名词，主要见于英国自然观察及相关叙述，不是所有动物巢穴的通用词。[Chambers：earth](https://chambers.co.uk/search/?query=earth&title=21st&xref=21C12503)。",
+      "collocations": [
+        {
+          "ms": "sarang rubah bawah tanah",
+          "zh": "狐狸的地下洞穴",
+          "en": "fox earth"
+        },
+        {
+          "ms": "sarang rubah yang didiami",
+          "zh": "有狐狸居住的洞穴",
+          "en": "an occupied fox earth"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam rajah pendawaian itu, label Inggeris 'earth' merujuk kepada sambungan bumi.",
+      "zh": "在该接线图中，英语标签 earth 指接地连接。",
+      "en": "In the wiring diagram, the English label 'earth' refers to the ground connection."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah tengok label 'earth' kat rajah tu, tapi tak faham maksud dia.",
+      "ms_standard": "Saya sudah melihat label 'earth' pada rajah itu, tetapi tidak memahami maksudnya.",
+      "zh": "我看见图上的 earth 标签了，不过不懂它是什么意思。",
+      "en": "I've seen the 'earth' label on the diagram, but I don't know what it means.",
+      "spoken_features": [
+        "earth 作为图中英语标签被引用。",
+        "dah 对应 sudah，kat 在此对应 pada，tu 对应 itu。",
+        "口语 maksud dia 对应标准语 maksudnya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku nak tanya, 'earth' kat rajah ni maksudnya tanah ke?",
+          "ms_standard": "Saya mahu bertanya, adakah 'earth' pada rajah ini bermaksud tanah?",
+          "zh": "我想问一下，这张图上的 earth 是泥土的意思吗？",
+          "en": "Can I ask—does 'earth' on this diagram mean soil?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Dalam rajah elektrik ni, maksudnya sambungan bumi. Aku dah jumpa penerangan kat nota kelas.",
+          "ms_standard": "Dalam rajah elektrik ini, perkataan itu bermaksud sambungan bumi. Saya sudah menemukan penerangannya dalam nota kelas.",
+          "zh": "在这张电路图里，它指接地连接。我已经在课堂笔记里找到解释了。",
+          "en": "In this electrical diagram, it means a ground connection. I found the explanation in our class notes."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Earth is inherited from Germanic and is recorded in Old English. Its long history embraces both the ground beneath people's feet and the world they inhabit. Later specialist uses include electrical terminology. This breadth explains why Malay translation requires different words: bumi for the planet, tanah for soil, and technical forms for earthing. [Oxford English Dictionary：earth](https://doi.org/10.1093/OED/5000214824)。",
+    "cognitive_memory_aid": "想象镜头由脚下泥土拉远到整颗地球：earth 可指 tanah，也可指 bumi；看到电气图中的 earth，再联想到“接地”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词没有特殊敬语限制；在马来语交流中，应根据对方对英语术语的熟悉程度选择对应词，并在首次出现时解释专业含义。",
+    "usage_etiquette": "普通马来语叙述用 bumi 或 tanah；技术标签可保留 earth 并附马来语说明。英语习语如 what on earth 表达强调，不应直译成关于地球的提问。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词没有特殊敬语限制；在马来语交流中，应根据对方对英语术语的熟悉程度选择对应词，并在首次出现时解释专业含义。",
+    "usage_etiquette": "普通马来语叙述用 bumi 或 tanah；技术标签可保留 earth 并附马来语说明。英语习语如 what on earth 表达强调，不应直译成关于地球的提问。"
+  }
+}

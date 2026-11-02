@@ -1,0 +1,159 @@
+{
+  "headword": {
+    "word": "transit",
+    "syllables": "tran.sit",
+    "ipa": "/tran.sit/",
+    "jawi": "ترنسيت",
+    "frequency_rank": 12014,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "transit",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + transit → transit",
+    "pattern_note": "整词借入；tran- 不是马来语前缀，词尾 -sit 也不是后缀。派生 bertransit 时，词基保持不变。",
+    "word_family": [
+      {
+        "word": "bertransit",
+        "affix": "ber-",
+        "gloss": "中途停留；过境"
+      }
+    ],
+    "root_jawi": "ترنسيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "人员或货物在运输途中经过某地的过程；过境或转运。",
+      "en_definition": "The passage or transportation of people or goods through an intermediate place.",
+      "ms_definition": "Proses membawa orang atau barang melalui sesuatu tempat dalam perjalanan ke destinasi lain.",
+      "nuances": "侧重运输过程，不一定涉及更换交通工具；货物处于 transit 状态，也不表示已经交付。此义对应《Kamus Dewan》的运输与通过义。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=transit)",
+      "collocations": [
+        {
+          "ms": "barang dalam transit",
+          "zh": "运输途中的货物",
+          "en": "goods in transit"
+        },
+        {
+          "ms": "transit antarabangsa",
+          "zh": "国际过境运输",
+          "en": "international transit"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "继续前往目的地之前暂时停留的地点；中转站或临时落脚处。",
+      "en_definition": "An intermediate stopping place before onward travel or movement.",
+      "ms_definition": "Tempat persinggahan sementara sebelum perjalanan diteruskan ke tempat lain.",
+      "nuances": "在 pusat transit、rumah transit 等结构中，表示供人暂时停留或安置的设施，不限于机场，也不自动表示长期住所。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=transit)",
+      "collocations": [
+        {
+          "ms": "pusat transit",
+          "zh": "中转中心；临时安置中心",
+          "en": "transit centre"
+        },
+        {
+          "ms": "rumah transit",
+          "zh": "临时过渡住所",
+          "en": "temporary accommodation"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "在前往最终目的地途中中途停留，尤指乘飞机时经停或转机。",
+      "en_definition": "To stop at an intermediate point during a journey, especially when flying.",
+      "ms_definition": "Singgah sementara di sesuatu tempat sebelum meneruskan perjalanan, khususnya perjalanan udara.",
+      "nuances": "常见于 Kami transit di Doha 等旅行表达；经停是否需要换机取决于行程，不能把 transit 一律译成“转机”。《Kamus Pelajar》另列 singgah 义。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=transit)",
+      "collocations": [
+        {
+          "ms": "transit di Singapura",
+          "zh": "在新加坡中转",
+          "en": "transit through Singapore"
+        },
+        {
+          "ms": "transit selama dua jam",
+          "zh": "中途停留两小时",
+          "en": "have a two-hour stopover"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "公共交通运输，尤见于城市轨道交通系统的名称。",
+      "en_definition": "Public passenger transport, especially an urban rail transport system.",
+      "ms_definition": "Pengangkutan awam untuk membawa penumpang, khususnya dalam sistem pengangkutan bandar.",
+      "nuances": "此义见《Kamus Pelajar》，常用于 transit aliran ringan 等交通术语；在这些名称中不能译成“临时停留”。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=transit)",
+      "collocations": [
+        {
+          "ms": "transit aliran ringan",
+          "zh": "轻快铁；轻轨交通",
+          "en": "light rail transit"
+        },
+        {
+          "ms": "transit aliran massa",
+          "zh": "大众捷运；大运量轨道交通",
+          "en": "mass rapid transit"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua penumpang transit diminta menyemak pintu pelepasan bagi penerbangan seterusnya.",
+      "zh": "请所有中转旅客确认下一程航班的登机口。",
+      "en": "All transit passengers are requested to check the departure gate for their onward flight."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kita transit kat Doha dua jam je, sempatlah makan dulu.",
+      "ms_standard": "Kita akan transit di Doha selama dua jam sahaja, jadi kita sempat makan terlebih dahulu.",
+      "zh": "我们在多哈中转就两个小时，先吃点东西还来得及。",
+      "en": "We only have a two-hour stopover in Doha, but there's time to grab something to eat.",
+      "spoken_features": [
+        "kat 对应标准语 di，表示地点。",
+        "je 对应 sahaja，表示“而已”。",
+        "-lah 在这里使判断听起来轻松、笃定。",
+        "口语省略了可由行程语境推知的 akan 和 selama。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kita transit kat Doha dua jam je kan?",
+          "ms_standard": "Kita akan transit di Doha selama dua jam sahaja, bukan?",
+          "zh": "我们在多哈就中转两个小时，对吧？",
+          "en": "We've only got a two-hour stopover in Doha, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, nak makan boleh, tapi tengok pintu dulu lah.",
+          "ms_standard": "Ya, kita boleh makan, tetapi kita perlu menyemak pintu pelepasan terlebih dahulu.",
+          "zh": "对，可以吃点东西，不过先看看登机口啦。",
+          "en": "Yeah, we can grab some food, but let's check the gate first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Behind transit lies Latin transitus, a passage or crossing, associated with transire, to go across. The same image connects goods moving through a country with passengers continuing through an airport. Malay dictionaries also record a stopping place and public transport, so the surrounding phrase determines whether movement, a stop, or a transport system is intended. [Etymological reference](https://www.etymonline.com/word/transit)",
+    "cognitive_memory_aid": "把 tran.sit 想成“旅程中的暂停点”：经过这里，还要继续走。只是记忆画面，不是马来语词素拆分。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "旅行和物流中的中性词，正式通知与日常交流都适用。向工作人员询问时可说：Maaf, di manakah kaunter transit?",
+    "usage_etiquette": "谈临时安置设施时，应按其实际用途理解 pusat transit；不要因为出现 transit 就推断入住者的身份、处境或停留期限。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "旅行和物流中的中性词，正式通知与日常交流都适用。向工作人员询问时可说：Maaf, di manakah kaunter transit?",
+    "usage_etiquette": "谈临时安置设施时，应按其实际用途理解 pusat transit；不要因为出现 transit 就推断入住者的身份、处境或停留期限。"
+  }
+}
