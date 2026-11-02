@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "ade",
+    "syllables": null,
+    "ipa": "[a.də]",
+    "jawi": null,
+    "frequency_rank": 9788,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ade",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "ada → [a.də] → ade（口语读音的非规范拼写）",
+    "pattern_note": "ade 是 ada 的口语拼写，不是添加词缀产生的新词。部分马来语变体把词尾开放音节中的 /a/ 读为 [ə]；规范拼写仍为 ada。按输入保留 root_word 为 ade，以下词族实际以 ada 为基础。",
+    "word_family": [
+      {
+        "word": "berada",
+        "affix": "ber-",
+        "gloss": "位于；处于"
+      },
+      {
+        "word": "keadaan",
+        "affix": "ke-...-an",
+        "gloss": "情况；状态"
+      },
+      {
+        "word": "mengadakan",
+        "affix": "meN-...-kan",
+        "gloss": "举办；设置；提供"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "有；存在；在某处或可以取得。为 ada 的非规范口语拼写。",
+      "en_definition": "An informal spelling of ada: to exist, be present, or be available.",
+      "ms_definition": "Ejaan tidak baku bagi ada dalam percakapan atau mesej tidak rasmi, bermaksud wujud, hadir atau tersedia.",
+      "nuances": "ade 末尾的 e 在此表示央元音 [ə]，并非必然读作 [e]。这种发音不代表规范书写也应改成 ade。[相关语音研究](https://tufs.repo.nii.ac.jp/record/1438/files/07Inagaki.pdf)。",
+      "collocations": [
+        {
+          "ms": "ade kat rumah",
+          "zh": "在家",
+          "en": "be at home"
+        },
+        {
+          "ms": "masih ade",
+          "zh": "还有；仍然存在",
+          "en": "still be available; still exist"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "拥有；有某物、时间或条件。为 ada 表示领有关系时的非规范写法。",
+      "en_definition": "An informal spelling of ada meaning to have or possess.",
+      "ms_definition": "Ejaan tidak baku bagi ada yang membawa maksud mempunyai atau memiliki sesuatu.",
+      "nuances": "Saya ade masa 对应 Saya ada masa，意思是“我有空”。ade 不能在所有表示“是”的句子中代替系词。",
+      "collocations": [
+        {
+          "ms": "ade masa",
+          "zh": "有时间；有空",
+          "en": "have time"
+        },
+        {
+          "ms": "ade duit",
+          "zh": "有钱",
+          "en": "have money"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "放在动词前，表示确实发生过某事或曾有相关经历；是 ada 的非规范口语写法。",
+      "en_definition": "An informal spelling of preverbal ada, indicating that an event did occur or has been experienced.",
+      "ms_definition": "Ejaan tidak baku bagi ada yang digunakan sebelum kata kerja untuk menyatakan bahawa sesuatu perbuatan memang berlaku atau pernah dilakukan.",
+      "nuances": "这里按语用功能归为 particle，并非表示独立的时间词。Saya ade dengar 表示“我有听说”，具体时间仍由上下文决定。",
+      "collocations": [
+        {
+          "ms": "ade dengar",
+          "zh": "有听说",
+          "en": "have heard"
+        },
+        {
+          "ms": "ade nampak",
+          "zh": "有看到",
+          "en": "have seen; did see"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan rasmi, ejaan tidak baku seperti “ade” hendaklah digantikan dengan ejaan baku “ada”.",
+      "zh": "在正式报告中，应把“ade”等非规范拼写改为规范拼写“ada”。",
+      "en": "In official reports, nonstandard spellings such as “ade” should be replaced with the standard spelling “ada”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Awak ade kat rumah tak? Saya nak ambil buku kejap.",
+      "ms_standard": "Adakah awak ada di rumah? Saya hendak mengambil buku sebentar.",
+      "zh": "你在家吗？我想过去拿一下书。",
+      "en": "Are you home? I'd like to pop over and pick up the book.",
+      "spoken_features": [
+        "ade 是 ada 的口语拼写",
+        "kat 对应 di",
+        "句末 tak 构成口语是非问句",
+        "nak 对应 hendak，kejap 对应 sekejap 或 sebentar"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Awak ade kat rumah tak? Saya nak ambil buku kejap.",
+          "ms_standard": "Adakah awak ada di rumah? Saya hendak mengambil buku sebentar.",
+          "zh": "你在家吗？我想过去拿一下书。",
+          "en": "Are you home? I'd like to pop over and pick up the book."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ade, datang je. Saya dah letak buku tu atas meja.",
+          "ms_standard": "Ada, datanglah. Saya sudah meletakkan buku itu di atas meja.",
+          "zh": "在，直接过来吧。我已经把那本书放桌上了。",
+          "en": "Yes, come on over. I've put the book on the table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ade is best understood as speech reflected in writing, rather than as a separate inherited word. In schwa varieties of Malay, a final open-syllable a can surface as [ə]. Informal writers represent that familiar sound with e, while standard orthography retains ada. The distinction is between pronunciation and spelling. [Related phonological research](https://tufs.repo.nii.ac.jp/record/1438/files/07Inagaki.pdf).",
+    "cognitive_memory_aid": "ade 听起来像 ada 的尾音放轻：意思还是“有、在”；聊天认得 ade，正式落笔写 ada。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ade 本身不粗俗，但用于求职邮件、公文或初次联系客户时显得随意，应写 ada。",
+    "usage_etiquette": "适用于熟人聊天和模仿实际口语的对话。不要把使用这种发音的人视为说错话；需要区分地域发音与规范拼写。正式例句仅以引述方式出现 ade。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ade 本身不粗俗，但用于求职邮件、公文或初次联系客户时显得随意，应写 ada。",
+    "usage_etiquette": "适用于熟人聊天和模仿实际口语的对话。不要把使用这种发音的人视为说错话；需要区分地域发音与规范拼写。正式例句仅以引述方式出现 ade。"
+  }
+}

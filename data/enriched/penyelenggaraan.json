@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "penyelenggaraan",
+    "syllables": "pe.nye.leng.ga.ra.an",
+    "ipa": "/pə.ɲə.ləŋ.ɡa.ra.an/",
+    "jawi": "ڤڽلڠݢاراءن",
+    "frequency_rank": 9840,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penyelenggaraan",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + selenggara + -an → penyelenggaraan",
+    "pattern_note": "root_word 与 root_jawi 按要求保留数据包原值；实际构词基底是 selenggara（سلڠݢارا），因此 is_root 为 false。peN- 遇词首 s 时变为 peny-，原 s 脱落；末尾 a 与 -an 的 a 分属两个音节。[DBP：selenggara](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=selenggara)。",
+    "word_family": [
+      {
+        "word": "menyelenggara",
+        "affix": "meN-",
+        "gloss": "维护；管理"
+      },
+      {
+        "word": "menyelenggarakan",
+        "affix": "meN-...-kan",
+        "gloss": "办理；组织实施"
+      },
+      {
+        "word": "penyelenggara",
+        "affix": "peN-",
+        "gloss": "维护人员；承办者"
+      },
+      {
+        "word": "terselenggara",
+        "affix": "ter-",
+        "gloss": "得到办理或妥善管理"
+      }
+    ],
+    "root_jawi": "ڤڽلڠݢاراءن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对事务、活动或制度进行组织、办理、管理和实施的过程。",
+      "en_definition": "The organization, administration, or implementation of an undertaking.",
+      "ms_definition": "Perbuatan menyelenggarakan sesuatu; pelaksanaan; pengelolaan.",
+      "nuances": "涵盖事务的组织和执行，不只表示设备维修。具体译法取决于宾语，如活动用“承办”，行政事务用“管理”。[DBP：selenggara](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=selenggara)。",
+      "collocations": [
+        {
+          "ms": "penyelenggaraan seminar",
+          "zh": "研讨会的组织承办",
+          "en": "the organization of a seminar"
+        },
+        {
+          "ms": "penyelenggaraan peperiksaan",
+          "zh": "考试的组织实施",
+          "en": "the administration of examinations"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为保持设备、设施或系统正常运行而进行的保养、维护和监管；也可指照料或看护。",
+      "en_definition": "Maintenance and upkeep, or the provision of care and supervision.",
+      "ms_definition": "Pemeliharaan; pengawasan.",
+      "nuances": "现代马来西亚工程及物业语境常指保养维护，包括预防性检查，不必等到故障才进行；不宜一律译成“修理”。数据包中的医生例句体现较宽的“照料”义。",
+      "collocations": [
+        {
+          "ms": "penyelenggaraan berkala",
+          "zh": "定期维护",
+          "en": "periodic maintenance"
+        },
+        {
+          "ms": "kos penyelenggaraan",
+          "zh": "维护费用",
+          "en": "maintenance costs"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kerja penyelenggaraan lif akan dijalankan pada hari Sabtu bagi memastikan keselamatan pengguna.",
+      "zh": "为确保使用者安全，电梯维护工作将于星期六进行。",
+      "en": "Lift maintenance will be carried out on Saturday to ensure users' safety."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Lif ni tengah tutup untuk penyelenggaraan lah. Kita naik tangga je.",
+      "ms_standard": "Lif ini sedang ditutup untuk penyelenggaraan. Kita menggunakan tangga sahaja.",
+      "zh": "这部电梯正关着做维护呢。我们走楼梯吧。",
+      "en": "This lift's closed for maintenance. Let's just take the stairs.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式",
+        "tengah 在此表示 sedang",
+        "口语省略被动标记 di-，使用 tutup 代替 ditutup",
+        "lah 加强解释语气，je 相当于 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (邻居)",
+          "ms_spoken": "Lif ni tengah tutup untuk penyelenggaraan lah. Kita naik tangga je.",
+          "ms_standard": "Lif ini sedang ditutup untuk penyelenggaraan. Kita menggunakan tangga sahaja.",
+          "zh": "这部电梯正关着做维护呢。我们走楼梯吧。",
+          "en": "This lift's closed for maintenance. Let's just take the stairs."
+        },
+        {
+          "speaker": "Hafiz (邻居)",
+          "ms_spoken": "Oh, patutlah. Aku dah tunggu lama kat sini.",
+          "ms_standard": "Oh, sebab itulah lif tidak beroperasi. Saya sudah lama menunggu di sini.",
+          "zh": "哦，难怪。我都在这儿等半天了。",
+          "en": "Oh, that explains it. I've been waiting here for ages."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This noun grows from selenggara, a base associated with managing, carrying out, and caring for something. DBP also connects selenggara with senggara through the insertion of -el-. Its broad meanings explain a useful bridge: organizing an examination and maintaining a lift both involve keeping an undertaking properly managed. Modern technical usage makes the maintenance meaning especially visible. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=selenggara).",
+    "cognitive_memory_aid": "抓住 selenggara“管理、维护”：前后套上 peN-...-an，就把动作变成“维护管理这件事”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性正式用语，适合公告、合同和工作汇报。日常聊天也可直接使用，尤其在解释电梯、道路或系统暂停服务时。",
+    "usage_etiquette": "报告维护安排时宜交代对象、时间及影响。对于现代医疗照护，penjagaan 或 rawatan 往往比 penyelenggaraan 更自然；设备保养则很适合使用本词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性正式用语，适合公告、合同和工作汇报。日常聊天也可直接使用，尤其在解释电梯、道路或系统暂停服务时。",
+    "usage_etiquette": "报告维护安排时宜交代对象、时间及影响。对于现代医疗照护，penjagaan 或 rawatan 往往比 penyelenggaraan 更自然；设备保养则很适合使用本词。"
+  }
+}

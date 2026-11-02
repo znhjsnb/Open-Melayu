@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "berapakah",
+    "syllables": null,
+    "ipa": "/bə.ra.pa.kah/",
+    "jawi": "براڤ",
+    "frequency_rank": 9795,
+    "status": "official",
+    "orthography_note": "保留词包的空音节值和 Jawi 字段。实际音节可分为 be.ra.pa.kah；词包 Jawi 仅对应 berapa，未包含疑问附着语 -kah。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "berapa",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "berapa + -kah → berapakah",
+    "pattern_note": "-kah 是后附的疑问强调语素，并非改变词类的普通派生后缀；此处按字段归入 suffix。词根不发生音变，连写为一个词；不要把 berapa 再机械拆成 ber- + apa。",
+    "word_family": [
+      {
+        "word": "berapa",
+        "affix": null,
+        "gloss": "多少；几"
+      },
+      {
+        "word": "beberapa",
+        "affix": "be-",
+        "gloss": "若干；几个"
+      },
+      {
+        "word": "seberapa",
+        "affix": "se-",
+        "gloss": "多少；达到何种程度"
+      }
+    ],
+    "root_jawi": "براڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "用于明确询问数量、金额、尺寸、年龄、时刻等可量化信息，相当于“多少”或“几”。",
+      "en_definition": "An interrogative expression asking how many, how much, or what numerical value.",
+      "ms_definition": "Bentuk tanya berapa yang disertai partikel -kah untuk meminta maklumat tentang bilangan, jumlah, harga, ukuran atau nilai tertentu.",
+      "nuances": "实际语法类别为 kata tanya；因指定词类列表不含疑问代词，此处暂归 particle。常见于完整问句、教学和正式询问。口语通常省略 -kah，说 Berapa harganya? 或 Harga berapa?；词根 berapa 的非疑问用法不能一概移植到 berapakah。[DBP 词义](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=berapa)；[DBP 疑问句说明](https://dewanbahasa.jendeladbp.my/2025/08/22/19818/)。",
+      "collocations": [
+        {
+          "ms": "berapakah jumlah",
+          "zh": "总数是多少",
+          "en": "what is the total"
+        },
+        {
+          "ms": "berapakah harga",
+          "zh": "价格是多少",
+          "en": "how much does it cost"
+        },
+        {
+          "ms": "pukul berapakah",
+          "zh": "在几点",
+          "en": "at what time"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Berapakah jumlah peserta yang telah mengesahkan kehadiran bagi seminar tersebut?",
+      "zh": "已确认出席该研讨会的参与者共有多少人？",
+      "en": "How many participants have confirmed their attendance at the seminar?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Berapakah harga tiket tu? Eh, formal pula aku tanya. Berapa je sebenarnya?",
+      "ms_standard": "Berapakah harga tiket itu sebenarnya?",
+      "zh": "那张票多少钱？哎，我怎么问得这么正式。到底多少钱啊？",
+      "en": "How much is that ticket? Wow, that sounded formal. How much is it actually?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "je 对应 sahaja，此处让询问显得随意。",
+        "刻意使用 berapakah 后自我调侃，体现它在朋友聊天中的正式语感。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Berapakah harga tiket tu? Aku nak beli dua.",
+          "ms_standard": "Berapakah harga tiket itu? Saya hendak membeli dua keping tiket.",
+          "zh": "那张票多少钱？我想买两张。",
+          "en": "How much is that ticket? I want to buy two."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Wah, formalnya! Dua puluh ringgit je satu. Aku dah beli tadi.",
+          "ms_standard": "Wah, formal sungguh pertanyaan itu! Harga sekeping tiket hanya dua puluh ringgit. Saya sudah membelinya tadi.",
+          "zh": "哇，问得好正式！一张二十令吉而已。我刚才已经买了。",
+          "en": "Wow, so formal! It's only twenty ringgit each. I bought mine earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Berapakah combines the Malay question word berapa with the question particle -kah. Its structure illustrates a familiar contrast in Malaysian communication: a complete written question may retain the particle, while a quick conversation often uses berapa alone. The particle marks the question explicitly; it does not create a separate word for prices, ages, or quantities.",
+    "cognitive_memory_aid": "把 berapa 记作“多少”，再给它挂上疑问标记 -kah：berapa + kah，就是完整地问“究竟多少？”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Berapakah 使问句显得完整、正式，但不自动表示尊敬。向客户或长辈询问时，可加 Maaf、boleh saya tahu，并使用适当称谓。",
+    "usage_etiquette": "适合询价、核对人数和正式问答。询问工资、年龄或个人资产仍需顾及关系与场合；增加 -kah 不会消除问题本身的私密性。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Berapakah 使问句显得完整、正式，但不自动表示尊敬。向客户或长辈询问时，可加 Maaf、boleh saya tahu，并使用适当称谓。",
+    "usage_etiquette": "适合询价、核对人数和正式问答。询问工资、年龄或个人资产仍需顾及关系与场合；增加 -kah 不会消除问题本身的私密性。"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "headword": {
+    "word": "pal",
+    "syllables": "pal",
+    "ipa": "/pal/",
+    "jawi": "ڤل",
+    "frequency_rank": 9799,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pal",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pal → pal",
+    "pattern_note": "单音节独立词，不拆分。berpal-pal 中的 ber- 与重叠形式须按义项区分：可表示距离有若干 pal，也可表示帆船迂回航行。",
+    "word_family": [
+      {
+        "word": "berpal-pal",
+        "affix": "ber- + 重叠",
+        "gloss": "距离有好几个 pal；另一同形义为帆船左右迂回航行"
+      }
+    ],
+    "root_jawi": "ڤل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "旧时距离单位，约合1500米；亦可指相应的里程标桩。",
+      "en_definition": "An old unit of distance of approximately 1,500 metres; also a corresponding milestone or distance marker.",
+      "ms_definition": "Unit ukuran jarak lama yang bersamaan dengan kira-kira 1,500 meter; juga batu atau tonggak penanda jarak.",
+      "nuances": "DBP 标注 IB，表示经荷兰语进入印尼语的借词。主要见于旧文献及历史叙述；约1500米不是现代英里的精确换算值。以下为历史语境中的典型组合，不表示现代高频用语。依据：[DBP：pal](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=pal)。",
+      "collocations": [
+        {
+          "ms": "dua pal",
+          "zh": "两个 pal，约三公里",
+          "en": "two pal, approximately three kilometres"
+        },
+        {
+          "ms": "berpal-pal jauhnya",
+          "zh": "距离有好几个 pal",
+          "en": "several pal away"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用于 membuang pal 或 berpal-pal，指帆船不断改变左右航向，以斜向迂回的方式航行。",
+      "en_definition": "In membuang pal or berpal-pal, to sail on alternating oblique courses; to tack.",
+      "ms_definition": "Dalam ungkapan membuang pal atau bentuk berpal-pal, belayar secara serong dengan menukar arah ke kiri dan ke kanan.",
+      "nuances": "这是 DBP 分列的 pal II，不能把它解释为距离单位的普通引申义。动词义依附于固定表达，通常不单独使用 pal 作谓语。依据：[DBP：pal I 与 pal II](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pal)。",
+      "collocations": [
+        {
+          "ms": "membuang pal",
+          "zh": "使帆船左右换向迂回航行",
+          "en": "to tack a sailing vessel"
+        },
+        {
+          "ms": "belayar berpal-pal",
+          "zh": "左右换向斜行",
+          "en": "to sail on alternating tacks"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "历史研究报告",
+      "ms": "Catatan perjalanan itu menyatakan bahawa jarak antara kedua-dua penempatan tersebut ialah dua pal, iaitu kira-kira tiga kilometer.",
+      "zh": "该游记记载，两处聚落相距两个 pal，即约三公里。",
+      "en": "The travel account records the distance between the two settlements as two pal, or approximately three kilometres."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论旧地图",
+      "ms_spoken": "Dalam peta lama ni, dua pal tu lebih kurang tiga kilometer je, kan?",
+      "ms_standard": "Dalam peta lama ini, dua pal itu bersamaan dengan kira-kira tiga kilometer sahaja, bukan?",
+      "zh": "这张旧地图上的两个 pal，也就大约三公里，对吧？",
+      "en": "On this old map, two pal is only about three kilometres, right?",
+      "spoken_features": [
+        "ni、tu 分别对应 ini、itu",
+        "je 对应 sahaja",
+        "kan 用于寻求确认；pal 本身属于旧词"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah tengok peta lama tu. Dua pal tu jauh mana, ya?",
+          "ms_standard": "Saya sudah melihat peta lama itu. Berapakah jarak dua pal itu?",
+          "zh": "我看过那张旧地图了。两个 pal 到底有多远呀？",
+          "en": "I've looked at that old map. How far is two pal?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Lebih kurang tiga kilometer je. Tapi ukuran lama tu anggaran, ya.",
+          "ms_standard": "Jaraknya kira-kira tiga kilometer sahaja. Namun, ukuran lama itu merupakan anggaran.",
+          "zh": "也就大约三公里。不过这种旧单位只能作近似换算。",
+          "en": "Only about three kilometres. It's an approximate conversion, though."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary preserves two separate entries under this short spelling. One belongs to older distance measurement, where a journey could be counted in pal and associated with roadside markers. The other belongs to sailing and survives in expressions for alternating courses. Their shared spelling should not be mistaken for evidence of a shared origin.",
+    "cognitive_memory_aid": "把 /pal/ 想成路旁一根标桩：经过一个 pal，就走了约1.5公里。航海义另记整组 membuang pal。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身没有冒犯性，但现代听者可能不熟悉；首次使用时附上公里近似值更体贴。",
+    "usage_etiquette": "适合历史、旧地图和传统航海语境。现代地址、路线说明及工程文件应使用明确的公制距离；不要把它当作英语 pal“朋友”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身没有冒犯性，但现代听者可能不熟悉；首次使用时附上公里近似值更体贴。",
+    "usage_etiquette": "适合历史、旧地图和传统航海语境。现代地址、路线说明及工程文件应使用明确的公制距离；不要把它当作英语 pal“朋友”。"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "failkan",
+    "syllables": null,
+    "ipa": "/fail.kan/",
+    "jawi": "فاءيلکن",
+    "frequency_rank": 9786,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "fail",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "fail + -kan → failkan；meN- + fail + -kan → memfailkan",
+    "pattern_note": "直接加 -kan，词根 fail 不变。failkan 可用于祈使句和第一、第二人称被动结构；普通主动陈述通常用 memfailkan。meN- 在 f 前取 mem-，保留 f。输入的 فاءيل 是词根拼写；完整派生词补写 کن。",
+    "word_family": [
+      {
+        "word": "memfailkan",
+        "affix": "meN-…-kan",
+        "gloss": "把文件归档；正式提交登记"
+      },
+      {
+        "word": "pemfailan",
+        "affix": "peN-…-an",
+        "gloss": "归档或正式提交的过程"
+      }
+    ],
+    "root_jawi": "فاءيل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "将信件、凭证或其他文件按整理规则存入档案；归档。",
+      "en_definition": "To place documents in an organized file or record system.",
+      "ms_definition": "Memasukkan atau menyimpan surat dan dokumen ke dalam fail secara teratur.",
+      "nuances": "failkan 在指令中自然，如 Sila failkan surat ini；普通主动陈述通常写 Pegawai itu memfailkan surat tersebut。数字文件也可归入记录系统，但“保存”“下载”和“归档”并非任何情境下都能互换。释义依据 [PRPM：fail／memfailkan](https://prpm.dbp.gov.my/Cari1?d=250808&keyword=fail)，采用释写。",
+      "collocations": [
+        {
+          "ms": "failkan surat",
+          "zh": "将信件归档",
+          "en": "file correspondence"
+        },
+        {
+          "ms": "failkan dokumen",
+          "zh": "将文件归档",
+          "en": "file documents"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "将申请、投诉、诉状等正式提交有关机构，以供登记或受理。",
+      "en_definition": "To submit an application, complaint, or legal document officially for registration.",
+      "ms_definition": "Mengemukakan permohonan, aduan atau dokumen lain secara rasmi untuk didaftarkan oleh pihak berkenaan.",
+      "nuances": "强调正式提交或登记，不表示申请已获批准、投诉已被证实或案件已经裁决。词义依据 [PRPM：memfailkan](https://prpm.dbp.gov.my/Cari1?d=250808&keyword=fail)。",
+      "collocations": [
+        {
+          "ms": "failkan permohonan",
+          "zh": "正式提交申请",
+          "en": "file an application"
+        },
+        {
+          "ms": "failkan saman",
+          "zh": "提交诉状；提起诉讼",
+          "en": "file a lawsuit"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 办公室文件管理",
+      "ms": "Sila failkan semua surat yang telah diambil tindakan mengikut nombor rujukan masing-masing.",
+      "zh": "请将所有已处理的信件按各自的参考编号归档。",
+      "en": "Please file all correspondence that has been dealt with under its respective reference number."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事安排文件归档",
+      "ms_spoken": "Tolong failkan surat ni dulu ya, bos nak tengok petang nanti.",
+      "ms_standard": "Tolong failkan surat ini terlebih dahulu kerana ketua mahu menyemaknya petang nanti.",
+      "zh": "麻烦先把这封信归档哦，老板今天下午要看。",
+      "en": "Please file this letter first; the boss wants to look at it this afternoon.",
+      "spoken_features": [
+        "ni 对应 ini",
+        "nak 对应 mahu",
+        "ya 缓和请求语气",
+        "tengok 在此口语中表示查看"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Tolong failkan surat ni dulu ya, bos nak tengok petang nanti.",
+          "ms_standard": "Tolong failkan surat ini terlebih dahulu kerana ketua mahu menyemaknya petang nanti.",
+          "zh": "麻烦先把这封信归档哦，老板今天下午要看。",
+          "en": "Please file this letter first; the boss wants to look at it this afternoon."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Baik, saya dah semak nombor rujukan. Sekejap lagi saya failkan.",
+          "ms_standard": "Baik, saya sudah menyemak nombor rujukannya. Surat ini akan saya failkan sebentar lagi.",
+          "zh": "好，参考编号我已经核对了，等一下就归档。",
+          "en": "Sure, I've checked the reference number. I'll file it in a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay fail corresponds to English file in office and computing vocabulary. Adding the Malay suffix -kan turns the document container into an action: putting something on file. The same verb also covers official submission for registration. This connects two familiar administrative activities, keeping an organized record and formally lodging a document with an institution.",
+    "cognitive_memory_aid": "fail 是“档案”，加 -kan 就是“把它归入档案”；遇到申请或诉状，则想成“正式提交登记”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Failkan ini 是明确命令。对同事可加 tolong 或 sila；向上级提出请求，可说 Bolehkah tuan atau puan membantu memfailkan dokumen ini?",
+    "usage_etiquette": "适合行政、档案管理和正式提交文件的场景。谈及投诉或诉讼时，应区分“已经提交”“已经登记”和“已经获批或裁决”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Failkan ini 是明确命令。对同事可加 tolong 或 sila；向上级提出请求，可说 Bolehkah tuan atau puan membantu memfailkan dokumen ini?",
+    "usage_etiquette": "适合行政、档案管理和正式提交文件的场景。谈及投诉或诉讼时，应区分“已经提交”“已经登记”和“已经获批或裁决”。"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "st",
+    "syllables": null,
+    "ipa": "/ston/",
+    "jawi": null,
+    "frequency_rank": 9812,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "st",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "ston → st（书写缩写，无词缀）",
+    "pattern_note": "这是 ston 的缩写，不是可独立拆音节的普通词；音标表示按完整单位名称 ston 朗读时的读音。is_root 沿用输入数据库标记，不表示 st 是历史词根。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英石这一英制质量单位的缩写；一英石等于十四磅，即约六点三五千克。",
+      "en_definition": "Abbreviation for ston: a unit of mass equal to fourteen pounds.",
+      "ms_definition": "Kependekan bagi ston, iaitu unit berat yang bersamaan dengan empat belas paun.",
+      "nuances": "通常接在数字后，如 10 st；口头一般展开读作 ston。这里不表示英语 street、saint 或其他同形缩写。一英石精确等于 6.35029318 千克；换算依据见 [英国单位换算表](https://www.legislation.gov.uk/uksi/1995/1804/schedule/made)。以下为常见的数值书写组合。",
+      "collocations": [
+        {
+          "ms": "berat 10 st",
+          "zh": "重十英石",
+          "en": "a weight of ten stone"
+        },
+        {
+          "ms": "10 st 5 lb",
+          "zh": "十英石五磅",
+          "en": "ten stone five pounds"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Rekod asal menyatakan berat peserta sebagai 10 st, bersamaan dengan kira-kira 63.5 kilogram.",
+      "zh": "原始记录将参与者的体重记为十英石，约合六十三点五千克。",
+      "en": "The original record lists the participant's weight as 10 st, equivalent to approximately 63.5 kilograms."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat borang lama ni tertulis 10 st. Nak tukar ke kilogram macam mana?",
+      "ms_standard": "Pada borang lama ini tertulis 10 st. Bagaimanakah nilai itu hendak ditukar kepada kilogram?",
+      "zh": "这张旧表上写着十英石，要怎么换算成千克啊？",
+      "en": "This old form says 10 st. How do I convert that to kilograms?",
+      "spoken_features": [
+        "kat 在这里对应 pada",
+        "ni 对应 ini",
+        "nak 对应 hendak",
+        "macam mana 对应 bagaimana",
+        "st 是书写缩写，朗读时展开为 ston"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Kat borang lama ni tertulis 10 st. Nak tukar ke kilogram macam mana?",
+          "ms_standard": "Pada borang lama ini tertulis 10 st. Bagaimanakah nilai itu hendak ditukar kepada kilogram?",
+          "zh": "这张旧表上写着十英石，要怎么换算成千克啊？",
+          "en": "This old form says 10 st. How do I convert that to kilograms?"
+        },
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Darab je dengan 6.35. Jadi lebih kurang 63.5 kilogram lah.",
+          "ms_standard": "Darabkan sahaja dengan 6.35. Hasilnya ialah kira-kira 63.5 kilogram.",
+          "zh": "乘以六点三五就行，大概是六十三点五千克。",
+          "en": "Just multiply it by 6.35. That's about 63.5 kilograms."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The packet identifies st as a shortened written form of ston, the Malay name corresponding to English stone. Its story belongs to measurement vocabulary rather than affixation. A compact label beside a number preserves a unit from the British measurement tradition, so readers must recover the full unit before interpreting or converting the figure.",
+    "cognitive_memory_aid": "st → ston → stone → 英石；记住“一英石十四磅”，看到数字后的 st 就先想到重量单位。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "缩写本身没有敬语差异。向不熟悉英制单位的人说明时，先写完整名称 ston，并附千克换算值。",
+    "usage_etiquette": "适合解释旧记录、海外表格或单位换算。面向马来西亚一般读者的体重资料，使用千克更容易理解；谈论他人体重仍应尊重其隐私。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "缩写本身没有敬语差异。向不熟悉英制单位的人说明时，先写完整名称 ston，并附千克换算值。",
+    "usage_etiquette": "适合解释旧记录、海外表格或单位换算。面向马来西亚一般读者的体重资料，使用千克更容易理解；谈论他人体重仍应尊重其隐私。"
+  }
+}

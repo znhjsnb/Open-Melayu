@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "menunaikan",
+    "syllables": "me.nu.nai.kan",
+    "ipa": "/mə.nu.nai̯.kan/",
+    "jawi": "منونايکن",
+    "frequency_rank": 9800,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tunai",
+    "affix": "meN-...-kan",
+    "affix_type": "circumfix",
+    "formula": "meN- + tunai + -kan → menunaikan",
+    "pattern_note": "tunai 的词首 t 在 meN- 派生时脱落，鼻音实现为 n：men- + tunai → menunai-，再接 -kan。数据包把 menunaikan 标作词根有误；此处依据 DBP 的 tunai 词条校正。",
+    "word_family": [
+      {
+        "word": "tertunai",
+        "affix": "ter-",
+        "gloss": "已兑现；已履行"
+      },
+      {
+        "word": "penunaian",
+        "affix": "peN-...-an",
+        "gloss": "履行；兑现；兑付"
+      },
+      {
+        "word": "ditunaikan",
+        "affix": "di-...-kan",
+        "gloss": "被履行；被兑现"
+      }
+    ],
+    "root_jawi": "توناي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "以现金即时支付或清偿，而非赊欠或分期付款。",
+      "en_definition": "To pay or settle in cash rather than on credit or by instalments.",
+      "ms_definition": "Membayar atau melangsaikan sesuatu secara tunai tanpa berhutang atau mengansur.",
+      "nuances": "本义强调现金清偿。普通日常表达更常直接说 membayar；涉及清偿债务也可用 melangsaikan hutang。各义项据 DBP 整理，马来文释义已展开改写。依据：[DBP：tunai 与 menunaikan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tunai)。",
+      "collocations": [
+        {
+          "ms": "menunaikan hutang",
+          "zh": "以现金清偿债务",
+          "en": "to settle a debt in cash"
+        },
+        {
+          "ms": "menunaikan bayaran",
+          "zh": "付清款项",
+          "en": "to make payment in cash"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "履行职责或义务；执行命令；践行宗教规定。",
+      "en_definition": "To discharge a duty or obligation, carry out an instruction, or perform a religious observance.",
+      "ms_definition": "Melaksanakan tugas, kewajipan, perintah atau tuntutan agama.",
+      "nuances": "突出应当履行的责任，常见于宗教及正式语境。menunaikan haji 指履行朝觐功课，不能泛译为普通旅游。",
+      "collocations": [
+        {
+          "ms": "menunaikan tanggungjawab",
+          "zh": "履行责任",
+          "en": "to fulfil one's responsibilities"
+        },
+        {
+          "ms": "menunaikan ibadah haji",
+          "zh": "履行朝觐功课",
+          "en": "to perform the hajj"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "兑现承诺；满足愿望、请求或心愿。",
+      "en_definition": "To honour a promise or fulfil a wish or request.",
+      "ms_definition": "Memenuhi janji, hajat atau permintaan.",
+      "nuances": "重点是使先前的承诺或期待成为现实。menunaikan janji 强调兑现，不只是口头作出承诺。",
+      "collocations": [
+        {
+          "ms": "menunaikan janji",
+          "zh": "兑现承诺",
+          "en": "to keep a promise"
+        },
+        {
+          "ms": "menunaikan hajat",
+          "zh": "满足心愿",
+          "en": "to fulfil a wish"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "将支票、汇票等兑成现金。",
+      "en_definition": "To cash a cheque, money order, or similar payment instrument.",
+      "ms_definition": "Menukar cek, kiriman wang atau dokumen bayaran seumpamanya kepada wang tunai.",
+      "nuances": "指兑现取现；把支票存入账户应按实际操作使用 mendepositkan cek 等表达。",
+      "collocations": [
+        {
+          "ms": "menunaikan cek",
+          "zh": "兑现支票",
+          "en": "to cash a cheque"
+        },
+        {
+          "ms": "menunaikan kiriman wang",
+          "zh": "兑取汇款单",
+          "en": "to cash a money order"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场汇报",
+      "ms": "Pihak pengurusan telah menunaikan janji untuk membayar semua tunggakan gaji sebelum akhir bulan.",
+      "zh": "管理层已兑现承诺，在月底前支付了全部拖欠薪资。",
+      "en": "Management has honoured its promise to pay all salary arrears before the end of the month."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友相约",
+      "ms_spoken": "Aku nak menunaikan janji belanja kau makan hari ni. Kau free tak?",
+      "ms_standard": "Saya mahu menunaikan janji untuk membelanja kamu makan hari ini. Adakah kamu mempunyai masa lapang?",
+      "zh": "我今天想兑现请你吃饭的承诺。你有空吗？",
+      "en": "I want to make good on that meal I promised you. Are you free today?",
+      "spoken_features": [
+        "nak 对应 mahu",
+        "ni 对应 ini",
+        "free 为常见英语语码转换",
+        "tak 构成口语疑问；menunaikan 在此略带郑重或玩笑语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak menunaikan janji belanja kau makan hari ni. Kau free tak?",
+          "ms_standard": "Saya mahu menunaikan janji untuk membelanja kamu makan hari ini. Adakah kamu mempunyai masa lapang?",
+          "zh": "我今天想兑现请你吃饭的承诺。你有空吗？",
+          "en": "I want to make good on that meal I promised you. Are you free today?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Free je! Jumpa kat kedai biasa pukul tujuh, ya.",
+          "ms_standard": "Saya mempunyai masa lapang. Kita berjumpa di kedai yang biasa kita kunjungi pada pukul tujuh.",
+          "zh": "有空啊！七点在老地方见吧。",
+          "en": "Sure am! Let's meet at our usual place at seven."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tunai connects immediate payment with action carried out without postponement. Its derivative menunaikan appears in contexts as different as settling a debt, keeping a promise, cashing a cheque, and performing the hajj. Together, these uses offer a memorable cultural picture of commitments being completed. This semantic connection does not establish which meaning developed first.",
+    "cognitive_memory_aid": "先记 tunai“现金、即时落实”，再把 menunaikan 想成“让承诺或票据真正兑现”：承诺要兑现，支票也要兑现。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "语气端正，适用于履责、承诺和宗教事务。谈他人的宗教实践时保持尊重，不以是否履行为由随意评判对方。",
+    "usage_etiquette": "宗教搭配应准确翻译；日常小事使用本词可能显得郑重，也可在朋友间产生轻松的仪式感。aku、kau 适合熟人，正式场合宜用 saya 和适当称谓。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "语气端正，适用于履责、承诺和宗教事务。谈他人的宗教实践时保持尊重，不以是否履行为由随意评判对方。",
+    "usage_etiquette": "宗教搭配应准确翻译；日常小事使用本词可能显得郑重，也可在朋友间产生轻松的仪式感。aku、kau 适合熟人，正式场合宜用 saya 和适当称谓。"
+  }
+}
