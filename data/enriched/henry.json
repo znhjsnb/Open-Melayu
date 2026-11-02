@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "henry",
+    "syllables": "hen.ry",
+    "ipa": "/hen.ri/",
+    "jawi": null,
+    "frequency_rank": 1781,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "henry",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + henry → henry",
+    "pattern_note": "作为单位名称整词记忆，不拆为马来语词根和词缀。IPA 为马来语适应读法；英语人名 Henry 通常读 /ˈhɛn.ri/。词族中的 mili-、mikro- 是国际计量单位前缀。",
+    "word_family": [
+      {
+        "word": "milihenry",
+        "affix": "mili-",
+        "gloss": "毫亨；千分之一亨"
+      },
+      {
+        "word": "mikrohenry",
+        "affix": "mikro-",
+        "gloss": "微亨；百万分之一亨"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "亨利，简称亨；电感的国际单位制导出单位，符号为 H，1 H＝1 Wb/A。",
+      "en_definition": "The SI derived unit of inductance, symbol H, equal to one weber per ampere.",
+      "ms_definition": "Unit terbitan SI bagi induktans, berlambang H dan bersamaan dengan satu weber per ampere.",
+      "nuances": "这是 DBP 收录的技术术语。单位全称写小写 henry，符号写大写 H；不能仅凭词频推定其出现次数都属于物理义。马来语释义为整理转述。[DBP 术语资料](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=saat)；[BIPM 单位规范](https://www.bipm.org/en/committees/cg/cgpm/9-1948/resolution-7)",
+      "collocations": [
+        {
+          "ms": "induktans satu henry",
+          "zh": "一亨的电感",
+          "en": "an inductance of one henry"
+        },
+        {
+          "ms": "diukur dalam henry",
+          "zh": "以亨为单位测量",
+          "en": "measured in henries"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "亨利；英语男性名字，作为专名时写作 Henry。",
+      "en_definition": "Henry, a masculine English given name.",
+      "ms_definition": "Nama khas lelaki dalam bahasa Inggeris, ditulis dengan huruf awal besar: Henry.",
+      "nuances": "此义为专有名词；由于给定词性枚举没有 proper noun，暂归 noun。称呼具体人物时采用本人拼写与读音。以下是自然称谓组合，不是可由输入词频证明的高频搭配。[Henry 名字资料](https://www.behindthename.com/name/Henry)",
+      "collocations": [
+        {
+          "ms": "Encik Henry",
+          "zh": "亨利先生",
+          "en": "Mr Henry"
+        },
+        {
+          "ms": "bernama Henry",
+          "zh": "名叫亨利",
+          "en": "named Henry"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "实验室 / 电路测量报告",
+      "ms": "Induktans gegelung itu ialah 0.5 henry, bersamaan dengan 500 milihenry.",
+      "zh": "该线圈的电感为 0.5 亨，相当于 500 毫亨。",
+      "en": "The coil has an inductance of 0.5 henry, equivalent to 500 millihenries."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论电子实验",
+      "ms_spoken": "Gegelung ni satu henry ke? Aku nak semak label dulu.",
+      "ms_standard": "Adakah induktans gegelung ini satu henry? Saya mahu menyemak labelnya terlebih dahulu.",
+      "zh": "这线圈是一亨的吗？我想先看看标签。",
+      "en": "Is this a one-henry coil? I want to check the label first.",
+      "spoken_features": [
+        "ni 对应 ini，nak 对应 mahu",
+        "句末 ke 表示疑问",
+        "口语省略 induktans，但技术单位含义保持明确"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Gegelung ni satu henry ke?",
+          "ms_standard": "Adakah induktans gegelung ini satu henry?",
+          "zh": "这线圈是一亨的吗？",
+          "en": "Is this a one-henry coil?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Bukan, sepuluh milihenry je. Aku dah tengok label.",
+          "ms_standard": "Bukan, induktansnya hanya sepuluh milihenry. Saya sudah melihat labelnya.",
+          "zh": "不是，只有十毫亨。我看过标签了。",
+          "en": "No, it's only ten millihenries. I've checked the label."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The unit henry commemorates Joseph Henry, an American physicist known for work on electromagnetic induction. His surname became a common technical noun, creating a useful spelling distinction: Henry names the person, henry names the unit, and H is its symbol. Malay technical terminology preserves this international unit name. [NIST historical account](https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub77.pdf)",
+    "cognitive_memory_aid": "把 Henry 想成线圈旁的科学家：人名 Henry → 电感单位 henry → 符号 H。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单位本身没有礼貌等级。若指人，应遵循对方习惯使用 Henry、Encik Henry 或其职业称谓，不能从名字推断族群或宗教。",
+    "usage_etiquette": "物理、电子和工程语境使用单位义；人物叙述使用专名义。技术报告中注意数值与单位之间留空格，例如 1 H，并区分 H、mH 与 µH。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单位本身没有礼貌等级。若指人，应遵循对方习惯使用 Henry、Encik Henry 或其职业称谓，不能从名字推断族群或宗教。",
+    "usage_etiquette": "物理、电子和工程语境使用单位义；人物叙述使用专名义。技术报告中注意数值与单位之间留空格，例如 1 H，并区分 H、mH 与 µH。"
+  }
+}

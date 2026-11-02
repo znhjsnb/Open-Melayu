@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "de",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 1910,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "de",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + de → de",
+    "pattern_note": "沿用输入的独立字符串，尚未证实其语言或词根身份。独立 de 不应自动分析为前缀 de-，也不能自动改写为 di。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "在法语中表示来源、所属或其他关系的介词，可依语境译为“从”“的”等；这是输入字符串的一种可能解释。",
+      "en_definition": "In French, a preposition expressing origin, possession or other relationships, often corresponding to 'from' or 'of'.",
+      "ms_definition": "Dalam bahasa Perancis, de ialah kata sendi yang antara lain menyatakan asal atau hubungan pemilikan; tafsiran token ini masih belum disahkan.",
+      "nuances": "法语 de 常读 /də/。它可随完整外语名称或短语出现，但不能作为马来语 dari、daripada 或 di 的通用替代词。下列为含 de 的法语名称或词组，不是已验证的马来语高频搭配。",
+      "collocations": [
+        {
+          "ms": "Tour de France",
+          "zh": "环法自行车赛",
+          "en": "the Tour de France"
+        },
+        {
+          "ms": "eau de toilette",
+          "zh": "淡香水",
+          "en": "eau de toilette"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻说明；按外语名称成分解读的自拟例句",
+      "ms": "Laporan itu membincangkan strategi pasukan dalam perlumbaan Tour de France.",
+      "zh": "该报道讨论了车队在环法自行车赛中的策略。",
+      "en": "The report discusses the team's strategy in the Tour de France."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论体育；de 保留在赛事名称中",
+      "ms_spoken": "Kau nak tengok Tour de France malam ni?",
+      "ms_standard": "Adakah kamu mahu menonton Tour de France malam ini?",
+      "zh": "你今晚想看环法吗？",
+      "en": "Want to watch the Tour de France tonight?",
+      "spoken_features": [
+        "kau 为熟人之间的非正式称呼。",
+        "nak 相当于 mahu；ni 相当于 ini。",
+        "de 属于完整外语名称，不是这里的马来语口语缩略词。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau nak tengok Tour de France malam ni?",
+          "ms_standard": "Adakah kamu mahu menonton Tour de France malam ini?",
+          "zh": "你今晚想看环法吗？",
+          "en": "Want to watch the Tour de France tonight?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nak, aku tengok kat rumah je.",
+          "ms_standard": "Ya, saya mahu menontonnya di rumah sahaja.",
+          "zh": "想啊，我就在家看。",
+          "en": "Yes, I'll just watch it at home."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "French de continues a Latin preposition associated with separation and origin. Its modern French functions include expressing source and relationships between nouns. It can appear inside international names and expressions that readers encounter in Malay texts. This history explains one possible reading, but the isolated spelling could belong to another language or represent a context-dependent abbreviation.",
+    "cognitive_memory_aid": "若确认为法语，可把 de 想成连接两个名词的小桥，常联系“的／从”；这不是马来语 di 的变体规则。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "该法语介词本身没有特殊冒犯性；出现在人名或机构名称中时，应尊重其完整拼写及大小写。",
+    "usage_etiquette": "保留外语专名中的 de。普通马来语句子应按语法选用相应介词，不宜模仿外语结构随意插入 de。"
+  },
+  "validation": {
+    "classification": "unresolved_token_with_provisional_French_interpretation",
+    "official_malay_status_verified": false,
+    "definition_provenance": "马来语释义为对法语义项的编辑性说明，不是 DBP 官方马来语词条释义。",
+    "missing_data": [
+      "原始句子及来源语言",
+      "是否为专名成分、缩写或非标准拼写",
+      "经核实的马来语词条、音节及爪夷文"
+    ],
+    "packet_handling": "保留输入排名及 is_root；未将未识别字符串确认为马来语词根。",
+    "sources": [
+      "[Cambridge French–English Dictionary: de — 法语词类、读音及主要义项](https://dictionary.cambridge.org/dictionary/french-english/de)",
+      "[Etymonline: de — 拉丁语及法语历史来源](https://www.etymonline.com/word/de)"
+    ]
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "该法语介词本身没有特殊冒犯性；出现在人名或机构名称中时，应尊重其完整拼写及大小写。",
+    "usage_etiquette": "保留外语专名中的 de。普通马来语句子应按语法选用相应介词，不宜模仿外语结构随意插入 de。"
+  }
+}

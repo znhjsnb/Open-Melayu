@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "diketahui",
+    "syllables": null,
+    "ipa": "/di.kə.ta.hu.i/",
+    "jawi": null,
+    "frequency_rank": 1940,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tahu",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + ketahui → diketahui（底层词根：tahu；主动对应形式：mengetahui）",
+    "pattern_note": "此处标注直接构词层的被动前缀 di-；ketahui 本身属于 tahu 的派生词族，含 -i。di- 与词干连写，保留 ketahui 的 k；不要把 ke-…-i 当作可自由套用的普通环缀。输入包将 diketahui 判为词根有误。DBP 明确指出 mengetahui 的词根是 tahu，并说明 ketahui 的被动用法。[DBP 构词说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mengetahui)。",
+    "word_family": [
+      {
+        "word": "tahu",
+        "affix": "∅",
+        "gloss": "知道；懂得"
+      },
+      {
+        "word": "mengetahui",
+        "affix": "meN-…-i（词汇化形式）",
+        "gloss": "知道；获悉；了解"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被知道；为某人或某群体所知。",
+      "en_definition": "To be known to someone or to a group.",
+      "ms_definition": "Berada dalam pengetahuan seseorang atau sesuatu pihak.",
+      "nuances": "mengetahui 的被动形式，以被知道的事情为叙述中心；本身不标记过去时。为人熟悉通常用 dikenali，出名通常用 terkenal，不能一概替换。马来语释义为依据 DBP 相关释义编写的说明，并非官方逐字引文。[DBP：mengetahui](https://prpm.dbp.gov.my/cari1?d=175768&keyword=mengetahui)。",
+      "collocations": [
+        {
+          "ms": "diketahui umum",
+          "zh": "众所周知",
+          "en": "generally known"
+        },
+        {
+          "ms": "diketahui oleh pihak berkuasa",
+          "zh": "为有关当局所知",
+          "en": "known to the authorities"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被查明；经观察、调查或获知信息而确定。",
+      "en_definition": "To be discovered or ascertained through observation, inquiry, or information.",
+      "ms_definition": "Dapat dipastikan atau disedari setelah memperoleh maklumat, bukti atau pengalaman.",
+      "nuances": "常用于说明原因、身份或结果是否已经查明。belum diketahui 表示尚未得知，不等于无法得知。此义对应 mengetahui 中通过证据认识、发现或意识到的用法。[DBP：mengetahui](https://prpm.dbp.gov.my/cari1?d=175768&keyword=mengetahui)。",
+      "collocations": [
+        {
+          "ms": "punca belum diketahui",
+          "zh": "原因尚未查明",
+          "en": "the cause remains unknown"
+        },
+        {
+          "ms": "hanya diketahui kemudian",
+          "zh": "直到后来才被发现",
+          "en": "discovered only later"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 调查进展汇报",
+      "ms": "Punca kejadian itu masih belum diketahui, dan siasatan sedang dijalankan.",
+      "zh": "事件原因仍未查明，调查正在进行。",
+      "en": "The cause of the incident remains unknown, and an investigation is under way."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论系统故障",
+      "ms_spoken": "Punca masalah tu belum diketahui lagi. Kita tunggu je dulu.",
+      "ms_standard": "Punca masalah itu masih belum diketahui. Kita tunggu dahulu.",
+      "zh": "问题原因还没查出来，咱们先等等吧。",
+      "en": "They still haven't found the cause. Let's wait for now.",
+      "spoken_features": [
+        "tu 对应 itu",
+        "je 对应 sahaja",
+        "belum…lagi 是自然口语中的尚未表达",
+        "diketahui 可保留在讨论工作信息的口语中"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Punca masalah tu dah diketahui ke?",
+          "ms_standard": "Adakah punca masalah itu sudah diketahui?",
+          "zh": "问题原因已经查出来了吗？",
+          "en": "Have they found the cause yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum lagi. Pasukan teknikal tengah semak, kita tunggu je dulu.",
+          "ms_standard": "Masih belum. Pasukan teknikal sedang membuat semakan; kita tunggu dahulu.",
+          "zh": "还没呢，技术团队正在查，咱们先等等吧。",
+          "en": "Not yet. The technical team is checking, so let's wait for now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diketahui belongs to the Malay tahu family. Its relationship with mengetahui illustrates how Malay shifts attention from the person who knows to the information that is known. DBP identifies tahu as the underlying root and distinguishes active mengetahui from passive ketahui constructions. This grammatical relationship explains the word without inventing a separate root or an undocumented borrowing history.",
+    "cognitive_memory_aid": "tahu＝知道；看到 di- 就把镜头转向信息：事情 diketahui＝事情被知道了。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "belum diketahui 适合中性、审慎地汇报未知情况；若确实不知道，可直接说 Saya tidak tahu，或较正式地说 Saya belum mendapat maklumat tersebut。",
+    "usage_etiquette": "新闻、公文和调查报告中很自然。涉及责任时，最好交代谁尚未掌握信息，避免被动句使责任主体含糊。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "belum diketahui 适合中性、审慎地汇报未知情况；若确实不知道，可直接说 Saya tidak tahu，或较正式地说 Saya belum mendapat maklumat tersebut。",
+    "usage_etiquette": "新闻、公文和调查报告中很自然。涉及责任时，最好交代谁尚未掌握信息，避免被动句使责任主体含糊。"
+  }
+}

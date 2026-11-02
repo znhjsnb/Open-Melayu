@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "wells",
+    "syllables": null,
+    "ipa": "/wɛlz/",
+    "jawi": null,
+    "frequency_rank": 1943,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": null,
+    "root_word": "wells",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "若为英语普通词：well + -s → wells；若为专名 Wells：∅ + Wells → Wells",
+    "pattern_note": "原句缺失，无法确定是英语名词复数、动词第三人称单数，还是专名；因此不能沿用输入包中确定性的 is_root=true。root_word 暂保留输入形式；普通词分析下的词根为 well。英语 -s 在此读 /z/。affix_type=none 仅表示未确认马来语词缀，不否认英语词尾 -s。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "若为英语普通名词：well 的复数，指多口水井、油井或气井。",
+      "en_definition": "The plural of the English noun well: excavations or boreholes providing access to water, oil, or gas.",
+      "ms_definition": "Bentuk jamak kata nama bahasa Inggeris well, yang merujuk kepada telaga atau lubang gerudi untuk mendapatkan air, minyak atau gas.",
+      "nuances": "英语复数词尾 -s 不能当作马来语复数规则。马来语按语境使用 telaga、beberapa telaga 或 telaga-telaga。下列为标准马来语对应搭配。[Cambridge：well](https://dictionary.cambridge.org/dictionary/english/well)。",
+      "collocations": [
+        {
+          "ms": "telaga air",
+          "zh": "水井",
+          "en": "water wells"
+        },
+        {
+          "ms": "telaga minyak",
+          "zh": "油井",
+          "en": "oil wells"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "若为英语动词：well 的第三人称单数现在时，指液体涌出，或情绪涌上心头。",
+      "en_definition": "The third-person singular present form of well: rises or flows out, literally or figuratively.",
+      "ms_definition": "Bentuk kata kerja bahasa Inggeris well bagi subjek orang ketiga tunggal dalam kala kini, dengan maksud mengalir keluar, membuak atau timbul dengan kuat.",
+      "nuances": "常与 up 连用；必须由原句主语和结构判断，不能把所有 wells 都译成井。下列为马来语对应表达。[Cambridge：well 的动词义](https://dictionary.cambridge.org/dictionary/english/well)。",
+      "collocations": [
+        {
+          "ms": "air membuak keluar",
+          "zh": "水涌出来",
+          "en": "water wells up"
+        },
+        {
+          "ms": "kemarahan meluap dalam dirinya",
+          "zh": "怒火涌上心头",
+          "en": "anger wells up inside"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "若为专名 Wells：可为姓氏或地名，具体所指须结合上下文确定。",
+      "en_definition": "If capitalized as Wells, a surname or place name whose referent depends on context.",
+      "ms_definition": "Jika ditulis sebagai Wells, nama keluarga atau nama tempat yang rujukannya ditentukan oleh konteks.",
+      "nuances": "专名 Wells 不作 well + -s 的同步词缀分析，也不自动翻译为 telaga。下列为姓名使用框架，不是经过语料统计的高频搭配。",
+      "collocations": [
+        {
+          "ms": "Encik Wells",
+          "zh": "Wells 先生",
+          "en": "Mr Wells"
+        },
+        {
+          "ms": "keluarga Wells",
+          "zh": "Wells 一家",
+          "en": "the Wells family"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "翻译审校 / 资料核实",
+      "ms": "Makna bentuk 'wells' hendaklah ditentukan melalui konteks kerana bentuk itu boleh menjadi kata nama jamak, kata kerja atau nama khas dalam bahasa Inggeris.",
+      "zh": "wells 的含义须根据上下文确定，因为它可能是英语复数名词、动词形式或专名。",
+      "en": "The meaning of 'wells' must be established from context because it may be an English plural noun, verb form, or proper name."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友核对翻译",
+      "ms_spoken": "Dalam ayat ni, 'wells' tu maksudnya telaga ke?",
+      "ms_standard": "Dalam ayat ini, adakah 'wells' bermaksud telaga?",
+      "zh": "这句里的 wells 是指井吗？",
+      "en": "Does 'wells' mean wells in the ground in this sentence?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "tu 对应 itu",
+        "ke 用作口语疑问标记",
+        "引用英语词讨论翻译"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dalam ayat ni, 'wells' tu maksudnya telaga ke?",
+          "ms_standard": "Dalam ayat ini, adakah 'wells' bermaksud telaga?",
+          "zh": "这句里的 wells 是指井吗？",
+          "en": "Does 'wells' refer to wells in the ground here?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Hantar ayat penuh dulu. Nak pastikan maksudnya, kena tengok konteks.",
+          "ms_standard": "Hantar ayat penuh terlebih dahulu. Untuk memastikan maksudnya, kita perlu melihat konteks.",
+          "zh": "先把完整句子发来，要看上下文才能确定意思。",
+          "en": "Send the full sentence first. We need the context to be sure."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English well names a source reached through a hole in the ground, including modern water, oil, and gas wells. The verb describes liquid rising and extends figuratively to rising emotion. Wells may also be a proper name. These different uses explain the spelling's ambiguity; they do not establish one etymology for the unidentified corpus token.",
+    "cognitive_memory_aid": "先看句子：数口井用 wells；液体涌出也可能用 wells；姓名 Wells 则整词保留。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "若 Wells 是姓氏，应按本人的称呼习惯保留；正式称呼可使用适当称谓，如 Encik Wells。",
+    "usage_etiquette": "马来语正文表达井应使用 telaga；引用英语 wells 时保留引号或适当格式。仅凭词频排名不能判断它属于标准马来语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "若 Wells 是姓氏，应按本人的称呼习惯保留；正式称呼可使用适当称谓，如 Encik Wells。",
+    "usage_etiquette": "马来语正文表达井应使用 telaga；引用英语 wells 时保留引号或适当格式。仅凭词频排名不能判断它属于标准马来语。"
+  }
+}

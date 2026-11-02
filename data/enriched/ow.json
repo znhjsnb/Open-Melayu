@@ -1,0 +1,91 @@
+{
+  "headword": {
+    "word": "ow",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 1946,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ow",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ow → ow（暂作不可拆分字符串）",
+    "pattern_note": "输入没有释义、读音或上下文，无法确定其马来语词项身份；若实际为英语疼痛感叹词，则英语读音为 /aʊ/。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "【条件性释义】若为英语感叹词，表示突然疼痛时发出的“哎哟”；尚不能确认这是输入语料中 ow 的实际含义。",
+      "en_definition": "Conditionally, the English exclamation expressing sudden pain; its intended meaning in the supplied token remains unverified.",
+      "ms_definition": "Jika bentuk ini ialah kata seru bahasa Inggeris, bentuk ini menyatakan rasa sakit secara tiba-tiba dan boleh dipadankan dengan aduh; maksud token asal belum dapat dipastikan.",
+      "nuances": "不能据此将 ow 标为正式马来语词条。英语疼痛感叹词义及 /aʊ/ 读音可见 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/ow)，但英语词条不能证明原始 token 的身份。pos 暂用给定枚举中的 particle 容纳感叹功能，实际类别是 interjection。以下搭配为条件性混语示例，未经语料频率验证；正式情境采用引用说明。不能自动把 ow 当作 oh、马来语感叹词、姓氏或缩写。",
+      "collocations": [
+        {
+          "ms": "ow, sakitnya!",
+          "zh": "哎哟，好痛！（条件性混语示例）",
+          "en": "Ow, that hurts!"
+        },
+        {
+          "ms": "ow, kaki aku!",
+          "zh": "哎哟，我的脚！（条件性混语示例）",
+          "en": "Ow, my foot!"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；引用说明",
+      "ms": "Bentuk 'ow' dikekalkan dalam petikan asal, tetapi maksudnya perlu disahkan berdasarkan konteks.",
+      "zh": "引文保留原有形式 ow，但其含义仍须结合上下文核实。",
+      "en": "The form 'ow' is retained in the original quotation, but its meaning requires contextual verification."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；假设为英语感叹词的混语示例",
+      "ms_spoken": "Ow, kaki aku terlanggar meja tadi!",
+      "ms_standard": "Aduh, kaki saya terlanggar meja tadi!",
+      "zh": "哎哟，我的脚刚才撞到桌子了！",
+      "en": "Ow, I just banged my foot on the table!",
+      "spoken_features": [
+        "ow 在本示例中明确假设为英语感叹词；标准马来语对应 aduh。",
+        "aku 是熟人之间的非正式第一人称；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ow, kaki aku terlanggar meja tadi!",
+          "ms_standard": "Aduh, kaki saya terlanggar meja tadi!",
+          "zh": "哎哟，我的脚刚才撞到桌子了！",
+          "en": "Ow, I just banged my foot on the table!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah kurang sakit ke?",
+          "ms_standard": "Adakah rasa sakit itu sudah berkurang?",
+          "zh": "现在没那么痛了吧？",
+          "en": "Is it hurting less now?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English ow is a natural exclamation representing a cry of pain. That English history does not establish a Malay origin or prove what this isolated corpus token means. Without its surrounding sentence, the form must remain unresolved. The example dialogue illustrates only the explicitly conditional interpretation as an English exclamation.",
+    "cognitive_memory_aid": "仅在英语感叹词解释成立时，把 /aʊ/ 连到突然撞痛时的“哎哟”；标准马来语对应 aduh。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "疼痛感叹通常不涉及尊卑，但混语习惯取决于交谈对象；面向广泛马来语读者可用 aduh。",
+    "usage_etiquette": "在原句未核实前保留 unverified，不发布为 official。示例不构成 ow 已被马来西亚标准马来语收录或经常使用的证据。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "疼痛感叹通常不涉及尊卑，但混语习惯取决于交谈对象；面向广泛马来语读者可用 aduh。",
+    "usage_etiquette": "在原句未核实前保留 unverified，不发布为 official。示例不构成 ow 已被马来西亚标准马来语收录或经常使用的证据。"
+  }
+}

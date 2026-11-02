@@ -1,0 +1,102 @@
+{
+  "headword": {
+    "word": "hong",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 1771,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hong",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hong → hong",
+    "pattern_note": "这里只保留输入的未分析形式；不能据此认定 hong 是马来语构词词根。专名中的 Hong 不按马来语词缀拆分。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "可出现在专有名称中的拼写成分，如地名 Hong Kong。单独的 hong 在本数据包中的具体身份和意义尚无法确定。",
+      "en_definition": "A spelling found in proper names, including Hong Kong; the isolated token's intended reference is unresolved.",
+      "ms_definition": "Unsur ejaan yang terdapat dalam nama khas seperti Hong Kong; rujukan dan makna token hong secara bersendirian belum dapat dipastikan daripada data yang diberikan.",
+      "nuances": "此处 noun 仅表示已举证的专名用法，不确认独立普通名词义。Hong Kong 是完整地名，不能把其中 Hong 单独释为“香港”。也不能仅凭 Hong 推定个人姓名的汉字、方言来源或声调。所列短语均使用完整地名。",
+      "collocations": [
+        {
+          "ms": "ke Hong Kong",
+          "zh": "前往香港",
+          "en": "to Hong Kong"
+        },
+        {
+          "ms": "dari Hong Kong",
+          "zh": "来自香港",
+          "en": "from Hong Kong"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报；展示完整地名的用法",
+      "ms": "Syarikat itu akan menghantar wakil ke Hong Kong untuk menghadiri pameran perdagangan.",
+      "zh": "该公司将派代表前往香港参加贸易展览。",
+      "en": "The company will send a representative to Hong Kong to attend a trade exhibition."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论行程；展示完整地名的用法",
+      "ms_spoken": "Aku nak pergi Hong Kong minggu depan.",
+      "ms_standard": "Saya hendak pergi ke Hong Kong pada minggu hadapan.",
+      "zh": "我下星期想去香港。",
+      "en": "I want to go to Hong Kong next week.",
+      "spoken_features": [
+        "nak 对应 hendak。",
+        "口语中 pergi 后可省略标准句中的 ke。",
+        "Hong Kong 保留完整地名及大写形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau nak pergi Hong Kong minggu depan ke?",
+          "ms_standard": "Adakah awak hendak pergi ke Hong Kong pada minggu hadapan?",
+          "zh": "你下星期想去香港啊？",
+          "en": "Are you planning to go to Hong Kong next week?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, tiket dah beli. Pergi tiga hari je.",
+          "ms_standard": "Ya, saya sudah membeli tiket. Saya akan pergi selama tiga hari sahaja.",
+          "zh": "对，票买好了。就去三天。",
+          "en": "Yes, I've bought the tickets. I'm only going for three days."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP reference results show Hong inside proper names, including Hong Kong and business names. These occurrences illustrate why corpus tokens require context: one spelling may be only part of a larger name. They do not establish an independent Malay meaning or a single etymology for the isolated lowercase token supplied here.",
+    "cognitive_memory_aid": "看到 hong，先找完整名称：Hong Kong 才是“香港”；孤立的 hong 不宜直接配上汉字或词义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "若 Hong 属于个人姓名，应采用本人确认的拼写和称呼方式，不自行猜测其中文姓名。",
+    "usage_etiquette": "地名使用完整形式 Hong Kong。若原语料涉及人名、商号或其他语言词汇，需要依上下文另行辨义。"
+  },
+  "verification": {
+    "status_note": "已核实专名中的出现；尚未确定输入 token 的实际词义，因此不标为 official。",
+    "definition_note": "这是有证据边界的暂定说明，并非 DBP 对独立词目 hong 的官方释义。",
+    "sources": [
+      "[DBP PRPM：hong 检索中的词典例句](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hong)",
+      "[DBP PRPM：含 Hong 的名称与语言咨询记录](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hong)"
+    ],
+    "examples_note": "例句和对话为完整地名 Hong Kong 的教学示例，不能证明输入 token 原本指该地名。",
+    "rank_note": "排名照录输入；可能受专名分词影响，但未取得原始语料验证。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "若 Hong 属于个人姓名，应采用本人确认的拼写和称呼方式，不自行猜测其中文姓名。",
+    "usage_etiquette": "地名使用完整形式 Hong Kong。若原语料涉及人名、商号或其他语言词汇，需要依上下文另行辨义。"
+  }
+}
