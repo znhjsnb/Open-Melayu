@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "syukur",
+    "syllables": "syu.kur",
+    "ipa": "/ʃu.kur/",
+    "jawi": "شکور",
+    "frequency_rank": 6549,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "syukur",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + syukur → syukur",
+    "pattern_note": "sy 表示单个辅音 /ʃ/。派生词 bersyukur 保留完整词根；mensyukuri 中 sy 也保留，不变为 ny。词尾 /r/ 的实际实现随口音而异。",
+    "word_family": [
+      {
+        "word": "bersyukur",
+        "affix": "ber-",
+        "gloss": "感恩；心怀感谢"
+      },
+      {
+        "word": "mensyukuri",
+        "affix": "meN-…-i",
+        "gloss": "感念、感谢所获恩惠"
+      },
+      {
+        "word": "kesyukuran",
+        "affix": "ke-…-an",
+        "gloss": "感恩之情"
+      }
+    ],
+    "root_jawi": "شکور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "感恩；对所获恩惠、福祉或平安怀有的感谢，尤其指对上天的感谢。",
+      "en_definition": "Gratitude or thankfulness for blessings or benefits received, especially towards God.",
+      "ms_definition": "Rasa terima kasih atas nikmat atau kurniaan yang diterima, khususnya kepada Tuhan.",
+      "nuances": "重在感念恩惠，常有宗教或精神层面的意味。日常直接感谢别人时，terima kasih 更常用。马来语释义依据 DBP 义项整理，并非逐字引文。[DBP：syukur](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=syukur)",
+      "collocations": [
+        {
+          "ms": "mengucapkan syukur",
+          "zh": "表达感恩",
+          "en": "express gratitude"
+        },
+        {
+          "ms": "tanda syukur",
+          "zh": "感恩的表示",
+          "en": "a token of gratitude"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "谢天谢地；幸好；用于表达事情顺利或避过不幸后的感恩与庆幸。",
+      "en_definition": "An exclamation expressing gratitude or relief that something has turned out well.",
+      "ms_definition": "Seruan yang menyatakan rasa terima kasih atau lega kerana sesuatu yang baik berlaku atau keburukan dapat dielakkan.",
+      "nuances": "实际词类为感叹词 kata seru；因给定词类枚举没有 interjection，归入 particle。可独立说 Syukur!，也常接庆幸的具体事情。[DBP：syukur](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=syukur)",
+      "collocations": [
+        {
+          "ms": "syukur alhamdulillah",
+          "zh": "感谢真主，谢天谢地",
+          "en": "thank God; praise be to Allah"
+        },
+        {
+          "ms": "syukur semuanya selamat",
+          "zh": "谢天谢地，大家都平安",
+          "en": "thank goodness everyone is safe"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "有幸的；幸运的；因获得好结果或难得的机会而感到庆幸的。",
+      "en_definition": "Fortunate or blessed, especially in feeling thankful for a favourable outcome or opportunity.",
+      "ms_definition": "Beruntung, mujur atau bertuah kerana memperoleh sesuatu yang baik.",
+      "nuances": "对应 DBP 所列 beruntung、mujur、bertuah 义，常见于 berasa syukur。并非任何表示幸运的地方都可用 syukur 直接替换 bertuah；作一般谓语时，bersyukur 往往更自然。[DBP：syukur](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=syukur)",
+      "collocations": [
+        {
+          "ms": "berasa syukur dapat bertemu",
+          "zh": "庆幸能够见面",
+          "en": "feel fortunate to be able to meet"
+        },
+        {
+          "ms": "berasa syukur masih diberi peluang",
+          "zh": "庆幸仍有机会",
+          "en": "feel blessed to still have an opportunity"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 救援工作汇报",
+      "ms": "Ketua pasukan mengucapkan syukur kerana semua mangsa berjaya diselamatkan.",
+      "zh": "队长对所有受困者均获救表达了感恩之情。",
+      "en": "The team leader expressed gratitude that all the victims had been rescued."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 报平安",
+      "ms_spoken": "Syukur, kau dah sampai rumah dengan selamat.",
+      "ms_standard": "Syukur, kamu sudah tiba di rumah dengan selamat.",
+      "zh": "谢天谢地，你已经平安到家了。",
+      "en": "Thank goodness you got home safely.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "kau 用于关系亲近的同辈之间。",
+        "口语常用 sampai rumah；标准表达可用 tiba di rumah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai rumah. Hujan lebat betul tadi.",
+          "ms_standard": "Saya sudah tiba di rumah. Hujan sangat lebat tadi.",
+          "zh": "我已经到家了，刚才雨真的很大。",
+          "en": "I'm home now. It was pouring earlier."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Syukur, kau dah selamat sampai. Rehatlah dulu.",
+          "ms_standard": "Syukur, kamu sudah tiba dengan selamat. Berehatlah dahulu.",
+          "zh": "谢天谢地，平安到了就好。先休息吧。",
+          "en": "Thank goodness you made it home safely. Get some rest."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Syukur belongs to Malay's Arabic-derived vocabulary of gratitude. Arabic shukr denotes thankfulness, a concept prominent in Islamic religious language. In Malay, the borrowed base supports local formations such as bersyukur and kesyukuran. Its everyday force ranges from acknowledging divine blessings to expressing relief when someone arrives safely, linking religious vocabulary with ordinary expressions of care. [Arabic root reference](https://corpus.quran.com/qurandictionary.jsp?q=%24kr)",
+    "cognitive_memory_aid": "sy 发英语 sh 的音：轻轻说 syu-kur，联想到松一口气后的“谢天谢地”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "syukur 常带感恩上天的意味。直接感谢他人的帮助时，使用 Terima kasih 更明确；syukur alhamdulillah 则具有明确的伊斯兰表达色彩。",
+    "usage_etiquette": "适合报平安、庆祝好消息及表达感恩。面对他人的损失或痛苦，应先表示关怀；避免用庆幸语气淡化对方处境，也不要用 Kurang bersyukur 来随意指责别人。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "syukur 常带感恩上天的意味。直接感谢他人的帮助时，使用 Terima kasih 更明确；syukur alhamdulillah 则具有明确的伊斯兰表达色彩。",
+    "usage_etiquette": "适合报平安、庆祝好消息及表达感恩。面对他人的损失或痛苦，应先表示关怀；避免用庆幸语气淡化对方处境，也不要用 Kurang bersyukur 来随意指责别人。"
+  }
+}

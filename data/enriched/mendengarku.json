@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "mendengarku",
+    "syllables": null,
+    "ipa": "/məndəŋarku/",
+    "jawi": "مندڠر",
+    "frequency_rank": 6536,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mendengar",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "mendengar + -ku → mendengarku；内部结构：meN- + dengar → mendengar",
+    "pattern_note": "-ku 是后附代词，表示宾语“我”，严格说属于附着语，而非派生后缀；此处依字段分类归入 suffix。meN- 在 d 前实现为 men-，保留 d。数据包的 root_word 是直接基底 mendengar，最终词根为 dengar；所给 Jawi 仅对应 mendengar，未包含 -ku。",
+    "word_family": [
+      {
+        "word": "pendengar",
+        "affix": "peN-",
+        "gloss": "听众；收听者"
+      },
+      {
+        "word": "pendengaran",
+        "affix": "peN-...-an",
+        "gloss": "听觉；听力"
+      },
+      {
+        "word": "memperdengarkan",
+        "affix": "memper-...-kan",
+        "gloss": "播放；使人听见"
+      }
+    ],
+    "root_jawi": "مندڠر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "听见我的声音或我说的话。",
+      "en_definition": "To hear me or hear what I am saying.",
+      "ms_definition": "Menangkap suara atau kata-kata aku melalui pendengaran.",
+      "nuances": "强调声音是否被听见，不必然表示理解或接受意见。-ku 在这里是宾语，不能译成“我听”。释义根据 DBP 的 mendengar 义项结合 -ku 编写，并非 DBP 对整个词形的独立原文释义。[DBP：dengar](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=dengar)",
+      "collocations": [
+        {
+          "ms": "dapat mendengarku",
+          "zh": "能够听见我",
+          "en": "be able to hear me"
+        },
+        {
+          "ms": "tidak mendengarku",
+          "zh": "没有听见我",
+          "en": "not hear me"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "认真听我说；听取或听从我的话。",
+      "en_definition": "To listen to me or heed what I say.",
+      "ms_definition": "Memberikan perhatian kepada kata-kata aku atau mengikut nasihat dan permintaanku.",
+      "nuances": "是否进一步表示“听从”，取决于上下文。整个词形带有亲密或文学色彩；马来西亚日常口语更常说 dengar aku cakap，正式场合宜说 mendengar penjelasan saya。与“得知消息”有关的其他 mendengar 义项，不应直接全部套用于这个带人称宾语的词形。",
+      "collocations": [
+        {
+          "ms": "mahu mendengarku",
+          "zh": "愿意听我说",
+          "en": "be willing to listen to me"
+        },
+        {
+          "ms": "enggan mendengarku",
+          "zh": "不肯听我的话",
+          "en": "refuse to listen to me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 当事人直接引语",
+      "ms": "Dalam wawancara itu, penyanyi tersebut berkata, \"Saya berharap masyarakat sudi mendengarku sebelum membuat penilaian.\"",
+      "zh": "在那次采访中，这名歌手说：“我希望公众愿意先听我说，再作评价。”",
+      "en": "In the interview, the singer said, \"I hope the public will hear me out before passing judgment.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈论歌词",
+      "ms_spoken": "Ayat 'kau tak mendengarku' ni macam lirik lagu je.",
+      "ms_standard": "Ayat 'kau tidak mendengarku' ini kedengaran seperti lirik lagu.",
+      "zh": "“你不听我说”这句话，听着就像歌词。",
+      "en": "That line, 'you don't listen to me,' sounds like a song lyric.",
+      "spoken_features": [
+        "tak 对应 tidak",
+        "ni 对应 ini",
+        "macam 对应 seperti",
+        "je 对应 sahaja；此处加强随口评论的语气",
+        "目标词用于引用歌词式表达；普通聊天更常用 dengar aku cakap"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ayat 'kau tak mendengarku' ni macam lirik lagu je.",
+          "ms_standard": "Ayat 'kau tidak mendengarku' ini kedengaran seperti lirik lagu.",
+          "zh": "“你不听我说”这句，听着就像歌词。",
+          "en": "That line, 'you don't listen to me,' sounds like a song lyric."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, kalau sembang biasa aku cakap 'dengar aku dulu' je.",
+          "ms_standard": "Ya, dalam perbualan biasa saya hanya mengatakan 'dengar dahulu apa yang saya hendak katakan'.",
+          "zh": "对啊，平时聊天我就说“先听我说”。",
+          "en": "Yeah, in everyday conversation I'd just say, 'Hear me out first.'"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mendengarku is a grammatical combination rather than an unrelated dictionary root: mendengar supplies the action, while the attached pronoun -ku identifies the speaker as its object. Its compact shape suits personal narration and lyrical expression. The crucial contrast is positional: ku- before a verb can identify its agent, whereas -ku here means the person being heard. [DBP on attached pronouns](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=singkat)",
+    "cognitive_memory_aid": "抓住词尾 -ku＝我：mendengar 是“听”，mendengarku 就是“听我”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 对应 aku，适合亲密关系、内心独白及文学表达。向客户、长辈或陌生人解释事情时，使用 saya 通常更稳妥。",
+    "usage_etiquette": "请求别人听完时，可说 Boleh dengar penjelasan saya dahulu?；直接要求别人听从自己，容易带出命令或责备语气。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 对应 aku，适合亲密关系、内心独白及文学表达。向客户、长辈或陌生人解释事情时，使用 saya 通常更稳妥。",
+    "usage_etiquette": "请求别人听完时，可说 Boleh dengar penjelasan saya dahulu?；直接要求别人听从自己，容易带出命令或责备语气。"
+  }
+}

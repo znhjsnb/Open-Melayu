@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "suluh",
+    "syllables": "su.luh",
+    "ipa": "/ˈsu.luh/",
+    "jawi": "سولوه",
+    "frequency_rank": 6588,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "suluh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + suluh → suluh",
+    "pattern_note": "词根本身不发生音变；加 meN- 或 peN- 时，词首 s 被鼻音 ny /ɲ/ 替代：menyuluh、penyuluh。",
+    "word_family": [
+      {
+        "word": "menyuluh",
+        "affix": "meN-",
+        "gloss": "用灯照射；探查"
+      },
+      {
+        "word": "bersuluh",
+        "affix": "ber-",
+        "gloss": "借助火把或灯光照明"
+      },
+      {
+        "word": "penyuluh",
+        "affix": "peN-",
+        "gloss": "引导者；旧指密探"
+      },
+      {
+        "word": "penyuluhan",
+        "affix": "peN-...-an",
+        "gloss": "照明、探查或启导的行为"
+      }
+    ],
+    "root_jawi": "سولوه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用于照明的火把、火炬等；在 lampu suluh 中指手电筒。",
+      "en_definition": "A torch or other implement used for illumination; in lampu suluh, a flashlight.",
+      "ms_definition": "Sesuatu yang digunakan untuk menerangi; jamung atau obor.",
+      "nuances": "现代日常用语以 lampu suluh 最常见。单独的 suluh 容易让人联想到传统火把。释义据 [DBP PRPM：suluh](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=suluh)。",
+      "collocations": [
+        {
+          "ms": "lampu suluh",
+          "zh": "手电筒",
+          "en": "flashlight"
+        },
+        {
+          "ms": "cahaya suluh",
+          "zh": "火把的光",
+          "en": "torchlight"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "暗中搜集秘密或情报的人；密探、间谍。",
+      "en_definition": "A spy or secret agent who gathers confidential information.",
+      "ms_definition": "Orang yang mencari rahsia; mata-mata gelap, pengintip atau perisik.",
+      "nuances": "DBP 将此义标为 sl，即旧文学用语。现代报道通常使用 perisik 或 pengintip。以下为旧义的示例组合，不代表现代高频搭配。",
+      "collocations": [
+        {
+          "ms": "suluh musuh",
+          "zh": "敌方密探",
+          "en": "an enemy spy"
+        },
+        {
+          "ms": "menjadi suluh",
+          "zh": "充当密探",
+          "en": "to act as a spy"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "用手电筒等照射某处；常见于口语或祈使句。",
+      "en_definition": "To shine a light on something, especially in speech or an imperative.",
+      "ms_definition": "Menerangi sesuatu dengan suluh atau lampu; bentuk berimbuhan ialah menyuluh.",
+      "nuances": "如 Suluh sini 表示“照这里”。这是词根用于祈使句或口语的形式；正式陈述通常用 menyuluh。本义的马来文解释为编者依据派生词释义整理。",
+      "collocations": [
+        {
+          "ms": "suluh ke sini",
+          "zh": "往这里照",
+          "en": "shine the light over here"
+        },
+        {
+          "ms": "suluh ke bawah",
+          "zh": "往下照",
+          "en": "shine the light downward"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelamat menggunakan lampu suluh untuk memeriksa kawasan yang gelap.",
+      "zh": "救援队使用手电筒检查昏暗区域。",
+      "en": "The rescue team used flashlights to inspect the dark area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Suluh kat bawah meja tu jap, kunci aku jatuh.",
+      "ms_standard": "Tolong suluh di bawah meja itu sebentar kerana kunci saya terjatuh.",
+      "zh": "帮忙照一下桌子底下，我钥匙掉了。",
+      "en": "Shine the light under that table for a second. I dropped my keys.",
+      "spoken_features": [
+        "kat 对应标准语的 di",
+        "tu 是 itu 的口语缩略形式",
+        "jap 是 sekejap 的口语缩略形式",
+        "aku 适用于熟人之间"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kunci aku jatuh kat bawah meja. Suluh sini jap.",
+          "ms_standard": "Kunci saya terjatuh di bawah meja. Tolong suluh di sini sebentar.",
+          "zh": "我钥匙掉桌子底下了，帮忙照一下这里。",
+          "en": "I dropped my keys under the table. Shine the light here for a second."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ha, dah nampak! Kat tepi kaki meja je.",
+          "ms_standard": "Ya, saya sudah nampak kunci itu. Kunci itu berada di sebelah kaki meja sahaja.",
+          "zh": "啊，看到了！就在桌脚旁边。",
+          "en": "There they are! Right next to the table leg."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary preserves a small history of lighting: suluh can be a burning bundle of dry coconut leaves, while lampu suluh names a battery-powered flashlight. Its older spy sense adds another connection: bringing hidden information to light. These documented meanings support a useful cultural narrative, although they do not establish the word’s ultimate origin.",
+    "cognitive_memory_aid": "su.luh →“速露”：灯光一扫，藏在黑暗里的东西迅速显露；这是记忆联想，并非词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人之间可说 Suluh sini jap；面对陌生人、长辈或同事，用 Tolong suluh di sini sebentar 更客气。",
+    "usage_etiquette": "lampu suluh 适用于日常、救援和工作场景。表示密探的 suluh 带旧文学色彩，不宜当作现代中性职业称谓。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人之间可说 Suluh sini jap；面对陌生人、长辈或同事，用 Tolong suluh di sini sebentar 更客气。",
+    "usage_etiquette": "lampu suluh 适用于日常、救援和工作场景。表示密探的 suluh 带旧文学色彩，不宜当作现代中性职业称谓。"
+  }
+}

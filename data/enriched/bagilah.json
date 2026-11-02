@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "bagilah",
+    "syllables": null,
+    "ipa": "/baɡilah/",
+    "jawi": "باݢي",
+    "frequency_rank": 6586,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bagi",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "bagi + -lah（语气附着词）→ bagilah",
+    "pattern_note": "-lah 与前词连写，但不是派生词缀；连接时词干没有音变。headword.jawi 严格保留数据包的 باݢي，该值仅拼出 bagi，未包含 -lah，不能视作 bagilah 的完整爪夷拼写。词族以下采用动词 bagi；不把介词义“为了”直接套入本词。",
+    "word_family": [
+      {
+        "word": "membagi",
+        "affix": "meN-",
+        "gloss": "给予；使某人获得"
+      },
+      {
+        "word": "membagikan",
+        "affix": "meN-…-kan",
+        "gloss": "交给；分发"
+      }
+    ],
+    "root_jawi": "باݢي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "给吧；给一下；用来请求、劝说或催促对方交出或给予某物。",
+      "en_definition": "Give or hand something over, with a particle expressing encouragement, appeal, or insistence.",
+      "ms_definition": "Berilah atau serahkanlah sesuatu kepada seseorang; bentuk bagi yang disertai partikel penegas -lah.",
+      "nuances": "常用于会话。-lah 可使请求显得亲近，也可能因语调而加强催促，并不自动等于“请”。bagi 的动词义及派生形式参见 [DBP：bagi](https://prpm.dbp.gov.my/Cari1?d=274404&keyword=bagi)；-lah 不构成派生词的说明参见 [DBP：partikel](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel)。",
+      "collocations": [
+        {
+          "ms": "bagilah saya peluang",
+          "zh": "给我一个机会吧",
+          "en": "give me a chance"
+        },
+        {
+          "ms": "bagilah sedikit masa",
+          "zh": "给一点时间吧",
+          "en": "allow a little time"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "让……吧；准许……吧；在口语中请求允许某人做某事。",
+      "en_definition": "Let or allow someone to do something, especially in a conversational request.",
+      "ms_definition": "Benarkanlah seseorang melakukan sesuatu, khususnya dalam bahasa percakapan.",
+      "nuances": "常见结构为 bagilah + 人 + 动作，例如 bagilah saya cuba。正式文本通常改用 benarkanlah 或 berilah peluang，避免与交付物品的意思混淆。",
+      "collocations": [
+        {
+          "ms": "bagilah saya cuba",
+          "zh": "让我试试吧",
+          "en": "let me try"
+        },
+        {
+          "ms": "bagilah dia berehat",
+          "zh": "让他休息一下吧",
+          "en": "let him rest"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；正式表达采用 berilah",
+      "ms": "Berilah semua peserta peluang untuk mengemukakan pandangan sebelum keputusan dibuat.",
+      "zh": "请在作出决定前，让所有参与者都有机会表达意见。",
+      "en": "Give all participants an opportunity to express their views before a decision is made."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bagilah aku masa sikit, aku nak semak dulu.",
+      "ms_standard": "Berilah saya sedikit masa kerana saya hendak menyemaknya dahulu.",
+      "zh": "给我一点时间嘛，我想先检查一下。",
+      "en": "Give me a moment; I want to check it first.",
+      "spoken_features": [
+        "bagilah 是动词 bagi 加语气附着词 -lah。",
+        "sikit 相当于 sedikit。",
+        "nak 相当于 hendak；aku 适合熟悉的同辈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Bagilah aku masa sikit, aku nak semak dulu.",
+          "ms_standard": "Berilah saya sedikit masa kerana saya hendak menyemaknya dahulu.",
+          "zh": "给我一点时间嘛，我想先检查一下。",
+          "en": "Give me a moment; I want to check it first."
+        },
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Boleh, hantar kat aku bila dah siap je.",
+          "ms_standard": "Baiklah, hantarkannya kepada saya apabila sudah siap.",
+          "zh": "行，弄好了再发给我就好。",
+          "en": "Sure, just send it to me when it's ready."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bagilah shows how Malay builds conversational meaning without creating a new dictionary root. The verb bagi carries the action of giving, while attached -lah adds emphasis or an interpersonal appeal. DBP distinguishes this particle from derivational affixes. Its effect depends on context and delivery: the same request can sound encouraging, pleading, or impatient. See [DBP's explanation of particles](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel).",
+    "cognitive_memory_aid": "ba-gi-lah：bagi“给”后接 lah“吧”；记成“给一下吧”，再用语调判断是请求还是催促。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友间 Bagilah… 很自然；向长辈、客户或不熟悉的人提出请求时，Boleh berikan…? 通常更稳妥。",
+    "usage_etiquette": "不要把 -lah 当成万能礼貌标记。重复催促或加重语气，可能使原本简单的请求显得不耐烦。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友间 Bagilah… 很自然；向长辈、客户或不熟悉的人提出请求时，Boleh berikan…? 通常更稳妥。",
+    "usage_etiquette": "不要把 -lah 当成万能礼貌标记。重复催促或加重语气，可能使原本简单的请求显得不耐烦。"
+  }
+}
