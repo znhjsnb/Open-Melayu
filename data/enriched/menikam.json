@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "menikam",
+    "syllables": "me.ni.kam",
+    "ipa": "/mə.ni.kam/",
+    "jawi": "منيکم",
+    "frequency_rank": 5783,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tikam",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + tikam → menikam",
+    "pattern_note": "词根首音 t 在 meN- 后脱落，前缀取 men-，形成 menikam。输入将完整词目误判为词根；这里依据 [DBP tikam](https://prpm.dbp.gov.my/Cari1?keyword=tikam) 的派生关系校正为 tikam，包括赌博义。",
+    "word_family": [
+      {
+        "word": "tikaman",
+        "affix": "-an",
+        "gloss": "刺击；刺伤；赌注（依义项）"
+      },
+      {
+        "word": "penikam",
+        "affix": "peN-",
+        "gloss": "行刺者；刺击用具"
+      },
+      {
+        "word": "menikamkan",
+        "affix": "meN-…-kan",
+        "gloss": "把尖锐武器刺入"
+      }
+    ],
+    "root_jawi": "تيکم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "在赌博中下注，或购买彩票。",
+      "en_definition": "To stake money in gambling or buy lottery tickets.",
+      "ms_definition": "Mempertaruhkan wang dalam perjudian atau membeli tiket loteri.",
+      "nuances": "保留输入所对应的赌博义。常见于 menikam nombor、menikam ekor 等表达；并非普通的“猜测”。同一拼写也有刺击等义，须结合宾语判断。参见 [DBP menikam](https://prpm.dbp.gov.my/cari1?keyword=menikam)。",
+      "collocations": [
+        {
+          "ms": "menikam nombor",
+          "zh": "投注号码彩票",
+          "en": "bet on lottery numbers"
+        },
+        {
+          "ms": "menikam ekor",
+          "zh": "投注字票或尾数彩票",
+          "en": "bet on lottery number endings"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用刀、马来短剑等尖锐武器刺入、刺伤。",
+      "en_definition": "To stab or wound with a pointed weapon.",
+      "ms_definition": "Menusuk, mencucuk atau melukai dengan senjata tajam seperti pisau atau keris.",
+      "nuances": "强调尖端刺入的动作；不同于通常表示砍劈的 menetak，或表示切割的 memotong。menikam dengan pisau 表示用刀刺；menikamkan pisau 则以刀为被刺入的物体。",
+      "collocations": [
+        {
+          "ms": "menikam mangsa",
+          "zh": "刺伤受害者",
+          "en": "stab the victim"
+        },
+        {
+          "ms": "menikam dengan pisau",
+          "zh": "用刀刺",
+          "en": "stab with a knife"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "形容寒冷、声音或其他感受强烈穿透身体，产生刺入般的感觉。",
+      "en_definition": "To pierce or penetrate with a sharp physical sensation.",
+      "ms_definition": "Memberikan kesan yang kuat seolah-olah menusuk masuk ke dalam tubuh atau organ deria.",
+      "nuances": "多为描写性或文学性用法，不一定涉及实际创伤。例如寒风“刺骨”、声音“刺耳”。",
+      "collocations": [
+        {
+          "ms": "angin menikam tulang",
+          "zh": "寒风刺骨",
+          "en": "wind cutting to the bone"
+        },
+        {
+          "ms": "bunyi menikam telinga",
+          "zh": "刺耳的声音",
+          "en": "a sound piercing the ears"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "比喻深深伤害感情；在 menikam dari belakang 中表示暗中背叛。",
+      "en_definition": "To hurt emotionally; in menikam dari belakang, to betray someone.",
+      "ms_definition": "Menyakiti atau menyinggung perasaan secara mendalam; dalam ungkapan menikam dari belakang, mengkhianati seseorang secara tersembunyi.",
+      "nuances": "menikam hati 强调情感受伤；menikam dari belakang 强调背叛。两者都带强烈负面评价。",
+      "collocations": [
+        {
+          "ms": "menikam hati",
+          "zh": "刺痛内心",
+          "en": "pierce the heart emotionally"
+        },
+        {
+          "ms": "menikam dari belakang",
+          "zh": "背后捅刀；暗中背叛",
+          "en": "stab someone in the back"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan kajian itu merekodkan penggunaan istilah menikam nombor untuk merujuk kepada kegiatan membeli tiket loteri.",
+      "zh": "该研究报告记录了 menikam nombor 这一表达，用来指购买彩票的活动。",
+      "en": "The study recorded the expression menikam nombor as referring to buying lottery tickets."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dia dah berhenti menikam nombor, sekarang nak simpan duit je.",
+      "ms_standard": "Dia sudah berhenti membeli tiket loteri dan sekarang hanya mahu menyimpan wang.",
+      "zh": "他已经不买字票了，现在只想存钱。",
+      "en": "He's stopped buying lottery tickets and just wants to save money now.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "nak 对应 mahu",
+        "je 对应 sahaja",
+        "duit 是日常常用词，正式语境也可用 wang"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Abang kau masih menikam nombor lagi ke?",
+          "ms_standard": "Adakah abang awak masih membeli tiket loteri?",
+          "zh": "你哥哥还在买字票吗？",
+          "en": "Does your brother still buy lottery tickets?"
+        },
+        {
+          "speaker": "Wei Ming (朋友)",
+          "ms_spoken": "Tak, dia dah berhenti. Sekarang dia nak simpan duit je.",
+          "ms_standard": "Tidak, dia sudah berhenti. Sekarang dia hanya mahu menyimpan wang.",
+          "zh": "没了，他已经不买了。现在他只想存钱。",
+          "en": "No, he's stopped. He just wants to save money now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP distinguishes tikam entries associated with stabbing and gambling, and both produce menikam. The spelling therefore carries separate dictionary senses that context must resolve: a weapon suggests stabbing, while lottery numbers suggest wagering. Figurative expressions also make emotional pain feel like a physical wound. Their coexistence does not establish that gambling historically developed from stabbing. See [DBP](https://prpm.dbp.gov.my/cari1?keyword=menikam).",
+    "cognitive_memory_aid": "meN- 遇 tikam，t 脱落成为 menikam；再看搭配：pisau 是“刺”，nombor 是“投注号码”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "赌博义涉及个人敏感话题，不宜据此猜测他人的习惯。menikam dari belakang 是严重的背叛指控，职场交流中须慎用。",
+    "usage_etiquette": "新闻或叙述中可中性描述刺伤与投注行为；直接对人说要 menikam 对方会被理解为暴力威胁，不能当作普通玩笑。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "赌博义涉及个人敏感话题，不宜据此猜测他人的习惯。menikam dari belakang 是严重的背叛指控，职场交流中须慎用。",
+    "usage_etiquette": "新闻或叙述中可中性描述刺伤与投注行为；直接对人说要 menikam 对方会被理解为暴力威胁，不能当作普通玩笑。"
+  }
+}

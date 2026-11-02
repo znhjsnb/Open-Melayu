@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "senjatamu",
+    "syllables": null,
+    "ipa": "/sən.dʒa.ta.mu/",
+    "jawi": "سنجات",
+    "frequency_rank": 5821,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "senjata",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "senjata + -mu → senjatamu",
+    "pattern_note": "-mu 是表示第二人称领属的后附代词，严格说属于附着语素；此处按字段归为 suffix。直接连写，词干辅音不变。输入包未提供音节划分，故保留 null；其 jawi 字段实际是词干 senjata 的拼写，完整形式应为 سنجاتامو。",
+    "word_family": [
+      {
+        "word": "bersenjata",
+        "affix": "ber-",
+        "gloss": "携带武器；武装的"
+      },
+      {
+        "word": "persenjataan",
+        "affix": "per-...-an",
+        "gloss": "武器装备；军备"
+      }
+    ],
+    "root_jawi": "سنجات"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的武器；属于或配给对方、用于战斗或攻防的器具。",
+      "en_definition": "Your weapon or weapons: implements used for fighting, attack, or defense.",
+      "ms_definition": "Senjata milik kamu, iaitu alat yang digunakan untuk berperang atau berkelahi, seperti keris, lembing atau senapang.",
+      "nuances": "这是 senjata 加领属附着语素 -mu 的组合义，并非独立词根。单复数依语境决定；-mu 在这里表示“你的”。输入包的 DBP 定义对应词干 senjata。后附代词须连写，参见 [DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "meletakkan senjatamu",
+          "zh": "放下你的武器",
+          "en": "lay down your weapon"
+        },
+        {
+          "ms": "menyimpan senjatamu",
+          "zh": "收好你的武器",
+          "en": "put away your weapon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你用来达成目标、应对挑战或争取优势的手段、本领或有利条件。",
+      "en_definition": "Your figurative weapon: a skill, resource, or means used to achieve an aim or gain an advantage.",
+      "ms_definition": "Sesuatu yang kamu gunakan sebagai alat atau cara untuk mencapai sesuatu maksud.",
+      "nuances": "比喻义可用于知识、论据、创造力等，不必带有暴力含义。-mu 常使表达带有直接劝勉、亲近或文学色彩。以下是自然的组合表达，不代表 senjatamu 本身具有独立统计的高频搭配。",
+      "collocations": [
+        {
+          "ms": "ilmu sebagai senjatamu",
+          "zh": "知识作为你的利器",
+          "en": "knowledge as your weapon"
+        },
+        {
+          "ms": "kreativiti sebagai senjatamu",
+          "zh": "创造力作为你的制胜本领",
+          "en": "creativity as your competitive edge"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：毕业典礼正式致辞",
+      "ms": "Dalam menghadapi cabaran masa hadapan, jadikan ilmu sebagai senjatamu untuk membina kehidupan yang lebih baik.",
+      "zh": "面对未来的挑战，要以知识为你的利器，创造更好的生活。",
+      "en": "As you face future challenges, make knowledge your weapon for building a better life."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：朋友讨论电子游戏",
+      "ms_spoken": "Senjatamu dalam game tu dah rosak ke?",
+      "ms_standard": "Adakah senjatamu dalam permainan itu sudah rosak?",
+      "zh": "你在那个游戏里的武器已经坏了吗？",
+      "en": "Has your weapon in that game broken already?",
+      "spoken_features": [
+        "game 是口语中常见的英语借用，对应 permainan。",
+        "tu、dah 分别对应 itu、sudah；句末 ke 表示疑问。",
+        "senjatamu 在此是配合游戏语境的戏剧化说法；一般闲聊更常说 senjata kau 或 senjata awak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Senjatamu dalam game tu dah rosak ke?",
+          "ms_standard": "Adakah senjatamu dalam permainan itu sudah rosak?",
+          "zh": "你在那个游戏里的武器已经坏了吗？",
+          "en": "Has your weapon in that game broken already?"
+        },
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Belum lah, peluru je dah habis. Aku nak cari lagi.",
+          "ms_standard": "Belum, cuma pelurunya sudah habis. Saya hendak mencari peluru lagi.",
+          "zh": "还没啦，只是子弹用完了。我想再找一些。",
+          "en": "Not yet—I'm just out of ammo. I'm going to look for more."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Senjatamu combines senjata with the possessive clitic -mu. Historical lexicographers connected senjata with Sanskrit vocabulary concerning equipment and readiness; Maxwell's Malay manual records this association. The modern form adds no new weapon type: it simply identifies the possessor. Figurative usage then turns knowledge, arguments, or personal strengths into someone's metaphorical weapons. See [Maxwell's manual](https://www.gutenberg.org/cache/epub/25604/pg25604-images.html).",
+    "cognitive_memory_aid": "先记 senjata＝武器，再把 -mu 接到后面：senjata＋mu＝你的武器；把最后的 mu 当成“归你”的标签。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 可显得亲近、文学化，也可能显得居高临下。面对不熟悉的人或上级，通常使用 senjata anda、senjata tuan 或 senjata puan。",
+    "usage_etiquette": "字面义适合军事叙述、历史、游戏等明确语境；比喻义适合演讲和鼓励。日常对人使用时应让语境清楚，避免被理解为实际威胁。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 可显得亲近、文学化，也可能显得居高临下。面对不熟悉的人或上级，通常使用 senjata anda、senjata tuan 或 senjata puan。",
+    "usage_etiquette": "字面义适合军事叙述、历史、游戏等明确语境；比喻义适合演讲和鼓励。日常对人使用时应让语境清楚，避免被理解为实际威胁。"
+  }
+}

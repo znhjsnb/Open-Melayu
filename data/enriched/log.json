@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "log",
+    "syllables": "log",
+    "ipa": "/loɡ/",
+    "jawi": "لوݢ",
+    "frequency_rank": 5810,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "log",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + log → log",
+    "pattern_note": "单音节整词借入；相关派生词可使用 menge-、penge- 等形式。按输入保留 Jawi 字符串，其中 U+0081 是异常控制字符，不参与读写；去除后为 لوݢ。",
+    "word_family": [
+      {
+        "word": "mengelog",
+        "affix": "menge-",
+        "gloss": "记录日志"
+      },
+      {
+        "word": "pengelogan",
+        "affix": "penge-...-an",
+        "gloss": "日志记录；数据记录过程"
+      }
+    ],
+    "root_jawi": "لوݢ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "日志；记录簿；用于系统记载活动、运行情况、维修事项等资料的簿册。",
+      "en_definition": "A logbook used to keep systematic records of activities, operations, maintenance, or other details.",
+      "ms_definition": "Buku catatan untuk merekodkan maklumat tentang kegiatan, operasi atau penyenggaraan sesuatu secara teratur.",
+      "nuances": "常以 buku log 出现，重在持续、可查阅的记录，并不限于私人日记。输入对应的是这一记录义；英语表示原木的 log 在马来语中通常用 balak。释义依据：[DBP：log](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=log)。",
+      "collocations": [
+        {
+          "ms": "buku log",
+          "zh": "日志簿",
+          "en": "logbook"
+        },
+        {
+          "ms": "log penyenggaraan kenderaan",
+          "zh": "车辆维修保养日志",
+          "en": "vehicle maintenance log"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "计算机日志；由系统或程序保存的事件、操作、错误等电子记录。",
+      "en_definition": "An electronic record of events, operations, or errors maintained by a computer system or application.",
+      "ms_definition": "Rekod elektronik yang menyimpan maklumat tentang peristiwa, operasi atau ralat dalam sistem atau aplikasi komputer.",
+      "nuances": "这是记录义在信息技术中的专门用法。log 指记录本身，pengelogan 指生成或保存这些记录的过程。数学符号 log 则表示 logaritma，应按数学语境理解。技术用法参见：[DBP：pengelogan 与 fail log](https://prpm.dbp.gov.my/Cari1?d=155028&keyword=merekodkan)。",
+      "collocations": [
+        {
+          "ms": "fail log",
+          "zh": "日志文件",
+          "en": "log file"
+        },
+        {
+          "ms": "log ralat",
+          "zh": "错误日志",
+          "en": "error log"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua kerja penyenggaraan hendaklah dicatatkan dalam buku log kenderaan.",
+      "zh": "所有维修保养工作均须记入车辆日志簿。",
+      "en": "All maintenance work must be recorded in the vehicle logbook."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Awak dah isi buku log kat pejabat tadi ke?",
+      "ms_standard": "Adakah awak sudah mengisi buku log di pejabat tadi?",
+      "zh": "你刚才在办公室填好日志簿了吗？",
+      "en": "Did you fill in the logbook at the office earlier?",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "kat 对应地点介词 di。",
+        "句末 ke 表示询问。",
+        "口语中 isi 可代替较完整的 mengisi。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Awak dah isi buku log kat pejabat tadi ke?",
+          "ms_standard": "Adakah awak sudah mengisi buku log di pejabat tadi?",
+          "zh": "你刚才在办公室填好日志簿了吗？",
+          "en": "Did you fill in the logbook at the office earlier?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, tinggal tandatangan penyelia je.",
+          "ms_standard": "Sudah, hanya tandatangan penyelia yang masih diperlukan.",
+          "zh": "填好了，就差主管签名。",
+          "en": "Yes, it just needs the supervisor's signature."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay log belongs to the English record-keeping vocabulary. Its maritime background offers a memorable connection: sailors measured speed using a wooden device called a log, then recorded navigational information for later reference. Historical deck records preserve that association between measurement and written evidence. Today's maintenance books and computer logs continue the broader practice of keeping an inspectable account. [Royal Museums Greenwich](https://www.rmg.co.uk/collections/objects/rmgc-object-43180)",
+    "cognitive_memory_aid": "把 log 和熟悉的 logbook 连着记：事情做过就留下可查的记录；纸上是 buku log，电脑里是 fail log。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性记录用语。提醒同事填写日志时，可用 Tolong lengkapkan buku log 或 Boleh semak catatan log ini?，并说明需要补充的内容。",
+    "usage_etiquette": "适用于车辆管理、实习记录、设备维护及信息技术工作。buku log 强调记录簿，fail log 强调电子文件；应根据实际载体和工作场景选择表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性记录用语。提醒同事填写日志时，可用 Tolong lengkapkan buku log 或 Boleh semak catatan log ini?，并说明需要补充的内容。",
+    "usage_etiquette": "适用于车辆管理、实习记录、设备维护及信息技术工作。buku log 强调记录簿，fail log 强调电子文件；应根据实际载体和工作场景选择表达。"
+  }
+}

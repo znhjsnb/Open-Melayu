@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "menjanjikan",
+    "syllables": "men.jan.ji.kan",
+    "ipa": "/mən.dʒan.dʒi.kan/",
+    "jawi": "منجنجيکن",
+    "frequency_rank": 5797,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "janjikan",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + janjikan → menjanjikan; janji + -kan → janjikan",
+    "pattern_note": "依输入包保留 janjikan 为直接词干；最终词根是 janji，完整构词为 meN- + janji + -kan。meN- 在 j 前实现为 men-，j 保留。root_jawi 按要求在缺值时回退为全词 Jawi，不能将该回退值误认作直接词干的拼写。",
+    "word_family": [
+      {
+        "word": "janji",
+        "affix": "∅",
+        "gloss": "承诺；约定"
+      },
+      {
+        "word": "berjanji",
+        "affix": "ber-",
+        "gloss": "许诺；作出承诺"
+      },
+      {
+        "word": "perjanjian",
+        "affix": "per-...-an",
+        "gloss": "协议；契约"
+      },
+      {
+        "word": "dijanjikan",
+        "affix": "di-...-kan",
+        "gloss": "被承诺给予的"
+      }
+    ],
+    "root_jawi": "منجنجيکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "承诺给予某物、提供某种待遇或做某事。",
+      "en_definition": "To promise to give, provide, or do something.",
+      "ms_definition": "Berjanji untuk memberi atau membuat sesuatu.",
+      "nuances": "及物用法，宾语可为 hadiah、bantuan 等所承诺的事物；接受者通常由 kepada 引出。与 berjanji 相比，menjanjikan 更突出承诺的具体内容。[DBP 释义](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=menjanjikan)",
+      "collocations": [
+        {
+          "ms": "menjanjikan hadiah",
+          "zh": "承诺给予奖励",
+          "en": "promise a reward"
+        },
+        {
+          "ms": "menjanjikan bantuan",
+          "zh": "承诺提供援助",
+          "en": "promise assistance"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "显示某种结果有望出现；带来希望或发展可能性。",
+      "en_definition": "To offer the prospect or expectation of something; to hold promise.",
+      "ms_definition": "Memberikan jangkaan atau harapan akan berlakunya sesuatu; membuka kemungkinan kepada sesuatu.",
+      "nuances": "主语常是项目、机会、表现或发展条件，并不一定有人作出承诺。前景乐观不等于结果已有保证。yang menjanjikan 可译为“有前景的”，但不另立为保证成功的意思。[DBP 释义](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=menjanjikan)",
+      "collocations": [
+        {
+          "ms": "menjanjikan pulangan lumayan",
+          "zh": "有望带来丰厚回报",
+          "en": "offer the prospect of substantial returns"
+        },
+        {
+          "ms": "menjanjikan masa depan yang cerah",
+          "zh": "预示光明的前景",
+          "en": "hold the promise of a bright future"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Projek pembangunan itu menjanjikan peluang pekerjaan baharu kepada penduduk setempat.",
+      "zh": "该发展项目有望为当地居民带来新的就业机会。",
+      "en": "The development project offers the prospect of new jobs for local residents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tawaran kerja ni nampak menjanjikan, tapi aku nak baca kontrak dulu lah.",
+      "ms_standard": "Tawaran kerja ini kelihatan menjanjikan, tetapi saya mahu membaca kontraknya terlebih dahulu.",
+      "zh": "这份工作邀约看着挺有前景，不过我想先看看合同。",
+      "en": "This job offer looks promising, but I want to read the contract first.",
+      "spoken_features": [
+        "ni 对应 ini。",
+        "aku 用于熟人之间的非正式自称。",
+        "nak 对应 mahu 或 hendak。",
+        "句末 lah 调整语气；标准表达可省略。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tawaran kerja ni nampak menjanjikan, tapi aku nak baca kontrak dulu lah.",
+          "ms_standard": "Tawaran kerja ini kelihatan menjanjikan, tetapi saya mahu membaca kontraknya terlebih dahulu.",
+          "zh": "这份工作邀约看着挺有前景，不过我想先看看合同。",
+          "en": "This job offer looks promising, but I want to read the contract first."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Betul tu. Diorang dah menjanjikan bonus ke, atau kau agak je?",
+          "ms_standard": "Betul. Adakah mereka sudah menjanjikan bonus, atau kamu hanya membuat andaian?",
+          "zh": "对啊。他们已经答应给奖金了吗，还是你自己猜的？",
+          "en": "Exactly. Have they actually promised a bonus, or are you just assuming?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menjanjikan illustrates how Malay builds new meanings around janji, a promise or agreement. Affixation directs attention toward what is promised. The same verb also expresses an encouraging prospect: a project can menjanjikan opportunities without literally speaking. This pairing connects interpersonal commitment with anticipation, explaining why the word appears naturally in both personal assurances and development reporting. [DBP](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=menjanjikan)",
+    "cognitive_memory_aid": "先记 janji＝承诺：人 menjanjikan hadiah，是“答应给奖励”；项目 menjanjikan peluang，是“带来机会的希望”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "职场中说 Saya menjanjikan… 会被理解为作出明确承诺。尚未确定时，可用 Saya akan cuba…（我会尽力）表达实际把握。",
+    "usage_etiquette": "评价机会时，nampak menjanjikan 表示“看来有前景”。转述他人的承诺应明确承诺者与承诺内容，避免把个人期待说成对方已经答应。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "职场中说 Saya menjanjikan… 会被理解为作出明确承诺。尚未确定时，可用 Saya akan cuba…（我会尽力）表达实际把握。",
+    "usage_etiquette": "评价机会时，nampak menjanjikan 表示“看来有前景”。转述他人的承诺应明确承诺者与承诺内容，避免把个人期待说成对方已经答应。"
+  }
+}

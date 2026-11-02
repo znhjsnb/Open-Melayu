@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "kendalikan",
+    "syllables": "ken.da.li.kan",
+    "ipa": "/kən.da.li.kan/",
+    "jawi": "کندالي",
+    "frequency_rank": 5777,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kendali",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "kendali + -kan → kendalikan",
+    "pattern_note": "直接加 -kan，词根不变。常用于祈使句或第一、第二人称被动结构；主动陈述通常用 mengendalikan，其中 meN- 使词根首音 k 脱落。输入 jawi 为词根拼写；完整 kendalikan 拼作 کنداليکن。",
+    "word_family": [
+      {
+        "word": "mengendalikan",
+        "affix": "meN-…-kan",
+        "gloss": "管理；操控"
+      },
+      {
+        "word": "pengendali",
+        "affix": "peN-",
+        "gloss": "管理者；操作员"
+      },
+      {
+        "word": "pengendalian",
+        "affix": "peN-…-an",
+        "gloss": "管理；操作过程"
+      }
+    ],
+    "root_jawi": "کندالي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "负责组织、管理或操作，使事务、活动或设备正常运行。",
+      "en_definition": "To manage, conduct, handle, or operate something.",
+      "ms_definition": "Mengurus, mentadbir atau mengawal perjalanan sesuatu urusan, kegiatan atau peralatan.",
+      "nuances": "强调承担实际管理或操作责任。kendalikan 常用于指令，如 Kendalikan mesyuarat ini；陈述某人的行为通常用 mengendalikan。义项依据 [DBP kendali](https://prpm.dbp.gov.my/Cari1?d=150324&keyword=kendali)，马来文释义为规范化改写。",
+      "collocations": [
+        {
+          "ms": "kendalikan mesyuarat",
+          "zh": "主持会议",
+          "en": "conduct the meeting"
+        },
+        {
+          "ms": "kendalikan mesin",
+          "zh": "操作机器",
+          "en": "operate the machine"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "控制或约束情绪、欲望、局势等，使其不致失控。",
+      "en_definition": "To control or restrain emotions, impulses, or a situation.",
+      "ms_definition": "Mengekang, menahan atau menguasai perasaan, dorongan atau keadaan supaya tidak melampaui batas.",
+      "nuances": "可用于自我约束或局势控制；对正在激动的人直接说 Kendalikan emosi awak 可能显得责备，应注意语气。",
+      "collocations": [
+        {
+          "ms": "kendalikan emosi",
+          "zh": "控制情绪",
+          "en": "control your emotions"
+        },
+        {
+          "ms": "kendalikan keadaan",
+          "zh": "控制局势",
+          "en": "bring the situation under control"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "给马等装上辔具或缰绳，以便驾驭。",
+      "en_definition": "To fit a horse or similar animal with a bridle.",
+      "ms_definition": "Memasang atau mengenakan kendali pada kuda atau haiwan tunggangan.",
+      "nuances": "这是与词根“辔具、缰绳”直接相关的具体义；现代一般交流中不如管理、控制义常见。",
+      "collocations": [
+        {
+          "ms": "kendalikan kuda",
+          "zh": "给马装上辔具",
+          "en": "bridle the horse"
+        },
+        {
+          "ms": "kendalikan kuda tunggangan",
+          "zh": "给坐骑装上辔具",
+          "en": "bridle the riding horse"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila kendalikan mesyuarat esok mengikut agenda yang telah diluluskan.",
+      "zh": "请按照已获批准的议程主持明天的会议。",
+      "en": "Please conduct tomorrow's meeting according to the approved agenda."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau kendalikan sesi tu dulu, aku nak ambil projektor kat pejabat.",
+      "ms_standard": "Awak kendalikan sesi itu dahulu; saya hendak mengambil projektor di pejabat.",
+      "zh": "你先主持那一场，我去办公室拿投影机。",
+      "en": "You run that session first; I'll get the projector from the office.",
+      "spoken_features": [
+        "kau、aku 用于熟人之间",
+        "tu 是 itu 的口语形式",
+        "nak 对应 hendak",
+        "kat 对应 di"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Amir, kau kendalikan sesi tu dulu, ya? Aku nak ambil projektor kat pejabat.",
+          "ms_standard": "Amir, tolong kendalikan sesi itu dahulu. Saya hendak mengambil projektor di pejabat.",
+          "zh": "Amir，你先主持那一场啊，我去办公室拿投影机。",
+          "en": "Amir, could you run that session first? I'll get the projector from the office."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Boleh, aku dah ada senarai peserta. Kau ambil je.",
+          "ms_standard": "Boleh, saya sudah mempunyai senarai peserta. Silakan mengambil projektor itu.",
+          "zh": "行，我已经有参加者名单了。你去拿吧。",
+          "en": "Sure, I've already got the participant list. Go ahead."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP labels kendali as Javanese and records its concrete association with a bridle or reins. Its abstract meanings offer a useful image: directing an organisation resembles guiding a horse, while restraining emotion resembles holding the reins. This illustrates the relationship between recorded senses rather than establishing a dated history of semantic change. See [DBP](https://prpm.dbp.gov.my/Cari1?d=150324&keyword=kendali).",
+    "cognitive_memory_aid": "把 kendali 想成手里的缰绳：kendali + kan，把事情“拉稳、管好”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "工作指令可说 Sila kendalikan… 或 Tolong kendalikan…；向上级提出请求时可用 Bolehkah tuan/puan mengendalikan…?",
+    "usage_etiquette": "适用于会议、活动、设备和情绪管理。谈到人时，避免用操控物品般的语气；说明具体职责通常更得体。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "工作指令可说 Sila kendalikan… 或 Tolong kendalikan…；向上级提出请求时可用 Bolehkah tuan/puan mengendalikan…?",
+    "usage_etiquette": "适用于会议、活动、设备和情绪管理。谈到人时，避免用操控物品般的语气；说明具体职责通常更得体。"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "bomnya",
+    "syllables": null,
+    "ipa": "/bom.ɲa/",
+    "jawi": "بوم",
+    "frequency_rank": 5860,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bom",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "bom + -nya → bomnya",
+    "pattern_note": "-nya 连写在 bom 后，词根不发生音变，ny 表示单一辅音 /ɲ/，音节为 bom.nya。此处 suffix 是字段分类，语法上 -nya 是附着形式。输入 Jawi بوم 只对应词根 bom，完整 bomnya 应写作 بومڽ。",
+    "word_family": [
+      {
+        "word": "bom",
+        "affix": null,
+        "gloss": "炸弹"
+      },
+      {
+        "word": "mengebom",
+        "affix": "meN-（menge-）",
+        "gloss": "轰炸；投弹"
+      },
+      {
+        "word": "pengebom",
+        "affix": "peN-（penge-）",
+        "gloss": "轰炸机"
+      },
+      {
+        "word": "pengeboman",
+        "affix": "peN-…-an（penge-…-an）",
+        "gloss": "轰炸行动"
+      }
+    ],
+    "root_jawi": "بوم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他或她的炸弹；-nya 表示炸弹与前文所指人物的所属关系。",
+      "en_definition": "His or her bomb, with -nya marking a contextually identified possessor.",
+      "ms_definition": "Bom kepunyaan seseorang yang telah disebut atau diketahui dalam konteks.",
+      "nuances": "这是 bom 与 -nya 的组合义，不是独立的新词根。-nya 不区分男性和女性，也不标记炸弹的单复数。bom 的爆炸武器义来自输入词条；所属关系须由上下文确定。[DBP：bom](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=bom)；[DBP：-nya 的连写与功能](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hadir+nya)",
+      "collocations": [
+        {
+          "ms": "membawa bomnya",
+          "zh": "携带他或她的炸弹",
+          "en": "to carry his or her bomb"
+        },
+        {
+          "ms": "bomnya sendiri",
+          "zh": "他或她自己的炸弹",
+          "en": "his or her own bomb"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "前文提及或双方已知的那枚炸弹；-nya 在语境中起回指作用。",
+      "en_definition": "The previously mentioned or contextually identifiable bomb.",
+      "ms_definition": "Bom tertentu yang telah disebut atau dapat dikenal pasti melalui konteks.",
+      "nuances": "这是语境中的回指解读，不应机械翻成“他的炸弹”。翻译时可用“那枚炸弹”或 the bomb；-nya 本身不等同于指示词 itu。此处仍以输入所限定的爆炸武器义为基础。",
+      "collocations": [
+        {
+          "ms": "bomnya meletup",
+          "zh": "那枚炸弹爆炸了",
+          "en": "the bomb exploded"
+        },
+        {
+          "ms": "bomnya belum ditemukan",
+          "zh": "那枚炸弹尚未找到",
+          "en": "the bomb has not yet been found"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyiasat mengesahkan bahawa suspek membawa bomnya sendiri ke lokasi kejadian.",
+      "zh": "调查组证实，嫌疑人将自己的炸弹带到了事发地点。",
+      "en": "Investigators confirmed that the suspect brought his own bomb to the scene."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dalam permainan tadi, bomnya tak meletup pun.",
+      "ms_standard": "Dalam permainan tadi, bom yang digunakannya langsung tidak meletup.",
+      "zh": "刚才那局里，他的炸弹压根没炸。",
+      "en": "His bomb didn't even go off in that last game.",
+      "spoken_features": [
+        "tak 对应 tidak",
+        "否定句末的 pun 加强“连……也没有”的语气",
+        "回复中的 kat 对应 di，kot 表示不确定推测"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (游戏队友)",
+          "ms_spoken": "Dalam permainan tadi, bomnya tak meletup pun.",
+          "ms_standard": "Dalam permainan tadi, bom yang digunakannya langsung tidak meletup.",
+          "zh": "刚才那局里，他的炸弹压根没炸。",
+          "en": "His bomb didn't even go off in that last game."
+        },
+        {
+          "speaker": "Farah (游戏队友)",
+          "ms_spoken": "Dia letak kat tempat salah kot.",
+          "ms_standard": "Mungkin dia meletakkannya di tempat yang salah.",
+          "zh": "可能是他放错地方了吧。",
+          "en": "Maybe he put it in the wrong spot."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bomnya illustrates how Malay builds meaning through a short attached form rather than a separate possessive word. The root bom names the explosive weapon, while -nya connects it to a person or an established topic. The combination is grammatically transparent; it has no separate origin story requiring a new root or an invented historical decomposition.",
+    "cognitive_memory_aid": "bom 是“炸弹”，-nya 像贴上的所属标签：先问“谁的”，再看上下文；也可能只是回指“刚才那枚”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词形本身没有敬语等级。正式报道中先明确人物或炸弹的指称，避免 -nya 造成归属歧义，也避免在证据不足时暗示某人拥有炸弹。",
+    "usage_etiquette": "可用于新闻、安全说明、历史叙述和明确的虚构或游戏语境。现实场合不宜用炸弹话题制造恐慌；游戏对话应保留明确的游戏背景。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词形本身没有敬语等级。正式报道中先明确人物或炸弹的指称，避免 -nya 造成归属歧义，也避免在证据不足时暗示某人拥有炸弹。",
+    "usage_etiquette": "可用于新闻、安全说明、历史叙述和明确的虚构或游戏语境。现实场合不宜用炸弹话题制造恐慌；游戏对话应保留明确的游戏背景。"
+  }
+}
