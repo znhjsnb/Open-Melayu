@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "segitiga",
+    "syllables": "se.gi.ti.ga",
+    "ipa": "/sə.ɡi.ti.ɡa/",
+    "jawi": null,
+    "frequency_rank": 10445,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "segitiga",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "segi + tiga → segi tiga",
+    "pattern_note": "输入词保留为检索形式；马来西亚规范拼写是分写的 segi tiga。这里的 segi 是完整词，不是前缀 se-。is_root 与 root_word 沿用输入包的词条索引归类，不表示它在语言学上不可分析。",
+    "word_family": [
+      {
+        "word": "segi tiga",
+        "affix": null,
+        "gloss": "三角形；马来西亚规范拼写"
+      },
+      {
+        "word": "bersegi tiga",
+        "affix": "ber-",
+        "gloss": "呈三角形；有三个角"
+      },
+      {
+        "word": "segi tiga sama sisi",
+        "affix": null,
+        "gloss": "等边三角形"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "三角形：在欧氏平面上由三条线段围成、具有三个顶点和三个内角的图形。",
+      "en_definition": "A plane figure enclosed by three straight sides, with three vertices and three interior angles.",
+      "ms_definition": "Rajah satah yang dibatasi oleh tiga sisi lurus dan mempunyai tiga bucu serta tiga sudut.",
+      "nuances": "本义对应规范形式 segi tiga。马来西亚正式文本、学校作业及考试应分写；连写 segitiga 不应标为马来西亚官方规范拼写。平面欧氏三角形的内角和为 180°。此处马来文释义为依据 DBP 定义编写的释义，并非逐字引文。规范拼写依据：[DBP：segi tiga](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=segi+tiga)。",
+      "collocations": [
+        {
+          "ms": "segi tiga sama sisi",
+          "zh": "等边三角形",
+          "en": "equilateral triangle"
+        },
+        {
+          "ms": "luas segi tiga",
+          "zh": "三角形的面积",
+          "en": "area of a triangle"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "学校通知 / 数学教学",
+      "ms": "Murid diminta mengira luas segi tiga berdasarkan panjang tapak dan tinggi yang diberikan.",
+      "zh": "学生须根据所给的底边长度和高度计算三角形的面积。",
+      "en": "Pupils are asked to calculate the area of the triangle using the given base length and height."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论作业",
+      "ms_spoken": "Nak kira luas segi tiga ni, guna formula yang mana, eh?",
+      "ms_standard": "Formula yang manakah perlu digunakan untuk mengira luas segi tiga ini?",
+      "zh": "算这个三角形的面积，要用哪个公式呀？",
+      "en": "Which formula do we use to work out the area of this triangle?",
+      "spoken_features": [
+        "nak 是 hendak 的口语形式",
+        "ni 是 ini 的口语缩略形式",
+        "eh 在句末表达询问或寻求确认",
+        "例句采用马来西亚规范拼写 segi tiga"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Nak kira luas segi tiga ni, guna formula yang mana, eh?",
+          "ms_standard": "Formula yang manakah perlu digunakan untuk mengira luas segi tiga ini?",
+          "zh": "算这个三角形的面积，要用哪个公式呀？",
+          "en": "Which formula do we use to work out the area of this triangle?"
+        },
+        {
+          "speaker": "Hafiz (同学)",
+          "ms_spoken": "Separuh darab tapak darab tinggi je. Tinggi kena tegak lurus dengan tapak, ya.",
+          "ms_standard": "Formulanya ialah satu perdua didarab dengan panjang tapak dan tinggi. Tinggi mestilah berserenjang dengan tapak.",
+          "zh": "就是底乘高再除以二。高得跟底边垂直哦。",
+          "en": "Just half times the base times the height. The height has to be perpendicular to the base, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The expression makes its geometric meaning transparent: segi refers to a side or angular aspect, and tiga means three. Malaysian spelling treats segi tiga as a compound written in two words. Learning the expression alongside segi empat helps reveal a naming pattern in which the number identifies the figure's sides.",
+    "cognitive_memory_aid": "tiga 就是“三”：看到 segi tiga，就想象三条边围成一个三角形；segi 要整体认读。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的数学用语，没有特殊敬语限制。帮助别人修改拼写时，可温和地说 Dalam ejaan baku Malaysia, kita tulis segi tiga。",
+    "usage_etiquette": "马来西亚教材、公文与正式报告采用 segi tiga。原样转录他人文字或讨论输入字符串时，可以保留 segitiga，并说明其与规范拼写的关系。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的数学用语，没有特殊敬语限制。帮助别人修改拼写时，可温和地说 Dalam ejaan baku Malaysia, kita tulis segi tiga。",
+    "usage_etiquette": "马来西亚教材、公文与正式报告采用 segi tiga。原样转录他人文字或讨论输入字符串时，可以保留 segitiga，并说明其与规范拼写的关系。"
+  }
+}

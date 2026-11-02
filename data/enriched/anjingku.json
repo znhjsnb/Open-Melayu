@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "anjingku",
+    "syllables": "an.jing.ku",
+    "ipa": "/andʒiŋku/",
+    "jawi": "انجيڠ",
+    "frequency_rank": 10375,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "anjing",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "anjing + -ku → anjingku",
+    "pattern_note": "-ku 是 aku 的附着式代词，此处表示“我的”，不是派生词缀；为适配字段归入 suffix。连接时词根不变，ng 表示 /ŋ/。输入未给音节，按标准读音补为 an.jing.ku。headword.jawi 保留输入的 انجيڠ，但该写法仅对应词根 anjing；完整 anjingku 应写作 انجيڠکو。本词是规范的组合形式，不据此宣称 DBP 另立独立词条。",
+    "word_family": [
+      {
+        "word": "anjing",
+        "affix": "∅",
+        "gloss": "狗"
+      },
+      {
+        "word": "anjingmu",
+        "affix": "-mu",
+        "gloss": "你的狗"
+      },
+      {
+        "word": "anjingnya",
+        "affix": "-nya",
+        "gloss": "他、她或它的狗"
+      }
+    ],
+    "root_jawi": "انجيڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "我的狗；由说话者拥有或照料的狗。",
+      "en_definition": "My dog; a dog belonging to or in the care of the speaker.",
+      "ms_definition": "Anjing milik atau di bawah jagaan penutur.",
+      "nuances": "由 anjing 加领属附着式 -ku 组成。通常对应 anjing saya 或 anjing aku；本身不标明狗的性别，也不强制标明单复数。词根义参照 [DBP：anjing](https://prpm.dbp.gov.my/Cari1?d=244840&keyword=anjing)；连写规则参照 [DBP：马来语拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "makanan anjingku",
+          "zh": "我的狗的食物",
+          "en": "my dog's food"
+        },
+        {
+          "ms": "membawa anjingku berjalan-jalan",
+          "zh": "带我的狗散步",
+          "en": "take my dog for a walk"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "我的走狗或爪牙；把受自己驱使的人贬称为狗。",
+      "en_definition": "My lackey or henchman, contemptuously described as a dog.",
+      "ms_definition": "Orang suruhan penutur yang dihina sebagai anjing.",
+      "nuances": "这是词根 anjing 的贬义比喻与 -ku 组合后的语境义，并非默认解释。带强烈侮辱和支配意味；以下搭配仅用于辨识此义。词根的贬义见 [DBP：anjing](https://prpm.dbp.gov.my/Cari1?d=244840&keyword=anjing)。",
+      "collocations": [
+        {
+          "ms": "menjadi anjingku",
+          "zh": "成为我的走狗",
+          "en": "become my lackey"
+        },
+        {
+          "ms": "kau anjingku",
+          "zh": "你是我的走狗",
+          "en": "you're my lackey"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam kenyataan bertulisnya, pemilik itu menjelaskan, “Anjingku berada di dalam kawasan rumah sepanjang kejadian tersebut.”",
+      "zh": "该主人在书面声明中解释：“事发全程，我的狗都在住宅范围内。”",
+      "en": "In a written statement, the owner explained, “My dog remained within the grounds of my home throughout the incident.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Anjingku dah makan, sekarang nak tidur je.",
+      "ms_standard": "Anjing saya sudah makan dan sekarang hanya hendak tidur.",
+      "zh": "我家狗吃过了，现在就想睡觉。",
+      "en": "My dog's eaten and just wants to sleep now.",
+      "spoken_features": [
+        "dah、nak、je 分别对应 sudah、hendak、sahaja。",
+        "口语省略连接词 dan。",
+        "anjingku 语法规范，但在马来西亚随意交谈中，anjing aku 也很自然；正式自称一般用 anjing saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Anjingku dah makan, sekarang nak tidur je.",
+          "ms_standard": "Anjing saya sudah makan dan sekarang hanya hendak tidur.",
+          "zh": "我家狗吃过了，现在就想睡觉。",
+          "en": "My dog's eaten and just wants to sleep now."
+        },
+        {
+          "speaker": "Jason (朋友)",
+          "ms_spoken": "Biarlah tidur dulu. Petang nanti kita bawa jalan-jalan, ya?",
+          "ms_standard": "Biarkan anjing itu tidur dahulu. Petang nanti kita membawanya berjalan-jalan, ya?",
+          "zh": "先让它睡吧。傍晚我们再带它出去散步，好吗？",
+          "en": "Let it sleep for now. We can take it for a walk this evening, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Anjingku illustrates Malay's compact possessive grammar: the animal name anjing combines with -ku, the bound form of aku. The same pattern produces rumahku and bukuku. Its meaning therefore comes from a productive grammatical construction, rather than a separate lexical origin. The attached pronoun identifies the speaker as possessor without changing the animal noun. See [DBP: ku](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ku).",
+    "cognitive_memory_aid": "anjing＝狗，-ku＝我的：给 anjing 接上“我的小尾巴” -ku，就成了 anjingku＝我的狗。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 带 aku 的亲近或个人化色彩，也常见于文学叙述；面对客户、长辈或正式机构时，用 anjing saya 通常更稳妥。对狗本身使用 anjing 是正常称呼，把人称为 anjing 则可能构成严重侮辱。",
+    "usage_etiquette": "谈宠物、领养或兽医照护时可正常使用。马来西亚不同家庭对接触狗的接受程度不同，应先征得对方同意，再让狗靠近；不要把个人偏好概括为整个族群的态度。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 带 aku 的亲近或个人化色彩，也常见于文学叙述；面对客户、长辈或正式机构时，用 anjing saya 通常更稳妥。对狗本身使用 anjing 是正常称呼，把人称为 anjing 则可能构成严重侮辱。",
+    "usage_etiquette": "谈宠物、领养或兽医照护时可正常使用。马来西亚不同家庭对接触狗的接受程度不同，应先征得对方同意，再让狗靠近；不要把个人偏好概括为整个族群的态度。"
+  }
+}

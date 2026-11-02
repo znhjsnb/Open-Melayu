@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "menukarnya",
+    "syllables": null,
+    "ipa": "/mə.nu.kar.ɲa/",
+    "jawi": "منوکر",
+    "frequency_rank": 10390,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menukar",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "menukar + -nya → menukarnya；底层构词：meN- + tukar → menukar",
+    "pattern_note": "按输入保留直接基础词 menukar；最终词根为 tukar。meN- 接词首 t 时，t 脱落，鼻音实现为 n。-nya 在这里通常是第三人称宾语附着代词，指它、他或她，不表示时态。输入未提供音节，故保留 null；实际可分为 me.nu.kar.nya。输入爪夷文 منوکر 对应 menukar，完整 menukarnya 应加 ڽ，写作 منوکرڽ。",
+    "word_family": [
+      {
+        "word": "bertukar",
+        "affix": "ber-",
+        "gloss": "更换；互换；转变"
+      },
+      {
+        "word": "penukaran",
+        "affix": "peN-...-an",
+        "gloss": "更换、兑换或转换的过程"
+      }
+    ],
+    "root_jawi": "منوکر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把前文所指的人或物换成另一个；更换它，或将它拿去交换、兑换。",
+      "en_definition": "To replace the previously mentioned person or thing, or exchange it for something else.",
+      "ms_definition": "Mengganti dengan yang lain; bentuk menukarnya merujuk kepada mengganti atau menukar orang atau benda yang telah disebut.",
+      "nuances": "-nya 的指代须由上下文确定，不能一律译为“他的”。例如，提到损坏的电池后，menukarnya 是“更换它”；提到外币后，则可能是“兑换它”。",
+      "collocations": [
+        {
+          "ms": "menukarnya dengan yang baharu",
+          "zh": "把它换成新的",
+          "en": "replace it with a new one"
+        },
+        {
+          "ms": "menukarnya kepada ringgit",
+          "zh": "把它兑换成令吉",
+          "en": "exchange it for ringgit"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "改变前文所指事物的形式、状态、名称或方向。",
+      "en_definition": "To change the form, state, name, or direction of something previously mentioned.",
+      "ms_definition": "Mengubah kepada keadaan yang lain.",
+      "nuances": "重点是改变同一对象的某个属性，而非一定换掉整个对象。涉及物态或性质转换时，menukarkannya 和 mengubahnya 也常见，应根据句法和语境选择。",
+      "collocations": [
+        {
+          "ms": "menukarnya kepada format PDF",
+          "zh": "把它转换为 PDF 格式",
+          "en": "convert it to PDF format"
+        },
+        {
+          "ms": "menukarnya menjadi wap",
+          "zh": "使它变成蒸气",
+          "en": "turn it into vapour"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "把前文所指的人或物调往、移往或放到另一地点。",
+      "en_definition": "To transfer or move the previously mentioned person or thing to another place.",
+      "ms_definition": "Menghantar, meletakkan atau memindahkan ke tempat lain.",
+      "nuances": "此义强调位置或工作地点的变动。涉及调职时，menukarkannya 或 memindahkannya 往往更明确；此处 -nya 仍是被调动的人或被移动的物。",
+      "collocations": [
+        {
+          "ms": "menukarnya ke tempat lain",
+          "zh": "把它移到别处；把他调往别处",
+          "en": "move it or transfer them elsewhere"
+        },
+        {
+          "ms": "menukarnya ke cawangan lain",
+          "zh": "把他或她调往另一分部",
+          "en": "transfer them to another branch"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "〔米南加保地区用法，限基础词 menukar〕购物；花钱购买东西。",
+      "en_definition": "In Minangkabau usage, of the base verb menukar: to shop or spend money.",
+      "ms_definition": "Dalam penggunaan Minangkabau, menukar bermaksud membeli-belah atau berbelanja.",
+      "nuances": "这是输入词典为 menukar 标注的 Mn 地区义，不能据此直接把 menukarnya 解释成“购买它”。该义通常不带直接宾语，-nya 的功能必须结合原句判断。以下为说明地区义的基础词短语，不宣称是高频搭配。",
+      "collocations": [
+        {
+          "ms": "pergi menukar",
+          "zh": "〔地区义〕去购物",
+          "en": "go shopping, in the regional sense"
+        },
+        {
+          "ms": "menukar di pasar",
+          "zh": "〔地区义〕在市场购物",
+          "en": "shop at the market, in the regional sense"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报：更换损坏设备",
+      "ms": "Bateri alat itu telah rosak, dan pihak penyelenggaraan akan menukarnya dengan bateri baharu sebelum operasi disambung.",
+      "zh": "该设备的电池已经损坏，维修部门将在恢复运作前为其更换新电池。",
+      "en": "The device's battery is faulty, and the maintenance team will replace it with a new one before operations resume."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论退换衣服",
+      "ms_spoken": "Baju ni kecil sangatlah. Aku nak menukarnya dengan saiz yang lebih besar.",
+      "ms_standard": "Baju ini terlalu kecil. Saya hendak menukarnya dengan saiz yang lebih besar.",
+      "zh": "这件衣服也太小了，我想换大一码的。",
+      "en": "This shirt is way too small. I want to exchange it for a bigger size.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式。",
+        "nak 对应 hendak；lah 加强对尺寸不合适的感受。",
+        "aku 适用于熟人；日常口语也常把 menukarnya 简化为 tukar baju ni。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Baju ni kecil sangatlah. Aku nak menukarnya dengan saiz yang lebih besar.",
+          "ms_standard": "Baju ini terlalu kecil. Saya hendak menukarnya dengan saiz yang lebih besar.",
+          "zh": "这衣服太小啦，我想换大一码。",
+          "en": "This shirt is way too small. I want to swap it for a bigger size."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Resit masih ada kan? Bawa je ke kedai petang ni.",
+          "ms_standard": "Resitnya masih ada, bukan? Bawa sahaja baju itu bersama-sama resit ke kedai pada petang ini.",
+          "zh": "收据还在吧？今天下午带去店里换就行。",
+          "en": "You've still got the receipt, right? Just take it back to the shop this afternoon."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menukarnya illustrates Malay word building rather than a separate borrowing. Its lexical base is tukar, associated with replacement, exchange, and change. The active prefix meN- produces menukar through nasal substitution, while attached -nya points back to a person or thing. The dictionary also preserves a Minangkabau shopping sense under menukar, showing regional variation without establishing a particular historical origin. [DBP](https://prpm.dbp.gov.my/Cari1?d=378040&keyword=menukar)",
+    "cognitive_memory_aid": "抓住 tukar＝“换”，再把 -nya 想成回指箭头“它／他／她”：menukar + nya＝把前面说的那个换掉。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "menukarnya 本身语气中性，公文和日常交流都可使用。向店员提出换货时，可说“Bolehkah saya menukarnya dengan saiz yang lebih besar?”，礼貌且清楚。",
+    "usage_etiquette": "先交代 -nya 指什么，尤其在同时提到多个人或物时。讨论人员更换或调职时，应说明具体职务、安排和理由，避免让“换掉他”显得轻慢。Mn 购物义不宜直接用于面向全马读者的普通公文。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "menukarnya 本身语气中性，公文和日常交流都可使用。向店员提出换货时，可说“Bolehkah saya menukarnya dengan saiz yang lebih besar?”，礼貌且清楚。",
+    "usage_etiquette": "先交代 -nya 指什么，尤其在同时提到多个人或物时。讨论人员更换或调职时，应说明具体职务、安排和理由，避免让“换掉他”显得轻慢。Mn 购物义不宜直接用于面向全马读者的普通公文。"
+  }
+}

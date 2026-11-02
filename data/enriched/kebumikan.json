@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "kebumikan",
+    "syllables": null,
+    "ipa": "/kə.bu.mi.kan/",
+    "jawi": "کبوميکن",
+    "frequency_rank": 10485,
+    "status": "official",
+    "verification_note": "此处按省略主动前缀的祈使动词处理。输入的 بومي 是词根 bumi 的爪夷文，不是 kebumikan 的完整拼写；此处完整拼写按构词规则转写。音节字段保留输入的 null；IPA 为宽式分析。排名沿用输入，未经独立核实。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bumi",
+    "affix": "ke-…-kan",
+    "affix_type": "circumfix",
+    "formula": "ke + bumi + -kan → kebumikan；meN- + kebumikan → mengebumikan",
+    "pattern_note": "以 bumi 为词根，经 ke bumi 的方向意义构成动词；kebumikan 可用于祈使句。加主动前缀 meN- 时，开头的 k 被鼻音替代，得到 mengebumikan，而非 mengkebumikan。此处 ke 不宜理解为可自由套用的普通前缀。[DBP 构词说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mengebumikan)",
+    "word_family": [
+      {
+        "word": "mengebumikan",
+        "affix": "meN- + ke…-kan",
+        "gloss": "埋葬；安葬"
+      },
+      {
+        "word": "dikebumikan",
+        "affix": "di- + ke…-kan",
+        "gloss": "被安葬"
+      },
+      {
+        "word": "pengebumian",
+        "affix": "peN-…-an，与 ke bumi 结合",
+        "gloss": "安葬；埋葬事宜"
+      }
+    ],
+    "root_jawi": "بومي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "将死者的遗体埋入坟墓；安葬。此形式常用于指令或口语中。",
+      "en_definition": "Bury or inter a deceased person, especially in an imperative or a construction without the active prefix.",
+      "ms_definition": "Menanam jenazah di dalam kubur; menguburkan, khususnya dalam bentuk perintah tanpa awalan meN-.",
+      "nuances": "这是依据 DBP 对 mengebumikan 的释义改写的形态说明，并非 DBP 对 kebumikan 的逐字释义。普通主动陈述句通常用 mengebumikan，被动句用 dikebumikan。不能因为词根 bumi 意为土地，就把此词泛用于掩埋垃圾。[DBP 释义与用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mengebumikan)",
+      "collocations": [
+        {
+          "ms": "kebumikan jenazah",
+          "zh": "安葬遗体",
+          "en": "bury the deceased"
+        },
+        {
+          "ms": "kebumikan di tanah perkuburan",
+          "zh": "安葬在墓地",
+          "en": "bury in a cemetery"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 殡葬事务安排",
+      "ms": "Arahan kepada petugas ialah: “Kebumikan jenazah di lokasi yang telah ditetapkan dengan persetujuan waris.”",
+      "zh": "给工作人员的指示是：“经家属同意，将遗体安葬在指定地点。”",
+      "en": "The instruction to the personnel is: “Bury the deceased at the designated location with the family's consent.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家属讨论安葬安排",
+      "ms_spoken": "Kita kebumikan arwah kat kampung, ya?",
+      "ms_standard": "Bagaimana jika kita mengebumikan arwah di kampung?",
+      "zh": "我们把逝者安葬在老家，好吗？",
+      "en": "Shall we bury them back in the village?",
+      "spoken_features": [
+        "kat 对应标准语 di",
+        "口语主动句可省略 meN-，此处 kebumikan 对应 mengebumikan",
+        "ya 用于温和征求同意"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (家人)",
+          "ms_spoken": "Kita kebumikan arwah kat kampung, ya?",
+          "ms_standard": "Bagaimana jika kita mengebumikan arwah di kampung?",
+          "zh": "我们把逝者安葬在老家，好吗？",
+          "en": "Shall we bury them back in the village?"
+        },
+        {
+          "speaker": "Amir (家人)",
+          "ms_spoken": "Ya, keluarga dah setuju. Saya nak hubungi pihak tanah perkuburan dulu.",
+          "ms_standard": "Ya, keluarga sudah bersetuju. Saya hendak menghubungi pihak pengurusan tanah perkuburan terlebih dahulu.",
+          "zh": "好，家里已经同意了。我先联系墓地管理方。",
+          "en": "Yes, the family has agreed. I'll contact the cemetery office first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bumi belongs to the Sanskrit-derived layer of Malay vocabulary, from bhūmi, meaning earth or land. The burial expression builds on the image of placing someone into the earth. Its history therefore combines an older borrowed noun with Malay word formation; it does not make kebumikan itself a Sanskrit word. [Historical linguistic evidence](https://indoling.com/ismil/16/abstracts/Nordhoff.pdf)",
+    "cognitive_memory_aid": "抓住 bumi（土地）：ke bumi 联想到“归于土地”，kebumikan 就是“将逝者安葬入土”。这是意义联想，不是逐字翻译规则。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向家属谈及安葬时宜使用 jenazah 等尊重用语，并以建议或协商语气表达；直接命令可能显得生硬。",
+    "usage_etiquette": "适用于遗体安葬及相关安排。尊重家属的宗教与个人选择，不预设所有马来西亚人都采用土葬，也不以玩笑口吻谈论近期丧事。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向家属谈及安葬时宜使用 jenazah 等尊重用语，并以建议或协商语气表达；直接命令可能显得生硬。",
+    "usage_etiquette": "适用于遗体安葬及相关安排。尊重家属的宗教与个人选择，不预设所有马来西亚人都采用土葬，也不以玩笑口吻谈论近期丧事。"
+  }
+}

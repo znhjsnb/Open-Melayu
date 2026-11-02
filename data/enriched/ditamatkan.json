@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "ditamatkan",
+    "syllables": null,
+    "ipa": "/di.ta.mat.kan/",
+    "jawi": null,
+    "frequency_rank": 10488,
+    "status": "official",
+    "verification_note": "输入将 ditamatkan 标为独立词根有误：这是 tamat 的被动派生动词。音节与词头爪夷文字段保留输入的 null；IPA 为宽式分析。排名沿用输入，未经独立核实。[DBP 被动句用例](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ditamatkan)"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tamat",
+    "affix": "di-…-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + tamat + -kan → ditamatkan",
+    "pattern_note": "di- 标记被动，-kan 构成使事物结束或完成的及物动词；词根开头的 t 保留。di- 在此是连写的动词前缀，不能写成 di tamatkan。di- 本身不表示过去时。",
+    "word_family": [
+      {
+        "word": "menamatkan",
+        "affix": "meN-…-kan",
+        "gloss": "结束；完成；终止"
+      },
+      {
+        "word": "penamatan",
+        "affix": "peN-…-an",
+        "gloss": "终止；结束这一行为"
+      },
+      {
+        "word": "penamat",
+        "affix": "peN-",
+        "gloss": "结尾；终点；收尾者"
+      }
+    ],
+    "root_jawi": "تمت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被结束、终止或停止继续，常指服务、合约、活动或某种关系。",
+      "en_definition": "Be brought to an end or terminated, especially of a service, contract, activity, or relationship.",
+      "ms_definition": "Dijadikan berakhir atau dihentikan daripada diteruskan, seperti perkhidmatan, kontrak atau kegiatan.",
+      "nuances": "强调某事受到使其结束的处理，不只是自然到期。telah ditamatkan 表示已经终止，akan ditamatkan 表示将被终止。此释义根据 tamat 与 menamatkan 改写，不是独立词条的逐字引文。[DBP 词义依据](https://prpm.dbp.gov.my/Cari1?d=279992&keyword=tamat)",
+      "collocations": [
+        {
+          "ms": "kontrak ditamatkan",
+          "zh": "合约被终止",
+          "en": "the contract is terminated"
+        },
+        {
+          "ms": "perkhidmatan ditamatkan",
+          "zh": "服务被终止；任职被终止",
+          "en": "service or employment is terminated"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被完成至末尾，指阅读、叙述或其他具有明确终点的任务。",
+      "en_definition": "Be completed or carried through to the end, as of reading, narration, or a finite task.",
+      "ms_definition": "Diselesaikan hingga ke penghujung, khususnya pembacaan, penceritaan atau sesuatu tugas.",
+      "nuances": "此义对应 menamatkan 的完成意义；不是所有 ditamatkan 都含有取消或处分意味。ditamatkan pengajian 在行政语境可能指学籍被终止，不应仅凭字面译为顺利毕业。[DBP 主动词释义](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=menamatkan)",
+      "collocations": [
+        {
+          "ms": "bacaan ditamatkan",
+          "zh": "阅读完成；诵读结束",
+          "en": "the reading is completed"
+        },
+        {
+          "ms": "cerita ditamatkan",
+          "zh": "故事被讲完或收尾",
+          "en": "the story is brought to a close"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场通知",
+      "ms": "Perkhidmatan tersebut akan ditamatkan pada akhir bulan ini, dan semua pengguna akan dimaklumkan melalui e-mel.",
+      "zh": "该项服务将于本月底终止，所有用户将通过电子邮件收到通知。",
+      "en": "The service will be discontinued at the end of this month, and all users will be notified by email."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论项目安排",
+      "ms_spoken": "Projek tu dah ditamatkan ke?",
+      "ms_standard": "Adakah projek itu sudah ditamatkan?",
+      "zh": "那个项目已经终止了吗？",
+      "en": "Has that project been terminated?",
+      "spoken_features": [
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "句末 ke 表示疑问，标准语可改为 adakah",
+        "nak 对应 hendak"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Projek tu dah ditamatkan ke?",
+          "ms_standard": "Adakah projek itu sudah ditamatkan?",
+          "zh": "那个项目已经终止了吗？",
+          "en": "Has that project been terminated?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, bos dah sahkan tadi. Saya nak kemas kini jadual dulu.",
+          "ms_standard": "Ya, ketua sudah mengesahkannya tadi. Saya hendak mengemas kini jadual terlebih dahulu.",
+          "zh": "对，老板刚才已经确认了。我先更新一下时间表。",
+          "en": "Yes, the boss confirmed it earlier. I'll update the schedule first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tamat belongs to Malay's Arabic-derived vocabulary and is associated with Arabic tammat, expressing completion. Malay then applies its own morphology: -kan forms a verb meaning to bring something to an end, while di- presents it passively. The modern word thus combines a borrowed base with productive Malay grammatical structure. [Arabic–Malay borrowing study](https://journals.iium.edu.my/arabiclang/index.php/jlls/article/download/403/207/905)",
+    "cognitive_memory_aid": "tamat＝结束；-kan＝使之结束；di-＝被。合起来记：ditamatkan＝被结束、被终止；是否已经发生，要看 dah、telah 或 akan 等上下文。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于服务或项目通知时语气正式；涉及个人任职时较敏感，应明确是合约、职务还是服务被终止，避免含糊地说某个人 ditamatkan。",
+    "usage_etiquette": "适用于行政、商业与一般说明。不要把 ditamatkan 一律理解为被解雇，也不要从该词本身推断当事人有过失；具体含义取决于主语和上下文。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于服务或项目通知时语气正式；涉及个人任职时较敏感，应明确是合约、职务还是服务被终止，避免含糊地说某个人 ditamatkan。",
+    "usage_etiquette": "适用于行政、商业与一般说明。不要把 ditamatkan 一律理解为被解雇，也不要从该词本身推断当事人有过失；具体含义取决于主语和上下文。"
+  }
+}
