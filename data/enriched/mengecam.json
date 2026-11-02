@@ -1,0 +1,139 @@
+{
+  "headword": {
+    "word": "mengecam",
+    "syllables": "me.nge.cam",
+    "ipa": "/mə.ŋə.tʃam/",
+    "jawi": "مڠچم",
+    "frequency_rank": 12293,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kecam",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + kecam → mengecam（抨击）；meN- + cam → mengecam（辨认）",
+    "pattern_note": "抨击义来自 kecam：meN- 在 /k/ 前取 meng-，词首 /k/ 脱落，词根的 /ə/ 保留。辨认义来自单音节 cam：前缀取 menge-，/tʃ/ 保留。两条路径形成同形同音词；词包仅给出第一条词根。",
+    "word_family": [
+      {
+        "word": "kecam",
+        "affix": "∅",
+        "gloss": "抨击义的基础词"
+      },
+      {
+        "word": "kecaman",
+        "affix": "-an",
+        "gloss": "抨击；严厉批评"
+      },
+      {
+        "word": "pengecam",
+        "affix": "peN-",
+        "gloss": "批评者；抨击者"
+      },
+      {
+        "word": "cam",
+        "affix": "∅",
+        "gloss": "辨认；认出，属于另一词根"
+      },
+      {
+        "word": "pengecaman",
+        "affix": "peN-…-an",
+        "gloss": "辨认；识别，来自 cam"
+      }
+    ],
+    "root_jawi": "کچم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "严厉批评；抨击；谴责某人的行为、态度、言论或某项措施。",
+      "en_definition": "To criticize severely, denounce, or condemn.",
+      "ms_definition": "Mengkritik (keras), membidas, mencela.",
+      "nuances": "语气通常强于一般的 mengkritik，常见于新闻、公开声明及强烈反对的表达。词根为 kecam，不能把这里的 menge- 整体当作附于 cam 的前缀。[DBP：mengecam](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengecam)",
+      "collocations": [
+        {
+          "ms": "mengecam tindakan",
+          "zh": "谴责某项行动",
+          "en": "condemn an action"
+        },
+        {
+          "ms": "mengecam keras",
+          "zh": "强烈谴责",
+          "en": "strongly condemn"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "凭先前见过或听过的特征认出、辨认某人或某物。",
+      "en_definition": "To recognize or identify someone or something from previously seen or heard features.",
+      "ms_definition": "Kenal atau ingat kembali rupa dan sebagainya seseorang atau sesuatu yang telah dilihat atau didengar sebelumnya.",
+      "nuances": "此义来自 cam，与“抨击”义的 kecam 分属不同词根。mengecam wajah、mengecam suara 等搭配表示辨认，不含批评意味。马来语释义展开了词典中的缩写。[DBP：cam](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=cam)",
+      "collocations": [
+        {
+          "ms": "mengecam wajah",
+          "zh": "辨认面容",
+          "en": "recognize a face"
+        },
+        {
+          "ms": "mengecam suara",
+          "zh": "辨认声音",
+          "en": "recognize a voice"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 机构声明；抨击义",
+      "ms": "Persatuan itu mengecam tindakan pihak berkenaan yang membuang sisa ke dalam sungai.",
+      "zh": "该协会谴责有关方面向河流倾倒废弃物的行为。",
+      "en": "The association condemned the dumping of waste into the river by those concerned."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论网络评论；抨击义",
+      "ms_spoken": "Ramai orang dah mengecam dia kat media sosial.",
+      "ms_standard": "Ramai orang sudah mengecamnya di media sosial.",
+      "zh": "已经很多人在社交媒体上骂他了。",
+      "en": "A lot of people have already slammed him on social media.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "口语使用独立代词 dia；标准对应句可用宾语形式 -nya",
+        "tak、nak、je 分别对应 tidak、hendak、sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ramai orang dah mengecam dia kat media sosial. Kau dah tengok ke?",
+          "ms_standard": "Ramai orang sudah mengecamnya di media sosial. Adakah awak sudah melihatnya?",
+          "zh": "已经很多人在社交媒体上骂他了。你看到了吗？",
+          "en": "Loads of people have already slammed him on social media. Have you seen it?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, tapi aku tak nak komen dulu. Nak baca penjelasan dia je.",
+          "ms_standard": "Sudah, tetapi saya tidak mahu memberikan komen dahulu. Saya hanya hendak membaca penjelasannya.",
+          "zh": "看到了，不过我先不评论。我只想先看看他的解释。",
+          "en": "Yeah, but I'll hold off on commenting. I just want to read his explanation first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Two Malay word-building routes meet in mengecam. Adding meN- to kecam removes the initial k and produces the verb for severe criticism. Adding the menge- form to monosyllabic cam produces the verb for recognition. Their identical spelling conceals different bases, so dictionaries and readers distinguish them through their objects and surrounding context.",
+    "cognitive_memory_aid": "看到 tindakan、kenyataan，多想“抨击”；看到 wajah、suara，多想“辨认”。同一个 mengecam，要跟着宾语选义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "抨击义带强烈负面评价。职场中若只想提出改进意见，mengemukakan teguran 或 memberikan maklum balas 通常更符合缓和语气的需要；辨认义则为中性。",
+    "usage_etiquette": "公开谴责行为时可用 mengecam；直接说 Saya mengecam awak 容易升级人际冲突。辨认义用于面容、声音及熟悉特征等语境，不具有责备意味。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "抨击义带强烈负面评价。职场中若只想提出改进意见，mengemukakan teguran 或 memberikan maklum balas 通常更符合缓和语气的需要；辨认义则为中性。",
+    "usage_etiquette": "公开谴责行为时可用 mengecam；直接说 Saya mengecam awak 容易升级人际冲突。辨认义用于面容、声音及熟悉特征等语境，不具有责备意味。"
+  }
+}

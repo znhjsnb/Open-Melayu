@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "penyepit",
+    "syllables": "pe.nye.pit",
+    "ipa": "/pə.ɲə.pit/",
+    "jawi": "ڤڽڤيت",
+    "frequency_rank": 12329,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penyepit",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + sepit → penyepit",
+    "pattern_note": "实际构词词基是sepit：peN-在词首s前实现为peny-，s脱落，形成工具名词。root_word与root_jawi按要求保留数据包的检索形式，并非真正词基；真正词基的爪夷文为سڤيت。",
+    "word_family": [
+      {
+        "word": "menyepit",
+        "affix": "meN-",
+        "gloss": "夹住；夹取"
+      },
+      {
+        "word": "tersepit",
+        "affix": "ter-",
+        "gloss": "被夹住；陷于两难"
+      }
+    ],
+    "root_jawi": "ڤڽڤيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "通过两部分合拢来夹持物品的工具，如食物夹、夹子或镊子；具体类型由语境限定。",
+      "en_definition": "A gripping implement whose two parts close together, such as tongs, a clip, or tweezers.",
+      "ms_definition": "Alat yang mempunyai dua bahagian yang boleh dirapatkan untuk memegang atau mencengkam sesuatu.",
+      "nuances": "这是一般夹持工具义，不应一律译成chopsticks。penyepit在《Kamus Dewan》中释为sepit，《Kamus Pelajar》进一步说明其夹持结构。[DBP：penyepit](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=penyepit)",
+      "collocations": [
+        {
+          "ms": "penyepit makanan",
+          "zh": "食物夹",
+          "en": "food tongs"
+        },
+        {
+          "ms": "penyepit baju",
+          "zh": "晾衣夹",
+          "en": "clothes peg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "筷子；用来夹取食物的一对细长餐具。",
+      "en_definition": "Chopsticks: a pair of slender sticks used for picking up food.",
+      "ms_definition": "Sepasang batang halus yang digunakan sebagai alat makan untuk mengambil makanan.",
+      "nuances": "餐桌语境中的penyepit可以指筷子；通常用sepasang表示一双。若有多种夹具同时出现，可用penyepit makan帮助说明。",
+      "collocations": [
+        {
+          "ms": "sepasang penyepit",
+          "zh": "一双筷子",
+          "en": "a pair of chopsticks"
+        },
+        {
+          "ms": "penyepit buluh",
+          "zh": "竹筷",
+          "en": "bamboo chopsticks"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "蟹、龙虾等动物用于夹持的螯。",
+      "en_definition": "A pincer or claw of an animal such as a crab or lobster.",
+      "ms_definition": "Anggota penyepit pada haiwan seperti ketam atau udang kara yang digunakan untuk mencengkam.",
+      "nuances": "指动物身体上的天然夹持器官，常以penyepit ketam等结构出现；并非指用来处理螃蟹的厨房夹具。",
+      "collocations": [
+        {
+          "ms": "penyepit ketam",
+          "zh": "蟹螯",
+          "en": "crab pincer"
+        },
+        {
+          "ms": "penyepit udang kara",
+          "zh": "龙虾螯",
+          "en": "lobster claw"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "餐饮操作说明 / 职场培训",
+      "ms": "Petugas hendaklah menggunakan penyepit makanan yang bersih semasa menghidangkan kuih kepada pelanggan.",
+      "zh": "工作人员向顾客供应糕点时，应使用干净的食物夹。",
+      "en": "Staff must use clean food tongs when serving kuih to customers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友一起吃饭",
+      "ms_spoken": "Penyepit ada kat meja tu, ambil je sepasang.",
+      "ms_standard": "Penyepit ada di meja itu; ambillah sepasang.",
+      "zh": "筷子在那张桌上，拿一双就行。",
+      "en": "The chopsticks are on that table. Just grab a pair.",
+      "spoken_features": [
+        "kat对应di",
+        "tu对应itu",
+        "je对应sahaja",
+        "nak对应hendak",
+        "lah缓和建议语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Penyepit ada kat meja tu. Kau nak guna tak?",
+          "ms_standard": "Penyepit ada di meja itu. Adakah kamu hendak menggunakannya?",
+          "zh": "筷子在那张桌上。你要用吗？",
+          "en": "The chopsticks are on that table. Do you want a pair?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nak, ambilkan sepasang ya. Kalau susah sangat, aku guna garpu jelah.",
+          "ms_standard": "Ya, tolong ambilkan sepasang. Jika terlalu sukar menggunakannya, saya akan menggunakan garpu sahaja.",
+          "zh": "要，帮我拿一双吧。要是实在不会用，我就用叉子啦。",
+          "en": "Yes, get me a pair, please. If I struggle too much, I’ll just use a fork."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penyepit is formed within Malay from sepit and the instrument-forming prefix peN-. Its meanings connect the gripping action of tools, chopsticks, and animal pincers. DBP’s encyclopedia also identifies sepit as an eating utensil used in many Asian countries. The Malay name therefore describes how the implement works rather than simply adopting the Chinese name for chopsticks.",
+    "cognitive_memory_aid": "sepit是“夹”，peN-造工具名：penyepit就是“用来夹的东西”；餐桌上一双就是筷子。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性用词。请求递筷子或夹具时可说Tolong hulurkan penyepit，或对陌生人用Boleh saya minta sepasang penyepit?",
+    "usage_etiquette": "餐桌上先依语境区分个人筷子与公用食物夹。与不熟悉的人用餐时，可询问对方需要筷子还是叉匙，不必假定所有人都会或愿意使用筷子。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性用词。请求递筷子或夹具时可说Tolong hulurkan penyepit，或对陌生人用Boleh saya minta sepasang penyepit?",
+    "usage_etiquette": "餐桌上先依语境区分个人筷子与公用食物夹。与不熟悉的人用餐时，可询问对方需要筷子还是叉匙，不必假定所有人都会或愿意使用筷子。"
+  }
+}

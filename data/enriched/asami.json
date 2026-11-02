@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "asami",
+    "syllables": "a.sa.mi",
+    "ipa": "/a.sa.mi/",
+    "jawi": "اسم",
+    "frequency_rank": 12367,
+    "status": "derived"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "asam",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "asam + -i → asami; meN- + asam + -i → mengasami",
+    "pattern_note": "asami 按 DBP 已收录的 mengasami 推导，可用于祈使句或第一、第二人称被动结构；不是 asam 的名词义。加 -i 后重新划分为 a.sa.mi，无辅音脱落。headword.jawi 沿用资料包，但 اسم 实际对应词根 asam，不能视为已核实的 asami 完整拼写。",
+    "word_family": [
+      {
+        "word": "asam",
+        "affix": null,
+        "gloss": "酸味材料；酸的"
+      },
+      {
+        "word": "mengasami",
+        "affix": "meN-...-i",
+        "gloss": "给……加入酸料"
+      },
+      {
+        "word": "mengasamkan",
+        "affix": "meN-...-kan",
+        "gloss": "使变酸；用醋或酸料浸腌"
+      }
+    ],
+    "root_jawi": "اسم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "给食物等加入酸料；此处分析为 mengasami 不带 meN- 的形式。",
+      "en_definition": "To add a souring ingredient to something; the unprefixed form of mengasami.",
+      "ms_definition": "Membubuh asam pada sesuatu; bentuk tanpa awalan meN- bagi mengasami.",
+      "nuances": "DBP 在 asam 条下明确解释 mengasami 为“membubuh asam pada”。asami 的分析由该词及马来语构词规则推导，并非已核实的独立 DBP 词条。资料包提供的 asam 名词、形容词释义不可直接移植到这里。以下搭配和例句为教学构造，未核实其语料频率。日常表达通常用 bubuh asam 或 tambah asam。依据：[DBP：asam](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=asam)。",
+      "collocations": [
+        {
+          "ms": "asami kuah",
+          "zh": "给汤汁加入酸料",
+          "en": "add a souring ingredient to the gravy"
+        },
+        {
+          "ms": "asami masakan",
+          "zh": "给菜肴加入酸料",
+          "en": "add a souring ingredient to a dish"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场操作指引 / 烹饪培训",
+      "ms": "Asami kuah dengan air asam jawa mengikut sukatan yang ditetapkan.",
+      "zh": "按照规定用量，给汤汁加入罗望子水调酸。",
+      "en": "Add the specified amount of tamarind water to sour the gravy."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kuah ni dah aku asami sikit je.",
+      "ms_standard": "Kuah ini sudah saya asami dengan sedikit bahan asam sahaja.",
+      "zh": "这汤汁我已经加了一点点酸料。",
+      "en": "I've only added a little souring ingredient to this gravy.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式",
+        "dah 是 sudah 的口语形式",
+        "sikit je 对应 sedikit sahaja",
+        "asami 较少见；更日常的说法是 aku dah bubuh asam"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (家人)",
+          "ms_spoken": "Kuah ni dah kau asami ke?",
+          "ms_standard": "Adakah kuah ini sudah kamu asami?",
+          "zh": "这汤汁你加过酸料了吗？",
+          "en": "Have you added anything sour to this gravy yet?"
+        },
+        {
+          "speaker": "Amir (家人)",
+          "ms_spoken": "Dah, aku bubuh air asam jawa sikit je. Cuba rasa dulu.",
+          "ms_standard": "Sudah, saya membubuh sedikit air asam jawa sahaja. Cuba rasainya dahulu.",
+          "zh": "加了，就放了一点罗望子水。你先尝尝。",
+          "en": "Yes, just a little tamarind water. Give it a taste first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The relevant lexical foundation is asam, a Malay word associated with sour taste and souring ingredients. DBP records mengasami for adding asam to something. Removing the active prefix in an appropriate grammatical construction yields asami. This is a morphological explanation rather than evidence of a separately documented historical headword; the packet supplies no independent history for asami.",
+    "cognitive_memory_aid": "asam＝酸料；-i 把动作施加给对象：asami kuah＝给汤汁加酸料。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接祈使句用于操作说明较自然；请别人帮忙时可加 tolong。家庭口语用 tolong bubuh sedikit asam 更自然。",
+    "usage_etiquette": "这里限于加入酸料的动词分析。不可把它当作“酸味”或“罗望子”的普通名词，也不要据此认定所有语料中的 Asami 专名都具有该含义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接祈使句用于操作说明较自然；请别人帮忙时可加 tolong。家庭口语用 tolong bubuh sedikit asam 更自然。",
+    "usage_etiquette": "这里限于加入酸料的动词分析。不可把它当作“酸味”或“罗望子”的普通名词，也不要据此认定所有语料中的 Asami 专名都具有该含义。"
+  }
+}

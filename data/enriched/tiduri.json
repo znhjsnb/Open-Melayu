@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "tiduri",
+    "syllables": null,
+    "ipa": "/ti.du.ri/",
+    "jawi": "تيدور",
+    "frequency_rank": 12327,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tidur",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "tidur + -i → tiduri；meN- + tidur + -i → meniduri",
+    "pattern_note": "tiduri保留词首t；构成meniduri时，meN-发生鼻音替代，词首t脱落。tiduri可见于祈使句或第一、第二人称被动结构，如tilam yang saya tiduri。数据包的تيدور仅表示tidur；音节字段保留null，实际可分为ti.du.ri。",
+    "word_family": [
+      {
+        "word": "meniduri",
+        "affix": "meN-…-i",
+        "gloss": "睡在某处；与某人发生性关系"
+      },
+      {
+        "word": "menidurkan",
+        "affix": "meN-…-kan",
+        "gloss": "使入睡；哄睡；使躺下"
+      }
+    ],
+    "root_jawi": "تيدور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "睡在或躺在某个地方、床铺或承托物上；为meniduri的无meN-形式。",
+      "en_definition": "To sleep or lie on a place or surface; the unprefixed form of meniduri.",
+      "ms_definition": "Tidur atau berbaring di sesuatu tempat atau di atas sesuatu alas.",
+      "nuances": "宾语表示睡卧的处所或承托物。tiduri不是可任意代替tidur的独立不及物动词；日常表达常直接用tidur di atas…。与menidurkan“使入睡”不同。[DBP：meniduri与menidurkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meniduri+1)",
+      "collocations": [
+        {
+          "ms": "tilam yang saya tiduri",
+          "zh": "我睡过的床垫",
+          "en": "the mattress I slept on"
+        },
+        {
+          "ms": "katil yang kamu tiduri",
+          "zh": "你睡过的床",
+          "en": "the bed you slept in"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "与某人发生性关系；为meniduri的无meN-形式。",
+      "en_definition": "To have sexual intercourse with someone; the unprefixed form of meniduri.",
+      "ms_definition": "Melakukan persetubuhan dengan seseorang.",
+      "nuances": "以人为宾语时可取性关系义，不应理解为单纯共用床铺，也不表示哄对方睡觉。词本身不说明是否自愿，相关信息必须由语境表达。",
+      "collocations": [
+        {
+          "ms": "orang yang pernah dia tiduri",
+          "zh": "曾与他／她发生性关系的人",
+          "en": "someone he or she has slept with"
+        },
+        {
+          "ms": "wanita yang pernah saya tiduri",
+          "zh": "曾与我发生性关系的成年女子",
+          "en": "a woman I have slept with"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "住宿反馈 / 书面报告",
+      "ms": "Tilam yang saya tiduri semasa lawatan kerja itu terlalu nipis.",
+      "zh": "我出差期间睡的那张床垫太薄了。",
+      "en": "The mattress I slept on during that work trip was too thin."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 谈论住宿",
+      "ms_spoken": "Tilam yang aku tiduri malam tadi tu keraslah.",
+      "ms_standard": "Tilam yang saya tiduri malam tadi itu keras.",
+      "zh": "我昨晚睡的那张床垫好硬啊。",
+      "en": "The mattress I slept on last night was really hard.",
+      "spoken_features": [
+        "aku用于熟人之间",
+        "tu对应itu",
+        "lah加强主观感受",
+        "tiduri所在关系结构偏书面；更随意时常说aku tidur atas tilam tu"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tilam yang aku tiduri malam tadi tu keraslah. Kau punya okey tak?",
+          "ms_standard": "Tilam yang saya tiduri malam tadi itu keras. Adakah tilam kamu selesa?",
+          "zh": "我昨晚睡的那张床垫好硬啊。你那张还行吗？",
+          "en": "My mattress was really hard last night. Was yours any better?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku punya okey je. Malam ni kau nak tukar bilik tak?",
+          "ms_standard": "Tilam saya selesa. Adakah kamu hendak bertukar bilik malam ini?",
+          "zh": "我那张还行。今晚你要换房间吗？",
+          "en": "Mine was fine. Do you want to swap rooms tonight?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tiduri belongs to the productive Malay family built on tidur, meaning sleep. The suffix -i allows a sleeping place to appear as the object. Kamus Dewan also records a sexual meaning for meniduri. Comparing this family with menidurkan shows how different endings distinguish sleeping on something, sleeping with someone, and causing someone to sleep.",
+    "cognitive_memory_aid": "tidur是“睡”；tiduri要看“睡在哪里／与谁发生关系”；tidurkan则是“让人睡”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈床垫、床铺时明确说出物体即可减少歧义；谈人与人之间的关系时，该词可能显得直白或物化。",
+    "usage_etiquette": "描述照护或哄睡应使用tidurkan、menidurkan，例如menidurkan bayi。涉及成年人的性关系时，正式说明可按语境使用mengadakan hubungan seks，避免以含糊措辞代替事实。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈床垫、床铺时明确说出物体即可减少歧义；谈人与人之间的关系时，该词可能显得直白或物化。",
+    "usage_etiquette": "描述照护或哄睡应使用tidurkan、menidurkan，例如menidurkan bayi。涉及成年人的性关系时，正式说明可按语境使用mengadakan hubungan seks，避免以含糊措辞代替事实。"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "menyelidik",
+    "syllables": null,
+    "ipa": "/mə.ɲə.li.diʔ/",
+    "jawi": "مڽليديق",
+    "frequency_rank": 12328,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyelidik",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + selidik → menyelidik",
+    "pattern_note": "实际构词词基是selidik：meN-在词首s前实现为meny-，s脱落；词末k在所示马来西亚读音中实现为[ʔ]。root_word与root_jawi按要求保留数据包的检索形式，并非真正词基；真正词基的爪夷文为سليديق。音节字段保留null，实际可分为me.nye.li.dik。",
+    "word_family": [
+      {
+        "word": "penyelidik",
+        "affix": "peN-",
+        "gloss": "研究人员；调查者"
+      },
+      {
+        "word": "penyelidikan",
+        "affix": "peN-…-an",
+        "gloss": "研究；调查"
+      }
+    ],
+    "root_jawi": "مڽليديق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "调查尚未查明的事情，通过查核和搜集资料弄清事实。",
+      "en_definition": "To investigate an unclear matter in order to establish facts.",
+      "ms_definition": "Menyiasat perkara yang belum jelas untuk memperoleh maklumat dan memastikan keadaan sebenar.",
+      "nuances": "强调查明事实和依据，不只是随便问问；可用于投诉、事件起因或某种可能性。词基selidik及三个动词义均见DBP词条。[DBP：selidik](https://prpm.dbp.gov.my/Cari1?d=74812&keyword=selidik)",
+      "collocations": [
+        {
+          "ms": "menyelidik punca kejadian",
+          "zh": "调查事件起因",
+          "en": "investigate the cause of an incident"
+        },
+        {
+          "ms": "menyelidik sesuatu dakwaan",
+          "zh": "调查某项指称",
+          "en": "investigate an allegation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "深入、认真地研究某个对象或课题，以获得知识或理解。",
+      "en_definition": "To study or research something thoroughly in order to understand it.",
+      "ms_definition": "Mengkaji sesuatu dengan mendalam dan bersungguh-sungguh untuk menambah pengetahuan.",
+      "nuances": "适用于学术、人文和科学研究；通常比一般的belajar更强调深入探究，并不局限于实验室研究。",
+      "collocations": [
+        {
+          "ms": "menyelidik sejarah tempatan",
+          "zh": "研究地方历史",
+          "en": "research local history"
+        },
+        {
+          "ms": "menyelidik kesan perubahan iklim",
+          "zh": "研究气候变化的影响",
+          "en": "research the effects of climate change"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "侦察或窥探敌方，以获取情报。",
+      "en_definition": "To reconnoitre or spy on an enemy to obtain information.",
+      "ms_definition": "Mengintai pihak musuh untuk mendapatkan maklumat tentangnya.",
+      "nuances": "属于词典收录的侦察义，在军事、历史或叙事语境中较容易辨认；日常谈学术研究时不带此义。",
+      "collocations": [
+        {
+          "ms": "menyelidik kedudukan musuh",
+          "zh": "侦察敌方位置",
+          "en": "reconnoitre enemy positions"
+        },
+        {
+          "ms": "menyelidik kekuatan musuh",
+          "zh": "侦察敌方实力",
+          "en": "gather intelligence on enemy strength"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 研究汇报",
+      "ms": "Pasukan universiti itu sedang menyelidik kesan pencemaran sungai terhadap kehidupan penduduk setempat.",
+      "zh": "该大学团队正在研究河流污染对当地居民生活的影响。",
+      "en": "The university team is researching how river pollution affects local residents’ lives."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论研究任务",
+      "ms_spoken": "Aku tengah menyelidik sejarah kampung ni untuk projek kelas.",
+      "ms_standard": "Saya sedang menyelidik sejarah kampung ini untuk projek kelas.",
+      "zh": "我正在查这个村子的历史，做课堂项目。",
+      "en": "I’m researching this village’s history for a class project.",
+      "spoken_features": [
+        "tengah在此对应sedang",
+        "ni对应ini",
+        "kat对应di",
+        "dah对应sudah",
+        "je对应sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku tengah menyelidik sejarah kampung ni. Kau ada gambar lama tak?",
+          "ms_standard": "Saya sedang menyelidik sejarah kampung ini. Adakah kamu mempunyai gambar lama?",
+          "zh": "我正在查这个村子的历史。你有老照片吗？",
+          "en": "I’m researching this village’s history. Do you have any old photos?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Ada kat rumah nenek. Aku dah tanya dia, nanti aku hantar je.",
+          "ms_standard": "Ada gambar lama di rumah nenek. Saya sudah bertanya kepadanya dan akan menghantar gambar itu nanti.",
+          "zh": "奶奶家有。我已经问过她了，晚点发给你。",
+          "en": "There are some at my grandmother’s house. I’ve already asked her, so I’ll send them over later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base selidik conveys care and thoroughness in the dictionary record. Adding meN- produces an action word whose senses encompass investigation, serious study, and reconnaissance. These meanings share a concern with discovering what is not yet known. The spelling menyelidik also displays a productive Malay sound pattern: initial s gives way to the nasal sound ny.",
+    "cognitive_memory_aid": "抓住selidik“仔细查究”：meN-一加，s让位给ny，变成menyelidik“深入调查、研究”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于研究汇报自然得体；谈及个人私事时，menyelidik可能让人觉得受到调查。普通询问可按语境用bertanya或mendapatkan penjelasan。",
+    "usage_etiquette": "适合研究、事实核查和调查说明。谈尚未证实的指称时保留dakwaan等限定词，避免让调查措辞暗示已经认定对方有错。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于研究汇报自然得体；谈及个人私事时，menyelidik可能让人觉得受到调查。普通询问可按语境用bertanya或mendapatkan penjelasan。",
+    "usage_etiquette": "适合研究、事实核查和调查说明。谈尚未证实的指称时保留dakwaan等限定词，避免让调查措辞暗示已经认定对方有错。"
+  }
+}

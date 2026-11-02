@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "haa",
+    "syllables": null,
+    "ipa": "[haː]",
+    "jawi": null,
+    "frequency_rank": 12305,
+    "status": "colloquial"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "haa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + haa → haa（口语声音的表现性拼写）",
+    "pattern_note": "这里的 [haː] 是常见拉长读法的示意；aa 可表现拖长的元音，不是后缀，也不表示马来语具有对应的长短元音词义对立。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "啊、哦、喏：口语中用于引起注意、接续话语或强调眼前所指事物的声音；具体作用取决于语调和上下文。",
+      "en_definition": "A conversational interjection used to draw attention, introduce a point, or emphasize what is being indicated.",
+      "ms_definition": "Bentuk tulisan tidak formal bagi bunyi seruan yang digunakan untuk menarik perhatian, menyambung ujaran atau menegaskan perkara yang ditunjukkan, mengikut intonasi dan konteks.",
+      "nuances": "实际语法功能为感叹词或话语标记；此处按给定字段范围归入 particle。不能把每个 haa 都译成“是”，也不能自动等同 ha'ah。马来语释义为根据用例编写的说明，并非 DBP 对 haa 的官方定义。议会记录可见其接续和强调用法；以下为示例组合，并非经过频率统计的固定搭配。[彭亨州议会实录](https://www.pahang.gov.my/pahang/modules_resources/database_stores/4/1727406640-application-EHEYS.pdf)。",
+      "collocations": [
+        {
+          "ms": "haa, yang ini",
+          "zh": "喏，就是这个",
+          "en": "ah, this one"
+        },
+        {
+          "ms": "haa, lepas itu",
+          "zh": "嗯，然后呢／然后",
+          "en": "right, and then"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 口语转写说明；正式句子引用目标形式",
+      "ms": "Dalam penyuntingan transkrip ini, bentuk «haa» dikekalkan untuk menggambarkan pertuturan asal.",
+      "zh": "编辑这份转写稿时，保留“haa”，以呈现原来的口语表达。",
+      "en": "In editing this transcript, the form “haa” is retained to represent the original speech."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 帮朋友寻找物品",
+      "ms_spoken": "Haa, kunci kau kat atas meja tu.",
+      "ms_standard": "Lihat, kunci kamu ada di atas meja itu.",
+      "zh": "喏，你的钥匙在那张桌子上。",
+      "en": "There—your keys are on that table.",
+      "spoken_features": [
+        "haa 引导对方注意所指物品",
+        "kau 为熟人之间的第二人称代词",
+        "kat 对应 di",
+        "tu 对应 itu"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah cari kat dalam beg. Kunci aku mana?",
+          "ms_standard": "Saya sudah mencari di dalam beg. Di manakah kunci saya?",
+          "zh": "我已经找过包里了，我的钥匙在哪儿？",
+          "en": "I've already checked my bag. Where are my keys?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Haa, kat atas meja tu je. Sebelah telefon kau.",
+          "ms_standard": "Lihat, kunci itu ada di atas meja itu sahaja, di sebelah telefon kamu.",
+          "zh": "喏，就在那张桌子上，你手机旁边。",
+          "en": "There—right on that table, next to your phone."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Written dialogue sometimes stretches a vowel to suggest the timing and emphasis of speech. Haa can be read in that way, although its precise contribution depends on the surrounding utterance. A Pahang legislative transcript records the spelling within spontaneous speech. That attestation supports describing its conversational use, but does not establish a separate ancient origin or official dictionary status.",
+    "cognitive_memory_aid": "把 haa 想成边指东西边拉长的一声“啊——，就在这里”；先听语调，再判断作用。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对朋友可自然使用；对长辈或上司，单独用强硬或不耐烦的 Haa? 追问可能显得失礼，可改为 Maaf, boleh ulang?",
+    "usage_etiquette": "适合聊天、对白和忠实的口语转写。正式说明文通常按实际意思改写为 lihat、baiklah 等表达，或省去无实质信息的声音。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对朋友可自然使用；对长辈或上司，单独用强硬或不耐烦的 Haa? 追问可能显得失礼，可改为 Maaf, boleh ulang?",
+    "usage_etiquette": "适合聊天、对白和忠实的口语转写。正式说明文通常按实际意思改写为 lihat、baiklah 等表达，或省去无实质信息的声音。"
+  }
+}
