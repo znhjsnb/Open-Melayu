@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "org",
+    "syllables": "o-rang",
+    "ipa": "/ˈoraŋ/",
+    "jawi": null,
+    "frequency_rank": 3397,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "orang",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "orang → org（书写缩略，省去 a、n）",
+    "pattern_note": "这是书写缩略，不是加缀派生；通常仍按 orang 读作两个音节，不逐个念字母。末尾 ng 表示 /ŋ/，缩写中的 g 不单独读作 /ɡ/。",
+    "word_family": [
+      {
+        "word": "seorang",
+        "affix": "se-",
+        "gloss": "一个人；独自"
+      },
+      {
+        "word": "keseorangan",
+        "affix": "ke-...-an（基于 seorang）",
+        "gloss": "独自一人；孤单"
+      }
+    ],
+    "root_jawi": "اورڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "〔网络、短信缩写〕人；人们；也可依语境指别人或某类人，相当于 orang。",
+      "en_definition": "An informal written abbreviation of orang: a person, people, or other people.",
+      "ms_definition": "Singkatan tidak rasmi bagi orang, yang merujuk kepada manusia, individu atau pihak lain mengikut konteks.",
+      "nuances": "主要用于即时消息；单复数由上下文决定。org lain 指“别人”，org ramai 指“公众”。这里按马来语 orang 的缩写处理，不指英语 organization 的缩略形式或 .org 域名。[用法与读音](https://en.wiktionary.org/wiki/org#Malay)",
+      "collocations": [
+        {
+          "ms": "org lain",
+          "zh": "别人",
+          "en": "other people"
+        },
+        {
+          "ms": "ramai org",
+          "zh": "很多人",
+          "en": "many people"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "〔网络、短信缩写〕用于人数计数的 orang，相当于中文数人时的“个、位、名”。",
+      "en_definition": "An informal written abbreviation of orang used as a classifier when counting people.",
+      "ms_definition": "Singkatan tidak rasmi bagi orang sebagai penjodoh bilangan untuk manusia.",
+      "nuances": "实际句法功能是人称量词 penjodoh bilangan；本模式未提供 classifier 标签，因此暂归入 noun。dua org 展开为 dua orang，不能理解为英语复数词尾。正式文字使用完整形式。[量词用法](https://en.wiktionary.org/wiki/org#Malay)",
+      "collocations": [
+        {
+          "ms": "dua org",
+          "zh": "两个人",
+          "en": "two people"
+        },
+        {
+          "ms": "lima org peserta",
+          "zh": "五名参加者",
+          "en": "five participants"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "〔亲密口语、聊天缩写〕以 orang 自称，表示“我、我本人”；在领属位置可表示“我的”。",
+      "en_definition": "In familiar conversation, a self-reference meaning I or me, and sometimes my in a possessive construction.",
+      "ms_definition": "Dalam percakapan mesra tertentu, singkatan bagi orang yang digunakan oleh penutur untuk merujuk kepada dirinya sendiri.",
+      "nuances": "这是 orang 的自称用法，实际具有第一人称代词功能；本模式没有 pronoun 标签，故以名词性自称归入 noun。必须根据关系与上下文判断，并非所有 org 都表示“我”。正式对应通常为 saya。[自称用法](https://en.wiktionary.org/wiki/org#Malay)",
+      "collocations": [
+        {
+          "ms": "org tak tahu",
+          "zh": "我不知道",
+          "en": "I don't know"
+        },
+        {
+          "ms": "tolong org",
+          "zh": "帮帮我",
+          "en": "help me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 文稿校对",
+      "ms": "Singkatan 'org' dalam draf tersebut hendaklah digantikan dengan perkataan penuh 'orang'.",
+      "zh": "该草稿中的缩写 org 应改为完整形式 orang。",
+      "en": "The abbreviation 'org' in the draft should be replaced with the full word 'orang'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约饭",
+      "ms_spoken": "Ada berapa org nak makan kat sini?",
+      "ms_standard": "Berapa orang yang mahu makan di sini?",
+      "zh": "有几个人要在这里吃？",
+      "en": "How many people want to eat here?",
+      "spoken_features": [
+        "org 是 orang 的书写缩略，读音仍对应 orang",
+        "nak 对应 mahu 或 hendak",
+        "kat 对应表示地点的 di",
+        "消息中可使用阿拉伯数字简写人数"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ada berapa org nak makan kat sini?",
+          "ms_standard": "Berapa orang yang mahu makan di sini?",
+          "zh": "有几个人要在这里吃？",
+          "en": "How many people want to eat here?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Empat org je. Yang lain dah makan.",
+          "ms_standard": "Empat orang sahaja. Yang lain sudah makan.",
+          "zh": "就四个人，其他人已经吃过了。",
+          "en": "Just four. Everyone else has already eaten."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Org is a shortened written form of orang rather than a new spoken root. It removes letters while preserving enough of the familiar word for readers to recover it. Messaging uses retain several functions of orang: referring to people, counting people, and sometimes referring to oneself in intimate conversation. Formal writing restores the complete spelling. [Recorded uses](https://en.wiktionary.org/wiki/org#Malay).",
+    "cognitive_memory_aid": "看到 org，先在脑中补回 a、n：orang。数字后面是“几个人”；亲密对话中再根据上下文判断是否自称“我”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友群聊中很常见；对上司、老师、客户或初次联系的人，完整写出 orang 更稳妥。自称 org 可能显得亲昵、撒娇或孩子气，并非通用礼貌自称。",
+    "usage_etiquette": "公文、考试作文、正式邮件和出版文字应使用 orang。正式场景例句以引号讨论缩写本身；不要把这种引用理解为允许在正式正文中随意使用 org。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友群聊中很常见；对上司、老师、客户或初次联系的人，完整写出 orang 更稳妥。自称 org 可能显得亲昵、撒娇或孩子气，并非通用礼貌自称。",
+    "usage_etiquette": "公文、考试作文、正式邮件和出版文字应使用 orang。正式场景例句以引号讨论缩写本身；不要把这种引用理解为允许在正式正文中随意使用 org。"
+  }
+}

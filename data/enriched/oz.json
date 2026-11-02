@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "oz",
+    "syllables": null,
+    "ipa": "/auns/",
+    "jawi": null,
+    "frequency_rank": 3143,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "oz",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "ounce / auns → oz（计量缩写，无马来语词缀）",
+    "pattern_note": "这是计量缩写，不是普通词根；is_root 在此仅表示不作马来语词缀拆分。马来语中通常展开读作 auns，因此所列 IPA 是展开读法。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "盎司的计量缩写；普通常衡盎司等于十六分之一常衡磅，约为28.35克。",
+      "en_definition": "An abbreviation for ounce, ordinarily a unit of mass equal to one sixteenth of an avoirdupois pound, approximately 28.35 grams.",
+      "ms_definition": "Singkatan bagi auns, iaitu unit jisim yang dalam sistem avoirdupois bersamaan dengan satu per enam belas paun atau kira-kira 28.35 gram.",
+      "nuances": "此处 noun 表示其对应的单位名词 auns；oz 本身是缩写。贵金属语境可能采用金衡盎司，1金衡盎司为31.1034768克，应注明 oz t、ozt 或 auns Troy。fl oz 表示液量盎司，是体积单位，不能直接按质量盎司换算。大写 Oz 还可能是专名，须结合上下文判断。[DBP：auns 与 oz](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=auns)；[NIST：金衡单位换算](https://www.nist.gov/system/files/documents/2017/05/09/Precious-Metals-Conversion-Information-march2015.pdf)",
+      "collocations": [
+        {
+          "ms": "berat bersih 8 oz",
+          "zh": "净重8盎司",
+          "en": "net weight of 8 oz"
+        },
+        {
+          "ms": "sarung tinju 12 oz",
+          "zh": "12盎司拳击手套",
+          "en": "12 oz boxing gloves"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Label produk menyatakan berat bersih 8 oz, bersamaan dengan kira-kira 227 gram.",
+      "zh": "产品标签标明净重8盎司，约合227克。",
+      "en": "The product label states a net weight of 8 oz, equivalent to approximately 227 grams."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat paket ni tulis 8 oz je, berapa gram tu?",
+      "ms_standard": "Pada paket ini hanya tertulis 8 auns; berapakah nilainya dalam gram?",
+      "zh": "这包装上只写了8盎司，那是多少克啊？",
+      "en": "The packet only says 8 oz. How many grams is that?",
+      "spoken_features": [
+        "kat 在这里对应书面语 pada。",
+        "ni 和 tu 分别是 ini 和 itu 的口语形式。",
+        "je 对应 sahaja。",
+        "聊天中保留 oz 的书面缩写，实际说话时可读作 auns。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Aku nak buat kek. Kat paket coklat ni tulis 8 oz je, berapa gram tu?",
+          "ms_standard": "Saya hendak membuat kek. Pada paket coklat ini hanya tertulis 8 auns; berapakah nilainya dalam gram?",
+          "zh": "我想做蛋糕。这包巧克力只写8盎司，是多少克啊？",
+          "en": "I'm making a cake. This chocolate packet only says 8 oz—how many grams is that?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Lebih kurang 227 gram. Timbang je kat penimbang dapur.",
+          "ms_standard": "Kira-kira 227 gram. Timbanglah dengan penimbang dapur.",
+          "zh": "大概227克，用厨房秤称一下就行。",
+          "en": "About 227 grams. Just weigh it on your kitchen scales."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The z in oz preserves a clue that English ounce no longer shows: the abbreviation comes from Italian onza. English adopted the abbreviated form in the sixteenth century. Malay uses auns for the unit, while the inherited international abbreviation remains visible on packaging and equipment. Its unusual spelling therefore records an older European naming tradition. [Etymonline: oz.](https://www.etymonline.com/word/oz.)",
+    "cognitive_memory_aid": "看到数字后面的 oz，就展开念 auns“盎司”；普通称重记住“1盎司约28.35克”，再检查有没有 fl 或 Troy。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "没有特殊敬语要求。不熟悉单位时，可自然地问：Boleh nyatakan beratnya dalam gram?（可以用克说明重量吗？）",
+    "usage_etiquette": "比较商品、烘焙配方或运动器材时，应先确认单位体系。书写时采用数字与单位间留空格的形式，如 8 oz；正式面向本地读者说明重量时，可同时提供克数。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "没有特殊敬语要求。不熟悉单位时，可自然地问：Boleh nyatakan beratnya dalam gram?（可以用克说明重量吗？）",
+    "usage_etiquette": "比较商品、烘焙配方或运动器材时，应先确认单位体系。书写时采用数字与单位间留空格的形式，如 8 oz；正式面向本地读者说明重量时，可同时提供克数。"
+  }
+}

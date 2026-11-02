@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "ditulis",
+    "syllables": null,
+    "ipa": "/di.tu.lis/",
+    "jawi": null,
+    "frequency_rank": 3204,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tulis",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + tulis → ditulis",
+    "pattern_note": "di- 构成被动动词，直接连接 tulis，保留词首 t，不发生鼻音替换。输入包把 ditulis 标为词根，此处已纠正。",
+    "word_family": [
+      {
+        "word": "menulis",
+        "affix": "meN-",
+        "gloss": "书写；撰写"
+      },
+      {
+        "word": "tulisan",
+        "affix": "-an",
+        "gloss": "文字；笔迹；文章"
+      },
+      {
+        "word": "penulis",
+        "affix": "peN-",
+        "gloss": "作者；写作者"
+      },
+      {
+        "word": "penulisan",
+        "affix": "peN-...-an",
+        "gloss": "写作；撰写活动"
+      }
+    ],
+    "root_jawi": "توليس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被写下；被用文字记录或表达。",
+      "en_definition": "To be written down, recorded, or expressed in writing.",
+      "ms_definition": "Dicatat atau dinyatakan dengan menggunakan huruf atau tulisan; bentuk pasif bagi menulis.",
+      "nuances": "这是依据 tulis 和被动构词整理的马来语释义，并非输入包提供的官方原文。ditulis 本身不表示过去时；sudah、telah、sedang、akan 等标示完成、进行或将来。di- 必须连写。[教师教育语法教材](https://ipkent.edu.my/document/pskent/pskent18/modul/bmm/BMM3093.pdf)",
+      "collocations": [
+        {
+          "ms": "ditulis dengan jelas",
+          "zh": "被写得清楚明白",
+          "en": "written clearly"
+        },
+        {
+          "ms": "ditulis dalam bahasa Melayu",
+          "zh": "以马来语写成",
+          "en": "written in Malay"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "由某人撰写；某篇文章、作品或文本被创作出来。",
+      "en_definition": "To be authored or composed by someone.",
+      "ms_definition": "Dikarang atau dihasilkan sebagai teks atau karya oleh seseorang; bentuk pasif bagi menulis dalam pengertian mengarang.",
+      "nuances": "用于书籍、文章、报告、剧本等，强调作品或作者身份。被动 di- 的语法功能与第一义相同；这里区分的是实际记录文字与撰写作品的语义。[DBP：tulis-menulis](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tulis-menulis)",
+      "collocations": [
+        {
+          "ms": "ditulis oleh pengarang tempatan",
+          "zh": "由本地作家撰写",
+          "en": "written by a local author"
+        },
+        {
+          "ms": "ditulis berdasarkan kisah benar",
+          "zh": "根据真实故事写成",
+          "en": "written based on a true story"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场汇报",
+      "ms": "Laporan ini ditulis berdasarkan hasil pemeriksaan yang dijalankan oleh pasukan teknikal.",
+      "zh": "本报告根据技术团队开展的检查结果撰写。",
+      "en": "This report is written based on the findings of the inspection conducted by the technical team."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 查看群组通知",
+      "ms_spoken": "Masa mesyuarat dah ditulis kat situ, kan?",
+      "ms_standard": "Masa mesyuarat sudah ditulis di situ, bukan?",
+      "zh": "开会时间已经写在那儿了，对吧？",
+      "en": "The meeting time's already written there, right?",
+      "spoken_features": [
+        "dah 对应 sudah；kat 对应 di。",
+        "kan 用于征求确认。",
+        "口语中仍可保留完整被动形式 ditulis。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Masa mesyuarat dah ditulis kat situ, kan?",
+          "ms_standard": "Masa mesyuarat sudah ditulis di situ, bukan?",
+          "zh": "开会时间已经写在那儿了，对吧？",
+          "en": "The meeting time's already written there, right?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, kat mesej paling atas tu. Baca yang tu je.",
+          "ms_standard": "Sudah, masa mesyuarat tercatat dalam mesej yang paling atas itu. Baca mesej itu sahaja.",
+          "zh": "写了，就在最上面那条消息。看那条就行。",
+          "en": "Yep, it's in the message at the top. Just read that one."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ditulis illustrates Malay's productive voice system: tulis supplies the writing meaning, while di- presents the written item as the subject. The same root appears in menulis, tulisan and penulis, linking an action, its product and its agent. This entry therefore treats ditulis as a derived form rather than an independent root. [教师教育语法教材](https://ipkent.edu.my/document/pskent/pskent18/modul/bmm/BMM3093.pdf)",
+    "cognitive_memory_aid": "tulis＝写；di- 把镜头转向“被写的东西”：surat ditulis＝信被写下。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "语体中性，适用于公文、新闻和日常交谈。被动表达可把重点放在文件或内容上；需要说明责任时应明确作者或执行者。",
+    "usage_etiquette": "ditulis 不自动表示已经写完，须结合语境或完成标记判断。规范语体中，第一、第二人称施事常采用 Laporan itu saya tulis 或 Laporan itu kamu tulis 这样的结构。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "语体中性，适用于公文、新闻和日常交谈。被动表达可把重点放在文件或内容上；需要说明责任时应明确作者或执行者。",
+    "usage_etiquette": "ditulis 不自动表示已经写完，须结合语境或完成标记判断。规范语体中，第一、第二人称施事常采用 Laporan itu saya tulis 或 Laporan itu kamu tulis 这样的结构。"
+  }
+}

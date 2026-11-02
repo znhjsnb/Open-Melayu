@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "woody",
+    "syllables": null,
+    "ipa": "/ˈwʊd.i/",
+    "jawi": null,
+    "frequency_rank": 3300,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "woody",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + woody → woody",
+    "pattern_note": "此处按马来语输入词形整体处理，is_root 不表示它在英语中不可分析：英语形容词为 wood + -y；专名 Woody 则须另作专名分析。IPA 为英语参考音。下列词族仅适用于英语形容词，不适用于人物姓名。",
+    "word_family": [
+      {
+        "word": "wood",
+        "affix": null,
+        "gloss": "英语词基：木材；木质"
+      },
+      {
+        "word": "woodiness",
+        "affix": "-ness",
+        "gloss": "英语：木质性；木质感"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "英语形容词：木质的、含木质组织的；用于具有坚硬木质部分的植物或茎。",
+      "en_definition": "Containing wood or having hard, woody plant tissue.",
+      "ms_definition": "Berkayu atau mempunyai tisu kayu yang keras.",
+      "nuances": "规范马来语植物学表达通常用 berkayu。以下搭配中的 woody 为英语成分，不是已确认的马来语词。status 按请求模板保留，不代表 DBP 收词认证；马来文释义为编写释义。参见 [DBP：batang berkayu / woody stem](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=batang)。输入缺乏上下文，不能断定原词例采用此义。",
+      "collocations": [
+        {
+          "ms": "batang yang woody",
+          "zh": "木质茎",
+          "en": "a woody stem"
+        },
+        {
+          "ms": "bahagian yang woody",
+          "zh": "木质化的部分",
+          "en": "the woody part"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "英语形容词：具有木头般的气味、味道或质感的；香氛语境常指木质调。",
+      "en_definition": "Resembling wood in smell, taste, or texture.",
+      "ms_definition": "Menyerupai kayu dari segi bau, rasa atau tekstur.",
+      "nuances": "属于英语描写词在混合话语中的使用；香水描述可译为 beraroma kayu。木质调描述感官印象，并不保证产品实际含有某种木材。参见 [Merriam-Webster：woody](https://www.merriam-webster.com/dictionary/woody)。搭配为示例，未证明其在马来语语料中的频率。",
+      "collocations": [
+        {
+          "ms": "bau woody",
+          "zh": "木质气味",
+          "en": "a woody scent"
+        },
+        {
+          "ms": "minyak wangi dengan aroma woody",
+          "zh": "带木质调的香水",
+          "en": "perfume with a woody aroma"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "专名 Woody，通常音译为伍迪；可指人名或角色名，例如《玩具总动员》中的牛仔玩具角色。",
+      "en_definition": "Woody, a proper name, including the cowboy toy character in Toy Story.",
+      "ms_definition": "Nama khas bagi seseorang atau watak, termasuk watak mainan koboi dalam Toy Story.",
+      "nuances": "规范书写应大写 Woody。输入中的小写形式可能来自文本统一小写处理，但没有原始语境便不能确认所指。此处因词性选项限制，以 noun 标记专有名词；专名不应按形容词直接译成“木质的”。角色身份参见 [Pixar：Toy Story](https://www.pixar.com/toy-story)。",
+      "collocations": [
+        {
+          "ms": "watak Woody",
+          "zh": "伍迪这个角色",
+          "en": "the character Woody"
+        },
+        {
+          "ms": "patung Woody",
+          "zh": "伍迪玩偶",
+          "en": "a Woody figure"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan botani ini, istilah Inggeris “woody stem” diterjemahkan sebagai “batang berkayu”.",
+      "zh": "在这份植物学报告中，英语术语 woody stem 译为 batang berkayu。",
+      "en": "In this botanical report, the English term “woody stem” is translated as “batang berkayu”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bau minyak wangi ni woody sikit, kan?",
+      "ms_standard": "Minyak wangi ini mempunyai sedikit aroma kayu, bukan?",
+      "zh": "这香水闻起来有点木质调，对吧？",
+      "en": "This perfume smells a little woody, doesn't it?",
+      "spoken_features": [
+        "woody 为英语感官描写词",
+        "ni 对应 ini",
+        "sikit 对应 sedikit",
+        "kan 用于寻求认同"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bau minyak wangi ni woody sikit, kan? Aku nak cuba.",
+          "ms_standard": "Minyak wangi ini mempunyai sedikit aroma kayu, bukan? Saya mahu mencubanya.",
+          "zh": "这香水有点木质调，对吧？我想试试。",
+          "en": "This perfume smells a little woody, doesn't it? I'd like to try it."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ha, cuba kat pergelangan tangan dulu. Sembur sikit je.",
+          "ms_standard": "Ya, cuba pada pergelangan tangan dahulu. Semburkan sedikit sahaja.",
+          "zh": "对啊，先在手腕上试试。喷一点就好。",
+          "en": "Yeah, try it on your wrist first. Just a little spray."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English woody connects wood with the adjective-forming suffix -y, allowing descriptions of plants, textures, and woodlike sensory impressions. A different reading is the capitalized name Woody, familiar from Pixar's cowboy toy. These readings illustrate a lexicographic trap: lowercasing a corpus can erase the visual distinction between an ordinary adjective and a character's name. See [Merriam-Webster](https://www.merriam-webster.com/dictionary/woody) and [Pixar](https://www.pixar.com/toy-story).",
+    "cognitive_memory_aid": "wood 是木头，woody 是“有木头特征的”；大写 Woody 配牛仔帽，记作角色“伍迪”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词通常不涉及尊称差异；主要问题是听者是否理解英语描写词。对公众解释时，植物语境用 berkayu，香氛语境用 beraroma kayu 更清楚。",
+    "usage_etiquette": "必须先区分英语形容词与专名。谈电影角色时保留 Woody 的大写和姓名功能；正式马来文植物学说明宜采用对应术语，不应因该词出现在语料中就称其为规范马来语词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词通常不涉及尊称差异；主要问题是听者是否理解英语描写词。对公众解释时，植物语境用 berkayu，香氛语境用 beraroma kayu 更清楚。",
+    "usage_etiquette": "必须先区分英语形容词与专名。谈电影角色时保留 Woody 的大写和姓名功能；正式马来文植物学说明宜采用对应术语，不应因该词出现在语料中就称其为规范马来语词。"
+  }
+}

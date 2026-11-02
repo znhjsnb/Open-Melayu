@@ -1,0 +1,135 @@
+{
+  "headword": {
+    "word": "disitu",
+    "syllables": null,
+    "ipa": "/di si.tu/",
+    "jawi": null,
+    "frequency_rank": 3064,
+    "status": "nonstandard",
+    "verification_note": "规范形式为 di situ，必须分写；IPA 对应该规范短语。输入空缺保留为 null。参见 [DBP：di situ](https://prpm.dbp.gov.my/Cari1?d=128916&keyword=di+situ) 与 [DBP：地点介词 di 的分写规则](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=rasa+kan)。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "disitu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "di（地点介词） + situ（地点指示词） → di situ",
+    "pattern_note": "root_word 字段仅保留输入标签；实际核心词是 situ。输入 is_root=true 不适用于此连写形式。地点介词 di 是独立词，不是被动前缀 di-；此处无词缀音变。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "在那里；在所指的那个地方。规范写法为 di situ。",
+      "en_definition": "There; at the place indicated or previously mentioned.",
+      "ms_definition": "Di tempat itu.",
+      "nuances": "整体是具有地点状语功能的介词短语，此处 pos 按句法功能记为 adverb。situ 通常指相对于说话者不太远、或语境中已明确的地点；与 di sana 的距离区别受语境影响。",
+      "collocations": [
+        {
+          "ms": "berada di situ",
+          "zh": "在那里",
+          "en": "be there"
+        },
+        {
+          "ms": "menunggu di situ",
+          "zh": "在那里等候",
+          "en": "wait there"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "在那个时候；在所述事件的那个时刻。",
+      "en_definition": "At that time or at that point in the events described.",
+      "ms_definition": "Pada waktu atau ketika itu.",
+      "nuances": "DBP 另收时间义；须由上下文判断。下列为说明该义的组合，不宣称具有语料统计上的高频性。需要明确时间时，正式文字可改用 pada ketika itu。",
+      "collocations": [
+        {
+          "ms": "di situ timbul persoalan",
+          "zh": "就在那时出现问题",
+          "en": "at that point a question arises"
+        },
+        {
+          "ms": "di situ bermulanya perubahan",
+          "zh": "变化从那一刻开始",
+          "en": "that is when the change begins"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "pronoun",
+      "zh_definition": "你；口语中用来指称交谈对象。",
+      "en_definition": "You; a colloquial reference to the person being addressed.",
+      "ms_definition": "Awak, engkau atau kamu dalam penggunaan bahasa percakapan.",
+      "nuances": "DBP 标为口语义。实际词类为代词，因此使用 pronoun，避免误标为名词。以下为释义性组合，非经统计确认的高频搭配；一般学习者宜优先掌握地点义。",
+      "collocations": [
+        {
+          "ms": "kalau di situ setuju",
+          "zh": "如果你同意",
+          "en": "if you agree"
+        },
+        {
+          "ms": "bagaimana dengan di situ",
+          "zh": "你那边怎么样",
+          "en": "what about you"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 活动安排",
+      "ms": "Para peserta diminta berkumpul di situ sebelum sesi taklimat bermula.",
+      "zh": "请参与者在说明会开始前到该处集合。",
+      "en": "Participants are requested to assemble there before the briefing begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友约见",
+      "ms_spoken": "Aku dah sampai. Tunggu kat situ je, ya.",
+      "ms_standard": "Saya sudah sampai. Tunggu di situ sahaja, ya.",
+      "zh": "我到了。你就在那儿等着啊。",
+      "en": "I'm here. Just wait there, okay?",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "kat situ 对应 di situ。",
+        "je 对应 sahaja；ya 用于缓和语气。",
+        "aku 适合熟悉且接受这种称呼的朋友。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah sampai. Tunggu kat situ je, ya.",
+          "ms_standard": "Saya sudah sampai. Tunggu di situ sahaja, ya.",
+          "zh": "我到了。你就在那儿等着啊。",
+          "en": "I'm here. Just wait there, okay?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Okey, aku tunggu kat sini. Kau nampak kedai tu tak?",
+          "ms_standard": "Baiklah, saya menunggu di sini. Adakah awak nampak kedai itu?",
+          "zh": "好，我在这儿等。你看到那家店了吗？",
+          "en": "Okay, I'll wait here. Can you see that shop?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Di situ combines the Malay locative preposition di with the place demonstrative situ. Its spelling preserves that grammatical boundary: the preposition stands separately, although speech may flow continuously across both words. The joined input disitu therefore needs an orthographic correction, not an invented derivational history. DBP also records temporal and colloquial personal-reference uses of the phrase.",
+    "cognitive_memory_aid": "di 表“在”，situ 表“那里”：两个意思、两个词，中间留空格。",
+    "source": "[DBP：di situ 的三个义项](https://prpm.dbp.gov.my/Cari1?d=128916&keyword=di+situ)"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "指示地点时，可用 Sila tunggu di situ 或 Boleh tunggu di situ sebentar?；对不熟悉的人使用 sila、boleh 和合适称呼更自然。",
+    "usage_etiquette": "正式写作使用 di situ。聊天中的 kat situ 是口语表达；disitu 的连写不能据此视为规范。代词义带有口语限制，不宜作为通用敬称教授。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "指示地点时，可用 Sila tunggu di situ 或 Boleh tunggu di situ sebentar?；对不熟悉的人使用 sila、boleh 和合适称呼更自然。",
+    "usage_etiquette": "正式写作使用 di situ。聊天中的 kat situ 是口语表达；disitu 的连写不能据此视为规范。代词义带有口语限制，不宜作为通用敬称教授。"
+  }
+}

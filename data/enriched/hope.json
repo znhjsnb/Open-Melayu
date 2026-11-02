@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "hope",
+    "syllables": null,
+    "ipa": "/həʊp/",
+    "jawi": null,
+    "frequency_rank": 3408,
+    "status": "unverified",
+    "status_note": "英语词；现有材料不足以将其标为正式马来语词条。以下提供英语词义及马来语对应表达，马来语释义为编辑性释义，并非DBP原文。音标采用英式英语；音节与爪夷文保留输入中的null。排名仅沿用输入数据。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hope",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hope → hope",
+    "pattern_note": "按英语独立词素处理，不套用马来语词缀规则。英语读音为一个音节，词尾e不单独发音；以下词族属于英语。",
+    "word_family": [
+      {
+        "word": "hopeful",
+        "affix": "-ful",
+        "gloss": "抱有希望的；有希望的"
+      },
+      {
+        "word": "hopeless",
+        "affix": "-less",
+        "gloss": "没有希望的；无望的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "希望某事发生或某种情况属实，并认为其具有实现的可能。",
+      "en_definition": "To want something to happen or be true while considering it possible.",
+      "ms_definition": "Menginginkan sesuatu berlaku atau menjadi kenyataan sambil beranggapan bahawa hal itu mungkin terjadi; berharap.",
+      "nuances": "标准马来语通常使用harap、berharap或mengharapkan，具体取决于句法。英语hope可接that从句、to不定式或for短语，不能将这些结构直接照搬到马来语。以下搭配列马来语对应表达。[Cambridge英马词典](https://dictionary.cambridge.org/us/dictionary/english-malaysian/hope)",
+      "collocations": [
+        {
+          "ms": "berharap agar berjaya",
+          "zh": "希望取得成功",
+          "en": "hope to succeed"
+        },
+        {
+          "ms": "mengharapkan bantuan",
+          "zh": "希望得到帮助",
+          "en": "hope for help"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "期待愿望实现的希望；认为理想结果仍有可能出现的信念。",
+      "en_definition": "A feeling that a desired outcome is possible.",
+      "ms_definition": "Perasaan bahawa sesuatu yang diingini masih mungkin tercapai; harapan.",
+      "nuances": "通常对应harapan；英语give up hope可译为putus harapan，而不是机械逐词翻译。[Cambridge英马词典](https://dictionary.cambridge.org/us/dictionary/english-malaysian/hope)",
+      "collocations": [
+        {
+          "ms": "menaruh harapan",
+          "zh": "寄予希望",
+          "en": "have hope"
+        },
+        {
+          "ms": "putus harapan",
+          "zh": "失去希望",
+          "en": "lose hope"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "被寄予希望、被认为能够带来帮助或成功的人或事物。",
+      "en_definition": "Someone or something relied on for a desired result.",
+      "ms_definition": "Orang atau sesuatu yang diharapkan dapat membawa pertolongan atau kejayaan.",
+      "nuances": "指希望所寄托的对象，例如our last hope；也可指具体期望。大写Hope可能是人名，不能在缺少语境时自动译作harapan。[Cambridge英马词典](https://dictionary.cambridge.org/us/dictionary/english-malaysian/hope)",
+      "collocations": [
+        {
+          "ms": "harapan terakhir",
+          "zh": "最后的希望",
+          "en": "the last hope"
+        },
+        {
+          "ms": "harapan pasukan",
+          "zh": "全队寄予厚望的人",
+          "en": "the team's hope"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场翻译说明；通过引述英语词形展示规范用法",
+      "ms": "Dalam terjemahan laporan ini, perkataan Inggeris 'hope' dipadankan dengan 'harapan'.",
+      "zh": "本报告的译文将英语单词hope译为harapan。",
+      "en": "In the translation of this report, the English word 'hope' is rendered as 'harapan'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间的马英混合交流",
+      "ms_spoken": "Aku hope esok tak hujan lah, kita dah nak pergi berkelah.",
+      "ms_standard": "Saya berharap esok tidak hujan kerana kita sudah merancang untuk pergi berkelah.",
+      "zh": "希望明天别下雨啦，我们都计划好去野餐了。",
+      "en": "I hope it doesn't rain tomorrow—we've already planned a picnic.",
+      "spoken_features": [
+        "hope为英语语码转换，标准对应表达为berharap",
+        "aku为熟人间自称",
+        "tak对应tidak，dah对应sudah，nak对应hendak",
+        "lah增添口语语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku hope esok tak hujan lah, kita dah nak pergi berkelah.",
+          "ms_standard": "Saya berharap esok tidak hujan kerana kita sudah merancang untuk pergi berkelah.",
+          "zh": "希望明天别下雨啦，我们都计划好去野餐了。",
+          "en": "I hope it doesn't rain tomorrow—we've already planned a picnic."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kalau hujan, kita makan kat rumah je.",
+          "ms_standard": "Jika hujan, kita makan di rumah sahaja.",
+          "zh": "要是下雨，我们就在家吃吧。",
+          "en": "If it rains, we'll just eat at home."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English hope continues an Old English word represented by hopian, with related forms in Germanic languages. Its history therefore belongs to English rather than Malay affixation. For learners, the useful bridge is grammatical: Malay commonly distinguishes the action berharap from the noun harapan, whereas English uses hope for both. [Merriam-Webster](https://www.merriam-webster.com/dictionary/hope)",
+    "cognitive_memory_aid": "把hope和harapan配成一对：心里期待是hope；马来语说动作常用berharap，说那份期待用harapan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "马英混合交流中可出现hope；正式马来语邮件与报告宜使用berharap或mengharapkan。面对上级提出期待时，应同时说清所需行动和期限。",
+    "usage_etiquette": "可用于表达愿望、鼓励或保留不确定性；涉及承诺时，单说希望不能代替明确确认。上述口语例句展示语码转换，不代表hope已成为规范马来语词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "马英混合交流中可出现hope；正式马来语邮件与报告宜使用berharap或mengharapkan。面对上级提出期待时，应同时说清所需行动和期限。",
+    "usage_etiquette": "可用于表达愿望、鼓励或保留不确定性；涉及承诺时，单说希望不能代替明确确认。上述口语例句展示语码转换，不代表hope已成为规范马来语词。"
+  }
+}

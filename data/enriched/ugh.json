@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "ugh",
+    "syllables": null,
+    "ipa": "/ʊx/, /ɜː/",
+    "jawi": null,
+    "frequency_rank": 3241,
+    "status": "unverified",
+    "status_note": "已核实为英语感叹表达，未核实为正式马来语词头。排名仅沿用输入；音标为英语词典所列变体。Jawi和音节字段缺失，保留null。以下马来语释义为说明性编写，非DBP官方释义原文。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ugh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ugh → ugh",
+    "pattern_note": "依输入保留根词标记。它是模拟情绪声音的英语感叹表达，不适用马来语词缀规则；英语词典列有多种读音，不宜机械地按字母逐个发音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "表示厌恶、嫌弃或烦躁的感叹声，相当于“呃，真恶心”“唉，真烦”等，具体译法取决于语境。",
+      "en_definition": "An exclamation expressing disgust, aversion, or annoyance.",
+      "ms_definition": "Seruan bahasa Inggeris yang melahirkan rasa jijik, tidak suka atau jengkel terhadap sesuatu.",
+      "nuances": "为兼容给定词类枚举暂归particle；严格词类是interjection，即kata seru，而非马来语语法助词。英语读音与厌恶义见[Cambridge：ugh](https://dictionary.cambridge.org/us/dictionary/english/ugh?topic=sounds-used-as-interjections)，烦躁义亦见[Collins：ugh](https://www.collinsdictionary.com/us/dictionary/english/ugh)。下列ms是含英语感叹词的混语示例，不是标准马来语搭配，也不宣称具有经统计验证的高频性。",
+      "collocations": [
+        {
+          "ms": "Ugh, busuknya!",
+          "zh": "呃，好臭！",
+          "en": "Ugh, that stinks!"
+        },
+        {
+          "ms": "Ugh, kena tunggu lagi!",
+          "zh": "唉，又得等！",
+          "en": "Ugh, we have to wait again!"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式语言分析；将ugh作为引用对象",
+      "ms": "Dalam transkrip tersebut, seruan bahasa Inggeris “ugh” menunjukkan rasa jijik penutur terhadap bau itu.",
+      "zh": "在该转录文本中，英语感叹词“ugh”表明说话者对那股气味感到厌恶。",
+      "en": "In the transcript, the English exclamation “ugh” indicates the speaker's disgust at the smell."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间交流；英语感叹词嵌入马来语",
+      "ms_spoken": "Ugh, busuknya bau kat sini!",
+      "ms_standard": "Aduh, busuknya bau di sini!",
+      "zh": "呃，这里也太臭了！",
+      "en": "Ugh, it really stinks here!",
+      "spoken_features": [
+        "ugh属于英语感叹词的语码混用。",
+        "kat对应标准表达中的di。",
+        "形容词后的-nya可表达强烈感叹。",
+        "标准句用Aduh表达反应，实际译词应随情绪和语境调整。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Ugh, busuknya bau kat sini! Aku tak nak duduk sini.",
+          "ms_standard": "Aduh, busuknya bau di sini! Saya tidak mahu duduk di sini.",
+          "zh": "呃，这里好臭！我不想坐这儿。",
+          "en": "Ugh, it stinks here! I don't want to sit here."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jom pindah meja je. Kat luar ada tempat lagi.",
+          "ms_standard": "Mari kita berpindah ke meja lain sahaja. Masih ada tempat di luar.",
+          "zh": "换张桌子吧，外面还有位子。",
+          "en": "Let's just move tables. There are still seats outside."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ugh is an imitative expression: its spelling represents a bodily sound rather than a neatly articulated descriptive word. English dictionaries record several pronunciations because speakers can voice disgust in different ways. In a mixed-language message, the expression can carry an emotional reaction even when the surrounding sentence is written in Malay. [Source: Oxford](https://www.oxfordlearnersdictionaries.com/us/definition/english/ugh).",
+    "cognitive_memory_aid": "想象闻到怪味后脱口而出的低沉声音：ugh把“嫌弃的声音”写出来。记情绪，不把它读成字母U-G-H。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对着别人准备的食物、外貌或习惯说ugh，容易显得嫌弃或无礼。朋友间对气味或共同遇到的麻烦使用，通常更容易理解。",
+    "usage_etiquette": "适合非正式聊天或引述人物反应。正式投诉应具体说明问题，例如Terdapat bau yang kurang menyenangkan，而不是只写ugh。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对着别人准备的食物、外貌或习惯说ugh，容易显得嫌弃或无礼。朋友间对气味或共同遇到的麻烦使用，通常更容易理解。",
+    "usage_etiquette": "适合非正式聊天或引述人物反应。正式投诉应具体说明问题，例如Terdapat bau yang kurang menyenangkan，而不是只写ugh。"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "diantara",
+    "syllables": null,
+    "ipa": "/di antara/",
+    "jawi": null,
+    "frequency_rank": 3047,
+    "status": "nonstandard",
+    "standard_form": "di antara",
+    "spelling_note": "表达空间位置时，规范写法为分写的 di antara；表达抽象关系、比较或群体成员时通常使用 antara。输入形式 diantara 不能标为规范单词。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "diantara",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "di + antara → di antara；diantara 为非规范连写",
+    "pattern_note": "root_word 原样保留输入包字段，但 diantara 并非独立词根，输入包的 is_root: true 已纠正。这里 di 是须分写的方位介词，不是被动前缀 di-；antara 是独立词。",
+    "word_family": [
+      {
+        "word": "pengantara",
+        "affix": "peN-",
+        "gloss": "中间人；调解人"
+      },
+      {
+        "word": "perantaraan",
+        "affix": "per-...-an",
+        "gloss": "中介；媒介；居间作用"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "在……之间；处于两个位置、物体或人的中间。对应规范介词短语 di antara。",
+      "en_definition": "Between; in the space separating two people, objects, or locations. Standard spelling: di antara.",
+      "ms_definition": "Di ruang atau tempat yang memisahkan dua pihak, benda atau kedudukan.",
+      "nuances": "这是对规范短语 di antara 的马来语释义概括，并非 diantara 的官方独立词条。正式表达空间两端时可用 di antara A dengan B。分写及空间用法依据 [PRPM：diantara／di antara](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=diantara)。",
+      "collocations": [
+        {
+          "ms": "terletak di antara dua bangunan",
+          "zh": "位于两栋建筑之间",
+          "en": "situated between two buildings"
+        },
+        {
+          "ms": "duduk di antara ibu dengan bapa",
+          "zh": "坐在母亲和父亲之间",
+          "en": "sit between one's mother and father"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "在……之中；涉及若干人或事物之间的抽象关系。聊天或未经校订的文字中可见 diantara，但此类语境通常应改用 antara。",
+      "en_definition": "Among, or between parties in an abstract relationship; a nonstandard use normally corrected to antara.",
+      "ms_definition": "Antara anggota sesuatu kumpulan atau pihak yang mempunyai hubungan; dalam penggunaan baku tanpa di apabila tidak merujuk tempat.",
+      "nuances": "此义记录输入形式可能表达的意思，不认可其规范性。谈合作、差别、比较或群体成员时，不应机械套用表示空间的 di antara。以下搭配展示规范对应形式。参见 [PRPM：antara 与 di antara 的区别](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=diantara)。",
+      "collocations": [
+        {
+          "ms": "kerjasama antara jabatan",
+          "zh": "部门之间的合作",
+          "en": "cooperation between departments"
+        },
+        {
+          "ms": "antara peserta yang hadir",
+          "zh": "在出席的参与者之中",
+          "en": "among the participants present"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pusat maklumat itu terletak di antara perpustakaan dengan dewan utama.",
+      "zh": "该咨询中心位于图书馆与主礼堂之间。",
+      "en": "The information centre is located between the library and the main hall."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah sampai. Aku tunggu kat bangku diantara dua pokok tu je.",
+      "ms_standard": "Saya sudah sampai. Saya menunggu di bangku yang terletak di antara dua pokok itu sahaja.",
+      "zh": "我到了，就在那两棵树中间的长椅上等。",
+      "en": "I'm here. I'm just waiting on the bench between those two trees.",
+      "spoken_features": [
+        "diantara 的连写是聊天拼写偏差，不是独立的口语发音变化；标准写法为 di antara。",
+        "dah 对应 sudah，kat 在此对应 di，tu 对应 itu，je 对应 sahaja。",
+        "aku 适合熟人之间；正式或需要尊敬的场合通常改用 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah sampai? Aku nak cari kau kat mana ni?",
+          "ms_standard": "Adakah kamu sudah sampai? Di manakah saya boleh menemui kamu?",
+          "zh": "你到了吗？我现在去哪儿找你呀？",
+          "en": "Are you here yet? Where can I find you?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Aku tunggu kat bangku diantara dua pokok tu je.",
+          "ms_standard": "Saya sudah sampai. Saya menunggu di bangku yang terletak di antara dua pokok itu sahaja.",
+          "zh": "到了。我就在那两棵树中间的长椅上等。",
+          "en": "Yep. I'm just waiting on the bench between those two trees."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The spatial image is an intervening gap: two landmarks establish the space where something stands. Malay expresses that location with the separate preposition di and the word antara. DBP discusses how such spatial meanings relate to broader relationships and comparisons. The joined spelling diantara obscures this grammatical boundary; it does not create a separate historical root. See [DBP's cognitive study of antara](https://jurnal.dbp.my/index.php/jurnalbahasa/ms/article/view/8599).",
+    "cognitive_memory_aid": "想象两棵树，中间坐着你：di 表示“在”，antara 表示“之间”。两个词之间也留一道空隙：di antara。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词语本身没有敬语等级。问路或请人移动位置时，可用 Maaf、boleh 或 sila 表示礼貌，例如 Maaf, boleh saya duduk di antara kamu berdua?（不好意思，我可以坐在你们两位中间吗？）。",
+    "usage_etiquette": "路标、报告和正式信息中写 di antara。抽象比较或关系通常用 antara，例如 hubungan antara jabatan。替别人修改聊天拼写时宜私下温和说明，避免把随手连写当作能力评价。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词语本身没有敬语等级。问路或请人移动位置时，可用 Maaf、boleh 或 sila 表示礼貌，例如 Maaf, boleh saya duduk di antara kamu berdua?（不好意思，我可以坐在你们两位中间吗？）。",
+    "usage_etiquette": "路标、报告和正式信息中写 di antara。抽象比较或关系通常用 antara，例如 hubungan antara jabatan。替别人修改聊天拼写时宜私下温和说明，避免把随手连写当作能力评价。"
+  }
+}

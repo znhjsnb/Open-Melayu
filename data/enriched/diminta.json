@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "diminta",
+    "syllables": null,
+    "ipa": "/di.min.ta/",
+    "jawi": null,
+    "frequency_rank": 3297,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "minta",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + minta → diminta",
+    "pattern_note": "输入包将 diminta 误判为词根；实际为 minta 的被动形式。di- 与动词连写，不引起词根音变；有别于分写的地点介词 di。音节及爪夷文缺值保留为 null。",
+    "word_family": [
+      {
+        "word": "meminta",
+        "affix": "meN-",
+        "gloss": "请求；索取"
+      },
+      {
+        "word": "permintaan",
+        "affix": "per-...-an",
+        "gloss": "请求；需求"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被要求、被请求或被索取；表示某人、某项行动或某物成为请求的对象。",
+      "en_definition": "To be asked for, requested, or required of someone.",
+      "ms_definition": "Menjadi perkara yang dipohon atau dikehendaki oleh seseorang; dikenakan permintaan supaya melakukan sesuatu.",
+      "nuances": "被动动词，不自行标示过去时：telah diminta 表示已经被要求，akan diminta 表示将被要求。说明文字可写 maklumat yang diminta；人员作主语可写 peserta diminta hadir。马来文释义为依据词根义编写的释义，并非 DBP 原文引句。参见 [DBP：minta](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=minta)。",
+      "collocations": [
+        {
+          "ms": "maklumat yang diminta",
+          "zh": "所要求提供的资料",
+          "en": "the information requested"
+        },
+        {
+          "ms": "diminta memberikan penjelasan",
+          "zh": "被要求作出解释",
+          "en": "be asked to provide an explanation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "请……；用于通知或指示中，以被动句式要求有关人士采取行动。",
+      "en_definition": "Used in notices to request or instruct someone to do something.",
+      "ms_definition": "Digunakan untuk menyampaikan permintaan atau arahan agar pihak tertentu melakukan sesuatu.",
+      "nuances": "通知中的 diminta 往往具有实际指令效力，不能一概理解为可自由拒绝的邀请；是否必须遵守取决于发布者及场景。语法上仍是被动动词，不是独立的礼貌助词。该用法与 DBP 所列 minta 的 diharap、sudilah 义有关。参见 [DBP：minta](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=minta)。",
+      "collocations": [
+        {
+          "ms": "semua peserta diminta hadir",
+          "zh": "请所有参与者出席",
+          "en": "all participants are requested to attend"
+        },
+        {
+          "ms": "orang ramai diminta bekerjasama",
+          "zh": "请公众给予合作",
+          "en": "members of the public are requested to cooperate"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua pemohon diminta mengemukakan dokumen sokongan sebelum tarikh tutup.",
+      "zh": "请所有申请者在截止日期前提交证明文件。",
+      "en": "All applicants are requested to submit supporting documents before the closing date."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku diminta datang awal esok, jadi kena gerak awal lah.",
+      "ms_standard": "Saya diminta datang awal esok, jadi saya perlu bertolak awal.",
+      "zh": "人家叫我明天早点到，所以得早点出门啦。",
+      "en": "I've been asked to come early tomorrow, so I'll have to leave early.",
+      "spoken_features": [
+        "aku 是熟人之间的非正式第一人称",
+        "kena 在此表示必须",
+        "gerak 在此口语化地表示出发",
+        "lah 增添解释和接受安排的语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau pun diminta datang awal esok ke?",
+          "ms_standard": "Adakah kamu juga diminta datang awal esok?",
+          "zh": "你也被叫明天早点到吗？",
+          "en": "Were you asked to come early tomorrow too?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, aku dah dapat mesej. Nak gerak pukul tujuh lah.",
+          "ms_standard": "Ya, saya sudah menerima mesej itu. Saya bercadang untuk bertolak pada pukul tujuh.",
+          "zh": "对啊，我收到信息了。打算七点出门。",
+          "en": "Yeah, I got the message. I'm planning to leave at seven."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diminta illustrates Malay word formation rather than a separate borrowing: the passive prefix di- attaches to minta, meaning to ask or request. The resulting form also suits public notices, where the person making the request can remain unnamed. This helps explain how a grammatically passive expression can function pragmatically as a courteous institutional instruction.",
+    "cognitive_memory_aid": "把 minta 记成“提出请求”，前加 di- 就把视角转向“被请求的一方”：minta → diminta。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "公文中的 diminta 语气较间接，但不必然表示事情可做可不做。与上级或陌生人直接交谈时，可用 Mohon bantuan tuan/puan 或 Bolehkah tuan/puan…，避免把公告式措辞生硬套入私人请求。",
+    "usage_etiquette": "适合行政通知、学校通告、会议安排和新闻报道。熟人聊天也可用来转述别人提出的要求；直接请求朋友帮忙时，通常用 minta、tolong 或 boleh… 更自然。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "公文中的 diminta 语气较间接，但不必然表示事情可做可不做。与上级或陌生人直接交谈时，可用 Mohon bantuan tuan/puan 或 Bolehkah tuan/puan…，避免把公告式措辞生硬套入私人请求。",
+    "usage_etiquette": "适合行政通知、学校通告、会议安排和新闻报道。熟人聊天也可用来转述别人提出的要求；直接请求朋友帮忙时，通常用 minta、tolong 或 boleh… 更自然。"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "fish",
+    "syllables": null,
+    "ipa": "/fɪʃ/",
+    "jawi": null,
+    "frequency_rank": 3485,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "fish",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + fish → fish（英语整词；马来语名词对应 ikan）",
+    "pattern_note": "这是英语词，不能按马来语词缀分析。英语 sh 表示 /ʃ/，全词一个音节。下列词族也是英语形式。",
+    "word_family": [
+      {
+        "word": "fishing",
+        "affix": "-ing",
+        "gloss": "钓鱼；捕鱼"
+      },
+      {
+        "word": "fisher",
+        "affix": "-er",
+        "gloss": "捕鱼者"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英语词：鱼，通常指用鳃呼吸、以鳍运动的水生脊椎动物。",
+      "en_definition": "An aquatic vertebrate typically having gills and fins.",
+      "ms_definition": "Kata bahasa Inggeris yang bermaksud ikan, iaitu haiwan vertebrata akuatik yang lazimnya bernafas melalui insang dan mempunyai sirip.",
+      "nuances": "这是英语词义的马来语释义，不是 DBP 对马来语词头 fish 的官方定义。标准马来语使用 ikan。以下 ms 字段采用标准马来语对应搭配；en 字段展示英语 fish 的搭配。[马来西亚渔业局双语门户](https://www.dof.gov.my/)使用 Ikan 与 Fish 对应；[Oxford English Dictionary](https://doi.org/10.1093/OED/7754126200)记录英语词 fish。",
+      "collocations": [
+        {
+          "ms": "ikan air tawar",
+          "zh": "淡水鱼",
+          "en": "freshwater fish"
+        },
+        {
+          "ms": "ikan hiasan",
+          "zh": "观赏鱼",
+          "en": "ornamental fish"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "英语词：供食用的鱼或鱼肉。",
+      "en_definition": "Fish or its flesh used as food.",
+      "ms_definition": "Ikan atau isi ikan yang dijadikan makanan; makna bagi kata bahasa Inggeris fish dalam konteks makanan.",
+      "nuances": "菜单或英语夹杂口语中的 fish 可指鱼类食材或菜肴。正式马来语按语境使用 ikan 或 isi ikan。以下为标准马来语对应搭配。[英语词义来源](https://www.dictionary.com/browse/fish)。",
+      "collocations": [
+        {
+          "ms": "ikan goreng",
+          "zh": "炸鱼；煎鱼",
+          "en": "fried fish"
+        },
+        {
+          "ms": "ikan segar",
+          "zh": "鲜鱼",
+          "en": "fresh fish"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "英语动词：尝试捕捉鱼，尤指钓鱼。",
+      "en_definition": "To try to catch fish.",
+      "ms_definition": "Melakukan kegiatan menangkap ikan, khususnya memancing; makna kata kerja bahasa Inggeris fish.",
+      "nuances": "马来语对应词须依方式选择：用钓具通常说 memancing，以其他方式捕捞可说 menangkap ikan。以下为马来语对应表达，不表示 fish 已成为标准马来语动词。[英语动词来源](https://www.dictionary.com/browse/fish)。",
+      "collocations": [
+        {
+          "ms": "memancing di sungai",
+          "zh": "在河里钓鱼",
+          "en": "fish in a river"
+        },
+        {
+          "ms": "menangkap ikan di laut",
+          "zh": "在海上捕鱼",
+          "en": "fish at sea"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 双语菜单审校",
+      "ms": "Dalam menu dwibahasa itu, perkataan Inggeris “fish” diterjemahkan sebagai “ikan”.",
+      "zh": "在那份双语菜单中，英语“fish”译为马来语“ikan”。",
+      "en": "In the bilingual menu, the English word “fish” is translated into Malay as “ikan”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论餐厅菜单",
+      "ms_spoken": "Kat menu tu ada fish and chips; aku nak yang tu je.",
+      "ms_standard": "Dalam menu itu terdapat hidangan ikan bersalut tepung yang digoreng dan dihidangkan bersama kentang goreng; saya hendak hidangan itu sahaja.",
+      "zh": "菜单上有英式炸鱼薯条，我就要那个。",
+      "en": "They've got fish and chips on the menu; I'll just have that.",
+      "spoken_features": [
+        "fish and chips 为英语菜名的语码转换",
+        "kat 对应 di 或 dalam，依语境调整",
+        "nak 对应 hendak",
+        "tu 对应 itu",
+        "je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak fish and chips je. Kau dah pilih?",
+          "ms_standard": "Saya hendak hidangan ikan bersalut tepung bersama kentang goreng sahaja. Adakah kamu sudah memilih makanan?",
+          "zh": "我就要炸鱼薯条。你选好了吗？",
+          "en": "I'll just have fish and chips. Have you decided?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, aku nak nasi goreng. Kita pesan sekaranglah.",
+          "ms_standard": "Sudah, saya hendak nasi goreng. Mari kita membuat pesanan sekarang.",
+          "zh": "选好了，我要炒饭。咱们现在点吧。",
+          "en": "Yes, I'll have fried rice. Let's order now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English fish continues Old English fisc and belongs to a Germanic word family that also includes German Fisch. Its appearance in a Malaysian menu or conversation does not by itself establish a Malay borrowing: speakers may simply be switching languages or retaining an English dish name. Standard Malay uses ikan for the animal and food.",
+    "cognitive_memory_aid": "fish /fɪʃ/ 是英语，ikan 是马来语；看到 fish and chips，就联想到炸鱼薯条。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人交流和餐饮点单中，是否夹用英语取决于双方习惯；面向不熟悉英语的听者，使用 ikan 更清楚。",
+    "usage_etiquette": "正式马来语正文通常使用 ikan。讨论英语词本身或保留 fish and chips 等菜单名称时，可以保留原文。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人交流和餐饮点单中，是否夹用英语取决于双方习惯；面向不熟悉英语的听者，使用 ikan 更清楚。",
+    "usage_etiquette": "正式马来语正文通常使用 ikan。讨论英语词本身或保留 fish and chips 等菜单名称时，可以保留原文。"
+  }
+}

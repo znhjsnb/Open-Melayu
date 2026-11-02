@@ -1,0 +1,150 @@
+{
+  "headword": {
+    "word": "smith",
+    "syllables": null,
+    "ipa": "/smɪθ/",
+    "jawi": null,
+    "frequency_rank": 3232,
+    "status": "unverified",
+    "status_note": "已核实英语词义及姓氏用法，未核实为正式马来语词头，故不能标记为official。排名仅沿用输入，不代表经核验的马来语词频。音标为英语读音；缺失字段保留null。以下马来语释义为编写的说明，非DBP官方释义原文。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "smith",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + smith → smith",
+    "pattern_note": "依输入保留根词标记，不据此认定为马来语词根。英语读作一个音节，保留词首/sm/，词尾th为清齿擦音/θ/；姓名写作Smith。下列词族成员为英语复合词。",
+    "word_family": [
+      {
+        "word": "blacksmith",
+        "affix": null,
+        "gloss": "铁匠；英语复合词black + smith"
+      },
+      {
+        "word": "goldsmith",
+        "affix": null,
+        "gloss": "金匠；英语复合词gold + smith"
+      },
+      {
+        "word": "silversmith",
+        "affix": null,
+        "gloss": "银匠；英语复合词silver + smith"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "金属工匠，尤指通过加热、锤打等方法制造或修理金属物件的人；单独使用时常指铁匠。",
+      "en_definition": "A craftsperson who makes or repairs metal objects, especially by forging; a blacksmith.",
+      "ms_definition": "Kata bahasa Inggeris bagi tukang yang membuat atau membaiki barang logam, khususnya dengan menempa; lazimnya merujuk kepada tukang besi.",
+      "nuances": "这是英语普通名词。标准马来语应按材料和职业使用tukang besi、tukang emas等表达。以下ms搭配是马来语对译搭配，不是smith作为马来语词头的搭配或经统计验证的高频结果。英语词义和读音见[Oxford：smith](https://www.oxfordlearnersdictionaries.com/us/definition/english/smith)。",
+      "collocations": [
+        {
+          "ms": "tukang besi mahir",
+          "zh": "熟练的铁匠",
+          "en": "a skilled smith"
+        },
+        {
+          "ms": "bengkel tukang besi",
+          "zh": "铁匠作坊",
+          "en": "a smith's workshop"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "史密斯：英语姓氏；出现于马来语文本中时属于专有名词。",
+      "en_definition": "Smith: an English-language surname historically associated with metalworking.",
+      "ms_definition": "Smith ialah nama keluarga dalam bahasa Inggeris yang mempunyai kaitan sejarah dengan pekerjaan pertukangan logam.",
+      "nuances": "此处noun具体指专有名词kata nama khas，首字母必须大写。不能把姓名Smith译成tukang besi，也不能在缺乏上下文时认定它指某一位名人。姓氏来源见[Ancestry：Smith](https://www.ancestry.com/last-name-meaning/smith)。以下为称谓与姓名组合示例。",
+      "collocations": [
+        {
+          "ms": "Encik Smith",
+          "zh": "史密斯先生",
+          "en": "Mr Smith"
+        },
+        {
+          "ms": "keluarga Smith",
+          "zh": "史密斯一家",
+          "en": "the Smith family"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "通过加热、锤打等方法锻造金属物件。",
+      "en_definition": "To forge or shape a metal object by heating and hammering it.",
+      "ms_definition": "Kata kerja bahasa Inggeris yang bermaksud membentuk barang logam dengan memanaskan dan menempanya.",
+      "nuances": "这是较少见的英语动词，常见于工艺或锻造语境，不应据此制造马来语派生形式。马来语通常用menempa。该动词义见[Collins：smith](https://www.collinsdictionary.com/dictionary/english/smith)。以下为马来语对译搭配。",
+      "collocations": [
+        {
+          "ms": "menempa logam",
+          "zh": "锻造金属",
+          "en": "to smith metal"
+        },
+        {
+          "ms": "menempa pedang",
+          "zh": "锻造剑",
+          "en": "to smith a sword"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报；示例使用姓氏Smith",
+      "ms": "Encik Smith akan membentangkan laporan projek dalam mesyuarat esok.",
+      "zh": "史密斯先生将在明天的会议上汇报项目报告。",
+      "en": "Mr Smith will present the project report at tomorrow's meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事交流；示例使用姓氏Smith",
+      "ms_spoken": "Encik Smith dah sampai kat pejabat ke?",
+      "ms_standard": "Adakah Encik Smith sudah tiba di pejabat?",
+      "zh": "史密斯先生到办公室了吗？",
+      "en": "Has Mr Smith arrived at the office yet?",
+      "spoken_features": [
+        "dah是sudah的口语缩略形式。",
+        "kat对应标准表达中的di。",
+        "句末ke构成口语是非问句。",
+        "Smith是姓名，不是此句中的职业名称。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Encik Smith dah sampai kat pejabat ke?",
+          "ms_standard": "Adakah Encik Smith sudah tiba di pejabat?",
+          "zh": "史密斯先生到办公室了吗？",
+          "en": "Has Mr Smith arrived at the office yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, dia tengah tunggu kat lobi. Jom turun.",
+          "ms_standard": "Ya, beliau sudah tiba dan sedang menunggu di lobi. Mari kita turun.",
+          "zh": "到了，他在大厅等着呢。走，我们下去。",
+          "en": "Yes, he's waiting in the lobby. Let's head down."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Smith began as an English occupational word for a metalworker. When occupations became hereditary family names, the trade name also became a surname. This explains why a modern person called Smith need not work with metal: the name preserves an ancestral association, while the ordinary noun still describes a craft. [Source: Ancestry](https://www.ancestry.com/last-name-meaning/smith).",
+    "cognitive_memory_aid": "把smith /smɪθ/与铁匠挥锤的画面绑定：小写smith想到工匠，大写Smith想到姓氏。词尾th轻轻送气，不读成s。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在马来语正式交流中，可按身份使用Encik Smith或其实际职衔。若指职业，使用tukang besi等明确表达。",
+    "usage_etiquette": "保留姓名的正式拼写和大小写；不要根据姓氏推断对方的职业、国籍或族群。称谓组合只是语言示例，不代表某位真实人物。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在马来语正式交流中，可按身份使用Encik Smith或其实际职衔。若指职业，使用tukang besi等明确表达。",
+    "usage_etiquette": "保留姓名的正式拼写和大小写；不要根据姓氏推断对方的职业、国籍或族群。称谓组合只是语言示例，不代表某位真实人物。"
+  }
+}

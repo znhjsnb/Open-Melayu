@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "chi",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 3065,
+    "status": "unresolved",
+    "verification_note": "缺少原句，无法确定是希腊字母名、汉语概念的外语拼写、姓名还是其他字符串，因此不指定唯一 IPA 或官方马来语身份。英语两个常见义读音不同，见 [Cambridge：chi](https://dictionary.cambridge.org/dictionary/english/chi?topic=letters-of-alphabets)。DBP 技术术语使用 khi，例如 [chi square → khi kuasa dua](https://prpm.dbp.gov.my/Cari1?d=319148&keyword=statistik)。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "chi",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + chi → chi（仅保留输入形式）",
+    "pattern_note": "沿用输入的单纯形式标记，不代表已确认马来语词根身份。英语字母名读 /kaɪ/，传统气概念读 /tʃiː/；不能按拼写合并读音或词源。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "候选义：希腊字母表的第二十二个字母 Χ、χ；英语拼写为 chi，相关马来语技术术语采用 khi。",
+      "en_definition": "Possible reading: the twenty-second letter of the Greek alphabet, Χ or χ.",
+      "ms_definition": "Tafsiran yang mungkin: huruf ke-22 dalam abjad Yunani, Χ atau χ; ejaan khi digunakan dalam istilah Melayu yang berkaitan.",
+      "nuances": "这是待语境确认的候选义。英语读 /kaɪ/。下列为已采用 khi 的马来语术语，不是对输入 chi 的官方拼写认可。",
+      "collocations": [
+        {
+          "ms": "ujian khi kuasa dua",
+          "zh": "卡方检验",
+          "en": "chi-square test"
+        },
+        {
+          "ms": "jujukan khi",
+          "zh": "Chi 序列",
+          "en": "chi sequence"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "候选义：气；中国传统医学及相关修习体系中的生命活动概念，英语亦拼作 qi。",
+      "en_definition": "Possible reading: qi, the vital energy conceived in certain Chinese traditions.",
+      "ms_definition": "Tafsiran yang mungkin: konsep tenaga kehidupan dalam tradisi perubatan dan amalan Cina tertentu, juga dieja qi dalam bahasa Inggeris.",
+      "nuances": "英语读 /tʃiː/，与希腊字母名不同。此处描述传统概念，不将其等同于物理学中可测量的能量。下列为解释性马来语表达，未经高频搭配验证。",
+      "collocations": [
+        {
+          "ms": "konsep chi",
+          "zh": "气的概念",
+          "en": "the concept of chi"
+        },
+        {
+          "ms": "aliran chi",
+          "zh": "气的流动",
+          "en": "the flow of chi"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 统计报告；采用已确认的马来语术语",
+      "ms": "Pasukan penyelidik menggunakan ujian khi kuasa dua untuk menilai hubungan antara dua pemboleh ubah kategori.",
+      "zh": "研究团队使用卡方检验评估两个分类变量之间的关联。",
+      "en": "The research team used a chi-square test to assess the association between two categorical variables."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学确认统计术语",
+      "ms_spoken": "Dalam nota ni, 'chi-square' tu ujian khi kuasa dua, kan?",
+      "ms_standard": "Istilah 'chi-square' dalam nota ini merujuk kepada ujian khi kuasa dua, bukan?",
+      "zh": "这份笔记里的 chi-square 就是卡方检验，对吧？",
+      "en": "'Chi-square' in these notes means the chi-square test, right?",
+      "spoken_features": [
+        "英语技术术语作为引文保留。",
+        "ni 对应 ini，tu 对应 itu。",
+        "kan 请求确认；je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同学)",
+          "ms_spoken": "Dalam nota ni, 'chi-square' tu ujian khi kuasa dua, kan?",
+          "ms_standard": "Istilah 'chi-square' dalam nota ini merujuk kepada ujian khi kuasa dua, bukan?",
+          "zh": "这份笔记里的 chi-square 就是卡方检验，对吧？",
+          "en": "'Chi-square' in these notes means the chi-square test, right?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Ya, betul. Dalam laporan BM, guna 'ujian khi kuasa dua' je.",
+          "ms_standard": "Ya, betul. Dalam laporan bahasa Melayu, gunakan istilah 'ujian khi kuasa dua'.",
+          "zh": "对。马来语报告里就用 ujian khi kuasa dua。",
+          "en": "Yes. In the Malay report, just use 'ujian khi kuasa dua'."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The spelling chi can represent two unrelated traditions. One names the Greek letter Χ, χ, used in mathematics and science. The other represents the Chinese concept 氣, also written qi in English. Their different pronunciations preserve the distinction. Without the original sentence, combining them into one Malay origin story would conceal rather than resolve the ambiguity.",
+    "cognitive_memory_aid": "看到 χ 或统计语境，想到 khi；看到气的传统概念，想到 qi。先看语境，再选读音。",
+    "source": "[Cambridge：chi 的两个义项与读音](https://dictionary.cambridge.org/dictionary/english/chi?topic=letters-of-alphabets)"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论传统气概念时，可明确说 menurut konsep tradisional，以尊重相关文化并准确限定陈述范围。",
+    "usage_etiquette": "统计报告使用 ujian khi kuasa dua。若 chi 属于姓名或商品名称，应按原名保留；没有上下文时，不擅自赋予汉字、读音或马来语官方身份。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论传统气概念时，可明确说 menurut konsep tradisional，以尊重相关文化并准确限定陈述范围。",
+    "usage_etiquette": "统计报告使用 ujian khi kuasa dua。若 chi 属于姓名或商品名称，应按原名保留；没有上下文时，不擅自赋予汉字、读音或马来语官方身份。"
+  }
+}

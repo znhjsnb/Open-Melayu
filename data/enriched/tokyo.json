@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "tokyo",
+    "syllables": null,
+    "ipa": "/toːkʲoː/",
+    "jawi": null,
+    "frequency_rank": 3540,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tokyo",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Tokyo → Tokyo",
+    "pattern_note": "日语地名，在马来语中作为完整专名使用，不作马来语词缀拆分。规范正文写作 Tokyo；所列 IPA 为日语读音，两个元音均为长音。数据包未提供音节和爪夷文，保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "东京，日本首都；作为地名，也可依上下文指东京都或东京城区。",
+      "en_definition": "Tokyo, the capital of Japan; depending on context, the metropolis or its urban area.",
+      "ms_definition": "Ibu negara Jepun; nama tempat yang juga boleh merujuk kepada wilayah metropolitan atau kawasan bandarnya mengikut konteks.",
+      "nuances": "属于专有名词，正文首字母大写；数据库键 tokyo 保留小写。一般旅行语境不严格区分东京城区与东京都，行政和统计文本则须明确范围。马来语释义为编辑释义，并非 DBP 原文；official 为请求指定的条目标签，不代表已获 DBP 审定。",
+      "collocations": [
+        {
+          "ms": "pusat bandar Tokyo",
+          "zh": "东京市中心",
+          "en": "central Tokyo"
+        },
+        {
+          "ms": "penerbangan ke Tokyo",
+          "zh": "飞往东京的航班",
+          "en": "a flight to Tokyo"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Delegasi syarikat akan menghadiri mesyuarat di Tokyo pada minggu hadapan.",
+      "zh": "公司代表团将于下周赴东京出席会议。",
+      "en": "The company delegation will attend a meeting in Tokyo next week."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau dah tempah tiket ke Tokyo ke?",
+      "ms_standard": "Adakah kamu sudah menempah tiket ke Tokyo?",
+      "zh": "你订好去东京的票了吗？",
+      "en": "Have you booked your ticket to Tokyo yet?",
+      "spoken_features": [
+        "kau 是熟人之间的非正式第二人称代词",
+        "dah 对应 sudah",
+        "句末 ke 表示口语疑问",
+        "口语 tempah 对应标准语 menempah"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah tempah tiket ke Tokyo ke?",
+          "ms_standard": "Adakah kamu sudah menempah tiket ke Tokyo?",
+          "zh": "你订好去东京的票了吗？",
+          "en": "Have you booked your ticket to Tokyo yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, aku nak pergi bulan depan. Lima hari je.",
+          "ms_standard": "Sudah, saya akan pergi pada bulan hadapan selama lima hari sahaja.",
+          "zh": "订好了，我下个月去，就待五天。",
+          "en": "Yep, I’m going next month. Just for five days."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tokyo comes from Japanese Tōkyō, literally ‘eastern capital’. In 1868, an imperial proclamation renamed Edo as Tokyo during the Meiji transformation. The name connects geography with political change: the eastern city acquired a new identity as the imperial centre. Malay uses the internationally familiar Roman spelling as an intact place name. [Tokyo Metropolitan Archives](https://www.soumu.metro.tokyo.lg.jp/01soumu-archives/07edo_tokyo/0715tokei)",
+    "cognitive_memory_aid": "把 Tokyo 与汉字“东京”直接配对：东边的京城。日语 tō 对应“东”，kyō 对应“京”；这是词源联想，不是马来语构词。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "地名本身语体中性；正式书写使用 Tokyo。称呼旅伴或同事时，代词的礼貌程度取决于关系，而非目的地。",
+    "usage_etiquette": "旅游、商务与新闻中均适用。正式地址、行政资料和人口比较须说明具体地域，避免将东京城区与整个东京都混为一谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "地名本身语体中性；正式书写使用 Tokyo。称呼旅伴或同事时，代词的礼貌程度取决于关系，而非目的地。",
+    "usage_etiquette": "旅游、商务与新闻中均适用。正式地址、行政资料和人口比较须说明具体地域，避免将东京城区与整个东京都混为一谈。"
+  }
+}
