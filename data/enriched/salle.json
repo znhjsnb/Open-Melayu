@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "salle",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 9137,
+    "status": "unverified",
+    "verification_note": "尚未核实为马来语普通词。法语 salle 有“房间、厅堂”义，也可能出现在专名中；输入未提供足以确定指代的上下文。不能据此标记为 official。频率排名沿用输入。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "salle",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + salle → salle（保留输入形式；马来语词条身份待核）",
+    "pattern_note": "is_root 沿用输入，不代表已确认其马来语词根地位。不得套用马来语拼读规则推定外语词或专名的发音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "若指法语普通名词 salle：房间、厅堂，尤指具有特定用途的室内空间；该义不能直接认定为马来语义项。",
+      "en_definition": "In French, a room or hall, especially one used for a particular purpose; its intended meaning in this Malay word list remains unresolved.",
+      "ms_definition": "Dalam bahasa Perancis, bilik atau dewan yang digunakan untuk tujuan tertentu; makna bentuk ini dalam senarai bahasa Melayu belum dapat dipastikan.",
+      "nuances": "这是条件性的外语辨识，非 DBP 马来语释义。法语读音为 /sal/，但输入也可能涉及专名，因此 headword.ipa 保留 null。下列搭配保留法语原文，不能视为马来语常用搭配。[法兰西学术院词典](https://www.dictionnaire-academie.fr/article/A9S0264)",
+      "collocations": [
+        {
+          "ms": "salle d’attente",
+          "zh": "等候室（法语搭配；马来语可译 bilik menunggu）",
+          "en": "waiting room; a French expression"
+        },
+        {
+          "ms": "salle à manger",
+          "zh": "餐室（法语搭配；马来语可译 ruang makan）",
+          "en": "dining room; a French expression"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场翻译审核；辨识外语词",
+      "ms": "Dalam dokumen berbahasa Perancis ini, perkataan salle merujuk kepada bilik atau dewan.",
+      "zh": "在这份法语文件中，salle 指房间或厅堂。",
+      "en": "In this French document, salle refers to a room or hall."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论外语告示",
+      "ms_spoken": "Aku nampak perkataan salle kat papan tanda tu. Apa maksudnya?",
+      "ms_standard": "Saya melihat perkataan salle pada papan tanda itu. Apakah maksudnya?",
+      "zh": "我看到那块牌子上写着 salle，什么意思啊？",
+      "en": "I saw salle on that sign. What does it mean?",
+      "spoken_features": [
+        "aku：熟人之间使用的第一人称代词",
+        "kat 对应标准语的 pada；tu 对应 itu",
+        "目标形式作为被讨论的外语词出现"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nampak salle kat papan tanda tu. Itu bahasa Perancis ke?",
+          "ms_standard": "Saya melihat perkataan salle pada papan tanda itu. Adakah perkataan itu daripada bahasa Perancis?",
+          "zh": "我看到那块牌子上有 salle，是法语吗？",
+          "en": "I saw salle on that sign. Is it French?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kalau memang bahasa Perancis, maksudnya bilik atau dewan. Tengok ayat penuh dulu lah.",
+          "ms_standard": "Jika perkataan itu memang dalam bahasa Perancis, maksudnya ialah bilik atau dewan. Kita perlu melihat ayat penuh terlebih dahulu.",
+          "zh": "如果确实是法语，就是房间或厅堂的意思。先看看完整句子吧。",
+          "en": "If it is French, it means a room or hall. Let's check the full sentence first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "For the French noun only, the Académie française traces salle through Latin sala to an Old Low Franconian word for a dwelling with a single room. Its later uses cover rooms devoted to dining, waiting, teaching, and public entertainment. This history does not establish that the supplied token is a Malay borrowing. [Source](https://www.dictionnaire-academie.fr/article/A9S0264)",
+    "cognitive_memory_aid": "仅在确认为法语时：salle /sal/，想象门牌上标着一间“厅室”；先记空间，再看用途。此提示不适用于未辨明的专名。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "若属于人名或机构名称，应保留原有拼写、大小写及当事方使用的读音。",
+    "usage_etiquette": "马来语一般空间描述宜使用 bilik、ruang 或 dewan；只有引用法语、解释原文或保留专名时才使用 salle。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "若属于人名或机构名称，应保留原有拼写、大小写及当事方使用的读音。",
+    "usage_etiquette": "马来语一般空间描述宜使用 bilik、ruang 或 dewan；只有引用法语、解释原文或保留专名时才使用 salle。"
+  }
+}

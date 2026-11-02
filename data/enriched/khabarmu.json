@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "khabarmu",
+    "syllables": "kha.bar.mu",
+    "ipa": "/xa.bar.mu/",
+    "jawi": "خبر",
+    "frequency_rank": 9184,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "khabar",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "khabar + -mu → khabarmu",
+    "pattern_note": "-mu 是 kamu 的附着代词，此处表示“你的”，严格说不是派生后缀；词干不变，kh 通常读 /x/，也有人读 /k/。音节为补全值。输入的 خبر 仅为词根 khabar 的 Jawi；完整 khabarmu 可写作 خبرمو。",
+    "word_family": [
+      {
+        "word": "khabarku",
+        "affix": "-ku",
+        "gloss": "我的近况；我的消息"
+      },
+      {
+        "word": "berkhabar",
+        "affix": "ber-",
+        "gloss": "传消息；告知"
+      },
+      {
+        "word": "mengkhabarkan",
+        "affix": "meN-...-kan",
+        "gloss": "告知；传达消息"
+      },
+      {
+        "word": "perkhabaran",
+        "affix": "per-...-an",
+        "gloss": "消息；通报"
+      }
+    ],
+    "root_jawi": "خبر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的近况或身体状况；常用于向对方问好或询问其生活情况。",
+      "en_definition": "Your state of health or well-being, especially in a greeting.",
+      "ms_definition": "Keadaan diri atau kesihatan kamu, terutama dalam pertanyaan tentang keadaan seseorang.",
+      "nuances": "Apa khabarmu? 意为“你好吗？”而非逐字询问新闻。-mu 常见于亲近、书信或抒情语境。释义由词根义与附着代词组合而成。参见 [DBP：khabar](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=khabar)。",
+      "collocations": [
+        {
+          "ms": "apa khabarmu",
+          "zh": "你好吗",
+          "en": "how are you"
+        },
+        {
+          "ms": "bagaimana khabarmu",
+          "zh": "你近来怎么样",
+          "en": "how have you been"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你的消息；来自你或关于你的音讯，具体关系依上下文确定。",
+      "en_definition": "News from you or about you.",
+      "ms_definition": "Berita daripada kamu atau tentang diri kamu.",
+      "nuances": "在 menantikan khabarmu 等表达中通常指等待对方来信或传来消息。-mu 连写规则见 [DBP：附着代词](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kepadamu)。",
+      "collocations": [
+        {
+          "ms": "menantikan khabarmu",
+          "zh": "等候你的消息",
+          "en": "await news from you"
+        },
+        {
+          "ms": "mendengar khabarmu",
+          "zh": "听到你的消息",
+          "en": "hear news of you"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam surat kepada sahabat lamanya, penulis itu bertanya, “Bagaimana khabarmu setelah sekian lama kita tidak bertemu?”",
+      "zh": "那位作家在给老朋友的信中问道：“我们这么久没见，你近来怎么样？”",
+      "en": "In a letter to an old friend, the writer asked, “How have you been after all this time apart?”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Apa khabarmu? Dah lama kita tak jumpa, kan?",
+      "ms_standard": "Apa khabarmu? Kita sudah lama tidak berjumpa, bukan?",
+      "zh": "你最近好吗？咱们好久没见了，对吧？",
+      "en": "How have you been? We haven't seen each other in ages, have we?",
+      "spoken_features": [
+        "dah 对应 sudah，tak 对应 tidak。",
+        "kan 用于寻求认同或拉近距离。",
+        "khabarmu 在此带亲近或略带书信感的语气；日常也常说 Apa khabar?"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (老朋友)",
+          "ms_spoken": "Apa khabarmu? Dah lama kita tak jumpa, kan?",
+          "ms_standard": "Apa khabarmu? Kita sudah lama tidak berjumpa, bukan?",
+          "zh": "你最近好吗？咱们好久没见了，对吧？",
+          "en": "How have you been? We haven't seen each other in ages, have we?"
+        },
+        {
+          "speaker": "Hafiz (老朋友)",
+          "ms_spoken": "Baik je, cuma sibuk sikit kat tempat kerja. Kau pula?",
+          "ms_standard": "Saya baik-baik sahaja, cuma agak sibuk di tempat kerja. Bagaimana pula dengan kamu?",
+          "zh": "挺好的，就是工作有点忙。你呢？",
+          "en": "I'm good, just a bit busy at work. How about you?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Khabar comes from Arabic khabar, meaning news or a report; its Malay Jawi spelling preserves the Arabic consonants. Malay also uses the word when asking about someone's well-being. Adding the Malay enclitic -mu turns it into a personal expression: your news or your condition. The resulting form joins an Arabic loanword to Malay grammar.",
+    "cognitive_memory_aid": "先记 Apa khabar?＝“你好吗？”；再加 -mu＝“你的”，得到 khabarmu＝“你的近况／消息”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 可表达熟悉或抒情意味，并非通用敬称。对客户、上司或不熟悉的长辈，使用 Apa khabar, puan? 等带称谓的问候更稳妥。",
+    "usage_etiquette": "适合朋友通信、私人问候、歌词和文学表达。询问病后近况时语气应体贴，避免追问对方不愿透露的细节。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 可表达熟悉或抒情意味，并非通用敬称。对客户、上司或不熟悉的长辈，使用 Apa khabar, puan? 等带称谓的问候更稳妥。",
+    "usage_etiquette": "适合朋友通信、私人问候、歌词和文学表达。询问病后近况时语气应体贴，避免追问对方不愿透露的细节。"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "nod",
+    "syllables": "nod",
+    "ipa": "/nod/",
+    "jawi": "نود",
+    "frequency_rank": 9123,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "nod",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + nod → nod",
+    "pattern_note": "单音节技术词，无马来语词缀；词尾 d 属于词干。下列词族项目是以 nod 为中心的复合术语，不是加缀派生词。",
+    "word_family": [
+      {
+        "word": "nod saudara",
+        "affix": null,
+        "gloss": "兄弟节点；具有同一父节点的节点"
+      },
+      {
+        "word": "nod rangkaian",
+        "affix": null,
+        "gloss": "网络节点"
+      }
+    ],
+    "root_jawi": "نود"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "图、树形结构、电路或其他示意结构中的节点、连接点或汇合点。",
+      "en_definition": "A point of connection, junction, or structural position in a graph, diagram, tree, or circuit.",
+      "ms_definition": "Titik tumpuan, temuan atau sambungan dalam rajah, carta, graf, litar, rangkaian dan sebagainya.",
+      "nuances": "依据输入中的 DBP 释义。具体含义由所属结构决定；图论节点不一定代表真实设备。nod saudara 指树形结构中具有同一父节点的节点。不要与英语 nod（点头）混淆。",
+      "collocations": [
+        {
+          "ms": "nod saudara",
+          "zh": "兄弟节点",
+          "en": "sibling node"
+        },
+        {
+          "ms": "nod dalam graf",
+          "zh": "图中的节点",
+          "en": "node in a graph"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "计算机或通信网络中的终端、通信站或参与网络通信的设备节点。",
+      "en_definition": "A terminal, communication station, or device participating in a computer or communications network.",
+      "ms_definition": "Terminal komputer atau stesen perhubungan dalam rangkaian perhubungan komputer.",
+      "nuances": "依据输入中的 DBP 释义。可以指网络通信中的端点或中间设备；不等于服务器，也不等于连接两个节点的链路。",
+      "collocations": [
+        {
+          "ms": "nod rangkaian",
+          "zh": "网络节点",
+          "en": "network node"
+        },
+        {
+          "ms": "nod komunikasi",
+          "zh": "通信节点",
+          "en": "communication node"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "驻波中位移始终为零的位置；波节。",
+      "en_definition": "A point of zero displacement in a standing wave.",
+      "ms_definition": "Titik sesaran sifar pada gelombang pegun yang terbentuk daripada superposisi gelombang koheren.",
+      "nuances": "此义属于物理学，区别于计算机节点；与 antinod（波腹）相对。依据 [DBP 学校科学术语](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=titik)改写。",
+      "collocations": [
+        {
+          "ms": "nod gelombang pegun",
+          "zh": "驻波的波节",
+          "en": "standing-wave node"
+        },
+        {
+          "ms": "nod dan antinod",
+          "zh": "波节与波腹",
+          "en": "nodes and antinodes"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan teknikal telah mengenal pasti nod rangkaian yang gagal berfungsi dan sedang memulihkan sambungannya.",
+      "zh": "技术团队已找出发生故障的网络节点，目前正在恢复其连接。",
+      "en": "The technical team has identified the failed network node and is restoring its connection."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nod kat tingkat dua tu dah aktif ke?",
+      "ms_standard": "Adakah nod di tingkat dua itu sudah aktif?",
+      "zh": "二楼那个节点已经启用了吗？",
+      "en": "Is that node on level two active yet?",
+      "spoken_features": [
+        "kat 代替地点介词 di",
+        "tu 和 dah 分别对应 itu 和 sudah",
+        "句末 ke 构成口语疑问",
+        "nod 保留技术含义，适用于同事之间的专业交流"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Nod kat tingkat dua tu dah aktif ke?",
+          "ms_standard": "Adakah nod di tingkat dua itu sudah aktif?",
+          "zh": "二楼那个节点已经启用了吗？",
+          "en": "Is that node on level two active yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, tinggal nak uji sambungan je.",
+          "ms_standard": "Nod itu sudah aktif; hanya ujian sambungan yang masih perlu dilakukan.",
+          "zh": "启用了，就剩测试连接了。",
+          "en": "Yep, we just need to test the connection."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay nod corresponds to English node, whose Latin source nodus means knot. The image of a knot provides a useful bridge to connected points in diagrams and networks. The same international term also appears in wave physics, where a node has zero displacement. These technical meanings share a name but require different definitions. [Paris Observatory dictionary](https://dictionary.obspm.fr/terms/node/).",
+    "cognitive_memory_aid": "nod 对应英语 node：想象网线打结形成一个“节点”；物理学中再单独记“波节位移为零”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性专业术语。面向非技术读者时，首次可解释为 titik sambungan 或 peranti dalam rangkaian。",
+    "usage_etiquette": "用于技术报告、教学和专业讨论时，应先明确是图结构、通信网络还是驻波语境。日常表达“点头”应使用 mengangguk。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性专业术语。面向非技术读者时，首次可解释为 titik sambungan 或 peranti dalam rangkaian。",
+    "usage_etiquette": "用于技术报告、教学和专业讨论时，应先明确是图结构、通信网络还是驻波语境。日常表达“点头”应使用 mengangguk。"
+  }
+}
