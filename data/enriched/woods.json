@@ -1,0 +1,150 @@
+{
+  "headword": {
+    "word": "woods",
+    "syllables": "woods",
+    "ipa": "/wʊdz/",
+    "jawi": null,
+    "frequency_rank": 10128,
+    "status": "official",
+    "status_note": "按请求保留 official 标签；woods 是英语词形，此标签不代表其为 DBP 认可的马来语普通词。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "wood",
+    "affix": "-s（英语复数）",
+    "affix_type": "suffix",
+    "formula": "wood + -s → woods",
+    "pattern_note": "纠正输入包的整词词根标注：英语词基为 wood；复数词尾在浊辅音 /d/ 后读 /z/，全词仍为一个音节。林地义常固定使用复数形式。",
+    "word_family": [
+      {
+        "word": "wood",
+        "affix": "∅",
+        "gloss": "木材；林地；一支木杆"
+      },
+      {
+        "word": "wooded",
+        "affix": "-ed（英语）",
+        "gloss": "长有树木的"
+      },
+      {
+        "word": "wooden",
+        "affix": "-en（英语）",
+        "gloss": "木制的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "树林；林地：树木密集生长的一片土地，英语中常用复数形式指称。",
+      "en_definition": "An area of land densely covered with trees.",
+      "ms_definition": "Perkataan Inggeris yang merujuk kepada kawasan yang ditumbuhi banyak pokok; padanannya bergantung pada konteks, seperti hutan atau kawasan berhutan.",
+      "nuances": "这是英语复数名词，通常说 the woods，并用复数谓语。标准马来语一般用 hutan 或 kawasan berhutan；在马来语句中出现 woods 通常属于引用或语码转换。大写 Woods 还可能是姓氏，不能自动译为树林。[Cambridge 词典](https://dictionary.cambridge.org/us/dictionary/english/woods)",
+      "collocations": [
+        {
+          "ms": "di dalam hutan（英语：in the woods）",
+          "zh": "在树林里",
+          "en": "in the woods"
+        },
+        {
+          "ms": "di pinggir hutan（英语：at the edge of the woods）",
+          "zh": "在树林边缘",
+          "en": "at the edge of the woods"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "多种木材：wood 表示一种木材时的复数形式。",
+      "en_definition": "Different kinds of wood considered as materials.",
+      "ms_definition": "Bentuk jamak bahasa Inggeris bagi wood apabila merujuk kepada beberapa jenis kayu sebagai bahan.",
+      "nuances": "木材泛称通常用不可数 wood；woods 用于区分木材种类，不表示几块木头，后者通常说 pieces of wood。[Cambridge 的 wood 词条](https://dictionary.cambridge.org/us/dictionary/english/wood?topic=types-of-wood)",
+      "collocations": [
+        {
+          "ms": "pelbagai jenis kayu（英语：different woods）",
+          "zh": "不同种类的木材",
+          "en": "different woods"
+        },
+        {
+          "ms": "kayu tropika（英语：tropical woods）",
+          "zh": "热带木材",
+          "en": "tropical woods"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "高尔夫木杆类球杆的复数称呼，主要用于远距离击球；现代杆头通常并非木制。",
+      "en_definition": "Golf clubs with large, rounded heads, used chiefly for long-distance shots.",
+      "ms_definition": "Bentuk jamak istilah golf Inggeris wood, iaitu kayu golf berkepala besar dan membulat untuk pukulan jarak jauh.",
+      "nuances": "名称保留了早期木制杆头的历史，不能据此推断现代球杆的材质。[新加坡 ActiveSG 球杆介绍](https://www.activesgcircle.gov.sg/learn/golf/different-types-of-golf-clubs)",
+      "collocations": [
+        {
+          "ms": "kayu golf fairway（英语：fairway woods）",
+          "zh": "球道木杆",
+          "en": "fairway woods"
+        },
+        {
+          "ms": "kayu golf berkepala logam（英语：metal woods）",
+          "zh": "金属木杆",
+          "en": "metal woods"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "翻译报告 / 编辑说明",
+      "ms": "Dalam terjemahan laporan itu, perkataan Inggeris woods dipadankan dengan kawasan berhutan.",
+      "zh": "在该报告的译文中，英语词 woods 被译为“林地区域”。",
+      "en": "In the report's translation, the English word woods is rendered as kawasan berhutan."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论英语",
+      "ms_spoken": "Woods dalam ayat ni maksudnya hutan ke?",
+      "ms_standard": "Adakah perkataan woods dalam ayat ini bermaksud hutan?",
+      "zh": "这句里的 woods 是树林的意思吗？",
+      "en": "Does woods mean a forest in this sentence?",
+      "spoken_features": [
+        "ni 是 ini 的口语形式",
+        "ke 用作口语疑问标记",
+        "英语词以引用形式嵌入马来语句子",
+        "je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同学)",
+          "ms_spoken": "Woods dalam ayat ni maksudnya hutan ke?",
+          "ms_standard": "Adakah perkataan woods dalam ayat ini bermaksud hutan?",
+          "zh": "这句里的 woods 是树林的意思吗？",
+          "en": "Does woods mean a forest in this sentence?"
+        },
+        {
+          "speaker": "Hafiz (同学)",
+          "ms_spoken": "Ya, kawasan yang banyak pokok. Terjemah sebagai hutan je kat sini.",
+          "ms_standard": "Ya, maksudnya kawasan yang ditumbuhi banyak pokok. Dalam konteks ini, terjemahkan perkataan itu sebagai hutan sahaja.",
+          "zh": "对，就是长满树的地方。这里译成树林就行。",
+          "en": "Yes, an area with lots of trees. Just translate it as hutan here."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English wood descends from Old English wudu, a word associated with trees, woodland and timber. Those connected meanings survive today: wood can name a material, while woods commonly names a wooded place. The final s is an English plural ending, not a Malay suffix, so the whole form should be recognised as English in Malay contexts. [Oxford 词典](https://www.oxfordlearnersdictionaries.com/definition/english/wood)",
+    "cognitive_memory_aid": "wood 想到木头，woods 想到一片树林；末尾 s 发 /z/，不另添音节。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友间可在英语或混合语境中使用；面向公众的标准马来语说明通常用 hutan 或 kawasan berhutan。",
+    "usage_etiquette": "翻译时先辨认语境：树林、木材种类和高尔夫球杆需要不同译法；人名中的 Woods 应保留为姓氏。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友间可在英语或混合语境中使用；面向公众的标准马来语说明通常用 hutan 或 kawasan berhutan。",
+    "usage_etiquette": "翻译时先辨认语境：树林、木材种类和高尔夫球杆需要不同译法；人名中的 Woods 应保留为姓氏。"
+  }
+}

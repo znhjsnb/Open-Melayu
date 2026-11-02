@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "pemutar",
+    "syllables": "pe.mu.tar",
+    "ipa": "/pə.mu.tar/",
+    "jawi": "ڤموتر",
+    "frequency_rank": 10155,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "putar",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + putar → pemutar",
+    "pattern_note": "peN- 遇到词根开头的 p 时，鼻音同化为 m，原来的 p 脱落。数据包将 pemutar 标为词根，已依据实际构词关系修正。",
+    "word_family": [
+      {
+        "word": "memutar",
+        "affix": "meN-",
+        "gloss": "转动；使旋转"
+      },
+      {
+        "word": "putaran",
+        "affix": "-an",
+        "gloss": "旋转；转动的一圈"
+      },
+      {
+        "word": "pemutaran",
+        "affix": "peN-…-an",
+        "gloss": "转动或播放的过程"
+      }
+    ],
+    "root_jawi": "ڤوتر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用于转动某物的工具或装置；在复合词中也可指播放设备。",
+      "en_definition": "A tool or device for turning something; a player in certain compounds.",
+      "ms_definition": "Alat untuk memutar sesuatu.",
+      "nuances": "具体用途通常由后面的名词说明；pemutar skru 指螺丝刀，pemutar piring 指唱片播放机。义项依据 [DBP：putar](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=putar)。",
+      "collocations": [
+        {
+          "ms": "pemutar skru",
+          "zh": "螺丝刀",
+          "en": "screwdriver"
+        },
+        {
+          "ms": "pemutar piring",
+          "zh": "唱片播放机",
+          "en": "record player"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "转动某物的人。",
+      "en_definition": "A person who turns or rotates something.",
+      "ms_definition": "Orang yang memutar sesuatu.",
+      "nuances": "施事义须由语境确认；同一搭配也可能指装置。描述具体工作时，常用 orang yang memutar… 说得更清楚。",
+      "collocations": [
+        {
+          "ms": "pemutar engkol",
+          "zh": "转动曲柄的人",
+          "en": "person turning a crank"
+        },
+        {
+          "ms": "pemutar roda",
+          "zh": "转动车轮或转轮的人",
+          "en": "person turning a wheel"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "在 pemutar semangat 中，指使人恢复干劲或振作精神的事物，如劝勉或鼓励。",
+      "en_definition": "In pemutar semangat, something that restores enthusiasm or morale.",
+      "ms_definition": "Dalam ungkapan pemutar semangat, sesuatu yang memulihkan atau membangkitkan semangat.",
+      "nuances": "这是固定搭配中的比喻义，不能据此把单独的 pemutar 泛译为“激励”。",
+      "collocations": [
+        {
+          "ms": "pemutar semangat",
+          "zh": "振奋精神的力量",
+          "en": "a morale booster"
+        },
+        {
+          "ms": "nasihat sebagai pemutar semangat",
+          "zh": "起鼓舞作用的劝勉",
+          "en": "advice that restores motivation"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Juruteknik menggunakan pemutar skru yang sesuai untuk membuka penutup panel.",
+      "zh": "技术人员使用合适的螺丝刀打开面板盖。",
+      "en": "The technician used a suitable screwdriver to remove the panel cover."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pemutar skru tu ada kat atas meja je.",
+      "ms_standard": "Pemutar skru itu ada di atas meja sahaja.",
+      "zh": "螺丝刀就在桌上啦。",
+      "en": "The screwdriver is right there on the table.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式",
+        "kat 对应标准语表示位置的 di",
+        "je 对应 sahaja，此处强调位置很近或容易找到"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak ketatkan skru ni. Ada pemutar skru tak?",
+          "ms_standard": "Saya hendak mengetatkan skru ini. Ada pemutar skru?",
+          "zh": "我想把这颗螺丝拧紧。有螺丝刀吗？",
+          "en": "I want to tighten this screw. Have you got a screwdriver?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ada, kat atas meja je. Ambillah.",
+          "ms_standard": "Ada, di atas meja sahaja. Ambillah.",
+          "zh": "有，就在桌上。拿去用吧。",
+          "en": "Yes, it's right on the table. Help yourself."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pemutar illustrates how Malay builds names for tools and people from an action. Its base, putar, supplies the idea of turning, while peN- creates an instrument or agent noun. The resulting word connects familiar objects such as screwdrivers and record players. In pemutar semangat, the dictionary also records a figurative expression for restoring enthusiasm.",
+    "cognitive_memory_aid": "记住 putar“转”：前面加 peN-，就得到负责“转”的工具或人；pemutar skru 就是转螺丝的工具。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的工具或角色名词。向不熟悉的人借工具，可说 Boleh saya pinjam pemutar skru?",
+    "usage_etiquette": "说明工具时宜说出完整名称。pemutar semangat 带修辞色彩，适合鼓励性文字；日常鼓励也常直接使用 semangat。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的工具或角色名词。向不熟悉的人借工具，可说 Boleh saya pinjam pemutar skru?",
+    "usage_etiquette": "说明工具时宜说出完整名称。pemutar semangat 带修辞色彩，适合鼓励性文字；日常鼓励也常直接使用 semangat。"
+  }
+}

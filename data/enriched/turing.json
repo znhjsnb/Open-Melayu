@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "turing",
+    "syllables": null,
+    "ipa": "/ˈtjʊərɪŋ/",
+    "jawi": null,
+    "frequency_rank": 10090,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "turing",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Turing → Turing",
+    "pattern_note": "姓氏专名，通常写作 Turing；整词记忆，末尾 -ing 不是此处可拆出的马来语词缀。IPA 为英语读音，末尾 ng 表示 /ŋ/。输入缺失的音节及爪夷文字段保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "图灵：姓氏，科技语境中通常指英国数学家、计算理论先驱艾伦·图灵；也用于以其姓氏命名的概念。",
+      "en_definition": "A surname, especially that of Alan Turing, the British mathematician and pioneer of computing, also used in concepts named after him.",
+      "ms_definition": "Nama keluarga, khususnya nama Alan Turing, ahli matematik British dan perintis teori pengkomputeran; turut digunakan dalam istilah yang dinamakan sempena beliau.",
+      "nuances": "这是专有名词说明，不是 DBP 官方释义；status 按请求保留为 official，不表示已经 DBP 审定。没有上下文时，不能断定该姓氏一定指 Alan Turing。mesin Turing 是抽象计算模型，ujian Turing 是与机器智能有关的测试概念；两者不是同一事物。[人物与计算理论背景](https://www.turing.org.uk/publications/dnb.html)、[1950 年论文档案](https://turingarchive.kings.cam.ac.uk/computing-machinery-and-intelligence)。",
+      "collocations": [
+        {
+          "ms": "mesin Turing",
+          "zh": "图灵机",
+          "en": "Turing machine"
+        },
+        {
+          "ms": "ujian Turing",
+          "zh": "图灵测试",
+          "en": "Turing test"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kuliah ini menerangkan peranan mesin Turing dalam kajian tentang perkara yang boleh dikira oleh komputer.",
+      "zh": "本讲座说明图灵机在研究计算机能够计算哪些问题时所起的作用。",
+      "en": "This lecture explains the role of the Turing machine in studying what computers can compute."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah baca pasal ujian Turing, tapi masih tak berapa faham lah.",
+      "ms_standard": "Saya sudah membaca tentang ujian Turing, tetapi masih kurang memahaminya.",
+      "zh": "我已经读了图灵测试的介绍，但还是不太懂啊。",
+      "en": "I've read about the Turing test, but I still don't really get it.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "pasal 在此对应 tentang。",
+        "tak berapa faham 表示“不太明白”。",
+        "lah 在此表达说话者的感受，不能机械翻译成固定中文语气词。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku dah baca pasal ujian Turing, tapi masih tak berapa faham lah.",
+          "ms_standard": "Saya sudah membaca tentang ujian Turing, tetapi masih kurang memahaminya.",
+          "zh": "我已经读了图灵测试的介绍，但还是不太懂啊。",
+          "en": "I've read about the Turing test, but I still don't really get it."
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Nak aku terangkan guna contoh perbualan je?",
+          "ms_standard": "Mahukah kamu saya terangkan ujian itu dengan menggunakan contoh perbualan sahaja?",
+          "zh": "要不要我就用一个聊天的例子给你讲讲？",
+          "en": "Want me to explain it with a simple conversation example?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Turing was a family surname before it became a landmark name in computing. Alan Turing's 1936 work introduced the abstract machine central to computability theory. His 1950 paper explored machine intelligence through an imitation game. These contributions explain the surname's presence in technical Malay expressions without requiring an invented Malay root or an unsupported deeper surname etymology. [Biography](https://www.turing.org.uk/publications/dnb.html), [1950 paper archive](https://turingarchive.kings.cam.ac.uk/computing-machinery-and-intelligence).",
+    "cognitive_memory_aid": "把 Turing 的近似读音“图灵”连到两幅画：纸带上的机器是 mesin Turing，隔着屏幕辨认聊天者是 ujian Turing。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式学术介绍首次宜写全名 Alan Turing，随后可简称 Turing；无需机械添加 Encik。引用研究时应注明具体论文或概念。",
+    "usage_etiquette": "适用于计算机科学、数学、人工智能及人物史讨论。讨论 ujian Turing 时，避免将“通过测试”直接等同于“已经证明机器具有意识”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式学术介绍首次宜写全名 Alan Turing，随后可简称 Turing；无需机械添加 Encik。引用研究时应注明具体论文或概念。",
+    "usage_etiquette": "适用于计算机科学、数学、人工智能及人物史讨论。讨论 ujian Turing 时，避免将“通过测试”直接等同于“已经证明机器具有意识”。"
+  }
+}

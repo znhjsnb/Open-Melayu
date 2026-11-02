@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "gaung",
+    "syllables": "gaung",
+    "ipa": "/ɡa.uŋ/",
+    "jawi": "ݢاءوڠ",
+    "frequency_rank": 10049,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "gaung",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + gaung → gaung",
+    "pattern_note": "独立词根。保留词包音节字段 gaung；标准发音中 a、u 分属两个音节。ber- 直接接词根；meN- 在 g 前实现为 meng-，保留 g。参见 [DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+    "word_family": [
+      {
+        "word": "bergaung",
+        "affix": "ber-",
+        "gloss": "回响；产生回声，属声音义"
+      },
+      {
+        "word": "menggaung",
+        "affix": "meN- → meng-",
+        "gloss": "挖掘；挖洞，属深坑义"
+      }
+    ],
+    "root_jawi": "ݢاءوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "回声、回响：声音遇到障碍物反射后再次传来的声音。",
+      "en_definition": "An echo or reverberation produced by reflected sound.",
+      "ms_definition": "Bunyi yang kedengaran semula akibat pantulan suara atau bunyi asal.",
+      "nuances": "DBP 分列为 gaung I；近义词为 gema。表示“声音回荡”通常用动词 bergaung。参见 [DBP：gaung](https://prpm.dbp.gov.my/Cari1?keyword=gaung)。",
+      "collocations": [
+        {
+          "ms": "gaung suara",
+          "zh": "人声的回响",
+          "en": "the echo of a voice"
+        },
+        {
+          "ms": "gaung tembakan",
+          "zh": "枪声的回响",
+          "en": "the echo of gunfire"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "深谷、峡沟或深壑，尤指山丘或山地之间深陷的地形。",
+      "en_definition": "A deep ravine, gorge, or chasm, especially between hills or mountains.",
+      "ms_definition": "Jurang atau ruang tanah yang dalam, khususnya di antara bukit atau gunung.",
+      "nuances": "DBP 分列为 gaung II，与回声义属于同形词。跌入、边缘、深度等地形语境通常指此义；不宜泛指任何小沟。",
+      "collocations": [
+        {
+          "ms": "gaung yang dalam",
+          "zh": "深壑",
+          "en": "a deep ravine"
+        },
+        {
+          "ms": "terjatuh ke dalam gaung",
+          "zh": "坠入深谷",
+          "en": "to fall into a ravine"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelamat berjaya membawa keluar seorang pendaki yang terjatuh ke dalam gaung.",
+      "zh": "救援队成功救出了一名坠入深谷的登山者。",
+      "en": "The rescue team successfully brought out a hiker who had fallen into a ravine."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat sini ada gaung bila kita cakap kuat sikit.",
+      "ms_standard": "Di sini, terdapat gaung apabila kita bercakap dengan suara yang agak kuat.",
+      "zh": "在这里稍微大声说话就有回声。",
+      "en": "You get an echo here if you speak a little louder.",
+      "spoken_features": [
+        "kat 对应标准语 di",
+        "bila 在这里对应 apabila",
+        "cakap 对应较正式的 bercakap",
+        "sikit 是 sedikit 的口语形式"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kat sini ada gaung bila kita cakap kuat sikit.",
+          "ms_standard": "Di sini, terdapat gaung apabila kita bercakap dengan suara yang agak kuat.",
+          "zh": "在这里稍微大声说话就有回声。",
+          "en": "You get an echo here if you speak a little louder."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, aku dah dengar tadi. Cakap perlahan je lah.",
+          "ms_standard": "Ya, saya sudah mendengarnya tadi. Bercakaplah dengan perlahan sahaja.",
+          "zh": "对啊，我刚才已经听到了。我们小声说就好啦。",
+          "en": "Yeah, I heard it earlier. Let's just keep our voices down."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries distinguish two words spelled gaung: an echo and a deep ravine. The landscape meaning also appears in a pantun recorded by DBP, where a gemstone ring falls into a gaung. A valley can certainly produce echoes, making the pair memorable, but that association alone does not demonstrate a common historical origin.",
+    "cognitive_memory_aid": "把 ga-ung 拉成两拍，想象朝深谷喊一声，声音又回来：一幅画记住“深谷”和“回声”两个义项；这只是联想，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "两个义项都属中性词。提醒同伴远离深谷时可用 Tolong jangan berdiri terlalu dekat dengan tepi gaung，语气明确而有礼。",
+    "usage_etiquette": "新闻中的坠谷事故多用地形义；录音、建筑声学和洞穴体验多用回声义。转述事故时避免用戏谑语气描述伤者。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "两个义项都属中性词。提醒同伴远离深谷时可用 Tolong jangan berdiri terlalu dekat dengan tepi gaung，语气明确而有礼。",
+    "usage_etiquette": "新闻中的坠谷事故多用地形义；录音、建筑声学和洞穴体验多用回声义。转述事故时避免用戏谑语气描述伤者。"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "dimuat",
+    "syllables": null,
+    "ipa": "/di.mu.at/",
+    "jawi": "موات",
+    "frequency_rank": 10153,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "muat",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + muat → dimuat",
+    "pattern_note": "di- 构成被动式，词根 m 保留，不发生鼻音替换；u 与 a 分属相邻音节。headword.jawi 按输入保留 موات，但该拼写实际对应词根 muat；含 di- 的完整形式应为 ديموات。",
+    "word_family": [
+      {
+        "word": "memuat",
+        "affix": "meN-",
+        "gloss": "载运；包含"
+      },
+      {
+        "word": "memuatkan",
+        "affix": "meN-…-kan",
+        "gloss": "装入；刊载"
+      },
+      {
+        "word": "muatan",
+        "affix": "-an",
+        "gloss": "载货；装载量"
+      },
+      {
+        "word": "pemuatan",
+        "affix": "peN-…-an",
+        "gloss": "装载过程；内容载入"
+      }
+    ],
+    "root_jawi": "موات"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被装入或装载到车辆、船舶等运输工具中。",
+      "en_definition": "To be loaded into or onto a vehicle, vessel, or other carrier.",
+      "ms_definition": "Dibawa sebagai muatan atau dimasukkan ke dalam kenderaan, kapal atau bekas.",
+      "nuances": "这是动作被动式，不能直接代替词根 muat 的“容得下、装得下”。马来西亚规范行文表达“把某物装进某处”的被动时，常使用更完整的 dimuatkan；另须区别 dimuati，后者通常以承载物为主语。释义依据 [PRPM：muat](https://prpm.dbp.gov.my/Cari1?d=102740&keyword=muat) 展开。",
+      "collocations": [
+        {
+          "ms": "dimuat ke dalam lori",
+          "zh": "被装进货车",
+          "en": "loaded into a lorry"
+        },
+        {
+          "ms": "dimuat ke atas kapal",
+          "zh": "被装上船",
+          "en": "loaded onto a ship"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被收录或刊登于报刊、书籍、报告等载体中。",
+      "en_definition": "To be included or published in a newspaper, book, report, or similar medium.",
+      "ms_definition": "Dimasukkan sebagai kandungan atau disiarkan dalam akhbar, buku, laporan dan sebagainya.",
+      "nuances": "此义把“承载内容”延伸到文字与图像。马来西亚正式文本也常使用 dimuatkan 或 termuat；dimuatkan 强调刊入动作，termuat 常着重已经收录的状态。不要将 dimuat 单独解释为“上传”。",
+      "collocations": [
+        {
+          "ms": "dimuat dalam akhbar",
+          "zh": "刊登在报纸上",
+          "en": "published in a newspaper"
+        },
+        {
+          "ms": "dimuat dalam laporan",
+          "zh": "收录在报告中",
+          "en": "included in a report"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "在 dimuat naik 和 dimuat turun 中，分别表示文件被上传及被下载。",
+      "en_definition": "In dimuat naik and dimuat turun, to be uploaded and downloaded, respectively.",
+      "ms_definition": "Dalam rangkai kata dimuat naik dan dimuat turun, dipindahkan melalui rangkaian masing-masing ke pelayan atau dari pelayan ke peranti pengguna.",
+      "nuances": "这是完整术语的组合义，方向由 naik 或 turun 决定；dimuat 本身不区分上传与下载。DBP 实际使用 Dimuat Naik，见 [DBP 用户手册](https://bukuteks.dbp.gov.my/media/media/0zbNKydzvz.pdf)。",
+      "collocations": [
+        {
+          "ms": "dimuat naik",
+          "zh": "被上传",
+          "en": "uploaded"
+        },
+        {
+          "ms": "dimuat turun",
+          "zh": "被下载",
+          "en": "downloaded"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 文件提交",
+      "ms": "Semua dokumen sokongan telah dimuat naik ke portal sebelum tarikh tutup permohonan.",
+      "zh": "所有证明文件已在申请截止日期前上传至门户网站。",
+      "en": "All supporting documents were uploaded to the portal before the application deadline."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认文件上传情况",
+      "ms_spoken": "Fail tu dah dimuat naik ke belum?",
+      "ms_standard": "Adakah fail itu sudah dimuat naik?",
+      "zh": "那个文件上传了没？",
+      "en": "Has that file been uploaded yet?",
+      "spoken_features": [
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "ke belum 是口语中的完成与否问法，标准语可用 adakah 引导",
+        "口语中仍保留完整术语 dimuat naik"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail tu dah dimuat naik ke belum?",
+          "ms_standard": "Adakah fail itu sudah dimuat naik?",
+          "zh": "那个文件上传了没？",
+          "en": "Has that file been uploaded yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, semua dah dimuat naik. Awak semak kat portal je.",
+          "ms_standard": "Ya, semuanya sudah dimuat naik. Awak boleh menyemaknya di portal.",
+          "zh": "传好了，全部都上传了。你直接去网站查就行。",
+          "en": "Yes, everything's uploaded. Just check the portal."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dimuat is a transparent Malay formation: the passive prefix di- attaches to muat. Its vocabulary links physical cargo with published content, while computing adds the directional expressions muat naik and muat turun. A learner can therefore picture a carrier receiving goods, a report receiving information, or a server receiving files. This explains the modern semantic connections without claiming an unverified ancient origin for muat.",
+    "cognitive_memory_aid": "di- 表示“被”，muat 联想“装载”：dimuat＝被装入；加 naik“上”就是上传，加 turun“下”就是下载。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "被动式适合工作汇报，能突出文件或货物的处理状态。需要明确责任时，可补充执行者，避免让句子显得含糊。",
+    "usage_etiquette": "说明电子文件时说完整的 dimuat naik 或 dimuat turun。dimuat 不等于“已经完成”；表达完成状态可加 sudah 或 telah。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "被动式适合工作汇报，能突出文件或货物的处理状态。需要明确责任时，可补充执行者，避免让句子显得含糊。",
+    "usage_etiquette": "说明电子文件时说完整的 dimuat naik 或 dimuat turun。dimuat 不等于“已经完成”；表达完成状态可加 sudah 或 telah。"
+  }
+}

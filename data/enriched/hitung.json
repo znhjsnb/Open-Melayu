@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "hitung",
+    "syllables": "hi.tung",
+    "ipa": "/ˈhituŋ/",
+    "jawi": "هيتوڠ",
+    "frequency_rank": 10087,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hitung",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hitung → hitung",
+    "pattern_note": "词根不带词缀；末尾 ng 表示单一鼻音 /ŋ/。加 meN- 时采用 meng-，保留 h：meN- + hitung → menghitung。",
+    "word_family": [
+      {
+        "word": "menghitung",
+        "affix": "meN-",
+        "gloss": "计算；数出"
+      },
+      {
+        "word": "berhitung",
+        "affix": "ber-",
+        "gloss": "做算术；算数"
+      },
+      {
+        "word": "hitungan",
+        "affix": "-an",
+        "gloss": "计算结果；计算方法"
+      },
+      {
+        "word": "penghitungan",
+        "affix": "peN-...-an",
+        "gloss": "计算或清点的过程"
+      },
+      {
+        "word": "perhitungan",
+        "affix": "per-...-an",
+        "gloss": "计算；估量；考虑"
+      },
+      {
+        "word": "terhitung",
+        "affix": "ter-",
+        "gloss": "已计算；可数；列入"
+      },
+      {
+        "word": "penghitung",
+        "affix": "peN-",
+        "gloss": "计数者；计数工具"
+      }
+    ],
+    "root_jawi": "هيتوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "计算、算数，即进行加、减、乘、除等运算。",
+      "en_definition": "Counting or arithmetic calculation.",
+      "ms_definition": "Perihal membuat kira-kira, seperti membahagi, mencampur dan mendarab.",
+      "nuances": "词根的名词性意义见 DBP。ilmu hitung 指算术；固定表达 hitung panjang 指平均、按平均计算，不是“长时间计算”。现代日常交流更常用 kira，学科名称通常用 matematik。[DBP：hitung](https://prpm.dbp.gov.my/cari1?keyword=hitung)",
+      "collocations": [
+        {
+          "ms": "ilmu hitung",
+          "zh": "算术",
+          "en": "arithmetic"
+        },
+        {
+          "ms": "hitung panjang",
+          "zh": "平均；按平均计算",
+          "en": "average; on average"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "数出数量；计算总数或数值，常以不带前缀的形式用于指令。",
+      "en_definition": "To count or calculate, especially in instructions using the bare verb.",
+      "ms_definition": "Mengira banyaknya sesuatu atau mendapatkan sesuatu jumlah melalui pengiraan.",
+      "nuances": "此处说明词根在指令中的动词用法，如 Hitung jumlahnya。一般主动陈述句通常用 menghitung；不能把各派生词的“认为、考虑、归入”等意义全部直接移植给裸词 hitung。马来西亚口语常说 kira。",
+      "collocations": [
+        {
+          "ms": "hitung jumlah",
+          "zh": "计算总数",
+          "en": "calculate the total"
+        },
+        {
+          "ms": "hitung semula",
+          "zh": "重新计算；重新清点",
+          "en": "recalculate; count again"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila hitung jumlah perbelanjaan berdasarkan resit yang dilampirkan sebelum laporan kewangan dihantar.",
+      "zh": "请在提交财务报告前，根据所附收据计算支出总额。",
+      "en": "Please calculate the total expenditure from the attached receipts before submitting the financial report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Cuba hitung sekali lagi, duit ni macam tak cukup je.",
+      "ms_standard": "Cuba hitung sekali lagi kerana wang ini nampaknya tidak mencukupi.",
+      "zh": "再算一次看看，这钱好像不够啊。",
+      "en": "Count it again; it looks like we're short.",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略。",
+        "tak 对应标准语 tidak。",
+        "macam 表示“好像”；je 在此弱化判断语气。",
+        "hitung 在此可理解，但马来西亚日常对话更常用 kira。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Cuba hitung sekali lagi, duit ni macam tak cukup je.",
+          "ms_standard": "Cuba hitung sekali lagi kerana wang ini nampaknya tidak mencukupi.",
+          "zh": "再算一次看看，这钱好像不够啊。",
+          "en": "Count it again; it looks like we're short."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah kira dua kali. Kurang sepuluh ringgit lagi lah.",
+          "ms_standard": "Saya sudah mengiranya dua kali. Wang itu masih kurang sepuluh ringgit.",
+          "zh": "已经算两遍了，还是少十令吉啊。",
+          "en": "I've counted it twice. We're still ten ringgit short."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Hitung connects numerical calculation with the broader act of reckoning. DBP records both ilmu hitung, arithmetic, and hitung panjang, averaging. Its derivatives extend from counting objects to weighing considerations: perhitungan can concern judgement as well as numbers. This semantic bridge makes the family memorable, although it does not establish a particular ancient origin or borrowing route. [DBP](https://prpm.dbp.gov.my/cari1?keyword=hitung)",
+    "cognitive_memory_aid": "把 hi.tung 想成数珠落盘的“嘻、咚”：一颗一颗数，就是 hitung。声音联想仅用于记忆。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向客户、长辈或上司提出计算要求，可说 Sila hitung… 或 Boleh tolong kira…，避免只用生硬的命令。",
+    "usage_etiquette": "适用于算术、清点和核算。核对金钱时，kita kira semula（我们重新算一下）通常比直接指责对方算错更圆融。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向客户、长辈或上司提出计算要求，可说 Sila hitung… 或 Boleh tolong kira…，避免只用生硬的命令。",
+    "usage_etiquette": "适用于算术、清点和核算。核对金钱时，kita kira semula（我们重新算一下）通常比直接指责对方算错更圆融。"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "plasma",
+    "syllables": "plas.ma",
+    "ipa": "/plas.ma/",
+    "jawi": "ڤلسما",
+    "frequency_rank": 10118,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "plasma",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + plasma → plasma",
+    "pattern_note": "作为完整的科学术语借入；plas- 与 -ma 不是现代马来语词根和词缀。词首保留 /pl/ 辅音群。下列关联形式为术语组合，不是加缀派生词。",
+    "word_family": [
+      {
+        "word": "plasma darah",
+        "affix": "∅",
+        "gloss": "血浆；术语组合"
+      },
+      {
+        "word": "fizik plasma",
+        "affix": "∅",
+        "gloss": "等离子体物理学；术语组合"
+      }
+    ],
+    "root_jawi": "ڤلسما"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "血浆：血液中通常呈淡黄色的液体部分，血细胞悬浮其中，含有水、蛋白质及其他溶解物质。",
+      "en_definition": "The usually pale-yellow liquid component of blood in which blood cells are suspended.",
+      "ms_definition": "Sejenis cecair tidak berwarna yang merupakan sebahagian daripada darah.",
+      "nuances": "ms_definition 展开了输入包中的《Kamus Dewan》释义；其中“不带颜色”的简略描述不如“淡黄色”精确。DBP 高中科学词汇表明确使用 cecair kuning pucat。血浆含凝血相关蛋白，不能与 serum（血清）互换。参见 [DBP PRPM：血浆颜色与定义](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=kuning) 及 [DBP PRPM：血浆成分](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kalium+klorida)。",
+      "collocations": [
+        {
+          "ms": "plasma darah",
+          "zh": "血浆",
+          "en": "blood plasma"
+        },
+        {
+          "ms": "protein plasma",
+          "zh": "血浆蛋白",
+          "en": "plasma proteins"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "等离子体：含有可自由运动的电子和离子的电离物质状态，通常还可含中性粒子，并表现出集体电磁行为。",
+      "en_definition": "An ionized state of matter containing free electrons and ions that exhibit collective electromagnetic behavior.",
+      "ms_definition": "Keadaan jirim terion yang mengandungi elektron bebas dan ion serta menunjukkan sifat elektromagnet secara kolektif.",
+      "nuances": "此项为物理学义，与血浆义不同；ms_definition 是术语性综合释义。等离子体不一定完全电离，也不一定具有极高温度。skrin plasma 指利用气体放电的显示屏，不涉及血液。参见 [DBP PRPM：plasma](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=plasma) 和 [美国能源部：Plasma](https://www.energy.gov/science/doe-explainsplasma)。",
+      "collocations": [
+        {
+          "ms": "fizik plasma",
+          "zh": "等离子体物理学",
+          "en": "plasma physics"
+        },
+        {
+          "ms": "plasma suhu rendah",
+          "zh": "低温等离子体",
+          "en": "low-temperature plasma"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Makmal itu menjalankan analisis protein plasma bagi tujuan penyelidikan.",
+      "zh": "该实验室为研究目的开展血浆蛋白分析。",
+      "en": "The laboratory analyzes plasma proteins for research purposes."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku baru baca pasal plasma darah. Rupanya warna dia kuning pucat, ya.",
+      "ms_standard": "Saya baru membaca tentang plasma darah. Rupa-rupanya, warnanya kuning pucat.",
+      "zh": "我刚看了点关于血浆的资料，原来它是淡黄色的呀。",
+      "en": "I just read about blood plasma. Turns out it's pale yellow.",
+      "spoken_features": [
+        "pasal 在此对应标准语 tentang。",
+        "warna dia 对应 warnanya。",
+        "ya 在句末表达发现后的感叹或寻求认同。",
+        "aku 适用于熟人之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nampak gambar plasma darah kat buku ni. Kenapa kuning, bukan merah?",
+          "ms_standard": "Saya melihat gambar plasma darah dalam buku ini. Mengapakah warnanya kuning dan bukannya merah?",
+          "zh": "我在这本书里看到血浆的图片。为什么是黄色的，不是红色的？",
+          "en": "I saw a picture of blood plasma in this book. Why is it yellow instead of red?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Sebab plasma bahagian cecair je. Warna merah tu datang daripada sel darah merah.",
+          "ms_standard": "Hal ini demikian kerana plasma ialah bahagian cecair sahaja. Warna merah itu berasal daripada sel darah merah.",
+          "zh": "因为血浆只是液体部分呀。红色来自红细胞。",
+          "en": "Because plasma is just the liquid part. The red color comes from red blood cells."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Plasma ultimately comes from Greek, referring to something formed or molded. It became a biological term before entering physics. Langmuir's 1928 paper used it for a region containing balanced electrical charges. Malay retains the international spelling for both blood's liquid component and ionized matter, so context determines which scientific world is intended. [ITER](https://www.iter.org/print/whatsnew/266); [Langmuir, 1928](https://pmc.ncbi.nlm.nih.gov/articles/PMC1085653/?page=-1).",
+    "cognitive_memory_aid": "读 plas-ma，配两幅画面：血细胞周围的淡黄液体是“血浆”，带电粒子组成的物质状态是“等离子体”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "科学和医疗语境中属于中性正式词。向普通听众解释时，可先说 plasma darah 或 plasma dalam fizik，明确所指。",
+    "usage_etiquette": "适用于医学、科研、科普和显示技术讨论。谈及他人的血浆捐献或检查结果时，应尊重其隐私及自愿分享的范围。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "科学和医疗语境中属于中性正式词。向普通听众解释时，可先说 plasma darah 或 plasma dalam fizik，明确所指。",
+    "usage_etiquette": "适用于医学、科研、科普和显示技术讨论。谈及他人的血浆捐献或检查结果时，应尊重其隐私及自愿分享的范围。"
+  }
+}

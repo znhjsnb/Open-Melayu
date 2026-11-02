@@ -1,0 +1,126 @@
+{
+  "headword": {
+    "word": "diajak",
+    "syllables": null,
+    "ipa": "/di.a.dʒaʔ/",
+    "jawi": null,
+    "frequency_rank": 10097,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ajak",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + ajak → diajak",
+    "pattern_note": "di- 是被动前缀，与词根连写；ajak 不变，词尾 k 在常见马来西亚发音中实现为 [ʔ]。输入包将 diajak 误标为词根，此处更正。",
+    "word_family": [
+      {
+        "word": "mengajak",
+        "affix": "meN-",
+        "gloss": "邀请；邀约；劝人参与"
+      },
+      {
+        "word": "ajakan",
+        "affix": "-an",
+        "gloss": "邀请；提议；邀约"
+      }
+    ],
+    "root_jawi": "اجق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被邀请一起前往某处、参加活动或共同做某事。",
+      "en_definition": "To be invited or asked to go somewhere or do something together.",
+      "ms_definition": "Dipelawa atau dijemput supaya turut pergi, datang atau melakukan sesuatu.",
+      "nuances": "这是 mengajak 的被动形式，不自带过去时意义。主语是受邀者；邀请者可由 oleh 引出。释义依据 DBP 的 ajak／mengajak 转为被动表述。",
+      "collocations": [
+        {
+          "ms": "diajak makan",
+          "zh": "被邀一起吃饭",
+          "en": "be invited to eat"
+        },
+        {
+          "ms": "diajak menyertai program",
+          "zh": "被邀参加活动",
+          "en": "be invited to join a programme"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被鼓动、劝说或挑战去做某事。",
+      "en_definition": "To be urged, incited, or challenged to do something.",
+      "ms_definition": "Didorong, dirangsang atau dicabar untuk melakukan sesuatu.",
+      "nuances": "是否含负面意味取决于后续动作；diajak berfikir 可表示引导思考，diajak bergaduh 则表示被挑衅打架。不自动等同于被强迫。",
+      "collocations": [
+        {
+          "ms": "diajak berdebat",
+          "zh": "被邀或被挑战辩论",
+          "en": "be invited or challenged to debate"
+        },
+        {
+          "ms": "diajak bergaduh",
+          "zh": "被挑衅打架",
+          "en": "be challenged to a fight"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 社区活动报道",
+      "ms": "Penduduk setempat diajak menyertai program gotong-royong pada hujung minggu ini.",
+      "zh": "当地居民受邀参加本周末的社区互助清洁活动。",
+      "en": "Local residents are invited to join this weekend's community clean-up."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量晚餐",
+      "ms_spoken": "Aku diajak makan kat rumah Sara malam ni, nak ikut?",
+      "ms_standard": "Saya diajak makan di rumah Sara malam ini. Adakah awak mahu ikut?",
+      "zh": "Sara 邀我今晚去她家吃饭，你要一起去吗？",
+      "en": "I've been invited to Sara's for dinner tonight. Want to come along?",
+      "spoken_features": [
+        "aku 用于熟人之间",
+        "kat 表示地点，对应 di",
+        "ni 对应 ini；nak 对应 mahu，问句可省略完整疑问结构"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku diajak makan kat rumah Sara malam ni, nak ikut?",
+          "ms_standard": "Saya diajak makan di rumah Sara malam ini. Adakah awak mahu ikut?",
+          "zh": "Sara 邀我今晚去她家吃饭，你要一起去吗？",
+          "en": "I've been invited to Sara's for dinner tonight. Want to come along?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nak, tapi tanya Sara dulu lah, boleh aku ikut tak?",
+          "ms_standard": "Saya mahu ikut, tetapi tanyalah Sara terlebih dahulu sama ada saya boleh turut serta.",
+          "zh": "想啊，不过先问问 Sara，能不能带上我。",
+          "en": "I'd love to, but check with Sara first that it's okay for me to come."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diajak illustrates Malay's productive voice system rather than a separate historical root. Ajak supplies the idea of inviting or urging participation; di- places the invited person in subject position. Compare Sara mengajak Amir with Amir diajak oleh Sara. The invitation remains the same, but the sentence changes whose experience it foregrounds.",
+    "cognitive_memory_aid": "ajak＝邀人一起做；di-＝被。Sara mengajak Amir → Amir diajak oleh Sara：邀请者与受邀者换了句子位置。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "diajak 语气中性；正式邀请贵宾时，dijemput 或 diundang 往往更符合礼仪语境。",
+    "usage_etiquette": "受邀赴约不代表可以自行带人，应先征得主人的同意。被邀请与已答应参加是两回事，diajak 本身不表示接受邀请。"
+  },
+  "sources": [
+    "[DBP PRPM：ajak、mengajak、ajakan](https://prpm.dbp.gov.my/Cari1?d=246792&keyword=ajak)"
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "diajak 语气中性；正式邀请贵宾时，dijemput 或 diundang 往往更符合礼仪语境。",
+    "usage_etiquette": "受邀赴约不代表可以自行带人，应先征得主人的同意。被邀请与已答应参加是两回事，diajak 本身不表示接受邀请。"
+  }
+}

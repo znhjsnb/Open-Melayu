@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "ketahuan",
+    "syllables": "ke.ta.huan",
+    "ipa": "/kə.ta.hu.an/",
+    "jawi": "کتاهوان",
+    "frequency_rank": 10166,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tahu",
+    "affix": "ke-...-an",
+    "affix_type": "circumfix",
+    "formula": "ke- + tahu + -an → ketahuan",
+    "pattern_note": "词根 tahu 的 t 和 h 保留；ke- 中的 e 读 /ə/。此处 ke-...-an 表示被知晓或显露的状态，不应一律理解为名词化。",
+    "word_family": [
+      {
+        "word": "mengetahui",
+        "affix": "meN-...-i",
+        "gloss": "知道；获悉"
+      },
+      {
+        "word": "pengetahuan",
+        "affix": "peN-...-an",
+        "gloss": "知识；认知"
+      }
+    ],
+    "root_jawi": "تاهو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "已经被知道或被认出；某人的身份、某件事的情况等已为人所知。",
+      "en_definition": "To be known or recognized; to have become known.",
+      "ms_definition": "(Sudah) diketahui, dikenali.",
+      "nuances": "强调处于已被知晓的状态，不必涉及过错或秘密。根据句意，可用 diketahui 或 dikenali 表达。[DBP：ketahuan](https://prpm.dbp.gov.my/Search?k=ketahuan)",
+      "collocations": [
+        {
+          "ms": "sudah ketahuan",
+          "zh": "已经被知道",
+          "en": "already known"
+        },
+        {
+          "ms": "ketahuan sejak awal",
+          "zh": "从一开始就已为人所知",
+          "en": "known from the outset"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被发现、查明或证实；原先不明显或被隐瞒的事情显露出来。",
+      "en_definition": "To be discovered, detected, or established as true.",
+      "ms_definition": "Telah didapati, kedapatan, terbukti.",
+      "nuances": "可涉及隐瞒的行为，但并不限于“被抓包”。需要精确说明调查结果时，可按语义选用 dikesan、didapati 或 terbukti。[DBP：ketahuan](https://prpm.dbp.gov.my/Search?k=ketahuan)",
+      "collocations": [
+        {
+          "ms": "akhirnya ketahuan",
+          "zh": "终于被发现",
+          "en": "eventually discovered"
+        },
+        {
+          "ms": "ketahuan juga",
+          "zh": "终究还是被发现",
+          "en": "found out after all"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "清楚的、明显的、明白的；常见于否定结构，表示情况不明或不知如何是好。",
+      "en_definition": "Clear, evident, or apparent, often used negatively to express uncertainty.",
+      "ms_definition": "Terang, nyata, jelas.",
+      "nuances": "这是形容清楚程度的用法，不表示已经掌握一套知识。固定结构如 tidak ketahuan 可对应“不明”“不清楚”。[DBP：ketahuan](https://prpm.dbp.gov.my/Search?k=ketahuan)",
+      "collocations": [
+        {
+          "ms": "tidak ketahuan asal usulnya",
+          "zh": "来历不明",
+          "en": "of unknown origin"
+        },
+        {
+          "ms": "tidak ketahuan apa hendak dibuat",
+          "zh": "不知如何是好",
+          "en": "at a loss what to do"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 调查结果报道",
+      "ms": "Selepas dokumen itu diperiksa, ketahuan bahawa beberapa butiran telah dipalsukan.",
+      "zh": "文件经过检查后，发现其中若干细节已被伪造。",
+      "en": "Examination of the document revealed that several details had been falsified."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论原本保密的惊喜",
+      "ms_spoken": "Alamak, rancangan kejutan kita dah ketahuan lah!",
+      "ms_standard": "Aduhai, rancangan kejutan kita sudah diketahui!",
+      "zh": "哎呀，我们准备惊喜的计划已经露馅啦！",
+      "en": "Oh no, our surprise plan is out!",
+      "spoken_features": [
+        "Alamak 表示惊讶或懊恼。",
+        "dah 是 sudah 的口语缩略形式。",
+        "lah 在此加强懊恼和感叹的语气。",
+        "标准对应句使用较直接的 diketahui；不是对 ketahuan 的纠错。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Alamak, rancangan kejutan kita dah ketahuan lah!",
+          "ms_standard": "Aduhai, rancangan kejutan kita sudah diketahui!",
+          "zh": "哎呀，我们准备惊喜的计划已经露馅啦！",
+          "en": "Oh no, our surprise plan is out!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dia nampak kek kat dapur tadi. Tak apa lah, kita teruskan je.",
+          "ms_standard": "Dia ternampak kek di dapur tadi. Tidak mengapa, kita teruskan sahaja rancangan itu.",
+          "zh": "他刚才看见厨房里的蛋糕了。没事啦，我们照计划继续吧。",
+          "en": "He spotted the cake in the kitchen earlier. Never mind, let's go ahead anyway."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ketahuan belongs to the Malay word family built around tahu, meaning to know. Its ke-...-an formation shifts attention toward something being known, discovered, or evident. The dictionary preserves all three meanings, so translating every occurrence as being caught would be misleading. The word can describe an identity becoming known, a fact emerging, or uncertainty when used in a negative construction. [DBP entry](https://prpm.dbp.gov.my/Search?k=ketahuan)",
+    "cognitive_memory_aid": "先认出中间的 tahu“知道”：ketahuan 就是事情进入“被人知道、显露出来”的状态；是否有“露馅”的意味，要看上下文。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接对人说 sudah ketahuan 可能带有“你已经露馅”的指责意味；敏感场合宜说明究竟发现了什么。",
+    "usage_etiquette": "可用于事实显露、身份被认出或秘密被发现。正式报告应区分“发现线索”和“证实过错”，避免仅凭 ketahuan 就暗示某人已被证明有罪。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接对人说 sudah ketahuan 可能带有“你已经露馅”的指责意味；敏感场合宜说明究竟发现了什么。",
+    "usage_etiquette": "可用于事实显露、身份被认出或秘密被发现。正式报告应区分“发现线索”和“证实过错”，避免仅凭 ketahuan 就暗示某人已被证明有罪。"
+  }
+}

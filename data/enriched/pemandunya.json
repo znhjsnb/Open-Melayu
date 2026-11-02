@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "pemandunya",
+    "syllables": null,
+    "ipa": "/pə.man.du.ɲa/",
+    "jawi": "ڤمندو",
+    "frequency_rank": 10124,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pemandu",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "pemandu + -nya → pemandunya；深层构词：peN- + pandu → pemandu",
+    "pattern_note": "本层构词仅附加第三人称附着代词 -nya，词干不变。更深一层中，peN- 接 pandu 时鼻音实现为 /m/，词首 p 脱落，形成 pemandu。依输入包保留 pemandu 为 root_word。所给 Jawi 未包含 -nya。",
+    "word_family": [
+      {
+        "word": "pandu",
+        "affix": "∅",
+        "gloss": "向导；引路"
+      },
+      {
+        "word": "memandu",
+        "affix": "meN- → mem-",
+        "gloss": "驾驶；引导"
+      },
+      {
+        "word": "panduan",
+        "affix": "-an",
+        "gloss": "指南；指导"
+      }
+    ],
+    "root_jawi": "ڤمندو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他、她或它所关联的驾驶员；可指某人的司机，也可指某辆车的驾驶者。",
+      "en_definition": "His, her, or its driver; the person driving the vehicle under discussion.",
+      "ms_definition": "Orang yang memandu kenderaan bagi orang yang dirujuk, atau orang yang memandu kenderaan yang telah disebut.",
+      "nuances": "-nya 可回指人，也可回指车辆。例如 Kereta itu terbabas, tetapi pemandunya selamat 中，pemandunya 指“那辆车的驾驶者”，不是“车所拥有的司机”。现代交通语境中通常首先理解为驾驶员。词基义参见 [DBP：pemandu](https://prpm.dbp.gov.my/Cari1?d=382696&keyword=pemandu)。",
+      "collocations": [
+        {
+          "ms": "pemandunya cedera",
+          "zh": "其驾驶员受伤",
+          "en": "its driver was injured"
+        },
+        {
+          "ms": "pemandunya hilang kawalan",
+          "zh": "其驾驶员失去控制",
+          "en": "its driver lost control"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为他或她带路的人；与所指人员或队伍关联的向导。",
+      "en_definition": "His, her, or their guide; the person showing them the way.",
+      "ms_definition": "Orang yang menunjukkan jalan kepada orang atau kumpulan yang dirujuk.",
+      "nuances": "适用于森林、登山、旅行或其他引路情境，不必涉及驾驶。需要明确旅游职业身份时，可用 pemandu pelancong；pemandu 本身的引路义更广。",
+      "collocations": [
+        {
+          "ms": "menjadi pemandunya",
+          "zh": "担任他／她的向导",
+          "en": "serve as his or her guide"
+        },
+        {
+          "ms": "mengikut pemandunya",
+          "zh": "跟随其向导",
+          "en": "follow his or her guide"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Bas itu berhenti di kawasan rehat selepas pemandunya mendapati terdapat masalah pada enjin.",
+      "zh": "驾驶员发现引擎出现问题后，那辆巴士停在了休息区。",
+      "en": "The bus stopped at a rest area after its driver noticed an engine problem."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kereta tu dah sampai, tapi pemandunya tunggu kat luar lagi.",
+      "ms_standard": "Kereta itu sudah sampai, tetapi pemandunya masih menunggu di luar.",
+      "zh": "车已经到了，不过司机还在外面等着。",
+      "en": "The car's here, but the driver's still waiting outside.",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "dah 对应 sudah。",
+        "kat 对应 di。",
+        "句末 lagi 在此表示“仍然”，标准句可用 masih。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kereta untuk bos dah sampai. Pemandunya tunggu kat luar lagi.",
+          "ms_standard": "Kereta untuk ketua kita sudah sampai. Pemandunya masih menunggu di luar.",
+          "zh": "接老板的车已经到了，司机还在外面等着。",
+          "en": "The boss's car is here. The driver's still waiting outside."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Okey, saya nak turun sekarang. Minta dia tunggu sekejap ya.",
+          "ms_standard": "Baiklah, saya hendak turun sekarang. Minta dia menunggu sebentar.",
+          "zh": "好，我现在就下去。请他稍等一下啊。",
+          "en": "Okay, I'm heading down now. Please ask him to wait a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary connects pemandu with both showing the way and operating a vehicle. These meanings share the practical role of directing a journey: a guide leads people along a route, while a driver controls their transport. The form belongs to the pandu family, alongside memandu and panduan. Adding -nya links that guide or driver to someone or something already mentioned.",
+    "cognitive_memory_aid": "pandu 联想“引路”，pemandu 是负责引路或驾驶的人；-nya 把这个人连到前文：他的司机，或那辆车的驾驶员。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "pemandu 是中性的职业称呼。直接与司机交谈时，可按情境使用 encik、puan 或对方姓名；年龄和熟悉程度合适时也可用 abang。",
+    "usage_etiquette": "向第三者说明情况时可用 pemandunya；若司机本人在场，直接称呼对方通常更自然。涉及事故或投诉时，应说明是哪辆车的驾驶员，避免 -nya 指代不明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "pemandu 是中性的职业称呼。直接与司机交谈时，可按情境使用 encik、puan 或对方姓名；年龄和熟悉程度合适时也可用 abang。",
+    "usage_etiquette": "向第三者说明情况时可用 pemandunya；若司机本人在场，直接称呼对方通常更自然。涉及事故或投诉时，应说明是哪辆车的驾驶员，避免 -nya 指代不明。"
+  }
+}
