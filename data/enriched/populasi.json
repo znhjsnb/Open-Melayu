@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "populasi",
+    "syllables": "po.pu.la.si",
+    "ipa": "/populasi/",
+    "jawi": "ڤوڤولاسي",
+    "frequency_rank": 9361,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "populasi",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + populasi → populasi",
+    "pattern_note": "现代马来语中作为完整借词词基处理；按 po.pu.la.si 读，不把末尾 -asi 单独当作本词的马来语派生后缀。",
+    "word_family": [
+      {
+        "word": "subpopulasi",
+        "affix": "sub-",
+        "gloss": "亚群体；次总体"
+      },
+      {
+        "word": "berpopulasi",
+        "affix": "ber-",
+        "gloss": "具有一定人口或种群数量"
+      }
+    ],
+    "root_jawi": "ڤوڤولاسي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "居住在某一国家、地区或地方的全体居民；人口。",
+      "en_definition": "All the people living in a particular country, region, or locality.",
+      "ms_definition": "Jumlah semua orang yang mendiami sesuatu tempat, seperti negara, negeri atau daerah; penduduk.",
+      "nuances": "偏人口学、统计和新闻语体。penduduk 在日常表达中更常见；populasi 可指居民整体，jumlah populasi 则明确强调人数。",
+      "collocations": [
+        {
+          "ms": "pertumbuhan populasi",
+          "zh": "人口增长",
+          "en": "population growth"
+        },
+        {
+          "ms": "populasi bandar",
+          "zh": "城市人口",
+          "en": "urban population"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在特定地理区域或栖息地内生活的同一物种的个体群体；种群。",
+      "en_definition": "A group of organisms of the same species living in a particular geographical area or habitat.",
+      "ms_definition": "Kumpulan individu sesuatu spesies haiwan atau tumbuhan yang terdapat di sesuatu kawasan geografi atau habitat tertentu.",
+      "nuances": "生态学义要求属于同一物种；同一区域内不同物种组成的整体通常称 komuniti。此处中文应译“种群”，不能一律译成“人口”。[DBP 生物学术语](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=populasi)",
+      "collocations": [
+        {
+          "ms": "populasi harimau",
+          "zh": "老虎种群",
+          "en": "tiger population"
+        },
+        {
+          "ms": "kepadatan populasi",
+          "zh": "种群密度",
+          "en": "population density"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "统计研究中符合既定研究条件的全部个体、对象或观测单位；总体。",
+      "en_definition": "The entire set of individuals, objects, or units about which a statistical study seeks information.",
+      "ms_definition": "Keseluruhan individu, objek atau unit yang memenuhi kriteria sesuatu kajian dan menjadi sasaran kesimpulan kajian tersebut.",
+      "nuances": "这是统计学专业义，可包括人以外的对象；sampel 是从总体中选取的部分。此项为专业释写，补充所给 DBP 普通词典的两个义项。[UKM 统计学用法](https://www.ukm.my/personalia/wp-content/uploads/2017/01/Artikel-10_Chen-Yee-Liang_FPend.pdf)",
+      "collocations": [
+        {
+          "ms": "populasi kajian",
+          "zh": "研究总体",
+          "en": "study population"
+        },
+        {
+          "ms": "saiz populasi",
+          "zh": "总体大小",
+          "en": "population size"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pertumbuhan populasi di daerah tersebut meningkatkan keperluan terhadap kemudahan pengangkutan awam.",
+      "zh": "该县的人口增长提高了对公共交通设施的需求。",
+      "en": "Population growth in the district has increased the need for public transport facilities."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Populasi kajian kita semua pelajar tahun akhir kat fakulti ni, kan?",
+      "ms_standard": "Populasi kajian kita ialah semua pelajar tahun akhir di fakulti ini, bukan?",
+      "zh": "我们的研究总体是这个学院所有的应届毕业生，对吧？",
+      "en": "Our study population is all the final-year students in this faculty, right?",
+      "spoken_features": [
+        "口语判断句省略 ialah。",
+        "kat 对应 di；ni 对应 ini。",
+        "kan 用于确认双方对研究范围的共同理解。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (同学)",
+          "ms_spoken": "Populasi kajian kita semua pelajar tahun akhir kat fakulti ni, kan?",
+          "ms_standard": "Populasi kajian kita ialah semua pelajar tahun akhir di fakulti ini, bukan?",
+          "zh": "我们的研究总体是这个学院所有的应届毕业生，对吧？",
+          "en": "Our study population is all the final-year students in this faculty, right?"
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Haah, tapi kita nak ambil sebahagian je sebagai sampel.",
+          "ms_standard": "Ya, tetapi kita hendak memilih sebahagian sahaja sebagai sampel.",
+          "zh": "对，不过我们只打算选其中一部分作为样本。",
+          "en": "Yeah, but we're only going to select some of them as our sample."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Populasi belongs to the international scientific vocabulary represented in English by population. In Malay, the same word connects three ways of thinking about groups: residents of a place, organisms of one species, and all units included in a study. The context determines whether Chinese should use 人口, 种群, or 总体.",
+    "cognitive_memory_aid": "populasi 对应 population：先看“哪一整群”——居民是人口，同种生物是种群，研究对象全体是总体。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的学术和统计用语。日常谈论当地居民时，penduduk 通常更自然；与居民直接沟通时可用 penduduk setempat 或 masyarakat setempat。",
+    "usage_etiquette": "适合人口报告、生态研究和抽样调查。说明人口或研究群体时应交代地域、时间或纳入条件，使群体范围清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的学术和统计用语。日常谈论当地居民时，penduduk 通常更自然；与居民直接沟通时可用 penduduk setempat 或 masyarakat setempat。",
+    "usage_etiquette": "适合人口报告、生态研究和抽样调查。说明人口或研究群体时应交代地域、时间或纳入条件，使群体范围清楚。"
+  }
+}

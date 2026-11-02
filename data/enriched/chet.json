@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "chet",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 9341,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "chet",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + chet → chet",
+    "pattern_note": "保留原包的词根标记，但其词汇身份尚未确定。若对应旧拼写感叹词 cet，ch 表示现代 c 的音值；若是 Chet.，则可能是旧式出版缩写，不能按完整词的构词分析处理。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "若用于感叹语境，可分析为现代 cet 的旧式或非规范拼写，表达厌恶、不屑或不满，相当于“呸”“哼”。",
+      "en_definition": "Conditionally, an older or nonstandard spelling of cet, an exclamation expressing dislike or contempt.",
+      "ms_definition": "Jika digunakan sebagai kata seru, bentuk ini mungkin mewakili cet, iaitu seruan yang menyatakan rasa tidak suka atau penghinaan.",
+      "nuances": "这是有条件的分析，不能在缺少原句时确认为输入的实际含义。DBP 收录的是 cet；其实际词类是 kata seru，此处因指定词类列表没有 interjection 而归入 particle。以下为示范性组合，不能视为已核实的高频搭配。参见 [DBP 对 cet 的释义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=cis)。",
+      "collocations": [
+        {
+          "ms": "chet, menyampah betul!",
+          "zh": "哼，真讨厌！",
+          "en": "Ugh, how annoying!"
+        },
+        {
+          "ms": "chet, berlagak!",
+          "zh": "哼，真会摆架子！",
+          "en": "Hmph, what a show-off!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "若原文为旧书目中的 Chet.，则为 chetakan（现代拼写 cetakan）的缩写，用来标示印次。",
+      "en_definition": "In older bibliographic records, Chet., an abbreviation of chetakan, modern cetakan, indicating a printing or impression.",
+      "ms_definition": "Dalam rekod bibliografi lama, Chet. ialah singkatan bagi chetakan, yang kini dieja cetakan, untuk menyatakan kali sesuatu buku dicetak.",
+      "nuances": "此义需要出版或书目语境，通常带缩写点并接数字。不能把无标点的输入自动确定为这一缩写。词类 noun 对应其展开形式 cetakan。参见 [CiNii 所录 1964 年 DBP 出版物中的 Chet. 1](https://ci.nii.ac.jp/ncid/BB06081458?l=en)。",
+      "collocations": [
+        {
+          "ms": "Chet. 1",
+          "zh": "第一次印刷",
+          "en": "first printing"
+        },
+        {
+          "ms": "Chet. ke-2",
+          "zh": "第二次印刷",
+          "en": "second printing"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "编辑汇报 / 旧文献整理；以引述方式保留待核形式",
+      "ms": "Bentuk «chet» dalam petikan itu perlu ditafsirkan berdasarkan konteks sebelum ejaannya diselaraskan.",
+      "zh": "引文中的“chet”须先结合上下文解释，再决定如何统一拼写。",
+      "en": "The form “chet” in the quotation must be interpreted in context before its spelling is standardized."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论旧书中的词形",
+      "ms_spoken": "Aku jumpa perkataan «chet» kat buku lama ni. Maksud dia apa?",
+      "ms_standard": "Saya menemukan perkataan «chet» dalam buku lama ini. Apakah maksudnya?",
+      "zh": "我在这本旧书里看到“chet”，这是什么意思啊？",
+      "en": "I found “chet” in this old book. What does it mean?",
+      "spoken_features": [
+        "aku：熟人之间使用的第一人称代词",
+        "kat：此处口语化地表示位置，标准句改用 dalam",
+        "ni：ini 的口语形式",
+        "maksud dia：口语中对应 maksudnya"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku jumpa «chet» kat buku lama ni. Kau tahu maksud dia?",
+          "ms_standard": "Saya menemukan «chet» dalam buku lama ini. Adakah kamu mengetahui maksudnya?",
+          "zh": "我在这本旧书里看到“chet”，你知道是什么意思吗？",
+          "en": "I found “chet” in this old book. Do you know what it means?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Hantar ayat penuh dulu. Aku nak tengok konteks dia.",
+          "ms_standard": "Hantarkan ayat penuh terlebih dahulu. Saya mahu melihat konteks penggunaannya.",
+          "zh": "先把整句发来，我想看看它用在什么语境里。",
+          "en": "Send me the whole sentence first. I want to see the context."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Older Malay spelling used ch where modern spelling commonly uses c. This makes a connection between chet and cet plausible in an exclamation, but not certain without a sentence. A separate documented form, Chet., occurs in older book records as an abbreviation for chetakan. These possibilities require different interpretations and should remain distinct.",
+    "cognitive_memory_aid": "先看上下文：带感叹语气，考虑 cet；出现在旧书目且后接数字，考虑 Chet.＝cetakan。不要只凭字形选义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "若确为表达不屑的感叹词，直接对人使用可能显得轻蔑；不宜用于对长辈、客户或上司的正式回应。",
+    "usage_etiquette": "旧文献引述可保留原拼写；现代正文应先确认实际词义，再采用对应的规范形式。书目缩写义没有感叹词的冒犯色彩。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "若确为表达不屑的感叹词，直接对人使用可能显得轻蔑；不宜用于对长辈、客户或上司的正式回应。",
+    "usage_etiquette": "旧文献引述可保留原拼写；现代正文应先确认实际词义，再采用对应的规范形式。书目缩写义没有感叹词的冒犯色彩。"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "jr",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 9353,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "jr",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + jr → jr；若上下文指 junior，则属于 junior → Jr./Jr 的书写缩略",
+    "pattern_note": "沿用输入的根词字段，但 jr 缺少可确认词义的上下文。若指 Jr./Jr，属于缩略形式，不是马来语词缀派生；通常按 junior 展读，不能仅凭两个字母确定音节、读音或爪夷文。",
+    "word_family": [
+      {
+        "word": "junior",
+        "affix": "∅",
+        "gloss": "在相关语境中为缩略形式的完整写法，非派生词"
+      },
+      {
+        "word": "Jr.",
+        "affix": "∅",
+        "gloss": "junior 的常见缩写形式，非派生词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "仅在 jr 代表英语姓名后缀 Jr. 或 Jr 时：表示同名父子中较年轻的一位，即小某某。",
+      "en_definition": "If representing Jr. or Jr: an abbreviation of junior used after a name to distinguish a son from his father of the same name.",
+      "ms_definition": "Jika merujuk kepada Jr. atau Jr, singkatan bahasa Inggeris bagi junior yang diletakkan selepas nama untuk membezakan anak daripada bapanya yang mempunyai nama yang sama.",
+      "nuances": "这是有来源支持的条件释义，并非已确认输入 jr 的实际含义。pos 按展开后的姓名修饰语处理。输入没有 DBP 定义，不能据此把小写 jr 认定为独立的规范马来语词；status 仅沿用指定输出标签。例句和搭配均展示 Jr. 这一有据形式。参见 [Cambridge：Jr](https://dictionary.cambridge.org/dictionary/english-malaysian/jr) 与 [Cambridge：junior](https://dictionary.cambridge.org/dictionary/english-malaysian/junior)。",
+      "collocations": [
+        {
+          "ms": "Martin Luther King Jr.",
+          "zh": "小马丁·路德·金",
+          "en": "Martin Luther King Jr."
+        },
+        {
+          "ms": "Robert Downey Jr.",
+          "zh": "小罗伯特·唐尼",
+          "en": "Robert Downey Jr."
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Penyunting mengekalkan bentuk Jr. dalam nama penulis sebagaimana yang tertera pada penerbitan asal.",
+      "zh": "编辑按照原出版物所载，保留了作者姓名中的 Jr.。",
+      "en": "The editor retained Jr. in the author’s name as it appeared in the original publication."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah jumpa nama Robert Downey Jr. kat senarai tu.",
+      "ms_standard": "Saya sudah menemukan nama Robert Downey Jr. dalam senarai itu.",
+      "zh": "我已经在那个名单里找到小罗伯特·唐尼的名字了。",
+      "en": "I’ve found Robert Downey Jr.’s name on that list.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di 或 dalam，依语境选择",
+        "tu 对应 itu",
+        "姓名中的 Jr. 保留原有拼写"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah jumpa Robert Downey Jr. kat senarai pelakon ni.",
+          "ms_standard": "Saya sudah menemukan nama Robert Downey Jr. dalam senarai pelakon ini.",
+          "zh": "我在这个演员名单里找到小罗伯特·唐尼了。",
+          "en": "I’ve found Robert Downey Jr. on this cast list."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ha, yang tu lah pelakon yang aku maksudkan.",
+          "ms_standard": "Ya, itulah pelakon yang saya maksudkan.",
+          "zh": "对，就是我说的那个演员。",
+          "en": "Yes, that’s the actor I meant."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "When jr represents the name suffix Jr., its history belongs to English naming practice rather than Malay affixation. It abbreviates junior and distinguishes a son from a father sharing the same name. Malay texts may retain it when reproducing such names. This explanation remains conditional because the supplied lowercase token has no confirming context.",
+    "cognitive_memory_aid": "先看语境：姓名后面的 Jr. 可联想 junior＝较年轻的一位；孤立的 jr 暂不强行定义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "姓名中的 Jr. 应尊重本人或原始资料的写法，不要自行加上或删除。",
+    "usage_etiquette": "适用于保留外国姓名后缀的语境。马来西亚的 bin、binti 属于不同的命名结构，不能与 Jr. 互换；其他领域的 JR 须按原文解释。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "姓名中的 Jr. 应尊重本人或原始资料的写法，不要自行加上或删除。",
+    "usage_etiquette": "适用于保留外国姓名后缀的语境。马来西亚的 bin、binti 属于不同的命名结构，不能与 Jr. 互换；其他领域的 JR 须按原文解释。"
+  }
+}

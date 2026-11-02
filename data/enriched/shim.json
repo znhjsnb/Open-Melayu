@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "shim",
+    "syllables": null,
+    "ipa": "/ʃɪm/",
+    "jawi": null,
+    "frequency_rank": 9432,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "shim",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + shim → shim",
+    "pattern_note": "暂按英语技术词原形处理，没有马来语词缀。IPA 为英语读音；数据包未提供音节或爪夷文。不能把 shim 自动认定为正式马来语拼写；DBP 资料可见 syim、kepipis 等对应形式。",
+    "word_family": [
+      {
+        "word": "shims",
+        "affix": "-s",
+        "gloss": "英语复数：垫片；兼容适配代码"
+      },
+      {
+        "word": "shimming",
+        "affix": "-ing",
+        "gloss": "英语派生形式：加垫调整；实施兼容适配"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英语技术词：置于零件之间，用于填补间隙、支撑或精确调整位置的薄垫片。",
+      "en_definition": "A thin piece inserted between parts to adjust their fit, spacing or alignment.",
+      "ms_definition": "Kepingan nipis yang disisipkan di antara komponen untuk melaras kedudukan, jarak atau padanannya; padanan istilah termasuk kepipis atau syim mengikut bidang.",
+      "nuances": "这是英语技术词的释义及马来文编写说明，并非已核实的 DBP 马来语词头释义。数据包没有上下文，不能排除其实际为姓名或其他专名。正式技术文件应核对领域术语；以下搭配为技术用法。[UTeM：Istilah Kejuruteraan，shim／kepipis](https://sps.utem.edu.my/phocadownloadpap/Istilah%20Kejuruteraan.pdf)；[DBP：centring shim／kepipis memusat](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=memusat)",
+      "collocations": [
+        {
+          "ms": "shim logam",
+          "zh": "金属垫片",
+          "en": "a metal shim"
+        },
+        {
+          "ms": "ketebalan shim",
+          "zh": "垫片厚度",
+          "en": "shim thickness"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "英语计算机术语：介入程序与接口之间，调整调用或行为以改善兼容性的小段适配代码。",
+      "en_definition": "An intervening piece of code that adapts calls or behavior to provide software compatibility.",
+      "ms_definition": "Kod perantara yang menyesuaikan panggilan atau tingkah laku perisian bagi membolehkan keserasian antara komponen.",
+      "nuances": "限计算机技术语境；本义由英语技术资料支持，马来文释义为编写释义，不冒称 DBP 官方定义。[Microsoft：Application Compatibility Database](https://learn.microsoft.com/en-us/windows/win32/devnotes/application-compatibility-database)",
+      "collocations": [
+        {
+          "ms": "shim keserasian",
+          "zh": "兼容适配代码",
+          "en": "a compatibility shim"
+        },
+        {
+          "ms": "memasang shim",
+          "zh": "安装兼容适配代码",
+          "en": "install a shim"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Juruteknik memasang kepipis, yang disebut shim dalam dokumentasi pengilang, untuk melaraskan kedudukan komponen.",
+      "zh": "技术员安装了制造商文件中称为 shim 的垫片，以调整零件的位置。",
+      "en": "The technician installed a shim, identified by that term in the manufacturer's documentation, to adjust the component's position."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Shim yang nipis tu dah sampai kat bengkel ke?",
+      "ms_standard": "Adakah kepipis nipis itu sudah sampai di bengkel?",
+      "zh": "那种薄垫片已经送到修理厂了吗？",
+      "en": "Have those thin shims arrived at the workshop yet?",
+      "spoken_features": [
+        "shim：技术工作场合夹用英语术语",
+        "dah → sudah",
+        "kat → di",
+        "tu → itu",
+        "ke：口语疑问标记"
+      ],
+      "messages": [
+        {
+          "speaker": "Hafiz (同事)",
+          "ms_spoken": "Shim yang nipis tu dah sampai kat bengkel ke?",
+          "ms_standard": "Adakah kepipis nipis itu sudah sampai di bengkel?",
+          "zh": "那种薄垫片已经送到修理厂了吗？",
+          "en": "Have those thin shims arrived at the workshop yet?"
+        },
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Dah. Aku letak kat meja kau tadi.",
+          "ms_standard": "Sudah. Saya meletakkannya di atas meja kamu tadi.",
+          "zh": "到了，我刚才放你桌上了。",
+          "en": "Yes. I put them on your desk earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The supplied spelling is the English technical word shim, whose deeper origin is uncertain. Malay engineering references provide equivalents such as kepipis, while DBP terminology also records syim in compounds. Computing uses shim for intervening code that helps components work together, inviting comparison with a small physical insert that corrects a mismatch. The packet alone does not establish which meaning was intended.",
+    "cognitive_memory_aid": "shim 只有一音节，想成一片很薄的小垫片；软件义则想成夹在两套系统之间的小适配片。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在技术同事之间夹用英语术语通常容易理解；面对非专业读者，应先解释为垫片或兼容适配代码。",
+    "usage_etiquette": "本条保留输入拼写，但未核实其正式马来语词头地位，因此 status 使用 unverified。正式马来文应按领域核对 syim、kepipis 等形式；不能凭此词形推断姓名持有人的背景。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在技术同事之间夹用英语术语通常容易理解；面对非专业读者，应先解释为垫片或兼容适配代码。",
+    "usage_etiquette": "本条保留输入拼写，但未核实其正式马来语词头地位，因此 status 使用 unverified。正式马来文应按领域核对 syim、kepipis 等形式；不能凭此词形推断姓名持有人的背景。"
+  }
+}

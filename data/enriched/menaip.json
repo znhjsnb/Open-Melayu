@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "menaip",
+    "syllables": "me.naip",
+    "ipa": "/mə.naip/",
+    "jawi": "مناءيڤ",
+    "frequency_rank": 9442,
+    "status": "official",
+    "validation_note": "输入将 menaip 判作词根有误；它是 taip 加 meN- 形成的派生动词。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "taip",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + taip → menaip",
+    "pattern_note": "meN- 接以 t 开头的词基时，此词的 t 脱落，由鼻音 n 接替；taip 中 ai 保持双元音，因此分音节为 me.naip。",
+    "word_family": [
+      {
+        "word": "taip",
+        "affix": null,
+        "gloss": "打字词基；口语或祈使句中表示打字"
+      },
+      {
+        "word": "penaip",
+        "affix": "peN-",
+        "gloss": "打字员"
+      },
+      {
+        "word": "penaipan",
+        "affix": "peN-...-an",
+        "gloss": "打字过程或工作"
+      },
+      {
+        "word": "menaipkan",
+        "affix": "meN-...-kan",
+        "gloss": "替某人打字"
+      }
+    ],
+    "root_jawi": "تاءيڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "打字；使用打字机、电脑等设备的键盘输入文字或其他字符。",
+      "en_definition": "To type text or other characters using a typewriter, computer, or similar device.",
+      "ms_definition": "Menulis dengan mesin taip, komputer dan sebagainya.",
+      "nuances": "《Kamus Dewan》释义以打字机为例，《Kamus Pelajar》明确包括电脑。可带宾语，如 menaip surat，也可不带宾语，如 sedang menaip。熟人交流常省去前缀，使用 taip。[DBP：menaip](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menaip)",
+      "collocations": [
+        {
+          "ms": "menaip surat",
+          "zh": "打字写信",
+          "en": "type a letter"
+        },
+        {
+          "ms": "menaip mesej",
+          "zh": "打字输入消息",
+          "en": "type a message"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pembantu tadbir sedang menaip surat rasmi untuk disemak oleh ketua jabatan.",
+      "zh": "行政助理正在打正式信函，供部门主管审核。",
+      "en": "The administrative assistant is typing an official letter for the head of department to review."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku tengah menaip mesej ni, tunggu kejap ya.",
+      "ms_standard": "Saya sedang menaip mesej ini. Sila tunggu sebentar.",
+      "zh": "我正在打这条消息，等一下啊。",
+      "en": "I'm typing this message. Give me a moment.",
+      "spoken_features": [
+        "tengah 在这里对应 sedang，表示动作正在进行。",
+        "ni 对应 ini。",
+        "kejap 对应 sebentar。",
+        "ya 使请求语气较柔和；熟人交流也常以 taip 代替 menaip。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah habis menaip surat tu ke?",
+          "ms_standard": "Adakah kamu sudah selesai menaip surat itu?",
+          "zh": "你那封信打完了吗？",
+          "en": "Have you finished typing that letter?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum, tinggal satu perenggan je. Kejap lagi aku hantar.",
+          "ms_standard": "Belum, hanya satu perenggan lagi yang perlu ditaip. Saya akan menghantarnya sebentar lagi.",
+          "zh": "还没，就剩一段了。我一会儿发给你。",
+          "en": "Not yet—just one paragraph left. I'll send it over shortly."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The history visible in DBP's definitions moves from the mechanical typewriter to the computer. Kamus Dewan describes writing with a typewriter, while Kamus Pelajar explicitly includes computers and similar equipment. The verb remains useful as the equipment changes. Its formation also demonstrates a productive Malay pattern: the initial t of taip disappears after meN-.",
+    "cognitive_memory_aid": "把 taip 和英语 type 的声音联系起来：meN- 加上 taip，t 换成 n，就得到 menaip——打字。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式陈述使用 menaip；礼貌请求可说 Boleh tolong taip surat ini?，即“可以帮忙打这封信吗？”",
+    "usage_etiquette": "适用于办公、学习和聊天输入文字的场景。界面中的 sedang menaip 表示对方正在输入，不能据此断定消息已经写完或发送。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式陈述使用 menaip；礼貌请求可说 Boleh tolong taip surat ini?，即“可以帮忙打这封信吗？”",
+    "usage_etiquette": "适用于办公、学习和聊天输入文字的场景。界面中的 sedang menaip 表示对方正在输入，不能据此断定消息已经写完或发送。"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "radius",
+    "syllables": "ra.dius",
+    "ipa": "/radius/",
+    "jawi": "راديوس",
+    "frequency_rank": 9380,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "radius",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + radius → radius",
+    "pattern_note": "整词借入，无可分析的马来语词缀；末尾 -us 不是马来语后缀。音节字段保留输入包的 ra.dius。",
+    "word_family": [],
+    "root_jawi": "راديوس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "射线；光线。词典收录的义项，现代日常表达通常用 sinar。",
+      "en_definition": "A ray or beam of light; an uncommon sense in contemporary everyday Malay.",
+      "ms_definition": "Sinar atau pancaran cahaya.",
+      "nuances": "输入包所引《Kamus Dewan》列有此义，但不宜据此编造高频 radius 光线搭配。以下提供表达此义更自然的 sinar 搭配。",
+      "collocations": [
+        {
+          "ms": "sinar cahaya",
+          "zh": "光线",
+          "en": "a ray of light"
+        },
+        {
+          "ms": "sinar matahari",
+          "zh": "阳光",
+          "en": "sunlight"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "半径：连接圆心与圆周上一点的线段，亦指其长度；球体中指球心至球面上一点的距离。",
+      "en_definition": "A line segment from the centre of a circle or sphere to its boundary, or the length of that segment.",
+      "ms_definition": "Jejari, iaitu garis dari pusat bulatan atau sfera ke sempadannya, atau panjang garis tersebut.",
+      "nuances": "马来西亚数学教学通常使用 jejari。radius 可理解，但不要与 diameter（直径）混淆；直径等于半径的两倍。参见 [DBP：radius](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=radius)。",
+      "collocations": [
+        {
+          "ms": "radius bulatan",
+          "zh": "圆的半径",
+          "en": "the radius of a circle"
+        },
+        {
+          "ms": "radius kelengkungan",
+          "zh": "曲率半径",
+          "en": "radius of curvature"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "范围半径：从某一中心点向周围计算的距离界限，常用于搜索、服务覆盖或规划范围。",
+      "en_definition": "A specified distance extending outward from a central point, used to delimit an area.",
+      "ms_definition": "Jarak dari sesuatu titik pusat yang digunakan untuk menetapkan lingkungan sesuatu kawasan.",
+      "nuances": "dalam radius lima kilometer 指距中心不超过五公里的区域，并非只指圆周；实际道路行程可能更长。这是几何义在空间范围上的常见应用，见 [PLANMalaysia 规划文件](https://myplan.planmalaysia.gov.my/admin/uploads_publication/pdf_20240612103858_5.pdf)。",
+      "collocations": [
+        {
+          "ms": "dalam radius lima kilometer",
+          "zh": "在五公里半径范围内",
+          "en": "within a five-kilometre radius"
+        },
+        {
+          "ms": "radius pencarian",
+          "zh": "搜索半径",
+          "en": "search radius"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "桡骨：前臂两根长骨之一，人体标准解剖姿势下位于拇指侧。",
+      "en_definition": "The forearm bone on the thumb side, lying alongside the ulna.",
+      "ms_definition": "Tulang lengan bawah yang terletak di sebelah ibu jari dan bersebelahan dengan ulna.",
+      "nuances": "医学与解剖学术语，常写作 tulang radius；此义不是距离单位。DBP 医学术语库明确收录 radius 与 ulna 并列的前臂骨义，见 [DBP 术语资料](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=radius)。",
+      "collocations": [
+        {
+          "ms": "tulang radius",
+          "zh": "桡骨",
+          "en": "the radius bone"
+        },
+        {
+          "ms": "fraktur radius distal",
+          "zh": "桡骨远端骨折",
+          "en": "distal radius fracture"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：服务覆盖范围",
+      "ms": "Perkhidmatan penghantaran ini meliputi kawasan dalam radius lima kilometer dari pusat pengedaran.",
+      "zh": "这项配送服务覆盖配送中心周围半径五公里以内的区域。",
+      "en": "This delivery service covers the area within a five-kilometre radius of the distribution centre."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：确认配送范围",
+      "ms_spoken": "Rumah kau dalam radius lima kilometer dari kedai tu je, kan?",
+      "ms_standard": "Rumah awak berada dalam radius lima kilometer dari kedai itu sahaja, bukan?",
+      "zh": "你家就在那家店五公里范围内，对吧？",
+      "en": "Your place is within five kilometres of that shop, right?",
+      "spoken_features": [
+        "kau 用于熟人之间",
+        "tu 是 itu 的口语缩略形式",
+        "je 表示 sahaja",
+        "kan 用于寻求确认"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kedai tu hantar dalam radius lima kilometer je. Rumah kau kat mana?",
+          "ms_standard": "Kedai itu membuat penghantaran dalam radius lima kilometer sahaja. Di manakah rumah awak?",
+          "zh": "那家店只送五公里以内，你家在哪儿？",
+          "en": "That shop only delivers within five kilometres. Where do you live?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kat taman sebelah je, dua kilometer dari kedai tu. Boleh hantar lah.",
+          "ms_standard": "Rumah saya di taman perumahan bersebelahan, hanya dua kilometer dari kedai itu. Jadi, penghantaran boleh dibuat.",
+          "zh": "就在旁边那个住宅区，离店两公里，应该能送。",
+          "en": "In the next housing estate, just two kilometres from the shop. They should deliver here."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Radius ultimately comes from Latin, where it meant a staff, spoke, or ray. A wheel spoke offers a memorable image of a line reaching from centre to rim. Kamus Dewan labels the Malay borrowing IB, indicating an Indonesian–Dutch connection. Its anatomical use names a forearm bone. See [Oxford](https://www.oxfordlearnersdictionaries.com/us/definition/english/radius) and [DBP](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=radius).",
+    "cognitive_memory_aid": "想象车轮的一根辐条：从中心伸到轮缘，就是 radius；两根对接才是直径。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词语气中性。向非专业听众说明时，可补充 jejari 或 lingkungan；医学语境则说 tulang radius，帮助听者明确所指。",
+    "usage_etiquette": "谈配送、搜索或规划范围时，应明确中心点和距离单位。马来西亚学校数学作答优先沿用题目及教材中的 jejari。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词语气中性。向非专业听众说明时，可补充 jejari 或 lingkungan；医学语境则说 tulang radius，帮助听者明确所指。",
+    "usage_etiquette": "谈配送、搜索或规划范围时，应明确中心点和距离单位。马来西亚学校数学作答优先沿用题目及教材中的 jejari。"
+  }
+}

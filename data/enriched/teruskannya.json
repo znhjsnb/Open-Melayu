@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "teruskannya",
+    "syllables": null,
+    "ipa": "/təruskanɲa/",
+    "jawi": null,
+    "frequency_rank": 9382,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "teruskan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "teruskan + -nya → teruskannya；terus + -kan → teruskan",
+    "pattern_note": "输入包给出的 teruskan 是直接基底，最终词根是 terus。-nya 在这里是宾语附着代词，不是派生后缀；affix_type 的 suffix 仅表示后接位置。ny 表示 /ɲ/。terus 开头的 ter 不是 ter- 前缀。",
+    "word_family": [
+      {
+        "word": "meneruskan",
+        "affix": "meN-…-kan",
+        "gloss": "继续；使延续；转交"
+      },
+      {
+        "word": "berterusan",
+        "affix": "ber-…-an",
+        "gloss": "持续不断"
+      },
+      {
+        "word": "penerusan",
+        "affix": "peN-…-an",
+        "gloss": "延续；继续进行的行为"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把它继续下去；继续进行前文已经提到的活动、工作或计划，常用于指令或鼓励。",
+      "en_definition": "Continue it; carry on with a previously mentioned activity, task, or undertaking.",
+      "ms_definition": "Sambung atau lanjutkan perkara, kegiatan atau pekerjaan yang telah disebut.",
+      "nuances": "-nya 指回前文对象；例如 projek itu…teruskannya。Teruskannya 本身通常是祈使形式，不能直接当作普通第三人称主动陈述中的完整谓语：表达“他继续做”通常用 dia meneruskannya。释义根据 [DBP：meneruskan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meneruskan) 编写，并非独立词条的官方原文。",
+      "collocations": [
+        {
+          "ms": "sila teruskannya",
+          "zh": "请继续进行",
+          "en": "please continue with it"
+        },
+        {
+          "ms": "teruskannya hingga selesai",
+          "zh": "把它继续做到完成",
+          "en": "carry it through to completion"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把它转交或转发给指定接收者；所指通常是前文提到的信息、信件或文件。",
+      "en_definition": "Forward or pass it on to a specified recipient.",
+      "ms_definition": "Sampaikan atau kirimkan perkara yang telah disebut kepada penerima yang berkenaan.",
+      "nuances": "通常接 kepada 加接收者，且必须有能被转交的前文对象。明确指电子消息转发时，majukan mesej itu 也很常见；不要把所有“继续”的语境都理解为“转发”。此义依据 [DBP 的 meneruskan 转交义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meneruskan)。",
+      "collocations": [
+        {
+          "ms": "teruskannya kepada pihak berkenaan",
+          "zh": "将其转交有关方面",
+          "en": "forward it to the relevant party"
+        },
+        {
+          "ms": "teruskannya kepada penerima",
+          "zh": "将其转交接收者",
+          "en": "forward it to the recipient"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：项目指示",
+      "ms": "Pelaksanaan projek ini telah diluluskan; sila teruskannya mengikut jadual yang ditetapkan.",
+      "zh": "本项目已获准实施，请按既定进度继续推进。",
+      "en": "Implementation of this project has been approved; please proceed with it according to the agreed schedule."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：鼓励同事完成工作",
+      "ms_spoken": "Dah separuh siap, teruskannya je sampai habis.",
+      "ms_standard": "Kerja itu sudah separuh siap; teruskannya sahaja sehingga selesai.",
+      "zh": "都做完一半了，就继续把它做完吧。",
+      "en": "You're halfway done—just keep going until it's finished.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式",
+        "je 表示 sahaja，弱化指令语气",
+        "口语省略可由上下文理解的 kerja itu",
+        "熟人口语中也常将 teruskannya 简化为 teruskan"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Laporan ni dah separuh siap. Aku nak berhenti dulu, boleh?",
+          "ms_standard": "Laporan ini sudah separuh siap. Bolehkah saya berhenti dahulu?",
+          "zh": "这份报告做完一半了，我想先停一下，可以吗？",
+          "en": "I'm halfway through this report. Can I stop for now?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kalau penat, rehat dulu lah. Lepas tu, teruskannya sampai siap.",
+          "ms_standard": "Jika penat, berehatlah dahulu. Selepas itu, teruskannya sehingga siap.",
+          "zh": "累了就先休息一下，之后再接着把它做完。",
+          "en": "If you're tired, take a break. Then carry on until it's done."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form shows a productive Malay construction rather than a separate borrowed word. Terus supplies the idea of continuity; teruskan gives an instruction to continue something; attached -nya points back to that thing. The shorter instruction can therefore carry information already established in conversation. DBP records the related continuation and forwarding meanings under meneruskan. See [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=meneruskan).",
+    "cognitive_memory_aid": "terus＝继续，teruskan＝继续做，-nya＝它：合起来就是“把它继续下去”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独说 Teruskannya! 带明确指令语气。职场中可加 sila 或请示式表达；对上级可用 Bolehkah kita meneruskannya?，表示“我们可以继续吗？”",
+    "usage_etiquette": "使用前应让对方知道 -nya 指什么；首次提及任务时直接说 teruskan projek ini 更清楚。普通主动陈述注意补上适当的 meN- 形式，例如 saya akan meneruskannya。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独说 Teruskannya! 带明确指令语气。职场中可加 sila 或请示式表达；对上级可用 Bolehkah kita meneruskannya?，表示“我们可以继续吗？”",
+    "usage_etiquette": "使用前应让对方知道 -nya 指什么；首次提及任务时直接说 teruskan projek ini 更清楚。普通主动陈述注意补上适当的 meN- 形式，例如 saya akan meneruskannya。"
+  }
+}
