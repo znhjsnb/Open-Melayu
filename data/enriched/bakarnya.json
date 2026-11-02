@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "bakarnya",
+    "syllables": null,
+    "ipa": "/ba.kar.ɲa/",
+    "jawi": "باکر",
+    "frequency_rank": 12551,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bakar",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "bakar + -nya → bakarnya",
+    "pattern_note": "直接接 -nya，词干不变。-nya 可作宾语附着语，也可在 bahan bakarnya、ikan bakarnya 等结构中指向整个名词短语的所属关系，不能脱离上下文统一释义。数据包 Jawi 为 bakar，未包含 -nya。",
+    "word_family": [
+      {
+        "word": "membakar",
+        "affix": "meN-",
+        "gloss": "焚烧；烤制"
+      },
+      {
+        "word": "pembakaran",
+        "affix": "peN-...-an",
+        "gloss": "燃烧；焚烧过程"
+      }
+    ],
+    "root_jawi": "باکر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把它烧掉或点燃；-nya 指代前文已知的受事对象。",
+      "en_definition": "Burn it or set it alight, with -nya referring to an understood object.",
+      "ms_definition": "Menyalakan atau menghanguskan sesuatu yang dirujuk oleh -nya.",
+      "nuances": "这是 bakar 与宾语 -nya 的组合，常见于省略主动词前缀的口语或祈使语境。正式主动陈述通常使用 membakarnya。词根的火烧义见 [DBP：bakar](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=bakar)。",
+      "collocations": [
+        {
+          "ms": "jangan bakarnya",
+          "zh": "别把它烧掉",
+          "en": "do not burn it"
+        },
+        {
+          "ms": "bakarnya sampai hangus",
+          "zh": "把它烧至焦黑",
+          "en": "burn it until it is charred"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把它烤熟；根据食物和器具，可指炭烤、烧烤或烘烤。",
+      "en_definition": "Grill, roast, or bake it, depending on the food and cooking method.",
+      "ms_definition": "Memasak sesuatu yang dirujuk oleh -nya dengan haba api, bara atau ketuhar.",
+      "nuances": "此处烧烤的目标是使食物熟透，并不意味着烧焦。完整主动形式为 membakarnya；不可把所有 bakar 都译成“焚毁”。",
+      "collocations": [
+        {
+          "ms": "bakarnya atas bara",
+          "zh": "把它放在炭火上烤",
+          "en": "grill it over embers"
+        },
+        {
+          "ms": "bakarnya dalam ketuhar",
+          "zh": "把它放进烤箱烘烤",
+          "en": "bake it in the oven"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "在 bahan bakarnya 等名词短语中，表示“它的燃料”等整体所属义；不是 bakarnya 独立具有“燃料”义。",
+      "en_definition": "In a larger noun phrase, marks possession of the whole expression, as in bahan bakarnya, 'its fuel'.",
+      "ms_definition": "Dalam frasa nama tertentu, -nya menyatakan pemilik atau rujukan bagi keseluruhan frasa, seperti bahan bakarnya.",
+      "nuances": "本项词性指包含该形式的整个名词短语。bahan bakarnya 是“它的燃料”；ikan bakarnya 是“他／她的烤鱼”，也可能依语境指某店所售的烤鱼。须保留前面的名词才能确定意思。",
+      "collocations": [
+        {
+          "ms": "penggunaan bahan bakarnya",
+          "zh": "它的燃料消耗",
+          "en": "its fuel consumption"
+        },
+        {
+          "ms": "ikan bakarnya",
+          "zh": "他／她的烤鱼",
+          "en": "his or her grilled fish"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kenderaan itu dipilih kerana penggunaan bahan bakarnya lebih rendah.",
+      "zh": "选择该车辆是因为其燃料消耗较低。",
+      "en": "The vehicle was selected because its fuel consumption is lower."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ikan bakarnya sedap, tapi aku nak sambal sikit je.",
+      "ms_standard": "Ikan bakar yang dijual di kedai itu sedap, tetapi saya hanya mahu sedikit sambal.",
+      "zh": "那家的烤鱼很好吃，不过参巴辣酱我只要一点。",
+      "en": "Their grilled fish is delicious, but I only want a little sambal.",
+      "spoken_features": [
+        "-nya 在 ikan bakarnya 中依语境指向前文谈到的店家。",
+        "nak 是 hendak 或 mahu 的口语形式；je 对应 sahaja。",
+        "口语以 sikit 代替 sedikit。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah cuba ikan bakarnya kat kedai tu?",
+          "ms_standard": "Adakah kamu sudah mencuba ikan bakar yang dijual di kedai itu?",
+          "zh": "你吃过那家的烤鱼了吗？",
+          "en": "Have you tried the grilled fish at that place?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Sedap lah! Nanti aku nak pesan lagi.",
+          "ms_standard": "Sudah. Memang sedap! Saya mahu memesannya lagi nanti.",
+          "zh": "吃过了，好吃啊！下次我还要点。",
+          "en": "Yes, it's really good! I'll order it again next time."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bakar connects everyday fire with cooking and destruction. Malay expressions distinguish fuel, grilled food, and the act of burning through the surrounding words. In bakarnya, attached -nya adds grammatical reference rather than a new kind of fire. The phrase bahan bakarnya therefore concerns someone's or something's fuel, not necessarily an instruction to burn.",
+    "cognitive_memory_aid": "先记 bakar＝“烧／烤”，再看 -nya 指谁：bakarnya 可是“烧它”；bahan bakarnya 则要整块读成“它的燃料”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "点餐时可用 Saya mahu ikan bakar，或 Berikan saya...，避免把 bakarnya 当作通用礼貌点餐句。熟人交流中 nak 很自然。",
+    "usage_etiquette": "谈菜肴时须区分 bakar“烤制”和 hangus“烧焦”。涉及所属关系时，应让店家、食物或车辆等指称对象清楚可辨。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "点餐时可用 Saya mahu ikan bakar，或 Berikan saya...，避免把 bakarnya 当作通用礼貌点餐句。熟人交流中 nak 很自然。",
+    "usage_etiquette": "谈菜肴时须区分 bakar“烤制”和 hangus“烧焦”。涉及所属关系时，应让店家、食物或车辆等指称对象清楚可辨。"
+  }
+}

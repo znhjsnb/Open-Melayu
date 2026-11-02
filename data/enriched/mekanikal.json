@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "mekanikal",
+    "syllables": null,
+    "ipa": "/me.ka.ni.kal/",
+    "jawi": "ميکانيکل",
+    "frequency_rank": 12585,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mekanikal",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mekanikal → mekanikal（整词技术词）",
+    "pattern_note": "按马来语共时构词作为整词记忆，不把词尾 -al 当作本土能产后缀。首音节的 e 为 e taling /e/，不是 /ə/。输入包 syllables 字段为 null；其 DBP 引文另标音节为 mé.ka.ni.kal。",
+    "word_family": [
+      {
+        "word": "mekanik",
+        "affix": "∅（相关技术词）",
+        "gloss": "机械师；力学"
+      },
+      {
+        "word": "mekanisme",
+        "affix": "∅（相关技术词）",
+        "gloss": "机械装置；机制"
+      }
+    ],
+    "root_jawi": "ميکانيکل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "机械的；与机器、机械装置或其结构及运作有关的。",
+      "en_definition": "Relating to machines, machinery or their operation.",
+      "ms_definition": "Berhubung dengan jentera, mesin dan sebagainya.",
+      "nuances": "用于工程、设备、故障和专业职称等语境。mekanikal 是性质词；表示修理机器的人通常用 mekanik，表示机械工程师则用 jurutera mekanikal。词义依据：[DBP：mekanikal](https://prpm.dbp.gov.my/Cari1?d=378040&keyword=mekanikal)。",
+      "collocations": [
+        {
+          "ms": "jurutera mekanikal",
+          "zh": "机械工程师",
+          "en": "mechanical engineer"
+        },
+        {
+          "ms": "kerosakan mekanikal",
+          "zh": "机械故障",
+          "en": "mechanical failure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "机械式的；像机器一样重复进行、缺乏思考或感情投入的。",
+      "en_definition": "Mechanical or unthinking; performed routinely without conscious thought or feeling.",
+      "ms_definition": "Secara atau seperti gerakan mesin atau jentera, tanpa menggunakan fikiran.",
+      "nuances": "常用于 secara mekanikal，描述行为方式。形容人的学习、回应或工作时，通常含有欠缺理解、判断或投入的批评意味。形容词在 secara 之后构成方式表达，不必另立为独立副词。词义依据：[DBP：mekanikal](https://prpm.dbp.gov.my/Cari1?d=378040&keyword=mekanikal)。",
+      "collocations": [
+        {
+          "ms": "menghafal secara mekanikal",
+          "zh": "机械地背诵",
+          "en": "to memorize by rote"
+        },
+        {
+          "ms": "bertindak secara mekanikal",
+          "zh": "不加思考地机械行事",
+          "en": "to act mechanically"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pemeriksaan awal mendapati bahawa gangguan operasi itu berpunca daripada kerosakan mekanikal pada sistem penghantar.",
+      "zh": "初步检查发现，此次运作中断源于输送系统的机械故障。",
+      "en": "The initial inspection found that the operational disruption was caused by a mechanical failure in the conveyor system."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Lif kat blok kita rosak lagi. Ada masalah mekanikal, katanya.",
+      "ms_standard": "Lif di blok kita rosak lagi. Menurut maklumat yang diterima, terdapat masalah mekanikal.",
+      "zh": "我们这栋的电梯又坏了，说是机械出了问题。",
+      "en": "The lift in our block has broken down again. Apparently, it's a mechanical problem.",
+      "spoken_features": [
+        "kat 对应表示地点的 di。",
+        "katanya 在此转述听来的消息，不一定指某位特定男性。",
+        "聊天中常用较短的分句传达情况。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Lif kat blok kita dah boleh guna ke?",
+          "ms_standard": "Adakah lif di blok kita sudah boleh digunakan?",
+          "zh": "我们这栋的电梯能用了吗？",
+          "en": "Is the lift in our block working yet?"
+        },
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Belum lagi. Ada masalah mekanikal, katanya. Kita guna tangga dulu je.",
+          "ms_standard": "Belum lagi. Menurut maklumat yang diterima, terdapat masalah mekanikal. Kita gunakan tangga dahulu.",
+          "zh": "还没呢，说是机械出了问题。我们先走楼梯吧。",
+          "en": "Not yet. Apparently, there's a mechanical problem. Let's use the stairs for now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mekanikal belongs to international technical vocabulary and corresponds to English mechanical. Its meanings connect two familiar pictures: actual machinery and human actions performed as though by a machine. Kamus Dewan records both senses, allowing the same word to describe an equipment fault or an unthinking routine. This connection is useful without assuming a particular borrowing date or transmission route. [DBP dictionary entry](https://prpm.dbp.gov.my/Cari1?d=378040&keyword=mekanikal)",
+    "cognitive_memory_aid": "把 mekanikal 与英语 mechanical 连起来：机器本身是“机械的”，人像机器重复动作就是“机械式的”。首音读 /me/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "技术义属于中性专业用语。评价他人 bertindak secara mekanikal 可能显得尖锐；职场反馈宜具体说明需要加强理解或判断的环节。",
+    "usage_etiquette": "适合维修通知、工程报告、专业介绍及学习方法讨论。报告尚未确认的故障原因时，可用 disyaki berpunca daripada masalah mekanikal，表示怀疑由机械问题引起。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "技术义属于中性专业用语。评价他人 bertindak secara mekanikal 可能显得尖锐；职场反馈宜具体说明需要加强理解或判断的环节。",
+    "usage_etiquette": "适合维修通知、工程报告、专业介绍及学习方法讨论。报告尚未确认的故障原因时，可用 disyaki berpunca daripada masalah mekanikal，表示怀疑由机械问题引起。"
+  }
+}

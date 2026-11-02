@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "menggulingkan",
+    "syllables": "meng.gu.ling.kan",
+    "ipa": "/məŋ.ɡu.liŋ.kan/",
+    "jawi": "مڠݢوليڠکن",
+    "frequency_rank": 12553,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menggulingkan",
+    "affix": "meN-...-kan",
+    "affix_type": "circumfix",
+    "formula": "meN- + guling + -kan → menggulingkan",
+    "pattern_note": "meN- 在 g 前实现为 meng-，词根首音 g 保留；-kan 在这里构成使动及物动词。root_word 与 root_jawi 按数据包保留，但数据包的词根识别有误：实际构词基底是 guling（ݢوليڠ），因此 is_root 为 false。[DBP：guling](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=guling)",
+    "word_family": [
+      {
+        "word": "berguling",
+        "affix": "ber-",
+        "gloss": "滚动；翻滚"
+      },
+      {
+        "word": "terguling",
+        "affix": "ter-",
+        "gloss": "翻倒；被推翻"
+      }
+    ],
+    "root_jawi": "مڠݢوليڠکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "使某物滚动或翻滚，通常通过推、拨等动作使其移动。",
+      "en_definition": "To cause something to roll or turn over.",
+      "ms_definition": "Menyebabkan sesuatu berguling atau bergolek.",
+      "nuances": "及物动词，主语施加作用，宾语发生滚动；berguling 则表示对象本身滚动。不能把 menggulingkan 与 menggulung“卷起”混用。",
+      "collocations": [
+        {
+          "ms": "menggulingkan kayu balak",
+          "zh": "使原木滚动",
+          "en": "roll a log"
+        },
+        {
+          "ms": "menggulingkan tong",
+          "zh": "使桶滚动",
+          "en": "roll a barrel"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "推翻政府、统治者或掌权者，使其失去权位。",
+      "en_definition": "To overthrow a government or remove a ruler or leader from power.",
+      "ms_definition": "Menjatuhkan kerajaan atau seseorang daripada kedudukan atau kekuasaannya.",
+      "nuances": "由物体翻倒引申为权力结构被推倒。语气较强，不能一概理解为武装政变；是否涉及暴力须看上下文。",
+      "collocations": [
+        {
+          "ms": "menggulingkan kerajaan",
+          "zh": "推翻政府",
+          "en": "overthrow a government"
+        },
+        {
+          "ms": "menggulingkan pemerintah",
+          "zh": "推翻统治者",
+          "en": "overthrow a ruler"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "在比赛或竞争中击败对手，尤指击败原有冠军或强者。",
+      "en_definition": "To defeat an opponent, especially an established champion.",
+      "ms_definition": "Mengalahkan lawan, khususnya juara, dalam pertandingan.",
+      "nuances": "体育报道中的比喻用法，突出强者被击败；日常中性的“战胜”通常也可用 mengalahkan。此义见 [DBP 收录的 Kamus Pelajar 释义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=guling)。",
+      "collocations": [
+        {
+          "ms": "menggulingkan juara bertahan",
+          "zh": "击败卫冕冠军",
+          "en": "defeat the defending champion"
+        },
+        {
+          "ms": "menggulingkan pilihan utama",
+          "zh": "击败头号热门",
+          "en": "upset the leading favourite"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "摇头；见于古典马来叙事的旧用法。",
+      "en_definition": "To shake one's head; an archaic literary usage.",
+      "ms_definition": "Dalam bahasa sastera lama, menggelengkan kepala.",
+      "nuances": "数据包及 Kamus Dewan 标为 sl，即 sastera lama。现代日常表达“摇头”宜用 menggelengkan kepala，不能据此理解为把头滚动。",
+      "collocations": [
+        {
+          "ms": "menggulingkan kepala",
+          "zh": "摇头（古典用法）",
+          "en": "shake one's head, in archaic usage"
+        },
+        {
+          "ms": "menggulingkan kepalanya",
+          "zh": "摇了摇自己的头（古典用法）",
+          "en": "shake one's head, in archaic usage"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pemain muda itu berjaya menggulingkan juara bertahan dalam perlawanan akhir.",
+      "zh": "那名年轻选手在决赛中成功击败卫冕冠军。",
+      "en": "The young player defeated the defending champion in the final."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tak sangka dia boleh menggulingkan juara bertahan tadi!",
+      "ms_standard": "Saya tidak menyangka bahawa dia dapat menggulingkan juara bertahan tadi.",
+      "zh": "真没想到他刚才居然能赢卫冕冠军！",
+      "en": "I didn't expect him to beat the defending champion!",
+      "spoken_features": [
+        "tak 对应 tidak；口语省略 Saya 和 bahawa。",
+        "boleh 在此表示能力，标准对应句使用 dapat。",
+        "保留完整动词 menggulingkan，符合聊天中转述体育报道的语境。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah tengok keputusan? Dia berjaya menggulingkan juara bertahan!",
+          "ms_standard": "Adakah kamu sudah melihat keputusan pertandingan? Dia berjaya menggulingkan juara bertahan!",
+          "zh": "你看赛果了吗？他把卫冕冠军赢下来了！",
+          "en": "Have you seen the result? He beat the defending champion!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah! Aku nak tengok ulang tayang nanti. Hebat lah dia!",
+          "ms_standard": "Sudah! Saya mahu menonton siaran ulangannya nanti. Dia memang hebat!",
+          "zh": "看到了！待会儿我要看重播，他真厉害！",
+          "en": "Yes! I'll watch the replay later. He was brilliant!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The senses of menggulingkan connect physical movement with changes in status: a rolling object provides a concrete image for a fallen government or a defeated champion. Older Malay literature also preserves a head-shaking sense. These recorded meanings illustrate semantic range; they do not by themselves establish when each meaning first developed. [DBP: guling](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=guling)",
+    "cognitive_memory_aid": "guling＝“滚”；meN- + guling + -kan＝“使它滚倒”。从原木滚动，联想到政府被推倒、冠军被击败。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身不是粗话，但用于政治或职场人物时力度很强。若只是更换负责人，应按实际意思使用 menggantikan，而非随意说 menggulingkan。",
+    "usage_etiquette": "适用于具体滚动动作、政治分析和体育报道。政治语境中应区分事实、指控和假设；古典“摇头”义适合阅读解释，不宜直接套入现代会话。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身不是粗话，但用于政治或职场人物时力度很强。若只是更换负责人，应按实际意思使用 menggantikan，而非随意说 menggulingkan。",
+    "usage_etiquette": "适用于具体滚动动作、政治分析和体育报道。政治语境中应区分事实、指控和假设；古典“摇头”义适合阅读解释，不宜直接套入现代会话。"
+  }
+}

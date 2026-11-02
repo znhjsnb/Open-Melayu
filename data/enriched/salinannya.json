@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "salinannya",
+    "syllables": null,
+    "ipa": "/sa.li.nan.ɲa/",
+    "jawi": "سالينن",
+    "frequency_rank": 12534,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "salinan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "salin + -an → salinan; salinan + -nya → salinannya",
+    "pattern_note": "salinan 是本词直接基底，最底层词根为 salin。-nya 是附着代词；/n/ 与 /ɲ/ 分属相邻音节，不合并。按输入保留的 سالينن 仅对应 salinan，未包含 -nya；完整词形的官方爪夷文待核。",
+    "word_family": [
+      {
+        "word": "salinan",
+        "affix": "-an",
+        "gloss": "副本；译本"
+      },
+      {
+        "word": "menyalin",
+        "affix": "meN-",
+        "gloss": "抄写；复制"
+      },
+      {
+        "word": "penyalinan",
+        "affix": "peN-…-an",
+        "gloss": "抄录或复制的过程"
+      }
+    ],
+    "root_jawi": "سالينن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "它的副本；他或她持有的副本；语境中已指明的那份复制件。",
+      "en_definition": "Its copy; his or her copy; the contextually identified duplicate.",
+      "ms_definition": "turunan (surat dll), halaman atau lembaran yg bukan asal, tetapi sama setiap butirannya dgn yg asal",
+      "nuances": "马来语定义引自基底 salinan；-nya 的具体指向须由上下文确定，并不自带性别或复数意义。Sijil asal disimpan, salinannya dihantar 中指证书的副本。副本并不自动等于经认证副本。[DBP：salinan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=salinan)",
+      "collocations": [
+        {
+          "ms": "menghantar salinannya",
+          "zh": "提交其副本",
+          "en": "submit a copy of it"
+        },
+        {
+          "ms": "menyimpan salinannya",
+          "zh": "保存其副本",
+          "en": "keep a copy of it"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "它的译本或译文；所指文本的另一语言版本。",
+      "en_definition": "Its translation or translated version.",
+      "ms_definition": "terjemahan",
+      "nuances": "这是 salinan 的词典义项，须有明确翻译语境才能这样理解。现代交流中 terjemahannya 通常更清楚；不能把所有 salinannya 都译成“译本”。",
+      "collocations": [
+        {
+          "ms": "salinannya dalam bahasa Melayu",
+          "zh": "它的马来语译本",
+          "en": "its Malay translation"
+        },
+        {
+          "ms": "salinannya daripada bahasa Arab",
+          "zh": "它从阿拉伯语译出的版本",
+          "en": "its translation from Arabic"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila bawa sijil asal untuk semakan dan serahkan salinannya kepada urus setia.",
+      "zh": "请携带证书原件供核验，并将其副本交给秘书处。",
+      "en": "Please bring the original certificate for verification and submit a copy to the secretariat."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dokumen asal tu simpan je; salinannya hantar kat saya, ya.",
+      "ms_standard": "Simpan sahaja dokumen asal itu; hantarkan salinannya kepada saya, ya.",
+      "zh": "原文件你留着就好，副本发给我呀。",
+      "en": "Just keep the original document and send me a copy, okay?",
+      "spoken_features": [
+        "tu → itu",
+        "je → sahaja",
+        "kat → kepada，此处标示接收者",
+        "ya 用于缓和请求"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Borang asal dah ada kat pejabat. Awak nak salinannya juga ke?",
+          "ms_standard": "Borang asal sudah ada di pejabat. Adakah awak mahu salinannya juga?",
+          "zh": "表格原件已经在办公室了。你也要一份副本吗？",
+          "en": "The original form is already at the office. Do you want a copy too?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, hantar salinannya kat saya je. Yang asal biar kat sana.",
+          "ms_standard": "Ya, hantarkan salinannya kepada saya sahaja. Biarkan yang asal di sana.",
+          "zh": "要，发副本给我就行。原件留在那边。",
+          "en": "Yes, just send me a copy. Leave the original there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Salin connects copying with the production of another version. The noun-forming suffix -an gives salinan, the resulting copy, while -nya links that copy to an understood person or document. DBP also records a translation sense, showing that a textual counterpart need not reproduce the original language. This is a morphological and semantic account, not a dated origin claim.",
+    "cognitive_memory_aid": "分三步记：salin 抄写 → salinan 抄出来的副本 → salinannya 它的／他的那份副本。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身语体中性。向办事人员或上级提出请求时，可用 Mohon salinannya 或 Boleh saya mendapatkan salinannya?；对正式收件人避免只用发号施令式 Hantar!",
+    "usage_etiquette": "办理申请时须区分原件、副本及经认证副本。涉及证件、病历或他人资料时，应说明需要哪份副本，并使用获准的接收渠道。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身语体中性。向办事人员或上级提出请求时，可用 Mohon salinannya 或 Boleh saya mendapatkan salinannya?；对正式收件人避免只用发号施令式 Hantar!",
+    "usage_etiquette": "办理申请时须区分原件、副本及经认证副本。涉及证件、病历或他人资料时，应说明需要哪份副本，并使用获准的接收渠道。"
+  }
+}

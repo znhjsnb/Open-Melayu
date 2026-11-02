@@ -1,0 +1,168 @@
+{
+  "headword": {
+    "word": "kelasnya",
+    "syllables": null,
+    "ipa": "/kə.las.ɲa/",
+    "jawi": "کلس",
+    "frequency_rank": 12598,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kelas",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "kelas + -nya → kelasnya",
+    "pattern_note": "-nya 是附着代词，此处按字段归入后缀；直接接在 kelas 后，词根不变，ny 读 /ɲ/。数据包中的 کلس 是词根拼写，完整 kelasnya 可写作 کلسڽ。",
+    "word_family": [
+      {
+        "word": "berkelas",
+        "affix": "ber-",
+        "gloss": "属于某种等级或阶层；有档次"
+      },
+      {
+        "word": "mengelaskan",
+        "affix": "meN-...-kan",
+        "gloss": "分类；划分等级"
+      },
+      {
+        "word": "pengelasan",
+        "affix": "peN-...-an",
+        "gloss": "分类；等级划分"
+      }
+    ],
+    "root_jawi": "کلس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他或她所在、使用或负责的教室。",
+      "en_definition": "His or her classroom.",
+      "ms_definition": "Bilik darjahnya.",
+      "nuances": "kelas 可指上课的房间；-nya 的具体指代须由上下文确定，不区分男性或女性，也不表示房间的法律所有权。[词根释义：DBP](https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kelas)。",
+      "collocations": [
+        {
+          "ms": "pintu kelasnya",
+          "zh": "他或她所在教室的门",
+          "en": "the door to his or her classroom"
+        },
+        {
+          "ms": "masuk ke kelasnya",
+          "zh": "进入他或她的教室",
+          "en": "enter his or her classroom"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "他或她的班级、课程、课次或所读的学习级别。",
+      "en_definition": "His or her class, lesson, course, or educational level.",
+      "ms_definition": "Kumpulan belajar, sesi pembelajaran atau peringkat pengajiannya.",
+      "nuances": "须结合动词判断：kelasnya bermula 通常指课程开始；rakan sekelasnya 指同班同学。词形本身不表示单复数。[词根释义：DBP](https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kelas)。",
+      "collocations": [
+        {
+          "ms": "jadual kelasnya",
+          "zh": "他或她的课程表",
+          "en": "his or her class timetable"
+        },
+        {
+          "ms": "kelasnya bermula",
+          "zh": "他或她的课开始",
+          "en": "his or her class begins"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "他或她所属的社会阶层。",
+      "en_definition": "His or her social class.",
+      "ms_definition": "Golongan sosialnya.",
+      "nuances": "用于讨论社会地位、收入或阶层关系；不能单凭此词推断当事人的收入或身份。[词根释义：DBP](https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kelas)。",
+      "collocations": [
+        {
+          "ms": "kedudukan kelasnya",
+          "zh": "他或她的阶层地位",
+          "en": "his or her class position"
+        },
+        {
+          "ms": "kesedaran kelasnya",
+          "zh": "他或她的阶级意识",
+          "en": "his or her class consciousness"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "所述对象的类别、等级或档次。",
+      "en_definition": "The category, grade, or class of the referent.",
+      "ms_definition": "Kategori atau peringkat bagi perkara yang dirujuk.",
+      "nuances": "适用于分类、评级及服务档次。正式技术文本宜明确写出 kelas bahan itu 等完整名称，以免 -nya 指代含糊。[词根释义：DBP](https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kelas)。",
+      "collocations": [
+        {
+          "ms": "mengikut kelasnya",
+          "zh": "按其类别或等级",
+          "en": "according to its class"
+        },
+        {
+          "ms": "terbaik dalam kelasnya",
+          "zh": "同类中最佳的",
+          "en": "the best in its class"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak sekolah memaklumkan bahawa kelasnya akan dipindahkan ke bangunan baharu mulai minggu hadapan.",
+      "zh": "校方通知，他或她的班级将从下周起迁至新楼。",
+      "en": "The school announced that his or her class would move to the new building starting next week."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aina dah sampai, tapi kelasnya belum mula lagi.",
+      "ms_standard": "Aina sudah sampai, tetapi kelasnya masih belum bermula.",
+      "zh": "艾娜已经到了，不过她的课还没开始。",
+      "en": "Aina's already here, but her class hasn't started yet.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "tapi 对应标准语 tetapi；mula 在此口语句中对应 bermula。",
+        "-nya 回指 Aina；朋友聊天中也常直接说 kelas dia。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aina dah sampai, tapi kelasnya belum mula lagi.",
+          "ms_standard": "Aina sudah sampai, tetapi kelasnya masih belum bermula.",
+          "zh": "艾娜已经到了，不过她的课还没开始。",
+          "en": "Aina's already here, but her class hasn't started yet."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Suruh dia tunggu kat kafe dulu lah. Aku nak jumpa dia kejap.",
+          "ms_standard": "Minta dia menunggu di kafe dahulu. Saya hendak berjumpa dengannya sebentar.",
+          "zh": "叫她先在咖啡馆等一下吧，我想找她聊一会儿。",
+          "en": "Ask her to wait at the café for now. I want to see her for a minute."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kelasnya is a transparent combination of kelas and the attached pronoun -nya. Its classroom meaning belongs to a wider network that includes lessons, educational levels, social groups and ranked categories. These connections explain why the same form can identify someone's lesson in a school conversation and a referent's category in a classification discussion. [DBP](https://prpm.dbp.gov.my/Cari1?d=113780&keyword=kelas).",
+    "cognitive_memory_aid": "先记 kelas＝班或课，再接 -nya＝他／她的：kelasnya，就是“他／她的班或课”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式交流中先交代姓名或身份，再使用 -nya，便于明确指代。提及受尊敬者时，可用 kelas beliau 表达更明确的敬意。",
+    "usage_etiquette": "日常谈课程时很自然；谈社会阶层时应保持客观，避免用等级评价人的价值。数据包中的 Jawi 为词根形式，音节字段缺失，保留 null。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式交流中先交代姓名或身份，再使用 -nya，便于明确指代。提及受尊敬者时，可用 kelas beliau 表达更明确的敬意。",
+    "usage_etiquette": "日常谈课程时很自然；谈社会阶层时应保持客观，避免用等级评价人的价值。数据包中的 Jawi 为词根形式，音节字段缺失，保留 null。"
+  }
+}

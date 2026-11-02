@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "masters",
+    "syllables": null,
+    "ipa": "/ˈmɑː.stəz/",
+    "jawi": null,
+    "frequency_rank": 12569,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "masters",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + masters → masters（按输入作为整体词形保留）",
+    "pattern_note": "此处不作马来语词缀分析。学位语境可能是省略撇号的英语 master's；赛事名中的 Masters 则须依正式名称保留。IPA 为英语读法参考，并非已核实的马来语标准读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "在英语夹杂或非正式书写中，可能指硕士学位或硕士课程；规范马来语通常用 ijazah sarjana 或 pengajian sarjana。",
+      "en_definition": "In informal educational contexts, a spelling used for a master's degree or master's studies.",
+      "ms_definition": "Dalam konteks pendidikan tidak formal, merujuk kepada ijazah sarjana atau pengajian pada peringkat sarjana; padanan bahasa Melayu ialah ijazah sarjana atau pengajian sarjana.",
+      "nuances": "须由原句确认此义，不能仅凭 masters 自动判定。规范英语通常写 master's 或 master's degree；正式马来语宜用 sarjana。此处为用法释义，并非 DBP 对 masters 的独立词条定义。status 按指定格式保留为 official，不表示该拼写获认证为规范马来语。[DBP：sarjana](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=sarjana)、[Chicago：master's degrees 的拼写](https://www.chicagomanualofstyle.org/qanda/data/faq/topics/PossessivesandAttributives/faq0040.html)",
+      "collocations": [
+        {
+          "ms": "sambung masters",
+          "zh": "继续读硕士",
+          "en": "pursue a master's degree"
+        },
+        {
+          "ms": "buat masters",
+          "zh": "读硕士",
+          "en": "do a master's degree"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "作为体育赛事名称的一部分，指“大师赛”；具体赛事须由完整名称确定。",
+      "en_definition": "Masters, used as part of the proper name of a sporting tournament.",
+      "ms_definition": "Unsur nama khas sesuatu kejohanan sukan, seperti Malaysia Masters.",
+      "nuances": "赛事名称通常保留大写 Masters；不能把名称中的该词理解为硕士学位。此义描述专名用法，不主张 masters 已成为具有同一通义的规范马来语普通名词。英语中还可能出现其他语法用法，输入缺少原句，不能穷尽判定。[马来西亚体育场机构：Malaysia Masters](https://www.stadium.gov.my/events/57-perodua-malaysia-masters-2026-presented-by-daihatsu?format=html)",
+      "collocations": [
+        {
+          "ms": "Malaysia Masters",
+          "zh": "马来西亚大师赛",
+          "en": "Malaysia Masters"
+        },
+        {
+          "ms": "kejohanan Malaysia Masters",
+          "zh": "马来西亚大师赛赛事",
+          "en": "the Malaysia Masters tournament"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：保留赛事专名",
+      "ms": "Laporan itu merangkumi persiapan bagi kejohanan Malaysia Masters.",
+      "zh": "该报告涵盖马来西亚大师赛的筹备工作。",
+      "en": "The report covers preparations for the Malaysia Masters tournament."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：学位语境中的英语夹杂",
+      "ms_spoken": "Aku nak sambung masters tahun depan lah.",
+      "ms_standard": "Saya mahu melanjutkan pengajian pada peringkat sarjana pada tahun hadapan.",
+      "zh": "我想明年继续读硕士。",
+      "en": "I’m thinking of doing a master's next year.",
+      "spoken_features": [
+        "aku 用于熟人交流",
+        "nak 对应 mahu 或 hendak",
+        "masters 为英语夹杂，标准马来语对应 sarjana",
+        "lah 增添口语语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau nak sambung masters sambil kerja ke?",
+          "ms_standard": "Adakah kamu mahu melanjutkan pengajian pada peringkat sarjana sambil bekerja?",
+          "zh": "你打算边工作边读硕士吗？",
+          "en": "Are you planning to do a master's while working?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, aku nak ambil separuh masa je.",
+          "ms_standard": "Ya, saya mahu mengikuti pengajian secara separuh masa sahaja.",
+          "zh": "对，我想读非全日制的。",
+          "en": "Yes, I’m planning to study part-time."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The same visible spelling can enter a Malay text through different English contexts. In education, informal masters may stand for master's studies, whose Malay equivalent is pengajian sarjana. In sport, Masters can remain part of an official tournament name. These routes explain why a corpus token needs its surrounding sentence before a lexicographer can assign a confident meaning. [DBP](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=sarjana), [Malaysia Masters](https://www.stadium.gov.my/events/57-perodua-malaysia-masters-2026-presented-by-daihatsu?format=html)",
+    "cognitive_memory_aid": "见 sambung masters 想“读硕士”；见 Malaysia Masters 想“大师赛”。先看搭配，再定意思。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人谈升学时可出现英语夹杂；正式申请、履历或马来语报告宜使用准确的学位名称。",
+    "usage_etiquette": "正式赛事名称依主办方拼写保留。取得硕士学位通常不因此获得日常称呼中的 Master 头衔。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人谈升学时可出现英语夹杂；正式申请、履历或马来语报告宜使用准确的学位名称。",
+    "usage_etiquette": "正式赛事名称依主办方拼写保留。取得硕士学位通常不因此获得日常称呼中的 Master 头衔。"
+  }
+}
