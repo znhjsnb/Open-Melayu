@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "namakan",
+    "syllables": null,
+    "ipa": "/na.ma.kan/",
+    "jawi": "نام",
+    "frequency_rank": 5381,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "nama",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "nama + -kan → namakan",
+    "pattern_note": "nama 加 -kan，词根不发生音变。namakan 是 menamakan 对应的无 meN- 形式，可用于祈使句和某些被动结构。音节为 na.ma.kan；headword 保留输入包的空音节值与 Jawi 名称字段，但其中 نام 实为词根 nama 的拼写，派生词 namakan 应写作 ناماکن。",
+    "word_family": [
+      {
+        "word": "menamakan",
+        "affix": "meN-...-kan",
+        "gloss": "命名；说出名称；提名"
+      },
+      {
+        "word": "dinamakan",
+        "affix": "di-...-kan",
+        "gloss": "被命名；被指定"
+      },
+      {
+        "word": "penamaan",
+        "affix": "peN-...-an",
+        "gloss": "命名；提名的过程"
+      }
+    ],
+    "root_jawi": "نام"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "给人、事物、地方或组织取名；把某个称呼定为其名称。",
+      "en_definition": "To give a name or designation to someone or something.",
+      "ms_definition": "Memberikan nama atau gelaran kepada seseorang atau sesuatu.",
+      "nuances": "namakan 可直接用于指令，如 Namakan kumpulan ini。它不只是口语省略，也用于标准语的祈使句，以及 projek yang saya namakan 等结构。一般主动陈述句用 menamakan。[DBP：nama 及其派生词](https://prpm.dbp.gov.my/Cari1?d=392888&keyword=nama)",
+      "collocations": [
+        {
+          "ms": "namakan anak",
+          "zh": "给孩子取名",
+          "en": "name a child"
+        },
+        {
+          "ms": "namakan kumpulan",
+          "zh": "给小组取名",
+          "en": "name a group"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "说出或写出指定对象的名称；列举所要求的人、事物或实例。",
+      "en_definition": "To state or list the names of specified people, things, or examples.",
+      "ms_definition": "Menyebutkan atau menyenaraikan nama orang, benda atau perkara yang diminta.",
+      "nuances": "这是命名动词在提问和指令中的常见用法，尤其见于考试题。Namakan dua… 要求列出两个名称，通常不要求解释原因或作详细说明。",
+      "collocations": [
+        {
+          "ms": "namakan dua contoh",
+          "zh": "列举两个例子",
+          "en": "name two examples"
+        },
+        {
+          "ms": "namakan tokoh",
+          "zh": "说出人物的名字",
+          "en": "name a notable figure"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "提名；提出某人的姓名，作为候选人、代表或某个职位的人选。",
+      "en_definition": "To nominate or put forward someone as a candidate or representative.",
+      "ms_definition": "Mencalonkan seseorang atau mengemukakan namanya sebagai wakil atau calon.",
+      "nuances": "提名不等于已任命或已当选。标准指令中可说 Sila namakan seorang wakil；一般主动叙述中用 menamakan。",
+      "collocations": [
+        {
+          "ms": "namakan calon",
+          "zh": "提名候选人",
+          "en": "nominate a candidate"
+        },
+        {
+          "ms": "namakan seorang wakil",
+          "zh": "提出一名代表人选",
+          "en": "nominate a representative"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 会议筹备通知",
+      "ms": "Sila namakan seorang wakil daripada setiap jabatan untuk menghadiri mesyuarat penyelarasan tersebut.",
+      "zh": "请各部门提出一名代表，出席该协调会议。",
+      "en": "Please nominate one representative from each department to attend the coordination meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友为聊天群取名",
+      "ms_spoken": "Kita namakan kumpulan ni Geng Hujung Minggu je lah.",
+      "ms_standard": "Mari kita namakan kumpulan ini Geng Hujung Minggu sahaja.",
+      "zh": "我们就把这群叫“周末小分队”吧。",
+      "en": "Let's just call this group the Weekend Crew.",
+      "spoken_features": [
+        "ni 对应 ini。",
+        "je 对应 sahaja，表示“就……好了”。",
+        "lah 在这里使建议显得随和。",
+        "kita namakan… 可表达共同提议；namakan 并非只能作口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kita namakan kumpulan ni Geng Hujung Minggu je lah.",
+          "ms_standard": "Mari kita namakan kumpulan ini Geng Hujung Minggu sahaja.",
+          "zh": "我们就把这群叫“周末小分队”吧。",
+          "en": "Let's just call this group the Weekend Crew."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh! Aku dah tukar nama kat WhatsApp.",
+          "ms_standard": "Baiklah! Saya sudah menukar nama kumpulan itu dalam aplikasi WhatsApp.",
+          "zh": "行！我已经在 WhatsApp 上把群名改好了。",
+          "en": "Works for me! I've already changed the group name on WhatsApp."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The root nama is a Sanskrit loan associated with nāman, meaning name. Malay combines this borrowed root with its own productive suffix -kan to form namakan. The word therefore brings together an older layer of language contact and ordinary Malay grammar: inherited cultural vocabulary can keep generating useful forms for naming people, projects, and representatives. [Malay etymological research](https://plm.org.my/ejurnal/index.php/jurnallinguistik/article/download/249/179/)",
+    "cognitive_memory_aid": "nama 是“名字”，加 -kan 就把“名字”变成动作：给它取名，或把名称说出来。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Namakan… 单独使用有明确指令感，适合试题或任务说明；向同事和公众提出要求时，加 sila 或请问式表达更得体。",
+    "usage_etiquette": "替别人取昵称或将其列为代表前，应尊重对方意愿。涉及正式姓名时，应核对本人使用的拼写与称谓；提名某人不能表述成该人已经获任命。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Namakan… 单独使用有明确指令感，适合试题或任务说明；向同事和公众提出要求时，加 sila 或请问式表达更得体。",
+    "usage_etiquette": "替别人取昵称或将其列为代表前，应尊重对方意愿。涉及正式姓名时，应核对本人使用的拼写与称谓；提名某人不能表述成该人已经获任命。"
+  }
+}

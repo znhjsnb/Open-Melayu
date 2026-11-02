@@ -1,0 +1,118 @@
+{
+  "headword": {
+    "word": "mel",
+    "syllables": null,
+    "ipa": "/mel/",
+    "jawi": "ميل",
+    "frequency_rank": 5482,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mel",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mel → mel",
+    "pattern_note": "单音节独立词；e 读 /e/，不是央元音 /ə/。e-mel 中的 e- 表示 elektronik，是复合词成分。",
+    "word_family": [
+      {
+        "word": "e-mel",
+        "affix": "e-（elektronik 的缩略成分）",
+        "gloss": "电子邮件"
+      },
+      {
+        "word": "mel suara",
+        "affix": "∅（复合词）",
+        "gloss": "语音信箱；语音邮件"
+      },
+      {
+        "word": "meng-e-melkan",
+        "affix": "meng-...-kan（加于 e-mel）",
+        "gloss": "以电子邮件发送"
+      }
+    ],
+    "root_jawi": "ميل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "通过邮政系统寄送的信件、包裹等邮件的统称。",
+      "en_definition": "Letters, parcels, and other items sent through the postal system; mail.",
+      "ms_definition": "Surat, bungkusan, dan sebagainya yang dihantar melalui pejabat pos.",
+      "nuances": "单独使用时主要指邮政邮件；电子邮件通常明确称 e-mel 或 mel elektronik。mel udara 指航空邮递或航空邮件，mel suara 指可储存并供接收者稍后收听电话留言的系统。[DBP：mel](https://prpm.dbp.gov.my/Cari1?d=25872&keyword=mel)",
+      "collocations": [
+        {
+          "ms": "mel udara",
+          "zh": "航空邮件；航空邮递",
+          "en": "airmail"
+        },
+        {
+          "ms": "mel elektronik",
+          "zh": "电子邮件",
+          "en": "electronic mail"
+        },
+        {
+          "ms": "mel suara",
+          "zh": "语音信箱；语音邮件",
+          "en": "voicemail"
+        },
+        {
+          "ms": "mel berdaftar",
+          "zh": "挂号邮件",
+          "en": "registered mail"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dokumen asal akan dihantar kepada pemohon melalui mel berdaftar.",
+      "zh": "文件正本将通过挂号邮件寄给申请人。",
+      "en": "The original documents will be sent to the applicant by registered mail."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ada mel untuk saya kat rumah tak?",
+      "ms_standard": "Adakah terdapat mel untuk saya di rumah?",
+      "zh": "家里有没有我的邮件啊？",
+      "en": "Is there any mail for me at home?",
+      "spoken_features": [
+        "kat 对应标准语 di，表示地点。",
+        "句末 tak 构成口语是非问句。",
+        "省略正式疑问结构 adakah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Ada mel untuk saya kat rumah tak?",
+          "ms_standard": "Adakah terdapat mel untuk saya di rumah?",
+          "zh": "家里有没有我的邮件啊？",
+          "en": "Is there any mail for me at home?"
+        },
+        {
+          "speaker": "Mei Ling (室友)",
+          "ms_spoken": "Ada, satu sampul je. Saya dah letak kat atas meja.",
+          "ms_standard": "Ada, satu sampul sahaja. Saya sudah meletakkannya di atas meja.",
+          "zh": "有，就一个信封。我已经放桌上了。",
+          "en": "Yes, just one envelope. I've put it on the table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mel is a borrowing of English mail, adapted to a compact Malay spelling and pronunciation. Its vocabulary connects physical delivery with newer communication systems: mel udara names a postal service, while mel elektronik and mel suara apply the mail concept to digital messages. The familiar idea is something sent for another person to receive. [DBP: mel](https://prpm.dbp.gov.my/Cari1?d=25872&keyword=mel)",
+    "cognitive_memory_aid": "把 mel 与英语 mail 一起记：一个短音节，对应一份寄来的邮件；加 elektronik 就进入电子邮箱。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性，适合邮务、公文和日常交流。向客户说明寄送方式时，明确说 mel berdaftar、mel biasa 或 e-mel，便于对方理解。",
+    "usage_etiquette": "正式文件使用标准拼写 e-mel。谈及他人的邮件时，宜先确认收件人并征得同意，再代为拆阅。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性，适合邮务、公文和日常交流。向客户说明寄送方式时，明确说 mel berdaftar、mel biasa 或 e-mel，便于对方理解。",
+    "usage_etiquette": "正式文件使用标准拼写 e-mel。谈及他人的邮件时，宜先确认收件人并征得同意，再代为拆阅。"
+  }
+}

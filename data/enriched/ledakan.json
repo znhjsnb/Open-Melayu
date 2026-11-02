@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "ledakan",
+    "syllables": "le.da.kan",
+    "ipa": "/lə.da.kan/",
+    "jawi": "لدقن",
+    "frequency_rank": 5470,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ledakan",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "ledak + -an → ledakan",
+    "pattern_note": "保留词包的 root_word 与 is_root 标记；实际构词为 ledak 加名词后缀 -an，并非不可分析的词根。词尾 k 接元音后进入下一音节，标准读法可读作 /lə.da.kan/。",
+    "word_family": [
+      {
+        "word": "meledak",
+        "affix": "me-",
+        "gloss": "爆炸；突然爆发"
+      },
+      {
+        "word": "meledakkan",
+        "affix": "me-…-kan",
+        "gloss": "引爆；使爆发"
+      },
+      {
+        "word": "peledak",
+        "affix": "pe-",
+        "gloss": "引爆器；爆炸物"
+      },
+      {
+        "word": "peledakan",
+        "affix": "pe-…-an",
+        "gloss": "爆炸；引爆过程"
+      }
+    ],
+    "root_jawi": "لدقن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "爆炸、爆裂的事件，亦可指伴随爆炸产生的巨响。",
+      "en_definition": "An explosion or explosive burst, including its accompanying report.",
+      "ms_definition": "Perihal sesuatu meledak; letupan.",
+      "nuances": "侧重爆炸事件或声响；日常交流也常用 letupan。义项依据：[DBP：ledak](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=ledak)。",
+      "collocations": [
+        {
+          "ms": "bunyi ledakan",
+          "zh": "爆炸声",
+          "en": "the sound of an explosion"
+        },
+        {
+          "ms": "ledakan kuat",
+          "zh": "猛烈的爆炸",
+          "en": "a powerful explosion"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "引爆某物的行为或过程。",
+      "en_definition": "The act or process of detonating something.",
+      "ms_definition": "Perihal meledakkan atau meletupkan sesuatu.",
+      "nuances": "侧重人为引爆过程；与第一义在具体句子中可能重叠。技术语境中 peledakan、peletupan 也可用于表达相关过程。",
+      "collocations": [
+        {
+          "ms": "ledakan bom",
+          "zh": "炸弹的引爆",
+          "en": "the detonation of a bomb"
+        },
+        {
+          "ms": "ledakan terkawal",
+          "zh": "受控引爆",
+          "en": "a controlled detonation"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "数量、规模或增长速度在短期内出现巨大而出乎意料的上升；爆炸式增长。",
+      "en_definition": "A sudden, exceptionally large increase or expansion.",
+      "ms_definition": "Pertambahan atau pertumbuhan yang sangat besar dan mengejut.",
+      "nuances": "比喻用法，强调增长迅猛，而非任何普通增加；常见于人口、资讯和经济报道。",
+      "collocations": [
+        {
+          "ms": "ledakan penduduk",
+          "zh": "人口爆炸式增长",
+          "en": "a population explosion"
+        },
+        {
+          "ms": "ledakan maklumat",
+          "zh": "资讯爆炸",
+          "en": "an information explosion"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Ledakan maklumat digital meningkatkan keperluan untuk menyemak kesahihan sumber sebelum berkongsi berita.",
+      "zh": "数码资讯的爆炸式增长，使人们更有必要在转发新闻前核实消息来源。",
+      "en": "The explosion of digital information has increased the need to verify sources before sharing news."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau dengar bunyi ledakan tadi tak? Kuat betul lah!",
+      "ms_standard": "Adakah kamu mendengar bunyi ledakan tadi? Bunyinya sangat kuat!",
+      "zh": "你刚才听到那声爆炸了吗？真的好响啊！",
+      "en": "Did you hear that explosion just now? It was really loud!",
+      "spoken_features": [
+        "kau 是熟人之间的非正式第二人称。",
+        "句末 tak 构成口语是非问句。",
+        "lah 加强感叹，betul 在此表示程度高。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah dengar bunyi ledakan kat hujung jalan tadi?",
+          "ms_standard": "Adakah kamu sudah mendengar bunyi ledakan di hujung jalan tadi?",
+          "zh": "你刚才听到街尾那声爆炸了吗？",
+          "en": "Did you hear that explosion at the end of the street?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, aku ingat bunyi mercun je. Rupanya tayar lori pecah.",
+          "ms_standard": "Ya, saya sudah mendengarnya. Saya menyangka bunyi itu hanya bunyi mercun. Rupa-rupanya tayar lori pecah.",
+          "zh": "听到了，我还以为只是鞭炮声，原来是货车爆胎。",
+          "en": "Yeah, I thought it was just a firecracker. Turns out a truck tyre burst."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ledakan belongs to the ledak family, with -an forming a noun associated with bursting or exploding. Its dictionary meanings connect physical explosions with sudden growth. The same image therefore serves both reports of cannon fire and discussions of population or information: something expands so abruptly that an ordinary word for increase seems insufficient.",
+    "cognitive_memory_aid": "把 ledak 想成突然一声爆响，再加 -an 给事件命名：ledakan＝一次爆炸；人口和资讯也能像这样突然猛增。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词语体中性，适合新闻和正式报告；日常谈论爆炸声时，letupan 也很自然。",
+    "usage_etiquette": "谈及实际事故时宜准确描述事件；比喻义适合强调增长迅速，不宜把任何轻微增加都称为 ledakan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词语体中性，适合新闻和正式报告；日常谈论爆炸声时，letupan 也很自然。",
+    "usage_etiquette": "谈及实际事故时宜准确描述事件；比喻义适合强调增长迅速，不宜把任何轻微增加都称为 ledakan。"
+  }
+}

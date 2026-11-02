@@ -1,0 +1,168 @@
+{
+  "headword": {
+    "word": "fasal",
+    "syllables": "fa.sal",
+    "ipa": "/fa.sal/",
+    "jawi": "فصل",
+    "frequency_rank": 5433,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "fasal",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + fasal → fasal",
+    "pattern_note": "阿拉伯语整词借入，现代马来语中作为独立词根处理。口语变体 pasal 的 /p/ 对应 fasal 的 /f/，不是词缀变化。",
+    "word_family": [
+      {
+        "word": "fasal-fasal",
+        "affix": "∅（全词重叠）",
+        "gloss": "各项条款"
+      },
+      {
+        "word": "pasal",
+        "affix": "∅（口语变体）",
+        "gloss": "关于；事情；因为"
+      },
+      {
+        "word": "fasal timbang tara",
+        "affix": "∅（复合词组）",
+        "gloss": "仲裁条款"
+      }
+    ],
+    "root_jawi": "فصل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "文献中的分节；尤指法案、协议或其他法律文件中的条款。",
+      "en_definition": "A subdivision of a text, especially a clause in a bill, agreement, or legal document.",
+      "ms_definition": "Unit pembahagian dalam teks, khususnya peruntukan tertentu dalam rang undang-undang atau perjanjian.",
+      "nuances": "马来西亚国会将法案中各个编号段落称为 fasal，对应 clause。翻译已生效法律或特定文件时，应沿用文件本身的编号名称，不能一律把 section、article 和 clause 都译为 fasal。",
+      "collocations": [
+        {
+          "ms": "fasal perjanjian",
+          "zh": "协议条款",
+          "en": "an agreement clause"
+        },
+        {
+          "ms": "fasal timbang tara",
+          "zh": "仲裁条款",
+          "en": "an arbitration clause"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "谈论或讨论的事情、事项或话题。",
+      "en_definition": "A matter, issue, or subject of discussion.",
+      "ms_definition": "Perkara atau isu yang menjadi bahan percakapan atau perbincangan.",
+      "nuances": "此义不涉及法律条文。日常交流常用口语变体 pasal；正式报告通常根据语境采用 perkara、isu 或 tajuk。",
+      "collocations": [
+        {
+          "ms": "fasal itu",
+          "zh": "那件事",
+          "en": "that matter"
+        },
+        {
+          "ms": "apa fasal",
+          "zh": "什么事；为什么",
+          "en": "what matter; why"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "preposition",
+      "zh_definition": "关于；就……而言。",
+      "en_definition": "About, concerning, or regarding.",
+      "ms_definition": "Menandakan perkara yang diperkatakan atau diberikan perhatian.",
+      "nuances": "引出话题时相当于 tentang 或 mengenai。日常马来西亚口语更常写作 pasal；正式文件通常使用 tentang、mengenai 或 berkenaan dengan。",
+      "collocations": [
+        {
+          "ms": "bercakap fasal kerja",
+          "zh": "谈工作的事",
+          "en": "talk about work"
+        },
+        {
+          "ms": "fasal makanan",
+          "zh": "关于吃的方面",
+          "en": "as for the food"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "conjunction",
+      "zh_definition": "因为；由于，用于说明原因。",
+      "en_definition": "Because; used to introduce a reason.",
+      "ms_definition": "Menghubungkan sesuatu keadaan atau kejadian dengan sebabnya.",
+      "nuances": "须由上下文与“关于”义区分。这一用法在口语变体 pasal 中更常见；正式说明原因通常选用 kerana 或 oleh sebab。",
+      "collocations": [
+        {
+          "ms": "bukan fasal",
+          "zh": "并不是因为",
+          "en": "not because"
+        },
+        {
+          "ms": "fasal tak tahu",
+          "zh": "因为不知道",
+          "en": "because someone does not know"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报：说明协议中的争议处理安排",
+      "ms": "Fasal timbang tara dalam perjanjian itu menetapkan cara pertikaian diselesaikan.",
+      "zh": "该协议的仲裁条款规定了争议的解决方式。",
+      "en": "The arbitration clause in the agreement sets out how disputes are to be resolved."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：同事讨论协议；法律名词保留 fasal",
+      "ms_spoken": "Fasal ni aku dah baca, tapi tak berapa faham lagi.",
+      "ms_standard": "Saya sudah membaca fasal ini, tetapi masih kurang memahaminya.",
+      "zh": "这条我看过了，不过还不太明白。",
+      "en": "I've read this clause, but I still don't quite understand it.",
+      "spoken_features": [
+        "法律名词 fasal 在随意对话中仍可保留标准拼写。",
+        "ni 对应 ini；dah 对应 sudah；tak 对应 tidak。",
+        "讲“关于”或“因为”时，口语通常使用变体 pasal。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同事)",
+          "ms_spoken": "Fasal ni aku dah baca, tapi tak berapa faham lagi.",
+          "ms_standard": "Saya sudah membaca fasal ini, tetapi masih kurang memahaminya.",
+          "zh": "这条我看过了，不过还不太明白。",
+          "en": "I've read this clause, but I still don't quite understand it."
+        },
+        {
+          "speaker": "Hakim (同事)",
+          "ms_spoken": "Yang pasal bayaran tu? Nanti kita semak sama-sama je.",
+          "ms_standard": "Adakah yang dimaksudkan itu fasal tentang bayaran? Nanti kita semak bersama-sama.",
+          "zh": "是讲付款的那条吗？待会儿我们一起看看。",
+          "en": "The one about payment? Let's go through it together later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Fasal is an Arabic borrowing associated with a division or section of a text. In Malay, its meanings extend from textual clauses to matters under discussion and expressions introducing topics or reasons. Malaysian usage preserves fasal in legal terminology, while pasal is recognized as its conversational variant. This pairing connects formal document language with everyday speech. Sources: [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=fasal), [Parliament glossary](https://www.parlimen.gov.my/index.php?action=20000&id=19&lang=bm&modload=glosari).",
+    "cognitive_memory_aid": "把 fa-sal 配上一幅“文件分成一条条”的画面：先记“条款”，再联想到“这一条所谈的事情”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "询问原因时，单独说 apa fasal? 容易带质问意味。对客户或长辈可用 Boleh saya tahu sebabnya?，语气更周全。",
+    "usage_etiquette": "马来西亚正式法律语境使用 fasal；pasal 是常见口语变体。阅读印度尼西亚材料时须注意当地 pasal 也可用于正式法律条文，不能直接套用马来西亚的语体划分。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "询问原因时，单独说 apa fasal? 容易带质问意味。对客户或长辈可用 Boleh saya tahu sebabnya?，语气更周全。",
+    "usage_etiquette": "马来西亚正式法律语境使用 fasal；pasal 是常见口语变体。阅读印度尼西亚材料时须注意当地 pasal 也可用于正式法律条文，不能直接套用马来西亚的语体划分。"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "mengejek",
+    "syllables": null,
+    "ipa": "/mə.ŋə.dʒek/（顶升、奉承义）；/mə.ŋe.dʒek/（嘲弄义）",
+    "jawi": "مڠيجيق",
+    "frequency_rank": 5481,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jek",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + jek → mengejek（顶升；奉承）；meN- + ejek → mengejek（嘲弄，同形词）",
+    "pattern_note": "词包误将派生词 mengejek 本身识别为词根。其所给顶升、奉承义属于 jek 词族：单音节词根 jek 加 meN- 时采用 menge-。嘲弄义则来自 ejek，元音前采用 meng-，词根首音 /e/ 保留。这里以词包对应的 jek 为主词根，并区分另一个同形词。[DBP：jek](https://prpm.dbp.gov.my/Cari1?d=236164&keyword=jek)；[DBP：ejek](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ejek)",
+    "word_family": [
+      {
+        "word": "jek",
+        "affix": "∅",
+        "gloss": "千斤顶；顶升义的词根"
+      },
+      {
+        "word": "dijek",
+        "affix": "di-",
+        "gloss": "被千斤顶顶起"
+      },
+      {
+        "word": "ejek",
+        "affix": "∅",
+        "gloss": "嘲弄；另一同形词的词根"
+      },
+      {
+        "word": "ejekan",
+        "affix": "-an",
+        "gloss": "嘲笑的话语或行为；属于 ejek 词族"
+      }
+    ],
+    "root_jawi": "جيک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用千斤顶等顶升工具将汽车等重物顶起。",
+      "en_definition": "To raise a heavy object, especially a vehicle, with a jack.",
+      "ms_definition": "Menaikkan atau mengangkat benda yang berat dengan jek; mendongkerak atau mengumpil.",
+      "nuances": "这是词包所收录的机械操作义，词根为 jek。宾语通常是汽车、车辆或其他重物；不可与以人为对象的嘲笑义混淆。[DBP](https://prpm.dbp.gov.my/Cari1?d=41812&keyword=mengejek)",
+      "collocations": [
+        {
+          "ms": "mengejek kereta",
+          "zh": "用千斤顶顶起汽车",
+          "en": "jack up a car"
+        },
+        {
+          "ms": "mengejek kenderaan",
+          "zh": "用千斤顶顶起车辆",
+          "en": "jack up a vehicle"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "为讨好或谋取好处而奉承、巴结某人。",
+      "en_definition": "To flatter or fawn on someone to gain favour.",
+      "ms_definition": "Mengampu atau membodek seseorang.",
+      "nuances": "《Kamus Dewan》将其列为 jek 派生动词的比喻义，带贬义。现代交流中 membodek 或 mengampu 通常更容易明确传达奉承之意。以下搭配用于说明宾语关系，不表示此较少见义项具有已核实的高使用频率。[DBP](https://prpm.dbp.gov.my/Cari1?d=236164&keyword=jek)",
+      "collocations": [
+        {
+          "ms": "mengejek orang atasan",
+          "zh": "巴结上司",
+          "en": "fawn on one's superiors"
+        },
+        {
+          "ms": "mengejek ketua",
+          "zh": "奉承主管",
+          "en": "flatter the boss"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "以言语、模仿或其他行为嘲笑、挖苦或羞辱某人。",
+      "en_definition": "To mock, ridicule, or make fun of someone through words or behaviour.",
+      "ms_definition": "Mempersendakan atau memperolok-olokkan orang melalui kata-kata atau tingkah laku yang menghina.",
+      "nuances": "这是来自 ejek 的另一同形词，日常交流中十分常见。通常带贬低或使人难堪的意味；朋友之间善意逗趣常用 mengusik 或 bergurau，不能一概等同于 mengejek。[DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=ejek)",
+      "collocations": [
+        {
+          "ms": "mengejek orang lain",
+          "zh": "嘲笑别人",
+          "en": "make fun of other people"
+        },
+        {
+          "ms": "mengejek rakan sekelas",
+          "zh": "嘲笑同班同学",
+          "en": "mock a classmate"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Juruteknik itu sedang mengejek kereta untuk menjalankan pemeriksaan pada bahagian bawah kenderaan.",
+      "zh": "技术人员正在用千斤顶顶起汽车，以检查车底。",
+      "en": "The technician is jacking up the car to inspect its underside."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Janganlah mengejek dia, dia baru nak belajar je.",
+      "ms_standard": "Jangan mengejek dia kerana dia baru hendak belajar.",
+      "zh": "别笑话他啦，他才刚开始学呢。",
+      "en": "Don't make fun of him. He's only just starting to learn.",
+      "spoken_features": [
+        "此场景使用来自 ejek 的嘲弄义。",
+        "-lah 缓和劝阻的语气。",
+        "nak 对应 hendak，je 表示 sahaja。",
+        "口语以并列短句表达标准语中的原因关系。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Janganlah mengejek dia kat dalam kumpulan tu. Dia baru nak belajar je.",
+          "ms_standard": "Jangan mengejek dia dalam kumpulan itu kerana dia baru hendak belajar.",
+          "zh": "别在那个群里笑话他啦。他才刚开始学呢。",
+          "en": "Don't make fun of him in that group. He's only just starting to learn."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, aku dah padam mesej tu. Aku nak minta maaf kat dia.",
+          "ms_standard": "Ya, saya sudah memadamkan mesej itu. Saya hendak meminta maaf kepadanya.",
+          "zh": "嗯，我已经删掉那条消息了。我想跟他道歉。",
+          "en": "Yes, I've deleted that message. I'm going to apologise to him."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mengejek conceals two different formations. With jek, the lifting tool, it describes raising a heavy object and also has a recorded figurative sense of flattering someone. With ejek, it means mocking. Their identical Roman spelling can hide the distinction; the roots and surrounding objects reveal which meaning is intended. [DBP](https://prpm.dbp.gov.my/Cari1?d=41812&keyword=mengejek)",
+    "cognitive_memory_aid": "看宾语辨义：jek 顶车，ejek 笑人；“把人捧高”可辅助记住奉承义，但这只是记忆联想，不是已证实的词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "嘲弄义涉及使人丢脸；当众说 Awak mengejek saya 是明确的指责。需要温和制止时，可说 Tolong jangan mengejek dia。奉承义也含负面评价，不宜当作普通称赞使用。",
+    "usage_etiquette": "机械义适合维修说明；嘲弄义适合描述或制止贬低他人的行为。亲友之间的玩笑仍取决于对方是否接受，涉及宗教、族群、外貌、残障或口音时尤其容易造成羞辱。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "嘲弄义涉及使人丢脸；当众说 Awak mengejek saya 是明确的指责。需要温和制止时，可说 Tolong jangan mengejek dia。奉承义也含负面评价，不宜当作普通称赞使用。",
+    "usage_etiquette": "机械义适合维修说明；嘲弄义适合描述或制止贬低他人的行为。亲友之间的玩笑仍取决于对方是否接受，涉及宗教、族群、外貌、残障或口音时尤其容易造成羞辱。"
+  }
+}

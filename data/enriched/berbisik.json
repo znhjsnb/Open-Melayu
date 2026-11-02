@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "berbisik",
+    "syllables": "ber.bi.sik",
+    "ipa": "[bər.bi.siʔ]",
+    "jawi": "بربيسيق",
+    "frequency_rank": 5383,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "berbisik",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + bisik → berbisik",
+    "pattern_note": "所给词根字段保留 berbisik，但实际基础词是 bisik（بيسيق），本词是派生动词。ber- 后接 b 时保留 b；词尾 k 在常见马来西亚发音中实现为 [ʔ]。",
+    "word_family": [
+      {
+        "word": "bisik",
+        "affix": null,
+        "gloss": "低语；耳语"
+      },
+      {
+        "word": "bisikan",
+        "affix": "-an",
+        "gloss": "耳语声；低声说的话"
+      },
+      {
+        "word": "membisikkan",
+        "affix": "meN-…-kan",
+        "gloss": "低声说出；悄悄告知"
+      },
+      {
+        "word": "pembisik",
+        "affix": "peN-",
+        "gloss": "低语者；提词员"
+      }
+    ],
+    "root_jawi": "بربيسيق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "压低声音说话，使周围其他人听不见；耳语，悄声说话。",
+      "en_definition": "To speak very quietly so that other people nearby cannot hear.",
+      "ms_definition": "Bercakap dengan suara yang perlahan supaya tidak didengar oleh orang lain di sekitarnya.",
+      "nuances": "通常为不及物动词，听话对象用 kepada 引出；若直接表达低声说出的内容，常用 membisikkan sesuatu。[DBP 释义与词族](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bisik)",
+      "collocations": [
+        {
+          "ms": "berbisik kepada seseorang",
+          "zh": "向某人低声说话",
+          "en": "whisper to someone"
+        },
+        {
+          "ms": "berbisik di telinga",
+          "zh": "在耳边低语",
+          "en": "whisper in someone's ear"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "暗中交谈或商议，不让其他人听见或知晓。",
+      "en_definition": "To confer secretly or discreetly, keeping others from hearing or knowing.",
+      "ms_definition": "Berbincang secara diam-diam sehingga tidak didengar atau diketahui oleh orang lain.",
+      "nuances": "侧重交谈的隐秘性；可用重叠形式 berbisik-bisik，但不必然表示恶意议论。",
+      "collocations": [
+        {
+          "ms": "berbisik sesama sendiri",
+          "zh": "彼此窃窃私语",
+          "en": "whisper among themselves"
+        },
+        {
+          "ms": "berbisik tentang rancangan",
+          "zh": "悄悄商议计划",
+          "en": "whisper about a plan"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "风等发出轻柔细微的声音；低吟，轻声作响。",
+      "en_definition": "Of wind, to make a soft, whispering sound.",
+      "ms_definition": "Berhembus dengan bunyi yang perlahan, khususnya tentang angin.",
+      "nuances": "比喻或文学用法，将风声拟人化，不表示风真的在说话。",
+      "collocations": [
+        {
+          "ms": "angin berbisik",
+          "zh": "风在低吟",
+          "en": "the wind whispers"
+        },
+        {
+          "ms": "bayu berbisik",
+          "zh": "微风轻吟",
+          "en": "the breeze whispers"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Ketika mesyuarat berlangsung, pegawai itu berbisik kepada pengerusi untuk memaklumkan perubahan jadual.",
+      "zh": "会议进行期间，该官员低声向主席告知日程变动。",
+      "en": "During the meeting, the officer whispered to the chair to report a change in the schedule."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kita berbisik je, ya. Adik dah tidur.",
+      "ms_standard": "Marilah kita berbisik sahaja kerana adik sudah tidur.",
+      "zh": "咱们小声说就好啊，弟弟已经睡了。",
+      "en": "Let's just whisper, okay? My little brother's asleep.",
+      "spoken_features": [
+        "je 是 sahaja 的口语形式。",
+        "dah 是 sudah 的口语缩略形式。",
+        "ya 用于柔化建议，并寻求对方配合。",
+        "以两个短句代替完整因果句，符合日常交谈习惯。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Kita berbisik je, ya. Adik dah tidur.",
+          "ms_standard": "Marilah kita berbisik sahaja kerana adik sudah tidur.",
+          "zh": "咱们小声说就好啊，弟弟已经睡了。",
+          "en": "Let's just whisper, okay? Our little brother's asleep."
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Okey. Kalau nak sembang lama, kita duduk kat luar je.",
+          "ms_standard": "Baiklah. Jika kita mahu berbual lama, marilah kita duduk di luar sahaja.",
+          "zh": "行。要是想多聊会儿，咱们就去外面坐吧。",
+          "en": "Okay. If we're going to chat for a while, let's sit outside."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Berbisik is transparently formed from bisik with the prefix ber-. Its dictionary family distinguishes the quiet activity, berbisik, from the whispered message, bisikan, and the act of conveying something quietly, membisikkan. Literary usage lets the wind berbisik too, extending an intimate human sound into a way of describing a quiet landscape. [DBP word family](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bisik)",
+    "cognitive_memory_aid": "轻轻念 bisik，让末尾突然收住，想象一句只让身边人听见的悄悄话；berbisik 就是正在这样说话。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在会议或多人聚会中，长时间与旁人耳语可能让其他人感到被排除。需要私下说明时，可先说 Maaf, saya perlu bercakap sebentar dengannya。",
+    "usage_etiquette": "适合安静场所、照顾熟睡者或传达私密信息。不要把所有低声交谈都解释成 mengumpat，即背后说人坏话。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在会议或多人聚会中，长时间与旁人耳语可能让其他人感到被排除。需要私下说明时，可先说 Maaf, saya perlu bercakap sebentar dengannya。",
+    "usage_etiquette": "适合安静场所、照顾熟睡者或传达私密信息。不要把所有低声交谈都解释成 mengumpat，即背后说人坏话。"
+  }
+}

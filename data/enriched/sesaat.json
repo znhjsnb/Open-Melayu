@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "sesaat",
+    "syllables": "se.sa.at",
+    "ipa": "/sə.sa.at/",
+    "jawi": "ساعت",
+    "frequency_rank": 5488,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "saat",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + saat → sesaat",
+    "pattern_note": "se- 表示“一”，读 /sə/；词根 saat 的两个元音分属不同音节。资料包未提供音节，现按标准形式补全。headword.jawi 按资料包保留 ساعت，但该写法对应词根 saat，未体现派生词的前缀 se-。",
+    "word_family": [
+      {
+        "word": "saat",
+        "affix": "∅",
+        "gloss": "秒；时刻"
+      },
+      {
+        "word": "saat-saat",
+        "affix": "∅（整词重叠）",
+        "gloss": "一个个时刻；某段关键时光"
+      }
+    ],
+    "root_jawi": "ساعت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一秒，即一分钟的六十分之一；在速率表达中表示每秒。",
+      "en_definition": "One second, one sixtieth of a minute; per second in expressions of rate.",
+      "ms_definition": "Satu saat, iaitu satu per enam puluh minit; bagi setiap saat dalam ungkapan kadar.",
+      "nuances": "表示时长时译为“一秒”；跟在距离、次数等数量之后时，se- 可表示“每”，如 dua meter sesaat 是“每秒两米”。不要把资料包中 saat 的“时刻”义全部直接移植到 sesaat。[DBP：saat 与 sesaat](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=saat)",
+      "collocations": [
+        {
+          "ms": "dalam masa sesaat",
+          "zh": "在一秒内",
+          "en": "within one second"
+        },
+        {
+          "ms": "dua meter sesaat",
+          "zh": "每秒两米",
+          "en": "two metres per second"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "片刻；一瞬间，表示很短的时间而非精确的一秒。",
+      "en_definition": "For a moment; for a very short time.",
+      "ms_definition": "Untuk waktu yang sangat singkat; seketika.",
+      "nuances": "常见于叙述和强调短暂性的表达。日常请人稍候时，sebentar 或 sekejap 通常比 sesaat 更自然；sesaat pun 常与否定词连用，表示“连片刻也不”。",
+      "collocations": [
+        {
+          "ms": "terdiam sesaat",
+          "zh": "沉默了片刻",
+          "en": "fall silent for a moment"
+        },
+        {
+          "ms": "tidak berhenti sesaat pun",
+          "zh": "连片刻也没有停下",
+          "en": "not stop even for a moment"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sistem baharu itu mampu memproses seribu transaksi sesaat.",
+      "zh": "该新系统每秒可处理一千笔交易。",
+      "en": "The new system can process one thousand transactions per second."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Laju betul kucing tu, sesaat je dah hilang!",
+      "ms_standard": "Kucing itu sangat pantas; dalam masa sesaat sahaja, kucing itu sudah hilang daripada pandangan.",
+      "zh": "那只猫也太快了，一眨眼就没影了！",
+      "en": "That cat was so quick—it disappeared in a second!",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "je 对应 sahaja，表示“就、而已”。",
+        "dah 对应 sudah；这里的 sesaat 带有夸张意味。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Laju betul kucing tu, sesaat je dah hilang!",
+          "ms_standard": "Kucing itu sangat pantas; dalam masa sesaat sahaja, kucing itu sudah hilang daripada pandangan.",
+          "zh": "那只猫也太快了，一眨眼就没影了！",
+          "en": "That cat was so quick—it disappeared in a second!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dia kat bawah kereta tu je. Nak aku panggil?",
+          "ms_standard": "Kucing itu berada di bawah kereta itu sahaja. Adakah kamu mahu saya memanggilnya?",
+          "zh": "它就在那辆车底下。要我叫它出来吗？",
+          "en": "It's just under that car. Want me to call it?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The root saat belongs to Malay's Arabic-derived vocabulary of time. Its source, Arabic sāʿah, refers to an hour or a period of time, while Malay saat also names the second. Adding the productive Malay prefix se- creates sesaat, connecting this borrowed time word with familiar local word formation. [Research on Arabic loanwords](https://oarep.usim.edu.my/server/api/core/bitstreams/b38963e9-99b5-417c-af79-7f0f570e28db/content)",
+    "cognitive_memory_aid": "se-＝一，saat＝秒：sesaat 就是“一秒”；把秒针跳一下的画面记住，再引申为“一瞬间”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词语本身没有敬语或贬义色彩。请长辈、顾客稍候时，用 Sila tunggu sebentar 比直接说 Tunggu sesaat 更自然、客气。",
+    "usage_etiquette": "技术报告中适合精确描述速率；聊天中可夸张表示极短时间。涉及实际等待承诺时，应区分“一秒”的字面义与“片刻”的宽泛义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词语本身没有敬语或贬义色彩。请长辈、顾客稍候时，用 Sila tunggu sebentar 比直接说 Tunggu sesaat 更自然、客气。",
+    "usage_etiquette": "技术报告中适合精确描述速率；聊天中可夸张表示极短时间。涉及实际等待承诺时，应区分“一秒”的字面义与“片刻”的宽泛义。"
+  }
+}

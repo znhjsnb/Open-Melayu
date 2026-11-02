@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "silam",
+    "syllables": "si.lam",
+    "ipa": "/si.lam/",
+    "jawi": "سيلم",
+    "frequency_rank": 5356,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "silam",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + silam → silam",
+    "pattern_note": "原词无词缀。派生为 menyilamkan 时，meN- 遇词首 s，s 脱落并出现鼻音 ny：meN- + silam + -kan → menyilamkan。",
+    "word_family": [
+      {
+        "word": "menyilamkan",
+        "affix": "meN-...-kan",
+        "gloss": "使昏暗；使沉没"
+      },
+      {
+        "word": "kesilaman",
+        "affix": "ke-...-an",
+        "gloss": "往昔的情状"
+      },
+      {
+        "word": "tersilam",
+        "affix": "ter-",
+        "gloss": "耽搁至天黑"
+      }
+    ],
+    "root_jawi": "سيلم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "已经过去的；属于往昔的。",
+      "en_definition": "Past; belonging to an earlier time.",
+      "ms_definition": "Telah lampau atau telah berlalu waktunya.",
+      "nuances": "现代最常用义，通常置于名词之后，如 zaman silam、kisah silam。可表达怀旧、历史回顾或个人经历，本身不表示过去必然美好或不幸。义项参照 [DBP《Kamus Dewan》及《Kamus Pelajar》](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=silam)。",
+      "collocations": [
+        {
+          "ms": "zaman silam",
+          "zh": "往昔时代",
+          "en": "bygone times"
+        },
+        {
+          "ms": "kisah silam",
+          "zh": "往事",
+          "en": "a story from the past"
+        },
+        {
+          "ms": "kenangan silam",
+          "zh": "往昔的回忆",
+          "en": "memories of the past"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "昏暗的；阴沉、光线黯淡的。",
+      "en_definition": "Dark, dim, or gloomy, especially of the weather or surroundings.",
+      "ms_definition": "Gelap, kelam atau suram keadaannya, terutama tentang cuaca.",
+      "nuances": "较偏文学或旧式叙述。日常描述光线不足通常用 gelap 或 suram；此义的搭配不属于现代口语高频表达。",
+      "collocations": [
+        {
+          "ms": "cuaca silam",
+          "zh": "阴沉的天气",
+          "en": "gloomy weather"
+        },
+        {
+          "ms": "hari pun silam",
+          "zh": "天色也暗了下来",
+          "en": "the day grew dark"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "已经落下、沉入地平线的，指太阳。",
+      "en_definition": "Having set or sunk below the horizon, of the sun.",
+      "ms_definition": "Sudah terbenam, khususnya tentang matahari.",
+      "nuances": "文学用法，日常通常说 matahari sudah terbenam。与“往昔”义共享消逝的意象，但不能将两个义项机械互换。另有旧式同形用法 kapal silam，意为 kapal selam“潜艇”，并非本形容词的常用搭配。",
+      "collocations": [
+        {
+          "ms": "matahari silam",
+          "zh": "太阳落下",
+          "en": "the sun has set"
+        },
+        {
+          "ms": "mentari silam",
+          "zh": "落下的太阳",
+          "en": "the setting sun"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pameran ini menampilkan kehidupan masyarakat pada zaman silam melalui koleksi foto dan dokumen sejarah.",
+      "zh": "本次展览通过照片与历史文献，呈现昔日社会的生活面貌。",
+      "en": "This exhibition presents community life in bygone times through a collection of photographs and historical documents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dah lah, jangan ungkit kisah silam aku lagi.",
+      "ms_standard": "Sudahlah, jangan membangkitkan kisah silam saya lagi.",
+      "zh": "好啦，别再翻我的旧事了。",
+      "en": "Come on, stop bringing up my past.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式",
+        "lah 表示劝止或不耐烦，语气取决于语调",
+        "亲近朋友之间可用 aku；ungk it 的标准拼写为 ungkit，口语中可省去主动词缀"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah lah, jangan ungkit kisah silam aku lagi.",
+          "ms_standard": "Sudahlah, jangan membangkitkan kisah silam saya lagi.",
+          "zh": "好啦，别再翻我的旧事了。",
+          "en": "Come on, stop bringing up my past."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Maaf, aku gurau je. Kita tukar topik lah.",
+          "ms_standard": "Maaf, saya hanya bergurau. Marilah kita menukar topik.",
+          "zh": "对不起，我只是开个玩笑。咱们换个话题吧。",
+          "en": "Sorry, I was only joking. Let's change the subject."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries preserve three connected images under silam: dimness, the sun having set, and time already past. Together they offer a memorable cultural picture of yesterday receding like daylight. This is a semantic connection, not a dated account of the word's origin. Modern expressions such as zaman silam keep the temporal meaning especially visible. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=silam)",
+    "cognitive_memory_aid": "念 si-lam，想象旧照片的光线慢慢暗下去：光暗了，往事远了。此为意象助记。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性，但 kisah silam seseorang 可能涉及感情、家庭或个人创伤。谈论他人过去时，应由对方决定是否展开。",
+    "usage_etiquette": "适用于历史、回忆和反思。不要把有过失或创伤的人简单定义为 masa silam mereka；正式表达可强调 pengalaman 或 pengajaran。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性，但 kisah silam seseorang 可能涉及感情、家庭或个人创伤。谈论他人过去时，应由对方决定是否展开。",
+    "usage_etiquette": "适用于历史、回忆和反思。不要把有过失或创伤的人简单定义为 masa silam mereka；正式表达可强调 pengalaman 或 pengajaran。"
+  }
+}

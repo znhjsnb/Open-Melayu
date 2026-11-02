@@ -1,0 +1,174 @@
+{
+  "headword": {
+    "word": "gadai",
+    "syllables": "ga.dai",
+    "ipa": "[ˈɡadai̯]",
+    "jawi": "ݢاداي",
+    "frequency_rank": 5450,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "gadai",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + gadai → gadai",
+    "pattern_note": "gadai 为词根，不再拆分；派生时 meN- 在 /ɡ/ 前实现为 meng-，原有 g 保留：meng- + gadai + -kan → menggadaikan。",
+    "word_family": [
+      {
+        "word": "bergadai",
+        "affix": "ber-",
+        "gloss": "以物作抵押借钱"
+      },
+      {
+        "word": "menggadaikan",
+        "affix": "meN-...-kan",
+        "gloss": "典当；把某物置于风险之中"
+      },
+      {
+        "word": "gadaian",
+        "affix": "-an",
+        "gloss": "典当物；抵押物"
+      },
+      {
+        "word": "tergadai",
+        "affix": "ter-",
+        "gloss": "已被典当；受到牺牲或损害"
+      }
+    ],
+    "root_jawi": "ݢاداي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "典当；在约定期限内以物品作为担保取得借款的交易。",
+      "en_definition": "A transaction in which an article is pledged as security for a loan for an agreed period.",
+      "ms_definition": "Pinjaman wang dengan menyerahkan barang sebagai cagaran untuk tempoh tertentu.",
+      "nuances": "核心是以物担保借款，并保留赎回的可能，与直接出售不同。这里解释词义，不把词典对逾期后果的简述当作所有合同的具体条款。释义依据 [DBP：gadai](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=gadai)。",
+      "collocations": [
+        {
+          "ms": "pajak gadai",
+          "zh": "典当业务；当铺",
+          "en": "pawnbroking; a pawnshop"
+        },
+        {
+          "ms": "surat gadai",
+          "zh": "当票；典当凭证",
+          "en": "a pawn ticket"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为借款提供担保而交出的物品；典当物。",
+      "en_definition": "An article pledged as security for a debt.",
+      "ms_definition": "Barang yang diserahkan sebagai cagaran hutang.",
+      "nuances": "此义也明确说作 barang gadai。menebus gadai 中的 gadai 指待赎回的典当物。",
+      "collocations": [
+        {
+          "ms": "barang gadai",
+          "zh": "典当物",
+          "en": "a pawned article"
+        },
+        {
+          "ms": "menebus gadai",
+          "zh": "赎回典当物",
+          "en": "to redeem a pledged article"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "典当，把物品交作借款担保；常见于口语及祈使句。",
+      "en_definition": "To pawn an article; a bare-root form commonly used in conversation and commands.",
+      "ms_definition": "Menyerahkan sesuatu barang sebagai cagaran untuk mendapatkan pinjaman wang; bentuk dasar yang lazim dalam percakapan dan ayat perintah.",
+      "nuances": "这是词根在句中的动词用法。正式主动陈述句通常使用 menggadaikan；不要把口语中的省略词缀形式误当成另一词源。",
+      "collocations": [
+        {
+          "ms": "gadai emas",
+          "zh": "典当黄金",
+          "en": "to pawn gold"
+        },
+        {
+          "ms": "gadai barang kemas",
+          "zh": "典当首饰",
+          "en": "to pawn jewellery"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "比喻为某种目的而拿生命、尊严、原则等冒险或作牺牲。",
+      "en_definition": "Figuratively, to stake or sacrifice something valuable for an intended gain.",
+      "ms_definition": "Mempertaruhkan atau mengorbankan sesuatu yang berharga demi memperoleh sesuatu; digunakan secara kiasan.",
+      "nuances": "常见于有强烈评价色彩的警告或批评。正式陈述通常用 menggadaikan，祈使句可直接使用 gadai。",
+      "collocations": [
+        {
+          "ms": "gadai nyawa",
+          "zh": "拿生命冒险",
+          "en": "to risk one's life"
+        },
+        {
+          "ms": "gadai maruah",
+          "zh": "牺牲尊严",
+          "en": "to sacrifice one's dignity"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 客户服务通知",
+      "ms": "Pelanggan diminta membawa surat gadai asal ketika menebus barang kemas mereka.",
+      "zh": "客户赎回首饰时，请携带当票原件。",
+      "en": "Customers are requested to bring their original pawn tickets when redeeming their jewellery."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论周转办法",
+      "ms_spoken": "Aku nak gadai gelang ni dulu.",
+      "ms_standard": "Saya mahu menggadaikan gelang ini dahulu.",
+      "zh": "我想先把这个手镯当了。",
+      "en": "I'm thinking of pawning this bracelet for now.",
+      "spoken_features": [
+        "aku 用于熟人之间，正式对应 saya",
+        "nak 对应 mahu",
+        "ni 对应 ini",
+        "gadai 作口语动词时省略 meng-...-kan"
+      ],
+      "messages": [
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Aku nak gadai gelang ni dulu, bukan jual terus.",
+          "ms_standard": "Saya mahu menggadaikan gelang ini dahulu, bukannya menjualnya terus.",
+          "zh": "我想先把这个手镯当了，不是直接卖掉。",
+          "en": "I'm thinking of pawning this bracelet for now, rather than selling it outright."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Oh, kau nak tebus balik nanti lah?",
+          "ms_standard": "Oh, kamu mahu menebusnya semula nanti?",
+          "zh": "哦，你以后还想赎回来是吧？",
+          "en": "Oh, so you're planning to get it back later?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Gadai belongs to the vocabulary of borrowing against possessions. Its dictionary expressions preserve several parts of the transaction: a rumah gadai is the place, a surat gadai records the pledge, and menebus gadai describes redemption. Figurative expressions extend the same image to staking one's life, dignity, or principles. No specific ultimate origin is asserted here.",
+    "cognitive_memory_aid": "记住 gadai → 当铺场景：交出金饰、拿到借款、之后赎回；声音记词，交易链条记义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈到典当往往涉及个人财务，宜用中性的 gadai 或 menggadaikan，避免把它当作嘲笑他人贫困的标签。",
+    "usage_etiquette": "gadai maruah 带有明显的道德指责，直接用于评价别人容易冒犯。gadai janji 是固定金融复合词，不能简单等同于典当首饰。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈到典当往往涉及个人财务，宜用中性的 gadai 或 menggadaikan，避免把它当作嘲笑他人贫困的标签。",
+    "usage_etiquette": "gadai maruah 带有明显的道德指责，直接用于评价别人容易冒犯。gadai janji 是固定金融复合词，不能简单等同于典当首饰。"
+  }
+}
