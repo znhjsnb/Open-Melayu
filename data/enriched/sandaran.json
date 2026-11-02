@@ -1,0 +1,184 @@
+{
+  "headword": {
+    "word": "sandaran",
+    "syllables": "san.da.ran",
+    "ipa": "/san.da.ran/",
+    "jawi": "ساندرن",
+    "frequency_rank": 7274,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sandar",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "sandar + -an → sandaran",
+    "pattern_note": "后缀-an构成名词；词尾/r/在元音前成为末音节的起首，形成san.da.ran。输入包把sandaran标为词根，此处依据词典词族更正为sandar。依据：[PRPM：sandar](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sandar)。",
+    "word_family": [
+      {
+        "word": "bersandar",
+        "affix": "ber-",
+        "gloss": "倚靠；依靠"
+      },
+      {
+        "word": "menyandarkan",
+        "affix": "meN-...-kan",
+        "gloss": "使倚靠；以……为依据；作抵押"
+      }
+    ],
+    "root_jawi": "ساندر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "借贷等交易中用作担保的财物；抵押物或质押物。",
+      "en_definition": "Property pledged as security for a debt or obligation; collateral.",
+      "ms_definition": "Sesuatu yang dijadikan cagaran atau jaminan dalam berhutang dan sebagainya; barang gadaian.",
+      "nuances": "这是输入包提供的义项。强调用作担保的财物，并非泛指提供担保的人；具体法律关系须结合文件中的cagaran、gadaian等术语判断。",
+      "collocations": [
+        {
+          "ms": "sandaran pinjaman",
+          "zh": "贷款抵押物",
+          "en": "loan collateral"
+        },
+        {
+          "ms": "barang sandaran",
+          "zh": "抵押财物",
+          "en": "pledged property"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "供身体或物件倚靠的部位或支撑物；尤指椅背、靠背。",
+      "en_definition": "A surface or structure for leaning against, especially a backrest.",
+      "ms_definition": "Tempat untuk bersandar atau menyandarkan sesuatu.",
+      "nuances": "指具体支撑部位；sandaran kerusi通常指椅背。",
+      "collocations": [
+        {
+          "ms": "sandaran kerusi",
+          "zh": "椅背",
+          "en": "a chair backrest"
+        },
+        {
+          "ms": "sandaran kepala",
+          "zh": "头枕；头部支撑",
+          "en": "a headrest"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "可以依赖的支持、帮助或依靠。",
+      "en_definition": "Support or assistance on which someone relies.",
+      "ms_definition": "Bantuan, sokongan atau tempat bergantung.",
+      "nuances": "比喻性的依靠，可用于家庭、生活与情感语境。",
+      "collocations": [
+        {
+          "ms": "sandaran hidup",
+          "zh": "生活依靠",
+          "en": "a mainstay in life"
+        },
+        {
+          "ms": "menjadi sandaran keluarga",
+          "zh": "成为家庭的依靠",
+          "en": "to be the family's mainstay"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "支持论点、判断或行动的依据、证据或基础。",
+      "en_definition": "Evidence or a basis supporting an argument, judgment, or action.",
+      "ms_definition": "Sesuatu yang dijadikan dasar, alasan atau bukti.",
+      "nuances": "强调论证的支撑，与情感上的依靠有别。",
+      "collocations": [
+        {
+          "ms": "sandaran hujah",
+          "zh": "论点的依据",
+          "en": "the basis of an argument"
+        },
+        {
+          "ms": "sandaran sejarah",
+          "zh": "历史依据",
+          "en": "historical support"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "noun",
+      "zh_definition": "原始资料丢失、损坏或无法使用时，可用于恢复的备用副本或资源；备份。",
+      "en_definition": "A backup copy or resource used to recover information if the original is lost or unavailable.",
+      "ms_definition": "Salinan atau sumber pengganti apabila sumber utama gagal digunakan atau terhapus.",
+      "nuances": "计算机语境中常见salinan sandaran；不是单纯把原文件移到另一文件夹。",
+      "collocations": [
+        {
+          "ms": "salinan sandaran",
+          "zh": "备份副本",
+          "en": "a backup copy"
+        },
+        {
+          "ms": "sandaran data",
+          "zh": "数据备份",
+          "en": "a data backup"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "金融新闻 / 职场融资汇报",
+      "ms": "Syarikat itu menawarkan sebidang tanah sebagai sandaran bagi pinjaman tersebut.",
+      "zh": "该公司提出以一块土地作为该笔贷款的抵押物。",
+      "en": "The company offered a parcel of land as collateral for the loan."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论文件备份",
+      "ms_spoken": "Aku dah buat salinan sandaran kat pemacu luaran.",
+      "ms_standard": "Saya sudah membuat salinan sandaran pada pemacu luaran.",
+      "zh": "我已经在外接硬盘里备份好了。",
+      "en": "I've backed it up on an external drive.",
+      "spoken_features": [
+        "aku用于熟悉的同辈之间",
+        "dah代替sudah",
+        "kat代替表示位置的介词",
+        "je代替sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah buat salinan sandaran fail tu? Aku nak kemas kini komputer ni.",
+          "ms_standard": "Adakah kamu sudah membuat salinan sandaran fail itu? Saya hendak mengemas kini komputer ini.",
+          "zh": "那个文件你备份了吗？我想更新这台电脑。",
+          "en": "Have you backed up that file? I'm about to update this computer."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, salinan sandaran ada kat pemacu luaran. Teruskan je.",
+          "ms_standard": "Sudah, salinan sandaran itu ada pada pemacu luaran. Kamu boleh meneruskan proses tersebut.",
+          "zh": "备份好了，在外接硬盘里。直接更新吧。",
+          "en": "Yes, the backup's on the external drive. Go ahead."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sandaran belongs to the family of sandar and takes the noun-forming suffix -an. Its meanings share an image of support: a backrest supports the body, evidence supports an argument, and pledged property supports a borrowing arrangement. Computing adds another practical application, a backup that remains available when the main source fails. This is a semantic connection, not a dated origin claim.",
+    "cognitive_memory_aid": "sandar是“靠”，加-an记成“可依靠之物”：身体靠椅背，论点靠证据，资料靠备份。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性词，适合正式与日常语境。称某人为sandaran keluarga带有认可其责任与付出的意味，但也可能让对方感到负担。",
+    "usage_etiquette": "金融语境应写清抵押标的；技术语境宜用salinan sandaran消除歧义。谈论他人的家庭依赖关系时，避免未经了解便评价谁应承担全部责任。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性词，适合正式与日常语境。称某人为sandaran keluarga带有认可其责任与付出的意味，但也可能让对方感到负担。",
+    "usage_etiquette": "金融语境应写清抵押标的；技术语境宜用salinan sandaran消除歧义。谈论他人的家庭依赖关系时，避免未经了解便评价谁应承担全部责任。"
+  }
+}

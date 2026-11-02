@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "jaksa",
+    "syllables": "jak.sa",
+    "ipa": "/dʒak.sa/",
+    "jawi": "جقسا",
+    "frequency_rank": 7327,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "jaksa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + jaksa → jaksa",
+    "pattern_note": "作为借入的完整基词记忆，不按现代马来语词缀拆分。k 与 s 分属相邻音节；爪夷文照输入包保留。",
+    "word_family": [
+      {
+        "word": "kejaksaan",
+        "affix": "ke-...-an",
+        "gloss": "检察机关；检察事务（印度尼西亚用语）"
+      },
+      {
+        "word": "jaksa agung",
+        "affix": null,
+        "gloss": "总检察长（印度尼西亚职衔；复合词）"
+      },
+      {
+        "word": "jaksa pendamai",
+        "affix": null,
+        "gloss": "太平局绅（马来西亚固定职衔）"
+      }
+    ],
+    "root_jawi": "جقسا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "检察官；在刑事审判中代表公诉方提出并陈述指控的法律官员，主要用于印度尼西亚语。",
+      "en_definition": "A public prosecutor, especially in Indonesian usage.",
+      "ms_definition": "Dalam penggunaan Indonesia, pendakwa raya atau pegawai undang-undang yang mengemukakan tuduhan dan menyampaikan dakwaan dalam perbicaraan di mahkamah.",
+      "nuances": "输入包中的 DBP 释义带 Id 标记。马来西亚一般使用 pendakwa raya；不要把印尼语 jaksa 不加区分地用于马来西亚所有检控人员。jaksa agung 是印尼职衔，对译时须考虑当地制度。",
+      "collocations": [
+        {
+          "ms": "jaksa agung",
+          "zh": "总检察长（印度尼西亚）",
+          "en": "Attorney General of Indonesia"
+        },
+        {
+          "ms": "jaksa penuntut umum",
+          "zh": "公诉检察官（印度尼西亚）",
+          "en": "public prosecutor (Indonesian usage)"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在固定职衔 jaksa pendamai 中，指太平局绅。",
+      "en_definition": "In the fixed title jaksa pendamai, a Justice of the Peace.",
+      "ms_definition": "Dalam gelaran tetap jaksa pendamai, orang yang dilantik sebagai Justice of the Peace.",
+      "nuances": "这是整个固定职衔的意义，并不表示 jaksa 单独在马来西亚就普遍等于“太平局绅”，也不能据此理解为检察官。官方使用实例见 [DBP 人物介绍](https://dbp.gov.my/wajah-bahasa/)。",
+      "collocations": [
+        {
+          "ms": "pelantikan jaksa pendamai",
+          "zh": "太平局绅的委任",
+          "en": "appointment of a Justice of the Peace"
+        },
+        {
+          "ms": "majlis jaksa pendamai",
+          "zh": "太平局绅理事会",
+          "en": "council of Justices of the Peace"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 报道印度尼西亚庭审",
+      "ms": "Dalam perbicaraan di Indonesia itu, jaksa mengemukakan bukti tambahan kepada mahkamah.",
+      "zh": "在印度尼西亚的那场审判中，检察官向法庭提交了补充证据。",
+      "en": "During the trial in Indonesia, the prosecutor submitted additional evidence to the court."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论印度尼西亚新闻",
+      "ms_spoken": "Jaksa dalam berita Indonesia tu maksudnya pendakwa raya ke?",
+      "ms_standard": "Adakah perkataan jaksa dalam berita dari Indonesia itu bermaksud pendakwa raya?",
+      "zh": "那则印尼新闻里的 jaksa，是指检察官吗？",
+      "en": "Does jaksa in that Indonesian news report mean a public prosecutor?",
+      "spoken_features": [
+        "tu 对应 itu",
+        "句末 ke 构成口语是非问句",
+        "kat 对应 di",
+        "口语省略 perkataan 等可由上下文理解的成分"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jaksa dalam berita Indonesia tu maksudnya pendakwa raya ke?",
+          "ms_standard": "Adakah perkataan jaksa dalam berita dari Indonesia itu bermaksud pendakwa raya?",
+          "zh": "那则印尼新闻里的 jaksa，是指检察官吗？",
+          "en": "Does jaksa in that Indonesian news report mean a public prosecutor?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya. Kat Malaysia, kita biasanya guna pendakwa raya.",
+          "ms_standard": "Ya. Di Malaysia, kita biasanya menggunakan istilah pendakwa raya.",
+          "zh": "对。在马来西亚，我们通常说 pendakwa raya。",
+          "en": "Yes. In Malaysia, we usually say pendakwa raya."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Jaksa ultimately traces to Sanskrit adhyakṣa, associated with supervision and official authority, through Javanese forms. Its history reflects changing offices across the archipelago rather than one unchanged modern profession. Indonesian usage identifies a prosecutor, while Malaysian readers also encounter the fixed title jaksa pendamai. The historical borrowing is documented in the [VOC glossary](https://www.cortsfoundation.org/images/PDF/VOC_Glossary_Indonesia_V20180206_3.pdf).",
+    "cognitive_memory_aid": "把 jak-sa 的两个音节与“检—诉”两个环节联想，记住印尼语的检察官义；遇到 pendamai 时，整体记作“太平局绅”。这只是记忆联想，不是词源拆分。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称呼法律官员时采用其所在地区的正式职衔；涉及马来西亚检控人员，一般使用 pendakwa raya，而非直接套用印尼职称 jaksa。",
+    "usage_etiquette": "必须区分印尼语 jaksa、马来西亚语 pendakwa raya 与固定职衔 jaksa pendamai。太平局绅、检察官和法官是不同身份，不能互换称谓。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称呼法律官员时采用其所在地区的正式职衔；涉及马来西亚检控人员，一般使用 pendakwa raya，而非直接套用印尼职称 jaksa。",
+    "usage_etiquette": "必须区分印尼语 jaksa、马来西亚语 pendakwa raya 与固定职衔 jaksa pendamai。太平局绅、检察官和法官是不同身份，不能互换称谓。"
+  }
+}

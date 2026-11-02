@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "pastikannya",
+    "syllables": null,
+    "ipa": "/pas.ti.kan.ɲa/",
+    "jawi": null,
+    "frequency_rank": 7333,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pastikan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "pastikan + -nya → pastikannya；pasti + -kan → pastikan",
+    "pattern_note": "沿用数据包的直接基底 pastikan；更底层词根为 pasti。-nya 在此是附着于动词后的代词性附着语素，并非新的派生后缀；/ɲ/ 是一个辅音。数据包未提供分音节与爪夷拼写，保留 null；IPA 按规则推定。",
+    "word_family": [
+      {
+        "word": "memastikan",
+        "affix": "meN-…-kan（以 pasti 为基底）",
+        "gloss": "确认；确保"
+      },
+      {
+        "word": "kepastian",
+        "affix": "ke-…-an（以 pasti 为基底）",
+        "gloss": "确定性；确切消息"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把前文提到的事情查证清楚、确认无误；独立作命令时表示“确认一下这件事”。",
+      "en_definition": "Ascertain or verify the previously mentioned matter; as an imperative, establish it for certain.",
+      "ms_definition": "Tentukan perkara yang telah disebut itu dengan pasti atau sahkan kebenarannya.",
+      "nuances": "这是 pastikan 加 -nya 的语法组合，并非数据包已提供释义的独立词条。-nya 通常回指前文事项；有 meN- 的主动陈述句用 memastikannya，如 Saya akan memastikannya。这里的 official 是指定输出状态，不代表已核实此完整词形为 DBP 独立词目。[DBP：memastikan](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=memastikan)",
+      "collocations": [
+        {
+          "ms": "pastikannya terlebih dahulu",
+          "zh": "先把这件事确认清楚",
+          "en": "verify it first"
+        },
+        {
+          "ms": "pastikannya sebelum bertindak",
+          "zh": "行动前先确认清楚",
+          "en": "verify it before acting"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "采取必要行动，确保前文所说的条件、安排或结果得到落实；作命令时表示“务必把这件事落实好”。",
+      "en_definition": "Make certain that the previously mentioned condition or outcome is achieved.",
+      "ms_definition": "Ambil tindakan yang perlu supaya perkara atau hasil yang telah disebut itu benar-benar terlaksana.",
+      "nuances": "与“查证事实”的义项不同，此义强调促成结果。通常先交代具体要求，再用 pastikannya 回指；若对象尚未交代，直接写 pastikan bahawa… 或 pastikan + 名词短语更清楚。这里的搭配是自然构式示例，未作词频统计。[DBP：memastikan / ensure](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=memastikan)",
+      "collocations": [
+        {
+          "ms": "pastikannya dengan teliti",
+          "zh": "仔细确保这件事落实",
+          "en": "take care to ensure it"
+        },
+        {
+          "ms": "pastikannya sebelum pulang",
+          "zh": "回去前务必落实好",
+          "en": "make sure of it before leaving"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场指示 / 文件核验",
+      "ms": "Kesahihan dokumen ini masih belum disahkan; pastikannya terlebih dahulu sebelum meluluskan permohonan.",
+      "zh": "这份文件的真实性尚未核实；批准申请前，请先确认清楚。",
+      "en": "The authenticity of this document has not yet been verified; establish it before approving the application."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认会议安排",
+      "ms_spoken": "Bilik tu dah ditempah ke? Pastikannya dulu, ya.",
+      "ms_standard": "Adakah bilik itu sudah ditempah? Pastikannya terlebih dahulu.",
+      "zh": "那个房间已经订了吗？先确认一下哦。",
+      "en": "Has that room been booked? Check first, okay?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "dah 对应 sudah",
+        "句末 ke 表示疑问，ya 缓和指示语气",
+        "日常聊天中 pastikan dulu 往往比保留 -nya 更简洁"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Bilik mesyuarat tu dah ditempah ke? Pastikannya dulu, ya, aku nak hantar jemputan.",
+          "ms_standard": "Adakah bilik mesyuarat itu sudah ditempah? Pastikannya terlebih dahulu kerana saya hendak menghantar jemputan.",
+          "zh": "那个会议室订好了吗？先确认一下哦，我要发邀请了。",
+          "en": "Has the meeting room been booked? Check first, okay? I want to send out the invitations."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, aku baru semak kat sistem. Bilik tu memang dah ditempah.",
+          "ms_standard": "Ya, saya baru menyemak dalam sistem. Bilik itu memang sudah ditempah.",
+          "zh": "订好了，我刚查过系统，那个房间确实已经订了。",
+          "en": "Yes, I've just checked the system. The room is definitely booked."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pastikannya shows Malay grammar at work rather than a separate borrowing. Pasti expresses certainty; -kan forms pastikan, used to direct someone to establish or ensure something. Adding -nya points back to a matter already mentioned. The related dictionary form memastikan covers both verifying a fact and ensuring an outcome. [DBP: memastikan](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=memastikan)",
+    "cognitive_memory_aid": "pasti＝确定，pastikan＝把事情弄确定，-nya＝前面那件事：pastikannya＝把那件事确认好。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独命令 Pastikannya! 语气较强。对同事可加 tolong 或 ya；向上级提出请求可用 Boleh tuan atau puan pastikan perkara ini?",
+    "usage_etiquette": "适用于核验资料及落实安排。-nya 所指事项必须清楚；公文若存在多个可能对象，重述具体事项更妥当。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独命令 Pastikannya! 语气较强。对同事可加 tolong 或 ya；向上级提出请求可用 Boleh tuan atau puan pastikan perkara ini?",
+    "usage_etiquette": "适用于核验资料及落实安排。-nya 所指事项必须清楚；公文若存在多个可能对象，重述具体事项更妥当。"
+  }
+}

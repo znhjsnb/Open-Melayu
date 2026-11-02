@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "mendapatnya",
+    "syllables": null,
+    "ipa": "/mən.da.pat.ɲa/",
+    "jawi": "منداڤت",
+    "frequency_rank": 7301,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mendapat",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "mendapat + -nya → mendapatnya；底层构词：meN- + dapat → mendapat",
+    "pattern_note": "依数据包保留直接基底 mendapat，进一步的词根为 dapat。meN- 在 d 前实现为 men-，d 保留；-nya 是附着式代词，在此充当宾语，并非派生后缀。数据包所给爪夷文仅对应 mendapat，缺少 -nya；完整词形可规则转写为 منداڤتڽ。IPA 为规则推定。",
+    "word_family": [
+      {
+        "word": "mendapatkan",
+        "affix": "meN-…-kan",
+        "gloss": "设法取得；为他人取得"
+      },
+      {
+        "word": "pendapatan",
+        "affix": "peN-…-an",
+        "gloss": "收入；所得"
+      }
+    ],
+    "root_jawi": "منداڤت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "得到、获得或收到前文提及的人或事物；-nya 指代该宾语。",
+      "en_definition": "To obtain or receive it, him, or her, with the object identified by context.",
+      "ms_definition": "Menerima atau beroleh sesuatu atau seseorang yang dirujuk oleh kata ganti -nya.",
+      "nuances": "通常译为“得到它／收到它”，具体译法随宾语变化。-nya 在这里不表示“从他／她那里”。official 指规范语法构成，并不表示 mendapatnya 是 DBP 独立收录的词头；马来语释义据 mendapat 的词典义改写。[DBP：mendapat](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mendapat)",
+      "collocations": [
+        {
+          "ms": "berjaya mendapatnya",
+          "zh": "成功得到它",
+          "en": "manage to obtain it"
+        },
+        {
+          "ms": "sukar mendapatnya",
+          "zh": "难以得到它",
+          "en": "find it difficult to obtain"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "经历或遭遇前文提及的状况，尤其是不幸、困难或疾病等。",
+      "en_definition": "To experience or suffer the previously mentioned condition or misfortune.",
+      "ms_definition": "Mengalami atau menemui keadaan yang telah disebut, seperti kesusahan atau penyakit.",
+      "nuances": "这一读法要求前文提供明确的状况指称。例如先提到某种疾病，随后 mendapatnya 才可表示“患上这种病”。不能把词根 dapat 的情态义“能够”直接套入此形式。[DBP：mendapat](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mendapat)",
+      "collocations": [
+        {
+          "ms": "pernah mendapatnya",
+          "zh": "曾经遭遇过这种情况",
+          "en": "have experienced it before"
+        },
+        {
+          "ms": "turut mendapatnya",
+          "zh": "也遭遇了这种情况",
+          "en": "experience it as well"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Bantuan itu telah diluluskan, dan keluarga berkenaan dijangka mendapatnya pada minggu hadapan.",
+      "zh": "该项援助已获批准，相关家庭预计将在下周收到。",
+      "en": "The assistance has been approved, and the family concerned is expected to receive it next week."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；mendapatnya 带较完整的书面语色彩",
+      "ms_spoken": "Akhirnya saya mendapatnya juga! Dah lama saya cari buku ni.",
+      "ms_standard": "Akhirnya saya mendapatnya juga! Saya sudah lama mencari buku ini.",
+      "zh": "终于买到啦！这本书我找了好久。",
+      "en": "I finally got it! I've been looking for this book for ages.",
+      "spoken_features": [
+        "dah 对应 sudah，ni 对应 ini。",
+        "口语中 cari 可对应标准语的 mencari。",
+        "mendapatnya 在聊天中可用于强调；日常也常直接说 dapat buku tu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Buku yang awak nak tu dah ada kat kedai ke?",
+          "ms_standard": "Adakah buku yang awak mahu itu sudah ada di kedai?",
+          "zh": "你想要的那本书，店里已经有了吗？",
+          "en": "Does the shop have the book you wanted yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah! Akhirnya saya mendapatnya juga. Tinggal satu je tadi.",
+          "ms_standard": "Ya! Akhirnya saya mendapatnya juga. Hanya satu naskhah yang tinggal tadi.",
+          "zh": "有啦！我终于买到了，刚才就剩一本。",
+          "en": "Yes! I finally got it. There was only one copy left."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates productive Malay grammar rather than a separate borrowed word. The base dapat takes the active prefix meN-, producing mendapat with its initial d retained. The attached pronoun -nya then supplies an object recoverable from the conversation. Recognising these layers explains why the complete form need not have a separate dictionary entry.",
+    "cognitive_memory_aid": "把 mendapat 想成“得到”，再让 -nya 指回前文：得到＋它 → mendapatnya。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词形本身没有敬语功能。正式沟通中，若 -nya 的指代不清，应重复具体名称以免误解。",
+    "usage_etiquette": "公文、叙述和较完整的聊天句中均可使用。不要把 mendapatnya 与 mendapatkannya 机械互换，后者包含不同的 -kan 构词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词形本身没有敬语功能。正式沟通中，若 -nya 的指代不清，应重复具体名称以免误解。",
+    "usage_etiquette": "公文、叙述和较完整的聊天句中均可使用。不要把 mendapatnya 与 mendapatkannya 机械互换，后者包含不同的 -kan 构词。"
+  }
+}

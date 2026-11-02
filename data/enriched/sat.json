@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "sat",
+    "syllables": "sat",
+    "ipa": "/sat/",
+    "jawi": "ست",
+    "frequency_rank": 7342,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + sat → sat",
+    "pattern_note": "单音节，无生产性词缀。纸牌、旧量制与口语时间表达应分作同形异义项；不能把三者都解释成同一词源。部分北部口音将末尾 /t/ 实现为 [ʔ]。",
+    "word_family": [],
+    "root_jawi": "ست"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "扑克牌中的 A 牌，通常只有一个花色标记；词典将其释为点值最高的牌。",
+      "en_definition": "An ace in a pack of playing cards.",
+      "ms_definition": "Daun terup yang ditandai satu lambang dan diberi nilai tertinggi.",
+      "nuances": "这是输入包对应的纸牌义；具体牌局中 A 的大小仍取决于规则。与“等一下”的口语义无关。[Kamus Dewan 与 Kamus Pelajar](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sat)",
+      "collocations": [
+        {
+          "ms": "kad sat",
+          "zh": "A 牌",
+          "en": "an ace"
+        },
+        {
+          "ms": "empat sat",
+          "zh": "四张 A",
+          "en": "four aces"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "旧时计量米等谷物数量的容量单位；sat besar 为十 gantang，sat kecil 为五 gantang。",
+      "en_definition": "An obsolete measure for rice and similar commodities: ten gantang for a sat besar or five for a sat kecil.",
+      "ms_definition": "Ukuran lama bagi beras dan sebagainya; sat besar bersamaan sepuluh gantang dan sat kecil lima gantang.",
+      "nuances": "词典标注为古旧用语。历史材料中的 gantang 未必具有跨地区一致的容量，不宜直接换算成固定公斤数。[Kamus Dewan](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sat)",
+      "collocations": [
+        {
+          "ms": "sat besar",
+          "zh": "大 sat，十 gantang",
+          "en": "a large sat, equal to ten gantang"
+        },
+        {
+          "ms": "sat kecil",
+          "zh": "小 sat，五 gantang",
+          "en": "a small sat, equal to five gantang"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "一下；片刻；一会儿，常用于要求短暂等待，尤见于马来西亚北部口语。",
+      "en_definition": "For a moment; briefly, especially in northern Malaysian colloquial speech.",
+      "ms_definition": "Dalam bahasa percakapan, sekejap atau sebentar.",
+      "nuances": "tunggu sat 是“等一下”；sat lagi 是“过一会儿”。并非精确的一秒。词典列为口语，官方方言资料也记录其在吉打的使用。[Kamus Dewan](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sat)、[PLANMalaysia 方言词表](https://app.planmalaysia.gov.my/planet/theme/dist/dialekPedia/kamus.cfm?page=66)",
+      "collocations": [
+        {
+          "ms": "tunggu sat",
+          "zh": "等一下",
+          "en": "wait a moment"
+        },
+        {
+          "ms": "sat lagi",
+          "zh": "过一会儿",
+          "en": "in a little while"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化报道 / 纸牌规则说明",
+      "ms": "Dalam permainan ini, kad sat mempunyai nilai tertinggi.",
+      "zh": "在这项游戏中，A 牌的点值最高。",
+      "en": "In this game, the ace has the highest value."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 北部朋友相约出门",
+      "ms_spoken": "Tunggu sat, aku nak ambil kunci kat dalam.",
+      "ms_standard": "Tunggu sebentar, saya hendak mengambil kunci di dalam rumah.",
+      "zh": "等一下，我进去拿钥匙。",
+      "en": "Hang on, I need to grab my keys inside.",
+      "spoken_features": [
+        "sat 表示 sebentar，具有北部口语特色",
+        "nak 对应 hendak",
+        "kat 对应 di",
+        "aku 适用于熟人"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai kat depan rumah. Hang dah siap ke?",
+          "ms_standard": "Saya sudah sampai di hadapan rumah. Adakah awak sudah bersedia?",
+          "zh": "我到你家门口了。你准备好了吗？",
+          "en": "I'm outside your house. Are you ready?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tunggu sat, aku nak ambil kunci. Sat lagi aku keluar.",
+          "ms_standard": "Tunggu sebentar, saya hendak mengambil kunci. Saya akan keluar sebentar lagi.",
+          "zh": "等一下，我拿个钥匙，马上就出来。",
+          "en": "Hang on, I need to get my keys. I'll be out in a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sat brings together three dictionary histories: a playing card, an old grain measure, and a conversational expression for a brief interval. The measure preserves a vocabulary of trade in rice, while the time expression remains familiar in northern Malaysian speech. Their shared spelling does not establish a shared origin, so the meanings should be learned separately. [Kamus Dewan](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=sat)",
+    "cognitive_memory_aid": "听到 tunggu sat，想象伸出一根手指示意“等一下”；看到 kad sat，就切换到纸牌 A 的画面。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人间说 tunggu sat 很自然；对顾客、长辈或不熟悉北部口语的人，用 Tunggu sebentar, ya 或 Sila tunggu sebentar 更稳妥。",
+    "usage_etiquette": "纸牌义可用于游戏说明，不必然涉及赌博；谈论活动时尊重参与者的宗教和个人习惯。旧量制义适合历史语境，日常等待义适合非正式交流。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人间说 tunggu sat 很自然；对顾客、长辈或不熟悉北部口语的人，用 Tunggu sebentar, ya 或 Sila tunggu sebentar 更稳妥。",
+    "usage_etiquette": "纸牌义可用于游戏说明，不必然涉及赌博；谈论活动时尊重参与者的宗教和个人习惯。旧量制义适合历史语境，日常等待义适合非正式交流。"
+  }
+}

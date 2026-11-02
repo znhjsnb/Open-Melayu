@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "die",
+    "syllables": "di.e",
+    "ipa": "[di.ə]",
+    "jawi": null,
+    "frequency_rank": 7338,
+    "status": "nonstandard",
+    "standard_form": "dia",
+    "status_note": "这是 dia 的非标准口语拼写，不能如实标为官方标准词形；音标表示其常见口语读法，具体实现因地区而异。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "die",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + die → die；标准拼写对应 dia",
+    "pattern_note": "保留输入包的无词缀分析。die 是用 e 表示 dia 末尾弱化元音的口语拼写，不是加词缀产生的新词；以下词族通过标准形式 dia 关联。",
+    "word_family": [
+      {
+        "word": "dia",
+        "affix": "∅",
+        "gloss": "他；她，标准拼写"
+      },
+      {
+        "word": "dialah",
+        "affix": "-lah",
+        "gloss": "正是他或她；带强调语气"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "他；她。第三人称单数人称代词 dia 的非标准口语拼写，不区分性别。",
+      "en_definition": "He, she, him or her; a nonstandard conversational spelling of the third-person singular pronoun dia.",
+      "ms_definition": "Ejaan tidak baku bagi dia dalam komunikasi santai, yang merujuk kepada orang ketiga tunggal tanpa membezakan jantina.",
+      "nuances": "实际词类为代词，故使用 pronoun，避免误标为普通名词。在马来语聊天语境中通常对应 dia；不能据此把英语 die 的“死亡”义并入本条。die＝dia 的非标准拼写见 [IPG Kent 的短信语言研究](https://ipkent.edu.my/document/pskent/pskent18/jpm/bahasa2015.pdf)；标准代词义参见 [DBP：dia](https://ekamus.dbp.gov.my/Search.aspx?cari=di&spec=false&type=1)。",
+      "collocations": [
+        {
+          "ms": "die dah sampai",
+          "zh": "他／她已经到了",
+          "en": "he or she has arrived"
+        },
+        {
+          "ms": "dengan die",
+          "zh": "和他／她一起",
+          "en": "with him or her"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；正式文本使用标准拼写 dia",
+      "ms": "Aina bertugas sebagai penyelaras projek, dan dia akan membentangkan laporan kemajuan esok.",
+      "zh": "艾娜担任项目协调员，她将于明天汇报项目进展。",
+      "en": "Aina is the project coordinator, and she will present the progress report tomorrow."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Die dah sampai kat kafe ke?",
+      "ms_standard": "Adakah dia sudah sampai di kafe?",
+      "zh": "她已经到咖啡馆了吗？",
+      "en": "Has she arrived at the café yet?",
+      "spoken_features": [
+        "die 是 dia 的非标准口语拼写",
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "句末 ke 构成口语疑问；标准语可用 adakah"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aina tadi kata nak datang. Die dah sampai kat kafe ke?",
+          "ms_standard": "Aina tadi mengatakan bahawa dia hendak datang. Adakah dia sudah sampai di kafe?",
+          "zh": "艾娜刚才说要来。她已经到咖啡馆了吗？",
+          "en": "Aina said she was coming. Has she arrived at the café yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, die tunggu kat dalam. Masuk je.",
+          "ms_standard": "Ya, dia sudah sampai dan sedang menunggu di dalam. Masuklah.",
+          "zh": "到了，她在里面等着呢。直接进来吧。",
+          "en": "Yes, she's waiting inside. Come on in."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Die illustrates how conversational pronunciation enters informal writing. The standard pronoun is dia, but speakers may weaken its final vowel, and messages sometimes represent that sound with e. A Malaysian study of SMS language explicitly lists die alongside dia. Its significance is therefore sociolinguistic: an established pronoun receives a casual spelling, rather than becoming a new standard dictionary word.",
+    "cognitive_memory_aid": "看见聊天里的 die，先还原成 dia＝他／她；这里的 e 提醒你听到的是弱化元音，不要按英语 /daɪ/ 去读。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "die 宜限于熟人聊天。正式文字改写为 dia；尊敬地指称长辈、老师或受尊重的人时，可按关系与场合使用 beliau、姓名或职衔。",
+    "usage_etiquette": "它不区分男性和女性，翻译应依据上下文选择“他”或“她”。学校作文、公函和正式工作邮件应采用标准拼写 dia；直接引述聊天原文时可以保留 die。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "die 宜限于熟人聊天。正式文字改写为 dia；尊敬地指称长辈、老师或受尊重的人时，可按关系与场合使用 beliau、姓名或职衔。",
+    "usage_etiquette": "它不区分男性和女性，翻译应依据上下文选择“他”或“她”。学校作文、公函和正式工作邮件应采用标准拼写 dia；直接引述聊天原文时可以保留 die。"
+  }
+}

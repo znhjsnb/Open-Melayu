@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "disuruh",
+    "syllables": null,
+    "ipa": "/di.su.ruh/",
+    "jawi": null,
+    "frequency_rank": 7314,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "suruh",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + suruh → disuruh",
+    "pattern_note": "被动前缀 di- 与 suruh 连写，不发生音变，也不表示过去时。原数据包将 disuruh 标为词根；此处依据其透明的被动构词结构更正为 suruh。",
+    "word_family": [
+      {
+        "word": "menyuruh",
+        "affix": "meN-",
+        "gloss": "叫某人做；命令"
+      },
+      {
+        "word": "suruhan",
+        "affix": "-an",
+        "gloss": "命令；受差遣的人"
+      },
+      {
+        "word": "pesuruh",
+        "affix": "pe-",
+        "gloss": "受差遣者；使者"
+      },
+      {
+        "word": "penyuruh",
+        "affix": "peN-",
+        "gloss": "发出命令的人"
+      }
+    ],
+    "root_jawi": "سوروه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被叫去做某事；被要求、吩咐或命令做某事。",
+      "en_definition": "To be told, instructed, or ordered to do something.",
+      "ms_definition": "Diberi perintah, diminta atau diarahkan supaya melakukan sesuatu.",
+      "nuances": "是 menyuruh 的被动形式；命令的强弱由人物关系与上下文决定，不一定表示强迫。常接动作，如 disuruh menunggu。参见 [DBP PRPM：suruh](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=suruh)。",
+      "collocations": [
+        {
+          "ms": "disuruh menunggu",
+          "zh": "被叫去等候",
+          "en": "be told to wait"
+        },
+        {
+          "ms": "disuruh membuat kerja",
+          "zh": "被吩咐做事",
+          "en": "be told to do some work"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "奉命或受吩咐前往某处，通常为了办事。",
+      "en_definition": "To be sent or instructed to go somewhere, usually on an errand.",
+      "ms_definition": "Diminta atau diperintahkan supaya pergi ke sesuatu tempat untuk sesuatu urusan.",
+      "nuances": "可直接接 ke 引出的目的地，也可用 disuruh pergi ke。不同于单纯被运送或获安排前往的 dihantar。参见 [DBP PRPM：menyuruh](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=menyuruh)。",
+      "collocations": [
+        {
+          "ms": "disuruh ke kedai",
+          "zh": "被叫去商店办事",
+          "en": "be sent to the shop"
+        },
+        {
+          "ms": "disuruh pergi ke pejabat",
+          "zh": "被吩咐去办公室",
+          "en": "be told to go to the office"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报",
+      "ms": "Petugas itu disuruh oleh penyelia untuk menyemak semua borang sebelum kaunter dibuka.",
+      "zh": "主管吩咐那名工作人员在柜台开放前检查所有表格。",
+      "en": "The staff member was instructed by the supervisor to check all the forms before the counter opened."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人安排跑腿",
+      "ms_spoken": "Aku disuruh mak beli telur kat kedai.",
+      "ms_standard": "Saya disuruh oleh ibu untuk membeli telur di kedai.",
+      "zh": "我妈叫我去店里买鸡蛋。",
+      "en": "Mum asked me to get some eggs from the shop.",
+      "spoken_features": [
+        "aku 是熟人之间使用的第一人称代词。",
+        "mak 是口语中的“妈妈”。",
+        "kat 对应地点介词 di。",
+        "口语中省略 oleh 和 untuk；dah、nak 分别对应 sudah、mahu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (兄弟)",
+          "ms_spoken": "Aku disuruh mak beli telur kat kedai. Kau nak apa-apa?",
+          "ms_standard": "Saya disuruh oleh ibu untuk membeli telur di kedai. Adakah kamu mahu apa-apa?",
+          "zh": "妈叫我去店里买鸡蛋。你有什么要带的吗？",
+          "en": "Mum asked me to get eggs from the shop. Do you want anything?"
+        },
+        {
+          "speaker": "Hafiz (兄弟)",
+          "ms_spoken": "Roti je. Duit aku dah letak kat meja.",
+          "ms_standard": "Roti sahaja. Saya sudah meletakkan wang di atas meja.",
+          "zh": "面包就行。我把钱放桌上了。",
+          "en": "Just some bread. I've left the money on the table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Disuruh is built transparently from suruh and the passive prefix di-. DBP also records a proverb pairing being instructed with going, and being called with coming, to describe obedience. That cultural association helps explain why the word often evokes errands and duties, although ordinary family requests can be much gentler than military orders.",
+    "cognitive_memory_aid": "看到 di- 先想到“被”：suruh 是“叫人做”，disuruh 就是“被叫去做”。它标记被动，不标记过去。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "叙述家人或上级交办事项时很常见。正式汇报可按实际语气选用 diminta、diarahkan 或 ditugaskan；它们与 disuruh 的侧重点并不完全相同。",
+    "usage_etiquette": "Aku disuruh sahaja 可能带有“我只是奉命办事”的推责意味。描述专业分工时，明确任务与发出指示的人通常更得体，避免把同事描述成任人差遣的下人。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "叙述家人或上级交办事项时很常见。正式汇报可按实际语气选用 diminta、diarahkan 或 ditugaskan；它们与 disuruh 的侧重点并不完全相同。",
+    "usage_etiquette": "Aku disuruh sahaja 可能带有“我只是奉命办事”的推责意味。描述专业分工时，明确任务与发出指示的人通常更得体，避免把同事描述成任人差遣的下人。"
+  }
+}

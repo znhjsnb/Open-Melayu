@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "bunuhlah",
+    "syllables": null,
+    "ipa": "/bu.nuh.lah/",
+    "jawi": "بونوه",
+    "frequency_rank": 7256,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bunuh",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "bunuh + -lah → bunuhlah",
+    "pattern_note": "-lah 是附着于词尾的强调小品词，严格说并非派生后缀；此处 suffix 表示其附着位置。词根末尾的 /h/ 保留，不发生鼻音同化。输入 Jawi بونوه 仅对应 bunuh，此处按要求保留；完整 bunuhlah 应写作 بونوهله。",
+    "word_family": [
+      {
+        "word": "membunuh",
+        "affix": "meN-",
+        "gloss": "杀死；消灭"
+      },
+      {
+        "word": "pembunuh",
+        "affix": "peN-",
+        "gloss": "杀人者；杀灭某物的制剂或工具"
+      },
+      {
+        "word": "pembunuhan",
+        "affix": "peN-...-an",
+        "gloss": "杀害；杀人行为"
+      },
+      {
+        "word": "terbunuh",
+        "affix": "ter-",
+        "gloss": "被杀；因事故等丧生"
+      }
+    ],
+    "root_jawi": "بونوه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "杀死吧；把某个有生命的对象杀死。通常为带有强调、催促或劝令语气的祈使形式。",
+      "en_definition": "Kill; an imperative form of bunuh carrying emphasis, urging, or exhortation.",
+      "ms_definition": "Bentuk perintah bagi bunuh, yakni menyebabkan sesuatu yang bernyawa mati, dengan penegasan melalui partikel -lah.",
+      "nuances": "-lah 不改变“使死亡”的核心意义，其语气须结合语调与情境判断，不能一概译成礼貌的“请”。本词不是完成体，也不表示“已经杀死”。词根义参见 [DBP：bunuh](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=Bunuh)。",
+      "collocations": [
+        {
+          "ms": "bunuhlah kuman",
+          "zh": "把病菌杀灭吧",
+          "en": "kill the germs"
+        },
+        {
+          "ms": "bunuhlah nyamuk itu",
+          "zh": "把那只蚊子打死吧",
+          "en": "kill that mosquito"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "消灭、扼杀或使某事物消失；用于抽象事物时，表示强烈地要求消除或毁掉它。",
+      "en_definition": "Eliminate, extinguish, or destroy something, including figuratively; used with emphatic or exhortative force.",
+      "ms_definition": "Bentuk perintah yang menegaskan tindakan menghapuskan, memadamkan atau melenyapkan sesuatu, termasuk secara kiasan.",
+      "nuances": "抽象义取决于宾语，例如恐惧、信心或斗志。现代常见搭配多使用 membunuh，而不是直接发出 bunuhlah 的命令。DBP 也列有抹去文字、熄灭及堵住漏处等词根义；这些不宜作为 bunuhlah 的普通现代指令机械套用。",
+      "collocations": [
+        {
+          "ms": "membunuh semangat",
+          "zh": "打击斗志；扼杀积极性",
+          "en": "crush someone's spirit"
+        },
+        {
+          "ms": "membunuh keyakinan diri",
+          "zh": "摧毁自信",
+          "en": "destroy self-confidence"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Cadangan slogan untuk kempen kebersihan pejabat ialah “bunuhlah kuman, lindungi keluarga”.",
+      "zh": "办公室卫生宣传活动的拟议口号是“杀灭病菌，保护家人”。",
+      "en": "The proposed slogan for the office hygiene campaign is “Kill germs, protect your family.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Nyamuk tu asyik gigit aku. Bunuhlah cepat!",
+      "ms_standard": "Nyamuk itu sering menggigit saya. Bunuhlah nyamuk itu dengan segera!",
+      "zh": "那只蚊子老咬我，快打死它啦！",
+      "en": "That mosquito keeps biting me. Kill it, quick!",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "aku 用于熟人之间，语气比 saya 随意。",
+        "第二句省略已知宾语；-lah 在这里加强催促语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nyamuk tu dah masuk bilik aku. Bunuhlah cepat!",
+          "ms_standard": "Nyamuk itu sudah masuk ke dalam bilik saya. Bunuhlah nyamuk itu dengan segera!",
+          "zh": "那只蚊子已经飞进我房间了，快打死它啦！",
+          "en": "That mosquito's in my room now. Kill it, quick!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Sekejap, aku nak ambil pemukul nyamuk kat luar.",
+          "ms_standard": "Tunggu sebentar, saya hendak mengambil pemukul nyamuk di luar.",
+          "zh": "等一下，我去外面拿电蚊拍。",
+          "en": "Hang on, I'll get the mosquito swatter from outside."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bunuhlah illustrates how Malay builds an instruction without changing a verb's basic meaning. Bunuh supplies the action, while attached -lah highlights the speaker's intention. Depending on context and intonation, the result may urge, insist, or exhort. Its story is therefore one of productive grammar rather than a separate borrowed word or an independently established historical root. See [DBP on emphatic particles](https://dewanbahasa.jendeladbp.my/2022/03/16/2777/).",
+    "cognitive_memory_aid": "bunuh＝杀死；末尾加 lah，像中文补上一声“吧／啦”。记住动作意义不变，变化的是说话语气。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "即使带 -lah，bunuhlah 仍可能是强硬命令；涉及人时尤其严厉。与上级、长辈或陌生人交谈时，不能把 -lah 当作万能礼貌标记。",
+    "usage_etiquette": "适用于描述明确对象的杀灭行为、引用台词或讨论语言。不要把针对人的 bunuhlah 当作普通玩笑；涉及动物时也应顾及听者的感受。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "即使带 -lah，bunuhlah 仍可能是强硬命令；涉及人时尤其严厉。与上级、长辈或陌生人交谈时，不能把 -lah 当作万能礼貌标记。",
+    "usage_etiquette": "适用于描述明确对象的杀灭行为、引用台词或讨论语言。不要把针对人的 bunuhlah 当作普通玩笑；涉及动物时也应顾及听者的感受。"
+  }
+}
