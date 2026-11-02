@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "memakainya",
+    "syllables": null,
+    "ipa": "/mə.ma.kai̯.ɲa/",
+    "jawi": "مماکاي",
+    "frequency_rank": 3245,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "memakai",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "memakai + -nya → memakainya；底层构词：meN- + pakai → memakai",
+    "pattern_note": "pakai 加 meN- 时，词首 p 脱落，鼻音取双唇音 m，形成 memakai；再连写宾语附着成分 -nya。此处 suffix 是字段分类，-nya 在语法上属于附着代词。",
+    "word_family": [
+      {
+        "word": "pakaian",
+        "affix": "-an",
+        "gloss": "衣服；服装"
+      },
+      {
+        "word": "pemakai",
+        "affix": "peN-",
+        "gloss": "穿戴者；使用者"
+      }
+    ],
+    "root_jawi": "مماکاي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "穿上或戴上前文已提及的衣服、鞋帽、饰物等；也可表示正穿戴着该物。",
+      "en_definition": "To put on or wear the previously mentioned item of clothing, footwear or accessory.",
+      "ms_definition": "Mengenakan pakaian, kasut, perhiasan atau kelengkapan lain yang telah disebut pada badan.",
+      "nuances": "本条只取穿戴这一核心义。memakainya 可指“把它穿戴上”的动作，也可指“穿戴着它”的状态，须结合上下文判断；-nya 指向已提及的穿戴物，不表示“他的”，也不标记时态。数据包中的 Jawi 对应 memakai，未包含 -nya；root_word 保留数据包提供的直接构词基础，底层词根为 pakai。",
+      "collocations": [
+        {
+          "ms": "selesa memakainya",
+          "zh": "穿戴着它很舒服",
+          "en": "feel comfortable wearing it"
+        },
+        {
+          "ms": "memakainya setiap hari",
+          "zh": "每天穿戴它",
+          "en": "wear it every day"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Syarikat membekalkan topi keselamatan kepada setiap pekerja dan mewajibkan mereka memakainya sepanjang berada di tapak pembinaan.",
+      "zh": "公司为每位员工配发安全帽，并要求他们在施工现场全程佩戴。",
+      "en": "The company provides every worker with a safety helmet and requires them to wear it throughout their time on the construction site."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Baju baru tu aku dah pakai semalam. Selesa je!",
+      "ms_standard": "Saya sudah memakainya semalam dan berasa selesa dengan baju baharu itu.",
+      "zh": "那件新衣服我昨天穿过了，挺舒服的！",
+      "en": "I wore that new shirt yesterday. It was really comfortable!",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "tu 是 itu 的口语形式。",
+        "je 是 sahaja 的口语形式；此处让评价显得轻松随意。",
+        "聊天常用 pakai，并把已知衣物放在句首；标准表达可用 memakainya 承接该衣物。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Baju baru tu kau dah pakai ke? Selesa tak?",
+          "ms_standard": "Adakah kamu sudah memakai baju baharu itu? Adakah baju itu selesa dipakai?",
+          "zh": "那件新衣服你穿过了吗？舒服吗？",
+          "en": "Have you worn that new shirt yet? Is it comfortable?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, aku pakai semalam. Selesa je, tak panas pun.",
+          "ms_standard": "Ya, saya sudah memakainya semalam. Saya berasa selesa dan tidak berasa panas.",
+          "zh": "穿过了，昨天穿的。挺舒服的，也不热。",
+          "en": "Yes, I wore it yesterday. It was comfortable, and I didn't feel hot."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "词语本身中性。提醒他人穿戴时，可用 sila 或 tolong 配合场合表达礼貌；评论别人的衣着时，以合身、舒适或场合要求为重点，避免对身体作冒犯性评价。",
+    "usage_etiquette": "先说明是哪件衣服或哪种装备，再用 memakainya 承接。正式安全指示可用 diwajibkan memakainya；日常聊天说 dah pakai 很自然。服装要求应依据具体机构或活动说明。"
+  },
+  "etymology": {
+    "historical_story": "这个词来自马来语 pakai；同一词族也形成 pakaian“衣服”和 pemakai“穿戴者／使用者”，可参见 [DBP 的 pakai 词族资料](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=berpakaian)。在穿戴场景里，memakai 把衣物与穿戴动作联系起来，接上 -nya 后便能回指前文那件衣物；无需把它另当作一个有独立借入历史的新词。",
+    "cognitive_memory_aid": "想象衣架上的那件衣服被穿到身上：pakai 是“穿戴”，memakai 是完整动词形式，-nya 像标签一样提醒你——穿的是前面说过的那一件。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "词语本身中性。提醒他人穿戴时，可用 sila 或 tolong 配合场合表达礼貌；评论别人的衣着时，以合身、舒适或场合要求为重点，避免对身体作冒犯性评价。",
+    "usage_etiquette": "先说明是哪件衣服或哪种装备，再用 memakainya 承接。正式安全指示可用 diwajibkan memakainya；日常聊天说 dah pakai 很自然。服装要求应依据具体机构或活动说明。"
+  }
+}

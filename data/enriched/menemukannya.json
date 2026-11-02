@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "menemukannya",
+    "syllables": null,
+    "ipa": "/mə.nə.mu.kan.ɲa/",
+    "jawi": "منموکن",
+    "frequency_rank": 3244,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menemukan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "menemukan + -nya → menemukannya；底层构词：meN- + temu + -kan → menemukan",
+    "pattern_note": "temu 加 meN- 时，词首 t 脱落，形成 menemukan；再连写宾语附着成分 -nya。此处 suffix 是字段分类，-nya 在语法上属于附着代词。",
+    "word_family": [
+      {
+        "word": "bertemu",
+        "affix": "ber-",
+        "gloss": "相遇；见面"
+      },
+      {
+        "word": "penemuan",
+        "affix": "peN-...-an",
+        "gloss": "发现；发现的事物"
+      }
+    ],
+    "root_jawi": "منموکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "找到或发现前文已提及的人或事物，尤其指寻获所寻找、隐藏或此前未知的对象。",
+      "en_definition": "To find or discover the previously mentioned person or thing.",
+      "ms_definition": "Mendapati atau menjumpai orang atau sesuatu yang telah disebut, khususnya yang dicari, tersembunyi atau belum diketahui.",
+      "nuances": "-nya 在这里承接已知宾语，不表示过去时，也不表示“他的”。是否已经找到，须由 telah、sudah 或上下文说明。menemukan 的“找到、发现”义见 [DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=temu+I)。完整形式较适合书面叙述；马来西亚日常聊天更常用 jumpa，并省略已知宾语或改用明确名词。数据包中的 Jawi 对应 menemukan，未包含 -nya；root_word 保留数据包提供的直接构词基础，底层词根为 temu。",
+      "collocations": [
+        {
+          "ms": "berjaya menemukannya",
+          "zh": "成功找到它／对方",
+          "en": "manage to find it or them"
+        },
+        {
+          "ms": "masih belum menemukannya",
+          "zh": "仍未找到它／对方",
+          "en": "still not have found it or them"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelamat mencari seorang pendaki yang dilaporkan hilang dan akhirnya berjaya menemukannya dalam keadaan selamat.",
+      "zh": "救援队搜寻一名据报失踪的登山者，最终成功找到对方，确认其安然无恙。",
+      "en": "The rescue team searched for a hiker reported missing and eventually found them safe."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kunci yang hilang tadi tu, aku dah jumpa kat bawah sofa.",
+      "ms_standard": "Berkenaan kunci yang hilang tadi, saya sudah menemukannya di bawah sofa.",
+      "zh": "刚才丢的钥匙，我已经在沙发底下找到了。",
+      "en": "I found the missing keys under the sofa.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "kat 在这里相当于表示位置的 di。",
+        "tu 是 itu 的口语形式，用来承接双方已知的话题。",
+        "口语用 jumpa 表达 menemukan 的意思；已知宾语可以省略，不必逐词保留 -nya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah jumpa kunci yang hilang tadi ke?",
+          "ms_standard": "Adakah kamu sudah menemukan kunci yang hilang tadi?",
+          "zh": "你找到刚才丢的钥匙了吗？",
+          "en": "Have you found the missing keys yet?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah, aku jumpa kat bawah sofa tadi. Nasib baik!",
+          "ms_standard": "Ya, saya sudah menemukannya di bawah sofa tadi. Mujurlah!",
+          "zh": "找到了，刚才在沙发底下找到的。真走运！",
+          "en": "Yes, I found them under the sofa. What a relief!"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "词语本身中性。搜寻失踪者或向家属通报时，应明确说明找到的是谁及其状况；单说 menemukannya 不表示对方平安。",
+    "usage_etiquette": "先交代 -nya 指向的人或事物，避免读者猜测。正式报告可用 telah menemukannya；朋友聊天通常用 dah jumpa。aku、kau 适合熟人之间，面对陌生人或长辈可改用 saya 和适当称呼。"
+  },
+  "etymology": {
+    "historical_story": "这个词的构词起点是马来语 temu；同一词族把“相遇”和“找到”联系起来，仿佛寻找者终于与目标碰面。menemukan 将焦点放在找到的对象上，再接 -nya，就能承接故事里已经出现的人或事物；这是构词与语义联系的说明，不据此推定具体出现年代。",
+    "cognitive_memory_aid": "想象手电筒照到失物：temu 是“碰上目标”，menemukan 是“找到”，最后的 -nya 像一根回指箭头，指向前面提过的“它／对方”。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "词语本身中性。搜寻失踪者或向家属通报时，应明确说明找到的是谁及其状况；单说 menemukannya 不表示对方平安。",
+    "usage_etiquette": "先交代 -nya 指向的人或事物，避免读者猜测。正式报告可用 telah menemukannya；朋友聊天通常用 dah jumpa。aku、kau 适合熟人之间，面对陌生人或长辈可改用 saya 和适当称呼。"
+  }
+}

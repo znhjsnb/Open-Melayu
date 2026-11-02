@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "menanti",
+    "syllables": "me.nan.ti",
+    "ipa": "/məˈnanti/",
+    "jawi": "مننتي",
+    "frequency_rank": 3253,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "nanti",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + nanti → menanti",
+    "pattern_note": "meN- 接以 n 开头的词根时实现为 me-，保留词根的 n。输入包中的 anti 应校正为 nanti。",
+    "word_family": [
+      {
+        "word": "menantikan",
+        "affix": "meN-…-kan",
+        "gloss": "等待某人或某事的到来"
+      },
+      {
+        "word": "penantian",
+        "affix": "peN-…-an",
+        "gloss": "等待；等候的过程"
+      }
+    ],
+    "root_jawi": "ننتي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "等待某人或某事物到来，或等待某件事情发生。",
+      "en_definition": "To wait for someone or something to arrive, or for something to happen.",
+      "ms_definition": "Menunggu ketibaan seseorang atau sesuatu, atau berlakunya sesuatu.",
+      "nuances": "核心是处于等待之中，不一定表示急切或乐观。比 menunggu 更常带有书面、抒情或郑重的语气；日常聊天通常用 tunggu。可单独使用，也可接等待对象。",
+      "collocations": [
+        {
+          "ms": "menanti jawapan",
+          "zh": "等待答复",
+          "en": "await a reply"
+        },
+        {
+          "ms": "menanti kepulangan anak",
+          "zh": "等待孩子归来",
+          "en": "await a child's return"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak urus setia masih menanti jawapan rasmi daripada kementerian sebelum mengumumkan tarikh program.",
+      "zh": "秘书处仍在等待该部的正式答复，之后才会公布活动日期。",
+      "en": "The secretariat is still awaiting an official reply from the ministry before announcing the programme date."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah lama menanti kat kafe ni. Kau dah sampai ke?",
+      "ms_standard": "Saya sudah lama menanti di kafe ini. Adakah kamu sudah sampai?",
+      "zh": "我在这家咖啡馆等好久了。你到了没？",
+      "en": "I've been waiting at this café for ages. Are you here yet?",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "kat 在此对应 di；ni 对应 ini。",
+        "句末 ke 表示口语疑问。",
+        "aku、kau 用于熟人之间；menanti 在此略带夸张、打趣的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah lama menanti kat kafe ni. Kau dah sampai ke?",
+          "ms_standard": "Saya sudah lama menanti di kafe ini. Adakah kamu sudah sampai?",
+          "zh": "我在这家咖啡馆等好久了。你到了没？",
+          "en": "I've been waiting at this café for ages. Are you here yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah dekat dah. Lima minit lagi je, ya.",
+          "ms_standard": "Saya sudah berada berdekatan. Saya akan tiba dalam lima minit lagi, ya.",
+          "zh": "快到了，再五分钟就好啊。",
+          "en": "I'm nearly there. Just five more minutes, okay?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "正式催询可用 Kami masih menanti maklum balas pihak tuan/puan，语气郑重；加上时间说明或感谢语，有助于避免显得生硬。",
+    "usage_etiquette": "适合公函、新闻和带感情色彩的叙述。与不熟悉的人交谈时使用 saya、anda 或合适称谓；朋友之间才自然使用 aku、kau。"
+  },
+  "etymology": {
+    "historical_story": "menanti 由马来语词根 nanti（等待）加上前缀 meN- 构成；[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menanti)也将它列在 nanti 的派生词族中。传统马来 pantun 里有等待马六甲针线、盼望心上人带来慰藉的意象，展现了这个词从日常等候到情感期盼的表达空间。",
+    "cognitive_memory_aid": "想象一个人守在车站，看着时钟等待亲人到来：nanti 是“等”，加上 meN-，便成为正在进行的“等待”动作 menanti。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "正式催询可用 Kami masih menanti maklum balas pihak tuan/puan，语气郑重；加上时间说明或感谢语，有助于避免显得生硬。",
+    "usage_etiquette": "适合公函、新闻和带感情色彩的叙述。与不熟悉的人交谈时使用 saya、anda 或合适称谓；朋友之间才自然使用 aku、kau。"
+  }
+}

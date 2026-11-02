@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "membunuhku",
+    "syllables": null,
+    "ipa": "/məm.bu.nuh.ku/",
+    "jawi": "ممبونوه",
+    "frequency_rank": 3086,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "membunuh",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "membunuh + -ku → membunuhku；底层构词：meN- + bunuh → membunuh",
+    "pattern_note": "按输入包保留 membunuh 为直接构词基础，其底层词根是 bunuh。meN- 遇 b 变为 mem-，保留 b；-ku 是 aku 的后附代词，在此充当宾语“我”，不表示所属。输入包的 Jawi 仅对应 membunuh，未包含 -ku。[DBP 代词用法说明](https://prpm.dbp.gov.my/cari1?d=175768&keyword=ganti+nama+diri)",
+    "word_family": [
+      {
+        "word": "pembunuh",
+        "affix": "peN-",
+        "gloss": "杀人者；致命之物"
+      },
+      {
+        "word": "pembunuhan",
+        "affix": "peN-...-an",
+        "gloss": "杀人行为；凶杀"
+      }
+    ],
+    "root_jawi": "ممبونوه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "杀死我；使我丧命。",
+      "en_definition": "To kill me; to cause my death.",
+      "ms_definition": "Mematikan atau menghilangkan nyawa aku.",
+      "nuances": "这是主动及物动词 membunuh 加宾语 -ku 的组合，受害者是说话者，施事由主语或上下文确定。词形本身不标记时态，也不表示杀害已经成功；cuba membunuhku 只是“试图杀我”。日常夸张用法可表达痛苦或难以承受，但不能据此把字面上的死亡含义忽略。",
+      "collocations": [
+        {
+          "ms": "cuba membunuhku",
+          "zh": "试图杀死我",
+          "en": "try to kill me"
+        },
+        {
+          "ms": "hampir membunuhku",
+          "zh": "差点使我丧命",
+          "en": "almost kill me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 引述证人陈述",
+      "ms": "Saksi itu menyatakan, “Lelaki tersebut cuba membunuhku sebelum aku berjaya melarikan diri.”",
+      "zh": "该证人表示：“那名男子试图杀死我，后来我成功逃脱了。”",
+      "en": "The witness stated, “The man tried to kill me before I managed to escape.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论电子游戏",
+      "ms_spoken": "Dalam game tadi, naga tu hampir membunuhku, weh!",
+      "ms_standard": "Dalam permainan tadi, naga itu hampir membunuhku!",
+      "zh": "刚才游戏里那条龙差点把我干掉了，喂！",
+      "en": "That dragon almost killed me in the game just now, dude!",
+      "spoken_features": [
+        "game 是马来西亚口语中常见的英语夹用词，对应 permainan。",
+        "tu 是 itu 的口语形式。",
+        "weh 是朋友间引起注意或加强感叹的口语呼语。",
+        "membunuhku 在这里刻意带有游戏叙事的戏剧感；随意交谈也常说 bunuh aku。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (游戏好友)",
+          "ms_spoken": "Dalam game tadi, naga tu hampir membunuhku, weh!",
+          "ms_standard": "Dalam permainan tadi, naga itu hampir membunuhku!",
+          "zh": "刚才游戏里那条龙差点把我干掉了，喂！",
+          "en": "That dragon almost killed me in the game just now, dude!"
+        },
+        {
+          "speaker": "Farah (游戏好友)",
+          "ms_spoken": "Nasib baik kau sempat lari! Lepas ni nak lawan sama-sama tak?",
+          "ms_standard": "Mujurlah kamu sempat melarikan diri! Selepas ini, adakah kamu hendak melawannya bersama-sama?",
+          "zh": "还好你来得及跑！接下来要不要一起打它？",
+          "en": "Good thing you got away! Want to take it on together next?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "-ku 与 aku 相联系，适合亲近关系、叙事和文学表达。正式陈述自身遭遇时，membunuh saya 通常更中性；报道中可通过直接引语保留 membunuhku。",
+    "usage_etiquette": "这个词直接涉及说话者的死亡。游戏或玩笑中应让虚构语境清楚可见；讲述真实事件时，区分 cuba membunuhku“试图杀我”和 hampir membunuhku“差点使我丧命”，避免改变事件结果。"
+  },
+  "etymology": {
+    "historical_story": "bunuh 属于马来语继承的南岛语词汇，其亲属形式分布于多种南岛语言中；比较语言学研究将这一词族与击打、刺击和杀死等古老动作联系起来。[南岛语比较词典](https://acd.clld.org/cognatesets/25722) 在现代马来语中，meN- 把 bunuh 构成主动动词 membunuh，末尾再接 -ku，就把动作的承受者锁定为“我”。",
+    "cognitive_memory_aid": "把词看成一条动作箭头：membunuh“杀死” → ku“我”。箭头指向我，所以是“杀我”；“我杀”则需要由 aku 等形式充当主语。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "-ku 与 aku 相联系，适合亲近关系、叙事和文学表达。正式陈述自身遭遇时，membunuh saya 通常更中性；报道中可通过直接引语保留 membunuhku。",
+    "usage_etiquette": "这个词直接涉及说话者的死亡。游戏或玩笑中应让虚构语境清楚可见；讲述真实事件时，区分 cuba membunuhku“试图杀我”和 hampir membunuhku“差点使我丧命”，避免改变事件结果。"
+  }
+}
