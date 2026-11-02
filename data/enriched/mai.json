@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "mai",
+    "syllables": null,
+    "ipa": "[ˈmai̯]",
+    "jawi": null,
+    "frequency_rank": 8931,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mai",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mai → mai",
+    "pattern_note": "按输入读音，ai 在此构成双元音。方言形式整词记忆；与 mari 的对应关系不应当解释成现代马来语的一般删音构词规则。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "来；来到。用于吉打、槟城等北部马来语方言。",
+      "en_definition": "To come or arrive, in northern Malay dialect usage.",
+      "ms_definition": "Dalam dialek utara, datang atau bergerak menuju seseorang atau sesuatu tempat.",
+      "nuances": "DBP 的 mai II 标记 Kd、Pn，并以 mari 释义；方言用例也对应标准语 datang。status 为 official 表示有 DBP 收录依据，不表示适合正式标准语的一切语境。参见 [DBP PRPM：mai I、mai II](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mai)。本项马来语释义为整理简释。",
+      "collocations": [
+        {
+          "ms": "mai sini",
+          "zh": "来这里",
+          "en": "come here"
+        },
+        {
+          "ms": "tak mai",
+          "zh": "没来；不来",
+          "en": "not come; not turn up"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "来吧；一起吧。北部方言中用于邀请、招呼或提议共同做某事。",
+      "en_definition": "Come on; let's: used in northern dialect speech to invite participation.",
+      "ms_definition": "Ungkapan dialek untuk mengajak seseorang melakukan sesuatu bersama-sama; sepadan dengan mari atau ayuh.",
+      "nuances": "这是邀请功能，未必表示实际朝说话者移动。正式标准语通常根据句意使用 mari、ayuh 或 silakan。DBP 对 mari 的解释包含邀请功能，参见 [DBP PRPM：mari](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mari)。",
+      "collocations": [
+        {
+          "ms": "mai makan",
+          "zh": "来吃吧",
+          "en": "come and eat"
+        },
+        {
+          "ms": "mai kita tengok",
+          "zh": "来，我们看看",
+          "en": "let's have a look"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "粗俗固定骂语中的组成部分；在 puki mai 中构成极粗鄙的辱骂表达。",
+      "en_definition": "A bound component of a highly vulgar insult, notably puki mai.",
+      "ms_definition": "Unsur dalam ungkapan makian puki mai yang ditandai sebagai bahasa kasar.",
+      "nuances": "对应输入包中的 mai I，与北部方言“来”的 mai II 分列。此处 particle 仅是指定词类框架下的近似归类，不主张 mai 在该骂语中有已确定的独立词义。不可据此把普通邀请 mai makan 判为脏话。以下是识别用的固定表达，非推荐使用的搭配。参见 [DBP PRPM：puki mai、cuki mai](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=puki)。",
+      "collocations": [
+        {
+          "ms": "puki mai",
+          "zh": "极粗俗的生殖器辱骂语",
+          "en": "a highly vulgar genital insult"
+        },
+        {
+          "ms": "cuki mai",
+          "zh": "极粗俗、涉及对方母亲的辱骂语",
+          "en": "a highly vulgar insult referring to the addressee's mother"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "语言文化报道：引述方言",
+      "ms": "Dalam dialek utara, ungkapan \"mai makan\" digunakan untuk mempelawa seseorang makan.",
+      "zh": "在北部方言中，“mai makan”用于招呼别人吃东西。",
+      "en": "In northern Malay dialects, the expression \"mai makan\" is used to invite someone to eat."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 北部朋友相约吃饭",
+      "ms_spoken": "Mai makan kat rumah aku malam ni, lauk dah siap.",
+      "ms_standard": "Marilah makan di rumah saya malam ini; lauk sudah siap.",
+      "zh": "今晚来我家吃饭吧，菜都做好了。",
+      "en": "Come over for dinner tonight; the food's ready.",
+      "spoken_features": [
+        "mai 是北部方言招呼语，对应 mari 或 datang。",
+        "hang 是北部熟人间的第二人称。",
+        "kat 对应 di；ni 对应 ini；dah 对应 sudah。",
+        "lah 柔化邀请或加强答应的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Mai lah makan kat rumah aku malam ni. Lauk dah siap.",
+          "ms_standard": "Marilah makan di rumah saya malam ini. Lauk sudah siap.",
+          "zh": "今晚来我家吃饭嘛，菜都做好了。",
+          "en": "Come over for dinner tonight. The food's ready."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Boleh, sat lagi aku mai. Hang tunggu aku, ya.",
+          "ms_standard": "Baiklah, sebentar lagi saya datang. Tunggu saya, ya.",
+          "zh": "行，我一会儿就来。等我一下啊。",
+          "en": "Sure, I'll be over in a bit. Wait for me, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP separates mai into two entries: one associated with a coarse insult, and another marked for Kedah and Penang, meaning mari. That distinction matters culturally: a friendly invitation containing mai is not inherently offensive. The dictionary establishes these different uses, but does not by itself establish their deeper historical origins or prove that they share one source.",
+    "cognitive_memory_aid": "听见 mai makan，就把画面连到“来，吃饭！”；mai 的 /ai̯/ 与中文“来”的韵母相近，可辅助记忆，但不是词源关系。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "北部熟人间的 mai 可以自然亲切；hang 宜限于合适的熟人关系。面对长辈、顾客或正式对象，可用 Jemput makan 或 Silakan。",
+    "usage_etiquette": "明确区分方言邀请和固定粗俗骂语。mai makan 本身不粗俗；puki mai、cuki mai 则属于强烈侮辱表达，宜仅作理解性识别。正式例句通过引述呈现方言，实际正式邀请通常改用标准语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "北部熟人间的 mai 可以自然亲切；hang 宜限于合适的熟人关系。面对长辈、顾客或正式对象，可用 Jemput makan 或 Silakan。",
+    "usage_etiquette": "明确区分方言邀请和固定粗俗骂语。mai makan 本身不粗俗；puki mai、cuki mai 则属于强烈侮辱表达，宜仅作理解性识别。正式例句通过引述呈现方言，实际正式邀请通常改用标准语。"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "headword": {
+    "word": "pengeluar",
+    "syllables": "pe.nge.luar",
+    "ipa": "/pəŋəluar/",
+    "jawi": "ڤڠلوار",
+    "frequency_rank": 9014,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pengeluar",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + keluar → pengeluar",
+    "pattern_note": "root_word与root_jawi依要求保留输入包值，但该包把派生词自身误列为词根。实际构词基词是keluar（کلوار）：peN-在词首k前取peng-形式，k脱落，形成pengeluar；因此is_root标为false。DBP将pengeluar列为keluar的派生词。",
+    "word_family": [
+      {
+        "word": "keluaran",
+        "affix": "-an",
+        "gloss": "产品；出品；刊物期次"
+      },
+      {
+        "word": "pengeluaran",
+        "affix": "peN-...-an",
+        "gloss": "生产；产出；支出或提取"
+      },
+      {
+        "word": "mengeluarkan",
+        "affix": "meN-...-kan",
+        "gloss": "生产；发出；取出"
+      }
+    ],
+    "root_jawi": "ڤڠلوار"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "生产者；生产商：生产或制造某种产品的个人、企业或国家，也可置于名词后表示生产某物的主体。",
+      "en_definition": "A person, company, or country that produces something; a producer or manufacturer.",
+      "ms_definition": "Orang, syarikat atau negara yang mengeluarkan atau menghasilkan sesuatu.",
+      "nuances": "释义据DBP编写。negara pengeluar中的pengeluar仍表示生产主体，不必另立形容词义。pengeluar侧重生产或出品，pembekal侧重供应，penjual侧重销售；同一企业可以兼具这些身份。应依具体搭配选择producer或manufacturer。参见[DBP：pengeluar](https://prpm.dbp.gov.my/Cari1?d=378040&keyword=pengeluar)。",
+      "collocations": [
+        {
+          "ms": "pengeluar bahan mentah",
+          "zh": "原材料生产者",
+          "en": "a raw-material producer"
+        },
+        {
+          "ms": "negara pengeluar minyak",
+          "zh": "石油生产国",
+          "en": "an oil-producing country"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 企业产品安全通告",
+      "ms": "Pengeluar itu telah menarik balik produk berkenaan selepas menerima aduan tentang keselamatannya.",
+      "zh": "该生产商收到有关产品安全的投诉后，已召回相关产品。",
+      "en": "The manufacturer recalled the product after receiving complaints about its safety."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论产品保修",
+      "ms_spoken": "Aku dah tanya kedai, dia suruh hubungi pengeluar terus.",
+      "ms_standard": "Saya sudah bertanya kepada pihak kedai, dan mereka meminta saya menghubungi pengeluar secara langsung.",
+      "zh": "我问过店家了，他们叫我直接联系生产商。",
+      "en": "I've asked the shop, and they told me to contact the manufacturer directly.",
+      "spoken_features": [
+        "aku用于熟人交流，dah对应sudah。",
+        "dia可在口语中指店员；标准改述明确为pihak kedai和mereka。",
+        "pengeluar可自然用于日常对话，词形本身无需口语缩略。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah tanya kedai, dia suruh hubungi pengeluar terus.",
+          "ms_standard": "Saya sudah bertanya kepada pihak kedai, dan mereka meminta saya menghubungi pengeluar secara langsung.",
+          "zh": "问过店家了，他们叫我直接找生产商。",
+          "en": "I asked the shop, and they told me to contact the manufacturer directly."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nombor pengeluar ada kat kotak tu. Cuba telefon dulu.",
+          "ms_standard": "Nombor telefon pengeluar terdapat pada kotak itu. Cuba hubungi mereka terlebih dahulu.",
+          "zh": "生产商的电话在那个盒子上，先打过去问问吧。",
+          "en": "The manufacturer's number is on the box. Try calling them first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pengeluar connects production with the familiar Malay idea of bringing something out. Its base keluar also supports words for products and production, creating a useful network of related meanings. DBP explicitly lists pengeluar among the derivatives of keluar. The modern word identifies whoever brings goods or other output into circulation. [Source: DBP, keluar](https://prpm.dbp.gov.my/Cari1?d=246792&keyword=keluar).",
+    "cognitive_memory_aid": "keluar是“出来”；给它加表示主体的peN-：让产品“出来”的人或企业，就是pengeluar——生产者。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性、正式程度适中的商业用语；联系企业时可用pihak pengeluar指生产商方面。",
+    "usage_etiquette": "适用于产品标签、保修、贸易和经济新闻。投诉时应区分生产商、经销商与卖家，避免把不同主体混为一谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性、正式程度适中的商业用语；联系企业时可用pihak pengeluar指生产商方面。",
+    "usage_etiquette": "适用于产品标签、保修、贸易和经济新闻。投诉时应区分生产商、经销商与卖家，避免把不同主体混为一谈。"
+  }
+}

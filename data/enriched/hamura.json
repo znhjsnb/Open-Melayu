@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "hamura",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 8957,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hamura",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hamura → hamura（保留原始词形，身份待核）",
+    "pattern_note": "沿用输入的根词标记，不据此断言它是马来语词根。缺少原句和来源语言，暂不指定发音或拆分词素。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "可核实的专名指称之一：Hamura，即日本东京都的羽村市。此指称尚未与输入的小写 hamura 建立语境对应，不能当作已确认的马来语普通词义。",
+      "en_definition": "One verified proper-name referent is Hamura, a city in Tokyo, Japan; the intended referent of the supplied token remains unresolved.",
+      "ms_definition": "Salah satu rujukan nama khas yang dapat disahkan ialah Hamura, sebuah bandar di Tokyo, Jepun; rujukan sebenar bentuk input ini belum dapat dipastikan.",
+      "nuances": "本义项仅记录可查证的候选指称。没有原始语境，不能排除其他名称，也不能宣称 hamura 是正式马来语词。下列为地名候选的说明性组合，未核实其使用频率。",
+      "collocations": [
+        {
+          "ms": "bandar Hamura",
+          "zh": "羽村市",
+          "en": "the city of Hamura"
+        },
+        {
+          "ms": "Hamura di Tokyo",
+          "zh": "东京的羽村",
+          "en": "Hamura in Tokyo"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "编辑审核 / 专名核对",
+      "ms": "Bentuk “hamura” dalam senarai ini memerlukan konteks asal sebelum dapat dikenal pasti sebagai nama bandar Hamura di Tokyo atau rujukan lain.",
+      "zh": "这份清单中的 hamura 需要原始语境，才能确定它指东京的羽村市还是其他对象。",
+      "en": "The form “hamura” in this list requires its original context before it can be identified as the city of Hamura in Tokyo or another referent."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对资料",
+      "ms_spoken": "“hamura” kat senarai ni nama tempat ke?",
+      "ms_standard": "Adakah “hamura” dalam senarai ini nama tempat?",
+      "zh": "清单里这个 hamura 是地名吗？",
+      "en": "Is “hamura” in this list a place name?",
+      "spoken_features": [
+        "kat 对应 dalam",
+        "ni 对应 ini",
+        "ke 是口语疑问标记",
+        "目标形式作为待核对的字符串出现"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku jumpa “hamura” kat senarai ni. Nama tempat ke?",
+          "ms_standard": "Saya menemukan “hamura” dalam senarai ini. Adakah bentuk itu nama tempat?",
+          "zh": "我在清单里看到 hamura。是地名吗？",
+          "en": "I found “hamura” in this list. Is it a place name?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Mungkin. Aku nak semak ayat asal dulu, baru boleh pastikan.",
+          "ms_standard": "Mungkin. Saya hendak menyemak ayat asal dahulu sebelum dapat memastikannya.",
+          "zh": "有可能。我先查一下原句，才能确定。",
+          "en": "Possibly. I’ll check the original sentence before confirming."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The supplied token has no established etymology in the packet. A documented geographical match is Hamura in Tokyo. Municipal historical material records the establishment of Hamura Town in 1956 and Hamura City in 1991. Those facts describe one possible referent; they do not establish the origin or intended meaning of this lowercase corpus token.",
+    "cognitive_memory_aid": "先把 hamura 联想到地图上的候选地名 Hamura，再提醒自己“查原句、定所指”；不编造谐音词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "核对人名或地名时，应保留原拼写；未确认前不擅自改成相似的马来语词。",
+    "usage_etiquette": "若确认指羽村市，应写 Hamura。当前例句用于核对资料，不代表该形式具有已确认的日常马来语词义。"
+  },
+  "lexical_validation": {
+    "classification": "Unresolved token with a documented proper-name candidate",
+    "official_malay_headword_verified": false,
+    "candidate_referent": "Hamura, Tokyo, Japan",
+    "candidate_confirmed_for_input": false,
+    "definition_provenance": "候选专名说明，非 DBP 正式词条释义。",
+    "collocation_scope": "候选地名的说明性组合；未声称为高频搭配。",
+    "packet_note": "排名和根词标记沿用输入；词义、来源语言、发音、音节和 Jawi 均未由输入确定。"
+  },
+  "sources": [
+    "[Tokyo Metropolitan Government: Hamura City](https://tokyo-tamashima-iju.metro.tokyo.lg.jp/en/introduction/hamura/)",
+    "[Hamura City: municipal historical material](https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000010/10739/e300415.pdf)"
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "核对人名或地名时，应保留原拼写；未确认前不擅自改成相似的马来语词。",
+    "usage_etiquette": "若确认指羽村市，应写 Hamura。当前例句用于核对资料，不代表该形式具有已确认的日常马来语词义。"
+  }
+}

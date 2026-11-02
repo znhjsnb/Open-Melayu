@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "meraung",
+    "syllables": "me.raung",
+    "ipa": "/mərau̯ŋ/",
+    "jawi": "مراءوڠ",
+    "frequency_rank": 8955,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "meraung",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + raung → meraung",
+    "pattern_note": "保留数据包的 root_word 检索值 meraung，但其 is_root: true 与实际构词不符，故此处更正为 false；真正的形态词根为 raung（راءوڠ）。meN- 在 /r/ 前实现为 me-，保留 r；au 为双元音。[DBP：raung](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=raung)",
+    "word_family": [
+      {
+        "word": "raung",
+        "affix": null,
+        "gloss": "响亮而拖长的叫声"
+      },
+      {
+        "word": "raungan",
+        "affix": "-an",
+        "gloss": "嚎叫声；号哭声"
+      },
+      {
+        "word": "meraung-raung",
+        "affix": "meN-；重叠",
+        "gloss": "持续或反复地嚎叫、号哭"
+      }
+    ],
+    "root_jawi": "مراءوڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "动物发出响亮而拖长的嚎叫或吼叫声。",
+      "en_definition": "To howl or roar with a loud, prolonged cry, especially of an animal.",
+      "ms_definition": "Mengeluarkan bunyi atau suara yang nyaring dan panjang, terutama tentang binatang seperti anjing atau serigala.",
+      "nuances": "强调声音响亮、绵长；不是所有动物叫声的通称。狗的短促吠叫通常用 menyalak。语境中也可借喻机器或引擎的轰鸣。[DBP：raung／meraung](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=raung)",
+      "collocations": [
+        {
+          "ms": "serigala meraung",
+          "zh": "狼长嚎",
+          "en": "a wolf howls"
+        },
+        {
+          "ms": "anjing meraung",
+          "zh": "狗发出长嚎",
+          "en": "a dog howls"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "因悲伤、疼痛、恐惧等放声号哭或大声哭喊。",
+      "en_definition": "To wail or cry out loudly, especially from grief, pain or distress.",
+      "ms_definition": "Menangis sambil menjerit dengan kuat kerana kesedihan, kesakitan atau tekanan perasaan.",
+      "nuances": "强度明显高于 menangis，常与 meraung-raung 交替使用。用于成人时语气强烈，可能使人感到其情绪被公开描写；用于儿童也不必然表示故意撒泼。",
+      "collocations": [
+        {
+          "ms": "meraung kesakitan",
+          "zh": "痛得大声哭喊",
+          "en": "cry out in pain"
+        },
+        {
+          "ms": "menangis meraung",
+          "zh": "放声号哭",
+          "en": "weep and wail"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道／事故记录",
+      "ms": "Mangsa kedengaran meraung kesakitan ketika pasukan penyelamat tiba di lokasi kejadian.",
+      "zh": "救援人员抵达现场时，听见伤者因疼痛而大声哭喊。",
+      "en": "The victim could be heard crying out in pain when rescuers arrived at the scene."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp／邻居讨论夜间犬声",
+      "ms_spoken": "Anjing kat luar tu meraung lagi lah.",
+      "ms_standard": "Anjing di luar itu meraung lagi.",
+      "zh": "外面那只狗又在嚎了。",
+      "en": "That dog outside is howling again.",
+      "spoken_features": [
+        "kat 对应方位介词 di",
+        "tu 是 itu 的口语缩略形式",
+        "lah 在此加强当下的感受",
+        "tak 对应 tidak",
+        "dah 对应 sudah"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Anjing kat luar tu meraung lagi lah. Kau dengar tak?",
+          "ms_standard": "Anjing di luar itu meraung lagi. Adakah kamu mendengarnya?",
+          "zh": "外面那只狗又在嚎了。你听见了吗？",
+          "en": "That dog outside is howling again. Can you hear it?"
+        },
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Dengar. Aku dah mesej pemiliknya, dia nak datang tengok.",
+          "ms_standard": "Ya, saya mendengarnya. Saya sudah menghantar mesej kepada pemiliknya, dan dia hendak datang memeriksa keadaan anjing itu.",
+          "zh": "听见了。我已经给狗主人发消息，他说要过来看看。",
+          "en": "Yes. I've messaged the owner, and they're coming to check on it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries place meraung under raung, the name for a loud, prolonged cry. Adding the verbal prefix produces the action of making that sound. The recorded meanings connect animal howling with human wailing, so the word is best remembered through its sustained sound and emotional force rather than as a synonym for ordinary crying.",
+    "cognitive_memory_aid": "把 raung 的 au 拉长，想象‘嗷——’；加 me- 成 meraung，就是发出长嚎或放声号哭。这个联想是记忆法，不是已证实的词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对丧亲者或受伤者，应体谅其痛苦；直接说对方 meraung 可能显得生硬。安慰当事人时，描述需要或感受通常比评价其哭声更合适。",
+    "usage_etiquette": "适合描述动物长嚎、明显的痛苦哭喊及文学场景。不要用它嘲笑悲伤者；普通流泪用 menangis 更准确。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对丧亲者或受伤者，应体谅其痛苦；直接说对方 meraung 可能显得生硬。安慰当事人时，描述需要或感受通常比评价其哭声更合适。",
+    "usage_etiquette": "适合描述动物长嚎、明显的痛苦哭喊及文学场景。不要用它嘲笑悲伤者；普通流泪用 menangis 更准确。"
+  }
+}
