@@ -1,0 +1,158 @@
+{
+  "headword": {
+    "word": "dakwa",
+    "syllables": null,
+    "ipa": "[daʔ.wa]",
+    "jawi": "دعوا",
+    "frequency_rank": 9268,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dakwa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dakwa → dakwa",
+    "pattern_note": "本词无马来语词缀；加 meN- 时成为 mendakwa，加 peN- 时成为 pendakwa，词首 d 保留。DBP 所列读音也包括 [daʕ.wa]。",
+    "word_family": [
+      {
+        "word": "mendakwa",
+        "affix": "meN-",
+        "gloss": "起诉；声称"
+      },
+      {
+        "word": "dakwaan",
+        "affix": "-an",
+        "gloss": "指控；说法"
+      },
+      {
+        "word": "pendakwa",
+        "affix": "peN-",
+        "gloss": "起诉方；检控人员"
+      },
+      {
+        "word": "pendakwaan",
+        "affix": "peN-...-an",
+        "gloss": "检控；起诉行为"
+      },
+      {
+        "word": "didakwa",
+        "affix": "di-",
+        "gloss": "被起诉；据称"
+      }
+    ],
+    "root_jawi": "دعوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "向法院提出的申诉、诉求或指控。",
+      "en_definition": "A complaint, claim, or accusation brought before a court.",
+      "ms_definition": "Aduan, tuntutan atau tuduhan yang dikemukakan di mahkamah.",
+      "nuances": "这是 DBP 所列基本义。现代完整行文中，表达具体指控常用 dakwaan，表达起诉行为常用 pendakwaan；kena dakwa 常见于口语。不要与表示宗教宣教的 dakwah 混淆。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=DAKWA)",
+      "collocations": [
+        {
+          "ms": "kena dakwa",
+          "zh": "被起诉",
+          "en": "be prosecuted"
+        },
+        {
+          "ms": "dakwa-dakwi",
+          "zh": "种种申诉或指控",
+          "en": "various complaints or accusations"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "声称；宣称某事属实，但该说法未必已经证实。",
+      "en_definition": "To claim or allege that something is true.",
+      "ms_definition": "Dalam penggunaan ringkas, mengatakan sesuatu sebagai benar; bentuk berimbuhnya ialah mendakwa.",
+      "nuances": "此处是口语或新闻标题中 mendakwa 的无前缀形式，不是把基本名词义直接等同于所有动词用法。正式完整叙述通常用 mendakwa。声称可能属实，也可能有争议；该词本身不表示已经证实或必定虚假。[马来西亚皇家警察用例](https://www.rmp.gov.my/arkib-berita/keratan-akhbar/2017/02/01/dakwa-diculik-kerana-takut-kena-marah)",
+      "collocations": [
+        {
+          "ms": "dakwa tidak bersalah",
+          "zh": "声称自己无辜",
+          "en": "claim to be innocent"
+        },
+        {
+          "ms": "dakwa sudah membayar",
+          "zh": "声称已经付款",
+          "en": "claim to have paid"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "起诉；把某人或某项指控提交法院审理。",
+      "en_definition": "To prosecute someone or bring a charge before a court.",
+      "ms_definition": "Membawa seseorang atau sesuatu tuduhan ke mahkamah untuk dibicarakan; lazimnya mendakwa dalam ayat penyata aktif.",
+      "nuances": "无前缀形式可见于祈使句、口语和标题；正式主动陈述通常使用 mendakwa。与上一义的区别在于是否涉及司法起诉，不能把一般的声称一律译为 prosecute。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=DAKWA)",
+      "collocations": [
+        {
+          "ms": "dakwa di mahkamah",
+          "zh": "向法院提起诉讼",
+          "en": "prosecute in court"
+        },
+        {
+          "ms": "dakwa atas tuduhan menipu",
+          "zh": "以诈骗指控起诉",
+          "en": "prosecute on a charge of cheating"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：正式报道某方说法",
+      "ms": "Syarikat itu mendakwa bahawa semua bayaran telah dijelaskan, namun perkara tersebut masih dalam semakan.",
+      "zh": "该公司声称所有款项均已结清，但此事仍在核查中。",
+      "en": "The company claims that all payments have been settled, but the matter remains under review."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：核对付款说法",
+      "ms_spoken": "Dia dakwa dah bayar, tapi resit pun tak ada.",
+      "ms_standard": "Dia mendakwa bahawa dia sudah membayar, tetapi tiada resit.",
+      "zh": "他说已经付钱了，可连收据都没有。",
+      "en": "He says he's already paid, but there's no receipt.",
+      "spoken_features": [
+        "dakwa 对应正式主动形式 mendakwa。",
+        "dah 对应 sudah，tak 对应 tidak。",
+        "pun 在此加强“连收据也没有”的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dia dakwa dah bayar semalam. Kau dah semak ke?",
+          "ms_standard": "Dia mendakwa bahawa dia sudah membayar semalam. Adakah awak sudah menyemaknya?",
+          "zh": "他说昨天就付了。你查过了吗？",
+          "en": "He says he paid yesterday. Have you checked?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum, aku nak semak dulu. Minta resit kat dia jap.",
+          "ms_standard": "Belum. Saya hendak menyemaknya dahulu. Tolong minta resit daripadanya sebentar.",
+          "zh": "还没，我先查一下。你先找他要张收据。",
+          "en": "Not yet. I'll check first. Could you ask him for the receipt?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dakwa is traced to Arabic daʿwā, a claim or lawsuit. Malay treats the borrowed word as a base for its own productive morphology: mendakwa names an action, pendakwa an agent, and dakwaan a claim. The resulting family connects courtroom accusations with everyday assertions while keeping their meanings dependent on context. [Etymological reference](https://en.wiktionary.org/wiki/dakwa)",
+    "cognitive_memory_aid": "记成“dakwa：把一个说法摆出来”：摆到法院是起诉，摆到谈话里是声称；再看上下文判断有没有司法程序。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Awak dakwa… 容易带出质疑或对立语气。需要中性转述时，可根据事实采用 menurut beliau 或 beliau menyatakan。",
+    "usage_etiquette": "新闻、争议讨论及司法语境都可使用，但必须区分“某人声称”“某人被起诉”和“某人已被判有罪”。引述指控时应清楚交代说法来自谁。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Awak dakwa… 容易带出质疑或对立语气。需要中性转述时，可根据事实采用 menurut beliau 或 beliau menyatakan。",
+    "usage_etiquette": "新闻、争议讨论及司法语境都可使用，但必须区分“某人声称”“某人被起诉”和“某人已被判有罪”。引述指控时应清楚交代说法来自谁。"
+  }
+}

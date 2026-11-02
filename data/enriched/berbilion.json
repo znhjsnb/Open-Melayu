@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "berbilion",
+    "syllables": "ber.bi.lion",
+    "ipa": "/bər.bi.li.on/",
+    "jawi": "بربيليون",
+    "frequency_rank": 9253,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bilion",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + bilion → berbilion",
+    "pattern_note": "ber- 接数量词表示若干个该数量单位；bilion 的首辅音 b 保留，不发生鼻音替换。音标采用元音分读形式，连读可更紧凑。",
+    "word_family": [
+      {
+        "word": "bilion",
+        "affix": "∅",
+        "gloss": "十亿；旧式长级差用法另有所指"
+      },
+      {
+        "word": "berbilion-bilion",
+        "affix": "ber- + 词根重叠",
+        "gloss": "数十亿；以十亿计"
+      }
+    ],
+    "root_jawi": "بيليون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "数十亿的；以十亿计的，表示若干个十亿或非常庞大的数量，不指定确切数值。",
+      "en_definition": "Amounting to several billion; numbering in the billions.",
+      "ms_definition": "Beberapa bilion, beberapa banyak bilion.",
+      "nuances": "实际语法类别是 kata bilangan tak tentu（不定数词）；受给定词性枚举限制，pos 暂映射为 adjective。现代数量表达通常以 satu bilion = 1,000,000,000 理解，中文为“十亿”，不可误译为“一亿”。DBP 较早释义还记录 10¹² 的旧英国用法，阅读历史文献应核对计数体系。berbilion-bilion 是常见重叠形式。[DBP：bilion 与 berbilion](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bilion)；[DBP：数学术语中的 bilion](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=bilion)",
+      "collocations": [
+        {
+          "ms": "berbilion ringgit",
+          "zh": "数十亿令吉",
+          "en": "billions of ringgit"
+        },
+        {
+          "ms": "berbilion dolar",
+          "zh": "数十亿美元",
+          "en": "billions of dollars"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 职场项目汇报",
+      "ms": "Projek infrastruktur itu dijangka menelan belanja berbilion ringgit sepanjang tempoh pelaksanaannya.",
+      "zh": "该基础设施项目在整个实施期间预计耗资数十亿令吉。",
+      "en": "The infrastructure project is expected to cost billions of ringgit over its implementation period."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论新闻",
+      "ms_spoken": "Projek tu makan belanja berbilion ringgit, kan?",
+      "ms_standard": "Projek itu menelan belanja berbilion ringgit, bukan?",
+      "zh": "那个项目要花数十亿令吉，对吧？",
+      "en": "That project costs billions of ringgit, right?",
+      "spoken_features": [
+        "tu 对应 itu",
+        "makan belanja 是较口语化的耗资表达",
+        "kan 用于请求确认"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku baru baca berita ni. Projek tu makan belanja berbilion ringgit, kan?",
+          "ms_standard": "Saya baru membaca berita ini. Projek itu menelan belanja berbilion ringgit, bukan?",
+          "zh": "我刚看到这条新闻。那个项目要花数十亿令吉，对吧？",
+          "en": "I just read this story. That project costs billions of ringgit, right?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ya, tapi aku nak semak angka sebenar dulu. Tajuk berita tu ringkas je.",
+          "ms_standard": "Ya, tetapi saya mahu menyemak angka sebenar terlebih dahulu. Tajuk berita itu hanya memberikan maklumat ringkas.",
+          "zh": "对，不过我想先查一下具体数字，标题写得很简略。",
+          "en": "Yes, but I want to check the actual figure first. The headline doesn't give much detail."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Berbilion shows how Malay builds an indefinite quantity from a numerical base: ber- combines with bilion to express billions. DBP also records berbilion-bilion. Its dictionary material preserves the older contrast between billion as a million million and as a thousand million, explaining why historical figures sometimes require careful interpretation. [DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bilion)",
+    "cognitive_memory_aid": "bilion 是“十亿”；加 ber- 就想到“一批批十亿”，即数十亿。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "该词本身语域中性，适合新闻、商务与日常讨论；汇报预算时附上币种、时间范围及确切数字会更清楚。",
+    "usage_etiquette": "口语可用来强调规模庞大；正式报告中，已知具体金额时宜直接写明，例如 RM3 bilion，避免让概数量词承担精确数值的功能。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "该词本身语域中性，适合新闻、商务与日常讨论；汇报预算时附上币种、时间范围及确切数字会更清楚。",
+    "usage_etiquette": "口语可用来强调规模庞大；正式报告中，已知具体金额时宜直接写明，例如 RM3 bilion，避免让概数量词承担精确数值的功能。"
+  }
+}

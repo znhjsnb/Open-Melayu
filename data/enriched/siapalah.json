@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "siapalah",
+    "syllables": "sia.pa.lah",
+    "ipa": "/si.a.pa.lah/",
+    "jawi": "سياڤا",
+    "frequency_rank": 9245,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "siapa",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "siapa + -lah → siapalah",
+    "pattern_note": "-lah 是连写的强调附着词，并非派生后缀；此处 suffix 仅表示后附位置，无词根音变。音节据词根补全。headword.jawi 按输入保留，其实只写了 siapa；完整 siapalah 应写作 سياڤاله。",
+    "word_family": [
+      {
+        "word": "siapakah",
+        "affix": "-kah",
+        "gloss": "谁；带疑问附着词的形式"
+      },
+      {
+        "word": "sesiapa",
+        "affix": "重叠缩合",
+        "gloss": "任何人；某个人"
+      }
+    ],
+    "root_jawi": "سياڤا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "究竟是谁；到底是谁。用于带有惊讶、纳闷、感叹或反问语气的问人表达。",
+      "en_definition": "Who on earth; who could it be, expressing wonder, surprise, or rhetorical emphasis.",
+      "ms_definition": "Bentuk siapa dengan partikel penegas -lah untuk menanyakan orang dengan nada hairan, tertanya-tanya atau retorik.",
+      "nuances": "完整结构是疑问代词 siapa 加强调附着词 -lah；受给定词性枚举限制，此处以 particle 标示其附着词构式，并不表示整个词是独立语气词。-lah 不等于疑问标记 -kah，中性正式询问一般用 siapakah。不能将 siapa 的所有泛指用法直接移植到 siapalah。[DBP：siapalah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=siapalah)。",
+      "collocations": [
+        {
+          "ms": "siapalah yang",
+          "zh": "究竟是谁……",
+          "en": "who on earth ..."
+        },
+        {
+          "ms": "siapalah agaknya",
+          "zh": "不知道究竟是谁",
+          "en": "who could it possibly be"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "我／我们算什么人；我／我们哪有资格。用于反问式自谦、表达无力感或质疑自身地位。",
+      "en_definition": "Who am I, or who are we, to claim importance, authority, or entitlement?",
+      "ms_definition": "Bentuk retorik yang mempersoalkan kedudukan atau kelayakan diri, lazimnya untuk merendah diri atau menyatakan rasa tidak berdaya.",
+      "nuances": "这是 siapalah 在特定句式中的语用效果，并非新的指人对象。siapalah saya 可以真诚自谦，也可以表达委屈或讽刺；语境决定语气。[DBP 的翻译示例](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=siapalah)。",
+      "collocations": [
+        {
+          "ms": "siapalah saya",
+          "zh": "我算什么人呢",
+          "en": "who am I"
+        },
+        {
+          "ms": "siapalah kita untuk",
+          "zh": "我们哪有资格……",
+          "en": "who are we to ..."
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 颁奖致辞引语",
+      "ms": "Dalam ucapan penerimaannya, beliau berkata, \"Tanpa sokongan pasukan ini, siapalah saya untuk menerima penghargaan sebesar ini?\"",
+      "zh": "他在获奖致辞中说：“没有这个团队的支持，我又何德何能获得如此高的荣誉？”",
+      "en": "In his acceptance speech, he said, \"Without this team's support, who am I to receive such a great honour?\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友猜测送礼者",
+      "ms_spoken": "Siapalah yang letak hadiah ni kat meja aku, ya?",
+      "ms_standard": "Siapalah yang meletakkan hadiah ini di atas meja saya?",
+      "zh": "到底是谁把这份礼物放我桌上了呀？",
+      "en": "I wonder who left this present on my desk.",
+      "spoken_features": [
+        "ni 对应 ini，kat 对应 di",
+        "letak 省略 meletakkan 的词缀",
+        "aku 用于熟人之间，正式表达可改为 saya",
+        "句末 ya 表示自言自语式揣测"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Siapalah yang letak hadiah ni kat meja aku, ya?",
+          "ms_standard": "Siapalah yang meletakkan hadiah ini di atas meja saya?",
+          "zh": "到底是谁把这份礼物放我桌上了呀？",
+          "en": "I wonder who left this present on my desk."
+        },
+        {
+          "speaker": "Farid (朋友)",
+          "ms_spoken": "Entahlah, aku pun baru je sampai. Cuba tengok kad tu.",
+          "ms_standard": "Saya tidak tahu; saya juga baru sahaja sampai. Cuba lihat kad itu.",
+          "zh": "不知道啊，我也刚到。看看那张卡片呗。",
+          "en": "No idea—I only just got here too. Have a look at the card."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Siapalah is built from siapa and the attached emphatic particle lah, rather than borrowed as an indivisible word. Malay uses this construction to turn a question about identity into wondering, protest, or modest self-questioning. Dictionary guidance documents rhetorical examples, but does not establish a date or a particular historical event for the construction's origin. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=siapalah).",
+    "cognitive_memory_aid": "siapa＝谁，后面贴上 lah，就像给“谁”加上感叹声：究竟是谁呀？siapalah saya 则是“我又算谁呢？”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "siapalah saya 常用于自谦，但对他人说 siapalah awak 可能带有“你算老几”的轻蔑意味，容易冒犯。",
+    "usage_etiquette": "适合感叹、修辞性发言及熟人聊天。办理登记、核实身份或正式提问时，优先用 siapakah，并配合 Encik、Puan 等合适称呼。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "siapalah saya 常用于自谦，但对他人说 siapalah awak 可能带有“你算老几”的轻蔑意味，容易冒犯。",
+    "usage_etiquette": "适合感叹、修辞性发言及熟人聊天。办理登记、核实身份或正式提问时，优先用 siapakah，并配合 Encik、Puan 等合适称呼。"
+  }
+}

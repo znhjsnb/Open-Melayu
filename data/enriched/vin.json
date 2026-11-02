@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "vin",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 9271,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "vin",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + vin → vin；若指车辆识别号码，规范形式为 VIN",
+    "pattern_note": "原始词项身份未确定。车辆术语 VIN 是英语首字母缩略语，不按马来语词缀拆分；其读法不能直接用于所有 vin。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "若原文属于车辆语境且 vin 是 VIN 的小写形式，则指车辆识别号码，即用于识别特定车辆的编码。",
+      "en_definition": "In automotive contexts, a possible lowercase rendering of VIN: a code identifying an individual vehicle.",
+      "ms_definition": "Dalam konteks automotif, kemungkinan bentuk huruf kecil bagi VIN, iaitu singkatan Vehicle Identification Number: kod pengenalan bagi sesebuah kenderaan.",
+      "nuances": "这是有来源支持的条件性释义，尚不能确定为输入词项的实际含义。马来西亚车辆资料使用大写 VIN；不能据此把小写 vin 认定为正式马来语普通词。马来文释义为编辑释义，并非 DBP 原文。[PROTON 马来文车主手册](https://cms-assets.proton.com/proton-cms-blob/media/lxkjkdpx/x90_owners_manual_sept2024_compressed.pdf)",
+      "collocations": [
+        {
+          "ms": "nombor pengenalan kenderaan (VIN)",
+          "zh": "车辆识别号码",
+          "en": "vehicle identification number (VIN)"
+        },
+        {
+          "ms": "semakan VIN",
+          "zh": "车辆识别号码核查",
+          "en": "VIN check"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 车辆资料核查；仅适用于 VIN 这一解释",
+      "ms": "Sila pastikan VIN pada kenderaan sepadan dengan nombor yang tercatat dalam dokumen.",
+      "zh": "请确认车辆上的识别号码与文件中记载的号码一致。",
+      "en": "Please ensure that the vehicle's VIN matches the number recorded in the documents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论查看二手车；仅适用于 VIN 这一解释",
+      "ms_spoken": "Kau dah semak VIN kereta tu?",
+      "ms_standard": "Adakah kamu sudah menyemak VIN kereta itu?",
+      "zh": "你查过那辆车的车辆识别号码了吗？",
+      "en": "Have you checked that car's VIN?",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "tu 是 itu 的口语形式。",
+        "kau 适用于关系熟悉的平辈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah semak VIN kereta tu?",
+          "ms_standard": "Adakah kamu sudah menyemak VIN kereta itu?",
+          "zh": "你查过那辆车的车辆识别号码了吗？",
+          "en": "Have you checked that car's VIN?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum, aku nak semak petang ni.",
+          "ms_standard": "Belum, saya hendak menyemaknya pada petang ini.",
+          "zh": "还没，我打算今天下午查。",
+          "en": "Not yet. I'm going to check it this afternoon."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The automotive abbreviation VIN comes from the English phrase Vehicle Identification Number. Malaysian vehicle documentation uses it alongside Malay terminology for vehicle identification. This explains an established uppercase technical form, but it does not establish the origin or identity of the lowercase token supplied here. [JPJ vehicle documentation](https://www.jpj.gov.my/wp-content/uploads/2022/04/Garis-Panduan-VTA.pdf)",
+    "cognitive_memory_aid": "若语境是汽车，就把 VIN 联想成车辆的身份证号码；脱离语境时，不要给 vin 强行绑定此义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在车辆业务沟通中，首次出现可写 nombor pengenalan kenderaan (VIN)，方便不熟悉英语缩略语的人理解。",
+    "usage_etiquette": "技术文件保留大写 VIN。若 vin 实际是人名、外语词或其他标识，应依原文另行判定。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在车辆业务沟通中，首次出现可写 nombor pengenalan kenderaan (VIN)，方便不熟悉英语缩略语的人理解。",
+    "usage_etiquette": "技术文件保留大写 VIN。若 vin 实际是人名、外语词或其他标识，应依原文另行判定。"
+  }
+}

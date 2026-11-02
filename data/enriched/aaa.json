@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "aaa",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 9256,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "aaa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + aaa → aaa（非规范语音记录）",
+    "pattern_note": "连续字母可表示声音延长，不能直接分析成三个音节。若记录拖长的 a 音，可近似实现为 [aː]，但没有可由该字符串唯一确定的标准 IPA。is_root 沿用数据包，仅表示未分析出词缀。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "非规范的语音记录形式，可用于表示说话者犹豫、思考或寻找措辞时发出的拖长填充音，近似“呃……”。",
+      "en_definition": "An informal transcription of a drawn-out hesitation sound used while thinking or searching for words.",
+      "ms_definition": "Ejaan tidak baku yang boleh mewakili bunyi pengisi ketika penutur teragak-agak atau mencari perkataan.",
+      "nuances": "此处暂按话语粒子归类，实际更接近填充音，不是已确认的规范词条。数据包没有 DBP 释义、标准音节或爪夷文，不能据此标记为 official。研究转写中可见其作为填充音出现；这不证明其具有固定词义。“yes”和“I”的提示不足以建立“是”或“我”的义项；也不应自动等同于大写缩写 AAA。以下搭配是示例性话语组合，并非已核实的高频固定搭配。[UPSI：访谈转写实例](https://ejournal.upsi.edu.my/index.php/JPB/article/download/7197/3704/32781)",
+      "collocations": [
+        {
+          "ms": "aaa… sekejap",
+          "zh": "呃……等一下",
+          "en": "um… one moment"
+        },
+        {
+          "ms": "aaa… saya rasa",
+          "zh": "呃……我觉得",
+          "en": "um… I think"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Bunyi pengisi seperti “aaa” digugurkan daripada transkrip suntingan untuk meningkatkan kejelasan.",
+      "zh": "为使表述更清晰，编辑后的转写稿删去了“aaa”等填充音。",
+      "en": "Fillers such as “aaa” were removed from the edited transcript to improve clarity."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aaa… saya nak semak dulu, jap ya.",
+      "ms_standard": "Saya hendak menyemaknya terlebih dahulu. Tunggu sebentar, ya.",
+      "zh": "呃……我先查一下，等一下哈。",
+      "en": "Um… let me check first. Give me a second.",
+      "spoken_features": [
+        "aaa… 模拟思考时拖长的填充音，时长和音质依说话者而异。",
+        "nak 对应 hendak；jap 对应 sekejap 或 sebentar。",
+        "ya 在此用于软化让对方等待的请求。",
+        "标准改写省去填充音，保留实际交际内容。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Awak dah hantar fail tu?",
+          "ms_standard": "Adakah awak sudah menghantar fail itu?",
+          "zh": "那个文件你发了吗？",
+          "en": "Have you sent that file yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aaa… belum lagi. Saya nak semak satu benda dulu, jap ya.",
+          "ms_standard": "Belum. Saya hendak menyemak satu perkara terlebih dahulu. Tunggu sebentar, ya.",
+          "zh": "呃……还没。我想先核对一件事，等一下哈。",
+          "en": "Um… not yet. I need to check one thing first. Give me a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Unlike a conventional dictionary headword, aaa can be a writer's attempt to capture a hesitation sound. Repeating the letter suggests duration rather than a new grammatical formation. Such spellings occur in speech transcripts, but their interpretation depends on the recording and context. The supplied evidence does not establish a historical borrowing, standardized pronunciation, or separate meanings equivalent to yes or I.",
+    "cognitive_memory_aid": "看到拖长的 aaa…，想象说话者拉长“啊／呃”来争取思考时间；这是记忆提示，不是固定读音规则。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "偶尔出现的填充音通常只是自然犹豫。正式邮件宜直接表达“请稍候”或“我先核实”，不把 aaa 当作规范书面词。",
+    "usage_etiquette": "适合忠实转写语音或模仿随意聊天。判断其情绪和功能须看语境，不能仅凭字母重复认定为赞同、惊叫或不耐烦。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "偶尔出现的填充音通常只是自然犹豫。正式邮件宜直接表达“请稍候”或“我先核实”，不把 aaa 当作规范书面词。",
+    "usage_etiquette": "适合忠实转写语音或模仿随意聊天。判断其情绪和功能须看语境，不能仅凭字母重复认定为赞同、惊叫或不耐烦。"
+  }
+}
