@@ -1,0 +1,99 @@
+{
+  "headword": {
+    "word": "republik",
+    "syllables": null,
+    "ipa": "/reˈpublik/",
+    "jawi": "ريڤوبليک",
+    "frequency_rank": 6402,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "republik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + republik → republik",
+    "pattern_note": "这是整体借入的词根，re- 不是马来语前缀。首音节 e 为 /e/，不是 /ə/；DBP 标音节为 ré.pub.lik。原包 syllables 字段为空，故保留 null。kerepublikan 由 ke-...-an 构成。",
+    "word_family": [
+      {
+        "word": "kerepublikan",
+        "affix": "ke-...-an",
+        "gloss": "具有共和制特征的；共和性质"
+      }
+    ],
+    "root_jawi": "ريڤوبليک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "共和国：以人民通过所选代表行使权力为制度原则，并由总统担任国家元首的国家。",
+      "en_definition": "A republic: a state constitutionally based on popular authority exercised through elected representatives and headed by a president.",
+      "ms_definition": "Negara yang berasaskan kuasa rakyat melalui wakil yang dipilih oleh mereka serta diketuai oleh seorang presiden.",
+      "nuances": "释义概述 DBP 所列制度原则；国家名称带有 republik，不足以证明其实际政治运作符合民主原则。普通名词用小写；构成正式国名时用大写，如 Republik Indonesia。参见：[DBP PRPM：republik](https://prpm.dbp.gov.my/Cari1?d=351284&keyword=republik)。",
+      "collocations": [
+        {
+          "ms": "sebuah republik",
+          "zh": "一个共和国",
+          "en": "a republic"
+        },
+        {
+          "ms": "Republik Indonesia",
+          "zh": "印度尼西亚共和国",
+          "en": "the Republic of Indonesia"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公民教育 / 职场简报",
+      "ms": "Laporan itu menerangkan perbezaan antara sebuah republik dengan sebuah negara beraja.",
+      "zh": "该报告说明了共和国与君主制国家之间的区别。",
+      "en": "The report explains the difference between a republic and a monarchy."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论课堂内容",
+      "ms_spoken": "Republik tu maksudnya negara yang ada presiden ke?",
+      "ms_standard": "Adakah republik bermaksud negara yang diketuai oleh seorang presiden?",
+      "zh": "共和国是指由总统当国家元首的国家吗？",
+      "en": "Does a republic mean a country headed by a president?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式，此处用于引出话题。",
+        "句末 ke 构成口语是非问句，对应标准语的 adakah。",
+        "tak 对应 tidak。",
+        "dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同学)",
+          "ms_spoken": "Aku masih tak faham. Republik tu negara yang ada presiden ke?",
+          "ms_standard": "Saya masih tidak faham. Adakah republik ialah negara yang diketuai oleh seorang presiden?",
+          "zh": "我还是不太懂。共和国就是由总统当国家元首的国家吗？",
+          "en": "I still don't quite get it. Is a republic a country headed by a president?"
+        },
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Ya, tapi jangan tengok jawatan tu je. Cikgu dah terangkan pasal kuasa rakyat tadi.",
+          "ms_standard": "Ya, tetapi jangan hanya melihat jawatan itu. Guru sudah menerangkan perkara yang berkaitan dengan kuasa rakyat tadi.",
+          "zh": "对，不过别只看那个职位。老师刚才也讲了人民权力这一点。",
+          "en": "Yes, but there's more to it than the title. The teacher also explained the role of popular authority."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Republik belongs to an international political vocabulary ultimately associated with Latin res publica, meaning public affairs or the commonwealth. The expression directs attention to the community's affairs rather than a ruler's private possession. This explains a useful conceptual association, but the exact language through which the Malay form was borrowed is not established here. [Australian Parliament discussion](https://www.aph.gov.au/binaries/senate/pubs/pops/pop24/c01.pdf).",
+    "cognitive_memory_aid": "把 republik 与英语 republic、public 联想：国家事务属于公共事务。此为词族联想，不把 re- 当作马来语前缀。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性政治制度术语。讨论不同国家制度时宜采用说明语气，避免把共和国或君主制名称当作赞扬、贬低对方的标签。",
+    "usage_etiquette": "适合新闻、外交、公民教育及学术讨论。引用国名应遵循正式名称；不要仅凭名称推断某国的选举质量、自由程度或实际权力分配。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性政治制度术语。讨论不同国家制度时宜采用说明语气，避免把共和国或君主制名称当作赞扬、贬低对方的标签。",
+    "usage_etiquette": "适合新闻、外交、公民教育及学术讨论。引用国名应遵循正式名称；不要仅凭名称推断某国的选举质量、自由程度或实际权力分配。"
+  }
+}

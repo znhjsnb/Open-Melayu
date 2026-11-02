@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "mengganti",
+    "syllables": "meng.gan.ti",
+    "ipa": "/məŋ.ɡan.ti/",
+    "jawi": "مڠݢنتي",
+    "frequency_rank": 6382,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ganti",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + ganti → mengganti",
+    "pattern_note": "meN- 在词根首音 /ɡ/ 前实现为 meng- /məŋ/，词根的 g 保留，形成 /ŋɡ/；末尾 i 属于词根，不是后缀。",
+    "word_family": [
+      {
+        "word": "berganti",
+        "affix": "ber-",
+        "gloss": "更换；轮替"
+      },
+      {
+        "word": "pengganti",
+        "affix": "peN-",
+        "gloss": "替代者；替代品"
+      },
+      {
+        "word": "gantian",
+        "affix": "-an",
+        "gloss": "替代物；补替"
+      },
+      {
+        "word": "menggantikan",
+        "affix": "meN-…-kan",
+        "gloss": "替换；接替"
+      }
+    ],
+    "root_jawi": "ݢنتي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "更换；用另一个或新的事物替换原有事物。",
+      "en_definition": "To replace something with another or a new one.",
+      "ms_definition": "Menukar sesuatu dengan benda lain atau yang baharu.",
+      "nuances": "通常为及物动词：mengganti + 被更换物，后接 dengan 引出替代物。本义及下列两义据 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mengganti) 整理。",
+      "collocations": [
+        {
+          "ms": "mengganti tayar",
+          "zh": "更换轮胎",
+          "en": "to replace a tyre"
+        },
+        {
+          "ms": "mengganti atap yang bocor",
+          "zh": "更换漏水的屋顶",
+          "en": "to replace a leaking roof"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "赔还；以物品或金钱补偿遗失、损坏的东西或有关损失。",
+      "en_definition": "To make good a loss or damage through replacement or payment.",
+      "ms_definition": "Menyerahkan barang atau wang sebagai pampasan bagi kehilangan atau kerosakan.",
+      "nuances": "强调补偿已有损失，不只是买新东西。具体表达应说明赔还的物品、损失或费用。",
+      "collocations": [
+        {
+          "ms": "mengganti barang yang hilang",
+          "zh": "赔还遗失的物品",
+          "en": "to replace lost belongings"
+        },
+        {
+          "ms": "mengganti kerugian",
+          "zh": "赔偿损失",
+          "en": "to compensate for a loss"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "代替或接替某人履行职责、承担工作。",
+      "en_definition": "To take someone’s place in performing a duty or job.",
+      "ms_definition": "Mengambil tempat orang lain untuk melaksanakan pekerjaan atau tanggungjawabnya.",
+      "nuances": "既可指临时代班，也可指正式接任，须由上下文判断。menggantikan 与此义有重叠，不能机械地按临时与永久区分。",
+      "collocations": [
+        {
+          "ms": "mengganti rakan yang bercuti",
+          "zh": "替休假的同事代班",
+          "en": "to cover for a colleague on leave"
+        },
+        {
+          "ms": "mengganti guru yang tidak hadir",
+          "zh": "代替缺席的教师授课",
+          "en": "to stand in for an absent teacher"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan akan mengganti semua peralatan yang rosak dengan peralatan baharu.",
+      "zh": "管理层将用新设备更换所有损坏的设备。",
+      "en": "Management will replace all damaged equipment with new equipment."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku boleh mengganti kau esok, tapi sampai tengah hari je lah.",
+      "ms_standard": "Saya boleh mengganti awak esok, tetapi hanya sehingga tengah hari.",
+      "zh": "明天我可以替你，不过只能顶到中午哦。",
+      "en": "I can cover for you tomorrow, but only until noon.",
+      "spoken_features": [
+        "aku、kau：熟人或关系亲近的同事之间使用。",
+        "je 对应 sahaja；lah 在此缓和限制条件。",
+        "mengganti 可保留完整形式；随意口语中也常简化为 ganti。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Aku boleh mengganti kau esok, tapi sampai tengah hari je lah.",
+          "ms_standard": "Saya boleh mengganti awak esok, tetapi hanya sehingga tengah hari.",
+          "zh": "明天我可以替你，不过只能顶到中午哦。",
+          "en": "I can cover for you tomorrow, but only until noon."
+        },
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Boleh, terima kasih! Aku dah bagitahu penyelia tadi.",
+          "ms_standard": "Baik, terima kasih. Saya sudah memberitahu penyelia tadi.",
+          "zh": "行，谢谢！我刚才已经跟主管说了。",
+          "en": "That works, thanks! I’ve already told the supervisor."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mengganti combines the productive Malay prefix meN- with ganti. The Austronesian Comparative Dictionary reconstructs an ancestral form *ganti associated with replacement and returning something in kind. Related forms across several languages connect substitution with reciprocity. This provides historical context for the modern Malay senses of replacing an object, compensating for loss, and taking another person’s place. See the [comparative entry](https://ling.lll.hawaii.edu/dicts/ACD/acd-s_g.htm).",
+    "cognitive_memory_aid": "先记 ganti＝换；加上主动动词前缀 meN-，就是 mengganti＝进行更换、赔还或接替。读成 məŋ-gan-ti，g 不消失。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请求同事代班可说 Bolehkah encik atau puan mengganti saya…?；先说明时间和工作内容，再表达感谢。aku、kau 适合彼此接受这种称呼的熟人。",
+    "usage_etiquette": "正式沟通中说明被替换的对象、替代物或代班期限。谈论人事更替时直接说要换掉某人可能显得生硬，可用安排代班或职责交接的具体说法。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请求同事代班可说 Bolehkah encik atau puan mengganti saya…?；先说明时间和工作内容，再表达感谢。aku、kau 适合彼此接受这种称呼的熟人。",
+    "usage_etiquette": "正式沟通中说明被替换的对象、替代物或代班期限。谈论人事更替时直接说要换掉某人可能显得生硬，可用安排代班或职责交接的具体说法。"
+  }
+}

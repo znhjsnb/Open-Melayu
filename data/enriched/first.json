@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "first",
+    "syllables": "sso",
+    "ipa": "/fɜːst/",
+    "jawi": null,
+    "frequency_rank": 6311,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "first",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + first → first",
+    "pattern_note": "英语整词，在马来语夹语中使用，不作马来语词缀拆分。syllables 按要求保留输入 sso，但该值是无效音节数据；first 实际为一个音节。IPA 给出标准英式读音，美式常为 /fɝːst/。词族仅列英语构词。",
+    "word_family": [
+      {
+        "word": "firstly",
+        "affix": "-ly",
+        "gloss": "首先；英语派生词"
+      },
+      {
+        "word": "first-born",
+        "affix": null,
+        "gloss": "头生的；英语复合词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "第一的；最先的；在时间、次序或位置上排在其他对象之前的。",
+      "en_definition": "Coming before all others in time, order, or position.",
+      "ms_definition": "Yang pertama atau yang paling awal mengikut masa, urutan atau kedudukan.",
+      "nuances": "英语词，在马来语夹语中可对应 pertama。此处词性沿用英语词典分析；马来语对应词通常按序数功能分析。ms_definition 是马来语释义，不是虚构的《Kamus Dewan》马来语词条引文。status 的 official 仅按指定输出标签保留，不表示 first 已成为正式马来语词。[DBP 英马词典：first](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=PERTAMA)。",
+      "collocations": [
+        {
+          "ms": "first time",
+          "zh": "第一次；标准马来语 kali pertama",
+          "en": "the first time"
+        },
+        {
+          "ms": "first choice",
+          "zh": "首选；标准马来语 pilihan pertama",
+          "en": "first choice"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "先；首先；在其他人或其他行动之前。",
+      "en_definition": "Before anyone or anything else, or before doing something else.",
+      "ms_definition": "Lebih dahulu daripada yang lain atau sebelum melakukan perkara lain.",
+      "nuances": "夹语中的行动排序义通常对应 dahulu 或 terlebih dahulu；列举论点时可对应 pertama。以下 ms 搭配保留目标英语词，表示马来语夹语用法，并非规范马来语搭配。[DBP 英马词典：first](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=PERTAMA)。",
+      "collocations": [
+        {
+          "ms": "makan first",
+          "zh": "先吃；标准马来语 makan dahulu",
+          "en": "eat first"
+        },
+        {
+          "ms": "pergi first",
+          "zh": "先去；标准马来语 pergi dahulu",
+          "en": "go first"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "第一名；比赛中排名最前的位置，或获得该位置的人。",
+      "en_definition": "First place in a competition, or the person who takes it.",
+      "ms_definition": "Tempat pertama dalam pertandingan atau orang yang mendudukinya.",
+      "nuances": "在夹语得名次表达中可见；正式马来语用 tempat pertama 或 pemenang tempat pertama。此处只收与学习者常见夹语相关的名次义。[Merriam-Webster：first](https://www.merriam-webster.com/dictionary/first)。",
+      "collocations": [
+        {
+          "ms": "dapat first",
+          "zh": "拿到第一名；标准马来语 mendapat tempat pertama",
+          "en": "come first"
+        },
+        {
+          "ms": "first dalam kelas",
+          "zh": "班上第一名；标准马来语 tempat pertama dalam kelas",
+          "en": "first in the class"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 翻译与编辑汇报",
+      "ms": "Dalam terjemahan laporan itu, perkataan bahasa Inggeris “first” dipadankan dengan “pertama”.",
+      "zh": "在该报告的翻译中，英语 first 被译为 pertama。",
+      "en": "In the translation of the report, the English word “first” was rendered as “pertama”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友安排吃饭顺序",
+      "ms_spoken": "Kita makan first lah, lepas tu baru pergi.",
+      "ms_standard": "Kita makan dahulu, kemudian barulah kita pergi.",
+      "zh": "咱们先吃饭吧，吃完再走。",
+      "en": "Let's eat first, then head off.",
+      "spoken_features": [
+        "first 是英语夹语，对应 dahulu",
+        "lah 使提议更具口语互动感",
+        "lepas tu 对应 selepas itu 或 kemudian",
+        "dah 对应 sudah"
+      ],
+      "messages": [
+        {
+          "speaker": "Jason (朋友)",
+          "ms_spoken": "Kita makan first lah, aku dah lapar.",
+          "ms_standard": "Marilah kita makan dahulu kerana saya sudah lapar.",
+          "zh": "咱们先吃饭吧，我已经饿了。",
+          "en": "Let's eat first. I'm already hungry."
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Jom, makan kat kedai depan tu je.",
+          "ms_standard": "Mari kita makan di kedai di hadapan itu sahaja.",
+          "zh": "走，就去前面那家店吃吧。",
+          "en": "Sure, let's just eat at that place up ahead."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English first descends through Middle English from Old English fyrst, with related forms in other Germanic languages. Its long history belongs to English, rather than Malay word formation. In a mixed Malay sentence, the whole English word can express an order or priority for which standard Malay uses pertama or dahulu. [Merriam-Webster](https://www.merriam-webster.com/dictionary/first)",
+    "cognitive_memory_aid": "想象领奖台上的数字 1：first 修饰名次时记“第一”，安排动作时记“先”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "first 本身没有冒犯含义。与习惯英马夹语的朋友交流时可以使用；面向公众、正式客户或学校作文时，按语义换成 pertama、dahulu 或 terlebih dahulu。",
+    "usage_etiquette": "应考虑听者是否熟悉英语。正式例句只在翻译说明中引用该词；口语例句展示夹语。输入没有提供 Jawi，保留 null，不把未经核实的音译当作规范拼写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "first 本身没有冒犯含义。与习惯英马夹语的朋友交流时可以使用；面向公众、正式客户或学校作文时，按语义换成 pertama、dahulu 或 terlebih dahulu。",
+    "usage_etiquette": "应考虑听者是否熟悉英语。正式例句只在翻译说明中引用该词；口语例句展示夹语。输入没有提供 Jawi，保留 null，不把未经核实的音译当作规范拼写。"
+  }
+}

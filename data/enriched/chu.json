@@ -1,0 +1,105 @@
+{
+  "headword": {
+    "word": "chu",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 6289,
+    "status": "historical_variant"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "chu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + chu → chu（按输入作为独立词目）；亲属称谓中对应现代拼写 cu，与 bongsu 有关",
+    "pattern_note": "chu 在相关历史材料中对应现代 cu；ch 表示现代马来文 c 所代表的塞擦音 /tʃ/，不是 c 加独立的 h。相关亲属称谓可按 /tʃu/ 理解，但输入未提供词目级读音，因此不填入 headword.ipa。",
+    "word_family": [
+      {
+        "word": "cu",
+        "affix": null,
+        "gloss": "相关亲属称谓的现代拼写"
+      },
+      {
+        "word": "bongsu",
+        "affix": null,
+        "gloss": "兄弟姐妹中最年幼的；相关称谓的来源"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "在有文献记载的马来亲属称谓中，指排行最小者的称呼成分；对应现代拼写 cu，常与 pak 或 mak 连用，称父母一辈中排行最小的男性或女性亲属。",
+      "en_definition": "A historically attested spelling corresponding to cu, a kinship designation associated with the youngest sibling, especially in terms for a parent's youngest brother or sister.",
+      "ms_definition": "Varian ejaan yang tercatat dalam kajian istilah kekeluargaan bagi cu, iaitu panggilan yang berkaitan dengan anak bongsu, khususnya dalam panggilan pak cu dan mak cu.",
+      "nuances": "输入未提供 DBP 释义，不能把 chu 标为已核实的官方标准词目。此处仅收录研究文献支持的亲属称谓用法；马来文释义为编辑性概括，并非 DBP 原文。该解释不适用于所有人名或地名中的 Chu。以下为亲属称谓组合，不宣称其旧拼写具有已验证的高频率。[马来亲属称谓研究](https://brill.com/view/journals/bki/130/1/article-p44_3.pdf)；[DBP 关于 cu 等家庭称谓的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=cu)。",
+      "collocations": [
+        {
+          "ms": "Pak Chu",
+          "zh": "父母一辈中排行最小的叔舅辈男性；现代拼写 Pak Cu",
+          "en": "a parent's youngest brother; modern spelling Pak Cu"
+        },
+        {
+          "ms": "Mak Chu",
+          "zh": "父母一辈中排行最小的姑姨辈女性；现代拼写 Mak Cu",
+          "en": "a parent's youngest sister; modern spelling Mak Cu"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "亲属称谓研究 / 访谈报告；讨论历史拼写",
+      "ms": "Dalam kajian istilah kekeluargaan tersebut, bentuk chu dicatatkan sebagai panggilan yang berkaitan dengan kedudukan bongsu dalam keluarga.",
+      "zh": "在该亲属称谓研究中，chu 被记录为与家庭中排行最小这一身份有关的称呼。",
+      "en": "In that study of kinship terminology, chu is recorded as a designation associated with being the youngest sibling in a family."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人交流；示例假设该家庭惯用 Chu 这一拼写",
+      "ms_spoken": "Mak Chu dah sampai kat rumah.",
+      "ms_standard": "Mak Cu sudah sampai di rumah.",
+      "zh": "小姑／小姨已经到家了。",
+      "en": "Our youngest aunt has arrived at the house.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "nak 对应 hendak",
+        "je 对应 sahaja",
+        "Chu 为示例家庭沿用的称谓拼写；标准对应形式写作 Cu"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (表姐)",
+          "ms_spoken": "Mak Chu dah sampai kat rumah. Kau nak datang sekarang?",
+          "ms_standard": "Mak Cu sudah sampai di rumah. Adakah kamu hendak datang sekarang?",
+          "zh": "小姑／小姨已经到家了。你现在要过来吗？",
+          "en": "Our youngest aunt is here. Are you coming over now?"
+        },
+        {
+          "speaker": "Hakim (表弟)",
+          "ms_spoken": "Nak, aku jalan sekarang. Suruh Mak Chu tunggu sekejap je.",
+          "ms_standard": "Ya, saya akan bertolak sekarang. Minta Mak Cu menunggu sebentar sahaja.",
+          "zh": "要，我现在就出发。让小姑／小姨稍微等一下。",
+          "en": "Yes, I'm leaving now. Ask her to wait just a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay family address often identifies relatives by sibling order rather than personal name alone. A study of Malay kinship terminology records chu alongside su as shortened forms associated with bungsu, now commonly written bongsu. In this historical spelling, ch corresponds to modern c. The evidence supports this particular kinship use, without establishing every occurrence of Chu as the same word.",
+    "cognitive_memory_aid": "把 Chu 连到现代 Cu，再连到 bongsu“老幺”；Pak Cu、Mak Cu 就是叔舅辈、姑姨辈中的老幺称呼。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称呼长辈时，使用对方家庭惯用的 Pak Cu、Mak Cu 等完整称谓通常比直接叫名字更尊重。不要自行把长辈简称为 Chu。",
+    "usage_etiquette": "家庭称谓随地区和家庭习惯变化，应先听家人如何称呼。此类称谓不区分汉语的父系叔姑与母系舅姨，翻译时须依据亲属关系确定。人名中的 Chu 应保留本人采用的拼写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称呼长辈时，使用对方家庭惯用的 Pak Cu、Mak Cu 等完整称谓通常比直接叫名字更尊重。不要自行把长辈简称为 Chu。",
+    "usage_etiquette": "家庭称谓随地区和家庭习惯变化，应先听家人如何称呼。此类称谓不区分汉语的父系叔姑与母系舅姨，翻译时须依据亲属关系确定。人名中的 Chu 应保留本人采用的拼写。"
+  }
+}

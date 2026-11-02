@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "sehebat",
+    "syllables": null,
+    "ipa": "/sə.he.bat/",
+    "jawi": "هيبت",
+    "frequency_rank": 6326,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hebat",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + hebat → sehebat",
+    "pattern_note": "se- 在此表示程度相等，读 /sə/；词根 hébat 的 e 读 /e/，词首 h 保留。数据包所给 هيبت 是 hebat 的词根拼写；按 se- 加词根构成的完整形式应为 سهيبت，此处 headword.jawi 按要求保留输入值。",
+    "word_family": [
+      {
+        "word": "kehebatan",
+        "affix": "ke-...-an",
+        "gloss": "卓越；非凡程度；强大"
+      },
+      {
+        "word": "memperhebat",
+        "affix": "memper-",
+        "gloss": "加强；使更强烈"
+      }
+    ],
+    "root_jawi": "هيبت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "与比较对象同样出色、强大、惊人或猛烈；具体评价维度由语境决定。",
+      "en_definition": "As impressive, capable, powerful, or intense as the person or thing used for comparison.",
+      "ms_definition": "Sama hebat dengan seseorang atau sesuatu yang dijadikan bandingan, sama ada dari segi kebolehan, kekuatan, keistimewaan atau keamatan.",
+      "nuances": "se- 表示等比，不表示最高级；sehebat 与 terhebat 不同。比较对象通常直接接在词后，如 sehebat dahulu。输入释义属于词根 hebat，不能直接当作派生词的完整释义，也不应自动继承其古语“害怕”义。本条为依据词根及构词规则编写的释义；official 为指定数据标签，不表示整条已获 DBP 审定。[DBP 关于 se- 的说明](https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=se)",
+      "collocations": [
+        {
+          "ms": "sehebat dahulu",
+          "zh": "像从前一样出色或强大",
+          "en": "as impressive or formidable as before"
+        },
+        {
+          "ms": "tidak sehebat yang disangka",
+          "zh": "没有想象中那么厉害",
+          "en": "not as impressive as expected"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "用于 sehebat mana pun 等让步结构，表示无论多么出色或强大。",
+      "en_definition": "In a concessive construction, however impressive, capable, or powerful someone or something may be.",
+      "ms_definition": "Dalam binaan seperti sehebat mana pun, membawa pengertian walau bagaimana hebat sekalipun seseorang atau sesuatu itu.",
+      "nuances": "这是完整结构产生的让步用法，不是 sehebat 单独具有“无论”的意义。sehebat mana 也能询问程度；必须结合疑问语气、pun 和上下文判断。正式马来语演讲可见 sehebat mana pun 的用例。[马来西亚科技部演讲文本](https://www.mosti.gov.my/wp-content/uploads/repository/ucapan/05%20Timbalan%20Menteri/2013/Ogos%202013/26-OGOS-2013-MAJLIS-PERASMIAN-SEMINAR-KEBANGSAAN-TEKNOLOGI-MAKMAL-SKETMA.pdf)",
+      "collocations": [
+        {
+          "ms": "sehebat mana pun",
+          "zh": "无论多么厉害",
+          "en": "however impressive or capable"
+        },
+        {
+          "ms": "sehebat mana sekalipun",
+          "zh": "不管多么强大或出色",
+          "en": "no matter how powerful or impressive"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sehebat mana pun teknologi yang digunakan, latihan kakitangan tetap diperlukan untuk memastikan operasi berjalan lancar.",
+      "zh": "无论采用的技术多么先进，仍须培训员工，以确保运作顺畅。",
+      "en": "However advanced the technology used, staff training remains necessary to ensure smooth operations."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Saya nak main sehebat awak, tapi kena banyak berlatih lagi lah.",
+      "ms_standard": "Saya hendak bermain sehebat awak, tetapi saya masih perlu banyak berlatih.",
+      "zh": "我也想打得像你那么厉害，不过还得多练啊。",
+      "en": "I want to play as well as you, but I still need a lot more practice.",
+      "spoken_features": [
+        "nak 是 hendak 的口语形式",
+        "kena 在此表示必须或需要",
+        "lah 缓和语气",
+        "口语可省略后半句重复的主语"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (球友)",
+          "ms_spoken": "Saya nak main sehebat awak. Awak selalu latihan kat mana?",
+          "ms_standard": "Saya hendak bermain sehebat awak. Di manakah awak biasanya berlatih?",
+          "zh": "我也想打得像你那么厉害。你平时在哪儿练？",
+          "en": "I want to play as well as you. Where do you usually practise?"
+        },
+        {
+          "speaker": "Farah (球友)",
+          "ms_spoken": "Kat dewan dekat rumah je. Jom ikut saya esok!",
+          "ms_standard": "Saya berlatih di dewan berhampiran rumah sahaja. Marilah berlatih bersama saya esok!",
+          "zh": "就在我家附近的礼堂练。明天一起来吧！",
+          "en": "Just at the hall near my house. Come along tomorrow!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sehebat is formed within Malay from se- and hebat. In this construction, the prefix establishes equality of degree, allowing speakers to compare ability, power, intensity, or impressiveness. Malay can then extend that comparison into a concession with mana pun: even exceptional ability does not remove a limitation. No separate historical borrowing needs to be proposed for the complete form. [Formation: DBP](https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=se)",
+    "cognitive_memory_aid": "把 se- 联想到 sama，把 hebat 记成“厉害”：sehebat awak 就是“跟你一样厉害”，不是“最厉害”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于真诚赞美通常自然得体；说对方 tidak sehebat yang disangka 可能显得贬低。在职场宜说明评价的是哪项表现。",
+    "usage_etiquette": "适合比较能力、表现或力量。避免把含糊的人身比较当作客观评价；正式反馈可改为具体说明成果、技能或改进空间。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于真诚赞美通常自然得体；说对方 tidak sehebat yang disangka 可能显得贬低。在职场宜说明评价的是哪项表现。",
+    "usage_etiquette": "适合比较能力、表现或力量。避免把含糊的人身比较当作客观评价；正式反馈可改为具体说明成果、技能或改进空间。"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "jer",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 6288,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "jer",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + jer → jer；词典名词义：juru → jer（缩略）；马来西亚口语小品词义：sahaja → saja / aja → je / jer",
+    "pattern_note": "按输入保留独立词根 jer；两种意义来源不同，不能合并分析。口语中表示 sahaja 的 jer 通常不读词尾 r，可近似记为 /dʒə/；该读音不能直接套用于词典所载的名词义。",
+    "word_family": [
+      {
+        "word": "juru",
+        "affix": null,
+        "gloss": "专门从事某项工作的人；词典名词义的完整形式"
+      },
+      {
+        "word": "jurubatu",
+        "affix": null,
+        "gloss": "船上负责测量水深的船员；与 jer batu 对应"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "juru 的缩略形式，指从事某项专门工作的人；词典所举 jer batu 指船上负责测量水深的船员。",
+      "en_definition": "An Indonesian colloquial abbreviation of juru, a person performing a specialized task; in jer batu, a crew member who measures water depth.",
+      "ms_definition": "Id, bp kep juru; ~ batu jurubatu.",
+      "nuances": "这是输入词包对应的词典义。Id 表示印度尼西亚用语，bp 表示口语，kep 表示缩略。不能把 jer batu 解释为石匠，也不能把它当作马来西亚日常最常见的 jer。以下第二项为教学组合，未证实为高频搭配。[DBP：jer](https://prpm.dbp.gov.my/Search?k=jer)；[DBP：jurubatu](https://prpm.dbp.gov.my/Search?k=jurubatu)。",
+      "collocations": [
+        {
+          "ms": "jer batu",
+          "zh": "测深船员",
+          "en": "a crew member who measures water depth"
+        },
+        {
+          "ms": "tugas jer batu",
+          "zh": "测深船员的职责",
+          "en": "the duties of a crew member responsible for measuring water depth"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "sahaja 的非正式书写变体，表示“只、仅仅、而已”；也可随语境表达轻描淡写或使建议显得随意。",
+      "en_definition": "An informal spelling of je, meaning only, just, or merely, also used to downplay a statement or make a suggestion sound casual.",
+      "ms_definition": "Bentuk tulisan tidak formal bagi je, daripada sahaja, yang membawa maksud hanya atau semata-mata serta boleh memberikan nada bersahaja mengikut konteks.",
+      "nuances": "这是与名词缩略义不同的马来西亚口语用法，并非输入 DBP 定义的释义延伸。马来文释义为编辑性概括。通常紧随其限定的成分；正式写作一般改为 sahaja。语气有时也会显得敷衍，不能一概视为礼貌标记。[口语粒子研究](https://www.researchgate.net/publication/329851205_Utterance-final_particles_in_Klang_Valley_Malay)。",
+      "collocations": [
+        {
+          "ms": "itu jer",
+          "zh": "就那个而已",
+          "en": "just that"
+        },
+        {
+          "ms": "duduk jer",
+          "zh": "就坐着；坐着就好",
+          "en": "just sit"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "词典说明 / 编辑报告",
+      "ms": "Kamus Dewan merekodkan jer sebagai kependekan bagi juru dalam bahasa percakapan Indonesia.",
+      "zh": "《Kamus Dewan》收录 jer，说明它是印度尼西亚口语中 juru 的缩略形式。",
+      "en": "Kamus Dewan records jer as an Indonesian colloquial abbreviation of juru."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量用餐地点；使用小品词义",
+      "ms_spoken": "Kita makan kat sini jer.",
+      "ms_standard": "Kita makan di sini sahaja.",
+      "zh": "我们就在这儿吃吧。",
+      "en": "Let's just eat here.",
+      "spoken_features": [
+        "kat 对应标准语 di",
+        "jer 对应 sahaja，限定地点并使建议显得随意",
+        "dah 对应 sudah",
+        "nak 对应 hendak"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah lapar. Kita makan kat sini jer, boleh?",
+          "ms_standard": "Saya sudah lapar. Bolehkah kita makan di sini sahaja?",
+          "zh": "我都饿了。我们就在这儿吃，行吗？",
+          "en": "I'm hungry already. Can we just eat here?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, aku pun nak makan nasi jer.",
+          "ms_standard": "Boleh, saya juga hendak makan nasi sahaja.",
+          "zh": "行啊，我也就想吃点饭。",
+          "en": "Sure, I just want some rice too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Two different histories meet in the spelling jer. Kamus Dewan records an Indonesian conversational shortening of juru, illustrated by a maritime occupation. Malaysian informal writing also uses jer for je, a particle derived from sahaja through shortened forms such as saja and aja. These are separate lexical pathways: the shared spelling does not establish a shared origin.",
+    "cognitive_memory_aid": "聊天里的 jer：把 sahaja 缩成轻轻一声“而已”。遇到 jer batu，切换到职业义：juru → 测深船员。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友聊天可用 jer；面对客户、长辈或上司提出重要请求时，使用完整句和 sahaja 通常更稳妥。礼貌取决于整句话及语气。",
+    "usage_etiquette": "正式公文避免用小品词拼写 jer。表达 cuma itu jer 一类“就这样而已”时，应留意是否把对方的工作或困难说得过于轻微。词典名词义主要适合特定文本及词汇说明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友聊天可用 jer；面对客户、长辈或上司提出重要请求时，使用完整句和 sahaja 通常更稳妥。礼貌取决于整句话及语气。",
+    "usage_etiquette": "正式公文避免用小品词拼写 jer。表达 cuma itu jer 一类“就这样而已”时，应留意是否把对方的工作或困难说得过于轻微。词典名词义主要适合特定文本及词汇说明。"
+  }
+}
