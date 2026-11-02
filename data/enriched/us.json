@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "us",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 2660,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "us",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + us → us",
+    "pattern_note": "保留输入中的独立形式；缺少原句，无法确定是英语 us，还是经小写化处理的缩写 US。两者都不能按马来语词缀拆分。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "若原文为英语 us：第一人称复数宾格，意为“我们”；马来语根据是否包含听话人译作 kita 或 kami。",
+      "en_definition": "If the token is English us: the objective form of we, referring to the speaker and one or more other people.",
+      "ms_definition": "Jika bentuk ini ialah kata bahasa Inggeris us, maknanya ialah kita atau kami sebagai objek, bergantung pada sama ada pendengar termasuk dalam kumpulan tersebut.",
+      "nuances": "这是可能的英语来源解释，不能据此认定输入已经消歧，也不能列为已核实的马来语普通词。英语强读 /ʌs/，弱读 /əs/。英语词类为代词，因此使用 pronoun，避免误标为名词。以下为英语短语及马来语对应形式。参见 [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/us)。",
+      "collocations": [
+        {
+          "ms": "untuk kami",
+          "zh": "给我们；为我们（不含听话人）",
+          "en": "for us"
+        },
+        {
+          "ms": "antara kita",
+          "zh": "我们之间（包含听话人）",
+          "en": "between us"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "若原文为大写缩写 US：美国，即美利坚合众国；马来语通常称 Amerika Syarikat。",
+      "en_definition": "If the original token is uppercase US: an abbreviation for the United States.",
+      "ms_definition": "Jika bentuk asalnya ialah singkatan US, bentuk itu merujuk kepada Amerika Syarikat.",
+      "nuances": "US 与英语代词 us 必须区分；不能仅凭小写词频表确定此义。US 通常逐字母读作 /ˌjuːˈes/。以下搭配使用马来语国名。参见 [American Heritage Dictionary](https://www.ahdictionary.com/word/search.html?q=us)。",
+      "collocations": [
+        {
+          "ms": "Amerika Syarikat",
+          "zh": "美国",
+          "en": "the United States"
+        },
+        {
+          "ms": "dolar AS",
+          "zh": "美元",
+          "en": "US dollar"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；英语词语辨析",
+      "ms": "Dalam terjemahan ini, perkataan Inggeris us dipadankan dengan kami kerana pendengar tidak termasuk dalam kumpulan yang dimaksudkan.",
+      "zh": "在这份译文中，英语 us 译为 kami，因为所指群体不包含听话人。",
+      "en": "In this translation, the English word us is rendered as kami because the listener is not included in the group."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；讨论翻译",
+      "ms_spoken": "Us kat sini maksudnya kita ke kami?",
+      "ms_standard": "Adakah perkataan Inggeris us dalam ayat ini bermaksud kita atau kami?",
+      "zh": "这里的 us 是 kita 还是 kami 啊？",
+      "en": "Does us mean kita or kami here?",
+      "spoken_features": [
+        "us 是被讨论的英语词，不作为马来语代词使用。",
+        "kat sini 相当于 di sini。",
+        "ke 在此引出口语选择问句。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Us kat sini maksudnya kita ke kami?",
+          "ms_standard": "Adakah perkataan Inggeris us dalam ayat ini bermaksud kita atau kami?",
+          "zh": "这里的 us 是 kita 还是 kami 啊？",
+          "en": "Does us mean kita or kami here?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Kami, sebab dia cakap pasal kumpulan dia je. Orang yang dengar tu tak termasuk.",
+          "ms_standard": "Padanannya ialah kami kerana dia hanya merujuk kepada kumpulannya sendiri. Pendengar tidak termasuk dalam kumpulan itu.",
+          "zh": "是 kami，因为他说的只是他们那一组，不包括听话的人。",
+          "en": "Kami, because he only means his own group. The person he's speaking to isn't included."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English us descends from Old English ūs, an object form associated with we. Uppercase US has a separate history as an abbreviation for United States. These distinct forms can become indistinguishable when a corpus converts everything to lowercase. The supplied packet contains no sentence that would establish which interpretation applies. See [American Heritage Dictionary](https://www.ahdictionary.com/word/search.html?q=us).",
+    "cognitive_memory_aid": "小写 us 想“我们”，大写 US 想“美国”；译成马来语时，再判断“我们”是否包含听话人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "翻译 us 时，kita 与 kami 的选择会表达是否把对方包括在内；邀请或团队沟通中尤其要准确。",
+    "usage_etiquette": "正式马来语按语境使用 kita、kami 或 Amerika Syarikat。原文缺失时保留歧义，不擅自认定为国家缩写、称谓或马来语词根。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "翻译 us 时，kita 与 kami 的选择会表达是否把对方包括在内；邀请或团队沟通中尤其要准确。",
+    "usage_etiquette": "正式马来语按语境使用 kita、kami 或 Amerika Syarikat。原文缺失时保留歧义，不擅自认定为国家缩写、称谓或马来语词根。"
+  }
+}

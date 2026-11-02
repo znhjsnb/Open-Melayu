@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "kedalam",
+    "syllables": null,
+    "ipa": "/kə da.lam/",
+    "jawi": null,
+    "frequency_rank": 2417,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dalam",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "ke + dalam → ke dalam；kedalam 为非规范连写",
+    "pattern_note": "ke 是表示方向的独立介词，dalam 是方位词，必须分写；这里的 ke 不是前缀 ke-。数据包将 kedalam 视为词根的标注不适用于实际语法分析。",
+    "word_family": [
+      {
+        "word": "dalaman",
+        "affix": "-an",
+        "gloss": "内部的；内部事务"
+      },
+      {
+        "word": "mendalami",
+        "affix": "meN-…-i",
+        "gloss": "深入学习；深入研究"
+      },
+      {
+        "word": "kedalaman",
+        "affix": "ke-…-an",
+        "gloss": "深度；深厚程度"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "preposition",
+      "zh_definition": "规范形式 ke dalam：向内部；进入某个空间，或朝某物内部移动。",
+      "en_definition": "Standard form ke dalam: into or towards the interior of something.",
+      "ms_definition": "Frasa ke dalam menunjukkan arah atau pergerakan menuju bahagian dalam sesuatu ruang atau tempat.",
+      "nuances": "强调方向或进入过程；di dalam 主要表示已经位于内部。ke dalam 可用于人进入房间，也可用于液体流入容器。kedalam 的连写不规范；它与正确派生词 kedalaman 不同。参见 [DBP：介词 ke 的分写及方向用法](https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=datang+ke+hadapan)。",
+      "collocations": [
+        {
+          "ms": "masuk ke dalam bilik",
+          "zh": "进入房间",
+          "en": "go into the room"
+        },
+        {
+          "ms": "tuang air ke dalam gelas",
+          "zh": "把水倒进杯中",
+          "en": "pour water into a glass"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "preposition",
+      "zh_definition": "规范形式 ke dalam：进入被理解为容纳空间的系统、数据库等；表示数据或其他内容的输入、添加或纳入。",
+      "en_definition": "Standard form ke dalam: into a system or other conceptual container, indicating insertion or incorporation.",
+      "ms_definition": "Frasa ke dalam menunjukkan kemasukan atau penambahan sesuatu ke ruang maya atau lingkungan yang dibayangkan sebagai tempat yang menampungnya.",
+      "nuances": "不局限于有形空间。memasukkan data ke dalam sistem 可以表示把数据输入系统；不能因此把所有抽象表达中的 dalam 都改成 ke dalam，仍须有进入或纳入的意义。参见 [DBP：ke dalam 用于数字及抽象空间](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menembusi)。",
+      "collocations": [
+        {
+          "ms": "memasukkan data ke dalam sistem",
+          "zh": "把数据输入系统",
+          "en": "enter data into the system"
+        },
+        {
+          "ms": "memasukkan rekod ke dalam pangkalan data",
+          "zh": "把记录录入数据库",
+          "en": "insert records into a database"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：采用规范分写 ke dalam",
+      "ms": "Semua maklumat permohonan telah dimasukkan ke dalam sistem untuk semakan lanjut.",
+      "zh": "所有申请资料均已录入系统，以供进一步审核。",
+      "en": "All application details have been entered into the system for further review."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Masuk ke dalam dulu lah, kat luar panas sangat.",
+      "ms_standard": "Masuklah ke dalam dahulu kerana cuaca di luar sangat panas.",
+      "zh": "先进去吧，外面太热了。",
+      "en": "Come inside first—it's really hot out.",
+      "spoken_features": [
+        "dulu 对应 dahulu",
+        "lah 在此缓和催促语气",
+        "kat 对应 di",
+        "省略可由语境确定的目的地，如 rumah"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku dah sampai kat depan rumah.",
+          "ms_standard": "Saya sudah sampai di hadapan rumah.",
+          "zh": "我到你家门口了。",
+          "en": "I'm outside your house."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Masuk ke dalam dulu lah, pintu tak berkunci. Aku nak turun kejap lagi.",
+          "ms_standard": "Masuklah ke dalam dahulu; pintu tidak berkunci. Saya akan turun sebentar lagi.",
+          "zh": "先进来吧，门没锁。我一会儿就下楼。",
+          "en": "Come on in—the door's unlocked. I'll be downstairs in a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ke dalam combines the direction marker ke with dalam, referring here to the interior. The same spatial pattern can describe entering a room or putting information into a digital system. Malaysian spelling preserves the boundary between these independent words. By contrast, kedalaman is a derived word with the circumfix ke-…-an, expressing depth or profundity.",
+    "cognitive_memory_aid": "ke 像向前的箭头，dalam 像容器内部：ke dalam 是“往里面去”，di dalam 是“已经在里面”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请客人进屋可说 Silakan masuk，更自然且尊重。熟人之间的 Masuk ke dalam dulu lah 较随意，适合已有邀请的情境。",
+    "usage_etiquette": "进入他人住宅、办公室或私人房间前应先获邀请。正式书写必须使用 ke dalam；口语中的连读不意味着文字可以连写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请客人进屋可说 Silakan masuk，更自然且尊重。熟人之间的 Masuk ke dalam dulu lah 较随意，适合已有邀请的情境。",
+    "usage_etiquette": "进入他人住宅、办公室或私人房间前应先获邀请。正式书写必须使用 ke dalam；口语中的连读不意味着文字可以连写。"
+  }
+}

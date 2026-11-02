@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "ketepi",
+    "syllables": null,
+    "ipa": "/kə.tə.pi/",
+    "jawi": null,
+    "frequency_rank": 2639,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tepi",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "ke + tepi → ke tepi；非规范连写形式：ketepi",
+    "pattern_note": "修正输入将 ketepi 标为独立词根的结果。表示方向时，ke 是介词而非前缀，应与 tepi 分写；tepi 的两个元音为 /ə/、/i/。在另一些口语或标题语境中，ketepi 可是 ketepikan／mengetepikan 的缩略表达，须依句法区分。",
+    "word_family": [
+      {
+        "word": "menepi",
+        "affix": "meN-",
+        "gloss": "移到旁边；靠边"
+      },
+      {
+        "word": "mengetepikan",
+        "affix": "meN-…-kan（以 ke tepi 为基础）",
+        "gloss": "移到一旁；搁置；排除"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "向旁边、边缘或一侧；规范拼写为 ke tepi。",
+      "en_definition": "To the side or edge; a nonstandard joined spelling of ke tepi.",
+      "ms_definition": "Ke arah bahagian tepi atau pinggir; ejaan bakunya ialah ke tepi.",
+      "nuances": "这是作方向状语的介词短语；受给定词性范围限制，此处以 adverb 表示其句法功能。表示去向用 ke tepi，表示所在位置用 di tepi。status 字段沿用指定格式，不表示认可 ketepi 这一方向短语的连写。参见 [DBP：ke tepi](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ke+tepi)。",
+      "collocations": [
+        {
+          "ms": "bergerak ke tepi",
+          "zh": "移到旁边",
+          "en": "move to the side"
+        },
+        {
+          "ms": "letak ke tepi",
+          "zh": "放到一旁",
+          "en": "put aside"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "在口语或压缩标题中，表示把某事搁置、不予考虑或排除。",
+      "en_definition": "In informal or compressed usage, to set aside, disregard, or exclude.",
+      "ms_definition": "Dalam penggunaan ringkas, mengetepikan atau tidak mengambil kira sesuatu.",
+      "nuances": "当后面直接接 perbezaan、ego 等宾语时，可理解为 ketepikan／mengetepikan 的缩略形式，不能简单按方向短语分写。正式写作应恢复相应完整动词。相关规范动词义参见 [DBP：mengetepikan](https://prpm.dbp.gov.my/Cari1?keyword=mengetepikan)。",
+      "collocations": [
+        {
+          "ms": "ketepi perbezaan",
+          "zh": "搁置分歧",
+          "en": "set differences aside"
+        },
+        {
+          "ms": "ketepi ego",
+          "zh": "放下自我与面子",
+          "en": "put one's ego aside"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公共场所通知；使用规范拼写 ke tepi",
+      "ms": "Orang ramai diminta bergerak ke tepi bagi memberi laluan kepada petugas kecemasan.",
+      "zh": "请公众移到旁边，让紧急救援人员通过。",
+      "en": "Members of the public are asked to move to the side to allow emergency personnel through."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友临时搬动物品",
+      "ms_spoken": "Tolong alih beg tu ketepi sikit, aku nak lalu.",
+      "ms_standard": "Tolong alihkan beg itu sedikit ke tepi kerana saya hendak lalu.",
+      "zh": "麻烦把那个包挪旁边一点，我要过去。",
+      "en": "Could you move that bag over a little? I need to get through.",
+      "spoken_features": [
+        "ketepi 在此是 ke tepi 的非规范连写，读音无须改变。",
+        "alih 在随意口语中对应较完整的 alihkan。",
+        "tu 对应 itu，nak 对应 hendak。",
+        "sikit 对应 sedikit；Tolong 用于缓和请求。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tolong alih beg tu ketepi sikit. Aku nak lalu ni.",
+          "ms_standard": "Tolong alihkan beg itu sedikit ke tepi kerana saya hendak lalu.",
+          "zh": "麻烦把那个包挪旁边一点，我要过去。",
+          "en": "Could you move that bag over a little? I need to get through."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Sekejap ya, aku letak kat bawah meja je.",
+          "ms_standard": "Tunggu sebentar, ya. Saya akan meletakkannya di bawah meja sahaja.",
+          "zh": "等一下啊，我放桌子底下就好。",
+          "en": "One second—I'll just put it under the table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The spatial noun tepi means an edge or side. Combined with directional ke, it forms ke tepi, a phrase whose standard spelling keeps the two words separate. Related mengetepikan extends physical movement into setting ideas or differences aside. The joined token ketepi therefore requires context: it can represent casual spelling or a shortened verbal expression, rather than one independent root.",
+    "cognitive_memory_aid": "ke＝“往”，tepi＝“边”：ke tepi＝“往旁边”。记住中间留一个空格，就像给别人让出一点位置。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接喊 Ketepi! 容易显得急躁或命令式。一般请求可说 Tolong ke tepi sedikit, ya 或 Maaf, boleh beri laluan?；紧急情况则可直接清楚地提醒。",
+    "usage_etiquette": "公共通知和正式文件应写 ke tepi；表达“搁置分歧”则用 mengetepikan perbezaan 或祈使形式 ketepikan perbezaan。不要把两种结构统一机械改成同一种拼写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接喊 Ketepi! 容易显得急躁或命令式。一般请求可说 Tolong ke tepi sedikit, ya 或 Maaf, boleh beri laluan?；紧急情况则可直接清楚地提醒。",
+    "usage_etiquette": "公共通知和正式文件应写 ke tepi；表达“搁置分歧”则用 mengetepikan perbezaan 或祈使形式 ketepikan perbezaan。不要把两种结构统一机械改成同一种拼写。"
+  }
+}

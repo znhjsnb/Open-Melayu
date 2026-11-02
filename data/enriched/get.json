@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "get",
+    "syllables": null,
+    "ipa": "/ɡet/",
+    "jawi": null,
+    "frequency_rank": 2458,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "get",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + get → get",
+    "pattern_note": "整词借入，单音节；e 为 é，即 /e/。马来语 get 对应英语 gate 的相关名词义，不能直接当作英语动词 get 的马来语释义。",
+    "word_family": [
+      {
+        "word": "get logik",
+        "affix": null,
+        "gloss": "逻辑门（复合术语）"
+      },
+      {
+        "word": "get TAK",
+        "affix": null,
+        "gloss": "非门（复合术语）"
+      },
+      {
+        "word": "denyut get",
+        "affix": null,
+        "gloss": "门控脉冲（复合术语）"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "逻辑门：输出状态由一个或多个输入状态决定的电子器件或电路。",
+      "en_definition": "A logic gate whose output depends on its input states.",
+      "ms_definition": "Peranti logik yang keadaan outputnya ditentukan oleh keadaan input.",
+      "nuances": "这是马来语计算机及电子技术用语，不是英语动词 get“得到”。常与逻辑功能名称连用。参见 [PRPM：gate／get](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gate)。",
+      "collocations": [
+        {
+          "ms": "get logik",
+          "zh": "逻辑门",
+          "en": "logic gate"
+        },
+        {
+          "ms": "get TAK",
+          "zh": "非门",
+          "en": "NOT gate"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "门控信号：用于触发或控制电路中另一信号传送的信号。",
+      "en_definition": "A signal that triggers or controls another signal in a circuit.",
+      "ms_definition": "Isyarat yang mencetuskan atau mengawal penyaluran isyarat lain.",
+      "nuances": "属于电子技术语域，侧重控制信号本身；应与作为电路器件的 get 区分。参见 [PRPM：gate／get](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gate)。",
+      "collocations": [
+        {
+          "ms": "isyarat get",
+          "zh": "门控信号",
+          "en": "gating signal"
+        },
+        {
+          "ms": "denyut get",
+          "zh": "门控脉冲",
+          "en": "gate pulse"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "栅极：场效应晶体管中用于控制导电状态的电极。",
+      "en_definition": "The gate electrode of a field-effect transistor.",
+      "ms_definition": "Elektrod kawalan pada transistor kesan medan.",
+      "nuances": "属于半导体术语；这里指晶体管的电极，不指完整的逻辑门电路。参见 [PRPM：gate／get](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gate)。",
+      "collocations": [
+        {
+          "ms": "elektrod get",
+          "zh": "栅极电极",
+          "en": "gate electrode"
+        },
+        {
+          "ms": "voltan get",
+          "zh": "栅极电压",
+          "en": "gate voltage"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "口语中的大门、院门或围栏门。",
+      "en_definition": "A gate in a fence or boundary; colloquial.",
+      "ms_definition": "Pintu pagar dalam bahasa percakapan.",
+      "nuances": "Kamus Dewan 将此义标为 bahasa percakapan。正式文字通常用 pintu pagar；不能据此把所有门或机场登机口一律写成 get。参见 [PRPM：get II](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pagar+II%3B)。",
+      "collocations": [
+        {
+          "ms": "buka get",
+          "zh": "打开院门",
+          "en": "open the gate"
+        },
+        {
+          "ms": "tutup get",
+          "zh": "关上院门",
+          "en": "close the gate"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Litar ini menggunakan get TAK untuk menghasilkan output yang berlawanan dengan input.",
+      "zh": "该电路使用非门，产生与输入相反的输出。",
+      "en": "This circuit uses a NOT gate to produce an output opposite to its input."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Boleh buka get kejap? Aku dah sampai kat luar.",
+      "ms_standard": "Bolehkah awak membuka pintu pagar sebentar? Saya sudah tiba di luar.",
+      "zh": "帮我开一下院门好吗？我到外面了。",
+      "en": "Could you open the gate for me? I'm outside.",
+      "spoken_features": [
+        "get 在这里是 pintu pagar 的口语说法。",
+        "kejap 是 sekejap 的口语缩略形式。",
+        "dah 对应 sudah，kat 对应 di。",
+        "aku 适用于关系亲近的人之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh buka get kejap? Aku dah sampai kat luar.",
+          "ms_standard": "Bolehkah awak membuka pintu pagar sebentar? Saya sudah tiba di luar.",
+          "zh": "帮我开一下院门好吗？我到外面了。",
+          "en": "Could you open the gate for me? I'm outside."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, tunggu kejap ya. Aku nak ambil kunci dulu.",
+          "ms_standard": "Boleh, tunggu sebentar. Saya hendak mengambil kunci dahulu.",
+          "zh": "行，稍等一下啊，我先拿钥匙。",
+          "en": "Sure, give me a moment. I'll get the key."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay get reflects English gate, not the English verb get. Its everyday sense names a physical entrance, while technical usage applies the gate image to circuits, control signals, and transistor electrodes. A familiar object thus helps learners connect ordinary household speech with the specialised vocabulary of electronics. [Sources: PRPM technical senses](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=gate), [colloquial sense](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pagar+II%3B).",
+    "cognitive_memory_aid": "把 get 想成一道“门”：院门控制人进出，逻辑门控制信号，栅极控制晶体管。别与英语 get“得到”混淆。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请人开门时用 Boleh buka get? 比直接命令 Buka get! 更柔和。正式场合把院门称为 pintu pagar。",
+    "usage_etiquette": "电子技术义可用于正式教材和报告；院门义属于口语。若聊天中的 get 表示“得到”或“理解”，应按英语语码转换处理，不套用本条名词释义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请人开门时用 Boleh buka get? 比直接命令 Buka get! 更柔和。正式场合把院门称为 pintu pagar。",
+    "usage_etiquette": "电子技术义可用于正式教材和报告；院门义属于口语。若聊天中的 get 表示“得到”或“理解”，应按英语语码转换处理，不套用本条名词释义。"
+  }
+}

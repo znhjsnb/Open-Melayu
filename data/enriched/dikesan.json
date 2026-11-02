@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "dikesan",
+    "syllables": null,
+    "ipa": "/di.ke.san/",
+    "jawi": null,
+    "frequency_rank": 2430,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kesan",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + kesan → dikesan",
+    "pattern_note": "di- 构成被动动词，直接接在 kesan 前，保留词首 k，不发生鼻音同化。它与词根连写，不能写成 di kesan；主动式 mengesan 中的 k 则因 meN- 构词规则而脱落。",
+    "word_family": [
+      {
+        "word": "kesan",
+        "affix": null,
+        "gloss": "痕迹；影响；结果"
+      },
+      {
+        "word": "mengesan",
+        "affix": "meN-",
+        "gloss": "探测；追踪"
+      },
+      {
+        "word": "pengesan",
+        "affix": "peN-",
+        "gloss": "探测器；追踪者"
+      },
+      {
+        "word": "pengesanan",
+        "affix": "peN-...-an",
+        "gloss": "探测；追踪过程"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被检测到；某种现象、异常或存在经检查、观察或仪器探测而被发现。",
+      "en_definition": "To be detected or identified through observation, examination, or monitoring.",
+      "ms_definition": "Diketahui kewujudan, kehadiran atau keadaannya melalui pemeriksaan, pemerhatian atau penggunaan alat.",
+      "nuances": "用于被动结构，主语是被发现的对象；di- 本身不表示过去时。tidak dikesan 表示“未被检测到”，不自动等于“绝对不存在”。此处马来语释义为编辑释义，依据 kesan 及其派生词的用法整理，并非 DBP 原文引述。[词根与派生词依据：DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=259120&keyword=kesan)。",
+      "collocations": [
+        {
+          "ms": "dikesan pada peringkat awal",
+          "zh": "在早期被检测到",
+          "en": "detected at an early stage"
+        },
+        {
+          "ms": "ralat dikesan",
+          "zh": "检测到错误",
+          "en": "an error is detected"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被追踪到；根据踪迹、资料或信号而被查明位置、去向或来源。",
+      "en_definition": "To be traced or located by following tracks, records, or signals.",
+      "ms_definition": "Ditemukan atau dikenal pasti kedudukan, pergerakan atau asal usulnya dengan mengikuti jejak, rekod atau isyarat.",
+      "nuances": "常用于搜寻人员、追查来源或定位物件。被追踪到不一定表示已被逮捕或取回；须结合后续动词判断。",
+      "collocations": [
+        {
+          "ms": "lokasi dikesan",
+          "zh": "位置被查明",
+          "en": "the location is identified"
+        },
+        {
+          "ms": "dikesan melalui isyarat telefon",
+          "zh": "通过电话信号被定位",
+          "en": "located through a phone signal"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 系统检查",
+      "ms": "Beberapa ralat telah dikesan semasa pemeriksaan sistem dan sedang diperbaiki.",
+      "zh": "系统检查期间发现了数项错误，目前正在修正。",
+      "en": "Several errors were detected during the system inspection and are being corrected."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论错误",
+      "ms_spoken": "Ralat tu dah dikesan, tapi belum selesai lagi.",
+      "ms_standard": "Ralat itu sudah dikesan, tetapi masih belum diselesaikan.",
+      "zh": "那个错误已经找到了，不过还没解决。",
+      "en": "The error's been identified, but it hasn't been fixed yet.",
+      "spoken_features": [
+        "tu 对应 itu，dah 对应 sudah。",
+        "口语可省略容易从上下文补出的成分。",
+        "dikesan 在日常交流中也自然使用，无须另造口语词形。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Ralat tu dah dikesan ke?",
+          "ms_standard": "Adakah ralat itu sudah dikesan?",
+          "zh": "那个错误找到了吗？",
+          "en": "Have we identified the error yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, ralat tu dikesan masa ujian tadi. Saya nak baiki sekarang.",
+          "ms_standard": "Ya, ralat itu telah dikesan semasa ujian tadi. Saya hendak membaikinya sekarang.",
+          "zh": "找到了，刚才测试时发现的。我现在就修。",
+          "en": "Yes, it showed up in the test earlier. I'll fix it now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The useful connection is between kesan, a trace or mark, and mengesan, following evidence or detecting something. Dikesan presents that action from the object's perspective through the passive prefix di-. A learner can therefore picture a footprint becoming evidence, while modern examples extend the same idea to signals and errors. This explains the semantic connection without claiming an unverified ancient origin.",
+    "cognitive_memory_aid": "kesan 是“痕迹”；顺着痕迹 mengesan“追查”，目标便 dikesan“被查到”。看到 di-，先想到“被”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "语气通常客观中性，适合报告检查结果。谈及他人失误时，可说 Ralat telah dikesan，先陈述问题，再讨论责任。",
+    "usage_etiquette": "涉及调查或搜寻时，应区分 dikesan“被追踪到”、ditahan“被拘留”和 ditangkap“被捕”，避免把定位结果说成执法结论。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "语气通常客观中性，适合报告检查结果。谈及他人失误时，可说 Ralat telah dikesan，先陈述问题，再讨论责任。",
+    "usage_etiquette": "涉及调查或搜寻时，应区分 dikesan“被追踪到”、ditahan“被拘留”和 ditangkap“被捕”，避免把定位结果说成执法结论。"
+  }
+}

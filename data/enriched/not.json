@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "not",
+    "syllables": null,
+    "ipa": "/not/",
+    "jawi": null,
+    "frequency_rank": 2532,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "not",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + not → not",
+    "pattern_note": "马来语 not 是单音节独立词，不含词缀。不能把 notasi 分析为 not + 马来语后缀 -asi；英语否定词 not 则属于另一语言的同形词。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "音符；乐谱中表示乐音的符号。",
+      "en_definition": "A musical note: a written sign representing a musical sound.",
+      "ms_definition": "Tanda bunyi dalam muzik.",
+      "nuances": "这是标准马来语名词；实际使用中也可借指符号所代表的乐音。上述马来文释义展开了 Kamus Pelajar 的缩写。参见 [DBP：not 的音乐义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tanda+bunyi)。",
+      "collocations": [
+        {
+          "ms": "not muzik",
+          "zh": "音乐音符",
+          "en": "musical notes"
+        },
+        {
+          "ms": "membaca not",
+          "zh": "识读音符",
+          "en": "to read musical notes"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "钞票；纸币，在地方口语中也用于与硬币相区别。",
+      "en_definition": "A banknote; paper money, including in regional colloquial usage.",
+      "ms_definition": "Wang kertas atau duit not.",
+      "nuances": "DBP 的吉打方言资料明确记录此义及 duit not 的用法。教学中宜说明地域和语境；需要普遍清晰的正式表达时可用 wang kertas。参见 [DBP：吉打方言 not I](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=duit)。",
+      "collocations": [
+        {
+          "ms": "duit not",
+          "zh": "纸币",
+          "en": "paper money"
+        },
+        {
+          "ms": "sekeping not",
+          "zh": "一张钞票",
+          "en": "a banknote"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "不；并非。此处为英语否定词，可能出现在马英混合表达中。",
+      "en_definition": "The English negative adverb, used to negate a word, phrase, or clause.",
+      "ms_definition": "Kata nafi bahasa Inggeris yang padanannya dalam bahasa Melayu bergantung pada konteks, antaranya tidak, bukan atau belum.",
+      "nuances": "此义属于英语，不是标准马来语 not 的否定义。英语读音可为 /nɒt/，与此词条所列马来语 /not/ 不同。原始语料缺少上下文，不能确定排名中的 not 属于哪一种语言。参见 [DBP：英语 not 的翻译用例](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=often)。",
+      "collocations": [
+        {
+          "ms": "not bad（英语插语）",
+          "zh": "不错",
+          "en": "not bad"
+        },
+        {
+          "ms": "not sure（英语插语）",
+          "zh": "不确定",
+          "en": "not sure"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Peserta kursus akan mempelajari cara membaca not muzik sebelum menjalani latihan amali.",
+      "zh": "课程学员将在实操训练前学习如何识读音乐音符。",
+      "en": "Course participants will learn to read musical notes before beginning practical training."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Saya baru nak belajar baca not, jadi main lagu mudah je dulu.",
+      "ms_standard": "Saya baru hendak belajar membaca not, jadi saya memainkan lagu yang mudah sahaja dahulu.",
+      "zh": "我才刚开始学识谱，所以先弹简单的曲子。",
+      "en": "I'm just starting to learn to read music, so I'm sticking to easy songs for now.",
+      "spoken_features": [
+        "nak 对应 hendak。",
+        "baca 在口语中代替标准形式 membaca。",
+        "je 对应 sahaja；后半句省略重复的主语 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Saya baru nak belajar baca not. Awak ada lagu mudah tak?",
+          "ms_standard": "Saya baru hendak belajar membaca not. Adakah awak mempunyai lagu yang mudah?",
+          "zh": "我才刚开始学识谱。你有简单的曲子吗？",
+          "en": "I'm just starting to learn to read music. Have you got any easy songs?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ada, saya dah hantar satu kat awak. Cuba yang tu dulu.",
+          "ms_standard": "Ada, saya sudah menghantar satu lagu kepada awak. Cuba lagu itu dahulu.",
+          "zh": "有，我已经发了一首给你。先试试那首。",
+          "en": "Yes, I've sent you one. Give that one a try first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The spelling not brings together distinct lexical histories: Malay musical terminology, a money sense documented in regional speech, and an unrelated English grammatical use. English note offers a useful mnemonic for the first two meanings, but the supplied packet does not establish their borrowing dates or routes. Context must determine which meaning a corpus token carries. See [DBP: musical not](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tanda+bunyi) and [regional money usage](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=duit).",
+    "cognitive_memory_aid": "看场景记 not：乐谱里是音符，duit not 是纸币；英语句子里的 not 才表示“不”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "音乐义语体中性，可用于课堂与正式说明。地方口语中的纸币义也无失礼含义，但与不同地区的人交流时用 wang kertas 更清楚。",
+    "usage_etiquette": "马英混合聊天中可以出现英语 not；正式马来语应按句法和意义选择 tidak、bukan 或 belum，不应把英语否定形式当作马来语语法规则。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "音乐义语体中性，可用于课堂与正式说明。地方口语中的纸币义也无失礼含义，但与不同地区的人交流时用 wang kertas 更清楚。",
+    "usage_etiquette": "马英混合聊天中可以出现英语 not；正式马来语应按句法和意义选择 tidak、bukan 或 belum，不应把英语否定形式当作马来语语法规则。"
+  }
+}

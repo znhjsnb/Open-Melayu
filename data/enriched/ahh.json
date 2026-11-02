@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "ahh",
+    "syllables": null,
+    "ipa": "/aː/",
+    "jawi": null,
+    "frequency_rank": 2538,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ahh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ahh → ahh",
+    "pattern_note": "额外的 h 是表现拖长语气的书写手段，不是词缀，也不要求逐个读出。IPA 仅示意一种拖长读法；保留数据包的根词标记，不据此认定为规范独立词根。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "啊；呀。聊天中表现拉长的感叹声，可表示领会、惊讶、舒缓、烦恼或不赞同，具体含义由语境和语调决定。",
+      "en_definition": "An expressive informal spelling of an ah-like exclamation, conveying reactions such as realization, surprise, relief or annoyance.",
+      "ms_definition": "Ejaan ekspresif tidak baku bagi seruan ah yang dipanjangkan untuk menyampaikan reaksi atau perasaan mengikut konteks dan intonasi.",
+      "nuances": "语法上属于 kata seru（感叹词）；因指定词性列表没有 interjection，暂归 particle。不能把 ahh 标为已经核实的官方标准词形；不同情绪读法也不构成固定的一对一义项。DBP 将 ah 列为感叹词的实例。[DBP 感叹词说明](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kata+seru)",
+      "collocations": [
+        {
+          "ms": "ahh, faham",
+          "zh": "啊，明白了",
+          "en": "ah, I see"
+        },
+        {
+          "ms": "ahh, lega",
+          "zh": "啊，松了口气",
+          "en": "ah, what a relief"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam transkrip tersebut, ejaan tidak baku “ahh” dikekalkan untuk menggambarkan reaksi penutur.",
+      "zh": "该转录文本保留了非规范拼写“ahh”，以呈现说话人的反应。",
+      "en": "The transcript retains the nonstandard spelling “ahh” to represent the speaker's reaction."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ahh, faham dah. Tekan sini je, kan?",
+      "ms_standard": "Oh, sekarang saya sudah faham. Saya hanya perlu menekan bahagian ini, betul?",
+      "zh": "啊，懂了。按这里就行，对吧？",
+      "en": "Ah, I get it now. Just press here, right?",
+      "spoken_features": [
+        "ahh 用重复字母表现拖长的反应声",
+        "dah 对应 sudah",
+        "je 对应 sahaja",
+        "kan 请求对方确认",
+        "标准对应句根据领会语境使用 Oh"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Nak hantar borang tu, tekan butang biru kat bawah je.",
+          "ms_standard": "Untuk menghantar borang itu, kamu hanya perlu menekan butang biru di bahagian bawah.",
+          "zh": "要交那张表，按下面那个蓝色按钮就行。",
+          "en": "To submit the form, just press the blue button at the bottom."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ahh, faham dah. Senang je rupanya.",
+          "ms_standard": "Oh, sekarang saya sudah faham. Rupa-rupanya, caranya mudah sahaja.",
+          "zh": "啊，懂了，原来这么简单。",
+          "en": "Ah, got it. That's easier than I thought."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP identifies ah as an example of a kata seru, or interjection. The longer spelling ahh is best treated here as an expressive representation of a reaction sound, rather than a separately established Malay root. Its repeated letter suggests duration or emphasis; the packet provides no evidence for a particular historical origin. [DBP reference](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=kata+seru)",
+    "cognitive_memory_aid": "多一个 h，就想象把“啊——”拖长一点；情绪看上下文，别把 h 当词缀。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独回复 ahh 容易让人猜不准态度；与长辈、客户或上司交流时，可写 Saya faham, terima kasih 来明确表达理解和谢意。",
+    "usage_etiquette": "适用于熟人聊天和保留原貌的对话转录。正式报告正文通常改用明确表达；表达不耐烦的语调可能显得敷衍。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独回复 ahh 容易让人猜不准态度；与长辈、客户或上司交流时，可写 Saya faham, terima kasih 来明确表达理解和谢意。",
+    "usage_etiquette": "适用于熟人聊天和保留原貌的对话转录。正式报告正文通常改用明确表达；表达不耐烦的语调可能显得敷衍。"
+  }
+}

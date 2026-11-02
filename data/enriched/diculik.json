@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "diculik",
+    "syllables": null,
+    "ipa": "/di.tʃu.liʔ/",
+    "jawi": null,
+    "frequency_rank": 2475,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "culik",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + culik → diculik",
+    "pattern_note": "di- 构成被动动词，与词根连写，词根首音 c 保留；词尾 k 在常见标准读音中实现为 [ʔ]。输入包将 diculik 标为词根有误，此处校正为 culik。[被动前缀说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pasif)。",
+    "word_family": [
+      {
+        "word": "menculik",
+        "affix": "meN-",
+        "gloss": "绑架；劫走某人"
+      },
+      {
+        "word": "penculik",
+        "affix": "peN-",
+        "gloss": "绑架者"
+      },
+      {
+        "word": "penculikan",
+        "affix": "peN-...-an",
+        "gloss": "绑架行为；绑架事件"
+      }
+    ],
+    "root_jawi": "چوليق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被绑架；被他人强行劫走或控制，可能涉及索取赎金或其他目的。",
+      "en_definition": "To be kidnapped or abducted; to be forcibly taken away against one's will.",
+      "ms_definition": "Dilarikan secara paksa oleh seseorang atau sekumpulan orang, misalnya untuk mendapatkan wang tebusan atau bagi tujuan lain.",
+      "nuances": "是 menculik 的被动对应形式，主语通常是受害者；di- 表示被动，不表示过去时。事件时间由 telah、sedang 或上下文确定。不等于单纯失踪，也不必然涉及赎金。马来语释义为依据 DBP 的 culik／menculik 释义所作的被动形式转述，并非独立词条原文。词根爪夷文采用 DBP 所载形式，词头爪夷文及音节保留输入空值。[DBP 词义与词族](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=culik)。",
+      "collocations": [
+        {
+          "ms": "dipercayai diculik",
+          "zh": "据信遭到绑架",
+          "en": "believed to have been abducted"
+        },
+        {
+          "ms": "diculik oleh sekumpulan lelaki",
+          "zh": "被一群男子绑架",
+          "en": "abducted by a group of men"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道；虚构示例",
+      "ms": "Polis sedang menyiasat laporan bahawa seorang lelaki dipercayai diculik berhampiran tempat kerjanya.",
+      "zh": "警方正在调查一宗报案，案中一名男子据信在工作地点附近遭到绑架。",
+      "en": "Police are investigating a report that a man is believed to have been abducted near his workplace."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友核实消息；虚构示例",
+      "ms_spoken": "Kau dah baca berita pasal lelaki yang diculik tu?",
+      "ms_standard": "Adakah kamu sudah membaca berita tentang lelaki yang diculik itu?",
+      "zh": "你看了那个男子被绑架的新闻吗？",
+      "en": "Have you read the news about that man who was kidnapped?",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "pasal 在此表示 tentang。",
+        "tu 是 itu 的口语缩略形式。",
+        "省略 adakah，以语调表达问句。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah baca berita pasal lelaki yang diculik tu?",
+          "ms_standard": "Adakah kamu sudah membaca berita tentang lelaki yang diculik itu?",
+          "zh": "你看了那个男子被绑架的新闻吗？",
+          "en": "Have you read the news about that man who was kidnapped?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, tapi aku nak semak kenyataan polis dulu sebelum kongsi kat grup.",
+          "ms_standard": "Ya, saya sudah membacanya, tetapi saya hendak menyemak kenyataan polis terlebih dahulu sebelum berkongsi berita itu dalam kumpulan.",
+          "zh": "看了，不过我想先核实警方声明，再转到群里。",
+          "en": "Yes, but I want to check the police statement before sharing it in the group."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diculik combines the passive prefix di- with culik. Kamus Dewan also records an older sense of culik referring to a child-stealing spirit, alongside human abductors and the verb menculik. This juxtaposition offers a cultural memory link between older fears and modern vocabulary, but it does not establish the historical direction in which those meanings developed. [Source](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=culik).",
+    "cognitive_memory_aid": "记住角色转换：penculik 是绑架者，menculik 是实施绑架，diculik 是遭到绑架。看到 di-，就把注意力转向承受动作的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "涉及受害者时使用客观、尊重的表达。消息未经确认时，可用 dipercayai diculik 表示“据信遭绑架”，避免把猜测说成事实。",
+    "usage_etiquette": "适用于新闻、报案及严肃讨论。不要把普通失联直接说成 diculik；在受害者或家属面前，也应避免把绑架当作邀约或留人的玩笑。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "涉及受害者时使用客观、尊重的表达。消息未经确认时，可用 dipercayai diculik 表示“据信遭绑架”，避免把猜测说成事实。",
+    "usage_etiquette": "适用于新闻、报案及严肃讨论。不要把普通失联直接说成 diculik；在受害者或家属面前，也应避免把绑架当作邀约或留人的玩笑。"
+  }
+}

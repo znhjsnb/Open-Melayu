@@ -1,0 +1,126 @@
+{
+  "headword": {
+    "word": "takde",
+    "syllables": null,
+    "ipa": "[täʔdə]",
+    "jawi": null,
+    "frequency_rank": 2261,
+    "status": "official",
+    "status_note": "保留指定的条目状态标签；不表示该拼写获DBP认定为规范书面语。takde是非正式口语拼写。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "takde",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "tak + ada → tak ada → takde",
+    "pattern_note": "属于口语缩合，不是加词缀构词；tak源于tidak，ada的首元音在缩合中省略，末元音在此读为[ə]，k实现为喉塞音[ʔ]。is_root沿用输入词项分类，不表示takde是历史上不可再分析的词根。",
+    "word_family": [
+      {
+        "word": "tak ada",
+        "affix": null,
+        "gloss": "没有；分写的口语对应形式，非派生词"
+      },
+      {
+        "word": "tiada",
+        "affix": null,
+        "gloss": "没有；规范对应词，非takde的派生词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "没有；不存在；某人或某物不在所说的地方。是tidak ada或tiada的非正式缩合写法。",
+      "en_definition": "An informal contracted form of tidak ada: there is no; there are no; someone or something is absent.",
+      "ms_definition": "Bentuk percakapan tidak baku bagi tidak ada atau tiada, yang menyatakan bahawa sesuatu tidak wujud atau seseorang tidak berada di sesuatu tempat.",
+      "nuances": "本结构用particle近似标记否定存在表达，并非声称它是DBP独立核定的单词词类。可用于takde orang、takde air等；不能机械代替所有tidak，例如规范的tidak faham通常对应tak faham。这里的马来文释义为编写释义。DBP方言材料出现takde并以tiada释读：[PRPM：tiada及方言例句](https://prpm.dbp.gov.my/Cari1?d=169476&keyword=tiada)。",
+      "collocations": [
+        {
+          "ms": "takde orang",
+          "zh": "没有人；没人在",
+          "en": "nobody there"
+        },
+        {
+          "ms": "takde masalah",
+          "zh": "没有问题",
+          "en": "no problem"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "没有；不拥有或没有可用的某种东西，如金钱、时间或机会。",
+      "en_definition": "An informal expression meaning not to have or not to have available.",
+      "ms_definition": "Bentuk percakapan tidak baku yang menyatakan bahawa seseorang tidak mempunyai sesuatu atau tidak mempunyai sesuatu untuk digunakan.",
+      "nuances": "常见于主语后接takde再接名词，例如Saya takde duit。正式表达通常改为tidak mempunyai，或按语境使用tiada；不要译成bukan，后者主要否定身份或类别。",
+      "collocations": [
+        {
+          "ms": "takde duit",
+          "zh": "没有钱",
+          "en": "have no money"
+        },
+        {
+          "ms": "takde masa",
+          "zh": "没有时间",
+          "en": "have no time"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：说明非正式拼写",
+      "ms": "Dalam surat rasmi, bentuk percakapan \"takde\" hendaklah digantikan dengan \"tiada\" atau \"tidak ada\" mengikut konteks.",
+      "zh": "在正式书信中，口语形式takde应按语境改为tiada或tidak ada。",
+      "en": "In formal correspondence, the colloquial form takde should be replaced with tiada or tidak ada as appropriate."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku takde duit tunai lah, boleh bayar guna kad je?",
+      "ms_standard": "Saya tidak mempunyai wang tunai. Bolehkah saya membayar dengan kad sahaja?",
+      "zh": "我没现金啦，只刷卡可以吗？",
+      "en": "I don't have any cash. Can I just pay by card?",
+      "spoken_features": [
+        "takde是tak ada的缩合拼写",
+        "aku用于熟人之间",
+        "lah承载口语语气",
+        "je对应sahaja",
+        "boleh以口语问调代替bolehkah"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku takde duit tunai lah, boleh bayar guna kad je?",
+          "ms_standard": "Saya tidak mempunyai wang tunai. Bolehkah saya membayar dengan kad sahaja?",
+          "zh": "我没现金啦，只刷卡可以吗？",
+          "en": "I don't have any cash. Can I just pay by card?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh, kat sini terima kad. Aku dah tanya tadi.",
+          "ms_standard": "Boleh. Kedai ini menerima pembayaran dengan kad. Saya sudah bertanya tadi.",
+          "zh": "可以，这里收卡。我刚才问过了。",
+          "en": "Yes, they take cards here. I asked earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Takde reflects the compression of everyday speech: tak, the shortened negative tidak, combines with ada. Writers use the joined spelling to represent a familiar spoken rhythm in dialogue and messages. Its presence in dialect examples does not make it the preferred spelling for formal prose. Standard writing normally uses tiada or tidak ada.",
+    "cognitive_memory_aid": "把tak理解成“不”，ada理解成“有”：tak ada说快了缩成takde，就是“没有”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "takde本身不是粗话，但语域随意。对客户、长辈或初次接触的人，使用tiada、tidak ada或tidak mempunyai更稳妥。",
+    "usage_etiquette": "适合熟人聊天、对白和非正式留言。单独回复Takde可能显得生硬；说明原因或加上礼貌称呼会更自然。正式报告和申请表使用规范对应形式。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "takde本身不是粗话，但语域随意。对客户、长辈或初次接触的人，使用tiada、tidak ada或tidak mempunyai更稳妥。",
+    "usage_etiquette": "适合熟人聊天、对白和非正式留言。单独回复Takde可能显得生硬；说明原因或加上礼貌称呼会更自然。正式报告和申请表使用规范对应形式。"
+  }
+}

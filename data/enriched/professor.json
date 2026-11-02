@@ -1,0 +1,126 @@
+{
+  "headword": {
+    "word": "professor",
+    "syllables": null,
+    "ipa": "/prəˈfesə/",
+    "jawi": null,
+    "frequency_rank": 2613,
+    "status": "unverified",
+    "status_note": "输入形式为英语拼写；标准马来语拼写为 profesor。不能将 professor 标为已核实的官方马来语词形。音标为英式英语读音；音节与爪夷文保留数据包中的空值。频率排名沿用输入，未独立验证。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "professor",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + professor → professor",
+    "pattern_note": "作为英语整词记忆，不按马来语词缀拆分；马来语对应形式 profesor 只写一个 s。以下词族为英语派生词。",
+    "word_family": [
+      {
+        "word": "professorship",
+        "affix": "-ship（英语后缀）",
+        "gloss": "教授职位；教授任职资格"
+      },
+      {
+        "word": "professorial",
+        "affix": "-ial（英语后缀，伴随词干变化）",
+        "gloss": "教授的；具有教授风范的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "教授；高等教育机构中的高级学术职称，在马来西亚通常指教授职级。",
+      "en_definition": "An academic holding the rank of professor at a university or other institution of higher education.",
+      "ms_definition": "Ahli akademik yang memegang jawatan profesor di universiti atau institusi pengajian tinggi.",
+      "nuances": "professor 是英语词形，马来语正式文本使用 profesor。教授职级与博士学位不同，持有博士学位不自动获得教授头衔。此处马来语释义为编写释义，并非 DBP 原文。标准词形及职级区别参见 [DBP：profesor](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=profesor)。以下搭配采用标准马来语拼写。",
+      "collocations": [
+        {
+          "ms": "profesor madya",
+          "zh": "副教授",
+          "en": "associate professor"
+        },
+        {
+          "ms": "profesor emeritus",
+          "zh": "荣休教授",
+          "en": "professor emeritus"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "大学教师；在某些英语教育语境，尤其美国日常用语中，对大学任课教师的泛称。",
+      "en_definition": "A university or college teacher, especially in broad American usage, regardless of exact academic rank.",
+      "ms_definition": "Pengajar di kolej atau universiti yang disebut professor dalam penggunaan bahasa Inggeris tertentu tanpa semestinya berpangkat profesor.",
+      "nuances": "这是英语的宽泛用法。翻译美国材料时，应核对实际职级，必要时译为 pensyarah，避免把所有大学教师都提升为教授。参见 [Merriam-Webster：professor](https://www.merriam-webster.com/dictionary/professor)。以下是表达宽泛教师身份的马来语对应搭配。",
+      "collocations": [
+        {
+          "ms": "pensyarah universiti",
+          "zh": "大学讲师；大学教师",
+          "en": "university lecturer"
+        },
+        {
+          "ms": "pensyarah kolej",
+          "zh": "学院教师",
+          "en": "college lecturer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 学术文件翻译",
+      "ms": "Istilah bahasa Inggeris “professor” diterjemahkan sebagai “profesor” dalam dokumen ini.",
+      "zh": "本文件将英语术语 professor 译为马来语 profesor。",
+      "en": "The English term “professor” is rendered as “profesor” in this document."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学交流",
+      "ms_spoken": "Professor tu dah balas e-mel kau ke?",
+      "ms_standard": "Profesor itu sudah membalas e-mel kamu?",
+      "zh": "那个教授回复你的邮件了吗？",
+      "en": "Has that professor replied to your email yet?",
+      "spoken_features": [
+        "professor 为英语切换用词；标准马来语写作 profesor",
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "句末 ke 表示口语疑问",
+        "kau 用于熟悉的同辈之间"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Professor tu dah balas e-mel kau ke?",
+          "ms_standard": "Profesor itu sudah membalas e-mel kamu?",
+          "zh": "那个教授回复你的邮件了吗？",
+          "en": "Has that professor replied to your email yet?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Dah, dia suruh aku jumpa dia kat pejabat esok.",
+          "ms_standard": "Sudah, beliau meminta saya berjumpa dengannya di pejabat esok.",
+          "zh": "回了，他让我明天去办公室找他。",
+          "en": "Yes, he asked me to see him in his office tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English professor goes back to Latin professor, a person who publicly declared expertise or taught a subject. Its university meaning developed within European academic traditions. In Malaysian Malay, the corresponding title is spelled profesor. Learning the two spellings together helps distinguish an English title from its standard Malay counterpart. [Etymology reference](https://www.etymonline.com/word/professor)",
+    "cognitive_memory_aid": "看到 professor，联想大学教授；切换到马来语正式书写时，把双 s 改成单 s：profesor。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接称呼时，可按对方实际头衔使用 Profesor 或 Prof. 加姓名；不要因对方拥有博士学位就称其为教授。",
+    "usage_etiquette": "马来语公文使用 profesor；英语文件使用 professor。与教授本人交流时，应采用尊重的称呼，避免照搬同学聊天中的 kau。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接称呼时，可按对方实际头衔使用 Profesor 或 Prof. 加姓名；不要因对方拥有博士学位就称其为教授。",
+    "usage_etiquette": "马来语公文使用 profesor；英语文件使用 professor。与教授本人交流时，应采用尊重的称呼，避免照搬同学聊天中的 kau。"
+  }
+}

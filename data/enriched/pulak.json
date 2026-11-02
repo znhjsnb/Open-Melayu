@@ -1,0 +1,139 @@
+{
+  "headword": {
+    "word": "pulak",
+    "syllables": null,
+    "ipa": "[ˈpu.laʔ]",
+    "jawi": null,
+    "frequency_rank": 2663,
+    "status": "colloquial"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pulak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "pula + hentian glotis akhir [ʔ] → pulak",
+    "pattern_note": "pulak 是 pula 的口语变体，词尾 k 常对应喉塞音 [ʔ]，不是后缀。root_word 与 is_root 沿用输入记录；标准对应形式为 pula。",
+    "word_family": [
+      {
+        "word": "pula",
+        "affix": null,
+        "gloss": "标准对应形式：又、也、则；依语境表示补充、对比或惊讶"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "又；再：表示事件再次发生，常带意外或不满语气。",
+      "en_definition": "Again; marking a repeated occurrence, sometimes with surprise or annoyance.",
+      "ms_definition": "Bentuk percakapan bagi pula yang menunjukkan sesuatu berlaku sekali lagi.",
+      "nuances": "常见于朋友聊天。带不带抱怨取决于语境和语调。正式写作使用 pula。此释义为依据标准形式所作的概述，并非 DBP 对 pulak 的逐字释义。参见 [PRPM：pula](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pula)。",
+      "collocations": [
+        {
+          "ms": "hujan pulak",
+          "zh": "又下雨了；偏偏下雨了",
+          "en": "it's raining again; now it's raining"
+        },
+        {
+          "ms": "rosak pulak",
+          "zh": "又坏了；偏偏坏了",
+          "en": "it's broken again; now it's broken"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "也；则；轮到：把另一人或事物加入话题，或与前项形成对比。",
+      "en_definition": "Also; in turn; marking an additional or contrasting participant or situation.",
+      "ms_definition": "Bentuk percakapan bagi pula yang menambahkan perkara lain atau menunjukkan perbezaan dan giliran.",
+      "nuances": "如 dia pulak 可表示“至于他”或“轮到他”。不宜在所有情况下机械译为 again；应根据前文确定是补充、对比还是轮替。",
+      "collocations": [
+        {
+          "ms": "saya pulak",
+          "zh": "至于我；轮到我",
+          "en": "as for me; my turn"
+        },
+        {
+          "ms": "yang ini pulak",
+          "zh": "至于这个；再看这个",
+          "en": "as for this one"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "怎么会；又是什么：用于疑问或反应，表达惊讶、质疑或觉得不合预期。",
+      "en_definition": "An emphatic particle expressing surprise, puzzlement, or objection, especially in questions.",
+      "ms_definition": "Bentuk percakapan bagi pula yang menguatkan pertanyaan atau menyatakan kehairanan terhadap sesuatu yang tidak dijangka.",
+      "nuances": "Kenapa pulak? 可以是真心疑问，也可能是在反驳；语气过重会显得不服气。标准形式 pula 的疑问用法见 [PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pula)。",
+      "collocations": [
+        {
+          "ms": "kenapa pulak",
+          "zh": "怎么会这样；凭什么呀",
+          "en": "why is that; why on earth"
+        },
+        {
+          "ms": "apa pulak",
+          "zh": "又怎么了；又是什么",
+          "en": "what now; what is it this time"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；使用标准对应形式 pula",
+      "ms": "Bahagian kewangan pula akan menyemak anggaran kos sebelum cadangan itu diluluskan.",
+      "zh": "财务部门则会在该提案获批前审核成本预算。",
+      "en": "The finance division, in turn, will review the cost estimate before the proposal is approved."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kenapa pulak aku kena pergi? Aku dah pergi semalam.",
+      "ms_standard": "Mengapa pula saya perlu pergi? Saya sudah pergi semalam.",
+      "zh": "怎么又要我去啊？我昨天已经去过了。",
+      "en": "Why do I have to go? I already went yesterday.",
+      "spoken_features": [
+        "pulak 是 pula 的口语形式，词尾常读 [ʔ]。",
+        "dah 相当于 sudah。",
+        "kena 在此表示必须或被要求。",
+        "aku 适合关系亲近的同辈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kenapa pulak aku kena pergi? Aku dah pergi semalam.",
+          "ms_standard": "Mengapa pula saya perlu pergi? Saya sudah pergi semalam.",
+          "zh": "怎么又要我去啊？我昨天已经去过了。",
+          "en": "Why do I have to go? I already went yesterday."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Eh, bukan kau. Hari ni giliran aku pulak. Kau rehat je.",
+          "ms_standard": "Bukan kamu yang perlu pergi. Hari ini giliran saya pula. Kamu berehat sahaja.",
+          "zh": "哎，不是你啦。今天轮到我了，你歇着就行。",
+          "en": "Oh, I didn't mean you. It's my turn today. You can take a break."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pulak represents a colloquial pronunciation of pula with a final glottal stop. Its written k reflects speech rather than a productive grammatical suffix. DBP records pulak in dialect material while recommending pula in its language advice. The contrast illustrates how conversational spelling can preserve pronunciation that formal writing does not represent. See [PRPM language advice](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pulak).",
+    "cognitive_memory_aid": "记成 pula 说到末尾轻轻“卡”一下：pulak。核心是“又、也、则”，语气可带“怎么偏偏又这样”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友间自然常见；向上级、客户或长辈说 Kenapa pulak? 容易显得顶嘴，可改为 Boleh jelaskan sebabnya?",
+    "usage_etiquette": "适合私人聊天和呈现真实口语的对话。正式报告、考试作文和公函使用 pula；不要把词尾 k 当作可以任意添加的词缀。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友间自然常见；向上级、客户或长辈说 Kenapa pulak? 容易显得顶嘴，可改为 Boleh jelaskan sebabnya?",
+    "usage_etiquette": "适合私人聊天和呈现真实口语的对话。正式报告、考试作文和公函使用 pula；不要把词尾 k 当作可以任意添加的词缀。"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "ed",
+    "syllables": null,
+    "ipa": "/ed/",
+    "jawi": null,
+    "frequency_rank": 2227,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ed",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Ed → Ed（人名）；editor / edition → ed.（书面缩写）",
+    "pattern_note": "音标仅适用于人名 Ed。书目缩写通常按完整词读出；英语后缀 -ed 是另一种形式，不能因输入缺少标点便认定为同一词。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "埃德：英语男性名字，常为 Edward、Edmund 或 Edwin 的简称。",
+      "en_definition": "A masculine given name, commonly a short form of Edward, Edmund, or Edwin.",
+      "ms_definition": "Nama lelaki dalam bahasa Inggeris yang lazimnya merupakan bentuk pendek bagi Edward, Edmund atau Edwin.",
+      "nuances": "人名写作 Ed。数据包缺少上下文，不能确定该词次属于人名、缩写还是其他形式；未核实为 DBP 正式普通词条，马来语释义为编辑撰写。下列为名称组合示例。参见 [Oxford: Ed](https://www.oxfordlearnersdictionaries.com/definition/english/ed_2)。",
+      "collocations": [
+        {
+          "ms": "Encik Ed",
+          "zh": "埃德先生",
+          "en": "Mr Ed"
+        },
+        {
+          "ms": "rakan saya, Ed",
+          "zh": "我的朋友埃德",
+          "en": "my friend Ed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "书目中 ed. 所表示的编辑或编者；在姓名之前也可表示“由……编辑”。",
+      "en_definition": "The written abbreviation ed., meaning editor or, before a name, edited by.",
+      "ms_definition": "Singkatan bertulis ed. yang merujuk kepada editor atau penyunting; sebelum nama, singkatan ini juga boleh bermaksud disunting oleh.",
+      "nuances": "这是带句点的书面缩写，不是普通马来语词根。此处 noun 对应 editor 的名词用法；edited by 是另一个句法用法。排版和缩写须遵循所用引文格式，不能一律省略句点。参见 [Oxford: ed.](https://www.oxfordlearnersdictionaries.com/definition/english/ed_1)。",
+      "collocations": [
+        {
+          "ms": "Ali Ahmad (ed.)",
+          "zh": "阿里·阿末（编）",
+          "en": "Ali Ahmad (editor)"
+        },
+        {
+          "ms": "ed. Ali Ahmad",
+          "zh": "由阿里·阿末编辑",
+          "en": "edited by Ali Ahmad"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "书目中表示“版、版本”的缩写 ed.。",
+      "en_definition": "The written abbreviation ed., meaning edition in bibliographic references.",
+      "ms_definition": "Singkatan bertulis ed. yang bermaksud edisi dalam rujukan bibliografi.",
+      "nuances": "必须结合位置辨义：紧接版次数字时通常表示 edition，位于编者姓名附近时可能表示 editor 或 edited by。马来语行文可直接写 edisi。参见 [Oxford: ed.](https://www.oxfordlearnersdictionaries.com/definition/english/ed_1)。",
+      "collocations": [
+        {
+          "ms": "ed. ke-2",
+          "zh": "第2版",
+          "en": "second edition"
+        },
+        {
+          "ms": "ed. ke-3",
+          "zh": "第3版",
+          "en": "third edition"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "学术写作 / 书目编辑",
+      "ms": "Dalam senarai rujukan, singkatan 'ed.' perlu ditafsirkan mengikut konteks sebagai editor, disunting oleh atau edisi.",
+      "zh": "在参考文献中，缩写“ed.”应根据上下文解释为编者、由……编辑或版本。",
+      "en": "In a reference list, the abbreviation 'ed.' must be interpreted in context as editor, edited by, or edition."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认晚餐安排",
+      "ms_spoken": "Ed dah sampai ke? Aku nak pesan makanan ni.",
+      "ms_standard": "Adakah Ed sudah tiba? Saya hendak memesan makanan sekarang.",
+      "zh": "埃德到了吗？我准备点餐了。",
+      "en": "Has Ed arrived yet? I'm about to order.",
+      "spoken_features": [
+        "Ed 在此为人名，与书目缩写 ed. 不同",
+        "dah 对应 sudah",
+        "句末 ke 表示疑问",
+        "nak 对应 hendak",
+        "ni 在此加强当前情境的语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ed dah sampai ke? Aku nak pesan makanan ni.",
+          "ms_standard": "Adakah Ed sudah tiba? Saya hendak memesan makanan sekarang.",
+          "zh": "埃德到了吗？我准备点餐了。",
+          "en": "Has Ed arrived yet? I'm about to order."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum, dia masih kat luar. Tunggu sekejap je.",
+          "ms_standard": "Belum, dia masih berada di luar. Tunggu sebentar sahaja.",
+          "zh": "还没，他还在外面。再等一小会儿。",
+          "en": "Not yet, he's still outside. Just give him a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ed illustrates how capitalization and punctuation preserve different histories. As a personal name, it shortens names such as Edward, Edmund, and Edwin. In publishing, ed. abbreviates editor, edited by, or edition. A corpus that lowercases text and removes punctuation can merge these forms, leaving an apparently simple token with several unrelated readings. [Name source](https://www.oxfordlearnersdictionaries.com/definition/english/ed_2); [Abbreviation source](https://www.oxfordlearnersdictionaries.com/definition/english/ed_1).",
+    "cognitive_memory_aid": "大写 Ed，先想人名“埃德”；带点 ed.，先看书目位置：人名旁可能是“编”，数字旁可能是“版”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "只有在本人使用或接受 Ed 时才以此称呼，不要擅自把别人的完整姓名缩短。正式场合优先采用本人认可的姓名和称谓。",
+    "usage_etiquette": "人名、出版缩写、全大写缩略语 ED 和英语后缀 -ed 应分别处理。缺少原始上下文时，不宜把输入 ed 自动归入任何一个确定类别。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "只有在本人使用或接受 Ed 时才以此称呼，不要擅自把别人的完整姓名缩短。正式场合优先采用本人认可的姓名和称谓。",
+    "usage_etiquette": "人名、出版缩写、全大写缩略语 ED 和英语后缀 -ed 应分别处理。缺少原始上下文时，不宜把输入 ed 自动归入任何一个确定类别。"
+  }
+}
