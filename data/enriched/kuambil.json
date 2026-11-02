@@ -1,0 +1,150 @@
+{
+  "headword": {
+    "word": "kuambil",
+    "syllables": null,
+    "ipa": "/ku.ambil/",
+    "jawi": null,
+    "frequency_rank": 13282,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ambil",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku- + ambil → kuambil",
+    "pattern_note": "ku- 是 aku 的前附着代词，严格说不是派生前缀；此处按字段结构归入 prefix。与 ambil 连写，不发生鼻音同化。输入包将 kuambil 标为词根有误，已纠正。参见 [DBP 代词说明](https://dewanbahasa.jendeladbp.my/2024/02/20/12033/)。",
+    "word_family": [
+      {
+        "word": "mengambil",
+        "affix": "meN-",
+        "gloss": "拿取；领取"
+      },
+      {
+        "word": "diambil",
+        "affix": "di-",
+        "gloss": "被拿取"
+      },
+      {
+        "word": "pengambilan",
+        "affix": "peN-...-an",
+        "gloss": "领取；招收；摄取"
+      }
+    ],
+    "root_jawi": "امبيل"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "我拿取、拿走或取出；在宾语前置结构中表示某物由我拿取。",
+      "en_definition": "I take, took, or have taken; taken by me in an object-fronted construction.",
+      "ms_definition": "Bentuk ku- bersama ambil yang menyatakan perbuatan mengambil sesuatu oleh penutur sendiri.",
+      "nuances": "本身不标时态，须由 sudah、akan 或上下文判断。常见于 Buku itu kuambil 等宾语前置结构，也见于文学叙述。属于规范拼写形式，不表示 DBP 将其另立为独立词条。频次排名沿用输入包。基本词义参见 [DBP：ambil](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=ambil)。",
+      "collocations": [
+        {
+          "ms": "kuambil dari atas meja",
+          "zh": "我从桌上拿取",
+          "en": "taken by me from the table"
+        },
+        {
+          "ms": "kuambil dari dalam beg",
+          "zh": "我从包里取出",
+          "en": "taken by me from the bag"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "我去领取、取回或接回某物或某人。",
+      "en_definition": "I collect, fetch, or pick up someone or something.",
+      "ms_definition": "Bentuk yang menyatakan bahawa penutur mendapatkan seseorang atau sesuatu dari sesuatu tempat untuk dibawa bersama atau dibawa pulang.",
+      "nuances": "与第一义的差别在于通常包含前往某处接取的过程；如领取药物、接孩子。口语通常使用 aku ambil 或 saya ambil。",
+      "collocations": [
+        {
+          "ms": "kuambil di farmasi",
+          "zh": "我在药房领取",
+          "en": "collected by me at the pharmacy"
+        },
+        {
+          "ms": "kuambil dari sekolah",
+          "zh": "我从学校接回",
+          "en": "picked up by me from school"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "用于固定表达，表示我考虑、采用或采取某事。",
+      "en_definition": "I take into account, adopt, or undertake, depending on the accompanying expression.",
+      "ms_definition": "Bentuk ambil dengan pelaku ku- dalam ungkapan yang merujuk pertimbangan, pemilihan atau tindakan.",
+      "nuances": "不能逐字理解为拿走实体物品；具体意义由 ambil kira、ambil sebagai contoh 等完整表达决定。",
+      "collocations": [
+        {
+          "ms": "kuambil kira",
+          "zh": "我加以考虑",
+          "en": "taken into account by me"
+        },
+        {
+          "ms": "kuambil sebagai contoh",
+          "zh": "我用作例子",
+          "en": "taken by me as an example"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "书面个人陈述 / 工作汇报；使用第一人称叙述，公文一般更宜用 saya",
+      "ms": "Dokumen yang kuambil daripada arkib itu telah diserahkan kepada pegawai audit.",
+      "zh": "我从档案室取出的那份文件已交给审计人员。",
+      "en": "The document I retrieved from the archives has been handed to the audit officer."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人交流；kuambil 带稍显文学化或俏皮的语气",
+      "ms_spoken": "Buku kau tu dah kuambil kat pejabat, nanti aku bagi.",
+      "ms_standard": "Buku kamu itu sudah aku ambil di pejabat; nanti aku berikan kepada kamu.",
+      "zh": "你的书我已经在办公室拿了，晚点给你。",
+      "en": "I've picked up your book from the office. I'll give it to you later.",
+      "spoken_features": [
+        "kau 为熟人间的第二人称代词",
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "kuambil 在此带俏皮的书面语色彩，日常也常说 aku ambil"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Buku kau tu dah kuambil kat pejabat, nanti aku bagi.",
+          "ms_standard": "Buku kamu itu sudah aku ambil di pejabat; nanti aku berikan kepada kamu.",
+          "zh": "你的书我已经在办公室拿了，晚点给你。",
+          "en": "I've picked up your book from the office. I'll give it to you later."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Terima kasih! Letak kat rumah kau dulu je, esok aku ambil.",
+          "ms_standard": "Terima kasih! Simpan sahaja di rumah kamu dahulu; esok aku akan mengambilnya.",
+          "zh": "谢谢！先放你家就好，我明天拿。",
+          "en": "Thanks! Just keep it at your place for now. I'll pick it up tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kuambil illustrates Malay's compact personal narration: ku- is the bound counterpart of aku, attached directly to ambil. The spelling joins a participant and an action without creating a new lexical root. In an object-fronted sentence, the same form identifies the speaker as the person performing the taking. See [DBP's account of clitics](https://dewanbahasa.jendeladbp.my/2024/02/20/12033/).",
+    "cognitive_memory_aid": "ku 联想到 aku（我），ambil 是拿：kuambil＝我来拿。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 与 aku 相关，适合亲近关系、文学及个人心声。对上司、陌生人或正式机构，通常用 saya ambil 更稳妥。",
+    "usage_etiquette": "熟人消息中可营造亲切或俏皮感；正式行政写作一般避免反复使用带个人文学色彩的 ku-。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 与 aku 相关，适合亲近关系、文学及个人心声。对上司、陌生人或正式机构，通常用 saya ambil 更稳妥。",
+    "usage_etiquette": "熟人消息中可营造亲切或俏皮感；正式行政写作一般避免反复使用带个人文学色彩的 ku-。"
+  }
+}

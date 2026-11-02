@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "seharga",
+    "syllables": "se.har.ga",
+    "ipa": "/sə.har.ɡa/",
+    "jawi": "سهرݢ",
+    "frequency_rank": 13223,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "harga",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + harga → seharga",
+    "pattern_note": "se- 的 e 读 /ə/；与 harga 相接时保留 h，无鼻音同化。输入包 Jawi 末尾含异常控制字符 U+0081，本字段按原包保留；去除该字符后的形式为 سهرݢ。",
+    "word_family": [
+      {
+        "word": "berharga",
+        "affix": "ber-",
+        "gloss": "有价格的；珍贵的"
+      },
+      {
+        "word": "menghargai",
+        "affix": "meN-…-i",
+        "gloss": "珍惜；重视；感谢"
+      },
+      {
+        "word": "penghargaan",
+        "affix": "peN-…-an",
+        "gloss": "赞赏；表扬；致谢"
+      }
+    ],
+    "root_jawi": "هرݢ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "价格相同的；与另一物品等价的。",
+      "en_definition": "Equal in price to something else; costing the same.",
+      "ms_definition": "Sama harganya dengan sesuatu yang lain.",
+      "nuances": "通常以 seharga dengan 引出比较对象，只说明价格相同，不表示品质或用途相同。口语也常说 sama harga。[DBP《Kamus Dewan》harga 词条](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=harga)",
+      "collocations": [
+        {
+          "ms": "seharga dengan",
+          "zh": "与……同价",
+          "en": "the same price as"
+        },
+        {
+          "ms": "kedua-duanya seharga",
+          "zh": "两者价格相同",
+          "en": "both cost the same"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "以某一价格；价值或售价为所述金额。",
+      "en_definition": "At a stated price; costing a specified amount.",
+      "ms_definition": "Harganya; dengan harga.",
+      "nuances": "后接金额，如 seharga lima ringgit。此处按价格状语功能归为 adverb；该词类标注是本条目的分析，不是输入包提供的 DBP 词类标签。与义项一不同，这里无需比较对象。[DBP《Kamus Dewan》harga 词条](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=harga)",
+      "collocations": [
+        {
+          "ms": "membeli barang seharga lima ringgit",
+          "zh": "以五令吉购买物品",
+          "en": "to buy an item for five ringgit"
+        },
+        {
+          "ms": "seharga RM10 seunit",
+          "zh": "每件售价十令吉",
+          "en": "priced at RM10 per unit"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Syarikat itu membeli 100 buah kerusi seharga RM80 seunit untuk kegunaan pejabat.",
+      "zh": "该公司以每张八十令吉的价格购买了一百张办公椅。",
+      "en": "The company purchased 100 chairs at RM80 each for office use."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Beg ni seharga dengan yang kat kedai sebelah ke?",
+      "ms_standard": "Adakah beg ini seharga dengan beg yang dijual di kedai sebelah?",
+      "zh": "这个包跟隔壁店那个同价吗？",
+      "en": "Is this bag the same price as the one next door?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "kat 对应 di",
+        "句末 ke 对应标准是非问句结构",
+        "je 对应 sahaja，lah 用于缓和建议"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Beg ni seharga dengan yang kat kedai sebelah ke?",
+          "ms_standard": "Adakah beg ini seharga dengan beg yang dijual di kedai sebelah?",
+          "zh": "这个包跟隔壁店那个同价吗？",
+          "en": "Is this bag the same price as the one next door?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ya, dua-dua lima puluh ringgit je. Ambil yang ni lah kalau suka.",
+          "ms_standard": "Ya, kedua-duanya berharga lima puluh ringgit sahaja. Pilihlah beg ini jika awak menyukainya.",
+          "zh": "对，两个都才五十令吉。喜欢的话就拿这个吧。",
+          "en": "Yes, they're both just fifty ringgit. Get this one if you like it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Seharga illustrates how Malay builds useful expressions from a familiar noun. Harga supplies the idea of price, while se- creates a form that can compare prices or introduce an amount. Kamus Dewan records both uses. A shopper comparing two bags and a clerk recording a purchase can therefore use the same compact word for different pricing relationships. [DBP](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=harga)",
+    "cognitive_memory_aid": "harga 是价格；比较时把 se- 联想为 sama：seharga 就是同价。后面直接跟金额时，记成“价格为……”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "询价可说 Maaf, adakah kedua-duanya seharga?，语气比直接质疑商家定价更温和。",
+    "usage_etiquette": "适合购物、报价和采购说明。同价不代表同规格；交易时宜说清是否包含运输费、税费及每件或整套的计价单位。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "询价可说 Maaf, adakah kedua-duanya seharga?，语气比直接质疑商家定价更温和。",
+    "usage_etiquette": "适合购物、报价和采购说明。同价不代表同规格；交易时宜说清是否包含运输费、税费及每件或整套的计价单位。"
+  }
+}

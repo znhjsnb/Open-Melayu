@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "markov",
+    "syllables": null,
+    "ipa": "/mar.kov/",
+    "jawi": null,
+    "frequency_rank": 13241,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "markov",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Markov → Markov",
+    "pattern_note": "源自姓氏的专名，整词记忆；规范行文通常大写为 Markov。输入未提供音节和爪夷文；IPA 为按马来语字母读音给出的参考读法，并非输入包所载的官方音标。下列词族项为术语组合。",
+    "word_family": [
+      {
+        "word": "rantai Markov",
+        "affix": null,
+        "gloss": "马尔可夫链"
+      },
+      {
+        "word": "model Markov",
+        "affix": null,
+        "gloss": "马尔可夫模型"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "马尔可夫，姓氏；在概率论等术语中通常指俄国数学家安德烈·安德烈耶维奇·马尔可夫，或以其姓氏命名的数学概念。",
+      "en_definition": "Markov, a surname used in mathematical terms, especially those named after the Russian mathematician Andrei Andreyevich Markov.",
+      "ms_definition": "Nama keluarga, khususnya nama ahli matematik Rusia Andrei Andreyevich Markov, yang digunakan dalam penamaan konsep matematik seperti rantai Markov.",
+      "nuances": "词性为专有名词。Markov 本身并不等于“马尔可夫链”；在数学术语中保留姓氏大写。对满足马尔可夫性质的过程，在给定当前状态后，未来状态的条件分布不再依赖更早历史。输入没有提供 DBP 定义，本项为依据学术来源编写的释义。[数学家传记](https://mathshistory.st-andrews.ac.uk/Biographies/Markov/)、[马尔可夫性质讲义](https://statmath.wu.ac.at/~boehm/topics.pdf)。",
+      "collocations": [
+        {
+          "ms": "rantai Markov",
+          "zh": "马尔可夫链",
+          "en": "Markov chain"
+        },
+        {
+          "ms": "model Markov",
+          "zh": "马尔可夫模型",
+          "en": "Markov model"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "学术报告 / 数据分析汇报",
+      "ms": "Kajian ini menggunakan model Markov untuk menganggarkan kebarangkalian peralihan antara keadaan kualiti udara.",
+      "zh": "本研究使用马尔可夫模型估计空气质量状态之间的转移概率。",
+      "en": "This study uses a Markov model to estimate transition probabilities between air-quality states."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论概率论作业",
+      "ms_spoken": "Aku nak guna model Markov untuk tugasan ni, tapi matriks dia belum siap lagi.",
+      "ms_standard": "Aku mahu menggunakan model Markov untuk tugasan ini, tetapi matriksnya masih belum siap.",
+      "zh": "这份作业我想用马尔可夫模型，不过矩阵还没弄好。",
+      "en": "I want to use a Markov model for this assignment, but I haven't finished the matrix yet.",
+      "spoken_features": [
+        "nak 对应 mahu；ni 对应 ini。",
+        "guna 在口语中代替使用 meN- 前缀的 menggunakan。",
+        "matriks dia 在此以 dia 口语回指模型，标准对应形式为 matriksnya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Kau dah cuba guna model Markov untuk tugasan ni?",
+          "ms_standard": "Adakah engkau sudah mencuba menggunakan model Markov untuk tugasan ini?",
+          "zh": "你试过用马尔可夫模型做这份作业了吗？",
+          "en": "Have you tried using a Markov model for this assignment?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Dah, tapi aku nak semak matriks peralihan tu dulu.",
+          "ms_standard": "Sudah, tetapi aku mahu menyemak matriks peralihan itu terlebih dahulu.",
+          "zh": "试过了，不过我想先检查一下那个转移矩阵。",
+          "en": "Yes, but I want to check the transition matrix first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Markov entered mathematical terminology as a surname commemorating the Russian mathematician Andrei Andreyevich Markov. His work on dependent random variables led to the chains associated with his name, first appearing in his writings in 1906. Malay mathematical writing retains the name in expressions such as rantai Markov, combining a Malay descriptive noun with the commemorative surname. [Historical account](https://encyclopediaofmath.org/wiki/Markov%2C_Andrei_Andreevich)、[Malay terminology](https://ism.um.edu.my/Image/Research/Links/MATHEMATICAL%20%26%20STATISTICAL%20TERMS/english_to_bm.pdf)",
+    "cognitive_memory_aid": "把 Markov 想成“标记当前这一格”：给定当前状态，再计算下一步的概率。这个联想帮助记住马尔可夫性质，非词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的学术专名，无特殊敬语要求。面向非专业读者时，首次出现宜解释完整术语及其用途。",
+    "usage_etiquette": "适用于概率论、统计、计算机科学等语境；正式文本通常写作 Markov。讨论模型结果时使用“概率”“估计”等准确表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的学术专名，无特殊敬语要求。面向非专业读者时，首次出现宜解释完整术语及其用途。",
+    "usage_etiquette": "适用于概率论、统计、计算机科学等语境；正式文本通常写作 Markov。讨论模型结果时使用“概率”“估计”等准确表达。"
+  }
+}

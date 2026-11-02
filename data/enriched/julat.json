@@ -1,0 +1,175 @@
+{
+  "headword": {
+    "word": "julat",
+    "syllables": "ju.lat",
+    "ipa": "/dʒu.lat/",
+    "jawi": "جولت",
+    "frequency_rank": 13186,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "julat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + julat → julat",
+    "pattern_note": "词根无词缀。添加 meN-、peN- 时分别形成 menjulat、penjulat；鼻音前缀在 j 前采用 men-、pen-，保留 j。",
+    "word_family": [
+      {
+        "word": "menjulat",
+        "affix": "meN-",
+        "gloss": "伸达；火焰向上蹿或舔舐"
+      },
+      {
+        "word": "penjulat",
+        "affix": "peN-",
+        "gloss": "测距仪"
+      },
+      {
+        "word": "sejulat",
+        "affix": "se-",
+        "gloss": "如某物那么长；古典用法"
+      },
+      {
+        "word": "sepenjulat",
+        "affix": "se- + peN-",
+        "gloss": "远至某物所能达到的距离"
+      }
+    ],
+    "root_jawi": "جولت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "范围；以两个数值界限表示的区间。",
+      "en_definition": "A range or interval between two numerical limits.",
+      "ms_definition": "Lingkungan antara dua had yang dinyatakan dengan angka.",
+      "nuances": "现代常用义，适用于价格、温度、年龄、频率等可量化项目。表示上下界所限定的区间时，不必计算两者之差。释义依据 [DBP PRPM：julat](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=julat)。",
+      "collocations": [
+        {
+          "ms": "julat harga",
+          "zh": "价格范围",
+          "en": "price range"
+        },
+        {
+          "ms": "julat suhu",
+          "zh": "温度范围",
+          "en": "temperature range"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "极差；一组数据中最大值减去最小值所得的差。",
+      "en_definition": "The difference between the greatest and smallest values in a dataset.",
+      "ms_definition": "Ukuran sebaran data yang diperoleh dengan menolak nilai minimum daripada nilai maksimum.",
+      "nuances": "统计学专义。例如数据 3、7、11 的 julat 是 8。须与一般意义的数值区间区分。依据 [DBP 学校数学术语：julat](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=julat)。",
+      "collocations": [
+        {
+          "ms": "mengira julat",
+          "zh": "计算极差",
+          "en": "calculate the range"
+        },
+        {
+          "ms": "julat markah",
+          "zh": "分数的极差",
+          "en": "the range of scores"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "值域；函数或关系实际取得的所有输出值组成的集合。",
+      "en_definition": "The set of output values actually attained by a function or relation.",
+      "ms_definition": "Set semua nilai imej yang terhasil daripada pemetaan unsur domain sesuatu fungsi atau hubungan.",
+      "nuances": "数学专义。值域属于陪域 kodomain 的子集，未必等于整个陪域，也未必是连续区间。依据 [DBP 学校数学术语：julat](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=julat)。",
+      "collocations": [
+        {
+          "ms": "julat fungsi",
+          "zh": "函数的值域",
+          "en": "the range of a function"
+        },
+        {
+          "ms": "domain dan julat",
+          "zh": "定义域与值域",
+          "en": "domain and range"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "【古典马来语】未用固定单位明确限定的长度、距离或时间跨度。",
+      "en_definition": "An indefinite measure of length, distance, or duration in classical Malay.",
+      "ms_definition": "Ukuran panjang atau tempoh yang tidak ditentukan secara tetap dalam penggunaan Melayu klasik.",
+      "nuances": "DBP 标记 sl，表示 bahasa Melayu klasik。常见于带前缀的表达；以下为词族中的古典例式，不代表现代高频搭配。依据 [DBP PRPM：julat](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=julat)。",
+      "collocations": [
+        {
+          "ms": "sejulat perahu",
+          "zh": "一条船那么长",
+          "en": "the length of a boat"
+        },
+        {
+          "ms": "sepenjulat mata",
+          "zh": "目力所及的距离",
+          "en": "as far as the eye can see"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Berdasarkan tinjauan pasaran, harga produk tersebut berada dalam julat RM50 hingga RM80 seunit.",
+      "zh": "根据市场调查，该产品的单价介于50至80令吉之间。",
+      "en": "According to the market survey, the product costs between RM50 and RM80 per unit."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak cari kasut dalam julat RM100 sampai RM150 je.",
+      "ms_standard": "Saya mahu mencari kasut dalam julat harga RM100 hingga RM150 sahaja.",
+      "zh": "我就想找一双100到150令吉的鞋。",
+      "en": "I'm just looking for shoes in the RM100 to RM150 range.",
+      "spoken_features": [
+        "aku：熟人之间使用的第一人称代词",
+        "nak：hendak 或 mahu 的口语表达",
+        "sampai：这里口语表示数值上限，标准表达用 hingga",
+        "je：sahaja 的口语形式",
+        "julat 带有量化语气，日常聊天中常在讨论预算或规格时使用"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak cari kasut dalam julat RM100 sampai RM150 je. Kau dah tengok kat kedai tu?",
+          "ms_standard": "Saya mahu mencari kasut dalam julat harga RM100 hingga RM150 sahaja. Adakah kamu sudah melihat pilihan di kedai itu?",
+          "zh": "我就想找100到150令吉的鞋。你看过那家店了吗？",
+          "en": "I'm looking for shoes in the RM100 to RM150 range. Have you checked that shop?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Kat situ ada beberapa pasang dalam julat harga tu.",
+          "ms_standard": "Sudah. Di situ terdapat beberapa pasang kasut dalam julat harga tersebut.",
+          "zh": "看过了。那里有几双在这个价位内。",
+          "en": "Yes. They've got a few pairs in that price range."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records julat both as a classical measure of unspecified length or duration and as a modern numerical range. Its word family includes penjulat, a rangefinder, and sepenjulat mata, referring to how far the eye can see. These uses offer a memorable connection between physical reach and numerical limits; they do not establish a dated borrowing history. [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=julat)",
+    "cognitive_memory_aid": "把 julat 记成一把两端有界限的尺：一般用法看两端之间的范围，统计学算最大值减最小值。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性、规范，适合课堂、报告和预算讨论。与长辈或客户交谈时可照常使用；例句中的 aku、kau 则宜限于关系熟悉的人。",
+    "usage_etiquette": "谈价格或薪资时给出上下限及单位，例如 julat RM3,000 hingga RM4,000 sebulan。提问他人薪资仍涉及隐私，可先征询对方是否方便透露。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性、规范，适合课堂、报告和预算讨论。与长辈或客户交谈时可照常使用；例句中的 aku、kau 则宜限于关系熟悉的人。",
+    "usage_etiquette": "谈价格或薪资时给出上下限及单位，例如 julat RM3,000 hingga RM4,000 sebulan。提问他人薪资仍涉及隐私，可先征询对方是否方便透露。"
+  }
+}

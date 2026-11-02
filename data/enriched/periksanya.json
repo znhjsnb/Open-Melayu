@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "periksanya",
+    "syllables": null,
+    "ipa": "/pə.rik.sa.ɲa/",
+    "jawi": "ڤريقسا",
+    "frequency_rank": 13291,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "periksa",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "periksa + -nya → periksanya",
+    "pattern_note": "-nya 是附着代词，严格说属于附着语素，并非普通派生后缀；此处按字段归入 suffix。连接时词根不变，ny 表示 /ɲ/。输入 Jawi ڤريقسا 只对应 periksa；完整形式应加上 ڽ，写作 ڤريقساڽ。输入未提供分音节；按构成可分为 pe.rik.sa.nya。periksa 是完整词根，不拆成 per- + iksa。",
+    "word_family": [
+      {
+        "word": "memeriksa",
+        "affix": "meN-",
+        "gloss": "检查；查验"
+      },
+      {
+        "word": "pemeriksaan",
+        "affix": "peN-...-an",
+        "gloss": "检查；检验"
+      },
+      {
+        "word": "pemeriksa",
+        "affix": "peN-",
+        "gloss": "检查员；检验者"
+      },
+      {
+        "word": "peperiksaan",
+        "affix": "pe-...-an",
+        "gloss": "考试"
+      }
+    ],
+    "root_jawi": "ڤريقسا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "检查、查验或诊察他、她或前文所指的对象；具体指代须由上下文确定。",
+      "en_definition": "Examine or check him, her, or the previously mentioned object, especially in an instruction.",
+      "ms_definition": "Periksa orang atau perkara yang dirujuk oleh -nya untuk mengetahui keadaannya.",
+      "nuances": "这是 periksa 与 -nya 的规范组合分析，不表示已核实 periksanya 是 DBP 独立词条；马来文释义为组合释义。祈使句可用 Periksanya dahulu；正式主动陈述句通常用 memeriksanya，例如 Doktor akan memeriksanya。IPA 为按构词推定的宽式标音。词义依据：[DBP：periksa](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=periksa)；附着代词依据：[DBP：-nya](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tatabahasa+nya)。",
+      "collocations": [
+        {
+          "ms": "periksanya dahulu",
+          "zh": "先检查他／她／它",
+          "en": "check him, her, or it first"
+        },
+        {
+          "ms": "periksanya dengan teliti",
+          "zh": "仔细检查他／她／它",
+          "en": "examine him, her, or it carefully"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "其调查、查究或审察；见于旧式书面语，具体含义取决于上下文。",
+      "en_definition": "His, her, or its inquiry or investigation, in older literary usage.",
+      "ms_definition": "Penyelidikan atau siasatan yang berkaitan dengan pihak yang dirujuk oleh -nya.",
+      "nuances": "词根 periksa 也有名词性的“调查、查究”义，因此 -nya 可表所属。孤立词形不足以判定它一定是动词。此义的现代常用表达是 pemeriksaannya 或 penyiasatannya；以下为释义性组合，不视为已核实的现代高频搭配。词根依据：[DBP：periksa](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=periksa)。",
+      "collocations": [
+        {
+          "ms": "usul periksanya",
+          "zh": "其查究与调查",
+          "en": "his or her inquiries and investigation"
+        },
+        {
+          "ms": "hasil periksanya",
+          "zh": "其调查结果",
+          "en": "the findings of his or her investigation"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pesakit itu masih demam; sila periksanya semula sebelum membenarkannya pulang.",
+      "zh": "该患者仍在发烧；请再次为他检查，再决定是否准许他离院。",
+      "en": "The patient still has a fever; please examine him again before allowing him to go home."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Adik masih demam. Tolong periksanya dulu, ya.",
+      "ms_standard": "Adik masih demam. Tolong periksanya dahulu.",
+      "zh": "弟弟还在发烧，麻烦先帮他检查一下。",
+      "en": "My little brother still has a fever. Please check him first.",
+      "spoken_features": [
+        "dulu 在这里对应 dahulu。",
+        "ya 用来缓和请求语气。",
+        "periksanya 带有书面色彩；更随意的口语常说 periksa dia。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (患者家属)",
+          "ms_spoken": "Adik masih demam. Tolong periksanya dulu, ya.",
+          "ms_standard": "Adik masih demam. Tolong periksanya dahulu.",
+          "zh": "弟弟还在发烧，麻烦先帮他检查一下。",
+          "en": "My little brother still has a fever. Please check him first."
+        },
+        {
+          "speaker": "Dr. Amir (医生)",
+          "ms_spoken": "Baik, saya akan memeriksanya sekarang. Tunggu kat luar dulu, ya.",
+          "ms_standard": "Baik, saya akan memeriksanya sekarang. Sila tunggu di luar dahulu.",
+          "zh": "好，我现在就给他检查。你先在外面等一下。",
+          "en": "All right, I'll examine him now. Please wait outside for a moment."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Periksa ultimately comes from Sanskrit parīkṣā, meaning investigation or examination. Its initial per- belongs to the borrowed root rather than being a Malay prefix. Malay subsequently built forms such as memeriksa and pemeriksaan around it. Periksanya adds the attached pronoun -nya, whose reference must be recovered from the surrounding sentence. Source: [linguistic study of Malay affixes](https://brill.com/view/journals/bki/165/2-3/article-p291_4.pdf).",
+    "cognitive_memory_aid": "periksa 是“检查”，-nya 把前文对象接回来：periksanya，就是“检查他／她／它”；先找对象，再定译法。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Periksanya! 可能显得命令意味较强。请求医生、同事或服务人员协助时，加 sila、tolong 或 boleh，例如 Boleh doktor periksa adik saya?",
+    "usage_etiquette": "医疗、安检或调查语境中应明确检查对象，避免 -nya 指代不清。尊称对象可直接使用姓名或合适称谓；不能只凭这一词形推断性别。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Periksanya! 可能显得命令意味较强。请求医生、同事或服务人员协助时，加 sila、tolong 或 boleh，例如 Boleh doktor periksa adik saya?",
+    "usage_etiquette": "医疗、安检或调查语境中应明确检查对象，避免 -nya 指代不清。尊称对象可直接使用姓名或合适称谓；不能只凭这一词形推断性别。"
+  }
+}

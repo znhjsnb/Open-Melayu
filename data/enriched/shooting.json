@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "shooting",
+    "syllables": null,
+    "ipa": "/ˈʃuːtɪŋ/",
+    "jawi": null,
+    "frequency_rank": 13273,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "shooting",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + shooting → shooting（按马来语语码转换整词处理）；英语内部：shoot + -ing → shooting",
+    "pattern_note": "is_root 与 root_word 保留原包在马来语处理层面的整词分析，不表示它在英语中不可再分。英语内部的 -ing 是后缀，可构成分词或动名词；不是马来语词缀。包内没有音节和爪夷文，保留 null。",
+    "word_family": [
+      {
+        "word": "shoot",
+        "affix": "∅（英语基础形式）",
+        "gloss": "拍摄；射击"
+      },
+      {
+        "word": "shooter",
+        "affix": "-er（英语后缀）",
+        "gloss": "射手；开枪者"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "拍摄；用摄影机制作电影、电视剧或其他影像的活动。在马来语口语语码转换中可保留英语形式。",
+      "en_definition": "The activity or process of recording a film or other video production.",
+      "ms_definition": "Penggambaran; pemfileman.",
+      "nuances": "DBP 的《Kamus Inggeris-Melayu Dewan》为英语 shooting 提供 penggambaran、pemfileman 等译法；这不等于确认 shooting 是规范马来语拼写。以下为口语混用搭配。[DBP：shooting 的影视义](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=penggambaran)",
+      "collocations": [
+        {
+          "ms": "shooting drama",
+          "zh": "拍摄电视剧",
+          "en": "filming a television drama"
+        },
+        {
+          "ms": "lokasi shooting",
+          "zh": "拍摄地点",
+          "en": "filming location"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "英语义：射击活动，尤其指用枪进行的射击、射击运动或狩猎。",
+      "en_definition": "The activity of firing a gun, including target shooting and hunting.",
+      "ms_definition": "Dalam bahasa Inggeris, kegiatan menembak, termasuk sukan menembak atau pemburuan dengan senjata api.",
+      "nuances": "本义属于英语；正式马来语通常使用 menembak、sukan menembak 或按活动具体译出。以下 ms 字段列马来语译法，并注明英语搭配。[Oxford：shooting](https://www.oxfordlearnersdictionaries.com/definition/english/shooting)",
+      "collocations": [
+        {
+          "ms": "latihan menembak (Inggeris: shooting practice)",
+          "zh": "射击训练",
+          "en": "shooting practice"
+        },
+        {
+          "ms": "menembak sasaran (Inggeris: target shooting)",
+          "zh": "打靶；目标射击",
+          "en": "target shooting"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "英语义：枪击事件，指有人遭枪械射击的事件；不必然意味着受害者死亡。",
+      "en_definition": "An incident in which someone is shot with a gun.",
+      "ms_definition": "Dalam bahasa Inggeris, kejadian seseorang ditembak dengan senjata api.",
+      "nuances": "与影视拍摄义必须依上下文区分。英语中此义可数，可用复数 shootings；马来语新闻通常写 kejadian tembakan 或 kes tembakan。[Oxford：shooting](https://www.oxfordlearnersdictionaries.com/definition/english/shooting)",
+      "collocations": [
+        {
+          "ms": "kejadian tembakan (Inggeris: shooting incident)",
+          "zh": "枪击事件",
+          "en": "shooting incident"
+        },
+        {
+          "ms": "tembakan yang membawa maut (Inggeris: fatal shooting)",
+          "zh": "致命枪击",
+          "en": "fatal shooting"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 制作进度说明",
+      "ms": "Aktiviti yang disebut sebagai shooting dalam perbualan kru dijadualkan sebagai penggambaran drama dalam laporan rasmi.",
+      "zh": "剧组交谈中称为 shooting 的活动，在正式报告中列为电视剧拍摄。",
+      "en": "The activity referred to as shooting in crew conversations is listed as drama filming in the official report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 剧组同事确认拍摄地点",
+      "ms_spoken": "Esok kita ada shooting kat studio je.",
+      "ms_standard": "Esok kita menjalankan penggambaran di studio sahaja.",
+      "zh": "明天我们就在摄影棚拍。",
+      "en": "We're filming only at the studio tomorrow.",
+      "spoken_features": [
+        "shooting 是嵌入马来语句子的英语影视用语",
+        "kat 对应 di",
+        "je 对应 sahaja",
+        "口语 ada shooting 对应较正式的 menjalankan penggambaran"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (制片同事)",
+          "ms_spoken": "Esok shooting kat mana? Saya nak susun pengangkutan.",
+          "ms_standard": "Di manakah penggambaran esok akan dijalankan? Saya hendak mengatur pengangkutan.",
+          "zh": "明天在哪儿拍？我要安排交通。",
+          "en": "Where are we filming tomorrow? I need to arrange transport."
+        },
+        {
+          "speaker": "Amir (导演同事)",
+          "ms_spoken": "Kat studio je. Jadual dah saya hantar dalam grup.",
+          "ms_standard": "Di studio sahaja. Saya sudah menghantar jadual dalam kumpulan perbualan.",
+          "zh": "就在摄影棚。时间表我已经发群里了。",
+          "en": "Just at the studio. I've already sent the schedule to the group chat."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Shooting combines the English verb shoot with the ending -ing. English uses shoot for both firing a weapon and recording images with a camera, so shooting inherited both domains. In Malay translation, these meanings separate clearly: penggambaran for film production, and menembak or tembakan for firearm contexts. [Cambridge：shoot](https://dictionary.cambridge.org/dictionary/english/shoot)",
+    "cognitive_memory_aid": "先看场景再解码 shooting：摄影棚里是 penggambaran，靶场上是 menembak，枪击新闻里是 kejadian tembakan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "影视同事的熟人交流中可以出现 shooting；面向机构、公众或跨部门读者的正式文件，使用 penggambaran 更清楚。",
+    "usage_etiquette": "脱离影视背景时应明确说明拍摄对象或活动，避免与枪击义混淆。报道真实枪击事件时，应采用清楚、克制的措辞，并区别受伤与死亡。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "影视同事的熟人交流中可以出现 shooting；面向机构、公众或跨部门读者的正式文件，使用 penggambaran 更清楚。",
+    "usage_etiquette": "脱离影视背景时应明确说明拍摄对象或活动，避免与枪击义混淆。报道真实枪击事件时，应采用清楚、克制的措辞，并区别受伤与死亡。"
+  }
+}

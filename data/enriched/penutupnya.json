@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "penutupnya",
+    "syllables": null,
+    "ipa": "/pə.nu.tup.ɲa/",
+    "jawi": "ڤنوتوڤ",
+    "frequency_rank": 13244,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penutup",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "penutup + -nya → penutupnya；底层构词：peN- + tutup → penutup",
+    "pattern_note": "root_word 按输入指直接词基 penutup，底层词根为 tutup。peN- 与 tutup 结合时，词首 t 脱落，鼻音为 n。-nya 在此主要是附着代词或指称成分，并非普通派生后缀。headword.jawi 按要求保留数据包原值，但 ڤنوتوڤ 只对应 penutup；完整 penutupnya 应写作 ڤنوتوڤڽ。音节可分析为 pe.nu.tup.nya，syllables 字段保留输入的 null。",
+    "word_family": [
+      {
+        "word": "menutup",
+        "affix": "meN-",
+        "gloss": "关闭；盖上；结束"
+      },
+      {
+        "word": "penutupan",
+        "affix": "peN-...-an",
+        "gloss": "关闭、终止或结束的过程"
+      }
+    ],
+    "root_jawi": "ڤنوتوڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "它的盖子、罩子或封盖；也可依语境指某人所属或所用的盖子。",
+      "en_definition": "Its, his, or her lid, cover, or cap, as determined by context.",
+      "ms_definition": "Penudung atau alat penutup bagi benda yang dirujuk, atau yang dimiliki oleh seseorang.",
+      "nuances": "penutup 指实体盖具；-nya 的所指须由上下文确定，不编码性别。常见情况是指前文提到的瓶子、容器等的盖子。本条为 penutup 加 -nya 的组合义。[DBP：penutup](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=penutup+).",
+      "collocations": [
+        {
+          "ms": "buka penutupnya",
+          "zh": "打开它的盖子",
+          "en": "open its lid"
+        },
+        {
+          "ms": "pasang penutupnya",
+          "zh": "装上它的盖子",
+          "en": "fit its cover"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "文章、演讲、故事等的结尾、结束语或收尾部分。",
+      "en_definition": "The ending or concluding part of the text, speech, or other work referred to.",
+      "ms_definition": "Bahagian akhir atau kata pengakhiran bagi karangan, ucapan atau cerita yang dirujuk.",
+      "nuances": "作为篇章成分时仍是名词；sebagai penutupnya 可用于引出结束语，功能上接近“最后”。不应把所有独立的 penutupnya 都机械译成“总之”。[DBP：penutup](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=penutup+), [DBP：sebagai penutupnya](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penutupnya).",
+      "collocations": [
+        {
+          "ms": "sebagai penutupnya",
+          "zh": "作为结语；最后",
+          "en": "in closing"
+        },
+        {
+          "ms": "bahagian penutupnya",
+          "zh": "其结尾部分",
+          "en": "its concluding section"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 演讲结束语",
+      "ms": "Sebagai penutupnya, saya ingin merakamkan penghargaan kepada semua pihak yang menjayakan program ini.",
+      "zh": "最后，我谨向所有促成本次活动顺利举行的各方致谢。",
+      "en": "In closing, I would like to thank everyone who helped make this programme a success."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 寻找水瓶盖",
+      "ms_spoken": "Botol ni ada, tapi penutupnya kat mana?",
+      "ms_standard": "Botol ini ada di sini, tetapi di manakah penutupnya?",
+      "zh": "瓶子在这儿，可盖子在哪儿？",
+      "en": "The bottle’s here, but where’s the cap?",
+      "spoken_features": [
+        "ni：ini 的口语形式",
+        "kat：di 的口语对应形式",
+        "省略完整的地点说明，依赖双方共同语境"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Aku nak isi air dalam botol ni. Penutupnya kat mana?",
+          "ms_standard": "Saya hendak mengisi air ke dalam botol ini. Di manakah penutupnya?",
+          "zh": "我想往这个瓶子里装水。盖子在哪儿？",
+          "en": "I want to fill this bottle with water. Where’s the cap?"
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Kat tepi sinki je. Aku dah basuh tadi.",
+          "ms_standard": "Penutupnya berada di tepi singki sahaja. Saya sudah membasuhnya tadi.",
+          "zh": "就在水槽边上，我刚洗过。",
+          "en": "It’s right beside the sink. I washed it earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penutupnya combines penutup with the attached form -nya. The base penutup is formed from tutup and the productive noun-forming prefix peN-. Its meanings connect a physical cover with the closing part of a speech or composition. This offers a useful semantic bridge: a lid closes a container, while concluding words close a text. [DBP：penutup](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=penutup+).",
+    "cognitive_memory_aid": "tutup＝关；penutup＝用来关住或收尾的东西；加 -nya＝“它的盖子／它的结尾”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "实体义本身中性。请别人操作时可说 Tolong buka penutupnya。正式致辞中，Sebagai penutupnya, saya ingin… 是自然的收尾表达。",
+    "usage_etiquette": "使用 -nya 时确保听者知道所指对象。谈活动结束的过程时须区分 penutup 与 penutupan；DBP 建议正式仪式名称采用 Majlis Perasmian Penutupan。[DBP 用语说明](https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=syarahan+surat)."
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "实体义本身中性。请别人操作时可说 Tolong buka penutupnya。正式致辞中，Sebagai penutupnya, saya ingin… 是自然的收尾表达。",
+    "usage_etiquette": "使用 -nya 时确保听者知道所指对象。谈活动结束的过程时须区分 penutup 与 penutupan；DBP 建议正式仪式名称采用 Majlis Perasmian Penutupan。[DBP 用语说明](https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=syarahan+surat)."
+  }
+}

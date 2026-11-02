@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "sebarangan",
+    "syllables": null,
+    "ipa": "[sə.ba.ra.ŋan]",
+    "jawi": "سبارڠ",
+    "frequency_rank": 13248,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sebarang",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "sebarang + -an → sebarangan",
+    "pattern_note": "接 -an 时保留词干；ng 表示单一鼻音 /ŋ/，派生形式可读作 sə.ba.ra.ŋan。不可误拆为 sebar + -angan。保留输入Jawi，但 سبارڠ 仅对应 sebarang，未包含 -an。",
+    "word_family": [
+      {
+        "word": "sebarang",
+        "affix": "∅",
+        "gloss": "任何；普通的；本词直接基形"
+      },
+      {
+        "word": "barang",
+        "affix": "∅",
+        "gloss": "物品；在 barang siapa 等结构中表示任何"
+      }
+    ],
+    "root_jawi": "سبارڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "任意的；在给定条件或范围内，未特别指定某一取值或对象的，尤用于数学及技术术语。",
+      "en_definition": "Arbitrary; not specifically fixed or designated, especially in mathematical and technical usage.",
+      "ms_definition": "Tidak ditentukan secara khusus dan boleh dipilih dalam lingkungan syarat yang berkenaan, terutama dalam penggunaan istilah matematik atau teknikal.",
+      "nuances": "DBP说明 sebarangan 常用作 arbitrary 的术语对应词；不要直接套用输入中基形 sebarang 的全部释义。它与表示“不加查究、随便地”的 sembarangan 有使用区别。数学中的“任意”也不等于通过随机程序选取。[DBP用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sembarangan)",
+      "collocations": [
+        {
+          "ms": "pemalar sebarangan",
+          "zh": "任意常数",
+          "en": "arbitrary constant"
+        },
+        {
+          "ms": "secara sebarangan",
+          "zh": "任意地；未按某一特定取值确定地",
+          "en": "arbitrarily"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "技术报告 / 学术说明",
+      "ms": "Penyelesaian am persamaan itu mengandungi pemalar sebarangan yang nilainya ditentukan melalui syarat awal.",
+      "zh": "该方程的通解包含一个任意常数，其数值由初始条件确定。",
+      "en": "The general solution of the equation contains an arbitrary constant whose value is determined by the initial condition."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论数学作业",
+      "ms_spoken": "C tu pemalar sebarangan je, kan?",
+      "ms_standard": "C itu pemalar sebarangan, bukan?",
+      "zh": "C就是个任意常数，对吧？",
+      "en": "C is just an arbitrary constant, right?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "je 对应 sahaja，表示“只是”。",
+        "句末 kan 用于寻求确认。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "C tu pemalar sebarangan je, kan?",
+          "ms_standard": "C itu pemalar sebarangan, bukan?",
+          "zh": "C就是个任意常数，对吧？",
+          "en": "C is just an arbitrary constant, right?"
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Haah, nilai dia belum ditetapkan lagi.",
+          "ms_standard": "Ya, nilainya belum ditetapkan.",
+          "zh": "对，它的值还没定下来。",
+          "en": "Yes, its value hasn’t been fixed yet."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In Malaysian technical vocabulary, sebarangan has a precise role as an equivalent of arbitrary. A mathematician’s pemalar sebarangan is a constant whose particular value has not been fixed. This specialised use explains why the word should not automatically be understood as careless behaviour: DBP distinguishes it from sembarangan, used for acting without proper consideration. [Mathematical terminology](https://umcms.um.edu.my/sites/institute-of-mathematical-sciences/ISM/Research/Links/MATHEMATICAL%20%26%20STATISTICAL%20TERMS/bm_to_english.pdf)",
+    "cognitive_memory_aid": "把 sebarangan 绑在公式里的 C 上：pemalar sebarangan＝任意常数。说“别乱指责”则记 Jangan menuduh sembarangan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "数学与技术交流中通常是中性描述，不含批评意味。若讨论他人的决定，应说明“任意”的具体含义，以免被理解为指责对方草率。",
+    "usage_etiquette": "适合说明未特别指定的常数、选择或取值。表达“不经查证便指责”时，采用 menuduh sembarangan，避免混淆技术上的任意性与行为上的随便。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "数学与技术交流中通常是中性描述，不含批评意味。若讨论他人的决定，应说明“任意”的具体含义，以免被理解为指责对方草率。",
+    "usage_etiquette": "适合说明未特别指定的常数、选择或取值。表达“不经查证便指责”时，采用 menuduh sembarangan，避免混淆技术上的任意性与行为上的随便。"
+  }
+}

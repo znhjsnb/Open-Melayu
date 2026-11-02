@@ -1,0 +1,138 @@
+{
+  "headword": {
+    "word": "diarah",
+    "syllables": null,
+    "ipa": "/di.a.rah/",
+    "jawi": null,
+    "frequency_rank": 13257,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "diarah",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + arah → diarah",
+    "pattern_note": "实际构词词根为 arah；root_word 按输入保留。被动前缀 di- 与词根连写，不发生鼻音替代；它本身不标记过去时。输入未提供 Jawi，相关字段保留 null。",
+    "word_family": [
+      {
+        "word": "arah",
+        "affix": "∅",
+        "gloss": "方向；指向"
+      },
+      {
+        "word": "mengarah",
+        "affix": "meN-",
+        "gloss": "指挥；导演；朝向"
+      },
+      {
+        "word": "mengarahkan",
+        "affix": "meN-...-kan",
+        "gloss": "命令；使朝向"
+      },
+      {
+        "word": "arahan",
+        "affix": "-an",
+        "gloss": "指示；命令"
+      },
+      {
+        "word": "pengarah",
+        "affix": "peN-",
+        "gloss": "导演；主管"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "受到指示或命令去做某事；被要求执行某项行动。",
+      "en_definition": "To be instructed or ordered to do something.",
+      "ms_definition": "Diberi arahan atau perintah supaya melakukan sesuatu.",
+      "nuances": "这是被动形式，语气比 diminta 更强调指令来源的权威。常接具体行动，施令者可用 oleh 引出。diarah 与表示地点或方向的 di arah 应区分。用法参见 [DBP：diarah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=diarah)。",
+      "collocations": [
+        {
+          "ms": "diarah hadir",
+          "zh": "被要求出席",
+          "en": "be instructed to attend"
+        },
+        {
+          "ms": "diarah oleh pihak atasan",
+          "zh": "接到上级指示",
+          "en": "be instructed by one's superiors"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "由某人导演或指导制作，尤指电影、戏剧或舞台演出。",
+      "en_definition": "To be directed by someone, especially of a film, play, or performance.",
+      "ms_definition": "Diatur dan diselia pementasan atau penerbitannya oleh seseorang pengarah.",
+      "nuances": "主语是作品或演出时，通常解作“由……执导”，而非“受到命令”。此义与 mengarah 的艺术制作义相对应，参见 [DBP：arah](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=arah)。",
+      "collocations": [
+        {
+          "ms": "filem yang diarah oleh beliau",
+          "zh": "由他／她执导的电影",
+          "en": "a film directed by him or her"
+        },
+        {
+          "ms": "diarah oleh pengarah terkenal",
+          "zh": "由知名导演执导",
+          "en": "be directed by a renowned director"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua ketua unit diarah menghadiri taklimat keselamatan pada pukul sembilan pagi esok.",
+      "zh": "所有单位主管均接到指示，须于明天上午九时出席安全简报会。",
+      "en": "All unit heads have been instructed to attend the safety briefing at nine tomorrow morning."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku baru je diarah datang awal esok.",
+      "ms_standard": "Saya baru sahaja diarah datang awal esok.",
+      "zh": "我刚接到通知，明天得早点来。",
+      "en": "I've just been told to come in early tomorrow.",
+      "spoken_features": [
+        "baru je 对应 baru sahaja，表示刚刚。",
+        "diarah 保留被动形式，口语中带有转述工作指令的意味。",
+        "aku 用于熟人交流；je 和 dah 使对话更口语化。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku baru je diarah datang awal esok. Kau dah dapat mesej tu?",
+          "ms_standard": "Saya baru sahaja diarah datang awal esok. Adakah awak sudah menerima mesej itu?",
+          "zh": "我刚接到通知，明天得早点来。你收到那条消息了吗？",
+          "en": "I've just been told to come in early tomorrow. Did you get that message?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah. Kita kena sampai sebelum lapan, kan?",
+          "ms_standard": "Sudah. Kita perlu tiba sebelum pukul lapan, betul?",
+          "zh": "收到了。我们得八点前到，对吧？",
+          "en": "Yes. We need to be there before eight, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diarah combines the passive prefix di- with arah, a word associated with direction and purpose. The same family includes arahan, an instruction, and pengarah, a director. These related meanings connect giving direction with organizing action. In Malaysian administrative language, diarah commonly reports an instruction received from an authority; in film discussion, it can identify who directed a production.",
+    "cognitive_memory_aid": "arah＝方向；别人给你定方向，就有“指示”的意思。di- 表示被动：diarah＝被指示。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "diarah 强调指令和上下级关系。若只是礼貌邀请，diminta 或 dijemput 往往更准确。公函中的 saya diarah merujuk 虽有使用，DBP 建议通常可直接写 Dengan hormatnya kami merujuk…。",
+    "usage_etiquette": "适用于确有指令来源的工作汇报、行政通知及新闻叙述。谈电影时，diarah oleh 是中性的导演署名表达；不要把普通建议或个人意愿说成上级命令。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "diarah 强调指令和上下级关系。若只是礼貌邀请，diminta 或 dijemput 往往更准确。公函中的 saya diarah merujuk 虽有使用，DBP 建议通常可直接写 Dengan hormatnya kami merujuk…。",
+    "usage_etiquette": "适用于确有指令来源的工作汇报、行政通知及新闻叙述。谈电影时，diarah oleh 是中性的导演署名表达；不要把普通建议或个人意愿说成上级命令。"
+  }
+}

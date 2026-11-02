@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "lamaku",
+    "syllables": null,
+    "ipa": "/la.ma.ku/",
+    "jawi": "لاما",
+    "frequency_rank": 13278,
+    "status": "compositional"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lama",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "lama + -ku → lamaku；rumah + lama + -ku → rumah lamaku",
+    "pattern_note": "-ku 是 aku 的附着形式，此处表示第一人称领属，不改变 lama 的音段。在 rumah lamaku 等结构中，领属关系作用于整个名词短语；suffix 是本字段对后附位置的归类，并不表示它是派生后缀。",
+    "word_family": [
+      {
+        "word": "selama",
+        "affix": "se-",
+        "gloss": "在……期间；长达……"
+      },
+      {
+        "word": "melamakan",
+        "affix": "meN-...-kan",
+        "gloss": "延长时间；故意拖长"
+      }
+    ],
+    "root_jawi": "لاما"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "用于名词之后，表示属于说话人的某个旧有、从前使用的或相识已久的人或事物，如 rumah lamaku“我的旧居”、kawan lamaku“我的老朋友”。",
+      "en_definition": "Old, former, or long-standing, modifying a noun in a phrase marked as belonging to or associated with the speaker.",
+      "ms_definition": "Bentuk lama yang diikuti enklitik -ku dalam frasa nama, untuk menerangkan sesuatu milik atau berkaitan dengan penutur yang sudah lama wujud, dikenal atau digunakan sebelum yang baharu.",
+      "nuances": "这是 lama 与 -ku 的组合解释，并非已核实的独立 DBP 词目；马来语释义为依据构式编写的说明。它通常依赖前面的名词，不能机械地独立译为“我的很久”。相关依据见 [DBP：lama](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=lama) 与 [DBP：附着代词的连写规则](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=serangkai)。",
+      "collocations": [
+        {
+          "ms": "rumah lamaku",
+          "zh": "我的旧居",
+          "en": "my old home"
+        },
+        {
+          "ms": "kawan lamaku",
+          "zh": "我的老朋友",
+          "en": "my long-time friend"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式个人陈述 / 书面回忆",
+      "ms": "Dalam kenyataan bertulis itu, saya menjelaskan, “Rumah lamaku telah dijual sebelum saya berpindah ke Kuala Lumpur.”",
+      "zh": "我在那份书面陈述中说明：“我的旧居在我迁往吉隆坡之前就已经售出。”",
+      "en": "In the written statement, I explained, “My old home was sold before I moved to Kuala Lumpur.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论旧照片",
+      "ms_spoken": "Aku jumpa gambar rumah lamaku kat telefon ni lah.",
+      "ms_standard": "Aku menemukan gambar rumah lamaku dalam telefon ini.",
+      "zh": "我在这部手机里找到我旧家的照片啦。",
+      "en": "I found a photo of my old house on this phone.",
+      "spoken_features": [
+        "kat 在此代替标准语 dalam，表示照片存于手机中。",
+        "ni 是 ini 的口语形式；lah 增添分享发现的语气。",
+        "朋友间使用 aku；完整说出 lamaku 带有轻微书面或怀旧色彩，日常也常说 rumah lama aku。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku jumpa gambar rumah lamaku kat telefon ni lah.",
+          "ms_standard": "Aku menemukan gambar rumah lamaku dalam telefon ini.",
+          "zh": "我在这部手机里找到我旧家的照片啦。",
+          "en": "I found a photo of my old house on this phone."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Oh, rumah yang dekat sekolah tu? Aku dah lama nak tengok gambar dia.",
+          "ms_standard": "Oh, rumah yang berdekatan dengan sekolah itu? Aku sudah lama ingin melihat gambar rumah itu.",
+          "zh": "哦，是学校附近那间吗？我早就想看看它的照片了。",
+          "en": "Oh, the one near the school? I've wanted to see a photo of it for ages."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Lamaku is best understood as a grammatical combination, rather than a separate historical root. Malay lama describes duration or things associated with an earlier time, while attached -ku represents aku. In rumah lamaku, the ending marks the whole phrase as the speaker’s old home. This explanation concerns its structure; no independent historical origin for lamaku is established here.",
+    "cognitive_memory_aid": "lama＝旧、久；-ku＝我的。把 rumah lamaku 看成“房子＋旧＋我的”，整句就是“我的旧居”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 相关，适合亲近关系、文学表达和个人独白。职场汇报中通常使用 rumah lama saya 等表达，更符合一般正式语域。",
+    "usage_etiquette": "kawan lamaku 强调相识已久，不直接评价对方年老。正式场合按关系选择 saya，避免把亲密语域直接套用于上级或陌生人。"
+  },
+  "verification": {
+    "note": "保留输入包的 null 音节字段。IPA 根据 lama + -ku 的构式推定，未提供独立录音核验。输入 Jawi لاما 对应词根 lama，不能视为完整 lamaku 的已核实拼写。compositional 表示可分析的语法组合，不代表独立官方词目。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 相关，适合亲近关系、文学表达和个人独白。职场汇报中通常使用 rumah lama saya 等表达，更符合一般正式语域。",
+    "usage_etiquette": "kawan lamaku 强调相识已久，不直接评价对方年老。正式场合按关系选择 saya，避免把亲密语域直接套用于上级或陌生人。"
+  }
+}
