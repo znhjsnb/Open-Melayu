@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "diasingkan",
+    "syllables": null,
+    "ipa": "/di.a.siŋ.kan/",
+    "jawi": null,
+    "frequency_rank": 9585,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "diasingkan",
+    "affix": "di-…-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + asing + -kan → diasingkan",
+    "pattern_note": "is_root 和 root_word 保留数据包原值；实际基础词是 asing，diasingkan 是被动派生形式。di- 为被动前缀，须与词干连写；di- 与元音 a 之间没有辅音脱落，ng 读 /ŋ/。affix_type 按给定枚举记作 circumfix，具体结构包含被动前缀和 -kan。",
+    "word_family": [
+      {
+        "word": "mengasingkan",
+        "affix": "meN-…-kan",
+        "gloss": "把……分开；隔离"
+      },
+      {
+        "word": "pengasingan",
+        "affix": "peN-…-an",
+        "gloss": "分离；隔离；流放"
+      },
+      {
+        "word": "terasing",
+        "affix": "ter-",
+        "gloss": "孤立的；疏离的"
+      },
+      {
+        "word": "berasingan",
+        "affix": "ber-…-an",
+        "gloss": "分开的；各自独立的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被分开；从其他物品、人员或类别中被分离出来。",
+      "en_definition": "Be separated or sorted apart from others.",
+      "ms_definition": "Dipisahkan daripada yang lain atau diletakkan secara berasingan.",
+      "nuances": "mengasingkan 的被动形式，主语是被分开的对象。可用于分类、工作分工或物理分离，本身不表示动作已完成；完成义可由 telah 或 sudah 表达。[PRPM：asing 及其派生词](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=asing)",
+      "collocations": [
+        {
+          "ms": "diasingkan mengikut jenis",
+          "zh": "按种类被分类分开",
+          "en": "be sorted by type"
+        },
+        {
+          "ms": "diasingkan daripada sampah lain",
+          "zh": "与其他垃圾分开",
+          "en": "be separated from other waste"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被隔离、排斥或与其他人隔开。",
+      "en_definition": "Be isolated, segregated, or excluded from contact with others.",
+      "ms_definition": "Dijauhkan atau dipisahkan daripada orang lain; disisihkan atau dipencilkan.",
+      "nuances": "用于人员时，可能表示必要的隔离，也可能表示不公平的排斥；语境决定评价。若仅描述主观疏离感，berasa terasing 通常比 berasa diasingkan 更中性，后者暗示受到他人排斥。",
+      "collocations": [
+        {
+          "ms": "diasingkan di bilik berasingan",
+          "zh": "被安置在单独房间隔离",
+          "en": "be isolated in a separate room"
+        },
+        {
+          "ms": "diasingkan daripada masyarakat",
+          "zh": "被排斥在社会之外",
+          "en": "be excluded from society"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被流放或遣送到偏远、隔绝的地方。",
+      "en_definition": "Be exiled or banished to a remote place.",
+      "ms_definition": "Dibuang atau ditempatkan di tempat yang terpencil atau terpisah.",
+      "nuances": "多见于历史叙述。通常由 ke 引出流放目的地；不要把所有 diasingkan ke… 都理解为政治流放，仍须看上下文。",
+      "collocations": [
+        {
+          "ms": "diasingkan ke pulau terpencil",
+          "zh": "被流放到偏远岛屿",
+          "en": "be banished to a remote island"
+        },
+        {
+          "ms": "diasingkan ke luar negara",
+          "zh": "被流放国外",
+          "en": "be exiled abroad"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：废弃物分类",
+      "ms": "Semua bahan kitar semula hendaklah diasingkan mengikut jenis sebelum dikumpulkan.",
+      "zh": "所有可回收物在收集前都须按种类分开。",
+      "en": "All recyclable materials must be sorted by type before collection."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：室友确认垃圾分类",
+      "ms_spoken": "Botol plastik dah diasingkan ke?",
+      "ms_standard": "Adakah botol plastik sudah diasingkan?",
+      "zh": "塑料瓶已经分出来了吗？",
+      "en": "Have the plastic bottles been separated out yet?",
+      "spoken_features": [
+        "dah 对应 sudah，表达已经完成。",
+        "句末 ke 对应标准问句中的 adakah。",
+        "je 对应 sahaja。",
+        "被动形式 diasingkan 可保留在自然口语中，尤其用于确认处理结果。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Botol plastik dah diasingkan ke?",
+          "ms_standard": "Adakah botol plastik sudah diasingkan?",
+          "zh": "塑料瓶已经分出来了吗？",
+          "en": "Have the plastic bottles been separated out yet?"
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Dah, tinggal tin je nak asingkan.",
+          "ms_standard": "Sudah, hanya tin yang masih perlu diasingkan.",
+          "zh": "分好了，只剩罐子还没分。",
+          "en": "Yes. Only the cans still need sorting."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diasingkan illustrates a productive Malay grammatical pattern rather than a separate borrowed word. Its base, asing, covers difference and separation. With -kan it supports the action of separating; di- presents that action from the affected object's perspective. The dictionary family spans ordinary sorting, social exclusion, and historical exile, connecting practical separation with powerful human experiences.",
+    "cognitive_memory_aid": "di- 提醒“被”，asing 提醒“分开”，-kan 表示使之如此：diasingkan → 被分开、被隔离。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于物品分类时语气中性；用于人时可能带有排斥意味。谈论人员安排应说明具体原因，避免让对方觉得因身份而被孤立。",
+    "usage_etiquette": "适用于分类、隔离措施、社会排斥和历史流放。区分 diasingkan“受到分离处置”与 berasingan“处于分开状态”，以及 terasing“孤立、疏离”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于物品分类时语气中性；用于人时可能带有排斥意味。谈论人员安排应说明具体原因，避免让对方觉得因身份而被孤立。",
+    "usage_etiquette": "适用于分类、隔离措施、社会排斥和历史流放。区分 diasingkan“受到分离处置”与 berasingan“处于分开状态”，以及 terasing“孤立、疏离”。"
+  }
+}

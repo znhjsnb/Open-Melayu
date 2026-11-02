@@ -1,0 +1,159 @@
+{
+  "headword": {
+    "word": "dikorbankan",
+    "syllables": "di.kor.ban.kan",
+    "ipa": "/di.kor.ban.kan/",
+    "jawi": "دقربانکن",
+    "frequency_rank": 9524,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "korban",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + korban + -kan → dikorbankan",
+    "pattern_note": "di- 标记被动，-kan 构成及物动词；词根首音 /k/ 保留。数据包把整个词标成词根属于误分析，实际词根为 korban；音节与 Jawi 按构词补全。",
+    "word_family": [
+      {
+        "word": "korban",
+        "affix": null,
+        "gloss": "牺牲；祭品；受害者"
+      },
+      {
+        "word": "berkorban",
+        "affix": "ber-",
+        "gloss": "作出牺牲；奉献"
+      },
+      {
+        "word": "mengorbankan",
+        "affix": "meN-...-kan",
+        "gloss": "牺牲；献出；使受损"
+      },
+      {
+        "word": "pengorbanan",
+        "affix": "peN-...-an",
+        "gloss": "牺牲；奉献"
+      },
+      {
+        "word": "terkorban",
+        "affix": "ter-",
+        "gloss": "丧生；遭毁损"
+      }
+    ],
+    "root_jawi": "قربان"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被作为祭品献出；在宗教语境中，指动物等被用于献祭。",
+      "en_definition": "To be offered as a sacrifice in a religious observance.",
+      "ms_definition": "Dijadikan persembahan atau disembelih sebagai korban dalam sesuatu amalan keagamaan.",
+      "nuances": "这是 mengorbankan 的被动形式。马来西亚伊斯兰语境中常指牲畜被用于宰牲礼；具体意义由宗教和宾语决定。di- 表示被动，并不自行表示过去时。释义依据：[DBP：korban 及其派生词](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=korban)。",
+      "collocations": [
+        {
+          "ms": "lembu dikorbankan",
+          "zh": "牛被用于宰牲礼",
+          "en": "cattle are sacrificed"
+        },
+        {
+          "ms": "kambing dikorbankan",
+          "zh": "山羊被用于献祭",
+          "en": "goats are sacrificed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "为某个目标或他人的利益而被舍弃、付出或献出。",
+      "en_definition": "To be given up or expended for a purpose or for someone else's benefit.",
+      "ms_definition": "Dilepaskan atau diserahkan demi mencapai sesuatu tujuan atau menjaga kepentingan pihak lain.",
+      "nuances": "常用于时间、金钱、休息、个人利益或生命。是否自愿需要从上下文判断，不能仅凭被动形式推断。释义依据：[DBP：mengorbankan](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=korban)。",
+      "collocations": [
+        {
+          "ms": "masa rehat dikorbankan",
+          "zh": "休息时间被牺牲",
+          "en": "rest time is sacrificed"
+        },
+        {
+          "ms": "nyawa dikorbankan",
+          "zh": "生命被献出或牺牲",
+          "en": "lives are sacrificed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "为满足其他利益而被置于受损、受害或遭毁弃的境地。",
+      "en_definition": "To be harmed, compromised, or sacrificed to serve another interest.",
+      "ms_definition": "Dibiarkan menanggung kerugian atau dimusnahkan demi memenuhi kepentingan tertentu.",
+      "nuances": "往往带批评意味，强调某人或某种价值被当成代价。dikorbankan 强调被牺牲的处境；terkorban 在事故新闻中则常直接表示丧生。释义依据：[DBP：korban 及其派生词](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=korban)。",
+      "collocations": [
+        {
+          "ms": "keselamatan dikorbankan",
+          "zh": "安全被牺牲",
+          "en": "safety is compromised"
+        },
+        {
+          "ms": "kepentingan awam dikorbankan",
+          "zh": "公共利益被牺牲",
+          "en": "the public interest is sacrificed"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场安全汇报",
+      "ms": "Keselamatan pekerja tidak boleh dikorbankan semata-mata untuk mengurangkan kos operasi.",
+      "zh": "不能仅为降低运营成本而牺牲员工的安全。",
+      "en": "Worker safety must not be compromised merely to reduce operating costs."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论工作安排",
+      "ms_spoken": "Masa rehat kita dah banyak dikorbankan minggu ni, kan?",
+      "ms_standard": "Banyak masa rehat kita telah dikorbankan pada minggu ini, bukan?",
+      "zh": "我们这星期已经牺牲不少休息时间了，对吧？",
+      "en": "We've already given up a lot of our break time this week, haven't we?",
+      "spoken_features": [
+        "dah 对应 sudah 或 telah",
+        "ni 对应 ini",
+        "句末 kan 用于寻求认同",
+        "完整被动动词 dikorbankan 可以保留在口语句中"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Masa rehat kita dah banyak dikorbankan minggu ni, kan?",
+          "ms_standard": "Banyak masa rehat kita telah dikorbankan pada minggu ini, bukan?",
+          "zh": "我们这星期已经牺牲不少休息时间了，对吧？",
+          "en": "We've already given up a lot of our break time this week, haven't we?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Betul. Jom minta bos susun semula jadual, jangan sampai hujung minggu pun kena kerja.",
+          "ms_standard": "Betul. Mari kita meminta ketua menyusun semula jadual supaya kita tidak perlu bekerja pada hujung minggu juga.",
+          "zh": "是啊。一起请老板重新排一下时间吧，别搞到周末也得上班。",
+          "en": "Exactly. Let's ask the boss to rearrange the schedule so we don't end up working the weekend too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The root korban is an Arabic loan associated with an offering or sacrifice. Malay developed a productive family around it, extending the meaning from religious offerings to time, possessions, lives, and interests given up. Dikorbankan combines that borrowed root with Malay affixes, placing the sacrificed person or thing at the centre of the sentence. Source: [DBP：korban](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=korban).",
+    "cognitive_memory_aid": "把 korban 想成“牺牲”，前面 di- 表示“被”：dikorbankan 就是“被牺牲、被舍弃”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论宗教献牲时，使用中性、尊重的表达。谈论他人付出时，dikorbankan 可能突出被迫承受的代价；若赞扬其主动奉献，berkorban 往往更贴切。",
+    "usage_etiquette": "适用于献牲报道、资源取舍、公共政策与个人付出的讨论。普通事故死亡通常用 terkorban；使用 dikorbankan 可能暗示有人主动牺牲他人，表达更强的责任判断。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论宗教献牲时，使用中性、尊重的表达。谈论他人付出时，dikorbankan 可能突出被迫承受的代价；若赞扬其主动奉献，berkorban 往往更贴切。",
+    "usage_etiquette": "适用于献牲报道、资源取舍、公共政策与个人付出的讨论。普通事故死亡通常用 terkorban；使用 dikorbankan 可能暗示有人主动牺牲他人，表达更强的责任判断。"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "headword": {
+    "word": "anything",
+    "syllables": "not translated",
+    "ipa": "/ˈen.i.θɪŋ/",
+    "jawi": null,
+    "frequency_rank": 9562,
+    "status": "unverified",
+    "entry_type": "foreign_word",
+    "verification_note": "这是英语不定代词，不能据此标为官方马来语词条。syllables 按要求保留数据包原值，但 not translated 是无效占位文本，并非音节；英语分音节可表示为 an·y·thing。为避免词性错误，senses.pos 使用 pronoun，超出所给枚举。排名仅沿用数据包。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "anything",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "any + thing → anything（英语复合词；无马来语词缀）",
+    "pattern_note": "is_root 沿用数据包，仅表示在马来语分析中不作词缀派生。英语内部可辨认 any 和 thing；词尾 -ing 在这里不是动词后缀。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "pronoun",
+      "zh_definition": "任何东西或事情；常用于疑问、否定和条件语境，指未具体指定的事物。",
+      "en_definition": "An unspecified thing, especially in questions, negatives, and conditional clauses.",
+      "ms_definition": "Kata ganti nama bahasa Inggeris bagi sesuatu perkara atau benda yang tidak ditentukan; padanannya dalam bahasa Melayu bergantung pada konteks, seperti apa-apa atau sesuatu.",
+      "nuances": "这是英语义项。否定句中的 not ... anything 通常对应 tidak ... apa-apa；条件句中常对应 apa-apa。不能机械地把每次出现都译成任何。马来文释义为编辑说明，并非 DBP 对 anything 的官方释义；搭配栏中的 ms 保留被解释的英语短语，不表示这些是标准马来语搭配。",
+      "collocations": [
+        {
+          "ms": "anything else",
+          "zh": "其他东西；其他事情",
+          "en": "any additional thing"
+        },
+        {
+          "ms": "anything unusual",
+          "zh": "任何异常情况",
+          "en": "any unusual thing or occurrence"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "pronoun",
+      "zh_definition": "无论什么；随便哪一样，表示选择不受限制。",
+      "en_definition": "Any thing whatsoever, without restriction on the choice.",
+      "ms_definition": "Apa-apa sahaja tanpa mengehadkan pilihan kepada benda atau perkara tertentu.",
+      "nuances": "英语独立回答 Anything 可表示“什么都行”。马来语日常可说 Apa-apa pun boleh。语气过于简短时，可能显得对对方的安排不够投入；表达感谢会更周到。搭配栏中的 ms 为英语目标短语。",
+      "collocations": [
+        {
+          "ms": "anything you like",
+          "zh": "任何你喜欢的东西",
+          "en": "whatever you prefer"
+        },
+        {
+          "ms": "almost anything",
+          "zh": "几乎任何东西或事情",
+          "en": "nearly any thing whatsoever"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式翻译说明；教学拟例",
+      "ms": "Dalam terjemahan bahasa Melayu, perkataan Inggeris 'anything' hendaklah diterjemahkan mengikut konteks ayat.",
+      "zh": "翻译成马来语时，英语词 anything 应根据句子语境处理。",
+      "en": "When translating into Malay, the English word 'anything' should be rendered according to the sentence context."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人语码混用；教学拟例",
+      "ms_spoken": "Anything pun boleh, aku ikut je.",
+      "ms_standard": "Apa-apa pun boleh, saya mengikut pilihan kamu sahaja.",
+      "zh": "什么都行，我跟着你选就好。",
+      "en": "Anything's fine. I'll go with your choice.",
+      "spoken_features": [
+        "anything 是插入马来语句子的英语词，属于语码混用。",
+        "pun 表示不限制选择；je 是 sahaja 的口语形式。",
+        "aku 适用于熟悉的同辈；标准对应句改用 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau nak makan apa? Aku nak pesan sekarang ni.",
+          "ms_standard": "Kamu hendak makan apa? Saya hendak membuat pesanan sekarang.",
+          "zh": "你想吃什么？我现在要下单了。",
+          "en": "What do you feel like eating? I'm about to order."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Anything pun boleh, aku ikut je. Terima kasih!",
+          "ms_standard": "Apa-apa pun boleh, saya mengikut pilihan kamu sahaja. Terima kasih!",
+          "zh": "什么都行，你选就好。谢谢啊！",
+          "en": "Anything's fine. I'll go with your choice. Thanks!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Anything is an English compound joining any with thing. Its meaning changes with context: a question may ask whether something exists, while a statement may allow an unrestricted choice. Within a Malay conversation, retaining the English word creates a language switch. That conversational use alone does not establish it as an official Malay headword.",
+    "cognitive_memory_aid": "any“任意”＋ thing“事物”＝ anything；记住问句“有什么吗”、否定句“什么也没有”、选择句“什么都行”这三个语境。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与习惯混用英语的朋友交流时可以使用；正式马来文按语境选用 apa-apa、apa-apa sahaja 或 sesuatu。",
+    "usage_etiquette": "回应邀约时，Anything 可能表示随和，也可能显得敷衍。可补上感谢或明确限制，例如 Apa-apa pun boleh, asalkan tidak pedas。不要假设所有交谈对象都熟悉英语。"
+  },
+  "sources": [
+    "[Cambridge Dictionary：anything 的词性、读音与主要义项](https://dictionary.cambridge.org/us/dictionary/english/anything)"
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "与习惯混用英语的朋友交流时可以使用；正式马来文按语境选用 apa-apa、apa-apa sahaja 或 sesuatu。",
+    "usage_etiquette": "回应邀约时，Anything 可能表示随和，也可能显得敷衍。可补上感谢或明确限制，例如 Apa-apa pun boleh, asalkan tidak pedas。不要假设所有交谈对象都熟悉英语。"
+  }
+}
