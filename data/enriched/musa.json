@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "musa",
+    "syllables": null,
+    "ipa": "/mu.sa/",
+    "jawi": null,
+    "frequency_rank": 6029,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "musa",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Musa → Musa",
+    "pattern_note": "这是不可按马来语词缀拆分的专名；规范正文写作 Musa。马来语通常读两个音节，不必保留阿拉伯语的元音长短。输入未提供 Jawi，故保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "穆萨：男性人名；具体指称由上下文确定。",
+      "en_definition": "Musa, a masculine personal name.",
+      "ms_definition": "Nama khas lelaki; orang yang dirujuk ditentukan oleh konteks.",
+      "nuances": "属于专有名词，正文须大写 Musa。普通人的名字在英文中通常保留 Musa，不因与先知同名而改译 Moses。输入没有官方释义，本条马来文释义为编写性说明。",
+      "collocations": [
+        {
+          "ms": "Encik Musa",
+          "zh": "穆萨先生",
+          "en": "Mr Musa"
+        },
+        {
+          "ms": "nama Musa",
+          "zh": "穆萨这个名字",
+          "en": "the name Musa"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "穆萨，即摩西：伊斯兰传统中的先知，与犹太教和基督教传统中的摩西相对应。",
+      "en_definition": "Musa, the prophet known in English as Moses.",
+      "ms_definition": "Nabi Musa, seorang nabi dalam Islam yang dikenali sebagai Moses dalam bahasa Inggeris.",
+      "nuances": "这是人名在宗教语境中的特定指称。Nabi Musa 两词首字母均大写；依据 [DBP 专名书写说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=nabi)。Musa 与 Moses 的对应见 [Quranic Arabic Corpus](https://corpus.quran.com/concept.jsp?id=musa)。释义为综合编写，并非 DBP 独立词条引文。",
+      "collocations": [
+        {
+          "ms": "Nabi Musa",
+          "zh": "先知穆萨；先知摩西",
+          "en": "the Prophet Moses"
+        },
+        {
+          "ms": "kisah Nabi Musa",
+          "zh": "先知穆萨的故事",
+          "en": "the story of the Prophet Moses"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Encik Musa akan membentangkan laporan kemajuan projek dalam mesyuarat esok.",
+      "zh": "穆萨先生将在明天的会议上汇报项目进展。",
+      "en": "Mr Musa will present the project progress report at tomorrow's meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Musa dah sampai kat pejabat ke?",
+      "ms_standard": "Adakah Musa sudah tiba di pejabat?",
+      "zh": "穆萨已经到办公室了吗？",
+      "en": "Has Musa arrived at the office yet?",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应地点介词 di",
+        "句末 ke 表示口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Musa dah sampai kat pejabat ke?",
+          "ms_standard": "Adakah Musa sudah tiba di pejabat?",
+          "zh": "穆萨到办公室了吗？",
+          "en": "Has Musa arrived at the office yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, dia tengah tunggu kat lobi. Kau turun je.",
+          "ms_standard": "Ya, dia sudah tiba dan sedang menunggu di lobi. Kamu turun sahaja.",
+          "zh": "到了，他正在大厅等着呢。你直接下去就行。",
+          "en": "Yes, he's waiting in the lobby. Just head down."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay Musa corresponds to Arabic Mūsā, the Qur'anic name of the prophet called Moses in English. This religious association provides a cultural background for its use as a personal name. A modern bearer, however, is identified by context rather than automatically representing the prophet, and the name has no productive Malay affixes. See [Quranic Arabic Corpus](https://corpus.quran.com/concept.jsp?id=musa).",
+    "cognitive_memory_aid": "Musa＝穆萨；看到 Nabi Musa，就切换到宗教人物“摩西”。普通朋友 Musa，英文仍叫 Musa。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称呼普通人可按关系使用 Encik Musa、Cikgu Musa 等合适称谓。提到先知时使用 Nabi Musa；穆斯林宗教文体也常附 a.s.，表示敬意。",
+    "usage_etiquette": "区分普通人名与宗教指称，不因名字相同而推断持有者的宗教身份或品格。status 是按指定模式保留的记录值，不代表输入资料已提供 DBP 官方词条。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称呼普通人可按关系使用 Encik Musa、Cikgu Musa 等合适称谓。提到先知时使用 Nabi Musa；穆斯林宗教文体也常附 a.s.，表示敬意。",
+    "usage_etiquette": "区分普通人名与宗教指称，不因名字相同而推断持有者的宗教身份或品格。status 是按指定模式保留的记录值，不代表输入资料已提供 DBP 官方词条。"
+  }
+}

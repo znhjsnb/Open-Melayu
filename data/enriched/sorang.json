@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "sorang",
+    "syllables": "so.rang",
+    "ipa": "/ˈso.raŋ/",
+    "jawi": "سورڠ",
+    "frequency_rank": 6030,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "sorang",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "seorang → sorang（口语缩合）",
+    "pattern_note": "seorang 的开头元音序列在口语中缩合，成为两个音节的 sorang。is_root 和 root_word 沿用输入的词条标记；从构词关系看，规范对应形式 seorang 可分析为 se- + orang。",
+    "word_family": [
+      {
+        "word": "seorang",
+        "affix": "se-",
+        "gloss": "一个人；独自"
+      },
+      {
+        "word": "berseorangan",
+        "affix": "ber- + se-",
+        "gloss": "独自一人"
+      },
+      {
+        "word": "perseorangan",
+        "affix": "per-…-an + se-",
+        "gloss": "个人的；单打"
+      }
+    ],
+    "root_jawi": "سورڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一个人；用于表示人数为一，是 seorang 的口语形式。",
+      "en_definition": "One person; a colloquial form of seorang.",
+      "ms_definition": "Seorang; satu orang.",
+      "nuances": "DBP 将 sorang 标为 bp，即口语。这里依给定词类集合归入 noun；在 sorang pelajar 等结构中，实际对应表示数量的 seorang。相关词以 orang 为基础，并非在 sorang 后直接添加词缀。见 [DBP：sorang](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sorang)及 [seorang](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=seorang)。",
+      "collocations": [
+        {
+          "ms": "sorang lagi",
+          "zh": "另外一个人",
+          "en": "one more person"
+        },
+        {
+          "ms": "sorang kawan",
+          "zh": "一个朋友",
+          "en": "one friend"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "独自；没有其他人陪伴。",
+      "en_definition": "Alone; without anyone accompanying one.",
+      "ms_definition": "Seorang diri; tanpa ditemani orang lain.",
+      "nuances": "常见于 duduk sorang、pergi sorang 和 sorang je。表示独处，不必然表示孤独或难过；sorang-sorang 也可表达独自行动。义项按规范形式 seorang 的“独自”义展开，见 [DBP：seorang](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=seorang)。",
+      "collocations": [
+        {
+          "ms": "duduk sorang",
+          "zh": "独自待着",
+          "en": "sit or stay alone"
+        },
+        {
+          "ms": "balik sorang",
+          "zh": "独自回去",
+          "en": "go home alone"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "每人；用于口语中的费用、份额等分配表达。",
+      "en_definition": "Per person; each, in an informal expression of allocation.",
+      "ms_definition": "Bagi setiap orang, dalam ungkapan pembahagian secara percakapan.",
+      "nuances": "例如 sepuluh ringgit sorang 表示每人十令吉。这是 seorang 在分配结构中的口语用法，正式表达宜写 setiap orang 或 seorang。",
+      "collocations": [
+        {
+          "ms": "sepuluh ringgit sorang",
+          "zh": "每人十令吉",
+          "en": "ten ringgit per person"
+        },
+        {
+          "ms": "satu sorang",
+          "zh": "每人一个",
+          "en": "one each"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Setiap peserta dikenakan bayaran sebanyak sepuluh ringgit seorang.",
+      "zh": "每位参与者须缴付十令吉。",
+      "en": "Each participant is charged ten ringgit."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau nak balik sorang je ke?",
+      "ms_standard": "Adakah kamu mahu pulang seorang diri?",
+      "zh": "你要自己一个人回去啊？",
+      "en": "Are you going home on your own?",
+      "spoken_features": [
+        "sorang 对应 seorang；此处表示 seorang diri",
+        "nak 对应 mahu",
+        "je 对应 sahaja",
+        "句末 ke 表示口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau nak balik sorang je ke?",
+          "ms_standard": "Adakah kamu mahu pulang seorang diri?",
+          "zh": "你要一个人回去啊？",
+          "en": "Are you going home on your own?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Taklah, Musa dah tunggu kat luar. Aku balik dengan dia.",
+          "ms_standard": "Tidak, Musa sudah menunggu di luar. Saya akan pulang bersamanya.",
+          "zh": "不是啦，穆萨已经在外面等了。我跟他一起回去。",
+          "en": "No, Musa's already waiting outside. I'm going home with him."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sorang shows how everyday Malay compresses familiar expressions. Its standard counterpart, seorang, combines the element se- with orang, meaning a person. The shortened form is established enough to appear in Kamus Dewan, but its conversational label remains essential: dictionary recognition records how people speak without making the contraction suitable for every formal setting. See [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=sorang).",
+    "cognitive_memory_aid": "把 seorang 快速连读，缩成 sorang：数人数时是“一个人”，说行动时常是“独自”，接价格时可指“每人”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "sorang 本身不粗鲁，适合熟人聊天。正式邮件、考试作文和公文使用 seorang；表示独自时可用 seorang diri 或 berseorangan。",
+    "usage_etiquette": "询问别人为何独处时，语气应体现关心，避免让对方感到被评判。正式情境例句采用规范对应形式 seorang。status 按指定模式保留为 official；DBP 对 sorang 的实际语体标记仍是 bp。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "sorang 本身不粗鲁，适合熟人聊天。正式邮件、考试作文和公文使用 seorang；表示独自时可用 seorang diri 或 berseorangan。",
+    "usage_etiquette": "询问别人为何独处时，语气应体现关心，避免让对方感到被评判。正式情境例句采用规范对应形式 seorang。status 按指定模式保留为 official；DBP 对 sorang 的实际语体标记仍是 bp。"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "grid",
+    "syllables": "grid",
+    "ipa": "/ɡrid/",
+    "jawi": "ݢريد",
+    "frequency_rank": 6046,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "grid",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + grid → grid",
+    "pattern_note": "英语借词，词首保留 /ɡr/ 辅音组合，作为单音节整词识记。以下词族成员为含 grid 的词组，没有派生词缀。",
+    "word_family": [
+      {
+        "word": "garis grid",
+        "affix": null,
+        "gloss": "网格线"
+      },
+      {
+        "word": "grid elektrik",
+        "affix": null,
+        "gloss": "电网"
+      }
+    ],
+    "root_jawi": "ݢريد"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "由等距交叉的线构成的网格或格状平面，用于定位、排列或划分区域。",
+      "en_definition": "A regular arrangement of intersecting lines forming cells for positioning or organizing information.",
+      "ms_definition": "Permukaan atau susunan petak yang terbentuk daripada persilangan garis berjarak sekata.",
+      "nuances": "常用于地图、设计及电脑界面，强调规则的格状排列。不要与表示等级的 gred 混淆。前三义依据 [DBP：grid](https://prpm.dbp.gov.my/Cari1?d=313048&keyword=grid)。",
+      "collocations": [
+        {
+          "ms": "susun atur grid",
+          "zh": "网格布局",
+          "en": "grid layout"
+        },
+        {
+          "ms": "rujukan grid",
+          "zh": "网格坐标；方格定位编号",
+          "en": "grid reference"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "电子表格中由行、列及其交叉单元格组成的格状表面。",
+      "en_definition": "The arrangement of rows, columns, and cells in an electronic spreadsheet.",
+      "ms_definition": "Susunan lajur dan baris yang membentuk sel dalam hamparan elektronik.",
+      "nuances": "属于电脑应用语境。grid 指表格的格状结构；sel 指其中一个单元格，lajur 指列，baris 指行。",
+      "collocations": [
+        {
+          "ms": "grid hamparan elektronik",
+          "zh": "电子表格网格",
+          "en": "spreadsheet grid"
+        },
+        {
+          "ms": "sel dalam grid",
+          "zh": "网格中的单元格",
+          "en": "a cell in the grid"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "图表中依照横轴、纵轴刻度等距排列的辅助网格线，用于标绘及读取数据。",
+      "en_definition": "Regularly spaced reference lines on a chart or graph that assist in plotting and reading data.",
+      "ms_definition": "Garis berjarak sekata pada carta atau graf yang membantu penentuan kedudukan dan pemplotan titik data.",
+      "nuances": "网格线辅助读数，不等同于数据曲线或坐标轴本身。garis grid 是更明确的表达。",
+      "collocations": [
+        {
+          "ms": "garis grid pada graf",
+          "zh": "图上的网格线",
+          "en": "gridlines on a graph"
+        },
+        {
+          "ms": "sela grid",
+          "zh": "网格间距",
+          "en": "grid spacing"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "连接发电设施、输电线路及变电设施等、输送电力的互联网络；电网。",
+      "en_definition": "An interconnected network of electrical infrastructure that carries power between generators and supply points.",
+      "ms_definition": "Rangkaian saling berhubung yang menyalurkan tenaga elektrik melalui talian dan kemudahan berkaitan.",
+      "nuances": "这是电力领域的常用义，不属于输入词包列出的三个电脑义项。马来西亚官方资料使用 grid elektrik 和 grid bekalan elektrik。参见 [马来西亚统计局：电力供应](https://open.dosm.gov.my/ms-MY/data-catalogue/electricity_supply)。",
+      "collocations": [
+        {
+          "ms": "grid elektrik",
+          "zh": "电网",
+          "en": "electricity grid"
+        },
+        {
+          "ms": "grid bekalan elektrik",
+          "zh": "供电网络",
+          "en": "power supply grid"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 数据图表说明",
+      "ms": "Garis grid pada graf ini membantu pembaca membandingkan nilai jualan bulanan dengan lebih tepat.",
+      "zh": "此图的网格线有助于读者更准确地比较每月销售额。",
+      "en": "The gridlines on this graph help readers compare monthly sales figures more accurately."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事修改图表",
+      "ms_spoken": "Boleh hidupkan grid kat graf tu tak? Senang sikit nak baca.",
+      "ms_standard": "Bolehkah awak memaparkan garis grid pada graf itu supaya nilainya lebih mudah dibaca?",
+      "zh": "能把那个图的网格线打开吗？这样比较好读。",
+      "en": "Can you turn on the gridlines? It'll make the graph easier to read.",
+      "spoken_features": [
+        "kat 在这里对应标准语的 pada。",
+        "tu 对应 itu；nak 对应 hendak。",
+        "Boleh ... tak? 是日常请求句式，标准语可用 Bolehkah ...?"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Boleh hidupkan grid kat graf tu tak? Senang sikit nak baca.",
+          "ms_standard": "Bolehkah awak memaparkan garis grid pada graf itu supaya nilainya lebih mudah dibaca?",
+          "zh": "能把那个图的网格线打开吗？这样比较好读。",
+          "en": "Can you turn on the gridlines? It'll make the graph easier to read."
+        },
+        {
+          "speaker": "Mei Ling (同事)",
+          "ms_spoken": "Dah, aku buat garis tu nipis je supaya graf tak nampak serabut.",
+          "ms_standard": "Garis grid sudah dipaparkan. Saya menggunakan garis yang nipis supaya graf tidak kelihatan terlalu padat.",
+          "zh": "开了，我把线调细一点，免得图看起来太乱。",
+          "en": "Done. I've kept the lines thin so the graph doesn't look cluttered."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Grid illustrates how one borrowed technical word can organize very different pictures. A map uses intersecting lines, a spreadsheet uses rows and columns, and a graph uses reference lines. Malaysian electricity writing also uses grid for interconnected power infrastructure. These related patterns offer a useful cultural and conceptual story without assuming that every sense entered Malay together. Sources: [DBP](https://prpm.dbp.gov.my/Cari1?d=313048&keyword=grid), [OpenDOSM](https://open.dosm.gov.my/ms-MY/data-catalogue/electricity_supply).",
+    "cognitive_memory_aid": "听到 grid，就在脑中铺开一张“格子网”：图上是网格，表里是行列，供电系统里是互联的电网。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "grid 是中性的技术词。向同事提出修改时用 Boleh ...? 比直接命令更柔和；向非专业听众说明时可补充 garis petak 或 rangkaian bekalan elektrik。",
+    "usage_etiquette": "先根据领域说明所指对象：图表用 garis grid，供电用 grid elektrik。grid 与 gred 拼写接近，但不能互换。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "grid 是中性的技术词。向同事提出修改时用 Boleh ...? 比直接命令更柔和；向非专业听众说明时可补充 garis petak 或 rangkaian bekalan elektrik。",
+    "usage_etiquette": "先根据领域说明所指对象：图表用 garis grid，供电用 grid elektrik。grid 与 gred 拼写接近，但不能互换。"
+  }
+}

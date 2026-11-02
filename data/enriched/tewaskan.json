@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "tewaskan",
+    "syllables": null,
+    "ipa": "/te.was.kan/",
+    "jawi": "تيواس",
+    "frequency_rank": 6004,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tewas",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "tewas + -kan → tewaskan; meN- + tewas + -kan → menewaskan",
+    "pattern_note": "加 -kan 时词根不变；构成 menewaskan 时，meN- 在词首 t 前实现为 men-，t 脱落。tewaskan 可用于祈使句及第一、第二人称被动结构，也常见于省略 meN- 的标题和口语。输入 Jawi تيواس 对应词根 tewas，未表示 -kan；此处按输入保留。",
+    "word_family": [
+      {
+        "word": "tewas",
+        "affix": null,
+        "gloss": "战败；阵亡"
+      },
+      {
+        "word": "menewaskan",
+        "affix": "meN-…-kan",
+        "gloss": "击败；在战斗中杀死"
+      },
+      {
+        "word": "ditewaskan",
+        "affix": "di-…-kan",
+        "gloss": "被击败"
+      },
+      {
+        "word": "ketewasan",
+        "affix": "ke-…-an",
+        "gloss": "失败；战败"
+      }
+    ],
+    "root_jawi": "تيواس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "击败或制服对手，使对方在比赛、竞争或对抗中落败。",
+      "en_definition": "To defeat or subdue an opponent in a contest, competition, or confrontation.",
+      "ms_definition": "Mengalahkan atau menundukkan lawan.",
+      "nuances": "tewas 表示主体落败，tewaskan 则表示使对手落败。普通正式主动陈述句使用 menewaskan，例如 Pasukan itu menewaskan lawannya；祈使句可用 Tewaskan lawan anda。第一人称被动结构如 Pasukan itu telah kami tewaskan 也合乎规范。[DBP：tewas 与 menewaskan](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=tewas)",
+      "collocations": [
+        {
+          "ms": "tewaskan lawan",
+          "zh": "击败对手",
+          "en": "defeat an opponent"
+        },
+        {
+          "ms": "tewaskan juara bertahan",
+          "zh": "击败卫冕冠军",
+          "en": "defeat the defending champion"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "在战争或战斗中杀死敌人。",
+      "en_definition": "To kill an enemy in warfare or combat.",
+      "ms_definition": "Membunuh musuh dalam peperangan atau pertempuran.",
+      "nuances": "这是 menewaskan 的另一个词典义项，并非所有“击败敌人”的语境都表示杀死。必须根据上下文判断；需要明确伤亡时，应直接写明 terbunuh 或 terkorban。[DBP：menewaskan](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menewaskan+1)",
+      "collocations": [
+        {
+          "ms": "tewaskan musuh dalam pertempuran",
+          "zh": "在战斗中杀死敌人",
+          "en": "kill an enemy in combat"
+        },
+        {
+          "ms": "tewaskan tentera musuh",
+          "zh": "杀死敌军人员，或依语境指击败敌军",
+          "en": "kill enemy soldiers, or defeat enemy forces depending on context"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan pilihan itu berjaya menewaskan juara bertahan dengan keputusan 2–0 dalam perlawanan akhir.",
+      "zh": "该夺冠热门队伍在决赛中以二比零击败卫冕冠军。",
+      "en": "The tournament favourites defeated the defending champions 2–0 in the final."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kita dah tewaskan pasukan tu, kan?",
+      "ms_standard": "Kita sudah menewaskan pasukan itu, bukan?",
+      "zh": "我们已经赢过那支队了，对吧？",
+      "en": "We've already beaten that team, right?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "tu 是 itu 的口语缩略形式。",
+        "主动动词省略 meN-，使用 tewaskan。",
+        "句末 kan 请求对方确认。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (队友)",
+          "ms_spoken": "Kita dah tewaskan pasukan tu, kan?",
+          "ms_standard": "Kita sudah menewaskan pasukan itu, bukan?",
+          "zh": "我们已经赢过那支队了，对吧？",
+          "en": "We've already beaten that team, right?"
+        },
+        {
+          "speaker": "Hafiz (队友)",
+          "ms_spoken": "Dah, tapi kali ni jangan leka lah. Diorang nak menang juga.",
+          "ms_standard": "Ya, tetapi kali ini jangan leka. Mereka juga mahu menang.",
+          "zh": "赢过，不过这次别大意啦。他们也想赢。",
+          "en": "We have, but let's stay focused this time. They want to win too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The revealing history here lies in the root's recorded meanings rather than a verified foreign origin. Kamus Dewan preserves tewas for defeat, death in warfare, failure, and, in older literary usage, a flaw or deficiency. Adding -kan turns attention towards the affected opponent: someone causes that opponent to lose. Modern sports reporting makes this causative relationship especially easy to recognise. [DBP](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=tewas)",
+    "cognitive_memory_aid": "记住角色转换：我 tewas＝我输了；我 tewaskan 他＝我让他输了。把 -kan 想成“使对方进入这个状态”的箭头；这里只是本词的记忆法。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于赛事报道自然、中性。对朋友说 Aku akan tewaskan kau 可带挑战或玩笑意味，但对不熟悉的人容易显得挑衅。",
+    "usage_etiquette": "职场竞争中可描述比赛结果；涉及合作伙伴时，mengatasi 更能突出表现超越。战争语境须明确区分战败和死亡，避免含混表述。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于赛事报道自然、中性。对朋友说 Aku akan tewaskan kau 可带挑战或玩笑意味，但对不熟悉的人容易显得挑衅。",
+    "usage_etiquette": "职场竞争中可描述比赛结果；涉及合作伙伴时，mengatasi 更能突出表现超越。战争语境须明确区分战败和死亡，避免含混表述。"
+  }
+}

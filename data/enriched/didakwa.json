@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "didakwa",
+    "syllables": "di.dak.wa",
+    "ipa": "/di.daʔ.wa/",
+    "jawi": "ددعوا",
+    "frequency_rank": 6090,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dakwa",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + dakwa → didakwa",
+    "pattern_note": "di-构成被动式，与词根连写；不表示过去时。词根首音d保留，常见读音中词根音节末的k实现为[ʔ]。输入包把didakwa判为词根，应修正为dakwa。[DBP：dakwa](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dakwa)",
+    "word_family": [
+      {
+        "word": "mendakwa",
+        "affix": "meN-",
+        "gloss": "起诉；声称"
+      },
+      {
+        "word": "dakwaan",
+        "affix": "-an",
+        "gloss": "指控；声称的内容"
+      },
+      {
+        "word": "pendakwa",
+        "affix": "peN-",
+        "gloss": "控方人员；检控官"
+      },
+      {
+        "word": "pendakwaan",
+        "affix": "peN-…-an",
+        "gloss": "检控；起诉行为"
+      }
+    ],
+    "root_jawi": "دعوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被向法院提出控告或起诉；被正式指控涉嫌某项违法行为。",
+      "en_definition": "To be charged with an offence or prosecuted in court.",
+      "ms_definition": "Dikemukakan ke mahkamah untuk menghadapi tuduhan atau tuntutan.",
+      "nuances": "在法庭报道中通常表示“被起诉”，不等于被捕、被判有罪或被判刑。是否已经发生须看telah、akan等时间或体貌标记。[DBP：dakwa](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dakwa)",
+      "collocations": [
+        {
+          "ms": "didakwa di mahkamah",
+          "zh": "被控上法庭",
+          "en": "be charged in court"
+        },
+        {
+          "ms": "didakwa atas pertuduhan",
+          "zh": "因某项罪名被起诉",
+          "en": "be charged on a count of"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被声称、被指称处于某种情况或实施某种行为；相关说法尚不必然获得证实。",
+      "en_definition": "To be alleged or claimed to be the case or to have done something.",
+      "ms_definition": "Dikatakan atau dinyatakan oleh sesuatu pihak sebagai benar, tanpa semestinya telah dibuktikan.",
+      "nuances": "不限于刑事事件，也可修饰产品、文件或其他事物。通常相当于“据称、被指”，不能单凭didakwa判断是否已经启动法院程序。[DBP：dakwa](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dakwa)",
+      "collocations": [
+        {
+          "ms": "didakwa terlibat",
+          "zh": "被指涉及",
+          "en": "be alleged to be involved"
+        },
+        {
+          "ms": "didakwa palsu",
+          "zh": "被指为伪造或虚假",
+          "en": "be alleged to be fake"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Seorang pengurus syarikat didakwa di mahkamah atas pertuduhan pecah amanah, namun belum disabitkan kesalahan.",
+      "zh": "一名公司经理因涉嫌刑事失信被控上法庭，但尚未被判有罪。",
+      "en": "A company manager has been charged in court with criminal breach of trust but has not been convicted."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dia dah didakwa kat mahkamah ke?",
+      "ms_standard": "Adakah dia sudah didakwa di mahkamah?",
+      "zh": "他已经被控上法庭了吗？",
+      "en": "Has he been charged in court yet?",
+      "spoken_features": [
+        "dah对应sudah。",
+        "kat对应地点介词di。",
+        "句末ke构成口语是非问句。",
+        "didakwa保留完整被动前缀，口语中也可直接使用。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dia dah didakwa kat mahkamah ke?",
+          "ms_standard": "Adakah dia sudah didakwa di mahkamah?",
+          "zh": "他已经被控上法庭了吗？",
+          "en": "Has he been charged in court yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, tapi belum tentu bersalah. Kita tunggu keputusan dulu lah.",
+          "ms_standard": "Ya, dia sudah didakwa, tetapi belum dipastikan bersalah. Kita tunggu keputusan mahkamah terlebih dahulu.",
+          "zh": "已经被起诉了，不过还没确定有罪，先等法院判决吧。",
+          "en": "Yes, but that doesn't mean he's guilty. Let's wait for the court's decision."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Didakwa is built from dakwa and the Malay passive prefix di-. The root belongs to a family linking accusations, courtroom proceedings, and assertions of truth. That connection explains why a news report can use didakwa for a formal charge in one sentence and for an unverified allegation in another. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dakwa)",
+    "cognitive_memory_aid": "di-先记“被”，dakwa记“控告或声称”：didakwa就是“被控／被指”，还没走到“定罪”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "涉及真实人物时，应准确区分“被指称”“被起诉”和“被判有罪”，保持中性措辞。",
+    "usage_etiquette": "常见于新闻、调查和法律语境。一般闲聊中不要把传言直接说成事实；需要时说明是谁提出该说法，以及是否已获证实。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "涉及真实人物时，应准确区分“被指称”“被起诉”和“被判有罪”，保持中性措辞。",
+    "usage_etiquette": "常见于新闻、调查和法律语境。一般闲聊中不要把传言直接说成事实；需要时说明是谁提出该说法，以及是否已获证实。"
+  }
+}
