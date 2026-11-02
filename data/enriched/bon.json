@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "bon",
+    "syllables": "bon",
+    "ipa": "/ˈbon/",
+    "jawi": "بون",
+    "frequency_rank": 5606,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bon",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bon → bon",
+    "pattern_note": "整词借入，作为独立词素记忆；无马来语词缀。下列词族成员为复合术语。",
+    "word_family": [
+      {
+        "word": "bon kerajaan",
+        "affix": null,
+        "gloss": "政府债券"
+      },
+      {
+        "word": "bon pelaksanaan",
+        "affix": null,
+        "gloss": "履约保函；履约保证"
+      }
+    ],
+    "root_jawi": "بون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "债券：政府或公司为筹借资金而发行、载明本金偿还及利息支付义务的债务凭证。",
+      "en_definition": "A debt security issued by a government or corporation, acknowledging borrowed money and specifying repayment and interest obligations.",
+      "ms_definition": "Sijil pelaburan yang dikeluarkan oleh kerajaan atau perbadanan sebagai pengakuan bahawa sejumlah wang telah dipinjam dan akan dibayar balik berserta faedah.",
+      "nuances": "属于金融用语，持有人是债权人，区别于代表股权的 saham。bon kerajaan 指政府债券，bon syarikat 指公司债券。[DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=bon)",
+      "collocations": [
+        {
+          "ms": "menerbitkan bon",
+          "zh": "发行债券",
+          "en": "issue bonds"
+        },
+        {
+          "ms": "pemegang bon",
+          "zh": "债券持有人",
+          "en": "bondholder"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "保证履行付款、合同或其他约定义务的书面担保；常见于履约保证等专业术语。",
+      "en_definition": "A written guarantee securing payment or the performance of a contractual obligation.",
+      "ms_definition": "Dokumen jaminan bagi memastikan sesuatu kewajipan atau syarat kontrak dipenuhi, seperti bon pelaksanaan.",
+      "nuances": "此义常见于合同和工程采购，尤其是 bon pelaksanaan；不能一律译为可投资买卖的“债券”。[DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=bon)",
+      "collocations": [
+        {
+          "ms": "bon pelaksanaan",
+          "zh": "履约保函",
+          "en": "performance bond"
+        },
+        {
+          "ms": "mengemukakan bon pelaksanaan",
+          "zh": "提交履约保函",
+          "en": "submit a performance bond"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "赊购单；确认已领取货物、约定日后付款的小单据。",
+      "en_definition": "A slip acknowledging receipt of goods to be paid for later.",
+      "ms_definition": "Surat kecil yang mengakui pengambilan barang yang akan dibayar kemudian.",
+      "nuances": "DBP 标注为印度尼西亚用法；在马来西亚日常购物中，收据通常称 resit，不能把此义当作通用的“收据”。以下搭配限于赊购单语境。[DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=bon)",
+      "collocations": [
+        {
+          "ms": "menulis bon",
+          "zh": "开赊购单",
+          "en": "write out a credit slip"
+        },
+        {
+          "ms": "menandatangani bon",
+          "zh": "签署赊购单",
+          "en": "sign a credit slip"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Syarikat itu menerbitkan bon untuk membiayai pembinaan kilang baharu.",
+      "zh": "该公司发行债券，为新工厂的建设筹资。",
+      "en": "The company issued bonds to finance the construction of a new factory."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak baca pasal bon ni dulu lah.",
+      "ms_standard": "Saya mahu membaca maklumat tentang bon ini terlebih dahulu.",
+      "zh": "我想先看看这只债券的资料啦。",
+      "en": "I want to read up on this bond first.",
+      "spoken_features": [
+        "aku 为熟人之间的第一人称代词。",
+        "nak 对应 mahu，pasal 对应 tentang，ni 对应 ini。",
+        "句末 lah 使表达更口语化。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah baca pasal bon ni?",
+          "ms_standard": "Adakah kamu sudah membaca maklumat tentang bon ini?",
+          "zh": "你看过这只债券的资料了吗？",
+          "en": "Have you read up on this bond?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi. Aku nak faham risikonya dulu lah.",
+          "ms_standard": "Belum. Saya mahu memahami risikonya terlebih dahulu.",
+          "zh": "还没呢。我想先弄清楚它的风险。",
+          "en": "Not yet. I want to understand the risks first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay financial bon is borrowed from English bond. Its documentary character links two familiar uses: a security records a borrowing obligation, while a performance bond guarantees contractual performance. DBP also records an Indonesian credit-slip sense, preserving another setting in which a small written document represents an obligation to pay. [Etymology](https://en.wiktionary.org/wiki/bon); [DBP](https://prpm.dbp.gov.my/cari1?keyword=bon).",
+    "cognitive_memory_aid": "把 bon 和英语 bond 连起来记：一纸凭证，把还款或履约的承诺“绑”起来。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性专业词，可用于银行咨询、新闻和商务会议；与客户交谈时，应说明具体是哪一种 bon。",
+    "usage_etiquette": "谈投资时可说 bon kerajaan 或 bon syarikat；谈承包合同时用 bon pelaksanaan。普通购物索取收据时通常说 resit。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性专业词，可用于银行咨询、新闻和商务会议；与客户交谈时，应说明具体是哪一种 bon。",
+    "usage_etiquette": "谈投资时可说 bon kerajaan 或 bon syarikat；谈承包合同时用 bon pelaksanaan。普通购物索取收据时通常说 resit。"
+  }
+}

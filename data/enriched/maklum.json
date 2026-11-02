@@ -1,0 +1,139 @@
+{
+  "headword": {
+    "word": "maklum",
+    "syllables": null,
+    "ipa": "/maʔ.lum/",
+    "jawi": "معلوم",
+    "frequency_rank": 5615,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "maklum",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + maklum → maklum",
+    "pattern_note": "作为现代马来语的完整借词记忆，不拆分词首 ma-。meN- 接 m 时取 me- 并保留 m：meN- + maklum + -kan → memaklumkan。常见读音中，拼写 k 对应音节末喉塞音 /ʔ/。",
+    "word_family": [
+      {
+        "word": "memaklumi",
+        "affix": "meN-...-i",
+        "gloss": "知悉；理解"
+      },
+      {
+        "word": "memaklumkan",
+        "affix": "meN-...-kan",
+        "gloss": "告知；通知"
+      },
+      {
+        "word": "makluman",
+        "affix": "-an",
+        "gloss": "通知；告知的事项"
+      },
+      {
+        "word": "pemakluman",
+        "affix": "peN-...-an",
+        "gloss": "通告；宣布的行为"
+      }
+    ],
+    "root_jawi": "معلوم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "知悉；明白；对某件事已有所了解。",
+      "en_definition": "To know, understand, or be aware of something.",
+      "ms_definition": "Sudah tahu atau mengerti tentang sesuatu perkara.",
+      "nuances": "常见于 sedia maklum、harap maklum 和 mengambil maklum。裸词 maklum 的核心是“知悉”，表示主动“告知某人”通常使用 memaklumkan。复合词 maklum balas 表示“反馈”，须分写，不能据此把 maklum 单独解释为“反馈”。参见 [DBP：maklum](https://prpm.dbp.gov.my/Cari1?d=155028&keyword=maklum)。",
+      "collocations": [
+        {
+          "ms": "sedia maklum",
+          "zh": "已经知悉",
+          "en": "already aware"
+        },
+        {
+          "ms": "harap maklum",
+          "zh": "请知悉",
+          "en": "please take note"
+        },
+        {
+          "ms": "mengambil maklum",
+          "zh": "知悉；注意到",
+          "en": "to take note"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "你也知道嘛；想必你明白；用于引出听者应能理解的背景或原因，常作 maklumlah。",
+      "en_definition": "You know; as you can understand; introducing an explanation assumed to be familiar or understandable.",
+      "ms_definition": "Tahu sahajalah atau sudah barang tentu; digunakan untuk mengemukakan sebab atau keadaan yang dianggap dapat difahami oleh pendengar.",
+      "nuances": "这里按话语功能标作 particle；常用形式是 maklumlah。它诉诸共同背景，可缓和解释，但反复使用也可能显得在找借口。参见 [DBP：maklumlah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=maklumlah)。",
+      "collocations": [
+        {
+          "ms": "maklumlah, masih baharu",
+          "zh": "毕竟还是新来的嘛",
+          "en": "you know, still new"
+        },
+        {
+          "ms": "maklumlah, musim perayaan",
+          "zh": "毕竟是佳节期间嘛",
+          "en": "you know, it's the festive season"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Seperti yang tuan dan puan sedia maklum, tarikh tutup permohonan telah dilanjutkan hingga 15 Disember.",
+      "zh": "如各位已知悉，申请截止日期已延长至12月15日。",
+      "en": "As you are already aware, the application deadline has been extended to 15 December."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Maklumlah, aku baru kerja kat sini, banyak benda belum tahu lagi.",
+      "ms_standard": "Seperti yang awak fahami, saya baru bekerja di sini dan masih banyak perkara yang belum saya ketahui.",
+      "zh": "你也知道嘛，我刚来这里上班，还有很多东西不懂。",
+      "en": "You know, I've only just started working here, so there's still a lot I don't know.",
+      "spoken_features": [
+        "maklumlah 用共同背景引出解释。",
+        "kat 对应 di。",
+        "benda 在口语中可泛指 perkara。",
+        "口语省略了 belum tahu 的主语，由 aku 补足理解。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah hantar borang tuntutan tu?",
+          "ms_standard": "Adakah awak sudah menghantar borang tuntutan itu?",
+          "zh": "你交那份报销表了吗？",
+          "en": "Have you submitted that expense claim form?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum lagi. Maklumlah, aku baru kerja kat sini. Nak minta kau semak dulu, boleh?",
+          "ms_standard": "Saya belum menghantarnya. Seperti yang awak fahami, saya baru bekerja di sini. Bolehkah awak menyemaknya terlebih dahulu?",
+          "zh": "还没。你也知道嘛，我刚来这里上班。想请你先帮我检查一下，可以吗？",
+          "en": "Not yet. You know, I've only just started here. Could you check it for me first?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Maklum comes from Arabic maʿlūm, meaning known, and belongs historically to the same Arabic root family as ilmu and maklumat. Malay uses it in expressions about awareness and understanding, while productive Malay affixes create memaklumkan and makluman. Its Jawi spelling preserves the Arabic letter ʿayn, although /ʔ/ is an established Malay pronunciation. [Arabic loanword study](https://mjs.um.edu.my/index.php/JUD/article/download/4257/2103/10321), [DBP](https://prpm.dbp.gov.my/Cari1?d=155028&keyword=maklum).",
+    "cognitive_memory_aid": "mak 的尾音先在喉头轻轻截住，再接 lum；把 maklum 联想到 maklumat“信息”：掌握信息，就是“知悉”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Harap maklum 常见于通知，语气简洁而较正式。需要请求体谅时，可用 Terima kasih atas perhatian dan kerjasama tuan/puan，让表达更周到。",
+    "usage_etiquette": "Maklumlah 适合向熟人解释处境。面对投诉或失误，宜同时说明处理办法，避免只用 maklumlah 要求对方体谅。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Harap maklum 常见于通知，语气简洁而较正式。需要请求体谅时，可用 Terima kasih atas perhatian dan kerjasama tuan/puan，让表达更周到。",
+    "usage_etiquette": "Maklumlah 适合向熟人解释处境。面对投诉或失误，宜同时说明处理办法，避免只用 maklumlah 要求对方体谅。"
+  }
+}

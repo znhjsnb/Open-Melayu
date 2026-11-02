@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "berbulan",
+    "syllables": "ber.bu.lan",
+    "ipa": "/bər.bu.lan/",
+    "jawi": "بربولن",
+    "frequency_rank": 5522,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bulan",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + bulan → berbulan",
+    "pattern_note": "ber- 接 bulan 时不发生词干音变。bulan 兼有「月亮」和「月份」义；berbulan-bulan 是另一个重叠形式，表示持续数月，不能与 berbulan 的一个月义混同。",
+    "word_family": [
+      {
+        "word": "bulan",
+        "affix": "∅",
+        "gloss": "月亮；月份"
+      },
+      {
+        "word": "bulanan",
+        "affix": "-an",
+        "gloss": "每月的；按月的"
+      },
+      {
+        "word": "berbulan-bulan",
+        "affix": "ber- + 重叠",
+        "gloss": "持续数月；好几个月"
+      }
+    ],
+    "root_jawi": "بولن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "有月亮出现；就夜晚而言，指可见月亮。",
+      "en_definition": "To have a visible moon, especially of a night.",
+      "ms_definition": "Mempunyai bulan atau kelihatan bulannya, terutama apabila memperkatakan keadaan malam.",
+      "nuances": "是表示状态的不及物动词，常用于文学性描写，如 malam berbulan。它本身不保证月亮圆满或月光明亮。词义依据 [DBP：berbulan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=berbulan)。",
+      "collocations": [
+        {
+          "ms": "malam berbulan",
+          "zh": "有月亮的夜晚",
+          "en": "a night with the moon visible"
+        },
+        {
+          "ms": "malam tidak berbulan",
+          "zh": "不见月亮的夜晚",
+          "en": "a moonless night"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "持续到一个月之久。",
+      "en_definition": "For as long as a month.",
+      "ms_definition": "Sehingga mencapai tempoh sebulan lamanya.",
+      "nuances": "这一时间用法在现代日常表达中较少见，通常直接说 sebulan 或 selama sebulan。若表示好几个月，应使用 berbulan-bulan。",
+      "collocations": [
+        {
+          "ms": "hingga berbulan",
+          "zh": "长达一个月",
+          "en": "for as long as a month"
+        },
+        {
+          "ms": "berbulan lamanya",
+          "zh": "持续一个月之久",
+          "en": "lasting a month"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adverb",
+      "zh_definition": "按月计算；以一个月为计量周期。",
+      "en_definition": "By the month; on a monthly basis.",
+      "ms_definition": "Mengikut kiraan bulan, bukannya minggu atau hari.",
+      "nuances": "相当于相关语境中的 bulanan 或 secara bulanan，常涉及薪资和计费。强调的是计算单位；实际付款日期仍须另行说明。",
+      "collocations": [
+        {
+          "ms": "gaji dihitung berbulan",
+          "zh": "薪资按月计算",
+          "en": "wages calculated by the month"
+        },
+        {
+          "ms": "upah dikira berbulan",
+          "zh": "报酬按月计算",
+          "en": "pay calculated on a monthly basis"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 薪资计算说明",
+      "ms": "Gaji pekerja kontrak tersebut dikira berbulan, manakala upah pekerja sambilan dikira mengikut jam.",
+      "zh": "该合同员工的薪资按月计算，兼职员工的报酬则按小时计算。",
+      "en": "The contract employee's salary is calculated by the month, while part-time employees are paid by the hour."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认薪资计算方式",
+      "ms_spoken": "Gaji kerja ni dikira berbulan ke? Aku nak tahu sebelum setuju.",
+      "ms_standard": "Adakah gaji bagi pekerjaan ini dikira secara bulanan? Saya mahu mengetahuinya sebelum bersetuju.",
+      "zh": "这份工作的工资是按月算的吗？我想先问清楚再答应。",
+      "en": "Is the pay for this job calculated by the month? I'd like to know before I agree.",
+      "spoken_features": [
+        "ni 对应 ini；nak 对应 mahu。",
+        "ke 是口语疑问标记。",
+        "berbulan 在这里可理解，但当代聊天更常说 kira bulanan 或 kira ikut bulan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Gaji kerja ni dikira berbulan ke? Aku nak tahu sebelum setuju.",
+          "ms_standard": "Adakah gaji bagi pekerjaan ini dikira secara bulanan? Saya mahu mengetahuinya sebelum bersetuju.",
+          "zh": "这份工作的工资是按月算的吗？我想先问清楚再答应。",
+          "en": "Is the pay for this job calculated by the month? I'd like to know before I agree."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Ya, kira ikut bulan. Aku dah tanya bahagian sumber manusia tadi.",
+          "ms_standard": "Ya, gaji dikira mengikut bulan. Saya sudah bertanya kepada bahagian sumber manusia tadi.",
+          "zh": "对，按月算。我刚才已经问过人力资源部了。",
+          "en": "Yes, it's calculated by the month. I checked with HR earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bulan brings together two familiar ideas: the moon in the sky and a month on the calendar. Berbulan carries that pairing into descriptions of nights, durations, and monthly calculations. Its meanings therefore connect a visible celestial object with everyday timekeeping. The contrast with berbulan-bulan is especially useful: reduplication changes a single month into a span of several months.",
+    "cognitive_memory_aid": "bulan＝月亮／一个月；berbulan＝有月亮、长达一个月或按月算；重复成 berbulan-bulan，时间就拉长为好几个月。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词没有特殊敬语或禁忌。谈工资时用 Gaji ini dikira secara bulanan? 清楚而中性，也适合向招聘人员确认。",
+    "usage_etiquette": "月夜义适合文学描写；薪资和合同说明宜用更明确的 secara bulanan 或 mengikut bulan。描述等待数月时用 berbulan-bulan，避免与一个月义混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词没有特殊敬语或禁忌。谈工资时用 Gaji ini dikira secara bulanan? 清楚而中性，也适合向招聘人员确认。",
+    "usage_etiquette": "月夜义适合文学描写；薪资和合同说明宜用更明确的 secara bulanan 或 mengikut bulan。描述等待数月时用 berbulan-bulan，避免与一个月义混淆。"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "mod",
+    "syllables": "mod",
+    "ipa": "/mod/",
+    "jawi": "مود",
+    "frequency_rank": 5534,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mod",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mod → mod",
+    "pattern_note": "单音节借词，作为完整词根记忆，无词缀变化；下列词族成员为复合术语。",
+    "word_family": [
+      {
+        "word": "mod capaian",
+        "affix": "∅",
+        "gloss": "存取模式"
+      },
+      {
+        "word": "mod penerbangan",
+        "affix": "∅",
+        "gloss": "飞行模式"
+      },
+      {
+        "word": "kelas mod",
+        "affix": "∅",
+        "gloss": "众数组"
+      }
+    ],
+    "root_jawi": "مود"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "模式；系统、设备或程序可选择的某一种运行方式。",
+      "en_definition": "A selectable manner of operation of a system, device, or program.",
+      "ms_definition": "Salah satu pilihan kaedah atau cara pengendalian pemprosesan sistem.",
+      "nuances": "资料包所列的核心义属于计算机领域；现代用法也常见于手机、相机和其他设备的设置。通常置于说明成分之前，如 mod senyap。",
+      "collocations": [
+        {
+          "ms": "mod penerbangan",
+          "zh": "飞行模式",
+          "en": "airplane mode"
+        },
+        {
+          "ms": "mod senyap",
+          "zh": "静音模式",
+          "en": "silent mode"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "方式；某项活动、服务或课程的实施形式。",
+      "en_definition": "The manner or format in which an activity, service, or course is conducted.",
+      "ms_definition": "Cara atau bentuk pelaksanaan sesuatu kegiatan, perkhidmatan atau pengajian.",
+      "nuances": "常用于教育、培训和交通等领域。具体所指由后面的名词决定。高等教育文件使用 mod pengajian 区分不同修读形式。[大学研究生学术条例](https://pps.unisza.edu.my/images/2023/regulation/230430---peraturan-akademik-siswazah-mod-penyelidikan.pdf)",
+      "collocations": [
+        {
+          "ms": "mod pengajian",
+          "zh": "修读方式",
+          "en": "mode of study"
+        },
+        {
+          "ms": "mod pengangkutan",
+          "zh": "交通方式",
+          "en": "mode of transport"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "众数；一组数据中出现次数最多的数值或类别。",
+      "en_definition": "The value or category occurring most frequently in a dataset.",
+      "ms_definition": "Nilai yang mempunyai kekerapan tertinggi bagi suatu set data.",
+      "nuances": "属于统计学术语，须按出现频率判断；一组数据可能有多个并列众数。DBP 的学校数学词汇表收录此义。[DBP 数学词汇表](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=kekerapan)",
+      "collocations": [
+        {
+          "ms": "menentukan mod",
+          "zh": "确定众数",
+          "en": "determine the mode"
+        },
+        {
+          "ms": "mod bagi set data",
+          "zh": "数据集的众数",
+          "en": "the mode of a dataset"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua peserta diminta menetapkan telefon bimbit kepada mod senyap sepanjang mesyuarat berlangsung.",
+      "zh": "请所有与会者在会议期间将手机设为静音模式。",
+      "en": "All participants are requested to set their mobile phones to silent mode throughout the meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Telefon aku dalam mod senyap tadi, sebab tu tak dengar kau telefon.",
+      "ms_standard": "Telefon saya berada dalam mod senyap tadi, sebab itulah saya tidak mendengar panggilan kamu.",
+      "zh": "我手机刚才开了静音，所以没听见你打来。",
+      "en": "My phone was on silent earlier, so I didn't hear your call.",
+      "spoken_features": [
+        "aku、kau 是熟人之间的非正式人称代词",
+        "tu 是 itu 的口语缩略形式",
+        "tak 对应标准语 tidak"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah telefon tiga kali. Telefon kau dalam mod senyap ke?",
+          "ms_standard": "Saya sudah menelefon tiga kali. Adakah telefon kamu berada dalam mod senyap?",
+          "zh": "我都打三次了。你手机开静音了吗？",
+          "en": "I've called three times. Is your phone on silent?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Haah, lupa nak tukar tadi. Aku telefon kau balik sekarang.",
+          "ms_standard": "Ya, saya terlupa untuk menukar tetapan tadi. Saya akan menelefon kamu semula sekarang.",
+          "zh": "对，刚才忘了调回来。我现在回拨给你。",
+          "en": "Yeah, I forgot to change it earlier. I'll call you back now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mod corresponds to English mode in technical vocabulary. Its everyday usefulness becomes clear whenever a phone switches between silent and airplane settings: the device remains the same, but its manner of operation changes. In mathematics, the same spelling names the most frequent value, so context determines which meaning applies.",
+    "cognitive_memory_aid": "把 mod 和英语 mode 连起来记：手机切换 mod，就是切换“模式”；数学题里出现 mod，则找“最多次”的数。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身语体中性。会议通知中可用 Sila tetapkan telefon kepada mod senyap，表达清楚且礼貌。",
+    "usage_etiquette": "适合设备设置、技术说明、教育行政和统计讨论；面向初学者时应说明具体是哪一种模式或实施方式。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身语体中性。会议通知中可用 Sila tetapkan telefon kepada mod senyap，表达清楚且礼貌。",
+    "usage_etiquette": "适合设备设置、技术说明、教育行政和统计讨论；面向初学者时应说明具体是哪一种模式或实施方式。"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "membuktikannya",
+    "syllables": "mem.buk.ti.kan.nya",
+    "ipa": "/məmbuktikanɲa/",
+    "jawi": "ممبوقتيکنڽ",
+    "frequency_rank": 5553,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "membuktikan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "membuktikan + -nya → membuktikannya; meN- + bukti + -kan → membuktikan",
+    "pattern_note": "按词包保留直接构词基底 membuktikan，最终词根为 bukti。meN- 在 b 前变为 mem-，b 保留；-nya 在此为回指宾语的附着代词，读 /ɲa/。词包爪夷文仅写出 membuktikan，完整词形须补 ڽ。",
+    "word_family": [
+      {
+        "word": "bukti",
+        "affix": null,
+        "gloss": "证据"
+      },
+      {
+        "word": "membuktikan",
+        "affix": "meN-…-kan",
+        "gloss": "证明；展现"
+      },
+      {
+        "word": "terbukti",
+        "affix": "ter-",
+        "gloss": "已获证实"
+      },
+      {
+        "word": "pembuktian",
+        "affix": "peN-…-an",
+        "gloss": "证明过程；举证"
+      }
+    ],
+    "root_jawi": "ممبوقتيکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用证据证实前文所指的说法、事实或判断。",
+      "en_definition": "To prove or substantiate the previously mentioned claim or fact.",
+      "ms_definition": "Menyungguhkan atau menyatakan kebenaran sesuatu dengan bukti.",
+      "nuances": "-nya 指前文可识别的内容，相当于“证明这一点”，不是动作执行者。此义整合 DBP 对 membuktikan 的相近释义，见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membuktikan)。",
+      "collocations": [
+        {
+          "ms": "membuktikannya dengan bukti",
+          "zh": "用证据证明这一点",
+          "en": "prove it with evidence"
+        },
+        {
+          "ms": "berjaya membuktikannya",
+          "zh": "成功证实这一点",
+          "en": "succeed in proving it"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "通过行动或表现展现前文提及的能力、品质等。",
+      "en_definition": "To demonstrate a previously mentioned ability or quality through action.",
+      "ms_definition": "Memperlihatkan sesuatu, seperti kecekapan atau keberanian.",
+      "nuances": "重在实际表现，不一定涉及正式举证。例如先提及 kemampuan，再用 membuktikannya 回指该能力；不能把它直接解释成“证明自己”。",
+      "collocations": [
+        {
+          "ms": "membuktikannya melalui tindakan",
+          "zh": "以行动展现这一点",
+          "en": "demonstrate it through action"
+        },
+        {
+          "ms": "peluang untuk membuktikannya",
+          "zh": "展现这一点的机会",
+          "en": "an opportunity to demonstrate it"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelidik mendakwa kaedah itu lebih berkesan dan telah membuktikannya melalui ujian perbandingan.",
+      "zh": "研究团队提出该方法更有效，并已通过对比试验证实了这一点。",
+      "en": "The research team claimed that the method was more effective and demonstrated this through comparative testing."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah bayar, dan aku boleh membuktikannya dengan resit ni.",
+      "ms_standard": "Saya sudah membayar dan boleh membuktikannya dengan resit ini.",
+      "zh": "我已经付钱了，这张收据就能证明。",
+      "en": "I've already paid, and I can prove it with this receipt.",
+      "spoken_features": [
+        "aku 用于熟人之间",
+        "dah 对应 sudah",
+        "ni 对应 ini",
+        "完整 membuktikannya 略显郑重，日常也常说 buktikan"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah bayar tadi. Aku boleh membuktikannya dengan resit ni.",
+          "ms_standard": "Saya sudah membayar tadi. Saya boleh membuktikannya dengan resit ini.",
+          "zh": "我刚才已经付了。这张收据能证明。",
+          "en": "I paid earlier. I've got this receipt to prove it."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Oh, hantar gambar resit tu je. Aku nak semak nombor rujukan.",
+          "ms_standard": "Hantarkan gambar resit itu sahaja. Saya mahu menyemak nombor rujukannya.",
+          "zh": "哦，把收据照片发来就行。我想核对一下参考编号。",
+          "en": "Oh, just send me a photo of the receipt. I want to check the reference number."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates Malay word building rather than a separate lexical invention. Bukti supplies the idea of evidence; membuktikan turns it into proving or demonstrating; attached -nya points back to something already mentioned. A single written word therefore packages both an action and its object, where English often uses 'prove it'. Compare [DBP's bukti entry](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=bukti).",
+    "cognitive_memory_aid": "抓住 bukti“证据”：membuktikan“拿证据证明”，再加 -nya“它／这一点”，就是“证明这一点”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接要求对方 membuktikannya 可能带有质疑意味；职场上可用 Bolehkah pihak tuan mengemukakan bukti sokongan? 委婉请求佐证。",
+    "usage_etiquette": "须让听者知道 -nya 指什么；若前文没有明确对象，宜直接说 membuktikan dakwaan itu 等。与长辈或不熟悉的人交流时，通常用 saya 替代 aku。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接要求对方 membuktikannya 可能带有质疑意味；职场上可用 Bolehkah pihak tuan mengemukakan bukti sokongan? 委婉请求佐证。",
+    "usage_etiquette": "须让听者知道 -nya 指什么；若前文没有明确对象，宜直接说 membuktikan dakwaan itu 等。与长辈或不熟悉的人交流时，通常用 saya 替代 aku。"
+  }
+}

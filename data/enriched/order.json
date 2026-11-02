@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "order",
+    "syllables": "or.der",
+    "ipa": "/or.dər/",
+    "jawi": "اوردر",
+    "frequency_rank": 5581,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "order",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + order → order",
+    "pattern_note": "作为现代马来语词项整体处理，不能拆成 or + -der。日常点单用法属于英语借用或语码混用，不能据此把英语所有义项都列为正式马来语义项。",
+    "word_family": [],
+    "root_jawi": "اوردر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "目：生物分类中位于纲之下、科之上的分类阶元。",
+      "en_definition": "A taxonomic rank below class and above family.",
+      "ms_definition": "Salah satu kategori pengelasan benda hidup, sebelum famili.",
+      "nuances": "这是输入资料所载的正式生物学义，status 为 official 对应该词典收录义。主要分类层级可表示为 kelas → order → famili。参见 [PRPM：order](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=order)。",
+      "collocations": [
+        {
+          "ms": "order Primates",
+          "zh": "灵长目",
+          "en": "the order Primates"
+        },
+        {
+          "ms": "order Coleoptera",
+          "zh": "鞘翅目",
+          "en": "the order Coleoptera"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "口语中指点餐、订购或下单。",
+      "en_definition": "Informally, to order food or place an order for goods.",
+      "ms_definition": "Dalam bahasa percakapan bercampur bahasa Inggeris, memesan makanan atau membuat pesanan barang.",
+      "nuances": "这是马来西亚日常语码混用中的常见动词用法，与正式生物分类义分开。标准马来语通常用 memesan 或 membuat pesanan；此说明不表示 DBP 已把该口语义收录为正式义项。",
+      "collocations": [
+        {
+          "ms": "order makanan",
+          "zh": "点餐",
+          "en": "order food"
+        },
+        {
+          "ms": "order barang",
+          "zh": "订购商品",
+          "en": "order goods"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "口语中指订单，或顾客所点的餐食。",
+      "en_definition": "Informally, an order for goods or food.",
+      "ms_definition": "Dalam bahasa percakapan bercampur bahasa Inggeris, pesanan barang atau makanan.",
+      "nuances": "在购物和餐饮聊天中常见；正式文件宜用 pesanan。“命令”则应按情境使用 arahan 或 perintah，不能仅因英语同形而自动套用。",
+      "collocations": [
+        {
+          "ms": "order saya",
+          "zh": "我的订单",
+          "en": "my order"
+        },
+        {
+          "ms": "ambil order",
+          "zh": "接单；记录点餐",
+          "en": "take an order"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "科研报告 / 新闻 / 职场汇报",
+      "ms": "Laporan itu menyenaraikan spesies serangga yang tergolong dalam order Coleoptera.",
+      "zh": "该报告列出了属于鞘翅目的昆虫物种。",
+      "en": "The report lists insect species belonging to the order Coleoptera."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak order nasi goreng je. Kau nak apa?",
+      "ms_standard": "Saya hendak memesan nasi goreng sahaja. Kamu hendak memesan apa?",
+      "zh": "我就点炒饭。你要什么？",
+      "en": "I'm just getting fried rice. What would you like?",
+      "spoken_features": [
+        "order 是英语动词嵌入马来语句法的日常用法。",
+        "nak 对应 hendak，je 对应 sahaja。",
+        "aku 和 kau 适用于熟人之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak order nasi goreng je. Kau nak apa?",
+          "ms_standard": "Saya hendak memesan nasi goreng sahaja. Kamu hendak memesan apa?",
+          "zh": "我就点炒饭。你要什么？",
+          "en": "I'm just getting fried rice. What would you like?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak mi goreng. Tolong order sekali, ya.",
+          "ms_standard": "Saya hendak memesan mi goreng. Tolong pesankan untuk saya juga, ya.",
+          "zh": "我要炒面。帮我一起点，好吗？",
+          "en": "I'd like fried noodles. Please order mine too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Order offers a useful glimpse of two registers meeting in Malaysian Malay. In the dictionary packet, it names a biological classification rank above family. In everyday conversations shaped by English contact, the same spelling commonly appears when people buy goods or request meals. The setting therefore determines whether order belongs to taxonomy or to a café conversation.",
+    "cognitive_memory_aid": "实验室里的 order 是“目”；餐桌上的 nak order 是“要点餐”。先看场景，再选意思。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "点餐时用 Saya nak order…, boleh? 或 Tolong… 会比简短命令更礼貌。选择对方熟悉的语言表达即可。",
+    "usage_etiquette": "生物学报告可用正式术语 order；日常餐饮与购物聊天可用口语 order。公函、采购文件及规范服务文案通常采用 memesan、pesanan 或 membuat pesanan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "点餐时用 Saya nak order…, boleh? 或 Tolong… 会比简短命令更礼貌。选择对方熟悉的语言表达即可。",
+    "usage_etiquette": "生物学报告可用正式术语 order；日常餐饮与购物聊天可用口语 order。公函、采购文件及规范服务文案通常采用 memesan、pesanan 或 membuat pesanan。"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "mengesyaki",
+    "syllables": "me.nge.sya.ki",
+    "ipa": "/mə.ŋə.ʃa.ki/",
+    "jawi": "مڠشکي",
+    "frequency_rank": 5630,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "syak",
+    "affix": "meN-...-i",
+    "affix_type": "circumfix",
+    "formula": "meN- + syak + -i → mengesyaki",
+    "pattern_note": "词根 syak 为单音节，meN- 采用 menge- 形式，sy 所表示的 /ʃ/ 保留，再接 -i。输入将整词标为词根，应改为 syak。DBP 也记录带喉塞音的读法 /mə.ŋə.ʃaʔ.ki/。[DBP：构词说明](https://jendeladbp.my/app/uploads/woocommerce_uploads/2025/04/eDigital_Morfologi-qnsczr.pdf)",
+    "word_family": [
+      {
+        "word": "syak",
+        "affix": "∅",
+        "gloss": "怀疑；疑心"
+      },
+      {
+        "word": "disyaki",
+        "affix": "di-...-i",
+        "gloss": "被怀疑；涉嫌"
+      }
+    ],
+    "root_jawi": "شک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "对某人或某事产生疑心，认为其可能不可信或涉及不当行为。",
+      "en_definition": "To regard someone or something with suspicion or distrust.",
+      "ms_definition": "Menaruh syak pada; berasa sangsi pada; mencurigai.",
+      "nuances": "可直接接人或被怀疑的事情。表示尚未确定的疑心，不等于已经证实，也不等于正式指控；语气一般比中性的 ingin memastikan（想确认）更强。[DBP：syak](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=syak)",
+      "collocations": [
+        {
+          "ms": "mengesyaki seseorang",
+          "zh": "怀疑某人",
+          "en": "suspect someone"
+        },
+        {
+          "ms": "mengesyaki penglibatan seseorang",
+          "zh": "怀疑某人涉事",
+          "en": "suspect someone's involvement"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "根据迹象推测某种情况可能存在或某件事情可能已经发生。",
+      "en_definition": "To suppose or infer that something may be true or may have happened.",
+      "ms_definition": "Menyangka; menduga.",
+      "nuances": "侧重根据线索作出的未证实判断，不一定针对某人的品行。可接名词短语，也可接 bahawa 引导的分句，如 mengesyaki bahawa sesuatu telah berlaku。",
+      "collocations": [
+        {
+          "ms": "mengesyaki berlaku penipuan",
+          "zh": "怀疑发生了欺诈",
+          "en": "suspect that fraud has occurred"
+        },
+        {
+          "ms": "mengesyaki kebocoran gas",
+          "zh": "怀疑存在燃气泄漏",
+          "en": "suspect a gas leak"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan audit mengesyaki bahawa beberapa tuntutan perbelanjaan telah dikemukakan lebih daripada sekali.",
+      "zh": "审计团队怀疑，有几项费用报销申请被重复提交。",
+      "en": "The audit team suspects that several expense claims have been submitted more than once."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah mula mengesyaki yang mesej ni palsu lah.",
+      "ms_standard": "Saya sudah mula mengesyaki bahawa mesej ini palsu.",
+      "zh": "我已经开始怀疑这条消息是假的了。",
+      "en": "I'm starting to suspect this message is fake.",
+      "spoken_features": [
+        "aku 用于熟人之间，正式表达可用 saya。",
+        "dah 对应 sudah，ni 对应 ini。",
+        "口语中的 yang 对应此处标准句中的 bahawa；lah 加强说话人的判断语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah mula mengesyaki yang mesej ni palsu lah.",
+          "ms_standard": "Saya sudah mula mengesyaki bahawa mesej ini palsu.",
+          "zh": "我已经开始怀疑这条消息是假的了。",
+          "en": "I'm starting to suspect this message is fake."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jangan tekan pautan tu dulu. Kita semak kat laman rasmi je.",
+          "ms_standard": "Jangan klik pautan itu dahulu. Kita semak maklumat tersebut di laman rasmi sahaja.",
+          "zh": "先别点那个链接。我们去官网查一下就好。",
+          "en": "Don't click that link yet. Let's just check the official website."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base syak comes from Arabic shakk, meaning doubt. Malay integrates this borrowed base into its own grammatical system: mengesyaki expresses active suspicion, while disyaki presents someone or something as suspected. The word illustrates how a borrowed term can become thoroughly Malay through productive affixation, serving both everyday uncertainty and the careful reporting of unconfirmed events. [Etymological reference](https://en.wiktionary.org/wiki/syak)",
+    "cognitive_memory_aid": "抓住核心 syak＝疑心：syak 加上主动构词形式成为 mengesyaki，就是“对某人或某事起疑”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Saya mengesyaki awak… 容易让对方感到受到指责。需要核实情况时，可先用 Saya ingin mendapatkan penjelasan…（我想了解一下情况）引入。",
+    "usage_etiquette": "适合审计、调查、新闻及个人推测。谈及具体人物时，应清楚区分怀疑与事实；正式报道常用被动式 disyaki，避免把未证实的事情写成定论。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Saya mengesyaki awak… 容易让对方感到受到指责。需要核实情况时，可先用 Saya ingin mendapatkan penjelasan…（我想了解一下情况）引入。",
+    "usage_etiquette": "适合审计、调查、新闻及个人推测。谈及具体人物时，应清楚区分怀疑与事实；正式报道常用被动式 disyaki，避免把未证实的事情写成定论。"
+  }
+}
