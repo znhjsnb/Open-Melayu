@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "menambahkan",
+    "syllables": "me.nam.bah.kan",
+    "ipa": "/mə.nam.bah.kan/",
+    "jawi": "منمبهکن",
+    "frequency_rank": 6890,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menambah",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "menambah + -kan → menambahkan；完整构词：meN- + tambah + -kan → menambahkan",
+    "pattern_note": "按数据包保留直接基底 menambah；更底层词根为 tambah。meN- 遇词首 t 时，t 脱落，鼻音实现为 n，形成 menambah；再接 -kan。第二音节为 /nam/，数据包候选 /num/ 不采用。",
+    "word_family": [
+      {
+        "word": "tambah",
+        "affix": null,
+        "gloss": "增加；加"
+      },
+      {
+        "word": "menambah",
+        "affix": "meN-",
+        "gloss": "添加；增加"
+      },
+      {
+        "word": "bertambah",
+        "affix": "ber-",
+        "gloss": "变多；增长"
+      },
+      {
+        "word": "penambahan",
+        "affix": "peN-...-an",
+        "gloss": "增加；添加这一过程"
+      }
+    ],
+    "root_jawi": "منمبه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把某物添加到原有事物中，使总量、数量或规模增加。",
+      "en_definition": "To add something to what is already present, increasing the amount, number or size.",
+      "ms_definition": "Menambah sesuatu pada yang sudah ada supaya menjadi besar, banyak dan sebagainya.",
+      "nuances": "及物动词，可用 menambahkan X pada Y 表示把 X 加到 Y 中。与 menambah 有大量意义重叠，不能仅凭 -kan 就把两者机械分成完全不同的动作。定义依据 [DBP：menambahkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menambahkan)。",
+      "collocations": [
+        {
+          "ms": "menambahkan air",
+          "zh": "加水",
+          "en": "add water"
+        },
+        {
+          "ms": "menambahkan gula",
+          "zh": "加糖",
+          "en": "add sugar"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "使原有的程度、能力、感受或负担进一步增加；增强或加重。",
+      "en_definition": "To increase or intensify an existing quality, capacity, feeling or burden.",
+      "ms_definition": "Menjadikan sesuatu yang sedia ada lebih besar atau lebih tinggi dari segi tahap, kekuatan, pengetahuan dan sebagainya.",
+      "nuances": "这是添加义在抽象事物上的延伸，可表达正面增强，也可表达负面加重，具体褒贬由宾语决定。与不及物的 bertambah 不同，此词通常需要宾语。",
+      "collocations": [
+        {
+          "ms": "menambahkan pengetahuan",
+          "zh": "增长知识",
+          "en": "expand one's knowledge"
+        },
+        {
+          "ms": "menambahkan beban",
+          "zh": "加重负担",
+          "en": "increase the burden"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Program latihan ini bertujuan untuk menambahkan pengetahuan kakitangan tentang pengurusan data.",
+      "zh": "这项培训计划旨在增进员工对数据管理的了解。",
+      "en": "This training programme aims to expand staff knowledge of data management."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kerja last minute ni menambahkan beban aku je lah.",
+      "ms_standard": "Kerja pada saat akhir ini hanya menambahkan beban saya.",
+      "zh": "这临时塞来的活儿，只会给我增加负担啦。",
+      "en": "This last-minute work is just adding to my workload.",
+      "spoken_features": [
+        "last minute 是常见的英语夹杂表达，标准对应为 pada saat akhir。",
+        "ni 对应 ini，je 对应 sahaja。",
+        "lah 表达说话者的不满；完整动词 menambahkan 在此带强调语气，随意口语也常简化为 tambah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (熟悉的同事)",
+          "ms_spoken": "Kerja last minute ni menambahkan beban aku je lah. Aku dah banyak kerja.",
+          "ms_standard": "Kerja pada saat akhir ini hanya menambahkan beban saya. Saya sudah mempunyai banyak tugas.",
+          "zh": "这临时塞来的活儿，只会给我增加负担啦。我手上的事已经很多了。",
+          "en": "This last-minute work is just adding to my workload. I've already got so much to do."
+        },
+        {
+          "speaker": "Hafiz (熟悉的同事)",
+          "ms_spoken": "Aku boleh tolong semak jadual tu. Kau nak aku buat sekarang?",
+          "ms_standard": "Saya boleh membantu menyemak jadual itu. Adakah awak mahu saya melakukannya sekarang?",
+          "zh": "我可以帮你检查那个时间表。要我现在弄吗？",
+          "en": "I can help check that schedule. Want me to do it now?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The story of menambahkan lies in Malay word formation rather than an exotic borrowed origin. Tambah supplies the idea of addition. The active prefix meN- changes its initial t through nasal substitution, producing menambah; -kan completes menambahkan. The resulting verb applies equally to adding tangible material and increasing something abstract, such as knowledge or worry.",
+    "cognitive_memory_aid": "tambah 是加；meN- 让 t 让位给 n，再接 -kan：menambahkan，就是把东西或程度往上加。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合正式报告和说明。向别人提出要求时，加 boleh、tolong 或 sila 可调整语气，例如 Boleh tolong menambahkan sedikit air?（可以帮忙加一点水吗？）。",
+    "usage_etiquette": "谈到 menambahkan beban 时容易带有责备意味；向上级讨论工作量，可说 Tugasan ini akan menambahkan beban kerja pasukan（这项任务会增加团队的工作量），把重点放在任务影响上。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合正式报告和说明。向别人提出要求时，加 boleh、tolong 或 sila 可调整语气，例如 Boleh tolong menambahkan sedikit air?（可以帮忙加一点水吗？）。",
+    "usage_etiquette": "谈到 menambahkan beban 时容易带有责备意味；向上级讨论工作量，可说 Tugasan ini akan menambahkan beban kerja pasukan（这项任务会增加团队的工作量），把重点放在任务影响上。"
+  }
+}

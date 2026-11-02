@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "dimaklumkan",
+    "syllables": "di.mak.lum.kan",
+    "ipa": "/di.maʔ.lum.kan/",
+    "jawi": null,
+    "frequency_rank": 6942,
+    "status": "official",
+    "status_note": "标准马来语派生词。音节与音标据标准构词及 maklum 的读音补充；爪夷文保留输入的空值。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "maklum",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + maklum + -kan → dimaklumkan",
+    "pattern_note": "纠正输入的自动词根识别：词根是 maklum。di- 标示被动，-kan 参与构成“使知悉、告知”的动词；此处用 circumfix 表示前后附加形式。di- 连写，不触发鼻音同化；maklum 中的 k 可读作 [ʔ]。",
+    "word_family": [
+      {
+        "word": "memaklumkan",
+        "affix": "meN-...-kan",
+        "gloss": "告知；通知"
+      },
+      {
+        "word": "makluman",
+        "affix": "-an",
+        "gloss": "通知；供知悉的信息"
+      },
+      {
+        "word": "pemakluman",
+        "affix": "peN-...-an",
+        "gloss": "通知这一行为；公告"
+      },
+      {
+        "word": "termaklum",
+        "affix": "ter-",
+        "gloss": "已知悉的"
+      }
+    ],
+    "root_jawi": "معلوم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被告知；获通知；在公文中引出通知内容，表示“兹通知”。",
+      "en_definition": "To be informed or notified; also used impersonally to introduce a formal notice.",
+      "ms_definition": "Bentuk pasif bagi memaklumkan: diberitahu atau diberitahukan sesuatu perkara; digunakan juga untuk memperkenalkan makluman rasmi.",
+      "nuances": "Saya dimaklumkan bahawa... 表示“我获告知……”，Dengan ini dimaklumkan bahawa... 表示“兹通知……”。词形本身不表示过去时，时间由上下文或 telah、akan 等决定。释义依据 [PRPM：maklum](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=maklum) 所列 memaklumkan 作被动释写。",
+      "collocations": [
+        {
+          "ms": "dimaklumkan bahawa",
+          "zh": "获告知……；兹通知……",
+          "en": "be informed that"
+        },
+        {
+          "ms": "akan dimaklumkan kemudian",
+          "zh": "将另行通知",
+          "en": "will be announced or communicated later"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场通知",
+      "ms": "Dengan ini dimaklumkan bahawa mesyuarat tersebut ditangguhkan sehingga tarikh yang akan ditetapkan kemudian.",
+      "zh": "兹通知，该会议延期举行，具体日期将另行确定。",
+      "en": "Please be informed that the meeting has been postponed to a date to be determined."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：同事转述工作通知",
+      "ms_spoken": "Aku baru dimaklumkan yang mesyuarat esok batal lah.",
+      "ms_standard": "Saya baru dimaklumkan bahawa mesyuarat esok dibatalkan.",
+      "zh": "我刚收到通知，明天的会议取消了。",
+      "en": "I've just been told tomorrow's meeting is cancelled.",
+      "spoken_features": [
+        "保留工作通知中较正式的 dimaklumkan",
+        "口语以 yang 引出内容，标准对应句用 bahawa",
+        "batal 是口语中的简化表达；lah 增添告知语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku baru dimaklumkan yang mesyuarat esok batal lah.",
+          "ms_standard": "Saya baru dimaklumkan bahawa mesyuarat esok dibatalkan.",
+          "zh": "我刚收到通知，明天的会议取消了。",
+          "en": "I've just been told tomorrow's meeting is cancelled."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Oh, aku belum tahu lagi. Nanti aku bagitahu yang lain kat pejabat.",
+          "ms_standard": "Oh, saya belum mengetahuinya. Nanti saya akan memberitahu rakan-rakan lain di pejabat.",
+          "zh": "哦，我还不知道呢。待会儿我告诉办公室其他同事。",
+          "en": "Oh, I hadn't heard. I'll let the others at the office know."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base maklum belongs to Malay vocabulary associated with knowing and being informed. Malay morphology builds memaklumkan for communicating information and dimaklumkan for its passive counterpart. In administrative writing, the latter introduces notices while allowing the sender to remain implicit. This explains its familiar institutional tone without treating the entire four-syllable form as an indivisible root. See [PRPM: maklum](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=maklum).",
+    "cognitive_memory_aid": "先记 maklum“知悉”：加 -kan 是“使知悉”，前置 di- 转为被动，dimaklumkan 就是“获告知”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合机构、学校及职场通知。可用 Dengan hormatnya dimaklumkan bahawa... 表达礼貌。DBP 建议采用 Dengan ini dimaklumkan bahawa...，避免在动词前添加 adalah。参见 [DBP 语法答复](https://kndbp.dbp.gov.my/soalanlazim/nb_soalan_lazim.aspx?ctl00_contentPlaceHolder_dgCarianBaruChangePage=21)。",
+    "usage_etiquette": "涉及延期、拒绝或不利消息时，应明确交代事实及后续安排。日常朋友聊天也可使用，但会带工作通知的语气；更随意时常改用 diberitahu 或有人 bagitahu。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合机构、学校及职场通知。可用 Dengan hormatnya dimaklumkan bahawa... 表达礼貌。DBP 建议采用 Dengan ini dimaklumkan bahawa...，避免在动词前添加 adalah。参见 [DBP 语法答复](https://kndbp.dbp.gov.my/soalanlazim/nb_soalan_lazim.aspx?ctl00_contentPlaceHolder_dgCarianBaruChangePage=21)。",
+    "usage_etiquette": "涉及延期、拒绝或不利消息时，应明确交代事实及后续安排。日常朋友聊天也可使用，但会带工作通知的语气；更随意时常改用 diberitahu 或有人 bagitahu。"
+  }
+}

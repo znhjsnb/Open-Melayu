@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "emp",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 6859,
+    "status": "unresolved"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "emp",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "Jika konteks mengesahkan singkatan: Elaun Mencari Pekerjaan → EMP; Environmental Management Plan → EMP",
+    "pattern_note": "孤立的小写 emp 无法确定词义或读音。下列两义仅适用于上下文确认的大写缩写 EMP，不能反推原始词项必指其中之一。is_root 沿用输入标记，不表示已证实其为马来语词根。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "仅在马来西亚就业保险语境中：EMP 为 Elaun Mencari Pekerjaan 的缩写，指向符合条件的失业参保人提供的求职津贴。",
+      "en_definition": "In Malaysian employment-insurance contexts, EMP abbreviates Elaun Mencari Pekerjaan, the Job Search Allowance for eligible insured people who have lost employment.",
+      "ms_definition": "Dalam konteks Sistem Insurans Pekerjaan, EMP ialah singkatan bagi Elaun Mencari Pekerjaan, iaitu faedah kewangan bagi orang berinsurans yang kehilangan pekerjaan dan memenuhi syarat kelayakan.",
+      "nuances": "这是经官方材料证实的缩写用法，不能据此确定输入的小写 emp 的原意。这里提供名称释义，不列待遇金额或申请条件。首次出现宜写全称。[PERKESO：就业保险](https://perkeso.gov.my/perkhidmatan-kami/perlindungan/insurans-pekerjaan.html)",
+      "collocations": [
+        {
+          "ms": "permohonan EMP",
+          "zh": "求职津贴申请",
+          "en": "an application for the Job Search Allowance"
+        },
+        {
+          "ms": "bayaran EMP",
+          "zh": "求职津贴发放款项",
+          "en": "a Job Search Allowance payment"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "仅在环境管理语境中：EMP 为 Environmental Management Plan 的缩写，马来语称 Pelan Pengurusan Alam Sekitar，即环境管理计划。",
+      "en_definition": "In environmental-management contexts, EMP abbreviates Environmental Management Plan, Malay Pelan Pengurusan Alam Sekitar.",
+      "ms_definition": "Dalam konteks pengurusan alam sekitar, EMP ialah singkatan bahasa Inggeris bagi Environmental Management Plan, yang disebut Pelan Pengurusan Alam Sekitar dalam bahasa Melayu.",
+      "nuances": "此义属于环境项目文件用语，与求职津贴无关。具体文件内容及适用要求取决于项目背景，不能从缩写本身推定。[马来西亚环境局：文件名称用法](https://www.doe.gov.my/wp-content/uploads/2021/10/Soalan-Lazim-FAQ-PKPB-JAS.pdf)",
+      "collocations": [
+        {
+          "ms": "penyediaan EMP",
+          "zh": "环境管理计划的编制",
+          "en": "preparation of an Environmental Management Plan"
+        },
+        {
+          "ms": "pelaksanaan EMP",
+          "zh": "环境管理计划的实施",
+          "en": "implementation of an Environmental Management Plan"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；明确采用环境管理义",
+      "ms": "Pasukan projek sedang menyediakan Pelan Pengurusan Alam Sekitar (EMP) untuk dibincangkan dalam mesyuarat teknikal.",
+      "zh": "项目团队正在编制环境管理计划（EMP），供技术会议讨论。",
+      "en": "The project team is preparing an Environmental Management Plan (EMP) for discussion at the technical meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；明确采用求职津贴义",
+      "ms_spoken": "Kau dah semak status permohonan EMP tu?",
+      "ms_standard": "Adakah awak sudah menyemak status permohonan Elaun Mencari Pekerjaan itu?",
+      "zh": "你查过那个求职津贴申请的进度了吗？",
+      "en": "Have you checked the status of your Job Search Allowance application yet?",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "tu 对应 itu",
+        "缩写 EMP 保留大写",
+        "对话双方已明确 EMP 指求职津贴"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah semak status permohonan EMP tu?",
+          "ms_standard": "Adakah awak sudah menyemak status permohonan Elaun Mencari Pekerjaan itu?",
+          "zh": "你查过那个求职津贴申请的进度了吗？",
+          "en": "Have you checked the status of your Job Search Allowance application yet?"
+        },
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Belum, aku nak semak kat portal kejap lagi.",
+          "ms_standard": "Belum. Saya hendak menyemaknya melalui portal sebentar lagi.",
+          "zh": "还没，我等一下上网站查。",
+          "en": "Not yet. I'll check the portal in a bit."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The letters EMP illustrate how administrative abbreviations cross languages. Malaysian employment-insurance materials use the initials of Elaun Mencari Pekerjaan, while environmental documents retain the English initials of Environmental Management Plan alongside a Malay title. These documented uses explain two possible readings, but neither establishes the origin or intended meaning of the isolated lowercase token emp.",
+    "cognitive_memory_aid": "EMP 先看场景：找工作时联想 Elaun Mencari Pekerjaan；环境项目中联想 Environmental Management Plan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向公众解释时先写全称，避免让对方猜缩写。询问朋友是否申领津贴时，注意其失业经历和经济隐私。",
+    "usage_etiquette": "在相关文件中使用大写 EMP，并在首次出现时说明全称。没有原句时，小写 emp 应保留为待辨识词项，不能直接发布为已核定的普通马来语词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向公众解释时先写全称，避免让对方猜缩写。询问朋友是否申领津贴时，注意其失业经历和经济隐私。",
+    "usage_etiquette": "在相关文件中使用大写 EMP，并在首次出现时说明全称。没有原句时，小写 emp 应保留为待辨识词项，不能直接发布为已核定的普通马来语词。"
+  }
+}

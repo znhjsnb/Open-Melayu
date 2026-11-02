@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "rawat",
+    "syllables": "ra.wat",
+    "ipa": "/rawat/",
+    "jawi": "راوت",
+    "frequency_rank": 6895,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rawat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rawat → rawat",
+    "pattern_note": "rawat 是无词缀词根。加 meN- 时，在词首 r 前使用 me-，形成 merawat，保留 r；加 peN- 时相应形成 perawat。",
+    "word_family": [
+      {
+        "word": "merawat",
+        "affix": "meN-",
+        "gloss": "治疗；护理；照料"
+      },
+      {
+        "word": "dirawat",
+        "affix": "di-",
+        "gloss": "接受治疗；受到护理"
+      },
+      {
+        "word": "rawatan",
+        "affix": "-an",
+        "gloss": "治疗；护理；养护"
+      },
+      {
+        "word": "perawat",
+        "affix": "peN-",
+        "gloss": "护理人员；照料者"
+      },
+      {
+        "word": "perawatan",
+        "affix": "peN-...-an",
+        "gloss": "护理或养护的过程"
+      }
+    ],
+    "root_jawi": "راوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "通过给予药物、医疗处置或适当照护，治疗、护理病人或处理伤病。",
+      "en_definition": "To treat an illness or injury, or nurse a sick person, by providing medical attention or appropriate care.",
+      "ms_definition": "Memelihara, menyelenggarakan, membela, menjaga (orang sakit dan lain-lain) dengan memberi ubat dan sebagainya.",
+      "nuances": "强调治疗或护理的行为，并不保证病人已经痊愈。标准陈述句中的主动及物形式通常是 merawat，被动形式是 dirawat；rawat 常见于祈使句，口语中也可省去主动前缀。此义依据 [DBP《Kamus Dewan》第四版](https://prpm.dbp.gov.my/cari1?keyword=merawat)。",
+      "collocations": [
+        {
+          "ms": "merawat pesakit",
+          "zh": "治疗或护理病人",
+          "en": "to treat or nurse a patient"
+        },
+        {
+          "ms": "merawat luka",
+          "zh": "处理伤口",
+          "en": "to treat a wound"
+        },
+        {
+          "ms": "merawat mangsa kemalangan",
+          "zh": "救治事故伤者",
+          "en": "to treat accident victims"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "通过适当的照料、养护或处理，维持或改善植物等对象的状况。",
+      "en_definition": "To tend, maintain, or treat something in order to preserve or improve its condition.",
+      "ms_definition": "Memelihara dan menyelenggarakan sesuatu, termasuk tumbuh-tumbuhan, supaya keadaannya baik.",
+      "nuances": "这是照料义的非医疗用法；具体措施取决于对象。照料植物时可包括处理病害、修护等，不宜把 rawat 当成所有清洁、维修或管理行为的通用替代词。此处按 [DBP 所列的养护义及果树例句](https://prpm.dbp.gov.my/cari1?keyword=merawat)细分，马来语释义为释义性改写。",
+      "collocations": [
+        {
+          "ms": "merawat pokok",
+          "zh": "养护树木",
+          "en": "to tend trees"
+        },
+        {
+          "ms": "merawat tanaman",
+          "zh": "养护栽种的植物",
+          "en": "to tend cultivated plants"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan perubatan telah merawat semua mangsa yang cedera sebelum mereka dipindahkan ke hospital.",
+      "zh": "医疗团队已对所有伤者进行救治，随后将他们转送医院。",
+      "en": "The medical team treated all the injured victims before they were transferred to hospital."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Doktor dah rawat luka kau kat klinik tadi?",
+      "ms_standard": "Adakah doktor sudah merawat luka kamu di klinik tadi?",
+      "zh": "刚才医生在诊所有帮你处理伤口吗？",
+      "en": "Did the doctor treat your wound at the clinic earlier?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式，表示已经。",
+        "kat 在这里相当于标准语的 di，表示地点。",
+        "rawat 在口语主动句中省略了 merawat 的 me- 前缀。",
+        "kau 是亲近朋友之间使用的非正式第二人称，使用时须考虑双方关系。",
+        "口语疑问句可省略 adakah，依靠语境和语调表达疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Doktor dah rawat luka kau kat klinik tadi?",
+          "ms_standard": "Adakah doktor sudah merawat luka kamu di klinik tadi?",
+          "zh": "刚才医生在诊所有帮你处理伤口吗？",
+          "en": "Did the doctor treat your wound at the clinic earlier?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, doktor dah cuci luka tu dan balut. Sekarang pedih sikit je.",
+          "ms_standard": "Ya, doktor sudah membersihkan luka itu dan membalutnya. Sekarang luka itu hanya terasa sedikit pedih.",
+          "zh": "处理了，医生已经清洗并包扎好了。现在就有一点刺痛。",
+          "en": "Yes, the doctor cleaned and dressed it. It just stings a little now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The modern Malay family of rawat connects everyday care with institutional medicine: merawat names the action, rawatan the treatment, and jururawat the nursing profession. DBP also illustrates merawat with fruit trees, showing that its recorded meaning extends beyond patients to tending living things. This is a documented lexical connection, not a proven origin story; the supplied evidence does not establish an earlier source language. See [DBP](https://prpm.dbp.gov.my/cari1?keyword=merawat).",
+    "cognitive_memory_aid": "把 ra.wat 想成护理的两拍：ra——认真照料，wat——完成处理。再串联 rawat → merawat（治疗、照料）→ rawatan（治疗、护理）。这是记忆联想，并非词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对医护人员、长辈或不熟悉的人提出请求时，可说 Tolong rawat… 或使用更完整的请求句，避免生硬地下命令。正式叙述通常使用 merawat 或 dirawat。朋友间的 kau 不宜直接套用于正式医疗交流。",
+    "usage_etiquette": "此词适用于医疗、护理及植物养护等语境，本身没有禁忌色彩。谈论他人的治疗经历时应尊重隐私；描述一个人 sedang dirawat（正在接受治疗），并不表示其病情严重或已经康复。马来西亚正式职业称谓通常使用 jururawat 表示护士。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对医护人员、长辈或不熟悉的人提出请求时，可说 Tolong rawat… 或使用更完整的请求句，避免生硬地下命令。正式叙述通常使用 merawat 或 dirawat。朋友间的 kau 不宜直接套用于正式医疗交流。",
+    "usage_etiquette": "此词适用于医疗、护理及植物养护等语境，本身没有禁忌色彩。谈论他人的治疗经历时应尊重隐私；描述一个人 sedang dirawat（正在接受治疗），并不表示其病情严重或已经康复。马来西亚正式职业称谓通常使用 jururawat 表示护士。"
+  }
+}

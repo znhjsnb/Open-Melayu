@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "beck",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 6929,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "beck",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + beck → beck（暂按不可拆分的语料单位保留）",
+    "pattern_note": "没有足够上下文判断其为外语词、专名或其他形式；不按马来语拼写规则臆造读音。is_root 沿用输入标注。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "待核实的语料项；可能是外语词或专名，尚不能确立为普通马来语词。",
+      "en_definition": "An unresolved corpus token that may be a foreign word or proper name; its Malay lexical status is unconfirmed.",
+      "ms_definition": "Token korpus yang belum dikenal pasti, yang mungkin merupakan kata asing atau nama khas; statusnya sebagai kata umum bahasa Melayu belum disahkan.",
+      "nuances": "noun 为暂定分析，不代表已核实的马来语词性。DBP 的英马词典在英语栏目收有 beck，并以 at someone's beck and call 对应 di bawah telunjuk seseorang；英语栏目中的收录不能证明它是马来语借词。以下为字符串引用示例，并非已核实的高频搭配。[DBP 英语栏目](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=telunjuk)。",
+      "collocations": [
+        {
+          "ms": "token \"beck\"",
+          "zh": "语料项“beck”",
+          "en": "the token \"beck\""
+        },
+        {
+          "ms": "ejaan \"beck\"",
+          "zh": "拼写形式“beck”",
+          "en": "the spelling \"beck\""
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan editorial akan menyemak konteks asal token \"beck\" sebelum menentukan statusnya.",
+      "zh": "编辑团队将核查语料项“beck”的原始上下文，再确定其性质。",
+      "en": "The editorial team will examine the original context of \"beck\" before determining its status."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "\"Beck\" kat sini nama orang ke?",
+      "ms_standard": "Adakah \"Beck\" di sini merupakan nama orang?",
+      "zh": "这里的“Beck”是人名吗？",
+      "en": "Is \"Beck\" someone's name here?",
+      "spoken_features": [
+        "kat → di",
+        "句末 ke：口语疑问标记",
+        "dah → sudah"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Kau dah tengok \"beck\" dalam senarai tu?",
+          "ms_standard": "Adakah kamu sudah melihat \"beck\" dalam senarai itu?",
+          "zh": "你看到名单里的“beck”了吗？",
+          "en": "Have you seen \"beck\" in that list?"
+        },
+        {
+          "speaker": "Hafiz (同事)",
+          "ms_spoken": "Dah, tapi kena tengok ayat asal dulu.",
+          "ms_standard": "Sudah, tetapi kita perlu melihat ayat asal terlebih dahulu.",
+          "zh": "看到了，不过得先看看原句。",
+          "en": "Yes, but we need to check the original sentence first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "A bilingual dictionary can contain words from both languages without treating every headword as a borrowing. DBP records English beck in the expression at someone's beck and call, translated through the Malay image of another person's pointing finger. That evidence explains an English expression, but does not establish the origin or identity of this isolated corpus token.",
+    "cognitive_memory_aid": "把 beck 连同原句一起记；孤立的四个字母不足以确定语言、读音和含义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "若上下文确认是姓氏或其他姓名，应保留其规范大小写，并采用本人认可的读音。",
+    "usage_etiquette": "外语引用、姓名和马来语普通词须依上下文区分；不要把英语释义直接作为马来语义项。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "若上下文确认是姓氏或其他姓名，应保留其规范大小写，并采用本人认可的读音。",
+    "usage_etiquette": "外语引用、姓名和马来语普通词须依上下文区分；不要把英语释义直接作为马来语义项。"
+  }
+}
