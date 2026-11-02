@@ -1,0 +1,158 @@
+{
+  "headword": {
+    "word": "pancit",
+    "syllables": "pan.cit",
+    "ipa": "/pan.t͡ʃit/",
+    "jawi": "ڤنچيت",
+    "frequency_rank": 14044,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pancit",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pancit → pancit",
+    "pattern_note": "添加 meN- 或 peN- 时，词首 p 脱落，分别形成 memancit、pemancit。书面宽式音标采用 /pan.t͡ʃit/；马来西亚也常听到末音节读作 /t͡ʃet/。",
+    "word_family": [
+      {
+        "word": "memancit",
+        "affix": "meN-",
+        "gloss": "少量喷出液体"
+      },
+      {
+        "word": "memancitkan",
+        "affix": "meN-…-kan",
+        "gloss": "使液体喷出；使轮胎泄气，依义项而定"
+      },
+      {
+        "word": "pancitan",
+        "affix": "-an",
+        "gloss": "喷出的液体；喷射结果"
+      },
+      {
+        "word": "pemancit",
+        "affix": "peN-",
+        "gloss": "喷射器"
+      },
+      {
+        "word": "pemancitan",
+        "affix": "peN-…-an",
+        "gloss": "喷射或使泄气的过程，依义项而定"
+      }
+    ],
+    "root_jawi": "ڤنچيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "轮胎等因刺破、破裂或漏气而瘪掉。",
+      "en_definition": "To go flat through a puncture or escaping air.",
+      "ms_definition": "Menjadi kempis akibat kehilangan angin, misalnya kerana tertusuk atau pecah.",
+      "nuances": "通常表示发生的状态：tayar pancit。不能一概理解为爆胎；爆裂通常用 pecah。使轮胎泄气的规范使动形式是 memancitkan。[DBP：pancit](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pancit)",
+      "collocations": [
+        {
+          "ms": "tayar pancit",
+          "zh": "漏气瘪掉的轮胎",
+          "en": "a flat tyre"
+        },
+        {
+          "ms": "pancit akibat tertusuk paku",
+          "zh": "因被钉子刺中而漏气",
+          "en": "go flat after being punctured by a nail"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "少量地喷出或喷射液体；该义主要通过 memancit、memancitkan 等派生形式使用。",
+      "en_definition": "To spurt or squirt liquid in small quantities, chiefly in derived forms.",
+      "ms_definition": "Memancutkan atau mengeluarkan cecair sedikit demi sedikit.",
+      "nuances": "这是 DBP 单列的 pancit I，不能因“轮胎漏气”较常见而遗漏。裸词根通常不直接充当此义的谓语；以下搭配采用实际使用的派生形式。[DBP：pancit I](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pancit)",
+      "collocations": [
+        {
+          "ms": "memancitkan air",
+          "zh": "少量喷出水",
+          "en": "squirt water"
+        },
+        {
+          "ms": "pancitan petrol",
+          "zh": "汽油喷射",
+          "en": "petrol injection"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "口语比喻：累瘫、没力气，仿佛泄了气的轮胎。",
+      "en_definition": "Exhausted or out of energy, in informal figurative use.",
+      "ms_definition": "Sangat letih atau kehabisan tenaga dalam penggunaan kiasan bahasa percakapan.",
+      "nuances": "适合运动后或劳累时自我调侃；并非输入所给 DBP 释义中的正式义项。马来西亚骑行者的实际用语记录可见此比喻。[马来西亚骑行用语记录](https://alchemyrider.me/2016/11/17/how-to-talk-like-a-cyclist-in-malaysia/)",
+      "collocations": [
+        {
+          "ms": "dah pancit",
+          "zh": "已经累瘫了",
+          "en": "already exhausted"
+        },
+        {
+          "ms": "pancit lepas berlari",
+          "zh": "跑完后累得没力气",
+          "en": "worn out after running"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kenderaan penghantaran tiba lewat kerana tayar belakangnya pancit.",
+      "zh": "送货车辆因后轮漏气而延误抵达。",
+      "en": "The delivery vehicle arrived late because its rear tyre had gone flat."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tayar aku pancit lah, aku tunggu kat stesen minyak ni.",
+      "ms_standard": "Tayar kenderaan saya pancit. Saya sedang menunggu di stesen minyak ini.",
+      "zh": "我车胎瘪了，我在这个油站等着呢。",
+      "en": "I've got a flat tyre. I'm waiting at this petrol station.",
+      "spoken_features": [
+        "tayar aku 依语境省略了 kenderaan。",
+        "kat 对应 di，ni 对应 ini。",
+        "lah 表示对突发状况的感叹。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Tayar aku pancit lah. Aku kat stesen minyak je sekarang.",
+          "ms_standard": "Tayar kenderaan saya pancit. Saya berada di stesen minyak sekarang.",
+          "zh": "我车胎瘪了，现在就在油站。",
+          "en": "I've got a flat tyre. I'm at the petrol station now."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah telefon bengkel ke? Nak aku datang?",
+          "ms_standard": "Adakah kamu sudah menghubungi bengkel? Mahukah kamu saya datang?",
+          "zh": "你打给修车厂了吗？要我过来吗？",
+          "en": "Have you called a garage yet? Do you want me to come over?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The tyre sense of pancit is commonly traced to English punctured, reshaped into a compact Malay form. A linguist discussing Malay borrowings notes that its final t reflects the English ending. DBP also records a separate liquid-squirting entry; sharing a spelling does not establish that both meanings have the same historical origin. [Linguist's discussion](https://brunei-linguistics.blogspot.com/2010/); [DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pancit)",
+    "cognitive_memory_aid": "读 pan-cit，想象轮胎被刺一下就泄气；人说自己 pancit，就是像瘪轮胎一样没劲了。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "说明轮胎故障时是中性常用词。说自己 pancit 可带轻松的自嘲意味；直接拿同事或长辈的体力开玩笑则需看关系。",
+    "usage_etiquette": "报修时可直接说 Tayar kereta saya pancit。正式描述人员状态宜用 keletihan 或 kehabisan tenaga；涉及液体喷射时使用相应派生词，避免混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "说明轮胎故障时是中性常用词。说自己 pancit 可带轻松的自嘲意味；直接拿同事或长辈的体力开玩笑则需看关系。",
+    "usage_etiquette": "报修时可直接说 Tayar kereta saya pancit。正式描述人员状态宜用 keletihan 或 kehabisan tenaga；涉及液体喷射时使用相应派生词，避免混淆。"
+  }
+}

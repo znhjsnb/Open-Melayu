@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "shoo",
+    "syllables": null,
+    "ipa": "/ʃuː/",
+    "jawi": null,
+    "frequency_rank": 14087,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "shoo",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + shoo → shoo",
+    "pattern_note": "英语整词，作为独立词素记忆；sh 表示 /ʃ/，oo 表示 /uː/。不是马来语词缀构词。原包未提供音节和爪夷文，保留 null。",
+    "word_family": [
+      {
+        "word": "shooed",
+        "affix": "-ed（英语屈折后缀）",
+        "gloss": "赶走了；被赶走"
+      },
+      {
+        "word": "shooing",
+        "affix": "-ing（英语屈折后缀）",
+        "gloss": "正在驱赶"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "用于赶走动物或催人离开的英语呼声，相当于“去，去！”或“走开！”。",
+      "en_definition": "An exclamation used to make an animal or person go away.",
+      "ms_definition": "Seruan bahasa Inggeris untuk menyuruh haiwan atau seseorang pergi; padanan bahasa Melayunya ialah syuh.",
+      "nuances": "实际词类为英语感叹词；此处因给定枚举没有 interjection，暂归 particle。它不是已获本资料包证明的规范马来语词；status 的 official 仅保留用户指定标签，不表示 DBP 认证。马来语释义为译释。搭配栏列马来语引用框架，不声称具有语料频次证明。[Cambridge：shoo](https://dictionary.cambridge.org/dictionary/english/shoo)",
+      "collocations": [
+        {
+          "ms": "seruan 'shoo'",
+          "zh": "“走开”的呼声",
+          "en": "the exclamation 'shoo'"
+        },
+        {
+          "ms": "menjerit 'shoo' kepada kucing",
+          "zh": "对着猫喊“去，去”",
+          "en": "shout 'shoo' at a cat"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "以呼声、挥手等方式驱赶动物或催促某人离开。",
+      "en_definition": "To drive an animal or person away with sounds or gestures.",
+      "ms_definition": "Menghalau haiwan atau menyuruh seseorang beredar dengan suara atau gerak tangan.",
+      "nuances": "这是英语动词义，常见英语结构为 shoo away 或 shoo someone out。规范马来语通常使用 menghalau；英语形式在马来语句子中出现时应理解为语码转换。下列搭配是说明该词的马来语表达。[Cambridge：shoo](https://dictionary.cambridge.org/dictionary/english/shoo)",
+      "collocations": [
+        {
+          "ms": "kata kerja Inggeris 'shoo'",
+          "zh": "英语动词 shoo",
+          "en": "the English verb 'shoo'"
+        },
+        {
+          "ms": "menterjemahkan 'shoo away' sebagai 'menghalau'",
+          "zh": "把 shoo away 译为 menghalau",
+          "en": "translate 'shoo away' as 'menghalau'"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "翻译说明 / 编辑汇报",
+      "ms": "Dalam terjemahan ini, seruan bahasa Inggeris 'shoo' diberikan padanan bahasa Melayu 'syuh'.",
+      "zh": "在本译文中，英语呼声 shoo 采用马来语对应词 syuh。",
+      "en": "In this translation, the English exclamation 'shoo' is rendered as the Malay 'syuh'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "日常口语 / 朋友与宠物",
+      "ms_spoken": "Shoo, shoo! Jangan naik atas meja tu lah.",
+      "ms_standard": "Syuh, syuh! Jangan naik ke atas meja itu.",
+      "zh": "去，去！别跳到那张桌子上啦。",
+      "en": "Shoo, shoo! Don't jump onto that table.",
+      "spoken_features": [
+        "shoo 是嵌入马来语对话的英语呼声，规范对应词为 syuh。",
+        "tu 是 itu 的口语形式；lah 加强劝阻语气。",
+        "je 对应 sahaja；口语 naik atas 在规范句中补为 naik ke atas。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Shoo, shoo! Jangan naik atas meja tu lah.",
+          "ms_standard": "Syuh, syuh! Jangan naik ke atas meja itu.",
+          "zh": "去，去！别跳到那张桌子上啦。",
+          "en": "Shoo, shoo! Don't jump onto that table."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dia nak tengok makanan je tu.",
+          "ms_standard": "Kucing itu hanya mahu melihat makanan tersebut.",
+          "zh": "它就是想看看吃的而已。",
+          "en": "The cat just wants to see the food."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English shoo began as a natural exclamation, recorded in late Middle English. Its sound functions as a dismissal rather than naming an object. English also uses it as a verb for sending someone or something away. In Malay conversation, an occurrence can be an English insertion; the Malay equivalent is syuh. [Oxford: shoo](https://www.oxfordlearnersdictionaries.com/definition/english/shoo_2), [Cambridge: shoo](https://dictionary.cambridge.org/dictionary/english/shoo)",
+    "cognitive_memory_aid": "把 /ʃuː/ 想成挥手赶小动物时拉长的一声“嘘——去！”；这是记忆联想，不是中文词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对动物说通常只是驱赶；对成人，尤其长辈、顾客或上司说，会显得轻蔑。需要请人离开时，可按情境使用较礼貌的请求句。",
+    "usage_etiquette": "适合宠物互动、熟人玩笑或引用英语对白。正式马来语文字宜用 syuh 表示呼声，用 menghalau 表示驱赶动作。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对动物说通常只是驱赶；对成人，尤其长辈、顾客或上司说，会显得轻蔑。需要请人离开时，可按情境使用较礼貌的请求句。",
+    "usage_etiquette": "适合宠物互动、熟人玩笑或引用英语对白。正式马来语文字宜用 syuh 表示呼声，用 menghalau 表示驱赶动作。"
+  }
+}

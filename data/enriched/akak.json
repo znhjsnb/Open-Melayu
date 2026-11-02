@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "akak",
+    "syllables": null,
+    "ipa": "/akaʔ/",
+    "jawi": "اکق",
+    "frequency_rank": 14101,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "akak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + akak → akak",
+    "pattern_note": "无词缀。akak 是 kakak 的口语变体，开头少了一个 /k/；词末 k 在所给读音中实现为喉塞音 /ʔ/。输入未提供音节字段，故保留 null。",
+    "word_family": [
+      {
+        "word": "kakak",
+        "affix": null,
+        "gloss": "姐姐；与 akak 对应的完整形式，并非其派生词"
+      },
+      {
+        "word": "kak",
+        "affix": null,
+        "gloss": "姐；相关简短称呼形式，并非其派生词"
+      }
+    ],
+    "root_jawi": "اکق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "姐姐；口语中指比自己年长的女性同胞。",
+      "en_definition": "An elder sister; a colloquial form of kakak.",
+      "ms_definition": "Kakak, iaitu saudara perempuan yang lebih tua; bentuk bahasa percakapan.",
+      "nuances": "DBP 将 akak 标为 bp，即 bahasa percakapan，并以 kakak 释义。这里的马来语释义在该释义基础上展开，未将新增说明冒充官方原文。女性面对弟妹时也可用 akak 自称，相当于中文的“姐姐我”。参见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=241100&keyword=akak)。词典收录不等于适用于正式公文。",
+      "collocations": [
+        {
+          "ms": "akak saya",
+          "zh": "我姐姐",
+          "en": "my elder sister"
+        },
+        {
+          "ms": "akak sulung",
+          "zh": "大姐；最年长的姐姐",
+          "en": "eldest sister"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "姐；对稍年长女性的亲切、带尊重意味的称呼，也可由该女性面对较年轻者用来自称。",
+      "en_definition": "A familiar, respectful address for a somewhat older woman, also used by that woman to refer to herself when speaking to someone younger.",
+      "ms_definition": "Panggilan mesra kepada perempuan yang dianggap lebih tua, atau sebutan diri perempuan itu ketika bercakap dengan orang yang lebih muda.",
+      "nuances": "这是由亲属称谓扩展出的社交用法，不表示双方有血缘关系。作呼语时近似“姐”，作自称时应根据说话者译为“我”。此处为语用展开，不是 DBP 独立义项的逐字引文。常用于熟人、邻里和轻松的服务交流。",
+      "collocations": [
+        {
+          "ms": "Akak, boleh saya tanya?",
+          "zh": "姐，我可以问一下吗？",
+          "en": "Excuse me, may I ask you something?"
+        },
+        {
+          "ms": "terima kasih, akak",
+          "zh": "谢谢姐",
+          "en": "thank you"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "编辑说明 / 职场语言汇报",
+      "ms": "Dalam laporan ini, bentuk 'akak' dikekalkan dalam petikan dialog kerana mencerminkan bahasa percakapan.",
+      "zh": "本报告在对话引文中保留“akak”这一形式，因为它反映了口语用法。",
+      "en": "This report retains ‘akak’ in quoted dialogue because it reflects colloquial usage."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 姐妹交流",
+      "ms_spoken": "Akak dah sampai rumah ke?",
+      "ms_standard": "Adakah kakak sudah sampai di rumah?",
+      "zh": "姐，你到家了吗？",
+      "en": "Have you got home yet, sis?",
+      "spoken_features": [
+        "akak 是 kakak 的口语变体",
+        "dah 是 sudah 的口语形式",
+        "sampai rumah 在口语中省略介词 di",
+        "句末 ke 表示口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (妹妹)",
+          "ms_spoken": "Akak dah sampai rumah ke?",
+          "ms_standard": "Adakah kakak sudah sampai di rumah?",
+          "zh": "姐，你到家了吗？",
+          "en": "Have you got home yet, sis?"
+        },
+        {
+          "speaker": "Nadia (姐姐)",
+          "ms_spoken": "Dah, akak baru je sampai. Nak akak belikan apa-apa nanti?",
+          "ms_standard": "Ya, kakak baru sahaja sampai. Adakah kamu mahu kakak membelikan apa-apa untuk kamu nanti?",
+          "zh": "到了，我刚到。待会儿要我帮你买点什么吗？",
+          "en": "Yes, I’ve just got in. Would you like me to pick anything up for you later?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Akak belongs to the familiar Malay world of sibling terms. DBP identifies it as a colloquial form of kakak, rather than a separate kinship category. Its everyday usefulness extends beyond biological sisters: speakers can use the family relationship as a model for warm, age-sensitive social interaction. No precise date of origin is established here. [DBP entry](https://prpm.dbp.gov.my/Cari1?d=241100&keyword=akak)",
+    "cognitive_memory_aid": "kakak 开头少一个 k，就成 akak：仍是亲切的“姐姐”。末尾轻轻收住喉咙，读 /a.kaʔ/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称稍年长女性为 akak 往往显得亲切、有礼，但会带入年龄与熟悉程度的判断。正式职场、初次商务接触或已有职衔的场合，优先采用对方姓名、职衔或适当的 Puan、Cik。",
+    "usage_etiquette": "适用于姐妹、熟人、邻里及气氛轻松的店铺交流。若对方偏好其他称呼，应随之调整；不要因使用 akak 就假定对方愿意接受过度亲昵的言语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称稍年长女性为 akak 往往显得亲切、有礼，但会带入年龄与熟悉程度的判断。正式职场、初次商务接触或已有职衔的场合，优先采用对方姓名、职衔或适当的 Puan、Cik。",
+    "usage_etiquette": "适用于姐妹、熟人、邻里及气氛轻松的店铺交流。若对方偏好其他称呼，应随之调整；不要因使用 akak 就假定对方愿意接受过度亲昵的言语。"
+  }
+}

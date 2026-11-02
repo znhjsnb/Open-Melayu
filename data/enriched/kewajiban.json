@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "kewajiban",
+    "syllables": "ke.wa.ji.ban",
+    "ipa": "/kə.wa.dʒi.ban/",
+    "jawi": "کواجبن",
+    "frequency_rank": 14095,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kewajiban",
+    "affix": "ke-...-an",
+    "affix_type": "circumfix",
+    "formula": "ke- + wajib + -an → kewajiban",
+    "pattern_note": "is_root 和 root_word 保留词包的整词索引标记；实际构词基础是 wajib，本词在语言学上属于派生名词。ke- 的 e 读 /ə/；此拼写保留 b，另有 kewajipan。所列 IPA 采用标准 i 元音，不照录候选中的 [e]。",
+    "word_family": [
+      {
+        "word": "wajib",
+        "affix": null,
+        "gloss": "必须的；必须履行"
+      },
+      {
+        "word": "kewajipan",
+        "affix": "ke-...-an",
+        "gloss": "义务；职责；本词的另一形式"
+      },
+      {
+        "word": "mewajibkan",
+        "affix": "meN-...-kan",
+        "gloss": "规定必须；使成为义务"
+      },
+      {
+        "word": "berkewajipan",
+        "affix": "ber- + kewajipan",
+        "gloss": "负有义务；有责任"
+      }
+    ],
+    "root_jawi": "کواجبن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "义务；由于规范、道德、宗教或身份关系而必须履行的事项。",
+      "en_definition": "An obligation or requirement that must be fulfilled.",
+      "ms_definition": "Sesuatu yang diwajibkan; kemestian atau keharusan.",
+      "nuances": "词包将其释为 kewajipan 的同义形式。这里强调“应当履行”的约束力，不只是个人愿望；用于宗教义务时需由上下文确定具体内容。马来文释义根据词包所引《Kamus Dewan Edisi Keempat》展开缩写。",
+      "collocations": [
+        {
+          "ms": "menunaikan kewajiban",
+          "zh": "履行义务",
+          "en": "fulfil an obligation"
+        },
+        {
+          "ms": "kewajiban moral",
+          "zh": "道德义务",
+          "en": "a moral obligation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "职责；依照命令或职务要求必须执行的任务或责任。",
+      "en_definition": "A duty or responsibility that must be performed under orders or as part of one's role.",
+      "ms_definition": "Tugas atau tanggungjawab yang harus dilakukan atas perintah.",
+      "nuances": "侧重受命或任职所承担的责任，与第一义的广义义务有交叠。日常交流可按语境用 tanggungjawab 或 tugas 表达，避免语气过重。",
+      "collocations": [
+        {
+          "ms": "melaksanakan kewajiban",
+          "zh": "履行职责",
+          "en": "carry out one's duties"
+        },
+        {
+          "ms": "mengabaikan kewajiban",
+          "zh": "疏忽职责",
+          "en": "neglect one's duties"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Setiap pegawai hendaklah melaksanakan kewajiban masing-masing dengan penuh integriti.",
+      "zh": "每位官员都应秉持廉正，履行各自的职责。",
+      "en": "Every officer must discharge their duties with integrity."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah janji nak tolong, jadi ni kewajiban aku juga lah.",
+      "ms_standard": "Saya sudah berjanji untuk membantu, jadi hal ini juga merupakan kewajiban saya.",
+      "zh": "我都答应帮忙了，这也是我该尽的责任啦。",
+      "en": "I promised to help, so this is my responsibility too.",
+      "spoken_features": [
+        "dah、nak、ni 分别对应 sudah、hendak、ini。",
+        "句末 lah 强调说话人承担责任的态度。",
+        "kewajiban 在闲聊中语气较郑重，常用于认真说明责任。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau tak penat ke? Dah banyak kau tolong hari ni.",
+          "ms_standard": "Awak tidak penat? Awak sudah banyak membantu pada hari ini.",
+          "zh": "你不累吗？今天你已经帮了不少忙了。",
+          "en": "Aren't you tired? You've already helped a lot today."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Penat juga, tapi aku dah janji nak tolong. Ni kewajiban aku juga lah.",
+          "ms_standard": "Saya agak penat, tetapi saya sudah berjanji untuk membantu. Hal ini juga merupakan kewajiban saya.",
+          "zh": "也累，不过我答应过要帮忙。这也是我该尽的责任啦。",
+          "en": "A bit, but I promised to help. It's my responsibility too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kewajiban illustrates how Malay builds an abstract noun around wajib, an Arabic loan associated with obligation. The circumfix ke-...-an names what must be done rather than merely describing something as compulsory. The supplied dictionary records kewajiban alongside kewajipan, showing two established forms for obligations ranging from personal commitments to assigned duties.",
+    "cognitive_memory_aid": "抓住 wajib“必须”：ke- + wajib + -an，把“必须”变成“必须做的事”，就是义务。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用 kewajiban 指出他人的责任会带有较强的要求意味。对长辈、客户或同事提醒任务时，可先说明职责依据，并配合 mohon 或请托句式。",
+    "usage_etiquette": "适合职责说明、道德讨论和宗教语境。谈论共同责任时，kewajiban kita 比直接强调 kewajiban awak 更具合作感；不要将个人偏好直接说成对方的义务。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用 kewajiban 指出他人的责任会带有较强的要求意味。对长辈、客户或同事提醒任务时，可先说明职责依据，并配合 mohon 或请托句式。",
+    "usage_etiquette": "适合职责说明、道德讨论和宗教语境。谈论共同责任时，kewajiban kita 比直接强调 kewajiban awak 更具合作感；不要将个人偏好直接说成对方的义务。"
+  }
+}

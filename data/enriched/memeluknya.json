@@ -1,0 +1,138 @@
+{
+  "headword": {
+    "word": "memeluknya",
+    "syllables": "me.me.luk.nya",
+    "ipa": "/mə.mə.luk.ɲa/",
+    "jawi": "مملوقڽ",
+    "frequency_rank": 14149,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "peluk",
+    "affix": "meN- + -nya",
+    "affix_type": "circumfix",
+    "formula": "meN- + peluk → memeluk; memeluk + -nya → memeluknya",
+    "pattern_note": "meN- 在 p 前实现为 mem-，词根首音 p 脱落；-nya 是第三人称附着代词，不与 meN- 构成真正的环缀。affix_type=circumfix 仅适配给定枚举。词根应为 peluk，memeluk 是直接基词；输入爪夷文 مملوق 缺少 -nya，完整形式补为 مملوقڽ。/k/ 在部分标准口音中实现为喉塞音。",
+    "word_family": [
+      {
+        "word": "peluk",
+        "affix": null,
+        "gloss": "抱；拥抱"
+      },
+      {
+        "word": "memeluk",
+        "affix": "meN-",
+        "gloss": "拥抱；信奉宗教"
+      },
+      {
+        "word": "berpelukan",
+        "affix": "ber-...-an",
+        "gloss": "相互拥抱"
+      },
+      {
+        "word": "pelukan",
+        "affix": "-an",
+        "gloss": "拥抱；怀抱"
+      },
+      {
+        "word": "pemeluk",
+        "affix": "peN-",
+        "gloss": "宗教信徒"
+      }
+    ],
+    "root_jawi": "ڤلوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "拥抱他、她或它；用双臂将语境中已提及的人或物抱近身体。",
+      "en_definition": "To hug or clasp him, her, or it.",
+      "ms_definition": "Merangkul atau mendakap orang atau benda yang dirujuk oleh kata ganti -nya.",
+      "nuances": "-nya 不区分性别，所指由上下文决定；此形式本身不标记过去时。它是 memeluk 的语法组合形式，通常不需独立立目。词义依据 [DBP：memeluk](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memeluk)；词根依据 [DBP：peluk](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=peluk)。",
+      "collocations": [
+        {
+          "ms": "memeluknya erat-erat",
+          "zh": "紧紧抱住他／她／它",
+          "en": "hug him, her, or it tightly"
+        },
+        {
+          "ms": "memeluknya dengan penuh kasih sayang",
+          "zh": "充满爱意地拥抱他／她",
+          "en": "embrace him or her lovingly"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "信奉或皈依前文提及的宗教；此时 -nya 指该宗教。",
+      "en_definition": "To embrace or adopt the religion previously mentioned.",
+      "ms_definition": "Menganut atau menerima agama yang telah disebut dan dirujuk oleh -nya.",
+      "nuances": "继承 memeluk agama 的比喻义；必须有明确的宗教先行词。单独出现时通常先理解为身体拥抱，宗教义也常改用明确宗教名称或 menganutnya。以下为语境限定的示范组合，不表示已验证为高频搭配。来源：[DBP：memeluk agama](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=memeluk+agama)。",
+      "collocations": [
+        {
+          "ms": "memeluknya secara sukarela",
+          "zh": "自愿信奉该宗教",
+          "en": "embrace that religion voluntarily"
+        },
+        {
+          "ms": "memilih untuk memeluknya",
+          "zh": "选择皈依该宗教",
+          "en": "choose to adopt that religion"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kanak-kanak itu menangis, lalu ibunya memeluknya untuk menenangkannya.",
+      "zh": "那名孩子哭了起来，母亲于是抱住他，安抚他的情绪。",
+      "en": "The child began to cry, so his mother hugged him to comfort him."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Adik dah tenang lepas ibu memeluknya tadi.",
+      "ms_standard": "Adik sudah tenang selepas ibu memeluknya tadi.",
+      "zh": "刚才妈妈抱过弟弟后，他已经平静下来了。",
+      "en": "My little brother has calmed down after Mum hugged him earlier.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "lepas 在这里对应标准语 selepas。",
+        "日常口语也常以 peluk dia 替代书面感较强的 memeluknya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Adik dah tenang lepas ibu memeluknya tadi.",
+          "ms_standard": "Adik sudah tenang selepas ibu memeluknya tadi.",
+          "zh": "刚才妈妈抱过弟弟后，他已经平静下来了。",
+          "en": "Our little brother has calmed down after Mum hugged him."
+        },
+        {
+          "speaker": "Amir (哥哥)",
+          "ms_spoken": "Baguslah. Biar dia rehat kat situ dulu, jangan kacau dia.",
+          "ms_standard": "Baguslah. Biarkan dia berehat di situ dahulu dan jangan mengganggunya.",
+          "zh": "那就好。先让他在那儿休息，别打扰他。",
+          "en": "That’s good. Let him rest there for now; don’t disturb him."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Memeluknya combines the verb memeluk with the attached pronoun -nya. Malay dictionaries also record embracing a religion, extending the bodily image of holding something close into religious affiliation. The final pronoun supplies a previously understood object, without specifying gender. This is a transparent grammatical formation; no separate historical borrowing needs to be proposed for the complete form.",
+    "cognitive_memory_aid": "peluk＝抱；meN- 让它成为主动动词；-nya＝他／她／它：memeluknya 就是把那个对象抱住。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "拥抱是否合适取决于关系、个人意愿及宗教习惯，尤其涉及异性或初次见面者时，应先确认对方接受。",
+    "usage_etiquette": "家庭安慰和亲近关系中很自然；正式报道可用 memeluknya，聊天常说 peluk dia。谈及宗教归属时，应明确所指并尊重当事人的自我表述。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "拥抱是否合适取决于关系、个人意愿及宗教习惯，尤其涉及异性或初次见面者时，应先确认对方接受。",
+    "usage_etiquette": "家庭安慰和亲近关系中很自然；正式报道可用 memeluknya，聊天常说 peluk dia。谈及宗教归属时，应明确所指并尊重当事人的自我表述。"
+  }
+}

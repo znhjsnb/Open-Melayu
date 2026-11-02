@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "rider",
+    "syllables": null,
+    "ipa": "/ˈraɪ.də/",
+    "jawi": null,
+    "frequency_rank": 14109,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rider",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rider → rider（英语整词借入或夹用）",
+    "pattern_note": "在马来语层面整词处理；英语内部的 ride + -er 不属于马来语词缀分析。所列 IPA 为常见英语来源读法，本地发音可能不同。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "马来西亚日常用语中的配送骑手，通常指骑摩托车运送餐食或货物的人。",
+      "en_definition": "In Malaysian usage, a delivery rider, usually transporting food or goods by motorcycle.",
+      "ms_definition": "Penghantar makanan atau barangan yang lazimnya menggunakan motosikal.",
+      "nuances": "这是本地配送语境的常见用法，不能推定所有 rider 都从事配送。标准说明文字可用 penghantar makanan 或 penghantar barangan。官方表格使用 penghantar (rider)，DBP 资料也将 delivery service rider 对译为 penghantar makanan：[官方配送员表格](https://www.mbsp.gov.my/brgonline/pelesenan/borang/e-ramadan.pdf)、[DBP 餐饮用语表](https://eseminar.dbp.gov.my/dokumen/sajian1.pdf)。",
+      "collocations": [
+        {
+          "ms": "rider penghantar makanan",
+          "zh": "送餐骑手",
+          "en": "food delivery rider"
+        },
+        {
+          "ms": "rider p-hailing",
+          "zh": "平台配送骑手",
+          "en": "platform delivery rider"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "英语夹用中的骑乘者，如摩托车骑手、自行车骑手或骑马者；具体所指由语境决定。",
+      "en_definition": "In English code-switching, a person riding a motorcycle, bicycle, horse, or similar conveyance.",
+      "ms_definition": "Dalam percampuran kod bahasa Inggeris, orang yang menunggang motosikal, basikal, kuda atau sebagainya.",
+      "nuances": "一般骑乘义与配送职业义有重叠，但并不等同。标准马来语对译为 penunggang；相关搭配保留英语夹用形式：[DBP：rider](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=rider)。",
+      "collocations": [
+        {
+          "ms": "rider berpengalaman",
+          "zh": "经验丰富的骑手",
+          "en": "experienced rider"
+        },
+        {
+          "ms": "rider baharu",
+          "zh": "新手骑手",
+          "en": "new rider"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "保险或伊斯兰保险中的附加条款、附约，用于增补、限制或调整基本保障。",
+      "en_definition": "An insurance or takaful rider modifying the coverage, benefits, or conditions of a basic policy or plan.",
+      "ms_definition": "Lampiran atau peruntukan tambahan yang mengubah syarat, manfaat atau perlindungan polisi insurans atau pelan takaful asas.",
+      "nuances": "这是 DBP 术语资料记录的专业义，与骑手无关。附约可能增加或限制保障，不能一概理解为免费增加福利：[DBP 保险与伊斯兰经济术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=rider)。",
+      "collocations": [
+        {
+          "ms": "rider perubatan",
+          "zh": "医疗附约",
+          "en": "medical rider"
+        },
+        {
+          "ms": "rider pendapatan keluarga",
+          "zh": "家庭收入附约",
+          "en": "family income rider"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 平台工作安排",
+      "ms": "Syarikat itu menyediakan ruang rehat untuk penghantar makanan, yang turut dikenali sebagai rider.",
+      "zh": "该公司为送餐员提供休息空间；这些配送员也常被称为 rider。",
+      "en": "The company provides a rest area for food delivery workers, also commonly known as riders."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人接收外卖",
+      "ms_spoken": "Rider dah sampai kat bawah, aku nak turun ambil makanan.",
+      "ms_standard": "Penghantar makanan sudah tiba di bawah; saya hendak turun untuk mengambil makanan.",
+      "zh": "外卖骑手到楼下了，我下去拿吃的。",
+      "en": "The delivery rider is downstairs. I'm going down to collect the food.",
+      "spoken_features": [
+        "rider 是配送语境中常见的英语借用称谓。",
+        "dah 对应 sudah；kat 对应 di。",
+        "nak 对应 hendak；je 对应 sahaja。",
+        "口语可省略目的标记 untuk。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (家人)",
+          "ms_spoken": "Rider dah sampai kat bawah, aku nak turun ambil makanan.",
+          "ms_standard": "Penghantar makanan sudah tiba di bawah; saya hendak turun untuk mengambil makanan.",
+          "zh": "外卖骑手到楼下了，我下去拿吃的。",
+          "en": "The delivery rider is downstairs. I'm going down to collect the food."
+        },
+        {
+          "speaker": "Amir (家人)",
+          "ms_spoken": "Okey, aku tunggu kat rumah je. Jangan lupa ambil minuman sekali.",
+          "ms_standard": "Baiklah, saya akan menunggu di rumah sahaja. Jangan lupa mengambil minuman juga.",
+          "zh": "行，我就在家等。别忘了把饮料也拿上来。",
+          "en": "Okay, I'll stay home. Don't forget the drinks."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English rider is formed from ride and the agent suffix -er, but Malay uses the imported word as a whole. Malaysian delivery discourse gives it a familiar occupational meaning. Insurance terminology preserves another English sense: an attachment modifying a policy. The surrounding topic therefore matters as much as the spelling.",
+    "cognitive_memory_aid": "看到外卖订单，rider 是“骑车送来的人”；看到 polisi 或 takaful，rider 是“附在主保障上的条款”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "rider 是工作称谓，本身通常中性。直接交流时用对方姓名、您好式问候或适当称呼更自然；感谢其送达，保持礼貌。",
+    "usage_etiquette": "配送聊天中常用 rider；正式说明可先写 penghantar makanan (rider)。不要假定骑手均为男性。保险语境应明确写出附约名称，以免与配送职业混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "rider 是工作称谓，本身通常中性。直接交流时用对方姓名、您好式问候或适当称呼更自然；感谢其送达，保持礼貌。",
+    "usage_etiquette": "配送聊天中常用 rider；正式说明可先写 penghantar makanan (rider)。不要假定骑手均为男性。保险语境应明确写出附约名称，以免与配送职业混淆。"
+  }
+}

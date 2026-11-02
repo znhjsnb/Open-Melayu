@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "suapan",
+    "syllables": "sua.pan",
+    "ipa": "/su.a.pan/",
+    "jawi": "سواڤن",
+    "frequency_rank": 14108,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "suap",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "suap + -an → suapan",
+    "pattern_note": "添加名词后缀 -an，表示所喂入或投入的东西；词根字母保持不变，末尾 p 与后续元音衔接。",
+    "word_family": [
+      {
+        "word": "menyuap",
+        "affix": "meN-",
+        "gloss": "喂食；行贿"
+      },
+      {
+        "word": "menyuapkan",
+        "affix": "meN-...-kan",
+        "gloss": "把食物送入口中"
+      },
+      {
+        "word": "penyuapan",
+        "affix": "peN-...-an",
+        "gloss": "喂食或行贿的行为"
+      }
+    ],
+    "root_jawi": "سواڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "喂入口中的食物；喂食时送入的一口。",
+      "en_definition": "Food placed in someone's mouth; a mouthful given in feeding.",
+      "ms_definition": "Apa-apa yang disuapkan ke dalam mulut.",
+      "nuances": "强调送入口中的食物或一次喂入的分量；不限定必须使用汤匙。此义及下列贿赂、工程义均见 [DBP：suapan](https://prpm.dbp.gov.my/Cari1?d=382696&keyword=suapan)。",
+      "collocations": [
+        {
+          "ms": "suapan pertama",
+          "zh": "喂下的第一口",
+          "en": "the first mouthful"
+        },
+        {
+          "ms": "suapan nasi",
+          "zh": "一口喂入的米饭",
+          "en": "a mouthful of rice"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为不正当目的给予的贿赂或贿赂款；贿金。",
+      "en_definition": "A bribe or money given as a corrupt inducement.",
+      "ms_definition": "Wang rasuah atau sogokan.",
+      "nuances": "常见于廉政报道和机构文件。这里给出词典义，不穷尽法律语境中 suapan 所涵盖的利益种类；不可将其当作普通服务小费的中性名称。",
+      "collocations": [
+        {
+          "ms": "menerima suapan",
+          "zh": "收受贿赂",
+          "en": "to accept a bribe"
+        },
+        {
+          "ms": "memberikan suapan",
+          "zh": "给予贿赂",
+          "en": "to offer a bribe"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "工程中送入设备或单元操作以供加工的物料；进料。",
+      "en_definition": "Material supplied to equipment or a unit operation for processing.",
+      "ms_definition": "Bahan yang dimasukkan ke dalam peralatan atau unit operasi untuk diproses bagi mendapatkan hasil.",
+      "nuances": "属于工程用语，重点是进入加工过程的物料。具体搭配中也可涉及供料过程或相关装置，应结合设备语境理解。",
+      "collocations": [
+        {
+          "ms": "bahan suapan",
+          "zh": "进料物料",
+          "en": "feed material"
+        },
+        {
+          "ms": "kadar suapan",
+          "zh": "进料速率",
+          "en": "feed rate"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "信息技术中持续提供或更新的信息流、内容流。",
+      "en_definition": "A feed supplying a stream of digital information or content updates.",
+      "ms_definition": "Aliran maklumat atau kandungan digital yang dibekalkan atau dikemas kini melalui sesuatu sistem.",
+      "nuances": "这是技术领域的延伸用法。DBP 咨询记录建议将 news feed 和 RSS feeds 分别译作 suapan berita、suapan RSS；此义并非输入包所列《Kamus Dewan》第四版的独立第四义：[DBP 技术用语咨询](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=suapan)。",
+      "collocations": [
+        {
+          "ms": "suapan berita",
+          "zh": "新闻信息流",
+          "en": "news feed"
+        },
+        {
+          "ms": "suapan RSS",
+          "zh": "RSS 订阅源",
+          "en": "RSS feed"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 廉政声明",
+      "ms": "Syarikat itu menegaskan bahawa semua kakitangannya dilarang memberikan atau menerima suapan.",
+      "zh": "该公司强调，所有员工均不得给予或收受贿赂。",
+      "en": "The company stressed that all its employees are prohibited from offering or accepting bribes."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人讨论幼儿进食",
+      "ms_spoken": "Adik dah makan dua suapan je, lepas tu tak nak dah.",
+      "ms_standard": "Adik hanya makan dua suapan, kemudian tidak mahu makan lagi.",
+      "zh": "小家伙才吃了两口，后来就不肯吃了。",
+      "en": "The little one only ate two mouthfuls, then wouldn't eat any more.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "je 对应 sahaja；句中也可用 hanya 表达限定。",
+        "lepas tu 对应 selepas itu 或 kemudian。",
+        "tak nak dah 对应 tidak mahu lagi。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (母亲)",
+          "ms_spoken": "Adik dah makan dua suapan je, lepas tu tak nak dah.",
+          "ms_standard": "Adik hanya makan dua suapan, kemudian tidak mahu makan lagi.",
+          "zh": "小家伙才吃了两口，后来就不肯吃了。",
+          "en": "The little one only ate two mouthfuls, then wouldn't eat any more."
+        },
+        {
+          "speaker": "Amir (父亲)",
+          "ms_spoken": "Mungkin dia masih kenyang kot. Cuba bagi sikit lagi nanti.",
+          "ms_standard": "Mungkin dia masih kenyang. Cuba berikan sedikit lagi kemudian.",
+          "zh": "可能还不饿吧，晚点再试着喂一点。",
+          "en": "Maybe they're still full. Try offering a little more later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Suapan combines suap with the noun-forming suffix -an. Its meanings connect the mouthful offered to a person, the bribe offered to influence someone, and material fed into equipment. Computing terminology extends the feeding image to information streams. These connections explain the word's semantic range without establishing a dated sequence of historical development.",
+    "cognitive_memory_aid": "suap 是“送进去”，-an 把它变成“送进去的东西”：送入口中是一口饭，送进加工设备是进料，暗中送利益是贿赂。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "喂食义适合家庭和照护情境；涉及成年人时应尊重其自主与尊严。贿赂义具有明确负面评价，描述具体人物时应准确区分指控与已确认事实。",
+    "usage_etiquette": "家庭、廉政、工程和信息技术语境均可使用，但须靠搭配明确含义。不要把 suapan 当作普通礼物或感谢款的随意称呼。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "喂食义适合家庭和照护情境；涉及成年人时应尊重其自主与尊严。贿赂义具有明确负面评价，描述具体人物时应准确区分指控与已确认事实。",
+    "usage_etiquette": "家庭、廉政、工程和信息技术语境均可使用，但须靠搭配明确含义。不要把 suapan 当作普通礼物或感谢款的随意称呼。"
+  }
+}

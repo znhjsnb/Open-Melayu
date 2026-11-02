@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "foreman",
+    "syllables": null,
+    "ipa": "/ˈfɔː.mən/",
+    "jawi": null,
+    "frequency_rank": 14118,
+    "status": "foreign_word",
+    "verification_note": "英语词头。DBP 英马词典列出的马来语对应词包括 mandur、formen；不能据此将英语拼写 foreman 标为正式马来语词头。音标采用英式英语读音；排名沿用输入数据，不代表经核验的马来语词频。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "foreman",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + foreman → foreman；英语内部结构：fore + man → foreman",
+    "pattern_note": "按输入作为独立检索词处理，不分析为马来语派生词。英语重音在首音节，man 在该复合词中弱读为 /mən/。",
+    "word_family": [
+      {
+        "word": "foremen",
+        "affix": null,
+        "gloss": "工头们；英语不规则复数"
+      },
+      {
+        "word": "foremanship",
+        "affix": "-ship（英语后缀）",
+        "gloss": "工头的职务或管理职责"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "直接监督、安排一组工人工作的工头、领班或现场主管。",
+      "en_definition": "A worker or supervisor responsible for directing a group of workers.",
+      "ms_definition": "Mandur atau penyelia yang mengawasi dan mengatur kerja sekumpulan pekerja.",
+      "nuances": "常见于建筑、制造和维修行业。马来西亚口语可夹用 foreman；标准马来语按职责使用 mandur、formen 或 penyelia。此处马来语释义为编写性释义，并非 DBP 原文引文。",
+      "collocations": [
+        {
+          "ms": "mandur tapak bina",
+          "zh": "建筑工地工头",
+          "en": "construction-site foreman"
+        },
+        {
+          "ms": "penyelia syif",
+          "zh": "轮班主管",
+          "en": "shift foreman"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "陪审团中负责主持讨论并代表全体成员发言的首席陪审员。",
+      "en_definition": "The member who leads a jury and speaks on its behalf.",
+      "ms_definition": "Anggota juri yang mengetuai perbincangan dan menjadi jurucakap juri.",
+      "nuances": "这是英语法律语境中的用法，马来语对应 ketua juri；不能将工地语境的 mandur 直接套用于陪审团。下列搭配为马来语对应表达。",
+      "collocations": [
+        {
+          "ms": "ketua juri",
+          "zh": "首席陪审员",
+          "en": "jury foreman"
+        },
+        {
+          "ms": "melantik ketua juri",
+          "zh": "任命首席陪审员",
+          "en": "appoint a jury foreman"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报；采用标准马来语对应词",
+      "ms": "Mandur tapak bina hendaklah memastikan semua pekerja memakai kelengkapan perlindungan diri sebelum memulakan kerja.",
+      "zh": "工地工头须确保所有工人在开工前穿戴个人防护装备。",
+      "en": "The construction-site foreman must ensure that all workers wear personal protective equipment before starting work."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 工友之间夹用英语职称",
+      "ms_spoken": "Foreman dah sampai kat tapak ke?",
+      "ms_standard": "Adakah mandur sudah tiba di tapak bina?",
+      "zh": "工头已经到工地了吗？",
+      "en": "Has the foreman arrived at the site yet?",
+      "spoken_features": [
+        "foreman 为英语职称的语码转换",
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "句末 ke 表示口语疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (工友)",
+          "ms_spoken": "Foreman dah sampai kat tapak ke?",
+          "ms_standard": "Adakah mandur sudah tiba di tapak bina?",
+          "zh": "工头已经到工地了吗？",
+          "en": "Has the foreman arrived at the site yet?"
+        },
+        {
+          "speaker": "Ravi (工友)",
+          "ms_spoken": "Dah, dia nak jumpa kita kat pejabat tapak kejap.",
+          "ms_standard": "Ya, dia sudah tiba dan mahu berjumpa dengan kita sebentar di pejabat tapak.",
+          "zh": "到了，他想叫我们去工地办公室见一下。",
+          "en": "Yes. He wants to see us briefly at the site office."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English foreman combines fore, suggesting the front or leading position, with man. The image is of someone at the head of a working group. The word also names a jury's leader and spokesperson. In Malay, DBP distinguishes the occupational equivalents mandur and formen from the legal equivalent ketua juri.",
+    "cognitive_memory_aid": "把 fore 想成“站在前面”，man 想成人：站在工人队伍前面安排工作的人，就是 foreman。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接称呼主管时，使用 Encik 加姓名通常比隔空喊 Foreman 更稳妥；实际称谓应尊重本人及工作场所习惯。",
+    "usage_etiquette": "工作聊天中可使用大家熟悉的英语职称；正式马来语文件宜采用实际职位名称，如 mandur 或 penyelia。不要把所有经理或工程师都称为 foreman。"
+  },
+  "sources": [
+    "[DBP：mandur 与 foreman 的对应义项](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=mandur)",
+    "[Merriam-Webster：foreman](https://www.merriam-webster.com/dictionary/foreman)"
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "直接称呼主管时，使用 Encik 加姓名通常比隔空喊 Foreman 更稳妥；实际称谓应尊重本人及工作场所习惯。",
+    "usage_etiquette": "工作聊天中可使用大家熟悉的英语职称；正式马来语文件宜采用实际职位名称，如 mandur 或 penyelia。不要把所有经理或工程师都称为 foreman。"
+  }
+}
