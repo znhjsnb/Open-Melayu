@@ -1,0 +1,102 @@
+{
+  "headword": {
+    "word": "web",
+    "syllables": null,
+    "ipa": "/web/",
+    "jawi": null,
+    "frequency_rank": 3782,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "web",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + web → web",
+    "pattern_note": "英语借词，在马来语中作为独立词素使用；参考读音为单音节，e 为 e taling。下列词族项为复合词，不是加缀派生词。",
+    "word_family": [
+      {
+        "word": "laman web",
+        "affix": null,
+        "gloss": "网页；网站"
+      },
+      {
+        "word": "pelayar web",
+        "affix": null,
+        "gloss": "网页浏览器"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "万维网：通过互联网提供、以超链接相互连接并可用浏览器访问的信息系统；也用作网页、网站及相关技术复合词的组成部分。",
+      "en_definition": "The World Wide Web, an information system of interlinked resources accessed over the Internet; also used in compounds relating to websites and web technologies.",
+      "ms_definition": "Sistem maklumat yang menghubungkan sumber melalui hiperpautan dan dicapai menggunakan pelayar melalui Internet; turut digunakan sebagai unsur istilah berkaitan laman dan teknologi web.",
+      "nuances": "上述马来语释义为编写性概括，并非 DBP 逐字引文。web 已见于 DBP 的信息技术术语；此处 official 表示有官方术语使用依据。正式表达具体网站时宜用 laman web 或 tapak web，不宜一律缩成 web。万维网与承载它的互联网有区别。PRPM 英马词典中的英语 web 还有蜘蛛网、蹼膜等义，不能据此直接认定这些都是马来语借词义。来源：[DBP 术语](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=web)、[DBP 用语咨询](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=web)、[W3C 说明](https://www.w3.org/help/)。输入未提供音节划分和爪夷文，保留 null；频率排名沿用输入，未作独立验证。",
+      "collocations": [
+        {
+          "ms": "laman web rasmi",
+          "zh": "官方网站",
+          "en": "official website"
+        },
+        {
+          "ms": "pelayar web",
+          "zh": "网页浏览器",
+          "en": "web browser"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Orang ramai boleh mendapatkan maklumat lanjut melalui laman web rasmi jabatan.",
+      "zh": "公众可通过该部门的官方网站获取更多信息。",
+      "en": "Members of the public can obtain further information through the department’s official website."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Borang tu dah ada kat laman web, isi je.",
+      "ms_standard": "Borang itu sudah tersedia di laman web; isi sahaja.",
+      "zh": "表格已经放在网站上了，直接填就行。",
+      "en": "The form’s already on the website. Just fill it in.",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "dah 对应 sudah，kat 在此对应 di，je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Borang tu dah ada kat laman web ke?",
+          "ms_standard": "Adakah borang itu sudah tersedia di laman web?",
+          "zh": "那个表格已经放到网站上了吗？",
+          "en": "Is the form on the website already?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Buka laman web rasmi tu, lepas tu isi je.",
+          "ms_standard": "Sudah. Buka laman web rasmi itu, kemudian isi borang tersebut.",
+          "zh": "放了。打开那个官网，然后填表就行。",
+          "en": "Yes. Open the official website and fill it in."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay web follows English computing terminology. Tim Berners-Lee proposed the information-sharing system at CERN in 1989 and named his browser and project WorldWideWeb in 1990. The name evokes interconnected information. Malay terminology retains web in expressions such as laman web and pelayar web, connecting the borrowed word with familiar Malay nouns. Source: [W3C history](https://www.w3.org/History.html?lang=en).",
+    "cognitive_memory_aid": "把 web 想成一张由链接织成的信息网：laman web 是网上的页面，pelayar web 是浏览页面的工具。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身语体中性。正式通知宜使用完整术语，例如 Sila layari laman web rasmi kami。",
+    "usage_etiquette": "适用于办事、学习和技术交流。面向普通公众时，首次出现的技术缩写宜配上易懂说明；日常聊天可简化句子，但正式文件宜保留 laman web 等完整表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身语体中性。正式通知宜使用完整术语，例如 Sila layari laman web rasmi kami。",
+    "usage_etiquette": "适用于办事、学习和技术交流。面向普通公众时，首次出现的技术缩写宜配上易懂说明；日常聊天可简化句子，但正式文件宜保留 laman web 等完整表达。"
+  }
+}

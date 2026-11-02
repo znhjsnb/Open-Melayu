@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "fikirkannya",
+    "syllables": null,
+    "ipa": "/fi.kir.kan.ɲa/",
+    "jawi": null,
+    "frequency_rank": 3760,
+    "status": "official",
+    "status_note": "这是可按标准马来语语法分析的组合形式，不表示 DBP 将整个带附着代词的形式单列为词条。输入包未提供音节划分与爪夷文，相关字段保留 null。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "fikirkan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "fikir + -kan → fikirkan；fikirkan + =nya → fikirkannya",
+    "pattern_note": "root_word 保留输入包给出的直接基底 fikirkan；最终词根为 fikir。-kan 是派生后缀，=nya 是附着代词，此处通常指已提到的事物或人。suffix 为本结构中最接近的分类，不表示 -nya 是派生后缀；ny 读 /ɲ/。",
+    "word_family": [
+      {
+        "word": "fikirkan",
+        "affix": "-kan",
+        "gloss": "想一想；考虑"
+      },
+      {
+        "word": "memikirkan",
+        "affix": "meN-…-kan",
+        "gloss": "考虑；思考；惦念"
+      },
+      {
+        "word": "berfikir",
+        "affix": "ber-",
+        "gloss": "思考"
+      },
+      {
+        "word": "fikiran",
+        "affix": "-an",
+        "gloss": "思想；想法；心智"
+      },
+      {
+        "word": "pemikiran",
+        "affix": "peN-…-an",
+        "gloss": "思维；思想活动"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "考虑它、想想这件事；也可按上下文表示想起或惦念所指的人或事。",
+      "en_definition": "To think about or consider it; contextually, to think about the person or matter referred to.",
+      "ms_definition": "Mempertimbangkan atau merenungkan perkara yang dirujuk oleh -nya; mengikut konteks, turut membawa maksud mengenangkan orang atau perkara tersebut.",
+      "nuances": "常用于祈使句，如 Fikirkannya dahulu。-nya 的指代需要上下文，不能固定理解为“他的”。作为一般主动陈述谓语时通常用 memikirkannya，如 Dia sedang memikirkannya。这里的三语释义是对组合形式的解释，基础义参见 [DBP fikir](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=fikir)。",
+      "collocations": [
+        {
+          "ms": "fikirkannya dahulu",
+          "zh": "先考虑一下这件事",
+          "en": "think about it first"
+        },
+        {
+          "ms": "fikirkannya masak-masak",
+          "zh": "仔细考虑这件事",
+          "en": "think it through carefully"
+        },
+        {
+          "ms": "jangan fikirkannya lagi",
+          "zh": "别再想这件事了",
+          "en": "don't think about it anymore"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场沟通 / 对提案提出审慎建议",
+      "ms": "Berhubung dengan cadangan tersebut, fikirkannya dengan teliti sebelum memberikan persetujuan.",
+      "zh": "关于该项提议，请在同意之前仔细考虑。",
+      "en": "Regarding that proposal, consider it carefully before giving your agreement."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量工作邀约",
+      "ms_spoken": "Jangan jawab dulu lah, fikirkannya masak-masak.",
+      "ms_standard": "Jangan berikan jawapan dahulu; fikirkannya dengan teliti.",
+      "zh": "先别急着答复啦，好好想清楚。",
+      "en": "Don't answer just yet. Think it through carefully.",
+      "spoken_features": [
+        "lah 缓和劝告语气",
+        "dulu 对应 dahulu",
+        "masak-masak 在此表示仔细、充分，并非烹饪义",
+        "完整形式 fikirkannya 可以用于口语；日常交流中也常把指代对象另说出来"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah dapat tawaran kerja tu. Nak terima terus ke?",
+          "ms_standard": "Saya sudah menerima tawaran kerja itu. Patutkah saya terus menerimanya?",
+          "zh": "我已经拿到那份工作的录用通知了，要直接答应吗？",
+          "en": "I've got that job offer. Should I accept it straight away?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jangan jawab dulu lah, fikirkannya masak-masak. Tengok gaji dengan waktu kerja sekali.",
+          "ms_standard": "Jangan berikan jawapan dahulu; fikirkannya dengan teliti. Pertimbangkan juga gaji dan waktu bekerja.",
+          "zh": "先别急着答复啦，好好想清楚，薪水和工时也一起看看。",
+          "en": "Don't answer just yet. Think it through, including the pay and working hours."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The ultimate base fikir belongs to Malay's Arabic loan vocabulary and is associated with Arabic fikr, thought. Malay then builds its own grammatical forms around this borrowed base. Fikirkannya combines the Malay suffix -kan with the attached pronoun -nya, illustrating how a borrowed word participates in productive Malay grammar. [Sources: linguistic study](https://plm.org.my/ejurnal/index.php/jurnallinguistik/article/download/249/179/), [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=fikir).",
+    "cognitive_memory_aid": "fikir＝想，fikirkan＝考虑，后接 -nya＝考虑它；整句记：Fikirkannya dahulu——先想一想。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Fikirkannya! 可能显得命令式。向长辈、客户或上级建议时，可说 Mohon pertimbangkan perkara ini（敬请考虑此事）。",
+    "usage_etiquette": "需要给对方时间时，可用 Fikirkannya dahulu，不必催促即时表态。安慰别人时，Jangan fikirkannya lagi 有时会显得轻描淡写，应结合关系和事件严重程度使用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Fikirkannya! 可能显得命令式。向长辈、客户或上级建议时，可说 Mohon pertimbangkan perkara ini（敬请考虑此事）。",
+    "usage_etiquette": "需要给对方时间时，可用 Fikirkannya dahulu，不必催促即时表态。安慰别人时，Jangan fikirkannya lagi 有时会显得轻描淡写，应结合关系和事件严重程度使用。"
+  }
+}

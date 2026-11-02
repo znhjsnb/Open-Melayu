@@ -1,0 +1,116 @@
+{
+  "headword": {
+    "word": "seorangpun",
+    "syllables": null,
+    "ipa": "/sə.o.raŋ pun/",
+    "jawi": null,
+    "frequency_rank": 3807,
+    "status": "nonstandard",
+    "standard_form": "seorang pun",
+    "validation_note": "规范拼写为两个词 seorang pun；不能将输入中的连写形式标为官方词形。音标对应规范短语；空缺的音节和爪夷文数据保留为 null。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "orang",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + orang → seorang；seorang + 独立强调词 pun → seorang pun",
+    "pattern_note": "se- 表示一，接 orang 时保留元音相接；pun 是独立书写的强调词，不是后缀。输入包将整个连写形式识别为词根，需据实际构词纠正。",
+    "word_family": [
+      {
+        "word": "orang",
+        "affix": null,
+        "gloss": "人"
+      },
+      {
+        "word": "seorang",
+        "affix": "se-",
+        "gloss": "一人；一位"
+      },
+      {
+        "word": "seseorang",
+        "affix": "se- + seorang",
+        "gloss": "某人"
+      },
+      {
+        "word": "perseorangan",
+        "affix": "per-...-an",
+        "gloss": "个人的；单人的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "连一个人也……；在否定句中表示一个人也没有。词性标签对应整个名词性短语，pun 本身是强调词。",
+      "en_definition": "Even a single person; with negation, not a single person or nobody at all.",
+      "ms_definition": "Frasa seorang yang ditegaskan oleh partikel pun; dalam ayat nafi, menegaskan bahawa tidak ada walau satu orang.",
+      "nuances": "seorang pun 本身不含否定意义，须结合 tiada、tidak ada 或其他否定结构理解。正式文本一律分写；不能把所有 pun 都视为可连写后缀。此处马来文释义为编写性概括。依据：[DBP：seorang](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=seorang)、[DBP：pun 的书写与用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pun)。",
+      "collocations": [
+        {
+          "ms": "tiada seorang pun",
+          "zh": "一个人也没有",
+          "en": "not a single person"
+        },
+        {
+          "ms": "seorang pun tidak hadir",
+          "zh": "一个人也没出席",
+          "en": "not one person attended"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Tiada seorang pun kakitangan yang cedera dalam kejadian tersebut.",
+      "zh": "该事件中没有任何员工受伤。",
+      "en": "Not a single employee was injured in the incident."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dah pukul sembilan, tak ada seorang pun kat sini lagi.",
+      "ms_standard": "Sudah pukul sembilan, tetapi masih belum ada seorang pun di sini.",
+      "zh": "都九点了，这里还一个人都没有。",
+      "en": "It's already nine, and nobody's here yet.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式",
+        "tak 是 tidak 的口语形式",
+        "kat 在此相当于 di",
+        "口语中 seorang 也常缩为 sorang"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah pukul sembilan, tak ada seorang pun kat sini lagi.",
+          "ms_standard": "Sudah pukul sembilan, tetapi masih belum ada seorang pun di sini.",
+          "zh": "都九点了，这里还一个人都没有。",
+          "en": "It's already nine, and nobody's here yet."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Tunggu kejap je, saya dah nak sampai.",
+          "ms_standard": "Tunggu sebentar sahaja, saya akan tiba sebentar lagi.",
+          "zh": "再等一下，我马上就到了。",
+          "en": "Just give me a moment. I'm almost there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This expression is built transparently within Malay: se- contributes the meaning one, orang means person, and pun adds emphasis. With negation, the combination highlights the smallest possible human count: not even one. Its important spelling lesson is grammatical rather than exotic: pun remains separate here, unlike established fused conjunctions. See [DBP spelling guidance](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf).",
+    "cognitive_memory_aid": "se-＝一，orang＝人，pun＝连……也；加上 tiada，就是“连一个人也没有”。记住 pun 要留一个空格。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词组本身中性；正式汇报中可用来准确强调无人受伤、无人缺席等事实。",
+    "usage_etiquette": "Tiada seorang pun yang membantu 可以带出埋怨。涉及同事表现时，宜说明具体时间和情况，避免用绝对化说法指责整个团队。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词组本身中性；正式汇报中可用来准确强调无人受伤、无人缺席等事实。",
+    "usage_etiquette": "Tiada seorang pun yang membantu 可以带出埋怨。涉及同事表现时，宜说明具体时间和情况，避免用绝对化说法指责整个团队。"
+  }
+}

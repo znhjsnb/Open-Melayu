@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "dijangka",
+    "syllables": null,
+    "ipa": "/di.dʒaŋ.ka/",
+    "jawi": null,
+    "frequency_rank": 3734,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jangka",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + jangka → dijangka",
+    "pattern_note": "di- 为被动前缀，与词根连写；j 保留，不发生鼻音替换。输入将 dijangka 标为词根，此处按实际构词纠正。",
+    "word_family": [
+      {
+        "word": "menjangka",
+        "affix": "meN-",
+        "gloss": "预料；估计"
+      },
+      {
+        "word": "jangkaan",
+        "affix": "-an",
+        "gloss": "预期；估计"
+      },
+      {
+        "word": "dijangkakan",
+        "affix": "di-...-kan",
+        "gloss": "被预料；预计会"
+      },
+      {
+        "word": "terjangka",
+        "affix": "ter-",
+        "gloss": "可预料的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "预计；预料会发生；根据现有信息对某事的发展或结果作出推测。",
+      "en_definition": "To be expected, anticipated, or forecast to happen.",
+      "ms_definition": "Diduga atau disangka akan berlaku berdasarkan maklumat atau pertimbangan yang ada.",
+      "nuances": "是 menjangka 的被动形式，常见于新闻、天气预报和分析报告；表达预测，不保证事情必然发生。以上马来语释义根据词典义项改写，并非逐字引文。参见 [DBP：menjangka](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menjangka)。",
+      "collocations": [
+        {
+          "ms": "dijangka meningkat",
+          "zh": "预计上升",
+          "en": "expected to increase"
+        },
+        {
+          "ms": "tidak dijangka",
+          "zh": "未曾预料到的",
+          "en": "unexpected"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "预计在某时间发生、完成或达到某规模；用于时间、期限或数量的估算。",
+      "en_definition": "To be estimated to occur, finish, or reach a particular time, duration, or amount.",
+      "ms_definition": "Dianggarkan waktu berlakunya, tempoh pelaksanaannya atau ukuran sesuatu perkara.",
+      "nuances": "此义突出估算时间或规模，与一般预测义相连。dijangka siap 只是预计完工，不能自动理解为已经确定的工期承诺。参见 [DBP：menjangka 的时间估算义](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=menjangka)。",
+      "collocations": [
+        {
+          "ms": "dijangka siap",
+          "zh": "预计完工",
+          "en": "expected to be completed"
+        },
+        {
+          "ms": "dijangka tiba",
+          "zh": "预计抵达",
+          "en": "expected to arrive"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kerja pembaikan jambatan itu dijangka siap pada akhir bulan ini.",
+      "zh": "该桥梁维修工程预计于本月底完工。",
+      "en": "Repairs to the bridge are expected to be completed by the end of this month."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Barang tu dijangka sampai petang ni je, kan?",
+      "ms_standard": "Barang itu dijangka tiba pada petang ini sahaja, bukan?",
+      "zh": "东西预计今天傍晚才到，对吧？",
+      "en": "The delivery isn't expected until this evening, right?",
+      "spoken_features": [
+        "tu 和 ni 分别对应 itu 和 ini。",
+        "je 对应 sahaja，在此限制到货时间。",
+        "句末 kan 用于向对方确认。",
+        "dijangka 可出现在转述物流通知的口语中。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Barang tu dijangka sampai petang ni je, kan?",
+          "ms_standard": "Barang itu dijangka tiba pada petang ini sahaja, bukan?",
+          "zh": "东西预计今天傍晚才到，对吧？",
+          "en": "The delivery isn't expected until this evening, right?"
+        },
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Haah, aplikasi dah tulis macam tu. Aku tunggu kat rumah je lah.",
+          "ms_standard": "Ya, aplikasi itu sudah memaparkan maklumat tersebut. Saya akan menunggu di rumah sahaja.",
+          "zh": "对，应用里已经这么写了。那我就在家等吧。",
+          "en": "Yes, that's what the app says. I'll just wait at home, then."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dijangka belongs to the jangka family, which connects measured spans and limits with estimating and anticipating. Modern Malay uses the passive prefix di- to present an expected event without necessarily naming the forecaster. This makes the form useful in reports about weather, construction deadlines, arrivals, and economic changes. [DBP: jangka](https://prpm.dbp.gov.my/cari1?keyword=jangka+II)",
+    "cognitive_memory_aid": "jangka 先“估一估”，di- 把视角转向事情：工程被估计何时完工，就是 projek dijangka siap。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于正式汇报时语气中性、审慎；需要提高信息可信度时，可说明预测来源或估算依据。",
+    "usage_etiquette": "适合说明预期结果和时间。涉及预约、交货或工程期限时，要区分“预计”与已确认的安排，避免让对方把估算当作承诺。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于正式汇报时语气中性、审慎；需要提高信息可信度时，可说明预测来源或估算依据。",
+    "usage_etiquette": "适合说明预期结果和时间。涉及预约、交货或工程期限时，要区分“预计”与已确认的安排，避免让对方把估算当作承诺。"
+  }
+}

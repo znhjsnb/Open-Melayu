@@ -1,0 +1,166 @@
+{
+  "headword": {
+    "word": "god",
+    "syllables": "god",
+    "ipa": "/ɡɒd/",
+    "jawi": null,
+    "frequency_rank": 3539,
+    "status": "official",
+    "language": "en",
+    "status_note": "按请求保留 status 字段值；god 在此是英语词形，不表示它是规范马来语词头。输入包中的 not translated 不是音节；所列 IPA 为英式英语读音。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "god",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + god → god（英语整词）",
+    "pattern_note": "英语单音节词，不按马来语构词法拆分。God 的大写体现指称习惯，不是词缀；gods 的 -s 是英语复数标记。",
+    "word_family": [
+      {
+        "word": "gods",
+        "affix": "-s",
+        "gloss": "英语复数：诸神"
+      },
+      {
+        "word": "godlike",
+        "affix": "-like",
+        "gloss": "英语：如神一般的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "神、神祇；被信奉为具有超自然力量的存在，常指多神信仰中的男性神祇。",
+      "en_definition": "A supernatural being worshipped as divine, often a male deity.",
+      "ms_definition": "Makhluk yang dipercayai mempunyai kuasa ketuhanan dan dipuja; lazimnya dewa bagi dewa lelaki.",
+      "nuances": "这是英语词形。规范马来语对应词依信仰和语境选 dewa、tuhan 或神祇的专名；不能将所有神祇都直接译为 Allah。以下 ms 为马来语对应搭配。[PRPM：god](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=god)",
+      "collocations": [
+        {
+          "ms": "dewa perang",
+          "zh": "战神",
+          "en": "god of war"
+        },
+        {
+          "ms": "dewa-dewa Yunani",
+          "zh": "希腊诸神",
+          "en": "Greek gods"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "通常写作 God，指一神信仰中的至高神；中文可依宗教语境译为上帝、真主或神。",
+      "en_definition": "Usually God: the supreme divine being in a monotheistic faith.",
+      "ms_definition": "Biasanya ditulis God dalam bahasa Inggeris: Tuhan Yang Maha Esa; dalam konteks Islam, Allah.",
+      "nuances": "保留输入词头的小写形式，但本义通常大写。马来语 Tuhan 与 Allah 的选择须尊重具体文本和信仰传统。thank God 常表达庆幸，可译 syukurlah，并非每次都逐字翻译。",
+      "collocations": [
+        {
+          "ms": "percaya kepada Tuhan",
+          "zh": "信仰上帝；信神",
+          "en": "believe in God"
+        },
+        {
+          "ms": "berdoa kepada Tuhan",
+          "zh": "向上帝祈祷",
+          "en": "pray to God"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "被当作神来敬拜的偶像或神像。",
+      "en_definition": "An image or object worshipped as a deity.",
+      "ms_definition": "Patung atau objek yang disembah sebagai tuhan; berhala.",
+      "nuances": "与神祇本身的指称有别。描述具体宗教艺术品时，patung dewa 可能比带有评价意味的 berhala 更适合；应依据文本立场选择。",
+      "collocations": [
+        {
+          "ms": "berhala batu",
+          "zh": "石制偶像",
+          "en": "stone god"
+        },
+        {
+          "ms": "berhala kayu",
+          "zh": "木制偶像",
+          "en": "wooden god"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "比喻被极度崇拜、奉为至上或具有支配力量的人或事物。",
+      "en_definition": "A person or thing treated as supremely important, powerful, or admirable.",
+      "ms_definition": "Secara kiasan, orang atau perkara yang dipuja, terlalu diagungkan atau dianggap paling berkuasa.",
+      "nuances": "可表示赞叹，也可批评过度崇拜。马来语常改用 mendewa-dewakan、terlalu mengagungkan 或 bertuhankan，而不是直接夹用 god。[PRPM：bertuhankan](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=bertuhankan)",
+      "collocations": [
+        {
+          "ms": "bertuhankan wang",
+          "zh": "把金钱奉为至上",
+          "en": "make a god of money"
+        },
+        {
+          "ms": "mendewa-dewakan seseorang",
+          "zh": "把某人奉若神明",
+          "en": "treat someone as a god"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam katalog pameran itu, istilah bahasa Inggeris “god of war” diterjemahkan sebagai “dewa perang”.",
+      "zh": "在该展览目录中，英语表达“god of war”被译为“dewa perang”，即“战神”。",
+      "en": "In the exhibition catalogue, the English expression “god of war” is translated into Malay as “dewa perang”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dalam cerita ni, Thor tu god of thunder, kan?",
+      "ms_standard": "Dalam cerita ini, Thor ialah dewa guruh, bukan?",
+      "zh": "在这个故事里，托尔是雷神，对吧？",
+      "en": "Thor is the god of thunder in this story, right?",
+      "spoken_features": [
+        "god of thunder 是英语语码转换",
+        "ni 对应 ini",
+        "tu 对应 itu，在此用于突出话题",
+        "句末 kan 请求对方确认"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dalam cerita ni, Thor tu god of thunder, kan?",
+          "ms_standard": "Dalam cerita ini, Thor ialah dewa guruh, bukan?",
+          "zh": "在这个故事里，托尔是雷神，对吧？",
+          "en": "Thor is the god of thunder in this story, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, betul. Aku baru baca pasal dia tadi.",
+          "ms_standard": "Ya, betul. Saya baru membaca tentangnya tadi.",
+          "zh": "对，没错。我刚才才读到他的介绍。",
+          "en": "Yes, that's right. I was just reading about him."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English god continues an Old English word with relatives in other Germanic languages, including Old High German got. It is not historically derived from Malay Tuhan or Arabic Allah. Modern capitalization helps distinguish God as a supreme being from a god among several deities, while Malay translation depends on the religious and literary context. [Merriam-Webster: god](https://www.merriam-webster.com/dictionary/god)",
+    "cognitive_memory_aid": "god 只有一拍，/ɡ/ 起音、/d/ 收尾；先辨大小写：a god 常对应“一位神祇”，God 常对应特定信仰中的至高神。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "宗教称谓应依对方的自称和具体信仰使用。不要把不同传统的神名随意互换，也不要默认所有人都接受同一种译法。",
+    "usage_etiquette": "god 适合出现在英语引文、文学讨论及明确的语码转换中。正式马来语应选准确对应词。Oh my God 等感叹在熟人聊天中可见，但部分听者认为随意使用神名不够庄重；惊讶时可按语境使用哎呀式表达，如 alamak。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "宗教称谓应依对方的自称和具体信仰使用。不要把不同传统的神名随意互换，也不要默认所有人都接受同一种译法。",
+    "usage_etiquette": "god 适合出现在英语引文、文学讨论及明确的语码转换中。正式马来语应选准确对应词。Oh my God 等感叹在熟人聊天中可见，但部分听者认为随意使用神名不够庄重；惊讶时可按语境使用哎呀式表达，如 alamak。"
+  }
+}

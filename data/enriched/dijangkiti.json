@@ -1,0 +1,159 @@
+{
+  "headword": {
+    "word": "dijangkiti",
+    "syllables": null,
+    "ipa": "/di.dʒaŋ.ki.ti/",
+    "jawi": null,
+    "frequency_rank": 3520,
+    "status": "official",
+    "status_note": "规范马来语被动动词，主动对应形式为 menjangkiti。输入未提供音节划分和整词爪夷文，因此保留 null；音标按标准读音整理。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jangkit",
+    "affix": "di-...-i",
+    "affix_type": "circumfix",
+    "formula": "di- + jangkit + -i → dijangkiti（受到感染或侵染）",
+    "pattern_note": "di- 是被动前缀，-i 保留在词尾；词根首辅音 j 不变。加 -i 后，词根末尾 t 成为下一音节的起始辅音：di.jang.ki.ti。di- 与词根连写。",
+    "word_family": [
+      {
+        "word": "berjangkit",
+        "affix": "ber-",
+        "gloss": "传染；传播；有传染性的"
+      },
+      {
+        "word": "menjangkiti",
+        "affix": "meN-...-i",
+        "gloss": "感染某人或某物；主动及物形式"
+      },
+      {
+        "word": "menjangkitkan",
+        "affix": "meN-...-kan",
+        "gloss": "传播疾病等；使发生传染"
+      },
+      {
+        "word": "jangkitan",
+        "affix": "-an",
+        "gloss": "感染；传染"
+      },
+      {
+        "word": "terjangkit",
+        "affix": "ter-",
+        "gloss": "染上；受到感染"
+      }
+    ],
+    "root_jawi": "جاڠکيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "受到病原体感染；染上具有传染性的疾病。",
+      "en_definition": "To be infected by a pathogen or to contract an infectious disease.",
+      "ms_definition": "Dihinggapi kuman atau penyakit berjangkit; bentuk pasif bagi menjangkiti.",
+      "nuances": "主语是受到感染的人、生物或部位，不能将其直接理解为“具有传染性的”。berjangkit 描写传染性质或传播，dijangkiti 突出感染承受者。释义依据 DBP 词族释义整理，并非逐字引文。[DBP：jangkit](https://prpm.dbp.gov.my/Cari1?d=250808&keyword=jangkit)",
+      "collocations": [
+        {
+          "ms": "dijangkiti virus",
+          "zh": "感染病毒",
+          "en": "infected with a virus"
+        },
+        {
+          "ms": "dijangkiti bakteria",
+          "zh": "受到细菌感染",
+          "en": "infected with bacteria"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "计算机、文件或程序受到电脑病毒等具有感染能力的恶意代码侵染。",
+      "en_definition": "To be infected with a computer virus or other infectious malicious code.",
+      "ms_definition": "Diserang virus komputer atau kod hasad yang menjangkiti fail, atur cara atau sistem.",
+      "nuances": "这是感染概念在资讯科技中的用法；不是所有故障或入侵都称为感染。释义根据 DBP 对病毒感染文件或程序的说明整理。[DBP 资讯科技用例](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=menjangkiti)",
+      "collocations": [
+        {
+          "ms": "komputer dijangkiti virus",
+          "zh": "电脑感染病毒",
+          "en": "a computer infected with a virus"
+        },
+        {
+          "ms": "fail yang dijangkiti",
+          "zh": "受到感染的文件",
+          "en": "an infected file"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "比喻受到不良习惯、行为或风气的影响，仿佛被传染一样。",
+      "en_definition": "Figuratively, to become affected by a spreading undesirable habit or influence.",
+      "ms_definition": "Terpengaruh oleh tabiat, perangai atau gejala buruk yang merebak.",
+      "nuances": "比喻义常带负面评价，语气比 terpengaruh 更强；使用时要避免把群体或个人污名化。DBP 的 jangkit 词族包含习惯、行为传播的义项。[DBP 比喻义依据](https://prpm.dbp.gov.my/Cari1?d=250808&keyword=jangkit)",
+      "collocations": [
+        {
+          "ms": "dijangkiti tabiat buruk",
+          "zh": "染上坏习惯",
+          "en": "affected by a bad habit"
+        },
+        {
+          "ms": "dijangkiti budaya rasuah",
+          "zh": "受到贪腐风气侵蚀",
+          "en": "infected by a culture of corruption"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 机构情况汇报",
+      "ms": "Laporan itu menyatakan bahawa tiga orang pekerja telah dijangkiti virus influenza.",
+      "zh": "该报告指出，三名员工已感染流感病毒。",
+      "en": "The report states that three employees have been infected with the influenza virus."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友关心近况",
+      "ms_spoken": "Aku dah dijangkiti influenza, jadi aku tak dapat datang hari ni.",
+      "ms_standard": "Saya telah dijangkiti influenza, jadi saya tidak dapat datang hari ini.",
+      "zh": "我得了流感，今天来不了了。",
+      "en": "I've got the flu, so I can't come today.",
+      "spoken_features": [
+        "aku 用于关系熟悉者之间",
+        "dah、tak、ni 分别对应 sudah、tidak、ini",
+        "dijangkiti 本身保留标准词形，日常口语也常用 kena"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah dijangkiti influenza, jadi aku tak dapat datang hari ni.",
+          "ms_standard": "Saya telah dijangkiti influenza, jadi saya tidak dapat datang hari ini.",
+          "zh": "我得了流感，今天来不了了。",
+          "en": "I've got the flu, so I can't come today."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Oh, patutlah. Rehat dulu ya. Nanti bila dah sihat, kita jumpa.",
+          "ms_standard": "Oh, begitu rupanya. Berehatlah dahulu. Kita boleh berjumpa apabila kamu sudah sihat.",
+          "zh": "哦，难怪。先好好休息，等你好了我们再见。",
+          "en": "Oh, that explains it. Get some rest. We'll catch up when you're better."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dijangkiti belongs to the Malay jangkit family, whose dictionary meanings connect infection with things spreading between people. The same family also describes habits and behaviour spreading through a community. Modern computing extends the infection image to files and machines. The form itself follows Malay passive morphology rather than an English borrowing. [DBP lexical family](https://prpm.dbp.gov.my/Cari1?d=250808&keyword=jangkit)",
+    "cognitive_memory_aid": "按 di—jang—ki—ti 读：di- 把镜头转向承受者，jangkit 联想到感染传播；dijangkiti 就是“被感染”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论患者时，使用 orang yang dijangkiti 或 pesakit 等中性表达；说明感染情况时避免责备语气。",
+    "usage_etiquette": "适用于新闻、健康说明和电脑安全报告。比喻某人“染上”坏风气时带批评意味；轻松聊天可说 kena，但正式说明宜保留 dijangkiti 并明确感染对象。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论患者时，使用 orang yang dijangkiti 或 pesakit 等中性表达；说明感染情况时避免责备语气。",
+    "usage_etiquette": "适用于新闻、健康说明和电脑安全报告。比喻某人“染上”坏风气时带批评意味；轻松聊天可说 kena，但正式说明宜保留 dijangkiti 并明确感染对象。"
+  }
+}
