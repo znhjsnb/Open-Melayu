@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "telefonmu",
+    "syllables": "te.le.fon.mu",
+    "ipa": "/te.le.fon.mu/",
+    "jawi": "تيليفون",
+    "frequency_rank": 13115,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "telefon",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "telefon + -mu → telefonmu",
+    "pattern_note": "-mu 是第二人称附着代词，在此表示所属，语法上属于后附着语素；本结构以 suffix 记录其位置。直接连写，无音变；telefon 的两个 e 均读 /e/。音节据完整词形补出；输入包的 Jawi 仅记录词根 telefon。",
+    "word_family": [
+      {
+        "word": "menelefon",
+        "affix": "meN-",
+        "gloss": "打电话"
+      },
+      {
+        "word": "bertelefon",
+        "affix": "ber-",
+        "gloss": "通电话"
+      }
+    ],
+    "root_jawi": "تيليفون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的电话机或手机，即属于你或由你使用的电话设备。",
+      "en_definition": "Your telephone or mobile phone.",
+      "ms_definition": "Alat telefon yang kamu miliki atau gunakan untuk berhubung dengan orang lain.",
+      "nuances": "通常指电话设备；是否为手机由语境决定。-mu 表示“你的”，不把名词变成动词。完整词义由输入包中 telefon 的 DBP 释义与所属关系组合而成；-mu 须与前词连写，见 [DBP 代词书写说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau+pasif)。headword.jawi 按输入保留词根写法，不代表完整 telefonmu 的 Jawi。",
+      "collocations": [
+        {
+          "ms": "mengecas telefonmu",
+          "zh": "给你的手机充电",
+          "en": "charge your phone"
+        },
+        {
+          "ms": "mematikan telefonmu",
+          "zh": "关闭你的电话",
+          "en": "switch off your phone"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你打来的电话；由你发起的电话通话。",
+      "en_definition": "Your telephone call; a call made by you.",
+      "ms_definition": "Panggilan telefon yang kamu buat kepada seseorang.",
+      "nuances": "承接 telefon 的“电话通话”义，语气较书面或文学化。现代日常表达通常用 panggilanmu 或 panggilan telefon daripada kamu，更容易与设备义区分。",
+      "collocations": [
+        {
+          "ms": "menerima telefonmu",
+          "zh": "接到你打来的电话",
+          "en": "receive your call"
+        },
+        {
+          "ms": "menunggu telefonmu",
+          "zh": "等你的电话",
+          "en": "wait for your call"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场培训 / 面向熟悉团队成员的书面提示",
+      "ms": "Pastikan telefonmu berada dalam mod senyap sepanjang sesi latihan berlangsung.",
+      "zh": "请确保你的手机在整个培训期间处于静音模式。",
+      "en": "Ensure that your phone remains on silent throughout the training session."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉朋友之间",
+      "ms_spoken": "Telefonmu tertinggal kat rumah aku lah. Nak aku bawakan nanti?",
+      "ms_standard": "Telefonmu tertinggal di rumahku. Mahukah kamu aku bawakan telefon itu nanti?",
+      "zh": "你的手机落在我家啦。要我待会儿给你带过去吗？",
+      "en": "You left your phone at my place. Want me to bring it over later?",
+      "spoken_features": [
+        "kat 在这里对应表示地点的 di。",
+        "nak 表示想要或询问意愿；lah 使提醒语气更亲近。",
+        "telefonmu 用于熟人间带个人色彩的表达；中性日常口语也常说 telefon awak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友，通过电脑聊天)",
+          "ms_spoken": "Telefonmu tertinggal kat rumah aku lah. Nak aku bawakan nanti?",
+          "ms_standard": "Telefonmu tertinggal di rumahku. Mahukah kamu aku bawakan telefon itu nanti?",
+          "zh": "你的手机落在我家啦。要我待会儿给你带过去吗？",
+          "en": "You left your phone at my place. Want me to bring it over later?"
+        },
+        {
+          "speaker": "Amir (朋友，通过电脑聊天)",
+          "ms_spoken": "Oh, patutlah tak jumpa! Simpan dulu je, aku ambil petang nanti.",
+          "ms_standard": "Oh, patutlah aku tidak menjumpainya! Simpan dahulu; aku akan mengambilnya petang nanti.",
+          "zh": "哦，难怪找不到！你先帮我收着，我傍晚去拿。",
+          "en": "Oh, that explains why I couldn't find it! Just keep it for now. I'll pick it up this evening."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Telefon belongs to the international vocabulary of telecommunications. Its Malay life is especially visible when it accepts native grammar: adding -mu makes a technological object personally yours. The same spelling principle applies to familiar possessions such as books and houses. The construction therefore joins a borrowed technology word to an established Malay possessive pattern. [DBP spelling guidance](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau+pasif)",
+    "cognitive_memory_aid": "telefon 对应熟悉的 telephone；尾巴 -mu 把归属指向“你”：telefon + mu，就是“你的电话”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 带熟悉、亲近或文学色彩，并非普遍适用的敬称。对客户、上司或不熟悉的人，通常用 telefon anda、telefon tuan 或 telefon puan。",
+    "usage_etiquette": "适用于熟人私聊、个人书信、歌词及带亲切语气的提示。要求借用或查看手机时，应明确征求同意，例如 Boleh saya pinjam telefon awak?；所属表达本身不包含借用许可。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 带熟悉、亲近或文学色彩，并非普遍适用的敬称。对客户、上司或不熟悉的人，通常用 telefon anda、telefon tuan 或 telefon puan。",
+    "usage_etiquette": "适用于熟人私聊、个人书信、歌词及带亲切语气的提示。要求借用或查看手机时，应明确征求同意，例如 Boleh saya pinjam telefon awak?；所属表达本身不包含借用许可。"
+  }
+}

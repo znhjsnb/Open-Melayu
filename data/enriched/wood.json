@@ -1,0 +1,146 @@
+{
+  "headword": {
+    "word": "wood",
+    "syllables": "wood",
+    "ipa": "/wʊd/",
+    "jawi": null,
+    "frequency_rank": 13113,
+    "status": "official",
+    "language": "en",
+    "status_note": "按请求保留 official 字段值；该值不表示 wood 已获 DBP 认定为标准马来语词。此项作为英语词及语码转换材料处理。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "wood",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + wood → wood",
+    "pattern_note": "英语单音节词根，整词记忆；oo 在这里读 /ʊ/。不按马来语词缀拆分，也不补造未经核实的爪夷文。下列词族属于英语。",
+    "word_family": [
+      {
+        "word": "wooden",
+        "affix": "-en",
+        "gloss": "木制的"
+      },
+      {
+        "word": "woody",
+        "affix": "-y",
+        "gloss": "木质的；多树木的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "木材；树木内部坚硬的纤维组织，或供制作、建筑、燃烧等用途的这种材料。",
+      "en_definition": "The hard fibrous material of trees, especially when used as a material or fuel.",
+      "ms_definition": "Bahan keras berserat pada pokok yang digunakan sebagai bahan binaan, bahan pembuatan atau bahan api; kayu.",
+      "nuances": "英语词，材料义通常不可数；标准马来语对应 kayu。下列搭配提供马来语对应表达，英语栏保留英语搭配；马来语释义是解释性翻译，并非输入中不存在的 DBP 原文。英语义项依据 [Merriam-Webster](https://www.merriam-webster.com/dictionary/wood)。",
+      "collocations": [
+        {
+          "ms": "kayu padu",
+          "zh": "实木",
+          "en": "solid wood"
+        },
+        {
+          "ms": "kayu reput",
+          "zh": "腐朽的木材",
+          "en": "rotten wood"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "树林；一片树木密集生长的土地。",
+      "en_definition": "An area of land covered with trees.",
+      "ms_definition": "Kawasan tanah yang ditumbuhi banyak pokok; kawasan hutan.",
+      "nuances": "属于英语义项，可见 a wood，复数 woods 也常表示树林；不能把这一义项机械译为材料义的 kayu。",
+      "collocations": [
+        {
+          "ms": "sebuah hutan kecil",
+          "zh": "一片小树林",
+          "en": "a small wood"
+        },
+        {
+          "ms": "di pinggir hutan",
+          "zh": "在树林边缘",
+          "en": "at the edge of the wood"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "高尔夫木杆；一类杆头较大、通常用于较远距离击球的球杆，现代杆头未必由木材制成。",
+      "en_definition": "A golf club with a large head, traditionally wooden but now often made of metal.",
+      "ms_definition": "Sejenis kayu golf berkepala besar yang asalnya dibuat daripada kayu dan kini juga dibuat daripada logam.",
+      "nuances": "英语高尔夫术语，是可数名词；名称沿用历史材料，不能据此判断现代球杆的材质。",
+      "collocations": [
+        {
+          "ms": "menggunakan kayu golf jenis wood",
+          "zh": "使用木杆",
+          "en": "to use a wood"
+        },
+        {
+          "ms": "memukul bola dengan kayu golf jenis wood",
+          "zh": "用木杆击球",
+          "en": "to hit the ball with a wood"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Istilah bahasa Inggeris 'wood' dalam spesifikasi tersebut merujuk kepada kayu.",
+      "zh": "该规格说明中的英语词“wood”指木材。",
+      "en": "The English term 'wood' in the specification refers to timber."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Meja ni solid wood ke? Aku nak yang tahan lama.",
+      "ms_standard": "Adakah meja ini diperbuat daripada kayu padu? Saya hendak membeli meja yang tahan lama.",
+      "zh": "这张桌子是实木的吗？我想买耐用一点的。",
+      "en": "Is this table solid wood? I want one that'll last.",
+      "spoken_features": [
+        "solid wood 是嵌入马来语句子的英语短语",
+        "ni 对应 ini",
+        "ke 标记口语疑问",
+        "nak 对应 hendak"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Meja ni solid wood ke? Aku nak yang tahan lama.",
+          "ms_standard": "Adakah meja ini diperbuat daripada kayu padu? Saya hendak membeli meja yang tahan lama.",
+          "zh": "这张桌子是实木的吗？我想买耐用一点的。",
+          "en": "Is this table solid wood? I want one that'll last."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tak pasti lah. Tanya penjual dulu, jangan tengok gambar je.",
+          "ms_standard": "Saya tidak pasti. Tanyakan kepada penjual dahulu; jangan membuat penilaian berdasarkan gambar sahaja.",
+          "zh": "我也不确定。先问卖家吧，别光看图片。",
+          "en": "I'm not sure. Ask the seller first—don't just go by the photos."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English wood developed through Middle English wode from Old English widu or wudu. Its history connects woodland with the material obtained from trees. The golf sense preserves the memory of wooden clubheads, even when modern heads use metal. This English history does not demonstrate that wood has become an established Malay loanword.",
+    "cognitive_memory_aid": "wood /wʊd/ 与英语 would 同音：想象一块实木，上面刻着“wood＝木材”；马来语表达记 kayu。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "马来西亚熟人聊天中可能出现英语与马来语混用；面对不熟悉英语的听者，改用 kayu 更清楚。",
+    "usage_etiquette": "正式马来语材料说明使用 kayu；只有在引用英语规格、商品名称或解释术语时保留 wood。普通材料义是中性词，没有特殊禁忌。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "马来西亚熟人聊天中可能出现英语与马来语混用；面对不熟悉英语的听者，改用 kayu 更清楚。",
+    "usage_etiquette": "正式马来语材料说明使用 kayu；只有在引用英语规格、商品名称或解释术语时保留 wood。普通材料义是中性词，没有特殊禁忌。"
+  }
+}

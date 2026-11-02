@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "pengendalian",
+    "syllables": "pe.ngen.da.lian",
+    "ipa": "/pə.ŋən.da.li.an/",
+    "jawi": "ڤڠندالين",
+    "frequency_rank": 13038,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pengendali",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + kendali + -an → pengendalian",
+    "pattern_note": "peN- 与 kendali 结合时，鼻音实现为 /ŋ/，词首 k 脱落。root_word 按数据包保留 pengendali；严格的构词词根是 kendali，不能把本词仅分析为 pengendali 加 -an。数据包音节字段原样保留；IPA 按标准读音分节。",
+    "word_family": [
+      {
+        "word": "kendali",
+        "affix": "∅",
+        "gloss": "缰绳；控制"
+      },
+      {
+        "word": "mengendalikan",
+        "affix": "meN-...-kan",
+        "gloss": "管理；操作；控制"
+      },
+      {
+        "word": "pengendali",
+        "affix": "peN-",
+        "gloss": "管理者；操作员；控制装置"
+      },
+      {
+        "word": "kendalian",
+        "affix": "-an",
+        "gloss": "所管理的事务；操作结果"
+      }
+    ],
+    "root_jawi": "ڤڠندالي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对事务、活动或组织进行管理、安排和主持的过程。",
+      "en_definition": "The management or conduct of an activity, organization, or affair.",
+      "ms_definition": "Perihal mengurus, mentadbir atau mengawal perjalanan sesuatu urusan, kegiatan atau organisasi.",
+      "nuances": "侧重实际组织和执行；pengurusan 的范围通常更广。此处将 DBP 的综合释义按使用领域细分，马来文定义为释义性改写。[DBP：kendali](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kendali)",
+      "collocations": [
+        {
+          "ms": "pengendalian majlis",
+          "zh": "活动的主持与安排",
+          "en": "the conduct of a function"
+        },
+        {
+          "ms": "pengendalian mesyuarat",
+          "zh": "会议的主持与组织",
+          "en": "the conduct of a meeting"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "对物品、设备或材料进行处理、搬运或操作的过程。",
+      "en_definition": "The handling of goods or materials, or the operation of equipment.",
+      "ms_definition": "Perbuatan mengendalikan barang, bahan atau peralatan mengikut cara yang tertentu.",
+      "nuances": "常见于培训、工作程序及安全说明。具体译为“处理”“搬运”还是“操作”，取决于宾语。",
+      "collocations": [
+        {
+          "ms": "pengendalian makanan",
+          "zh": "食品处理",
+          "en": "food handling"
+        },
+        {
+          "ms": "pengendalian mesin",
+          "zh": "机器操作",
+          "en": "machine operation"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "对价格、行为或其他变化实施约束，使其保持在可控范围内。",
+      "en_definition": "The control or restraint of a process, condition, or behaviour.",
+      "ms_definition": "Perihal mengekang, menguasai atau mengawal sesuatu supaya tidak melampaui batas.",
+      "nuances": "价格方面，DBP 收录 pengendalian harga；现代马来西亚行政语境中，kawalan harga 也很常见。",
+      "collocations": [
+        {
+          "ms": "pengendalian harga",
+          "zh": "价格管制",
+          "en": "price control"
+        },
+        {
+          "ms": "pengendalian emosi",
+          "zh": "情绪调控",
+          "en": "emotional regulation"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua petugas diwajibkan mengikuti latihan pengendalian makanan sebelum memulakan tugas.",
+      "zh": "所有工作人员在上岗前必须接受食品处理培训。",
+      "en": "All staff must complete food-handling training before starting work."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kursus pengendalian makanan tu kat dewan esok, kan?",
+      "ms_standard": "Kursus pengendalian makanan itu akan diadakan di dewan esok, bukan?",
+      "zh": "明天那个食品处理课程是在礼堂上，对吧？",
+      "en": "The food-handling course is at the hall tomorrow, right?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "kat 在这里相当于地点介词 di。",
+        "句末 kan 用于向对方确认信息。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kursus pengendalian makanan tu kat dewan esok, kan?",
+          "ms_standard": "Kursus pengendalian makanan itu akan diadakan di dewan esok, bukan?",
+          "zh": "明天那个食品处理课程是在礼堂上，对吧？",
+          "en": "The food-handling course is at the hall tomorrow, right?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, mula pukul sembilan. Saya dah daftar, awak nak ikut sekali?",
+          "ms_standard": "Ya, kursus itu bermula pada pukul sembilan. Saya sudah mendaftar. Adakah awak mahu menyertainya juga?",
+          "zh": "对，九点开始。我已经报名了，你要一起去吗？",
+          "en": "Yes, it starts at nine. I've signed up. Want to join me?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kamus Dewan labels kendali as Javanese and records its concrete meaning as a bridle or reins. Its Malay derivatives also describe restraint, management, and administration. The reins therefore provide a useful image for understanding pengendalian: directing a process so that it follows an intended course. This image explains the semantic connection without establishing a dated borrowing history.",
+    "cognitive_memory_aid": "把 kendali 想成“缰绳”：pengendali 是掌缰的人，pengendalian 是掌控和操作这件事。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性、偏正式的工作用语。指出问题时，可说 pengendalian perlu ditambah baik（处理方式有待改善），比直接指责操作人员更委婉。",
+    "usage_etiquette": "适用于培训、事务管理和操作程序。谈论人际关系时，若只是表示照顾或协助，宜用 menjaga 或 membantu，避免把人描述为需要操控的对象。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性、偏正式的工作用语。指出问题时，可说 pengendalian perlu ditambah baik（处理方式有待改善），比直接指责操作人员更委婉。",
+    "usage_etiquette": "适用于培训、事务管理和操作程序。谈论人际关系时，若只是表示照顾或协助，宜用 menjaga 或 membantu，避免把人描述为需要操控的对象。"
+  }
+}

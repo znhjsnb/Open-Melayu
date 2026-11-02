@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "kesaksian",
+    "syllables": null,
+    "ipa": "[kə.saʔ.si.an]",
+    "jawi": "کسقسين",
+    "frequency_rank": 13042,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "saksi",
+    "affix": "ke-...-an",
+    "affix_type": "circumfix",
+    "formula": "ke- + saksi + -an → kesaksian",
+    "pattern_note": "ke-...-an 构成抽象名词；词根拼写不变，ke- 中的 e 读 /ə/。资料包未提供音节字段，保留 null。",
+    "word_family": [
+      {
+        "word": "bersaksi",
+        "affix": "ber-",
+        "gloss": "作证"
+      },
+      {
+        "word": "menyaksikan",
+        "affix": "meN-...-kan",
+        "gloss": "亲眼目睹；观看"
+      },
+      {
+        "word": "penyaksian",
+        "affix": "peN-...-an",
+        "gloss": "见证的行为"
+      }
+    ],
+    "root_jawi": "سقسي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "知悉或目睹某事的人所提供的证言、陈述或证明。",
+      "en_definition": "Testimony or evidence supplied by someone who witnessed or knows about an event.",
+      "ms_definition": "Keterangan atau bukti daripada orang yang melihat atau mengetahui sesuatu perkara.",
+      "nuances": "偏正式，常见于司法、调查和宗教语境；日常叙事通常直接说 apa yang dilihat 或 keterangan saksi。不能一概等同于所有实物证据。词义依据：[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kesaksian)。",
+      "collocations": [
+        {
+          "ms": "memberikan kesaksian",
+          "zh": "提供证言",
+          "en": "give testimony"
+        },
+        {
+          "ms": "kesaksian palsu",
+          "zh": "虚假证言",
+          "en": "false testimony"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "担任证人或作为见证者的状态、身份或事实。",
+      "en_definition": "The state or capacity of being a witness.",
+      "ms_definition": "Hal menjadi saksi.",
+      "nuances": "这是 DBP《Kamus Pelajar》另列的义项，较少单独用于口语；具体证言内容属于第一义。词义依据：[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kesaksian)。",
+      "collocations": [
+        {
+          "ms": "kesaksian seseorang",
+          "zh": "某人的证人身份或见证情况",
+          "en": "someone's capacity as a witness"
+        },
+        {
+          "ms": "kesaksiannya tidak dipertikaikan",
+          "zh": "其作为证人的资格或身份不受质疑",
+          "en": "their standing as a witness is undisputed"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kesaksian penduduk yang melihat kejadian itu direkodkan untuk membantu siasatan.",
+      "zh": "调查人员记录了目睹事件的居民所提供的证言，以协助调查。",
+      "en": "Testimony from residents who witnessed the incident was recorded to assist the investigation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah bagi kesaksian tadi, cerita yang aku nampak je.",
+      "ms_standard": "Saya sudah memberikan kesaksian tadi dengan menceritakan hanya perkara yang saya lihat.",
+      "zh": "我刚才已经作证了，就说了自己看到的。",
+      "en": "I gave my testimony earlier and just described what I saw.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "bagi 在这里口语化地表示 memberikan。",
+        "je 对应 sahaja；aku 适用于熟人之间。",
+        "kesaksian 本身仍带正式色彩，口语中通常因谈论调查或作证而出现。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah bagi kesaksian pasal kejadian kat kedai tu?",
+          "ms_standard": "Adakah kamu sudah memberikan kesaksian tentang kejadian di kedai itu?",
+          "zh": "店里那件事，你已经去作证了吗？",
+          "en": "Have you given your testimony about what happened at the shop?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Aku cerita yang aku nampak je, yang lain aku tak tahu.",
+          "ms_standard": "Sudah. Saya hanya menceritakan perkara yang saya lihat; perkara lain tidak saya ketahui.",
+          "zh": "作证了。我就说了自己看到的，其他的我不知道。",
+          "en": "Yes. I only told them what I saw. I don't know about the rest."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Behind kesaksian stands saksi, a Sanskrit loan meaning witness. The World Loanword Database associates this borrowing with Early Malay and contact through Indian trade and cultural influence. Malay then uses its own ke-...-an construction to form an abstract noun: the witness becomes the source of testimony, or the focus shifts to being a witness. [WOLD](https://wold.clld.org/word/7126183974948018).",
+    "cognitive_memory_aid": "先抓住 saksi＝证人；ke-...-an 把“证人”变成“证人提供的证言／作证这回事”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式场合使用 saya，并以 Encik、Puan 或职衔称呼对方；不要把 aku、kau 带入对陌生人或调查人员的正式陈述。",
+    "usage_etiquette": "适合谈论亲历事实、证言及宗教见证；转述传闻时应明确消息来源，避免把推测包装成亲眼见证。宗教语境中的具体含义应随上下文判断。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式场合使用 saya，并以 Encik、Puan 或职衔称呼对方；不要把 aku、kau 带入对陌生人或调查人员的正式陈述。",
+    "usage_etiquette": "适合谈论亲历事实、证言及宗教见证；转述传闻时应明确消息来源，避免把推测包装成亲眼见证。宗教语境中的具体含义应随上下文判断。"
+  }
+}

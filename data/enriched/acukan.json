@@ -1,0 +1,108 @@
+{
+  "headword": {
+    "word": "acukan",
+    "syllables": null,
+    "ipa": "/a.tʃu.kan/",
+    "jawi": "اچو",
+    "frequency_rank": 13035,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "acu",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "acu + -kan → acukan；主动陈述形：meN- + acu + -kan → mengacukan",
+    "pattern_note": "接 -kan 时 acu 不发生词首音变。祈使句及部分宾语前置结构使用不带 meN- 的 acukan；主动陈述通常用 mengacukan。数据包爪夷文对应 acu，未包含 -kan；此处按数据包保留。",
+    "word_family": [
+      {
+        "word": "mengacukan",
+        "affix": "meN-…-kan",
+        "gloss": "把武器等指向；作威胁状"
+      },
+      {
+        "word": "diacukan",
+        "affix": "di-…-kan",
+        "gloss": "被指向；被举起相向"
+      },
+      {
+        "word": "mengacu",
+        "affix": "meN-",
+        "gloss": "作出威吓动作"
+      }
+    ],
+    "root_jawi": "اچو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把武器、拳头等朝向某人，作出威胁或恐吓的姿态；常用于命令、禁止或宾语前置结构。",
+      "en_definition": "To point a weapon or direct a threatening gesture towards someone; the unprefixed form of mengacukan.",
+      "ms_definition": "Menghalakan senjata, penumbuk atau benda seumpamanya ke arah seseorang untuk mengancam atau menakutkannya.",
+      "nuances": "重点是指向或威吓，并不表示已经开枪或刺中。常见形式包括 Jangan acukan… 和 senjata yang diacukan…。DBP 另在相关词条收录筹划及试穿等义，但这些涉及不同派生形式或同形词，不能仅凭本数据包认定 acukan 在所有语境都具有这些意义。释义依据：[DBP：mengacukan](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengacukan)。",
+      "collocations": [
+        {
+          "ms": "jangan acukan senjata",
+          "zh": "不要把武器指向别人",
+          "en": "do not point a weapon at anyone"
+        },
+        {
+          "ms": "jangan acukan pisau ke arah orang",
+          "zh": "不要把刀指向别人",
+          "en": "do not point a knife at people"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam taklimat keselamatan itu, jurulatih menegaskan, “Jangan acukan senjata ke arah sesiapa.”",
+      "zh": "在安全说明会上，教练强调：“不要把武器指向任何人。”",
+      "en": "During the safety briefing, the instructor stressed, “Do not point a weapon at anyone.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Jangan acukan pistol mainan tu kat orang lah.",
+      "ms_standard": "Jangan acukan pistol mainan itu ke arah orang lain.",
+      "zh": "别拿那把玩具枪对着别人啦。",
+      "en": "Don't point that toy gun at people.",
+      "spoken_features": [
+        "tu 对应 itu。",
+        "kat 在此对应 ke arah。",
+        "lah 使提醒带有熟人间的口语语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Jangan acukan pistol mainan tu kat adik lah.",
+          "ms_standard": "Jangan acukan pistol mainan itu ke arah adik.",
+          "zh": "别拿那把玩具枪对着弟弟啦。",
+          "en": "Don't point that toy gun at your little brother."
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Okey, saya letak kat meja je.",
+          "ms_standard": "Baiklah, saya letakkannya di atas meja sahaja.",
+          "zh": "好，我就放桌上。",
+          "en": "Okay, I'll just put it on the table."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Acukan is a transparent Malay formation from acu and -kan. Its familiar threatening sense appears in dictionary descriptions involving weapons and gestures. Malay also has other dictionary entries and derivatives spelled with acu, including clothing-related usage. These should be distinguished by context rather than woven into an unsupported single story about the word's remote ancestry.",
+    "cognitive_memory_aid": "把 acu 联想成动作“朝向”，-kan 把动作落到对象上：acukan senjata＝把武器朝向某人。联想只用于记忆，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Jangan acukan… 是直接的制止语，适用于需要立即停止危险动作的场合。",
+    "usage_etiquette": "该词通常带有明显的威胁意味。普通指路宜用 tunjukkan arah，举手发言宜用 angkat tangan，避免误用本词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Jangan acukan… 是直接的制止语，适用于需要立即停止危险动作的场合。",
+    "usage_etiquette": "该词通常带有明显的威胁意味。普通指路宜用 tunjukkan arah，举手发言宜用 angkat tangan，避免误用本词。"
+  }
+}

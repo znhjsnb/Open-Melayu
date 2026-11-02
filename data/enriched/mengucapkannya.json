@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "mengucapkannya",
+    "syllables": null,
+    "ipa": "/mə.ŋu.tʃap.kan.ɲa/",
+    "jawi": "مڠوچڤکن",
+    "frequency_rank": 13041,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mengucapkan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "meN- + ucap + -kan → mengucapkan; mengucapkan + -nya → mengucapkannya",
+    "pattern_note": "root_word 按数据包保留直接基形 mengucapkan；最终词根为 ucap。元音起始词根前，meN- 实现为 meng-；-nya 在此为回指宾语的代词附着成分，严格说并非派生后缀。headword.jawi 原样保留，但只对应 mengucapkan，缺少 ڽ；完整词形按构词拼接应为 مڠوچڤکنڽ。",
+    "word_family": [
+      {
+        "word": "ucap",
+        "affix": "∅",
+        "gloss": "言语；所说的话"
+      },
+      {
+        "word": "mengucapkan",
+        "affix": "meN-...-kan",
+        "gloss": "说出；表达；念出"
+      },
+      {
+        "word": "ucapan",
+        "affix": "-an",
+        "gloss": "话语；致辞；祝词"
+      },
+      {
+        "word": "pengucapan",
+        "affix": "peN-...-an",
+        "gloss": "说出或表达的行为"
+      }
+    ],
+    "root_jawi": "مڠوچڤکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把前文提到的祷词、誓言或其他特定话语念出或说出。",
+      "en_definition": "To utter or recite the previously mentioned words, prayer, or oath.",
+      "ms_definition": "Melafazkan atau menyebut doa, sumpah atau kata-kata tertentu yang telah disebut atau diketahui dalam konteks.",
+      "nuances": "-nya 回指所念或所说的内容，不自动表示“对他／她说”。这一义项根据 DBP 的 mengucapkan 加上代词成分解释，马来文定义为改写。[DBP：mengucapkan](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=mengucapkan)",
+      "collocations": [
+        {
+          "ms": "mengucapkannya dengan lantang",
+          "zh": "响亮地把它念出来",
+          "en": "utter it loudly"
+        },
+        {
+          "ms": "mengucapkannya bersama-sama",
+          "zh": "一起把它念出来",
+          "en": "recite it together"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用话语表达前文所指的谢意、祝愿、祝贺或其他情感。",
+      "en_definition": "To voice the previously mentioned thanks, wishes, congratulations, or sentiment.",
+      "ms_definition": "Melahirkan dengan kata-kata rasa terima kasih, harapan, tahniah atau perasaan lain yang dirujuk dalam konteks.",
+      "nuances": "需要能从上下文恢复 -nya 所指的内容。例如先提 ucapan terima kasih，再用 mengucapkannya。若直接引入谢意，通常说 mengucapkan terima kasih。",
+      "collocations": [
+        {
+          "ms": "mengucapkannya dengan ikhlas",
+          "zh": "真诚地表达出来",
+          "en": "say it sincerely"
+        },
+        {
+          "ms": "mengucapkannya dari hati",
+          "zh": "发自内心地说出来",
+          "en": "say it from the heart"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "把前文提到的词、名字或语音单位读出来或发出其读音。",
+      "en_definition": "To pronounce the previously mentioned word, name, or sound.",
+      "ms_definition": "Melisankan atau melafazkan perkataan, nama atau bunyi yang dirujuk dalam konteks.",
+      "nuances": "侧重语音实现；讲解发音时，menyebutnya 也常用。标准读音保留 /tʃ/ 和 /ɲ/，分别对应字母 c 和字母组合 ny。",
+      "collocations": [
+        {
+          "ms": "mengucapkannya dengan betul",
+          "zh": "正确地读出来",
+          "en": "pronounce it correctly"
+        },
+        {
+          "ms": "mengucapkannya dengan jelas",
+          "zh": "清楚地读出来",
+          "en": "pronounce it clearly"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Ucapan terima kasih itu telah disediakan, dan pengerusi akan mengucapkannya pada akhir majlis.",
+      "zh": "致谢词已经准备妥当，主席将在活动结束时宣读。",
+      "en": "The words of thanks have been prepared, and the chair will deliver them at the end of the event."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Terima kasih tu saya dah ucap tadi, tapi dia tak dengar kot.",
+      "ms_standard": "Saya sudah mengucapkannya tadi, iaitu ucapan terima kasih itu, tetapi mungkin dia tidak mendengarnya.",
+      "zh": "谢谢我刚才已经说了，不过他可能没听见。",
+      "en": "I already said thank you, but maybe he didn't hear me.",
+      "spoken_features": [
+        "日常口语常用 ucap，省略正式主动式中的 meN- 和 -kan。",
+        "口语可直接重述 terima kasih，或依赖上下文省略宾语；标准对应句用 -nya 回指。",
+        "dah、tu、tak 分别对应 sudah、itu、tidak。",
+        "句末 kot 表示不确定的推测，相当于“可能吧”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Awak dah ucap terima kasih kat dia ke?",
+          "ms_standard": "Adakah awak sudah mengucapkan terima kasih kepadanya?",
+          "zh": "你已经跟他道谢了吗？",
+          "en": "Have you thanked him yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, saya dah ucap tadi. Dia tak dengar kot.",
+          "ms_standard": "Ya, saya sudah mengucapkannya tadi. Mungkin dia tidak mendengarnya.",
+          "zh": "说了，刚才已经说了。他可能没听见吧。",
+          "en": "Yes, I already did. Maybe he didn't hear me."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The ucap family connects ordinary speech with public speaking, greetings, and ceremonial words: ucapan can name either an utterance or a speech. Mengucapkannya adds a small grammatical pointer, -nya, to refer back to particular words or sentiments. Its meaning therefore grows through productive Malay grammar; it does not require a separate origin story for the entire written form.",
+    "cognitive_memory_aid": "ucap＝说，mengucapkan＝说出，-nya＝前面提过的内容：合起来就是“把它说出来”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "表达谢意、祝贺或慰问时，真诚和时机比句式长短更重要。正式汇报可保留完整形式；朋友聊天中，dah ucap 或 dah cakap 更自然。",
+    "usage_etiquette": "用于祷词、誓言时，应尊重相应仪式。-nya 的指代必须清楚；若要明确接受者，可另加 kepada beliau 等成分，不能把 -nya 一律理解为接受者。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "表达谢意、祝贺或慰问时，真诚和时机比句式长短更重要。正式汇报可保留完整形式；朋友聊天中，dah ucap 或 dah cakap 更自然。",
+    "usage_etiquette": "用于祷词、誓言时，应尊重相应仪式。-nya 的指代必须清楚；若要明确接受者，可另加 kepada beliau 等成分，不能把 -nya 一律理解为接受者。"
+  }
+}

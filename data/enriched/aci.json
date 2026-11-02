@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "aci",
+    "syllables": "a.ci",
+    "ipa": "/a.tʃi/",
+    "jawi": "اچي",
+    "frequency_rank": 13065,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "aci",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + aci → aci",
+    "pattern_note": "原形无词缀。第一义项可派生 mengacikan：meN- + aci + -kan → mengacikan；元音开头的词根使用 meng-，保留词根元音。其他同形义项不自动共享这一派生关系。",
+    "word_family": [
+      {
+        "word": "mengacikan",
+        "affix": "meN-...-kan",
+        "gloss": "承认为有效；确认有效"
+      },
+      {
+        "word": "diacikan",
+        "affix": "di-...-kan",
+        "gloss": "被承认为有效；mengacikan 的规则被动形式"
+      }
+    ],
+    "root_jawi": "اچي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "有效的；算数的；可被接受的，尤其用于游戏、比赛或约定规则之下。",
+      "en_definition": "Valid or accepted as counting, especially under the rules of a game or wager.",
+      "ms_definition": "Diterima, jadi, sah, terutama dalam permainan atau pertaruhan.",
+      "nuances": "tak aci 或 tidak aci 可表示“不算数、无效”；日常争执中也常表达“不公平”，具体含义取决于是在讨论规则效力还是待遇公平。正式法律语境通常采用更明确的 sah 或 tidak sah。义项依据 [DBP《Kamus Dewan》aci I](https://prpm.dbp.gov.my/Cari1?d=42176&keyword=aci+I)。",
+      "collocations": [
+        {
+          "ms": "tidak aci",
+          "zh": "不算数；无效",
+          "en": "does not count; invalid"
+        },
+        {
+          "ms": "mana aci",
+          "zh": "哪能这样；这不公平",
+          "en": "that's not fair"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "轴；供轮子转动或用于传递旋转运动的金属杆。",
+      "en_definition": "A shaft or axle supporting rotation or transmitting rotary motion.",
+      "ms_definition": "Batang logam yang menjadi gandar roda atau digunakan untuk memindahkan gerakan putaran dalam mekanisme.",
+      "nuances": "这是机械领域的同形异义词。aci pacu、aci engkol 与 aci sesondol 分别指不同部件，不能一概译为车轴。释义根据 [DBP 的 aci II 及机械术语](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=aci)改写。",
+      "collocations": [
+        {
+          "ms": "aci engkol",
+          "zh": "曲轴",
+          "en": "crankshaft"
+        },
+        {
+          "ms": "aci pacu",
+          "zh": "传动轴",
+          "en": "drive shaft"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "姐姐；对年龄较长的印度女性的一种称呼，源自泰米尔语称谓。",
+      "en_definition": "An elder-sister term used to address an older Indian woman, borrowed from Tamil.",
+      "ms_definition": "Kakak; panggilan yang berasal daripada bahasa Tamil dan lazimnya ditujukan kepada perempuan India yang lebih tua.",
+      "nuances": "属于称谓义，与“有效”和机械“轴”没有共同的现代语义推导关系。是否适合直接称呼某人，取决于关系及本人习惯。以下为称谓组合示例，未经频率统计。义项及泰米尔语来源见 [DBP 的 aci III](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=aci)。",
+      "collocations": [
+        {
+          "ms": "panggilan aci",
+          "zh": "“姐姐”这一称呼",
+          "en": "the form of address aci"
+        },
+        {
+          "ms": "dipanggil aci",
+          "zh": "被称作“姐姐”",
+          "en": "be addressed as aci"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 车辆维修报告",
+      "ms": "Pemeriksaan mendapati bahawa aci pacu kenderaan itu mengalami kerosakan dan perlu diganti.",
+      "zh": "检查发现，该车辆的传动轴已经损坏，需要更换。",
+      "en": "The inspection found that the vehicle's drive shaft was damaged and needed replacement."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论游戏规则",
+      "ms_spoken": "Tak aci lah, kau dah tengok jawapan aku!",
+      "ms_standard": "Itu tidak adil kerana awak sudah melihat jawapan saya!",
+      "zh": "不公平啦，你都偷看我的答案了！",
+      "en": "That's not fair—you've already looked at my answer!",
+      "spoken_features": [
+        "tak：tidak 的口语形式",
+        "lah：在此加强抗议语气",
+        "kau、aku：熟人之间使用的代词",
+        "dah：sudah 的口语形式",
+        "tak aci：在此表达不公平，而非正式法律上的无效"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tak aci lah, kau dah tengok jawapan aku!",
+          "ms_standard": "Itu tidak adil kerana awak sudah melihat jawapan saya!",
+          "zh": "不公平啦，你都看了我的答案了！",
+          "en": "That's not fair—you've already seen my answer!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Eh, tak sengaja lah. Kita mula semula je.",
+          "ms_standard": "Saya tidak sengaja melihatnya. Mari kita mulakan semula sahaja.",
+          "zh": "哎，我不是故意的啦。我们重新开始就好。",
+          "en": "Hey, I didn't mean to. Let's just start over."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Aci illustrates how one spelling can carry separate lexical histories. Dewan Bahasa dan Pustaka distinguishes its validity sense, its mechanical shaft sense, and a Tamil-derived address term for an older Indian woman. These meanings should be learned separately. The Tamil origin attached to the address term does not establish an origin for either of the other two homonyms. [DBP entries](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=aci).",
+    "cognitive_memory_aid": "读 a-ci，c 发 /tʃ/。分三幅画记：裁判说“算数”、车轮中央有根轴、熟悉的姐姐向你打招呼。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友玩游戏时说 tak aci 很自然；对上司或正式申诉时，说明具体规则及不公平之处更合适。称谓 aci 应遵从对方的称呼习惯。",
+    "usage_etiquette": "机械报告中明确写出轴的种类。不要把游戏中的 aci 当作通用法律术语，也不要仅凭女性的外貌或推测的族群身份便直接称其为 aci。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友玩游戏时说 tak aci 很自然；对上司或正式申诉时，说明具体规则及不公平之处更合适。称谓 aci 应遵从对方的称呼习惯。",
+    "usage_etiquette": "机械报告中明确写出轴的种类。不要把游戏中的 aci 当作通用法律术语，也不要仅凭女性的外貌或推测的族群身份便直接称其为 aci。"
+  }
+}
