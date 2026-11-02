@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "done",
+    "syllables": null,
+    "ipa": "/dʌn/",
+    "jawi": null,
+    "frequency_rank": 9504,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "done",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + done → done（英语整词语码转换）",
+    "pattern_note": "在马来语口语分析中作为英语整词处理，不拆成马来语词缀。英语内部 done 是 do 的不规则过去分词。IPA 给出英语标准读音；输入未提供音节或 Jawi，不据此编造官方马来语拼写。",
+    "word_family": [
+      {
+        "word": "do",
+        "affix": null,
+        "gloss": "做；英语动词原形"
+      },
+      {
+        "word": "did",
+        "affix": null,
+        "gloss": "做了；英语不规则过去式"
+      },
+      {
+        "word": "doing",
+        "affix": "-ing（英语）",
+        "gloss": "做；英语现在分词或动名词形式"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "完成的；处理好的。用于夹杂英语的马来语交流，表示某项工作已经做完。",
+      "en_definition": "Finished or completed; used as an English insertion in informal Malay conversation.",
+      "ms_definition": "Sudah selesai atau siap dilakukan; penggunaan perkataan bahasa Inggeris dalam pertuturan bahasa Melayu tidak formal.",
+      "nuances": "属于英语语码转换，不能依据本输入标为官方标准马来语词条，因此 status 标为 nonstandard。正式马来语依语境使用 selesai、siap 或 telah diselesaikan。这里的马来语释义是编辑说明，并非 DBP 官方释义；所列搭配是口语搭配示例。",
+      "collocations": [
+        {
+          "ms": "dah done",
+          "zh": "已经搞定",
+          "en": "already done"
+        },
+        {
+          "ms": "semua dah done",
+          "zh": "全部都搞定了",
+          "en": "everything’s done"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "好，就这么定了；用于接受提议或确认约定的简短回应。",
+      "en_definition": "An informal response accepting a proposal or confirming an arrangement.",
+      "ms_definition": "Ungkapan persetujuan untuk menerima cadangan atau mengesahkan sesuatu persetujuan; dalam bahasa Melayu baku, boleh digantikan dengan baik atau setuju.",
+      "nuances": "此处借用英语 Done! 的回应功能，按本结构归为 particle。须结合上下文区分“已经完成”和“同意这样安排”，不能一律译作“完成了”。",
+      "collocations": [
+        {
+          "ms": "done, jumpa esok",
+          "zh": "说定了，明天见",
+          "en": "Deal, see you tomorrow"
+        },
+        {
+          "ms": "done, pukul tiga",
+          "zh": "好，就三点",
+          "en": "Agreed, three o’clock"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 正式报告用语说明",
+      "ms": "Dalam laporan rasmi, gunakan perkataan “selesai” bagi menggantikan “done”.",
+      "zh": "正式报告中，应使用 selesai 来替代 done。",
+      "en": "In a formal report, use selesai instead of done."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟悉的同事确认工作进度",
+      "ms_spoken": "Dah done, aku hantar kat kau sekarang.",
+      "ms_standard": "Tugasan itu sudah selesai. Saya akan menghantarnya kepada kamu sekarang.",
+      "zh": "搞定啦，我现在发给你。",
+      "en": "It’s done. I’ll send it over now.",
+      "spoken_features": [
+        "done 是英语插入语，表达完成状态。",
+        "dah 相当于 sudah。",
+        "kat 在此口语中相当于 kepada。",
+        "aku、kau 适合熟悉的同辈，正式交流通常改用 saya 及合适称呼。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Laporan tu dah siap ke? Aku nak semak kejap.",
+          "ms_standard": "Adakah laporan itu sudah siap? Saya hendak menyemaknya sebentar.",
+          "zh": "那份报告做好了吗？我想先看一下。",
+          "en": "Is the report ready? I’d like to give it a quick check."
+        },
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Dah done, aku hantar kat kau sekarang.",
+          "ms_standard": "Laporan itu sudah siap. Saya akan menghantarnya kepada kamu sekarang.",
+          "zh": "搞定啦，我现在发给你。",
+          "en": "It’s done. I’ll send it over now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Done belongs to English, where it is the irregular past participle of do and also describes something completed. Its use inside a Malay message is best understood as code-switching. A short reply can report completion or accept an arrangement, so the surrounding conversation determines whether selesai or setuju is the appropriate Malay equivalent.",
+    "cognitive_memory_aid": "把 done /dʌn/ 和“叮！任务完成”的提示音连起来；拼写虽有 e，结尾不另读一个音节。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉的双语同事之间可用 done 简短回复；向客户、长辈或上级汇报时，补充任务名称通常更周到，例如 Laporan itu telah siap, puan。",
+    "usage_etiquette": "适用于双方都理解的非正式双语交流。正式马来语公文宜使用明确的马来语表达；仅回复 done 也未必能说明完成的是哪一步。"
+  },
+  "sources": [
+    "[Cambridge Dictionary：done 的读音、完成义及接受提议的回应义](https://dictionary.cambridge.org/us/dictionary/english/done?topic=finished-and-over)"
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉的双语同事之间可用 done 简短回复；向客户、长辈或上级汇报时，补充任务名称通常更周到，例如 Laporan itu telah siap, puan。",
+    "usage_etiquette": "适用于双方都理解的非正式双语交流。正式马来语公文宜使用明确的马来语表达；仅回复 done 也未必能说明完成的是哪一步。"
+  }
+}

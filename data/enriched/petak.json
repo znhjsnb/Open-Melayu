@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "petak",
+    "syllables": null,
+    "ipa": "/ˈpetak/",
+    "jawi": "ڤيتق",
+    "frequency_rank": 9464,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "petak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + petak → petak",
+    "pattern_note": "petak 是完整词根，不能拆成 pe- + tak；输入中的 tak 和 تق 是错误截取。常用空间义读 pétak，e 为 /e/，词尾 /k/ 在常见马来西亚发音中实现为 [ʔ]。",
+    "word_family": [
+      {
+        "word": "berpetak",
+        "affix": "ber-",
+        "gloss": "有分格的；呈格状的"
+      },
+      {
+        "word": "memetakkan",
+        "affix": "meN-...-kan",
+        "gloss": "划分成格；划定地块"
+      }
+    ],
+    "root_jawi": "ڤيتق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "由隔板、界线等划分出来的空间单位；隔间、分格或小舱。",
+      "en_definition": "A compartment, small chamber, or bounded section of a larger space.",
+      "ms_definition": "Bahagian ruang yang dipisahkan oleh sekatan atau sempadan.",
+      "nuances": "可指实体隔间，也可指划线标示的区域；不要求一定是正方形。输入只摘录了雅加达地区游戏用语，遗漏了这个常用义。[DBP：petak](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=Petak)",
+      "collocations": [
+        {
+          "ms": "petak simpanan",
+          "zh": "储物格",
+          "en": "storage compartment"
+        },
+        {
+          "ms": "petak tempat letak kereta",
+          "zh": "停车位",
+          "en": "parking bay"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "图表、棋盘或表格中划分出的一个格子。",
+      "en_definition": "An individual cell or square in a grid, board, or diagram.",
+      "ms_definition": "Satu bahagian kecil yang ditandai oleh garisan dalam jadual, papan permainan atau rajah.",
+      "nuances": "强调分格单位；严格表达几何学上的正方形通常用 segi empat sama，不能把所有 petak 都理解为四边等长的图形。",
+      "collocations": [
+        {
+          "ms": "petak kosong",
+          "zh": "空格",
+          "en": "empty cell"
+        },
+        {
+          "ms": "petak catur",
+          "zh": "棋盘格",
+          "en": "chessboard square"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "由田埂或其他边界划定的一块农田或种植地。",
+      "en_definition": "A bounded plot of farmland, especially a section of a paddy field.",
+      "ms_definition": "Bahagian tanah pertanian atau sawah yang mempunyai sempadan tertentu.",
+      "nuances": "常与 sawah、tanaman 搭配；sepetak 表示一块，并不限定实际面积。DBP 另列地区性同形词，涉及儿童游戏、马额白斑和鸟名；它们不能由本义直接推导。",
+      "collocations": [
+        {
+          "ms": "petak sawah",
+          "zh": "稻田地块",
+          "en": "paddy-field plot"
+        },
+        {
+          "ms": "petak tanaman",
+          "zh": "种植地块",
+          "en": "cultivation plot"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "雅加达地区儿童游戏名称中的成分，见 petak umpat、petak umpet 和 petak kadal。",
+      "en_definition": "An element in regional Jakarta names for children's games.",
+      "ms_definition": "Unsur nama permainan kanak-kanak dalam penggunaan daerah Jakarta.",
+      "nuances": "这是输入 DBP 释义实际对应的地区义。petak umpat／umpet 指捉迷藏；petak kadal 是使用竹片的另一种游戏。以下是固定地区搭配，并非马来西亚通用高频表达。",
+      "collocations": [
+        {
+          "ms": "petak umpet",
+          "zh": "捉迷藏",
+          "en": "hide-and-seek"
+        },
+        {
+          "ms": "petak kadal",
+          "zh": "一种使用竹片的儿童游戏",
+          "en": "a children's game played with bamboo slivers"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan menyediakan sepuluh petak tempat letak kereta untuk pelawat.",
+      "zh": "管理方为访客提供十个停车位。",
+      "en": "Management has provided ten parking bays for visitors."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat depan tu ada satu petak kosong lagi, masuk situ je.",
+      "ms_standard": "Di hadapan itu masih ada satu petak tempat letak kereta yang kosong; letakkan kereta di situ sahaja.",
+      "zh": "前面还有一个空车位，就停那里吧。",
+      "en": "There's still an empty bay up ahead. Just park there.",
+      "spoken_features": [
+        "kat 对应 di",
+        "tu 对应 itu",
+        "je 对应 sahaja",
+        "有明确停车语境时，petak 可单独指车位"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah sampai? Kat sini semua petak penuh lah.",
+          "ms_standard": "Adakah kamu sudah sampai? Semua petak tempat letak kereta di sini sudah penuh.",
+          "zh": "你到了吗？我这里车位全满了。",
+          "en": "Are you here yet? All the parking bays here are taken."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Kat belakang ada satu petak kosong, kau masuk situ je.",
+          "ms_standard": "Saya sudah sampai. Di belakang ada satu petak tempat letak kereta yang kosong; kamu boleh meletakkan kereta di situ.",
+          "zh": "到了。后面有个空车位，你停那里就行。",
+          "en": "Yes. There's an empty bay round the back. You can park there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Petak connects several familiar ways of dividing space: a ship's compartment, a bounded rice plot, and a marked parking bay. An early English–Malay vocabulary already records the shipboard meaning. This historical example helps explain its spatial range without assuming that the word originally meant a geometrically exact square. [Historical vocabulary](https://upload.wikimedia.org/wikipedia/commons/7/78/A_vocabulary_of_the_English_and_Malay_languages%3B_%28IA_anr0813.0002.001.umich.edu%29.pdf)",
+    "cognitive_memory_aid": "把 petak 想成“划出一格”：柜子里是一格，田里是一块，停车场里就是一个车位。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性词。提醒别人移车时，可说 Maaf, petak ini dikhaskan untuk pelawat，先以 maaf 缓和语气。",
+    "usage_etiquette": "停车位可能注明访客、保留或无障碍用途，应按标示使用。马来西亚日常说捉迷藏通常用 main sorok-sorok；petak umpet 带明显地区色彩。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性词。提醒别人移车时，可说 Maaf, petak ini dikhaskan untuk pelawat，先以 maaf 缓和语气。",
+    "usage_etiquette": "停车位可能注明访客、保留或无障碍用途，应按标示使用。马来西亚日常说捉迷藏通常用 main sorok-sorok；petak umpet 带明显地区色彩。"
+  }
+}

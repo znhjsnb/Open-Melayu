@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "homo",
+    "syllables": "ho.mo",
+    "ipa": "/ho.mo/",
+    "jawi": null,
+    "frequency_rank": 9512,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "homo",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "homoseksual → homo（口语截短）；Homo（分类学整词）",
+    "pattern_note": "口语 homo 是截短形式，Homo 是拉丁语属名，homo- 则是表示“相同”的外来构词成分，三者须区分。此处 is_root 表示独立词条层级，不表示历史上不可再分析。输入未提供 Jawi，故保留 null。",
+    "word_family": [
+      {
+        "word": "homoseksual",
+        "affix": "homo-",
+        "gloss": "同性恋的；同性恋者；口语 homo 对应的完整形式"
+      },
+      {
+        "word": "homonim",
+        "affix": "homo-",
+        "gloss": "同形同音异义词；与 homo- 共享构词成分，并非口语 homo 的派生词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "同性恋者，口语中尤指男同性恋者；homoseksual 的非正式简称，可能带有贬损意味。",
+      "en_definition": "An informal shortening of homoseksual referring to a gay person, especially a man; potentially derogatory.",
+      "ms_definition": "Bentuk singkat tidak formal bagi homoseksual yang merujuk kepada seseorang, khususnya lelaki, yang tertarik kepada orang sama jantina.",
+      "nuances": "属于口语用法，不应因为本数据结构中的 status 为 official 就视为正式称谓；输入没有提供该独立简称的 DBP 释义。正式写作宜根据语境使用 lelaki gay 或 individu homoseksual。以下搭配展示实际用法，其中的标签式表达并非推荐称呼。",
+      "collocations": [
+        {
+          "ms": "lelaki homo",
+          "zh": "男同性恋者；非正式且可能冒犯",
+          "en": "a gay man; informal and potentially offensive"
+        },
+        {
+          "ms": "dilabel homo",
+          "zh": "被贴上同性恋者的标签",
+          "en": "be labelled gay"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "人属：包括现代人及若干已灭绝近缘人类物种的生物分类属名，规范写作 Homo。",
+      "en_definition": "Homo, the biological genus containing modern humans and several extinct human species.",
+      "ms_definition": "Nama genus yang merangkumi manusia moden serta beberapa spesies manusia yang telah pupus.",
+      "nuances": "这是分类学专名，首字母须大写，排版允许时使用斜体。Homo 是属名，Homo sapiens 是物种学名；它不等于整个人科 Hominidae，也与表示“相同”的希腊语构词成分 homo- 不同。[Natural History Museum](https://www.nhm.ac.uk/discover/modern-humans-homo-sapiens-when-where-how-did-we-evolve.html)",
+      "collocations": [
+        {
+          "ms": "genus Homo",
+          "zh": "人属",
+          "en": "the genus Homo"
+        },
+        {
+          "ms": "Homo sapiens",
+          "zh": "智人",
+          "en": "Homo sapiens; modern humans"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Bahan latihan itu menjelaskan bahawa istilah tidak formal 'homo' boleh menyinggung perasaan apabila digunakan untuk melabel seseorang.",
+      "zh": "该培训材料说明，用非正式称呼“homo”给他人贴标签可能令人感到受冒犯。",
+      "en": "The training material explains that the informal term 'homo' can cause offence when used to label someone."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Jangan panggil dia homo lah, guna nama dia je.",
+      "ms_standard": "Jangan memanggilnya dengan gelaran 'homo'; gunakan namanya sahaja.",
+      "zh": "别叫人家“homo”啦，叫他的名字就好。",
+      "en": "Don't call him 'homo'; just use his name.",
+      "spoken_features": [
+        "lah 在这里加强劝阻语气。",
+        "je 对应 sahaja，表示“就、而已”。",
+        "口语省略 memanggil、menggunakan 中的动词词缀。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jangan panggil dia homo lah, guna nama dia je.",
+          "ms_standard": "Jangan memanggilnya dengan gelaran 'homo'; gunakan namanya sahaja.",
+          "zh": "别叫人家“homo”啦，叫他的名字就好。",
+          "en": "Don't call him 'homo'; just use his name."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okey, aku faham. Lepas ni aku guna nama dia je.",
+          "ms_standard": "Baiklah, saya faham. Selepas ini saya akan menggunakan namanya sahaja.",
+          "zh": "好，我明白了。以后我就叫他的名字。",
+          "en": "Okay, I get it. I'll just use his name from now on."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Three histories meet in this spelling. Greek homos supplies the meaning 'same' in the combining form homo-, recognized in Malay words such as homonim. Latin homo means 'human' and supplies the scientific genus name Homo. Informal homo, referring to sexuality, is instead a shortening of homoseksual. Keeping these paths separate prevents a memorable but false connection. [DBP](https://ekamus.dbp.gov.my/Makna.aspx?kid=227543)",
+    "cognitive_memory_aid": "先看写法：homo- 带连字符记“相同”；Homo 大写记“人属”；口语 homo 则联想到完整词 homoseksual。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "不要用 homo 给别人起外号或推测其性取向。即使说话人没有恶意，这种简称也可能被听成嘲讽；称呼本人时优先使用其姓名或本人接受的称谓。",
+    "usage_etiquette": "语言教学或报道中可以引用该词并说明语域。不要擅自公开他人的性取向。科学语境中的 Homo 属于中性分类名称，与口语标签无关。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "不要用 homo 给别人起外号或推测其性取向。即使说话人没有恶意，这种简称也可能被听成嘲讽；称呼本人时优先使用其姓名或本人接受的称谓。",
+    "usage_etiquette": "语言教学或报道中可以引用该词并说明语域。不要擅自公开他人的性取向。科学语境中的 Homo 属于中性分类名称，与口语标签无关。"
+  }
+}

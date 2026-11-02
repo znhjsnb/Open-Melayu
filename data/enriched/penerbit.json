@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "penerbit",
+    "syllables": "pe.ner.bit",
+    "ipa": "/pə.nər.bit/",
+    "jawi": "ڤنربيت",
+    "frequency_rank": 9459,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "penerbit",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + terbit → penerbit",
+    "pattern_note": "is_root 和 root_word 保留词包标记；实际构词基底为 terbit。前缀 peN- 遇词首 t 时，t 脱落，鼻音实现为 n，形成 penerbit。",
+    "word_family": [
+      {
+        "word": "terbit",
+        "affix": "∅",
+        "gloss": "出现；出版"
+      },
+      {
+        "word": "menerbitkan",
+        "affix": "meN-...-kan",
+        "gloss": "出版；制作发行"
+      },
+      {
+        "word": "terbitan",
+        "affix": "-an",
+        "gloss": "出版物；发行物"
+      },
+      {
+        "word": "penerbitan",
+        "affix": "peN-...-an",
+        "gloss": "出版；出版业务"
+      }
+    ],
+    "root_jawi": "ڤنربيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "出版书籍、杂志等作品的个人、公司或机构；出版者、出版社。",
+      "en_definition": "A person, company, or organization that publishes books, periodicals, or other works.",
+      "ms_definition": "Orang, syarikat atau institusi yang menerbitkan buku, majalah dan bahan penerbitan lain.",
+      "nuances": "侧重承担出版与发行职责的主体，不等同于作者 penulis，也不等同于印刷商 pencetak。可指个人，也可指机构。[DBP 词义依据](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=penerbit)",
+      "collocations": [
+        {
+          "ms": "penerbit buku",
+          "zh": "图书出版者；图书出版社",
+          "en": "book publisher"
+        },
+        {
+          "ms": "penerbit bebas",
+          "zh": "独立出版者；独立出版社",
+          "en": "independent publisher"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "负责统筹电影、戏剧或广播电视节目制作的个人或机构；制片人、节目制作人。",
+      "en_definition": "A person or organization responsible for producing a film, play, or broadcast programme.",
+      "ms_definition": "Orang atau organisasi yang bertanggungjawab mengurus penerbitan filem, drama atau rancangan penyiaran.",
+      "nuances": "影视语境中译为制片人或制作人；导演通常是 pengarah。商品生产者一般称 pengeluar，不能把英语 producer 的所有用法都译成 penerbit。[DBP 英马词义依据](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pengeluar)",
+      "collocations": [
+        {
+          "ms": "penerbit filem",
+          "zh": "电影制片人",
+          "en": "film producer"
+        },
+        {
+          "ms": "penerbit rancangan televisyen",
+          "zh": "电视节目制作人",
+          "en": "television programme producer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak penerbit akan menghubungi penulis setelah penilaian manuskrip selesai.",
+      "zh": "稿件评审完成后，出版方将联系作者。",
+      "en": "The publisher will contact the author once the manuscript review is complete."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Penerbit tu dah balas mesej kau ke?",
+      "ms_standard": "Adakah penerbit itu sudah membalas mesej kamu?",
+      "zh": "那家出版社回你消息了吗？",
+      "en": "Has that publisher replied to your message yet?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式",
+        "dah 对应 sudah，表示已经",
+        "句末 ke 构成口语疑问",
+        "kau 用于关系亲近者之间，对应较中性的 kamu"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Penerbit tu dah balas mesej kau ke?",
+          "ms_standard": "Adakah penerbit itu sudah membalas mesej kamu?",
+          "zh": "那家出版社回你消息了吗？",
+          "en": "Has that publisher replied to your message yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, dia nak tengok manuskrip penuh dulu.",
+          "ms_standard": "Sudah, pihak penerbit mahu melihat manuskrip penuh terlebih dahulu.",
+          "zh": "回了，他们想先看看完整稿件。",
+          "en": "Yes, they want to see the full manuscript first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base terbit connects several vivid Malay meanings: the sun appears, an idea arises, and a book comes into circulation. Penerbit names the agent associated with that emergence. This semantic connection offers a cultural way to understand publishing: a work moves from private creation into public view. It explains the relationship between the words without assigning an undocumented date of origin. [DBP semantic evidence](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=penerbitan+novel)",
+    "cognitive_memory_aid": "把 terbit 想成作品“面世”；peN- 标出促成它面世的人或机构：penerbit＝出版者、制作人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论机构可用 pihak penerbit；直接联系工作人员时，按姓名和身份使用 Encik、Puan 等称呼，比把对方直接叫作 penerbit 更自然。",
+    "usage_etiquette": "出版、书展和媒体工作中都适用。介绍影视人员时应区分 penerbit 与 pengarah，准确尊重对方的实际职务。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论机构可用 pihak penerbit；直接联系工作人员时，按姓名和身份使用 Encik、Puan 等称呼，比把对方直接叫作 penerbit 更自然。",
+    "usage_etiquette": "出版、书展和媒体工作中都适用。介绍影视人员时应区分 penerbit 与 pengarah，准确尊重对方的实际职务。"
+  }
+}

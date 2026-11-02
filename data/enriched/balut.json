@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "balut",
+    "syllables": "ba.lut",
+    "ipa": "/ˈbalut/",
+    "jawi": "بالوت",
+    "frequency_rank": 9491,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "balut",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + balut → balut",
+    "pattern_note": "词根无词缀。派生时，meN- 在 b 前变为 mem-，保留 b：meN- + balut → membalut；peN- 同理形成 pembalut。",
+    "word_family": [
+      {
+        "word": "membalut",
+        "affix": "meN-",
+        "gloss": "包裹；包扎"
+      },
+      {
+        "word": "balutan",
+        "affix": "-an",
+        "gloss": "包裹层；包扎物"
+      },
+      {
+        "word": "pembalut",
+        "affix": "peN-",
+        "gloss": "包装材料；绷带"
+      },
+      {
+        "word": "pembalutan",
+        "affix": "peN-...-an",
+        "gloss": "包裹或包扎的过程"
+      }
+    ],
+    "root_jawi": "بالوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用来包裹、覆盖或包扎物体的材料，如包装叶、包布或伤口敷料。",
+      "en_definition": "Material used to wrap, cover, or bandage something.",
+      "ms_definition": "Barut, pembungkus atau pembebat luka.",
+      "nuances": "指包覆材料；现代日常表达通常使用更明确的 pembalut 或 balutan。balut ketupat 指包裹马来粽的椰叶外壳。释义依据：[DBP PRPM：balut](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=balut)。",
+      "collocations": [
+        {
+          "ms": "balut ketupat",
+          "zh": "马来粽的椰叶外壳",
+          "en": "a woven coconut-leaf casing for ketupat"
+        },
+        {
+          "ms": "kain pembalut",
+          "zh": "包扎用布；绷带布",
+          "en": "bandaging cloth"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用纸、布或其他材料包住物品，或包扎身体部位。",
+      "en_definition": "To wrap something in a covering or bandage a body part.",
+      "ms_definition": "Menutup atau melilit sesuatu dengan bahan pembungkus atau pembebat.",
+      "nuances": "balut 常见于祈使句、口语及某些被动结构；正式主动陈述通常用 membalut。包礼物和包扎伤口均可使用，但具体动作由宾语决定。",
+      "collocations": [
+        {
+          "ms": "balut hadiah",
+          "zh": "包装礼物",
+          "en": "wrap a gift"
+        },
+        {
+          "ms": "balut luka",
+          "zh": "包扎伤口",
+          "en": "dress a wound"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "眼睛或眼睑肿胀的。",
+      "en_definition": "Swollen or puffy, especially around the eyes.",
+      "ms_definition": "Bengkak pada pelupuk mata; bakup.",
+      "nuances": "这是 DBP 另列的同形词 balut II，不是“包裹”义的常用引申。现代日常交流中更宜使用 mata bengkak；本义的搭配偏文学语体，不宜当作高频口语教授。依据：[DBP PRPM：balut II](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=balut)。",
+      "collocations": [
+        {
+          "ms": "mata balut",
+          "zh": "眼睛浮肿",
+          "en": "puffy eyes"
+        },
+        {
+          "ms": "balut kerana menangis",
+          "zh": "因哭泣而肿胀",
+          "en": "puffy from crying"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场包装作业指示",
+      "ms": "Sila balut setiap hadiah dengan kertas yang disediakan sebelum majlis bermula.",
+      "zh": "请在活动开始前，用所提供的纸包装每份礼物。",
+      "en": "Please wrap each gift in the paper provided before the event begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友准备生日礼物",
+      "ms_spoken": "Nak balut hadiah ni kat rumah kau boleh?",
+      "ms_standard": "Bolehkah saya membalut hadiah ini di rumah awak?",
+      "zh": "我可以去你家包这份礼物吗？",
+      "en": "Can I wrap this present at your place?",
+      "spoken_features": [
+        "nak 对应 hendak，表达意愿。",
+        "ni 是 ini 的口语缩略形式。",
+        "kat 对应表示地点的 di。",
+        "kau 适用于关系亲近的朋友。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nak balut hadiah ni kat rumah kau boleh?",
+          "ms_standard": "Bolehkah saya membalut hadiah ini di rumah awak?",
+          "zh": "我可以去你家包这份礼物吗？",
+          "en": "Can I wrap this present at your place?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh je. Aku dah beli kertas pembalut.",
+          "ms_standard": "Boleh. Saya sudah membeli kertas pembalut.",
+          "zh": "当然可以，我已经买好包装纸了。",
+          "en": "Sure. I've already bought some wrapping paper."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The packet does not establish a dated origin for balut. Its cultural associations are nevertheless concrete: DBP records balut ketupat for the coconut-leaf casing used around ketupat. The same wrapping idea connects everyday packaging with bandaging. This provides a useful cultural illustration of the word, without treating the ketupat tradition as proof of its historical origin.",
+    "cognitive_memory_aid": "把 ba.lut 联想到“把物包住”：礼物包起来，伤口包扎好；这是记忆联想，不是词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独说 Balut ini! 语气较直接；对顾客、长辈或同事提出请求时，可说 Boleh tolong balut hadiah ini?。",
+    "usage_etiquette": "用于包装和包扎时语体中性。谈论他人的外观时，直接说 mata balut 可能显得突兀，而且该形容词义并非常用口语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独说 Balut ini! 语气较直接；对顾客、长辈或同事提出请求时，可说 Boleh tolong balut hadiah ini?。",
+    "usage_etiquette": "用于包装和包扎时语体中性。谈论他人的外观时，直接说 mata balut 可能显得突兀，而且该形容词义并非常用口语。"
+  }
+}

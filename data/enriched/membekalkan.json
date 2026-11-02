@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "membekalkan",
+    "syllables": "mem.be.kal.kan",
+    "ipa": "/məm.bə.kal.kan/",
+    "jawi": "ممبکلکن",
+    "frequency_rank": 9490,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bekalkan",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + bekalkan → membekalkan; bekal + -kan → bekalkan",
+    "pattern_note": "按资料包的直接基底 bekalkan 分析，meN- 在 b 前变为 mem-，b 保留；更深层词根为 bekal，整体也可分析为 meN- + bekal + -kan。root_jawi 未获提供，保留 null。",
+    "word_family": [
+      {
+        "word": "bekal",
+        "affix": null,
+        "gloss": "随行物资；储备；准备"
+      },
+      {
+        "word": "bekalan",
+        "affix": "-an",
+        "gloss": "供应；供应物资"
+      },
+      {
+        "word": "pembekal",
+        "affix": "peN-",
+        "gloss": "供应者；供应商"
+      },
+      {
+        "word": "membekali",
+        "affix": "meN-...-i",
+        "gloss": "给某人配备所需物资"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "提供或备妥供使用的物资；供应食物、水、设备等。",
+      "en_definition": "To supply or provide something for use or as provisions.",
+      "ms_definition": "Memberikan bekal, menyediakan sesuatu sebagai bekal.",
+      "nuances": "及物动词，典型结构为 membekalkan sesuatu kepada seseorang：所供应的东西作直接宾语，接受者由 kepada 引出。与 membekali seseorang dengan sesuatu 的宾语安排不同。马来释义依据资料包所引《Kamus Dewan》展开缩写。[DBP：membekalkan 与 membekali](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membekalkan)。",
+      "collocations": [
+        {
+          "ms": "membekalkan air bersih",
+          "zh": "供应清洁用水",
+          "en": "to supply clean water"
+        },
+        {
+          "ms": "membekalkan bahan mentah",
+          "zh": "供应原材料",
+          "en": "to supply raw materials"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "提供作为工作、学习或决策准备的资料、知识、技能等非实物资源。",
+      "en_definition": "To provide information, knowledge, skills, or other non-material resources for use.",
+      "ms_definition": "Menyediakan atau memberikan maklumat, pengetahuan, kemahiran dan sebagainya sebagai persediaan atau untuk kegunaan tertentu.",
+      "nuances": "这是“提供所需准备”的抽象延伸，并非另一种构词。常见于培训、教育及行政语境；membekalkan maklumat 的重点是提供资料供使用，而非单纯告知消息。[DBP：membekalkan 的资料与行政用例](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membekalkan)。",
+      "collocations": [
+        {
+          "ms": "membekalkan maklumat",
+          "zh": "提供资料",
+          "en": "to provide information"
+        },
+        {
+          "ms": "membekalkan pengetahuan",
+          "zh": "提供知识",
+          "en": "to provide knowledge"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：物资供应",
+      "ms": "Syarikat itu membekalkan air minuman kepada semua pusat pemindahan sementara di daerah ini.",
+      "zh": "该公司向本县所有临时疏散中心供应饮用水。",
+      "en": "The company supplies drinking water to all temporary evacuation centres in this district."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：活动物资安排",
+      "ms_spoken": "Kedai tu dah setuju nak membekalkan air untuk acara kita.",
+      "ms_standard": "Kedai itu sudah bersetuju untuk membekalkan air bagi acara kita.",
+      "zh": "那家店已经答应给我们的活动供应饮用水了。",
+      "en": "That shop has agreed to supply water for our event.",
+      "spoken_features": [
+        "tu 对应 itu；dah 对应 sudah。",
+        "nak 在此表达将要或愿意做某事，标准句改用 untuk 衔接。",
+        "交谈也可能使用缩略形式 bekalkan；此处保留目标完整词形。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (活动搭档)",
+          "ms_spoken": "Kedai tu dah setuju nak membekalkan air untuk acara kita.",
+          "ms_standard": "Kedai itu sudah bersetuju untuk membekalkan air bagi acara kita.",
+          "zh": "那家店已经答应给我们的活动供应饮用水了。",
+          "en": "That shop has agreed to supply water for our event."
+        },
+        {
+          "speaker": "Amir (活动搭档)",
+          "ms_spoken": "Baguslah. Minta mereka hantar kat dewan sebelum pukul lapan, ya.",
+          "ms_standard": "Bagus. Minta mereka menghantarnya ke dewan sebelum pukul lapan.",
+          "zh": "那太好了。请他们八点前送到礼堂吧。",
+          "en": "Great. Ask them to deliver it to the hall before eight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base bekal evokes provisions prepared for a journey, such as food and water. Membekalkan turns that preparation into an action: providing what someone will need. Modern usage extends naturally to supplying raw materials and information. This connection between provisions and preparedness explains the word's meanings without requiring an unverified account of its earliest historical origin.",
+    "cognitive_memory_aid": "bekal＝备好的所需物资；加 meN- 和 -kan，就成为“把所需物资供应出去”。记住 b 前用 mem-，b 不消失。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适用于合同、采购、教育及日常安排。请求供应时可说 bolehkah pihak tuan membekalkan…，或用 mohon pihak tuan membekalkan…，使语气符合正式关系。",
+    "usage_etiquette": "供应合同中应另行写明数量、规格、价格和交付时间；membekalkan 本身不表示免费、捐赠或赞助。熟人间可以使用 dah、nak 等口语形式。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适用于合同、采购、教育及日常安排。请求供应时可说 bolehkah pihak tuan membekalkan…，或用 mohon pihak tuan membekalkan…，使语气符合正式关系。",
+    "usage_etiquette": "供应合同中应另行写明数量、规格、价格和交付时间；membekalkan 本身不表示免费、捐赠或赞助。熟人间可以使用 dah、nak 等口语形式。"
+  }
+}

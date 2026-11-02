@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "difahamkan",
+    "syllables": null,
+    "ipa": "/difahamkan/",
+    "jawi": null,
+    "frequency_rank": 9437,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "faham",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + faham + -kan → difahamkan",
+    "pattern_note": "数据包将整词误标为词根，此处按实际构词更正为 faham。di- 表被动，-kan 参与构成动词；词根无音变。circumfix 在此概括前后同时加缀的形式，不表示两者功能不可分。di- 必须连写。",
+    "word_family": [
+      {
+        "word": "faham",
+        "affix": null,
+        "gloss": "明白；理解"
+      },
+      {
+        "word": "memahamkan",
+        "affix": "meN-...-kan",
+        "gloss": "告知使明白；理解或解释"
+      },
+      {
+        "word": "memahami",
+        "affix": "meN-...-i",
+        "gloss": "理解；体谅"
+      },
+      {
+        "word": "kefahaman",
+        "affix": "ke-...-an",
+        "gloss": "理解能力；理解程度"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被告知；据所获信息得知。常用于报道或转述，说明信息来自他人。",
+      "en_definition": "To be informed or given to understand; impersonally, it is understood or learned.",
+      "ms_definition": "Diberitahu atau diberi penjelasan supaya mengetahui dan memahami sesuatu.",
+      "nuances": "是 memahamkan 的被动形式。Saya difahamkan bahawa… 表示“我获悉……”；句首省略获悉者时，Difahamkan bahawa… 常译“据了解……”。表达的是信息来源，并不自动表示消息已经独立核实。参见 [DBP：memahamkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memahamkan)。",
+      "collocations": [
+        {
+          "ms": "difahamkan bahawa",
+          "zh": "据了解……；被告知……",
+          "en": "it is understood that; be informed that"
+        },
+        {
+          "ms": "difahamkan oleh pihak pengurusan",
+          "zh": "获管理层告知",
+          "en": "be informed by management"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被理解为；被解释为具有某种含义或范围。",
+      "en_definition": "To be understood or construed as having a particular meaning or scope.",
+      "ms_definition": "Ditafsirkan atau dimengertikan dengan makna atau cakupan tertentu.",
+      "nuances": "多见于规章、释义和较正式文字，常带 hendaklah 或 sebagai。应结合句法区别于“被告知”。马来西亚国会的议事规则中可见 hendaklah difahamkan termasuk 这一解释范围的用法。参见 [马来西亚国会：议事规则](https://www.parlimen.gov.my/images/webuser/peraturan_mesyuarat/PMDR-bm.pdf)。",
+      "collocations": [
+        {
+          "ms": "hendaklah difahamkan termasuk",
+          "zh": "应理解为包括",
+          "en": "shall be construed as including"
+        },
+        {
+          "ms": "difahamkan sebagai",
+          "zh": "被理解为",
+          "en": "be understood as"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kami difahamkan bahawa kerja pembaikan jambatan itu akan selesai pada akhir bulan ini.",
+      "zh": "我们获悉，该桥梁的维修工程将于本月底完成。",
+      "en": "We have been informed that repairs to the bridge will be completed by the end of this month."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：同事确认会议安排",
+      "ms_spoken": "Aku difahamkan mesyuarat tu dah tukar ke petang.",
+      "ms_standard": "Aku difahamkan bahawa mesyuarat itu telah dijadualkan semula pada waktu petang.",
+      "zh": "我听说那个会议已经改到下午了。",
+      "en": "I've been told the meeting's been moved to the afternoon.",
+      "spoken_features": [
+        "口语中常省略 bahawa。",
+        "tu 对应 itu；dah 对应 sudah 或 telah。",
+        "difahamkan 本身偏正式，也可保留在工作聊天中。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku difahamkan mesyuarat tu dah tukar ke petang. Kau dah tahu ke?",
+          "ms_standard": "Aku difahamkan bahawa mesyuarat itu telah dijadualkan semula pada waktu petang. Adakah kamu sudah mengetahuinya?",
+          "zh": "我听说会议改到下午了。你已经知道了吗？",
+          "en": "I've been told the meeting's been moved to the afternoon. Did you know?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum lah, aku baru nak semak e-mel. Pukul berapa?",
+          "ms_standard": "Belum, aku baru hendak menyemak e-mel. Pada pukul berapakah mesyuarat itu akan diadakan?",
+          "zh": "还不知道呢，我正要看邮件。几点开？",
+          "en": "No, I was just about to check my email. What time is it?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Difahamkan illustrates how Malay grammar turns understanding into reported information. Starting with faham, the ending -kan helps form memahamkan, while passive di- shifts attention to the recipient. In reporting, that recipient can disappear altogether. The resulting expression, difahamkan bahawa, lets a writer introduce information without naming the person who supplied it.",
+    "cognitive_memory_aid": "听见 di-faham-kan，就想“被别人讲明白了”：di- 提醒被动，faham 提醒理解；新闻开头常译“据了解”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Saya difahamkan bahawa… 适合礼貌说明自己收到的信息，也便于请对方确认；语气通常比直接断言更审慎。",
+    "usage_etiquette": "适合新闻、公函和工作沟通。若信息已经正式确认，可按实际情况使用 telah disahkan；若只是转述，应保留 difahamkan 的信息来源色彩。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Saya difahamkan bahawa… 适合礼貌说明自己收到的信息，也便于请对方确认；语气通常比直接断言更审慎。",
+    "usage_etiquette": "适合新闻、公函和工作沟通。若信息已经正式确认，可按实际情况使用 telah disahkan；若只是转述，应保留 difahamkan 的信息来源色彩。"
+  }
+}

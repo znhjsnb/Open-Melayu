@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "newton",
+    "syllables": null,
+    "ipa": "/nju.tən/",
+    "jawi": null,
+    "frequency_rank": 9530,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "newton",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + newton → newton",
+    "pattern_note": "由人名形成的国际计量单位名称，在马来语中作为整词使用，不作马来语词根拆分。下列词族中的 kilo- 和 mili- 是国际单位制十进前缀。输入未提供 Jawi，故保留 null。",
+    "word_family": [
+      {
+        "word": "kilonewton",
+        "affix": "kilo-",
+        "gloss": "千牛顿；1,000 牛顿"
+      },
+      {
+        "word": "milinewton",
+        "affix": "mili-",
+        "gloss": "毫牛顿；0.001 牛顿"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "牛顿，国际单位制中力的导出单位，符号为 N；1 牛顿等于使质量为 1 千克的物体产生每二次方秒 1 米加速度所需的合力。",
+      "en_definition": "The SI derived unit of force, symbol N, equal to one kilogram metre per second squared.",
+      "ms_definition": "Unit terbitan SI bagi daya, bersimbol N; satu newton ialah daya paduan yang menghasilkan pecutan satu meter per saat kuasa dua pada jasad berjisim satu kilogram.",
+      "nuances": "1 N = 1 kg·m·s⁻²。单位名称 newton 通常小写，单位符号 N 必须大写；人名 Newton 则大写。牛顿衡量力，千克衡量质量。此处马来语释义根据 SI 定义编写，并非冒充 DBP 原文。定义依据：[NPL：力的国际单位](https://www.npl.co.uk/resources/q-a/what-is-the-si-unit-of-force)。",
+      "collocations": [
+        {
+          "ms": "daya sebanyak sepuluh newton",
+          "zh": "大小为十牛顿的力",
+          "en": "a force of ten newtons"
+        },
+        {
+          "ms": "diukur dalam newton",
+          "zh": "以牛顿为单位测量",
+          "en": "measured in newtons"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Ujian makmal menunjukkan bahawa daya sebanyak dua puluh newton diperlukan untuk menggerakkan komponen tersebut.",
+      "zh": "实验室测试显示，需要二十牛顿的力才能使该部件移动。",
+      "en": "Laboratory testing showed that a force of twenty newtons was required to move the component."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah kira, daya tu sepuluh newton je.",
+      "ms_standard": "Saya sudah mengira bahawa daya itu hanya sepuluh newton.",
+      "zh": "我算过了，那个力只有十牛顿。",
+      "en": "I've worked it out—the force is only ten newtons.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "tu 对应 itu，je 对应 sahaja。",
+        "即使在随意聊天中，单位名称及数值含义也保持不变。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Aku dah kira, daya tu sepuluh newton je.",
+          "ms_standard": "Saya sudah mengira bahawa daya itu hanya sepuluh newton.",
+          "zh": "我算过了，那个力只有十牛顿。",
+          "en": "I've worked it out—the force is only ten newtons."
+        },
+        {
+          "speaker": "Hafiz (同学)",
+          "ms_spoken": "Okey, tulis 10 N kat jawapan tu.",
+          "ms_standard": "Baiklah, tulis 10 N pada ruang jawapan itu.",
+          "zh": "好，那就在答案栏写 10 N。",
+          "en": "Okay, put 10 N in the answer box."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The unit takes its name from Isaac Newton, whose work on motion underpins classical mechanics. Malay uses the international name as an ordinary unit noun. The connection becomes concrete through F = ma: one newton corresponds to the net force needed to accelerate one kilogram by one metre per second squared. [CENAM: Force](https://www.cenam.gob.mx/FYP/Fuerza/Introduccion.aspx).",
+    "cognitive_memory_aid": "newton＝牛顿：想到牛顿研究运动，再连上 F = ma；1 千克 × 1 米／秒²＝1 牛顿，符号写大写 N。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的科学术语，无特殊敬语或禁忌。向非专业听众解释时，可先说 unit daya，即“力的单位”。",
+    "usage_etiquette": "适用于课堂、实验室和工程报告。规范写作在数值与符号之间留空格，如 10 N；马来语单位名称不因数量变化而加英语复数 -s。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的科学术语，无特殊敬语或禁忌。向非专业听众解释时，可先说 unit daya，即“力的单位”。",
+    "usage_etiquette": "适用于课堂、实验室和工程报告。规范写作在数值与符号之间留空格，如 10 N；马来语单位名称不因数量变化而加英语复数 -s。"
+  }
+}

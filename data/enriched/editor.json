@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "editor",
+    "syllables": null,
+    "ipa": "/e.di.tor/",
+    "jawi": "ايديتور",
+    "frequency_rank": 9495,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "editor",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + editor → editor",
+    "pattern_note": "整词借入；首音节 e 读 /e/，不是 /ə/。不可把词尾 -or 当作马来语能产后缀。",
+    "word_family": [
+      {
+        "word": "subeditor",
+        "affix": "sub-（借入前缀）",
+        "gloss": "助理编辑"
+      },
+      {
+        "word": "editorial",
+        "affix": "-ial（借入词内部构形）",
+        "gloss": "编辑工作的；社论"
+      }
+    ],
+    "root_jawi": "ايديتور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "编辑；负责整理、修改并准备出版稿件的人，也可指负责刊物或栏目内容的编辑。",
+      "en_definition": "A person who selects, revises, and prepares material for publication.",
+      "ms_definition": "Orang yang memperkemas dan menyediakan karangan, makalah atau buku untuk diterbitkan; penyunting atau pengedit.",
+      "nuances": "核心是出版前的内容处理，职责可包括选稿、结构调整和语言修订；不等同于作者，也不限于校对错字。editor kopi 特指处理文字准确性及体例一致性的编辑。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=editor)",
+      "collocations": [
+        {
+          "ms": "ketua editor",
+          "zh": "主编",
+          "en": "editor-in-chief"
+        },
+        {
+          "ms": "editor kopi",
+          "zh": "文字编辑",
+          "en": "copy editor"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "编辑器；用于输入、检查和修改文本、代码或其他内容的计算机程序。",
+      "en_definition": "A computer program used to create, inspect, or modify text, code, or other content.",
+      "ms_definition": "Atur cara komputer yang membolehkan pengguna memasukkan, menyemak dan mengubah kandungan seperti teks atau kod.",
+      "nuances": "属于计算机语境，通常通过 editor teks、editor kod 等限定语与职业义区分。DBP 的计算机词典亦使用 penyunting。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=editor)",
+      "collocations": [
+        {
+          "ms": "editor teks",
+          "zh": "文本编辑器",
+          "en": "text editor"
+        },
+        {
+          "ms": "editor kod",
+          "zh": "代码编辑器",
+          "en": "code editor"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Editor akan menyemak ketepatan fakta dan keselarasan istilah sebelum laporan itu diterbitkan.",
+      "zh": "编辑将在报告发布前核查事实的准确性和术语的一致性。",
+      "en": "The editor will check the facts and ensure consistent terminology before the report is published."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Editor dah semak artikel tu, tinggal betulkan tajuk je.",
+      "ms_standard": "Editor sudah menyemak artikel itu; hanya tajuknya yang masih perlu dibetulkan.",
+      "zh": "编辑已经看过那篇文章了，只剩标题要改。",
+      "en": "The editor has checked the article; only the headline needs fixing.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "tu 对应 itu，je 对应 sahaja。",
+        "口语 semak 在标准句中恢复为 menyemak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Editor dah bagi komen kat artikel kau ke?",
+          "ms_standard": "Adakah editor sudah memberikan ulasan tentang artikel awak?",
+          "zh": "编辑已经给你的文章提意见了吗？",
+          "en": "Has the editor given you feedback on your article yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, dia nak aku pendekkan bahagian akhir je.",
+          "ms_standard": "Sudah. Dia mahu saya memendekkan bahagian akhir sahaja.",
+          "zh": "给了，他就让我把最后一部分缩短一点。",
+          "en": "Yes, they just want me to shorten the final section."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay editor belongs to the international vocabulary of publishing. Its deeper Latin ancestor, editor, referred to someone who brought something forth or published it. That image still suits the modern role: an editor helps bring a writer's work before readers. Malay also uses penyunting for this work. [University of Chicago Press](https://press.uchicago.edu/dam/ucp/books/pdf/course_intro/978-0-226-29997-6_course_intro.pdf)",
+    "cognitive_memory_aid": "把 editor 和熟悉的 edit 连起来：把稿子 edit 好、送到读者面前的人，就是 editor；马来语按 e-di-tor 三拍读。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "职业名称本身中性。初次联系编辑时，可用 Tuan、Puan 或对方惯用的职衔和姓名；不要因认识这个职业词就直接用 kau 称呼对方。",
+    "usage_etiquette": "适用于出版、新闻、学术及数字内容工作。提出修改意见时宜针对稿件，例如 mencadangkan pindaan，避免把编辑意见说成人身评价。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "职业名称本身中性。初次联系编辑时，可用 Tuan、Puan 或对方惯用的职衔和姓名；不要因认识这个职业词就直接用 kau 称呼对方。",
+    "usage_etiquette": "适用于出版、新闻、学术及数字内容工作。提出修改意见时宜针对稿件，例如 mencadangkan pindaan，避免把编辑意见说成人身评价。"
+  }
+}
