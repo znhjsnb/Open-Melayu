@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "network",
+    "syllables": null,
+    "ipa": "/ˈnetwɜːk/",
+    "jawi": null,
+    "frequency_rank": 12071,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "network",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + network → network",
+    "pattern_note": "在马来语处理层面按英语整词记忆；英语内部为 net + work 的复合词，不是马来语词缀结构。IPA 采用标准英式读音。status 按指定词库状态填写，不代表该英语拼写已获 DBP 认定为规范马来语词头。",
+    "word_family": [
+      {
+        "word": "networking",
+        "affix": "英语 -ing",
+        "gloss": "建立人脉；联网活动"
+      },
+      {
+        "word": "networked",
+        "affix": "英语 -ed",
+        "gloss": "已联网的；已连接成网络的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "由彼此连接的设备、线路、地点或机构组成的网络或系统。",
+      "en_definition": "A system of interconnected devices, routes, locations or organizations.",
+      "ms_definition": "Rangkaian peranti, laluan, tempat atau organisasi yang saling berhubung.",
+      "nuances": "DBP 英马词典将英语 network 对译为 rangkaian。计算机、通信、道路与广播等语境均须结合具体对象理解；口语 network tak ada 有时指没有通信信号或连接，但并不精确区分故障原因。[DBP：network](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=network)",
+      "collocations": [
+        {
+          "ms": "network komputer",
+          "zh": "计算机网络",
+          "en": "a computer network"
+        },
+        {
+          "ms": "network telefon",
+          "zh": "电话通信网络",
+          "en": "a telephone network"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "能够相互交流信息、提供支持或开展合作的人际关系网。",
+      "en_definition": "A group of personal or professional contacts who exchange information, support or opportunities.",
+      "ms_definition": "Jaringan hubungan peribadi atau profesional untuk bertukar maklumat, memberikan sokongan atau bekerjasama.",
+      "nuances": "规范马来语可用 jaringan hubungan、jaringan profesional 或 rangkaian kenalan。这里强调联系与合作，不自动含有靠关系谋取不当利益的意思。[Collins：network](https://www.collinsdictionary.com/us/dictionary/english/network)",
+      "collocations": [
+        {
+          "ms": "network perniagaan",
+          "zh": "商业人脉网",
+          "en": "a business network"
+        },
+        {
+          "ms": "network profesional",
+          "zh": "职业关系网",
+          "en": "a professional network"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "主动结识并维系职业或商业联系人，以交流信息和寻找合作机会。",
+      "en_definition": "To establish and maintain professional contacts for exchanging information or finding opportunities.",
+      "ms_definition": "Membina dan mengekalkan hubungan profesional untuk bertukar maklumat atau mendapatkan peluang kerjasama.",
+      "nuances": "这是英语动词义；马来语口语中也常借用 networking 表示相关活动。正式表达宜用 membina jaringan profesional。英语 network 另可表示把设备连接成网络，不能将所有动词用法都理解为交际。[Collins：network](https://www.collinsdictionary.com/us/dictionary/english/network)",
+      "collocations": [
+        {
+          "ms": "network dengan pelanggan",
+          "zh": "与客户建立联系",
+          "en": "network with clients"
+        },
+        {
+          "ms": "network dengan usahawan",
+          "zh": "与创业者建立联系",
+          "en": "network with entrepreneurs"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：技术术语说明",
+      "ms": "Dalam laporan ini, istilah bahasa Inggeris 'network' diterjemahkan sebagai 'rangkaian' dan merujuk kepada sistem komputer yang saling berhubung.",
+      "zh": "本报告将英语 network 译为 rangkaian，指彼此连接的计算机系统。",
+      "en": "In this report, the English term 'network' is translated as 'rangkaian' and refers to an interconnected computer system."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：连接故障",
+      "ms_spoken": "Network kat pejabat ni tak stabil lah.",
+      "ms_standard": "Sambungan rangkaian di pejabat ini tidak stabil.",
+      "zh": "办公室这边的网络不太稳定啊。",
+      "en": "The network connection at the office is unstable.",
+      "spoken_features": [
+        "network 为英语语码转换",
+        "kat 对应 di",
+        "ni 对应 ini",
+        "tak 对应 tidak",
+        "lah 表达轻微抱怨"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Network kat pejabat ni tak stabil lah. Fail tu tak lepas hantar.",
+          "ms_standard": "Sambungan rangkaian di pejabat ini tidak stabil. Fail itu tidak berjaya dihantar.",
+          "zh": "办公室这边网络不稳定，文件发不出去。",
+          "en": "The office network is unstable. The file won't send."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aku pun sama. Nak guna hotspot telefon je dulu.",
+          "ms_standard": "Saya juga mengalami masalah yang sama. Saya akan menggunakan tempat liputan mudah alih telefon buat sementara waktu.",
+          "zh": "我这边也一样。我先用手机热点吧。",
+          "en": "Same here. I'll use my phone's hotspot for now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English network combines net and work, preserving the image of an interconnected structure. Its meanings encompass physical systems and groups of people, making the same image useful in transport, communications and professional life. Malay expresses the central connection through rangkaian; DBP explicitly uses this equivalent when explaining how foreign terminology can be translated. [Collins word history](https://www.collinsdictionary.com/us/dictionary/english/network), [DBP terminology guide](https://eseminar.dbp.gov.my/dokumen/umum_istilah.pdf)",
+    "cognitive_memory_aid": "net 是“网”，work 联想“运作”：设备连接起来运作是网络，人连接起来合作是人脉。马来语核心对应词记 rangkaian。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "办公室与技术聊天中混用 network 容易理解；正式汇报和公共说明使用 rangkaian，并明确是网络设备、连接还是人际关系。",
+    "usage_etiquette": "建立人脉宜强调交流与互惠。对初次认识的人，应先介绍自己和来意，再询问对方是否愿意交换联系方式。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "办公室与技术聊天中混用 network 容易理解；正式汇报和公共说明使用 rangkaian，并明确是网络设备、连接还是人际关系。",
+    "usage_etiquette": "建立人脉宜强调交流与互惠。对初次认识的人，应先介绍自己和来意，再询问对方是否愿意交换联系方式。"
+  }
+}

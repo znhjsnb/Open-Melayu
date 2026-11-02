@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "diamkan",
+    "syllables": null,
+    "ipa": "/di.am.kan/",
+    "jawi": "ديام",
+    "frequency_rank": 12138,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "diam",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "diam + -kan → diamkan；主动陈述式：meN- + diam + -kan → mendiamkan",
+    "pattern_note": "直接添加 -kan，词基不变。diamkan 用于祈使句及某些被动结构；普通主动陈述句通常用 mendiamkan。输入 Jawi ديام 对应词根 diam，并非完整词形 diamkan。",
+    "word_family": [
+      {
+        "word": "mendiamkan",
+        "affix": "meN-...-kan",
+        "gloss": "使安静；搁置不理"
+      },
+      {
+        "word": "terdiam",
+        "affix": "ter-",
+        "gloss": "突然沉默；停止出声"
+      },
+      {
+        "word": "pendiam",
+        "affix": "peN-",
+        "gloss": "寡言的人；寡言的"
+      }
+    ],
+    "root_jawi": "ديام"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "使某人或某物安静下来；使停止说话、哭闹或发声。",
+      "en_definition": "To quiet someone or something; to make them stop speaking, crying, or making noise.",
+      "ms_definition": "Menjadikan seseorang atau sesuatu senyap atau tidak bersuara.",
+      "nuances": "及物用法，通常带宾语。diamkan anak 是“让孩子安静”，不能直接当作对孩子说“安静”的完整对应语。词义依据 [DBP：diam](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=diam)，马来语释义为完整转述。",
+      "collocations": [
+        {
+          "ms": "diamkan anak yang menangis",
+          "zh": "安抚哭泣的孩子，使其安静",
+          "en": "quiet a crying child"
+        },
+        {
+          "ms": "diamkan diri",
+          "zh": "保持沉默",
+          "en": "keep oneself quiet"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "使暂时停止活动或保持不动。",
+      "en_definition": "To keep something still or temporarily stop its movement.",
+      "ms_definition": "Menjadikan sesuatu tidak bergerak buat sementara waktu.",
+      "nuances": "强调动作停止，使用频率低于“使安静”和“置之不理”。具体操作指令中，hentikan 或 jangan gerakkan 往往更明确。",
+      "collocations": [
+        {
+          "ms": "diamkan tangan",
+          "zh": "让手保持不动",
+          "en": "keep one's hands still"
+        },
+        {
+          "ms": "diamkan seketika",
+          "zh": "使暂时静止",
+          "en": "keep still for a moment"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "对某事不予理会、不采取行动，或压下不予声张。",
+      "en_definition": "To leave a matter unaddressed or keep it from being publicized.",
+      "ms_definition": "Tidak menghiraukan sesuatu perkara, tidak bertindak terhadapnya, atau tidak menghebohkannya.",
+      "nuances": "可能是暂缓处理，也可能暗示漠视或隐瞒，须由上下文判断。jangan diamkan 通常要求提出、处理或回应问题。",
+      "collocations": [
+        {
+          "ms": "diamkan perkara itu",
+          "zh": "把那件事搁置不理或压下不提",
+          "en": "leave that matter unaddressed"
+        },
+        {
+          "ms": "jangan diamkan masalah ini",
+          "zh": "别对这个问题置之不理",
+          "en": "do not ignore this problem"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 投诉处理",
+      "ms": "Aduan itu tidak boleh kita diamkan kerana melibatkan keselamatan pekerja.",
+      "zh": "这项投诉涉及员工安全，我们不能置之不理。",
+      "en": "We cannot leave that complaint unaddressed because it concerns employee safety."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论问题",
+      "ms_spoken": "Jangan diamkan benda ni, nanti jadi masalah besar pulak.",
+      "ms_standard": "Jangan diamkan perkara ini kerana perkara ini mungkin menjadi masalah besar nanti.",
+      "zh": "这事别不管啊，等下闹大就麻烦了。",
+      "en": "Don't ignore this. It could turn into a big problem.",
+      "spoken_features": [
+        "benda ni 是 perkara ini 的口语表达。",
+        "pulak 是 pula 的口语变体，带有提醒或担忧语气。",
+        "省略连接词，直接用 nanti 引出可能的后果。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Jangan diamkan benda ni. Aku dah beritahu penyelia semalam.",
+          "ms_standard": "Jangan diamkan perkara ini. Saya sudah memberitahu penyelia semalam.",
+          "zh": "这事别不管。我昨天已经告诉主管了。",
+          "en": "Don't let this slide. I told the supervisor yesterday."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Betul. Kalau tak ada jawapan, kita tanya lagi lah.",
+          "ms_standard": "Betul. Jika tiada jawapan, kita perlu bertanya sekali lagi.",
+          "zh": "对。要是还没回复，我们就再问一次吧。",
+          "en": "Right. If we don't hear back, let's follow up."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diamkan belongs to the Malay word family built on diam, meaning silent or still. The suffix -kan makes that state something caused or maintained. Malay proverbial imagery also connects silence with concealed thought and knowledge. This offers a cultural contrast: quietness may suggest reflection, while leaving a problem unaddressed may suggest deliberate avoidance.",
+    "cognitive_memory_aid": "diam 是“静”，-kan 是“使”：diamkan＝使安静；把事情也“静”在那里，就可能是搁置不理。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Diam! 容易显得命令或斥责。请求他人降低音量时，可说 Boleh perlahankan suara sedikit?；安抚孩子时，用 pujuk 通常更温和。",
+    "usage_etiquette": "讨论投诉时，jangan diamkan perkara ini 表明应当处理问题；指责某人 sengaja diamkan perkara itu，则可能暗示其故意隐瞒，应有具体依据。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Diam! 容易显得命令或斥责。请求他人降低音量时，可说 Boleh perlahankan suara sedikit?；安抚孩子时，用 pujuk 通常更温和。",
+    "usage_etiquette": "讨论投诉时，jangan diamkan perkara ini 表明应当处理问题；指责某人 sengaja diamkan perkara itu，则可能暗示其故意隐瞒，应有具体依据。"
+  }
+}

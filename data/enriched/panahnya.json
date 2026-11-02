@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "panahnya",
+    "syllables": null,
+    "ipa": "/panahɲa/",
+    "jawi": "ڤانهڽ",
+    "frequency_rank": 12092,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "panah",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "panah + -nya → panahnya",
+    "pattern_note": "-nya 在此为附着于名词的第三人称领属或回指成分，读作 /ɲa/，词根不变。音节可分析为 pa.nah.nya；输入包未提供音节，故该字段保留 null。输入包的 ڤانه 仅为词根拼写，完整形式补为 ڤانهڽ。",
+    "word_family": [
+      {
+        "word": "memanah",
+        "affix": "meN-",
+        "gloss": "射箭"
+      },
+      {
+        "word": "pemanah",
+        "affix": "peN-",
+        "gloss": "弓箭手；射箭运动员"
+      },
+      {
+        "word": "panahan",
+        "affix": "-an",
+        "gloss": "射箭动作或其结果"
+      }
+    ],
+    "root_jawi": "ڤانه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他、她或它的箭；上下文已经提到的那支箭。",
+      "en_definition": "His, her, or its arrow; the arrow referred to in context.",
+      "ms_definition": "Anak panah miliknya atau anak panah yang telah disebut dalam konteks.",
+      "nuances": "-nya 不区分性别，也不自行标明单复数。此义中的 panah 指射出的箭；现代具体表达常使用更明确的 anak panahnya。",
+      "collocations": [
+        {
+          "ms": "melepaskan panahnya",
+          "zh": "射出他或她的箭",
+          "en": "to release his or her arrow"
+        },
+        {
+          "ms": "panahnya mengenai sasaran",
+          "zh": "他或她的箭射中目标",
+          "en": "his or her arrow hits the target"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "他、她或它的弓；上下文已经提到的那张弓。",
+      "en_definition": "His, her, or its bow; the bow referred to in context.",
+      "ms_definition": "Ibu panah atau busur miliknya, atau busur yang telah disebut dalam konteks.",
+      "nuances": "词根 panah 在词典中也可指弓，须由动作和上下文判断。现代器材说明中常用 busurnya 避免与箭混淆。词根两义见 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=370084&keyword=panah)。",
+      "collocations": [
+        {
+          "ms": "menarik tali panahnya",
+          "zh": "拉开他或她的弓弦",
+          "en": "to draw the string of his or her bow"
+        },
+        {
+          "ms": "melenturkan panahnya",
+          "zh": "使他或她的弓弯曲",
+          "en": "to bend his or her bow"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "体育新闻 / 射箭比赛报道",
+      "ms": "Atlet itu melepaskan panahnya selepas memastikan bahawa kawasan sasaran selamat.",
+      "zh": "那名运动员确认靶区安全后，射出了箭。",
+      "en": "The athlete released the arrow after making sure the target area was clear."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友观看射箭练习",
+      "ms_spoken": "Tengok tu, panahnya dah kena tengah sasaran!",
+      "ms_standard": "Lihatlah, anak panahnya sudah mengenai bahagian tengah sasaran!",
+      "zh": "你看，他的箭已经射中靶心了！",
+      "en": "Look, his arrow hit the center of the target!",
+      "spoken_features": [
+        "tengok 是日常口语中常用的“看”",
+        "tu 是 itu 的口语缩略形式",
+        "dah 是 sudah 的口语缩略形式",
+        "kena 在此表示击中",
+        "对话已知射箭者为男性，因此译作“他”；-nya 本身不标示性别"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tengok tu, panahnya dah kena tengah sasaran!",
+          "ms_standard": "Lihatlah, anak panahnya sudah mengenai bahagian tengah sasaran!",
+          "zh": "你看，他的箭已经射中靶心了！",
+          "en": "Look, his arrow hit the center of the target!"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Wah, tepat betul! Dia baru belajar je, kan?",
+          "ms_standard": "Wah, sungguh tepat! Dia baru sahaja belajar, bukan?",
+          "zh": "哇，真准！他才刚学没多久，对吧？",
+          "en": "Wow, that was spot on! He's only just started learning, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionary usage preserves panah for both the bow and its projectile, distinguished explicitly as ibu panah and anak panah. Adding -nya brings this older vocabulary into an ordinary possessive expression. The resulting word therefore needs context: pulling its string suggests a bow, while flying toward a target suggests an arrow.",
+    "cognitive_memory_aid": "panah 是弓或箭，-nya 是“他／她／它的”；看见“飞向靶子”想箭，看见“拉弦”想弓。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-nya 不是敬称；正式场合若所指不清，可直接写运动员姓名或 anak panah atlet tersebut。",
+    "usage_etiquette": "适合射箭、传统故事和相关描写。说明器材时用 busur 与 anak panah 区分弓和箭；不要把 -nya 固定理解成男性所有。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-nya 不是敬称；正式场合若所指不清，可直接写运动员姓名或 anak panah atlet tersebut。",
+    "usage_etiquette": "适合射箭、传统故事和相关描写。说明器材时用 busur 与 anak panah 区分弓和箭；不要把 -nya 固定理解成男性所有。"
+  }
+}

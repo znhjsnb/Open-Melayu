@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "maafkanlah",
+    "syllables": null,
+    "ipa": "/ma.ʕaf.kan.lah/",
+    "jawi": "معافکنله",
+    "frequency_rank": 12098,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "maafkan",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "maafkan + -lah → maafkanlah；完整构造：maaf + -kan + -lah → maafkanlah",
+    "pattern_note": "保留资料包的直接基词 maafkan；更基础的词根是 maaf。-lah 是附着于词后的语气小品词，书写时连写，不引起词干音变；日常发音中的 ʕ 常弱化或实现为声门音。",
+    "word_family": [
+      {
+        "word": "memaafkan",
+        "affix": "meN-…-kan",
+        "gloss": "原谅；宽恕"
+      },
+      {
+        "word": "pemaaf",
+        "affix": "peN-",
+        "gloss": "宽宏大量的人；宽容的"
+      },
+      {
+        "word": "kemaafan",
+        "affix": "ke-…-an",
+        "gloss": "宽恕；谅解"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "请原谅；请宽恕。用于请求对方谅解自己或他人的过失。",
+      "en_definition": "Please forgive or pardon someone or an offence.",
+      "ms_definition": "Ampunilah.",
+      "nuances": "这是祈使或请求形式，不表示陈述性的“已经原谅”。-lah 可加强恳求，也可缓和指令，具体效果取决于语调；不能保证整句话必然客气。资料包未提供音节字段，因此保留 null。释义依据 [PRPM：maaf](https://prpm.dbp.gov.my/Cari1?d=8652&keyword=maaf)。",
+      "collocations": [
+        {
+          "ms": "maafkanlah saya",
+          "zh": "请原谅我",
+          "en": "please forgive me"
+        },
+        {
+          "ms": "maafkanlah kesalahannya",
+          "zh": "请原谅他的过错",
+          "en": "please forgive their mistake"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场邮件 / 正式致歉",
+      "ms": "Maafkanlah kelewatan saya menyerahkan laporan tersebut.",
+      "zh": "请原谅我迟交了该报告。",
+      "en": "Please forgive my delay in submitting the report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间为失约道歉",
+      "ms_spoken": "Maafkanlah aku, tadi aku tertidur, sebab tu tak balas mesej.",
+      "ms_standard": "Maafkanlah saya kerana saya tertidur tadi dan tidak membalas mesej.",
+      "zh": "原谅我啦，刚才睡着了，所以没回消息。",
+      "en": "Forgive me—I fell asleep earlier and didn't reply.",
+      "spoken_features": [
+        "aku 用于关系亲近的同辈之间",
+        "tu 是 itu 的口语缩略形式",
+        "tak 对应标准语 tidak",
+        "-lah 表达恳求，语气取决于说话方式"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Maafkanlah aku, Farah. Aku dah janji nak datang, tapi tertidur pula.",
+          "ms_standard": "Maafkanlah saya, Farah. Saya sudah berjanji untuk datang, tetapi saya tertidur.",
+          "zh": "Farah，原谅我啦。我都答应要来了，结果却睡着了。",
+          "en": "Forgive me, Farah. I promised I'd come, but I ended up falling asleep."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tak apa, aku faham. Lain kali bagitahu awal sikit, ya.",
+          "ms_standard": "Tidak mengapa, saya faham. Pada masa akan datang, beritahulah saya lebih awal.",
+          "zh": "没事，我理解。下次早点告诉我啊。",
+          "en": "It's okay, I understand. Just let me know earlier next time."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Maaf belongs to the Arabic-derived vocabulary of pardon used in Malay. The longer form shows how borrowed vocabulary participates in Malay grammar: maaf combines with -kan, then the particle -lah. Its cultural resonance is especially clear in requests for forgiveness, including festive greetings, where familiar words carry both personal feeling and social responsibility.",
+    "cognitive_memory_aid": "分三步记：maaf＝宽恕，maafkan＝原谅，maafkanlah＝“请原谅吧”。末尾 lah 像把请求轻轻递给对方。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对长辈、客户或上司，使用 saya，并明确承认自己的过失。正式机构致歉常用 Kami memohon maaf；maafkanlah 更带个人恳求色彩。",
+    "usage_etiquette": "适合真诚请求谅解。替别人请求宽恕时，应避免淡化受影响者的感受，也不宜用命令式语调催促对方原谅。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对长辈、客户或上司，使用 saya，并明确承认自己的过失。正式机构致歉常用 Kami memohon maaf；maafkanlah 更带个人恳求色彩。",
+    "usage_etiquette": "适合真诚请求谅解。替别人请求宽恕时，应避免淡化受影响者的感受，也不宜用命令式语调催促对方原谅。"
+  }
+}

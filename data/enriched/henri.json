@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "henri",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 12113,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "henri",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Henri → Henri（按人名解释时，作为完整专名记忆）",
+    "pattern_note": "未确认输入的具体指称，不作马来语词缀拆分。若指人名，规范书写为 Henri；不能把开头 hen- 当作马来语前缀。音节、音标及爪夷文保留 null，避免擅定姓名读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "条件性解释：Henri 是男性名字，常见于法语姓名，中文通常音译为“亨利”；仅凭输入无法确定此处是否确指人名。",
+      "en_definition": "Provisionally, the masculine given name Henri; the intended referent of the supplied token is undetermined.",
+      "ms_definition": "Jika merujuk kepada nama orang, Henri ialah nama khas lelaki; rujukan sebenar bentuk yang diberikan belum dapat dipastikan.",
+      "nuances": "这是专名的条件性解释，不是经确认的 DBP 马来语普通词释义。法语人名 Henri 的来源有资料支持，但不能据此断定输入的 henri 必然是该人名。以下搭配是人名进入马来语句子的常见结构，并非已验证的高频词汇搭配；例句人物均为示例。[法国里昂市立图书馆：Henri 人名说明](https://www.guichetdusavoir.org/question/voir/137872)",
+      "collocations": [
+        {
+          "ms": "Encik Henri",
+          "zh": "亨利先生",
+          "en": "Mr Henri"
+        },
+        {
+          "ms": "bernama Henri",
+          "zh": "名叫亨利",
+          "en": "named Henri"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：按人名解释的示例",
+      "ms": "Encik Henri akan membentangkan laporan tersebut dalam mesyuarat esok.",
+      "zh": "亨利先生将在明天的会议上汇报该报告。",
+      "en": "Mr Henri will present the report at tomorrow’s meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：按人名解释的示例",
+      "ms_spoken": "Henri dah sampai ke? Aku tunggu kat lobi ni.",
+      "ms_standard": "Adakah Henri sudah sampai? Saya sedang menunggu di lobi.",
+      "zh": "亨利到了吗？我在大堂等着呢。",
+      "en": "Has Henri arrived yet? I’m waiting in the lobby.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "ke 是口语疑问标记。",
+        "kat 对应 di。",
+        "句末 ni 指向说话人当前所在的位置或情境。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Henri dah sampai ke? Aku tunggu kat lobi ni.",
+          "ms_standard": "Adakah Henri sudah sampai? Saya sedang menunggu di lobi.",
+          "zh": "亨利到了吗？我在大堂等着呢。",
+          "en": "Has Henri arrived yet? I’m waiting in the lobby."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, dia kat kaunter je. Aku nak panggil dia sekarang.",
+          "ms_standard": "Ya, dia sudah sampai dan berada di kaunter. Saya akan memanggilnya sekarang.",
+          "zh": "到了，他就在柜台那边。我现在叫他。",
+          "en": "Yes, he’s at the counter. I’ll call him over now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "If the token denotes the French given name Henri, its history belongs to European naming traditions. The Lyon municipal library traces it to Germanic elements associated with home and rulership. That history explains a possible personal name, but it does not establish the identity of this lowercase corpus token or a Malay common-word meaning. [Library explanation](https://www.guichetdusavoir.org/question/voir/137872).",
+    "cognitive_memory_aid": "若上下文是人名，把 Henri 整体对应“亨利”，并记住姓名首字母大写；具体读音以本人使用的读法为准。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "初次或正式接触时可按身份称 Encik Henri、Dr. Henri 等；称谓须符合本人身份与偏好，姓名读音应尊重本人。",
+    "usage_etiquette": "仅在上下文确认人名时采用此解释。正式文件保留姓名的正确拼写和大小写；不能根据名字推断国籍、族群或宗教。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "初次或正式接触时可按身份称 Encik Henri、Dr. Henri 等；称谓须符合本人身份与偏好，姓名读音应尊重本人。",
+    "usage_etiquette": "仅在上下文确认人名时采用此解释。正式文件保留姓名的正确拼写和大小写；不能根据名字推断国籍、族群或宗教。"
+  }
+}

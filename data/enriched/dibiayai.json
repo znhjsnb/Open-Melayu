@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "dibiayai",
+    "syllables": "di.bia.ya.i",
+    "ipa": "/di.bi.a.ja.i/",
+    "jawi": null,
+    "frequency_rank": 12084,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "biaya",
+    "affix": "di-...-i",
+    "affix_type": "circumfix",
+    "formula": "di- + biaya + -i → dibiayai",
+    "pattern_note": "di- 标记被动，词根 biaya 保留，末尾 -i 为后缀。主动式为 membiayai，其中 b 不脱落。输入包的词根判断已修正；音节参照 DBP 的 mem.bia.ya.i 补全，词头 Jawi 保留原包的 null。[DBP：membiayai](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=membiayai)",
+    "word_family": [
+      {
+        "word": "biaya",
+        "affix": null,
+        "gloss": "费用；开支"
+      },
+      {
+        "word": "membiayai",
+        "affix": "meN-...-i",
+        "gloss": "出资；承担费用"
+      },
+      {
+        "word": "pembiaya",
+        "affix": "peN-",
+        "gloss": "出资者；资助方"
+      },
+      {
+        "word": "pembiayaan",
+        "affix": "peN-...-an",
+        "gloss": "资金提供；融资"
+      }
+    ],
+    "root_jawi": "بياي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "所需费用由某人、机构或资金来源承担；获得出资、资助或融资。",
+      "en_definition": "To be funded or have the necessary expenses paid by a person, organisation, or source of finance.",
+      "ms_definition": "Ditanggung perbelanjaannya atau disediakan wang untuk keperluannya oleh seseorang atau sesuatu pihak.",
+      "nuances": "是 membiayai 的被动形式。可用于教育、项目、医疗等费用；不自动表示全额、无偿资助或资金已经到账。dibiayai oleh 引出出资方，dibiayai melalui 引出资金渠道。马来文释义为依据 DBP 主动词义所作的被动改写。[DBP：membiayai](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=membiayai)",
+      "collocations": [
+        {
+          "ms": "dibiayai oleh kerajaan",
+          "zh": "由政府出资",
+          "en": "funded by the government"
+        },
+        {
+          "ms": "dibiayai sepenuhnya",
+          "zh": "获得全额资助",
+          "en": "fully funded"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Program latihan ini dibiayai sepenuhnya oleh syarikat bagi meningkatkan kemahiran pekerja.",
+      "zh": "这项培训计划由公司全额出资，以提升员工技能。",
+      "en": "This training programme is fully funded by the company to improve employees' skills."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kursus tu dibiayai syarikat ke? Aku nak ikut juga.",
+      "ms_standard": "Adakah kursus itu dibiayai oleh syarikat? Saya juga mahu menyertainya.",
+      "zh": "那个课程是公司出钱的吗？我也想参加。",
+      "en": "Is the company paying for that course? I'd like to join too.",
+      "spoken_features": [
+        "tu 对应 itu。",
+        "句末 ke 用于口语提问。",
+        "nak 对应 mahu。",
+        "出资方紧接被动动词时，可以省略 oleh；正式例句保留 oleh 以便清楚表达。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kursus tu dibiayai syarikat ke? Aku nak ikut juga.",
+          "ms_standard": "Adakah kursus itu dibiayai oleh syarikat? Saya juga mahu menyertainya.",
+          "zh": "那个课程是公司出钱的吗？我也想参加。",
+          "en": "Is the company paying for that course? I'd like to join too."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Ya, yuran je yang dibiayai. Hotel kena bayar sendiri.",
+          "ms_standard": "Ya, hanya yuran kursus yang dibiayai. Kos penginapan perlu ditanggung sendiri.",
+          "zh": "对，不过只包课程费。住宿得自己付。",
+          "en": "Yes, but they only cover the course fee. You have to pay for your own hotel."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Biaya belongs to the Indic layer of Malay vocabulary and is traced to Sanskrit vyaya, associated with expenditure. Malay subsequently combines this established base with its own affixes: membiayai names providing funds, while dibiayai presents the recipient or activity as funded. The word therefore joins an older financial term to productive Malay grammar. [Source](https://pure.knaw.nl/portal/files/1708896328/Legal_diglossia_lexical_borrowing_and_mixed_juridical_systems_in_early_Islamic_Java_and_Sumatra_24_11_19_14_19_08.pdf)",
+    "cognitive_memory_aid": "把 biaya 和 biasiswa（奖学金）放在同一幅画面：有人承担费用，学业就 dibiayai。这里只作语义联想。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于说明资助关系时中性、正式。询问个人的学费或医疗费由谁承担，可能涉及隐私，宜先确认对方愿意谈。",
+    "usage_etiquette": "适合资助公告、培训安排及项目说明。需要区分全额与部分出资时，加 sepenuhnya 或 sebahagiannya；是否须偿还，应另行说明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于说明资助关系时中性、正式。询问个人的学费或医疗费由谁承担，可能涉及隐私，宜先确认对方愿意谈。",
+    "usage_etiquette": "适合资助公告、培训安排及项目说明。需要区分全额与部分出资时，加 sepenuhnya 或 sebahagiannya；是否须偿还，应另行说明。"
+  }
+}
