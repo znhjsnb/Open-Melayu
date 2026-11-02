@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "dirasai",
+    "syllables": "di.ra.sa.i",
+    "ipa": "/di.ra.sa.i/",
+    "jawi": "دراساءي",
+    "frequency_rank": 13800,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "rasa",
+    "affix": "di-...-i",
+    "affix_type": "circumfix",
+    "formula": "di- + rasa + -i → dirasai（被感受到；被体验到）",
+    "pattern_note": "输入的词根判定应修正为 rasa。这里是被动前缀 di- 与后缀 -i 的组合，字段归入 circumfix，但不表示二者是不可分割的单一词缀。di- 连写，词根不发生辅音交替；末尾 a.i 分属两音节。",
+    "word_family": [
+      {
+        "word": "merasai",
+        "affix": "meN-...-i",
+        "gloss": "感受到；体验"
+      },
+      {
+        "word": "berasa",
+        "affix": "ber-",
+        "gloss": "觉得；具有某种感觉"
+      },
+      {
+        "word": "terasa",
+        "affix": "ter-",
+        "gloss": "感觉到；显得"
+      },
+      {
+        "word": "perasaan",
+        "affix": "pe-...-an",
+        "gloss": "感情；感受"
+      }
+    ],
+    "root_jawi": "راسا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被身体或感官感受到，指震动、疼痛、热度等刺激进入人的感知。",
+      "en_definition": "To be felt or perceived physically through the senses.",
+      "ms_definition": "Dialami atau dikesan melalui deria, seperti gegaran, kesakitan atau bahang.",
+      "nuances": "是 merasai 的被动形式，常以被感知的事物作主语，如 Gegaran itu dirasai oleh penduduk。并不自带“能够”的意思；dapat dirasai 才明确表示可以感受到。震感用法见 [METMalaysia：地震与海啸术语](https://www.met.gov.my/pendidikan/terminologi-gempa-tsunami/)。",
+      "collocations": [
+        {
+          "ms": "gegaran dirasai",
+          "zh": "感受到震动",
+          "en": "tremors are felt"
+        },
+        {
+          "ms": "kesakitan yang dirasai",
+          "zh": "所感受到的疼痛",
+          "en": "the pain experienced"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "在情感、生活经历或实际处境中被体验到，或其影响被切身感受到。",
+      "en_definition": "To be experienced emotionally or through its effects on someone's life.",
+      "ms_definition": "Dialami dalam hati atau kehidupan, termasuk kesan sesuatu keadaan.",
+      "nuances": "可用于悲伤、失落，也可用于好处、压力或政策影响，并不限于负面感受。不要把 saya dirasai 用作“我觉得”；第一人称表达通常用 saya berasa 或 saya merasai…。马来文释义为编写性转述；相关体验用法见 [DBP PRPM：dirasai](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dirasai)。",
+      "collocations": [
+        {
+          "ms": "kesan yang dirasai",
+          "zh": "切身感受到的影响",
+          "en": "the effects experienced"
+        },
+        {
+          "ms": "kehilangan yang dirasai",
+          "zh": "所感受到的失落",
+          "en": "the sense of loss experienced"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kesan kenaikan harga barang semakin dirasai oleh keluarga berpendapatan rendah.",
+      "zh": "低收入家庭越来越切身感受到物价上涨的影响。",
+      "en": "Low-income families are increasingly feeling the effects of rising prices."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事谈论工作压力",
+      "ms_spoken": "Tekanan kerja tu dah mula dirasai, kan?",
+      "ms_standard": "Tekanan kerja itu sudah mula dirasai, bukan?",
+      "zh": "工作压力已经开始感觉到了，对吧？",
+      "en": "The work pressure is starting to hit, isn't it?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "dah 对应 sudah。",
+        "句末 kan 用于寻求认同，对应这里的 bukan。",
+        "dirasai 保留标准被动形式，也能自然出现在较完整的聊天句子中。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Tekanan kerja tu dah mula dirasai, kan?",
+          "ms_standard": "Tekanan kerja itu sudah mula dirasai, bukan?",
+          "zh": "工作压力已经开始感觉到了，对吧？",
+          "en": "The work pressure is starting to hit, isn't it?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Haah, aku pun dah penat. Nak rehat kejap lepas ni?",
+          "ms_standard": "Ya, saya juga sudah penat. Mahukah kamu berehat sebentar selepas ini?",
+          "zh": "是啊，我也累了。待会儿要不要休息一下？",
+          "en": "Yeah, I'm worn out too. Want to take a short break after this?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dirasai illustrates productive Malay grammar rather than an independent root. It belongs to the rasa family and presents an experience from the side of what is felt: pain, a tremor, grief, or an effect. DBP documents experiential uses, while Malaysian meteorological terminology uses it for felt tremors. This grammatical continuity explains the word without requiring an invented historical episode. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dirasai), [METMalaysia](https://www.met.gov.my/pendidikan/terminologi-gempa-tsunami/)",
+    "cognitive_memory_aid": "先抓住中间的 rasa“感觉”，再把 di- 看成被动提示：dirasai＝被感受到。按 di-ra-sa-i 四拍读，末尾 a、i 分开。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈及他人的疼痛或失落时，dirasai 可用于较体贴、正式的表达，如 kesedihan yang dirasai oleh keluarga。避免轻率声称自己完全理解对方的经历。",
+    "usage_etiquette": "适用于新闻、报告、慰问和日常描述。正式被动句可用 oleh 引出感受者；向医生说明症状时，应进一步交代部位、程度和持续时间。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈及他人的疼痛或失落时，dirasai 可用于较体贴、正式的表达，如 kesedihan yang dirasai oleh keluarga。避免轻率声称自己完全理解对方的经历。",
+    "usage_etiquette": "适用于新闻、报告、慰问和日常描述。正式被动句可用 oleh 引出感受者；向医生说明症状时，应进一步交代部位、程度和持续时间。"
+  }
+}

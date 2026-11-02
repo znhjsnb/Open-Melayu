@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "melacak",
+    "syllables": null,
+    "ipa": "/mə.la.tʃaʔ/",
+    "jawi": "ملاچق",
+    "frequency_rank": 13767,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lacak",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + lacak → melacak",
+    "pattern_note": "词根以l开头时，meN-实现为me-，保留l。DBP分别在lacak I和lacak II下收录两个同形词义，因此修正输入包将melacak判为独立词根的结果。",
+    "word_family": [
+      {
+        "word": "lacak",
+        "affix": null,
+        "gloss": "词根；I与过量、遍布有关，II与滑动、不钩住有关"
+      },
+      {
+        "word": "belacak",
+        "affix": "be-",
+        "gloss": "过量；到处都是，属于lacak I这一同形词根"
+      }
+    ],
+    "root_jawi": "لاچق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "滑动而未能钩住或抓牢，尤指船锚未能抓住河床或海床。",
+      "en_definition": "To slide without catching or taking hold, especially of an anchor.",
+      "ms_definition": "Meluncur, tidak mengait, berkenaan sauh dan sebagainya.",
+      "nuances": "此义对应lacak II，描述锚等物滑移而未能抓牢。不要直接套用印度尼西亚语中常见的“追踪、追查”义；马来西亚马来语表达追踪通常使用mengesan或menjejaki。以下为按词义编写的典型组合，不代表已核实的高频排名。[DBP词条](https://prpm.dbp.gov.my/cari1?keyword=melacak)。",
+      "collocations": [
+        {
+          "ms": "sauh melacak",
+          "zh": "船锚滑动而未抓牢",
+          "en": "the anchor slides without taking hold"
+        },
+        {
+          "ms": "melacak di dasar laut",
+          "zh": "在海床上滑动而未抓牢",
+          "en": "to slide along the seabed without taking hold"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "数量过多，超过适当或所需的程度；到处都有。",
+      "en_definition": "Present in excessive quantities or found everywhere.",
+      "ms_definition": "Terlalu banyak hingga berlebih daripada yang sepatutnya, seperti barang dagangan, atau terdapat di merata-rata tempat.",
+      "nuances": "此义对应lacak I，与船锚滑移义属于同形词，不应强行解释为同一意义的引申。DBP另收belacak。一般交流中，terlalu banyak或berlebihan更容易理解。以下为释义型搭配。[DBP同形词条](https://prpm.dbp.gov.my/cari1?keyword=lacak)。",
+      "collocations": [
+        {
+          "ms": "barang dagangan melacak",
+          "zh": "商品数量过剩",
+          "en": "merchandise present in excessive quantities"
+        },
+        {
+          "ms": "melacak di merata-rata tempat",
+          "zh": "到处都是",
+          "en": "present everywhere"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "航海记录 / 作业报告",
+      "ms": "Pemeriksaan mendapati bahawa sauh melacak di dasar laut dan tidak mencengkam dengan baik.",
+      "zh": "检查发现，船锚在海床上滑动，未能牢固抓底。",
+      "en": "The inspection found that the anchor was sliding along the seabed without taking a firm hold."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 船上作业交流",
+      "ms_spoken": "Sauh tu melacak lagi lah, tak lekat kat dasar.",
+      "ms_standard": "Sauh itu melacak lagi dan tidak mencengkam dasar.",
+      "zh": "那个锚又滑了，没抓住底。",
+      "en": "That anchor’s slipping again. It isn’t gripping the bottom.",
+      "spoken_features": [
+        "tu对应itu",
+        "tak对应tidak",
+        "kat对应di",
+        "lah加强现场提醒的语气",
+        "melacak本身较专门，周围句法可以使用口语形式"
+      ],
+      "messages": [
+        {
+          "speaker": "Azlan (船员)",
+          "ms_spoken": "Sauh tu melacak lagi lah, tak lekat kat dasar.",
+          "ms_standard": "Sauh itu melacak lagi dan tidak mencengkam dasar.",
+          "zh": "那个锚又滑了，没抓住底。",
+          "en": "That anchor’s slipping again. It isn’t gripping the bottom."
+        },
+        {
+          "speaker": "Rahim (船员)",
+          "ms_spoken": "Haah, aku dah nampak. Kita kena periksa semula.",
+          "ms_standard": "Ya, saya sudah melihatnya. Kita perlu memeriksanya semula.",
+          "zh": "嗯，我看到了，得再检查一下。",
+          "en": "Yeah, I’ve seen it. We need to check it again."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionary tradition records two separate lacak headwords behind melacak. One concerns excessive abundance; the other describes sliding without catching, including an anchor failing to grip. This distinction preserves a useful maritime image: dropping an anchor does not guarantee that it holds. The dictionary evidence establishes these meanings, but not a dated origin story. [DBP](https://prpm.dbp.gov.my/cari1?keyword=lacak).",
+    "cognitive_memory_aid": "me-la-cak分三拍：锚放下、往前滑、抓不牢。另把“多得到处都是”单独记作同形词义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词语本身中性，没有敬语限制；用于不熟悉航海词汇的听众时，可补充说明sauh tidak mencengkam。",
+    "usage_etiquette": "适用于船锚滑移等明确情境；表达货物过量时需提供数量语境。不要把它作为马来西亚马来语中“追踪包裹”的默认说法。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词语本身中性，没有敬语限制；用于不熟悉航海词汇的听众时，可补充说明sauh tidak mencengkam。",
+    "usage_etiquette": "适用于船锚滑移等明确情境；表达货物过量时需提供数量语境。不要把它作为马来西亚马来语中“追踪包裹”的默认说法。"
+  }
+}

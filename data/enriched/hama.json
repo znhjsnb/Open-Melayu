@@ -1,0 +1,169 @@
+{
+  "headword": {
+    "word": "hama",
+    "syllables": "ha.ma",
+    "ipa": "/hama/",
+    "jawi": "هام",
+    "frequency_rank": 13809,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hama",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hama → hama",
+    "pattern_note": "共时上是不可再拆分的词根。berhama 中 ber- 表示带有或生有；awahama 中 awa- 表示去除或没有。",
+    "word_family": [
+      {
+        "word": "berhama",
+        "affix": "ber-",
+        "gloss": "身上有螨虫等寄生小虫，词典尤指鸡"
+      },
+      {
+        "word": "awahama",
+        "affix": "awa-",
+        "gloss": "无螨虫的；无相关病虫的"
+      },
+      {
+        "word": "sehama",
+        "affix": "se-",
+        "gloss": "极微量；一丁点儿"
+      }
+    ],
+    "root_jawi": "هام"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "螨或螨类微小节肢动物；传统释义也指鸡身上的寄生小虫。",
+      "en_definition": "A mite or similar minute parasitic pest, especially one found on chickens.",
+      "ms_definition": "Haiwan perosak yang sangat kecil, termasuk hama berkaki lapan dan kutu yang terdapat pada tubuh atau bulu ayam.",
+      "nuances": "词典日常分类中的 kutu 不宜全部机械译作生物学上的虱。螨与细菌是不同生物类别；科学文本应说明具体种类。不同词典的释义见 [PRPM：hama](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hama)。",
+      "collocations": [
+        {
+          "ms": "hama ayam",
+          "zh": "鸡螨；鸡身上的寄生小虫",
+          "en": "poultry mites"
+        },
+        {
+          "ms": "hama merah",
+          "zh": "红螨",
+          "en": "red mites"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "侵害植物的病害；传统农业用语中的作物病患。",
+      "en_definition": "A disease or blight affecting plants, in traditional agricultural usage.",
+      "ms_definition": "Penyakit yang menyerang tumbuh-tumbuhan atau tanaman.",
+      "nuances": "这是输入包《Kamus Dewan》明确列出的义项。技术性农业说明宜写明病原或害虫，不能仅凭 hama 推断具体病因，也不应把其他语言中的所有害虫用法直接移植到马来西亚马来语。",
+      "collocations": [
+        {
+          "ms": "hama padi",
+          "zh": "水稻病害",
+          "en": "a disease affecting rice plants"
+        },
+        {
+          "ms": "tanaman diserang hama",
+          "zh": "作物遭受病害侵袭",
+          "en": "crops affected by disease"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "致病微生物；病菌，尤见于传统或一般性表达。",
+      "en_definition": "A disease-causing germ, especially in traditional or general usage.",
+      "ms_definition": "Kuman yang menyebabkan penyakit, juga disebut hama penyakit.",
+      "nuances": "这是传统词典义，不表示所有螨都会致病，也不把螨归入细菌。现代科学说明宜按实际对象使用 patogen、bakteria 或 virus。",
+      "collocations": [
+        {
+          "ms": "hama penyakit",
+          "zh": "病菌；致病微生物",
+          "en": "disease-causing germs"
+        },
+        {
+          "ms": "kena hama",
+          "zh": "感染病菌",
+          "en": "be infected with germs"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "极其微小的东西或数量；一丁点儿，常见于 sehama 的形式。",
+      "en_definition": "An extremely small thing or amount; a tiny speck or trace.",
+      "ms_definition": "Sesuatu yang sangat kecil atau sedikit, lazimnya dalam bentuk sehama.",
+      "nuances": "词典标作口语义，但 sehama pun 在现代交流中也可带强调或文学色彩。它本身不表示否定；否定来自 tidak、tiada 或 tak 等词。",
+      "collocations": [
+        {
+          "ms": "tidak berubah sehama pun",
+          "zh": "一点儿也没改变",
+          "en": "not change in the slightest"
+        },
+        {
+          "ms": "tiada sehama pun",
+          "zh": "连一丁点儿也没有",
+          "en": "not even the tiniest amount"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pemeriksaan mendapati bahawa beberapa ekor ayam di reban itu diserang hama.",
+      "zh": "检查发现，该鸡舍内有几只鸡受到螨虫侵扰。",
+      "en": "An inspection found that several chickens in the coop were infested with mites."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ayam kat reban belakang tu ada hama lah.",
+      "ms_standard": "Ayam di reban belakang itu mempunyai hama.",
+      "zh": "后面鸡舍里的鸡身上有螨虫啊。",
+      "en": "The chickens in the back coop have mites.",
+      "spoken_features": [
+        "kat 在这里对应 di。",
+        "tu 是 itu 的口语缩略形式。",
+        "dah、nak 分别对应 sudah、hendak。",
+        "lah 在这里加强提醒的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Siti (家人)",
+          "ms_spoken": "Ayam kat reban belakang tu ada hama lah. Kau dah tengok?",
+          "ms_standard": "Ayam di reban belakang itu mempunyai hama. Adakah kamu sudah memeriksanya?",
+          "zh": "后面鸡舍里的鸡身上有螨虫啊，你检查过了吗？",
+          "en": "The chickens in the back coop have mites. Have you checked them?"
+        },
+        {
+          "speaker": "Azlan (家人)",
+          "ms_spoken": "Dah. Aku nak bersihkan reban dulu, lepas tu tanya doktor haiwan.",
+          "ms_standard": "Sudah. Saya hendak membersihkan reban dahulu, kemudian mendapatkan nasihat doktor haiwan.",
+          "zh": "看过了。我打算先清理鸡舍，再问问兽医。",
+          "en": "Yes. I'll clean the coop first, then ask the vet for advice."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Hama preserves several ways Malay speakers have described things too small to notice easily. Dictionaries place poultry parasites, plant disease and disease-causing germs under the same headword, while sehama expresses a minute amount. These meanings offer a cultural history of smallness rather than a verified borrowing story. The supplied evidence does not establish a deeper linguistic origin. See [PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hama).",
+    "cognitive_memory_aid": "想象一只小得难看清的 hama：实体是螨虫，数量比喻 sehama 就是一丁点儿；这是语义联想，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述动物或环境时属于中性用词；不要用 hama 贬称他人，以免把人比作寄生虫而构成侮辱。",
+    "usage_etiquette": "谈家庭卫生或饲养问题时，宜客观说明发现了什么，避免直接指责主人肮脏。涉及农业或健康的专业交流，应补充具体生物或病害名称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述动物或环境时属于中性用词；不要用 hama 贬称他人，以免把人比作寄生虫而构成侮辱。",
+    "usage_etiquette": "谈家庭卫生或饲养问题时，宜客观说明发现了什么，避免直接指责主人肮脏。涉及农业或健康的专业交流，应补充具体生物或病害名称。"
+  }
+}
