@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "dakwaan",
+    "syllables": null,
+    "ipa": "/daʔ.wa.an/",
+    "jawi": "دعواءن",
+    "frequency_rank": 6069,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dakwa",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "dakwa + -an → dakwaan",
+    "pattern_note": "词根末尾 a 与后缀 -an 的 a 分属相邻音节，不应直接合成一个长元音。DBP 记录 daʔ.wa.an 与保留阿拉伯音的 daʕ.wa.an 两种读法；词中 k 在常见读法中对应喉塞音。",
+    "word_family": [
+      {
+        "word": "mendakwa",
+        "affix": "meN-",
+        "gloss": "指控；声称"
+      },
+      {
+        "word": "pendakwa",
+        "affix": "peN-",
+        "gloss": "控方；检控人员"
+      },
+      {
+        "word": "pendakwaan",
+        "affix": "peN-...-an",
+        "gloss": "检控或提出指控的行为"
+      },
+      {
+        "word": "didakwa",
+        "affix": "di-",
+        "gloss": "被指控；据称"
+      }
+    ],
+    "root_jawi": "دعوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "提交法院审理的指控、诉求或控诉。",
+      "en_definition": "An accusation, claim, or complaint submitted for adjudication in court.",
+      "ms_definition": "Tuduhan, tuntutan atau aduan yang dikemukakan di mahkamah untuk dibicarakan.",
+      "nuances": "指提出的指控或诉求内容。pendakwaan 侧重提出指控或进行检控的过程；pertuduhan 常用于具体控罪。此区分见 [DBP 词义说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dakwaan)。",
+      "collocations": [
+        {
+          "ms": "menghadapi dakwaan",
+          "zh": "面临指控",
+          "en": "face an accusation or charge"
+        },
+        {
+          "ms": "dakwaan terhadap tertuduh",
+          "zh": "针对被告的指控",
+          "en": "an accusation against the defendant"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "某人或某方提出并要求他人视为事实的说法、声称或指称。",
+      "en_definition": "A statement presented as true; a claim or allegation.",
+      "ms_definition": "Hal atau perkara yang dikatakan benar oleh seseorang atau sesuatu pihak.",
+      "nuances": "不局限于犯罪或法院语境，可指产品宣传、个人经历等说法。词本身既不保证说法属实，也不表示说法一定虚假。参见 [DBP 词条](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=dakwaan)。",
+      "collocations": [
+        {
+          "ms": "menafikan dakwaan",
+          "zh": "否认有关说法或指控",
+          "en": "deny a claim or allegation"
+        },
+        {
+          "ms": "dakwaan tidak berasas",
+          "zh": "毫无根据的说法或指控",
+          "en": "an unfounded claim or allegation"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak syarikat menafikan dakwaan bahawa maklumat pelanggan telah didedahkan kepada pihak ketiga.",
+      "zh": "公司方面否认曾向第三方披露客户资料的说法。",
+      "en": "The company denied allegations that customer information had been disclosed to third parties."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dakwaan tu dah disahkan ke, atau orang kongsi je?",
+      "ms_standard": "Adakah dakwaan itu sudah disahkan, atau adakah orang sekadar berkongsinya?",
+      "zh": "那个说法核实过了吗，还是大家只是转发而已？",
+      "en": "Has that claim been verified, or are people just passing it around?",
+      "spoken_features": [
+        "tu 对应 itu。",
+        "dah 对应 sudah。",
+        "句末 ke 构成口语疑问。",
+        "je 对应 sahaja，表示“只是”。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Dakwaan tu dah disahkan ke, atau orang kongsi je?",
+          "ms_standard": "Adakah dakwaan itu sudah disahkan, atau adakah orang sekadar berkongsinya?",
+          "zh": "那个说法核实过了吗，还是大家只是转发而已？",
+          "en": "Has that claim been verified, or are people just passing it around?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Belum lagi. Aku nak semak sumber asal dulu.",
+          "ms_standard": "Dakwaan itu belum disahkan. Saya mahu menyemak sumber asal terlebih dahulu.",
+          "zh": "还没有。我想先查一下原始出处。",
+          "en": "Not yet. I want to check the original source first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dakwa belongs to Malay’s Arabic-derived vocabulary and corresponds to Arabic daʿwā, a claim or lawsuit. Malay adds its own suffix -an to form dakwaan. The resulting noun preserves a connection between asserting something and bringing a case: a statement can be advanced in ordinary discussion or submitted for adjudication. That shared semantic background explains its courtroom and everyday meanings. [Arabic-origin Malay vocabulary study](https://oarep.usim.edu.my/server/api/core/bitstreams/b38963e9-99b5-417c-af79-7f0f570e28db/content)",
+    "cognitive_memory_aid": "把 dakwa 记成“提出一套说法”，再加 -an 把动作变成内容：dakwaan＝提出的说法或指控。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接称对方的话为 dakwaan，可能带出质疑或要求举证的意味。普通职场交流若只想中性转述，可按语境选 kenyataan、penjelasan 或 maklumat。",
+    "usage_etiquette": "新闻转述宜说明是谁提出 dakwaan，并区分指控与已确认事实。dakwaan palsu、dakwaan tidak berasas 比单独的 dakwaan 更明确地否定其真实性或依据。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接称对方的话为 dakwaan，可能带出质疑或要求举证的意味。普通职场交流若只想中性转述，可按语境选 kenyataan、penjelasan 或 maklumat。",
+    "usage_etiquette": "新闻转述宜说明是谁提出 dakwaan，并区分指控与已确认事实。dakwaan palsu、dakwaan tidak berasas 比单独的 dakwaan 更明确地否定其真实性或依据。"
+  }
+}

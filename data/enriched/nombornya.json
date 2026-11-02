@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "nombornya",
+    "syllables": "nom.bor.nya",
+    "ipa": "/nom.bor.ɲa/",
+    "jawi": "نومبور",
+    "frequency_rank": 6178,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "nombor",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "nombor + -nya → nombornya",
+    "pattern_note": "-nya 是读作 /ɲa/ 的后附代词，此处依字段归入 suffix；附加后保留 nombor 的拼写。nombor 是整词借入的底词，不拆成虚构词根。音节据完整词形补全；输入爪夷仅含底词，完整词形为 نومبورڽ。",
+    "word_family": [
+      {
+        "word": "bernombor",
+        "affix": "ber-",
+        "gloss": "有编号的；已编号的"
+      },
+      {
+        "word": "menombori",
+        "affix": "meN-...-i",
+        "gloss": "给……编号"
+      },
+      {
+        "word": "penomboran",
+        "affix": "peN-...-an",
+        "gloss": "编号行为；编号安排"
+      }
+    ],
+    "root_jawi": "نومبور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "前文所指对象的数或数字；其中的 -nya 表示回指。",
+      "en_definition": "The number or numeral associated with a previously mentioned referent.",
+      "ms_definition": "Angka atau lambang bilangan yang dikaitkan dengan perkara yang telah disebut.",
+      "nuances": "底词 nombor 表示数或数字，参见 [DBP PRPM：nombor](https://prpm.dbp.gov.my/Cari1?d=7120&keyword=nombor)。-nya 不表示复数。表达人的数量时通常用 bilangan，如 bilangan peserta，不能把英语 number 的所有用法都机械译成 nombor。",
+      "collocations": [
+        {
+          "ms": "nilai nombornya",
+          "zh": "该数的数值",
+          "en": "the value of the number"
+        },
+        {
+          "ms": "nombornya lebih besar",
+          "zh": "其数值更大",
+          "en": "its number is larger"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "他、她或前文所指对象的识别号码，如电话号码、登记号码、排队号码或序号。",
+      "en_definition": "His, her or its identifying number, such as a phone, registration or queue number.",
+      "ms_definition": "Nombor pengenalan, telefon, giliran atau pendaftaran bagi orang atau perkara yang telah disebut.",
+      "nuances": "日常说 Ada nombornya? 时，常在共同语境下省略 telefon。-nya 的所指必须清楚；正式文件宜写出 nombor telefon beliau 或 nombor pendaftaran kenderaan tersebut 等完整表达。",
+      "collocations": [
+        {
+          "ms": "menyimpan nombornya",
+          "zh": "保存他或她的电话号码",
+          "en": "save his or her number"
+        },
+        {
+          "ms": "mencatat nombornya",
+          "zh": "记下其号码",
+          "en": "write down the number"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Setiap peserta hendaklah menyimpan tiket giliran dan menunggu sehingga nombornya dipanggil.",
+      "zh": "每位参加者须保留排队号码票，并等候叫到自己的号码。",
+      "en": "Each participant must keep their queue ticket and wait until their number is called."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah simpan nombornya, nanti aku mesej dia je.",
+      "ms_standard": "Saya sudah menyimpan nombor telefonnya. Saya akan menghantar mesej kepadanya nanti.",
+      "zh": "我已经存了她的号码，等下直接发消息给她。",
+      "en": "I’ve saved her number. I’ll just message her later.",
+      "spoken_features": [
+        "dah 对应 sudah，je 对应 sahaja，带轻松、简化安排的语气。",
+        "mesej 在口语中直接用作动词，规范展开为 menghantar mesej。",
+        "聊天中也常说 nombor dia；nombornya 是较整齐的书写形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Farah nak kita hubungi dia petang ni. Kau ada nombornya tak?",
+          "ms_standard": "Farah mahu kita menghubunginya petang ini. Adakah awak mempunyai nombor telefonnya?",
+          "zh": "Farah 想让我们今天下午联系她。你有她的号码吗？",
+          "en": "Farah wants us to contact her this afternoon. Have you got her number?"
+        },
+        {
+          "speaker": "Mei Ling (同事)",
+          "ms_spoken": "Ada, aku dah simpan. Nanti aku mesej dia je.",
+          "ms_standard": "Ada, saya sudah menyimpan nombor telefonnya. Saya akan menghantar mesej kepadanya nanti.",
+          "zh": "有，我已经存了。等下我直接发消息给她。",
+          "en": "Yep, I’ve saved it. I’ll just message her later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Nombor is an established Malay borrowing from English number, adapted to Malay spelling and pronunciation. Once borrowed, it participates in ordinary Malay word formation, producing bernombor and penomboran. Adding -nya creates a reference useful in daily life: a person’s phone number, a queue number or an identifier already mentioned. See [Wiktionary: nombor](https://en.wiktionary.org/wiki/nombor).",
+    "cognitive_memory_aid": "nombor 的声音和英语 number 相近；再接 nya 这个回指箭头，就从号码变成他、她或它的号码。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向本人索取号码可说 Boleh saya minta nombor telefon encik/puan?。nombornya 用于谈论第三方；对话中须先交代所指人物。",
+    "usage_etiquette": "电话号码属于个人联系信息。向他人转交第三方号码前，通常先征得号码主人的同意。正式沟通应说明号码种类，避免只写 nombornya 造成歧义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向本人索取号码可说 Boleh saya minta nombor telefon encik/puan?。nombornya 用于谈论第三方；对话中须先交代所指人物。",
+    "usage_etiquette": "电话号码属于个人联系信息。向他人转交第三方号码前，通常先征得号码主人的同意。正式沟通应说明号码种类，避免只写 nombornya 造成歧义。"
+  }
+}

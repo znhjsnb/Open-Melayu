@@ -1,0 +1,118 @@
+{
+  "headword": {
+    "word": "perisian",
+    "syllables": "pe.ri.sian",
+    "ipa": "/pəˈrisian/",
+    "jawi": "ڤرايسين",
+    "frequency_rank": 6118,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "isi",
+    "affix": "per-...-an",
+    "affix_type": "circumfix",
+    "formula": "per- + isi + -an → perisian",
+    "pattern_note": "以 isi 为词根，加名词性环缀 per-...-an；词根首元音保留，不发生鼻音同化。资料包的 pe.ri.sian 是读音分节，不是词素边界。",
+    "word_family": [
+      {
+        "word": "berisi",
+        "affix": "ber-",
+        "gloss": "有内容；装有"
+      },
+      {
+        "word": "mengisi",
+        "affix": "meN-",
+        "gloss": "填入；填写"
+      },
+      {
+        "word": "pengisian",
+        "affix": "peN-...-an",
+        "gloss": "填充；填写的过程"
+      }
+    ],
+    "root_jawi": "ايسي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "软件：供计算机系统执行任务的程序或程序集合，包括系统软件和应用软件。",
+      "en_definition": "Programs or sets of programs used to operate a computer system or perform particular tasks.",
+      "ms_definition": "Program atau atur cara komputer yang dapat digunakan dengan sistem komputer tertentu.",
+      "nuances": "规范的信息技术名词。与表示实体设备的 perkakasan 相区别；aplikasi 通常指承担具体用途的应用程序，是软件的一类。perisian 本身不限定单个程序还是一组程序。",
+      "collocations": [
+        {
+          "ms": "perisian komputer",
+          "zh": "计算机软件",
+          "en": "computer software"
+        },
+        {
+          "ms": "perisian aplikasi",
+          "zh": "应用软件",
+          "en": "application software"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 信息技术部门通知",
+      "ms": "Semua kakitangan diminta mengemas kini perisian komputer sebelum mesyuarat bermula.",
+      "zh": "请全体员工在会议开始前更新计算机软件。",
+      "en": "All staff are requested to update their computer software before the meeting begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事交流",
+      "ms_spoken": "Kau dah pasang perisian baru tu kat komputer ke?",
+      "ms_standard": "Adakah awak sudah memasang perisian baharu itu pada komputer?",
+      "zh": "你把那个新软件装到电脑上了吗？",
+      "en": "Have you installed that new software on your computer yet?",
+      "spoken_features": [
+        "kau 是熟人之间使用的人称形式",
+        "dah 对应 sudah",
+        "tu 对应 itu",
+        "pasang 在口语中省略标准形式 memasang 的前缀",
+        "kat 在此对应 pada",
+        "句末 ke 表示疑问"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah pasang perisian baru tu kat komputer ke?",
+          "ms_standard": "Adakah awak sudah memasang perisian baharu itu pada komputer?",
+          "zh": "你把那个新软件装到电脑上了吗？",
+          "en": "Have you installed that new software on your computer yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, senang je nak guna. Nanti aku tunjuk.",
+          "ms_standard": "Ya, saya sudah memasangnya. Perisian itu mudah digunakan. Saya akan menunjukkan caranya nanti.",
+          "zh": "装好了，挺好用的，待会儿我教你。",
+          "en": "Yes, it’s easy to use. I’ll show you how later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Perisian belongs to the Malay word family of isi, meaning contents. The dictionary places it alongside forms concerning filling and containing, while giving it the specialised computing meaning software. A useful teaching image is the computer’s physical equipment containing executable instructions; this image explains the connection without claiming a documented coinage story.",
+    "cognitive_memory_aid": "isi 是“内容”；perisian 可联想为让电脑运行的“程序内容”，对应软件。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性、规范的技术词，适合公文、教学、采购文件和日常交流。向非技术人员解释时，可补充 program komputer。",
+    "usage_etiquette": "需要表达具体软件时加用途或名称，如 perisian perakaunan。口语可以说 pasang perisian，正式说明使用 memasang perisian。"
+  },
+  "validation": {
+    "note": "保留资料包的排名、音节、音标候选和词目 Jawi。DBP 在 isi 词条中列出 perisian，因此纠正了资料包将 perisian 自身标为词根的分析；环缀拆分是据此作出的形态分析。",
+    "sources": [
+      "[DBP：isi 及其派生词 perisian](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=isi)",
+      "[马来西亚公共服务局：perisian 与 perisian aplikasi](https://docs.jpa.gov.my/docs/flipbook/Polisi-Keselamatan-Siber-JPA-Versi-2.1/128/)"
+    ]
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性、规范的技术词，适合公文、教学、采购文件和日常交流。向非技术人员解释时，可补充 program komputer。",
+    "usage_etiquette": "需要表达具体软件时加用途或名称，如 perisian perakaunan。口语可以说 pasang perisian，正式说明使用 memasang perisian。"
+  }
+}

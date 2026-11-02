@@ -1,0 +1,173 @@
+{
+  "headword": {
+    "word": "simpanlah",
+    "syllables": "sim.pan.lah",
+    "ipa": "/sim.pan.lah/",
+    "jawi": "سيمڤن",
+    "frequency_rank": 6143,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "simpan",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "simpan + -lah → simpanlah",
+    "pattern_note": "-lah 实为后附强调语气词，因字段枚举限制归入 suffix；它不构成新的派生词义。连接时不改变 simpan 的音段。输入缺音节，本条补为 sim.pan.lah。headword.jawi 按要求保留输入值 سيمڤن，但该值仅对应 simpan；含 -lah 的完整形式为 سيمڤنله。",
+    "word_family": [
+      {
+        "word": "menyimpan",
+        "affix": "meN-",
+        "gloss": "存放；储蓄；保守"
+      },
+      {
+        "word": "simpanan",
+        "affix": "-an",
+        "gloss": "存款；储备；备用之物"
+      },
+      {
+        "word": "tersimpan",
+        "affix": "ter-",
+        "gloss": "已保存；存于其中"
+      },
+      {
+        "word": "penyimpanan",
+        "affix": "peN-...-an",
+        "gloss": "储存；保存的过程"
+      }
+    ],
+    "root_jawi": "سيمڤن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把东西收好、存放或保存起来；常用于劝告或指示。",
+      "en_definition": "Keep, put away, or save something, usually as an instruction or suggestion.",
+      "ms_definition": "Arahan atau anjuran supaya sesuatu ditaruh di tempat yang sesuai atau selamat, atau disimpan untuk kegunaan kemudian.",
+      "nuances": "这是 simpan 的祈使或劝告形式，不是独立词根。可用于实体物品和数码文件；-lah 可使语气缓和或加强催促，具体取决于语调。",
+      "collocations": [
+        {
+          "ms": "simpanlah di tempat yang selamat",
+          "zh": "请存放在安全的地方",
+          "en": "keep it somewhere safe"
+        },
+        {
+          "ms": "simpanlah fail ini",
+          "zh": "请保存这个文件",
+          "en": "save this file"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把钱存起来；储蓄，以备日后使用。",
+      "en_definition": "Save or set aside money for future use.",
+      "ms_definition": "Anjuran supaya wang dikumpulkan atau diketepikan untuk keperluan pada masa hadapan.",
+      "nuances": "与 wang、duit 或收入比例搭配时表示储蓄。tabung 强调积存；simpan 也可以只是暂时保管，需由上下文区分。",
+      "collocations": [
+        {
+          "ms": "simpanlah sedikit wang",
+          "zh": "存下一点钱吧",
+          "en": "save a little money"
+        },
+        {
+          "ms": "simpanlah untuk masa depan",
+          "zh": "为将来储蓄吧",
+          "en": "save for the future"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "保守秘密；把消息留在自己这里，不向外透露。",
+      "en_definition": "Keep a secret or refrain from disclosing information.",
+      "ms_definition": "Permintaan supaya sesuatu rahsia atau maklumat tidak diberitahukan kepada orang lain.",
+      "nuances": "须结合宾语判断；simpanlah rahsia ini 表示保密，而不是把秘密当成实体收藏。",
+      "collocations": [
+        {
+          "ms": "simpanlah rahsia ini",
+          "zh": "请保守这个秘密",
+          "en": "keep this secret"
+        },
+        {
+          "ms": "simpanlah untuk diri sendiri",
+          "zh": "自己知道就好；别说出去",
+          "en": "keep it to yourself"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "把感情、心事或记忆留在心中；珍藏或压在心底。",
+      "en_definition": "Hold a feeling or memory within oneself; cherish it or keep it unexpressed.",
+      "ms_definition": "Anjuran supaya sesuatu perasaan, kenangan atau isi hati dikekalkan dalam ingatan atau tidak diluahkan.",
+      "nuances": "可表示温暖的珍藏，也可表示压抑感情，取决于宾语。输入中的“故事简短”“备用”等是词根的其他词典用法，不应直接当作本祈使形式的主要释义。词根依据：[DBP PRPM：simpan](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=simpan)。",
+      "collocations": [
+        {
+          "ms": "simpanlah kenangan ini",
+          "zh": "珍藏这段回忆吧",
+          "en": "cherish this memory"
+        },
+        {
+          "ms": "simpanlah dalam hati",
+          "zh": "把它留在心底吧",
+          "en": "keep it in your heart"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场提醒 / 文件保管指引",
+      "ms": "Simpanlah salinan dokumen ini di tempat yang selamat untuk rujukan pada masa hadapan.",
+      "zh": "请将这份文件的副本妥善保存在安全的地方，以供日后查阅。",
+      "en": "Keep a copy of this document somewhere safe for future reference."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Simpanlah resit tu, nanti senang nak tuntut balik duit.",
+      "ms_standard": "Simpanlah resit itu supaya mudah untuk menuntut bayaran balik nanti.",
+      "zh": "把那张收据留好啦，之后报销就方便了。",
+      "en": "Keep that receipt. It'll make claiming the money back easier.",
+      "spoken_features": [
+        "tu 对应 itu。",
+        "nak 对应 hendak 或 mahu；此处表达后续用途。",
+        "-lah 在提醒中可表达温和劝告；语调急促时也可能显得催促。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Simpanlah resit tu kat dalam fail, nanti nak tuntut balik duit.",
+          "ms_standard": "Simpanlah resit itu di dalam fail untuk membuat tuntutan bayaran balik nanti.",
+          "zh": "把那张收据放进文件夹收好啦，之后要拿来报销。",
+          "en": "Keep that receipt in the folder. You'll need it for your reimbursement claim."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, aku simpan kat dalam fail biru. Nak gambar sekali ke?",
+          "ms_standard": "Saya sudah menyimpannya di dalam fail biru. Adakah kamu mahu gambarnya juga?",
+          "zh": "收好了，在蓝色文件夹里。你也要一张照片吗？",
+          "en": "Done, it's in the blue folder. Would you like a photo of it too?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Simpanlah combines the verb simpan with the attached particle -lah, rather than introducing a separate lexical root. The particle makes a bare instruction usable as encouragement, reassurance, or insistence, depending on delivery. Meanwhile, simpan connects practical safekeeping with saving money and holding secrets or feelings, linking physical storage with things kept privately in the mind.",
+    "cognitive_memory_aid": "simpan＝收好；加上 lah，联想中文“收好啦”。“啦”只是语气记忆桥梁，实际礼貌程度仍由上下文决定。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 不保证礼貌。对长辈、客户或上级，可按情境改用 Mohon simpan dokumen ini 或 Tolong simpan dokumen ini，并配合称谓与温和语气。祈使句中的 -lah 用法见：[DBP 语法答疑](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=perintah+1+)。",
+    "usage_etiquette": "提醒保存收据、文件或储蓄时很自然。Simpanlah nasihat awak 等把对方意见“留给自己”的说法可能带拒绝或讥讽；涉及他人心事时，应避免用命令语气要求对方压抑情绪。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 不保证礼貌。对长辈、客户或上级，可按情境改用 Mohon simpan dokumen ini 或 Tolong simpan dokumen ini，并配合称谓与温和语气。祈使句中的 -lah 用法见：[DBP 语法答疑](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=perintah+1+)。",
+    "usage_etiquette": "提醒保存收据、文件或储蓄时很自然。Simpanlah nasihat awak 等把对方意见“留给自己”的说法可能带拒绝或讥讽；涉及他人心事时，应避免用命令语气要求对方压抑情绪。"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "kudengar",
+    "syllables": null,
+    "ipa": "/kudəŋar/",
+    "jawi": null,
+    "frequency_rank": 6133,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dengar",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku- + dengar → kudengar",
+    "pattern_note": "输入将 kudengar 列为独立词根，此处依据实际构词校正为 dengar。ku- 是 aku 的前附着形式，并非派生前缀；与动词连写，不发生鼻音同化。Bunyi itu kudengar 中，ku- 标示第一人称施事。",
+    "word_family": [
+      {
+        "word": "mendengar",
+        "affix": "meN-",
+        "gloss": "听见；听取；听说"
+      },
+      {
+        "word": "terdengar",
+        "affix": "ter-",
+        "gloss": "无意间听见；能够听见"
+      },
+      {
+        "word": "pendengaran",
+        "affix": "peN-...-an",
+        "gloss": "听觉；听力"
+      }
+    ],
+    "root_jawi": "دڠر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "我听见；我用耳朵感知到某种声音。",
+      "en_definition": "I hear or heard; heard by me.",
+      "ms_definition": "Aku menangkap bunyi atau suara dengan telinga; sesuatu bunyi didengar oleh aku.",
+      "nuances": "不自带过去时含义，时间由上下文或 sudah、pernah 等词表示。在 suara yang kudengar 中，对应“我听到的声音”。ku- 的连写规则见 [DBP：kudengar](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kudengar)。",
+      "collocations": [
+        {
+          "ms": "suara yang kudengar",
+          "zh": "我听到的声音",
+          "en": "the voice I hear"
+        },
+        {
+          "ms": "bunyi yang kudengar",
+          "zh": "我听到的声响",
+          "en": "the sound I hear"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "我听说；我从别人的话语或消息中得知。",
+      "en_definition": "I hear or have heard that; I learn through a report.",
+      "ms_definition": "Aku mendapat tahu tentang sesuatu melalui khabar atau berita.",
+      "nuances": "用于转述消息，不表示说话者已亲自核实。现代职场和新闻引语中 saya mendapat tahu 或 saya dimaklumkan 往往更合适。词义依据见 [DBP：dengar](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=dengar)。",
+      "collocations": [
+        {
+          "ms": "kudengar khabar",
+          "zh": "我听到消息",
+          "en": "I heard the news"
+        },
+        {
+          "ms": "kudengar bahawa",
+          "zh": "我听说……",
+          "en": "I heard that"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "我听取、理会或遵从某人的话、劝告或指示。",
+      "en_definition": "I listen to, heed, or follow someone's words or advice.",
+      "ms_definition": "Aku memberikan perhatian kepada kata-kata, nasihat atau suruhan seseorang, atau mengikutinya.",
+      "nuances": "须由 nasihat、pesan 等宾语及上下文确定；“听取意见”不一定等于“照办”。见 [DBP：dengar](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=dengar)。",
+      "collocations": [
+        {
+          "ms": "nasihat yang kudengar",
+          "zh": "我听取的劝告",
+          "en": "the advice I listen to"
+        },
+        {
+          "ms": "pesan ibu kudengar",
+          "zh": "我听从母亲的嘱咐",
+          "en": "I heed my mother's words"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式个人陈述 / 听证会证词，保留带书面色彩的第一人称形式",
+      "ms": "Dalam kenyataan bertulisnya, saksi itu menyatakan, \"Bunyi yang kudengar datang dari arah pintu belakang.\"",
+      "zh": "证人在书面陈述中表示：“我听到的声响来自后门方向。”",
+      "en": "In the written statement, the witness said, \"The sound I heard came from the direction of the back door.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论走廊传来的声音",
+      "ms_spoken": "Bunyi yang kudengar tadi datang dari luar je.",
+      "ms_standard": "Bunyi yang saya dengar tadi datang dari luar sahaja.",
+      "zh": "我刚才听到的声音就是外面传来的。",
+      "en": "The sound I heard earlier was just coming from outside.",
+      "spoken_features": [
+        "je 对应 sahaja",
+        "kat 对应 di",
+        "kudengar 可用于带个人文风的聊天；普通口语更常说 aku dengar"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Bunyi yang kudengar tadi kat luar je. Kau dengar tak?",
+          "ms_standard": "Bunyi yang saya dengar tadi datang dari luar sahaja. Adakah kamu mendengarnya?",
+          "zh": "我刚听到的声音就在外面。你听见没？",
+          "en": "That sound I heard was just outside. Did you hear it?"
+        },
+        {
+          "speaker": "Hafiz (室友)",
+          "ms_spoken": "Dengar. Jiran dah tutup pintu kot.",
+          "ms_standard": "Ya, saya mendengarnya. Mungkin jiran baru sahaja menutup pintu.",
+          "zh": "听见了。可能是邻居刚关门吧。",
+          "en": "Yeah. Probably the neighbor shutting the door."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kudengar is a grammatical combination rather than an indivisible inherited headword. Its opening ku- is the bound form of aku, while dengar supplies the meaning hear. DBP explicitly requires the combined spelling. This compact construction remains useful in narrative and verse: suara yang kudengar means the voice I heard, with the hearer built into the verb phrase. See [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kudengar).",
+    "cognitive_memory_aid": "ku- 是“我”，dengar 是“听”：kudengar＝“我听见”。看到 yang kudengar，就读成“我听到的”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 与 aku 相连，适合亲近关系、内心独白和文学叙述；面向长辈、客户或正式会议，通常改用 saya dengar 或 saya mendengar。",
+    "usage_etiquette": "转述未核实消息时可加 belum pasti 或 perlu disahkan。kudengar 不应写成 ku dengar；在正式被动结构中，所听对象通常放在前面，如 perkara itu kudengar sendiri。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 与 aku 相连，适合亲近关系、内心独白和文学叙述；面向长辈、客户或正式会议，通常改用 saya dengar 或 saya mendengar。",
+    "usage_etiquette": "转述未核实消息时可加 belum pasti 或 perlu disahkan。kudengar 不应写成 ku dengar；在正式被动结构中，所听对象通常放在前面，如 perkara itu kudengar sendiri。"
+  }
+}

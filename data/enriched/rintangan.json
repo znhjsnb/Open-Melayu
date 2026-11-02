@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "rintangan",
+    "syllables": "rin.ta.ngan",
+    "ipa": "/rin.ta.ŋan/",
+    "jawi": "رينتڠن",
+    "frequency_rank": 6150,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "rintangan",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "rintang + -an → rintangan",
+    "pattern_note": "实际构词词根是 rintang，接名词后缀 -an，辅音不发生交替。root_word 和 root_jawi 保留输入包的归并形式；输入包的 is_root: true 与该词的派生结构不符，故修正为 false。",
+    "word_family": [
+      {
+        "word": "merintangi",
+        "affix": "meN-…-i",
+        "gloss": "阻碍；妨碍"
+      },
+      {
+        "word": "perintang",
+        "affix": "peN-",
+        "gloss": "阻碍者；阻碍物；电阻器"
+      }
+    ],
+    "root_jawi": "رينتڠن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "阻碍行动、进展或目标实现的障碍、阻力或干扰。",
+      "en_definition": "An obstacle, hindrance, or interference that impedes movement or progress.",
+      "ms_definition": "Sesuatu yang merintangi; halangan atau gangguan.",
+      "nuances": "既可指实际障碍物，也可指资金、制度或个人处境造成的困难。比 masalah 更突出“挡住前进”的作用，不必然含有人为敌意。释义及构词依据：[DBP：rintang](https://prpm.dbp.gov.my/Cari1?d=274404&keyword=rintang)。",
+      "collocations": [
+        {
+          "ms": "menghadapi rintangan",
+          "zh": "面对障碍",
+          "en": "face obstacles"
+        },
+        {
+          "ms": "mengatasi rintangan",
+          "zh": "克服障碍",
+          "en": "overcome obstacles"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "电阻；电路元件对电流的阻碍程度，以其两端电压与流经电流的比值表示，单位为欧姆。",
+      "en_definition": "Electrical resistance: the ratio of the potential difference across a component to the current through it, measured in ohms.",
+      "ms_definition": "Nisbah beza keupayaan merentasi sesuatu komponen elektrik kepada arus yang mengalir melaluinya.",
+      "nuances": "物理与电学术语。rintangan 指电阻这一物理量，perintang 指电阻器；kerintangan 指电阻率。定义依据：[DBP：学校科学术语](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=rintangan+elektrik)。",
+      "collocations": [
+        {
+          "ms": "rintangan elektrik",
+          "zh": "电阻",
+          "en": "electrical resistance"
+        },
+        {
+          "ms": "rintangan dalam",
+          "zh": "内阻",
+          "en": "internal resistance"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 项目进展",
+      "ms": "Kekurangan tenaga mahir merupakan rintangan utama dalam pelaksanaan projek ini.",
+      "zh": "熟练人才不足是实施这个项目的主要障碍。",
+      "en": "The shortage of skilled personnel is the main obstacle to implementing this project."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论活动筹备",
+      "ms_spoken": "Ada rintangan sikit je, kita boleh cari jalan.",
+      "ms_standard": "Hanya ada sedikit rintangan; kita boleh mencari jalan penyelesaian.",
+      "zh": "就是有点小障碍，我们能想办法的。",
+      "en": "It's only a small setback. We can work something out.",
+      "spoken_features": [
+        "sikit 对应标准语 sedikit",
+        "je 对应 sahaja，具有淡化困难的作用",
+        "nak 对应 hendak",
+        "lah 在回应中表达鼓励"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nak buat program ni banyak juga rintangan, ya. Tempat pun belum dapat.",
+          "ms_standard": "Terdapat banyak juga rintangan untuk menganjurkan program ini. Tempatnya juga belum diperoleh.",
+          "zh": "办这个活动还真有不少障碍啊，场地都还没找到。",
+          "en": "There are quite a few hurdles to organizing this event. We haven't even found a venue yet."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kita cuba dewan kat taman aku dulu lah. Satu-satu kita selesaikan.",
+          "ms_standard": "Kita cuba mendapatkan dewan di kawasan perumahan saya dahulu. Kita selesaikan masalah itu satu demi satu.",
+          "zh": "先试试我家小区的礼堂吧。我们一件件解决。",
+          "en": "Let's try the hall in my neighbourhood first. We'll tackle things one at a time."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Rintangan is formed from rintang with the noun-forming suffix -an. The related vocabulary includes things lying across a route and actions that obstruct progress. This provides a useful bridge between physical barriers and difficulties in life. Scientific Malay also uses rintangan for electrical resistance, giving obstruction a precise measurable application.",
+    "cognitive_memory_aid": "rintang 是“挡住”，加 -an 变成“挡路的障碍”；生活有阻碍，电流有电阻。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论工作困难时，以具体情况作主语较为得体，如 kekurangan dana menjadi rintangan；直接说某人是 rintangan 容易显得指责。",
+    "usage_etiquette": "适用于学习、工作、体育及技术语境。安慰他人时，sikit je 可能淡化对方承受的困难，应结合关系和实际情况使用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论工作困难时，以具体情况作主语较为得体，如 kekurangan dana menjadi rintangan；直接说某人是 rintangan 容易显得指责。",
+    "usage_etiquette": "适用于学习、工作、体育及技术语境。安慰他人时，sikit je 可能淡化对方承受的困难，应结合关系和实际情况使用。"
+  }
+}
