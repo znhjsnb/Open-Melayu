@@ -1,0 +1,120 @@
+{
+  "headword": {
+    "word": "make",
+    "syllables": null,
+    "ipa": "/ma.kɛ/",
+    "jawi": null,
+    "frequency_rank": 4928,
+    "status": "dialectal"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "make",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + make → make（吉兰丹方言）；标准对应词：makan",
+    "pattern_note": "无词缀；不是 ma- + ke。此方言形式对应标准语 makan。下列词族成员属于标准词 makan 的词族，不应直接以 make 为基底机械套用词缀。",
+    "word_family": [
+      {
+        "word": "makan",
+        "affix": null,
+        "gloss": "吃；标准对应词"
+      },
+      {
+        "word": "makanan",
+        "affix": "-an",
+        "gloss": "食物；由标准词根 makan 派生"
+      },
+      {
+        "word": "memakan",
+        "affix": "meN-",
+        "gloss": "吃；由标准词根 makan 派生"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "吃；进食。吉兰丹方言中与标准马来语 makan 对应的形式。",
+      "en_definition": "To eat; a Kelantan Malay dialect form corresponding to standard Malay makan.",
+      "ms_definition": "Bentuk dialek Kelantan yang sepadan dengan makan, iaitu mengambil makanan.",
+      "nuances": "此处仅收录有方言证据的“吃”。它与英语 make 同形，但读音、词义不同。输入包中的 various translations 是英语释义提示式文本，不能用作音节，也不足以判断原始语料采用哪一种语言。",
+      "collocations": [
+        {
+          "ms": "make nasik",
+          "zh": "吃饭；吃米饭",
+          "en": "eat rice; have a meal"
+        },
+        {
+          "ms": "make banyok",
+          "zh": "吃很多",
+          "en": "eat a lot"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场通知；使用标准对应词 makan",
+      "ms": "Para peserta dijemput makan tengah hari di dewan selepas sesi taklimat.",
+      "zh": "说明会结束后，敬请各位参与者到礼堂用午餐。",
+      "en": "Participants are invited to have lunch in the hall after the briefing."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 吉兰丹朋友相约吃饭",
+      "ms_spoken": "Nok make gapo?",
+      "ms_standard": "Kamu hendak makan apa?",
+      "zh": "想吃什么？",
+      "en": "What do you want to eat?",
+      "spoken_features": [
+        "make 对应标准语 makan",
+        "nok 是吉兰丹方言中对应 hendak 的形式",
+        "gapo 对应 apa",
+        "对话采用方言形式；不把全国性口语 nak 强行替换进方言句"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (吉兰丹朋友)",
+          "ms_spoken": "Nok make gapo?",
+          "ms_standard": "Kamu hendak makan apa?",
+          "zh": "想吃什么？",
+          "en": "What do you want to eat?"
+        },
+        {
+          "speaker": "Amir (吉兰丹朋友)",
+          "ms_spoken": "Kawe nok make nasik.",
+          "ms_standard": "Saya hendak makan nasi.",
+          "zh": "我想吃饭。",
+          "en": "I'd like some rice."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP's Kelantan glossary repeatedly records make where its standard Malay translations use makan. These paired examples connect the spelling with ordinary eating, including eating rice and eating a large amount. They establish a regional counterpart, not an English loan. The packet alone cannot show whether its original occurrence belongs to this dialect.",
+    "cognitive_memory_aid": "把 make 和 makan 配成“方言—标准语”一对，想到吃饭；这里读作近似 ma-kɛ，不读英语 /meɪk/。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在熟悉吉兰丹方言的交流圈中自然适用。面对跨州听众或正式收件人，使用 makan 更容易理解；方言本身不代表失礼。",
+    "usage_etiquette": "适合方言对话、地方文化内容和忠实转写。不要仅为模仿口音而夸张使用；正式正文采用 makan，保留方言引语时可附标准语对应。"
+  },
+  "validation": {
+    "standard_equivalent": "makan",
+    "requires_source_context": true,
+    "packet_syllables_rejected": "various translations",
+    "syllables_note": "原字段不是音节数据，故置为 null；未将其当作读音信息使用。",
+    "ipa_note": "依据 DBP 方言用例中的音标作宽式转写；不表示所有吉兰丹说话者的发音完全一致。",
+    "definition_provenance": "三语释义为方言例证支持下的编纂性释义，不是官方定义的逐字引文。",
+    "evidence_note": "DBP 的吉兰丹方言例句以 make 对应标准语 makan，并记录 make nasik、make banyok 等组合。[DBP 吉兰丹方言用例](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=make+)",
+    "scope_note": "本条展示已核实的方言解释；原始记录也可能涉及英语同形词，须凭原句判定。",
+    "examples_note": "场景句与对话为本条编写；正式场景使用标准对应词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在熟悉吉兰丹方言的交流圈中自然适用。面对跨州听众或正式收件人，使用 makan 更容易理解；方言本身不代表失礼。",
+    "usage_etiquette": "适合方言对话、地方文化内容和忠实转写。不要仅为模仿口音而夸张使用；正式正文采用 makan，保留方言引语时可附标准语对应。"
+  }
+}

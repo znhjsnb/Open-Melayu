@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "home",
+    "syllables": null,
+    "ipa": "/həʊm/",
+    "jawi": null,
+    "frequency_rank": 4666,
+    "status": "foreign_english"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "home",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + home → home",
+    "pattern_note": "这是英语整词，不作马来语词缀拆分。英语读一个音节，词尾 e 不单独发音；以下词族也属于英语。",
+    "word_family": [
+      {
+        "word": "homeless",
+        "affix": "-less",
+        "gloss": "无家可归的"
+      },
+      {
+        "word": "homely",
+        "affix": "-ly",
+        "gloss": "英式英语：朴实舒适、像家一样的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "家；个人或家庭居住并具有归属感的地方。",
+      "en_definition": "The place where a person lives and feels they belong.",
+      "ms_definition": "Tempat seseorang tinggal dan menjalani kehidupan bersama keluarga atau isi rumahnya.",
+      "nuances": "本项解释英语 home，不表示它已成为马来西亚标准马来语词。标准对应词按语境为 rumah、tempat tinggal 或 kediaman；以下搭配采用马来语对应表达。[DBP：home 的对应词](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=kediaman)。",
+      "collocations": [
+        {
+          "ms": "rumah keluarga",
+          "zh": "家庭住所",
+          "en": "family home"
+        },
+        {
+          "ms": "tempat tinggal tetap",
+          "zh": "固定住所",
+          "en": "permanent home"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "在家；回家；到家，具体意义由所搭配的动词决定。",
+      "en_definition": "At, to, or back to the place where one lives.",
+      "ms_definition": "Di rumah atau menuju dan kembali ke rumah, bergantung pada kata kerja yang digunakan.",
+      "nuances": "这是英语中的副词用法。go home 对应 pulang 或 balik ke rumah；stay home 对应 berada di rumah。[Collins：home](https://www.collinsdictionary.com/dictionary/english/home)。",
+      "collocations": [
+        {
+          "ms": "pulang ke rumah",
+          "zh": "回家",
+          "en": "go home"
+        },
+        {
+          "ms": "berada di rumah",
+          "zh": "待在家里；在家",
+          "en": "be at home"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "首页；主画面，常见于英语界面中的导航标签。",
+      "en_definition": "An interface label for the main page or starting screen.",
+      "ms_definition": "Label antara muka yang merujuk kepada laman utama atau skrin utama sesuatu laman web atau aplikasi.",
+      "nuances": "英语界面通常显示 Home；在马来语说明中可原样引用实际标签。若界面已经本地化，应使用 laman utama 或 skrin utama。下列搭配中的 home 表示被引用的界面标签。[马来西亚国防部系统使用手册](https://www.mod.gov.my/images/mindef/upload/manual/Panduan%20pengguna%20-%20DDMS2.pdf)。",
+      "collocations": [
+        {
+          "ms": "butang 'home'",
+          "zh": "首页按钮",
+          "en": "home button"
+        },
+        {
+          "ms": "menu 'home'",
+          "zh": "首页菜单",
+          "en": "home menu"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila klik butang berlabel 'home' untuk kembali ke laman utama portal.",
+      "zh": "请点击标有“home”的按钮，返回门户首页。",
+      "en": "Please click the button labelled 'home' to return to the portal's main page."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tekan home je, nanti keluar menu utama.",
+      "ms_standard": "Tekan butang laman utama sahaja untuk memaparkan menu utama.",
+      "zh": "按一下 home 就行，主菜单就会出来。",
+      "en": "Just tap home and the main menu will come up.",
+      "spoken_features": [
+        "home 是保留的英语界面标签",
+        "je 对应 sahaja",
+        "省略 butang；nanti 在这里引出随后出现的结果"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Aku dah sesat kat app ni. Nak balik ke menu awal macam mana?",
+          "ms_standard": "Saya tidak tahu kedudukan saya dalam aplikasi ini. Bagaimanakah saya boleh kembali ke menu awal?",
+          "zh": "我在这个应用里点迷路了，怎么回到最开始的菜单？",
+          "en": "I'm lost in this app. How do I get back to the first menu?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Tekan home kat bawah tu je.",
+          "ms_standard": "Tekan butang laman utama di bahagian bawah itu sahaja.",
+          "zh": "点下面那个 home 就行。",
+          "en": "Just tap home at the bottom."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Home is inherited English vocabulary with Germanic ancestry, recorded since the Old English period. Its long history connects dwelling with belonging. Computing later extended that familiar idea to a starting location: the place users return to when navigating a system. This extension makes the interface label easy to remember. [Oxford English Dictionary: home](https://doi.org/10.1093/OED/9487569112).",
+    "cognitive_memory_aid": "home 把“家”和“首页”连起来：人回家，操作回主画面。/həʊm/ 一个音节，末尾 e 不另读。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讲解操作时引用对方屏幕上的实际标签最清楚；面对不熟悉英语的人，可说“butang home, iaitu butang laman utama”。",
+    "usage_etiquette": "朋友间可以随双方习惯切换英语；正式马来文中，住所通常写 rumah 或 kediaman，网页首页写 laman utama。缺少上下文时，不把 home 自动译成实体房屋。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讲解操作时引用对方屏幕上的实际标签最清楚；面对不熟悉英语的人，可说“butang home, iaitu butang laman utama”。",
+    "usage_etiquette": "朋友间可以随双方习惯切换英语；正式马来文中，住所通常写 rumah 或 kediaman，网页首页写 laman utama。缺少上下文时，不把 home 自动译成实体房屋。"
+  }
+}

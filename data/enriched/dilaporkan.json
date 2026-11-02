@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "dilaporkan",
+    "syllables": null,
+    "ipa": "/di.la.por.kan/",
+    "jawi": null,
+    "frequency_rank": 4641,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lapor",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + lapor + -kan → dilaporkan",
+    "pattern_note": "输入包将本词误判为词根；实际为 lapor 的被动派生形式，对应主动式 melaporkan。词根不发生音变，di- 与动词连写；音节可分析为 di.la.por.kan。音节与 Jawi 字段保留输入包的空值。",
+    "word_family": [
+      {
+        "word": "melaporkan",
+        "affix": "meN-...-kan",
+        "gloss": "报告；举报"
+      },
+      {
+        "word": "laporan",
+        "affix": "-an",
+        "gloss": "报告；报道"
+      },
+      {
+        "word": "pelapor",
+        "affix": "peN-",
+        "gloss": "报告者；举报人"
+      },
+      {
+        "word": "pelaporan",
+        "affix": "peN-...-an",
+        "gloss": "报告行为；呈报过程"
+      }
+    ],
+    "root_jawi": "لاڤور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被报告、呈报或举报给有关人员或机构。",
+      "en_definition": "To be reported or brought to the attention of a person or authority.",
+      "ms_definition": "Diberitahukan atau diadukan kepada seseorang atau pihak berkenaan melalui laporan.",
+      "nuances": "被动结构突出被报告的事情；报告者可用 oleh 引出。di- 本身不表示过去时，完成意义通常由 telah、sudah 或上下文表达。释义依据 lapor 的词条作被动转换，并非独立词条的逐字引文。[PRPM：lapor](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lapor)",
+      "collocations": [
+        {
+          "ms": "dilaporkan kepada polis",
+          "zh": "被报告给警方；已报警",
+          "en": "reported to the police"
+        },
+        {
+          "ms": "dilaporkan kepada pihak pengurusan",
+          "zh": "被呈报给管理层",
+          "en": "reported to management"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "据报道处于某种状态或发生某事；由报道传达相关消息。",
+      "en_definition": "To be reported in the media, especially as having a particular condition or having done something.",
+      "ms_definition": "Dinyatakan dalam berita atau laporan sebagai berada dalam sesuatu keadaan atau mengalami sesuatu kejadian.",
+      "nuances": "常用于新闻中的消息归属，如 dilaporkan hilang、dilaporkan selamat。表达的是报道内容，不自动保证消息已获独立证实；这是 melaporkan 的被动用法在新闻语境中的延伸。[PRPM：lapor](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lapor)",
+      "collocations": [
+        {
+          "ms": "dilaporkan hilang",
+          "zh": "据报失踪",
+          "en": "reported missing"
+        },
+        {
+          "ms": "dilaporkan selamat",
+          "zh": "据报平安",
+          "en": "reported safe"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kerosakan lif itu telah dilaporkan kepada pihak pengurusan untuk tindakan lanjut.",
+      "zh": "电梯故障已呈报管理方，以便采取进一步措施。",
+      "en": "The lift fault has been reported to management for further action."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kerosakan lif tu dah dilaporkan kat pejabat, kan?",
+      "ms_standard": "Kerosakan lif itu sudah dilaporkan kepada pihak pejabat, bukan?",
+      "zh": "电梯坏了这事已经报给办公室了，对吧？",
+      "en": "The lift problem has been reported to the office, right?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式",
+        "dah 对应 sudah",
+        "kat 在此口语中替代 kepada",
+        "kan 用于请求确认"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kerosakan lif tu dah dilaporkan kat pejabat, kan?",
+          "ms_standard": "Kerosakan lif itu sudah dilaporkan kepada pihak pejabat, bukan?",
+          "zh": "电梯坏了这事已经报给办公室了，对吧？",
+          "en": "The lift problem has been reported to the office, right?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, dah dilaporkan pagi tadi. Kita guna tangga je dulu.",
+          "ms_standard": "Ya, kerosakan itu sudah dilaporkan pagi tadi. Kita gunakan tangga sahaja buat sementara waktu.",
+          "zh": "对，今天早上就报了。我们先走楼梯吧。",
+          "en": "Yes, it was reported this morning. Let's use the stairs for now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay can present the same reporting event from different viewpoints. Melaporkan foregrounds whoever gives the information, while dilaporkan foregrounds the matter being reported. This makes the passive form useful in administrative writing and news. The construction is transparent: lapor supplies the reporting meaning, and di- marks the passive counterpart of melaporkan. [PRPM: lapor](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=lapor)",
+    "cognitive_memory_aid": "抓住 lapor「报告」：前面 di- 标记被动，合起来就是「被报告」。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合正式汇报。涉及投诉或举报时，明确报告对象和事实，有助于避免把尚待调查的指控写成定论。",
+    "usage_etiquette": "新闻转述可使用 dilaporkan，并交代消息来源；职场沟通中可用来说明问题已经呈报，但它不表示问题已经解决。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合正式汇报。涉及投诉或举报时，明确报告对象和事实，有助于避免把尚待调查的指控写成定论。",
+    "usage_etiquette": "新闻转述可使用 dilaporkan，并交代消息来源；职场沟通中可用来说明问题已经呈报，但它不表示问题已经解决。"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "satupun",
+    "syllables": null,
+    "ipa": "/sa.tu pun/",
+    "jawi": null,
+    "frequency_rank": 4788,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "satu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "satu + pun（独立强调小品词）→ satu pun",
+    "pattern_note": "satupun 是 satu pun 的非规范连写；pun 在这里不是后缀，须分开书写，组合时没有词干音变。已依据实际结构修正数据包中的整词词根标记。",
+    "word_family": [
+      {
+        "word": "bersatu",
+        "affix": "ber-",
+        "gloss": "团结；合为一体"
+      },
+      {
+        "word": "menyatukan",
+        "affix": "meN-…-kan",
+        "gloss": "使统一；使结合"
+      }
+    ],
+    "root_jawi": "ساتو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "规范形式为 satu pun，表示“哪怕一个；连一个也”，常与否定词搭配，构成“一个也没有；一个也不”的意思。",
+      "en_definition": "Nonstandard joined spelling of satu pun, meaning even one or a single one, typically used with negation to mean not even one.",
+      "ms_definition": "Ejaan tidak baku bagi satu pun, iaitu gabungan kata bilangan satu dengan partikel penegas pun untuk menegaskan bilangan paling kecil, lazimnya dalam ayat nafi.",
+      "nuances": "此处词性标签指 pun 的小品词功能；整个 satu pun 是数量表达，并非单独的小品词。否定意义来自 tidak、tiada、belum 或 jangan 等上下文，不能把 satu pun 本身简单等同于“没有”。规范例句均分写。[DBP：小品词拼写规则](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)",
+      "collocations": [
+        {
+          "ms": "tidak ada satu pun",
+          "zh": "一个也没有",
+          "en": "not a single one"
+        },
+        {
+          "ms": "jangan tinggalkan satu pun",
+          "zh": "一个也别落下",
+          "en": "do not leave even one behind"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 检查报告；使用规范拼写 satu pun",
+      "ms": "Pemeriksaan mendapati bahawa tidak ada satu pun dokumen yang hilang.",
+      "zh": "检查发现，没有任何一份文件遗失。",
+      "en": "The inspection found that not a single document was missing."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事核对邮件；使用规范分写",
+      "ms_spoken": "Aku dah semak, tapi satu pun tak jumpa.",
+      "ms_standard": "Saya sudah menyemaknya, tetapi tidak menemukan satu pun.",
+      "zh": "我已经查过了，可一个都没找到。",
+      "en": "I've checked, but I couldn't find a single one.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "tak 对应 tidak。",
+        "satu pun 前置以突出“连一个也没有”。",
+        "口语读法较连贯，但规范书写仍须分成两个词。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah jumpa e-mel pelanggan tu?",
+          "ms_standard": "Adakah kamu sudah menemukan e-mel daripada pelanggan itu?",
+          "zh": "你找到那个客户发来的邮件了吗？",
+          "en": "Have you found the emails from that customer?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum, satu pun tak jumpa. Aku nak semak folder spam pula.",
+          "ms_standard": "Belum, saya tidak menemukan satu pun. Saya hendak menyemak folder spam pula.",
+          "zh": "还没，一封都没找到。我再去垃圾邮件文件夹看看。",
+          "en": "Not yet. I haven't found a single one. I'll check the spam folder next."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Satu pun brings together satu, meaning one, and the emphasizing particle pun. The expression makes the smallest possible quantity prominent, which explains its force in negative statements: not even one. The joined spelling satupun obscures that structure. DBP's spelling rules keep pun separate here, distinguishing this expression from established joined forms such as walaupun. [DBP spelling guide](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)",
+    "cognitive_memory_aid": "satu 是“一”，pun 加重“连……也”：tidak ada satu pun＝连一个也没有。两个成分，分开写。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "satu pun 会加强语气。对同事说 Satu pun awak tak buat 可能显得指责，应根据关系和场合调整措辞。",
+    "usage_etiquette": "报告、考试、商务邮件和正式出版物均写 satu pun。聊天中出现 satupun 时可理解其意，但不应将连写形式作为规范词形教授。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "satu pun 会加强语气。对同事说 Satu pun awak tak buat 可能显得指责，应根据关系和场合调整措辞。",
+    "usage_etiquette": "报告、考试、商务邮件和正式出版物均写 satu pun。聊天中出现 satupun 时可理解其意，但不应将连写形式作为规范词形教授。"
+  }
+}
