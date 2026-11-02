@@ -1,0 +1,174 @@
+{
+  "headword": {
+    "word": "duga",
+    "syllables": "du.ga",
+    "ipa": "/ˈduɡə/",
+    "jawi": "دوݢ",
+    "frequency_rank": 7951,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "duga",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + duga → duga",
+    "pattern_note": "本词无词缀；meN- 在 d 前实现为 men-，保留 d：meN- + duga → menduga。所列 IPA 采用词末 a 弱化为 [ə] 的读法；保留 [a] 的读法亦存在。",
+    "word_family": [
+      {
+        "word": "menduga",
+        "affix": "meN-",
+        "gloss": "推测；测深；试探"
+      },
+      {
+        "word": "dugaan",
+        "affix": "-an",
+        "gloss": "猜测；考验"
+      },
+      {
+        "word": "terduga",
+        "affix": "ter-",
+        "gloss": "可预料的；已料想到的"
+      },
+      {
+        "word": "penduga",
+        "affix": "peN-",
+        "gloss": "测深器；测量或测试工具"
+      }
+    ],
+    "root_jawi": "دوݢ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "猜想；推测；根据有限信息估计某事。",
+      "en_definition": "To guess, suppose or anticipate something from incomplete information.",
+      "ms_definition": "Membuat anggaran atau sangkaan tentang sesuatu yang belum diketahui dengan pasti.",
+      "nuances": "正式主动句通常用 menduga；原形可见于 saya duga、tidak saya duga 等结构。表示推测而非已经证实。释义依据 [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=duga)。",
+      "collocations": [
+        {
+          "ms": "seperti yang saya duga",
+          "zh": "正如我所料",
+          "en": "as I expected"
+        },
+        {
+          "ms": "tidak saya duga",
+          "zh": "出乎我的意料",
+          "en": "I did not expect it"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "测深锤；系在绳索末端、用于测量水深的石块或金属重物。",
+      "en_definition": "A sounding weight attached to a line for measuring water depth.",
+      "ms_definition": "Pemberat pada hujung tali yang diturunkan ke dalam air untuk mengetahui kedalamannya.",
+      "nuances": "主要保留在 batu duga、tali duga 等航海表达中；属于专门用语，不是日常猜谜活动中的器具。",
+      "collocations": [
+        {
+          "ms": "batu duga",
+          "zh": "测深锤",
+          "en": "a sounding weight"
+        },
+        {
+          "ms": "tali duga",
+          "zh": "测深绳",
+          "en": "a sounding line"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "测量海、河等水体的深度。",
+      "en_definition": "To sound or measure the depth of a body of water.",
+      "ms_definition": "Menentukan kedalaman laut, sungai atau perairan lain melalui pengukuran.",
+      "nuances": "通常以 menduga 或 diduga 出现。以下为该航海义的常规搭配，使用频率受专业领域限制；现代一般说明也常用 mengukur kedalaman。",
+      "collocations": [
+        {
+          "ms": "menduga kedalaman laut",
+          "zh": "测量海水深度",
+          "en": "to sound the sea"
+        },
+        {
+          "ms": "menduga kedalaman sungai",
+          "zh": "测量河水深度",
+          "en": "to measure a river's depth"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "试探；测试，以了解某人的能力、知识、心意或其他尚不清楚的情况。",
+      "en_definition": "To probe or test in order to discover someone's ability, knowledge, feelings or another unknown quality.",
+      "ms_definition": "Melakukan percubaan atau pemeriksaan untuk mengetahui kebolehan, pengetahuan, perasaan atau keadaan sesuatu.",
+      "nuances": "普通主动句常用 menduga，强调通过测试了解情况。temu duga 是固定复合词，意为面试；应整体学习。DBP 另列米南加保语背景的竞争义同形词，不宜混入本组通用义。",
+      "collocations": [
+        {
+          "ms": "menduga pengetahuan",
+          "zh": "测试知识",
+          "en": "to test knowledge"
+        },
+        {
+          "ms": "menduga hati",
+          "zh": "试探心意",
+          "en": "to probe someone's feelings"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jumlah permohonan yang diterima jauh melebihi angka yang kami duga pada peringkat awal.",
+      "zh": "收到的申请数量远超我们最初的预估。",
+      "en": "The number of applications received far exceeded our initial estimate."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Memang aku tak duga dia nak datang juga!",
+      "ms_standard": "Aku benar-benar tidak menyangka bahawa dia juga mahu datang!",
+      "zh": "我真没想到他也想来！",
+      "en": "I really didn't expect him to want to come too!",
+      "spoken_features": [
+        "tak 对应 tidak",
+        "nak 对应 mahu",
+        "口语可省略引导从句的 bahawa",
+        "aku tak duga 在随意交谈中自然"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku tak duga ramai betul orang kat sini. Baru pukul lapan je!",
+          "ms_standard": "Aku tidak menyangka terdapat begitu ramai orang di sini. Sekarang baru pukul lapan!",
+          "zh": "真没想到这里这么多人，才八点啊！",
+          "en": "I didn't expect so many people here. It's only eight!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kan? Jom beratur dulu, nanti lagi panjang pula.",
+          "ms_standard": "Betul, bukan? Mari kita beratur dahulu sebelum barisan menjadi lebih panjang.",
+          "zh": "是吧？先排队吧，等一下队伍更长。",
+          "en": "Right? Let's get in line before it gets even longer."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Historical Malay navigation used a weighted sounding line to discover the depth hidden beneath the water. Dictionaries record batu duga and tali duga alongside meanings involving conjecture and probing. This connection makes an effective learning image: investigate what cannot yet be seen. It illustrates the word's semantic range without proving which meaning developed first or establishing an ultimate borrowing source. Source: [Wilkinson's dictionary](https://www.sabrizain.org/malaya/library/dictwilkinson.pdf).",
+    "cognitive_memory_aid": "想象把测深锤放进水里：探水深是 duga，探未知答案也是 duga；从“探”串起“测量、猜测、试探”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "说明判断尚未证实时，可用 Saya menduga bahawa… 表明是推测；涉及他人的动机或过失时，应提供具体根据，避免把猜测说成事实。",
+    "usage_etiquette": "menduga hati 可用于感情或忠诚方面的试探，但当面对人使用可能显得多疑。dugaan hidup 常指人生考验；宗教性的 dugaan Tuhan 宜结合对方的信仰和谈话情境使用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "说明判断尚未证实时，可用 Saya menduga bahawa… 表明是推测；涉及他人的动机或过失时，应提供具体根据，避免把猜测说成事实。",
+    "usage_etiquette": "menduga hati 可用于感情或忠诚方面的试探，但当面对人使用可能显得多疑。dugaan hidup 常指人生考验；宗教性的 dugaan Tuhan 宜结合对方的信仰和谈话情境使用。"
+  }
+}

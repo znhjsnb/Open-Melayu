@@ -1,0 +1,130 @@
+{
+  "headword": {
+    "word": "suaramu",
+    "syllables": null,
+    "ipa": "/su.a.ra.mu/",
+    "jawi": "سوارا",
+    "frequency_rank": 7865,
+    "status": "official",
+    "verification_note": "规范马来语组合形式，不必作为独立词根收录。保留数据包的 Jawi 字段，但 سوارا 仅拼写 suara，未包含 -mu；完整形式可写作 سوارامو。音节可分析为 su.a.ra.mu。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "suara",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "suara + -mu → suaramu",
+    "pattern_note": "-mu 是附着在词尾的第二人称代词简式，此处表示所属；严格说属于附着代词，并非派生词缀。连写时词根不发生音变。",
+    "word_family": [
+      {
+        "word": "bersuara",
+        "affix": "ber-",
+        "gloss": "发声；开口表达"
+      },
+      {
+        "word": "menyuarakan",
+        "affix": "meN-...-kan",
+        "gloss": "表达；说出意见或诉求"
+      },
+      {
+        "word": "penyuaraan",
+        "affix": "peN-...-an",
+        "gloss": "发声或表达的行为"
+      }
+    ],
+    "root_jawi": "سوارا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的声音，尤指你说话、歌唱或发声时产生的声音。",
+      "en_definition": "Your voice, especially the sound you produce when speaking or singing.",
+      "ms_definition": "Bunyi yang kamu keluarkan ketika bercakap, menyanyi atau bersuara.",
+      "nuances": "suara 在词典中还可指动物或器物的声音，但 suaramu 通常指交谈对象本人的声音。它比 suara awak 更容易带出亲近、抒情或文学色彩；IPA 采用保留 /a/ 的读法。此处马来语释义是根据词根义和 -mu 合成的释义，并非独立词条的官方原文。词根参见[DBP：suara](https://prpm.dbp.gov.my/Cari1?d=319148&keyword=suara)。",
+      "collocations": [
+        {
+          "ms": "mendengar suaramu",
+          "zh": "听见你的声音",
+          "en": "to hear your voice"
+        },
+        {
+          "ms": "merindui suaramu",
+          "zh": "想念你的声音",
+          "en": "to miss your voice"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你的意见、诉求或立场，尤其指你表达意见或参与公共事务时的声音。",
+      "en_definition": "Your expressed views, concerns, or voice in a discussion or public matter.",
+      "ms_definition": "Pendapat, pandangan atau kehendak yang kamu nyatakan dalam sesuatu perkara.",
+      "nuances": "这是 suara 的引申义，并不必然涉及实际音量。选举语境中可以关联个人的政治表达，但 suaramu 不应在所有场合直接译为“你的一票”。依据[DBP：suara 的意见及表态义](https://prpm.dbp.gov.my/Cari1?d=319148&keyword=suara)归纳。",
+      "collocations": [
+        {
+          "ms": "suaramu didengar",
+          "zh": "你的意见得到倾听",
+          "en": "your voice is heard"
+        },
+        {
+          "ms": "suaramu penting",
+          "zh": "你的意见很重要",
+          "en": "your voice matters"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "青年公共参与宣传",
+      "ms": "Melalui kempen ini, suaramu dapat membantu membentuk dasar yang lebih peka terhadap keperluan golongan muda.",
+      "zh": "通过这项活动，你的意见能够帮助制定更关注青年需求的政策。",
+      "en": "Through this campaign, your voice can help shape policies that better address young people's needs."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人发送语音",
+      "ms_spoken": "Aku dah dengar mesej tadi, tapi suaramu perlahan sangatlah.",
+      "ms_standard": "Saya sudah mendengar mesej tadi, tetapi suaramu terlalu perlahan.",
+      "zh": "刚才的语音我听了，不过你的声音太小了啦。",
+      "en": "I listened to your message, but your voice was really quiet.",
+      "spoken_features": [
+        "aku 用于熟人之间",
+        "dah 是 sudah 的口语缩略形式",
+        "-lah 加强语气",
+        "suaramu 在聊天中带亲近色彩，suara kau 或 suara awak 也常见"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (好友)",
+          "ms_spoken": "Aku dah dengar mesej kau, tapi suaramu perlahan sangat. Kau kat luar ke?",
+          "ms_standard": "Saya sudah mendengar mesej kamu, tetapi suaramu terlalu perlahan. Adakah kamu berada di luar?",
+          "zh": "你的语音我听了，可声音太小。你在外面吗？",
+          "en": "I listened to your voice message, but you were really quiet. Are you outside?"
+        },
+        {
+          "speaker": "Aina (好友)",
+          "ms_spoken": "Haah, aku kat luar. Nanti aku hantar semula je.",
+          "ms_standard": "Ya, saya berada di luar. Saya akan menghantarnya semula nanti.",
+          "zh": "对，我在外面。待会儿重新发给你就好。",
+          "en": "Yeah, I'm outside. I'll just send it again later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay suara comes from Sanskrit svara, associated with sound and voice. In suaramu, that established loanword combines with the Malay attached pronoun -mu to mean your voice. The expression illustrates how a historically borrowed root functions naturally within Malay grammar, carrying both literal sound and the figurative expression of personal views. [Source: published linguistic research](https://www.pertanika.upm.edu.my/resources/files/Pertanika%20PAPERS/JSSH%20Vol.%2025%20%283%29%20Sep.%202017/11%20JSSH-1573-2016-4thProof.pdf).",
+    "cognitive_memory_aid": "suara 是“声音”，-mu 是“你的”：把“你的”贴到声音后面，suaramu 就是“你的声音”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 往往体现亲近、文学表达或宣传文案中的直接诉求。正式向上级、客户或陌生长者说话时，suara tuan、suara puan 或具体姓名通常更稳妥。",
+    "usage_etiquette": "适合歌词、诗歌、亲近关系和青年宣传文案。涉及宗教中的神圣称呼时，代词书写有专门的大写与连字符规范，不应直接照搬普通 suaramu。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 往往体现亲近、文学表达或宣传文案中的直接诉求。正式向上级、客户或陌生长者说话时，suara tuan、suara puan 或具体姓名通常更稳妥。",
+    "usage_etiquette": "适合歌词、诗歌、亲近关系和青年宣传文案。涉及宗教中的神圣称呼时，代词书写有专门的大写与连字符规范，不应直接照搬普通 suaramu。"
+  }
+}

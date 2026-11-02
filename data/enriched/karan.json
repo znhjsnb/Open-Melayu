@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "karan",
+    "syllables": "ka.ran",
+    "ipa": "/ka.ran/",
+    "jawi": "کارن",
+    "frequency_rank": 7896,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + karan → karan",
+    "pattern_note": "依输入保留词根字段 kar，但不能据此分析为 kar + -an；实际构词以完整词干 karan 为基础。meN- + karan → mengaran，词首 k 脱落，鼻音实现为 /ŋ/。",
+    "word_family": [
+      {
+        "word": "berkaran",
+        "affix": "ber-",
+        "gloss": "用电烫发；头发经电烫而卷曲"
+      },
+      {
+        "word": "mengaran",
+        "affix": "meN-",
+        "gloss": "给某人电烫头发"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "电流；日常用语中也指电或电力供应。",
+      "en_definition": "Electric current; in everyday usage, electricity or the electricity supply.",
+      "ms_definition": "Arus elektrik.",
+      "nuances": "词典收录的词，日常及部分地区口语中较常见；技术文件通常用 arus elektrik，供电事项用 bekalan elektrik。词族中的烫发义属于派生词，不应直接列作 karan 的独立动词义。[DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=karan)",
+      "collocations": [
+        {
+          "ms": "karan elektrik",
+          "zh": "电流",
+          "en": "electric current"
+        },
+        {
+          "ms": "kena karan",
+          "zh": "触电",
+          "en": "get an electric shock"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan itu menggunakan istilah karan untuk merujuk kepada arus elektrik.",
+      "zh": "该报告使用 karan 一词指电流。",
+      "en": "The report uses the term karan to refer to electric current."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat rumah kau dah ada karan ke?",
+      "ms_standard": "Adakah bekalan elektrik di rumah kamu sudah pulih?",
+      "zh": "你家来电了吗？",
+      "en": "Is the power back on at your place?",
+      "spoken_features": [
+        "kat 对应标准语 di",
+        "dah 对应 sudah",
+        "ke 用作口语疑问标记",
+        "karan 在此指电力供应"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kat rumah kau dah ada karan ke?",
+          "ms_standard": "Adakah bekalan elektrik di rumah kamu sudah pulih?",
+          "zh": "你家来电了吗？",
+          "en": "Is the power back on at your place?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, baru je ada karan balik.",
+          "ms_standard": "Ya, bekalan elektrik baru sahaja pulih.",
+          "zh": "来了，刚刚才恢复。",
+          "en": "Yeah, it just came back on."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Karan is commonly explained as an adaptation of English current, although the supplied DBP entry does not establish that borrowing history. Its recorded derivatives reveal a striking cultural connection: berkaran and mengaran refer to electrically curling hair. Thus, a word associated with electricity also preserves the vocabulary of electrically assisted hairstyling. [DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=karan)",
+    "cognitive_memory_aid": "把 ka-ran 联想到 current：电流一来，灯就亮；这是声音联想，不是词根拆分。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词没有冒犯意味，但正式通知宜使用 bekalan elektrik 或 arus elektrik。kau 只适合熟人；对长辈或客户应换用称谓或更礼貌的句式。",
+    "usage_etiquette": "适合熟人讨论停电、来电或触电；表达故障时，karan tak ada 指没电，不能单凭这句话判断具体故障原因。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词没有冒犯意味，但正式通知宜使用 bekalan elektrik 或 arus elektrik。kau 只适合熟人；对长辈或客户应换用称谓或更礼貌的句式。",
+    "usage_etiquette": "适合熟人讨论停电、来电或触电；表达故障时，karan tak ada 指没电，不能单凭这句话判断具体故障原因。"
+  }
+}

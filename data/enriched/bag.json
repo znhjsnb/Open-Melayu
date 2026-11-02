@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "bag",
+    "syllables": null,
+    "ipa": "/bæɡ/",
+    "jawi": null,
+    "frequency_rank": 7908,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bag",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bag → bag",
+    "pattern_note": "英语整词，用于语码转换时不作马来语词缀拆分；所列音标为英语读音。标准马来语对应词拼作 beg。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "包；袋；此处指马来语交谈中夹用的英语 bag，标准马来语写作 beg。",
+      "en_definition": "A bag or carrying container; an English word used in code-switching, corresponding to standard Malay beg.",
+      "ms_definition": "Perkataan bahasa Inggeris bagi beg, iaitu bekas untuk membawa atau menyimpan barang; digunakan sebagai unsur percampuran bahasa.",
+      "nuances": "不能把 bag 当作表示“包、袋”的规范马来语拼写。此条只处理马来语交流中相关的英语夹用义，不扩展收录英语动词或俚语义。输入未提供音节与爪夷文，故保留 null。[DBP 英马词典 bag](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bag)",
+      "collocations": [
+        {
+          "ms": "shopping bag",
+          "zh": "购物袋；标准马来语：beg beli-belah",
+          "en": "shopping bag"
+        },
+        {
+          "ms": "handbag",
+          "zh": "手提包；标准马来语：beg tangan",
+          "en": "handbag"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：说明英语标签",
+      "ms": "Perkataan bahasa Inggeris “bag” pada label produk hendaklah digantikan dengan perkataan “beg” dalam versi bahasa Melayu.",
+      "zh": "产品标签上的英语“bag”在马来语版本中应改为“beg”。",
+      "en": "The English word “bag” on the product label should be replaced with “beg” in the Malay version."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：夹用英语",
+      "ms_spoken": "Bag aku tertinggal kat rumah lah.",
+      "ms_standard": "Beg saya tertinggal di rumah.",
+      "zh": "我的包落在家里啦。",
+      "en": "I left my bag at home.",
+      "spoken_features": [
+        "bag 为英语夹用词，规范马来语写作 beg",
+        "kat 对应标准语 di",
+        "lah 表达说话人的情绪",
+        "aku 适用于熟人之间"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bag aku tertinggal kat rumah lah. Kau dah keluar ke?",
+          "ms_standard": "Beg saya tertinggal di rumah. Adakah awak sudah keluar?",
+          "zh": "我的包落在家里啦。你已经出门了吗？",
+          "en": "I left my bag at home. Have you gone out yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum, aku nak keluar kejap lagi. Nanti aku bawakan.",
+          "ms_standard": "Belum, saya akan keluar sebentar lagi. Saya akan membawakan beg itu untuk awak.",
+          "zh": "还没，我一会儿才出门。等下给你带来。",
+          "en": "Not yet. I’m heading out shortly. I’ll bring it for you."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The important lexical distinction here is between an English word and its established Malay counterpart. DBP lists English bag with Malay equivalents including beg, karung and guni, depending on the container. This entry therefore treats bag as English material within Malay conversation, without inventing a separate historical Malay borrowing or an unsupported date of adoption. [DBP](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bag)",
+    "cognitive_memory_aid": "先认英语 bag“包”，再记马来语规范拼写 beg：说话可夹用，正式写作换成 beg。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人之间夹用英语通常自然；面向公众的马来语公告、学校作文和正式文件宜使用 beg。",
+    "usage_etiquette": "日常交流应以对方能理解为准；需要澄清拼写时可说“Dalam bahasa Melayu, ejaannya beg”，避免借纠错贬低对方的语言能力。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人之间夹用英语通常自然；面向公众的马来语公告、学校作文和正式文件宜使用 beg。",
+    "usage_etiquette": "日常交流应以对方能理解为准；需要澄清拼写时可说“Dalam bahasa Melayu, ejaannya beg”，避免借纠错贬低对方的语言能力。"
+  }
+}

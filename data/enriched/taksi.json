@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "taksi",
+    "syllables": "tak.si",
+    "ipa": "/ˈtaksi/",
+    "jawi": "تکسي",
+    "frequency_rank": 7937,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "taksi",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + taksi → taksi",
+    "pattern_note": "整词借入，不拆成马来语词缀；tak.si 分为两个音节。派生 menaksi 时，meN- 在 t 前变为 men-，词首 t 脱落。",
+    "word_family": [
+      {
+        "word": "menaksi",
+        "affix": "meN-",
+        "gloss": "乘出租车；口语形式"
+      },
+      {
+        "word": "menaksikan",
+        "affix": "meN-…-kan",
+        "gloss": "让人乘出租车；把汽车用作出租车"
+      }
+    ],
+    "root_jawi": "تکسي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "出租车，德士；印度尼西亚用语，对应马来西亚标准马来语 teksi。",
+      "en_definition": "A taxi; the Indonesian form corresponding to Malaysian Malay teksi.",
+      "ms_definition": "Teksi; bentuk bahasa Indonesia bagi kereta yang membawa penumpang dengan mengenakan tambang.",
+      "nuances": "DBP 将 taksi 标为 Id，即印度尼西亚用语。马来西亚正式行文通常用 teksi；本条 status 字段沿用指定格式，不表示 taksi 是马来西亚首选标准形式。以下搭配采用印度尼西亚形式。[DBP 地域标注与释义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teksi)",
+      "collocations": [
+        {
+          "ms": "naik taksi",
+          "zh": "乘出租车；马来西亚常说 naik teksi",
+          "en": "take a taxi"
+        },
+        {
+          "ms": "sopir taksi",
+          "zh": "出租车司机；马来西亚用 pemandu teksi",
+          "en": "taxi driver"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：区域词汇说明",
+      "ms": "Dalam dokumen Indonesia tersebut, istilah “taksi” merujuk kepada teksi yang digunakan untuk perjalanan dari lapangan terbang ke hotel.",
+      "zh": "在该印度尼西亚文件中，“taksi”指用于往返机场与酒店的出租车。",
+      "en": "In that Indonesian document, “taksi” refers to the taxi used for travel between the airport and the hotel."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：讨论印尼朋友的消息",
+      "ms_spoken": "Kawan aku kat Jakarta dah naik taksi, kejap lagi dia sampai lah.",
+      "ms_standard": "Kawan saya di Jakarta sudah menaiki teksi dan akan tiba sebentar lagi.",
+      "zh": "我在雅加达的朋友已经上出租车了，很快就到。",
+      "en": "My friend in Jakarta is already in a taxi. They'll be here soon.",
+      "spoken_features": [
+        "taksi 保留印度尼西亚语境用词；马来西亚标准对应词为 teksi",
+        "aku、kat、dah、kejap 分别对应 saya、di、sudah、sebentar",
+        "lah 加强告知语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kawan aku kat Jakarta dah naik taksi, kejap lagi dia sampai lah.",
+          "ms_standard": "Kawan saya di Jakarta sudah menaiki teksi dan akan tiba sebentar lagi.",
+          "zh": "我在雅加达的朋友已经上出租车了，很快就到。",
+          "en": "My friend in Jakarta is already in a taxi. They'll be here soon."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Okey, aku tunggu kat lobi je. Suruh dia mesej bila dah dekat.",
+          "ms_standard": "Baiklah, saya akan menunggu di lobi sahaja. Minta dia menghantar mesej apabila sudah hampir tiba.",
+          "zh": "好，我就在大堂等。让对方快到时发个消息。",
+          "en": "Okay, I'll wait in the lobby. Ask them to text when they're close."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Taksi belongs to the international taxi word family, whose name developed from the taximeter used to calculate fares. A measuring device thus supplied the familiar vehicle name. Indonesian uses taksi, while Malaysian Malay normally uses teksi. The international history is outlined by [Etymonline](https://www.etymonline.com/word/taxi); the regional distinction is recorded by [DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=teksi).",
+    "cognitive_memory_aid": "taksi 听起来接近英语 taxi：把拼写 x 展开成 ks，就容易记住“出租车”。马来西亚常用形式另记为 teksi。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称呼司机可用 Encik；直接请求可说 Boleh hantar saya ke hotel?（可以载我去酒店吗？）。",
+    "usage_etiquette": "与印度尼西亚人交流时 taksi 很自然；面向马来西亚读者的通知、报销单及正式报告宜用 teksi，引用原文时可保留 taksi。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称呼司机可用 Encik；直接请求可说 Boleh hantar saya ke hotel?（可以载我去酒店吗？）。",
+    "usage_etiquette": "与印度尼西亚人交流时 taksi 很自然；面向马来西亚读者的通知、报销单及正式报告宜用 teksi，引用原文时可保留 taksi。"
+  }
+}

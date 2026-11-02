@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "dinafikan",
+    "syllables": null,
+    "ipa": "/di.na.fi.kan/",
+    "jawi": null,
+    "frequency_rank": 7932,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "nafi",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + nafi + -kan → dinafikan",
+    "pattern_note": "di- 标示被动，-kan 保留于及物动词构式中；词根首音 n 不变。输入包将整个派生词标为词根，应纠正为 nafi。音节可分析为 di.na.fi.kan；syllables 和 jawi 保留输入包的 null。",
+    "word_family": [
+      {
+        "word": "nafi",
+        "affix": null,
+        "gloss": "否认；否定"
+      },
+      {
+        "word": "menafikan",
+        "affix": "meN-...-kan",
+        "gloss": "否认；剥夺"
+      },
+      {
+        "word": "penafian",
+        "affix": "peN-...-an",
+        "gloss": "否认；否定行为"
+      }
+    ],
+    "root_jawi": "نفي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被否认；某项说法、指控、事实或存在不获承认。",
+      "en_definition": "To be denied or rejected as true, valid, or existent.",
+      "ms_definition": "Tidak diakui atau diterima sebagai benar; disangkal atau diingkari.",
+      "nuances": "这是 menafikan 的被动形式。dinafikan 只说明有人否认，并不证明被否认的内容为假。tidak dapat dinafikan 常表示“不可否认”，用于承认明显的事实或贡献。马来语释义为依据词典所作的被动式改写。[DBP：nafi](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=nafi)",
+      "collocations": [
+        {
+          "ms": "dakwaan itu dinafikan",
+          "zh": "该指控被否认",
+          "en": "the allegation is denied"
+        },
+        {
+          "ms": "tidak dapat dinafikan",
+          "zh": "不可否认",
+          "en": "cannot be denied"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被剥夺或被拒绝给予某种权利、机会、服务或应有待遇。",
+      "en_definition": "To be deprived of, or refused, a right, opportunity, service, or entitlement.",
+      "ms_definition": "Tidak diberikan atau dihalang daripada memperoleh hak, peluang, perkhidmatan atau sesuatu yang sewajarnya diterima.",
+      "nuances": "在 seseorang dinafikan hak 或 dinafikan peluang 中，受影响的人是被动句主语；含义是“不给予”，不是“说某事不真实”。这一用法见于 DBP 的权利、社会及公共服务术语。[DBP：dinafikan 的术语用例](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=dinafikan)",
+      "collocations": [
+        {
+          "ms": "dinafikan hak",
+          "zh": "被剥夺权利",
+          "en": "be denied a right"
+        },
+        {
+          "ms": "dinafikan peluang",
+          "zh": "被剥夺机会",
+          "en": "be denied an opportunity"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dakwaan bahawa syarikat itu akan menghentikan operasinya telah dinafikan oleh pihak pengurusan.",
+      "zh": "有关该公司即将停止运营的说法已被管理层否认。",
+      "en": "Management has denied the claim that the company will cease operations."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Berita tu dah dinafikan, jadi jangan kongsi dulu lah.",
+      "ms_standard": "Berita itu sudah dinafikan, jadi jangan kongsikannya dahulu.",
+      "zh": "那消息已经有人出来否认了，先别转发啦。",
+      "en": "That report has already been denied, so hold off on sharing it.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "dah 对应 sudah。",
+        "lah 在此缓和提醒的语气；dinafikan 本身仍保留标准被动形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Berita pasal pejabat nak tutup tu dah dinafikan ke?",
+          "ms_standard": "Adakah berita tentang pejabat yang akan ditutup itu sudah dinafikan?",
+          "zh": "办公室要关闭的那个消息，已经被否认了吗？",
+          "en": "Has that report about the office closing been denied?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, dah dinafikan oleh pengurus. Tunggu kenyataan rasmi je dulu.",
+          "ms_standard": "Ya, berita itu sudah dinafikan oleh pengurus. Tunggu sahaja kenyataan rasmi dahulu.",
+          "zh": "对，经理已经否认了。先等正式声明吧。",
+          "en": "Yes, the manager has denied it. Let's just wait for the official statement."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP identifies nafi as an Arabic borrowing associated with rejection and denial. Malay incorporates this borrowed base into its own productive morphology: menafikan expresses the action, dinafikan presents it passively, and penafian names the act. The everyday expression tidak dapat dinafikan turns this vocabulary of rejection into a strong acknowledgment of something accepted as true. [DBP: nafi](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=nafi)",
+    "cognitive_memory_aid": "抓住 nafi“否认”：di- 把视角转向承受者，dinafikan 就是“被否认”；接 hak 时记成“权利被拒绝给予”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式沟通中说明谁否认了什么，比直接指责对方说谎更准确，也更尊重对方。向上级汇报可用 Dakwaan itu telah dinafikan oleh pihak berkenaan。",
+    "usage_etiquette": "适用于新闻澄清、事实讨论及权利议题。不要把“被否认”直接翻译成“已证实为假”；涉及个人权益时，应明确被拒绝给予的具体权利或机会。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式沟通中说明谁否认了什么，比直接指责对方说谎更准确，也更尊重对方。向上级汇报可用 Dakwaan itu telah dinafikan oleh pihak berkenaan。",
+    "usage_etiquette": "适用于新闻澄清、事实讨论及权利议题。不要把“被否认”直接翻译成“已证实为假”；涉及个人权益时，应明确被拒绝给予的具体权利或机会。"
+  }
+}

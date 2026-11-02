@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "suntuk",
+    "syllables": null,
+    "ipa": "[sun.tuʔ]",
+    "jawi": "سونتوق",
+    "frequency_rank": 7880,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "suntuk",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + suntuk → suntuk",
+    "pattern_note": "词根不变；马来西亚马来语中，词尾 k 通常实现为喉塞音 [ʔ]。输入包未提供音节字段，故保留 null；读音可分为 sun.tuk。",
+    "word_family": [
+      {
+        "word": "kesuntukan",
+        "affix": "ke-…-an",
+        "gloss": "时间、金钱等不足；陷入窘迫"
+      },
+      {
+        "word": "tersuntuk",
+        "affix": "ter-",
+        "gloss": "受阻；无法继续前进"
+      }
+    ],
+    "root_jawi": "سونتوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "已到期限或极限；时间已尽，来不及继续。",
+      "en_definition": "At its limit or past the available time; too late to continue.",
+      "ms_definition": "Sudah mencapai batas atau penghujung tempoh sehingga tidak sempat diteruskan.",
+      "nuances": "常见于 masa sudah suntuk，表示剩余时间已极少或已到最后关头。不要直接套用印尼口语中“烦闷、无聊”的意义。义项依据 [DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=suntuk)。",
+      "collocations": [
+        {
+          "ms": "masa sudah suntuk",
+          "zh": "时间已经所剩无几",
+          "en": "time is running out"
+        },
+        {
+          "ms": "waktu sudah suntuk",
+          "zh": "已经到了最后时限",
+          "en": "the available time is almost up"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adverb",
+      "zh_definition": "整整；贯穿所说的整个时间段。",
+      "en_definition": "Throughout the whole period specified.",
+      "ms_definition": "Meliputi keseluruhan jangka masa yang disebut.",
+      "nuances": "主要出现在 sehari suntuk、semalam suntuk 等时间短语中；此处表达持续时间，不表示时间不足。",
+      "collocations": [
+        {
+          "ms": "sehari suntuk",
+          "zh": "一整天",
+          "en": "all day long"
+        },
+        {
+          "ms": "semalam suntuk",
+          "zh": "一整夜",
+          "en": "all night long"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "短浅的；狭隘的；尤指思路或见识有限。",
+      "en_definition": "Short, restricted, or narrow, especially in thought or understanding.",
+      "ms_definition": "Pendek atau terbatas; tentang fikiran, kurang luas pertimbangan atau pengetahuannya.",
+      "nuances": "《Kamus Dewan》将此义标为米南加保用法。现代马来西亚日常交流中较少见，不宜作为普通的“短”来广泛替换 pendek。",
+      "collocations": [
+        {
+          "ms": "suntuk akal",
+          "zh": "思路短浅；想不出办法",
+          "en": "limited in resourcefulness"
+        },
+        {
+          "ms": "fikirannya suntuk",
+          "zh": "他的思想狭隘",
+          "en": "his thinking is narrow"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 截止期限",
+      "ms": "Masa sudah suntuk, maka semua ketua unit diminta menyerahkan laporan sebelum pukul lima petang.",
+      "zh": "时间已经所剩无几，因此请各单位主管在下午五点前提交报告。",
+      "en": "Time is running out, so all unit heads are requested to submit their reports before five this afternoon."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事赶交材料",
+      "ms_spoken": "Masa dah suntuk ni, hantar yang siap dulu je.",
+      "ms_standard": "Masa sudah suntuk; hantarkan sahaja bahagian yang telah siap terlebih dahulu.",
+      "zh": "快没时间了，先把做好的部分交上去吧。",
+      "en": "We're running out of time. Just send the parts that are ready first.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "ni 提醒对方注意眼前的紧迫情况。",
+        "je 对应 sahaja，表示先采取有限但可行的行动。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Masa dah suntuk ni. Kau dah semak jadual tu?",
+          "ms_standard": "Masa sudah suntuk. Adakah kamu sudah menyemak jadual itu?",
+          "zh": "快没时间了。你检查过那个表格了吗？",
+          "en": "We're running out of time. Have you checked that table yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, tinggal satu angka je. Aku hantar sekarang.",
+          "ms_standard": "Sudah, hanya satu angka yang masih perlu disemak. Saya akan menghantarnya sekarang.",
+          "zh": "检查了，就剩一个数字。我现在发过去。",
+          "en": "Yes, there's just one figure left to check. I'll send it now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The deeper historical origin of suntuk is not established by the supplied evidence. Its dictionary meanings nevertheless preserve a memorable contrast: masa suntuk marks time reaching its limit, while sehari suntuk stretches across an entire day. A further sense, labelled Minangkabau by Dewan Bahasa dan Pustaka, concerns shortness or narrowness of thought.",
+    "cognitive_memory_aid": "把 suntuk 想成时间轴的端点：masa suntuk 是逼近终点，sehari suntuk 是从起点一直到终点。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "表达期限紧迫时，Masa sudah suntuk 比直接责问对方为什么拖延更客观；加上请托或共同解决的建议更得体。",
+    "usage_etiquette": "suntuk akal 可能贬低他人的判断能力，不宜用来当面评价同事、长辈或客户。sehari suntuk 本身没有负面含义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "表达期限紧迫时，Masa sudah suntuk 比直接责问对方为什么拖延更客观；加上请托或共同解决的建议更得体。",
+    "usage_etiquette": "suntuk akal 可能贬低他人的判断能力，不宜用来当面评价同事、长辈或客户。sehari suntuk 本身没有负面含义。"
+  }
+}
