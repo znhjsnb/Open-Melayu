@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "samar",
+    "syllables": "sa.mar",
+    "ipa": "/samar/",
+    "jawi": "سامر",
+    "frequency_rank": 10041,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "samar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + samar → samar",
+    "pattern_note": "基本词不带词缀；派生为 menyamar 时，meN- 在 /s/ 前变为 meny-，原来的 /s/ 脱落。",
+    "word_family": [
+      {
+        "word": "samar-samar",
+        "affix": "重叠",
+        "gloss": "隐约；模糊不清"
+      },
+      {
+        "word": "menyamar",
+        "affix": "meN-",
+        "gloss": "乔装；隐瞒真实身份"
+      },
+      {
+        "word": "menyamarkan",
+        "affix": "meN-...-kan",
+        "gloss": "使模糊；掩饰"
+      },
+      {
+        "word": "kesamaran",
+        "affix": "ke-...-an",
+        "gloss": "模糊状态；含混不明"
+      }
+    ],
+    "root_jawi": "سامر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "视觉上不清楚、不鲜明或光线昏暗的；只能隐约辨认的。",
+      "en_definition": "Dim, faint, or indistinct to the eye.",
+      "ms_definition": "Tidak begitu jelas pada penglihatan atau tidak cukup terang sehingga sukar dilihat dengan nyata.",
+      "nuances": "可形容光线、轮廓、影像或面容；samar-samar 也很常见。不是所有模糊都由低亮度造成。[DBP：samar](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=samar)",
+      "collocations": [
+        {
+          "ms": "cahaya samar",
+          "zh": "昏暗的光线",
+          "en": "dim light"
+        },
+        {
+          "ms": "bayangan samar",
+          "zh": "隐约的影子或影像",
+          "en": "an indistinct shadow or image"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "指信息、解释、证据或情况尚不清楚，难以明确理解或确定的。",
+      "en_definition": "Vague, unclear, or insufficiently established in meaning or fact.",
+      "ms_definition": "Belum jelas atau belum nyata tentang sesuatu maklumat, penjelasan, bukti atau keadaan.",
+      "nuances": "强调清晰度或确定性不足；不自动表示内容虚假，也不一定表示说话者故意隐瞒。",
+      "collocations": [
+        {
+          "ms": "maklumat yang samar",
+          "zh": "含糊不清的信息",
+          "en": "vague information"
+        },
+        {
+          "ms": "sebab yang masih samar",
+          "zh": "仍不明朗的原因",
+          "en": "a reason that remains unclear"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "指意图或目的未公开表明、隐藏而不明示的。",
+      "en_definition": "Concealed or not openly expressed, especially of an intention or purpose.",
+      "ms_definition": "Tidak dinyatakan secara terang-terangan; tersembunyi, khususnya tentang maksud atau tujuan.",
+      "nuances": "比单纯“不清楚”更突出未明示的意味；形容他人意图时，语气可能带怀疑。",
+      "collocations": [
+        {
+          "ms": "maksud yang samar",
+          "zh": "未明说的意图",
+          "en": "an unexpressed intention"
+        },
+        {
+          "ms": "tujuan yang samar",
+          "zh": "隐藏而不明示的目的",
+          "en": "a concealed purpose"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Butiran pelaksanaan projek itu masih samar dan memerlukan penjelasan lanjut.",
+      "zh": "该项目的实施细节仍不明确，需要进一步说明。",
+      "en": "The project's implementation details remain unclear and require further explanation."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tulisan kat gambar ni samar sangatlah, saya tak nampak.",
+      "ms_standard": "Tulisan dalam gambar ini terlalu samar sehingga saya tidak dapat membacanya.",
+      "zh": "这张图里的字太模糊啦，我看不清。",
+      "en": "The writing in this picture is so faint I can't read it.",
+      "spoken_features": [
+        "kat 在此对应 dalam",
+        "ni 对应 ini",
+        "tak 对应 tidak",
+        "lah 加强语气，适合熟人交流"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Tulisan kat gambar ni samar sangatlah. Boleh hantar yang lebih jelas tak?",
+          "ms_standard": "Tulisan dalam gambar ini terlalu samar. Bolehkah awak menghantar gambar yang lebih jelas?",
+          "zh": "这张图里的字太模糊啦，能发张清楚一点的吗？",
+          "en": "The writing in this picture is really faint. Could you send a clearer one?"
+        },
+        {
+          "speaker": "Farid (朋友)",
+          "ms_spoken": "Boleh, tunggu kejap. Saya nak ambil gambar semula.",
+          "ms_standard": "Boleh, tunggu sebentar. Saya hendak mengambil gambar semula.",
+          "zh": "可以，等一下，我重新拍一张。",
+          "en": "Sure, give me a moment. I'll take another photo."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay uses samar for things that cannot be seen clearly and for facts or intentions that are not apparent. The expression samar muka names the late-evening period when faces become difficult to distinguish. Related forms such as menyamar and menyamarkan connect this visual indistinctness with disguise and concealment. [DBP: samar](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=samar)",
+    "cognitive_memory_aid": "把 sa-mar 联想成“纱幕”：隔着一层纱，脸看不清，意思也说不清；此联想不是词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "评价工作说明时，说 butiran ini masih samar 比直接指责对方表达不好更委婉，可接 boleh dijelaskan lagi? 请求补充说明。",
+    "usage_etiquette": "适合描述画面、光线和未明朗的情况；说某人的 tujuan samar 可能暗示其有所隐瞒，应有具体语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "评价工作说明时，说 butiran ini masih samar 比直接指责对方表达不好更委婉，可接 boleh dijelaskan lagi? 请求补充说明。",
+    "usage_etiquette": "适合描述画面、光线和未明朗的情况；说某人的 tujuan samar 可能暗示其有所隐瞒，应有具体语境。"
+  }
+}

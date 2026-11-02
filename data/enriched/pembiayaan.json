@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "pembiayaan",
+    "syllables": "pem.bia.ya.an",
+    "ipa": "/pəm.bi.a.ja.an/",
+    "jawi": "ڤمبياياءن",
+    "frequency_rank": 10043,
+    "status": "official",
+    "rank_note": "保留输入排序；该数值未经独立语料频率验证。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "biaya",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + biaya + -an → pembiayaan",
+    "pattern_note": "词根以浊双唇音 b 开头，peN- 取 pem-，b 保留；词根末尾 a 与后缀 -an 的 a 相接。输入包将本词标为词根；此处依据 DBP 的 biaya 词族纠正。",
+    "word_family": [
+      {
+        "word": "membiayai",
+        "affix": "meN-...-i",
+        "gloss": "为……提供经费；承担……费用"
+      },
+      {
+        "word": "pembiaya",
+        "affix": "peN-",
+        "gloss": "出资者；资助方"
+      }
+    ],
+    "root_jawi": "بياي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "为某项活动、计划或支出提供资金或承担费用的行为、过程或安排。",
+      "en_definition": "The provision or arrangement of funds to meet costs or support an undertaking.",
+      "ms_definition": "Perihal atau perbuatan membiayakan atau membiayai.",
+      "nuances": "可指贷款融资，也可指机构拨款、自有资金投入或其他资助安排；本词本身不说明资金是否必须偿还。马来西亚银行语境中常见于融资产品名称，但并非仅用于伊斯兰金融。[DBP：biaya 及其派生词](https://prpm.dbp.gov.my/cari1?keyword=biaya)",
+      "collocations": [
+        {
+          "ms": "sumber pembiayaan",
+          "zh": "资金来源",
+          "en": "sources of funding"
+        },
+        {
+          "ms": "pembiayaan perumahan",
+          "zh": "住房融资",
+          "en": "housing financing"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan sedang menilai beberapa sumber pembiayaan bagi pelaksanaan projek tersebut.",
+      "zh": "管理层正在评估实施该项目的几种资金来源。",
+      "en": "Management is assessing several sources of funding for the project."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau dah mohon pembiayaan rumah kat bank tu?",
+      "ms_standard": "Adakah kamu sudah memohon pembiayaan perumahan di bank itu?",
+      "zh": "你已经向那家银行申请房贷融资了吗？",
+      "en": "Have you applied for home financing at that bank yet?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "kat 在此相当于 di。",
+        "kau、tu 分别对应熟人间的 kamu 和 itu。",
+        "口语以升调表示疑问，省略 adakah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah mohon pembiayaan rumah kat bank tu?",
+          "ms_standard": "Adakah kamu sudah memohon pembiayaan perumahan di bank itu?",
+          "zh": "你已经向那家银行申请房贷融资了吗？",
+          "en": "Have you applied for home financing at that bank yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi. Aku nak bandingkan tawaran dulu, baru pilih.",
+          "ms_standard": "Belum lagi. Saya mahu membandingkan tawaran terlebih dahulu sebelum membuat pilihan.",
+          "zh": "还没呢。我想先比较一下各家的方案再选。",
+          "en": "Not yet. I want to compare the offers before choosing."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay builds pembiayaan from biaya, meaning expenses or funds, using a circumfix that names the act or process of providing them. The same family includes membiayai, to fund, and pembiaya, a funder. This structure links everyday questions about paying costs with the institutional language of project funding and housing finance.",
+    "cognitive_memory_aid": "先记 biaya＝费用，再套 peN-...-an：pembiayaan 就是把费用所需的资金安排好。",
+    "source": "[DBP：biaya 词族](https://prpm.dbp.gov.my/cari1?keyword=biaya)"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是正式、客观的财务用词，适合银行咨询和工作汇报。询问他人的融资金额、负债或审批结果涉及个人财务，宜先说明原因并使用礼貌问句。",
+    "usage_etiquette": "说明具体安排时应区分 pembiayaan、pinjaman（贷款）和 geran（拨款）；仅凭 pembiayaan 一词，不能判断是否免息、无需偿还或已经获批。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是正式、客观的财务用词，适合银行咨询和工作汇报。询问他人的融资金额、负债或审批结果涉及个人财务，宜先说明原因并使用礼貌问句。",
+    "usage_etiquette": "说明具体安排时应区分 pembiayaan、pinjaman（贷款）和 geran（拨款）；仅凭 pembiayaan 一词，不能判断是否免息、无需偿还或已经获批。"
+  }
+}

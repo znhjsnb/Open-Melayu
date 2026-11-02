@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "lukakan",
+    "syllables": "lu.ka.kan",
+    "ipa": "/lu.ka.kan/",
+    "jawi": "لوکاکن",
+    "frequency_rank": 10001,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "luka",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "luka + -kan → lukakan; meN- + lukakan → melukakan",
+    "pattern_note": "添加 -kan，luka 的词干音段保留。lukakan 可用于祈使句、第一或第二人称被动结构，也常见于口语省略 meN- 的表达。输入包的 لوک 实为 luka 的拼写；此处 لوکاکن 按派生形式推写，音节和IPA亦为规则分析值，并非输入包提供的独立词条记录。",
+    "word_family": [
+      {
+        "word": "luka",
+        "affix": "∅",
+        "gloss": "伤口；受伤；心痛"
+      },
+      {
+        "word": "melukai",
+        "affix": "meN-...-i",
+        "gloss": "使受伤；伤害感情"
+      },
+      {
+        "word": "melukakan",
+        "affix": "meN-...-kan",
+        "gloss": "伤害；使伤心"
+      },
+      {
+        "word": "dilukakan",
+        "affix": "di-...-kan",
+        "gloss": "被伤害；被伤了感情"
+      }
+    ],
+    "root_jawi": "لوک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "使身体组织受伤、破损；弄伤。",
+      "en_definition": "To cause a physical wound or injury.",
+      "ms_definition": "Menyebabkan bahagian tubuh menjadi luka; mendatangkan luka pada tubuh.",
+      "nuances": "此义是 luka 加 -kan 的构词释义，不是输入包中 luka 的名词释义原文。身体受伤义在标准表达中也常用 melukai 或 mencederakan；正式主动陈述通常不省略相应前缀。DBP其他词条亦使用 melukakan 解释身体伤害。[DBP相关用例](https://prpm.dbp.gov.my/Cari1.aspx?d=73980&keyword=melukakan)",
+      "collocations": [
+        {
+          "ms": "lukakan kulit",
+          "zh": "弄伤皮肤",
+          "en": "wound the skin"
+        },
+        {
+          "ms": "lukakan diri sendiri",
+          "zh": "弄伤自己",
+          "en": "hurt oneself"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "使人感到伤心、痛苦或感情受挫；伤害感情。",
+      "en_definition": "To hurt someone's feelings or cause emotional pain.",
+      "ms_definition": "Menyakiti hati atau perasaan seseorang.",
+      "nuances": "常见于 hati 和 perasaan 前。lukakan 的具体语法地位取决于句式：我或你作施事的被动结构可保留此形式；普通正式主动句通常用 melukakan。情感义依据[DBP的 melukakan 词条](https://prpm.dbp.gov.my/Cari1.aspx?d=73980&keyword=melukakan)。",
+      "collocations": [
+        {
+          "ms": "lukakan hati",
+          "zh": "伤心；伤害感情",
+          "en": "hurt someone's feelings"
+        },
+        {
+          "ms": "lukakan perasaan",
+          "zh": "伤害感受",
+          "en": "cause emotional hurt"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Perasaan pekerja tidak wajar kita lukakan ketika memberikan teguran.",
+      "zh": "提出批评时，我们不应伤害员工的感情。",
+      "en": "We should not hurt employees' feelings when giving corrective feedback."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku tak nak lukakan hati kau. Aku cuma nak jelaskan je.",
+      "ms_standard": "Saya tidak mahu melukakan hati awak. Saya hanya mahu memberikan penjelasan.",
+      "zh": "我不想伤你的心，我只是想解释一下。",
+      "en": "I don't want to hurt your feelings. I just want to explain.",
+      "spoken_features": [
+        "tak 对应 tidak，nak 对应 mahu，je 对应 sahaja。",
+        "普通主动表达中的 melukakan 在口语中省略 meN-。",
+        "aku、kau 表示熟人关系，不能直接套用于所有正式交往。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku tak nak lukakan hati kau. Aku cuma nak jelaskan je.",
+          "ms_standard": "Saya tidak mahu melukakan hati awak. Saya hanya mahu memberikan penjelasan.",
+          "zh": "我不想伤你的心，我只是想解释一下。",
+          "en": "I don't want to hurt your feelings. I just want to explain."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku faham. Cakap elok-elok je, ya.",
+          "ms_standard": "Saya faham. Bercakaplah dengan baik, ya.",
+          "zh": "我懂，好好说就行了，好吗？",
+          "en": "I understand. Just say it kindly, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base luka connects bodily injury with emotional pain in Malay. DBP records both wounded skin and a wounded heart, alongside a proverb in which a wound disappears but its scar remains. Lukakan adds a causative relationship to that semantic core: someone causes the hurt. This explains its emotional imagery without requiring an unsupported claim about a distant borrowing source. [DBP luka](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=luka)",
+    "cognitive_memory_aid": "luka 是“伤”，-kan 把伤带给对象：lukakan hati，就是“把心伤了”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈及感情受伤时，Saya terasa hati dengan kata-kata itu 可把重点放在自己的感受；Awak melukakan hati saya 的指责感较明显。",
+    "usage_etiquette": "适用于伤害、道歉和关系沟通。Jangan lukakan hati… 语气认真，不宜用来轻率否定对方表达真实意见的权利。官方状态指受认可词基构成的语法形式，不表示已核实一个独立的 lukakan 词条；排名沿用输入包。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈及感情受伤时，Saya terasa hati dengan kata-kata itu 可把重点放在自己的感受；Awak melukakan hati saya 的指责感较明显。",
+    "usage_etiquette": "适用于伤害、道歉和关系沟通。Jangan lukakan hati… 语气认真，不宜用来轻率否定对方表达真实意见的权利。官方状态指受认可词基构成的语法形式，不表示已核实一个独立的 lukakan 词条；排名沿用输入包。"
+  }
+}

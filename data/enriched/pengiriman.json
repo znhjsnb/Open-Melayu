@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "pengiriman",
+    "syllables": "pe.ngi.ri.man",
+    "ipa": "/pə.ŋi.ri.man/",
+    "jawi": "ڤڠيريمن",
+    "frequency_rank": 10006,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pengiriman",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + kirim + -an → pengiriman",
+    "pattern_note": "peN- 在词根 kirim 的 k 前实现为 peng-，词首 k 脱落。按要求保留词包 root_word 字段，但该字段实际是派生词检索形式；语言学词根是 kirim，故修正词包中的 is_root=true。[DBP 的 kirim 词条](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=kirim)",
+    "word_family": [
+      {
+        "word": "kirim",
+        "affix": null,
+        "gloss": "寄；送；托带"
+      },
+      {
+        "word": "mengirim",
+        "affix": "meN-",
+        "gloss": "寄送；派遣"
+      },
+      {
+        "word": "kiriman",
+        "affix": "-an",
+        "gloss": "寄送之物；寄款"
+      },
+      {
+        "word": "pengirim",
+        "affix": "peN-",
+        "gloss": "寄件人；发送者"
+      }
+    ],
+    "root_jawi": "ڤڠيريمن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "寄送、发送、运送或派遣的行为与过程，可涉及信件、货物、款项或人员。",
+      "en_definition": "The act or process of sending, dispatching, or shipping something, or deploying people.",
+      "ms_definition": "Perihal atau proses mengirim dan menghantar sesuatu atau seseorang ke tempat atau kepada penerima tertentu.",
+      "nuances": "着重发送或派遣这一行为与过程；寄送的东西通常称 kiriman，执行寄送的人称 pengirim。在马来西亚物流服务中也常用 penghantaran。涉及军队时应译为“派遣／部署”，不能机械译为“邮寄”。释义依据词包及 [DBP 的 kirim 词条](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=kirim)。",
+      "collocations": [
+        {
+          "ms": "pengiriman barang",
+          "zh": "货物寄运",
+          "en": "the shipping of goods"
+        },
+        {
+          "ms": "pengiriman tentera",
+          "zh": "军队派遣",
+          "en": "the deployment of troops"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Gangguan operasi pelabuhan telah menyebabkan kelewatan pengiriman barang ke luar negara.",
+      "zh": "港口运营中断导致运往国外的货物延迟发运。",
+      "en": "Disruptions to port operations have delayed the shipment of goods overseas."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pengiriman barang tu dah diuruskan. Nak nombor penjejakan?",
+      "ms_standard": "Pengiriman barang itu sudah diuruskan. Adakah kamu mahu nombor penjejakan?",
+      "zh": "那批货的寄送已经安排好了。要追踪号码吗？",
+      "en": "The shipping's been arranged. Want the tracking number?",
+      "spoken_features": [
+        "tu 和 dah 分别对应 itu 和 sudah。",
+        "Nak nombor penjejakan? 省略主语及疑问结构，是聊天中的简短问句。",
+        "pengiriman 带事务处理语气；熟人聊天也常直接说 barang dah dihantar。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pengiriman barang tu dah diuruskan ke? Pelanggan nak nombor penjejakan.",
+          "ms_standard": "Adakah pengiriman barang itu sudah diuruskan? Pelanggan mahu nombor penjejakan.",
+          "zh": "那批货的寄送安排好了吗？客户想要追踪号码。",
+          "en": "Has the shipping been arranged? The customer wants the tracking number."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah. Nombor tu ada kat e-mel tadi. Aku hantar semula je.",
+          "ms_standard": "Ya, sudah. Nombor itu ada dalam e-mel yang dihantar tadi. Saya akan menghantarnya semula.",
+          "zh": "安排好了。号码在刚才那封邮件里，我再发一次。",
+          "en": "Yes. The number's in the email from earlier. I'll send it again."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pengiriman belongs to the Malay kirim family. Its formation turns sending into the name of an activity, while kiriman commonly names what is sent and pengirim identifies the sender. The dictionary applies pengiriman both to goods moving abroad and to troops being dispatched, showing that its meaning extends beyond postal delivery. [DBP](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=kirim)",
+    "cognitive_memory_aid": "把词根 k 放回去：pengiriman → peN- + kirim + -an。kirim＝寄送，pengiriman＝寄送这件事；kiriman＝寄来的东西，pengirim＝寄件人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合物流通知、商务邮件及新闻报道。查询进度可说 Boleh pihak tuan/puan memaklumkan status pengiriman?，语气礼貌且请求明确。",
+    "usage_etiquette": "说明进度时区分“已安排寄送”“已经发出”和“已经送达”；pengiriman 已安排不代表收件人已经收到。谈人员或军队时按语境译为派遣或部署。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合物流通知、商务邮件及新闻报道。查询进度可说 Boleh pihak tuan/puan memaklumkan status pengiriman?，语气礼貌且请求明确。",
+    "usage_etiquette": "说明进度时区分“已安排寄送”“已经发出”和“已经送达”；pengiriman 已安排不代表收件人已经收到。谈人员或军队时按语境译为派遣或部署。"
+  }
+}

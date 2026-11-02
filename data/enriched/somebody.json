@@ -1,0 +1,131 @@
+{
+  "headword": {
+    "word": "somebody",
+    "syllables": "some.bod.y",
+    "ipa": "/ˈsʌm.bə.di/",
+    "jawi": null,
+    "frequency_rank": 10045,
+    "status": "official",
+    "language": "en",
+    "status_note": "official 仅沿用所要求的记录状态，不表示该英语词已获 DBP 认定为规范马来语词。",
+    "syllables_note": "输入未提供音节；此处补充英语音节划分。",
+    "rank_note": "保留输入排序；该数值未经独立语料频率验证。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "somebody",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "some + body → somebody（英语复合词；无马来语词缀）",
+    "pattern_note": "is_root 沿用输入的整词处理方式，并不表示英语内部不可分析。body 在该复合词中指人；常见读音中的非重读部分弱化为 /bədi/。",
+    "word_family": [
+      {
+        "word": "anybody",
+        "affix": null,
+        "gloss": "任何人；与本词同构的英语不定代词，并非本词的派生词"
+      },
+      {
+        "word": "nobody",
+        "affix": null,
+        "gloss": "没有人；与本词同构的英语不定代词，并非本词的派生词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "grammatical_pos": "pronoun",
+      "schema_note": "实际词性为英语不定代词。所要求的 pos 枚举缺少 pronoun，因此 noun 仅作为名词性存储类别；不应将此义项教作普通名词。",
+      "zh_definition": "某人；一个身份未知、不必说明或未被点名的人。",
+      "en_definition": "A person whose identity is unknown, unspecified, or not stated.",
+      "ms_definition": "Seseorang yang identitinya tidak diketahui, tidak dinyatakan atau tidak perlu disebut.",
+      "nuances": "这是英语词，通常对应马来语 seseorang。英语中作主语时通常搭配单数动词，如 somebody is；回指时可用单数 they。以下马来语释义为编辑译释，并非 DBP 直接释义。[Oxford：somebody](https://www.oxfordlearnersdictionaries.com/us/definition/english/somebody)",
+      "collocations": [
+        {
+          "ms": "orang lain",
+          "zh": "其他人；另一个人",
+          "en": "somebody else"
+        },
+        {
+          "ms": "seseorang yang saya kenali",
+          "zh": "我认识的某个人",
+          "en": "somebody I know"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "有地位、有影响力或受到重视的人；人物。",
+      "en_definition": "A person regarded as important, influential, or distinguished.",
+      "ms_definition": "Orang yang dianggap penting, berpengaruh atau mempunyai kedudukan.",
+      "nuances": "英语口语义，常见于 be somebody 或 a somebody；与仅表示某人的不定代词义有别。部分学习词典将相关用法合列在代词词条下。[Collins：somebody](https://www.collinsdictionary.com/dictionary/english/somebody)",
+      "collocations": [
+        {
+          "ms": "menjadi orang penting",
+          "zh": "成为有地位的人",
+          "en": "be somebody"
+        },
+        {
+          "ms": "menganggap dirinya orang penting",
+          "zh": "自认为是个人物",
+          "en": "think one is somebody"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Perkataan Inggeris 'somebody' dalam kenyataan saksi itu merujuk kepada seseorang yang belum dikenal pasti.",
+      "zh": "该证人陈述中的英语词 somebody 指一名身份尚未确定的人。",
+      "en": "The English word 'somebody' in the witness's statement refers to a person who has not yet been identified."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Ada somebody cari kau kat luar.",
+      "ms_standard": "Ada seseorang yang mencari kamu di luar.",
+      "zh": "外面有人找你。",
+      "en": "Someone's outside looking for you.",
+      "spoken_features": [
+        "somebody 是英语插入词，整句属于语码转换，并非纯规范马来语。",
+        "kat 在此对应 di。",
+        "kau 是熟人之间使用的第二人称形式。",
+        "口语省略关系词 yang。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Ada somebody cari kau kat luar.",
+          "ms_standard": "Ada seseorang yang mencari kamu di luar.",
+          "zh": "外面有人找你。",
+          "en": "Someone's outside looking for you."
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Oh, aku nak keluar sekarang. Suruh dia tunggu kejap, ya.",
+          "ms_standard": "Saya akan keluar sekarang. Minta dia menunggu sebentar, ya.",
+          "zh": "哦，我这就出去。让对方稍等一下啊。",
+          "en": "Oh, I'll come out now. Ask them to wait a moment, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Somebody is a Middle English compound of some and body. Here body stands for a person, rather than merely a physical body. That older human reference remains visible in anybody and nobody. The word also developed a social meaning: being somebody can mean being a person whose standing or achievements attract recognition.",
+    "cognitive_memory_aid": "some＋body：有一个人，但暂不说明是谁。记住 body 在这里指人，不能逐字译成某个身体。",
+    "source": "[Collins：somebody 的构词、词源与义项](https://www.collinsdictionary.com/dictionary/english/somebody)"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在马来语正式交流中用 seseorang 更清楚。与长辈、客户或上司说话时，示例中的 kau 应换成称谓或适当的人称表达。",
+    "usage_etiquette": "somebody 可自然出现在双语熟人的混合口语中，但不能据此把它教作规范马来语代词。评价别人是不是 somebody 容易显得势利或轻视他人。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在马来语正式交流中用 seseorang 更清楚。与长辈、客户或上司说话时，示例中的 kau 应换成称谓或适当的人称表达。",
+    "usage_etiquette": "somebody 可自然出现在双语熟人的混合口语中，但不能据此把它教作规范马来语代词。评价别人是不是 somebody 容易显得势利或轻视他人。"
+  }
+}

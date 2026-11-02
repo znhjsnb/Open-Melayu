@@ -1,0 +1,111 @@
+{
+  "headword": {
+    "word": "lnilah",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 10034,
+    "status": "unverified",
+    "normalization_candidate": "inilah",
+    "normalization_note": "输入首字母是小写 l，疑为大写 I 的 OCR 误识，原文可能为 Inilah，规范小写为 inilah。尚不能将 lnilah 本身标为 official。以下释义、构词及例句均针对推定的规范形式 inilah；频率排名仅保留输入数据，不代表 inilah 的排名。",
+    "candidate_syllables": "i.ni.lah",
+    "candidate_ipa": "/i.ni.lah/"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ini",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "ini + -lah → inilah",
+    "pattern_note": "此分析以规范化为 inilah 为前提。ini 与强调附着语素 -lah 直接连接，无音位删改；-lah 属于强调小品词，并非派生后缀，suffix 在此仅表示后接位置。输入词根 lni 同样疑有字母误识。DBP 明确以 inilah 说明 -lah 应连写：[DBP：强调小品词的拼写与功能](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kata+lah)。",
+    "word_family": [
+      {
+        "word": "ini",
+        "affix": null,
+        "gloss": "这；这个，规范形式的基础词"
+      },
+      {
+        "word": "inikah",
+        "affix": "-kah",
+        "gloss": "是这个吗，附加疑问小品词"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "applies_to": "inilah",
+      "pos": "particle",
+      "grammatical_note": "particle 标记其中的强调成分 -lah；整个 inilah 是指示代词 ini 加强调小品词，不应将整体单独归类为小品词。",
+      "zh_definition": "这就是；正是这个。强调所指的人、事物或情况。",
+      "en_definition": "This is; this very one, with emphasis on the person, thing, or situation identified.",
+      "ms_definition": "Bentuk ini yang disertai partikel penegas -lah untuk menegaskan orang, benda atau perkara yang ditunjukkan atau dirujuk.",
+      "definition_note": "马来语释义为根据 ini 与 -lah 的组合功能编写的释义，并非所给数据包中不存在的 DBP 原文。",
+      "nuances": "通常用于引出、确认或突出所指对象，不必然表示排他性的‘只有这个’。不能一律译作地点副词‘这里’，也不能与 kata pemeri ialah 混同。-lah 可用于正式语体，并非仅限口语：[DBP：-lah 的功能与正式用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kata+lah)。",
+      "collocations": [
+        {
+          "ms": "inilah sebabnya",
+          "zh": "这就是原因",
+          "en": "this is the reason"
+        },
+        {
+          "ms": "inilah masanya",
+          "zh": "现在正是时候",
+          "en": "now is the time"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；使用推定规范形式 inilah",
+      "ms": "Inilah langkah utama yang dicadangkan oleh jawatankuasa untuk meningkatkan mutu perkhidmatan.",
+      "zh": "这就是委员会为提高服务质量而提出的主要措施。",
+      "en": "This is the main measure proposed by the committee to improve service quality."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；使用推定规范形式 inilah",
+      "ms_spoken": "Inilah kedai yang aku cerita kat kau semalam.",
+      "ms_standard": "Inilah kedai yang saya ceritakan kepada kamu semalam.",
+      "zh": "这就是我昨天跟你说的那家店。",
+      "en": "This is the shop I told you about yesterday.",
+      "spoken_features": [
+        "aku、kau 用于熟人之间；标准对应句使用 saya、kamu。",
+        "cerita 在口语中代替完整形式 ceritakan。",
+        "kat 在此引出交谈对象，对应标准语 kepada。",
+        "inilah 本身是规范形式，口语环境中也可以保留。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Inilah kedai yang aku cerita kat kau semalam. Nak masuk?",
+          "ms_standard": "Inilah kedai yang saya ceritakan kepada kamu semalam. Adakah kamu mahu masuk?",
+          "zh": "这就是我昨天跟你说的那家店。要进去吗？",
+          "en": "This is the shop I told you about yesterday. Want to go in?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jom! Aku dah lapar. Kita makan kat sini je.",
+          "ms_standard": "Marilah kita masuk! Saya sudah lapar. Kita makan di sini sahaja.",
+          "zh": "走吧！我已经饿了，就在这儿吃吧。",
+          "en": "Let's go! I'm hungry already. Let's just eat here."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The likely intended form, inilah, combines the Malay demonstrative ini, meaning “this,” with the attached emphatic particle -lah. Its structure illustrates how Malay highlights a referent without adding a separate word equivalent to English “exactly.” The supplied spelling lnilah probably reflects confusion between lowercase l and uppercase I in transcription or OCR; that explanation remains an inference, not a separate word origin.",
+    "cognitive_memory_aid": "先认字母：ini 的开头是 i，不是 l。再记 ini（这）＋lah（强调）＝inilah（这就是）。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "规范形式 inilah 可用于正式介绍或日常交谈，礼貌程度取决于语气和整句措辞。向长辈、客户或上级介绍时，可搭配称谓与 saya；示例中的 aku、kau 适合关系熟悉且接受这种称呼的人。",
+    "usage_etiquette": "适合指认物品、介绍人物、解释原因或强调时机。纠正别人时，重读 inilah 可能显得坚持己见，应结合柔和语气。正式文件应使用 inilah；不要把疑似误识的 lnilah 当作口语变体或规范拼写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "规范形式 inilah 可用于正式介绍或日常交谈，礼貌程度取决于语气和整句措辞。向长辈、客户或上级介绍时，可搭配称谓与 saya；示例中的 aku、kau 适合关系熟悉且接受这种称呼的人。",
+    "usage_etiquette": "适合指认物品、介绍人物、解释原因或强调时机。纠正别人时，重读 inilah 可能显得坚持己见，应结合柔和语气。正式文件应使用 inilah；不要把疑似误识的 lnilah 当作口语变体或规范拼写。"
+  }
+}

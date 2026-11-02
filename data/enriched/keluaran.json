@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "keluaran",
+    "syllables": "ke.lua.ran",
+    "ipa": "/kə.lu.a.ran/",
+    "jawi": "کلوارن",
+    "frequency_rank": 10037,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "luar",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "luar → keluar；keluar + -an → keluaran",
+    "pattern_note": "保留数据包的深层词根 luar；直接构词基础是 keluar，加名词后缀 -an。不要仅凭首尾字母便把它机械分析为表示状态的 ke-...-an 环缀。音节字段沿用数据包；IPA 将相邻元音分开标示。",
+    "word_family": [
+      {
+        "word": "mengeluarkan",
+        "affix": "meN-...-kan",
+        "gloss": "取出；发布；生产"
+      },
+      {
+        "word": "pengeluaran",
+        "affix": "peN-...-an",
+        "gloss": "生产；发行；提取的过程"
+      }
+    ],
+    "root_jawi": "لوار"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "由某个厂家、地区或生产单位制造、出产的产品；产出。",
+      "en_definition": "A product or output made or produced by a particular source.",
+      "ms_definition": "Sesuatu yang dikeluarkan atau dihasilkan.",
+      "nuances": "侧重生产出来的成果或产品来源；pengeluaran 常侧重生产活动或过程，但在数量语境中二者可能有交叠。各义项及相关词组参见 [DBP：keluaran](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=keluaran)。",
+      "collocations": [
+        {
+          "ms": "barangan keluaran tempatan",
+          "zh": "本地生产的商品",
+          "en": "locally manufactured goods"
+        },
+        {
+          "ms": "keluaran kilang",
+          "zh": "工厂产品；工厂产出",
+          "en": "factory products or output"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "出版或发行的刊物、期号或某一次发行的版本。",
+      "en_definition": "An issue or release of a publication.",
+      "ms_definition": "Sesuatu yang diterbitkan, seperti buku atau sesuatu keluaran majalah.",
+      "nuances": "常用时间或月份限定某一期，如 keluaran bulan Mei。keluaran 与 edisi 不完全等同：前者可指某次发行或某期，后者常涉及版本、修订或特定版别。",
+      "collocations": [
+        {
+          "ms": "majalah keluaran bulan ini",
+          "zh": "本月出版的杂志",
+          "en": "this month's issue of the magazine"
+        },
+        {
+          "ms": "keluaran terkini",
+          "zh": "最新一期；最新发行",
+          "en": "the latest issue or release"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "在某所院校受教育、受训练或毕业的人；某校培养的人才。",
+      "en_definition": "A graduate or someone educated or trained at a particular institution.",
+      "ms_definition": "Orang yang telah lulus, mendapat pendidikan atau menerima latihan di sesuatu institusi; lepasan.",
+      "nuances": "如 guru keluaran maktab，强调培养来源，不必然只指大学学位持有人。固定词组 orang keluaran 另有“局外人”及古语“宫廷圈外之人”的意思，不能与本义混同。",
+      "collocations": [
+        {
+          "ms": "guru keluaran maktab",
+          "zh": "师范学院培养的教师",
+          "en": "teachers trained at a teacher-training college"
+        },
+        {
+          "ms": "graduan keluaran universiti tempatan",
+          "zh": "本地大学培养的毕业生",
+          "en": "graduates of local universities"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "经济统计中的产出，尤指一定时期内生产的货物与服务的价值。",
+      "en_definition": "Economic output, especially the value of goods and services produced over a specified period.",
+      "ms_definition": "Nilai barang dan perkhidmatan yang dihasilkan oleh unit ekonomi dalam tempoh tertentu.",
+      "nuances": "具体统计范围取决于整个术语。Keluaran Dalam Negeri Kasar 指 GDP；Keluaran Negara Kasar 指 GNP，二者不能互换。",
+      "collocations": [
+        {
+          "ms": "keluaran dalam negeri kasar",
+          "zh": "国内生产总值",
+          "en": "gross domestic product"
+        },
+        {
+          "ms": "keluaran negara kasar",
+          "zh": "国民生产总值",
+          "en": "gross national product"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Syarikat mengutamakan pembelian barangan keluaran tempatan bagi menyokong industri negara.",
+      "zh": "公司优先采购本地生产的商品，以支持国家工业发展。",
+      "en": "The company prioritises locally manufactured goods to support domestic industry."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Biskut ni keluaran tempatan je, tapi sedap betul.",
+      "ms_standard": "Biskut ini keluaran tempatan sahaja, tetapi rasanya sangat sedap.",
+      "zh": "这饼干是本地产的，味道还真不错。",
+      "en": "These biscuits are locally made, and they're really good.",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略形式",
+        "je 是 sahaja 的口语形式，此处带轻描淡写语气",
+        "sedap betul 是自然的口语强调表达"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (同事)",
+          "ms_spoken": "Biskut ni keluaran tempatan ke? Sedap, lah.",
+          "ms_standard": "Adakah biskut ini keluaran tempatan? Rasanya sedap.",
+          "zh": "这饼干是本地产的吗？挺好吃的耶。",
+          "en": "Are these biscuits locally made? They're really good."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Ya, aku beli kat kedai dekat rumah je.",
+          "ms_standard": "Ya, saya membelinya di kedai berhampiran rumah.",
+          "zh": "对啊，我就在家附近的店买的。",
+          "en": "Yeah, I just got them from a shop near my house."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The keluaran family organises meaning around something coming out from a source. A factory produces goods, a publisher releases a magazine, and an institution sends trained people into society. Malay applies the resulting noun to all three. Economic terminology extends this source-and-result relationship to the measured output of an entire economy.",
+    "cognitive_memory_aid": "luar 是“外面”，keluar 是“出来”，keluaran 就记成“从某处出来的成果”：工厂的产品、出版社的刊物、学校培养的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈商品或出版物时中性、正式程度适中。介绍某人的教育背景时通常可以使用，但强调个人资历时 lepasan 或 graduan 往往更直接。",
+    "usage_etiquette": "keluaran tempatan 表示本地生产，不自动等于本地品牌或全部原料来自本地。描述人的价值时，应避免把 keluaran 用成贬低人格的“流水线产品”比喻。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈商品或出版物时中性、正式程度适中。介绍某人的教育背景时通常可以使用，但强调个人资历时 lepasan 或 graduan 往往更直接。",
+    "usage_etiquette": "keluaran tempatan 表示本地生产，不自动等于本地品牌或全部原料来自本地。描述人的价值时，应避免把 keluaran 用成贬低人格的“流水线产品”比喻。"
+  }
+}

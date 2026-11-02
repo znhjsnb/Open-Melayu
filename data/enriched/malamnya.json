@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "malamnya",
+    "syllables": null,
+    "ipa": "/ma.lam.ɲa/",
+    "jawi": "مالم",
+    "frequency_rank": 10016,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "malam",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "malam + -nya → malamnya",
+    "pattern_note": "-nya 在这里通常回指语境中的某一天或某个夜晚，不必表示“他的”。/ɲ/ 是单个鼻音，词根不发生音变。严格说属于附着成分，本字段按后置形式归入 suffix。输入 Jawi 仅为词根 malam，予以原样保留；输入未提供音节划分。",
+    "word_family": [
+      {
+        "word": "semalam",
+        "affix": "se-",
+        "gloss": "昨天；昨夜；一夜，依语境而定"
+      },
+      {
+        "word": "semalaman",
+        "affix": "se-...-an",
+        "gloss": "整夜；一整晚"
+      }
+    ],
+    "root_jawi": "مالم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "在所述那一天的晚上；当晚。具体是哪一晚由上下文确定。",
+      "en_definition": "On the night or evening of the day being discussed; that night.",
+      "ms_definition": "Pada waktu malam bagi hari yang sedang diperkatakan atau yang telah disebut.",
+      "nuances": "这里按时间状语功能标注为 adverb，构词基础仍是名词 malam。它本身不表示“昨晚”或“下一晚”；malamnya kami pulang 通常是“当晚我们回去了”。马来语释义是根据 malam 和语境回指功能整理的释义，并非独立词条引文。[DBP 用例](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=malamnya)。",
+      "collocations": [
+        {
+          "ms": "pada malamnya",
+          "zh": "在当天晚上",
+          "en": "that evening"
+        },
+        {
+          "ms": "malamnya pula",
+          "zh": "到了当晚则……",
+          "en": "that night, in turn"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "所指日期、地方或经历中的夜晚、夜间部分，常与白天相对。",
+      "en_definition": "The night or nighttime associated with a particular day, place, or experience.",
+      "ms_definition": "Waktu malam yang dikaitkan dengan hari, tempat atau keadaan tertentu, lazimnya sebagai bandingan dengan waktu siang.",
+      "nuances": "如 siangnya panas, malamnya sejuk，意思是“白天热，夜里凉”；-nya 将白天和夜晚连接到同一语境，并不是另有一个人物拥有这个夜晚。此义为结构释义。[DBP 中的昼夜对照用例](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=malamnya)。",
+      "collocations": [
+        {
+          "ms": "siangnya panas, malamnya sejuk",
+          "zh": "白天热，夜里凉",
+          "en": "hot by day and cool at night"
+        },
+        {
+          "ms": "malamnya sunyi",
+          "zh": "那里的夜晚很安静",
+          "en": "its nights are quiet"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Bengkel tersebut berlangsung pada waktu siang, manakala pada malamnya para peserta menghadiri majlis makan malam rasmi.",
+      "zh": "研讨班在白天举行，当晚与会者出席了正式晚宴。",
+      "en": "The workshop took place during the day, and that evening the participants attended an official dinner."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Sabtu tu aku kerja siang, malamnya baru boleh lepak lah.",
+      "ms_standard": "Pada hari Sabtu itu, saya bekerja pada waktu siang dan hanya boleh berjumpa untuk bersantai pada malamnya.",
+      "zh": "那周六我白天上班，得晚上才能出来聚啦。",
+      "en": "I'm working during the day that Saturday, so I can only hang out that evening.",
+      "spoken_features": [
+        "tu 对应 itu，用来回指已经谈到的星期六。",
+        "baru boleh 在此强调到晚上才有空。",
+        "lepak 表示轻松待着、闲聊或聚一聚。",
+        "lah 使解释更口语化。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Sabtu tu kau nak jumpa siang ke malam?",
+          "ms_standard": "Pada hari Sabtu itu, kamu mahu berjumpa pada waktu siang atau malam?",
+          "zh": "那周六你想白天见还是晚上见？",
+          "en": "Do you want to meet during the day or in the evening that Saturday?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Siang aku kerja. Malamnya kita jumpa kat kedai biasa je, ya?",
+          "ms_standard": "Saya bekerja pada waktu siang. Pada malamnya, kita berjumpa di kedai yang biasa kita kunjungi sahaja, ya?",
+          "zh": "我白天上班。晚上就在咱们常去的那家店见，好吧？",
+          "en": "I'm working during the day. Let's meet at our usual place that evening, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malamnya shows how Malay builds a connected narrative from an ordinary word for night. Adding -nya lets a speaker return to a day already mentioned: an afternoon event can be followed by malamnya, meaning that same evening. Dictionary examples also contrast siangnya with malamnya, neatly dividing one setting into its daytime and nighttime activities. [DBP examples](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=malamnya).",
+    "cognitive_memory_aid": "malam 是“夜晚”，-nya 像一根回指线：拉回刚说的那一天，就是“当天晚上”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词语气中性，可用于正式叙事和日常交流；礼貌程度主要由人称、称谓和整句表达决定。",
+    "usage_etiquette": "安排会议或聚会时，先交代日期再用 malamnya。若上下文没有明确日期，宜直接说 malam ini、malam esok 或具体日期，避免约错时间。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词语气中性，可用于正式叙事和日常交流；礼貌程度主要由人称、称谓和整句表达决定。",
+    "usage_etiquette": "安排会议或聚会时，先交代日期再用 malamnya。若上下文没有明确日期，宜直接说 malam ini、malam esok 或具体日期，避免约错时间。"
+  }
+}

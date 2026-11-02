@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "kakakmu",
+    "syllables": null,
+    "ipa": "/ka.kaʔ.mu/",
+    "jawi": "کاکق",
+    "frequency_rank": 10068,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kakak",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "kakak + -mu → kakakmu",
+    "pattern_note": "-mu 是表示第二人称领属的后附代词，严格说属于附着语素，而非派生后缀；此处按字段归入 suffix。末尾 k 通常读 /ʔ/。输入未提供音节，故保留 null；通常可分 ka.kak.mu。所给 Jawi کاکق 仅对应词根，完整形式可写作 کاکقمو。",
+    "word_family": [
+      {
+        "word": "kakak",
+        "affix": null,
+        "gloss": "姐姐；对稍年长女性的亲切称呼"
+      },
+      {
+        "word": "kakakku",
+        "affix": "-ku",
+        "gloss": "我的姐姐"
+      },
+      {
+        "word": "kakaknya",
+        "affix": "-nya",
+        "gloss": "他或她的姐姐"
+      },
+      {
+        "word": "berkakak",
+        "affix": "ber-",
+        "gloss": "有姐姐；称某人为姐姐"
+      }
+    ],
+    "root_jawi": "کاکق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的姐姐，即比你年长的女性同胞；也可依语境指你以姐姐相称的女性。",
+      "en_definition": "Your elder sister; contextually, a woman regarded or addressed as an elder sister.",
+      "ms_definition": "Saudara perempuan kamu yang lebih tua; mengikut konteks, perempuan yang kamu anggap atau panggil kakak.",
+      "nuances": "这是 kakak 加领属成分 -mu 的组合义，并非词根 kakak 的独立新义。kakak 也可亲切称呼稍年长的非亲属女性；实际使用 kakakmu 时通常首先理解为你的姐姐。词根义依据 [DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=kakak)；-mu 的代词性质见 [DBP《Dewan Bahasa》](https://eseminar.dbp.gov.my/majalah/2020/db82020/files/basic-html/page21.html)。",
+      "collocations": [
+        {
+          "ms": "kakakmu yang sulung",
+          "zh": "你的大姐",
+          "en": "your eldest sister"
+        },
+        {
+          "ms": "bersama kakakmu",
+          "zh": "和你的姐姐一起",
+          "en": "with your elder sister"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你的哥哥；适用于 kakak 被用来指年长男性同胞的语境。",
+      "en_definition": "Your elder brother, where kakak denotes an older male sibling.",
+      "ms_definition": "Saudara lelaki kamu yang lebih tua, apabila kakak digunakan dengan pengertian abang.",
+      "nuances": "DBP 也收录 kakak 的男性同胞义。现代马来西亚日常交流通常用 abangmu 表示你的哥哥；不得在缺乏语境时将 kakakmu 默认译为哥哥。以下为限定该义的说明性组合。",
+      "collocations": [
+        {
+          "ms": "kakakmu yang lelaki",
+          "zh": "你的男性年长同胞，即哥哥",
+          "en": "your elder male sibling"
+        },
+        {
+          "ms": "kakakmu itu, abang kandungmu",
+          "zh": "你那位年长同胞，也就是你的亲哥哥",
+          "en": "that elder sibling of yours, your biological elder brother"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "学校通知 / 教师书面留言",
+      "ms": "Sila maklumkan kepada kakakmu bahawa sesi taklimat keluarga akan diadakan pada hari Jumaat.",
+      "zh": "请通知你的姐姐，家庭说明会将于星期五举行。",
+      "en": "Please inform your elder sister that the family briefing will be held on Friday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人间略带书面感的聊天",
+      "ms_spoken": "Kakakmu dah sampai kat rumah ke?",
+      "ms_standard": "Adakah kakakmu sudah sampai di rumah?",
+      "zh": "你姐到家了吗？",
+      "en": "Has your sister got home yet?",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "句末 ke 标记口语疑问",
+        "保留 kakakmu；许多日常场景更自然地说 kakak awak 或 kakak kau，须按亲疏选择"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kakakmu dah sampai kat rumah ke?",
+          "ms_standard": "Adakah kakakmu sudah sampai di rumah?",
+          "zh": "你姐到家了吗？",
+          "en": "Is your sister home yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, dia sampai tadi je. Nak aku panggilkan?",
+          "ms_standard": "Sudah, dia baru sahaja sampai. Mahukah kamu saya panggilkan dia?",
+          "zh": "到了，她刚到。要我叫她一下吗？",
+          "en": "Yes, she just got in. Want me to get her?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kakakmu combines a kinship term with the shortened second-person pronoun mu. Malay kinship vocabulary also works beyond biological families: kakak can create respectful familiarity with an older woman. The attached pronoun identifies the person in relation to the addressee. This grammatical combination explains the whole form without requiring a separate borrowing story or an invented ancient root.",
+    "cognitive_memory_aid": "kakak＝姐姐，-mu＝你的；两块直接拼接：kakakmu＝你的姐姐。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 带有熟悉、亲近或文学色彩，不是面向所有对象的敬称。正式服务或职场交流可根据对象改用 kakak puan、kakak encik 或 kakak anda。",
+    "usage_etiquette": "称稍年长女性为 kakak 或 Kak 往往显得亲切，但应结合年龄、关系和对方偏好。不要因为 kakak 可作称呼，就把所有 kakakmu 都理解成亲姐姐。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 带有熟悉、亲近或文学色彩，不是面向所有对象的敬称。正式服务或职场交流可根据对象改用 kakak puan、kakak encik 或 kakak anda。",
+    "usage_etiquette": "称稍年长女性为 kakak 或 Kak 往往显得亲切，但应结合年龄、关系和对方偏好。不要因为 kakak 可作称呼，就把所有 kakakmu 都理解成亲姐姐。"
+  }
+}

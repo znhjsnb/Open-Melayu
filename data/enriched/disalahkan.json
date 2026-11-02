@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "disalahkan",
+    "syllables": "di.sa.lah.kan",
+    "ipa": "/di.sa.lah.kan/",
+    "jawi": "دسالهکن",
+    "frequency_rank": 10066,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "salah",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + salah + -kan → disalahkan",
+    "pattern_note": "di- 表示被动，-kan 保留相应及物动词的构词形式；词根 salah 不发生音变。输入将整个派生词标作词根，应纠正为 salah。此处 circumfix 按给定分类表示前后缀组合，di- 与 -kan 的语法作用仍须分别理解。",
+    "word_family": [
+      {
+        "word": "salah",
+        "affix": null,
+        "gloss": "错误的；过错"
+      },
+      {
+        "word": "menyalahkan",
+        "affix": "meN-...-kan",
+        "gloss": "责怪；认为有错"
+      },
+      {
+        "word": "bersalah",
+        "affix": "ber-",
+        "gloss": "有错的；有罪的"
+      },
+      {
+        "word": "kesalahan",
+        "affix": "ke-...-an",
+        "gloss": "错误；过失；违法行为"
+      }
+    ],
+    "root_jawi": "ساله"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被责怪；被认为应对某项过失或不良结果负责。",
+      "en_definition": "Be blamed or held responsible for a fault or undesirable outcome.",
+      "ms_definition": "Dianggap bersalah atau dipertanggungjawabkan atas sesuatu kesilapan atau kejadian buruk.",
+      "nuances": "是 menyalahkan 的被动形式，描述责任被归给某人或某事，不证明归责一定正确，也不等于经司法裁定有罪。释义依据：[DBP：menyalahkan](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menyalahkan+1)；该被动形式亦见于 [DBP 收录用例](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=disalahkan)。",
+      "collocations": [
+        {
+          "ms": "disalahkan atas kegagalan",
+          "zh": "因失败而被责怪",
+          "en": "be blamed for a failure"
+        },
+        {
+          "ms": "tidak boleh disalahkan",
+          "zh": "不能责怪；不应归咎",
+          "en": "cannot be blamed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "某个答案、判断或做法被认为不正确；被判作有误。",
+      "en_definition": "Be judged or treated as incorrect.",
+      "ms_definition": "Dianggap atau dinyatakan tidak betul.",
+      "nuances": "焦点是对错判断，可用于答案或意见，不一定涉及道德责任。教育语境中，ditandai sebagai salah 或 dianggap salah 往往更明确。对应主动词“认为有误”的义项，依据：[DBP：menyalahkan](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menyalahkan+1)。",
+      "collocations": [
+        {
+          "ms": "jawapan yang disalahkan",
+          "zh": "被判错的答案",
+          "en": "an answer judged incorrect"
+        },
+        {
+          "ms": "pendapat yang disalahkan",
+          "zh": "被认为错误的意见",
+          "en": "an opinion judged wrong"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pegawai berkenaan tidak wajar disalahkan atas kelewatan itu sebelum hasil siasatan diperoleh.",
+      "zh": "在取得调查结果之前，不宜因这次延误而责怪有关官员。",
+      "en": "The officer concerned should not be blamed for the delay before the investigation findings are available."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku pula yang disalahkan, padahal aku dah ikut arahan.",
+      "ms_standard": "Saya pula yang disalahkan, sedangkan saya sudah mengikut arahan.",
+      "zh": "结果反倒怪到我头上了，明明我已经照指示做了。",
+      "en": "I'm the one getting blamed, even though I followed the instructions.",
+      "spoken_features": [
+        "aku 适合熟人之间，正式场合通常改用 saya。",
+        "dah 是 sudah 的口语缩略形式。",
+        "pula 突出出乎预期的归责对象。",
+        "padahal 在这里表示与前述情况相反的事实。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku pula yang disalahkan, padahal aku dah ikut arahan.",
+          "ms_standard": "Saya pula yang disalahkan, sedangkan saya sudah mengikut arahan.",
+          "zh": "结果反倒怪到我头上了，明明我已经照指示做了。",
+          "en": "I'm the one getting blamed, even though I followed the instructions."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Cuba tunjuk mesej tu kat bos dulu. Biar dia semak balik.",
+          "ms_standard": "Cuba tunjukkan mesej itu kepada ketua terlebih dahulu supaya beliau dapat menyemaknya semula.",
+          "zh": "先把那条信息给老板看看，让他再核对一下。",
+          "en": "Try showing your boss that message first so they can check it again."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Disalahkan is built transparently from salah, the Malay word associated with wrongness and fault. Its passive prefix shifts attention towards whoever receives the blame. DBP's proverb material includes the image of someone blaming an uneven floor for poor dancing, showing how misplaced blame is criticised through an everyday scene rather than an abstract lecture. [DBP: disalahkan](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=disalahkan)",
+    "cognitive_memory_aid": "salah＝错；menyalahkan＝怪别人；disalahkan＝别人怪到自己头上。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "涉及责任归属时语气较重；向上级或同事提出异议，可用“Saya berharap perkara ini dapat disemak semula”缓和表达。",
+    "usage_etiquette": "适用于说明受责怪或被判错的情况。正式调查中应区分“被归责”“被指控”和“被裁定有罪”，避免把 disalahkan 当作法律定罪用语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "涉及责任归属时语气较重；向上级或同事提出异议，可用“Saya berharap perkara ini dapat disemak semula”缓和表达。",
+    "usage_etiquette": "适用于说明受责怪或被判错的情况。正式调查中应区分“被归责”“被指控”和“被裁定有罪”，避免把 disalahkan 当作法律定罪用语。"
+  }
+}

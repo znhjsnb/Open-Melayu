@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "membedah",
+    "syllables": "mem.be.dah",
+    "ipa": "/məm.bə.dah/",
+    "jawi": "ممبده",
+    "frequency_rank": 10054,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bedah",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + bedah → membedah",
+    "pattern_note": "词根以浊双唇塞音 b 开头时，meN- 采用 mem-，鼻音与 b 的发音部位相配，原有 b 保留；不是把 bedah 的 b 删除。",
+    "word_family": [
+      {
+        "word": "pembedahan",
+        "affix": "peN-…-an",
+        "gloss": "外科手术；解剖的过程"
+      },
+      {
+        "word": "pembedah",
+        "affix": "peN-",
+        "gloss": "施行手术者；解剖工具"
+      },
+      {
+        "word": "dibedah",
+        "affix": "di-",
+        "gloss": "被施行手术；被解剖"
+      }
+    ],
+    "root_jawi": "بده"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "切开身体某一部位，以切除病变组织或进行治疗；施行外科手术。",
+      "en_definition": "To operate surgically on a person or body part to remove or treat diseased tissue.",
+      "ms_definition": "Membelah bahagian badan untuk membuang atau merawat bahagian yang berpenyakit.",
+      "nuances": "主语通常是医生或手术团队，宾语可指患者或身体部位。接受手术的人通常说 menjalani pembedahan 或 dibedah；说“Saya membedah”则表示自己施行手术。义项依据：[DBP PRPM：membedah](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=membedah)。",
+      "collocations": [
+        {
+          "ms": "membedah pesakit",
+          "zh": "为患者施行手术",
+          "en": "to operate on a patient"
+        },
+        {
+          "ms": "membedah jantung",
+          "zh": "为心脏施行手术",
+          "en": "to operate on the heart"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "为观察内部结构、教学或研究而剖开身体，通常指动物或动物标本的解剖。",
+      "en_definition": "To dissect a body, usually an animal specimen, to examine its internal structures for study.",
+      "ms_definition": "Membelah tubuh, biasanya tubuh binatang, untuk melihat bahagian dalamnya bagi tujuan pembelajaran.",
+      "nuances": "这一义项通常译为 dissect，重点是观察和学习，与为患者治疗的 operate on 有别。仅有 membedah 一词并不说明标本是否经过保存，也不说明具体实验程序。",
+      "collocations": [
+        {
+          "ms": "membedah arnab",
+          "zh": "解剖兔子",
+          "en": "to dissect a rabbit"
+        },
+        {
+          "ms": "membedah katak",
+          "zh": "解剖青蛙",
+          "en": "to dissect a frog"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan pakar bedah berjaya membedah pesakit itu untuk membuang ketumbuhan.",
+      "zh": "外科专家团队成功为该患者施行手术，切除了肿块。",
+      "en": "The surgical team successfully operated on the patient to remove a growth."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Doktor yang bedah ayah tadi dah datang jelaskan keadaannya.",
+      "ms_standard": "Doktor yang membedah ayah tadi sudah datang untuk menjelaskan keadaan ayah.",
+      "zh": "刚才给爸爸做手术的医生已经过来说明他的情况了。",
+      "en": "The doctor who operated on Dad earlier has come to explain how he's doing.",
+      "spoken_features": [
+        "口语中 bedah 可省略 meN-，对应标准语主动形式 membedah。",
+        "dah 对应 sudah。",
+        "ayah 在家庭语境中可直接指爸爸，不必每次加所属成分。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (妹妹)",
+          "ms_spoken": "Doktor yang bedah ayah tadi dah jumpa kakak ke?",
+          "ms_standard": "Adakah doktor yang membedah ayah tadi sudah berjumpa dengan kakak?",
+          "zh": "姐，刚才给爸爸做手术的医生已经跟你谈过了吗？",
+          "en": "Have you spoken to the doctor who operated on Dad earlier?"
+        },
+        {
+          "speaker": "Siti (姐姐)",
+          "ms_spoken": "Dah. Doktor kata pembedahan berjalan lancar. Ayah tengah berehat kat wad.",
+          "ms_standard": "Ya, doktor sudah berjumpa dengan saya. Menurut doktor, pembedahan berjalan lancar. Ayah sedang berehat di wad.",
+          "zh": "谈过了。医生说手术很顺利，爸爸现在在病房休息。",
+          "en": "Yes. The doctor said the operation went smoothly. Dad's resting in the ward."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kamus Dewan records bedah both for something split or torn and in expressions concerning surgery. Its family includes membedah, pembedahan and pembedah, connecting the act, the procedure and the practitioner or instrument. This offers a memorable lexical relationship between opening and examining the body. It does not, by itself, establish the word's ultimate historical source.",
+    "cognitive_memory_aid": "记住角色方向：doktor membedah＝医生动手术；pesakit dibedah＝患者接受手术。mem- 遇到 b，b 仍保留。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向患者或家属询问时，“Bagaimanakah keadaan beliau selepas pembedahan?”比直接追问切开了哪个部位更体贴；正式交流可用 beliau 尊称患者。",
+    "usage_etiquette": "适合医疗、教学及相关报道。谈论患者手术时尊重隐私；在普通社交场合，避免未经邀请描述切口、器官或其他令人不适的细节。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向患者或家属询问时，“Bagaimanakah keadaan beliau selepas pembedahan?”比直接追问切开了哪个部位更体贴；正式交流可用 beliau 尊称患者。",
+    "usage_etiquette": "适合医疗、教学及相关报道。谈论患者手术时尊重隐私；在普通社交场合，避免未经邀请描述切口、器官或其他令人不适的细节。"
+  }
+}

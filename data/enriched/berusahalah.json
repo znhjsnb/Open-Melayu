@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "berusahalah",
+    "syllables": null,
+    "ipa": "/bər.u.sa.ha.lah/",
+    "jawi": "براوسها",
+    "frequency_rank": 9980,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "berusaha",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "berusaha + -lah → berusahalah；更深一层：ber- + usaha → berusaha",
+    "pattern_note": "按输入保留直接基词 berusaha；其最终词根为 usaha。-lah 是附着语气词，并非派生词缀，此处因字段限制记在 suffix 下。ber- 的元音为 /ə/，后接元音起首的 usaha 时保留 /r/；加 -lah 不改变基词拼写。输入未给音节划分，故 syllables 保留 null。输入爪夷文 براوسها 对应 berusaha，未含 -lah；完整形式可写作 براوسهاله。",
+    "word_family": [
+      {
+        "word": "usaha",
+        "affix": null,
+        "gloss": "努力；为达成目标而付出的行动"
+      },
+      {
+        "word": "berusaha",
+        "affix": "ber-",
+        "gloss": "努力；设法"
+      },
+      {
+        "word": "mengusahakan",
+        "affix": "meN-…-kan",
+        "gloss": "设法实现；经营或开发"
+      },
+      {
+        "word": "pengusaha",
+        "affix": "peN-",
+        "gloss": "经营者；企业经营人"
+      }
+    ],
+    "root_jawi": "براوسها"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "努力吧；尽力设法实现某个目标。由 berusaha 加语气词 -lah 构成，用于劝勉、请求或指示。",
+      "en_definition": "Make an effort; strive to achieve something, with -lah adding exhortation, emphasis, or softening.",
+      "ms_definition": "Bekerja dengan giat untuk mencapai, melaksanakan atau menyempurnakan sesuatu; berikhtiar dengan sedaya upaya.",
+      "nuances": "马来语释义依据 DBP 的 berusaha 条目展开缩写；-lah 的语气作用另作说明。它不创造新的词汇义，也不保证语气必然温和，实际效果取决于语调与关系。常见于鼓励和致辞；日常聊天中也可使用，但容易带出劝导口吻。berusahalah 后接目标时可用 untuk；Yang Berusaha 是另一个固定敬称结构。依据：[DBP PRPM：berusaha](https://prpm.dbp.gov.my/Cari1?d=109300&keyword=berusaha)。",
+      "collocations": [
+        {
+          "ms": "berusahalah dengan bersungguh-sungguh",
+          "zh": "认真努力吧",
+          "en": "make a wholehearted effort"
+        },
+        {
+          "ms": "berusahalah sedaya upaya",
+          "zh": "尽最大努力吧",
+          "en": "do your utmost"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam ucapannya, pengarah menyeru semua kakitangan, \"Berusahalah dengan bersungguh-sungguh untuk meningkatkan mutu perkhidmatan kita.\"",
+      "zh": "主任在致辞中呼吁全体员工：“请认真努力，提高我们的服务质量。”",
+      "en": "In her address, the director urged all staff, \"Make a wholehearted effort to improve the quality of our service.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Berusahalah sikit lagi, kau dah dekat nak siap tu.",
+      "ms_standard": "Berusahalah sedikit lagi kerana kerja kamu sudah hampir siap.",
+      "zh": "再努力一下吧，你都快做完了。",
+      "en": "Keep going a little longer. You're nearly done.",
+      "spoken_features": [
+        "sikit 是 sedikit 的口语形式",
+        "dah 是 sudah 的口语缩略形式",
+        "nak 是 hendak 的口语形式",
+        "kau 是亲近同辈之间使用的非正式第二人称",
+        "句末 tu 强调双方已知的当前情境"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah penat, rasa nak berhenti je.",
+          "ms_standard": "Saya sudah penat dan berasa hendak berhenti sahaja.",
+          "zh": "我累了，真想直接不做了。",
+          "en": "I'm exhausted. I feel like giving up."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Berusahalah sikit lagi, kau dah dekat nak siap tu. Aku boleh tolong.",
+          "ms_standard": "Berusahalah sedikit lagi kerana kerja kamu sudah hampir siap. Saya boleh membantu.",
+          "zh": "再坚持一下吧，你都快做完了。我可以帮你。",
+          "en": "Keep going a little longer. You're nearly done, and I can help."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Berusahalah layers Malay grammar onto usaha, an older word for effort. Lexical references trace usaha through Classical Malay and Pali ussāha to Sanskrit utsāha, associated with energy and perseverance. Malay adds ber- to form the verb and -lah to address a listener directly. The historical borrowing is therefore distinct from the word's transparent modern construction. Reference: [usaha etymology](https://en.wiktionary.org/wiki/usaha).",
+    "cognitive_memory_aid": "分三步记：usaha＝努力，berusaha＝去努力，berusahalah＝努力吧！最后的 lah 给行动加上劝勉语气。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适合老师鼓励学生、长辈鼓励晚辈或朋友互相打气。对上司直接说 berusahalah 可能显得在训导对方；共同承担任务时可用 Marilah kita berusaha bersama-sama。",
+    "usage_etiquette": "对方遇到困难时，单独一句 berusahalah 可能让人觉得其现有努力被忽视。先承认困难，再提出具体帮助，通常更体贴；-lah 本身不能消除责备感。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适合老师鼓励学生、长辈鼓励晚辈或朋友互相打气。对上司直接说 berusahalah 可能显得在训导对方；共同承担任务时可用 Marilah kita berusaha bersama-sama。",
+    "usage_etiquette": "对方遇到困难时，单独一句 berusahalah 可能让人觉得其现有努力被忽视。先承认困难，再提出具体帮助，通常更体贴；-lah 本身不能消除责备感。"
+  }
+}
