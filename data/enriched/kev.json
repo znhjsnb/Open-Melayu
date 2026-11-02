@@ -1,0 +1,101 @@
+{
+  "headword": {
+    "word": "kev",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 8218,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kev",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kev → kev",
+    "pattern_note": "按输入保留字符串及词根标记；尚未确认其为马来语词根，不能据此推定音节、发音或派生规则。若原文指能量单位 keV，则属于国际单位符号，不适用马来语词缀分析。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "若此处 kev 是单位符号 keV 的大小写归一化形式，则指千电子伏特，即一千电子伏特；此解释尚须原文语境确认。",
+      "en_definition": "If the input represents the energy-unit symbol keV: a kiloelectronvolt, equal to one thousand electronvolts. This interpretation requires contextual confirmation.",
+      "ms_definition": "Jika bentuk ini merujuk kepada simbol keV, maksudnya ialah unit tenaga yang bersamaan dengan seribu elektron volt; tafsiran ini memerlukan pengesahan berdasarkan konteks asal.",
+      "nuances": "本义项仅为候选解释，不是已核实的 kev 马来语词条，也不是 DBP 官方释义。名词标签对应单位名称，不能证明输入字符串具有该词性。规范符号 keV 的定义参见 [NASA 单位说明](https://pds.nasa.gov/datastandards/documents/dd/v1/PDS4_PDS_DD_1O00/webhelp/all/ch123s08.html)。此外，KEV 也用于公司名称 Kapar Energy Ventures，参见 [TNB 官方页面](https://www.tnb.com.my/sustainability/sustainable-power-plant-operations)。缺少原句时不能确定输入所指。以下搭配仅适用于单位 keV。",
+      "collocations": [
+        {
+          "ms": "tenaga foton 10 keV",
+          "zh": "10 千电子伏特的光子能量",
+          "en": "a photon energy of 10 keV"
+        },
+        {
+          "ms": "julat tenaga 5 hingga 20 keV",
+          "zh": "5 至 20 千电子伏特的能量范围",
+          "en": "an energy range of 5 to 20 keV"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场报告校对；讨论输入形式，未预设其含义",
+      "ms": "Sila semak bentuk “kev” dalam laporan ini dan sahkan sama ada bentuk tersebut merujuk kepada unit tenaga keV.",
+      "zh": "请核查报告中的“kev”，并确认它是否指能量单位 keV。",
+      "en": "Please check “kev” in this report and confirm whether it refers to the energy unit keV."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学核对笔记中的符号",
+      "ms_spoken": "Kat nota ni ada tulis “kev”. Ni unit tenaga ke?",
+      "ms_standard": "Dalam nota ini terdapat bentuk “kev”. Adakah bentuk ini merujuk kepada unit tenaga?",
+      "zh": "这份笔记里写了“kev”。这是能量单位吗？",
+      "en": "These notes say “kev”. Is that an energy unit?",
+      "spoken_features": [
+        "kat 对应标准语的 di 或 dalam；此处用 dalam",
+        "ni 是 ini 的口语缩略形式",
+        "句末 ke 表示口语疑问",
+        "dah 是 sudah 的口语缩略形式",
+        "句末 lah 可柔化建议，语气取决于上下文"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Kat nota ni ada tulis “kev”. Ni unit tenaga ke?",
+          "ms_standard": "Dalam nota ini terdapat bentuk “kev”. Adakah bentuk ini merujuk kepada unit tenaga?",
+          "zh": "这份笔记里写了“kev”。这是能量单位吗？",
+          "en": "These notes say “kev”. Is that an energy unit?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Belum pasti. Aku dah tanya pensyarah. Kita tunggu jawapan dia dulu lah.",
+          "ms_standard": "Saya belum pasti. Saya sudah bertanya kepada pensyarah. Mari kita tunggu jawapannya dahulu.",
+          "zh": "还不确定。我已经问老师了，咱们先等他回复吧。",
+          "en": "I'm not sure yet. I've asked the lecturer. Let's wait for their reply."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The packet does not establish an origin for “kev”. If it represents keV, its structure belongs to scientific notation: k indicates a thousand, while eV denotes the electronvolt. This explains the unit symbol, but does not establish a Malay etymology for the lowercase input. The interpretation remains conditional. See [NASA’s unit definitions](https://pds.nasa.gov/datastandards/documents/dd/v1/PDS4_PDS_DD_1O00/webhelp/all/ch123s08.html).",
+    "cognitive_memory_aid": "仅在确认是 keV 后记：k＝千，eV＝电子伏特，合起来就是千电子伏特；不要把 kev 的读音编成马来语谐音。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "核对不明符号时，可用“Sila sahkan…”（请确认……）礼貌询问。与教师或上级交流宜用 saya；例句中的 aku 适合同辈熟人。",
+    "usage_etiquette": "科技文本若指千电子伏特，应保留 keV 的大小写。若是机构缩写，应按机构正式写法处理。输入缺少原句，暂不宜作为普通马来语词汇教授。"
+  },
+  "validation": {
+    "requires_review": true,
+    "reason": "输入没有 DBP 释义、音标、音节或爪夷文，现有证据不足以把 kev 标为 official，也不足以确定它对应 keV、KEV 或其他形式。",
+    "definition_provenance": "三语释义为针对 keV 候选解释编写的说明，并非 DBP 官方释义。",
+    "frequency_rank_provenance": "8218 来自输入数据，未独立核实。",
+    "example_provenance": "例句为教学编写；搭配展示候选单位符号 keV 的用法，不是 kev 的已核实高频搭配。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "核对不明符号时，可用“Sila sahkan…”（请确认……）礼貌询问。与教师或上级交流宜用 saya；例句中的 aku 适合同辈熟人。",
+    "usage_etiquette": "科技文本若指千电子伏特，应保留 keV 的大小写。若是机构缩写，应按机构正式写法处理。输入缺少原句，暂不宜作为普通马来语词汇教授。"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "hadiri",
+    "syllables": null,
+    "ipa": "/ha.di.ri/",
+    "jawi": "حاضير",
+    "frequency_rank": 8262,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hadir",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "hadir + -i → hadiri",
+    "pattern_note": "添加 -i 后形成三个音节，无词根辅音脱落；完整主动形式为 meN- + hadir + -i → menghadiri，h 保留，meN- 实现为 meng-。输入包中的 حاضير 实为 hadir 的爪夷文；headword.jawi 按要求保留该原始值，不能视为已核准的 hadiri 拼写。",
+    "word_family": [
+      {
+        "word": "menghadiri",
+        "affix": "meN-…-i",
+        "gloss": "出席；参加"
+      },
+      {
+        "word": "kehadiran",
+        "affix": "ke-…-an",
+        "gloss": "出席；到场情况"
+      },
+      {
+        "word": "menghadirkan",
+        "affix": "meN-…-kan",
+        "gloss": "使到场；召来"
+      },
+      {
+        "word": "dihadiri",
+        "affix": "di-…-i",
+        "gloss": "由……出席"
+      }
+    ],
+    "root_jawi": "حاضير"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "出席或参加会议、典礼、课程等；是 menghadiri 去掉主动前缀 meN- 后的形式，用于祈使句及特定被动结构。",
+      "en_definition": "Attend an event, meeting or course; the unprefixed form of menghadiri used in imperatives and certain passive constructions.",
+      "ms_definition": "Berada sebagai peserta atau tetamu dalam sesuatu acara; bentuk tanpa awalan meN- bagi menghadiri.",
+      "nuances": "例如 Sila hadiri mesyuarat itu 是“请出席该会议”；mesyuarat yang saya hadiri 是“我出席的会议”。正式主动陈述通常写 Saya menghadiri mesyuarat itu。其宾语一般直接跟随，比较 hadir di mesyuarat 与 menghadiri mesyuarat。不能把“使某人到场”的 menghadirkan 当作同义形式。本释义依据 DBP 对 menghadiri 的解释编写，并非 DBP 对独立词头 hadiri 的逐字引文。[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=82548&keyword=hadir)。",
+      "collocations": [
+        {
+          "ms": "sila hadiri mesyuarat",
+          "zh": "请出席会议",
+          "en": "please attend the meeting"
+        },
+        {
+          "ms": "kursus yang saya hadiri",
+          "zh": "我参加的课程",
+          "en": "the course I attended"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila hadiri taklimat keselamatan di dewan utama pada pukul sembilan pagi esok.",
+      "zh": "请于明天上午九时到主礼堂参加安全说明会。",
+      "en": "Please attend the safety briefing in the main hall at nine tomorrow morning."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bengkel yang aku hadiri semalam tu best lah.",
+      "ms_standard": "Bengkel yang saya hadiri semalam itu sangat menarik.",
+      "zh": "我昨天参加的那个工作坊挺不错的。",
+      "en": "That workshop I attended yesterday was really good.",
+      "spoken_features": [
+        "aku 是熟人之间使用的非正式第一人称。",
+        "tu 是 itu 的口语缩略形式。",
+        "best 是日常口语中常见的英语借用表达。",
+        "lah 在此加强个人感受，不必逐字翻译。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Bengkel yang aku hadiri semalam tu best lah.",
+          "ms_standard": "Bengkel yang saya hadiri semalam itu sangat menarik.",
+          "zh": "我昨天参加的那个工作坊挺不错的。",
+          "en": "That workshop I attended yesterday was really good."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Oh ya? Aku pun nak ikut lain kali. Kau bagitahu aku awal-awal, ya.",
+          "ms_standard": "Benarkah? Saya juga mahu menyertainya pada masa akan datang. Beritahu saya lebih awal, ya.",
+          "zh": "是吗？下次我也想参加，你早点告诉我啊。",
+          "en": "Really? I'd like to join next time too. Let me know in advance, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay hadir is an Arabic loan associated with being present. Malay morphology builds on that borrowed base: hadiri adds the suffix -i, while menghadiri supplies the fuller active form used for attending events. The family illustrates how a borrowed word can participate in Malay grammar rather than remaining limited to its source-language structure. [Loanword discussion](https://e-journal.uum.edu.my/index.php/rentas/article/download/19072/4744/97509), [DBP word family](https://prpm.dbp.gov.my/Cari1?d=82548&keyword=hadir).",
+    "cognitive_memory_aid": "先记 hadir＝到场，再把 -i 想成指向活动的箭头：hadiri mesyuarat＝出席会议。正式主动句记完整形式 menghadiri。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独命令 Hadiri mesyuarat itu! 语气较强；通知中可用 Sila hadiri…，对需要更客气的对象可写 Tuan/Puan dijemput menghadiri…。",
+    "usage_etiquette": "适用于会议、典礼、课程等有组织的活动。出席不必然表示赞同活动立场；表达“召某人到场”应按语境使用 menghadirkan 或 meminta seseorang hadir。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独命令 Hadiri mesyuarat itu! 语气较强；通知中可用 Sila hadiri…，对需要更客气的对象可写 Tuan/Puan dijemput menghadiri…。",
+    "usage_etiquette": "适用于会议、典礼、课程等有组织的活动。出席不必然表示赞同活动立场；表达“召某人到场”应按语境使用 menghadirkan 或 meminta seseorang hadir。"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "menjunam",
+    "syllables": "men.ju.nam",
+    "ipa": "/mən.dʒu.nam/",
+    "jawi": "منجونم",
+    "frequency_rank": 8275,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "junam",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + junam → menjunam",
+    "pattern_note": "词根以 j /dʒ/ 开头时，meN- 实现为 men-，保留 j。输入包将完整词形误列为词根，此处据 [DBP junam 词条](https://prpm.dbp.gov.my/cari1?keyword=junam)更正。",
+    "word_family": [
+      {
+        "word": "junam",
+        "affix": null,
+        "gloss": "俯冲；头朝下的下冲动作"
+      },
+      {
+        "word": "menjunamkan",
+        "affix": "meN-...-kan",
+        "gloss": "使向下俯冲；使向下插入"
+      },
+      {
+        "word": "terjunam",
+        "affix": "ter-",
+        "gloss": "意外地头朝下跌落"
+      }
+    ],
+    "root_jawi": "جونم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "头部或前端朝下俯冲；急速向下冲。",
+      "en_definition": "To dive or plunge downwards, head or front first.",
+      "ms_definition": "Bergerak dengan kepala dahulu mengarah ke bawah; menukik.",
+      "nuances": "核心是向下俯冲的方向与姿态，常用于飞机、鸟或身体运动。并不必然表示发生事故，也不等同于所有形式的 jatuh。定义依据 [DBP junam 词条](https://prpm.dbp.gov.my/cari1?keyword=junam)。",
+      "collocations": [
+        {
+          "ms": "kapal terbang menjunam",
+          "zh": "飞机向下俯冲",
+          "en": "an aircraft dives"
+        },
+        {
+          "ms": "menjunam ke dalam laut",
+          "zh": "向海中俯冲",
+          "en": "plunge into the sea"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "比喻价格、数量、表现或其他指标急剧下降。",
+      "en_definition": "Of a price, quantity, or level: to fall sharply or plummet.",
+      "ms_definition": "Secara kiasan, turun atau merosot dengan mendadak dan banyak.",
+      "nuances": "这是从实体俯冲延伸出的比喻用法；本义之外的马来语释义为编写释义，并非输入所引 Kamus Dewan 定义原文。语气强于普通 menurun，宜用于明显且快速的跌势。",
+      "collocations": [
+        {
+          "ms": "harga minyak menjunam",
+          "zh": "油价暴跌",
+          "en": "oil prices plummet"
+        },
+        {
+          "ms": "jualan menjunam",
+          "zh": "销售额骤降",
+          "en": "sales plunge"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jualan syarikat menjunam pada suku kedua berikutan penurunan permintaan.",
+      "zh": "由于需求下降，公司第二季度的销售额骤降。",
+      "en": "The company's sales plunged in the second quarter following a fall in demand."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Jualan kedai kita dah menjunam bulan ni.",
+      "ms_standard": "Jualan kedai kita sudah menjunam pada bulan ini.",
+      "zh": "咱们店这个月的销售额已经跌得很厉害了。",
+      "en": "Our shop's sales have really plunged this month.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "ni 对应 ini。",
+        "口语时间短语 bulan ni 省略了标准句中的 pada。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Jualan kedai kita dah menjunam bulan ni.",
+          "ms_standard": "Jualan kedai kita sudah menjunam pada bulan ini.",
+          "zh": "咱们店这个月的销售额已经跌得很厉害了。",
+          "en": "Our shop's sales have really plunged this month."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, saya nak semak angka tu dulu, lepas tu kita bincang.",
+          "ms_standard": "Ya, saya hendak menyemak angka itu dahulu. Selepas itu, kita berbincang.",
+          "zh": "是啊，我想先核对一下那些数字，然后咱们再讨论。",
+          "en": "Yes, I'll check the figures first, then we can talk."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries organize menjunam under junam, alongside forms describing a caused dive or an accidental plunge. The physical image is movement downwards with the head or front leading. Figurative descriptions of falling sales or prices reuse that vivid downward trajectory. This explains the connection between the senses without requiring an unsupported story about the word's deeper historical ancestry.",
+    "cognitive_memory_aid": "把 junam 记成箭头猛地朝下：飞机是“俯冲”，销售曲线是“骤降”；加 meN- 就是执行这个动作的 menjunam。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身语域中性，可用于新闻和工作报告；但形容同事的表现时语气较重，最好说明具体指标，避免将整体能力一概评价为骤降。",
+    "usage_etiquette": "描述飞机或鸟时可直接使用本义。描述业绩或价格时，应有足够明显的下跌幅度支持该措辞；轻微回落通常用 menurun 更准确。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身语域中性，可用于新闻和工作报告；但形容同事的表现时语气较重，最好说明具体指标，避免将整体能力一概评价为骤降。",
+    "usage_etiquette": "描述飞机或鸟时可直接使用本义。描述业绩或价格时，应有足够明显的下跌幅度支持该措辞；轻微回落通常用 menurun 更准确。"
+  }
+}

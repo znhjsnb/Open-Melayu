@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "dibaiki",
+    "syllables": null,
+    "ipa": "/di.ba.i.ki/",
+    "jawi": null,
+    "frequency_rank": 8235,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dibaiki",
+    "affix": "di-…-i",
+    "affix_type": "circumfix",
+    "formula": "di- + baik + -i → dibaiki",
+    "pattern_note": "root_word 字段按要求保留词包中的 dibaiki；实际构词词根为 baik，词包将整词标为词根的分析有误。di- 标示被动，-i 构成修整义动词，词根 b 保留；baik 后接 -i 时读作 ba.i.ki。di- 与动词连写。",
+    "word_family": [
+      {
+        "word": "baik",
+        "affix": null,
+        "gloss": "好；良好"
+      },
+      {
+        "word": "baiki",
+        "affix": "-i",
+        "gloss": "修理；改正，常用于祈使句"
+      },
+      {
+        "word": "membaiki",
+        "affix": "meN-…-i",
+        "gloss": "修理；改正"
+      },
+      {
+        "word": "pembaikan",
+        "affix": "peN-…-an",
+        "gloss": "修理；修缮工作"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被修理、修缮或修复，使损坏的物件、设施恢复正常或可用状态。",
+      "en_definition": "To be repaired or restored to a usable condition.",
+      "ms_definition": "Dibetulkan atau dipulihkan supaya kerosakannya diatasi dan dapat digunakan semula; bentuk pasif bagi membaiki.",
+      "nuances": "被动词形本身不表示过去或完成：sedang dibaiki＝正在修理，telah dibaiki＝已经修好，akan dibaiki＝将被修理。受事通常作主语；施事可用 oleh 引出。DBP 的答复使用 Rumah untuk pekerja-pekerja estet telah dibaiki，见 [DBP：mengangkat，语法答复](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=mengangkat)。",
+      "collocations": [
+        {
+          "ms": "kereta sedang dibaiki",
+          "zh": "汽车正在维修",
+          "en": "the car is being repaired"
+        },
+        {
+          "ms": "jalan yang rosak dibaiki",
+          "zh": "损坏的道路得到修缮",
+          "en": "the damaged road is repaired"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "文字、表达或其他有缺陷之处被修改、纠正，使其更正确或合适。",
+      "en_definition": "To be corrected or revised to remedy a fault.",
+      "ms_definition": "Dibetulkan atau dipinda untuk mengatasi kesalahan atau kelemahan, misalnya pada ayat.",
+      "nuances": "可用于句子等非实体对象，不限于机械维修。DBP 的语言答复使用 Ayat tersebut boleh dibaiki，见 [DBP：句子修改用例](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pesat+I+1)。中文依对象可译作修改、改正或修正。",
+      "collocations": [
+        {
+          "ms": "ayat ini perlu dibaiki",
+          "zh": "这个句子需要修改",
+          "en": "this sentence needs revision"
+        },
+        {
+          "ms": "kesalahan ejaan telah dibaiki",
+          "zh": "拼写错误已经改正",
+          "en": "the spelling errors have been corrected"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "市政公告 / 维修工程进度",
+      "ms": "Jalan yang rosak akibat banjir itu sedang dibaiki oleh pihak berkuasa tempatan.",
+      "zh": "地方政府正在修缮那条因水灾损坏的道路。",
+      "en": "The road damaged by the floods is being repaired by the local authority."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问汽车维修进度",
+      "ms_spoken": "Kereta aku masih dibaiki kat bengkel tu, jadi aku nak naik bas je esok.",
+      "ms_standard": "Kereta saya masih dibaiki di bengkel itu, jadi saya hendak menaiki bas sahaja esok.",
+      "zh": "我的车还在那家修车厂修着，所以明天我就坐巴士了。",
+      "en": "My car's still being fixed at that workshop, so I'll just take the bus tomorrow.",
+      "spoken_features": [
+        "kat 在此对应 di，tu 对应 itu。",
+        "nak 对应 hendak，je 对应 sahaja。",
+        "aku 用于关系熟悉者之间。",
+        "dibaiki 保留被动结构，口语省去非必要的施事说明。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kereta kau dah siap dibaiki ke?",
+          "ms_standard": "Adakah kereta awak sudah selesai dibaiki?",
+          "zh": "你的车修好了吗？",
+          "en": "Is your car fixed yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum, masih dibaiki kat bengkel tu. Esok aku naik bas je.",
+          "ms_standard": "Belum, kereta saya masih dibaiki di bengkel itu. Esok saya akan menaiki bas sahaja.",
+          "zh": "还没，还在那家修车厂修着。明天我就坐巴士。",
+          "en": "Not yet, it's still being fixed at that workshop. I'll just take the bus tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dibaiki shows how Malay turns an everyday quality into an action: baik means good, while membaiki concerns making something right or serviceable. The passive form shifts attention to the thing receiving that work. A damaged road and a faulty sentence can therefore share the same verb, linking practical repair with the broader idea of putting something right.",
+    "cognitive_memory_aid": "baik＝好，baiki＝修好，di-＝被：dibaiki＝被修理／被改正。是否已经修好，要看 sudah、telah 等时间标记。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "说明问题时使用 Perkara ini perlu dibaiki 可把焦点放在需要处理的事项上。反馈他人的文字时，宜具体指出需修改之处。",
+    "usage_etiquette": "适合维修告示、工作进度和文字修改。向服务人员询问可说 Adakah barang ini sudah siap dibaiki?；仍在维修时使用 sedang dibaiki，避免让对方误以为维修已完成。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "说明问题时使用 Perkara ini perlu dibaiki 可把焦点放在需要处理的事项上。反馈他人的文字时，宜具体指出需修改之处。",
+    "usage_etiquette": "适合维修告示、工作进度和文字修改。向服务人员询问可说 Adakah barang ini sudah siap dibaiki?；仍在维修时使用 sedang dibaiki，避免让对方误以为维修已完成。"
+  }
+}

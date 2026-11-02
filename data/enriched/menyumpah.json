@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "menyumpah",
+    "syllables": "me.nyum.pah",
+    "ipa": "/mə.ɲum.pah/",
+    "jawi": "مڽومڤه",
+    "frequency_rank": 8214,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sumpah",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + sumpah → menyumpah",
+    "pattern_note": "词根为 sumpah，修正输入包的整词词根标记。meN- 接以 s 开头的本族词根时实现为 meny-，词根起首 s 脱落；ny 表示单一鼻音 /ɲ/。",
+    "word_family": [
+      {
+        "word": "bersumpah",
+        "affix": "ber-",
+        "gloss": "发誓；宣誓"
+      },
+      {
+        "word": "sumpahan",
+        "affix": "-an",
+        "gloss": "诅咒；咒语"
+      },
+      {
+        "word": "menyumpahi",
+        "affix": "meN-…-i",
+        "gloss": "咒骂；诅咒某人"
+      },
+      {
+        "word": "penyumpah",
+        "affix": "peN-",
+        "gloss": "咒骂者"
+      }
+    ],
+    "root_jawi": "سومڤه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "发誓；立誓，以誓言郑重表明承诺或所言属实。",
+      "en_definition": "To swear an oath or make a solemn vow.",
+      "ms_definition": "Menyatakan sesuatu pengakuan atau janji dengan melafazkan sumpah.",
+      "nuances": "《Kamus Dewan》收录此义，并以古典叙事举例。现代正式语境通常选 bersumpah、mengangkat sumpah 或 melafazkan sumpah；单独使用 menyumpah 容易让人先理解为咒骂。以下搭配用于说明这一较旧的用法。定义据 [DBP：menyumpah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menyumpah) 改写。",
+      "collocations": [
+        {
+          "ms": "menyumpah akan setia（较旧用法）",
+          "zh": "立誓效忠",
+          "en": "to swear loyalty"
+        },
+        {
+          "ms": "menyumpah di hadapan raja（古典叙事语境）",
+          "zh": "在君王面前立誓",
+          "en": "to swear an oath before the king"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "咒骂；因愤怒而说出粗恶或恶毒的话。",
+      "en_definition": "To swear or utter abusive words in anger.",
+      "ms_definition": "Mengeluarkan kata-kata kesat atau buruk kerana marah terhadap seseorang atau sesuatu.",
+      "nuances": "这是现代日常交流中很常见的理解，可不带宾语。说 seseorang menyumpah 是描述其行为，并不等于说话者自己在骂人。重叠形式 menyumpah-nyumpah 强调接连咒骂。定义据 [DBP：menyumpah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menyumpah) 改写。",
+      "collocations": [
+        {
+          "ms": "menyumpah kerana marah",
+          "zh": "气得骂起来",
+          "en": "to swear in anger"
+        },
+        {
+          "ms": "menyumpah dengan kata-kata kesat",
+          "zh": "用粗话咒骂",
+          "en": "to swear using abusive language"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "诅咒，向某人或某地说出希望灾祸降临的恶愿。",
+      "en_definition": "To curse someone or something by wishing misfortune upon them.",
+      "ms_definition": "Melafazkan kutukan atau harapan supaya seseorang atau sesuatu ditimpa keburukan.",
+      "nuances": "此义强调恶愿或咒诅，与一般爆粗口有所区别；常见于传说、文学叙事或强烈冲突。DBP 将其与 menyumpahi、mengutuki 联系起来。诅咒的超自然效果属于故事或信仰内容。定义据 [DBP：menyumpah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=menyumpah) 改写。",
+      "collocations": [
+        {
+          "ms": "menyumpah orang lain",
+          "zh": "诅咒别人",
+          "en": "to curse other people"
+        },
+        {
+          "ms": "menyumpah diri sendiri",
+          "zh": "诅咒自己",
+          "en": "to curse oneself"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场：客户服务事件记录",
+      "ms": "Menurut laporan kejadian, pelanggan itu mula menyumpah apabila dimaklumkan bahawa permohonannya tidak dapat diproses.",
+      "zh": "事件报告指出，该客户得知申请无法处理后，开始咒骂。",
+      "en": "According to the incident report, the customer began swearing after being told that the application could not be processed."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：朋友因电脑故障而生气",
+      "ms_spoken": "Jangan menyumpah lah, kita cuba buka fail tu sekali lagi.",
+      "ms_standard": "Jangan mengeluarkan kata-kata kesat; mari kita cuba membuka fail itu sekali lagi.",
+      "zh": "别骂啦，我们再试着打开那个文件。",
+      "en": "Don’t swear. Let’s try opening that file again.",
+      "spoken_features": [
+        "lah 在劝阻中调节语气，实际强弱取决于语调。",
+        "tu 对应 itu；dah 对应 sudah；tak 对应 tidak。",
+        "口语省略部分动词词缀，如 buka 对应 membuka。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah mula menyumpah ni, fail tu tak boleh buka lagi!",
+          "ms_standard": "Saya sudah mula mengeluarkan kata-kata kesat kerana fail itu masih tidak dapat dibuka!",
+          "zh": "我都开始骂人了，那个文件还是打不开！",
+          "en": "I’m starting to swear now—that file still won’t open!"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Jangan menyumpah lah. Cuba hantar kat aku, aku tengok dulu.",
+          "ms_standard": "Jangan mengeluarkan kata-kata kesat. Cuba hantarkan fail itu kepada saya supaya saya dapat memeriksanya dahulu.",
+          "zh": "别骂啦，发给我，我先看看。",
+          "en": "Don’t swear. Send it to me and I’ll take a look."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menyumpah joins the productive prefix meN- to sumpah. The base covers both solemn oaths and curses, a connection preserved in DBP’s classical and modern examples. In present-day usage, bersumpah commonly expresses taking an oath, while menyumpah readily suggests angry swearing. This account does not assume a disputed deeper origin. [Source: DBP](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=sumpah).",
+    "cognitive_memory_aid": "先记 sumpah＝誓言／诅咒；加 meN- 时 s 让位给 ny：sumpah → menyumpah。日常听见它，先联想到气得咒骂。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在长辈、客户、教师或公开场合面前咒骂，通常会被认为失礼。需要正式劝阻时，可说 Sila gunakan bahasa yang sopan，语气比直接训斥更稳妥。",
+    "usage_etiquette": "可用于客观描述失控言语或分析文学中的诅咒。涉及正式宣誓时优先使用 mengangkat sumpah 或 bersumpah，避免与咒骂义混淆；也应尊重涉及宗教誓言的严肃语境。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在长辈、客户、教师或公开场合面前咒骂，通常会被认为失礼。需要正式劝阻时，可说 Sila gunakan bahasa yang sopan，语气比直接训斥更稳妥。",
+    "usage_etiquette": "可用于客观描述失控言语或分析文学中的诅咒。涉及正式宣誓时优先使用 mengangkat sumpah 或 bersumpah，避免与咒骂义混淆；也应尊重涉及宗教誓言的严肃语境。"
+  }
+}

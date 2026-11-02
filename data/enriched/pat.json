@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "pat",
+    "syllables": null,
+    "ipa": "/pat/",
+    "jawi": null,
+    "frequency_rank": 8219,
+    "status": "colloquial"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pat",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "empat → pat（口语截短，无词缀）",
+    "pattern_note": "按输入包解释为 empat 的截短形式，省去词首 /əm/，留下 /pat/；包中也提供语音变体 [ˈpat̪̚]。is_root 和 root_word 沿用包内索引标注；对应的标准完整词是 empat。通常为单音节。",
+    "word_family": [
+      {
+        "word": "empat",
+        "affix": null,
+        "gloss": "四；完整标准形式"
+      },
+      {
+        "word": "berempat",
+        "affix": "ber-",
+        "gloss": "四人一起；共四个，基于 empat 构成"
+      },
+      {
+        "word": "keempat",
+        "affix": "ke-",
+        "gloss": "第四，基于 empat 构成"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "numeral",
+      "zh_definition": "四；数词 empat 在部分口语或方言中的截短形式。",
+      "en_definition": "Four; a colloquial or dialectal shortened form of empat.",
+      "ms_definition": "Bentuk singkat dalam pertuturan atau dialek bagi empat, iaitu bilangan selepas tiga dan sebelum lima.",
+      "nuances": "按输入包限定为 empat 的截短义，并非所有马来西亚说话者都使用。应归为数词 kata bilangan；不能为了适配词类枚举而误标为名词或形容词。正式写作使用 empat。同形形式也见于其他地区语言，不能一概视为马来语截短。",
+      "collocations": [
+        {
+          "ms": "pat orang",
+          "zh": "四个人",
+          "en": "four people"
+        },
+        {
+          "ms": "pukul pat",
+          "zh": "四点钟",
+          "en": "four o'clock"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "语言说明 / 标准马来语书面表达",
+      "ms": "Dalam teks rasmi, bentuk percakapan 'pat' hendaklah ditulis sebagai 'empat'.",
+      "zh": "在正式文本中，口语形式 pat 应写作 empat。",
+      "en": "In formal texts, the spoken form 'pat' should be written as 'empat'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 使用该截短形式的朋友约时间",
+      "ms_spoken": "Kita jumpa pukul pat kat kedai tu, ya?",
+      "ms_standard": "Kita berjumpa pada pukul empat di kedai itu, ya?",
+      "zh": "我们四点在那家店见，好吗？",
+      "en": "Let's meet at that shop at four, okay?",
+      "spoken_features": [
+        "pat 是 empat 的口语截短形式",
+        "kat 对应 di",
+        "tu 对应 itu",
+        "ya 用于征求对方认同"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kita jumpa pukul pat kat kedai tu, boleh?",
+          "ms_standard": "Bolehkah kita berjumpa pada pukul empat di kedai itu?",
+          "zh": "我们四点在那家店见，可以吗？",
+          "en": "Can we meet at that shop at four?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh. Aku dah dekat, nak tunggu kat situ je.",
+          "ms_standard": "Boleh. Saya sudah berada berdekatan dan hendak menunggu di situ sahaja.",
+          "zh": "可以。我已经在附近了，就在那里等吧。",
+          "en": "Sure. I'm already nearby, so I'll just wait there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The supplied packet identifies pat as a shortening of empat, the standard Malay word for four. DBP search material also records pat corresponding to empat in dialect examples. Its usefulness is conversational brevity, rather than a new numerical meaning. Similar forms occur in other regional languages, so identical spelling alone does not establish the same derivation.",
+    "cognitive_memory_aid": "把 em.pat 前面的 em 去掉，剩下 pat；数字仍然是四。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "pat 主要体现口语或方言习惯，本身没有失礼意味。面对不熟悉该形式的人，使用 empat 更清楚。",
+    "usage_etiquette": "适合熟人聊天及忠实记录方言。公文、考试、金额确认和正式时间通知宜写 empat 或数字 4。"
+  },
+  "lexicographic_note": "不是已核实的正式标准词条，因此不标为 official。数词需要在原有 pos 枚举中增加 numeral。马来文释义为编写释义；搭配和对话为基于输入包词义编写的示例，未作频率测定。原包的 syllables、jawi 和 root_jawi 缺失值保留 null。",
+  "sources": [
+    "[DBP PRPM：pat 的检索及方言材料](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=pat)",
+    "[DBP PRPM：empat 及 berempat、keempat 等派生形式](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=empat)"
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "pat 主要体现口语或方言习惯，本身没有失礼意味。面对不熟悉该形式的人，使用 empat 更清楚。",
+    "usage_etiquette": "适合熟人聊天及忠实记录方言。公文、考试、金额确认和正式时间通知宜写 empat 或数字 4。"
+  }
+}

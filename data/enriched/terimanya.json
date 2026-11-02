@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "terimanya",
+    "syllables": null,
+    "ipa": "/tə.ri.ma.ɲa/",
+    "jawi": "تريما",
+    "frequency_rank": 8160,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "terima",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "terima + -nya → terimanya",
+    "pattern_note": "-nya 是附着代词，此处按词尾成分归类，并非派生后缀；/ɲ/ 类似 nyanyi 的 ny。terima 是完整词根，不能拆成 ter- + ima。所给 Jawi تريما 仅对应词根，依输入保留，并非完整 terimanya 的拼写。",
+    "word_family": [
+      {
+        "word": "menerima",
+        "affix": "meN-",
+        "gloss": "收到；接受"
+      },
+      {
+        "word": "penerimaan",
+        "affix": "peN-...-an",
+        "gloss": "接收；接纳；接受程度"
+      }
+    ],
+    "root_jawi": "تريما"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "收到它；收下它，指接收前文提到的物品、款项或信息。",
+      "en_definition": "To receive or take something previously mentioned.",
+      "ms_definition": "Mendapat atau mengambil sesuatu yang telah disebut; -nya merujuk kepada perkara yang diterima.",
+      "nuances": "这是 terima 与附着代词 -nya 的组合，不是独立词根。在现代主动句中属口语式表达，正式文字通常用 menerimanya；日常口语也常直接说 terima 或 terima benda itu。不能机械地把 -nya 译成“他的”。词根义及口语标记见 [DBP：terima](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=terima)。",
+      "collocations": [
+        {
+          "ms": "terimanya daripada seseorang",
+          "zh": "从某人那里收到它",
+          "en": "receive it from someone"
+        },
+        {
+          "ms": "terimanya semalam",
+          "zh": "昨天收到它",
+          "en": "received it yesterday"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "接受它；同意或接纳前文提到的提议、决定、解释或安排。",
+      "en_definition": "To accept or agree to something previously mentioned.",
+      "ms_definition": "Bersetuju dengan atau menerima baik sesuatu cadangan, keputusan, penjelasan atau aturan yang telah disebut.",
+      "nuances": "强调态度上的接受，不一定涉及实物交接。正式主动句通常用 menerimanya。这些搭配展示常见的接受义表达框架，不表示 terimanya 本身是高频规范词形。古典文本中的 -nya 还须按具体句法判断，不能一律按现代宾语代词理解。",
+      "collocations": [
+        {
+          "ms": "terimanya dengan baik",
+          "zh": "欣然接受它",
+          "en": "accept it positively"
+        },
+        {
+          "ms": "terimanya dengan hati terbuka",
+          "zh": "以开放的心态接受它",
+          "en": "accept it with an open mind"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；采用规范主动式 menerimanya",
+      "ms": "Setelah meneliti tawaran tersebut, pihak pengurusan bersetuju menerimanya tanpa syarat tambahan.",
+      "zh": "审议该提议后，管理层同意接受，不附加其他条件。",
+      "en": "After reviewing the offer, management agreed to accept it without additional conditions."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku terimanya dengan hati terbuka je, tak ada masalah pun.",
+      "ms_standard": "Saya menerimanya dengan hati terbuka dan tidak mempunyai sebarang masalah dengannya.",
+      "zh": "我就坦然接受啦，没什么问题。",
+      "en": "I'm happy to accept it. I've got no problem with it.",
+      "spoken_features": [
+        "aku 是熟人之间的非正式第一人称。",
+        "terimanya 使用无 meN- 前缀的口语式动词；规范主动式为 menerimanya。",
+        "je 对应 sahaja；tak 对应 tidak；句尾 pun 加强否定。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tawaran kerja tu kau nak terima ke?",
+          "ms_standard": "Adakah kamu mahu menerima tawaran kerja itu?",
+          "zh": "那份工作邀请，你要接受吗？",
+          "en": "Are you going to accept that job offer?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, aku terimanya dengan senang hati je. Dekat dengan rumah pula tu.",
+          "ms_standard": "Ya, saya menerimanya dengan senang hati. Tambahan pula, tempat kerjanya dekat dengan rumah.",
+          "zh": "要啊，我很乐意接受。工作地点还离家近呢。",
+          "en": "Yeah, I'm happy to accept it. The workplace is close to home, too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Terimanya illustrates how Malay attaches short pronouns directly to verbs. Its base, terima, belongs to the familiar vocabulary of receiving and accepting, also encountered in terima kasih. The complete form appears in older Malay textual records, including Hikayat Seri Kelantan. Its interpretation therefore depends on sentence structure and historical register, rather than spelling alone. [Malay Concordance Project](https://mcp.anu.edu.au/N/SKel_words.html)",
+    "cognitive_memory_aid": "先记熟 terima kasih 里的 terima“接受”，再接上 -nya“它”：terima + nya → 接受它。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "接受礼物或帮助时，补上 terima kasih 更自然有礼。对长辈、客户或上司，使用 saya 和规范式 menerimanya。",
+    "usage_etiquette": "适合熟人聊天中的接收或接受语境，但 -nya 必须有清楚的指代对象。合同、申请函及正式报告采用 menerimanya，或直接写明所接受的事项。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "接受礼物或帮助时，补上 terima kasih 更自然有礼。对长辈、客户或上司，使用 saya 和规范式 menerimanya。",
+    "usage_etiquette": "适合熟人聊天中的接收或接受语境，但 -nya 必须有清楚的指代对象。合同、申请函及正式报告采用 menerimanya，或直接写明所接受的事项。"
+  }
+}
