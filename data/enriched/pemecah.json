@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "pemecah",
+    "syllables": "pe.me.cah",
+    "ipa": "/pə.mə.tʃah/",
+    "jawi": "ڤمچه",
+    "frequency_rank": 11020,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pecah",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + pecah → pemecah",
+    "pattern_note": "peN- 遇词根首音 p 时变为 pem-，词根首字母 p 脱落。输入包将 pemecah 标为词根有误；实际词根为 pecah。",
+    "word_family": [
+      {
+        "word": "memecahkan",
+        "affix": "meN-...-kan",
+        "gloss": "打碎；使分裂；解决"
+      },
+      {
+        "word": "pecahan",
+        "affix": "-an",
+        "gloss": "碎片；分数"
+      },
+      {
+        "word": "pemecahan",
+        "affix": "peN-...-an",
+        "gloss": "打碎、分解或解决的过程"
+      }
+    ],
+    "root_jawi": "ڤچه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "打破、破坏或泄露某事物的人；具体含义由后接名词决定。",
+      "en_definition": "A person who breaks, violates, or discloses something.",
+      "ms_definition": "Orang yang memecahkan sesuatu.",
+      "nuances": "可用于具体动作或抽象行为。pemecah amanah 指背弃信托或受托责任的人；pemecah rahsia 指泄密者。不要把所有搭配都机械译为“破坏者”。",
+      "collocations": [
+        {
+          "ms": "pemecah amanah",
+          "zh": "背信者；背弃受托责任的人",
+          "en": "a person who betrays a trust"
+        },
+        {
+          "ms": "pemecah rahsia",
+          "zh": "泄密者",
+          "en": "a person who reveals secrets"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "经常打破东西的人。",
+      "en_definition": "A person who habitually breaks things.",
+      "ms_definition": "Orang yang selalu atau suka memecahkan sesuatu.",
+      "nuances": "这是词典收录的惯常行为义。单独称人为 pemecah 带责怪意味；以下搭配须结合语境理解，不能仅凭词形判断其是否表示惯常行为。",
+      "collocations": [
+        {
+          "ms": "pemecah pinggan",
+          "zh": "打破盘子的人",
+          "en": "a person who breaks plates"
+        },
+        {
+          "ms": "pemecah barang",
+          "zh": "打坏东西的人",
+          "en": "a person who breaks things"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "用于打碎、破开或分解某物的工具、机器或材料。",
+      "en_definition": "A tool, machine, or substance used to break something up.",
+      "ms_definition": "Alat atau bahan yang digunakan untuk memecahkan sesuatu.",
+      "nuances": "常作工具名称的中心词，后接处理对象。pemecah batu 可以指碎石设备；pemecah ais 在具体器具语境中指碎冰工具。",
+      "collocations": [
+        {
+          "ms": "mesin pemecah batu",
+          "zh": "碎石机",
+          "en": "a stone-crushing machine"
+        },
+        {
+          "ms": "alat pemecah ais",
+          "zh": "碎冰工具",
+          "en": "an ice-breaking tool"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Syarikat itu membeli mesin pemecah batu baharu untuk meningkatkan kapasiti pengeluaran.",
+      "zh": "该公司购置了新的碎石机，以提高产能。",
+      "en": "The company purchased a new stone crusher to increase production capacity."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Alat pemecah ais tu ada kat dapur, ambil je.",
+      "ms_standard": "Alat pemecah ais itu ada di dapur; ambil sahaja.",
+      "zh": "那个碎冰工具在厨房，直接拿吧。",
+      "en": "The ice-breaking tool is in the kitchen. Go ahead and take it.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式",
+        "kat 表示地点，相当于 di",
+        "je 相当于 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Alat pemecah ais tu kat mana? Aku nak guna kejap.",
+          "ms_standard": "Alat pemecah ais itu di mana? Saya hendak menggunakannya sebentar.",
+          "zh": "那个碎冰工具在哪儿？我想用一下。",
+          "en": "Where's the ice-breaking tool? I need it for a minute."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ada kat dapur, sebelah sinki je.",
+          "ms_standard": "Alat itu ada di dapur, di sebelah singki sahaja.",
+          "zh": "在厨房，就在水槽旁边。",
+          "en": "It's in the kitchen, right next to the sink."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pemecah illustrates a productive Malay naming pattern: the prefix peN- turns an action into the person or instrument responsible for it. Its base, pecah, concerns breaking or splitting. Dictionary examples extend that concrete image to broken trust and disclosed secrets, showing how one word can name machinery, human agents, and socially damaging behaviour. [DBP: pecah](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=pecah)",
+    "cognitive_memory_aid": "pecah 是“破”，peN- 把动作变成执行者或工具：pemecah 就是“使东西破开的人或器具”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称工具为 pemecah 很中性；称人为 pemecah amanah 则是严重的道德指控，应有明确事实依据。",
+    "usage_etiquette": "技术说明可直接使用工具名称。谈儿童打碎物品时，描述具体行为通常比给孩子贴上 pemecah 的标签更得体。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称工具为 pemecah 很中性；称人为 pemecah amanah 则是严重的道德指控，应有明确事实依据。",
+    "usage_etiquette": "技术说明可直接使用工具名称。谈儿童打碎物品时，描述具体行为通常比给孩子贴上 pemecah 的标签更得体。"
+  }
+}

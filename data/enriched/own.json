@@ -1,0 +1,137 @@
+{
+  "headword": {
+    "word": "own",
+    "syllables": "sst",
+    "ipa": "/əʊn/",
+    "jawi": null,
+    "frequency_rank": 11133,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "own",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + own → own（英语词形，不属于马来语派生）",
+    "pattern_note": "英语读音为单音节；/əʊ/ 是双元音。数据包中的 sst 不是有效音节标注。",
+    "word_family": [
+      {
+        "word": "owner",
+        "affix": "-er（英语后缀）",
+        "gloss": "所有者"
+      },
+      {
+        "word": "ownership",
+        "affix": "-er + -ship（英语后缀）",
+        "gloss": "所有权"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "拥有；对某物享有所有权。此处解释英语 own，马来语通常用 memiliki。",
+      "en_definition": "To possess something as its owner.",
+      "ms_definition": "Dalam bahasa Inggeris, mempunyai sesuatu sebagai pemiliknya; padanan bahasa Melayu ialah memiliki.",
+      "nuances": "拥有不等于暂时使用、借用或保管。以下搭配是马来语对应表达，不是 own 已成为马来语词的证据；马来语释义为编辑说明，并非 DBP 原文。",
+      "collocations": [
+        {
+          "ms": "memiliki rumah",
+          "zh": "拥有房屋",
+          "en": "own a house"
+        },
+        {
+          "ms": "memiliki perniagaan",
+          "zh": "拥有一家企业",
+          "en": "own a business"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "自己的；本人所拥有、制作或完成的。",
+      "en_definition": "Belonging specifically to, or done personally by, the person indicated.",
+      "ms_definition": "Menunjukkan sesuatu yang menjadi kepunyaan seseorang sendiri atau dilakukan oleh orang itu sendiri.",
+      "nuances": "此处采用英语形容词分析；部分语法体系归为限定词或代词。马来语常用 sendiri，但 on my own 等结构须按语境译为 seorang diri 或 tanpa bantuan。",
+      "collocations": [
+        {
+          "ms": "rumah sendiri",
+          "zh": "自己的房子",
+          "en": "one's own house"
+        },
+        {
+          "ms": "usaha sendiri",
+          "zh": "自己的努力",
+          "en": "one's own efforts"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报；使用马来语对应表达",
+      "ms": "Syarikat itu memiliki bangunan pejabat sendiri.",
+      "zh": "该公司拥有自己的办公楼。",
+      "en": "The company owns its own office building."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常交流；使用马来语对应表达",
+      "ms_spoken": "Kau dah ada rumah sendiri ke?",
+      "ms_standard": "Adakah kamu sudah mempunyai rumah sendiri?",
+      "zh": "你已经有自己的房子啦？",
+      "en": "Do you have your own place already?",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式",
+        "句末 ke 表示口语疑问",
+        "kau 适用于关系熟悉的同辈"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah ada rumah sendiri ke?",
+          "ms_standard": "Adakah kamu sudah mempunyai rumah sendiri?",
+          "zh": "你已经有自己的房子啦？",
+          "en": "Do you have your own place already?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum, aku sewa je kat sini.",
+          "ms_standard": "Belum, saya hanya menyewa di sini.",
+          "zh": "还没，我只是在这里租房而已。",
+          "en": "Not yet. I'm just renting here."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Own belongs to the inherited English vocabulary of possession. Its adjective continues Old English āgen, while its verb developed within the same historical family of having and possessing. This history explains the connection between owning something and calling it one's own. It does not establish own as a Malay borrowing or justify attaching Malay affixes to it.",
+    "cognitive_memory_aid": "把 my own house 连成一个画面：房子归我自己；own 作动词对应 memiliki，强调“自己的”时对应 sendiri。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式马来语写作宜按语义使用 memiliki、kepunyaan 或 sendiri。谈论他人资产时，先判断关系和场合是否适合。",
+    "usage_etiquette": "熟人聊天中可以讨论自己的住房；直接追问不熟悉者是否拥有房产可能涉及隐私。不要把英语夹用自动视为规范马来语词汇。"
+  },
+  "validation": {
+    "classification": "English word; not established here as an official Malay headword.",
+    "packet_issues": [
+      "sst 原样保留以追溯输入，但不是有效音节划分；own 在英语中为单音节。",
+      "frequency_rank 仅保留输入数值，未核实其语料来源。",
+      "Jawi 未提供，保持 null。",
+      "所列为与马来语对应表达有关的核心英语义项，不声称穷尽英语古义、俚语和短语义。"
+    ],
+    "definition_provenance": "中文及马来语释义为编辑撰写；不是官方马来语词典引文。",
+    "sources": [
+      "[Cambridge Dictionary: own](https://dictionary.cambridge.org/us/dictionary/english/own)",
+      "[Etymonline: own](https://www.etymonline.com/word/own)"
+    ]
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式马来语写作宜按语义使用 memiliki、kepunyaan 或 sendiri。谈论他人资产时，先判断关系和场合是否适合。",
+    "usage_etiquette": "熟人聊天中可以讨论自己的住房；直接追问不熟悉者是否拥有房产可能涉及隐私。不要把英语夹用自动视为规范马来语词汇。"
+  }
+}

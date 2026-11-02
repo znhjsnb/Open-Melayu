@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "berikanlah",
+    "syllables": "be.ri.kan.lah",
+    "ipa": "/bə.ri.kan.lah/",
+    "jawi": "بريکنله",
+    "frequency_rank": 11083,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "beri",
+    "affix": "-kan + -lah",
+    "affix_type": "suffix",
+    "formula": "beri + -kan → berikan; berikan + -lah → berikanlah",
+    "pattern_note": "-kan 是动词后缀，-lah 是附着于词后的强调语气词，并非两个普通派生后缀。这里没有 ber- 前缀。输入包误配了 ber- + ikan 的“有鱼／捕鱼”词条及其 Jawi برايکن；此处按“给予”的命令式更正词根、音节和 Jawi。[DBP：beri](https://prpm.dbp.gov.my/Cari1?keyword=beri)",
+    "word_family": [
+      {
+        "word": "memberikan",
+        "affix": "meN-…-kan",
+        "gloss": "给予；提供"
+      },
+      {
+        "word": "pemberian",
+        "affix": "peN-…-an",
+        "gloss": "赠予行为；赠送的东西"
+      }
+    ],
+    "root_jawi": "بري"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "请给予、交给或递给；用于请求、劝请或指示对方把某物给予某人。",
+      "en_definition": "Give or hand something to someone, used as an exhortation, request, or instruction.",
+      "ms_definition": "Bentuk perintah atau permintaan bagi memberikan, yakni menyerahkan sesuatu kepada seseorang, dengan penegasan partikel -lah.",
+      "nuances": "这是 berikan 加 -lah 的语用形式，不是独立于 beri 的新词义。正式结构常为 berikanlah + 所给事物 + kepada + 接受者；-lah 可使劝请较柔和，也可加强催促，取决于语调。[DBP：beri](https://prpm.dbp.gov.my/Cari1?keyword=beri)",
+      "collocations": [
+        {
+          "ms": "berikanlah bantuan",
+          "zh": "请给予帮助",
+          "en": "please provide assistance"
+        },
+        {
+          "ms": "berikanlah sumbangan",
+          "zh": "请捐助",
+          "en": "please make a contribution"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "请给予或投入某种非实物资源，如机会、时间、支持或关注。",
+      "en_definition": "Grant, offer, or devote something abstract, such as an opportunity, time, support, or attention.",
+      "ms_definition": "Bentuk perintah atau permintaan supaya memberikan sesuatu yang tidak berupa benda, seperti peluang, masa, sokongan atau perhatian.",
+      "nuances": "与抽象名词搭配时，中文和英文应按对象译成“给予”“提供”“投入”等；例如 berikanlah perhatian 自然译为“请注意”，而不是机械译为“把注意给出去”。[DBP：beri](https://prpm.dbp.gov.my/Cari1?keyword=beri)",
+      "collocations": [
+        {
+          "ms": "berikanlah peluang",
+          "zh": "请给予机会",
+          "en": "please give an opportunity"
+        },
+        {
+          "ms": "berikanlah perhatian",
+          "zh": "请予以关注；请注意",
+          "en": "please pay attention"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Berikanlah perhatian sewajarnya kepada cadangan yang dikemukakan oleh penduduk.",
+      "zh": "请对居民提出的建议给予应有的重视。",
+      "en": "Please give due consideration to the proposals put forward by residents."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Berikanlah aku peluang sekali lagi, aku dah faham silap aku.",
+      "ms_standard": "Berikanlah peluang kepada saya sekali lagi kerana saya sudah memahami kesilapan saya.",
+      "zh": "再给我一次机会吧，我已经知道自己错在哪里了。",
+      "en": "Give me one more chance. I know what I did wrong.",
+      "spoken_features": [
+        "aku 表示熟人之间的非正式自称",
+        "dah 是 sudah 的口语形式",
+        "口语中可将接受者 aku 直接置于动词后，正式对应句改用 peluang kepada saya",
+        "-lah 在此表达恳求；与语调共同决定语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Berikanlah aku peluang sekali lagi, aku dah faham silap aku.",
+          "ms_standard": "Berikanlah peluang kepada saya sekali lagi kerana saya sudah memahami kesilapan saya.",
+          "zh": "再给我一次机会吧，我已经知道自己错在哪里了。",
+          "en": "Give me one more chance. I know what I did wrong."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Okey, tapi kalau kau nak aku percaya semula, jangan ulang lagi.",
+          "ms_standard": "Baiklah, tetapi jika kamu mahu saya mempercayai kamu semula, jangan ulangi kesilapan itu.",
+          "zh": "好，但你要我重新相信你，就别再犯了。",
+          "en": "Okay, but if you want me to trust you again, don't do it again."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Berikanlah illustrates Malay grammar rather than a separate borrowed word: beri supplies the meaning, -kan forms berikan, and -lah adds emphasis to an appeal or instruction. Its spelling also conceals a trap. The unrelated form ber- plus ikan concerns fish; treating that dictionary entry as the source would completely change the meaning. [DBP: beri](https://prpm.dbp.gov.my/Cari1?keyword=beri)",
+    "cognitive_memory_aid": "分三步记：beri“给”＋-kan 构成 berikan，再接 -lah“吧／请”。开头是 beri，不是 ber-＋ikan“鱼”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 不自动等于礼貌。平和语调下可表示劝请，急促或重读时也可能像催促；对长辈、客户或上级提出请求，可结合称谓、tolong 或较委婉的问句。",
+    "usage_etiquette": "适合呼吁、劝告、祈求和明确指示。berikanlah 在日常聊天中可能带郑重或恳求色彩，普通递物请求往往使用更简短的 beri 或 bagi。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 不自动等于礼貌。平和语调下可表示劝请，急促或重读时也可能像催促；对长辈、客户或上级提出请求，可结合称谓、tolong 或较委婉的问句。",
+    "usage_etiquette": "适合呼吁、劝告、祈求和明确指示。berikanlah 在日常聊天中可能带郑重或恳求色彩，普通递物请求往往使用更简短的 beri 或 bagi。"
+  }
+}

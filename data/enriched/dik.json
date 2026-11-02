@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "dik",
+    "syllables": "dik",
+    "ipa": "/dik/",
+    "jawi": null,
+    "frequency_rank": 11029,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "adik → dik（词首 a 脱落，形成简称）",
+    "pattern_note": "dik 是 adik 的截短形式，并非加词缀形成。此处 is_root 表示该词自身不再作同步词缀分析；下列词族通过完整形式 adik 关联。",
+    "word_family": [
+      {
+        "word": "adik",
+        "affix": null,
+        "gloss": "弟弟；妹妹；对年幼者的称呼"
+      },
+      {
+        "word": "beradik",
+        "affix": "ber-",
+        "gloss": "有兄弟姐妹；为兄弟姐妹关系"
+      },
+      {
+        "word": "adik-beradik",
+        "affix": "复合形式，含 ber-",
+        "gloss": "兄弟姐妹"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "adik 的简称，用作对弟弟、妹妹或较年幼者的亲切称呼。",
+      "en_definition": "A shortened form of adik, used to address a younger sibling or younger person.",
+      "ms_definition": "Singkatan bagi adik.",
+      "nuances": "不区分性别。最典型的用途是称呼语；正式叙述亲属关系时通常使用 adik。输入包中的 /dek/、[deʔ] 可反映口语读法，不宜视为唯一标准读音。释义依据：[DBP PRPM：dik](https://prpm.dbp.gov.my/Cari1?d=139128&keyword=dik)。",
+      "collocations": [
+        {
+          "ms": "ya, dik",
+          "zh": "好的，弟弟／妹妹",
+          "en": "yes, dear"
+        },
+        {
+          "ms": "jangan menangis, dik",
+          "zh": "弟弟／妹妹，别哭",
+          "en": "don't cry, little one"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 现场引语",
+      "ms": "Jururawat itu berkata kepada kanak-kanak tersebut, \"Sila duduk di sini, dik.\"",
+      "zh": "那名护士对孩子说：“小朋友，请坐在这里。”",
+      "en": "The nurse said to the child, \"Please sit here, little one.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 姐弟交流",
+      "ms_spoken": "Dik, dah makan ke?",
+      "ms_standard": "Adik, sudah makan?",
+      "zh": "弟，吃过了吗？",
+      "en": "Hey, have you eaten yet?",
+      "spoken_features": [
+        "dik 是 adik 的简称。",
+        "dah 对应 sudah。",
+        "句末 ke 在口语中标示疑问。",
+        "亲属间可省略主语。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Dik, dah makan ke?",
+          "ms_standard": "Adik, sudah makan?",
+          "zh": "弟，吃过了吗？",
+          "en": "Hey, have you eaten yet?"
+        },
+        {
+          "speaker": "Hakim (弟弟)",
+          "ms_spoken": "Dah, kak. Tadi makan kat rumah je.",
+          "ms_standard": "Sudah, kakak. Tadi saya makan di rumah sahaja.",
+          "zh": "吃过了，姐。刚才就在家吃的。",
+          "en": "Yeah, I have. I just ate at home earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dik comes from adik by dropping its initial vowel. The shortened form carries the familiarity of sibling address into conversations with other younger people. Malay speakers also use family terms beyond actual family relationships, so context determines whether dik identifies a sibling or simply makes an interaction sound warmer and more personal.",
+    "cognitive_memory_aid": "adik 去掉开头的 a 就是 dik：形式缩短，亲近感保留；一声 dik，就是叫弟妹或小朋友。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "年长者对儿童或明显年轻的人说 dik 可以很亲切；对年龄相近的陌生成年人使用，可能显得居高临下。",
+    "usage_etiquette": "适合家庭、照顾儿童和轻松的服务交流。正式邮件、职场初次见面或需要保持距离时，优先使用姓名或适当职称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "年长者对儿童或明显年轻的人说 dik 可以很亲切；对年龄相近的陌生成年人使用，可能显得居高临下。",
+    "usage_etiquette": "适合家庭、照顾儿童和轻松的服务交流。正式邮件、职场初次见面或需要保持距离时，优先使用姓名或适当职称。"
+  }
+}

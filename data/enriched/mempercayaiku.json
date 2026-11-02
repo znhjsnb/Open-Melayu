@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "mempercayaiku",
+    "syllables": null,
+    "ipa": "/məm.pər.tʃa.ja.i.ku/",
+    "jawi": "ممڤرچاياءي",
+    "frequency_rank": 11024,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mempercayai",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "mempercayai + -ku → mempercayaiku（相信我／信任我）",
+    "pattern_note": "mempercayai 是输入包给出的直接基形，更深层词根为 percaya。-ku 是 aku 的附着形式，在此充当宾语，不是派生后缀；suffix 仅为本结构中的归类。mempercayai 保留 percaya 的 p。输入包的 Jawi 仅对应 mempercayai，未包含 -ku；此处原样保留。音节字段保留输入包的 null。",
+    "word_family": [
+      {
+        "word": "percaya",
+        "affix": null,
+        "gloss": "相信；信任"
+      },
+      {
+        "word": "mempercayai",
+        "affix": "memper-…-i",
+        "gloss": "相信某事；信任某人"
+      },
+      {
+        "word": "kepercayaan",
+        "affix": "ke-…-an",
+        "gloss": "信任；信念；信仰"
+      },
+      {
+        "word": "mempercayakan",
+        "affix": "memper-…-kan",
+        "gloss": "信任并托付"
+      }
+    ],
+    "root_jawi": "ممڤرچاياءي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "相信我所说的话，认为我的陈述或解释属实。",
+      "en_definition": "To believe me; to accept what I say as true.",
+      "ms_definition": "Menerima kata-kata atau keteranganku sebagai benar.",
+      "nuances": "-ku 明确指向说话者，不能把整个词释为不带宾语的“相信”。本义关注话语的真实性；马来文释义依据 mempercayai 的词典义加入第一人称宾语，并非 DBP 对此附着形式的逐字释文。参见 [DBP：percaya／mempercayai](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=percaya)。",
+      "collocations": [
+        {
+          "ms": "enggan mempercayaiku",
+          "zh": "不肯相信我",
+          "en": "refuse to believe me"
+        },
+        {
+          "ms": "masih mempercayaiku",
+          "zh": "仍然相信我",
+          "en": "still believe me"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "信任我的品格、能力或可靠性，相信我值得依靠。",
+      "en_definition": "To trust me; to have confidence in my honesty, ability, or reliability.",
+      "ms_definition": "Menganggap aku jujur, amanah atau dapat diharapkan.",
+      "nuances": "本义关注人是否可靠，不限于某一句话是否真实。mempercayaiku 不自行表示“把某物托付给我”；明确表达托付宜用 mempercayakan sesuatu kepadaku。参见 [DBP：mempercayai 与 mempercayakan](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=percaya)。",
+      "collocations": [
+        {
+          "ms": "mempercayaiku sepenuhnya",
+          "zh": "完全信任我",
+          "en": "trust me completely"
+        },
+        {
+          "ms": "mempercayaiku untuk mengurus projek",
+          "zh": "信任我能管理项目",
+          "en": "trust me to manage the project"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场致辞／个人陈述",
+      "ms": "Saya berterima kasih kepada pihak pengurusan kerana mempercayaiku untuk mengetuai projek ini.",
+      "zh": "我感谢管理层信任我，让我领导这个项目。",
+      "en": "I thank the management for trusting me to lead this project."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp／朋友之间表达信任",
+      "ms_spoken": "Kau masih mempercayaiku lagi ke?",
+      "ms_standard": "Adakah kamu masih mempercayai aku?",
+      "zh": "你还相信我吗？",
+      "en": "Do you still trust me?",
+      "spoken_features": [
+        "kau 是熟人之间使用的第二人称形式。",
+        "句末 ke 表示口语疑问；masih…lagi 在此加强“还”的意思。",
+        "mempercayaiku 带书面或抒情色彩，日常聊天更常说 percaya aku。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau masih mempercayaiku lagi ke? Aku dah cerita semuanya.",
+          "ms_standard": "Adakah kamu masih mempercayai aku? Aku sudah menceritakan semuanya.",
+          "zh": "你还相信我吗？我已经把事情都说出来了。",
+          "en": "Do you still believe me? I've told you everything."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ya, aku percaya kau. Aku nak dengar penjelasan kau dulu je.",
+          "ms_standard": "Ya, aku mempercayai kamu. Aku hanya mahu mendengar penjelasan kamu terlebih dahulu.",
+          "zh": "相信啊。我只是想先听你解释。",
+          "en": "Yes, I believe you. I just wanted to hear your explanation first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form brings together a dictionary verb and a personal voice: mempercayai means to believe or trust, while attached ku identifies the speaker as its object. In narrative or intimate writing, that compact ending makes trust feel personal. This explains the form's expressive effect; it does not establish a separate historical origin for the whole word.",
+    "cognitive_memory_aid": "抓住 percaya＝相信，再听结尾 ku＝我：mempercayai-ku，就是“相信我”。这是构词记忆，不是谐音词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 带 aku 系列的人称色彩，适合熟人、文学叙述或个人情感表达。正式公函和对上级陈述时，mempercayai saya 通常更稳妥。",
+    "usage_etiquette": "要求别人相信自己时，语气和关系很重要；反复说“你必须相信我”可能显得施压。讨论具体事实时，可补充解释或证据。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 带 aku 系列的人称色彩，适合熟人、文学叙述或个人情感表达。正式公函和对上级陈述时，mempercayai saya 通常更稳妥。",
+    "usage_etiquette": "要求别人相信自己时，语气和关系很重要；反复说“你必须相信我”可能显得施压。讨论具体事实时，可补充解释或证据。"
+  }
+}

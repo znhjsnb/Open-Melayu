@@ -419,6 +419,9 @@ function renderDetailCard(d) {
   let statusBadgeHtml = '';
   if (dataState === 'enriched') {
     statusBadgeHtml = `<span class="badge-gold">★ 8维认知精编</span>`;
+    if (head.status === 'corpus_usage') {
+      statusBadgeHtml += ` <span class="badge-source" title="官方词典未单独收录，保留字幕高频语料用法">官方词典未单独收录 · 保留字幕高频语料用法</span>`;
+    }
   } else if (dataState === 'source_only') {
     const srcName = (d.raw_prpm && d.raw_prpm.source) || 'DBP 官方词典';
     statusBadgeHtml = `<span class="badge-source">${escapeHtml(srcName)} 官方原义</span>`;
@@ -523,7 +526,7 @@ function renderDetailCard(d) {
                   <h3 class="sense-zh-title">${escapeHtml(s.zh_definition || '')}</h3>
                 </div>
                 ${s.en_definition ? `<p class="sense-en-sub">${escapeHtml(s.en_definition)}</p>` : ''}
-                ${s.ms_definition ? `<div class="sense-ms-quote"><span class="quote-label">DBP 原文:</span> ${escapeHtml(s.ms_definition)}</div>` : ''}
+                ${s.ms_definition ? `<div class="sense-ms-quote"><span class="quote-label">${head.status === 'corpus_usage' ? '马来语释义 (字幕高频语料用法):' : 'DBP 原文:'}</span> ${escapeHtml(s.ms_definition)}</div>` : ''}
                 ${s.nuances ? `<div class="sense-nuance-box">💡 <strong>使用边界:</strong> ${escapeHtml(s.nuances)}</div>` : ''}
                 
                 <!-- DIMENSION 4: COLLOCATIONS UNDER THIS SENSE -->
