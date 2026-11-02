@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "kukira",
+    "syllables": null,
+    "ipa": "/ku.ki.ra/",
+    "jawi": null,
+    "frequency_rank": 5024,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kira",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku-（aku 的附着形式）+ kira → kukira",
+    "pattern_note": "ku- 与后接动词连写，不引起 kira 的音变。此处 prefix 表示线性位置；严格说 ku- 是人称代词附着形式，不是派生前缀。输入包将 kukira 认作独立词根，需据此纠正。",
+    "word_family": [
+      {
+        "word": "mengira",
+        "affix": "meN-",
+        "gloss": "计算；认为；meN- 加 kira 时词首 k 脱落"
+      },
+      {
+        "word": "kiraan",
+        "affix": "-an",
+        "gloss": "计算结果；估算"
+      },
+      {
+        "word": "pengiraan",
+        "affix": "peN-…-an",
+        "gloss": "计算过程；核算"
+      },
+      {
+        "word": "perkiraan",
+        "affix": "per-…-an",
+        "gloss": "估算；考虑"
+      }
+    ],
+    "root_jawi": "کيرا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "我认为；我估计；我原以为。表示说话者的判断或推测，是否指过去由语境决定。",
+      "en_definition": "I think, suppose, or assume; I thought, when the context concerns a past assumption.",
+      "ms_definition": "Aku berpendapat, menganggap atau menyangka bahawa sesuatu demikian halnya.",
+      "nuances": "kukira 不自带过去时，不能一律译成“我原以为”。它是 ku- 与 kira 的合写形式。DBP 明确认可 kukira 的连写；此处 official 指规范拼写，不表示它是独立词根。释义据 kira 编写。参见 [DBP：kukira 连写说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ku+) 及 [DBP：kira](https://prpm.dbp.gov.my/cari1?keyword=kira)。",
+      "collocations": [
+        {
+          "ms": "kukira begitu",
+          "zh": "我想是这样",
+          "en": "I suppose so"
+        },
+        {
+          "ms": "kukira sudah selesai",
+          "zh": "我以为已经结束了",
+          "en": "I thought it was already over"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "由我计算、清点或估算；常见于第一人称施事的被动结构。",
+      "en_definition": "Counted, calculated, or estimated by me, especially in a first-person passive construction.",
+      "ms_definition": "Dihitung atau ditaksir oleh aku, khususnya apabila objek mendahului bentuk kukira.",
+      "nuances": "例如 Wang itu kukira semula 中，wang itu 是被清点的对象，ku- 指执行清点的“我”。不能把这种结构误译为“我认为那笔钱”。此义承接 [DBP：kira／mengira 的计算义](https://prpm.dbp.gov.my/cari1?keyword=kira)。",
+      "collocations": [
+        {
+          "ms": "wang itu kukira semula",
+          "zh": "那笔钱由我重新清点",
+          "en": "I recount that money"
+        },
+        {
+          "ms": "jumlah itu telah kukira",
+          "zh": "那个总数我已经算过",
+          "en": "I have calculated that total"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "由我考虑、顾及或在意；常用于否定表达，表示我不计较某项因素。",
+      "en_definition": "Taken into account or cared about by me; often negated to express disregard for a factor.",
+      "ms_definition": "Dipedulikan atau diambil kira oleh aku, lazimnya dalam ungkapan yang menafikan pertimbangan terhadap sesuatu.",
+      "nuances": "这是 kira 的“顾及、在意”义在 ku- 结构中的运用，较具文学色彩。日常马来西亚口语往往改说 aku tak kisah 或 aku tak peduli；具体替换取决于语气。参见 [DBP：kira 的顾及义](https://prpm.dbp.gov.my/cari1?keyword=kira)。",
+      "collocations": [
+        {
+          "ms": "pangkat tidak kukira",
+          "zh": "我不计较地位高低",
+          "en": "rank does not matter to me"
+        },
+        {
+          "ms": "penat lelah tidak kukira",
+          "zh": "我不计辛劳",
+          "en": "I spare no effort"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 正式记录中的个人陈述引语",
+      "ms": "Dalam keterangannya, saksi itu berkata, “Jumlah wang tersebut telah kukira sebanyak dua kali sebelum kuserahkan kepada bendahari.”",
+      "zh": "证人在陈述中说：“那笔钱交给财政负责人之前，我已经清点了两遍。”",
+      "en": "In the statement, the witness said, “I counted the money twice before handing it to the treasurer.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp；熟人交流，首句略带书面叙述色彩",
+      "ms_spoken": "Kukira kau dah balik tadi.",
+      "ms_standard": "Aku menyangka bahawa engkau sudah pulang tadi.",
+      "zh": "我还以为你刚才已经回去了。",
+      "en": "I thought you'd already gone home.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kau 是熟人间使用的第二人称形式",
+        "kukira 比马来西亚日常口语中的 aku ingat 更具书面或文学色彩"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Kukira kau dah balik tadi.",
+          "ms_standard": "Aku menyangka bahawa engkau sudah pulang tadi.",
+          "zh": "我还以为你刚才已经回去了。",
+          "en": "I thought you'd already gone home."
+        },
+        {
+          "speaker": "Hafiz (朋友)",
+          "ms_spoken": "Belum lagi, aku kat pejabat. Nak siapkan kerja ni dulu.",
+          "ms_standard": "Belum lagi, aku masih di pejabat. Aku mahu menyiapkan kerja ini dahulu.",
+          "zh": "还没呢，我还在办公室。想先把这份工作做完。",
+          "en": "Not yet, I'm still at the office. I want to finish this work first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kukira illustrates how a short written form can contain both a speaker and a verb. Ku- is the bound form of aku, while kira supplies meanings involving thought, calculation, or consideration. DBP explicitly confirms that the two are written together. Its compact appearance therefore reflects grammatical combination rather than an independent lexical root. See [DBP's spelling explanation](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ku+).",
+    "cognitive_memory_aid": "ku＝我，kira＝想／算：kukira 就是“我想”或“我来算”；看后面的内容决定是哪一种。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 承接 aku 的人称语气，适合文学、自述及熟人表达。面向上级、客户或不熟悉的人，通常使用 saya kira、saya berpendapat 或 saya telah mengira。",
+    "usage_etiquette": "规范写作连写 kukira。正式机构报告通常采用更明确的主语和动词；个人引语可以保留 ku-。熟人用 kau 的例句不宜原样用于对长辈或客户的称呼。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 承接 aku 的人称语气，适合文学、自述及熟人表达。面向上级、客户或不熟悉的人，通常使用 saya kira、saya berpendapat 或 saya telah mengira。",
+    "usage_etiquette": "规范写作连写 kukira。正式机构报告通常采用更明确的主语和动词；个人引语可以保留 ku-。熟人用 kau 的例句不宜原样用于对长辈或客户的称呼。"
+  }
+}

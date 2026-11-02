@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "hunt",
+    "syllables": null,
+    "ipa": "/hʌnt/",
+    "jawi": null,
+    "frequency_rank": 5181,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hunt",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hunt → hunt",
+    "pattern_note": "英语单音节词，音标为英语读音；不是已经核实的马来语词根。下列词族属于英语，不属于马来语派生系统。",
+    "word_family": [
+      {
+        "word": "hunter",
+        "affix": "-er（英语后缀）",
+        "gloss": "猎人；追寻者"
+      },
+      {
+        "word": "hunting",
+        "affix": "-ing（英语后缀）",
+        "gloss": "狩猎；搜寻"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "猎捕动物；动物追捕猎物。",
+      "en_definition": "To pursue animals for food or sport, or to pursue prey.",
+      "ms_definition": "Berburu atau memburu haiwan; bagi haiwan pemangsa, mengejar mangsa untuk ditangkap.",
+      "nuances": "这是英语义项。规范马来语按句法使用 berburu、memburu 或 memburu mangsa。DBP 将 hunt 收于英语词典栏目，不能据此认定它是正式马来语词。参见 [DBP 英马词典](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=memburu)。搭配栏以马来语对应表达为主，并在英文栏保留目标词。",
+      "collocations": [
+        {
+          "ms": "memburu rusa",
+          "zh": "猎鹿",
+          "en": "hunt deer"
+        },
+        {
+          "ms": "memburu mangsa",
+          "zh": "追捕猎物",
+          "en": "hunt prey"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "追踪、追捕某人，目的在于将其找到或抓获。",
+      "en_definition": "To track or pursue someone in order to find or capture them.",
+      "ms_definition": "Memburu atau menjejaki seseorang untuk mencari dan menangkapnya.",
+      "nuances": "追捕人时通常对应 memburu 或 menjejaki；不宜机械译为表示打猎活动的 berburu。英语 hunt down 强调持续追寻直至找到。参见 [DBP 英马词典](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=memburu)。",
+      "collocations": [
+        {
+          "ms": "memburu suspek",
+          "zh": "追捕嫌疑人",
+          "en": "hunt a suspect"
+        },
+        {
+          "ms": "memburu penjenayah sehingga ditangkap",
+          "zh": "追捕罪犯直至将其抓获",
+          "en": "hunt down a criminal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "努力寻找某物、某人或某种机会。",
+      "en_definition": "To search actively or persistently for something or someone.",
+      "ms_definition": "Mencari sesuatu atau seseorang dengan bersungguh-sungguh.",
+      "nuances": "英语通常用 hunt for 加寻找对象。规范马来语一般用 mencari；商业宣传和非正式交流中出现的英语形式不因此成为正式马来语。参见 [Merriam-Webster](https://www.merriam-webster.com/dictionary/hunt)。",
+      "collocations": [
+        {
+          "ms": "mencari pekerjaan",
+          "zh": "找工作",
+          "en": "hunt for a job"
+        },
+        {
+          "ms": "mencari rumah",
+          "zh": "找房子",
+          "en": "hunt for a house"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "一次狩猎、追捕或搜寻活动。",
+      "en_definition": "An activity or instance of hunting, pursuit, or searching.",
+      "ms_definition": "Kegiatan atau usaha berburu, memburu, atau mencari sesuatu.",
+      "nuances": "这是英语名词用法；马来语对应词随对象而变，可用 perburuan、pemburuan 或 pencarian。treasure hunt 常指寻宝游戏。参见 [DBP 英马词典](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=rubah)。",
+      "collocations": [
+        {
+          "ms": "pencarian harta karun",
+          "zh": "寻宝活动",
+          "en": "treasure hunt"
+        },
+        {
+          "ms": "pemburuan penjenayah",
+          "zh": "追捕罪犯的行动",
+          "en": "a hunt for a criminal"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场活动通知；以引述方式保留英语词",
+      "ms": "Aktiviti pencarian harta karun, yang dikenali sebagai 'treasure hunt' dalam bahasa Inggeris, akan diadakan pada hari Sabtu.",
+      "zh": "寻宝活动，英语称为 treasure hunt，将于星期六举行。",
+      "en": "A treasure hunt will be held on Saturday."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事聊活动；英语活动名称嵌入马来语",
+      "ms_spoken": "Kau dah daftar untuk treasure hunt Sabtu ni?",
+      "ms_standard": "Adakah kamu sudah mendaftar untuk aktiviti pencarian harta karun pada hari Sabtu ini?",
+      "zh": "你报名这周六的寻宝活动了吗？",
+      "en": "Have you signed up for this Saturday's treasure hunt?",
+      "spoken_features": [
+        "treasure hunt 为英语语码转换",
+        "dah 对应 sudah",
+        "ni 对应 ini",
+        "口语省略疑问标记 adakah"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kau dah daftar untuk treasure hunt Sabtu ni?",
+          "ms_standard": "Adakah kamu sudah mendaftar untuk aktiviti pencarian harta karun pada hari Sabtu ini?",
+          "zh": "你报名这周六的寻宝活动了吗？",
+          "en": "Have you signed up for this Saturday's treasure hunt?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Belum lagi. Aku nak daftar dengan kau, boleh?",
+          "ms_standard": "Saya belum mendaftar. Bolehkah saya mendaftar bersama kamu?",
+          "zh": "还没呢。我想跟你一起报名，可以吗？",
+          "en": "Not yet. Can I sign up with you?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English hunt descends through Middle English from Old English huntian. Its animal-pursuit meaning is recorded before the twelfth century, while the noun is recorded from the fifteenth century. Modern English also uses the word for searching, which explains expressions such as job hunting without implying literal pursuit of animals. [Source](https://www.merriam-webster.com/dictionary/hunt)",
+    "cognitive_memory_aid": "把 hunt 想成锁定目标、一路追寻：猎物是 memburu，工作或房子通常是 mencari。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式马来语写作宜按意思使用 memburu、berburu 或 mencari；引用英语活动名称时可保留 hunt。",
+    "usage_etiquette": "与熟悉英语的朋友或同事交流时，可在英语短语中使用。不能因它出现在马来西亚文本中，就把它标为正式马来语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式马来语写作宜按意思使用 memburu、berburu 或 mencari；引用英语活动名称时可保留 hunt。",
+    "usage_etiquette": "与熟悉英语的朋友或同事交流时，可在英语短语中使用。不能因它出现在马来西亚文本中，就把它标为正式马来语。"
+  }
+}

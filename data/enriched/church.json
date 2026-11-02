@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "church",
+    "syllables": null,
+    "ipa": "/tʃɜːtʃ/",
+    "jawi": null,
+    "frequency_rank": 4984,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "church",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + church → church",
+    "pattern_note": "英语整词，在马来语对话中可作为语码转换成分使用；不作马来语词缀拆分。IPA采用非卷舌英语读音，马来西亚实际发音因说话者而异。未列未经核实的马来语派生词。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "教堂；供基督徒举行公共礼拜的建筑物。",
+      "en_definition": "A building used for Christian worship.",
+      "ms_definition": "Bangunan tempat penganut agama Kristian beribadat; gereja.",
+      "nuances": "这是英语词，马来语正式行文通常使用gereja。此处马来语释义是依据词典对应义编写的释义，并非DBP原文引文。status为本数据集指定的条目状态，不表示church获认定为标准马来语词。[Kamus Inggeris-Melayu Dewan：church](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=sembahyang+1)",
+      "collocations": [
+        {
+          "ms": "bangunan church",
+          "zh": "教堂建筑（夹用英语）",
+          "en": "church building"
+        },
+        {
+          "ms": "church lama",
+          "zh": "老教堂（夹用英语）",
+          "en": "old church"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在教堂举行的礼拜；参加教会礼拜的活动。",
+      "en_definition": "A Christian religious service, especially regular communal worship.",
+      "ms_definition": "Upacara ibadat Kristian yang diadakan di gereja.",
+      "nuances": "日常英语及夹用英语的马来语中，去church常暗示参加礼拜，而非单纯前往建筑物。正式马来语可根据语境写作menghadiri kebaktian或beribadat di gereja。[Kamus Inggeris-Melayu Dewan：church](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=sembahyang+1)",
+      "collocations": [
+        {
+          "ms": "pergi church",
+          "zh": "去教堂做礼拜（夹用英语）",
+          "en": "go to church"
+        },
+        {
+          "ms": "balik dari church",
+          "zh": "做完礼拜回来（夹用英语）",
+          "en": "come back from church"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "教会；基督教的宗教组织、宗派或信徒共同体。",
+      "en_definition": "A Christian institution, denomination, or community of believers.",
+      "ms_definition": "Pertubuhan, denominasi atau komuniti penganut agama Kristian.",
+      "nuances": "所指是组织或信徒群体，不一定是建筑物。英语宗派名称中常写作Church；正式马来语名称应采用该组织认可的写法。[Kamus Inggeris-Melayu Dewan：church](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=sembahyang+1)",
+      "collocations": [
+        {
+          "ms": "ahli church",
+          "zh": "教会成员（夹用英语）",
+          "en": "church member"
+        },
+        {
+          "ms": "komuniti church",
+          "zh": "教会群体（夹用英语）",
+          "en": "church community"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：说明英语词的正式马来语对应词",
+      "ms": "Dalam laporan ini, perkataan bahasa Inggeris “church” diterjemahkan sebagai “gereja”.",
+      "zh": "本报告将英语词church译为gereja，即教堂。",
+      "en": "In this report, the English word “church” is translated as “gereja”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：朋友协调礼拜后的见面时间",
+      "ms_spoken": "Aku baru balik dari church, nak rehat kejap.",
+      "ms_standard": "Saya baru pulang selepas beribadat di gereja dan hendak berehat sebentar.",
+      "zh": "我刚做完礼拜回来，想歇一会儿。",
+      "en": "I’ve just got back from church and want to rest for a bit.",
+      "spoken_features": [
+        "church为英语语码转换成分；正式对应表达为gereja或beribadat di gereja",
+        "nak对应hendak，kejap对应sebentar",
+        "aku适用于熟人之间的随意交流"
+      ],
+      "messages": [
+        {
+          "speaker": "Daniel (朋友)",
+          "ms_spoken": "Aku baru balik dari church. Nak jumpa petang nanti?",
+          "ms_standard": "Saya baru pulang selepas beribadat di gereja. Adakah kamu mahu berjumpa pada petang nanti?",
+          "zh": "我刚做完礼拜回来。傍晚要见面吗？",
+          "en": "I’ve just got back from church. Want to meet later this afternoon?"
+        },
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Boleh, aku dah siap. Kita jumpa kat kafe biasa je.",
+          "ms_standard": "Boleh, saya sudah bersedia. Kita berjumpa di kafe yang biasa kita kunjungi sahaja.",
+          "zh": "可以，我已经准备好了。就在常去的那家咖啡馆见吧。",
+          "en": "Sure, I’m ready. Let’s just meet at our usual café."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English church reaches back through Middle English chirche and Old English cirice to a Greek expression meaning something belonging to the Lord. Its history links a place of worship with the community worshipping there. In Malay conversation, the English form should be distinguished from the standard Malay equivalent gereja. [Merriam-Webster: church](https://www.merriam-webster.com/dictionary/church)",
+    "cognitive_memory_aid": "记住church前后都有/tʃ/，像教堂两端的门；走进church，就是走进gereja。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论基督徒的宗教活动时，使用对方认可的教会名称；不要假设所有马来西亚人都信奉同一宗教。",
+    "usage_etiquette": "church适合英语交流或熟人间夹用英语的聊天。正式马来语一般用gereja；建筑、礼拜活动和教会组织应按语境区分。参观时遵守现场对拍照、服装和礼拜秩序的要求。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论基督徒的宗教活动时，使用对方认可的教会名称；不要假设所有马来西亚人都信奉同一宗教。",
+    "usage_etiquette": "church适合英语交流或熟人间夹用英语的聊天。正式马来语一般用gereja；建筑、礼拜活动和教会组织应按语境区分。参观时遵守现场对拍照、服装和礼拜秩序的要求。"
+  }
+}

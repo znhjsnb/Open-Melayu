@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "dicari",
+    "syllables": null,
+    "ipa": "/di.tʃa.ri/",
+    "jawi": null,
+    "frequency_rank": 5116,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "cari",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + cari → dicari",
+    "pattern_note": "纠正输入包的词根标注：dicari 是 cari 的被动形式。di- 与词根连写，词根的辅音不变；不同于分写的地点介词 di。",
+    "word_family": [
+      {
+        "word": "mencari",
+        "affix": "meN-",
+        "gloss": "寻找；寻求"
+      },
+      {
+        "word": "carian",
+        "affix": "-an",
+        "gloss": "搜索；检索"
+      },
+      {
+        "word": "pencarian",
+        "affix": "peN-...-an",
+        "gloss": "寻找的过程"
+      },
+      {
+        "word": "pencari",
+        "affix": "peN-",
+        "gloss": "寻找者"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被寻找、搜寻或寻求；成为某人试图找到、获得或确定的对象。",
+      "en_definition": "To be looked for, searched for, or sought.",
+      "ms_definition": "Menjadi orang atau perkara yang diusahakan untuk ditemukan, diperoleh atau dikenal pasti.",
+      "nuances": "被动形式本身不表示已经找到，也不限定过去时。dicari polis 表示被警方寻找，不能仅凭此词断定有罪；paling dicari 可表示最受追捧。马来文释义依据词典义项改写。[DBP：cari](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=cari)",
+      "collocations": [
+        {
+          "ms": "sedang dicari",
+          "zh": "正在被寻找",
+          "en": "being searched for"
+        },
+        {
+          "ms": "sukar dicari",
+          "zh": "难以找到",
+          "en": "hard to find"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被故意招惹或引起，尤指麻烦、争端等不良后果。",
+      "en_definition": "To be deliberately invited or brought upon oneself, especially trouble or conflict.",
+      "ms_definition": "Sengaja ditimbulkan atau diundang, khususnya masalah atau pergaduhan.",
+      "nuances": "对应 mencari 的招惹义，常与 sendiri 连用，带有自找麻烦的责备意味；不能将普通的 mencari bantuan 理解为招惹。",
+      "collocations": [
+        {
+          "ms": "masalah yang dicari sendiri",
+          "zh": "自己招来的麻烦",
+          "en": "trouble brought upon oneself"
+        },
+        {
+          "ms": "penyakit yang dicari sendiri",
+          "zh": "自找的苦头",
+          "en": "trouble of one's own making"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dua orang pendaki yang dilaporkan hilang masih dicari oleh pasukan penyelamat.",
+      "zh": "救援队仍在搜寻两名据报失踪的登山者。",
+      "en": "Rescue teams are still searching for two hikers reported missing."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kucing kau masih dicari lagi ke? Aku nampak seekor kat belakang kedai tadi.",
+      "ms_standard": "Adakah kucing kamu masih dicari? Saya ternampak seekor kucing di belakang kedai tadi.",
+      "zh": "你家猫还在找吗？我刚才在店后面看到一只。",
+      "en": "Are you still looking for your cat? I saw one behind the shop earlier.",
+      "spoken_features": [
+        "句末 ke 表示口语疑问，对应标准语的 adakah。",
+        "kat 对应 di，dah 对应 sudah。",
+        "aku、kau 用于熟人之间；lagi 可加强仍在持续的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kucing kau masih dicari lagi ke? Aku nampak seekor kat belakang kedai tadi.",
+          "ms_standard": "Adakah kucing kamu masih dicari? Saya ternampak seekor kucing di belakang kedai tadi.",
+          "zh": "你家猫还在找吗？我刚才在店后面看到一只。",
+          "en": "Are you still looking for your cat? I saw one behind the shop earlier."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah jumpa dah, dia menyorok kat bawah kereta je.",
+          "ms_standard": "Kucing itu sudah ditemukan. Rupanya, kucing itu hanya bersembunyi di bawah kereta.",
+          "zh": "已经找到了，原来它就躲在车底下。",
+          "en": "Found him! He was just hiding under the car."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dicari is transparently formed within Malay from cari and the passive prefix di-. Its useful cultural connection is the public notice: a missing person, a wanted suspect, or a much-needed worker can all be described with this form. The shared idea is being sought; the surrounding words establish why someone is being sought.",
+    "cognitive_memory_aid": "先记 cari＝找；前面加 di-，镜头转向被找的对象：dicari＝被寻找。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性。谈论失踪者时宜用 orang yang dilaporkan hilang；谈论案件时，应按已知身份使用 saksi 或 suspek，避免擅自称人为罪犯。",
+    "usage_etiquette": "适合寻人启事、招聘和日常寻找物品。对别人说 masalah yang dicari sendiri 带责备意味，不宜用于安慰遭遇困难的人。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性。谈论失踪者时宜用 orang yang dilaporkan hilang；谈论案件时，应按已知身份使用 saksi 或 suspek，避免擅自称人为罪犯。",
+    "usage_etiquette": "适合寻人启事、招聘和日常寻找物品。对别人说 masalah yang dicari sendiri 带责备意味，不宜用于安慰遭遇困难的人。"
+  }
+}
