@@ -42,18 +42,26 @@ def test_jawi_integrity():
     assert len(files) >= expected, f"Expected >= {expected} files in data/enriched, got {len(files)}"
 
     q_jawis = []
+    empty_str_jawis = []
     null_jawis = []
+    u0081_files = []
     for f in files:
-        with open(f, "r", encoding="utf-8") as fp:
-            d = json.load(fp)
+        txt = f.read_text(encoding="utf-8")
+        if "\x81" in txt:
+            u0081_files.append(f.name)
+        d = json.loads(txt)
         j = d.get("headword", {}).get("jawi")
         if j and set(j) == {"?"}:
             q_jawis.append(f.name)
-        elif not j:
+        elif j == "":
+            empty_str_jawis.append(f.name)
+        elif j is None:
             null_jawis.append(f.name)
 
+    assert len(u0081_files) == 0, f"Found {len(u0081_files)} files containing banned U+0081: {u0081_files[:5]}"
     assert len(q_jawis) == 0, f"Found {len(q_jawis)} pure question mark Jawis: {q_jawis[:5]}"
-    print(f"[PASS] Gate 1: Pure question mark Jawis = 0, Pending null Jawis = {len(null_jawis)} (Total files: {len(files)})")
+    assert len(empty_str_jawis) == 0, f"Found {len(empty_str_jawis)} empty string Jawis: {empty_str_jawis[:5]}"
+    print(f"[PASS] Gate 1: Pure question mark Jawis = 0, Empty string Jawis = 0, U+0081 = 0, Strict null Jawis = {len(null_jawis)} (Total files: {len(files)})")
 
 
 def test_story_and_collocations():
