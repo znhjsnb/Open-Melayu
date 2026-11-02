@@ -1,0 +1,140 @@
+{
+  "headword": {
+    "word": "kecoh",
+    "syllables": null,
+    "ipa": "/ke.tʃoh/",
+    "jawi": "کيچوه",
+    "frequency_rank": 6693,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kecoh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kecoh → kecoh",
+    "pattern_note": "e 读 é /e/，不是 /ə/；c 读 /tʃ/。此处 ke- 属于词根本身。派生 mengecoh、pengecohan 时，词首 k 在鼻音词缀后脱落。",
+    "word_family": [
+      {
+        "word": "kekecohan",
+        "affix": "ke-…-an",
+        "gloss": "喧闹；骚动；混乱"
+      },
+      {
+        "word": "mengecohkan",
+        "affix": "meN-…-kan",
+        "gloss": "使喧闹；使混乱"
+      },
+      {
+        "word": "mengecoh",
+        "affix": "meN-",
+        "gloss": "欺骗、蒙骗；另可指制造喧闹"
+      },
+      {
+        "word": "terkecoh",
+        "affix": "ter-",
+        "gloss": "受骗；被蒙蔽"
+      },
+      {
+        "word": "pengecohan",
+        "affix": "peN-…-an",
+        "gloss": "欺骗；欺诈行为"
+      }
+    ],
+    "root_jawi": "کيچوه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "喧闹的；闹哄哄的；因争论、惊动等而出现骚动或混乱的。",
+      "en_definition": "Noisy or tumultuous; marked by a commotion or an uproar.",
+      "ms_definition": "Heboh, bising, riuh.",
+      "nuances": "对应《Kamus Dewan》的 kecoh II，也是日常交流中常见的用法。可形容场面，也可在口语中评价某人大惊小怪或闹腾；不必然涉及暴力。不能将此义一概译成“欺骗”。[PRPM：kecoh II](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bising)。",
+      "collocations": [
+        {
+          "ms": "suasana kecoh",
+          "zh": "喧闹混乱的场面",
+          "en": "a tumultuous atmosphere"
+        },
+        {
+          "ms": "kecoh seketika",
+          "zh": "一度出现骚动",
+          "en": "briefly thrown into an uproar"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "欺诈；在交易中以短斤少两、虚报品质等手段骗人的行为。",
+      "en_definition": "Fraud or deception, especially dishonest dealing involving weights, measures, or product quality.",
+      "ms_definition": "Tipu, seperti curang dalam mengukur atau menimbang barang dan menipu tentang mutu barang.",
+      "nuances": "对应输入所引《Kamus Dewan》的 kecoh I。现代学习者更容易在 mengecoh、terkecoh、pengecohan 等派生词中遇到这一语义。以下搭配用于明确交易欺诈语境，不应与表示喧闹的 kecoh II 混读。",
+      "collocations": [
+        {
+          "ms": "kecoh dalam perdagangan",
+          "zh": "商业交易中的欺诈",
+          "en": "fraud in trade"
+        },
+        {
+          "ms": "kecoh dalam timbangan",
+          "zh": "称重作弊",
+          "en": "fraud involving weights"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 事件汇报",
+      "ms": "Suasana di luar dewan menjadi kecoh apabila keputusan pertandingan diumumkan.",
+      "zh": "比赛结果公布时，礼堂外一片喧闹。",
+      "en": "An uproar broke out outside the hall when the competition results were announced."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论群聊",
+      "ms_spoken": "Kenapa kecoh sangat kat kumpulan WhatsApp tu?",
+      "ms_standard": "Mengapakah keadaan dalam kumpulan WhatsApp itu begitu kecoh?",
+      "zh": "那个 WhatsApp 群怎么闹得那么厉害？",
+      "en": "What’s all the fuss in that WhatsApp group?",
+      "spoken_features": [
+        "kenapa → mengapa",
+        "kat → di 或 dalam，依语境转换",
+        "tu → itu",
+        "sangat 放在形容词后，口语中加强程度",
+        "je → sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kenapa kecoh sangat kat kumpulan WhatsApp tu?",
+          "ms_standard": "Mengapakah keadaan dalam kumpulan WhatsApp itu begitu kecoh?",
+          "zh": "那个 WhatsApp 群怎么闹得那么厉害？",
+          "en": "What’s all the fuss in that WhatsApp group?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ada orang tersalah hantar gambar je. Semua dah gelak sekarang.",
+          "ms_standard": "Seseorang hanya tersilap menghantar gambar. Semua orang sudah ketawa sekarang.",
+          "zh": "就是有人发错图了。现在大家都笑起来了。",
+          "en": "Someone just sent the wrong photo. Everyone’s laughing about it now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kamus Dewan separates kecoh into two homonymous entries: deception and noisy commotion. That distinction offers a useful cultural reading lesson: a bustling scene and a dishonest transaction need different interpretations, despite identical spelling. The supplied evidence does not establish the word’s ultimate origin or prove that one meaning historically developed from the other.",
+    "cognitive_memory_aid": "读 ké-coh，想象一群人突然齐声“吵”起来，记住常用的“喧闹”义；见到 terkecoh，再切换到“受骗”的语义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对朋友说 Jangan kecoh! 可以是“别闹啦”，也可能显得不耐烦。对长辈、客户或上司，宜用 Mohon bertenang 或 Boleh kita berbincang dengan tenang?",
+    "usage_etiquette": "形容现场喧闹通常自然；直接评价某人 kecoh 可能带责备意味。正式涉及欺诈时，用 penipuan 或具体描述行为，通常比单用 kecoh 更清楚。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对朋友说 Jangan kecoh! 可以是“别闹啦”，也可能显得不耐烦。对长辈、客户或上司，宜用 Mohon bertenang 或 Boleh kita berbincang dengan tenang?",
+    "usage_etiquette": "形容现场喧闹通常自然；直接评价某人 kecoh 可能带责备意味。正式涉及欺诈时，用 penipuan 或具体描述行为，通常比单用 kecoh 更清楚。"
+  }
+}

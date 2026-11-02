@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "naib",
+    "syllables": "naib",
+    "ipa": "/naib/",
+    "jawi": "ناءيب",
+    "frequency_rank": 6602,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "naib",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + naib → naib",
+    "pattern_note": "整词作为独立词素记忆，不拆成马来语词缀。naib pengerusi 等属于分写的复合称谓；词尾 /b/ 在部分马来西亚口音中实现为不送气、不释放的 [p̚]。",
+    "word_family": [
+      {
+        "word": "naib pengerusi",
+        "affix": "∅（复合词）",
+        "gloss": "副主席"
+      },
+      {
+        "word": "naib johan",
+        "affix": "∅（复合词）",
+        "gloss": "亚军"
+      }
+    ],
+    "root_jawi": "ناءيب"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "代表他人行使职务或代替他人办事的人；代理人。",
+      "en_definition": "A representative or substitute acting on another person's behalf.",
+      "ms_definition": "Pengganti; wakil.",
+      "nuances": "强调代行职责，常见于传统行政和宗教称谓；不一定表示固定的第二级职位。词义依据：[DBP：naib](https://prpm.dbp.gov.my/Cari1?d=261624&keyword=naib)。",
+      "collocations": [
+        {
+          "ms": "naib raja",
+          "zh": "君主的代理人",
+          "en": "a royal deputy"
+        },
+        {
+          "ms": "naib kadi",
+          "zh": "伊斯兰法官的代理人",
+          "en": "a deputy to a kadi"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "职务称谓中的“副”；担任辅助或次一级领导职务的人。",
+      "en_definition": "A deputy or vice officeholder, used in compound titles.",
+      "ms_definition": "Penolong kepada; timbalan.",
+      "nuances": "须依机构正式称谓使用。naib canselor 通常指大学的最高行政负责人，不能仅凭 naib 将其职位误解为普通副校长。[DBP：naib](https://prpm.dbp.gov.my/Cari1?d=261624&keyword=naib)。",
+      "collocations": [
+        {
+          "ms": "naib pengerusi",
+          "zh": "副主席",
+          "en": "vice-chairperson"
+        },
+        {
+          "ms": "naib presiden",
+          "zh": "副会长；副总裁",
+          "en": "vice-president"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "在固定搭配 naib johan 中表示比赛的第二名，即亚军。",
+      "en_definition": "Runner-up, specifically in the fixed expression naib johan.",
+      "ms_definition": "Dalam rangkai kata naib johan: pemenang kedua dalam pertandingan.",
+      "nuances": "“亚军”义属于整个搭配 naib johan；不能把单独的 naib 普遍理解为“第二名”。[DBP：naib](https://prpm.dbp.gov.my/Cari1?d=261624&keyword=naib)。",
+      "collocations": [
+        {
+          "ms": "menjadi naib johan",
+          "zh": "获得亚军",
+          "en": "finish as runner-up"
+        },
+        {
+          "ms": "naib johan keseluruhan",
+          "zh": "总成绩亚军",
+          "en": "overall runner-up"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "【印度尼西亚用语】伊斯兰法官或主持相关宗教事务的卡迪。",
+      "en_definition": "In Indonesian usage, a kadi or Islamic judicial official.",
+      "ms_definition": "Dalam penggunaan Indonesia: kadi.",
+      "nuances": "《Kamus Dewan》标注 Id，属于地域用法，不宜当作现代马来西亚通用称谓。下列为说明性短语，不表示已验证其使用频率。[DBP：naib](https://prpm.dbp.gov.my/Cari1?d=261624&keyword=naib)。",
+      "collocations": [
+        {
+          "ms": "seorang naib",
+          "zh": "一名卡迪",
+          "en": "a kadi"
+        },
+        {
+          "ms": "tugas naib",
+          "zh": "卡迪的职责",
+          "en": "the duties of a kadi"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Mesyuarat itu akan dipengerusikan oleh naib pengerusi persatuan kerana pengerusi sedang menghadiri urusan rasmi di luar negeri.",
+      "zh": "由于主席正在国外处理公务，本次会议将由协会副主席主持。",
+      "en": "The meeting will be chaired by the association's vice-chairperson because the chairperson is abroad on official business."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pasukan kita dapat naib johan je, tapi semua dah main habis baik.",
+      "ms_standard": "Pasukan kita hanya mendapat tempat sebagai naib johan, tetapi semua pemain sudah bermain sebaik mungkin.",
+      "zh": "我们队只拿到亚军，不过大家都已经尽全力了。",
+      "en": "We only finished runners-up, but everyone gave it their best.",
+      "spoken_features": [
+        "je 相当于 sahaja，表示“只”",
+        "dah 相当于 sudah",
+        "main habis baik 是表示“尽全力比赛”的口语说法",
+        "但书面语中宜补出 pemain 等明确主语"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Pasukan kau menang ke tadi?",
+          "ms_standard": "Adakah pasukan kamu menang tadi?",
+          "zh": "你们队刚才赢了吗？",
+          "en": "Did your team win earlier?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dapat naib johan je, tapi semua dah main habis baik.",
+          "ms_standard": "Pasukan kami hanya mendapat tempat sebagai naib johan, tetapi semua pemain sudah bermain sebaik mungkin.",
+          "zh": "只拿到亚军，不过大家都尽全力了。",
+          "en": "We finished runners-up, but everyone gave it their best."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Naib comes from Arabic nāʾib, a representative or deputy. Its older association with acting for another person remains visible in Malay expressions such as naib raja and naib kadi. Modern organisational titles retain the same core idea, while naib johan identifies the competitor immediately below the champion. The borrowed word functions as a complete Malay base. [Arabic dictionary: nāʾib](https://kutub.nur.nu/Arabic-Language/Hans-Wehr.pdf).",
+    "cognitive_memory_aid": "把 naib 想成站在正职旁边、能够代行职责的人；接上 johan“冠军”，就是紧随冠军的亚军。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式称呼应使用机构公布的完整职位和适用敬称，不要直接用 Naib 称呼对方，也不要自行把 naib 改成 timbalan。",
+    "usage_etiquette": "一般叙述中的职位名称和 naib johan 通常用小写；正式专名或完整职衔依机构规范处理。评价比赛成绩时，je“只”可能显得轻视亚军，应结合语气和关系使用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式称呼应使用机构公布的完整职位和适用敬称，不要直接用 Naib 称呼对方，也不要自行把 naib 改成 timbalan。",
+    "usage_etiquette": "一般叙述中的职位名称和 naib johan 通常用小写；正式专名或完整职衔依机构规范处理。评价比赛成绩时，je“只”可能显得轻视亚军，应结合语气和关系使用。"
+  }
+}

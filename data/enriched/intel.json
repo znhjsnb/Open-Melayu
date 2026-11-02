@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "intel",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 6658,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "intel",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + intel → intel",
+    "pattern_note": "包内无释义，不能仅凭小写拼写确定词源或发音。英语情报简称 intel 与品牌专名 Intel 应分别处理，均不是马来语词缀构词；没有可确认的马来语派生词族。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "若为英语借用或混语：情报，尤指与敌方、威胁或安全事务有关的信息。",
+      "en_definition": "In English borrowing or code-switching, intelligence information, especially concerning an adversary or security threat.",
+      "ms_definition": "Dalam penggunaan bahasa Inggeris atau campur kod, maklumat risikan, khususnya tentang pihak lawan atau ancaman keselamatan.",
+      "nuances": "英语 intel 是 intelligence 的非正式简称，常见英语发音为 /ˈɪn.tel/；这一证据不等于该词已获确认为规范马来语词条。正式马来语可用 maklumat risikan。下列搭配是混语示例，未验证为马来语高频搭配。参见 [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/intel?topic=spying-and-espionage)。",
+      "collocations": [
+        {
+          "ms": "dapat intel（混语；标准表达：mendapat maklumat risikan）",
+          "zh": "获得情报",
+          "en": "get intelligence"
+        },
+        {
+          "ms": "kongsi intel（混语；标准表达：berkongsi maklumat risikan）",
+          "zh": "分享情报",
+          "en": "share intelligence"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "若指专名 Intel：英特尔，美国半导体公司的名称及其品牌。",
+      "en_definition": "When capitalized as Intel, the name and brand of the American semiconductor company.",
+      "ms_definition": "Nama khas Intel, iaitu sebuah syarikat semikonduktor Amerika Syarikat serta jenamanya.",
+      "nuances": "此义应写 Intel，属于专有名词。语料中的 intel 可能只是大小写被统一后的形式，不能因此与“情报”义合并。公司名称的来源见 [Intel 官方历史](https://www.intel.com/content/www/us/en/history/virtual-vault/articles/intels-founding.html)。",
+      "collocations": [
+        {
+          "ms": "pemproses Intel",
+          "zh": "英特尔处理器",
+          "en": "Intel processor"
+        },
+        {
+          "ms": "cip Intel",
+          "zh": "英特尔芯片",
+          "en": "Intel chip"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；采用品牌专名义",
+      "ms": "Komputer yang digunakan untuk pembentangan itu dilengkapi pemproses Intel.",
+      "zh": "用于该演示的电脑配备了英特尔处理器。",
+      "en": "The computer used for the presentation is equipped with an Intel processor."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；采用英语情报简称的混语义",
+      "ms_spoken": "Kau dah dapat intel pasal lokasi dalam permainan tu ke?",
+      "ms_standard": "Adakah kamu sudah mendapat maklumat risikan tentang lokasi dalam permainan itu?",
+      "zh": "你拿到那个游戏里的地点情报了吗？",
+      "en": "Have you got any intel on that location in the game yet?",
+      "spoken_features": [
+        "intel 在此借用英语情报义",
+        "dah、pasal、tu 分别对应 sudah、tentang、itu",
+        "kau 用于熟人之间",
+        "句末 ke 表示询问"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (游戏队友)",
+          "ms_spoken": "Kau dah dapat intel pasal lokasi musuh kat peta tu ke?",
+          "ms_standard": "Adakah kamu sudah mendapat maklumat risikan tentang lokasi musuh pada peta itu?",
+          "zh": "你拿到那张地图上敌人位置的情报了吗？",
+          "en": "Have you got any intel on the enemy's position on that map?"
+        },
+        {
+          "speaker": "Farah (游戏队友)",
+          "ms_spoken": "Dah, diorang kat bangunan sebelah je.",
+          "ms_standard": "Sudah. Mereka berada di bangunan bersebelahan sahaja.",
+          "zh": "拿到了，他们就在隔壁那栋楼。",
+          "en": "Yes, they're just in the next building."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Two distinct histories meet in this spelling. English intel shortens intelligence and denotes information. The company name Intel instead combines integrated and electronics, as the company’s historical account explains. Neither history establishes which meaning occurs in the supplied corpus. Capitalization and neighboring words, such as processor or intelligence report, are therefore essential clues. [Intel history](https://www.intel.com/content/www/us/en/history/virtual-vault/articles/intels-founding.html); [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/intel?topic=spying-and-espionage).",
+    "cognitive_memory_aid": "intel 想 intelligence 的“情报”；Intel 配芯片图像记“英特尔”。先看上下文，再定词义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "游戏或熟人聊天中的 intel 可带轻松的任务语气；正式马来语报告宜写清 maklumat risikan。品牌名称保留大写。",
+    "usage_etiquette": "不要在缺少上下文时把 intel 自动理解为“间谍”，也不要把品牌义和情报义混用。包内证据不足以判定本次语料的实际义项。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "游戏或熟人聊天中的 intel 可带轻松的任务语气；正式马来语报告宜写清 maklumat risikan。品牌名称保留大写。",
+    "usage_etiquette": "不要在缺少上下文时把 intel 自动理解为“间谍”，也不要把品牌义和情报义混用。包内证据不足以判定本次语料的实际义项。"
+  }
+}

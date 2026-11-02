@@ -1,0 +1,108 @@
+{
+  "headword": {
+    "word": "meragui",
+    "syllables": "me.ra.gui",
+    "ipa": "/mə.ra.ɡu.i/",
+    "jawi": "مراݢوءي",
+    "frequency_rank": 6668,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ragu",
+    "affix": "meN-...-i",
+    "affix_type": "circumfix",
+    "formula": "meN- + ragu + -i → meragui",
+    "pattern_note": "词根以 r 开头时，meN- 实现为 me-，保留 r；词尾 u 与后缀 i 可分属两个音节。输入包把 meragui 标为词根，但 DBP 将其列为 ragu 的派生词，因此予以校正。",
+    "word_family": [
+      {
+        "word": "ragu",
+        "affix": null,
+        "gloss": "怀疑；迟疑"
+      },
+      {
+        "word": "meragukan",
+        "affix": "meN-...-kan",
+        "gloss": "使人怀疑"
+      },
+      {
+        "word": "keraguan",
+        "affix": "ke-...-an",
+        "gloss": "疑虑；怀疑"
+      }
+    ],
+    "root_jawi": "راݢو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "对某人或某事的真实性、可靠性、诚实程度或能力存有怀疑。",
+      "en_definition": "To doubt or have misgivings about someone or something.",
+      "ms_definition": "Menaruh syak pada, bimbang terhadap, sangsi terhadap, waswas terhadap, mengesyaki.",
+      "nuances": "及物动词，通常直接接怀疑的对象，如 meragui kesahihan maklumat。meragui 表示主体怀疑某事；meragukan 则常表示某事令人起疑。定义及构词依据：[DBP PRPM：meragui](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=meragui)。",
+      "collocations": [
+        {
+          "ms": "meragui kejujuran seseorang",
+          "zh": "怀疑某人的诚实",
+          "en": "doubt someone's honesty"
+        },
+        {
+          "ms": "meragui kesahihan maklumat",
+          "zh": "怀疑信息的真实性",
+          "en": "question the authenticity of information"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak jawatankuasa meragui kesahihan maklumat tersebut dan meminta dokumen sokongan sebelum membuat keputusan.",
+      "zh": "委员会对该信息的真实性存疑，要求先提供佐证文件，再作决定。",
+      "en": "The committee questioned the authenticity of the information and requested supporting documents before making a decision."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku bukan nak meragui kau, tapi jumlah ni macam tak betul je.",
+      "ms_standard": "Saya tidak berniat untuk meragui kamu, tetapi jumlah ini nampaknya tidak betul.",
+      "zh": "我不是想怀疑你，不过这个数目好像不太对。",
+      "en": "I'm not trying to doubt you, but this total doesn't look right.",
+      "spoken_features": [
+        "aku、kau 用于熟人之间。",
+        "nak 对应 hendak；ni 对应 ini；tak 对应 tidak。",
+        "句尾 je 在此缓和判断语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku bukan nak meragui kau, tapi jumlah ni macam tak betul je.",
+          "ms_standard": "Saya tidak berniat untuk meragui kamu, tetapi jumlah ini nampaknya tidak betul.",
+          "zh": "我不是想怀疑你，不过这个数目好像不太对。",
+          "en": "I'm not trying to doubt you, but this total doesn't look right."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tak apa, jom semak sama-sama. Aku dah simpan semua resit.",
+          "ms_standard": "Tidak mengapa, mari kita menyemaknya bersama-sama. Saya sudah menyimpan semua resit.",
+          "zh": "没事，咱们一起核对吧。我已经把所有收据留好了。",
+          "en": "No problem. Let's check it together. I've kept all the receipts."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Meragui belongs to the productive Malay family built around ragu, expressing doubt or uncertainty. Its structure reveals who doubts what: meragui places the doubter before an object, while meragukan commonly presents something as causing doubt. This contrast provides a useful window into how Malay affixes organize perspective without requiring unrelated vocabulary.",
+    "cognitive_memory_aid": "抓住 ragu＝疑虑：me- + ragu + -i，把疑虑指向一个对象，就是“怀疑某人或某事”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Saya meragui kejujuran anda 容易被理解为质疑对方人品；职场可改说 Saya ingin mendapatkan penjelasan lanjut，并说明需要核实的具体事项。",
+    "usage_etiquette": "适合讨论证据、信息和论证的可靠性。涉及他人能力或诚信时，应给出具体依据，避免在群聊中作笼统指责。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Saya meragui kejujuran anda 容易被理解为质疑对方人品；职场可改说 Saya ingin mendapatkan penjelasan lanjut，并说明需要核实的具体事项。",
+    "usage_etiquette": "适合讨论证据、信息和论证的可靠性。涉及他人能力或诚信时，应给出具体依据，避免在群聊中作笼统指责。"
+  }
+}
