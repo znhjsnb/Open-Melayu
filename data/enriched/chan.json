@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "chan",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 2813,
+    "status": "unverified",
+    "status_note": "缺少原始语境，无法确定是姓氏 Chan、日语称呼成分 -chan，还是其他专名；不能标记为已核实的官方马来语词。各解读读音不同，故不指定单一 IPA。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "chan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "姓氏：∅ + Chan → Chan；日语称呼：姓名 + -chan → 亲昵称呼",
+    "pattern_note": "输入包的 is_root 只适用于未拆分的词形记录。姓氏应整体记忆；日语解读中的 -chan 是日语姓名后的称呼成分，不是马来语派生后缀。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "Chan，华人姓氏的罗马字拼写，常对应粤语读音的“陈”；具体汉字须核对本人姓名。",
+      "en_definition": "Chan, a romanized Chinese surname, commonly representing Cantonese 陳.",
+      "ms_definition": "Nama keluarga Cina dalam tulisan Rumi, lazimnya mewakili nama keluarga 陳 mengikut sebutan Kantonis.",
+      "nuances": "作为姓氏应写 Chan，词性细分为专有名词。不能只凭拼写断定每个人的姓氏汉字、籍贯或母语。下列为称呼示例，未作频次核验。参见 [IFLA 中文姓名规范资料](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/pubs/ifla_names_of_persons_chinese_names_2020.pdf)。",
+      "collocations": [
+        {
+          "ms": "Encik Chan",
+          "zh": "Chan 先生；确认姓氏为陈时译作陈先生",
+          "en": "Mr Chan"
+        },
+        {
+          "ms": "Puan Chan",
+          "zh": "Chan 女士；确认姓氏为陈时译作陈女士",
+          "en": "Ms Chan"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "日语姓名后的亲昵称呼成分，常用于儿童或关系亲近的人。",
+      "en_definition": "A Japanese name suffix used in familiar or affectionate forms of address.",
+      "ms_definition": "Unsur sapaan bahasa Jepun yang diletakkan selepas nama, lazimnya untuk kanak-kanak atau orang yang mempunyai hubungan rapat dengan penutur.",
+      "nuances": "这里的 particle 是给定词性选项下的近似归类；严格说是日语称呼后缀，常写作 -chan，不是马来语语气词。此解读与姓氏 Chan 无词源关系，也不能仅凭输入词形确定它就是原文含义。参见 [日本官方语言文化介绍](https://www.az.emb-japan.go.jp/files/000180840.pdf)。",
+      "collocations": [
+        {
+          "ms": "panggilan Sakura-chan",
+          "zh": "Sakura-chan 这一亲昵称呼",
+          "en": "the affectionate form of address Sakura-chan"
+        },
+        {
+          "ms": "akhiran -chan",
+          "zh": "称呼后缀 -chan",
+          "en": "the name suffix -chan"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 姓氏用法",
+      "ms": "Encik Chan akan membentangkan laporan kewangan dalam mesyuarat petang ini.",
+      "zh": "Chan 先生将在今天下午的会议上汇报财务报告。",
+      "en": "Mr Chan will present the financial report at this afternoon's meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认文件位置",
+      "ms_spoken": "Fail tu dah ada kat meja Encik Chan ke?",
+      "ms_standard": "Adakah fail itu sudah berada di atas meja Encik Chan?",
+      "zh": "那份文件已经放在 Chan 先生桌上了吗？",
+      "en": "Is that file on Mr Chan's desk already?",
+      "spoken_features": [
+        "tu 相当于 itu",
+        "dah 相当于 sudah",
+        "kat 在此相当于 di atas",
+        "句末 ke 标示口语疑问",
+        "口语中仍可保留 Encik 以表示尊重"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail tu dah ada kat meja Encik Chan ke?",
+          "ms_standard": "Adakah fail itu sudah berada di atas meja Encik Chan?",
+          "zh": "那份文件已经放在 Chan 先生桌上了吗？",
+          "en": "Is that file on Mr Chan's desk already?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, aku letak kat situ tadi. Dia nak semak lepas makan.",
+          "ms_standard": "Sudah, saya meletakkannya di situ tadi. Beliau mahu menyemaknya selepas makan.",
+          "zh": "放好了，我刚放那儿的。他吃完饭要看。",
+          "en": "Yes, I put it there earlier. He wants to review it after lunch."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The spelling chan can conceal unrelated histories. As Chan, it commonly represents the Chinese surname 陳 in Cantonese romanization. As Japanese -chan, it follows a name and participates in familiar forms of address. These are distinct naming traditions, so an isolated lowercase token cannot establish either its origin or its intended meaning. [Surname source](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/pubs/ifla_names_of_persons_chinese_names_2020.pdf); [Japanese address source](https://www.az.emb-japan.go.jp/files/000180840.pdf).",
+    "cognitive_memory_aid": "看位置记含义：Encik Chan 中是姓氏；Sakura-chan 中跟在名字后，表示亲昵称呼。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "称呼姓 Chan 的马来西亚人士，可依场合使用 Encik、Puan 或其正式职衔。日语 -chan 不宜擅自加在客户、上司或陌生人的名字后。",
+    "usage_etiquette": "姓名拼写以本人使用的形式为准，不擅自改成其他罗马字拼写或推定汉字。日语 -chan 适合解释动漫对白或双方认可的亲昵称呼，不能当作马来西亚通用敬称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "称呼姓 Chan 的马来西亚人士，可依场合使用 Encik、Puan 或其正式职衔。日语 -chan 不宜擅自加在客户、上司或陌生人的名字后。",
+    "usage_etiquette": "姓名拼写以本人使用的形式为准，不擅自改成其他罗马字拼写或推定汉字。日语 -chan 适合解释动漫对白或双方认可的亲昵称呼，不能当作马来西亚通用敬称。"
+  }
+}

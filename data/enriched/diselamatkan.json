@@ -1,0 +1,158 @@
+{
+  "headword": {
+    "word": "diselamatkan",
+    "syllables": null,
+    "ipa": "/di.sə.la.mat.kan/",
+    "jawi": null,
+    "frequency_rank": 2687,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "selamat",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + selamat + -kan → diselamatkan",
+    "pattern_note": "di- 标记被动，-kan 构成及物动词；词根没有音变。这里的 di- 是词缀，须连写。输入包将整个词判作词根，需更正为 selamat。",
+    "word_family": [
+      {
+        "word": "menyelamatkan",
+        "affix": "meN-...-kan",
+        "gloss": "拯救；使脱离危险"
+      },
+      {
+        "word": "penyelamat",
+        "affix": "peN-",
+        "gloss": "救援者；救星"
+      },
+      {
+        "word": "penyelamatan",
+        "affix": "peN-...-an",
+        "gloss": "营救；抢救行动"
+      },
+      {
+        "word": "keselamatan",
+        "affix": "ke-...-an",
+        "gloss": "安全"
+      },
+      {
+        "word": "terselamat",
+        "affix": "ter-",
+        "gloss": "幸免于难"
+      }
+    ],
+    "root_jawi": "سلامت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被营救、抢救或保全，使人或事物脱离危险、损毁或其他不利处境。",
+      "en_definition": "To be rescued, saved, or protected from danger, destruction, or loss.",
+      "ms_definition": "Dijauhkan daripada bahaya atau kerosakan melalui tindakan menyelamatkan.",
+      "nuances": "这是 menyelamatkan 的被动形式，主语是获救或被保全的对象；施事可由 oleh 引出。不同于 terselamat，diselamatkan 强调受到救助或保护。释义依据 [DBP：selamat](https://prpm.dbp.gov.my/Cari1?d=54140&keyword=selamat) 改写。",
+      "collocations": [
+        {
+          "ms": "berjaya diselamatkan",
+          "zh": "成功获救；成功被保全",
+          "en": "successfully rescued or saved"
+        },
+        {
+          "ms": "diselamatkan oleh anggota bomba",
+          "zh": "被消防人员救出",
+          "en": "rescued by firefighters"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "使时间、精力或资金免于白白耗费；被节省或保住。",
+      "en_definition": "To be saved from unnecessary expenditure or waste.",
+      "ms_definition": "Dijimatkan atau dipelihara supaya tidak dibazirkan.",
+      "nuances": "DBP 收录 menyelamatkan 的节省义。表达日常节约时，dijimatkan 通常更直接；diselamatkan 更容易突出原本可能发生的浪费或损失。",
+      "collocations": [
+        {
+          "ms": "masa dapat diselamatkan",
+          "zh": "时间得以节省",
+          "en": "time can be saved"
+        },
+        {
+          "ms": "tenaga dapat diselamatkan",
+          "zh": "精力得以节省",
+          "en": "effort can be saved"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被安葬；用于遗体，属于传统委婉表达。",
+      "en_definition": "To be buried, in a traditional euphemistic use referring to a deceased person.",
+      "ms_definition": "Dikebumikan, apabila merujuk kepada mayat.",
+      "nuances": "DBP 收录此义，但现代一般语境中的 diselamatkan 首先让人想到获救。下列是传统义的用法组合，不应当作现代高频搭配。现代讣告宜用 dikebumikan。DBP 另收录主动词 menyelamatkan 的办祈安宴义，不宜据此将普通被动句理解为办宴。",
+      "collocations": [
+        {
+          "ms": "mayat telah diselamatkan",
+          "zh": "遗体已经安葬（传统用法）",
+          "en": "the body has been buried, in traditional usage"
+        },
+        {
+          "ms": "jenazah diselamatkan",
+          "zh": "遗体被安葬（传统用法）",
+          "en": "the deceased is buried, in traditional usage"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 救援通报",
+      "ms": "Semua mangsa yang terperangkap di dalam bangunan itu berjaya diselamatkan oleh anggota bomba.",
+      "zh": "所有被困在该建筑内的受灾者均已被消防人员成功救出。",
+      "en": "Firefighters successfully rescued everyone trapped inside the building."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友关心救援情况",
+      "ms_spoken": "Kucing yang terperangkap kat longkang tu dah diselamatkan.",
+      "ms_standard": "Kucing yang terperangkap di dalam longkang itu sudah diselamatkan.",
+      "zh": "困在沟里的那只猫已经被救出来了。",
+      "en": "The cat stuck in the drain has been rescued.",
+      "spoken_features": [
+        "kat 对应标准语的 di 或 di dalam",
+        "tu 是 itu 的口语缩略",
+        "dah 是 sudah 的口语缩略"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kucing yang terperangkap kat longkang tu dah diselamatkan ke?",
+          "ms_standard": "Adakah kucing yang terperangkap di dalam longkang itu sudah diselamatkan?",
+          "zh": "困在沟里的那只猫救出来了吗？",
+          "en": "Has the cat stuck in the drain been rescued?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, abang bomba dah keluarkan dia. Luka sikit je.",
+          "ms_standard": "Sudah, anggota bomba sudah mengeluarkannya. Kucing itu hanya mengalami kecederaan ringan.",
+          "zh": "救出来了，消防员已经把它弄出来了，就受了点轻伤。",
+          "en": "Yes, the firefighters got it out. It only has a minor injury."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The root selamat belongs to Malay's Arabic-derived vocabulary of safety and well-being. Familiar greetings such as selamat pagi preserve its association with good wishes. Malay morphology then turns that familiar root into an action: menyelamatkan means to save, while diselamatkan presents the person or thing receiving that help. See the historical discussion of [selamat](https://www.dbnl.org/tekst/pric005vier01_01/pric005vier01_01_0046.php).",
+    "cognitive_memory_aid": "先抓住 selamat「平安」：selamat 是平安，menyelamatkan 是救人，diselamatkan 是被救。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式报道宜用 mangsa、anggota bomba 等中性称呼；abang bomba 带亲切口吻，适合日常交流。",
+    "usage_etiquette": "涉及真实灾难时应尊重受灾者，避免把救援经历当作玩笑。表达安葬时优先使用 dikebumikan，以免被误解为获救。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式报道宜用 mangsa、anggota bomba 等中性称呼；abang bomba 带亲切口吻，适合日常交流。",
+    "usage_etiquette": "涉及真实灾难时应尊重受灾者，避免把救援经历当作玩笑。表达安葬时优先使用 dikebumikan，以免被误解为获救。"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headword": {
+    "word": "an",
+    "syllables": null,
+    "ipa": "/ən/, /æn/; /an/（马来语后缀 -an）",
+    "jawi": null,
+    "frequency_rank": 2946,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "an",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + an → an（英语冠词）；kata dasar + -an → kata terbitan（另一个马来语语素）",
+    "pattern_note": "输入没有语境，无法确定 an 是英语冠词还是丢失连字符的马来语后缀 -an。主形态字段保留输入的独立词分析；若原文实际指后缀，应另建 -an 词条，不能把它当成独立词根。",
+    "word_family": [
+      {
+        "word": "a",
+        "affix": null,
+        "gloss": "英语不定冠词的另一形式；与 an 按后接语音分布"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "英语不定冠词 a 在后接元音音素时使用的形式，通常引入非特指的单数可数名词。",
+      "en_definition": "The English indefinite article used before a vowel sound.",
+      "ms_definition": "Kata sandang tak tentu bahasa Inggeris yang digunakan sebelum bunyi vokal.",
+      "nuances": "准确词类为 article 或 determiner；因指定词类列表没有这两项，暂以 particle 容纳。依据发音而非字母选择：an hour，但 a university。它不是马来语冠词，译入马来语时可能用 seorang、sebuah 等，也可能省略。此义是否对应输入仍待上下文确认。[Cambridge 释义](https://dictionary.cambridge.org/us/dictionary/english/an)",
+      "collocations": [
+        {
+          "ms": "an apple（英语；马来语：sebiji epal）",
+          "zh": "一个苹果",
+          "en": "an apple"
+        },
+        {
+          "ms": "an hour（英语；马来语：sejam）",
+          "zh": "一小时",
+          "en": "an hour"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "作为语言分析对象提及的马来语后缀 -an，可构成表示结果、事物、场所或数量等意义的派生词。",
+      "en_definition": "The Malay suffix -an, cited as a linguistic form, used in nominal and other formations.",
+      "ms_definition": "Nama bagi akhiran -an yang membentuk kata terbitan dengan pelbagai makna.",
+      "nuances": "此处 noun 仅表示“被谈论的后缀名称”，不表示 -an 本身是独立名词。后缀必须与词基结合；它也不等于整个 ke-…-an 或 peN-…-an 环缀。以下是教学搭配，不是独立词 an 的搭配。[DBP 后缀说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=akhiran)",
+      "collocations": [
+        {
+          "ms": "akhiran -an",
+          "zh": "后缀 -an",
+          "en": "the suffix -an"
+        },
+        {
+          "ms": "kata berakhiran -an",
+          "zh": "带后缀 -an 的词",
+          "en": "a word ending in the suffix -an"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教学说明 / 英语培训",
+      "ms": "Dalam bahasa Inggeris, bentuk an digunakan sebelum bunyi vokal, seperti dalam frasa an hour.",
+      "zh": "英语中，an 用于元音音素之前，例如短语 an hour。",
+      "en": "In English, an is used before a vowel sound, as in the phrase an hour."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论英语用法",
+      "ms_spoken": "Kat sini kena guna an, kan? Hour tu mula dengan bunyi vokal.",
+      "ms_standard": "Di sini perlu digunakan an, bukan? Perkataan hour bermula dengan bunyi vokal.",
+      "zh": "这里要用 an，对吧？hour 是元音开头的。",
+      "en": "We need an here, right? Hour starts with a vowel sound.",
+      "spoken_features": [
+        "kat sini 对应 di sini。",
+        "kena 在此口语中表示需要或必须。",
+        "kan 请求对方确认，tu 对应 itu。",
+        "an 和 hour 是被讨论的英语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同学)",
+          "ms_spoken": "Saya nak tulis an hour. Betul ke?",
+          "ms_standard": "Saya hendak menulis frasa an hour. Adakah frasa itu betul?",
+          "zh": "我想写 an hour，这样对吗？",
+          "en": "I want to write an hour. Is that right?"
+        },
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Betul. Guna an sebab h tu tak disebut.",
+          "ms_standard": "Betul. Gunakan an kerana huruf h dalam perkataan itu tidak disebut.",
+          "zh": "对。用 an，因为那个 h 不发音。",
+          "en": "Yes. Use an because the h is silent."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English an developed from Old English ān, meaning 'one'. The shorter form a emerged as the final consonant disappeared before consonant sounds, while an survived before vowel sounds. This English history must be kept separate from Malay -an: identical letters do not establish a shared origin or grammatical function. [English etymology](https://www.etymonline.com/word/an).",
+    "cognitive_memory_aid": "英语 an 跟着“声音”走：an hour；马来语 -an 黏在词尾：makan → makanan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是语法形式，本身不表达尊卑。纠正别人时，可说 Di sini lebih sesuai menggunakan an，避免当众用命令口吻指责。",
+    "usage_etiquette": "在英语学习或语码转换中保留 an；规范马来语句子不直接套用英语冠词系统。缺少原始语境时，不应断言输入唯一对应哪种形式。status 的 official 仅沿用指定数据标签；马来语释义为编写说明，并非 DBP 对独立词 an 的官方定义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是语法形式，本身不表达尊卑。纠正别人时，可说 Di sini lebih sesuai menggunakan an，避免当众用命令口吻指责。",
+    "usage_etiquette": "在英语学习或语码转换中保留 an；规范马来语句子不直接套用英语冠词系统。缺少原始语境时，不应断言输入唯一对应哪种形式。status 的 official 仅沿用指定数据标签；马来语释义为编写说明，并非 DBP 对独立词 an 的官方定义。"
+  }
+}

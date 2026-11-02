@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "dipilih",
+    "syllables": "di.pi.lih",
+    "ipa": "/di.pilih/",
+    "jawi": null,
+    "frequency_rank": 2854,
+    "status": "official",
+    "validation_note": "标准马来语被动派生形式。输入误将 dipilih 标为词根，已更正为 di- + pilih；音节与音标按标准形式补充。Jawi 保留输入的 null。频率排名沿用输入，未独立核验。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pilih",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + pilih → dipilih",
+    "pattern_note": "被动前缀 di- 与词根连写，词根首辅音 p 保留。与主动形式 memilih 中的 meN- 鼻音替代不同；也须区别于分写的处所介词 di。",
+    "word_family": [
+      {
+        "word": "memilih",
+        "affix": "meN-",
+        "gloss": "选择；挑选"
+      },
+      {
+        "word": "pilihan",
+        "affix": "-an",
+        "gloss": "选择结果；选项"
+      },
+      {
+        "word": "pemilihan",
+        "affix": "peN-...-an",
+        "gloss": "选拔；选择过程"
+      },
+      {
+        "word": "pemilih",
+        "affix": "peN-",
+        "gloss": "选择者；选民"
+      },
+      {
+        "word": "terpilih",
+        "affix": "ter-",
+        "gloss": "获选的；精选的"
+      },
+      {
+        "word": "memilihkan",
+        "affix": "meN-...-kan",
+        "gloss": "替某人挑选"
+      }
+    ],
+    "root_jawi": "ڤيليه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被选择；从若干人、事物或方案中被挑中或确定。",
+      "en_definition": "To be chosen or selected from available alternatives.",
+      "ms_definition": "Bentuk pasif bagi memilih: ditentukan atau diambil daripada beberapa pilihan mengikut kehendak atau kriteria tertentu.",
+      "nuances": "这是依据词根释义编写的被动形式释义，并非 DBP 原文引述。di- 表示被动，不表示过去时；akan dipilih 是将被选择，telah dipilih 是已经被选择。[DBP：pilih](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=pilih)。",
+      "collocations": [
+        {
+          "ms": "dipilih berdasarkan kelayakan",
+          "zh": "根据资格获选",
+          "en": "selected on the basis of qualifications"
+        },
+        {
+          "ms": "dipilih secara rawak",
+          "zh": "被随机选中",
+          "en": "selected at random"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被选举或推选担任某个职位、代表或角色。",
+      "en_definition": "To be elected or chosen to serve in a position or representative role.",
+      "ms_definition": "Bentuk pasif bagi memilih: ditentukan untuk memegang jawatan atau menjadi wakil melalui undian atau persetujuan.",
+      "nuances": "dipilih 不单独保证经过投票，也可能由委员会或负责人选定；需要明确选举方式时补充 melalui undian。在规范的第一、第二人称施事被动句中，使用 saya pilih、awak pilih，例如 Calon itu saya pilih。[DBP：pilih 与被动句用法](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=pilih)。",
+      "collocations": [
+        {
+          "ms": "dipilih sebagai pengerusi",
+          "zh": "获选担任主席",
+          "en": "chosen as chairperson"
+        },
+        {
+          "ms": "dipilih melalui undian",
+          "zh": "通过投票获选",
+          "en": "elected by vote"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Seramai sepuluh orang peserta telah dipilih berdasarkan kelayakan dan pengalaman mereka.",
+      "zh": "共有十名参与者根据其资格与经验获选。",
+      "en": "Ten participants have been selected on the basis of their qualifications and experience."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah dipilih untuk wakilkan kelas kita!",
+      "ms_standard": "Saya sudah dipilih untuk mewakili kelas kita!",
+      "zh": "我被选中代表我们班了！",
+      "en": "I've been picked to represent our class!",
+      "spoken_features": [
+        "aku：熟人之间的第一人称",
+        "dah：sudah 的口语形式",
+        "wakilkan：此处为口语表达，标准对应 mewakili",
+        "dipilih 在口语中仍可完整保留"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku dah dipilih untuk wakilkan kelas kita dalam pertandingan tu!",
+          "ms_standard": "Saya sudah dipilih untuk mewakili kelas kita dalam pertandingan itu!",
+          "zh": "我被选中代表我们班参加那个比赛了！",
+          "en": "I've been picked to represent our class in that competition!"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Wah, tahniah! Kalau nak berlatih, ajak aku je.",
+          "ms_standard": "Wah, tahniah! Jika awak hendak berlatih, ajaklah saya.",
+          "zh": "哇，恭喜！想练习的话，叫上我就行。",
+          "en": "Wow, congratulations! If you want to practise, just ask me."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dipilih is transparently formed from the Malay base pilih and the passive prefix di-. Its structure places the selected person or thing at the centre of the clause. The same base connects everyday decisions with public representation through memilih, pilihan, pemilihan, and pemilih. This is productive Malay word formation, rather than a separate borrowed word. [DBP: pilih](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=pilih).",
+    "cognitive_memory_aid": "pilih＝挑选；加 di-，镜头转向被挑中的对象：Calon itu dipilih＝那位候选人被选中。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "适用于正式通知、选拔结果与日常报喜。告知落选时，Anda tidak dipilih 直白明确；可用 Dukacita dimaklumkan bahawa permohonan anda tidak berjaya 作较委婉的正式通知。",
+    "usage_etiquette": "公开宣布某人获选时，应准确说明职位和程序。dipilih 本身不表示获奖，也不必然表示全票通过；这些信息需要另外说明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "适用于正式通知、选拔结果与日常报喜。告知落选时，Anda tidak dipilih 直白明确；可用 Dukacita dimaklumkan bahawa permohonan anda tidak berjaya 作较委婉的正式通知。",
+    "usage_etiquette": "公开宣布某人获选时，应准确说明职位和程序。dipilih 本身不表示获奖，也不必然表示全票通过；这些信息需要另外说明。"
+  }
+}

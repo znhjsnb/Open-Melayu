@@ -1,0 +1,116 @@
+{
+  "headword": {
+    "word": "gunakannya",
+    "syllables": null,
+    "ipa": "/ɡu.na.kan.ɲa/",
+    "jawi": null,
+    "frequency_rank": 2809,
+    "status": "official",
+    "status_note": "这是符合标准马来语构词和拼写的形式；不表示已确认存在独立的 DBP 词头。输入包未提供音节和爪夷文，故保留 null。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "gunakan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "gunakan + -nya → gunakannya；进一步分析：guna + -kan + -nya → gunakannya",
+    "pattern_note": "按输入包保留直接词基 gunakan；更深层词根为 guna。-nya 在此是后附代词而非派生后缀，依所给字段归入 suffix；ny 表示 /ɲ/，各部分连写，无辅音替换。",
+    "word_family": [
+      {
+        "word": "menggunakan",
+        "affix": "meN-…-kan",
+        "gloss": "使用；利用"
+      },
+      {
+        "word": "digunakan",
+        "affix": "di-…-kan",
+        "gloss": "被使用"
+      },
+      {
+        "word": "penggunaan",
+        "affix": "peN-…-an",
+        "gloss": "使用；使用行为"
+      },
+      {
+        "word": "kegunaan",
+        "affix": "ke-…-an",
+        "gloss": "用途；用处"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "使用它；将前文已提到的物品、工具、方法或资源用于某个目的，常用于指示或劝告。",
+      "en_definition": "Use it; employ the previously mentioned thing, method, or resource for a purpose.",
+      "ms_definition": "Memakai atau memanfaatkan sesuatu yang telah disebut untuk tujuan tertentu; dalam ayat perintah, menyuruh seseorang berbuat demikian.",
+      "nuances": "-nya 在这里指向语境中可识别的对象，不表示“他的用途”。它不自带过去时意义。Gunakannya! 可独立构成命令；普通主动陈述如“他使用它”通常写 Dia menggunakannya。释义依据 guna 词族整理，并非独立词条的逐字引文。参见 [DBP：guna 及其派生词](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=guna)。",
+      "collocations": [
+        {
+          "ms": "gunakannya dengan betul",
+          "zh": "正确使用它",
+          "en": "use it correctly"
+        },
+        {
+          "ms": "gunakannya dengan bijak",
+          "zh": "明智地利用它",
+          "en": "use it wisely"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场设备使用指引",
+      "ms": "Peralatan ini disediakan untuk semua kakitangan; sila gunakannya mengikut arahan keselamatan.",
+      "zh": "本设备供全体员工使用；请按照安全指示使用。",
+      "en": "This equipment is provided for all staff; please use it according to the safety instructions."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友借用充电器",
+      "ms_spoken": "Kalau nak pinjam pengecas aku, gunakannya dulu, lepas tu pulangkan ya.",
+      "ms_standard": "Jika kamu mahu meminjam pengecas saya, gunakannya dahulu dan pulangkannya selepas itu.",
+      "zh": "你要借我的充电器就先用吧，用完记得还我哦。",
+      "en": "If you need my charger, go ahead and use it, then give it back, okay?",
+      "spoken_features": [
+        "nak 相当于 mahu",
+        "aku 用于亲近关系",
+        "lepas tu 相当于 selepas itu",
+        "句末 ya 缓和提醒语气",
+        "gunakannya 在清楚的指示中自然；更随意的口语也常直接说 guna dulu"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Bateri telefon aku dah lemah. Aku nak pinjam pengecas kau sekejap, boleh?",
+          "ms_standard": "Bateri telefon saya sudah lemah. Bolehkah saya meminjam pengecas kamu sebentar?",
+          "zh": "我手机快没电了，可以借你的充电器用一下吗？",
+          "en": "My phone's nearly dead. Can I borrow your charger for a bit?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh je. Gunakannya dulu, lepas tu pulangkan ya.",
+          "ms_standard": "Boleh. Gunakannya dahulu dan pulangkannya selepas itu.",
+          "zh": "可以啊。你先用，用完还我哦。",
+          "en": "Sure. Go ahead and use it, then give it back, okay?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Gunakannya is built within Malay rather than borrowed as a complete word. The dictionary records guna alongside a productive family concerning benefit, use, users, and usage. Adding -kan forms gunakan, while attached -nya points back to an understood object. A short instruction can consequently identify an action and its object without repeating the object's name. [Source](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=guna)",
+    "cognitive_memory_aid": "guna 联想“使用”，-kan 形成动词，-nya 接住前面说的“它”：gunakan + nya → 使用它。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Gunakannya! 带命令感。对客户、长辈或不熟悉的人，可用 Sila gunakannya…；同事间也可依语境加 tolong。",
+    "usage_etiquette": "适用于设备说明、资源使用建议和日常指示。-nya 的指代对象应清楚；首次介绍物品或同时涉及多个对象时，直接写出名称更明确。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Gunakannya! 带命令感。对客户、长辈或不熟悉的人，可用 Sila gunakannya…；同事间也可依语境加 tolong。",
+    "usage_etiquette": "适用于设备说明、资源使用建议和日常指示。-nya 的指代对象应清楚；首次介绍物品或同时涉及多个对象时，直接写出名称更明确。"
+  }
+}

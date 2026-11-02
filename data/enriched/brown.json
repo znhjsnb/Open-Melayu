@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "brown",
+    "syllables": "kulit",
+    "ipa": "/braʊn/",
+    "jawi": null,
+    "frequency_rank": 2647,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "brown",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + brown → brown",
+    "pattern_note": "英语整词夹用，不作马来语词缀拆解。依要求保留输入包的 syllables 值 kulit，但该值错配：kulit 是另一词，brown 实为单音节，ow 在此读 /aʊ/。下列词族属于英语。",
+    "word_family": [
+      {
+        "word": "brownish",
+        "affix": "-ish（英语）",
+        "gloss": "略带棕色的"
+      },
+      {
+        "word": "browning",
+        "affix": "-ing（英语）",
+        "gloss": "变成或使呈棕色的过程"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "棕色的；褐色的。英语词，在马来西亚口语、商品标签或混合语码中使用。",
+      "en_definition": "Brown in colour; used as an English colour adjective in mixed Malay-English speech.",
+      "ms_definition": "Berwarna coklat atau perang; kata bahasa Inggeris yang digunakan dalam pertuturan bercampur bahasa.",
+      "nuances": "正式马来语通常用 coklat 或 perang，按搭配选择；brown 并不表示“皮肤”。英语的肤色、晒黑及烹饪用法须结合语境翻译。词条中的 official 字段不表示该英语拼写获认定为马来语规范颜色词。参见 [DBP 英马词典](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=brown) 与 [DBP 颜色用语说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=brown)。",
+      "collocations": [
+        {
+          "ms": "warna brown",
+          "zh": "棕色（混合语码）",
+          "en": "the colour brown"
+        },
+        {
+          "ms": "kasut brown",
+          "zh": "棕色鞋子（混合语码）",
+          "en": "brown shoes"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "棕色；作为颜色名称使用。",
+      "en_definition": "The colour brown.",
+      "ms_definition": "Warna coklat atau perang sebagai nama warna.",
+      "nuances": "在选购衣物和讨论配色时，可直接把 brown 当颜色名称使用；完整的规范马来语表达可写 warna coklat。此义与形容词义的区别在于句中功能。",
+      "collocations": [
+        {
+          "ms": "pilih brown",
+          "zh": "选择棕色（混合语码）",
+          "en": "choose brown"
+        },
+        {
+          "ms": "padanan brown dengan putih",
+          "zh": "棕色与白色的搭配（混合语码）",
+          "en": "a combination of brown and white"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "把食物煎、烤或炒至呈棕色；使食物表面上色。",
+      "en_definition": "To make food brown by cooking, especially its surface.",
+      "ms_definition": "Memasak makanan sehingga permukaannya menjadi perang.",
+      "nuances": "这是英语动词义，可见于英语食谱和夹用英语的烹饪说明；规范马来语宜用 memerangkan 或 masak sehingga perang。上色不等于烧焦，也不保证食物内部已熟。参见 [DBP 英马词典](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=brown)。",
+      "collocations": [
+        {
+          "ms": "brown daging",
+          "zh": "把肉煎至表面上色（混合语码）",
+          "en": "brown the meat"
+        },
+        {
+          "ms": "brown bawang",
+          "zh": "把洋葱炒至呈棕色（混合语码）",
+          "en": "brown the onions"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam katalog bahasa Melayu, label warna \"brown\" hendaklah diterjemahkan sebagai \"coklat\".",
+      "zh": "在马来文商品目录中，颜色标签“brown”应译为“coklat”。",
+      "en": "In the Malay-language catalogue, the colour label \"brown\" should be translated as \"coklat\"."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak kasut brown tu je.",
+      "ms_standard": "Saya mahu kasut berwarna coklat itu sahaja.",
+      "zh": "我就要那双棕色的鞋。",
+      "en": "I just want those brown shoes.",
+      "spoken_features": [
+        "brown 是英语颜色词的语码夹用；规范对应词为 coklat 或 perang。",
+        "nak 对应 mahu，tu 对应 itu，je 对应 sahaja。",
+        "aku 适合熟人之间，正式交流可改用 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Kasut brown tu ada lagi kat kedai ke?",
+          "ms_standard": "Adakah kasut berwarna coklat itu masih ada di kedai?",
+          "zh": "店里还有那双棕色的鞋吗？",
+          "en": "Does the shop still have those brown shoes?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ada lagi. Kalau kau nak, aku boleh tanya saiz dulu.",
+          "ms_standard": "Masih ada. Jika kamu mahu, saya boleh bertanya tentang saiznya dahulu.",
+          "zh": "还有。你要的话，我可以先帮你问问尺码。",
+          "en": "Yes. If you want them, I can check the sizes first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English brown continues Old English brūn and belongs to a Germanic family that includes German braun and Dutch bruin. In Malaysian mixed speech, it functions as an English colour label alongside Malay coklat and perang. Its history is unrelated to kulit, the Malay word for skin. See [Oxford University Press](https://blog.oup.com/2014/09/brown-etymology-word-origin-part-1/).",
+    "cognitive_memory_aid": "把 brown /braʊn/ 和一双棕色鞋联系起来：kasut brown；正式马来语换成 kasut berwarna coklat。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "购物聊天中夹用 brown 很自然，但面向公众的正式马来文宜用 coklat 或 perang；英语颜色名称本身不表示更专业。",
+    "usage_etiquette": "适合谈衣物、家具、配色和烹饪。描述人的肤色时应尊重对方，避免把颜色词当作族群标签或用来评价肤色高低。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "购物聊天中夹用 brown 很自然，但面向公众的正式马来文宜用 coklat 或 perang；英语颜色名称本身不表示更专业。",
+    "usage_etiquette": "适合谈衣物、家具、配色和烹饪。描述人的肤色时应尊重对方，避免把颜色词当作族群标签或用来评价肤色高低。"
+  }
+}

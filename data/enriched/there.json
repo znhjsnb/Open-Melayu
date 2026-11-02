@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "there",
+    "syllables": null,
+    "ipa": "/ðeə(r)/",
+    "jawi": null,
+    "frequency_rank": 2689,
+    "status": "foreign",
+    "language": "en"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "there",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + there → there",
+    "pattern_note": "英语整词，不按马来语词缀拆分。th 表示 /ð/；此处音标为英式强读形式。马来语地点义对应 di sana 或 di situ。",
+    "word_family": [
+      {
+        "word": "thereabouts",
+        "affix": "复合构词：there + about + -s",
+        "gloss": "在那附近；大约"
+      },
+      {
+        "word": "thereafter",
+        "affix": "复合构词：there + after",
+        "gloss": "此后"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "在那里；往那里；也可指在所说的某一点或某方面。",
+      "en_definition": "In, at, or to that place; also, at that point or in that respect.",
+      "ms_definition": "Di sana, di situ atau ke sana; secara kiasan, pada perkara atau tahap yang dimaksudkan.",
+      "nuances": "这是英语词，不是标准马来语词条。下列 ms 搭配提供标准马来语对应表达。地点义 there 常重读，不能与 their 或 they're 混淆。词义及历史见 [Etymonline：there](https://www.etymonline.com/word/there)。",
+      "collocations": [
+        {
+          "ms": "di sana",
+          "zh": "在那边",
+          "en": "over there"
+        },
+        {
+          "ms": "dari sana",
+          "zh": "从那里",
+          "en": "from there"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "用于英语存在句，引出某人、某物或某事的存在；本身不表示“那里”。",
+      "en_definition": "A grammatical subject introducing the existence or occurrence of something.",
+      "ms_definition": "Unsur tatabahasa Inggeris yang memperkenalkan kewujudan atau berlakunya sesuatu, lazimnya sepadan dengan ada atau terdapat.",
+      "nuances": "此处借用 particle 栏位容纳英语的虚主语功能；严格语法名称为 existential there 或 dummy subject。它不是马来语助词。参见 [British Council：dummy subjects](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/it-there-dummy-subjects)。",
+      "collocations": [
+        {
+          "ms": "ada masalah",
+          "zh": "有一个问题",
+          "en": "there is a problem"
+        },
+        {
+          "ms": "terdapat beberapa pilihan",
+          "zh": "有几个选择",
+          "en": "there are several options"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "用于英语呼语或感叹，吸引注意、表示满意或安慰；重复形式 there, there 可用于安抚。",
+      "en_definition": "An exclamation used to draw attention, express satisfaction, or offer reassurance.",
+      "ms_definition": "Seruan bahasa Inggeris untuk menarik perhatian, menyatakan kepuasan atau menenangkan seseorang.",
+      "nuances": "实际词类为英语感叹词，此处归入给定类别中的 particle。语气决定是否亲切；there, there 对成年人有时显得居高临下。对应表达须按语境选择，不能逐字译作那里。",
+      "collocations": [
+        {
+          "ms": "sudah, jangan menangis",
+          "zh": "好啦，别哭了",
+          "en": "there, there, don't cry"
+        },
+        {
+          "ms": "nah, sudah siap",
+          "zh": "好，完成了",
+          "en": "there, it's done"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场 / 翻译用语说明",
+      "ms": "Dalam terjemahan laporan ini, perkataan Inggeris \"there\" merujuk kepada lokasi tersebut dan diterjemahkan sebagai \"di sana\".",
+      "zh": "在本报告的翻译中，英语词 there 指该地点，译作 di sana。",
+      "en": "In this report's translation, the English word \"there\" refers to that location and is translated as \"di sana\"."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友解释英语消息",
+      "ms_spoken": "Dia tulis \"wait there\" je, tapi tak cakap tempat mana.",
+      "ms_standard": "Dia hanya menulis \"wait there\", tetapi tidak menyatakan tempat yang dimaksudkan.",
+      "zh": "他就写了句“在那儿等”，又没说到底在哪儿。",
+      "en": "He just wrote \"wait there\" without saying where.",
+      "spoken_features": [
+        "英语引语嵌入马来语对话",
+        "je 对应 sahaja",
+        "tak 对应 tidak"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Dia tulis \"wait there\" je. Kat mana kita nak tunggu?",
+          "ms_standard": "Dia hanya menulis \"wait there\". Di manakah kita hendak menunggu?",
+          "zh": "他就写了句“在那儿等”。我们到底要在哪儿等？",
+          "en": "He just wrote \"wait there\". Where are we supposed to wait?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kat pintu utama kot. Tanya dia dulu lah.",
+          "ms_standard": "Mungkin di pintu utama. Tanyalah dia terlebih dahulu.",
+          "zh": "大概在正门吧，先问问他啦。",
+          "en": "Probably at the main entrance. Ask him first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English there continues Old English þær, a word pointing to a particular place. Related forms survive in other Germanic languages, including Dutch daar and German da. Its grammatical use to introduce existence also reaches back to Old English. Neither use establishes it as an inherited Malay word. See [Etymonline：there](https://www.etymonline.com/word/there).",
+    "cognitive_memory_aid": "地点义记 here「这里」、there「那里」；看到 there is 或 there are，先想到「有」，不要机械翻成「那里」。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "英语夹杂是否合适取决于听者的语言习惯；需要所有人清楚理解时，可直接使用 di sana、di situ 或 ada。",
+    "usage_etiquette": "词频包中的出现次数不能证明它是马来语官方词。正式马来语中可引用 there 讨论英语，但表达地点时应使用相应马来语词语。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "英语夹杂是否合适取决于听者的语言习惯；需要所有人清楚理解时，可直接使用 di sana、di situ 或 ada。",
+    "usage_etiquette": "词频包中的出现次数不能证明它是马来语官方词。正式马来语中可引用 there 讨论英语，但表达地点时应使用相应马来语词语。"
+  }
+}
