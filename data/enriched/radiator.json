@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "radiator",
+    "syllables": "ra.dia.tor",
+    "ipa": "/radiator/",
+    "jawi": "راديا‌تور",
+    "frequency_rank": 13965,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "radiator",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + radiator → radiator",
+    "pattern_note": "作为完整技术借词记忆；现代马来语中不把结尾 -tor 分析为本族词缀。搭配如 kipas radiator 属于名词组合，不是派生词。",
+    "word_family": [],
+    "root_jawi": "راديا‌تور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "发动机散热器：借助循环冷却液与气流，把汽车等发动机产生的多余热量散发出去的装置。",
+      "en_definition": "A device that removes excess engine heat by cooling circulating liquid with airflow.",
+      "ms_definition": "Alat untuk menyejukkan enjin kereta dan sebagainya dengan menggunakan air yang beredar dan kipas.",
+      "nuances": "这是数据包及《Kamus Dewan》给出的核心义。中文汽车口语常称“水箱”，但它不等于储存备用冷却液的膨胀壶；马来语日常车辆语境通常指发动机散热器。[DBP 核心释义](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=radiator)",
+      "collocations": [
+        {
+          "ms": "kipas radiator",
+          "zh": "散热器风扇",
+          "en": "radiator fan"
+        },
+        {
+          "ms": "hos radiator",
+          "zh": "散热器软管",
+          "en": "radiator hose"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "向周围环境释放热量的散热装置；在供暖语境中，指用于加热室内或车内空气的暖气装置。",
+      "en_definition": "A heat-emitting device, including a unit used to heat a room or vehicle interior.",
+      "ms_definition": "Peranti, unit atau permukaan yang membebaskan haba ke ruang sekeliling, termasuk peranti untuk memanaskan ruang dalaman.",
+      "nuances": "这是 DBP 工程术语中的扩展义，释文为术语释义的概括。应通过 bilik、pemanasan 等上下文与发动机散热器区分；以下搭配用于明确该义。[DBP 工程术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=radiator)",
+      "collocations": [
+        {
+          "ms": "radiator pemanasan",
+          "zh": "供暖散热器",
+          "en": "heating radiator"
+        },
+        {
+          "ms": "radiator bilik",
+          "zh": "房间暖气片",
+          "en": "room radiator"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "天线中用于辐射电磁波的部分，即辐射元件。",
+      "en_definition": "The part of an antenna that radiates electromagnetic waves.",
+      "ms_definition": "Bahagian antena yang memancarkan gelombang elektromagnet.",
+      "nuances": "限于天线及电磁工程语境，不能按汽车“水箱”义理解。以下为说明性的技术搭配，未核实使用频率。[DBP 工程术语](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=radiator)",
+      "collocations": [
+        {
+          "ms": "radiator antena",
+          "zh": "天线辐射元件",
+          "en": "antenna radiator"
+        },
+        {
+          "ms": "radiator dipol",
+          "zh": "偶极辐射元件",
+          "en": "dipole radiator"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 车辆维修报告",
+      "ms": "Pemeriksaan mendapati bahawa kebocoran pada radiator menyebabkan paras cecair penyejuk menurun.",
+      "zh": "检查发现，散热器漏液导致冷却液液位下降。",
+      "en": "The inspection found that a radiator leak had caused the coolant level to fall."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 车辆故障沟通",
+      "ms_spoken": "Radiator kereta aku bocor lah. Aku nak hantar ke bengkel.",
+      "ms_standard": "Radiator kereta saya bocor. Saya hendak menghantar kereta itu ke bengkel.",
+      "zh": "我的车水箱漏了，我打算送去修车厂。",
+      "en": "My car's radiator is leaking. I'm taking it to the workshop.",
+      "spoken_features": [
+        "aku 用于熟人之间",
+        "lah 表达说话者的语气",
+        "nak 对应 hendak",
+        "口语省略后句中可由上下文恢复的宾语 kereta"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Radiator kereta aku dah bocor. Aku nak hantar ke bengkel.",
+          "ms_standard": "Radiator kereta saya sudah bocor. Saya hendak menghantar kereta itu ke bengkel.",
+          "zh": "我的车水箱漏了，我打算送去修车厂。",
+          "en": "My car's radiator has sprung a leak. I'm taking it to the workshop."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau kat mana sekarang? Aku boleh tolong telefon bengkel tu.",
+          "ms_standard": "Kamu berada di mana sekarang? Saya boleh membantu menghubungi bengkel itu.",
+          "zh": "你现在在哪儿？我可以帮你打电话给那家修车厂。",
+          "en": "Where are you now? I can call the workshop for you."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Radiator belongs to an international technical vocabulary associated with radiate, whose history reaches Latin radiare, meaning to emit rays. Malay treats radiator as a complete technical word. DBP records engine cooling as its everyday dictionary meaning and also lists engineering senses involving heat emission and antennas. A precise Malay borrowing date is not established here. [Etymology](https://www.etymonline.com/word/radiator), [DBP](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=radiator)",
+    "cognitive_memory_aid": "按 ra-dia-tor 认词，想象热量向外散开：汽车里帮助发动机散热，供暖系统里把热量送进房间。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与维修人员交流时，可说 Boleh tolong periksa radiator?，意思是“可以帮忙检查散热器吗？”。",
+    "usage_etiquette": "车辆维修中可直接使用 radiator。描述故障时区分散热器、风扇和软管；若说“水箱漏了”，应让对方检查具体漏液位置。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与维修人员交流时，可说 Boleh tolong periksa radiator?，意思是“可以帮忙检查散热器吗？”。",
+    "usage_etiquette": "车辆维修中可直接使用 radiator。描述故障时区分散热器、风扇和软管；若说“水箱漏了”，应让对方检查具体漏液位置。"
+  }
+}

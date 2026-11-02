@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "volt",
+    "syllables": "vot",
+    "ipa": "/vot/",
+    "jawi": "ۏول ت",
+    "frequency_rank": 13920,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "volt",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + volt → volt",
+    "pattern_note": "国际科学单位整词借入。依输入及 DBP 的 [vot] 标音，读作单音节，书写中的 l 不单独发音；所给 Jawi 字符及空格原样保留。",
+    "word_family": [
+      {
+        "word": "kilovolt",
+        "affix": "kilo-",
+        "gloss": "千伏，等于一千伏特"
+      },
+      {
+        "word": "milivolt",
+        "affix": "mili-",
+        "gloss": "毫伏，等于千分之一伏特"
+      }
+    ],
+    "root_jawi": "ۏول ت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "伏特：电势、电势差及电动势的国际单位制导出单位，符号 V；一伏特等于一焦耳每库仑。",
+      "en_definition": "The SI derived unit of electric potential, potential difference and electromotive force, equal to one joule per coulomb; symbol V.",
+      "ms_definition": "Unit terbitan SI bagi keupayaan elektrik, beza keupayaan dan daya gerak elektrik, bersimbol V; satu volt bersamaan satu joule per coulomb.",
+      "nuances": "DBP 收录此词并标音 [vot]。输入释义中的 tenaga elektrik 不宜直接当作严格物理定义：volt 衡量电势差等量，能量单位则是 joule。马来语数字后单位名称不加英语复数 -s。[DBP：volt](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=volt)；[IUPAC：volt](https://goldbook.iupac.org/terms/view/V06634)",
+      "collocations": [
+        {
+          "ms": "bateri sembilan volt",
+          "zh": "九伏电池",
+          "en": "a nine-volt battery"
+        },
+        {
+          "ms": "beza keupayaan satu volt",
+          "zh": "一伏特的电势差",
+          "en": "a potential difference of one volt"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "实验报告 / 技术说明",
+      "ms": "Beza keupayaan antara kedua-dua terminal bateri itu ialah sembilan volt.",
+      "zh": "该电池两端之间的电势差为九伏特。",
+      "en": "The potential difference between the battery's two terminals is nine volts."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友购买电池",
+      "ms_spoken": "Alat ni pakai bateri sembilan volt, kan?",
+      "ms_standard": "Alat ini menggunakan bateri sembilan volt, bukan?",
+      "zh": "这东西用九伏电池，对吧？",
+      "en": "This device takes a nine-volt battery, right?",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略形式",
+        "pakai 在此口语中表示使用",
+        "kan 用于请求确认",
+        "je 是 sahaja 的口语形式"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak beli bateri untuk alat ni. Sembilan volt, kan?",
+          "ms_standard": "Saya hendak membeli bateri untuk alat ini. Bateri sembilan volt, bukan?",
+          "zh": "我想给这东西买电池，是九伏的吧？",
+          "en": "I'm getting a battery for this device. It takes a nine-volt one, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, sembilan volt. Beli satu je, cukup.",
+          "ms_standard": "Ya, bateri sembilan volt. Beli satu sahaja; itu sudah mencukupi.",
+          "zh": "对，九伏的，买一节就够了。",
+          "en": "Yes, nine volts. Just get one; that's enough."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The volt honours Alessandro Volta, the Italian physicist associated with the invention of the first battery. The unit received his name in 1881. Malay uses the same international unit name, connecting classroom measurements with the history of electrical science. The name is written volt, while its symbol is the capital letter V. [MIT: Alessandro Volta](https://lemelson.mit.edu/resources/alessandro-volta); [NIST: electrical units](https://www.nist.gov/pml/owm/si-units-electric-current)",
+    "cognitive_memory_aid": "volt 就是“伏特”，记住大写 V。把电压想成推动电荷的压力：volt 量电势差，ampere 量电流，watt 量功率。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性技术用语，无特殊敬语限制；向非专业人士解释时，可先说 volt ialah unit voltan。",
+    "usage_etiquette": "完整单位名写 volt，单位符号写 V，例如 9 V。讲解时应区分 volt、ampere 和 watt，避免混用电压、电流与功率。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性技术用语，无特殊敬语限制；向非专业人士解释时，可先说 volt ialah unit voltan。",
+    "usage_etiquette": "完整单位名写 volt，单位符号写 V，例如 9 V。讲解时应区分 volt、ampere 和 watt，避免混用电压、电流与功率。"
+  }
+}

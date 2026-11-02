@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "ditunggu",
+    "syllables": null,
+    "ipa": "/di.tuŋ.ɡu/",
+    "jawi": null,
+    "frequency_rank": 13917,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tunggu",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + tunggu → ditunggu",
+    "pattern_note": "di- 是被动动词前缀，与 tunggu 连写；不触发词根首辅音变化，也不表示过去时。输入将 ditunggu 判为词根有误，已更正为 tunggu；root_jawi 据词典补为 توڠݢو。与主动形式 menunggu 相比，di- 后保留词根 t。输入未提供完整词形爪夷文及音节，相关字段保留 null。",
+    "word_family": [
+      {
+        "word": "menunggu",
+        "affix": "meN-",
+        "gloss": "等待；守候"
+      },
+      {
+        "word": "penunggu",
+        "affix": "peN-",
+        "gloss": "看守者；守候者；传说中的驻地精灵"
+      },
+      {
+        "word": "tertunggu-tunggu",
+        "affix": "ter- + 重叠",
+        "gloss": "一直盼望；久久等待"
+      }
+    ],
+    "root_jawi": "توڠݢو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被等待、被等候或受到期盼；主语是等待者所等的人、事物或事件。",
+      "en_definition": "To be waited for, awaited, or anticipated.",
+      "ms_definition": "Dinanti oleh seseorang, sama ada ketibaan seseorang, penerimaan sesuatu atau berlakunya sesuatu peristiwa.",
+      "nuances": "是 tunggu 的被动形式，不自带完成或过去意义。masih ditunggu 表示仍在等待，sedang ditunggu 表示正在等候。第一、第二人称施事在规范表达中通常用 saya tunggu、awak tunggu，如 Keputusan itu masih saya tunggu。词根义项参见 [PRPM：tunggu](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tunggu)。",
+      "collocations": [
+        {
+          "ms": "keputusan yang ditunggu",
+          "zh": "所等待的结果",
+          "en": "the awaited result"
+        },
+        {
+          "ms": "kepulangan yang ditunggu",
+          "zh": "所盼望的归来",
+          "en": "the awaited return"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "受到看守、照看或守护；指房屋、病人等有人留守或照料。",
+      "en_definition": "To be watched over, guarded, or attended to.",
+      "ms_definition": "Dijaga atau diawasi oleh seseorang supaya selamat atau supaya keperluannya dapat diperhatikan.",
+      "nuances": "须由宾语和情境辨义：rumah itu tidak ditunggu orang 可指房屋无人看守，不能机械理解为“没有人等那间屋子”。照护语境也常用 dijaga 或 ditunggui。此义依据 [PRPM：tunggu](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tunggu)，马来语释义为整理释义。",
+      "collocations": [
+        {
+          "ms": "rumah yang ditunggu",
+          "zh": "有人看守的房屋",
+          "en": "a house that is watched over"
+        },
+        {
+          "ms": "pesakit yang ditunggu keluarganya",
+          "zh": "由家属陪护的病人",
+          "en": "a patient attended by family members"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被居住或盘踞；较少见，常见于文学或民间传说中对某处有居民、动物或精灵驻留的描述。",
+      "en_definition": "To be inhabited or occupied, especially in literary or folkloric descriptions.",
+      "ms_definition": "Didiami atau dihuni oleh manusia, haiwan atau makhluk yang disebut dalam sesuatu cerita atau kepercayaan.",
+      "nuances": "现代一般说明文通常用 didiami 或 dihuni 更明确；涉及精灵时只是在转述故事或信仰。此为词根“居住、占据”义的被动用法，参见 [PRPM：tunggu](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tunggu)。",
+      "collocations": [
+        {
+          "ms": "pondok yang ditunggu orang tua itu",
+          "zh": "那位老人居住的棚屋",
+          "en": "the hut inhabited by the elderly person"
+        },
+        {
+          "ms": "tempat yang dipercayai ditunggu jin",
+          "zh": "据说有精灵盘踞的地方",
+          "en": "a place believed to be inhabited by spirits"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Keputusan rasmi masih ditunggu oleh pihak pengurusan sebelum tindakan selanjutnya diambil.",
+      "zh": "管理方仍在等待正式结果，然后才会采取后续行动。",
+      "en": "Management is still awaiting the official result before taking further action."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bas yang ditunggu tu dah sampai ke?",
+      "ms_standard": "Adakah bas yang sedang ditunggu itu sudah tiba?",
+      "zh": "等的那辆巴士到了吗？",
+      "en": "Has the bus you're waiting for arrived yet?",
+      "spoken_features": [
+        "口语常直接说 Bas dah sampai ke?；需要明确“所等的那辆”时可保留 yang ditunggu。",
+        "tu 对应 itu；dah 对应 sudah。",
+        "句末 ke 表示疑问，施事由对话情境补足。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bas yang ditunggu tu dah sampai ke?",
+          "ms_standard": "Adakah bas yang sedang ditunggu itu sudah tiba?",
+          "zh": "等的那辆巴士到了吗？",
+          "en": "Has the bus you're waiting for arrived yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi. Aku masih kat hentian ni.",
+          "ms_standard": "Belum. Saya masih berada di hentian ini.",
+          "zh": "还没呢，我还在这个车站。",
+          "en": "Not yet. I'm still at the bus stop."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ditunggu belongs to the Malay family built around tunggu. Dictionary meanings connect waiting with remaining present: someone may await an arrival, watch over a house, or occupy a place. The passive prefix di shifts attention to the person or thing affected. This explains why the same form can describe both an awaited guest and a guarded house. [PRPM: tunggu](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tunggu).",
+    "cognitive_memory_aid": "di- 记作“被”，tunggu 记作“等、守”：ditunggu 就是“被等候”或“有人守着”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "职场中 Maklum balas tuan/puan amat dinanti-nantikan 比孤立的 Jawapan ditunggu 更显尊重和期待。使用被动式可以突出待办事项，但催办是否礼貌仍取决于措辞与期限。",
+    "usage_etiquette": "公文催办宜说明对象和时间，如 Maklum balas pihak tuan/puan diharapkan sebelum hari Jumaat。描述照护时应明确是谁在陪护；民间传说中的精灵用法应注明 dipercayai 或 menurut cerita。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "职场中 Maklum balas tuan/puan amat dinanti-nantikan 比孤立的 Jawapan ditunggu 更显尊重和期待。使用被动式可以突出待办事项，但催办是否礼貌仍取决于措辞与期限。",
+    "usage_etiquette": "公文催办宜说明对象和时间，如 Maklum balas pihak tuan/puan diharapkan sebelum hari Jumaat。描述照护时应明确是谁在陪护；民间传说中的精灵用法应注明 dipercayai 或 menurut cerita。"
+  }
+}

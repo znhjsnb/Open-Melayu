@@ -1,0 +1,138 @@
+{
+  "headword": {
+    "word": "dihuni",
+    "syllables": null,
+    "ipa": "/di.hu.ni/",
+    "jawi": null,
+    "frequency_rank": 13881,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "huni",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + huni → dihuni",
+    "pattern_note": "被动前缀 di- 直接接 huni，不改变词根发音；其中 i 属于词根，不是后缀。动词前缀 di- 连写，介词 di 表示地点时分写。爪夷文字段沿用原包的 null。",
+    "word_family": [
+      {
+        "word": "menghuni",
+        "affix": "meN-",
+        "gloss": "居住于；栖居于"
+      },
+      {
+        "word": "penghuni",
+        "affix": "peN-",
+        "gloss": "住户；居住者"
+      },
+      {
+        "word": "berhuni",
+        "affix": "ber-",
+        "gloss": "有人居住"
+      },
+      {
+        "word": "berpenghuni",
+        "affix": "ber- + peN-",
+        "gloss": "有住户；有居住者"
+      },
+      {
+        "word": "penghunian",
+        "affix": "peN-...-an",
+        "gloss": "居住；入住情况"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "有人居住；被人或其他生物作为居住、栖息的场所。",
+      "en_definition": "To be inhabited or lived in by people or other living creatures.",
+      "ms_definition": "Didiami atau diduduki oleh manusia atau hidupan lain sebagai tempat tinggal atau habitat.",
+      "nuances": "是 menghuni 的被动形式，主语通常为房屋、地区或栖息地，居住者可由 oleh 引出。它不表示拥有产权，也不自动表示军事占领。词义依据 [DBP：huni](https://prpm.dbp.gov.my/Cari1?d=102560&keyword=huni) 及 [DBP：dihuni 用例](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dihuni)。",
+      "collocations": [
+        {
+          "ms": "rumah yang dihuni",
+          "zh": "有人居住的房屋",
+          "en": "an inhabited house"
+        },
+        {
+          "ms": "tidak dihuni manusia",
+          "zh": "无人居住",
+          "en": "uninhabited by humans"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "有人留守或照看；指房屋、店铺等由人待在那里看守。",
+      "en_definition": "To be watched over or looked after by someone staying on the premises.",
+      "ms_definition": "Diawasi, dijaga atau ditunggui oleh seseorang yang berada di tempat berkenaan.",
+      "nuances": "对应 menghuni 的“看守、留守”义，较少见，须由上下文确认；一般现代表达用 dijaga 或 ditunggui 更清楚。此为根据 [DBP：menghuni 第二义](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=menghuni) 推导的被动用法，以下为示例组合，不声称是高频搭配。",
+      "collocations": [
+        {
+          "ms": "dihuni sementara oleh penjaga",
+          "zh": "暂由看守人留守",
+          "en": "temporarily watched over by a caretaker staying there"
+        },
+        {
+          "ms": "dihuni sepanjang ketiadaan pemiliknya",
+          "zh": "在主人离开期间有人留守",
+          "en": "watched over by someone staying there during the owner’s absence"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Menurut laporan pemeriksaan, bangunan itu tidak dihuni sejak tahun lalu.",
+      "zh": "根据检查报告，该建筑自去年起便无人居住。",
+      "en": "According to the inspection report, the building has been uninhabited since last year."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Rumah hujung jalan tu masih dihuni ke?",
+      "ms_standard": "Adakah rumah di hujung jalan itu masih dihuni?",
+      "zh": "路尾那间屋子现在还有人住吗？",
+      "en": "Does anyone still live in that house at the end of the road?",
+      "spoken_features": [
+        "tu：itu 的口语缩略",
+        "ke：句末疑问助词，对应标准语的 adakah",
+        "口语常用 ada orang tinggal；dihuni 在较规范的聊天表达中仍可使用"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Rumah hujung jalan tu masih dihuni ke?",
+          "ms_standard": "Adakah rumah di hujung jalan itu masih dihuni?",
+          "zh": "路尾那间屋子现在还有人住吗？",
+          "en": "Does anyone still live in that house at the end of the road?"
+        },
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Ya, ada keluarga baru pindah masuk minggu lepas. Aku nampak mereka kat situ semalam.",
+          "ms_standard": "Ya, sebuah keluarga baharu berpindah masuk pada minggu lepas. Saya melihat mereka di situ semalam.",
+          "zh": "有啊，上周有一家人搬进去了，我昨天还在那儿看到他们。",
+          "en": "Yes, a family moved in last week. I saw them there yesterday."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The word is formed transparently from huni and the passive prefix di-. Its family includes penghuni, an inhabitant, and berpenghuni, having inhabitants. Malay can therefore describe a place, the people living there and its occupancy through related forms. The older recorded sense of watching over premises also connects residence with someone’s continued presence. See [DBP](https://prpm.dbp.gov.my/Cari1?d=102560&keyword=huni).",
+    "cognitive_memory_aid": "把 huni 联想到 penghuni“住户”：rumah dihuni 就是“房子有人住”。di- 把镜头转向被居住的地方。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "介绍居民时可用 dihuni oleh beberapa keluarga 等中性表达；直接与住户交谈时，tinggal di sini 通常更亲切自然。",
+    "usage_etiquette": "适用于房屋、人口、环境及栖息地描述。tidak dihuni 只表示无人或无相关生物居住，不能据此认定房产无主、可自由进入，或地方具有灵异性质。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "介绍居民时可用 dihuni oleh beberapa keluarga 等中性表达；直接与住户交谈时，tinggal di sini 通常更亲切自然。",
+    "usage_etiquette": "适用于房屋、人口、环境及栖息地描述。tidak dihuni 只表示无人或无相关生物居住，不能据此认定房产无主、可自由进入，或地方具有灵异性质。"
+  }
+}

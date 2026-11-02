@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "udaranya",
+    "syllables": null,
+    "ipa": "/u.da.ra.ɲa/",
+    "jawi": "اودارا",
+    "frequency_rank": 13883,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "udara",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "udara + -nya → udaranya",
+    "pattern_note": "-nya 是附着成分，此处按字段归入 suffix，通常表示其、该处的。词根不变，ny 表示单个鼻音 /ɲ/；完整词形可分为 u.da.ra.nya。输入未提供音节字段，故保留 null；所给 Jawi اودارا 对应词根 udara，完整形式为 اوداراڽ。",
+    "word_family": [
+      {
+        "word": "udara",
+        "affix": null,
+        "gloss": "空气；空中空间"
+      },
+      {
+        "word": "berudara",
+        "affix": "ber-",
+        "gloss": "有空气；具有某种空气状况"
+      },
+      {
+        "word": "pengudaraan",
+        "affix": "peN-...-an",
+        "gloss": "通风；空气流通"
+      }
+    ],
+    "root_jawi": "اودارا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "该处的空气；与上文所指地点、房间或环境相关的空气。",
+      "en_definition": "The air of the place or environment referred to.",
+      "ms_definition": "Udara di tempat yang dirujuk, iaitu campuran pelbagai jenis gas yang terdapat di atas muka bumi.",
+      "nuances": "这是 udara 加 -nya 的组合义。-nya 常回指地点，如 Bilik itu udaranya pengap，意为那个房间空气闷；也可用于突出所谈地点的空气状况。空气温度、清新程度等通常仍属此义。词根释义参见 [DBP PRPM：udara](https://prpmv1.dbp.gov.my/Search.aspx?k=udara)。",
+      "collocations": [
+        {
+          "ms": "udaranya segar",
+          "zh": "那里的空气清新",
+          "en": "the air there is fresh"
+        },
+        {
+          "ms": "udaranya nyaman",
+          "zh": "那里的空气舒适宜人",
+          "en": "the air there is pleasantly cool"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "其上空的空间；在 ruang udaranya 等结构中指某国或地区的空域。",
+      "en_definition": "The aerial space associated with the referent, especially its airspace in ruang udaranya.",
+      "ms_definition": "Ruang di atas muka bumi yang berisi hawa dan dikaitkan dengan tempat atau wilayah yang dirujuk.",
+      "nuances": "空域意义通常用完整结构 ruang udaranya 表达。不能把所有 udaranya 都译成其领空；是否具有领空含义取决于国家、边界等上下文。",
+      "collocations": [
+        {
+          "ms": "ruang udaranya",
+          "zh": "其空域",
+          "en": "its airspace"
+        },
+        {
+          "ms": "menceroboh ruang udaranya",
+          "zh": "侵入其领空",
+          "en": "to intrude into its airspace"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Bilik mesyuarat itu tidak sesuai digunakan kerana udaranya pengap dan sistem pengudaraannya perlu diperiksa.",
+      "zh": "该会议室空气闷浊，通风系统需要检查，因此不宜使用。",
+      "en": "The meeting room is unsuitable for use because the air is stuffy and its ventilation system needs to be checked."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kat sini udaranya sejuk je, tak payah pasang kipas pun.",
+      "ms_standard": "Di sini udaranya sejuk, jadi kita tidak perlu memasang kipas.",
+      "zh": "这里空气凉凉的，连风扇都不用开。",
+      "en": "It's nice and cool here. We don't even need a fan.",
+      "spoken_features": [
+        "kat 对应 di，表示地点。",
+        "je 对应 sahaja，此处也使描述语气更轻松。",
+        "tak payah 表示不必；句末 pun 加强连……都的意思。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Kat sini udaranya sejuk je, tak payah pasang kipas pun.",
+          "ms_standard": "Di sini udaranya sejuk, jadi kita tidak perlu memasang kipas.",
+          "zh": "这里空气凉凉的，连风扇都不用开。",
+          "en": "It's nice and cool here. We don't even need a fan."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bestlah. Aku nak duduk kat luar kejap.",
+          "ms_standard": "Baguslah. Saya mahu duduk di luar sebentar.",
+          "zh": "真舒服。我想去外面坐一会儿。",
+          "en": "Lovely. I'm going to sit outside for a bit."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Udara belongs to the old Indic borrowing layer shared by Malay and Indonesian. The World Loanword Database links Indonesian udara to Sanskrit udāra, associated with height and rising mist or vapour. The form udaranya adds Malay -nya, allowing an inherited borrowing to refer naturally to the air of a particular place. [Source: WOLD](https://wold.clld.org/word/71261839604681227).",
+    "cognitive_memory_aid": "先读 udara＝空气，再接 nya＝其：udaranya segar，就是那里的空气很清新。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本身没有敬语或冒犯含义。评价别人家里空气不好时，可说 Rasanya agak pengap di sini（这里好像有点闷），语气更委婉。",
+    "usage_etiquette": "适合谈环境、旅行、室内舒适度及空气质量。-nya 需要可理解的所指；首次介绍地点时应先交代地点名称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本身没有敬语或冒犯含义。评价别人家里空气不好时，可说 Rasanya agak pengap di sini（这里好像有点闷），语气更委婉。",
+    "usage_etiquette": "适合谈环境、旅行、室内舒适度及空气质量。-nya 需要可理解的所指；首次介绍地点时应先交代地点名称。"
+  }
+}

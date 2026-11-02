@@ -1,0 +1,168 @@
+{
+  "headword": {
+    "word": "penafian",
+    "syllables": "pe.na.fian",
+    "ipa": "/pə.na.fi.an/",
+    "jawi": "ڤنافين",
+    "frequency_rank": 13884,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "nafi",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + nafi + -an → penafian",
+    "pattern_note": "peN- 在词根首音 n 前实现为 pe-，保留 nafi 的 n，不另加鼻音；末尾 i 与 -an 相接。输入音节串 pe.na.fian 原样保留，较细的音系划分可写作 pə.na.fi.an。",
+    "word_family": [
+      {
+        "word": "nafi",
+        "affix": null,
+        "gloss": "否认；否定"
+      },
+      {
+        "word": "menafikan",
+        "affix": "meN-...-kan",
+        "gloss": "否认；否定；剥夺"
+      },
+      {
+        "word": "dinafikan",
+        "affix": "di-...-kan",
+        "gloss": "被否认；被剥夺"
+      }
+    ],
+    "root_jawi": "نفي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "否认某项说法、指控或事实的行为；否认声明。",
+      "en_definition": "The act or a statement of denying an allegation, assertion or fact.",
+      "ms_definition": "Perihal atau perbuatan menafikan; penyangkalan.",
+      "nuances": "新闻和正式声明中常见。penafian 描述否认这一行为，本身不能证明指控属实或不实。核心释义见 [DBP PRPM：penafian](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=penafian)。",
+      "collocations": [
+        {
+          "ms": "membuat penafian",
+          "zh": "作出否认",
+          "en": "to issue a denial"
+        },
+        {
+          "ms": "penafian terhadap dakwaan",
+          "zh": "对有关指称的否认",
+          "en": "a denial of an allegation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "语法或逻辑上对命题、属性或意义的否定。",
+      "en_definition": "The grammatical or logical negation of a proposition, property or meaning.",
+      "ms_definition": "Perbuatan atau fungsi menidakkan makna sesuatu kata atau pernyataan.",
+      "nuances": "属于核心否认义的语言学用法。可讨论 tidak、bukan 等否定表达；不要与表示被动语态的 imbuhan di- 混淆。",
+      "collocations": [
+        {
+          "ms": "fungsi penafian",
+          "zh": "否定功能",
+          "en": "a negating function"
+        },
+        {
+          "ms": "unsur penafian",
+          "zh": "否定成分",
+          "en": "a negative element"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "说明责任、立场、保证或适用范围受到限制的声明；免责声明。",
+      "en_definition": "A disclaimer stating limits on responsibility, endorsement, warranties or applicability.",
+      "ms_definition": "Pernyataan yang menjelaskan batas tanggungjawab, jaminan, pendirian atau penggunaan sesuatu maklumat.",
+      "nuances": "常作网站、报告或影片的栏目标题，对应 disclaimer。此处马来语定义为用法释义整理，并非输入词典原句；该用法见 [DBP 语言咨询](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penafian)。",
+      "collocations": [
+        {
+          "ms": "pernyataan penafian",
+          "zh": "免责声明",
+          "en": "a disclaimer statement"
+        },
+        {
+          "ms": "penafian tanggungjawab",
+          "zh": "责任限制或免除声明",
+          "en": "a disclaimer of responsibility"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "对某人应有权利、机会或获得某项事物的资格的拒绝给予；剥夺。",
+      "en_definition": "The withholding or deprivation of a right, opportunity or access.",
+      "ms_definition": "Perbuatan tidak memberikan atau tidak membenarkan seseorang menikmati hak, peluang atau kemudahan tertentu.",
+      "nuances": "penafian hak 强调不让人享有权利，并非单纯口头否认该权利存在。译作 deprivation 时须依具体领域和宾语判断；DBP 亦列有这一对应用法。",
+      "collocations": [
+        {
+          "ms": "penafian hak",
+          "zh": "权利的剥夺",
+          "en": "the denial of rights"
+        },
+        {
+          "ms": "penafian akses kepada pendidikan",
+          "zh": "剥夺受教育的机会",
+          "en": "the denial of access to education"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak syarikat mengeluarkan penafian terhadap dakwaan bahawa data pelanggan telah dijual kepada pihak ketiga.",
+      "zh": "公司发表声明，否认曾将客户资料出售给第三方的指称。",
+      "en": "The company issued a denial of allegations that customer data had been sold to third parties."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau dah baca penafian kat laman tu ke?",
+      "ms_standard": "Adakah kamu sudah membaca pernyataan penafian di laman itu?",
+      "zh": "你看过那个网页上的免责声明了吗？",
+      "en": "Have you read the disclaimer on that page?",
+      "spoken_features": [
+        "dah 对应 sudah，kat 对应 di，tu 对应 itu。",
+        "句末 ke 是常见口语疑问标记。",
+        "penafian 保留正式名词形式，也可出现在轻松的聊天中。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kau dah baca penafian kat laman tu ke?",
+          "ms_standard": "Adakah kamu sudah membaca pernyataan penafian di laman itu?",
+          "zh": "你看过那个网页上的免责声明了吗？",
+          "en": "Have you read the disclaimer on that page?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah. Dia tulis maklumat tu untuk rujukan je.",
+          "ms_standard": "Sudah. Pernyataan itu menyebut bahawa maklumat tersebut hanya untuk rujukan.",
+          "zh": "看了。上面说那些资料仅供参考。",
+          "en": "Yes. It says the information is for reference only."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penafian combines Malay nominalising morphology with nafi, which Kamus Dewan identifies as an Arabic borrowing. The root centres on rejection and denial. Malay develops it into menafikan and penafian, showing how an imported root becomes part of a productive local word family used in statements, argument and grammatical explanation. [Source: DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=nafi).",
+    "cognitive_memory_aid": "记住 nafi＝否认；peN-...-an 把动作变成名词：penafian＝否认这件事，也可指一则否认声明。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式且中性，适合新闻、报告和机构说明。口头不同意他人时，直接宣布作出 penafian 显得生硬，可按关系改用 Saya kurang bersetuju（我不太同意）。",
+    "usage_etiquette": "谈争议时应明确是谁作出否认、否认什么。网站标题中的 penafian 应按免责声明理解；penafian hak 则涉及拒绝给予权利，须结合宾语判断。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式且中性，适合新闻、报告和机构说明。口头不同意他人时，直接宣布作出 penafian 显得生硬，可按关系改用 Saya kurang bersetuju（我不太同意）。",
+    "usage_etiquette": "谈争议时应明确是谁作出否认、否认什么。网站标题中的 penafian 应按免责声明理解；penafian hak 则涉及拒绝给予权利，须结合宾语判断。"
+  }
+}

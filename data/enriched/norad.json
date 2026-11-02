@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "norad",
+    "syllables": null,
+    "ipa": "/ˈnɔː.ræd/",
+    "jawi": null,
+    "frequency_rank": 13923,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "norad",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "机构名称缩略化 → NORAD / Norad（依所指机构确定）",
+    "pattern_note": "不是马来语词缀派生词。所列音标对应北美防空机构 NORAD 的英语读法；不能据此认定挪威机构 Norad 的本国语读法。小写输入本身无法消除指称歧义。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "北美航空航天防御司令部：美国与加拿大共同组成、负责北美航空航天预警、航空航天管制及海上预警的机构，缩写为 NORAD。",
+      "en_definition": "NORAD: the North American Aerospace Defense Command, a joint United States–Canadian defense organization.",
+      "ms_definition": "Akronim bagi North American Aerospace Defense Command, iaitu organisasi pertahanan bersama Amerika Syarikat dan Kanada yang menjalankan amaran aeroangkasa, kawalan aeroangkasa dan amaran maritim.",
+      "nuances": "规范写作 NORAD，通常见于国际新闻与防务报道；并非马来语普通名词。机构职责参见其[官方说明](https://www.norad.mil/About-NORAD/NORAD-Missions/)。",
+      "collocations": [
+        {
+          "ms": "kenyataan NORAD",
+          "zh": "北美航空航天防御司令部的声明",
+          "en": "a NORAD statement"
+        },
+        {
+          "ms": "operasi NORAD",
+          "zh": "北美航空航天防御司令部的行动",
+          "en": "NORAD operations"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "挪威发展合作署：负责管理挪威对外发展援助、提供专业意见并跟进援助成效的政府机构，名称写作 Norad。",
+      "en_definition": "Norad: the Norwegian Agency for Development Cooperation, which manages development assistance and provides specialist advice.",
+      "ms_definition": "Nama ringkas bagi Norwegian Agency for Development Cooperation, iaitu agensi kerajaan Norway yang mengurus bantuan pembangunan, memberikan nasihat kepakaran dan memantau hasil bantuan.",
+      "nuances": "机构采用 Norad 的拼写。援助、减贫及发展合作语境通常指此机构，不能与北美防空机构混同。输入没有上下文，因此保留两种解释。参见[机构介绍](https://www.norad.no/en/about-norad/about-norad/about-us/)。",
+      "collocations": [
+        {
+          "ms": "bantuan pembangunan Norad",
+          "zh": "挪威发展合作署的发展援助",
+          "en": "Norad development assistance"
+        },
+        {
+          "ms": "pembiayaan daripada Norad",
+          "zh": "挪威发展合作署提供的资助",
+          "en": "funding from Norad"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "国际新闻：介绍北美防务机构",
+      "ms": "North American Aerospace Defense Command (NORAD) ialah organisasi pertahanan bersama Amerika Syarikat dan Kanada.",
+      "zh": "北美航空航天防御司令部（NORAD）是美国与加拿大共同组成的防务机构。",
+      "en": "The North American Aerospace Defense Command (NORAD) is a joint United States–Canadian defense organization."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：朋友确认新闻中的机构名称",
+      "ms_spoken": "NORAD yang dalam berita tu buat apa sebenarnya?",
+      "ms_standard": "Apakah tugas sebenar NORAD yang disebut dalam berita itu?",
+      "zh": "新闻里那个 NORAD 到底是干什么的？",
+      "en": "What does that NORAD organization in the news actually do?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "buat apa 在此口语性地询问机构职能。",
+        "dah 对应 sudah，解释句中省略可由语境补出的成分。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah baca berita tu, tapi NORAD ni buat apa sebenarnya?",
+          "ms_standard": "Saya sudah membaca berita itu, tetapi apakah tugas sebenar NORAD?",
+          "zh": "那条新闻我看了，可这个 NORAD 到底是干什么的？",
+          "en": "I've read the story, but what does NORAD actually do?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Yang tu pantau ancaman udara kat Amerika Utara. Norad yang urus bantuan Norway tu lain, ya.",
+          "ms_standard": "NORAD itu memantau ancaman udara di Amerika Utara. Norad yang mengurus bantuan Norway ialah agensi yang berbeza.",
+          "zh": "那个监测北美的空中威胁。管理挪威援助的 Norad 是另一家机构哦。",
+          "en": "That one monitors air threats to North America. The Norad that manages Norwegian aid is a different agency."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "NORAD originally named the North American Air Defense Command, established in 1957. Its expanded name changed in 1981 to include aerospace, while the familiar acronym remained. Separately, Norway's development agency uses Norad. These institutional histories explain why a lowercase corpus token cannot identify the intended organization without context. [NORAD history](https://www.norad.mil/about-norad/norad-agreement/); [Norad history](https://www.norad.no/om-norad/om-norad/historie/).",
+    "cognitive_memory_aid": "把 NORAD 联想到“北美天空的雷达”；看到 Norway、援助或减贫，则想到另一家机构 Norad。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是机构名称，无须使用个人敬称；正式报道首次出现时宜写出全名，再附缩写。",
+    "usage_etiquette": "防务与发展援助属于不同语境，翻译前先确认所指机构，并保留其规范大小写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是机构名称，无须使用个人敬称；正式报道首次出现时宜写出全名，再附缩写。",
+    "usage_etiquette": "防务与发展援助属于不同语境，翻译前先确认所指机构，并保留其规范大小写。"
+  }
+}

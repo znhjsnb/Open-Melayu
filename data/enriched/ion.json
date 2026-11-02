@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "ion",
+    "syllables": "ion",
+    "ipa": "/i.on/",
+    "jawi": "اييون",
+    "frequency_rank": 13877,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ion",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ion → ion",
+    "pattern_note": "科学术语整词借入，无马来语词缀；读音中 i 与 o 分属相邻音节，输入包的 syllables 字段按原样保留。派生时，meN-、peN- 在元音前分别采用 meng-、peng-。",
+    "word_family": [
+      {
+        "word": "mengion",
+        "affix": "meN-",
+        "gloss": "变成离子"
+      },
+      {
+        "word": "mengionkan",
+        "affix": "meN-...-kan",
+        "gloss": "使电离；使变成离子"
+      },
+      {
+        "word": "pengionan",
+        "affix": "peN-...-an",
+        "gloss": "电离过程"
+      }
+    ],
+    "root_jawi": "اييون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "离子：带有净电荷的原子或原子团。",
+      "en_definition": "An atom or group of atoms carrying a net electric charge.",
+      "ms_definition": "Atom atau kumpulan atom yang bercas elektrik.",
+      "nuances": "化学、物理学术语。正离子称 kation，负离子称 anion；离子不等同于电子。ion hidrogen 等名称是本义下的术语组合，不另立普通词义。马来文释义据《Kamus Dewan》第四版展开缩写。[DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=ion)",
+      "collocations": [
+        {
+          "ms": "ion positif",
+          "zh": "正离子",
+          "en": "positive ion"
+        },
+        {
+          "ms": "ion negatif",
+          "zh": "负离子",
+          "en": "negative ion"
+        },
+        {
+          "ms": "ion hidrogen",
+          "zh": "氢离子",
+          "en": "hydrogen ion"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "实验报告：水样分析",
+      "ms": "Analisis makmal menunjukkan bahawa sampel air itu mengandungi ion natrium dan ion klorida.",
+      "zh": "实验室分析显示，该水样含有钠离子和氯离子。",
+      "en": "Laboratory analysis shows that the water sample contains sodium ions and chloride ions."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：同学讨论化学作业",
+      "ms_spoken": "Ion ni bercas positif ke negatif?",
+      "ms_standard": "Adakah ion ini bercas positif atau negatif?",
+      "zh": "这个离子带正电还是负电啊？",
+      "en": "Is this ion positively or negatively charged?",
+      "spoken_features": [
+        "ni 对应 ini。",
+        "ke 在口语选择问句中可对应 atau。",
+        "dah 对应 sudah；lah 在回复中加强解释语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Aku dah tengok rajah ni. Atom yang hilang satu elektron jadi ion positif ke?",
+          "ms_standard": "Saya sudah melihat rajah ini. Adakah atom yang kehilangan satu elektron menjadi ion positif?",
+          "zh": "我看了这张图。原子失去一个电子后，就变成正离子吗？",
+          "en": "I've looked at this diagram. Does an atom become a positive ion when it loses one electron?"
+        },
+        {
+          "speaker": "Wei Ming (同学)",
+          "ms_spoken": "Ya lah, kalau asalnya neutral, hilang satu elektron jadi ion bercas satu positif.",
+          "ms_standard": "Ya, jika atom itu pada asalnya neutral, kehilangan satu elektron menghasilkan ion dengan satu cas positif.",
+          "zh": "对呀，如果原来是中性原子，少了一个电子就带一个单位的正电荷。",
+          "en": "Yes. If the atom starts out neutral, losing one electron gives it a charge of plus one."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ion emerged from discussions between Michael Faraday and William Whewell about electrochemical terminology in 1834. Its Greek source means going, an apt image for charged species moving towards electrodes. Their correspondence reveals that naming was a practical concern: short, usable words were preferred over cumbersome alternatives. Malay uses ion as an established scientific term. [Faraday–Whewell correspondence](https://epsilon.ac.uk/view/faraday/letters/Faraday0716), [DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=ion)",
+    "cognitive_memory_aid": "把 ion 想成贴着“＋”或“－”标签的小粒子：原子或原子团一旦带净电荷，就是离子。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性的科学术语，无特殊敬语要求；向非专业听众解释时，可先说 zarah yang bercas elektrik，即带电粒子。",
+    "usage_etiquette": "适用于课堂、实验报告和技术交流；讨论具体物质时注明离子名称与电荷，避免只说 ion 而让对象不明。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性的科学术语，无特殊敬语要求；向非专业听众解释时，可先说 zarah yang bercas elektrik，即带电粒子。",
+    "usage_etiquette": "适用于课堂、实验报告和技术交流；讨论具体物质时注明离子名称与电荷，避免只说 ion 而让对象不明。"
+  }
+}

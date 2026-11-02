@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "honda",
+    "syllables": null,
+    "ipa": "/hon.da/",
+    "jawi": null,
+    "frequency_rank": 13914,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "honda",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Honda → Honda",
+    "pattern_note": "这是品牌专名，标准书写为 Honda，首字母大写；不能拆成马来语词缀和词根。无可靠的马来语派生词族，因此 word_family 留空。输入未提供音节和爪夷文，保留 null；IPA 表示马来语常见读法。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "本田：日本机动车品牌及相关企业的名称；在具体语境中也可代指该品牌的一辆汽车或摩托车。",
+      "en_definition": "Honda, a Japanese motor vehicle brand and company; by extension, a vehicle of that brand.",
+      "ms_definition": "Nama khas bagi jenama dan syarikat pengeluar kenderaan dari Jepun; juga merujuk kepada kenderaan berjenama tersebut mengikut konteks.",
+      "nuances": "属于专有名词，不是所有汽车或摩托车的通称。口语中的 Honda saya 可指“我的本田车”，车型须由上下文判断。本条马来语释义为编辑释义，并非 DBP 原文；status 按要求填写，不表示 DBP 已将该品牌审定为普通词。品牌及汽车用法可参见 [Honda Malaysia](https://www.honda.com.my/)。",
+      "collocations": [
+        {
+          "ms": "kereta Honda",
+          "zh": "本田汽车",
+          "en": "a Honda car"
+        },
+        {
+          "ms": "motosikal Honda",
+          "zh": "本田摩托车",
+          "en": "a Honda motorcycle"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Syarikat itu menghantar kereta Honda miliknya ke pusat servis untuk penyelenggaraan berkala.",
+      "zh": "该公司将其本田汽车送往维修中心进行定期保养。",
+      "en": "The company sent its Honda car to a service centre for scheduled maintenance."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Honda kau dah siap servis ke?",
+      "ms_standard": "Adakah kereta Honda kamu sudah selesai diservis?",
+      "zh": "你的本田保养好了吗？",
+      "en": "Is your Honda back from servicing yet?",
+      "spoken_features": [
+        "Honda 单独代指已知的本田汽车。",
+        "kau 是熟人之间的非正式第二人称。",
+        "dah 对应 sudah；句末 ke 表示疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Honda kau dah siap servis ke?",
+          "ms_standard": "Adakah kereta Honda kamu sudah selesai diservis?",
+          "zh": "你的本田保养好了吗？",
+          "en": "Is your Honda back from servicing yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Aku nak ambil kat bengkel petang ni.",
+          "ms_standard": "Sudah. Saya hendak mengambilnya di bengkel petang ini.",
+          "zh": "好了，我今天下午去修车厂拿车。",
+          "en": "Yes. I'm picking it up from the workshop this afternoon."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Honda takes its name from its founder, Soichiro Honda. The company was established in Hamamatsu, Japan, in 1948, following an earlier venture producing auxiliary bicycle engines. Its name subsequently travelled internationally with its products. In Malay, the brand name can identify a particular vehicle when the surrounding conversation makes the reference clear. [Honda company history](https://global.honda/en/about/history-digest/75years-history/chapter1/).",
+    "cognitive_memory_aid": "hon-da 对应熟悉的“本田”车标：听见 Honda，先想到品牌，再由上下文判断汽车还是摩托车。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "品牌名称本身没有敬语差别。与客户或不熟悉的人交流时，用 kereta Honda tuan/puan；Honda kau 适合关系熟悉且接受这种称呼的朋友。",
+    "usage_etiquette": "正式文件写 Honda，并按需要注明车型。谈论他人的车辆时，避免仅凭品牌推断其收入或社会地位。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "品牌名称本身没有敬语差别。与客户或不熟悉的人交流时，用 kereta Honda tuan/puan；Honda kau 适合关系熟悉且接受这种称呼的朋友。",
+    "usage_etiquette": "正式文件写 Honda，并按需要注明车型。谈论他人的车辆时，避免仅凭品牌推断其收入或社会地位。"
+  }
+}

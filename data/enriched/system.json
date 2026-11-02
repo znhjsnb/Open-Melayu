@@ -1,0 +1,151 @@
+{
+  "headword": {
+    "word": "system",
+    "syllables": null,
+    "ipa": "/ˈsɪs.təm/",
+    "jawi": null,
+    "frequency_rank": 13969,
+    "status": "foreign_spelling",
+    "validation_note": "system 是英语拼写；标准马来语对应形式为 sistem。输入的 syllables 值 various translations 不是音节数据，故改为 null。音标采用英语读音，爪夷文保留输入中的空值，排名仅沿用输入。参见 [DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)及 [Cambridge 发音](https://dictionary.cambridge.org/pronunciation/english/system)。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "system",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + system → system；马来语规范拼写对应：system → sistem",
+    "pattern_note": "在本条中按英语整词处理，不作马来语词缀拆解。system → sistem 是借词拼写适应，不是加词缀。下列词族属于对应的马来语词根 sistem。",
+    "word_family": [
+      {
+        "word": "bersistem",
+        "affix": "ber-",
+        "gloss": "有系统的；有条理的"
+      },
+      {
+        "word": "mensistemkan",
+        "affix": "meN-...-kan",
+        "gloss": "使系统化"
+      },
+      {
+        "word": "pensisteman",
+        "affix": "peN-...-an",
+        "gloss": "系统化过程"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "系统：相互关联、共同运作以完成某项功能的一组组成部分或设备。",
+      "en_definition": "A set of connected parts or devices that function together.",
+      "ms_definition": "Sekumpulan bahagian atau peranti yang saling berhubung dan berfungsi bersama untuk tujuan tertentu.",
+      "nuances": "本义解释英语 system；马来语规范词为 sistem。下列保留 system 的组合是语码混用示例，正式写作应分别写 sistem komputer、sistem pembayaran，并非推荐的标准搭配。释义参照 [Cambridge](https://dictionary.cambridge.org/us/dictionary/english/system)及 [DBP：sistem](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=sistem)，马来语为编辑改写。",
+      "collocations": [
+        {
+          "ms": "system komputer",
+          "zh": "计算机系统",
+          "en": "computer system"
+        },
+        {
+          "ms": "system pembayaran",
+          "zh": "支付系统",
+          "en": "payment system"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "生理系统：共同执行某项身体功能的一组器官或组织。",
+      "en_definition": "A group of organs or structures that perform a particular bodily function.",
+      "ms_definition": "Sekumpulan organ atau struktur tubuh yang bersama-sama menjalankan fungsi tertentu.",
+      "nuances": "属于英语 system 的生物学用法。标准马来语使用 sistem；下列混用形式应规范为 sistem saraf、sistem penghadaman。参见 [Cambridge](https://dictionary.cambridge.org/us/dictionary/english/system)及 [DBP：sistem](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=sistem)。",
+      "collocations": [
+        {
+          "ms": "system saraf",
+          "zh": "神经系统",
+          "en": "nervous system"
+        },
+        {
+          "ms": "system penghadaman",
+          "zh": "消化系统",
+          "en": "digestive system"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "制度；体系；成套方法：按照一定规则组织起来的做事方式或安排。",
+      "en_definition": "An organized method, set of rules, or institutional arrangement.",
+      "ms_definition": "Kaedah, aturan atau susunan yang teratur untuk melaksanakan sesuatu kegiatan.",
+      "nuances": "侧重规则和组织方式。标准马来语使用 sistem；下列混用形式应规范为 sistem pendidikan、sistem pemarkahan。参见 [Cambridge](https://dictionary.cambridge.org/us/dictionary/english/system)及 [DBP：sistem](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=sistem)。",
+      "collocations": [
+        {
+          "ms": "system pendidikan",
+          "zh": "教育制度",
+          "en": "education system"
+        },
+        {
+          "ms": "system pemarkahan",
+          "zh": "评分制度",
+          "en": "scoring system"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 翻译说明",
+      "ms": "Istilah bahasa Inggeris \"system\" dalam dokumen asal diterjemahkan sebagai \"sistem\" dalam laporan ini.",
+      "zh": "原文件中的英语术语 system 在本报告中译写为马来语 sistem。",
+      "en": "The English term \"system\" in the original document is rendered as \"sistem\" in this report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事交流",
+      "ms_spoken": "System tu dah boleh guna ke?",
+      "ms_standard": "Adakah sistem itu sudah boleh digunakan?",
+      "zh": "那个系统现在能用了吗？",
+      "en": "Is that system working now?",
+      "spoken_features": [
+        "system 保留英语拼写，体现语码混用",
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "句末 ke 表示口语疑问",
+        "口语 boleh guna 对应标准语 boleh digunakan"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同事)",
+          "ms_spoken": "System tu dah boleh guna ke? Aku nak hantar borang ni.",
+          "ms_standard": "Adakah sistem itu sudah boleh digunakan? Saya hendak menghantar borang ini.",
+          "zh": "那个系统能用了吗？我想交这张表。",
+          "en": "Is the system working now? I need to submit this form."
+        },
+        {
+          "speaker": "Hakim (同事)",
+          "ms_spoken": "Dah boleh. Cuba masuk semula, lepas tu hantar je.",
+          "ms_standard": "Sistem itu sudah boleh digunakan. Cuba log masuk semula, kemudian hantar borang tersebut.",
+          "zh": "能用了。重新登录一下，然后直接提交就行。",
+          "en": "Yes. Try logging in again, then go ahead and submit it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English system comes through Late Latin from Greek systēma, referring to a whole composed of parts. Malay uses the adapted spelling sistem, which DBP explicitly pairs with English system in its spelling guidance. The distinction is useful in Malaysian communication: the English spelling can appear during language mixing, while standard Malay writing uses sistem. [English origin](https://www.dictionary.com/browse/system); [Malay spelling](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)",
+    "cognitive_memory_aid": "记住“一组部分一起运作”：英语写 system，马来语写 sistem。把 y 换成 i，可帮助记住这一组拼写对应，但不是适用于所有借词的规则。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "内部聊天可随群体习惯混用英语；面向公众的马来语文件、考试和正式报告宜使用 sistem。",
+    "usage_etiquette": "引用英语原文、界面标签或专有名称时可保留 system。向不熟悉英语术语的人解释时，使用 sistem 并说明具体功能。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "内部聊天可随群体习惯混用英语；面向公众的马来语文件、考试和正式报告宜使用 sistem。",
+    "usage_etiquette": "引用英语原文、界面标签或专有名称时可保留 system。向不熟悉英语术语的人解释时，使用 sistem 并说明具体功能。"
+  }
+}

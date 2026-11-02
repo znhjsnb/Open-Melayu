@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "pastu",
+    "syllables": null,
+    "ipa": "/ˈpastu/",
+    "jawi": null,
+    "frequency_rank": 13864,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pastu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "lepas itu → lepas tu → pas tu → pastu",
+    "pattern_note": "是口语短语缩约，不是加词缀。lepas 省去首音节 le-，itu 缩为 tu，再连写。按输入作为独立检索词处理；is_root 不表示它没有可分析的来源。",
+    "word_family": [
+      {
+        "word": "lepas tu",
+        "affix": "∅；相关口语短语",
+        "gloss": "之后；然后"
+      },
+      {
+        "word": "selepas itu",
+        "affix": "se-；规范对应短语",
+        "gloss": "在那之后"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "然后；之后；表示某件事发生后，另一件事接着发生。",
+      "en_definition": "Then; after that; subsequently.",
+      "ms_definition": "Bentuk percakapan bagi lepas itu, yang bermaksud kemudian atau selepas sesuatu perkara berlaku.",
+      "nuances": "常见于马来西亚日常会话与聊天文字。正式书面语一般改用 kemudian 或 selepas itu。这里的马来文释义是对口语用法的规范表述，并非声称 DBP 为 pastu 提供了独立释文。[Hoogervorst：马来西亚半岛青年语言研究](https://tufs.repo.nii.ac.jp/record/1384/files/nusa5803.pdf)",
+      "collocations": [
+        {
+          "ms": "pastu kita pergi",
+          "zh": "然后我们去",
+          "en": "then we'll go"
+        },
+        {
+          "ms": "pastu baru tahu",
+          "zh": "之后才知道",
+          "en": "only found out after that"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "用于承接对方的话并追问“然后呢？”；特定语气下也表示“所以呢？”。",
+      "en_definition": "A conversational prompt meaning “and then?” or, with a challenging tone, “so?”",
+      "ms_definition": "Ungkapan percakapan untuk meminta sambungan cerita atau menanyakan maksud dan kesan sesuatu pernyataan.",
+      "nuances": "是“之后”在互动中的延伸。疑问语调可表示好奇；短促或冷淡的语气可能显得不耐烦、轻蔑或质疑。不能把每个 pastu 都机械译成带挑战意味的“所以呢”。",
+      "collocations": [
+        {
+          "ms": "pastu?",
+          "zh": "然后呢？",
+          "en": "and then?"
+        },
+        {
+          "ms": "ha, pastu?",
+          "zh": "嗯，接着呢？／所以呢？",
+          "en": "okay, then what? / so?"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场汇报；将 pastu 规范化为 selepas itu",
+      "ms": "Semua permohonan akan disemak terlebih dahulu. Selepas itu, keputusan akan dimaklumkan kepada pemohon melalui e-mel.",
+      "zh": "所有申请将先经过审核，之后再通过电子邮件通知申请人结果。",
+      "en": "All applications will be reviewed first. Applicants will then be notified of the outcome by email."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友安排见面",
+      "ms_spoken": "Kita makan dulu, pastu baru pergi sana lah.",
+      "ms_standard": "Kita makan dahulu, kemudian barulah kita pergi ke sana.",
+      "zh": "我们先吃饭，然后再过去吧。",
+      "en": "Let's eat first, then head over there.",
+      "spoken_features": [
+        "pastu 是 lepas itu 的缩约形式。",
+        "dulu 对应 dahulu；baru 在这里强调先后顺序。",
+        "lah 使提议更自然，去向词 sana 前的 ke 在口语中省略。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah sampai kat kedai. Nak makan dulu, pastu baru gerak?",
+          "ms_standard": "Saya sudah tiba di kedai. Mahukah kita makan dahulu, kemudian barulah bertolak?",
+          "zh": "我到店里了。要不要先吃点东西，然后再出发？",
+          "en": "I'm at the shop. Shall we eat first and head off after that?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh je. Aku sampai lagi lima minit, tunggu lah.",
+          "ms_standard": "Boleh. Saya akan tiba dalam masa lima minit lagi. Tolong tunggu sebentar.",
+          "zh": "可以啊。我还有五分钟就到，等我一下。",
+          "en": "Sure. I'll be there in five minutes. Hang on for me."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pastu compresses the familiar sequence lepas itu into a compact conversational connector. The initial syllable of lepas disappears, itu becomes tu, and the remaining pieces join together. Research on West Malaysian youth language documents this kind of shortening, showing how everyday speech supplies informal writing with forms that differ from classroom Malay.",
+    "cognitive_memory_aid": "把 lepas itu 越说越快：lepas tu → pas tu → pastu。意思始终接着往下走：“然后”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟人聊天中很自然，但正式邮件、申请书和面试回答宜用 kemudian 或 selepas itu。面对长辈或上司，单独一句 Pastu? 容易显得过于随便。",
+    "usage_etiquette": "想礼貌追问故事，可说 Selepas itu, apa yang berlaku?。朋友间使用 Pastu? 时，友善语调和上下文能减少“所以怎样？”式的挑衅感。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟人聊天中很自然，但正式邮件、申请书和面试回答宜用 kemudian 或 selepas itu。面对长辈或上司，单独一句 Pastu? 容易显得过于随便。",
+    "usage_etiquette": "想礼貌追问故事，可说 Selepas itu, apa yang berlaku?。朋友间使用 Pastu? 时，友善语调和上下文能减少“所以怎样？”式的挑衅感。"
+  }
+}

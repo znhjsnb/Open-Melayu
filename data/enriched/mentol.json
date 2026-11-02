@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "mentol",
+    "syllables": null,
+    "ipa": "/men.tol/",
+    "jawi": "مينتول",
+    "frequency_rank": 13915,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mentol",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mentol → mentol",
+    "pattern_note": "首音节为 e taling /e/，不是 e pepet /ə/。mentol 是不可按现代马来语词缀规则拆分的单纯词，输入中 men- + tol 的词根判定有误；root_word 和 root_jawi 据此更正。下列词族项目为复合词，并非加缀派生词。音节字段按输入保留 null。",
+    "word_family": [
+      {
+        "word": "mentol lampu",
+        "affix": "∅",
+        "gloss": "灯泡；复合词"
+      },
+      {
+        "word": "mentol tungsten",
+        "affix": "∅",
+        "gloss": "钨丝灯泡；复合词"
+      }
+    ],
+    "root_jawi": "مينتول"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "灯泡；传统上指玻璃外壳内装有金属灯丝、通电后发光的照明元件，现代用法也包括 LED 等替代型灯泡。",
+      "en_definition": "A light bulb, traditionally containing a filament inside a glass envelope; also a modern replacement bulb, such as an LED bulb.",
+      "ms_definition": "Komponen lampu yang menghasilkan cahaya apabila dibekalkan arus elektrik, secara tradisional berupa bebuli kaca yang mengandungi filamen logam.",
+      "nuances": "指灯泡这一部件，通常不指整套灯具。传统词典释义强调玻璃外壳和灯丝；mentol LED 属于现代技术语境中的延伸用法。马来语释义为据词典整理的释义，非逐字引文。灯泡义和薄荷醇义在 DBP 中分列为同形词：[PRPM：mentol](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mentol)。",
+      "collocations": [
+        {
+          "ms": "menukar mentol",
+          "zh": "更换灯泡",
+          "en": "to replace a light bulb"
+        },
+        {
+          "ms": "mentol tungsten",
+          "zh": "钨丝灯泡",
+          "en": "a tungsten-filament bulb"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "薄荷醇；具有薄荷气味、能产生清凉感的醇类化合物，用于药品、香料及调味产品。",
+      "en_definition": "Menthol, an alcohol with a minty smell and a cooling sensation, used in medicinal products, fragrances, and flavourings.",
+      "ms_definition": "Sebatian alkohol berbau pudina yang memberikan rasa sejuk dan digunakan sebagai ramuan ubat, pewangi serta bahan perisa.",
+      "nuances": "这是化学物质名称，与灯泡义不是同一事物。产品标签中的 kandungan mentol 指薄荷醇含量；不能一律将 mentol 译为“灯泡”。参见 [PRPM：menthol](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=MENTHOL) 及 [DBP 化学术语说明](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=pepermin)。",
+      "collocations": [
+        {
+          "ms": "mengandungi mentol",
+          "zh": "含有薄荷醇",
+          "en": "to contain menthol"
+        },
+        {
+          "ms": "kandungan mentol",
+          "zh": "薄荷醇含量",
+          "en": "menthol content"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan akan menggantikan semua mentol yang rosak di ruang pejabat.",
+      "zh": "管理方将更换办公区域内所有损坏的灯泡。",
+      "en": "Management will replace all faulty light bulbs in the office area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Mentol kat dapur dah putus lah.",
+      "ms_standard": "Mentol di dapur sudah putus.",
+      "zh": "厨房的灯泡烧了啦。",
+      "en": "The kitchen bulb's blown.",
+      "spoken_features": [
+        "kat 对应地点介词 di。",
+        "dah 对应 sudah。",
+        "句末 lah 增添随口告知的语气；putus 在此指灯泡失效。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (室友)",
+          "ms_spoken": "Mentol kat dapur dah putus lah.",
+          "ms_standard": "Mentol di dapur sudah putus.",
+          "zh": "厨房的灯泡烧了啦。",
+          "en": "The kitchen bulb's blown."
+        },
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Okey, nanti aku beli mentol baru kat kedai.",
+          "ms_standard": "Baiklah, nanti saya akan membeli mentol baharu di kedai.",
+          "zh": "好，我待会儿去店里买个新的。",
+          "en": "Okay, I'll get a new bulb from the shop later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries distinguish two words spelled mentol: the everyday lighting component and the mint-scented chemical. Their shared spelling offers a useful lesson in context: a workshop discussion suggests a bulb, while an ingredients label suggests menthol. The sources consulted establish these meanings but do not establish the historical origin of the lighting term. [PRPM dictionary entries](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mentol).",
+    "cognitive_memory_aid": "men-tol，先记“灯泡”；看到 ubat 或 perisa，再切换到“薄荷醇”。一个拼法，两种物品，靠搭配辨义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性词，家庭、商店和职场均可使用。请求更换灯泡时，Boleh tolong tukar mentol ini? 比直接命令更客气。",
+    "usage_etiquette": "购买灯泡时说明灯座规格、功率或型号；讨论配料时说 mentol dalam produk ini，以免与照明用品混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性词，家庭、商店和职场均可使用。请求更换灯泡时，Boleh tolong tukar mentol ini? 比直接命令更客气。",
+    "usage_etiquette": "购买灯泡时说明灯座规格、功率或型号；讨论配料时说 mentol dalam produk ini，以免与照明用品混淆。"
+  }
+}

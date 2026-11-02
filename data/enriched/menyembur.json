@@ -1,0 +1,168 @@
+{
+  "headword": {
+    "word": "menyembur",
+    "syllables": "me.nyem.bur",
+    "ipa": "/mə.ɲəm.bur/",
+    "jawi": "مڽمبور",
+    "frequency_rank": 13910,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sembur",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + sembur → menyembur",
+    "pattern_note": "词首 s 在 meN- 派生中脱落，并发生鼻音替代，形成 meny-；不是 meny- 加上完整的 sembur。输入包把派生词误判为词根，此处依 [DBP sembur 词条](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sembur)修正。",
+    "word_family": [
+      {
+        "word": "semburan",
+        "affix": "-an",
+        "gloss": "喷出的液体；喷流"
+      },
+      {
+        "word": "penyembur",
+        "affix": "peN-",
+        "gloss": "喷雾器；喷洒工具"
+      },
+      {
+        "word": "menyemburkan",
+        "affix": "meN-…-kan",
+        "gloss": "使液体等喷出；喷射某物"
+      }
+    ],
+    "root_jawi": "سمبور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "指水或其他物质向外喷出、喷涌。",
+      "en_definition": "To spurt, gush, or spray out.",
+      "ms_definition": "Keluar dengan memancut atau memancar.",
+      "nuances": "不及物用法，主语通常是喷出的物质，如 air。强调向外喷射，不只是缓慢流动。",
+      "collocations": [
+        {
+          "ms": "air menyembur keluar",
+          "zh": "水向外喷出",
+          "en": "water spurts out"
+        },
+        {
+          "ms": "menyembur dari paip",
+          "zh": "从水管喷出",
+          "en": "spurt from a pipe"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "在传统疗法中，配合念咒向病人喷吐液体或咀嚼物。",
+      "en_definition": "To treat someone by ritual spraying accompanied by incantations.",
+      "ms_definition": "Mengubati penyakit dengan jampi serta semburan.",
+      "nuances": "传统文化义，与 menyemburi 相通；是对习俗的描述，不表示疗效已经证实。",
+      "collocations": [
+        {
+          "ms": "menyembur pesakit",
+          "zh": "以念咒喷吐的传统方式为病人施治",
+          "en": "perform ritual spraying on a patient"
+        },
+        {
+          "ms": "menyembur dengan air sirih",
+          "zh": "喷吐蒌叶水施治",
+          "en": "perform ritual spraying with betel-leaf water"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "向物体或表面喷洒液体、油漆等。",
+      "en_definition": "To spray a surface or object with a substance.",
+      "ms_definition": "Memancarkan cat, air atau bahan lain pada sesuatu.",
+      "nuances": "及物用法可让被喷的表面作宾语：menyembur dinding dengan cat。若突出喷出的物质，可用 menyemburkan cat pada dinding。",
+      "collocations": [
+        {
+          "ms": "menyembur dinding dengan cat",
+          "zh": "向墙面喷漆",
+          "en": "spray a wall with paint"
+        },
+        {
+          "ms": "menyembur tanaman",
+          "zh": "喷洒作物",
+          "en": "spray crops"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "比喻突然以粗暴言语责骂、喝斥。",
+      "en_definition": "To lash out verbally or scold harshly.",
+      "ms_definition": "Menghamburkan kata-kata kasar atau makian.",
+      "nuances": "含强烈负面语气，不能当作普通的 menegur（提醒、规劝）。",
+      "collocations": [
+        {
+          "ms": "menyembur dengan kata-kata kasar",
+          "zh": "用粗话痛骂",
+          "en": "lash out with harsh words"
+        },
+        {
+          "ms": "menyembur orang bawahan",
+          "zh": "厉声责骂下属",
+          "en": "berate subordinates"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 设施事故通报",
+      "ms": "Air menyembur keluar dari paip utama yang pecah sebelum bekalan air ditutup.",
+      "zh": "供水关闭前，水从破裂的主管喷涌而出。",
+      "en": "Water gushed from the burst main before the water supply was shut off."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 邻居交流",
+      "ms_spoken": "Air kat luar dah menyembur keluar, cepat tutup paip tu!",
+      "ms_standard": "Air di luar sudah menyembur keluar. Segera tutup paip itu!",
+      "zh": "外面的水已经喷出来了，快把那水龙头关掉！",
+      "en": "Water's spraying everywhere outside—quick, turn off that tap!",
+      "spoken_features": [
+        "kat 对应 di，表示地点。",
+        "dah 对应 sudah；tu 对应 itu。",
+        "日常话语中可保留完整动词 menyembur。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Air kat luar dah menyembur keluar, cepat tutup paip tu!",
+          "ms_standard": "Air di luar sudah menyembur keluar. Segera tutup paip itu!",
+          "zh": "外面的水已经喷出来了，快把那水龙头关掉！",
+          "en": "Water's spraying everywhere outside—quick, turn off that tap!"
+        },
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Ya, aku nak tutup sekarang. Hos tu tercabut je.",
+          "ms_standard": "Ya, saya akan menutupnya sekarang. Hos itu hanya tercabut.",
+          "zh": "好，我现在就关。只是水管脱落了。",
+          "en": "Yeah, I'll turn it off now. The hose just came loose."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menyembur is formed within Malay from sembur. The dictionary preserves a cultural connection between spraying and traditional treatment involving betel preparations and incantations. The same word family also describes paint spraying and forceful streams of water. Its figurative scolding sense invites a useful comparison: angry words can burst outward like liquid. See [DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sembur).",
+    "cognitive_memory_aid": "把末尾 bur 想成水突然“噗”地冲出：menyembur，就是喷出来；怒话也能像水一样喷出来。此为联想，不是词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述喷水、喷漆时语气中性；形容别人 menyembur 时带批评意味。正式工作反馈宜具体描述其言语行为。",
+    "usage_etiquette": "谈传统施治时应尊重当事人的文化背景；谈责骂时避免在公开场合以该词羞辱对方。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述喷水、喷漆时语气中性；形容别人 menyembur 时带批评意味。正式工作反馈宜具体描述其言语行为。",
+    "usage_etiquette": "谈传统施治时应尊重当事人的文化背景；谈责骂时避免在公开场合以该词羞辱对方。"
+  }
+}
