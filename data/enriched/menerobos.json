@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "menerobos",
+    "syllables": "me.ne.ro.bos",
+    "ipa": "/mə.nə.ro.bos/",
+    "jawi": "منروبوس",
+    "frequency_rank": 9929,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "terobos",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + terobos → menerobos",
+    "pattern_note": "meN- 接以 t 开头的 terobos 时，词首 t 脱落，鼻音体现为 n。terobos 本身不能拆成 ter- + obos。数据包将 menerobos 标为词根，此处依据 DBP 的 terobos 词条纠正。",
+    "word_family": [
+      {
+        "word": "terobos",
+        "affix": null,
+        "gloss": "突破、穿透的词根形式"
+      },
+      {
+        "word": "penerobosan",
+        "affix": "peN-...-an",
+        "gloss": "突破；穿透；开拓"
+      }
+    ],
+    "root_jawi": "تروبوس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "穿透、冲破或穿越阻挡物、封锁线等而进入或到达另一侧；也可形容光线等穿入。",
+      "en_definition": "To penetrate, break through, or pass through an obstruction, barrier, or line.",
+      "ms_definition": "Menembusi atau merempuh sesuatu halangan untuk masuk atau sampai ke sebelah yang lain.",
+      "nuances": "着重跨越阻碍或穿透界面，不等于普通的 masuk（进入）；可用于人员行动，也可用于光线等，并非所有语境都含暴力意味。义项依据所给 DBP 释义整理；词根参见 [DBP：terobos](https://prpm.dbp.gov.my/cari1?keyword=terobos)。",
+      "collocations": [
+        {
+          "ms": "menerobos barisan musuh",
+          "zh": "突破敌军阵线",
+          "en": "break through enemy lines"
+        },
+        {
+          "ms": "menerobos masuk",
+          "zh": "突破阻挡而进入",
+          "en": "break through and enter"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "比喻突破限制，进入或开拓新的领域。",
+      "en_definition": "To break into or open up a new field by overcoming barriers.",
+      "ms_definition": "Memasuki atau membuka ruang dalam sesuatu bidang dengan mengatasi halangan atau batasan.",
+      "nuances": "这是实体穿透义的比喻延伸，常突出开拓难度与突破行动；用于普通、无阻碍的参与行为时，memasuki 或 menceburi 往往更平实。此区分是根据数据包中的商业领域例句作出的用法归纳。",
+      "collocations": [
+        {
+          "ms": "menerobos bidang perniagaan",
+          "zh": "开拓商业领域",
+          "en": "break into the business sector"
+        },
+        {
+          "ms": "menerobos pasaran antarabangsa",
+          "zh": "突破障碍打入国际市场",
+          "en": "break into international markets"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 安全事件报告",
+      "ms": "Beberapa individu cuba menerobos sekatan keselamatan untuk memasuki kawasan larangan.",
+      "zh": "数人试图冲破安全封锁，进入禁区。",
+      "en": "Several individuals attempted to break through the security cordon to enter the restricted area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论入口处的拥堵",
+      "ms_spoken": "Jangan menerobos masuklah, orang lain pun tengah beratur.",
+      "ms_standard": "Jangan menerobos masuk kerana orang lain juga sedang beratur.",
+      "zh": "别硬往里面挤啦，别人也在排队。",
+      "en": "Don't push your way in. Other people are queuing too.",
+      "spoken_features": [
+        "-lah：在此加强劝阻语气",
+        "tengah：口语中表示动作正在进行，对应 sedang",
+        "较正式的动词 menerobos 可在口语中保留，以强调硬闯或强行穿过"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Orang kat depan tu cuba menerobos masuk ke?",
+          "ms_standard": "Adakah orang di hadapan itu cuba menerobos masuk?",
+          "zh": "前面那个人是想硬挤进去吗？",
+          "en": "Is that person up front trying to push their way in?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, tapi pengawal dah tahan dia. Kita tunggu je dulu.",
+          "ms_standard": "Ya, tetapi pengawal sudah menghalangnya. Kita tunggu dahulu.",
+          "zh": "是啊，不过保安已经拦住他了。我们先等着吧。",
+          "en": "Yes, but the guard has stopped them. Let's just wait."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records menerobos under the base terobos. The prefix meN- forms the active verb, with the initial t replaced through nasal substitution. Its physical meaning provides a vivid bridge to figurative usage: just as someone breaks through a barrier, an enterprise can break into a difficult field. This explains the semantic connection without assuming an undocumented historical origin.",
+    "cognitive_memory_aid": "先记 terobos＝突破；加 meN-，t 让位给 n：menerobos＝正在执行突破、穿透的动作。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述他人 menerobos sekatan 或 menerobos masuk 时，容易带出强行闯入、越过秩序的评价，应确保符合实际情形。",
+    "usage_etiquette": "适用于新闻、叙事和强调突破的商业表达。普通进入房间用 masuk 更自然；请求别人让路可说 Tumpang lalu，而不是以 menerobos 表达请求。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述他人 menerobos sekatan 或 menerobos masuk 时，容易带出强行闯入、越过秩序的评价，应确保符合实际情形。",
+    "usage_etiquette": "适用于新闻、叙事和强调突破的商业表达。普通进入房间用 masuk 更自然；请求别人让路可说 Tumpang lalu，而不是以 menerobos 表达请求。"
+  }
+}

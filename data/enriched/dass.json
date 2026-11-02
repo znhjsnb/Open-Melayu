@@ -1,0 +1,132 @@
+{
+  "headword": {
+    "word": "dass",
+    "syllables": null,
+    "ipa": "/das/",
+    "jawi": null,
+    "frequency_rank": 9890,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "dass",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + dass → dass",
+    "pattern_note": "沿用输入包的整词标记。本条暂按德语连词解释，尚不能确定输入词在原语料中的身份。德语 ss 表示 /s/，前面的 a 为短元音；没有可据此生成的马来语派生词。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "conjunction",
+      "zh_definition": "德语从属连词：引出陈述内容的从句，表示“……这一事实”或“……的内容”；常对应马来语 bahawa、英语 that，中文通常不单独译出。",
+      "en_definition": "German that, introducing a clause expressing the content of a statement, thought or fact.",
+      "ms_definition": "Kata hubung bahasa Jerman yang memperkenalkan klausa isi; lazimnya berpadanan dengan bahawa dalam bahasa Melayu.",
+      "nuances": "这是暂定的德语释读，并非已核实的马来语词条或 DBP 官方释义。德语 dass 从句通常将限定动词置于句末；须区别于冠词或代词 das。下列 ms 是德语结构的马来语对应表达，德语原式标在 en 中。参见 [Duden：dass](https://www.duden.de/rechtschreibung/dass)。",
+      "collocations": [
+        {
+          "ms": "saya tahu bahawa",
+          "zh": "我知道……",
+          "en": "I know that … (German: ich weiß, dass …)"
+        },
+        {
+          "ms": "hakikat bahawa",
+          "zh": "……这一事实",
+          "en": "the fact that … (German: die Tatsache, dass …)"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "conjunction",
+      "zh_definition": "德语：用于表示原因、结果、方式或目的的从句及复合连接结构，具体关系由上下文和搭配决定。",
+      "en_definition": "German conjunction used in clauses of cause, consequence, means or purpose, including compound connective expressions.",
+      "ms_definition": "Dalam bahasa Jerman, memperkenalkan klausa sebab, akibat, cara atau tujuan, termasuk dalam rangkai kata penghubung tertentu.",
+      "nuances": "此义也仅属于德语；不能把所有 dass 都逐字译为 bahawa。",
+      "collocations": [
+        {
+          "ms": "begitu … sehingga",
+          "zh": "如此……以至于",
+          "en": "so … that … (German: so …, dass …)"
+        },
+        {
+          "ms": "tanpa …",
+          "zh": "在没有……的情况下",
+          "en": "without … (German: ohne dass …)"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "conjunction",
+      "zh_definition": "德语：引出独立使用、但保留从句语序的感叹或祈愿表达，可表示愿望、警告或遗憾。",
+      "en_definition": "German conjunction introducing an independent wish, warning or exclamation with subordinate-clause word order.",
+      "ms_definition": "Dalam bahasa Jerman, memperkenalkan ungkapan mandiri yang menyatakan harapan, amaran atau kekesalan dengan susunan kata klausa subordinat.",
+      "nuances": "依语境和语调翻译，通常没有固定的马来语单词对应。",
+      "collocations": [
+        {
+          "ms": "jangan sampai ada aduan",
+          "zh": "可别让我听到投诉",
+          "en": "There had better be no complaints! (German: Dass mir keine Klagen kommen!)"
+        },
+        {
+          "ms": "tidak sangka keadaan menjadi begini",
+          "zh": "没想到事情竟到了这个地步",
+          "en": "That it should have come to this! (German: Dass es so weit kommen musste!)"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教学报告 / 德语语法说明",
+      "ms": "Dalam bahasa Jerman, kata hubung 'dass' lazimnya memperkenalkan klausa subordinat yang meletakkan kata kerja finit pada akhir klausa.",
+      "zh": "在德语中，连词 dass 通常引出限定动词位于句末的从句。",
+      "en": "In German, the conjunction 'dass' commonly introduces a subordinate clause with the finite verb at the end."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论德语作业",
+      "ms_spoken": "Aku dah faham dah, dass tu lebih kurang bahawa dalam ayat ni.",
+      "ms_standard": "Saya sudah faham. Kata hubung Jerman 'dass' lebih kurang berpadanan dengan 'bahawa' dalam ayat ini.",
+      "zh": "我懂了，这句里的 dass 大概就是 bahawa 的意思。",
+      "en": "I get it now. In this sentence, German 'dass' roughly corresponds to Malay 'bahawa'.",
+      "spoken_features": [
+        "dass 是被讨论的德语词，并非马来语连词",
+        "dah 对应 sudah，重复使用可加强领会后的语气",
+        "tu、ni 分别对应 itu、ini"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku nak semak ayat ni. Lepas dass, kata kerja kat hujung, kan?",
+          "ms_standard": "Saya hendak menyemak ayat ini. Dalam klausa yang diperkenalkan oleh 'dass', kata kerja finit berada pada akhir klausa, bukan?",
+          "zh": "我想检查一下这句。dass 引出的从句里，限定动词在句末，对吧？",
+          "en": "I want to check this sentence. In a dass-clause, the finite verb goes at the end, right?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Ya, betul. Aku dah semak contoh dalam buku tu.",
+          "ms_standard": "Ya, betul. Saya sudah menyemak contoh dalam buku itu.",
+          "zh": "对，我已经查过那本书里的例句了。",
+          "en": "Yes, that's right. I've checked the example in the book."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "German dass developed from the same historical form as das, through constructions in which a demonstrative introduced a following statement. Duden traces it to Old and Middle High German daʒ. The spelling reform of 1996 replaced the former spelling daß with dass. This history identifies a German conjunction; it does not determine what the unexplained token meant in the source corpus. See [Duden](https://www.duden.de/rechtschreibung/dass).",
+    "cognitive_memory_aid": "在德语学习中，把 dass 想成通向“所说内容”的桥：ich weiß, dass …＝我知道……；桥后的限定动词通常移到句末。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "作为德语连词没有特殊敬语色彩。在马来语交流中，只有引用、教学或讨论德语时才宜按此义使用。",
+    "usage_etiquette": "不得直接用 dass 替换马来语 bahawa。大写 DASS 还可表示心理量表名称，须与本条德语释读分开；原包缺少上下文，不能擅自确定为该缩写。马来西亚相关用法可见 [JPA：DASS-21](https://www.interactive1.jpa.gov.my/ekpa/Ujiandass21)。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "作为德语连词没有特殊敬语色彩。在马来语交流中，只有引用、教学或讨论德语时才宜按此义使用。",
+    "usage_etiquette": "不得直接用 dass 替换马来语 bahawa。大写 DASS 还可表示心理量表名称，须与本条德语释读分开；原包缺少上下文，不能擅自确定为该缩写。马来西亚相关用法可见 [JPA：DASS-21](https://www.interactive1.jpa.gov.my/ekpa/Ujiandass21)。"
+  }
+}

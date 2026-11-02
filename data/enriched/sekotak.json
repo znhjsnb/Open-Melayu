@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "sekotak",
+    "syllables": null,
+    "ipa": "/sə.ko.taʔ/",
+    "jawi": "سکوتق",
+    "frequency_rank": 9903,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kotak",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + kotak → sekotak（一盒／一箱）",
+    "pattern_note": "se- 表示 satu，即一个单位；接 kotak 时保留词首 k，不发生鼻音同化。输入的 کوتق 是词根 kotak 的爪夷文，完整 sekotak 应加 س，写作 سکوتق。输入未提供音节划分，因此保留 null。",
+    "word_family": [
+      {
+        "word": "kotak",
+        "affix": null,
+        "gloss": "盒子；箱子；方格"
+      },
+      {
+        "word": "mengotakkan",
+        "affix": "meN-...-kan",
+        "gloss": "分隔；划分为不同部分"
+      }
+    ],
+    "root_jawi": "کوتق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一盒、一箱或一纸盒装的东西；以一个盒状容器为计量单位的数量。",
+      "en_definition": "One box or carton, or the quantity contained in one.",
+      "ms_definition": "Satu kotak atau sejumlah barang yang terkandung di dalam satu kotak.",
+      "nuances": "实际功能是数量表达：se- 表示“一”，kotak 是容器计量单位。sekotak susu 可指一小纸盒牛奶，也可依情境指一箱盒装牛奶，不能据此确定容量。空盒通常说 sebuah kotak。词根及其派生形式参见 [DBP：kotak](https://prpm.dbp.gov.my/cari1?keyword=kotak)。",
+      "collocations": [
+        {
+          "ms": "sekotak susu",
+          "zh": "一盒／一箱牛奶",
+          "en": "a carton or box of milk"
+        },
+        {
+          "ms": "sekotak coklat",
+          "zh": "一盒巧克力",
+          "en": "a box of chocolates"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Setiap keluarga akan menerima sekotak makanan semasa program bantuan tersebut.",
+      "zh": "在该援助活动中，每户家庭将获发一箱食品。",
+      "en": "Each family will receive a box of food during the aid programme."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tolong belikan sekotak susu kat kedai, ya.",
+      "ms_standard": "Tolong belikan saya sekotak susu di kedai, ya.",
+      "zh": "帮我在店里买盒牛奶呀。",
+      "en": "Please pick up a carton of milk for me at the shop.",
+      "spoken_features": [
+        "kat 是口语地点介词，此处相当于 di。",
+        "ya 用于柔化请求。",
+        "回复中的 je 相当于 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Kalau singgah kat kedai nanti, tolong belikan sekotak susu, ya.",
+          "ms_standard": "Jika awak singgah di kedai nanti, tolong belikan saya sekotak susu, ya.",
+          "zh": "待会儿要是经过店里，帮我买盒牛奶呀。",
+          "en": "If you stop at the shop later, could you get me a carton of milk?"
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Boleh. Nak yang kecil je ke?",
+          "ms_standard": "Boleh. Adakah awak mahu yang kecil sahaja?",
+          "zh": "行。只要小盒的吗？",
+          "en": "Sure. Just a small carton?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sekotak illustrates an everyday Malay way of counting goods through their containers. The prefix se- contributes the meaning 'one', while kotak names the box. This makes the expression useful for chocolates, milk, stationery and food parcels. Its meaning depends on the package being discussed; it does not name a fixed weight or volume.",
+    "cognitive_memory_aid": "先记 kotak＝盒子，再把 se- 换成“一”：sekotak＝一盒。看到一个盒子，就读 se-kotak。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "数量词本身语气中性。购物或请人代买时，加 tolong、boleh 或 ya，会比直接下命令更自然。",
+    "usage_etiquette": "适合购物、送礼、物资分发和日常计量。订货时补充规格，例如 sekotak susu 250 mililiter，或说明每箱有多少包，避免把“一盒”与“一箱”混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "数量词本身语气中性。购物或请人代买时，加 tolong、boleh 或 ya，会比直接下命令更自然。",
+    "usage_etiquette": "适合购物、送礼、物资分发和日常计量。订货时补充规格，例如 sekotak susu 250 mililiter，或说明每箱有多少包，避免把“一盒”与“一箱”混淆。"
+  }
+}

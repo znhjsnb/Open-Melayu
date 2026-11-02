@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "wangku",
+    "syllables": null,
+    "ipa": "/waŋ.ku/",
+    "jawi": "واڠ",
+    "frequency_rank": 9911,
+    "status": "official",
+    "data_note": "status 沿用所要求的记录标签，不表示 DBP 单独收录此屈附形式。syllables 保留输入的 null；所给 Jawi 仅对应词根 wang，未包含 -ku。频率排名沿用输入，未独立核验。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "wang",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "wang + -ku → wangku",
+    "pattern_note": "-ku 是 aku 的附着形式，在此表示第一人称单数领属；严格说属于后附语素，而非派生后缀。直接连写，词根末尾 /ŋ/ 保留，不发生鼻音替换。",
+    "word_family": [
+      {
+        "word": "wang",
+        "affix": null,
+        "gloss": "钱；货币"
+      },
+      {
+        "word": "berwang",
+        "affix": "ber-",
+        "gloss": "有钱；富有"
+      },
+      {
+        "word": "kewangan",
+        "affix": "ke-...-an",
+        "gloss": "财务；财政"
+      },
+      {
+        "word": "mengewangkan",
+        "affix": "meN-...-kan",
+        "gloss": "兑现；变现"
+      }
+    ],
+    "root_jawi": "واڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "我的钱；属于我或由我持有的货币、款项。",
+      "en_definition": "My money; money belonging to or held by me.",
+      "ms_definition": "Wang milik aku atau wang yang ada padaku.",
+      "nuances": "wangku 是可分析的领属形式，不是与 wang 无关的独立词根。以下马来语定义为根据 wang 与 -ku 编写的释义，并非 DBP 对 wangku 的逐字引文。日常马来西亚口语更常说 duit aku；礼貌或正式表达通常用 wang saya。[DBP：wang](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=wang)、[DBP：ku](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ku)。",
+      "collocations": [
+        {
+          "ms": "menghabiskan wangku",
+          "zh": "花光我的钱",
+          "en": "spend all my money"
+        },
+        {
+          "ms": "memulangkan wangku",
+          "zh": "归还我的钱",
+          "en": "return my money"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "我的财力、收入或财富；强调本人拥有的经济资源。",
+      "en_definition": "My financial means, income, or wealth.",
+      "ms_definition": "Pendapatan, kekayaan atau sumber kewangan yang menjadi milik aku.",
+      "nuances": "承接 wang 的引申义，具体指收入、财力还是财富须依上下文判断。不能据此把每处 wangku 都译成“我的工资”。这一引申范围见 [DBP：wang](https://prpm.dbp.gov.my/Cari1?d=15740&keyword=wang)。",
+      "collocations": [
+        {
+          "ms": "wangku tidak seberapa",
+          "zh": "我的财力有限",
+          "en": "my financial means are modest"
+        },
+        {
+          "ms": "bergantung pada wangku",
+          "zh": "依靠我的经济支持",
+          "en": "depend on my financial support"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 书面陈述引语；wangku 保留陈述者的第一人称语气",
+      "ms": "Dalam kenyataan bertulisnya, pengadu menjelaskan, \"Wangku telah digunakan tanpa kebenaranku.\"",
+      "zh": "投诉人在书面声明中解释：“我的钱被人未经我同意使用了。”",
+      "en": "In a written statement, the complainant explained, \"My money was used without my permission.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 熟人之间略带书面感或戏谑感的表达",
+      "ms_spoken": "Wangku tinggal sepuluh ringgit je lah.",
+      "ms_standard": "Wangku hanya tinggal sepuluh ringgit.",
+      "zh": "我的钱就剩十令吉啦。",
+      "en": "I've only got ten ringgit left.",
+      "spoken_features": [
+        "je 是 sahaja 的口语形式。",
+        "lah 为句子增添感叹或强调语气。",
+        "wangku 带有较强书面感；普通随意交谈通常说 duit aku。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aduh, wangku tinggal sepuluh ringgit je lah.",
+          "ms_standard": "Aduh, wangku hanya tinggal sepuluh ringgit.",
+          "zh": "哎呀，我的钱就剩十令吉啦。",
+          "en": "Oh no, I've only got ten ringgit left."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tak apa, aku belanja makan kat kedai tu.",
+          "ms_standard": "Tidak mengapa, aku akan membelanjai kamu makan di kedai itu.",
+          "zh": "没事，我请你去那家店吃饭。",
+          "en": "No worries, I'll buy you a meal at that place."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Wangku illustrates Malay's established practice of attaching shortened personal pronouns to other words. Here, wang supplies the idea of money, while -ku, shortened from aku, identifies its owner. The form therefore needs no separate origin legend: its meaning follows from its grammar. Its compact shape also suits personal narration and literary expression. [DBP: ku](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ku).",
+    "cognitive_memory_aid": "把 wang 与 aku 连起来记：wang + aku → wangku，“钱”加“我”就是“我的钱”。这是构词记忆法。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲密关系、个人叙述或文学表达。面对客户、长辈或上司说明款项时，通常用 wang saya 更稳妥。",
+    "usage_etiquette": "讨论借款或退款时宜说明金额和事项，例如 wang saya sebanyak RM50。单独强调 wangku 可能显得强硬，具体效果取决于语调和关系。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲密关系、个人叙述或文学表达。面对客户、长辈或上司说明款项时，通常用 wang saya 更稳妥。",
+    "usage_etiquette": "讨论借款或退款时宜说明金额和事项，例如 wang saya sebanyak RM50。单独强调 wangku 可能显得强硬，具体效果取决于语调和关系。"
+  }
+}

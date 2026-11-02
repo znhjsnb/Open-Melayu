@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "kutahu",
+    "syllables": null,
+    "ipa": "/ku.ta.hu/",
+    "jawi": null,
+    "frequency_rank": 9943,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tahu",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku- + tahu → kutahu",
+    "pattern_note": "ku- 是 aku 的前附着形式，表示第一人称，须与后面的动词连写；不是派生前缀，此处借用 prefix 字段表示位置。tahu 的读音不变；输入所标的独立词根应校正为 tahu。[DBP 拼写说明](https://ptb.dbp.gov.my/soalanlazim/nb_soalan_lazim.aspx)",
+    "word_family": [
+      {
+        "word": "tahu",
+        "affix": null,
+        "gloss": "知道；懂得"
+      },
+      {
+        "word": "mengetahui",
+        "affix": "meN-...-i",
+        "gloss": "知晓；了解"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "我知道；我知晓。由第一人称附着形式 ku- 与 tahu 合成，明确表示知道某事的人是说话者。",
+      "en_definition": "I know; I am aware of.",
+      "ms_definition": "Bentuk ku- + tahu yang bermaksud aku tahu atau aku mengetahui sesuatu; huraian berdasarkan pembentukan kata, bukan petikan takrif khusus DBP bagi kutahu.",
+      "nuances": "常见于诗歌、歌词、文学叙述及亲密表达。不是 tahu 的另一种独立词根，也不自带过去时意义。正式职场陈述通常用 saya tahu 或 saya mengetahui；yang kutahu 表示“据我所知／我知道的事情”。",
+      "collocations": [
+        {
+          "ms": "yang kutahu",
+          "zh": "我所知道的",
+          "en": "what I know"
+        },
+        {
+          "ms": "kutahu bahawa",
+          "zh": "我知道……",
+          "en": "I know that"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻文化报道／文学引语",
+      "ms": "Dalam wawancara itu, penyair tersebut berkata, “Yang kutahu, bahasa dapat menyatukan manusia.”",
+      "zh": "在那次访谈中，那位诗人说：“我知道的是，语言能够团结人们。”",
+      "en": "In the interview, the poet said, “What I know is that language can bring people together.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp／朋友间带文学语气的交流",
+      "ms_spoken": "Yang kutahu, dia dah sampai kat rumah.",
+      "ms_standard": "Yang aku tahu, dia sudah sampai di rumah.",
+      "zh": "我知道的是，他已经到家了。",
+      "en": "As far as I know, he’s already home.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式",
+        "kat 在此对应地点介词 di",
+        "kutahu 在日常聊天中略带文学色彩，aku tahu 更中性"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Amir dah sampai ke?",
+          "ms_standard": "Adakah Amir sudah sampai?",
+          "zh": "Amir 到了没？",
+          "en": "Has Amir arrived yet?"
+        },
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Yang kutahu, dia dah sampai kat rumah. Cuba mesej dia jap.",
+          "ms_standard": "Yang aku tahu, dia sudah sampai di rumah. Cuba hantar mesej kepadanya sebentar.",
+          "zh": "据我所知，他已经到家了。你发条消息问问他吧。",
+          "en": "As far as I know, he’s home already. Try messaging him."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kutahu illustrates Malay’s compact first-person expression: ku-, the bound form of aku, attaches directly to tahu. Rather than creating a new meaning for knowing, the combination identifies the speaker as the knower. Its compact shape suits verse and intimate narration; a poem published in Dewan Sastera provides an attested literary example. [Dewan Sastera](https://jendeladbp.my/app/uploads/woocommerce_uploads/2025/03/DEWAN-SASTERA-APRIL-2025-2rv7ge.pdf)",
+    "cognitive_memory_aid": "把 ku 想成“我”，tahu 记成“知道”：ku + tahu，一口气说“我知道”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 承接 aku 的语体，适合自述、亲密关系和文学表达；面对客户、长辈或上司，saya tahu 通常更稳妥。",
+    "usage_etiquette": "诗歌和歌词中的 kutahu 不表示失礼；在公函或正式汇报中，宜改用 saya mengetahui。不要将 ku- 与后面的 tahu 分开书写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 承接 aku 的语体，适合自述、亲密关系和文学表达；面对客户、长辈或上司，saya tahu 通常更稳妥。",
+    "usage_etiquette": "诗歌和歌词中的 kutahu 不表示失礼；在公函或正式汇报中，宜改用 saya mengetahui。不要将 ku- 与后面的 tahu 分开书写。"
+  }
+}

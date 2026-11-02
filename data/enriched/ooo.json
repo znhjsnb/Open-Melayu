@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "ooo",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 9932,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ooo",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ooo → ooo（聊天中的表达性拼写）",
+    "pattern_note": "可理解为拉长感叹声的重复字母写法，不是马来语词缀派生，也不是标准重叠构词。is_root 沿用输入标记，不表示已确认为规范词根；没有固定标准读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "聊天中表示“哦、原来如此”等反应的非规范字母延长写法；也可能表达惊讶或迟疑，具体意思取决于上下文。",
+      "en_definition": "An informal elongated reaction spelling, often conveying 'oh' or 'I see', with interpretation dependent on context.",
+      "ms_definition": "Huraian editorial, bukan takrif rasmi DBP: ejaan reaksi tidak baku dalam perbualan bertulis yang boleh menyatakan bahawa seseorang baru memahami sesuatu atau memberikan respons seperti oh.",
+      "nuances": "输入没有提供 DBP 定义，不能标为 official。这里记录的是可能的聊天用法，不排除其他上下文中的缩写或字母串。pos 使用 particle 适配给定分类；功能上接近 kata seru。DBP 确认 oh 属于感叹词，但这不能证明 ooo 是规范词条。以下为示例组合，不是经语料统计确认的高频搭配。[DBP 关于感叹词的说明](https://stage.jendeladbp.my/peka-bahasa/ayat-seruan/)",
+      "collocations": [
+        {
+          "ms": "ooo, patutlah",
+          "zh": "哦，难怪",
+          "en": "oh, that explains it"
+        },
+        {
+          "ms": "ooo, macam tu",
+          "zh": "哦，原来是这样",
+          "en": "oh, I see"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场培训 / 数字沟通说明",
+      "ms": "Dalam komunikasi rasmi, gantikan reaksi seperti \"ooo\" dengan ungkapan yang jelas, misalnya \"Baik, saya faham\".",
+      "zh": "在正式沟通中，应将“ooo”之类的反应写法换成明确表达，例如“好的，我明白了”。",
+      "en": "In formal communication, replace reactions such as 'ooo' with a clear expression, such as 'Understood'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认会议地点",
+      "ms_spoken": "ooo, mesyuarat kat tingkat dua je rupanya.",
+      "ms_standard": "Oh, rupa-rupanya mesyuarat itu di tingkat dua sahaja.",
+      "zh": "哦，原来会议就在二楼啊。",
+      "en": "Oh, so the meeting's just on the second floor.",
+      "spoken_features": [
+        "ooo 用重复字母表现反应语气",
+        "kat 对应表示地点的 di",
+        "je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Mesyuarat dah pindah ke tingkat dua. Tak payah naik tingkat lima.",
+          "ms_standard": "Tempat mesyuarat sudah dipindahkan ke tingkat dua. Tidak perlu naik ke tingkat lima.",
+          "zh": "会议改到二楼了，不用上五楼。",
+          "en": "The meeting's been moved to the second floor. No need to go up to the fifth."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "ooo, kat tingkat dua je rupanya. Aku turun sekarang.",
+          "ms_standard": "Oh, rupa-rupanya di tingkat dua sahaja. Saya akan turun sekarang.",
+          "zh": "哦，原来就在二楼啊。我现在下去。",
+          "en": "Oh, it's just on the second floor. I'll head down now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In informal digital writing, repeated letters can suggest a drawn-out voice or an expressive response. The string ooo can be interpreted this way when the conversation supports an 'oh' reading. This is a contextual account of its spelling, not a documented etymology: neither the packet nor the cited DBP guidance establishes a standardized Malay headword ooo.",
+    "cognitive_memory_aid": "三个 o 像把“哦——”拉长；记住的是聊天语气，不是三个音节，也不是固定词义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友聊天中可以自然使用；单独回复 ooo 可能被理解为敷衍、迟疑或讽刺。向主管、客户或长辈确认重要信息时，用 Baik, saya faham 更明确。",
+    "usage_etiquette": "适合非正式文字聊天。不要把重复字母的长度机械解释成特定情绪，也不要把 OOO 的其他缩写义自动套用于这里的小写形式。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友聊天中可以自然使用；单独回复 ooo 可能被理解为敷衍、迟疑或讽刺。向主管、客户或长辈确认重要信息时，用 Baik, saya faham 更明确。",
+    "usage_etiquette": "适合非正式文字聊天。不要把重复字母的长度机械解释成特定情绪，也不要把 OOO 的其他缩写义自动套用于这里的小写形式。"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "lawanlah",
+    "syllables": null,
+    "ipa": "/la.wan.lah/",
+    "jawi": "لاون",
+    "frequency_rank": 9880,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lawan",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "lawan + -lah → lawanlah",
+    "pattern_note": "-lah 是后附强调小品词，并非派生词缀；suffix 在此仅表示后接位置。拼写连写，词根不变。输入 Jawi لاون 仅对应 lawan，未包含 -lah；此处按原包保留。缺失的音节字段保留 null。",
+    "word_family": [
+      {
+        "word": "melawan",
+        "affix": "meN-",
+        "gloss": "对抗；反抗"
+      },
+      {
+        "word": "perlawanan",
+        "affix": "per-...-an",
+        "gloss": "比赛；对抗"
+      }
+    ],
+    "root_jawi": "لاون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "抵抗吧；反抗吧；奋力克服吧。用于劝勉或命令对方抵抗某人、某种压力或困难。",
+      "en_definition": "Resist, oppose, or fight against someone or something, as an exhortation or command.",
+      "ms_definition": "Bentuk suruhan atau dorongan supaya menentang, melawan atau mengatasi seseorang atau sesuatu.",
+      "nuances": "这是 lawan 在祈使结构中附加 -lah 的用法；马来文释义为构式说明，并非输入词典的逐字引文。不可把词根 lawan 的“对手、搭档”等名词义直接移植到此处。-lah 可加强劝勉，也可随语调表达挑战，并不自动使命令客气。小品词分类参见 [DBP：Perihal Penonjolan Maklumat](https://dewanbahasa.jendeladbp.my/2023/03/13/7523/)。",
+      "collocations": [
+        {
+          "ms": "lawanlah rasa takut",
+          "zh": "克服恐惧吧",
+          "en": "overcome your fear"
+        },
+        {
+          "ms": "lawanlah ketidakadilan",
+          "zh": "反抗不公吧",
+          "en": "stand up against injustice"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "迎战吧；与对手较量吧。用于鼓励或要求对方参加竞争。",
+      "en_definition": "Take on an opponent or compete against someone, as an exhortation or command.",
+      "ms_definition": "Bentuk suruhan atau dorongan supaya bertanding atau beradu kekuatan dengan pihak lain.",
+      "nuances": "常见于体育鼓励或朋友间的挑战，具体指比赛而非必然指身体冲突。以下搭配为自然构式示例，不代表独立词条的频率统计。",
+      "collocations": [
+        {
+          "ms": "lawanlah pasukan itu",
+          "zh": "迎战那支队伍吧",
+          "en": "take on that team"
+        },
+        {
+          "ms": "lawanlah dengan semangat kesukanan",
+          "zh": "秉持体育精神比赛吧",
+          "en": "compete with good sportsmanship"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam ucapannya, jurulatih menyeru para pemain, “Lawanlah dengan penuh disiplin dan semangat kesukanan.”",
+      "zh": "教练在讲话中勉励球员：“比赛时要严守纪律，发扬体育精神。”",
+      "en": "In his address, the coach urged the players, “Compete with discipline and good sportsmanship.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Lawanlah dulu, jangan mengalah awal sangat.",
+      "ms_standard": "Cubalah bertanding dahulu dan jangan terlalu awal mengalah.",
+      "zh": "先打打看嘛，别这么快就认输。",
+      "en": "Give it a go. Don't give up so soon.",
+      "spoken_features": [
+        "lawanlah 以祈使形式鼓励对方。",
+        "dulu 对应 dahulu。",
+        "awal sangat 使用口语常见的程度词后置语序。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak tarik diri je. Dia tu hebat sangat.",
+          "ms_standard": "Saya hendak menarik diri sahaja kerana dia sangat hebat.",
+          "zh": "我想直接退赛了。他太厉害了。",
+          "en": "I'm thinking of pulling out. He's really good."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Lawanlah dulu. Kau dah berlatih banyak.",
+          "ms_standard": "Cubalah bertanding dahulu. Awak sudah banyak berlatih.",
+          "zh": "先打打看嘛。你都练了这么多了。",
+          "en": "Give it a go. You've trained so much."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Lawan brings together two familiar social situations: facing an adversary and meeting a sporting opponent. Adding -lah turns the verbal use into an appeal whose force depends on the speaker's voice and relationship with the listener. A coach can make it encouraging; an angry speaker can make it confrontational. The particle contributes interactional force rather than a new lexical root.",
+    "cognitive_memory_aid": "lawan＝对抗；加 -lah，像在场边喊：“上吧，迎战吧！”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对朋友或队员可以表示鼓励；对上司、长辈或陌生人直接说 lawanlah，可能显得挑衅。-lah 不是通用礼貌标记。",
+    "usage_etiquette": "适合比赛、坚持立场和克服困难的语境。需结合对象和语调判断是鼓励还是挑战。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对朋友或队员可以表示鼓励；对上司、长辈或陌生人直接说 lawanlah，可能显得挑衅。-lah 不是通用礼貌标记。",
+    "usage_etiquette": "适合比赛、坚持立场和克服困难的语境。需结合对象和语调判断是鼓励还是挑战。"
+  }
+}
