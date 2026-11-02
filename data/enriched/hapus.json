@@ -1,0 +1,159 @@
+{
+  "headword": {
+    "word": "hapus",
+    "syllables": "ha.pus",
+    "ipa": "/ha.pus/",
+    "jawi": "دهاڤوس",
+    "frequency_rank": 11169,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hapus",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hapus → hapus",
+    "pattern_note": "词根无词缀。派生时 meN- 在 /h/ 前取 meng-，保留 h，如 menghapuskan；peN- 相应取 peng-，如 penghapusan。词包 Jawi دهاڤوس 带有额外的起首 د，与 Rumi 词头不对应；此处按输入保留，不将该形式视为已核实的规范拼写。",
+    "word_family": [
+      {
+        "word": "menghapus",
+        "affix": "meN-",
+        "gloss": "擦去；抹去"
+      },
+      {
+        "word": "menghapuskan",
+        "affix": "meN-…-kan",
+        "gloss": "消除；废除；删除"
+      },
+      {
+        "word": "terhapus",
+        "affix": "ter-",
+        "gloss": "已消失；被清除"
+      },
+      {
+        "word": "penghapusan",
+        "affix": "peN-…-an",
+        "gloss": "消除；废除；删除这一行为"
+      },
+      {
+        "word": "penghapus",
+        "affix": "peN-",
+        "gloss": "清除工具；消除者"
+      }
+    ],
+    "root_jawi": "دهاڤوس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "消失；消除殆尽；不再存在或显现。",
+      "en_definition": "To disappear or cease to remain visible or present.",
+      "ms_definition": "Tidak lagi wujud atau kelihatan; menjadi hilang atau lenyap.",
+      "nuances": "基本义着重消失后的状态，并不总表示主动清除动作。正式语中若要表达“消除某物”，通常使用 menghapuskan；表示“已经被清除”可用 terhapus。不能把 hapus 在所有句型中都直接当作及物动词使用。[DBP：hapus 及其派生词](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=+hapus)",
+      "collocations": [
+        {
+          "ms": "hapus sama sekali",
+          "zh": "完全消失",
+          "en": "disappear completely"
+        },
+        {
+          "ms": "tidak akan hapus",
+          "zh": "不会消失",
+          "en": "will not disappear"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "获得宽恕或赦免；指罪过、过错不再被追究。",
+      "en_definition": "To be forgiven or remitted, especially of sins or wrongdoing.",
+      "ms_definition": "Telah mendapat keampunan atau kemaafan, khususnya berkenaan dosa atau kesalahan.",
+      "nuances": "常见于宗教或道德语境，强调罪过获赦，并非记忆或历史事实被抹去。主动表示“赦免罪过”通常用 menghapuskan dosa，结果状态可用 dosa terhapus。[DBP：hapus 的赦免义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=+hapus)",
+      "collocations": [
+        {
+          "ms": "dosa menjadi hapus",
+          "zh": "罪过获得赦免",
+          "en": "sins are forgiven"
+        },
+        {
+          "ms": "hapus segala dosa",
+          "zh": "一切罪过均获赦免",
+          "en": "all sins are forgiven"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "删除；把数据、文件或其他对象从其所在位置移除，常用于界面命令。",
+      "en_definition": "To delete or remove an object, especially data or a file, from its location.",
+      "ms_definition": "Membuang sesuatu objek, seperti fail atau rekod, daripada tempatnya dalam sistem komputer.",
+      "nuances": "计算机术语和按钮标签可直接用 Hapus；完整正式陈述通常用 menghapuskan 或 dipadamkan 等适合语境的形式。删除不必然等于安全销毁，是否可恢复取决于系统。hapus kira 是另一个固定会计术语，不能与删除文件混同。[DBP：Kamus Komputer 的 hapus 义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=+hapus)",
+      "collocations": [
+        {
+          "ms": "hapus fail",
+          "zh": "删除文件",
+          "en": "delete a file"
+        },
+        {
+          "ms": "hapus rekod",
+          "zh": "删除记录",
+          "en": "delete a record"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pengguna perlu memilih rekod yang berkenaan sebelum menekan butang Hapus.",
+      "zh": "用户须先选中相关记录，再按“删除”按钮。",
+      "en": "Users must select the relevant record before clicking the Delete button."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Jangan hapus fail tu dulu, aku nak semak lagi.",
+      "ms_standard": "Jangan hapuskan fail itu dahulu kerana saya hendak menyemaknya sekali lagi.",
+      "zh": "先别删那个文件，我还想再检查一下。",
+      "en": "Don't delete that file yet. I want to check it again.",
+      "spoken_features": [
+        "口语中的 hapus 在这里用作简短的删除指令，标准对应句使用 hapuskan。",
+        "tu 是 itu 的口语形式。",
+        "nak 对应 hendak，dulu 对应 dahulu。",
+        "aku 适用于熟人之间；正式交流宜用 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail lama kat folder ni nak hapus semua ke?",
+          "ms_standard": "Adakah semua fail lama dalam folder ini hendak dihapuskan?",
+          "zh": "这个文件夹里的旧文件都要删掉吗？",
+          "en": "Are we deleting all the old files in this folder?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Jangan hapus dulu lah. Aku nak semak yang mana dah ada salinan.",
+          "ms_standard": "Jangan hapuskan fail-fail itu dahulu. Saya hendak menyemak fail yang sudah mempunyai salinan.",
+          "zh": "先别删啦。我想确认一下哪些已经有副本了。",
+          "en": "Hold off for now. I want to check which ones we already have copies of."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay dictionaries connect hapus with disappearance and with the forgiveness of wrongdoing. Computing terminology also uses it for deleting an object from its location. These meanings offer a shared image: something no longer remains in the relevant place or account. This is a semantic connection, not evidence of a documented chronological development or a particular ancient borrowing. [DBP dictionary evidence](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=+hapus)",
+    "cognitive_memory_aid": "把 /ha.pus/ 想成擦除时的两拍：“ha——擦过去，pus——痕迹不见了。”这是记忆联想，不是词源解释。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Hapus! 单独用作对人的命令较生硬；工作交流宜说 Tolong hapuskan fail ini 或 Sila hapuskan rekod yang berkenaan。",
+    "usage_etiquette": "用于污迹、数据或问题时通常中性；以人或群体为 menghapuskan 的宾语，可能带有消灭、杀害的强烈含义。宗教语境中的 dosa hapus 应尊重说话者所属的信仰背景。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Hapus! 单独用作对人的命令较生硬；工作交流宜说 Tolong hapuskan fail ini 或 Sila hapuskan rekod yang berkenaan。",
+    "usage_etiquette": "用于污迹、数据或问题时通常中性；以人或群体为 menghapuskan 的宾语，可能带有消灭、杀害的强烈含义。宗教语境中的 dosa hapus 应尊重说话者所属的信仰背景。"
+  }
+}

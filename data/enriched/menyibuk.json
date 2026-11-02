@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "menyibuk",
+    "syllables": null,
+    "ipa": "/mə.ɲi.buʔ/",
+    "jawi": "مڽيبوق",
+    "frequency_rank": 11188,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "menyibuk",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + menyibuk → menyibuk（依数据包整词收录）；语言学分析：meN- + sibuk → menyibuk",
+    "pattern_note": "is_root 与 root_word 按数据包保留，表示本条的收录方式；实际构词可分析为 meN- 加 sibuk，词首 s 脱落并出现 meny-。DBP 的窥探义归于标注 Mn 的 sibuk II，须与表示忙碌的 sibuk I 区分。",
+    "word_family": [
+      {
+        "word": "sibuk",
+        "affix": null,
+        "gloss": "窥探义底词，DBP 标注为米南加保语用法"
+      },
+      {
+        "word": "penyibuk",
+        "affix": "peN-",
+        "gloss": "爱管闲事的人；属相关的 sibuk I 词族，须与窥探义区分"
+      }
+    ],
+    "root_jawi": "مڽيبوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "暗中窥看、窥探或侦察。",
+      "en_definition": "To peep, spy or watch covertly.",
+      "ms_definition": "Mengintai, mengintip.",
+      "nuances": "这是数据包给出的《Kamus Dewan》第四版词义。DBP 在 sibuk II 下标注 Mn，表示米南加保语来源或地域用法；不能直接译成“忙碌”。现代一般说明文字常用 mengintai 或 mengintip。搭配为释义性示例，不声称属于高频固定搭配。见 [DBP：sibuk II](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sibuk+II)。",
+      "collocations": [
+        {
+          "ms": "menyibuk dari balik pokok",
+          "zh": "从树后暗中窥看",
+          "en": "spy from behind a tree"
+        },
+        {
+          "ms": "menyibuk melalui celah pintu",
+          "zh": "从门缝窥看",
+          "en": "peep through a gap in the door"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "在日常口语中，多管闲事、探问或插手别人的事情。",
+      "en_definition": "Informally, to meddle in or pry into other people's affairs.",
+      "ms_definition": "Dalam bahasa percakapan, mencampuri atau terlalu mengambil tahu urusan orang lain tanpa diminta.",
+      "nuances": "这是马来西亚口语中常见的理解，应与第一个已核实的词典义分开。此处马来文为口语义的编辑释义，不冒充数据包中的 DBP 原文。DBP 对 sibuk I 的相关义及 penyibuk 的说明可见 [DBP：sibuk](https://prpm.dbp.gov.my/Cari1?d=132088&keyword=sibuk)。",
+      "collocations": [
+        {
+          "ms": "jangan menyibuk",
+          "zh": "别多管闲事",
+          "en": "don't meddle"
+        },
+        {
+          "ms": "menyibuk hal orang lain",
+          "zh": "插手别人的事",
+          "en": "meddle in other people's affairs"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式书面叙述 / 巡逻情况报告；使用窥探义",
+      "ms": "Ketika membuat rondaan, pengawal terlihat seorang lelaki menyibuk dari balik pokok berhampiran pagar.",
+      "zh": "巡逻时，警卫看见一名男子在围栏附近的树后暗中窥探。",
+      "en": "While on patrol, the guard noticed a man spying from behind a tree near the fence."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友劝阻打听私事；使用口语义",
+      "ms_spoken": "Jangan menyibuk hal dia lah, dia nak cerita nanti dia cerita.",
+      "ms_standard": "Jangan mencampuri urusannya; dia akan bercerita apabila dia mahu.",
+      "zh": "别管他的私事啦，他想说的时候自然会说。",
+      "en": "Don't pry into his business. He'll tell us when he wants to.",
+      "spoken_features": [
+        "这里的 menyibuk 表示多管闲事，不是字面上的暗中窥看。",
+        "lah 增添劝阻语气，强弱取决于语调。",
+        "nak 对应 hendak 或 mahu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak tanya dia kenapa dah putus.",
+          "ms_standard": "Saya mahu bertanya kepadanya mengapa hubungan mereka sudah berakhir.",
+          "zh": "我想问他为什么分手了。",
+          "en": "I want to ask him why they broke up."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Jangan menyibuk lah. Kalau dia nak cerita, kita dengar je.",
+          "ms_standard": "Jangan mencampuri urusannya. Jika dia mahu bercerita, kita mendengar sahaja.",
+          "zh": "别多管闲事啦。他想说的话，我们听着就好。",
+          "en": "Don't pry. If he wants to talk, we'll just listen."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dewan's dictionary places the peeping sense under sibuk II and marks it as Minangkabau usage. This matters because another sibuk describes being busy and taking an intrusive interest in others. Contemporary conversational menyibuk is familiar as a rebuke against meddling. The dictionary distinction prevents learners from treating every occurrence as simply “being busy.”",
+    "cognitive_memory_aid": "想象一个人“忙着探头看”：窥看是词典义，多管闲事是常见口语义；单纯“很忙”则说 sibuk。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Jangan menyibuk 对别人有明显的斥责意味。对长辈、客户或上司表达界限时，可说 Maaf, perkara ini agak peribadi。",
+    "usage_etiquette": "朋友间可用于制止八卦，但亲近关系并不保证对方不会感到冒犯。窥探义带有秘密观察的意味，不宜用来描述普通、公开的观看。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Jangan menyibuk 对别人有明显的斥责意味。对长辈、客户或上司表达界限时，可说 Maaf, perkara ini agak peribadi。",
+    "usage_etiquette": "朋友间可用于制止八卦，但亲近关系并不保证对方不会感到冒犯。窥探义带有秘密观察的意味，不宜用来描述普通、公开的观看。"
+  }
+}

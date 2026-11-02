@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "banci",
+    "syllables": "ban.ci",
+    "ipa": "/ˈbant͡ʃi/",
+    "jawi": "بانچي",
+    "frequency_rank": 11144,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "banci",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + banci → banci",
+    "pattern_note": "词根整体记忆；c 读 /t͡ʃ/。添加 meN- 或 peN- 时，在词首 b 前分别变为 mem-、pem-，保留 b：membanci、pembanci。",
+    "word_family": [
+      {
+        "word": "membanci",
+        "affix": "meN-",
+        "gloss": "进行普查；统计人数、车流等"
+      },
+      {
+        "word": "bancian",
+        "affix": "-an",
+        "gloss": "普查结果；统计所得的数据"
+      },
+      {
+        "word": "pembanci",
+        "affix": "peN-",
+        "gloss": "普查员"
+      },
+      {
+        "word": "pembancian",
+        "affix": "peN-...-an",
+        "gloss": "普查工作；实施普查的过程"
+      }
+    ],
+    "root_jawi": "بانچي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对人口、车辆等特定对象进行系统清点、登记和统计的调查；普查；统计计数。",
+      "en_definition": "A systematic enumeration or count of a defined population or category, such as residents or road traffic.",
+      "ms_definition": "Perhitungan (bilangan penduduk, lalu lintas, dan lain-lain).",
+      "nuances": "本条对应统计义 banci I。人口语境通常译为“普查”，交通语境通常译为“交通量调查”。banci 指调查或计数本身，bancian 侧重所得结果，pembancian 侧重实施过程。正式主动句通常用 membanci 表示“进行普查”；裸词 banci 可用于口语或祈使结构。DBP 另将“平均分配”列为 membanci 的霹雳州方言义，不宜据此把它当作全国通行的 banci 名词义。[释义与派生词依据：DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=banci)。",
+      "collocations": [
+        {
+          "ms": "banci penduduk",
+          "zh": "人口普查",
+          "en": "population census"
+        },
+        {
+          "ms": "banci lalu lintas",
+          "zh": "交通量调查",
+          "en": "traffic count"
+        },
+        {
+          "ms": "banci perumahan",
+          "zh": "住房普查",
+          "en": "housing census"
+        },
+        {
+          "ms": "menjalankan banci",
+          "zh": "开展普查",
+          "en": "conduct a census"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Data banci penduduk digunakan untuk merancang kemudahan awam mengikut keperluan setiap daerah.",
+      "zh": "人口普查数据用于根据各县的需求规划公共设施。",
+      "en": "Population census data are used to plan public facilities according to the needs of each district."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tadi ada pembanci datang kat rumah untuk banci penduduk, tapi aku tak ada.",
+      "ms_standard": "Tadi seorang pembanci datang ke rumah untuk menjalankan banci penduduk, tetapi saya tiada di rumah.",
+      "zh": "刚才有个普查员来家里做人口普查，可我不在家。",
+      "en": "A census officer came by earlier for the population census, but I wasn't home.",
+      "spoken_features": [
+        "kat 在这里口语化地代替表示目的地的 ke。",
+        "tak 是 tidak 的口语形式；tak ada 在这里表示“不在家”。",
+        "dah 是 sudah 的口语形式。",
+        "lah 使建议或回应带有熟人聊天的语气。",
+        "aku、kau 用于关系亲近的同辈之间，正式交流宜用 saya 及适当称谓。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tadi ada pembanci datang kat rumah untuk banci penduduk, tapi aku tak ada. Kau dah jumpa dia?",
+          "ms_standard": "Tadi seorang pembanci datang ke rumah untuk menjalankan banci penduduk, tetapi saya tiada di rumah. Adakah kamu sudah berjumpa dengannya?",
+          "zh": "刚才有个普查员来家里做人口普查，可我不在家。你见到他了吗？",
+          "en": "A census officer came by earlier, but I wasn't home. Have you met him yet?"
+        },
+        {
+          "speaker": "Amir (朋友兼邻居)",
+          "ms_spoken": "Dah, dia kata esok dia datang lagi. Kau tunggu kat rumah dulu lah.",
+          "ms_standard": "Ya, saya sudah berjumpa dengannya. Dia mengatakan bahawa dia akan datang lagi esok. Kamu boleh menunggunya di rumah dahulu.",
+          "zh": "见到了，他说明天还会来。你就先在家等他吧。",
+          "en": "Yes, he said he'd come back tomorrow. Just wait for him at home."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Banci belongs to the language of counting communities. Its deeper linguistic origin is uncertain, but its administrative history is tangible: Malaysia's statistical archives preserve census publications from 1891, while nationwide censuses after Malaysia's formation include 1970. The word thus connects household visits with the larger task of describing a country and planning its services. [Historical context: Department of Statistics Malaysia](https://www.statistics.gov.my/portal-main/downloads-log?id=166).",
+    "cognitive_memory_aid": "把 ban-ci 联想成“办起普查”：普查员逐户登记，最后把人数统计出来。只是记忆联想，不是词源；ci 读近英语 chee。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "统计义 banci 是中性正式用语，适合政府公告、新闻及工作汇报。与普查员交谈可使用 encik 或 puan；提出问题时用 Boleh saya bertanya…?，比直接命令更礼貌。",
+    "usage_etiquette": "谈人口统计时，使用 banci penduduk 或 urusan banci 能清楚限定含义。DBP 另收有涉及性别特征或性别表现的同形词 banci II；把 banci 用作对人的称呼容易造成冒犯，应避免以此评价他人的身体或性别表达。[同形词依据：DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=banci)。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "统计义 banci 是中性正式用语，适合政府公告、新闻及工作汇报。与普查员交谈可使用 encik 或 puan；提出问题时用 Boleh saya bertanya…?，比直接命令更礼貌。",
+    "usage_etiquette": "谈人口统计时，使用 banci penduduk 或 urusan banci 能清楚限定含义。DBP 另收有涉及性别特征或性别表现的同形词 banci II；把 banci 用作对人的称呼容易造成冒犯，应避免以此评价他人的身体或性别表达。[同形词依据：DBP《Kamus Dewan》](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=banci)。"
+  }
+}

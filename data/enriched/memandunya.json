@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "memandunya",
+    "syllables": null,
+    "ipa": "/mə.man.du.ɲa/",
+    "jawi": "ممندو",
+    "frequency_rank": 11122,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "memandu",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "memandu + -nya → memandunya；memandu ← meN- + pandu",
+    "pattern_note": "相对包内直接基底 memandu，-nya 是后附代词，不是派生词缀；suffix 为本格式中的位置归类。更深层词根为 pandu：meN- 遇词首 p，p 脱落并形成 mem-。-nya 读 /ɲa/，此处通常作宾语。包内爪夷文 ممندو 仅对应 memandu，按要求保留；附加 -nya 后完整词形为 ممندونڽ。音节可分析为 me.man.du.nya，但包内 syllables 未提供，保留 null。",
+    "word_family": [
+      {
+        "word": "pemandu",
+        "affix": "peN-",
+        "gloss": "司机；向导"
+      },
+      {
+        "word": "panduan",
+        "affix": "-an",
+        "gloss": "指南；指引"
+      },
+      {
+        "word": "pemanduan",
+        "affix": "peN-...-an",
+        "gloss": "驾驶；驾驶行为"
+      }
+    ],
+    "root_jawi": "ممندو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "驾驶它；操纵前文已经提到的车辆或交通工具。",
+      "en_definition": "To drive or operate a previously mentioned vehicle.",
+      "ms_definition": "Mengendalikan kenderaan yang telah disebut supaya bergerak mengikut arah yang dikehendaki.",
+      "nuances": "-nya 指回车辆，并不自动表示“他的／她的驾驶”，也不标示时态。例：Kereta itu baharu; saya belum memandunya。现代马来西亚日常语境通常优先作驾驶义理解。释义依 DBP 的 pandu 条目归纳，并非逐字引文。[DBP：pandu](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=pandu)。",
+      "collocations": [
+        {
+          "ms": "memandunya dengan cermat",
+          "zh": "小心驾驶它",
+          "en": "drive it carefully"
+        },
+        {
+          "ms": "memandunya pulang",
+          "zh": "把它开回去",
+          "en": "drive it home"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "为他、她或它引路；引导其前进、思考或行动。",
+      "en_definition": "To guide or lead him, her, or it.",
+      "ms_definition": "Menunjukkan jalan atau memberikan pimpinan kepada orang atau perkara yang dirujuk oleh -nya.",
+      "nuances": "-nya 的所指须由上下文确定，不能仅凭词形判断性别。可用于实际引路，也可用于抽象指引；不等于“开车载他／她”，后者通常须另用 membawa 或 menghantar 说明。",
+      "collocations": [
+        {
+          "ms": "memandunya ke jalan keluar",
+          "zh": "引导他／她走向出口",
+          "en": "guide him or her to the exit"
+        },
+        {
+          "ms": "memandunya ke arah yang betul",
+          "zh": "引导其走向正确方向",
+          "en": "guide him, her, or it in the right direction"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "试用或检验它；特定语境中可指试穿前述衣物，或测试前述武器。",
+      "en_definition": "To try or test it, including trying on a garment or testing a weapon.",
+      "ms_definition": "Mencuba atau menguji benda yang dirujuk, seperti pakaian atau senjata.",
+      "nuances": "输入包摘录的是 DBP 另列的 pandu 同形义，不能用它覆盖常见的驾驶义和引导义。现代日常表达通常用 mencuba 或 menguji 更清楚。下列搭配采用词典列出的基式，属于有据用法，不宣称是现代高频搭配。[DBP：pandu 的同形条目](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=pandu)。",
+      "collocations": [
+        {
+          "ms": "memandu pakaian",
+          "zh": "试穿衣物",
+          "en": "try on clothes"
+        },
+        {
+          "ms": "memandu senjata",
+          "zh": "试验武器",
+          "en": "test a weapon"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kenderaan jabatan itu telah diselenggara, dan pegawai yang bertugas akan memandunya ke lokasi pemeriksaan esok.",
+      "zh": "该部门车辆已完成保养，值班人员将于明天驾驶该车前往检查地点。",
+      "en": "The department's vehicle has been serviced, and the officer on duty will drive it to the inspection site tomorrow."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kereta ni besar, tapi aku dah biasa memandunya, jadi tak susah sangat lah.",
+      "ms_standard": "Kereta ini besar, tetapi saya sudah biasa memandunya, jadi tidak begitu sukar.",
+      "zh": "这车挺大的，不过我已经开惯了，倒也没那么难啦。",
+      "en": "This car is big, but I'm used to driving it, so it's not too difficult.",
+      "spoken_features": [
+        "ni 对应 ini，dah 对应 sudah，tak 对应 tidak。",
+        "aku 适用于熟人之间的非正式交流。",
+        "lah 在此缓和语气；书写语音节完整的 memandunya 也可出现于口语，其更随意的替代表达是 bawa kereta ni。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kereta ni besar, tapi aku dah biasa memandunya, jadi tak susah sangat lah.",
+          "ms_standard": "Kereta ini besar, tetapi saya sudah biasa memandunya, jadi tidak begitu sukar.",
+          "zh": "这车挺大的，不过我已经开惯了，倒也没那么难啦。",
+          "en": "This car is big, but I'm used to driving it, so it's not too difficult."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kalau macam tu, kau bawa dulu lah. Aku nak tengok cara kau parkir.",
+          "ms_standard": "Jika begitu, pandulah dahulu. Saya hendak melihat cara kamu meletakkan kereta.",
+          "zh": "那你先开吧，我想看看你怎么停车。",
+          "en": "In that case, you drive first. I want to see how you park it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The lexical connection behind memandunya is guidance: DBP records pandu for a guide and memandu for leading or operating a vehicle. Adding -nya makes the object recoverable from context. A separate homonymous entry means trying or testing, explaining the packet's unexpected reference to clothing and weapons without making that the normal interpretation of driving conversations. [DBP](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=pandu).",
+    "cognitive_memory_aid": "先认 memandu“驾驶／引导”，再接 -nya“它／他／她”：memandunya 就是“驾驶它”或“引导他／她”，对象看上文。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身中性，适用于正式和日常交流。对长辈或不熟悉的人提出驾驶请求，可说 Boleh tuan memandunya?；朋友间常直接说 Boleh bawa kereta ni?",
+    "usage_etiquette": "使用 -nya 前应让听者明确所指对象。涉及驾驶任务时，明确车辆和驾驶者比单独使用代词更清楚；“试用”义宜在足够明确的语境中使用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身中性，适用于正式和日常交流。对长辈或不熟悉的人提出驾驶请求，可说 Boleh tuan memandunya?；朋友间常直接说 Boleh bawa kereta ni?",
+    "usage_etiquette": "使用 -nya 前应让听者明确所指对象。涉及驾驶任务时，明确车辆和驾驶者比单独使用代词更清楚；“试用”义宜在足够明确的语境中使用。"
+  }
+}

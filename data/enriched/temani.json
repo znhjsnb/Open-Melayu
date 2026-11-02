@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "temani",
+    "syllables": "te.ma.ni",
+    "ipa": "/tə.ma.ni/",
+    "jawi": "تمن",
+    "frequency_rank": 11198,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "teman",
+    "affix": "-i",
+    "affix_type": "suffix",
+    "formula": "teman + -i → temani",
+    "pattern_note": "词根加 -i 构成以人为对象的动词，词干无音变；temani 常见于祈使句或第一、第二人称被动结构。主动陈述通常用 menemani。输入 Jawi تمن 是词根 teman 的写法。",
+    "word_family": [
+      {
+        "word": "menemani",
+        "affix": "meN-...-i",
+        "gloss": "陪伴；陪同"
+      },
+      {
+        "word": "ditemani",
+        "affix": "di-...-i",
+        "gloss": "有人陪伴；被陪同"
+      },
+      {
+        "word": "berteman",
+        "affix": "ber-",
+        "gloss": "有伴；与人作伴"
+      }
+    ],
+    "root_jawi": "تمن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "陪伴某人，与其待在一起，使其有人作伴。",
+      "en_definition": "To keep someone company by staying with them.",
+      "ms_definition": "Menjadi teman kepada seseorang dengan berada bersamanya supaya dia tidak bersendirian.",
+      "nuances": "常用于请求或命令，如 Temani saya sebentar. 主动陈述我陪她通常说 Saya menemani dia；Dia saya temani 是她由我陪伴的被动结构。陪伴不必包含移动，也不自动表示恋爱关系。DBP 确认 menemani 可用于陪伴家人等场景。参见 [DBP：menemani 用例](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menemani)。",
+      "collocations": [
+        {
+          "ms": "temani saya sebentar",
+          "zh": "陪我一会儿",
+          "en": "keep me company for a moment"
+        },
+        {
+          "ms": "temani ibu di rumah",
+          "zh": "在家陪妈妈",
+          "en": "keep Mum company at home"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "陪同某人前往某处或参与某项活动。",
+      "en_definition": "To accompany someone somewhere or during an activity.",
+      "ms_definition": "Mengiringi atau bersama-sama seseorang ketika pergi ke sesuatu tempat atau melakukan sesuatu kegiatan.",
+      "nuances": "通常接被陪同的人，再接地点或活动，如 temani saya ke klinik。重点是一起前往或相伴，不必然表示开车接送；表示接送可用 hantar。此义与在原地作伴有交叠。参见 [DBP：menemani 用例](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menemani)。",
+      "collocations": [
+        {
+          "ms": "temani saya ke klinik",
+          "zh": "陪我去诊所",
+          "en": "accompany me to the clinic"
+        },
+        {
+          "ms": "temani ibu ke pasar",
+          "zh": "陪妈妈去市场",
+          "en": "accompany Mum to the market"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila temani tetamu ke bilik mesyuarat sementara menunggu ketibaan pengarah.",
+      "zh": "请在等候主任到来期间陪同来宾前往会议室。",
+      "en": "Please accompany the guests to the meeting room while awaiting the director's arrival."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Temani aku pergi klinik kejap, boleh? Aku tak nak pergi sorang.",
+      "ms_standard": "Bolehkah kamu menemani saya ke klinik sebentar? Saya tidak mahu pergi seorang diri.",
+      "zh": "陪我去一下诊所，好吗？我不想一个人去。",
+      "en": "Could you come to the clinic with me? I don't want to go alone.",
+      "spoken_features": [
+        "祈使句使用无 meN- 的 temani",
+        "kejap 是 sekejap 的口语缩略形式",
+        "tak nak 对应标准语 tidak mahu",
+        "sorang 对应标准语 seorang diri"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Temani aku pergi klinik kejap, boleh? Aku dah buat janji temu.",
+          "ms_standard": "Bolehkah kamu menemani saya ke klinik sebentar? Saya sudah membuat janji temu.",
+          "zh": "陪我去一下诊所，可以吗？我已经预约了。",
+          "en": "Could you come to the clinic with me? I've already booked an appointment."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh je. Aku tunggu kau kat bawah pukul tiga, ya.",
+          "ms_standard": "Boleh. Saya akan menunggu kamu di bawah pada pukul tiga.",
+          "zh": "可以啊。我三点在楼下等你。",
+          "en": "Sure. I'll meet you downstairs at three."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Teman names a companion, while temani turns companionship into an action directed toward another person. This transparent relationship is more useful than an unsupported ancient-origin story. DBP recognizes teman as valid Malay, although kawan and rakan are often more usual in Malaysian usage. The verb naturally extends from keeping someone company to accompanying them somewhere. [DBP](https://prpmv1.dbp.gov.my/Search.aspx?d=10&k=teman+kawan)",
+    "cognitive_memory_aid": "teman 是同伴，teman + -i 就是给某人作伴：Temani saya＝陪陪我。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接说 Temani saya 可作请求，但对长辈、上司或不熟悉的人，Boleh temani saya...? 或 Bolehkah tuan menemani saya...? 更委婉。",
+    "usage_etiquette": "可用于朋友、家人、同事或来宾，不限定亲密关系。请求陪同看诊或办事时宜说明地点和所需时间；不要把陪同默认理解为承担交通费用或照护责任。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接说 Temani saya 可作请求，但对长辈、上司或不熟悉的人，Boleh temani saya...? 或 Bolehkah tuan menemani saya...? 更委婉。",
+    "usage_etiquette": "可用于朋友、家人、同事或来宾，不限定亲密关系。请求陪同看诊或办事时宜说明地点和所需时间；不要把陪同默认理解为承担交通费用或照护责任。"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "sajakah",
+    "syllables": "sa.ja.kah",
+    "ipa": "/sa.dʒa.kah/",
+    "jawi": "ساج",
+    "frequency_rank": 11148,
+    "status": "colloquial_derived"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "saja",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "saja + -kah → sajakah",
+    "pattern_note": "-kah 是附着书写的疑问强调小品词，此处按给定字段归入 suffix；加接时不发生词根音变。输入包的 ساج 仅记录词根 saja，headword.jawi 按要求保留原值，不能视为完整 sajakah 的爪夷拼写。音节与 IPA 为规则分析。",
+    "word_family": [
+      {
+        "word": "saja",
+        "affix": null,
+        "gloss": "仅仅；sahaja 的口语形式"
+      },
+      {
+        "word": "sahaja",
+        "affix": null,
+        "gloss": "仅仅；完整对应形式，非 saja 加词缀"
+      },
+      {
+        "word": "sahajakah",
+        "affix": "-kah",
+        "gloss": "只是……吗；完整形式的疑问结构"
+      }
+    ],
+    "root_jawi": "ساج"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "用于追问是否仅限于前述的人、事物、数量或方式，相当于“只是……吗”“就……而已吗”。",
+      "en_definition": "An interrogative combination meaning 'only …?' or 'just …?', questioning the limitation expressed by saja.",
+      "ms_definition": "Gabungan saja dengan partikel tanya -kah untuk menanyakan sama ada sesuatu itu terhad kepada perkara yang disebut.",
+      "nuances": "这是 saja 与 -kah 的可分析组合，不宜冒称 DBP 已独立收录本词。saja 被 Kamus Dewan 标为口语；正式表达宜用 sahajakah。语气可中性求证，也可因重音而显出失望或质疑。此释义为组合分析。[DBP：saja](https://prpm.dbp.gov.my/cari1?keyword=saja)；-kah 须连写，参见 [DBP：马来语拼写规范](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "itu sajakah",
+          "zh": "就那些而已吗",
+          "en": "is that all?"
+        },
+        {
+          "ms": "begitu sajakah",
+          "zh": "就这样而已吗",
+          "en": "just like that?"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Editor mencadangkan supaya bentuk 'sajakah' dalam petikan itu digantikan dengan 'sahajakah' agar sesuai dengan laras rasmi.",
+      "zh": "编辑建议将引文中的 sajakah 改为 sahajakah，以符合正式语体。",
+      "en": "The editor suggested replacing 'sajakah' with 'sahajakah' in the passage to suit a formal register."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Itu sajakah yang kau nak?",
+      "ms_standard": "Itu sahajakah yang kamu hendak?",
+      "zh": "你要的就这些吗？",
+      "en": "Is that all you want?",
+      "spoken_features": [
+        "saja 是 sahaja 的口语对应形式。",
+        "nak 对应 hendak。",
+        "kau 适用于熟人交流。",
+        "保留 -kah 可带刻意强调的语气；随意口语也常说 Itu je ke yang kau nak?"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Itu sajakah yang kau nak? Aku dah nak keluar beli barang ni.",
+          "ms_standard": "Itu sahajakah yang kamu hendak? Saya sudah hendak keluar membeli barang.",
+          "zh": "你要的就这些吗？我这就要出门买东西了。",
+          "en": "Is that all you want? I'm about to head out shopping."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, roti je. Yang lain semua dah ada kat rumah.",
+          "ms_standard": "Ya, roti sahaja. Barang yang lain semuanya sudah ada di rumah.",
+          "zh": "对，只要面包。其他东西家里都有了。",
+          "en": "Yes, just bread. We've got everything else at home."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sajakah combines the conversational form saja with the interrogative particle -kah. DBP records saja as a colloquial equivalent of sahaja. The combination illustrates how Malay builds questions by attaching a particle to the expression being questioned. Its meaning depends on what precedes it, while the fuller sahajakah suits more formal wording.",
+    "cognitive_memory_aid": "sa-ja 表“仅此”，句尾 -kah 加问号：sajakah＝“就这样而已吗？”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "询问数量时通常可中性使用，但 Itu sajakah? 配合不满语调会让人觉得对方给得太少；对长辈、客户或上级宜用完整、具体的问句。",
+    "usage_etiquette": "适合熟人聊天、人物对白及带口语色彩的文字。正式询问可说 Itu sahajakah dokumen yang diperlukan?，明确询问范围。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "询问数量时通常可中性使用，但 Itu sajakah? 配合不满语调会让人觉得对方给得太少；对长辈、客户或上级宜用完整、具体的问句。",
+    "usage_etiquette": "适合熟人聊天、人物对白及带口语色彩的文字。正式询问可说 Itu sahajakah dokumen yang diperlukan?，明确询问范围。"
+  }
+}
