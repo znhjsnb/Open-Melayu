@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "pendapatan",
+    "syllables": "pen.da.pa.tan",
+    "ipa": "/pən.da.pa.tan/",
+    "jawi": "ڤنداڤتن",
+    "frequency_rank": 5089,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pendapat",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + dapat + -an → pendapatan",
+    "pattern_note": "root_word 与 root_jawi 按输入保留 pendapat；实际构词以 dapat 为基础。peN- 在 /d/ 前实现为 pen-，/d/ 保留，组成 pen-dapat-an，表示所得。不要把收入义理解成“意见 pendapat 加后缀”。[构词研究依据](https://spaj.ukm.my/jws/index.php/jws/article/download/677/566/)",
+    "word_family": [
+      {
+        "word": "dapat",
+        "affix": "∅",
+        "gloss": "得到；能够"
+      },
+      {
+        "word": "mendapat",
+        "affix": "meN-",
+        "gloss": "获得"
+      },
+      {
+        "word": "dapatan",
+        "affix": "-an",
+        "gloss": "研究所得；发现"
+      },
+      {
+        "word": "berpendapatan",
+        "affix": "ber- + pendapatan",
+        "gloss": "有收入；收入为"
+      }
+    ],
+    "root_jawi": "ڤنداڤت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "收入；个人、家庭或机构在一定时期内从工作、经营、投资等来源获得的钱款或收益。",
+      "en_definition": "Income or earnings received by a person, household, or organization over a specified period.",
+      "ms_definition": "Wang atau hasil yang diterima dalam tempoh tertentu daripada pekerjaan, perniagaan, pelaburan atau sumber lain.",
+      "nuances": "范围比 gaji“薪金”广，可包括工资以外的收入。用于企业或机构时，译作 income 或 revenue 须看具体语境；不自动等于 keuntungan“利润”。[DBP 词义依据](https://prpm.dbp.gov.my/Cari1?d=234664&keyword=pendapatan)",
+      "collocations": [
+        {
+          "ms": "pendapatan bulanan",
+          "zh": "月收入",
+          "en": "monthly income"
+        },
+        {
+          "ms": "pendapatan isi rumah",
+          "zh": "家庭收入",
+          "en": "household income"
+        },
+        {
+          "ms": "pendapatan kasar",
+          "zh": "总收入；扣除款项前的收入",
+          "en": "gross income"
+        },
+        {
+          "ms": "pendapatan bersih",
+          "zh": "净收入",
+          "en": "net income"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "首次发现或创制的成果；此前不存在或尚不为人所知的发现。",
+      "en_definition": "A discovery or invention involving something previously nonexistent or unknown.",
+      "ms_definition": "Hasil menemukan atau menghasilkan sesuatu buat kali pertama yang sebelumnya belum ada atau belum diketahui.",
+      "nuances": "DBP 收录的低频义；现代马来西亚语通常改用 penemuan 或 ciptaan，以免被理解为收入。以下是识别此义的语境搭配，不应视为现代高频搭配。[DBP 词义依据](https://prpm.dbp.gov.my/Cari1?d=234664&keyword=pendapatan)",
+      "collocations": [
+        {
+          "ms": "pendapatan baharu dalam bidang sains",
+          "zh": "科学领域的新发现",
+          "en": "a new scientific discovery"
+        },
+        {
+          "ms": "pendapatan Baird dalam bidang televisyen",
+          "zh": "贝尔德在电视领域的发明成果",
+          "en": "Baird's invention in the field of television"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pemohon perlu mengemukakan dokumen yang mengesahkan pendapatan bulanan isi rumah.",
+      "zh": "申请人须提交证明家庭月收入的文件。",
+      "en": "Applicants must submit documents verifying their household's monthly income."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pendapatan aku bulan ni kurang sikit, jadi aku nak berjimat dulu.",
+      "ms_standard": "Pendapatan saya pada bulan ini berkurang sedikit, jadi saya hendak berjimat dahulu.",
+      "zh": "我这个月收入少了点，所以想先省着花。",
+      "en": "My income's a bit lower this month, so I'm trying to cut back for now.",
+      "spoken_features": [
+        "bulan ni 对应 bulan ini，口语省略介词 pada。",
+        "nak 对应 hendak；dulu 在此对应 dahulu。",
+        "sikit 是 sedikit 的口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Pendapatan aku bulan ni kurang sikit. Makan kat rumah je malam ni, jom?",
+          "ms_standard": "Pendapatan saya pada bulan ini berkurang sedikit. Mari kita makan di rumah sahaja malam ini.",
+          "zh": "我这个月收入少了点。今晚就在家吃吧，怎么样？",
+          "en": "I'm earning a bit less this month. Shall we just eat at home tonight?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh je. Aku dah beli barang dapur, nanti kita masak sama-sama.",
+          "ms_standard": "Boleh. Saya sudah membeli barang dapur; nanti kita memasak bersama-sama.",
+          "zh": "可以啊。我已经买好食材了，等下一起做。",
+          "en": "Sure. I've already bought groceries, so we can cook together."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pendapatan belongs to the Malay family built around dapat, meaning to obtain. Its structure presents income as what is obtained through work or other sources. The dictionary also preserves a discovery sense: something newly obtained through knowledge or invention. This connection helps explain why one word can refer both to financial receipts and to intellectual discoveries. [DBP](https://prpm.dbp.gov.my/Cari1?d=234664&keyword=pendapatan)",
+    "cognitive_memory_aid": "抓住中间的 dapat“得到”：每个月得到的钱，就是 pendapatan“收入”；别与 pendapat“意见”混淆。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "收入属于私人信息。确有需要时可说 Jika tidak keberatan, boleh saya tahu anggaran pendapatan bulanan tuan/puan?，先征求对方意愿。",
+    "usage_etiquette": "适用于求职、补助申请、家庭预算及经济报道。填写表格时留意要求的是个人还是家庭收入，以及总收入还是净收入。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "收入属于私人信息。确有需要时可说 Jika tidak keberatan, boleh saya tahu anggaran pendapatan bulanan tuan/puan?，先征求对方意愿。",
+    "usage_etiquette": "适用于求职、补助申请、家庭预算及经济报道。填写表格时留意要求的是个人还是家庭收入，以及总收入还是净收入。"
+  }
+}

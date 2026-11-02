@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "batuk",
+    "syllables": null,
+    "ipa": "[ba.tuʔ]",
+    "jawi": "باتوق",
+    "frequency_rank": 5088,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "batuk",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + batuk → batuk",
+    "pattern_note": "双音节词，读作 ba.tuk；马来西亚常见读音中，词尾 /k/ 实现为喉塞音 [ʔ]。输入未提供 syllables，因此保留 null。",
+    "word_family": [
+      {
+        "word": "berbatuk",
+        "affix": "ber-",
+        "gloss": "咳嗽"
+      },
+      {
+        "word": "membatukkan",
+        "affix": "meN-...-kan",
+        "gloss": "有意咳出；咳出某物"
+      },
+      {
+        "word": "terbatuk-batuk",
+        "affix": "ter- + 重叠",
+        "gloss": "不由自主地连连咳嗽"
+      }
+    ],
+    "root_jawi": "باتوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "咳嗽；从肺部突然用力呼出空气，并发出明显声响。",
+      "en_definition": "To expel air suddenly and forcefully from the lungs with a characteristic sound; to cough.",
+      "ms_definition": "Menghembuskan udara dari paru-paru secara tiba-tiba dan kuat sehingga menghasilkan bunyi yang nyata.",
+      "nuances": "可直接作不及物谓语，如 Dia batuk；berbatuk 也表示这一动作。单说 batuk 不说明病因。[DBP 词义依据](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=batuk)",
+      "collocations": [
+        {
+          "ms": "batuk berulang-ulang",
+          "zh": "反复咳嗽",
+          "en": "cough repeatedly"
+        },
+        {
+          "ms": "batuk dengan kuat",
+          "zh": "大声咳嗽",
+          "en": "cough loudly"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "咳嗽声；一次或多次咳嗽所发出的声音。",
+      "en_definition": "The sound produced by coughing.",
+      "ms_definition": "Bunyi yang terhasil apabila seseorang menghembuskan udara dengan kuat ketika batuk.",
+      "nuances": "着重听觉表现，而非疾病；常与 bunyi、kedengaran 等词搭配。",
+      "collocations": [
+        {
+          "ms": "bunyi batuk",
+          "zh": "咳嗽声",
+          "en": "the sound of coughing"
+        },
+        {
+          "ms": "batuk yang kuat",
+          "zh": "响亮的咳嗽声",
+          "en": "a loud cough"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "咳嗽这一症状或持续咳嗽的状态。",
+      "en_definition": "A cough as a symptom or a condition involving repeated coughing.",
+      "ms_definition": "Gejala atau keadaan yang menyebabkan seseorang kerap mengeluarkan bunyi batuk.",
+      "nuances": "日常可说 saya ada batuk 或 mengalami batuk。这里是症状名称；不能仅凭此词判断具体疾病。",
+      "collocations": [
+        {
+          "ms": "ubat batuk",
+          "zh": "止咳药",
+          "en": "cough medicine"
+        },
+        {
+          "ms": "batuk berkahak",
+          "zh": "有痰咳嗽",
+          "en": "a cough with phlegm"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pekerja yang mengalami batuk diminta memaklumkan keadaan mereka kepada penyelia.",
+      "zh": "出现咳嗽症状的员工请向主管说明自身情况。",
+      "en": "Employees experiencing a cough are asked to inform their supervisor."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah batuk dari semalam, jadi hari ni aku rehat kat rumah je.",
+      "ms_standard": "Saya sudah batuk sejak semalam, jadi hari ini saya berehat di rumah sahaja.",
+      "zh": "我从昨天就开始咳了，今天就在家休息吧。",
+      "en": "I've been coughing since yesterday, so I'm just resting at home today.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "kat rumah 对应标准语 di rumah；je 对应 sahaja。",
+        "ni 对应 ini；aku 适用于熟人之间。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau masih batuk ke? Nak aku belikan makanan?",
+          "ms_standard": "Adakah awak masih batuk? Mahukah awak saya belikan makanan?",
+          "zh": "你还在咳啊？要我帮你买吃的吗？",
+          "en": "Are you still coughing? Want me to get you some food?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, dari semalam lagi. Aku nak rehat kat rumah je hari ni.",
+          "ms_standard": "Ya, sejak semalam lagi. Saya hendak berehat di rumah sahaja hari ini.",
+          "zh": "对啊，从昨天就开始了。我今天就想在家休息。",
+          "en": "Yeah, since yesterday. I just want to rest at home today."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Batuk functions as a simple Malay base, naming an action, its sound, and the condition associated with it. Its cultural reach appears in the proverb melepaskan batuk di tangga, which criticizes doing a task half-heartedly. The expression connects an ordinary bodily action with a wider lesson about effort and responsibility. [DBP](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=batuk)",
+    "cognitive_memory_aid": "读 ba-tuʔ，想象最后一口气突然被喉咙截住，再咳出来：batuk＝咳嗽。这是发音联想。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "询问不熟悉的人时，可说 Adakah tuan/puan mengalami batuk?；与朋友聊天可说 Masih batuk ke?，语气应体现关心。",
+    "usage_etiquette": "适用于家庭、学校、职场及就医交流。谈论他人的咳嗽时，描述症状即可，避免用玩笑暗示对方患有某种疾病。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "询问不熟悉的人时，可说 Adakah tuan/puan mengalami batuk?；与朋友聊天可说 Masih batuk ke?，语气应体现关心。",
+    "usage_etiquette": "适用于家庭、学校、职场及就医交流。谈论他人的咳嗽时，描述症状即可，避免用玩笑暗示对方患有某种疾病。"
+  }
+}

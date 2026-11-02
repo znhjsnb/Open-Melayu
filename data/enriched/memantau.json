@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "memantau",
+    "syllables": "me.man.tau",
+    "ipa": "/məˈmantaw/",
+    "jawi": "ممنتاو",
+    "frequency_rank": 5083,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pantau",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + pantau → memantau",
+    "pattern_note": "基础词首音 p 在 meN- 派生中脱落，鼻音实现为 m：pantau → memantau。输入包将整词判为词根，现按 DBP 的 pantau 词族修正。",
+    "word_family": [
+      {
+        "word": "pemantauan",
+        "affix": "peN-…-an",
+        "gloss": "监测；监督过程"
+      },
+      {
+        "word": "pemantau",
+        "affix": "peN-",
+        "gloss": "监测人员；监测仪"
+      },
+      {
+        "word": "pantauan",
+        "affix": "-an",
+        "gloss": "监测所得情况"
+      },
+      {
+        "word": "dipantau",
+        "affix": "di-",
+        "gloss": "受到监测"
+      }
+    ],
+    "root_jawi": "ڤنتاو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "持续或定期仔细观察、检查某事的发展或状态，以便监督、预防问题或作出改进。",
+      "en_definition": "To monitor developments or conditions through regular, careful observation and checking.",
+      "ms_definition": "Mengikuti perkembangan atau keadaan sesuatu melalui pemerhatian dan pemeriksaan yang teliti serta berulang.",
+      "nuances": "现代最常用义。通常包含持续跟进，而非只看一眼；监测结果可用于决策，但 memantau 本身不表示已经干预或解决问题。见 [DBP：pantau](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=memantau)。",
+      "collocations": [
+        {
+          "ms": "memantau perkembangan projek",
+          "zh": "跟踪项目进展",
+          "en": "monitor project progress"
+        },
+        {
+          "ms": "memantau paras air",
+          "zh": "监测水位",
+          "en": "monitor water levels"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "看一看、探看或前去察看。",
+      "en_definition": "To look at, look in on, or visit to see how something is.",
+      "ms_definition": "Melihat, menengok atau menjenguk sesuatu atau seseorang.",
+      "nuances": "属于词典记录的旧用法；现代读者通常会先理解为监测。以下为释义搭配，日常表达多改用 melihat 或 menjenguk。",
+      "collocations": [
+        {
+          "ms": "memantau keadaan di luar",
+          "zh": "探看外面的情况",
+          "en": "look at the situation outside"
+        },
+        {
+          "ms": "memantau orang sakit",
+          "zh": "探看病人",
+          "en": "look in on a sick person"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "【沙巴地方用语】使受伤部位不再出血；止血。",
+      "en_definition": "In Sabah regional usage, to stop bleeding from an injured part of the body.",
+      "ms_definition": "Dalam penggunaan Sabah, menghentikan darah yang keluar daripada bahagian tubuh yang luka.",
+      "nuances": "输入包引用的是这个标注 Sb 的地方义，不能据此覆盖全国通用的监测义。以下为地方义释义搭配；全国通行表达为 menghentikan pendarahan。",
+      "collocations": [
+        {
+          "ms": "memantau tangan yang terluka",
+          "zh": "给受伤的手止血",
+          "en": "stop the bleeding from an injured hand"
+        },
+        {
+          "ms": "memantau bahagian yang cedera",
+          "zh": "给受伤部位止血",
+          "en": "stop the bleeding from an injured area"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan teknikal akan memantau paras air sungai secara berterusan sepanjang musim tengkujuh.",
+      "zh": "技术团队将在整个雨季持续监测河流水位。",
+      "en": "The technical team will continuously monitor river levels throughout the monsoon season."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku tengah memantau paras air kat belakang rumah ni.",
+      "ms_standard": "Saya sedang memantau paras air di belakang rumah ini.",
+      "zh": "我正在盯着屋后的水位。",
+      "en": "I'm keeping an eye on the water level behind the house.",
+      "spoken_features": [
+        "tengah 表示 sedang",
+        "kat 对应 di",
+        "ni 是 ini 的口语形式",
+        "memantau 在谈论实际监测任务时可自然保留完整前缀"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (邻居)",
+          "ms_spoken": "Aku tengah memantau paras air kat belakang rumah ni. Dah naik sikit.",
+          "ms_standard": "Saya sedang memantau paras air di belakang rumah ini. Parasnya sudah meningkat sedikit.",
+          "zh": "我正在盯着屋后的水位，已经涨了一点。",
+          "en": "I'm keeping an eye on the water behind the house. It's come up a bit."
+        },
+        {
+          "speaker": "Farah (邻居)",
+          "ms_spoken": "Kalau naik lagi, bagitahu aku ya. Aku nak alihkan kereta.",
+          "ms_standard": "Jika paras air meningkat lagi, beritahu saya. Saya mahu mengalihkan kereta.",
+          "zh": "再涨的话跟我说一声啊，我要把车挪走。",
+          "en": "Let me know if it rises any more, okay? I'll need to move the car."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records pantau with both looking-related meanings and the modern sense of systematic monitoring. This makes the word family useful across public administration, environmental observation, and technical work. A separate Sabah sense concerns stopping bleeding. These dictionary groupings explain why a single extracted definition can misrepresent the word's usual meaning. See [DBP: memantau](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=memantau).",
+    "cognitive_memory_aid": "看见 pantau，就想象监测屏幕上的曲线；加上 meN-，p 被鼻音替换，memantau＝持续盯着变化。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在政府、学校和工作场合属于中性正式用语。谈到监测个人活动时，说明职责和目的，可减少被理解为不信任或盯梢的感觉。",
+    "usage_etiquette": "项目、价格、水位和系统状态都适用。医疗语境中 memantau pesakit 通常指观察病情；不要把沙巴止血义当作全国通用解释。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在政府、学校和工作场合属于中性正式用语。谈到监测个人活动时，说明职责和目的，可减少被理解为不信任或盯梢的感觉。",
+    "usage_etiquette": "项目、价格、水位和系统状态都适用。医疗语境中 memantau pesakit 通常指观察病情；不要把沙巴止血义当作全国通用解释。"
+  }
+}

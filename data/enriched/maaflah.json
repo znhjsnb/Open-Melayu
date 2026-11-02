@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "maaflah",
+    "syllables": null,
+    "ipa": "/ma.af.lah/",
+    "jawi": "معاف",
+    "frequency_rank": 5092,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "maaf",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "maaf + -lah → maaflah",
+    "pattern_note": "-lah 实为附着于前词的语气词，不是派生词缀；此处按给定分类记为 suffix。maaf 的两个 a 可分属两个音节。headword.jawi 按输入保留 معاف，该形式仅写出 maaf；加上 -lah 的整词写法为 معافله。输入未提供 syllables，因此保留 null。[DBP 语气词书写说明](https://prpm.dbp.gov.my/cari1?d=175768&keyword=perlu+lah)",
+    "word_family": [
+      {
+        "word": "maaf",
+        "affix": "∅",
+        "gloss": "原谅；对不起"
+      },
+      {
+        "word": "memaafkan",
+        "affix": "meN-...-kan",
+        "gloss": "原谅某人或某项过错"
+      },
+      {
+        "word": "pemaaf",
+        "affix": "pe-",
+        "gloss": "宽容的；容易原谅别人的人"
+      },
+      {
+        "word": "bermaaf-maafan",
+        "affix": "ber-...-an + 重叠",
+        "gloss": "互相请求并给予原谅"
+      }
+    ],
+    "root_jawi": "معاف"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "对不起呀；请见谅。用于向对方表达歉意，语气受 -lah 和语调影响。",
+      "en_definition": "Sorry; please forgive me, with an interpersonal emphasis conveyed by -lah.",
+      "ms_definition": "Ungkapan meminta maaf atau memohon supaya kesalahan dan kesilapan dimaafkan, dengan penegasan partikel -lah.",
+      "nuances": "整个表达在传统词类分析中可视为感叹或道歉用语；此处依给定词类范围归入 particle，-lah 本身是语气词。轻柔语调可显亲近，重读则可能显得不耐烦；不是自动加强礼貌。[DBP 基词释义](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pemaaf)",
+      "collocations": [
+        {
+          "ms": "maaflah, saya terlambat",
+          "zh": "对不起，我迟到了",
+          "en": "sorry I'm late"
+        },
+        {
+          "ms": "maaflah kalau tersalah cakap",
+          "zh": "如果说错了话，请见谅",
+          "en": "sorry if I said something wrong"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "不好意思；抱歉。用于引出拒绝、不同意见或不便答应的说明。",
+      "en_definition": "Sorry or excuse me, used to introduce a refusal, disagreement, or qualification.",
+      "ms_definition": "Ungkapan pendahuluan untuk melembutkan penolakan, perbezaan pendapat atau penjelasan bahawa sesuatu tidak dapat dipenuhi.",
+      "nuances": "属于道歉表达的语用延伸，不一定承认有过错。maaflah, saya tak setuju 可以缓和异议，也可能因语调而成为强硬的反驳；正式表达宜用 maaf 或 mohon maaf。",
+      "collocations": [
+        {
+          "ms": "maaflah, saya tak dapat datang",
+          "zh": "不好意思，我来不了",
+          "en": "sorry, I can't make it"
+        },
+        {
+          "ms": "maaflah, saya tak setuju",
+          "zh": "抱歉，我不同意",
+          "en": "sorry, I disagree"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam latihan komunikasi pelanggan, penyelia menjelaskan bahawa ungkapan maaflah lebih sesuai dalam perbualan santai, manakala kami memohon maaf lebih sesuai dalam surat rasmi.",
+      "zh": "在客户沟通培训中，主管说明，maaflah 更适合轻松交谈，而 kami memohon maaf 更适合正式书信。",
+      "en": "During customer communication training, the supervisor explained that maaflah is more suitable for casual conversation, while kami memohon maaf is more appropriate in formal letters."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Maaflah, aku baru nampak mesej kau. Tadi aku tengah kerja.",
+      "ms_standard": "Maaflah, saya baru melihat mesej awak. Tadi saya sedang bekerja.",
+      "zh": "不好意思啊，我刚看到你的消息，刚才在忙工作。",
+      "en": "Sorry, I've only just seen your message. I was working earlier.",
+      "spoken_features": [
+        "-lah 与 maaf 连写，表达效果取决于语调及上下文。",
+        "tengah kerja 对应 sedang bekerja。",
+        "aku、kau 适用于熟人交流；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Maaflah, aku baru nampak mesej kau. Kau dah sampai ke?",
+          "ms_standard": "Maaflah, saya baru melihat mesej awak. Adakah awak sudah sampai?",
+          "zh": "不好意思啊，我刚看到你的消息。你已经到了吗？",
+          "en": "Sorry, I've only just seen your message. Are you there already?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tak apa, aku baru sampai je. Aku tunggu kat depan kedai.",
+          "ms_standard": "Tidak mengapa, saya baru sahaja sampai. Saya menunggu di hadapan kedai.",
+          "zh": "没事，我也刚到。我在店门口等。",
+          "en": "No worries, I've only just arrived. I'm waiting outside the shop."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Maaf is an Arabic loan associated with pardon and exemption; linguistic research connects it with Arabic muʿāf. Malay speakers combine this borrowed base with the native discourse particle -lah. The resulting expression shows how an established loan participates in everyday Malay interaction, where tone can make the same apology sound warm, insistent, or impatient. [Linguistic study](https://www.lotpublications.nl/Documents/651_fulltext.pdf)",
+    "cognitive_memory_aid": "先记 maaf“对不起”，再把 lah 当作语气按钮：maaflah≈“不好意思呀”。按钮改变语气，不保证更客气。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对长辈、客户或上司，Saya mohon maaf 或 Maafkan saya 更稳妥。朋友间轻声说 maaflah 很自然；拖长或重读 lah 可能显得敷衍。",
+    "usage_etiquette": "适合熟人聊天、解释迟回复或婉拒邀约。严重失误需要明确说明责任和补救措施；仅说 maaflah 容易让对方觉得道歉不够认真。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对长辈、客户或上司，Saya mohon maaf 或 Maafkan saya 更稳妥。朋友间轻声说 maaflah 很自然；拖长或重读 lah 可能显得敷衍。",
+    "usage_etiquette": "适合熟人聊天、解释迟回复或婉拒邀约。严重失误需要明确说明责任和补救措施；仅说 maaflah 容易让对方觉得道歉不够认真。"
+  }
+}

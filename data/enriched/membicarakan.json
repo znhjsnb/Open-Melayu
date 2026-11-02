@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "membicarakan",
+    "syllables": "mem.bi.ca.ra.kan",
+    "ipa": "/məm.bi.t͡ʃa.ra.kan/",
+    "jawi": "ممبيچاراکن",
+    "frequency_rank": 5138,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bicarakan",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + bicarakan → membicarakan；完整构词：meN- + bicara + -kan → membicarakan",
+    "pattern_note": "数据包的 bicarakan 是直接词基，更底层的词根是 bicara。meN- 在 b 前变为 mem-，原有 b 保留；完整形式另含 -kan。root_jawi 因数据包缺值，依指定规则沿用整词拼写；bicarakan 本身写作 بيچاراکن。",
+    "word_family": [
+      {
+        "word": "berbicara",
+        "affix": "ber-",
+        "gloss": "谈话；发言"
+      },
+      {
+        "word": "pembicaraan",
+        "affix": "peN-…-an",
+        "gloss": "讨论；交谈；案件审理"
+      }
+    ],
+    "root_jawi": "ممبيچاراکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "谈论、讨论或论述某个议题、人物或作品。",
+      "en_definition": "To discuss, talk about, or examine a subject in speech or writing.",
+      "ms_definition": "Mempercakapkan, memperkatakan atau membincangkan sesuatu.",
+      "nuances": "及物动词，可直接接议题作宾语，例如 membicarakan masalah itu。也可用于书籍或文章论述某事；日常聊天中常用 bincang 或 cakap pasal 表达相近意思。[DBP 词义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membicarakan)",
+      "collocations": [
+        {
+          "ms": "membicarakan isu semasa",
+          "zh": "讨论时事议题",
+          "en": "discuss current issues"
+        },
+        {
+          "ms": "membicarakan masalah kewangan",
+          "zh": "讨论财务问题",
+          "en": "discuss financial problems"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "由法院审理案件，听取并审断有关事项。",
+      "en_definition": "To hear and try a case in court.",
+      "ms_definition": "Mengadili sesuatu perkara di mahkamah.",
+      "nuances": "属于司法语境，常以 mahkamah 或 hakim 为主语，以 kes 或 perkara 为宾语。审理案件不等于已经判定被告有罪，也不同于警方调查或提出控罪。[DBP 司法义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=membicarakan)",
+      "collocations": [
+        {
+          "ms": "membicarakan kes jenayah",
+          "zh": "审理刑事案件",
+          "en": "try a criminal case"
+        },
+        {
+          "ms": "membicarakan kes sivil",
+          "zh": "审理民事案件",
+          "en": "hear a civil case"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 法庭报道",
+      "ms": "Mahkamah akan membicarakan kes itu pada bulan hadapan.",
+      "zh": "法院将于下个月审理该案。",
+      "en": "The court will hear the case next month."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事谈论会议议程",
+      "ms_spoken": "Bos nak membicarakan isu bajet tu esok, kan?",
+      "ms_standard": "Ketua kita mahu membicarakan isu belanjawan itu esok, bukan?",
+      "zh": "老板明天要讨论那个预算问题，对吧？",
+      "en": "The boss wants to discuss that budget issue tomorrow, right?",
+      "spoken_features": [
+        "nak 对应 mahu 或 hendak",
+        "tu 对应 itu",
+        "kan 用于确认共同掌握的信息",
+        "保留较正式的目标词 membicarakan，呈现同事聊天中的语体混用"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Bos nak membicarakan isu bajet tu esok, kan?",
+          "ms_standard": "Ketua kita mahu membicarakan isu belanjawan itu esok, bukan?",
+          "zh": "老板明天要讨论那个预算问题，对吧？",
+          "en": "The boss wants to discuss that budget issue tomorrow, right?"
+        },
+        {
+          "speaker": "Mei Ling (同事)",
+          "ms_spoken": "Ya, aku dah siapkan angka terkini. Nanti kita bincang dulu, ya.",
+          "ms_standard": "Ya, saya sudah menyediakan angka terkini. Nanti kita berbincang terlebih dahulu.",
+          "zh": "对，我已经把最新数据准备好了。待会儿咱们先讨论一下吧。",
+          "en": "Yes, I've got the latest figures ready. Let's go over them together first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The deeper base bicara comes from Sanskrit vicāra, associated with discussion and consideration. Its legal connections are longstanding: historical research records bicara in nineteenth-century Malay dictionaries with meanings such as suit and cause. Modern membicarakan preserves both strands, moving between discussing a subject and hearing a case in court. [Loanword database](https://wold.clld.org/word/7126183932212735), [Historical study](https://ejournal.usm.my/kajh/article/download/kajh_vol27-no-1-2020_4/pdf/3685)",
+    "cognitive_memory_aid": "记住 bicara 这块“谈、议”的核心：meN- + bicara + -kan＝把某事拿来讨论；放进法庭，就是把案件拿来审理。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论义较适合会议、文章和正式交流。谈敏感问题时，可说 Bolehkah kita membicarakan perkara ini secara tertutup?，即“我们可以私下讨论这件事吗？”，以尊重对方。",
+    "usage_etiquette": "根据主语、宾语和场景判断是讨论还是司法审理。谈论他人的家庭、健康或私人纠纷时应顾及隐私；报道案件时，不应把 sedang membicarakan kes 误说成已经定罪。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论义较适合会议、文章和正式交流。谈敏感问题时，可说 Bolehkah kita membicarakan perkara ini secara tertutup?，即“我们可以私下讨论这件事吗？”，以尊重对方。",
+    "usage_etiquette": "根据主语、宾语和场景判断是讨论还是司法审理。谈论他人的家庭、健康或私人纠纷时应顾及隐私；报道案件时，不应把 sedang membicarakan kes 误说成已经定罪。"
+  }
+}

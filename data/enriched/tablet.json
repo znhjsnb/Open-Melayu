@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "tablet",
+    "syllables": "tab.let",
+    "ipa": "/tab.let/",
+    "jawi": "تبليت",
+    "frequency_rank": 5188,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tablet",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + tablet → tablet",
+    "pattern_note": "整词作为独立词素记忆，不把英语词尾误拆为马来语词缀。资料包未给音节，此处按 DBP 的 tab.lét 补为 tab.let；e 读 /e/，不是 /ə/。",
+    "word_family": [
+      {
+        "word": "tablet kunyah",
+        "affix": "∅（词组）",
+        "gloss": "咀嚼片"
+      },
+      {
+        "word": "komputer tablet",
+        "affix": "∅（复合词）",
+        "gloss": "平板电脑"
+      }
+    ],
+    "root_jawi": "تبليت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "制成小块固体剂型的药物；药片。",
+      "en_definition": "A small solid unit of medicine; a pill.",
+      "ms_definition": "Ubat yang berbiji-biji; pil.",
+      "nuances": "这是资料包所引《Kamus Dewan》的释义。药物语境中指片剂，不等同于胶囊 kapsul；具体服用方式由药品种类决定。[PRPM：tablet](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tablet)",
+      "collocations": [
+        {
+          "ms": "tablet kunyah",
+          "zh": "咀嚼片",
+          "en": "chewable tablet"
+        },
+        {
+          "ms": "ubat dalam bentuk tablet",
+          "zh": "片剂形式的药物",
+          "en": "medicine in tablet form"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "以触摸屏为主要操作界面的便携式平板电脑。",
+      "en_definition": "A portable computer operated primarily through a touchscreen.",
+      "ms_definition": "Komputer mudah alih berbentuk leper yang dikendalikan terutamanya melalui skrin sentuh.",
+      "nuances": "现代科技常用义。正式说明首次出现时可写 komputer tablet，以区别药片；本义的马来语定义为根据现代用法撰写的释义，并非资料包中旧词典定义的原文。[马来西亚财政部：Komputer Tablet](https://www.mof.gov.my/portal/pdf/warga/buletin-ict/pdf/2011-01.pdf)",
+      "collocations": [
+        {
+          "ms": "komputer tablet",
+          "zh": "平板电脑",
+          "en": "tablet computer"
+        },
+        {
+          "ms": "skrin tablet",
+          "zh": "平板电脑屏幕",
+          "en": "tablet screen"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak sekolah menyediakan komputer tablet untuk kegunaan murid semasa pembelajaran digital.",
+      "zh": "校方提供平板电脑，供学生在数字化学习时使用。",
+      "en": "The school provides tablet computers for pupils to use during digital learning."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tablet aku dah habis bateri, boleh pinjam kau punya kejap?",
+      "ms_standard": "Bateri tablet saya sudah kehabisan kuasa. Bolehkah saya meminjam tablet kamu sebentar?",
+      "zh": "我的平板没电了，能借你的用一下吗？",
+      "en": "My tablet's out of battery. Can I borrow yours for a minute?",
+      "spoken_features": [
+        "aku、kau 用于熟人之间",
+        "dah 对应 sudah",
+        "kau punya 是口语所有结构",
+        "kejap 对应 sebentar"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同学)",
+          "ms_spoken": "Tablet aku dah habis bateri. Kau nak guna tablet kau lagi tak?",
+          "ms_standard": "Bateri tablet saya sudah kehabisan kuasa. Adakah kamu masih mahu menggunakan tablet kamu?",
+          "zh": "我的平板没电了。你的平板还要用吗？",
+          "en": "My tablet's out of battery. Do you still need yours?"
+        },
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Tak, ambillah. Aku nak baca buku je sekarang.",
+          "ms_standard": "Tidak, ambillah tablet saya. Saya hanya mahu membaca buku sekarang.",
+          "zh": "不用了，拿去吧。我现在就想看看书。",
+          "en": "No, go ahead. I'm just going to read a book now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay tablet is an English loanword. The English word traces through French tablete to Latin tabula, a board or slab. That small, flat shape connects writing tablets, medicinal tablets, and modern touchscreen computers. Malay dictionaries record the medicine sense, while contemporary Malaysian usage also regularly applies tablet to the electronic device. [English word history](https://www.etymonline.com/word/tablet); [Malaysian computing usage](https://www.mof.gov.my/portal/pdf/warga/buletin-ict/pdf/2011-01.pdf)",
+    "cognitive_memory_aid": "用“扁平小块”串起两个意思：药房里的 tablet 是药片，屏幕上的 tablet 是平板。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "词本身语体中性。向不熟悉的人借平板时，可说 Bolehkah saya meminjam tablet anda sebentar?；熟人间才使用 aku、kau。",
+    "usage_etiquette": "药房和诊所语境通常指药片，学校或电子产品语境通常指平板电脑。跨语境交流时用 tablet ubat 或 komputer tablet 明确所指。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "词本身语体中性。向不熟悉的人借平板时，可说 Bolehkah saya meminjam tablet anda sebentar?；熟人间才使用 aku、kau。",
+    "usage_etiquette": "药房和诊所语境通常指药片，学校或电子产品语境通常指平板电脑。跨语境交流时用 tablet ubat 或 komputer tablet 明确所指。"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "anu",
+    "syllables": "a.nu",
+    "ipa": "/anu/",
+    "jawi": "انو",
+    "frequency_rank": 5072,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "anu",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + anu → anu",
+    "pattern_note": "完整基词，读 a.nu，无词缀或音变。si anu 中的 si 是独立的人称标记，不是 anu 的前缀；不据此虚构派生词族。",
+    "word_family": [],
+    "root_jawi": "انو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "某人；某物；那个什么。用于代指故意不说出或一时想不起名称的人、物或事情。",
+      "en_definition": "An unnamed person or thing whose name is deliberately withheld or temporarily forgotten.",
+      "ms_definition": "Orang, benda atau perkara yang tidak disebut namanya, sama ada dengan sengaja atau kerana terlupa.",
+      "nuances": "功能上具有代称性质；因本题词类选项不含代词，此处归入 noun。si anu 通常指“某某人”，裸用 anu 的所指依赖上下文。它不是任何语境都能直接替换的“东西”，也不必然带有性暗示。[DBP 释义](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=anu)",
+      "collocations": [
+        {
+          "ms": "si anu",
+          "zh": "某某人",
+          "en": "so-and-so"
+        },
+        {
+          "ms": "nama si anu",
+          "zh": "某某人的名字",
+          "en": "so-and-so's name"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "【数学】未知数；数值尚未确定、需要求出的量。",
+      "en_definition": "In mathematics, a quantity whose value is not yet known; an unknown.",
+      "ms_definition": "Dalam matematik, kuantiti tertentu yang nilainya belum diketahui.",
+      "nuances": "这是正规的数学术语，不是口语含糊表达。未知数可由 x 等符号表示；anu 强调其值有待求出，不应在所有情况下都与 pemboleh ubah“变量”完全等同。[DBP 数学义](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=anu)",
+      "collocations": [
+        {
+          "ms": "nilai anu",
+          "zh": "未知数的值",
+          "en": "the value of the unknown"
+        },
+        {
+          "ms": "persamaan linear dalam satu anu",
+          "zh": "一元一次方程",
+          "en": "a linear equation in one unknown"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "数学课堂／教学报告",
+      "ms": "Murid diminta menentukan nilai anu dalam persamaan 2x + 3 = 11.",
+      "zh": "学生须求出方程 2x + 3 = 11 中未知数的值。",
+      "en": "Pupils are asked to find the value of the unknown in the equation 2x + 3 = 11."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp／朋友一时想不起人名",
+      "ms_spoken": "Si anu yang kerja kat kedai buku tu nak datang petang ni.",
+      "ms_standard": "Orang yang namanya saya terlupa itu, yang bekerja di kedai buku tersebut, hendak datang pada petang ini.",
+      "zh": "在书店上班的那个谁，今天傍晚要过来。",
+      "en": "You know that person who works at the bookshop? They're coming over this evening.",
+      "spoken_features": [
+        "si anu 在此代指一时想不起名字的人",
+        "kat 对应标准语 di",
+        "tu 和 ni 分别对应 itu 和 ini",
+        "nak 对应 hendak"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Si anu yang kerja kat kedai buku tu nak datang petang ni.",
+          "ms_standard": "Orang yang namanya saya terlupa itu, yang bekerja di kedai buku tersebut, hendak datang pada petang ini.",
+          "zh": "在书店上班的那个谁，今天傍晚要过来。",
+          "en": "You know that person who works at the bookshop? They're coming over this evening."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Hakim ke? Dia dah mesej aku tadi.",
+          "ms_standard": "Adakah awak maksudkan Hakim? Dia sudah menghantar mesej kepada saya tadi.",
+          "zh": "你说 Hakim 吗？他刚才已经给我发消息了。",
+          "en": "Do you mean Hakim? He messaged me earlier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Anu illustrates how one word can bridge everyday conversation and technical learning. In conversation, it leaves a name unspoken, whether through discretion or forgetfulness. In mathematics, it labels a quantity whose value remains unknown. Both dictionary senses invite the listener or learner to recover information that has not yet been supplied. [DBP](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=anu)",
+    "cognitive_memory_aid": "a-nu，像想名字时停一下：“啊……那个！”人名没说是 si anu，数值没求出也是 anu。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友间说 si anu 可以自然表达“那个谁”；面对当事人、长辈或客户时，应尽量使用姓名或恰当称谓，避免显得轻慢。",
+    "usage_etiquette": "一般公文应写明所指对象，数学语境则可正式使用 anu。某些语境中它可被用作避讳身体部位等内容的代称；含义由情境决定，不能默认其为粗俗词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友间说 si anu 可以自然表达“那个谁”；面对当事人、长辈或客户时，应尽量使用姓名或恰当称谓，避免显得轻慢。",
+    "usage_etiquette": "一般公文应写明所指对象，数学语境则可正式使用 anu。某些语境中它可被用作避讳身体部位等内容的代称；含义由情境决定，不能默认其为粗俗词。"
+  }
+}

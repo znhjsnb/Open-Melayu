@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "elektronik",
+    "syllables": "e.lek.tro.nik",
+    "ipa": "/e.lek.tro.nik/",
+    "jawi": "ايليکترونيک",
+    "frequency_rank": 5106,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "elektronik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + elektronik → elektronik",
+    "pattern_note": "依数据包作为整词词根处理，不将 -ik 当成本条的马来语派生后缀。两个 e 均读 /e/，不是 /ə/；保留 /tr/ 辅音群。词族同时列出相关科技词。",
+    "word_family": [
+      {
+        "word": "elektron",
+        "affix": null,
+        "gloss": "电子；与 elektronik 相关的科技词"
+      },
+      {
+        "word": "mikroelektronik",
+        "affix": "mikro-",
+        "gloss": "微电子的；微电子学"
+      }
+    ],
+    "root_jawi": "ايليکترونيک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "与电子这种粒子有关的。",
+      "en_definition": "Relating to electrons.",
+      "ms_definition": "Berkenaan elektron.",
+      "nuances": "这是物理学语境中的基本关系义；elektronik 是修饰语，elektron 才是粒子名称。[DBP 释义](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=elektronik)",
+      "collocations": [
+        {
+          "ms": "struktur elektronik",
+          "zh": "电子结构",
+          "en": "electronic structure"
+        },
+        {
+          "ms": "konfigurasi elektronik",
+          "zh": "电子排布",
+          "en": "electronic configuration"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "利用电子技术工作的；以电子设备或系统制作、处理、储存或传递的。",
+      "en_definition": "Operating by electronic technology, or produced, processed, stored, or transmitted using electronic systems.",
+      "ms_definition": "Berkenaan penggunaan alat yang dibina atau dijalankan dengan kaedah atau prinsip teknologi elektron.",
+      "nuances": "既修饰实体设备，也修饰依赖电子系统的文件、交易与服务。elektronik 与 elektrik 不完全相同：使用电力不必然意味着以电子电路执行控制或信息处理。",
+      "collocations": [
+        {
+          "ms": "peranti elektronik",
+          "zh": "电子设备",
+          "en": "electronic device"
+        },
+        {
+          "ms": "dokumen elektronik",
+          "zh": "电子文件",
+          "en": "electronic document"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "研究电子电路与器件的行为、开发及应用的物理学与技术分支；电子学。",
+      "en_definition": "The branch of physics and technology concerned with the behavior, development, and application of electronic circuits and devices.",
+      "ms_definition": "Cabang fizik dan teknologi yang berkaitan dengan gerak laku, pembangunan, aplikasi, dan sebagainya bagi litar dan peranti elektronik.",
+      "nuances": "表示学科或技术领域时，对应英语 electronics；修饰设备时通常对应 electronic。马来语形式本身不因这两种英语形式而改变。",
+      "collocations": [
+        {
+          "ms": "bidang elektronik",
+          "zh": "电子学领域",
+          "en": "the field of electronics"
+        },
+        {
+          "ms": "kejuruteraan elektronik",
+          "zh": "电子工程",
+          "en": "electronic engineering"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua dokumen elektronik hendaklah disimpan dalam sistem pengurusan rekod jabatan.",
+      "zh": "所有电子文件均须保存在部门的档案管理系统中。",
+      "en": "All electronic documents must be stored in the department's records management system."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak beli barang elektronik kat kedai tu, kau nak ikut tak?",
+      "ms_standard": "Saya mahu membeli barang elektronik di kedai itu. Adakah kamu mahu ikut bersama?",
+      "zh": "我想去那家店买电子产品，你要一起去吗？",
+      "en": "I'm going to that shop to buy some electronics. Want to come along?",
+      "spoken_features": [
+        "nak 对应 mahu 或 hendak。",
+        "kat、tu 分别对应 di、itu。",
+        "句末 tak 构成口语是非问句，标准语可用 adakah 引导。",
+        "aku、kau 适合关系亲近的同辈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Kau nak ikut aku tengok barang elektronik kat kedai tu?",
+          "ms_standard": "Adakah kamu mahu menemani saya melihat barang elektronik di kedai itu?",
+          "zh": "你要陪我去那家店看看电子产品吗？",
+          "en": "Want to come with me to check out the electronics at that shop?"
+        },
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Nak! Aku dah lama nak cari fon kepala baru. Kita pergi petang ni je.",
+          "ms_standard": "Ya, saya mahu ikut. Saya sudah lama mahu mencari fon kepala baharu. Kita pergi petang ini sahaja.",
+          "zh": "要啊！我早就想买副新耳机了，咱们就今天下午去吧。",
+          "en": "Sure! I've been meaning to get new headphones for ages. Let's go this afternoon."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Elektronik belongs to the international vocabulary built around electron. That word's history reaches back through electric to Greek elektron, meaning amber, a material associated with static attraction when rubbed. Malay uses elektronik both for technology involving electronic devices and for the field that studies their circuits and applications. [Word history](https://www.etymonline.com/word/electron), [DBP](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=elektronik)",
+    "cognitive_memory_aid": "按 e-lek-tro-nik 四拍读，联想英语 electronic；看到电子设备、电子文件或电子学，都可连接到 elektronik。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的科技与行政用语，适用于课堂、商店、新闻和公文。向客户说明操作时，搭配具体名词，如 dokumen elektronik，比单说 elektronik 更清楚。",
+    "usage_etiquette": "购物时 barang elektronik 指电子产品；谈专业时 bidang elektronik 指电子学领域。描述单纯用电的器具时，应按实际功能选择 elektrik 或 elektronik。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的科技与行政用语，适用于课堂、商店、新闻和公文。向客户说明操作时，搭配具体名词，如 dokumen elektronik，比单说 elektronik 更清楚。",
+    "usage_etiquette": "购物时 barang elektronik 指电子产品；谈专业时 bidang elektronik 指电子学领域。描述单纯用电的器具时，应按实际功能选择 elektrik 或 elektronik。"
+  }
+}

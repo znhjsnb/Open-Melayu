@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "mulutmu",
+    "syllables": null,
+    "ipa": "/mu.lut.mu/",
+    "jawi": "مولوت",
+    "frequency_rank": 5147,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mulut",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "mulut + -mu → mulutmu",
+    "pattern_note": "-mu 是第二人称 kamu 的附着形式，此处表示所属，严格说属于代词附着语素，并非派生词缀；按给定分类归入 suffix。应连写，不改变词根辅音。输入包 syllables 为 null，完整词形可分为 mu.lut.mu；headword.jawi 按要求保留包值 مولوت，但该值仅表示 mulut，完整 mulutmu 应写作 مولوتمو。",
+    "word_family": [
+      {
+        "word": "mulutku",
+        "affix": "-ku",
+        "gloss": "我的嘴；所有格形式"
+      },
+      {
+        "word": "mulutnya",
+        "affix": "-nya",
+        "gloss": "他／她／它的嘴；所有格形式"
+      },
+      {
+        "word": "bermulut",
+        "affix": "ber-",
+        "gloss": "有嘴；常与形容言谈的词连用"
+      }
+    ],
+    "root_jawi": "مولوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的嘴或口腔；你用来进食、发声的身体部位。",
+      "en_definition": "Your mouth: the bodily opening and cavity used for eating and speaking.",
+      "ms_definition": "Mulut kamu, iaitu bukaan dan rongga yang mengandungi gigi serta lidah.",
+      "nuances": "这是 mulut 加第二人称所属成分形成的规范词形。词根 mulut 还可指器物开口，但该义不能机械套用于通常指人的 mulutmu；除非明确采用拟人表达。词义参见 [DBP：mulut](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mulut)；连写规则参见 [DBP：代词附着形式](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=serangkai)。",
+      "collocations": [
+        {
+          "ms": "buka mulutmu",
+          "zh": "张开你的嘴",
+          "en": "open your mouth"
+        },
+        {
+          "ms": "tutup mulutmu ketika batuk",
+          "zh": "咳嗽时捂住嘴",
+          "en": "cover your mouth when coughing"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你的言语或说话方式；借嘴指你所说的话。",
+      "en_definition": "Your speech or manner of speaking, represented figuratively by your mouth.",
+      "ms_definition": "Percakapan atau tutur kata kamu, secara kiasan.",
+      "nuances": "常用于劝诫或责备。jaga mulutmu 表示注意言辞，语气可较严厉；tutup mulutmu 若用于制止说话，可能相当于中文的闭嘴，应与咳嗽时遮住嘴的字面用法区分。",
+      "collocations": [
+        {
+          "ms": "jaga mulutmu",
+          "zh": "注意你的言辞",
+          "en": "watch what you say"
+        },
+        {
+          "ms": "kata-kata yang keluar dari mulutmu",
+          "zh": "从你口中说出的话",
+          "en": "the words that come out of your mouth"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 教育讲座报道中的直接引语",
+      "ms": "Dalam ceramah tersebut, penceramah mengingatkan para pelajar, \"Jagalah mulutmu agar tidak menyinggung perasaan orang lain.\"",
+      "zh": "在讲座中，主讲人提醒学生：“说话要有分寸，避免伤害他人的感受。”",
+      "en": "During the talk, the speaker reminded the students, \"Mind your words so that you do not hurt other people's feelings.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论带戏剧腔的提醒",
+      "ms_spoken": "Ayat \"jaga mulutmu\" tu bunyi garanglah, macam dialog drama je.",
+      "ms_standard": "Ungkapan \"jaga mulutmu\" itu kedengaran garang, seperti dialog dalam drama.",
+      "zh": "“注意你的言辞”这句话听着好凶啊，跟电视剧台词似的。",
+      "en": "\"Watch your mouth\" sounds pretty harsh, like a line from a TV drama.",
+      "spoken_features": [
+        "tu 和 je 分别对应 itu 和 sahaja；此处 je 带有强调语气。",
+        "lah 加强说话者的评价。",
+        "mulutmu 放在引语中，保留其较书面或戏剧化的语感；日常交谈也常说 mulut awak 或 mulut kau，选用取决于关系。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku nak hantar \"jaga mulutmu\" kat dia. Garang sangat ke?",
+          "ms_standard": "Saya mahu menghantar pesanan \"jaga mulutmu\" kepadanya. Adakah ungkapan itu terlalu garang?",
+          "zh": "我想给他发一句“注意你的言辞”。会不会太凶？",
+          "en": "I'm thinking of texting him \"Watch your mouth.\" Is that too harsh?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Garanglah sikit. Cakap \"jangan cakap macam tu\" je dulu.",
+          "ms_standard": "Ungkapan itu agak garang. Katakan dahulu, \"Jangan bercakap begitu.\"",
+          "zh": "是有点凶。先说“别这样讲话”就好。",
+          "en": "A bit, yes. Try \"Please don't talk like that\" first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mulutmu brings together mulut, the Malay noun for mouth, and -mu, the attached short form of kamu. Malay spelling joins this possessive element directly to its host. The figurative meaning develops through the familiar connection between the organ of speech and spoken words, allowing one form to refer to both your mouth and your speech. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=serangkai).",
+    "cognitive_memory_aid": "mulut 是嘴，-mu 是你的：mulut + mu，一眼读成“你的嘴”；谈礼貌时再联想到“你的言辞”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 不自动表示敬意，可带亲近、文学或训诫语气。与陌生人、长辈或客户交流时，通常采用合适称谓或 anda／awak，并把指令改为礼貌请求。",
+    "usage_etiquette": "Jaga mulutmu 容易被听成责备，Tutup mulutmu 在争执中尤其冒犯。正式示例将其置于直接引语中；一般公文和服务场景宜按对象改用更合适的称呼。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 不自动表示敬意，可带亲近、文学或训诫语气。与陌生人、长辈或客户交流时，通常采用合适称谓或 anda／awak，并把指令改为礼貌请求。",
+    "usage_etiquette": "Jaga mulutmu 容易被听成责备，Tutup mulutmu 在争执中尤其冒犯。正式示例将其置于直接引语中；一般公文和服务场景宜按对象改用更合适的称呼。"
+  }
+}

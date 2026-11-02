@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "kesejukan",
+    "syllables": "ke.se.ju.kan",
+    "ipa": "/kə.sə.dʒu.kan/; /kə.sə.dʒuʔ.kan/",
+    "jawi": "کسجوقن",
+    "frequency_rank": 5146,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kesejukan",
+    "affix": "ke-...-an",
+    "affix_type": "circumfix",
+    "formula": "ke- + sejuk + -an → kesejukan",
+    "pattern_note": "ke-...-an 可表达状态，也可表达受到某种情况影响。拼写只有一个 k；DBP 列有保留喉塞音的读法。root_word 与 root_jawi 按要求保留输入包字段；实际构词词根为 sejuk（سجوق），因此 is_root 为 false。",
+    "word_family": [
+      {
+        "word": "menyejukkan",
+        "affix": "meN-...-kan",
+        "gloss": "使冷却；使平静"
+      },
+      {
+        "word": "penyejukan",
+        "affix": "peN-...-an",
+        "gloss": "冷却过程"
+      },
+      {
+        "word": "penyejuk",
+        "affix": "peN-",
+        "gloss": "冷却装置；使人凉快的事物"
+      }
+    ],
+    "root_jawi": "کسجوقن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "寒冷或凉冷的状态；冷意。",
+      "en_definition": "The state or quality of being cold; coldness.",
+      "ms_definition": "Keadaan atau perihal sejuk; kedinginan.",
+      "nuances": "名词用法可以描述环境带来的冷意，其感受可舒适也可难受，须由语境判断。不能一概译成生病或感冒。两个义项依据：[DBP：kesejukan](https://prpm.dbp.gov.my/Search?k=kesejukan)。",
+      "collocations": [
+        {
+          "ms": "kesejukan udara",
+          "zh": "空气的凉冷",
+          "en": "the coolness of the air"
+        },
+        {
+          "ms": "kesejukan malam",
+          "zh": "夜晚的寒意",
+          "en": "the chill of the night"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "因受冷而感到寒冷，通常带有难受、发抖等意味。",
+      "en_definition": "To feel cold or suffer from exposure to cold.",
+      "ms_definition": "Mengalami atau menderita sejuk; terkena sejuk.",
+      "nuances": "作状态性谓语，说明人或动物受到寒冷影响。比单纯形容温度的 sejuk 更突出承受者的感受；不表示已经患上病毒性感冒，也不能直接等同于低体温症。",
+      "collocations": [
+        {
+          "ms": "menggigil kesejukan",
+          "zh": "冷得发抖",
+          "en": "shiver with cold"
+        },
+        {
+          "ms": "menggeletar kesejukan",
+          "zh": "因寒冷而颤抖",
+          "en": "tremble from the cold"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 救援情况汇报",
+      "ms": "Pasukan penyelamat memberikan selimut kepada pendaki yang menggigil kesejukan selepas ditemukan di lereng bukit.",
+      "zh": "救援队在山坡上找到登山者后，为冷得发抖的他们提供了毯子。",
+      "en": "The rescue team provided blankets to hikers who were shivering with cold after being found on the hillside."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论办公室空调",
+      "ms_spoken": "Aku dah kesejukan kat sini, boleh naikkan suhu aircond sikit tak?",
+      "ms_standard": "Saya sudah berasa kesejukan di sini. Bolehkah suhu penyaman udara dinaikkan sedikit?",
+      "zh": "我在这儿都冷坏了，能把空调温度调高一点吗？",
+      "en": "I'm freezing here. Could we turn the air conditioning up a degree or two?",
+      "spoken_features": [
+        "aku 用于熟悉的同辈之间。",
+        "dah、kat、sikit 分别对应 sudah、di、sedikit。",
+        "aircond 是马来西亚口语常见说法，对应 penyaman udara。",
+        "句末 tak 构成口语是非问句。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (熟悉的同事)",
+          "ms_spoken": "Aku dah kesejukan kat sini. Boleh naikkan suhu aircond sikit tak?",
+          "ms_standard": "Saya sudah berasa kesejukan di sini. Bolehkah suhu penyaman udara dinaikkan sedikit?",
+          "zh": "我在这儿都冷坏了，能把空调温度调高一点吗？",
+          "en": "I'm freezing here. Could we turn the air conditioning up a degree or two?"
+        },
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Boleh, aku naikkan dua darjah je dulu. Kalau masih sejuk, bagitahulah.",
+          "ms_standard": "Boleh, saya akan menaikkan suhunya sebanyak dua darjah dahulu. Jika kamu masih berasa sejuk, beritahulah saya.",
+          "zh": "可以，我先调高两度。还冷的话跟我说。",
+          "en": "Sure, I'll raise it by two degrees for now. Let me know if you're still cold."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kesejukan is formed within Malay from sejuk, meaning cool or cold, enclosed by ke-...-an. The same formation names coldness and describes someone affected by cold. This pairing preserves a useful connection between an environmental condition and bodily experience: the chill around a person becomes the cold that the person feels. [DBP](https://prpm.dbp.gov.my/Search?k=kesejukan).",
+    "cognitive_memory_aid": "把 ke-...-an 想成包住身体的一圈冷空气：sejuk 是冷，kesejukan 是冷意，或人被冷得受不了。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在共用办公室或车内，可说 Saya kesejukan，再用 Boleh...？提出调温请求，语气比直接命令别人关空调柔和。",
+    "usage_etiquette": "适用于冷气房、雨后、山区或其他受冷情境。描述他人感受时，应允许个体差异，避免用 Tak sejuk pun 否定对方的体验。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在共用办公室或车内，可说 Saya kesejukan，再用 Boleh...？提出调温请求，语气比直接命令别人关空调柔和。",
+    "usage_etiquette": "适用于冷气房、雨后、山区或其他受冷情境。描述他人感受时，应允许个体差异，避免用 Tak sejuk pun 否定对方的体验。"
+  }
+}

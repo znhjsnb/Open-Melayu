@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "trafik",
+    "syllables": "tra.fik",
+    "ipa": "/tra.fik/",
+    "jawi": "ترافيک",
+    "frequency_rank": 5130,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "trafik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + trafik → trafik",
+    "pattern_note": "整词作为独立词素记忆；tr 是词首辅音群，不构成前缀，-ik 也不是本词的马来语后缀。",
+    "word_family": [
+      {
+        "word": "trafik udara",
+        "affix": null,
+        "gloss": "空中交通；无词缀的词组"
+      },
+      {
+        "word": "polis trafik",
+        "affix": null,
+        "gloss": "交通警察；无词缀的词组"
+      },
+      {
+        "word": "trafik data",
+        "affix": null,
+        "gloss": "数据流量；无词缀的词组"
+      }
+    ],
+    "root_jawi": "ترافيک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "交通；车辆、飞机等交通工具的往来及其运行流。",
+      "en_definition": "Vehicles, aircraft, or other conveyances moving along routes, or their movement.",
+      "ms_definition": "Lalu lintas kereta, kapal terbang dan sebagainya.",
+      "nuances": "不只限于道路车流，也用于航空交通。trafik 本身不表示堵车；堵塞须说 kesesakan trafik。义项依据：[DBP PRPM：trafik](https://prpm.dbp.gov.my/cari1?keyword=trafik)。",
+      "collocations": [
+        {
+          "ms": "kesesakan trafik",
+          "zh": "交通拥堵",
+          "en": "traffic congestion"
+        },
+        {
+          "ms": "kawalan trafik udara",
+          "zh": "空中交通管制",
+          "en": "air traffic control"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在信息技术和通信语境中，指通过网络传输的数据或其流动。",
+      "en_definition": "Data transmitted through a communications network, or the flow of such data.",
+      "ms_definition": "Dalam bidang teknologi maklumat, aliran data yang dihantar melalui sesuatu rangkaian komunikasi.",
+      "nuances": "这是技术领域的延伸义，区别于输入包所列的一般交通义。这里的马来语释义为术语用法的概括，非《Kamus Dewan》独立义项原文；DBP 的 jadual penghalaan 条目使用 trafik data：[DBP PRPM：网络术语用例](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=lengahan)。",
+      "collocations": [
+        {
+          "ms": "trafik data",
+          "zh": "数据流量",
+          "en": "data traffic"
+        },
+        {
+          "ms": "trafik rangkaian",
+          "zh": "网络流量",
+          "en": "network traffic"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 交通通报",
+      "ms": "Polis trafik akan mengawal aliran kenderaan di sekitar stadium selepas perlawanan tamat.",
+      "zh": "比赛结束后，交警将在体育场周边疏导车流。",
+      "en": "Traffic police will direct vehicles around the stadium after the match."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友说明迟到原因",
+      "ms_spoken": "Trafik kat sini sesak gila lah. Aku lambat sikit.",
+      "ms_standard": "Trafik di sini sangat sesak. Saya akan tiba lewat sedikit.",
+      "zh": "我这边堵得要命啊，会晚到一会儿。",
+      "en": "Traffic here is terrible. I'll be a little late.",
+      "spoken_features": [
+        "kat 在这里相当于 di。",
+        "gila 在熟人对话中可作夸张程度语，相当于 sangat。",
+        "aku 是熟人之间的第一人称，正式场合通常改用 saya。",
+        "sikit 是 sedikit 的口语缩略形式；lah 加强抱怨语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Trafik kat sini sesak gila lah. Aku lambat sikit.",
+          "ms_standard": "Trafik di sini sangat sesak. Saya akan tiba lewat sedikit.",
+          "zh": "我这边堵得要命啊，会晚到一会儿。",
+          "en": "Traffic here is terrible. I'll be a little late."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tak apa, aku dah sampai. Jumpa kat pintu masuk nanti, ya.",
+          "ms_standard": "Tidak mengapa, saya sudah sampai. Kita berjumpa di pintu masuk nanti, ya.",
+          "zh": "没事，我已经到了。等下入口见啊。",
+          "en": "No worries, I'm already here. See you at the entrance."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The spelling trafik closely resembles English traffic, while Malay also has the equivalent expression lalu lintas. Its cultural reach becomes clear in compounds: polis trafik belongs to the street, whereas trafik udara belongs to aviation. In computing, the same image of movement along routes helps explain trafik data, with information taking the place of vehicles.",
+    "cognitive_memory_aid": "英语 traffic 对应马来语 trafik：先想路上的车流，再把同一幅画面迁移到空中的飞机和网络中的数据。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "因堵车迟到时，可简洁说明交通情况并给出预计到达时间；工作沟通可用 Trafik sesak, saya dijangka tiba pada pukul…，避免只说一句堵车就结束。",
+    "usage_etiquette": "trafik 和 lalu lintas 都可用于标准马来语。sesak gila 适合熟人聊天，正式通报用 sangat sesak 或 mengalami kesesakan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "因堵车迟到时，可简洁说明交通情况并给出预计到达时间；工作沟通可用 Trafik sesak, saya dijangka tiba pada pukul…，避免只说一句堵车就结束。",
+    "usage_etiquette": "trafik 和 lalu lintas 都可用于标准马来语。sesak gila 适合熟人聊天，正式通报用 sangat sesak 或 mengalami kesesakan。"
+  }
+}
