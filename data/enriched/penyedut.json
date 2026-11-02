@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "penyedut",
+    "syllables": "pe.nye.dut",
+    "ipa": "/pə.ɲə.dut/",
+    "jawi": "ڤڽدوت",
+    "frequency_rank": 12679,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sedut",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + sedut → penyedut",
+    "pattern_note": "peN-遇到词首s时通常变为peny-，原来的s脱落；ny表示单一辅音/ɲ/。本词表示执行吸入功能的事物或器具。资料包将penyedut列为词根有误，DBP将其列在sedut的派生词下。[DBP：sedut](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=sedut)。",
+    "word_family": [
+      {
+        "word": "menyedut",
+        "affix": "meN-",
+        "gloss": "吸入；抽吸"
+      },
+      {
+        "word": "sedutan",
+        "affix": "-an",
+        "gloss": "吸入的一口；吸取的结果；节选"
+      },
+      {
+        "word": "penyedutan",
+        "affix": "peN-...-an",
+        "gloss": "吸入或抽吸的过程"
+      },
+      {
+        "word": "tersedut",
+        "affix": "ter-",
+        "gloss": "被吸入；不慎吸入"
+      }
+    ],
+    "root_jawi": "سدوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "通过吸力吸入空气、液体、灰尘等的器具、装置或结构。",
+      "en_definition": "A device or structure that draws something in by suction.",
+      "ms_definition": "Sesuatu, seperti alat, yang menyedut.",
+      "nuances": "核心含义是“具有抽吸功能的东西”，并不只指饮料吸管。具体器具通常由后面的名词说明，例如penyedut habuk指吸尘器。[DBP：penyedut](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=penyedut)。",
+      "collocations": [
+        {
+          "ms": "penyedut habuk",
+          "zh": "吸尘器",
+          "en": "vacuum cleaner"
+        },
+        {
+          "ms": "penyedut asap",
+          "zh": "抽烟装置；排烟罩",
+          "en": "smoke extractor; extractor hood"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "饮料吸管；通过口吸使饮料进入口中的细管。",
+      "en_definition": "A drinking straw: a narrow tube through which a drink is sucked into the mouth.",
+      "ms_definition": "Pembuluh untuk menyedut minuman, khususnya dalam ungkapan penyedut air batu.",
+      "nuances": "在点饮料的情境中，penyedut常可单独表示吸管。DBP记录的penyedut air batu也是吸管的称呼；这里不是指吸取整块冰。日常交流中也常听到英语straw。[DBP：penyedut](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=penyedut)。",
+      "collocations": [
+        {
+          "ms": "penyedut minuman",
+          "zh": "饮料吸管",
+          "en": "drinking straw"
+        },
+        {
+          "ms": "penyedut air batu",
+          "zh": "吸管",
+          "en": "drinking straw"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak pengurusan akan menyediakan penyedut habuk baharu untuk meningkatkan kebersihan ruang pejabat.",
+      "zh": "管理方将提供新的吸尘器，以改善办公区域的清洁状况。",
+      "en": "Management will provide a new vacuum cleaner to improve cleanliness in the office."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kak, boleh bagi penyedut? Saya nak minum teh ais ni.",
+      "ms_standard": "Kak, boleh berikan saya penyedut? Saya hendak minum teh ais ini.",
+      "zh": "姐，可以给我一根吸管吗？我想喝这杯冰奶茶。",
+      "en": "Could I have a straw for this iced milk tea, please?",
+      "spoken_features": [
+        "Kak是对年龄稍长女性的亲切称呼，需结合年龄与场合使用",
+        "bagi在日常请求中相当于berikan",
+        "nak相当于hendak",
+        "ni相当于ini"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (顾客)",
+          "ms_spoken": "Kak, boleh bagi penyedut? Saya nak minum teh ais ni.",
+          "ms_standard": "Kak, boleh berikan saya penyedut? Saya hendak minum teh ais ini.",
+          "zh": "姐，可以给我一根吸管吗？我想喝这杯冰奶茶。",
+          "en": "Could I have a straw for this iced milk tea, please?"
+        },
+        {
+          "speaker": "Lina (店员)",
+          "ms_spoken": "Boleh, ambil je kat bekas sebelah tu.",
+          "ms_standard": "Boleh, sila ambil dari bekas di sebelah itu.",
+          "zh": "可以呀，就在旁边那个盒子里，拿一根吧。",
+          "en": "Sure, help yourself from the container over there."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Penyedut illustrates productive Malay word formation rather than an exotic borrowing. Starting with sedut, meaning to suck or draw in, the prefix peN- creates a noun for something performing that function. The same transparent idea connects a drinking straw with a vacuum cleaner: their shapes differ, but both work by drawing material inward. [DBP word family](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=sedut).",
+    "cognitive_memory_aid": "sedut＝吸，peN-＝执行动作的人或工具；penyedut就是“负责吸的东西”。吸饮料的是吸管，吸灰尘的是吸尘器。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向店员索取吸管时，用Boleh beri saya penyedut?并加上terima kasih即可自然表达礼貌。Kak或abang适用于合适的非正式服务场景。",
+    "usage_etiquette": "在饮料店可直接说penyedut；在采购、维修或工作说明中应补上用途，如penyedut habuk或penyedut asap，以免混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向店员索取吸管时，用Boleh beri saya penyedut?并加上terima kasih即可自然表达礼貌。Kak或abang适用于合适的非正式服务场景。",
+    "usage_etiquette": "在饮料店可直接说penyedut；在采购、维修或工作说明中应补上用途，如penyedut habuk或penyedut asap，以免混淆。"
+  }
+}

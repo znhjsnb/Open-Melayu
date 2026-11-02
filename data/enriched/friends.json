@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "friends",
+    "syllables": null,
+    "ipa": "/frɛndz/",
+    "jawi": null,
+    "frequency_rank": 12726,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "friends",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + friends → friends（马来语语料中的英语整词）",
+    "pattern_note": "依输入保留整词词根标记；英语内部实际为 friend + -s，复数词尾在浊辅音 /d/ 后读 /z/。这不是马来语构词规则。",
+    "word_family": [
+      {
+        "word": "friend",
+        "affix": "∅（英语单数）",
+        "gloss": "朋友"
+      },
+      {
+        "word": "friendship",
+        "affix": "-ship（英语后缀）",
+        "gloss": "友谊"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "朋友们；彼此认识、喜爱或保持友好关系的人。英语 friend 的复数形式，可见于马来西亚的语码转换。",
+      "en_definition": "People whom one knows and likes; the plural of the English noun friend, used in English–Malay code-switching.",
+      "ms_definition": "Kawan-kawan atau sahabat-sahabat; bentuk jamak kata bahasa Inggeris friend yang digunakan dalam percampuran bahasa.",
+      "nuances": "这是英语形式，不能因出现在马来语语料中便视为获 DBP 认可的马来语普通词。正式马来文通常用 kawan-kawan、sahabat 或 rakan-rakan；此处马来文释义为说明性翻译。英语复数及核心义参见 [Oxford：friend](https://www.oxfordlearnersdictionaries.com/definition/english/friend_1)。",
+      "collocations": [
+        {
+          "ms": "best friends（英语；马来语：sahabat baik）",
+          "zh": "最好的朋友；挚友",
+          "en": "best friends"
+        },
+        {
+          "ms": "close friends（英语；马来语：rakan-rakan rapat）",
+          "zh": "亲近的朋友",
+          "en": "close friends"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报：说明英文宣传文案",
+      "ms": "Perkataan bahasa Inggeris “friends” dalam bahan promosi itu akan diterjemahkan sebagai “rakan-rakan”.",
+      "zh": "该宣传材料中的英语词 friends 将译为 rakan-rakan，即“朋友们”。",
+      "en": "The English word “friends” in the promotional material will be translated as “rakan-rakan”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友相约吃饭",
+      "ms_spoken": "Aku nak makan dengan friends aku kat kedai tu malam ni.",
+      "ms_standard": "Saya hendak makan bersama kawan-kawan saya di kedai itu malam ini.",
+      "zh": "我今晚想跟朋友们去那家店吃饭。",
+      "en": "I'm planning to eat with my friends at that place tonight.",
+      "spoken_features": [
+        "friends 是英语名词，嵌入马来语句子",
+        "aku 是熟人之间的非正式第一人称",
+        "nak、kat、tu、ni 分别对应 hendak、di、itu、ini"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak makan dengan friends aku kat kedai tu malam ni. Kau nak ikut?",
+          "ms_standard": "Saya hendak makan bersama kawan-kawan saya di kedai itu malam ini. Adakah kamu mahu ikut?",
+          "zh": "我今晚想跟朋友们去那家店吃饭。你要一起吗？",
+          "en": "I'm having dinner with my friends at that place tonight. Want to join us?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nak! Aku dah habis kerja, nanti aku datang.",
+          "ms_standard": "Ya, saya mahu ikut. Saya sudah selesai bekerja dan akan datang nanti.",
+          "zh": "要啊！我已经下班了，等会儿过去。",
+          "en": "Yes! I've finished work, so I'll come over later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English friends is the plural of friend, which descends from Old English frēond and belongs to a Germanic family associated with loving. Its appearance inside a Malay sentence illustrates switching between English and Malay. The English plural ending remains attached; Malay itself normally expresses the corresponding meaning with words such as kawan or sahabat. [Oxford word origin](https://www.oxfordlearnersdictionaries.com/definition/english/friend_1).",
+    "cognitive_memory_aid": "friend 是一位朋友，friends 是朋友们；末尾读 /z/，切换成马来语可记 kawan-kawan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉英语的朋友之间可以自然夹用；正式马来文报告和面向广泛公众的说明宜采用 rakan-rakan 或 sahabat。",
+    "usage_etiquette": "向长辈、客户或上司说话时，应根据关系选择称呼；不要把群聊中的 aku、kau 直接搬进正式交谈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉英语的朋友之间可以自然夹用；正式马来文报告和面向广泛公众的说明宜采用 rakan-rakan 或 sahabat。",
+    "usage_etiquette": "向长辈、客户或上司说话时，应根据关系选择称呼；不要把群聊中的 aku、kau 直接搬进正式交谈。"
+  }
+}

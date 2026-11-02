@@ -1,0 +1,94 @@
+{
+  "headword": {
+    "word": "bla",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 12750,
+    "status": "informal",
+    "validation_note": "可核实重复形式 bla bla 在马来语非正式语篇中的使用，但未取得支持单独形式 bla 为官方标准词目的 DBP 定义。词频排名沿用输入数据；缺失的音节、音标和爪夷取字不作伪补。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bla",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bla → bla；语用重复：bla, bla, bla",
+    "pattern_note": "整体记忆，不拆词缀。重复用于模拟或略去话语，不宜直接等同于具有固定语法功能的标准马来语重叠构词；is_root 沿用输入中的未分析基础形式标记。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "通常重复作 bla, bla, bla，用来代替不愿逐一复述的话，近于“诸如此类、巴拉巴拉”；也可流露说话者认为内容冗长、无聊或不重要的态度。",
+      "en_definition": "An informal repeated expression representing omitted speech, often suggesting that the words are tedious or unimportant.",
+      "ms_definition": "Ungkapan tidak formal yang lazimnya diulang untuk menggantikan percakapan yang tidak dipetik sepenuhnya, kadangkala dengan nada bosan atau meremehkan.",
+      "nuances": "此处 particle 是受给定词类选项限制的近似标注；更准确地说是模拟话语的感叹性表达。上述马来语释义为编辑释义，并非 DBP 原文。实际马来语用例见 [IIUM 语言、文学与文化研讨会论文集](https://irep.iium.edu.my/99087/1/KOLOKIUM-BAHASA-2022.pdf)；相近英语表达的意义见 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/blah-blah-blah?topic=sounds-used-as-interjections)。",
+      "collocations": [
+        {
+          "ms": "bla, bla, bla",
+          "zh": "巴拉巴拉；诸如此类的话",
+          "en": "blah, blah, blah"
+        },
+        {
+          "ms": "dan bla, bla, bla",
+          "zh": "以及诸如此类的话",
+          "en": "and blah, blah, blah"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场编辑意见：引用非正式表达",
+      "ms": "Untuk laporan rasmi, gantikan ungkapan seperti “bla, bla, bla” dengan ringkasan yang jelas.",
+      "zh": "撰写正式报告时，请将“巴拉巴拉”之类的表达改成清楚的概述。",
+      "en": "For an official report, replace expressions such as “blah, blah, blah” with a clear summary."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论冗长信息",
+      "ms_spoken": "Dia cerita pasal kerja, mesyuarat, bla, bla, bla—aku nak tahu keputusan je.",
+      "ms_standard": "Dia bercerita tentang kerja, mesyuarat dan pelbagai perkara lain; saya hanya mahu mengetahui keputusannya.",
+      "zh": "他一直讲工作、开会，巴拉巴拉一大堆——我就想知道结果。",
+      "en": "He went on about work, meetings, blah, blah, blah—I just wanted to know the outcome.",
+      "spoken_features": [
+        "pasal 在此相当于较正式的 tentang",
+        "nak 对应 mahu",
+        "je 对应 sahaja",
+        "bla, bla, bla 带有省略和不耐烦的语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dia dah jawab ke, atau masih bla, bla, bla je?",
+          "ms_standard": "Adakah dia sudah memberikan jawapan, atau masih bercakap tanpa menjawab soalan?",
+          "zh": "他回答了没，还是只顾着巴拉巴拉？",
+          "en": "Has he answered yet, or is he still just going on and on?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum. Aku nak tanya terus apa keputusannya.",
+          "ms_standard": "Belum. Saya mahu bertanya secara terus tentang keputusannya.",
+          "zh": "还没。我想直接问他结果是什么。",
+          "en": "Not yet. I’m going to ask him directly what the outcome is."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay informal writing uses repeated bla to stand in for speech that the writer chooses not to reproduce. English has the closely comparable expression blah, blah, blah. Their similarity supports comparison, but does not establish a documented borrowing route or date. Treat this as an expressive convention rather than an inherited Malay root with a proven historical derivation.",
+    "cognitive_memory_aid": "把 bla, bla, bla 想成中文“巴拉巴拉”：声音还在继续，具体内容已经被略去。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "模仿别人说话时可能显得轻蔑，尤其不宜用来概括上司、长辈或客户刚说过的话。",
+    "usage_etiquette": "适合熟人之间的轻松叙述或自嘲。正式概述可用 dan sebagainya；需要准确记录时应写出实质内容。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "模仿别人说话时可能显得轻蔑，尤其不宜用来概括上司、长辈或客户刚说过的话。",
+    "usage_etiquette": "适合熟人之间的轻松叙述或自嘲。正式概述可用 dan sebagainya；需要准确记录时应写出实质内容。"
+  }
+}

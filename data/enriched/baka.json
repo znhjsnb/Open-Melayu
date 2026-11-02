@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "baka",
+    "syllables": "ba.ka",
+    "ipa": "/ˈbakə/",
+    "jawi": "باک",
+    "frequency_rank": 12791,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "baka",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + baka → baka",
+    "pattern_note": "无词缀。所列读音采用词尾 a 弱化为 [ə] 的马来西亚读法；采用 a 音的变体可读 [a]。",
+    "word_family": [
+      {
+        "word": "pembakaan",
+        "affix": "peN-...-an",
+        "gloss": "繁育；育种"
+      },
+      {
+        "word": "berbaka",
+        "affix": "ber-",
+        "gloss": "有后代；有种系延续"
+      }
+    ],
+    "root_jawi": "باک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "家世；血统；由祖先传下来的家族来源或世系。",
+      "en_definition": "Ancestry, lineage, or family stock.",
+      "ms_definition": "Keluarga yang menurunkan seseorang; asal keturunan.",
+      "nuances": "用于家族来源及世代传承的语境，不表示“父权制”。谈个人家世时，asal usul 或 keturunan 往往更中性。[DBP：baka](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=baka)",
+      "collocations": [
+        {
+          "ms": "saka baka",
+          "zh": "祖传世系；世代相传的血统",
+          "en": "ancestral lineage"
+        },
+        {
+          "ms": "membuang baka",
+          "zh": "败坏祖辈名声；有辱家门",
+          "en": "disgrace one's family lineage"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "动物或植物的种系、品种或用于繁育的种源。",
+      "en_definition": "A breed, strain, or breeding stock of animals or plants.",
+      "ms_definition": "Benih bagi haiwan atau tumbuhan.",
+      "nuances": "常见于畜牧、农业及遗传资源语境。baka 不等于物种 spesies；同一物种可以有多个品种或种系。[DBP：baka](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=baka)",
+      "collocations": [
+        {
+          "ms": "baka lembu",
+          "zh": "牛的品种",
+          "en": "cattle breed"
+        },
+        {
+          "ms": "baka tulen",
+          "zh": "纯种",
+          "en": "pure breed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "【吉兰丹、登嘉楼方言】一种树，亦称 inai-inai，学名 Erythroxylon cuneatum。",
+      "en_definition": "Kelantan and Terengganu dialect: the tree Erythroxylon cuneatum, also called inai-inai.",
+      "ms_definition": "Nama dialek Kelantan dan Terengganu bagi pokok inai-inai, Erythroxylon cuneatum.",
+      "nuances": "这是 DBP 另列的同形词 baka II，与“血统、品种”义分开理解。以下为植物语境中的组合表达，不声称属于高频固定搭配。[DBP：baka II](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=baka)",
+      "collocations": [
+        {
+          "ms": "pokok baka",
+          "zh": "baka 树",
+          "en": "a baka tree"
+        },
+        {
+          "ms": "daun baka",
+          "zh": "baka 树叶",
+          "en": "baka leaves"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 农业部门汇报",
+      "ms": "Jabatan itu menjalankan program pembiakan untuk meningkatkan mutu baka lembu tempatan.",
+      "zh": "该部门开展繁育计划，以提高本地牛种的品质。",
+      "en": "The department is running a breeding programme to improve the quality of local cattle breeds."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聊宠物",
+      "ms_spoken": "Kucing kat rumah kau tu baka apa?",
+      "ms_standard": "Apakah baka kucing yang ada di rumah kamu itu?",
+      "zh": "你家那只猫是什么品种啊？",
+      "en": "What breed is that cat at your place?",
+      "spoken_features": [
+        "kat 对应 di",
+        "kau 用于熟人之间",
+        "tu 对应 itu",
+        "疑问词 apa 位于句末"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kucing kat rumah kau tu baka apa?",
+          "ms_standard": "Apakah baka kucing yang ada di rumah kamu itu?",
+          "zh": "你家那只猫是什么品种啊？",
+          "en": "What breed is that cat at your place?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Baka campuran je. Aku dah ambil dia dari pusat perlindungan.",
+          "ms_standard": "Kucing itu daripada baka campuran sahaja. Saya telah mengambilnya dari pusat perlindungan haiwan.",
+          "zh": "就是混种猫啦，我从动物收容所领养的。",
+          "en": "Just a mixed-breed cat. I adopted it from an animal shelter."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Baka already appears with the meaning of descent in John Crawfurd's Malay dictionary of 1852. That historical attestation shows that its lineage sense predates modern genetics. In present usage, the same idea of continuity across generations connects family ancestry with animal breeding and plant stock. The evidence cited here does not establish its ultimate origin. [Crawfurd's dictionary](https://wallace-online.org/converted/pdf/1852_Crawfurd_WS5.2.pdf)",
+    "cognitive_memory_aid": "ba-ka 联想“爸爸传给下一代”：人的血统、动物的品种，都围绕代代相传；只是记忆联想，并非词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈动物和植物品种很自然；谈人时，拿 baka 来评判高低优劣容易显得轻蔑，宜改用 keturunan 或 asal usul。",
+    "usage_etiquette": "农业、畜牧和宠物语境可直接使用。membuang baka 带有强烈的家族羞辱意味，不宜随意用来责备别人。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈动物和植物品种很自然；谈人时，拿 baka 来评判高低优劣容易显得轻蔑，宜改用 keturunan 或 asal usul。",
+    "usage_etiquette": "农业、畜牧和宠物语境可直接使用。membuang baka 带有强烈的家族羞辱意味，不宜随意用来责备别人。"
+  }
+}

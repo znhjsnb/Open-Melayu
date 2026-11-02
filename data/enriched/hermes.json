@@ -1,0 +1,115 @@
+{
+  "headword": {
+    "word": "hermes",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 12753,
+    "status": "ambiguous_proper_name",
+    "validation_note": "小写输入不足以确定所指。常见候选包括希腊神名 Hermes 和法国品牌 Hermès；也可能是其他人名或机构名。以下列出两个有来源支持的候选，不据此确定原始语料的实际所指。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hermes",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Hermes → Hermes；品牌所指写作 Hermès",
+    "pattern_note": "专名整体记忆，不分析为马来语词根加词缀。is_root 表示未作内部构词分析。不同所指可能有不同语言的读音，因此不填入一个冒充通用马来语标准的 IPA。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "赫尔墨斯：希腊神话中的神祇，以担任诸神的使者而闻名。",
+      "en_definition": "Hermes, the messenger god in Greek mythology.",
+      "ms_definition": "Hermes, dewa dalam mitologi Yunani yang berperanan sebagai utusan para dewa.",
+      "nuances": "专有名词，规范书写首字母大写。上述马来语释义为编辑释义，并非 DBP 原文。神使身份及常见图像特征见 [大都会艺术博物馆 Hermes 藏品说明](https://www.metmuseum.org/art/collection/search/251800)。以下组合用于神话和艺术语境，不附带未经验证的频率结论。",
+      "collocations": [
+        {
+          "ms": "dewa Hermes",
+          "zh": "神祇赫尔墨斯",
+          "en": "the god Hermes"
+        },
+        {
+          "ms": "patung Hermes",
+          "zh": "赫尔墨斯雕像",
+          "en": "a statue of Hermes"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "爱马仕：法国品牌 Hermès，名称来自创办人 Thierry Hermès 的姓氏；hermes 可作为缺少大小写和重音符号的输入形式。",
+      "en_definition": "Hermès, a French luxury house named after its founder, Thierry Hermès.",
+      "ms_definition": "Hermès, jenama mewah Perancis yang menggunakan nama keluarga pengasasnya, Thierry Hermès.",
+      "nuances": "品牌的正式拼写为 Hermès；不要与希腊神名 Hermes 混同。上述释义为编辑释义。创办人及 1837 年巴黎马具工坊的历史见 [Hermès 官方品牌历史](https://www.hermes.com/au/en/content/235056-six-generations-of-artisans/)。以下组合为常用商品或零售表达，不表示已经完成语料频率统计。",
+      "collocations": [
+        {
+          "ms": "beg tangan Hermès",
+          "zh": "爱马仕手袋",
+          "en": "a Hermès handbag"
+        },
+        {
+          "ms": "butik Hermès",
+          "zh": "爱马仕精品店",
+          "en": "a Hermès boutique"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "博物馆 / 艺术史说明",
+      "ms": "Dalam mitologi Yunani, Hermes berperanan sebagai utusan para dewa.",
+      "zh": "在希腊神话中，赫尔墨斯担任诸神的使者。",
+      "en": "In Greek mythology, Hermes serves as the messenger of the gods."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友逛街，品牌义",
+      "ms_spoken": "Aku nak tengok beg kat butik Hermès tu je.",
+      "ms_standard": "Saya hanya mahu melihat beg di butik Hermès itu.",
+      "zh": "我就想去那家爱马仕店看看包。",
+      "en": "I just want to look at the bags in that Hermès boutique.",
+      "spoken_features": [
+        "nak 对应 mahu",
+        "kat 对应 di",
+        "tu 对应 itu",
+        "je 对应 sahaja",
+        "此处采用品牌义；正式场景采用神话义"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau nak masuk butik Hermès tu ke?",
+          "ms_standard": "Adakah awak mahu masuk ke butik Hermès itu?",
+          "zh": "你想进那家爱马仕店吗？",
+          "en": "Do you want to go into that Hermès boutique?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nak tengok je. Aku belum nak beli apa-apa.",
+          "ms_standard": "Saya hanya mahu melihat-lihat. Saya belum bercadang untuk membeli apa-apa.",
+          "zh": "就看看。我还没打算买东西。",
+          "en": "Just to browse. I’m not planning to buy anything yet."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Two distinct naming histories must remain separate. Hermes is the name of the Greek messenger god, represented in ancient art with attributes such as winged sandals and a herald’s staff. Hermès, the French house, takes its name from founder Thierry Hermès, who opened a Paris harness workshop in 1837. These facts do not establish the deeper etymology of either name.",
+    "cognitive_memory_aid": "神话看“神使”Hermes，购物看“品牌”Hermès；用语境和重音符号帮助分清两个所指。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "介绍 Hermes 时使用“希腊神话中的神祇”等中性表述。谈论 Hermès 商品时，不以品牌推断他人的收入或社会地位。",
+    "usage_etiquette": "神话、博物馆和艺术史语境使用 Hermes；品牌和零售语境保留 Hermès。其他人名、账号或机构所指须依原始上下文另行确认。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "介绍 Hermes 时使用“希腊神话中的神祇”等中性表述。谈论 Hermès 商品时，不以品牌推断他人的收入或社会地位。",
+    "usage_etiquette": "神话、博物馆和艺术史语境使用 Hermes；品牌和零售语境保留 Hermès。其他人名、账号或机构所指须依原始上下文另行确认。"
+  }
+}

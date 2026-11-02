@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "sesen",
+    "syllables": "se.sen",
+    "ipa": "/sə.sen/",
+    "jawi": "سين",
+    "frequency_rank": 12757,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sen",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + sen → sesen",
+    "pattern_note": "se- 表示 satu，即一；词根 sen 的 s 保留，因此两个音节均以 s 开头，不发生鼻音替换。前一个 e 为 /ə/，词根中的 é 为 /e/。输入包中的 سين 是 sen 的 Jawi，未包含前缀 se-。",
+    "word_family": [
+      {
+        "word": "sen",
+        "affix": null,
+        "gloss": "仙；货币单位"
+      },
+      {
+        "word": "sen-sen",
+        "affix": "重叠",
+        "gloss": "零钱；若干仙"
+      }
+    ],
+    "root_jawi": "سين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一仙，即一令吉的百分之一；表示金额，不必然指一枚实物硬币。",
+      "en_definition": "One sen, equal to one hundredth of a Malaysian ringgit.",
+      "ms_definition": "Satu sen, iaitu satu perseratus daripada satu ringgit.",
+      "nuances": "se- 表示数量一，不能把 sesen 误解为泛指零钱。其金额意义依据 sen 与 ringgit 的关系；参见 [DBP：ringgit 与 seratus sen](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=seratus)。",
+      "collocations": [
+        {
+          "ms": "kurang sesen",
+          "zh": "少一仙",
+          "en": "one sen short"
+        },
+        {
+          "ms": "lebih sesen",
+          "zh": "多一仙",
+          "en": "one sen extra"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于否定或强调结构，表示哪怕最少的一点钱，相当于“一分钱”；通常不强调精确金额。",
+      "en_definition": "The smallest amount of money, especially in negative expressions meaning not a penny.",
+      "ms_definition": "Jumlah wang yang paling sedikit, digunakan sebagai penegas, terutama dalam ungkapan penafian seperti sesen pun tidak.",
+      "nuances": "在 tak ada sesen pun 等表达中，重点是完全没有钱，并非只缺一仙。DBP 也以 sesen pun 解释相关的极小金额表达，见 [DBP：sen](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sen)。",
+      "collocations": [
+        {
+          "ms": "tidak ada sesen pun",
+          "zh": "一分钱也没有",
+          "en": "not have a penny"
+        },
+        {
+          "ms": "tidak membayar sesen pun",
+          "zh": "一分钱也没付",
+          "en": "not pay a penny"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semakan mendapati bahawa jumlah pada invois itu kurang sesen daripada jumlah yang sepatutnya.",
+      "zh": "核查发现，该发票上的金额比应有金额少一仙。",
+      "en": "The review found that the amount on the invoice was one sen below the correct total."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah periksa dompet, sesen pun tak ada.",
+      "ms_standard": "Saya sudah memeriksa dompet saya, tetapi tidak ada sesen pun di dalamnya.",
+      "zh": "我已经翻过钱包了，一分钱都没有。",
+      "en": "I've checked my wallet. There's not a penny in it.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式",
+        "tak 是 tidak 的口语形式",
+        "sesen pun 前置，加强完全没有钱的语气",
+        "aku 用于关系亲近者之间"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah periksa dompet, sesen pun tak ada. Boleh aku bayar guna telefon?",
+          "ms_standard": "Saya sudah memeriksa dompet saya, tetapi tidak ada sesen pun di dalamnya. Bolehkah saya membuat bayaran menggunakan telefon?",
+          "zh": "我已经翻过钱包了，一分钱现金都没有。我可以用手机付款吗？",
+          "en": "I've checked my wallet and I haven't got any cash. Can I pay with my phone?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Boleh je, imbas kod kat kaunter tu.",
+          "ms_standard": "Boleh. Imbas kod yang terdapat di kaunter itu.",
+          "zh": "可以啊，扫柜台那边的码就行。",
+          "en": "Sure, just scan the code at the counter."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sesen combines the productive Malay prefix se-, meaning one, with the currency noun sen. Its monetary background is the division of a ringgit into one hundred sen. From that tiny amount comes its expressive force: under negation, sesen pun conveys having or paying absolutely nothing, much like English not a penny. See [DBP's currency vocabulary](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=sen).",
+    "cognitive_memory_aid": "se-＝一，sen＝仙，所以 sesen＝一仙；加上 pun 和否定词，就连一分钱也没有。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "核对账目时可客观说 Jumlahnya kurang sesen。谈论他人的经济状况时，sesen pun tak ada 容易显得嘲讽，宜谨慎使用。",
+    "usage_etiquette": "精确金额适用于账目、价格比较及算术；否定结构适用于熟人间说明没带钱、没有收入或完全未付款。正式求助宜直接说明 Tiada wang tunai 或资金不足的具体情况。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "核对账目时可客观说 Jumlahnya kurang sesen。谈论他人的经济状况时，sesen pun tak ada 容易显得嘲讽，宜谨慎使用。",
+    "usage_etiquette": "精确金额适用于账目、价格比较及算术；否定结构适用于熟人间说明没带钱、没有收入或完全未付款。正式求助宜直接说明 Tiada wang tunai 或资金不足的具体情况。"
+  }
+}

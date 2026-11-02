@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "true",
+    "syllables": null,
+    "ipa": "/truː/",
+    "jawi": null,
+    "frequency_rank": 12721,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "true",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + true → true（英语整词；马来语常用对应词 benar）",
+    "pattern_note": "按英语词或代码标记处理，没有可据输入建立的马来语派生词族。英语发音为单音节；词尾 e 不独立发音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "真实的；符合事实的；正确的。属于英语词义，马来语通常用 benar 或 betul。",
+      "en_definition": "In accordance with fact or reality; correct.",
+      "ms_definition": "Dalam bahasa Inggeris, benar atau sesuai dengan fakta dan kenyataan.",
+      "nuances": "可见于英语引语或英马语码混用；本输入不足以把它列为官方马来语词。以下为英语搭配，标准马来语对应 kisah benar、kenyataan yang benar。英语词义依据：[Merriam-Webster：true](https://scrabble.m-w.com/dictionary/true)。",
+      "collocations": [
+        {
+          "ms": "true story",
+          "zh": "真实故事",
+          "en": "a true story"
+        },
+        {
+          "ms": "true statement",
+          "zh": "真实陈述",
+          "en": "a true statement"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "真正的；名副其实的；纯正的。属于英语词义，马来语可用 sejati 或 sebenar。",
+      "en_definition": "Genuine or possessing the essential qualities of the thing described.",
+      "ms_definition": "Dalam bahasa Inggeris, sejati atau mempunyai sifat sebenar sesuatu yang dinyatakan.",
+      "nuances": "强调本质或真实性，不能一律机械翻译成 betul。以下英语搭配的马来语对应分别为 cinta sejati、seorang profesional sejati。",
+      "collocations": [
+        {
+          "ms": "true love",
+          "zh": "真爱",
+          "en": "true love"
+        },
+        {
+          "ms": "a true professional",
+          "zh": "真正的专业人士",
+          "en": "a true professional"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "忠诚的；忠实于某人、原则或承诺的。属于英语词义，马来语通常用 setia 或 berpegang teguh。",
+      "en_definition": "Faithful or loyal to a person, principle, or commitment.",
+      "ms_definition": "Dalam bahasa Inggeris, setia kepada seseorang atau berpegang teguh pada prinsip atau janji.",
+      "nuances": "常见于 true to 结构；true to one's word 表示信守诺言，不是“话语真实”的逐词组合。以下为英语表达。",
+      "collocations": [
+        {
+          "ms": "true to one's word",
+          "zh": "信守诺言",
+          "en": "faithful to one's promise"
+        },
+        {
+          "ms": "true to one's principles",
+          "zh": "坚守自己的原则",
+          "en": "faithful to one's principles"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "真值：在逻辑或程序代码中表示条件成立的布尔值。",
+      "en_definition": "The Boolean truth value indicating that a condition holds.",
+      "ms_definition": "Nilai Boolean yang menunjukkan bahawa sesuatu syarat adalah benar.",
+      "nuances": "此处是对代码值的名词性提及。具体大小写由语言规定；例如 Python 使用 True，不能改写成小写 true。下列搭配以允许小写 true 的代码语境为前提。参见：[Python 布尔类型文档](https://docs.python.org/3/library/stdtypes.html#boolean-type-bool)。",
+      "collocations": [
+        {
+          "ms": "nilai true",
+          "zh": "值为真",
+          "en": "the value true"
+        },
+        {
+          "ms": "mengembalikan true",
+          "zh": "返回真值",
+          "en": "return true"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "技术文档 / 职场汇报",
+      "ms": "Dalam contoh kod ini, fungsi tersebut mengembalikan nilai true apabila semua syarat dipenuhi.",
+      "zh": "在此代码示例中，所有条件都满足时，该函数返回真值 true。",
+      "en": "In this code example, the function returns true when all conditions are met."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 英马语码混用",
+      "ms_spoken": "True lah, jalan kat situ memang sesak waktu petang.",
+      "ms_standard": "Betullah, jalan di situ memang sesak pada waktu petang.",
+      "zh": "真的，那边的路傍晚确实很堵。",
+      "en": "That’s true—the road there really does get busy in the evening.",
+      "spoken_features": [
+        "true：英语词嵌入马来语句子，属于语码混用",
+        "lah：此处加强认同语气",
+        "kat situ：di situ 的口语表达",
+        "waktu petang：口语中省略介词 pada"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "True ke cerita tu? Aku baru baca kat WhatsApp.",
+          "ms_standard": "Benarkah cerita itu? Saya baru membacanya di WhatsApp.",
+          "zh": "那件事是真的吗？我刚在 WhatsApp 上看到。",
+          "en": "Is that story true? I just read it on WhatsApp."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Entah, aku pun tak pasti. Jangan kongsi dulu lah.",
+          "ms_standard": "Saya juga tidak pasti. Jangan kongsikannya dahulu.",
+          "zh": "不知道，我也不确定。先别转发吧。",
+          "en": "I don’t know either. Let’s hold off on sharing it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English true descends from Old English forms associated with faithfulness and reliability. Its history connects loyalty to people with trustworthiness in statements, helping explain why modern English uses it for both faithful commitment and factual accuracy. In Malay conversation it can appear through code-switching, while computing gives the English word a specialized role as a truth-value label.",
+    "cognitive_memory_aid": "把 /truː/ 连到一个“✓”：事实成立用 benar，真正纯正用 sejati，忠诚守信用 setia；代码中的 true 表示真值。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "True lah 等混合表达适合熟悉且习惯双语交流的对象。正式马来语沟通优先使用 benar、betul、sejati 或 setia，按具体词义选择。",
+    "usage_etiquette": "引用代码或界面文字时保留原拼写及大小写。日常对话中的 true 只表示说话者认同，并不构成事实已经核实的证据。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "True lah 等混合表达适合熟悉且习惯双语交流的对象。正式马来语沟通优先使用 benar、betul、sejati 或 setia，按具体词义选择。",
+    "usage_etiquette": "引用代码或界面文字时保留原拼写及大小写。日常对话中的 true 只表示说话者认同，并不构成事实已经核实的证据。"
+  }
+}

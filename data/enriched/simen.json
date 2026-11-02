@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "simen",
+    "syllables": null,
+    "ipa": "/si.men/",
+    "jawi": "سيمين",
+    "frequency_rank": 12720,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "simen",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + simen → simen",
+    "pattern_note": "基本词整词记忆；e 读 /e/（é），不读 /ə/。派生 menyimen 时，meN- 在 s 前实现为 meny-，词首 s 脱落。",
+    "word_family": [
+      {
+        "word": "menyimen",
+        "affix": "meN-",
+        "gloss": "铺抹水泥；用牙科黏固材料修补"
+      },
+      {
+        "word": "bersimen",
+        "affix": "ber-",
+        "gloss": "打着石膏；用石膏固定"
+      }
+    ],
+    "root_jawi": "سيمين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "水泥：由石灰石、黏土等原料制成，用作建筑胶结材料的粉末。",
+      "en_definition": "Cement: a powder made from materials such as limestone and clay, used as a binder in construction.",
+      "ms_definition": "Sejenis serbuk daripada batu kapur, tanah liat dan bahan lain untuk merekatkan bata atau membina tembok.",
+      "nuances": "指干粉原料时，与砂浆 mortar、混凝土 konkrit 有别；不能在工程规格中把三者随意互换。四项基本义项依据：[DBP：simen](https://prpm.dbp.gov.my/cari1?keyword=simen)。",
+      "collocations": [
+        {
+          "ms": "serbuk simen",
+          "zh": "水泥粉",
+          "en": "cement powder"
+        },
+        {
+          "ms": "simen Portland",
+          "zh": "波特兰水泥",
+          "en": "Portland cement"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "以水泥、砂和水拌成，用于砌筑、铺设或涂抹表面的混合料。",
+      "en_definition": "A mixture of cement, sand, and water used for building or coating surfaces.",
+      "ms_definition": "Campuran serbuk simen dengan pasir dan air untuk membina atau melapisi tembok dan sebagainya.",
+      "nuances": "这是词典收录的延伸用法。日常所说的 lantai simen 通常泛指水泥质地面；准确材料组成须结合工程语境判断。",
+      "collocations": [
+        {
+          "ms": "lantai simen",
+          "zh": "水泥地面",
+          "en": "a cement floor"
+        },
+        {
+          "ms": "lapisan simen",
+          "zh": "水泥抹层",
+          "en": "a layer of cement mortar"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "牙科水门汀或黏固材料：用于牙齿修补、封填或黏固修复体的专用材料。",
+      "en_definition": "Dental cement: a material used in dental filling, sealing, or luting.",
+      "ms_definition": "Bahan untuk menampal gigi yang berlubang.",
+      "nuances": "输入词典采用较宽泛的补牙材料释义；这里指牙科专用材料。现代修复材料种类较多，不宜把所有补牙材料都称为 simen。",
+      "collocations": [
+        {
+          "ms": "simen pergigian",
+          "zh": "牙科水门汀",
+          "en": "dental cement"
+        },
+        {
+          "ms": "simen ionomer kaca",
+          "zh": "玻璃离子水门汀",
+          "en": "glass ionomer cement"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "牙体外层的钙化组织；对应牙骨质时，指覆盖牙根表面的天然硬组织。",
+      "en_definition": "The calcified outer tissue of a tooth; anatomically, cementum is the tissue covering the tooth root.",
+      "ms_definition": "Zat kapur yang membentuk lapisan luar gigi.",
+      "nuances": "保留输入中较宽泛的词典释义。现代解剖学中的 cementum 覆盖牙根，与覆盖牙冠的 enamel（牙釉质）有别。以下为专业语境搭配。解剖依据：[NCBI Bookshelf：牙齿与牙周组织](https://www.ncbi.nlm.nih.gov/books/NBK279619/)。",
+      "collocations": [
+        {
+          "ms": "lapisan simen pada akar gigi",
+          "zh": "牙根表面的牙骨质层",
+          "en": "the cementum layer on a tooth root"
+        },
+        {
+          "ms": "simen akar gigi",
+          "zh": "牙根牙骨质",
+          "en": "root cementum"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "工程报告 / 职场汇报",
+      "ms": "Kontraktor perlu memastikan bekalan simen mencukupi sebelum kerja pembinaan dimulakan.",
+      "zh": "承包商须在施工开始前确保水泥供应充足。",
+      "en": "The contractor must ensure that sufficient cement is available before construction begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家庭装修沟通",
+      "ms_spoken": "Simen kat lantai tu belum keras lagi, jangan pijak dulu.",
+      "ms_standard": "Simen pada lantai itu belum mengeras; jangan pijaknya dahulu.",
+      "zh": "地上的水泥还没硬，先别踩。",
+      "en": "The cement on that floor hasn’t set yet, so don’t step on it.",
+      "spoken_features": [
+        "kat：此处表示表面位置，标准语用 pada",
+        "tu：itu 的口语形式",
+        "keras：口语中用形容词表达尚未硬化的状态",
+        "dulu：此处表示暂时先不要"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (家人)",
+          "ms_spoken": "Simen kat depan pintu tu dah keras ke?",
+          "ms_standard": "Adakah simen di hadapan pintu itu sudah mengeras?",
+          "zh": "门前那块水泥已经硬了吗？",
+          "en": "Has the cement in front of the door set yet?"
+        },
+        {
+          "speaker": "Farah (家人)",
+          "ms_spoken": "Belum lagi. Nak masuk, ikut pintu belakang je.",
+          "ms_standard": "Belum lagi. Jika hendak masuk, gunakan pintu belakang sahaja.",
+          "zh": "还没呢，要进来的话就走后门吧。",
+          "en": "Not yet. Just use the back door if you want to come in."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Simen resembles English cement, whose historical background includes Latin caementum, referring to rough stone or rubble. This resemblance alone does not establish the precise borrowing route into Malay. Its established Malay uses tell another story: one familiar label extends from building powder and mortar to dental materials and, in bersimen, a plaster cast protecting a broken limb.",
+    "cognitive_memory_aid": "把 si-men 的两个音节连到“一袋水泥”的画面；再记 menyimen＝铺抹水泥，bersimen＝肢体打着石膏。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性材料词，无特殊敬语要求。请工人施工时用“Boleh tolong…”等礼貌表达；说明材料和位置比单独下命令更清楚。",
+    "usage_etiquette": "装修交流中 lantai simen 很自然；报价单和技术文件宜明确区分水泥、砂浆与混凝土。牙科语境中的 simen 指专用材料，bersimen 则可描述肢体的石膏固定。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性材料词，无特殊敬语要求。请工人施工时用“Boleh tolong…”等礼貌表达；说明材料和位置比单独下命令更清楚。",
+    "usage_etiquette": "装修交流中 lantai simen 很自然；报价单和技术文件宜明确区分水泥、砂浆与混凝土。牙科语境中的 simen 指专用材料，bersimen 则可描述肢体的石膏固定。"
+  }
+}

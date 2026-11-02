@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "sekawan",
+    "syllables": null,
+    "ipa": "/sə.ka.wan/",
+    "jawi": "کاون",
+    "frequency_rank": 12789,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kawan",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + kawan → sekawan",
+    "pattern_note": "se- 读 /sə/，与 kawan 结合时不删除或改变词首 /k/；整体读作 sə-ka-wan。headword.jawi 按要求保留输入的 کاون，但该字形实际对应词根 kawan；含 se- 的完整词形应写 سکاون。输入未提供 sekawan 的音节字段，保留 null。",
+    "word_family": [
+      {
+        "word": "kawan",
+        "affix": null,
+        "gloss": "朋友；群体"
+      },
+      {
+        "word": "berkawan",
+        "affix": "ber-",
+        "gloss": "交朋友；结伴"
+      },
+      {
+        "word": "berkawan-kawan",
+        "affix": "ber- + 全词重叠",
+        "gloss": "成群结队"
+      },
+      {
+        "word": "perkawanan",
+        "affix": "per-…-an",
+        "gloss": "朋友关系；交往"
+      }
+    ],
+    "root_jawi": "کاون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一群；一伙：由若干动物或人组成的一个群体，尤用于成群活动的动物。",
+      "en_definition": "A group, flock, herd, or shoal considered as one unit, especially a group of animals.",
+      "ms_definition": "Satu kumpulan binatang atau orang; satu kelompok atau gerombolan.",
+      "nuances": "本义依据输入中 kawan 的“群体”义与 se- 的数量作用综合表述，不冒充所附词条的逐字引文。sekawan 常构成数量短语，如 sekawan burung；英语须按对象选 flock、herd、shoal 等。用于人群时需考虑语境。DBP 的用法示例确认 sekawan burung 这一搭配。[DBP 用法说明](https://kndbp.dbp.gov.my/soalanlazim/nb_soalan_lazim.aspx?ctl00_contentPlaceHolder_dgCarianBaruChangePage=1805_20)。",
+      "collocations": [
+        {
+          "ms": "sekawan burung",
+          "zh": "一群鸟",
+          "en": "a flock of birds"
+        },
+        {
+          "ms": "sekawan ikan",
+          "zh": "一群鱼",
+          "en": "a shoal of fish"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "结伴的；同属一个伙伴群体的，常与数词连用，表示几位伙伴一起。",
+      "en_definition": "Together as companions or members of the same group, especially after a numeral.",
+      "ms_definition": "Bersama-sama sebagai kawan atau dalam satu kumpulan.",
+      "nuances": "常见于 dua sekawan、empat sekawan 等结构，不等同于把 sekawan 单独当作“一个朋友”。此处按关系性形容词处理；句中亦可起结伴状态的说明作用。DBP 出版物《Empat Sekawan》以四位好友为故事主角，可佐证这种用法。[DBP：《Empat Sekawan》](https://jendeladbp.my/ujana/empat-sekawan/)。",
+      "collocations": [
+        {
+          "ms": "dua sekawan",
+          "zh": "两位伙伴；结伴的两人",
+          "en": "two companions"
+        },
+        {
+          "ms": "empat sekawan",
+          "zh": "四位伙伴；结伴的四人",
+          "en": "four companions"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelidik merekodkan kehadiran sekawan burung hijrah di kawasan paya bakau tersebut.",
+      "zh": "研究团队记录到一群候鸟出现在该红树林湿地。",
+      "en": "The research team recorded a flock of migratory birds in the mangrove wetland."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tengok tu, ada sekawan burung kat tepi tasik!",
+      "ms_standard": "Lihatlah, ada sekawan burung di tepi tasik itu!",
+      "zh": "快看，湖边有一群鸟！",
+      "en": "Look, there's a flock of birds by the lake!",
+      "spoken_features": [
+        "tengok 是日常常用的“看”，正式表达可用 lihat。",
+        "tu 对应 itu；kat 对应 di。",
+        "nak 对应 hendak，je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Tengok tu, ada sekawan burung kat tepi tasik!",
+          "ms_standard": "Lihatlah, ada sekawan burung di tepi tasik itu!",
+          "zh": "快看，湖边有一群鸟！",
+          "en": "Look, there's a flock of birds by the lake!"
+        },
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Cantiknya! Aku nak ambil gambar dari sini je.",
+          "ms_standard": "Cantiknya! Saya hendak mengambil gambar dari sini sahaja.",
+          "zh": "好漂亮！我就在这里拍张照。",
+          "en": "They're beautiful! I'll take a photo from right here."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sekawan combines se- with kawan, a base whose supplied dictionary entry includes both a group and a friend. The resulting expressions connect grouping with companionship: sekawan burung names one flock, while empat sekawan presents four companions together. DBP's children's title Empat Sekawan illustrates this second pattern through four animal friends. [Source: DBP](https://jendeladbp.my/ujana/empat-sekawan/).",
+    "cognitive_memory_aid": "se- 把数量收成“一”，kawan 想成“伙伴群”：sekawan burung 是一群鸟，empat sekawan 是四位结伴的伙伴。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "形容动物群体通常中性。形容人时，empat sekawan 可以亲切自然；但正式介绍来宾、同事或长辈，通常用 sekumpulan、rombongan 或具体身份称谓更稳妥。",
+    "usage_etiquette": "适用于自然观察、叙事和伙伴关系。不要因为 kawan 有“朋友”义，就把 sekawan 当作一位朋友的称呼；表达“一位朋友”应说 seorang kawan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "形容动物群体通常中性。形容人时，empat sekawan 可以亲切自然；但正式介绍来宾、同事或长辈，通常用 sekumpulan、rombongan 或具体身份称谓更稳妥。",
+    "usage_etiquette": "适用于自然观察、叙事和伙伴关系。不要因为 kawan 有“朋友”义，就把 sekawan 当作一位朋友的称呼；表达“一位朋友”应说 seorang kawan。"
+  }
+}
