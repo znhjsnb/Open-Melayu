@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "difikirkan",
+    "syllables": null,
+    "ipa": "/di.fi.kir.kan/",
+    "jawi": null,
+    "frequency_rank": 4421,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "fikir",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + fikir + -kan → difikirkan",
+    "pattern_note": "输入包误将派生词标作词根，实际词根是 fikir。di- 标示被动，-kan 保留于被动结构；词根辅音不变。此处 circumfix 表示前后缀组合，不表示二者不可分。建议音节划分为 di.fi.kir.kan；输入包未提供音节或整词爪夷文，因此相应字段保留 null。",
+    "word_family": [
+      {
+        "word": "berfikir",
+        "affix": "ber-",
+        "gloss": "思考"
+      },
+      {
+        "word": "memikirkan",
+        "affix": "meN-...-kan",
+        "gloss": "考虑；想着；顾及"
+      },
+      {
+        "word": "fikiran",
+        "affix": "-an",
+        "gloss": "思想；想法；头脑"
+      },
+      {
+        "word": "pemikiran",
+        "affix": "peN-...-an",
+        "gloss": "思维；思考方式"
+      }
+    ],
+    "root_jawi": "فيکير"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被思考、考虑或权衡，尤指某个问题、建议或后果成为思考对象。",
+      "en_definition": "To be thought about, considered, or weighed mentally.",
+      "ms_definition": "Dipertimbangkan atau direnungkan dengan menggunakan akal untuk memahami sesuatu atau membuat keputusan.",
+      "nuances": "是 memikirkan 的被动形式，本身不表示过去时；perlu difikirkan 表示需要考虑，sudah difikirkan 才表示已经考虑。马来文释义为依据主动词义编写的被动释义。[DBP：memikirkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memikirkan)",
+      "collocations": [
+        {
+          "ms": "difikirkan masak-masak",
+          "zh": "经过仔细考虑",
+          "en": "considered very carefully"
+        },
+        {
+          "ms": "perlu difikirkan semula",
+          "zh": "需要重新考虑",
+          "en": "needs to be reconsidered"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被想着、记挂或惦念；进入某人的思绪。",
+      "en_definition": "To be remembered or held in someone's thoughts.",
+      "ms_definition": "Diingati atau dikenang dalam fikiran seseorang.",
+      "nuances": "侧重持续想着某人、某种处境或未来，不一定涉及作出决定；也不必然表示担忧。对应 memikirkan 的 mengenangkan 义。[DBP：memikirkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memikirkan)",
+      "collocations": [
+        {
+          "ms": "masa depan yang sering difikirkan",
+          "zh": "经常思量的未来",
+          "en": "a future often thought about"
+        },
+        {
+          "ms": "nasib keluarga yang sentiasa difikirkan",
+          "zh": "始终挂念的家人处境",
+          "en": "the family's circumstances constantly kept in mind"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "被顾及、重视或纳入考虑，尤指他人的利益、需要或评价。",
+      "en_definition": "To be taken into account or treated as deserving attention.",
+      "ms_definition": "Dipedulikan atau diberikan perhatian sebagai sesuatu yang penting.",
+      "nuances": "侧重是否顾及某事，而不是思考过程有多深入。对应 memikirkan 的 mengendahkan、mempedulikan 义。[DBP：memikirkan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=memikirkan)",
+      "collocations": [
+        {
+          "ms": "kepentingan orang lain turut difikirkan",
+          "zh": "他人的利益也得到顾及",
+          "en": "other people's interests are also taken into account"
+        },
+        {
+          "ms": "kebajikan pekerja perlu difikirkan",
+          "zh": "需要顾及员工福利",
+          "en": "employees' welfare must be taken into account"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Implikasi kewangan cadangan itu perlu difikirkan dengan teliti sebelum keputusan dibuat.",
+      "zh": "作出决定之前，必须仔细考虑该建议的财务影响。",
+      "en": "The financial implications of the proposal must be carefully considered before a decision is made."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Banyak benda lagi yang kena difikirkan, kan?",
+      "ms_standard": "Masih banyak perkara yang perlu difikirkan, bukan?",
+      "zh": "还有好多事情要考虑，对吧？",
+      "en": "There's still a lot to think about, right?",
+      "spoken_features": [
+        "benda 在口语中泛指事情",
+        "kena 表示需要或必须",
+        "kan 用于征求认同",
+        "消息中使用 tu、dah 和疑问词 ke"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Kos sewa tu dah difikirkan ke?",
+          "ms_standard": "Adakah kos sewa itu sudah difikirkan?",
+          "zh": "租金的事已经考虑过了吗？",
+          "en": "Has the rent been taken into account?"
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Dah, tapi kos pengangkutan belum lagi. Kita bincang malam ni, ya.",
+          "ms_standard": "Kos sewa sudah difikirkan, tetapi kos pengangkutan belum lagi. Mari kita berbincang pada malam ini.",
+          "zh": "考虑过了，不过交通费还没有。我们今晚聊聊吧。",
+          "en": "Yes, but we haven't considered transport costs yet. Let's talk tonight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base fikir belongs to Malay's Arabic-derived vocabulary of thought. Its history illustrates how borrowed words become productive Malay building blocks: speakers attach native affixes to express thinking, thinkers, and ideas. Difikirkan is consequently a Malay grammatical formation, placing the matter under consideration in the foreground. [Root history](https://en.wiktionary.org/wiki/fikir); [DBP word family](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=fikir).",
+    "cognitive_memory_aid": "抓住中间的 fikir＝思考：前面 di- 把事情推到被动位置，后面 -kan 连着思考对象；事情被拿来想，就是 difikirkan。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Perkara ini perlu difikirkan semula 可用于委婉提出重新考虑，比直接否定对方柔和；是否礼貌仍取决于语气与上下文。",
+    "usage_etiquette": "适合会议、报告及日常讨论。若用来推迟答复，宜说明何时回复，以免对方把需要考虑理解为含糊拒绝。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Perkara ini perlu difikirkan semula 可用于委婉提出重新考虑，比直接否定对方柔和；是否礼貌仍取决于语气与上下文。",
+    "usage_etiquette": "适合会议、报告及日常讨论。若用来推迟答复，宜说明何时回复，以免对方把需要考虑理解为含糊拒绝。"
+  }
+}

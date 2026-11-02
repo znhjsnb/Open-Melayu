@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "perbaiki",
+    "syllables": null,
+    "ipa": "/pər.ba.i.ki/",
+    "jawi": null,
+    "frequency_rank": 4522,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "baiki",
+    "affix": "per-",
+    "affix_type": "prefix",
+    "formula": "per- + baiki → perbaiki；进一步分析：baik + -i → baiki",
+    "pattern_note": "按来料保留直接基底 baiki；最终词根是 baik。per- 接在 baiki 前不触发鼻音同化。此式说明表层结构，不表示该形式在所有马来西亚正式语境中均属规范用法。",
+    "word_family": [
+      {
+        "word": "membaiki",
+        "affix": "meN-…-i",
+        "gloss": "修理；修正"
+      },
+      {
+        "word": "memperbaik",
+        "affix": "memper-",
+        "gloss": "改善；使变得更好"
+      },
+      {
+        "word": "pembaikan",
+        "affix": "peN-…-an",
+        "gloss": "修理；修正工作"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "修理损坏的东西，或修正错误；见于口语、网络文字及印度尼西亚语用法。",
+      "en_definition": "To repair something damaged or correct something wrong, especially in informal or Indonesian usage.",
+      "ms_definition": "Dalam penggunaan tidak formal atau bahasa Indonesia, membetulkan sesuatu yang rosak atau salah.",
+      "nuances": "通常带宾语，也常用于命令句。马来西亚正式文字表达修理或修正时宜用 membaiki；直接命令可用 baiki。此处释义为用法综合，并非 DBP 对 perbaiki 的原文释义。指定的 status 字段不应被理解为 DBP 对该词形的规范认证。参见 [PRPM：baik 词族](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=baik+pulih%3B+membaik+pulih)。",
+      "collocations": [
+        {
+          "ms": "perbaiki kerosakan",
+          "zh": "修复损坏",
+          "en": "repair the damage"
+        },
+        {
+          "ms": "perbaiki kesilapan",
+          "zh": "改正错误",
+          "en": "correct the mistakes"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "改善原有的状况、质量或表现，使其更好。",
+      "en_definition": "To improve an existing condition, quality, or performance.",
+      "ms_definition": "Dalam penggunaan tidak formal atau bahasa Indonesia, menjadikan keadaan, mutu atau prestasi lebih baik.",
+      "nuances": "马来西亚正式文字表达“使更好”时宜用 memperbaik；直接命令可用 perbaik。不要直接把日常 perbaiki 的现代意义套入古典 memperbaiki：DBP 将后者另释为“善待某人”。参见 [PRPM：perbaiki 与 perbaik](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=perbaiki)。",
+      "collocations": [
+        {
+          "ms": "perbaiki mutu",
+          "zh": "改善质量",
+          "en": "improve quality"
+        },
+        {
+          "ms": "perbaiki hubungan",
+          "zh": "改善关系",
+          "en": "improve relations"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场报告 / 语言编辑",
+      "ms": "Dalam laporan rasmi ini, frasa “perbaiki mutu perkhidmatan” perlu digantikan dengan “memperbaik mutu perkhidmatan”.",
+      "zh": "在这份正式报告中，应将“perbaiki mutu perkhidmatan”改为“memperbaik mutu perkhidmatan”。",
+      "en": "In this official report, the phrase “perbaiki mutu perkhidmatan” should be replaced with “memperbaik mutu perkhidmatan”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事交流",
+      "ms_spoken": "Tolong perbaiki ayat kat bahagian ni dulu, ya.",
+      "ms_standard": "Tolong baiki ayat pada bahagian ini dahulu.",
+      "zh": "先帮忙改一下这部分的句子呀。",
+      "en": "Please fix the sentences in this section first, okay?",
+      "spoken_features": [
+        "kat 对应标准语的 pada",
+        "ni 是 ini 的口语形式",
+        "ya 缓和请求语气",
+        "此处 perbaiki 的正式马来西亚语对应形式为 baiki"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Tolong perbaiki ayat kat bahagian ni dulu, ya.",
+          "ms_standard": "Tolong baiki ayat pada bahagian ini dahulu.",
+          "zh": "先帮忙改一下这部分的句子呀。",
+          "en": "Please fix the sentences in this section first, okay?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Boleh, aku dah nampak silapnya. Kejap lagi aku hantar semula.",
+          "ms_standard": "Boleh, saya sudah mengenal pasti kesilapannya. Sebentar lagi saya akan menghantarnya semula.",
+          "zh": "行，我已经看到哪里错了。一会儿重新发给你。",
+          "en": "Sure, I’ve spotted the mistakes. I’ll send it back shortly."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Perbaiki belongs to the word family built around baik, meaning good or well. Its modern repair and improvement uses coexist with different Malaysian standard forms: membaiki for fixing and memperbaik for making better. A historical twist is that classical memperbaiki also meant treating someone well, rather than simply repairing an object. See [DBP’s baik family](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=baik+pulih%3B+membaik+pulih).",
+    "cognitive_memory_aid": "抓住中间的 baik（好）：把坏的弄好，就是修理；把已有的变得更好，就是改善。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接要求别人修改工作可能显得生硬；可加 tolong、boleh 或 ya，例如 Boleh tolong baiki bahagian ini?",
+    "usage_etiquette": "聊天中能理解此形式；正式马来西亚报告、考试和公文宜按意义改用 membaiki 或 memperbaik。批评他人作品时，指出具体需要修改的部分。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接要求别人修改工作可能显得生硬；可加 tolong、boleh 或 ya，例如 Boleh tolong baiki bahagian ini?",
+    "usage_etiquette": "聊天中能理解此形式；正式马来西亚报告、考试和公文宜按意义改用 membaiki 或 memperbaik。批评他人作品时，指出具体需要修改的部分。"
+  }
+}

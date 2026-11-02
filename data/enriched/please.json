@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "please",
+    "syllables": "not translated",
+    "ipa": "/pliːz/",
+    "jawi": null,
+    "frequency_rank": 4429,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "please",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + please → please",
+    "pattern_note": "英语整词；在马来西亚口语中可作为语码转换成分使用，没有马来语词缀。please 为单音节，词尾读 /z/。syllables 字段依输入保留 not translated，但该字符串不是音节划分。下列词族为英语派生形式，不是马来语派生词。",
+    "word_family": [
+      {
+        "word": "pleased",
+        "affix": "-ed",
+        "gloss": "英语：感到高兴的；满意的"
+      },
+      {
+        "word": "pleasing",
+        "affix": "-ing",
+        "gloss": "英语：令人愉快的；令人满意的"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "请；拜托。英语请求标记，夹用于马来语会话时可缓和请求，也可加强恳求。",
+      "en_definition": "An English request marker used to express politeness or emphasize an appeal.",
+      "ms_definition": "Ungkapan bahasa Inggeris yang disisipkan dalam percakapan untuk melembutkan permintaan atau menegaskan rayuan.",
+      "nuances": "这里记录马来语会话中的英语插入用法；particle 是其会话功能标签，英语词典常标作感叹词。正式马来语应依语境选用 tolong、sila 或 mohon，而不是机械逐词替换。马来文释义为编写释义。[Cambridge：please](https://dictionary.cambridge.org/dictionary/english/please)",
+      "collocations": [
+        {
+          "ms": "please tolong sekejap",
+          "zh": "拜托帮一下忙",
+          "en": "please help for a moment"
+        },
+        {
+          "ms": "please jangan marah",
+          "zh": "拜托别生气",
+          "en": "please don't be angry"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "得了吧；拜托。带不耐烦或讽刺语气，表示不相信、不认同或希望对方停止。",
+      "en_definition": "An English discourse expression conveying disbelief, irritation, or dismissal.",
+      "ms_definition": "Ungkapan bahasa Inggeris yang digunakan untuk menunjukkan rasa tidak percaya, tidak bersetuju atau jengkel.",
+      "nuances": "语气可能使表面上的礼貌词变成驳斥；不能一律译成请。以下是语码转换示例，未核实其搭配频率。英语 please 另有使人满意、随意选择等动词用法，不应直接视为马来语动词义。[Cambridge：please](https://dictionary.cambridge.org/dictionary/english/please)",
+      "collocations": [
+        {
+          "ms": "oh please, jangan berlebih-lebih",
+          "zh": "得了吧，别太夸张",
+          "en": "oh please, don't exaggerate"
+        },
+        {
+          "ms": "please lah, bukan macam tu",
+          "zh": "拜托，才不是那样",
+          "en": "come on, that's not how it is"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam surat rasmi berbahasa Melayu, ungkapan bahasa Inggeris 'please' boleh digantikan dengan 'sila' atau 'mohon' mengikut konteks.",
+      "zh": "在正式马来文书信中，英语表达 please 可根据语境改用 sila 或 mohon。",
+      "en": "In formal Malay correspondence, the English expression 'please' can be replaced with 'sila' or 'mohon', depending on the context."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Please, tunggu aku kat lobi sekejap, ya.",
+      "ms_standard": "Tolong tunggu saya di lobi sebentar.",
+      "zh": "拜托，在大厅等我一下啊。",
+      "en": "Please wait for me in the lobby for a moment.",
+      "spoken_features": [
+        "please 是英语语码转换成分",
+        "aku 是熟人之间的非正式第一人称代词",
+        "kat 在此对应地点介词 di",
+        "ya 用于柔化请求",
+        "消息中使用 nak、dah 和 ni"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Please, tunggu aku kat lobi sekejap. Aku nak turun sekarang.",
+          "ms_standard": "Tolong tunggu saya di lobi sebentar. Saya akan turun sekarang.",
+          "zh": "拜托，在大厅等我一下。我现在就下去。",
+          "en": "Please wait for me in the lobby. I'm coming down now."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Okey, aku dah sampai. Aku tunggu kat sini, ya.",
+          "ms_standard": "Baiklah, saya sudah tiba. Saya akan menunggu di sini.",
+          "zh": "好，我已经到了。我就在这里等你。",
+          "en": "Okay, I'm here already. I'll wait here."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English please developed through French from Latin placere, meaning to be agreeable or give pleasure. Its request use grew from longer expressions asking whether an action would please the listener. In a Malay conversation, the inserted English word retains that request function, while tone can turn it into insistence or irritation. [Etymology](https://www.etymonline.com/word/please); [current meanings](https://dictionary.cambridge.org/dictionary/english/please).",
+    "cognitive_memory_aid": "听到 /pliːz/，先听语气：柔和时是请、拜托；拖长或带不耐烦时，可能是得了吧。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友间夹用 please 可以自然地表达请求；正式场合采用合适的马来语请求表达。Please lah 的态度取决于语调，可能亲近，也可能显得不耐烦。",
+    "usage_etiquette": "适合双方都理解英语的非正式交流。面对长辈、客户或不熟悉英语的人，应优先使用清楚、合适的马来语表达；加入 please 本身不能消除命令式语气。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友间夹用 please 可以自然地表达请求；正式场合采用合适的马来语请求表达。Please lah 的态度取决于语调，可能亲近，也可能显得不耐烦。",
+    "usage_etiquette": "适合双方都理解英语的非正式交流。面对长辈、客户或不熟悉英语的人，应优先使用清楚、合适的马来语表达；加入 please 本身不能消除命令式语气。"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "tao",
+    "syllables": null,
+    "ipa": "/tau/; /tao/",
+    "jawi": null,
+    "frequency_rank": 4475,
+    "status": "context_dependent"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "tao",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "tahu → tau → tao（非正式拼写）；∅ + Tao → Tao（哲学术语）",
+    "pattern_note": "两个来源须分开理解：口语拼写 tao 对应 tahu，常省略 /h/ 并合读为 /tau/；哲学术语 Tao 是独立借入形式。此处 is_root 仅表示输入形式没有可分析的马来语词缀。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "知道；懂得。tahu 在非正式短信或网络交流中的变体拼写。",
+      "en_definition": "To know or understand; an informal text spelling of Malay tahu.",
+      "ms_definition": "Ejaan tidak baku bagi tahu, yakni maklum atau mengerti tentang sesuatu.",
+      "nuances": "此义读作 /tau/，不可当作正式标准拼写。西马青年语言研究记录了 tahu → tau → taw／tao 的变化，但不能据此认定所有 tao 都是此义。[西马青年语言研究](https://core.ac.uk/download/pdf/41886394.pdf)。标准词义参见 [DBP：tahu](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=tahu)。",
+      "collocations": [
+        {
+          "ms": "tak tao",
+          "zh": "不知道",
+          "en": "do not know"
+        },
+        {
+          "ms": "dah tao",
+          "zh": "已经知道",
+          "en": "already know"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "道；中国哲学中表示道路、行事之道或自然秩序的概念，尤其见于道家思想。",
+      "en_definition": "The Dao or Way: a Chinese philosophical concept of a path, guiding way or natural order.",
+      "ms_definition": "Konsep Dao atau Jalan dalam falsafah Cina, khususnya yang berkaitan dengan aturan alam dan panduan kehidupan.",
+      "nuances": "此义通常写作 Tao 或 Dao；/tao/ 为近似的马来语读法，不等同于汉语普通话带声调的 dào。它与短信拼写 tao 无词源关系，也不能直接等同于整个道教。[Stanford 哲学百科：Daoism](https://plato.stanford.edu/entries/daoism/)。",
+      "collocations": [
+        {
+          "ms": "konsep Tao",
+          "zh": "道的概念",
+          "en": "the concept of the Dao"
+        },
+        {
+          "ms": "memahami Tao",
+          "zh": "理解道",
+          "en": "understand the Dao"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan ini, ejaan tidak baku 'tao' dalam mesej asal dinormalkan kepada 'tahu'.",
+      "zh": "本报告将原始消息中的非标准拼写“tao”规范为“tahu”。",
+      "en": "In this report, the nonstandard spelling 'tao' in the original message is normalized to 'tahu'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku tak tao dia dah sampai.",
+      "ms_standard": "Saya tidak tahu bahawa dia sudah sampai.",
+      "zh": "我不知道他已经到了。",
+      "en": "I didn't know he'd already arrived.",
+      "spoken_features": [
+        "tao 是 tahu 的非标准短信拼写。",
+        "tak、dah 分别对应 tidak、sudah。",
+        "aku 适用于熟悉的朋友。",
+        "此场景使用知道义，不涉及哲学术语 Tao。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku tak tao dia dah sampai. Dia kat mana sekarang?",
+          "ms_standard": "Saya tidak tahu bahawa dia sudah sampai. Di manakah dia sekarang?",
+          "zh": "我不知道他已经到了。他现在在哪儿？",
+          "en": "I didn't know he'd arrived. Where is he now?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dia kat kedai depan tu je. Jom pergi.",
+          "ms_standard": "Dia berada di kedai di hadapan itu sahaja. Mari kita pergi.",
+          "zh": "他就在前面那家店。走吧。",
+          "en": "He's just at that shop up ahead. Let's go."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Two unrelated histories meet in this spelling. Malaysian youth writing can represent tahu as tau and then tao, reflecting informal pronunciation and spelling choices. In philosophy, Tao represents Chinese 道, also written Dao. Without a source sentence, neither history identifies the intended meaning with certainty; lowercase spelling alone cannot settle the question. [西马青年语言研究](https://core.ac.uk/download/pdf/41886394.pdf)；[Stanford 哲学百科](https://plato.stanford.edu/entries/daoism/)。",
+    "cognitive_memory_aid": "聊天里的 tak tao → tak tahu＝不知道；哲学里的 Tao → 道。先看上下文，再选词义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "知道义的 tao 适合熟人短信；工作邮件、考试和对外公文使用 tahu。",
+    "usage_etiquette": "讨论 Tao 时尊重相关哲学与宗教传统，并区分“道”的概念、道家思想与道教。缺少上下文时，不把输入直接判定为人名、术语或短信变体。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "知道义的 tao 适合熟人短信；工作邮件、考试和对外公文使用 tahu。",
+    "usage_etiquette": "讨论 Tao 时尊重相关哲学与宗教传统，并区分“道”的概念、道家思想与道教。缺少上下文时，不把输入直接判定为人名、术语或短信变体。"
+  }
+}

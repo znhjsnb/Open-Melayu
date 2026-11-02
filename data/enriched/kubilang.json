@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "kubilang",
+    "syllables": null,
+    "ipa": "/ku.bi.laŋ/",
+    "jawi": null,
+    "frequency_rank": 4276,
+    "status": "compositional_form",
+    "status_note": "这是可分析的 ku- + bilang 组合形式，不能据输入资料认定为独立的官方词头。音标按构词推定；排名沿用输入，音节划分和爪夷取值保留为空。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bilang",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku- + bilang → kubilang",
+    "pattern_note": "ku- 是 aku 的附着形式，紧接动词书写；这里借用 prefix 字段记录前附位置，并非普通派生前缀。词根首音 b 保留，不发生鼻音同化。输入将整个形式认作词根，需要纠正。[DBP：ku 的连写规则](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kubaca)",
+    "word_family": [
+      {
+        "word": "membilang",
+        "affix": "meN-",
+        "gloss": "逐一计数；口语中也可指说"
+      },
+      {
+        "word": "bilangan",
+        "affix": "-an",
+        "gloss": "数目；数量；数"
+      }
+    ],
+    "root_jawi": "بيلڠ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "由我逐一数算；在相应句式中相当于“我数的／我数过的”。",
+      "en_definition": "Counted by me; a first-person bound form of bilang in its counting sense.",
+      "ms_definition": "Bentuk ku- dengan bilang yang merujuk kepada sesuatu yang dihitung satu demi satu oleh penutur.",
+      "nuances": "这是组合形式的编写释义，并非独立的 DBP 原文定义。用于数量、物品等；例如 yang kubilang 中的 ku- 指计数者“我”。日常交流通常使用 saya kira 或 aku kira。计数义依据 bilang I。[DBP：bilang](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bilang)",
+      "collocations": [
+        {
+          "ms": "wang yang kubilang",
+          "zh": "我数过的钱",
+          "en": "the money I counted"
+        },
+        {
+          "ms": "satu demi satu kubilang",
+          "zh": "我逐一数算",
+          "en": "I count them one by one"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "我说；我说过的内容，或我告诉过对方的事情。",
+      "en_definition": "I say or tell; what I have said or told someone.",
+      "ms_definition": "Bentuk ku- dengan bilang dalam makna mengatakan atau memberitahu sesuatu.",
+      "nuances": "bilang 的“说”义在 DBP 中标为口语。kubilang 的这一用法常带文学、歌词或印度尼西亚语色彩，不能当作马来西亚所有地区都常用的表达。正式沟通宜用 saya katakan 或 saya maklumkan。以下为构式示例，未核实搭配频率。[DBP：bilang II](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bilang)",
+      "collocations": [
+        {
+          "ms": "sudah kubilang",
+          "zh": "我已经说过了",
+          "en": "I have already told you"
+        },
+        {
+          "ms": "seperti yang kubilang",
+          "zh": "正如我所说",
+          "en": "as I said"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场编辑说明",
+      "ms": "Dalam laporan rasmi, ungkapan “seperti yang kubilang” boleh digantikan dengan “seperti yang telah saya nyatakan”.",
+      "zh": "在正式报告中，可将“正如我所说”的 kubilang 表达改为“正如我已经说明”。",
+      "en": "In a formal report, “seperti yang kubilang” can be replaced with “seperti yang telah saya nyatakan”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论歌词",
+      "ms_spoken": "Dalam lirik tu, “kubilang” maksudnya “aku cakap”, kan?",
+      "ms_standard": "Dalam lirik itu, adakah “kubilang” bermaksud “aku berkata”?",
+      "zh": "那句歌词里的 kubilang，就是“我说”的意思，对吧？",
+      "en": "In that lyric, “kubilang” means “I say”, right?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式",
+        "cakap 是口语中常用的“说”",
+        "句末 kan 请求确认"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah dengar lagu tu. “Kubilang” maksudnya “aku cakap”, kan?",
+          "ms_standard": "Aku sudah mendengar lagu itu. Adakah “kubilang” bermaksud “aku berkata”?",
+          "zh": "我听过那首歌了。Kubilang 就是“我说”，对吧？",
+          "en": "I've heard that song. “Kubilang” means “I say”, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, dalam lirik tu. Kalau sembang biasa, aku guna “aku cakap” je.",
+          "ms_standard": "Ya, dalam lirik itu. Dalam perbualan biasa, aku hanya menggunakan ungkapan “aku cakap”.",
+          "zh": "对，那句歌词里是这个意思。平常聊天我就说 aku cakap。",
+          "en": "Yes, in that lyric. In everyday conversation, I just say “aku cakap”."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kubilang illustrates how Malay attaches a shortened personal pronoun directly to a verb. Its opening ku- represents aku, while bilang supplies the lexical meaning. DBP records counting and colloquial speaking under separate bilang entries. Recognizing that structure explains the form more reliably than treating it as an indivisible root or inventing an ancient origin. [DBP: bilang](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=bilang)",
+    "cognitive_memory_aid": "先认 ku-＝aku“我”，再看 bilang：遇到数字想到“数”，遇到话语想到“说”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 对应 aku，具有亲近或文学语气；向客户、长辈或上级表达时，通常用 saya 更稳妥。",
+    "usage_etiquette": "在歌词、文学和特定口语语境中理解使用；正式报告应根据意思改用 saya hitung、saya katakan 或 saya nyatakan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 对应 aku，具有亲近或文学语气；向客户、长辈或上级表达时，通常用 saya 更稳妥。",
+    "usage_etiquette": "在歌词、文学和特定口语语境中理解使用；正式报告应根据意思改用 saya hitung、saya katakan 或 saya nyatakan。"
+  }
+}
