@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "jilla",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 10329,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "jilla",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + Jilla → Jilla",
+    "pattern_note": "按输入保留为未作马来语词缀分析的整体；不据此认定其为马来语词根。双写 ll 不能单独证明马来语中的长辅音或标准音节划分。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "Jilla：可指一部于 2014 年上映的泰米尔语电影的片名；这是有来源支持的专名用法，但输入词元是否指该电影尚无法确定。",
+      "en_definition": "An attested title of a Tamil-language film released in 2014; whether the supplied token refers to that film is unresolved.",
+      "ms_definition": "Judul sebuah filem bahasa Tamil yang ditayangkan pada tahun 2014; belum dapat dipastikan sama ada token dalam input merujuk kepada filem tersebut.",
+      "nuances": "本条说明一种有据可查的专名用法，不是 DBP 官方马来语词义。电影资料见 [Cinema Online Malaysia](https://cinema.com.my/movies/details.aspx?search=2014.9329.jilla.17917)。下列例句均以该片名为前提，不代表已确定输入语料的指称；搭配未经频率验证，排名仅沿用输入。",
+      "collocations": [
+        {
+          "ms": "tajuk filem Jilla",
+          "zh": "Jilla 这个电影片名",
+          "en": "the film title Jilla"
+        },
+        {
+          "ms": "menonton filem Jilla",
+          "zh": "观看电影《Jilla》",
+          "en": "to watch the film Jilla"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "文化报道 / 电影资料说明；采用已确认的片名用法",
+      "ms": "Filem Jilla yang berbahasa Tamil ditayangkan di Malaysia pada tahun 2014.",
+      "zh": "泰米尔语电影《Jilla》于 2014 年在马来西亚上映。",
+      "en": "The Tamil-language film Jilla was released in Malaysia in 2014."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友聊电影；虚构教学对话",
+      "ms_spoken": "Kau dah tengok filem Jilla ke?",
+      "ms_standard": "Adakah kamu sudah menonton filem Jilla?",
+      "zh": "你看过《Jilla》了吗？",
+      "en": "Have you seen Jilla?",
+      "spoken_features": [
+        "kau 是熟人之间的非正式第二人称。",
+        "dah 对应 sudah。",
+        "tengok 在此对应 menonton。",
+        "句末 ke 构成口语疑问。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah tengok filem Jilla ke?",
+          "ms_standard": "Adakah kamu sudah menonton filem Jilla?",
+          "zh": "你看过《Jilla》了吗？",
+          "en": "Have you seen Jilla?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi. Aku nak tengok hujung minggu ni.",
+          "ms_standard": "Saya belum menontonnya. Saya mahu menontonnya pada hujung minggu ini.",
+          "zh": "还没呢。我想这个周末看。",
+          "en": "Not yet. I want to watch it this weekend."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Jilla illustrates how a multilingual media corpus can contain titles alongside ordinary vocabulary. Malaysian cinema records identify a Tamil film with this title released in 2014. That evidence supports a specific cultural referent, but does not establish a Malay common noun, a Malay etymology, or the identity of the uncontextualized token supplied here. [Source](https://cinema.com.my/movies/details.aspx?search=2014.9329.jilla.17917).",
+    "cognitive_memory_aid": "把 Jilla 放在电影海报上记：先认片名，不把它直接翻成马来语普通名词。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "讨论作品时保留原片名；不根据片名或观影偏好推断对方的族群和母语。",
+    "usage_etiquette": "指电影时宜写作 Jilla，并在首次出现时加 filem，帮助读者辨认。若原文指人名、地名或其他对象，须另行核实。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "讨论作品时保留原片名；不根据片名或观影偏好推断对方的族群和母语。",
+    "usage_etiquette": "指电影时宜写作 Jilla，并在首次出现时加 filem，帮助读者辨认。若原文指人名、地名或其他对象，须另行核实。"
+  }
+}

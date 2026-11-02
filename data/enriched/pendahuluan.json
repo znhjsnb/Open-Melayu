@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "pendahuluan",
+    "syllables": "pen.da.hu.luan",
+    "ipa": "/pən.da.hu.lu.an/",
+    "jawi": "ڤندهولوان",
+    "frequency_rank": 10299,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dahulu",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + dahulu + -an → pendahuluan",
+    "pattern_note": "peN- 在 d 前采用 pen- 形式，原词根的 d 保留；词尾 u 与后缀 -an 的 a 分属两个元音音节。音标展示这一分读，音节栏保留数据包写法。",
+    "word_family": [
+      {
+        "word": "dahulu",
+        "affix": null,
+        "gloss": "先前；以前；先"
+      },
+      {
+        "word": "terdahulu",
+        "affix": "ter-",
+        "gloss": "较早的；先前的"
+      },
+      {
+        "word": "mendahului",
+        "affix": "meN-...-i",
+        "gloss": "先于；领先；走在前面"
+      },
+      {
+        "word": "mendahulukan",
+        "affix": "meN-...-kan",
+        "gloss": "优先处理；把……放在前面"
+      }
+    ],
+    "root_jawi": "دهولو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "开端；文章、报告、演讲或活动的起始部分，常指引言或绪论。",
+      "en_definition": "A beginning or introductory part, especially of a text, speech, or activity.",
+      "ms_definition": "Permulaan; bahagian awal sesuatu tulisan, ucapan atau kegiatan.",
+      "nuances": "用于篇章时通常交代主题、背景或写作目的；并不必然等同于 prakata，即作者或编者的前言。此处的马来语释义在 DBP 的 permulaan 基础上作教学性展开。[DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=pendahuluan)",
+      "collocations": [
+        {
+          "ms": "bahagian pendahuluan",
+          "zh": "引言部分",
+          "en": "the introductory section"
+        },
+        {
+          "ms": "pendahuluan karangan",
+          "zh": "作文的开头",
+          "en": "the introduction to an essay"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "预付款；交易完成前先支付的部分价款，也指首付款，常见于 bayaran pendahuluan。",
+      "en_definition": "An advance payment or down payment made as part of a price before a transaction is completed.",
+      "ms_definition": "Bayaran sebahagian daripada harga sesuatu yang dibuat terlebih dahulu sebelum urusan jual beli selesai; bayaran muka.",
+      "nuances": "通常与 bayaran 连用。不能仅凭这个词推断款项能否退还，也不应把所有 deposit 都视为同一概念；具体付款性质由交易安排决定。[DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=pendahuluan)",
+      "collocations": [
+        {
+          "ms": "bayaran pendahuluan",
+          "zh": "预付款；首付款",
+          "en": "an advance payment; a down payment"
+        },
+        {
+          "ms": "membayar wang pendahuluan",
+          "zh": "支付预付款",
+          "en": "pay an advance"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 报告编写",
+      "ms": "Bahagian pendahuluan laporan ini menerangkan latar belakang projek dan tujuan kajian.",
+      "zh": "本报告的引言部分说明了项目背景和研究目的。",
+      "en": "The introductory section of this report explains the project background and the purpose of the study."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论付款安排",
+      "ms_spoken": "Aku dah bayar pendahuluan untuk kereta tu.",
+      "ms_standard": "Saya sudah membuat bayaran pendahuluan untuk kereta itu.",
+      "zh": "那辆车的首付款我已经付了。",
+      "en": "I've already made the down payment on that car.",
+      "spoken_features": [
+        "aku：亲近朋友之间的第一人称",
+        "dah：sudah 的口语形式",
+        "tu：itu 的口语形式",
+        "bayar pendahuluan：口语中压缩了 membuat bayaran pendahuluan 的表达"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah bayar pendahuluan untuk kereta tu.",
+          "ms_standard": "Saya sudah membuat bayaran pendahuluan untuk kereta itu.",
+          "zh": "那辆车的首付款我已经付了。",
+          "en": "I've already made the down payment on that car."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Oh, dah bayar rupanya. Baki tu kau nak bayar bila?",
+          "ms_standard": "Oh, rupanya kamu sudah membuat bayaran itu. Bilakah kamu hendak membayar bakinya?",
+          "zh": "哦，原来已经付了呀。剩下的钱你打算什么时候付？",
+          "en": "Oh, so you've paid it already. When are you planning to pay the balance?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pendahuluan is transparently related to dahulu, expressing what comes earlier or first. Its two dictionary senses share that ordering idea: an introduction comes before the main discussion, while an advance payment comes before completion of a purchase. This connection offers a useful semantic explanation without requiring an invented historical anecdote or an unsupported date of origin. [DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=pendahuluan)",
+    "cognitive_memory_aid": "抓住 dahulu 的“先”：内容先出现，是引言；钱先支付，是预付款。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性、规范用语，适用于学校、职场和交易交流。询问付款可说 Berapakah bayaran pendahuluannya?，即“预付款是多少？”",
+    "usage_etiquette": "写作语境中表示引言或开端；付款语境中宜使用完整搭配 bayaran pendahuluan，减少歧义。与朋友交谈可使用口语缩略形式，正式函件则保留完整标准表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性、规范用语，适用于学校、职场和交易交流。询问付款可说 Berapakah bayaran pendahuluannya?，即“预付款是多少？”",
+    "usage_etiquette": "写作语境中表示引言或开端；付款语境中宜使用完整搭配 bayaran pendahuluan，减少歧义。与朋友交谈可使用口语缩略形式，正式函件则保留完整标准表达。"
+  }
+}

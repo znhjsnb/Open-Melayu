@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "ad",
+    "syllables": null,
+    "ipa": "/a de/",
+    "jawi": null,
+    "frequency_rank": 10429,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ad",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "Angkatan Darat → A + D → AD",
+    "pattern_note": "这是印尼语机构名称的首字母缩写，实际书写用大写 AD；IPA 按印尼语字母名逐字母读作 /a de/，不连读成 /ad/。is_root 沿用输入分类，表示本条没有可剥离词缀，并不表示它是普通马来语词根；无派生词族，因此 word_family 为空。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "陆军；印尼语 Angkatan Darat 的首字母缩写，常见于 TNI AD，指印度尼西亚国民军陆军。",
+      "en_definition": "Initialism of Indonesian Angkatan Darat, meaning army; used in TNI AD for the Indonesian Army.",
+      "ms_definition": "Singkatan bahasa Indonesia bagi Angkatan Darat; digunakan dalam TNI AD untuk merujuk kepada angkatan tentera darat Indonesia.",
+      "nuances": "输入 DBP 条目的 Id 表示印度尼西亚用语，kep 表示缩写。检索键 ad 保持原样，但本义在正文中写作 AD。不得把本条解释为英语 advertisement、纪年 Anno Domini，或聊天中 ada 的省写。[印尼陆军官方缩写表](https://www.tniad.mil.id/images/pdf_buku/buku-peranan-tni-ad.pdf)",
+      "collocations": [
+        {
+          "ms": "TNI AD",
+          "zh": "印度尼西亚国民军陆军",
+          "en": "the Indonesian Army"
+        },
+        {
+          "ms": "anggota TNI AD",
+          "zh": "印度尼西亚陆军成员",
+          "en": "an Indonesian Army member"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam laporan ini, TNI AD merujuk kepada Tentara Nasional Indonesia Angkatan Darat.",
+      "zh": "在本报告中，TNI AD 指印度尼西亚国民军陆军。",
+      "en": "In this report, TNI AD refers to the Indonesian Army."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "AD kat sini maksudnya Angkatan Darat, kan?",
+      "ms_standard": "AD di sini bermaksud Angkatan Darat, bukan?",
+      "zh": "这里的 AD 是指陆军，对吧？",
+      "en": "AD means the army here, right?",
+      "spoken_features": [
+        "kat 对应标准语 di。",
+        "kan 在句末用于请求确认，对应 bukan？。",
+        "即使在聊天中，机构缩写仍保留大写 AD。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku nampak TNI AD kat tajuk berita ni. AD tu apa?",
+          "ms_standard": "Saya melihat TNI AD dalam tajuk berita ini. Apakah maksud AD itu?",
+          "zh": "我在这条新闻标题里看到 TNI AD。AD 是什么意思？",
+          "en": "I saw TNI AD in this headline. What does AD stand for?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "AD tu Angkatan Darat. TNI AD maksudnya tentera darat Indonesia.",
+          "ms_standard": "AD ialah singkatan bagi Angkatan Darat. TNI AD merujuk kepada tentera darat Indonesia.",
+          "zh": "AD 是 Angkatan Darat 的缩写。TNI AD 就是印尼陆军。",
+          "en": "AD stands for Angkatan Darat. TNI AD is the Indonesian Army."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "AD comes from the initial letters of the Indonesian institutional term Angkatan Darat. The letters preserve the two-word name in a compact form, especially within TNI AD. Its dictionary label points to Indonesian usage, helping Malaysian readers recognise a neighbouring country's terminology. The abbreviation therefore carries institutional and regional context, rather than a history of Malay affixation. [Indonesian Army glossary](https://www.tniad.mil.id/images/pdf_buku/buku-peranan-tni-ad.pdf)",
+    "cognitive_memory_aid": "A 对应 Angkatan，D 对应 Darat“陆地”：看到 AD，就把画面锁定在陆地上的军队。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性的军种缩写，不是对军人的称呼。直接称呼军人时，应使用合适的军衔、姓名或礼貌称谓。",
+    "usage_etiquette": "适合讨论印尼军事机构或解释印尼新闻。面向不熟悉缩写的读者，首次出现宜写出全称；谈马来西亚陆军时通常使用 Tentera Darat Malaysia，避免直接套用 AD。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性的军种缩写，不是对军人的称呼。直接称呼军人时，应使用合适的军衔、姓名或礼貌称谓。",
+    "usage_etiquette": "适合讨论印尼军事机构或解释印尼新闻。面向不熟悉缩写的读者，首次出现宜写出全称；谈马来西亚陆军时通常使用 Tentera Darat Malaysia，避免直接套用 AD。"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "headword": {
+    "word": "ditujukan",
+    "syllables": "di.tu.ju.kan",
+    "ipa": "/di.tu.dʒu.kan/",
+    "jawi": null,
+    "frequency_rank": 10307,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tuju",
+    "affix": "di-...-kan",
+    "affix_type": "circumfix",
+    "formula": "di- + tuju + -kan → ditujukan",
+    "pattern_note": "di- 表示被动，-kan 参与构成及物动词，词根保持不变；此处 circumfix 是按给定字段归类，两个词缀的功能可分别分析。输入包中的 dituju 已含被动前缀，并非最终词根。[DBP 词根与派生词资料](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tuju)。",
+    "word_family": [
+      {
+        "word": "tuju",
+        "affix": null,
+        "gloss": "方向；目标"
+      },
+      {
+        "word": "menuju",
+        "affix": "meN-",
+        "gloss": "朝向；前往"
+      },
+      {
+        "word": "menujukan",
+        "affix": "meN-...-kan",
+        "gloss": "把某物指向；向某人传达"
+      },
+      {
+        "word": "tujuan",
+        "affix": "-an",
+        "gloss": "目的；目标；方向"
+      },
+      {
+        "word": "tertuju",
+        "affix": "ter-",
+        "gloss": "朝向；集中于"
+      }
+    ],
+    "root_jawi": "توجو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被引向或指向某个方向、位置或目标。",
+      "en_definition": "To be directed or pointed towards a particular direction or target.",
+      "ms_definition": "Diarahkan atau dihalakan ke arah sesuatu tempat atau sasaran.",
+      "nuances": "是 menujukan 的被动形式，主语为被引导或被指向的事物；ke arah 通常引出空间方向。马来文释义依据 DBP 主动词义改写为被动释义。[DBP menujukan](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=menujukan)。",
+      "collocations": [
+        {
+          "ms": "ditujukan ke arah sasaran",
+          "zh": "被指向目标",
+          "en": "directed towards the target"
+        },
+        {
+          "ms": "ditujukan ke hadapan",
+          "zh": "被指向前方",
+          "en": "directed forwards"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被寄给、传达给或针对某个接收者、对象或受众。",
+      "en_definition": "To be addressed, conveyed or directed to a particular recipient or audience.",
+      "ms_definition": "Dialamatkan atau disampaikan kepada penerima, pihak atau khalayak tertentu.",
+      "nuances": "适用于信件、问题、批评、信息及广播节目。kepada 常引出接收者或针对对象；不必含有敌意。这里的“针对”也可以只是“面向”。[DBP menujukan](https://prpm.dbp.gov.my/Cari1?d=336480&keyword=menujukan)。",
+      "collocations": [
+        {
+          "ms": "surat yang ditujukan kepada pengarah",
+          "zh": "寄给主管的信",
+          "en": "a letter addressed to the director"
+        },
+        {
+          "ms": "soalan yang ditujukan kepada penceramah",
+          "zh": "向演讲者提出的问题",
+          "en": "a question addressed to the speaker"
+        },
+        {
+          "ms": "kritikan yang ditujukan kepada kerajaan",
+          "zh": "针对政府的批评",
+          "en": "criticism directed at the government"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场通知",
+      "ms": "Surat tersebut ditujukan kepada Pengarah Sumber Manusia untuk tindakan lanjut.",
+      "zh": "该信致人力资源总监，以便进一步处理。",
+      "en": "The letter is addressed to the Director of Human Resources for further action."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友澄清信息对象",
+      "ms_spoken": "Mesej tu bukan ditujukan kepada kau lah.",
+      "ms_standard": "Mesej itu tidak ditujukan kepada kamu.",
+      "zh": "那条信息不是针对你的啦。",
+      "en": "That message wasn't aimed at you.",
+      "spoken_features": [
+        "tu 对应 itu",
+        "kau 为熟人之间的第二人称代词",
+        "lah 在此加强澄清语气",
+        "口语常用 bukan 否定整项判断；标准对应句使用 tidak 否定动词"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Mesej tu ditujukan kepada aku ke? Aku dah baca tadi.",
+          "ms_standard": "Adakah mesej itu ditujukan kepada saya? Saya sudah membacanya tadi.",
+          "zh": "那条信息是在说我吗？我刚刚看过了。",
+          "en": "Was that message aimed at me? I read it earlier."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tak lah, mesej tu peringatan untuk semua je.",
+          "ms_standard": "Tidak, mesej itu hanya peringatan untuk semua orang.",
+          "zh": "不是啦，那只是给大家的提醒。",
+          "en": "No, it was just a reminder for everyone."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ditujukan belongs to the tuju family, whose dictionary meanings connect direction with purpose and a target. Malay combines the passive prefix di- with tuju and the suffix -kan. The resulting form can describe physical direction or the recipient of a letter, question or broadcast, linking spatial orientation with communication. [DBP](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=tuju).",
+    "cognitive_memory_aid": "tuju 是“朝向目标”；di- 加上被动箭头：信件 ditujukan kepada 谁，就是“被寄给／面向谁”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "询问信息是否针对自己时，正式表达可用 Adakah mesej ini ditujukan kepada saya?；在职场中比直接质问对方更中性。",
+    "usage_etiquette": "正式信函用 kepada 引出收件人或职衔。di- 是动词前缀，须连写为 ditujukan；不要写成 di tujukan。kau 适合熟悉且接受这种称呼的同辈。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "询问信息是否针对自己时，正式表达可用 Adakah mesej ini ditujukan kepada saya?；在职场中比直接质问对方更中性。",
+    "usage_etiquette": "正式信函用 kepada 引出收件人或职衔。di- 是动词前缀，须连写为 ditujukan；不要写成 di tujukan。kau 适合熟悉且接受这种称呼的同辈。"
+  }
+}

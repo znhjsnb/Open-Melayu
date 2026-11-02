@@ -1,0 +1,135 @@
+{
+  "headword": {
+    "word": "peninjau",
+    "syllables": "pe.nin.jau",
+    "ipa": "/pə.nin.dʒau̯/",
+    "jawi": "ڤنينجاو",
+    "frequency_rank": 10282,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tinjau",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + tinjau → peninjau",
+    "pattern_note": "peN-接以t开头的本族词根时，t脱落，鼻音实现为n，形成表示执行者的名词。输入包把peninjau误列为词根，此处据tinjau词族校正；j读/dʒ/，au构成双元音。",
+    "word_family": [
+      {
+        "word": "meninjau",
+        "affix": "meN-",
+        "gloss": "巡视；考察；侦察"
+      },
+      {
+        "word": "tinjauan",
+        "affix": "-an",
+        "gloss": "调查；考察结果；看法"
+      },
+      {
+        "word": "peninjauan",
+        "affix": "peN-…-an",
+        "gloss": "巡视、考察或侦察的过程"
+      },
+      {
+        "word": "ditinjau",
+        "affix": "di-",
+        "gloss": "被考察；被审视"
+      }
+    ],
+    "root_jawi": "تينجاو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "为了解情况而进行观察、巡视、实地考察或调查的人；观察员、考察人员。",
+      "en_definition": "A person who observes, visits or examines a situation to gather information.",
+      "ms_definition": "Orang yang meninjau.",
+      "nuances": "DBP以“进行tinjau的人”概括，可随任务译为观察员、考察人员或调查人员。该词本身不保证具备独立、中立或执法身份。参见[DBP：peninjau](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=peninjau+)。",
+      "collocations": [
+        {
+          "ms": "pasukan peninjau",
+          "zh": "考察组；观察小组",
+          "en": "an observation team"
+        },
+        {
+          "ms": "rombongan peninjau",
+          "zh": "考察团",
+          "en": "a fact-finding delegation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "负责观察地形、敌情或前方状况的侦察人员；侦察兵。",
+      "en_definition": "A scout or reconnaissance observer assigned to gather information about terrain or enemy activity.",
+      "ms_definition": "Orang, khususnya anggota tentera, yang ditugaskan meninjau keadaan kawasan atau gerakan musuh.",
+      "nuances": "是一般“观察、调查执行者”义在军事任务中的具体应用；并不自动表示秘密间谍。与pengintip相比，更强调侦察任务。词根的观察、巡视与侦察范围见[DBP：tinjau](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=tinjau)。",
+      "collocations": [
+        {
+          "ms": "askar peninjau",
+          "zh": "侦察兵",
+          "en": "a reconnaissance soldier"
+        },
+        {
+          "ms": "anggota peninjau",
+          "zh": "侦察队员",
+          "en": "a reconnaissance team member"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 灾情实地考察",
+      "ms": "Pasukan peninjau dihantar ke kawasan banjir untuk menilai kerosakan dan mengenal pasti keperluan penduduk.",
+      "zh": "考察组已被派往洪灾地区，评估损失并了解居民的需求。",
+      "en": "An assessment team was sent to the flood-affected area to evaluate the damage and identify residents' needs."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 志愿者协调实地查看",
+      "ms_spoken": "Pasukan peninjau dah sampai kat kampung tu. Kita tunggu laporan diorang je dulu.",
+      "ms_standard": "Pasukan peninjau sudah tiba di kampung itu. Kita tunggu laporan mereka dahulu.",
+      "zh": "考察组已经到那个村子了，我们先等他们的报告吧。",
+      "en": "The assessment team has reached the village. Let's wait for their report first.",
+      "spoken_features": [
+        "dah对应sudah",
+        "kat对应di",
+        "tu对应itu",
+        "diorang对应mereka",
+        "je对应sahaja，表示目前只需先做这一件事"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (志愿者同事)",
+          "ms_spoken": "Pasukan peninjau dah sampai kat kampung tu ke?",
+          "ms_standard": "Adakah pasukan peninjau sudah tiba di kampung itu?",
+          "zh": "考察组到那个村子了吗？",
+          "en": "Has the assessment team reached the village yet?"
+        },
+        {
+          "speaker": "Amir (志愿者同事)",
+          "ms_spoken": "Dah. Diorang nak periksa jalan dulu, lepas tu baru hantar gambar.",
+          "ms_standard": "Sudah. Mereka mahu memeriksa jalan dahulu, kemudian barulah menghantar gambar.",
+          "zh": "到了。他们想先看看道路情况，之后才发照片过来。",
+          "en": "Yes. They're checking the road first, then they'll send some photos."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Peninjau is built from tinjau, whose dictionary meanings range from looking from a distance to visiting, examining and reconnoitring. The agent prefix turns that activity into the person performing it. This shared formation explains why the same noun can identify a civilian observer, a visiting assessment worker or a soldier gathering information ahead of others.",
+    "cognitive_memory_aid": "meninjau＝去查看；peninjau＝去查看的人。记住peN-常把动作变成执行者：考察动作背后站着一位考察员。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "属于中性任务称谓。面对本人时，以姓名、职衔或Encik、Puan称呼通常更自然，不宜直接把peninjau当作称呼语。",
+    "usage_etiquette": "新闻或工作沟通应交代观察任务和所属机构。一般考察人员不能随意译作“间谍”；若职位正式名称为pemerhati、penyelia或juruaudit，应采用其实际职称。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "属于中性任务称谓。面对本人时，以姓名、职衔或Encik、Puan称呼通常更自然，不宜直接把peninjau当作称呼语。",
+    "usage_etiquette": "新闻或工作沟通应交代观察任务和所属机构。一般考察人员不能随意译作“间谍”；若职位正式名称为pemerhati、penyelia或juruaudit，应采用其实际职称。"
+  }
+}
