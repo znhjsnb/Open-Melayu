@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "pamanmu",
+    "syllables": null,
+    "ipa": "/pa.man.mu/",
+    "jawi": "ڤامن",
+    "frequency_rank": 13393,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "paman",
+    "affix": "-mu",
+    "affix_type": "suffix",
+    "formula": "paman + -mu → pamanmu",
+    "pattern_note": "-mu 是表示第二人称领属的后附代词，即“你的”，不改变 paman 的词干，也不是派生词缀；suffix 在此仅标记其位置。完整形式分为 pa.man.mu 三音节。数据包 Jawi ڤامن 只对应 paman，含 -mu 的完整形式应补作 ڤامنمو。",
+    "word_family": [
+      {
+        "word": "paman",
+        "affix": null,
+        "gloss": "叔伯舅等男性长辈；对年长男性的尊称"
+      },
+      {
+        "word": "pamanku",
+        "affix": "-ku",
+        "gloss": "我的叔伯舅等男性长辈"
+      },
+      {
+        "word": "pamannya",
+        "affix": "-nya",
+        "gloss": "他或她的叔伯舅等男性长辈"
+      }
+    ],
+    "root_jawi": "ڤامن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "你的叔伯、舅父等男性长辈亲属；具体亲属关系须由上下文判断。",
+      "en_definition": "Your uncle.",
+      "ms_definition": "Bapa saudara kamu; pak cik kamu.",
+      "nuances": "paman 本身不区分汉语中的伯父、叔父、舅父等关系，不能仅凭此词确定父系、母系或长幼。马来西亚日常表达通常用 pak cik awak 或 pak cik kamu；pamanmu 较容易带文学或印度尼西亚语境色彩。马来语释义根据基础词与 -mu 组合编写。基础义参见：[DBP：paman](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=paman)；连写规则参见：[DBP 拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "rumah pamanmu",
+          "zh": "你叔伯或舅父的家",
+          "en": "your uncle's house"
+        },
+        {
+          "ms": "berjumpa dengan pamanmu",
+          "zh": "与你的叔伯或舅父见面",
+          "en": "meet your uncle"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "你称作“叔叔”或“伯伯”的年长男性；不一定与你有亲属关系。",
+      "en_definition": "An older man whom you address or regard as an uncle, without necessarily being related.",
+      "ms_definition": "Lelaki yang lebih tua yang kamu panggil paman sebagai tanda hormat, walaupun tidak semestinya mempunyai hubungan kekeluargaan dengan kamu.",
+      "nuances": "这是基础词 paman 的敬称义与领属 -mu 的组合解释，须有明确交际背景；无背景时通常优先理解为真实亲属。pamanmu 不是对任何年长男性都适用的直接称呼。基础敬称义参见：[DBP：paman](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=paman)。以下搭配展示该义的组合用法，不代表已证实的高频固定搭配。",
+      "collocations": [
+        {
+          "ms": "pamanmu di sebelah rumah",
+          "zh": "住在隔壁、被你称作叔叔的那位长辈",
+          "en": "the older man next door whom you call uncle"
+        },
+        {
+          "ms": "pamanmu yang bukan saudara kandung ayahmu",
+          "zh": "你称作叔叔、但并非你父亲亲兄弟的那位长辈",
+          "en": "the man you call uncle who is not your father's biological brother"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam memoir tersebut, penulis mencatat, \"Pamanmu banyak membantu keluarga kita ketika itu.\"",
+      "zh": "在该回忆录中，作者写道：“那时候，你的叔叔帮了我们家很多忙。”",
+      "en": "In the memoir, the author writes, \"Your uncle helped our family a great deal at that time.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pamanmu dah sampai kat rumah ke?",
+      "ms_standard": "Adakah pamanmu sudah tiba di rumah?",
+      "zh": "你叔叔已经到家了吗？",
+      "en": "Has your uncle arrived home yet?",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "句末 ke 用于口语疑问",
+        "pamanmu 保留输入词形；一般马来西亚闲聊也常说 pak cik kau 或 pak cik awak"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Pamanmu dah sampai ke? Aku nak pulangkan buku dia.",
+          "ms_standard": "Adakah pamanmu sudah tiba? Saya hendak memulangkan bukunya.",
+          "zh": "你叔叔到了吗？我想把书还给他。",
+          "en": "Has your uncle arrived? I want to return his book."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, dia kat rumah je. Datanglah petang ni.",
+          "ms_standard": "Ya, dia sudah tiba dan berada di rumah. Datanglah pada petang ini.",
+          "zh": "到了，他就在家。今天傍晚过来吧。",
+          "en": "Yes, he's at home. Come over this evening."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Paman belongs to a kinship vocabulary in which family terms can also express social respect. Kamus Dewan records both an uncle and an older person deserving respectful address. The ending -mu adds the listener's connection to that person. This explains the present structure; the supplied evidence does not establish the word's deeper historical origin. [Source: DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=paman).",
+    "cognitive_memory_aid": "paman 是“叔伯舅”，末尾 mu 是“你的”：pamanmu＝你的那位叔伯舅；它不会告诉你究竟是哪一边的亲戚。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论对方长辈时，使用家庭惯用称谓更自然；正式场合通常用 bapa saudara anda，熟人间可说 pak cik awak。与长辈本人交谈时，应使用其认可的称谓。",
+    "usage_etiquette": "亲属称谓可表达亲近，但陌生人未必愿意被按年龄称为 pak cik 或 paman；不了解关系时，encik 等中性称谓较稳妥。参见：[DBP《Santun Berbahasa》](https://pdigital.dbp.gov.my/storage/uploads/6823ed2951d19_buku.pdf)。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论对方长辈时，使用家庭惯用称谓更自然；正式场合通常用 bapa saudara anda，熟人间可说 pak cik awak。与长辈本人交谈时，应使用其认可的称谓。",
+    "usage_etiquette": "亲属称谓可表达亲近，但陌生人未必愿意被按年龄称为 pak cik 或 paman；不了解关系时，encik 等中性称谓较稳妥。参见：[DBP《Santun Berbahasa》](https://pdigital.dbp.gov.my/storage/uploads/6823ed2951d19_buku.pdf)。"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "diukur",
+    "syllables": "di.u.kur",
+    "ipa": "/di.u.kur/",
+    "jawi": null,
+    "frequency_rank": 13343,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ukur",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + ukur → diukur",
+    "pattern_note": "di- 是被动前缀，必须连写；接元音开头的 ukur 时，词根不变，i 与 u 分属两个音节。此处修正输入包将 diukur 误判为词根的分析。",
+    "word_family": [
+      {
+        "word": "mengukur",
+        "affix": "meN-",
+        "gloss": "测量；衡量"
+      },
+      {
+        "word": "ukuran",
+        "affix": "-an",
+        "gloss": "尺寸；测量结果；衡量标准"
+      },
+      {
+        "word": "pengukuran",
+        "affix": "peN-...-an",
+        "gloss": "测量过程"
+      }
+    ],
+    "root_jawi": "اوکور"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被测量；通过工具或规定方法确定长度、面积、大小或其他可量化数值。",
+      "en_definition": "To be measured using an instrument or a specified procedure.",
+      "ms_definition": "Ditentukan panjang, luas, saiz atau nilainya melalui penggunaan alat atau kaedah pengukuran.",
+      "nuances": "是 mengukur 的被动形式。是否已经完成须由 telah、sudah、belum 等或上下文说明，di- 本身不表示过去时。词根义项依据：[DBP PRPM：ukur](https://prpm.dbp.gov.my/Cari1?d=74812&keyword=ukur)。",
+      "collocations": [
+        {
+          "ms": "diukur dengan pita ukur",
+          "zh": "用卷尺测量",
+          "en": "measured with a tape measure"
+        },
+        {
+          "ms": "diukur dalam sentimeter",
+          "zh": "以厘米为单位测量",
+          "en": "measured in centimetres"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被衡量、评估或判断；依照某种标准确定价值、程度或成效。",
+      "en_definition": "To be assessed or judged against a particular criterion.",
+      "ms_definition": "Dinilai atau ditentukan tahapnya berdasarkan sesuatu ukuran, perbandingan atau kriteria.",
+      "nuances": "用于成功、能力、幸福和表现等抽象概念；不一定涉及仪器或数值。不能机械地把所有 diukur 都译成“测量”。",
+      "collocations": [
+        {
+          "ms": "kejayaan diukur berdasarkan pencapaian",
+          "zh": "根据成果衡量成功",
+          "en": "success assessed on the basis of achievement"
+        },
+        {
+          "ms": "tidak dapat diukur dengan wang",
+          "zh": "无法用金钱衡量",
+          "en": "cannot be measured in monetary terms"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Keberkesanan program ini akan diukur berdasarkan perubahan tahap kemahiran peserta.",
+      "zh": "本计划的成效将根据参与者技能水平的变化来评估。",
+      "en": "The effectiveness of this programme will be assessed by changes in participants' skill levels."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Panjang meja tu dah diukur ke?",
+      "ms_standard": "Adakah panjang meja itu sudah diukur?",
+      "zh": "那张桌子的长度量过了吗？",
+      "en": "Has that table's length been measured yet?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "dah 是 sudah 的口语形式。",
+        "句末 ke 表示疑问；标准语可用 adakah。",
+        "回复中的 kat 和 nak 分别对应 di 和 hendak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Panjang meja tu dah diukur ke?",
+          "ms_standard": "Adakah panjang meja itu sudah diukur?",
+          "zh": "那张桌子的长度量过了吗？",
+          "en": "Has that table's length been measured yet?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah, panjangnya dua meter. Nak letak kat mana?",
+          "ms_standard": "Sudah, panjangnya dua meter. Di manakah kita hendak meletakkannya?",
+          "zh": "量过了，长两米。要放哪里？",
+          "en": "Yes, it's two metres long. Where shall we put it?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diukur is a grammatical formation from ukur, rather than an independent borrowed root. Malay connects physical measurement with practical judgment through the proverb ukur baju di badan sendiri: choose actions that fit your own means or abilities. The same root therefore moves naturally from measuring furniture to evaluating achievement, while di- places the measured thing in focus. See [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=74812&keyword=ukur).",
+    "cognitive_memory_aid": "ukur＝量；前面加 di-，镜头转向被量的东西：meja diukur＝桌子被测量。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "被动句常用于报告，使表达聚焦于测量对象；向同事或长辈询问时，加上 boleh、tolong 或完整疑问句更委婉。",
+    "usage_etiquette": "讨论他人的体重、身材或工作表现时，先说明测量目的，避免公开比较或评价。正式书写须区分被动前缀 di- 与分写的地点介词 di。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "被动句常用于报告，使表达聚焦于测量对象；向同事或长辈询问时，加上 boleh、tolong 或完整疑问句更委婉。",
+    "usage_etiquette": "讨论他人的体重、身材或工作表现时，先说明测量目的，避免公开比较或评价。正式书写须区分被动前缀 di- 与分写的地点介词 di。"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "year",
+    "syllables": null,
+    "ipa": "/jɪə/",
+    "jawi": null,
+    "frequency_rank": 13416,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "year",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + year → year（英语整词）",
+    "pattern_note": "英语单纯词，不按马来语词缀规则拆分。所列 IPA 为一种标准英式读音，美式常读 /jɪr/。单词起首 y 表示辅音 /j/；Jawi 和音节字段依输入保留 null。",
+    "word_family": [
+      {
+        "word": "years",
+        "affix": "-s（英语复数词尾）",
+        "gloss": "若干年；多年"
+      },
+      {
+        "word": "yearly",
+        "affix": "-ly（英语后缀）",
+        "gloss": "每年的；每年"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "年；十二个月的时间，也指从一月一日至十二月三十一日的历年。",
+      "en_definition": "A period of twelve months, especially a calendar year of 365 or 366 days.",
+      "ms_definition": "Perkataan bahasa Inggeris yang bermaksud tahun, iaitu tempoh dua belas bulan atau satu tahun kalendar.",
+      "nuances": "这是英语词，马来语通常用 tahun；输入未提供其作为马来语词的 DBP 释义。此处 ms_definition 为马来语译释。以下 ms 字段保留英语搭配原文，不代表规范马来语搭配。a year 可指任意连续十二个月，不限于历年。参见 [Cambridge：year](https://dictionary.cambridge.org/us/dictionary/english/year?topic=years-and-yearly)。",
+      "collocations": [
+        {
+          "ms": "calendar year",
+          "zh": "历年",
+          "en": "calendar year"
+        },
+        {
+          "ms": "next year",
+          "zh": "明年",
+          "en": "next year"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "年度；按教学、财政或其他制度划定的一轮运作周期。",
+      "en_definition": "An annual period organized for a particular activity, such as education or accounting.",
+      "ms_definition": "Tempoh tahunan yang ditetapkan bagi kegiatan tertentu, seperti tahun akademik atau tahun kewangan.",
+      "nuances": "学年或财政年度的起止日期未必与历年相同；学年实际授课时间也未必有完整十二个月。马来语分别常用 tahun akademik 和 tahun kewangan。以下搭配为英语原文。参见 [Cambridge：year](https://dictionary.cambridge.org/us/dictionary/english/year?topic=years-and-yearly)。",
+      "collocations": [
+        {
+          "ms": "academic year",
+          "zh": "学年",
+          "en": "academic year"
+        },
+        {
+          "ms": "financial year",
+          "zh": "财政年度",
+          "en": "financial year"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "年级；某一年级的学生群体。",
+      "en_definition": "A stage of a course of education, or the students at that stage.",
+      "ms_definition": "Peringkat tahun pengajian atau kumpulan pelajar yang berada pada peringkat tahun pengajian yang sama.",
+      "nuances": "英式教育用语，如 Year 1；马来西亚英语中也可见 first year 等表达。马来语须按制度和阶段选用 Tahun、Tingkatan 或 tahun pengajian，不能机械互换。以下搭配为英语原文。参见 [Cambridge：year](https://dictionary.cambridge.org/us/dictionary/english/year?topic=years-and-yearly)。",
+      "collocations": [
+        {
+          "ms": "first year",
+          "zh": "一年级；第一学年",
+          "en": "first year"
+        },
+        {
+          "ms": "year group",
+          "zh": "同一年级的学生群体",
+          "en": "year group"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 双语表格填写说明",
+      "ms": "Ruangan \"year\" dalam borang ini merujuk kepada tahun kalendar, bukan tahun kewangan.",
+      "zh": "本表中的“year”栏指历年，而非财政年度。",
+      "en": "The field labelled \"year\" in this form refers to the calendar year, rather than the financial year."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论大学课程",
+      "ms_spoken": "Next year aku dah masuk tahun akhir, kau pula?",
+      "ms_standard": "Tahun hadapan aku akan memasuki tahun akhir pengajian. Bagaimana pula dengan kamu?",
+      "zh": "明年我就读最后一年了，你呢？",
+      "en": "I'll be in my final year next year. How about you?",
+      "spoken_features": [
+        "next year 是英语短语，嵌入马来语句子形成语码混用",
+        "dah 在此配合语境强调即将进入的新阶段",
+        "kau pula 是省略式反问"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (大学同学)",
+          "ms_spoken": "Next year aku dah masuk tahun akhir, kau pula?",
+          "ms_standard": "Tahun hadapan aku akan memasuki tahun akhir pengajian. Bagaimana pula dengan kamu?",
+          "zh": "明年我就读最后一年了，你呢？",
+          "en": "I'll be in my final year next year. How about you?"
+        },
+        {
+          "speaker": "Farah (大学同学)",
+          "ms_spoken": "Aku pun sama. Dah kena fikir nak buat projek apa.",
+          "ms_standard": "Aku juga begitu. Aku sudah perlu memikirkan projek yang hendak dibuat.",
+          "zh": "我也一样，都得开始想做什么项目了。",
+          "en": "Same here. I already need to start thinking about my project."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English year continues Old English gēar through Middle English yere. Its history belongs to English rather than Malay word formation. In Malaysian conversation, it may appear inside English phrases embedded in Malay speech. Learners therefore need two connections: the inherited English word and its ordinary Malay equivalent, tahun. See [Merriam-Webster: year](https://scrabble.m-w.com/dictionary/year).",
+    "cognitive_memory_aid": "year /jɪə/ 是一拍音节：看到它就想“一本年历”，再连到马来语 tahun；不要按字母读成 ye-ar。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "year 本身没有敬语差别。与习惯双语交流的朋友混用英语通常自然；正式马来语文件一般采用 tahun，并在必要时保留原文栏名。",
+    "usage_etiquette": "适合英语交流、双语场景和原文引用。面对不熟悉英语的听者，优先用 tahun；谈年级时，应确认双方使用同一教育制度。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "year 本身没有敬语差别。与习惯双语交流的朋友混用英语通常自然；正式马来语文件一般采用 tahun，并在必要时保留原文栏名。",
+    "usage_etiquette": "适合英语交流、双语场景和原文引用。面对不熟悉英语的听者，优先用 tahun；谈年级时，应确认双方使用同一教育制度。"
+  }
+}

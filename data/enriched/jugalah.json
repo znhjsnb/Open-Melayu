@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "jugalah",
+    "syllables": null,
+    "ipa": "/dʒu.ɡa.lah/",
+    "jawi": "جوݢ",
+    "frequency_rank": 13348,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "juga",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "juga + -lah → jugalah",
+    "pattern_note": "-lah 是附着在词后的强调小品词，并非改变词性的派生后缀；此处按给定分类记为 suffix。juga 读音保留。输入 Jawi 含 U+0081 控制字符，且未呈现完整 jugalah 的拼写；此处仅照录。",
+    "word_family": [
+      {
+        "word": "juga",
+        "affix": "∅",
+        "gloss": "也；仍然"
+      },
+      {
+        "word": "jugakah",
+        "affix": "-kah",
+        "gloss": "也……吗"
+      }
+    ],
+    "root_jawi": "جوݢ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "也；同样；亦然，带有强调、确认或呼应前文的语气。",
+      "en_definition": "Also or likewise, with added emphasis or affirmation.",
+      "ms_definition": "Sama halnya dengan yang lain atau dengan perkara yang disebut sebelumnya, dengan penegasan oleh partikel -lah.",
+      "nuances": "-lah 的具体作用取决于语调，可表示强调、认同或温和确认，不必逐字译成中文“啦”。demikian jugalah 和 begitu jugalah 常用于说明另一情况同样成立。",
+      "collocations": [
+        {
+          "ms": "demikian jugalah",
+          "zh": "同样也是如此",
+          "en": "likewise"
+        },
+        {
+          "ms": "begitu jugalah",
+          "zh": "也是一样的",
+          "en": "the same applies"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "仍然；还是；终究，强调某种情况持续存在，或虽有阻力仍发生。",
+      "en_definition": "Still, nevertheless or after all, emphasizing persistence despite circumstances.",
+      "ms_definition": "Tetap demikian atau berlaku juga walaupun terdapat halangan, larangan atau keadaan yang berlawanan.",
+      "nuances": "常与 akhirnya、mahu、hendak 或持续性表达连用。它可以表达坚持，也可能带有无奈；不必然表示赞同这种坚持。",
+      "collocations": [
+        {
+          "ms": "mahu pergi jugalah",
+          "zh": "还是坚持要去",
+          "en": "still insist on going"
+        },
+        {
+          "ms": "akhirnya berjaya jugalah",
+          "zh": "最终还是成功了",
+          "en": "succeed in the end after all"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "也算；还算；确实有点，用于带保留地承认某种评价或程度。",
+      "en_definition": "Used to acknowledge a qualified assessment, such as fairly, somewhat or not bad.",
+      "ms_definition": "Menegaskan pengakuan terhadap sesuatu penilaian, kadangkala dengan maksud sederhana atau berlapik mengikut konteks.",
+      "nuances": "这是 juga 加 -lah 在评价句中的语用效果，不是固定的程度副词。好坏及强弱由前面的词和语调决定；mahal jugalah 可表示确实挺贵，boleh tahan jugalah 则常表示还不错。",
+      "collocations": [
+        {
+          "ms": "boleh tahan jugalah",
+          "zh": "还挺不错",
+          "en": "pretty decent"
+        },
+        {
+          "ms": "mahal jugalah",
+          "zh": "也挺贵的",
+          "en": "rather expensive"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "政策说明 / 职场汇报",
+      "ms": "Demikian jugalah halnya dengan permohonan yang diterima selepas tarikh tutup.",
+      "zh": "截止日期后收到的申请，也同样如此处理。",
+      "en": "The same applies to applications received after the closing date."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友分享感受",
+      "ms_spoken": "Penat jugalah hari ni, tapi seronok dapat jumpa semua orang.",
+      "ms_standard": "Saya berasa agak penat juga pada hari ini, tetapi gembira kerana dapat berjumpa dengan semua orang.",
+      "zh": "今天还真有点累，不过能见到大家还是挺开心的。",
+      "en": "I'm pretty tired today, but it was lovely seeing everyone.",
+      "spoken_features": [
+        "hari ni 是 hari ini 的口语形式。",
+        "句首省略主语 saya。",
+        "jugalah 配合语调表达温和承认，不是命令。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah tengok bilik kat rumah sewa tu? Okey tak?",
+          "ms_standard": "Adakah kamu sudah melihat bilik di rumah sewa itu? Adakah keadaannya baik?",
+          "zh": "你看过那间出租屋的房间了吗？还行吗？",
+          "en": "Have you seen the room in that rental house? Is it any good?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh tahan jugalah. Kecil sikit je, tapi dekat dengan tempat kerja.",
+          "ms_standard": "Bilik itu agak baik. Saiznya sedikit kecil, tetapi dekat dengan tempat kerja.",
+          "zh": "还挺不错的。就是小了一点，不过离上班的地方近。",
+          "en": "It's pretty decent. A little small, but it's close to work."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Jugalah combines two resources that Malay uses to manage emphasis: juga links a statement to another possibility or an ongoing situation, while -lah adds a speaker's stance. DBP treats juga among the full-word emphatic items and -lah among attached particles. Their combination helps explain why identical wording can sound reassuring, insistent or resigned. [DBP: kata penegas](https://dewanbahasa.jendeladbp.my/2022/03/16/2777/)",
+    "cognitive_memory_aid": "先记 juga＝“也／还是”，再给它加语气：jugalah＝“也确实／还是如此”。语调决定是认同、坚持还是无奈。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 既见于标准马来语，也常见于日常交流，并非一律随便或不礼貌。正式文件中宜在确有强调需要时使用；说话时柔和的语调往往比单独添加 -lah 更能体现礼貌。",
+    "usage_etiquette": "评价朋友的物品时，boleh tahan jugalah 通常表示还不错，但可能显得赞美有所保留。评价对方认真准备的作品或重要成果时，宜给出更明确、具体的肯定。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 既见于标准马来语，也常见于日常交流，并非一律随便或不礼貌。正式文件中宜在确有强调需要时使用；说话时柔和的语调往往比单独添加 -lah 更能体现礼貌。",
+    "usage_etiquette": "评价朋友的物品时，boleh tahan jugalah 通常表示还不错，但可能显得赞美有所保留。评价对方认真准备的作品或重要成果时，宜给出更明确、具体的肯定。"
+  }
+}

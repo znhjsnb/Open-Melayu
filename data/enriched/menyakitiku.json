@@ -1,0 +1,135 @@
+{
+  "headword": {
+    "word": "menyakitiku",
+    "syllables": null,
+    "ipa": "/məɲakitiku/",
+    "jawi": "مڽاکيتي",
+    "frequency_rank": 13398,
+    "status": "standard_derived_form",
+    "validation_note": "这是 menyakiti 加宾语附着代词 -ku 的合语法形式，不应冒称独立的 DBP 收录词头。所给 Jawi 实际只对应 menyakiti，未包含 -ku；按构词补全为 مڽاکيتيکو。音节字段保留输入的 null；学习用切分为 me.nya.ki.ti.ku。排名仅沿用输入数据。"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyakiti",
+    "lexical_root": "sakit",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "meN- + sakit + -i → menyakiti；menyakiti + -ku → menyakitiku",
+    "pattern_note": "menyakiti 是输入指定的直接基形，词汇根为 sakit。meN- 遇词首 s，s 脱落并形成 meny-，读 /məɲ/；-i 构成及物动词。-ku 是后附的第一人称单数宾语代词，表示“我”，不是新的派生词缀。",
+    "word_family": [
+      {
+        "word": "menyakiti",
+        "affix": "meN-...-i",
+        "gloss": "使某人身体疼痛或感情受伤"
+      },
+      {
+        "word": "menyakitkan",
+        "affix": "meN-...-kan",
+        "gloss": "使疼痛；令人难受"
+      },
+      {
+        "word": "kesakitan",
+        "affix": "ke-...-an",
+        "gloss": "疼痛；痛苦"
+      },
+      {
+        "word": "pesakit",
+        "affix": "pe-",
+        "gloss": "病人"
+      }
+    ],
+    "root_jawi": "مڽاکيتي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "使我身体疼痛；伤害我的身体。",
+      "en_definition": "To hurt me physically or cause me bodily pain.",
+      "ms_definition": "Menyebabkan aku berasa sakit pada tubuh atau mengalami kecederaan.",
+      "nuances": "这是根据 menyakiti 的词典义及宾语 -ku 合成的释义，并非 DBP 对完整形式的逐字释义。-ku 已表示受事“我”，后面通常不再添加 saya 或 aku 作为同一宾语。具体是否涉及受伤，须由语境判断。[DBP 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyakitkan)",
+      "collocations": [
+        {
+          "ms": "menyakitiku secara fizikal",
+          "zh": "在身体上伤害我",
+          "en": "hurt me physically"
+        },
+        {
+          "ms": "sengaja menyakitiku",
+          "zh": "故意伤害我",
+          "en": "hurt me deliberately"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "伤我的心；使我感到悲伤、委屈或精神痛苦。",
+      "en_definition": "To hurt my feelings or cause me emotional distress.",
+      "ms_definition": "Menyebabkan aku berasa sedih, pilu atau terluka dari segi perasaan.",
+      "nuances": "常用于私人倾诉、文学和歌词；具体语境可指言语或行为造成的情感伤害。输入中 menyakiti 的古义“分娩时疼痛”是不及物用法，不能直接移植到带宾语 -ku 的本形式。[DBP 用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyakitkan)",
+      "collocations": [
+        {
+          "ms": "kata-katamu menyakitiku",
+          "zh": "你的话伤了我的心",
+          "en": "your words hurt me"
+        },
+        {
+          "ms": "terus menyakitiku",
+          "zh": "不断伤害我的感情",
+          "en": "keep hurting me emotionally"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 引述当事人陈述",
+      "ms": "Dalam kenyataannya kepada media, mangsa berkata, \"Perbuatan itu menyakitiku secara fizikal dan emosi.\"",
+      "zh": "受害者在向媒体发表的声明中说：“那种行为伤害了我的身体和感情。”",
+      "en": "In a statement to the media, the victim said, \"That act hurt me physically and emotionally.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间表达感受",
+      "ms_spoken": "Kata-kata kau tadi menyakitiku, tau.",
+      "ms_standard": "Kata-kata kamu tadi menyakiti perasaan saya.",
+      "zh": "你刚才那些话伤到我了，知道吗。",
+      "en": "What you said earlier hurt me, you know.",
+      "spoken_features": [
+        "kau 是熟人之间使用的第二人称代词。",
+        "tau 是 tahu 的口语写法，在这里加强提醒语气。",
+        "menyakitiku 本身偏抒情；普通聊天中 menyakiti hati aku 或 buat aku terasa 更口语化。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah cakap, gurauan macam tu menyakitiku.",
+          "ms_standard": "Saya sudah memberitahu kamu bahawa gurauan seperti itu menyakiti perasaan saya.",
+          "zh": "我已经说过了，那种玩笑会伤到我。",
+          "en": "I've already told you that jokes like that hurt me."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Maaf, aku ingat kau okay je. Aku takkan ulang lagi.",
+          "ms_standard": "Maaf, saya menyangka kamu tidak keberatan. Saya tidak akan mengulanginya.",
+          "zh": "对不起，我还以为你不介意。我不会再这样了。",
+          "en": "Sorry, I thought you were okay with it. I won't do it again."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates Malay word building rather than a separate borrowing. Sakit supplies the idea of pain, menyakiti expresses causing someone pain, and the attached pronoun -ku identifies the sufferer as the speaker. Physical and emotional readings coexist, explaining its usefulness in intimate writing. The dictionary evidence concerns the base verb. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menyakitkan)",
+    "cognitive_memory_aid": "抓住 sakit“痛”和 ku“我”：menyakiti + ku，就是“让我痛、伤害我”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲密表达、文学或直接引语。向陌生人、上司或机构陈述时，menyakiti saya 或 menyakiti perasaan saya 通常更中性。",
+    "usage_etiquette": "这是明确表达伤害感受的说法，语气可能较重。表达分歧时可具体说明是哪句话或哪个行为造成伤害，避免把一般意见不同直接说成对方在伤害自己。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 相联系，适合亲密表达、文学或直接引语。向陌生人、上司或机构陈述时，menyakiti saya 或 menyakiti perasaan saya 通常更中性。",
+    "usage_etiquette": "这是明确表达伤害感受的说法，语气可能较重。表达分歧时可具体说明是哪句话或哪个行为造成伤害，避免把一般意见不同直接说成对方在伤害自己。"
+  }
+}

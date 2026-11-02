@@ -1,0 +1,109 @@
+{
+  "headword": {
+    "word": "pukullah",
+    "syllables": null,
+    "ipa": "/pu.kul.lah/",
+    "jawi": "ڤوکول",
+    "frequency_rank": 13414,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pukul",
+    "affix": "-lah",
+    "affix_type": "suffix",
+    "formula": "pukul + -lah → pukullah",
+    "pattern_note": "-lah 是后附强调小品词，不是派生词缀；此处依附于祈使动词。词干末尾 l 与 lah 开头 l 相接，拼写保留 ll。输入 Jawi 仅对应 pukul，未包含 -lah；音节字段依输入保留 null，词形可分读为 pu.kul.lah。",
+    "word_family": [
+      {
+        "word": "memukul",
+        "affix": "meN-",
+        "gloss": "打；敲击；击打"
+      },
+      {
+        "word": "pukulan",
+        "affix": "-an",
+        "gloss": "击打；一击；打击"
+      },
+      {
+        "word": "pemukul",
+        "affix": "peN-",
+        "gloss": "击打者；击打用具"
+      }
+    ],
+    "root_jawi": "ڤوکول"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "打吧；敲吧；击打吧。用于命令、指导、鼓励或允许对方作出击打动作。",
+      "en_definition": "Hit, strike, or beat, used as an instruction, encouragement, or permission.",
+      "ms_definition": "Bentuk perintah bagi pukul yang disertai partikel penegas -lah, untuk menyuruh atau membenarkan seseorang mengetuk atau memukul sesuatu.",
+      "nuances": "力度和对象由语境决定，可用于击球、敲鼓或其他击打动作。-lah 可使指导较自然，也可加强催促，不能一律译成礼貌的“请”。本义依据词干 pukul 与 -lah 的语法组合归纳，并非独立的 DBP 引文。pukul 表示钟点的用法不能直接解释为“打吧”。参见 [DBP：pukul](https://prpm.dbp.gov.my/Cari1?d=94740&keyword=pukul) 与 [DBP：lah](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=lah)。",
+      "collocations": [
+        {
+          "ms": "pukullah bola",
+          "zh": "击球吧",
+          "en": "hit the ball"
+        },
+        {
+          "ms": "pukullah gendang",
+          "zh": "敲鼓吧",
+          "en": "beat the drum"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "正式体育教学 / 训练指导",
+      "ms": "Untuk latihan ini, pukullah bola ke arah sasaran yang telah ditetapkan.",
+      "zh": "进行这项训练时，请将球击向指定目标。",
+      "en": "For this drill, hit the ball towards the designated target."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友相约练球",
+      "ms_spoken": "Bola dah sampai tu, pukullah!",
+      "ms_standard": "Bola itu sudah sampai kepada kamu. Pukullah bola itu!",
+      "zh": "球都到你这儿了，打呀！",
+      "en": "The ball's right there—hit it!",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式",
+        "tu 是 itu 的口语形式",
+        "-lah 配合语调表达催促",
+        "省略语境中明确的主语和宾语"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Bola dah sampai tu, pukullah!",
+          "ms_standard": "Bola itu sudah sampai kepada kamu. Pukullah bola itu!",
+          "zh": "球都到你这儿了，打呀！",
+          "en": "The ball's right there—hit it!"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak pukul, tapi takut bola masuk longkang je.",
+          "ms_standard": "Aku hendak memukul bola itu, tetapi aku bimbang bola itu akan masuk ke dalam longkang.",
+          "zh": "我是想打，可就怕把球打进沟里。",
+          "en": "I want to, but I'm worried I'll hit it into the drain."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pukullah combines the Malay base pukul with the bound particle -lah. Its interest lies in how grammar shapes social meaning: the same instruction can sound encouraging during a game or forceful during an argument. It is a transparent grammatical formation, so its explanation does not require an invented foreign ancestor. See [DBP on -lah](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=lah).",
+    "cognitive_memory_aid": "分成 pu-kul-lah：先记 pukul“击打”，最后的 lah 像话尾的“吧／呀”；联想球来了，喊一句“打呀！”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-lah 本身不保证礼貌。对陌生人、长辈或正式教学对象，可用 sila 配合清楚的动作说明；语气和关系同样重要。",
+    "usage_etiquette": "适合体育、音乐和操作指导。对象若是人，容易被理解为指使殴打；玩笑中也应注意对方是否会感到威胁。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-lah 本身不保证礼貌。对陌生人、长辈或正式教学对象，可用 sila 配合清楚的动作说明；语气和关系同样重要。",
+    "usage_etiquette": "适合体育、音乐和操作指导。对象若是人，容易被理解为指使殴打；玩笑中也应注意对方是否会感到威胁。"
+  }
+}

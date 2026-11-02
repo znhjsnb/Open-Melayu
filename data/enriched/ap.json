@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "ap",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 13388,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ap",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "Approved Permit → AP（仅在相关许可语境中成立）",
+    "pattern_note": "输入包的根词标记不构成词源证据。AP 是首字母缩略语候选，不涉及马来语词缀音变；小写 ap 也可能是 apa 的非规范缩写或其他形式，未提供语境，故不指定读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "在马来西亚进出口许可语境中，可能对应 AP，即 Approved Permit，指由相关发证机构签发的进出口许可证；小写输入 ap 是否取此义尚未确定。",
+      "en_definition": "Possibly AP, an abbreviation of Approved Permit, an import or export licence; this interpretation requires supporting context.",
+      "ms_definition": "Dalam konteks pelesenan perdagangan, AP ialah singkatan bagi Approved Permit, iaitu lesen import atau eksport; tafsiran ini belum dapat dipastikan bagi bentuk ap yang diberikan.",
+      "nuances": "AP 的这一展开形式可由 [MITI：Approved Permit](https://www.miti.gov.my/index.php/pages/view/10605) 核实，但不能据此直接判定孤立的 ap。若原文为聊天问句，ap 也可能意指 apa，须回查原句。以下搭配及场景仅示范 AP 的许可义。",
+      "collocations": [
+        {
+          "ms": "permohonan AP",
+          "zh": "AP 许可证申请",
+          "en": "an AP application"
+        },
+        {
+          "ms": "pemegang AP",
+          "zh": "AP 许可证持有人",
+          "en": "an AP holder"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报；以 ap 对应许可缩略语 AP 为前提",
+      "ms": "Syarikat sedang menyediakan dokumen bagi permohonan AP untuk mengimport kenderaan tersebut.",
+      "zh": "公司正在准备申请 AP 许可证所需的文件，以进口该车辆。",
+      "en": "The company is preparing the documents for an AP application to import the vehicle."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事讨论许可申请",
+      "ms_spoken": "Dokumen AP tu dah siap ke?",
+      "ms_standard": "Adakah dokumen untuk permohonan AP itu sudah siap?",
+      "zh": "申请 AP 的那些文件准备好了吗？",
+      "en": "Are the documents for the AP application ready?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "dah 是 sudah 的口语形式",
+        "句末 ke 用作口语疑问标记",
+        "AP 保持大写，以明确缩略语身份"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dokumen AP tu dah siap ke?",
+          "ms_standard": "Adakah dokumen untuk permohonan AP itu sudah siap?",
+          "zh": "申请 AP 的那些文件准备好了吗？",
+          "en": "Are the documents for the AP application ready?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, saya nak semak sekali lagi je sebelum hantar.",
+          "ms_standard": "Sudah, saya hanya hendak menyemaknya sekali lagi sebelum menghantarnya.",
+          "zh": "准备好了，我只是想提交前再核对一遍。",
+          "en": "Yes. I just want to check them once more before submitting them."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In Malaysian trade administration, AP abbreviates the English expression Approved Permit. This illustrates how an English initialism can function inside otherwise Malay phrases such as permohonan AP. However, a lowercase corpus token loses an important identification cue. Without its surrounding sentence, it cannot safely be assigned this administrative meaning or any single pronunciation.",
+    "cognitive_memory_aid": "在进口文件语境中，把 A、P 对应到 Approved、Permit；若在聊天问句中看到 ap，先核查是否省写了 apa。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向不熟悉业务的人首次提及时写出 Approved Permit (AP)，方便理解；正式文件避免使用含义不明的小写 ap。",
+    "usage_etiquette": "许可证义适用于相关贸易业务交流。不要把所有 AP 都解释为同一种许可，也不要据孤立缩写推断某项交易已经获批。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向不熟悉业务的人首次提及时写出 Approved Permit (AP)，方便理解；正式文件避免使用含义不明的小写 ap。",
+    "usage_etiquette": "许可证义适用于相关贸易业务交流。不要把所有 AP 都解释为同一种许可，也不要据孤立缩写推断某项交易已经获批。"
+  }
+}

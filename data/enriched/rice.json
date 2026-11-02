@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "rice",
+    "syllables": null,
+    "ipa": "/raɪs/",
+    "jawi": null,
+    "frequency_rank": 13401,
+    "status": "english",
+    "validation_note": "这里按英语普通词解释，不认定为正式马来语词条。音标采用英语读音；音节字段保留输入的 null，英语中为单音节。没有据此生成官方 Jawi。排名仅沿用输入数据。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rice",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rice → rice",
+    "pattern_note": "在马来语语境中按英语整词识记，不作马来语词缀拆分。英语动词 rice 的过去式和过去分词为 riced，现在分词为 ricing，第三人称单数为 rices；加 -ing 时省略词尾 e。",
+    "word_family": [
+      {
+        "word": "riced",
+        "affix": "-d（英语动词变化）",
+        "gloss": "已加工成米粒状的"
+      },
+      {
+        "word": "ricing",
+        "affix": "-ing（英语动词变化）",
+        "gloss": "把食物加工成米粒状"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "米；大米；供食用的稻米颗粒，也可指煮熟后的米饭。",
+      "en_definition": "The edible grains of a rice plant, including the grains cooked as food.",
+      "ms_definition": "Beras sebagai bahan makanan, atau nasi apabila beras itu telah dimasak.",
+      "nuances": "英语 rice 通常是不可数名词。马来语需要按状态区分：未煮的米是 beras，煮熟的饭是 nasi。下列马来语搭配展示相应译法，而不是把英语 rice 当作马来语词。[Merriam-Webster](https://www.merriam-webster.com/dictionary/rice)",
+      "collocations": [
+        {
+          "ms": "beras perang",
+          "zh": "糙米",
+          "en": "brown rice"
+        },
+        {
+          "ms": "nasi goreng",
+          "zh": "炒饭",
+          "en": "fried rice"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "稻；为收获可食用谷粒而种植的稻属作物。",
+      "en_definition": "A cereal plant cultivated for its edible grain, especially Oryza sativa.",
+      "ms_definition": "Tumbuhan padi yang ditanam untuk mendapatkan bijirin sebagai makanan.",
+      "nuances": "指农田里的作物时，马来语通常用 padi；带壳稻谷也可称 padi。不能把 rice 的所有出现都译成 nasi。[Merriam-Webster](https://www.merriam-webster.com/dictionary/rice)",
+      "collocations": [
+        {
+          "ms": "tanaman padi",
+          "zh": "水稻作物",
+          "en": "a rice crop"
+        },
+        {
+          "ms": "penanaman padi",
+          "zh": "水稻种植",
+          "en": "rice cultivation"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "把食物切碎、压制或加工成米粒状细粒。",
+      "en_definition": "To process food into small pieces resembling grains of rice.",
+      "ms_definition": "Memproses makanan menjadi butiran kecil yang menyerupai beras.",
+      "nuances": "这是英语烹饪动词，不表示“煮饭”，也不保证成品含有真正的米。下列马来语是解释性译法。[Merriam-Webster](https://www.merriam-webster.com/dictionary/rice)",
+      "collocations": [
+        {
+          "ms": "memproses bunga kubis menjadi butiran seperti beras",
+          "zh": "把花椰菜加工成米粒状",
+          "en": "rice cauliflower"
+        },
+        {
+          "ms": "menekan kentang melalui alat penekan kentang",
+          "zh": "用压薯器把马铃薯压成细粒",
+          "en": "rice potatoes"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 商品标签翻译",
+      "ms": "Dalam label produk ini, perkataan Inggeris \"rice\" diterjemahkan sebagai \"beras\" kerana produk tersebut belum dimasak.",
+      "zh": "在这个商品标签中，英语 rice 译为 beras，因为该产品尚未煮熟。",
+      "en": "On this product label, the English word \"rice\" is translated as \"beras\" because the product is uncooked."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量晚餐",
+      "ms_spoken": "Kau nak rice ke mi malam ni?",
+      "ms_standard": "Kamu mahu nasi atau mi untuk makan malam ini?",
+      "zh": "你今晚想吃饭还是吃面？",
+      "en": "Do you want rice or noodles tonight?",
+      "spoken_features": [
+        "rice 插入马来语句子，属于语码转换；标准对应词在这里是 nasi。",
+        "nak 是 hendak 的口语形式。",
+        "ke 在这里标记选择，相当于 atau。",
+        "ni 是 ini 的口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak order rice je malam ni. Kau nak apa?",
+          "ms_standard": "Saya mahu memesan nasi sahaja untuk makan malam ini. Kamu mahu makan apa?",
+          "zh": "我今晚就点饭。你想吃什么？",
+          "en": "I'm just ordering rice tonight. What would you like?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak nasi goreng. Kedai kat bawah tu masih buka, kan?",
+          "ms_standard": "Saya mahu nasi goreng. Kedai di bawah itu masih dibuka, bukan?",
+          "zh": "我要炒饭。楼下那家店还开着，对吧？",
+          "en": "I'll have fried rice. The place downstairs is still open, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English rice is recorded from the thirteenth century. Merriam-Webster traces it through Middle English, Anglo-French and Old Italian to Greek oryza, with an Iranian connection further back. The useful Malay contrast is semantic: padi names the crop or unhusked grain, beras the uncooked grain, and nasi the cooked food. [Merriam-Webster](https://www.merriam-webster.com/dictionary/rice)",
+    "cognitive_memory_aid": "记一条从田到餐桌的路线：padi 稻 → beras 米 → nasi 饭；英语 rice 会随上下文覆盖这些不同阶段。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "rice 本身是中性英语词。与使用英语或混合语言的朋友交谈时可以自然出现；用马来语向店员点餐时，nasi putih、nasi goreng 等具体名称更清楚。",
+    "usage_etiquette": "购物买生米用 beras，讨论种植用 padi，点熟饭用 nasi。菜单或产品名称中的英文 rice 应结合食物状态理解，不能机械固定成一个马来语译词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "rice 本身是中性英语词。与使用英语或混合语言的朋友交谈时可以自然出现；用马来语向店员点餐时，nasi putih、nasi goreng 等具体名称更清楚。",
+    "usage_etiquette": "购物买生米用 beras，讨论种植用 padi，点熟饭用 nasi。菜单或产品名称中的英文 rice 应结合食物状态理解，不能机械固定成一个马来语译词。"
+  }
+}
