@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "mengakhiri",
+    "syllables": "me.nga.khi.ri",
+    "ipa": "/mə.ŋa.xi.ri/",
+    "jawi": "مڠاخيري",
+    "frequency_rank": 4483,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "akhiri",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + akhiri → mengakhiri；完整构词：meN- + akhir + -i → mengakhiri",
+    "pattern_note": "按资料包保留直接基底 akhiri；底层词根是 akhir，akhiri 已含 -i。meN- 接元音 a 时实现为 meng-，不删去元音；kh 表示 /x/。资料包未提供 akhiri 的权威爪夷文，因此 root_jawi 保留 null。",
+    "word_family": [
+      {
+        "word": "berakhir",
+        "affix": "ber-",
+        "gloss": "结束；告终"
+      },
+      {
+        "word": "pengakhiran",
+        "affix": "peN-…-an",
+        "gloss": "结束；结局"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "使某项活动、讲话、关系或过程结束。",
+      "en_definition": "To bring an activity, speech, relationship or process to an end.",
+      "ms_definition": "Menghabisi, menyudahi, menamatkan.",
+      "nuances": "通常是及物动词，后接被结束的对象，例如 mengakhiri ucapan。若主语本身结束，应使用 berakhir，例如 Mesyuarat berakhir pada pukul lima。释义依据 [DBP：mengakhiri](https://prpm.dbp.gov.my/cari1?keyword=mengakhiri)。",
+      "collocations": [
+        {
+          "ms": "mengakhiri ucapan",
+          "zh": "结束讲话",
+          "en": "conclude a speech"
+        },
+        {
+          "ms": "mengakhiri hubungan",
+          "zh": "结束一段关系",
+          "en": "end a relationship"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pengarah mengakhiri ucapannya dengan merakamkan penghargaan kepada seluruh warga kerja.",
+      "zh": "董事在讲话结束时向全体员工致以谢意。",
+      "en": "The director concluded the speech by expressing appreciation to all staff."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah buat keputusan untuk mengakhiri hubungan ni.",
+      "ms_standard": "Saya sudah membuat keputusan untuk mengakhiri hubungan ini.",
+      "zh": "我已经决定结束这段关系了。",
+      "en": "I've decided to end this relationship.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "ni 对应 ini",
+        "buat keputusan 是 membuat keputusan 的常见口语形式",
+        "mengakhiri 语气较郑重，适合认真说明重要决定"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku dah buat keputusan untuk mengakhiri hubungan ni.",
+          "ms_standard": "Saya sudah membuat keputusan untuk mengakhiri hubungan ini.",
+          "zh": "我已经决定结束这段关系了。",
+          "en": "I've decided to end this relationship."
+        },
+        {
+          "speaker": "Mira (朋友)",
+          "ms_spoken": "Kau nak cerita? Aku ada kat sini kalau kau perlukan teman.",
+          "ms_standard": "Adakah kamu mahu bercerita? Saya ada di sini jika kamu memerlukan teman.",
+          "zh": "想聊聊吗？你需要人陪的话，我在。",
+          "en": "Want to talk about it? I'm here if you need some company."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "正式讲话可用 Sebelum saya mengakhiri ucapan ini… 自然引出结语。结束谈话或关系时，清楚说明对象与决定，有助于减少误解。",
+    "usage_etiquette": "mengakhiri sesuatu 表示主动结束某事；sesuatu berakhir 表示某事结束。日常事务也常用 habiskan 或 tamatkan，选择时应结合对象与语气。"
+  },
+  "etymology": {
+    "historical_story": "底层词根 akhir 来自阿拉伯语，早期马来语词典已将它标注为阿拉伯来源，并解释为“终结、末尾”；参见 [《Kitab Loghat Melayu》原页转录](https://ms.wikisource.org/wiki/Laman:Kitab_Loghat_Melayu.pdf/6)。这个借词进入马来语后参与本地构词，通过 meN- 与 -i 形成 mengakhiri，把“末尾”的概念用于“使某事走到终点”。",
+    "cognitive_memory_aid": "把 akhir 想成终点线：berakhir 是“到终点了”，mengakhiri 是“把一件事带到终点”。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "正式讲话可用 Sebelum saya mengakhiri ucapan ini… 自然引出结语。结束谈话或关系时，清楚说明对象与决定，有助于减少误解。",
+    "usage_etiquette": "mengakhiri sesuatu 表示主动结束某事；sesuatu berakhir 表示某事结束。日常事务也常用 habiskan 或 tamatkan，选择时应结合对象与语气。"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "kilometer",
+    "syllables": "ki.lo.mé.ter",
+    "ipa": "/kilometər/",
+    "jawi": "کيلوميتر",
+    "frequency_rank": 3613,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kilometer",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kilometer → kilometer",
+    "pattern_note": "按输入词基分析作为独立计量词处理，无马来语派生词缀；国际单位构词中的 kilo- 表示千。mé 的 e 读 /e/，末音节 ter 的 e 读 /ə/。",
+    "word_family": [
+      {
+        "word": "perkilometeran",
+        "affix": "per-...-an",
+        "gloss": "按车辆行驶公里数核算的费用"
+      },
+      {
+        "word": "kilometer persegi",
+        "affix": "∅",
+        "gloss": "平方公里；面积单位组合短语"
+      }
+    ],
+    "root_jawi": "کيلوميتر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "公里；千米，等于一千米的长度单位。",
+      "en_definition": "A unit of length equal to one thousand metres.",
+      "ms_definition": "Unit ukuran panjang yang bersamaan dengan 1000 meter atau 0.62 batu.",
+      "nuances": "常用于道路距离及行程长度。与 batu（英里）的换算仅为近似值；与 meter 的换算是精确的 1 kilometer = 1000 meter。数词后词形不变，如 lima kilometer。[DBP 释义及派生词](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kilometer)",
+      "collocations": [
+        {
+          "ms": "sejauh lima kilometer",
+          "zh": "距离五公里",
+          "en": "five kilometres away"
+        },
+        {
+          "ms": "kilometer sejam",
+          "zh": "公里每小时",
+          "en": "kilometres per hour"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Kerja penyelenggaraan melibatkan jalan sepanjang lima kilometer dan dijangka selesai pada akhir bulan ini.",
+      "zh": "养护工程涉及一段长五公里的道路，预计于本月底完成。",
+      "en": "The maintenance work covers a five-kilometre stretch of road and is expected to be completed by the end of this month."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tinggal dua kilometer je lagi nak sampai.",
+      "ms_standard": "Hanya tinggal dua kilometer lagi sebelum kita sampai.",
+      "zh": "再走两公里就到了。",
+      "en": "We've only got two kilometres to go.",
+      "spoken_features": [
+        "je 对应 sahaja，强调剩余距离不多",
+        "nak sampai 在这里表示即将到达，标准表达可改用 sebelum kita sampai",
+        "口语省略了可由上下文理解的主语 kita"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tinggal dua kilometer je lagi nak sampai. Kau dah tunggu kat sana ke?",
+          "ms_standard": "Hanya tinggal dua kilometer lagi sebelum kami sampai. Adakah kamu sudah menunggu di sana?",
+          "zh": "我们再走两公里就到了。你已经在那边等了吗？",
+          "en": "We're only two kilometres away now. Are you already there waiting?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ya, aku dah sampai. Aku tunggu kat pintu masuk, ya.",
+          "ms_standard": "Ya, saya sudah sampai. Saya menunggu di pintu masuk, ya.",
+          "zh": "对，我已经到了。我在入口等你们。",
+          "en": "Yeah, I'm here. I'll wait for you at the entrance."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "km",
+      "full_form": "kilometer",
+      "note": "国际单位符号，也常用于 WhatsApp、地图和路程信息；不是专属短信缩写。规范写作 5 km，k 和 m 均小写，符号不因复数而变化。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "本词语气中性。回应路程询问时，可配合大约用语 lebih kurang，避免把估计距离说成精确测量结果。",
+    "usage_etiquette": "报告和导航信息中应区分距离与速度：km 表示公里，km/j 表示公里每小时。口语用两公里“很近”或“很远”仍取决于步行、驾车及道路条件。"
+  },
+  "etymology": {
+    "historical_story": "kilometer 属于随公制度量体系传播的国际计量词，其构词把表示一千倍的 kilo- 与 meter 结合。把一千个一米长的单位连接起来，就得到一公里；这种十进制关系是它在地图和道路距离中使用的基础。[公制构词说明](https://ukma.org.uk/style-guide/)",
+    "cognitive_memory_aid": "记住 kilo = 1000：脑中把 1000 把一米尺首尾相接，整段就是 1 kilometer。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "本词语气中性。回应路程询问时，可配合大约用语 lebih kurang，避免把估计距离说成精确测量结果。",
+    "usage_etiquette": "报告和导航信息中应区分距离与速度：km 表示公里，km/j 表示公里每小时。口语用两公里“很近”或“很远”仍取决于步行、驾车及道路条件。"
+  }
+}

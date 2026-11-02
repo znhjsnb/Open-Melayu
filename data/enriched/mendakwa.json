@@ -1,0 +1,111 @@
+{
+  "headword": {
+    "word": "mendakwa",
+    "syllables": "men.dak.wa",
+    "ipa": "/mən.daʔ.wa/",
+    "jawi": "مندعوا",
+    "frequency_rank": 4235,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dakwa",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + dakwa → mendakwa",
+    "pattern_note": "meN- 在 d 前变为 men-，词根的 d 保留；dakwa 中的 k 在此读作喉塞音。",
+    "word_family": [
+      {
+        "word": "dakwaan",
+        "affix": "-an",
+        "gloss": "指控；声称的内容"
+      },
+      {
+        "word": "pendakwa",
+        "affix": "peN-",
+        "gloss": "控方人员；检控者"
+      },
+      {
+        "word": "pendakwaan",
+        "affix": "peN-…-an",
+        "gloss": "检控；起诉行为"
+      }
+    ],
+    "root_jawi": "دعوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "向法院提出对某人或某方的指控或诉求，使其接受审理；起诉。",
+      "en_definition": "To bring a charge or claim against a person or party before a court.",
+      "ms_definition": "Mengemukakan tuduhan, aduan atau tuntutan terhadap seseorang atau sesuatu pihak ke mahkamah untuk diadili.",
+      "nuances": "本义项限于司法程序，不能把一般责怪都译为 mendakwa。刑事新闻中常指检控；受到起诉本身不表示已经被判有罪。该词另有“声称”义，本条只展开司法核心义。[DBP：dakwa](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=dakwa)",
+      "collocations": [
+        {
+          "ms": "mendakwa suspek",
+          "zh": "起诉嫌疑人",
+          "en": "to prosecute a suspect"
+        },
+        {
+          "ms": "mendakwa seseorang di mahkamah",
+          "zh": "在法庭起诉某人",
+          "en": "to bring someone before a court on a charge"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 司法报道",
+      "ms": "Pihak pendakwa raya akan mendakwa suspek di mahkamah esok atas tuduhan pecah amanah.",
+      "zh": "检方将于明日在法庭以失信罪起诉该嫌疑人。",
+      "en": "The prosecution will charge the suspect in court tomorrow with criminal breach of trust."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论新闻",
+      "ms_spoken": "Pendakwa raya nak mendakwa lelaki tu esok, kan?",
+      "ms_standard": "Pendakwa raya akan mendakwa lelaki itu esok, bukan?",
+      "zh": "检方明天要起诉那个男的，对吧？",
+      "en": "The prosecutor is going to charge that man tomorrow, right?",
+      "spoken_features": [
+        "nak 在此表示即将采取的行动，对应标准表达 akan",
+        "tu 是 itu 的口语缩略形式",
+        "句末 kan 用于请求对方确认"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Pendakwa raya nak mendakwa lelaki tu esok, kan?",
+          "ms_standard": "Pendakwa raya akan mendakwa lelaki itu esok, bukan?",
+          "zh": "检方明天要起诉那个男的，对吧？",
+          "en": "The prosecutor is going to charge that man tomorrow, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, tapi mahkamah belum putuskan dia bersalah lagi.",
+          "ms_standard": "Ya, tetapi mahkamah belum memutuskan bahawa dia bersalah.",
+          "zh": "对，不过法院还没判他有罪。",
+          "en": "Yes, but the court hasn't found him guilty yet."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "讨论具体案件时，准确使用 suspek、tertuduh 等称谓，避免把尚未判决的人直接称为罪犯。",
+    "usage_etiquette": "新闻转述应交代是谁提出指控；日常表达不满时，通常用 menuduh 表示“指责”，避免无意带入起诉含义。"
+  },
+  "etymology": {
+    "historical_story": "词根 dakwa 来自阿拉伯语 daʿwā，带有诉求、主张或诉讼的含义。进入马来语后，它接上本地前缀 meN-，形成表示提出指控这一行动的 mendakwa；现代用法也延伸到提出某种说法。",
+    "cognitive_memory_aid": "想象检控人员把写着 dakwa 的案卷递进法院：加上 meN-，静态的“指控”就变成主动“提出指控”。"
+  },
+  "sociolinguistic_register": {
+    "register": "formal",
+    "politeness_note": "讨论具体案件时，准确使用 suspek、tertuduh 等称谓，避免把尚未判决的人直接称为罪犯。",
+    "usage_etiquette": "新闻转述应交代是谁提出指控；日常表达不满时，通常用 menuduh 表示“指责”，避免无意带入起诉含义。"
+  }
+}

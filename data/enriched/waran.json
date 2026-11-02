@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "waran",
+    "syllables": "wa.ran",
+    "ipa": "/wa.ran/",
+    "jawi": "وارن",
+    "frequency_rank": 3910,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "waran",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + waran → waran",
+    "pattern_note": "waran 是整体借词，末尾 -an 不是马来语后缀；输入解析中的 war 应校正为 waran。",
+    "word_family": [
+      {
+        "word": "waran tangkap",
+        "affix": "∅",
+        "gloss": "逮捕令；复合词组"
+      },
+      {
+        "word": "waran geledah",
+        "affix": "∅",
+        "gloss": "搜查令；复合词组"
+      }
+    ],
+    "root_jawi": "وارن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "由法院或有权机关签发，授权执法人员实施逮捕、搜查等行动的书面令状。",
+      "en_definition": "An official written order authorizing law enforcement officers to carry out an arrest, search, or similar action.",
+      "ms_definition": "Surat kuasa yang dikeluarkan oleh majistret untuk membolehkan polis menangkap seseorang atau menggeledah harta.",
+      "nuances": "本条选取司法令状义。waran tangkap 与 waran geledah 授权的行动不同，不能互换；单独使用 waran 时，具体类型由上下文确定。义项依据：[DBP PRPM：waran](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=waran)。",
+      "collocations": [
+        {
+          "ms": "mengeluarkan waran tangkap",
+          "zh": "签发逮捕令",
+          "en": "issue an arrest warrant"
+        },
+        {
+          "ms": "melaksanakan waran geledah",
+          "zh": "执行搜查令",
+          "en": "execute a search warrant"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 法庭报道",
+      "ms": "Mahkamah mengeluarkan waran tangkap terhadap tertuduh yang gagal hadir pada tarikh perbicaraan.",
+      "zh": "法院向未在审讯日期出庭的被告签发了逮捕令。",
+      "en": "The court issued an arrest warrant for the accused after they failed to attend the trial."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论新闻",
+      "ms_spoken": "Dalam berita tadi, mahkamah dah keluarkan waran tangkap untuk lelaki tu.",
+      "ms_standard": "Menurut berita tadi, mahkamah telah mengeluarkan waran tangkap terhadap lelaki itu.",
+      "zh": "刚才新闻说，法院已经向那个男的发出逮捕令了。",
+      "en": "The news just said the court has issued an arrest warrant for that man.",
+      "spoken_features": [
+        "dah 相当于 sudah，标准叙述中可用 telah。",
+        "tu 是 itu 的口语缩略形式。",
+        "口语 keluarkan 在此对应标准主动动词 mengeluarkan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Dalam berita tadi, mahkamah dah keluarkan waran tangkap untuk lelaki tu.",
+          "ms_standard": "Menurut berita tadi, mahkamah telah mengeluarkan waran tangkap terhadap lelaki itu.",
+          "zh": "刚才新闻说，法院已经向那个男的发出逮捕令了。",
+          "en": "The news just said the court has issued an arrest warrant for that man."
+        },
+        {
+          "speaker": "Hakim (朋友)",
+          "ms_spoken": "Oh, aku belum baca lagi. Nanti aku semak kat laman berita tu.",
+          "ms_standard": "Saya belum membaca berita itu. Saya akan menyemaknya di laman berita tersebut nanti.",
+          "zh": "哦，我还没看。等下我去那个新闻网站看看。",
+          "en": "Oh, I haven't read it yet. I'll check that news site later."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "谈及涉及令状的人时，使用姓名、身份或新闻中的中性称呼，避免直接称对方为罪犯。",
+    "usage_etiquette": "报道时准确区分签发令状、执行令状、逮捕和定罪，不把这些不同事件混为一谈。"
+  },
+  "etymology": {
+    "historical_story": "waran 借自英语 warrant，进入马来语后采用适合本地发音和拼写的形式。早期英马词汇书已将相应形式标为英语借词，并解释为法院令状，留下了它进入司法用语的历史记录。历史依据：[《Vocabulary of the English and Malay Languages》](https://upload.wikimedia.org/wikipedia/commons/b/b9/Vocabulary_of_the_English_and_Malay_languages_%28IA_afu7962.0002.001.umich.edu%29.pdf)。",
+    "cognitive_memory_aid": "把 waran 与英语 warrant 连起来，想象一张盖有法院印章的授权文件；整词记忆，不拆成 war 加 -an。"
+  },
+  "sociolinguistic_register": {
+    "register": "formal",
+    "politeness_note": "谈及涉及令状的人时，使用姓名、身份或新闻中的中性称呼，避免直接称对方为罪犯。",
+    "usage_etiquette": "报道时准确区分签发令状、执行令状、逮捕和定罪，不把这些不同事件混为一谈。"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "headword": {
+    "word": "penyebab",
+    "syllables": "pe.nye.bab",
+    "ipa": "/pə.ɲə.bab/",
+    "jawi": "ڤڽبب",
+    "frequency_rank": 4125,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "penyebab",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + sebab → penyebab",
+    "pattern_note": "peN- 接以 s 开头的 sebab 时，s 脱落，鼻音实现为 ny /ɲ/。实际构词词根是 sebab（سبب）；root_word 和 root_jawi 按要求保留数据包原值，不能据此将本词视为单纯词。",
+    "word_family": [
+      {
+        "word": "sebab",
+        "affix": "∅",
+        "gloss": "原因"
+      },
+      {
+        "word": "menyebabkan",
+        "affix": "meN-...-kan",
+        "gloss": "引起；导致"
+      },
+      {
+        "word": "bersebab",
+        "affix": "ber-",
+        "gloss": "有原因的"
+      }
+    ],
+    "root_jawi": "ڤڽبب"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "引发某种事件、情况或结果的人、事物或因素；致因。",
+      "en_definition": "A person, thing, or factor that causes something to happen.",
+      "ms_definition": "Orang, pihak atau sesuatu yang menjadi sebab atau punca berlakunya sesuatu.",
+      "nuances": "强调实际引发结果的致因者或因素，常用于分析问题及不良结果，但不限定负面结果。它是名词；表达“导致”这一动作时用 menyebabkan。日常交谈也常用 punca。",
+      "collocations": [
+        {
+          "ms": "penyebab utama",
+          "zh": "主要原因",
+          "en": "the main cause"
+        },
+        {
+          "ms": "menjadi penyebab kelewatan",
+          "zh": "成为延误的原因",
+          "en": "to be the cause of a delay"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 事故分析",
+      "ms": "Laporan siasatan mengenal pasti kerosakan sistem sebagai penyebab utama kelewatan penghantaran.",
+      "zh": "调查报告确认，系统故障是交付延误的主要原因。",
+      "en": "The investigation report identified a system failure as the main cause of the delivery delay."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事排查问题",
+      "ms_spoken": "Fail lama tu rupanya penyebab masalah ni.",
+      "ms_standard": "Rupa-rupanya, fail lama itu merupakan penyebab masalah ini.",
+      "zh": "原来是那个旧文件惹出这个问题。",
+      "en": "Turns out that old file is what's causing this problem.",
+      "spoken_features": [
+        "tu 和 ni 分别是 itu 和 ini 的口语形式。",
+        "口语名词谓语句可省略 merupakan。",
+        "rupanya 表示刚发现事情的实际原因，对应原来。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku dah semak. Fail lama tu penyebab masalah ni rupanya.",
+          "ms_standard": "Saya sudah menyemaknya. Rupa-rupanya, fail lama itu merupakan penyebab masalah ini.",
+          "zh": "我查过了。原来问题出在那个旧文件上。",
+          "en": "I've checked. Turns out that old file is causing the problem."
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Oh, patutlah. Kita guna fail baharu je lepas ni.",
+          "ms_standard": "Oh, sekarang saya faham. Selepas ini, kita gunakan fail baharu sahaja.",
+          "zh": "哦，难怪。那接下来就用新文件吧。",
+          "en": "Oh, that explains it. Let's just use the new file from now on."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "称某人为 penyebab 容易带有归责意味。工作交流宜说明具体行为或因素，并根据证据区分主要原因与其他原因。",
+    "usage_etiquette": "可说 X ialah penyebab masalah ini，也可用 X menyebabkan masalah ini 表达动作。讨论尚未确认的原因时，可加 mungkin，避免把推测说成定论。"
+  },
+  "etymology": {
+    "historical_story": "sebab 表示原因，马来语通过前缀 peN- 把这个概念构成表示致因者或致因事物的 penyebab。可以把这一步想成给因果链的起点贴上名称：它不只是抽象的原因，而是带来结果的那个人或事物。[DBP 词族记录](https://prpm.dbp.gov.my/Cari1?d=10456&keyword=sebab)",
+    "cognitive_memory_aid": "画一条“旧文件 → 系统出错”的箭头：箭头起点的旧文件就是 penyebab；箭头表示的导致动作则是 menyebabkan。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "称某人为 penyebab 容易带有归责意味。工作交流宜说明具体行为或因素，并根据证据区分主要原因与其他原因。",
+    "usage_etiquette": "可说 X ialah penyebab masalah ini，也可用 X menyebabkan masalah ini 表达动作。讨论尚未确认的原因时，可加 mungkin，避免把推测说成定论。"
+  }
+}

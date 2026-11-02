@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "eksperimen",
+    "syllables": "eks.pe.ri.men",
+    "ipa": "/eks.pe.ri.men/",
+    "jawi": "ايکسڤيريمن",
+    "frequency_rank": 3502,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "eksperimen",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + eksperimen → eksperimen",
+    "pattern_note": "外来词整词作为词根；开头两个 e 读 /e/。ber- 接元音开头的词根时保留，meN- 在此实现为 meng-，词根不删音。",
+    "word_family": [
+      {
+        "word": "bereksperimen",
+        "affix": "ber-",
+        "gloss": "进行实验；作试验"
+      },
+      {
+        "word": "mengeksperimenkan",
+        "affix": "meN-...-kan",
+        "gloss": "对某对象或设想进行实验"
+      }
+    ],
+    "root_jawi": "ايکسڤيريمن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "实验；为检验假设、观察现象或确定某种效果而有计划地进行的测试或研究。",
+      "en_definition": "A planned test or investigation carried out to test a hypothesis or establish an effect.",
+      "ms_definition": "Ujian atau penyelidikan yang dirancang, khususnya untuk menguji sesuatu hipotesis.",
+      "nuances": "本条选取科学实验这一核心义。eksperimen 是名词，“做实验”通常说 menjalankan eksperimen 或进行派生动词 bereksperimen；实验用于检验假设，结果也可能不支持假设。词义参见 [DBP：eksperimen](https://prpm.dbp.gov.my/Cari1?d=206468&keyword=eksperimen)。",
+      "collocations": [
+        {
+          "ms": "menjalankan eksperimen",
+          "zh": "进行实验",
+          "en": "conduct an experiment"
+        },
+        {
+          "ms": "keputusan eksperimen",
+          "zh": "实验结果",
+          "en": "experimental results"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "学校实验报告 / 科研汇报",
+      "ms": "Pasukan penyelidik menjalankan eksperimen untuk menguji kesan suhu terhadap kadar pertumbuhan bakteria.",
+      "zh": "研究团队进行了实验，以检验温度对细菌生长速率的影响。",
+      "en": "The research team conducted an experiment to test the effect of temperature on bacterial growth rates."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论实验进度",
+      "ms_spoken": "Kau dah siap buat eksperimen kat makmal tadi ke?",
+      "ms_standard": "Adakah kamu sudah selesai menjalankan eksperimen di makmal tadi?",
+      "zh": "你刚才在实验室做完实验了吗？",
+      "en": "Did you finish the experiment in the lab earlier?",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "kat 对应地点介词 di。",
+        "句末 ke 对应标准疑问形式 adakah。",
+        "buat eksperimen 是日常说法，正式报告常用 menjalankan eksperimen。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Kau dah siap buat eksperimen kat makmal tadi ke?",
+          "ms_standard": "Adakah kamu sudah selesai menjalankan eksperimen di makmal tadi?",
+          "zh": "你刚才在实验室做完实验了吗？",
+          "en": "Did you finish the experiment in the lab earlier?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Dah, tinggal nak tulis keputusan je. Nanti aku hantar gambar.",
+          "ms_standard": "Sudah, saya hanya perlu menulis keputusannya. Saya akan menghantar gambar nanti.",
+          "zh": "做完了，就剩写结果。等下我发照片给你。",
+          "en": "Yes, I just need to write up the results. I'll send you a photo later."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "属于中性科学用语，可用于课堂、研究及职场讨论。询问进度时可用 Sudah selesai menjalankan eksperimen?，对教师则采用相应称呼。",
+    "usage_etiquette": "正式报告宜说明实验目的、方法和结果；仅凭一次实验结果，不宜笼统宣称某假设已获最终证明。"
+  },
+  "etymology": {
+    "historical_story": "eksperimen 属于现代科学词汇中的国际借词，与英语 experiment 等词相对应；这一国际词族可追溯到表示“试验、检验”的拉丁语 experimentum，参见 [Dictionary.com：experiment 词源](https://www.dictionary.com/browse/experiment)。进入马来语后，它既用于科学实验，也用于尝试新方法；本条集中呈现科学实验义。",
+    "cognitive_memory_aid": "把它与英语 experiment 配对，再想象一张“提出假设 → 动手测试 → 记录结果”的实验记录表。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "属于中性科学用语，可用于课堂、研究及职场讨论。询问进度时可用 Sudah selesai menjalankan eksperimen?，对教师则采用相应称呼。",
+    "usage_etiquette": "正式报告宜说明实验目的、方法和结果；仅凭一次实验结果，不宜笼统宣称某假设已获最终证明。"
+  }
+}

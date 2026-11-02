@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "berikannya",
+    "syllables": null,
+    "ipa": "/bə.ri.kan.ɲa/",
+    "jawi": "برايکن",
+    "frequency_rank": 3365,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "berikan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "berikan + -nya → berikannya；berikan = beri + -kan",
+    "pattern_note": "按词包保留 root_word=berikan，作为直接词干；最底层词根为 beri。-nya 是附着代词，此处指已提及的给予对象，读 /ɲa/，与前面的 /n/ 分属不同音节；标准分音节为 be.ri.kan.nya。词包的 jawi 与 root_jawi 均原样保留，但不适用于这里的“给予”义：该义 berikan 应写 بريکن，berikannya 应写 بريکنڽ。",
+    "word_family": [
+      {
+        "word": "beri",
+        "affix": "∅",
+        "gloss": "给；交付"
+      },
+      {
+        "word": "memberikan",
+        "affix": "meN-...-kan",
+        "gloss": "给予；把某物交给某人"
+      },
+      {
+        "word": "diberikan",
+        "affix": "di-...-kan",
+        "gloss": "被给予；被交付"
+      },
+      {
+        "word": "pemberian",
+        "affix": "peN-...-an",
+        "gloss": "赠予；赠品"
+      }
+    ],
+    "root_jawi": "برايکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把前文提及的东西交给或给予某人；常用于指令，其中 -nya 指代所给予的东西。",
+      "en_definition": "Give or hand it over, with -nya referring to the previously mentioned thing being given.",
+      "ms_definition": "Menyerahkan sesuatu yang telah disebut kepada seseorang; -nya merujuk kepada sesuatu yang diserahkan itu.",
+      "nuances": "这是 berikan 与附着代词 -nya 的组合，常见于请求或指令，例如 Berikannya kepada saya。-nya 在此代替所给予的东西，接收者可用 kepada 引出，不表示过去时。词包中的“有鱼；寻找或捕捉鱼”属于另一个同形词 berikan（ber- + ikan），不适用于本条核心义；本条按 beri 的“给予”义解释，参见 [DBP beri 词条](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=beri)。",
+      "collocations": [
+        {
+          "ms": "berikannya kepada saya",
+          "zh": "把它交给我",
+          "en": "give it to me"
+        },
+        {
+          "ms": "berikannya secara percuma",
+          "zh": "把它免费送出",
+          "en": "give it away for free"
+        },
+        {
+          "ms": "berikannya kepada orang yang memerlukan",
+          "zh": "把它送给有需要的人",
+          "en": "give it to someone in need"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场文件交接",
+      "ms": "Sila semak dokumen itu dan berikannya kepada pegawai yang bertugas sebelum pukul lima petang.",
+      "zh": "请检查那份文件，并在下午五点前交给值班人员。",
+      "en": "Please check the document and give it to the officer on duty before five o'clock this afternoon."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事交接文件",
+      "ms_spoken": "Fail tu dah siap. Tolong berikannya kat Amir, ya.",
+      "ms_standard": "Fail itu sudah siap. Tolong berikannya kepada Amir, ya.",
+      "zh": "那份文件已经准备好了，麻烦交给阿米尔哦。",
+      "en": "The file's ready. Please pass it to Amir, okay?",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式",
+        "dah 是 sudah 的口语缩略形式",
+        "kat 在这里口语化地代替 kepada",
+        "ya 缓和请求语气",
+        "berikannya 较完整、偏书面；更随意的交谈也常说 beri fail tu 或 bagi fail tu"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail tu dah siap. Tolong berikannya kat Amir sebelum balik, ya.",
+          "ms_standard": "Fail itu sudah siap. Tolong berikannya kepada Amir sebelum pulang, ya.",
+          "zh": "那份文件准备好了，回去前麻烦交给阿米尔哦。",
+          "en": "The file's ready. Please pass it to Amir before you leave, okay?"
+        },
+        {
+          "speaker": "Nadia (同事)",
+          "ms_spoken": "Boleh. Aku nak jumpa dia kejap lagi.",
+          "ms_standard": "Boleh. Saya hendak berjumpa dengannya sebentar lagi.",
+          "zh": "行，我一会儿正好要见他。",
+          "en": "Sure. I'm seeing him in a little while."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "单独使用 Berikannya! 可能显得生硬。向同事、长辈或陌生人提出请求时，可加 tolong 或 sila，并说明接收者。",
+    "usage_etiquette": "先明确提及所交付的东西，再用 -nya 回指，避免对方不清楚“它”是什么。正式主动陈述通常使用 memberikannya；指令可以使用 berikannya。"
+  },
+  "etymology": {
+    "historical_story": "这个词建立在马来语 beri（给、交付）之上，保留了把东西从一方交到另一方的基本意义。beri 加 -kan 构成 berikan，再接 -nya 回指已经提及的东西，于是形成“把它交给……”的表达；这里的 beri 不能拆成 ber- 与 ikan。给予义参见 [DBP beri 词条](https://prpm.dbp.gov.my/Cari1?d=371752&keyword=beri)。",
+    "cognitive_memory_aid": "想象桌上有一份刚提过的文件：beri 是“给”，berikan 是“交给”，末尾 -nya 像一根指向文件的箭头，合起来就是“把它交给……”。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "单独使用 Berikannya! 可能显得生硬。向同事、长辈或陌生人提出请求时，可加 tolong 或 sila，并说明接收者。",
+    "usage_etiquette": "先明确提及所交付的东西，再用 -nya 回指，避免对方不清楚“它”是什么。正式主动陈述通常使用 memberikannya；指令可以使用 berikannya。"
+  }
+}

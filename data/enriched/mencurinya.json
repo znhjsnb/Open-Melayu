@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "mencurinya",
+    "syllables": null,
+    "ipa": "/mən.tʃu.ri.ɲa/",
+    "jawi": "منچوري",
+    "frequency_rank": 4211,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "mencuri",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "mencuri + -nya → mencurinya；基础构词：meN- + curi → mencuri",
+    "pattern_note": "-nya 在这里是附着于动词后的宾语代词，不是派生后缀；接合时 mencuri 的拼写不变。基础词 curi 接 meN- 时采用 men-，保留 c。完整词可分为 men.cu.ri.nya；输入音节字段为空，故保留 null。输入爪夷文 منچوري 对应 mencuri，完整 mencurinya 写作 منچوريڽ。",
+    "word_family": [
+      {
+        "word": "mencuri",
+        "affix": "meN-",
+        "gloss": "偷窃"
+      },
+      {
+        "word": "pencuri",
+        "affix": "peN-",
+        "gloss": "窃贼"
+      },
+      {
+        "word": "kecurian",
+        "affix": "ke-…-an",
+        "gloss": "遭窃；失窃"
+      }
+    ],
+    "root_jawi": "منچوري"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "未经物主许可，把前文所指的东西偷走；偷它。",
+      "en_definition": "To steal the previously mentioned thing; to take it without its owner's permission.",
+      "ms_definition": "Mengambil barang yang telah disebut tanpa kebenaran pemiliknya, dengan -nya merujuk kepada barang tersebut.",
+      "nuances": "这是 mencuri 加宾语代词 -nya 的形式；本义项中的 -nya 指被偷的东西，不表示物主的性别，也不自动表示过去时。应先交代所指物品；mencurinya 后通常不再紧接重复指称同一物品的名词宾语。词义依据 [DBP：mencuri](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=mencuri)；代词连写规则见 [DBP：马来语拼写指南](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "dituduh mencurinya",
+          "zh": "被指控偷走该物",
+          "en": "accused of stealing it"
+        },
+        {
+          "ms": "cuba mencurinya",
+          "zh": "试图偷走它",
+          "en": "try to steal it"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 职场失物报告",
+      "ms": "Sebuah komputer riba dilaporkan hilang dari pejabat itu, dan seorang pekerja disyaki mencurinya.",
+      "zh": "该办公室据报遗失了一台笔记本电脑，一名员工被怀疑偷走了它。",
+      "en": "A laptop was reported missing from the office, and an employee is suspected of stealing it."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友寻找失物",
+      "ms_spoken": "Telefon tu hilang, tapi jangan terus tuduh orang mencurinya lah.",
+      "ms_standard": "Telefon itu hilang, tetapi jangan terus menuduh seseorang mencurinya.",
+      "zh": "手机是不见了，可别一上来就说是别人偷的啦。",
+      "en": "The phone's missing, but don't jump to accusing someone of stealing it.",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "tuduh 在口语中省去标准主动式 menuduh 的前缀。",
+        "句末 lah 在这里带有劝阻语气，实际强弱取决于语调。",
+        "mencurinya 较偏书面；随意交谈中也常说 curi telefon tu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Telefon tu hilang, tapi jangan terus tuduh orang mencurinya lah.",
+          "ms_standard": "Telefon itu hilang, tetapi jangan terus menuduh seseorang mencurinya.",
+          "zh": "手机是不见了，可别一上来就说是别人偷的啦。",
+          "en": "The phone's missing, but don't jump to accusing someone of stealing it."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, aku nak cari kat bilik mesyuarat dulu. Mungkin tertinggal je.",
+          "ms_standard": "Ya, saya hendak mencarinya di bilik mesyuarat dahulu. Mungkin telefon itu hanya tertinggal di situ.",
+          "zh": "嗯，我想先去会议室找找，说不定只是落在那儿了。",
+          "en": "Yeah, I'll check the meeting room first. Maybe it was just left there."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "直接说某人 mencurinya 是明确的偷窃指控。尚未查明时，可用 disyaki mencurinya（被怀疑偷走该物），并清楚区分怀疑与已确认的事实。",
+    "usage_etiquette": "先说明遗失的是手机、钱包或其他物品，再用 -nya 回指。与不熟悉的人交谈或提交报告时，保留完整拼写 mencurinya。"
+  },
+  "etymology": {
+    "historical_story": "这个词的构词来源可以沿着 curi → mencuri → mencurinya 理解：curi 表示偷窃，meN- 将它构成主动动词，-nya 再接回前文所指的东西。其基础动词的意义也扩展到 mencuri pandang（偷看一眼）等表达，但本条保留实际偷取物品的核心意义。[DBP：mencuri](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=mencuri)",
+    "cognitive_memory_aid": "想象一句话先点出 telefon itu（那部手机），下一句用 -nya 把它接回来：mencuri 是“偷”，mencurinya 就是“偷走它”。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "直接说某人 mencurinya 是明确的偷窃指控。尚未查明时，可用 disyaki mencurinya（被怀疑偷走该物），并清楚区分怀疑与已确认的事实。",
+    "usage_etiquette": "先说明遗失的是手机、钱包或其他物品，再用 -nya 回指。与不熟悉的人交谈或提交报告时，保留完整拼写 mencurinya。"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "kargo",
+    "syllables": "kar.go",
+    "ipa": "/kar.ɡo/",
+    "jawi": "کرݢو",
+    "frequency_rank": 4129,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kargo",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kargo → kargo",
+    "pattern_note": "借词，整词作为独立词素记忆；按 kar.go 两个音节读，不能把末尾 -go 当作马来语词缀。词族示例为复合表达。",
+    "word_family": [
+      {
+        "word": "kapal kargo",
+        "affix": "∅",
+        "gloss": "货船"
+      },
+      {
+        "word": "pesawat kargo",
+        "affix": "∅",
+        "gloss": "货运飞机"
+      }
+    ],
+    "root_jawi": "کرݢو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "由船舶、飞机或其他运输工具运载的货物。",
+      "en_definition": "Goods carried by a ship, aircraft, or other vehicle.",
+      "ms_definition": "Barang-barang yang dibawa atau diangkut oleh kapal laut, kapal terbang atau kenderaan lain.",
+      "nuances": "常用于物流、运输和贸易语境，重点是作为运输载荷的货物，不指运费本身。在 kapal kargo 等组合中，kargo 说明运输工具的货运用途。",
+      "collocations": [
+        {
+          "ms": "kargo udara",
+          "zh": "空运货物",
+          "en": "air cargo"
+        },
+        {
+          "ms": "memunggah kargo",
+          "zh": "卸货",
+          "en": "to unload cargo"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "物流通报 / 职场汇报",
+      "ms": "Semua kargo akan diperiksa sebelum dimuatkan ke dalam pesawat.",
+      "zh": "所有货物在装上飞机前都将接受检查。",
+      "en": "All cargo will be inspected before being loaded onto the aircraft."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 物流同事交流",
+      "ms_spoken": "Kargo tu dah sampai kat gudang ke?",
+      "ms_standard": "Adakah kargo itu sudah tiba di gudang?",
+      "zh": "那批货已经到仓库了吗？",
+      "en": "Has that shipment reached the warehouse yet?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "dah 是 sudah 的口语形式。",
+        "kat 对应表示位置的 di。",
+        "句末 ke 在口语中构成是非问句。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (物流同事)",
+          "ms_spoken": "Kargo tu dah sampai kat gudang ke?",
+          "ms_standard": "Adakah kargo itu sudah tiba di gudang?",
+          "zh": "那批货到仓库了吗？",
+          "en": "Has that shipment reached the warehouse yet?"
+        },
+        {
+          "speaker": "Amir (仓库同事)",
+          "ms_spoken": "Dah sampai. Kita nak semak dokumen dulu sebelum turunkan barang.",
+          "ms_standard": "Kargo itu sudah tiba. Kami hendak menyemak dokumen dahulu sebelum menurunkan barang.",
+          "zh": "到了。我们要先核对文件，再卸货。",
+          "en": "It's here. We'll check the paperwork before unloading it."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "属于中性的物流用语。向客户查询时，可说 Boleh saya tahu status kargo ini?，语气比直接催问更礼貌。",
+    "usage_etiquette": "物流沟通最好附上运单号或批次号，明确所指货物。询问运费可用 caj pengangkutan 或 kos penghantaran；kargo 本身指货物。"
+  },
+  "etymology": {
+    "historical_story": "与 kargo 对应的英语 cargo 源自西班牙语 cargo，意为载荷，并可追溯到表示装载的 cargar。这个词族保留了把货物装上运输工具的画面；现代马来语 kargo 的范围包括船运、空运及其他车辆运载的货物，具体借入马来语的路径不在此作断言。[词源资料](https://www.etymonline.com/word/cargo)",
+    "cognitive_memory_aid": "想象起重机把一箱箱货物吊进货舱：被运走的整批货是 kargo，运它的船则是 kapal kargo。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "属于中性的物流用语。向客户查询时，可说 Boleh saya tahu status kargo ini?，语气比直接催问更礼貌。",
+    "usage_etiquette": "物流沟通最好附上运单号或批次号，明确所指货物。询问运费可用 caj pengangkutan 或 kos penghantaran；kargo 本身指货物。"
+  }
+}

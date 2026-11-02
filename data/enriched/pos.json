@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "pos",
+    "syllables": "pos",
+    "ipa": "/pos/",
+    "jawi": "ڤوس",
+    "frequency_rank": 3379,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pos",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pos → pos",
+    "pattern_note": "单音节借词，整词记忆。添加 meN- 时采用 menge-，保留词首 p：menge- + pos → mengepos。",
+    "word_family": [
+      {
+        "word": "mengepos",
+        "affix": "meN-",
+        "gloss": "邮寄"
+      },
+      {
+        "word": "pengeposan",
+        "affix": "peN-...-an",
+        "gloss": "邮寄过程或业务"
+      }
+    ],
+    "root_jawi": "ڤوس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "邮政；递送信件、包裹等物品的服务或系统。",
+      "en_definition": "The service or system for collecting and delivering letters and parcels.",
+      "ms_definition": "Sistem atau perkhidmatan menghantar surat, bungkusan dan sebagainya.",
+      "nuances": "本义项指邮政服务。melalui pos 表示“通过邮寄”；pejabat pos 指邮局。口语常直接用 pos 作动词，如 pos barang；正式书面语宜用 mengepos 或 mengeposkan。",
+      "collocations": [
+        {
+          "ms": "melalui pos",
+          "zh": "通过邮寄",
+          "en": "by post"
+        },
+        {
+          "ms": "perkhidmatan pos",
+          "zh": "邮政服务",
+          "en": "postal service"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 申请材料递交",
+      "ms": "Pemohon hendaklah menghantar dokumen asal melalui pos sebelum tarikh tutup permohonan.",
+      "zh": "申请人须在申请截止日期前通过邮寄递交文件原件。",
+      "en": "Applicants must send the original documents by post before the application deadline."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论寄送文件",
+      "ms_spoken": "Hantar melalui pos je, tak payah datang sini.",
+      "ms_standard": "Hantar melalui pos sahaja; tidak perlu datang ke sini.",
+      "zh": "邮寄过来就行，不用特地跑来。",
+      "en": "Just send it by post. You don't need to come over.",
+      "spoken_features": [
+        "je 是 sahaja 的口语形式，表示“就行、而已”。",
+        "tak payah 对应标准语中的 tidak perlu。",
+        "口语中常省略 sini 前的方向介词 ke。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Borang ni nak hantar melalui pos ke?",
+          "ms_standard": "Adakah borang ini perlu dihantar melalui pos?",
+          "zh": "这张表是要邮寄过去吗？",
+          "en": "Does this form need to be sent by post?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, melalui pos je. Tak payah pergi sana.",
+          "ms_standard": "Ya, hantar melalui pos sahaja. Tidak perlu pergi ke sana.",
+          "zh": "对，邮寄就行，不用跑过去。",
+          "en": "Yes, just send it by post. No need to go there."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "向工作人员询问邮寄安排时，可用 Boleh saya…? 或 请示式的 Bolehkah…?，例如 Boleh saya hantar melalui pos?",
+    "usage_etiquette": "正式通知宜说明寄送方式与截止条件；寄出日期和收件日期含义不同，应明确采用哪一项。"
+  },
+  "etymology": {
+    "historical_story": "pos 借自英语 post，进入马来语后以简短的单音节形式表示邮政服务。[词源参考](https://en.wiktionary.org/wiki/pos#Malay)。从邮局柜台到投递路线，这个词的核心始终是让信件和包裹抵达收件人。",
+    "cognitive_memory_aid": "把英语 post 末尾的 t 收起来，就得到 pos；想象一封信投入邮筒，再记住 melalui pos＝通过邮寄。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "向工作人员询问邮寄安排时，可用 Boleh saya…? 或 请示式的 Bolehkah…?，例如 Boleh saya hantar melalui pos?",
+    "usage_etiquette": "正式通知宜说明寄送方式与截止条件；寄出日期和收件日期含义不同，应明确采用哪一项。"
+  }
+}

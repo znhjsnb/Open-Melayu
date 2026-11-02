@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "saman",
+    "syllables": "sa.man",
+    "ipa": "/sa.man/",
+    "jawi": "سامن",
+    "frequency_rank": 3962,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sam",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + saman → saman（整词借入）",
+    "pattern_note": "is_root 与 root_word 保留资料包标注；实际构词应将 saman 视为独立借词，不能拆成 sam + -an。派生 menyaman 时，meN- 与词首 s 结合，s 脱落并形成 ny。",
+    "word_family": [
+      {
+        "word": "menyaman",
+        "affix": "meN-",
+        "gloss": "向某人发出传票；起诉"
+      },
+      {
+        "word": "disaman",
+        "affix": "di-",
+        "gloss": "被传唤；被起诉"
+      }
+    ],
+    "root_jawi": "سامن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "正式要求某人到法庭应诉或受审的命令或文书；传票。",
+      "en_definition": "An official order or document requiring someone to appear in court to answer a case or charge.",
+      "ms_definition": "Perintah rasmi yang menuntut seseorang hadir ke mahkamah untuk didakwa; surat panggilan untuk diadili.",
+      "nuances": "本条采用资料包及 [DBP 词条](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=saman)中的传票义。日常交通语境中的 kena saman 常表示被开罚单，bayar saman 常指缴付相关罚款；翻译时应按语境区分传票、罚单与罚款。",
+      "collocations": [
+        {
+          "ms": "menerima saman",
+          "zh": "收到传票",
+          "en": "to receive a summons"
+        },
+        {
+          "ms": "mengeluarkan saman",
+          "zh": "发出传票",
+          "en": "to issue a summons"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 案件进展汇报",
+      "ms": "Defendan telah menerima saman yang menghendakinya hadir ke mahkamah pada tarikh yang dinyatakan.",
+      "zh": "被告已收到传票，须于指定日期到庭。",
+      "en": "The defendant has received a summons requiring them to appear in court on the specified date."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈收到的文件",
+      "ms_spoken": "Aku dah terima saman mahkamah tu. Risau pula nak baca.",
+      "ms_standard": "Saya sudah menerima saman mahkamah itu dan berasa bimbang untuk membacanya.",
+      "zh": "我已经收到那张法院传票了，读起来还有点忐忑。",
+      "en": "I've received that court summons. I'm a bit nervous about reading it.",
+      "spoken_features": [
+        "aku 是熟人之间常用的第一人称代词。",
+        "dah 是 sudah 的口语缩略形式。",
+        "tu 是 itu 的口语形式。",
+        "nak 是 hendak 的口语形式；pula 在此带出随之产生的不安。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah terima saman mahkamah tu. Risau pula nak baca.",
+          "ms_standard": "Saya sudah menerima saman mahkamah itu dan berasa bimbang untuk membacanya.",
+          "zh": "我已经收到那张法院传票了，读起来还有点忐忑。",
+          "en": "I've received that court summons. I'm a bit nervous about reading it."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kalau kau nak, kita baca sama-sama je nanti.",
+          "ms_standard": "Jika kamu mahu, kita boleh membacanya bersama-sama nanti.",
+          "zh": "你愿意的话，待会儿我们一起看吧。",
+          "en": "If you like, we can read it together later."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "涉及他人的案件或罚单时，宜用中性语气。kau kena saman 常见于熟人交谈；对不熟悉的人可用 Adakah encik atau puan menerima saman?",
+    "usage_etiquette": "正式沟通应说明文件或事项，例如 saman mahkamah 或 saman trafik，避免只说 saman 而让听者猜测。Saya akan saman awak 意为我会起诉你，带有明显的对抗意味。"
+  },
+  "etymology": {
+    "historical_story": "saman 通常解释为英语 summons，即传票的借词；这个联系见于 [词源说明](https://en.wiktionary.org/wiki/saman#English)。英语的法律文书名称进入马来语后，形成了便于本地发音的双音节词 saman。在日常交通用语中，人们又常用它指相关罚单，并在 bayar saman 等表达中指向罚款。",
+    "cognitive_memory_aid": "想象一封写着姓名、法院和到庭日期的正式信件：它在叫你到庭，这就是 saman。把整个 sa.man 连在一起记，不把末尾 an 当作后缀。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "涉及他人的案件或罚单时，宜用中性语气。kau kena saman 常见于熟人交谈；对不熟悉的人可用 Adakah encik atau puan menerima saman?",
+    "usage_etiquette": "正式沟通应说明文件或事项，例如 saman mahkamah 或 saman trafik，避免只说 saman 而让听者猜测。Saya akan saman awak 意为我会起诉你，带有明显的对抗意味。"
+  }
+}

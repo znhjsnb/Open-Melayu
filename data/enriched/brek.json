@@ -1,0 +1,111 @@
+{
+  "headword": {
+    "word": "brek",
+    "syllables": "brek",
+    "ipa": "/brek/",
+    "jawi": "بريک",
+    "frequency_rank": 4077,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "brek",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + brek → brek",
+    "pattern_note": "单音节借词，保留起首辅音群 br-；e 读 /e/，不是弱元音 /ə/。构成 membrek 时，借词起首 b 保留，meN- 实现为 mem-。",
+    "word_family": [
+      {
+        "word": "membrek",
+        "affix": "meN-",
+        "gloss": "刹车；操作制动器"
+      },
+      {
+        "word": "membrekkan",
+        "affix": "meN-...-kan",
+        "gloss": "使车辆减速或停下"
+      }
+    ],
+    "root_jawi": "بريک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "使车辆减速或停止的装置；制动器；刹车。",
+      "en_definition": "A device used to slow or stop a vehicle; a brake.",
+      "ms_definition": "Alat untuk menghentikan gerakan atau mengurangkan kelajuan kenderaan.",
+      "nuances": "brek 本身是装置名称；标准语中，表示刹车动作可用 membrek 或 menekan brek。口语也可直接说 brek dulu。不要与英语 break（休息；打破）混淆。",
+      "collocations": [
+        {
+          "ms": "menekan brek",
+          "zh": "踩刹车",
+          "en": "apply the brakes"
+        },
+        {
+          "ms": "brek tangan",
+          "zh": "手刹",
+          "en": "handbrake"
+        },
+        {
+          "ms": "pad brek",
+          "zh": "刹车片",
+          "en": "brake pad"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场车辆管理 / 检查通知",
+      "ms": "Semua kenderaan syarikat akan menjalani pemeriksaan sistem brek sebelum digunakan untuk perjalanan jauh.",
+      "zh": "所有公司车辆在用于长途行驶前，都将接受制动系统检查。",
+      "en": "All company vehicles will have their braking systems inspected before being used for long journeys."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论车辆维修",
+      "ms_spoken": "Brek kereta aku dah mula berbunyi lah.",
+      "ms_standard": "Brek kereta saya sudah mula mengeluarkan bunyi.",
+      "zh": "我车子的刹车开始有异响了。",
+      "en": "My car's brakes have started making a noise.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "句末 lah 在此加强告知和抱怨的语气。",
+        "nak 对应 mahu 或 hendak；聊天中常使用紧凑、省略的句式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Brek kereta aku dah mula berbunyi lah. Aku nak hantar ke bengkel.",
+          "ms_standard": "Brek kereta saya sudah mula mengeluarkan bunyi. Saya mahu menghantar kereta itu ke bengkel.",
+          "zh": "我车子的刹车开始有异响了。我想送去修车厂。",
+          "en": "My car's brakes have started making a noise. I'm going to take it to a workshop."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bengkel dekat rumah aku buka lagi. Nak nombor telefon dia?",
+          "ms_standard": "Bengkel berhampiran rumah saya masih dibuka. Adakah kamu mahu nombor telefon bengkel itu?",
+          "zh": "我家附近那家修车厂还开着。要它的电话号码吗？",
+          "en": "The workshop near my house is still open. Want their number?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "属于中性日常和技术用语，与修车人员沟通时可以直接使用。询问检查服务可说 Boleh tolong periksa brek kereta saya?",
+    "usage_etiquette": "在马来西亚，brek 和 brek tangan 都是常用说法。描述车辆问题时，可进一步说明是有异响、制动力不足，还是踏板感觉异常，帮助对方理解具体情况。"
+  },
+  "etymology": {
+    "historical_story": "brek 借自英语 brake，拼写按马来语习惯简化，成为日常交通词汇。这个借词随后也能接受马来语词缀，形成 membrek 和 membrekkan；其英语借词身份见 [《Dewan Bahasa》](https://eseminar.dbp.gov.my/majalah/2020/db82020/files/basic-html/page16.html)，派生形式见 [DBP 词条](https://prpm.dbp.gov.my/cari1?keyword=brek)。",
+    "cognitive_memory_aid": "把英语 brake 与马来语 brek 连在一起记：脚踩下去，车辆慢下来；brek 是装置，membrek 是动作。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "属于中性日常和技术用语，与修车人员沟通时可以直接使用。询问检查服务可说 Boleh tolong periksa brek kereta saya?",
+    "usage_etiquette": "在马来西亚，brek 和 brek tangan 都是常用说法。描述车辆问题时，可进一步说明是有异响、制动力不足，还是踏板感觉异常，帮助对方理解具体情况。"
+  }
+}

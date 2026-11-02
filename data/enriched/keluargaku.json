@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "keluargaku",
+    "syllables": null,
+    "ipa": "/kəluarɡaku/",
+    "jawi": "کلوارݢ",
+    "frequency_rank": 3271,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "keluarga",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "keluarga + -ku → keluargaku（我的家人）",
+    "pattern_note": "-ku 是 aku 的附着形式，在名词后表示第一人称单数领属；此处按字段归为 suffix，严格说属于后附代词，不是派生后缀。连接时词根不变，连写且不用连字符。输入音节为空，故保留 null；输入爪夷文含异常控制字符 U+0081，且未体现 -ku，现按包保留，不能视为已核实的完整拼写。[连写规则：DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau)",
+    "word_family": [
+      {
+        "word": "berkeluarga",
+        "affix": "ber-",
+        "gloss": "成家；有家庭"
+      },
+      {
+        "word": "kekeluargaan",
+        "affix": "ke-...-an",
+        "gloss": "亲属关系；家庭情谊"
+      }
+    ],
+    "root_jawi": "کلوارݢ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "我的家人；与说话者有家庭或亲属关系的人。",
+      "en_definition": "My family; the people related to me through family ties.",
+      "ms_definition": "Keluarga atau kaum kerabat aku.",
+      "nuances": "在 keluarga 的亲属义基础上加 -ku，明确表示“我的”；具体可指直系家人或较广的亲属，范围由语境决定。它表示人及其家庭关系，不单指住宅。带有 aku 的个人语气，常见于亲密表达、叙事和抒情文字；日常口语也常说 keluarga aku，正式交流通常用 keluarga saya。",
+      "collocations": [
+        {
+          "ms": "ahli keluargaku",
+          "zh": "我的家庭成员",
+          "en": "members of my family"
+        },
+        {
+          "ms": "bersama keluargaku",
+          "zh": "与我的家人在一起",
+          "en": "with my family"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sokongan keluargaku menjadi pendorong utama sepanjang pengajian ini.",
+      "zh": "在这段求学期间，家人的支持一直是我最主要的动力。",
+      "en": "My family's support has been my main source of motivation throughout my studies."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Keluargaku dah sampai kat stesen. Aku nak pergi jemput mereka.",
+      "ms_standard": "Keluargaku sudah tiba di stesen. Aku hendak pergi menjemput mereka.",
+      "zh": "我家人已经到车站了，我要去接他们。",
+      "en": "My family's arrived at the station. I'm going to pick them up.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "kat 在此相当于地点介词 di。",
+        "nak 是 hendak 的口语形式。",
+        "keluargaku 保留连写形式；随意交谈时也常说 keluarga aku。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Keluargaku dah sampai kat stesen. Aku nak pergi jemput mereka.",
+          "ms_standard": "Keluargaku sudah tiba di stesen. Aku hendak pergi menjemput mereka.",
+          "zh": "我家人到车站了，我要去接他们。",
+          "en": "My family's at the station now. I'm going to pick them up."
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Okey, aku ikut sekali lah. Kita naik kereta aku je.",
+          "ms_standard": "Baiklah, aku ikut bersama. Kita menaiki kereta aku sahaja.",
+          "zh": "行啊，我跟你一起去。我们就坐我的车吧。",
+          "en": "Okay, I'll come along. Let's just take my car."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "-ku 带有 aku 的个人和亲近语气，并不自动构成失礼；面向上司、客户或初次见面的人介绍家人时，keluarga saya 通常更稳妥。",
+    "usage_etiquette": "适合用于个人叙事、日记、歌词及亲密交流。称呼对方家人时，应根据关系选择 keluarga awak、keluarga anda 或 keluarga tuan/puan，不能沿用表示“我的”的 -ku。"
+  },
+  "etymology": {
+    "historical_story": "keluarga 的历史构成与梵语来源的 kula（家族）和 varga（群体）有关，可以想象成由亲属组成的一群人；这些成分究竟在借入前还是在群岛语言中组合，尚不能完全确定。现代马来语把 keluarga 作为整体词根，再接上 aku 的附着形式 -ku，就把“家人”拉近为“我的家人”。[历史构成参考：WOLD](https://wold.clld.org/word/71261839391642536)；[代词形式参考：DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau)。",
+    "cognitive_memory_aid": "想象一张全家福：keluarga 是照片里的家人，右下角签上 -ku，便成为“我的家人”。把 -ku 与 aku 联想记忆。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "-ku 带有 aku 的个人和亲近语气，并不自动构成失礼；面向上司、客户或初次见面的人介绍家人时，keluarga saya 通常更稳妥。",
+    "usage_etiquette": "适合用于个人叙事、日记、歌词及亲密交流。称呼对方家人时，应根据关系选择 keluarga awak、keluarga anda 或 keluarga tuan/puan，不能沿用表示“我的”的 -ku。"
+  }
+}

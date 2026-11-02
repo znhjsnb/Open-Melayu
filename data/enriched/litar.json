@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "litar",
+    "syllables": "li.tar",
+    "ipa": "/li.tar/",
+    "jawi": "ليتار",
+    "frequency_rank": 3749,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "litar",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + litar → litar",
+    "pattern_note": "独立词根，无需拆分词缀；加 -an 可形成 litaran。",
+    "word_family": [
+      {
+        "word": "litaran",
+        "affix": "-an",
+        "gloss": "回路；循环"
+      },
+      {
+        "word": "litar pintas",
+        "affix": null,
+        "gloss": "短路；与 pintas 构成的复合术语"
+      }
+    ],
+    "root_jawi": "ليتار"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "由导线及电气元件构成、供电流流通的电路或回路。",
+      "en_definition": "An arrangement of conductors and electrical components forming a path for electric current.",
+      "ms_definition": "Susunan pengalir dan peranti yang membentuk laluan bagi arus elektrik.",
+      "nuances": "本条选取电学义。litar tertutup 表示路径完整、可让电流流通的闭合电路；litar terbuka 表示路径断开。litar pintas 是异常的低电阻通路。“赛车道”属于另一个义项。参见 [DBP：litar](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=litar)。",
+      "collocations": [
+        {
+          "ms": "litar elektrik",
+          "zh": "电路",
+          "en": "electrical circuit"
+        },
+        {
+          "ms": "litar pintas",
+          "zh": "短路",
+          "en": "short circuit"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "技术报告 / 设施维护",
+      "ms": "Juruteknik telah memeriksa litar elektrik di bangunan itu untuk mengenal pasti punca gangguan bekalan.",
+      "zh": "技术人员已检查该建筑的电路，以查明供电中断的原因。",
+      "en": "The technician inspected the building's electrical circuits to identify the cause of the power disruption."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 学校科学作业",
+      "ms_spoken": "Litar ni dah siap, tapi lampu tak menyala lah.",
+      "ms_standard": "Litar ini sudah siap, tetapi lampunya tidak menyala.",
+      "zh": "这个电路接好了，可是灯不亮啊。",
+      "en": "This circuit's ready, but the bulb won't light up.",
+      "spoken_features": [
+        "ni 是 ini 的口语形式。",
+        "dah 和 tak 分别对应 sudah 和 tidak。",
+        "lah 在此表达轻微困惑或无奈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (同学)",
+          "ms_spoken": "Litar ni dah siap, tapi lampu tak menyala lah.",
+          "ms_standard": "Litar ini sudah siap, tetapi lampunya tidak menyala.",
+          "zh": "这个电路接好了，可是灯不亮啊。",
+          "en": "This circuit's ready, but the bulb won't light up."
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Cuba tengok bateri tu. Mungkin dah habis je.",
+          "ms_standard": "Cuba periksa bateri itu. Mungkin bateri itu sudah kehabisan kuasa.",
+          "zh": "看看那个电池，可能只是没电了。",
+          "en": "Check the battery. It might just be flat."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "该词是中性的技术用语，适合课堂、工作和日常交流，没有特殊称谓限制。",
+    "usage_etiquette": "首次向非专业听众解释时可说 litar elektrik。描述故障时区分 litar pintas（短路）和 litar terbuka（开路），避免混用。"
+  },
+  "etymology": {
+    "historical_story": "词典把“环绕、周围”与电流回路、赛车道等意义收在 litar 之下，呈现出围绕一条路线运行的共同意象。这可以帮助理解各义项的联系，但现有资料没有确定其最早来源，也不足以断言这些意义的历史发展顺序。",
+    "cognitive_memory_aid": "想象电池、导线和灯泡连成一圈：电流有完整的路可走，就是一个闭合的 litar。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "该词是中性的技术用语，适合课堂、工作和日常交流，没有特殊称谓限制。",
+    "usage_etiquette": "首次向非专业听众解释时可说 litar elektrik。描述故障时区分 litar pintas（短路）和 litar terbuka（开路），避免混用。"
+  }
+}

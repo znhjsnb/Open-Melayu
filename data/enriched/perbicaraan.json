@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "perbicaraan",
+    "syllables": "per.bi.ca.ra.an",
+    "ipa": "/pərbitʃara.an/",
+    "jawi": "ڤربيچاراءن",
+    "frequency_rank": 4043,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "perbicaraan",
+    "affix": "per-...-an",
+    "affix_type": "circumfix",
+    "formula": "per- + bicara + -an → perbicaraan",
+    "pattern_note": "root_word 按要求保留输入包原值，但该值是整词索引，并非实际词基；实际词基为 bicara（بيچارا）。输入包的 is_root: true 与可辨识的派生结构不符，故改为 false。词基末尾 a 与后缀 -an 的 a 分属两个音节，不合并。",
+    "word_family": [
+      {
+        "word": "bicara",
+        "affix": null,
+        "gloss": "言谈；商议；诉讼案件"
+      },
+      {
+        "word": "berbicara",
+        "affix": "ber-",
+        "gloss": "交谈；商议"
+      },
+      {
+        "word": "membicarakan",
+        "affix": "meN-...-kan",
+        "gloss": "讨论；审理案件"
+      },
+      {
+        "word": "pembicaraan",
+        "affix": "peN-...-an",
+        "gloss": "谈话；讨论"
+      }
+    ],
+    "root_jawi": "ڤربيچاراءن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "法院对案件进行审理的程序或过程；庭审。",
+      "en_definition": "A trial: the judicial examination of a case in a court of law.",
+      "ms_definition": "pengadilan sesuatu perkara di mahkamah",
+      "nuances": "指法院审案的过程，并不等于裁决或定罪。现代马来西亚用法中，通常与表示谈话、讨论的 pembicaraan 区分；perbicaraan jenayah 是刑事审判，perbicaraan sivil 是民事审理。[DBP：perbicaraan](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=perbicaraan)",
+      "collocations": [
+        {
+          "ms": "menangguhkan perbicaraan",
+          "zh": "推迟庭审",
+          "en": "to postpone a trial"
+        },
+        {
+          "ms": "perbicaraan kes jenayah",
+          "zh": "刑事案件审判",
+          "en": "the trial of a criminal case"
+        },
+        {
+          "ms": "tarikh perbicaraan",
+          "zh": "开庭日期",
+          "en": "trial date"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 法院消息",
+      "ms": "Mahkamah menetapkan tarikh baharu bagi perbicaraan kes itu selepas seorang saksi utama tidak dapat hadir.",
+      "zh": "由于一名关键证人无法出庭，法院为该案重新确定了庭审日期。",
+      "en": "The court set a new trial date for the case after a key witness was unable to attend."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人确认庭审安排",
+      "ms_spoken": "Perbicaraan tu dah habis ke?",
+      "ms_standard": "Adakah perbicaraan itu sudah selesai?",
+      "zh": "那场庭审结束了吗？",
+      "en": "Is the trial over yet?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式",
+        "dah 是 sudah 的口语形式",
+        "句末 ke 表示疑问",
+        "tak 是 tidak 的口语形式",
+        "nak 是 hendak 的口语形式"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (姐姐)",
+          "ms_spoken": "Perbicaraan tu dah habis ke? Esok kau nak pergi mahkamah lagi?",
+          "ms_standard": "Adakah perbicaraan itu sudah selesai? Adakah kamu hendak pergi ke mahkamah lagi esok?",
+          "zh": "那场庭审结束了吗？你明天还要去法院吗？",
+          "en": "Is the trial over yet? Are you going back to court tomorrow?"
+        },
+        {
+          "speaker": "Amir (弟弟)",
+          "ms_spoken": "Belum lagi. Perbicaraan sambung minggu depan, jadi esok aku tak pergi.",
+          "ms_standard": "Belum selesai. Perbicaraan akan disambung pada minggu hadapan, jadi saya tidak akan pergi esok.",
+          "zh": "还没呢，下周继续审，所以我明天不去。",
+          "en": "Not yet. The trial resumes next week, so I’m not going tomorrow."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "abbr": "dah",
+      "full_form": "sudah",
+      "note": "日常口语及私人短信常用，如 perbicaraan dah selesai；正式文件写 sudah。"
+    },
+    {
+      "abbr": "tak",
+      "full_form": "tidak",
+      "note": "日常口语常用否定形式；并非 perbicaraan 的缩写。正式司法文书使用 tidak。"
+    }
+  ],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "谈及他人的庭审时应保持中立，避免把受审者直接称为罪犯；涉及私人案件，可先确认对方是否愿意谈论。",
+    "usage_etiquette": "司法新闻、案件通知及正式汇报可直接使用 perbicaraan。aku、kau 适用于关系亲近且彼此接受的交流；面对法院工作人员或不熟悉的人，宜使用 saya 及适当称谓。"
+  },
+  "etymology": {
+    "historical_story": "词基 bicara 在马来语中具有意见、商议、言谈及法院案件等相互关联的含义。per-...-an 将它构成过程名词，而现代 perbicaraan 的核心意义固定在法院审案这一领域，呈现出从言语商议到司法审理的语义联系。[DBP：bicara](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=bicara)",
+    "cognitive_memory_aid": "想象法庭上各方围绕案件陈述和辩论：bicara 提醒你“说、议”，per-...-an 把整个审理过程框起来，成为 perbicaraan。记住它是庭审过程，结果另用 keputusan 表达。"
+  },
+  "sociolinguistic_register": {
+    "register": "formal",
+    "politeness_note": "谈及他人的庭审时应保持中立，避免把受审者直接称为罪犯；涉及私人案件，可先确认对方是否愿意谈论。",
+    "usage_etiquette": "司法新闻、案件通知及正式汇报可直接使用 perbicaraan。aku、kau 适用于关系亲近且彼此接受的交流；面对法院工作人员或不熟悉的人，宜使用 saya 及适当称谓。"
+  }
+}

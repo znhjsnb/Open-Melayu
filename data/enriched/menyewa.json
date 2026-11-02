@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "menyewa",
+    "syllables": "me.nye.wa",
+    "ipa": "/mə.ɲe.wa/",
+    "jawi": "مڽيوا",
+    "frequency_rank": 4437,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sewa",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + sewa → menyewa",
+    "pattern_note": "输入包将 menyewa 误判为词根，此处校正为 sewa。meN- 接以 s 开头的本族化词根时，通常以 meny- 实现并脱落词根首音 s；ny 表示 /ɲ/，sewa 的 e 读 /e/。",
+    "word_family": [
+      {
+        "word": "penyewa",
+        "affix": "peN-",
+        "gloss": "租客；承租人"
+      },
+      {
+        "word": "menyewakan",
+        "affix": "meN-...-kan",
+        "gloss": "出租给他人"
+      }
+    ],
+    "root_jawi": "سيوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "租用；支付租金以使用他人的房屋、车辆或其他物品。",
+      "en_definition": "To obtain the use of property or an item in return for rent or a hire charge.",
+      "ms_definition": "Menggunakan atau meminjam sesuatu dengan membayar sewa.",
+      "nuances": "通常从承租方角度叙述，可直接接宾语。出租方让他人付费使用，一般用 menyewakan；英语 rent 可能涵盖双方，翻译时须区分。[DBP 词条](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=sewa)",
+      "collocations": [
+        {
+          "ms": "menyewa rumah",
+          "zh": "租房",
+          "en": "to rent a house"
+        },
+        {
+          "ms": "menyewa kereta",
+          "zh": "租车",
+          "en": "to hire a car"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 办公场地安排",
+      "ms": "Syarikat bercadang untuk menyewa ruang pejabat berhampiran stesen pengangkutan awam.",
+      "zh": "公司计划在公共交通站点附近租用办公空间。",
+      "en": "The company plans to rent office space near a public transport station."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论租房",
+      "ms_spoken": "Aku nak menyewa bilik kat sini je.",
+      "ms_standard": "Aku mahu menyewa bilik di sini sahaja.",
+      "zh": "我就想在这边租个房间。",
+      "en": "I just want to rent a room around here.",
+      "spoken_features": [
+        "nak 是 hendak 或 mahu 的常见口语对应形式。",
+        "kat 在此对应地点介词 di。",
+        "je 对应 sahaja；menyewa 在口语中也可保留完整形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak menyewa bilik kat sini je.",
+          "ms_standard": "Aku mahu menyewa bilik di sini sahaja.",
+          "zh": "我就想在这边租个房间。",
+          "en": "I just want to rent a room around here."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah tanya tuan rumah berapa sewa sebulan?",
+          "ms_standard": "Adakah kamu sudah bertanya kepada tuan rumah berapa kadar sewa bulanan?",
+          "zh": "问过房东一个月租金多少了吗？",
+          "en": "Have you asked the landlord how much the monthly rent is?"
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "中性用语，适用于日常交流及正式文件。向房东询问时可用 Boleh saya tahu kadar sewanya?，即“请问租金是多少？”",
+    "usage_etiquette": "说明租赁安排时宜交代租用对象、租期和费用。明确区分 saya menyewa rumah（我租用房屋）与 saya menyewakan rumah（我把房屋出租）。"
+  },
+  "etymology": {
+    "historical_story": "从词义结构看，sewa 是围绕付费使用事物形成的基础词：它既可指租用关系，也可指所付租金。加上主动前缀 meN- 后，menyewa 把视角放在支付租金、取得使用权的人身上；现有核对材料未确定 sewa 更早的语言来源。",
+    "cognitive_memory_aid": "想象租客付钱后拿到钥匙：menyewa 是自己租来用，menyewakan 是把自己的东西租给别人。记形时把 sewa 开头的 s 换成 ny，再接上 me-。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "中性用语，适用于日常交流及正式文件。向房东询问时可用 Boleh saya tahu kadar sewanya?，即“请问租金是多少？”",
+    "usage_etiquette": "说明租赁安排时宜交代租用对象、租期和费用。明确区分 saya menyewa rumah（我租用房屋）与 saya menyewakan rumah（我把房屋出租）。"
+  }
+}

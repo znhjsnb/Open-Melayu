@@ -1,0 +1,96 @@
+{
+  "headword": {
+    "word": "pin",
+    "syllables": "pin",
+    "ipa": "/pin/",
+    "jawi": "ڤين",
+    "frequency_rank": 4228,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pin",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pin → pin",
+    "pattern_note": "英语 personal identification number 的首字母缩略词，整体读作 /pin/，没有马来语词缀。表示个人识别码时通常写作 PIN；不与表示别针的同形词混作一个词族。",
+    "word_family": [],
+    "root_jawi": "ڤين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "个人识别码；用于验证用户身份、授权访问账户、设备或服务的保密数字代码。",
+      "en_definition": "A personal identification number: a secret numerical code used to authenticate a user accessing an account, device, or service.",
+      "ms_definition": "Nombor pengenalan peribadi, iaitu kod angka rahsia yang digunakan untuk mengesahkan identiti pengguna.",
+      "nuances": "本条按词包选取缩略词义，通常写作 PIN，并非“别针”或“保龄球瓶”。kod PIN 是自然常见的表达；PIN 的具体位数取决于系统，不能一概认定为四位或六位。[DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=pin)",
+      "collocations": [
+        {
+          "ms": "memasukkan PIN",
+          "zh": "输入个人识别码",
+          "en": "enter a PIN"
+        },
+        {
+          "ms": "menukar PIN",
+          "zh": "更改个人识别码",
+          "en": "change a PIN"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pengguna perlu memasukkan PIN untuk mengesahkan transaksi tersebut.",
+      "zh": "用户须输入个人识别码以验证该笔交易。",
+      "en": "Users must enter their PIN to authenticate the transaction."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku dah lupa PIN kad ni lah.",
+      "ms_standard": "Saya sudah terlupa PIN kad ini.",
+      "zh": "我忘了这张卡的密码啦。",
+      "en": "I've forgotten the PIN for this card.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "ni 对应 ini",
+        "lah 在这里表达懊恼或强调当前状况",
+        "tak 对应 tidak"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku dah lupa PIN kad ni lah.",
+          "ms_standard": "Saya sudah terlupa PIN kad ini.",
+          "zh": "我忘了这张卡的密码啦。",
+          "en": "I've forgotten the PIN for this card."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kalau tak ingat, semak cara tetapkan semula PIN kat laman rasmi bank dulu.",
+          "ms_standard": "Jika kamu tidak mengingatinya, semak cara menetapkan semula PIN di laman sesawang rasmi bank terlebih dahulu.",
+          "zh": "想不起来的话，先上银行官网看看怎么重设吧。",
+          "en": "If you can't remember it, check the bank's official website for instructions on resetting it first."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "PIN 属于个人保密信息；即使是亲友，也不应随意要求对方透露。提供操作帮助时，让持有人自行输入。",
+    "usage_etiquette": "正式文件和界面一般使用大写 PIN。聊天时可以讨论输入、更改或重设 PIN 的步骤，但不应把真实代码发给他人；PIN 也不等同于一次性验证码 OTP。"
+  },
+  "etymology": {
+    "historical_story": "PIN 由英语 personal identification number 的三个首字母组成，进入马来语后保留了“个人识别码”的技术含义。它把一长串身份验证术语压缩成一个可直接读出的短词；这里的词源与表示别针的英语 pin 无关。[DBP PRPM](https://prpm.dbp.gov.my/cari1?keyword=pin)",
+    "cognitive_memory_aid": "记住三个字母：P 是 personal（个人），I 是 identification（识别），N 是 number（号码）；想象在键盘上输入一串只有自己知道的数字。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "PIN 属于个人保密信息；即使是亲友，也不应随意要求对方透露。提供操作帮助时，让持有人自行输入。",
+    "usage_etiquette": "正式文件和界面一般使用大写 PIN。聊天时可以讨论输入、更改或重设 PIN 的步骤，但不应把真实代码发给他人；PIN 也不等同于一次性验证码 OTP。"
+  }
+}
