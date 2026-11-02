@@ -1,0 +1,107 @@
+{
+  "headword": {
+    "word": "menafikan",
+    "syllables": "me.na.fi.kan",
+    "ipa": "/mə.na.fi.kan/",
+    "jawi": "منافيکن",
+    "frequency_rank": 4798,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "nafikan",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + nafikan → menafikan；完整构词：meN- + nafi + -kan → menafikan",
+    "pattern_note": "root_word 按数据包保留近层词基 nafikan；词典词根实际为 nafi。meN- 在 n 前取 me-，原有 n 保留；nafikan 本身含后缀 -kan。root_jawi 按指定缺省规则沿用词头字形，实际词根 nafi 写作 نفي。",
+    "word_family": [
+      {
+        "word": "nafi",
+        "affix": "∅",
+        "gloss": "否定；否认"
+      },
+      {
+        "word": "penafian",
+        "affix": "peN-…-an",
+        "gloss": "否认；否定的行为或声明"
+      }
+    ],
+    "root_jawi": "منافيکن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "否认某项说法、指控或事实，表示不承认其真实性。",
+      "en_definition": "To deny the truth of a statement, allegation, or fact.",
+      "ms_definition": "Tidak mengakui atau menerima sesuatu sebagai benar; menidakkan atau menyangkal.",
+      "nuances": "通常直接接所否认的内容，如 tuduhan，或接 bahawa 引导的从句。menafikan 本身不表示该说法已被证伪；tidak menafikan 则常表示承认某一点。词根及释义依据 [DBP 的 nafi 词条](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=nafi)。",
+      "collocations": [
+        {
+          "ms": "menafikan tuduhan",
+          "zh": "否认指控",
+          "en": "deny an allegation"
+        },
+        {
+          "ms": "menafikan penglibatan",
+          "zh": "否认参与",
+          "en": "deny involvement"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻：转述机构回应",
+      "ms": "Jurucakap syarikat itu menafikan dakwaan bahawa data pelanggan telah dijual kepada pihak ketiga.",
+      "zh": "该公司发言人否认了有关客户数据已被出售给第三方的说法。",
+      "en": "The company spokesperson denied the allegation that customer data had been sold to a third party."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp：同事谈论工作群中的传言",
+      "ms_spoken": "Dia dah menafikan tuduhan tu dalam grup, tapi kita tunggu penjelasan penuh dulu.",
+      "ms_standard": "Dia sudah menafikan tuduhan itu dalam kumpulan sembang, tetapi kita perlu menunggu penjelasan penuh terlebih dahulu.",
+      "zh": "他已经在群里否认那个指控了，不过咱们还是先等完整说明吧。",
+      "en": "He's already denied the allegation in the group chat, but let's wait for the full explanation.",
+      "spoken_features": [
+        "dah 对应 sudah，tu 对应 itu。",
+        "grup 是聊天中常用的借词，此处对应 kumpulan sembang。",
+        "tapi 和 dulu 分别对应 tetapi 和 terlebih dahulu。",
+        "谈论正式指控时，口语中也可保留完整动词 menafikan。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (熟悉的同事)",
+          "ms_spoken": "Kau dah baca mesej dia kat grup?",
+          "ms_standard": "Awak sudah membaca mesejnya dalam kumpulan sembang?",
+          "zh": "你看过他在群里发的消息了吗？",
+          "en": "Have you read his message in the group chat?"
+        },
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Dah. Dia menafikan tuduhan tu, tapi kita tunggu penjelasan penuh dulu.",
+          "ms_standard": "Sudah. Dia menafikan tuduhan itu, tetapi kita perlu menunggu penjelasan penuh terlebih dahulu.",
+          "zh": "看了。他否认了那个指控，不过咱们先等完整说明吧。",
+          "en": "Yes. He denied the allegation, but let's wait for the full explanation."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "这个词常用于声明或争议语境。礼貌反驳时可先准确复述对方的说法，再说明所否认的具体部分。",
+    "usage_etiquette": "用于否认指控、说法或参与情况。拒绝邀请或提议通常用 menolak；转述他人否认时，应明确是谁作出的回应。"
+  },
+  "etymology": {
+    "historical_story": "nafi 源自阿拉伯语 nafy，核心意思是否定或否认，DBP 将其标为阿拉伯语借词。进入马来语后，它与本族构词成分结合，形成 menafikan 和 penafian，用于表达否认某项说法及作出否认的行为。",
+    "cognitive_memory_aid": "把 nafi 想成贴在一项说法上的“不承认”标签；menafikan 就是主动给这项说法贴上标签，但标签本身并不能证明事实。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "这个词常用于声明或争议语境。礼貌反驳时可先准确复述对方的说法，再说明所否认的具体部分。",
+    "usage_etiquette": "用于否认指控、说法或参与情况。拒绝邀请或提议通常用 menolak；转述他人否认时，应明确是谁作出的回应。"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "headword": {
+    "word": "pendakwa",
+    "syllables": null,
+    "ipa": "/pən.daʔ.wa/",
+    "jawi": "ڤندعوا",
+    "frequency_rank": 4904,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dakwa",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + dakwa → pendakwa",
+    "pattern_note": "peN- 在词首 d 前变为 pen-，保留 d，构成表示行为执行者的名词。",
+    "word_family": [
+      {
+        "word": "mendakwa",
+        "affix": "meN-",
+        "gloss": "起诉；声称"
+      },
+      {
+        "word": "dakwaan",
+        "affix": "-an",
+        "gloss": "指控；声称"
+      },
+      {
+        "word": "pendakwaan",
+        "affix": "peN-...-an",
+        "gloss": "起诉；检控"
+      }
+    ],
+    "root_jawi": "دعوا"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "向法庭提出指控或诉求的人或一方；在刑事案件中通常指检控人员或控方。",
+      "en_definition": "A person or party bringing an accusation or claim before a court, especially a prosecutor in criminal proceedings.",
+      "ms_definition": "Orang atau pihak yang mendakwa.",
+      "nuances": "常见于法庭报道和法律语境。pihak pendakwa 指控方整体；pendakwa raya 指代表政府提出检控的人员。该词说明诉讼角色，本身不表示被指控者已经有罪。释义参见 [DBP：dakwa](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=dakwa)。",
+      "collocations": [
+        {
+          "ms": "pihak pendakwa",
+          "zh": "控方",
+          "en": "the prosecution"
+        },
+        {
+          "ms": "pendakwa raya",
+          "zh": "检察官；公诉人",
+          "en": "public prosecutor"
+        },
+        {
+          "ms": "timbalan pendakwa raya",
+          "zh": "副检察官",
+          "en": "deputy public prosecutor"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 法庭报道",
+      "ms": "Pihak pendakwa akan memanggil tiga orang saksi untuk memberikan keterangan di mahkamah esok.",
+      "zh": "控方明天将传召三名证人出庭作证。",
+      "en": "The prosecution will call three witnesses to testify in court tomorrow."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论新闻",
+      "ms_spoken": "Pendakwa tu dah panggil saksi ke?",
+      "ms_standard": "Adakah pendakwa itu sudah memanggil saksi?",
+      "zh": "那个检察官已经传召证人了吗？",
+      "en": "Has that prosecutor called the witnesses yet?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "dah 是 sudah 的口语形式。",
+        "句末 ke 用于口语是非问句。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Pendakwa tu dah panggil saksi ke?",
+          "ms_standard": "Adakah pendakwa itu sudah memanggil saksi?",
+          "zh": "那个检察官已经传召证人了吗？",
+          "en": "Has that prosecutor called the witnesses yet?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Belum lagi. Dalam berita tadi, katanya pendakwa nak panggil tiga orang saksi esok.",
+          "ms_standard": "Belum lagi. Menurut laporan berita tadi, pendakwa akan memanggil tiga orang saksi esok.",
+          "zh": "还没。刚才新闻说，检察官明天会传召三名证人。",
+          "en": "Not yet. The news just said the prosecutor plans to call three witnesses tomorrow."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "formal",
+    "politeness_note": "讨论案件时宜使用中性称谓，如 pihak pendakwa。正式称呼具体人员时，可按身份使用 Tuan、Puan 或其职衔。",
+    "usage_etiquette": "报道控方说法时可用 menurut pihak pendakwa。区分控方提出的指控与法院已经作出的裁决，避免把诉讼主张写成确定事实。"
+  },
+  "etymology": {
+    "historical_story": "词根 dakwa 借自阿拉伯语 daʿwā，原有诉求、诉讼等含义，进入马来语后保留了提出指控和主张的语义。马来语再加上表示行为执行者的 peN-，形成 pendakwa，把提出诉求的行为转化为法庭中承担这一角色的人或一方。借词来源参见 [阿拉伯语借词研究](https://www.pertanika.upm.edu.my/resources/files/Pertanika%20PAPERS/JSSH%20Vol.%2023%20%283%29%20Sep.%202015/08%20JSSH%201102-2014.pdf)。",
+    "cognitive_memory_aid": "把 dakwa 想成一份向法庭提出的指控，再给它配上一个拿着文件的人：peN- + dakwa → pendakwa，提出指控的人。"
+  },
+  "sociolinguistic_register": {
+    "register": "formal",
+    "politeness_note": "讨论案件时宜使用中性称谓，如 pihak pendakwa。正式称呼具体人员时，可按身份使用 Tuan、Puan 或其职衔。",
+    "usage_etiquette": "报道控方说法时可用 menurut pihak pendakwa。区分控方提出的指控与法院已经作出的裁决，避免把诉讼主张写成确定事实。"
+  }
+}

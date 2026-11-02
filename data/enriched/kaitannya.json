@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "kaitannya",
+    "syllables": "kai.tan.nya",
+    "ipa": "/kai̯.tan.ɲa/",
+    "jawi": "کاءيتن",
+    "frequency_rank": 4947,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kaitan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "kaitan + -nya → kaitannya",
+    "pattern_note": "按词包以 kaitan 为直接基词，更底层为 kait + -an；-nya 是后附代词，此处借 suffix 字段表示附着位置。词尾 n 与 nya 的 /ɲ/ 均保留。分音按完整词形补齐；词包 Jawi 仅对应 kaitan，完整形式应附加 ڽ，写作 کاءيتنڽ。",
+    "word_family": [
+      {
+        "word": "berkaitan",
+        "affix": "ber-",
+        "gloss": "有关联的"
+      },
+      {
+        "word": "mengaitkan",
+        "affix": "meN-...-kan",
+        "gloss": "把事物联系起来"
+      }
+    ],
+    "root_jawi": "کاءيتن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "某人或某事与另一人或事之间的联系、关联或相关性；具体指涉由上下文确定。",
+      "en_definition": "The connection or relevance of someone or something to another person, thing, or matter.",
+      "ms_definition": "Hubungan atau pertalian seseorang atau sesuatu dengan pihak, perkara atau hal lain yang dirujuk dalam konteks.",
+      "nuances": "-nya 回指语境中的对象，不能机械地一律译为“他的”。在 apa kaitannya 和 tiada kaitannya 中，中文常直接表达为“有什么关系”和“没有关系”；此处不取 kaitan 的钩织义。相关译例见[DBP 的 bearing 词条](https://prpmv1.dbp.gov.my/Search.aspx?k=pertalian)。",
+      "collocations": [
+        {
+          "ms": "kaitannya dengan isu tersebut",
+          "zh": "与该议题的关联",
+          "en": "its connection with that issue"
+        },
+        {
+          "ms": "tiada kaitannya",
+          "zh": "没有关系；毫不相关",
+          "en": "have no connection"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan itu menjelaskan punca pencemaran sungai serta kaitannya dengan kegiatan perindustrian di kawasan tersebut.",
+      "zh": "该报告说明了河流污染的原因，以及污染与该地区工业活动之间的关联。",
+      "en": "The report explains the causes of the river pollution and its connection with industrial activity in the area."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Apa kaitannya dengan aku? Aku baru sampai je.",
+      "ms_standard": "Apakah kaitannya dengan aku? Aku baru sahaja tiba.",
+      "zh": "这跟我有什么关系？我才刚到而已。",
+      "en": "What’s that got to do with me? I’ve only just arrived.",
+      "spoken_features": [
+        "apa 可直接置于句首构成口语疑问",
+        "je 是 sahaja 的口语形式",
+        "aku 适用于熟人之间，反问时可能显得强硬"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Apa kaitannya dengan aku? Aku baru sampai je.",
+          "ms_standard": "Apakah kaitannya dengan aku? Aku baru sahaja tiba.",
+          "zh": "这跟我有什么关系？我才刚到而已。",
+          "en": "What’s that got to do with me? I’ve only just arrived."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku tanya je, sebab nama kau ada kat senarai tu.",
+          "ms_standard": "Aku hanya bertanya kerana nama kamu terdapat dalam senarai itu.",
+          "zh": "我只是问问，因为名单上有你的名字。",
+          "en": "I’m just asking because your name’s on that list."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "Apa kaitannya dengan saya? 若语气生硬，容易被理解为推卸责任或不耐烦。希望礼貌询问时，可说 Boleh jelaskan kaitannya dengan perkara ini?",
+    "usage_etiquette": "使用 -nya 时应确保所指对象清楚；正式论述可补上 dengan 后的对象，明确是哪两件事之间的联系。"
+  },
+  "etymology": {
+    "historical_story": "kaitan 的词族以 kait（钩、钩住）为中心，让人把抽象关系理解为两件事彼此钩连。kaitannya 在 kaitan 后接 -nya，把这种联系指向上下文中已知的对象；后附代词连写的规则见[DBP 说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kamu+nya)。",
+    "cognitive_memory_aid": "想象两个环被钩在一起：kaitan 是“联系”，-nya 提醒你回头找“这是哪件事的联系”。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "Apa kaitannya dengan saya? 若语气生硬，容易被理解为推卸责任或不耐烦。希望礼貌询问时，可说 Boleh jelaskan kaitannya dengan perkara ini?",
+    "usage_etiquette": "使用 -nya 时应确保所指对象清楚；正式论述可补上 dengan 后的对象，明确是哪两件事之间的联系。"
+  }
+}

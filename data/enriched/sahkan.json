@@ -1,0 +1,106 @@
+{
+  "headword": {
+    "word": "sahkan",
+    "syllables": null,
+    "ipa": "/sah.kan/",
+    "jawi": "صح",
+    "frequency_rank": 5045,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sah",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "sah + -kan → sahkan",
+    "pattern_note": "后缀 -kan 直接接在 sah 后，h 保留，读作 sah.kan。输入未提供音节字段，故保留 null；输入 Jawi صح 对应词根 sah，完整 sahkan 的拼写为 صحکن。",
+    "word_family": [
+      {
+        "word": "mengesahkan",
+        "affix": "meN-…-kan",
+        "gloss": "确认；核实"
+      },
+      {
+        "word": "pengesahan",
+        "affix": "peN-…-an",
+        "gloss": "确认；认证"
+      }
+    ],
+    "root_jawi": "صح"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "确认或核实某项资料、事实或安排属实、准确或有效。",
+      "en_definition": "To confirm or verify that information, a fact, or an arrangement is correct or valid.",
+      "ms_definition": "Menentukan atau menyatakan bahawa sesuatu maklumat, perkara atau urusan itu benar, tepat atau sah.",
+      "nuances": "这是动词形式，不是形容词 sah 的“有效”义。sahkan 常见于指令、按钮文字，以及 saya sahkan 这类第一人称无前缀被动结构；正式主动陈述通常用 mengesahkan，如 Pegawai itu mengesahkan maklumat tersebut。政府操作手册也使用指令 Sahkan permohonan，见 [彭亨州相关用户手册](https://emunakahat.pahang.gov.my/fail/DOKUMEN_MANUAL_PENGGUNA_PEMOHON.pdf)。",
+      "collocations": [
+        {
+          "ms": "sahkan kehadiran",
+          "zh": "确认出席",
+          "en": "confirm attendance"
+        },
+        {
+          "ms": "sahkan maklumat",
+          "zh": "核实资料",
+          "en": "verify information"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila sahkan kehadiran tuan atau puan selewat-lewatnya pada hari Jumaat.",
+      "zh": "请阁下最迟于星期五确认是否出席。",
+      "en": "Please confirm your attendance by Friday at the latest."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tolong sahkan masa mesyuarat tu dulu, ya.",
+      "ms_standard": "Tolong sahkan waktu mesyuarat itu terlebih dahulu.",
+      "zh": "麻烦先确认一下那个会议时间哦。",
+      "en": "Please confirm the meeting time first, okay?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "dulu 在此表示 terlebih dahulu，即“先”。",
+        "句末 ya 缓和请求语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Amir, tolong sahkan masa mesyuarat tu dulu, ya. Pukul sepuluh ke?",
+          "ms_standard": "Amir, tolong sahkan waktu mesyuarat itu terlebih dahulu. Adakah mesyuarat itu pada pukul sepuluh?",
+          "zh": "Amir，麻烦先确认一下会议时间哦。是十点吗？",
+          "en": "Amir, could you confirm the meeting time first? Is it at ten?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, pukul sepuluh. Saya dah semak dengan bos tadi.",
+          "ms_standard": "Ya, mesyuarat itu pada pukul sepuluh. Saya sudah menyemaknya dengan ketua tadi.",
+          "zh": "对，十点。我刚才已经跟主管核对过了。",
+          "en": "Yes, ten o'clock. I checked with the boss earlier."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [],
+  "cultural_pragmatics": {
+    "register": "standard",
+    "politeness_note": "单独说 Sahkan… 带有指令感；向同事请求时加 tolong，正式通知用 sila，可使语气更得体。",
+    "usage_etiquette": "确认对象通常直接放在动词后，如 sahkan maklumat。正式主动句用 mengesahkan；sahkan 可用于祈使句或 Maklumat itu akan saya sahkan 这样的结构。"
+  },
+  "etymology": {
+    "historical_story": "词根 sah 借自阿拉伯语中表示“正确、成立”的词，进入马来语后用于表达真实或有效，相关来源见 [Pertanika 语言研究](https://oarep.usim.edu.my/server/api/core/bitstreams/b38963e9-99b5-417c-af79-7f0f570e28db/content)。它再接上马来语后缀 -kan，形成要求或执行“确认”这一动作的 sahkan，体现了外来词根融入本地构词体系的过程。",
+    "cognitive_memory_aid": "把 sah 想成文件上的“有效”印章，-kan 则让你执行盖章确认的动作：sah + kan → 确认。"
+  },
+  "sociolinguistic_register": {
+    "register": "standard",
+    "politeness_note": "单独说 Sahkan… 带有指令感；向同事请求时加 tolong，正式通知用 sila，可使语气更得体。",
+    "usage_etiquette": "确认对象通常直接放在动词后，如 sahkan maklumat。正式主动句用 mengesahkan；sahkan 可用于祈使句或 Maklumat itu akan saya sahkan 这样的结构。"
+  }
+}
