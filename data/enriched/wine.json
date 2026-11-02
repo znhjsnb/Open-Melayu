@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "wine",
+    "syllables": null,
+    "ipa": "/waɪn/",
+    "jawi": null,
+    "frequency_rank": 11557,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "wine",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + wine → wine（英语整词夹用；规范马来语对应词为 wain）",
+    "pattern_note": "英语单音节词，i 与末尾不发音的 e 共同对应双元音 /aɪ/；不可按马来语拼读规则读成两个音节。原包未提供音节划分或爪夷文，相关字段保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "【英语词，见于夹用语境】葡萄酒；通常由葡萄汁发酵制成的含酒精饮料。",
+      "en_definition": "An alcoholic drink made by fermenting grape juice.",
+      "ms_definition": "Wain, iaitu minuman beralkohol yang dibuat melalui penapaian jus anggur.",
+      "nuances": "wine 是英语拼写；规范马来语采用 wain，不能把两者视为可在正式马来语中任意互换的拼写。以下 wine merah、wine putih 属于英语词嵌入马来语的混合表达，正式形式分别为 wain merah、wain putih。本项仅处理饮料义。status 保留为所要求的条目字段，不代表 wine 已获 DBP 规范词认证。[DBP：wain](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=wain)",
+      "collocations": [
+        {
+          "ms": "wine merah",
+          "zh": "红葡萄酒；夹用表达，规范形式为 wain merah",
+          "en": "red wine"
+        },
+        {
+          "ms": "wine putih",
+          "zh": "白葡萄酒；夹用表达，规范形式为 wain putih",
+          "en": "white wine"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Istilah bahasa Inggeris 'wine' hendaklah diterjemahkan sebagai 'wain' dalam menu bahasa Melayu.",
+      "zh": "英语词 wine 在马来语菜单中应译为 wain。",
+      "en": "The English term 'wine' should be translated as 'wain' in the Malay-language menu."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dalam sos ni ada wine tak? Aku nak yang tanpa alkohol je.",
+      "ms_standard": "Adakah sos ini mengandungi wain? Saya hanya mahu sos tanpa alkohol.",
+      "zh": "这个酱里有葡萄酒吗？我只要不含酒精的。",
+      "en": "Is there wine in this sauce? I only want an alcohol-free one.",
+      "spoken_features": [
+        "wine 是英语词汇夹用，标准马来语对应 wain",
+        "ni 对应 ini",
+        "句末 tak 表示口语疑问",
+        "nak 对应 mahu，je 对应 sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Dalam sos ni ada wine tak? Aku nak yang tanpa alkohol je.",
+          "ms_standard": "Adakah sos ini mengandungi wain? Saya hanya mahu sos tanpa alkohol.",
+          "zh": "这个酱里有葡萄酒吗？我只要不含酒精的。",
+          "en": "Is there wine in this sauce? I only want an alcohol-free one."
+        },
+        {
+          "speaker": "Daniel (朋友)",
+          "ms_spoken": "Tak pasti lah. Kita tanya pelayan dulu, ya.",
+          "ms_standard": "Saya tidak pasti. Mari kita bertanya kepada pelayan terlebih dahulu.",
+          "zh": "我也不确定。我们先问问服务员吧。",
+          "en": "I'm not sure. Let's ask the server first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English wine continues Old English wīn and ultimately traces back to Latin vinum. Its spelling therefore belongs to English history, even when speakers insert it into a Malay sentence. Malay uses the adapted form wain. Keeping the forms distinct helps learners recognise an English insertion on a menu or in conversation and choose the standard Malay equivalent. [Merriam-Webster](https://scrabble.m-w.com/dictionary/wined), [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=wain)",
+    "cognitive_memory_aid": "wine 与马来语 wain 的读音相近：看见英语 wine，就联想到规范马来语 wain，再联想到葡萄酒。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "在马来西亚的多元社交环境中，先询问对方是否饮酒，尊重宗教、健康和个人选择；不要劝迫饮酒。",
+    "usage_etiquette": "用于菜单、餐饮说明和饮品讨论。涉及穆斯林宾客或清真餐饮时，应明确说明含酒精成分，并按宾客需求核实食材与餐饮安排。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "在马来西亚的多元社交环境中，先询问对方是否饮酒，尊重宗教、健康和个人选择；不要劝迫饮酒。",
+    "usage_etiquette": "用于菜单、餐饮说明和饮品讨论。涉及穆斯林宾客或清真餐饮时，应明确说明含酒精成分，并按宾客需求核实食材与餐饮安排。"
+  }
+}

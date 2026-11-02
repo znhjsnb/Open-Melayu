@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "kuduga",
+    "syllables": null,
+    "ipa": "/ku.du.ɡa/",
+    "jawi": null,
+    "frequency_rank": 11590,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "duga",
+    "affix": "ku-",
+    "affix_type": "prefix",
+    "formula": "ku- + duga → kuduga",
+    "pattern_note": "ku- 是 aku 的附着形式，不是派生词缀；与 duga 连写，词根首音 d 保留。常见于第一人称施事的被动结构，如 perkara yang kuduga。",
+    "word_family": [
+      {
+        "word": "menduga",
+        "affix": "meN-",
+        "gloss": "猜测；预测；试探"
+      },
+      {
+        "word": "dugaan",
+        "affix": "-an",
+        "gloss": "猜测；考验"
+      }
+    ],
+    "root_jawi": "دوݢ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "我所猜测、预料或推想；常用于表达事情符合或超出自己的预期。",
+      "en_definition": "Guessed, supposed, or anticipated by me; a form combining ku- with duga.",
+      "ms_definition": "Bentuk ku- bersama duga yang bermaksud sesuatu yang saya agak, sangka atau jangkakan.",
+      "nuances": "常见于 tidak kuduga、seperti yang kuduga 等表达，语气偏文学或抒情。日常交流通常说 saya sangka、aku ingat 或 tak sangka。ku- 的连写规则见 [DBP 语法答疑](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kubaca)，词根义见 [PRPM：duga](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=duga)。",
+      "collocations": [
+        {
+          "ms": "tidak kuduga",
+          "zh": "我没有料到",
+          "en": "I did not expect"
+        },
+        {
+          "ms": "seperti yang kuduga",
+          "zh": "正如我所料",
+          "en": "as I expected"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "由我试探、测试或检验，以了解性质、能力或程度。",
+      "en_definition": "Tested or probed by me to determine a quality, ability, or extent.",
+      "ms_definition": "Bentuk ku- bersama duga yang bermaksud sesuatu yang saya uji atau cuba untuk mengetahui sifat atau keupayaannya.",
+      "nuances": "这是 duga“测试”义与 ku- 的组合，须由宾语和上下文确定；单独出现时通常优先理解为“我预料”。参见 [PRPM：duga](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=duga)。",
+      "collocations": [
+        {
+          "ms": "kuduga kemampuannya",
+          "zh": "我试探其能力",
+          "en": "I test their ability"
+        },
+        {
+          "ms": "kuduga kesabarannya",
+          "zh": "我试探其耐心",
+          "en": "I test their patience"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "由我探测河流、海域等的水深。",
+      "en_definition": "Sounded by me to determine the depth of water.",
+      "ms_definition": "Bentuk ku- bersama duga yang bermaksud sungai, laut atau perairan lain yang saya ukur dalamnya.",
+      "nuances": "属于词根 duga 的测深义；现代一般交流少用 kuduga 表达此义，通常直接说 saya mengukur kedalamannya。参见 [PRPM：duga](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=duga)。",
+      "collocations": [
+        {
+          "ms": "sungai yang kuduga",
+          "zh": "我探测水深的河流",
+          "en": "the river whose depth I sound"
+        },
+        {
+          "ms": "laut yang kuduga",
+          "zh": "我探测水深的海域",
+          "en": "the sea whose depth I sound"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 正式人物专访",
+      "ms": "Dalam wawancara itu, beliau berkata, \"Pengiktirafan ini merupakan sesuatu yang tidak kuduga sama sekali.\"",
+      "zh": "他在专访中表示：“这份认可完全出乎我的意料。”",
+      "en": "In the interview, he said, \"This recognition was something I had never expected.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友分享获奖消息",
+      "ms_spoken": "Tak kuduga, kau dah menang!",
+      "ms_standard": "Tidak kuduga bahawa kamu sudah menang!",
+      "zh": "真没想到，你已经赢了！",
+      "en": "I never expected it—you've won!",
+      "spoken_features": [
+        "tak 是 tidak 的口语形式",
+        "dah 是 sudah 的口语形式",
+        "kuduga 在此带有刻意抒情、模仿歌词的语气；平常更常说 tak sangka"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tak kuduga, kau dah menang pertandingan tu!",
+          "ms_standard": "Tidak kuduga bahawa kamu sudah memenangi pertandingan itu!",
+          "zh": "没想到啊，你居然赢了那个比赛！",
+          "en": "I didn't see that coming—you won the competition!"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku pun tak sangka. Baru je dapat tahu!",
+          "ms_standard": "Saya juga tidak menyangkanya. Saya baru sahaja mendapat tahu!",
+          "zh": "我也没想到，刚刚才知道！",
+          "en": "Neither did I. I only just found out!"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kuduga is a grammatical combination rather than a separate inherited root. Its ku- represents aku, while duga covers guessing, testing, and sounding water. The dictionary's sounding weight offers a memorable cultural image: discovering something hidden beneath a surface. That image illustrates the meanings; it does not establish which meaning developed first. See [PRPM: duga](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=duga).",
+    "cognitive_memory_aid": "ku＝aku“我”，duga＝“猜、估量”：kuduga 就是“我所料”；tidak kuduga＝“我没料到”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ku- 对应 aku，带亲近、个人化或文学色彩。面对上司、客户或不熟悉的人，用 saya jangkakan 或 saya tidak menyangka 更稳妥。",
+    "usage_etiquette": "适用于诗歌、歌词、个人叙述和抒情引语。公文正文通常采用 saya、kami 或机构名称，清楚交代判断者。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ku- 对应 aku，带亲近、个人化或文学色彩。面对上司、客户或不熟悉的人，用 saya jangkakan 或 saya tidak menyangka 更稳妥。",
+    "usage_etiquette": "适用于诗歌、歌词、个人叙述和抒情引语。公文正文通常采用 saya、kami 或机构名称，清楚交代判断者。"
+  }
+}

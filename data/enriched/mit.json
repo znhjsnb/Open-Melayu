@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "mit",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11599,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mit",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + mit → mit（未消歧）；若指 MIT，则按机构简称整项记忆",
+    "pattern_note": "保留输入中的未分析形式；is_root 不表示已确认它是马来语词根。若为机构简称 MIT，应保留大写，不拆成马来语词根和词缀。上下文不足，暂不指定读音。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "未消歧的形式；若原文实际为机构简称 MIT，可指麻省理工学院，但不能仅凭小写 mit 确定这一释义。",
+      "en_definition": "An unresolved form; if it represents the institutional initialism MIT, one possible referent is the Massachusetts Institute of Technology.",
+      "ms_definition": "Bentuk yang belum dikenal pasti; jika merujuk kepada singkatan nama institusi MIT, salah satu kemungkinan ialah Massachusetts Institute of Technology.",
+      "nuances": "这是有来源支持的候选释读，不能直接确认为该输入的实际词义，故不标为 official。马来西亚高教部词汇表将 MIT 展开为 Massachusetts Institute of Technology。以下搭配仅适用于这一机构义，不代表小写 mit 已获词典认证。[马来西亚高教部：缩略语与词汇表](https://www.mohe.gov.my/muat-turun/manual-dan-garis-panduan/47-singkatan-dan-glosari-bagi-kpt-edisi-2016/file)",
+      "collocations": [
+        {
+          "ms": "penyelidik MIT",
+          "zh": "麻省理工学院研究人员",
+          "en": "MIT researchers"
+        },
+        {
+          "ms": "kemasukan ke MIT",
+          "zh": "麻省理工学院入学",
+          "en": "admission to MIT"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；简称核对",
+      "ms": "Sila semak sama ada bentuk 'mit' dalam dokumen ini merujuk kepada Massachusetts Institute of Technology, yang disingkatkan sebagai MIT.",
+      "zh": "请核对文件中的“mit”是否指简称为 MIT 的麻省理工学院。",
+      "en": "Please check whether 'mit' in this document refers to the Massachusetts Institute of Technology, abbreviated MIT."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；简称核对",
+      "ms_spoken": "'mit' kat sini maksudnya universiti MIT ke?",
+      "ms_standard": "Adakah bentuk 'mit' di sini merujuk kepada universiti MIT?",
+      "zh": "这里的“mit”是指 MIT 那所大学吗？",
+      "en": "Does 'mit' here mean MIT, the university?",
+      "spoken_features": [
+        "kat sini 对应 di sini。",
+        "ke 用作句末疑问标记。",
+        "dulu 对应 dahulu；tu 对应 itu。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (同学)",
+          "ms_spoken": "Aku nampak 'mit' kat artikel tu. Maksudnya universiti MIT ke?",
+          "ms_standard": "Saya melihat bentuk 'mit' dalam artikel itu. Adakah bentuk itu merujuk kepada universiti MIT?",
+          "zh": "我在那篇文章里看到“mit”，是指 MIT 那所大学吗？",
+          "en": "I saw 'mit' in that article. Does it mean MIT, the university?"
+        },
+        {
+          "speaker": "Hakim (同学)",
+          "ms_spoken": "Kena tengok nama penuhnya dulu. Singkatan tu belum tentu merujuk kepada universiti.",
+          "ms_standard": "Kita perlu melihat nama penuhnya dahulu. Singkatan itu tidak semestinya merujuk kepada universiti.",
+          "zh": "得先看全称，这个简称不一定指大学。",
+          "en": "We need to check the full name first. The abbreviation might mean something else."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Institutional initials often travel unchanged into Malay educational writing. Malaysia's higher-education glossary lists MIT for Massachusetts Institute of Technology, illustrating how an English institutional name can appear inside Malay prose. However, a lowercase corpus token loses useful capitalization. The packet alone cannot establish whether this occurrence is that initialism, another abbreviation or an unrelated form.",
+    "cognitive_memory_aid": "若确认指该校，就把 M、I、T 对应 Massachusetts、Institute、Technology；先查全称，再记简称，不把 mit 猜读成普通马来语单词。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式文件首次出现机构简称时宜列出全称，后文再用简称，方便不同背景的读者理解。",
+    "usage_etiquette": "只有上下文确认所指后，才采用 MIT 的机构义和大写形式；不要自动改成 miti、其他机构名或某个推测中的普通词。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式文件首次出现机构简称时宜列出全称，后文再用简称，方便不同背景的读者理解。",
+    "usage_etiquette": "只有上下文确认所指后，才采用 MIT 的机构义和大写形式；不要自动改成 miti、其他机构名或某个推测中的普通词。"
+  }
+}

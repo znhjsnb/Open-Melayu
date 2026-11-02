@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "bibirnya",
+    "syllables": null,
+    "ipa": "/bi.bir.ɲa/",
+    "jawi": "بيبير",
+    "frequency_rank": 11582,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bibir",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "bibir + -nya → bibirnya",
+    "pattern_note": "-nya 是附着于名词的第三人称领属附着词，表示他／她／它的；此处借用 suffix 分类。词根不发生音变，ny 读 /ɲ/。输入音节字段为空，故保留 null；headword.jawi 沿用输入的词根拼写，完整 bibirnya 写作 بيبيرڽ。",
+    "word_family": [
+      {
+        "word": "bibir",
+        "affix": null,
+        "gloss": "嘴唇；器物边缘"
+      },
+      {
+        "word": "berbibir",
+        "affix": "ber-",
+        "gloss": "有嘴唇；具有唇状边缘"
+      }
+    ],
+    "root_jawi": "بيبير"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他、她或它的嘴唇；具体指上唇、下唇还是双唇，由语境决定。",
+      "en_definition": "His, her, or its lip or lips.",
+      "ms_definition": "Bibir seseorang atau sesuatu haiwan yang dirujuk oleh kata ganti nama -nya.",
+      "nuances": "马来语不通过 -nya 区分性别或单复数。须根据前文确定所属者，不能一律译成“他的”。词根义参见 [DBP/PRPM：bibir](https://prpm.dbp.gov.my/Cari1?d=178260&keyword=bibir)。",
+      "collocations": [
+        {
+          "ms": "menggigit bibirnya",
+          "zh": "咬着自己的嘴唇",
+          "en": "to bite his or her lip"
+        },
+        {
+          "ms": "bibirnya kering",
+          "zh": "他／她的嘴唇干燥",
+          "en": "his or her lips are dry"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "它的口沿或边缘，尤指杯、碗等器物开口周围的部分。",
+      "en_definition": "Its rim, lip, or bordering edge.",
+      "ms_definition": "Bahagian tepi atau pinggir sesuatu benda yang dirujuk, khususnya di sekeliling bukaannya.",
+      "nuances": "将人体的“唇”延伸为器物的“口沿”；-nya 此时指代前文的器物。译文必须随指代对象调整。参见 [DBP/PRPM：bibir](https://prpm.dbp.gov.my/Cari1?d=178260&keyword=bibir)。",
+      "collocations": [
+        {
+          "ms": "cawan yang bibirnya sumbing",
+          "zh": "杯口有缺口的杯子",
+          "en": "a cup with a chipped rim"
+        },
+        {
+          "ms": "mangkuk yang bibirnya retak",
+          "zh": "碗沿有裂纹的碗",
+          "en": "a bowl with a cracked rim"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "借指他或她嘴上所说的话，常用于表示口头承诺或反复念叨的内容。",
+      "en_definition": "His or her lips as a figurative reference to speech or verbal expression.",
+      "ms_definition": "Secara kiasan, mulut atau tutur kata orang yang dirujuk.",
+      "nuances": "主要见于固定或半固定表达，并非所有语境都能将 bibirnya 直接替换为 kata-katanya。hanya di bibirnya 强调停留在口头；tidak lekang di bibirnya 表示经常挂在嘴边。参见 [DBP/PRPM：bibir](https://prpm.dbp.gov.my/Cari1?d=178260&keyword=bibir)。",
+      "collocations": [
+        {
+          "ms": "janji hanya di bibirnya",
+          "zh": "承诺只停留在他／她嘴上",
+          "en": "promises that are merely lip service"
+        },
+        {
+          "ms": "doa tidak lekang di bibirnya",
+          "zh": "他／她不断念着祷词",
+          "en": "prayers are always on his or her lips"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 事故通报",
+      "ms": "Mangsa mengalami kecederaan pada bibirnya akibat kemalangan tersebut.",
+      "zh": "伤者的嘴唇在该事故中受伤。",
+      "en": "The victim sustained an injury to the lip in the accident."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友交流",
+      "ms_spoken": "Bibirnya dah kering sangat, tapi dia tak nak pakai pelembap bibir.",
+      "ms_standard": "Bibirnya sudah sangat kering, tetapi dia tidak mahu menggunakan pelembap bibir.",
+      "zh": "她嘴唇都干成这样了，还是不肯涂润唇膏。",
+      "en": "Her lips are really dry, but she still won't use lip balm.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式。",
+        "tak nak 对应 tidak mahu。",
+        "朋友间更常说 bibir dia；bibirnya 也可用于聊天中的描述。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bibirnya dah kering sangat, tapi dia tak nak pakai pelembap bibir.",
+          "ms_standard": "Bibirnya sudah sangat kering, tetapi dia tidak mahu menggunakan pelembap bibir.",
+          "zh": "她嘴唇都干成这样了，还是不肯涂润唇膏。",
+          "en": "Her lips are really dry, but she still won't use lip balm."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Mungkin dia tak suka yang wangi tu. Tanya dia dulu lah.",
+          "ms_standard": "Mungkin dia tidak suka pelembap bibir yang berbau harum itu. Tanyalah dia terlebih dahulu.",
+          "zh": "可能她不喜欢那种有香味的，先问问她吧。",
+          "en": "Maybe she doesn't like the scented kind. Ask her first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bibir belongs to Malay's inherited Austronesian vocabulary: comparative evidence connects it with reconstructed *bibiR and related words across the region. Malay extends the bodily image of a lip to the rim of a vessel and, figuratively, to speech. Adding -nya identifies whose lips, or which object's rim, the speaker means. [Austronesian Comparative Dictionary](https://acd.clld.org/cognatesets/25515), [DBP/PRPM](https://prpm.dbp.gov.my/Cari1?d=178260&keyword=bibir)。",
+    "cognitive_memory_aid": "读 bi-bir 时，两次 /b/ 都要闭合双唇：用嘴唇发出的词，正好表示嘴唇；再接 -nya，就是他／她／它的。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是中性词。谈论他人的唇形、唇色或外貌时，仍需考虑关系亲疏，避免让描述变成冒犯性的外貌评价。",
+    "usage_etiquette": "正式叙述宜先交代人物或器物，再使用 -nya，确保指代清楚。直接对长辈或客户说“您的嘴唇”时，可使用 bibir puan、bibir tuan 等称谓。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是中性词。谈论他人的唇形、唇色或外貌时，仍需考虑关系亲疏，避免让描述变成冒犯性的外貌评价。",
+    "usage_etiquette": "正式叙述宜先交代人物或器物，再使用 -nya，确保指代清楚。直接对长辈或客户说“您的嘴唇”时，可使用 bibir puan、bibir tuan 等称谓。"
+  }
+}

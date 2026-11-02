@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "serious",
+    "syllables": null,
+    "ipa": "/ˈsɪə.ri.əs/",
+    "jawi": null,
+    "frequency_rank": 11584,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "serious",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + serious → serious",
+    "pattern_note": "这是英语整词在马来语交谈中的语码转换形式，不按马来语词缀拆分；规范马来语拼写为 serius。所列 IPA 为英语读音，马来西亚实际口语读音因说话者而异。输入音节及 Jawi 字段缺失，保留 null。",
+    "word_family": [
+      {
+        "word": "serius",
+        "affix": null,
+        "gloss": "对应的规范马来语词形：认真；严肃；严重"
+      },
+      {
+        "word": "keseriusan",
+        "affix": "ke-...-an",
+        "gloss": "由 serius 派生：认真程度；严肃性；严重性"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "认真的；当真的；确实有某种意图而不是开玩笑的。",
+      "en_definition": "Earnest or sincere; genuinely intending something rather than joking.",
+      "ms_definition": "Bersungguh-sungguh atau benar-benar berniat melakukan sesuatu, bukan sekadar bergurau.",
+      "nuances": "常见于马英混用聊天，规范马来语写 serius。问 Serious? 或 Serious ke? 时，常相当于“真的？”“你认真的？”，属于省略问句。参见 [Cambridge：serious](https://dictionary.cambridge.org/dictionary/english-malaysian/serious)及 [DBP/PRPM：serius](https://prpm.dbp.gov.my/Cari1?d=273844&keyword=serius)。",
+      "collocations": [
+        {
+          "ms": "serious nak belajar",
+          "zh": "真心想学习",
+          "en": "serious about wanting to study"
+        },
+        {
+          "ms": "serious ke?",
+          "zh": "你认真的？",
+          "en": "Are you serious?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "神情或态度严肃的；不嬉笑的。",
+      "en_definition": "Solemn or thoughtful in expression or manner.",
+      "ms_definition": "Menunjukkan air muka atau sikap yang tidak bergurau dan tidak riang.",
+      "nuances": "描述表情时不一定表示生气，也可能是专注或沉思。muka serious 属非正式混用表达；正式写作宜用 wajah serius。参见 [Cambridge：serious](https://dictionary.cambridge.org/dictionary/english-malaysian/serious)。",
+      "collocations": [
+        {
+          "ms": "muka serious",
+          "zh": "严肃的表情",
+          "en": "a serious expression"
+        },
+        {
+          "ms": "nampak serious",
+          "zh": "看起来很严肃",
+          "en": "to look serious"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "严重的；后果重大、令人担忧或需要认真处理的。",
+      "en_definition": "Grave, worrying, or potentially harmful; requiring careful attention.",
+      "ms_definition": "Berat atau membimbangkan kesannya sehingga memerlukan perhatian dan tindakan yang sewajarnya.",
+      "nuances": "可指问题、事件、疾病或伤势的严重程度。以下是聊天中的混用搭配，规范写作使用 masalah serius、kecederaan serius，或按语境用 teruk、parah。参见 [DBP/PRPM：serius](https://prpm.dbp.gov.my/Cari1?d=273844&keyword=serius)。",
+      "collocations": [
+        {
+          "ms": "masalah serious",
+          "zh": "严重问题",
+          "en": "a serious problem"
+        },
+        {
+          "ms": "kecederaan serious",
+          "zh": "严重伤势",
+          "en": "a serious injury"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场编辑说明 / 公文用词",
+      "ms": "Dalam laporan rasmi berbahasa Melayu, ejaan bahasa Inggeris “serious” hendaklah digantikan dengan ejaan “serius”.",
+      "zh": "在马来语正式报告中，应将英语拼写“serious”改为“serius”。",
+      "en": "In an official Malay-language report, the English spelling “serious” should be replaced with “serius.”"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友确认消息",
+      "ms_spoken": "Kau serious ke nak pindah minggu depan?",
+      "ms_standard": "Adakah kamu benar-benar mahu berpindah minggu hadapan?",
+      "zh": "你真打算下周搬走啊？",
+      "en": "Are you really planning to move next week?",
+      "spoken_features": [
+        "serious 保留英语拼写，体现马英语码转换。",
+        "ke 是口语疑问标记，对应标准问句结构。",
+        "nak 对应 mahu；kau 是非正式第二人称。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau serious ke nak pindah minggu depan?",
+          "ms_standard": "Adakah kamu benar-benar mahu berpindah minggu hadapan?",
+          "zh": "你真打算下周搬走啊？",
+          "en": "Are you really planning to move next week?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya lah, aku dah dapat kerja kat Penang.",
+          "ms_standard": "Ya, saya sudah mendapat pekerjaan di Pulau Pinang.",
+          "zh": "是啊，我已经在槟城找到工作了。",
+          "en": "Yeah, I've got a job in Penang."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English serious appears in Malaysian conversations alongside its established Malay borrowing, serius. The distinction is visible in spelling: the English form retains ou, while the standard Malay form uses u. Both can convey earnestness, solemnity, or gravity, but only serius supplies the conventional Malay base for the derived noun keseriusan. [DBP/PRPM: serius](https://prpm.dbp.gov.my/Cari1?d=273844&keyword=serius), [DBP spelling guidelines](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+    "cognitive_memory_aid": "聊天看到 serious，先想“认真的／严重的”；写正式马来语时，把英语 ou 收成 u：serious → serius。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "Serious ke? 在朋友间可表示惊讶或确认；对上司、长辈直接反问，可能显得质疑或不够庄重。较礼貌的说法是 Bolehkah saya pastikan perkara ini?",
+    "usage_etiquette": "英语拼写 serious 适用于英语内容或非正式马英混用；正式马来语使用 serius。正式例句保留 serious 时，应像此处一样明确将其作为英语词形引述。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "Serious ke? 在朋友间可表示惊讶或确认；对上司、长辈直接反问，可能显得质疑或不够庄重。较礼貌的说法是 Bolehkah saya pastikan perkara ini?",
+    "usage_etiquette": "英语拼写 serious 适用于英语内容或非正式马英混用；正式马来语使用 serius。正式例句保留 serious 时，应像此处一样明确将其作为英语词形引述。"
+  }
+}
