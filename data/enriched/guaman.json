@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "guaman",
+    "syllables": "gua.man",
+    "ipa": "/ɡu.a.man/",
+    "jawi": "ݢوامن",
+    "frequency_rank": 13585,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "guam",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "guam + -an → guaman（诉讼；法律事务）",
+    "pattern_note": "在 guam 后直接加名词后缀 -an，词根拼写不变。此处 guam 指争讼，与口腔疾病义的同形词不同。",
+    "word_family": [
+      {
+        "word": "peguam",
+        "affix": "pe-",
+        "gloss": "律师"
+      },
+      {
+        "word": "berguam",
+        "affix": "ber-",
+        "gloss": "争执；争讼"
+      },
+      {
+        "word": "perguaman",
+        "affix": "per-...-an",
+        "gloss": "争讼；法律执业事务"
+      }
+    ],
+    "root_jawi": "ݢوام"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "诉讼；提交法庭处理的争讼或审理事项。",
+      "en_definition": "A lawsuit or a dispute heard in court.",
+      "ms_definition": "Persengketaan atau perbicaraan dalam mahkamah.",
+      "nuances": "这是输入提供的核心词典义，侧重法庭争讼，不泛指任何日常争吵，也不指律师本人；律师是 peguam。guaman sivil 专指民事诉讼。",
+      "collocations": [
+        {
+          "ms": "memfailkan guaman",
+          "zh": "提起诉讼",
+          "en": "to file a lawsuit"
+        },
+        {
+          "ms": "guaman sivil",
+          "zh": "民事诉讼",
+          "en": "a civil lawsuit"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "法律事务或律师服务；常在名词组合中作修饰成分，表示法律服务方面的。",
+      "en_definition": "Legal affairs or services, especially as a modifier in noun phrases.",
+      "ms_definition": "Urusan atau perkhidmatan yang berkaitan dengan bantuan, nasihat atau pekerjaan peguam.",
+      "nuances": "此项概括现代搭配用法，非输入核心释义的逐字引文。bantuan guaman、nasihat guaman、firma guaman 和 yuran guaman 中，guaman 均关联法律服务；不能机械译成“诉讼”。这里仍按名词修饰语处理。用法见[马来西亚语文出版局报道](https://dewanmasyarakat.jendeladbp.my/2024/09/06/24568/)。",
+      "collocations": [
+        {
+          "ms": "bantuan guaman",
+          "zh": "法律援助",
+          "en": "legal aid"
+        },
+        {
+          "ms": "nasihat guaman",
+          "zh": "法律意见",
+          "en": "legal advice"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 法律服务通知",
+      "ms": "Pemohon diminta membawa dokumen berkaitan untuk mendapatkan nasihat guaman.",
+      "zh": "请申请人携带相关文件，以便获取法律意见。",
+      "en": "Applicants are requested to bring the relevant documents to obtain legal advice."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论法律咨询",
+      "ms_spoken": "Aku nak tanya pasal bantuan guaman dulu lah.",
+      "ms_standard": "Saya mahu bertanya tentang bantuan guaman terlebih dahulu.",
+      "zh": "我想先问问法律援助的事啦。",
+      "en": "I want to ask about legal aid first.",
+      "spoken_features": [
+        "nak 对应 mahu 或 hendak",
+        "pasal 在此对应 tentang",
+        "dah 对应 sudah",
+        "kat 在此对应 di，lah 增添口语语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak tanya pasal bantuan guaman dulu lah. Kau dah jumpa alamat pejabat tu?",
+          "ms_standard": "Saya mahu bertanya tentang bantuan guaman terlebih dahulu. Adakah kamu sudah menemukan alamat pejabat itu?",
+          "zh": "我想先问问法律援助的事。你找到那个办事处的地址了吗？",
+          "en": "I want to ask about legal aid first. Have you found the office address?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, alamat dia ada kat laman rasmi. Aku hantar sekarang.",
+          "ms_standard": "Sudah, alamatnya terdapat di laman rasmi. Saya akan menghantarnya sekarang.",
+          "zh": "找到了，官网上有地址。我现在发给你。",
+          "en": "Yes, the address is on the official website. I'll send it now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records guam in older Malay with meanings involving disagreement and litigation. Adding -an produces guaman, the court dispute or proceeding; peguam names the professional who handles legal matters. Modern expressions such as bantuan guaman connect this word family with access to legal services. This explains its Malay formation without asserting an unverified earlier borrowing history. Source: [DBP's guam entry](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=guam).",
+    "cognitive_memory_aid": "同根配对记：peguam 是办法律事务的人，guaman 是相关案件或事务；bantuan guaman 就是法律援助。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "guaman 属于中性正式用语，适合法律咨询、公文和新闻。与律师交流时可用 Tuan 或 Puan，并清楚说明所需的是 nasihat guaman 还是案件代理。",
+    "usage_etiquette": "讨论他人的诉讼应注意隐私与措辞准确；“提起诉讼”不等于“已经胜诉”，也不代表对方已被判有罪。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "guaman 属于中性正式用语，适合法律咨询、公文和新闻。与律师交流时可用 Tuan 或 Puan，并清楚说明所需的是 nasihat guaman 还是案件代理。",
+    "usage_etiquette": "讨论他人的诉讼应注意隐私与措辞准确；“提起诉讼”不等于“已经胜诉”，也不代表对方已被判有罪。"
+  }
+}

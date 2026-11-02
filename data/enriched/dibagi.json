@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "dibagi",
+    "syllables": null,
+    "ipa": "/di.ba.ɡi/",
+    "jawi": null,
+    "frequency_rank": 13652,
+    "status": "colloquial"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bagi",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + bagi → dibagi",
+    "pattern_note": "纠正输入中的未分析词根标记：dibagi 是 di- 加动词 bagi 的被动形式，音节为 di.ba.gi。di- 不引起词首音变，须与动词连写；不同于分写的处所介词 di。词根依据：[DBP PRPM：bagi](https://prpm.dbp.gov.my/Cari1?d=25872&keyword=bagi)。",
+    "word_family": [
+      {
+        "word": "membagi",
+        "affix": "meN-",
+        "gloss": "给予；分开，具体义随语境"
+      },
+      {
+        "word": "membagikan",
+        "affix": "meN-...-kan",
+        "gloss": "给予、分发"
+      }
+    ],
+    "root_jawi": "باݢي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被给予；获给某物。马来西亚口语中也可使接受者作主语，表示某人得到某物。",
+      "en_definition": "To be given something; to receive something, in colloquial usage.",
+      "ms_definition": "Diberi atau diberikan sesuatu; bentuk pasif bagi kata kerja bagi yang bermaksud memberi.",
+      "nuances": "此处不是介词 bagi“对于、为了”的被动形式。正式马来西亚马来语通常按句法使用 diberi 或 diberikan。释义为根据词根及实际口语用法作出的编辑概括，并非独立 DBP 引文。dibagi 被释作 diberi 的口述实例见 [UiTM 口述史资料](https://ir.uitm.edu.my/id/eprint/97322/1/97322.pdf)。",
+      "collocations": [
+        {
+          "ms": "dibagi duit",
+          "zh": "获给钱；口语",
+          "en": "be given money"
+        },
+        {
+          "ms": "dibagi peluang",
+          "zh": "获给机会；口语",
+          "en": "be given an opportunity"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "被分开、被分配；数学语境中表示被除以。印尼语使用更普遍，正式马来西亚马来语通常使用 dibahagi 或 dibahagikan。",
+      "en_definition": "To be divided, distributed, or divided by a number; especially in Indonesian usage.",
+      "ms_definition": "Dipecahkan kepada beberapa bahagian, diagihkan, atau dikenakan operasi bahagi; dalam bahasa Melayu Malaysia baku, lazimnya dibahagi atau dibahagikan.",
+      "nuances": "必须根据语境区分“给予”和“分割”，不能一律译为其中一种。以下搭配属于跨区域可见的用法，不应直接作为正式马来西亚数学术语。词根的分割义及相关形式见 [DBP PRPM：bagian／bagi](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bagian)。",
+      "collocations": [
+        {
+          "ms": "dibagi dua",
+          "zh": "被分成两份；数学中为除以二",
+          "en": "be divided into two; be divided by two"
+        },
+        {
+          "ms": "dibagi sama rata",
+          "zh": "被平均分配",
+          "en": "be distributed equally"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场编辑 / 正式文件用语规范",
+      "ms": "Dalam laporan rasmi, frasa 'dibagi sama rata' hendaklah ditulis sebagai 'dibahagikan sama rata'.",
+      "zh": "在正式报告中，“dibagi sama rata”应写为“dibahagikan sama rata”。",
+      "en": "In a formal report, the phrase 'dibagi sama rata' should be written as 'dibahagikan sama rata'."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友谈收到的餐券",
+      "ms_spoken": "Aku dah dibagi dua kupon makan tadi.",
+      "ms_standard": "Saya telah diberi dua kupon makan tadi.",
+      "zh": "刚才有人给了我两张餐券。",
+      "en": "I was given two meal vouchers earlier.",
+      "spoken_features": [
+        "aku 是非正式第一人称",
+        "dah 是 sudah 的口语缩略形式",
+        "dibagi 在此对应正式用语 diberi"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah dibagi dua kupon makan tadi. Kau nak satu?",
+          "ms_standard": "Saya telah diberi dua kupon makan tadi. Adakah kamu mahu satu?",
+          "zh": "刚才有人给了我两张餐券，你要一张吗？",
+          "en": "I was given two meal vouchers earlier. Want one?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nak! Kita makan kat kantin je nanti.",
+          "ms_standard": "Ya, saya mahu satu. Kita makan di kantin sahaja nanti.",
+          "zh": "要！待会儿我们就在食堂吃吧。",
+          "en": "Yes, please! Let's just eat at the canteen later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dibagi illustrates how a shared word family can develop different everyday preferences across Malay-speaking communities. DBP records bagi-related meanings involving giving and division. Adding the passive prefix di- produces dibagi, but Malaysian formal writing usually selects diberi for giving and dibahagi or dibahagikan for division. Context therefore matters more than a single English equivalent. [Source](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=bagian).",
+    "cognitive_memory_aid": "di- 提醒你看“被动”：dibagi duit 是被给钱，dibagi dua 是被分成两份；先看后面的词再定中文。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "dibagi 的主要差别在语域与地区，并不天然失礼。对长辈或上司说明正式事务时，选用 diberi、diberikan 或 dibahagikan 更稳妥。",
+    "usage_etiquette": "朋友聊天、口语转写和印尼语内容中可能出现。马来西亚公文、考试和数学说明应按具体意义换成相应标准形式；不要把地区差异当作说话者能力问题。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "dibagi 的主要差别在语域与地区，并不天然失礼。对长辈或上司说明正式事务时，选用 diberi、diberikan 或 dibahagikan 更稳妥。",
+    "usage_etiquette": "朋友聊天、口语转写和印尼语内容中可能出现。马来西亚公文、考试和数学说明应按具体意义换成相应标准形式；不要把地区差异当作说话者能力问题。"
+  }
+}

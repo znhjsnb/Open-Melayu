@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "pengubah",
+    "syllables": "pe.ngu.bah",
+    "ipa": "/pə.ŋu.bah/",
+    "jawi": "ڤڠوبه",
+    "frequency_rank": 13613,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pengubah",
+    "affix": "peN-",
+    "affix_type": "prefix",
+    "formula": "peN- + ubah → pengubah",
+    "pattern_note": "root_word、root_jawi 和 is_root 按输入词包保留；其中 is_root: true 并非正确的语言学分析。实际词根为 ubah（اوبه），pengubah 是派生词；peN- 在元音 u 前实现为 peng-，元音保留。ng 为 /ŋ/，没有额外的 /ɡ/。",
+    "word_family": [
+      {
+        "word": "ubah",
+        "affix": null,
+        "gloss": "改变的词根"
+      },
+      {
+        "word": "mengubah",
+        "affix": "meN-",
+        "gloss": "改变；修改"
+      },
+      {
+        "word": "berubah",
+        "affix": "ber-",
+        "gloss": "发生变化"
+      },
+      {
+        "word": "pengubahan",
+        "affix": "peN-...-an",
+        "gloss": "改动、修改的过程"
+      }
+    ],
+    "root_jawi": "ڤڠوبه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "对某物作出改变、修改或调整的人或事物。",
+      "en_definition": "A person or thing that changes, alters, or modifies something.",
+      "ms_definition": "Orang dan sebagainya yang mengubah atau mengubahkan sesuatu.",
+      "nuances": "是施事或致变者名称，不等于表示过程的 pengubahan，也不等于表示变化的 perubahan。以下人物搭配属于透明的组合用法，不一定是固定职称。[DBP：pengubah](https://prpm.dbp.gov.my/cari1?keyword=pengubah)",
+      "collocations": [
+        {
+          "ms": "pengubah dasar",
+          "zh": "政策改动者",
+          "en": "a person or body that changes a policy"
+        },
+        {
+          "ms": "pengubah sistem",
+          "zh": "系统修改者",
+          "en": "a person or thing that modifies a system"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "变压器；利用电磁感应改变交流电压的电气装置。",
+      "en_definition": "A transformer: an electrical device that changes an alternating voltage by electromagnetic induction.",
+      "ms_definition": "Alat elektrik yang mengubah voltan arus ulang-alik melalui aruhan elektromagnet.",
+      "nuances": "这是一般“使某物改变的装置”在电气领域的专门用法。可指升压或降压装置，不是所有插头转换器或充电器的通称。[DBP：transformer 的马来语对应](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=mengubah)",
+      "collocations": [
+        {
+          "ms": "pengubah voltan",
+          "zh": "变压器",
+          "en": "a voltage transformer"
+        },
+        {
+          "ms": "pengubah langkah turun",
+          "zh": "降压变压器",
+          "en": "a step-down transformer"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Juruteknik memasang pengubah langkah turun untuk membekalkan voltan yang sesuai kepada litar tersebut.",
+      "zh": "技术人员安装了降压变压器，为该电路提供合适的电压。",
+      "en": "The technician installed a step-down transformer to supply the circuit with the appropriate voltage."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pengubah voltan tu dah sampai kat bengkel ke?",
+      "ms_standard": "Adakah pengubah voltan itu sudah sampai di bengkel?",
+      "zh": "那个变压器已经送到维修车间了吗？",
+      "en": "Has that voltage transformer arrived at the workshop yet?",
+      "spoken_features": [
+        "tu 是 itu 的口语形式。",
+        "dah 对应 sudah。",
+        "kat 在此对应 di。",
+        "句末 ke 构成口语是非问句，标准语可使用 Adakah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Pengubah voltan tu dah sampai kat bengkel ke?",
+          "ms_standard": "Adakah pengubah voltan itu sudah sampai di bengkel?",
+          "zh": "那个变压器已经送到维修车间了吗？",
+          "en": "Has that voltage transformer arrived at the workshop yet?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dah, masih dalam kotak lagi. Juruteknik nak periksa petang ni.",
+          "ms_standard": "Sudah, alat itu masih berada di dalam kotak. Juruteknik akan memeriksanya pada petang ini.",
+          "zh": "到了，还在箱子里。技术人员今天下午会检查。",
+          "en": "Yes, it’s still in the box. The technician is going to check it this afternoon."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pengubah is built from ubah, meaning change, with the agent or instrument prefix peN-. Its structure naturally accommodates both someone who alters something and a device that produces a change. Electrical terminology gives this pattern a concrete application in the transformer. The spelling also distinguishes it from penggubah, whose root gubah concerns composition or arrangement.",
+    "cognitive_memory_aid": "peN- 表示做事者或工具，ubah＝改变：pengubah 就是“使东西改变的那个”。记住 pengubah 没有第二个 g；penggubah 才是创作者、编曲者。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词本身中性。称某人为 pengubah 时宜说明其改变的对象，避免把临时描述误当成正式职称。",
+    "usage_etiquette": "适用于修改者和电气装置。音乐创作者通常用 penggubah lagu 或 penggubah muzik，须区别于 pengubah。[DBP：penggubah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penggubah)"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词本身中性。称某人为 pengubah 时宜说明其改变的对象，避免把临时描述误当成正式职称。",
+    "usage_etiquette": "适用于修改者和电气装置。音乐创作者通常用 penggubah lagu 或 penggubah muzik，须区别于 pengubah。[DBP：penggubah](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=penggubah)"
+  }
+}

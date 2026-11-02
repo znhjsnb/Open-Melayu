@@ -1,0 +1,135 @@
+{
+  "headword": {
+    "word": "sakitkah",
+    "syllables": null,
+    "ipa": "/sa.kit.kah/",
+    "jawi": "ساکيت",
+    "frequency_rank": 13574,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "sakit",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "sakit + -kah → sakitkah",
+    "pattern_note": "-kah 是附着在前词后的疑问小品词，不是派生词缀；词干不变。IPA 为整词宽式标音。音节资料保留 null；所给 Jawi 仅对应 sakit，尚未包含 -kah。",
+    "word_family": [
+      {
+        "word": "kesakitan",
+        "affix": "ke-...-an",
+        "gloss": "疼痛；痛苦"
+      },
+      {
+        "word": "menyakitkan",
+        "affix": "meN-...-kan",
+        "gloss": "使疼痛；令人难受"
+      }
+    ],
+    "root_jawi": "ساکيت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "生病吗？疼吗？询问某人是否身体不适，或某部位是否疼痛。",
+      "en_definition": "Interrogative form of sakit: is someone ill, or does something hurt?",
+      "ms_definition": "Takrif dasar sakit menurut DBP: menderita sesuatu (spt demam, pening, dll) yg menyebabkan seluruh tubuh atau se-suatu bahagiannya tidak segar, (berada dlm keadaan) tidak sihat, uzur. Bentuk sakitkah menanyakan keadaan tersebut.",
+      "nuances": "主词可指人，也可指身体部位；须按语境译成“病了吗”或“疼吗”。整词是 sakit 与 -kah 的规则组合，并非新增词义。日常交流更常用 Sakit ke?。搭配列出词干的常用组合。[DBP：sakit](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=sakit)。",
+      "collocations": [
+        {
+          "ms": "sakit perut",
+          "zh": "肚子痛",
+          "en": "have a stomach ache"
+        },
+        {
+          "ms": "sakit tekak",
+          "zh": "喉咙痛",
+          "en": "have a sore throat"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "心里难受吗？痛苦吗？询问是否承受情感伤痛或生活困苦。",
+      "en_definition": "Interrogative form asking whether someone feels emotional pain or distress.",
+      "ms_definition": "Takrif kiasan sakit menurut DBP: menderita kesusahan (kesengsaraan, kesedihan, dll), sedih. Bentuk sakitkah menanyakan penderitaan tersebut.",
+      "nuances": "比喻义常须借 hati、cinta 等语境明确表达。sakit hati 通常指受伤、气恼或怨愤，不能机械理解为心脏疾病。[DBP：sakit](https://prpm.dbp.gov.my/Cari1?d=226380&keyword=sakit)。",
+      "collocations": [
+        {
+          "ms": "sakit hati",
+          "zh": "心里受伤；气恼",
+          "en": "feel hurt or resentful"
+        },
+        {
+          "ms": "sakit kerana cinta",
+          "zh": "为情所伤",
+          "en": "suffer because of love"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "医疗问诊 / 专业交流",
+      "ms": "Semasa pemeriksaan, doktor bertanya kepada pesakit, \"Sakitkah bahagian ini apabila ditekan?\"",
+      "zh": "检查时，医生问病人：“按压这个部位会疼吗？”",
+      "en": "During the examination, the doctor asked the patient, \"Does this area hurt when pressed?\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友关心身体状况",
+      "ms_spoken": "Perut kau masih sakit ke? Dah makan?",
+      "ms_standard": "Adakah perut kamu masih sakit? Sudahkah kamu makan?",
+      "zh": "你肚子还疼啊？吃东西了吗？",
+      "en": "Does your stomach still hurt? Have you eaten?",
+      "spoken_features": [
+        "口语常以 sakit ke 对应较书面的 sakitkah。",
+        "dah 是 sudah 的口语缩略。",
+        "kau 适合关系亲近的同辈。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Perut kau masih sakit ke? Dah makan?",
+          "ms_standard": "Adakah perut kamu masih sakit? Sudahkah kamu makan?",
+          "zh": "你肚子还疼啊？吃东西了吗？",
+          "en": "Does your stomach still hurt? Have you eaten?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah makan sikit. Sakit sikit je sekarang.",
+          "ms_standard": "Saya sudah makan sedikit. Sekarang perut saya hanya sakit sedikit.",
+          "zh": "吃了一点。现在只剩一点点疼。",
+          "en": "I've eaten a little. It only hurts a bit now."
+        }
+      ]
+    }
+  ],
+  "spoken_shortcuts": [
+    {
+      "spoken": "sakit ke?",
+      "standard": "sakitkah? / adakah ... sakit?",
+      "note": "常见口语问法；正式文本宜按完整句法使用 -kah 或 adakah。"
+    },
+    {
+      "spoken": "dah",
+      "standard": "sudah",
+      "note": "用于熟人聊天；正式书写恢复 sudah。"
+    }
+  ],
+  "etymology": {
+    "historical_story": "Sakitkah illustrates how Malay builds questions from an existing descriptive word. Sakit supplies illness, pain, or figurative suffering; the attached particle -kah turns that description into a question without creating a new lexical meaning. DBP identifies -kah as an interrogative particle. This is a grammatical explanation, not evidence for a separate historical coinage. [DBP: -kah](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kah).",
+    "cognitive_memory_aid": "sakit 是“病／痛”，-kah 像贴在词尾的问号：sakitkah？＝疼吗？"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "问长辈或不熟悉的人，可用 Pak、Puan 等称呼，并说 Adakah ... berasa sakit?；避免直接使用 kau。",
+    "usage_etiquette": "关心身体状况时语气宜轻柔。涉及情感痛苦应私下询问，避免用 sakit 评价或嘲笑他人的精神状态。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "问长辈或不熟悉的人，可用 Pak、Puan 等称呼，并说 Adakah ... berasa sakit?；避免直接使用 kau。",
+    "usage_etiquette": "关心身体状况时语气宜轻柔。涉及情感痛苦应私下询问，避免用 sakit 评价或嘲笑他人的精神状态。"
+  }
+}

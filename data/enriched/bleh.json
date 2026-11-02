@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "bleh",
+    "syllables": null,
+    "ipa": "/bo.leh/",
+    "jawi": null,
+    "frequency_rank": 13545,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "bleh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "boleh → bleh（非正式书写缩略，无词缀添加）",
+    "pattern_note": "root_word 依要求保留输入值；词汇基础实际为 boleh，bleh 不是独立的标准词根。缩写省去字母 o，不代表所有使用者都省去对应元音。所列 IPA 是展开为 boleh 的读法；快速口语也可能出现 [blɛh] 一类缩约实现，不能仅凭缩写确定读音。",
+    "word_family": [
+      {
+        "word": "boleh",
+        "affix": null,
+        "gloss": "可以；能够；bleh 的完整标准形式"
+      },
+      {
+        "word": "kebolehan",
+        "affix": "ke-...-an",
+        "gloss": "能力；本领（由 boleh 派生）"
+      },
+      {
+        "word": "membolehkan",
+        "affix": "meN-...-kan",
+        "gloss": "使能够；准许（由 boleh 派生）"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "能够；具备做某事的能力或条件。为 boleh 的非正式缩写。",
+      "en_definition": "Can; to have the ability or practical capacity to do something. An informal abbreviation of boleh.",
+      "ms_definition": "Bentuk singkat tidak formal bagi boleh yang menyatakan keupayaan atau kemampuan melakukan sesuatu.",
+      "nuances": "语法上属于 kata bantu ragam，此处因指定词性列表未设助动词而归入 verb。bleh 常见于短信和聊天；headword.status 按指定格式保留 official，不表示它是正式规范拼写。马来语释义为编写性释义。[马来语短信规范化研究对 bleh → boleh 的记录](https://e-journal.uum.edu.my/index.php/jict/article/download/8141/1155/23705)。",
+      "collocations": [
+        {
+          "ms": "bleh buat",
+          "zh": "能做",
+          "en": "can do"
+        },
+        {
+          "ms": "tak bleh datang",
+          "zh": "来不了",
+          "en": "cannot come"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "可以；获准做某事，或用来征求许可。",
+      "en_definition": "May; to be permitted to do something, or to ask permission.",
+      "ms_definition": "Bentuk singkat tidak formal bagi boleh yang menyatakan keizinan atau digunakan untuk meminta izin.",
+      "nuances": "同一个 bleh 可表示能力或许可，须由上下文判断。bleh pinjam? 通常是在请求借用许可；与上司或不熟悉的人交流宜写完整的 boleh，并补足请求内容。",
+      "collocations": [
+        {
+          "ms": "bleh pinjam",
+          "zh": "可以借用",
+          "en": "may borrow"
+        },
+        {
+          "ms": "bleh masuk",
+          "zh": "可以进去",
+          "en": "may enter"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "particle",
+      "zh_definition": "行；可以；没问题。单独回复时表示同意、接受请求或确认安排可行。",
+      "en_definition": "Okay; sure; an informal response expressing agreement or willingness.",
+      "ms_definition": "Jawapan ringkas tidak formal yang menyatakan persetujuan, kesanggupan atau penerimaan sesuatu cadangan.",
+      "nuances": "此处按独立答语的交际功能标为 particle；从句法来源看仍是省略了后续内容的 boleh。bleh je 常表示“可以啊／没问题”，bleh lah 的态度可能随语调而从爽快接受变为勉强接受。",
+      "collocations": [
+        {
+          "ms": "bleh je",
+          "zh": "可以啊；没问题",
+          "en": "sure, no problem"
+        },
+        {
+          "ms": "bleh lah",
+          "zh": "行吧；可以啦",
+          "en": "all right"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：正式文本审校",
+      "ms": "Dalam surat rasmi, singkatan “bleh” perlu ditulis penuh sebagai “boleh”.",
+      "zh": "在正式信函中，缩写“bleh”应完整写作“boleh”。",
+      "en": "In formal correspondence, the abbreviation “bleh” should be written in full as “boleh”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：约朋友见面",
+      "ms_spoken": "Esok bleh jumpa kat kafe pukul tiga tak?",
+      "ms_standard": "Bolehkah kita berjumpa di kafe pada pukul tiga esok?",
+      "zh": "明天三点能在咖啡馆见吗？",
+      "en": "Can we meet at the café at three tomorrow?",
+      "spoken_features": [
+        "bleh 是 boleh 的非正式书写缩略形式。",
+        "kat 对应 di，句末 tak 构成口语是非问句。",
+        "回复中的 je 对应 sahaja；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Esok bleh jumpa kat kafe pukul tiga tak?",
+          "ms_standard": "Bolehkah kita berjumpa di kafe pada pukul tiga esok?",
+          "zh": "明天三点能在咖啡馆见吗？",
+          "en": "Can we meet at the café at three tomorrow?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bleh je, aku dah kosongkan waktu tu.",
+          "ms_standard": "Boleh, saya sudah memperuntukkan waktu itu untuk pertemuan kita.",
+          "zh": "可以啊，我已经把那个时间空出来了。",
+          "en": "Sure, I’ve already kept that time free."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bleh belongs to the economical spelling practices associated with Malay texting. It represents boleh by keeping the initial consonant and the final written sequence leh. Malaysian text-normalisation research explicitly records this relationship. Its history concerns an informal written abbreviation, not a separate ancient root, and its spelling alone cannot determine exactly how an individual speaker pronounces it.",
+    "cognitive_memory_aid": "看到 bleh，就把省掉的 o 补回去：b(o)leh＝“可以”；正式书写也把 o 补回来。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友之间用 bleh 很自然，但正式邮件、求职信、考试及初次联系上司时应写 boleh。是否礼貌还取决于称呼、完整请求和关系，不能只看有没有缩写。",
+    "usage_etiquette": "适合熟人聊天、短信及轻松的群组交流。单独回复 bleh 通常表示接受，但涉及具体安排时最好补充时间、条件或行动，避免对方把含糊答复理解为完整承诺。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友之间用 bleh 很自然，但正式邮件、求职信、考试及初次联系上司时应写 boleh。是否礼貌还取决于称呼、完整请求和关系，不能只看有没有缩写。",
+    "usage_etiquette": "适合熟人聊天、短信及轻松的群组交流。单独回复 bleh 通常表示接受，但涉及具体安排时最好补充时间、条件或行动，避免对方把含糊答复理解为完整承诺。"
+  }
+}

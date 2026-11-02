@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "fon",
+    "syllables": "fon",
+    "ipa": "/fon/",
+    "jawi": "فون",
+    "frequency_rank": 13549,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "fon",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + fon → fon",
+    "pattern_note": "单音节，无马来语词缀。字体义、音频复合词中的成分以及口语电话义须分别理解，不能假定同源。数据包另列语音变体 [fɔn]。",
+    "word_family": [
+      {
+        "word": "fon kepala",
+        "affix": null,
+        "gloss": "头戴式耳机；复合词"
+      },
+      {
+        "word": "fon telinga",
+        "affix": null,
+        "gloss": "耳机；特定语境指助听装置；复合词"
+      }
+    ],
+    "root_jawi": "فون"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "字体；字型：供印刷或屏幕显示使用、具有特定外观设计的一组字符。",
+      "en_definition": "A set of characters with a particular visual design for printing or screen display; a font.",
+      "ms_definition": "Set aksara dengan reka bentuk tertentu yang digunakan untuk cetakan atau paparan.",
+      "nuances": "这是数据包给出的正式计算机与排印义。saiz fon 指字号，jenis fon 指字体种类；两者分别描述大小与设计类别。马来文释义据DBP整理。[DBP：fon](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=fon)。",
+      "collocations": [
+        {
+          "ms": "saiz fon",
+          "zh": "字号；字体大小",
+          "en": "font size"
+        },
+        {
+          "ms": "jenis fon",
+          "zh": "字体种类",
+          "en": "font type"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "用于 fon telinga、fon kepala 等复合词，指供耳部接收声音的装置。",
+      "en_definition": "An element in compounds denoting ear-worn sound-receiving devices, including earphones and headphones.",
+      "ms_definition": "Unsur dalam kata majmuk yang merujuk kepada alat penerima bunyi yang dipakai pada telinga atau kepala.",
+      "nuances": "DBP另列这一音频相关义，主要通过完整复合词使用，不能把单独的 fon 在任何语境中都解释成耳机。fon telinga 在特定释义中还可指帮助听觉的装置。[DBP：fon](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=fon)。",
+      "collocations": [
+        {
+          "ms": "fon telinga",
+          "zh": "耳机；耳塞式听音装置",
+          "en": "earphones"
+        },
+        {
+          "ms": "fon kepala",
+          "zh": "头戴式耳机",
+          "en": "headphones"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "电话；手机：非正式交流中表示 telefon 的简短形式。",
+      "en_definition": "A phone or mobile phone, in informal speech or messaging.",
+      "ms_definition": "Telefon, termasuk telefon bimbit; bentuk tidak rasmi dalam pertuturan atau mesej.",
+      "nuances": "口语和聊天中可见，但不能据此把“电话”标为与字体义相同的正式词典义。DBP短信规范把表示 telefon 的 fon 列为不规范缩写；正式写作宜写 telefon。[DBP短信用语规范](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf)。",
+      "collocations": [
+        {
+          "ms": "fon baru",
+          "zh": "新手机",
+          "en": "a new phone"
+        },
+        {
+          "ms": "nombor fon",
+          "zh": "电话号码",
+          "en": "phone number"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "打电话给；致电：非正式口语中表示 menelefon。",
+      "en_definition": "To telephone or call someone, informally.",
+      "ms_definition": "Menghubungi seseorang melalui telefon; penggunaan tidak rasmi.",
+      "nuances": "口语中可直接带人称对象，如 fon saya；正式表达用 telefon saya 或 menelefon saya。这是非正式电话用法的动词功能，不是字体义的派生义。",
+      "collocations": [
+        {
+          "ms": "fon saya",
+          "zh": "打电话给我",
+          "en": "call me"
+        },
+        {
+          "ms": "fon balik",
+          "zh": "回电话",
+          "en": "call back"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila gunakan fon Arial bersaiz 12 poin untuk semua laporan jabatan.",
+      "zh": "所有部门报告请使用12磅的Arial字体。",
+      "en": "Please use 12-point Arial for all departmental reports."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Fon dalam poster ni kecil sangat lah, besarkan sikit.",
+      "ms_standard": "Saiz fon dalam poster ini terlalu kecil; sila besarkannya sedikit.",
+      "zh": "这张海报的字也太小了吧，调大一点。",
+      "en": "The text on this poster is too small. Make it a bit bigger.",
+      "spoken_features": [
+        "ni 对应 ini",
+        "形容词后的 sangat 在口语中表示很或太",
+        "lah 加强评价语气",
+        "sikit 对应 sedikit"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Aku dah tukar fon poster ni. Okey tak?",
+          "ms_standard": "Saya sudah menukar fon pada poster ini. Adakah fon ini sesuai?",
+          "zh": "我已经把这张海报的字体换了。可以吗？",
+          "en": "I've changed the font on this poster. Does it look okay?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Cantik dah, cuma saiz fon tu besarkan sikit je.",
+          "ms_standard": "Poster itu sudah cantik; cuma saiz fonnya perlu dibesarkan sedikit.",
+          "zh": "已经挺好看了，就把字号稍微调大一点。",
+          "en": "It looks good. Just increase the font size a little."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay computing terminology pairs English font with fon, giving the short spelling an established role in printing and digital documents. DBP also records fon in audio compounds such as fon telinga. Meanwhile, informal messages use the same spelling for telefon. These overlapping forms illustrate why context matters more than spelling alone when identifying a word's meaning. [DBP computing terminology](https://eseminar.dbp.gov.my/dokumen/komputer1.pdf); [DBP dictionary](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=fon); [DBP messaging guidance](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf).",
+    "cognitive_memory_aid": "看屏幕上的字，fon 是 font；看到 kepala 或 telinga，想到耳机；聊天里“fon 我”，才是给我打电话。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "字体义及 fon kepala、fon telinga 可用于正式表达；电话义的 fon 宜限于熟人聊天，正式往来写 telefon。",
+    "usage_etiquette": "设计沟通中可分别说 jenis fon 与 saiz fon，减少误会。请别人来电时，正式而客气的表达是 Sila hubungi saya melalui telefon。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "字体义及 fon kepala、fon telinga 可用于正式表达；电话义的 fon 宜限于熟人聊天，正式往来写 telefon。",
+    "usage_etiquette": "设计沟通中可分别说 jenis fon 与 saiz fon，减少误会。请别人来电时，正式而客气的表达是 Sila hubungi saya melalui telefon。"
+  }
+}

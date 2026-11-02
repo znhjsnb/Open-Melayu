@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "mengasuh",
+    "syllables": "me.nga.suh",
+    "ipa": "/mə.ŋa.suh/",
+    "jawi": "مڠاسوه",
+    "frequency_rank": 13612,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "mengasuh",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + asuh → mengasuh",
+    "pattern_note": "root_word、root_jawi 和 is_root 按输入词包保留；其中 is_root: true 并非正确的语言学分析。实际词根为 asuh（اسوه），mengasuh 是派生词；meN- 在元音 a 前实现为 meng-，原有元音保留。",
+    "word_family": [
+      {
+        "word": "asuh",
+        "affix": null,
+        "gloss": "照养、教养的词根"
+      },
+      {
+        "word": "asuhan",
+        "affix": "-an",
+        "gloss": "养育；教养；指导"
+      },
+      {
+        "word": "pengasuh",
+        "affix": "peN-",
+        "gloss": "照护者；保育员"
+      },
+      {
+        "word": "pengasuhan",
+        "affix": "peN-...-an",
+        "gloss": "照养和教育的过程"
+      }
+    ],
+    "root_jawi": "مڠاسوه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "照料并教养幼儿，包括日常看护、引导和教育。",
+      "en_definition": "To care for and bring up a young child, providing guidance and education.",
+      "ms_definition": "Memelihara dan memberi tunjuk ajar, menjaga dan mendidik anak kecil.",
+      "nuances": "兼有照料与教养，不只是短暂看守，也不意味着必须是亲生父母或已经收养孩子。相较较宽泛的 menjaga，mengasuh 更突出持续照护和成长引导。[DBP：asuh／mengasuh](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=asuh)",
+      "collocations": [
+        {
+          "ms": "mengasuh anak",
+          "zh": "照养孩子",
+          "en": "to care for and bring up a child"
+        },
+        {
+          "ms": "mengasuh kanak-kanak",
+          "zh": "照护并教养儿童",
+          "en": "to care for and nurture children"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "通过管理、训练和指导，培养某人或带领某个群体成长。",
+      "en_definition": "To guide, train, or mentor a person or group through sustained supervision.",
+      "ms_definition": "Mengelola dan melatih, memimpin atau membimbing.",
+      "nuances": "是照养意义向培养、指导的延伸，适合人才培养和师生关系。用于有经验的成年人时，应确保上下文体现指导关系，避免产生把对方当小孩的居高临下感。[DBP：mengasuh 的引申义](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=asuh)",
+      "collocations": [
+        {
+          "ms": "mengasuh penulis muda",
+          "zh": "培养青年作家",
+          "en": "to mentor young writers"
+        },
+        {
+          "ms": "mengasuh generasi muda",
+          "zh": "培养年轻一代",
+          "en": "to nurture and guide the younger generation"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pusat jagaan itu menyediakan latihan kepada kakitangan untuk mengasuh kanak-kanak dengan penuh tanggungjawab.",
+      "zh": "该托育中心为员工提供培训，使其能够负责任地照护并教养儿童。",
+      "en": "The childcare centre trains its staff to care for and nurture children responsibly."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kak Lina dah biasa mengasuh budak kecil kat rumah dia.",
+      "ms_standard": "Kak Lina sudah biasa mengasuh kanak-kanak kecil di rumahnya.",
+      "zh": "Lina 姐早就习惯在自己家里照顾小孩子了。",
+      "en": "Kak Lina is used to looking after young children at her home.",
+      "spoken_features": [
+        "dah 是 sudah 的口语形式。",
+        "kat 在此对应地点介词 di。",
+        "budak kecil 是常见口语表达，正式语境可用 kanak-kanak kecil。",
+        "Kak 是对较年长女性的亲切称呼，不一定表示亲姐姐。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kak Lina dah biasa mengasuh budak kecil kat rumah dia, kan?",
+          "ms_standard": "Kak Lina sudah biasa mengasuh kanak-kanak kecil di rumahnya, bukan?",
+          "zh": "Lina 姐已经很习惯在家照顾小孩子了，对吧？",
+          "en": "Kak Lina is used to looking after young children at her place, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, dia memang sabar. Kau nak tanya dia pasal penjagaan anak ke?",
+          "ms_standard": "Ya, dia memang sabar. Adakah kamu mahu bertanya kepadanya tentang penjagaan anak?",
+          "zh": "对，她很有耐心。你想问她照顾孩子的事啊？",
+          "en": "Yes, she’s very patient. Are you thinking of asking her about childcare?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Mengasuh belongs to the asuh family, alongside asuhan, pengasuh, and pengasuhan. The family connects care with education: nurturing a child involves both protection and guidance. Its extended meaning carries that relationship into training and mentorship. This semantic bridge explains how a word associated with early childhood can also describe cultivating young writers or guiding a developing group.",
+    "cognitive_memory_aid": "按 mə-nga-suh 读，把结尾 suh 联想成轻轻“嘘”声哄孩子，再接上耐心教导：mengasuh＝照料＋教养；这是记忆联想。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "谈论照护者时可使用姓名、合适的称谓或 pengasuh，尊重其劳动；mengasuh 本身不限定照护者的性别或亲属身份。",
+    "usage_etiquette": "适合育儿、托育和培养人才的语境。对成年同事直接说 Saya mengasuh awak 可能显得居高临下，通常可改用 membimbing 或 melatih。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "谈论照护者时可使用姓名、合适的称谓或 pengasuh，尊重其劳动；mengasuh 本身不限定照护者的性别或亲属身份。",
+    "usage_etiquette": "适合育儿、托育和培养人才的语境。对成年同事直接说 Saya mengasuh awak 可能显得居高临下，通常可改用 membimbing 或 melatih。"
+  }
+}
