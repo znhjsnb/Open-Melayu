@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "tanganinya",
+    "syllables": "ta.nga.ni.nya",
+    "ipa": "/ta.ŋa.ni.ɲa/",
+    "jawi": null,
+    "frequency_rank": 11251,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tangani",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "tangani + -nya → tanganinya；更深层构词：tangan + -i → tangani",
+    "pattern_note": "保留输入包的直接基础 tangani；更深层词根为 tangan。-nya 是附着代词而非派生词缀，此处按字段归入 suffix；它不改变词干，ny 读 /ɲ/，ng 读 /ŋ/。无 meN- 的形式常用于祈使句或第一、第二人称被动结构。输入未提供 Jawi，相关字段保留 null。",
+    "word_family": [
+      {
+        "word": "menangani",
+        "affix": "meN-...-i",
+        "gloss": "处理；着手办理"
+      },
+      {
+        "word": "penanganan",
+        "affix": "peN-...-an",
+        "gloss": "处理过程；办理方式"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "处理它；着手办理前文所指的事情。常用于要求对方采取行动的祈使表达。",
+      "en_definition": "Handle it or attend to it, typically as an instruction referring to something already mentioned.",
+      "ms_definition": "Bentuk tangani dengan enklitik -nya: kerjakan atau usahakan perkara yang telah disebut.",
+      "nuances": "这是规则构成的带附着代词形式，并非输入已提供独立 DBP 释义的词目；本条马来语定义为综合释义。-nya 的所指须由上下文确定，词形本身不表示“他处理”。处理问题也不保证问题已彻底解决。参见：[DBP 对 menangani 的释义与用法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menangani)、[马来西亚政府指南中的 tanganinya 实例](https://www.smecorp.gov.my/images/pdf/2024/PDF_EBook_Panduan_Am_KKP.pdf)。",
+      "collocations": [
+        {
+          "ms": "tanganinya dengan segera",
+          "zh": "立即处理它",
+          "en": "handle it immediately"
+        },
+        {
+          "ms": "tanganinya dengan berhemah",
+          "zh": "审慎得体地处理它",
+          "en": "handle it tactfully"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用手打他或她；通过殴打加以惩戒。属于词基的少用义，具体所指依上下文确定。",
+      "en_definition": "Strike or beat him or her with the hand as punishment; an uncommon sense.",
+      "ms_definition": "Pukul orang yang dirujuk dengan tangan supaya jera.",
+      "nuances": "来自 DBP 所收 menangani 的“用手殴打以示惩戒”义；本词形释义为据此推导。现代读者通常先想到“处理”，只有明确的人物与动作语境才支持此义。以下搭配用于辨认少用义，不代表现代高频表达。词基依据：[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menangani)。",
+      "collocations": [
+        {
+          "ms": "jangan tanganinya",
+          "zh": "不要打他或她",
+          "en": "do not hit him or her"
+        },
+        {
+          "ms": "tanganinya supaya jera",
+          "zh": "打他或她以示惩戒",
+          "en": "beat him or her as punishment"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Jika terdapat aduan pelanggan, sila tanganinya dengan segera mengikut prosedur yang ditetapkan.",
+      "zh": "如有客户投诉，请立即按照既定程序处理。",
+      "en": "If a customer complaint is received, please handle it promptly in accordance with the established procedure."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aduan tu dah masuk. Tolong tanganinya dulu ya, aku nak masuk mesyuarat.",
+      "ms_standard": "Aduan itu sudah diterima. Tolong tangani aduan itu dahulu kerana saya hendak menghadiri mesyuarat.",
+      "zh": "投诉已经收到了。麻烦你先处理一下，我要去开会了。",
+      "en": "The complaint's come in. Please take care of it first; I'm heading into a meeting.",
+      "spoken_features": [
+        "tu 对应 itu，dah 对应 sudah，nak 对应 hendak",
+        "ya 缓和请求语气",
+        "tanganinya 在工作聊天中带有书面语色彩，熟人也常说 uruskan dulu 或 tangani benda tu"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Aduan tu dah masuk. Tolong tanganinya dulu ya, aku nak masuk mesyuarat.",
+          "ms_standard": "Aduan itu sudah diterima. Tolong tangani aduan itu dahulu kerana saya hendak menghadiri mesyuarat.",
+          "zh": "投诉已经收到了。麻烦你先处理一下，我要去开会了。",
+          "en": "The complaint's come in. Please take care of it first; I'm heading into a meeting."
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Boleh, aku semak dulu. Nanti aku bagitahu kau kalau perlukan bantuan.",
+          "ms_standard": "Baik, saya akan menyemaknya dahulu. Saya akan memberitahu kamu kemudian jika bantuan diperlukan.",
+          "zh": "行，我先看看。需要帮忙的话再跟你说。",
+          "en": "Sure, I'll take a look first. I'll let you know if I need a hand."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The underlying Malay noun tangan means hand. Its derived verb menangani covers undertaking or dealing with something, alongside an older sense involving striking with the hand. Tanganinya adds the attached pronoun -nya to tangani. The hand-to-action connection provides a useful learning image, while the immediate context identifies what or whom the action concerns. Source: [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menangani).",
+    "cognitive_memory_aid": "tangan 是“手”，tangani 联想“动手处理”，-nya 指回前文对象：tanganinya＝“把它处理好”。“他的手”则是 tangannya，少了中间的 i。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独命令 Tanganinya! 语气直接。请同事协助时可加 tolong、sila 或 ya；面对上级或客户，宜明确说明所需协助。",
+    "usage_etiquette": "适用于已有明确前文对象的任务安排；对象可能不清楚时，直接说 tangani aduan itu 更明白。涉及具体人物时应交代是在处理其诉求，避免让少用的殴打义造成歧义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独命令 Tanganinya! 语气直接。请同事协助时可加 tolong、sila 或 ya；面对上级或客户，宜明确说明所需协助。",
+    "usage_etiquette": "适用于已有明确前文对象的任务安排；对象可能不清楚时，直接说 tangani aduan itu 更明白。涉及具体人物时应交代是在处理其诉求，避免让少用的殴打义造成歧义。"
+  }
+}

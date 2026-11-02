@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "baylor",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11303,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "baylor",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + baylor → baylor",
+    "pattern_note": "输入缺少释义及上下文，不能核定为马来语普通词。若指专名 Baylor，应保留大写并整词记忆；不拆成 bay + -lor。未确认具体指称，音标和爪夷文保留 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "若原文指专名 Baylor，则为姓氏或机构名称中的组成部分，例如美国贝勒大学；当前输入不足以确定具体所指。",
+      "en_definition": "If intended as the proper name Baylor, a surname or an element in an institutional name, such as Baylor University; the intended referent is unresolved.",
+      "ms_definition": "Jika yang dimaksudkan ialah nama khas Baylor, nama keluarga atau unsur nama institusi seperti Baylor University; rujukan sebenar dalam input belum dapat dipastikan.",
+      "nuances": "这是有条件的专名辨识，不是已核实的 DBP 普通词义。下列为大学语境中的名称组合与示例，不声称属于马来语高频搭配。Baylor University 的名称可由该校资料核实。[Baylor 官方校史](https://about.web.baylor.edu/heritage/baylor-history/naming-baylor)",
+      "collocations": [
+        {
+          "ms": "Universiti Baylor",
+          "zh": "贝勒大学",
+          "en": "Baylor University"
+        },
+        {
+          "ms": "pelajar Universiti Baylor",
+          "zh": "贝勒大学的学生",
+          "en": "a Baylor University student"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育事务 / 专名用法示例，假定所指为 Baylor University",
+      "ms": "Nama Baylor University dikekalkan dalam senarai institusi yang dilampirkan pada laporan tersebut.",
+      "zh": "该报告所附的院校名单保留了 Baylor University 这一名称。",
+      "en": "The name Baylor University is retained in the list of institutions attached to the report."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 讨论大学申请，假定所指为 Baylor University",
+      "ms_spoken": "Kau nak mohon masuk Baylor ke?",
+      "ms_standard": "Adakah kamu hendak memohon kemasukan ke Universiti Baylor?",
+      "zh": "你想申请贝勒大学吗？",
+      "en": "Are you planning to apply to Baylor?",
+      "spoken_features": [
+        "kau 用于熟人之间",
+        "nak 对应 hendak",
+        "句末 ke 表示口语疑问",
+        "在已明确所指时，将大学名称简称为 Baylor"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah tengok syarat masuk Baylor ke?",
+          "ms_standard": "Adakah kamu sudah menyemak syarat kemasukan ke Universiti Baylor?",
+          "zh": "你看过贝勒大学的入学要求了吗？",
+          "en": "Have you checked Baylor's entry requirements?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah, aku nak semak syarat biasiswa pula kat laman web dia.",
+          "ms_standard": "Sudah, saya hendak menyemak pula syarat biasiswa di laman web universiti itu.",
+          "zh": "看过了，我接下来想在它的网站上查奖学金要求。",
+          "en": "Yes. Next I'm going to check the scholarship requirements on its website."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "If this token refers to Baylor University, its institutional name commemorates Judge Robert Emmett Bledsoe Baylor. The university's account explains that other names were considered before Baylor was selected for the institution chartered in 1845. This documents the university's naming, not the deeper origin of the surname or the unidentified lowercase input. [Baylor official history](https://about.web.baylor.edu/heritage/baylor-history/naming-baylor)",
+    "cognitive_memory_aid": "先把小写 baylor 提醒为“待辨识名称”；若上下文确认是贝勒大学，再将大写 Baylor 与“贝勒”对应记忆。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "指人或机构时保留其正式拼写及大写形式；正式文件首次提及时使用完整名称，方便读者确认所指。",
+    "usage_etiquette": "只有在上下文明确后才使用 Baylor 作为简称；不能仅凭这一字符串判定它指大学、医院、某个人或其他机构。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "指人或机构时保留其正式拼写及大写形式；正式文件首次提及时使用完整名称，方便读者确认所指。",
+    "usage_etiquette": "只有在上下文明确后才使用 Baylor 作为简称；不能仅凭这一字符串判定它指大学、医院、某个人或其他机构。"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "menjejakinya",
+    "syllables": null,
+    "ipa": "/mən.dʒə.dʒa.ki.ɲa/",
+    "jawi": "منججقي",
+    "frequency_rank": 11293,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menjejaki",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "menjejaki + -nya → menjejakinya；底层构词：meN- + jejak + -i → menjejaki",
+    "pattern_note": "依输入包保留root_word为直接基底menjejaki；实际词根为jejak。meN-在j前采用men-，j保留；-nya在此为第三人称宾语附着形式，指他、她、它或前述对象。输入Jawi仅对应menjejaki，缺少-nya，完整形式可写作منججقيڽ；headword.jawi仍忠实保留原包。音节字段原为null，保持不变。",
+    "word_family": [
+      {
+        "word": "jejak",
+        "affix": "∅",
+        "gloss": "足迹；痕迹"
+      },
+      {
+        "word": "menjejaki",
+        "affix": "meN-…-i",
+        "gloss": "循迹追踪；查寻"
+      },
+      {
+        "word": "dijejaki",
+        "affix": "di-…-i",
+        "gloss": "被追踪；被查寻"
+      },
+      {
+        "word": "penjejakan",
+        "affix": "peN-…-an",
+        "gloss": "追踪的过程或行为"
+      }
+    ],
+    "root_jawi": "منججقي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "踏上或踩到前文所指的地面、土地或地方。",
+      "en_definition": "To tread on it or set foot on the previously mentioned ground or place.",
+      "ms_definition": "Menginjak tanah, permukaan atau tempat yang telah disebut.",
+      "nuances": "对应DBP对menjejaki所列的menginjak义；具体宾语由-nya回指。此义受宾语限制，不能套用于所有人或物；日常表达踏足某地时也常用menjejakkan kaki。[义项依据：DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=menjejaki)。",
+      "collocations": [
+        {
+          "ms": "menjejakinya buat kali pertama",
+          "zh": "首次踏上该处土地",
+          "en": "to set foot on it for the first time"
+        },
+        {
+          "ms": "belum pernah menjejakinya",
+          "zh": "从未踏足该处",
+          "en": "to have never set foot there"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "沿着足迹、留下的痕迹或行进路线追踪前述的人或动物。",
+      "en_definition": "To track the previously mentioned person or animal by following footprints, traces, or a route.",
+      "ms_definition": "Mengikuti jejak atau kesan perjalanan orang atau haiwan yang telah disebut.",
+      "nuances": "-nya可指男性、女性或动物，不标示性别；本身也不表达过去时。强调循迹追踪，不保证已找到对象。[义项依据：DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=menjejaki)。",
+      "collocations": [
+        {
+          "ms": "menjejakinya melalui kesan tapak kaki",
+          "zh": "循着脚印追踪他或它",
+          "en": "to track someone or an animal by their footprints"
+        },
+        {
+          "ms": "berusaha menjejakinya di dalam hutan",
+          "zh": "努力在森林里追踪他或它",
+          "en": "to try to track someone or an animal through the forest"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "依据线索、记录或行为信息查找前述对象的下落，或追查其活动与来历。",
+      "en_definition": "To trace or investigate the whereabouts, activities, or history of the previously mentioned person or thing.",
+      "ms_definition": "Mengesan atau menyiasat kedudukan, pergerakan, kegiatan atau riwayat seseorang atau sesuatu yang telah disebut.",
+      "nuances": "由实体足迹扩展为抽象线索，可涉及人物、包裹、记录或历史对象。-nya在这里通常是宾语，不能机械译成“他的追踪”。[义项依据：DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=123312&keyword=menjejaki)。",
+      "collocations": [
+        {
+          "ms": "menjejakinya melalui rekod transaksi",
+          "zh": "通过交易记录追查该对象",
+          "en": "to trace someone or something through transaction records"
+        },
+        {
+          "ms": "masih cuba menjejakinya",
+          "zh": "仍在尝试查找其下落",
+          "en": "to still be trying to trace someone or something"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 搜救进展汇报",
+      "ms": "Seorang pendaki dilaporkan hilang semalam, dan pasukan penyelamat sedang menjejakinya berdasarkan maklumat lokasi terakhir.",
+      "zh": "昨日有人报告一名登山者失踪，救援队正依据其最后出现位置的信息追踪其下落。",
+      "en": "A hiker was reported missing yesterday, and the rescue team is tracing the hiker using information about the last known location."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友寻找走失宠物",
+      "ms_spoken": "Kucing tu belum jumpa lagi; kami dah cuba menjejakinya kat taman belakang.",
+      "ms_standard": "Kucing itu masih belum ditemukan; kami sudah cuba menjejakinya di taman belakang.",
+      "zh": "那只猫还没找到；我们已经试着到后面的公园找它的踪迹了。",
+      "en": "We still haven't found the cat; we've tried tracking it in the park out back.",
+      "spoken_features": [
+        "tu是itu的口语缩略形式。",
+        "dah对应sudah，kat在此对应di。",
+        "belum jumpa lagi省略了可由语境理解的成分。",
+        "menjejakinya较书面，日常口语更常说cari dia或cari kucing tu；聊天中仍可使用完整形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kucing tu hilang lagi. Kami dah cuba menjejakinya kat taman belakang.",
+          "ms_standard": "Kucing itu hilang lagi. Kami sudah cuba menjejakinya di taman belakang.",
+          "zh": "那只猫又走丢了。我们已经试着到后面的公园找它的踪迹了。",
+          "en": "The cat's gone missing again. We've tried tracking it in the park out back."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak tolong cari. Ada gambar terbaru tak?",
+          "ms_standard": "Saya mahu membantu mencarinya. Ada gambar terbaharu?",
+          "zh": "我来帮忙找。有它最近的照片吗？",
+          "en": "I'll help look. Have you got a recent photo?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The semantic starting point is jejak, a footprint or trace. Malay builds menjejaki around that noun, turning a visible mark into the act of following it. Adding -nya identifies an already mentioned target. The same image extends naturally from tracking a person through a forest to tracing someone through records: physical footprints become informational clues.",
+    "cognitive_memory_aid": "抓住jejak“足迹”：menjejaki是循迹追踪，再接-nya，就是“追踪他／她／它”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是标准的完整动词形式，适合新闻、报告及叙述；朋友聊天中使用也正确，但比cari dia更书面。",
+    "usage_etiquette": "先交代-nya所指对象，避免读者误解。谈失踪者、嫌疑人或私人行踪时，应准确说明追踪对象及语境；该词本身不表示对象有罪。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是标准的完整动词形式，适合新闻、报告及叙述；朋友聊天中使用也正确，但比cari dia更书面。",
+    "usage_etiquette": "先交代-nya所指对象，避免读者误解。谈失踪者、嫌疑人或私人行踪时，应准确说明追踪对象及语境；该词本身不表示对象有罪。"
+  }
+}

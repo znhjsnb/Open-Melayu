@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "statik",
+    "syllables": "sta.tik",
+    "ipa": "/sta.tik/",
+    "jawi": "ستاتيک",
+    "frequency_rank": 11248,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "statik",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + statik → statik",
+    "pattern_note": "英语借词，在现代马来语中作为完整词根使用；首音节保留 /a/，不采用输入候选中的英语式 /e/。派生词 menstatikkan 保留词首辅音群 st。",
+    "word_family": [
+      {
+        "word": "menstatikkan",
+        "affix": "meN-...-kan",
+        "gloss": "使静止；使维持不变"
+      },
+      {
+        "word": "kestatikan",
+        "affix": "ke-...-an",
+        "gloss": "静止状态；停滞性"
+      }
+    ],
+    "root_jawi": "ستاتيک"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "静止的；状态、数值或发展程度保持不变的；停滞的。",
+      "en_definition": "Stationary or unchanged; showing no movement, activity, or development.",
+      "ms_definition": "Berada dalam keadaan tidak aktif, tidak bergerak atau tidak berubah, termasuk dari segi kemajuan.",
+      "nuances": "可客观描述静态状态，也可批评发展停滞；不一定含有“稳定、安全”的褒义。技术搭配 elektrik statik 指静电，不是电台杂音。释义依据：[DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=28648&keyword=statik)。",
+      "collocations": [
+        {
+          "ms": "kekal statik",
+          "zh": "保持不变；持续停滞",
+          "en": "remain static"
+        },
+        {
+          "ms": "elektrik statik",
+          "zh": "静电",
+          "en": "static electricity"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "静力学：研究物体在力的作用下处于平衡状态的力学分支。",
+      "en_definition": "Statics: the branch of mechanics concerned with bodies and forces in equilibrium.",
+      "ms_definition": "Cabang mekanik yang mengkaji keseimbangan jasad di bawah tindakan daya.",
+      "nuances": "学科名词，对应英语 statics；与形容词义相关，但词性不同。马来西亚大学课程采用 Statik dan Dinamik 这一学科名称；本条马来语定义为综合释义。参见：[USM 工程力学课程](https://elearning.usm.my/sidang2627/course/info.php?id=2406)。",
+      "collocations": [
+        {
+          "ms": "statik dan dinamik",
+          "zh": "静力学与动力学",
+          "en": "statics and dynamics"
+        },
+        {
+          "ms": "statik bendalir",
+          "zh": "流体静力学",
+          "en": "fluid statics"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Laporan suku tahunan menunjukkan bahawa kadar pengangguran kekal statik pada paras empat peratus.",
+      "zh": "季度报告显示，失业率维持在百分之四，没有变化。",
+      "en": "The quarterly report shows that the unemployment rate remained unchanged at four per cent."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dah tiga bulan gaji aku statik je.",
+      "ms_standard": "Gaji saya tidak berubah sejak tiga bulan yang lalu.",
+      "zh": "我的薪水都三个月没变了。",
+      "en": "My pay hasn't changed for three months.",
+      "spoken_features": [
+        "dah 是 sudah 的口语缩略形式",
+        "je 对应 sahaja，在这里强调一直没有变化",
+        "aku 用于关系熟悉的平辈之间"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah tiga bulan gaji aku statik je.",
+          "ms_standard": "Gaji saya tidak berubah sejak tiga bulan yang lalu.",
+          "zh": "我的薪水都三个月没变了。",
+          "en": "My pay hasn't changed for three months."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Cuba bincang dengan bos dulu lah, mana tahu ada peluang naik gaji.",
+          "ms_standard": "Cubalah berbincang dengan ketua terlebih dahulu; mungkin ada peluang untuk mendapat kenaikan gaji.",
+          "zh": "先跟老板谈谈呗，说不定有机会加薪。",
+          "en": "Try talking to your boss first. You might be able to get a raise."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay borrowed statik from English static. Its deeper history leads through Latin to Greek statikos, associated with standing and weighing. That connection helps explain its scientific uses: balanced forces and bodies at rest. Malay also applies the image to everyday situations, such as salaries or markets that show no change. Sources: [DBP PRPM](https://prpm.dbp.gov.my/Cari1?d=28648&keyword=statik), [Etymonline](https://www.etymonline.com/word/static).",
+    "cognitive_memory_aid": "把 sta- 联想到英语 stand：站着不动，就是 statik；这只是记忆联想，不是马来语构词拆分。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式报告中属于中性分析用词；直接说某人 pemikirannya statik，容易被理解为批评对方思想僵化。",
+    "usage_etiquette": "适合描述数据、价格、画面和发展状态。职场反馈宜说明哪项指标没有变化，避免笼统给人贴上“停滞不前”的标签。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式报告中属于中性分析用词；直接说某人 pemikirannya statik，容易被理解为批评对方思想僵化。",
+    "usage_etiquette": "适合描述数据、价格、画面和发展状态。职场反馈宜说明哪项指标没有变化，避免笼统给人贴上“停滞不前”的标签。"
+  }
+}

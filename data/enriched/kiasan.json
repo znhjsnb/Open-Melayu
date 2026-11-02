@@ -1,0 +1,219 @@
+{
+  "headword": {
+    "word": "kiasan",
+    "syllables": "kia.san",
+    "ipa": "/ki.a.san/",
+    "jawi": "قياسن",
+    "frequency_rank": 11306,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kias",
+    "affix": "-an",
+    "affix_type": "suffix",
+    "formula": "kias + -an → kiasan",
+    "pattern_note": "后缀 -an 构成名词；词根 kias 不发生辅音替换。数据包将派生词误标为词根，现予纠正。保留数据包音节字段 kia.san；IPA 分别标示相邻元音 i、a。词根 Jawi 为 قياس，区别于整词 قياسن。",
+    "word_family": [
+      {
+        "word": "kias",
+        "affix": "∅",
+        "gloss": "比拟；寓意；暗示"
+      },
+      {
+        "word": "berkias",
+        "affix": "ber-",
+        "gloss": "用比喻或暗示说话"
+      },
+      {
+        "word": "mengias",
+        "affix": "meN-",
+        "gloss": "讽示；作类比"
+      },
+      {
+        "word": "mengiaskan",
+        "affix": "meN-…-kan",
+        "gloss": "把某事比作；借比喻表达"
+      },
+      {
+        "word": "berkiasan",
+        "affix": "ber- + -an",
+        "gloss": "使用或含有比喻"
+      }
+    ],
+    "root_jawi": "قياس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "类比：根据另一事物或既有案例的相似之处，对某事作出的比较、判断或推论。",
+      "en_definition": "A comparison or inference based on similarities with another case or thing.",
+      "ms_definition": "Pertimbangan tentang sesuatu perkara melalui perbandingan dengan perkara lain yang mempunyai persamaan.",
+      "nuances": "强调以相似性理解或判断事物。若专指伊斯兰法学的类比推理，须交代专业语境，不能把所有 kiasan 都理解为法律术语。义项及词根依据[DBP：kias](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kias)，马来文释义为改写。",
+      "collocations": [
+        {
+          "ms": "membuat kiasan",
+          "zh": "作类比",
+          "en": "draw an analogy"
+        },
+        {
+          "ms": "menggunakan kiasan",
+          "zh": "运用类比",
+          "en": "use an analogy"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "比喻或譬喻：借另一事物的形象或特征来说明所要表达的对象。",
+      "en_definition": "A figurative comparison used to explain or describe something through another image.",
+      "ms_definition": "Ibarat atau perumpamaan yang digunakan untuk menerangkan sesuatu melalui persamaan dengan perkara lain.",
+      "nuances": "可以涵盖不同形式的比喻表达，并不只限于严格修辞分类中的隐喻；也不要求一定出现 seperti 或 bagai。",
+      "collocations": [
+        {
+          "ms": "bahasa kiasan",
+          "zh": "比喻性语言",
+          "en": "figurative language"
+        },
+        {
+          "ms": "ungkapan kiasan",
+          "zh": "比喻性表达",
+          "en": "a figurative expression"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "不直接点明对象或问题，而借暗示、比喻表达的讽示或批评。",
+      "en_definition": "An indirect critical remark or insinuation conveyed through allusion or comparison.",
+      "ms_definition": "Sindiran atau teguran yang disampaikan secara tidak terus terang.",
+      "nuances": "此义接近 sindiran，但不是所有 kiasan 都含敌意；是否带刺要结合语调、对象及场合判断。",
+      "collocations": [
+        {
+          "ms": "kiasan halus",
+          "zh": "含蓄的讽示",
+          "en": "a subtle insinuation"
+        },
+        {
+          "ms": "kiasan tajam",
+          "zh": "尖锐的讽示",
+          "en": "a pointed insinuation"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "故事、事例等所包含、可供人借鉴的教训或榜样。",
+      "en_definition": "A lesson or instructive example embodied in a story or account.",
+      "ms_definition": "Pengajaran atau teladan yang terkandung dalam cerita atau sesuatu contoh.",
+      "nuances": "强调故事或事例所传达的启示，常见于文学解读；日常直接说“教训”或“启示”时，pengajaran、iktibar 往往更明确。",
+      "collocations": [
+        {
+          "ms": "kiasan dalam cerita",
+          "zh": "故事中的寓意或教训",
+          "en": "the lesson embodied in a story"
+        },
+        {
+          "ms": "kiasan dan teladan",
+          "zh": "寓意与榜样",
+          "en": "moral lessons and examples"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "noun",
+      "zh_definition": "象征：用以代表另一事物、观念或处境的形象或符号。",
+      "en_definition": "An image or symbol representing another thing, idea, or condition.",
+      "ms_definition": "Lambang yang mewakili sesuatu perkara, gagasan atau keadaan.",
+      "nuances": "多见于文学和艺术分析，强调形象背后的象征所指，而非单纯比较两件事物。",
+      "collocations": [
+        {
+          "ms": "kiasan kehidupan",
+          "zh": "人生的象征",
+          "en": "a symbol of life"
+        },
+        {
+          "ms": "kiasan perjuangan",
+          "zh": "奋斗或抗争的象征",
+          "en": "a symbol of struggle"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "pos": "noun",
+      "zh_definition": "区别于字面义的隐含或引申意义；也用于指承载这种意义的词语。",
+      "en_definition": "A figurative meaning distinct from the literal sense, or an expression carrying that meaning.",
+      "ms_definition": "Makna tersirat yang berbeza daripada makna harfiah, atau kata yang membawa makna sedemikian.",
+      "nuances": "常见于 makna kiasan、erti kiasan、kata kiasan。词典缩写 ki 表示相关释义属于比喻或引申用法，不是说该词本身意为“比喻”。",
+      "collocations": [
+        {
+          "ms": "makna kiasan",
+          "zh": "比喻义；引申义",
+          "en": "figurative meaning"
+        },
+        {
+          "ms": "kata kiasan",
+          "zh": "具有比喻义的词语",
+          "en": "a figurative expression"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "教育报道 / 文学分析",
+      "ms": "Penceramah menjelaskan bahawa ungkapan \"tulang belakang organisasi\" ialah kiasan bagi individu yang menjadi tonggak utama organisasi tersebut.",
+      "zh": "讲者解释，“组织的脊梁”是一种比喻，指成为该组织主要支柱的人。",
+      "en": "The speaker explained that \"the backbone of the organization\" is a figurative expression for someone who provides its essential support."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友解释说话含义",
+      "ms_spoken": "Aku guna kiasan je, bukan maksud betul-betul pun.",
+      "ms_standard": "Saya hanya menggunakan kiasan dan tidak bermaksud demikian secara harfiah.",
+      "zh": "我只是打个比方，又不是字面上那个意思。",
+      "en": "I was just speaking figuratively. I didn't mean it literally.",
+      "spoken_features": [
+        "guna 在口语中对应标准形式 menggunakan",
+        "je 对应 sahaja",
+        "betul-betul 在此语境中指按字面理解",
+        "句末 pun 加强否定语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei Ling (朋友)",
+          "ms_spoken": "Kau kata kerja dah menimbun sampai gunung. Banyak sangat ke?",
+          "ms_standard": "Kamu mengatakan bahawa kerja sudah bertimbun seperti gunung. Adakah kerjanya terlalu banyak?",
+          "zh": "你说工作堆得像山一样，真有那么多吗？",
+          "en": "You said you've got a mountain of work. Is there really that much?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kiasan je lah! Tapi memang banyak, aku nak siapkan dua laporan malam ni.",
+          "ms_standard": "Itu hanyalah kiasan. Namun, kerja saya memang banyak kerana saya mahu menyiapkan dua laporan malam ini.",
+          "zh": "打个比方啦！不过确实很多，我今晚想赶完两份报告。",
+          "en": "It's just a figure of speech! But I do have a lot to do. I'm trying to finish two reports tonight."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP marks kias as an Arabic borrowing and records meanings involving comparison, instruction, and indirect criticism. Malay forms kiasan with the noun-forming suffix -an. Its meanings connect reasoning by similarity with figurative expression: a familiar image can explain an unfamiliar situation, communicate a lesson, or deliver criticism without naming its target directly. [DBP](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=kias).",
+    "cognitive_memory_aid": "记住 kias＋-an：把意思借另一幅画面说出来。听到 bahasa kiasan，就想到“话有画面，意在字外”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "含蓄表达在部分马来语社交和文学场合可帮助维护体面，但不能假定所有人都喜欢暗示。向长辈或上司表达不同意见时，仍须注意称呼、语气和具体关系。",
+    "usage_etiquette": "适合文学、演讲及委婉提醒。涉及工作指令、时间、责任或安全要求时，应把实际意思说清楚；在群聊公开使用明显针对某人的 kiasan，仍可能令人难堪。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "含蓄表达在部分马来语社交和文学场合可帮助维护体面，但不能假定所有人都喜欢暗示。向长辈或上司表达不同意见时，仍须注意称呼、语气和具体关系。",
+    "usage_etiquette": "适合文学、演讲及委婉提醒。涉及工作指令、时间、责任或安全要求时，应把实际意思说清楚；在群聊公开使用明显针对某人的 kiasan，仍可能令人难堪。"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "peko",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 11266,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "peko",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + peko → peko",
+    "pattern_note": "按资料包暂作未加缀词根处理；这不构成马来西亚标准词身份的证明。缺少可靠马来语读音依据，因此不推定 e 的音值。下列项目是印尼茶业中的相关词组，不是已核实的马来语派生词。",
+    "word_family": [
+      {
+        "word": "pucuk peko",
+        "affix": null,
+        "gloss": "茶树嫩梢；印尼茶业术语"
+      },
+      {
+        "word": "kuncup peko",
+        "affix": null,
+        "gloss": "尚未展开的茶芽；印尼茶业术语"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "【印尼茶业术语；尚未核实为马来西亚标准马来语】茶树正在生长、尚未展开的顶芽。",
+      "en_definition": "In Indonesian tea cultivation, an actively growing, unopened terminal tea bud; not verified as a standard Malaysian Malay headword.",
+      "ms_definition": "Dalam istilah penanaman teh di Indonesia, tunas pucuk teh yang sedang tumbuh dan belum terbuka.",
+      "nuances": "这是有来源支持的印尼专业用法，不能据此认定其为本资料包所指的马来语义项，也不能冒称为 DBP 官方释义。马来西亚一般说明文字宜用 kuncup teh 或 pucuk teh yang belum terbuka。不要直接等同于英语 pekoe 的成品茶等级。参见[印尼农业部茶树栽培资料](https://repository.pertanian.go.id/server/api/core/bitstreams/08191407-1bdd-41e8-a6a3-f699f5b0903a/content)。",
+      "collocations": [
+        {
+          "ms": "kuncup peko",
+          "zh": "peko 茶芽；印尼专业搭配",
+          "en": "a peko tea bud, in Indonesian terminology"
+        },
+        {
+          "ms": "pucuk peko",
+          "zh": "peko 茶梢；印尼专业搭配",
+          "en": "a peko tea shoot, in Indonesian terminology"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报；引用印尼茶业资料",
+      "ms": "Dalam panduan penanaman teh dari Indonesia itu, istilah 'peko' digunakan untuk merujuk kepada kuncup pucuk teh.",
+      "zh": "在该印尼茶树栽培指南中，peko 一词用于指茶树梢头的嫩芽。",
+      "en": "In that Indonesian tea cultivation guide, the term 'peko' refers to a terminal tea bud."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流；询问资料中的专业词",
+      "ms_spoken": "Peko dalam artikel ni maksudnya pucuk teh ke?",
+      "ms_standard": "Adakah 'peko' dalam artikel ini bermaksud pucuk teh?",
+      "zh": "这篇文章里的 peko 是指茶芽吗？",
+      "en": "Does 'peko' in this article mean a tea bud?",
+      "spoken_features": [
+        "ni 对应 ini",
+        "ke 是口语疑问标记",
+        "dah 对应 sudah",
+        "tu 对应 itu"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (同事)",
+          "ms_spoken": "Aku dah baca artikel Indonesia tu. Peko ni maksudnya pucuk teh ke?",
+          "ms_standard": "Saya sudah membaca artikel Indonesia itu. Adakah 'peko' bermaksud pucuk teh?",
+          "zh": "我看完那篇印尼文章了。peko 是指茶芽吗？",
+          "en": "I've read that Indonesian article. Does 'peko' mean a tea bud?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Ya, dalam artikel tu maksudnya kuncup teh yang belum terbuka. Kita tulis kuncup teh je supaya jelas.",
+          "ms_standard": "Ya, dalam artikel itu, istilah tersebut bermaksud kuncup teh yang belum terbuka. Kita gunakan frasa 'kuncup teh' sahaja supaya jelas.",
+          "zh": "对，那篇文章里指还没展开的茶芽。我们就写“茶芽”吧，比较清楚。",
+          "en": "Yes, in that article it means an unopened tea bud. Let's just write 'tea bud' to keep it clear."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Indonesian tea-growing sources document peko for a developing tea bud. English pekoe, a tea-grade term, is traced by the American Heritage Dictionary to an Amoy expression meaning white down, probably referring to fine hairs on young leaves. That resemblance suggests a research lead, but does not establish peko's borrowing route or its standing in Malaysian Malay. See [American Heritage: pekoe](https://ahdictionary.com/word/search.html?q=pekoe).",
+    "cognitive_memory_aid": "仅为这里记录的印尼专业义记忆：看见 peko，就想象茶梢顶端尚未展开的一枚嫩芽；不据此推定马来语读音或词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "向马来西亚读者介绍时，先说明这是所引印尼资料中的术语，并补上 kuncup teh，避免默认对方熟悉。",
+    "usage_etiquette": "适合有明确来源的跨国茶业交流或资料翻译。目前不宜作为已获 DBP 核实的标准马来语词条发布；资料包缺失的 Jawi、分音节和读音均保留为 null。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "向马来西亚读者介绍时，先说明这是所引印尼资料中的术语，并补上 kuncup teh，避免默认对方熟悉。",
+    "usage_etiquette": "适合有明确来源的跨国茶业交流或资料翻译。目前不宜作为已获 DBP 核实的标准马来语词条发布；资料包缺失的 Jawi、分音节和读音均保留为 null。"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "menyuruhmu",
+    "syllables": "me.nyu.ruh.mu",
+    "ipa": "/mə.ɲu.ruh.mu/",
+    "jawi": "مڽوروه",
+    "frequency_rank": 11256,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyuruh",
+    "affix": "-mu",
+    "affix_type": "none",
+    "formula": "meN- + suruh → menyuruh; menyuruh + -mu → menyuruhmu",
+    "pattern_note": "按输入保留直接基础 menyuruh；更底层词根是 suruh。meN- 遇词首 s 时，s 脱落，形成 meny-。-mu 是表示第二人称宾语的附着代词，并非派生后缀，故 affix_type 标为 none。输入 Jawi مڽوروه 只对应 menyuruh；完整 menyuruhmu 应写作 مڽوروهمو。音节划分依据完整词形补全。",
+    "word_family": [
+      {
+        "word": "suruhan",
+        "affix": "-an",
+        "gloss": "吩咐；受差遣的人"
+      },
+      {
+        "word": "pesuruh",
+        "affix": "pe-",
+        "gloss": "受派遣者；勤杂员"
+      }
+    ],
+    "root_jawi": "مڽوروه"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "吩咐你、叫你或命令你做某事。",
+      "en_definition": "To tell, direct, or order you to do something.",
+      "ms_definition": "Memberikan arahan atau meminta kamu melakukan sesuatu.",
+      "nuances": "-mu 指接受指示的‘你’，不是发出指示的人。语气强弱取决于说话者身份及上下文；可译为‘叫你’，也可译为‘命令你’。以下马来语释义据 DBP 改写，并加入 -mu 的宾语意义。[DBP：menyuruh](https://prpm.dbp.gov.my/Cari1?d=7876&keyword=menyuruh)",
+      "collocations": [
+        {
+          "ms": "menyuruhmu menunggu",
+          "zh": "叫你等候",
+          "en": "tell you to wait"
+        },
+        {
+          "ms": "menyuruhmu bekerja",
+          "zh": "叫你工作",
+          "en": "tell you to work"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "叫你前往某处；派你去办事。",
+      "en_definition": "To send you somewhere, especially to carry out an errand or task.",
+      "ms_definition": "Mengarahkan kamu pergi ke sesuatu tempat, biasanya untuk menjalankan sesuatu urusan.",
+      "nuances": "突出‘派你去’而非单纯要求完成动作，常接 ke 加目的地；可以补出前往该处的任务。",
+      "collocations": [
+        {
+          "ms": "menyuruhmu ke kedai",
+          "zh": "叫你去商店",
+          "en": "send you to the shop"
+        },
+        {
+          "ms": "menyuruhmu ke pejabat",
+          "zh": "叫你去办公室",
+          "en": "send you to the office"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场培训 / 安全指引",
+      "ms": "Jika penyelia menyuruhmu mengendalikan mesin itu, pastikan kamu telah menerima latihan yang diperlukan.",
+      "zh": "如果主管叫你操作那台机器，务必确认自己已接受所需培训。",
+      "en": "If your supervisor tells you to operate that machine, make sure you have received the necessary training."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友之间略带戏剧感的调侃",
+      "ms_spoken": "Eh, siapa yang menyuruhmu datang awal sangat ni?",
+      "ms_standard": "Siapakah yang menyuruhmu datang begitu awal?",
+      "zh": "诶，谁叫你这么早来的呀？",
+      "en": "Hey, who told you to come so early?",
+      "spoken_features": [
+        "Eh 用于引起注意或表达意外。",
+        "ni 是 ini 的口语形式，在此突出眼前情境。",
+        "menyuruhmu 带书面或戏剧语感；普通聊天更常说 suruh kau 或 suruh awak。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Eh, siapa yang menyuruhmu datang awal sangat ni?",
+          "ms_standard": "Siapakah yang menyuruhmu datang begitu awal?",
+          "zh": "诶，谁叫你这么早来的呀？",
+          "en": "Hey, who told you to come so early?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau lah! Semalam kau dah pesan jangan lambat.",
+          "ms_standard": "Kamulah! Semalam kamu sudah berpesan supaya saya tidak lewat.",
+          "zh": "就是你啊！你昨天还交代我别迟到。",
+          "en": "You did! Yesterday you told me not to be late."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form brings together two familiar Malay resources: the verb suruh, expressing an instruction, and the attached pronoun -mu, meaning you here. The active prefix produces menyuruh through a regular sound change. In literary dialogue, the compact ending can make an instruction feel personal or dramatic; everyday conversation often uses a separate pronoun instead.",
+    "cognitive_memory_aid": "先记 suruh＝‘叫人做事’，再把 -mu 当作指向‘你’的小箭头：menyuruhmu＝叫你做。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-mu 适合亲近关系、文学表达或特定修辞语境；对陌生人、客户或上级，宜按关系使用 anda、tuan、puan 或职称。",
+    "usage_etiquette": "描述别人下达指示时很自然；直接向人提出请求时，视关系改用 boleh、tolong 或 sila，通常更得体。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-mu 适合亲近关系、文学表达或特定修辞语境；对陌生人、客户或上级，宜按关系使用 anda、tuan、puan 或职称。",
+    "usage_etiquette": "描述别人下达指示时很自然；直接向人提出请求时，视关系改用 boleh、tolong 或 sila，通常更得体。"
+  }
+}

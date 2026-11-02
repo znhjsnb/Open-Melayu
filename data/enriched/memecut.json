@@ -1,0 +1,164 @@
+{
+  "headword": {
+    "word": "memecut",
+    "syllables": "me.me.cut",
+    "ipa": "/məmət͡ʃut/",
+    "jawi": "ممچوت",
+    "frequency_rank": 11282,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "memecut",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + pecut → memecut",
+    "pattern_note": "meN- 遇词首 p 时实现为 mem-，原来的 p 脱落。root_word 与 root_jawi 按数据包保留，但其实际构词词根是 pecut（ڤچوت）；数据包把 memecut 标为根词有误。",
+    "word_family": [
+      {
+        "word": "pecutan",
+        "affix": "-an",
+        "gloss": "加速；加速度"
+      },
+      {
+        "word": "pemecutan",
+        "affix": "peN-…-an",
+        "gloss": "加速过程"
+      }
+    ],
+    "root_jawi": "ممچوت"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用鞭子抽打；鞭打，尤指驱赶牲畜。",
+      "en_definition": "To strike with a whip, especially to drive an animal forward.",
+      "ms_definition": "Memukul dengan menggunakan pecut atau cambuk, lazimnya untuk menggerakkan haiwan.",
+      "nuances": "本义为及物用法，宾语是受鞭打者。这里描述的是动作，不表示“奔跑”。以下各义依据 DBP 列出的义项综合表述。[PRPM：memecut](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=memecut)。",
+      "collocations": [
+        {
+          "ms": "memecut kuda",
+          "zh": "用鞭子驱赶马",
+          "en": "to whip a horse"
+        },
+        {
+          "ms": "memecut kerbau",
+          "zh": "用鞭子驱赶水牛",
+          "en": "to whip a buffalo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "比喻催动、激励或刺激，使活动、发展等更加积极或迅速。",
+      "en_definition": "To spur, stimulate, or intensify an activity or development.",
+      "ms_definition": "Mendorong sesuatu kegiatan atau usaha supaya menjadi lebih giat atau berkembang dengan lebih cepat.",
+      "nuances": "由鞭子催动牲畜的意象引申而来。用于经济、发展或工作时带有推动力度；日常礼貌建议可用 menggalakkan 或 mendorong，语气较柔和。",
+      "collocations": [
+        {
+          "ms": "memecut pertumbuhan ekonomi",
+          "zh": "推动经济加快增长",
+          "en": "to accelerate economic growth"
+        },
+        {
+          "ms": "memecut pembangunan",
+          "zh": "加快发展",
+          "en": "to accelerate development"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "加速前进；突然加快跑动或行驶速度。",
+      "en_definition": "To accelerate, speed up, or put on a burst of speed.",
+      "ms_definition": "Bergerak atau berlari dengan kelajuan yang meningkat dengan ketara berbanding sebelumnya.",
+      "nuances": "可作不及物动词，主语可以是跑者或车辆。体育语境常译为“冲刺”；交通语境不必然表示超速，是否违法取决于实际车速和道路限制。",
+      "collocations": [
+        {
+          "ms": "memecut ke garisan penamat",
+          "zh": "向终点线冲刺",
+          "en": "to sprint towards the finish line"
+        },
+        {
+          "ms": "memecut keluar dari selekoh",
+          "zh": "加速驶出弯道",
+          "en": "to accelerate out of a bend"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "使车辆等加速；加快所驾驶车辆的速度。",
+      "en_definition": "To make a vehicle move faster; to accelerate a vehicle.",
+      "ms_definition": "Menjadikan kenderaan atau sesuatu yang dikendalikan bergerak dengan lebih laju.",
+      "nuances": "及物用法，宾语通常是车辆。须区分 kereta memecut（车在加速）与 pemandu memecut kereta（司机使车加速）。",
+      "collocations": [
+        {
+          "ms": "memecut kereta",
+          "zh": "加速驾驶汽车",
+          "en": "to accelerate a car"
+        },
+        {
+          "ms": "memecut motosikal",
+          "zh": "加速驾驶摩托车",
+          "en": "to accelerate a motorcycle"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "体育新闻 / 赛事报道",
+      "ms": "Pelari negara itu memecut pada 100 meter terakhir sebelum melintasi garisan penamat di tempat pertama.",
+      "zh": "那名国家队跑者在最后100米加速冲刺，率先冲过终点线。",
+      "en": "The national runner accelerated over the final 100 metres and crossed the finish line first."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论跑步训练",
+      "ms_spoken": "Aku dah penat, tapi dia masih boleh memecut lagi!",
+      "ms_standard": "Saya sudah penat, tetapi dia masih mampu memecut!",
+      "zh": "我都累了，他居然还能继续冲刺！",
+      "en": "I’m already tired, but he can still sprint!",
+      "spoken_features": [
+        "aku 用于熟悉的同辈。",
+        "dah 是 sudah 的口语形式。",
+        "tapi 是 tetapi 的常见口语形式。",
+        "je 是 sahaja 的口语形式。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (跑友)",
+          "ms_spoken": "Aku dah penat, tapi dia masih boleh memecut lagi!",
+          "ms_standard": "Saya sudah penat, tetapi dia masih mampu memecut!",
+          "zh": "我都累了，他居然还能继续冲刺！",
+          "en": "I’m already tired, but he can still sprint!"
+        },
+        {
+          "speaker": "Farah (跑友)",
+          "ms_spoken": "Dia memang selalu berlatih. Kita ikut rentak sendiri je.",
+          "ms_standard": "Dia memang kerap berlatih. Kita berlari mengikut kemampuan sendiri sahaja.",
+          "zh": "他平时经常练嘛，咱们按自己的节奏跑就行。",
+          "en": "He trains regularly. Let’s just stick to our own pace."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay pecut names a whip. Its active verb memecut links the physical act of whipping with the resulting increase in movement. Dictionary senses extend this connection to runners, vehicles, and figurative stimulation. The relationship provides a memorable semantic bridge from an implement to an action and then to acceleration, without requiring an invented historical borrowing story. [PRPM: pecut](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=pecut).",
+    "cognitive_memory_aid": "pecut 是鞭子：想象挥鞭后马突然加速。meN- 吃掉 p，变成 memecut：鞭打 → 催动 → 加速。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "体育报道中语气中性。若用鞭打意象形容督促同事，可能显得强硬；正式沟通可选 mendorong 或 menggalakkan。",
+    "usage_etiquette": "用于冲刺、车辆加速或推动发展。描述道路行为时，应根据事实区分加速、快速行驶和超速；超速可明确说 melebihi had laju。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "体育报道中语气中性。若用鞭打意象形容督促同事，可能显得强硬；正式沟通可选 mendorong 或 menggalakkan。",
+    "usage_etiquette": "用于冲刺、车辆加速或推动发展。描述道路行为时，应根据事实区分加速、快速行驶和超速；超速可明确说 melebihi had laju。"
+  }
+}
