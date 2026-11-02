@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "diancam",
+    "syllables": null,
+    "ipa": "/diˈant͡ʃam/",
+    "jawi": null,
+    "frequency_rank": 10961,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ancam",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + ancam → diancam",
+    "pattern_note": "di- 是被动前缀，与词根连写；ancam 的拼写不变，不发生 meN- 类鼻音变化。词包将整词标为词根，此处依据实际构词更正。",
+    "word_family": [
+      {
+        "word": "mengancam",
+        "affix": "meN-",
+        "gloss": "威胁；危及"
+      },
+      {
+        "word": "ancaman",
+        "affix": "-an",
+        "gloss": "威胁；潜在危险"
+      },
+      {
+        "word": "terancam",
+        "affix": "ter-",
+        "gloss": "处于受威胁状态的"
+      },
+      {
+        "word": "pengancam",
+        "affix": "peN-",
+        "gloss": "威胁者"
+      }
+    ],
+    "root_jawi": "انچم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "受到恐吓或威胁；有人扬言伤害当事人，或使其遭受损失。",
+      "en_definition": "To be threatened or intimidated with harm or adverse consequences.",
+      "ms_definition": "Dikenakan ugutan bahawa sesuatu yang membahayakan, menyusahkan atau merugikan akan dilakukan.",
+      "nuances": "这是 mengancam 的被动形式，突出受威胁的一方。可用 oleh 引出威胁者，如 saksi diancam oleh suspek。规范书面语中，第一、第二人称施事通常采用 saya ancam、awak ancam 等结构。此处释义按被动形式转述，依据 [DBP：ancam](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=ancam)。",
+      "collocations": [
+        {
+          "ms": "diancam bunuh",
+          "zh": "受到死亡威胁",
+          "en": "be threatened with death"
+        },
+        {
+          "ms": "diancam oleh penjenayah",
+          "zh": "受到犯罪分子的威胁",
+          "en": "be threatened by criminals"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "受到某种危险、灾害或不利因素的威胁；面临受损或毁灭的风险。",
+      "en_definition": "To be endangered or placed at risk by a harmful condition, event, or process.",
+      "ms_definition": "Diletakkan dalam keadaan menghadapi bahaya, kerosakan, kemusnahan atau kesusahan akibat sesuatu.",
+      "nuances": "威胁来源可以是洪水、污染或其他非人为因素，不要求有人故意恐吓。diancam 强调受到某因素威胁；terancam 更直接描述危险状态。不要把 mengancam 在口语中表示“很吸引人”的用法机械套到 diancam。依据 [DBP：ancam](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=ancam)。",
+      "collocations": [
+        {
+          "ms": "diancam kepupusan",
+          "zh": "受到灭绝威胁",
+          "en": "be threatened with extinction"
+        },
+        {
+          "ms": "diancam banjir",
+          "zh": "受到洪水威胁",
+          "en": "be threatened by flooding"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Beberapa spesies hidupan liar di kawasan itu diancam kepupusan akibat kehilangan habitat.",
+      "zh": "该地区的数种野生动物因栖息地流失而面临灭绝威胁。",
+      "en": "Several wildlife species in the area are threatened with extinction because of habitat loss."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Dia dah diancam dalam mesej tu, sebab tu dia takut nak keluar.",
+      "ms_standard": "Dia sudah diancam melalui mesej itu; oleh sebab itu, dia takut untuk keluar.",
+      "zh": "他已经在那条信息里受到威胁了，所以不敢出门。",
+      "en": "He was threatened in that message, so he's scared to go out.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "tu 对应 itu",
+        "sebab tu 对应 oleh sebab itu",
+        "nak 对应 hendak 或表示意愿的 untuk 结构"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Amir dah diancam kat WhatsApp. Dia takut nak keluar rumah.",
+          "ms_standard": "Amir sudah diancam melalui WhatsApp. Dia takut untuk keluar dari rumah.",
+          "zh": "阿米尔在 WhatsApp 上受到威胁了。他现在不敢出门。",
+          "en": "Amir's been threatened on WhatsApp. He's scared to leave the house."
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Aku dah suruh dia simpan mesej tu. Nanti aku teman dia buat laporan polis.",
+          "ms_standard": "Saya sudah menyuruhnya menyimpan mesej itu. Nanti saya akan menemaninya membuat laporan polis.",
+          "zh": "我已经叫他把那条信息保存好了。待会儿我陪他去报警。",
+          "en": "I've told him to save the message. I'll go with him to file a police report later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Diancam belongs to the Malay ancam family rather than being an independent root. The passive prefix di- places the threatened person or thing in focus. DBP records both intimidation and exposure to danger under mengancam, explaining how the same family describes a threatened witness and a community endangered by a volcanic eruption. [Source: DBP](https://prpm.dbp.gov.my/Cari1?d=274052&keyword=ancam).",
+    "cognitive_memory_aid": "先认 di-＝“被”，再认 ancam＝“威胁”：diancam 就是“被威胁”。和主动式 mengancam 配对记。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这个词语气严肃。报告事实时明确谁受到威胁、威胁通过什么方式发生；尚未核实的情况可说 dilaporkan diancam 或 didakwa diancam。",
+    "usage_etiquette": "适合新闻、投诉、职场安全及环境保护语境。谈论受威胁者时避免责备或嘲笑，也不要把具体的恐吓经历随意当作玩笑。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这个词语气严肃。报告事实时明确谁受到威胁、威胁通过什么方式发生；尚未核实的情况可说 dilaporkan diancam 或 didakwa diancam。",
+    "usage_etiquette": "适合新闻、投诉、职场安全及环境保护语境。谈论受威胁者时避免责备或嘲笑，也不要把具体的恐吓经历随意当作玩笑。"
+  }
+}

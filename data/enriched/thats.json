@@ -1,0 +1,113 @@
+{
+  "headword": {
+    "word": "thats",
+    "syllables": null,
+    "ipa": "/ðæts/",
+    "jawi": null,
+    "frequency_rank": 10914,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "thats",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "thats → that's → that is / that has（英语拼写规范化及缩略展开）",
+    "pattern_note": "保留数据包的词根登记，但 is_root 不代表它是标准马来语词根。这里按英语 that's 漏写撇号理解；没有马来语词缀。音标对应规范英语 that's，而非已核验的马来语读音。[Cambridge：that's](https://dictionary.cambridge.org/us/dictionary/english/that-s)",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": null,
+      "zh_definition": "通常是英语 that's 漏写撇号的非规范写法；展开为 that is，具体可译为“那是”“那就”或“那样”。",
+      "en_definition": "A nonstandard spelling of English that's, when it represents that is.",
+      "ms_definition": "Ejaan tidak baku bagi bentuk singkat bahasa Inggeris that's yang mewakili that is; padanan bahasa Melayunya bergantung pada konteks, misalnya itu atau itulah.",
+      "nuances": "不是已核验的标准马来语词条，也没有可提供的官方 DBP 释义。pos 为 null，因为英语代词与动词组成的缩略结构不能准确归入题定的单一词性。以下搭配保留输入中的非规范拼写，用于辨识；规范英语应写 that's。[Cambridge：that's](https://dictionary.cambridge.org/us/dictionary/english/that-s)",
+      "collocations": [
+        {
+          "ms": "thats right",
+          "zh": "对；没错（非规范英语拼写）",
+          "en": "that's right"
+        },
+        {
+          "ms": "thats all",
+          "zh": "就这些；到此为止（非规范英语拼写）",
+          "en": "that's all"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": null,
+      "zh_definition": "也可对应英语 that has 的缩略形式，常与过去分词连用，表示“那已经……”或引导“已经……的”修饰结构。",
+      "en_definition": "A nonstandard spelling of English that's, when it represents that has.",
+      "ms_definition": "Ejaan tidak baku bagi bentuk singkat bahasa Inggeris that's yang mewakili that has; lazimnya diikuti kata kerja dalam bentuk past participle.",
+      "nuances": "须根据后文判断 's 代表 is 还是 has，不能逐字把 has 一律译为“拥有”。本项是英语缩略形式的解释，马来文释义为编写说明。[Cambridge：that's](https://dictionary.cambridge.org/us/dictionary/english/that-s)",
+      "collocations": [
+        {
+          "ms": "thats been resolved",
+          "zh": "那已经解决了（非规范英语拼写）",
+          "en": "that's been resolved"
+        },
+        {
+          "ms": "thats happened before",
+          "zh": "那以前发生过（非规范英语拼写）",
+          "en": "that's happened before"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam petikan bahasa Inggeris itu, ejaan \"thats\" perlu dibetulkan kepada \"that's\".",
+      "zh": "该英文引文中的拼写“thats”需要改为“that's”。",
+      "en": "In that English quotation, the spelling \"thats\" needs to be corrected to \"that's\"."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "thats okay, kita jumpa esok je lah.",
+      "ms_standard": "Tidak mengapa, kita berjumpa esok sahaja.",
+      "zh": "没事啦，我们明天再见吧。",
+      "en": "That's okay, let's just meet tomorrow.",
+      "spoken_features": [
+        "英语 that's okay 与马来语混用",
+        "thats 是漏写撇号的聊天拼写，规范形式为 that's",
+        "je 代替 sahaja",
+        "lah 表达随和或接受安排的语气"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku tak sempat datang hari ni lah. Kerja kat pejabat belum siap.",
+          "ms_standard": "Saya tidak sempat datang hari ini kerana kerja di pejabat belum siap.",
+          "zh": "我今天来不及过去啦，办公室的工作还没做完。",
+          "en": "I can't make it today. I still haven't finished my work at the office."
+        },
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "thats okay, kita jumpa esok je. Aku pun nak balik dah.",
+          "ms_standard": "Tidak mengapa, kita berjumpa esok sahaja. Saya juga sudah hendak pulang.",
+          "zh": "没事，我们明天见就好。我也准备回去了。",
+          "en": "That's okay, let's meet tomorrow. I'm about to head home too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The relevant history here is English contraction rather than Malay derivation. That's combines that with a reduced form of is or has, and its apostrophe marks omitted letters. Writing thats removes that spelling signal. In a mixed Malay chat, the token can therefore reflect an English insertion rather than an established Malay dictionary word.",
+    "cognitive_memory_aid": "看到 thats，先补撇号：that's；再看后文，把它展开成 that is 或 that has。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "英语混用是否合适取决于双方的语言习惯。正式马来文应按意思改写为 tidak mengapa、betul 或其他自然表达；英语书写则补上撇号。",
+    "usage_etiquette": "可作为聊天文本中的非规范形式进行识别，不宜把它教授为官方马来语词汇。纠正他人拼写时可说 Dalam bahasa Inggeris, bentuk bakunya ialah that's，语气较客观。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "英语混用是否合适取决于双方的语言习惯。正式马来文应按意思改写为 tidak mengapa、betul 或其他自然表达；英语书写则补上撇号。",
+    "usage_etiquette": "可作为聊天文本中的非规范形式进行识别，不宜把它教授为官方马来语词汇。纠正他人拼写时可说 Dalam bahasa Inggeris, bentuk bakunya ialah that's，语气较客观。"
+  }
+}

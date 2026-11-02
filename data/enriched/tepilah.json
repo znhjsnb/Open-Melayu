@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "tepilah",
+    "syllables": "te.pi.lah",
+    "ipa": "/tə.pi.lah/",
+    "jawi": "تڤيله",
+    "frequency_rank": 10924,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "tepi",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "tepi + partikel -lah → tepilah",
+    "pattern_note": "-lah 是附着书写的强调或祈使语气助词，不是派生后缀，故 affix 记为 null。词根不发生音变，te 的 e 读 /ə/。输入中的 تڤي 仅对应 tepi；完整形式补写为 تڤيله。",
+    "word_family": [
+      {
+        "word": "menepi",
+        "affix": "meN-",
+        "gloss": "移到一旁；靠边"
+      },
+      {
+        "word": "mengetepikan",
+        "affix": "meN-…-kan",
+        "gloss": "放到一旁；搁置；排除"
+      },
+      {
+        "word": "tepian",
+        "affix": "-an",
+        "gloss": "河边等临水地带；河边浴场"
+      }
+    ],
+    "root_jawi": "تڤي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "靠边吧；让开一下。口语中以 tepi 省略表达移到一旁的动作，-lah 调整命令或劝请的语气。",
+      "en_definition": "Move aside or make way, with lah adding emphasis or a coaxing tone.",
+      "ms_definition": "Dalam percakapan, permintaan atau suruhan supaya seseorang bergerak ke tepi atau memberikan laluan, dengan penegasan oleh partikel -lah.",
+      "nuances": "此义属于省略式口语祈使；完整规范表达通常用 ke tepilah 或请对方 bergerak ke tepi。单独喊 Tepilah! 可能显得不耐烦，-lah 并不自动使其礼貌。词根及相关动作义依据：[DBP tepi](https://prpm.dbp.gov.my/Cari1?d=150348&keyword=tepi)。",
+      "collocations": [
+        {
+          "ms": "tepilah sikit",
+          "zh": "稍微让开一下",
+          "en": "move aside a little"
+        },
+        {
+          "ms": "ke tepilah dahulu",
+          "zh": "先到一旁去",
+          "en": "move to the side first"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "边缘；旁边的位置，附带 -lah 所表达的强调或选择语气。",
+      "en_definition": "The edge or side, with lah marking emphasis or a contextual choice.",
+      "ms_definition": "Bahagian pinggir atau sisi yang ditegaskan dengan partikel -lah, dengan makna khusus bergantung pada ayat.",
+      "nuances": "例如 Yang di tepilah pilihan saya 强调选择靠边的那个。不能脱离上下文，把任何 tepilah 都译为让开。-lah 不改变 tepi 的基本名词意义。助词性质依据：[DBP partikel](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=partikel)。",
+      "collocations": [
+        {
+          "ms": "yang di tepilah",
+          "zh": "就是靠边的那个",
+          "en": "the one at the side"
+        },
+        {
+          "ms": "bahagian tepilah",
+          "zh": "就是边缘部分",
+          "en": "the edge section in particular"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Ke tepilah dahulu supaya petugas dapat membawa masuk peralatan dengan selamat.",
+      "zh": "请先移到一旁，以便工作人员安全地把设备搬进来。",
+      "en": "Please move to the side first so that staff can bring the equipment in safely."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tepilah sikit, aku nak lalu ni.",
+      "ms_standard": "Tolong bergerak sedikit ke tepi kerana saya hendak lalu.",
+      "zh": "让一下啦，我要过去。",
+      "en": "Move over a bit, I need to get past.",
+      "spoken_features": [
+        "tepi 省略表达移到一旁的动作。",
+        "sikit、nak、ni 分别对应 sedikit、hendak、ini。",
+        "-lah 的效果取决于语调，可以是劝请，也可以是不耐烦的催促。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Tepilah sikit, aku nak angkat kotak ni masuk.",
+          "ms_standard": "Tolong bergerak sedikit ke tepi kerana saya hendak mengangkat kotak ini masuk.",
+          "zh": "让开一点啦，我要把这箱东西搬进去。",
+          "en": "Move over a bit, I need to carry this box in."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ha, aku dah ke tepi. Lalu je.",
+          "ms_standard": "Baiklah, saya sudah bergerak ke tepi. Silakan lalu.",
+          "zh": "好啦，我已经让开了。过吧。",
+          "en": "There, I've moved. Go ahead."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Tepilah combines the spatial word tepi, meaning an edge or side, with the Malay particle lah. The combination illustrates how an ordinary place word can become a conversational instruction when context supplies the missing movement. Lah also appears in formal Malay, so its presence alone does not make an expression informal; wording and delivery determine the register.",
+    "cognitive_memory_aid": "tepi 是边上，-lah 加语气：看到 tepilah，想象对方示意你往边上挪一下。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对陌生人、长者或上司，宜说 Maaf, boleh beri laluan? 或 Tolong bergerak sedikit ke tepi。直接说 Tepilah! 容易被理解为不客气。",
+    "usage_etiquette": "熟人间、拥挤通道或搬运物品时可使用。紧急避险时直接喊话可以理解；一般服务场合宜补上道歉、请求词和原因。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对陌生人、长者或上司，宜说 Maaf, boleh beri laluan? 或 Tolong bergerak sedikit ke tepi。直接说 Tepilah! 容易被理解为不客气。",
+    "usage_etiquette": "熟人间、拥挤通道或搬运物品时可使用。紧急避险时直接喊话可以理解；一般服务场合宜补上道歉、请求词和原因。"
+  }
+}

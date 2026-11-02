@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "pengecaman",
+    "syllables": "pe.nge.ca.man",
+    "ipa": "/pə.ŋə.tʃa.man/",
+    "jawi": "ڤڠچمن",
+    "frequency_rank": 10911,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "cam",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN- + cam + -an → pengecaman",
+    "pattern_note": "单音节词根 cam 加上 peN-...-an 时，前缀采用 penge-，保留词首 c。数据包把整个派生词标为词根，此处依据词典的 cam 词族予以纠正。[DBP：cam](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=cam)",
+    "word_family": [
+      {
+        "word": "mengecam",
+        "affix": "meN-",
+        "gloss": "辨认；认出"
+      },
+      {
+        "word": "mengecamkan",
+        "affix": "meN-...-kan",
+        "gloss": "仔细观察并记住"
+      }
+    ],
+    "root_jawi": "چم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "通过面貌、声音或其他特征辨认、识别某人或某物的过程或行为。",
+      "en_definition": "The act or process of recognizing or identifying someone or something by distinguishing features.",
+      "ms_definition": "Perihal atau perbuatan mengecam seseorang atau sesuatu berdasarkan ciri yang dikenal pasti.",
+      "nuances": "常用于身份辨认、影像处理和语音技术。此义属于 cam（认出）词族，不应因 mengecam 另有“抨击”义而译为批评。马来文释义为依据词典编写的释义，并非逐字引文。[DBP：cam](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=cam)",
+      "collocations": [
+        {
+          "ms": "pengecaman wajah",
+          "zh": "人脸识别",
+          "en": "facial recognition"
+        },
+        {
+          "ms": "pengecaman suara",
+          "zh": "语音或声音识别",
+          "en": "voice recognition"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "为辨识或记住对象而进行的仔细观察、察看。",
+      "en_definition": "Close observation undertaken to recognize or remember someone or something.",
+      "ms_definition": "Perihal memerhatikan atau mengamat-amati seseorang atau sesuatu dengan teliti supaya dapat dikenali atau diingati.",
+      "nuances": "对应词典中的 pengamatan；与第一义相连，并非任何一般观察都宜称为 pengecaman。表达单纯的观察活动时，pemerhatian 往往更直接。[DBP：cam](https://prpm.dbp.gov.my/Cari1?d=34488&keyword=cam)",
+      "collocations": [
+        {
+          "ms": "proses pengecaman",
+          "zh": "观察辨认过程",
+          "en": "identification process"
+        },
+        {
+          "ms": "pengecaman suspek",
+          "zh": "嫌疑人辨认",
+          "en": "suspect identification"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sistem pengecaman wajah akan digunakan untuk mengesahkan identiti kakitangan di pintu masuk pejabat.",
+      "zh": "办公室入口将采用人脸识别系统核验员工身份。",
+      "en": "A facial recognition system will be used to verify staff identities at the office entrance."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Pengecaman wajah kat telefon aku tak jalan lah.",
+      "ms_standard": "Fungsi pengecaman wajah pada telefon saya tidak berfungsi.",
+      "zh": "我手机的人脸识别用不了了啦。",
+      "en": "The face recognition on my phone isn't working.",
+      "spoken_features": [
+        "kat 代替表示位置的 pada",
+        "aku 是熟人之间的第一人称代词",
+        "tak 代替 tidak",
+        "tak jalan 表示“不运作”",
+        "lah 表达轻微抱怨"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Pengecaman wajah kat telefon aku tak jalan lah. Aku dah cuba banyak kali.",
+          "ms_standard": "Fungsi pengecaman wajah pada telefon saya tidak berfungsi. Saya sudah mencubanya banyak kali.",
+          "zh": "我手机的人脸识别用不了了啦，已经试好多次了。",
+          "en": "My phone's face recognition isn't working. I've tried so many times."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Cuba lap kamera dulu. Kalau tak boleh juga, guna PIN je.",
+          "ms_standard": "Cuba lap kamera terlebih dahulu. Jika masih tidak boleh, gunakan PIN sahaja.",
+          "zh": "先擦擦摄像头。还是不行就用密码吧。",
+          "en": "Try wiping the camera first. If it still doesn't work, just use your PIN."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pengecaman belongs to the Malay family built on cam, meaning to recognize something previously seen or heard. Its formation turns that everyday act into the name of a process. The same connection makes modern expressions such as facial recognition understandable through an ordinary human experience: looking at a face and knowing whose it is.",
+    "cognitive_memory_aid": "先记 cam＝认出；penge-...-an 把“认出”包装成一个过程：pengecaman＝辨认、识别。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词语体中性偏正式。日常说“我认得他”通常用 Saya cam dia 或 Saya kenal dia；描述技术功能时使用 pengecaman 很自然。",
+    "usage_etiquette": "涉及人物辨认时，应区分“认出某人”与“证明某人做过某事”。描述不确定的辨认结果，可用 kemungkinan 或 belum dapat dipastikan 表明把握程度。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词语体中性偏正式。日常说“我认得他”通常用 Saya cam dia 或 Saya kenal dia；描述技术功能时使用 pengecaman 很自然。",
+    "usage_etiquette": "涉及人物辨认时，应区分“认出某人”与“证明某人做过某事”。描述不确定的辨认结果，可用 kemungkinan 或 belum dapat dipastikan 表明把握程度。"
+  }
+}

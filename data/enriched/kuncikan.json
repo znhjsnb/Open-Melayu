@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "kuncikan",
+    "syllables": null,
+    "ipa": "/kun.tʃi.kan/",
+    "jawi": "کونچي",
+    "frequency_rank": 10913,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "kunci",
+    "affix": "-kan",
+    "affix_type": "suffix",
+    "formula": "kunci + -kan → kuncikan",
+    "pattern_note": "直接添加 -kan，词根不变；可作祈使形式，也可出现在 saya kuncikan 这类结构中。数据包未提供音节，故保留 null；其 Jawi کونچي 实际对应词根 kunci，并非完整派生词。按构词推写为 کونچيکن，但未取得该完整词形的独立 DBP 核验。",
+    "word_family": [
+      {
+        "word": "mengunci",
+        "affix": "meN-",
+        "gloss": "上锁；锁住"
+      },
+      {
+        "word": "terkunci",
+        "affix": "ter-",
+        "gloss": "锁着；被锁住"
+      }
+    ],
+    "root_jawi": "کونچي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "把门、柜子等锁上；使某物处于锁住的状态，亦可表示替某人上锁。",
+      "en_definition": "To lock or secure something, sometimes for someone else; also used as an instruction to lock it.",
+      "ms_definition": "Menjadikan sesuatu berkunci atau mengunci sesuatu untuk seseorang; juga digunakan sebagai arahan supaya sesuatu dikunci.",
+      "nuances": "这是依据 kunci + -kan 编写的构词释义，不是数据包所提供的 DBP 独立词条释义；包内原文解释的是名词 kunci。普通叙述常用 mengunci，直接指令也常用 Kunci pintu itu。-kan 的作用须结合句式理解，不能一律译成“替别人”。马来西亚产品说明书可见相关形式 menguncikan。[Honda 马来文使用说明书](https://boonsiewhonda.com.my/wp-content/uploads/2024/12/OM-Malay_RS-X-Winner-K2PM-Trico.pdf)",
+      "collocations": [
+        {
+          "ms": "kuncikan pintu",
+          "zh": "把门锁上",
+          "en": "lock the door"
+        },
+        {
+          "ms": "kuncikan pagar",
+          "zh": "把院门锁上",
+          "en": "lock the gate"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sila kuncikan pintu bilik mesyuarat selepas semua peserta beredar.",
+      "zh": "请在所有与会者离开后锁上会议室的门。",
+      "en": "Please lock the meeting room door after all participants have left."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Tolong kuncikan pintu, ya. Aku nak keluar kejap.",
+      "ms_standard": "Tolong kuncikan pintu. Saya hendak keluar sebentar.",
+      "zh": "帮忙锁一下门哦，我出去一会儿。",
+      "en": "Please lock the door for me. I'm popping out for a bit.",
+      "spoken_features": [
+        "nak 代替 hendak",
+        "kejap 代替 sekejap 或 sebentar",
+        "ya 缓和请求语气",
+        "aku 用于熟人之间"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Tolong kuncikan pintu lepas aku keluar, ya. Aku nak pergi kedai kejap.",
+          "ms_standard": "Tolong kuncikan pintu selepas saya keluar. Saya hendak pergi ke kedai sebentar.",
+          "zh": "我出去后帮忙锁一下门哦，我去趟店里。",
+          "en": "Please lock the door after I leave. I'm just popping to the shop."
+        },
+        {
+          "speaker": "Hakim (室友)",
+          "ms_spoken": "Okey. Kau dah bawa kunci? Nanti aku nak keluar juga.",
+          "ms_standard": "Baiklah. Adakah kamu sudah membawa kunci? Saya juga hendak keluar nanti.",
+          "zh": "行。你带钥匙了吗？我等会儿也要出去。",
+          "en": "Sure. Have you got your key? I'm heading out later too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Kuncikan is best understood through its transparent Malay formation: kunci plus the suffix -kan. The object used to secure a door supplies the base for an action involving that door. In requests between housemates, the form can also foreground doing the locking for someone, connecting a grammatical pattern with a familiar household routine.",
+    "cognitive_memory_aid": "kunci＝钥匙／锁；kunci + -kan，把名物变成动作指令：把它锁上！"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "单独说 Kuncikan pintu! 容易带命令口吻。对同事、访客或长辈，可加 tolong、sila，或使用 Boleh tolong kuncikan pintu?。",
+    "usage_etiquette": "适合家庭提醒、关门安排和场所管理。涉及共用门或院门时，宜先确认其他使用者有钥匙；不要把 kuncikan 本身理解为“反锁”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "单独说 Kuncikan pintu! 容易带命令口吻。对同事、访客或长辈，可加 tolong、sila，或使用 Boleh tolong kuncikan pintu?。",
+    "usage_etiquette": "适合家庭提醒、关门安排和场所管理。涉及共用门或院门时，宜先确认其他使用者有钥匙；不要把 kuncikan 本身理解为“反锁”。"
+  }
+}

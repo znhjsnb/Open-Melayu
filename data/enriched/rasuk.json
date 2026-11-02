@@ -1,0 +1,150 @@
+{
+  "headword": {
+    "word": "rasuk",
+    "syllables": "ra.suk",
+    "ipa": "/ra.suk/",
+    "jawi": "راسوق",
+    "frequency_rank": 10989,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "rasuk",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + rasuk → rasuk",
+    "pattern_note": "标准音位形式为 /ra.suk/，词尾 /k/ 常实现为 [ʔ]；部分口音中 /u/ 降为 [o]。meN- 在 r 前取 me-，形成 merasuk，r 保留。",
+    "word_family": [
+      {
+        "word": "merasuk",
+        "affix": "meN-",
+        "gloss": "附身；深入影响"
+      },
+      {
+        "word": "kerasukan",
+        "affix": "ke-...-an",
+        "gloss": "被认为遭鬼神附身"
+      },
+      {
+        "word": "dirasuk",
+        "affix": "di-",
+        "gloss": "被附身；被强烈情绪支配"
+      }
+    ],
+    "root_jawi": "راسوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "连接房柱并支撑楼板搁栅的横梁；现代建筑中也指承重梁。",
+      "en_definition": "A structural beam, traditionally supporting floor joists between house posts.",
+      "ms_definition": "Kayu antara tiang rumah yang menyokong gelegar lantai; juga balok struktur dalam binaan.",
+      "nuances": "传统木屋中，rasuk 托住 gelegar，后者再承托地板。现代材料可为混凝土或钢材。",
+      "collocations": [
+        {
+          "ms": "rasuk konkrit",
+          "zh": "混凝土梁",
+          "en": "a concrete beam"
+        },
+        {
+          "ms": "rasuk keluli",
+          "zh": "钢梁",
+          "en": "a steel beam"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "按民间信仰，鬼、精灵等进入人的身体并控制其行为。",
+      "en_definition": "Of a spirit, to enter and possess someone, according to traditional belief.",
+      "ms_definition": "Masuk ke dalam tubuh seseorang, berkenaan hantu atau jin menurut kepercayaan tertentu.",
+      "nuances": "另一个同形词。完整主动句通常用 merasuk，被动用 dirasuk；裸词根常见于 kena rasuk。描述的是信仰中的解释。",
+      "collocations": [
+        {
+          "ms": "kena rasuk",
+          "zh": "被认为遭附身",
+          "en": "to be believed possessed"
+        },
+        {
+          "ms": "dirasuk jin",
+          "zh": "被认为遭精灵附身",
+          "en": "to be believed possessed by a jinn"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "比喻某种思想、感情或冲动深入并强烈支配内心。",
+      "en_definition": "Figuratively, to permeate or take powerful hold of someone's mind.",
+      "ms_definition": "Menyerap dengan mendalam atau menguasai hati dan fikiran secara kiasan.",
+      "nuances": "通常以 merasuk 或 dirasuk 出现。文学色彩较强，不等于普通的轻微影响。",
+      "collocations": [
+        {
+          "ms": "merasuk jiwa",
+          "zh": "深入心灵",
+          "en": "to penetrate the soul"
+        },
+        {
+          "ms": "dirasuk kemarahan",
+          "zh": "被愤怒攫住",
+          "en": "to be gripped by anger"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pemeriksaan mendapati bahawa rasuk kayu di bawah lantai telah rosak akibat serangan anai-anai.",
+      "zh": "检查发现，地板下的木梁已因白蚁侵蚀而受损。",
+      "en": "The inspection found that the timber beam beneath the floor had been damaged by termites."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Rasuk bawah lantai tu dah reput ke?",
+      "ms_standard": "Adakah rasuk di bawah lantai itu sudah reput?",
+      "zh": "地板底下那根梁已经烂了吗？",
+      "en": "Has that beam under the floor rotted?",
+      "spoken_features": [
+        "tu 对应 itu",
+        "dah 对应 sudah",
+        "句末 ke 构成口语疑问",
+        "口语省略介词 di"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (家人)",
+          "ms_spoken": "Rasuk bawah lantai tu dah reput ke?",
+          "ms_standard": "Adakah rasuk di bawah lantai itu sudah reput?",
+          "zh": "地板底下那根梁已经烂了吗？",
+          "en": "Has that beam under the floor rotted?"
+        },
+        {
+          "speaker": "Farah (家人)",
+          "ms_spoken": "Ya, tukang nak ganti yang tu esok.",
+          "ms_standard": "Ya, tukang akan menggantikan rasuk itu esok.",
+          "zh": "对，师傅明天要换掉那根。",
+          "en": "Yes, the carpenter's going to replace it tomorrow."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "In traditional Malay houses, the rasuk carries the joists beneath the floor. A proverb contrasts noisy talk with the beam that actually bears the load, giving this building word a social lesson about responsibility. Dictionaries separately record rasuk in spirit-possession expressions. Their identical spelling does not prove that one meaning developed from the other.",
+    "cognitive_memory_aid": "用两个独立画面记 rasuk：房屋里横梁承重；民间故事里鬼神附身。看到 rasuk konkrit 想梁，看到 kena rasuk 想附身。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "建筑义中性。附身义涉及个人宗教与民俗信仰；叙述时可用 dipercayai kerasukan 表示“被认为附身”。",
+    "usage_etiquette": "不要随意用 kena rasuk 嘲弄情绪激动或身体不适的人。比喻义适合文学描写；正式报告宜具体说明行为或情绪。"
+  },
+  "source_note": "横梁义、附身义、比喻用法、派生词及谚语参见 [DBP PRPM：rasuk](https://prpm.dbp.gov.my/Cari1?d=243192&keyword=rasuk)。采用标准 /u/，并注明输入所列 [o] 口音变体。例句为原创。",
+  "sociolinguistic_register": {
+    "politeness_note": "建筑义中性。附身义涉及个人宗教与民俗信仰；叙述时可用 dipercayai kerasukan 表示“被认为附身”。",
+    "usage_etiquette": "不要随意用 kena rasuk 嘲弄情绪激动或身体不适的人。比喻义适合文学描写；正式报告宜具体说明行为或情绪。"
+  }
+}
