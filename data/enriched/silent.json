@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "silent",
+    "syllables": null,
+    "ipa": "/ˈsaɪ.lənt/",
+    "jawi": null,
+    "frequency_rank": 14029,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "silent",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + silent → silent",
+    "pattern_note": "英语词整体进入语码转换，不按马来语词缀拆分；IPA 为英语读法。is_root 沿用数据包，不表示该词已获认证为马来语词根。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "英语词：不说话的；不发出声音的。马来语对应词按语境为 diam、senyap 或 tidak bersuara。",
+      "en_definition": "Not speaking or making a sound.",
+      "ms_definition": "Kata bahasa Inggeris yang bermaksud tidak bercakap atau tidak mengeluarkan bunyi; padanannya termasuk diam, senyap dan tidak bersuara.",
+      "nuances": "在马来语句子中属于英语语码转换，不能据此标记为正式马来语词。下列搭配为英语表达。释义为编辑综合，参考 [Cambridge](https://dictionary.cambridge.org/dictionary/english/silent)；马来语对应词见 [DBP 的 senyap 词条](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=senyap+)。",
+      "collocations": [
+        {
+          "ms": "remain silent",
+          "zh": "保持沉默",
+          "en": "continue without speaking"
+        },
+        {
+          "ms": "a silent room",
+          "zh": "安静无声的房间",
+          "en": "a room without audible activity"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "英语词：处于静音状态的，尤指设备不发出铃声或提示音。",
+      "en_definition": "Configured not to produce audible alerts or other sounds.",
+      "ms_definition": "Berkenaan peranti atau tetapan yang tidak mengeluarkan bunyi pemberitahuan; padanan bahasa Melayunya ialah dalam mod senyap.",
+      "nuances": "马来西亚非正式交流中可用于手机设置；正式说明宜用 mod senyap。不同设备对媒体音量、闹钟和振动的处理可能不同，silent 不必然表示所有声音均关闭。下列为英语搭配。",
+      "collocations": [
+        {
+          "ms": "silent mode",
+          "zh": "静音模式",
+          "en": "a setting that suppresses audible alerts"
+        },
+        {
+          "ms": "set the phone to silent",
+          "zh": "把手机设为静音",
+          "en": "turn off the phone's audible alerts"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "adjective",
+      "zh_definition": "英语词：字母在某词的读音中不发音的。",
+      "en_definition": "Of a written letter, not pronounced in a particular word.",
+      "ms_definition": "Berkenaan huruf yang ditulis tetapi tidak dilafazkan dalam sesuatu perkataan.",
+      "nuances": "用于英语等语言的拼写与读音说明；不表示所有相同字母在所有词中均不发音。下列为英语搭配。参考 [Cambridge 词条](https://dictionary.cambridge.org/dictionary/english/silent)。",
+      "collocations": [
+        {
+          "ms": "a silent letter",
+          "zh": "不发音字母",
+          "en": "a written letter with no corresponding pronounced sound"
+        },
+        {
+          "ms": "a silent consonant",
+          "zh": "不发音的辅音字母",
+          "en": "a consonant letter that is not pronounced"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "会议通知；使用马来语对应表达",
+      "ms": "Semua peserta diminta menetapkan telefon bimbit kepada mod senyap sebelum mesyuarat bermula.",
+      "zh": "请所有与会者在会议开始前将手机设为静音模式。",
+      "en": "All participants are asked to set their mobile phones to silent mode before the meeting begins."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友解释未接来电",
+      "ms_spoken": "Telefon aku silent tadi, sebab tu aku tak dengar kau telefon.",
+      "ms_standard": "Telefon saya dalam mod senyap tadi, sebab itulah saya tidak mendengar panggilan awak.",
+      "zh": "刚才我手机开了静音，所以没听到你打来。",
+      "en": "My phone was on silent earlier, so I didn't hear your call.",
+      "spoken_features": [
+        "silent 为英语语码转换",
+        "tak 对应 tidak",
+        "tu 对应 itu",
+        "口语省略 dalam mod"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku dah telefon kau tadi. Telefon kau silent ke?",
+          "ms_standard": "Saya sudah menelefon awak tadi. Adakah telefon awak dalam mod senyap?",
+          "zh": "刚才我给你打过电话。你手机开静音了吗？",
+          "en": "I called you earlier. Was your phone on silent?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, aku kat perpustakaan tadi. Baru je nampak panggilan kau.",
+          "ms_standard": "Ya, saya berada di perpustakaan tadi. Saya baru sahaja melihat panggilan awak.",
+          "zh": "对，刚才我在图书馆。现在才看到你的来电。",
+          "en": "Yeah, I was at the library. I've only just seen your missed call."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English silent comes from Latin silent-, the stem of silens, meaning being quiet, related to silere, to be quiet. Its use inside a Malay conversation reflects a switch to an English word. The familiar phone setting provides a practical learning context, but it does not establish official Malay lexical status. See [Dictionary.com](https://www.dictionary.com/browse/silent).",
+    "cognitive_memory_aid": "把英语读音 /ˈsaɪ.lənt/ 与手机静音图标一起记：看到 silent，想到铃声关闭；正式马来语写 mod senyap。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉的双语朋友之间可使用 silent；面对不熟悉英语的听者或正式受众，采用 senyap、diam 或 mod senyap 更清楚。",
+    "usage_etiquette": "要求他人安静时可说 Mohon senyap sebentar 或 Tolong perlahankan suara。直接命令别人 Silent! 容易显得生硬；描述设备静音通常没有这种人际含义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉的双语朋友之间可使用 silent；面对不熟悉英语的听者或正式受众，采用 senyap、diam 或 mod senyap 更清楚。",
+    "usage_etiquette": "要求他人安静时可说 Mohon senyap sebentar 或 Tolong perlahankan suara。直接命令别人 Silent! 容易显得生硬；描述设备静音通常没有这种人际含义。"
+  }
+}

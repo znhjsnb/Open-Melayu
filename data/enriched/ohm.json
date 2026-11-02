@@ -1,0 +1,103 @@
+{
+  "headword": {
+    "word": "ohm",
+    "syllables": "ohm",
+    "ipa": "/om/",
+    "jawi": "اوم",
+    "frequency_rank": 14062,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ohm",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ohm → ohm",
+    "pattern_note": "整词借入，无马来语词缀变化；按马来语读作一个音节，字母 h 不单独发音。",
+    "word_family": [
+      {
+        "word": "kiloohm",
+        "affix": "kilo-",
+        "gloss": "千欧姆，等于一千欧姆"
+      },
+      {
+        "word": "megaohm",
+        "affix": "mega-",
+        "gloss": "兆欧姆，等于一百万欧姆"
+      }
+    ],
+    "root_jawi": "اوم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "欧姆：国际单位制的电阻单位，符号为 Ω；一欧姆等于一伏特每安培。",
+      "en_definition": "The SI unit of electrical resistance, symbol Ω, equal to one volt per ampere.",
+      "ms_definition": "Unit ukuran rintangan elektrik.",
+      "nuances": "马来语释义沿用输入包所载《Kamus Dewan Edisi Keempat》。ohm 是计量单位，rintangan 是所测的物理量，perintang 是电阻器。单位名称小写，符号使用大写希腊字母 Ω，如 10 Ω。[IUPAC 单位定义](https://goldbook.iupac.org/terms/view/O04280/plain)",
+      "collocations": [
+        {
+          "ms": "rintangan dalam ohm",
+          "zh": "以欧姆表示的电阻",
+          "en": "resistance in ohms"
+        },
+        {
+          "ms": "perintang 100 ohm",
+          "zh": "100 欧姆电阻器",
+          "en": "a 100-ohm resistor"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "实验报告 / 技术汇报",
+      "ms": "Hasil pengukuran menunjukkan bahawa rintangan perintang tersebut ialah 100 ohm.",
+      "zh": "测量结果显示，该电阻器的电阻为 100 欧姆。",
+      "en": "The measurement shows that the resistor has a resistance of 100 ohms."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同学讨论电子实验",
+      "ms_spoken": "Perintang ni 100 ohm je, kan?",
+      "ms_standard": "Nilai rintangan perintang ini hanya 100 ohm, betul?",
+      "zh": "这个电阻器才 100 欧姆，对吧？",
+      "en": "This resistor is only 100 ohms, right?",
+      "spoken_features": [
+        "ni 是 ini 的口语缩略形式。",
+        "je 对应 sahaja，表示“而已”。",
+        "kan 用于征求确认；dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Perintang ni 100 ohm je, kan?",
+          "ms_standard": "Nilai rintangan perintang ini hanya 100 ohm, betul?",
+          "zh": "这个电阻器才 100 欧姆，对吧？",
+          "en": "This resistor is only 100 ohms, right?"
+        },
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Ya, aku dah ukur tadi. Memang 100 ohm.",
+          "ms_standard": "Ya, saya sudah mengukurnya tadi. Nilai rintangannya memang 100 ohm.",
+          "zh": "对，我刚量过，确实是 100 欧姆。",
+          "en": "Yeah, I measured it earlier. It really is 100 ohms."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The unit commemorates German physicist Georg Simon Ohm, whose name became attached to the measurement of electrical resistance. Its history belongs to the nineteenth-century effort to make electrical measurements comparable between laboratories. Malay uses this international scientific name as a complete borrowed word, rather than constructing it from Malay roots. [Historical study](https://www.research.ed.ac.uk/en/publications/standardization-of-the-ohm-as-a-unit-of-electrical-resistance-186/)",
+    "cognitive_memory_aid": "ohm 对应中文“欧姆”：看见 Ω，就想到电流通过时遇到的电阻；拼写中的 h 不另读一个音节。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性科技用语，无尊卑差别。向非专业人士解释时，可先说 rintangan elektrik，再介绍单位 ohm。",
+    "usage_etiquette": "适用于物理课堂、电子维修及技术报告。正式数据宜写成 100 Ω，数值与单位符号之间留空格。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性科技用语，无尊卑差别。向非专业人士解释时，可先说 rintangan elektrik，再介绍单位 ohm。",
+    "usage_etiquette": "适用于物理课堂、电子维修及技术报告。正式数据宜写成 100 Ω，数值与单位符号之间留空格。"
+  }
+}

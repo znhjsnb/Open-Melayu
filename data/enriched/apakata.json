@@ -1,0 +1,112 @@
+{
+  "headword": {
+    "word": "apakata",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 14026,
+    "status": "nonstandard"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "apakata",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "apa + kata → apa kata；apakata 为待规范化的连写形式",
+    "pattern_note": "保留数据包的根词标记，但这不构成词根认证。相关标准表达由两个独立词组成，不涉及加缀或音变。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "相关分写表达 apa kata 用于提出建议，相当于“不如……怎么样”。",
+      "en_definition": "In the separate-word expression apa kata, introduces a suggestion: how about; why not.",
+      "ms_definition": "Ungkapan apa kata digunakan untuk mengemukakan cadangan atau mengajak seseorang mempertimbangkan sesuatu tindakan.",
+      "nuances": "此义属于 apa kata，不应据此认证连写形式 apakata。particle 是所给词类列表下对建议标记功能的近似归类，整个表达并非单一助词。马来文释义为编辑说明，不是 DBP 原文。",
+      "collocations": [
+        {
+          "ms": "apa kata kita",
+          "zh": "不如我们……",
+          "en": "how about we"
+        },
+        {
+          "ms": "apa kata kalau",
+          "zh": "要不……怎么样",
+          "en": "how about if"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "particle",
+      "zh_definition": "相关分写表达 apa kata 用于询问某人的意见或所说的话，相当于“……怎么说”。",
+      "en_definition": "In apa kata followed by a person or group, asks what they say or think.",
+      "ms_definition": "Ungkapan tanya apa kata digunakan untuk meminta pandangan seseorang atau mengetahui perkara yang dikatakannya.",
+      "nuances": "须结合后续成分判断是征求意见还是询问发言内容；不是所有 apa kata 都表示建议。这里按疑问表达功能近似归入 particle。官方机构使用分写标题 Apa Kata Anda?，见 [马来西亚皇家警察用例](https://www.rmp.gov.my/news-detail/2020/01/09/apa-kata-anda)。",
+      "collocations": [
+        {
+          "ms": "apa kata anda",
+          "zh": "您怎么看",
+          "en": "what do you think"
+        },
+        {
+          "ms": "apa kata mereka",
+          "zh": "他们怎么说",
+          "en": "what do they say"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场讨论；使用规范分写形式 apa kata",
+      "ms": "Apa kata kita meneliti semula cadangan ini sebelum membuat keputusan?",
+      "zh": "不如我们在作出决定前重新审视这项建议？",
+      "en": "How about reviewing this proposal before making a decision?"
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友商量用餐",
+      "ms_spoken": "Apa kata kita makan kat sini je?",
+      "ms_standard": "Apa kata kita makan di sini sahaja?",
+      "zh": "要不我们就在这里吃吧？",
+      "en": "How about we just eat here?",
+      "spoken_features": [
+        "kat 对应标准语 di，表示地点",
+        "je 对应 sahaja，表示“就、而已”",
+        "apa kata 仍应分写"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Apa kata kita makan kat sini je?",
+          "ms_standard": "Apa kata kita makan di sini sahaja?",
+          "zh": "要不我们就在这里吃吧？",
+          "en": "How about we just eat here?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Boleh juga. Aku dah lapar ni.",
+          "ms_standard": "Boleh juga. Saya sudah lapar.",
+          "zh": "也行，我都饿了。",
+          "en": "Sounds good. I'm hungry already."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This is a usage explanation, not a documented origin story. The expression combines apa, asking what, with kata, referring to words or saying. Its questioning form can request an opinion or introduce a proposed action. Institutional usage preserves the space between the words, as in [Apa Kata Anda?](https://www.rmp.gov.my/news-detail/2020/01/09/apa-kata-anda). The packet supplies no history for the joined spelling.",
+    "cognitive_memory_aid": "把 apa kata 拆成“什么＋说”：问意见是“你怎么说？”，提建议是“你说……怎么样？”"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "apa kata 可把建议表达成可商量的选项；对上级可配合 kita、礼貌称呼或更完整的征询句。",
+    "usage_etiquette": "正式材料采用 apa kata。它适合讨论和征求意见；需要明确责任或执行要求时，应直接写清具体行动。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "apa kata 可把建议表达成可商量的选项；对上级可配合 kita、礼貌称呼或更完整的征询句。",
+    "usage_etiquette": "正式材料采用 apa kata。它适合讨论和征求意见；需要明确责任或执行要求时，应直接写清具体行动。"
+  }
+}

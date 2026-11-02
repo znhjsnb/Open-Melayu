@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "kragle",
+    "syllables": null,
+    "ipa": null,
+    "jawi": null,
+    "frequency_rank": 13985,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "kragle",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + kragle → kragle（仅保留输入形式，未确认马来语构词地位）",
+    "pattern_note": "is_root 与 root_word 沿用数据包，不能视为已验证的语言学结论。没有足够证据确定马来语词根、派生词族、标准读音或爪夷文拼写；不作伪拆分。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "未核实为标准马来语词。若指《乐高大电影》中的 Kragle，则是片中胶水武器的专名；仅凭当前数据包不能确定该指称。",
+      "en_definition": "An unverified Malay entry; possibly the proper name Kragle for the glue weapon in The LEGO Movie.",
+      "ms_definition": "Bentuk yang belum disahkan sebagai kata bahasa Melayu baku; mungkin merujuk kepada nama khas Kragle bagi senjata berupa gam dalam filem The LEGO Movie.",
+      "nuances": "noun 仅对应可能的专名用法，并非 DBP 已确认的词类。Epic 官方文档确认 Kragle 与影片胶水意象有关，但不能证明输入项是标准马来语词；以下搭配和例句均为讨论该字符串的教学示例，不声称是高频搭配或官方释义。[Epic 官方文档](https://dev.epicgames.com/documentation/fortnite/working-with-the-lego-brick-editor-in-fortnite?lang=en-US)",
+      "collocations": [
+        {
+          "ms": "ejaan kragle",
+          "zh": "kragle 这一拼写",
+          "en": "the spelling kragle"
+        },
+        {
+          "ms": "perkataan kragle",
+          "zh": "kragle 这个词",
+          "en": "the word kragle"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Bentuk kragle memerlukan pengesahan sumber sebelum dimasukkan sebagai entri bahasa Melayu baku.",
+      "zh": "kragle 这一形式须先核实来源，才能作为标准马来语词条收录。",
+      "en": "The form kragle requires source verification before it can be included as a standard Malay entry."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku jumpa perkataan kragle kat senarai ni. Nama benda dalam filem ke?",
+      "ms_standard": "Saya menemukan perkataan kragle dalam senarai ini. Adakah perkataan itu nama sesuatu dalam filem?",
+      "zh": "我在这份清单里看到 kragle。是电影里某个东西的名字吗？",
+      "en": "I found kragle on this list. Is it the name of something in a film?",
+      "spoken_features": [
+        "aku 是熟人之间的第一人称。",
+        "kat 和 ni 分别对应 dalam 或 di 与 ini。",
+        "句末 ke 构成口语疑问。",
+        "dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (词典编辑同事)",
+          "ms_spoken": "Aku jumpa perkataan kragle kat senarai ni. Nama benda dalam filem ke?",
+          "ms_standard": "Saya menemukan perkataan kragle dalam senarai ini. Adakah perkataan itu nama sesuatu dalam filem?",
+          "zh": "我在这份清单里看到 kragle。是电影里某个东西的名字吗？",
+          "en": "I found kragle on this list. Is it the name of something in a film?"
+        },
+        {
+          "speaker": "Hakim (词典编辑同事)",
+          "ms_spoken": "Mungkin. Aku dah semak paket tu, tapi tak ada definisi. Kita kena semak sumber dulu.",
+          "ms_standard": "Mungkin. Saya sudah menyemak paket itu, tetapi tiada definisi diberikan. Kita perlu menyemak sumber terlebih dahulu.",
+          "zh": "可能吧。我看过数据包了，但里面没有释义。我们得先查来源。",
+          "en": "Possibly. I’ve checked the packet, but it gives no definition. We need to check the source first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The supplied packet provides no definition, pronunciation or Jawi spelling for kragle, so its Malay history cannot be reconstructed responsibly. A possible connection is the proper name Kragle in The LEGO Movie. Epic’s official documentation explicitly invokes that film’s glue imagery when naming a tool for joining LEGO bricks digitally. This supports the association, not a confirmed Malay etymology. [Epic documentation](https://dev.epicgames.com/documentation/fortnite/working-with-the-lego-brick-editor-in-fortnite?lang=en-US)",
+    "cognitive_memory_aid": "暂记为“待核实的 kragle”；若上下文明确谈乐高电影，再联想把积木粘住的胶水专名。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "没有证据支持任何马来西亚特有的礼貌规则。向一般读者使用可能的电影专名时，应补充出处和解释。",
+    "usage_etiquette": "不应标为已获官方确认的马来语普通词；电影专名通常写作 Kragle。正式词典收录前须确认原始语境，缺失字段保留 null。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "没有证据支持任何马来西亚特有的礼貌规则。向一般读者使用可能的电影专名时，应补充出处和解释。",
+    "usage_etiquette": "不应标为已获官方确认的马来语普通词；电影专名通常写作 Kragle。正式词典收录前须确认原始语境，缺失字段保留 null。"
+  }
+}

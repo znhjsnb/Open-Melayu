@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "haribulan",
+    "syllables": null,
+    "ipa": "/ha.ri.bu.lan/",
+    "jawi": null,
+    "frequency_rank": 14064,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "haribulan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "hari + bulan → haribulan",
+    "pattern_note": "由 hari 和 bulan 组成，无词缀或音变；is_root 沿用输入包的词条级标记，并不表示该词不能分析为复合成分。",
+    "word_family": [
+      {
+        "word": "hari",
+        "affix": null,
+        "gloss": "日、天；复合词的第一成分"
+      },
+      {
+        "word": "bulan",
+        "affix": null,
+        "gloss": "月、月份；复合词的第二成分"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "日期中的“几号”，即某个月内的日序；不表示星期几。",
+      "en_definition": "The day of the month; a calendar date expressed as a numbered day within a month.",
+      "ms_definition": "Tarikh dalam sesuatu bulan yang tertentu; tanggal.",
+      "nuances": "通常与数字或 berapa 连用。PRPM 的语言咨询记录说明 hari bulan 和 haribulan 均见于 DBP 词表；释义据其 hari bulan 词条展开缩写。今天几号可问 Berapa haribulan hari ini?；今天星期几则问 Hari apa hari ini?。[DBP 日期词条与拼写说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hari+bulan)",
+      "collocations": [
+        {
+          "ms": "berapa haribulan",
+          "zh": "几号",
+          "en": "what day of the month"
+        },
+        {
+          "ms": "lima haribulan",
+          "zh": "某月五号",
+          "en": "the fifth of the month"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公函 / 会议通知",
+      "ms": "Mesyuarat tersebut akan diadakan pada lima haribulan ini di bilik mesyuarat utama.",
+      "zh": "该会议将于本月五日在主会议室举行。",
+      "en": "The meeting will be held on the fifth of this month in the main meeting room."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认开会日期",
+      "ms_spoken": "Mesyuarat tu berapa haribulan, ya?",
+      "ms_standard": "Pada berapa haribulankah mesyuarat itu akan diadakan?",
+      "zh": "那个会是几号来着？",
+      "en": "What date is that meeting again?",
+      "spoken_features": [
+        "tu 对应 itu。",
+        "口语问句省略 pada 和正式疑问词缀 -kah。",
+        "ya 放在句末，缓和询问语气。",
+        "dah 对应 sudah。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Mesyuarat tu berapa haribulan, ya?",
+          "ms_standard": "Pada berapa haribulankah mesyuarat itu akan diadakan?",
+          "zh": "那个会是几号来着？",
+          "en": "What date is that meeting again?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Lima haribulan ni. Aku dah masukkan dalam kalendar.",
+          "ms_standard": "Mesyuarat itu akan diadakan pada lima haribulan ini. Saya sudah mencatatkannya dalam kalendar.",
+          "zh": "这个月五号。我已经记进日历了。",
+          "en": "The fifth of this month. I've already put it in my calendar."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Haribulan transparently combines hari, meaning day, with bulan, meaning month or moon. Together they identify a day's position within a month. DBP records both joined and separate spellings, while Malaysian administrative forms also preserve the joined form in date blanks. Its structure offers a compact picture of calendar time. [DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hari+bulan), [Malaysian government form](https://www.moh.gov.my/images/awam/borang/bahagian-khidmat-pengurusan/cawangan-kewangan-pengurusan-aset/STANDARD_PERJANJIAN_PENYEWAAN_RUANG_PEJABAT_2023.pdf)",
+    "cognitive_memory_aid": "hari 是“日”，bulan 是“月”：把一天放进一个月里，就知道是“几号”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "中性日期用语。向客户或长辈确认日期时，可用 Boleh saya sahkan tarikhnya?，语气较礼貌。",
+    "usage_etiquette": "适用于日常问日期、约定时间及表格日期栏。重要通知宜写明完整日期，如 5 November 2026，以免只有“本月五号”而产生歧义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "中性日期用语。向客户或长辈确认日期时，可用 Boleh saya sahkan tarikhnya?，语气较礼貌。",
+    "usage_etiquette": "适用于日常问日期、约定时间及表格日期栏。重要通知宜写明完整日期，如 5 November 2026，以免只有“本月五号”而产生歧义。"
+  }
+}

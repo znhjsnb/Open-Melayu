@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "merunduk",
+    "syllables": "me.run.duk",
+    "ipa": "/mə.run.duʔ/",
+    "jawi": "مروندوق",
+    "frequency_rank": 13947,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "runduk",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + runduk → merunduk",
+    "pattern_note": "meN- 在词首 r 前实现为 me-，保留 r，不增加鼻辅音，也不删除词根首音。输入把 merunduk 判为词根，应修正为 runduk；依据：[DBP PRPM：runduk](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=runduk)。",
+    "word_family": [
+      {
+        "word": "runduk",
+        "affix": null,
+        "gloss": "低垂；弯下的状态"
+      },
+      {
+        "word": "merundukkan",
+        "affix": "meN-...-kan",
+        "gloss": "使低下；使头部俯下"
+      }
+    ],
+    "root_jawi": "روندوق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "低下头或俯下上身，使头部、面部或身体位置降低。",
+      "en_definition": "To lower one's head or bend one's upper body downward.",
+      "ms_definition": "Tunduk; menunduk.",
+      "nuances": "通常为不及物动词，可接 sejenak、sedikit 等状语。要明确表示“把头低下”，可用 merundukkan kepala 或更常见的 menundukkan kepala；不能仅凭低头动作推断服从或认错。依据：[DBP PRPM：merunduk](https://prpm.dbp.gov.my/cari1?keyword=merunduk)。",
+      "collocations": [
+        {
+          "ms": "merunduk sejenak",
+          "zh": "低头片刻",
+          "en": "to lower one's head briefly"
+        },
+        {
+          "ms": "merunduk sedikit",
+          "zh": "稍微俯身",
+          "en": "to bend down slightly"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "植物的茎秆、穗部等弯垂下来，尤指稻穗因籽粒饱满而下垂。",
+      "en_definition": "Of a plant or its grain-bearing parts, to bend or droop downward.",
+      "ms_definition": "Menjadi runduk; tunduk.",
+      "nuances": "常用于描写成熟稻株，亦可借稻穗低垂的形象表达谦逊。它描写姿态，本身不表示植物枯萎。此义见：[DBP PRPM：《Kamus Pelajar》释义](https://prpm.dbp.gov.my/cari1?keyword=merunduk)。",
+      "collocations": [
+        {
+          "ms": "padi merunduk",
+          "zh": "稻穗低垂",
+          "en": "rice plants bending downward"
+        },
+        {
+          "ms": "tangkai padi yang merunduk",
+          "zh": "低垂的稻穗梗",
+          "en": "drooping rice stalks"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "农业新闻 / 田间观察报告",
+      "ms": "Di petak sawah itu, pokok padi mula merunduk apabila biji-bijinya semakin berisi.",
+      "zh": "那片稻田里的稻株随着谷粒日益饱满，开始弯垂下来。",
+      "en": "In that paddy plot, the rice plants are beginning to bend as their grains fill out."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友提醒注意低矮横梁",
+      "ms_spoken": "Kau kena merunduk sikit kat sini, palang ni rendah.",
+      "ms_standard": "Kamu perlu merunduk sedikit di sini kerana palang ini rendah.",
+      "zh": "你到这儿得稍微低下身子，这根横梁很低。",
+      "en": "You'll need to duck a little here—the beam is low.",
+      "spoken_features": [
+        "kau 是熟人之间的第二人称形式。",
+        "kena 在这里表示“必须、得”。",
+        "sikit、kat、ni 分别对应 sedikit、di、ini。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nak masuk stor tu, kau kena merunduk sikit. Palang kat pintu rendah.",
+          "ms_standard": "Jika kamu hendak masuk ke stor itu, kamu perlu merunduk sedikit kerana palang di pintunya rendah.",
+          "zh": "要进那个储物间，你得稍微低下身子，门口的横梁很低。",
+          "en": "Duck a little when you go into that storeroom. There's a low beam over the doorway."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Nasib baik kau pesan. Aku dah merunduk tadi, tak kena kepala.",
+          "ms_standard": "Mujurlah kamu mengingatkan saya. Saya sudah merunduk tadi, jadi kepala saya tidak terhantuk.",
+          "zh": "幸好你提醒了。我刚才低下身子了，没撞到头。",
+          "en": "Good thing you warned me. I ducked and didn't hit my head."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Merunduk is formed from runduk with the Malay verbal prefix meN-, appearing here as me-. Its cultural resonance comes from rice cultivation: grain-filled stalks bend downward. Malay proverbial tradition turns this familiar agricultural image into a lesson about humility, associating greater knowledge or higher standing with greater modesty. This cultural association is distinct from a documented ancient etymology. Source: [DBP PRPM: runduk](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=runduk).",
+    "cognitive_memory_aid": "把 runduk 想成一株弯腰的稻子；前面加 me-，画面动起来：人低头，稻穗低垂。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "提醒别人低头避障时，可加 sedikit 或小心提醒的语气。直接命令 Merunduk! 较急促，适合即时避险。",
+    "usage_etiquette": "适合描述身体动作和植物姿态。稻穗低垂可以象征谦逊，但不能据此认定所有低头动作都具有敬意、服从或宗教含义。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "提醒别人低头避障时，可加 sedikit 或小心提醒的语气。直接命令 Merunduk! 较急促，适合即时避险。",
+    "usage_etiquette": "适合描述身体动作和植物姿态。稻穗低垂可以象征谦逊，但不能据此认定所有低头动作都具有敬意、服从或宗教含义。"
+  }
+}

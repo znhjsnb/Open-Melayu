@@ -1,0 +1,153 @@
+{
+  "headword": {
+    "word": "dengarkah",
+    "syllables": null,
+    "ipa": "/dəŋarkah/",
+    "jawi": "دڠر",
+    "frequency_rank": 13942,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "dengar",
+    "affix": "-kah",
+    "affix_type": "suffix",
+    "formula": "dengar + -kah → dengarkah",
+    "pattern_note": "-kah 是附着于前词的疑问小品词，此处借用 suffix 类别表示其位置；它不是派生后缀，也不改变 dengar 的基本词义。词根不发生音变。输入的 دڠر 只表示词根 dengar，未包含 -kah。",
+    "word_family": [
+      {
+        "word": "mendengar",
+        "affix": "meN-",
+        "gloss": "听见；听取；得知"
+      },
+      {
+        "word": "terdengar",
+        "affix": "ter-",
+        "gloss": "无意中听见；能够听见"
+      },
+      {
+        "word": "pendengar",
+        "affix": "peN-",
+        "gloss": "听众；收听者"
+      },
+      {
+        "word": "pendengaran",
+        "affix": "peN-...-an",
+        "gloss": "听觉；听力"
+      }
+    ],
+    "root_jawi": "دڠر"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用于疑问句，询问某人是否听见声音或正在听对方说话。",
+      "en_definition": "An interrogative form of dengar, asking whether someone hears or is listening.",
+      "ms_definition": "Bentuk dengar yang disertai partikel tanya -kah untuk menanyakan sama ada seseorang menangkap bunyi atau memberikan perhatian kepada ujaran.",
+      "nuances": "dengarkah 是可组合形成的疑问形式，不宜当作与 dengar 无关的独立词根。马来西亚日常交流更常用 dengar tak?；正式询问通常用 Adakah anda mendengar ...? 或 Dapatkah anda mendengar ...?。以下搭配是疑问组合，不表示 dengarkah 本身属于高频口语词。基本义参见 [DBP：dengar](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=dengar)；疑问小品词的连写规则参见 [DBP：马来语拼写规范](https://eseminar.dbp.gov.my/dokumen/ejaan.pdf)。",
+      "collocations": [
+        {
+          "ms": "dengarkah suara saya?",
+          "zh": "听得见我的声音吗？",
+          "en": "Can you hear my voice?"
+        },
+        {
+          "ms": "dengarkah bunyi itu?",
+          "zh": "听见那个声音了吗？",
+          "en": "Did you hear that sound?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用于疑问句，询问某人是否听说或得知某项消息。",
+      "en_definition": "Used interrogatively to ask whether someone has heard particular news.",
+      "ms_definition": "Bentuk pertanyaan untuk mengetahui sama ada seseorang sudah mendapat sesuatu berita atau khabar.",
+      "nuances": "此义的 dengar 指通过他人或传播渠道获知消息。是否表示过去或已经发生，要由语境或 sudah 等词确定，-kah 本身不表示时态。",
+      "collocations": [
+        {
+          "ms": "dengarkah berita itu?",
+          "zh": "听说那个消息了吗？",
+          "en": "Have you heard that news?"
+        },
+        {
+          "ms": "dengarkah khabar tentang mereka?",
+          "zh": "听说他们的近况了吗？",
+          "en": "Have you heard any news about them?"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "用于疑问句，询问某人是否听取、理会或遵从劝告、要求等。",
+      "en_definition": "Used interrogatively to ask whether someone heeds advice, instructions, or an appeal.",
+      "ms_definition": "Bentuk pertanyaan tentang kesediaan seseorang mengendahkan nasihat, mematuhi arahan atau memberikan perhatian kepada rayuan.",
+      "nuances": "此义涉及态度或行动，不只是耳朵接收到声音。用于责问时可能显得严厉；正式表达可改为 Adakah nasihat itu diambil perhatian?。",
+      "collocations": [
+        {
+          "ms": "dengarkah nasihat ibu?",
+          "zh": "有没有听母亲的劝告？",
+          "en": "Do you heed your mother's advice?"
+        },
+        {
+          "ms": "dengarkah rayuan kami?",
+          "zh": "有没有听取我们的恳求？",
+          "en": "Will you heed our appeal?"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻报道 / 引述居民诉求",
+      "ms": "Dalam laporan itu, pertanyaan penduduk, “dengarkah suara kami?”, menggambarkan harapan mereka agar aduan tersebut diberi perhatian.",
+      "zh": "报道中，居民“听见我们的声音了吗？”的发问，表达了他们希望投诉受到重视的心情。",
+      "en": "In the report, the residents' question, “Can you hear our voices?”, conveyed their hope that their complaints would receive attention."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论刚才的声音",
+      "ms_spoken": "Kau dengarkah bunyi tadi? Aku kat dapur masa tu.",
+      "ms_standard": "Adakah kamu mendengar bunyi tadi? Saya berada di dapur ketika itu.",
+      "zh": "你刚才听到那个声音了吗？我那时在厨房。",
+      "en": "Did you hear that noise just now? I was in the kitchen.",
+      "spoken_features": [
+        "kau、aku 是熟人间的人称代词。",
+        "kat 对应标准语的 di；masa tu 对应 ketika itu。",
+        "保留 -kah 的问法带有个人或地域色彩；更普遍的口语说法是 Kau dengar tak bunyi tadi?"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dengarkah bunyi tadi? Aku kat dapur masa tu.",
+          "ms_standard": "Adakah kamu mendengar bunyi tadi? Saya berada di dapur ketika itu.",
+          "zh": "你刚才听见那个声音了吗？我那时在厨房。",
+          "en": "Did you hear that noise just now? I was in the kitchen."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dengar. Macam pintu terhempas je. Tak payah risau lah.",
+          "ms_standard": "Ya, saya mendengarnya. Bunyinya seperti pintu terhempas sahaja. Tidak perlu risau.",
+          "zh": "听到了，像是门砰地关上而已，别担心啦。",
+          "en": "Yeah. It sounded like a door slamming. Don't worry about it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form combines the Malay base dengar with the question particle -kah. Its structure illustrates a useful distinction: a written word can contain both a lexical meaning and a grammatical signal. Hearing, receiving news, and heeding advice belong to dengar; the questioning force comes from -kah. No separate borrowing history is needed to explain the combined form.",
+    "cognitive_memory_aid": "把 dengar 记成“听”，把 -kah 看成贴在词尾的小问号：dengar + ? → dengarkah。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "对长辈、客户或上司，宜说 Maaf, dapatkah tuan mendengar suara saya dengan jelas?，避免用带责问语气的 Kau dengarkah?。",
+    "usage_etiquette": "适合分析疑问结构、阅读对话或理解带修辞色彩的表达。询问设备声音时，用 Dengar tak? 或 Boleh dengar? 更符合一般口语；不要因对方未回应就直接暗示其不愿听从。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "对长辈、客户或上司，宜说 Maaf, dapatkah tuan mendengar suara saya dengan jelas?，避免用带责问语气的 Kau dengarkah?。",
+    "usage_etiquette": "适合分析疑问结构、阅读对话或理解带修辞色彩的表达。询问设备声音时，用 Dengar tak? 或 Boleh dengar? 更符合一般口语；不要因对方未回应就直接暗示其不愿听从。"
+  }
+}

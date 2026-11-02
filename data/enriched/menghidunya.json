@@ -1,0 +1,168 @@
+{
+  "headword": {
+    "word": "menghidunya",
+    "syllables": null,
+    "ipa": "/məŋ.hi.du.ɲa/",
+    "jawi": "مڠهيدو",
+    "frequency_rank": 14037,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menghidu",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "menghidu + -nya → menghidunya",
+    "pattern_note": "按输入保留直接基础menghidu；更深层为meN- + hidu → menghidu，meN-在h前实现为meng-，h保留。-nya是后附代词，此处表示它、他或她等宾语，并非新的派生词义。输入爪夷文仅覆盖menghidu；完整menghidunya应补写为مڠهيدوڽ。",
+    "word_family": [
+      {
+        "word": "menghidu",
+        "affix": "meN-",
+        "gloss": "闻；吸入；嗅探"
+      },
+      {
+        "word": "terhidu",
+        "affix": "ter-",
+        "gloss": "无意中闻到或吸入"
+      },
+      {
+        "word": "penghidu",
+        "affix": "peN-",
+        "gloss": "嗅闻者；吸嗅某物的人"
+      }
+    ],
+    "root_jawi": "مڠهيدو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "闻它；通过嗅觉察知所指对象的气味。",
+      "en_definition": "To smell or sniff it, with the object identified by context.",
+      "ms_definition": "Mencium atau membaui sesuatu yang dirujuk oleh kata ganti -nya.",
+      "nuances": "-nya通常回指前文的花、食物或其他对象，不表示‘它的气味’，也不单独表示‘他的’。以下搭配用基础动词展示常见用法；已用-nya表示宾语时，通常不再重复同一个名词宾语。各义据[DBP的hidu词条](https://prpm.dbp.gov.my/Cari1?d=125804&keyword=hidu)整理。",
+      "collocations": [
+        {
+          "ms": "menghidu bunga",
+          "zh": "闻花香",
+          "en": "to smell flowers"
+        },
+        {
+          "ms": "menghidu bau makanan",
+          "zh": "闻食物的气味",
+          "en": "to smell food"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "吸入它；经鼻吸入前文所指的空气、气体或蒸气。",
+      "en_definition": "To inhale the previously mentioned air, gas, or vapour.",
+      "ms_definition": "Menyedut udara, gas atau wap yang dirujuk oleh -nya.",
+      "nuances": "重点是吸入动作，未必是在辨别气味；无意中吸入常用terhidu。",
+      "collocations": [
+        {
+          "ms": "menghidu udara segar",
+          "zh": "呼吸新鲜空气",
+          "en": "to breathe in fresh air"
+        },
+        {
+          "ms": "menghidu wap",
+          "zh": "吸入蒸气",
+          "en": "to inhale vapour"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "凭气味发现或追踪所指对象。",
+      "en_definition": "To detect or track the referent by its scent.",
+      "ms_definition": "Mengesan sesuatu yang dirujuk oleh -nya melalui bau yang ditinggalkannya.",
+      "nuances": "常用于动物、警犬等凭气味探测的情境；具体对象由-nya的先行词决定。",
+      "collocations": [
+        {
+          "ms": "menghidu bau suspek",
+          "zh": "嗅辨嫌疑人的气味",
+          "en": "to pick up a suspect's scent"
+        },
+        {
+          "ms": "menghidu mangsa",
+          "zh": "凭气味探测猎物",
+          "en": "to detect prey by scent"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "察觉或探知它；通过观察、打听等发现所指的隐情或秘密。",
+      "en_definition": "To discover or become aware of a concealed matter through observation or inquiry.",
+      "ms_definition": "Mengetahui atau mengesan perkara rahsia yang dirujuk oleh -nya melalui pemerhatian, pertanyaan atau risikan.",
+      "nuances": "比喻义，类似中文‘嗅出端倪’；不涉及实际气味。",
+      "collocations": [
+        {
+          "ms": "menghidu rancangan jahat",
+          "zh": "察觉恶意图谋",
+          "en": "to uncover a malicious plan"
+        },
+        {
+          "ms": "menghidu kegiatan jenayah",
+          "zh": "察觉犯罪活动",
+          "en": "to detect criminal activity"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Sampel bunga itu diberikan kepada peserta, yang diminta menghidunya sebelum mencatat pemerhatian mereka.",
+      "zh": "工作人员将该花卉样本交给参与者，请他们先闻一闻，再记录观察结果。",
+      "en": "The flower sample was given to participants, who were asked to smell it before recording their observations."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Bunga ni wangi sangat; aku dah menghidunya tadi.",
+      "ms_standard": "Bunga ini sangat harum; saya sudah menghidunya tadi.",
+      "zh": "这朵花可香了，我刚才已经闻过了。",
+      "en": "This flower smells lovely; I smelled it earlier.",
+      "spoken_features": [
+        "ni对应ini，dah对应sudah。",
+        "aku适用于熟人之间。",
+        "完整形式menghidunya可以出现在聊天文字中；更随意的口语也常说hidu bunga ni。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Bunga ni wangi sangat; aku dah menghidunya tadi.",
+          "ms_standard": "Bunga ini sangat harum; saya sudah menghidunya tadi.",
+          "zh": "这朵花可香了，我刚才已经闻过了。",
+          "en": "This flower smells lovely; I smelled it earlier."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Yalah, aku nak hidu juga. Boleh bagi dekat sikit?",
+          "ms_standard": "Ya, saya juga mahu menghidunya. Bolehkah awak mendekatkan bunga itu sedikit?",
+          "zh": "是吗，我也想闻闻。能拿近一点吗？",
+          "en": "Really? I want to smell it too. Can you bring it a little closer?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menghidunya is a grammatical combination rather than a separate historical root. Malay forms menghidu from hidu, then attaches -nya to refer back to an understood object. Its meanings extend from smelling and inhaling to tracking by scent and uncovering secrets. The figurative extension makes a hidden plan something that can metaphorically be sniffed out. [DBP](https://prpm.dbp.gov.my/Cari1?d=125804&keyword=hidu)",
+    "cognitive_memory_aid": "hidu＝闻，menghidu＝进行嗅闻，-nya＝前面提过的对象：menghidunya＝闻它；说到秘密时，就是‘嗅出它’。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "闻花或辨别食材气味通常是中性行为；评价他人体味或当面嗅闻他人物品可能令人尴尬，宜先征得同意并使用温和措辞。",
+    "usage_etiquette": "先明确-nya指什么，避免指代不清。menghidu强调嗅闻；mencium在不同语境也可能表示亲吻。比喻义涉及秘密或不当行为时，需避免让推测听起来像已证实的指控。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "闻花或辨别食材气味通常是中性行为；评价他人体味或当面嗅闻他人物品可能令人尴尬，宜先征得同意并使用温和措辞。",
+    "usage_etiquette": "先明确-nya指什么，避免指代不清。menghidu强调嗅闻；mencium在不同语境也可能表示亲吻。比喻义涉及秘密或不当行为时，需避免让推测听起来像已证实的指控。"
+  }
+}

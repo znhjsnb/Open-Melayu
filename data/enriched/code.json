@@ -1,0 +1,165 @@
+{
+  "headword": {
+    "word": "code",
+    "syllables": null,
+    "ipa": "/kəʊd/",
+    "jawi": null,
+    "frequency_rank": 13992,
+    "status": "foreign"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "code",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + code → code（英语整词）",
+    "pattern_note": "这是英语形式，不能按马来语 c＝/tʃ/ 的规则读作两个音节。所列 IPA 为英式英语读音；正式马来文通常按语义使用 kod 或 pengaturcaraan。",
+    "word_family": [
+      {
+        "word": "coder",
+        "affix": "-er（英语）",
+        "gloss": "程序编写者；编码员"
+      },
+      {
+        "word": "coding",
+        "affix": "-ing（英语；省去词尾 e）",
+        "gloss": "编程；编码"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "代码、代号或编码系统：用字母、数字或其他符号表示信息、身份或指令的约定形式。",
+      "en_definition": "A system of symbols representing information, or a particular identifying sequence.",
+      "ms_definition": "Dalam bahasa Inggeris, sistem lambang untuk mewakili maklumat atau rentetan aksara pengenal; padanan bahasa Melayunya ialah kod.",
+      "nuances": "本条记录英语词及其在马来语交谈中的语码转换，不将 code 标作官方马来语词形。以下 ms 搭配属于混合语体，正式写法分别为 kod pengesahan、kod promosi。词义及英语发音见 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/code)。",
+      "collocations": [
+        {
+          "ms": "code pengesahan",
+          "zh": "验证码",
+          "en": "verification code"
+        },
+        {
+          "ms": "code promosi",
+          "zh": "优惠码",
+          "en": "promo code"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "程序代码：以编程语言写成、供计算机执行或处理的指令。",
+      "en_definition": "Instructions written in a programming language.",
+      "ms_definition": "Dalam bahasa Inggeris, arahan yang ditulis dalam bahasa pengaturcaraan; padanan bahasa Melayunya ialah kod atur cara.",
+      "nuances": "科技团队的混合语体常直接保留英语 code；此义的英语 code 通常不可数。正式马来文用 kod、kod sumber 或 kod atur cara。英语义项见 [Merriam-Webster](https://www.merriam-webster.com/dictionary/code)。",
+      "collocations": [
+        {
+          "ms": "tulis code",
+          "zh": "写代码",
+          "en": "write code"
+        },
+        {
+          "ms": "semak code",
+          "zh": "检查代码",
+          "en": "review code"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "守则；规范；法典：系统编订或共同遵循的一套规则。",
+      "en_definition": "An organized body of laws, rules, or principles.",
+      "ms_definition": "Dalam bahasa Inggeris, himpunan undang-undang, peraturan atau prinsip; padanannya bergantung pada konteks, seperti kanun, kod atau tatacara.",
+      "nuances": "主要在英语固定短语或原文名称中遇到；并非每个 code 都应译为同一个马来词。以下 ms 字段保留混合语体中引用的英语短语。释义参见 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/code)。",
+      "collocations": [
+        {
+          "ms": "ikut dress code",
+          "zh": "遵守着装要求",
+          "en": "follow the dress code"
+        },
+        {
+          "ms": "patuhi code of conduct",
+          "zh": "遵守行为准则",
+          "en": "comply with the code of conduct"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "编写程序；将信息转换成某种代码或编码形式。",
+      "en_definition": "To write computer programs or represent information using a code.",
+      "ms_definition": "Dalam bahasa Inggeris, menulis atur cara atau menukarkan maklumat kepada bentuk berkod; padanannya ialah mengatur cara atau mengekod.",
+      "nuances": "这是英语动词用法；马来语混合口语中的 nak code 等结构不等于正式马来语构词。正式表达须按意思选择 mengatur cara、menulis kod 或 mengekod。参见 [Merriam-Webster](https://www.merriam-webster.com/dictionary/code)。",
+      "collocations": [
+        {
+          "ms": "belajar code",
+          "zh": "学习编程",
+          "en": "learn to code"
+        },
+        {
+          "ms": "nak code aplikasi",
+          "zh": "想编写应用程序",
+          "en": "want to code an application"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场汇报 / 软件开发",
+      "ms": "Pasukan pembangunan telah menyemak kod sumber aplikasi sebelum ujian penerimaan pengguna.",
+      "zh": "开发团队已在用户验收测试前检查应用程序的源代码。",
+      "en": "The development team reviewed the application's source code before user acceptance testing."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 开发同事的混合语体",
+      "ms_spoken": "Aku dah semak code tu, tinggal satu bahagian je.",
+      "ms_standard": "Saya sudah menyemak kod itu; hanya satu bahagian yang masih belum selesai.",
+      "zh": "那份代码我已经看过了，只剩一部分还没弄完。",
+      "en": "I've reviewed the code. There's just one section left.",
+      "spoken_features": [
+        "code 为英语插入语，标准马来文对应 kod",
+        "dah 对应 sudah",
+        "tu 对应 itu",
+        "je 对应 sahaja",
+        "aku 适用于熟悉的同事"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Kau dah semak code yang aku hantar tadi?",
+          "ms_standard": "Adakah awak sudah menyemak kod yang saya hantar tadi?",
+          "zh": "我刚发你的代码，你看过了吗？",
+          "en": "Have you reviewed the code I sent earlier?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Dah. Ada satu masalah je; nanti aku tunjuk kat kau.",
+          "ms_standard": "Sudah. Ada satu masalah sahaja; saya akan menunjukkannya kepada awak nanti.",
+          "zh": "看过了，就一个问题，等会儿指给你看。",
+          "en": "Yes. There's just one issue; I'll show you in a bit."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English code travelled through French from Latin codex, associated with wooden writing tablets and books. Its meanings developed from organized written rules to systems of symbols and computer instructions. In Malaysian conversation, speakers may retain the English spelling during language switching, while standard Malay uses kod. See [Merriam-Webster](https://www.merriam-webster.com/dictionary/code).",
+    "cognitive_memory_aid": "code 读成一个音节，c 发 /k/；看到软件、验证码或规则时，分别联想“程序代码、识别码、守则”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "与熟悉英语科技词的同事交谈时可以自然切换；面对公众或不熟悉英语的人，应优先使用清楚的马来语对应词。",
+    "usage_etiquette": "code 适合英语原文、产品界面引用及混合口语；正式马来文使用符合具体语义的 kod、kanun、tatacara 或 pengaturcaraan。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "与熟悉英语科技词的同事交谈时可以自然切换；面对公众或不熟悉英语的人，应优先使用清楚的马来语对应词。",
+    "usage_etiquette": "code 适合英语原文、产品界面引用及混合口语；正式马来文使用符合具体语义的 kod、kanun、tatacara 或 pengaturcaraan。"
+  }
+}
