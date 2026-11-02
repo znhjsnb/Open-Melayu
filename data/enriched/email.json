@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "email",
+    "syllables": null,
+    "ipa": "/ˈiː.meɪl/",
+    "jawi": null,
+    "frequency_rank": 5246,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "email",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + email → email",
+    "pattern_note": "输入形式 email 为英语拼写，整体借用；规范马来语写 e-mel，读音约为 /i.mel/。以下派生词以 e-mel 为基础；元音前 meN-、peN- 分别呈 meng-、peng-。",
+    "word_family": [
+      {
+        "word": "meng-e-melkan",
+        "affix": "meN-...-kan",
+        "gloss": "以电子邮件发送"
+      },
+      {
+        "word": "peng-e-melan",
+        "affix": "peN-...-an",
+        "gloss": "电子邮件发送行为或过程"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "电子邮件；通过计算机网络收发电子信息的通信方式，或以这种方式发送的一封邮件。",
+      "en_definition": "A system for exchanging electronic messages over a network, or a message sent through that system.",
+      "ms_definition": "Sistem penghantaran dan penerimaan mesej secara elektronik melalui rangkaian komputer, atau mesej yang dihantar melalui sistem tersebut.",
+      "nuances": "email 常见于英语及马来语混用交流；马来西亚规范马来语拼写为 e-mel。alamat email 指电子邮箱地址，不等于邮件本身。此处马来文释义依据词典概念改写；status 为所要求的条目标签，不表示英语拼写获得DBP认证。参见 [DBP：e-mel](https://prpm.dbp.gov.my/Cari1?d=382696&keyword=e-mel) 和 [Cambridge：email](https://dictionary.cambridge.org/us/dictionary/english/email)。",
+      "collocations": [
+        {
+          "ms": "alamat e-mel",
+          "zh": "电子邮箱地址",
+          "en": "email address"
+        },
+        {
+          "ms": "menghantar e-mel",
+          "zh": "发送电子邮件",
+          "en": "send an email"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用电子邮件发送信息；给某人发电子邮件。",
+      "en_definition": "To send someone an electronic message or send something by email.",
+      "ms_definition": "Menghantar mesej atau dokumen kepada seseorang melalui e-mel.",
+      "nuances": "动词 email 常用于混合语码口语，如 nanti saya email。正式马来语宜用 menghantar e-mel 或 meng-e-melkan；不能把无词缀的英语动词用法当作正式马来语构词规则。英语动词义见 [Cambridge：email](https://dictionary.cambridge.org/us/dictionary/english/email)。",
+      "collocations": [
+        {
+          "ms": "email laporan kepada pelanggan",
+          "zh": "把报告通过电子邮件发给客户",
+          "en": "email the report to the client"
+        },
+        {
+          "ms": "email kepada saya",
+          "zh": "给我发电子邮件",
+          "en": "email me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场通知",
+      "ms": "Sila hantar laporan tersebut melalui e-mel (email) sebelum pukul lima petang.",
+      "zh": "请在下午五点前通过电子邮件发送该报告。",
+      "en": "Please send the report by email before five o’clock this afternoon."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认文件",
+      "ms_spoken": "Aku dah email fail tu kat kau.",
+      "ms_standard": "Saya sudah menghantar fail itu kepada kamu melalui e-mel.",
+      "zh": "我已经把那个文件发到你邮箱了。",
+      "en": "I’ve emailed you the file.",
+      "spoken_features": [
+        "email 直接充当英语借用动词。",
+        "dah 对应 sudah，tu 对应 itu。",
+        "kat 在这里标记接收者，规范表达用 kepada。",
+        "aku、kau 适合关系熟悉的同事；je 对应 sahaja。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (熟悉的同事)",
+          "ms_spoken": "Aku dah email fail tu kat kau. Cuba semak.",
+          "ms_standard": "Saya sudah menghantar fail itu kepada kamu melalui e-mel. Cuba semak fail tersebut.",
+          "zh": "我已经把那个文件发到你邮箱了，你看一下。",
+          "en": "I’ve emailed you the file. Have a look."
+        },
+        {
+          "speaker": "Amir (熟悉的同事)",
+          "ms_spoken": "Dah dapat, terima kasih! Aku semak sekarang je.",
+          "ms_standard": "Saya sudah menerimanya, terima kasih! Saya akan menyemaknya sekarang.",
+          "zh": "收到了，谢谢！我现在就看。",
+          "en": "Got it, thanks! I’ll check it now."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Email is a shortened form of electronic mail: the letter e represents electronic, while mail supplies the communication metaphor. Malay adopted the corresponding spelling e-mel. Its integration is visible in the established derivatives meng-e-melkan and peng-e-melan, showing how a technology term can acquire Malay grammatical forms while its English spelling remains familiar in informal exchanges. [Source: DBP](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=electronic).",
+    "cognitive_memory_aid": "e 代表 electronic，mail 是邮件：电子化的邮件就是 email；正式马来语记作 e-mel。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "工作邮件宜使用合适称呼、明确主题和礼貌请求，如 Mohon pihak tuan menyemak lampiran。与上司或初次接触的客户交流时，采用 saya、tuan 或 puan。",
+    "usage_etiquette": "正式马来语文件使用 e-mel。要求对方处理邮件时应说明事项和期限；确认收到可说 Saya telah menerima e-mel tersebut。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "工作邮件宜使用合适称呼、明确主题和礼貌请求，如 Mohon pihak tuan menyemak lampiran。与上司或初次接触的客户交流时，采用 saya、tuan 或 puan。",
+    "usage_etiquette": "正式马来语文件使用 e-mel。要求对方处理邮件时应说明事项和期限；确认收到可说 Saya telah menerima e-mel tersebut。"
+  }
+}

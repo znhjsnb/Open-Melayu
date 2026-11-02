@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "collins",
+    "syllables": null,
+    "ipa": "/ˈkɒlɪnz/",
+    "jawi": null,
+    "frequency_rank": 5235,
+    "status": "context_dependent",
+    "verification_note": "输入没有上下文，不能确定指姓氏 Collins、出版品牌 Collins，还是英语饮品名 collins，也不能标为官方马来语普通词。以下区分这些候选用法。音标为英语参考读音；排名沿用输入，音节与爪夷文缺项保留 null。"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "collins",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + collins → collins",
+    "pattern_note": "整体记忆，不拆作马来语词根与词缀；词尾 -s 在这里不是马来语复数标记。姓氏和品牌写作 Collins，英语饮品普通名词可写作 collins。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "柯林斯：姓氏，用于指称姓 Collins 的人；具体人物由上下文确定。",
+      "en_definition": "Collins, a surname identifying a person or family; the referent depends on context.",
+      "ms_definition": "Nama keluarga Collins yang digunakan untuk merujuk seseorang atau sesebuah keluarga; rujukannya bergantung pada konteks.",
+      "nuances": "不能仅凭 collins 这个小写词形确定是哪位人物。马来语文献中可见学者 James T. Collins 的署名，但这不证明输入必指此人。以下是姓名或称呼组合，不是普通词的高频搭配。[DBP 期刊署名用例](https://dev.dbp.my/index.php/Melayu/ms/article/download/8757/4460/29941)。",
+      "collocations": [
+        {
+          "ms": "James T. Collins",
+          "zh": "詹姆斯·T.柯林斯",
+          "en": "James T. Collins"
+        },
+        {
+          "ms": "Encik Collins",
+          "zh": "柯林斯先生",
+          "en": "Mr Collins"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "柯林斯：出版品牌名，见于词典、教育资源和其他参考出版物。",
+      "en_definition": "Collins, a publishing imprint associated with dictionaries, educational resources, and reference works.",
+      "ms_definition": "Nama jenama penerbitan Collins yang digunakan pada kamus, bahan pendidikan dan bahan rujukan.",
+      "nuances": "这是品牌专名，通常保留 Collins 的大写拼写；kamus Collins 指该品牌的词典，不是泛指所有英语词典。[Collins 官方介绍](https://collins.co.uk/pages/about)。",
+      "collocations": [
+        {
+          "ms": "kamus Collins",
+          "zh": "柯林斯词典",
+          "en": "a Collins dictionary"
+        },
+        {
+          "ms": "buku terbitan Collins",
+          "zh": "柯林斯出版的书",
+          "en": "a book published by Collins"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "柯林斯类鸡尾酒：通常由烈酒、果汁、糖和苏打水调制，加冰盛于高杯的饮品；本项为英语餐饮名称。",
+      "en_definition": "A tall iced mixed drink made with a spirit, fruit juice, sugar, and soda water.",
+      "ms_definition": "Nama bahasa Inggeris bagi sejenis koktel yang mengandungi minuman beralkohol, jus buah, gula dan air soda, serta dihidangkan dengan ais dalam gelas tinggi.",
+      "nuances": "这是英语普通名词义，不能当作已确立的标准马来语词义。菜单中的 Tom Collins、John Collins 是相关饮品名称，不是马来语派生词。词典对饮品名的起源仅称可能来自人名，不能编成确定的发明故事。[Collins 饮品释义](https://api.collinsdictionary.com/dictionary/english/collins)。",
+      "collocations": [
+        {
+          "ms": "koktel Tom Collins",
+          "zh": "汤姆柯林斯鸡尾酒",
+          "en": "a Tom Collins cocktail"
+        },
+        {
+          "ms": "segelas collins",
+          "zh": "一杯柯林斯类鸡尾酒",
+          "en": "a glass of collins"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak perpustakaan mencadangkan pembelian kamus Collins sebagai bahan rujukan tambahan.",
+      "zh": "图书馆方面建议购入柯林斯词典，作为补充参考资料。",
+      "en": "The library recommends purchasing Collins dictionaries as additional reference materials."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kamus Collins tu ada kat meja aku. Ambil je.",
+      "ms_standard": "Kamus Collins itu ada di atas meja saya. Awak boleh mengambilnya.",
+      "zh": "那本柯林斯词典在我桌上，拿去用吧。",
+      "en": "The Collins dictionary's on my desk. Go ahead and take it.",
+      "spoken_features": [
+        "tu 是 itu 的口语缩略形式。",
+        "kat 在这里表示位置，标准句明确为 di atas。",
+        "Ambil je 在这里表达随意取用的许可；标准对应需要译出语用含义。",
+        "aku 适合熟人之间，正式场合通常采用 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Aku nak pinjam kamus Collins kau, boleh?",
+          "ms_standard": "Bolehkah saya meminjam kamus Collins awak?",
+          "zh": "我想借一下你的柯林斯词典，可以吗？",
+          "en": "Can I borrow your Collins dictionary?"
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Boleh. Ada kat meja aku, ambil je.",
+          "ms_standard": "Boleh. Kamus itu ada di atas meja saya. Awak boleh mengambilnya.",
+          "zh": "可以啊，在我桌上，拿去吧。",
+          "en": "Sure. It's on my desk. Help yourself."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The publishing name Collins is connected with William Collins, whose publishing enterprise began in 1819. Through dictionaries and educational books, that family name became a familiar label for reference materials. This explains the brand use, but does not identify every person surnamed Collins or establish the origin of the separate cocktail term. [Publisher history](https://www.williamcollinsbooks.co.uk/).",
+    "cognitive_memory_aid": "看到 kamus Collins，就想“柯林斯词典”；看到 Encik Collins，就想“柯林斯先生”；看到菜单上的 collins，则先按饮品名理解。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "指人时采用本人认可的称谓，如 Encik Collins 或相应专业头衔；指品牌时直接保留 Collins，无需人名称谓。",
+    "usage_etiquette": "先依据语境区分人物、品牌与饮品。涉及饮品时明确说明是否含酒精，尊重对方的饮食选择；不能仅凭品牌或姓氏推断个人身份。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "指人时采用本人认可的称谓，如 Encik Collins 或相应专业头衔；指品牌时直接保留 Collins，无需人名称谓。",
+    "usage_etiquette": "先依据语境区分人物、品牌与饮品。涉及饮品时明确说明是否含酒精，尊重对方的饮食选择；不能仅凭品牌或姓氏推断个人身份。"
+  }
+}

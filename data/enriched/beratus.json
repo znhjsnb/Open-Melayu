@@ -1,0 +1,137 @@
+{
+  "headword": {
+    "word": "beratus",
+    "syllables": "be.ra.tus",
+    "ipa": "/bə.ra.tus/",
+    "jawi": null,
+    "frequency_rank": 5477,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "ratus",
+    "affix": "ber-",
+    "affix_type": "prefix",
+    "formula": "ber- + ratus → beratus",
+    "pattern_note": "ber- 接以 r 开头的 ratus 时，交界处不保留双写 rr，形成 beratus；前缀也可分析为异形 be-。",
+    "word_family": [
+      {
+        "word": "seratus",
+        "affix": "se-",
+        "gloss": "一百"
+      },
+      {
+        "word": "ratusan",
+        "affix": "-an",
+        "gloss": "数百；百位"
+      },
+      {
+        "word": "beratus-ratus",
+        "affix": "ber- + penggandaan",
+        "gloss": "数以百计"
+      },
+      {
+        "word": "peratus",
+        "affix": "per-",
+        "gloss": "百分之；百分比"
+      }
+    ],
+    "root_jawi": "راتوس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "numeral",
+      "zh_definition": "数百；数以百计，表示数量达到若干个百，通常不说明确数。",
+      "en_definition": "Numbering several hundred; in the hundreds.",
+      "ms_definition": "Menunjukkan jumlah yang mencapai beberapa ratus tanpa menyatakan bilangan yang tepat.",
+      "nuances": "属于数量表达，不表示恰好一百；恰好一百用 seratus。beratus-ratus 是常见的重叠形式。作金额等数量述语时，如 Harganya beratus ringgit，表示价钱为数百令吉。",
+      "collocations": [
+        {
+          "ms": "beratus ringgit",
+          "zh": "数百令吉",
+          "en": "hundreds of ringgit"
+        },
+        {
+          "ms": "beratus orang",
+          "zh": "数百人",
+          "en": "hundreds of people"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 活动人数报道",
+      "ms": "Beratus orang hadir untuk menyertai program kesukarelawanan itu.",
+      "zh": "数百人到场参加了该志愿服务活动。",
+      "en": "Hundreds of people attended the volunteering programme."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论维修费用",
+      "ms_spoken": "Baiki telefon ni kena beratus ringgit, lah.",
+      "ms_standard": "Kos membaiki telefon ini mencecah beberapa ratus ringgit.",
+      "zh": "修这部手机得花好几百令吉呢。",
+      "en": "Getting this phone fixed will cost hundreds of ringgit.",
+      "spoken_features": [
+        "ni 对应 ini",
+        "kena 在此表示需要承担费用",
+        "lah 加强感叹语气",
+        "beratus 表示概数"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Baiki telefon ni kena beratus ringgit, lah.",
+          "ms_standard": "Kos membaiki telefon ini mencecah beberapa ratus ringgit.",
+          "zh": "修这手机要花好几百令吉呢。",
+          "en": "It'll cost hundreds of ringgit to fix this phone."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Mahalnya! Tanya kedai lain dulu je.",
+          "ms_standard": "Mahalnya! Cuba tanyakan kosnya di kedai lain dahulu.",
+          "zh": "这么贵！先去别家问问价吧。",
+          "en": "That's expensive! Try getting a quote from another shop first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Beratus is transparently formed from ratus, meaning hundred, with the Malay prefix ber-. A DBP morphology text explicitly illustrates this formation. The same numerical base appears in seratus, ratusan and beratus-ratus. Learning this family reveals a productive Malay counting pattern without requiring an unsupported story about the word's earliest historical origin.",
+    "cognitive_memory_aid": "ratus 是“百”；加 ber-，脑中出现一群“百”：beratus＝数百。注意只写一个 r。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词语体中性。谈论维修费等金额时可以表示惊讶；面对服务人员，可用 Boleh jelaskan kosnya? 礼貌询问费用。",
+    "usage_etiquette": "适合人数、费用等概数描述。正式报价、结算或精确统计应列明实际数字，避免让概数承担精确金额的作用。"
+  },
+  "validation": {
+    "language": "ms",
+    "eligible_as_official_malay_headword": true,
+    "notes": [
+      "已据 DBP 构词资料将输入的 is_root: true 和 root_word: beratus 更正为 false 和 ratus。",
+      "pos 使用 numeral，因为给定枚举缺少数词类别；不将数量词误标为名词或形容词。",
+      "official 表示有 DBP 出版资料支持的规范词形，不表示本条全部内容获得 DBP 审定。",
+      "ms_definition 为依据资料编写的释义，不是官方逐字引文。",
+      "headword.jawi 按输入保留 null；root_jawi 根据 PRPM 的 ratus 词条补充。",
+      "音节和 IPA 为语言学转写；frequency_rank 仅保留输入排序。",
+      "例句、搭配和对话为编写示例，未核实语料频次。"
+    ]
+  },
+  "sources": [
+    {
+      "citation": "[DBP：Abdullah Hassan《Morfologi》](https://jendeladbp.my/app/uploads/woocommerce_uploads/2025/04/eDigital_Morfologi-qnsczr.pdf)",
+      "supports": "明确列举 ber- 与 ratus 的构词关系，并说明 beratus 表示数量集合，可用于 Beratus ramainya yang datang 等结构。"
+    },
+    {
+      "citation": "[PRPM：ratus](https://prpm.dbp.gov.my/Cari1?d=250808&keyword=ratus)",
+      "supports": "ratus 的含义、Jawi 拼写及 seratus、ratusan、beratus-ratus、peratus 等词族。"
+    }
+  ],
+  "sociolinguistic_register": {
+    "politeness_note": "本词语体中性。谈论维修费等金额时可以表示惊讶；面对服务人员，可用 Boleh jelaskan kosnya? 礼貌询问费用。",
+    "usage_etiquette": "适合人数、费用等概数描述。正式报价、结算或精确统计应列明实际数字，避免让概数承担精确金额的作用。"
+  }
+}

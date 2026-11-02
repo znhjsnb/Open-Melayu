@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "melihatku",
+    "syllables": null,
+    "ipa": "/məlihatku/",
+    "jawi": null,
+    "frequency_rank": 5326,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lihat",
+    "affix": "meN-，另接宾语附着代词-ku",
+    "affix_type": "prefix",
+    "formula": "meN- + lihat → melihat; melihat + -ku → melihatku",
+    "pattern_note": "修正packet的未切分词根。meN-在/l/前实现为me-，保留词根首音/l/；-ku是aku的附着形式，在此表示宾语“我”，不是构词后缀，因此整体不分析为me-...-ku环缀。-ku与前词连写。参见[DBP：附着代词ku](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=adikku)。",
+    "word_family": [
+      {
+        "word": "melihat",
+        "affix": "meN- → me-",
+        "gloss": "看；看见"
+      },
+      {
+        "word": "penglihatan",
+        "affix": "peN-...-an → peng-...-an",
+        "gloss": "视觉；视力"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "看见我；看着我。表示视觉动作指向说话者。",
+      "en_definition": "To see me or look at me.",
+      "ms_definition": "Memandang atau nampak akan aku dengan menggunakan mata.",
+      "nuances": "主语由句子另行提供，如dia melihatku是“他／她看见我”，不是“我看见”。区别于kulihat，其中ku-标示第一人称施事。melihatku带有叙事或文学色彩，日常马来西亚口语常说tengok aku或nampak aku。释义据melihat及-ku的语法组合编写，非DBP独立词条原文。参见[DBP：melihat释义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=gelak)、[DBP：ku](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=adikku)。",
+      "collocations": [
+        {
+          "ms": "melihatku dari jauh",
+          "zh": "从远处看见我",
+          "en": "see me from a distance"
+        },
+        {
+          "ms": "melihatku dengan hairan",
+          "zh": "惊讶地看着我",
+          "en": "look at me in surprise"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把我看作；以某种身份或角度看待我。",
+      "en_definition": "To regard me or view me in a particular way.",
+      "ms_definition": "Menganggap atau menilai aku daripada sudut atau sebagai seseorang yang tertentu.",
+      "nuances": "由melihat的认知评价用法引申，通常需要sebagai或其他说明角度的成分；脱离补语时一般优先理解为视觉动作。此处为组合释义，而非宣称DBP另收melihatku为独立词目。",
+      "collocations": [
+        {
+          "ms": "melihatku sebagai rakan",
+          "zh": "把我看作伙伴",
+          "en": "regard me as a friend or colleague"
+        },
+        {
+          "ms": "melihatku sebagai pesaing",
+          "zh": "把我看作竞争对手",
+          "en": "see me as a competitor"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "来看望我；探望我，尤其用于生病或需要关怀的情境。",
+      "en_definition": "To visit me, especially when I am ill or in need of care.",
+      "ms_definition": "Melawat atau menziarahi aku, khususnya ketika aku sakit.",
+      "nuances": "此义须由datang、医院或生病等上下文支持；不能把每个melihatku都译成“探望我”。口语常改用datang tengok aku，明确表达探访则可用menziarahiku。参见[DBP：melihat的探望义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=gelak)。",
+      "collocations": [
+        {
+          "ms": "datang melihatku",
+          "zh": "前来看望我",
+          "en": "come to visit me"
+        },
+        {
+          "ms": "melihatku di hospital",
+          "zh": "到医院探望我",
+          "en": "visit me in hospital"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 引述目击者陈述",
+      "ms": "Saksi itu berkata, \"Lelaki tersebut melihatku sebelum meninggalkan bangunan itu.\"",
+      "zh": "该证人说：“那名男子离开大楼前看了我一眼。”",
+      "en": "The witness said, \"The man looked at me before leaving the building.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友讨论故事文句",
+      "ms_spoken": "Ayat 'Dia melihatku dari jauh' ni bunyi macam novel, kan?",
+      "ms_standard": "Ayat 'Dia melihatku dari jauh' ini kedengaran seperti ayat dalam novel, bukan?",
+      "zh": "“他从远处看着我”这句听起来很像小说，对吧？",
+      "en": "The sentence 'He looked at me from a distance' sounds like something from a novel, doesn't it?",
+      "spoken_features": [
+        "melihatku作为被讨论的文学表达出现",
+        "ni对应ini",
+        "macam对应seperti",
+        "kan用于征求认同",
+        "je对应sahaja"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak guna ayat 'Dia melihatku dari jauh'. Bunyi macam novel, kan?",
+          "ms_standard": "Saya hendak menggunakan ayat 'Dia melihatku dari jauh'. Ayat itu kedengaran seperti ayat dalam novel, bukan?",
+          "zh": "我想用“他从远处看着我”这句。听起来很像小说，对吧？",
+          "en": "I want to use 'He looked at me from a distance.' It sounds quite novel-like, doesn't it?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya lah. Kalau sembang biasa, aku cakap 'Dia tengok aku dari jauh' je.",
+          "ms_standard": "Ya. Dalam perbualan biasa, saya hanya mengatakan 'Dia melihat saya dari jauh'.",
+          "zh": "对啊。平时聊天，我就说“Dia tengok aku dari jauh”。",
+          "en": "Yeah. In everyday conversation, I'd just say 'Dia tengok aku dari jauh.'"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Melihatku illustrates Malay grammar rather than a separate lexical origin. The root lihat receives the active prefix me-, while -ku compresses aku into an attached object pronoun. In a narrative, this compact form places the speaker inside another person's gaze. Its written elegance explains why a learner may encounter it in fiction before hearing it in casual conversation. [DBP: ku](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=adikku).",
+    "cognitive_memory_aid": "lihat＝看，me-＝主动，尾巴-ku＝我这个宾语：melihatku就是“看我”；ku在前的kulihat才涉及“我来看”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku关联aku，适合文学叙述、个人独白或亲近关系。向上司、长辈或陌生人陈述时，melihat saya通常更稳妥。",
+    "usage_etiquette": "适合小说、诗歌、歌词和引语。正式报告若直接陈述自身经历，通常使用saya；不要因-ku与前词连写，就把它误教为表示所有关系的“我的”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku关联aku，适合文学叙述、个人独白或亲近关系。向上司、长辈或陌生人陈述时，melihat saya通常更稳妥。",
+    "usage_etiquette": "适合小说、诗歌、歌词和引语。正式报告若直接陈述自身经历，通常使用saya；不要因-ku与前词连写，就把它误教为表示所有关系的“我的”。"
+  }
+}
