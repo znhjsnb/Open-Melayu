@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "setitik",
+    "syllables": null,
+    "ipa": "/sə.ti.tiʔ/",
+    "jawi": "تيتيق",
+    "frequency_rank": 10675,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "titik",
+    "affix": "se-",
+    "affix_type": "prefix",
+    "formula": "se- + titik → setitik",
+    "pattern_note": "se- 在此表示“一”，词根不发生音变；词尾 k 在常见马来西亚读音中实现为喉塞音 [ʔ]。输入 Jawi 对应 titik；完整 setitik 应写作 ستيتيق。",
+    "word_family": [
+      {
+        "word": "menitik",
+        "affix": "meN-",
+        "gloss": "滴落；点上圆点"
+      },
+      {
+        "word": "menitikkan",
+        "affix": "meN-...-kan",
+        "gloss": "使液体滴下"
+      },
+      {
+        "word": "bertitik",
+        "affix": "ber-",
+        "gloss": "有圆点；滴落"
+      },
+      {
+        "word": "setitik-setitik",
+        "affix": "se- + penggandaan",
+        "gloss": "一滴一滴地"
+      }
+    ],
+    "root_jawi": "تيتيق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "一滴液体。",
+      "en_definition": "A single drop of liquid.",
+      "ms_definition": "Satu titis cecair, seperti air, darah atau dakwat.",
+      "nuances": "整体具有数量表达功能；此处按模板归入名词。常用于 setitik air、setitik darah，与持续流动的一股液体不同。相关用法参见 [DBP：titis](https://prpm.dbp.gov.my/cari1?keyword=titis)。",
+      "collocations": [
+        {
+          "ms": "setitik air",
+          "zh": "一滴水",
+          "en": "a drop of water"
+        },
+        {
+          "ms": "setitik air mata",
+          "zh": "一滴眼泪",
+          "en": "a single tear"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "一个极小的圆点或点状痕迹。",
+      "en_definition": "A single small dot or point-like mark.",
+      "ms_definition": "Satu tanda bulat yang sangat kecil atau satu kesan berbentuk titik.",
+      "nuances": "此义来自 titik 的“圆点”义；setitik dakwat 可指一滴墨水，也可指留下的墨点，须看上下文。数学中的“一个点”通常直接说 satu titik。参见 [DBP：titik II](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=noktah)。",
+      "collocations": [
+        {
+          "ms": "setitik dakwat",
+          "zh": "一个墨点；一滴墨水",
+          "en": "a spot or drop of ink"
+        },
+        {
+          "ms": "setitik noda",
+          "zh": "一个小污点",
+          "en": "a tiny stain"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "极少量；一点点，多用于比喻或文学表达。",
+      "en_definition": "A very small amount or trace, especially figuratively.",
+      "ms_definition": "Jumlah yang amat sedikit atau sedikit unsur sesuatu, secara kiasan.",
+      "nuances": "常把希望、同情或悔意想象成一滴液体；普通事务表达“少许”时，sedikit 更中性。",
+      "collocations": [
+        {
+          "ms": "setitik harapan",
+          "zh": "一丝希望",
+          "en": "a glimmer of hope"
+        },
+        {
+          "ms": "setitik keinsafan",
+          "zh": "一丝悔悟",
+          "en": "a trace of remorse"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Petugas makmal meletakkan setitik air pada slaid kaca sebelum menjalankan pemeriksaan.",
+      "zh": "实验室工作人员在进行检查前，将一滴水滴在载玻片上。",
+      "en": "The laboratory technician placed a drop of water on the glass slide before carrying out the examination."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Letak setitik je dulu, nanti pekat sangat.",
+      "ms_standard": "Letakkan setitik sahaja dahulu supaya campuran itu tidak menjadi terlalu pekat.",
+      "zh": "先放一滴就好，免得太浓。",
+      "en": "Just add one drop first, or it might get too concentrated.",
+      "spoken_features": [
+        "je 对应 sahaja，表示“而已／就好”",
+        "dulu 对应 dahulu",
+        "口语使用 letak，标准指令可用 letakkan",
+        "nanti 在这里提示可能出现的不理想结果"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Nak letak berapa banyak pewarna ni?",
+          "ms_standard": "Berapa banyakkah pewarna ini yang perlu saya letakkan?",
+          "zh": "这个色素要放多少啊？",
+          "en": "How much of this colouring should I add?"
+        },
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Letak setitik je dulu, nanti pekat sangat.",
+          "ms_standard": "Letakkan setitik sahaja dahulu supaya campuran itu tidak menjadi terlalu pekat.",
+          "zh": "先放一滴就好，免得太浓。",
+          "en": "Just add one drop first, or it might get too concentrated."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Setitik combines se-, meaning one, with titik, which can denote a drop or a dot. Malay proverbial language gives this tiny quantity considerable force: the familiar saying about a little indigo spoiling a pot of milk illustrates how one small fault can damage a larger good. This is cultural usage, not a proposed borrowing history. [DBP: setitik](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=setitik)",
+    "cognitive_memory_aid": "se-＝一；titik 的 ti-ti 像两声轻轻的滴答。setitik 就是其中“一滴”或“一个小点”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "本词语气中性。setitik harapan 等搭配带文学色彩；日常要求少放液体时，setitik sahaja 或 setitik je 都自然。",
+    "usage_etiquette": "借“少量靛青坏了一锅奶”的谚语批评他人，可能被理解为指责某人连累整个群体；直接用于个人时应留意语气。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "本词语气中性。setitik harapan 等搭配带文学色彩；日常要求少放液体时，setitik sahaja 或 setitik je 都自然。",
+    "usage_etiquette": "借“少量靛青坏了一锅奶”的谚语批评他人，可能被理解为指责某人连累整个群体；直接用于个人时应留意语气。"
+  }
+}

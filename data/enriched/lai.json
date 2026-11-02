@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "lai",
+    "syllables": "lai",
+    "ipa": "/laj/",
+    "jawi": "لاي",
+    "frequency_rank": 10626,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "lai",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + lai → lai；表示薄片时：helai → lai（截短）",
+    "pattern_note": "lai 为单音节，ai 构成双元音 /aj/。薄片义来自 helai 的截短；梨义是另一个同形词，不能用 helai 解释。",
+    "word_family": [
+      {
+        "word": "helai",
+        "affix": null,
+        "gloss": "薄片；用于纸、叶、衣物等的量词；与截短义 lai 对应"
+      },
+      {
+        "word": "sehelai",
+        "affix": "se-",
+        "gloss": "一张、一片、一件；由完整形式 helai 构成"
+      }
+    ],
+    "root_jawi": "لاي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "helai 的截短形式：薄片、叶片；也可承担 helai 的量词功能。",
+      "en_definition": "A shortened form of helai: a sheet or leaf, also used as a classifier.",
+      "ms_definition": "Kependekan bagi helai.",
+      "nuances": "数据包对应此义，不能直接替换成“梨”。正式计数通常使用完整形式 helai，如 dua helai kertas；lai 的截短形式不宜作为所有场合的默认量词。参见 [DBP：helai 与 lai](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=helai)。",
+      "collocations": [
+        {
+          "ms": "lai daun",
+          "zh": "叶片",
+          "en": "a leaf blade"
+        },
+        {
+          "ms": "dua helai kertas",
+          "zh": "两张纸；使用完整形式 helai",
+          "en": "two sheets of paper, using the full form helai"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "中国梨、亚洲梨；常见于 buah lai 一词。",
+      "en_definition": "A Chinese or Asian pear.",
+      "ms_definition": "Buah pir Cina; lazim disebut buah lai.",
+      "nuances": "这是与 helai 截短义不同的同形词。DBP《Kamus Inggeris-Melayu Dewan》将 Chinese pear 译为“(buah) lai”；不能据此把所有品种的 pear 都限定为 lai。参见 [DBP：Chinese pear](https://prpm.dbp.gov.my/Cari1?d=72508&keyword=pear)。",
+      "collocations": [
+        {
+          "ms": "buah lai",
+          "zh": "亚洲梨",
+          "en": "Asian pear"
+        },
+        {
+          "ms": "jus buah lai",
+          "zh": "亚洲梨汁",
+          "en": "Asian pear juice"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：水果采购",
+      "ms": "Pembekal diminta memastikan semua buah lai yang dihantar berada dalam keadaan baik.",
+      "zh": "供应商须确保交付的亚洲梨全部完好。",
+      "en": "The supplier is requested to ensure that all Asian pears delivered are in good condition."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：买水果",
+      "ms_spoken": "Aku nak beli buah lai kat pasar nanti.",
+      "ms_standard": "Aku hendak membeli buah lai di pasar nanti.",
+      "zh": "我待会儿想去市场买梨。",
+      "en": "I'm going to buy some Asian pears at the market later.",
+      "spoken_features": [
+        "nak 对应 hendak",
+        "kat 对应地点介词 di",
+        "口语 beli 对应标准表达 membeli"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak beli buah lai kat pasar nanti. Kau nak juga?",
+          "ms_standard": "Aku hendak membeli buah lai di pasar nanti. Adakah kamu juga mahu?",
+          "zh": "我待会儿去市场买梨，你也要吗？",
+          "en": "I'm getting some Asian pears at the market later. Want some?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nak, belikan dua biji je. Kat rumah dah ada epal.",
+          "ms_standard": "Ya, tolong belikan dua biji sahaja. Di rumah sudah ada epal.",
+          "zh": "要，帮我买两个就好，家里已经有苹果了。",
+          "en": "Yes, just get me two. I've already got apples at home."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Two dictionary trails meet in this spelling. One lai is explicitly recorded as a shortening of helai, the familiar Malay word for a sheet or classifier. Another appears in buah lai, translated by DBP as Chinese pear. These meanings should remain separate: identical spelling does not establish a shared origin, and the supplied packet documents only the first.",
+    "cognitive_memory_aid": "看到 lai daun，补回 he-：helai，叶片；看到 buah lai，先认 buah：这是水果梨。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "买水果时说 buah lai 自然、明确。向店员询问可用“Maaf, ada buah lai?”，无需特别敬语。",
+    "usage_etiquette": "水果按 biji 计数，如 dua biji buah lai；纸张按 helai 计数。两种 lai 意义不同，切勿把水果量词和薄片量词混用。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "买水果时说 buah lai 自然、明确。向店员询问可用“Maaf, ada buah lai?”，无需特别敬语。",
+    "usage_etiquette": "水果按 biji 计数，如 dua biji buah lai；纸张按 helai 计数。两种 lai 意义不同，切勿把水果量词和薄片量词混用。"
+  }
+}

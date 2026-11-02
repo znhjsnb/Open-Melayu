@@ -1,0 +1,124 @@
+{
+  "headword": {
+    "word": "dihantui",
+    "syllables": null,
+    "ipa": "/di.han.tu.i/",
+    "jawi": "هنتو",
+    "frequency_rank": 10697,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "hantu",
+    "affix": "di-…-i",
+    "affix_type": "circumfix",
+    "formula": "di- + hantu + -i → dihantui",
+    "pattern_note": "di- 标记被动语态，-i 保留于派生动词；词根 hantu 不变，/u.i/ 可分读。按给定字段归入 circumfix，严格说是被动前缀 di- 与后缀 -i 的组合。headword.jawi 按要求保留资料包的 هنتو，但该形式只拼写词根 hantu，并非完整 dihantui；不得视作完整词形的已核实爪夷文。",
+    "word_family": [
+      {
+        "word": "menghantui",
+        "affix": "meN-…-i",
+        "gloss": "使烦扰；萦绕某人的心头"
+      },
+      {
+        "word": "berhantu",
+        "affix": "ber-",
+        "gloss": "闹鬼的；据说有鬼的"
+      }
+    ],
+    "root_jawi": "هنتو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "被某种记忆、忧虑、恐惧或内疚反复困扰；某事持续萦绕心头。",
+      "en_definition": "To be persistently troubled by a memory, worry, fear, or feeling of guilt.",
+      "ms_definition": "Diganggu fikiran atau diusik jiwa secara berterusan oleh kenangan, kebimbangan, ketakutan atau perasaan tertentu.",
+      "nuances": "这是 menghantui 的常见比喻义所对应的被动形式。马来文释义依 DBP 义项改写为被动解释，并非 DBP 独立词条的逐字引文。常用“人或心灵 + dihantui + 困扰来源”；表达心理困扰，并不自动构成医学诊断。[DBP：menghantui](https://prpm.dbp.gov.my/cari1?keyword=menghantui)",
+      "collocations": [
+        {
+          "ms": "dihantui rasa bersalah",
+          "zh": "被内疚感折磨",
+          "en": "to be haunted by guilt"
+        },
+        {
+          "ms": "dihantui kenangan pahit",
+          "zh": "被痛苦回忆纠缠",
+          "en": "to be haunted by painful memories"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "受到恐吓而被影响或支配。",
+      "en_definition": "To be influenced or intimidated through fear.",
+      "ms_definition": "Dipengaruhi atau dikuasai melalui perbuatan menakut-nakutkan.",
+      "nuances": "对应 DBP 所列 menghantui 的第二义，侧重恐惧对行为或判断的影响；通常需要上下文支持。下列组合是释义示例，未作语料频率认证。[DBP：menghantui 第二义](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=menghantui)",
+      "collocations": [
+        {
+          "ms": "dihantui ancaman keganasan",
+          "zh": "受暴力威胁笼罩",
+          "en": "to be haunted by the threat of violence"
+        },
+        {
+          "ms": "dihantui ugutan",
+          "zh": "受恐吓困扰",
+          "en": "to be troubled by intimidation"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Penduduk masih dihantui kebimbangan tentang keselamatan kawasan itu selepas kejadian pecah rumah tersebut.",
+      "zh": "那起入屋盗窃案发生后，居民仍不断担忧该地区的安全。",
+      "en": "Residents remain troubled by concerns about the area's safety following the burglary."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku masih dihantui rasa bersalah pasal semalam lah.",
+      "ms_standard": "Saya masih dihantui rasa bersalah tentang kejadian semalam.",
+      "zh": "想到昨晚的事，我还是一直觉得内疚。",
+      "en": "I still can't shake the guilt over what happened last night.",
+      "spoken_features": [
+        "aku 用于关系亲近的朋友之间。",
+        "pasal 在此相当于 tentang。",
+        "lah 增添倾诉语气。",
+        "dihantui 带较强的情绪色彩，也可自然出现在书面聊天中。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku masih dihantui rasa bersalah pasal semalam lah.",
+          "ms_standard": "Saya masih dihantui rasa bersalah tentang kejadian semalam.",
+          "zh": "昨晚那件事，我到现在还是很内疚。",
+          "en": "I still can't shake the guilt over last night."
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah minta maaf kan? Nak cerita lagi, aku dengar je.",
+          "ms_standard": "Kamu sudah meminta maaf, bukan? Jika kamu mahu bercerita lagi, saya sedia mendengar.",
+          "zh": "你已经道歉了，对吧？还想说的话，我听着呢。",
+          "en": "You've apologised, right? If you want to talk more, I'm here to listen."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Dihantui is built transparently from hantu, the Malay word for a ghost or frightening supernatural being. The related verb menghantui shifts that unsettling image into mental experience: memories and fears can disturb someone as if an unwelcome presence kept returning. The passive prefix di- places the affected person or mind in focus, while the suffix -i remains attached. [DBP: hantu](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=hantu)",
+    "cognitive_memory_aid": "hantu 是“鬼”；di- 表示“被”。把 dihantui 想成“被回忆像鬼影一样缠住”，就能记住“被反复困扰”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于自己的忧虑或内疚很自然；描述别人时，应尊重其自述，避免夸大或替对方判断心理状态。",
+    "usage_etiquette": "适合新闻、文学和情绪倾诉。此词的比喻义不表示当事人声称见鬼；讨论他人的创伤经历时宜保持体谅。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于自己的忧虑或内疚很自然；描述别人时，应尊重其自述，避免夸大或替对方判断心理状态。",
+    "usage_etiquette": "适合新闻、文学和情绪倾诉。此词的比喻义不表示当事人声称见鬼；讨论他人的创伤经历时宜保持体谅。"
+  }
+}

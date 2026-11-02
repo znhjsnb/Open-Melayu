@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "menemuiku",
+    "syllables": null,
+    "ipa": "/mə.nə.mu.i.ku/",
+    "jawi": "منموءي",
+    "frequency_rank": 10683,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menemui",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "menemui + -ku → menemuiku；完整构词：meN- + temu + -i + -ku → menemuiku",
+    "pattern_note": "-ku 是 aku 的附着代词形式，此处作宾语“我”，并非派生后缀；suffix 是本结构中的位置分类。基础词 menemui 中，temu 的 t 在 meN- 后脱落。输入 Jawi منموءي 只对应 menemui，缺少 -ku；完整词形应补写为 منموءيکو。输入未提供音节划分，故保留 null；可分析为 me.ne.mu.i.ku。",
+    "word_family": [
+      {
+        "word": "bertemu",
+        "affix": "ber-",
+        "gloss": "相遇；会面"
+      },
+      {
+        "word": "pertemuan",
+        "affix": "per-...-an",
+        "gloss": "会面；相遇"
+      },
+      {
+        "word": "menemuimu",
+        "affix": "meN-...-i + -mu",
+        "gloss": "见你；来找你"
+      }
+    ],
+    "root_jawi": "منموءي"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "见到我；与我碰面。",
+      "en_definition": "To meet or encounter me.",
+      "ms_definition": "Bertemu atau berjumpa dengan aku.",
+      "nuances": "-ku 指作为宾语的“我”，不是动作执行者；全词不表示“我遇见”。通常带有书面、叙事或抒情色彩。基础词义参见 [DBP：menemui](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=menemui)。",
+      "collocations": [
+        {
+          "ms": "menemuiku secara kebetulan",
+          "zh": "偶然遇见我",
+          "en": "meet me by chance"
+        },
+        {
+          "ms": "menemuiku buat kali pertama",
+          "zh": "第一次见到我",
+          "en": "meet me for the first time"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "前来见我；拜访我或找我商谈。",
+      "en_definition": "To come to see or visit me.",
+      "ms_definition": "Pergi atau datang berjumpa dengan aku untuk sesuatu tujuan.",
+      "nuances": "强调有意前来会面，常与 datang、mahu、hendak 连用。标准构词正确，但马来西亚日常交谈更常说 jumpa aku 或 jumpa saya。附着代词须连写，参见 [DBP：ku 的拼写说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kuharapkan)。",
+      "collocations": [
+        {
+          "ms": "datang menemuiku",
+          "zh": "前来见我",
+          "en": "come to see me"
+        },
+        {
+          "ms": "menemuiku di pejabat",
+          "zh": "到办公室见我",
+          "en": "see me at the office"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "找到我；发现我的所在。",
+      "en_definition": "To find or locate me.",
+      "ms_definition": "Menjumpai atau mendapati aku, khususnya setelah mencari.",
+      "nuances": "在搜寻、失散或救援语境中，可理解为“找到我”。由于 -ku 已限定宾语为说话者，不能把 menemui 所有涉及困难、发现或履约的义项直接套入本词。",
+      "collocations": [
+        {
+          "ms": "berjaya menemuiku",
+          "zh": "成功找到我",
+          "en": "manage to find me"
+        },
+        {
+          "ms": "akhirnya menemuiku",
+          "zh": "终于找到我",
+          "en": "finally find me"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场个人纪事 / 书面叙述",
+      "ms": "Wakil syarikat itu menemuiku selepas mesyuarat untuk membincangkan cadangan kerjasama tersebut.",
+      "zh": "那家公司的代表在会议结束后来见我，商讨该合作建议。",
+      "en": "The company's representative met with me after the meeting to discuss the proposed collaboration."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友间转述会面安排",
+      "ms_spoken": "Dia nak menemuiku kat kafe petang ni.",
+      "ms_standard": "Dia mahu menemuiku di kafe pada petang ini.",
+      "zh": "他今天下午想在咖啡馆见我。",
+      "en": "He wants to meet me at the café this afternoon.",
+      "spoken_features": [
+        "nak 对应 mahu；kat 对应 di；ni 对应 ini。",
+        "menemuiku 本身偏书面；本句展示保留该词时与口语成分混用的说法。",
+        "更日常的马来西亚口语是 Dia nak jumpa aku kat kafe petang ni。"
+      ],
+      "messages": [
+        {
+          "speaker": "Nadia (朋友)",
+          "ms_spoken": "Dia nak menemuiku kat kafe petang ni. Aku gementar lah.",
+          "ms_standard": "Dia mahu menemuiku di kafe pada petang ini. Aku berasa gementar.",
+          "zh": "他今天下午想在咖啡馆见我。我有点紧张啦。",
+          "en": "He wants to meet me at the café this afternoon. I'm a bit nervous."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Tenang je, korang dah kenal lama kan?",
+          "ms_standard": "Bertenanglah. Kamu berdua sudah lama mengenali satu sama lain, bukan?",
+          "zh": "放轻松啦，你们不是认识很久了吗？",
+          "en": "Relax. You two have known each other for ages, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menemuiku is a grammatical combination rather than a separate historical root. Its base belongs to the temu family, which also gives Malay bertemu and pertemuan. Adding the shortened pronoun aku turns a general act of meeting into an encounter with the speaker. The compact form suits personal narration, where relationships and remembered meetings often occupy the foreground.",
+    "cognitive_memory_aid": "menemui＝“见到”，尾巴 -ku＝“我”：把“我”接在见面的终点，menemuiku 就是“见我”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 同属第一人称表达，适合亲近关系、内心独白及文学叙述。对上司、长辈或陌生人，通常用 menemui saya 更稳妥。",
+    "usage_etiquette": "可用于书信、小说、歌词和个人叙述。正式公函一般采用 menemui saya；不要把本词误译为“我去见某人”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 同属第一人称表达，适合亲近关系、内心独白及文学叙述。对上司、长辈或陌生人，通常用 menemui saya 更稳妥。",
+    "usage_etiquette": "可用于书信、小说、歌词和个人叙述。正式公函一般采用 menemui saya；不要把本词误译为“我去见某人”。"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "baikku",
+    "syllables": null,
+    "ipa": "/ba.iʔ.ku/",
+    "jawi": "باءيق",
+    "frequency_rank": 10628,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "baik",
+    "affix": "-ku",
+    "affix_type": "suffix",
+    "formula": "baik + -ku → baikku；[sahabat baik] + -ku → sahabat baikku",
+    "pattern_note": "-ku 是 aku 的附着形式，此处按字段归为 suffix，但并非派生词缀。在 sahabat baikku 中，它表示整个“好朋友”名词短语属于我。拼写保留 kk；所给 Jawi باءيق 仅对应 baik，缺少 -ku。syllables 保留数据包的 null，读音可分为 ba.iʔ.ku。",
+    "word_family": [
+      {
+        "word": "baik",
+        "affix": null,
+        "gloss": "好；善良；良好"
+      },
+      {
+        "word": "kebaikan",
+        "affix": "ke-…-an",
+        "gloss": "善良；善行；好处"
+      },
+      {
+        "word": "membaiki",
+        "affix": "meN-…-i",
+        "gloss": "修理；改善"
+      }
+    ],
+    "root_jawi": "باءيق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adjective",
+      "zh_definition": "baik 与第一人称附着形式 -ku 连写的形式；在 kawan baikku、sahabat baikku 中表示“我的好朋友”，其中“我的”修饰整个名词短语。",
+      "en_definition": "Baik followed by the first-person enclitic -ku, as in kawan baikku, meaning “my close friend.”",
+      "ms_definition": "Bentuk baik yang diikuti kata ganti nama singkat -ku; dalam frasa kawan baikku, maksud keseluruhannya ialah kawan baik aku.",
+      "nuances": "不能把 baikku 单独解释成固定词义“我很好”，也不能直接搬用 baik 的全部释义。句法分析须保留前面的名词。DBP 例句中可见 sahabat baikku；附着规则参见 [DBP：ku](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ku)，实际短语参见 [DBP：kecewa](https://prpm.dbp.gov.my/Cari1?d=82736&keyword=kecewa)。本项是构形说明，并非声称 DBP 为 baikku 单列了独立词条。",
+      "collocations": [
+        {
+          "ms": "kawan baikku",
+          "zh": "我的好朋友",
+          "en": "my close friend"
+        },
+        {
+          "ms": "sahabat baikku",
+          "zh": "我的挚友",
+          "en": "my dear friend"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在 buruk baikku 等名词化表达中，指与我有关的好坏方面、缺点与优点。",
+      "en_definition": "In nominal expressions such as buruk baikku, one's own faults and merits.",
+      "ms_definition": "Dalam ungkapan buruk baikku, segala kekurangan dan kelebihan diriku.",
+      "nuances": "这是短语中的名词化用法，常带文学或自我反思色彩；不宜推广成 baikku 在任何场合都等于 kebaikanku。DBP 所收诗句可见 buruk baikku，参见 [DBP：相关诗句](https://prpm.dbp.gov.my/Cari1?d=244840&keyword=Seronok)。以下搭配是构式示例，不作独立高频词条认定。",
+      "collocations": [
+        {
+          "ms": "buruk baikku",
+          "zh": "我的缺点与优点",
+          "en": "my faults and merits"
+        },
+        {
+          "ms": "mengenali buruk baikku",
+          "zh": "了解我的好坏与优缺点",
+          "en": "know my faults and merits"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：报道致谢发言",
+      "ms": "Dalam ucapan penghargaan itu, penulis berkata, \"Sahabat baikku banyak membantu penyelidikan ini.\"",
+      "zh": "作者在致谢发言中说：“我的挚友为这项研究提供了许多帮助。”",
+      "en": "In the acknowledgement speech, the author said, \"My close friend contributed greatly to this research.\""
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：介绍朋友",
+      "ms_spoken": "Kawan baikku dah sampai kat kafe.",
+      "ms_standard": "Kawan baikku sudah sampai di kafe.",
+      "zh": "我的好朋友已经到咖啡馆了。",
+      "en": "My close friend is already at the café.",
+      "spoken_features": [
+        "dah 对应 sudah",
+        "kat 对应 di",
+        "-ku 适合熟人间文字交流；实际口语也常说 kawan baik aku"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kawan baikku dah sampai kat kafe. Kau nak jumpa dia?",
+          "ms_standard": "Kawan baikku sudah sampai di kafe. Adakah kamu mahu berjumpa dengannya?",
+          "zh": "我的好朋友到咖啡馆了，你想见见他吗？",
+          "en": "My close friend is at the café now. Would you like to meet him?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Nak, tunggu aku kejap. Aku kat kedai sebelah je.",
+          "ms_standard": "Ya, tunggu aku sebentar. Aku hanya berada di kedai sebelah.",
+          "zh": "想啊，等我一下，我就在隔壁店。",
+          "en": "Sure, give me a moment. I'm just next door."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Baikku is best understood through phrase structure rather than a separate origin story. Malay shortens aku to the bound form -ku. In sahabat baikku, that ending appears after baik while expressing possession of the whole phrase, “my close friend.” Literary expressions such as buruk baikku show another possibility: good and bad qualities associated with the speaker.",
+    "cognitive_memory_aid": "先加括号再翻译：[kawan baik] + ku＝[好朋友]＋我的；别把 baikku 硬译成“我很好”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "-ku 与 aku 同属第一人称体系，常见于亲近关系、文学和个人表达。正式职场自述通常用 saya，如 kawan baik saya。",
+    "usage_etiquette": "表达“我很好”可说 Saya baik-baik sahaja；表达“我的善意”通常用 kebaikan saya 或 niat baik saya。不要用孤立的 baikku 代替这些完整表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "-ku 与 aku 同属第一人称体系，常见于亲近关系、文学和个人表达。正式职场自述通常用 saya，如 kawan baik saya。",
+    "usage_etiquette": "表达“我很好”可说 Saya baik-baik sahaja；表达“我的善意”通常用 kebaikan saya 或 niat baik saya。不要用孤立的 baikku 代替这些完整表达。"
+  }
+}

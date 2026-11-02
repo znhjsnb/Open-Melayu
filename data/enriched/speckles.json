@@ -1,0 +1,128 @@
+{
+  "headword": {
+    "word": "speckles",
+    "syllables": null,
+    "ipa": "/ˈspɛk.əlz/",
+    "jawi": null,
+    "frequency_rank": 10684,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "speckles",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "马来语索引按整项保留：∅ + speckles → speckles；英语内部构词：speckle + -s → speckles",
+    "pattern_note": "is_root 与 root_word 沿用输入的整项归组，不表示它是马来语词根。英语中 -s 可标记名词复数或动词第三人称单数，现在此处读 /z/；该词没有马来语词缀分析。",
+    "word_family": [
+      {
+        "word": "speckle",
+        "affix": "∅（英语）",
+        "gloss": "小斑点；使布满小斑点"
+      },
+      {
+        "word": "speckled",
+        "affix": "-ed（英语）",
+        "gloss": "有斑点的；使布满斑点的过去式或过去分词"
+      },
+      {
+        "word": "speckling",
+        "affix": "-ing（英语）",
+        "gloss": "形成或添加小斑点"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "英语复数名词：与底色不同的细小色点或斑点。",
+      "en_definition": "Small spots or flecks of colour contrasting with their background.",
+      "ms_definition": "Bintik-bintik kecil yang warnanya berbeza daripada warna latarnya.",
+      "nuances": "这是英语 speckle 的复数形式；输入未提供 DBP 词条，不应视为已经确立的规范马来语词。status 沿用所要求的条目标签，不表示马来语规范认定。马来语通常用 bintik-bintik 或 tompok-tompok kecil。定义参见 [Oxford：speckle](https://www.oxfordlearnersdictionaries.com/us/definition/english/speckle)。",
+      "collocations": [
+        {
+          "ms": "bintik-bintik perang",
+          "zh": "褐色小斑点",
+          "en": "brown speckles"
+        },
+        {
+          "ms": "bintik-bintik pada kulit telur",
+          "zh": "蛋壳上的小斑点",
+          "en": "speckles on an eggshell"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "英语动词第三人称单数现在时：使表面布满小斑点；呈小点状散布于某处。",
+      "en_definition": "Marks something with small spots, or occurs in scattered spots on it.",
+      "ms_definition": "Membintikkan sesuatu permukaan atau bertaburan sebagai bintik-bintik padanya.",
+      "nuances": "仅在英语句法中，speckles 可作第三人称单数动词；马来语动词不因第三人称单数而添加 -s。动词义参见 [Merriam-Webster：speckle](https://www.merriam-webster.com/dictionary/speckle)。以下 ms 提供马来语对应表达。",
+      "collocations": [
+        {
+          "ms": "cat membintiki lantai",
+          "zh": "油漆使地板沾上点点斑迹",
+          "en": "paint speckles the floor"
+        },
+        {
+          "ms": "cahaya membintiki dinding",
+          "zh": "光线在墙上形成点点光斑",
+          "en": "light speckles the wall"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "标准马来语报告 / 英语术语对照",
+      "ms": "Laporan pemeriksaan menggunakan istilah Inggeris “speckles” untuk merujuk kepada bintik-bintik kecil pada permukaan sampel.",
+      "zh": "检验报告使用英语词 speckles，指样品表面的细小斑点。",
+      "en": "The inspection report uses the English term “speckles” to refer to small spots on the sample's surface."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 马来语与英语混用",
+      "ms_spoken": "Corak speckles kat cawan ni cantik lah.",
+      "ms_standard": "Corak bintik-bintik pada cawan ini cantik.",
+      "zh": "这个杯子的斑点花纹挺好看耶。",
+      "en": "The speckled pattern on this cup is really pretty.",
+      "spoken_features": [
+        "speckles 是英语插入成分，展示语码混用，不是规范马来语词形。",
+        "kat 对应 pada；ni 对应 ini。",
+        "lah 在这里增添随意、带感叹的语气。"
+      ],
+      "messages": [
+        {
+          "speaker": "Mei (朋友)",
+          "ms_spoken": "Corak speckles kat cawan ni cantik lah. Kau beli kat mana?",
+          "ms_standard": "Corak bintik-bintik pada cawan ini cantik. Awak membelinya di mana?",
+          "zh": "这个杯子的斑点花纹真好看，你在哪儿买的？",
+          "en": "I love the speckles on this cup. Where did you get it?"
+        },
+        {
+          "speaker": "Aina (朋友)",
+          "ms_spoken": "Kat kedai seramik tu je. Ada warna biru juga.",
+          "ms_standard": "Di kedai seramik itu sahaja. Ada juga yang berwarna biru.",
+          "zh": "就在那家陶瓷店买的，也有蓝色的。",
+          "en": "Just at that pottery shop. They have blue ones too."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English speckle is recorded from the fifteenth century and is related to the older word speck. Its small coloured marks are easy to recognise on eggshells, feathers, and fruit. The ending in speckles belongs to English grammar. Its appearance in Malay material should therefore be understood as English usage or code-switching, rather than evidence of an established Malay borrowing.",
+    "cognitive_memory_aid": "先记英语 speck＝“一点小斑”；speckles 末尾 /z/ 像许多小点一起出现。马来语对应 bintik-bintik。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "此词本身没有特殊敬语限制。使用英语插词时，应考虑对方是否理解；面向广泛读者时用 bintik-bintik 更清楚。",
+    "usage_etiquette": "适合解释英语、引用商品描述或展示语码混用。正式马来语文本应采用相应马来语表达；描述他人皮肤斑点时，避免带有嘲笑意味。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "此词本身没有特殊敬语限制。使用英语插词时，应考虑对方是否理解；面向广泛读者时用 bintik-bintik 更清楚。",
+    "usage_etiquette": "适合解释英语、引用商品描述或展示语码混用。正式马来语文本应采用相应马来语表达；描述他人皮肤斑点时，避免带有嘲笑意味。"
+  }
+}
