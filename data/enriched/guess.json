@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "guess",
+    "syllables": null,
+    "ipa": "/ɡes/",
+    "jawi": null,
+    "frequency_rank": 8893,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "guess",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + guess → guess",
+    "pattern_note": "英语整词，以 /ɡ/ 起音，u 不单独发音；没有马来语词缀。以下词族是英语屈折形式，不能当作马来语派生词。",
+    "word_family": [
+      {
+        "word": "guessed",
+        "affix": "-ed",
+        "gloss": "猜过；猜测了，英语过去式或过去分词"
+      },
+      {
+        "word": "guessing",
+        "affix": "-ing",
+        "gloss": "正在猜测；猜测这一行为，英语形式"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "猜；根据有限的信息推测答案、数量或情况。",
+      "en_definition": "To give an answer or estimate without having enough information to be certain.",
+      "ms_definition": "Meneka atau mengagak jawapan, jumlah atau keadaan berdasarkan maklumat yang tidak mencukupi untuk kepastian.",
+      "nuances": "这是英语词；出现在马来语聊天中时属于语码转换。输入包没有提供其马来语官方词条依据，status 按指定输出格式保留，不表示该词已获认定为标准马来语。标准马来语按语境使用 teka、meneka 或 mengagak。以下保留英语搭配。[Cambridge：guess 英马释义](https://dictionary.cambridge.org/us/dictionary/english-malaysian/guess)",
+      "collocations": [
+        {
+          "ms": "guess the answer",
+          "zh": "猜答案",
+          "en": "guess the answer"
+        },
+        {
+          "ms": "guess what",
+          "zh": "你猜怎么着；你猜发生了什么",
+          "en": "guess what"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "猜测；依据不足时提出的答案、判断或估计。",
+      "en_definition": "An answer, opinion or estimate based on incomplete information.",
+      "ms_definition": "Tekaan atau agakan yang dibuat tanpa maklumat yang cukup untuk memastikan ketepatannya.",
+      "nuances": "英语名词义；标准马来语通常使用 tekaan 或 agakan。搭配 educated guess 指有一定知识或线索支持的推测，不等于已经核实的结论。[Merriam-Webster：guess](https://www.merriam-webster.com/dictionary/guess)",
+      "collocations": [
+        {
+          "ms": "an educated guess",
+          "zh": "有根据的推测",
+          "en": "an educated guess"
+        },
+        {
+          "ms": "a wild guess",
+          "zh": "毫无把握的猜测",
+          "en": "a wild guess"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "想来；认为大概如此，常用于缓和判断或表示不完全肯定。",
+      "en_definition": "To suppose or tentatively believe that something is true.",
+      "ms_definition": "Menyangka atau berpendapat bahawa sesuatu mungkin benar, tanpa menyatakan kepastian penuh.",
+      "nuances": "主要见于英语 I guess、I guess so 等表达；不一定涉及猜谜或估算。马来语可按语气译为 saya rasa、agaknya 或 mungkin。[Merriam-Webster：guess](https://www.merriam-webster.com/dictionary/guess)",
+      "collocations": [
+        {
+          "ms": "I guess",
+          "zh": "我想；我觉得大概",
+          "en": "I suppose"
+        },
+        {
+          "ms": "I guess so",
+          "zh": "我想是吧",
+          "en": "I suppose so"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：讨论英语原文的翻译",
+      "ms": "Dalam terjemahan laporan ini, perkataan Inggeris guess dipadankan dengan meneka atau mengagak mengikut konteks.",
+      "zh": "翻译本报告时，英语 guess 按语境译为 meneka 或 mengagak。",
+      "en": "In the translation of this report, the English word guess is rendered as meneka or mengagak according to context."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：朋友间使用英语和马来语混合表达",
+      "ms_spoken": "Cuba guess siapa yang aku jumpa kat kedai tadi.",
+      "ms_standard": "Cuba teka siapa yang saya temui di kedai tadi.",
+      "zh": "猜猜我刚才在店里碰到谁了。",
+      "en": "Guess who I ran into at the shop earlier.",
+      "spoken_features": [
+        "guess 是嵌入马来语句子的英语动词",
+        "kat 相当于标准语 di",
+        "aku 适用于熟人之间的随意交流"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Cuba guess siapa yang aku jumpa kat kedai tadi.",
+          "ms_standard": "Cuba teka siapa yang saya temui di kedai tadi.",
+          "zh": "猜猜我刚才在店里碰到谁了。",
+          "en": "Guess who I ran into at the shop earlier."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Cikgu Lina ke? Dia dah balik dari Johor, kan?",
+          "ms_standard": "Adakah orang itu Cikgu Lina? Dia sudah pulang dari Johor, bukan?",
+          "zh": "Lina 老师吗？她已经从柔佛回来了，对吧？",
+          "en": "Was it Ms Lina? She’s back from Johor, right?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English guess is recorded from the fourteenth century, through Middle English gessen. Merriam-Webster suggests a possible Scandinavian origin and compares related northern European forms, while retaining uncertainty about the precise route. Its appearance inside a Malay conversation is a separate matter: it functions there as an English insertion. Learners should therefore connect it with meneka rather than invent a Malay root or affix. [Merriam-Webster](https://www.merriam-webster.com/dictionary/guess)",
+    "cognitive_memory_aid": "guess /ɡes/：信息不够，先“猜”；接上 I 成为 I guess，常转为“我想大概”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉的双语朋友之间可以使用；面对不熟悉英语的人或撰写正式马来语文件时，使用 meneka、mengagak、tekaan 等对应表达更清楚。",
+    "usage_etiquette": "I guess 可以表达保留意见；涉及需要明确答复的工作安排时，应直接说明是否同意及把握程度，避免让对方误以为已作出承诺。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉的双语朋友之间可以使用；面对不熟悉英语的人或撰写正式马来语文件时，使用 meneka、mengagak、tekaan 等对应表达更清楚。",
+    "usage_etiquette": "I guess 可以表达保留意见；涉及需要明确答复的工作安排时，应直接说明是否同意及把握程度，避免让对方误以为已作出承诺。"
+  }
+}

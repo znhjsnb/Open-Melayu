@@ -1,0 +1,92 @@
+{
+  "headword": {
+    "word": "deh",
+    "syllables": null,
+    "ipa": "/deh/",
+    "jawi": null,
+    "frequency_rank": 8868,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "deh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + deh → deh",
+    "pattern_note": "单音节，é 读 /e/，不是 /ə/。作为完整语气词记忆，不添加马来语派生词缀；音节字段保留输入的 null。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "particle",
+      "zh_definition": "雅加达口语语气词，相当于“行了、算了、就这样吧”；具体语气随上下文而变。",
+      "en_definition": "A Jakarta colloquial particle expressing closure, acceptance, or mild insistence, roughly 'enough', 'all right', or 'then'.",
+      "ms_definition": "Jk bp sudah(lah).",
+      "nuances": "DBP 标注 Jk（雅加达用语）及 bp（口语）。此处对应带语气的 sudahlah，不应把它当作表示动作已经完成的 sudah 的通用替代词。它不是马来西亚标准公文语气词；资料库中的 official 标签不改变其地域及口语属性。参见 [DBP：deh](https://prpm.dbp.gov.my/Cari1?d=107200&keyword=deh)。",
+      "collocations": [
+        {
+          "ms": "sudah deh",
+          "zh": "行了吧；就这样吧（雅加达口语）",
+          "en": "all right, then; enough now (Jakarta colloquial)"
+        },
+        {
+          "ms": "cukup deh",
+          "zh": "够了啦（雅加达口语）",
+          "en": "that's enough (Jakarta colloquial)"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "语言研究报告；以引述方式出现",
+      "ms": "Laporan itu mengelaskan perkataan “deh” sebagai unsur bahasa percakapan Jakarta.",
+      "zh": "该报告将“deh”归类为雅加达口语成分。",
+      "en": "The report classifies “deh” as an element of colloquial Jakarta speech."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 马来西亚朋友与雅加达朋友交流",
+      "ms_spoken": "Sudah deh, jangan bertengkar lagi.",
+      "ms_standard": "Sudahlah, jangan bertengkar lagi.",
+      "zh": "行了啦，别再吵了。",
+      "en": "Enough now, stop arguing.",
+      "spoken_features": [
+        "deh 是雅加达口语标记，此处用于结束争执",
+        "对话中的 korang 对应 kamu semua，dah 对应 sudah",
+        "ke 用于口语疑问，标准语可用 -kah 或重组问句"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (马来西亚朋友)",
+          "ms_spoken": "Korang dah gaduh lagi ke?",
+          "ms_standard": "Adakah kamu semua sudah bergaduh lagi?",
+          "zh": "你们又吵起来啦？",
+          "en": "Are you guys arguing again?"
+        },
+        {
+          "speaker": "Rina (雅加达朋友)",
+          "ms_spoken": "Sudah deh, jangan bertengkar lagi.",
+          "ms_standard": "Sudahlah, jangan bertengkar lagi.",
+          "zh": "行了啦，别再吵了。",
+          "en": "Enough now, stop arguing."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary places deh in Jakarta colloquial speech, giving a regional clue rather than a documented ancient ancestry. Its cultural interest lies in how a tiny particle manages conversation: speakers can use it to close an exchange or signal acceptance. Malaysian learners should therefore remember its Jakarta setting alongside its meaning.",
+    "cognitive_memory_aid": "把短短的 deh 想成一句话末尾的“得了吧”：声音一收，话题也收住。此为联想，不是词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "用于熟人交流；制止别人时，语调过硬可能显得不耐烦。对长辈或上司宜用完整、温和的标准表达。",
+    "usage_etiquette": "适合辨认印尼影视、雅加达朋友的信息及地域化对话。在马来西亚正式交流中，按意思改用 baiklah、cukuplah 或 sudahlah。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "用于熟人交流；制止别人时，语调过硬可能显得不耐烦。对长辈或上司宜用完整、温和的标准表达。",
+    "usage_etiquette": "适合辨认印尼影视、雅加达朋友的信息及地域化对话。在马来西亚正式交流中，按意思改用 baiklah、cukuplah 或 sudahlah。"
+  }
+}

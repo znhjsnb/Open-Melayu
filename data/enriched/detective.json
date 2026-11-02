@@ -1,0 +1,123 @@
+{
+  "headword": {
+    "word": "detective",
+    "syllables": null,
+    "ipa": "/dɪˈtektɪv/",
+    "jawi": null,
+    "frequency_rank": 8827,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "detective",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + detective → detective（保留英语整词）；标准马来语对应词：detektif",
+    "pattern_note": "按输入作为未加马来语词缀的英语整词处理；不把英语词尾 -ive 当作马来语后缀。IPA 为英语读音；标准马来语 detektif 读 /detektif/。以下为英语同族词，不是马来语派生词。",
+    "word_family": [
+      {
+        "word": "detect",
+        "affix": null,
+        "gloss": "英语：发现；查出"
+      },
+      {
+        "word": "detection",
+        "affix": "-ion（英语）",
+        "gloss": "英语：侦查；检测"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "侦探；以调查犯罪、查明事实为工作的人，包括刑事侦查人员及私人侦探。",
+      "en_definition": "A police officer or private investigator whose work is to investigate crimes or uncover facts.",
+      "ms_definition": "Padanan bahasa Melayu: detektif atau penyiasat persendirian, mengikut konteks; orang yang menyiasat jenayah atau mencari maklumat tentang sesuatu kes.",
+      "nuances": "detective 是英语拼写，不能因本条模板状态为 official 而视为标准马来语拼写；标准马来语使用 detektif，Jawi 为 ديتيکتيف。输入未提供 detective 的 DBP 定义或 Jawi，因此不冒填。下列马来语搭配使用规范对应词；英语词义与马来语拼写分别参见 [Merriam-Webster：detective](https://www.merriam-webster.com/dictionary/detective)及 [DBP PRPM：detektif](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=detektif)。",
+      "collocations": [
+        {
+          "ms": "detektif polis",
+          "zh": "警方侦探；刑事侦查人员",
+          "en": "police detective"
+        },
+        {
+          "ms": "detektif swasta",
+          "zh": "私人侦探",
+          "en": "private detective"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "与侦探或侦查有关的；尤指以破案为主题的。",
+      "en_definition": "Relating to detectives or detection, especially stories about solving crimes.",
+      "ms_definition": "Berkaitan dengan detektif atau penyiasatan jenayah, khususnya dalam cerita dan karya fiksyen.",
+      "nuances": "此处 adjective 描述英语 detective 的用法。马来语通常用 detektif 作名词修饰语，例如 novel detektif；不据此把 detektif 判定为马来语形容词。DBP 的 detektif 词条也列有 cerita detektif 的用法。",
+      "collocations": [
+        {
+          "ms": "novel detektif",
+          "zh": "侦探小说",
+          "en": "detective novel"
+        },
+        {
+          "ms": "cerita detektif",
+          "zh": "侦探故事",
+          "en": "detective story"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Dalam terjemahan laporan itu, istilah Inggeris “detective” dipadankan dengan “detektif”.",
+      "zh": "在该报告的译文中，英语术语 detective 被译为 detektif。",
+      "en": "In the translation of the report, the English term “detective” was rendered as “detektif”."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Kau dah tengok cerita detective tu? Aku nak tengok malam ni.",
+      "ms_standard": "Adakah kamu sudah menonton cerita detektif itu? Aku hendak menontonnya malam ini.",
+      "zh": "你看过那部侦探片了吗？我今晚想看。",
+      "en": "Have you seen that detective film? I'm planning to watch it tonight.",
+      "spoken_features": [
+        "detective 是英语词插入马来语句子的语码混用；标准对应词为 detektif。",
+        "dah、nak、tu、ni 分别对应 sudah、hendak、itu、ini。",
+        "口语常用 tengok 表示观看影视作品；标准表达可用 menonton。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Kau dah tengok cerita detective tu? Aku nak tengok malam ni.",
+          "ms_standard": "Adakah kamu sudah menonton cerita detektif itu? Aku hendak menontonnya malam ini.",
+          "zh": "你看过那部侦探片了吗？我今晚想看。",
+          "en": "Have you seen that detective film? I'm planning to watch it tonight."
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Dah! Best juga. Tengok je dulu, aku tak nak bocorkan jalan cerita.",
+          "ms_standard": "Sudah! Cerita itu agak menarik. Tontonlah dahulu; aku tidak mahu membocorkan jalan ceritanya.",
+          "zh": "看过了！还挺好看的。你先看吧，我不想剧透。",
+          "en": "I have! It's pretty good. Watch it first—I don't want to spoil it."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Detective belongs to the English word family of detect, linking the investigator with the act of uncovering facts. Malay uses the adapted spelling detektif, recorded by DBP for a criminal investigator and in expressions for crime fiction. The unchanged English spelling can appear in mixed-language conversation, but that conversational use should be distinguished from standard Malay spelling.",
+    "cognitive_memory_aid": "用英语 detect“查出”联想 detective“查案的人”；写标准马来语时换成 detektif，记住词尾是 -tif。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式马来语报告使用 detektif 或准确的职务名称 pegawai penyiasat；称呼实际办案人员时优先使用其警衔、姓名或适当敬称。",
+    "usage_etiquette": "英语 detective 可出现在英语对话、作品标题或熟人之间的语码混用中。戏称别人像侦探通常带玩笑意味，但在隐私或猜疑话题中可能被理解为讽刺。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式马来语报告使用 detektif 或准确的职务名称 pegawai penyiasat；称呼实际办案人员时优先使用其警衔、姓名或适当敬称。",
+    "usage_etiquette": "英语 detective 可出现在英语对话、作品标题或熟人之间的语码混用中。戏称别人像侦探通常带玩笑意味，但在隐私或猜疑话题中可能被理解为讽刺。"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "headword": {
+    "word": "resync",
+    "syllables": null,
+    "ipa": "/ˌriːˈsɪŋk/",
+    "jawi": null,
+    "frequency_rank": 8816,
+    "status": "unverified"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "resync",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + resync → resync（按输入包作为独立词条处理）",
+    "pattern_note": "不是已核实的马来语词根。英语内部可分析为 re- + sync，表示再次同步；这不是马来语加缀。英语读音中，字母组合 nc 对应 /ŋk/。",
+    "word_family": [
+      {
+        "word": "sync",
+        "affix": null,
+        "gloss": "英语同族词：同步；synchronize 的缩略形式"
+      },
+      {
+        "word": "resynchronize",
+        "affix": "re-（英语前缀）",
+        "gloss": "英语同族词：重新同步"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "重新同步，使数据、设备或音视频恢复一致或时间对齐。",
+      "en_definition": "To synchronize again or restore synchronization.",
+      "ms_definition": "Menyegerakkan semula data, peranti atau unsur audio dan video supaya kembali sepadan.",
+      "nuances": "英语技术用语，可出现在马来西亚职场的语码转换中；正式马来语可表述为 menyegerakkan semula。这里的马来语释义为编写释义，并非 DBP 原文；未核实其为正式马来语词条，因此不标记 official。技术用法参见 [BMC RESYNC 文档](https://docs.bmc.com/xwiki/bin/view/Mainframe/Data-for-IMS/Fast-PathEP-products-reference-information/FPEPSerRfMn/Command-language/Commands-and-subcommands/RESYNC/)。下列搭配采用马来语对应表达。",
+      "collocations": [
+        {
+          "ms": "menyegerakkan semula data",
+          "zh": "重新同步数据",
+          "en": "resync data"
+        },
+        {
+          "ms": "menyegerakkan semula audio dan video",
+          "zh": "重新同步音频与视频",
+          "en": "resync audio and video"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场技术汇报；说明英语操作名称",
+      "ms": "Operasi yang dilabelkan sebagai \"resync\" akan menyegerakkan semula data antara kedua-dua pelayan.",
+      "zh": "标为“resync”的操作将重新同步两台服务器之间的数据。",
+      "en": "The operation labelled “resync” will synchronize the data between the two servers again."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事之间的技术交流；含英语语码转换",
+      "ms_spoken": "Cuba resync fail tu dulu, lepas tu semak balik.",
+      "ms_standard": "Cuba segerakkan semula fail itu dahulu, kemudian semak sekali lagi.",
+      "zh": "先试着把那个文件重新同步，再检查一下。",
+      "en": "Try resyncing that file first, then check it again.",
+      "spoken_features": [
+        "resync：英语技术动词嵌入马来语句子",
+        "tu → itu",
+        "lepas tu → kemudian",
+        "semak balik → semak sekali lagi"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Fail kat telefon saya tak sama dengan yang kat komputer. Nak resync sekarang ke?",
+          "ms_standard": "Fail pada telefon saya tidak sama dengan fail pada komputer. Perlukah saya menyegerakkannya semula sekarang?",
+          "zh": "我手机上的文件和电脑上的不一样。现在要重新同步吗？",
+          "en": "The file on my phone doesn’t match the one on my computer. Should I resync it now?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Ya, resync dulu je. Lepas tu beritahu saya kalau masih tak sama.",
+          "ms_standard": "Ya, segerakkannya semula dahulu. Kemudian, beritahu saya jika fail itu masih tidak sepadan.",
+          "zh": "对，先重新同步一下。之后要是还不一样，再告诉我。",
+          "en": "Yes, just resync it first. Let me know if it still doesn’t match."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "English resync combines re-, meaning again, with sync, a shortened form associated with synchronization. Its transparent structure suits technical instructions: when two copies or signals cease to agree, they can be brought into alignment again. This explains the expression without treating it as a Malay formation. Technical usage is illustrated in [BMC documentation](https://docs.bmc.com/xwiki/bin/view/Mainframe/Data-for-IMS/Fast-PathEP-products-reference-information/FPEPSerRfMn/Command-language/Commands-and-subcommands/RESYNC/).",
+    "cognitive_memory_aid": "听成“ree-SINK”：re- 是“再一次”，sync 是“同步”；两台设备重新对齐，就是 resync。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "熟悉技术的同事之间可使用 resync；面向客户、公众或正式马来语文件时，使用 menyegerakkan semula 更清楚。",
+    "usage_etiquette": "首次出现时可写 resync（menyegerakkan semula）。口语中的 je、tu 和省略形式适合熟人交流；正式操作说明宜使用完整表达。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "熟悉技术的同事之间可使用 resync；面向客户、公众或正式马来语文件时，使用 menyegerakkan semula 更清楚。",
+    "usage_etiquette": "首次出现时可写 resync（menyegerakkan semula）。口语中的 je、tu 和省略形式适合熟人交流；正式操作说明宜使用完整表达。"
+  }
+}

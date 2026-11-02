@@ -1,0 +1,145 @@
+{
+  "headword": {
+    "word": "blh",
+    "syllables": null,
+    "ipa": "/boleh/",
+    "jawi": null,
+    "frequency_rank": 8899,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "boleh",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "boleh − huruf vokal o, e → blh",
+    "pattern_note": "blh 是 boleh 删除元音字母后的短信缩写，不是独立词根，也不是添加词缀形成的派生词；据此纠正数据包分析。所列 IPA 是展开为 boleh 后的读音，不表示另有 /blh/ 这一读音。",
+    "word_family": [
+      {
+        "word": "kebolehan",
+        "affix": "ke-...-an",
+        "gloss": "能力；才干"
+      },
+      {
+        "word": "membolehkan",
+        "affix": "meN-...-kan",
+        "gloss": "使能够；允许"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "能够；可以做到。boleh 表示能力或条件许可时的短信缩写。",
+      "en_definition": "An SMS abbreviation of boleh meaning can or be able to.",
+      "ms_definition": "Singkatan SMS bagi boleh yang menyatakan kemampuan atau keupayaan melakukan sesuatu.",
+      "nuances": "属于 kata bantu ragam；在给定词性选项中归入 verb，实际为情态助动词。DBP 的短信指南列有 blh 对应 boleh，因此可承认为短信域缩写，但不能据 status 字段把它当作正式公文中的完整规范拼写。词族列出的是 boleh 的派生词。参见 [DBP 短信指南](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf) 及 [DBP：boleh](https://prpm.dbp.gov.my/Cari1?d=128916&keyword=boleh+)。",
+      "collocations": [
+        {
+          "ms": "blh buat",
+          "zh": "能够做",
+          "en": "can do"
+        },
+        {
+          "ms": "tak blh",
+          "zh": "不能；做不到",
+          "en": "cannot; be unable to"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "可以；获准。boleh 表示许可时的短信缩写。",
+      "en_definition": "An SMS abbreviation of boleh meaning may or be allowed to.",
+      "ms_definition": "Singkatan SMS bagi boleh yang menyatakan kebenaran atau keizinan melakukan sesuatu.",
+      "nuances": "疑问句中可用于请求许可；单独回复 blh 通常相当于“可以／行”。须由上下文区分能力与许可，不能一律译成“有能力”。",
+      "collocations": [
+        {
+          "ms": "blh masuk",
+          "zh": "可以进入",
+          "en": "may enter"
+        },
+        {
+          "ms": "blh pinjam",
+          "zh": "可以借用",
+          "en": "may borrow"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "可能；有可能发生。boleh 表示情态可能性时的短信缩写。",
+      "en_definition": "An SMS abbreviation of boleh expressing possibility.",
+      "ms_definition": "Singkatan SMS bagi boleh yang menyatakan kemungkinan berlakunya sesuatu.",
+      "nuances": "常见于 blh jadi 等表达；谈论事件的可能性时，不表示事件获得许可。blh tahan 还可随上下文表示“挺不错”，不能按字面机械翻译。",
+      "collocations": [
+        {
+          "ms": "blh jadi",
+          "zh": "可能；有可能",
+          "en": "possibly; it could be"
+        },
+        {
+          "ms": "blh berlaku",
+          "zh": "可能发生",
+          "en": "could happen"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 完整拼写对应句",
+      "ms": "Peserta boleh menghantar borang permohonan melalui e-mel.",
+      "zh": "参加者可以通过电子邮件提交申请表。",
+      "en": "Participants may submit the application form by email."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友请求借用物品",
+      "ms_spoken": "Aku nak pinjam pengecas kau jap, blh?",
+      "ms_standard": "Bolehkah saya meminjam pengecas awak sebentar?",
+      "zh": "我想借你的充电器用一下，行吗？",
+      "en": "Can I borrow your charger for a bit?",
+      "spoken_features": [
+        "blh 是 boleh 的书写缩写，朗读通常还原为 boleh",
+        "nak 对应 hendak",
+        "jap 对应 sekejap 或 sebentar",
+        "aku、kau 适用于关系熟悉且接受这种称呼的双方",
+        "正式对应句使用完整拼写 boleh"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Aku nak pinjam pengecas kau jap, blh?",
+          "ms_standard": "Bolehkah saya meminjam pengecas awak sebentar?",
+          "zh": "我想借你的充电器用一下，行吗？",
+          "en": "Can I borrow your charger for a bit?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Blh je. Ambil kat meja aku, ya.",
+          "ms_standard": "Boleh sahaja. Ambillah pengecas itu di atas meja saya.",
+          "zh": "可以呀。在我桌上，拿去用吧。",
+          "en": "Sure. It's on my desk—help yourself."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Blh is a shortened written form of boleh, created by retaining its consonant letters and omitting the vowels. DBP's SMS guidance lists this correspondence, documenting its place in compressed electronic writing. The abbreviation carries the meanings of the expanded word rather than introducing a separate spoken word, so readers usually recover boleh from the surrounding sentence. [Source: DBP SMS guidance](https://eseminar.dbp.gov.my/dokumen/khidmatsms.pdf).",
+    "cognitive_memory_aid": "给 b-l-h 补回两个元音：b-o-l-e-h → boleh →“能／可以”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "朋友聊天中 blh 很自然；首次联系老师、客户或上级时，完整写 Bolehkah saya… 更清楚、周到。缩写本身不必然失礼，仍取决于双方关系及交流惯例。",
+    "usage_etiquette": "适合短信及非正式即时通信；申请、公文、考试作文和正式工作文件使用 boleh。单独回复 blh 虽表示同意，但在需要温度或明确承诺时宜补充称呼、时间或完整答句。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "朋友聊天中 blh 很自然；首次联系老师、客户或上级时，完整写 Bolehkah saya… 更清楚、周到。缩写本身不必然失礼，仍取决于双方关系及交流惯例。",
+    "usage_etiquette": "适合短信及非正式即时通信；申请、公文、考试作文和正式工作文件使用 boleh。单独回复 blh 虽表示同意，但在需要温度或明确承诺时宜补充称呼、时间或完整答句。"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "headword": {
+    "word": "bius",
+    "syllables": "bi.us",
+    "ipa": "[ˈbiʊs]",
+    "jawi": "بيوس",
+    "frequency_rank": 8877,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "bius",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + bius → bius",
+    "pattern_note": "bius 是独立词根。加 meN- 时，词首 b 保留，前缀取 mem-，形成 membius；peN-…-an 同样形成 pembiusan。",
+    "word_family": [
+      {
+        "word": "membius",
+        "affix": "meN-",
+        "gloss": "使麻醉；施用麻醉药"
+      },
+      {
+        "word": "pembiusan",
+        "affix": "peN-…-an",
+        "gloss": "麻醉的实施过程"
+      },
+      {
+        "word": "kebiusan",
+        "affix": "ke-…-an",
+        "gloss": "麻醉状态；因麻醉失去知觉"
+      }
+    ],
+    "root_jawi": "بيوس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "麻醉药；使身体局部失去感觉或使人失去意识的药物，通常用于词组 ubat bius。",
+      "en_definition": "An anaesthetic: a drug that causes loss of sensation or consciousness.",
+      "ms_definition": "Ubat yang menyebabkan seseorang hilang deria rasa atau tidak sedar diri.",
+      "nuances": "此义指药物，最明确的表达是 ubat bius。局部麻醉并不必然使人失去意识；不能把所有 bius 都解释为昏迷。马来语释义为依据 DBP 义项整理的完整表述。[DBP：bius](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bius)",
+      "collocations": [
+        {
+          "ms": "ubat bius",
+          "zh": "麻醉药",
+          "en": "an anaesthetic"
+        },
+        {
+          "ms": "suntikan ubat bius",
+          "zh": "麻醉药注射",
+          "en": "an injection of anaesthetic"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "麻醉状态；尤指因施用麻醉药而失去意识的状态。",
+      "en_definition": "The state of being anaesthetised, especially unconsciousness induced by an anaesthetic.",
+      "ms_definition": "Keadaan tidak sedar diri akibat pemberian ubat bius.",
+      "nuances": "此义侧重人的状态，与指药物的 ubat bius 区分。医疗搭配也使用 bius setempat 和 bius am，分别指局部麻醉和全身麻醉。不要将麻醉、镇静、自然睡眠和昏厥一概视为同义。[DBP：bius](https://prpm.dbp.gov.my/Cari1?d=115704&keyword=bius)",
+      "collocations": [
+        {
+          "ms": "sedar daripada bius",
+          "zh": "从麻醉中苏醒",
+          "en": "to regain consciousness after anaesthesia"
+        },
+        {
+          "ms": "di bawah bius am",
+          "zh": "在全身麻醉状态下",
+          "en": "under general anaesthesia"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "医院说明 / 医疗报道",
+      "ms": "Pakar bius menerangkan jenis pembiusan yang akan digunakan sebelum pembedahan.",
+      "zh": "麻醉专科医生在手术前说明将采用的麻醉方式。",
+      "en": "The anaesthetist explains the type of anaesthesia to be used before surgery."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友询问看牙经历",
+      "ms_spoken": "Doktor dah bagi ubat bius, jadi masa cabut gigi tadi tak sakit.",
+      "ms_standard": "Doktor telah memberikan ubat bius, jadi saya tidak berasa sakit semasa gigi dicabut tadi.",
+      "zh": "医生打了麻药，所以刚才拔牙时不疼。",
+      "en": "The dentist gave me an anaesthetic, so having the tooth removed didn't hurt.",
+      "spoken_features": [
+        "dah 对应 sudah 或 telah",
+        "bagi 在此口语中对应 memberikan",
+        "tak 对应 tidak",
+        "口语依上下文省略 saya 等句子成分"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Kau dah cabut gigi kat klinik tadi? Sakit tak?",
+          "ms_standard": "Adakah gigi kamu sudah dicabut di klinik tadi? Adakah kamu berasa sakit?",
+          "zh": "你刚才去诊所拔牙了？疼吗？",
+          "en": "Did you get your tooth taken out at the clinic? Did it hurt?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Dah. Doktor bagi ubat bius dulu, jadi tak sakit masa cabut.",
+          "ms_standard": "Ya. Doktor memberikan ubat bius terlebih dahulu, jadi saya tidak berasa sakit semasa gigi dicabut.",
+          "zh": "拔了。医生先打了麻药，所以拔的时候不疼。",
+          "en": "Yes. The dentist gave me an anaesthetic first, so it didn't hurt during the extraction."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Bius is generally traced to Persian bī-hosh, meaning unconscious or insensible. Malay treats the borrowed form as a complete root and builds familiar derivatives such as membius and pembiusan around it. Its dictionary senses preserve a useful distinction between the substance administered and the resulting state of unconsciousness. [Etymological reference](https://en.wiktionary.org/wiki/bius)",
+    "cognitive_memory_aid": "把 bius 与 ubat bius 连着记：药物让感觉暂时退场。再用 membius 记动作，用 pembiusan 记过程。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "bius 是中性的医疗词。与医护人员交流时，使用 ubat bius、bius setempat 或 bius am，通常比只说 bius 更明确。",
+    "usage_etiquette": "谈论病人时保持尊重，避免把麻醉后的状态当作笑料。pakar bius 在普通句子中通常使用小写，句首等情况除外。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "bius 是中性的医疗词。与医护人员交流时，使用 ubat bius、bius setempat 或 bius am，通常比只说 bius 更明确。",
+    "usage_etiquette": "谈论病人时保持尊重，避免把麻醉后的状态当作笑料。pakar bius 在普通句子中通常使用小写，句首等情况除外。"
+  }
+}

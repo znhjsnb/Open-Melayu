@@ -1,0 +1,93 @@
+{
+  "headword": {
+    "word": "langley",
+    "syllables": null,
+    "ipa": "/ˈlæŋli/",
+    "jawi": null,
+    "frequency_rank": 8896,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "langley",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + langley → langley",
+    "pattern_note": "科学计量名称，不宜拆成马来语词缀。所列 IPA 为英语来源读音，尚未核实马来语规范读音；数据包未提供音节及爪夷文。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "兰格莱：表示单位面积辐射能量的非国际单位制单位，等于每平方厘米一卡路里。",
+      "en_definition": "A non-SI unit of radiant energy per unit area, equal to one calorie per square centimetre.",
+      "ms_definition": "Unit bukan SI bagi tenaga sinaran per unit luas, bersamaan dengan satu kalori bagi setiap sentimeter persegi.",
+      "nuances": "此处按可核实的科学单位义收录，但原数据包缺少上下文，不能确定原始词频实例是否属于此义；Langley 也可为外国人名或地名。未核实其作为马来语规范词目的 DBP 收录情况，status 字段不能作为此种认证。单位本身表示能量除以面积；表示通量密度还须除以时间。以下搭配为专业用法，不声称属于日常高频搭配。参见 [美国气象学会术语表](https://glossary.ametsoc.org/wiki/langley/)。",
+      "collocations": [
+        {
+          "ms": "tenaga sinaran dalam unit langley",
+          "zh": "以兰格莱为单位的辐射能量",
+          "en": "radiant energy expressed in langleys"
+        },
+        {
+          "ms": "langley per minit",
+          "zh": "兰格莱每分钟",
+          "en": "langleys per minute"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "科研报告 / 历史气象数据说明",
+      "ms": "Dalam jadual lama ini, tenaga sinaran suria per unit luas dinyatakan dalam unit langley.",
+      "zh": "这份旧表格以兰格莱为单位表示单位面积的太阳辐射能量。",
+      "en": "In this historical table, solar radiant energy per unit area is expressed in langleys."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 研究人员讨论旧数据",
+      "ms_spoken": "Data lama ni guna langley je, kan?",
+      "ms_standard": "Data lama ini menggunakan unit langley sahaja, bukan?",
+      "zh": "这份旧数据只用了兰格莱这个单位，对吧？",
+      "en": "These old data only use langleys, right?",
+      "spoken_features": [
+        "ni 为 ini 的口语形式",
+        "je 对应 sahaja",
+        "句末 kan 请求对方确认",
+        "专业术语保留原形；口语化发生在周围句式"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (研究同事)",
+          "ms_spoken": "Aku dah semak jadual tu. Unit dia langley, bukan joule per meter persegi.",
+          "ms_standard": "Saya sudah menyemak jadual itu. Unit yang digunakan ialah langley, bukan joule per meter persegi.",
+          "zh": "我查过那张表了，用的是兰格莱，不是焦耳每平方米。",
+          "en": "I've checked the table. It uses langleys, not joules per square metre."
+        },
+        {
+          "speaker": "Amir (研究同事)",
+          "ms_spoken": "Oh, patutlah. Kita kena semak jenis kalori dulu sebelum nak tukar unit.",
+          "ms_standard": "Oh, sebab itulah. Kita perlu menyemak jenis kalori terlebih dahulu sebelum menukar unit.",
+          "zh": "哦，难怪。换算单位之前，我们得先确认它用的是哪一种卡路里。",
+          "en": "Oh, that explains it. We need to check which calorie definition it uses before converting."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The unit commemorates Samuel Pierpont Langley, an American scientist known for research on solar radiation. Its name preserves a person's contribution rather than a Malay root meaning. Older radiation records may express accumulated energy in langleys and rates in langleys per minute, making the distinction between energy and power essential when interpreting historical measurements. [Source: American Meteorological Society](https://glossary.ametsoc.org/wiki/langley/).",
+    "cognitive_memory_aid": "把 langley 联想成“阳光量格”：在一平方厘米的小格上累计辐射能量；这是记忆联想，不是词源。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "这是专业单位名称，无特殊敬语要求；面对非专业读者，首次出现时应解释其含义。",
+    "usage_etiquette": "适合讨论旧气象资料及辐射测量。作为单位名写 langley；作为人名或地名写 Langley。没有上下文时，不应把所有同形实例都解释为计量单位。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "这是专业单位名称，无特殊敬语要求；面对非专业读者，首次出现时应解释其含义。",
+    "usage_etiquette": "适合讨论旧气象资料及辐射测量。作为单位名写 langley；作为人名或地名写 Langley。没有上下文时，不应把所有同形实例都解释为计量单位。"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "headword": {
+    "word": "ternak",
+    "syllables": "ter.nak",
+    "ipa": "/tər.naʔ/",
+    "jawi": "ترنق",
+    "frequency_rank": 8846,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "ternak",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + ternak → ternak",
+    "pattern_note": "按现代马来语构词，ternak作为完整词基处理；输入中的ter- + nak切分不能成立，因此修正root_word与root_jawi。末尾/k/常实现为喉塞音[ʔ]。派生词采用menternak、penternak等规范拼写，保留t。",
+    "word_family": [
+      {
+        "word": "ternakan",
+        "affix": "-an",
+        "gloss": "饲养的动物；牲畜"
+      },
+      {
+        "word": "menternak",
+        "affix": "meN-",
+        "gloss": "饲养、繁育牲畜"
+      },
+      {
+        "word": "penternak",
+        "affix": "peN-",
+        "gloss": "养殖者；畜牧业者"
+      },
+      {
+        "word": "penternakan",
+        "affix": "peN-…-an",
+        "gloss": "畜牧；饲养和繁育活动"
+      }
+    ],
+    "root_jawi": "ترنق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "牲畜；由人饲养的牛、羊、水牛、马等动物，通常用于生产、繁育或役用。",
+      "en_definition": "Livestock; domesticated animals kept for production, breeding, or work.",
+      "ms_definition": "Binatang peliharaan seperti kuda, lembu, kerbau dan kambing.",
+      "nuances": "与ternakan相通，通常作集合性称呼，不专指牛。标准书面语表达“养殖”这一动作时通常使用menternak或berternak；不要因为口语省略前缀就混同词性。释义据[DBP：ternak](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ternak)。",
+      "collocations": [
+        {
+          "ms": "memelihara ternak",
+          "zh": "饲养牲畜",
+          "en": "keep livestock"
+        },
+        {
+          "ms": "makanan ternak",
+          "zh": "牲畜饲料",
+          "en": "livestock feed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "adjective",
+      "zh_definition": "古语：出生于某地的；原籍或出身属于某地的。",
+      "en_definition": "Archaic: native to, or born in, a particular place.",
+      "ms_definition": "Yang berasal dari atau dilahirkan di sesuatu tempat.",
+      "nuances": "DBP将此义标为ark，即古语。现代介绍籍贯通常使用berasal dari或dilahirkan di。以下是历史用法，不应当作现代高频搭配学习。来源：[DBP：ternak](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ternak)。",
+      "collocations": [
+        {
+          "ms": "orang ternak",
+          "zh": "本地人；当地出生者（古语）",
+          "en": "a native inhabitant (archaic)"
+        },
+        {
+          "ms": "ternak Singapura",
+          "zh": "出生于新加坡的（古语）",
+          "en": "native to Singapore (archaic)"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 防洪通知",
+      "ms": "Penduduk diminta memindahkan ternak mereka ke kawasan yang lebih tinggi sebelum banjir.",
+      "zh": "有关方面要求居民在洪水到来前，把牲畜转移到地势较高的地区。",
+      "en": "Residents are asked to move their livestock to higher ground before the flooding."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人安排转移牲畜",
+      "ms_spoken": "Air dah naik kat kandang. Jom pindahkan ternak kita.",
+      "ms_standard": "Paras air sudah meningkat di kawasan kandang. Marilah kita memindahkan ternak kita.",
+      "zh": "畜栏那边已经涨水了。咱们赶紧把牲畜转走吧。",
+      "en": "The water's rising around the pen. Let's move our livestock.",
+      "spoken_features": [
+        "dah相当于sudah。",
+        "kat相当于di。",
+        "jom是口语邀请语，相当于mari或marilah。",
+        "nak相当于hendak；对话中的nak与ternak的构词无关。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (哥哥)",
+          "ms_spoken": "Air dah naik kat kandang. Jom pindahkan ternak kita.",
+          "ms_standard": "Paras air sudah meningkat di kawasan kandang. Marilah kita memindahkan ternak kita.",
+          "zh": "畜栏那边已经涨水了。咱们赶紧把牲畜转走吧。",
+          "en": "The water's rising around the pen. Let's move our livestock."
+        },
+        {
+          "speaker": "Hafiz (弟弟)",
+          "ms_spoken": "Baik, aku nak buka pagar dulu. Kau bawa lembu ke tempat tinggi.",
+          "ms_standard": "Baiklah, aku hendak membuka pagar dahulu. Kamu bawalah lembu ke tempat yang lebih tinggi.",
+          "zh": "行，我先去开门。你把牛带到高处去。",
+          "en": "Okay, I'll open the gate first. You take the cattle to higher ground."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Ternak carries a historical surprise: beside its familiar livestock meaning, Kamus Dewan records an archaic sense describing someone born in or originating from a place. Modern derivatives such as menternak and penternak centre on animal husbandry. This older meaning does not establish a modern division into ter- and nak, nor prove a particular ancient derivation. See [DBP](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=ternak).",
+    "cognitive_memory_aid": "把ternak整词记成一群牛羊：ternak是牲畜，menternak是养牲畜，penternak是养牲畜的人。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "ternak本身是中性的畜牧用语。称呼从业者时使用penternak，更清楚也更尊重。",
+    "usage_etiquette": "现代交流优先使用牲畜义；籍贯义仅适合古文阅读或历史语言说明。讨论动物种类时直接说明物种，避免把ternak误译为仅指牛的cattle。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "ternak本身是中性的畜牧用语。称呼从业者时使用penternak，更清楚也更尊重。",
+    "usage_etiquette": "现代交流优先使用牲畜义；籍贯义仅适合古文阅读或历史语言说明。讨论动物种类时直接说明物种，避免把ternak误译为仅指牛的cattle。"
+  }
+}

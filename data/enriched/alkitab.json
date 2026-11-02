@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "alkitab",
+    "syllables": null,
+    "ipa": "/al.ki.tab/",
+    "jawi": null,
+    "frequency_rank": 8855,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "alkitab",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + alkitab → alkitab",
+    "pattern_note": "按输入将整词作为借入单位处理。历史上阿拉伯语 al- 是定冠词，kitāb 表示书；al- 不是这里的马来语派生前缀。以下词族项通过 kitab 形成历史联系，不是从 alkitab 直接派生。",
+    "word_family": [
+      {
+        "word": "kitab",
+        "affix": null,
+        "gloss": "经书；古义亦指书籍（历史关联词）"
+      },
+      {
+        "word": "berkitab",
+        "affix": "ber-",
+        "gloss": "有经典；以经书为依据（由 kitab 派生）"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "《圣经》；基督宗教的经典，由《旧约》和《新约》组成，名称通常写作 Alkitab。",
+      "en_definition": "The Bible, the Christian scriptures comprising the Old and New Testaments.",
+      "ms_definition": "Kitab suci agama Kristian yang merangkumi Perjanjian Lama dan Perjanjian Baru.",
+      "nuances": "这是马来语基督宗教出版与社群中的实际用法，名称通常大写为 Alkitab；本义项的马来语释义为综合释义，非冒充 DBP 原文。不要将其与 DBP 的 al-Kitab 义项自动等同。[马来语《圣经》出版实例](https://www.alkitabversiborneo.org/en)。",
+      "collocations": [
+        {
+          "ms": "membaca Alkitab",
+          "zh": "阅读《圣经》",
+          "en": "read the Bible"
+        },
+        {
+          "ms": "terjemahan Alkitab",
+          "zh": "《圣经》译本；《圣经》翻译",
+          "en": "a Bible translation; Bible translation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "《古兰经》的称谓之一；此义在 DBP 中写作 al-Kitab。",
+      "en_definition": "Al-Kitab, a designation for the Quran in Islamic usage.",
+      "ms_definition": "Al-Quran; Kitabullah.",
+      "nuances": "此义对应 DBP 的 al-Kitab 词条。应保留其连字符和 Kitab 的大写，并根据宗教语境判断所指；输入的全小写 alkitab 不足以消除歧义。[DBP al-Kitab 词条](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=al-Kitab)。",
+      "collocations": [
+        {
+          "ms": "istilah al-Kitab",
+          "zh": "al-Kitab 这一称谓",
+          "en": "the designation al-Kitab"
+        },
+        {
+          "ms": "al-Quran disebut al-Kitab",
+          "zh": "《古兰经》被称为 al-Kitab",
+          "en": "the Quran is called al-Kitab"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "出版 / 职场汇报",
+      "ms": "Penerbit itu menyediakan terjemahan Alkitab dalam bahasa Melayu untuk pembaca Kristian.",
+      "zh": "该出版社为基督徒读者提供马来语《圣经》译本。",
+      "en": "The publisher provides a Malay translation of the Bible for Christian readers."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 教会朋友讨论读经小组",
+      "ms_spoken": "Aku nak bawa Alkitab sendiri untuk kumpulan bacaan esok.",
+      "ms_standard": "Saya hendak membawa Alkitab sendiri untuk kumpulan bacaan esok.",
+      "zh": "明天读经小组我想带自己的《圣经》。",
+      "en": "I’m going to bring my own Bible to tomorrow’s reading group.",
+      "spoken_features": [
+        "aku 用于熟悉的朋友之间",
+        "nak 对应 hendak",
+        "dah 对应 sudah",
+        "je 对应 sahaja",
+        "聊天语气口语化，宗教书名仍保留大写"
+      ],
+      "messages": [
+        {
+          "speaker": "Daniel (教会朋友)",
+          "ms_spoken": "Kau nak bawa Alkitab sendiri esok?",
+          "ms_standard": "Awak hendak membawa Alkitab sendiri esok?",
+          "zh": "你明天要带自己的《圣经》吗？",
+          "en": "Are you bringing your own Bible tomorrow?"
+        },
+        {
+          "speaker": "Grace (教会朋友)",
+          "ms_spoken": "Ya, aku dah letak dalam beg. Kita baca sama-sama je nanti.",
+          "ms_standard": "Ya, saya sudah meletakkannya di dalam beg. Nanti kita membacanya bersama-sama sahaja.",
+          "zh": "对，我已经放进包里了。到时我们就一起读吧。",
+          "en": "Yes, I’ve already put it in my bag. We can just read it together."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The name combines the Arabic definite article al with kitāb, meaning book: literally, the book. Its religious reference depends on tradition. Malay Christian publications use Alkitab for the Bible, while DBP records al-Kitab as a designation for the Quran. Shared linguistic ancestry therefore coexists with distinct community meanings and spelling conventions. [Christian usage](https://www.alkitabversiborneo.org/en), [DBP entry](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=al-Kitab).",
+    "cognitive_memory_aid": "kitab＝经书；历史上的 al 相当于“那部”。先记“那部经典”，再看社群和拼写：Alkitab 常指《圣经》，DBP 的 al-Kitab 指《古兰经》。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "尊重对方社群使用的经典名称；基督徒说 Alkitab 时，通常是在谈《圣经》，无需擅自改称其他宗教经典。",
+    "usage_etiquette": "跨宗教讨论或翻译时，首次出现可明确写“Alkitab，经典为《圣经》”或“al-Kitab，此处指《古兰经》”。引用出版物时保留原书名、版本名及其大小写。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "尊重对方社群使用的经典名称；基督徒说 Alkitab 时，通常是在谈《圣经》，无需擅自改称其他宗教经典。",
+    "usage_etiquette": "跨宗教讨论或翻译时，首次出现可明确写“Alkitab，经典为《圣经》”或“al-Kitab，此处指《古兰经》”。引用出版物时保留原书名、版本名及其大小写。"
+  }
+}

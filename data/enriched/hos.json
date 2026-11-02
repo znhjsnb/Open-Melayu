@@ -1,0 +1,163 @@
+{
+  "headword": {
+    "word": "hos",
+    "syllables": "hos",
+    "ipa": "/hos/",
+    "jawi": "هوس",
+    "frequency_rank": 8800,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "hos",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + hos → hos",
+    "pattern_note": "单音节借词，整词记忆，无马来语词缀。下列词族项目为复合词；输送管义与主人、主持人义分别对应英语 hose 和 host。",
+    "word_family": [
+      {
+        "word": "hos getah",
+        "affix": "∅（复合词）",
+        "gloss": "橡胶软管"
+      },
+      {
+        "word": "hos bomba",
+        "affix": "∅（复合词）",
+        "gloss": "消防水带"
+      }
+    ],
+    "root_jawi": "هوس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "用橡胶等材料制成、用于输送液体或气体的软管。",
+      "en_definition": "A flexible tube used to convey liquids or gases.",
+      "ms_definition": "Salur lentur daripada getah atau bahan seumpamanya bagi mengalirkan bendalir.",
+      "nuances": "这是输入词包对应的 hos I。常用于浇水、消防及设备连接；与通常指管道的 paip 有别。气体输送也是本义的一部分。",
+      "collocations": [
+        {
+          "ms": "hos getah",
+          "zh": "橡胶软管",
+          "en": "rubber hose"
+        },
+        {
+          "ms": "hos bomba",
+          "zh": "消防水带",
+          "en": "fire hose"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "在聚会、仪式等场合接待和款待宾客的主人或东道主。",
+      "en_definition": "A person who receives and entertains guests.",
+      "ms_definition": "Individu yang menerima serta melayani tetamu dalam sesuatu acara.",
+      "nuances": "属于同形词 hos II。强调接待角色；不必然等于负责筹办活动的 penganjur。家庭场合也常说 tuan rumah。",
+      "collocations": [
+        {
+          "ms": "menjadi hos",
+          "zh": "担任东道主",
+          "en": "act as host"
+        },
+        {
+          "ms": "hos majlis",
+          "zh": "宴会或活动的主人",
+          "en": "host of a function"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "主持演出、电视节目等的主持人。",
+      "en_definition": "A presenter who leads a show or broadcast programme.",
+      "ms_definition": "Pengendali persembahan atau rancangan siaran; pengacara.",
+      "nuances": "同属 hos II；pengacara 是常用近义词。hos majlis 可能指接待宾客的主人，也可能在具体语境中指主持人，应据其职责判断。",
+      "collocations": [
+        {
+          "ms": "hos rancangan",
+          "zh": "节目主持人",
+          "en": "programme host"
+        },
+        {
+          "ms": "hos televisyen",
+          "zh": "电视主持人",
+          "en": "television host"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "计算机网络中向其他计算机提供服务或资源的主机。",
+      "en_definition": "A computer that provides services or resources to other computers on a network.",
+      "ms_definition": "Komputer dalam rangkaian yang menawarkan sumber atau perkhidmatan kepada komputer lain.",
+      "nuances": "计算机术语，典型形式是 komputer hos。其具体功能取决于系统架构，不能一概等同于用户的个人电脑。",
+      "collocations": [
+        {
+          "ms": "komputer hos",
+          "zh": "主机",
+          "en": "host computer"
+        },
+        {
+          "ms": "nama hos",
+          "zh": "主机名",
+          "en": "hostname"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelenggaraan telah menggantikan hos yang bocor bagi memastikan bekalan air tidak terganggu.",
+      "zh": "维修团队已更换漏水的软管，以确保供水不受影响。",
+      "en": "The maintenance team has replaced the leaking hose to ensure an uninterrupted water supply."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Hos kat luar dah bocor lah.",
+      "ms_standard": "Hos di luar sudah bocor.",
+      "zh": "外面的水管已经漏水啦。",
+      "en": "The hose outside is leaking.",
+      "spoken_features": [
+        "kat 对应标准语的 di，表示位置。",
+        "dah 是 sudah 的口语缩略形式。",
+        "lah 在此突出说话人的发现或提醒，语气取决于语调。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (室友)",
+          "ms_spoken": "Hos kat luar dah bocor lah. Nak siram pokok macam mana?",
+          "ms_standard": "Hos di luar sudah bocor. Bagaimanakah kita hendak menyiram pokok?",
+          "zh": "外面的水管漏水啦，这下怎么浇花啊？",
+          "en": "The hose outside is leaking. How are we going to water the plants?"
+        },
+        {
+          "speaker": "Amir (室友)",
+          "ms_spoken": "Guna baldi je dulu. Nanti aku beli hos baru.",
+          "ms_standard": "Gunakan baldi sahaja dahulu. Nanti saya akan membeli hos baharu.",
+          "zh": "先用桶吧，待会儿我买条新的。",
+          "en": "Just use a bucket for now. I’ll buy a new hose later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Malay hos brings two English borrowing histories into one spelling: hose supplies the tube meaning, while host supplies the guest-receiving and presenting meanings. A garden, a television studio, and a computer network therefore offer very different clues to interpretation. The matching spelling does not mean that a water hose historically developed into a programme presenter. [DBP PRPM: hos](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=hos)",
+    "cognitive_memory_aid": "hos /hos/：想到英语 hose 就想到软管；想到 host 就想到主人或主持人。靠场景选义。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "物件义语体中性。称呼主持人或接待者时，直接用姓名或适当称谓通常比只叫对方 hos 更自然。",
+    "usage_etiquette": "维修、园艺和消防语境常用软管义；媒体语境常用主持人义。正式活动介绍中，应分清 hos、pengacara 与 penganjur 的实际职责。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "物件义语体中性。称呼主持人或接待者时，直接用姓名或适当称谓通常比只叫对方 hos 更自然。",
+    "usage_etiquette": "维修、园艺和消防语境常用软管义；媒体语境常用主持人义。正式活动介绍中，应分清 hos、pengacara 与 penganjur 的实际职责。"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "headword": {
+    "word": "im",
+    "syllables": null,
+    "ipa": "/ˌaɪˈem/",
+    "jawi": null,
+    "frequency_rank": 8834,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "im",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + IM → IM",
+    "pattern_note": "原始 im 无语境，词项身份尚不能确证。以下仅按通讯领域的大写字母缩写 IM 条件性编写；IPA 也仅适用于该解释，逐字母读出。它不是马来语词缀 im-，也不能自动等同英语 I'm。is_root 沿用输入分类，不表示本土马来语词根。",
+    "word_family": [],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "仅当原词指通讯缩写 IM 时：即时通讯，即通过网络快速交换消息的通信方式或服务。",
+      "en_definition": "If the intended form is IM: instant messaging, a service or method for exchanging messages over a network with little delay.",
+      "ms_definition": "Jika bentuk yang dimaksudkan ialah singkatan IM: pemesejan segera, iaitu kaedah atau perkhidmatan pertukaran mesej melalui rangkaian dengan kelewatan yang minimum.",
+      "nuances": "输入没有提供可消歧语境，不能把此解释认定为原始 im 的确定词义。IM 另有其他领域用法。official 仅沿用用户指定标签，不表示此词项身份或马来语词典收录已获核实。DBP 给出的 instant messaging 对应词是 pemesejan segera；此处马来语释义为编写释义。[Cambridge：IM](https://dictionary.cambridge.org/us/dictionary/english/im?q=IMS)；[DBP：pemesejan segera](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=messaging)",
+      "collocations": [
+        {
+          "ms": "perkhidmatan pemesejan segera",
+          "zh": "即时通讯服务",
+          "en": "instant messaging service"
+        },
+        {
+          "ms": "aplikasi pemesejan segera",
+          "zh": "即时通讯应用",
+          "en": "instant messaging application"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "仅当原词指通讯缩写 IM 时：一条通过即时通讯系统发送的消息。",
+      "en_definition": "If the intended form is IM: an individual message sent through an instant messaging system.",
+      "ms_definition": "Jika bentuk yang dimaksudkan ialah singkatan IM: satu mesej yang dihantar melalui sistem pemesejan segera.",
+      "nuances": "英语 IM 可指通信方式，也可指单条消息；后者在马来语中通常直接说 mesej，并按需要补明发送渠道。以下为马来语对应表达，不是已核实的 im 本土搭配。[Cambridge：IM](https://dictionary.cambridge.org/us/dictionary/english/im?q=IMS)",
+      "collocations": [
+        {
+          "ms": "menghantar mesej melalui aplikasi pemesejan segera",
+          "zh": "通过即时通讯应用发送消息",
+          "en": "send an instant message"
+        },
+        {
+          "ms": "menerima mesej melalui aplikasi pemesejan segera",
+          "zh": "通过即时通讯应用接收消息",
+          "en": "receive an instant message"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "职场报告 / 明确定义通讯缩写",
+      "ms": "Dalam laporan ini, singkatan IM merujuk kepada pemesejan segera.",
+      "zh": "在本报告中，缩写 IM 指即时通讯。",
+      "en": "In this report, the abbreviation IM refers to instant messaging."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认文件中的缩写",
+      "ms_spoken": "Dalam nota ni, IM tu maksudnya apa?",
+      "ms_standard": "Apakah maksud IM dalam nota ini?",
+      "zh": "这份笔记里的 IM 是什么意思？",
+      "en": "What does IM mean in these notes?",
+      "spoken_features": [
+        "ni 和 tu 分别对应 ini 和 itu",
+        "maksudnya apa 是常见口语问法",
+        "kat sini 对应 di sini",
+        "je 对应 sahaja",
+        "对话限定 IM 在该文件中的意思，不替原始 im 消歧"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Dalam nota ni, IM tu maksudnya apa?",
+          "ms_standard": "Apakah maksud IM dalam nota ini?",
+          "zh": "这份笔记里的 IM 是什么意思？",
+          "en": "What does IM mean in these notes?"
+        },
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Kat sini, IM maksudnya pemesejan segera je, macam WhatsApp.",
+          "ms_standard": "Di sini, IM hanya merujuk kepada pemesejan segera, seperti komunikasi melalui WhatsApp.",
+          "zh": "这里的 IM 就是即时通讯，比如用 WhatsApp 聊天。",
+          "en": "Here it just means instant messaging, like chatting on WhatsApp."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Under the communications interpretation, IM takes the initial letters of instant messaging or instant message. Network terminology distinguishes the messaging service from each message it delivers; RFC 2778 documented a model for presence and instant messaging in 2000. This history explains the abbreviation, but cannot establish what an isolated lowercase im meant in an unidentified source. [RFC 2778](https://www.rfc-editor.org/rfc/rfc2778)",
+    "cognitive_memory_aid": "仅按通讯义记：I = instant，M = messaging，两个字母对应“即时＋通讯”；读字母名，不读成一个马来语音节。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式文件首次使用时写 pemesejan segera (IM)。向不熟悉技术缩写的人说明全称，比直接使用缩写更清楚。",
+    "usage_etiquette": "本条例句只适用于明确的通讯语境。医疗、机构名称、个人姓名或英语聊天中的 im 必须另行消歧；缺少原句时不能据此确定原始词项的意思。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式文件首次使用时写 pemesejan segera (IM)。向不熟悉技术缩写的人说明全称，比直接使用缩写更清楚。",
+    "usage_etiquette": "本条例句只适用于明确的通讯语境。医疗、机构名称、个人姓名或英语聊天中的 im 必须另行消歧；缺少原句时不能据此确定原始词项的意思。"
+  }
+}
