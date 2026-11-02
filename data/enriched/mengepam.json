@@ -1,0 +1,133 @@
+{
+  "headword": {
+    "word": "mengepam",
+    "syllables": "me.nge.pam",
+    "ipa": "/mə.ŋə.pam/",
+    "jawi": "مڠڤم",
+    "frequency_rank": 10248,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "pam",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + pam → menge- + pam → mengepam",
+    "pattern_note": "pam 是单音节词根，meN- 采用 menge- 形式，词首 p 保留。输入包将 mengepam 标为词根有误；已依据词典词族及构词规则更正。规则参见：[UPSI：Mengajar Imbuhan Bahasa Melayu](https://ir.upsi.edu.my/files/docs/2020/883_883.pdf)。",
+    "word_family": [
+      {
+        "word": "pam",
+        "affix": null,
+        "gloss": "泵；打气筒"
+      },
+      {
+        "word": "pengepam",
+        "affix": "peN-",
+        "gloss": "抽送装置；泵"
+      },
+      {
+        "word": "pengepaman",
+        "affix": "peN-…-an",
+        "gloss": "抽送；泵送过程"
+      },
+      {
+        "word": "mengepamkan",
+        "affix": "meN-…-kan",
+        "gloss": "为某人抽送；将气体或液体泵入"
+      }
+    ],
+    "root_jawi": "ڤم"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "用泵抽取、排出或输送液体、气体等。",
+      "en_definition": "To draw out, discharge, or transfer a substance using a pump.",
+      "ms_definition": "Mengisi atau menyedut air, angin dan sebagainya dengan pam.",
+      "nuances": "属于主动及物动词，主语通常是操作者或泵送设备。抽入还是抽出须结合 dari、keluar、ke dalam 等成分判断。词义与词族依据：[PRPM：pam](https://prpm.dbp.gov.my/Cari1?d=74812&keyword=pam)。",
+      "collocations": [
+        {
+          "ms": "mengepam air keluar",
+          "zh": "把水抽出去",
+          "en": "pump water out"
+        },
+        {
+          "ms": "mengepam susu ibu",
+          "zh": "用吸乳器吸取母乳",
+          "en": "express breast milk using a pump"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "用泵给轮胎、球等充气。",
+      "en_definition": "To inflate a tyre, ball, or similar object with a pump.",
+      "ms_definition": "Mengisi angin ke dalam tayar, bola dan sebagainya dengan menggunakan pam.",
+      "nuances": "这是泵送动作的常见具体用法。可直接接受充气的物体，如 mengepam tayar；也可接 angin，并说明充入的位置。",
+      "collocations": [
+        {
+          "ms": "mengepam tayar basikal",
+          "zh": "给自行车轮胎打气",
+          "en": "pump up a bicycle tyre"
+        },
+        {
+          "ms": "mengepam bola",
+          "zh": "给球充气",
+          "en": "inflate a ball"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pasukan penyelenggaraan sedang mengepam air keluar dari ruang bawah tanah yang ditenggelami banjir.",
+      "zh": "维修团队正在把积水从遭洪水淹没的地下室抽出。",
+      "en": "The maintenance team is pumping water out of the flooded basement."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Aku nak mengepam tayar basikal ni dulu, lembik sangat dah.",
+      "ms_standard": "Saya hendak mengepam tayar basikal ini dahulu kerana tayarnya sudah terlalu kempis.",
+      "zh": "我先给这自行车轮胎打点气，已经瘪得很了。",
+      "en": "I'm going to pump up this bike tyre first. It's really soft.",
+      "spoken_features": [
+        "nak 对应 hendak，ni 对应 ini。",
+        "aku 适用于熟悉的平辈之间。",
+        "口语可用 pam 代替完整主动形式 mengepam。"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Aku nak mengepam tayar basikal ni dulu. Pam kau ada kat rumah tak?",
+          "ms_standard": "Saya hendak mengepam tayar basikal ini dahulu. Adakah pam awak ada di rumah?",
+          "zh": "我想先给这自行车轮胎打气。你的打气筒在家吗？",
+          "en": "I want to pump up this bike tyre first. Have you got your pump at home?"
+        },
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Ada, kat stor je. Ambillah, aku dah pam tayar aku tadi.",
+          "ms_standard": "Ada, pam itu di dalam stor. Ambillah kerana saya sudah mengepam tayar basikal saya tadi.",
+          "zh": "有，就在储物间。拿去吧，我刚才已经给自己的轮胎打过气了。",
+          "en": "Yes, it's in the storeroom. Go ahead and use it. I've already pumped mine up."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The dictionary places mengepam within the family of pam, the everyday name for a pump. Its structure shows how Malay turns the name of a tool into an action: the monosyllabic base takes menge-, while its initial p remains. Water removal, tyre inflation, and milk expression consequently share one practical verb. This account describes its established formation without assigning an unsupported borrowing date.",
+    "cognitive_memory_aid": "pam 对应英语 pump；menge- 加上工具名 pam，就得到“操作泵来抽送或打气”的 mengepam。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "技术报告宜用完整形式 mengepam；熟人对话常直接说 pam。请求别人帮忙时可说 Boleh tolong pam tayar ini?",
+    "usage_etiquette": "mengepam susu ibu 是中性的母乳喂养用语；涉及同事吸乳时间或空间时，应尊重隐私。正式说明泵送操作时，应明确介质、方向和目标位置。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "技术报告宜用完整形式 mengepam；熟人对话常直接说 pam。请求别人帮忙时可说 Boleh tolong pam tayar ini?",
+    "usage_etiquette": "mengepam susu ibu 是中性的母乳喂养用语；涉及同事吸乳时间或空间时，应尊重隐私。正式说明泵送操作时，应明确介质、方向和目标位置。"
+  }
+}

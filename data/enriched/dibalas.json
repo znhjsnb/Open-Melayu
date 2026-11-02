@@ -1,0 +1,154 @@
+{
+  "headword": {
+    "word": "dibalas",
+    "syllables": "di.ba.las",
+    "ipa": "/di.ba.las/",
+    "jawi": null,
+    "frequency_rank": 10227,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "balas",
+    "affix": "di-",
+    "affix_type": "prefix",
+    "formula": "di- + balas → dibalas",
+    "pattern_note": "di- 构成被动式，与词根连写；词根起首的 b 保留，不发生鼻音同化。数据包将 dibalas 标为词根有误，实际词根为 balas。未提供的 Jawi 保留为 null。",
+    "word_family": [
+      {
+        "word": "membalas",
+        "affix": "meN-",
+        "gloss": "回复；回报；反击"
+      },
+      {
+        "word": "balasan",
+        "affix": "-an",
+        "gloss": "答复；回报；报应"
+      },
+      {
+        "word": "berbalas",
+        "affix": "ber-",
+        "gloss": "得到回应；相互应答"
+      },
+      {
+        "word": "pembalasan",
+        "affix": "peN-…-an",
+        "gloss": "回报或报复的行为"
+      }
+    ],
+    "root_jawi": "بالس"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "得到回复或应答，指信件、消息、问候等被对方回应。",
+      "en_definition": "To be answered or replied to, especially of a message, letter, or greeting.",
+      "ms_definition": "Dijawab atau disahut, khususnya berkenaan surat, mesej atau salam.",
+      "nuances": "是 membalas 的被动式，本身不表示过去时；时间由 sudah、telah、belum、akan 或上下文表达。释义依据 DBP 的 membalas 义项改写为被动式。[DBP：balas](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=balas)",
+      "collocations": [
+        {
+          "ms": "mesej belum dibalas",
+          "zh": "消息尚未得到回复",
+          "en": "a message that has not yet been answered"
+        },
+        {
+          "ms": "surat dibalas",
+          "zh": "信件得到回复",
+          "en": "a letter is answered"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "得到回报、酬答或相应的情感回应。",
+      "en_definition": "To be repaid, rewarded, or reciprocated.",
+      "ms_definition": "Diberi sesuatu sebagai imbangan atau tanda penghargaan; disambut dengan perasaan yang sepadan.",
+      "nuances": "适用于善意、恩情、付出和感情。回报不一定是金钱；cinta tidak dibalas 指感情得不到回应。具体评价取决于后接内容，例如 kebaikan dibalas dengan kejahatan 表示善意反遭恶意。",
+      "collocations": [
+        {
+          "ms": "jasa dibalas",
+          "zh": "恩情得到报答",
+          "en": "kindness or service is repaid"
+        },
+        {
+          "ms": "cinta tidak dibalas",
+          "zh": "爱情得不到回应",
+          "en": "love is unrequited"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "遭到还击、报复或与先前行为相应的惩罚。",
+      "en_definition": "To be retaliated against, countered, or punished in return for an earlier action.",
+      "ms_definition": "Dikenakan tindakan sebagai tindak balas terhadap serangan, kezaliman atau kesalahan yang terdahulu.",
+      "nuances": "常见于冲突、军事报道及道德评价。serangan dibalas 是攻击遭还击；kejahatan dibalas 可以指恶行受到惩罚，不必然涉及私人复仇。",
+      "collocations": [
+        {
+          "ms": "serangan dibalas",
+          "zh": "攻击遭到还击",
+          "en": "an attack is countered"
+        },
+        {
+          "ms": "kejahatan dibalas",
+          "zh": "恶行受到报应或惩罚",
+          "en": "wrongdoing is punished"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Semua pertanyaan pelanggan akan dibalas dalam tempoh dua hari bekerja.",
+      "zh": "所有客户咨询将在两个工作日内得到回复。",
+      "en": "All customer enquiries will be answered within two working days."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Mesej aku belum dibalas lagi lah.",
+      "ms_standard": "Mesej saya masih belum dibalas.",
+      "zh": "我的消息还没被回复呢。",
+      "en": "My message still hasn't been answered.",
+      "spoken_features": [
+        "aku 是熟人之间使用的第一人称代词。",
+        "belum…lagi 表示到现在仍未发生。",
+        "句末 lah 在此表达轻微无奈；语气取决于说话方式。",
+        "dah、kat 分别对应 sudah、di。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Mesej aku kat Amir belum dibalas lagi lah.",
+          "ms_standard": "Mesej saya kepada Amir masih belum dibalas.",
+          "zh": "我发给阿米尔的消息还没回呢。",
+          "en": "Amir still hasn't replied to my message."
+        },
+        {
+          "speaker": "Lina (朋友)",
+          "ms_spoken": "Dia dah masuk mesyuarat. Tunggu kejap, nanti dia balas.",
+          "ms_standard": "Dia sudah masuk ke bilik mesyuarat. Tunggu sebentar; dia akan membalasnya kemudian.",
+          "zh": "他已经进去开会了。等一下，他待会儿会回的。",
+          "en": "He's in a meeting already. Give him a moment; he'll reply later."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "The base balas connects answering with giving something back. Malay expressions about repaying kindness and exchanging pantun reveal this shared idea of reciprocity. Dibalas applies the passive prefix di-, placing the recipient or earlier action in focus. A message receives an answer just as a kindness receives a return. [DBP: balas](https://prpm.dbp.gov.my/Cari1?d=254640&keyword=balas)",
+    "cognitive_memory_aid": "把 balas 记成一个折返箭头：消息发出去，回复折回来；前加 di-，就是“被回复、被回报”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "正式催办宜说 Mohon agar mesej ini dibalas apabila berkesempatan，意为“烦请方便时回复此消息”。直接说 Kenapa belum dibalas? 可能显得质问。",
+    "usage_etiquette": "用于客户服务、朋友聊天和讨论恩情均自然。涉及宗教报应或报复时应结合完整语境理解；不要把所有 dibalas 都译成“报复”。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "正式催办宜说 Mohon agar mesej ini dibalas apabila berkesempatan，意为“烦请方便时回复此消息”。直接说 Kenapa belum dibalas? 可能显得质问。",
+    "usage_etiquette": "用于客户服务、朋友聊天和讨论恩情均自然。涉及宗教报应或报复时应结合完整语境理解；不要把所有 dibalas 都译成“报复”。"
+  }
+}

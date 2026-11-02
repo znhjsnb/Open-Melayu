@@ -1,0 +1,125 @@
+{
+  "headword": {
+    "word": "arahannya",
+    "syllables": null,
+    "ipa": "/a.ra.han.ɲa/",
+    "jawi": "ارهن",
+    "frequency_rank": 10217,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "arahan",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "arahan + -nya → arahannya；基础派生：arah + -an → arahan",
+    "pattern_note": "-nya 在这里通常是附着于名词后的第三人称领属形式，严格说属于附着代词；suffix 是本结构所用的形式分类。拼接时不删音，ny 表示 /ɲ/。headword.jawi 按输入保留 ارهن，但它对应 arahan，未包含 -nya；完整形式可写作 ارهنڽ。输入未提供音节字段，故保留 null。",
+    "word_family": [
+      {
+        "word": "mengarah",
+        "affix": "meN-",
+        "gloss": "指挥；指导；执导"
+      },
+      {
+        "word": "pengarah",
+        "affix": "peN-",
+        "gloss": "导演；主管"
+      }
+    ],
+    "root_jawi": "ارهن"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "他或她的指导、指挥或监督；在影视、戏剧语境中指其执导。",
+      "en_definition": "His or her direction or supervision, including artistic direction of a production.",
+      "ms_definition": "Pimpinan atau pengawasan oleh orang yang dirujuk melalui -nya.",
+      "nuances": "对应 Kamus Dewan 中 arahan 的第一义“pimpinan, pengawasan”；本条马来语释义据此结合 -nya 作编辑性展开。常见于 di bawah arahannya 等结构，表示由某人指导或执导，不一定涉及具体命令。[DBP：arahan](https://prpm.dbp.gov.my/Cari1?d=250764&keyword=arahan)",
+      "collocations": [
+        {
+          "ms": "di bawah arahannya",
+          "zh": "在他或她的指导下",
+          "en": "under his or her direction"
+        },
+        {
+          "ms": "filem arahannya",
+          "zh": "他或她执导的电影",
+          "en": "a film directed by him or her"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "他或她发出的指示、命令或操作要求；具体所指由上下文确定。",
+      "en_definition": "An instruction, order, or set of instructions issued by the person referred to.",
+      "ms_definition": "Petunjuk atau perintah yang diberikan oleh orang yang dirujuk melalui -nya.",
+      "nuances": "对应 arahan 的第二义“petunjuk, perintah”。-nya 不区分男性和女性，也不自动表示复数；须从上下文确定发出指示者及指示数量。它是名词形式，不是“命令他”的动词结构。[DBP：arahan](https://prpm.dbp.gov.my/Cari1?d=250764&keyword=arahan)；[DBP：-nya 的语法说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=tatabahasa+nya)",
+      "collocations": [
+        {
+          "ms": "mematuhi arahannya",
+          "zh": "遵从他或她的指示",
+          "en": "to comply with his or her instructions"
+        },
+        {
+          "ms": "mengikut arahannya",
+          "zh": "按照他或她的指示",
+          "en": "to follow his or her instructions"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 职场汇报",
+      "ms": "Pengarah telah menetapkan prosedur baharu, dan semua kakitangan diminta mematuhi arahannya.",
+      "zh": "主管已制定新程序，并要求全体员工遵从其指示。",
+      "en": "The director has established new procedures, and all staff are requested to comply with the director’s instructions."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 同事确认主管的指示",
+      "ms_spoken": "Bos dah bagi arahan tadi. Kita ikut arahannya dulu, ya.",
+      "ms_standard": "Ketua sudah memberikan arahan tadi. Kita ikuti arahannya dahulu, ya.",
+      "zh": "老板刚才已经交代了，我们先照他的指示做吧。",
+      "en": "The boss gave us instructions earlier. Let’s follow them for now, okay?",
+      "spoken_features": [
+        "bos 是常见的职场口语称呼",
+        "dah 对应 sudah",
+        "bagi 在这里对应 memberikan",
+        "dulu 对应 dahulu",
+        "句末 ya 用于柔化建议"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同事)",
+          "ms_spoken": "Bos dah bagi arahan tadi. Kita ikut arahannya dulu, ya.",
+          "ms_standard": "Ketua sudah memberikan arahan tadi. Kita ikuti arahannya dahulu, ya.",
+          "zh": "老板刚才已经交代了，我们先照他的指示做吧。",
+          "en": "The boss gave us instructions earlier. Let’s follow them for now, okay?"
+        },
+        {
+          "speaker": "Amir (同事)",
+          "ms_spoken": "Boleh. Aku nak semak satu perkara dengan dia dulu.",
+          "ms_standard": "Baik. Saya mahu menyemak satu perkara dengannya dahulu.",
+          "zh": "行，我想先跟他确认一件事。",
+          "en": "Sure. I want to check one thing with the boss first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "This form illustrates Malay’s productive word building: arah provides the base, -an forms the noun arahan, and attached -nya identifies the person associated with the direction or instructions. The dictionary records both supervision and commands under arahan. The surface form is therefore explainable through Malay morphology without inventing a separate borrowing history for arahannya. [Source](https://prpm.dbp.gov.my/Cari1?d=250764&keyword=arahan)",
+    "cognitive_memory_aid": "arah“方向” → arahan“给出的方向、指示” → arahannya“他或她的指示”。末尾 nya 提醒你追问：谁的？"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "直接对上级说话时，arahan tuan 或 arahan puan 通常比第三人称 arahannya 更明确、得体；arahannya 适合谈论上下文已提到的人。",
+    "usage_etiquette": "涉及任务分工或重要操作时，应明确指示来自谁；对方身份不清楚时，可用姓名或职务替换 -nya，避免误解。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "直接对上级说话时，arahan tuan 或 arahan puan 通常比第三人称 arahannya 更明确、得体；arahannya 适合谈论上下文已提到的人。",
+    "usage_etiquette": "涉及任务分工或重要操作时，应明确指示来自谁；对方身份不清楚时，可用姓名或职务替换 -nya，避免误解。"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "headword": {
+    "word": "menyalin",
+    "syllables": "me.nya.lin",
+    "ipa": "/mə.ɲa.lin/",
+    "jawi": "مڽالين",
+    "frequency_rank": 10245,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "menyalin",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + salin → menyalin",
+    "pattern_note": "meN- 接 salin 时，词首 s 被鼻音 ny /ɲ/ 替代，形成 menyalin。root_word 与 root_jawi 按要求保留资料包的检索词形；实际构词词根为 salin（سالين）。资料包的 is_root: true 与该构词关系不符，故此处改为 false。构词依据：[DBP：salin](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=salin)。",
+    "word_family": [
+      {
+        "word": "salin",
+        "affix": null,
+        "gloss": "抄写；更换；转移"
+      },
+      {
+        "word": "salinan",
+        "affix": "-an",
+        "gloss": "副本；复印件"
+      },
+      {
+        "word": "penyalin",
+        "affix": "peN-",
+        "gloss": "抄写员；复制设备"
+      },
+      {
+        "word": "penyalinan",
+        "affix": "peN-...-an",
+        "gloss": "抄录或复制的过程"
+      }
+    ],
+    "root_jawi": "مڽالين"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "更换；以另一件替换原有物品，尤指衣物。",
+      "en_definition": "To change or replace something, especially clothing.",
+      "ms_definition": "Menukar atau menggantikan sesuatu dengan yang lain.",
+      "nuances": "menyalin pakaian 表示更换衣服。现代日常交流中 menukar pakaian 或 tukar baju 更常用于清楚表达这一意思。四项基本义据 [DBP：《Kamus Dewan》salin 条](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=terjemah) 整理。",
+      "collocations": [
+        {
+          "ms": "menyalin pakaian",
+          "zh": "更换衣服",
+          "en": "change clothes"
+        },
+        {
+          "ms": "menyalin baju",
+          "zh": "换上另一件上衣",
+          "en": "change one's shirt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "把物品移入另一处或另一容器；尤指倒装液体。",
+      "en_definition": "To transfer something to another place or container, especially a liquid.",
+      "ms_definition": "Memindahkan sesuatu ke tempat atau bekas yang lain.",
+      "nuances": "容器转换是这一义项的典型语境。为避免与“复制”混淆，应明确写出液体及目标容器；日常也可用 menuang 或 memindahkan。",
+      "collocations": [
+        {
+          "ms": "menyalin minyak ke dalam botol",
+          "zh": "把油倒装进瓶子",
+          "en": "transfer oil into a bottle"
+        },
+        {
+          "ms": "menyalin air ke dalam bekas lain",
+          "zh": "把水倒入另一容器",
+          "en": "transfer water into another container"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "依照原件抄写、抄录或复制文字、资料及文件。",
+      "en_definition": "To copy or transcribe text, information, or a file.",
+      "ms_definition": "Menghasilkan tulisan atau salinan yang sama dengan sumber asal.",
+      "nuances": "常用于课堂笔记、文献抄录和电脑文件复制。词本身不表示作弊；是否构成不当抄袭取决于具体行为。在电脑语境中，复制通常保留原文件，区别于 memindahkan fail。",
+      "collocations": [
+        {
+          "ms": "menyalin nota",
+          "zh": "抄写笔记",
+          "en": "copy notes"
+        },
+        {
+          "ms": "menyalin fail",
+          "zh": "复制文件",
+          "en": "copy a file"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "verb",
+      "zh_definition": "把文字或作品译成另一种语言。",
+      "en_definition": "To translate a text into another language.",
+      "ms_definition": "Mengalihbahasakan sesuatu teks ke bahasa lain.",
+      "nuances": "属于词典收录的翻译义，现代说明性文字通常用 menterjemah 或 menterjemahkan 更明确。使用 menyalin 时，宜补出目标语言，以区别于逐字抄录。",
+      "collocations": [
+        {
+          "ms": "menyalin buku ke dalam bahasa Melayu",
+          "zh": "把书译成马来语",
+          "en": "translate a book into Malay"
+        },
+        {
+          "ms": "menyalin hikayat ke dalam bahasa Inggeris",
+          "zh": "把传统故事译成英语",
+          "en": "translate a traditional narrative into English"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报：文件备份",
+      "ms": "Pegawai bertugas sedang menyalin fail laporan ke dalam folder sandaran untuk rujukan jabatan.",
+      "zh": "值班人员正在把报告文件复制到备份文件夹，供部门查阅。",
+      "en": "The officer on duty is copying the report file into the backup folder for departmental reference."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流：朋友借笔记抄录",
+      "ms_spoken": "Saya tengah menyalin nota yang awak hantar tadi, kejap lagi siaplah.",
+      "ms_standard": "Saya sedang menyalin nota yang awak hantar tadi dan akan menyiapkannya sebentar lagi.",
+      "zh": "我正抄你刚才发来的笔记呢，一会儿就好了。",
+      "en": "I'm copying the notes you sent earlier. I'll be done in a bit.",
+      "spoken_features": [
+        "tengah 在此表示动作正在进行，对应 sedang。",
+        "kejap 是 sekejap 的口语缩略形式。",
+        "siaplah 中的 -lah 表示安抚或确认。",
+        "口语常把 menyalin 简化为 salin；本例保留完整目标词形。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (同学)",
+          "ms_spoken": "Saya tengah menyalin nota yang awak hantar tadi, kejap lagi siaplah.",
+          "ms_standard": "Saya sedang menyalin nota yang awak hantar tadi dan akan menyiapkannya sebentar lagi.",
+          "zh": "我正抄你刚才发来的笔记呢，一会儿就好了。",
+          "en": "I'm copying the notes you sent earlier. I'll be done in a bit."
+        },
+        {
+          "speaker": "Amir (同学)",
+          "ms_spoken": "Okey, kalau dah siap, hantar gambar je kat saya.",
+          "ms_standard": "Baiklah, apabila sudah siap, hantarkan sahaja gambarnya kepada saya.",
+          "zh": "好，抄完后拍张照发给我就行。",
+          "en": "Okay, just send me a photo when you're done."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "An 1852 Malay dictionary already recorded salin with meanings covering changing, copying, and translating. These senses offer a useful picture of movement between forms: different clothing, a fresh manuscript, or another language. Modern menyalin continues that range, while schoolwork and computers make its copying sense especially familiar. This connection is a learning interpretation, not a claim about the exact order of historical development. [Source: Crawfurd's Malay dictionary](https://wallace-online.org/converted/pdf/1852_Crawfurd_WS5.2.pdf).",
+    "cognitive_memory_aid": "salin 加 meN-，s 变 ny：menyalin。记住“换个载体”：文字抄到新页，文件复制到新位置。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "请求借用笔记时可说 Boleh saya menyalin nota awak?，比直接命令对方交出笔记自然。对老师或上级，可用 cikgu、puan 等适当称谓。",
+    "usage_etiquette": "抄录笔记与引用资料属于正常学习活动；把他人的答案或作品冒充自己的成果则是另一回事。工作中谈复制文件时，应说明对象和存放位置；涉及更衣或翻译时补足语境，避免误解。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "请求借用笔记时可说 Boleh saya menyalin nota awak?，比直接命令对方交出笔记自然。对老师或上级，可用 cikgu、puan 等适当称谓。",
+    "usage_etiquette": "抄录笔记与引用资料属于正常学习活动；把他人的答案或作品冒充自己的成果则是另一回事。工作中谈复制文件时，应说明对象和存放位置；涉及更衣或翻译时补足语境，避免误解。"
+  }
+}

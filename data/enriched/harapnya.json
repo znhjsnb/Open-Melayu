@@ -1,0 +1,148 @@
+{
+  "headword": {
+    "word": "harapnya",
+    "syllables": null,
+    "ipa": "/ha.rap.ɲa/",
+    "jawi": "هارڤ",
+    "frequency_rank": 10148,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "harap",
+    "affix": "-nya",
+    "affix_type": "suffix",
+    "formula": "harap + -nya → harapnya",
+    "pattern_note": "词根不发生鼻音替换；ny 表示单一辅音 /ɲ/。标准读音可分为 ha.rap.nya，数据包 syllables 为 null，故原样保留。-nya 在不同句法环境中可表示语气、第三人称施事或领属，suffix 是本结构下的归类。数据包 Jawi هارڤ 只对应 harap；补写 -nya 后为 هارڤڽ，此处 headword.jawi 保留原值。",
+    "word_family": [
+      {
+        "word": "berharap",
+        "affix": "ber-",
+        "gloss": "希望；盼望"
+      },
+      {
+        "word": "harapan",
+        "affix": "-an",
+        "gloss": "希望；期望"
+      },
+      {
+        "word": "mengharapkan",
+        "affix": "meN-…-kan",
+        "gloss": "期盼；指望"
+      }
+    ],
+    "root_jawi": "هارڤ"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "adverb",
+      "zh_definition": "但愿；希望如此，用于表达说话者希望某事发生或出现某种结果。",
+      "en_definition": "Hopefully; used to express a wish for a particular outcome.",
+      "ms_definition": "Ungkapan yang menyatakan harapan penutur supaya sesuatu berlaku atau menjadi kenyataan; semoga.",
+      "nuances": "常见于句首，也可独立回应前文；这里的 -nya 不必指“他／她”。pos 按其修饰整个命题的功能归为 adverb，不声称这是 DBP 为 harapnya 单独核定的词类。郑重公文可改用 Saya berharap agar、Kami berharap agar 或 Diharapkan agar，使期望主体与内容更清楚。用例可见 [UMNO Online 的马来语报道](https://umno-online.my/2021/07/26/harapnya-dapat-peluang-lagi-bawa-tuntutan-rakyat-lima-minit-tadi-terlalu-singkat-ahmad-maslan/)。",
+      "collocations": [
+        {
+          "ms": "harapnya semuanya berjalan lancar",
+          "zh": "但愿一切顺利",
+          "en": "hopefully everything will go smoothly"
+        },
+        {
+          "ms": "harapnya dapat membantu",
+          "zh": "希望能有所帮助",
+          "en": "hopefully this will help"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "他／她希望道；用于引语之后，说明引语表达的是某人的希望。",
+      "en_definition": "He or she expressed the hope; used as a reporting verb after a quotation.",
+      "ms_definition": "Digunakan selepas petikan ujaran untuk menyatakan bahawa orang yang dirujuk mengharapkan perkara tersebut.",
+      "nuances": "此处 -nya 指引语的说话者，整个形式相当于 dia berharap，不能译成句首的“但愿”。马来语本身不借这个词形标记过去时，英语译文的时态须依叙事决定。新闻中可见这种引语归属用法，例如 [Majoriti 对 DBP 的报道](https://majoriti.com.my/berita/2024/09/25/elak-guna-bahasa-rojak-dbp-galak-anak-muda-berbangga-guna-bahasa-kebangsaan)。",
+      "collocations": [
+        {
+          "ms": "harapnya ketika ditemui",
+          "zh": "他／她在受访时表达希望",
+          "en": "he or she expressed the hope when interviewed"
+        },
+        {
+          "ms": "harapnya pada akhir wawancara",
+          "zh": "他／她在访谈结束时表达希望",
+          "en": "he or she expressed the hope at the end of the interview"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "他／她的希望或心愿；文学语体中由名词 harap 加领属成分 -nya 构成。",
+      "en_definition": "His or her hope or wish, chiefly in literary usage.",
+      "ms_definition": "Hasrat atau keinginan orang yang dirujuk; penggunaan harap sebagai kata nama dengan unsur milik -nya.",
+      "nuances": "此义承接 harap 的文学性名词用法，现代普通表达通常用 harapannya，更清楚也更自然。不要把所有 harapnya 都机械理解成省略了 -an 的 harapannya。词根名词义参见 [DBP：harap](https://prpm.dbp.gov.my/Search?k=harap)；文学词形见 [DBP 收录的相关 pantun](https://prpm.dbp.gov.my/Cari1?d=244840&keyword=terap)。",
+      "collocations": [
+        {
+          "ms": "harapnya tidak kesampaian",
+          "zh": "他／她的心愿未能实现",
+          "en": "his or her hope remained unfulfilled"
+        },
+        {
+          "ms": "harapnya hanya satu",
+          "zh": "他／她只有一个心愿",
+          "en": "he or she had just one wish"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 引述项目负责人的期望",
+      "ms": "“Semoga projek ini dapat disiapkan mengikut jadual,” harapnya ketika ditemui selepas mesyuarat.",
+      "zh": "“希望这个项目能按计划完成，”他／她在会后受访时表达了这一期望。",
+      "en": "'I hope this project can be completed on schedule,' the speaker said when interviewed after the meeting."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 朋友安排出行",
+      "ms_spoken": "Harapnya esok tak hujan lah, kita nak keluar awal.",
+      "ms_standard": "Saya berharap agar esok tidak hujan kerana kita hendak keluar awal.",
+      "zh": "希望明天别下雨啦，我们还想早点出门呢。",
+      "en": "Hopefully it won't rain tomorrow; we want to head out early.",
+      "spoken_features": [
+        "tak 对应 tidak。",
+        "nak 对应 hendak。",
+        "lah 加强期盼语气；harapnya 的 -nya 在这里不表示第三人称领属。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (朋友)",
+          "ms_spoken": "Harapnya esok tak hujan lah. Kita nak gerak pukul tujuh, kan?",
+          "ms_standard": "Saya berharap agar esok tidak hujan. Kita hendak bertolak pada pukul tujuh, bukan?",
+          "zh": "希望明天别下雨啦。我们是七点出发，对吧？",
+          "en": "Hopefully it won't rain tomorrow. We're leaving at seven, right?"
+        },
+        {
+          "speaker": "Amir (朋友)",
+          "ms_spoken": "Ya, aku dah siap kemas beg. Bawa payung je, senang.",
+          "ms_standard": "Ya, saya sudah selesai mengemas beg. Bawa sahaja payung supaya lebih mudah.",
+          "zh": "对，我已经收拾好包了。带把伞就方便啦。",
+          "en": "Yep, I've packed my bag. Just bring an umbrella to make things easier."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "DBP records harap as a literary noun for a wish or desire, alongside familiar derivatives such as berharap and harapan. Harapnya brings that base together with -nya. Its interpretation depends on the sentence: a speaker's hopeful comment, a quotation attributed to someone, or a literary expression of someone's hope. No deeper borrowing history is established by this packet. [DBP：harap](https://prpm.dbp.gov.my/Search?k=harap)",
+    "cognitive_memory_aid": "先抓住 harap 的“希望”，再看位置：句首 Harapnya… 常是“但愿……”；引语后 harapnya 常是“他／她希望道”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "表达期望通常比直接命令柔和，但 harapnya 仍可能让对方感到被期待采取行动。对上级或客户提出具体请求时，宜明确写出 Saya berharap agar 或请求内容。",
+    "usage_etiquette": "适合日常祝愿、回应和新闻引语。工作事项需要明确承诺、期限或责任人时，不宜只用 harapnya 代替确认。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "表达期望通常比直接命令柔和，但 harapnya 仍可能让对方感到被期待采取行动。对上级或客户提出具体请求时，宜明确写出 Saya berharap agar 或请求内容。",
+    "usage_etiquette": "适合日常祝愿、回应和新闻引语。工作事项需要明确承诺、期限或责任人时，不宜只用 harapnya 代替确认。"
+  }
+}

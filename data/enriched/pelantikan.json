@@ -1,0 +1,108 @@
+{
+  "headword": {
+    "word": "pelantikan",
+    "syllables": "pe.lan.ti.kan",
+    "ipa": "/pə.lan.ti.kan/",
+    "jawi": "ڤلانتيقن",
+    "frequency_rank": 10268,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "lantik",
+    "affix": "peN-...-an",
+    "affix_type": "circumfix",
+    "formula": "peN-...-an + lantik → pe- + lantik + -an → pelantikan",
+    "pattern_note": "peN- 在 /l/ 前实现为 pe-，词根首音 /l/ 保留；lantik + -an 只写一个 k。输入包将此词标为词根，与 DBP 的派生分析不符，现据其资料更正。规范读法可用 /pə.lan.ti.kan/，输入包另记录了 /pə.lan.tiʔ.kan/ 变体。依据 [DBP 构词说明](https://pdigital.dbp.gov.my/storage/uploads/6823ed2951d19_buku.pdf)。",
+    "word_family": [
+      {
+        "word": "melantik",
+        "affix": "meN-",
+        "gloss": "正式委任"
+      },
+      {
+        "word": "dilantik",
+        "affix": "di-",
+        "gloss": "获委任"
+      },
+      {
+        "word": "lantikan",
+        "affix": "-an",
+        "gloss": "委任；委任结果"
+      }
+    ],
+    "root_jawi": "لانتيق"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "正式委任某人担任职位的行为、程序或相关事项；也可指举行这种委任的仪式。",
+      "en_definition": "The act or process of formally appointing someone to a position, or the ceremony marking it.",
+      "ms_definition": "Perihal atau perbuatan melantik seseorang untuk memegang sesuatu jawatan; juga upacara melantik.",
+      "nuances": "指职位委任，不是预约见面的 appointment，也不必然表示升职。pelantikan 常突出委任行为或程序，lantikan 也常指委任结果；两者实际用法有所重叠。马来文释义综合改写自 [DBP：lantik](https://prpm.dbp.gov.my/Cari1?d=382696&keyword=lantik)。",
+      "collocations": [
+        {
+          "ms": "surat pelantikan",
+          "zh": "委任书",
+          "en": "letter of appointment"
+        },
+        {
+          "ms": "majlis pelantikan",
+          "zh": "委任仪式",
+          "en": "appointment ceremony"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pelantikan beliau sebagai pengarah berkuat kuasa pada 1 November.",
+      "zh": "他获委任为总监，任命于11月1日生效。",
+      "en": "His appointment as director takes effect on 1 November."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Surat pelantikan aku dah sampai, tapi aku belum sempat baca lagi.",
+      "ms_standard": "Surat pelantikan saya sudah sampai, tetapi saya masih belum sempat membacanya.",
+      "zh": "我的委任书到了，不过我还没来得及看。",
+      "en": "My appointment letter has arrived, but I haven't had time to read it yet.",
+      "spoken_features": [
+        "aku 用于熟人之间的非正式自称",
+        "dah 对应 sudah",
+        "tapi 对应 tetapi"
+      ],
+      "messages": [
+        {
+          "speaker": "Amir (同事兼朋友)",
+          "ms_spoken": "Surat pelantikan kau dah sampai ke?",
+          "ms_standard": "Adakah surat pelantikan kamu sudah sampai?",
+          "zh": "你的委任书到了吗？",
+          "en": "Has your appointment letter arrived?"
+        },
+        {
+          "speaker": "Farah (同事兼朋友)",
+          "ms_spoken": "Dah, baru masuk e-mel tadi. Aku nak baca dulu.",
+          "ms_standard": "Sudah, surat itu baru diterima melalui e-mel tadi. Saya mahu membacanya dahulu.",
+          "zh": "到了，刚刚发到邮箱。我想先看一下。",
+          "en": "Yes, it just came by email. I'll read it first."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pelantikan is a transparent Malay formation from lantik, meaning to appoint formally. The supplied dictionary example places it in the world of Tun Perak and the Bendahara, linking the word with Malay court administration. Modern usage extends naturally to directors, teachers and committee members. That continuity concerns institutional use, rather than a proven date of origin.",
+    "cognitive_memory_aid": "抓住 lantik“委任”：melantik 是“委任某人”，pelantikan 是“这项委任的行为、程序或仪式”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "祝贺获委任者可说 Tahniah atas pelantikan sebagai pengerusi。正式函件中应使用对方适当的称谓与职衔。",
+    "usage_etiquette": "适合人事、公职、组织与委员会事务。是否已经正式获委任，应以实际通知或文件为准；提名 pencalonan 和委任 pelantikan 是不同阶段。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "祝贺获委任者可说 Tahniah atas pelantikan sebagai pengerusi。正式函件中应使用对方适当的称谓与职衔。",
+    "usage_etiquette": "适合人事、公职、组织与委员会事务。是否已经正式获委任，应以实际通知或文件为准；提名 pencalonan 和委任 pelantikan 是不同阶段。"
+  }
+}

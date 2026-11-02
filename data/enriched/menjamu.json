@@ -1,0 +1,143 @@
+{
+  "headword": {
+    "word": "menjamu",
+    "syllables": "men.ja.mu",
+    "ipa": "/mən.dʒa.mu/",
+    "jawi": "منجامو",
+    "frequency_rank": 10208,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": false,
+    "root_word": "jamu",
+    "affix": "meN-",
+    "affix_type": "prefix",
+    "formula": "meN- + jamu → menjamu",
+    "pattern_note": "meN- 在 j 前采用 men- 形式，词根首辅音 j 保留。依 DBP 的 jamu 词条校正输入中将 menjamu 标为词根的错误。",
+    "word_family": [
+      {
+        "word": "jamuan",
+        "affix": "-an",
+        "gloss": "招待的饮食；宴会"
+      },
+      {
+        "word": "penjamuan",
+        "affix": "peN-...-an",
+        "gloss": "设食款待的行为"
+      }
+    ],
+    "root_jawi": "جامو"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "verb",
+      "zh_definition": "以食物和饮料招待客人或其他人；设食款待。",
+      "en_definition": "To entertain guests or other people by providing food and drink.",
+      "ms_definition": "Memberi makan dan minum kepada tetamu atau orang lain.",
+      "nuances": "通常是及物动词，以受招待的人作宾语；可用 dengan 引出所供应的食物。强调饮食款待，不单指陪伴、迎接或一般接待。",
+      "collocations": [
+        {
+          "ms": "menjamu tetamu",
+          "zh": "以饮食款待客人",
+          "en": "to entertain guests with food and drink"
+        },
+        {
+          "ms": "menjamu para hadirin",
+          "zh": "招待在场人士用餐",
+          "en": "to provide refreshments or a meal for those present"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "verb",
+      "zh_definition": "在固定表达 menjamu selera 中，指享用食物、尽情用餐。",
+      "en_definition": "In the expression menjamu selera, to dine or enjoy a meal.",
+      "ms_definition": "Dalam ungkapan menjamu selera, makan dan menikmati makanan yang dihidangkan dengan puas.",
+      "nuances": "这是整个固定表达的意义。menjamu selera 的主语通常是用餐者；menjamu tetamu 的主语则是款待者。不能把单独的 menjamu 一概译为“吃饭”。",
+      "collocations": [
+        {
+          "ms": "menjamu selera bersama keluarga",
+          "zh": "与家人一起享用美食",
+          "en": "to enjoy a meal with the family"
+        },
+        {
+          "ms": "menjamu selera di restoran",
+          "zh": "在餐馆用餐",
+          "en": "to dine at a restaurant"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "verb",
+      "zh_definition": "在固定表达 menjamu mata 中，指尽情观赏悦目的景物或陈列品。",
+      "en_definition": "In the figurative expression menjamu mata, to feast one's eyes on something.",
+      "ms_definition": "Dalam ungkapan kiasan menjamu mata, melihat atau menikmati sesuatu yang menarik sepuas-puasnya.",
+      "nuances": "将视觉享受比作饮食享受，常见于旅游、展览和景观描写，不表示实际进食。",
+      "collocations": [
+        {
+          "ms": "menjamu mata dengan pemandangan indah",
+          "zh": "尽情欣赏美丽景色",
+          "en": "to feast one's eyes on beautiful scenery"
+        },
+        {
+          "ms": "menjamu mata dengan karya seni",
+          "zh": "尽情观赏艺术作品",
+          "en": "to feast one's eyes on works of art"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "公文 / 新闻 / 职场汇报",
+      "ms": "Pihak penganjur akan menjamu para peserta dengan hidangan tempatan selepas majlis perasmian.",
+      "zh": "主办方将在开幕仪式后以本地菜肴招待参加者。",
+      "en": "The organisers will serve the participants local dishes after the opening ceremony."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 日常口语交流",
+      "ms_spoken": "Mak nak menjamu jiran-jiran malam ni, jadi kita kena balik awal sikit.",
+      "ms_standard": "Ibu hendak menjamu jiran-jiran pada malam ini, jadi kita perlu pulang lebih awal.",
+      "zh": "妈今晚要招待邻居吃饭，我们得早点回去。",
+      "en": "Mum's having the neighbours over for dinner tonight, so we need to get home a bit earlier.",
+      "spoken_features": [
+        "mak 是 ibu 的日常称呼。",
+        "nak 对应 hendak；ni 对应 ini。",
+        "kena 表示需要或必须；sikit 对应 sedikit。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Mak nak menjamu jiran-jiran malam ni. Kau dah beli air ke?",
+          "ms_standard": "Ibu hendak menjamu jiran-jiran pada malam ini. Adakah kamu sudah membeli minuman?",
+          "zh": "妈今晚要招待邻居吃饭。你买饮料了吗？",
+          "en": "Mum's having the neighbours over for dinner tonight. Have you bought the drinks?"
+        },
+        {
+          "speaker": "Hakim (弟弟)",
+          "ms_spoken": "Dah. Aku beli jus je, sebab kat rumah masih ada teh.",
+          "ms_standard": "Sudah. Saya membeli jus sahaja kerana di rumah masih ada teh.",
+          "zh": "买了。我只买了果汁，家里还有茶。",
+          "en": "Yep. I just got juice because we've still got tea at home."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Menjamu is formed from jamu with the active prefix meN-. DBP groups it with words for receiving guests and providing refreshments. The same hospitality vocabulary extends into imagery: menjamu selera concerns enjoying food, while menjamu mata turns looking into a visual feast. These connections provide a cultural memory path without requiring a speculative ancient origin. [DBP](https://prpm.dbp.gov.my/Cari1?d=202792&keyword=jamu)",
+    "cognitive_memory_aid": "记住 jamuan“宴席”：主人 menjamu tetamu，客人 menjamu selera；看美景则是 menjamu mata。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "邀请用餐时，Sila menjamu selera 礼貌且适合宴会、婚礼或主持场合。亲友间说 Jom makan 更轻松自然。",
+    "usage_etiquette": "款待前宜询问饮食禁忌、清真要求及过敏情况。对方婉拒时不宜强迫。此词属于饮食招待词族，不能与表示草药制剂的同形词 jamu 混淆。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "邀请用餐时，Sila menjamu selera 礼貌且适合宴会、婚礼或主持场合。亲友间说 Jom makan 更轻松自然。",
+    "usage_etiquette": "款待前宜询问饮食禁忌、清真要求及过敏情况。对方婉拒时不宜强迫。此词属于饮食招待词族，不能与表示草药制剂的同形词 jamu 混淆。"
+  }
+}

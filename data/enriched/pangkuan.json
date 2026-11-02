@@ -1,0 +1,149 @@
+{
+  "headword": {
+    "word": "pangkuan",
+    "syllables": "pang.kuan",
+    "ipa": "/paŋ.ku.an/",
+    "jawi": "ڤڠکوان",
+    "frequency_rank": 10237,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "pangkuan",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + pangkuan → pangkuan（保留输入词根索引）；pangku + -an → pangkuan（构词分析）",
+    "pattern_note": "is_root、root_word 和 root_jawi 按数据包保留，表示本批次的词根索引归类；这不排除 pangku + -an 的透明构词分析。后者不改变 pangku 的辅音。音节字段保留输入 pang.kuan；所列 IPA 将 u 与 a 分读。",
+    "word_family": [
+      {
+        "word": "memangku",
+        "affix": "meN-（基于 pangku）",
+        "gloss": "抱在膝上；暂代职务"
+      },
+      {
+        "word": "pemangku",
+        "affix": "peN-（基于 pangku）",
+        "gloss": "代理任职者"
+      },
+      {
+        "word": "dipangku",
+        "affix": "di-（基于 pangku）",
+        "gloss": "被抱在膝上"
+      }
+    ],
+    "root_jawi": "ڤڠکوان"
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "膝上；人坐着时腰部至膝部之间可承托孩子或物品的部位。",
+      "en_definition": "The lap: the area between the waist and knees of a seated person.",
+      "ms_definition": "Ribaan, iaitu bahagian badan dari pinggang hingga lutut ketika seseorang duduk.",
+      "nuances": "通常指一个承托区域，而不是膝关节本身；膝关节是 lutut。常与 duduk、tidur、meletakkan 及 di atas 连用。释义综合 DBP 所列词典内容：[DBP：pangkuan](https://prpm.dbp.gov.my/Cari1?d=73980&keyword=pangkuan)。",
+      "collocations": [
+        {
+          "ms": "duduk di atas pangkuan ibu",
+          "zh": "坐在母亲膝上",
+          "en": "sit on one's mother's lap"
+        },
+        {
+          "ms": "meletakkan buku di atas pangkuan",
+          "zh": "把书放在膝上",
+          "en": "place a book on one's lap"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "怀抱；双臂向前弯曲形成的承托空间，尤指抱着婴儿或他人时。",
+      "en_definition": "The supporting cradle of a person's bent arms; someone's arms or embrace.",
+      "ms_definition": "Lengan yang dibengkokkan ke hadapan untuk membawa atau mendukung seseorang atau sesuatu.",
+      "nuances": "此义解释站着抱婴儿时的 pangkuan，不必有坐下形成的膝上区域。英语应按场景译为 in someone's arms，而非一律译为 lap。此义见 DBP 所列《Kamus Pelajar Edisi Kedua》。",
+      "collocations": [
+        {
+          "ms": "bayi dalam pangkuan ibu",
+          "zh": "母亲怀里的婴儿",
+          "en": "a baby in its mother's arms"
+        },
+        {
+          "ms": "terlena dalam pangkuan ayah",
+          "zh": "在父亲怀里睡着",
+          "en": "fall asleep in one's father's arms"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "比喻家庭、群体或祖国的怀抱、所属范围或庇护之中。",
+      "en_definition": "Figuratively, the fold, care, or sphere of belonging of a family, community, or homeland.",
+      "ms_definition": "Secara kiasan, kalangan atau lingkungan sesuatu keluarga, masyarakat atau tanah air.",
+      "nuances": "常见于 kembali ke pangkuan，表达重新团聚或恢复归属。带有温情、文学或公共修辞色彩。pangkuan ibu pertiwi 的“怀抱”是国家拟人化表达。此义对应输入《Kamus Dewan Edisi Keempat》的 kalangan、lingkungan。",
+      "collocations": [
+        {
+          "ms": "kembali ke pangkuan keluarga",
+          "zh": "回到家人身边",
+          "en": "return to the family fold"
+        },
+        {
+          "ms": "kembali ke pangkuan ibu pertiwi",
+          "zh": "重回祖国怀抱",
+          "en": "return to the embrace of the motherland"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "新闻 / 家庭团聚报道",
+      "ms": "Selepas beberapa bulan menerima rawatan, kanak-kanak itu akhirnya kembali ke pangkuan keluarganya.",
+      "zh": "经过数月治疗，那名儿童终于回到了家人身边。",
+      "en": "After several months of treatment, the child finally returned to the care of the family."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 家人分享孩子睡着的近况",
+      "ms_spoken": "Adik dah tidur atas pangkuan aku, jadi aku duduk sini je dulu.",
+      "ms_standard": "Adik sudah tidur di atas pangkuan saya, jadi saya akan duduk di sini sahaja buat sementara waktu.",
+      "zh": "弟弟已经在我腿上睡着了，我先坐这儿不动。",
+      "en": "My little brother's fallen asleep on my lap, so I'll stay here for now.",
+      "spoken_features": [
+        "dah 对应 sudah。",
+        "口语常省略 di atas 中的 di。",
+        "sini 对应 di sini；je 对应 sahaja。",
+        "aku 适合熟悉的家人或朋友。"
+      ],
+      "messages": [
+        {
+          "speaker": "Aina (姐姐)",
+          "ms_spoken": "Adik dah tidur atas pangkuan aku, jadi aku duduk sini je dulu.",
+          "ms_standard": "Adik sudah tidur di atas pangkuan saya, jadi saya akan duduk di sini sahaja buat sementara waktu.",
+          "zh": "弟弟已经在我腿上睡着了，我先坐这儿不动。",
+          "en": "My little brother's fallen asleep on my lap, so I'll stay here for now."
+        },
+        {
+          "speaker": "Hakim (哥哥)",
+          "ms_spoken": "Okey, nak aku ambilkan bantal kat bilik?",
+          "ms_standard": "Baiklah, adakah awak mahu saya mengambilkan bantal dari bilik?",
+          "zh": "好，要我去房间拿个枕头给你吗？",
+          "en": "Okay, want me to get you a pillow from the bedroom?"
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Pangkuan connects a bodily place with an emotional idea. Its dictionary senses include the lap, the support of bent arms, and figurative membership in a surrounding group. A useful interpretive bridge is the experience of being held: returning to a family's pangkuan suggests belonging and care. This explains the metaphor without claiming a documented historical sequence.",
+    "cognitive_memory_aid": "把 pangku 想成“抱住”，-an 想成承托的位置：膝上能托住孩子，家庭的 pangkuan 则托住归属感。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "描述父母抱孩子时自然且温暖；涉及成年人坐在他人膝上时，则可能暗示亲密关系，应按真实关系和语境表达。",
+    "usage_etiquette": "kembali ke pangkuan keluarga 适合团聚、康复或返家报道。涉及领土或国家归属时，pangkuan ibu pertiwi 带有鲜明的情感立场，不宜视作完全中性的地理描述。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "描述父母抱孩子时自然且温暖；涉及成年人坐在他人膝上时，则可能暗示亲密关系，应按真实关系和语境表达。",
+    "usage_etiquette": "kembali ke pangkuan keluarga 适合团聚、康复或返家报道。涉及领土或国家归属时，pangkuan ibu pertiwi 带有鲜明的情感立场，不宜视作完全中性的地理描述。"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "headword": {
+    "word": "knight",
+    "syllables": "sso",
+    "ipa": "/naɪt/",
+    "jawi": null,
+    "frequency_rank": 10150,
+    "status": "official"
+  },
+  "morphology": {
+    "is_root": true,
+    "root_word": "knight",
+    "affix": null,
+    "affix_type": "none",
+    "formula": "∅ + knight → knight",
+    "pattern_note": "这是英语词，不按马来语词缀拆分。现代英语中 k 与 gh 不发音，全词只有一个音节，读音与 night 相同。syllables 的 sso 依数据包原样保留，但它是无效标注；有效的单音节标记应为 knight。数据包未提供 Jawi，故保留 null。",
+    "word_family": [
+      {
+        "word": "knighthood",
+        "affix": "-hood（英语后缀）",
+        "gloss": "骑士身份；骑士爵位"
+      },
+      {
+        "word": "knightly",
+        "affix": "-ly（英语后缀）",
+        "gloss": "骑士的；具有骑士风范的"
+      },
+      {
+        "word": "knighted",
+        "affix": "-ed（英语屈折后缀）",
+        "gloss": "获授骑士爵位的；授予爵位的过去式"
+      }
+    ],
+    "root_jawi": null
+  },
+  "senses": [
+    {
+      "id": 1,
+      "pos": "noun",
+      "zh_definition": "骑士，尤指中世纪欧洲为君主或领主服役、通常骑马作战并具有特定军事身份的武士。",
+      "en_definition": "A mounted warrior serving a medieval ruler or lord, especially one admitted to the rank of knight.",
+      "ms_definition": "Pahlawan berkuda di Eropah pada Zaman Pertengahan yang berkhidmat kepada raja atau pembesar; kesateria.",
+      "nuances": "马来语解释性译法可用 kesateria。knight 保留英语身份；数据中的 official 不构成它已获 DBP 认定为马来语词的证据。这里的马来语释义为综合释义。参见 [Collins：knight](https://www.collinsdictionary.com/us/dictionary/english/knight)。",
+      "collocations": [
+        {
+          "ms": "kesateria Zaman Pertengahan（英语：medieval knight）",
+          "zh": "中世纪骑士",
+          "en": "medieval knight"
+        },
+        {
+          "ms": "kesateria berzirah（英语：armoured knight）",
+          "zh": "身披铠甲的骑士",
+          "en": "armoured knight"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pos": "noun",
+      "zh_definition": "获君主授予骑士爵位的人；在英国通常指可在姓名前使用 Sir 称号的男性。",
+      "en_definition": "A man awarded a knighthood by a sovereign, usually for distinguished service.",
+      "ms_definition": "Lelaki yang dikurniai darjah kesatriaan oleh pemerintah beraja, lazimnya sebagai pengiktirafan terhadap jasa.",
+      "nuances": "此义不要求受封者具有军事职业。英国 knight 的称号和马来西亚 Datuk、Dato' 等称号属于不同授勋体系，不宜直接互换。参见 [Collins：knight 的现代荣誉义](https://www.collinsdictionary.com/us/dictionary/english/knight)。",
+      "collocations": [
+        {
+          "ms": "dikurniai darjah kesatriaan（英语：made a knight）",
+          "zh": "获授骑士爵位",
+          "en": "made a knight"
+        },
+        {
+          "ms": "Knight Bachelor（称号原文）",
+          "zh": "下级勋位爵士",
+          "en": "Knight Bachelor"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pos": "noun",
+      "zh_definition": "国际象棋中的马，通常以马头造型表示，按横二竖一或竖二横一的方式移动，并可越过其他棋子。",
+      "en_definition": "A chess piece that moves two squares along one axis and one along the other, jumping over intervening pieces.",
+      "ms_definition": "Buah catur yang biasanya berbentuk kepala kuda, bergerak dalam bentuk L dan boleh melangkaui buah lain; kuda.",
+      "nuances": "标准马来语棋名是 kuda。双语棋友使用 knight 属于英语术语切换；不应把棋子的这个名称理解为人的爵位。马来语对应参见 [Cambridge 英马词典：knight](https://dictionary.cambridge.org/dictionary/english-malaysian/knight)。",
+      "collocations": [
+        {
+          "ms": "menggerakkan kuda（英语：move a knight）",
+          "zh": "走马",
+          "en": "move a knight"
+        },
+        {
+          "ms": "menangkap kuda（英语：capture a knight）",
+          "zh": "吃掉对方的马",
+          "en": "capture a knight"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pos": "noun",
+      "zh_definition": "保护者；挺身维护某人或某项事业的人，常带有文学、浪漫或幽默色彩。",
+      "en_definition": "A gallant defender or champion of a person or cause.",
+      "ms_definition": "Orang yang tampil membela atau melindungi seseorang atau sesuatu perjuangan, dalam penggunaan kiasan.",
+      "nuances": "常见于 knight in shining armour 等固定表达，是比喻性的赞誉，不表示正式封爵。译成马来语时可按语境用 penyelamat 或 pembela。参见 [Collins：knight 的比喻义](https://www.collinsdictionary.com/us/dictionary/english/knight)。",
+      "collocations": [
+        {
+          "ms": "penyelamat yang tampil membantu（英语：knight in shining armour）",
+          "zh": "及时挺身相助的救星",
+          "en": "knight in shining armour"
+        },
+        {
+          "ms": "kesateria pembela（英语：knight errant）",
+          "zh": "四处行侠的游侠骑士",
+          "en": "knight errant"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pos": "verb",
+      "zh_definition": "授予某人骑士爵位。",
+      "en_definition": "To confer a knighthood on someone.",
+      "ms_definition": "Mengurniakan darjah kesatriaan kepada seseorang.",
+      "nuances": "这是英语及物动词，过去式及过去分词为 knighted。马来语正式叙述通常使用 mengurniakan darjah kesatriaan，而不是直接把 knight 当作马来语动词。参见 [Cambridge 英马词典：knight](https://dictionary.cambridge.org/dictionary/english-malaysian/knight)。",
+      "collocations": [
+        {
+          "ms": "mengurniakan darjah kesatriaan kepada seseorang（英语：knight someone）",
+          "zh": "授予某人骑士爵位",
+          "en": "knight someone"
+        },
+        {
+          "ms": "dikurniai darjah kesatriaan atas jasa（英语：be knighted for services）",
+          "zh": "因贡献而获授骑士爵位",
+          "en": "be knighted for services"
+        }
+      ]
+    }
+  ],
+  "dual_scenarios": [
+    {
+      "scenario": "formal",
+      "context": "博物馆说明 / 历史新闻",
+      "ms": "Pameran itu menerangkan peranan kesateria, yang disebut 'knight' dalam bahasa Inggeris, dalam masyarakat Eropah pada Zaman Pertengahan.",
+      "zh": "该展览介绍了骑士——英语称 knight——在中世纪欧洲社会中的作用。",
+      "en": "The exhibition explains the role of knights in medieval European society."
+    },
+    {
+      "scenario": "colloquial",
+      "context": "WhatsApp / 棋友讨论棋局",
+      "ms_spoken": "Aku nak gerakkan knight ni ke f3 je.",
+      "ms_standard": "Saya hanya hendak menggerakkan buah kuda ini ke petak f3.",
+      "zh": "我就想把这匹马走到 f3。",
+      "en": "I just want to move this knight to f3.",
+      "spoken_features": [
+        "knight 是双语棋友使用的英语棋名，标准马来语为 kuda。",
+        "nak 对应 hendak；ni 对应 ini；je 对应 sahaja。",
+        "aku 适用于熟人之间，正式交流通常用 saya。"
+      ],
+      "messages": [
+        {
+          "speaker": "Farah (棋友)",
+          "ms_spoken": "Aku nak gerakkan knight ni ke f3. Okey tak?",
+          "ms_standard": "Saya hendak menggerakkan buah kuda ini ke petak f3. Adakah langkah itu sesuai?",
+          "zh": "我想把这匹马走到 f3，可以吗？",
+          "en": "I'm thinking of moving this knight to f3. Is that a good move?"
+        },
+        {
+          "speaker": "Amir (棋友)",
+          "ms_spoken": "Boleh je. Kat f3, knight tu kawal petak tengah.",
+          "ms_standard": "Boleh. Di petak f3, buah kuda itu mengawal petak-petak tengah.",
+          "zh": "可以啊。马在 f3 能控制中心格。",
+          "en": "Sure. On f3, that knight controls central squares."
+        }
+      ]
+    }
+  ],
+  "etymology": {
+    "historical_story": "Knight comes from Old English cniht, a word associated with a boy, servant, or military attendant. Its later meanings reflect a rise in social status: the attendant became a mounted warrior and a holder of an honour. Modern English also uses the word for a chess piece and for the act of conferring knighthood. [Merriam-Webster：knight](https://scrabble.m-w.com/dictionary/knight)",
+    "cognitive_memory_aid": "knight 和 night 同音 /naɪt/：想象夜里一位骑士骑马而来；在人类历史里是“骑士”，在棋盘上就是“马”。"
+  },
+  "cultural_pragmatics": {
+    "politeness_note": "涉及现实人物时，应使用本人正式获授且适用的称号。knight 是身份或类别名称，通常不直接作为称呼放在人名前。",
+    "usage_etiquette": "适合欧洲历史、文学、授勋与国际象棋语境。马来语正式文本应按意义采用 kesateria、darjah kesatriaan 或 kuda；不要把英国骑士爵位与马来西亚荣衔直接等同。"
+  },
+  "sociolinguistic_register": {
+    "politeness_note": "涉及现实人物时，应使用本人正式获授且适用的称号。knight 是身份或类别名称，通常不直接作为称呼放在人名前。",
+    "usage_etiquette": "适合欧洲历史、文学、授勋与国际象棋语境。马来语正式文本应按意义采用 kesateria、darjah kesatriaan 或 kuda；不要把英国骑士爵位与马来西亚荣衔直接等同。"
+  }
+}
