@@ -18,7 +18,7 @@
 
 ### 2. 三阶来源诚实性（Gate 4 Provenance）与三态/ID 守恒
 - **三阶来源精确分级**（基于本地 `data/prpm_raw/*.json` 物理证据，已移除旧白名单入口）：
-  - `official`（**7,479 词**）：PRPM 具备直接马来语 DBP 词条（Kamus Dewan / Kamus Pelajar）；前端依据 `senses[].ms_is_verbatim` 严格区分逐字引文（展示 `DBP 原文:`）与编辑归纳释义（展示 `马来语释义 (基于 DBP 官方词条):`）；
+  - `official`（**7,479 词**）：PRPM 具备直接马来语 DBP 词条（Kamus Dewan / Kamus Pelajar）；前端严格判断 `head.status === 'official' && s.ms_is_verbatim === true`，满足归一化连续子串匹配（清洗控制字符、合并空白并转小写）的 1,814 个义项展示 `DBP 原文:`，其余 12,505 个编辑归纳释义义项展示 `马来语释义 (基于 DBP 官方词条):`；
   - `root_derived`（**2,328 词**）：具备马来语词缀构词标记且词根具备直接马来语 DBP 词条，前端展示 `马来语释义 (基于 DBP 词根推导):`；
   - `corpus_usage`（**4,941 词**）：官方马来语词典未单独收录或仅见于英马词典/字幕高频借词与专名，前端展示 `马来语释义 (字幕高频语料用法):`。
 - **搜索索引、27 分片与候选池位序 ID 一致性守恒**：

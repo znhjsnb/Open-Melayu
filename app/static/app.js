@@ -528,7 +528,7 @@ function renderDetailCard(d) {
                   <h3 class="sense-zh-title">${escapeHtml(s.zh_definition || '')}</h3>
                 </div>
                 ${s.en_definition ? `<p class="sense-en-sub">${escapeHtml(s.en_definition)}</p>` : ''}
-                ${s.ms_definition ? `<div class="sense-ms-quote"><span class="quote-label">${head.status === 'corpus_usage' ? '马来语释义 (字幕高频语料用法):' : (head.status === 'root_derived' ? '马来语释义 (基于 DBP 词根推导):' : (s.ms_is_verbatim ? 'DBP 原文:' : '马来语释义 (基于 DBP 官方词条):'))}</span> ${escapeHtml(s.ms_definition)}</div>` : ''}
+                ${s.ms_definition ? `<div class="sense-ms-quote"><span class="quote-label">${(head.status === 'official' && s.ms_is_verbatim === true) ? 'DBP 原文:' : (head.status === 'corpus_usage' ? '马来语释义 (字幕高频语料用法):' : (head.status === 'root_derived' ? '马来语释义 (基于 DBP 词根推导):' : '马来语释义 (基于 DBP 官方词条):'))}</span> ${escapeHtml(s.ms_definition)}</div>` : ''}
                 ${s.nuances ? `<div class="sense-nuance-box">💡 <strong>使用边界:</strong> ${escapeHtml(s.nuances)}</div>` : ''}
                 
                 <!-- DIMENSION 4: COLLOCATIONS UNDER THIS SENSE -->

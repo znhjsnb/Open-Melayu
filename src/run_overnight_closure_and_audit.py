@@ -302,7 +302,8 @@ def reconcile_provenance_status(kb: LinguisticKnowledgeBase) -> Dict[str, int]:
     """
     from finalize_gate4_and_salvage3 import main as run_strict_gate4
     run_strict_gate4()
-    manifest = json.loads((DATA_DIR / "manifest.json").read_text(encoding="utf-8"))
+    manifest_path = ROOT_DIR / "app" / "static" / "data" / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     prov_bd = manifest.get("provenance_breakdown", {})
     return {
         "total_enriched": manifest.get("enriched_count", 14748),
