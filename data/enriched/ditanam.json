@@ -5,7 +5,7 @@
     "ipa": "/di.ta.nam/",
     "jawi": null,
     "frequency_rank": 5845,
-    "status": "official",
+    "status": "root_derived",
     "status_note": "标准马来语被动动词。输入的词根标记已按 di- + tanam 的构词关系纠正；缺失的音节字段和爪夷文字段保留为空。"
   },
   "morphology": {
@@ -173,8 +173,10 @@
     "usage_etiquette": "适用于农业、绿化、工程及比喻表达。标准语中 Saya menanam pokok 的常见被动对应为 Pokok itu saya tanam；第三人称施事可用 Pokok itu ditanam oleh Ali。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "tanam",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 tanam，本词形释义由构词与语料推导"
   }
 }

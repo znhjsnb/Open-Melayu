@@ -5,7 +5,7 @@
     "ipa": "/sə.rah.kan/",
     "jawi": "سره",
     "frequency_rank": 1031,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -113,8 +113,10 @@
     "usage_etiquette": "交接时说明交什么、交给谁及截止时间。输入包的 syllables 为 null，故保留空值；headword.jawi 按输入保留，实际提供的是词根 serah 的爪夷文，而非完整派生词的拼写。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "serah",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 serah，本词形释义由构词与语料推导"
   }
 }

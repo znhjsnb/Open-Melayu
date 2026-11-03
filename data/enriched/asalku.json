@@ -5,7 +5,7 @@
     "ipa": "/a.sal.ku/",
     "jawi": "اصل",
     "frequency_rank": 14485,
-    "status": "official",
+    "status": "root_derived",
     "data_note": "jawi 按输入保留；اصل 对应词根 asal，未表示完整词形 asalku 的附着代词 -ku。"
   },
   "morphology": {
@@ -102,8 +102,10 @@
     "usage_etiquette": "谈论自己的故乡或家世时自然；询问别人背景应避免带有质疑其归属的口气。asalku 只表达“我的”，不用于直接称呼对方，也不自带身份优越的含义。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "asal",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 asal，本词形释义由构词与语料推导"
   }
 }

@@ -9,7 +9,7 @@
       "CEFR-A1",
       "公文标准"
     ],
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -211,8 +211,10 @@
     "cognitive_memory_aid": "把 me- 当作主动动作的提示灯：me- + lihat → melihat；眼睛看图片，头脑‘看’问题，都能用它。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "lihat",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 lihat，本词形释义由构词与语料推导"
   }
 }

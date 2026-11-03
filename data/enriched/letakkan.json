@@ -9,7 +9,7 @@
       "CEFR-A1",
       "日常高频"
     ],
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -140,8 +140,10 @@
     "cognitive_memory_aid": "letak 是‘放’，加 -kan 就想成一只手把东西放到指定位置：letakkan buku di atas meja。词根尾 k 和词缀头 k 碰面，拼写保留 kk。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "letak",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 letak，本词形释义由构词与语料推导"
   }
 }

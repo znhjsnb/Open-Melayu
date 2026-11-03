@@ -5,7 +5,7 @@
     "ipa": "/di.tər.bit.kan/",
     "jawi": null,
     "frequency_rank": 10408,
-    "status": "official",
+    "status": "root_derived",
     "data_note": "syllables 与 jawi 保留输入包的 null；IPA 为标准马来语宽式转写。频次排名沿用输入，未独立核验。"
   },
   "morphology": {
@@ -178,8 +178,10 @@
     "usage_etiquette": "对外介绍作品时应准确区分已投稿、已获接纳和已出版；belum diterbitkan 表示尚未出版。影视语境中也应区分制作完成与正式播映。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "terbit",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 terbit，本词形释义由构词与语料推导"
   }
 }

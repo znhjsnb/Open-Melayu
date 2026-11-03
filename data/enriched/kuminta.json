@@ -5,7 +5,7 @@
     "ipa": "/ku.min.ta/",
     "jawi": null,
     "frequency_rank": 13534,
-    "status": "official",
+    "status": "root_derived",
     "verification_note": "这是符合马来语拼写规则的附着形式，不代表已核实存在独立的 DBP 词头。输入包的音节和爪夷文空值予以保留；IPA 为规则推导。ku- 应与后接动词连写。参见 [DBP 代词连写说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kau+nya)。"
   },
   "morphology": {
@@ -108,8 +108,10 @@
     "usage_etiquette": "朋友之间可使用；正式公函宜写 dokumen yang saya minta 或更客气的 dokumen yang saya mohon。不要把 ku- 当作敬称。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "minta",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 minta，本词形释义由构词与语料推导"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 9313,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": false,
@@ -98,8 +98,9 @@
     "usage_etiquette": "适合熟人聊天和简短私人消息。公函、简历、考试作文及正式报告使用 sekarang；该缩写不应标为官方标准词形。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

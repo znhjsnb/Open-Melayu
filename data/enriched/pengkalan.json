@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 5804,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": false,
@@ -26,7 +26,7 @@
         "gloss": "以某地为基地；驻扎于"
       }
     ],
-    "root_jawi": "ڤڠکل"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -121,8 +121,9 @@
     "usage_etiquette": "普通名词采用 pangkalan；地名、地址和机构名称按正式登记形式书写。不要擅自把 Pengkalan Hulu 改为 Pangkalan Hulu。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

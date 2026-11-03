@@ -5,7 +5,7 @@
     "ipa": "/di.dʒa.di.kan/",
     "jawi": null,
     "frequency_rank": 3369,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": false,
@@ -36,7 +36,7 @@
         "gloss": "事件；形成或创造"
       }
     ],
-    "root_jawi": "جادي"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -192,8 +192,9 @@
     "usage_etiquette": "正式文书应连写 dijadikan，不能写成 di jadikan。涉及职位时可用更具体的 dilantik；涉及宗教创造时尊重说话者的信仰语境。词包的 root_word 与 is_root 已按实际构词纠正；音节和整词 Jawi 缺失，保留 null。frequency_rank 仅沿用输入排序，不代表经独立核实的全国词频。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

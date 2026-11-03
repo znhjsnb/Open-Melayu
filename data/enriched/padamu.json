@@ -9,7 +9,7 @@
       "CEFR-B1",
       "文学表达"
     ],
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -135,8 +135,10 @@
     "cognitive_memory_aid": "把 pada 想成关系箭头，把 -mu 想成你：箭头指向你，就是 padamu；箭头表示对你还是在你那里，由前面的词决定。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "pada",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 pada，本词形释义由构词与语料推导"
   }
 }

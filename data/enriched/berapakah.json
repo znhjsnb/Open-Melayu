@@ -5,7 +5,7 @@
     "ipa": "/bə.ra.pa.kah/",
     "jawi": "براڤ",
     "frequency_rank": 9795,
-    "status": "official",
+    "status": "root_derived",
     "orthography_note": "保留词包的空音节值和 Jawi 字段。实际音节可分为 be.ra.pa.kah；词包 Jawi 仅对应 berapa，未包含疑问附着语 -kah。"
   },
   "morphology": {
@@ -112,8 +112,10 @@
     "usage_etiquette": "适合询价、核对人数和正式问答。询问工资、年龄或个人资产仍需顾及关系与场合；增加 -kah 不会消除问题本身的私密性。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "berapa",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 berapa，本词形释义由构词与语料推导"
   }
 }

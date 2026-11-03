@@ -3,13 +3,13 @@
     "word": "bukankan",
     "syllables": null,
     "ipa": "/bu.kan.kan/",
-    "jawi": "بوکن",
+    "jawi": null,
     "frequency_rank": 14925,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
-    "is_root": false,
-    "root_word": "bukan",
+    "is_root": true,
+    "root_word": "bukankan",
     "affix": "-kan",
     "affix_type": "suffix",
     "formula": "bukan + -kan → bukankan",
@@ -26,7 +26,7 @@
         "gloss": "不是……吗；用于确认或反问"
       }
     ],
-    "root_jawi": "بوکن"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -121,8 +121,9 @@
     "usage_etiquette": "正式写作先判断原意，再选择 bukankah、bukan 或 menafikan 等表达。不要将非规范连写教成通用标准形式，也不要在缺乏上下文时武断认定它一定是错别字。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

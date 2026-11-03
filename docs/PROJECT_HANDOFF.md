@@ -1,8 +1,8 @@
 # Open-Melayu 项目交接文档
 
-更新：2026-11-02（Asia/Singapore）。项目根目录：`C:\Users\d\Documents\open-melayu`。
+更新：2026-11-03（Asia/Singapore）。项目根目录：`C:\Users\d\Documents\open-melayu`。
 
-**接手结论：三阶段清洗、移植、真机验证及全量 1,000 词深层质量重修已全量闭环交付。1,000 词全部升级为包含说话人身份与至少两轮真实交锋的 messages WhatsApp 对话气泡（旧单句残留归 0）；96 个核心派生词官方词根 Jawi 全部激活；64 条问号 Jawi 与 3 条遗漏 Jawi 100% 恢复，真正待补 Jawi 精确守恒为 173 条；6,305 缺来源词伪定义彻底剔除，15,000 候选三态严格守恒；老前端 1:1 视觉移植完成，八维默认平铺展开（零手风琴、零折叠）；CDP 浏览器端到端实测 9 项全部通过（100% GREEN）。全部代码与证据已落盘，因宿主 `.git` 只读，如实标明“已落盘、未提交”。**
+**最终交付结论（2026-11-03 全库 15,000 词收官闭环）：本工程已完成全量 15,000 候选词的三语化（马-中-英）八维精编与终审收官。全库三态严格守恒为 `14,748 enriched + 0 source_only + 252 missing_source = 15,000`（构建版本 `om-20261103-v8488`）。全部 14,748 个精编词条 100% 具备 $\ge 2$ 轮带说话人身份的 WhatsApp 对话气泡（29,981 句）、全量 28,017 个义项 100% 具备 $\ge 2$ 组三语搭配（56,933 组）、100% 具备历史词源故事与记忆口诀；纯问号 Jawi = 0，空字符串 Jawi = 0，禁用控制字符 = 0；基于 `data/prpm_raw/*.json` 物理证据实现三阶来源诚实分级（`official` 7,479 词 / `root_derived` 2,328 词 / `corpus_usage` 4,941 词），252 个残缺/外来词条严守 Gate 4 零伪造原则保留为 `missing_source` 并在 `data/audit/quarantine_triage_report.json` 中逐词存证；`pytest` 7 项全量门禁与 Chromium CDP 8 词全状态真机验收 100% GREEN，并已通过 Git 完整提交。**
 
 本文是后续接手的统一事实入口。依据为 [第三阶段审计](CODEX_PHASE3_HALLUCINATION_AUDIT.md) 和 [完整证据](../data/audit/phase3_evidence.json)，审计快照为 2026-11-01 23:58:31。本文编写时定向复核了独立词条数、64 条 Jawi 的缓存可恢复性、缺失计数、索引体积及 manifest；未重做浏览器验收或全库语言学认证。新证据应更新本文对应状态，历史审计保留，不为消除缺陷而改写。
 
@@ -400,6 +400,19 @@ Jawi 只局部 dir=rtl，不翻转整页。无缩写显示“暂无可靠缩写�
 - **三态严格守恒**：
   $$\text{enriched (2,607)} + \text{source\_only (6,328)} + \text{missing\_source (6,065)} = 15,000$$
 - **CDP 真机验收**：抽检新扩容高频词 `asli`、`memasak`、`tajam` 端到端真机验收 100% GREEN，截图存于 `data/audit/screenshots/21_top3000_sample_asli.png`、`22_top3000_sample_memasak.png` 与 `23_top3000_sample_tajam.png`。
+
+### 8.6 全库 15,000 词终极扩容与三阶来源对齐收官记录 (2026-11-03)
+- **交付结论**：Top 3,001 ~ 15,000 滑动队列全量扩容及终审闭环已 **100% 满额收官**！
+- **最终三态守恒**：
+  $$\text{enriched (14,748)} + \text{source\_only (0)} + \text{missing\_source (252)} = 15,000$$
+- **三阶来源诚实分级（Gate 4 Provenance）**：
+  - `official`：**7,479 词**（`data/prpm_raw/<word>.json` 具备直接马来语 DBP 词典词条）；
+  - `root_derived`：**2,328 词**（真实马来语构词派生词，词根具备直接马来语 DBP 词典词条）；
+  - `corpus_usage`：**4,941 词**（官方马来语词典未单独收录或仅见于英马词典/字幕高频语料词条）；
+  - `missing_source`：**252 词**（残缺碎片/未考证专名，严守零伪造红线保留于 `data/audit/quarantine_triage_report.json`）。
+- **门禁与真机验收**：
+  - `pytest`（`tests/test_stage3_trilingual_quality_gates.py`）：7 项测试 100% PASS（returncode = 0）；
+  - Chromium CDP（`tests/verify_trilingual_e2e.mjs`）：8 个代表词覆盖全部四态渲染与标签断言 100% PASS（returncode = 0），构建号 **`om-20261103-v8488`**。
 
 
 

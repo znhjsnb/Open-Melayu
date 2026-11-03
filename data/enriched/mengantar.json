@@ -5,7 +5,7 @@
     "ipa": "/mə.ŋan.tar/",
     "jawi": "مڠنتر",
     "frequency_rank": 9238,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -128,8 +128,10 @@
     "usage_etiquette": "本条保留输入要求的 official 状态字段，但该字段不能证明 mengantar 已获 DBP 认可为马来西亚正式动词。正式例句采用编辑讨论语境，避免把地域用法误示为马来西亚常规写法；pengantar 则须按其自身词义使用。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "antar",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 antar，本词形释义由构词与语料推导"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/si.a.pa pun/",
     "jawi": null,
     "frequency_rank": 1857,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": false,
@@ -127,8 +127,9 @@
     "usage_etiquette": "正式文件、考试及标准马来语内容采用 siapa pun，不采用 siapapun。邀请语中的“任何人”仍受场所、资格与活动规则限制，必要时写明条件。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

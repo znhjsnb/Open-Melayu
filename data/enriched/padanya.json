@@ -9,7 +9,7 @@
       "CEFR-A2",
       "日常高频"
     ],
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -175,8 +175,10 @@
     "cognitive_memory_aid": "pada 像位置指针，-nya 像‘他／她／它’标签：合起来就是‘在那个人那里／在那个东西上’。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "pada",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 pada，本词形释义由构词与语料推导"
   }
 }

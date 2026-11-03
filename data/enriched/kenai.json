@@ -5,7 +5,7 @@
     "ipa": "/kə.nai̯/",
     "jawi": null,
     "frequency_rank": 14988,
-    "status": "official",
+    "status": "corpus_usage",
     "verification_note": "此处 official 仅表示有 DBP 方言资料作为依据，不表示全国标准语。数据包所附“你”义实际指向 kena（kéna），不能据此赋予 kenai 同一释义。"
   },
   "morphology": {
@@ -104,8 +104,9 @@
     "usage_etiquette": "自然使用当地说法可以表达亲近；跨地区交流时宜改用标准语，避免对方误解。不要把方言形式当作可以随意模仿他人口音的笑料。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

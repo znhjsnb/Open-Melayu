@@ -5,11 +5,11 @@
     "ipa": "/bərlin/",
     "jawi": null,
     "frequency_rank": 4042,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
-    "is_root": false,
-    "root_word": "lin",
+    "is_root": true,
+    "root_word": "berlin",
     "affix": "ber-",
     "affix_type": "prefix",
     "formula": "ber- + lin → berlin",
@@ -99,8 +99,9 @@
     "usage_etiquette": "购买文具或编写教学材料时，优先使用 buku bergaris、kertas bergaris。尚无可靠依据支持为 berlin 编造专属短信缩写；权威爪夷文及音节划分待补。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

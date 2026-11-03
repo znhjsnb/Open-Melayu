@@ -5,7 +5,7 @@
     "ipa": "/kə.bu.mi.kan/",
     "jawi": "کبوميکن",
     "frequency_rank": 10485,
-    "status": "official",
+    "status": "root_derived",
     "verification_note": "此处按省略主动前缀的祈使动词处理。输入的 بومي 是词根 bumi 的爪夷文，不是 kebumikan 的完整拼写；此处完整拼写按构词规则转写。音节字段保留输入的 null；IPA 为宽式分析。排名沿用输入，未经独立核实。"
   },
   "morphology": {
@@ -107,8 +107,10 @@
     "usage_etiquette": "适用于遗体安葬及相关安排。尊重家属的宗教与个人选择，不预设所有马来西亚人都采用土葬，也不以玩笑口吻谈论近期丧事。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "bumi",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 bumi，本词形释义由构词与语料推导"
   }
 }

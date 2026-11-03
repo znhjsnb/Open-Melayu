@@ -5,7 +5,7 @@
     "ipa": "/pal.su.kan/",
     "jawi": "ڤلسوکن",
     "frequency_rank": 12509,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -142,8 +142,10 @@
     "usage_etiquette": "适用于讨论文件、签名、数据与记录的真实性。不要把诚实的笔误纠正称为 palsukan，也不要仅因某物是人工制品就使用这个动词。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "palsu",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 palsu，本词形释义由构词与语料推导"
   }
 }

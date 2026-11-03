@@ -1,30 +1,35 @@
 """
 Stage 3 & Full 15K Trilingual Quality Gate Suite for Open-Melayu
 Comprehensive verification for all enriched entries:
-1. Gate 1: Pure question mark Jawi = 0, pending null Jawi documented, no legacy batch_*.json mirror files
+1. Gate 1: Pure question mark Jawi = 0, empty string Jawi = 0 (headword & root_jawi), banned control/format chars = 0, no legacy batch_*.json mirror files
 2. Gate 2: historical_story missing = 0, senses with <2 collocations = 0
 3. Gate 3: WhatsApp colloquial scenarios have >=2 messages with speaker identity
-4. Gate 4: Provenance honesty (status in {'official', 'corpus_usage'} aligned with PRPM/DBP source) & Trilingual coverage:
+4. Gate 4: Provenance honesty (status in {'official', 'root_derived', 'corpus_usage'} strictly verified against data/prpm_raw/*.json) & Trilingual coverage:
    - senses[].en_definition non-empty
    - senses[].collocations[].en non-empty
    - dual_scenarios[formal].en non-empty
    - dual_scenarios[colloquial].messages[].en non-empty
-5. Gate 5: 27 Shards three-state conservation (enriched + source_only + missing_source = 15000)
+5. Gate 5: 27 Shards three-state conservation (14748 enriched + 0 source_only + 252 missing_source = 15000) & quarantine triage alignment
 6. Gate 6: Search index 100% synchronized with shards (all enriched words marked e=1, st='e')
 """
 
 import json
+import re
 import string
 import sys
 from pathlib import Path
 
 ROOT_DIR = Path(r"C:\Users\d\Documents\open-melayu")
 ENRICHED_DIR = ROOT_DIR / "data" / "enriched"
+PRPM_DIR = ROOT_DIR / "data" / "prpm_raw"
+TRIAGE_FILE = ROOT_DIR / "data" / "audit" / "quarantine_triage_report.json"
 DATA_DIR = ROOT_DIR / "app" / "static" / "data"
 SHARDS_DIR = DATA_DIR / "shards"
 DATA_JS = ROOT_DIR / "app" / "static" / "data.js"
 MANIFEST_FILE = DATA_DIR / "manifest.json"
 INDEX_FILE = DATA_DIR / "search_index.json"
+
+CTRL_RE = re.compile(r"[\x81\u00ad\u200b\u200e]")
 
 if hasattr(sys.stdout, "reconfigure") and sys.stdout is not None:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -36,6 +41,18 @@ def _get_manifest_enriched_count() -> int:
     return int(manifest["enriched_count"])
 
 
+def _has_malay_dbp(prpm_data: dict) -> bool:
+    if not prpm_data or not isinstance(prpm_data, dict):
+        return False
+    for key in ("kamus_dewan", "kamus_pelajar", "definisi_melayu"):
+        val = prpm_data.get(key)
+        if isinstance(val, str) and len(val.strip()) > 0:
+            return True
+        if isinstance(val, (list, dict)) and len(val) > 0:
+            return True
+    return False
+
+
 def test_jawi_integrity():
     files = [f for f in ENRICHED_DIR.glob("*.json") if not f.name.startswith("batch_")]
     expected = _get_manifest_enriched_count()
@@ -44,24 +61,27 @@ def test_jawi_integrity():
     q_jawis = []
     empty_str_jawis = []
     null_jawis = []
-    u0081_files = []
+    ctrl_files = []
     for f in files:
         txt = f.read_text(encoding="utf-8")
-        if "\x81" in txt:
-            u0081_files.append(f.name)
+        if CTRL_RE.search(txt):
+            ctrl_files.append(f.name)
         d = json.loads(txt)
         j = d.get("headword", {}).get("jawi")
+        rj = d.get("morphology", {}).get("root_jawi")
         if j and set(j) == {"?"}:
             q_jawis.append(f.name)
-        elif j == "":
+        elif j == "" or rj == "":
             empty_str_jawis.append(f.name)
         elif j is None:
             null_jawis.append(f.name)
+        if rj and set(rj) == {"?"}:
+            q_jawis.append(f"{f.name}:root_jawi")
 
-    assert len(u0081_files) == 0, f"Found {len(u0081_files)} files containing banned U+0081: {u0081_files[:5]}"
+    assert len(ctrl_files) == 0, f"Found {len(ctrl_files)} files containing banned control/format chars: {ctrl_files[:5]}"
     assert len(q_jawis) == 0, f"Found {len(q_jawis)} pure question mark Jawis: {q_jawis[:5]}"
     assert len(empty_str_jawis) == 0, f"Found {len(empty_str_jawis)} empty string Jawis: {empty_str_jawis[:5]}"
-    print(f"[PASS] Gate 1: Pure question mark Jawis = 0, Empty string Jawis = 0, U+0081 = 0, Strict null Jawis = {len(null_jawis)} (Total files: {len(files)})")
+    print(f"[PASS] Gate 1: Pure question mark Jawis = 0, Empty string Jawis = 0, Control chars = 0, Strict null Jawis = {len(null_jawis)} (Total files: {len(files)})")
 
 
 def test_story_and_collocations():
@@ -115,21 +135,51 @@ def test_whatsapp_messages():
 
 def test_provenance_and_status():
     files = [f for f in ENRICHED_DIR.glob("*.json") if not f.name.startswith("batch_")]
+    rootwords_map = json.loads((ROOT_DIR / "raw" / "malay_rootwords.json").read_text(encoding="utf-8"))
     invalid_status = []
+    unverified_official = []
+    unverified_root_derived = []
     official_count = 0
+    root_derived_count = 0
     corpus_count = 0
+
     for f in files:
         with open(f, "r", encoding="utf-8") as fp:
             d = json.load(fp)
+        w = f.stem.lower()
         st = d.get("headword", {}).get("status")
         if st == "official":
             official_count += 1
+            prpm_p = PRPM_DIR / f"{w}.json"
+            if not prpm_p.exists():
+                unverified_official.append((w, "missing_prpm_file"))
+            else:
+                with open(prpm_p, "r", encoding="utf-8") as pfp:
+                    pd = json.load(pfp)
+                if not _has_malay_dbp(pd):
+                    unverified_official.append((w, "no_malay_dbp_entry"))
+        elif st == "root_derived":
+            root_derived_count += 1
+            morph = d.get("morphology") or {}
+            prov = d.get("provenance") or {}
+            rw = (prov.get("root_word") or morph.get("root_word") or rootwords_map.get(w) or "").strip().lower()
+            root_p = PRPM_DIR / f"{rw}.json" if rw else None
+            if not rw or rw == w or not root_p or not root_p.exists():
+                unverified_root_derived.append((w, rw, "invalid_root"))
+            else:
+                with open(root_p, "r", encoding="utf-8") as rfp:
+                    rpd = json.load(rfp)
+                if not _has_malay_dbp(rpd):
+                    unverified_root_derived.append((w, rw, "root_no_malay_dbp"))
         elif st == "corpus_usage":
             corpus_count += 1
         else:
             invalid_status.append((f.name, st))
+
     assert len(invalid_status) == 0, f"Invalid headword.status found: {invalid_status[:5]}"
-    print(f"[PASS] Gate 4a: Provenance status verified (official={official_count}, corpus_usage={corpus_count})")
+    assert len(unverified_official) == 0, f"Found {len(unverified_official)} official words without direct PRPM Malay DBP entry: {unverified_official[:5]}"
+    assert len(unverified_root_derived) == 0, f"Found {len(unverified_root_derived)} root_derived words without valid PRPM Malay DBP root: {unverified_root_derived[:5]}"
+    print(f"[PASS] Gate 4a: Provenance status strictly verified against PRPM evidence (official={official_count}, root_derived={root_derived_count}, corpus_usage={corpus_count})")
 
 
 def test_three_state_conservation():
@@ -137,7 +187,9 @@ def test_three_state_conservation():
         manifest = json.load(fp)
     assert manifest["conservation_check"] is True
     expected_enriched = manifest["enriched_count"]
-    assert expected_enriched >= 2607
+    assert expected_enriched == 14748, f"Expected 14748 enriched in manifest, got {expected_enriched}"
+    assert manifest["source_only_count"] == 0, f"Expected 0 source_only in manifest, got {manifest['source_only_count']}"
+    assert manifest["missing_source_count"] == 252, f"Expected 252 missing_source in manifest, got {manifest['missing_source_count']}"
     assert manifest["total_words"] == 15000
 
     with open(DATA_JS, "r", encoding="utf-8") as fp:
@@ -167,8 +219,18 @@ def test_three_state_conservation():
 
     assert total_shard_words == 15000
     assert enriched_found == expected_enriched, f"Expected {expected_enriched} enriched in shards, got {enriched_found}"
+    assert source_only_found == 0, f"Expected 0 source_only in shards, got {source_only_found}"
+    assert missing_source_found == 252, f"Expected 252 missing_source in shards, got {missing_source_found}"
     assert (enriched_found + source_only_found + missing_source_found) == 15000
-    print(f"[PASS] Gate 5: Three-state conservation strictly verified ({enriched_found} + {source_only_found} + {missing_source_found} = 15000)")
+
+    assert TRIAGE_FILE.exists(), "Missing quarantine_triage_report.json"
+    with open(TRIAGE_FILE, "r", encoding="utf-8") as tfp:
+        triage = json.load(tfp)
+    type_b_map = triage.get("type_b_missing_source_words", {})
+    assert len(type_b_map) == 252, f"Expected 252 type_b_missing_source_words in triage report, got {len(type_b_map)}"
+    empty_reasons = [w for w, item in type_b_map.items() if not (item.get("reason") or "").strip()]
+    assert len(empty_reasons) == 0, f"Found empty reasons in quarantine_triage_report.json: {empty_reasons[:5]}"
+    print(f"[PASS] Gate 5: Three-state conservation & triage alignment strictly verified ({enriched_found} + {source_only_found} + {missing_source_found} = 15000)")
 
 
 def test_search_index_sync():
@@ -215,12 +277,6 @@ def test_trilingual_coverage():
     assert len(missing_colloc_en) == 0, f"Missing collocation en: {missing_colloc_en[:5]}"
     assert len(missing_msg_en) == 0, f"Missing message en: {missing_msg_en[:5]}"
     assert len(missing_formal_en) == 0, f"Missing formal en: {missing_formal_en[:5]}"
-    return {
-        "missing_en_def": len(missing_en_def),
-        "missing_colloc_en": len(missing_colloc_en),
-        "missing_msg_en": len(missing_msg_en),
-        "missing_formal_en": len(missing_formal_en),
-    }
 
 
 if __name__ == "__main__":
@@ -231,8 +287,5 @@ if __name__ == "__main__":
     test_provenance_and_status()
     test_three_state_conservation()
     test_search_index_sync()
-    cov = test_trilingual_coverage()
-    if cov["missing_en_def"] == 0 and cov["missing_colloc_en"] == 0 and cov["missing_msg_en"] == 0:
-        print("\n  [★★★ ALL GATES PASS - 100% TRILINGUAL COVERAGE ACHIEVED ★★★]")
-    else:
-        print("\n  [BACKFILL IN PROGRESS]")
+    test_trilingual_coverage()
+    print("\n  [★★★ ALL GATES PASS - 100% TRILINGUAL COVERAGE ACHIEVED ★★★]")

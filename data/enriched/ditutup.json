@@ -5,7 +5,7 @@
     "ipa": "/di.tu.tup/",
     "jawi": null,
     "frequency_rank": 1488,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -251,8 +251,10 @@
     "usage_etiquette": "公告应说明关闭对象、时间和替代安排。di- 是前缀，应写 ditutup，不能写成 di tutup。原包未提供音节和爪夷文，相关字段保留 null。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "tutup",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 tutup，本词形释义由构词与语料推导"
   }
 }

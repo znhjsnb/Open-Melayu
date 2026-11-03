@@ -5,7 +5,7 @@
     "ipa": "/ka.pan.pun/",
     "jawi": null,
     "frequency_rank": 14793,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": false,
@@ -102,8 +102,9 @@
     "usage_etiquette": "适合识别印尼社交媒体文字、引用原消息或讨论拼写。正式马来西亚文本应使用本地标准表达；引用别人时，应把拼写说明与对说话者身份的评价分开。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

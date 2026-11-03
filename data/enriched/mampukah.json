@@ -3,13 +3,13 @@
     "word": "mampukah",
     "syllables": "mam.pu.kah",
     "ipa": "/mam.pu.kah/",
-    "jawi": "ممڤوکه",
+    "jawi": null,
     "frequency_rank": 11241,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
-    "is_root": false,
-    "root_word": "mampu",
+    "is_root": true,
+    "root_word": "mampukah",
     "affix": "-kah",
     "affix_type": "suffix",
     "formula": "mampu + -kah → mampukah",
@@ -36,7 +36,7 @@
         "gloss": "使能够"
       }
     ],
-    "root_jawi": "ممڤو"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -152,8 +152,9 @@
     "usage_etiquette": "适合讨论可行性、能力和承担费用的条件。公开追问他人是否买得起某物可能令人难堪；财务问题宜私下、具体而尊重地询问。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

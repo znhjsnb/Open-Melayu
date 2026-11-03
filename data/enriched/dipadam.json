@@ -5,7 +5,7 @@
     "ipa": "/di.pa.dam/",
     "jawi": null,
     "frequency_rank": 10520,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -168,8 +168,10 @@
     "usage_etiquette": "谈论群聊撤回消息或删除文件时，先确认事实再判断动机。dipadam 只表达被删除或清除，不自动表示误删、恶意操作或永久销毁。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "padam",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 padam，本词形释义由构词与语料推导"
   }
 }

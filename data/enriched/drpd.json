@@ -5,7 +5,7 @@
     "ipa": "/da.ri.pa.da/",
     "jawi": null,
     "frequency_rank": 10293,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -201,8 +201,9 @@
     "usage_etiquette": "适合短信、聊天和个人笔记。正式报告、申请书和考试作文通常写完整形式；不要把 drpd 当作独立口语词来念。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

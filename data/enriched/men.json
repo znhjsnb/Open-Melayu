@@ -5,7 +5,7 @@
     "ipa": "/mɛn/",
     "jawi": null,
     "frequency_rank": 5727,
-    "status": "official",
+    "status": "corpus_usage",
     "validation_note": "以下按英语 man 的复数形式解释。输入包缺少语境，无法排除专名、缩写或非标准拼写；不能把独立字符串 men 自动认作马来语前缀 men-。排名沿用输入数据。"
   },
   "morphology": {
@@ -143,8 +143,9 @@
     "usage_etiquette": "可用于引用英语标识、标题和原文。解释历史文献中的泛指义时，应说明它可能涵盖所有人，而非只指男性。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

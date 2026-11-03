@@ -5,7 +5,7 @@
     "ipa": "/xa.bar.mu/",
     "jawi": "خبر",
     "frequency_rank": 9184,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -131,8 +131,10 @@
     "usage_etiquette": "适合朋友通信、私人问候、歌词和文学表达。询问病后近况时语气应体贴，避免追问对方不愿透露的细节。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "khabar",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 khabar，本词形释义由构词与语料推导"
   }
 }

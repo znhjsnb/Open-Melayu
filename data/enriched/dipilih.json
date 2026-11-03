@@ -5,7 +5,7 @@
     "ipa": "/di.pilih/",
     "jawi": null,
     "frequency_rank": 2854,
-    "status": "official",
+    "status": "corpus_usage",
     "validation_note": "标准马来语被动派生形式。输入误将 dipilih 标为词根，已更正为 di- + pilih；音节与音标按标准形式补充。Jawi 保留输入的 null。频率排名沿用输入，未独立核验。"
   },
   "morphology": {
@@ -47,7 +47,7 @@
         "gloss": "替某人挑选"
       }
     ],
-    "root_jawi": "ڤيليه"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -143,8 +143,9 @@
     "usage_etiquette": "公开宣布某人获选时，应准确说明职位和程序。dipilih 本身不表示获奖，也不必然表示全票通过；这些信息需要另外说明。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

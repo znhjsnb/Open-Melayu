@@ -5,7 +5,7 @@
     "ipa": "/hu.ku.man.ɲa/",
     "jawi": "حکومنڽ",
     "frequency_rank": 7082,
-    "status": "official",
+    "status": "root_derived",
     "data_note": "这是标准马来语中 hukuman 加 -nya 的语法形式，不表示 DBP 必定另立独立词条。数据包中的 حکومن 对应 hukuman；此处补写 -nya 的 ڽ，得到完整词形。"
   },
   "morphology": {
@@ -132,8 +132,10 @@
     "usage_etiquette": "适用于纪律、法律及一般惩戒语境。避免用来羞辱当事人；涉及宗教时应依据上下文区分 hukum 的规范或教法义与 hukuman 的处罚义。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "hukuman",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 hukuman，本词形释义由构词与语料推导"
   }
 }

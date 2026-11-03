@@ -5,7 +5,7 @@
     "ipa": "/a.pi.ɲa/",
     "jawi": "اڤي",
     "frequency_rank": 8074,
-    "status": "official",
+    "status": "root_derived",
     "verification_note": "这是规范词根 api 与 -nya 的组合形式，不代表另有独立词典条目。输入 Jawi اڤي 只拼写词根 api；完整 apinya 应写作 اڤيڽ。此处保留输入字段。"
   },
   "morphology": {
@@ -173,8 +173,10 @@
     "usage_etiquette": "做饭时指炉火或火力很自然；正式技术说明宜明确写 api dapur、nyalaan 或 bekalan elektrik，减少指代歧义。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "api",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 api，本词形释义由构词与语料推导"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/a.nak.mu/",
     "jawi": "انق",
     "frequency_rank": 2653,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -104,8 +104,10 @@
     "usage_etiquette": "anakmu 连写，不写成 anak mu。这里的 mu 指交谈对象，不表示孩子的性别；正式行政文书宜按对象改用适当称谓。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "anak",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 anak，本词形释义由构词与语料推导"
   }
 }

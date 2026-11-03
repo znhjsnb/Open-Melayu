@@ -5,7 +5,7 @@
     "ipa": "/di.re.kod.kan/",
     "jawi": null,
     "frequency_rank": 12081,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -122,8 +122,10 @@
     "usage_etiquette": "适合确认登记、统计和处理流程。direkodkan 只说明已经记载，不能单凭这个词推断申请已获批准或付款已完成结算。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "rekod",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 rekod，本词形释义由构词与语料推导"
   }
 }

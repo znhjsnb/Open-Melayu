@@ -5,7 +5,7 @@
     "ipa": "/te.le.fon.ku/",
     "jawi": "تيليفون",
     "frequency_rank": 12149,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -122,8 +122,10 @@
     "usage_etiquette": "标准拼写连写 telefonku，不写 telefon ku。普通聊天可用 telefon aku；需要明确表示“我的来电”时，优先使用 panggilan saya 或 panggilan aku。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "telefon",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 telefon，本词形释义由构词与语料推导"
   }
 }

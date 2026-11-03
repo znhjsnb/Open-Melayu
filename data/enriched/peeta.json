@@ -3,9 +3,9 @@
     "word": "peeta",
     "syllables": null,
     "ipa": null,
-    "jawi": "ايتا",
+    "jawi": null,
     "frequency_rank": 4064,
-    "status": "official",
+    "status": "corpus_usage",
     "canonical_word": "eta",
     "validation_note": "输入词形 peeta 与资料包中的释义、Jawi 和解析词根不一致；这些资料对应 eta。不能据此将 peeta 标记为 official，也不能为其编造标准发音。以下释义和用例说明校正后的 eta；输入排名仅保留为原始记录元数据。"
   },
@@ -17,7 +17,7 @@
     "formula": "peeta → eta（依据资料包校正词形，非词缀构词）",
     "pattern_note": "is_root: false 保留输入解析标记，不表示 peeta 是合法派生词。不能将 peeta 分析成 pe- + eta；校正后的 eta 是无词缀的字母名称，读 /e.ta/，首音为 e taling。",
     "word_family": [],
-    "root_jawi": "ايتا"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -95,8 +95,9 @@
     "usage_etiquette": "正式材料使用 eta，并在首次出现时附上 Η 或 η。peeta 尚未得到该资料包的词典依据支持，不宜作为标准词形发布；eta 也没有在此核实的短信缩写。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

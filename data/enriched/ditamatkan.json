@@ -5,7 +5,7 @@
     "ipa": "/di.ta.mat.kan/",
     "jawi": null,
     "frequency_rank": 10488,
-    "status": "official",
+    "status": "root_derived",
     "verification_note": "输入将 ditamatkan 标为独立词根有误：这是 tamat 的被动派生动词。音节与词头爪夷文字段保留输入的 null；IPA 为宽式分析。排名沿用输入，未经独立核实。[DBP 被动句用例](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=ditamatkan)"
   },
   "morphology": {
@@ -128,8 +128,10 @@
     "usage_etiquette": "适用于行政、商业与一般说明。不要把 ditamatkan 一律理解为被解雇，也不要从该词本身推断当事人有过失；具体含义取决于主语和上下文。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "tamat",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 tamat，本词形释义由构词与语料推导"
   }
 }

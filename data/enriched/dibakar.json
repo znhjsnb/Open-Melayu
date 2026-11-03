@@ -5,7 +5,7 @@
     "ipa": "/di.ba.kar/",
     "jawi": null,
     "frequency_rank": 3160,
-    "status": "official",
+    "status": "root_derived",
     "status_note": "规范马来语被动动词；输入包将其标为独立词根有误，实际词根为bakar。"
   },
   "morphology": {
@@ -179,8 +179,10 @@
     "usage_etiquette": "烹饪场景十分常见。报道火灾时须区分dibakar与terbakar：前者呈现施加燃烧动作的被动结构，不能在原因未明时随意替代一般的“着火”。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "bakar",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 bakar，本词形释义由构词与语料推导"
   }
 }

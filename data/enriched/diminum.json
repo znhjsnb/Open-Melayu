@@ -5,7 +5,7 @@
     "ipa": "[di.mi.num]",
     "jawi": "دمينوم",
     "frequency_rank": 12800,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -112,8 +112,10 @@
     "usage_etiquette": "饮用对象不必是酒精饮料，不能因出现 minum 就推断饮酒。招待来客时可直接说明饮料成分，并尊重个人及宗教方面的饮食选择。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "minum",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 minum，本词形释义由构词与语料推导"
   }
 }

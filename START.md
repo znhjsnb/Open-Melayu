@@ -1,29 +1,34 @@
 # Open-Melayu 当前状态
 
-更新：2026-11-02（Asia/Singapore）。
+更新：2026-11-03（Asia/Singapore）。
 
-本工程已按用户最高指示，在后台以 35~40 RPM 极速吞吐调度 Codex CLI（`gpt-6.1-sol / high`）**全量完成了 Top 2,001~3,000 战役扩容！全库精编词条正式跃升至 2,607 词，全量 100% 达成中英双解原生三语化闭环**！所有代码、静态分片、搜索索引、三语质量门禁与真机 CDP 截图均已物理落盘并 100% 全绿通过。
+本工程已按用户最高指示，全量打通 **15,000 词级马-中-英三语认知词典（Open-Melayu 15K）** 终极闭环！全库精编词条正式收官于 **14,748 词**（`source_only` 全部清零归 0，252 个残缺/外来未考证词条严格遵守 Gate 4 零伪造原则保留为 `missing_source`），100% 达成中英双解原生三语化与三阶来源诚实分级（`official` 7,479 词 / `root_derived` 2,328 词 / `corpus_usage` 4,941 词）！所有代码、27 个静态分片、搜索索引、`pytest` 7 项全量门禁、Chromium CDP 8 词全状态真机验收与 Git 提交均已 100% 闭环。
 
 ---
 
-## 零、 Top 2,001~3,000 战役决胜交付（全库 2,607 词，100% 达成）
+## 零、 全库 15,000 词终极收官交付（14,748 Enriched + 252 Missing Source = 15,000）
 
 ### 1. 资产全量跃升与三语全覆盖
-- **精编词条总量**：从 1,841 词跃升至 **2,607 词**（Top 2,001~3,000 中全量 766 个真实马来语核心词 100% 攻克并晋升为 `enriched`）；
-- **英文权威定义 (`senses[].en_definition`)**：全库 4,605 个义项 **100% 具备地道英文定义**（缺失 = 0）；
-- **地道搭配英文 (`collocations[].en`)**：全量 9,385 组搭配 **100% 具备英文翻译**（缺失 = 0）；
-- **WhatsApp 气泡英文 (`messages[].en`)**：全量 5,693 句真实交锋对话气泡 **100% 具备自然口语英译**（缺失 = 0）；
-- **正式语体英文 (`dual_scenarios[0].en`)**：全库 2,607 词 100% 全量齐备。
+- **精编词条总量**：全库收官 **14,748 词**（`data/enriched/<word>.json` 共 14,748 个独立词条对象，无 legacy `batch_*.json` 重复镜像，禁用控制字符与空串 Jawi 全部归 0）；
+- **英文权威定义 (`senses[].en_definition`)**：全库 **28,017 个义项** 100% 具备地道英文定义（缺失 = 0）；
+- **地道搭配英文 (`collocations[].en`)**：全量 **56,933 组搭配** 100% 具备英文翻译（缺失 = 0，低搭配义项 = 0）；
+- **WhatsApp 气泡英文 (`messages[].en`)**：全量 **29,981 句真实交锋对话气泡** 100% 具备自然口语英译（缺失 = 0，单轮对话 = 0）；
+- **正式语体英文 (`dual_scenarios[0].en`)**：全库 14,748 词 100% 全量齐备。
 
-### 2. 搜索索引与分片一致性实时守恒
-- 全量 2,607 词在 `search_index.json` 中统一标记为 `e=1, st='e'`；
-- 27 个静态分片与不可变构建发布标识升级为 **`om-20261102-v8011`**；
-- 三态守恒严格成立：
-  $$\text{enriched (2,607)} + \text{source\_only (6,328)} + \text{missing\_source (6,065)} = 15,000$$
+### 2. 三阶来源诚实性（Gate 4 Provenance）与三态守恒
+- **三阶来源精确分级**（100% 基于本地 `data/prpm_raw/*.json` 物理证据）：
+  - `official`（**7,479 词**）：PRPM 具备直接马来语 DBP 词条（Kamus Dewan / Kamus Pelajar），前端展示 `DBP 原文:`；
+  - `root_derived`（**2,328 词**）：真实马来语构词派生词且词根具备直接马来语 DBP 词条，前端展示 `马来语释义 (基于 DBP 词根推导):`；
+  - `corpus_usage`（**4,941 词**）：官方马来语词典未单独收录或仅见于英马词典/字幕高频借词与专名，前端展示 `马来语释义 (字幕高频语料用法):`。
+- **搜索索引与分片一致性实时守恒**：
+  - 全量 14,748 词在 `search_index.json` 中统一标记为 `e=1, st='e'`；
+  - 27 个静态分片与不可变构建发布标识升级为 **`om-20261103-v8488`**；
+  - 三态守恒严格成立：
+    $$\text{enriched (14,748)} + \text{source\_only (0)} + \text{missing\_source (252)} = 15,000$$
 
-### 3. 前端零折叠自然平铺三语呈现
-- 释义、搭配卡片（三行平铺）与对话气泡四层平铺展开，`http://127.0.0.1:8766` 稳定在线；
-- Chromium CDP 端到端实测验证（`21_top3000_sample_asli.png`, `22_top3000_sample_memasak.png`, `23_top3000_sample_tajam.png`）全绿通过。
+### 3. 自动化测试与 Chromium CDP 真机验收（100% GREEN）
+- `python -B -m pytest -p no:cacheprovider tests/test_stage3_trilingual_quality_gates.py -v`：**7 passed (returncode = 0)**；
+- `node tests/verify_trilingual_e2e.mjs`：覆盖 `official`（`asli`, `memasak`, `tajam`）、`root_derived`（`anakku`）、`corpus_usage`（`water`, `milan`, `head`）与 `missing_source`（`jaikant`）全状态真机渲染与标签断言，**returncode = 0**。
 
 ---
 

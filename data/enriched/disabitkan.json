@@ -5,7 +5,7 @@
     "ipa": "/di.sa.bit.kan/",
     "jawi": null,
     "frequency_rank": 9825,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -122,8 +122,10 @@
     "usage_etiquette": "适用于司法报道、法律文件和严肃讨论。转述案件时说明消息来源，避免把指控直接说成已经成立的罪责。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "sabit",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 sabit，本词形释义由构词与语料推导"
   }
 }

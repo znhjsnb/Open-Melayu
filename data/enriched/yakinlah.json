@@ -5,7 +5,7 @@
     "ipa": "/ja.kin.lah/",
     "jawi": "يقين",
     "frequency_rank": 9480,
-    "status": "official",
+    "status": "root_derived",
     "jawi_full_form": "يقينله",
     "orthography_note": "jawi 字段保留输入包中的词根拼写；jawi_full_form 补全 -lah。音节和宽式音标根据完整词形补充。"
   },
@@ -114,8 +114,10 @@
     "usage_etiquette": "适合鼓励、演讲和表达信任。面对他人的真实顾虑，宜先回应具体问题，再给予鼓励；单说 yakinlah 有时显得敷衍。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "yakin",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 yakin，本词形释义由构词与语料推导"
   }
 }

@@ -3,9 +3,9 @@
     "word": "mekah",
     "syllables": null,
     "ipa": "/məkah/",
-    "jawi": "مكة",
+    "jawi": null,
     "frequency_rank": 9838,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -15,7 +15,7 @@
     "formula": "∅ + Mekah → Mekah",
     "pattern_note": "Mekah 是完整地名，不能拆成 me- + kah。输入把它误配到表示一种黏合剂的 kah，故更正词根、构词属性及 Jawi。标准书写为 Mekah；阿拉伯语来源地名的 Jawi 保留原文拼写 مكة。[官方 Jawi 拼写指南](https://smartmurabbi.islam.gov.my/attachment-download/rhtjl2pibkqpk840938l62uepj8if1hy)",
     "word_family": [],
-    "root_jawi": "مكة"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -91,8 +91,9 @@
     "usage_etiquette": "区分 haji（正朝）与 umrah（副朝），不能仅凭某人去过麦加就认定其完成正朝，也不应据此直接加称 Haji 或 Hajah。正式文本统一采用 Mekah 或 Makkah 的一种拼写。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

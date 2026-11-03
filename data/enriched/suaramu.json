@@ -5,7 +5,7 @@
     "ipa": "/su.a.ra.mu/",
     "jawi": "سوارا",
     "frequency_rank": 7865,
-    "status": "official",
+    "status": "root_derived",
     "verification_note": "规范马来语组合形式，不必作为独立词根收录。保留数据包的 Jawi 字段，但 سوارا 仅拼写 suara，未包含 -mu；完整形式可写作 سوارامو。音节可分析为 su.a.ra.mu。"
   },
   "morphology": {
@@ -128,8 +128,10 @@
     "usage_etiquette": "适合歌词、诗歌、亲近关系和青年宣传文案。涉及宗教中的神圣称呼时，代词书写有专门的大写与连字符规范，不应直接照搬普通 suaramu。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "suara",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 suara，本词形释义由构词与语料推导"
   }
 }

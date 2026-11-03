@@ -3,9 +3,9 @@
     "word": "modi",
     "syllables": null,
     "ipa": null,
-    "jawi": "مود",
+    "jawi": null,
     "frequency_rank": 9009,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": false,
@@ -15,7 +15,7 @@
     "formula": "modi → 词形待核实；所附释义对应 ∅ + mod → mod",
     "pattern_note": "输入包将 modi 与 mod 的词条混配。末尾 i 不能据此认定为马来语后缀 -i；is_root 与 root_word 仅保留输入标记，不构成已验证的派生关系。所给 Jawi مود 对应 mod。",
     "word_family": [],
-    "root_jawi": "مود"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -91,8 +91,9 @@
     "usage_etiquette": "技术文件中使用已核实的 mod。若 Modi 是人名，应保留姓名及其大写；不能把人名用法当作本输入包计算机义的证据。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

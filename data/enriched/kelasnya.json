@@ -5,7 +5,7 @@
     "ipa": "/kə.las.ɲa/",
     "jawi": "کلس",
     "frequency_rank": 12598,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -166,8 +166,10 @@
     "usage_etiquette": "日常谈课程时很自然；谈社会阶层时应保持客观，避免用等级评价人的价值。数据包中的 Jawi 为词根形式，音节字段缺失，保留 null。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "kelas",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 kelas，本词形释义由构词与语料推导"
   }
 }

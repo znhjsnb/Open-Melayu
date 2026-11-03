@@ -9,7 +9,7 @@
       "CEFR-B1",
       "日常高频"
     ],
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": false,
@@ -104,8 +104,9 @@
     "cognitive_memory_aid": "把 ia 看成一个已经指向对象的箭头，再加 -nya 就像多叠了一支箭头；正式写作先想清楚它究竟指谁、指什么。这个画面是记忆联想。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

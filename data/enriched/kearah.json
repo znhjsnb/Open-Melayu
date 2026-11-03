@@ -5,7 +5,7 @@
     "ipa": "/kə a.rah/",
     "jawi": null,
     "frequency_rank": 7081,
-    "status": "official",
+    "status": "corpus_usage",
     "data_note": "规范形式为 ke arah，必须分写。IPA 对应规范短语 ke arah；数据包未提供音节和爪夷文，保留 null。"
   },
   "morphology": {
@@ -32,7 +32,7 @@
         "gloss": "指向某处的；有明确方向的"
       }
     ],
-    "root_jawi": "اره"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -127,8 +127,9 @@
     "usage_etiquette": "在聊天、公文和考试中均应写 ke arah。抽象用法适合说明目标；若要明确表示已经到达，应另用相应的到达或完成表达。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

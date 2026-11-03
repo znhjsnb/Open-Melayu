@@ -5,7 +5,7 @@
     "ipa": "/ban.ku/",
     "jawi": "بن",
     "frequency_rank": 4743,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -104,8 +104,10 @@
     "usage_etiquette": "使用前应核对原句是否确指 ban + -ku。马来西亚正式文本宜用 tayar saya；若原意是座椅，应检查是否误写了 bangku。输入的 Jawi 和 official 状态均需按上述限定理解。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "ban",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 ban，本词形释义由构词与语料推导"
   }
 }

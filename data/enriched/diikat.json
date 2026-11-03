@@ -5,7 +5,7 @@
     "ipa": "/di.i.kat/",
     "jawi": null,
     "frequency_rank": 4919,
-    "status": "official",
+    "status": "root_derived",
     "validation_note": "这是标准马来语被动派生形式，词根为 ikat；输入将 diikat 识别为词根有误，已更正。status 表示标准词形，不表示 DBP 单独收录了同名独立词条。词头爪夷保留输入的 null；下列马来语释义为依据词根义项编写的释义，非官方逐字引文。"
   },
   "morphology": {
@@ -173,8 +173,10 @@
     "usage_etiquette": "谈论人的身体被绑时，按事实与语境准确表达；合同、首饰和固氮语境分别采用“受约束”“镶嵌”“固定”的译法。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "ikat",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 ikat，本词形释义由构词与语料推导"
   }
 }

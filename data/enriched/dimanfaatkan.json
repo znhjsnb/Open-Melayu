@@ -5,7 +5,7 @@
     "ipa": "/di.man.fa.at.kan/",
     "jawi": null,
     "frequency_rank": 13622,
-    "status": "official",
+    "status": "root_derived",
     "verification_note": "输入包未提供音节划分和爪夷文，保留 null；词根标注已根据实际构词修正为 manfaat。"
   },
   "morphology": {
@@ -113,8 +113,10 @@
     "usage_etiquette": "常用于时间、设施、资金、知识和机会。描述他人贡献时，宜明确说 kepakaran beliau dimanfaatkan，突出其专长受到重视；单说某个人被利用，容易产生工具化的意味。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "manfaat",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 manfaat，本词形释义由构词与语料推导"
   }
 }

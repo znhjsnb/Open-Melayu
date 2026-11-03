@@ -5,7 +5,7 @@
     "ipa": "/bə.nar.kah/",
     "jawi": "بنر",
     "frequency_rank": 1046,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -113,8 +113,10 @@
     "usage_etiquette": "适合核实消息或报告；向个人追问时注意语调，避免无意中显得不信任。输入包未提供音节，故 syllables 保留 null；headword.jawi 按输入保留的是词根 benar 的爪夷文，未包含 -kah。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "benar",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 benar，本词形释义由构词与语料推导"
   }
 }

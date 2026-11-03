@@ -5,7 +5,7 @@
     "ipa": "/de.sa.ku/",
     "jawi": "ديساکو",
     "frequency_rank": 11953,
-    "status": "official",
+    "status": "root_derived",
     "validation_note": "这是标准词 desa 加第一人称领属附着形式 -ku 构成的表达，不是独立派生词。输入的 ديسا 只对应词根 desa；此处按完整词形补写 -ku。音标按构成推导，音节字段保留输入的 null。"
   },
   "morphology": {
@@ -103,8 +103,10 @@
     "usage_etiquette": "适合讲述故乡、乡村生活或个人归属。村庄未必是出生地；只有上下文明确时，才把 desaku 译作我的出生地或老家。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "desa",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 desa，本词形释义由构词与语料推导"
   }
 }

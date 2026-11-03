@@ -5,7 +5,7 @@
     "ipa": "/edisi/",
     "jawi": null,
     "frequency_rank": 11196,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -162,8 +162,9 @@
     "usage_etiquette": "购买教材或引用文献时应核对具体版次，因为页码和内容可能不同。宣传中的 edisi khas 表示特别版，edisi terhad 表示限量版；不能仅凭“特别版”就断定数量有限。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

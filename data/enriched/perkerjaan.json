@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 13315,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": false,
@@ -129,8 +129,9 @@
     "usage_etiquette": "简历、求职信、申请表及公文使用 pekerjaan。引用原稿错误时可以保留 perkerjaan，但应明确标为误拼。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

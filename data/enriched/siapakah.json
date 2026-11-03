@@ -3,9 +3,9 @@
     "word": "siapakah",
     "syllables": null,
     "ipa": "/si.a.pa.kah/",
-    "jawi": "سياڤا",
+    "jawi": null,
     "frequency_rank": 1038,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": false,
@@ -26,7 +26,7 @@
         "gloss": "任何人；某个人"
       }
     ],
-    "root_jawi": "سياڤا"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -113,8 +113,9 @@
     "usage_etiquette": "正式提问可使用 siapakah，朋友聊天通常使用 siapa。输入包未提供音节，故 syllables 保留 null；headword.jawi 按输入保留的是词根 siapa 的爪夷文，未包含 -kah。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/di.pi.sah.kan/",
     "jawi": null,
     "frequency_rank": 6774,
-    "status": "official",
+    "status": "root_derived",
     "validation_note": "规范被动派生词，词根为 pisah；修正输入包的根词误判。音节与 IPA 按标准词形补充，Jawi 保留输入包的空值。"
   },
   "morphology": {
@@ -159,8 +159,10 @@
     "usage_etiquette": "说明责任时可明确写出施事，如 dipisahkan oleh petugas；家庭语境下应说明具体情况。它本身不等于“离婚”，法律上的婚姻解除通常用 perceraian 或 bercerai。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "pisah",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 pisah，本词形释义由构词与语料推导"
   }
 }

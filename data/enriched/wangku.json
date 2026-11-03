@@ -5,7 +5,7 @@
     "ipa": "/waŋ.ku/",
     "jawi": "واڠ",
     "frequency_rank": 9911,
-    "status": "official",
+    "status": "root_derived",
     "data_note": "status 沿用所要求的记录标签，不表示 DBP 单独收录此屈附形式。syllables 保留输入的 null；所给 Jawi 仅对应词根 wang，未包含 -ku。频率排名沿用输入，未独立核验。"
   },
   "morphology": {
@@ -132,8 +132,10 @@
     "usage_etiquette": "讨论借款或退款时宜说明金额和事项，例如 wang saya sebanyak RM50。单独强调 wangku 可能显得强硬，具体效果取决于语调和关系。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "wang",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 wang，本词形释义由构词与语料推导"
   }
 }

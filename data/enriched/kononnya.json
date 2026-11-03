@@ -3,13 +3,13 @@
     "word": "kononnya",
     "syllables": "ko.non.nya",
     "ipa": "/ko.non.ɲə/",
-    "jawi": "کونون",
+    "jawi": null,
     "frequency_rank": 10036,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
-    "is_root": false,
-    "root_word": "konon",
+    "is_root": true,
+    "root_word": "kononnya",
     "affix": "-nya",
     "affix_type": "suffix",
     "formula": "konon + -nya → kononnya",
@@ -26,7 +26,7 @@
         "gloss": "据传闻讲述；戏弄"
       }
     ],
-    "root_jawi": "کونون"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -122,8 +122,9 @@
     "usage_etiquette": "朋友间可用于轻微打趣，但文字聊天缺少语调，容易显得刻薄。新闻中的中性转述应明确消息来源；kononnya 本身不能代替核实。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

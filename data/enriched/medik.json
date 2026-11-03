@@ -5,7 +5,7 @@
     "ipa": "/me.dik/",
     "jawi": null,
     "frequency_rank": 6322,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -110,8 +110,9 @@
     "usage_etiquette": "适用于医疗支援、救援和活动组织语境。正式文件应优先沿用机构的正式名称；需要说明专业资格时，写出具体岗位，避免仅用 medik。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

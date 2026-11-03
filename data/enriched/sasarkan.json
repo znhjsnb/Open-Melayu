@@ -3,13 +3,13 @@
     "word": "sasarkan",
     "syllables": "sa.sar.kan",
     "ipa": "/sa.sar.kan/",
-    "jawi": "ساسر",
+    "jawi": null,
     "frequency_rank": 4889,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
-    "is_root": false,
-    "root_word": "sasar",
+    "is_root": true,
+    "root_word": "sasarkan",
     "affix": "-kan",
     "affix_type": "suffix",
     "formula": "sasar + -kan → sasarkan",
@@ -31,7 +31,7 @@
         "gloss": "被定为目标；被瞄准"
       }
     ],
-    "root_jawi": "ساسر"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -109,8 +109,9 @@
     "usage_etiquette": "工作沟通中最好同时说明目标数值和期限。汇报已经确定的目标时，可说 sasaran yang kita tetapkan，或使用完整主动形式 menyasarkan。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

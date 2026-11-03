@@ -5,7 +5,7 @@
     "ipa": "/di.tu.kar.kan/",
     "jawi": null,
     "frequency_rank": 12394,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -161,8 +161,10 @@
     "usage_etiquette": "适合行政通知、技术说明和日常叙述。不要仅凭 ditukarkan 推断某人被降职、处分或解雇。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "tukar",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 tukar，本词形释义由构词与语料推导"
   }
 }

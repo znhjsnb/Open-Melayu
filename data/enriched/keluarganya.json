@@ -3,13 +3,13 @@
     "word": "keluarganya",
     "syllables": null,
     "ipa": "/kə.lu.ar.ɡa.ɲa/",
-    "jawi": "کلوارݢ",
+    "jawi": null,
     "frequency_rank": 1829,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
-    "is_root": false,
-    "root_word": "keluarga",
+    "is_root": true,
+    "root_word": "keluarganya",
     "affix": "-nya",
     "affix_type": "suffix",
     "formula": "keluarga + -nya → keluarganya",
@@ -26,7 +26,7 @@
         "gloss": "家庭关系；亲情"
       }
     ],
-    "root_jawi": "کلوارݢ"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -107,8 +107,9 @@
     "usage_etiquette": "谈论第三人的家人时，先明确所指人物，避免 -nya 指代不清。直接问候对方宜说 Apa khabar keluarga anda?；称呼已知时可用 keluarga Encik 或 keluarga Puan。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

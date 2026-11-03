@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 8737,
-    "status": "official",
+    "status": "root_derived",
     "standard_form": "pengebumian",
     "data_note": "该输入是非规范拼写，不能标为官方词形。原数据未提供音节、IPA 或 Jawi；不为误拼虚构规范读音和拼写。排名保留输入值。"
   },
@@ -114,8 +114,10 @@
     "usage_etiquette": "讨论具体安排前先确认家属意愿。不同宗教与家庭的仪式不同，不能仅凭这个词推断逝者宗教，也不能把安葬与火化混为一谈。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "bumi",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 bumi，本词形释义由构词与语料推导"
   }
 }

@@ -5,7 +5,7 @@
     "ipa": "/məm.bi.ar.kan.ku/",
     "jawi": "ممبيارکن",
     "frequency_rank": 12006,
-    "status": "official",
+    "status": "root_derived",
     "verification_note": "这是 membiarkan 加宾语附着代词 -ku 的合成词形。音节字段保留资料包的 null；所给爪夷文仅对应 membiarkan，未包含 -ku，不宜视为完整词形的核定拼写。排名沿用资料包，未独立验证。"
   },
   "morphology": {
@@ -122,8 +122,10 @@
     "usage_etiquette": "用于指责他人时可能显得感情强烈。正式投诉宜说明具体行为，如让我等待多久、没有提供什么协助。附着形式的连写规则可参见 [DBP 关于 ku 的说明](https://prpm.dbp.gov.my/Cari1?d=175768&keyword=kubaca)。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "membiarkan",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 membiarkan，本词形释义由构词与语料推导"
   }
 }

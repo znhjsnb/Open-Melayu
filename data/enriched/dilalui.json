@@ -5,7 +5,7 @@
     "ipa": "/di.la.lu.i/",
     "jawi": null,
     "frequency_rank": 13436,
-    "status": "official",
+    "status": "root_derived",
     "verification_note": "标准马来语派生被动式。输入未提供官方音节或词形爪夷文，故保留 null；音标为四音节宽式读音。词根已据构词关系修正为 lalu。"
   },
   "morphology": {
@@ -148,8 +148,10 @@
     "usage_etiquette": "描述道路通行应说明车辆类型和时间；描述痛苦经历时避免用 mudah dilalui 轻率断言对方很容易熬过去。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "lalu",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 lalu，本词形释义由构词与语料推导"
   }
 }

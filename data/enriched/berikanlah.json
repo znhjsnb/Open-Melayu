@@ -3,13 +3,13 @@
     "word": "berikanlah",
     "syllables": "be.ri.kan.lah",
     "ipa": "/bə.ri.kan.lah/",
-    "jawi": "بريکنله",
+    "jawi": null,
     "frequency_rank": 11083,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
-    "is_root": false,
-    "root_word": "beri",
+    "is_root": true,
+    "root_word": "berikanlah",
     "affix": "-kan + -lah",
     "affix_type": "suffix",
     "formula": "beri + -kan → berikan; berikan + -lah → berikanlah",
@@ -26,7 +26,7 @@
         "gloss": "赠予行为；赠送的东西"
       }
     ],
-    "root_jawi": "بري"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -122,8 +122,9 @@
     "usage_etiquette": "适合呼吁、劝告、祈求和明确指示。berikanlah 在日常聊天中可能带郑重或恳求色彩，普通递物请求往往使用更简短的 beri 或 bagi。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

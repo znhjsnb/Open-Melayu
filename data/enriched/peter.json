@@ -3,9 +3,9 @@
     "word": "peter",
     "syllables": "pi.ter",
     "ipa": "/ˈpiː.tə(r)/",
-    "jawi": "تير",
+    "jawi": null,
     "frequency_rank": 1126,
-    "status": "official"
+    "status": "corpus_usage"
   },
   "morphology": {
     "is_root": true,
@@ -15,7 +15,7 @@
     "formula": "∅ + Peter → Peter（人名，整词记忆）",
     "pattern_note": "按通常的人名 Peter 解释，不能拆成 pe- + ter。输入将词根解析为 ter，并提供其 Jawi تير，属于与人名不相符的映射；此处修正词根，headword.jawi 仍按要求保留输入值。按英语常见读法音译的完整 Jawi 可写作 ڤيتر；音标采用英语读法，实际称呼以本人发音为准。",
     "word_family": [],
-    "root_jawi": "ڤيتر"
+    "root_jawi": null
   },
   "senses": [
     {
@@ -96,8 +96,9 @@
     "usage_etiquette": "正式书写使用首字母大写的 Peter，并遵循本人姓名拼写与发音。该名字没有可供教学的马来语派生词族，不应为了填充字段而制造词形。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": false,
+    "source_type": "subtitle_corpus_usage",
+    "attribution": "官方词典未单独收录，保留字幕高频语料用法"
   }
 }

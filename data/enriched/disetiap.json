@@ -5,7 +5,7 @@
     "ipa": null,
     "jawi": null,
     "frequency_rank": 14375,
-    "status": "official"
+    "status": "root_derived"
   },
   "morphology": {
     "is_root": false,
@@ -102,8 +102,10 @@
     "usage_etiquette": "公文、考试和新闻正文使用 di setiap。引用错误拼写时可以保留 disetiap 并加引号；不要把连写错误当作一种正式词形教授。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "tiap",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 tiap，本词形释义由构词与语料推导"
   }
 }

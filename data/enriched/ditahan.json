@@ -5,7 +5,7 @@
     "ipa": "/di.ta.han/",
     "jawi": null,
     "frequency_rank": 1884,
-    "status": "official",
+    "status": "root_derived",
     "data_note": "标准马来语被动派生词。输入将其误判为词根，现更正为 di- + tahan。音节与爪夷文保留输入的 null；以下释义为依据词典义项编写的释义，并非 DBP 逐字引文。"
   },
   "morphology": {
@@ -253,8 +253,10 @@
     "usage_etiquette": "新闻、公文和日常叙述均可使用。形容疼痛或情绪时通常很自然；朋友口语也常说 kena tahan，但正式文本宜按句法使用 ditahan。"
   },
   "provenance": {
-    "has_official_dbp": true,
-    "source_type": "dbp_official",
-    "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
+    "has_official_dbp": false,
+    "has_official_root_dbp": true,
+    "root_word": "tahan",
+    "source_type": "dbp_root_derived",
+    "attribution": "派生自 DBP 官方词根 tahan，本词形释义由构词与语料推导"
   }
 }
