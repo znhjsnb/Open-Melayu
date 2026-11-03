@@ -1,6 +1,17 @@
 # Open-Melayu 15K 工作台移植验收记录
 
-## 2026-11-03 公开仓库准备与缓存修复（最新）
+## 2026-11-03 Release 导出与自动发布（最新）
+
+- 新增 `src/export_databases.py`：纯 Python 标准库，从静态 manifest、索引与 27 片读取完整数据；先校验版本、三态、来源数量、唯一词头、1–15,000 ID 与索引，再导出。5 个专名的 `headword.word` 保留原始大写，按规范化词头比对，不改源数据。支持 `--all`、`--sqlite`、`--anki`、`--jsonl`、`--web`、`--zip`；单格式可附加压缩，单独 `--zip` 重建全部，完成前不替换旧产物。
+- SQLite 包含 `words`、`senses` 和 `melayu_fts` FTS5（unicode61）；`raw_json` 与 JSONL 保留所有字段、null、来源与待补状态。Anki 仅收录 enriched，每行两字段、无表头，内容转义后生成 HTML，Jawi 局部 RTL；三语、全部义项/搭配、Berita/WhatsApp 双境及多轮消息、构词、口语、礼仪、词源与记忆平铺保留。
+- `python src/export_databases.py --all` 实际耗时 18.4 秒；四个 ZIP 为 SQLite **39,789,363 bytes**、Anki **24,007,712 bytes**、JSONL **24,433,480 bytes**、静态站 **25,931,180 bytes**。全部位于 `data/exports/`，已增加忽略规则并在 README 写明下载、重建、Anki 导入和 HTTP 部署方法。
+- `python tests/verify_release_exports.py` **PASS**：SQLite / JSONL 各 **15,000** 词，SQLite **28,017** 个义项，Anki **14,748** 行；所有 SQLite 投影、raw_json 与 JSONL 逐词对照分片，FTS5 词项/前缀/Jawi/英马释义查询、完整性与外键检查通过。三态保持 **14,748 + 0 + 252**。三个数据 ZIP 解压载荷 SHA-256 与原产物一致，四包 CRC 检查通过。
+- 静态包 **37 个文件 / 27 片** 的路径与源文件字节全部一致；另解压至工程 `.tmp/release-http-*`，用独立回环随机端口提供纯静态 HTTP，首页及全部 37 条文件路由 HTTP 200 且字节一致，随后关闭服务并删除该临时目录。**这不是浏览器视觉/Worker/离线验收**。
+- 新增导出测试 **9/9 PASS**：覆盖状态筛选、三语/Jawi/来源、HTML 注入与 TSV 控制字符、完整 JSON、SQL null/义项/FTS5、原子失败与重跑、参数选择、27 片与 manifest/索引损坏拒绝、专名大写保留，以及完全没有 `data/enriched` 的隔离静态夹具。测试目录仅使用工程 `.tmp/export-tests-*` 的合成数据与继承权限，不修改 ACL，不读取学习记录。本宿主 Python 3.13 的 `TemporaryDirectory` 私有目录无法重开，已改用普通唯一临时目录并核对删除范围；失败尝试留下的受限空目录未更改权限或强行清理。
+- 新增 GitHub Actions：`ubuntu-latest`、Python 3.11，标签 `v*` 推送或手动指定已有标签，先检出并核验标签，再跑导出测试、构建和独立产物校验，由 `softprops/action-gh-release@v2` 上传指定四包；缺失附件即失败。工作流 YAML/触发器/参数/附件配置检查 PASS。**本机实跑环境为 Python 3.13.15 / SQLite 3.50.4，Ubuntu / Python 3.11 和 GitHub 实际上传未运行**。
+- 本批再次运行前端 Node 门禁（`NODE_OPTIONS=--test-isolation=none`）：**36/36 PASS**；Stage 3 全库门禁：**全部 PASS**。工作台 E2E 两项均因 Chrome 在 CDP 启动前退出（`4294930433`）失败，未到页面断言；未取得浏览器视觉或 Anki 客户端导入验收。词条、静态文件、DATA_VERSION 与 SHELL_CACHE 均未修改；`.git` 只读，未提交、推送或远程发布。
+
+## 2026-11-03 公开仓库准备与缓存修复（此前批次）
 
 - 新增 README、LICENSE、AGENTS 与 SCHEMA。统计保持 15,000 = 14,748 enriched + 0 source_only + 252 missing_source；四档展示标签与三类精编来源分开解释。许可证沿用参考工程的分范围许可结构，保留原 MIT 版权并补充本项目署名与第三方材料归属。
 - `SHELL_CACHE` 升为 `open-melayu-shell-v5`；SW 为同源页面资源与导航使用 Network-First，成功响应更新当前缓存，网络失败只从当前 shell 缓存回退。数据与 API 请求不接管；缓存写入失败不影响在线响应，HTTP 错误保留原响应。

@@ -1,0 +1,66 @@
+name: Release Build & Distribution
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Existing v* tag to build and publish (for example v1.0.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ inputs.tag || github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
+    steps:
+      - name: Checkout release tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag || github.ref }}
+
+      - name: Verify release tag
+        shell: bash
+        run: |
+          [[ "$RELEASE_TAG" == v* ]] || { echo 'A v* release tag is required'; exit 1; }
+          git show-ref --verify "refs/tags/$RELEASE_TAG"
+          test "$(git rev-parse "refs/tags/$RELEASE_TAG^{commit}")" = "$(git rev-parse HEAD)"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Test release exporter
+        run: python -m unittest discover -s tests -p test_export_databases.py -v
+
+      - name: Build SQLite, Anki, JSONL and static web releases
+        run: python src/export_databases.py --all
+
+      - name: Verify release artifacts
+        run: python tests/verify_release_exports.py
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Open-Melayu 15K ${{ inputs.tag || github.ref_name }}
+          tag_name: ${{ inputs.tag || github.ref_name }}
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+          fail_on_unmatched_files: true
+          files: |
+            data/exports/open_melayu_15k_sqlite.zip
+            data/exports/open_melayu_15k_anki.zip
+            data/exports/open_melayu_15k_jsonl.zip
+            data/exports/open_melayu_15k_web_static.zip

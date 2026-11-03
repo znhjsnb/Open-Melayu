@@ -103,15 +103,42 @@ python -m http.server 8766 --directory app/static
 
 纯静态模式没有 `/api/*`，查词由浏览器完成。部署需包含整个 `app/static/`（含 `data/`），当前 Service Worker 使用根路径 `/sw.js`，应部署在站点根目录；线上 Service Worker 需要 HTTPS，本地回环地址可用 HTTP。首次离线使用前，先在线访问并完成“准备离线词库”；离线朗读还取决于设备语音包。
 
+## 下载与发布（GitHub Releases）
+
+从 [GitHub Releases](https://github.com/znhjsnb/Open-Melayu/releases) 下载四种分发包。导出脚本 [src/export_databases.py](src/export_databases.py) 仅用 Python 标准库，读取已提交的 `app/static/data/manifest.json`、索引和 27 个分片，不依赖本机 `data/enriched/`，支持 Windows 与 GitHub Actions Ubuntu / Python 3.11。
+
+```sh
+python src/export_databases.py --all
+python tests/verify_release_exports.py
+```
+
+产物位于 `data/exports/`（已忽略，不提交生成文件）：
+
+| ZIP 文件 | 内容与用途 |
+| --- | --- |
+| `open_melayu_15k_sqlite.zip` | `open_melayu_15k.db`；15,000 行 `words`、完整 `senses`、`melayu_fts` FTS5 全文索引；`raw_json` 保留完整词条与来源标记 |
+| `open_melayu_15k_anki.zip` | `open_melayu_15k_anki.tsv`；仅 14,748 个 enriched 词，每行 `正面<Tab>背面`，无表头，UTF-8 HTML 卡片，保留三语、Jawi、八维与来源标签 |
+| `open_melayu_15k_jsonl.zip` | `open_melayu_15k.jsonl`；全部 15,000 个完整词条，按 ID 1–15,000 排序；适合离线处理和 RAG 语料接入，保留 252 个 `missing_source` 状态 |
+| `open_melayu_15k_web_static.zip` | `app/static/` 下文件按相对路径逐字节打包，解压根目录含 `index.html`、脚本、`data/manifest.json`、索引及全部 27 片 |
+
+也可组合 `--sqlite`、`--anki`、`--jsonl`、`--web` 选择格式；附加 `--zip` 压缩所选格式。`--web` 本身即生成静态 ZIP；单独 `--zip`、`--all` 或不传参数都会重新导出并压缩全部格式，避免打包旧文件。构建前会校验版本、三态数量、来源分布、唯一词头、ID 与索引一致性；输入不一致时返回非零状态。
+
+Anki 导入时选择 Tab 分隔、正面/背面两字段并开启“允许字段包含 HTML”，使用 Basic 等正反面笔记类型。未考证的 252 个词头不生成学习卡；HTML 内容经过转义，Jawi 仅在局部 RTL 显示。SQLite 查询示例：`SELECT rowid, word FROM melayu_fts WHERE melayu_fts MATCH 'word:saya';`，`rowid` 对应 `words.id`。FTS5 使用 `unicode61` 分词，支持词项、前缀及短语匹配，不提供向量或编辑距离搜索；中文按 SQLite 分词边界匹配。
+
+静态包解压后，在解压目录运行 `python -m http.server 8766` 并访问 `http://127.0.0.1:8766`；线上部署到站点根目录并启用 HTTPS。浏览器模块、Worker 和离线存储需要 HTTP/HTTPS，不能直接双击 `file://` 页面使用；离线准备方法同上。
+
+[Release 工作流](.github/workflows/release.yml) 在推送 `v*` 标签时构建、校验并上传四个 ZIP，Release 名称为 `Open-Melayu 15K <标签>`。也可在 Actions 手动运行并填写**已有的 `v*` 标签**；工作流检出该标签内容后发布，避免把分支名当成版本标签。工作流配置不代表 GitHub 上已经完成发布。
+
 ### 验证
 
 ```sh
 node --test tests/frontend.test.mjs tests/frontend.interactions.test.mjs
 python tests/test_stage3_trilingual_quality_gates.py
+python -m unittest discover -s tests -p test_export_databases.py -v
 node --test tests/verify_workbench_e2e.mjs
 ```
 
-第三项需要可用 Chromium；通过 `CHROME_PATH` 指定浏览器路径，并先启动 8766 服务。受限宿主若遇到 Node 测试子进程 `spawn EPERM`，可使用支持该选项的 Node 版本，在 PowerShell 设置 `$env:NODE_OPTIONS='--test-isolation=none'` 后运行相同命令。单元测试和数据门禁通过不等于浏览器视觉验收通过。
+导出器测试使用 Python 3.11+。浏览器门禁需要可用 Chromium；通过 `CHROME_PATH` 指定浏览器路径，并先启动 8766 服务。受限宿主若遇到 Node 测试子进程 `spawn EPERM`，可使用支持该选项的 Node 版本，在 PowerShell 设置 `$env:NODE_OPTIONS='--test-isolation=none'` 后运行相同命令。单元测试和数据门禁通过不等于浏览器视觉验收通过。
 
 ## 目录与开发接入
 

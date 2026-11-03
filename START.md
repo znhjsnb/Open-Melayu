@@ -2,9 +2,13 @@
 
 更新：2026-11-03（Asia/Singapore）。
 
-公开仓库准备与缓存修复（最新）：新增 README、LICENSE、AGENTS 与 docs/SCHEMA。页面 shell 升至 v5，SW 改为 Network-First，网络失败仅查当前 shell cache，绕过数据/API；Python 服务统一发送 `Cache-Control: no-cache`。已清理指定根目录临时任务、生成脚本、预览 HTML 与四张截图，并补齐忽略规则。
+Release 导出与自动发布（最新）：新增 [src/export_databases.py](src/export_databases.py) 与 [.github/workflows/release.yml](.github/workflows/release.yml)，仅用标准库从已提交的静态 manifest、索引和 27 片生成 SQLite / Anki / JSONL / 静态站四个 ZIP。`python src/export_databases.py --all` 实跑完成（18.4 秒），产物在被忽略的 `data/exports/`。SQLite 与 JSONL 各 15,000 词、28,017 个 SQLite 义项、14,748 张 Anki 卡，252 个 missing_source 不生成学习卡；静态包 37 个文件（含 27 片）与源文件逐字节相同，解压后独立 HTTP 的首页及全部文件路由验证通过。数据版本 `om-20261103-v9756` 与 shell v5 均未变。
 
-本批验证：Node 在 `NODE_OPTIONS=--test-isolation=none` 下 **36/36 PASS**（默认隔离模式受宿主 spawn EPERM 阻断）；Stage 3 全库门禁全部 PASS。Stage 3 脚本已移除硬编码工程路径，从 `.tmp` 运行也通过。8766 已启动，健康/统计正常，五项页面资源与磁盘一致并确认 no-cache。工作台 E2E 两项仍因 Chrome 在 CDP 启动前退出而失败，未执行页面断言。数据版本与词条未变；`.git` 只读，未提交或推送。详见 [工作台验收记录](docs/WORKBENCH_IMPLEMENTATION.md)。
+本批验证：新增导出测试 **9/9 PASS**，独立产物校验（数据库完整性、全库原始 JSON/字段/义项、FTS5、TSV、ZIP CRC/内容）PASS；前端 Node **36/36 PASS**（`NODE_OPTIONS=--test-isolation=none`）；Stage 3 全库门禁全部 PASS；工作流 YAML 与必要配置检查 PASS。本机实际 Python 为 3.13.15 / SQLite 3.50.4；Ubuntu / Python 3.11 与 GitHub Release 上传**尚未远程运行**。工作流已配置 `v*` 标签推送或手动填写已有 `v*` 标签触发，检出标签后构建、校验并上传四包。浏览器 E2E 两项仍在 Chrome CDP 启动前失败，未执行页面断言，未获得视觉或 Anki 客户端验收。`.git` 只读，未提交或推送。详见 [工作台验收记录](docs/WORKBENCH_IMPLEMENTATION.md)。
+
+公开仓库准备与缓存修复（此前批次）：新增 README、LICENSE、AGENTS 与 docs/SCHEMA。页面 shell 升至 v5，SW 改为 Network-First，网络失败仅查当前 shell cache，绕过数据/API；Python 服务统一发送 `Cache-Control: no-cache`。已清理指定根目录临时任务、生成脚本、预览 HTML 与四张截图，并补齐忽略规则。
+
+此前批次验证：Node 在 `NODE_OPTIONS=--test-isolation=none` 下 **36/36 PASS**（默认隔离模式受宿主 spawn EPERM 阻断）；Stage 3 全库门禁全部 PASS。Stage 3 脚本已移除硬编码工程路径，从 `.tmp` 运行也通过。8766 已启动，健康/统计正常，五项页面资源与磁盘一致并确认 no-cache。工作台 E2E 两项仍因 Chrome 在 CDP 启动前退出而失败，未执行页面断言。数据版本与词条未变；`.git` 只读，未提交或推送。详见 [工作台验收记录](docs/WORKBENCH_IMPLEMENTATION.md)。
 
 以下为此前批次记录，其中“最新”等字样指该批次当时的状态。
 
