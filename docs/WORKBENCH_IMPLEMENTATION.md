@@ -1,6 +1,17 @@
 # Open-Melayu 15K 工作台移植验收记录
 
-## 2026-11-03 侧栏四项修补（最新）
+## 2026-11-03 公开仓库准备与缓存修复（最新）
+
+- 新增 README、LICENSE、AGENTS 与 SCHEMA。统计保持 15,000 = 14,748 enriched + 0 source_only + 252 missing_source；四档展示标签与三类精编来源分开解释。许可证沿用参考工程的分范围许可结构，保留原 MIT 版权并补充本项目署名与第三方材料归属。
+- `SHELL_CACHE` 升为 `open-melayu-shell-v5`；SW 为同源页面资源与导航使用 Network-First，成功响应更新当前缓存，网络失败只从当前 shell 缓存回退。数据与 API 请求不接管；缓存写入失败不影响在线响应，HTTP 错误保留原响应。
+- `app/server.py` 统一发送 `Cache-Control: no-cache`。本轮启动 8766，健康/统计正常；HTML、CSS、app.js、data.js、sw.js 与磁盘逐字节一致，均确认响应头。没有据此宣称已有用户浏览器已完成 SW 更新。
+- 新增 3 个 SW 行为测试，覆盖旧缓存下的网络优先、离线精确资源/导航回退、当前缓存隔离、数据/API/跨源/非 GET 绕过、存储不可用及 HTTP 503。
+- `node --test tests/frontend.test.mjs tests/frontend.interactions.test.mjs` 默认模式仍受宿主 `spawn EPERM` 阻断；`NODE_OPTIONS=--test-isolation=none` 下 **36/36 PASS**，无跳过。
+- `python tests/test_stage3_trilingual_quality_gates.py` 全部门禁 **PASS**。将该脚本根目录改为从自身路径定位，另从 `.tmp` 执行 `python ../tests/test_stage3_trilingual_quality_gates.py` 验证可移植性，全部门禁再次 PASS。未修改词条、分片、索引或 DATA_VERSION。
+- `node --test tests/verify_workbench_e2e.mjs`（同上 NODE_OPTIONS）两项均因 Chrome 在 CDP 启动前退出（`4294930433`）失败；**未执行页面断言，未取得视觉 1:1 或真实浏览器 SW 验收结果**。
+- 删除指定根目录 6 个 `task_codex_*.md`、`generate_workbench.py`、`词典预览工作台.html` 及四张临时截图；补齐忽略规则，私有临时目录无已跟踪文件。文档本地链接与 JSON 示例解析通过。`.git` 只读，未提交或推送。
+
+## 2026-11-03 侧栏四项修补（此前批次）
 
 - 字母/前缀按钮增加 `white-space: nowrap`；字母“全部”采用 `10px` 和 `-0.05em` 字距。
 - 前缀按钮仅显示前缀文本，计数保留为 `title="数量 词"`；筛选标签为“全部 / 8维精编 / 词根 / 口语 / Jawi / 原义 / 待补”，保留七个 data-filter。

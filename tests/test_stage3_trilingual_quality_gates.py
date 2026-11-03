@@ -19,7 +19,7 @@ import string
 import sys
 from pathlib import Path
 
-ROOT_DIR = Path(r"C:\Users\d\Documents\open-melayu")
+ROOT_DIR = Path(__file__).resolve().parents[1]
 ENRICHED_DIR = ROOT_DIR / "data" / "enriched"
 PRPM_DIR = ROOT_DIR / "data" / "prpm_raw"
 TRIAGE_FILE = ROOT_DIR / "data" / "audit" / "quarantine_triage_report.json"

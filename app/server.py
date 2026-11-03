@@ -39,6 +39,7 @@ MIME_TYPES = {
 
 class MelayuHandler(BaseHTTPRequestHandler):
     def end_headers(self):
+        self.send_header("Cache-Control", "no-cache")
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS, HEAD")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")

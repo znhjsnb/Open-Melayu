@@ -1,7 +1,7 @@
 // Open-Melayu Data Specification & Cache Version
 export const DATA_VERSION = 'om-20261103-v9756';
 export const INDEX_CACHE = `open-melayu-index-${DATA_VERSION}`;
-export const SHELL_CACHE = 'open-melayu-shell-v4';
+export const SHELL_CACHE = 'open-melayu-shell-v5';
 
 export function normalizeWord(word) {
   return String(word ?? '').trim().toLowerCase();

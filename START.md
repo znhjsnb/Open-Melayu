@@ -2,6 +2,12 @@
 
 更新：2026-11-03（Asia/Singapore）。
 
+公开仓库准备与缓存修复（最新）：新增 README、LICENSE、AGENTS 与 docs/SCHEMA。页面 shell 升至 v5，SW 改为 Network-First，网络失败仅查当前 shell cache，绕过数据/API；Python 服务统一发送 `Cache-Control: no-cache`。已清理指定根目录临时任务、生成脚本、预览 HTML 与四张截图，并补齐忽略规则。
+
+本批验证：Node 在 `NODE_OPTIONS=--test-isolation=none` 下 **36/36 PASS**（默认隔离模式受宿主 spawn EPERM 阻断）；Stage 3 全库门禁全部 PASS。Stage 3 脚本已移除硬编码工程路径，从 `.tmp` 运行也通过。8766 已启动，健康/统计正常，五项页面资源与磁盘一致并确认 no-cache。工作台 E2E 两项仍因 Chrome 在 CDP 启动前退出而失败，未执行页面断言。数据版本与词条未变；`.git` 只读，未提交或推送。详见 [工作台验收记录](docs/WORKBENCH_IMPLEMENTATION.md)。
+
+以下为此前批次记录，其中“最新”等字样指该批次当时的状态。
+
 侧栏四项修补（最新）：字母“全部”禁止换行并采用 10px 紧凑字距；两字母前缀仅显示前缀，计数移至 title；七个筛选标签缩短；移动端返回按钮的计算 display 断言改为 flex。页面缓存升至 shell v4，词库版本不变。指定 Node 单元/交互测试在 `NODE_OPTIONS=--test-isolation=none` 下 **33/33 passed**；8766 健康及五项页面资源与磁盘一致。工作台 E2E 已设定桌面 1920×1000 并增加紧凑布局断言，但本轮仍因 Chrome 在 CDP 启动前退出而未执行页面断言。`.git` 只读，未提交。详见 [工作台验收记录](docs/WORKBENCH_IMPLEMENTATION.md)。
 
 此前界面对齐批次记录：

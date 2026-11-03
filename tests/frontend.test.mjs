@@ -3,7 +3,83 @@ import assert from 'node:assert/strict';
 import { hydrateIndex, searchEntries, distance } from '../app/static/worker.js';
 import { DATA_VERSION, SHELL_CACHE, SHARD_KEYS, shardKeyForWord, loadSearchIndex } from '../app/static/data.js';
 import { readFile } from 'node:fs/promises';
+import { runInNewContext } from 'node:vm';
 import { formatEntryMarkdown, formatEntryAnkiTsv, quoteLabel } from '../app/static/entry-format.js';
+
+async function shellWorker({ offline = false, storageFails = false, status = 200 } = {}) {
+  const handlers = {};
+  const origin = 'http://127.0.0.1:8766';
+  const saved = new Map();
+  const opened = [];
+  const requests = [];
+  const key = request => String(request.url || request);
+  const cache = {
+    match: async request => saved.get(key(request))?.clone(),
+    put: async (request, response) => { saved.set(key(request), response); },
+  };
+  const source = await readFile(new URL('../app/static/sw.js', import.meta.url), 'utf8');
+  runInNewContext(source.replace(/^import .*;\r?\n/, ''), {
+    SHELL_CACHE, URL, Response,
+    self: { location: { origin }, registration: { scope: origin + '/' }, addEventListener: (name, fn) => { handlers[name] = fn; } },
+    caches: {
+      // Cross-cache matches could accidentally serve an old shell or data cache.
+      match: () => { throw Error('global caches.match is forbidden'); },
+      open: async name => { opened.push(name); if (storageFails) throw Error('storage unavailable'); return cache; },
+    },
+    fetch: async request => {
+      requests.push(request.url);
+      if (offline) throw Error('offline');
+      const response = new Response('fresh network', { status });
+      Object.defineProperty(response, 'type', { value: 'basic' });
+      return response;
+    },
+  });
+  return { saved, opened, requests, async get(path, mode = 'cors', method = 'GET') {
+    let response;
+    const pending = [];
+    handlers.fetch({ request: { url: new URL(path, origin).href, mode, method },
+      waitUntil: promise => pending.push(promise), respondWith: promise => { response = promise; } });
+    const result = await response;
+    await Promise.all(pending);
+    return result;
+  } };
+}
+
+test('service worker prefers fresh network over an old shell and updates only the current cache', async () => {
+  const sw = await shellWorker();
+  const url = 'http://127.0.0.1:8766/styles.css';
+  sw.saved.set(url, new Response('old shell'));
+  assert.equal(await (await sw.get('/styles.css')).text(), 'fresh network');
+  assert.equal(await sw.saved.get(url).text(), 'fresh network');
+  assert.deepEqual(sw.opened, [SHELL_CACHE]);
+  assert.deepEqual(sw.requests, [url]);
+});
+
+test('service worker offline fallback uses the current exact resource or navigation shell', async () => {
+  const sw = await shellWorker({ offline: true });
+  sw.saved.set('http://127.0.0.1:8766/styles.css', new Response('offline css'));
+  sw.saved.set('http://127.0.0.1:8766/index.html', new Response('offline page'));
+  assert.equal(await (await sw.get('/styles.css')).text(), 'offline css');
+  assert.equal(await (await sw.get('/reading', 'navigate')).text(), 'offline page');
+  assert.equal((await sw.get('/app.js')).type, 'error');
+  assert.ok(sw.opened.every(name => name === SHELL_CACHE));
+});
+
+test('service worker bypasses data/API/unrelated requests and tolerates storage failure', async () => {
+  const sw = await shellWorker({ storageFails: true });
+  for (const path of ['/data/shards/s.json', '/data/search_index.json', '/api/health', '/unknown.png', 'https://example.com/app.js']) {
+    assert.equal(await sw.get(path), undefined);
+  }
+  assert.equal(await sw.get('/app.js', 'cors', 'POST'), undefined);
+  assert.equal(await sw.get('/api/stats', 'navigate'), undefined);
+  assert.equal(sw.requests.length, 0);
+  assert.equal(await (await sw.get('/app.js')).text(), 'fresh network');
+  const unavailable = await shellWorker({ offline: true, storageFails: true });
+  assert.equal((await unavailable.get('/', 'navigate')).type, 'error');
+  const serverError = await shellWorker({ status: 503 });
+  assert.equal((await serverError.get('/app.js')).status, 503);
+  assert.equal(serverError.opened.length, 0);
+});
 
 const index = hydrateIndex([
   { id: 6, w: 'Anak', r: 'ANAK', j: 'انق', a: ' ', e: 1, s: ['孩子', '小孩'] },
@@ -17,7 +93,7 @@ const words = options => searchEntries(index, options).results.map(e => e.w);
 
 test('immutable data build and independent shell version / shard mapping', () => {
   assert.equal(DATA_VERSION, 'om-20261103-v9756');
-  assert.equal(SHELL_CACHE, 'open-melayu-shell-v4');
+  assert.equal(SHELL_CACHE, 'open-melayu-shell-v5');
   assert.equal(SHARD_KEYS.length, 27);
   assert.equal(shardKeyForWord(' Saya '), 's');
   assert.equal(shardKeyForWord('انق'), 'other');
