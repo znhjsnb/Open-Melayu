@@ -20,6 +20,7 @@ test('browser UI controllers with isolated data, real DOM/worker/IndexedDB/CSS',
   const browser = await openBrowser({ fixture: { index, shards } });
   t.after(() => browser.close());
   const { evaluate: js, send } = browser;
+  await send('Emulation.setDeviceMetricsOverride', { width: 1920, height: 1000, deviceScaleFactor: 1, mobile: false });
   await send('Page.addScriptToEvaluateOnNewDocument', { source: `
     const NativeWorker = window.Worker;
     window.Worker = class extends NativeWorker {
@@ -36,6 +37,24 @@ test('browser UI controllers with isolated data, real DOM/worker/IndexedDB/CSS',
     await until(() => js(`document.querySelector('.word-title')?.textContent === ${JSON.stringify(word)}`));
   };
   await ready();
+
+  await t.test('desktop shell geometry: back hidden, two alphabet rows, footer offline and anchored typography', async () => {
+    assert.equal(await js(`getComputedStyle(document.getElementById('back')).display`), 'none');
+    assert.equal(await js(`getComputedStyle(document.getElementById('alphabet-bar')).flexWrap`), 'wrap');
+    assert.equal(await js(`new Set([...document.querySelectorAll('.alphabet-button')].map(b=>b.offsetTop)).size`), 2);
+    assert.equal(await js(`document.querySelectorAll('#alphabet-bar .alphabet-button').length`), 27);
+    assert.equal(await js(`getComputedStyle(document.querySelector('.alphabet-button[data-letter=""]')).whiteSpace`), 'nowrap');
+    assert.equal(await js(`new Set([...document.querySelectorAll('#filters button')].map(b=>b.offsetTop)).size`), 1);
+    assert.equal(await js(`!!document.querySelector('footer.sidebar-footer #offline')`), true);
+    assert.equal(await js(`!!document.querySelector('.search-area #alphabet-bar + #sub-prefix-bar')`), true);
+    assert.equal(await js(`document.querySelectorAll('.word-row .status-badge').length`), 0);
+    await js(`document.getElementById('typography-btn').click()`);
+    assert.ok(await js(`document.getElementById('typography-panel').getBoundingClientRect().left > 500`));
+    assert.equal(await js(`getComputedStyle(document.getElementById('typography-fonts')).gridTemplateColumns.split(' ').length`), 2);
+    assert.equal(await js(`document.querySelectorAll('#typography-papers .paper-swatch').length`), 4);
+    assert.equal(await js(`document.querySelectorAll('#typography-panel [data-typo-lang], #typography-panel [data-font-size]').length`), 0);
+    await js(`document.getElementById('typography-close').click()`);
+  });
 
   await t.test('initial 50 rows stay fixed until scroll; append retains rows and page follows visible row', async () => {
     await pause(250);
@@ -78,15 +97,16 @@ test('browser UI controllers with isolated data, real DOM/worker/IndexedDB/CSS',
     assert.equal(await js(`location.hash`), '#anak');
     await js(`document.getElementById('search').value = ''`);
   });
-  await t.test('language modes use CSS, retain translations, and synchronize panel and toolbar', async () => {
+  await t.test('toolbar language modes use CSS and retain translations', async () => {
     assert.equal(await js(`document.getElementById('lang-trilingual').getAttribute('aria-pressed')`), 'true');
     await js(`document.getElementById('lang-bilingual').click()`);
     assert.equal(await js(`getComputedStyle(document.querySelector('.sense-en-sub')).display`), 'none');
-    assert.equal(await js(`document.querySelector('[data-typo-lang="bilingual"]').getAttribute('aria-pressed')`), 'true');
-    await js(`document.querySelector('[data-typo-lang="ms"]').click()`);
+    assert.equal(await js(`document.getElementById('lang-bilingual').getAttribute('aria-pressed')`), 'true');
+    assert.equal(await js(`document.querySelectorAll('#typography-panel [data-typo-lang]').length`), 0);
+    await js(`document.getElementById('lang-ms').click()`);
     assert.equal(await js(`getComputedStyle(document.querySelector('.sense-zh-title')).display`), 'none');
     assert.ok(await js(`document.querySelector('.sense-en-sub').textContent.includes('child')`));
-    await js(`document.querySelector('[data-typo-lang="trilingual"]').click()`);
+    await js(`document.getElementById('lang-trilingual').click()`);
     assert.notEqual(await js(`getComputedStyle(document.querySelector('.sense-en-sub')).display`), 'none');
   });
   await t.test('font steps, font families, density and paper persist; theme sync works in both directions', async () => {
@@ -97,9 +117,9 @@ test('browser UI controllers with isolated data, real DOM/worker/IndexedDB/CSS',
     assert.deepEqual(await js(`JSON.parse(localStorage.getItem('open_melayu_typography_v2'))`), { langMode: 'trilingual', fontSize: 115, fontFamily: 'legible', density: 'spacious', paper: 'night' });
     await js(`document.getElementById('theme-toggle').click()`);
     assert.equal(await js(`document.querySelector('[data-paper="white"]').getAttribute('aria-pressed')`), 'true');
-    await js(`document.querySelector('[data-font-size="85"]').click()`);
+    await js(`for(let n=0;n<4;n++) document.getElementById('font-decrease').click()`);
     assert.equal(await js(`document.getElementById('font-decrease').disabled`), true);
-    await js(`document.querySelector('[data-font-size="130"]').click()`);
+    await js(`for(let n=0;n<4;n++) document.getElementById('font-increase').click()`);
     assert.equal(await js(`document.getElementById('font-increase').disabled`), true);
     await js(`document.querySelector('[data-paper="sepia"]').click(); document.querySelector('[data-font-family="serif"]').click()`);
   });
@@ -134,7 +154,7 @@ test('browser UI controllers with isolated data, real DOM/worker/IndexedDB/CSS',
     assert.ok(await js(`!!document.querySelector('#toolbar-pinned-word .jawi-text') && !!document.querySelector('#toolbar-pinned-word [data-speak]')`));
     assert.equal(await js(`getComputedStyle(document.querySelector('.content-toolbar')).position`), 'sticky');
     await js(`document.getElementById('focus').click()`);
-    assert.equal(await js(`document.body.classList.contains('focus-mode')`), true);
+    assert.equal(await js(`document.body.classList.contains('immersive')`), true);
     await js(`document.getElementById('search').dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}))`);
     assert.equal(await js(`document.getElementById('focus').getAttribute('aria-pressed')`), 'false');
     await js(`document.getElementById('typography-btn').click(); document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}))`);
@@ -160,6 +180,8 @@ test('browser UI controllers with isolated data, real DOM/worker/IndexedDB/CSS',
   await t.test('two-letter selection clears on letter change; offline button durably prepares every shard and module SW', async () => {
     await js(`document.querySelector('[data-letter="a"]').click()`);
     await until(() => js(`!!document.querySelector('[data-prefix="an"]')`));
+    assert.equal(await js(`document.querySelector('[data-prefix="an"]').textContent`), 'an');
+    assert.equal(await js(`document.querySelector('[data-prefix="an"]').title`), '2 词');
     await js(`document.querySelector('[data-prefix="an"]').click()`);
     await until(() => js(`document.querySelectorAll('.word-item').length === 2`));
     await js(`document.querySelector('[data-letter="c"]').click()`);
@@ -170,6 +192,25 @@ test('browser UI controllers with isolated data, real DOM/worker/IndexedDB/CSS',
     assert.equal(await js(`(async()=>{const db=await new Promise(r=>{const q=indexedDB.open('open-melayu-shards');q.onsuccess=()=>r(q.result)});return await new Promise(r=>{const q=db.transaction('shards').objectStore('shards').count();q.onsuccess=()=>{r(q.result);db.close()}})})()`), 27);
     await until(() => js(`(async()=>!!(await navigator.serviceWorker.getRegistration()))()`));
   });
+  await t.test('900px mobile navigation, typography and reduced-motion flashcards retain usable geometry', async () => {
+    await send('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
+    await js(`document.getElementById('lang-trilingual').click(); document.getElementById('back').click()`);
+    assert.equal(await js(`getComputedStyle(document.getElementById('content')).display`), 'none');
+    await select('anakku');
+    assert.equal(await js(`document.body.classList.contains('reading')`), true);
+    assert.equal(await js(`getComputedStyle(document.getElementById('back')).display`), 'flex');
+    assert.equal(await js(`document.documentElement.scrollWidth <= innerWidth`), true);
+    await js(`document.getElementById('typography-btn').click()`);
+    assert.equal(await js(`(() => { const r=document.getElementById('typography-panel').getBoundingClientRect(); return r.left >= 0 && r.right <= innerWidth; })()`), true);
+    await js(`document.getElementById('typography-close').click(); document.getElementById('back').click()`);
+    assert.equal(await js(`getComputedStyle(document.getElementById('word-sidebar')).display`), 'flex');
+    await send('Emulation.setEmulatedMedia', { features: [{name:'prefers-reduced-motion',value:'reduce'}] });
+    await js(`document.getElementById('practice').click(); document.getElementById('flashcard').click()`);
+    assert.equal(await js(`getComputedStyle(document.querySelector('.flashcard-inner')).transform`), 'none');
+    await until(() => js(`getComputedStyle(document.querySelector('.flashcard-back')).opacity === '1'`));
+    await js(`document.getElementById('close-study').click()`);
+    await send('Emulation.clearDeviceMetricsOverride');
+  });
   assert.deepEqual(browser.errors, []);
 });
 
@@ -177,6 +218,7 @@ test('live 8766 Stage 3 workbench: 15K, initial 50, original manifest and full t
   const browser = await openBrowser();
   t.after(() => browser.close());
   const { send, evaluate: js } = browser;
+  await send('Emulation.setDeviceMetricsOverride', { width: 1920, height: 1000, deviceScaleFactor: 1, mobile: false });
   await send('Page.navigate', { url: 'http://127.0.0.1:8766/' });
   await until(() => js(`document.querySelectorAll('.word-item').length === 50 && !!document.querySelector('.word-title')`));
   assert.ok(await js(`document.getElementById('connection').textContent.includes('15,000')`));

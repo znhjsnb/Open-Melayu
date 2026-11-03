@@ -42,11 +42,15 @@ export async function openBrowser({ fixture = null } = {}) {
   const pending = new Map();
   try {
     let port;
-    await until(async () => {
+    const started = Date.now();
+    while (!port) {
       if (launchError) throw launchError;
       if (chrome.exitCode !== null) throw Error(`Chrome exited before CDP startup (${chrome.exitCode})`);
-      port = (await readFile(join(profile, 'DevToolsActivePort'), 'utf8')).split('\n')[0]; return port;
-    });
+      if (Date.now() - started > 12000) throw Error('Chrome CDP startup timed out');
+      try { port = (await readFile(join(profile, 'DevToolsActivePort'), 'utf8')).split('\n')[0]; }
+      catch (error) { if (error.code !== 'ENOENT') throw error; }
+      if (!port) await pause(40);
+    }
     const targets = await (await fetch(`http://127.0.0.1:${port}/json/list`)).json();
     ws = new WebSocket(targets.find(t => t.type === 'page').webSocketDebuggerUrl);
     await new Promise((resolve, reject) => { ws.onopen = resolve; ws.onerror = reject; });

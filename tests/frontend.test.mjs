@@ -17,7 +17,7 @@ const words = options => searchEntries(index, options).results.map(e => e.w);
 
 test('immutable data build and independent shell version / shard mapping', () => {
   assert.equal(DATA_VERSION, 'om-20261103-v9756');
-  assert.equal(SHELL_CACHE, 'open-melayu-shell-v2');
+  assert.equal(SHELL_CACHE, 'open-melayu-shell-v4');
   assert.equal(SHARD_KEYS.length, 27);
   assert.equal(shardKeyForWord(' Saya '), 's');
   assert.equal(shardKeyForWord('انق'), 'other');

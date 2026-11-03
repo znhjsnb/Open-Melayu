@@ -1,5 +1,7 @@
 import { SHELL_CACHE } from './data.js';
 
+// Shell revision: 4. Updating this file installs the compact sidebar controls.
+
 const SHELL = [
   './',
   './index.html',

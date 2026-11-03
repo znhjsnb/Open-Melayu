@@ -1,11 +1,8 @@
-import { spawn } from 'child_process';
-import http from 'http';
+import { openBrowser, until } from './browser-harness.mjs';
 import fs from 'fs';
 import path from 'path';
 
-const CHROME_PATH = 'C:\\Users\\d\\.agent-browser\\browsers\\chrome-156.0.8078.47\\chrome.exe';
-const PORT = 9462;
-const ROOT_DIR = 'C:\\Users\\d\\Documents\\open-melayu';
+const ROOT_DIR = path.resolve('.');
 const SCREENSHOT_DIR = path.join(ROOT_DIR, 'data', 'audit', 'screenshots');
 const EVIDENCE_FILE = path.join(ROOT_DIR, 'data', 'audit', 'cdp_trilingual_e2e_evidence.json');
 const MANIFEST_FILE = path.join(ROOT_DIR, 'app', 'static', 'data', 'manifest.json');
@@ -17,69 +14,12 @@ if (!fs.existsSync(SCREENSHOT_DIR)) {
 const localManifest = JSON.parse(fs.readFileSync(MANIFEST_FILE, 'utf-8'));
 const expectedBuildId = localManifest.build_id;
 
-console.log('[*] Launching headless Chrome CDP on port', PORT, 'for build', expectedBuildId);
-const chrome = spawn(CHROME_PATH, [
-  '--headless=new',
-  `--remote-debugging-port=${PORT}`,
-  '--user-data-dir=C:\\Users\\d\\.agent-browser\\poc-profile-trilingual',
-  '--disable-gpu',
-  '--window-size=1280,900',
-  'about:blank'
-]);
-
-await new Promise(r => setTimeout(r, 1600));
-
-const targets = await new Promise((resolve, reject) => {
-  http.get(`http://127.0.0.1:${PORT}/json/list`, res => {
-    let d = '';
-    res.on('data', c => d += c);
-    res.on('end', () => resolve(JSON.parse(d)));
-  }).on('error', reject);
-});
-
-const pageTarget = targets.find(t => t.type === 'page');
-const ws = new WebSocket(pageTarget.webSocketDebuggerUrl);
-
-let idCounter = 1;
-const pending = new Map();
-
-ws.onmessage = event => {
-  const msg = JSON.parse(event.data);
-  if (msg.id && pending.has(msg.id)) {
-    const { resolve, reject } = pending.get(msg.id);
-    pending.delete(msg.id);
-    if (msg.error) reject(msg.error);
-    else resolve(msg.result);
-  }
-};
-
-await new Promise(r => ws.onopen = r);
-
-function send(method, params = {}) {
-  const id = idCounter++;
-  return new Promise((resolve, reject) => {
-    pending.set(id, { resolve, reject });
-    ws.send(JSON.stringify({ id, method, params }));
-  });
-}
-
-await send('Page.enable');
-await send('Runtime.enable');
+// Use a fresh project-local profile. Never clear the user's existing databases.
+console.log('[*] Launching isolated headless Chrome for build', expectedBuildId);
+const browser = await openBrowser();
+const { send, evaluate } = browser;
 await send('Page.navigate', { url: 'http://127.0.0.1:8766/' });
-await new Promise(r => setTimeout(r, 1500));
-await send('Runtime.evaluate', {
-  expression: `(async () => {
-    if (window.indexedDB && window.indexedDB.databases) {
-      const dbs = await window.indexedDB.databases();
-      for (const db of dbs) {
-        window.indexedDB.deleteDatabase(db.name);
-      }
-    }
-    location.reload();
-  })()`,
-  awaitPromise: true
-});
-await new Promise(r => setTimeout(r, 2500));
+await until(() => evaluate(`document.querySelectorAll('.word-item').length === 50 && !!document.querySelector('.word-title')`));
 
 // Verify build_id served by HTTP and data.js matches manifest.json
 const buildCheck = await send('Runtime.evaluate', {
@@ -201,7 +141,6 @@ try {
   console.error('\n[!] CDP E2E Assertion Failed:', err);
   exitCode = 1;
 } finally {
-  ws.close();
-  chrome.kill();
+  await browser.close();
   process.exit(exitCode);
 }

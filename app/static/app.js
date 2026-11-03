@@ -244,7 +244,7 @@ worker.onmessage = event => {
     }
     resultCount.textContent = `找到 ${msg.total.toLocaleString()} 个词条`;
     searchTime.textContent = `${msg.elapsed}ms`;
-    listStatus.textContent = msg.total === 0 ? '未找到符合条件的词条' : '';
+    listStatus.textContent = msg.total === 0 ? '未找到符合条件的词条' : `已载入 ${state.results.length.toLocaleString()} / ${msg.total.toLocaleString()} 词 · 滚动继续浏览`;
   } else if (msg.type === 'error') {
     connectionEl.innerHTML = `<i style="background:#ff3b30"></i> 载入错误`;
     listStatus.textContent = msg.message;
@@ -257,14 +257,12 @@ worker.postMessage({ type: 'init' });
 // Alphabet Bar Generation
 function initAlphabetBar() {
   const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
-  alphabetBar.innerHTML = `<button class="alphabet-pill active" data-letter="">全</button>` +
-    letters.map(l => `<button class="alphabet-pill" data-letter="${l}">${l.toUpperCase()}</button>`).join('');
+  alphabetBar.innerHTML = ['', ...letters].map(l => `<button class="alphabet-button" data-letter="${l}" aria-pressed="${!l}" aria-label="${l ? l.toUpperCase() + ' 开头的词' : '全部字母'}">${l.toUpperCase() || '全部'}</button>`).join('');
 
   alphabetBar.addEventListener('click', e => {
-    const btn = e.target.closest('.alphabet-pill');
+    const btn = e.target.closest('.alphabet-button');
     if (!btn) return;
-    alphabetBar.querySelectorAll('.alphabet-pill').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
+    alphabetBar.querySelectorAll('.alphabet-button').forEach(b => b.setAttribute('aria-pressed', String(b === btn)));
     state.letter = btn.dataset.letter || '';
     state.currentSubPrefix = '';
     state.offset = 0;
@@ -316,24 +314,18 @@ function renderWordList(mode = 'replace', incoming = state.results) {
     idx += mode === 'append' ? state.results.length - incoming.length : 0;
     const norm = normalizeWord(item.w);
     const isSelected = norm === selectedNorm;
-    const isEnriched = item.st === 'e' || item.e === 1 || item.e === true;
-    const stateBadge = isEnriched ? '<span class="status-badge badge-gold">★ 8维精编</span>' :
-                       (item.st === 's' ? '<span class="status-badge badge-source">官方原义</span>' : '<span class="status-badge badge-pending">待补</span>');
     const sensesZh = (item.s && item.s.length) ? item.s.join('；') : '释义资料待补';
 
     return `
-      <div class="word-item${isSelected ? ' selected' : ''}" role="option" aria-selected="${isSelected}" data-word="${escapeHtml(item.w)}" data-index="${idx}">
-        <div class="word-item-top">
-          <strong class="word-head">${escapeHtml(item.w)}</strong>
+      <button id="result-${item.id}" class="word-row word-item${isSelected ? ' selected' : ''}" role="option" aria-selected="${isSelected}" data-word="${escapeHtml(item.w)}" data-index="${idx}" tabindex="-1">
+        <span class="word-row-top">
+          <strong class="word-head" lang="ms">${escapeHtml(item.w)}</strong>
           ${item.j ? `<span class="jawi-pill" dir="rtl">${escapeHtml(item.j)}</span>` : ''}
-          ${stateBadge}
-          <span class="rank-badge">#${item.id}</span>
-        </div>
-        <div class="word-item-bottom">
-          <span class="phonetic-text">${escapeHtml(item.p || '')}</span>
-          <span class="preview-def">${escapeHtml(sensesZh)}</span>
-        </div>
-      </div>
+          <span class="row-pos">${escapeHtml(item.p || `#${item.id}`)}</span>
+          <span class="row-chevron" aria-hidden="true">›</span>
+        </span>
+        <span class="row-meaning preview-def">${escapeHtml(sensesZh)}</span>
+      </button>
     `;
   }).join('');
 
@@ -349,7 +341,7 @@ function renderWordList(mode = 'replace', incoming = state.results) {
   wordList.setAttribute('aria-busy', 'false');
 
   // If nothing is selected, select the first word automatically on desktop
-  if (!state.selectedWord && state.results.length > 0 && window.innerWidth > 860) {
+  if (!state.selectedWord && state.results.length > 0 && window.innerWidth > 900) {
     selectWord(state.results[0].w, 0);
   }
 }
@@ -410,12 +402,13 @@ wordList.addEventListener('wheel', e => { if (e.deltaY < 0 && wordList.scrollTop
 function renderSubPrefixes(counts) {
   const bar = $('sub-prefix-bar');
   bar.hidden = !counts.length;
-  bar.innerHTML = counts.length ? `<button data-prefix="" aria-pressed="${!state.currentSubPrefix}">全部</button>` + counts.map(([prefix, count]) => `<button data-prefix="${escapeHtml(prefix)}" aria-pressed="${state.currentSubPrefix === prefix}">${escapeHtml(prefix)} <small>${count}</small></button>`).join('') : '';
+  bar.innerHTML = counts.length ? `<button class="prefix-button" data-prefix="" aria-pressed="${!state.currentSubPrefix}">全部</button>` + counts.map(([prefix, count]) => `<button class="prefix-button" data-prefix="${escapeHtml(prefix)}" aria-pressed="${state.currentSubPrefix === prefix}" title="${count} 词">${escapeHtml(prefix)}</button>`).join('') : '';
 }
 $('sub-prefix-bar').onclick = e => {
   const button = e.target.closest('[data-prefix]');
   if (!button) return;
   state.currentSubPrefix = button.dataset.prefix;
+  $('sub-prefix-bar').querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
   state.offset = 0; state.page = 1; search();
 };
 
@@ -437,12 +430,14 @@ async function selectWord(word, index = -1) {
   });
 
   // Mobile drawer support
-  if (window.innerWidth <= 860) {
-    document.body.classList.add('mobile-detail-open');
+  if (window.innerWidth <= 900) {
+    document.body.classList.add('reading');
   }
 
   breadcrumb.textContent = `词典 / ${word}`;
   pinnedWord.hidden = true;
+  breadcrumb.hidden = false;
+  content.classList.remove('is-scrolled');
   if (hashWord() !== norm) location.hash = encodeURIComponent(norm);
   saveBtn.disabled = false;
   saveBtn.setAttribute('aria-pressed', String(bookmarks.has(norm)));
@@ -814,13 +809,16 @@ function renderDetailCard(d) {
   detail.scrollTop = 0;
   content.scrollTop = 0;
   content.setAttribute('aria-busy', 'false');
-  pinnedWord.innerHTML = `<strong>${escapeHtml(head.word || d.word)}</strong> ${head.jawi ? `<span class="jawi-text" dir="rtl">${escapeHtml(head.jawi)}</span>` : ''} ${audioButton(head.word || d.word, '朗读')}`;
+  pinnedWord.innerHTML = `<span class="toolbar-word-badge"><strong lang="ms">${escapeHtml(head.word || d.word)}</strong>${head.jawi ? `<span class="jawi-text" dir="rtl">${escapeHtml(head.jawi)}</span>` : ''}</span><span class="pinned-audio">${audioButton(head.word || d.word, '朗读')}</span>`;
   updatePinnedWord();
 }
 function updatePinnedWord() {
   const header = detail.querySelector('.headword-header');
   const toolbar = content.querySelector('.content-toolbar');
-  pinnedWord.hidden = !header || content.scrollTop === 0 || header.getBoundingClientRect().bottom > toolbar.getBoundingClientRect().bottom;
+  const scrolled = !!header && content.scrollTop > 0 && header.getBoundingClientRect().bottom <= toolbar.getBoundingClientRect().bottom;
+  content.classList.toggle('is-scrolled', scrolled);
+  pinnedWord.hidden = !scrolled;
+  breadcrumb.hidden = scrolled;
 }
 content.addEventListener('scroll', updatePinnedWord, { passive: true });
 
@@ -875,6 +873,7 @@ searchInput.oninput = event => {
   state.requestId++;
   detailRequestId++;
   clearButton.hidden = !searchInput.value;
+  $('search-key').hidden = !!searchInput.value;
   clearTimeout(searchDebounce);
   if (composing || event?.isComposing) return;
   searchDebounce = setTimeout(() => {
@@ -889,6 +888,7 @@ clearButton.onclick = () => {
   clearTimeout(searchDebounce);
   searchInput.value = '';
   clearButton.hidden = true;
+  $('search-key').hidden = false;
   state.query = '';
   state.offset = 0;
   state.page = 1;
@@ -899,8 +899,7 @@ clearButton.onclick = () => {
 // Filter Buttons
 filterButtons.forEach(btn => {
   btn.onclick = () => {
-    filterButtons.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
+    filterButtons.forEach(b => b.setAttribute('aria-pressed', String(b === btn)));
     state.filter = btn.dataset.filter || '';
     state.offset = 0;
     state.page = 1;
@@ -950,13 +949,18 @@ async function copyEntry(formatter) {
 }
 copyBtn.onclick = () => copyEntry(formatEntryMarkdown);
 copyAnkiBtn.onclick = () => copyEntry(formatEntryAnkiTsv);
-backBtn.onclick = () => document.body.classList.remove('mobile-detail-open');
+backBtn.onclick = () => {
+  document.body.classList.remove('reading');
+  setFocus(false);
+  updatePinnedWord();
+  searchInput.focus();
+};
 
 function setFocus(enabled) {
-  document.body.classList.toggle('focus-mode', enabled);
+  document.body.classList.toggle('immersive', enabled);
   $('focus').setAttribute('aria-pressed', String(enabled));
 }
-$('focus').onclick = () => setFocus(!document.body.classList.contains('focus-mode'));
+$('focus').onclick = () => setFocus(!document.body.classList.contains('immersive'));
 
 // Keyboard Flow (/ to search, ArrowUp/ArrowDown to select words)
 window.addEventListener('keydown', event => {
@@ -965,6 +969,7 @@ window.addEventListener('keydown', event => {
     if (typographyPanel.open) typographyPanel.close();
     if (studyDialog.open) studyDialog.close();
   }
+  if (studyDialog.open || typographyPanel.open) return;
   // Do NOT hijack input boxes or IME composition
   if (event.isComposing || event.target?.matches?.('input, textarea, [contenteditable]')) {
     if (event.key === 'Escape' && event.target === searchInput) {
@@ -1044,7 +1049,9 @@ function openStudy(dailyOnly = false) {
   $('study-known-count').textContent = '0';
   renderStudyCard();
   studyDialog.showModal();
+  studyDialog.classList.add('is-present');
 }
+studyDialog.addEventListener('close', () => studyDialog.classList.remove('is-present'));
 
 function renderStudyCard() {
   if (state.studyIndex >= state.studyWords.length) {
@@ -1121,7 +1128,7 @@ studyOpenBtn.onclick = () => {
   }
 };
 
-// One preference model drives both language controls and all typography controls.
+// Language lives in the toolbar; typography controls share its persisted preference model.
 const TYPOGRAPHY_KEY = 'open_melayu_typography_v2';
 const typographyDefaults = { langMode: 'trilingual', fontSize: 100, fontFamily: 'sans', density: 'normal', paper: 'white' };
 const typographyOptions = {
@@ -1139,11 +1146,14 @@ function applyTypography(value, persist = true) {
   root.dataset.readingPaper = typography.paper;
   root.dataset.theme = typography.paper === 'night' ? 'dark' : 'light';
   root.style.setProperty('--font-scale', typography.fontSize / 100);
-  typographyScale.textContent = `${typography.fontSize}%`;
+  const density = { compact: [1.45, .8], normal: [1.65, 1], spacious: [1.85, 1.25] }[typography.density];
+  root.style.setProperty('--reading-line-height', density[0]);
+  root.style.setProperty('--reading-padding-scale', density[1]);
+  typographyScale.textContent = `${typography.fontSize}% · ${['紧凑', '小字', '标准', '大字', '特大护眼'][typographyOptions.fontSize.indexOf(typography.fontSize)]}`;
   typographyDecrease.disabled = typography.fontSize === 85;
   typographyIncrease.disabled = typography.fontSize === 130;
   for (const mode of typographyOptions.langMode) $('lang-' + mode).setAttribute('aria-pressed', String(typography.langMode === mode));
-  for (const [attribute, key] of [['typo-lang', 'langMode'], ['font-size', 'fontSize'], ['font-family', 'fontFamily'], ['density', 'density'], ['paper', 'paper']]) {
+  for (const [attribute, key] of [['font-family', 'fontFamily'], ['density', 'density'], ['paper', 'paper']]) {
     document.querySelectorAll(`[data-${attribute}]`).forEach(button => button.setAttribute('aria-pressed', String(String(typography[key]) === button.getAttribute('data-' + attribute))));
   }
   themeToggle.setAttribute('aria-pressed', String(typography.paper === 'night'));
@@ -1151,9 +1161,9 @@ function applyTypography(value, persist = true) {
 }
 for (const mode of typographyOptions.langMode) $('lang-' + mode).onclick = () => applyTypography({ ...typography, langMode: mode });
 typographyPanel.addEventListener('click', e => {
-  for (const [attribute, key] of [['typo-lang', 'langMode'], ['font-size', 'fontSize'], ['font-family', 'fontFamily'], ['density', 'density'], ['paper', 'paper']]) {
+  for (const [attribute, key] of [['font-family', 'fontFamily'], ['density', 'density'], ['paper', 'paper']]) {
     const button = e.target.closest(`[data-${attribute}]`);
-    if (button) applyTypography({ ...typography, [key]: key === 'fontSize' ? Number(button.getAttribute('data-' + attribute)) : button.getAttribute('data-' + attribute) });
+    if (button) applyTypography({ ...typography, [key]: button.getAttribute('data-' + attribute) });
   }
 });
 function changeFont(direction) {
@@ -1163,9 +1173,28 @@ function changeFont(direction) {
 typographyIncrease.onclick = () => changeFont(1);
 typographyDecrease.onclick = () => changeFont(-1);
 typographyReset.onclick = () => applyTypography(typographyDefaults);
-typographyBtn.onclick = () => { typographyPanel.showModal(); typographyBtn.setAttribute('aria-expanded', 'true'); };
+typographyBtn.onclick = () => {
+  if (typographyPanel.open) typographyPanel.close();
+  else { typographyPanel.showModal(); typographyBtn.setAttribute('aria-expanded', 'true'); }
+};
 typographyClose.onclick = () => typographyPanel.close();
-typographyPanel.addEventListener('close', () => typographyBtn.setAttribute('aria-expanded', 'false'));
+$('typography-handle').addEventListener('dblclick', () => typographyPanel.close());
+typographyPanel.addEventListener('cancel', event => { event.preventDefault(); typographyPanel.close(); });
+let typographyOutsideDown = false;
+function outsideTypography(event) {
+  const rect = typographyPanel.getBoundingClientRect();
+  return event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom;
+}
+typographyPanel.addEventListener('pointerdown', event => { typographyOutsideDown = event.target === typographyPanel && outsideTypography(event); });
+typographyPanel.addEventListener('click', event => {
+  if (typographyOutsideDown && event.target === typographyPanel && outsideTypography(event)) typographyPanel.close();
+  typographyOutsideDown = false;
+});
+typographyPanel.addEventListener('close', () => {
+  typographyOutsideDown = false;
+  typographyBtn.setAttribute('aria-expanded', 'false');
+  typographyBtn.focus({ preventScroll: true });
+});
 themeToggle.onclick = () => applyTypography({ ...typography, paper: typography.paper === 'night' ? 'white' : 'night' });
 applyTypography(readStorage(TYPOGRAPHY_KEY, typographyDefaults), false);
 
@@ -1183,38 +1212,51 @@ $('offline').onclick = async () => {
 };
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js', { type: 'module' }).catch(() => toast('离线页面缓存暂不可用'));
 
-// Resizer for desktop sidebar width
+// Desktop width is local to Open-Melayu and survives reloads.
 const resizer = $('resizer');
-let isResizing = false;
-let startX = 0;
-let startWidth = 340;
-
-if (resizer) {
-  resizer.addEventListener('pointerdown', e => {
-    isResizing = true;
-    startX = e.clientX;
-    const sidebar = $('word-sidebar');
-    startWidth = sidebar ? sidebar.getBoundingClientRect().width : 340;
-    resizer.setPointerCapture(e.pointerId);
-    document.body.classList.add('resizing');
-  });
-
-  resizer.addEventListener('pointermove', e => {
-    if (!isResizing) return;
-    const dx = e.clientX - startX;
-    const newWidth = Math.max(260, Math.min(600, startWidth + dx));
-    document.documentElement.style.setProperty('--sidebar-width', `${newWidth}px`);
-  });
-
-  function stopResizing() {
-    if (isResizing) {
-      isResizing = false;
-      document.body.classList.remove('resizing');
-    }
-  }
-
-  resizer.addEventListener('pointerup', stopResizing);
-  resizer.addEventListener('pointercancel', stopResizing);
+const SIDEBAR_WIDTH_KEY = 'open_melayu_sidebar_width';
+let sidebarWidth = 340;
+let resizeGrab;
+function setSidebarWidth(value, persist = false) {
+  const width = Number(value);
+  sidebarWidth = Math.max(240, Math.min(640, Number.isFinite(width) ? width : 340));
+  document.documentElement.style.setProperty('--sidebar-width', `${sidebarWidth}px`);
+  resizer.setAttribute('aria-valuenow', sidebarWidth);
+  resizer.setAttribute('aria-valuetext', `${sidebarWidth} 像素`);
+  if (persist) writeStorage(SIDEBAR_WIDTH_KEY, sidebarWidth);
 }
+resizer.setAttribute('aria-valuemin', '240');
+resizer.setAttribute('aria-valuemax', '640');
+setSidebarWidth(readStorage(SIDEBAR_WIDTH_KEY, 340));
+resizer.addEventListener('pointerdown', event => {
+  if (window.innerWidth <= 900 || (event.button !== undefined && event.button !== 0)) return;
+  event.preventDefault();
+  resizeGrab = { id: event.pointerId, x: event.clientX, width: sidebarWidth };
+  resizer.setPointerCapture(event.pointerId);
+  resizer.focus({ preventScroll: true });
+  document.body.classList.add('resizing');
+});
+resizer.addEventListener('pointermove', event => {
+  if (resizeGrab?.id === event.pointerId) setSidebarWidth(resizeGrab.width + event.clientX - resizeGrab.x);
+});
+function finishResize(event) {
+  if (!resizeGrab || (event.pointerId !== undefined && resizeGrab.id !== event.pointerId)) return;
+  resizeGrab = undefined;
+  document.body.classList.remove('resizing');
+  if (resizer.hasPointerCapture?.(event.pointerId)) resizer.releasePointerCapture(event.pointerId);
+  writeStorage(SIDEBAR_WIDTH_KEY, sidebarWidth);
+  updatePinnedWord();
+}
+for (const name of ['pointerup', 'pointercancel', 'lostpointercapture']) resizer.addEventListener(name, finishResize);
+resizer.addEventListener('dblclick', () => { setSidebarWidth(340, true); updatePinnedWord(); });
+resizer.addEventListener('keydown', event => {
+  const step = event.shiftKey ? 40 : 10;
+  const width = { ArrowLeft: sidebarWidth - step, ArrowRight: sidebarWidth + step, Home: 240, End: 640, Enter: 340 }[event.key];
+  if (width === undefined) return;
+  event.preventDefault(); event.stopPropagation();
+  setSidebarWidth(width, true);
+  updatePinnedWord();
+});
+window.addEventListener('resize', updatePinnedWord);
 
 console.log(`[Open-Melayu] App Engine v1.0 (${DATA_VERSION}) initialized.`);

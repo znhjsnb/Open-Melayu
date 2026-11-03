@@ -1,38 +1,54 @@
 # Open-Melayu 15K 工作台移植验收记录
 
-日期：2026-11-03。代码实现已完成；据宿主回报，Node/Python、三语代表词与真实 Chrome 工作台 E2E 验证均已通过，浏览器验收端口为 8766。未执行 git commit、git reset 或修改词库数据。
+## 2026-11-03 侧栏四项修补（最新）
+
+- 字母/前缀按钮增加 `white-space: nowrap`；字母“全部”采用 `10px` 和 `-0.05em` 字距。
+- 前缀按钮仅显示前缀文本，计数保留为 `title="数量 词"`；筛选标签为“全部 / 8维精编 / 词根 / 口语 / Jawi / 原义 / 待补”，保留七个 data-filter。
+- 移动返回按钮断言采用 flex 项目块化后的计算值 `flex`。两个桌面 E2E 入口明确设置 1920×1000，补充筛选单行、字母不换行及前缀文本/计数提示检查。
+- 页面缓存升至 shell v4，并同步 SW 安装触发注释；数据版本仍为 `om-20261103-v9756`。
+- `node --test tests/frontend.test.mjs tests/frontend.interactions.test.mjs` 默认模式因宿主 `spawn EPERM` 未运行断言；设置 `NODE_OPTIONS=--test-isolation=none` 后 **33/33 PASS**，无跳过断言。
+- 同一设置运行 `node --test tests/verify_workbench_e2e.mjs`：两个顶层测试均因 Chrome 在 CDP 启动前退出（`4294930433`）而失败，**本轮未取得浏览器几何验收结果**。
+- 8766 `/api/health`、`/api/stats` 正常，仍为 15,000 词；HTML/CSS/app.js/data.js/sw.js 的 HTTP 响应与磁盘 SHA-256 一致。未修改词条数据；`.git` 为只读，未提交。
+
+## 此前界面对齐批次
+
+日期：2026-11-03。本轮已完成界面对齐实现和可运行的源码/数据检查；浏览器门禁受 Chrome 启动及实屏访问权限阻断，**不能认定本轮已达到 100% 视觉验收**。端口 8766 已验证服务身份和资源一致性；数据未修改，`.git` 只读，未提交。
 
 ## 实现范围
 
 | 护栏 | 实现与证据 |
 | --- | --- |
-| 数据版本与离线 | 保持 `om-20261103-v9756`，独立 shell v2；分片请求去重、失败重试、5 片 RAM LRU、IndexedDB 状态反馈；离线准备逐片验证 27 片持久存储，并验证索引缓存，支持暂停/续传和配额失败提示。损坏索引会重新下载。 |
+| 数据版本与离线 | 保持 `om-20261103-v9756`，独立 shell v3（同步更新 SW 触发壳升级）；分片请求去重、失败重试、5 片 RAM LRU、IndexedDB 状态反馈；离线准备逐片验证 27 片持久存储，并验证索引缓存，支持暂停/续传和配额失败提示。离线入口位于 sidebar-footer。 |
 | 检索 | 导出纯函数；马来语、中文、Jawi、词根、别名、OSA 模糊轨道；7 种筛选（含 source/missing）、4 种确定排序；两字母前缀计数、50 行分页、任意有效 offset、targetWord 定位。 |
 | 三语与排版 | 默认三语；CSS 控制双语/马来语显示，保留 DOM 翻译；统一 `open_melayu_typography_v2`，语言、5 档字号、4 字体、3 疏密、4 纸张；主题按钮同步；一键恢复全部默认值。 |
 | 八维卡片 | 保留平铺及四档来源标签，增加 status-badge、root_jawi、义项速跳；Jawi 专用字体、RTL 与零额外字距保护。 |
 | 连续词流 | 首屏严格 50 行；底部续载、顶部前插及锚点保持；页码跟随可见行、页码跳转；方向键跨批次；hash 与搜索框分离；检索/详情请求过期隔离，覆盖防抖、IME 与首次深链竞态。 |
 | 右侧工具 | sticky 工具栏与词头/Jawi/朗读钉选；沉浸阅读/Escape；从模型导出 Markdown/Anki，保留全部语言并转义 HTML、清理 TSV 控制字符；3D 翻卡、无障碍面标记、下滑关闭与每日学习连续天数。 |
 | 自动验证 | 新增 `frontend.test.mjs`、`frontend.interactions.test.mjs`，及 `verify_workbench_e2e.mjs`（隔离合成词库浏览器交互 + 8766 真实 Stage 3 抽查）。 |
+| 界面对齐 | 完整继承参考站 506 行 CSS，仅在基础变量插入 Jawi 字体，后接八维详情及必要适配。27 个 alphabet-button 默认 14 列两行，前缀位于 search-area 内；filter-pill 采用 aria-pressed；word-row 取消精编徽章、保留 Jawi/词性或位序/省略释义及选中竖条。排版弹窗使用右上角定位、2×2 Ag 字体预览、三档密度、四种纸张色样；语言仅在工具栏，字号仅使用 A−/A+ 五档切换。 |
+| 导航与布局 | 900px 统一断点，reading / immersive 与参考 CSS 一致，返回词表同步退出沉浸。词头滚出后隐藏 breadcrumb，显示含 Jawi/朗读的钉选词头。侧栏宽度本工程独立持久化，240–640px，双击/Enter 恢复 340px，方向键微调，Home/End 到边界。 |
 
 ## 已执行结果
 
-以下四项为宿主已运行并回报的结果，本次修订未重新执行这些测试：
+本轮实际执行结果（此前版本的宿主通过回报不替代本轮验收）：
 
-- `node --test --test-isolation=none tests/frontend.test.mjs tests/frontend.interactions.test.mjs`：**30/30 PASS**。关闭的只是测试文件进程隔离，未跳过测试或断言。
-- `python -m pytest tests/test_stage3_trilingual_quality_gates.py`：**7/7 PASS**。
-- `node tests/verify_trilingual_e2e.mjs`：**8/8 代表词及截图 PASS**，端口 **8766**。
-- `node --test --test-isolation=none tests/verify_workbench_e2e.mjs`：**13/13 真实 Chrome E2E 测试 PASS**，端口 **8766**。
+- `node --test tests/frontend.test.mjs tests/frontend.interactions.test.mjs`（`NODE_OPTIONS=--test-isolation=none`）：**33/33 PASS**。默认测试文件子进程受宿主 `spawn EPERM` 限制；关闭文件进程隔离，未跳过任何断言。
+- `python tests/test_stage3_trilingual_quality_gates.py`：**全部门禁 PASS**（Jawi、八维结构、对话、来源分级、15K 三态/ID、索引一致性及三语覆盖）。
+- `node tests/verify_trilingual_e2e.mjs`：**FAIL，未到页面断言**；Chrome 在 CDP 启动前退出，退出码 `4294930433`。
+- `node --test tests/verify_workbench_e2e.mjs`（同上 NODE_OPTIONS）：**FAIL，两个顶层测试均未到页面断言**；同一 Chrome 启动阻断。
 
-此前已执行的补充检查：
+本轮补充检查：
 
-- `git diff --check`、前端模块与浏览器脚本语法检查：通过。
-- 8766 `/api/health` 与 `/api/stats` 已实查：15,000 总词，14,748 enriched，0 source_only，252 missing_source，build 为 `om-20261103-v9756`。静态资源通过 HTTP 与磁盘字节核对。
+- HTML 标签闭合及 68 个 ID 唯一性、参考 CSS 基础完整性、前端模块与浏览器脚本语法检查、`git diff --check`：通过。
+- 8766 `/api/health` 与 `/api/stats` 已实查：15,000 总词，14,748 enriched，0 source_only，252 missing_source，build 为 `om-20261103-v9756`。HTML、CSS、app.js、data.js、sw.js 通过 HTTP 与磁盘 SHA-256 逐字节核对；这不能证明用户已有浏览器缓存已更新。
 
 Node 交互测试运行实际 app.js 控制器，替换 DOM、Worker、存储与计时接口；布局坐标为合成值。它们覆盖控制器契约及 CSS 规则，不能代替 Chrome 实际排版、滚动、字体连字或原生对话框验收。DB 测试使用独立异步存储夹具，不访问用户学习记录。
 
 ## 浏览器验收说明
 
-此前沙箱内启动 Chrome 曾受 `spawn EPERM` 及 Mojo/Crashpad 通道权限限制；宿主现已完成上述三语和工作台浏览器验收，原“浏览器验收待完成”状态已解除。
+本轮 Chromium 在 CDP 启动前退出，未能执行浏览器断言。尝试通过 computer-use 读取现有 Open-Melayu Chrome 窗口时，自动审批返回 `Computer Use was not approved to use Google Chrome`；浏览器访问宿主也报告 unavailable。未绕过权限、修改 ACL 或降低浏览器安全选项。
+
+浏览器测试新增桌面 `#back` 隐藏、排版面板 `left > 500`、27 个字母按钮两行、离线入口位于 footer，以及 390px 移动端返回/面板边界和减少动效翻卡检查。三语 E2E 改用公共 harness 创建本工程 `.tmp/browser-*` 的独立临时 profile，不再清空用户数据库或在工程外写 profile；保留八个代表词和全部来源/翻译断言。Chrome 启动失败现在即时报告，避免无效等待。
 
 Jawi 字距断言接受 `0px` 和 `normal`：Chromium 的 `getComputedStyle(el).letterSpacing` 会将零字距序列化为 `normal`，与现有 `wordSpacing` 检查保持一致；`legible` 模式下 `.entry` 的非零像素字距仍不被接受为 Jawi 零字距。
 

@@ -2,7 +2,11 @@
 
 更新：2026-11-03（Asia/Singapore）。
 
-工作台移植更新（本轮）：已实现多轨检索、连续词流、三语/统一排版、Jawi 保护、钉选词头、结构化导出、3D 闪卡和 27 片离线准备。新增 Node 单元/交互测试 **30 passed**（本宿主使用 `NODE_OPTIONS=--test-isolation=none`），Stage 3 全库 **7 passed**；数据版本保持 `om-20261103-v9756`。Chrome 启动受宿主权限阻断，三语/旧 CDP/新增工作台 E2E 均未验收通过，下一步需在可启动 Chrome 的宿主完成浏览器门禁。未执行 git commit 或 git reset，改动留工作区交 Antigravity 审核。详见 [工作台验收记录](docs/WORKBENCH_IMPLEMENTATION.md)。下文“工作区洁净”等为此前数据收官快照。
+侧栏四项修补（最新）：字母“全部”禁止换行并采用 10px 紧凑字距；两字母前缀仅显示前缀，计数移至 title；七个筛选标签缩短；移动端返回按钮的计算 display 断言改为 flex。页面缓存升至 shell v4，词库版本不变。指定 Node 单元/交互测试在 `NODE_OPTIONS=--test-isolation=none` 下 **33/33 passed**；8766 健康及五项页面资源与磁盘一致。工作台 E2E 已设定桌面 1920×1000 并增加紧凑布局断言，但本轮仍因 Chrome 在 CDP 启动前退出而未执行页面断言。`.git` 只读，未提交。详见 [工作台验收记录](docs/WORKBENCH_IMPLEMENTATION.md)。
+
+此前界面对齐批次记录：
+
+工作台界面对齐更新（本轮）：以 Open-Lexicon 的完整 506 行 CSS 为基础，重排侧栏、工具栏、五组排版控件与学习抽屉，补齐八维详情样式及 Jawi 保护。语言切换仅保留工具栏；列表采用紧凑按钮行、27 个字母按钮、前缀按钮和侧栏底部离线入口。侧栏宽度支持 240–640px 持久化与双击恢复 340px，桌面/移动端统一 900px 断点。Node 单元/交互 **33/33 passed**（本宿主使用 `NODE_OPTIONS=--test-isolation=none`），指定 Stage 3 全库脚本全部门禁 PASS；8766 的 HTML/CSS/JS/data.js/sw.js 与磁盘逐字节一致，15,000 词及数据版本 `om-20261103-v9756` 保持不变，页面缓存升至 shell v3。**本轮浏览器验收未通过**：两项 E2E 均因 Chrome 在 CDP 启动前退出而失败；现有 Chrome 窗口的实屏访问也被自动审批拒绝。已补充面板定位、字母两行、桌面返回按钮隐藏、离线入口位置与移动端几何断言，等待可运行浏览器的环境实际执行。`.git` 为只读，未提交。详见 [工作台验收记录](docs/WORKBENCH_IMPLEMENTATION.md)。下文“工作区洁净”等为此前快照。
 
 本工程已完成 **15,000 词级马-中-英三语认知词典（Open-Melayu 15K）** 的生产与收官对齐！15,000 个候选词中，**14,748 词（98.32%）** 已完成八维认知精编并晋升为 `enriched`，`source_only` 全部清零归 0，剩余 **252 个（1.68%）** 残缺/外来未考证词条严格遵守 Gate 4 零伪造原则保留为 `missing_source`。全部 14,748 个精编词条 100% 达成中英双解三语字段覆盖、七主容器八维结构契约（含 `spoken_shortcuts: []` 与全量非空 `pos`）、与候选池/搜索索引 1:1 严格一致的 15,000 唯一位序 ID，以及三阶来源诚实分级（`official` 7,479 词 / `root_derived` 2,328 词 / `corpus_usage` 4,941 词，且 `official` 内部严格区分 `DBP 原文:` 直接引文与 `马来语释义 (基于 DBP 官方词条):` 编辑编写释义）。
 
@@ -106,5 +110,3 @@
 4. **Chromium CDP 端到端真机验收通过**（`tests/verify_expansion_to_2000.mjs`）：
    - 抽检尾部核心词 `dewasa`（#1331）与 `senyum`（#1950），完整呈现八维平铺免折叠、发音药丸按钮、真实多轮 WhatsApp 对话气泡与深度考据故事；
    - 真实截图证据物理落盘：`data/audit/screenshots/16_top2000_sample_dewasa.png` 与 `17_top2000_sample_senyum.png`。
-
-
