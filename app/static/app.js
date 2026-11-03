@@ -1,5 +1,7 @@
 import { DATA_VERSION, normalizeWord, shardFor } from './data.js';
-import { loadShard, cacheStatus } from './db.js';
+import { loadShard, prepareOffline } from './db.js';
+import { formatEntryMarkdown, formatEntryAnkiTsv } from './entry-format.js';
+export { formatEntryMarkdown, formatEntryAnkiTsv } from './entry-format.js';
 
 // DOM Selectors
 const $ = id => document.getElementById(id);
@@ -20,7 +22,7 @@ const pagePrev = $('page-prev');
 const pageNext = $('page-next');
 const pageInput = $('page-input');
 const pageTotal = $('page-total');
-const themeToggle = $('theme');
+const themeToggle = $('theme-toggle');
 const toastEl = $('toast');
 const connectionEl = $('connection');
 const pinnedWord = $('toolbar-pinned-word');
@@ -29,8 +31,6 @@ const saveBtn = $('save');
 const copyBtn = $('copy');
 const copyAnkiBtn = $('copy-anki');
 const backBtn = $('back');
-const langBilingualBtn = $('lang-bilingual');
-const langMsBtn = $('lang-ms');
 const studyDialog = $('study');
 const dailyBtn = $('daily');
 const practiceBtn = $('practice');
@@ -42,10 +42,10 @@ const flashcard = $('flashcard');
 const typographyBtn = $('typography-btn');
 const typographyPanel = $('typography-panel');
 const typographyClose = $('typography-close');
-const typographyIncrease = $('typography-increase');
-const typographyDecrease = $('typography-decrease');
-const typographyScale = $('typography-scale');
-const typographyReset = $('typography-reset');
+const typographyIncrease = $('font-increase');
+const typographyDecrease = $('font-decrease');
+const typographyScale = $('font-size-value');
+const typographyReset = $('typo-reset');
 
 // Audio and Speech State
 let activeSpeechButton = null;
@@ -54,8 +54,14 @@ let malayVoice = null;
 let voiceInitialized = false;
 
 // App State
-const pageSize = 50;
+export const PAGE_SIZE = 50;
+const pageSize = PAGE_SIZE;
+let currentEntry = null;
+let detailRequestId = 0;
 const state = {
+  streamStartOffset: 0,
+  streamMode: 'replace',
+  currentSubPrefix: '',
   query: '',
   filter: '',
   sort: 'rank',
@@ -72,7 +78,7 @@ const state = {
   studyWords: [],
   studyIndex: 0,
   studyKnown: 0,
-  fontSize: 100
+  pendingNavigation: ''
 };
 
 // Local Storage Helpers
@@ -205,15 +211,37 @@ worker.onmessage = event => {
   if (msg.type === 'ready') {
     connectionEl.innerHTML = `<i></i> 已就绪 · ${msg.count.toLocaleString()} 词`;
     listStatus.textContent = '';
-    search();
+    search('replace', true);
   } else if (msg.type === 'results') {
     if (msg.requestId !== state.requestId) return;
     state.isSearching = false;
-    state.results = msg.results;
+    const mode = state.streamMode;
+    if (mode === 'append') state.results.push(...msg.results);
+    else if (mode === 'prepend') {
+      state.results.unshift(...msg.results);
+      state.streamStartOffset = msg.offset;
+    } else {
+      state.results = msg.results;
+      state.streamStartOffset = msg.offset;
+      state.page = Math.floor(msg.offset / pageSize) + 1;
+    }
+    state.offset = msg.offset;
+    state.selectedIndex = state.results.findIndex(item => normalizeWord(item.w) === state.selectedWord);
     state.total = msg.total;
     state.totalPages = Math.max(1, Math.ceil(msg.total / pageSize));
-    renderWordList();
+    renderWordList(mode, msg.results);
+    renderSubPrefixes(msg.subPrefixCounts || []);
     renderPagination();
+    if (state.pendingNavigation) {
+      const word = state.pendingNavigation;
+      state.pendingNavigation = '';
+      const previousIndex = state.results.findIndex(item => normalizeWord(item.w) === word);
+      const nextIndex = previousIndex + (mode === 'prepend' ? -1 : 1);
+      if (nextIndex >= 0 && nextIndex < state.results.length) {
+        selectWord(state.results[nextIndex].w, nextIndex);
+        wordList.children[nextIndex]?.scrollIntoView({ block: 'nearest' });
+      }
+    }
     resultCount.textContent = `找到 ${msg.total.toLocaleString()} 个词条`;
     searchTime.textContent = `${msg.elapsed}ms`;
     listStatus.textContent = msg.total === 0 ? '未找到符合条件的词条' : '';
@@ -238,6 +266,7 @@ function initAlphabetBar() {
     alphabetBar.querySelectorAll('.alphabet-pill').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     state.letter = btn.dataset.letter || '';
+    state.currentSubPrefix = '';
     state.offset = 0;
     state.page = 1;
     search();
@@ -246,7 +275,17 @@ function initAlphabetBar() {
 initAlphabetBar();
 
 // Search dispatcher
-function search() {
+function search(mode = 'replace', preserveDetail = false) {
+  state.streamMode = mode;
+  if (mode === 'replace') {
+    state.pendingNavigation = '';
+    if (!preserveDetail) {
+      detailRequestId++;
+      if (!currentEntry) state.selectedWord = null;
+    }
+    wordList.scrollTop = 0;
+  }
+  wordList.setAttribute('aria-busy', 'true');
   state.requestId++;
   state.isSearching = true;
   listStatus.textContent = '检索中…';
@@ -257,13 +296,14 @@ function search() {
     filter: state.filter,
     sort: state.sort,
     letter: state.letter,
+    subPrefix: state.currentSubPrefix,
     offset: state.offset,
     bookmarks: bookmarkFilter.getAttribute('aria-pressed') === 'true' ? Array.from(bookmarks) : null
   });
 }
 
 // Render Word List
-function renderWordList() {
+function renderWordList(mode = 'replace', incoming = state.results) {
   if (!state.results.length) {
     wordList.innerHTML = '';
     wordList.setAttribute('aria-busy', 'false');
@@ -272,12 +312,13 @@ function renderWordList() {
 
   const selectedNorm = state.selectedWord ? normalizeWord(state.selectedWord) : '';
 
-  wordList.innerHTML = state.results.map((item, idx) => {
+  const rows = incoming.map((item, idx) => {
+    idx += mode === 'append' ? state.results.length - incoming.length : 0;
     const norm = normalizeWord(item.w);
     const isSelected = norm === selectedNorm;
-    const isEnriched = item.e === 1 || item.e === true;
-    const stateBadge = isEnriched ? '<span class="badge-gold">★ 8维精编</span>' :
-                       (item.st === 's' ? '<span class="badge-source">官方原义</span>' : '<span class="badge-pending">待补</span>');
+    const isEnriched = item.st === 'e' || item.e === 1 || item.e === true;
+    const stateBadge = isEnriched ? '<span class="status-badge badge-gold">★ 8维精编</span>' :
+                       (item.st === 's' ? '<span class="status-badge badge-source">官方原义</span>' : '<span class="status-badge badge-pending">待补</span>');
     const sensesZh = (item.s && item.s.length) ? item.s.join('；') : '释义资料待补';
 
     return `
@@ -296,6 +337,15 @@ function renderWordList() {
     `;
   }).join('');
 
+  if (mode === 'prepend') {
+    const height = wordList.scrollHeight;
+    const top = wordList.scrollTop;
+    wordList.insertAdjacentHTML('afterbegin', rows);
+    wordList.scrollTop = top + wordList.scrollHeight - height;
+  } else if (mode === 'append') wordList.insertAdjacentHTML('beforeend', rows);
+  else { wordList.innerHTML = rows; wordList.scrollTop = 0; }
+  [...wordList.children].forEach((row, idx) => { row.dataset.index = idx; });
+  lastListScrollTop = wordList.scrollTop;
   wordList.setAttribute('aria-busy', 'false');
 
   // If nothing is selected, select the first word automatically on desktop
@@ -309,42 +359,75 @@ function renderPagination() {
   pageInput.value = state.page;
   pageInput.max = state.totalPages;
   pageInput.disabled = state.totalPages <= 1;
+  $('page-go').disabled = !state.total;
   pagePrev.disabled = state.page <= 1;
   pageNext.disabled = state.page >= state.totalPages;
   pageTotal.textContent = `/ ${state.totalPages} 页`;
 }
 
-pagePrev.onclick = () => {
-  if (state.page > 1) {
-    state.page--;
-    state.offset = (state.page - 1) * pageSize;
-    search();
-  }
-};
-
-pageNext.onclick = () => {
-  if (state.page < state.totalPages) {
-    state.page++;
-    state.offset = (state.page - 1) * pageSize;
-    search();
-  }
-};
-
-pageInput.onchange = () => {
-  let p = parseInt(pageInput.value, 10);
-  if (isNaN(p) || p < 1) p = 1;
-  if (p > state.totalPages) p = state.totalPages;
-  state.page = p;
+function jumpPage(value) {
+  const number = Number(value);
+  if (!Number.isFinite(number) || !String(value).trim()) return renderPagination();
+  state.page = Math.max(1, Math.min(state.totalPages, Math.trunc(number)));
   state.offset = (state.page - 1) * pageSize;
   search();
+}
+pagePrev.onclick = () => jumpPage(state.page - 1);
+pageNext.onclick = () => jumpPage(state.page + 1);
+pageInput.onchange = () => jumpPage(pageInput.value);
+$('page-go').onclick = () => jumpPage(pageInput.value);
+pageInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); jumpPage(pageInput.value); } });
+
+function loadMore() {
+  if (state.isSearching || state.streamStartOffset + state.results.length >= state.total) return;
+  state.offset = state.streamStartOffset + state.results.length;
+  search('append');
+}
+function loadPrevious() {
+  if (state.isSearching || state.streamStartOffset <= 0) return;
+  state.offset = Math.max(0, state.streamStartOffset - pageSize);
+  search('prepend');
+}
+function syncVisiblePage() {
+  const rows = [...wordList.children];
+  if (!rows.length) return;
+  let index = 0;
+  while (index + 1 < rows.length && rows[index + 1].offsetTop - rows[0].offsetTop <= wordList.scrollTop + 1) index++;
+  state.page = Math.floor((state.streamStartOffset + index) / pageSize) + 1;
+  renderPagination();
+}
+let lastListScrollTop = 0;
+wordList.addEventListener('scroll', () => {
+  const top = wordList.scrollTop;
+  const upwards = top < lastListScrollTop;
+  lastListScrollTop = top;
+  syncVisiblePage();
+  if (upwards && top < 150) loadPrevious();
+  else if (top > 0 && top + wordList.clientHeight >= wordList.scrollHeight - 250) loadMore();
+}, { passive: true });
+wordList.addEventListener('wheel', e => { if (e.deltaY < 0 && wordList.scrollTop === 0) loadPrevious(); }, { passive: true });
+
+function renderSubPrefixes(counts) {
+  const bar = $('sub-prefix-bar');
+  bar.hidden = !counts.length;
+  bar.innerHTML = counts.length ? `<button data-prefix="" aria-pressed="${!state.currentSubPrefix}">全部</button>` + counts.map(([prefix, count]) => `<button data-prefix="${escapeHtml(prefix)}" aria-pressed="${state.currentSubPrefix === prefix}">${escapeHtml(prefix)} <small>${count}</small></button>`).join('') : '';
+}
+$('sub-prefix-bar').onclick = e => {
+  const button = e.target.closest('[data-prefix]');
+  if (!button) return;
+  state.currentSubPrefix = button.dataset.prefix;
+  state.offset = 0; state.page = 1; search();
 };
 
 // Select and Load Word Detail
 async function selectWord(word, index = -1) {
-  window.selectWord = selectWord;
+  const requestId = ++detailRequestId;
+  currentEntry = null;
+  copyBtn.disabled = copyAnkiBtn.disabled = true;
   const norm = normalizeWord(word);
+  if (!norm) return;
   state.selectedWord = norm;
-  state.selectedIndex = index;
+  state.selectedIndex = index >= 0 ? index : state.results.findIndex(item => normalizeWord(item.w) === norm);
 
   // Highlight list item
   document.querySelectorAll('.word-item').forEach(el => {
@@ -359,11 +442,9 @@ async function selectWord(word, index = -1) {
   }
 
   breadcrumb.textContent = `词典 / ${word}`;
-  pinnedWord.textContent = word;
-  pinnedWord.hidden = false;
+  pinnedWord.hidden = true;
+  if (hashWord() !== norm) location.hash = encodeURIComponent(norm);
   saveBtn.disabled = false;
-  copyBtn.disabled = false;
-  copyAnkiBtn.disabled = false;
   saveBtn.setAttribute('aria-pressed', String(bookmarks.has(norm)));
 
   // Load shard from IDB or network
@@ -372,6 +453,7 @@ async function selectWord(word, index = -1) {
 
   try {
     const res = await loadShard(letter);
+    if (requestId !== detailRequestId) return;
     if (!res || !res.shard || !res.shard[norm]) {
       detail.innerHTML = `
         <div class="welcome">
@@ -381,12 +463,24 @@ async function selectWord(word, index = -1) {
       `;
       return;
     }
-    const entryData = res.shard[norm];
-    renderDetailCard(entryData);
+    currentEntry = res.shard[norm];
+    copyBtn.disabled = copyAnkiBtn.disabled = false;
+    renderDetailCard(currentEntry);
   } catch (err) {
+    if (requestId !== detailRequestId) return;
     detail.innerHTML = `<div class="welcome"><h2>加载出错</h2><p>${escapeHtml(err.message)}</p></div>`;
   }
 }
+
+window.selectWord = selectWord;
+function hashWord() {
+  try { return normalizeWord(decodeURIComponent(location.hash.slice(1))); } catch { return ''; }
+}
+window.addEventListener('hashchange', () => {
+  const word = hashWord();
+  if (word && word !== state.selectedWord) selectWord(word);
+});
+if (hashWord()) selectWord(hashWord());
 
 // Word list click delegation
 wordList.onclick = event => {
@@ -418,17 +512,17 @@ function renderDetailCard(d) {
   // Status Badge
   let statusBadgeHtml = '';
   if (dataState === 'enriched') {
-    statusBadgeHtml = `<span class="badge-gold">★ 8维认知精编</span>`;
+    statusBadgeHtml = `<span class="status-badge badge-gold">★ 8维认知精编</span>`;
     if (head.status === 'corpus_usage') {
-      statusBadgeHtml += ` <span class="badge-source" title="官方词典未单独收录，保留字幕高频语料用法">官方词典未单独收录 · 保留字幕高频语料用法</span>`;
+      statusBadgeHtml += ` <span class="status-badge badge-source" title="官方词典未单独收录，保留字幕高频语料用法">官方词典未单独收录 · 保留字幕高频语料用法</span>`;
     } else if (head.status === 'root_derived') {
-      statusBadgeHtml += ` <span class="badge-source" title="派生自 DBP 官方词根，本词形释义由构词与语料推导">派生自 DBP 词根 · 构词推导释义</span>`;
+      statusBadgeHtml += ` <span class="status-badge badge-source" title="派生自 DBP 官方词根，本词形释义由构词与语料推导">派生自 DBP 词根 · 构词推导释义</span>`;
     }
   } else if (dataState === 'source_only') {
     const srcName = (d.raw_prpm && d.raw_prpm.source) || 'DBP 官方词典';
-    statusBadgeHtml = `<span class="badge-source">${escapeHtml(srcName)} 官方原义</span>`;
+    statusBadgeHtml = `<span class="status-badge badge-source">${escapeHtml(srcName)} 官方原义</span>`;
   } else {
-    statusBadgeHtml = `<span class="badge-pending">词典资料待补</span>`;
+    statusBadgeHtml = `<span class="status-badge badge-pending">词典资料待补</span>`;
   }
 
   let html = `
@@ -448,6 +542,7 @@ function renderDetailCard(d) {
         <span class="meta-pill rank-pill" title="字幕语料词频位序">词频位序: #${d.id}</span>
         ${head.frequency_count ? `<span class="meta-pill count-pill">出现: ${Number(head.frequency_count).toLocaleString()}次</span>` : ''}
       </div>
+      <div class="sense-quick-chips" aria-label="义项速跳">${senses.map(s => `<button class="sense-chip" data-sense="${escapeHtml(s.id)}">${escapeHtml(s.id)} · ${escapeHtml(s.zh_definition || s.ms_definition || '')}</button>`).join('')}</div>
     </header>
   `;
 
@@ -486,7 +581,7 @@ function renderDetailCard(d) {
           <div class="root-container">
             <span class="sub-label">核心词根 (Kata Dasar):</span>
             <button class="family-chip root-chip" data-jump="${escapeHtml(morph.root_word)}">
-              <strong>${escapeHtml(morph.root_word)}</strong> ➔
+              <strong>${escapeHtml(morph.root_word)}</strong> ${morph.root_jawi ? `<span class="root-jawi-inline" dir="rtl">${escapeHtml(morph.root_jawi)}</span>` : ''} ➔
             </button>
           </div>
         ` : ''}
@@ -521,14 +616,14 @@ function renderDetailCard(d) {
           ${senses.map(s => {
             const collocs = s.collocations || [];
             return `
-              <div class="sense-card" id="sense-${s.id}">
+              <div class="sense-card" id="sense-${escapeHtml(s.id)}">
                 <div class="sense-header">
-                  <span class="sense-index">${String(s.id).padStart(2, '0')}</span>
+                  <span class="sense-index">${escapeHtml(String(s.id).padStart(2, '0'))}</span>
                   <span class="pos-badge ${escapeHtml(s.pos)}">${escapeHtml(s.pos)}</span>
                   <h3 class="sense-zh-title">${escapeHtml(s.zh_definition || '')}</h3>
                 </div>
                 ${s.en_definition ? `<p class="sense-en-sub">${escapeHtml(s.en_definition)}</p>` : ''}
-                ${s.ms_definition ? `<div class="sense-ms-quote"><span class="quote-label">${(head.status === 'official' && s.ms_is_verbatim === true) ? 'DBP 原文:' : (head.status === 'corpus_usage' ? '马来语释义 (字幕高频语料用法):' : (head.status === 'root_derived' ? '马来语释义 (基于 DBP 词根推导):' : '马来语释义 (基于 DBP 官方词条):'))}</span> ${escapeHtml(s.ms_definition)}</div>` : ''}
+                ${s.ms_definition ? `<div class="sense-ms-quote"><span class="quote-label">${head.status === 'official' ? (s.ms_is_verbatim === true ? 'DBP 原文:' : '马来语释义 (基于 DBP 官方词条):') : (head.status === 'root_derived' ? '马来语释义 (基于 DBP 词根推导):' : '马来语释义 (字幕高频语料用法):')}</span> ${escapeHtml(s.ms_definition)}</div>` : ''}
                 ${s.nuances ? `<div class="sense-nuance-box">💡 <strong>使用边界:</strong> ${escapeHtml(s.nuances)}</div>` : ''}
                 
                 <!-- DIMENSION 4: COLLOCATIONS UNDER THIS SENSE -->
@@ -718,10 +813,31 @@ function renderDetailCard(d) {
   detail.innerHTML = html;
   detail.scrollTop = 0;
   content.scrollTop = 0;
+  content.setAttribute('aria-busy', 'false');
+  pinnedWord.innerHTML = `<strong>${escapeHtml(head.word || d.word)}</strong> ${head.jawi ? `<span class="jawi-text" dir="rtl">${escapeHtml(head.jawi)}</span>` : ''} ${audioButton(head.word || d.word, '朗读')}`;
+  updatePinnedWord();
 }
+function updatePinnedWord() {
+  const header = detail.querySelector('.headword-header');
+  const toolbar = content.querySelector('.content-toolbar');
+  pinnedWord.hidden = !header || content.scrollTop === 0 || header.getBoundingClientRect().bottom > toolbar.getBoundingClientRect().bottom;
+}
+content.addEventListener('scroll', updatePinnedWord, { passive: true });
 
 // Global Event Delegation for Audio & Jump Chips
 document.addEventListener('click', e => {
+  const senseChip = e.target.closest('[data-sense]');
+  if (senseChip) {
+    const card = document.getElementById(`sense-${senseChip.dataset.sense}`);
+    if (card) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      card.classList.remove('pulse');
+      void card.offsetWidth;
+      card.classList.add('pulse');
+      card.addEventListener('animationend', () => card.classList.remove('pulse'), { once: true });
+    }
+    return;
+  }
   // Speech button
   const speakBtn = e.target.closest('[data-speak]');
   if (speakBtn) {
@@ -738,11 +854,6 @@ document.addEventListener('click', e => {
     e.preventDefault();
     const targetWord = jumpChip.dataset.jump;
     if (targetWord) {
-      searchInput.value = targetWord;
-      state.query = targetWord;
-      state.offset = 0;
-      state.page = 1;
-      search();
       selectWord(targetWord);
     }
     return;
@@ -751,9 +862,21 @@ document.addEventListener('click', e => {
 
 // Search input handlers
 let searchDebounce = null;
-searchInput.oninput = () => {
+let composing = false;
+searchInput.addEventListener('compositionstart', () => {
+  composing = true;
+  clearTimeout(searchDebounce);
+  state.requestId++;
+  detailRequestId++;
+});
+searchInput.addEventListener('compositionend', () => { composing = false; searchInput.oninput(); });
+searchInput.oninput = event => {
+  // Invalidate immediately, including during the debounce interval.
+  state.requestId++;
+  detailRequestId++;
   clearButton.hidden = !searchInput.value;
   clearTimeout(searchDebounce);
+  if (composing || event?.isComposing) return;
   searchDebounce = setTimeout(() => {
     state.query = searchInput.value.trim();
     state.offset = 0;
@@ -763,6 +886,7 @@ searchInput.oninput = () => {
 };
 
 clearButton.onclick = () => {
+  clearTimeout(searchDebounce);
   searchInput.value = '';
   clearButton.hidden = true;
   state.query = '';
@@ -819,54 +943,30 @@ saveBtn.onclick = () => {
   updateBookmarkCount();
 };
 
-// Copy Markdown Action
-copyBtn.onclick = () => {
-  if (!state.selectedWord) return;
-  const entryText = detail.innerText;
-  navigator.clipboard.writeText(`# ${state.selectedWord}\n\n${entryText}`).then(() => {
-    toast(`已复制「${state.selectedWord}」Markdown 文本`);
-  }).catch(() => {
-    toast('复制失败，请手动选择');
-  });
-};
-
-// Copy Anki TSV Action
-copyAnkiBtn.onclick = () => {
-  if (!state.selectedWord) return;
-  const front = state.selectedWord;
-  const back = detail.innerText.replace(/\t/g, ' ').replace(/\n/g, '<br>');
-  const tsv = `${front}\t${back}`;
-  navigator.clipboard.writeText(tsv).then(() => {
-    toast(`已复制「${state.selectedWord}」Anki 制表符数据`);
-  }).catch(() => {
-    toast('复制失败');
-  });
-};
-
-// Mobile Back Button
-backBtn.onclick = () => {
-  document.body.classList.remove('mobile-detail-open');
-};
-
-// Theme Toggle
-function initTheme() {
-  const savedTheme = readStorage('open_melayu_theme', 'light');
-  document.documentElement.dataset.theme = savedTheme;
+async function copyEntry(formatter) {
+  if (!currentEntry) return;
+  try { await navigator.clipboard.writeText(formatter(currentEntry)); toast('已复制词条'); }
+  catch { toast('复制失败，请手动选择'); }
 }
-initTheme();
+copyBtn.onclick = () => copyEntry(formatEntryMarkdown);
+copyAnkiBtn.onclick = () => copyEntry(formatEntryAnkiTsv);
+backBtn.onclick = () => document.body.classList.remove('mobile-detail-open');
 
-themeToggle.onclick = () => {
-  const isDark = document.documentElement.dataset.theme === 'dark';
-  const newTheme = isDark ? 'light' : 'dark';
-  document.documentElement.dataset.theme = newTheme;
-  writeStorage('open_melayu_theme', newTheme);
-  toast(`已切换为${newTheme === 'dark' ? '深色' : '浅色'}主题`);
-};
+function setFocus(enabled) {
+  document.body.classList.toggle('focus-mode', enabled);
+  $('focus').setAttribute('aria-pressed', String(enabled));
+}
+$('focus').onclick = () => setFocus(!document.body.classList.contains('focus-mode'));
 
 // Keyboard Flow (/ to search, ArrowUp/ArrowDown to select words)
 window.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && !event.isComposing) {
+    setFocus(false);
+    if (typographyPanel.open) typographyPanel.close();
+    if (studyDialog.open) studyDialog.close();
+  }
   // Do NOT hijack input boxes or IME composition
-  if (event.isComposing || event.target.matches('input, textarea, [contenteditable]')) {
+  if (event.isComposing || event.target?.matches?.('input, textarea, [contenteditable]')) {
     if (event.key === 'Escape' && event.target === searchInput) {
       searchInput.blur();
     }
@@ -885,6 +985,11 @@ window.addEventListener('keydown', event => {
   if (event.key === 'ArrowDown') {
     event.preventDefault();
     if (!state.results.length) return;
+    if (state.selectedIndex === state.results.length - 1 && !state.isSearching && state.streamStartOffset + state.results.length < state.total) {
+      state.pendingNavigation = state.selectedWord;
+      loadMore();
+      return;
+    }
     let nextIdx = state.selectedIndex + 1;
     if (nextIdx >= state.results.length) nextIdx = state.results.length - 1;
     if (nextIdx !== state.selectedIndex) {
@@ -899,6 +1004,11 @@ window.addEventListener('keydown', event => {
   if (event.key === 'ArrowUp') {
     event.preventDefault();
     if (!state.results.length) return;
+    if (state.selectedIndex === 0 && !state.isSearching && state.streamStartOffset > 0) {
+      state.pendingNavigation = state.selectedWord;
+      loadPrevious();
+      return;
+    }
     let prevIdx = state.selectedIndex - 1;
     if (prevIdx < 0) prevIdx = 0;
     if (prevIdx !== state.selectedIndex) {
@@ -926,7 +1036,8 @@ function openStudy(dailyOnly = false) {
     toast('词库尚未就绪');
     return;
   }
-  state.studyWords = state.results.slice(0, 20);
+  state.studyWords = dailyOnly ? state.results.slice(new Date().getDate() % state.results.length, new Date().getDate() % state.results.length + 1) : state.results.slice(0, 20);
+  recordStudyDay();
   state.studyIndex = 0;
   state.studyKnown = 0;
   $('study-total-count').textContent = state.studyWords.length;
@@ -938,7 +1049,10 @@ function openStudy(dailyOnly = false) {
 function renderStudyCard() {
   if (state.studyIndex >= state.studyWords.length) {
     $('study-progress').textContent = '🎉 本轮练习已完成！';
-    flashcard.innerHTML = `<div class="card-front"><strong>完成！</strong><p>掌握了 ${state.studyKnown}/${state.studyWords.length} 个词条</p></div>`;
+    setFlipped(false);
+    $('card-word').textContent = '完成！';
+    $('card-jawi').textContent = '';
+    $('card-phonetic').textContent = `掌握了 ${state.studyKnown}/${state.studyWords.length} 个词条`;
     studyAgainBtn.disabled = true;
     studyKnownBtn.disabled = true;
     return;
@@ -950,27 +1064,42 @@ function renderStudyCard() {
   $('card-jawi').textContent = cur.j || '';
   $('card-phonetic').textContent = cur.p ? `[${cur.p}]` : '';
   $('card-meaning').innerHTML = `
-    <p><strong>释义:</strong> ${(cur.s && cur.s.length) ? cur.s.join('；') : '释义待补'}</p>
-    ${cur.r ? `<p style="margin-top:6px;"><strong>词根:</strong> ${cur.r}</p>` : ''}
+    <p><strong>释义:</strong> ${escapeHtml((cur.s && cur.s.length) ? cur.s.join('；') : '释义待补')}</p>
+    ${cur.r ? `<p style="margin-top:6px;"><strong>词根:</strong> ${escapeHtml(cur.r)}</p>` : ''}
   `;
 
-  flashcard.querySelector('.card-front').hidden = false;
-  flashcard.querySelector('.card-back').hidden = true;
+  setFlipped(false);
   studyAgainBtn.disabled = false;
   studyKnownBtn.disabled = false;
 }
 
-flashcard.onclick = () => {
-  const front = flashcard.querySelector('.card-front');
-  const back = flashcard.querySelector('.card-back');
-  if (front.hidden) {
-    front.hidden = false;
-    back.hidden = true;
-  } else {
-    front.hidden = true;
-    back.hidden = false;
-  }
+function setFlipped(flipped) {
+  flashcard.classList.toggle('is-flipped', flipped);
+  flashcard.setAttribute('aria-pressed', String(flipped));
+  flashcard.querySelector('.flashcard-front').setAttribute('aria-hidden', String(flipped));
+  flashcard.querySelector('.flashcard-back').setAttribute('aria-hidden', String(!flipped));
+}
+flashcard.onclick = () => setFlipped(!flashcard.classList.contains('is-flipped'));
+flashcard.onkeydown = e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flashcard.click(); } };
+function recordStudyDay() {
+  const date = new Date();
+  const day = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+  const progress = readStorage('open_melayu_streak', { day: '', count: 0 });
+  const previous = new Date(date); previous.setDate(previous.getDate() - 1);
+  const yesterday = `${previous.getFullYear()}-${String(previous.getMonth() + 1).padStart(2, '0')}-${String(previous.getDate()).padStart(2, '0')}`;
+  const count = progress.day === day ? progress.count : progress.day === yesterday ? progress.count + 1 : 1;
+  writeStorage('open_melayu_streak', { day, count });
+  $('study-streak').textContent = `${count} 天连续学习`;
+}
+let grabStart = null;
+const grabber = $('study-grabber');
+grabber.onpointerdown = e => { grabStart = e.clientY; grabber.setPointerCapture(e.pointerId); };
+grabber.onpointerup = e => {
+  if (grabStart !== null && e.clientY - grabStart > 80) studyDialog.close();
+  grabStart = null;
 };
+grabber.onpointercancel = () => { grabStart = null; };
+grabber.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); studyDialog.close(); } };
 
 studyAgainBtn.onclick = () => {
   state.studyIndex++;
@@ -992,31 +1121,67 @@ studyOpenBtn.onclick = () => {
   }
 };
 
-// Typography Settings Dialog
-typographyBtn.onclick = () => typographyPanel.showModal();
+// One preference model drives both language controls and all typography controls.
+const TYPOGRAPHY_KEY = 'open_melayu_typography_v2';
+const typographyDefaults = { langMode: 'trilingual', fontSize: 100, fontFamily: 'sans', density: 'normal', paper: 'white' };
+const typographyOptions = {
+  langMode: ['trilingual', 'bilingual', 'ms'], fontSize: [85, 95, 100, 115, 130],
+  fontFamily: ['sans', 'serif', 'mono', 'legible'], density: ['compact', 'normal', 'spacious'], paper: ['white', 'sepia', 'grey', 'night'],
+};
+let typography;
+function applyTypography(value, persist = true) {
+  typography = Object.fromEntries(Object.entries(typographyOptions).map(([key, options]) => [key, options.includes(value?.[key]) ? value[key] : typographyDefaults[key]]));
+  const root = document.documentElement;
+  document.body.classList.remove('lang-mode-trilingual', 'lang-mode-bilingual', 'lang-mode-ms');
+  document.body.classList.add(`lang-mode-${typography.langMode}`);
+  root.dataset.readingFont = typography.fontFamily;
+  root.dataset.readingDensity = typography.density;
+  root.dataset.readingPaper = typography.paper;
+  root.dataset.theme = typography.paper === 'night' ? 'dark' : 'light';
+  root.style.setProperty('--font-scale', typography.fontSize / 100);
+  typographyScale.textContent = `${typography.fontSize}%`;
+  typographyDecrease.disabled = typography.fontSize === 85;
+  typographyIncrease.disabled = typography.fontSize === 130;
+  for (const mode of typographyOptions.langMode) $('lang-' + mode).setAttribute('aria-pressed', String(typography.langMode === mode));
+  for (const [attribute, key] of [['typo-lang', 'langMode'], ['font-size', 'fontSize'], ['font-family', 'fontFamily'], ['density', 'density'], ['paper', 'paper']]) {
+    document.querySelectorAll(`[data-${attribute}]`).forEach(button => button.setAttribute('aria-pressed', String(String(typography[key]) === button.getAttribute('data-' + attribute))));
+  }
+  themeToggle.setAttribute('aria-pressed', String(typography.paper === 'night'));
+  if (persist) writeStorage(TYPOGRAPHY_KEY, typography);
+}
+for (const mode of typographyOptions.langMode) $('lang-' + mode).onclick = () => applyTypography({ ...typography, langMode: mode });
+typographyPanel.addEventListener('click', e => {
+  for (const [attribute, key] of [['typo-lang', 'langMode'], ['font-size', 'fontSize'], ['font-family', 'fontFamily'], ['density', 'density'], ['paper', 'paper']]) {
+    const button = e.target.closest(`[data-${attribute}]`);
+    if (button) applyTypography({ ...typography, [key]: key === 'fontSize' ? Number(button.getAttribute('data-' + attribute)) : button.getAttribute('data-' + attribute) });
+  }
+});
+function changeFont(direction) {
+  const sizes = typographyOptions.fontSize;
+  applyTypography({ ...typography, fontSize: sizes[Math.max(0, Math.min(sizes.length - 1, sizes.indexOf(typography.fontSize) + direction))] });
+}
+typographyIncrease.onclick = () => changeFont(1);
+typographyDecrease.onclick = () => changeFont(-1);
+typographyReset.onclick = () => applyTypography(typographyDefaults);
+typographyBtn.onclick = () => { typographyPanel.showModal(); typographyBtn.setAttribute('aria-expanded', 'true'); };
 typographyClose.onclick = () => typographyPanel.close();
+typographyPanel.addEventListener('close', () => typographyBtn.setAttribute('aria-expanded', 'false'));
+themeToggle.onclick = () => applyTypography({ ...typography, paper: typography.paper === 'night' ? 'white' : 'night' });
+applyTypography(readStorage(TYPOGRAPHY_KEY, typographyDefaults), false);
 
-typographyIncrease.onclick = () => {
-  if (state.fontSize < 140) {
-    state.fontSize += 10;
-    detail.style.fontSize = `${state.fontSize}%`;
-    typographyScale.textContent = `${state.fontSize}%`;
-  }
+let pauseOffline = false;
+let preparingOffline = false;
+$('offline').onclick = async () => {
+  if (preparingOffline) { pauseOffline = true; return; }
+  preparingOffline = true; pauseOffline = false;
+  try {
+    const result = await prepareOffline(({ completed, total }) => { $('offline').textContent = `${completed}/${total} · 暂停`; }, () => pauseOffline);
+    $('offline').textContent = result.paused ? '继续离线准备' : '离线词库已就绪';
+    toast(result.paused ? '离线准备已暂停，可随时继续' : '27 个分片与搜索索引已持久保存');
+  } catch (error) { $('offline').textContent = '重试离线准备'; toast(error.message); }
+  finally { preparingOffline = false; }
 };
-
-typographyDecrease.onclick = () => {
-  if (state.fontSize > 80) {
-    state.fontSize -= 10;
-    detail.style.fontSize = `${state.fontSize}%`;
-    typographyScale.textContent = `${state.fontSize}%`;
-  }
-};
-
-typographyReset.onclick = () => {
-  state.fontSize = 100;
-  detail.style.fontSize = '100%';
-  typographyScale.textContent = '100% · 标准';
-};
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js', { type: 'module' }).catch(() => toast('离线页面缓存暂不可用'));
 
 // Resizer for desktop sidebar width
 const resizer = $('resizer');

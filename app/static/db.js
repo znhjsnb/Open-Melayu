@@ -1,4 +1,4 @@
-import { DATA_VERSION, shardFor } from './data.js';
+import { DATA_VERSION, SHARD_KEYS, shardFor, loadSearchIndex } from './data.js';
 
 const memory = new Map();
 const inflight = new Map();
@@ -54,7 +54,7 @@ async function readShard(key) {
     try {
       const request = db.transaction('shards').objectStore('shards').get(key);
       request.onsuccess = () => resolve(request.result ?? null);
-      request.onerror = () => resolve(null);
+      request.onerror = () => { cacheStatus.persistent = false; resolve(null); };
     } catch {
       cacheStatus.persistent = false;
       resolve(null);
@@ -69,7 +69,7 @@ async function writeShard(key, shard) {
     try {
       const transaction = db.transaction('shards', 'readwrite');
       transaction.objectStore('shards').put(shard, key);
-      transaction.oncomplete = () => resolve();
+      transaction.oncomplete = () => { cacheStatus.persistent = true; resolve(); };
       transaction.onerror = transaction.onabort = () => {
         cacheStatus.persistent = false;
         resolve();
@@ -90,12 +90,15 @@ function remember(letter, shard) {
   }
 }
 
-export async function loadShard(letter) {
+async function fetchShard(letter) {
+  if (!SHARD_KEYS.includes(letter)) throw new Error('无效分片');
   const key = `${DATA_VERSION}:${letter}`;
   
   // 1. Check memory
   if (memory.has(letter)) {
-    return { shard: memory.get(letter), source: 'memory' };
+    const shard = memory.get(letter);
+    remember(letter, shard);
+    return { shard, source: 'memory' };
   }
   
   // 2. Check IndexedDB
@@ -118,7 +121,7 @@ export async function loadShard(letter) {
   const shard = await response.json().catch(() => {
     throw new Error('分片数据解析失败');
   });
-  if (!shard || typeof shard !== 'object') {
+  if (!shard || typeof shard !== 'object' || Array.isArray(shard)) {
     throw new Error('分片数据结构不合法');
   }
   
@@ -127,11 +130,34 @@ export async function loadShard(letter) {
   return { shard, source: 'network' };
 }
 
-export async function ensureShard(letter) {
+export function loadShard(letter) {
   if (!inflight.has(letter)) {
-    inflight.set(letter, loadShard(letter).finally(() => inflight.delete(letter)));
+    inflight.set(letter, fetchShard(letter).finally(() => inflight.delete(letter)));
   }
   return inflight.get(letter);
+}
+
+export const ensureShard = loadShard;
+
+// Offline readiness is established from durable storage, never from the RAM LRU.
+export async function prepareOffline(onProgress = () => {}, shouldPause = () => false) {
+  const db = await openDatabase();
+  if (!db) throw new Error('浏览器无法持久保存离线词库');
+  await loadSearchIndex({ requireCache: true });
+  let completed = 0;
+  for (const letter of SHARD_KEYS) {
+    if (shouldPause()) return { paused: true, completed, total: SHARD_KEYS.length };
+    const key = `${DATA_VERSION}:${letter}`;
+    if (!await readShard(key)) {
+      const { shard, source } = await loadShard(letter);
+      // A shard may already be in memory after an earlier failed storage write.
+      if (source === 'memory') await writeShard(key, shard);
+    }
+    if (!await readShard(key)) throw new Error(`分片 ${letter} 无法持久保存，请检查存储空间`);
+    onProgress({ completed: ++completed, total: SHARD_KEYS.length, letter });
+  }
+  cacheStatus.persistent = true;
+  return { paused: false, completed, total: SHARD_KEYS.length };
 }
 
 export async function getWordDetail(word) {

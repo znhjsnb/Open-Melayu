@@ -2,6 +2,8 @@
 
 更新：2026-11-03（Asia/Singapore）。
 
+工作台移植更新（本轮）：已实现多轨检索、连续词流、三语/统一排版、Jawi 保护、钉选词头、结构化导出、3D 闪卡和 27 片离线准备。新增 Node 单元/交互测试 **30 passed**（本宿主使用 `NODE_OPTIONS=--test-isolation=none`），Stage 3 全库 **7 passed**；数据版本保持 `om-20261103-v9756`。Chrome 启动受宿主权限阻断，三语/旧 CDP/新增工作台 E2E 均未验收通过，下一步需在可启动 Chrome 的宿主完成浏览器门禁。未执行 git commit 或 git reset，改动留工作区交 Antigravity 审核。详见 [工作台验收记录](docs/WORKBENCH_IMPLEMENTATION.md)。下文“工作区洁净”等为此前数据收官快照。
+
 本工程已完成 **15,000 词级马-中-英三语认知词典（Open-Melayu 15K）** 的生产与收官对齐！15,000 个候选词中，**14,748 词（98.32%）** 已完成八维认知精编并晋升为 `enriched`，`source_only` 全部清零归 0，剩余 **252 个（1.68%）** 残缺/外来未考证词条严格遵守 Gate 4 零伪造原则保留为 `missing_source`。全部 14,748 个精编词条 100% 达成中英双解三语字段覆盖、七主容器八维结构契约（含 `spoken_shortcuts: []` 与全量非空 `pos`）、与候选池/搜索索引 1:1 严格一致的 15,000 唯一位序 ID，以及三阶来源诚实分级（`official` 7,479 词 / `root_derived` 2,328 词 / `corpus_usage` 4,941 词，且 `official` 内部严格区分 `DBP 原文:` 直接引文与 `马来语释义 (基于 DBP 官方词条):` 编辑编写释义）。
 
 ---
@@ -104,6 +106,5 @@
 4. **Chromium CDP 端到端真机验收通过**（`tests/verify_expansion_to_2000.mjs`）：
    - 抽检尾部核心词 `dewasa`（#1331）与 `senyum`（#1950），完整呈现八维平铺免折叠、发音药丸按钮、真实多轮 WhatsApp 对话气泡与深度考据故事；
    - 真实截图证据物理落盘：`data/audit/screenshots/16_top2000_sample_dewasa.png` 与 `17_top2000_sample_senyum.png`。
-
 
 

@@ -30,7 +30,7 @@
         <span class="nav-label">抽认卡片</span>
       </button>
       <span class="nav-divider"></span>
-      <button class="icon-button" id="theme" aria-label="切换深色主题" title="切换主题">
+      <button class="icon-button" id="theme-toggle" aria-label="切换深色主题" title="切换主题">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 14A9 9 0 0 1 10 3.2 9 9 0 1 0 20.8 14Z"/></svg>
       </button>
       <button class="nav-button focus-button" id="focus" aria-label="沉浸阅读" aria-pressed="false" title="沉浸阅读">
@@ -55,10 +55,10 @@
         </div>
         <p id="search-help">↑↓ 切换词条 · Enter 开始阅读 · 搜 #root:ajar 找同族词</p>
         <div id="filters" class="filters" role="group" aria-label="词库范围">
-          <button class="filter-pill active" data-filter="">全部 (15K)</button>
+          <button class="filter-pill active" data-filter="all">全部 (15K)</button>
           <button class="filter-pill" data-filter="enriched">★ 8维精编</button>
           <button class="filter-pill" data-filter="root">词根</button>
-          <button class="filter-pill" data-filter="colloquial">口语缩写</button>
+          <button class="filter-pill" data-filter="colloquial">口语缩写</button><button class="filter-pill" data-filter="jawi">Jawi</button><button class="filter-pill" data-filter="source">官方原义</button><button class="filter-pill" data-filter="missing">待补</button>
         </div>
         <div id="alphabet-bar" class="alphabet-bar" role="group" aria-label="字母快速直达"></div>
       </div>
@@ -75,15 +75,19 @@
         <select id="sort-order" aria-label="排序方式">
           <option value="rank">语料词频高频排序</option>
           <option value="alpha">A–Z 字母排序</option>
+          <option value="alpha-desc">Z–A 字母排序</option>
+          <option value="senses">义项数量排序</option>
         </select>
       </div>
 
+      <div id="sub-prefix-bar" class="sub-prefix-bar" aria-label="两字母前缀" hidden></div>
       <div id="word-list" class="word-list" role="listbox" aria-label="词条结果" tabindex="0" aria-busy="true"></div>
       <div class="list-status" role="status"><span id="list-status">正在准备词库…</span></div>
 
       <div class="page-jumper" role="group" aria-label="页码跳转">
         <button id="page-prev" class="page-nav-btn" aria-label="上一页" disabled>◀</button>
         <label class="page-input-label">第 <input id="page-input" type="number" min="1" max="300" value="1" aria-label="页码" disabled> <span id="page-total">/ 300 页</span></label>
+        <button id="page-go" class="page-nav-btn" aria-label="跳转页码" disabled>前往</button>
         <button id="page-next" class="page-nav-btn" aria-label="下一页" disabled>▶</button>
       </div>
 
@@ -103,10 +107,12 @@
         <span id="breadcrumb">词典 / 开始探索</span>
         <div id="toolbar-pinned-word" class="toolbar-pinned-word" hidden></div>
         <div class="lang-switch" role="group" aria-label="语言模式">
-          <button id="lang-bilingual" class="lang-pill" aria-pressed="true" title="中马双语对照">中马双语</button>
+          <button id="lang-trilingual" class="lang-pill" aria-pressed="true">三语全解</button>
+          <button id="lang-bilingual" class="lang-pill" aria-pressed="false" title="中马双语对照">中马双语</button>
           <button id="lang-ms" class="lang-pill" aria-pressed="false" title="纯马来语沉浸">Bahasa Melayu</button>
         </div>
         <span class="toolbar-actions">
+          <button id="offline" class="text-button" title="保存全部词条与索引供离线使用">离线准备</button>
           <button id="typography-btn" class="text-button typography-trigger" aria-label="阅读排版" aria-haspopup="dialog" aria-controls="typography-panel" title="阅读排版">
             <svg class="typography-glyph" viewBox="0 0 28 24" aria-hidden="true"><text x="1" y="19">a</text><text x="12" y="19" class="glyph-capital">A</text></svg>
             <span>排版</span>
@@ -144,18 +150,20 @@
       </div>
       <button id="typography-close" class="icon-button" aria-label="关闭排版面板">×</button>
     </div>
-    <fieldset>
-      <legend>字号</legend>
-      <div class="typography-size">
-        <button id="typography-decrease" aria-label="缩小字号">A−</button>
-        <output id="typography-scale" aria-live="polite">100% · 标准</output>
-        <button id="typography-increase" aria-label="放大字号">A+</button>
-      </div>
-    </fieldset>
-    <button id="typography-reset" class="text-button typography-reset">恢复默认排版</button>
+    <fieldset><legend>语言模式</legend><div class="typo-options">
+      <button data-typo-lang="trilingual">三语全解</button><button data-typo-lang="bilingual">中马双语</button><button data-typo-lang="ms">Bahasa Melayu</button>
+    </div></fieldset>
+    <fieldset><legend>字号</legend><div class="typography-size"><button id="font-decrease" aria-label="缩小字号">A−</button><output id="font-size-value" aria-live="polite">100%</output><button id="font-increase" aria-label="放大字号">A+</button></div>
+    <div class="typo-options"><button data-font-size="85">85%</button><button data-font-size="95">95%</button><button data-font-size="100">100%</button><button data-font-size="115">115%</button><button data-font-size="130">130%</button></div></fieldset>
+<fieldset><legend>字体</legend><div class="typo-options"><button data-font-family="sans">现代黑体</button><button data-font-family="serif">经典衬线</button><button data-font-family="mono">等宽字体</button><button data-font-family="legible">高易读体</button></div></fieldset>
+<fieldset><legend>疏密</legend><div class="typo-options"><button data-density="compact">紧凑</button><button data-density="normal">标准</button><button data-density="spacious">舒展</button></div></fieldset>
+<fieldset><legend>纸张</legend><div class="typo-options"><button data-paper="white">纸白</button><button data-paper="sepia">暖黄</button><button data-paper="grey">素灰</button><button data-paper="night">深黑</button></div></fieldset>
+<button id="typo-reset" class="text-button typography-reset">恢复默认排版</button>
   </dialog>
 
   <dialog id="study" class="study-dialog" aria-labelledby="study-title">
+    <div id="study-grabber" class="study-grabber" aria-label="下滑关闭" role="button" tabindex="0">━━</div>
+    <span id="study-streak"></span>
     <div class="drawer-heading">
       <div>
         <span class="small-label" id="study-kind">每日认知练习</span>
@@ -169,19 +177,20 @@
     </div>
     <p id="study-progress" class="study-progress" role="status">准备开始...</p>
     <div class="study-body">
-      <div id="flashcard" class="flashcard">
-        <div class="card-front">
+      <div id="flashcard" class="flashcard" role="button" tabindex="0" aria-label="翻转抽认卡" aria-pressed="false"><div class="flashcard-inner">
+        <div class="card-front flashcard-front" aria-hidden="false">
           <span class="small-label">先想一想它的构词与意思</span>
           <strong id="card-word">...</strong>
           <span id="card-jawi" class="jawi-text" dir="rtl"></span>
           <span id="card-phonetic"></span>
           <span class="flip-hint">点击翻开 ↻</span>
         </div>
-        <div class="card-back" hidden>
+        <div class="card-back flashcard-back" aria-hidden="true">
           <span class="small-label">释义与代数公式</span>
           <div id="card-meaning"></div>
           <span class="flip-hint">点击翻回词面 ↻</span>
         </div>
+      </div>
       </div>
       <div class="study-controls">
         <button id="study-again" class="secondary-button">再看一次</button>

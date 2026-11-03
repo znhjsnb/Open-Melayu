@@ -7,7 +7,8 @@ const SHELL = [
   './app.js',
   './db.js',
   './data.js',
-  './worker.js'
+  './worker.js',
+  './entry-format.js'
 ];
 
 self.addEventListener('install', event => {

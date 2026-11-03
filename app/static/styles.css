@@ -57,6 +57,62 @@
 
   --sidebar-width: 340px;
   --font-scale: 1;
+  --reading-font: var(--font-sans);
+  --reading-line-height: 1.65;
+  --reading-space: 1;
+}
+
+/* The language switch controls presentation; all translations stay in the DOM. */
+body.lang-mode-bilingual :is(.sense-en-sub, .colloc-en, .bubble-en),
+body.lang-mode-ms :is(.sense-zh-title, .sense-en-sub, .sense-nuance-box, .colloc-zh, .colloc-en, .bubble-zh, .bubble-en, .preview-def) { display: none; }
+:root[data-reading-font='serif'] { --reading-font: var(--font-serif); }
+:root[data-reading-font='mono'] { --reading-font: var(--font-mono); }
+:root[data-reading-font='legible'] { --reading-font: Verdana, 'Segoe UI', sans-serif; }
+:root[data-reading-font='legible'] .entry { letter-spacing: .025em; word-spacing: .06em; }
+:root[data-reading-density='compact'] { --reading-line-height: 1.45; --reading-space: .8; }
+:root[data-reading-density='spacious'] { --reading-line-height: 1.9; --reading-space: 1.25; }
+:root[data-reading-paper='sepia'] { --bg: #f1e6cf; --surface: #fff5df; --surface-secondary: #f8efd9; --surface-subtle: #ecdfbf; --text: #3c3223; }
+:root[data-reading-paper='grey'] { --bg: #dedfe1; --surface: #f0f1f2; --surface-secondary: #e7e8ea; --surface-subtle: #d5d7da; }
+
+.jawi-title, .jawi-pill, .jawi-text, .root-jawi-inline {
+  font-family: var(--font-jawi) !important;
+  direction: rtl;
+  letter-spacing: 0 !important;
+  word-spacing: normal !important;
+}
+.root-jawi-inline { display: inline-block; margin-inline: 6px; font-size: 1.2em; }
+.entry { font-family: var(--reading-font); font-size: calc(14px * var(--font-scale)); line-height: var(--reading-line-height); }
+.entry :is(p, .sense-zh-title, .colloc-ms, .colloc-zh, .colloc-en, .morph-note, .sense-ms-quote, .sense-en-sub) { font-size: inherit; line-height: inherit; }
+.entry .word-title { font-size: calc(34px * var(--font-scale)); }
+.entry .dimension-section { margin-bottom: calc(24px * var(--reading-space)); }
+.entry :is(.sense-card, .pragmatics-card, .etymology-card) { padding: calc(16px * var(--reading-space)); }
+.sense-quick-chips, .sub-prefix-bar, .typo-options { display: flex; flex-wrap: wrap; gap: 6px; }
+.sense-quick-chips { margin-top: 12px; }
+.sense-chip, .sub-prefix-bar button, .typo-options button { border: 1px solid var(--border); background: var(--surface-subtle); border-radius: 8px; padding: 6px 9px; }
+.sense-chip { max-width: 260px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.sub-prefix-bar { padding: 6px 12px; max-height: 100px; overflow-y: auto; flex-shrink: 0; }
+:is(.sub-prefix-bar, .typo-options) [aria-pressed='true'] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+.sense-card { scroll-margin-top: 80px; }
+.sense-card.pulse { animation: sense-pulse 650ms var(--ease); }
+@keyframes sense-pulse { 50% { opacity: .55; transform: translateY(-3px); } }
+body.focus-mode :is(.sidebar, .resizer) { display: none; }
+body.focus-mode .entry { max-width: 1000px; }
+.toolbar-pinned-word { display: flex; align-items: center; gap: 8px; }
+[hidden] { display: none !important; }
+.typography-popover { max-height: 85dvh; overflow-y: auto; }
+.study-grabber { text-align: center; color: var(--text-tertiary); touch-action: none; cursor: grab; padding: 6px; }
+.flashcard { perspective: 1000px; }
+.flashcard-inner { display: grid; width: 100%; transform-style: preserve-3d; transition: transform 450ms var(--ease); }
+.flashcard.is-flipped .flashcard-inner { transform: rotateY(180deg); }
+.flashcard-front, .flashcard-back { grid-area: 1 / 1; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 180px; backface-visibility: hidden; }
+.flashcard-back { transform: rotateY(180deg); }
+@media (prefers-reduced-motion: reduce) {
+  .flashcard-inner { transition: none; }
+  .sense-card.pulse { animation: none; }
+}
+@media (max-width: 1100px) {
+  #breadcrumb { display: none; }
+  .content-toolbar { height: auto; min-height: 44px; flex-wrap: wrap; gap: 6px; padding: 8px 12px; }
 }
 
 :root[data-theme='dark'] {
@@ -624,6 +680,9 @@ kbd#search-key {
 }
 
 .content-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   height: 44px;
   padding: 0 24px;
   border-bottom: 1px solid var(--border);
