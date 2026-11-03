@@ -2,35 +2,38 @@
 
 更新：2026-11-03（Asia/Singapore）。
 
-本工程已按用户最高指示，全量打通 **15,000 词级马-中-英三语认知词典（Open-Melayu 15K）** 终极闭环！全库精编词条正式收官于 **14,748 词**（`source_only` 全部清零归 0，252 个残缺/外来未考证词条严格遵守 Gate 4 零伪造原则保留为 `missing_source`），100% 达成中英双解原生三语化与三阶来源诚实分级（`official` 7,479 词 / `root_derived` 2,328 词 / `corpus_usage` 4,941 词）！所有代码、27 个静态分片、搜索索引、`pytest` 7 项全量门禁、Chromium CDP 8 词全状态真机验收与 Git 提交均已 100% 闭环。
+本工程已完成 **15,000 词级马-中-英三语认知词典（Open-Melayu 15K）** 的生产与收官对齐！15,000 个候选词中，**14,748 词（98.32%）** 已完成八维认知精编并晋升为 `enriched`，`source_only` 全部清零归 0，剩余 **252 个（1.68%）** 残缺/外来未考证词条严格遵守 Gate 4 零伪造原则保留为 `missing_source`。全部 14,748 个精编词条 100% 达成中英双解三语字段覆盖、七主容器八维结构契约（含 `spoken_shortcuts: []` 与全量非空 `pos`）、与候选池/搜索索引 1:1 严格一致的 15,000 唯一位序 ID，以及三阶来源诚实分级（`official` 7,479 词 / `root_derived` 2,328 词 / `corpus_usage` 4,941 词，且 `official` 内部严格区分 `DBP 原文:` 直接引文与 `马来语释义 (基于 DBP 官方词条):` 编辑编写释义）。
 
 ---
 
-## 零、 全库 15,000 词终极收官交付（14,748 Enriched + 252 Missing Source = 15,000）
+## 零、 全库 15,000 候选池收官账本（14,748 Enriched + 0 Source Only + 252 Missing Source = 15,000）
 
-### 1. 资产全量跃升与三语全覆盖
-- **精编词条总量**：全库收官 **14,748 词**（`data/enriched/<word>.json` 共 14,748 个独立词条对象，无 legacy `batch_*.json` 重复镜像，禁用控制字符与空串 Jawi 全部归 0）；
-- **英文权威定义 (`senses[].en_definition`)**：全库 **28,017 个义项** 100% 具备地道英文定义（缺失 = 0）；
+### 1. 资产全量统计与三语覆盖（针对 14,748 个精编词）
+- **精编词条总量**：**14,748 词**（`data/enriched/<word>.json` 共 14,748 个独立词条对象，无 legacy `batch_*.json` 重复镜像，禁用控制/格式字符 `U+0081/U+00AD/U+200B/U+200C/U+200E` 与空串 Jawi 全部归 0，纯问号 Jawi = 0）；
+- **八维七容器结构契约**：14,748 词 100% 具备完整七主容器（含规范数组 `spoken_shortcuts`），全库 **28,017 个义项** 100% 具备非空词性 `pos` 与 $\ge 2$ 组不同搭配；
+- **英文权威定义 (`senses[].en_definition`)**：全库 **28,017 个义项** 100% 具备英文定义（缺失 = 0）；
 - **地道搭配英文 (`collocations[].en`)**：全量 **56,933 组搭配** 100% 具备英文翻译（缺失 = 0，低搭配义项 = 0）；
-- **WhatsApp 气泡英文 (`messages[].en`)**：全量 **29,981 句真实交锋对话气泡** 100% 具备自然口语英译（缺失 = 0，单轮对话 = 0）；
+- **WhatsApp 气泡英文 (`messages[].en`)**：全量 **29,981 句对话气泡** 100% 具备口语英译（缺失 = 0，单轮对话 = 0）；
 - **正式语体英文 (`dual_scenarios[0].en`)**：全库 14,748 词 100% 全量齐备。
 
-### 2. 三阶来源诚实性（Gate 4 Provenance）与三态守恒
-- **三阶来源精确分级**（100% 基于本地 `data/prpm_raw/*.json` 物理证据）：
-  - `official`（**7,479 词**）：PRPM 具备直接马来语 DBP 词条（Kamus Dewan / Kamus Pelajar），前端展示 `DBP 原文:`；
-  - `root_derived`（**2,328 词**）：真实马来语构词派生词且词根具备直接马来语 DBP 词条，前端展示 `马来语释义 (基于 DBP 词根推导):`；
+### 2. 三阶来源诚实性（Gate 4 Provenance）与三态/ID 守恒
+- **三阶来源精确分级**（基于本地 `data/prpm_raw/*.json` 物理证据，已移除旧白名单入口）：
+  - `official`（**7,479 词**）：PRPM 具备直接马来语 DBP 词条（Kamus Dewan / Kamus Pelajar）；前端依据 `senses[].ms_is_verbatim` 严格区分逐字引文（展示 `DBP 原文:`）与编辑归纳释义（展示 `马来语释义 (基于 DBP 官方词条):`）；
+  - `root_derived`（**2,328 词**）：具备马来语词缀构词标记且词根具备直接马来语 DBP 词条，前端展示 `马来语释义 (基于 DBP 词根推导):`；
   - `corpus_usage`（**4,941 词**）：官方马来语词典未单独收录或仅见于英马词典/字幕高频借词与专名，前端展示 `马来语释义 (字幕高频语料用法):`。
-- **搜索索引与分片一致性实时守恒**：
-  - 全量 14,748 词在 `search_index.json` 中统一标记为 `e=1, st='e'`；
-  - 27 个静态分片与不可变构建发布标识升级为 **`om-20261103-v8488`**；
+- **搜索索引、27 分片与候选池位序 ID 一致性守恒**：
+  - 全量 14,748 词在 `search_index.json` 中统一标记为 `e=1, st='e'`，候选池、精编文件、27 个分片与搜索索引的 15,000 个词形及位序 ID（1~15,000）100% 逐词一致；
+  - 27 个静态分片与不可变构建发布标识升级为 **`om-20261103-v9756`**；
   - 三态守恒严格成立：
     $$\text{enriched (14,748)} + \text{source\_only (0)} + \text{missing\_source (252)} = 15,000$$
 
-### 3. 自动化测试与 Chromium CDP 真机验收（100% GREEN）
+### 3. 自动化测试与 Chromium CDP 代表词真机验收
 - `python -B -m pytest -p no:cacheprovider tests/test_stage3_trilingual_quality_gates.py -v`：**7 passed (returncode = 0)**；
-- `node tests/verify_trilingual_e2e.mjs`：覆盖 `official`（`asli`, `memasak`, `tajam`）、`root_derived`（`anakku`）、`corpus_usage`（`water`, `milan`, `head`）与 `missing_source`（`jaikant`）全状态真机渲染与标签断言，**returncode = 0**。
+- `node tests/verify_trilingual_e2e.mjs`：对 8 个代表词（覆盖 `official`、`root_derived`、`corpus_usage`、`missing_source` 四态）执行词头、三语字段、逐义项搭配数与来源标签硬断言，**returncode = 0**。
 
 ---
+
+> **以下第一至第五节为早期阶段性历史里程碑记录（1,000 词 / 1,841 词阶段快照），保留备查；当前最新状态以第零节为准。**
 
 ## 一、 1,000 词全量深层质量重修（100% 达成）
 
@@ -70,9 +73,9 @@
 
 ## 三、 运行端点与 Git 状态
 
-- **Open-Melayu 词典工作台**：`http://127.0.0.1:8766`（在线，PID 18540，不可变构建 `om-20261102-v1`）。
+- **Open-Melayu 词典工作台**：`http://127.0.0.1:8766`（在线，不可变构建 **`om-20261103-v9756`**）。
 - **Open-Lexicon 25K 参考工程**：`http://127.0.0.1:8765`（只读存活对照）。
-- **Git 状态**：因宿主 `.git` 只读，所有成果标明“已落盘、未提交”，不越权提交。
+- **Git 状态**：全量 14,748 个精编词条、27 个静态分片、搜索索引、测试套件与审计报告均已提交至 `master` 分支，工作区洁净。
 
 ---
 

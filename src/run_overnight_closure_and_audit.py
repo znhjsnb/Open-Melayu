@@ -45,23 +45,8 @@ CLOSURE_LOG_FILE = AUDIT_DIR / "overnight_closure_summary.json"
 TRIAGE_REPORT_FILE = AUDIT_DIR / "quarantine_triage_report.json"
 FINAL_AUDIT_MD = ROOT_DIR / "docs" / "FINAL_15K_AUDIT_REPORT.md"
 
-CORE_MALAY_WITHOUT_PRPM_FILE = {
-    "bagai",
-    "spt",
-    "bertepuk",
-    "drpd",
-    "penulisan",
-    "kamus",
-    "masing",
-    "massa",
-    "edisi",
-    "sesudah",
-    "lahan",
-    "lazimnya",
-    "dikerjakan",
-    "butir",
-    "dahan",
-}
+# Strict Gate 4 policy: no hardcoded whitelist without local PRPM file evidence
+CORE_MALAY_WITHOUT_PRPM_FILE: set[str] = set()
 
 
 def is_sliding_queue_running() -> bool:
@@ -312,73 +297,19 @@ def triage_and_salvage(kb: LinguisticKnowledgeBase) -> Dict[str, Any]:
 
 def reconcile_provenance_status(kb: LinguisticKnowledgeBase) -> Dict[str, int]:
     """
-    Scan all enriched words in data/enriched/*.json and align headword.status & provenance:
-    - 'official' if the word or its morphological root has an official DBP entry in prpm_raw (or is in CORE_MALAY_WITHOUT_PRPM_FILE)
-    - 'corpus_usage' if neither the word nor its root has a DBP entry in prpm_raw
+    Delegate to finalize_gate4_and_salvage3.main() for strict 3-tier provenance classification
+    ('official', 'root_derived', 'corpus_usage') strictly backed by local PRPM files without whitelists.
     """
-    files = [f for f in ENRICHED_DIR.glob("*.json") if not f.name.startswith("batch_")]
-    official_count = 0
-    corpus_usage_count = 0
-    updated_files = 0
-
-    for f in files:
-        try:
-            d = json.loads(f.read_text(encoding="utf-8"))
-        except Exception:
-            continue
-        w = f.stem.lower()
-        morph_root = str(d.get("morphology", {}).get("root_word") or "").strip().lower()
-        kb_root, _ = kb.resolve_root(w)
-
-        w_prpm = kb.get_prpm_data(w)
-        r1_prpm = kb.get_prpm_data(kb_root) if kb_root and kb_root != w else {}
-        r2_prpm = kb.get_prpm_data(morph_root) if morph_root and morph_root not in (w, kb_root) else {}
-
-        is_official = (
-            has_official_dbp_in_prpm(w_prpm)
-            or has_official_dbp_in_prpm(r1_prpm)
-            or has_official_dbp_in_prpm(r2_prpm)
-            or (w in CORE_MALAY_WITHOUT_PRPM_FILE)
-        )
-
-        target_status = "official" if is_official else "corpus_usage"
-        head = d.setdefault("headword", {})
-        changed = False
-
-        if head.get("status") != target_status:
-            head["status"] = target_status
-            changed = True
-
-        prov = d.get("provenance")
-        expected_prov = {
-            "has_official_dbp": bool(is_official),
-            "source_type": "dbp_official" if is_official else "subtitle_corpus_usage",
-            "attribution": "DBP PRPM (Kamus Dewan / Kamus Pelajar)"
-            if is_official
-            else "官方词典未单独收录，保留字幕高频语料用法",
-        }
-        if prov != expected_prov:
-            d["provenance"] = expected_prov
-            changed = True
-
-        if is_official:
-            official_count += 1
-        else:
-            corpus_usage_count += 1
-
-        if changed:
-            f.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
-            updated_files += 1
-
-    print(
-        f"[PROVENANCE] Reconciled {len(files)} enriched files: official={official_count}, corpus_usage={corpus_usage_count} (updated={updated_files})",
-        flush=True,
-    )
+    from finalize_gate4_and_salvage3 import main as run_strict_gate4
+    run_strict_gate4()
+    manifest = json.loads((DATA_DIR / "manifest.json").read_text(encoding="utf-8"))
+    prov_bd = manifest.get("provenance_breakdown", {})
     return {
-        "total_enriched": len(files),
-        "official_count": official_count,
-        "corpus_usage_count": corpus_usage_count,
-        "updated_files": updated_files,
+        "total_enriched": manifest.get("enriched_count", 14748),
+        "official_count": prov_bd.get("official", 0),
+        "root_derived_count": prov_bd.get("root_derived", 0),
+        "corpus_usage_count": prov_bd.get("corpus_usage", 0),
+        "updated_files": 0,
     }
 
 

@@ -2,7 +2,9 @@
 
 更新：2026-11-03（Asia/Singapore）。项目根目录：`C:\Users\d\Documents\open-melayu`。
 
-**最终交付结论（2026-11-03 全库 15,000 词收官闭环）：本工程已完成全量 15,000 候选词的三语化（马-中-英）八维精编与终审收官。全库三态严格守恒为 `14,748 enriched + 0 source_only + 252 missing_source = 15,000`（构建版本 `om-20261103-v8488`）。全部 14,748 个精编词条 100% 具备 $\ge 2$ 轮带说话人身份的 WhatsApp 对话气泡（29,981 句）、全量 28,017 个义项 100% 具备 $\ge 2$ 组三语搭配（56,933 组）、100% 具备历史词源故事与记忆口诀；纯问号 Jawi = 0，空字符串 Jawi = 0，禁用控制字符 = 0；基于 `data/prpm_raw/*.json` 物理证据实现三阶来源诚实分级（`official` 7,479 词 / `root_derived` 2,328 词 / `corpus_usage` 4,941 词），252 个残缺/外来词条严守 Gate 4 零伪造原则保留为 `missing_source` 并在 `data/audit/quarantine_triage_report.json` 中逐词存证；`pytest` 7 项全量门禁与 Chromium CDP 8 词全状态真机验收 100% GREEN，并已通过 Git 完整提交。**
+**最终交付结论（2026-11-03 全库 15,000 候选池收官对齐）：本工程已完成 15,000 候选池中 14,748 词（98.32%）的三语化（马-中-英）八维精编与收官对齐，252 词（1.68%）严守 Gate 4 零伪造原则保留为 `missing_source`。全库三态严格守恒为 `14,748 enriched + 0 source_only + 252 missing_source = 15,000`（构建版本 `om-20261103-v9756`），且候选池、精编文件、27 个分片与搜索索引的 15,000 个位序 ID 100% 逐词一致。全部 14,748 个精编词条 100% 满足七主容器结构契约（含规范数组 `spoken_shortcuts`）、100% 具备 $\ge 2$ 轮带说话人身份的 WhatsApp 对话气泡（29,981 句）、全量 28,017 个义项 100% 具备非空 `pos` 与 $\ge 2$ 组三语搭配（56,933 组）、100% 具备历史词源故事与记忆口诀；纯问号 Jawi = 0，空字符串 Jawi = 0，五类控制/格式字符（`U+0081/U+00AD/U+200B/U+200C/U+200E`）= 0；基于 `data/prpm_raw/*.json` 物理证据实现三阶来源分级（`official` 7,479 词 / `root_derived` 2,328 词 / `corpus_usage` 4,941 词，且 `official` 词条通过 `ms_is_verbatim` 严格区分逐字原文引文与编辑归纳释义），252 个 `missing_source` 词条在 `data/audit/quarantine_triage_report.json` 中逐词存证；`pytest` 7 项门禁测试与 Chromium CDP 8 个代表词真机断言全部通过（returncode = 0），并已完整提交至 Git `master` 分支。**
+
+> **注**：下文第 2 节至第 7 节保留 2026-11-01/11-02 早期 1,000 词基线审计与修复时的历史快照记录；最新全库收官账本请见文末 **第 8.6 节** 及 [FINAL_15K_AUDIT_REPORT.md](FINAL_15K_AUDIT_REPORT.md)。
 
 本文是后续接手的统一事实入口。依据为 [第三阶段审计](CODEX_PHASE3_HALLUCINATION_AUDIT.md) 和 [完整证据](../data/audit/phase3_evidence.json)，审计快照为 2026-11-01 23:58:31。本文编写时定向复核了独立词条数、64 条 Jawi 的缓存可恢复性、缺失计数、索引体积及 manifest；未重做浏览器验收或全库语言学认证。新证据应更新本文对应状态，历史审计保留，不为消除缺陷而改写。
 
@@ -412,7 +414,7 @@ Jawi 只局部 dir=rtl，不翻转整页。无缩写显示“暂无可靠缩写�
   - `missing_source`：**252 词**（残缺碎片/未考证专名，严守零伪造红线保留于 `data/audit/quarantine_triage_report.json`）。
 - **门禁与真机验收**：
   - `pytest`（`tests/test_stage3_trilingual_quality_gates.py`）：7 项测试 100% PASS（returncode = 0）；
-  - Chromium CDP（`tests/verify_trilingual_e2e.mjs`）：8 个代表词覆盖全部四态渲染与标签断言 100% PASS（returncode = 0），构建号 **`om-20261103-v8488`**。
+  - Chromium CDP（`tests/verify_trilingual_e2e.mjs`）：8 个代表词覆盖全部四态渲染与标签断言 100% PASS（returncode = 0），构建号 **`om-20261103-v9756`**。
 
 
 

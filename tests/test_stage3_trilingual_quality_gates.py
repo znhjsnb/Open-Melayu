@@ -29,7 +29,7 @@ DATA_JS = ROOT_DIR / "app" / "static" / "data.js"
 MANIFEST_FILE = DATA_DIR / "manifest.json"
 INDEX_FILE = DATA_DIR / "search_index.json"
 
-CTRL_RE = re.compile(r"[\x81\u00ad\u200b\u200e]")
+CTRL_RE = re.compile(r"[\x81\u00ad\u200b\u200c\u200e]")
 
 if hasattr(sys.stdout, "reconfigure") and sys.stdout is not None:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -87,6 +87,8 @@ def test_jawi_integrity():
 def test_story_and_collocations():
     files = [f for f in ENRICHED_DIR.glob("*.json") if not f.name.startswith("batch_")]
     missing_story = []
+    missing_shortcuts_list = []
+    missing_pos = []
     senses_low_colloc = []
     total_senses = 0
 
@@ -96,16 +98,22 @@ def test_story_and_collocations():
         story = d.get("etymology", {}).get("historical_story")
         if not story or len(story.strip()) < 15:
             missing_story.append(f.name)
+        if not isinstance(d.get("spoken_shortcuts"), list):
+            missing_shortcuts_list.append(f.name)
 
         for s in d.get("senses", []):
             total_senses += 1
+            if not isinstance(s.get("pos"), str) or not s.get("pos").strip():
+                missing_pos.append((f.stem, s.get("id")))
             collocs = s.get("collocations", [])
             if len(collocs) < 2:
                 senses_low_colloc.append((f.stem, s.get("id"), len(collocs)))
 
     assert len(missing_story) == 0, f"Found {len(missing_story)} words missing historical_story: {missing_story[:5]}"
+    assert len(missing_shortcuts_list) == 0, f"Found {len(missing_shortcuts_list)} words without list spoken_shortcuts: {missing_shortcuts_list[:5]}"
+    assert len(missing_pos) == 0, f"Found {len(missing_pos)} senses missing pos: {missing_pos[:5]}"
     assert len(senses_low_colloc) == 0, f"Found {len(senses_low_colloc)} senses with < 2 collocations: {senses_low_colloc[:5]}"
-    print(f"[PASS] Gate 2: historical_story missing = 0, low-collocation senses = 0 (Total senses: {total_senses})")
+    print(f"[PASS] Gate 2: historical_story missing = 0, spoken_shortcuts list = 100%, pos missing = 0, low-collocation senses = 0 (Total senses: {total_senses})")
 
 
 def test_whatsapp_messages():
@@ -196,10 +204,16 @@ def test_three_state_conservation():
         data_js_content = fp.read()
     assert manifest["build_id"] in data_js_content
 
+    pool_list = json.loads((ROOT_DIR / "data" / "candidate_pool_15k.json").read_text(encoding="utf-8"))
+    pool_rank_map = {str(item["word"]).strip().lower(): int(item["rank"]) for item in pool_list}
+
     enriched_found = 0
     source_only_found = 0
     missing_source_found = 0
     total_shard_words = 0
+    shard_ids = set()
+    rank_mismatches = []
+    missing_words_set = set()
 
     letters = list(string.ascii_lowercase) + ["other"]
     for l in letters:
@@ -209,6 +223,10 @@ def test_three_state_conservation():
             shard_data = json.load(fp)
         total_shard_words += len(shard_data)
         for w, entry in shard_data.items():
+            eid = entry.get("id")
+            shard_ids.add(eid)
+            if eid != pool_rank_map.get(w):
+                rank_mismatches.append((w, eid, pool_rank_map.get(w)))
             state = entry.get("data_state")
             if state == "enriched":
                 enriched_found += 1
@@ -216,8 +234,11 @@ def test_three_state_conservation():
                 source_only_found += 1
             elif state == "missing_source":
                 missing_source_found += 1
+                missing_words_set.add(w)
 
     assert total_shard_words == 15000
+    assert len(shard_ids) == 15000, f"Expected 15000 unique IDs in shards, got {len(shard_ids)}"
+    assert len(rank_mismatches) == 0, f"Found shard ID / candidate rank mismatches: {rank_mismatches[:5]}"
     assert enriched_found == expected_enriched, f"Expected {expected_enriched} enriched in shards, got {enriched_found}"
     assert source_only_found == 0, f"Expected 0 source_only in shards, got {source_only_found}"
     assert missing_source_found == 252, f"Expected 252 missing_source in shards, got {missing_source_found}"
@@ -228,9 +249,10 @@ def test_three_state_conservation():
         triage = json.load(tfp)
     type_b_map = triage.get("type_b_missing_source_words", {})
     assert len(type_b_map) == 252, f"Expected 252 type_b_missing_source_words in triage report, got {len(type_b_map)}"
+    assert set(type_b_map.keys()) == missing_words_set, "Mismatch between quarantine_triage_report.json and shard missing_source words"
     empty_reasons = [w for w, item in type_b_map.items() if not (item.get("reason") or "").strip()]
     assert len(empty_reasons) == 0, f"Found empty reasons in quarantine_triage_report.json: {empty_reasons[:5]}"
-    print(f"[PASS] Gate 5: Three-state conservation & triage alignment strictly verified ({enriched_found} + {source_only_found} + {missing_source_found} = 15000)")
+    print(f"[PASS] Gate 5: Three-state conservation, 15,000 unique shard IDs & triage set equality strictly verified ({enriched_found} + {source_only_found} + {missing_source_found} = 15000)")
 
 
 def test_search_index_sync():

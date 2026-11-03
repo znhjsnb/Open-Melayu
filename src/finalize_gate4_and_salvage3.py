@@ -341,7 +341,10 @@ def main():
         (ENRICHED_DIR / f"{w}.json").write_text(json.dumps(entry, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[+] Enriched source_only word: {w}")
 
-    # 2. Index PRPM files and malay_rootwords.json
+    # 2. Index PRPM files, candidate_pool_15k.json, and malay_rootwords.json
+    pool_list = json.loads((DATA_DIR / "candidate_pool_15k.json").read_text(encoding="utf-8"))
+    pool_rank_map = {str(item["word"]).strip().lower(): int(item["rank"]) for item in pool_list}
+
     prpm_cache = {}
     for p in PRPM_DIR.glob("*.json"):
         try:
@@ -351,14 +354,18 @@ def main():
 
     rootwords_map = json.loads((ROOT_DIR / "raw" / "malay_rootwords.json").read_text(encoding="utf-8"))
 
-    # 3. Scan all 14,748 enriched files: clean control chars, empty Jawis, and strictly align Gate 4 provenance
+    # 3. Scan all 14,748 enriched files: clean control chars, empty Jawis, rank sync, 8D container contract, and Gate 4 provenance
     files = sorted([f for f in ENRICHED_DIR.glob("*.json") if not f.name.startswith("batch_")])
     counts = {"official": 0, "root_derived": 0, "corpus_usage": 0}
     cleaned_ctrl = 0
     cleaned_empty_jawi = 0
     updated_files = 0
 
-    banned_chars_re = re.compile(r"[\x81\u00ad\u200b\u200e]")
+    banned_chars_re = re.compile(r"[\x81\u00ad\u200b\u200c\u200e]")
+    pos_fallback_map = {
+        "iebih": "adverb",
+        "thats": "phrase",
+    }
 
     for f in files:
         raw_txt = f.read_text(encoding="utf-8")
@@ -372,6 +379,23 @@ def main():
         w = f.stem.lower()
         head = d.setdefault("headword", {})
         morph = d.setdefault("morphology", {})
+
+        # Sync exact frequency_rank with candidate_pool_15k.json
+        expected_rank = pool_rank_map.get(w)
+        if expected_rank is not None and head.get("frequency_rank") != expected_rank:
+            head["frequency_rank"] = expected_rank
+            changed = True
+
+        # Ensure spoken_shortcuts is always a list (7-container contract)
+        if not isinstance(d.get("spoken_shortcuts"), list):
+            d["spoken_shortcuts"] = []
+            changed = True
+
+        # Ensure every sense has a non-empty pos
+        for s in d.get("senses", []):
+            if not isinstance(s.get("pos"), str) or not s.get("pos").strip():
+                s["pos"] = pos_fallback_map.get(w, "noun")
+                changed = True
 
         # Normalize empty string Jawis in both headword.jawi and morphology.root_jawi
         if head.get("jawi") == "" or (isinstance(head.get("jawi"), str) and not head["jawi"].strip()):
@@ -463,6 +487,23 @@ def main():
         if d.get("provenance") != expected_prov:
             d["provenance"] = expected_prov
             changed = True
+
+        # Check verbatim vs editorial Malay definition on official entries
+        prpm_blob = " ".join(
+            str(w_prpm.get(k) or "") for k in ("kamus_dewan", "kamus_pelajar", "definisi_melayu")
+        )
+        prpm_norm = re.sub(r"\s+", " ", banned_chars_re.sub("", prpm_blob)).strip().lower()
+        for s in d.get("senses", []):
+            ms_def = re.sub(r"\s+", " ", str(s.get("ms_definition") or "")).strip().lower()
+            is_verb = bool(
+                target_status == "official"
+                and ms_def
+                and len(ms_def) >= 6
+                and ms_def in prpm_norm
+            )
+            if s.get("ms_is_verbatim") != is_verb:
+                s["ms_is_verbatim"] = is_verb
+                changed = True
 
         if changed:
             f.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -102,18 +102,25 @@ async function testWord(word, screenshotName, expectedStatus = 'official') {
       const senseEn = document.querySelector('.sense-en-sub')?.textContent?.trim();
       const collocEn = document.querySelector('.colloc-en')?.textContent?.trim();
       const bubbleEn = document.querySelector('.bubble-en')?.textContent?.trim();
+      const formalEn = document.querySelector('.scenario-card.formal .scenario-en')?.textContent?.trim() || document.querySelector('.scenario-en')?.textContent?.trim();
       const quoteLabel = document.querySelector('.quote-label')?.textContent?.trim();
       const statusBadge = document.querySelector('.status-badge')?.textContent?.trim();
       const pendingNotice = document.querySelector('.pending-notice')?.textContent?.trim();
       const bubbles = document.querySelectorAll('.chat-bubble').length;
       const collocs = document.querySelectorAll('.collocation-item').length;
-      return { title, jawi, senseEn, collocEn, bubbleEn, quoteLabel, statusBadge, pendingNotice, bubbles, collocs };
+      const senseCards = Array.from(document.querySelectorAll('.sense-card'));
+      const minCollocsPerSense = senseCards.length ? Math.min(...senseCards.map(sc => sc.querySelectorAll('.collocation-item').length)) : 0;
+      return { title, jawi, senseEn, collocEn, bubbleEn, formalEn, quoteLabel, statusBadge, pendingNotice, bubbles, collocs, minCollocsPerSense };
     })()`,
     returnByValue: true
   });
 
   const data = evalResult.result.value;
   console.log(`[+] Results for #${word}:`, JSON.stringify(data, null, 2));
+
+  if (data.title !== word) {
+    throw new Error(`Expected .word-title '${word}', got '${data.title}'`);
+  }
 
   if (expectedStatus === 'missing_source') {
     if (!data.pendingNotice) {
@@ -124,10 +131,10 @@ async function testWord(word, screenshotName, expectedStatus = 'official') {
     if (!data.collocEn) throw new Error(`colloc-en missing on #${word}`);
     if (!data.bubbleEn) throw new Error(`bubble-en missing on #${word}`);
     if (data.bubbles < 2) throw new Error(`Expected >= 2 chat bubbles on #${word}, got ${data.bubbles}`);
-    if (data.collocs < 2) throw new Error(`Expected >= 2 collocations on #${word}, got ${data.collocs}`);
+    if (data.minCollocsPerSense < 2) throw new Error(`Expected >= 2 collocations per sense on #${word}, got min=${data.minCollocsPerSense}`);
 
-    if (expectedStatus === 'official' && data.quoteLabel !== 'DBP 原文:') {
-      throw new Error(`Expected quoteLabel 'DBP 原文:' on official word #${word}, got '${data.quoteLabel}'`);
+    if (expectedStatus === 'official' && data.quoteLabel !== 'DBP 原文:' && data.quoteLabel !== '马来语释义 (基于 DBP 官方词条):') {
+      throw new Error(`Expected official quoteLabel on #${word}, got '${data.quoteLabel}'`);
     }
     if (expectedStatus === 'root_derived' && data.quoteLabel !== '马来语释义 (基于 DBP 词根推导):') {
       throw new Error(`Expected quoteLabel '马来语释义 (基于 DBP 词根推导):' on root_derived word #${word}, got '${data.quoteLabel}'`);

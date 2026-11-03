@@ -60,7 +60,8 @@ for fpath in word_files:
         "spoken_shortcuts": data.get("spoken_shortcuts", []),
         "cultural_pragmatics": data.get("cultural_pragmatics", {}),
         "sociolinguistic_register": data.get("sociolinguistic_register", data.get("cultural_pragmatics", {})),
-        "etymology": data.get("etymology", {})
+        "etymology": data.get("etymology", {}),
+        "provenance": data.get("provenance", {})
     }
     updated_count += 1
 

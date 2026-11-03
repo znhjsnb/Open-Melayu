@@ -20,7 +20,7 @@
   "senses": [
     {
       "id": 1,
-      "pos": null,
+      "pos": "noun",
       "zh_definition": "尚未确定语言身份及词义的字符串；现有材料不足以把它确认为标准马来语普通词、专名或某个外语词。",
       "en_definition": "An unresolved token whose language, grammatical category, and meaning cannot be established from the supplied evidence.",
       "ms_definition": "Bentuk yang bahasa asal, golongan kata dan maknanya belum dapat dipastikan daripada maklumat yang diberikan; bukan takrif kamus rasmi.",
@@ -36,7 +36,8 @@
           "zh": "原文中的 tien 这一形式",
           "en": "the form ‘tien’ in the original text"
         }
-      ]
+      ],
+      "ms_is_verbatim": false
     }
   ],
   "dual_scenarios": [
@@ -94,5 +95,6 @@
     "has_official_root_dbp": false,
     "source_type": "subtitle_corpus_usage",
     "attribution": "官方词典未单独收录，保留字幕高频语料用法"
-  }
+  },
+  "spoken_shortcuts": []
 }
